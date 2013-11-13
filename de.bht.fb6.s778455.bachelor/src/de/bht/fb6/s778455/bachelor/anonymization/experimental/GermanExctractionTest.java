@@ -21,6 +21,7 @@ import edu.stanford.nlp.ling.CoreLabel;
  * 
  */
 public class GermanExctractionTest {
+	private static final String EXAMPLE_INPUT = "Hallo Sascha Feldmann, ein toller Beitrag von dir.";
 	protected static AbstractSequenceClassifier< CoreLabel > classifier;
 
 	/**
@@ -35,7 +36,7 @@ public class GermanExctractionTest {
 	
 	protected static void testClassifier() {
 		// TODO Auto-generated method stub
-		List<List<CoreLabel>> labeledOut = classifier.classify( "Hallo Sascha, ein toller Beitrag von dir." );
+		List<List<CoreLabel>> labeledOut = classifier.classify( EXAMPLE_INPUT );
 		for (List<CoreLabel> sentence : labeledOut) {
 			System.out.println(sentence);
 		}
@@ -44,6 +45,19 @@ public class GermanExctractionTest {
 	public static void main( String[] args ) {
 		initClassifier();
 		testClassifier();
+		testClassifyToString();
+		testClassifiyXml();
+	}
+
+	private static void testClassifiyXml() {
+		// TODO Auto-generated method stub
+		System.out.println(classifier.classifyWithInlineXML( EXAMPLE_INPUT ));		
+	}
+
+	private static void testClassifyToString() {
+		// TODO Auto-generated method stub
+		System.out.println(classifier.classifyToString( EXAMPLE_INPUT ));
+		
 	}
 
 	
