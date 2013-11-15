@@ -3,7 +3,7 @@
  */
 package de.bht.fb6.s778455.bachelor.anonymization.test.experimental;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -22,14 +22,15 @@ import edu.stanford.nlp.ie.crf.CRFClassifier;
 import edu.stanford.nlp.ling.CoreLabel;
 
 /**
- * <p>This test is designed to test the Stanford NER library with German text corpus files.</p>
+ <p>This test is designed to test the Stanford NER library with German text corpus files.
+ * Here, the HGC corpus gets tested.</p>
  *
  * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
  * @since 15.11.2013
  *
  */
 @RunWith(value = Parameterized.class)
-public class GermanExtractionTest {
+public class GermanExtractionHgcTest {
 	/**
 	 * Stanford NER classifier.
 	 */
@@ -44,11 +45,11 @@ public class GermanExtractionTest {
 	 * #
 	 * ##################################
 	 */
-	public GermanExtractionTest(String inputValue, String expectedValue) {
+	public GermanExtractionHgcTest(String inputValue, String expectedValue) {
 		this.inputValue = inputValue;
 		this.expectedValue = expectedValue;
 	}
-	
+
 	/**
 	 * @throws java.lang.Exception
 	 */
@@ -72,7 +73,7 @@ public class GermanExtractionTest {
 	protected void initClassifier() {
 		classifier = CRFClassifier.getClassifierNoExceptions( ServiceFactory
 				.getConfigReader().fetchValue(
-						IConfigKeys.ANONYM_NER_GERMAN_DEWAC_FILE ) );
+						IConfigKeys.ANONYM_NER_GERMAN_HGC_FILE ) );
 	}
 	
 	/*
@@ -101,9 +102,9 @@ public class GermanExtractionTest {
 	 */
 	@Test
 	/**
-	 * Test the German DEWAC classifier. 
+	 * Test the German HGC classifier. 
 	 */
-	public void testDewacClassifier() {
+	public void testHgcClassifier() {
 		String nerResult = this.classifier.classifyWithInlineXML( this.inputValue );
 		assertEquals( this.expectedValue, nerResult );
 	}
