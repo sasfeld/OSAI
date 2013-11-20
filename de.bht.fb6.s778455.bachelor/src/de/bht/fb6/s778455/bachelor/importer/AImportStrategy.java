@@ -28,7 +28,7 @@ public abstract class AImportStrategy {
 	 * @param inputStream any {@link InputStream} (e.g.: from an HTTP resource, a file resource,...)
 	 * @return a {@link Map} of key value pairs.
 	 */
-	abstract public Map<Course, Board> importFromStream(InputStream inputStream);
+	abstract public Map<String, Board> importFromStream(InputStream inputStream);
 	
 	/**
 	 * <p>Import raw data from a {@link File} and construct a {@link Map} with {@link Course} instances as keys and {@link Board} instances as values.</p>
@@ -37,5 +37,5 @@ public abstract class AImportStrategy {
 	 * @return a {@link Map} of key value pairs.
 	 * @throws GeneralLoggingException 
 	 */
-	abstract public Map<Course, Board> importFromFile(File inputFile) throws GeneralLoggingException;
+	abstract public Map<String, Board> importFromFile(File inputFile) throws GeneralLoggingException;
 }

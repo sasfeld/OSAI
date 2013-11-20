@@ -23,4 +23,5 @@ public interface IConfigKeys {
 	* import module
 	*/
 	String IMPORT_STRATEGY_CLASS = "import.strategy.class";
+	String IMPORT_STRATEGY_DIRECTORYIMPORT_TESTFOLDER = "import.strategy.directoryimport.testfolder";
 }

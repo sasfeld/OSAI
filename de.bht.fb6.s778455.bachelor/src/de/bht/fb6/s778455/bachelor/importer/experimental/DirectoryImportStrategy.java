@@ -78,7 +78,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	 * (non-Javadoc)
 	 * @see de.bht.fb6.s778455.bachelor.importer.AImportStrategy#importFromStream(java.io.InputStream)
 	 */
-	public Map< Course, Board > importFromStream( InputStream inputStream ) {
+	public Map< String, Board > importFromStream( InputStream inputStream ) {
 		// not supported
 		throw new UnsupportedOperationException(
 				"DirectoyImportStrategy:importFromStream() isn't supported." );
@@ -89,7 +89,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	 * (non-Javadoc)
 	 * @see de.bht.fb6.s778455.bachelor.importer.AImportStrategy#importFromFile(java.io.File)
 	 */
-	public Map< Course, Board > importFromFile( File inputFile )
+	public Map< String, Board > importFromFile( File inputFile )
 			throws GeneralLoggingException {
 		// fully qualified name of this class + method to be printed in a log
 		String fullyQualified = getClass() + ":importFromFile";
@@ -111,7 +111,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 
 		}
 
-		Map< Course, Board > courseBoardMap = new HashMap< Course, Board >();
+		Map< String, Board > courseBoardMap = new HashMap< String, Board >();
 
 		// iterate through children directorys - a dir represents a course/board
 		for( File childDir : inputFile.listFiles() ) {
@@ -130,10 +130,10 @@ public class DirectoryImportStrategy extends AImportStrategy {
 			this.fillBoard( course, childDir, courseBoardMap );
 
 			// add board to resulting map
-			courseBoardMap.put( course, course.getBoard() );
+			courseBoardMap.put( course.getTitle(), course.getBoard() );
 		}
 
-		return null;
+		return courseBoardMap;
 	}
 
 	/**
@@ -145,7 +145,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	 * @param courseBoardMap
 	 */
 	private void fillBoard( Course course, File courseDir,
-			Map< Course, Board > courseBoardMap ) {
+			Map< String, Board > courseBoardMap ) {
 		// fully qualified name of this class + method to be printed in a log
 		String fullyQualified = getClass() + ":fillBoard";
 		Board courseBoard = course.getBoard();
@@ -164,6 +164,8 @@ public class DirectoryImportStrategy extends AImportStrategy {
 			}
 
 			BoardThread boardThread = new BoardThread();
+			String threadName = threadDir.getName();
+			boardThread.setTitle( threadName );
 			this.fillThread( boardThread, threadDir );
 
 			courseBoard.addThread( boardThread );
@@ -190,6 +192,11 @@ public class DirectoryImportStrategy extends AImportStrategy {
 			Posting p = this.parseTxtFile( postingFile );
 			if (null != p) {
 				boardThread.addPosting( p );
+				
+				// use the first posting to enrich the thread's metadata
+				if (postingFile.getName().contains( "posting1" )) {
+					boardThread.setCreationDate( p.getCreationDate() );
+				}
 			}
 		}
 	}
@@ -235,6 +242,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 					contentBuilder.append( line );
 				}
 			}
+			reader.close();
 			
 			posting.setContent( contentBuilder.toString() );
 			return posting;

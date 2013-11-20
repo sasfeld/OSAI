@@ -26,7 +26,7 @@ public class Course {
 	public Course ( String courseTitle) {
 		this.setTitle( courseTitle );
 		
-		this.board = new Board();
+		this.board = new Board(this);
 	}
 	
 	/**
