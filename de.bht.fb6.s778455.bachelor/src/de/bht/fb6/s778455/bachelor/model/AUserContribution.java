@@ -55,6 +55,7 @@ public abstract class AUserContribution {
 	public void setTitle( String title ) {
 		this.title = title;
 	}
+	
 	/* (non-Javadoc)
 	 * @see java.lang.Object#hashCode()
 	 */
@@ -69,6 +70,7 @@ public abstract class AUserContribution {
 		result = prime * result + ( ( title == null ) ? 0 : title.hashCode() );
 		return result;
 	}
+	
 	/* (non-Javadoc)
 	 * @see java.lang.Object#equals(java.lang.Object)
 	 */

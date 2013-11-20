@@ -24,14 +24,21 @@ public class BoardThread extends AUserContribution {
 	public BoardThread() {
 		this.postings = new ArrayList< Posting >(); 
 	}
+	
 	/**
 	 * Add a posting to the board thread.
+	 * The Posting will be sorted immediatly.
 	 * @param p
 	 */
 	public void addPosting(Posting p) {
-		Comparator< Posting > dateComparator = new Comparator< Posting >() {
-
+		Comparator< Posting > dateComparator = new Comparator< Posting >() {			
 			@Override
+			/**
+			 * Compare the two postings. A posting is less than another, if the creation date is less than the other.
+			 * @param o1
+			 * @param o2
+			 * @return 
+			 */
 			public int compare( Posting o1, Posting o2 ) {
 				if (o1.getCreationDate().getTime() < o2.getCreationDate().getTime()) {
 					return -1;
