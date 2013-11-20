@@ -1,0 +1,13 @@
+CREATION_DATETIME: 1371512339
+CONTENT: 
+Irgendwie versteh ich den iterator nicht.
+
+siehe kommentar.
+
+std::vector <MyThread*>::iterator iter;
+        for(iter=listOfThreads.begin(); iter != listOfThreads.end(); iter++){
+            //wieso kann ich ueber den iterator
+            //keine thread funktionen wie z.b deleteLater()aufrufen?
+            *iter.
+        }
+Christian

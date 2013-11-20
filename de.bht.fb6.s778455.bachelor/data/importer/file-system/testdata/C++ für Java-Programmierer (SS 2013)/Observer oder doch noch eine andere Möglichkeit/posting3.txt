@@ -1,0 +1,7 @@
+CREATION_DATETIME: 1372514939
+CONTENT: 
+Super,
+
+das Signal Slot Konzept scheint das Problem zu loesen.
+
+Danke :D
