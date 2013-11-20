@@ -54,6 +54,16 @@ public class BoardThread extends AUserContribution {
 		Collections.sort( this.postings, dateComparator );
 	}
 	
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "BoardThread [creationDate="
+				+ creationDate + ", creator=" + creator + ", title=" + title
+				+ "]";
+	}
+
 	/**
 	 * Get a sorted list of {@link Posting}.
 	 * {@link Posting} are sorted by the creation date.

@@ -37,6 +37,7 @@ public class Anonymizer {
 	 * @return the anonymized {@link Board} 
 	 */
 	public Board anonymizeBoard(Board inputBoard) {
+		// iterate through threads and postings and hand in the text to be anonymized by the configured strategy
 		return inputBoard;
 	
 	}

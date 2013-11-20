@@ -47,14 +47,14 @@ public class AnonymizationController {
 	 */
 	public Map<String, Board> performAnonymization() throws GeneralLoggingException {
 		// perform import first
-		Map<String, Board> unanonymizedCourses = this.importStrategy.importFromFile( this.configuredDataFile );
+		Map<String, Board> courses = this.importStrategy.importFromFile( this.configuredDataFile );
 		
 		// iterate through courses and anonymize each board
-		for( String course : unanonymizedCourses.keySet() ) {
-			Board courseBoard = unanonymizedCourses.get( course );
+		for( String course : courses.keySet() ) {
+			Board courseBoard = courses.get( course );
 			this.anonymizer.anonymizeBoard( courseBoard );
 		}
 		
-		return null;	
+		return courses;	
 	}
 }
