@@ -1,0 +1,7 @@
+CREATION_DATETIME: 1366199519
+CONTENT: 
+das ist nur dann OK, wenn es nicht noch andere Bedingungen gibt, unter denen der Algorithmus nicht funktioniert. 
+
+Prüfen Sie doch mal, ob es funktioniert, wenn der erste Wert kleiner als der zweite ist.
+
+Gruß HS

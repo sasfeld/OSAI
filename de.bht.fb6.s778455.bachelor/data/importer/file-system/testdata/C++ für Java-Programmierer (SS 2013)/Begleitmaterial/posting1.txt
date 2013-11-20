@@ -1,0 +1,5 @@
+CREATION_DATETIME: 1364293259
+CONTENT: 
+Eine deutsche Übersetzung des Buches "Die C++-Programmiersprache" von Bjarne Stroustrup gibt es bei Amazon bzw. als Netzvariante von Google Books. Wen dies interessiert kann bei google mit folgendem Suchbegeriff schnell zu den oben erwähnten Anbietern gelangen. "Die C++-Programmiersprache: Deutsche Übersetzung der Special Edition". Sollte es eine neuere Variante des Buches geben wäre es schön, wenn ihr  es hier postet.
+
+Gruß

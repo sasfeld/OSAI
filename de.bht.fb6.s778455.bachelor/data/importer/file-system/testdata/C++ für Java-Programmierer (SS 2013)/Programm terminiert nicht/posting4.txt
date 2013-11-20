@@ -1,0 +1,3 @@
+CREATION_DATETIME: 1366190819
+CONTENT: 
+Ist es ok, wenn ich in der Methode "normalize" auf identische Zähler/Nenner prüfe und die dann jeweils durch sich selbst teilen lasse, um das Problem zu lösen?

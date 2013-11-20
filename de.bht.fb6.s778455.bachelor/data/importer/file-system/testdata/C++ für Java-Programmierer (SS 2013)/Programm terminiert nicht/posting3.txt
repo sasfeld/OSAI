@@ -1,0 +1,14 @@
+CREATION_DATETIME: 1366150319
+CONTENT: 
+Genau, wenn Qt und die Compiler richtig eingerichtet sind, kann man relativ bequem den Debugger starten, Breakpoints setzen und schrittweise durch den Code laufen.
+
+Oder eben printf's einbauen. Die printf-Syntax ist so ‰hnlich wie bei format() in Java, z.B.:
+
+int zaehler, nenner;
+printf("Z‰hler: %i , Nenner: %i \n", zaehler, nenner);
+
+Ansonsten scheint es mir bei (2,2) doch auch denkbar, den Fehler durch scharfes Hinschauen in den Code zu finden ;-)
+
+Gruﬂ und viel Erfolg!
+
+Harmtut Schirmacher
