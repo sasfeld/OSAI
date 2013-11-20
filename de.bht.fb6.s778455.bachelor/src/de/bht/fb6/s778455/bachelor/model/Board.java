@@ -5,6 +5,7 @@
 
 package de.bht.fb6.s778455.bachelor.model;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
@@ -27,6 +28,8 @@ public class Board extends AUserContribution {
 	 */
 	public Board( Course course) {
 		this.course = course;
+		
+		this.boardThreads = new ArrayList<BoardThread>();
 	}
 
 	/**

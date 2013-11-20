@@ -7,6 +7,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import java.io.File;
+import java.util.List;
 import java.util.Map;
 
 import org.junit.After;
@@ -18,6 +19,7 @@ import de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy
 import de.bht.fb6.s778455.bachelor.importer.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
+import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 
@@ -83,7 +85,24 @@ public class DirectoryImportStrategyTest {
 		for (BoardThread boardThread : resultingMap.get( "Test course" ).getBoardThreads()) {
 			if ( 0 == i ) {
 				assertEquals( "Test thread", boardThread.getTitle() );
+				assertEquals( 1384093141, boardThread.getCreationDate().getTime() );
 			}
+			i++;
+		}
+		
+		// assert postings within a thread
+		List< Posting > postings = resultingMap.get( "Test course" ).getBoardThreads().get( 0 ).getPostings();
+		assertTrue ( null != postings );
+		assertTrue( 1 == postings.size() );
+		
+		i = 0;
+		for (Posting posting : postings) {
+			if ( 0 == i ) {
+				assertEquals( 1384093141, posting.getCreationDate().getTime() );
+				assertTrue ( posting.getContent().contains( "Das ist nur ein Dummy-Content." ));
+				assertTrue ( posting.getContent().contains( "This is only a dummy content." ));
+			}
+			i++;
 		}
 	}
 
