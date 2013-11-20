@@ -1,0 +1,3 @@
+CREATION_DATETIME: 1369826339
+CONTENT: 
+wenn dein m_pair const ist, kannst du den second value dann überhaupt noch ändern, oder überschreibst du bei einem neuen wert für einen existierenden key gleich die ganze node? o.o;

@@ -1,0 +1,3 @@
+CREATION_DATETIME: 1369933079
+CONTENT: 
+Hier scheint ein Leerzeichen hinter typename zu fehlen; aber die Fehlermeldung bedeutet, dass es auch Map<KeyT,T>::operator[] heissen muss.

@@ -1,0 +1,7 @@
+CREATION_DATETIME: 1369945439
+CONTENT: 
+Hallo,
+
+ich habe jetzt die veränderte Implementation (templates eingebaut) in _map.h umbenannt und in meine ursprüngliche Headerdatei included.
+
+Jetzt erhalte ich aber eine Menge Fehler, die ich nicht nachvollziehen und aufklären kann (siehe screenshot unten), warum?

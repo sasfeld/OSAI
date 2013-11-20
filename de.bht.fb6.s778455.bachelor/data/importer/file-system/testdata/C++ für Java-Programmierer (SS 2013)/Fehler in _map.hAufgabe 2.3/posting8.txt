@@ -1,0 +1,5 @@
+CREATION_DATETIME: 1369997039
+CONTENT: 
+Hier ist das typename falsch! Map<>::operator= ist kein Typ, sondern eine Methode!
+
+Gruﬂ HS

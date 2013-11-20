@@ -1,0 +1,11 @@
+CREATION_DATETIME: 1369808099
+CONTENT: 
+Ich bin nicht ganz sicher, ob ich richtig verstehe, wo Du genau für was const verwendest. Du bist bei der allerletzten Aufgabe, also beim Verhindern, dass der key überschrieben werden kann oder? 
+
+Wo steht die von Dir beschriebene Initialisierungs-Zeile? Tritt der Fehler auch auf, wenn Du das Pair gleich in der Initialisierungs-Liste vom Konstruktor von Node aufführst und dabei auf die Zuweisung verzichtest, also
+
+    Node::Node (...) : m_pair(key,value) {...}
+
+schreibst?
+
+Gruß HS
