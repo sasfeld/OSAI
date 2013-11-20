@@ -3,7 +3,7 @@
  */
 
 
-package de.bht.fb6.s778455.bachelor.controller.anonymization;
+package de.bht.fb6.s778455.bachelor.anonymization.controller;
 
 import java.util.Map;
 
