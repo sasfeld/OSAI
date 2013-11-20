@@ -7,5 +7,5 @@ package de.bht.fb6.s778455.bachelor.model;
 
 
 public class Board extends AUserContribution {
-	protected String course;
+	protected Course course;
 }

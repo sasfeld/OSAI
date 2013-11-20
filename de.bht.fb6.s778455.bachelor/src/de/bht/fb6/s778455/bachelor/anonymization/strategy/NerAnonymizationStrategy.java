@@ -3,7 +3,7 @@
  */
 
 
-package de.bht.fb6.s778455.anonymization.strategy;
+package de.bht.fb6.s778455.bachelor.anonymization.strategy;
 
 
 public class NerAnonymizationStrategy extends AAnomyzationStrategy {

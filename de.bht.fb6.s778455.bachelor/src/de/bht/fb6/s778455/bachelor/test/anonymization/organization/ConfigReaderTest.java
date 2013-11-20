@@ -1,9 +1,10 @@
 /**
  * Copyright (c) 2013 Sascha Feldmann (sascha.feldmann@gmx.de) 
  */
-package de.bht.fb6.s778455.bachelor.test.organization.anonymization;
+package de.bht.fb6.s778455.bachelor.test.anonymization.organization;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import java.util.Map;
 
@@ -11,9 +12,9 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import de.bht.fb6.s778455.bachelor.anonymization.organization.ConfigReader;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
-import de.bht.fb6.s778455.bachelor.organization.anonymization.ConfigReader;
 
 /**
  * <p>This class contains tests of the {@link ConfigReader} in the anonymization module.</p>

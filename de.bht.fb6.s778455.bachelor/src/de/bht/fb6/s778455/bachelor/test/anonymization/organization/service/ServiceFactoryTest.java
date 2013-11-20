@@ -1,14 +1,14 @@
 /**
  * Copyright (c) 2013 Sascha Feldmann (sascha.feldmann@gmx.de) 
  */
-package de.bht.fb6.s778455.bachelor.test.organization.anonymization.service;
+package de.bht.fb6.s778455.bachelor.test.anonymization.organization.service;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
+import de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
-import de.bht.fb6.s778455.bachelor.organization.anonymization.service.ServiceFactory;
 
 /**
  * <p>This class contains tests of the {@link ServiceFactory} class.</p>

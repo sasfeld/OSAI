@@ -6,5 +6,5 @@
 package de.bht.fb6.s778455.bachelor.model;
 
 
-public class Creator {
+public class Creator extends User {
 }
