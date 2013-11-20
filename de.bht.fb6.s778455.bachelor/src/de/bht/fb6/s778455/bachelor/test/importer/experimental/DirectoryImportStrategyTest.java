@@ -80,12 +80,18 @@ public class DirectoryImportStrategyTest {
 		// assert threads within a course
 		assertTrue( null != resultingMap.get( "Test course" ));
 		assertTrue ( null != resultingMap.get( "Test course" ).getBoardThreads());
+		assertTrue( 2 == resultingMap.get( "Test course" ).getBoardThreads().size());
 		
 		int i = 0;
+		// test sorting of threads (the timestamps from the postings are used to determine the creation date)
 		for (BoardThread boardThread : resultingMap.get( "Test course" ).getBoardThreads()) {
-			if ( 0 == i ) {
+			if ( 0 == i ) { // timestamp is smaller -> so it should be first in the list
 				assertEquals( "Test thread", boardThread.getTitle() );
 				assertEquals( 1384093141, boardThread.getCreationDate().getTime() );
+			}
+			else if ( 1 == i) { // timestamp is greater -> so it should be last in the list
+				assertEquals( "1 Another test thread", boardThread.getTitle() );
+				assertEquals( 1384093191, boardThread.getCreationDate().getTime() );
 			}
 			i++;
 		}
@@ -93,7 +99,7 @@ public class DirectoryImportStrategyTest {
 		// assert postings within a thread
 		List< Posting > postings = resultingMap.get( "Test course" ).getBoardThreads().get( 0 ).getPostings();
 		assertTrue ( null != postings );
-		assertTrue( 1 == postings.size() );
+		assertTrue( 2 == postings.size() );
 		
 		i = 0;
 		for (Posting posting : postings) {
