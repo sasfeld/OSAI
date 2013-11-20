@@ -1,0 +1,5 @@
+CREATION_DATETIME: 1367678879
+CONTENT: 
+Ähem... das mit dem Aufmerksamkeitstest ist eine schöne Idee... Aber es war leider ein Bug in meiner eigenen Implementierung. Also richtig: der Test muss d3.year() == 2014 lauten. (peinlich peinlich)
+
+Vielen Dank, und ich wünsche ein schönes Wochenende! HS

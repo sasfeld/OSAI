@@ -1,0 +1,13 @@
+CREATION_DATETIME: 1367252939
+CONTENT: 
+Hallo,
+
+hatte eben ein sehr seltsames Problem beim qmake. Die Pfade zu den Sourcen wurden nicht richtig aufgelöst. 
+
+Zur Problemlösung habe ich folgenden Beitrag gefunden: http://www.qtforum.org/article/38999/error-compiling-wrong-slash-used-in-makefile-debug.html
+
+Einfach ins Build-Verzeichnis und die jeweilige Datei Makefile.[Debug|Release] manuell bearbeiten:
+
+Nach debug -o suchen. Alle darauffolgenden Backslashes müssen in Windows - Forwardslahes geändert werden.
+
+Das ist wohl ein qt-Bug ;)
