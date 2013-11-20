@@ -15,8 +15,10 @@ import org.junit.Before;
 import org.junit.Test;
 
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
+import de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
+import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
 
 /**
  * <p>This class contains tests of the {@link de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader} in the importer module.</p>
@@ -111,5 +113,15 @@ public class ConfigReaderTest {
 		
 		assertTrue( null != importerStrategy );
 		assertTrue ( strategyObject instanceof AImportStrategy );
+	}
+	
+	@Test
+	/**
+	 * Test of
+	 * @see de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader:getConfiguredImportStrategy
+	 */
+	public void testGetConfiguredImportStrategy() throws InvalidConfigException {
+		AImportStrategy importStrategy = ((ConfigReader) this.configReader).getConfiguredImportStrategy();
+		assertTrue( null != importStrategy);
 	}
 }
