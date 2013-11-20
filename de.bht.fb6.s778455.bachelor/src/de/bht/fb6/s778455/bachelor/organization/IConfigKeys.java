@@ -18,10 +18,12 @@ public interface IConfigKeys {
 	*/
 	String ANONYM_NER_GERMAN_DEWAC_FILE = "anonym.ner.german.dewac";
 	String ANONYM_NER_GERMAN_HGC_FILE = "anonym.ner.german.hgc";
+	String ANONY_STRATEGY_CLASS = "anonym.strategy.class";
 	
 	/*
 	* import module
 	*/
 	String IMPORT_STRATEGY_CLASS = "import.strategy.class";
 	String IMPORT_STRATEGY_DIRECTORYIMPORT_TESTFOLDER = "import.strategy.directoryimport.testfolder";
+	String IMPORT_STRATEGY_DIRECTORYIMPORT_DATAFOLDER = "import.strategy.directoryimport.datafolder";
 }

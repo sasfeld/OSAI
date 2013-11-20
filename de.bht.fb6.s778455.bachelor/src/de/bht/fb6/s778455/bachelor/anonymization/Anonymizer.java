@@ -3,9 +3,39 @@
  */
 package de.bht.fb6.s778455.bachelor.anonymization;
 
+import de.bht.fb6.s778455.bachelor.anonymization.organization.ConfigReader;
+import de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory;
+import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
 import de.bht.fb6.s778455.bachelor.model.Board;
+import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
 
+/**
+ * 
+ * <p>This class handles the anonymization of a single {@link Board}.</p>
+ * <p>It uses an {@link AAnomyzationStrategy} to perform the anonymization.</p>
+ * <p>The anonymization strategy can be configured in the conf/anonymization.properties config file.</p>
+ *
+ * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
+ * @since 20.11.2013
+ *
+ */
 public class Anonymizer {
+	protected AAnomyzationStrategy anonymizationStrategy;
+	
+	/**
+	 * Instanciate an Anonymizer and all depending instances.
+	 * @throws InvalidConfigException if the configuration doesn't work
+	 */
+	public Anonymizer() throws InvalidConfigException {
+		this.anonymizationStrategy = ((ConfigReader) ServiceFactory.getConfigReader()).getConfiguredAnonymizationStrategy();
+	}
+	
+	/**
+	 * Anonymize a given {@link Board}.
+	 * The given instance will be maniuplated immediatly. 
+	 * @param inputBoard
+	 * @return the anonymized {@link Board} 
+	 */
 	public Board anonymizeBoard(Board inputBoard) {
 		return inputBoard;
 	
