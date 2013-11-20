@@ -13,10 +13,14 @@ package de.bht.fb6.s778455.bachelor.organization;
  *
  */
 public interface IConfigKeys {
-	//
-	// anonymization module
-	//
+	/*
+	* anonymization module
+	*/
 	String ANONYM_NER_GERMAN_DEWAC_FILE = "anonym.ner.german.dewac";
 	String ANONYM_NER_GERMAN_HGC_FILE = "anonym.ner.german.hgc";
 	
+	/*
+	* import module
+	*/
+	String IMPORT_STRATEGY_CLASS = "import.strategy.class";
 }
