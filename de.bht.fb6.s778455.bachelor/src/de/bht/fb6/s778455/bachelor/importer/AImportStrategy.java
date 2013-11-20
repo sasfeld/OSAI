@@ -4,11 +4,13 @@
 
 package de.bht.fb6.s778455.bachelor.importer;
 
+import java.io.File;
 import java.io.InputStream;
 import java.util.Map;
 
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 
 /**
  * 
@@ -26,7 +28,14 @@ public abstract class AImportStrategy {
 	 * @param inputStream any {@link InputStream} (e.g.: from an HTTP resource, a file resource,...)
 	 * @return a {@link Map} of key value pairs.
 	 */
-	public Map<Course, Board> importFromStream(InputStream inputStream) {
-		return null;	
-	}
+	abstract public Map<Course, Board> importFromStream(InputStream inputStream);
+	
+	/**
+	 * <p>Import raw data from a {@link File} and construct a {@link Map} with {@link Course} instances as keys and {@link Board} instances as values.</p>
+	 * <p>This will grant a fast access to a learning course's (e.g. a "Moodle course") board.
+	 * @param input File any {@link File} 
+	 * @return a {@link Map} of key value pairs.
+	 * @throws GeneralLoggingException 
+	 */
+	abstract public Map<Course, Board> importFromFile(File inputFile) throws GeneralLoggingException;
 }

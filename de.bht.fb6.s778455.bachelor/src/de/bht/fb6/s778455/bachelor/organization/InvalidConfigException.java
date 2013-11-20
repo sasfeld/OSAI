@@ -3,7 +3,6 @@
  */
 package de.bht.fb6.s778455.bachelor.organization;
 
-import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 
 
 /**
@@ -13,10 +12,12 @@ import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
  * @since 20.11.2013
  *
  */
-public class InvalidConfigException extends Exception {
-	protected String presentationMessage;
-	protected Exception causingException;
-	
+public class InvalidConfigException extends GeneralLoggingException {	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -8734395541678502362L;
+
 	/**
 	 * Build a new InvalidConfigException. A log entry will be done immediatly.
 	 * 
@@ -25,29 +26,11 @@ public class InvalidConfigException extends Exception {
 	 * @param causingException the causing {@link Exception} which raised the config exception.
 	 */
 	public InvalidConfigException( String errorMessage, String presentationMessage, Exception causingException ) {
-		super( errorMessage );
-		
-		this.presentationMessage = presentationMessage;
+		super( errorMessage, presentationMessage );
+	
 		this.causingException = causingException;
-		
-		this.logException();
 	}
 	
-	/**
-	 * Log the exception.
-	 */
-	private void logException() {
-		Application.log( super.getMessage(), LogType.CRITICAL );
-	}
-
-	/**
-	 * Get the error message to be presented to the user.
-	 * @return {@link String}
-	 */
-	public String getPresentationMessage() {
-		return presentationMessage;
-	}
-
 	/**
 	 * Get the orginal causing exception (when trying to read from the configuration).
 	 * @return
@@ -56,13 +39,6 @@ public class InvalidConfigException extends Exception {
 		return causingException;
 	}
 
-	/**
-	 * Get the error message to be appended to a log file. <br />
-	 * Usually, this error message is much more specific than the presentationMessage.
-	 * @return
-	 */
-	public String getLogMessage() {
-		return super.getMessage();
-	}
+
 	
 }

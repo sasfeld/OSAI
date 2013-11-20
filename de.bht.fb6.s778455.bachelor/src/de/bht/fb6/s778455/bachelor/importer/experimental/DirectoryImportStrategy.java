@@ -3,8 +3,14 @@
  */
 package de.bht.fb6.s778455.bachelor.importer.experimental;
 
+import java.io.File;
+import java.io.InputStream;
+import java.util.Map;
+
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
+import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 
 /**
  * <p>This class implements the functionality to import from a file system.</p>
@@ -48,5 +54,21 @@ import de.bht.fb6.s778455.bachelor.model.Course;
  *
  */
 public class DirectoryImportStrategy extends AImportStrategy {
+
+	@Override
+	public Map< Course, Board > importFromStream( InputStream inputStream ) {
+		// not supported
+		throw new UnsupportedOperationException( "DirectoyImportStrategy:importFromStream() isn't supported." );
+	}
+
+	@Override
+	public Map< Course, Board > importFromFile( File inputFile ) throws GeneralLoggingException {
+		if (!inputFile.exists()) {
+			throw new GeneralLoggingException( "de.bht.fb6.s778455.bachelor.importer.experimental.AImportStrategy:importFromFile: the given input file (input: " + inputFile + ") doesn't exist.", "An internal error occured during the import process. Please read the log files." );
+		}
+		return null;
+	}
+
+	
 
 }
