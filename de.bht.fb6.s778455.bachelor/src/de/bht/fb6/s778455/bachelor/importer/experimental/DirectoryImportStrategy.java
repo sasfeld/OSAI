@@ -3,19 +3,28 @@
  */
 package de.bht.fb6.s778455.bachelor.importer.experimental;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
+import java.io.FilenameFilter;
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
 import de.bht.fb6.s778455.bachelor.model.Board;
+import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.Application;
-import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
+import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 
 /**
  * <p>
@@ -63,8 +72,12 @@ import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
  * 
  */
 public class DirectoryImportStrategy extends AImportStrategy {
-
+	
 	@Override
+	/*
+	 * (non-Javadoc)
+	 * @see de.bht.fb6.s778455.bachelor.importer.AImportStrategy#importFromStream(java.io.InputStream)
+	 */
 	public Map< Course, Board > importFromStream( InputStream inputStream ) {
 		// not supported
 		throw new UnsupportedOperationException(
@@ -72,6 +85,10 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	}
 
 	@Override
+	/*
+	 * (non-Javadoc)
+	 * @see de.bht.fb6.s778455.bachelor.importer.AImportStrategy#importFromFile(java.io.File)
+	 */
 	public Map< Course, Board > importFromFile( File inputFile )
 			throws GeneralLoggingException {
 		// fully qualified name of this class + method to be printed in a log
@@ -93,8 +110,8 @@ public class DirectoryImportStrategy extends AImportStrategy {
 					"An internal error occured during the import process. Please read the log files." );
 
 		}
-		
-		Map<Course, Board> courseBoardMap = new HashMap< Course, Board >();
+
+		Map< Course, Board > courseBoardMap = new HashMap< Course, Board >();
 
 		// iterate through children directorys - a dir represents a course/board
 		for( File childDir : inputFile.listFiles() ) {
@@ -107,10 +124,13 @@ public class DirectoryImportStrategy extends AImportStrategy {
 								LogType.ERROR );
 				continue;
 			}
-			
+
 			String courseName = childDir.getName();
-			Course course = new Course(courseName);
-			this.fillBoard(course, childDir, courseBoardMap);			
+			Course course = new Course( courseName );
+			this.fillBoard( course, childDir, courseBoardMap );
+
+			// add board to resulting map
+			courseBoardMap.put( course, course.getBoard() );
 		}
 
 		return null;
@@ -118,18 +138,20 @@ public class DirectoryImportStrategy extends AImportStrategy {
 
 	/**
 	 * Fill the board for a given {@link Course}.
+	 * 
 	 * @param course
-	 * @param courseDir must consist of directories which represent a thread.
-	 * @param courseBoardMap 
+	 * @param courseDir
+	 *            must consist of directories which represent a thread.
+	 * @param courseBoardMap
 	 */
-	private void fillBoard( Course course, File courseDir, Map< Course, Board > courseBoardMap ) {
+	private void fillBoard( Course course, File courseDir,
+			Map< Course, Board > courseBoardMap ) {
 		// fully qualified name of this class + method to be printed in a log
-				String fullyQualified = getClass() + ":fillBoard";
+		String fullyQualified = getClass() + ":fillBoard";
 		Board courseBoard = course.getBoard();
-		
-		List< File > threadDirs = Arrays.asList( courseDir.listFiles());
-		// @TODO maybe sort the treads?
-		
+
+		List< File > threadDirs = Arrays.asList( courseDir.listFiles() );
+
 		for( File threadDir : threadDirs ) {
 			if( !threadDir.isDirectory() ) { // append error log
 				Application
@@ -140,10 +162,92 @@ public class DirectoryImportStrategy extends AImportStrategy {
 								LogType.ERROR );
 				continue;
 			}
+
+			BoardThread boardThread = new BoardThread();
+			this.fillThread( boardThread, threadDir );
+
+			courseBoard.addThread( boardThread );
+		}
+	}
+
+	/**
+	 * Fill the given thread with postings included in the given threadDir.
+	 * 
+	 * @param boardThread
+	 * @param threadDir
+	 */
+	private void fillThread( BoardThread boardThread, File threadDir ) {
+		FilenameFilter txtFileFilter = new FilenameFilter() {
+			/**
+			 * Filter the posting files for *.txt files.
+			 */
+			@Override
+			public boolean accept( File dir, String fileName ) {
+				return fileName.endsWith( ".txt" );
+			}
+		};
+		for( File postingFile : threadDir.listFiles( txtFileFilter ) ) {
+			Posting p = this.parseTxtFile( postingFile );
+			if (null != p) {
+				boardThread.addPosting( p );
+			}
+		}
+	}
+
+	/**
+	 * Parse an *.txt file and create a {@link Posting} instance.
+	 * 
+	 * @param postingFile
+	 * @return
+	 */
+	private Posting parseTxtFile( File postingFile ) {
+		// fully qualified name of this class + method to be printed in a log
+				String fullyQualified = getClass() + ":parseTxtFile";
+				
+		try {
+			Posting posting = new Posting();
+			BufferedReader reader = new BufferedReader( new FileReader(
+					postingFile ) );
 			
-			de.bht.fb6.s778455.bachelor.model.BoardThread boardThread = new de.bht.fb6.s778455.bachelor.model.BoardThread();
+			String line;
+			boolean creationDateTimeMatched = false;
+			boolean contentMatched = false;
+			StringBuilder contentBuilder = new StringBuilder();
+			
+			while( null != ( line = reader.readLine() ) ) {
+				if( !creationDateTimeMatched ) {
+					Pattern pCreationDatetime = Pattern
+							.compile( "CREATION_DATETIME: (.*)" );
+					Matcher m = pCreationDatetime.matcher( line );
+					while( m.find() ) {
+						String creationDateTime = m.group( 1 );
+						long timeStamp = Long.parseLong( creationDateTime );
+						posting.setCreationDate( new Date( timeStamp ) );
+					}
+				}
+				
+				if( !contentMatched ) {
+					if (line.contains( "CONTENT:" )) {
+						contentMatched = true;
+					}
+				}
+				else {
+					contentBuilder.append( line );
+				}
+			}
+			
+			posting.setContent( contentBuilder.toString() );
+			return posting;
+		} catch( IOException e ) {
+			Application
+			.log( fullyQualified
+					+ ": the given posting file doesn't exist (given:  "
+					+ postingFile
+					+ "). Read the docs so you learn about the correct structure.",
+					LogType.ERROR );
 		}
 		
+		return null;
 	}
 
 }
