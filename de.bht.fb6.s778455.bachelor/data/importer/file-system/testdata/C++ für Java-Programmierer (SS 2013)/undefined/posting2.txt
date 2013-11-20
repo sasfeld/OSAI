@@ -1,0 +1,5 @@
+CREATION_DATETIME: 1366912799
+CONTENT: 
+Nein, es gibt keinen Bezeichner undefined. Für welchen Zweck wollen Sie es denn einsetzen? Zeiger, die nicht definiert sind, setzt man einfach auf 0.
+
+Gruß HS

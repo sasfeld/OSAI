@@ -1,0 +1,3 @@
+CREATION_DATETIME: 1366890839
+CONTENT: 
+Kann man in C/C++ garnicht mit dem Variablenwert undefined arbeiten ?

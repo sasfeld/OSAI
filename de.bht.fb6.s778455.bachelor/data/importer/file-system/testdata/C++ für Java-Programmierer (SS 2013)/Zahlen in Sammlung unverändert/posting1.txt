@@ -1,0 +1,6 @@
+CREATION_DATETIME: 1366885139
+CONTENT: 
+Hallo,
+
+sollen eigentlich die in einer Sammlung abzulegenden Zahlen unverändert bleiben, also nicht gekürzt werden? Ich habe das so gemacht, weil ich ja später auch Zahlen entfernen will. Wenn diese dann gekürzt sind, müsste ich ja zuerst die zu entfernende Zahl auch kürzen, damit diese überhaupt in der Sammlung gefunden werden kann.
+Das erscheint mir nicht sehr praktikabel, liege ich da richtig?
