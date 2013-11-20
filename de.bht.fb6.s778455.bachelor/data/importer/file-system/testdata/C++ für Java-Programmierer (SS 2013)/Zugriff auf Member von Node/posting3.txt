@@ -1,0 +1,4 @@
+CREATION_DATETIME: 1369301099
+CONTENT: 
+Dieser Wrapper sollte eine Methode sein, die von NODE aufgerufen wird?
+Bin momentan etwas ratlos.

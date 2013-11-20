@@ -1,0 +1,9 @@
+CREATION_DATETIME: 1368217079
+CONTENT: 
+Hallo,
+
+beim Überladen des Operators+ bei Date erhalte ich einen Fehler C2666, da ich drei Methoden habe, die den + Operator überladen für Date, jeweils mit Days, Months und Years.
+
+
+Das Benutzen eines generischen Typs mittels template<typenameT>
+führt nicht zum Erfolg.

@@ -1,0 +1,5 @@
+CREATION_DATETIME: 1368485819
+CONTENT: 
+Könnte es sein, dass das der berühmte "es ist keine Funktion, sondern ein Objekt"-Fehler ist? Also das würde heissen, in Zeile 17 denkt der Compiler, das ist die Deklaration einer Funktion m, die eine Map zurückliefert? Sprich: in Zeile 17 die Klammern weglassen... Nur so eine Idee, bin nicht sicher.
+
+Gruß HS

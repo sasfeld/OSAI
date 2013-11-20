@@ -1,0 +1,10 @@
+CREATION_DATETIME: 1369241699
+CONTENT: 
+Hallo,
+
+ich bin gerade an der "insert"-Methode dran und versuche auf die Membervariable m_root zuzugreifen (zu kopieren), aber ich erhalte immer Fehlermeldungen (auch wenn ich selbstgeschriebene Getter benutze):
+m_root ist keine Element von MyDate::Map:Node
+
+mit diesem Code:
+
+Node*now=this->m_root;

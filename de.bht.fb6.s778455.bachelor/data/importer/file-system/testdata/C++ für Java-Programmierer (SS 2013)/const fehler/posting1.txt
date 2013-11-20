@@ -1,0 +1,23 @@
+CREATION_DATETIME: 1369239659
+CONTENT: 
+Hallo,
+
+habe ein kleines Problem, das ich nicht gelöst bekomme... vielleicht kann mir ja wer helfen.
+
+Habe diese Methode Map::Node*Map::Node::find(constkey_t&key);
+
+und benutze diese in den beiden Methoden:
+
+boolMap::Node::contains(constkey_t&key)const;
+
+constMap::mapped_t&Map::Node::operator[](constkey_t&key)const;
+
+und bekomme dabei folgenden Fehler in der Zeile, wo die find(key) Methode aufgerufen wird
+
+Fehler:passing 'const MyDate::Map::Node' as 'this' argument of 'MyDate::Map::Node* MyDate::Map::Node::find(const key_t&)' discards qualifiers [-fpermissive]
+
+ 
+
+Hoffe jmd kann helfen.
+
+Gruß

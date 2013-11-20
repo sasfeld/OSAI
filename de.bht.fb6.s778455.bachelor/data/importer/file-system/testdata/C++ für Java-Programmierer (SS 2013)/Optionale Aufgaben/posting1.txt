@@ -1,0 +1,19 @@
+CREATION_DATETIME: 1369810439
+CONTENT: 
+Hallo allerseits,
+
+ich hatte auf den Aufgabenblättern zu Aufgabe 2  nicht angegeben, ob es optionale Aufgaben für das Erreichen einer sehr guten Note gibt. Das lag daran, dass bei der ersten Aufgabe im Kurs alle den Eindruck erweckt haben, eine sehr gute Note anzustreben ;-)
+
+Für den Fall, dass die Zeit knapp wird und Sie etwas weglassen müssen oder wollen, überlasse ich Ihnen was Sie weglassen. Gute Kandidaten dafür sind das "Zerstören und Kopieren" und die Iteratoren, darauf baut sonst nichts auf. Falls Sie große Probleme mit den Templates haben, ist es auch denkbar, die Templates wegzulassen und die Iteratoren für die Nicht-Template-Version der Map zu implementieren.
+
+Es gibt schon einige wenige, die alles bis zum Ende implementiert haben. Aber falls sich herausstellen sollte, dass die Aufgabe doch etwas zu heftig war und viele einenTeil auslassen müssen, werde ich das bei der Bewertung entsprechend berücksichtigen.
+
+Also ich drücke die Daumen für den Endspurt. Ich weiss, dass gerade die Zeiger-Verbiegerei, const und die Templates hakelig sind. Wenn Sie irgendwo "hängen" melden Sie sich, man kann auch ein Problem mal zusammen bei mir im Büro oder via TeamViewer anschauen. 
+
+Noch ein Hinweis: diese Aufgabe ist der absolute "Berg" des Kurses, es ist ja auch die längste und umfangreichste Aufgabe. Wenn Sie durch sind, wird es easy, danach kommt nur noch die Kür-Aufgabe, bei der Sie mit Qt eine kleine Applikation nach eigenem Gusto erstellen.
+
+Beste Grüße und DURCHHALTEN
+
+ 
+
+Hartmut Schirmacher

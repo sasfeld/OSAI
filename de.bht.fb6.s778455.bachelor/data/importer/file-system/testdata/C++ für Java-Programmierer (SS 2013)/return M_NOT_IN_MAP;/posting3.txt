@@ -1,0 +1,15 @@
+CREATION_DATETIME: 1369251539
+CONTENT: 
+Ok.
+
+Aber wenn ich das mache:
+
+ 
+const mapped_t& m = M_NOT_IN_MAP;
+return m;
+
+kommt genau der selbe Fehler
+
+Ok der Fehler liegt in der Signatur, dort fehlt ganz links noch ein const
+
+>.<

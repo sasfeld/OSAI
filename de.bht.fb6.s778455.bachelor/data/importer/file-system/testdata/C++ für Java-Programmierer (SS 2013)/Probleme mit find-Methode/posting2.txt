@@ -1,0 +1,3 @@
+CREATION_DATETIME: 1369497119
+CONTENT: 
+Ich glaube nicht, dass an dieser Stelle der Fehler ist. Es könnte also der Vergleichsoperator für Date sein, oder eine andere Stelle innerhalb von find. Ein häufiger Fehler ist z.B., dass man find() zwar rekusriv aufruft, aber vergisst, dass Ergebnis des rekursiven Aufrufs mittels "return" weiterzureichen. Das erzeugt keine Fehlermeldung.

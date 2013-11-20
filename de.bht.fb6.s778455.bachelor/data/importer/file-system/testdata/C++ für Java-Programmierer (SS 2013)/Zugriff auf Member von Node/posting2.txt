@@ -1,0 +1,9 @@
+CREATION_DATETIME: 1369249259
+CONTENT: 
+Das ist ein Denkfehler. Nur die Map hat einen Wurzelknoten. Ein Knoten hat sich selbst, und Kinder, aber keinen Wurzelknoten.
+
+Anders ausgedrückt: die rekursiven Methoden in Node gehen immer von dem aktuellen Knoten aus und machen etwas mit sich selbst und den Kindern. Und in Map muss man dann noch einen kleinen Wrapper implementieren, der zuerst schaut, ob m_root null ist oder nicht, und je nachdem etwas anderes tun. 
+
+Alles klar?
+
+Gruß HS
