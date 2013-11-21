@@ -42,7 +42,8 @@ public class Anonymizer {
 		// iterate through threads and postings and hand in the text to be anonymized by the configured strategy
 		for( BoardThread boardThread : inputBoard.getBoardThreads() ) {
 			for( Posting posting : boardThread.getPostings() ) {
-//				String anonymizedTaggedText = this.anonymizationStrategy.anonymizeText( posting.getContent() );
+				String anonymizedTaggedText = this.anonymizationStrategy.anonymizeText( posting.getContent() );
+				posting.setContent( anonymizedTaggedText );
 			}
 		}
 		
