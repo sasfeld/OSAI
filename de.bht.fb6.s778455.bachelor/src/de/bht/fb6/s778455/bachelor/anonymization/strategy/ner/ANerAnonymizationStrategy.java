@@ -5,6 +5,8 @@
 
 package de.bht.fb6.s778455.bachelor.anonymization.strategy.ner;
 
+import java.io.File;
+
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
 
 
@@ -19,20 +21,23 @@ import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
 public abstract class ANerAnonymizationStrategy extends AAnomyzationStrategy {
 	
 	private AAnomyzationStrategy decoratingStrategy;
+	protected File textCorpus;
 
 	/**
 	 * Create a new {@link AAnomyzationStrategy} which uses the Stanford NER library.
 	 * @param decoratedStrategy the anonymization strategy which decorates this strategy.
 	 */
-	public ANerAnonymizationStrategy(AAnomyzationStrategy decoratedStrategy) {
+	public ANerAnonymizationStrategy(AAnomyzationStrategy decoratedStrategy, File corpusFile) {
 		this.decoratingStrategy = decoratedStrategy;
+		this.textCorpus = corpusFile;
 	}
 	
 	/**
 	 * Create a new {@link AAnomyzationStrategy} which uses the Stanford NER library.
 	 */
-	public ANerAnonymizationStrategy() {
+	public ANerAnonymizationStrategy(File corpusFile) {
 		this.decoratingStrategy = null;
+		this.textCorpus = corpusFile;
 	}
 
 	@Override

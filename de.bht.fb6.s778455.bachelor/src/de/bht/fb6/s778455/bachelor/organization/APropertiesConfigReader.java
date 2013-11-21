@@ -47,7 +47,7 @@ public abstract class APropertiesConfigReader implements IConfigReader {
 	 * @see de.bht.fb6.s778455.bachelor.organization.IConfigReader#fetchValue(java.lang.String)
 	 */
 	public String fetchValue( String property ) {
-		String value = this.properties.getProperty( property );
+		String value = this.properties.getProperty( property.trim().toLowerCase() );
 		
 		if (null == value) {		
 			throw new IllegalArgumentException("ConfigReader::fetchValue(): No value found for the given property '"+property+"'.");

@@ -3,6 +3,10 @@
  */
 package de.bht.fb6.s778455.bachelor.anonymization.strategy.ner;
 
+import java.io.File;
+
+import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
+
 /**
  * <p>This class is a concrete implementation of the Stanford NER for the English language.</p>
  *
@@ -11,5 +15,15 @@ package de.bht.fb6.s778455.bachelor.anonymization.strategy.ner;
  *
  */
 public class EnglishNerAnonymizationStrategy extends ANerAnonymizationStrategy {
+
+	public EnglishNerAnonymizationStrategy(
+			AAnomyzationStrategy decoratedStrategy, File corpusFile ) {
+		super( decoratedStrategy, corpusFile );
+	}
+	
+	public EnglishNerAnonymizationStrategy(File corpusFile) {
+		super( corpusFile );
+	}
+
 
 }
