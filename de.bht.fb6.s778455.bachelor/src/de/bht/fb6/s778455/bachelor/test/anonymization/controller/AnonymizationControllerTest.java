@@ -3,7 +3,7 @@
  */
 package de.bht.fb6.s778455.bachelor.test.anonymization.controller;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 import java.util.Map;
 
@@ -14,7 +14,6 @@ import org.junit.Test;
 import de.bht.fb6.s778455.bachelor.anonymization.controller.AnonymizationController;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
-import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 
