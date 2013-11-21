@@ -7,6 +7,8 @@ import de.bht.fb6.s778455.bachelor.anonymization.organization.ConfigReader;
 import de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
 import de.bht.fb6.s778455.bachelor.model.Board;
+import de.bht.fb6.s778455.bachelor.model.BoardThread;
+import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
 
 /**
@@ -38,6 +40,12 @@ public class Anonymizer {
 	 */
 	public Board anonymizeBoard(Board inputBoard) {
 		// iterate through threads and postings and hand in the text to be anonymized by the configured strategy
+		for( BoardThread boardThread : inputBoard.getBoardThreads() ) {
+			for( Posting posting : boardThread.getPostings() ) {
+				String anonymizedTaggedText = this.anonymizationStrategy.anonymizeText( posting.getContent() );
+			}
+		}
+		
 		return inputBoard;
 	
 	}
