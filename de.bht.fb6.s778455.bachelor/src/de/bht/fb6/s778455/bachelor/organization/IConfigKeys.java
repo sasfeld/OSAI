@@ -18,7 +18,13 @@ public interface IConfigKeys {
 	*/
 	String ANONYM_NER_GERMAN_DEWAC_FILE = "anonym.ner.german.dewac";
 	String ANONYM_NER_GERMAN_HGC_FILE = "anonym.ner.german.hgc";
+	String ANONYM_NER_GERMAN_PRIMARY = "anonym.ner.german.primary";
 	String ANONY_STRATEGY_CLASS = "anonym.strategy.class";
+	
+	String ANONYM_NER_ENGLISH_3CLASS_FILE = "anonym.ner.english.3class";
+	String ANONYM_NER_ENGLISH_4CLASS_FILE = "anonym.ner.english.4class";
+	String ANONYM_NER_ENGLISH_7CLASS_FILE = "anonym.ner.english.7class";
+	String ANONYM_NER_ENGLISH_PRIMARY = "anonym.ner.english.primary";
 	
 	/*
 	* import module
