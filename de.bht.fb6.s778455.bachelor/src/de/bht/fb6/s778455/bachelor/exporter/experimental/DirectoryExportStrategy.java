@@ -49,6 +49,13 @@ public class DirectoryExportStrategy extends AExportStrategy {
 		return false;
 	}
 
+	/**
+	 * Create a new directoy for the given {@link Board}.
+	 * @param outputDir
+	 * @param course
+	 * @param board
+	 * @throws GeneralLoggingException
+	 */
 	private void createBoardDir( File outputDir, String course, Board board ) throws GeneralLoggingException {
 		File newBoardDir = new File( outputDir, course);
 		boolean successCreation = newBoardDir.mkdir(); // create new dir immediatly.
@@ -66,6 +73,12 @@ public class DirectoryExportStrategy extends AExportStrategy {
 		}		
 	}
 
+	/**
+	 * Create a new directoy for the given {@link BoardThread}
+	 * @param newBoardDir
+	 * @param boardThread
+	 * @throws GeneralLoggingException
+	 */
 	private void createBoardThreadDir( File newBoardDir, BoardThread boardThread ) throws GeneralLoggingException {
 		File newBoardThreadDir = new File( newBoardDir, boardThread.getTitle() );
 		boolean successCreation = newBoardThreadDir.mkdir(); // create new dir immediatly.
@@ -85,13 +98,26 @@ public class DirectoryExportStrategy extends AExportStrategy {
 		}		
 	}
 
+	/**
+	 * Create a new posting.txt file for the given {@link Posting}.
+	 * @param newBoardThreadDir
+	 * @param posting
+	 * @param numberIncrement
+	 * @throws GeneralLoggingException
+	 */
 	private void createPostingFile( File newBoardThreadDir, Posting posting, int numberIncrement ) throws GeneralLoggingException {
 		File newPostingFile = new File( newBoardThreadDir, "posting" + numberIncrement + ".txt" );
 		try {
 			newPostingFile.createNewFile();
 			BufferedWriter writer = new BufferedWriter( new FileWriter( newPostingFile ) );
 			
-			writer.write( "" );
+			writer.write( "CREATION_DATETIME: " + posting.getCreationDate().getTime() + "\n" );
+			writer.write( "CONTENT: \n");
+			writer.write( posting.getContent() );
+			
+			writer.flush();
+			
+			writer.close();
 		} catch( IOException e ) {
 			throw new GeneralLoggingException(
 					getClass()

@@ -32,4 +32,11 @@ public interface IConfigKeys {
 	String IMPORT_STRATEGY_CLASS = "import.strategy.class";
 	String IMPORT_STRATEGY_DIRECTORYIMPORT_TESTFOLDER = "import.strategy.directoryimport.testfolder";
 	String IMPORT_STRATEGY_DIRECTORYIMPORT_DATAFOLDER = "import.strategy.directoryimport.datafolder";
+
+	/*
+	 * export module 
+	 */
+	String EXPORT_STRATEGY_CLASS = "export.strategy.class";
+	String EXPORT_STRATEGY_DIRECTORYEXPORT_DATAFOLDER = "export.strategy.directoryexport.datafolder";
+	String EXPORT_STRATEGY_DIRECTORYEXPORT_TESTFOLDER = "export.strategy.directoryexport.testfolder";
 }
