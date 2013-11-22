@@ -72,11 +72,14 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
  * 
  */
 public class DirectoryImportStrategy extends AImportStrategy {
-	
+
 	@Override
 	/*
 	 * (non-Javadoc)
-	 * @see de.bht.fb6.s778455.bachelor.importer.AImportStrategy#importFromStream(java.io.InputStream)
+	 * 
+	 * @see
+	 * de.bht.fb6.s778455.bachelor.importer.AImportStrategy#importFromStream
+	 * (java.io.InputStream)
 	 */
 	public Map< String, Board > importFromStream( InputStream inputStream ) {
 		// not supported
@@ -87,7 +90,10 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	@Override
 	/*
 	 * (non-Javadoc)
-	 * @see de.bht.fb6.s778455.bachelor.importer.AImportStrategy#importFromFile(java.io.File)
+	 * 
+	 * @see
+	 * de.bht.fb6.s778455.bachelor.importer.AImportStrategy#importFromFile(java
+	 * .io.File)
 	 */
 	public Map< String, Board > importFromFile( File inputFile )
 			throws GeneralLoggingException {
@@ -190,11 +196,11 @@ public class DirectoryImportStrategy extends AImportStrategy {
 		};
 		for( File postingFile : threadDir.listFiles( txtFileFilter ) ) {
 			Posting p = this.parseTxtFile( postingFile );
-			if (null != p) {
+			if( null != p ) {
 				boardThread.addPosting( p );
-				
+
 				// use the first posting to enrich the thread's metadata
-				if (postingFile.getName().contains( "posting1" )) {
+				if( postingFile.getName().contains( "posting1" ) ) {
 					boardThread.setCreationDate( p.getCreationDate() );
 				}
 			}
@@ -209,52 +215,63 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	 */
 	private Posting parseTxtFile( File postingFile ) {
 		// fully qualified name of this class + method to be printed in a log
-				String fullyQualified = getClass() + ":parseTxtFile";
-				
+		String fullyQualified = getClass() + ":parseTxtFile";
+
 		try {
 			Posting posting = new Posting();
 			BufferedReader reader = new BufferedReader( new FileReader(
 					postingFile ) );
-			
+
 			String line;
 			boolean creationDateTimeMatched = false;
 			boolean contentMatched = false;
 			StringBuilder contentBuilder = new StringBuilder();
-			
+
 			while( null != ( line = reader.readLine() ) ) {
 				if( !creationDateTimeMatched ) {
 					Pattern pCreationDatetime = Pattern
-							.compile( "CREATION_DATETIME: (.*)" );
+							.compile( "CREATION_DATETIME:\\s?(.*)" );
 					Matcher m = pCreationDatetime.matcher( line );
 					while( m.find() ) {
 						String creationDateTime = m.group( 1 );
-						long timeStamp = Long.parseLong( creationDateTime );
-						posting.setCreationDate( new Date( timeStamp ) );
+						try {
+							long timeStamp = Long.parseLong( creationDateTime );
+							posting.setCreationDate( new Date( timeStamp ) );
+						} catch( NumberFormatException e ) { // timestamp was
+																// invalid and
+																// couldn't get
+																// parsed
+							Application
+									.log( getClass()
+											+ ":parseTxtFile(): wrong value for CREATION_DATETIME in file "
+											+ postingFile.getAbsolutePath()
+											+ " ! The date time was ignored. Please check the file.",
+											LogType.ERROR );
+						}
 					}
 				}
-				
+
 				if( !contentMatched ) {
-					if (line.contains( "CONTENT:" )) {
+					if( line.contains( "CONTENT:" ) ) {
 						contentMatched = true;
 					}
-				}
-				else {
+				} else {
 					contentBuilder.append( line );
 				}
 			}
 			reader.close();
-			
+
 			posting.setContent( contentBuilder.toString() );
 			return posting;
 		} catch( IOException e ) {
 			Application
-			.log( fullyQualified
-					+ ": the given posting file doesn't exist (given:  "
-					+ postingFile
-					+ "). Read the docs so you learn about the correct structure.",
-					LogType.ERROR );
+					.log( fullyQualified
+							+ ": the given posting file doesn't exist (given:  "
+							+ postingFile
+							+ "). Read the docs so you learn about the correct structure.",
+							LogType.ERROR );
 		}
-		
+
 		return null;
 	}
 
