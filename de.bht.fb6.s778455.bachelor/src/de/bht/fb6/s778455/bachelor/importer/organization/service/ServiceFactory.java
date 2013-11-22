@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2013 Sascha Feldmann (sascha.feldmann@gmx.de) 
  */
-package de.bht.fb6.s778455.bachelor.importer.service;
+package de.bht.fb6.s778455.bachelor.importer.organization.service;
 
 import de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader;
 import de.bht.fb6.s778455.bachelor.organization.IConfigReader;

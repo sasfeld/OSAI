@@ -26,6 +26,10 @@ import de.bht.fb6.s778455.bachelor.model.Posting;
  * This class defines tests of the {@link BoardThread} model.
  * </p>
  * 
+ * <p>
+ * Especially the sorting algorithm shall be tested here. 
+ * </p>
+ * 
  * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
  * @since 20.11.2013
  * 
