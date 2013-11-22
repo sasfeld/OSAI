@@ -6,6 +6,7 @@
 package de.bht.fb6.s778455.bachelor.anonymization.strategy.ner;
 
 import java.io.File;
+import java.util.Set;
 
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
 import edu.stanford.nlp.ie.AbstractSequenceClassifier;
@@ -72,6 +73,23 @@ public abstract class ANerAnonymizationStrategy extends AAnomyzationStrategy {
 		
 		return preparedText;
 	}
-
+	
+	@Override
+	/*
+	 * (non-Javadoc)
+	 * @see de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy#removeSpecialTags(java.lang.String)
+	 */
+	public String removeSpecialTags( String inputText ) {
+		String cleanedText = inputText;
+		
+		Set< String > tags = this.classifier.labels();
+		
+		for( String tag : tags ) {
+			// replace all tag appearances
+			cleanedText = cleanedText.replaceAll( "</?"+tag+">", "" );
+		}
+		
+		return cleanedText;
+	}
 	
 }

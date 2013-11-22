@@ -57,4 +57,8 @@ public class AnonymizationController {
 		
 		return courses;	
 	}
+	
+	public void performAnonymizationAnalysis() {
+		
+	}
 }

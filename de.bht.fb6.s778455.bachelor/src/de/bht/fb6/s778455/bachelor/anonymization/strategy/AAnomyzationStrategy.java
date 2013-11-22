@@ -28,6 +28,16 @@ public abstract class AAnomyzationStrategy {
 	public abstract String anonymizeText(String inputText);
 	
 	/**
+	 * Remove special tags that the implementation added to the given inputText.
+	 * For example, natural language processing strategies use NER tags.
+	 * Use this method to get an untagged text.
+	 * 
+	 * @param inputText
+	 * @return a new {@link String} with untagged data
+	 */
+	public abstract String removeSpecialTags(String inputText);
+	
+	/**
 	 * Prepare the given text for the anonymization.
 	 * @param preparedText
 	 * @return a new {@link String}

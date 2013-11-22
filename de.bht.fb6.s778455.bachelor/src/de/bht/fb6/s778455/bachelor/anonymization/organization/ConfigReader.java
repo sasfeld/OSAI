@@ -96,8 +96,8 @@ public class ConfigReader extends APropertiesConfigReader implements
 					
 					// instanciate the NER constructor using reflection. decorate the anonymization strategy by language specific strategies.
 					strategyObject = new GermanNerAnonymizationStrategy(
-									new EnglishNerAnonymizationStrategy(
-											englishCorpusFile ),
+//									new EnglishNerAnonymizationStrategy(
+//											englishCorpusFile ),
 									germanCorpusFile ) ;
 				} else {
 					constructor = className.getConstructor();

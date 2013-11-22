@@ -43,7 +43,11 @@ public class Anonymizer {
 		for( BoardThread boardThread : inputBoard.getBoardThreads() ) {
 			for( Posting posting : boardThread.getPostings() ) {
 				String anonymizedTaggedText = this.anonymizationStrategy.anonymizeText( posting.getContent() );
-				posting.setContent( anonymizedTaggedText );
+				// String without NER tags (but anonymization tags)
+				String anonymizedUntaggedText = this.anonymizationStrategy.removeSpecialTags( anonymizedTaggedText );
+				
+				posting.setContent( anonymizedUntaggedText );
+				posting.setTaggedContent( anonymizedTaggedText );
 			}
 		}
 		

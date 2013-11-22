@@ -119,4 +119,14 @@ public class GermanNerAnonymizationStrategyTest {
 		
 		assertEquals( expected, output );
 	}
+	
+	@Test
+	public void testRemoveSpecialTags() {
+		String inputString = "Hallo <I-PER>Max Mustermann</I-PER>, warst du bereits in <I-LOC>Berlin</I-LOC>?";
+		String expected = "Hallo Max Mustermann, warst du bereits in Berlin?";
+		
+		String output = this.strategy.removeSpecialTags( inputString );
+		
+		assertEquals( expected, output );
+	}
 }
