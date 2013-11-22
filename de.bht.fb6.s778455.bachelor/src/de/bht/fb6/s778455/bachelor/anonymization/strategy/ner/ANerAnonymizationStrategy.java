@@ -22,10 +22,6 @@ import edu.stanford.nlp.ling.CoreLabel;
  *
  */
 public abstract class ANerAnonymizationStrategy extends AAnomyzationStrategy {
-	/**
-	 * Replacement String for personal data (such as eMail-addresses and so on).
-	 */
-	public static final String PERSONAL_DATA_REPLACEMENT = "<REMOVED_PERSONAL_DATA>";
 	private AAnomyzationStrategy decoratingStrategy;
 	protected File textCorpus;
 	protected AbstractSequenceClassifier< CoreLabel >  classifier;
@@ -70,40 +66,12 @@ public abstract class ANerAnonymizationStrategy extends AAnomyzationStrategy {
 			preparedText = this.decoratingStrategy.anonymizeText( inputText );
 		}
 		else { // last strategy in chain
-			preparedText = this.prepareText(preparedText);
-			preparedText = this.filterPersonalData(preparedText);
+			preparedText = super.prepareText(preparedText);
+			preparedText = super.filterPersonalData(preparedText);
 		}
 		
 		return preparedText;
 	}
 
-	/**
-	 * Prepare the given text for the anonymization.
-	 * @param preparedText
-	 * @return a new {@link String}
-	 */
-	private String prepareText( String preparedText ) {
-		String cleanedText = preparedText;
-		
-		// insert whitespaces after ".": negative lookahead regex: all "." followed by no whitespace will be replaced by ".[whitespace]"
-		cleanedText = cleanedText.replaceAll( "\\.(?!\\s)", ". " );
-		// insert whitespaces after ",": negative lookahead regex: all "," followed by no whitespace will be replaced by ",[whitespace]"
-		cleanedText = cleanedText.replaceAll( "\\,(?!\\s)", ", " );
-		
-		return cleanedText;
-	}
-
-	/**
-	 * Filter personal data, such as eMail adresses and so on.
-	 * @param preparedText
-	 * @return a new {@link String}
-	 */
-	private String filterPersonalData( String preparedText ) {
-		String cleanedText = preparedText;
-		
-		// replace eMail-addresses, follows example at http://www.brain4.de/programmierecke/js/tools/regex.php
-		cleanedText = cleanedText.replaceAll( "[a-zA-Z0-9][\\w\\.-]*@(?:[a-zA-Z0-9][a-zA-Z0-9_-]+\\.)+[A-Z,a-z]{2,5}", PERSONAL_DATA_REPLACEMENT );		
-		
-		return cleanedText;
-	}
+	
 }

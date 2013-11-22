@@ -67,7 +67,7 @@ public class GermanNerAnonymizationStrategyTest {
 	 * Use reflection to test the private method of ANerAnoymizationStrategy.
 	 */
 	public void testPrepareText() throws NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
-		Method method = GermanNerAnonymizationStrategy.class.getSuperclass().getDeclaredMethod("prepareText", String.class );
+		Method method = GermanNerAnonymizationStrategy.class.getSuperclass().getSuperclass().getDeclaredMethod("prepareText", String.class );
 		method.setAccessible( true );
 		
 		/*
@@ -96,7 +96,7 @@ public class GermanNerAnonymizationStrategyTest {
 	 * Use reflection to test the private method of ANerAnoymizationStrategy.
 	 */
 	public void testFilterPersonalData() throws NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
-		Method method = GermanNerAnonymizationStrategy.class.getSuperclass().getDeclaredMethod("filterPersonalData", String.class );
+		Method method = GermanNerAnonymizationStrategy.class.getSuperclass().getSuperclass().getDeclaredMethod("filterPersonalData", String.class );
 		method.setAccessible( true );
 		
 		/*
