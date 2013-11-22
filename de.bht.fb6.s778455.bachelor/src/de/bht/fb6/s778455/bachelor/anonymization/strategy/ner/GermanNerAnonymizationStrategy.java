@@ -6,9 +6,6 @@ package de.bht.fb6.s778455.bachelor.anonymization.strategy.ner;
 import java.io.File;
 
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
-import edu.stanford.nlp.ie.AbstractSequenceClassifier;
-import edu.stanford.nlp.ie.crf.CRFClassifier;
-import edu.stanford.nlp.ling.CoreLabel;
 
 /**
  * <p>This class is a concrete implementation of the Stanford NER anonymization strategy for the German language.</p>
@@ -22,37 +19,44 @@ public class GermanNerAnonymizationStrategy extends ANerAnonymizationStrategy {
 	 * Define the replacement sequence for person entities.
 	 */
 	private static final String NE_PERSON_REPLACEMENT = "<REMOVED_PERSON_ENTITY>";
-	protected AbstractSequenceClassifier< CoreLabel > classifier;
 		
+	/**
+	 * Create a new decorated GermanNerAnonymizationStrategy which is reponsible for anonymizing texts containing the German language.
+	 * @param decoratedStrategy another {@link AAnomyzationStrategy} which will be called by this strategy instance for further tasks
+	 * @param corpusFile
+	 */
 	public GermanNerAnonymizationStrategy(
 			AAnomyzationStrategy decoratedStrategy, File corpusFile ) {
 		super( decoratedStrategy, corpusFile );
-		
-		this.initializeClassifier();
 	}
 	
+	/**
+	 * Create a new undecorated GermanNerAnonymizationStrategy which is responsible for the anonymization of German texts.
+	 * @param corpusFile
+	 */
 	public GermanNerAnonymizationStrategy(File corpusFile) {
 		super( corpusFile );
-		
-		this.initializeClassifier();
-	}
-	
-	private void initializeClassifier() {
-		this.classifier = CRFClassifier.getClassifierNoExceptions( super.textCorpus.getAbsolutePath() );
-		
 	}	
+	
 	/*
 	 * (non-Javadoc)
 	 * @see de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy#anonymizeText(java.lang.String)
 	 */
 	public String anonymizeText( String inputText ) {
-		String taggedText = this.classifier.classifyWithInlineXML( inputText );
+		String preAnonymizedText = super.anonymizeText( inputText );
+		
+		String taggedText = this.classifier.classifyWithInlineXML( preAnonymizedText );
 		
 		String anonymizedText = this.removeTaggedPersons(taggedText);
 		
-		return super.anonymizeText( anonymizedText );
+		return anonymizedText;
 	}
 
+	/**
+	 * Remove (CRF)-tagged persons.
+	 * @param taggedText
+	 * @return a new {@link String}
+	 */
 	private String removeTaggedPersons( String taggedText ) {
 		String cleanedText = taggedText; 
 		
