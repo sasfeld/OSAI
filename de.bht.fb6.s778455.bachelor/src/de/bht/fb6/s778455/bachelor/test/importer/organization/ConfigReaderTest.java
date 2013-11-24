@@ -74,7 +74,7 @@ public class ConfigReaderTest {
 		assertEquals( 3, configValues.size() );
 		
 		// assert properties' keys
-		assertTrue( configValues.containsKey( IConfigKeys.IMPORT_STRATEGY_CLASS) );
+		assertTrue( configValues.containsKey( IConfigKeys.EXPORT_STRATEGY_CLASS) );
 		assertTrue( configValues.containsKey( IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_DATAFOLDER) );
 		assertTrue( configValues.containsKey( IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_TESTFOLDER) );
 	}	
@@ -86,7 +86,7 @@ public class ConfigReaderTest {
 	 */
 	public void testFetchValue() {
 		// assert properties' keys
-		assertTrue ( 0 < this.configReader.fetchValue( IConfigKeys.IMPORT_STRATEGY_CLASS ).length() );
+		assertTrue ( 0 < this.configReader.fetchValue( IConfigKeys.EXPORT_STRATEGY_CLASS ).length() );
 	}
 	
 	@Test(expected = IllegalArgumentException.class)
@@ -108,7 +108,7 @@ public class ConfigReaderTest {
 	 */
 	public void testConfiguredClasses() throws ClassNotFoundException, NoSuchMethodException, SecurityException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
 		// importer strategy
-		String importerStrategy = this.configReader.fetchValue( IConfigKeys.IMPORT_STRATEGY_CLASS );
+		String importerStrategy = this.configReader.fetchValue( IConfigKeys.EXPORT_STRATEGY_CLASS );
 		Class< ? > className = Class.forName( importerStrategy );
 		Constructor< ? > constructor = className.getConstructor( );
 		Object strategyObject = constructor.newInstance(  );
