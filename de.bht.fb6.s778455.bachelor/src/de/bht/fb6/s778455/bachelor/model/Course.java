@@ -27,6 +27,7 @@ public class Course {
 		this.setTitle( courseTitle );
 		
 		this.board = new Board(this);
+		this.board.setTitle( courseTitle );
 	}
 	
 	/**

@@ -30,10 +30,10 @@ public class DirectoryExportStrategy extends AExportStrategy {
 	 */
 	@Override
 	public boolean exportToFile( Map< String, Board > courseMap, File outputFile ) throws GeneralLoggingException {
-		if (outputFile.exists()) {
+		if (!outputFile.exists()) {
 			throw new GeneralLoggingException(
 					getClass()
-							+ ":exportToFile: the given outputFile (a directory) (value: "+outputFile.getAbsolutePath()+" ) doesn't exist.",
+							+ ":exportToFile: the given outputFile (a directory) (value: "+outputFile.getAbsolutePath()+") doesn't exist.",
 					"An internal error occured in the exporter module. Please check the logs." );
 		}
 		if (!outputFile.isDirectory()) {
@@ -60,13 +60,13 @@ public class DirectoryExportStrategy extends AExportStrategy {
 		File newBoardDir = new File( outputDir, course);
 		boolean successCreation = newBoardDir.mkdir(); // create new dir immediatly.
 		
-		if (!successCreation) {
-			throw new GeneralLoggingException(
-					getClass()
-							+ ":createBoardDir: the directory couldn't be created (value: "+newBoardDir.getAbsolutePath()+" ).",
-					"An internal error occured in the exporter module. Please check the logs." );
-		
-		}
+//		if (!successCreation) {
+//			throw new GeneralLoggingException(
+//					getClass()
+//							+ ":createBoardDir: the directory couldn't be created (value: "+newBoardDir.getAbsolutePath()+" ).",
+//					"An internal error occured in the exporter module. Please check the logs." );
+//		
+//		}
 		
 		for( BoardThread boardThread : board.getBoardThreads() ) {
 			this.createBoardThreadDir( newBoardDir, boardThread);
@@ -83,13 +83,13 @@ public class DirectoryExportStrategy extends AExportStrategy {
 		File newBoardThreadDir = new File( newBoardDir, boardThread.getTitle() );
 		boolean successCreation = newBoardThreadDir.mkdir(); // create new dir immediatly.
 		
-		if (!successCreation) {
-			throw new GeneralLoggingException(
-					getClass()
-							+ ":createBoardThreadDir: the directory couldn't be created (value: "+newBoardThreadDir.getAbsolutePath()+" ).",
-					"An internal error occured in the exporter module. Please check the logs." );
-		
-		}
+//		if (!successCreation) {
+//			throw new GeneralLoggingException(
+//					getClass()
+//							+ ":createBoardThreadDir: the directory couldn't be created (value: "+newBoardThreadDir.getAbsolutePath()+" ).",
+//					"An internal error occured in the exporter module. Please check the logs." );
+//		
+//		}
 		
 		int i = 1;
 		for( Posting posting : boardThread.getPostings()) {
@@ -111,8 +111,10 @@ public class DirectoryExportStrategy extends AExportStrategy {
 			newPostingFile.createNewFile();
 			BufferedWriter writer = new BufferedWriter( new FileWriter( newPostingFile ) );
 			
-			writer.write( "CREATION_DATETIME: " + posting.getCreationDate().getTime() + "\n" );
-			writer.write( "CONTENT: \n");
+			writer.write( "CREATION_DATETIME: " + posting.getCreationDate().getTime());
+			writer.newLine();
+			writer.write( "CONTENT:");
+			writer.newLine();
 			writer.write( posting.getContent() );
 			
 			writer.flush();
