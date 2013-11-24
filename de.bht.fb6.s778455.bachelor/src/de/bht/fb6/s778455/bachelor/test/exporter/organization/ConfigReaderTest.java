@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2013 Sascha Feldmann (sascha.feldmann@gmx.de) 
  */
-package de.bht.fb6.s778455.bachelor.test.importer.organization;
+package de.bht.fb6.s778455.bachelor.test.exporter.organization;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -14,18 +14,16 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
-import de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader;
+import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
-import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
 
 /**
- * <p>This class contains tests of the {@link de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader} in the importer module.</p>
- * <p>It's an integration test of the conf/anonymization.properties file.</p>
+ * <p>This class contains tests of the {@link de.bht.fb6.s778455.bachelor.exporter.organization.ConfigReader} in the importer module.</p>
+ * <p>It's an integration test of the conf/exporter.properties file.</p>
  *
  * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
- * @since 20.11.2013
+ * @since 24.11.2013
  *
  */
 public class ConfigReaderTest {
@@ -43,7 +41,7 @@ public class ConfigReaderTest {
 	 */
 	@Before
 	public void setUp() throws Exception {
-		this.configReader = new de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader();
+		this.configReader = new de.bht.fb6.s778455.bachelor.exporter.organization.ConfigReader();
 	}
 
 	/**
@@ -74,9 +72,9 @@ public class ConfigReaderTest {
 		assertEquals( 3, configValues.size() );
 		
 		// assert properties' keys
-		assertTrue( configValues.containsKey( IConfigKeys.IMPORT_STRATEGY_CLASS) );
-		assertTrue( configValues.containsKey( IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_DATAFOLDER) );
-		assertTrue( configValues.containsKey( IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_TESTFOLDER) );
+		assertTrue( configValues.containsKey( IConfigKeys.EXPORT_STRATEGY_CLASS) );
+		assertTrue( configValues.containsKey( IConfigKeys.EXPORT_STRATEGY_DIRECTORYEXPORT_DATAFOLDER) );
+		assertTrue( configValues.containsKey( IConfigKeys.EXPORT_STRATEGY_DIRECTORYEXPORT_TESTFOLDER) );
 	}	
 	
 	@Test
@@ -86,7 +84,7 @@ public class ConfigReaderTest {
 	 */
 	public void testFetchValue() {
 		// assert properties' keys
-		assertTrue ( 0 < this.configReader.fetchValue( IConfigKeys.IMPORT_STRATEGY_CLASS ).length() );
+		assertTrue ( 0 < this.configReader.fetchValue( IConfigKeys.EXPORT_STRATEGY_CLASS ).length() );
 	}
 	
 	@Test(expected = IllegalArgumentException.class)
@@ -108,22 +106,12 @@ public class ConfigReaderTest {
 	 */
 	public void testConfiguredClasses() throws ClassNotFoundException, NoSuchMethodException, SecurityException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
 		// importer strategy
-		String importerStrategy = this.configReader.fetchValue( IConfigKeys.IMPORT_STRATEGY_CLASS );
-		Class< ? > className = Class.forName( importerStrategy );
+		String exporterStrategy = this.configReader.fetchValue( IConfigKeys.EXPORT_STRATEGY_CLASS );
+		Class< ? > className = Class.forName( exporterStrategy );
 		Constructor< ? > constructor = className.getConstructor( );
 		Object strategyObject = constructor.newInstance(  );
 		
-		assertTrue( null != importerStrategy );
-		assertTrue ( strategyObject instanceof AImportStrategy );
-	}
-	
-	@Test
-	/**
-	 * Test of
-	 * @see de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader:getConfiguredImportStrategy
-	 */
-	public void testGetConfiguredImportStrategy() throws InvalidConfigException {
-		AImportStrategy importStrategy = ((ConfigReader) this.configReader).getConfiguredImportStrategy();
-		assertTrue( null != importStrategy);
+		assertTrue( null != exporterStrategy );
+		assertTrue ( strategyObject instanceof AExportStrategy );
 	}
 }

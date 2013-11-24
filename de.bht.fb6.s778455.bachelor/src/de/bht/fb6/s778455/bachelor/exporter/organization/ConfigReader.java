@@ -4,10 +4,8 @@
 package de.bht.fb6.s778455.bachelor.exporter.organization;
 
 import java.io.File;
-import java.util.Map;
 
 import de.bht.fb6.s778455.bachelor.organization.APropertiesConfigReader;
-import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
 
 /**
  * <p>This class realizes the config reader of the exporter module.</p>
