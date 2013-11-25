@@ -122,6 +122,14 @@ public class DirectoryExportStrategy extends AExportStrategy {
 				writer.println( line );
 			}
 			
+			writer.println( "TAGGED_CONTENT:");
+			
+			String[] taggedPostingLines = posting.getTaggedContent().split( "\n" );
+			
+			for( String taggedLine : taggedPostingLines ) {
+				writer.println( taggedLine );
+			}
+			
 			writer.flush();
 			
 			writer.close();

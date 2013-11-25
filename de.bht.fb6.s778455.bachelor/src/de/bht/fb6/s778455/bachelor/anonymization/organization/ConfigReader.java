@@ -6,12 +6,15 @@ package de.bht.fb6.s778455.bachelor.anonymization.organization;
 import java.io.File;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
+import java.util.ArrayList;
+import java.util.List;
 
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.ner.EnglishNerAnonymizationStrategy;
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.ner.GermanNerAnonymizationStrategy;
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
 import de.bht.fb6.s778455.bachelor.organization.APropertiesConfigReader;
+import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
@@ -70,7 +73,7 @@ public class ConfigReader extends APropertiesConfigReader implements
 				// special behaviour for NerAnonymizationStrategy
 				if( anonymizationStrategy
 						.equals( "de.bht.fb6.s778455.bachelor.anonymization.strategy.ner.ANerAnonymizationStrategy" ) ) {
-					
+
 					// read english corpus file as configured
 					File englishCorpusFile = new File(
 							super.fetchValue( super
@@ -81,24 +84,28 @@ public class ConfigReader extends APropertiesConfigReader implements
 						throw new InvalidConfigException( errorMessage,
 								presentationMessage, null );
 					}
-					
-					// read German corpus file as configured
-					File germanCorpusFile = new File(
-							super.fetchValue( super
-									.fetchValue( IConfigKeys.ANONYM_NER_GERMAN_PRIMARY ) ) );
-					;
-					if( !germanCorpusFile.exists() ) {
-						String errorMessage = "de.bht.fb6.s778455.bachelor.anonymization.organization.ConfigReader.getConfiguredAnonymizationStrategy(): the configured corpus file for the German language doesn't exist. Please make sure, that the config key refers to the correct config key. \n";
-						String presentationMessage = "An internal error occured while trying to read the configuration in the anonymization module. Please read the error log.";
-						throw new InvalidConfigException( errorMessage,
-								presentationMessage, null );
+
+					// read German corpora files
+					List< String > germanCorpora = super
+							.fetchMultipleValues( IConfigKeys.ANONYM_NER_GERMAN_CASCADE );
+					List< File > germanCorporaFiles;
+					if( 1 == germanCorpora.size()
+							&& "all" == germanCorpora.get( 0 ).toLowerCase()
+									.trim() ) {
+						germanCorporaFiles = this.buildFileList();
 					}
-					
-					// instanciate the NER constructor using reflection. decorate the anonymization strategy by language specific strategies.
+					else {
+						germanCorporaFiles = this.buildFileList(germanCorpora);
+					}
+
+
+					// instanciate the NER constructor using reflection.
+					// decorate the anonymization strategy by language specific
+					// strategies.
 					strategyObject = new GermanNerAnonymizationStrategy(
-//									new EnglishNerAnonymizationStrategy(
-//											englishCorpusFile ),
-									germanCorpusFile ) ;
+					// new EnglishNerAnonymizationStrategy(
+					// englishCorpusFile ),
+							germanCorporaFiles );
 				} else {
 					constructor = className.getConstructor();
 					strategyObject = constructor.newInstance();
@@ -112,7 +119,7 @@ public class ConfigReader extends APropertiesConfigReader implements
 			} catch( ClassNotFoundException | NoSuchMethodException
 					| SecurityException | InstantiationException
 					| IllegalAccessException | IllegalArgumentException
-					| InvocationTargetException e ) {
+					| InvocationTargetException | GeneralLoggingException e ) {
 				// raise invalid config exception
 				String errorMessage = "de.bht.fb6.s778455.bachelor.anonymization.organization.ConfigReader.getConfiguredAnonymizationStrategy(): the instanciation of the given configured class (given value: "
 						+ anonymizationStrategy
@@ -125,6 +132,56 @@ public class ConfigReader extends APropertiesConfigReader implements
 		} // be lazy if the import strategy was already instanciated
 
 		return this.anonymizationStrategy;
+	}
+
+	/**
+	 * Build a list of corpora Files by getting all properties with a configuration key '.corpus.'. 
+	 * @return
+	 * @throws InvalidConfigException
+	 */
+	private List< File > buildFileList() throws InvalidConfigException {
+		List< File > corporaFiles = new ArrayList< File >();
+		
+		for( String propertyKey : super
+				.fetchMultipleValues( IConfigKeys.ANONYM_NER_GERMAN_CORPORA ) ) {
+			File corpusFile = new File( super.fetchValue( propertyKey ) );
+			if( !corpusFile.exists() ) {
+				String errorMessage = "de.bht.fb6.s778455.bachelor.anonymization.organization.ConfigReader.buildFileList(): the configured corpus file (value: "
+						+ corpusFile.getAbsolutePath()
+						+ "  doesn't exist. Please make sure, that the config key refers to the correct config key. \n";
+				String presentationMessage = "An internal error occured while trying to read the configuration in the anonymization module. Please read the error log.";
+				throw new InvalidConfigException( errorMessage,
+						presentationMessage, null );
+			}
+			corporaFiles.add( corpusFile );
+		}
+		
+		return corporaFiles;
+	}
+	
+	/**
+	 * Build a list of corpora Files by getting all properties with a configuration key given in the list.
+	 * @param germanCorpora the list of config keys pointing to corpus files.
+	 * @return
+	 * @throws InvalidConfigException
+	 */
+	private List< File > buildFileList( List< String > germanCorpora ) throws InvalidConfigException {
+		List< File > corporaFiles = new ArrayList< File >();
+		
+		for( String propertyKey : germanCorpora ) {
+			File corpusFile = new File( super.fetchValue( propertyKey ) );
+			if( !corpusFile.exists() ) {
+				String errorMessage = "de.bht.fb6.s778455.bachelor.anonymization.organization.ConfigReader.buildFileList(): the configured corpus file (value: "
+						+ corpusFile.getAbsolutePath()
+						+ "  doesn't exist. Please make sure, that the config key refers to the correct config key. \n";
+				String presentationMessage = "An internal error occured while trying to read the configuration in the anonymization module. Please read the error log.";
+				throw new InvalidConfigException( errorMessage,
+						presentationMessage, null );
+			}
+			corporaFiles.add( corpusFile );
+		}
+		
+		return corporaFiles;
 	}
 
 }

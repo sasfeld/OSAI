@@ -92,11 +92,13 @@ public class DirectoyExportStrategyTest {
 		Posting samplePosting1 = new Posting();
 		samplePosting1.setContent( "This is a sample posting.\nAnd a newline." );
 		samplePosting1.setCreationDate( new Date() );		
+		samplePosting1.setTaggedContent( "This content is tagged by <I-PERS>Max Mustermann</I-PERS>." );
 		sampleThread1.addPosting( samplePosting1  );
 		
 		Posting samplePosting2 = new Posting();
 		samplePosting2.setContent( "This is a another posting" );
 		samplePosting2.setCreationDate( new Date(samplePosting1.getCreationDate().getTime() + 1000 * 60 * 60 * 24)); // + 1 day
+		samplePosting2.setTaggedContent( "This content is tagged by <I-PERS>Max Mustermann</I-PERS>." );
 		sampleThread1.addPosting( samplePosting2  );
 		
 		sampleBoard1.addThread( sampleThread1  );

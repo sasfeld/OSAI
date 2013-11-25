@@ -4,8 +4,12 @@
 package de.bht.fb6.s778455.bachelor.anonymization.strategy.ner;
 
 import java.io.File;
+import java.util.List;
 
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
+import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import edu.stanford.nlp.ie.AbstractSequenceClassifier;
+import edu.stanford.nlp.ling.CoreLabel;
 
 /**
  * <p>This class is a concrete implementation of the Stanford NER anonymization strategy for the German language.</p>
@@ -22,21 +26,42 @@ public class GermanNerAnonymizationStrategy extends ANerAnonymizationStrategy {
 		
 	/**
 	 * Create a new decorated GermanNerAnonymizationStrategy which is reponsible for anonymizing texts containing the German language.
-	 * @param decoratedStrategy another {@link AAnomyzationStrategy} which will be called by this strategy instance for further tasks
+	 * @param decoratingStrategy another {@link AAnomyzationStrategy} which will be called by this strategy instance for further tasks
 	 * @param corpusFile
+	 * @throws GeneralLoggingException 
 	 */
 	public GermanNerAnonymizationStrategy(
-			AAnomyzationStrategy decoratedStrategy, File corpusFile ) {
-		super( decoratedStrategy, corpusFile );
+			AAnomyzationStrategy decoratingStrategy, File corpusFile ) throws GeneralLoggingException {
+		super( decoratingStrategy, corpusFile );
 	}
 	
 	/**
 	 * Create a new undecorated GermanNerAnonymizationStrategy which is responsible for the anonymization of German texts.
 	 * @param corpusFile
+	 * @throws GeneralLoggingException 
 	 */
-	public GermanNerAnonymizationStrategy(File corpusFile) {
+	public GermanNerAnonymizationStrategy(File corpusFile) throws GeneralLoggingException {
 		super( corpusFile );
 	}	
+	
+	/**
+	 * Create a new GermanNerAnonymizationStrategy with a cascade of text corpora.
+	 * @param corpusFiles
+	 * @throws GeneralLoggingException
+	 */
+	public GermanNerAnonymizationStrategy(List< File > corpusFiles ) throws GeneralLoggingException {
+		super( corpusFiles );
+	}
+	
+	/**
+	 * Create a new decorated GermanNerAnonymizationStrategy with a cascade of text corpora.
+	 * @param decoratingStrategy
+	 * @param corpusFiles
+	 * @throws GeneralLoggingException
+	 */
+	public GermanNerAnonymizationStrategy(AAnomyzationStrategy decoratingStrategy, List< File > corpusFiles ) throws GeneralLoggingException {
+		super( decoratingStrategy, corpusFiles );
+	}
 	
 	/*
 	 * (non-Javadoc)
@@ -45,9 +70,11 @@ public class GermanNerAnonymizationStrategy extends ANerAnonymizationStrategy {
 	public String anonymizeText( String inputText ) {
 		String preAnonymizedText = super.anonymizeText( inputText );
 		
-		String taggedText = this.classifier.classifyWithInlineXML( preAnonymizedText );
-		
-		String anonymizedText = this.removeTaggedPersons(taggedText);
+		String anonymizedText = preAnonymizedText;
+		for( AbstractSequenceClassifier< CoreLabel > classifier : this.classifierList ) {
+			anonymizedText = classifier.classifyWithInlineXML( anonymizedText );
+			anonymizedText = this.removeTaggedPersons(anonymizedText, classifier);
+		}						
 		
 		return anonymizedText;
 	}
@@ -55,13 +82,13 @@ public class GermanNerAnonymizationStrategy extends ANerAnonymizationStrategy {
 	/**
 	 * Remove (CRF)-tagged persons.
 	 * @param taggedText
+	 * @param classifier 
 	 * @return a new {@link String}
 	 */
-	private String removeTaggedPersons( String taggedText ) {
+	private String removeTaggedPersons( String taggedText, AbstractSequenceClassifier< CoreLabel > classifier ) {
 		String cleanedText = taggedText; 
 		
 		cleanedText = cleanedText.replaceAll( "<I-PER>.*?</I-PER>" , NE_PERSON_REPLACEMENT );
-		
 		
 		return cleanedText;
 	}

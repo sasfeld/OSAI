@@ -109,7 +109,7 @@ public class ConfigReaderTest {
 		
 		// test config keys pointing to a property which is comma-separated
 		List< String > germanCorporaCascade = this.configReader.fetchMultipleValues( IConfigKeys.ANONYM_NER_GERMAN_CASCADE );
-		assertTrue( germanCorporaCascade.size() > 1 );
+		assertTrue( germanCorporaCascade.size() >= 1 );
 	}
 	
 	@Test(expected = InvalidConfigException.class)
