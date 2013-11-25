@@ -6,6 +6,7 @@ package de.bht.fb6.s778455.bachelor.test.anonymization.organization;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
+import java.util.List;
 import java.util.Map;
 
 import org.junit.After;
@@ -15,6 +16,7 @@ import org.junit.Test;
 import de.bht.fb6.s778455.bachelor.anonymization.organization.ConfigReader;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
+import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
 
 /**
  * <p>This class contains tests of the {@link ConfigReader} in the anonymization module.</p>
@@ -67,7 +69,7 @@ public class ConfigReaderTest {
 		Map< String, String > configValues = this.configReader.fetchValues();
 		
 		// assert size -> force the devloper to check this test before he manipulates the configuration
-		assertEquals( 8, configValues.size() );
+		assertEquals( 10, configValues.size() );
 		
 		// assert properties' keys
 		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_GERMAN_DEWAC_FILE ) );
@@ -76,6 +78,7 @@ public class ConfigReaderTest {
 		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_ENGLISH_4CLASS_FILE) );
 		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_ENGLISH_7CLASS_FILE ) );
 		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_ENGLISH_PRIMARY ) );
+		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_GERMAN_PRIMARY ) );
 		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_GERMAN_PRIMARY ) );
 	}
 	
@@ -93,5 +96,18 @@ public class ConfigReaderTest {
 	@Test(expected = IllegalArgumentException.class)
 	public void testFetchValueException() {
 		this.configReader.fetchValue( "this property doesn't exist" );
+	}
+	
+	@Test
+	public void testFetchMultipleValues() throws InvalidConfigException {
+		// test german corpus config keys
+		List< String > germanCorpora = this.configReader.fetchMultipleValues( IConfigKeys.ANONYM_NER_GERMAN_CORPORA );
+		
+		assertTrue( 2 == germanCorpora.size() );		
+	}
+	
+	@Test(expected = InvalidConfigException.class)
+	public void testFetchMultipleValuesException() throws InvalidConfigException {
+		this.configReader.fetchMultipleValues( "doesntexist" );
 	}
 }
