@@ -8,11 +8,13 @@ import java.io.File;
 import java.util.Map;
 
 import de.bht.fb6.s778455.bachelor.anonymization.Anonymizer;
+import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
 import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader;
 import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
+import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
@@ -85,6 +87,23 @@ public class AnonymizationController {
 										.getConfigReader()
 										.fetchValue(
 												IConfigKeys.EXPORT_STRATEGY_DIRECTORYEXPORT_DATAFOLDER ) ) );
+		
+		System.out.println("Starting analysis....");
+		for( AAnomyzationStrategy strategy : this.anonymizer.getAnonymizationStrategy().getWrappedStrategies() ) {
+			System.out.println(strategy.getDetails());
+		}
+		System.out.println("Number of courses: " + anonymizedCourses.size());
+		int numberThreads = 0;
+		int numberPostings = 0;
+		for( Board board : anonymizedCourses.values() ) {
+			numberThreads += board.getBoardThreads().size();
+			
+			for( BoardThread boardThread : board.getBoardThreads() ) {
+				numberPostings += boardThread.getPostings().size();
+			}
+		}
+		System.out.println("Number of threads: " + numberThreads);
+		System.out.println("Number of postings: " + numberPostings);
 	}
 	
 	public static void main( String[] args ) throws GeneralLoggingException {

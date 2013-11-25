@@ -54,4 +54,12 @@ public class Anonymizer {
 		return inputBoard;
 	
 	}
+
+	/**
+	 * Get the {@link AAnomyzationStrategy} instance which is used in the Anonymizer.
+	 * @return
+	 */
+	public AAnomyzationStrategy getAnonymizationStrategy() {
+		return this.anonymizationStrategy;
+	}
 }

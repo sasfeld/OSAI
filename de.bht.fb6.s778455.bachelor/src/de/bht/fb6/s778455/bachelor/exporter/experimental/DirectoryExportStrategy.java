@@ -7,6 +7,7 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Map;
 
 import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
@@ -109,13 +110,17 @@ public class DirectoryExportStrategy extends AExportStrategy {
 		File newPostingFile = new File( newBoardThreadDir, "posting" + numberIncrement + ".txt" );
 		try {
 			newPostingFile.createNewFile();
-			BufferedWriter writer = new BufferedWriter( new FileWriter( newPostingFile ) );
+			PrintWriter writer = new PrintWriter( new FileWriter( newPostingFile ) );
 			
-			writer.write( "CREATION_DATETIME: " + posting.getCreationDate().getTime());
-			writer.newLine();
-			writer.write( "CONTENT:");
-			writer.newLine();
-			writer.write( posting.getContent() );
+			
+			writer.println( "CREATION_DATETIME: " + posting.getCreationDate().getTime());
+			writer.println( "CONTENT:");
+
+			String[] postingLines = posting.getContent().split( "\n" );
+			
+			for( String line : postingLines ) {
+				writer.println( line );
+			}
 			
 			writer.flush();
 			

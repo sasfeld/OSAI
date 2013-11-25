@@ -256,7 +256,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 						contentMatched = true;
 					}
 				} else {
-					contentBuilder.append( line );
+					contentBuilder.append( line + "\n" );
 				}
 			}
 			reader.close();

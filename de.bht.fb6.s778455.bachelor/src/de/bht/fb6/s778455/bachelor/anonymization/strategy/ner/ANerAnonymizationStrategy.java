@@ -6,6 +6,8 @@
 package de.bht.fb6.s778455.bachelor.anonymization.strategy.ner;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
@@ -90,6 +92,36 @@ public abstract class ANerAnonymizationStrategy extends AAnomyzationStrategy {
 		}
 		
 		return cleanedText;
+	}
+	
+	/*
+	 * (non-Javadoc)
+	 * @see de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy#getWrappedStrategies()
+	 */
+	public List< AAnomyzationStrategy > getWrappedStrategies() {
+		List< AAnomyzationStrategy > strategyList = new ArrayList< AAnomyzationStrategy >();
+		strategyList.add( this );
+		
+		if ( null != this.decoratingStrategy ) {
+			// use recursion to get decorating classes list from decorating instances
+			List< AAnomyzationStrategy > subList = this.decoratingStrategy.getWrappedStrategies();
+			strategyList.addAll( subList );
+		}
+		
+		return strategyList;
+	}
+	
+	/*
+	 * (non-Javadoc)
+	 * @see de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy#getDetails()
+	 */
+	public String getDetails() {
+		StringBuilder detailsBuilder = new StringBuilder();
+		detailsBuilder	.append( "Strategy class: " + getClass() + "\n" )
+						.append( "Text corpus: " + this.textCorpus );
+					
+		
+		return detailsBuilder.toString();
 	}
 	
 }

@@ -90,7 +90,7 @@ public class DirectoyExportStrategyTest {
 		sampleThread1.setCreationDate( new Date());
 		
 		Posting samplePosting1 = new Posting();
-		samplePosting1.setContent( "This is a sample posting" );
+		samplePosting1.setContent( "This is a sample posting.\nAnd a newline." );
 		samplePosting1.setCreationDate( new Date() );		
 		sampleThread1.addPosting( samplePosting1  );
 		

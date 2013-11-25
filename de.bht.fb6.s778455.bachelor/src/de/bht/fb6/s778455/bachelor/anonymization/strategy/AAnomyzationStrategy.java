@@ -3,6 +3,8 @@
  */
 package de.bht.fb6.s778455.bachelor.anonymization.strategy;
 
+import java.util.List;
+
 /**
  * 
  * <p>This class describes the API for an anonymization strategy.</p>
@@ -66,4 +68,17 @@ public abstract class AAnomyzationStrategy {
 		
 		return cleanedText;
 	}
+	
+
+	/**
+	 * Get a list of {@link Class} concerning the wrapped (means including decorators) strategies and the strategy itself.
+	 * @return
+	 */
+	public abstract List< AAnomyzationStrategy > getWrappedStrategies();
+	
+	/**
+	 * Get a (informal) String containing details. This is meant to offer information for analysis and logging.
+	 * @return
+	 */
+	public abstract String getDetails();
 }

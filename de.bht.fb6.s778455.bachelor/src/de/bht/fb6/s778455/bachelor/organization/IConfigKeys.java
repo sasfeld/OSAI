@@ -16,14 +16,22 @@ public interface IConfigKeys {
 	/*
 	* anonymization module
 	*/
-	String ANONYM_NER_GERMAN_DEWAC_FILE = "anonym.ner.german.dewac";
-	String ANONYM_NER_GERMAN_HGC_FILE = "anonym.ner.german.hgc";
+	/**
+	 * Key to fetch multiple corpus values.
+	 */
+	String ANONYM_NER_GERMAN_CORPORA = "anonym.ner.german.corpus";
+	String ANONYM_NER_GERMAN_DEWAC_FILE = "anonym.ner.german.corpus.dewac";
+	String ANONYM_NER_GERMAN_HGC_FILE = "anonym.ner.german.corpus.hgc";
 	String ANONYM_NER_GERMAN_PRIMARY = "anonym.ner.german.primary";
 	String ANONY_STRATEGY_CLASS = "anonym.strategy.class";
 	
-	String ANONYM_NER_ENGLISH_3CLASS_FILE = "anonym.ner.english.3class";
-	String ANONYM_NER_ENGLISH_4CLASS_FILE = "anonym.ner.english.4class";
-	String ANONYM_NER_ENGLISH_7CLASS_FILE = "anonym.ner.english.7class";
+	/**
+	 * Key to fetch multiple corpus values.
+	 */
+	String ANONYM_NER_ENGLISH_CORPORA = "anonym.ner.english.corpus";	
+	String ANONYM_NER_ENGLISH_3CLASS_FILE = "anonym.ner.english.corpus.3class";
+	String ANONYM_NER_ENGLISH_4CLASS_FILE = "anonym.ner.english.corpus.4class";
+	String ANONYM_NER_ENGLISH_7CLASS_FILE = "anonym.ner.english.corpus.7class";
 	String ANONYM_NER_ENGLISH_PRIMARY = "anonym.ner.english.primary";
 	
 	/*
