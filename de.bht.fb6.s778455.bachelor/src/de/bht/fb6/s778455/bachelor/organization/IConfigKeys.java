@@ -24,6 +24,7 @@ public interface IConfigKeys {
 	String ANONYM_NER_GERMAN_HGC_FILE = "anonym.ner.german.corpus.hgc";
 	String ANONYM_NER_GERMAN_PRIMARY = "anonym.ner.german.primary";
 	String ANONY_STRATEGY_CLASS = "anonym.strategy.class";
+	String ANONYM_NER_GERMAN_CASCADE = "anonym.ner.german.cascade";
 	
 	/**
 	 * Key to fetch multiple corpus values.
@@ -33,6 +34,7 @@ public interface IConfigKeys {
 	String ANONYM_NER_ENGLISH_4CLASS_FILE = "anonym.ner.english.corpus.4class";
 	String ANONYM_NER_ENGLISH_7CLASS_FILE = "anonym.ner.english.corpus.7class";
 	String ANONYM_NER_ENGLISH_PRIMARY = "anonym.ner.english.primary";
+	String ANONYM_NER_ENGLISH_CASCADE = "anonym.ner.english.cascade";
 	
 	/*
 	* import module

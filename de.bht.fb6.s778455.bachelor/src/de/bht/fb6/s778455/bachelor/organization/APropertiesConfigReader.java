@@ -7,6 +7,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -100,12 +101,23 @@ public abstract class APropertiesConfigReader implements IConfigReader {
 	 * de.bht.fb6.s778455.bachelor.organization.IConfigReader#fetchMultipleValues
 	 * (java.lang.String)
 	 */
-	public List< String > fetchMultipleValues( String propertyKey ) throws InvalidConfigException {
+	public List< String > fetchMultipleValues( String propertyKey )
+			throws InvalidConfigException {
 		List< String > returnValues = new ArrayList< String >();
 		Map< String, String > propertiesMap = this.fetchValues();
 
+		/*
+		 * Check for properties with the format:
+		 * a.b.c.d = property1
+		 * a.b.c.d.1 = property2
+		 * a.b.c.d.2 = property3
+		 * 
+		 * An example input to get a list of the properties 1 - 3 would be: a.b.c.d
+		 */
 		for( String key : propertiesMap.keySet() ) {
-			// check if the propertyKey is the beginning of the one in the map and the one in the map is followed by other characters (such as ".anotherconfigkey")
+			// check if the propertyKey is the beginning of the one in the map
+			// and the one in the map is followed by other characters (such as
+			// ".anotherconfigkey")
 			if( key.startsWith( propertyKey )
 					&& key.substring( propertyKey.length(), key.length() )
 							.length() > 0 ) {
@@ -113,14 +125,30 @@ public abstract class APropertiesConfigReader implements IConfigReader {
 			}
 		}
 
+		/*
+		 * Otherwise, check for properties with the format:
+		 * a.b.c.d = property1,property2,property3
+		 * 
+		 *  The result would also be a list of properties 1 - 3.
+		 */
 		// if the list is empty the config key doesn't point to a list of values
 		if( 0 == returnValues.size() ) {
-			throw new InvalidConfigException(
-					getClass() + ":fetchMultipleValues: the given config key ("
-							+ propertyKey
-							+ ") doesn't point to a list of values.",
-					"Internal error: the configuration is damaged. Please see the logs.",
-					null );
+			// maybe the config key is single and the values are comma-separated
+			if( propertiesMap.containsKey( propertyKey ) ) {
+				String property = propertiesMap.get( propertyKey );
+				String[] properties = property.split( "," );
+				returnValues.addAll( Arrays.asList( properties ) );
+			}
+
+			else {
+				throw new InvalidConfigException(
+						getClass()
+								+ ":fetchMultipleValues: the given config key ("
+								+ propertyKey
+								+ ") doesn't point to a list of values.",
+						"Internal error: the configuration is damaged. Please see the logs.",
+						null );
+			}
 		}
 
 		return returnValues;

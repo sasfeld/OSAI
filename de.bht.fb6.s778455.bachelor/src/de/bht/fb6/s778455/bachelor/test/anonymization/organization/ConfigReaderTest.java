@@ -79,6 +79,8 @@ public class ConfigReaderTest {
 		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_ENGLISH_7CLASS_FILE ) );
 		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_ENGLISH_PRIMARY ) );
 		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_GERMAN_PRIMARY ) );
+		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_GERMAN_CASCADE ) );
+		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_ENGLISH_CASCADE ) );
 		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_GERMAN_PRIMARY ) );
 	}
 	
@@ -100,14 +102,26 @@ public class ConfigReaderTest {
 	
 	@Test
 	public void testFetchMultipleValues() throws InvalidConfigException {
-		// test german corpus config keys
+		// test german corpus config keys (format: a.b.c.1 = property and a.b.c.2 = property2)
 		List< String > germanCorpora = this.configReader.fetchMultipleValues( IConfigKeys.ANONYM_NER_GERMAN_CORPORA );
 		
-		assertTrue( 2 == germanCorpora.size() );		
+		assertTrue( 2 == germanCorpora.size() );	
+		
+		// test config keys pointing to a property which is comma-separated
+		List< String > germanCorporaCascade = this.configReader.fetchMultipleValues( IConfigKeys.ANONYM_NER_GERMAN_CASCADE );
+		assertTrue( germanCorporaCascade.size() > 1 );
 	}
 	
 	@Test(expected = InvalidConfigException.class)
 	public void testFetchMultipleValuesException() throws InvalidConfigException {
 		this.configReader.fetchMultipleValues( "doesntexist" );
+	}
+	
+	@Test
+	public void testFetchMultipleValuesSingleKey() throws InvalidConfigException {		
+		// test single property key -> shouldn't point to a list of values
+		List< String > singleValueList = this.configReader.fetchMultipleValues( IConfigKeys.ANONYM_NER_GERMAN_DEWAC_FILE );
+		
+		assertTrue( 1 == singleValueList.size());
 	}
 }
