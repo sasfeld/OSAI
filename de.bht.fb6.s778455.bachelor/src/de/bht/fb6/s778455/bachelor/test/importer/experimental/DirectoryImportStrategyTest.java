@@ -24,20 +24,19 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 
 /**
- * <p>This is a test of the {@link DirectoryImportStrategy} class.</p>
- *
+ * <p>
+ * This is a test of the {@link DirectoryImportStrategy} class.
+ * </p>
+ * 
  * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
  * @since 20.11.2013
- *
+ * 
  */
 public class DirectoryImportStrategyTest {
 	protected AImportStrategy importStrategy;
 
 	/*
-	 * ##################################
-	 * #
-	 * # test preparation
-	 * #
+	 * ################################## # # test preparation #
 	 * ##################################
 	 */
 	/**
@@ -55,12 +54,9 @@ public class DirectoryImportStrategyTest {
 	public void tearDown() throws Exception {
 		this.importStrategy = null;
 	}
-	
+
 	/*
-	 * ##################################
-	 * #
-	 * # tests
-	 * #
+	 * ################################## # # tests #
 	 * ##################################
 	 */
 	@Test
@@ -106,10 +102,10 @@ public class DirectoryImportStrategyTest {
 			if ( 0 == i ) {
 				assertEquals( 1384093141, posting.getCreationDate().getTime() );
 				assertTrue ( posting.getContent().contains( "Das ist nur ein Dummy-Content." ));
+				assertTrue ( posting.getTaggedContent().contains( "This is only a <I-PERS>dummy</I-PERS> content." ));
 				assertTrue ( posting.getContent().contains( "This is only a dummy content." ));
 			}
 			i++;
 		}
 	}
-
 }

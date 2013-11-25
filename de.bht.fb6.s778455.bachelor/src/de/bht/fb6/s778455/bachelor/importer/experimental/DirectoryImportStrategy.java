@@ -225,7 +225,9 @@ public class DirectoryImportStrategy extends AImportStrategy {
 			String line;
 			boolean creationDateTimeMatched = false;
 			boolean contentMatched = false;
+			boolean taggedContentMatched = false;
 			StringBuilder contentBuilder = new StringBuilder();
+			StringBuilder taggedContentBuilder = new StringBuilder();
 
 			while( null != ( line = reader.readLine() ) ) {
 				if( !creationDateTimeMatched ) {
@@ -237,6 +239,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 						try {
 							long timeStamp = Long.parseLong( creationDateTime );
 							posting.setCreationDate( new Date( timeStamp ) );
+							creationDateTimeMatched = true;
 						} catch( NumberFormatException e ) { // timestamp was
 																// invalid and
 																// couldn't get
@@ -251,17 +254,26 @@ public class DirectoryImportStrategy extends AImportStrategy {
 					}
 				}
 
-				if( !contentMatched ) {
+				if( !contentMatched && !taggedContentMatched ) {
 					if( line.contains( "CONTENT:" ) ) {
 						contentMatched = true;
 					}
-				} else {
-					contentBuilder.append( line + "\n" );
+				} else if ( contentMatched && !taggedContentMatched) {
+					if( line.startsWith( "TAGGED_CONTENT:" ) ) {
+						taggedContentMatched = true;
+					}
+					else {
+						contentBuilder.append( line + "\n" );
+					}
+				}
+				else { // !contentMatched && taggedContentMatched
+					taggedContentBuilder.append( line + "\n" );
 				}
 			}
 			reader.close();
 
 			posting.setContent( contentBuilder.toString() );
+			posting.setTaggedContent( taggedContentBuilder.toString() );
 			return posting;
 		} catch( IOException e ) {
 			Application
