@@ -33,6 +33,14 @@ public class Anonymizer {
 	}
 	
 	/**
+	 * Instanciate a new Anonymizer using the given strategy.
+	 * @param strategy
+	 */
+	public Anonymizer( AAnomyzationStrategy strategy ) {
+		this.anonymizationStrategy = strategy;
+	}
+
+	/**
 	 * Anonymize a given {@link Board}.
 	 * The given instance will be maniuplated immediatly. 
 	 * @param inputBoard
