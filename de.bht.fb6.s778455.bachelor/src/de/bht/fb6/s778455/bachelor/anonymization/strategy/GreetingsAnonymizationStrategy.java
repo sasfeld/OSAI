@@ -4,6 +4,7 @@
 package de.bht.fb6.s778455.bachelor.anonymization.strategy;
 
 import java.util.List;
+import java.util.regex.Pattern;
 
 /**
  * <p>This class realizes a strategy to remove greeting sequences in sentences, mostly by using regular expressions.</p>
@@ -24,11 +25,18 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 	 * @see de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy#anonymizeText(java.lang.String)
 	 */
 	public String anonymizeText( String inputText ) {
-		String removedGreetings = inputText;
-		removedGreetings = removedGreetings.replaceAll( "(?<=Gruß )[A-Za-z]{2}", PERSONAL_GREETING_REPLACEMENT );		
-		removedGreetings = removedGreetings.replaceAll( "(?<=Viel Erfolg )[A-Za-z]{2}", PERSONAL_GREETING_REPLACEMENT );		
-		removedGreetings = removedGreetings.replaceAll( "^[A-Za-z]{2}$", PERSONAL_GREETING_REPLACEMENT );		
-		removedGreetings = removedGreetings.replaceAll( "(?<=[!\\.\\?]{1} )[A-Za-z]{2}$", PERSONAL_GREETING_REPLACEMENT );		
+		String removedGreetings = super.prepareText( inputText );
+		
+		Pattern pGreetingAcronym = Pattern.compile( "(?<=Gruß[,!\\.]? )[A-Za-z]{2}(?![A-Za-z0-9])", Pattern.MULTILINE );
+		removedGreetings = pGreetingAcronym.matcher( removedGreetings ).replaceAll( PERSONAL_GREETING_REPLACEMENT )	;	
+		
+		Pattern pGreetingSuccessAcronym = Pattern.compile( "(?<=Viel Erfolg[,!\\.]? )[A-Za-z]{2}(?![A-Za-z0-9])", Pattern.MULTILINE );
+		removedGreetings = pGreetingSuccessAcronym.matcher( removedGreetings ).replaceAll( PERSONAL_GREETING_REPLACEMENT );		
+		
+		Pattern pSingleAcronym = Pattern.compile( "^[A-Za-z]{2}$" , Pattern.MULTILINE);
+		removedGreetings = pSingleAcronym.matcher( removedGreetings ).replaceAll( PERSONAL_GREETING_REPLACEMENT );	
+		
+		removedGreetings = removedGreetings.replaceAll( "(?<=[!\\.\\?]+ )[A-Za-z]{2}$", PERSONAL_GREETING_REPLACEMENT );		
 		
 		return removedGreetings;
 	}

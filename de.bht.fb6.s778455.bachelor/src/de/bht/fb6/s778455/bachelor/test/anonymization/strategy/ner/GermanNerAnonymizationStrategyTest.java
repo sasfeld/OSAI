@@ -74,7 +74,7 @@ public class GermanNerAnonymizationStrategyTest {
 		 * test replacement of ".[word]" by ".[whitespace][word]" 
 		 */
 		String inputText = "This text doesn't have whitespaces between sentences.As you see here.And here.";
-		String expectedCleanedText = "This text doesn't have whitespaces between sentences. As you see here. And here. ";	
+		String expectedCleanedText = "This text doesn't have whitespaces between sentences. As you see here. And here.";	
 		
 		String cleanedText = ( String ) method.invoke( this.strategy, inputText);
 		
