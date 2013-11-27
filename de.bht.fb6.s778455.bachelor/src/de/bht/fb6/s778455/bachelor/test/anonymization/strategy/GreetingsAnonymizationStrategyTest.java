@@ -132,10 +132,10 @@ public class GreetingsAnonymizationStrategyTest {
 		assertEquals( expectedOutput, result );		
 		
 		/*	
-		 * "! XY"
+		 * "! XY\nNew line."
 		 */
-		input = "Hallo!\nGuter Beitrag, gefällt mir! SF";		
-		expectedOutput = "Hallo!\nGuter Beitrag, gefällt mir! "+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
+		input = "Hallo!\nGuter Beitrag, gefällt mir! SF\nAnd a new line";		
+		expectedOutput = "Hallo!\nGuter Beitrag, gefällt mir! "+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT + "\nAnd a new line";
 		
 		result = this.strategy.anonymizeText( input );
 		assertEquals( expectedOutput, result );		

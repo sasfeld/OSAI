@@ -5,6 +5,7 @@
 package de.bht.fb6.s778455.bachelor.anonymization.controller;
 
 import java.io.File;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
@@ -16,8 +17,6 @@ import de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader;
 import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
-import de.bht.fb6.s778455.bachelor.organization.Application;
-import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
@@ -122,10 +121,12 @@ public class AnonymizationController {
 				}
 
 			} else {
-				Application
-						.log( getClass()
-								+ "performAnonymization(): the implementation of the given anonymization strategy isn't supported yet. Please extend the AnonymizationController!",
-								LogType.ERROR );
+				AAnomyzationStrategy strategy = this.anonymConfigReader.getConfiguredClass( chainingKey );
+				
+				Anonymizer anonymizer = new Anonymizer( strategy );
+
+				// anonymize boards using the ANerAnonymizationStrategy
+				this._anonymizeBoards( anonymizer, courses );
 			}
 		}
 
@@ -152,7 +153,10 @@ public class AnonymizationController {
 	 * @throws GeneralLoggingException
 	 */
 	public void performAnonymizationAnalysis() throws GeneralLoggingException {
+		long startTime = new Date().getTime();
 		Map< String, Board > anonymizedCourses = this.performAnonymization();
+		long elapsedTime = new Date().getTime() - startTime;
+		
 		this.exportStrategy
 				.exportToFile(
 						anonymizedCourses,
@@ -163,6 +167,11 @@ public class AnonymizationController {
 												IConfigKeys.EXPORT_STRATEGY_DIRECTORYEXPORT_DATAFOLDER ) ) );
 
 		System.out.println( "Starting analysis...." );
+		System.out
+				.println( "Used chain of strategies (config keys): "
+						+ de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory
+								.getConfigReader().fetchValue(
+										IConfigKeys.ANONYM_STRATEGY_CHAIN ) );
 		System.out.println( "Number of courses: " + anonymizedCourses.size() );
 		int numberThreads = 0;
 		int numberPostings = 0;
@@ -175,6 +184,7 @@ public class AnonymizationController {
 		}
 		System.out.println( "Number of threads: " + numberThreads );
 		System.out.println( "Number of postings: " + numberPostings );
+		System.out.println( "Elapsed time(s): " + elapsedTime / 1000);
 	}
 
 	public static void main( String[] args ) throws GeneralLoggingException {

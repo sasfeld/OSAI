@@ -27,16 +27,20 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 	public String anonymizeText( String inputText ) {
 		String removedGreetings = super.prepareText( inputText );
 		
+		// replace acronyms which are following "Gruﬂ"
 		Pattern pGreetingAcronym = Pattern.compile( "(?<=Gruﬂ[,!\\.]? )[A-Za-z]{2}(?![A-Za-z0-9])", Pattern.MULTILINE );
 		removedGreetings = pGreetingAcronym.matcher( removedGreetings ).replaceAll( PERSONAL_GREETING_REPLACEMENT )	;	
-		
+
+		// replace acronyms which are following "Viel Erfolg"
 		Pattern pGreetingSuccessAcronym = Pattern.compile( "(?<=Viel Erfolg[,!\\.]? )[A-Za-z]{2}(?![A-Za-z0-9])", Pattern.MULTILINE );
 		removedGreetings = pGreetingSuccessAcronym.matcher( removedGreetings ).replaceAll( PERSONAL_GREETING_REPLACEMENT );		
 		
+		// replace 2-digit acronyms in a single line (e.g. "XY")
 		Pattern pSingleAcronym = Pattern.compile( "^[A-Za-z]{2}$" , Pattern.MULTILINE);
 		removedGreetings = pSingleAcronym.matcher( removedGreetings ).replaceAll( PERSONAL_GREETING_REPLACEMENT );	
 		
-		removedGreetings = removedGreetings.replaceAll( "(?<=[!\\.\\?]+ )[A-Za-z]{2}$", PERSONAL_GREETING_REPLACEMENT );		
+		Pattern pAcronymEndOfLine = Pattern.compile( "(?<=[!\\.\\?]+ )[A-Za-z]{2}$", Pattern.MULTILINE );
+		removedGreetings = pAcronymEndOfLine.matcher( removedGreetings ).replaceAll( PERSONAL_GREETING_REPLACEMENT);		
 		
 		return removedGreetings;
 	}
