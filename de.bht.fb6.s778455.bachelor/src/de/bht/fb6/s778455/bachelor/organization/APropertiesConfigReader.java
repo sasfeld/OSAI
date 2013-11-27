@@ -15,7 +15,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
-import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 
 /**
@@ -173,6 +172,7 @@ public abstract class APropertiesConfigReader implements IConfigReader {
 			Constructor< ? > constructor = className.getConstructor(parameterTypes);
 			
 			// try to create the given instance: a class cast exception will be thrown in the case of no success
+			@SuppressWarnings( "unchecked" )
 			T strategyObject = (T) constructor.newInstance(params);
 			return strategyObject;
 		} catch( ClassNotFoundException | NoSuchMethodException

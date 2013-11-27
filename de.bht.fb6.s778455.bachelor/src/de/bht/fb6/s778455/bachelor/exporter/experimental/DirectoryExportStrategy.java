@@ -3,7 +3,6 @@
  */
 package de.bht.fb6.s778455.bachelor.exporter.experimental;
 
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -59,7 +58,7 @@ public class DirectoryExportStrategy extends AExportStrategy {
 	 */
 	private void createBoardDir( File outputDir, String course, Board board ) throws GeneralLoggingException {
 		File newBoardDir = new File( outputDir, course);
-		boolean successCreation = newBoardDir.mkdir(); // create new dir immediatly.
+		newBoardDir.mkdir(); // create new dir immediatly.
 		
 //		if (!successCreation) {
 //			throw new GeneralLoggingException(
@@ -82,7 +81,7 @@ public class DirectoryExportStrategy extends AExportStrategy {
 	 */
 	private void createBoardThreadDir( File newBoardDir, BoardThread boardThread ) throws GeneralLoggingException {
 		File newBoardThreadDir = new File( newBoardDir, boardThread.getTitle() );
-		boolean successCreation = newBoardThreadDir.mkdir(); // create new dir immediatly.
+		newBoardThreadDir.mkdir(); // create new dir immediatly.
 		
 //		if (!successCreation) {
 //			throw new GeneralLoggingException(

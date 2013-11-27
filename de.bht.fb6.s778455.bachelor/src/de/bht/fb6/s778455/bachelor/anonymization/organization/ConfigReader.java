@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
-import de.bht.fb6.s778455.bachelor.anonymization.strategy.ner.EnglishNerAnonymizationStrategy;
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.ner.GermanNerAnonymizationStrategy;
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
 import de.bht.fb6.s778455.bachelor.organization.APropertiesConfigReader;

@@ -161,7 +161,7 @@ public abstract class ANerAnonymizationStrategy extends AAnomyzationStrategy {
 	public String removeSpecialTags( String inputText ) {
 		String cleanedText = inputText;
 
-		for( AbstractSequenceClassifier classifier : this.classifierList ) {
+		for( AbstractSequenceClassifier< ? > classifier : this.classifierList ) {
 			Set< String > tags = classifier.labels();
 
 			for( String tag : tags ) {
