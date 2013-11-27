@@ -133,6 +133,20 @@ public class ConfigReader extends APropertiesConfigReader implements
 
 		return this.anonymizationStrategy;
 	}
+	
+	/**
+	 * Get a new ner anonymization strategy instance.
+	 * @param languageKey the config key of the concrete class (e.g. GermanNerAnonymizationStrategy) to be used.
+	 * @param corpusKey the config key to the corpus used in the new strategy.
+	 * @return the instanciated anonymization strategy.
+	 * @throws InvalidConfigException 
+	 */
+	public AAnomyzationStrategy getNerAnonymizationStrategy(String languageKey, String corpusKey) throws InvalidConfigException {
+		String corpusProperty = super.fetchValue( corpusKey );
+		AAnomyzationStrategy strategy = super.getConfiguredClass( corpusProperty );
+		
+		return strategy;
+	}
 
 	/**
 	 * Build a list of corpora Files by getting all properties with a configuration key '.corpus.'. 

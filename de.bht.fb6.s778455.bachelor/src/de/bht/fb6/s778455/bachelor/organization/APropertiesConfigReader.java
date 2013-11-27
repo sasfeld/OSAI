@@ -6,6 +6,8 @@ package de.bht.fb6.s778455.bachelor.organization;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -13,6 +15,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
+import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 
 /**
@@ -107,12 +110,11 @@ public abstract class APropertiesConfigReader implements IConfigReader {
 		Map< String, String > propertiesMap = this.fetchValues();
 
 		/*
-		 * Check for properties with the format:
-		 * a.b.c.d = property1
-		 * a.b.c.d.1 = property2
-		 * a.b.c.d.2 = property3
+		 * Check for properties with the format: a.b.c.d = property1 a.b.c.d.1 =
+		 * property2 a.b.c.d.2 = property3
 		 * 
-		 * An example input to get a list of the properties 1 - 3 would be: a.b.c.d
+		 * An example input to get a list of the properties 1 - 3 would be:
+		 * a.b.c.d
 		 */
 		for( String key : propertiesMap.keySet() ) {
 			// check if the propertyKey is the beginning of the one in the map
@@ -126,10 +128,10 @@ public abstract class APropertiesConfigReader implements IConfigReader {
 		}
 
 		/*
-		 * Otherwise, check for properties with the format:
-		 * a.b.c.d = property1,property2,property3
+		 * Otherwise, check for properties with the format: a.b.c.d =
+		 * property1,property2,property3
 		 * 
-		 *  The result would also be a list of properties 1 - 3.
+		 * The result would also be a list of properties 1 - 3.
 		 */
 		// if the list is empty the config key doesn't point to a list of values
 		if( 0 == returnValues.size() ) {
@@ -152,6 +154,39 @@ public abstract class APropertiesConfigReader implements IConfigReader {
 		}
 
 		return returnValues;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * @see de.bht.fb6.s778455.bachelor.organization.IConfigReader#getConfiguredClass(java.lang.String)
+	 */
+	public < T > T getConfiguredClass( String classPropertyKey, Object... params ) throws InvalidConfigException {
+		String classProperty = this.fetchValue( classPropertyKey );
+		try { // try to instanciate an instance from the property value
+			Class< ? > className = Class.forName( classProperty );
+			
+			// fetch parameters' classes and hand it to the reflection method getConstructor()
+			Class< ? >[] parameterTypes = new Class< ? >[params.length];
+			for( int i = 0; i < params.length; i++ ) {
+				parameterTypes[i] = params[i].getClass();
+			}
+			Constructor< ? > constructor = className.getConstructor(parameterTypes);
+			
+			// try to create the given instance: a class cast exception will be thrown in the case of no success
+			T strategyObject = (T) constructor.newInstance(params);
+			return strategyObject;
+		} catch( ClassNotFoundException | NoSuchMethodException
+				| SecurityException | InstantiationException
+				| IllegalAccessException | IllegalArgumentException
+				| InvocationTargetException|ClassCastException e ) {
+			String errorMessage = "de.bht.fb6.s778455.bachelor.organization.APropertiesConfigReader.getConfiguredClass(): the instanciation of the given configured class (given value: "
+					+ classPropertyKey
+					+ ") was not successfull. Either it doesn't exist or doesn't extend the given class. Full exception: \n"
+					+ e;
+			String presentationMessage = "An internal error occured while trying to read the configuration in the module. Please read the error log.";
+			throw new InvalidConfigException( errorMessage,
+					presentationMessage, e );
+		}
 	}
 
 }

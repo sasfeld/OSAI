@@ -6,6 +6,7 @@ package de.bht.fb6.s778455.bachelor.test.anonymization.organization;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
+import java.io.File;
 import java.util.List;
 import java.util.Map;
 
@@ -14,6 +15,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import de.bht.fb6.s778455.bachelor.anonymization.organization.ConfigReader;
+import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
@@ -69,7 +71,7 @@ public class ConfigReaderTest {
 		Map< String, String > configValues = this.configReader.fetchValues();
 		
 		// assert size -> force the devloper to check this test before he manipulates the configuration
-		assertEquals( 10, configValues.size() );
+		assertEquals( 13, configValues.size() );
 		
 		// assert properties' keys
 		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_GERMAN_DEWAC_FILE ) );
@@ -82,6 +84,9 @@ public class ConfigReaderTest {
 		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_GERMAN_CASCADE ) );
 		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_ENGLISH_CASCADE ) );
 		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_GERMAN_PRIMARY ) );
+		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_GERMAN_STRATEGY_CLASS ) );
+		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_ENGLISH_STRATEGY_CLASS ) );
+		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_STRATEGY_CHAIN ) );
 	}
 	
 	@Test
@@ -123,5 +128,14 @@ public class ConfigReaderTest {
 		List< String > singleValueList = this.configReader.fetchMultipleValues( IConfigKeys.ANONYM_NER_GERMAN_DEWAC_FILE );
 		
 		assertTrue( 1 == singleValueList.size());
+	}
+	
+	@Test
+	public void testGetConfiguredClass() throws InvalidConfigException {
+		// test for GermanNerAnonymizationStrategy
+		ConfigReader configReader = (ConfigReader) this.configReader;
+		AAnomyzationStrategy strategy =  configReader.<AAnomyzationStrategy>getConfiguredClass( IConfigKeys.ANONYM_NER_GERMAN_STRATEGY_CLASS, new File( this.configReader.fetchValue( IConfigKeys.ANONYM_NER_GERMAN_HGC_FILE )));
+		
+		assertTrue( null != strategy );
 	}
 }

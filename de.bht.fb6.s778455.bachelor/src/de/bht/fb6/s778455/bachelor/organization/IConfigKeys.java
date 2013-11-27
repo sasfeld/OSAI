@@ -19,6 +19,8 @@ public interface IConfigKeys {
 	/**
 	 * Key to fetch multiple corpus values.
 	 */
+	String ANONYM_STRATEGY_CHAIN = "anony.strategy.chain";
+	String ANONYM_NER_GERMAN_STRATEGY_CLASS = "anonym.ner.german.strategy.class";
 	String ANONYM_NER_GERMAN_CORPORA = "anonym.ner.german.corpus";
 	String ANONYM_NER_GERMAN_DEWAC_FILE = "anonym.ner.german.corpus.dewac";
 	String ANONYM_NER_GERMAN_HGC_FILE = "anonym.ner.german.corpus.hgc";
@@ -29,6 +31,7 @@ public interface IConfigKeys {
 	/**
 	 * Key to fetch multiple corpus values.
 	 */
+	String ANONYM_NER_ENGLISH_STRATEGY_CLASS = "anonym.ner.english.strategy.class";
 	String ANONYM_NER_ENGLISH_CORPORA = "anonym.ner.english.corpus";	
 	String ANONYM_NER_ENGLISH_3CLASS_FILE = "anonym.ner.english.corpus.3class";
 	String ANONYM_NER_ENGLISH_4CLASS_FILE = "anonym.ner.english.corpus.4class";

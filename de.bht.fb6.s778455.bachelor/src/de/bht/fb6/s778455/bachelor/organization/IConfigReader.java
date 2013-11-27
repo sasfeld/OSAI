@@ -39,4 +39,14 @@ public interface IConfigReader {
 	 * @throws InvalidConfigException 
 	 */
 	List< String > fetchMultipleValues(String propertyKey) throws InvalidConfigException;
+	
+	/**
+	 * Get a new instance for the configured class using parameters.
+	 * The classPropertyKey must point to a property which contains a fully qualified class name.
+	 * @param classPropertyKey
+	 * @param args several parameters to be given to the new instance
+	 * @return a new instance for the configured class.
+	 * @throws InvalidConfigException if the property is invalid
+	 */
+	public < T > T getConfiguredClass( String classPropertyKey, Object... params ) throws InvalidConfigException;
 }
