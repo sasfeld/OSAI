@@ -52,16 +52,30 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 				"Grüßle" );
 		removedGreetings = this.removeGreetingFormula( removedGreetings,
 				"Viel Erfolg" );
+		removedGreetings = this.removeGreetingFormula( removedGreetings,
+				"Viele Grüße" );
+		removedGreetings = this.removeGreetingFormula( removedGreetings,
+				"Liebe Grüße" );
+		removedGreetings = this.removeGreetingFormula( removedGreetings,
+				"Mit freundlichen Grüßen" );
+		removedGreetings = this.removeGreetingFormula( removedGreetings,
+				"LG" );
 
 		// replace 2-digit acronyms in a single line (e.g. "XY")
 		Pattern pSingleAcronym = Pattern.compile( "^[A-Za-z]{2}$",
 				Pattern.MULTILINE );
-		removedGreetings = pSingleAcronym.matcher( removedGreetings )
+		Matcher matcherSingleAcronym = pSingleAcronym.matcher( removedGreetings );
+		// add "learned" words for the matcher
+		this.addLearnedWords( matcherSingleAcronym );
+		removedGreetings = matcherSingleAcronym
 				.replaceAll( PERSONAL_GREETING_REPLACEMENT );
 
 		Pattern pAcronymEndOfLine = Pattern.compile(
 				"(?<=[!\\.\\?]+ )[A-Za-z]{2}$", Pattern.MULTILINE );
-		removedGreetings = pAcronymEndOfLine.matcher( removedGreetings )
+		Matcher matcherAcrEnd = pAcronymEndOfLine.matcher( removedGreetings );
+		// add "learned" words for the matcher
+				this.addLearnedWords( matcherAcrEnd );
+		removedGreetings = matcherAcrEnd
 				.replaceAll( PERSONAL_GREETING_REPLACEMENT );
 
 		return removedGreetings;
@@ -113,6 +127,9 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 						+ "[,!\\.]? )[A-Za-z]{2}(?![A-Za-z0-9])",
 						Pattern.MULTILINE );
 				matcher = pGreetingAcronym.matcher( lines[lineNumber] );
+				// add "learned" words for the matcher
+				this.addLearnedWords( matcher );
+				
 				newLines[lineNumber] = matcher
 						.replaceAll( PERSONAL_GREETING_REPLACEMENT );
 			}

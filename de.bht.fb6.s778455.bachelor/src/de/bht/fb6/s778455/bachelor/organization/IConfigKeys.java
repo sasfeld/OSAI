@@ -39,6 +39,11 @@ public interface IConfigKeys {
 	String ANONYM_NER_ENGLISH_PRIMARY = "anonym.ner.english.primary";
 	String ANONYM_NER_ENGLISH_CASCADE = "anonym.ner.english.cascade";
 	
+	/**
+	 * Key to fetch multiple greetings in German.
+	 */
+	String ANONYM_GREETINGS_GERMAN = "anonym.greetings.german";
+	
 	/*
 	* import module
 	*/

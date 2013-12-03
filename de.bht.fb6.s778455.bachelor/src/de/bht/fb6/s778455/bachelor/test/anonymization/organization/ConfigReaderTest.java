@@ -71,7 +71,7 @@ public class ConfigReaderTest {
 		Map< String, String > configValues = this.configReader.fetchValues();
 		
 		// assert size -> force the devloper to check this test before he manipulates the configuration
-		assertEquals( 13, configValues.size() );
+		assertEquals( 29, configValues.size() );
 		
 		// assert properties' keys
 		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_GERMAN_DEWAC_FILE ) );
@@ -115,6 +115,11 @@ public class ConfigReaderTest {
 		// test config keys pointing to a property which is comma-separated
 		List< String > germanCorporaCascade = this.configReader.fetchMultipleValues( IConfigKeys.ANONYM_NER_GERMAN_CASCADE );
 		assertTrue( germanCorporaCascade.size() >= 1 );
+		
+		// german greetings
+		List< String > germanGreetings = this.configReader.fetchMultipleValues( IConfigKeys.ANONYM_GREETINGS_GERMAN );
+		
+		assertTrue( 1 < germanGreetings.size() );	
 	}
 	
 	@Test(expected = InvalidConfigException.class)
