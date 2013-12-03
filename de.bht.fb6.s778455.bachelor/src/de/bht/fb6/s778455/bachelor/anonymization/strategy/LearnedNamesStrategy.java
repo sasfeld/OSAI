@@ -32,7 +32,6 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
  */
 public class LearnedNamesStrategy extends AAnomyzationStrategy {
 
-
 	/*
 	 * (non-Javadoc)
 	 * 
@@ -44,21 +43,35 @@ public class LearnedNamesStrategy extends AAnomyzationStrategy {
 	public String anonymizeText( String inputText, Board belongingBoard )
 			throws GeneralLoggingException {
 		String anonymizedText = inputText;
-		
-		Set< String > personNames = belongingBoard.getLearnedWords( LearnedWordTypes.PERSON_NAME );
-		if ( null != personNames) {
+
+		Set< String > personNames = belongingBoard
+				.getLearnedWords( LearnedWordTypes.PERSON_NAME );
+		if( null != personNames ) {
 			for( String personName : personNames ) {
-				anonymizedText = anonymizedText.replaceAll( personName, LEARNED_PERSON_NAME_REPLACEMENT );
-				anonymizedText = anonymizedText.replaceAll( personName.toLowerCase(), LEARNED_PERSON_NAME_REPLACEMENT );
-				anonymizedText = anonymizedText.replaceAll( personName.toUpperCase(), LEARNED_PERSON_NAME_REPLACEMENT );
+				String prefixRegEx = "(?<=[\\s,.!?;]{1})";
+				String suffixRegEx = "(?=[\\s,.!?;]?)(?![a-zA-Z0-9]+)";
 				
+				anonymizedText = anonymizedText.replaceAll( prefixRegEx
+						+ personName + suffixRegEx,
+						LEARNED_PERSON_NAME_REPLACEMENT );
+				anonymizedText = anonymizedText.replaceAll( prefixRegEx
+						+ personName.toLowerCase() + suffixRegEx,
+						LEARNED_PERSON_NAME_REPLACEMENT );
+				anonymizedText = anonymizedText.replaceAll( prefixRegEx
+						+ personName.toUpperCase() + suffixRegEx,
+						LEARNED_PERSON_NAME_REPLACEMENT );
+
 				// upper first character of personName
-				String upperedPersonName = Character.toString( personName.charAt( 0 ) ).toUpperCase() + personName.substring( 1 ) ;
-				anonymizedText = anonymizedText.replaceAll( upperedPersonName, LEARNED_PERSON_NAME_REPLACEMENT );
-				
+				String upperedPersonName = Character.toString(
+						personName.charAt( 0 ) ).toUpperCase()
+						+ personName.substring( 1 );
+				anonymizedText = anonymizedText.replaceAll( prefixRegEx
+						+ upperedPersonName + suffixRegEx,
+						LEARNED_PERSON_NAME_REPLACEMENT );
+
 			}
 		}
-		
+
 		return anonymizedText;
 	}
 

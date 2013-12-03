@@ -57,7 +57,10 @@ public class Anonymizer {
 					String anonymizedUntaggedText = this.anonymizationStrategy.removeSpecialTags( anonymizedTaggedText );
 					
 					posting.setContent( anonymizedUntaggedText );
-					posting.setTaggedContent( anonymizedTaggedText );
+					
+					if (!anonymizedTaggedText.equals( anonymizedUntaggedText )) {
+						posting.setTaggedContent( anonymizedTaggedText );
+					}
 				}
 				catch (GeneralLoggingException e) {
 					System.err.println("Error while anonymisation of thread " + boardThread + ":"+  e.getPresentationMessage());

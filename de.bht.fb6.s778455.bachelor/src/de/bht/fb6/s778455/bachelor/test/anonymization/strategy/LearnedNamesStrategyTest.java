@@ -67,6 +67,10 @@ public class LearnedNamesStrategyTest {
 				+ LearnedNamesStrategy.LEARNED_PERSON_NAME_REPLACEMENT + "? Gruﬂ "
 				+ LearnedNamesStrategy.LEARNED_PERSON_NAME_REPLACEMENT;
 		assertEquals( expectedOutput, this.anonymizationStrategy.anonymizeText( input, testBoard ) );
+		
+		input = "Hallo das darf nicht ersetzt werden: abcxyzstadt";
+		expectedOutput = input;
+		assertEquals( expectedOutput, this.anonymizationStrategy.anonymizeText( input, testBoard ) );
 	}
 
 }
