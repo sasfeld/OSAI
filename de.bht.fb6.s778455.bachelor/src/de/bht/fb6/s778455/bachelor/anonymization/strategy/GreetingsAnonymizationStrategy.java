@@ -7,11 +7,13 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.Board.LearnedWordTypes;
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.StringUtil;
 
 /**
@@ -45,26 +47,28 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 			throws GeneralLoggingException {
 		String removedGreetings = super.prepareText( inputText );
 
-		// replace acronyms which are following "Gruß"
-		removedGreetings = this
-				.removeGreetingFormula( removedGreetings, "Gruß" );
-		removedGreetings = this.removeGreetingFormula( removedGreetings,
-				"Grüßle" );
-		removedGreetings = this.removeGreetingFormula( removedGreetings,
-				"Viel Erfolg" );
-		removedGreetings = this.removeGreetingFormula( removedGreetings,
-				"Viele Grüße" );
-		removedGreetings = this.removeGreetingFormula( removedGreetings,
-				"Liebe Grüße" );
-		removedGreetings = this.removeGreetingFormula( removedGreetings,
-				"Mit freundlichen Grüßen" );
-		removedGreetings = this.removeGreetingFormula( removedGreetings,
-				"LG" );
+		// replace words following greeting (configured in the
+		// anonymization.properties)
+		List< String > greetingWords = ServiceFactory.getConfigReader()
+				.fetchMultipleValues( IConfigKeys.ANONYM_GREETINGS_GERMAN );
 
+		if( null == greetingWords || 1 > greetingWords.size() ) {
+			throw new GeneralLoggingException(
+					getClass()
+							+ ":anonymizeText(): the configuration of the greeting words is corrupt!",
+					"Internal error in the anonymization strategy. Please read the logs" );
+		}
+		
+		for( String greetingWord : greetingWords ) {
+			removedGreetings = this
+					.removeGreetingFormula( removedGreetings, greetingWord );
+		}
+		
 		// replace 2-digit acronyms in a single line (e.g. "XY")
 		Pattern pSingleAcronym = Pattern.compile( "^[A-Za-z]{2}$",
 				Pattern.MULTILINE );
-		Matcher matcherSingleAcronym = pSingleAcronym.matcher( removedGreetings );
+		Matcher matcherSingleAcronym = pSingleAcronym
+				.matcher( removedGreetings );
 		// add "learned" words for the matcher
 		this.addLearnedWords( matcherSingleAcronym );
 		removedGreetings = matcherSingleAcronym
@@ -74,7 +78,7 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 				"(?<=[!\\.\\?]+ )[A-Za-z]{2}$", Pattern.MULTILINE );
 		Matcher matcherAcrEnd = pAcronymEndOfLine.matcher( removedGreetings );
 		// add "learned" words for the matcher
-				this.addLearnedWords( matcherAcrEnd );
+		this.addLearnedWords( matcherAcrEnd );
 		removedGreetings = matcherAcrEnd
 				.replaceAll( PERSONAL_GREETING_REPLACEMENT );
 
@@ -120,7 +124,7 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 
 				newLines[lineNumber] = matcher
 						.replaceAll( PERSONAL_GREETING_REPLACEMENT );
-				
+
 				// remove lower-cased
 				pGreetingAcronym = Pattern.compile( "(?<="
 						+ greetingWord.trim().toLowerCase()
@@ -129,7 +133,7 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 				matcher = pGreetingAcronym.matcher( lines[lineNumber] );
 				// add "learned" words for the matcher
 				this.addLearnedWords( matcher );
-				
+
 				newLines[lineNumber] = matcher
 						.replaceAll( PERSONAL_GREETING_REPLACEMENT );
 			}
@@ -145,21 +149,24 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 	 * @param matcher
 	 */
 	private void addLearnedWords( Matcher matcher ) {
-		if ( null == this.getBoard() ) {
-			Application.log( getClass() + ":addLearnedWords(): there's no board known within the greeting strategy instance. So no learned words can be added!", LogType.WARNING );
+		if( null == this.getBoard() ) {
+			Application
+					.log( getClass()
+							+ ":addLearnedWords(): there's no board known within the greeting strategy instance. So no learned words can be added!",
+							LogType.WARNING );
 		}
 		Board belongingBoard = this.getBoard();
-		
-		
-		while ( matcher.find() ) {
+
+		while( matcher.find() ) {
 			String matchedWords = matcher.group();
-			
+
 			String[] singleWords = matchedWords.split( " " );
-			
+
 			for( String singleWord : singleWords ) {
-				belongingBoard.addLearnedWord(singleWord, LearnedWordTypes.PERSON_NAME);
+				belongingBoard.addLearnedWord( singleWord,
+						LearnedWordTypes.PERSON_NAME );
 			}
-			
+
 		}
 	}
 
