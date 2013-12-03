@@ -5,6 +5,7 @@ package de.bht.fb6.s778455.bachelor.anonymization.strategy;
 
 import java.util.List;
 
+import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 
 /**
@@ -21,6 +22,17 @@ public abstract class AAnomyzationStrategy {
 	 * Replacement String for personal data (such as eMail-addresses and so on).
 	 */
 	public static final String PERSONAL_DATA_REPLACEMENT = "<REMOVED_PERSONAL_DATA>";
+	
+	/**
+	 * Anonymize a given {@link String}.
+	 * Anonymization means removing all named entities recording to a person.
+	 * 
+	 * @param inputText
+	 * @param belongingBoard the {@link Board} on which this inputText is based
+	 * @return a new {@link String} with anonymized data
+	 * @throws GeneralLoggingException 
+	 */
+	public abstract String anonymizeText(String inputText, Board belongingBoard) throws GeneralLoggingException;
 	
 	/**
 	 * Anonymize a given {@link String}.

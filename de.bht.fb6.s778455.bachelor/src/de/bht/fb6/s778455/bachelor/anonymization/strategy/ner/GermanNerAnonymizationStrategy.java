@@ -7,6 +7,7 @@ import java.io.File;
 import java.util.List;
 
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
+import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import edu.stanford.nlp.ie.AbstractSequenceClassifier;
 import edu.stanford.nlp.ling.CoreLabel;
@@ -91,5 +92,16 @@ public class GermanNerAnonymizationStrategy extends ANerAnonymizationStrategy {
 		cleanedText = cleanedText.replaceAll( "<I-PER>.*?</I-PER>" , NE_PERSON_REPLACEMENT );
 		
 		return cleanedText;
+	}
+
+	@Override
+	/*
+	 * (non-Javadoc)
+	 * @see de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy#anonymizeText(java.lang.String, de.bht.fb6.s778455.bachelor.model.Board)
+	 */
+	public String anonymizeText( String inputText, Board belongingBoard )
+			throws GeneralLoggingException {
+		// we don't need the board instance here
+		return this.anonymizeText( inputText ); 
 	}
 }
