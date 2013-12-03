@@ -28,12 +28,9 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 		String removedGreetings = super.prepareText( inputText );
 		
 		// replace acronyms which are following "Gruﬂ"
-		Pattern pGreetingAcronym = Pattern.compile( "(?<=Gruﬂ[,!\\.]? )[A-Za-z]{2}(?![A-Za-z0-9])", Pattern.MULTILINE );
-		removedGreetings = pGreetingAcronym.matcher( removedGreetings ).replaceAll( PERSONAL_GREETING_REPLACEMENT )	;	
-
-		// replace acronyms which are following "Viel Erfolg"
-		Pattern pGreetingSuccessAcronym = Pattern.compile( "(?<=Viel Erfolg[,!\\.]? )[A-Za-z]{2}(?![A-Za-z0-9])", Pattern.MULTILINE );
-		removedGreetings = pGreetingSuccessAcronym.matcher( removedGreetings ).replaceAll( PERSONAL_GREETING_REPLACEMENT );		
+		removedGreetings = this.removeGreetingFormula( removedGreetings, "Gruﬂ");
+		removedGreetings = this.removeGreetingFormula( removedGreetings, "Gr¸ﬂle");
+		removedGreetings = this.removeGreetingFormula( removedGreetings, "Viel Erfolg" );	
 		
 		// replace 2-digit acronyms in a single line (e.g. "XY")
 		Pattern pSingleAcronym = Pattern.compile( "^[A-Za-z]{2}$" , Pattern.MULTILINE);
@@ -41,6 +38,30 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 		
 		Pattern pAcronymEndOfLine = Pattern.compile( "(?<=[!\\.\\?]+ )[A-Za-z]{2}$", Pattern.MULTILINE );
 		removedGreetings = pAcronymEndOfLine.matcher( removedGreetings ).replaceAll( PERSONAL_GREETING_REPLACEMENT);		
+		
+		return removedGreetings;
+	}
+
+	/**
+	 * Remove a special greeting formula, such as: "Gruﬂ[,] XY", "Gr¸ﬂle[,] XY", "Viel Erfolg[,] XY"
+	 * @param textString the whole text {@link String} in which the greeting shall be removed
+	 * @param greetingWord the greeting word which shall be looked up (e.g: "Gruﬂ")
+	 * @return
+	 */
+	private String removeGreetingFormula( String textString, String greetingWord ) {
+		if (null == textString || null == greetingWord) {
+			throw new IllegalArgumentException( getClass() + ":removeGreetingFormula() - null is not allowed as argument value" );
+		}
+		
+		String removedGreetings = textString;	
+		
+		// replace acronyms which are following "[greetingWord] XY"
+		Pattern pGreetingAcronym = Pattern.compile( "(?<="+greetingWord+"[,!\\.]? )[A-Za-z]{2}(?![A-Za-z0-9])", Pattern.MULTILINE );
+		removedGreetings = pGreetingAcronym.matcher( removedGreetings ).replaceAll( PERSONAL_GREETING_REPLACEMENT )	;	
+		
+		// remove lower-cased
+		pGreetingAcronym = Pattern.compile( "(?<="+greetingWord.trim().toLowerCase()+"[,!\\.]? )[A-Za-z]{2}(?![A-Za-z0-9])", Pattern.MULTILINE );
+		removedGreetings = pGreetingAcronym.matcher( removedGreetings ).replaceAll( PERSONAL_GREETING_REPLACEMENT )	;	
 		
 		return removedGreetings;
 	}

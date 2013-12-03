@@ -60,6 +60,15 @@ public class GreetingsAnonymizationStrategyTest {
 		assertEquals( expectedOutput, result );		
 		
 		/*
+		 * "Grüßle XY"
+		 */
+		input = "Hallo!\nGuter Beitrag, gefällt mir!\nGrüßle SF";		
+		expectedOutput = "Hallo!\nGuter Beitrag, gefällt mir!\nGrüßle "+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
+		
+		result = this.strategy.anonymizeText( input );
+		assertEquals( expectedOutput, result );		
+		
+		/*
 		 * "Gruß, XY"
 		 */
 		input = "Hallo!\nGuter Beitrag, gefällt mir!\nGruß, SF";		
