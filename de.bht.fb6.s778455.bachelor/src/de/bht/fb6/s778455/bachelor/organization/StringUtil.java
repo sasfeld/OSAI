@@ -26,10 +26,12 @@ public class StringUtil {
 
 		int lineNum = 1;
 		for( String line : strArray ) {
-			builder.append( line
-					+ ( ( strArray.length == lineNum ) ? "" : "\n" ) );
+			if( null != line ) {
+				builder.append( line
+						+ ( ( strArray.length == lineNum ) ? "" : "\n" ) );
 
-			lineNum++;
+				lineNum++;
+			}
 		}
 
 		return builder.toString();

@@ -68,6 +68,26 @@ public class GreetingsAnonymizationStrategyTest {
 		assertEquals( expectedOutput, result );		
 		
 		/*
+		 * "Viele Grüße
+		 * Vorname Nachname"
+		 */
+		input = "Hallo!\nGuter Beitrag, gefällt mir!\nViele Grüße\nMax Mustermann";		
+		expectedOutput = "Hallo!\nGuter Beitrag, gefällt mir!\nViele Grüße\n"+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
+		
+		result = this.strategy.anonymizeText( input, testBoard );
+		assertEquals( expectedOutput, result );		
+		
+		/*
+		 * "viele grüße
+		 * Vorname Nachname"
+		 */
+		input = "Hallo!\nGuter Beitrag, gefällt mir!\nviele grüße\nMax Mustermann";		
+		expectedOutput = "Hallo!\nGuter Beitrag, gefällt mir!\nviele grüße\n"+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
+		
+		result = this.strategy.anonymizeText( input, testBoard );
+		assertEquals( expectedOutput, result );		
+		
+		/*
 		 * "Grüßle XY"
 		 */
 		input = "Hallo!\nGuter Beitrag, gefällt mir!\nGrüßle SF";		
@@ -90,6 +110,15 @@ public class GreetingsAnonymizationStrategyTest {
 		 */
 		input = "Hallo!\nGuter Beitrag, gefällt mir!\nGruß! SF";		
 		expectedOutput = "Hallo!\nGuter Beitrag, gefällt mir!\nGruß! "+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
+		
+		result = this.strategy.anonymizeText( input, testBoard );
+		assertEquals( expectedOutput, result );		
+		
+		/*
+		 * "Gruß! XY"
+		 */
+		input = "Hallo!\nGuter Beitrag, gefällt mir!\ngruß, max mustermann";		
+		expectedOutput = "Hallo!\nGuter Beitrag, gefällt mir!\ngruß, "+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
 		
 		result = this.strategy.anonymizeText( input, testBoard );
 		assertEquals( expectedOutput, result );		
@@ -161,13 +190,14 @@ public class GreetingsAnonymizationStrategyTest {
 		 * assert "learned words"
 		 */
 		Set< String > learnedWords = testBoard.getLearnedWords( LearnedWordTypes.PERSON_NAME );
+		System.out.println(learnedWords);
 		
 		assertTrue ( null != learnedWords);		
 		
 		assertTrue( learnedWords.contains( "SF" ) );
 		assertTrue( learnedWords.contains( "xyz" ) );
 		
-		assertEquals( 2, learnedWords.size() );
+		assertEquals( 6, learnedWords.size() );
 		
 	}
 

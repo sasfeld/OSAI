@@ -111,35 +111,73 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 		// at the end of a posting
 		String[] lines = removedGreetings.split( "\n" );
 		String[] newLines = lines;
+		
+		boolean matchedGreetingWord = false;
 		for( int lineNumber = 0; lineNumber < lines.length; lineNumber++ ) {
-			if( lines.length - 1 == lineNumber ) { // greeting in the last line
+			if ( lines.length - 2 == lineNumber ) {
+				if ( lines[ lineNumber ].contains( greetingWord ) || lines [ lineNumber ].contains( greetingWord.toLowerCase() )) {
+					// add following lines to learned words
+					this.addLearnedWords( lines, lineNumber + 1 );		
+					
+					// remove following lines
+					newLines[ lineNumber + 1 ] = PERSONAL_GREETING_REPLACEMENT;
+					matchedGreetingWord = true;
+				}				
+			}
+			else if( lines.length - 1 == lineNumber ) { // greeting in the last line
 				// replace acronyms which are following "[greetingWord] XY"
-				Pattern pGreetingAcronym = Pattern.compile( "(?<="
-						+ greetingWord
-						+ "[,!\\.]?[\\s\\n]{1,5})[A-Za-z\\s-]+(?=[\\s\\n]*)",
-						Pattern.MULTILINE );
-				Matcher matcher = pGreetingAcronym.matcher( lines[lineNumber] );
-				// add "learned" words for the matcher
-				this.addLearnedWords( matcher );
+				if ( !matchedGreetingWord ) {
+					Pattern pGreetingAcronym = Pattern.compile( "(?<="
+							+ greetingWord
+							+ "[,!\\.]?[\\s\\n]{1,5})[A-Za-z\\s-]+(?=[\\s\\n]*)",
+							Pattern.MULTILINE );
+					Matcher matcher = pGreetingAcronym.matcher( lines[lineNumber] );
+					// add "learned" words for the matcher
+					this.addLearnedWords( matcher );
 
-				newLines[lineNumber] = matcher
-						.replaceAll( PERSONAL_GREETING_REPLACEMENT );
+					newLines[lineNumber] = matcher
+							.replaceAll( PERSONAL_GREETING_REPLACEMENT );
 
-				// remove lower-cased
-				pGreetingAcronym = Pattern.compile( "(?<="
-						+ greetingWord.trim().toLowerCase()
-						+ "[,!\\.]? )[A-Za-z]{2}(?![A-Za-z0-9])",
-						Pattern.MULTILINE );
-				matcher = pGreetingAcronym.matcher( lines[lineNumber] );
-				// add "learned" words for the matcher
-				this.addLearnedWords( matcher );
+					// remove lower-cased
+					pGreetingAcronym = Pattern.compile( "(?<="
+							+ greetingWord.trim().toLowerCase()
+							+ "[,!\\.]?[\\s\\n]{1,5})[A-Za-z\\s-]+(?=[\\s\\n]*)",
+							Pattern.MULTILINE );
+					matcher = pGreetingAcronym.matcher( lines[lineNumber] );
+					// add "learned" words for the matcher
+					this.addLearnedWords( matcher );
 
-				newLines[lineNumber] = matcher
-						.replaceAll( PERSONAL_GREETING_REPLACEMENT );
+					newLines[lineNumber] = matcher
+							.replaceAll( PERSONAL_GREETING_REPLACEMENT );
+				}			
 			}
 		}
 
 		return StringUtil.buildString( newLines );
+	}
+
+	/**
+	 * Add all words from a given line on to the learned words.
+	 * @param lines
+	 * @param lineNumber inclusive the line to start
+	 */
+	private void addLearnedWords( String[] lines, int lineNumber ) {
+		if( null == this.getBoard() ) {
+			Application
+					.log( getClass()
+							+ ":addLearnedWords(): there's no board known within the greeting strategy instance. So no learned words can be added!",
+							LogType.WARNING );
+		}
+		Board belongingBoard = this.getBoard();
+		
+		for( int i = lineNumber; i < lines.length; i++ ) {
+			String[] singleWords = lines[i].split( " " );		
+			
+			for( String singleWord : singleWords ) {
+				belongingBoard.addLearnedWord( singleWord,
+						LearnedWordTypes.PERSON_NAME );
+			}
+		}
 	}
 
 	/**
@@ -169,6 +207,7 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 
 		}
 	}
+
 
 	@Override
 	/*
