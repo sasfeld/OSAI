@@ -22,6 +22,7 @@ public abstract class AAnomyzationStrategy {
 	 * Replacement String for personal data (such as eMail-addresses and so on).
 	 */
 	public static final String PERSONAL_DATA_REPLACEMENT = "<REMOVED_PERSONAL_DATA>";
+	public static final String LEARNED_PERSON_NAME_REPLACEMENT = "<LEARNED_PERSON_NAME_REPLACEMENT>";
 	
 	/**
 	 * Anonymize a given {@link String}.
