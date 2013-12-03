@@ -1,0 +1,3 @@
+CREATION_DATETIME: 1384723001
+CONTENT: 
+Jip, in unserer Gruppe ging es auf einem Mac auch erst mit 1.7. Nachdem ich jre1.7 auf meinem Laptop installiert und mein Projekt dementsprechen angepasst hatte, generierte er wieder den Code. Vorher hatte er mir, egal in welchem Projekt, keinen code mehr erzeugt. Nach dem Wechsel meines Workspaces ( Tipp von Frau Schmiedecke ) funktionierte zumindest das Generieren für neu erzeugte Projekte. Das vorhandene Modell lief letztendlich jedoch erst mit dem Update der Runtime Umgebung und gegebenen Anpassungen - Aufschluss darüber gab mir die "Problem-Konsole" mit entsprechenden Warnings. 

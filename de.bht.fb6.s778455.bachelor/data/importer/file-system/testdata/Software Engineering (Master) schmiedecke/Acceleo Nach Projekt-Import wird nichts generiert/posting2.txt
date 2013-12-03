@@ -1,0 +1,13 @@
+CREATION_DATETIME: 1384265321
+CONTENT: 
+Bei uns in der Gruppe ist der Fehler in ähnlicher weise aufgetaucht.
+
+Das Problem sah dabei so aus, dass der Generator keine Ergebnisse erzeugt hat und die einzige Fehlermeldung im ErrorLog hat behauptet, dass das entsprechende Paket nicht exportiert ist. Da das Paket aber bereits exportiert war, musste die Lösung irgendwo anders liegen.
+
+Die Ursache lag hierbei in den Plugin-Dependencies, in denen die EMF.*.uml Pakete automatisch mit eingefügt worden sind.
+
+Anscheinend lösen die folgenden beiden Pakete den Fehler aus:
+
+ org.eclipse.emf.facet.infra.browser.custom.examples.uml;bundle-version="0.3.1",
+ org.eclipse.emf.facet.infra.browser.custom.examples.uml.source;bundle-version="0.3.1" 
+Die Lösung war hierbei, die beiden Pakete aus den Plugin-Dependencies zu entfernen und anschließend über das Menu ein Clean für das aktuelle Projekt durchzuführen. Danach ging alles als wäre nie etwas gewesen.

@@ -1,0 +1,8 @@
+CREATION_DATETIME: 1385069921
+CONTENT: 
+Gemeint ist irgendeine Zeichenfolge, die ein festes, validierbares Format hat. Wie Sie die Zeichenfolge deuten, ist unwichtig - ich habe sie einfach "Zahlencode für den Projektkontext" genannt.
+
+Nehmen Sie einfach stattdessen deutsche Autokennzeichen, die haben auch ein interessantes Format. Ihr Logbuch hätte dann eben etwas mit Autos zu tun, oder deutsche Handynummern, oder ...
+
+Alles klar?
+Gruß smi

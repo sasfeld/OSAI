@@ -1,0 +1,12 @@
+CREATION_DATETIME: 1382398601
+CONTENT: 
+Guten Abend zurück,
+
+autodeploy ist ein Verzeichnis für den "Handbetrieb" - hier kann mann unkompilierte Jsps und Servlets ablegen, die dann vom Server transformiert und compiliert werden. Es existiert auf dem Tomcat-Server, Glassfish hatte es nur kurz im "Angebot", weil dieser Server praktisch immer von iDEs aus verwendet wird.
+
+Entwicklungsumgebungen führen ja sowieso eine Compilation durch, um Fehler zu finden. Daher deployen sie die übersetzten Dateien direkt ins Ausführungsverzeichnis, in diesem Fall applications. Wenn Sie im Netbeans-Explorer-Fenster den "Files"-Tab öffnen, sehen sie im build-Ordner unter WEB-INF die übersetzten .class-Dateien, so, wie sie dann deployed werden.
+
+In den Folien habe ich das Autodeploy-Verzeichnis genannt, weil der Deployment-Prozess, in dem der Server alles tut, besser zu verstehen ist. Ich hätte das explizit auf Tomcat beziehen sollen, sorry.
+
+Viele Grüße
+ilse schmiedecke

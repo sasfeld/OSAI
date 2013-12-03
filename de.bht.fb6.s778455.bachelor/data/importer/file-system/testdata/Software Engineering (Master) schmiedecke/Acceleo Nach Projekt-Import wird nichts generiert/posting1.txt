@@ -1,0 +1,13 @@
+CREATION_DATETIME: 1384260581
+CONTENT: 
+Liebe Se-Master,
+
+jetzt fange ich das Forum an - bitte nutzen Sie es intensiv, um sich gegenseitig über die vielen Klippen zu helfen!!
+
+Es gab in mehreren Gruppen das Problem, dass "dasselbe Projekt" (z.B. wenn es aus Git gezogen wurde) auf den anderen Rechnern zwar lief, aber keinen Code generiert hat.
+
+Zumindest bei dem Projekt, das dann auf meinen Rechner gezogen wurde, war das Projekt kein Acceleo-Projekt (mehr). Nach Anwendung von New->Acceleo Model to Text->Convert to Acceleo Project wurde der Code generiert. 
+
+(kleiner Tipp: in die Run Configuration gehört das UML-Modell, nicht das Papyrus-Diagramm...)
+
+Gruß smi

@@ -1,0 +1,3 @@
+CREATION_DATETIME: 1385743361
+CONTENT: 
+Hi! Ich empfehle das Tutorial https://netbeans.org/kb/docs/ide/java-db.html zur FÜ4. Es hat mir beim einbinden der Datei (ifpwafcad-derby.sql) geholfen.
