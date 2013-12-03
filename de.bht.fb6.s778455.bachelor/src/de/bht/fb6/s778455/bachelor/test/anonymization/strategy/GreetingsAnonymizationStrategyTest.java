@@ -11,6 +11,7 @@ import org.junit.Test;
 
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.GreetingsAnonymizationStrategy;
+import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 
 /**
  * <p>This class contains tests of the {@link GreetingsAnonymizationStrategy}.</p>
@@ -49,7 +50,7 @@ public class GreetingsAnonymizationStrategyTest {
 	 * ##################################
 	 */
 	@Test
-	public void testAnonymizeText() {
+	public void testAnonymizeText() throws GeneralLoggingException {
 		/*
 		 * "Gruﬂ XY"
 		 */

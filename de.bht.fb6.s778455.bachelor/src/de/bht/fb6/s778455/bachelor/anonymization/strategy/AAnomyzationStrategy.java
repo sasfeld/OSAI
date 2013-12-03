@@ -5,6 +5,8 @@ package de.bht.fb6.s778455.bachelor.anonymization.strategy;
 
 import java.util.List;
 
+import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+
 /**
  * 
  * <p>This class describes the API for an anonymization strategy.</p>
@@ -26,8 +28,9 @@ public abstract class AAnomyzationStrategy {
 	 * 
 	 * @param inputText
 	 * @return a new {@link String} with anonymized data
+	 * @throws GeneralLoggingException 
 	 */
-	public abstract String anonymizeText(String inputText);
+	public abstract String anonymizeText(String inputText) throws GeneralLoggingException;
 	
 	/**
 	 * Remove special tags that the implementation added to the given inputText.
@@ -47,8 +50,11 @@ public abstract class AAnomyzationStrategy {
 	protected String prepareText( String preparedText ) {
 		String cleanedText = preparedText;
 		
+		// remove empty lines
+		cleanedText = cleanedText.replaceAll( "(?m)^[ \t]*\r?\n", "" );
+		
 		// insert whitespaces after ".": negative lookahead regex: all "." followed by no whitespace will be replaced by ".[whitespace]". to avoid a whitespace at the end of the string, the whitespace must be followed by alphanumeric characters
-		cleanedText = cleanedText.replaceAll( "\\.(?!\\s)(?=[a-zA-Z0-9])", ". " );
+		cleanedText = cleanedText.replaceAll( "(?<!(http://)(www)?[a-zA-Z.]*)\\.(?!\\s)(?=[a-zA-Z0-9])", ". " );
 		// insert whitespaces after ",": negative lookahead regex: all "," followed by no whitespace will be replaced by ",[whitespace]"
 		cleanedText = cleanedText.replaceAll( "\\,(?!\\s)(?=[a-zA-Z0-9])", ", " );
 		
