@@ -115,9 +115,9 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 		boolean matchedGreetingWord = false;
 		for( int lineNumber = 0; lineNumber < lines.length; lineNumber++ ) {
 			if ( lines.length - 2 == lineNumber ) {
-				if ( lines[ lineNumber ].contains( greetingWord ) || lines [ lineNumber ].contains( greetingWord.toLowerCase() )) {
+				if ( lines[ lineNumber ].contains( greetingWord ) || lines [ lineNumber ].toLowerCase().contains( greetingWord.toLowerCase() )) {
 					// add following lines to learned words
-					this.addLearnedWords( lines, lineNumber + 1 );		
+//					this.addLearnedWords( lines, lineNumber + 1 );		
 					
 					// remove following lines
 					newLines[ lineNumber + 1 ] = PERSONAL_GREETING_REPLACEMENT;
@@ -126,6 +126,9 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 			}
 			else if( lines.length - 1 == lineNumber ) { // greeting in the last line
 				// replace acronyms which are following "[greetingWord] XY"
+				
+				// @TODO add lower case support for greeting words!
+				
 				if ( !matchedGreetingWord ) {
 					Pattern pGreetingAcronym = Pattern.compile( "(?<="
 							+ greetingWord

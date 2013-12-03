@@ -197,7 +197,7 @@ public class GreetingsAnonymizationStrategyTest {
 		assertTrue( learnedWords.contains( "SF" ) );
 		assertTrue( learnedWords.contains( "xyz" ) );
 		
-		assertEquals( 6, learnedWords.size() );
+		assertEquals( 4, learnedWords.size() );
 		
 	}
 
