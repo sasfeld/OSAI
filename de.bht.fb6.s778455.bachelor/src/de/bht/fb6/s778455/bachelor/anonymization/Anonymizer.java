@@ -9,6 +9,7 @@ import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Posting;
+import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
 
 /**
@@ -50,12 +51,17 @@ public class Anonymizer {
 		// iterate through threads and postings and hand in the text to be anonymized by the configured strategy
 		for( BoardThread boardThread : inputBoard.getBoardThreads() ) {
 			for( Posting posting : boardThread.getPostings() ) {
-				String anonymizedTaggedText = this.anonymizationStrategy.anonymizeText( posting.getContent() );
-				// String without NER tags (but anonymization tags)
-				String anonymizedUntaggedText = this.anonymizationStrategy.removeSpecialTags( anonymizedTaggedText );
-				
-				posting.setContent( anonymizedUntaggedText );
-				posting.setTaggedContent( anonymizedTaggedText );
+				try {
+					String anonymizedTaggedText = this.anonymizationStrategy.anonymizeText( posting.getContent() );
+					// String without NER tags (but anonymization tags)
+					String anonymizedUntaggedText = this.anonymizationStrategy.removeSpecialTags( anonymizedTaggedText );
+					
+					posting.setContent( anonymizedUntaggedText );
+					posting.setTaggedContent( anonymizedTaggedText );
+				}
+				catch (GeneralLoggingException e) {
+					System.err.println("Error while anonymisation of thread " + boardThread + ":"+  e.getPresentationMessage());
+				}				
 			}
 		}
 		

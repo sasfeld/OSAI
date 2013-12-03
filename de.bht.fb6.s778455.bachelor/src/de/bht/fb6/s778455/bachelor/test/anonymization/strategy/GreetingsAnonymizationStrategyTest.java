@@ -88,10 +88,10 @@ public class GreetingsAnonymizationStrategyTest {
 		assertEquals( expectedOutput, result );		
 		
 		/*
-		 * "Gruﬂ! Hier folgt kein Name."
+		 * "Gruﬂ! Hier folgt kein Name." - not in the last line
 		 */
-		input = "Hallo!\nGuter Beitrag, gef‰llt mir!\nGruﬂ! Hier folgt kein Name.";		
-		expectedOutput = input;
+		input = "Hallo!\nGuter Beitrag, gef‰llt mir!\nGruﬂ! Hier folgt kein Name.\n\nThis is another line\nanother line\nanother line";		
+		expectedOutput = "Hallo!\nGuter Beitrag, gef‰llt mir!\nGruﬂ! Hier folgt kein Name.\nThis is another line\nanother line\nanother line";
 		result = this.strategy.anonymizeText( input );
 		assertEquals( expectedOutput, result );		
 		
@@ -114,10 +114,10 @@ public class GreetingsAnonymizationStrategyTest {
 		assertEquals( expectedOutput, result );		
 		
 		/*
-		 * "Viel Erfolg, XYZ"
+		 * "Viel Erfolg, xyz"
 		 */
-		input = "Hallo!\nGuter Beitrag, gef‰llt mir!\nViel Erfolg, XYZ";		
-		expectedOutput = input;
+		input = "Hallo!\nGuter Beitrag, gef‰llt mir!\nViel Erfolg, xyz";		
+		expectedOutput = "Hallo!\nGuter Beitrag, gef‰llt mir!\nViel Erfolg, " + GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
 		
 		result = this.strategy.anonymizeText( input );
 		assertEquals( expectedOutput, result );		

@@ -138,7 +138,7 @@ public abstract class ANerAnonymizationStrategy extends AAnomyzationStrategy {
 	 * de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy
 	 * #anonymizeText(java.lang.String)
 	 */
-	public String anonymizeText( String inputText ) {
+	public String anonymizeText( String inputText ) throws GeneralLoggingException {
 		String preparedText = inputText;
 		if( null != this.decoratingStrategy ) {
 			preparedText = this.decoratingStrategy.anonymizeText( inputText );

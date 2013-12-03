@@ -67,7 +67,7 @@ public class GermanNerAnonymizationStrategy extends ANerAnonymizationStrategy {
 	 * (non-Javadoc)
 	 * @see de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy#anonymizeText(java.lang.String)
 	 */
-	public String anonymizeText( String inputText ) {
+	public String anonymizeText( String inputText ) throws GeneralLoggingException {
 		String preAnonymizedText = super.anonymizeText( inputText );
 		
 		String anonymizedText = preAnonymizedText;

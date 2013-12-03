@@ -3,8 +3,15 @@
  */
 package de.bht.fb6.s778455.bachelor.anonymization.strategy;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.StringReader;
 import java.util.List;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.organization.StringUtil;
 
 /**
  * <p>This class realizes a strategy to remove greeting sequences in sentences, mostly by using regular expressions.</p>
@@ -24,7 +31,7 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 	 * (non-Javadoc)
 	 * @see de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy#anonymizeText(java.lang.String)
 	 */
-	public String anonymizeText( String inputText ) {
+	public String anonymizeText( String inputText ) throws GeneralLoggingException {
 		String removedGreetings = super.prepareText( inputText );
 		
 		// replace acronyms which are following "Gruﬂ"
@@ -47,23 +54,34 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 	 * @param textString the whole text {@link String} in which the greeting shall be removed
 	 * @param greetingWord the greeting word which shall be looked up (e.g: "Gruﬂ")
 	 * @return
+	 * @throws GeneralLoggingException 
 	 */
-	private String removeGreetingFormula( String textString, String greetingWord ) {
+	private String removeGreetingFormula( String textString, String greetingWord ) throws GeneralLoggingException {
 		if (null == textString || null == greetingWord) {
 			throw new IllegalArgumentException( getClass() + ":removeGreetingFormula() - null is not allowed as argument value" );
 		}
 		
 		String removedGreetings = textString;	
 		
-		// replace acronyms which are following "[greetingWord] XY"
-		Pattern pGreetingAcronym = Pattern.compile( "(?<="+greetingWord+"[,!\\.]? )[A-Za-z]{2}(?![A-Za-z0-9])", Pattern.MULTILINE );
-		removedGreetings = pGreetingAcronym.matcher( removedGreetings ).replaceAll( PERSONAL_GREETING_REPLACEMENT )	;	
+		// read line-based to ensure that the greeting formula is only removed at the end of a posting
+		String[] lines = removedGreetings.split( "\n" );
+		String[] newLines = lines;
+		for( int lineNumber = 0; lineNumber < lines.length; lineNumber++ ) {
+			if ( lines.length - 1 == lineNumber ) { // greeting in the last line
+				// replace acronyms which are following "[greetingWord] XY"
+				Pattern pGreetingAcronym = Pattern.compile( "(?<="+greetingWord+"[,!\\.]?[\\s\\n]{1,5})[A-Za-z\\s-]+(?=[\\s\\n]*)", Pattern.MULTILINE );
+				Matcher matcher = pGreetingAcronym.matcher( lines[lineNumber] );
+				newLines[ lineNumber ] = matcher.replaceAll( PERSONAL_GREETING_REPLACEMENT )	;	
+				
+				// remove lower-cased
+				pGreetingAcronym = Pattern.compile( "(?<="+greetingWord.trim().toLowerCase()+"[,!\\.]? )[A-Za-z]{2}(?![A-Za-z0-9])", Pattern.MULTILINE );
+				matcher = pGreetingAcronym.matcher( lines[lineNumber] );
+				newLines[ lineNumber ] = matcher.replaceAll( PERSONAL_GREETING_REPLACEMENT )	;	
+			}
+		}		
 		
-		// remove lower-cased
-		pGreetingAcronym = Pattern.compile( "(?<="+greetingWord.trim().toLowerCase()+"[,!\\.]? )[A-Za-z]{2}(?![A-Za-z0-9])", Pattern.MULTILINE );
-		removedGreetings = pGreetingAcronym.matcher( removedGreetings ).replaceAll( PERSONAL_GREETING_REPLACEMENT )	;	
 		
-		return removedGreetings;
+		return StringUtil.buildString( newLines );
 	}
 
 	@Override

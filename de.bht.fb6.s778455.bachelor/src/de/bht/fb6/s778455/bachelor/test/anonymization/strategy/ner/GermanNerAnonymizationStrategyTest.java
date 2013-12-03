@@ -88,45 +88,65 @@ public class GermanNerAnonymizationStrategyTest {
 		
 		cleanedText = ( String ) method.invoke( this.strategy, inputText);
 		
-		assertEquals( expectedCleanedText, cleanedText );			
-	}
-	
-	@Test
-	/**
-	 * Use reflection to test the private method of ANerAnoymizationStrategy.
-	 */
-	public void testFilterPersonalData() throws NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
-		Method method = GermanNerAnonymizationStrategy.class.getSuperclass().getSuperclass().getDeclaredMethod("filterPersonalData", String.class );
-		method.setAccessible( true );
+		assertEquals( expectedCleanedText, cleanedText );	
 		
 		/*
-		 * test replacement of eMail addresses 
+		 * ensure that no replacement of "http://www.test.[word]" is done 
 		 */
-		String inputText = "Hello, nice board here. Feel free to contact me at: max.mustermann@mustertld.td !";
-		String expectedCleanedText = "Hello, nice board here. Feel free to contact me at: "+ANerAnonymizationStrategy.PERSONAL_DATA_REPLACEMENT+" !";	
+		inputText = "Nice link. See that: http://www.test.de";
+		expectedCleanedText = inputText;
 		
-		String cleanedText = ( String ) method.invoke( this.strategy, inputText);
+		cleanedText = ( String ) method.invoke( this.strategy, inputText);
+		
+		assertEquals( expectedCleanedText, cleanedText );	
+		
+		/*
+		 * test removement of empty lines 
+		 */
+		inputText = "Hello\n\n\n\nMany empty lines\nNo empty line\n\n";
+		expectedCleanedText = "Hello\nMany empty lines\nNo empty line\n";	
+		
+		cleanedText = ( String ) method.invoke( this.strategy, inputText);
 		
 		assertEquals( expectedCleanedText, cleanedText );			
 	}
-
-	@Test
-	public void testSimpleTest() {
-		String inputString = "Hallo max.muster@tld.de!";
-		String expected = "Hallo !";
-		
-		String output = inputString.replaceAll( "[a-zA-Z0-9][\\w\\.-]*@(?:[a-zA-Z0-9][a-zA-Z0-9_-]+\\.)+[A-Z,a-z]{2,5}", "" );		
-		
-		assertEquals( expected, output );
-	}
 	
-	@Test
-	public void testRemoveSpecialTags() {
-		String inputString = "Hallo <I-PER>Max Mustermann</I-PER>, warst du bereits in <I-LOC>Berlin</I-LOC>?";
-		String expected = "Hallo Max Mustermann, warst du bereits in Berlin?";
-		
-		String output = this.strategy.removeSpecialTags( inputString );
-		
-		assertEquals( expected, output );
-	}
+//	@Test
+//	/**
+//	 * Use reflection to test the private method of ANerAnoymizationStrategy.
+//	 */
+//	public void testFilterPersonalData() throws NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
+//		Method method = GermanNerAnonymizationStrategy.class.getSuperclass().getSuperclass().getDeclaredMethod("filterPersonalData", String.class );
+//		method.setAccessible( true );
+//		
+//		/*
+//		 * test replacement of eMail addresses 
+//		 */
+//		String inputText = "Hello, nice board here. Feel free to contact me at: max.mustermann@mustertld.td !";
+//		String expectedCleanedText = "Hello, nice board here. Feel free to contact me at: "+ANerAnonymizationStrategy.PERSONAL_DATA_REPLACEMENT+" !";	
+//		
+//		String cleanedText = ( String ) method.invoke( this.strategy, inputText);
+//		
+//		assertEquals( expectedCleanedText, cleanedText );			
+//	}
+//
+//	@Test
+//	public void testSimpleTest() {
+//		String inputString = "Hallo max.muster@tld.de!";
+//		String expected = "Hallo !";
+//		
+//		String output = inputString.replaceAll( "[a-zA-Z0-9][\\w\\.-]*@(?:[a-zA-Z0-9][a-zA-Z0-9_-]+\\.)+[A-Z,a-z]{2,5}", "" );		
+//		
+//		assertEquals( expected, output );
+//	}
+//	
+//	@Test
+//	public void testRemoveSpecialTags() {
+//		String inputString = "Hallo <I-PER>Max Mustermann</I-PER>, warst du bereits in <I-LOC>Berlin</I-LOC>?";
+//		String expected = "Hallo Max Mustermann, warst du bereits in Berlin?";
+//		
+//		String output = this.strategy.removeSpecialTags( inputString );
+//		
+//		assertEquals( expected, output );
+//	}
 }
