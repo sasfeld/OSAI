@@ -14,6 +14,7 @@ import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
+import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
 import de.bht.fb6.s778455.bachelor.organization.StringUtil;
 
 /**
@@ -31,9 +32,9 @@ import de.bht.fb6.s778455.bachelor.organization.StringUtil;
  * 
  */
 public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
-
-	public static final String PERSONAL_GREETING_REPLACEMENT = "<PERSONAL_GREETING_REMOVEMENT>";
 	private Board board;
+	protected List< String > greetingWords;
+	private Integer numberRemovingLines;
 
 	@Override
 	/*
@@ -49,8 +50,7 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 
 		// replace words following greeting (configured in the
 		// anonymization.properties)
-		List< String > greetingWords = ServiceFactory.getConfigReader()
-				.fetchMultipleValues( IConfigKeys.ANONYM_GREETINGS_GERMAN );
+		List< String > greetingWords = this.getGreetingWords();
 
 		if( null == greetingWords || 1 > greetingWords.size() ) {
 			throw new GeneralLoggingException(
@@ -83,6 +83,20 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 				.replaceAll( PERSONAL_GREETING_REPLACEMENT );
 
 		return removedGreetings;
+	}
+
+	/**
+	 * Get the greeting words by lazy loading.
+	 * 
+	 * @return
+	 * @throws InvalidConfigException
+	 */
+	private List< String > getGreetingWords() throws InvalidConfigException {
+		if( null == this.greetingWords ) { // be lazy
+			this.greetingWords = ServiceFactory.getConfigReader()
+					.fetchMultipleValues( IConfigKeys.ANONYM_GREETINGS_GERMAN );
+		}
+		return this.greetingWords;
 	}
 
 	/**
@@ -147,22 +161,73 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 
 					newLines[lineNumber] = matcher
 							.replaceAll( PERSONAL_GREETING_REPLACEMENT );
-				} else { // some line except the last one
-					if( lines[lineNumber].toLowerCase().contains(
-							greetingWord.toLowerCase() ) ) {
-						// add following lines to learned words
-						// this.addLearnedWords( lines, lineNumber + 1 );
+				}
+			} else { // some line except the last one
+				if( !matchedGreetingWord
+						&& lines[lineNumber].toLowerCase().contains(
+								greetingWord.toLowerCase() ) ) {
+					// add following lines to learned words
+					// this.addLearnedWords( lines, lineNumber + 1 );
 
-						// remove following lines
-						newLines[lineNumber + 1] = PERSONAL_GREETING_REPLACEMENT;
-						matchedGreetingWord = true;
+					// remove trailing words after greeting appearance
+					int indexOf = lines[lineNumber].toLowerCase().indexOf( greetingWord.toLowerCase() );
+					String trailingSub = lines[lineNumber].substring(
+							indexOf + greetingWord.length(),
+							lines[lineNumber].length() ).trim();
+					if( trailingSub.length() > 1 ) {
+						System.out.println("trailing sub: " + trailingSub);
+						newLines[lineNumber] = lines[lineNumber].replace(
+								trailingSub, PERSONAL_GREETING_REPLACEMENT );
 					}
 
+					// remove following lines
+					int numberRemovingLinesInt = getNumberOfLines();
+
+					for( int j = lineNumber + 1; j < lines.length && j <= lineNumber
+							+ numberRemovingLinesInt; j++ ) {
+						newLines[j] = PERSONAL_GREETING_REPLACEMENT;
+					}
+
+					matchedGreetingWord = true;
 				}
+
 			}
 		}
 
 		return StringUtil.buildString( newLines );
+	}
+
+	/**
+	 * Get the number of lines which shall be removed after the appearance of a
+	 * greeting word.
+	 * 
+	 * @return
+	 * @throws GeneralLoggingException
+	 */
+	protected int getNumberOfLines() throws GeneralLoggingException {
+		if( null == this.numberRemovingLines ) { // be lazy
+			String numberRemovingLines = ServiceFactory.getConfigReader()
+					.fetchValue( IConfigKeys.ANONYM_GREETINGS_NUMBEROFLINES );
+
+			if( null == numberRemovingLines ) {
+				throw new GeneralLoggingException(
+						getClass()
+								+ ":removeGreetingFormula() - invalid config value for number of lines",
+						"Internal error in the anonymization module. See the logs." );
+			}
+			int numberRemovingLinesInt;
+			try {
+				numberRemovingLinesInt = Integer.parseInt( numberRemovingLines );
+			} catch( NumberFormatException e ) {
+				throw new GeneralLoggingException(
+						getClass()
+								+ ":removeGreetingFormula() - invalid config value for number of lines",
+						"Internal error in the anonymization module. See the logs." );
+			}
+			this.numberRemovingLines = numberRemovingLinesInt;
+		}
+
+		return this.numberRemovingLines;
 	}
 
 	/**

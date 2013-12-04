@@ -23,6 +23,10 @@ public abstract class AAnomyzationStrategy {
 	 */
 	public static final String PERSONAL_DATA_REPLACEMENT = "<REMOVED_PERSONAL_DATA>";
 	public static final String LEARNED_PERSON_NAME_REPLACEMENT = "<LEARNED_PERSON_NAME_REPLACEMENT>";
+	/**
+	 * Specify the replacement tag for replaced entities here.
+	 */
+	public static final String PERSONAL_GREETING_REPLACEMENT = "<PERSONAL_GREETING_REMOVEMENT>";
 	
 	/**
 	 * Anonymize a given {@link String}.
