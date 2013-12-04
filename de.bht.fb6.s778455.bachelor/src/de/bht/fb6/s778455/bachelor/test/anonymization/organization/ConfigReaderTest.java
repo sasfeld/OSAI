@@ -71,7 +71,7 @@ public class ConfigReaderTest {
 		Map< String, String > configValues = this.configReader.fetchValues();
 		
 		// assert size -> force the devloper to check this test before he manipulates the configuration
-		assertEquals( 29, configValues.size() );
+		assertEquals( 30, configValues.size() );
 		
 		// assert properties' keys
 		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_GERMAN_DEWAC_FILE ) );
@@ -87,6 +87,7 @@ public class ConfigReaderTest {
 		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_GERMAN_STRATEGY_CLASS ) );
 		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_ENGLISH_STRATEGY_CLASS ) );
 		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_STRATEGY_CHAIN ) );
+		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_GREETINGS_NUMBEROFLINES ) );
 	}
 	
 	@Test
