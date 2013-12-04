@@ -155,14 +155,12 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 									+ "[,!\\.]?).*?$", Pattern.MULTILINE );
 					Matcher matcherStartOfLine = pGreetingStartOfLine
 							.matcher( lines[lineNumber] );
-					
-					Pattern pGreetingInLine = Pattern
-							.compile( "(?i)(?<=\\s" + greetingWord
-									+ "[,!\\.\\s]{1}).*?$", Pattern.MULTILINE );
-					Matcher matcherInLine = pGreetingStartOfLine
+
+					Pattern pGreetingInLine = Pattern.compile( "(?i)(?<=\\s"
+							+ greetingWord + "[,!\\.\\s]{1}).*?$",
+							Pattern.MULTILINE );
+					Matcher matcherInLine = pGreetingInLine
 							.matcher( lines[lineNumber] );
-					// add following lines to learned words
-					// this.addLearnedWords( lines, lineNumber + 1 );
 
 					if( matcherStartOfLine.find() ) {
 						// remove trailing words after greeting appearance
@@ -176,26 +174,27 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 
 						for( int j = lineNumber + 1; j < lines.length
 								&& j <= lineNumber + numberRemovingLinesInt; j++ ) {
+							this.addLearnedWords( lines, j );
 							newLines[j] = PERSONAL_GREETING_REPLACEMENT;
 						}
 
 						matchedGreetingWord = true;
-					}
-					else if( matcherInLine.find() ) {
+					} else if( matcherInLine.find() ) {
 						// remove trailing words after greeting appearance
 						if( matcherInLine.group().length() > 1 ) {
 							newLines[lineNumber] = matcherInLine
 									.replaceAll( PERSONAL_GREETING_REPLACEMENT );
 						}
-						
+
 						// remove following lines
 						int numberRemovingLinesInt = getNumberOfLines();
-						
+
 						for( int j = lineNumber + 1; j < lines.length
 								&& j <= lineNumber + numberRemovingLinesInt; j++ ) {
+							this.addLearnedWords( lines, j );
 							newLines[j] = PERSONAL_GREETING_REPLACEMENT;
 						}
-						
+
 						matchedGreetingWord = true;
 					}
 				}
@@ -259,8 +258,10 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 			String[] singleWords = lines[i].split( " " );
 
 			for( String singleWord : singleWords ) {
-				belongingBoard.addLearnedWord( singleWord,
-						LearnedWordTypes.PERSON_NAME );
+				if( singleWord.matches( "[a-zA-Z]+" ) ) {
+					belongingBoard.addLearnedWord( singleWord,
+							LearnedWordTypes.PERSON_NAME );
+				}
 			}
 		}
 	}
@@ -286,8 +287,10 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 			String[] singleWords = matchedWords.split( " " );
 
 			for( String singleWord : singleWords ) {
-				belongingBoard.addLearnedWord( singleWord,
-						LearnedWordTypes.PERSON_NAME );
+				if( singleWord.matches( "[a-zA-Z]+" ) ) {
+					belongingBoard.addLearnedWord( singleWord,
+							LearnedWordTypes.PERSON_NAME );
+				}
 			}
 
 		}
