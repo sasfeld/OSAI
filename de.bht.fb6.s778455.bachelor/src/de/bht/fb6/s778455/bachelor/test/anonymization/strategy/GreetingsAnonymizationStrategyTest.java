@@ -177,6 +177,42 @@ public class GreetingsAnonymizationStrategyTest {
 		result = this.strategy.anonymizeText( input, testBoard );
 		assertEquals( expectedOutput, result );		
 		
+		/*
+		 * "Ein Galgen.\nDas war jetzt kein Gruﬂwort!" shouldn't be replaced! (see "lg")
+		 */
+		input = "Ein Galgen.\nDas war jetzt kein Gruﬂwort!";		
+		expectedOutput = input;
+		
+		result = this.strategy.anonymizeText( input, testBoard );
+		assertEquals( expectedOutput, result );		
+		
+		/*
+		 * "Ein LG mitten im Text." should be replaced! (see "lg")
+		 */
+		input = "Ein LG mitten im Text.";		
+		expectedOutput = "Ein LG "+ GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT + ".";
+		
+		result = this.strategy.anonymizeText( input, testBoard );
+		assertEquals( expectedOutput, result );		
+		
+		/*
+		 * "LGS bedeutet Landesgartenschau." shouldn't be replaced! (see "lg")
+		 */
+		input = "LGS bedeutet Landesgartenschau.";		
+		expectedOutput = input;
+		
+		result = this.strategy.anonymizeText( input, testBoard );
+		assertEquals( expectedOutput, result );		
+		
+		/*
+		 * "Lass uns zur LGS gehen!" shouldn't be replaced! (see "lg")
+		 */
+		input = "Lass uns zur LGS gehen!";		
+		expectedOutput = input;
+		
+		result = this.strategy.anonymizeText( input, testBoard );
+		assertEquals( expectedOutput, result );		
+		
 		/*	
 		 * "! XY\nNew line."
 		 */
@@ -197,7 +233,7 @@ public class GreetingsAnonymizationStrategyTest {
 		assertTrue( learnedWords.contains( "SF" ) );
 		assertTrue( learnedWords.contains( "xyz" ) );
 		
-		assertEquals( 4, learnedWords.size() );
+		assertEquals( 7, learnedWords.size() );
 		
 	}
 

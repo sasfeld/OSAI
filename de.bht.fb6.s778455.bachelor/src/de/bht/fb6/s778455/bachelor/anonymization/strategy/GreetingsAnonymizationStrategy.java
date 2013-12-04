@@ -136,7 +136,7 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 				if( !matchedGreetingWord ) {
 					Pattern pGreetingAcronym = Pattern
 							.compile(
-									"(?<="
+									"(?i)(?<="
 											+ greetingWord
 											+ "[,!\\.]?[\\s\\n]{1,5})[A-Za-z\\s-]+(?=[\\s\\n]*)",
 									Pattern.MULTILINE );
@@ -147,48 +147,57 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 
 					newLines[lineNumber] = matcher
 							.replaceAll( PERSONAL_GREETING_REPLACEMENT );
-
-					// remove lower-cased
-					pGreetingAcronym = Pattern
-							.compile(
-									"(?<="
-											+ greetingWord.trim().toLowerCase()
-											+ "[,!\\.]?[\\s\\n]{1,5})[A-Za-z\\s-]+(?=[\\s\\n]*)",
-									Pattern.MULTILINE );
-					matcher = pGreetingAcronym.matcher( lines[lineNumber] );
-					// add "learned" words for the matcher
-					this.addLearnedWords( matcher );
-
-					newLines[lineNumber] = matcher
-							.replaceAll( PERSONAL_GREETING_REPLACEMENT );
 				}
 			} else { // some line except the last one
-				if( !matchedGreetingWord
-						&& lines[lineNumber].toLowerCase().contains(
-								greetingWord.toLowerCase() ) ) {
+				if( !matchedGreetingWord ) {
+					Pattern pGreetingStartOfLine = Pattern
+							.compile( "(?i)(?<=^" + greetingWord
+									+ "[,!\\.]?).*?$", Pattern.MULTILINE );
+					Matcher matcherStartOfLine = pGreetingStartOfLine
+							.matcher( lines[lineNumber] );
+					
+					Pattern pGreetingInLine = Pattern
+							.compile( "(?i)(?<=\\s" + greetingWord
+									+ "[,!\\.\\s]{1}).*?$", Pattern.MULTILINE );
+					Matcher matcherInLine = pGreetingStartOfLine
+							.matcher( lines[lineNumber] );
 					// add following lines to learned words
 					// this.addLearnedWords( lines, lineNumber + 1 );
 
-					// remove trailing words after greeting appearance
-					int indexOf = lines[lineNumber].toLowerCase().indexOf( greetingWord.toLowerCase() );
-					String trailingSub = lines[lineNumber].substring(
-							indexOf + greetingWord.length(),
-							lines[lineNumber].length() ).trim();
-					if( trailingSub.length() > 1 ) {
-						System.out.println("trailing sub: " + trailingSub);
-						newLines[lineNumber] = lines[lineNumber].replace(
-								trailingSub, PERSONAL_GREETING_REPLACEMENT );
+					if( matcherStartOfLine.find() ) {
+						// remove trailing words after greeting appearance
+						if( matcherStartOfLine.group().length() > 1 ) {
+							newLines[lineNumber] = matcherStartOfLine
+									.replaceAll( PERSONAL_GREETING_REPLACEMENT );
+						}
+
+						// remove following lines
+						int numberRemovingLinesInt = getNumberOfLines();
+
+						for( int j = lineNumber + 1; j < lines.length
+								&& j <= lineNumber + numberRemovingLinesInt; j++ ) {
+							newLines[j] = PERSONAL_GREETING_REPLACEMENT;
+						}
+
+						matchedGreetingWord = true;
 					}
-
-					// remove following lines
-					int numberRemovingLinesInt = getNumberOfLines();
-
-					for( int j = lineNumber + 1; j < lines.length && j <= lineNumber
-							+ numberRemovingLinesInt; j++ ) {
-						newLines[j] = PERSONAL_GREETING_REPLACEMENT;
+					else if( matcherInLine.find() ) {
+						// remove trailing words after greeting appearance
+						if( matcherInLine.group().length() > 1 ) {
+							newLines[lineNumber] = matcherInLine
+									.replaceAll( PERSONAL_GREETING_REPLACEMENT );
+						}
+						
+						// remove following lines
+						int numberRemovingLinesInt = getNumberOfLines();
+						
+						for( int j = lineNumber + 1; j < lines.length
+								&& j <= lineNumber + numberRemovingLinesInt; j++ ) {
+							newLines[j] = PERSONAL_GREETING_REPLACEMENT;
+						}
+						
+						matchedGreetingWord = true;
 					}
-
-					matchedGreetingWord = true;
 				}
 
 			}
