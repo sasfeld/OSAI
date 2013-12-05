@@ -23,8 +23,10 @@ import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
 import de.bht.fb6.s778455.bachelor.model.Posting;
+import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus.PersonNameType;
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
+import de.bht.fb6.s778455.bachelor.organization.FileUtil;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 
 /**
@@ -289,13 +291,10 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	@Override
 	/*
 	 * (non-Javadoc)
-	 * 
-	 * @see
-	 * de.bht.fb6.s778455.bachelor.importer.AImportStrategy#fillFromFile(java
-	 * .io.File, de.bht.fb6.s778455.bachelor.model.PersonNameCorpus)
+	 * @see de.bht.fb6.s778455.bachelor.importer.AImportStrategy#fillFromFile(java.io.File, de.bht.fb6.s778455.bachelor.model.PersonNameCorpus, de.bht.fb6.s778455.bachelor.model.PersonNameCorpus.PersonNameType)
 	 */
 	public PersonNameCorpus fillFromFile( File personCorpus,
-			PersonNameCorpus corpusInstance ) throws GeneralLoggingException {
+			PersonNameCorpus corpusInstance, PersonNameType nameType ) throws GeneralLoggingException {
 		if( !personCorpus.exists() ) {
 			throw new GeneralLoggingException( getClass()
 					+ ":fillFromFile: the given file doesn't exist. File was: "
@@ -311,8 +310,21 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	
 		}
 		
-				
-		return null;
+		List< String > lines = FileUtil.readFileLineBased( personCorpus );
+		
+		int lineNumber = 0;
+		for( String line : lines ) {
+			lineNumber++;
+			// line must only consist of letters
+			if (line.matches( "^[^\\s]+$" )) {
+				corpusInstance.fillName(nameType, line, false ); // case-insensitive 
+			}
+			else {
+				Application.log( getClass()+"fillFromFile(): illegal line in person name corpus file ("+personCorpus.getAbsolutePath()+"). Line number: "+lineNumber, LogType.ERROR );
+			}
+		}
+		
+		return corpusInstance;
 	}
 
 }

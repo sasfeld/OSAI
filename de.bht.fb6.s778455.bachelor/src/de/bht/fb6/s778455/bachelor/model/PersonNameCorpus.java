@@ -6,6 +6,9 @@ package de.bht.fb6.s778455.bachelor.model;
 import java.util.HashSet;
 import java.util.Set;
 
+import de.bht.fb6.s778455.bachelor.organization.Application;
+import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
+
 /**
  * <p>This class offers functions to work with personal name corpora.</p>
  *
@@ -14,6 +17,21 @@ import java.util.Set;
  *
  */
 public class PersonNameCorpus {	
+	/**
+	 * 
+	 * <p>This enumeration defines literals to be used for exchanging the types of given names.</p>
+	 *
+	 * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
+	 * @since 05.12.2013
+	 *
+	 */
+	public enum PersonNameType {
+		/**
+		 * A prename can be either a first name or a middle name.
+		 */
+		PRENAME,
+		LASTNAME
+	};
 	protected Set< String > prenames;
 	protected Set< String > lastnames;
 
@@ -49,7 +67,7 @@ public class PersonNameCorpus {
 	 * @param caseSensitive
 	 */
 	public void fillPrename(String prename, boolean caseSensitive) {
-		if (caseSensitive) {
+		if (!caseSensitive) {
 			this.prenames.add( prename.toLowerCase() );
 		}
 		
@@ -62,7 +80,7 @@ public class PersonNameCorpus {
 	 * @param caseSensitive
 	 */
 	public void fillLastname(String prename, boolean caseSensitive) {
-		if (caseSensitive) {
+		if (!caseSensitive) {
 			this.lastnames.add( prename.toLowerCase() );
 		}
 		
@@ -115,6 +133,25 @@ public class PersonNameCorpus {
 		}
 		
 		return matched;
+	}
+
+	/**
+	 * Fill a name using the given type.
+	 * @param nameType
+	 * @param name
+	 * @param caseSensitive
+	 */
+	public void fillName( PersonNameType nameType, String name, boolean caseSensitive ) {
+		if (nameType.equals( PersonNameType.PRENAME )) {
+			this.fillPrename( name, caseSensitive );
+		}
+		else if (nameType.equals( PersonNameType.LASTNAME )) {
+			this.fillLastname( name, caseSensitive );
+		}
+		
+		else { // log because this method needs to be extended
+			Application.log( getClass()+"fillName(): the given PersonNameType ("+nameType+") isn't supported yet.", LogType.WARNING );
+		}
 	}
 	
 	

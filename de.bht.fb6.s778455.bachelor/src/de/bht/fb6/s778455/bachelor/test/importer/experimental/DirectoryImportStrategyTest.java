@@ -19,6 +19,8 @@ import de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy
 import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
+import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
+import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus.PersonNameType;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
@@ -107,5 +109,16 @@ public class DirectoryImportStrategyTest {
 			}
 			i++;
 		}
+	}
+	
+	@Test
+	public void testFillFromFile() throws GeneralLoggingException {
+		PersonNameCorpus bareCorpus = new PersonNameCorpus();
+		bareCorpus = this.importStrategy.fillFromFile( new File( "./data/anonymization/personnames/testprenames.txt" ), bareCorpus, PersonNameType.PRENAME );
+		
+		assertEquals( 22, bareCorpus.getPrenames().size() );
+		
+		assertTrue( bareCorpus.isPrename( "Aryan", false ) );
+		assertTrue( bareCorpus.isPrename( "aryan", false ) );
 	}
 }

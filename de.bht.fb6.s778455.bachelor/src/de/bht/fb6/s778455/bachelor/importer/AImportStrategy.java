@@ -11,6 +11,7 @@ import java.util.Map;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
+import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus.PersonNameType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 
 /**
@@ -45,8 +46,9 @@ public abstract class AImportStrategy {
 	 * 
 	 * @param personCorpus
 	 * @param corpusInstance
+	 * @param nameType
 	 * @return
 	 * @throws GeneralLoggingException 
 	 */
-	abstract public PersonNameCorpus fillFromFile(File personCorpus, PersonNameCorpus corpusInstance) throws GeneralLoggingException;
+	abstract public PersonNameCorpus fillFromFile(File personCorpus, PersonNameCorpus corpusInstance, PersonNameType nameType) throws GeneralLoggingException;
 }
