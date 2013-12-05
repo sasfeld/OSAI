@@ -1,0 +1,4 @@
+CREATION_DATETIME: 1369932299
+CONTENT: 
+Noch eine zweite Frage:
+In meiner Definition (cpp-Datei) habe ich nur alle Methoden und Operatorüberladungen, sollten diese alle in eine (wie in der Aufgabe genannte) Headerdatei (z.B. namens _map.h) und dann in die Headerdatei inkludiert werden? Damit hätte ich am Ende keine cpp-Datei mehr, oder?

@@ -46,6 +46,7 @@ public abstract class AImportStrategy {
 	 * @param personCorpus
 	 * @param corpusInstance
 	 * @return
+	 * @throws GeneralLoggingException 
 	 */
-	abstract public PersonNameCorpus fillFromFile(File personCorpus, PersonNameCorpus corpusInstance);
+	abstract public PersonNameCorpus fillFromFile(File personCorpus, PersonNameCorpus corpusInstance) throws GeneralLoggingException;
 }

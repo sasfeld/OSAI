@@ -259,15 +259,13 @@ public class DirectoryImportStrategy extends AImportStrategy {
 					if( line.contains( "CONTENT:" ) ) {
 						contentMatched = true;
 					}
-				} else if ( contentMatched && !taggedContentMatched) {
+				} else if( contentMatched && !taggedContentMatched ) {
 					if( line.startsWith( "TAGGED_CONTENT:" ) ) {
 						taggedContentMatched = true;
-					}
-					else {
+					} else {
 						contentBuilder.append( line + "\n" );
 					}
-				}
-				else { // !contentMatched && taggedContentMatched
+				} else { // !contentMatched && taggedContentMatched
 					taggedContentBuilder.append( line + "\n" );
 				}
 			}
@@ -291,11 +289,29 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	@Override
 	/*
 	 * (non-Javadoc)
-	 * @see de.bht.fb6.s778455.bachelor.importer.AImportStrategy#fillFromFile(java.io.File, de.bht.fb6.s778455.bachelor.model.PersonNameCorpus)
+	 * 
+	 * @see
+	 * de.bht.fb6.s778455.bachelor.importer.AImportStrategy#fillFromFile(java
+	 * .io.File, de.bht.fb6.s778455.bachelor.model.PersonNameCorpus)
 	 */
 	public PersonNameCorpus fillFromFile( File personCorpus,
-			PersonNameCorpus corpusInstance ) {
-		// TODO Auto-generated method stub
+			PersonNameCorpus corpusInstance ) throws GeneralLoggingException {
+		if( !personCorpus.exists() ) {
+			throw new GeneralLoggingException( getClass()
+					+ ":fillFromFile: the given file doesn't exist. File was: "
+					+ personCorpus.getAbsolutePath(),
+					"Internal error in the import module. Please read the logs." );
+		}
+		
+		if( !personCorpus.isFile() ) {
+			throw new GeneralLoggingException( getClass()
+					+ ":fillFromFile: the given file doesn't appear to be a file. File was: "
+					+ personCorpus.getAbsolutePath(),
+					"Internal error in the import module. Please read the logs." );
+	
+		}
+		
+				
 		return null;
 	}
 
