@@ -91,7 +91,7 @@ public class NameCorpusStrategy extends AAnomyzationStrategy{
 	@Override
 	public String removeSpecialTags( String inputText ) {
 		// TODO Auto-generated method stub
-		return null;
+		return inputText;
 	}
 
 	@Override

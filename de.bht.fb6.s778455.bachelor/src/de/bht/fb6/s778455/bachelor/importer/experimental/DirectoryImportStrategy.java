@@ -179,7 +179,8 @@ public class DirectoryImportStrategy extends AImportStrategy {
 		for( File threadDir : threadDirs ) {
 			// check if dir is a person corpus dir
 			if( threadDir.getName().equals( PERSON_CORPUS_DIR ) ) {
-				if( this.boardSpecificImport.equals( "true" ) && this.boardSpecificImport.equals( "fallback" ) ) {
+				if( this.boardSpecificImport.equals( "true" )
+						|| this.boardSpecificImport.equals( "fallback" ) ) {
 					try {
 						PersonNameCorpus bareCorpus = new PersonNameCorpus();
 						File prenameFile = new File( threadDir,
@@ -197,8 +198,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 						// log was written, just continue
 					}
 				}
-			}
-			if( !threadDir.isDirectory() ) { // append error log
+			} else if( !threadDir.isDirectory() ) { // append error log
 				Application
 						.log( fullyQualified
 								+ ": the given subfolder of "
@@ -206,20 +206,25 @@ public class DirectoryImportStrategy extends AImportStrategy {
 								+ " is not a directory. Read the docs so you learn about the correct structure.",
 								LogType.ERROR );
 				continue;
-			}
-			
-			// board specific corpus was not found
-			if (!specificCorpusIncluded && this.boardSpecificImport.equals( "fallback" )) {
-				// set singleton corpus
-				courseBoard.setPersonNameCorpus( ServiceFactory.getPersonNameCorpusSingleton() );
-			}
+			} else {
+				BoardThread boardThread = new BoardThread();
+				String threadName = threadDir.getName();
+				boardThread.setTitle( threadName );
+				this.fillThread( boardThread, threadDir );
 
-			BoardThread boardThread = new BoardThread();
-			String threadName = threadDir.getName();
-			boardThread.setTitle( threadName );
-			this.fillThread( boardThread, threadDir );
+				courseBoard.addThread( boardThread );
+			}
+		}
 
-			courseBoard.addThread( boardThread );
+		// board specific corpus was not found
+		if( !specificCorpusIncluded
+				&& this.boardSpecificImport.equals( "fallback" ) ) {
+			Application.log( getClass()
+					+ ":fillBoard: fallback to global person corpus.",
+					LogType.INFO );
+			// set singleton corpus
+			courseBoard.setPersonNameCorpus( ServiceFactory
+					.getPersonNameCorpusSingleton() );
 		}
 	}
 
