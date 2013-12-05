@@ -53,6 +53,7 @@ public class PersonNameCorpus {
 		this.lastnames = lastnames;
 	}
 	
+
 	/**
 	 * Create a new bare corpus.
 	 */
@@ -154,6 +155,14 @@ public class PersonNameCorpus {
 		}
 	}
 	
-	
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "PersonNameCorpus [getPrenames()=" + getPrenames()
+				+ ", getLastnames()=" + getLastnames() + "]";
+	}
 
 }

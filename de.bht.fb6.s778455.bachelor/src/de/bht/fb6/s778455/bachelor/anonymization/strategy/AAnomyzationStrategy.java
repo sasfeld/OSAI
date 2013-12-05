@@ -22,11 +22,18 @@ public abstract class AAnomyzationStrategy {
 	 * Replacement String for personal data (such as eMail-addresses and so on).
 	 */
 	public static final String PERSONAL_DATA_REPLACEMENT = "<REMOVED_PERSONAL_DATA>";
+	/**
+	 * Replacement String for learned names (such names that previous strategies detected to be names).
+	 */
 	public static final String LEARNED_PERSON_NAME_REPLACEMENT = "<LEARNED_PERSON_NAME_REPLACEMENT>";
 	/**
 	 * Specify the replacement tag for replaced entities here.
 	 */
 	public static final String PERSONAL_GREETING_REPLACEMENT = "<PERSONAL_GREETING_REMOVEMENT>";
+	/**
+	 * Specify the replacement tag for replaced entries from a name corpus.
+	 */
+	public static final String NAME_CORPUS_REPLACEMENT = "<NAME_CORPUS_REPLACEMENT>";
 	
 	/**
 	 * Anonymize a given {@link String}.

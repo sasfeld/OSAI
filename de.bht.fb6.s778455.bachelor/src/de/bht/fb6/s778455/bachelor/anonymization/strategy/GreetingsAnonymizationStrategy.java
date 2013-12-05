@@ -131,8 +131,6 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 			if( lines.length - 1 == lineNumber ) { // greeting in the last line
 				// replace acronyms which are following "[greetingWord] XY"
 
-				// @TODO add lower case support for greeting words!
-
 				if( !matchedGreetingWord ) {
 					Pattern pGreetingAcronym = Pattern
 							.compile(

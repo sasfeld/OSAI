@@ -23,6 +23,15 @@ import java.util.Set;
  *
  */
 public class Board extends AUserContribution {
+	/**
+	 * 
+	 * <p>The literals in this enumeration specifiy the types of learned words.<br />
+	 * A type might be the name of a person for example.</p>
+	 *
+	 * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
+	 * @since 05.12.2013
+	 *
+	 */
 	public enum LearnedWordTypes {
 		/**
 		 * A single person name.
@@ -33,6 +42,7 @@ public class Board extends AUserContribution {
 	protected Course course;
 	protected List< BoardThread > boardThreads;
 	protected Map< LearnedWordTypes, Set< String > > learnedWords;
+	protected PersonNameCorpus personNameCorpus;
 	
 	/**
 	 * Create a new Board. A Board is included in the given course.
@@ -44,6 +54,23 @@ public class Board extends AUserContribution {
 		this.boardThreads = new ArrayList<BoardThread>();
 		
 		this.learnedWords = new HashMap< LearnedWordTypes,  Set< String >  >();
+		
+		this.personNameCorpus = new PersonNameCorpus();
+	}
+	
+	/**
+	 * @return the personNameCorpus
+	 */
+	public PersonNameCorpus getPersonNameCorpus() {
+		return personNameCorpus;
+	}
+
+	/**
+	 * Set a completely new {@link PersonNameCorpus} instance.
+	 * @param personNameCorpus the personNameCorpus to set
+	 */
+	public void setPersonNameCorpus( PersonNameCorpus personNameCorpus ) {
+		this.personNameCorpus = personNameCorpus;
 	}
 
 	/**

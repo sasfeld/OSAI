@@ -60,4 +60,5 @@ public interface IConfigKeys {
 	String EXPORT_STRATEGY_CLASS = "export.strategy.class";
 	String EXPORT_STRATEGY_DIRECTORYEXPORT_DATAFOLDER = "export.strategy.directoryexport.datafolder";
 	String EXPORT_STRATEGY_DIRECTORYEXPORT_TESTFOLDER = "export.strategy.directoryexport.testfolder";
+	String IMPORT_STRATEGY_DIRECTORYIMPORT_BOARDSPECIFIC = "import.strategy.directoryimport.boardspecific";
 }
