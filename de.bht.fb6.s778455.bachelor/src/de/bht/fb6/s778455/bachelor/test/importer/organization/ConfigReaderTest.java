@@ -71,12 +71,14 @@ public class ConfigReaderTest {
 		Map< String, String > configValues = this.configReader.fetchValues();
 		
 		// assert size -> force the devloper to check this test before he manipulates the configuration
-		assertEquals( 3, configValues.size() );
+		assertEquals( 5, configValues.size() );
 		
 		// assert properties' keys
-		assertTrue( configValues.containsKey( IConfigKeys.EXPORT_STRATEGY_CLASS) );
+		assertTrue( configValues.containsKey( IConfigKeys.IMPORT_STRATEGY_CLASS) );
 		assertTrue( configValues.containsKey( IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_DATAFOLDER) );
 		assertTrue( configValues.containsKey( IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_TESTFOLDER) );
+		assertTrue( configValues.containsKey( IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_NAMECORPUS_PRENAMES) );
+		assertTrue( configValues.containsKey( IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_NAMECORPUS_LASTNAMES) );
 	}	
 	
 	@Test

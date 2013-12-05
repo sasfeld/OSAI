@@ -51,7 +51,9 @@ public interface IConfigKeys {
 	String IMPORT_STRATEGY_CLASS = "import.strategy.class";
 	String IMPORT_STRATEGY_DIRECTORYIMPORT_TESTFOLDER = "import.strategy.directoryimport.testfolder";
 	String IMPORT_STRATEGY_DIRECTORYIMPORT_DATAFOLDER = "import.strategy.directoryimport.datafolder";
-
+	String IMPORT_STRATEGY_DIRECTORYIMPORT_NAMECORPUS_PRENAMES = "import.strategy.directoryimport.namecorpus.prenames";
+	String IMPORT_STRATEGY_DIRECTORYIMPORT_NAMECORPUS_LASTNAMES = "import.strategy.directoryimport.namecorpus.lastnames";
+	
 	/*
 	 * export module 
 	 */
