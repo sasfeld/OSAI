@@ -71,7 +71,7 @@ public class AnonymizationController {
 			throws GeneralLoggingException {
 		// perform import first
 		Map< String, Board > courses = this.importStrategy
-				.importFromFile( this.configuredDataFile );
+				.importBoardFromFile( this.configuredDataFile );
 
 		// chaining: create new anonymizer instance
 		for( String chainingKey : this.chainingKeys ) {

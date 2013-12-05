@@ -21,6 +21,7 @@ import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
@@ -81,7 +82,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	 * de.bht.fb6.s778455.bachelor.importer.AImportStrategy#importFromStream
 	 * (java.io.InputStream)
 	 */
-	public Map< String, Board > importFromStream( InputStream inputStream ) {
+	public Map< String, Board > importBoardFromStream( InputStream inputStream ) {
 		// not supported
 		throw new UnsupportedOperationException(
 				"DirectoyImportStrategy:importFromStream() isn't supported." );
@@ -95,7 +96,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	 * de.bht.fb6.s778455.bachelor.importer.AImportStrategy#importFromFile(java
 	 * .io.File)
 	 */
-	public Map< String, Board > importFromFile( File inputFile )
+	public Map< String, Board > importBoardFromFile( File inputFile )
 			throws GeneralLoggingException {
 		// fully qualified name of this class + method to be printed in a log
 		String fullyQualified = getClass() + ":importFromFile";
@@ -284,6 +285,17 @@ public class DirectoryImportStrategy extends AImportStrategy {
 							LogType.ERROR );
 		}
 
+		return null;
+	}
+
+	@Override
+	/*
+	 * (non-Javadoc)
+	 * @see de.bht.fb6.s778455.bachelor.importer.AImportStrategy#fillFromFile(java.io.File, de.bht.fb6.s778455.bachelor.model.PersonNameCorpus)
+	 */
+	public PersonNameCorpus fillFromFile( File personCorpus,
+			PersonNameCorpus corpusInstance ) {
+		// TODO Auto-generated method stub
 		return null;
 	}
 

@@ -10,6 +10,7 @@ import java.util.Map;
 
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 
 /**
@@ -28,7 +29,7 @@ public abstract class AImportStrategy {
 	 * @param inputStream any {@link InputStream} (e.g.: from an HTTP resource, a file resource,...)
 	 * @return a {@link Map} of key value pairs.
 	 */
-	abstract public Map<String, Board> importFromStream(InputStream inputStream);
+	abstract public Map<String, Board> importBoardFromStream(InputStream inputStream);
 	
 	/**
 	 * <p>Import raw data from a {@link File} and construct a {@link Map} with {@link Course} instances as keys and {@link Board} instances as values.</p>
@@ -37,5 +38,14 @@ public abstract class AImportStrategy {
 	 * @return a {@link Map} of key value pairs.
 	 * @throws GeneralLoggingException 
 	 */
-	abstract public Map<String, Board> importFromFile(File inputFile) throws GeneralLoggingException;
+	abstract public Map<String, Board> importBoardFromFile(File inputFile) throws GeneralLoggingException;
+	
+	/**
+	 * <p>Fill a given {@link PersonNameCorpus} by names contained in a given {@link File}.</p>
+	 * 
+	 * @param personCorpus
+	 * @param corpusInstance
+	 * @return
+	 */
+	abstract public PersonNameCorpus fillFromFile(File personCorpus, PersonNameCorpus corpusInstance);
 }

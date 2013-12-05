@@ -66,7 +66,7 @@ public class DirectoryImportStrategyTest {
 	public void testImportFromFile() throws GeneralLoggingException {
 		File testDir = new File( ServiceFactory.getConfigReader().fetchValue( IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_TESTFOLDER ) );
 		
-		Map< String, Board > resultingMap = this.importStrategy.importFromFile( testDir );
+		Map< String, Board > resultingMap = this.importStrategy.importBoardFromFile( testDir );
 		
 		assertTrue( null != resultingMap );
 		
