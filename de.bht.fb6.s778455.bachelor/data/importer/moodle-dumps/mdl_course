@@ -1,0 +1,34 @@
+--
+-- PostgreSQL database dump
+--
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+
+SET search_path = public, pg_catalog;
+
+--
+-- Data for Name: mdl_course; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY mdl_course (id, category, sortorder, fullname, shortname, idnumber, summary, summaryformat, format, showgrades, sectioncache, modinfo, newsitems, startdate, marker, maxbytes, legacyfiles, showreports, visible, visibleold, groupmode, groupmodeforce, defaultgroupingid, lang, theme, timecreated, timemodified, requested, enablecompletion, completionstartonenrol, completionnotify) FROM stdin;
+1	0	1	Beuth Hochschule Test Moodle	Beuth HS Test		<p><strong>Blabla keks</strong></p>\r\n<p><strong></strong></p>\r\n<p><strong>Das ist ein Keks-Moodle :) Have fun!</strong></p>	0	site	1	a:0:{}	a:0:{}	3	0	0	0	0	0	1	1	0	0	0			1386688994	1386689634	0	0	0	0
+2	1	10001	C/C++ für Java-Programmierer (SS 2013)	c4j-2013ss	4737	<p>Fake-Course "C4J" :D</p>	1	weeks	1	a:11:{i:0;O:8:"stdClass":2:{s:2:"id";s:1:"1";s:4:"name";N;}i:1;O:8:"stdClass":2:{s:2:"id";s:1:"2";s:4:"name";N;}i:2;O:8:"stdClass":2:{s:2:"id";s:1:"3";s:4:"name";N;}i:3;O:8:"stdClass":2:{s:2:"id";s:1:"4";s:4:"name";N;}i:4;O:8:"stdClass":2:{s:2:"id";s:1:"5";s:4:"name";N;}i:5;O:8:"stdClass":2:{s:2:"id";s:1:"6";s:4:"name";N;}i:6;O:8:"stdClass":2:{s:2:"id";s:1:"7";s:4:"name";N;}i:7;O:8:"stdClass":2:{s:2:"id";s:1:"8";s:4:"name";N;}i:8;O:8:"stdClass":2:{s:2:"id";s:1:"9";s:4:"name";N;}i:9;O:8:"stdClass":2:{s:2:"id";s:2:"10";s:4:"name";N;}i:10;O:8:"stdClass":2:{s:2:"id";s:2:"11";s:4:"name";N;}}	a:2:{i:1;O:8:"stdClass":10:{s:2:"id";s:1:"1";s:2:"cm";s:1:"1";s:3:"mod";s:5:"forum";s:7:"section";s:1:"0";s:9:"sectionid";s:1:"1";s:6:"module";s:1:"9";s:5:"added";s:10:"1386690345";s:7:"visible";s:1:"1";s:10:"visibleold";s:1:"1";s:4:"name";s:16:"Nachrichtenforum";}i:2;O:8:"stdClass":10:{s:2:"id";s:1:"2";s:2:"cm";s:1:"2";s:3:"mod";s:5:"forum";s:7:"section";s:1:"0";s:9:"sectionid";s:1:"1";s:6:"module";s:1:"9";s:5:"added";s:10:"1386691523";s:7:"visible";s:1:"1";s:10:"visibleold";s:1:"1";s:4:"name";s:40:"Forum für Fragen, Antworten, Tipps etc.";}}	5	1386716400	0	2097152	0	0	1	1	0	0	0			1386689816	1386689816	0	0	0	0
+\.
+
+
+--
+-- Name: mdl_course_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('mdl_course_id_seq', 2, true);
+
+
+--
+-- PostgreSQL database dump complete
+--
+
