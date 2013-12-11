@@ -6,7 +6,11 @@
 package de.bht.fb6.s778455.bachelor.model;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * 
@@ -17,11 +21,28 @@ import java.util.List;
  *
  */
 public class Course {
+	/**
+	 * 
+	 * <p>The literals in this enumeration specifiy the types of learned words.<br />
+	 * A type might be the name of a person for example.</p>
+	 *
+	 * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
+	 * @since 05.12.2013
+	 *
+	 */
+	public enum LearnedWordTypes {
+		/**
+		 * A single person name.
+		 */
+		PERSON_NAME,
+	};
+	
 	protected String title;
 	protected int id;
 	protected User docent;
 	protected List< Board > boards;
 	protected PersonNameCorpus personNameCorpus;
+	protected Map< LearnedWordTypes, Set< String > > learnedWords;
 	
 	/**
 	 * Create a course for which only a title is given.
@@ -33,6 +54,8 @@ public class Course {
 		this.boards = new ArrayList<Board>();
 		
 		this.personNameCorpus = new PersonNameCorpus();
+	
+		this.learnedWords = new HashMap< LearnedWordTypes,  Set< String >  >();
 	}
 	
 	/**
@@ -129,6 +152,33 @@ public class Course {
 	 */
 	public void setDocent( User docent ) {
 		this.docent = docent;
+	}
+	
+	/**
+	 * <p>Add a "learned word" defined by the given type.<br />
+	 * Example: a learned word can be a person's name.
+	 * </p>
+	 * @param singleWord
+	 * @param wordType the given type (defined in {@link LearnedWordTypes}).
+	 */
+	public void addLearnedWord( String singleWord, LearnedWordTypes wordType ) {
+		// create word set first if this is the first word for the given type
+		if ( ! this.learnedWords.containsKey( wordType )) {
+			Set< String > wordSet = new HashSet<String>();
+			this.learnedWords.put( wordType, wordSet );
+		}
+		
+		// add the word to the existing set
+		this.learnedWords.get( wordType ).add( singleWord );
+	}
+	
+	/**
+	 * Get the "learned words" for the given {@link LearnedWordTypes}.
+	 * @param wordType
+	 * @return a Set of {@link String} or null if there are no words available.
+	 */
+	public Set< String > getLearnedWords( LearnedWordTypes wordType ) {
+		return this.learnedWords.get( wordType );
 	}
 	
 	/* (non-Javadoc)
