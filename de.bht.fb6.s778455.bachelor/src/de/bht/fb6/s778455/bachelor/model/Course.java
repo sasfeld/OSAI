@@ -5,6 +5,7 @@
 
 package de.bht.fb6.s778455.bachelor.model;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
@@ -21,7 +22,12 @@ import java.util.Set;
  * @since 20.11.2013
  *
  */
-public class Course {
+public class Course implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -241430860036615503L;
+
 	/**
 	 * 
 	 * <p>The literals in this enumeration specifiy the types of learned words.<br />
