@@ -12,6 +12,7 @@ import java.util.List;
 import de.bht.fb6.s778455.bachelor.anonymization.Anonymizer;
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
 import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
+import de.bht.fb6.s778455.bachelor.exporter.experimental.DirectoryExportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader;
@@ -41,6 +42,7 @@ public class AnonymizationController {
 	 */
 	protected AImportStrategy importStrategy;
 	protected File configuredDataFile;
+	protected File configuredExportFile;
 	private AExportStrategy exportStrategy;
 	private List< String > chainingKeys;
 	private IConfigReader anonymConfigReader;
@@ -66,6 +68,20 @@ public class AnonymizationController {
 				.fetchMultipleValues( IConfigKeys.ANONYM_STRATEGY_CHAIN );
 		this.exportStrategy = ( ( de.bht.fb6.s778455.bachelor.exporter.organization.ConfigReader ) de.bht.fb6.s778455.bachelor.exporter.organization.service.ServiceFactory
 				.getConfigReader() ).getConfiguredExportStrategy();
+
+		if( exportStrategy instanceof DirectoryExportStrategy ) {
+			this.configuredExportFile = new File(
+					de.bht.fb6.s778455.bachelor.exporter.organization.service.ServiceFactory
+							.getConfigReader()
+							.fetchValue(
+									IConfigKeys.EXPORT_STRATEGY_DIRECTORYEXPORT_DATAFOLDER ) );
+		} else {
+			this.configuredExportFile = new File(new File(
+					de.bht.fb6.s778455.bachelor.exporter.organization.service.ServiceFactory
+							.getConfigReader()
+							.fetchValue(
+									IConfigKeys.EXPORT_STRATEGY_SERIALIZED_DATAFOLDER )), "serialized.ser" );
+		}
 
 	}
 
@@ -169,14 +185,8 @@ public class AnonymizationController {
 		Collection< Course > anonymizedCourses = this.performAnonymization();
 		long elapsedTime = new Date().getTime() - startTime;
 
-		this.exportStrategy
-				.exportToFile(
-						anonymizedCourses,
-						new File(
-								de.bht.fb6.s778455.bachelor.exporter.organization.service.ServiceFactory
-										.getConfigReader()
-										.fetchValue(
-												IConfigKeys.EXPORT_STRATEGY_DIRECTORYEXPORT_DATAFOLDER ) ) );
+		this.exportStrategy.exportToFile( anonymizedCourses,
+				this.configuredExportFile );
 
 		System.out.println( "Starting analysis...." );
 		System.out

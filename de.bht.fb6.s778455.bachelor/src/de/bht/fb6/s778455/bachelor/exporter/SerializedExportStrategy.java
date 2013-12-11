@@ -33,7 +33,7 @@ public class SerializedExportStrategy extends AExportStrategy {
 	 */
 	public boolean exportToFile( Collection< Course > anonymizedCourses,
 			File outputFile ) throws GeneralLoggingException {
-		if( !outputFile.exists() || !outputFile.isDirectory() ) {
+		if( !outputFile.getParentFile().exists() ) {
 			throw new GeneralLoggingException( getClass()
 					+ ":exportToFile(): the given outputFile ("
 					+ outputFile.getAbsolutePath()
