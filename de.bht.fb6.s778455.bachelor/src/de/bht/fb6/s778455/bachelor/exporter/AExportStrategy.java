@@ -5,7 +5,6 @@ package de.bht.fb6.s778455.bachelor.exporter;
 
 import java.io.File;
 import java.util.Collection;
-import java.util.Set;
 
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;

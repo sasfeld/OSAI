@@ -8,7 +8,6 @@ import java.io.File;
 import java.util.Collection;
 import java.util.Date;
 import java.util.List;
-import java.util.Set;
 
 import de.bht.fb6.s778455.bachelor.anonymization.Anonymizer;
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;

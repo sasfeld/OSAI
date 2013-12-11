@@ -6,7 +6,6 @@ package de.bht.fb6.s778455.bachelor.test.anonymization.controller;
 import static org.junit.Assert.assertTrue;
 
 import java.util.Collection;
-import java.util.Set;
 
 import org.junit.After;
 import org.junit.Before;
