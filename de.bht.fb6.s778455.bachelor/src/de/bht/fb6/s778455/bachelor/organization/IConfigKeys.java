@@ -54,6 +54,7 @@ public interface IConfigKeys {
 	String IMPORT_STRATEGY_DIRECTORYIMPORT_NAMECORPUS_PRENAMES = "import.strategy.directoryimport.namecorpus.prenames";
 	String IMPORT_STRATEGY_DIRECTORYIMPORT_NAMECORPUS_LASTNAMES = "import.strategy.directoryimport.namecorpus.lastnames";
 	String IMPORT_STRATEGY_POSTGRESQL_DUMPFOLDER = "import.strategy.postgresql.dumpfolder";
+	String IMPORT_STRATEGY_POSTGRESQL_TESTFOLDER = "import.strategy.postgresql.testfolder";
 	
 	/*
 	 * export module 
