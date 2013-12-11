@@ -37,7 +37,7 @@ public class PostgreSqlDumpParser {
 	 *            mustn't be null and the file must exist
 	 */
 	public PostgreSqlDumpParser( final File dumpFile ) {
-		if( null == dumpFile || dumpFile.exists() ) {
+		if( null == dumpFile || !dumpFile.exists() || !dumpFile.isFile() ) {
 			throw new IllegalArgumentException(
 					getClass()
 							+ ": the given value for file ("
@@ -86,9 +86,10 @@ public class PostgreSqlDumpParser {
 						break;
 					} else { // match each row and map the values depending on
 								// the positon
-						Pattern pRow = Pattern.compile( "(?i)^(.*?\\t)$" );
+						Pattern pRow = Pattern.compile( "(?i)(.*?\\t)" );
 						// form: column => value
 						Map< String, String > rowMap = new HashMap< String, String >();
+						System.out.println(columnPositions);
 						this.mapRow( pRow, rowMap, columnPositions, line, tableName );
 
 						returnedRows.add( rowMap );
@@ -97,15 +98,18 @@ public class PostgreSqlDumpParser {
 						&& line.trim().toLowerCase()
 								.startsWith( "copy " + tableName ) ) {
 					tableMatched = true;
-
+					
+					// This pattern matches the columns names including their separators
 					Pattern pColumns = Pattern
-							.compile( "(?i)(?<=()([a-z]+[,\\s)]{2})(?=FROM stdin;)" );
+							.compile( "(?i)([a-z]+[,\\s)]{2})" );
 					final Map< String, Integer > allColumnPositions = this
 							.mapGroupPositions( pColumns, line );
+					System.out.println(allColumnPositions);
+					
 
 					// only keep required positions
 					for( String column : columns ) {
-						if( allColumnPositions.containsValue( column ) ) {
+						if( allColumnPositions.containsKey( column ) ) {
 							// store: column name => position
 							columnPositions.put(
 									allColumnPositions.get( column ), column );
@@ -162,7 +166,7 @@ public class PostgreSqlDumpParser {
 		while( matcher.find() ) {
 			// find the position of the value in the position map
 			if( columnPositions.containsKey( groupNum ) ) {
-				String dataValue = matcher.group( groupNum );
+				String dataValue = matcher.group( 1 );
 				rowMap.put( columnPositions.get( groupNum ), dataValue );
 			}
 
@@ -179,6 +183,12 @@ public class PostgreSqlDumpParser {
 
 	}
 
+	/**
+	 * Save the groups' positions in a map.
+	 * @param pColumns
+	 * @param line
+	 * @return
+	 */
 	private Map< String, Integer > mapGroupPositions( Pattern pColumns,
 			String line ) {
 		Map< String, Integer > posMap = new HashMap< String, Integer >();
@@ -186,7 +196,12 @@ public class PostgreSqlDumpParser {
 		int groupNum = 0;
 		Matcher matcher = pColumns.matcher( line );
 		while( matcher.find() ) {
-			posMap.put( matcher.group( groupNum ), groupNum );
+			String groupValue = matcher.group( 0 );
+			// replace column separator
+			groupValue = groupValue.replace( ", ", "" );
+			// replace colum separator of the last column
+			groupValue = groupValue.replace( ") ", "" ); 
+			posMap.put( groupValue, groupNum );
 
 			groupNum++;
 		}
@@ -194,6 +209,10 @@ public class PostgreSqlDumpParser {
 		return posMap;
 	}
 
+	/**
+	 * Do your work to free the reader.
+	 * @param reader
+	 */
 	private void freeReader( BufferedReader reader ) {
 		try {
 			reader.close();
@@ -202,6 +221,11 @@ public class PostgreSqlDumpParser {
 		}
 	}
 
+	/**
+	 * Do your work before working with the {@link BufferedReader}
+	 * @return
+	 * @throws FileNotFoundException
+	 */
 	private BufferedReader openReader() throws FileNotFoundException {
 		BufferedReader reader = new BufferedReader( new FileReader(
 				this.dumpFile ) );
