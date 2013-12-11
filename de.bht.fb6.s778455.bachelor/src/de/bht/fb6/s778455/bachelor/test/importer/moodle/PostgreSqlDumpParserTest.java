@@ -26,7 +26,7 @@ public class PostgreSqlDumpParserTest {
 	/**
 	 * Determine the path to the test postgre sql dump here.
 	 */
-	private static final String PATH_TO_TESTDUMP = "./data/importer/moodle-dumps/mdl_course.sql";
+	private static final String PATH_TO_TESTDUMP = "./data/importer/moodle-dumps/unittest/mdl_course.sql";
 	protected File testFile;
 
 	/**
@@ -49,8 +49,18 @@ public class PostgreSqlDumpParserTest {
 	public void testFetchEntities() {
 		PostgreSqlDumpParser parser = new PostgreSqlDumpParser( this.testFile );
 		
-		List< Map < String, String > > entities = parser.fetchEntities( "mdl_course", "fullname", "shortname", "summary" );
-		System.out.println(entities);
+		List< Map < String, String > > entities = parser.fetchEntities( "mdl_course", "completionnotify", "id", "fullname", "shortname", "summary" );
+	
+		System.out.println("resulting:\n" + entities);
+		assertEquals( 2, entities.size() );
+		
+		// assert that each fetched entity contains the required columns
+		for( Map< String, String > entity : entities ) {
+			assertTrue( entity.containsKey( "id" ) );
+			assertTrue( entity.containsKey( "fullname" ) );
+			assertTrue( entity.containsKey( "shortname" ) );
+			assertTrue( entity.containsKey( "summary" ) );
+		}
 	}
 
 }

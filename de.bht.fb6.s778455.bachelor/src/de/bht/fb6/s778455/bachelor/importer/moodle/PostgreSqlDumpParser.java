@@ -60,19 +60,20 @@ public class PostgreSqlDumpParser {
 	public List< Map< String, String > > fetchEntities( final String tableName,
 			final String... columns ) {
 		final List< Map< String, String > > returnedRows = new ArrayList< Map< String, String >>();
-		
+
 		BufferedReader reader = null;
 		try {
 			reader = this.openReader();
 
 			// Scan until table line is reached
 			final Map< Integer, String > columnPositions = new HashMap< Integer, String >();
-			
+
 			String line;
 			boolean tableMatched = false;
 			boolean matchingCompleted = false;
 
 			while( null != ( line = reader.readLine() ) ) {
+				String manipulatedEnding = line.concat( "\n" );
 				// is this table of interest?
 				if( tableMatched ) {
 					// end of table data
@@ -81,16 +82,16 @@ public class PostgreSqlDumpParser {
 						break;
 					}
 					// empty line
-					else if( 0 == line.trim().length() ) {				
+					else if( 0 == line.trim().length() ) {
 						matchingCompleted = false;
 						break;
 					} else { // match each row and map the values depending on
 								// the positon
-						Pattern pRow = Pattern.compile( "(?i)(.*?\\t)" );
+						Pattern pRow = Pattern.compile( "(?i)(.*?[\\t\\n]{1})", Pattern.MULTILINE );
 						// form: column => value
 						Map< String, String > rowMap = new HashMap< String, String >();
-						System.out.println(columnPositions);
-						this.mapRow( pRow, rowMap, columnPositions, line, tableName );
+						this.mapRow( pRow, rowMap, columnPositions, manipulatedEnding,
+								tableName );
 
 						returnedRows.add( rowMap );
 					}
@@ -98,14 +99,13 @@ public class PostgreSqlDumpParser {
 						&& line.trim().toLowerCase()
 								.startsWith( "copy " + tableName ) ) {
 					tableMatched = true;
-					
-					// This pattern matches the columns names including their separators
+
+					// This pattern matches the columns names including their
+					// separators
 					Pattern pColumns = Pattern
 							.compile( "(?i)([a-z]+[,\\s)]{2})" );
 					final Map< String, Integer > allColumnPositions = this
 							.mapGroupPositions( pColumns, line );
-					System.out.println(allColumnPositions);
-					
 
 					// only keep required positions
 					for( String column : columns ) {
@@ -125,13 +125,13 @@ public class PostgreSqlDumpParser {
 					}
 				}
 			}
-			
-			if ( !matchingCompleted ) {
+
+			if( !matchingCompleted ) {
 				Application
-				.log( getClass()
-						+ "fetchEntities: the given dump file seems to be corrupt. Didn't reach a valid sequence which closes the table data area. Given file: "
-						+ this.dumpFile + "; given tableName: "
-						+ tableName, LogType.ERROR );
+						.log( getClass()
+								+ "fetchEntities: the given dump file seems to be corrupt. Didn't reach a valid sequence which closes the table data area. Given file: "
+								+ this.dumpFile + "; given tableName: "
+								+ tableName, LogType.ERROR );
 			}
 
 			this.freeReader( reader );
@@ -156,35 +156,51 @@ public class PostgreSqlDumpParser {
 	 * @param rowMap
 	 * @param columnPositions
 	 * @param line
-	 * @param tableName 
+	 * @param tableName
 	 */
 	private void mapRow( Pattern pRow, Map< String, String > rowMap,
-			Map< Integer, String > columnPositions, String line, String tableName ) {
+			Map< Integer, String > columnPositions, String line,
+			String tableName ) {
 
 		int groupNum = 0;
+		int matchedColumns = 0;
 		Matcher matcher = pRow.matcher( line );
 		while( matcher.find() ) {
 			// find the position of the value in the position map
-			if( columnPositions.containsKey( groupNum ) ) {
+			if ( columnPositions.containsKey( groupNum ) ) {
 				String dataValue = matcher.group( 1 );
+				
+				
+				// replace separators of data values
+				dataValue = dataValue.replace( "\t", "" );
+				dataValue = dataValue.replace( "\n", "" );
+				
 				rowMap.put( columnPositions.get( groupNum ), dataValue );
-			}
+				
+				matchedColumns++;
+			}			
+			
 
 			groupNum++;
 		}
 
 		// check if the number of positions in both maps is equal
-		if( columnPositions.keySet().size() != ( groupNum + 1 ) ) {
+		if( columnPositions.keySet().size() != matchedColumns ) {
 			Application
-			.log( getClass()
-					+ "mapRow(): It seems like the given dump file is corrupt because the number of data elements doesn't match the number of columns."
-					+ " Given input file " + this.dumpFile + "; given table: " + tableName, LogType.ERROR );
+					.log( getClass()
+							+ "mapRow(): It seems like the given dump file is corrupt because the number of data elements ("
+							+ matchedColumns
+							+ ") doesn't match the number of columns ("
+							+ columnPositions.keySet().size() + ")."
+							+ " Given input file " + this.dumpFile
+							+ "; given table: " + tableName, LogType.ERROR );
 		}
 
 	}
 
 	/**
 	 * Save the groups' positions in a map.
+	 * 
 	 * @param pColumns
 	 * @param line
 	 * @return
@@ -200,7 +216,7 @@ public class PostgreSqlDumpParser {
 			// replace column separator
 			groupValue = groupValue.replace( ", ", "" );
 			// replace colum separator of the last column
-			groupValue = groupValue.replace( ") ", "" ); 
+			groupValue = groupValue.replace( ") ", "" );
 			posMap.put( groupValue, groupNum );
 
 			groupNum++;
@@ -211,6 +227,7 @@ public class PostgreSqlDumpParser {
 
 	/**
 	 * Do your work to free the reader.
+	 * 
 	 * @param reader
 	 */
 	private void freeReader( BufferedReader reader ) {
@@ -223,6 +240,7 @@ public class PostgreSqlDumpParser {
 
 	/**
 	 * Do your work before working with the {@link BufferedReader}
+	 * 
 	 * @return
 	 * @throws FileNotFoundException
 	 */
