@@ -126,12 +126,19 @@ public class PostgreSqlDumpParser {
 				}
 			}
 
-			if( !matchingCompleted ) {
+			if( tableMatched && !matchingCompleted ) {
 				Application
 						.log( getClass()
 								+ "fetchEntities: the given dump file seems to be corrupt. Didn't reach a valid sequence which closes the table data area. Given file: "
 								+ this.dumpFile + "; given tableName: "
 								+ tableName, LogType.ERROR );
+			}
+			else if( !tableMatched ) {
+				Application
+				.log( getClass()
+						+ "fetchEntities: the given dump file seems to be corrupt. Didn't find the given tableName. Given file: "
+						+ this.dumpFile + "; given tableName: "
+						+ tableName, LogType.ERROR );
 			}
 
 			this.freeReader( reader );

@@ -68,7 +68,8 @@ public class Board extends AUserContribution {
 	}
 
 	/**
-	 * @param intro the intro text to set
+	 * @param intro
+	 *            the intro text to set
 	 */
 	public void setIntro( String intro ) {
 		this.intro = intro;
@@ -89,15 +90,35 @@ public class Board extends AUserContribution {
 			 * @return 
 			 */
 			public int compare( BoardThread o1, BoardThread o2 ) {
-				if( o1.getCreationDate().getTime() < o2.getCreationDate()
-						.getTime() ) {
-					return -1;
+				if( null == o1.getCreationDate()
+						|| null == o2.getCreationDate() ) {
+					// compare modification date
+					if( null == o1.getModificationDate() || null == o2.getModificationDate()) {
+						return 0; // no  comparison possible
+					}
+					else {
+						if( o1.getModificationDate().getTime() < o2.getModificationDate()
+								.getTime() ) {
+							return -1;
+						}
+						if( o1.getModificationDate().getTime() > o2.getModificationDate()
+								.getTime() ) {
+							return 1;
+						}
+						return 0;
+					}
+				} else { 
+					// compare creation date
+					if( o1.getCreationDate().getTime() < o2.getCreationDate()
+							.getTime() ) {
+						return -1;
+					}
+					if( o1.getCreationDate().getTime() > o2.getCreationDate()
+							.getTime() ) {
+						return 1;
+					}
+					return 0; // o1 == o2
 				}
-				if( o1.getCreationDate().getTime() > o2.getCreationDate()
-						.getTime() ) {
-					return 1;
-				}
-				return 0; // o1 == o2
 			}
 		};
 		this.boardThreads.add( boardThread );
@@ -135,8 +156,9 @@ public class Board extends AUserContribution {
 	}
 
 	/**
-	 * Get the board's type  (moodle specific key: e.g. "news" for a news board
+	 * Get the board's type (moodle specific key: e.g. "news" for a news board
 	 * or "general")
+	 * 
 	 * @return
 	 */
 	public String getType() {
