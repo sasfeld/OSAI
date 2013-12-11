@@ -1,0 +1,20 @@
+CREATION_DATETIME: 1367075099
+CONTENT: 
+Der Fehler lässt sich leider nicht nachvollziehen, und tritt immer nur an einer Stelle auf, nämlich wenn der Zähler einer rationalen Zahl aus einem Array überprüft wird:
+
+//PruefeeinenZaehler
+
+assert(rncCompare(rncCount(c,n1),1));
+
+mit
+
+bool rncCompare(inta,intb){
+
+if(a==b){
+return true;}
+
+return false;
+
+ 
+
+}

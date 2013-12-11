@@ -1,0 +1,7 @@
+CREATION_DATETIME: 1367013839
+CONTENT: 
+Meine Teamkollegin und ich haben zurzeit das Problem, dass ein und dasselbe Programm bei ihr anders läuft als bei mir.
+Im besonderen Fall sind bestimmte Werte im Programm bei ihr anders als bei mir, wobei es bei mir falsch läuft.
+Also z.B. ein int-Wert ist eigentlich 3 bei mir so was wie -834343434.
+Wie kann das sein?
+Ich habe die pro.user-Datei gelöscht und auch die ganzen erstellten Ordner.

@@ -1,0 +1,13 @@
+CREATION_DATETIME: 1384431701
+CONTENT: 
+Hallo,
+
+das war dann auch die Lösung. Ich habe die Glassfish-web.xml gelöscht und durch eine neue ersetzt.
+
+Wichtig ist, dass man sie genau über diese Schritt generiert:
+
+new->other->web->standard deployment descriptor
+
+ 
+
+Vielen Dank für die Hilfe :)

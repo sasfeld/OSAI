@@ -1,0 +1,17 @@
+CREATION_DATETIME: 1385545421
+CONTENT: 
+Liebe SE-ler,
+
+ich möchte Sie bitten, Ihrem Kommilitonen Sascha Feldmann zu gestatten, die Foreneinträge dieses Kurses als Testdaten für seine Bachelor-Arbeit zu nutzen, in der es um eine didaktische Lernplattform-Analyse im Rahmen des LeMo-Projektes gehen soll.
+
+Im ersten Schritt werden die Einträge nach einem von ihm entwickelten Verfahren anonymisiert. Der Anonymisierungsgrad liegt jetzt schon bei 93%, Ziel ist 99%.
+
+Die anonymisierten Foreneinträge sollen dann weitergehend  automatisiert untersucht um herauszufinden, ob sich z.B. typische Themenverläufe über Kurse ermitteln lassen, die auf Schwachstellen im Lehrmaterial schließen lassen. Aber im Moment geht es um die Qualität der Anonymisierung von Foreneinträgen. Sobald die Anonymisierung zuverlässig ist, stehen auch andere Foren als Datenquellen zur Verfügung.
+
+Sowohl die Rohdaten als auch die anonymisierten Daten werden vertraulich behandelt. Sascha kann Ihnen auch gern abschließend seine Ergebnisse vorstellen.
+
+Ich bitte Sie daher mit der in Moodle angelegten Abstimmung um Ihre Zustimmung dazu, dass Sascha das SE-2-Forum zum Testen seiner Anonymisierung nutzen darf! (Es eilt ein bisschen, denn eine Bachelorarbeit dauert ja nur 12 Wochen, und dies ist nur eine Vorarbeit...)
+
+Viele Grüße
+
+ilse schmiedecke

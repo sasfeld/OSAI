@@ -68,8 +68,11 @@ public class AnonymizationControllerTest {
 		for( Course course : anonymizedCourses ) {
 			System.out.println( "##########################" );
 			System.out.println( "#" );
-			System.out.println( "# course: " + course );
+			System.out.println( "# course: " + course.getTitle() );
 			for( Board courseBoard : course.getBoards() ) {
+				System.out.println( "........................." );
+				System.out.println( "." );
+				System.out.println(". board: " + courseBoard.getTitle());
 				for( BoardThread boardThread : courseBoard.getBoardThreads() ) {
 					System.out.println( "+++++++++++++++++++++++++++" );
 					System.out.println( "+" );
@@ -86,6 +89,8 @@ public class AnonymizationControllerTest {
 					System.out.println( "+" );
 					System.out.println( "+++++++++++++++++++++++++++" );
 				}
+				System.out.println( "." );
+				System.out.println( "........................." );
 			}
 			System.out.println( "#" );
 			System.out.println( "##########################" );

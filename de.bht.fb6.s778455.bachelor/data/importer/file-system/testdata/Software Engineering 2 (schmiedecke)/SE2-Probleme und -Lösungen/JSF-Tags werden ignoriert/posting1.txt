@@ -1,0 +1,13 @@
+CREATION_DATETIME: 1384980581
+CONTENT: 
+Ich sitze schon eine Weile am zweiten Teil der dritten Fingerübung und weiß einfach nicht weiter.
+
+Ich habe in die SecureAdmin und SecureUser Ordner jeweils eine xhtml-Seite gestopft, die Daten aus einem vorher angelegten ManagedBean anzeigen und verändern sollen.
+
+Bei der Anzeige dieser Seiten tauchen aber tags wie:
+
+<h:outputText escape="false" value="#{Log.list}"/>
+
+einfach nicht auf.
+
+Das JSF-Framework ist drin, das ManagedBean ist über den Wizard angelegt worden, die Klasse ist geschrieben und getList liefert immer einen nichtleeren String. Es gibt nirgends eine Fehlermeldung und die Fraglichen Elemente tauchen nicht auf, andere aber schon. (Wie z.B. einfacher Text in der xhtml)

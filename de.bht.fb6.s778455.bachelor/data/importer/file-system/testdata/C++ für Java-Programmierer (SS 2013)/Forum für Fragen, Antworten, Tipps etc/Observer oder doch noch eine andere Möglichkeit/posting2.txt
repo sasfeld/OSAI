@@ -1,0 +1,15 @@
+CREATION_DATETIME: 1372513319
+CONTENT: 
+(Ich weiss nicht, was Sie überhaupt bauen wollen, also vielleicht liege ich mit meinen Vorschlägen total daneben...)
+
+Da gibt es natürlich ziemlich viele Möglichkeiten. Aber wenn Sie die Anzahl der Abhängigkeiten gering halten wollen, dann würde ich signals und slots verwenden und dem MainWindow einen logMessage(QString) oder setStatusMessage(QString) - Slot geben. Dann kann der Server oder Thread oder wer auch immer entsprechende Signals definieren und senden (z.B. signalStatusMessage(QString)).
+
+Das schöne daran ist, dass der Server dann gar nichts vom UI wissen muss. Er sendet nur seine Signale, egal wer sie dann abfängt und umsetzt (würde also z.B. dann auch ohne UI gehen).
+
+Dabei stellt sich dann die Frage, wer wo das connect() macht. Wenn der Server unabhängig vom UI bleiben soll, würde ich im MainWindow das connect machen, die  MainWindow-Instanz  muss also die MyServer-Instanz kennen, aber das ist ja wohl eh so, oder?
+
+Gruß und viel Erfolg
+
+ 
+
+Hartmut Schirmacher

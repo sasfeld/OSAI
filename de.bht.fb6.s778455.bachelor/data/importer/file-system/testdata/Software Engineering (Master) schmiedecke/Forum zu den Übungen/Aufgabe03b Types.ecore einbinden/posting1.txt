@@ -1,0 +1,7 @@
+CREATION_DATETIME: 1384879721
+CONTENT: 
+Hallo,
+
+leider finde ich nicht heraus wie man dem Projekt die primitiven Typen mithilfe des Typenmodell Types.ecore hinzufügt. Auch wenn ich ein neuen Projektordner erstelle, kann ich dies nicht auswählen so wie bei Papyrus. Vielleicht kann mir jemand sagen, wie das geht?
+
+ 

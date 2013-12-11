@@ -1,0 +1,9 @@
+CREATION_DATETIME: 1366803839
+CONTENT: 
+Kriege folgende Fehlermeldung:
+
+main.obj:-1: Fehler:LNK2019: Verweis auf nicht aufgelöstes externes Symbol ""void __cdecl rncInit(struct RationalNumberCollection *)" (?rncInit@@YAXPEAURationalNumberCollection@@Z)" in Funktion "main".
+
+Den gleichen Fehler bekomme ich auch wenn ich andere methoden aus rnc in der main benutzen will. Habe definitiv nur eine main() und alles included... 
+
+(Bearbeitet von Hartmut Schirmacher - Originaleintrag am Mittwoch, 24. April 2013, 10:57)

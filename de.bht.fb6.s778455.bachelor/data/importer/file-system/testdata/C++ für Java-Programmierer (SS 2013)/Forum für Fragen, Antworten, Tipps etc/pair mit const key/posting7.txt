@@ -1,0 +1,3 @@
+CREATION_DATETIME: 1369929419
+CONTENT: 
+Ich weiﬂ nicht, ob wir gerade aneinander vorbei reden (ich denke, mal die Aufgabe an sich hatte ich kapiert...), und ob ich deinen Anfangsbeitrag richtig verstanden hatte. Ich dachte nur, du h‰ttest m_pair const gesetzt, und hab mich ein bisschen gewundert. o_o; Das ist alles.

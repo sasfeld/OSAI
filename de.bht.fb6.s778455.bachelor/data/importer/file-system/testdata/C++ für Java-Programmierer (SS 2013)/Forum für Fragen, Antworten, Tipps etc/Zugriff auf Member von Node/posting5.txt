@@ -1,0 +1,5 @@
+CREATION_DATETIME: 1369322159
+CONTENT: 
+So weit klar, danke!
+
+Die Methode "insert" erwartet einen Rückgabewert, oder? Welcher wäre das, wenn ich z.B. Werte direkt überschreibe? Ggfs. "this" oder?

@@ -1,0 +1,3 @@
+CREATION_DATETIME: 1368219359
+CONTENT: 
+Mehr Info bitte! Bei welcher Anweisung tritt der Fehler auf, wie lautet er (die Nummer hängt ja vom Compiler ab), wie sehen die Signaturen der implementierten Operatoren aus?

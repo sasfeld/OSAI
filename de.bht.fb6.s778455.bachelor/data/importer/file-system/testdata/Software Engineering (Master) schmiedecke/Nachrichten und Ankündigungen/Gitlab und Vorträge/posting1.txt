@@ -1,0 +1,13 @@
+CREATION_DATETIME: 1382540981
+CONTENT: 
+liebe software-master,
+
+den git-server das SWE-labors können sie unter
+https://141.64.18.152
+erreichen. es gilt das HRZ-login.
+
+und jetzt noch einmal offiziell: 
+wegen der kursgröße verzichte ich auf die vorträge. wer allerdings schon etwas kennt oder vorbereitet hat und es gern präsentieren möchte, für den finde ich unbedingt ein zeitfenster.
+
+viele grüße
+ilse schmiedecke

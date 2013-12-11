@@ -1,0 +1,3 @@
+CREATION_DATETIME: 1369324739
+CONTENT: 
+insert soll immer einen Zeiger auf den Knoten zurückliefern, der den eingefügten Wert enthält. Also this, wenn man den Wert in diesem Knoten überschrieben hat, oder this->m_left, wenn man ein neues linkes Kind erzeugt hat oder den Rückgabewert von this->m_left->insert(), wenn man rekursiv links eingefügt hat, ...

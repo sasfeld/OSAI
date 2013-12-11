@@ -1,0 +1,9 @@
+CREATION_DATETIME: 1371317219
+CONTENT: 
+Wen der Compiler beim erstellen einer GUI mit QT nach diesen Packages sucht und
+
+nicht findet hilft folgender Artikel: http://stackoverflow.com/questions/8321628/compiling-error-cannot-find-lglu-and-lgl-in-kubuntu-linux
+
+ 
+
+Gruﬂ Christian

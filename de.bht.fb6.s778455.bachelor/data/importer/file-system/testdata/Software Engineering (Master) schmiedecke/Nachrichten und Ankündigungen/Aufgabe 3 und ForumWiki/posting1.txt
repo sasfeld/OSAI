@@ -1,0 +1,13 @@
+CREATION_DATETIME: 1383674321
+CONTENT: 
+Liebe SE-Master,
+
+Die Aufgabe 3 steht jetzt in überarbeiteter Form bereit.
+
+(Wer statt der allgemeinen MVC-Terminologie direkt ein spezielles Android-Profil erstellen möchte, kann das auch tun)
+
+Und bitte denken Sie daran, das Forum und das Wiki zu nutzen, um sich gegenseitig zu unterstützen, - z.B. was die eclipse-Installation auf Windows 8 betrifft :).
+
+Viele Grüße
+
+ilse schmiedecke

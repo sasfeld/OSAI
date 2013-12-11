@@ -1,0 +1,11 @@
+CREATION_DATETIME: 1369768919
+CONTENT: 
+wenn ich den key_t überall const mache bekomme ich folgenden Fehler
+
+ich habe im typedef ein const und
+dann bei der Instanzvariable m_pair
+ 
+
+und bei der initialisierung folgendes (sollte laut stackoverflow gehen):
+
+m_pair=pair<key_t,mapped_t>(key,value);

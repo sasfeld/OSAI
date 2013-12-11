@@ -1,0 +1,12 @@
+CREATION_DATETIME: 1369494779
+CONTENT: 
+Hallo,
+
+meine Methode "find" scheint nicht richtig zu funktionieren.
+
+Wenn ich zwei verschiedene "Date"-Objekte in der Map anlege, erkennt die Methode "find" keine unterschiedlichen Objekte, was ist an dieser Abfrage (in "find") falsch:
+
+
+if(key==m_pair.first){
+return this;
+}

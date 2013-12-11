@@ -1,0 +1,3 @@
+CREATION_DATETIME: 1369950659
+CONTENT: 
+Ausserdem fehlen hinten in der Argumentliste doch auch die Template-Parameter, oder? const Map<KeyT,T>::key_t ?

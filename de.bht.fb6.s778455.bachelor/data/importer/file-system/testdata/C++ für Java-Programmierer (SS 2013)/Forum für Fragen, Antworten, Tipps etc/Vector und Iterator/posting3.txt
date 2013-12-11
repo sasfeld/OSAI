@@ -1,0 +1,9 @@
+CREATION_DATETIME: 1371556079
+CONTENT: 
+Danke,
+
+Klappt alles super. Die IDE hat nicht per Autokorrektur alle Funktionen angezeigt.
+
+(keine MyThread Funktionen). It's not a bug, it's a feature :D
+
+ Christian

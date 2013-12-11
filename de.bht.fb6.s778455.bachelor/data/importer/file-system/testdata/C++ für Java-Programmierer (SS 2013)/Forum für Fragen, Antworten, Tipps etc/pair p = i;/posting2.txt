@@ -1,0 +1,3 @@
+CREATION_DATETIME: 1370417639
+CONTENT: 
+Hm, springt nicht sofort ins Auge. Ist Ihr m_pair vielleicht nur ein Zeiger auf ein Pair, dann müssten Sie es noch mit *dereferenzieren? Sonst bitte mal das Projekt schicken. Gruß HS

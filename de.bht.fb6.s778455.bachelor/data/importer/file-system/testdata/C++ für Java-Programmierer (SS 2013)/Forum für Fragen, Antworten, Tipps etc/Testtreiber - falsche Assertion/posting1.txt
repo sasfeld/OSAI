@@ -1,0 +1,7 @@
+CREATION_DATETIME: 1367582279
+CONTENT: 
+Im Testtreiber hat sich eine falsche Assertion eingeschlichen (war wohl ein Aufmerksamkeitstest ;) ):
+
+In Zeile 105:     assert(d3.year() == 2015);
+
+Dort sollte das Jahr 2014 erwartet werden, da 1.9.2013 + 450 Tage = 25.12.2014 . Habe das mithilfe unabhängiger Datumsrechner getestet.

@@ -1,0 +1,3 @@
+CREATION_DATETIME: 1369783319
+CONTENT: 
+contains ist ne const-methode, also muss dein operator< auch ne const-methode sein. ich nehme an, deine insert ist keine const-methode (wär ja reichlich sinnfrei), deshalb gehts da. :)

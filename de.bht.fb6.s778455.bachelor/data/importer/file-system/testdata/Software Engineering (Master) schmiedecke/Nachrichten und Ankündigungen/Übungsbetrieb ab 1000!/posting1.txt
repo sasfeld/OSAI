@@ -1,0 +1,17 @@
+CREATION_DATETIME: 1386001301
+CONTENT: 
+liebe SE-Master
+
+ich möchteSie daran erinnern, dass morgen der Übungsbetrieb erst um 10:00 beginnt (statt vorlesung). 
+
+Ich gehe ab jetzt von einem durchgehenden Übungsangebot in 2 Blöcken aus, das sie unabhängig von Ihrer Grupeenzugehörigkeit nutzen können. Wer kommt, wird beraten oder kann Übungen abgeben. Bitte, schreiben sie Ihren Gruppennamen an die Tafel - in der Reihenfolge werde ich die Gruppen "besuchen".
+
+Am Anfang jedes Blocks  morgen werde ich BEI BEDARF kurz vorführen, wie man eine eigene DSL als eclipse-plugin benutzt. Ich verweise dazu auch noch einmal auf das Tutorial dazu von Lars Vogel: 
+
+http://www.vogella.com/articles/EclipseEMF/article.html
+
+Achtung: Das fertige M1-Modell verwendet er anders als wir: Er nutzt die Java-Form, wir die XMI-Form, die wir mit Acceleo lesen und verarbeiten.
+
+Viele Grüße
+
+ilse schmiedecke

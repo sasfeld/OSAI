@@ -1,0 +1,7 @@
+CREATION_DATETIME: 1385048861
+CONTENT: 
+Problem ist gelöst.
+
+Es bei JSF muss vor dem Pfadnamen der Dateien immer noch ein "faces/" angehangen werden, damit die Speziellen JSF-Tags überhaupt anständig berücksichtigt werden.
+
+AUFPASSEN: Das beißt sich leider mit dem ganzen Security-Kram. Deshalb darf der faces-Aufruf erst nach dem Einloggen erfolgen.

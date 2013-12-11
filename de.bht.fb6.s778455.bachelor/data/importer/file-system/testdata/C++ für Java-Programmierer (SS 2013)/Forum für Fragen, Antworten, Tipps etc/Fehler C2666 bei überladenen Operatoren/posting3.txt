@@ -1,0 +1,17 @@
+CREATION_DATETIME: 1368300299
+CONTENT: 
+Der Fehler tritt in dieser Zeile von main.cpp auf:
+assert(d3.month()==(m3+2));
+
+Die Signatur/Deklaratation der Operator-Überladung lautet
+(dieselbe Fehlermeldung erhalte ich, wenn ich "template..." weglasse)
+
+
+template<typenameT>Date operator+ (constT&lhs);
+
+Fehlermeldung:
+
+E:\Dokumente\fh\SS2013\C++\Aufgaben\Projekte\Aufgabe2\main.cpp:122: Fehler:C2666: 'MyDate::Months::operator +': 2 šberladungen haben „hnliche Konvertierungen
+e:\dokumente\fh\ss2013\c++\aufgaben\projekte\aufgabe2\mydate.h(38): kann 'MyDate::Months MyDate::Months::operator +(const unsigned int &)' sein
+oder "integrierter C++-Operator+(unsigned int, int)"
+bei Anpassung der Argumentliste '(MyDate::Months, int)'

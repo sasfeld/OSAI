@@ -1,0 +1,17 @@
+CREATION_DATETIME: 1366621319
+CONTENT: 
+Hallo,
+
+so ganz durchblicke ich noch nicht alles, abr auf jeden Fall tut rncInit() etwas verbotenes. Sie legen nämlich ein Objekt auf dem Stack an (das Array) und geben Ihrer RNC dann den Zeiger auf dieses Objekt (der Name eines Arrays steht nicht für ein Objekt, sondern nur für einen Zeiger). Wenn Sie die rncInit() verlassen, wird das Array jedoch wieder verworfen (denn es liegt ja auf dem Stack). 
+
+Mit dieser Problematik wird sich u.a. auch der Vorlesungsblock heute beschäftigen, und die Aufgabe 1.3. 
+
+Für die 1.2 ist es am besten, wenn Ihre RNC direkt ein Array enthält. Also schreiben Sie einfach RationalNumber data[1000]; in Ihre RNC-struct hinein. In rncInit() müssen Sie dann nur die Verwaltungsinformationen (wie viele Elemente sind schon in der Collection etc.) auf den richtigen Stand bringen.
+
+Noch ein Tipp: eigentlich ist es so gedacht, dass Ihr RNC-Array ein Array-of-Structs enthält. Also Sie machen zuerst eine Struct "RNCElement" oder so, in dem sich eine RationalNumer und ein Zähler etc. befinden. Dann packen Sie ein Array von RNCElements in Ihre RNC-Struct.
+
+Viel Erfolg und bis später
+
+ 
+
+Hartmut Schirmacher

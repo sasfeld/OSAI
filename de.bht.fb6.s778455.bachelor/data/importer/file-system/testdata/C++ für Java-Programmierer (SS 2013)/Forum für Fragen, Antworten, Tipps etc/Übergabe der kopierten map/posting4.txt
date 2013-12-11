@@ -1,0 +1,3 @@
+CREATION_DATETIME: 1369844099
+CONTENT: 
+Dann die operator= - Methode mit einem "&" versehen und es läuft :). Danke
