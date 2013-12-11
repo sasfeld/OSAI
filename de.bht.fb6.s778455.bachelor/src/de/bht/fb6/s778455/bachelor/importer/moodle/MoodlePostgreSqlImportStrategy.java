@@ -144,12 +144,12 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 					"Internal error in the moodle postgre SQL import. Please see the logs" );
 		}
 
-		// parse board table and its entities
+		// parse postings and its entities
 		PostgreSqlDumpParser postingsParser = new PostgreSqlDumpParser(
 				postingsDump );
 		// map of column => value
 		List< Map< String, String > > resultingEntities = postingsParser
-				.fetchEntities( "mdl_forum_discussions", "id", "discussion",
+				.fetchEntities( "mdl_forum_posts", "id", "discussion",
 						"parent", "created", "modified", "subject", "message" );
 
 		// map entities

@@ -11,6 +11,8 @@ import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 
+import de.bht.fb6.s778455.bachelor.model.tools.DateComparator;
+
 /**
  * 
  * <p>This class represents a Thread of a board, e.g. a 'Moodle board'.</p>
@@ -52,24 +54,8 @@ public class BoardThread extends AUserContribution {
 	 * @param p
 	 */
 	public void addPosting(Posting p) {
-		Comparator< Posting > dateComparator = new Comparator< Posting >() {			
-			@Override
-			/**
-			 * Compare the two postings. A posting is less than another, if the creation date is less than the other.
-			 * @param o1
-			 * @param o2
-			 * @return 
-			 */
-			public int compare( Posting o1, Posting o2 ) {
-				if (o1.getCreationDate().getTime() < o2.getCreationDate().getTime()) {
-					return -1;
-				}
-				if (o1.getCreationDate().getTime() > o2.getCreationDate().getTime()) {
-					return 1;
-				}
-				return 0; // o1 == o2
-			}
-		};
+		Comparator< AUserContribution > dateComparator = new DateComparator();
+		
 		postings.add( p );
 		// sort ascending
 		Collections.sort( this.postings, dateComparator );

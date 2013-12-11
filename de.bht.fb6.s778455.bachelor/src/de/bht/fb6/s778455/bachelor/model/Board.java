@@ -9,6 +9,8 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+import de.bht.fb6.s778455.bachelor.model.tools.DateComparator;
+
 /**
  * 
  * <p>
@@ -81,46 +83,8 @@ public class Board extends AUserContribution {
 	 * @param boardThread
 	 */
 	public void addThread( BoardThread boardThread ) {
-		Comparator< BoardThread > dateComparator = new Comparator< BoardThread >() {
-			@Override
-			/**
-			 * Compare the two board threads. A board thread is less than another, if the creation date is less than the other.
-			 * @param o1
-			 * @param o2
-			 * @return 
-			 */
-			public int compare( BoardThread o1, BoardThread o2 ) {
-				if( null == o1.getCreationDate()
-						|| null == o2.getCreationDate() ) {
-					// compare modification date
-					if( null == o1.getModificationDate() || null == o2.getModificationDate()) {
-						return 0; // no  comparison possible
-					}
-					else {
-						if( o1.getModificationDate().getTime() < o2.getModificationDate()
-								.getTime() ) {
-							return -1;
-						}
-						if( o1.getModificationDate().getTime() > o2.getModificationDate()
-								.getTime() ) {
-							return 1;
-						}
-						return 0;
-					}
-				} else { 
-					// compare creation date
-					if( o1.getCreationDate().getTime() < o2.getCreationDate()
-							.getTime() ) {
-						return -1;
-					}
-					if( o1.getCreationDate().getTime() > o2.getCreationDate()
-							.getTime() ) {
-						return 1;
-					}
-					return 0; // o1 == o2
-				}
-			}
-		};
+		Comparator< AUserContribution > dateComparator = new DateComparator();
+		
 		this.boardThreads.add( boardThread );
 		// sort ascending
 		Collections.sort( this.boardThreads, dateComparator );
