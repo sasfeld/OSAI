@@ -29,7 +29,7 @@ public class NameCorpusStrategy extends AAnomyzationStrategy{
 	public String anonymizeText( String inputText, Board belongingBoard )
 			throws GeneralLoggingException {
 		// use board specific name corpus here 
-		PersonNameCorpus nameCorpus = belongingBoard.getPersonNameCorpus();
+		PersonNameCorpus nameCorpus = belongingBoard.getBelongingCourse().getPersonNameCorpus();
 		String anonymized = this.anonymizeNames(inputText, nameCorpus);
 		return anonymized;
 	}

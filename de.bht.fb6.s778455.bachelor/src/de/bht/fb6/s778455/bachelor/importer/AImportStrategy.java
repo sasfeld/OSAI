@@ -7,8 +7,8 @@ package de.bht.fb6.s778455.bachelor.importer;
 import java.io.File;
 import java.io.InputStream;
 import java.util.Map;
+import java.util.Set;
 
-import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus.PersonNameType;
@@ -25,21 +25,21 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 public abstract class AImportStrategy {
 	
 	/**
-	 * <p>Import raw data from an {@link InputStream} and construct a {@link Map} with {@link Course} instances as keys and {@link Board} instances as values.</p>
+	 * <p>Import raw data from a {@link File} and construct a {@link Set} with {@link Course} instances.</p>
 	 * <p>This will grant a fast access to a learning course's (e.g. a "Moodle course") board.
 	 * @param inputStream any {@link InputStream} (e.g.: from an HTTP resource, a file resource,...)
 	 * @return a {@link Map} of key value pairs.
 	 */
-	abstract public Map<String, Board> importBoardFromStream(InputStream inputStream);
+	abstract public Set< Course > importBoardFromStream(InputStream inputStream);
 	
 	/**
-	 * <p>Import raw data from a {@link File} and construct a {@link Map} with {@link Course} instances as keys and {@link Board} instances as values.</p>
+	 * <p>Import raw data from a {@link File} and construct a {@link Set} with {@link Course} instances.</p>
 	 * <p>This will grant a fast access to a learning course's (e.g. a "Moodle course") board.
 	 * @param input File any {@link File} 
 	 * @return a {@link Map} of key value pairs.
 	 * @throws GeneralLoggingException 
 	 */
-	abstract public Map<String, Board> importBoardFromFile(File inputFile) throws GeneralLoggingException;
+	abstract public Set< Course > importBoardFromFile(File inputFile) throws GeneralLoggingException;
 	
 	/**
 	 * <p>Fill a given {@link PersonNameCorpus} by names contained in a given {@link File}.</p>

@@ -4,9 +4,9 @@
 package de.bht.fb6.s778455.bachelor.exporter;
 
 import java.io.File;
-import java.util.Map;
+import java.util.Set;
 
-import de.bht.fb6.s778455.bachelor.model.Board;
+import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 
 /**
@@ -20,10 +20,10 @@ public abstract class AExportStrategy {
 
 	/**
 	 * Export the given map of courses and boards to a {@link File} instance.
-	 * @param courseMap
+	 * @param anonymizedCourses
 	 * @param outputFile
 	 * @return true on success
 	 * @throws GeneralLoggingException 
 	 */
-	public abstract boolean exportToFile(Map< String, Board > courseMap, File outputFile) throws GeneralLoggingException;
+	public abstract boolean exportToFile(Set< Course > anonymizedCourses, File outputFile) throws GeneralLoggingException;
 }

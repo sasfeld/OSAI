@@ -21,6 +21,7 @@ public class Course {
 	protected int id;
 	protected User docent;
 	protected List< Board > boards;
+	protected PersonNameCorpus personNameCorpus;
 	
 	/**
 	 * Create a course for which only a title is given.
@@ -30,6 +31,26 @@ public class Course {
 		this.setTitle( courseTitle );
 		
 		this.boards = new ArrayList<Board>();
+		
+		this.personNameCorpus = new PersonNameCorpus();
+	}
+	
+	/**
+	 * @return the personNameCorpus
+	 */
+	public PersonNameCorpus getPersonNameCorpus() {
+		return personNameCorpus;
+	}
+	
+	/**
+	 * Set a completely new {@link PersonNameCorpus} instance.
+	 * @param personNameCorpus the personNameCorpus to set
+	 */
+	public void setPersonNameCorpus( PersonNameCorpus personNameCorpus ) {
+		if (null == personNameCorpus) {
+			throw new IllegalArgumentException( getClass() + "setPersonNameCorpus(): null value is not allowed for personnameCorpus" );
+		}
+		this.personNameCorpus = personNameCorpus;
 	}
 	
 	/**

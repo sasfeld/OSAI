@@ -7,7 +7,7 @@ package de.bht.fb6.s778455.bachelor.anonymization.controller;
 import java.io.File;
 import java.util.Date;
 import java.util.List;
-import java.util.Map;
+import java.util.Set;
 
 import de.bht.fb6.s778455.bachelor.anonymization.Anonymizer;
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
@@ -17,6 +17,7 @@ import de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader;
 import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
+import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
@@ -67,10 +68,9 @@ public class AnonymizationController {
 	 * @throws GeneralLoggingException
 	 *             if the import strategy raised any error
 	 */
-	public Map< String, Board > performAnonymization()
-			throws GeneralLoggingException {
+	public Set< Course > performAnonymization() throws GeneralLoggingException {
 		// perform import first
-		Map< String, Board > courses = this.importStrategy
+		Set< Course > courses = this.importStrategy
 				.importBoardFromFile( this.configuredDataFile );
 
 		// chaining: create new anonymizer instance
@@ -104,7 +104,7 @@ public class AnonymizationController {
 						Anonymizer anonymizer = new Anonymizer( strategy );
 
 						// anonymize boards using the ANerAnonymizationStrategy
-						this._anonymizeBoards( anonymizer, courses );
+						this._anonymizeCourseBoards( anonymizer, courses );
 					}
 				} else { // cascades is a list of properties' keys
 					for( String corpusKey : corpora ) {
@@ -116,17 +116,18 @@ public class AnonymizationController {
 						Anonymizer anonymizer = new Anonymizer( strategy );
 
 						// anonymize boards using the ANerAnonymizationStrategy
-						this._anonymizeBoards( anonymizer, courses );
+						this._anonymizeCourseBoards( anonymizer, courses );
 					}
 				}
 
 			} else {
-				AAnomyzationStrategy strategy = this.anonymConfigReader.getConfiguredClass( chainingKey );
-				
+				AAnomyzationStrategy strategy = this.anonymConfigReader
+						.getConfiguredClass( chainingKey );
+
 				Anonymizer anonymizer = new Anonymizer( strategy );
 
 				// anonymize boards using the ANerAnonymizationStrategy
-				this._anonymizeBoards( anonymizer, courses );
+				this._anonymizeCourseBoards( anonymizer, courses );
 			}
 		}
 
@@ -138,11 +139,12 @@ public class AnonymizationController {
 	 * 
 	 * @param courses
 	 */
-	protected void _anonymizeBoards( Anonymizer anonymizer,
-			Map< String, Board > courses ) {
-		for( String course : courses.keySet() ) {
-			Board courseBoard = courses.get( course );
-			anonymizer.anonymizeBoard( courseBoard );
+	protected void _anonymizeCourseBoards( Anonymizer anonymizer,
+			Set< Course > courses ) {
+		for( Course course : courses ) {
+			for( Board courseBoard : course.getBoards() ) {
+				anonymizer.anonymizeBoard( courseBoard );
+			}
 		}
 	}
 
@@ -154,9 +156,9 @@ public class AnonymizationController {
 	 */
 	public void performAnonymizationAnalysis() throws GeneralLoggingException {
 		long startTime = new Date().getTime();
-		Map< String, Board > anonymizedCourses = this.performAnonymization();
+		Set< Course > anonymizedCourses = this.performAnonymization();
 		long elapsedTime = new Date().getTime() - startTime;
-		
+
 		this.exportStrategy
 				.exportToFile(
 						anonymizedCourses,
@@ -175,16 +177,18 @@ public class AnonymizationController {
 		System.out.println( "Number of courses: " + anonymizedCourses.size() );
 		int numberThreads = 0;
 		int numberPostings = 0;
-		for( Board board : anonymizedCourses.values() ) {
-			numberThreads += board.getBoardThreads().size();
+		for( Course course : anonymizedCourses ) {
+			for( Board board : course.getBoards() ) {
+				numberThreads += board.getBoardThreads().size();
 
-			for( BoardThread boardThread : board.getBoardThreads() ) {
-				numberPostings += boardThread.getPostings().size();
+				for( BoardThread boardThread : board.getBoardThreads() ) {
+					numberPostings += boardThread.getPostings().size();
+				}
 			}
 		}
 		System.out.println( "Number of threads: " + numberThreads );
 		System.out.println( "Number of postings: " + numberPostings );
-		System.out.println( "Elapsed time(s): " + elapsedTime / 1000);
+		System.out.println( "Elapsed time(s): " + elapsedTime / 1000 );
 	}
 
 	public static void main( String[] args ) throws GeneralLoggingException {

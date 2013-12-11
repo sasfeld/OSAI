@@ -9,11 +9,10 @@ import java.io.FileReader;
 import java.io.FilenameFilter;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Arrays;
 import java.util.Date;
-import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -23,8 +22,8 @@ import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
-import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus.PersonNameType;
+import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 import de.bht.fb6.s778455.bachelor.organization.FileUtil;
@@ -39,8 +38,10 @@ import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
  * The structure of the file (a directory) must follow this structure:
  * 
  * <ul>
- * <li>COURSE/BOARD - DIRECTORY</li>
+ * <li>COURSE - DIRECTORY</li>
  * <li>
+ * <ul>
+ * <li>BOARD - DIRECTORY</li>
  * <ul>
  * <li>THREAD - DIRECTORY</li>
  * <li>
@@ -48,7 +49,8 @@ import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
  * <li>posting1.txt</li></li>posting2.txt</li>
  * </li>
  * </ul>
- * </li> </ul>
+ * </li> </ul> </ul> </li> </ul>>
+ * 
  * 
  * </p>
  * 
@@ -98,7 +100,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	 * de.bht.fb6.s778455.bachelor.importer.AImportStrategy#importFromStream
 	 * (java.io.InputStream)
 	 */
-	public Map< String, Board > importBoardFromStream( InputStream inputStream ) {
+	public Set< Course > importBoardFromStream( InputStream inputStream ) {
 		// not supported
 		throw new UnsupportedOperationException(
 				"DirectoyImportStrategy:importFromStream() isn't supported." );
@@ -112,7 +114,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	 * de.bht.fb6.s778455.bachelor.importer.AImportStrategy#importFromFile(java
 	 * .io.File)
 	 */
-	public Map< String, Board > importBoardFromFile( File inputFile )
+	public Set< Course > importBoardFromFile( File inputFile )
 			throws GeneralLoggingException {
 		// fully qualified name of this class + method to be printed in a log
 		String fullyQualified = getClass() + ":importFromFile";
@@ -134,7 +136,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 
 		}
 
-		Map< String, Board > courseBoardMap = new HashMap< String, Board >();
+		Set< Course > courseSet = new HashSet<Course>();
 
 		// iterate through children directorys - a dir represents a course/board
 		for( File childDir : inputFile.listFiles() ) {
@@ -150,55 +152,53 @@ public class DirectoryImportStrategy extends AImportStrategy {
 
 			String courseName = childDir.getName();
 			Course course = new Course( courseName );
-			this.fillBoard( course, childDir, courseBoardMap );
+			this.fillBoards( course, childDir);
 
 			// add board to resulting map
-			courseBoardMap.put( course.getTitle(), course.getBoard() );
+			courseSet.add( course );
 		}
 
-		return courseBoardMap;
+		return courseSet;
 	}
 
 	/**
-	 * Fill the board for a given {@link Course}.
+	 * Fill all boards for the given {@link Course}.
 	 * 
 	 * @param course
-	 * @param courseDir
-	 *            must consist of directories which represent a thread.
+	 * @param childDir
 	 * @param courseBoardMap
 	 */
-	private void fillBoard( Course course, File courseDir,
-			Map< String, Board > courseBoardMap ) {
+	private void fillBoards( Course course, File courseDir) {
 		// fully qualified name of this class + method to be printed in a log
-		String fullyQualified = getClass() + ":fillBoard";
-		Board courseBoard = course.getBoard();
+		String fullyQualified = getClass() + ":fillBoards";
 
-		List< File > threadDirs = Arrays.asList( courseDir.listFiles() );
+		// bare course board list to be filled
+		List< Board > courseBoards = course.getBoards();
 
 		boolean specificCorpusIncluded = false;
-		for( File threadDir : threadDirs ) {
+		for( File boardDir : courseDir.listFiles() ) {
 			// check if dir is a person corpus dir
-			if( threadDir.getName().equals( PERSON_CORPUS_DIR ) ) {
+			if( boardDir.getName().equals( PERSON_CORPUS_DIR ) ) {
 				if( this.boardSpecificImport.equals( "true" )
 						|| this.boardSpecificImport.equals( "fallback" ) ) {
 					try {
 						PersonNameCorpus bareCorpus = new PersonNameCorpus();
-						File prenameFile = new File( threadDir,
+						File prenameFile = new File( boardDir,
 								PERSON_CORPUS_PRENAME_FILE );
 						this.fillFromFile( prenameFile, bareCorpus,
 								PersonNameType.PRENAME );
-						File lastnameFile = new File( threadDir,
+						File lastnameFile = new File( boardDir,
 								PERSON_CORPUS_LASTNAME_FILE );
 						this.fillFromFile( lastnameFile, bareCorpus,
 								PersonNameType.LASTNAME );
 						// set specific corpus instance
-						courseBoard.setPersonNameCorpus( bareCorpus );
+						course.setPersonNameCorpus( bareCorpus );
 						specificCorpusIncluded = true;
 					} catch( GeneralLoggingException e ) {
 						// log was written, just continue
 					}
 				}
-			} else if( !threadDir.isDirectory() ) { // append error log
+			} else if( !courseDir.isDirectory() ) { // append error log
 				Application
 						.log( fullyQualified
 								+ ": the given subfolder of "
@@ -207,24 +207,49 @@ public class DirectoryImportStrategy extends AImportStrategy {
 								LogType.ERROR );
 				continue;
 			} else {
-				BoardThread boardThread = new BoardThread();
-				String threadName = threadDir.getName();
-				boardThread.setTitle( threadName );
-				this.fillThread( boardThread, threadDir );
+				// create new Board instance
+				Board newBoard = new Board( course );
+				newBoard.setTitle( boardDir.getName() );
 
-				courseBoard.addThread( boardThread );
+				this.fillBoard( newBoard, boardDir );
+
+				courseBoards.add( newBoard );
 			}
 		}
 
-		// board specific corpus was not found
+		// course specific corpus was not found
 		if( !specificCorpusIncluded
 				&& this.boardSpecificImport.equals( "fallback" ) ) {
 			Application.log( getClass()
 					+ ":fillBoard: fallback to global person corpus.",
 					LogType.INFO );
 			// set singleton corpus
-			courseBoard.setPersonNameCorpus( ServiceFactory
+			course.setPersonNameCorpus( ServiceFactory
 					.getPersonNameCorpusSingleton() );
+		}
+	}
+
+	private void fillBoard( Board newBoard, File boardDir ) {
+		// fully qualified name of this class + method to be printed in a log
+		String fullyQualified = getClass() + ":fillBoard";
+
+		for( File threadDir : boardDir.listFiles() ) {
+			if( !threadDir.isDirectory() ) { // append error log
+				Application
+						.log( fullyQualified
+								+ ": the given subfolder of "
+								+ threadDir
+								+ " is not a directory. Read the docs so you learn about the correct structure.",
+								LogType.ERROR );
+				continue;
+			}
+			// create new thread
+			BoardThread boardThread = new BoardThread();
+			String threadName = threadDir.getName();
+			boardThread.setTitle( threadName );
+			this.fillThread( boardThread, threadDir );
+
+			newBoard.addThread( boardThread );
 		}
 	}
 
