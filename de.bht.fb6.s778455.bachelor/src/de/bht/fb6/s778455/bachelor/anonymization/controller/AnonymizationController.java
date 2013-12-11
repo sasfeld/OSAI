@@ -5,6 +5,7 @@
 package de.bht.fb6.s778455.bachelor.anonymization.controller;
 
 import java.io.File;
+import java.util.Collection;
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
@@ -68,9 +69,9 @@ public class AnonymizationController {
 	 * @throws GeneralLoggingException
 	 *             if the import strategy raised any error
 	 */
-	public Set< Course > performAnonymization() throws GeneralLoggingException {
+	public Collection< Course > performAnonymization() throws GeneralLoggingException {
 		// perform import first
-		Set< Course > courses = this.importStrategy
+		Collection< Course > courses = this.importStrategy
 				.importBoardFromFile( this.configuredDataFile );
 
 		// chaining: create new anonymizer instance
@@ -140,7 +141,7 @@ public class AnonymizationController {
 	 * @param courses
 	 */
 	protected void _anonymizeCourseBoards( Anonymizer anonymizer,
-			Set< Course > courses ) {
+			Collection< Course > courses ) {
 		for( Course course : courses ) {
 			for( Board courseBoard : course.getBoards() ) {
 				anonymizer.anonymizeBoard( courseBoard );
@@ -156,7 +157,7 @@ public class AnonymizationController {
 	 */
 	public void performAnonymizationAnalysis() throws GeneralLoggingException {
 		long startTime = new Date().getTime();
-		Set< Course > anonymizedCourses = this.performAnonymization();
+		Collection< Course > anonymizedCourses = this.performAnonymization();
 		long elapsedTime = new Date().getTime() - startTime;
 
 		this.exportStrategy

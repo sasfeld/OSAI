@@ -42,6 +42,7 @@ public class Course {
 	protected int id;
 	protected String shortName;
 	protected String summary;
+	protected String lang;
 	protected Date creationDate;
 	protected Date modificationDate;
 	protected User docent;	
@@ -76,6 +77,20 @@ public class Course {
 			throw new IllegalArgumentException( getClass() + "setPersonNameCorpus(): null value is not allowed for personnameCorpus" );
 		}
 		this.personNameCorpus = personNameCorpus;
+	}
+	
+	/**
+	 * @return the lang
+	 */
+	public String getLang() {
+		return lang;
+	}
+
+	/**
+	 * @param lang the lang to set
+	 */
+	public void setLang( String lang ) {
+		this.lang = lang;
 	}
 	
 	/**

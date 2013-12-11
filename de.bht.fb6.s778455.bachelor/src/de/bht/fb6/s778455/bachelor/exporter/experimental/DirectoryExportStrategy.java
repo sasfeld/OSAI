@@ -7,6 +7,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Collection;
 import java.util.List;
 import java.util.Set;
 
@@ -40,7 +41,7 @@ public class DirectoryExportStrategy extends AExportStrategy {
 	 * de.bht.fb6.s778455.bachelor.exporter.AExportStrategy#exportToFile(java
 	 * .util.Map, java.io.File)
 	 */
-	public boolean exportToFile( Set< Course > anonymizedCourses,
+	public boolean exportToFile( Collection< Course > anonymizedCourses,
 			File outputFile ) throws GeneralLoggingException {
 		if( !outputFile.exists() ) {
 			throw new GeneralLoggingException(

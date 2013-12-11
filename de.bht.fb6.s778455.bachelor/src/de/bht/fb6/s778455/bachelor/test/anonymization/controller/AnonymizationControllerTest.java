@@ -5,6 +5,7 @@ package de.bht.fb6.s778455.bachelor.test.anonymization.controller;
 
 import static org.junit.Assert.assertTrue;
 
+import java.util.Collection;
 import java.util.Set;
 
 import org.junit.After;
@@ -60,7 +61,7 @@ public class AnonymizationControllerTest {
 	 * @throws GeneralLoggingException
 	 */
 	public void testPerformAnonymization() throws GeneralLoggingException {
-		Set< Course > anonymizedCourses = this.anonymizationController
+		Collection< Course > anonymizedCourses = this.anonymizationController
 				.performAnonymization();
 		assertTrue( null != anonymizedCourses );
 

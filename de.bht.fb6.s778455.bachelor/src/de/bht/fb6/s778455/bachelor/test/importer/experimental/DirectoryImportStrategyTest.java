@@ -7,6 +7,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import java.io.File;
+import java.util.Collection;
 import java.util.List;
 import java.util.Set;
 
@@ -70,7 +71,7 @@ public class DirectoryImportStrategyTest {
 		File testDir = new File( ServiceFactory.getConfigReader().fetchValue(
 				IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_TESTFOLDER ) );
 
-		Set< Course > resultingSet = this.importStrategy
+		Collection< Course > resultingSet = this.importStrategy
 				.importBoardFromFile( testDir );
 
 		assertTrue( null != resultingSet );
