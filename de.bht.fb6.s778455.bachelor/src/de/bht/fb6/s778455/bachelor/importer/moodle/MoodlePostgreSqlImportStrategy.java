@@ -9,7 +9,6 @@ import java.io.InputStream;
 import java.util.Collection;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -20,6 +19,7 @@ import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus.PersonNameType;
+import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
@@ -117,8 +117,136 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 		Map< Integer, Board > boards = this.importBoards( inputFile, courses );
 		Map< Integer, BoardThread > threads = this.importBoardThreads(
 				inputFile, boards );
+		this.importPostings( inputFile, threads );
 
 		return courses.values();
+	}
+
+	/**
+	 * Import the {@link Posting} entities for the previously fetched
+	 * {@link BoardThread} instances.
+	 * 
+	 * @param inputFile
+	 * @param threads
+	 * @throws GeneralLoggingException
+	 */
+	private void importPostings( File inputFile,
+			Map< Integer, BoardThread > threads )
+			throws GeneralLoggingException {
+
+		final File postingsDump = new File( inputFile, NAME_POSTINGS_FILE );
+
+		// check if thread dump exists
+		if( !postingsDump.exists() || !postingsDump.isFile() ) {
+			throw new GeneralLoggingException( getClass()
+					+ "importPostings(): the given inputFile " + postingsDump
+					+ " is not valid! Either it doesn't exist or is no file.",
+					"Internal error in the moodle postgre SQL import. Please see the logs" );
+		}
+
+		// parse board table and its entities
+		PostgreSqlDumpParser postingsParser = new PostgreSqlDumpParser(
+				postingsDump );
+		// map of column => value
+		List< Map< String, String > > resultingEntities = postingsParser
+				.fetchEntities( "mdl_forum_discussions", "id", "discussion",
+						"parent", "created", "modified", "subject", "message" );
+
+		// map entities
+		this.mapPostings( threads, resultingEntities );
+	}
+
+	/**
+	 * Map the fetched entities to {@link Posting} instances
+	 * 
+	 * @param threads
+	 * @param resultingEntities
+	 */
+	private void mapPostings( Map< Integer, BoardThread > threads,
+			List< Map< String, String >> resultingEntities ) {
+		for( Map< String, String > entity : resultingEntities ) {
+			int postingId = 0;
+			int threadId = 0;
+			try {
+				postingId = Integer.parseInt( entity.get( "id" ) );
+				threadId = Integer.parseInt( entity.get( "discussion" ) );
+			} catch( NumberFormatException e ) {
+				// handled below
+			}
+
+			// log if the thread is not associated to a board or doesn't have an
+			// id
+			if( 0 == postingId || 0 == threadId ) {
+				Application
+						.log( getClass()
+								+ "mapPostings: the posting entity doesn't have an id or thread id. Given dump file: "
+								+ NAME_POSTINGS_FILE, LogType.ERROR );
+			} else { // otherwise, get belonging thread instance and fill
+				BoardThread thread = threads.get( threadId );
+				if ( null == thread ) {
+					Application
+					.log( getClass()
+							+ "mapBoardThreads: the BoardThread instance to the given posting doesn't exist. Is the dump corrupted or aren't the dumps asynchronous?"
+							+ NAME_POSTINGS_FILE, LogType.ERROR );
+				}
+				else {
+					Posting newPosting = new Posting(thread);
+					thread.addPosting( newPosting );
+					
+					// parent posting id
+					try {
+						int parentPostingId = Integer.parseInt( entity.get( "parent" ) );
+						newPosting.setParentPostingId(parentPostingId);
+					} catch (NumberFormatException e) {
+						Application.log( getClass() + "mapPostings: " + e,
+								LogType.ERROR );
+					}
+					
+					// title
+					String title = entity.get( "subject" );
+					if ( null != title ) {
+						newPosting.setTitle( title );
+					}
+					
+					// message
+					String message = entity.get( "message" );
+					if ( null != message) {
+						newPosting.setContent( message );
+					}
+					else {
+						Application.log( getClass() + ":mapPostings(): Posting with empty content created! Posting: " + newPosting,
+								LogType.ERROR );
+					}
+					
+
+					// creation date
+					try {
+						long creationTime = Long.parseLong( entity
+								.get( "created" ) );
+						if( 0 != creationTime ) {
+							newPosting.setCreationDate( new Date(
+									creationTime ) );
+						}
+					} catch( NumberFormatException e ) {
+						Application.log( getClass() + ":mapPostings(): " + e,
+								LogType.ERROR );
+					}
+					
+					// modification date
+					try {
+						long modifcationTime = Long.parseLong( entity
+								.get( "modified" ) );
+						if( 0 != modifcationTime ) {
+							newPosting.setModificationDate( new Date(
+									modifcationTime ) );
+						}
+					} catch( NumberFormatException e ) {
+						Application.log( getClass() + ":mapPostings(): " + e,
+								LogType.ERROR );
+					}
+				}
+			}
+		}
 	}
 
 	/**
@@ -200,10 +328,10 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 					// "timestart", "timeend"
 					BoardThread newThread = new BoardThread( belongingBoard );
 					newThread.setId( threadId );
-					
+
 					// add to belonging board
 					belongingBoard.addThread( newThread );
-					
+
 					// add to id - board thread map for internal use
 					returnBoardThreads.put( threadId, newThread );
 
@@ -236,27 +364,24 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 						Application.log( getClass() + "mapBoardThreads: " + e,
 								LogType.ERROR );
 					}
-					
+
 					// time start date
 					try {
 						long startTime = Long.parseLong( entity
 								.get( "timestart" ) );
 						if( 0 != startTime ) {
-							newThread.setCreationDate( new Date(
-									startTime ) );
+							newThread.setCreationDate( new Date( startTime ) );
 						}
 					} catch( NumberFormatException e ) {
 						Application.log( getClass() + "mapBoardThreads: " + e,
 								LogType.ERROR );
 					}
-					
+
 					// time end date
 					try {
-						long endTime = Long.parseLong( entity
-								.get( "timeend" ) );
+						long endTime = Long.parseLong( entity.get( "timeend" ) );
 						if( 0 != endTime ) {
-							newThread.setEndDate( new Date(
-									endTime ) );
+							newThread.setEndDate( new Date( endTime ) );
 						}
 					} catch( NumberFormatException e ) {
 						Application.log( getClass() + "mapBoardThreads: " + e,
@@ -342,7 +467,7 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 				} else {
 					Board newBoard = new Board( course );
 					newBoard.setId( boardId );
-					
+
 					course.addBoard( newBoard );
 					returnBoards.put( boardId, newBoard );
 

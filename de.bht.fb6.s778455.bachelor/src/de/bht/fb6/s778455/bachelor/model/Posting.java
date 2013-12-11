@@ -22,6 +22,44 @@ public class Posting extends AUserContribution {
 	 * Tagged content (by NER).
 	 */
 	protected String taggedContent;
+	protected int parentPostingId;
+	protected BoardThread belongingThread;
+
+	/**
+	 * Create a Posting with a link to the belonging thread {@link Thread}
+	 * @param thread
+	 */
+	public Posting( BoardThread thread ) {
+		this.belongingThread = thread;
+	}
+
+	/**
+	 * Create a bare posting.
+	 */
+	public Posting() {
+		this.belongingThread = null;
+	}
+	
+	/**
+	 * @return the belongingThread
+	 */
+	public BoardThread getBelongingThread() {
+		return belongingThread;
+	}
+
+	/**
+	 * @return the parentPostingId
+	 */
+	public int getParentPostingId() {
+		return parentPostingId;
+	}
+
+	/**
+	 * @param parentPostingId the parentPostingId to set
+	 */
+	public void setParentPostingId( int parentPostingId ) {
+		this.parentPostingId = parentPostingId;
+	}
 
 	/**
 	 * @return the untagged content.
