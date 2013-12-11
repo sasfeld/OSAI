@@ -58,7 +58,7 @@ public class NameCorpusStrategyTest {
 	@Test
 	public void testAnonymizeText() throws GeneralLoggingException {
 		Board testBoard = new Board( new Course( "unit test course" ));
-		testBoard.setPersonNameCorpus( personNameCorpus );
+		testBoard.getBelongingCourse().setPersonNameCorpus( personNameCorpus );
 		
 		System.out.println(this.personNameCorpus);
 		

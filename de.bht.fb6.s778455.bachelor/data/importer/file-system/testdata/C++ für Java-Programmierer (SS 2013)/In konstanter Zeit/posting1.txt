@@ -1,7 +1,0 @@
-CREATION_DATETIME: 1366762379
-CONTENT: 
-Hey,
-
-bei rncTotalCount, rncSum fällt mir nichts ein wie man das ohne Schleife machen kann.
-
-Christian

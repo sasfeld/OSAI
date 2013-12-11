@@ -1,3 +1,0 @@
-CREATION_DATETIME: 1384719941
-CONTENT: 
-Bitte achtet auf eure jre - Versionen! Ich hatte, vermutlich, genau dieses Problem aufgrund unterschiedlicher Versionen auf Laptop/Desktop - PC. Nachdem ich jre1.7 auf meinem Laptop installiert und mein Projekt dementsprechen angepasst hatte, generierte er wieder den Code. Vorher hatte er mir, egal in welchem Projekt, keinen code mehr erzeugt. Nach dem Wechsel meines Workspaces ( Tipp von Frau Schmiedecke ) funktionierte zumindest das Generieren für neu erzeugte Projekte. Das vorhandene Modell lief letztendlich jedoch erst mit dem Update der Runtime Umgebung und gegebenen Anpassungen - Aufschluss darüber gab mir die "Problem-Konsole" mit entsprechenden Warnings. 

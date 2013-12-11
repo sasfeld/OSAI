@@ -1,5 +1,0 @@
-CREATION_DATETIME: 1366888259
-CONTENT: 
-Normalisiere die RationalNumbers doch erst bevor du mit ihnen arbeitest,
-
-dann kann eigentlich nichts passieren.

@@ -1,3 +1,0 @@
-CREATION_DATETIME: 1369951139
-CONTENT: 
-Das Fehlen der Template-Parameter hat keinerlei Einfluﬂ auf den Fehler, der Compiler scheint sie nicht zu vermissen, warum auch immer...

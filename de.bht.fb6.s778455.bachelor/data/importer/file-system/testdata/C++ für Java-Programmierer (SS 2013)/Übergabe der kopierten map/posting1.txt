@@ -1,9 +1,0 @@
-CREATION_DATETIME: 1369760219
-CONTENT: 
-Hallo,
-
-habe den "="-Operator überschrieben. In dieser Methode rufe ich die clone()-Methode auf, in der ich die neue Map fülle. Die in clone() eingebauten Ausgaben sprechen dafür, das tatsächlich kopiert wird. Wenn ich das mit dem copy-Konstruktor richtig verstanden habe, dann habe ich dessen Funktionalität in clone() umgesetzt.
-
-Will ich nun in main den Inhalt der neuen Map (map2[date1]) ausgeben lassen, so bekomme ich keine Ausgabe. 
-
-Wo liegt mein Denkfehler? I

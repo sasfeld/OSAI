@@ -1,6 +1,0 @@
-CREATION_DATETIME: 1366585859
-CONTENT: 
-Das ist ein Ding. Bei der Ausgabe, 3 Zeile:
-
-"first Member 3" geht verloren, wenn die auskommentierten Zeilen drin sind. (entweder die zwei oberen oder die untere Zeile, egal).
-

@@ -1,9 +1,0 @@
-CREATION_DATETIME: 1370259419
-CONTENT: 
-Hallo, 
-
-typename muss man verwenden, wo ein geschachtelter Typ verwendet wird, also insbesondere Map<>::Node oder Map<>::value_t oder so etwas. Nicht aber bei Methodennamen. D.h. Sie müssten typename vor den *Typen des Rückgabewerts* schreiben, nicht aber vor den Methodennamen. 
-
-Geht es dann? 
-
-Gruß HS

@@ -1,8 +1,0 @@
-CREATION_DATETIME: 1370273159
-CONTENT: 
-ja, so geht es:
-
-template<classKeyT,classT>
-typenameMap<KeyT,T>::mapped_t&Map<KeyT,T>::operator[](constkey_t&key){
- 
-Allerdings stürzt in etwa 50% aller Ausführungen das Programm nach seiner komplett erfolgreichen Ausführung ab.

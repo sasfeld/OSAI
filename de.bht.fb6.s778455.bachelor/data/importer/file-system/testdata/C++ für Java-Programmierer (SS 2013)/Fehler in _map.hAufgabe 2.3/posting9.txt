@@ -1,7 +1,0 @@
-CREATION_DATETIME: 1369951559
-CONTENT: 
-Mir ist gerade noch etwas merkwürdiges aufgefallen:
-
-wenn ich das Projekt mehrmals hintereinande kompiliere, werden manchmal bestimmte Fehler nicht angezeigt, also eine unterschiedliche Anzahl von Fehlern! So z.B. erkennt er manchmal Fehler in Zeile 117, 125 und 141 und manchmal nicht (sondern nur die in Zeile 9, 39, 63 und 81, diese werden immer angezeigt)
-
-Wieso denn das?

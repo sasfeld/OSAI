@@ -1,5 +1,0 @@
-CREATION_DATETIME: 1366896419
-CONTENT: 
-Ich bin gerade an der Aufgabe 1.3 dran und überlege mir, wo ich die dynamische Grösse des Arrays speichern soll. Bisher hatte ich ein eigenes Strukt mit RationalNumber und Anzahl/Vorkommen dieser Zahl, welches ich in einem anderen Strukt statisch als Array bestimmt habe.
-
-Wie/wo übergebe ich den dynamischen Wert? Gemäß Aufgabe soll in der Funktion rncCreate die Größe als Parameter übergeben werden, aber wie initialsiere ich da die Größe (Weitergabe an rncInit?)

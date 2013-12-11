@@ -1,5 +1,0 @@
-CREATION_DATETIME: 1369950899
-CONTENT: 
-_map.h wird in der anderen Header-Datei (siehe unten) included.
-
-Diese Headerdatei wird als einzige in meiner main.cpp included.

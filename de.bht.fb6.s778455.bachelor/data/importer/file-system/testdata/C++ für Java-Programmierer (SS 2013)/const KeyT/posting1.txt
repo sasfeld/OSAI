@@ -1,7 +1,0 @@
-CREATION_DATETIME: 1370735099
-CONTENT: 
-im Header sieht es so aus:
-
-typename Map<constKeyT,T>::value_t& operator*();
-
-typename Map<constKeyT,T>::value_t* operator->();

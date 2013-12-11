@@ -1,5 +1,0 @@
-CREATION_DATETIME: 1366888259
-CONTENT: 
-Ich denke mal, das habe ich zwar nicht genau spezifiziert, aber faktisch entscheidet die Implementierung der Klasse RationalNumber darüber. Wenn zwei Brüche gleich sind (rnEqual()), dann sollen sie auch nur ein Element in dem RationalNumberContainer belegen. Ich sehe nicht, warum Sie sich darüber in der RNC überhaupt Gedanken machen sollten - oder übersehe ich da etwas?
-
-Gruß HS 

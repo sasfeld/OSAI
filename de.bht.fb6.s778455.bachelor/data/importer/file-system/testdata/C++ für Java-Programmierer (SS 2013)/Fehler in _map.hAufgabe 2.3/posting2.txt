@@ -1,5 +1,0 @@
-CREATION_DATETIME: 1369950479
-CONTENT: 
-Ich würde auf ein Reihenfolgenproblem tippen. Wird die Klasse zuerst vollständig definiert, bevor das _....h included wird? Ist das include zyklisch? Fehlt ein Namespace?
-
-Sonst bitte auch mal das Headerfile zeigen... Gruß HS

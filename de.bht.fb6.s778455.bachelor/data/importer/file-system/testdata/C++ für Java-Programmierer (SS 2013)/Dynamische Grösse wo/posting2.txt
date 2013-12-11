@@ -1,3 +1,0 @@
-CREATION_DATETIME: 1366912799
-CONTENT: 
-Müsste ich malloc nicht zweimal aufrufen (jeweils für ein struct)?

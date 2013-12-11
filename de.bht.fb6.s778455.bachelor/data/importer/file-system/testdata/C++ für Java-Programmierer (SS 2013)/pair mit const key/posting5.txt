@@ -1,7 +1,0 @@
-CREATION_DATETIME: 1369855559
-CONTENT: 
-Ich denke mal nur der key ist const, nicht das ganze pair. Aber somit darf man den key nur einmal schreiben, danach nicht mehr, und das auch nur in der Initialisierungsliste. D.h. wenn ein Node einmal einen key bekommen hat, kann der nicht mehr ge‰ndert werden (also dann muss man auch einen neuen Node machen).
-
-Oder, Martin?
-
-Gruﬂ HS

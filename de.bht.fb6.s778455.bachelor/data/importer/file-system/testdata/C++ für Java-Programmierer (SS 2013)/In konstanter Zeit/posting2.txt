@@ -1,7 +1,0 @@
-CREATION_DATETIME: 1366784639
-CONTENT: 
-Lösung steht eig in der Aufgabe. 
-
- 
-
-Du musst die sum bereits in der add berechnen und dir in deinem struct merken. 

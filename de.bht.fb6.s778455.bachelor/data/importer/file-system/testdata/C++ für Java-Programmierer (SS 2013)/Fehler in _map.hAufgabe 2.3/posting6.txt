@@ -1,3 +1,0 @@
-CREATION_DATETIME: 1369952879
-CONTENT: 
-Naja das ist doch genau was ich beschrieben habe. Das #include ist zu früh! Reihenfolge! Sie müssen doch erst die Klassendefinition schreiben - dann erst ist der Typ Map<> bekannt. Und danach kann der Inhalt der _map.h kommen. Viel Erfolg HS

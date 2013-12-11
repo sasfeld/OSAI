@@ -1,5 +1,0 @@
-CREATION_DATETIME: 1366896179
-CONTENT: 
-Wenn ich in rncAdd eine RationalNumber der Sammlung hinzufüge, ist diese noch nicht normalisiert, z.B. 9/4, dasselbe gilt für rncRemove.
-
-Ich habe das jetzt so gemacht, dass ich alles normalisiere, bevor es gespeichert bzw. entfernt wird.

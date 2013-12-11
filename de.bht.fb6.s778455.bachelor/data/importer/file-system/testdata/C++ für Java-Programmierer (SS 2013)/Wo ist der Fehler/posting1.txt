@@ -1,5 +1,0 @@
-CREATION_DATETIME: 1370264459
-CONTENT: 
-Wenn ich weiter Hinten im Kopf auch typename verwende passiert nichts.
-
-Die anderen Fehlermeldungen gehen weg, wenn ich typename vor den Methodenkopf schreibe, was aber falsch ist, wie sie sagten.

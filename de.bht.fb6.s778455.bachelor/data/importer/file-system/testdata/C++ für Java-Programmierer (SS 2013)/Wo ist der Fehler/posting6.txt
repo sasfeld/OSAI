@@ -1,7 +1,0 @@
-CREATION_DATETIME: 1370291819
-CONTENT: 
-Wieso machen Sie denn ein delete auf die beiden Elemente des pairs? Sie haben doch auch bestimmt nie ein new dafür geschrieben, oder? 
-
-Unf für m_left und m_right empfiehlt sich noch ein vorheriger Test auf 0.
-
-Gruß HS

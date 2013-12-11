@@ -1,7 +1,0 @@
-CREATION_DATETIME: 1368348239
-CONTENT: 
-Kommentieren Sie mal den Operator Months::operator unsigned int() aus, und schauen Sie, ob der Fehler immer noch auftritt. Der Compiler kann wegen der impliziten Konvertierung nicht entscheiden, was er nehmen soll.
-
-Warum gibt es denn den Opertor Months::operator+() überhaupt?  Da man die Monate automatisch in int umwandeln kann und für int alle Operatoren bereits definiert sind, ist das eigentlich überflüssig bzw. führt eben zu diesen Uneindeutigkeien. 
-
-Gruß Hartmut Schirmacher

@@ -1,7 +1,0 @@
-CREATION_DATETIME: 1369250039
-CONTENT: 
-Das liegt daran, dass Sie in einer const-Methode (contains) eine non-const Methode (find) aufrufen. Also in einer Methode, die verspricht, nichts zu ändern, wird eine Methode aufgerufen, über die potentiell etwas geändert werden kann. 
-
-Einfachste Lösung: contains nicht in Node() implementieren, condern nur in Map. Die darf dann an m_root die find-Methode aufrufen, weil sich m_root durch den Aufruf nicht ändert sondern potentiell nur *m-root, also das Objekt, auf welches der Zeiger zeigt...
-
-Alles klar? Gruß HS 

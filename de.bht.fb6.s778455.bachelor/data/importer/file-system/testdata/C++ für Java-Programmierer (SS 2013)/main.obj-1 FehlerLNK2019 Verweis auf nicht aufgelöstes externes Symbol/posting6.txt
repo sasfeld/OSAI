@@ -1,5 +1,0 @@
-CREATION_DATETIME: 1366888259
-CONTENT: 
-Nach löschen der .pro-Datei und des Build.Ordners hat alles geklappt.
-
-Vielen Dank

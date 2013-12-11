@@ -1,5 +1,0 @@
-CREATION_DATETIME: 1371531719
-CONTENT: 
-Der Typ in dem vector ist ja MyThread*. Also ist *iter auch vom Typ MyThread*. Also muss man um eine Methode an einem MyThread aufzurufen schreiben: (*iter)->deleteLater(). Klappt das?
-
-Gruﬂ HS

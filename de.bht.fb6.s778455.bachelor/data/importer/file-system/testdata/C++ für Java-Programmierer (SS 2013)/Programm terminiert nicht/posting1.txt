@@ -1,7 +1,0 @@
-CREATION_DATETIME: 1366136999
-CONTENT: 
-Hallo,
-
-irgendwo habe ich ein Programmierfehler, da mein Programm (hier: die Normalisierungsfunktion) bei einer bestimmten Zahl (hier: 2,2) nicht terminiert.
-
-Gibt es eine Möglichkeit in Qt zu sehen, an welcher Stelle der Code "hängt"?

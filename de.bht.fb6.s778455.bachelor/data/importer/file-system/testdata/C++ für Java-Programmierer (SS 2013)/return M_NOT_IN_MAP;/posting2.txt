@@ -1,5 +1,0 @@
-CREATION_DATETIME: 1369249139
-CONTENT: 
-der will eigentlich sagen: man darf keine non-const-Referenz auf ein const-Objekt zurückgeben! :-)
-
-HS

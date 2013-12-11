@@ -1,3 +1,0 @@
-CREATION_DATETIME: 1370275319
-CONTENT: 
-Klingt nach nem destruktor problem

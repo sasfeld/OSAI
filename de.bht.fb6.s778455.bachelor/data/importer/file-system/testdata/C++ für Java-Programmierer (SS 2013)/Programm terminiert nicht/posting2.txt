@@ -1,9 +1,0 @@
-CREATION_DATETIME: 1366138979
-CONTENT: 
-printf bzw cout 
-
-Oder den Debugger benutzen
-
- 
-
-Wie in Java. 

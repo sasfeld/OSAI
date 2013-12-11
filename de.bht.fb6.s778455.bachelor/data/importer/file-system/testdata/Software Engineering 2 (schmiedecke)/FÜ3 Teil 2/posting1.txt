@@ -1,5 +1,0 @@
-CREATION_DATETIME: 1385066561
-CONTENT: 
-hallo allerseits, 
-
-weiß jemand, was mit "Zahlencode für den Projektkontext" in der Aufgabenstellung gemeint ist?

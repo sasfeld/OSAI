@@ -1,5 +1,0 @@
-﻿CREATION_DATETIME: 1370557439
-CONTENT: 
-Gibt es, um das Problem mit dem Post-Inkrement zu lösen,
-
-eine bessere Lösung als i = i++; ?

@@ -1,5 +1,0 @@
-CREATION_DATETIME: 1385836181
-CONTENT: 
-Hallo!
-
-Wenn ihr in dem grafischen Ecore-Editor bei den Eporations keine Typen aufgelistet bekommt, müsst ihr erstmal wieder den Auswahldialog "Object selection" schließen. Danach dann in der Ansicht links ein paar mal die Tabs durchklicken (bei mir hat Model->Advanced->Model gut geklappt). Wenn ihr jetzt wieder den "Object selection"-Auswahldialog für die Typen öffnet, müssten die Typen aufgelistet werden.

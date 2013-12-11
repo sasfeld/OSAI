@@ -1,5 +1,0 @@
-CREATION_DATETIME: 1385071421
-CONTENT: 
-Achso, OK. Es geht also um das Validieren.
-
-Danke

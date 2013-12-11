@@ -1,9 +1,0 @@
-CREATION_DATETIME: 1384100081
-CONTENT: 
-sonnt‰gliches antwort-telegramm:
-
-eine web.xml gibt es in jedem web-projekt. sie finden sie am besten unter "configuration files".
-
-gezeigt wird standardm‰ﬂig xml - aber es gibt noch ander tab-reiter, insbesondere security"
-
-ich hoffe, das hilft..

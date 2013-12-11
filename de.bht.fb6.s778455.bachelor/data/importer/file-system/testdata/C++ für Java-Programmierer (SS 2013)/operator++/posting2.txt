@@ -1,3 +1,0 @@
-CREATION_DATETIME: 1370813159
-CONTENT: 
-Bekommst du ein Segmentation Fault? Dann wird es evtl am Destruktor liegen.

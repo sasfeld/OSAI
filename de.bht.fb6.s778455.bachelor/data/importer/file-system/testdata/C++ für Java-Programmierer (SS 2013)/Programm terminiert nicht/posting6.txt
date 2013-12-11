@@ -1,3 +1,0 @@
-CREATION_DATETIME: 1366321199
-CONTENT: 
-Meinen Sie mit Werten jeweils Zähler und Nenner in "normalize"? Wenn ja: Das funktioniert alles gut.

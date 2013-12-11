@@ -1,3 +1,0 @@
-CREATION_DATETIME: 1370788619
-CONTENT: 
-hey hey habe ein kleines problem mit dem ende von meiner ++ funktion.. die funktion geht wie gewünscht den ganzen baum durch bis zum größten element.. danach geht er solange nach oben wie der obere kleiner ist als der untere und ich prüfe an allen Stellen ob local-> m_parent == 0 ist.. das müsste ja eigentlich passieren wenn er das wurzelelement gefunden hat.. aber das tut er nich.. das programm stürzt ab nachdem alle knoten die vorhanden waren durchlaufen wurde und die funktion eig enden sollte... falls jmd verstanden hat was ich hier meine ^^ vllt ein wenig kompliziert geschrieben.. wäre es cool wenn mir da jmd helfen könnte Gruß Pascal

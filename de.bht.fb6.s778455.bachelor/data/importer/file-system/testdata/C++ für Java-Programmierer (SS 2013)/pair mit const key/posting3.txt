@@ -1,5 +1,0 @@
-CREATION_DATETIME: 1369809959
-CONTENT: 
-Top.
-
-Damit gehts, macht ja auch sinn, const variablen können ja auch nur in der initialisiererliste initialisiert werden.
