@@ -221,7 +221,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 		if( !specificCorpusIncluded
 				&& this.boardSpecificImport.equals( "fallback" ) ) {
 			Application.log( getClass()
-					+ ":fillBoard: fallback to global person corpus.",
+					+ ":fillBoards: fallback to global person corpus.",
 					LogType.INFO );
 			// set singleton corpus
 			course.setPersonNameCorpus( ServiceFactory
