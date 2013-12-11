@@ -48,7 +48,28 @@ public class Board extends AUserContribution {
 	 * @param course
 	 */
 	public Board( Course course) {
+		if (null == course) {
+			throw new IllegalArgumentException(getClass() + ": null argument in constructor!");
+		}
 		this.course = course;
+		
+		this.boardThreads = new ArrayList<BoardThread>();
+		
+		this.learnedWords = new HashMap< LearnedWordTypes,  Set< String >  >();
+	}
+
+	/**
+	 * Create a new Board isntance using a given course and a specific title.
+	 * @param course
+	 * @param boardTitle
+	 */
+	public Board( Course course, String boardTitle ) {
+		if (null == course || null == boardTitle) {
+			throw new IllegalArgumentException(getClass() + ": null argument in constructor!");
+		}
+		
+		this.course = course;
+		this.title = boardTitle;
 		
 		this.boardThreads = new ArrayList<BoardThread>();
 		

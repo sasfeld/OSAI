@@ -7,8 +7,8 @@ import static org.junit.Assert.assertTrue;
 
 import java.io.File;
 import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.HashSet;
+import java.util.Set;
 
 import org.junit.After;
 import org.junit.Before;
@@ -81,9 +81,10 @@ public class DirectoyExportStrategyTest {
 	 * ##################################
 	 */
 	@Test
-	public void testExport() throws GeneralLoggingException {		
+	public void testExport() throws GeneralLoggingException {			
+		Course course = new Course( "Sample course" );
 		// input boards
-		Board sampleBoard1 = new Course( "sampleCourse1" ).getBoard();
+		Board sampleBoard1 = new Board( course, "Sample board" );
 		
 		BoardThread sampleThread1 = new BoardThread();
 		sampleThread1.setTitle( "sampleThread1" );
@@ -111,13 +112,17 @@ public class DirectoyExportStrategyTest {
 		
 		sampleBoard1.addThread( sampleThread2 );
 		
-		Map<String, Board> courseMap = new HashMap<String, Board>();
-		courseMap.put( sampleBoard1.getTitle(), sampleBoard1 );
+		course.addBoard( sampleBoard1 );
 		
-		this.exportStrategy.exportToFile( courseMap, this.testFolder );
+		Set< Course > courseSet = new HashSet<Course>();	
+		courseSet.add( course );
+		
+		this.exportStrategy.exportToFile( courseSet, this.testFolder );
 		
 		// assert file structure
-		File board1File = new File( this.testFolder, sampleBoard1.getTitle() );
+		File course1File = new File( this.testFolder, course.getTitle());
+		
+		File board1File = new File( course1File, sampleBoard1.getTitle() );
 		assertTrue( board1File.exists() );
 		assertTrue( board1File.isDirectory() );
 		

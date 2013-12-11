@@ -1,0 +1,7 @@
+CREATION_DATETIME: 1384093141
+CONTENT: 
+This is only a dummy content.
+Das ist nur ein Dummy-Content.
+TAGGED_CONTENT:
+This is only a <I-PERS>dummy</I-PERS> content.
+Das ist nur ein Dummy-Content.
