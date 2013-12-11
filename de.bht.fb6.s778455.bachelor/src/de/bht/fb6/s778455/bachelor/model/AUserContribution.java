@@ -16,8 +16,35 @@ import java.util.Date;
  */
 public abstract class AUserContribution {
 	protected Date creationDate;
+	protected Date modificationDate;
 	protected Creator creator;
 	protected String title;
+	protected int id;
+	
+	/**
+	 * @return the id
+	 */
+	public int getId() {
+		return id;
+	}
+	/**
+	 * @param id the id to set
+	 */
+	public void setId( int id ) {
+		this.id = id;
+	}
+	/**
+	 * @return the modificationDate
+	 */
+	public Date getModificationDate() {
+		return modificationDate;
+	}
+	/**
+	 * @param modificationDate the modificationDate to set
+	 */
+	public void setModificationDate( Date modificationDate ) {
+		this.modificationDate = modificationDate;
+	}
 	
 	/**
 	 * @return the creationDate

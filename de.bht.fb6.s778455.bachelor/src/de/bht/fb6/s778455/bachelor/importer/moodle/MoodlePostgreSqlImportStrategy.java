@@ -15,6 +15,8 @@ import java.util.Map;
 import java.util.Set;
 
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
+import de.bht.fb6.s778455.bachelor.model.Board;
+import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus.PersonNameType;
@@ -112,9 +114,157 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 
 		// import courses
 		Map< Integer, Course > courses = this.importCourses( inputFile );
-		this.importBoards( inputFile, courses );
+		Map< Integer, Board > boards = this.importBoards( inputFile, courses );
+		Map< Integer, BoardThread > threads = this.importBoardThreads(
+				inputFile, boards );
 
 		return courses.values();
+	}
+
+	/**
+	 * Import the board thread entities for the previously fetched {@link Board}
+	 * instances.
+	 * 
+	 * @param inputFile
+	 * @param boards
+	 *            the map of id - {@link Board} instance
+	 * @return the ID - boardthread map for internal use in further mappings
+	 * @throws GeneralLoggingException
+	 */
+	private Map< Integer, BoardThread > importBoardThreads( File inputFile,
+			Map< Integer, Board > boards ) throws GeneralLoggingException {
+		Map< Integer, BoardThread > returnBoardThreads = new HashMap< Integer, BoardThread >();
+		final File threadDump = new File( inputFile, NAME_THREAD_FILE );
+
+		// check if thread dump exists
+		if( !threadDump.exists() || !threadDump.isFile() ) {
+			throw new GeneralLoggingException( getClass()
+					+ "importBoardThreads(): the given inputFile " + threadDump
+					+ " is not valid! Either it doesn't exist or is no file.",
+					"Internal error in the moodle postgre SQL import. Please see the logs" );
+		}
+
+		// parse board table and its entities
+		PostgreSqlDumpParser threadParser = new PostgreSqlDumpParser(
+				threadDump );
+		// map of column => value
+		List< Map< String, String > > resultingEntities = threadParser
+				.fetchEntities( "mdl_forum_discussions", "id", "forum", "name",
+						"firstpost", "timemodified", "timestart", "timeend" );
+
+		// map entities
+		this.mapBoardThreads( boards, resultingEntities, returnBoardThreads );
+		return returnBoardThreads;
+	}
+
+	/**
+	 * Map the fecthed BoardThread entities to {@link BoardThread} instances
+	 * which are child of a previously filled {@link Board} instance.
+	 * 
+	 * @param boards
+	 * @param resultingEntities
+	 * @param returnBoardThreads
+	 */
+	private void mapBoardThreads( Map< Integer, Board > boards,
+			List< Map< String, String >> resultingEntities,
+			Map< Integer, BoardThread > returnBoardThreads ) {
+		for( Map< String, String > entity : resultingEntities ) {
+			// fetch associated forum id and id first, log on fail
+			int threadId = 0;
+			int boardId = 0;
+			try {
+				threadId = Integer.parseInt( entity.get( "id" ) );
+				boardId = Integer.parseInt( entity.get( "forum" ) );
+			} catch( NumberFormatException e ) {
+				// handled below
+			}
+
+			// log if the thread is not associated to a board or doesn't have an
+			// id
+			if( 0 == boardId || 0 == threadId ) {
+				Application
+						.log( getClass()
+								+ "mapBoardThreads: the board entity doesn't have an id or course id. Given dump file: "
+								+ NAME_THREAD_FILE, LogType.ERROR );
+			} else { // otherwise, get belonging board instance and fill the
+						// thread
+				// fetch board instance
+				Board belongingBoard = boards.get( boardId );
+				if( null == belongingBoard ) {
+					Application
+							.log( getClass()
+									+ "mapBoardThreads: the board instance to the given board thread doesn't exist. Is the dump corrupted or aren't the dumps asynchronous?"
+									+ NAME_FORUM_FILE, LogType.ERROR );
+				} else {
+					// "id", "forum", "name", "firstpost","timemodified",
+					// "timestart", "timeend"
+					BoardThread newThread = new BoardThread( belongingBoard );
+					newThread.setId( threadId );
+					
+					// add to belonging board
+					belongingBoard.addThread( newThread );
+					
+					// add to id - board thread map for internal use
+					returnBoardThreads.put( threadId, newThread );
+
+					// get name
+					String name = entity.get( "name" );
+					if( null != name ) {
+						newThread.setTitle( name );
+					}
+
+					// first posting id
+					try {
+						int postingId = Integer.parseInt( entity
+								.get( "firstpost" ) );
+						newThread.setFirstPostingId( postingId );
+
+					} catch( NumberFormatException e ) {
+						Application.log( getClass() + "mapBoardThreads: " + e,
+								LogType.ERROR );
+					}
+
+					// modification date
+					try {
+						long modifcationTime = Long.parseLong( entity
+								.get( "timemodified" ) );
+						if( 0 != modifcationTime ) {
+							newThread.setModificationDate( new Date(
+									modifcationTime ) );
+						}
+					} catch( NumberFormatException e ) {
+						Application.log( getClass() + "mapBoardThreads: " + e,
+								LogType.ERROR );
+					}
+					
+					// time start date
+					try {
+						long startTime = Long.parseLong( entity
+								.get( "timestart" ) );
+						if( 0 != startTime ) {
+							newThread.setCreationDate( new Date(
+									startTime ) );
+						}
+					} catch( NumberFormatException e ) {
+						Application.log( getClass() + "mapBoardThreads: " + e,
+								LogType.ERROR );
+					}
+					
+					// time end date
+					try {
+						long endTime = Long.parseLong( entity
+								.get( "timeend" ) );
+						if( 0 != endTime ) {
+							newThread.setEndDate( new Date(
+									endTime ) );
+						}
+					} catch( NumberFormatException e ) {
+						Application.log( getClass() + "mapBoardThreads: " + e,
+								LogType.ERROR );
+					}
+				}
+			}
+		}
 	}
 
 	/**
@@ -123,67 +273,116 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 	 * @param inputFile
 	 * @param courses
 	 * @throws GeneralLoggingException
+	 * @return the ID - board map for internal use in further mappings
 	 */
-	private void importBoards( File inputFile, Map< Integer, Course > courses )
-			throws GeneralLoggingException {
+	private Map< Integer, Board > importBoards( File inputFile,
+			Map< Integer, Course > courses ) throws GeneralLoggingException {
+		Map< Integer, Board > returnBoards = new HashMap< Integer, Board >();
 		final File boardDump = new File( inputFile, NAME_FORUM_FILE );
 
 		// check if board dump exists
 		if( !boardDump.exists() || !boardDump.isFile() ) {
 			throw new GeneralLoggingException( getClass()
-					+ "importBoards(): the given inputFile " + inputFile
+					+ "importBoards(): the given inputFile " + boardDump
 					+ " is not valid! Either it doesn't exist or is no file.",
 					"Internal error in the moodle postgre SQL import. Please see the logs" );
 		}
-		
+
 		// parse board table and its entities
-		PostgreSqlDumpParser boardParser = new PostgreSqlDumpParser(
-				boardDump );
+		PostgreSqlDumpParser boardParser = new PostgreSqlDumpParser( boardDump );
 		// map of column => value
 		List< Map< String, String > > resultingEntities = boardParser
 				.fetchEntities( "mdl_forum", "id", "course", "name", "type",
 						"intro", "timemodified" );
-		
+
 		// map entities
-		this.mapBoards( courses, resultingEntities );
+		this.mapBoards( courses, resultingEntities, returnBoards );
+
+		return returnBoards;
 	}
 
 	/**
-	 * Map the resulting Board entities to our Board instances.
+	 * Map the resulting Board entities to our Board instances. If the board is
+	 * not associated to any course or doesn't have an ID, it will be ignored.
+	 * 
 	 * @param courses
 	 * @param resultingEntities
+	 * @param returnBoards
+	 *            the ID - board map for internal use in further mappings
 	 */
 	private void mapBoards( Map< Integer, Course > courses,
-			List< Map< String, String >> resultingEntities ) {
+			List< Map< String, String >> resultingEntities,
+			Map< Integer, Board > returnBoards ) {
 		for( Map< String, String > entity : resultingEntities ) {
 			int courseId = 0;
 			int boardId = 0;
 			try {
 				courseId = Integer.parseInt( entity.get( "course" ) );
 				boardId = Integer.parseInt( entity.get( "id" ) );
-			}
-			catch (NumberFormatException e) {
+			} catch( NumberFormatException e ) {
 				// handled below
 			}
-			
-			// log if the board is not associated to a course or doesn't have an id
-			if (0 == courseId || 0 == boardId) {
+
+			// log if the board is not associated to a course or doesn't have an
+			// id
+			if( 0 == courseId || 0 == boardId ) {
 				Application
-				.log( getClass()
-						+ "mapBoards: the board entity doesn't have an id or course id. Given dump file: "
-						+ NAME_FORUM_FILE, LogType.ERROR );
-			}
-			else { // otherwise, get belonging course instance and fill the board
+						.log( getClass()
+								+ "mapBoards: the board entity doesn't have an id or course id. Given dump file: "
+								+ NAME_FORUM_FILE, LogType.ERROR );
+			} else { // otherwise, get belonging course instance and fill the
+						// board
 				Course course = courses.get( courseId );
-				if (null == course) { // no course instance -> some internal error
+				if( null == course ) { // no course instance -> some internal
+										// error
 					Application
-					.log( getClass()
-							+ "mapBoards: the course instance to the given board doesn't exist. Is the dump corrupted or aren't the dumps asynchronous?"
-							+ NAME_FORUM_FILE, LogType.ERROR );
+							.log( getClass()
+									+ "mapBoards: the course instance to the given board doesn't exist. Is the dump corrupted or aren't the dumps asynchronous?"
+									+ NAME_FORUM_FILE, LogType.ERROR );
+				} else {
+					Board newBoard = new Board( course );
+					newBoard.setId( boardId );
+					
+					course.addBoard( newBoard );
+					returnBoards.put( boardId, newBoard );
+
+					// fill board
+					// "id", "course", "name", "type", "intro", "timemodified"
+					// );
+
+					// board title
+					String name = entity.get( "name" );
+					if( null != name ) {
+						newBoard.setTitle( name );
+					}
+
+					// board type
+					String type = entity.get( "type" );
+					if( null != type ) {
+						newBoard.setType( type );
+					}
+
+					// intro text
+					String intro = entity.get( "intro" );
+					if( null != intro ) {
+						newBoard.setIntro( intro );
+					}
+
+					// set modification date
+					try {
+						long modifcationTime = Long.parseLong( entity
+								.get( "timemodified" ) );
+						if( 0 != modifcationTime ) {
+							newBoard.setModificationDate( new Date(
+									modifcationTime ) );
+						}
+					} catch( NumberFormatException e ) {
+						Application.log( getClass() + "mapBoards: " + e,
+								LogType.ERROR );
+					}
 				}
-				
-				
-			}			
+
+			}
 		}
 	}
 
@@ -203,7 +402,7 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 		// check if course dump exists
 		if( !courseDump.exists() || !courseDump.isFile() ) {
 			throw new GeneralLoggingException( getClass()
-					+ "importCourses(): the given inputFile " + inputFile
+					+ "importCourses(): the given inputFile " + courseDump
 					+ " is not valid! Either it doesn't exist or is no file.",
 					"Internal error in the moodle postgre SQL import. Please see the logs" );
 		}

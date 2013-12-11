@@ -8,6 +8,7 @@ package de.bht.fb6.s778455.bachelor.model;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -20,11 +21,31 @@ import java.util.List;
  */
 public class BoardThread extends AUserContribution {
 	protected List< Posting > postings;
+	protected Board belongingBoard;
+	private int firstPostingId;
+	private Date endDate;
 	
+	
+
 	public BoardThread() {
 		this.postings = new ArrayList< Posting >(); 
 	}
 	
+	/**
+	 * Create a new thread with a link to the parent {@link Board}.
+	 * @param belongingBoard
+	 */
+	public BoardThread( Board belongingBoard ) {
+		this.belongingBoard = belongingBoard;
+	}
+	
+	/**
+	 * @return the belongingBoard
+	 */
+	public Board getBelongingBoard() {
+		return belongingBoard;
+	}
+
 	/**
 	 * Add a posting to the board thread.
 	 * The Posting will be sorted immediatly.
@@ -72,4 +93,37 @@ public class BoardThread extends AUserContribution {
 	public List< Posting > getPostings() {
 		return this.postings;
 	}
+
+	/**
+	 * Set the id of the first posting. 
+	 * @param postingId
+	 */
+	public void setFirstPostingId( int postingId ) {
+		this.firstPostingId = postingId;
+	}
+	
+	/**
+	 * Get the id of the first posting.
+	 * @return
+	 */
+	public int getFirstPostingId() {
+		return this.firstPostingId;
+	}
+
+	/**
+	 * Set the end date, e.g. if the thread was closed (set in moodle).
+	 * @param date
+	 */
+	public void setEndDate( Date date ) {
+		this.endDate = date;		
+	}
+	
+	/**
+	 * Get the end date.
+	 * @return
+	 */
+	public Date getEndDate() {
+		return this.endDate;
+	}
+	
 }
