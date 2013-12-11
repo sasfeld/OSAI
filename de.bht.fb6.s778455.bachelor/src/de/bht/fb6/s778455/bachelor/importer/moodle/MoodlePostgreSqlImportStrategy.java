@@ -6,12 +6,17 @@ package de.bht.fb6.s778455.bachelor.importer.moodle;
 
 import java.io.File;
 import java.io.InputStream;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus.PersonNameType;
+import de.bht.fb6.s778455.bachelor.organization.Application;
+import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 
 /**
@@ -111,6 +116,7 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 	 * @throws GeneralLoggingException if the dump is invalid
 	 */
 	private Set< Course > importCourses( final File inputFile ) throws GeneralLoggingException {
+		Set< Course > returnCourses = new HashSet< Course >();
 		final File courseDump = new File( inputFile, NAME_COURSE_FILE );
 		
 		// check if course dump exists
@@ -121,7 +127,50 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 					"Internal error in the moodle postgre SQL import. Please see the logs" );
 		}
 		
+		// parse table and its entities
+		PostgreSqlDumpParser courseParser = new PostgreSqlDumpParser( courseDump );
+		// map of column => value
+		List< Map< String, String > > resultingEntities = courseParser.fetchEntities( "mdl_course", "id", "fullname", "shortname", "summary", "lang", "timecreated", "timemodified" );
+		
+		// map entities
+		this.mapCourse(returnCourses, resultingEntities);
+		
 		return null;
+	}
+
+	/**
+	 * Map the resulting entities to the given set of {@link Course} instances.
+	 * @param returnCourses
+	 * @param resultingEntities
+	 */
+	private void mapCourse( Set< Course > returnCourses,
+			List< Map< String, String >> resultingEntities ) {
+	
+		for( Map< String, String > entity : resultingEntities ) {
+			String fullname = entity.get( "fullname" );
+			
+			if ( null == fullname ) {
+				Application.log( getClass() + "mapCourse: the course entity doesn't have a fullname. Given dump file: " + NAME_COURSE_FILE, LogType.ERROR );
+			}
+			else {  // course name given so the course has an identity
+				Course course = new Course( fullname  );			
+				
+				// set id
+				try {
+					int id = Integer.parseInt( entity.get( "id" ));	
+					course.setId( id );
+				}
+				catch (NumberFormatException e) {
+					Application.log( getClass() + "mapCourse: " + e, LogType.ERROR);
+				}					
+				
+				String shortname = entity.get( "shortname" );
+				if (null != shortname) {
+					
+				}
+				
+			}
+		}		
 	}
 
 	/**
