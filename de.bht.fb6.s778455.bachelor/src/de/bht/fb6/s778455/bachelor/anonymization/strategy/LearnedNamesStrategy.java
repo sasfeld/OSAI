@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Set;
 
 import de.bht.fb6.s778455.bachelor.model.Board;
-import de.bht.fb6.s778455.bachelor.model.Board.LearnedWordTypes;
+import de.bht.fb6.s778455.bachelor.model.Course.LearnedWordTypes;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 
 /**
@@ -44,7 +44,7 @@ public class LearnedNamesStrategy extends AAnomyzationStrategy {
 			throws GeneralLoggingException {
 		String anonymizedText = inputText;
 
-		Set< String > personNames = belongingBoard
+		Set< String > personNames = belongingBoard.getBelongingCourse()
 				.getLearnedWords( LearnedWordTypes.PERSON_NAME );
 		if( null != personNames ) {
 			for( String personName : personNames ) {

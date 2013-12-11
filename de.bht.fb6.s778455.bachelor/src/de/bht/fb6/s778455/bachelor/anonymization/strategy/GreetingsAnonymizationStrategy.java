@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 
 import de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
-import de.bht.fb6.s778455.bachelor.model.Board.LearnedWordTypes;
+import de.bht.fb6.s778455.bachelor.model.Course.LearnedWordTypes;
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
@@ -257,7 +257,7 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 
 			for( String singleWord : singleWords ) {
 				if( singleWord.matches( "[a-zA-Z]+" ) ) {
-					belongingBoard.addLearnedWord( singleWord,
+					belongingBoard.getBelongingCourse().addLearnedWord( singleWord,
 							LearnedWordTypes.PERSON_NAME );
 				}
 			}
@@ -286,7 +286,7 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 
 			for( String singleWord : singleWords ) {
 				if( singleWord.matches( "[a-zA-Z]+" ) ) {
-					belongingBoard.addLearnedWord( singleWord,
+					belongingBoard.getBelongingCourse().addLearnedWord( singleWord,
 							LearnedWordTypes.PERSON_NAME );
 				}
 			}

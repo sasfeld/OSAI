@@ -15,7 +15,7 @@ import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.GreetingsAnonymizationStrategy;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.Course;
-import de.bht.fb6.s778455.bachelor.model.Board.LearnedWordTypes;
+import de.bht.fb6.s778455.bachelor.model.Course.LearnedWordTypes;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 
 /**
@@ -225,7 +225,7 @@ public class GreetingsAnonymizationStrategyTest {
 		/*
 		 * assert "learned words"
 		 */
-		Set< String > learnedWords = testBoard.getLearnedWords( LearnedWordTypes.PERSON_NAME );
+		Set< String > learnedWords = testBoard.getBelongingCourse().getLearnedWords( LearnedWordTypes.PERSON_NAME );
 		System.out.println(learnedWords);
 		
 		assertTrue ( null != learnedWords);		

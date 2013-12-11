@@ -12,8 +12,8 @@ import org.junit.Test;
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.LearnedNamesStrategy;
 import de.bht.fb6.s778455.bachelor.model.Board;
-import de.bht.fb6.s778455.bachelor.model.Board.LearnedWordTypes;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.Course.LearnedWordTypes;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 
 /**
@@ -56,9 +56,9 @@ public class LearnedNamesStrategyTest {
 	 */
 	public void testAnonymizeText() throws GeneralLoggingException {
 		Board testBoard = new Board( new Course( "testCourse" ) );
-		testBoard.addLearnedWord( "max", LearnedWordTypes.PERSON_NAME );
-		testBoard.addLearnedWord( "Mustermann", LearnedWordTypes.PERSON_NAME );
-		testBoard.addLearnedWord( "xyz", LearnedWordTypes.PERSON_NAME );
+		testBoard.getBelongingCourse().addLearnedWord( "max", LearnedWordTypes.PERSON_NAME );
+		testBoard.getBelongingCourse().addLearnedWord( "Mustermann", LearnedWordTypes.PERSON_NAME );
+		testBoard.getBelongingCourse().addLearnedWord( "xyz", LearnedWordTypes.PERSON_NAME );
 
 		String input = "Hallo Max, wie geht es der Mutter mustermann? Gruﬂ XYZ";
 		String expectedOutput = "Hallo "
