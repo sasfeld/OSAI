@@ -28,7 +28,9 @@ public class BoardThread extends AUserContribution {
 	private Date endDate;
 	
 	
-
+	/**
+	 * Create a new bare BoardThread.
+	 */
 	public BoardThread() {
 		this.postings = new ArrayList< Posting >(); 
 	}
@@ -39,6 +41,8 @@ public class BoardThread extends AUserContribution {
 	 */
 	public BoardThread( Board belongingBoard ) {
 		this.belongingBoard = belongingBoard;
+		
+		this.postings = new ArrayList< Posting >(); 
 	}
 	
 	/**
