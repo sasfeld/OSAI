@@ -13,6 +13,7 @@ import de.bht.fb6.s778455.bachelor.anonymization.Anonymizer;
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
 import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
+import de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader;
 import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
@@ -50,9 +51,17 @@ public class AnonymizationController {
 
 		this.anonymConfigReader = de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory
 				.getConfigReader();
-		this.configuredDataFile = new File( ServiceFactory.getConfigReader()
-				.fetchValue(
-						IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_DATAFOLDER ) );
+		if( importStrategy instanceof DirectoryImportStrategy ) {
+			this.configuredDataFile = new File(
+					ServiceFactory
+							.getConfigReader()
+							.fetchValue(
+									IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_DATAFOLDER ) );
+		} else {
+			this.configuredDataFile = new File( ServiceFactory
+					.getConfigReader().fetchValue(
+							IConfigKeys.IMPORT_STRATEGY_POSTGRESQL_DUMPFOLDER ) );
+		}
 		this.chainingKeys = this.anonymConfigReader
 				.fetchMultipleValues( IConfigKeys.ANONYM_STRATEGY_CHAIN );
 		this.exportStrategy = ( ( de.bht.fb6.s778455.bachelor.exporter.organization.ConfigReader ) de.bht.fb6.s778455.bachelor.exporter.organization.service.ServiceFactory
@@ -68,7 +77,8 @@ public class AnonymizationController {
 	 * @throws GeneralLoggingException
 	 *             if the import strategy raised any error
 	 */
-	public Collection< Course > performAnonymization() throws GeneralLoggingException {
+	public Collection< Course > performAnonymization()
+			throws GeneralLoggingException {
 		// perform import first
 		Collection< Course > courses = this.importStrategy
 				.importBoardFromFile( this.configuredDataFile );

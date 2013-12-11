@@ -70,10 +70,19 @@ public class DirectoryExportStrategy extends AExportStrategy {
 	 * @throws GeneralLoggingException
 	 */
 	private void createCourseDir( File outputDir, Course course ) throws GeneralLoggingException {
-		File newCourseDir = new File( outputDir, course.getTitle() );
+		File newCourseDir = new File( outputDir, this.removeIllegalChars(course.getTitle()) );
 		newCourseDir.mkdir(); // create new dir immediatly.
 		
 		this.createBoardDirs( newCourseDir, course.getBoards() );		
+	}
+
+	/**
+	 * Remove illegal characters in the file name and replace them by '_'
+	 * @param title
+	 * @return
+	 */
+	private String removeIllegalChars( String filename ) {		
+		return filename.replaceAll("[^a-zA-Z0-9.-]", "_");
 	}
 
 	/**
@@ -85,7 +94,7 @@ public class DirectoryExportStrategy extends AExportStrategy {
 	private void createBoardDirs( File courseDir, List< Board > boards ) throws GeneralLoggingException {
 		
 		for (Board board: boards) {
-			File newBoardDir = new File( courseDir, board.getTitle() );
+			File newBoardDir = new File( courseDir, this.removeIllegalChars( board.getTitle() ));
 			newBoardDir.mkdir(); // create new dir immediatly.
 			
 			for( BoardThread boardThread : board.getBoardThreads() ) {
@@ -104,7 +113,7 @@ public class DirectoryExportStrategy extends AExportStrategy {
 	 */
 	private void createBoardThreadDir( File newBoardDir, BoardThread boardThread )
 			throws GeneralLoggingException {
-		File newBoardThreadDir = new File( newBoardDir, boardThread.getTitle() );
+		File newBoardThreadDir = new File( newBoardDir, this.removeIllegalChars( boardThread.getTitle() ));
 		newBoardThreadDir.mkdir(); // create new dir immediatly.
 
 		// if (!successCreation) {
@@ -166,7 +175,7 @@ public class DirectoryExportStrategy extends AExportStrategy {
 		} catch( IOException e ) {
 			throw new GeneralLoggingException(
 					getClass()
-							+ ":createPostingFile: the posting file couldn't be created. Original exception: \n"
+							+ ":createPostingFile: the posting file ("+newPostingFile.getAbsolutePath()+")couldn't be created. Original exception: \n"
 							+ e.getLocalizedMessage(),
 					"An internal error occured in the exporter module. Please check the logs." );
 
