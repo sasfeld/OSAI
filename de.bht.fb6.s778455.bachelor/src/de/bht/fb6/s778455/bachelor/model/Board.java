@@ -142,4 +142,19 @@ public class Board extends AUserContribution {
 		
 		return txtExport.toString();
 	}
+	
+	/*
+	 * (non-Javadoc)
+	 * @see de.bht.fb6.s778455.bachelor.model.AUserContribution#importFromTxt(java.lang.String, java.lang.String)
+	 */
+	public void importFromTxt( String key, String value ) {
+		super.importFromTxt( key, value );
+		
+		if( key.equals( "INTRO" ) ) {
+			this.setIntro( value );
+		} else if( key.equals( "TYPE" ) ) {
+			this.setType( value );
+		}
+	}
+
 }

@@ -9,7 +9,6 @@ import java.io.FileReader;
 import java.io.FilenameFilter;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -297,41 +296,25 @@ public class DirectoryImportStrategy extends AImportStrategy {
 			BufferedReader reader = new BufferedReader( new FileReader(
 					postingFile ) );
 
-			String line;
-			boolean creationDateTimeMatched = false;
+			String line;			
 			boolean contentMatched = false;
 			boolean taggedContentMatched = false;
 			StringBuilder contentBuilder = new StringBuilder();
 			StringBuilder taggedContentBuilder = new StringBuilder();
 
 			while( null != ( line = reader.readLine() ) ) {
-				if( !creationDateTimeMatched ) {
-					Pattern pCreationDatetime = Pattern
-							.compile( "CREATION_DATETIME:\\s?(.*)" );
-					Matcher m = pCreationDatetime.matcher( line );
-					while( m.find() ) {
-						String creationDateTime = m.group( 1 );
-						try {
-							long timeStamp = Long.parseLong( creationDateTime );
-							posting.setCreationDate( new Date( timeStamp ) );
-							creationDateTimeMatched = true;
-						} catch( NumberFormatException e ) { // timestamp was
-																// invalid and
-																// couldn't get
-																// parsed
-							Application
-									.log( getClass()
-											+ ":parseTxtFile(): wrong value for CREATION_DATETIME in file "
-											+ postingFile.getAbsolutePath()
-											+ " ! The date time was ignored. Please check the file.",
-											LogType.ERROR );
-						}
-					}
-				}
-
 				if( !contentMatched && !taggedContentMatched ) {
-					if( line.contains( "CONTENT:" ) ) {
+					if( line.startsWith(  "CONTENT:" ) ) {
 						contentMatched = true;
+					} else { // match key value pairs
+						Pattern pKeyValue = Pattern.compile( "^([A-Z]+):\\s(.*?)$" );
+						Matcher matcher = pKeyValue.matcher( line );
+						while ( matcher.find() ) {
+							String key = matcher.group(1);
+							String value = matcher.group(2);
+							
+							posting.importFromTxt( key, value );
+						}
 					}
 				} else if( contentMatched && !taggedContentMatched ) {
 					if( line.startsWith( "TAGGED_CONTENT:" ) ) {
@@ -345,8 +328,8 @@ public class DirectoryImportStrategy extends AImportStrategy {
 			}
 			reader.close();
 
-			posting.setContent( contentBuilder.toString() );
-			posting.setTaggedContent( taggedContentBuilder.toString() );
+			posting.importFromTxt( "CONTENT", contentBuilder.toString() );
+			posting.importFromTxt( "TAGGED_CONTENT", taggedContentBuilder.toString() );
 			return posting;
 		} catch( IOException e ) {
 			Application

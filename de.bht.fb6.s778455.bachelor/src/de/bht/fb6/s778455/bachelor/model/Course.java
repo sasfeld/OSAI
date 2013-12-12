@@ -2,7 +2,6 @@
  * Copyright (c) 2013 Sascha Feldmann (sascha.feldmann@gmx.de) 
  */
 
-
 package de.bht.fb6.s778455.bachelor.model;
 
 import java.io.Serializable;
@@ -16,11 +15,13 @@ import java.util.Set;
 
 /**
  * 
- * <p>This class defines a model for an (e learning) course, e.g. 'Moodle'.</p>
- *
+ * <p>
+ * This class defines a model for an (e learning) course, e.g. 'Moodle'.
+ * </p>
+ * 
  * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
  * @since 20.11.2013
- *
+ * 
  */
 public class Course implements Serializable {
 	/**
@@ -30,12 +31,14 @@ public class Course implements Serializable {
 
 	/**
 	 * 
-	 * <p>The literals in this enumeration specifiy the types of learned words.<br />
-	 * A type might be the name of a person for example.</p>
-	 *
+	 * <p>
+	 * The literals in this enumeration specifiy the types of learned words.<br />
+	 * A type might be the name of a person for example.
+	 * </p>
+	 * 
 	 * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
 	 * @since 05.12.2013
-	 *
+	 * 
 	 */
 	public enum LearnedWordTypes {
 		/**
@@ -43,7 +46,7 @@ public class Course implements Serializable {
 		 */
 		PERSON_NAME,
 	};
-	
+
 	protected String title;
 	protected int id;
 	protected String shortName;
@@ -51,40 +54,45 @@ public class Course implements Serializable {
 	protected String lang;
 	protected Date creationDate;
 	protected Date modificationDate;
-	protected User docent;	
+	protected User docent;
 	protected List< Board > boards;
 	protected PersonNameCorpus personNameCorpus;
 	protected Map< LearnedWordTypes, Set< String > > learnedWords;
-	
+
 	/**
 	 * Create a course for which only a title is given.
+	 * 
 	 * @param courseTitle
 	 */
-	public Course ( String courseTitle) {
-		this.setTitle( courseTitle );		
-		this.boards = new ArrayList<Board>();		
-		this.personNameCorpus = new PersonNameCorpus();	
-		this.learnedWords = new HashMap< LearnedWordTypes,  Set< String >  >();
+	public Course( String courseTitle ) {
+		this.setTitle( courseTitle );
+		this.boards = new ArrayList< Board >();
+		this.personNameCorpus = new PersonNameCorpus();
+		this.learnedWords = new HashMap< LearnedWordTypes, Set< String > >();
 	}
-	
+
 	/**
 	 * @return the personNameCorpus
 	 */
 	public PersonNameCorpus getPersonNameCorpus() {
 		return personNameCorpus;
 	}
-	
+
 	/**
 	 * Set a completely new {@link PersonNameCorpus} instance.
-	 * @param personNameCorpus the personNameCorpus to set
+	 * 
+	 * @param personNameCorpus
+	 *            the personNameCorpus to set
 	 */
 	public void setPersonNameCorpus( PersonNameCorpus personNameCorpus ) {
-		if (null == personNameCorpus) {
-			throw new IllegalArgumentException( getClass() + "setPersonNameCorpus(): null value is not allowed for personnameCorpus" );
+		if( null == personNameCorpus ) {
+			throw new IllegalArgumentException(
+					getClass()
+							+ "setPersonNameCorpus(): null value is not allowed for personnameCorpus" );
 		}
 		this.personNameCorpus = personNameCorpus;
 	}
-	
+
 	/**
 	 * @return the lang
 	 */
@@ -93,12 +101,13 @@ public class Course implements Serializable {
 	}
 
 	/**
-	 * @param lang the lang to set
+	 * @param lang
+	 *            the lang to set
 	 */
 	public void setLang( String lang ) {
 		this.lang = lang;
 	}
-	
+
 	/**
 	 * @return the title
 	 */
@@ -107,12 +116,13 @@ public class Course implements Serializable {
 	}
 
 	/**
-	 * @param title the title to set
+	 * @param title
+	 *            the title to set
 	 */
 	public void setTitle( String title ) {
 		this.title = title;
 	}
-	
+
 	/**
 	 * @return the creationDate
 	 */
@@ -121,7 +131,8 @@ public class Course implements Serializable {
 	}
 
 	/**
-	 * @param creationDate the creationDate to set
+	 * @param creationDate
+	 *            the creationDate to set
 	 */
 	public void setCreationDate( Date creationDate ) {
 		this.creationDate = creationDate;
@@ -135,33 +146,35 @@ public class Course implements Serializable {
 	}
 
 	/**
-	 * @param modificationDate the modificationDate to set
+	 * @param modificationDate
+	 *            the modificationDate to set
 	 */
 	public void setModificationDate( Date modificationDate ) {
 		this.modificationDate = modificationDate;
 	}
-	
+
 	/**
 	 * @return the id
 	 */
 	public int getId() {
 		return id;
 	}
-	
+
 	/**
-	 * @param id the id to set
+	 * @param id
+	 *            the id to set
 	 */
 	public void setId( int id ) {
 		this.id = id;
 	}
-	
+
 	/**
 	 * @return the docent
 	 */
 	public User getDocent() {
 		return docent;
 	}
-	
+
 	/**
 	 * @return the shortName
 	 */
@@ -170,7 +183,8 @@ public class Course implements Serializable {
 	}
 
 	/**
-	 * @param shortName the shortName to set
+	 * @param shortName
+	 *            the shortName to set
 	 */
 	public void setShortName( String shortName ) {
 		this.shortName = shortName;
@@ -184,101 +198,124 @@ public class Course implements Serializable {
 	}
 
 	/**
-	 * @param summary the summary to set
+	 * @param summary
+	 *            the summary to set
 	 */
 	public void setSummary( String summary ) {
 		this.summary = summary;
 	}
-	
+
 	/**
 	 * Add another board to this course.
-	 * @param board mustn't be null.
+	 * 
+	 * @param board
+	 *            mustn't be null.
 	 */
-	public void addBoard(Board board) {
-		if (null == board) {
-			throw new IllegalArgumentException(getClass() + "addBoard(): null given for board parameter.");
+	public void addBoard( Board board ) {
+		if( null == board ) {
+			throw new IllegalArgumentException( getClass()
+					+ "addBoard(): null given for board parameter." );
 		}
 		this.boards.add( board );
 	}
+
 	/**
 	 * @return the board
 	 */
-	public List<Board> getBoards() {
+	public List< Board > getBoards() {
 		return this.boards;
 	}
-	
+
 	/**
 	 * Get a single board with the given name.
-	 * @param boardName consider the method works case-insensitiv
+	 * 
+	 * @param boardName
+	 *            consider the method works case-insensitiv
 	 * @return the matched {@link Board} or null if it wasn't found
 	 */
-	public Board getBoard(String boardName) {
-		if (null == boardName) {
-			throw new IllegalArgumentException(getClass() + "getBoard(): null given for boardName parameter.");
+	public Board getBoard( String boardName ) {
+		if( null == boardName ) {
+			throw new IllegalArgumentException( getClass()
+					+ "getBoard(): null given for boardName parameter." );
 		}
-		
+
 		for( Board board : this.boards ) {
-			if (board.getTitle().trim().toLowerCase().equals( boardName.trim().toLowerCase() )) {
+			if( board.getTitle().trim().toLowerCase()
+					.equals( boardName.trim().toLowerCase() ) ) {
 				return board;
 			}
 		}
-		
+
 		return null; // not found
 	}
-	
+
 	/**
-	 * @param docent the docent to set
+	 * @param docent
+	 *            the docent to set
 	 */
 	public void setDocent( User docent ) {
 		this.docent = docent;
 	}
-	
+
 	/**
-	 * <p>Add a "learned word" defined by the given type.<br />
+	 * <p>
+	 * Add a "learned word" defined by the given type.<br />
 	 * Example: a learned word can be a person's name.
 	 * </p>
+	 * 
 	 * @param singleWord
-	 * @param wordType the given type (defined in {@link LearnedWordTypes}).
+	 * @param wordType
+	 *            the given type (defined in {@link LearnedWordTypes}).
 	 */
 	public void addLearnedWord( String singleWord, LearnedWordTypes wordType ) {
 		// create word set first if this is the first word for the given type
-		if ( ! this.learnedWords.containsKey( wordType )) {
-			Set< String > wordSet = new HashSet<String>();
+		if( !this.learnedWords.containsKey( wordType ) ) {
+			Set< String > wordSet = new HashSet< String >();
 			this.learnedWords.put( wordType, wordSet );
 		}
-		
+
 		// add the word to the existing set
 		this.learnedWords.get( wordType ).add( singleWord );
 	}
-	
+
 	/**
 	 * Get the "learned words" for the given {@link LearnedWordTypes}.
+	 * 
 	 * @param wordType
 	 * @return a Set of {@link String} or null if there are no words available.
 	 */
 	public Set< String > getLearnedWords( LearnedWordTypes wordType ) {
 		return this.learnedWords.get( wordType );
 	}
-	
+
 	/*
 	 * (non-Javadoc)
+	 * 
 	 * @see de.bht.fb6.s778455.bachelor.model.AUserContribution#exportToTxt()
 	 */
 	public String exportToTxt() {
 		StringBuilder txtExport = new StringBuilder();
-		
+
 		txtExport.append( "ID: " + this.getId() + "\n" );
-		txtExport.append( "CREATION_DATETIME: " + this.getCreationDate().getTime() + "\n");
-		txtExport.append( "MODIFICATION_DATETIME: " + this.getModificationDate().getTime() + "\n");		
+		if( null != this.getCreationDate() ) {
+			txtExport.append( "CREATION_DATETIME: "
+					+ this.getCreationDate().getTime() + "\n" );
+		}
+		if( null != this.getModificationDate() ) {
+			txtExport.append( "MODIFICATION_DATETIME: "
+					+ this.getModificationDate().getTime() + "\n" );
+		}
 		txtExport.append( "LANG: " + this.getLang() + "\n" );
 		txtExport.append( "SHORT_NAME: " + this.getShortName() + "\n" );
-		txtExport.append( "TITLE: " + this.getTitle() + "\n");
-		txtExport.append( "SUMMARY: " + this.getSummary() + "\n");		
-		
+		txtExport.append( "TITLE: " + this.getTitle() + "\n" );
+		txtExport.append( "SUMMARY: " + this.getSummary() + "\n" );
+
 		return txtExport.toString();
 	}
-	
-	/* (non-Javadoc)
+
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see java.lang.Object#hashCode()
 	 */
 	@Override
@@ -307,8 +344,10 @@ public class Course implements Serializable {
 		result = prime * result + ( ( title == null ) ? 0 : title.hashCode() );
 		return result;
 	}
-	
-	/* (non-Javadoc)
+
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see java.lang.Object#equals(java.lang.Object)
 	 */
 	@Override
@@ -369,8 +408,10 @@ public class Course implements Serializable {
 			return false;
 		return true;
 	}
-	
-	/* (non-Javadoc)
+
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see java.lang.Object#toString()
 	 */
 	@Override

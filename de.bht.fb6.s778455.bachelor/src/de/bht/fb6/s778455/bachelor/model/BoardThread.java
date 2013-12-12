@@ -12,6 +12,8 @@ import java.util.Date;
 import java.util.List;
 
 import de.bht.fb6.s778455.bachelor.model.tools.DateComparator;
+import de.bht.fb6.s778455.bachelor.organization.Application;
+import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 
 /**
  * 
@@ -127,5 +129,24 @@ public class BoardThread extends AUserContribution {
 		txtExport.append( "FIRST_POSTING_ID: " + this.getFirstPostingId() + "\n");
 		
 		return txtExport.toString();
+	}
+	
+	/*
+	 * (non-Javadoc)
+	 * @see de.bht.fb6.s778455.bachelor.model.AUserContribution#importFromTxt(java.lang.String, java.lang.String)
+	 */
+	public void importFromTxt( String key, String value ) {
+		super.importFromTxt( key, value );
+		
+		if( key.equals( "FIRST_POSTING_ID" ) ) {
+			try {
+				this.setFirstPostingId( Integer.parseInt( value ) );
+			} catch( NumberFormatException e ) {
+				Application
+						.log( getClass()
+								+ ":importFromTxt: couldn't parse given value to an integer firstPostingId. Given value: "
+								+ value, LogType.ERROR );
+			}
+		} 
 	}
 }

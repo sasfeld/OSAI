@@ -5,6 +5,9 @@
 
 package de.bht.fb6.s778455.bachelor.model;
 
+import de.bht.fb6.s778455.bachelor.organization.Application;
+import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
+
 /**
  * 
  * <p>This class describes the a Posting in a {@link BoardThread}.</p>
@@ -117,6 +120,29 @@ public class Posting extends AUserContribution {
 
 		
 		return txtExport.toString();
+	}
+	
+	/*
+	 * (non-Javadoc)
+	 * @see de.bht.fb6.s778455.bachelor.model.AUserContribution#importFromTxt(java.lang.String, java.lang.String)
+	 */
+	public void importFromTxt( String key, String value ) {
+		super.importFromTxt( key, value );
+		
+		if( key.equals( "PARENT_POSTING_ID" ) ) {
+			try {
+				this.setParentPostingId( Integer.parseInt( value ) );
+			} catch( NumberFormatException e ) {
+				Application
+						.log( getClass()
+								+ ":importFromTxt: couldn't parse given value to an integer parentPostingId. Given value: "
+								+ value, LogType.ERROR );
+			}
+		} else if( key.equals( "CONTENT" ) ) {
+			this.setContent( value );
+		} else if( key.equals( "TAGGED_CONTENT" ) ) {
+			this.setTaggedContent( value );
+		}
 	}
 
 	/* (non-Javadoc)

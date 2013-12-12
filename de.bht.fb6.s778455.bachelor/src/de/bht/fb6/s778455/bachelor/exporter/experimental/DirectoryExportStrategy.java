@@ -163,7 +163,11 @@ public class DirectoryExportStrategy extends AExportStrategy {
 			PrintWriter writer = new PrintWriter( new FileWriter(
 					newFile ) );
 		
-			writer.write( txtContent );		
+			String[] lines = txtContent.split( "\n" );
+			
+			for( String line : lines ) {
+				writer.println(line);
+			}	
 
 			writer.flush();
 
