@@ -5,6 +5,7 @@ package de.bht.fb6.s778455.bachelor.test.anonymization.controller;
 
 import static org.junit.Assert.assertTrue;
 
+import java.io.File;
 import java.util.Collection;
 
 import org.junit.After;
@@ -12,11 +13,15 @@ import org.junit.Before;
 import org.junit.Test;
 
 import de.bht.fb6.s778455.bachelor.anonymization.controller.AnonymizationController;
+import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
+import de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy;
+import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 
 /**
  * <p>
@@ -60,8 +65,10 @@ public class AnonymizationControllerTest {
 	 * @throws GeneralLoggingException
 	 */
 	public void testPerformAnonymization() throws GeneralLoggingException {
+		AImportStrategy strategy = new DirectoryImportStrategy();
+		Collection< Course > courses = strategy.importBoardFromFile( new File( ServiceFactory.getConfigReader().fetchValue( IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_TESTFOLDER ) ));
 		Collection< Course > anonymizedCourses = this.anonymizationController
-				.performAnonymization();
+				.performAnonymization(courses );
 		assertTrue( null != anonymizedCourses );
 
 		// some sysouts

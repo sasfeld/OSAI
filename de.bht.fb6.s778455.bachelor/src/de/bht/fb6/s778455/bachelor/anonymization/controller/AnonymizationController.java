@@ -84,6 +84,15 @@ public class AnonymizationController {
 		}
 
 	}
+	
+	public AnonymizationController(AImportStrategy importStrategy, AExportStrategy exportStrategy) throws InvalidConfigException {
+		this.importStrategy = importStrategy;
+		this.exportStrategy = exportStrategy;
+		
+		this.anonymConfigReader = de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory
+				.getConfigReader();
+		this.chainingKeys = this.anonymConfigReader.fetchMultipleValues( IConfigKeys.ANONYM_STRATEGY_CHAIN );
+	}
 
 	/**
 	 * Perform the anonymization pipeline. The job will be started here.
@@ -93,11 +102,10 @@ public class AnonymizationController {
 	 * @throws GeneralLoggingException
 	 *             if the import strategy raised any error
 	 */
-	public Collection< Course > performAnonymization()
+	public Collection< Course > performAnonymization(Collection< Course > rawCourses)
 			throws GeneralLoggingException {
 		// perform import first
-		Collection< Course > courses = this.importStrategy
-				.importBoardFromFile( this.configuredDataFile );
+		Collection< Course > courses = rawCourses;
 
 		// chaining: create new anonymizer instance
 		for( String chainingKey : this.chainingKeys ) {
@@ -182,19 +190,31 @@ public class AnonymizationController {
 	 */
 	public void performAnonymizationAnalysis() throws GeneralLoggingException {
 		long startTime = new Date().getTime();
-		Collection< Course > anonymizedCourses = this.performAnonymization();
+		Collection< Course > rawCourses = this.importStrategy
+		.importBoardFromFile( this.configuredDataFile );
+		Collection< Course > anonymizedCourses = this.performAnonymization(rawCourses);
 		long elapsedTime = new Date().getTime() - startTime;
 
 		this.exportStrategy.exportToFile( anonymizedCourses,
 				this.configuredExportFile );
 
-		System.out.println( "Starting analysis...." );
-		System.out
-				.println( "Used chain of strategies (config keys): "
+		getStatistics( anonymizedCourses, elapsedTime );
+	}
+
+	/**
+	 * Get a statistics string.
+	 * @param anonymizedCourses
+	 * @param elapsedTime
+	 */
+	public String getStatistics( Collection< Course > anonymizedCourses,
+			long elapsedTime ) {
+		StringBuilder statisticsBuilder = new StringBuilder();
+
+		statisticsBuilder.append( "Used chain of strategies (config keys): "
 						+ de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory
 								.getConfigReader().fetchValue(
-										IConfigKeys.ANONYM_STRATEGY_CHAIN ) );
-		System.out.println( "Number of courses: " + anonymizedCourses.size() );
+										IConfigKeys.ANONYM_STRATEGY_CHAIN ) + "\n");
+		statisticsBuilder.append( "Number of courses: " + anonymizedCourses.size() +"\n" );
 		int numberThreads = 0;
 		int numberPostings = 0;
 		for( Course course : anonymizedCourses ) {
@@ -206,9 +226,11 @@ public class AnonymizationController {
 				}
 			}
 		}
-		System.out.println( "Number of threads: " + numberThreads );
-		System.out.println( "Number of postings: " + numberPostings );
-		System.out.println( "Elapsed time(s): " + elapsedTime / 1000 );
+		statisticsBuilder.append( "Number of threads: " + numberThreads +"\n" );
+		statisticsBuilder.append( "Number of postings: " + numberPostings +"\n" );
+		statisticsBuilder.append( "Elapsed time (s): " + elapsedTime / 1000 +"\n" );
+		
+		return statisticsBuilder.toString();
 	}
 
 	public static void main( String[] args ) throws GeneralLoggingException {
