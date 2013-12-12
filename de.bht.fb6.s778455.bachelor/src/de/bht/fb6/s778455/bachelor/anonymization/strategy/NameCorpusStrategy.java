@@ -34,7 +34,7 @@ public class NameCorpusStrategy extends AAnomyzationStrategy{
 		return anonymized;
 	}
 
-	private String anonymizeNames( String inputText, PersonNameCorpus nameCorpus ) {
+	private String anonymizeNames( String inputText, PersonNameCorpus nameCorpus ) throws GeneralLoggingException {
 		String anonymizedText = super.prepareText( inputText );
 		
 		// check prenames

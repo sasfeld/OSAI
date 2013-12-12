@@ -136,31 +136,24 @@ public class DirectoryImportStrategy extends AImportStrategy {
 
 		}
 
-		Set< Course > courseSet = new HashSet<Course>();
+		Set< Course > courseSet = new HashSet< Course >();
 
 		// iterate through children directorys - a dir represents a course/board
 		for( File childDir : inputFile.listFiles() ) {
-			if( !childDir.isDirectory() ) { // append error log
-				Application
-						.log( fullyQualified
-								+ ": the given subfolder of "
-								+ inputFile
-								+ " is not a directory. Read the docs so you learn about the correct structure.",
-								LogType.ERROR );
-				continue;
+			if( childDir.isDirectory() ) { // append error log
+
+				String courseName = childDir.getName();
+				Course course = new Course( courseName );
+
+				File courseTxtFile = new File( childDir, "course.txt" );
+				// find course.txt, parse it
+				this.importTxtFile( courseTxtFile, course );
+
+				this.fillBoards( course, childDir );
+
+				// add board to resulting map
+				courseSet.add( course );
 			}
-
-			String courseName = childDir.getName();
-			Course course = new Course( courseName );
-			
-			File courseTxtFile = new File( childDir, "course.txt" );
-			// find course.txt, parse it
-			this.importTxtFile( courseTxtFile , course );
-			
-			this.fillBoards( course, childDir);
-
-			// add board to resulting map
-			courseSet.add( course );
 		}
 
 		return courseSet;
@@ -173,7 +166,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	 * @param childDir
 	 * @param courseBoardMap
 	 */
-	private void fillBoards( Course course, File courseDir) {
+	private void fillBoards( Course course, File courseDir ) {
 		// fully qualified name of this class + method to be printed in a log
 		String fullyQualified = getClass() + ":fillBoards";
 
@@ -203,19 +196,11 @@ public class DirectoryImportStrategy extends AImportStrategy {
 						// log was written, just continue
 					}
 				}
-			} else if( !courseDir.isDirectory() ) { // append error log
-				Application
-						.log( fullyQualified
-								+ ": the given subfolder of "
-								+ courseDir
-								+ " is not a directory. Read the docs so you learn about the correct structure.",
-								LogType.ERROR );
-				continue;
-			} else {
+			} else if( boardDir.isDirectory() ) { // append error log
 				// create new Board instance
 				Board newBoard = new Board( course );
 				newBoard.setTitle( boardDir.getName() );
-				
+
 				// fill from board.txt
 				File boardTxt = new File( boardDir, "board.txt" );
 				this.importTxtFile( boardTxt, newBoard );
@@ -223,7 +208,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 				this.fillBoard( newBoard, boardDir );
 
 				courseBoards.add( newBoard );
-			}
+			} 
 		}
 
 		// course specific corpus was not found
@@ -243,27 +228,20 @@ public class DirectoryImportStrategy extends AImportStrategy {
 		String fullyQualified = getClass() + ":fillBoard";
 
 		for( File threadDir : boardDir.listFiles() ) {
-			if( !threadDir.isDirectory() ) { // append error log
-				Application
-						.log( fullyQualified
-								+ ": the given subfolder of "
-								+ threadDir
-								+ " is not a directory. Read the docs so you learn about the correct structure.",
-								LogType.ERROR );
-				continue;
-			}
-			// create new thread
-			BoardThread boardThread = new BoardThread(newBoard);
-			String threadName = threadDir.getName();
-			boardThread.setTitle( threadName );
-			
-			// import boardthread.txt
-			File boardThreadFile = new File( threadDir, "boardthread.txt" );
-			this.importTxtFile( boardThreadFile, boardThread );
-			
-			this.fillThread( boardThread, threadDir );
+			if( threadDir.isDirectory() ) {
+				// create new thread
+				BoardThread boardThread = new BoardThread( newBoard );
+				String threadName = threadDir.getName();
+				boardThread.setTitle( threadName );
 
-			newBoard.addThread( boardThread );
+				// import boardthread.txt
+				File boardThreadFile = new File( threadDir, "boardthread.txt" );
+				this.importTxtFile( boardThreadFile, boardThread );
+
+				this.fillThread( boardThread, threadDir );
+
+				newBoard.addThread( boardThread );
+			}
 		}
 	}
 
@@ -285,7 +263,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 		};
 		for( File postingFile : threadDir.listFiles( txtFileFilter ) ) {
 			Posting p = new Posting( boardThread );
-			
+
 			// import from posting file
 			this.importTxtFile( postingFile, p );
 			if( null != p ) {
@@ -301,59 +279,59 @@ public class DirectoryImportStrategy extends AImportStrategy {
 
 	/**
 	 * Import any model which implements {@link IDirectoryPortable}
+	 * 
 	 * @param importFile
 	 * @param portableModel
 	 */
-	private void importTxtFile( File importFile, IDirectoryPortable portableModel) {
+	private void importTxtFile( File importFile,
+			IDirectoryPortable portableModel ) {
 		// fully qualified name of this class + method to be printed in a log
-				String fullyQualified = getClass() + ":parseTxtFile";
+		String fullyQualified = getClass() + ":parseTxtFile";
 
-				try {					
-					BufferedReader reader = new BufferedReader( new FileReader(
-							importFile ) );
+		try {
+			BufferedReader reader = new BufferedReader( new FileReader(
+					importFile ) );
 
-					String line;			
-					boolean contentMatched = false;
-					boolean taggedContentMatched = false;
-					StringBuilder contentBuilder = new StringBuilder();
-					StringBuilder taggedContentBuilder = new StringBuilder();
+			String line;
+			boolean contentMatched = false;
+			boolean taggedContentMatched = false;
+			StringBuilder contentBuilder = new StringBuilder();
+			StringBuilder taggedContentBuilder = new StringBuilder();
 
-					while( null != ( line = reader.readLine() ) ) {
-						if( !contentMatched && !taggedContentMatched ) {
-							if( line.startsWith(  "CONTENT:" ) ) {
-								contentMatched = true;
-							} else { // match key value pairs
-								Pattern pKeyValue = Pattern.compile( "^([A-Z]+):\\s(.*?)$" );
-								Matcher matcher = pKeyValue.matcher( line );
-								while ( matcher.find() ) {
-									String key = matcher.group(1);
-									String value = matcher.group(2);
-									
-									portableModel.importFromTxt( key, value );
-								}
-							}
-						} else if( contentMatched && !taggedContentMatched ) {
-							if( line.startsWith( "TAGGED_CONTENT:" ) ) {
-								taggedContentMatched = true;
-							} else {
-								contentBuilder.append( line + "\n" );
-							}
-						} else { // !contentMatched && taggedContentMatched
-							taggedContentBuilder.append( line + "\n" );
+			while( null != ( line = reader.readLine() ) ) {
+				if( !contentMatched && !taggedContentMatched ) {
+					if( line.startsWith( "CONTENT:" ) ) {
+						contentMatched = true;
+					} else { // match key value pairs
+						Pattern pKeyValue = Pattern
+								.compile( "^([A-Z]+):\\s(.*?)$" );
+						Matcher matcher = pKeyValue.matcher( line );
+						while( matcher.find() ) {
+							String key = matcher.group( 1 );
+							String value = matcher.group( 2 );
+
+							portableModel.importFromTxt( key, value );
 						}
 					}
-					reader.close();
+				} else if( contentMatched && !taggedContentMatched ) {
+					if( line.startsWith( "TAGGED_CONTENT:" ) ) {
+						taggedContentMatched = true;
+					} else {
+						contentBuilder.append( line + "\n" );
+					}
+				} else { // !contentMatched && taggedContentMatched
+					taggedContentBuilder.append( line + "\n" );
+				}
+			}
+			reader.close();
 
-					portableModel.importFromTxt( "CONTENT", contentBuilder.toString() );
-					portableModel.importFromTxt( "TAGGED_CONTENT", taggedContentBuilder.toString() );
-				} catch( IOException e ) {
-					Application
-							.log( fullyQualified
-									+ ": the given posting file doesn't exist (given:  "
-									+ importFile
-									+ "). Read the docs so you learn about the correct structure.",
-									LogType.ERROR );
-				}			
+			portableModel.importFromTxt( "CONTENT", contentBuilder.toString() );
+			portableModel.importFromTxt( "TAGGED_CONTENT",
+					taggedContentBuilder.toString() );
+		} catch( IOException | IllegalArgumentException e ) {
+			Application.log( fullyQualified + ": exception occured: " + e,
+					LogType.ERROR );
+		}
 	}
 
 	@Override

@@ -58,9 +58,7 @@ public class Anonymizer {
 					
 					posting.setContent( anonymizedUntaggedText );
 					
-					if (!anonymizedTaggedText.equals( anonymizedUntaggedText )) {
-						posting.setTaggedContent( anonymizedTaggedText );
-					}
+					// @TODo set tagged text?
 				}
 				catch (GeneralLoggingException e) {
 					System.err.println("Error while anonymisation of thread " + boardThread + ":"+  e.getPresentationMessage());

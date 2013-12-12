@@ -72,6 +72,8 @@ public class DirectoryImportStrategyTest {
 
 		Collection< Course > resultingSet = this.importStrategy
 				.importBoardFromFile( testDir );
+		
+		System.out.println(resultingSet);
 
 		assertTrue( null != resultingSet );
 
