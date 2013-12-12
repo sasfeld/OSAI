@@ -13,6 +13,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import de.bht.fb6.s778455.bachelor.organization.Application;
+import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
+
 /**
  * 
  * <p>
@@ -23,7 +26,7 @@ import java.util.Set;
  * @since 20.11.2013
  * 
  */
-public class Course implements Serializable {
+public class Course implements Serializable, IDirectoryPortable {
 	/**
 	 * 
 	 */
@@ -313,6 +316,59 @@ public class Course implements Serializable {
 		return txtExport.toString();
 	}
 
+	@Override
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * de.bht.fb6.s778455.bachelor.model.IDirectoryPortable#importFromTxt(java
+	 * .lang.String, java.lang.String)
+	 */
+	public void importFromTxt( String key, String value ) {
+		if( null == key || 0 == key.length() || null == value
+				|| 0 == value.length() ) {
+			throw new IllegalArgumentException(
+					"Illegal value for key or value!" );
+		}
+
+		if( key.equals( "ID" ) ) {
+			try {
+				this.setId( Integer.parseInt( value ) );
+			} catch( NumberFormatException e ) {
+				Application
+						.log( getClass()
+								+ ":importFromTxt: couldn't parse given value to an integer ID. Given value: "
+								+ value, LogType.ERROR );
+			}
+		} else if( key.equals( "CREATION_DATETIME" ) ) {
+			try {
+				this.setCreationDate( new Date( Long.parseLong( value ) ) );
+			} catch( NumberFormatException e ) {
+				Application
+						.log( getClass()
+								+ ":importFromTxt: couldn't parse given creation date to an Date . Given value: "
+								+ value, LogType.ERROR );
+			}
+		} else if( key.equals( "MODIFICATION_DATETIME" ) ) {
+			try {
+				this.setModificationDate( new Date( Long.parseLong( value ) ) );
+			} catch( NumberFormatException e ) {
+				Application
+						.log( getClass()
+								+ ":importFromTxt: couldn't parse given modification date to an Date . Given value: "
+								+ value, LogType.ERROR );
+			}
+		} else if( key.equals( "TITLE" ) ) {
+			this.setTitle( value );
+		} else if( key.equals( "LANG" ) ) {
+			this.setLang( value );
+		} else if( key.equals( "SHORT_NAME" ) ) {
+			this.setShortName( value );
+		} else if( key.equals( "SUMMARY" ) ) {
+			this.setSummary( value );
+		}
+	}
+
 	/*
 	 * (non-Javadoc)
 	 * 
@@ -424,4 +480,5 @@ public class Course implements Serializable {
 				+ getShortName() + ", getSummary()=" + getSummary()
 				+ ", getBoards()=" + getBoards() + "]";
 	}
+
 }

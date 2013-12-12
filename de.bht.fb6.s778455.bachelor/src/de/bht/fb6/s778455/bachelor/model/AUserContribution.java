@@ -22,7 +22,7 @@ import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
  * @since 20.11.2013
  * 
  */
-public abstract class AUserContribution {
+public abstract class AUserContribution implements IDirectoryPortable {
 	protected Date creationDate;
 	protected Date modificationDate;
 	protected Creator creator;
@@ -153,11 +153,10 @@ public abstract class AUserContribution {
 		return true;
 	}
 
-	/**
-	 * Get a representation of this model for a *.txt String.
-	 * 
-	 * @return
+	/* (non-Javadoc)
+	 * @see de.bht.fb6.s778455.bachelor.model.IDirectoryPortable#exportToTxt()
 	 */
+	@Override
 	public String exportToTxt() {
 		StringBuilder exportStr = new StringBuilder();
 
@@ -175,6 +174,10 @@ public abstract class AUserContribution {
 		return exportStr.toString();
 	}
 
+	/* (non-Javadoc)
+	 * @see de.bht.fb6.s778455.bachelor.model.IDirectoryPortable#importFromTxt(java.lang.String, java.lang.String)
+	 */
+	@Override
 	public void importFromTxt( String key, String value ) {
 		if( null == key || 0 == key.length() || null == value
 				|| 0 == value.length() ) {
