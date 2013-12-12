@@ -715,12 +715,70 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 							"lastname" );
 			this.addPersonCorpora( resultingEnrolEntities,
 					resultingUserEnrolmentEntities, resultingUserEntities );
+		} else { // make global corpus only on user entities
+			// parse mdl_user.sql
+			File userFile = new File( personCorpus, NAME_USERS_FILE );
+			if( !userFile.exists() || !userFile.isFile() ) {
+				Application
+						.log( getClass()
+								+ "fillFromFile(): the given file doesn't exist or is not a file: "
+								+ userFile, LogType.ERROR );
+				return null;
+			}
+			PostgreSqlDumpParser userParser = new PostgreSqlDumpParser(
+					userFile );
+			List< Map< String, String > > resultingUserEntities = userParser
+					.fetchEntities( "mdl_user", "id", "deleted", "firstname",
+							"lastname" );
+			this.fillPersonSingleton( resultingUserEntities );
+
 		}
 		return null;
 	}
 
 	/**
+	 * Fill the singleton corpus.
+	 * @param resultingUserEntities
+	 */
+	private void fillPersonSingleton(
+			List< Map< String, String >> resultingUserEntities ) {
+		PersonNameCorpus singleton = ServiceFactory
+				.getPersonNameCorpusSingleton();
+
+		for( Map< String, String > userEntity : resultingUserEntities ) {
+			int userId = 0;
+			try {
+				userId = Integer.parseInt( userEntity.get( "id" ) );
+			} catch( NumberFormatException e ) {
+				// below
+			}
+
+			if( 0 == userId ) {
+				Application
+						.log( getClass()
+								+ "addPersonCorpora(): corrupt dump. userid of 'mdl_user' couldn't be parsed. Given file: "
+								+ NAME_USER_ENROLE_FILE, LogType.ERROR );
+			} else {
+				String prename = userEntity.get( "firstname" );
+				if( null != prename ) {
+					singleton.fillPrename( prename,
+							false );
+				}
+				String lastname = userEntity.get( "lastname" );
+				if( null != lastname ) {
+					singleton.fillLastname( lastname,
+							false );
+				}
+
+			}
+		}
+
+	}
+
+	/**
 	 * Add the given entities to the correct corpus.
+	 * 
+	 * @TODO add special "fallback" support
 	 * 
 	 * @param resultingEnrolEntities
 	 * @param resultingUserEnrolmentEntities
@@ -765,42 +823,55 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 					} else {
 						int uUserId = 0;
 						try {
-							uUserId = Integer.parseInt( userEnrolmentEntity.get("userid" ));
-						} catch (NumberFormatException e) {
+							uUserId = Integer.parseInt( userEnrolmentEntity
+									.get( "userid" ) );
+						} catch( NumberFormatException e ) {
 							// handled below
 						}
-						
-						if (0 == uUserId) {
+
+						if( 0 == uUserId ) {
 							Application
-							.log( getClass()
-									+ "addPersonCorpora(): corrupt dump. userid couldn't be parsed. Given file: "
-									+ NAME_USER_ENROLE_FILE, LogType.ERROR );
-						}
-						else {
+									.log( getClass()
+											+ "addPersonCorpora(): corrupt dump. userid couldn't be parsed. Given file: "
+											+ NAME_USER_ENROLE_FILE,
+											LogType.ERROR );
+						} else {
 							for( Map< String, String > userEntity : resultingUserEntities ) {
 								int userId = 0;
 								try {
-									userId = Integer.parseInt( userEntity.get( "id" ) );
-								} catch(NumberFormatException e) {
+									userId = Integer.parseInt( userEntity
+											.get( "id" ) );
+								} catch( NumberFormatException e ) {
 									// below
 								}
-								
-								if ( 0 == userId ) {
+
+								if( 0 == userId ) {
 									Application
-									.log( getClass()
-											+ "addPersonCorpora(): corrupt dump. userid of 'mdl_user' couldn't be parsed. Given file: "
-											+ NAME_USER_ENROLE_FILE, LogType.ERROR );
+											.log( getClass()
+													+ "addPersonCorpora(): corrupt dump. userid of 'mdl_user' couldn't be parsed. Given file: "
+													+ NAME_USER_ENROLE_FILE,
+													LogType.ERROR );
 								} else {
-									if ( userId == uUserId ) { // mdl_user_enrolment entity linked to user entity
-										Course enroledCourse = this.savedCourses.get( courseId );
-										String prename = userEntity.get( "firstname" );
-										if (null != prename) {
-											enroledCourse.getPersonNameCorpus().fillPrename( prename , false );
+									if( userId == uUserId ) { // mdl_user_enrolment
+																// entity linked
+																// to user
+																// entity
+										Course enroledCourse = this.savedCourses
+												.get( courseId );
+										String prename = userEntity
+												.get( "firstname" );
+										if( null != prename ) {
+											enroledCourse.getPersonNameCorpus()
+													.fillPrename( prename,
+															false );
 										}
-										String lastname = userEntity.get( "lastname" );
-										if ( null != lastname) {
-											enroledCourse.getPersonNameCorpus().fillLastname( lastname, false );
-										}						
+										String lastname = userEntity
+												.get( "lastname" );
+										if( null != lastname ) {
+											enroledCourse.getPersonNameCorpus()
+													.fillLastname( lastname,
+															false );
+										}
 									}
 								}
 							}
