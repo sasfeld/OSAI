@@ -128,5 +128,18 @@ public class MoodlePostgreSqlImportStrategyTest {
 
 		System.out.println( courses );
 	}
+	
+	@Test
+	public void testFillFromFile() throws GeneralLoggingException {
+		Collection< Course > courses = this.importStrategy
+				.importBoardFromFile( this.testFolder );
+		
+		for( Course course : courses ) {
+			System.out.println("++++++++++++++++++++++++++++");
+			System.out.println("course name: " + course.getTitle());
+			System.out.println("Corpus: \n " + course.getPersonNameCorpus());
+			System.out.println("++++++++++++++++++++++++++++");
+		}
+	}
 
 }

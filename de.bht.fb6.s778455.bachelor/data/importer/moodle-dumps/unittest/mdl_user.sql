@@ -11,23 +11,6 @@ SET client_min_messages = warning;
 
 SET search_path = public, pg_catalog;
 
-DROP INDEX public.mdl_user_mneuse_uix;
-DROP INDEX public.mdl_user_las_ix;
-DROP INDEX public.mdl_user_las2_ix;
-DROP INDEX public.mdl_user_idn_ix;
-DROP INDEX public.mdl_user_fir_ix;
-DROP INDEX public.mdl_user_ema_ix;
-DROP INDEX public.mdl_user_del_ix;
-DROP INDEX public.mdl_user_cou_ix;
-DROP INDEX public.mdl_user_con_ix;
-DROP INDEX public.mdl_user_cit_ix;
-DROP INDEX public.mdl_user_aut_ix;
-ALTER TABLE ONLY public.mdl_user DROP CONSTRAINT mdl_user_id_pk;
-ALTER TABLE public.mdl_user ALTER COLUMN id DROP DEFAULT;
-DROP SEQUENCE public.mdl_user_id_seq;
-DROP TABLE public.mdl_user;
-SET search_path = public, pg_catalog;
-
 SET default_tablespace = '';
 
 SET default_with_oids = false;
@@ -132,9 +115,11 @@ ALTER TABLE ONLY mdl_user ALTER COLUMN id SET DEFAULT nextval('mdl_user_id_seq':
 
 COPY mdl_user (id, auth, confirmed, policyagreed, deleted, suspended, mnethostid, username, password, idnumber, firstname, lastname, email, emailstop, icq, skype, yahoo, aim, msn, phone1, phone2, institution, department, address, city, country, lang, theme, timezone, firstaccess, lastaccess, lastlogin, currentlogin, lastip, secret, picture, url, description, descriptionformat, mailformat, maildigest, maildisplay, htmleditor, autosubscribe, trackforums, timecreated, timemodified, trustbitmask, imagealt) FROM stdin;
 1	manual	1	0	0	0	1	guest	f9353abcef00bc04b5f7104d83b0992d		Gast	 	root@localhost	0													de		99	0	0	0	0			0		Der Nutzer 'Gast' hat ausschließlich Lesezugriff für Kurse, die den Gastzugriff ausdrücklich erlauben.	0	1	0	2	1	1	0	0	1386688995	0	\N
+2	manual	1	0	0	0	1	admin	9b67464eaf416e699290c6965a99d2e2		Mr	Moodle	sascha.feldmann@gmx.de	0											Berlin	DE	de		99	1386689101	1386845089	1386689101	1386841538	127.0.0.1		0			0	1	0	1	1	1	0	0	1386689460	0	\N
+6	manual	1	0	0	0	1	langername	9b67464eaf416e699290c6965a99d2e2		Hans Dieter Peter	Parker	bla@bla.de	0											Berlin	DE	de		99	0	0	0	0			0			1	1	0	2	1	1	0	1386845090	1386845090	0	
 3	none	1	0	1	0	1	bla@blababaselbva.de.1386692831	e02d631a74f402a308d869b410dfeb25		Christian	Kaus	670456741df3843d1cdb47acd69293dd	0											Berlin	DE	de		99	0	0	0	0			0			1	1	0	2	1	1	0	1386691695	1386692831	0	
-2	manual	1	0	0	0	1	admin	9b67464eaf416e699290c6965a99d2e2		Mr	Moodle	sascha.feldmann@gmx.de	0											Berlin	DE	de		99	1386689101	1386693424	0	1386689101	127.0.0.1		0			0	1	0	1	1	1	0	0	1386689460	0	\N
 4	none	1	0	0	0	1	ckaus	9b67464eaf416e699290c6965a99d2e2		Christian	Kaus	test@groupelite.de	0											Berlin	DE	de		99	1386692970	1386693564	0	1386692970	127.0.0.1		0			1	1	0	2	1	1	0	1386692930	1386692930	0	
+5	none	1	0	0	0	1	mseidler	9b67464eaf416e699290c6965a99d2e2		Marco	Seidler	thisisnotmarco@bla.de	0											Berlin	CD	de		99	0	0	0	0			0			1	1	0	2	1	1	0	1386841697	1386841697	0	
 \.
 
 
@@ -142,7 +127,7 @@ COPY mdl_user (id, auth, confirmed, policyagreed, deleted, suspended, mnethostid
 -- Name: mdl_user_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('mdl_user_id_seq', 4, true);
+SELECT pg_catalog.setval('mdl_user_id_seq', 6, true);
 
 
 --

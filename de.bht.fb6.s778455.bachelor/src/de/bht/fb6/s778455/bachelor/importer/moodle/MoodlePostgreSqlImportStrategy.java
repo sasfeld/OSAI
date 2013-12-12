@@ -84,7 +84,7 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 	 */
 	public static final String NAME_USERS_FILE = "mdl_user.sql";
 	private static final String NAME_USER_ENROLE_FILE = "mdl_user_enrolments.sql";
-	private static final String NAME_ENROLE_FILE = "mdl_user_enrol.sql";
+	private static final String NAME_ENROLE_FILE = "mdl_enrol.sql";
 	/**
 	 * Configuration of person corpus import true | false | fallback
 	 */
@@ -144,6 +144,9 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 		this.importPostings( inputFile, threads );
 
 		this.savedCourses = courses;
+		// import person
+		this.fillFromFile( inputFile, null, null );
+		
 		return courses.values();
 	}
 
