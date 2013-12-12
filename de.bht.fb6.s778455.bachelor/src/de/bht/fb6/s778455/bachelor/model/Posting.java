@@ -88,6 +88,36 @@ public class Posting extends AUserContribution {
 	public void setTaggedContent( String taggedContent ) {
 		this.taggedContent = taggedContent;
 	}
+	
+	/*
+	 * (non-Javadoc)
+	 * @see de.bht.fb6.s778455.bachelor.model.AUserContribution#exportToTxt()
+	 */
+	public String exportToTxt() {
+		StringBuilder txtExport = new StringBuilder();
+		
+		txtExport.append( super.exportToTxt() );
+		txtExport.append( "PARENT_POSTING_ID: " + this.getParentPostingId() + "\n");
+		txtExport.append( "CONTENT:\n");
+		
+		String[] postingLines = this.getContent().split( "\n" );
+
+		for( String line : postingLines ) {
+			txtExport.append( line + "\n" );
+		}
+		
+
+		txtExport.append( "TAGGED_CONTENT:\n");
+		String[] taggedPostingLines = this.getTaggedContent().split(
+				"\n" );
+
+		for( String taggedLine : taggedPostingLines ) {
+			txtExport.append( taggedLine );
+		}
+
+		
+		return txtExport.toString();
+	}
 
 	/* (non-Javadoc)
 	 * @see java.lang.Object#hashCode()

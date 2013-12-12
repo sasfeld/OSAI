@@ -260,6 +260,24 @@ public class Course implements Serializable {
 		return this.learnedWords.get( wordType );
 	}
 	
+	/*
+	 * (non-Javadoc)
+	 * @see de.bht.fb6.s778455.bachelor.model.AUserContribution#exportToTxt()
+	 */
+	public String exportToTxt() {
+		StringBuilder txtExport = new StringBuilder();
+		
+		txtExport.append( "ID: " + this.getId() + "\n" );
+		txtExport.append( "CREATION_DATETIME: " + this.getCreationDate().getTime() + "\n");
+		txtExport.append( "MODIFICATION_DATETIME: " + this.getModificationDate().getTime() + "\n");		
+		txtExport.append( "LANG: " + this.getLang() + "\n" );
+		txtExport.append( "SHORT_NAME: " + this.getShortName() + "\n" );
+		txtExport.append( "TITLE: " + this.getTitle() + "\n");
+		txtExport.append( "SUMMARY: " + this.getSummary() + "\n");		
+		
+		return txtExport.toString();
+	}
+	
 	/* (non-Javadoc)
 	 * @see java.lang.Object#hashCode()
 	 */

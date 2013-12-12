@@ -128,4 +128,18 @@ public class Board extends AUserContribution {
 	public String getType() {
 		return this.type;
 	}
+	
+	/*
+	 * (non-Javadoc)
+	 * @see de.bht.fb6.s778455.bachelor.model.AUserContribution#exportToTxt()
+	 */
+	public String exportToTxt() {
+		StringBuilder txtExport = new StringBuilder();
+		
+		txtExport.append( super.exportToTxt() );
+		txtExport.append( "INTRO: " + this.getIntro() + "\n" );
+		txtExport.append( "TYPE: " + this.getType() + "\n" );
+		
+		return txtExport.toString();
+	}
 }

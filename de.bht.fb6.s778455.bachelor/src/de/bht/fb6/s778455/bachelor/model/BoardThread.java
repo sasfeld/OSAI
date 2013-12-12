@@ -116,4 +116,16 @@ public class BoardThread extends AUserContribution {
 		return this.endDate;
 	}
 	
+	/*
+	 * (non-Javadoc)
+	 * @see de.bht.fb6.s778455.bachelor.model.AUserContribution#exportToTxt()
+	 */
+	public String exportToTxt() {
+		StringBuilder txtExport = new StringBuilder();
+		
+		txtExport.append( super.exportToTxt() );
+		txtExport.append( "FIRST_POSTING_ID: " + this.getFirstPostingId() + "\n");
+		
+		return txtExport.toString();
+	}
 }

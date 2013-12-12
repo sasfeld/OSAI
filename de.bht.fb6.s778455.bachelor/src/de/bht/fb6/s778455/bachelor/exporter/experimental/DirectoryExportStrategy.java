@@ -24,7 +24,10 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
  * <p>
  * It's mostly meant to be able to analyze moodle courses, e.g. after
  * anonymization.
+ * 
  * </p>
+ * 
+ * @TODO move generation of txt contents to the model!
  * 
  * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
  * @since 22.11.2013
@@ -58,50 +61,66 @@ public class DirectoryExportStrategy extends AExportStrategy {
 		}
 
 		for( Course course : anonymizedCourses ) {
-			this.createCourseDir( outputFile, course );			
+			this.createCourseDir( outputFile, course );
 		}
 		return false;
 	}
 
 	/**
 	 * Create the directory which represents a single {@link Course}.
+	 * 
 	 * @param outputDir
 	 * @param course
 	 * @throws GeneralLoggingException
 	 */
-	private void createCourseDir( File outputDir, Course course ) throws GeneralLoggingException {
-		File newCourseDir = new File( outputDir, this.removeIllegalChars(course.getTitle()) );
+	private void createCourseDir( File outputDir, Course course )
+			throws GeneralLoggingException {
+		File newCourseDir = new File( outputDir,
+				this.removeIllegalChars( course.getTitle() ) );
 		newCourseDir.mkdir(); // create new dir immediatly.
+
+		// create course.txt file
+		File courseFile = new File( newCourseDir, "course.txt" );
+		this.createTxtFile( courseFile, course.exportToTxt() );
 		
-		this.createBoardDirs( newCourseDir, course.getBoards() );		
+		this.createBoardDirs( newCourseDir, course.getBoards() );
 	}
 
 	/**
 	 * Remove illegal characters in the file name and replace them by '_'
+	 * 
 	 * @param title
 	 * @return
 	 */
-	private String removeIllegalChars( String filename ) {		
-		return filename.replaceAll("[^a-zA-Z0-9.-]", "_");
+	private String removeIllegalChars( String filename ) {
+		return filename.replaceAll( "[^a-zA-Z0-9.-]", "_" );
 	}
 
 	/**
-	 * Create the directories for each {@link Board} instance within the list of {@link Board}.
+	 * Create the directories for each {@link Board} instance within the list of
+	 * {@link Board}.
+	 * 
 	 * @param courseDir
 	 * @param boards
 	 * @throws GeneralLoggingException
 	 */
-	private void createBoardDirs( File courseDir, List< Board > boards ) throws GeneralLoggingException {
-		
-		for (Board board: boards) {
-			File newBoardDir = new File( courseDir, this.removeIllegalChars( board.getTitle() ));
+	private void createBoardDirs( File courseDir, List< Board > boards )
+			throws GeneralLoggingException {
+
+		for( Board board : boards ) {
+			File newBoardDir = new File( courseDir,
+					this.removeIllegalChars( board.getTitle() ) );
 			newBoardDir.mkdir(); // create new dir immediatly.
 			
+			// create board.txt file
+			File boardTxt = new File( newBoardDir, "board.txt" );
+			this.createTxtFile( boardTxt, board.exportToTxt() );
+
 			for( BoardThread boardThread : board.getBoardThreads() ) {
 				this.createBoardThreadDir( newBoardDir, boardThread );
 			}
 		}
-		
+
 	}
 
 	/**
@@ -113,9 +132,12 @@ public class DirectoryExportStrategy extends AExportStrategy {
 	 */
 	private void createBoardThreadDir( File newBoardDir, BoardThread boardThread )
 			throws GeneralLoggingException {
-		File newBoardThreadDir = new File( newBoardDir, this.removeIllegalChars( boardThread.getTitle() ));
+		File newBoardThreadDir = new File( newBoardDir,
+				this.removeIllegalChars( boardThread.getTitle() ) );
 		newBoardThreadDir.mkdir(); // create new dir immediatly.
 
+		File newBoardThreadFile = new File( newBoardThreadDir, "boardthread.txt" );
+		this.createTxtFile( newBoardThreadFile, boardThread.exportToTxt() );
 		// if (!successCreation) {
 		// throw new GeneralLoggingException(
 		// getClass()
@@ -128,55 +150,30 @@ public class DirectoryExportStrategy extends AExportStrategy {
 
 		int i = 1;
 		for( Posting posting : boardThread.getPostings() ) {
-			this.createPostingFile( newBoardThreadDir, posting, i );
+			File newPostingFile = new File( newBoardThreadDir, "posting"
+					+ i + ".txt" );
+			this.createTxtFile( newPostingFile, posting.exportToTxt() );
 			i++;
 		}
-	}
-
-	/**
-	 * Create a new posting.txt file for the given {@link Posting}.
-	 * 
-	 * @param newBoardThreadDir
-	 * @param posting
-	 * @param numberIncrement
-	 * @throws GeneralLoggingException
-	 */
-	private void createPostingFile( File newBoardThreadDir, Posting posting,
-			int numberIncrement ) throws GeneralLoggingException {
-		File newPostingFile = new File( newBoardThreadDir, "posting"
-				+ numberIncrement + ".txt" );
+	}	
+	
+	private void createTxtFile( File newFile, String txtContent ) throws GeneralLoggingException {
 		try {
-			newPostingFile.createNewFile();
+			newFile.createNewFile();
 			PrintWriter writer = new PrintWriter( new FileWriter(
-					newPostingFile ) );
-
-			writer.println( "CREATION_DATETIME: "
-					+ posting.getCreationDate().getTime() );
-			writer.println( "CONTENT:" );
-
-			String[] postingLines = posting.getContent().split( "\n" );
-
-			for( String line : postingLines ) {
-				writer.println( line );
-			}
-
-			writer.println( "TAGGED_CONTENT:" );
-
-			String[] taggedPostingLines = posting.getTaggedContent().split(
-					"\n" );
-
-			for( String taggedLine : taggedPostingLines ) {
-				writer.println( taggedLine );
-			}
+					newFile ) );
+		
+			writer.write( txtContent );		
 
 			writer.flush();
 
 			writer.close();
 		} catch( IOException e ) {
-			throw new GeneralLoggingException(
-					getClass()
-							+ ":createPostingFile: the posting file ("+newPostingFile.getAbsolutePath()+")couldn't be created. Original exception: \n"
-							+ e.getLocalizedMessage(),
+			throw new GeneralLoggingException( getClass()
+					+ ":createPostingFile: the posting file ("
+					+ newFile.getAbsolutePath()
+					+ ")couldn't be created. Original exception: \n"
+					+ e.getLocalizedMessage(),
 					"An internal error occured in the exporter module. Please check the logs." );
 
 		}

@@ -127,4 +127,19 @@ public abstract class AUserContribution {
 			return false;
 		return true;
 	}
+	
+	/**
+	 * Get a representation of this model for a *.txt String.
+	 * @return
+	 */
+	public String exportToTxt() {
+		StringBuilder exportStr = new StringBuilder();
+	
+		exportStr.append( "ID: " + this.getId() + "\n" );
+		exportStr.append( "CREATION_DATETIME: " + this.getCreationDate().getTime()  + "\n"  );
+		exportStr.append( "MODIFICATION_DATETIME: " + this.getModificationDate().getTime()  + "\n"  );
+		exportStr.append( "TITLE: " + this.getTitle()  + "\n"  );		
+		
+		return exportStr.toString();
+	}
 }
