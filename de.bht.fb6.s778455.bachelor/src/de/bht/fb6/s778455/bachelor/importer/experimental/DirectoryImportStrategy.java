@@ -89,7 +89,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	 */
 	public DirectoryImportStrategy() {
 		this.boardSpecificImport = ServiceFactory.getConfigReader().fetchValue(
-				IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_BOARDSPECIFIC );
+				IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC );
 	}
 
 	@Override

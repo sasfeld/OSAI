@@ -64,15 +64,26 @@ public class PersonNameCorpus {
 	
 	/**
 	 * Add a single prename (first or middle name). In the case sensitive mode a lower cased string will be added as well.
+	 * When giving a String that contains whitespaces, the string will be split by the whitespaces (for multiple prenames).
 	 * @param prename
 	 * @param caseSensitive
 	 */
 	public void fillPrename(String prename, boolean caseSensitive) {
-		if (!caseSensitive) {
-			this.prenames.add( prename.toLowerCase() );
+		String[] prenames = {prename};
+		if (prename.contains( " "  )) {
+			prenames = prename.split( " " );
 		}
 		
-		this.prenames.add( prename );
+		if (!caseSensitive) {
+			for( String lPrename : prenames ) {
+				this.prenames.add( lPrename.toLowerCase() );
+			}
+			
+		}
+		
+		for( String lPrename : prenames ) {
+			this.prenames.add( lPrename );
+		}
 	}
 	
 	/**

@@ -9,11 +9,13 @@ import java.io.InputStream;
 import java.util.Collection;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
+import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
@@ -23,6 +25,7 @@ import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 
 /**
  * 
@@ -80,6 +83,27 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 	 * table.
 	 */
 	public static final String NAME_USERS_FILE = "mdl_user.sql";
+	private static final String NAME_USER_ENROLE_FILE = "mdl_user_enrolments.sql";
+	private static final String NAME_ENROLE_FILE = "mdl_user_enrol.sql";
+	/**
+	 * Configuration of person corpus import true | false | fallback
+	 */
+	private String personOption;
+	/**
+	 * Saved courses of the last import. A map of id => course instance.
+	 */
+	private Map< Integer, Course > savedCourses;
+
+	/**
+	 * Create and prepare a new instance.
+	 */
+	public MoodlePostgreSqlImportStrategy() {
+		this.personOption = ServiceFactory
+				.getConfigReader()
+				.fetchValue(
+						IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC )
+				.trim().toLowerCase();
+	}
 
 	@Override
 	/*
@@ -119,6 +143,7 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 				inputFile, boards );
 		this.importPostings( inputFile, threads );
 
+		this.savedCourses = courses;
 		return courses.values();
 	}
 
@@ -183,55 +208,55 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 								+ NAME_POSTINGS_FILE, LogType.ERROR );
 			} else { // otherwise, get belonging thread instance and fill
 				BoardThread thread = threads.get( threadId );
-				if ( null == thread ) {
+				if( null == thread ) {
 					Application
-					.log( getClass()
-							+ "mapBoardThreads: the BoardThread instance to the given posting doesn't exist. Is the dump corrupted or aren't the dumps asynchronous?"
-							+ NAME_POSTINGS_FILE, LogType.ERROR );
-				}
-				else {
-					Posting newPosting = new Posting(thread);
+							.log( getClass()
+									+ "mapBoardThreads: the BoardThread instance to the given posting doesn't exist. Is the dump corrupted or aren't the dumps asynchronous?"
+									+ NAME_POSTINGS_FILE, LogType.ERROR );
+				} else {
+					Posting newPosting = new Posting( thread );
 					thread.addPosting( newPosting );
-					
+
 					// parent posting id
 					try {
-						int parentPostingId = Integer.parseInt( entity.get( "parent" ) );
-						newPosting.setParentPostingId(parentPostingId);
-					} catch (NumberFormatException e) {
+						int parentPostingId = Integer.parseInt( entity
+								.get( "parent" ) );
+						newPosting.setParentPostingId( parentPostingId );
+					} catch( NumberFormatException e ) {
 						Application.log( getClass() + "mapPostings: " + e,
 								LogType.ERROR );
 					}
-					
+
 					// title
 					String title = entity.get( "subject" );
-					if ( null != title ) {
+					if( null != title ) {
 						newPosting.setTitle( title );
 					}
-					
+
 					// message
 					String message = entity.get( "message" );
-					if ( null != message) {
+					if( null != message ) {
 						newPosting.setContent( message );
+					} else {
+						Application
+								.log( getClass()
+										+ ":mapPostings(): Posting with empty content created! Posting: "
+										+ newPosting, LogType.ERROR );
 					}
-					else {
-						Application.log( getClass() + ":mapPostings(): Posting with empty content created! Posting: " + newPosting,
-								LogType.ERROR );
-					}
-					
 
 					// creation date
 					try {
 						long creationTime = Long.parseLong( entity
 								.get( "created" ) );
 						if( 0 != creationTime ) {
-							newPosting.setCreationDate( new Date(
-									creationTime ) );
+							newPosting
+									.setCreationDate( new Date( creationTime ) );
 						}
 					} catch( NumberFormatException e ) {
 						Application.log( getClass() + ":mapPostings(): " + e,
 								LogType.ERROR );
 					}
-					
+
 					// modification date
 					try {
 						long modifcationTime = Long.parseLong( entity
@@ -639,7 +664,181 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 	public PersonNameCorpus fillFromFile( File personCorpus,
 			PersonNameCorpus corpusInstance, PersonNameType nameType )
 			throws GeneralLoggingException {
-		// TODO Auto-generated method stub
+		// fallback or true -> only read the course names course-based
+		if( this.personOption.equals( "fallback" )
+				|| this.personOption.equals( "true" ) ) {
+			// parse mdl_enrol.sql
+			File userEnrolFile = new File( personCorpus, NAME_ENROLE_FILE );
+			if( !userEnrolFile.exists() || !userEnrolFile.isFile() ) {
+				Application
+						.log( getClass()
+								+ "fillFromFile(): the given file doesn't exist or is not a file: "
+								+ userEnrolFile, LogType.ERROR );
+				return null;
+			}
+			PostgreSqlDumpParser userEnrolParser = new PostgreSqlDumpParser(
+					userEnrolFile );
+			List< Map< String, String > > resultingEnrolEntities = userEnrolParser
+					.fetchEntities( "mdl_enrol", "id", "courseid" );
+
+			// filter courses
+			this.filterCourses( resultingEnrolEntities );
+
+			// parse mdl_user_enrolments.sql
+			File userEnrolmentFile = new File( personCorpus,
+					NAME_USER_ENROLE_FILE );
+			if( !userEnrolmentFile.exists() || !userEnrolmentFile.isFile() ) {
+				Application
+						.log( getClass()
+								+ "fillFromFile(): the given file doesn't exist or is not a file: "
+								+ userEnrolmentFile, LogType.ERROR );
+				return null;
+			}
+			PostgreSqlDumpParser userEnrolmentParser = new PostgreSqlDumpParser(
+					userEnrolmentFile );
+			List< Map< String, String > > resultingUserEnrolmentEntities = userEnrolmentParser
+					.fetchEntities( "mdl_user_enrolments", "enrolid", "userid" );
+
+			// parse mdl_user.sql
+			File userFile = new File( personCorpus, NAME_USERS_FILE );
+			if( !userFile.exists() || !userFile.isFile() ) {
+				Application
+						.log( getClass()
+								+ "fillFromFile(): the given file doesn't exist or is not a file: "
+								+ userFile, LogType.ERROR );
+				return null;
+			}
+			PostgreSqlDumpParser userParser = new PostgreSqlDumpParser(
+					userFile );
+			List< Map< String, String > > resultingUserEntities = userParser
+					.fetchEntities( "mdl_user", "id", "deleted", "firstname",
+							"lastname" );
+			this.addPersonCorpora( resultingEnrolEntities,
+					resultingUserEnrolmentEntities, resultingUserEntities );
+		}
 		return null;
+	}
+
+	/**
+	 * Add the given entities to the correct corpus.
+	 * 
+	 * @param resultingEnrolEntities
+	 * @param resultingUserEnrolmentEntities
+	 * @param resultingUserEntities
+	 */
+	private void addPersonCorpora(
+			List< Map< String, String >> resultingEnrolEntities,
+			List< Map< String, String >> resultingUserEnrolmentEntities,
+			List< Map< String, String >> resultingUserEntities ) {
+		for( Map< String, String > enrolEntity : resultingEnrolEntities ) {
+			int courseId = 0;
+			int enrolId = 0;
+			try {
+				courseId = Integer.parseInt( enrolEntity.get( "courseid" ) );
+				enrolId = Integer.parseInt( enrolEntity.get( "id" ) );
+			} catch( NumberFormatException e ) {
+				// handled below
+			}
+
+			if( 0 == courseId || 0 == enrolId ) {
+				Application
+						.log( getClass()
+								+ "addPersonCorpora(): corrupt dump. courseId or id of 'mdl_enrol' couldn't be parsed. Given file: "
+								+ NAME_USER_ENROLE_FILE, LogType.ERROR );
+			} else {
+				// look for user ids depending on the course id
+				for( Map< String, String > userEnrolmentEntity : resultingUserEnrolmentEntities ) {
+					int uEnrolId = 0;
+					try {
+						uEnrolId = Integer.parseInt( userEnrolmentEntity
+								.get( "enrolid" ) );
+
+					} catch( NumberFormatException e ) {
+						// handled below
+					}
+
+					if( 0 == uEnrolId ) {
+						Application
+								.log( getClass()
+										+ "addPersonCorpora(): corrupt dump. enrolid couldn't be parsed. Given file: "
+										+ NAME_USER_ENROLE_FILE, LogType.ERROR );
+					} else {
+						int uUserId = 0;
+						try {
+							uUserId = Integer.parseInt( userEnrolmentEntity.get("userid" ));
+						} catch (NumberFormatException e) {
+							// handled below
+						}
+						
+						if (0 == uUserId) {
+							Application
+							.log( getClass()
+									+ "addPersonCorpora(): corrupt dump. userid couldn't be parsed. Given file: "
+									+ NAME_USER_ENROLE_FILE, LogType.ERROR );
+						}
+						else {
+							for( Map< String, String > userEntity : resultingUserEntities ) {
+								int userId = 0;
+								try {
+									userId = Integer.parseInt( userEntity.get( "id" ) );
+								} catch(NumberFormatException e) {
+									// below
+								}
+								
+								if ( 0 == userId ) {
+									Application
+									.log( getClass()
+											+ "addPersonCorpora(): corrupt dump. userid of 'mdl_user' couldn't be parsed. Given file: "
+											+ NAME_USER_ENROLE_FILE, LogType.ERROR );
+								} else {
+									if ( userId == uUserId ) { // mdl_user_enrolment entity linked to user entity
+										Course enroledCourse = this.savedCourses.get( courseId );
+										String prename = userEntity.get( "firstname" );
+										if (null != prename) {
+											enroledCourse.getPersonNameCorpus().fillPrename( prename , false );
+										}
+										String lastname = userEntity.get( "lastname" );
+										if ( null != lastname) {
+											enroledCourse.getPersonNameCorpus().fillLastname( lastname, false );
+										}						
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+	}
+
+	/**
+	 * Filter courses which are not stored in the field storedCourses.
+	 * 
+	 * @param resultingEntities
+	 */
+	private void filterCourses( List< Map< String, String >> resultingEntities ) {
+		Iterator< Map< String, String > > it = resultingEntities.iterator();
+		while( it.hasNext() ) {
+			Map< String, String > entity = it.next();
+			int courseId = 0;
+			try {
+				courseId = Integer.parseInt( entity.get( "courseid" ) );
+			} catch( NumberFormatException e ) {
+				// handled below
+			}
+
+			if( 0 == courseId ) {
+				Application
+						.log( getClass()
+								+ "filterCourses(): corrupt dump. courseId couldn't be parsed. Given file: "
+								+ NAME_USER_ENROLE_FILE, LogType.ERROR );
+			} else {
+				if( !this.savedCourses.containsKey( courseId ) ) {
+					resultingEntities.remove( entity );
+				}
+			}
+		}
+
 	}
 }

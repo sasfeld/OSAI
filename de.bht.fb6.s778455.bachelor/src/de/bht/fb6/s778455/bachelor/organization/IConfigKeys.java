@@ -55,6 +55,7 @@ public interface IConfigKeys {
 	String IMPORT_STRATEGY_DIRECTORYIMPORT_NAMECORPUS_LASTNAMES = "import.strategy.directoryimport.namecorpus.lastnames";
 	String IMPORT_STRATEGY_POSTGRESQL_DUMPFOLDER = "import.strategy.postgresql.dumpfolder";
 	String IMPORT_STRATEGY_POSTGRESQL_TESTFOLDER = "import.strategy.postgresql.testfolder";
+	String IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC = "import.strategy.namecorpus.coursespecific";
 	
 	/*
 	 * export module 
@@ -62,6 +63,5 @@ public interface IConfigKeys {
 	String EXPORT_STRATEGY_CLASS = "export.strategy.class";
 	String EXPORT_STRATEGY_DIRECTORYEXPORT_DATAFOLDER = "export.strategy.directoryexport.datafolder";
 	String EXPORT_STRATEGY_DIRECTORYEXPORT_TESTFOLDER = "export.strategy.directoryexport.testfolder";
-	String IMPORT_STRATEGY_DIRECTORYIMPORT_BOARDSPECIFIC = "import.strategy.directoryimport.coursespecific";
 	String EXPORT_STRATEGY_SERIALIZED_DATAFOLDER = "export.strategy.serialized.datafolder";
 }
