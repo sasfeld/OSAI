@@ -167,9 +167,6 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	 * @param courseBoardMap
 	 */
 	private void fillBoards( Course course, File courseDir ) {
-		// fully qualified name of this class + method to be printed in a log
-		String fullyQualified = getClass() + ":fillBoards";
-
 		// bare course board list to be filled
 		List< Board > courseBoards = course.getBoards();
 
@@ -224,9 +221,6 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	}
 
 	private void fillBoard( Board newBoard, File boardDir ) {
-		// fully qualified name of this class + method to be printed in a log
-		String fullyQualified = getClass() + ":fillBoard";
-
 		for( File threadDir : boardDir.listFiles() ) {
 			if( threadDir.isDirectory() ) {
 				// create new thread
