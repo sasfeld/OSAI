@@ -3,6 +3,7 @@
  */
 package de.bht.fb6.s778455.bachelor.anonymization.strategy;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -36,12 +37,15 @@ public class NameCorpusStrategy extends AAnomyzationStrategy{
 
 	private String anonymizeNames( String inputText, PersonNameCorpus nameCorpus ) throws GeneralLoggingException {
 		String anonymizedText = super.prepareText( inputText );
+		List< String > names = new ArrayList< String >();
+		names.addAll( nameCorpus.getPrenames() );
+		names.addAll( nameCorpus.getLastnames() );
 		
 		// check prenames
-		for( String prename : nameCorpus.getPrenames() ) {
+		for( String name : names ) {
 			// case 1: name in a single line
 			Pattern pNameSingleLine = Pattern
-					.compile( "(?i)(?<=^)" + prename
+					.compile( "(?i)(?<=^)" + name
 							+ "(?=$)", Pattern.MULTILINE );
 			Matcher matcherSingeLine = pNameSingleLine
 					.matcher( anonymizedText );
@@ -49,7 +53,7 @@ public class NameCorpusStrategy extends AAnomyzationStrategy{
 
 			// case 2: name at the beginning of a line
 			Pattern pNameAtBeginning = Pattern
-					.compile( "(?i)(?<=^)" + prename
+					.compile( "(?i)(?<=^)" + name
 							+ "(?=[\\s!?.,;-_]{1})", Pattern.MULTILINE );
 			Matcher matcherBeginning = pNameAtBeginning
 					.matcher( anonymizedText );
@@ -57,7 +61,7 @@ public class NameCorpusStrategy extends AAnomyzationStrategy{
 			
 			// case 3: name at the end of a line
 			Pattern pNameAtEnd = Pattern
-					.compile( "(?i)(?<=\\s)" + prename
+					.compile( "(?i)(?<=\\s)" + name
 							+ "(?=$)", Pattern.MULTILINE );
 			Matcher matcherEnd = pNameAtEnd
 					.matcher( anonymizedText );
@@ -65,7 +69,7 @@ public class NameCorpusStrategy extends AAnomyzationStrategy{
 			
 			// case 4: name anywhere in line
 			Pattern pNameInLine = Pattern
-					.compile( "(?i)(?<=\\s)" + prename
+					.compile( "(?i)(?<=\\s)" + name
 							+ "(?=[\\s!?.,;-_]{1})", Pattern.MULTILINE );
 			Matcher matcherInLine = pNameInLine
 					.matcher( anonymizedText );

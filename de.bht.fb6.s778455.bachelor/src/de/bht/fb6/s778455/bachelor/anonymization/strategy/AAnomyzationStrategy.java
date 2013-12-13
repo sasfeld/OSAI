@@ -83,7 +83,10 @@ public abstract class AAnomyzationStrategy {
 	 */
 	protected String prepareText( String preparedText ) throws GeneralLoggingException {
 		if( null != preparedText ) {
-			String cleanedText = preparedText;
+			String cleanedText = preparedText;			
+
+			// remove moodle tags
+			cleanedText = this.removeMoodleChars(cleanedText);
 
 			// remove empty lines
 			cleanedText = cleanedText.replaceAll( "(?m)^[ \t]*\r?\n", "" );
@@ -98,11 +101,22 @@ public abstract class AAnomyzationStrategy {
 			// insert whitespaces after ",": negative lookahead regex: all ","
 			// followed by no whitespace will be replaced by ",[whitespace]"
 			cleanedText = cleanedText.replaceAll( "\\,(?!\\s)(?=[a-zA-Z0-9])",
-					", " );
+					", " );			
 
 			return cleanedText;
 		}
 		throw new GeneralLoggingException( getClass() + "prepareText: null pointer", "Internal error in the anonymization system!");
+	}
+
+	private String removeMoodleChars( String cleanedText ) {
+		String newCleanedText = cleanedText;
+		
+		newCleanedText = newCleanedText.replaceAll( "</?[a-z]+/?>", " " );
+//		newCleanedText = newCleanedText.replaceAll( "" + '\n', " " );
+//		newCleanedText = newCleanedText.replaceAll( "" + '\r', " " );
+//		newCleanedText = newCleanedText.replaceAll( "" + '\t', " " );
+		
+		return newCleanedText;
 	}
 
 	/**

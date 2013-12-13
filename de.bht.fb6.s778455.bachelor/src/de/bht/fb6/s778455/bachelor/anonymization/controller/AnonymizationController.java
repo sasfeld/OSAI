@@ -198,6 +198,10 @@ public class AnonymizationController {
 		this.exportStrategy.exportToFile( anonymizedCourses,
 				this.configuredExportFile );
 
+		for( Course course : anonymizedCourses ) {
+			System.out.println("corpus: " + course.getPersonNameCorpus());
+		}
+		
 		getStatistics( anonymizedCourses, elapsedTime );
 	}
 

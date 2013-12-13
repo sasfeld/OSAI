@@ -44,7 +44,7 @@ public class NameCorpusStrategyTest {
 		this.strategy = new NameCorpusStrategy();
 	    DirectoryImportStrategy importStrategy = new DirectoryImportStrategy();
 		
-		this.personNameCorpus = importStrategy.fillFromFile( new File( "./data/anonymization/personnames/testprenames.txt" ), new PersonNameCorpus(), PersonNameType.PRENAME );
+		this.personNameCorpus = importStrategy.fillFromFile( new File( "./data/anonymization/personnames/testprenames.txt" ), new PersonNameCorpus(), PersonNameType.LASTNAME );
 	}
 
 	/**
@@ -59,11 +59,18 @@ public class NameCorpusStrategyTest {
 	public void testAnonymizeText() throws GeneralLoggingException {
 		Board testBoard = new Board( new Course( "unit test course" ));
 		testBoard.getBelongingCourse().setPersonNameCorpus( personNameCorpus );
+//		
+//		System.out.println(this.personNameCorpus);
+//		
+//		String input = "Hallo Farshad! Fr. Schmiedecke? Richtige Einstellung! Das sagt auch Mustafa. Gru√ü √ñzbey";
+//		String expectedOutput = "Hallo "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT+"! Fr. "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT+"? Richtige Einstellung! Das sagt auch "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT+". Gru√ü "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT;
+//		
+//		String result = this.strategy.anonymizeText( input, testBoard );
 		
-		System.out.println(this.personNameCorpus);
+//		assertEquals( expectedOutput, result );		
 		
-		String input = "Hallo Farshad! Richtige Einstellung! Das sagt auch Mustafa. Gruﬂ ÷zbey";
-		String expectedOutput = "Hallo "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT+"! Richtige Einstellung! Das sagt auch "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT+". Gruﬂ "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT;
+		String input = "ich finde, der Dis-Kurs sollte in das offizielle Modulhandbuch. Vielleicht k√∂nnen Sie sich ja darum bemÔøΩhen, Fr. Schmiedecke ? ;)";
+		String expectedOutput = "ich finde, der Dis-Kurs sollte in das offizielle Modulhandbuch. Vielleicht k√∂nnen Sie sich ja darum bemÔøΩhen, "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT+"? ;)";
 		
 		String result = this.strategy.anonymizeText( input, testBoard );
 		
