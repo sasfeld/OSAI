@@ -160,6 +160,7 @@ public class DirectoryExportStrategy extends AExportStrategy {
 	private void createTxtFile( File newFile, String txtContent ) throws GeneralLoggingException {
 		try {
 			newFile.createNewFile();
+			// TODO add UTF-8 support!
 			PrintWriter writer = new PrintWriter( new FileWriter(
 					newFile ) );
 		

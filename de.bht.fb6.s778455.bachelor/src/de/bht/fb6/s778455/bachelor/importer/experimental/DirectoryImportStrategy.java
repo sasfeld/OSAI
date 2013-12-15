@@ -5,10 +5,11 @@ package de.bht.fb6.s778455.bachelor.importer.experimental;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileReader;
+import java.io.FileInputStream;
 import java.io.FilenameFilter;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -83,6 +84,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	private static final String PERSON_CORPUS_PRENAME_FILE = "prenames.txt";
 	private static final String PERSON_CORPUS_LASTNAME_FILE = "lastnames.txt";
 	protected String boardSpecificImport;
+	private String encoding;
 
 	/**
 	 * Create and prepare a new DirectoryImportStrategy instance.
@@ -90,6 +92,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	public DirectoryImportStrategy() {
 		this.boardSpecificImport = ServiceFactory.getConfigReader().fetchValue(
 				IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC );
+		this.encoding = "UTF-8";
 	}
 
 	@Override
@@ -205,7 +208,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 				this.fillBoard( newBoard, boardDir );
 
 				courseBoards.add( newBoard );
-			} 
+			}
 		}
 
 		// course specific corpus was not found
@@ -280,15 +283,15 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	private void importTxtFile( File importFile,
 			IDirectoryPortable portableModel ) {
 		// fully qualified name of this class + method to be printed in a log
-		String fullyQualified = getClass() + ":parseTxtFile";
+		String fullyQualified = getClass() + ":importTxtFile";
 
 		try {
-			BufferedReader reader = new BufferedReader( new FileReader(
-					importFile ) );
-
+			BufferedReader reader = new BufferedReader( new InputStreamReader(
+					new FileInputStream( importFile ), this.encoding ) );
 			String line;
 			boolean contentMatched = false;
 			boolean taggedContentMatched = false;
+			boolean contentMatchingFinished = false;
 			StringBuilder contentBuilder = new StringBuilder();
 			StringBuilder taggedContentBuilder = new StringBuilder();
 
@@ -310,6 +313,8 @@ public class DirectoryImportStrategy extends AImportStrategy {
 				} else if( contentMatched && !taggedContentMatched ) {
 					if( line.startsWith( "TAGGED_CONTENT:" ) ) {
 						taggedContentMatched = true;
+						contentMatched = false;
+						contentMatchingFinished = true;
 					} else {
 						contentBuilder.append( line + "\n" );
 					}
@@ -319,12 +324,17 @@ public class DirectoryImportStrategy extends AImportStrategy {
 			}
 			reader.close();
 
-			portableModel.importFromTxt( "CONTENT", contentBuilder.toString() );
-			portableModel.importFromTxt( "TAGGED_CONTENT",
-					taggedContentBuilder.toString() );
+			if( contentMatchingFinished ) {
+				portableModel.importFromTxt( "CONTENT",
+						contentBuilder.toString() );
+			}
+			if( taggedContentMatched ) {
+				portableModel.importFromTxt( "TAGGED_CONTENT",
+						taggedContentBuilder.toString() );
+			}
 		} catch( IOException | IllegalArgumentException e ) {
-			Application.log( fullyQualified + ": exception occured: " + e,
-					LogType.ERROR );
+			Application.log( fullyQualified + ": exception occured, file: "
+					+ importFile + ": " + e, LogType.ERROR );
 		}
 	}
 

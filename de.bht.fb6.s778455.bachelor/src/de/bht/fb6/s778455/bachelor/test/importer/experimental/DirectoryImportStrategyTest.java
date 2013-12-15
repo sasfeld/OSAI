@@ -20,8 +20,6 @@ import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
-import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
-import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus.PersonNameType;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
@@ -116,6 +114,8 @@ public class DirectoryImportStrategyTest {
 
 				i = 0;
 				for( Posting posting : postings ) {
+					System.out.println("Posting: \n\n");
+					System.out.println(posting);
 					if( 0 == i ) {
 						assertEquals( 1384093141, posting.getCreationDate()
 								.getTime() );
@@ -135,16 +135,16 @@ public class DirectoryImportStrategyTest {
 
 	}
 
-	@Test
-	public void testFillFromFile() throws GeneralLoggingException {
-		PersonNameCorpus bareCorpus = new PersonNameCorpus();
-		bareCorpus = this.importStrategy.fillFromFile( new File(
-				"./data/anonymization/personnames/testprenames.txt" ),
-				bareCorpus, PersonNameType.PRENAME );
-
-		assertEquals( 22, bareCorpus.getPrenames().size() );
-
-		assertTrue( bareCorpus.isPrename( "Aryan", false ) );
-		assertTrue( bareCorpus.isPrename( "aryan", false ) );
-	}
+//	@Test
+//	public void testFillFromFile() throws GeneralLoggingException {
+//		PersonNameCorpus bareCorpus = new PersonNameCorpus();
+//		bareCorpus = this.importStrategy.fillFromFile( new File(
+//				"./data/anonymization/personnames/testprenames.txt" ),
+//				bareCorpus, PersonNameType.PRENAME );
+//
+//		assertEquals( 22, bareCorpus.getPrenames().size() );
+//
+//		assertTrue( bareCorpus.isPrename( "Aryan", false ) );
+//		assertTrue( bareCorpus.isPrename( "aryan", false ) );
+//	}
 }

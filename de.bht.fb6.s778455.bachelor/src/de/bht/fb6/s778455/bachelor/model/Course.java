@@ -328,7 +328,7 @@ public class Course implements Serializable, IDirectoryPortable {
 		if( null == key || 0 == key.length() || null == value
 				|| 0 == value.length() ) {
 			throw new IllegalArgumentException(
-					"Illegal value for key or value!" );
+					"Illegal value for key or value! Key: " + key +"; value: " + value   );
 		}
 
 		if( key.equals( "ID" ) ) {

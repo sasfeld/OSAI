@@ -112,7 +112,6 @@ public class LearnedNamesStrategy extends AAnomyzationStrategy {
 	 */
 	@Override
 	public List< AAnomyzationStrategy > getWrappedStrategies() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
@@ -125,7 +124,6 @@ public class LearnedNamesStrategy extends AAnomyzationStrategy {
 	 */
 	@Override
 	public String getDetails() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 

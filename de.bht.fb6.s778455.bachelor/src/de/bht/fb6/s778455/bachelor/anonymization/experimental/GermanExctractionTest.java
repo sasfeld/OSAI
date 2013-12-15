@@ -35,7 +35,6 @@ public class GermanExctractionTest {
 	}
 	
 	protected static void testClassifier() {
-		// TODO Auto-generated method stub
 		List<List<CoreLabel>> labeledOut = classifier.classify( EXAMPLE_INPUT );
 		for (List<CoreLabel> sentence : labeledOut) {
 			System.out.println(sentence);
@@ -50,12 +49,10 @@ public class GermanExctractionTest {
 	}
 
 	private static void testClassifiyXml() {
-		// TODO Auto-generated method stub
 		System.out.println(classifier.classifyWithInlineXML( EXAMPLE_INPUT ));		
 	}
 
 	private static void testClassifyToString() {
-		// TODO Auto-generated method stub
 		System.out.println(classifier.classifyToString( EXAMPLE_INPUT ));
 		
 	}
