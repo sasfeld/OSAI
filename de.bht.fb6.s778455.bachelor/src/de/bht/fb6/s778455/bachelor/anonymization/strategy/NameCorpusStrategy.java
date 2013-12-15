@@ -43,6 +43,9 @@ public class NameCorpusStrategy extends AAnomyzationStrategy{
 		
 		// check prenames
 		for( String name : names ) {
+			if ( name.equals(  "schmiedecke" )) {
+				System.out.println("smi found");
+			}
 			// case 1: name in a single line
 			Pattern pNameSingleLine = Pattern
 					.compile( "(?i)(?<=^)" + name
@@ -70,7 +73,7 @@ public class NameCorpusStrategy extends AAnomyzationStrategy{
 			// case 4: name anywhere in line
 			Pattern pNameInLine = Pattern
 					.compile( "(?i)(?<=\\s)" + name
-							+ "(?=[\\s!?.,;-_]{1})", Pattern.MULTILINE );
+							+ "(?=[\\s!?.,;-_]{1})" );
 			Matcher matcherInLine = pNameInLine
 					.matcher( anonymizedText );
 			anonymizedText = matcherInLine.replaceAll( NAME_CORPUS_REPLACEMENT );			

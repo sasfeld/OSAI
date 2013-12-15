@@ -94,9 +94,9 @@ public class PersonNameCorpus {
 		}
 	}
 
-	private void addIfSpecialChars( Set< String > nameSet, String prename ) {
-		if( !prename.matches( "[a-zA-Z]+" ) ) {
-			nameSet.add( prename );
+	private void addIfSpecialChars( Set< String > nameSet, String name ) {
+		if( !name.matches( "[a-zA-Z]+" ) ) {
+			nameSet.add( name.trim() );
 		}
 	}
 

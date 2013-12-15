@@ -6,6 +6,7 @@ package de.bht.fb6.s778455.bachelor.anonymization;
 import de.bht.fb6.s778455.bachelor.anonymization.organization.ConfigReader;
 import de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
+import de.bht.fb6.s778455.bachelor.anonymization.strategy.NameCorpusStrategy;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Posting;
@@ -50,6 +51,9 @@ public class Anonymizer {
 	public Board anonymizeBoard(Board inputBoard) {
 		// iterate through threads and postings and hand in the text to be anonymized by the configured strategy
 		for( BoardThread boardThread : inputBoard.getBoardThreads() ) {
+			if (boardThread.getTitle().equals( "Anonymisierung im Dis-Kurs" ) && this.anonymizationStrategy instanceof NameCorpusStrategy) {
+				System.out.println("jo");
+			}
 			for( Posting posting : boardThread.getPostings() ) {
 				try {
 					String anonymizedTaggedText = this.anonymizationStrategy.anonymizeText( posting.getContent(), inputBoard );
@@ -58,7 +62,7 @@ public class Anonymizer {
 					
 					posting.setContent( anonymizedUntaggedText );
 					
-					// @TODo set tagged text?
+					// TODO set tagged text?
 				}
 				catch (GeneralLoggingException e) {
 					System.err.println("Error while anonymisation of thread " + boardThread + ":"+  e.getPresentationMessage());
