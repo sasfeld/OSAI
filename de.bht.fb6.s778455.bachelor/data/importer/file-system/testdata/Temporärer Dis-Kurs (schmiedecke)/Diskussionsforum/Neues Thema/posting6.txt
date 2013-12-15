@@ -1,0 +1,3 @@
+CREATION_DATETIME: 1386754098
+CONTENT: 
+auf der Startseite steht: "nur Gruppenmitglieder dürfen Beiträge hinzufügen"

@@ -1,0 +1,13 @@
+ï»¿CREATION_DATETIME: 1386754198
+CONTENT: 
+Hallo zusammen,
+
+ich finde, der Dis-Kurs sollte in das offizielle Modulhandbuch. Vielleicht kÃ¶nnen Sie sich ja darum bemÃ¼hen, Fr. Schmiedecke? ;)
+
+Ansonsten hoffe ich, dass unsere Foren-Beiträge auch schon anonymisiert werden. 
+
+Wen es interessiert: in der Anonymisierung werden u.A. Natural Language Processing (NLP) - Verfahren eingesetzt, die auch "Named Entity Recognition (NER)" beinhalten. Mit dem Stanford Named Enitity Recognizer gibt es eine richtig gute Java-Library, mit der man Personen-Namen oder Ortsbezeichnungen in einem Text taggen kann. Die Library findet ihr hier: http://nlp.stanford.edu/software/CRF-NER.shtml
+
+Vielen Dank für eure Unterstützung und viel Spaß beim Diskursen ;)
+
+Sascha

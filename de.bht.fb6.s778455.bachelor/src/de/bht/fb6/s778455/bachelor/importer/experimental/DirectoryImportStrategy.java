@@ -287,17 +287,16 @@ public class DirectoryImportStrategy extends AImportStrategy {
 
 		try {
 			BufferedReader reader = new BufferedReader( new InputStreamReader(
-					new FileInputStream( importFile ) ) );
+					new FileInputStream( importFile ), this.encoding ) );
 			String line;
 			boolean contentMatched = false;
 			boolean taggedContentMatched = false;
-			boolean contentMatchingFinished = false;
 			StringBuilder contentBuilder = new StringBuilder();
 			StringBuilder taggedContentBuilder = new StringBuilder();
 
 			while( null != ( line = reader.readLine() ) ) {
 				if( !contentMatched && !taggedContentMatched ) {
-					if( line.startsWith( "CONTENT:" ) ) {
+					if( line.trim().toLowerCase().contains( "content:" ) ) {
 						contentMatched = true;
 					} else { // match key value pairs
 						Pattern pKeyValue = Pattern
@@ -319,10 +318,9 @@ public class DirectoryImportStrategy extends AImportStrategy {
 						}
 					}
 				} else if( contentMatched && !taggedContentMatched ) {
-					if( line.startsWith( "TAGGED_CONTENT:" ) ) {
+					if( line.trim().toLowerCase().contains( "tagged_content:" ) ) {
 						taggedContentMatched = true;
 						contentMatched = false;
-						contentMatchingFinished = true;
 					} else {
 						contentBuilder.append( line + "\n" );
 					}
@@ -332,7 +330,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 			}
 			reader.close();
 
-			if( contentMatchingFinished ) {
+			if( contentMatched ) {
 				try {
 				portableModel.importFromTxt( "CONTENT",
 						contentBuilder.toString() );
@@ -340,6 +338,9 @@ public class DirectoryImportStrategy extends AImportStrategy {
 					Application.log( fullyQualified + ": exception occured, file: "
 							+ importFile + ": " + e, LogType.ERROR );
 				}
+			} else {
+				Application.log( "no posting content found, file: "
+						+ importFile, LogType.WARNING );
 			}
 			if( taggedContentMatched ) {
 				try {
@@ -349,6 +350,9 @@ public class DirectoryImportStrategy extends AImportStrategy {
 					Application.log( fullyQualified + ": exception occured, file: "
 							+ importFile + ": " + e, LogType.ERROR );
 				}
+			} else {
+				Application.log( "no posting tagged content found, file: "
+						+ importFile, LogType.WARNING );
 			}
 		} catch( IOException e ) {
 			Application.log( fullyQualified + ": exception occured, file: "

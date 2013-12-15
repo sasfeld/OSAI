@@ -1,0 +1,11 @@
+ï»¿CREATION_DATETIME: 1386754098
+CONTENT: 
+Hier als neuer Thread ein Beitrag über 2-dimensionale Arrays in Java aus einem Programmierforum  - vielleicht inspiriert dieses höchst aufregende Thema ja noch ein paar neue Kommentare...
+
+GruÃŸ ilse schmiedecke
+
+"Die Indizes bezeichnen nicht Zeile und Spalte sondern das erste Klammerpaar (von links) beschreibt die Reihung (übergeordnete Dimension), welche die anderen Reihungen des 2. Klammerpaares (untergeordnete Dimension) aufnimmt. Ob wir das als Spalten oder Zeilen interpretieren bleibt uns als Programmierer überlassen. Solange alle Methoden, welche das Array manipulieren dieselbe konsistente Interpretation verwenden.
+Die Logik ist anders:
+Wenn wir in der Mathematik eine Matrix (m_i,j) mit: i: Zeile, j: Spalte, ha­ben folgt daraus (wegen des leichteren Verständnisses) ein Datenmodell Matrix[i][j] in derselben Interpretation.
+Die umgekehrte Implikation:
+Wenn wir ein Datenmodell Daten[i][j] haben mit i: übergeordnete Dimension, j: eingebettete Dimension so folgt daraus nicht, dass übergeordnet eine Zeile ist und untergeordnet eine Spalte. Im Beispiel: Übergeordnet: Blatt eines Kartenspielers; untergeordnet: Karte im Blatt gibt es in der Interpretation keine Zeilen und Spalten aber wenn wir 3 Spieler mit 10 Karten haben ist das zu trennen von 10 Spielern mit 3 Karten!"

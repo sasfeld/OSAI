@@ -1,0 +1,3 @@
+CREATION_DATETIME: 1386754098
+CONTENT: 
+Es sieht so aus, als wären nur Gruppen in dem Kurs. Und wir sind dann wohl nicht in einer Gruppe drin.

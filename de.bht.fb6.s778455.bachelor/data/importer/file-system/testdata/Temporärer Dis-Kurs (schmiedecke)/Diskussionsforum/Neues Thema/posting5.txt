@@ -1,0 +1,5 @@
+CREATION_DATETIME: 1386754198
+CONTENT: 
+"Nur Gruppenmitglieder dürfen Beiträge zum Forum hinzufügen."
+
+Bin ich also kein Gruppenmitglied, wenn ich den Kurs abonniert habe?
