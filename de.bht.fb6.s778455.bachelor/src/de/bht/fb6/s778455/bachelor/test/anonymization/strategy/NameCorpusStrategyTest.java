@@ -59,20 +59,20 @@ public class NameCorpusStrategyTest {
 	public void testAnonymizeText() throws GeneralLoggingException {
 		Board testBoard = new Board( new Course( "unit test course" ));
 		testBoard.getBelongingCourse().setPersonNameCorpus( personNameCorpus );
-//		
-//		System.out.println(this.personNameCorpus);
-//		
-//		String input = "Hallo Farshad! Fr. Schmiedecke? Richtige Einstellung! Das sagt auch Mustafa. Gruß Özbey";
-//		String expectedOutput = "Hallo "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT+"! Fr. "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT+"? Richtige Einstellung! Das sagt auch "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT+". Gruß "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT;
-//		
-//		String result = this.strategy.anonymizeText( input, testBoard );
 		
-//		assertEquals( expectedOutput, result );		
+		System.out.println(this.personNameCorpus);
 		
-		String input = "ich finde, der Dis-Kurs sollte in das offizielle Modulhandbuch. Vielleicht können Sie sich ja darum bem�hen, Fr. Schmiedecke ? ;)";
-		String expectedOutput = "ich finde, der Dis-Kurs sollte in das offizielle Modulhandbuch. Vielleicht können Sie sich ja darum bem�hen, "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT+"? ;)";
+		String input = "Hallo Farshad! Fr. Schmiedecke? Richtige Einstellung! Das sagt auch Mustafa. Gruß Özbey";
+		String expectedOutput = "Hallo "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT+"! Fr. "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT+"? Richtige Einstellung! Das sagt auch "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT+". Gruß "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT;
 		
 		String result = this.strategy.anonymizeText( input, testBoard );
+		
+		assertEquals( expectedOutput, result );		
+		
+		input = "ich finde, der Dis-Kurs sollte in das offizielle Modulhandbuch. Vielleicht können Sie sich ja darum bem�hen, Fr. Schmiedecke ? ;)";
+		expectedOutput = "ich finde, der Dis-Kurs sollte in das offizielle Modulhandbuch. Vielleicht können Sie sich ja darum bem�hen, Fr. "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT+" ? ;)";
+		
+		result = this.strategy.anonymizeText( input, testBoard );
 		
 		assertEquals( expectedOutput, result );
 	}

@@ -200,10 +200,11 @@ public class AnonymizationController {
 				this.configuredExportFile );
 
 		for( Course course : anonymizedCourses ) {
+			System.out.println("Course: " + course.getTitle());
 			System.out.println("corpus: " + course.getPersonNameCorpus());
 		}
 		
-		getStatistics( anonymizedCourses, elapsedTime );
+		System.out.println(getStatistics( anonymizedCourses, elapsedTime ));
 	}
 
 	/**
@@ -223,29 +224,29 @@ public class AnonymizationController {
 		int numberThreads = 0;
 		int numberPostings = 0;
 		for( Course course : anonymizedCourses ) {
-			System.out.println("Course: " + course);
-			System.out.println("");
-			System.out.println(".............................");
+//			System.out.println("Course: " + course);
+//			System.out.println("");
+//			System.out.println(".............................");
 			for( Board board : course.getBoards() ) {
-				System.out.println("Board: " + board);
-				System.out.println();
-				System.out.println("++++++++++++++++++++++++++++++");
+//				System.out.println("Board: " + board);
+//				System.out.println();
+//				System.out.println("++++++++++++++++++++++++++++++");
 				numberThreads += board.getBoardThreads().size();
 
 				for( BoardThread boardThread : board.getBoardThreads() ) {
-					System.out.println("Thread: " + boardThread);
-					System.out.println();
-					System.out.println("--------------------------------");
+//					System.out.println("Thread: " + boardThread);
+//					System.out.println();
+//					System.out.println("--------------------------------");
 					numberPostings += boardThread.getPostings().size();
 					
 					for( Posting p : boardThread.getPostings() ) {
-						System.out.println("Posting: " + p);
+//						System.out.println("Posting: " + p);
 					}
-					System.out.println("--------------------------------");
+//					System.out.println("--------------------------------");
 				}
-				System.out.println("++++++++++++++++++++++++++++++");
+//				System.out.println("++++++++++++++++++++++++++++++");
 			}
-			System.out.println(".............................");
+//			System.out.println(".............................");
 		}
 		statisticsBuilder.append( "Number of threads: " + numberThreads +"\n" );
 		statisticsBuilder.append( "Number of postings: " + numberPostings +"\n" );

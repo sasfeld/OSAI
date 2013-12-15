@@ -1,4 +1,4 @@
-Aryan
+﻿Aryan
 Benedict
 Farshad
 Hauke
@@ -7,5 +7,5 @@ Jessica
 Mischka
 Mohamed
 Mustafa
-�zbey
+Özbey
 Wassilios

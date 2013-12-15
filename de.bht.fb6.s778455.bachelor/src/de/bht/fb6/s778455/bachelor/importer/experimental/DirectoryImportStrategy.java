@@ -388,14 +388,14 @@ public class DirectoryImportStrategy extends AImportStrategy {
 
 		}
 
-		List< String > lines = FileUtil.readFileLineBased( personCorpus );
+		List< String > lines = FileUtil.readFileLineBased( personCorpus, this.encoding );
 
 		int lineNumber = 0;
 		for( String line : lines ) {
 			lineNumber++;
 			// line must only consist of letters
 			if( line.matches( "^[^\\s]+$" ) ) {
-				corpusInstance.fillName( nameType, line, false ); // case-insensitive
+				corpusInstance.fillName( nameType, line); // case-insensitive
 			} else {
 				Application
 						.log( getClass()

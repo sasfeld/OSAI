@@ -764,13 +764,13 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 			} else {
 				String prename = userEntity.get( "firstname" );
 				if( null != prename ) {
-					singleton.fillPrename( prename,
-							false );
+					singleton.fillPrename( prename
+							 );
 				}
 				String lastname = userEntity.get( "lastname" );
 				if( null != lastname ) {
-					singleton.fillLastname( lastname,
-							false );
+					singleton.fillLastname( lastname
+						);
 				}
 
 			}
@@ -865,15 +865,13 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 												.get( "firstname" );
 										if( null != prename ) {
 											enroledCourse.getPersonNameCorpus()
-													.fillPrename( prename,
-															false );
+													.fillPrename( prename);
 										}
 										String lastname = userEntity
 												.get( "lastname" );
 										if( null != lastname ) {
 											enroledCourse.getPersonNameCorpus()
-													.fillLastname( lastname,
-															false );
+													.fillLastname( lastname);
 										}
 									}
 								}

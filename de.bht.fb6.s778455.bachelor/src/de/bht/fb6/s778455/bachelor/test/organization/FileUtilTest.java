@@ -43,7 +43,7 @@ public class FileUtilTest {
 	@Test
 	public void testReadFileLineBased() throws GeneralLoggingException {
 		File testFile = new File( TEST_FILE );
-		List< String > lines = FileUtil.readFileLineBased( testFile );
+		List< String > lines = FileUtil.readFileLineBased( testFile, "UTF-8" );
 		
 		assertEquals( 3, lines.size() );
 		
