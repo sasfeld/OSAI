@@ -20,6 +20,7 @@ import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
@@ -222,13 +223,29 @@ public class AnonymizationController {
 		int numberThreads = 0;
 		int numberPostings = 0;
 		for( Course course : anonymizedCourses ) {
+			System.out.println("Course: " + course);
+			System.out.println("");
+			System.out.println(".............................");
 			for( Board board : course.getBoards() ) {
+				System.out.println("Board: " + board);
+				System.out.println();
+				System.out.println("++++++++++++++++++++++++++++++");
 				numberThreads += board.getBoardThreads().size();
 
 				for( BoardThread boardThread : board.getBoardThreads() ) {
+					System.out.println("Thread: " + boardThread);
+					System.out.println();
+					System.out.println("--------------------------------");
 					numberPostings += boardThread.getPostings().size();
+					
+					for( Posting p : boardThread.getPostings() ) {
+						System.out.println("Posting: " + p);
+					}
+					System.out.println("--------------------------------");
 				}
+				System.out.println("++++++++++++++++++++++++++++++");
 			}
+			System.out.println(".............................");
 		}
 		statisticsBuilder.append( "Number of threads: " + numberThreads +"\n" );
 		statisticsBuilder.append( "Number of postings: " + numberPostings +"\n" );

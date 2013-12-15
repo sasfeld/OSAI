@@ -157,4 +157,16 @@ public class Board extends AUserContribution {
 		}
 	}
 
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Board [boardThreads=" + boardThreads
+				+ ", type=" + type + ", intro=" + intro + ", getIntro()="
+				+ getIntro() + ", getBoardThreads()=" + getBoardThreads()
+				+ ", getType()=" + getType() + ", exportToTxt()="
+				+ exportToTxt() + "]";
+	}
+
 }

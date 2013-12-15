@@ -287,7 +287,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 
 		try {
 			BufferedReader reader = new BufferedReader( new InputStreamReader(
-					new FileInputStream( importFile ), this.encoding ) );
+					new FileInputStream( importFile ) ) );
 			String line;
 			boolean contentMatched = false;
 			boolean taggedContentMatched = false;
@@ -301,13 +301,21 @@ public class DirectoryImportStrategy extends AImportStrategy {
 						contentMatched = true;
 					} else { // match key value pairs
 						Pattern pKeyValue = Pattern
-								.compile( "^([A-Z]+):\\s(.*?)$" );
+								.compile( "^([A-Z_]+):\\s(.*?)$", Pattern.MULTILINE );
 						Matcher matcher = pKeyValue.matcher( line );
-						while( matcher.find() ) {
+						while( matcher.find() ) {							
 							String key = matcher.group( 1 );
+							System.out.println("key " + key);
 							String value = matcher.group( 2 );
-
-							portableModel.importFromTxt( key, value );
+							
+							System.out.println("value " + value);
+							
+							try {
+								portableModel.importFromTxt( key, value );
+							} catch ( IllegalArgumentException e) {
+								Application.log( fullyQualified + ": exception occured, file: "
+										+ importFile + ": " + e, LogType.ERROR );
+							}
 						}
 					}
 				} else if( contentMatched && !taggedContentMatched ) {
@@ -325,14 +333,24 @@ public class DirectoryImportStrategy extends AImportStrategy {
 			reader.close();
 
 			if( contentMatchingFinished ) {
+				try {
 				portableModel.importFromTxt( "CONTENT",
 						contentBuilder.toString() );
+				} catch ( IllegalArgumentException e) {
+					Application.log( fullyQualified + ": exception occured, file: "
+							+ importFile + ": " + e, LogType.ERROR );
+				}
 			}
 			if( taggedContentMatched ) {
+				try {
 				portableModel.importFromTxt( "TAGGED_CONTENT",
 						taggedContentBuilder.toString() );
+				}  catch ( IllegalArgumentException e) {
+					Application.log( fullyQualified + ": exception occured, file: "
+							+ importFile + ": " + e, LogType.ERROR );
+				}
 			}
-		} catch( IOException | IllegalArgumentException e ) {
+		} catch( IOException e ) {
 			Application.log( fullyQualified + ": exception occured, file: "
 					+ importFile + ": " + e, LogType.ERROR );
 		}

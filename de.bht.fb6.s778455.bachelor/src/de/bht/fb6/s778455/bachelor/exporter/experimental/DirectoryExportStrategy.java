@@ -4,8 +4,10 @@
 package de.bht.fb6.s778455.bachelor.exporter.experimental;
 
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.util.Collection;
 import java.util.List;
@@ -35,6 +37,12 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
  */
 public class DirectoryExportStrategy extends AExportStrategy {
 
+	private String encoding;
+
+	public DirectoryExportStrategy() {
+		this.encoding = "UTF-8";
+	}
+	
 	@Override
 	/*
 	 * (non-Javadoc)
@@ -160,10 +168,7 @@ public class DirectoryExportStrategy extends AExportStrategy {
 	private void createTxtFile( File newFile, String txtContent ) throws GeneralLoggingException {
 		try {
 			newFile.createNewFile();
-			// TODO add UTF-8 support!
-			PrintWriter writer = new PrintWriter( new FileWriter(
-					newFile ) );
-		
+			PrintWriter writer = new PrintWriter( new OutputStreamWriter( new FileOutputStream( newFile ), this.encoding ) );
 			String[] lines = txtContent.split( "\n" );
 			
 			for( String line : lines ) {
