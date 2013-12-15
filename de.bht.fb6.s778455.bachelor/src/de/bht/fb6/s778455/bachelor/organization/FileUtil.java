@@ -6,11 +6,9 @@ package de.bht.fb6.s778455.bachelor.organization;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.charset.Charset;
-import java.nio.charset.IllegalCharsetNameException;
 import java.nio.charset.UnsupportedCharsetException;
 import java.util.ArrayList;
 import java.util.List;
@@ -72,7 +70,7 @@ public class FileUtil {
 				try {
 					reader.close();
 				} catch( IOException e ) {
-					// don't do anything here. an exception was already catched
+					// don't do anything here. an exception was already caught
 					// above
 				}
 			}

@@ -3,13 +3,9 @@
  */
 package de.bht.fb6.s778455.bachelor.importer.experimental;
 
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FilenameFilter;
-import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -285,58 +281,58 @@ public class DirectoryImportStrategy extends AImportStrategy {
 		// fully qualified name of this class + method to be printed in a log
 		String fullyQualified = getClass() + ":importTxtFile";
 
+		List< String > lines;
 		try {
-			BufferedReader reader = new BufferedReader( new InputStreamReader(
-					new FileInputStream( importFile ), this.encoding ) );
-			String line;
+			lines = FileUtil.readFileLineBased( importFile, this.encoding );
+
 			boolean contentMatched = false;
 			boolean taggedContentMatched = false;
 			StringBuilder contentBuilder = new StringBuilder();
 			StringBuilder taggedContentBuilder = new StringBuilder();
 
-			while( null != ( line = reader.readLine() ) ) {
+			for( String line : lines ) {
 				if( !contentMatched && !taggedContentMatched ) {
 					if( line.trim().toLowerCase().contains( "content:" ) ) {
 						contentMatched = true;
 					} else { // match key value pairs
-						Pattern pKeyValue = Pattern
-								.compile( "^([A-Z_]+):\\s(.*?)$", Pattern.MULTILINE );
+						Pattern pKeyValue = Pattern.compile(
+								"^([A-Z_]+):\\s(.*?)$", Pattern.MULTILINE );
 						Matcher matcher = pKeyValue.matcher( line );
-						while( matcher.find() ) {							
+						while( matcher.find() ) {
 							String key = matcher.group( 1 );
-							System.out.println("key " + key);
+							System.out.println( "key " + key );
 							String value = matcher.group( 2 );
-							
-							System.out.println("value " + value);
-							
+
+							System.out.println( "value " + value );
+
 							try {
 								portableModel.importFromTxt( key, value );
-							} catch ( IllegalArgumentException e) {
-								Application.log( fullyQualified + ": exception occured, file: "
+							} catch( IllegalArgumentException e ) {
+								Application.log( fullyQualified
+										+ ": exception occured, file: "
 										+ importFile + ": " + e, LogType.ERROR );
 							}
 						}
 					}
 				} else if( contentMatched && !taggedContentMatched ) {
 					if( line.trim().toLowerCase().contains( "tagged_content:" ) ) {
-						taggedContentMatched = true;
-						contentMatched = false;
+						taggedContentMatched = true;			
 					} else {
 						contentBuilder.append( line + "\n" );
 					}
-				} else { // !contentMatched && taggedContentMatched
+				} else { // contentMatched && taggedContentMatched
 					taggedContentBuilder.append( line + "\n" );
 				}
 			}
-			reader.close();
 
 			if( contentMatched ) {
 				try {
-				portableModel.importFromTxt( "CONTENT",
-						contentBuilder.toString() );
-				} catch ( IllegalArgumentException e) {
-					Application.log( fullyQualified + ": exception occured, file: "
-							+ importFile + ": " + e, LogType.ERROR );
+					portableModel.importFromTxt( "CONTENT",
+							contentBuilder.toString() );
+				} catch( IllegalArgumentException e ) {
+					Application.log( fullyQualified
+							+ ": exception occured, file: " + importFile + ": "
+							+ e, LogType.ERROR );
 				}
 			} else {
 				Application.log( "no posting content found, file: "
@@ -344,20 +340,25 @@ public class DirectoryImportStrategy extends AImportStrategy {
 			}
 			if( taggedContentMatched ) {
 				try {
-				portableModel.importFromTxt( "TAGGED_CONTENT",
-						taggedContentBuilder.toString() );
-				}  catch ( IllegalArgumentException e) {
-					Application.log( fullyQualified + ": exception occured, file: "
-							+ importFile + ": " + e, LogType.ERROR );
+					portableModel.importFromTxt( "TAGGED_CONTENT",
+							taggedContentBuilder.toString() );
+				} catch( IllegalArgumentException e ) {
+					Application.log( fullyQualified
+							+ ": exception occured, file: " + importFile + ": "
+							+ e, LogType.ERROR );
 				}
 			} else {
 				Application.log( "no posting tagged content found, file: "
 						+ importFile, LogType.WARNING );
 			}
-		} catch( IOException e ) {
-			Application.log( fullyQualified + ": exception occured, file: "
-					+ importFile + ": " + e, LogType.ERROR );
+		} catch( GeneralLoggingException e1 ) {
+			// is logged already
+		} catch( IllegalArgumentException e) {
+			Application.log( fullyQualified
+					+ ": exception occured, file: " + importFile + ": "
+					+ e, LogType.ERROR );
 		}
+
 	}
 
 	@Override
@@ -388,14 +389,15 @@ public class DirectoryImportStrategy extends AImportStrategy {
 
 		}
 
-		List< String > lines = FileUtil.readFileLineBased( personCorpus, this.encoding );
+		List< String > lines = FileUtil.readFileLineBased( personCorpus,
+				this.encoding );
 
 		int lineNumber = 0;
 		for( String line : lines ) {
 			lineNumber++;
 			// line must only consist of letters
 			if( line.matches( "^[^\\s]+$" ) ) {
-				corpusInstance.fillName( nameType, line); // case-insensitive
+				corpusInstance.fillName( nameType, line ); // case-insensitive
 			} else {
 				Application
 						.log( getClass()
