@@ -763,17 +763,22 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 								+ NAME_USER_ENROLE_FILE, LogType.ERROR );
 			} else {
 				String prename = userEntity.get( "firstname" );
-				if( null != prename ) {
+				if( null != prename && prename.trim().length() != 0 ) {
 					singleton.fillPrename( prename
 							 );
 				}
 				String lastname = userEntity.get( "lastname" );
-				if( null != lastname ) {
+				if( null != lastname  && lastname.trim().length() != 0 ) {
 					singleton.fillLastname( lastname
 						);
 				}
 
 			}
+		}
+		
+		// set singleton corpus on each course
+		for( Course course : this.savedCourses.values()) {
+			course.setPersonNameCorpus( singleton );
 		}
 
 	}
@@ -863,6 +868,9 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 												.get( courseId );
 										String prename = userEntity
 												.get( "firstname" );
+										
+										// create bare person corpus
+										enroledCourse.setPersonNameCorpus( new PersonNameCorpus() );
 										if( null != prename ) {
 											enroledCourse.getPersonNameCorpus()
 													.fillPrename( prename);

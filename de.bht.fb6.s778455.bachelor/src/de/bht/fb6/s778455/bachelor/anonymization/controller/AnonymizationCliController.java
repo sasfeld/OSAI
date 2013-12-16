@@ -356,10 +356,10 @@ public class AnonymizationCliController {
 		helpBuilder.append( "Make sure, that you configured the anonymization chain in the anonymization.properties config file.\n" );
 		helpBuilder.append( "\n" );
 		helpBuilder.append( "Required arguments:\n\n" );
-		helpBuilder.append( "-importfile [FILE]\n" );
+		helpBuilder.append( "-inputfile [FILE]\n" );
 		helpBuilder.append( "-importmethod [postgredump|filesystem]\n" );
 		helpBuilder.append( "-exportmethod [filesystem]\n" );
-		helpBuilder.append( "-exportfile [FILE]\n" );	
+		helpBuilder.append( "-outputfile [FILE]\n" );	
 		
 		return helpBuilder.toString();
 	}

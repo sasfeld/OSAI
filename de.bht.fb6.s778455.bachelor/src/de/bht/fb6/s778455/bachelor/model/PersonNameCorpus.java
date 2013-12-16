@@ -89,8 +89,14 @@ public class PersonNameCorpus {
 		for( String lPrename : prenames ) {
 			// if the name contains special chars, add the original and the
 			// lowercased version for security
-			this.addIfSpecialChars( this.prenames, prename );
-			this.prenames.add( lPrename.trim().toLowerCase() );
+			if( 0 == lPrename.trim().length() ) {
+				Application.log( getClass()
+						+ "fillPrename(): empty prename given.",
+						LogType.WARNING );
+			} else {
+				this.addIfSpecialChars( this.prenames, prename );
+				this.prenames.add( lPrename.trim().toLowerCase() );
+			}
 		}
 	}
 
@@ -108,7 +114,12 @@ public class PersonNameCorpus {
 	 * @param caseSensitive
 	 */
 	public void fillLastname( String lastname ) {
-		this.lastnames.add( lastname.trim().toLowerCase() );
+		if( 0 == lastname.trim().length() ) {
+			Application.log( getClass()
+					+ "fillPrename(): empty lastname given.", LogType.WARNING );
+		} else {
+			this.lastnames.add( lastname.trim().toLowerCase() );
+		}
 
 		// if the name contains special chars, add the original and the
 		// lowercased version for security
