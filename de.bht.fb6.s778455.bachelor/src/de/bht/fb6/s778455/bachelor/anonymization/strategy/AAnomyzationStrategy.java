@@ -3,7 +3,10 @@
  */
 package de.bht.fb6.s778455.bachelor.anonymization.strategy;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
@@ -112,7 +115,23 @@ public abstract class AAnomyzationStrategy {
 		String newCleanedText = cleanedText;
 		
 //		newCleanedText = newCleanedText.replaceAll( "</?[a-z]+(\\s=\".*?\")*[\\s]*/?>", " " );
-		newCleanedText = newCleanedText.replaceAll( "</?.*?/?>", " " );
+		Pattern pTag = Pattern.compile( "</?.*?/?>" );
+		Matcher mTag = pTag.matcher( newCleanedText );
+		List< String > matchedSequences = new ArrayList<String>();
+		
+		while ( mTag.find() ) {
+			String matchedSequence = mTag.group();
+			if ( !matchedSequence.contains( LEARNED_PERSON_NAME_REPLACEMENT )
+				&& !matchedSequence.contains( NAME_CORPUS_REPLACEMENT )
+				&& !matchedSequence.contains( PERSONAL_DATA_REPLACEMENT )
+				&& !matchedSequence.contains( PERSONAL_GREETING_REPLACEMENT )) {
+				matchedSequences.add( matchedSequence );
+			}
+		}
+		for( String matchedSequence : matchedSequences ) {
+			newCleanedText = newCleanedText.replaceAll( matchedSequence, "" );
+		}
+// 		newCleanedText = newCleanedText.replaceAll( "</?.*?/?>", " " );
 //		newCleanedText = newCleanedText.replaceAll( "" + '\n', " " );
 //		newCleanedText = newCleanedText.replaceAll( "" + '\r', " " );
 //		newCleanedText = newCleanedText.replaceAll( "" + '\t', " " );

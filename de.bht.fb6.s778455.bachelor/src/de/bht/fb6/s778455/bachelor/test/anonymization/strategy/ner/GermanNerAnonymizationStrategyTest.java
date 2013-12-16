@@ -3,7 +3,7 @@
  */
 package de.bht.fb6.s778455.bachelor.test.anonymization.strategy.ner;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import java.io.File;
 import java.lang.reflect.InvocationTargetException;
@@ -14,6 +14,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory;
+import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.ner.ANerAnonymizationStrategy;
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.ner.GermanNerAnonymizationStrategy;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
@@ -125,7 +126,16 @@ public class GermanNerAnonymizationStrategyTest {
 		 * test replacement of moodle characters
 		 */
 		inputText = "<p id=\"yui_3_7_3_3_1386692797241_174\">test</p>";
-		expectedCleanedText = " test ";	
+		expectedCleanedText = "test";	
+		cleanedText = ( String ) method.invoke( this.strategy, inputText );
+		
+		assertEquals( expectedCleanedText, cleanedText );
+		
+		/*
+		 * assert that anonymization tags are not replaced
+		 */
+		inputText = de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy.LEARNED_PERSON_NAME_REPLACEMENT + " " + de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy.NAME_CORPUS_REPLACEMENT + " " + AAnomyzationStrategy.PERSONAL_DATA_REPLACEMENT +" " + AAnomyzationStrategy.PERSONAL_GREETING_REPLACEMENT;
+		expectedCleanedText = inputText;	
 		cleanedText = ( String ) method.invoke( this.strategy, inputText );
 		
 		assertEquals( expectedCleanedText, cleanedText );
