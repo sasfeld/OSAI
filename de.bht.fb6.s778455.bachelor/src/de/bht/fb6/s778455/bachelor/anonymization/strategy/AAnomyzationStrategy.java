@@ -132,6 +132,7 @@ public abstract class AAnomyzationStrategy {
 			newCleanedText = newCleanedText.replaceAll( matchedSequence, "" );
 		}
 // 		newCleanedText = newCleanedText.replaceAll( "</?.*?/?>", " " );
+		newCleanedText = newCleanedText.replaceAll( "\\r\\n", " " );
 //		newCleanedText = newCleanedText.replaceAll( "" + '\n', " " );
 //		newCleanedText = newCleanedText.replaceAll( "" + '\r', " " );
 //		newCleanedText = newCleanedText.replaceAll( "" + '\t', " " );
