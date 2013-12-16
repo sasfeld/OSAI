@@ -89,7 +89,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	public DirectoryImportStrategy() {
 		this.boardSpecificImport = ServiceFactory.getConfigReader().fetchValue(
 				IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC );
-		this.encoding = "UTF-8";
+		this.encoding = ServiceFactory.getConfigReader().fetchValue( IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_ENCODING );
 
 		System.out.println(ServiceFactory
 				.getConfigReader()

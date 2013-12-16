@@ -12,11 +12,13 @@ import java.util.Collection;
 import java.util.List;
 
 import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
+import de.bht.fb6.s778455.bachelor.exporter.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 
 /**
  * <p>
@@ -39,7 +41,7 @@ public class DirectoryExportStrategy extends AExportStrategy {
 	private String encoding;
 
 	public DirectoryExportStrategy() {
-		this.encoding = "UTF-8";
+		this.encoding = ServiceFactory.getConfigReader().fetchValue( IConfigKeys.EXPORT_STRATEGY_DIRECTORYEXPORT_ENCODING );
 	}
 	
 	@Override
