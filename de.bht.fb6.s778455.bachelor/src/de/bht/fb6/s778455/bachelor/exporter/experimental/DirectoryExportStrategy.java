@@ -41,9 +41,10 @@ public class DirectoryExportStrategy extends AExportStrategy {
 	private String encoding;
 
 	public DirectoryExportStrategy() {
-		this.encoding = ServiceFactory.getConfigReader().fetchValue( IConfigKeys.EXPORT_STRATEGY_DIRECTORYEXPORT_ENCODING );
+		this.encoding = ServiceFactory.getConfigReader().fetchValue(
+				IConfigKeys.EXPORT_STRATEGY_DIRECTORYEXPORT_ENCODING );
 	}
-	
+
 	@Override
 	/*
 	 * (non-Javadoc)
@@ -91,7 +92,7 @@ public class DirectoryExportStrategy extends AExportStrategy {
 		// create course.txt file
 		File courseFile = new File( newCourseDir, "course.txt" );
 		this.createTxtFile( courseFile, course.exportToTxt() );
-		
+
 		this.createBoardDirs( newCourseDir, course.getBoards() );
 	}
 
@@ -120,7 +121,7 @@ public class DirectoryExportStrategy extends AExportStrategy {
 			File newBoardDir = new File( courseDir,
 					this.removeIllegalChars( board.getTitle() ) );
 			newBoardDir.mkdir(); // create new dir immediatly.
-			
+
 			// create board.txt file
 			File boardTxt = new File( newBoardDir, "board.txt" );
 			this.createTxtFile( boardTxt, board.exportToTxt() );
@@ -145,7 +146,8 @@ public class DirectoryExportStrategy extends AExportStrategy {
 				this.removeIllegalChars( boardThread.getTitle() ) );
 		newBoardThreadDir.mkdir(); // create new dir immediatly.
 
-		File newBoardThreadFile = new File( newBoardThreadDir, "boardthread.txt" );
+		File newBoardThreadFile = new File( newBoardThreadDir,
+				"boardthread.txt" );
 		this.createTxtFile( newBoardThreadFile, boardThread.exportToTxt() );
 		// if (!successCreation) {
 		// throw new GeneralLoggingException(
@@ -159,22 +161,30 @@ public class DirectoryExportStrategy extends AExportStrategy {
 
 		int i = 1;
 		for( Posting posting : boardThread.getPostings() ) {
-			File newPostingFile = new File( newBoardThreadDir, "posting"
-					+ i + ".txt" );
+			File newPostingFile = new File( newBoardThreadDir, "posting" + i
+					+ ".txt" );
 			this.createTxtFile( newPostingFile, posting.exportToTxt() );
 			i++;
 		}
-	}	
-	
-	private void createTxtFile( File newFile, String txtContent ) throws GeneralLoggingException {
+	}
+
+	private void createTxtFile( File newFile, String txtContent )
+			throws GeneralLoggingException {
 		try {
 			newFile.createNewFile();
-			PrintWriter writer = new PrintWriter( new OutputStreamWriter( new FileOutputStream( newFile ), this.encoding ) );
-			String[] lines = txtContent.split( "\n" );
+			PrintWriter writer = null;
 			
+			if( this.encoding.equals( "false" ) ) {
+				writer = new PrintWriter( newFile );
+			} else {
+				writer = new PrintWriter( new OutputStreamWriter(
+						new FileOutputStream( newFile ), this.encoding ) );
+			}
+			String[] lines = txtContent.split( "\n" );
+
 			for( String line : lines ) {
-				writer.println(line);
-			}	
+				writer.println( line );
+			}
 
 			writer.flush();
 

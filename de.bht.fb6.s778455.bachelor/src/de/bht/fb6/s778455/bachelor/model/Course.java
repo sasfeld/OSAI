@@ -70,7 +70,6 @@ public class Course implements Serializable, IDirectoryPortable {
 	public Course( String courseTitle ) {
 		this.setTitle( courseTitle );
 		this.boards = new ArrayList< Board >();
-		this.personNameCorpus = new PersonNameCorpus();
 		this.learnedWords = new HashMap< LearnedWordTypes, Set< String > >();
 	}
 

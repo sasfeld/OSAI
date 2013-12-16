@@ -249,9 +249,22 @@ public class AnonymizationController {
 									.getPrenames().size()
 							+ "; number of lastnames: "
 							+ ServiceFactory.getPersonNameCorpusSingleton()
-									.getLastnames().size() + "\n");
+									.getLastnames().size() + "\n" );
 		}
 		for( Course course : anonymizedCourses ) {
+			if( ServiceFactory
+					.getConfigReader()
+					.fetchValue(
+							IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC )
+					.equals( "true" )
+					|| ServiceFactory
+							.getConfigReader()
+							.fetchValue(
+									IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC )
+							.equals( "fallback" ) ) {
+				statisticsBuilder.append( "Course specific name corpus for course: " + course.getTitle() + "\n");
+				statisticsBuilder.append( course.getPersonNameCorpus() + "\n");
+			}
 			// System.out.println("Course: " + course);
 			// System.out.println("");
 			// System.out.println(".............................");
