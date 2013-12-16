@@ -76,22 +76,26 @@ public class AnonymizationController {
 							.fetchValue(
 									IConfigKeys.EXPORT_STRATEGY_DIRECTORYEXPORT_DATAFOLDER ) );
 		} else {
-			this.configuredExportFile = new File(new File(
-					de.bht.fb6.s778455.bachelor.exporter.organization.service.ServiceFactory
-							.getConfigReader()
-							.fetchValue(
-									IConfigKeys.EXPORT_STRATEGY_SERIALIZED_DATAFOLDER )), "serialized.ser" );
+			this.configuredExportFile = new File(
+					new File(
+							de.bht.fb6.s778455.bachelor.exporter.organization.service.ServiceFactory
+									.getConfigReader()
+									.fetchValue(
+											IConfigKeys.EXPORT_STRATEGY_SERIALIZED_DATAFOLDER ) ),
+					"serialized.ser" );
 		}
 
 	}
-	
-	public AnonymizationController(AImportStrategy importStrategy, AExportStrategy exportStrategy) throws InvalidConfigException {
+
+	public AnonymizationController( AImportStrategy importStrategy,
+			AExportStrategy exportStrategy ) throws InvalidConfigException {
 		this.importStrategy = importStrategy;
 		this.exportStrategy = exportStrategy;
-		
+
 		this.anonymConfigReader = de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory
 				.getConfigReader();
-		this.chainingKeys = this.anonymConfigReader.fetchMultipleValues( IConfigKeys.ANONYM_STRATEGY_CHAIN );
+		this.chainingKeys = this.anonymConfigReader
+				.fetchMultipleValues( IConfigKeys.ANONYM_STRATEGY_CHAIN );
 	}
 
 	/**
@@ -102,8 +106,8 @@ public class AnonymizationController {
 	 * @throws GeneralLoggingException
 	 *             if the import strategy raised any error
 	 */
-	public Collection< Course > performAnonymization(Collection< Course > rawCourses)
-			throws GeneralLoggingException {
+	public Collection< Course > performAnonymization(
+			Collection< Course > rawCourses ) throws GeneralLoggingException {
 		// perform import first
 		Collection< Course > courses = rawCourses;
 
@@ -191,23 +195,20 @@ public class AnonymizationController {
 	public void performAnonymizationAnalysis() throws GeneralLoggingException {
 		long startTime = new Date().getTime();
 		Collection< Course > rawCourses = this.importStrategy
-		.importBoardFromFile( this.configuredDataFile );
-		Collection< Course > anonymizedCourses = this.performAnonymization(rawCourses);
+				.importBoardFromFile( this.configuredDataFile );
+		Collection< Course > anonymizedCourses = this
+				.performAnonymization( rawCourses );
 		long elapsedTime = new Date().getTime() - startTime;
 
 		this.exportStrategy.exportToFile( anonymizedCourses,
 				this.configuredExportFile );
 
-		for( Course course : anonymizedCourses ) {
-			System.out.println("Course: " + course.getTitle());
-			System.out.println("corpus: " + course.getPersonNameCorpus());
-		}
-		
-		System.out.println(getStatistics( anonymizedCourses, elapsedTime ));
+		System.out.println( getStatistics( anonymizedCourses, elapsedTime ) );
 	}
 
 	/**
 	 * Get a statistics string.
+	 * 
 	 * @param anonymizedCourses
 	 * @param elapsedTime
 	 */
@@ -215,42 +216,84 @@ public class AnonymizationController {
 			long elapsedTime ) {
 		StringBuilder statisticsBuilder = new StringBuilder();
 
-		statisticsBuilder.append( "Used chain of strategies (config keys): "
+		statisticsBuilder.append( "Import strategy: "
+				+ this.importStrategy.getClass() + "\n" );
+		if( this.importStrategy instanceof DirectoryImportStrategy ) {
+			statisticsBuilder
+					.append( "Used encoding of input files: "
+							+ ServiceFactory
+									.getConfigReader()
+									.fetchValue(
+											IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_ENCODING )
+							+ "\n" );
+		}
+		statisticsBuilder
+				.append( "Used chain of strategies (config keys): "
 						+ de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory
 								.getConfigReader().fetchValue(
-										IConfigKeys.ANONYM_STRATEGY_CHAIN ) + "\n");
-		statisticsBuilder.append( "Number of courses: " + anonymizedCourses.size() +"\n" );
+										IConfigKeys.ANONYM_STRATEGY_CHAIN )
+						+ "\n" );
+		statisticsBuilder.append( "Number of courses: "
+				+ anonymizedCourses.size() + "\n" );
 		int numberThreads = 0;
 		int numberPostings = 0;
+
+		if( ServiceFactory
+				.getConfigReader()
+				.fetchValue(
+						IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC )
+				.equals( "false" ) ) {
+			statisticsBuilder
+					.append( "NameCorpusStrategy: using global corpus. Number of prenames: "
+							+ ServiceFactory.getPersonNameCorpusSingleton()
+									.getPrenames().size()
+							+ "; number of lastnames: "
+							+ ServiceFactory.getPersonNameCorpusSingleton()
+									.getLastnames().size() + "\n");
+		}
 		for( Course course : anonymizedCourses ) {
-//			System.out.println("Course: " + course);
-//			System.out.println("");
-//			System.out.println(".............................");
+			// System.out.println("Course: " + course);
+			// System.out.println("");
+			// System.out.println(".............................");
 			for( Board board : course.getBoards() ) {
-//				System.out.println("Board: " + board);
-//				System.out.println();
-//				System.out.println("++++++++++++++++++++++++++++++");
+				// System.out.println("Board: " + board);
+				// System.out.println();
+				// System.out.println("++++++++++++++++++++++++++++++");
 				numberThreads += board.getBoardThreads().size();
 
 				for( BoardThread boardThread : board.getBoardThreads() ) {
-//					System.out.println("Thread: " + boardThread);
-//					System.out.println();
-//					System.out.println("--------------------------------");
+					// System.out.println("Thread: " + boardThread);
+					// System.out.println();
+					// System.out.println("--------------------------------");
 					numberPostings += boardThread.getPostings().size();
-					
-//					for( Posting p : boardThread.getPostings() ) {
-////						System.out.println("Posting: " + p);
-//					}
-//					System.out.println("--------------------------------");
+
+					// for( Posting p : boardThread.getPostings() ) {
+					// // System.out.println("Posting: " + p);
+					// }
+					// System.out.println("--------------------------------");
 				}
-//				System.out.println("++++++++++++++++++++++++++++++");
+				// System.out.println("++++++++++++++++++++++++++++++");
 			}
-//			System.out.println(".............................");
+			// System.out.println(".............................");
 		}
-		statisticsBuilder.append( "Number of threads: " + numberThreads +"\n" );
-		statisticsBuilder.append( "Number of postings: " + numberPostings +"\n" );
-		statisticsBuilder.append( "Elapsed time (s): " + elapsedTime / 1000 +"\n" );
-		
+
+		statisticsBuilder.append( "Export strategy: "
+				+ this.exportStrategy.getClass() + "\n" );
+		if( this.exportStrategy instanceof DirectoryExportStrategy ) {
+			statisticsBuilder
+					.append( "Used encoding of export files: "
+							+ de.bht.fb6.s778455.bachelor.exporter.organization.service.ServiceFactory
+									.getConfigReader()
+									.fetchValue(
+											IConfigKeys.EXPORT_STRATEGY_DIRECTORYEXPORT_ENCODING )
+							+ "\n" );
+		}
+		statisticsBuilder.append( "Number of threads: " + numberThreads + "\n" );
+		statisticsBuilder.append( "Number of postings: " + numberPostings
+				+ "\n" );
+		statisticsBuilder.append( "Elapsed time (s): " + elapsedTime / 1000
+				+ "\n" );
+
 		return statisticsBuilder.toString();
 	}
 

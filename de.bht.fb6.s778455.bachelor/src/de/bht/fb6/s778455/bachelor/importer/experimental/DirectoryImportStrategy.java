@@ -91,16 +91,11 @@ public class DirectoryImportStrategy extends AImportStrategy {
 				IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC );
 		this.encoding = ServiceFactory.getConfigReader().fetchValue( IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_ENCODING );
 
-		System.out.println(ServiceFactory
-				.getConfigReader()
-				.fetchValue(
-						IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC ));
 		if( ServiceFactory
 				.getConfigReader()
 				.fetchValue(
 						IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC )
-				.equals( "false" ) ) {
-			System.out.println("value is : "+false);
+				.equals( "false" ) ) {		
 			this.personCorpus = ServiceFactory.getPersonNameCorpusSingleton();
 			String prenamesFile = ServiceFactory
 					.getConfigReader()
@@ -368,11 +363,8 @@ public class DirectoryImportStrategy extends AImportStrategy {
 								"^([A-Z_]+):\\s(.*?)$", Pattern.MULTILINE );
 						Matcher matcher = pKeyValue.matcher( line );
 						while( matcher.find() ) {
-							String key = matcher.group( 1 );
-							System.out.println( "key " + key );
+							String key = matcher.group( 1 );					
 							String value = matcher.group( 2 );
-
-							System.out.println( "value " + value );
 
 							try {
 								portableModel.importFromTxt( key, value );
