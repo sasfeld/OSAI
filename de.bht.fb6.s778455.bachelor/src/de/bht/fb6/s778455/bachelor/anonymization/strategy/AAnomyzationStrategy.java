@@ -111,7 +111,8 @@ public abstract class AAnomyzationStrategy {
 	private String removeMoodleChars( String cleanedText ) {
 		String newCleanedText = cleanedText;
 		
-		newCleanedText = newCleanedText.replaceAll( "</?[a-z]+/?>", " " );
+//		newCleanedText = newCleanedText.replaceAll( "</?[a-z]+(\\s=\".*?\")*[\\s]*/?>", " " );
+		newCleanedText = newCleanedText.replaceAll( "</?.*?/?>", " " );
 //		newCleanedText = newCleanedText.replaceAll( "" + '\n', " " );
 //		newCleanedText = newCleanedText.replaceAll( "" + '\r', " " );
 //		newCleanedText = newCleanedText.replaceAll( "" + '\t', " " );
