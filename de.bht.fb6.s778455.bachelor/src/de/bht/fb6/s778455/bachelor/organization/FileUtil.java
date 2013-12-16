@@ -6,6 +6,7 @@ package de.bht.fb6.s778455.bachelor.organization;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.charset.Charset;
@@ -37,7 +38,9 @@ public class FileUtil {
 	public static List< String > readFileLineBased( File file, String encoding )
 			throws GeneralLoggingException {
 		try {
-			Charset.forName( encoding );
+			if( null != encoding ) {
+				Charset.forName( encoding );
+			}
 		} catch( UnsupportedCharsetException e ) {
 			throw new GeneralLoggingException(
 					"readFileLineBased(): the given charset/encoding "
@@ -54,7 +57,12 @@ public class FileUtil {
 		List< String > lines = new ArrayList< String >();
 		BufferedReader reader = null;
 		try {
-			reader = new BufferedReader( new InputStreamReader( new FileInputStream( file ), encoding ) );
+			if( null != encoding ) {
+				reader = new BufferedReader( new InputStreamReader(
+						new FileInputStream( file ), encoding ) );
+			} else {
+				reader = new BufferedReader( new FileReader( file ) );
+			}
 			String line;
 			while( null != ( line = reader.readLine() ) ) {
 				lines.add( line ); // add single line to collection

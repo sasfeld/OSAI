@@ -80,7 +80,8 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	private static final String PERSON_CORPUS_PRENAME_FILE = "prenames.txt";
 	private static final String PERSON_CORPUS_LASTNAME_FILE = "lastnames.txt";
 	protected String boardSpecificImport;
-	private String encoding;
+	protected String encoding;
+	protected PersonNameCorpus personCorpus = null;
 
 	/**
 	 * Create and prepare a new DirectoryImportStrategy instance.
@@ -89,6 +90,72 @@ public class DirectoryImportStrategy extends AImportStrategy {
 		this.boardSpecificImport = ServiceFactory.getConfigReader().fetchValue(
 				IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC );
 		this.encoding = "UTF-8";
+
+		System.out.println(ServiceFactory
+				.getConfigReader()
+				.fetchValue(
+						IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC ));
+		if( ServiceFactory
+				.getConfigReader()
+				.fetchValue(
+						IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC )
+				.equals( "false" ) ) {
+			System.out.println("value is : "+false);
+			this.personCorpus = ServiceFactory.getPersonNameCorpusSingleton();
+			String prenamesFile = ServiceFactory
+					.getConfigReader()
+					.fetchValue(
+							IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_NAMECORPUS_PRENAMES );
+			String lastnamesFile = ServiceFactory
+					.getConfigReader()
+					.fetchValue(
+							IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_NAMECORPUS_LASTNAMES );
+			this.fillSingletonPersonCorpus( this.personCorpus, prenamesFile,
+					lastnamesFile );
+		}
+		// else: personCorpus = null
+	}
+
+	/**
+	 * Fill the given personCorpus singleton by two *.txt files.
+	 * 
+	 * @param personCorpus
+	 * @param prenamesFile
+	 * @param lastnamesFile
+	 */
+	private void fillSingletonPersonCorpus( PersonNameCorpus personCorpus,
+			String prenamesFile, String lastnamesFile ) {
+		File fPrenamesFile = new File( prenamesFile );
+		File fLastnamesFile = new File( lastnamesFile );
+
+		if( !fPrenamesFile.exists()) {
+			Application
+					.log( getClass()
+							+ ":fillSingletonPersonCorpus: the configured corpus files "
+							+ fPrenamesFile.getAbsolutePath() 					
+							+ " doesn't exist.", LogType.CRITICAL );
+		} else {
+			try {
+				this.fillFromFile( fPrenamesFile, personCorpus, PersonNameType.PRENAME );
+			} catch( GeneralLoggingException e ) {
+				// exception makes a log
+			}
+		}
+		
+		if ( !fLastnamesFile.exists() ) {
+			Application
+			.log( getClass()
+					+ ":fillSingletonPersonCorpus: the configured corpus file "					
+					+ fLastnamesFile.getAbsolutePath()
+					+ " doesn't .", LogType.CRITICAL );
+		} else {
+			try {
+				this.fillFromFile( fLastnamesFile, personCorpus, PersonNameType.LASTNAME );
+			} catch( GeneralLoggingException e ) {
+				// exception makes a log
+			}
+		}
+		
 	}
 
 	@Override
@@ -207,9 +274,11 @@ public class DirectoryImportStrategy extends AImportStrategy {
 			}
 		}
 
-		// course specific corpus was not found
-		if( !specificCorpusIncluded
-				&& this.boardSpecificImport.equals( "fallback" ) ) {
+		// course specific corpus was not found or it is turned off in
+		// configuration (value: false)
+		if( ( !specificCorpusIncluded && this.boardSpecificImport
+				.equals( "fallback" ) )
+				|| this.boardSpecificImport.equals( "false" ) ) {
 			Application.log( getClass()
 					+ ":fillBoards: fallback to global person corpus.",
 					LogType.INFO );
@@ -316,7 +385,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 					}
 				} else if( contentMatched && !taggedContentMatched ) {
 					if( line.trim().toLowerCase().contains( "tagged_content:" ) ) {
-						taggedContentMatched = true;			
+						taggedContentMatched = true;
 					} else {
 						contentBuilder.append( line + "\n" );
 					}
@@ -353,10 +422,9 @@ public class DirectoryImportStrategy extends AImportStrategy {
 			}
 		} catch( GeneralLoggingException e1 ) {
 			// is logged already
-		} catch( IllegalArgumentException e) {
-			Application.log( fullyQualified
-					+ ": exception occured, file: " + importFile + ": "
-					+ e, LogType.ERROR );
+		} catch( IllegalArgumentException e ) {
+			Application.log( fullyQualified + ": exception occured, file: "
+					+ importFile + ": " + e, LogType.ERROR );
 		}
 
 	}
