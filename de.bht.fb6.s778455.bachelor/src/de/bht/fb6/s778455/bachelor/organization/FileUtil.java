@@ -38,7 +38,7 @@ public class FileUtil {
 	public static List< String > readFileLineBased( File file, String encoding )
 			throws GeneralLoggingException {
 		try {
-			if( null != encoding ) {
+			if( null != encoding && !"false".equals( encoding ) ) {
 				Charset.forName( encoding );
 			}
 		} catch( UnsupportedCharsetException e ) {
@@ -57,7 +57,7 @@ public class FileUtil {
 		List< String > lines = new ArrayList< String >();
 		BufferedReader reader = null;
 		try {
-			if( null != encoding ) {
+			if( null != encoding && !"false".equals( encoding )) {
 				reader = new BufferedReader( new InputStreamReader(
 						new FileInputStream( file ), encoding ) );
 			} else {
