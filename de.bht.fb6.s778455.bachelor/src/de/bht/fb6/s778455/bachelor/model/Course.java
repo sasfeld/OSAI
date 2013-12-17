@@ -61,6 +61,7 @@ public class Course implements Serializable, IDirectoryPortable {
 	protected List< Board > boards;
 	protected PersonNameCorpus personNameCorpus;
 	protected Map< LearnedWordTypes, Set< String > > learnedWords;
+	private String url;
 
 	/**
 	 * Create a course for which only a title is given.
@@ -85,14 +86,16 @@ public class Course implements Serializable, IDirectoryPortable {
 	 * 
 	 * @param personNameCorpus
 	 *            the personNameCorpus to set
+	 * @return 
 	 */
-	public void setPersonNameCorpus( PersonNameCorpus personNameCorpus ) {
+	public Course setPersonNameCorpus( PersonNameCorpus personNameCorpus ) {
 		if( null == personNameCorpus ) {
 			throw new IllegalArgumentException(
 					getClass()
 							+ "setPersonNameCorpus(): null value is not allowed for personnameCorpus" );
 		}
 		this.personNameCorpus = personNameCorpus;
+		return this;
 	}
 
 	/**
@@ -105,9 +108,11 @@ public class Course implements Serializable, IDirectoryPortable {
 	/**
 	 * @param lang
 	 *            the lang to set
+	 * @return 
 	 */
-	public void setLang( String lang ) {
+	public Course setLang( String lang ) {
 		this.lang = lang;
+		return this;
 	}
 
 	/**
@@ -120,9 +125,11 @@ public class Course implements Serializable, IDirectoryPortable {
 	/**
 	 * @param title
 	 *            the title to set
+	 * @return 
 	 */
-	public void setTitle( String title ) {
+	public Course setTitle( String title ) {
 		this.title = title;
+		return this;
 	}
 
 	/**
@@ -135,9 +142,11 @@ public class Course implements Serializable, IDirectoryPortable {
 	/**
 	 * @param creationDate
 	 *            the creationDate to set
+	 * @return 
 	 */
-	public void setCreationDate( Date creationDate ) {
+	public Course setCreationDate( Date creationDate ) {
 		this.creationDate = creationDate;
+		return this;
 	}
 
 	/**
@@ -150,9 +159,11 @@ public class Course implements Serializable, IDirectoryPortable {
 	/**
 	 * @param modificationDate
 	 *            the modificationDate to set
+	 * @return 
 	 */
-	public void setModificationDate( Date modificationDate ) {
+	public Course setModificationDate( Date modificationDate ) {
 		this.modificationDate = modificationDate;
+		return this;
 	}
 
 	/**
@@ -165,9 +176,11 @@ public class Course implements Serializable, IDirectoryPortable {
 	/**
 	 * @param id
 	 *            the id to set
+	 * @return 
 	 */
-	public void setId( int id ) {
+	public Course setId( int id ) {
 		this.id = id;
+		return this;
 	}
 
 	/**
@@ -187,9 +200,11 @@ public class Course implements Serializable, IDirectoryPortable {
 	/**
 	 * @param shortName
 	 *            the shortName to set
+	 * @return 
 	 */
-	public void setShortName( String shortName ) {
+	public Course setShortName( String shortName ) {
 		this.shortName = shortName;
+		return this;
 	}
 
 	/**
@@ -202,9 +217,11 @@ public class Course implements Serializable, IDirectoryPortable {
 	/**
 	 * @param summary
 	 *            the summary to set
+	 * @return 
 	 */
-	public void setSummary( String summary ) {
+	public Course setSummary( String summary ) {
 		this.summary = summary;
+		return this;
 	}
 
 	/**
@@ -254,9 +271,11 @@ public class Course implements Serializable, IDirectoryPortable {
 	/**
 	 * @param docent
 	 *            the docent to set
+	 * @return 
 	 */
-	public void setDocent( User docent ) {
+	public Course setDocent( User docent ) {
 		this.docent = docent;
+		return this;
 	}
 
 	/**
@@ -478,6 +497,20 @@ public class Course implements Serializable, IDirectoryPortable {
 				+ ", getDocent()=" + getDocent() + ", getShortName()="
 				+ getShortName() + ", getSummary()=" + getSummary()
 				+ ", getBoards()=" + getBoards() + "]";
+	}
+
+	/**
+	 * Set the url String of this course.
+	 * @param url
+	 * @return 
+	 */
+	public Course setUrl( String url ) {
+		this.url = url;
+		return this;		
+	}
+	
+	public String getUrl() {
+		return this.url;
 	}
 
 }

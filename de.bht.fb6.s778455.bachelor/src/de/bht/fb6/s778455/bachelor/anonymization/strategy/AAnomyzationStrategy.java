@@ -82,14 +82,15 @@ public abstract class AAnomyzationStrategy {
 	 * 
 	 * @param preparedText
 	 * @return a new {@link String}
-	 * @throws GeneralLoggingException 
+	 * @throws GeneralLoggingException
 	 */
-	protected String prepareText( String preparedText ) throws GeneralLoggingException {
+	protected String prepareText( String preparedText )
+			throws GeneralLoggingException {
 		if( null != preparedText ) {
-			String cleanedText = preparedText;			
+			String cleanedText = preparedText;
 
 			// remove moodle tags
-			cleanedText = this.removeMoodleChars(cleanedText);
+			cleanedText = this.removeMoodleChars( cleanedText );
 
 			// remove empty lines
 			cleanedText = cleanedText.replaceAll( "(?m)^[ \t]*\r?\n", "" );
@@ -104,11 +105,13 @@ public abstract class AAnomyzationStrategy {
 			// insert whitespaces after ",": negative lookahead regex: all ","
 			// followed by no whitespace will be replaced by ",[whitespace]"
 			cleanedText = cleanedText.replaceAll( "\\,(?!\\s)(?=[a-zA-Z0-9])",
-					", " );			
+					", " );
 
 			return cleanedText;
 		}
-		throw new GeneralLoggingException( getClass() + "prepareText: null pointer", "Internal error in the anonymization system!");
+		throw new GeneralLoggingException( getClass()
+				+ "prepareText: null pointer",
+				"Internal error in the anonymization system!" );
 	}
 
 	private String removeMoodleChars( String cleanedText ) {
@@ -129,10 +132,14 @@ public abstract class AAnomyzationStrategy {
 			}
 		}
 		for( String matchedSequence : matchedSequences ) {
+			try {
 			newCleanedText = newCleanedText.replaceAll( matchedSequence, "" );
+			} catch ( Exception e) { // TODO be less defensive
+				// TODO handle exception
+			}
 		}
 // 		newCleanedText = newCleanedText.replaceAll( "</?.*?/?>", " " );
-		newCleanedText = newCleanedText.replaceAll( "\\r\\n", " " );
+		newCleanedText = newCleanedText.replaceAll( "(\\\\r\\\\n|\\\\n|\\\\t)", " " );
 //		newCleanedText = newCleanedText.replaceAll( "" + '\n', " " );
 //		newCleanedText = newCleanedText.replaceAll( "" + '\r', " " );
 //		newCleanedText = newCleanedText.replaceAll( "" + '\t', " " );
