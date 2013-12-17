@@ -89,9 +89,12 @@ public class BoardThread extends AUserContribution {
 	/**
 	 * Set the id of the first posting. 
 	 * @param postingId
+	 * @return 
 	 */
-	public void setFirstPostingId( int postingId ) {
+	public BoardThread setFirstPostingId( int postingId ) {
 		this.firstPostingId = postingId;
+		
+		return this;
 	}
 	
 	/**
@@ -105,9 +108,12 @@ public class BoardThread extends AUserContribution {
 	/**
 	 * Set the end date, e.g. if the thread was closed (set in moodle).
 	 * @param date
+	 * @return 
 	 */
-	public void setEndDate( Date date ) {
+	public BoardThread setEndDate( Date date ) {
 		this.endDate = date;		
+		
+		return this;
 	}
 	
 	/**

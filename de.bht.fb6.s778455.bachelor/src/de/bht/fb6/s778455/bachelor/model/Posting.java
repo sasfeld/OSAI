@@ -28,6 +28,7 @@ public class Posting extends AUserContribution {
 	protected String taggedContent;
 	protected int parentPostingId;
 	protected BoardThread belongingThread;
+	private String postType;
 
 	/**
 	 * Create a Posting with a link to the belonging thread {@link Thread}
@@ -62,9 +63,11 @@ public class Posting extends AUserContribution {
 	/**
 	 * @param parentPostingId
 	 *            the parentPostingId to set
+	 * @return 
 	 */
-	public void setParentPostingId( int parentPostingId ) {
+	public Posting setParentPostingId( int parentPostingId ) {
 		this.parentPostingId = parentPostingId;
+		return this;
 	}
 
 	/**
@@ -77,9 +80,11 @@ public class Posting extends AUserContribution {
 	/**
 	 * @param content
 	 *            the untagged content to set
+	 * @return 
 	 */
-	public void setContent( String content ) {
+	public Posting setContent( String content ) {
 		this.content = content;
+		return this;
 	}
 
 	/**
@@ -92,9 +97,11 @@ public class Posting extends AUserContribution {
 	/**
 	 * @param taggedContent
 	 *            the taggedContent to set
+	 * @return 
 	 */
-	public void setTaggedContent( String taggedContent ) {
+	public Posting setTaggedContent( String taggedContent ) {
 		this.taggedContent = taggedContent;
+		return this;
 	}
 
 	/*
@@ -211,4 +218,12 @@ public class Posting extends AUserContribution {
 				+ ", creator=" + creator + ", title=" + title + "]";
 	}
 
+	public Posting setPostingType( String postType ) {
+		this.postType = postType;
+		return this;
+	}
+	
+	public String getPostingType() {
+		return this.postType;
+	}
 }

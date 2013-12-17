@@ -39,9 +39,11 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	/**
 	 * @param id
 	 *            the id to set
+	 * @return 
 	 */
-	public void setId( int id ) {
+	public AUserContribution setId( int id ) {
 		this.id = id;
+		return this;
 	}
 
 	/**
@@ -54,9 +56,11 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	/**
 	 * @param modificationDate
 	 *            the modificationDate to set
+	 * @return 
 	 */
-	public void setModificationDate( Date modificationDate ) {
+	public AUserContribution setModificationDate( Date modificationDate ) {
 		this.modificationDate = modificationDate;
+		return this;
 	}
 
 	/**
@@ -69,9 +73,11 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	/**
 	 * @param creationDate
 	 *            the creationDate to set
+	 * @return 
 	 */
-	public void setCreationDate( Date creationDate ) {
+	public AUserContribution setCreationDate( Date creationDate ) {
 		this.creationDate = creationDate;
+		return this;
 	}
 
 	/**
@@ -84,9 +90,11 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	/**
 	 * @param creator
 	 *            the creator to set
+	 * @return 
 	 */
-	public void setCreator( Creator creator ) {
+	public AUserContribution setCreator( Creator creator ) {
 		this.creator = creator;
+		return this;
 	}
 
 	/**
@@ -99,9 +107,11 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	/**
 	 * @param title
 	 *            the title to set
+	 * @return 
 	 */
-	public void setTitle( String title ) {
+	public AUserContribution setTitle( String title ) {
 		this.title = title;
+		return this;
 	}
 
 	/*
