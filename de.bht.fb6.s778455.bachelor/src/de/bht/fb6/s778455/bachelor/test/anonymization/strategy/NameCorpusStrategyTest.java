@@ -75,6 +75,15 @@ public class NameCorpusStrategyTest {
 		result = this.strategy.anonymizeText( input, testBoard );
 		
 		assertEquals( expectedOutput, result );
+		
+		// "hauke[xawgas] shall not be replaced
+		input = "haukeineinemWort";
+		expectedOutput = input;
+		
+		result = this.strategy.anonymizeText( input, testBoard );
+		
+		assertEquals( expectedOutput, result );
+		
 	}
 
 }
