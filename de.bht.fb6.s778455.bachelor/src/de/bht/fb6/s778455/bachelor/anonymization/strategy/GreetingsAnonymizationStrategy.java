@@ -24,7 +24,7 @@ import de.bht.fb6.s778455.bachelor.organization.StringUtil;
  * </p>
  * 
  * <p>
- * An example in German would be: "Gruß, Max Mustermann" or "Gruß MM"
+ * An example in German would be: "Gruï¿½, Max Mustermann" or "Gruï¿½ MM"
  * </p>
  * 
  * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
@@ -35,6 +35,7 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 	private Board board;
 	protected List< String > greetingWords;
 	private Integer numberRemovingLines;
+	protected Integer maxNumberLearnedWords;
 
 	@Override
 	/*
@@ -99,15 +100,27 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 		return this.greetingWords;
 	}
 
+	protected Integer getMaxNumberLearnedWords() throws InvalidConfigException {
+		if ( null == this.maxNumberLearnedWords ) {
+			try {
+				this.maxNumberLearnedWords = Integer.parseInt( ServiceFactory.getConfigReader().fetchValue( IConfigKeys.ANONYM_GREETINGS_LEARNED_MAXWORDS ) );
+			} catch (NumberFormatException e) {
+				throw new InvalidConfigException( "Value for maxNumberLearnedWords couldn't be parsed into an integer value.", "Internal error", e );
+			}
+		}
+		
+		return this.maxNumberLearnedWords;
+	}
+
 	/**
-	 * Remove a special greeting formula, such as: "Gruß[,] XY", "Grüßle[,] XY",
+	 * Remove a special greeting formula, such as: "Gruï¿½[,] XY", "Grï¿½ï¿½le[,] XY",
 	 * "Viel Erfolg[,] XY"
 	 * 
 	 * @param textString
 	 *            the whole text {@link String} in which the greeting shall be
 	 *            removed
 	 * @param greetingWord
-	 *            the greeting word which shall be looked up (e.g: "Gruß")
+	 *            the greeting word which shall be looked up (e.g: "Gruï¿½")
 	 * @return
 	 * @throws GeneralLoggingException
 	 */
@@ -242,8 +255,9 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 	 * @param lines
 	 * @param lineNumber
 	 *            inclusive the line to start
+	 * @throws InvalidConfigException 
 	 */
-	private void addLearnedWords( String[] lines, int lineNumber ) {
+	private void addLearnedWords( String[] lines, int lineNumber ) throws InvalidConfigException {
 		if( null == this.getBoard() ) {
 			Application
 					.log( getClass()
@@ -251,14 +265,19 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 							LogType.WARNING );
 		}
 		Board belongingBoard = this.getBoard();
-
+		
+		int addedWords = 0;
 		for( int i = lineNumber; i < lines.length; i++ ) {
 			String[] singleWords = lines[i].split( " " );
 
 			for( String singleWord : singleWords ) {
+				if ( addedWords == this.getMaxNumberLearnedWords()) {
+					break;
+				}
 				if( singleWord.matches( "[a-zA-Z]+" ) ) {
-					belongingBoard.getBelongingCourse().addLearnedWord( singleWord,
-							LearnedWordTypes.PERSON_NAME );
+					belongingBoard.getBelongingCourse().addLearnedWord(
+							singleWord, LearnedWordTypes.PERSON_NAME );
+					addedWords++;
 				}
 			}
 		}
@@ -269,8 +288,9 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 	 * {@link Matcher}).
 	 * 
 	 * @param matcher
+	 * @throws InvalidConfigException 
 	 */
-	private void addLearnedWords( Matcher matcher ) {
+	private void addLearnedWords( Matcher matcher ) throws InvalidConfigException {
 		if( null == this.getBoard() ) {
 			Application
 					.log( getClass()
@@ -279,15 +299,20 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 		}
 		Board belongingBoard = this.getBoard();
 
+		int numberAdded = 0;
 		while( matcher.find() ) {
 			String matchedWords = matcher.group();
 
 			String[] singleWords = matchedWords.split( " " );
 
 			for( String singleWord : singleWords ) {
+				if ( numberAdded == this.getMaxNumberLearnedWords() ) {
+					break;
+				}
 				if( singleWord.matches( "[a-zA-Z]+" ) ) {
-					belongingBoard.getBelongingCourse().addLearnedWord( singleWord,
-							LearnedWordTypes.PERSON_NAME );
+					belongingBoard.getBelongingCourse().addLearnedWord(
+							singleWord, LearnedWordTypes.PERSON_NAME );
+					numberAdded++;
 				}
 			}
 

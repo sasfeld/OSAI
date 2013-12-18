@@ -44,6 +44,8 @@ public interface IConfigKeys {
 	 */
 	String ANONYM_GREETINGS_GERMAN = "anonym.greetings.german";
 	String ANONYM_GREETINGS_NUMBEROFLINES = "anonym.greetings.numberoflines";
+	String ANONYM_GREETINGS_LEARNED_MAXWORDS = "anonym.greetings.learned.maxwords";
+	
 	/**
 	 *  key to the most common German words
 	 */
