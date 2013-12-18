@@ -19,12 +19,7 @@ import edu.stanford.nlp.ling.CoreLabel;
  * @since 21.11.2013
  *
  */
-public class GermanNerAnonymizationStrategy extends ANerAnonymizationStrategy {
-	/**
-	 * Define the replacement sequence for person entities.
-	 */
-	private static final String NE_PERSON_REPLACEMENT = "<REMOVED_PERSON_ENTITY>";
-		
+public class GermanNerAnonymizationStrategy extends ANerAnonymizationStrategy {		
 	/**
 	 * Create a new decorated GermanNerAnonymizationStrategy which is reponsible for anonymizing texts containing the German language.
 	 * @param decoratingStrategy another {@link AAnomyzationStrategy} which will be called by this strategy instance for further tasks

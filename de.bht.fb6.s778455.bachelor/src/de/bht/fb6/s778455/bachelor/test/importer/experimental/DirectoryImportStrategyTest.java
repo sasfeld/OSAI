@@ -79,12 +79,12 @@ public class DirectoryImportStrategyTest {
 			System.out.println("course: " + course);
 			System.out.println("Number of boards: " + course.getBoards().size());
 			// there should only be one course
-			assertTrue( course.getTitle().equals( "Test course" ) );
+			assertTrue( course.getTitle().equals( "Sample course" ) );
 
 			for( Board board : course.getBoards() ) {
 				System.out.println("board: " + board);
 				// there should be only one board
-				assertTrue( board.getTitle().equals( "Test board" ) );
+				assertTrue( board.getTitle().equals( "Sample board" ) );
 				assertTrue( null != board.getBoardThreads() );
 				assertTrue( 2 == board.getBoardThreads().size() );
 
@@ -96,7 +96,7 @@ public class DirectoryImportStrategyTest {
 					if( 0 == i ) { // timestamp is smaller -> so it should be
 									// first in the list
 //						assertEquals( "Test thread", boardThread.getTitle() );
-						assertEquals( 1384093141, boardThread.getCreationDate()
+						assertEquals( 1387364185, boardThread.getCreationDate()
 								.getTime() );
 					} else if( 1 == i ) { // timestamp is greater -> so it
 											// should be last in the list

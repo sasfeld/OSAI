@@ -112,15 +112,15 @@ public class GermanNerAnonymizationStrategyTest {
 
 		assertEquals( expectedCleanedText, cleanedText );
 
-		/*
-		 * test replacement of moodle characters
-		 */
-		inputText = "<p>schaut für alle möglichen <strong>Typen</strong> Tb, ob Days::operator!=(Tb) existiert. Wenn auch das nicht geht, überprüft der Compiler auch <LEARNED_PERSON_NAME_REPLACEMENT> sämtliche Umwandlungen von a in <LEARNED_PERSON_NAME_REPLACEMENT> Typ Ta, <LEARNED_PERSON_NAME_REPLACEMENT> schaut welcher operator!=(Ta, Tb) existiert.</p>\r\n<p>Wenn Sie also <LEARNED_PERSON_NAME_REPLACEMENT> Days::operator unsigned int() implementiert haben, dann wird der Compiler fündig: der eingebaute operator!=(unsigned int, unsigned int) kann verwendet werden, weil sowohl a als auch b in unsigned int umwandelbar sind.</p>\r\n<p>Alles klar? Also, Sie müssen eigentlich nur die in der Aufgabenstellung gelisteten Operatoren umsetzen, dann sollte es gehen.</p>\r\n<p>Viel Erfolg";
-		expectedCleanedText = "schaut für alle möglichen Typen Tb, ob Days::operator!=(Tb) existiert. Wenn auch das nicht geht, überprüft der Compiler auch <LEARNED_PERSON_NAME_REPLACEMENT> sämtliche Umwandlungen von a in <LEARNED_PERSON_NAME_REPLACEMENT> Typ Ta, <LEARNED_PERSON_NAME_REPLACEMENT> schaut welcher operator!=(Ta, Tb) existiert. Wenn Sie also <LEARNED_PERSON_NAME_REPLACEMENT> Days::operator unsigned int() implementiert haben, dann wird der Compiler fündig: der eingebaute operator!=(unsigned int, unsigned int) kann verwendet werden, weil sowohl a als auch b in unsigned int umwandelbar sind.</p>\r\n<p>Alles klar? Also, Sie müssen eigentlich nur die in der Aufgabenstellung gelisteten Operatoren umsetzen, dann sollte es gehen. Viel Erfolg";
-
-		cleanedText = ( String ) method.invoke( this.strategy, inputText );
-
-		assertEquals( expectedCleanedText, cleanedText );
+//		/*
+//		 * test replacement of moodle characters
+//		 */
+//		inputText = "<p>schaut für alle möglichen <strong>Typen</strong> Tb, ob Days::operator!=(Tb) existiert. Wenn auch das nicht geht, überprüft der Compiler auch <LEARNED_PERSON_NAME_REPLACEMENT> sämtliche Umwandlungen von a in <LEARNED_PERSON_NAME_REPLACEMENT> Typ Ta, <LEARNED_PERSON_NAME_REPLACEMENT> schaut welcher operator!=(Ta, Tb) existiert.</p>\r\n<p>Wenn Sie also <LEARNED_PERSON_NAME_REPLACEMENT> Days::operator unsigned int() implementiert haben, dann wird der Compiler fündig: der eingebaute operator!=(unsigned int, unsigned int) kann verwendet werden, weil sowohl a als auch b in unsigned int umwandelbar sind.</p>\r\n<p>Alles klar? Also, Sie müssen eigentlich nur die in der Aufgabenstellung gelisteten Operatoren umsetzen, dann sollte es gehen.</p>\r\n<p>Viel Erfolg";
+//		expectedCleanedText = "schaut für alle möglichen Typen Tb, ob Days::operator!=(Tb) existiert. Wenn auch das nicht geht, überprüft der Compiler auch <LEARNED_PERSON_NAME_REPLACEMENT> sämtliche Umwandlungen von a in <LEARNED_PERSON_NAME_REPLACEMENT> Typ Ta, <LEARNED_PERSON_NAME_REPLACEMENT> schaut welcher operator!=(Ta, Tb) existiert. Wenn Sie also <LEARNED_PERSON_NAME_REPLACEMENT> Days::operator unsigned int() implementiert haben, dann wird der Compiler fündig: der eingebaute operator!=(unsigned int, unsigned int) kann verwendet werden, weil sowohl a als auch b in unsigned int umwandelbar sind.</p>\r\n<p>Alles klar? Also, Sie müssen eigentlich nur die in der Aufgabenstellung gelisteten Operatoren umsetzen, dann sollte es gehen. Viel Erfolg";
+//
+//		cleanedText = ( String ) method.invoke( this.strategy, inputText );
+//
+//		assertEquals( expectedCleanedText, cleanedText );
 		
 		/*
 		 * test replacement of moodle characters
@@ -134,7 +134,7 @@ public class GermanNerAnonymizationStrategyTest {
 		/*
 		 * assert that anonymization tags are not replaced
 		 */
-		inputText = de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy.LEARNED_PERSON_NAME_REPLACEMENT + " " + de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy.NAME_CORPUS_REPLACEMENT + " " + AAnomyzationStrategy.PERSONAL_DATA_REPLACEMENT +" " + AAnomyzationStrategy.PERSONAL_GREETING_REPLACEMENT;
+		inputText = de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy.NE_PERSON_REPLACEMENT + " " + de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy.LEARNED_PERSON_NAME_REPLACEMENT + " " + de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy.NAME_CORPUS_REPLACEMENT + " " + AAnomyzationStrategy.PERSONAL_DATA_REPLACEMENT +" " + AAnomyzationStrategy.PERSONAL_GREETING_REPLACEMENT;
 		expectedCleanedText = inputText;	
 		cleanedText = ( String ) method.invoke( this.strategy, inputText );
 		

@@ -42,7 +42,11 @@ public abstract class AAnomyzationStrategy {
 	 * Specify the replacement tag for replaced entries from a name corpus.
 	 */
 	public static final String NAME_CORPUS_REPLACEMENT = "<NAME_CORPUS_REPLACEMENT>";
-
+	/**
+	 * Define the replacement sequence for person entities.
+	 */
+	public static final String NE_PERSON_REPLACEMENT = "<REMOVED_PERSON_ENTITY>";
+	
 	/**
 	 * Anonymize a given {@link String}. Anonymization means removing all named
 	 * entities recording to a person.
@@ -127,7 +131,8 @@ public abstract class AAnomyzationStrategy {
 			if ( !matchedSequence.contains( LEARNED_PERSON_NAME_REPLACEMENT )
 				&& !matchedSequence.contains( NAME_CORPUS_REPLACEMENT )
 				&& !matchedSequence.contains( PERSONAL_DATA_REPLACEMENT )
-				&& !matchedSequence.contains( PERSONAL_GREETING_REPLACEMENT )) {
+				&& !matchedSequence.contains( PERSONAL_GREETING_REPLACEMENT )
+				&& !matchedSequence.contains( NE_PERSON_REPLACEMENT )) {
 				matchedSequences.add( matchedSequence );
 			}
 		}
