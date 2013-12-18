@@ -83,6 +83,7 @@ public class DirectoyExportStrategyTest {
 	@Test
 	public void testExport() throws GeneralLoggingException {			
 		Course course = new Course( "Sample course" );
+		course.setUrl( "http://test.de" );
 		// input boards
 		Board sampleBoard1 = new Board( course, "Sample board" );
 		
@@ -94,6 +95,7 @@ public class DirectoyExportStrategyTest {
 		samplePosting1.setContent( "This is a sample posting.\nAnd a newline." );
 		samplePosting1.setCreationDate( new Date() );		
 		samplePosting1.setTaggedContent( "This content is tagged by <I-PERS>Max Mustermann</I-PERS>." );
+		samplePosting1.setPostingType( "question" );
 		sampleThread1.addPosting( samplePosting1  );
 		
 		Posting samplePosting2 = new Posting();

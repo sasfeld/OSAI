@@ -89,13 +89,14 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	public DirectoryImportStrategy() {
 		this.boardSpecificImport = ServiceFactory.getConfigReader().fetchValue(
 				IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC );
-		this.encoding = ServiceFactory.getConfigReader().fetchValue( IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_ENCODING );
+		this.encoding = ServiceFactory.getConfigReader().fetchValue(
+				IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_ENCODING );
 
 		if( ServiceFactory
 				.getConfigReader()
 				.fetchValue(
 						IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC )
-				.equals( "false" ) ) {		
+				.equals( "false" ) ) {
 			this.personCorpus = ServiceFactory.getPersonNameCorpusSingleton();
 			String prenamesFile = ServiceFactory
 					.getConfigReader()
@@ -123,34 +124,35 @@ public class DirectoryImportStrategy extends AImportStrategy {
 		File fPrenamesFile = new File( prenamesFile );
 		File fLastnamesFile = new File( lastnamesFile );
 
-		if( !fPrenamesFile.exists()) {
+		if( !fPrenamesFile.exists() ) {
 			Application
 					.log( getClass()
 							+ ":fillSingletonPersonCorpus: the configured corpus files "
-							+ fPrenamesFile.getAbsolutePath() 					
+							+ fPrenamesFile.getAbsolutePath()
 							+ " doesn't exist.", LogType.CRITICAL );
 		} else {
 			try {
-				this.fillFromFile( fPrenamesFile, personCorpus, PersonNameType.PRENAME );
+				this.fillFromFile( fPrenamesFile, personCorpus,
+						PersonNameType.PRENAME );
 			} catch( GeneralLoggingException e ) {
 				// exception makes a log
 			}
 		}
-		
-		if ( !fLastnamesFile.exists() ) {
-			Application
-			.log( getClass()
-					+ ":fillSingletonPersonCorpus: the configured corpus file "					
-					+ fLastnamesFile.getAbsolutePath()
-					+ " doesn't .", LogType.CRITICAL );
+
+		if( !fLastnamesFile.exists() ) {
+			Application.log( getClass()
+					+ ":fillSingletonPersonCorpus: the configured corpus file "
+					+ fLastnamesFile.getAbsolutePath() + " doesn't .",
+					LogType.CRITICAL );
 		} else {
 			try {
-				this.fillFromFile( fLastnamesFile, personCorpus, PersonNameType.LASTNAME );
+				this.fillFromFile( fLastnamesFile, personCorpus,
+						PersonNameType.LASTNAME );
 			} catch( GeneralLoggingException e ) {
 				// exception makes a log
 			}
 		}
-		
+
 	}
 
 	@Override
@@ -311,11 +313,12 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	private void fillThread( BoardThread boardThread, File threadDir ) {
 		FilenameFilter txtFileFilter = new FilenameFilter() {
 			/**
-			 * Filter the posting files for *.txt files.
+			 * Filter the posting files for posting *.txt files.
 			 */
 			@Override
 			public boolean accept( File dir, String fileName ) {
-				return fileName.endsWith( ".txt" );
+				return fileName.startsWith( "posting" )
+						&& fileName.endsWith( ".txt" );
 			}
 		};
 		for( File postingFile : threadDir.listFiles( txtFileFilter ) ) {
@@ -363,7 +366,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 								"^([A-Z_]+):\\s(.*?)$", Pattern.MULTILINE );
 						Matcher matcher = pKeyValue.matcher( line );
 						while( matcher.find() ) {
-							String key = matcher.group( 1 );					
+							String key = matcher.group( 1 );
 							String value = matcher.group( 2 );
 
 							try {
@@ -395,7 +398,9 @@ public class DirectoryImportStrategy extends AImportStrategy {
 							+ ": exception occured, file: " + importFile + ": "
 							+ e, LogType.ERROR );
 				}
-			} else {
+			} else if( !importFile.getName().equals( "boardthread.txt" )
+					&& !importFile.getName().equals( "course.txt" )
+					&& !importFile.getName().equals( "board.txt" ) ) {
 				Application.log( "no posting content found, file: "
 						+ importFile, LogType.WARNING );
 			}
@@ -408,7 +413,9 @@ public class DirectoryImportStrategy extends AImportStrategy {
 							+ ": exception occured, file: " + importFile + ": "
 							+ e, LogType.ERROR );
 				}
-			} else {
+			} else if( !importFile.getName().equals( "boardthread.txt" )
+					&& !importFile.getName().equals( "course.txt" )
+					&& !importFile.getName().equals( "board.txt" ) ) {
 				Application.log( "no posting tagged content found, file: "
 						+ importFile, LogType.WARNING );
 			}
