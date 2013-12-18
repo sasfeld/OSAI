@@ -118,7 +118,7 @@ public class AnonymizationController {
 
 			if( "de.bht.fb6.s778455.bachelor.anonymization.strategy.ner.GermanNerAnonymizationStrategy"
 					.equals( chainingValue )
-					|| "de.bht.fb6.s778455.bachelor.anonymization.strategy.ner.GermanNerAnonymizationStrategy"
+					|| "de.bht.fb6.s778455.bachelor.anonymization.strategy.ner.EnglishNerAnonymizationStrategy"
 							.equals( chainingValue ) ) {
 				// cascades: create cascades of corpora
 				String cascadeKey = ( chainingValue
