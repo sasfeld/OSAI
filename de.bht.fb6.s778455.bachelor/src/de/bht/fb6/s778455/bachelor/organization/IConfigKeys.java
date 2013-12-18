@@ -44,6 +44,10 @@ public interface IConfigKeys {
 	 */
 	String ANONYM_GREETINGS_GERMAN = "anonym.greetings.german";
 	String ANONYM_GREETINGS_NUMBEROFLINES = "anonym.greetings.numberoflines";
+	/**
+	 *  key to the most common German words
+	 */
+	String ANONYM_LEARNED_COMMON_GERMAN = "anonym.learned.common.german";
 	
 	/*
 	* import module
