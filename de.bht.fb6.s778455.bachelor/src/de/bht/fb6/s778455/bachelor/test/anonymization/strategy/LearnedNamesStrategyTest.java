@@ -79,9 +79,9 @@ public class LearnedNamesStrategyTest {
 		
 		testBoard.getBelongingCourse().addLearnedWord( "im", LearnedWordTypes.PERSON_NAME );
 		testBoard.getBelongingCourse().addLearnedWord( "und", LearnedWordTypes.PERSON_NAME );
-		testBoard.getBelongingCourse().addLearnedWord( "mitten", LearnedWordTypes.PERSON_NAME );
+		testBoard.getBelongingCourse().addLearnedWord( "zwischen", LearnedWordTypes.PERSON_NAME );
 		
-		String input = "Er steht mitten auf der Straße im Regen und raucht.";
+		String input = "Er steht zwischen den Autos auf der Straße im Regen und raucht.";
 		String expectedOutput = input;
 		assertEquals( expectedOutput, this.anonymizationStrategy.anonymizeText( input, testBoard ) );
 	}
