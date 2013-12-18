@@ -115,6 +115,11 @@ public class Posting extends AUserContribution {
 		txtExport.append( super.exportToTxt() );
 		txtExport.append( "PARENT_POSTING_ID: " + this.getParentPostingId()
 				+ "\n" );
+		String postingType = this.getPostingType();
+		if ( null != postingType ) {
+			txtExport.append( "POSTING_TYPE: " + postingType
+					+ "\n" );
+		}
 		txtExport.append( "CONTENT:\n" );
 
 		if( null != this.getContent() ) {
@@ -160,6 +165,8 @@ public class Posting extends AUserContribution {
 			this.setContent( value );
 		} else if( key.equals( "TAGGED_CONTENT" ) ) {
 			this.setTaggedContent( value );
+		} else if( key.equals( "POSTING_TYPE" )) {
+			this.setPostingType( value );
 		}
 	}
 

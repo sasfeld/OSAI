@@ -194,15 +194,22 @@ public class AnonymizationController {
 	 */
 	public void performAnonymizationAnalysis() throws GeneralLoggingException {
 		long startTime = new Date().getTime();
+		System.out.println("starting import...");
 		Collection< Course > rawCourses = this.importStrategy
 				.importBoardFromFile( this.configuredDataFile );
+		System.out.println("import successful");
+		System.out.println();
+		System.out.println("starting anonymization...");
 		Collection< Course > anonymizedCourses = this
 				.performAnonymization( rawCourses );
-		long elapsedTime = new Date().getTime() - startTime;
-
+		System.out.println();
+		System.out.println("anonymization successful");
+		System.out.println("Starting export...");
+		long elapsedTime = new Date().getTime() - startTime;		
 		this.exportStrategy.exportToFile( anonymizedCourses,
 				this.configuredExportFile );
-
+		System.out.println();
+		System.out.println("Export successfull");
 		System.out.println( getStatistics( anonymizedCourses, elapsedTime ) );
 	}
 

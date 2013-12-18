@@ -330,6 +330,11 @@ public class Course implements Serializable, IDirectoryPortable {
 		txtExport.append( "SHORT_NAME: " + this.getShortName() + "\n" );
 		txtExport.append( "TITLE: " + this.getTitle() + "\n" );
 		txtExport.append( "SUMMARY: " + this.getSummary() + "\n" );
+		String url = this.getUrl();
+		
+		if ( null != url ) {
+			txtExport.append( "URL: " + url + "\n" );
+		}
 
 		return txtExport.toString();
 	}
@@ -384,6 +389,8 @@ public class Course implements Serializable, IDirectoryPortable {
 			this.setShortName( value );
 		} else if( key.equals( "SUMMARY" ) ) {
 			this.setSummary( value );
+		} else if( key.equals( "URL" )) {
+			this.setUrl( value );
 		}
 	}
 
