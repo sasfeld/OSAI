@@ -136,6 +136,9 @@ public class AuditoriumDbQuerierTest {
 		assertEquals( 655, numContainedPostings - numberFetchedPostings); 
 		
 		System.out.println("Number of contained postings: " + numContainedPostings);
+		
+		System.out.println();
+		System.out.println(courses);
 	}
 	
 	@Test

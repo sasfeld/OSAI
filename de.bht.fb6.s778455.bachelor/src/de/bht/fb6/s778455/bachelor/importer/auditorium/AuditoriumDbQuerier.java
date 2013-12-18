@@ -132,14 +132,15 @@ public class AuditoriumDbQuerier {
 				// Create course instance for each entity
 				final int id = results.getInt( "id" );
 				final String title = results.getString( "name" );
-				final long createdAt = results.getLong( "created_at" );
-				final long updatedAt = results.getLong( "updated_at" );
+				
+				final java.sql.Date createdAt = results.getDate( "created_at" );
+				final java.sql.Date updatedAt = results.getDate( "updated_at" );
 				final String description = results.getString( "description" );
 				final String url = results.getString( "url" );
 
 				Course newCourse = new Course( title );
-				newCourse.setId( id ).setCreationDate( new Date( createdAt ) )
-						.setModificationDate( new Date( updatedAt ) )
+				newCourse.setId( id ).setCreationDate( createdAt )
+						.setModificationDate( updatedAt )
 						.setSummary( description ).setUrl( url );
 
 				resultingMap.put( id, newCourse );
@@ -177,8 +178,8 @@ public class AuditoriumDbQuerier {
 				// Create course instance for each entity
 				final int id = results.getInt( "id" );
 				final String title = results.getString( "name" );
-				final long createdAt = results.getLong( "created_at" );
-				final long updatedAt = results.getLong( "updated_at" );
+				final Date createdAt = results.getDate( "created_at" );
+				final Date updatedAt = results.getDate( "updated_at" );
 				final String description = results.getString( "description" );
 				final int courseId = results.getInt( "course_id" );
 
@@ -193,8 +194,8 @@ public class AuditoriumDbQuerier {
 				} else {
 					Board newBoard = new Board( course );
 					newBoard.setId( id ).setTitle( title )
-							.setCreationDate( new Date( createdAt ) )
-							.setModificationDate( new Date( updatedAt ) );
+							.setCreationDate(  createdAt  )
+							.setModificationDate(  updatedAt  );
 					newBoard.setIntro( description );
 					course.addBoard( newBoard );
 
@@ -236,8 +237,8 @@ public class AuditoriumDbQuerier {
 				final String title = results.getString( "subject" );
 				final String content = results.getString( "body" );
 				final String postType = results.getString( "post_type" );
-				final long createdAt = results.getLong( "created_at" );
-				final long updatedAt = results.getLong( "updated_at" );
+				final Date createdAt = results.getDate( "created_at" );
+				final Date updatedAt = results.getDate( "updated_at" );
 				final int boardId = results.getInt( "board_id" );
 
 				Board board = boardMap.get( boardId );
@@ -250,14 +251,14 @@ public class AuditoriumDbQuerier {
 				} else {
 					BoardThread newThread = new BoardThread( board );
 					newThread.setId( id )
-							.setCreationDate( new Date( createdAt ) )
-							.setModificationDate( new Date( updatedAt ) )
+							.setCreationDate( createdAt  )
+							.setModificationDate( updatedAt  )
 							.setTitle( title );
 
 					Posting posting = new Posting( newThread );
 					posting.setContent( content ).setPostingType( postType )
-							.setCreationDate( new Date( createdAt ) )
-							.setModificationDate( new Date( updatedAt ) )
+							.setCreationDate(  createdAt  )
+							.setModificationDate( updatedAt  )
 							.setId( id );
 
 					newThread.addPosting( posting );
@@ -324,16 +325,16 @@ public class AuditoriumDbQuerier {
 				final String content = results.getString( "body" );
 				final String postType = results.getString( "post_type" );
 				final int parentPostingId = results.getInt( "parent_id" );
-				final long createdAt = results.getLong( "created_at" );
-				final long updatedAt = results.getLong( "updated_at" );
+				final Date createdAt = results.getDate( "created_at" );
+				final Date updatedAt = results.getDate( "updated_at" );
 				// final int boardId = results.getInt( "board_id" );
 
 				Posting newPosting = new Posting( boardThread );
 				newPosting.setContent( content )
 						.setParentPostingId( parentPostingId )
 						.setPostingType( postType ).setTitle( title )
-						.setId( id ).setCreationDate( new Date( createdAt ) )
-						.setModificationDate( new Date( updatedAt ) );
+						.setId( id ).setCreationDate( createdAt  )
+						.setModificationDate( updatedAt );
 				boardThread.addPosting( newPosting );
 				postingCollection.add( newPosting );
 
