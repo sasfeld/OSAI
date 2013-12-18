@@ -54,12 +54,14 @@ public class AuditoriumDbQuerierTest {
 
 		assertTrue( null != fetchedCourses );
 
-		assertTrue( 0 < fetchedCourses.size() );
+		int numberFecthedCourses = fetchedCourses.size();
+		assertTrue( 0 < numberFecthedCourses );
 
 		System.out.println( "Number of fetched courses: "
-				+ fetchedCourses.size() );
+				+ numberFecthedCourses );
 
-		for( Course course : fetchedCourses.values() ) {
+		Collection< Course > courses = fetchedCourses.values();
+		for( Course course : courses ) {
 			assertTrue( 0 != course.getId() );
 			System.out.println( course );
 		}
@@ -70,10 +72,11 @@ public class AuditoriumDbQuerierTest {
 
 		assertTrue( null != fetchedBoards );
 
-		assertTrue( 0 < fetchedBoards.size() );
+		int numberFetchedBoards = fetchedBoards.size();
+		assertTrue( 0 < numberFetchedBoards );
 
 		System.out
-				.println( "Number of fetched boards: " + fetchedBoards.size() );
+				.println( "Number of fetched boards: " + numberFetchedBoards );
 
 		for( Board board : fetchedBoards.values() ) {
 			assertTrue( 0 != board.getId() );
@@ -85,9 +88,10 @@ public class AuditoriumDbQuerierTest {
 				.fetchBoardThreads( fetchedBoards );
 		
 		assertTrue ( null != fetchedThreads );
-		assertTrue ( 0 < fetchedThreads.size() );
+		int numberFetchedThreads = fetchedThreads.size();
+		assertTrue ( 0 < numberFetchedThreads );
 		
-		System.out.println(" Number of fetched threads: " + fetchedThreads.size());
+		System.out.println(" Number of fetched threads: " + numberFetchedThreads);
 		
 		for( BoardThread thread: fetchedThreads.values() ) {
 			assertTrue( 0 != thread.getId() );
@@ -98,14 +102,41 @@ public class AuditoriumDbQuerierTest {
 		Collection< Posting > fetchedPostings = this.dbQuerier.fetchPostings( fetchedThreads );
 		
 		assertTrue( null != fetchedPostings );
-		assertTrue( 0 < fetchedPostings.size() );
+		int numberFetchedPostings = fetchedPostings.size();
+		assertTrue( 0 < numberFetchedPostings );
 		
-		System.out.println("Number of fetched postings: " + fetchedPostings.size());
+		System.out.println("Number of fetched postings: " + numberFetchedPostings);
 		
 		for( Posting posting : fetchedPostings ) {
 			assertTrue ( 0 != posting.getId());
 			System.out.println(posting);
 		}
+	
+		
+		// ensure that the number of courses didn'T change
+		assertEquals( numberFecthedCourses, fetchedCourses.size() );
+		
+		// iterate through boards and compare maps above
+		int numContainedBoards = 0;
+		int numContainedThreads = 0;
+		int numContainedPostings = 0;
+		for( Course fCourse : fetchedCourses.values() ) {
+			numContainedBoards += fCourse.getBoards().size();
+			
+			for( Board board : fCourse.getBoards() ) {
+				numContainedThreads += board.getBoardThreads().size();
+				
+				for( BoardThread thread : board.getBoardThreads() ) {
+					numContainedPostings += thread.getPostings().size();
+				}
+			}
+		}
+		
+		assertEquals( numberFetchedBoards, numContainedBoards );
+		assertEquals( numberFetchedThreads, numContainedThreads );
+		// Fetched postings only contains child postings, not parent postings, so it must be less than
+		assertTrue( numberFetchedPostings < numContainedPostings );
+		assertEquals( 655, numContainedPostings - numberFetchedPostings); 
 	}
 
 }

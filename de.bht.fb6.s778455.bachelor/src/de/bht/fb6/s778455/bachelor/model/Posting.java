@@ -28,7 +28,7 @@ public class Posting extends AUserContribution {
 	protected String taggedContent;
 	protected int parentPostingId;
 	protected BoardThread belongingThread;
-	private String postType;
+	protected String postType;
 
 	/**
 	 * Create a Posting with a link to the belonging thread {@link Thread}
@@ -163,25 +163,28 @@ public class Posting extends AUserContribution {
 		}
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
+	/* (non-Javadoc)
 	 * @see java.lang.Object#hashCode()
 	 */
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = super.hashCode();
+		result = prime
+				* result
+				+ ( ( belongingThread == null ) ? 0 : belongingThread
+						.hashCode() );
 		result = prime * result
 				+ ( ( content == null ) ? 0 : content.hashCode() );
+		result = prime * result + parentPostingId;
+		result = prime * result
+				+ ( ( postType == null ) ? 0 : postType.hashCode() );
 		result = prime * result
 				+ ( ( taggedContent == null ) ? 0 : taggedContent.hashCode() );
 		return result;
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
+	/* (non-Javadoc)
 	 * @see java.lang.Object#equals(java.lang.Object)
 	 */
 	@Override
@@ -193,10 +196,22 @@ public class Posting extends AUserContribution {
 		if( getClass() != obj.getClass() )
 			return false;
 		Posting other = ( Posting ) obj;
+		if( belongingThread == null ) {
+			if( other.belongingThread != null )
+				return false;
+		} else if( !belongingThread.equals( other.belongingThread ) )
+			return false;
 		if( content == null ) {
 			if( other.content != null )
 				return false;
 		} else if( !content.equals( other.content ) )
+			return false;
+		if( parentPostingId != other.parentPostingId )
+			return false;
+		if( postType == null ) {
+			if( other.postType != null )
+				return false;
+		} else if( !postType.equals( other.postType ) )
 			return false;
 		if( taggedContent == null ) {
 			if( other.taggedContent != null )
@@ -206,16 +221,36 @@ public class Posting extends AUserContribution {
 		return true;
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
+	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
 	 */
 	@Override
 	public String toString() {
-		return "Posting [content=" + content + ", taggedContent="
-				+ taggedContent + ", creationDate=" + creationDate
-				+ ", creator=" + creator + ", title=" + title + "]";
+		StringBuilder builder = new StringBuilder();
+		builder.append( "Posting [getBelongingThread()=" );
+		builder.append( getBelongingThread() );
+		builder.append( ", getParentPostingId()=" );
+		builder.append( getParentPostingId() );
+		builder.append( ", getContent()=" );
+		builder.append( getContent() );
+		builder.append( ", getTaggedContent()=" );
+		builder.append( getTaggedContent() );
+		builder.append( ", exportToTxt()=" );
+		builder.append( exportToTxt() );
+		builder.append( ", getPostingType()=" );
+		builder.append( getPostingType() );
+		builder.append( ", getId()=" );
+		builder.append( getId() );
+		builder.append( ", getModificationDate()=" );
+		builder.append( getModificationDate() );
+		builder.append( ", getCreationDate()=" );
+		builder.append( getCreationDate() );
+		builder.append( ", getCreator()=" );
+		builder.append( getCreator() );
+		builder.append( ", getTitle()=" );
+		builder.append( getTitle() );
+		builder.append( "]" );
+		return builder.toString();
 	}
 
 	public Posting setPostingType( String postType ) {

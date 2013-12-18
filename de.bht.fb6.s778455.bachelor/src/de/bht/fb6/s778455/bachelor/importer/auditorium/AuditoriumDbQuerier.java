@@ -152,6 +152,12 @@ public class AuditoriumDbQuerier {
 		return resultingMap;
 	}
 
+	/**
+	 * Fetch board entities and map it to the given {@link Course} and Board instances.
+	 * @param courseMap
+	 * @return
+	 * @throws GeneralLoggingException
+	 */
 	public Map< Integer, Board > fetchBoards( Map< Integer, Course > courseMap )
 			throws GeneralLoggingException {
 		Map< Integer, Board > boardMap = new HashMap< Integer, Board >();
@@ -201,6 +207,12 @@ public class AuditoriumDbQuerier {
 		return boardMap;
 	}
 
+	/**
+	 * Fetch the thread entities and map it to {@link BoardThread} instances.
+	 * @param boardMap
+	 * @return
+	 * @throws GeneralLoggingException
+	 */
 	public Map< Integer, BoardThread > fetchBoardThreads(
 			Map< Integer, Board > boardMap ) throws GeneralLoggingException {
 		Map< Integer, BoardThread > threadMap = new HashMap< Integer, BoardThread >();
@@ -260,6 +272,12 @@ public class AuditoriumDbQuerier {
 		return threadMap;
 	}
 
+	/**
+	 * Fetch posting entities and fill it into the given {@link BoardThread}.
+	 * @param threads
+	 * @return
+	 * @throws GeneralLoggingException
+	 */
 	public Collection< Posting > fetchPostings(
 			Map< Integer, BoardThread > threads )
 			throws GeneralLoggingException {

@@ -387,9 +387,7 @@ public class Course implements Serializable, IDirectoryPortable {
 		}
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
+	/* (non-Javadoc)
 	 * @see java.lang.Object#hashCode()
 	 */
 	@Override
@@ -401,6 +399,7 @@ public class Course implements Serializable, IDirectoryPortable {
 				+ ( ( creationDate == null ) ? 0 : creationDate.hashCode() );
 		result = prime * result + ( ( docent == null ) ? 0 : docent.hashCode() );
 		result = prime * result + id;
+		result = prime * result + ( ( lang == null ) ? 0 : lang.hashCode() );
 		result = prime * result
 				+ ( ( learnedWords == null ) ? 0 : learnedWords.hashCode() );
 		result = prime
@@ -416,12 +415,11 @@ public class Course implements Serializable, IDirectoryPortable {
 		result = prime * result
 				+ ( ( summary == null ) ? 0 : summary.hashCode() );
 		result = prime * result + ( ( title == null ) ? 0 : title.hashCode() );
+		result = prime * result + ( ( url == null ) ? 0 : url.hashCode() );
 		return result;
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
+	/* (non-Javadoc)
 	 * @see java.lang.Object#equals(java.lang.Object)
 	 */
 	@Override
@@ -449,6 +447,11 @@ public class Course implements Serializable, IDirectoryPortable {
 		} else if( !docent.equals( other.docent ) )
 			return false;
 		if( id != other.id )
+			return false;
+		if( lang == null ) {
+			if( other.lang != null )
+				return false;
+		} else if( !lang.equals( other.lang ) )
 			return false;
 		if( learnedWords == null ) {
 			if( other.learnedWords != null )
@@ -480,23 +483,48 @@ public class Course implements Serializable, IDirectoryPortable {
 				return false;
 		} else if( !title.equals( other.title ) )
 			return false;
+		if( url == null ) {
+			if( other.url != null )
+				return false;
+		} else if( !url.equals( other.url ) )
+			return false;
 		return true;
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
+	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
 	 */
 	@Override
 	public String toString() {
-		return "Course [getPersonNameCorpus()=" + getPersonNameCorpus()
-				+ ", getTitle()=" + getTitle() + ", getCreationDate()="
-				+ getCreationDate() + ", getModificationDate()="
-				+ getModificationDate() + ", getId()=" + getId()
-				+ ", getDocent()=" + getDocent() + ", getShortName()="
-				+ getShortName() + ", getSummary()=" + getSummary()
-				+ ", getBoards()=" + getBoards() + "]";
+		StringBuilder builder = new StringBuilder();
+		builder.append( "Course [getPersonNameCorpus()=" );
+		builder.append( getPersonNameCorpus() );
+		builder.append( ", getLang()=" );
+		builder.append( getLang() );
+		builder.append( ", getTitle()=" );
+		builder.append( getTitle() );
+		builder.append( ", getCreationDate()=" );
+		builder.append( getCreationDate() );
+		builder.append( ", getModificationDate()=" );
+		builder.append( getModificationDate() );
+		builder.append( ", getId()=" );
+		builder.append( getId() );
+		builder.append( ", getDocent()=" );
+		builder.append( getDocent() );
+		builder.append( ", getShortName()=" );
+		builder.append( getShortName() );
+		builder.append( ", getSummary()=" );
+		builder.append( getSummary() );
+		builder.append( ", getBoards()=" );
+		builder.append( getBoards() );
+		builder.append( ", exportToTxt()=" );
+		builder.append( exportToTxt() );
+		builder.append( ", hashCode()=" );
+		builder.append( hashCode() );
+		builder.append( ", getUrl()=" );
+		builder.append( getUrl() );
+		builder.append( "]" );
+		return builder.toString();
 	}
 
 	/**

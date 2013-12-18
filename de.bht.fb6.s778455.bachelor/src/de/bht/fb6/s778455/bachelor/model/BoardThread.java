@@ -30,6 +30,55 @@ public class BoardThread extends AUserContribution {
 	private Date endDate;
 	
 	
+	/* (non-Javadoc)
+	 * @see java.lang.Object#hashCode()
+	 */
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = super.hashCode();
+		result = prime * result
+				+ ( ( belongingBoard == null ) ? 0 : belongingBoard.hashCode() );
+		result = prime * result
+				+ ( ( endDate == null ) ? 0 : endDate.hashCode() );
+		result = prime * result + firstPostingId;
+		result = prime * result
+				+ ( ( postings == null ) ? 0 : postings.hashCode() );
+		return result;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#equals(java.lang.Object)
+	 */
+	@Override
+	public boolean equals( Object obj ) {
+		if( this == obj )
+			return true;
+		if( !super.equals( obj ) )
+			return false;
+		if( getClass() != obj.getClass() )
+			return false;
+		BoardThread other = ( BoardThread ) obj;
+		if( belongingBoard == null ) {
+			if( other.belongingBoard != null )
+				return false;
+		} else if( !belongingBoard.equals( other.belongingBoard ) )
+			return false;
+		if( endDate == null ) {
+			if( other.endDate != null )
+				return false;
+		} else if( !endDate.equals( other.endDate ) )
+			return false;
+		if( firstPostingId != other.firstPostingId )
+			return false;
+		if( postings == null ) {
+			if( other.postings != null )
+				return false;
+		} else if( !postings.equals( other.postings ) )
+			return false;
+		return true;
+	}
+
 	/**
 	 * Create a new bare BoardThread.
 	 */
@@ -72,9 +121,29 @@ public class BoardThread extends AUserContribution {
 	 */
 	@Override
 	public String toString() {
-		return "BoardThread [creationDate="
-				+ creationDate + ", creator=" + creator + ", title=" + title
-				+ "]";
+		StringBuilder builder = new StringBuilder();
+		builder.append( "BoardThread [getBelongingBoard()=" );
+		builder.append( getBelongingBoard() );
+		builder.append( ", getPostings()=" );
+		builder.append( getPostings() );
+		builder.append( ", getFirstPostingId()=" );
+		builder.append( getFirstPostingId() );
+		builder.append( ", getEndDate()=" );
+		builder.append( getEndDate() );
+		builder.append( ", exportToTxt()=" );
+		builder.append( exportToTxt() );
+		builder.append( ", getId()=" );
+		builder.append( getId() );
+		builder.append( ", getModificationDate()=" );
+		builder.append( getModificationDate() );
+		builder.append( ", getCreationDate()=" );
+		builder.append( getCreationDate() );
+		builder.append( ", getCreator()=" );
+		builder.append( getCreator() );
+		builder.append( ", getTitle()=" );
+		builder.append( getTitle() );
+		builder.append( "]" );
+		return builder.toString();
 	}
 
 	/**
