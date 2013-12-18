@@ -103,7 +103,9 @@ public class DirectoryExportStrategy extends AExportStrategy {
 	 * @return
 	 */
 	private String removeIllegalChars( String filename ) {
-		return filename.replaceAll( "[^a-zA-Z0-9.-]", "_" );
+		String changedFilename = filename.replaceAll( "[^a-zA-Z0-9.-]", "_" );
+		changedFilename = changedFilename.replaceAll( "[.]{2,}", "_" );
+		return changedFilename;
 	}
 
 	/**
@@ -191,7 +193,7 @@ public class DirectoryExportStrategy extends AExportStrategy {
 			writer.close();
 		} catch( IOException e ) {
 			throw new GeneralLoggingException( getClass()
-					+ ":createPostingFile: the posting file ("
+					+ ":createTxtFile: the file ("
 					+ newFile.getAbsolutePath()
 					+ ")couldn't be created. Original exception: \n"
 					+ e.getLocalizedMessage(),

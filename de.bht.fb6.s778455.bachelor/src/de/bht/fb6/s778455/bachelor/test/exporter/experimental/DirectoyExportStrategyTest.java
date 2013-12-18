@@ -3,9 +3,12 @@
  */
 package de.bht.fb6.s778455.bachelor.test.exporter.experimental;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import java.io.File;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
@@ -155,6 +158,18 @@ public class DirectoyExportStrategyTest {
 		assertTrue( samplePosting2File.exists() );
 		assertTrue( samplePosting2File.isFile() );
 		assertTrue( samplePosting2File.getAbsolutePath().endsWith( ".txt" ));		
+	}
+	
+	@Test
+	public void testRemoveIllegalChars() throws NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
+		Method method = DirectoryExportStrategy.class
+				.getDeclaredMethod( "removeIllegalChars", String.class );
+		method.setAccessible( true );
+		
+		String input = "ein..nichterlaubter..filename !!!";
+		String expected = "ein_nichterlaubter_filename____";
+		
+		assertEquals(expected, (String) method.invoke( this.exportStrategy, input ));
 	}
 
 }
