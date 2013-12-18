@@ -38,8 +38,6 @@ public class BoardThread extends AUserContribution {
 		final int prime = 31;
 		int result = super.hashCode();
 		result = prime * result
-				+ ( ( belongingBoard == null ) ? 0 : belongingBoard.hashCode() );
-		result = prime * result
 				+ ( ( endDate == null ) ? 0 : endDate.hashCode() );
 		result = prime * result + firstPostingId;
 		result = prime * result
@@ -62,8 +60,7 @@ public class BoardThread extends AUserContribution {
 		if( belongingBoard == null ) {
 			if( other.belongingBoard != null )
 				return false;
-		} else if( !belongingBoard.equals( other.belongingBoard ) )
-			return false;
+		} 
 		if( endDate == null ) {
 			if( other.endDate != null )
 				return false;
@@ -122,9 +119,8 @@ public class BoardThread extends AUserContribution {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append( "BoardThread [getBelongingBoard()=" );
-		builder.append( getBelongingBoard() );
-		builder.append( ", getPostings()=" );
+		builder.append( "BoardThread [" );
+		builder.append( "getPostings()=" );
 		builder.append( getPostings() );
 		builder.append( ", getFirstPostingId()=" );
 		builder.append( getFirstPostingId() );

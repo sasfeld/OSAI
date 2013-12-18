@@ -12,6 +12,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
@@ -153,7 +154,9 @@ public class AuditoriumDbQuerier {
 	}
 
 	/**
-	 * Fetch board entities and map it to the given {@link Course} and Board instances.
+	 * Fetch board entities and map it to the given {@link Course} and Board
+	 * instances.
+	 * 
 	 * @param courseMap
 	 * @return
 	 * @throws GeneralLoggingException
@@ -209,6 +212,7 @@ public class AuditoriumDbQuerier {
 
 	/**
 	 * Fetch the thread entities and map it to {@link BoardThread} instances.
+	 * 
 	 * @param boardMap
 	 * @return
 	 * @throws GeneralLoggingException
@@ -232,7 +236,6 @@ public class AuditoriumDbQuerier {
 				final String title = results.getString( "subject" );
 				final String content = results.getString( "body" );
 				final String postType = results.getString( "post_type" );
-				final int parentId = results.getInt( "parent_id" );
 				final long createdAt = results.getLong( "created_at" );
 				final long updatedAt = results.getLong( "updated_at" );
 				final int boardId = results.getInt( "board_id" );
@@ -254,9 +257,11 @@ public class AuditoriumDbQuerier {
 					Posting posting = new Posting( newThread );
 					posting.setContent( content ).setPostingType( postType )
 							.setCreationDate( new Date( createdAt ) )
-							.setModificationDate( new Date( updatedAt ) );
+							.setModificationDate( new Date( updatedAt ) )
+							.setId( id );
 
 					newThread.addPosting( posting );
+					newThread.setFirstPostingId( id );
 
 					board.addThread( newThread );
 
@@ -274,6 +279,7 @@ public class AuditoriumDbQuerier {
 
 	/**
 	 * Fetch posting entities and fill it into the given {@link BoardThread}.
+	 * 
 	 * @param threads
 	 * @return
 	 * @throws GeneralLoggingException
@@ -284,7 +290,8 @@ public class AuditoriumDbQuerier {
 		Collection< Posting > postingCollection = new HashSet< Posting >();
 
 		for( Integer threadid : threads.keySet() ) {
-			this.fetchPostingRecusively( threadid, postingCollection, threads.get( threadid ) );
+			this.fetchPostingRecusively( threadid, postingCollection,
+					threads.get( threadid ) );
 		}
 
 		return postingCollection;
@@ -292,23 +299,25 @@ public class AuditoriumDbQuerier {
 
 	/**
 	 * Fetch children postings recusiveley.
+	 * 
 	 * @param threadid
 	 * @param postingCollection
-	 * @param boardThread 
-	 * @throws GeneralLoggingException 
+	 * @param boardThread
+	 * @throws GeneralLoggingException
 	 */
 	private void fetchPostingRecusively( Integer parentId,
-			Collection< Posting > postingCollection, BoardThread boardThread ) throws GeneralLoggingException {
+			Collection< Posting > postingCollection, BoardThread boardThread )
+			throws GeneralLoggingException {
 		String command = "SELECT id, subject, body, post_type, parent_id, course_id AS board_id, created_at, updated_at FROM "
 				+ this.getDatabase() + ".posts WHERE parent_id = " + parentId;
-		
+
 		try {
 			Statement selectStmt = this.getConnection().createStatement();
 			ResultSet results = selectStmt.executeQuery( command );
 
 			// Iterate through entities
 			while( results.next() ) {
-				
+
 				// Create posting instance
 				final int id = results.getInt( "id" );
 				final String title = results.getString( "subject" );
@@ -317,28 +326,84 @@ public class AuditoriumDbQuerier {
 				final int parentPostingId = results.getInt( "parent_id" );
 				final long createdAt = results.getLong( "created_at" );
 				final long updatedAt = results.getLong( "updated_at" );
-//				final int boardId = results.getInt( "board_id" );
-				
+				// final int boardId = results.getInt( "board_id" );
+
 				Posting newPosting = new Posting( boardThread );
 				newPosting.setContent( content )
 						.setParentPostingId( parentPostingId )
-						.setPostingType( postType )
-						.setTitle( title )
-						.setId( id )
-						.setCreationDate( new Date( createdAt ) )
+						.setPostingType( postType ).setTitle( title )
+						.setId( id ).setCreationDate( new Date( createdAt ) )
 						.setModificationDate( new Date( updatedAt ) );
 				boardThread.addPosting( newPosting );
 				postingCollection.add( newPosting );
-				
+
 				this.fetchPostingRecusively( id, postingCollection, boardThread );
 			}
-			
-		
+
 		} catch( SQLException e ) {
 			throw new GeneralLoggingException(
-					getClass() + ":fetchPostingRecursiveley: MySQL error: \n" + e,
+					getClass() + ":fetchPostingRecursiveley: MySQL error: \n"
+							+ e,
 					"Internal error while working with MySQL in the importer module. Please see the logs." );
 		}
 
+	}
+
+	/**
+	 * Fetch a set of all prenames.
+	 * @return
+	 * @throws GeneralLoggingException
+	 */
+	public Set< String > fetchPrenames() throws GeneralLoggingException {
+		Set< String > prenameSet = new HashSet<String>();
+		
+		String command = "SELECT DISTINCT(first_name) FROM " + this.getDatabase() + ".users";
+		
+		try {
+			Statement selectStmt = this.getConnection().createStatement();
+			ResultSet results = selectStmt.executeQuery( command );
+
+			// Iterate through entities
+			while( results.next() ) {
+				prenameSet.add( results.getString( "first_name" ) );
+			}
+
+		} catch( SQLException e ) {
+			throw new GeneralLoggingException(
+					getClass() + ":fetchPrenames: MySQL error: \n"
+							+ e,
+					"Internal error while working with MySQL in the importer module. Please see the logs." );
+		}
+
+		return prenameSet;
+	}
+	
+	/**
+	 * Fetch a set of all lastnames.
+	 * @return
+	 * @throws GeneralLoggingException
+	 */
+	public Set< String > fetchLastnames() throws GeneralLoggingException {
+		Set< String > lastnameSet = new HashSet<String>();
+		
+		String command = "SELECT DISTINCT(last_name) FROM " + this.getDatabase() + ".users";
+		
+		try {
+			Statement selectStmt = this.getConnection().createStatement();
+			ResultSet results = selectStmt.executeQuery( command );
+			
+			// Iterate through entities
+			while( results.next() ) {
+				lastnameSet.add( results.getString( "last_name" ) );
+			}
+			
+		} catch( SQLException e ) {
+			throw new GeneralLoggingException(
+					getClass() + ":fetchLastnames: MySQL error: \n"
+							+ e,
+					"Internal error while working with MySQL in the importer module. Please see the logs." );
+		}
+		
+		return lastnameSet;
 	}
 }

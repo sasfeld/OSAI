@@ -170,10 +170,6 @@ public class Posting extends AUserContribution {
 	public int hashCode() {
 		final int prime = 31;
 		int result = super.hashCode();
-		result = prime
-				* result
-				+ ( ( belongingThread == null ) ? 0 : belongingThread
-						.hashCode() );
 		result = prime * result
 				+ ( ( content == null ) ? 0 : content.hashCode() );
 		result = prime * result + parentPostingId;
@@ -199,8 +195,7 @@ public class Posting extends AUserContribution {
 		if( belongingThread == null ) {
 			if( other.belongingThread != null )
 				return false;
-		} else if( !belongingThread.equals( other.belongingThread ) )
-			return false;
+		}
 		if( content == null ) {
 			if( other.content != null )
 				return false;
@@ -227,9 +222,8 @@ public class Posting extends AUserContribution {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append( "Posting [getBelongingThread()=" );
-		builder.append( getBelongingThread() );
-		builder.append( ", getParentPostingId()=" );
+		builder.append( "Posting [" );	
+		builder.append( "getParentPostingId()=" );
 		builder.append( getParentPostingId() );
 		builder.append( ", getContent()=" );
 		builder.append( getContent() );

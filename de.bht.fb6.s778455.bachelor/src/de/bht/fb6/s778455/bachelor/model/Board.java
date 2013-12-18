@@ -23,56 +23,6 @@ import de.bht.fb6.s778455.bachelor.model.tools.DateComparator;
  * 
  */
 public class Board extends AUserContribution {
-	/* (non-Javadoc)
-	 * @see java.lang.Object#hashCode()
-	 */
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = super.hashCode();
-		result = prime * result
-				+ ( ( boardThreads == null ) ? 0 : boardThreads.hashCode() );
-		result = prime * result + ( ( course == null ) ? 0 : course.hashCode() );
-		result = prime * result + ( ( intro == null ) ? 0 : intro.hashCode() );
-		result = prime * result + ( ( type == null ) ? 0 : type.hashCode() );
-		return result;
-	}
-
-	/* (non-Javadoc)
-	 * @see java.lang.Object#equals(java.lang.Object)
-	 */
-	@Override
-	public boolean equals( Object obj ) {
-		if( this == obj )
-			return true;
-		if( !super.equals( obj ) )
-			return false;
-		if( getClass() != obj.getClass() )
-			return false;
-		Board other = ( Board ) obj;
-		if( boardThreads == null ) {
-			if( other.boardThreads != null )
-				return false;
-		} else if( !boardThreads.equals( other.boardThreads ) )
-			return false;
-		if( course == null ) {
-			if( other.course != null )
-				return false;
-		} else if( !course.equals( other.course ) )
-			return false;
-		if( intro == null ) {
-			if( other.intro != null )
-				return false;
-		} else if( !intro.equals( other.intro ) )
-			return false;
-		if( type == null ) {
-			if( other.type != null )
-				return false;
-		} else if( !type.equals( other.type ) )
-			return false;
-		return true;
-	}
-
 	protected Course course;
 	protected List< BoardThread > boardThreads;
 	protected String type;
@@ -217,8 +167,6 @@ public class Board extends AUserContribution {
 		builder.append( getIntro() );
 		builder.append( ", getBoardThreads()=" );
 		builder.append( getBoardThreads() );
-		builder.append( ", getBelongingCourse()=" );
-		builder.append( getBelongingCourse() );
 		builder.append( ", getType()=" );
 		builder.append( getType() );
 		builder.append( ", exportToTxt()=" );
@@ -235,6 +183,54 @@ public class Board extends AUserContribution {
 		builder.append( getTitle() );
 		builder.append( "]" );
 		return builder.toString();
+	}
+	
+	/* (non-Javadoc)
+	 * @see java.lang.Object#hashCode()
+	 */
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = super.hashCode();
+		result = prime * result
+				+ ( ( boardThreads == null ) ? 0 : boardThreads.hashCode() );
+		result = prime * result + ( ( intro == null ) ? 0 : intro.hashCode() );
+		result = prime * result + ( ( type == null ) ? 0 : type.hashCode() );
+		return result;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#equals(java.lang.Object)
+	 */
+	@Override
+	public boolean equals( Object obj ) {
+		if( this == obj )
+			return true;
+		if( !super.equals( obj ) )
+			return false;
+		if( getClass() != obj.getClass() )
+			return false;
+		Board other = ( Board ) obj;
+		if( boardThreads == null ) {
+			if( other.boardThreads != null )
+				return false;
+		} else if( !boardThreads.equals( other.boardThreads ) )
+			return false;
+		if( course == null ) {
+			if( other.course != null )
+				return false;
+		}
+		if( intro == null ) {
+			if( other.intro != null )
+				return false;
+		} else if( !intro.equals( other.intro ) )
+			return false;
+		if( type == null ) {
+			if( other.type != null )
+				return false;
+		} else if( !type.equals( other.type ) )
+			return false;
+		return true;
 	}
 
 }

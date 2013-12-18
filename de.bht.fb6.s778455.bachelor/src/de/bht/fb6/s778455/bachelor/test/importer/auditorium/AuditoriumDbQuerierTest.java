@@ -7,6 +7,7 @@ import static org.junit.Assert.*;
 
 import java.util.Collection;
 import java.util.Map;
+import java.util.Set;
 
 import org.junit.After;
 import org.junit.Before;
@@ -63,7 +64,6 @@ public class AuditoriumDbQuerierTest {
 		Collection< Course > courses = fetchedCourses.values();
 		for( Course course : courses ) {
 			assertTrue( 0 != course.getId() );
-			System.out.println( course );
 		}
 
 		// test fetchBoards
@@ -80,7 +80,6 @@ public class AuditoriumDbQuerierTest {
 
 		for( Board board : fetchedBoards.values() ) {
 			assertTrue( 0 != board.getId() );
-			System.out.println( board );
 		}
 
 		// test fetchBoardThreads
@@ -95,7 +94,6 @@ public class AuditoriumDbQuerierTest {
 		
 		for( BoardThread thread: fetchedThreads.values() ) {
 			assertTrue( 0 != thread.getId() );
-			System.out.println( thread );
 		}
 		
 		// test fetchPostings
@@ -108,8 +106,7 @@ public class AuditoriumDbQuerierTest {
 		System.out.println("Number of fetched postings: " + numberFetchedPostings);
 		
 		for( Posting posting : fetchedPostings ) {
-			assertTrue ( 0 != posting.getId());
-			System.out.println(posting);
+			assertTrue ( 0 != posting.getId());		
 		}
 	
 		
@@ -137,6 +134,26 @@ public class AuditoriumDbQuerierTest {
 		// Fetched postings only contains child postings, not parent postings, so it must be less than
 		assertTrue( numberFetchedPostings < numContainedPostings );
 		assertEquals( 655, numContainedPostings - numberFetchedPostings); 
+		
+		System.out.println("Number of contained postings: " + numContainedPostings);
+	}
+	
+	@Test
+	public void testFetchnames() throws GeneralLoggingException {
+		Set< String > prenames = this.dbQuerier.fetchPrenames();
+		Set< String > lastnames = this.dbQuerier.fetchLastnames();
+		
+		assertTrue( null != prenames );
+		assertTrue( null != lastnames );
+
+		assertTrue( 0 < prenames.size());
+		assertTrue( 0 < lastnames.size());
+		
+		System.out.println("prenames: ");
+		System.out.println(prenames);
+		System.out.println();
+		System.out.println("lastnames: ");
+		System.out.println(lastnames);
 	}
 
 }
