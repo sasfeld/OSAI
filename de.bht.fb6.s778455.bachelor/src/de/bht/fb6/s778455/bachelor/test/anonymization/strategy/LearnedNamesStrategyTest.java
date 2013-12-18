@@ -60,16 +60,29 @@ public class LearnedNamesStrategyTest {
 		testBoard.getBelongingCourse().addLearnedWord( "Mustermann", LearnedWordTypes.PERSON_NAME );
 		testBoard.getBelongingCourse().addLearnedWord( "xyz", LearnedWordTypes.PERSON_NAME );
 
-		String input = "Hallo Max, wie geht es der Mutter mustermann? Gruß XYZ";
+		String input = "Hallo Max, wie geht es der Mutter mustermann? Gruï¿½ XYZ";
 		String expectedOutput = "Hallo "
 				+ LearnedNamesStrategy.LEARNED_PERSON_NAME_REPLACEMENT
 				+ ", wie geht es der Mutter "
-				+ LearnedNamesStrategy.LEARNED_PERSON_NAME_REPLACEMENT + "? Gruß "
+				+ LearnedNamesStrategy.LEARNED_PERSON_NAME_REPLACEMENT + "? Gruï¿½ "
 				+ LearnedNamesStrategy.LEARNED_PERSON_NAME_REPLACEMENT;
 		assertEquals( expectedOutput, this.anonymizationStrategy.anonymizeText( input, testBoard ) );
 		
 		input = "Hallo das darf nicht ersetzt werden: abcxyzstadt";
 		expectedOutput = input;
+		assertEquals( expectedOutput, this.anonymizationStrategy.anonymizeText( input, testBoard ) );
+	}
+	
+	@Test
+	public void testCommonWords() throws GeneralLoggingException {
+		Board testBoard = new Board( new Course( "testCourse" ) );
+		
+		testBoard.getBelongingCourse().addLearnedWord( "im", LearnedWordTypes.PERSON_NAME );
+		testBoard.getBelongingCourse().addLearnedWord( "und", LearnedWordTypes.PERSON_NAME );
+		testBoard.getBelongingCourse().addLearnedWord( "mitten", LearnedWordTypes.PERSON_NAME );
+		
+		String input = "Er steht mitten auf der StraÃŸe im Regen und raucht.";
+		String expectedOutput = input;
 		assertEquals( expectedOutput, this.anonymizationStrategy.anonymizeText( input, testBoard ) );
 	}
 

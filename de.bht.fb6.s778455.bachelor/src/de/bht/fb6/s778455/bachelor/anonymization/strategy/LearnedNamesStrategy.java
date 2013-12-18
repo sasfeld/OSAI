@@ -6,9 +6,12 @@ package de.bht.fb6.s778455.bachelor.anonymization.strategy;
 import java.util.List;
 import java.util.Set;
 
+import de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.Course.LearnedWordTypes;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
+import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
 
 /**
  * <p>
@@ -31,6 +34,17 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
  * 
  */
 public class LearnedNamesStrategy extends AAnomyzationStrategy {
+	protected List< String > commonGermanWords;
+
+	public LearnedNamesStrategy() throws InvalidConfigException {
+		this.commonGermanWords = ServiceFactory.getConfigReader()
+				.fetchMultipleValues( IConfigKeys.ANONYM_LEARNED_COMMON_GERMAN );
+		
+		// trim all words from config
+		for( String germanWord : this.commonGermanWords ) {
+			germanWord = germanWord.trim();
+		}
+	}
 
 	/*
 	 * (non-Javadoc)
@@ -48,27 +62,29 @@ public class LearnedNamesStrategy extends AAnomyzationStrategy {
 				.getLearnedWords( LearnedWordTypes.PERSON_NAME );
 		if( null != personNames ) {
 			for( String personName : personNames ) {
-				String prefixRegEx = "(?<=[\\s,.!?;]{1})";
-				String suffixRegEx = "(?=[\\s,.!?;]?)(?![a-zA-Z0-9]+)";
-				
-				anonymizedText = anonymizedText.replaceAll( prefixRegEx
-						+ personName + suffixRegEx,
-						LEARNED_PERSON_NAME_REPLACEMENT );
-				anonymizedText = anonymizedText.replaceAll( prefixRegEx
-						+ personName.toLowerCase() + suffixRegEx,
-						LEARNED_PERSON_NAME_REPLACEMENT );
-				anonymizedText = anonymizedText.replaceAll( prefixRegEx
-						+ personName.toUpperCase() + suffixRegEx,
-						LEARNED_PERSON_NAME_REPLACEMENT );
+				// not a common word
+				if( !this.commonGermanWords.contains( personName.trim() ) ) {
+					String prefixRegEx = "(?<=[\\s,.!?;]{1})";
+					String suffixRegEx = "(?=[\\s,.!?;]?)(?![a-zA-Z0-9]+)";
 
-				// upper first character of personName
-				String upperedPersonName = Character.toString(
-						personName.charAt( 0 ) ).toUpperCase()
-						+ personName.substring( 1 );
-				anonymizedText = anonymizedText.replaceAll( prefixRegEx
-						+ upperedPersonName + suffixRegEx,
-						LEARNED_PERSON_NAME_REPLACEMENT );
+					anonymizedText = anonymizedText.replaceAll( prefixRegEx
+							+ personName + suffixRegEx,
+							LEARNED_PERSON_NAME_REPLACEMENT );
+					anonymizedText = anonymizedText.replaceAll( prefixRegEx
+							+ personName.toLowerCase() + suffixRegEx,
+							LEARNED_PERSON_NAME_REPLACEMENT );
+					anonymizedText = anonymizedText.replaceAll( prefixRegEx
+							+ personName.toUpperCase() + suffixRegEx,
+							LEARNED_PERSON_NAME_REPLACEMENT );
 
+					// upper first character of personName
+					String upperedPersonName = Character.toString(
+							personName.charAt( 0 ) ).toUpperCase()
+							+ personName.substring( 1 );
+					anonymizedText = anonymizedText.replaceAll( prefixRegEx
+							+ upperedPersonName + suffixRegEx,
+							LEARNED_PERSON_NAME_REPLACEMENT );
+				}
 			}
 		}
 
