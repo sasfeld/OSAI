@@ -59,83 +59,83 @@ public class GreetingsAnonymizationStrategyTest {
 		Board testBoard = new Board( new Course( "unit test course" ) );
 		
 		/*
-		 * "Gruß XY"
+		 * "Gruï¿½ XY"
 		 */
-		String input = "Hallo!\nGuter Beitrag, gefällt mir!\nGruß SF";		
-		String expectedOutput = "Hallo!\nGuter Beitrag, gefällt mir!\nGruß "+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
+		String input = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\nGruÃŸ SF";		
+		String expectedOutput = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\nGruÃŸ "+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
 		
 		String result = this.strategy.anonymizeText( input, testBoard );
 		assertEquals( expectedOutput, result );		
 		
 		/*
-		 * "Viele Grüße
+		 * "Viele Grï¿½ï¿½e
 		 * Vorname Nachname"
 		 */
-		input = "Hallo!\nGuter Beitrag, gefällt mir!\nViele Grüße\nMax Mustermann";		
-		expectedOutput = "Hallo!\nGuter Beitrag, gefällt mir!\nViele Grüße\n"+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
+		input = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\nViele GrÃ¼ÃŸe\nMax Mustermann";		
+		expectedOutput = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\nViele GrÃ¼ÃŸe\n"+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
 		
 		result = this.strategy.anonymizeText( input, testBoard );
 		assertEquals( expectedOutput, result );		
 		
 		/*
-		 * "viele grüße
+		 * "viele grï¿½ï¿½e
 		 * Vorname Nachname"
 		 */
-		input = "Hallo!\nGuter Beitrag, gefällt mir!\nviele grüße\nMax Mustermann";		
-		expectedOutput = "Hallo!\nGuter Beitrag, gefällt mir!\nviele grüße\n"+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
+		input = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\nviele grÃ¼ÃŸe\nMax Mustermann";		
+		expectedOutput = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\nviele grÃ¼ÃŸe\n"+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
 		
 		result = this.strategy.anonymizeText( input, testBoard );
 		assertEquals( expectedOutput, result );		
 		
 		/*
-		 * "Grüßle XY"
+		 * "Grï¿½ï¿½le XY"
 		 */
-		input = "Hallo!\nGuter Beitrag, gefällt mir!\nGrüßle SF";		
-		expectedOutput = "Hallo!\nGuter Beitrag, gefällt mir!\nGrüßle "+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
+		input = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\nGrÃ¼ÃŸle SF";		
+		expectedOutput = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\nGrÃ¼ÃŸle "+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
 		
 		result = this.strategy.anonymizeText( input, testBoard );
 		assertEquals( expectedOutput, result );		
 		
 		/*
-		 * "Gruß, XY"
+		 * "Gruï¿½, XY"
 		 */
-		input = "Hallo!\nGuter Beitrag, gefällt mir!\nGruß, SF";		
-		expectedOutput = "Hallo!\nGuter Beitrag, gefällt mir!\nGruß, "+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
+		input = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\nGruÃŸ, SF";		
+		expectedOutput = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\nGruÃŸ, "+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
 		
 		result = this.strategy.anonymizeText( input, testBoard );
 		assertEquals( expectedOutput, result );		
 		
 		/*
-		 * "Gruß! XY"
+		 * "Gruï¿½! XY"
 		 */
-		input = "Hallo!\nGuter Beitrag, gefällt mir!\nGruß! SF";		
-		expectedOutput = "Hallo!\nGuter Beitrag, gefällt mir!\nGruß! "+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
+		input = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\nGruï¿½! SF";		
+		expectedOutput = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\nGruï¿½! "+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
 		
 		result = this.strategy.anonymizeText( input, testBoard );
 		assertEquals( expectedOutput, result );		
 		
 		/*
-		 * "Gruß! XY"
+		 * "Gruï¿½! XY"
 		 */
-		input = "Hallo!\nGuter Beitrag, gefällt mir!\ngruß, max mustermann";		
-		expectedOutput = "Hallo!\nGuter Beitrag, gefällt mir!\ngruß, "+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
+		input = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\ngruÃŸ, max mustermann";		
+		expectedOutput = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\ngruÃŸ, "+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
 		
 		result = this.strategy.anonymizeText( input, testBoard );
 		assertEquals( expectedOutput, result );		
 		
 		/*
-		 * "Gruß! Hier folgt kein Name." - not in the last line; number of lines = 1
+		 * "Gruï¿½! Hier folgt kein Name." - not in the last line; number of lines = 1
 		 */
-		input = "Hallo!\nGuter Beitrag, gefällt mir!\nGruß! Hier folgt kein Name.\n\nThis is another line\nanother line\nanother line";		
-		expectedOutput = "Hallo!\nGuter Beitrag, gefällt mir!\nGruß"+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT+"\n"+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT+"\nanother line\nanother line";
+		input = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\nGruÃŸ! Hier folgt kein Name.\n\nThis is another line\nanother line\nanother line";		
+		expectedOutput = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\nGruÃŸ"+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT+"\n"+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT+"\nanother line\nanother line";
 		result = this.strategy.anonymizeText( input, testBoard );
 		assertEquals( expectedOutput, result );		
 		
 		/*
 		 * "Viel Erfolg XY"
 		 */
-		input = "Hallo!\nGuter Beitrag, gefällt mir!\nViel Erfolg SF";		
-		expectedOutput = "Hallo!\nGuter Beitrag, gefällt mir!\nViel Erfolg "+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
+		input = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\nViel Erfolg SF";		
+		expectedOutput = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\nViel Erfolg "+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
 		
 		result = this.strategy.anonymizeText( input, testBoard );
 		assertEquals( expectedOutput, result );		
@@ -143,8 +143,8 @@ public class GreetingsAnonymizationStrategyTest {
 		/*
 		 * "Viel Erfolg, XY"
 		 */
-		input = "Hallo!\nGuter Beitrag, gefällt mir!\nViel Erfolg, SF";		
-		expectedOutput = "Hallo!\nGuter Beitrag, gefällt mir!\nViel Erfolg, "+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
+		input = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\nViel Erfolg, SF";		
+		expectedOutput = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\nViel Erfolg, "+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
 		
 		result = this.strategy.anonymizeText( input, testBoard );
 		assertEquals( expectedOutput, result );		
@@ -152,8 +152,8 @@ public class GreetingsAnonymizationStrategyTest {
 		/*
 		 * "Viel Erfolg, xyz"
 		 */
-		input = "Hallo!\nGuter Beitrag, gefällt mir!\nViel Erfolg, xyz";		
-		expectedOutput = "Hallo!\nGuter Beitrag, gefällt mir!\nViel Erfolg, " + GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
+		input = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\nViel Erfolg, xyz";		
+		expectedOutput = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\nViel Erfolg, " + GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
 		
 		result = this.strategy.anonymizeText( input, testBoard );
 		assertEquals( expectedOutput, result );		
@@ -161,8 +161,8 @@ public class GreetingsAnonymizationStrategyTest {
 		/*
 		 * "XY"
 		 */
-		input = "Hallo!\nGuter Beitrag, gefällt mir!\nSF";		
-		expectedOutput = "Hallo!\nGuter Beitrag, gefällt mir!\n"+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
+		input = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\nSF";		
+		expectedOutput = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\n"+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
 		
 		result = this.strategy.anonymizeText( input, testBoard );
 		assertEquals( expectedOutput, result );		
@@ -171,16 +171,16 @@ public class GreetingsAnonymizationStrategyTest {
 		/*
 		 * "XYZ" shouldn't be replaced!
 		 */
-		input = "Hallo!\nGuter Beitrag, gefällt mir!\nXYZ";		
+		input = "Hallo!\nGuter Beitrag, gefï¿½llt mir!\nXYZ";		
 		expectedOutput = input;
 		
 		result = this.strategy.anonymizeText( input, testBoard );
 		assertEquals( expectedOutput, result );		
 		
 		/*
-		 * "Ein Galgen.\nDas war jetzt kein Grußwort!" shouldn't be replaced! (see "lg")
+		 * "Ein Galgen.\nDas war jetzt kein Gruï¿½wort!" shouldn't be replaced! (see "lg")
 		 */
-		input = "Ein Galgen.\nDas war jetzt kein Grußwort!";		
+		input = "Ein Galgen.\nDas war jetzt kein GruÃŸwort!";		
 		expectedOutput = input;
 		
 		result = this.strategy.anonymizeText( input, testBoard );
@@ -216,8 +216,8 @@ public class GreetingsAnonymizationStrategyTest {
 		/*	
 		 * "! XY\nNew line."
 		 */
-		input = "Hallo!\nGuter Beitrag, gefällt mir! SF\nAnd a new line";		
-		expectedOutput = "Hallo!\nGuter Beitrag, gefällt mir! "+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT + "\nAnd a new line";
+		input = "Hallo!\nGuter Beitrag, gefï¿½llt mir! SF\nAnd a new line";		
+		expectedOutput = "Hallo!\nGuter Beitrag, gefï¿½llt mir! "+GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT + "\nAnd a new line";
 		
 		result = this.strategy.anonymizeText( input, testBoard );
 		assertEquals( expectedOutput, result );		
