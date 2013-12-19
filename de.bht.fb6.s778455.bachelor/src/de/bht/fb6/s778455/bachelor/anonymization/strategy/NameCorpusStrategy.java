@@ -49,8 +49,10 @@ public class NameCorpusStrategy extends AAnomyzationStrategy {
 		names.addAll( nameCorpus.getPrenames() );
 		names.addAll( nameCorpus.getLastnames() );
 
-		// check prenames
+		// check all names
 		for( String name : names ) {
+			// exclude common names
+			
 			// case 1: name in a single line
 			Pattern pNameSingleLine = Pattern.compile( "(?i)(?<=^)" + name
 					+ "(?=$)(?![a-zA-Z0-9]+)", Pattern.MULTILINE );

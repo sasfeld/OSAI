@@ -6,6 +6,7 @@ package de.bht.fb6.s778455.bachelor.anonymization.strategy;
 import java.util.List;
 import java.util.Set;
 
+import de.bht.fb6.s778455.bachelor.anonymization.CommonNameExcluder;
 import de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.Course.LearnedWordTypes;
@@ -34,16 +35,10 @@ import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
  * 
  */
 public class LearnedNamesStrategy extends AAnomyzationStrategy {
-	protected List< String > commonGermanWords;
+	protected CommonNameExcluder commonNameExcluder;
 
 	public LearnedNamesStrategy() throws InvalidConfigException {
-		this.commonGermanWords = ServiceFactory.getConfigReader()
-				.fetchMultipleValues( IConfigKeys.ANONYM_LEARNED_COMMON_GERMAN );
-		
-		// trim all words from config
-		for( String germanWord : this.commonGermanWords ) {
-			germanWord = germanWord.trim();
-		}
+		this.commonNameExcluder = CommonNameExcluder.getInstance();
 	}
 
 	/*
@@ -63,7 +58,7 @@ public class LearnedNamesStrategy extends AAnomyzationStrategy {
 		if( null != personNames ) {
 			for( String personName : personNames ) {
 				// not a common word
-				if( !this.commonGermanWords.contains( personName.trim() ) ) {
+				if( !this.commonNameExcluder.isCommon( personName, false )) {
 					String prefixRegEx = "(?<=[\\s,.!?;]{1})";
 					String suffixRegEx = "(?=[\\s,.!?;]?)(?![a-zA-Z0-9]+)";
 
