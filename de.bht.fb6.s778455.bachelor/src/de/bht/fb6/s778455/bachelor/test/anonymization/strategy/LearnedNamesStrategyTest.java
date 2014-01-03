@@ -77,6 +77,7 @@ public class LearnedNamesStrategyTest {
 	public void testCommonWords() throws GeneralLoggingException {
 		Board testBoard = new Board( new Course( "testCourse" ) );
 		
+		// german common words
 		testBoard.getBelongingCourse().addLearnedWord( "im", LearnedWordTypes.PERSON_NAME );
 		testBoard.getBelongingCourse().addLearnedWord( "und", LearnedWordTypes.PERSON_NAME );
 		testBoard.getBelongingCourse().addLearnedWord( "zwischen", LearnedWordTypes.PERSON_NAME );
@@ -84,6 +85,16 @@ public class LearnedNamesStrategyTest {
 		String input = "Er steht zwischen den Autos auf der Straße im Regen und raucht.";
 		String expectedOutput = input;
 		assertEquals( expectedOutput, this.anonymizationStrategy.anonymizeText( input, testBoard ) );
+
+		// english common words
+		testBoard.getBelongingCourse().addLearnedWord( "he", LearnedWordTypes.PERSON_NAME );
+		testBoard.getBelongingCourse().addLearnedWord( "and", LearnedWordTypes.PERSON_NAME );
+		testBoard.getBelongingCourse().addLearnedWord( "small", LearnedWordTypes.PERSON_NAME );
+		
+		input = "He is small and thick.";
+		expectedOutput = input;
+		assertEquals( expectedOutput, this.anonymizationStrategy.anonymizeText( input, testBoard ) );
+
 	}
 
 }
