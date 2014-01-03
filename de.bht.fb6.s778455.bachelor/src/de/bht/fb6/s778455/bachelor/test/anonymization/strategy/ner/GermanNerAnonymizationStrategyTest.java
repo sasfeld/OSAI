@@ -17,6 +17,7 @@ import de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFac
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.ner.ANerAnonymizationStrategy;
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.ner.GermanNerAnonymizationStrategy;
+import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 
 /**
@@ -65,7 +66,7 @@ public class GermanNerAnonymizationStrategyTest {
 	 */
 	public void testPrepareText() throws NoSuchMethodException,
 			SecurityException, IllegalAccessException,
-			IllegalArgumentException, InvocationTargetException {
+			IllegalArgumentException, InvocationTargetException, GeneralLoggingException {
 		Method method = GermanNerAnonymizationStrategy.class.getSuperclass()
 				.getSuperclass()
 				.getDeclaredMethod( "prepareText", String.class );
@@ -138,6 +139,24 @@ public class GermanNerAnonymizationStrategyTest {
 		expectedCleanedText = inputText;	
 		cleanedText = ( String ) method.invoke( this.strategy, inputText );
 		
+		assertEquals( expectedCleanedText, cleanedText );
+		
+		/*
+		 * test replacement of names
+		 */
+		inputText = "Liebe Grüße, Sascha Feldmann";
+		expectedCleanedText = "Liebe Grüße, " + AAnomyzationStrategy.NE_PERSON_REPLACEMENT;
+		
+		cleanedText = this.strategy.anonymizeText( inputText );
+		assertEquals( expectedCleanedText, cleanedText );
+		
+		/*
+		 * ensure that common words are not replaced.
+		 */
+		inputText = "Liebe Grüße und bis Montag";
+		expectedCleanedText = inputText;
+		
+		cleanedText = this.strategy.anonymizeText( inputText );
 		assertEquals( expectedCleanedText, cleanedText );
 	}
 

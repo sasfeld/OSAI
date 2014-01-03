@@ -5,6 +5,8 @@ package de.bht.fb6.s778455.bachelor.anonymization.strategy.ner;
 
 import java.io.File;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
 import de.bht.fb6.s778455.bachelor.model.Board;
@@ -84,7 +86,16 @@ public class GermanNerAnonymizationStrategy extends ANerAnonymizationStrategy {
 	private String removeTaggedPersons( String taggedText, AbstractSequenceClassifier< CoreLabel > classifier ) {
 		String cleanedText = taggedText; 
 		
-		cleanedText = cleanedText.replaceAll( "<I-PER>.*?</I-PER>" , NE_PERSON_REPLACEMENT );
+		// check common names before replacing
+		Pattern pPersTag = Pattern.compile( "<I-PER>(.*?)</I-PER>" );
+		Matcher mPersTag = pPersTag.matcher( cleanedText );
+		while (mPersTag.find()) {
+			String persTag = mPersTag.group(1);
+			
+			if (!this.commonNameExcluder.isCommon( persTag, true )) {
+				cleanedText = mPersTag.replaceAll( NE_PERSON_REPLACEMENT );
+			}
+		}
 		
 		return cleanedText;
 	}

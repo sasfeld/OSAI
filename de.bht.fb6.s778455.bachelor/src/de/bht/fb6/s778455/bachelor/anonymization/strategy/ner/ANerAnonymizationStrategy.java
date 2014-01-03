@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
+import de.bht.fb6.s778455.bachelor.anonymization.CommonNameExcluder;
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import edu.stanford.nlp.ie.AbstractSequenceClassifier;
@@ -31,6 +32,7 @@ public abstract class ANerAnonymizationStrategy extends AAnomyzationStrategy {
 	protected File textCorpus;
 	protected List< File > textCorpora;
 	protected List< AbstractSequenceClassifier< CoreLabel > > classifierList;
+	protected CommonNameExcluder commonNameExcluder;
 
 	/**
 	 * Create a new {@link AAnomyzationStrategy} which uses the Stanford NER
@@ -46,6 +48,7 @@ public abstract class ANerAnonymizationStrategy extends AAnomyzationStrategy {
 		this.decoratingStrategy = decoratingStrategy;
 		this.textCorpus = corpusFile;
 		this.textCorpora = null;
+		this.commonNameExcluder = CommonNameExcluder.getInstance();
 
 		this.initializeClassifier();
 	}
@@ -61,6 +64,7 @@ public abstract class ANerAnonymizationStrategy extends AAnomyzationStrategy {
 		this.decoratingStrategy = null;
 		this.textCorpus = corpusFile;
 		this.textCorpora = null;
+		this.commonNameExcluder = CommonNameExcluder.getInstance();
 
 		this.initializeClassifier();
 	}
@@ -76,6 +80,7 @@ public abstract class ANerAnonymizationStrategy extends AAnomyzationStrategy {
 		this.decoratingStrategy = null;
 		this.textCorpus = null;
 		this.textCorpora = corpusFiles;
+		this.commonNameExcluder = CommonNameExcluder.getInstance();
 
 		this.initializeClassifier();
 	}
@@ -94,6 +99,7 @@ public abstract class ANerAnonymizationStrategy extends AAnomyzationStrategy {
 		this.decoratingStrategy = decoratingStrategy;
 		this.textCorpus = null;
 		this.textCorpora = corpusFiles;
+		this.commonNameExcluder = CommonNameExcluder.getInstance();
 
 		this.initializeClassifier();
 	}
