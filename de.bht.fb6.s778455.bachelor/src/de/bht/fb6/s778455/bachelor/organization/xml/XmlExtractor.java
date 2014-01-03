@@ -17,6 +17,7 @@ import net.sf.saxon.s9api.XPathSelector;
 import net.sf.saxon.s9api.XdmItem;
 import net.sf.saxon.s9api.XdmNode;
 import net.sf.saxon.s9api.XdmValue;
+import net.sf.saxon.trans.XPathException;
 
 /**
  * <p>
@@ -87,7 +88,7 @@ public class XmlExtractor {
 	 * @return an {@link Object} (String if moreNodes is false, String[] if
 	 *         moreNodes is set true)
 	 */
-	protected Object buildXPath( final String query, final boolean moreNodes ) {
+	public Object buildXPath( final String query, final boolean moreNodes ) {
 		try {
 			XPathExecutable x = xPathCompiler.compile( query );
 
@@ -106,9 +107,10 @@ public class XmlExtractor {
 			}
 
 			Sequence rep = value.getUnderlyingValue();
+		
 			// Replace attribute chars
-			return XmlParserHelper.removeAttributeChars( rep.toString() );
-		} catch( SaxonApiException  e ) {
+			return XmlParserHelper.removeAttributeChars( rep.head().getStringValue());
+		} catch( SaxonApiException | XPathException  e ) {
 			new GeneralLoggingException( getClass() + "buildXPath: Error while quering. given query: " + query + "; given file: " + this.uri, "Internal error in the XmlExtractory" );
 			return null;
 		}
