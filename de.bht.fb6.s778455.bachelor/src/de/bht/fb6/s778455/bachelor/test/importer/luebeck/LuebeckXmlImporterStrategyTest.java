@@ -16,6 +16,8 @@ import org.junit.Test;
 
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.ner.GermanNerAnonymizationStrategy;
 import de.bht.fb6.s778455.bachelor.importer.luebeck.LuebeckXmlImporter;
+import de.bht.fb6.s778455.bachelor.model.Board;
+import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 
 /**
@@ -56,7 +58,26 @@ public class LuebeckXmlImporterStrategyTest {
 		Map< Integer, Course > courseMap = ( Map< Integer, Course > ) method.invoke( this.strategy, new File("./data/importer/luebeck" ));
 		assertEquals( 1, courseMap.size() );
 		
-		System.out.println(courseMap);
+		for( Course c : courseMap.values() ) {
+			System.out.println("++++++++++++++++++");
+			System.out.println("Course: ");
+			System.out.println(c);
+			
+			for( Board board : c.getBoards() ) {
+				System.out.println("----------------------");
+				System.out.println("Board: ");
+				System.out.println(board);
+				System.out.println("----------------------");
+				
+				for( BoardThread thread : board.getBoardThreads() ) {
+					System.out.println("########################");
+					System.out.println("Thread: ");
+					System.out.println(thread);
+					System.out.println("########################");
+				}
+			}
+			System.out.println("++++++++++++++++++");
+		}
 	}
 
 }
