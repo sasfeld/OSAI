@@ -17,6 +17,7 @@ import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
+import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus.PersonNameType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.xml.XmlExtractor;
@@ -63,7 +64,7 @@ public class LuebeckXmlImporter extends AImportStrategy {
 		}
 
 		Map< Integer, Course > importedCourses = this.importCourses( inputFile );
-		return null;
+		return importedCourses.values();
 	}
 
 	/**
@@ -126,7 +127,7 @@ public class LuebeckXmlImporter extends AImportStrategy {
 
 			XmlExtractor forumExtractor = new XmlExtractor(
 					forumXml.getAbsolutePath(), new HashMap< String, String >() );
-			final int boardid = Integer.parseInt( ( String ) forumExtractor
+			final int boardId = Integer.parseInt( ( String ) forumExtractor
 					.buildXPath( "//forum[1]/@id", false ) );
 			final String type = ( String ) forumExtractor.buildXPath(
 					"//forum[1]/type/text()", false );
@@ -139,6 +140,7 @@ public class LuebeckXmlImporter extends AImportStrategy {
 							"//forum[1]/timemodified/text()", false ) ) );
 
 			Board newBoard = new Board( newCourse );
+			newBoard.setId( boardId );
 			newBoard.setIntro( intro );
 			newBoard.setType( type );
 			newBoard.setTitle( name );
@@ -163,30 +165,89 @@ public class LuebeckXmlImporter extends AImportStrategy {
 	 * @param forumExtractor
 	 * @throws GeneralLoggingException
 	 */
-	private void importBoardThreads( Board newBoard,
-			XmlExtractor forumExtractor ) throws GeneralLoggingException {
+	private void importBoardThreads( Board newBoard, XmlExtractor forumExtractor )
+			throws GeneralLoggingException {
 		try {
 			String[] discussions = ( String[] ) forumExtractor.buildXPath(
 					"//forum[1]/discussions/discussion/@id", true );
 
 			for( String discussionId : discussions ) {
 				// get attributes
-				String discussionNode = "//discussion[@id=" + discussionId + "]";
-				String name = ( String ) forumExtractor.buildXPath( discussionNode + "/name", false );
-				int firstPostId = Integer.parseInt( ( String ) forumExtractor.buildXPath( discussionNode + "/firstpost", false ) );
-				Date timeModified = new Date( Long.parseLong( ( String) forumExtractor.buildXPath( discussionNode + "/timemodified", false ) ));
-				
-				BoardThread newThread = new BoardThread(newBoard);
+				String discussionNode = "//discussion[@id=" + discussionId
+						+ "]";
+				String name = ( String ) forumExtractor.buildXPath(
+						discussionNode + "/name", false );
+				int firstPostId = Integer.parseInt( ( String ) forumExtractor
+						.buildXPath( discussionNode + "/firstpost", false ) );
+				Date timeModified = new Date(
+						Long.parseLong( ( String ) forumExtractor.buildXPath(
+								discussionNode + "/timemodified", false ) ) );
+
+				BoardThread newThread = new BoardThread( newBoard );
 				newThread.setId( Integer.parseInt( discussionId ) );
 				newThread.setTitle( name );
 				newThread.setFirstPostingId( firstPostId );
 				newThread.setModificationDate( timeModified );
-				
+
 				newBoard.addThread( newThread );
+
+				// import postings for the thread
+				try {
+				this.importPostings( newThread, discussionNode, forumExtractor );
+				} catch (GeneralLoggingException e) {
+					// continue
+				}
 			}
 		} catch( NullPointerException | ClassCastException e ) {
 			throw new GeneralLoggingException( getClass()
 					+ "importBoardThreads(): illegal format for discussions.",
+					"Internal error. Please read the logs" );
+		}
+	}
+
+	/**
+	 * Import the postings for the new thread identified by the given discussion
+	 * Node and accessible in the given xml extractor.
+	 * 
+	 * @param newThread
+	 * @param discussionNode
+	 * @param forumExtractor
+	 * @throws GeneralLoggingException 
+	 */
+	private void importPostings( BoardThread newThread, String discussionNode,
+			XmlExtractor forumExtractor ) throws GeneralLoggingException {
+		try {
+			String[] postings = ( String[] ) forumExtractor.buildXPath(
+					discussionNode + "/posts/post/@id", true );
+			
+			for( String postingId : postings ) {
+				String postingNode = "//post[@id=" + postingId
+						+ "]";
+				String subject = (String) forumExtractor.buildXPath( postingNode + "/subject/text()", false );
+				String message = (String) forumExtractor.buildXPath( postingNode + "/message/text()", false );
+				
+				Date timeModified = new Date(
+						Long.parseLong( ( String ) forumExtractor.buildXPath(
+								postingNode + "/modified", false ) ) );
+				Date timeCreated = new Date(
+						Long.parseLong( ( String ) forumExtractor.buildXPath(
+								postingNode + "/created", false ) ) );
+				int parentPosting = Integer.parseInt( (String ) forumExtractor.buildXPath( postingNode + "/parent/text()", false ));
+				
+				Posting newPosting = new Posting( newThread );
+				newPosting.setId( Integer.parseInt( postingId ));
+				newPosting.setTitle( subject );
+				newPosting.setContent( message );
+				newPosting.setCreationDate( timeCreated );
+				newPosting.setModificationDate( timeModified );
+				newPosting.setParentPostingId( parentPosting );
+
+				newThread.addPosting( newPosting );
+			}
+			
+		} catch( NullPointerException | ClassCastException e ) {
+			throw new GeneralLoggingException( getClass()
+					+ "importPostings(): illegal format for discussions.",
 					"Internal error. Please read the logs" );
 		}
 	}

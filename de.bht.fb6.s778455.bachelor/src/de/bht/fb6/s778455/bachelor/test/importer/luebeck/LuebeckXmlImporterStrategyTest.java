@@ -3,7 +3,7 @@
  */
 package de.bht.fb6.s778455.bachelor.test.importer.luebeck;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import java.io.File;
 import java.lang.reflect.InvocationTargetException;
@@ -14,11 +14,11 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import de.bht.fb6.s778455.bachelor.anonymization.strategy.ner.GermanNerAnonymizationStrategy;
 import de.bht.fb6.s778455.bachelor.importer.luebeck.LuebeckXmlImporter;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.Posting;
 
 /**
  * <p>This class contains tests of the {@link LuebeckXmlImporter}.</p>
@@ -55,6 +55,7 @@ public class LuebeckXmlImporterStrategyTest {
 				.getDeclaredMethod( "importCourses", File.class );
 		method.setAccessible( true );
 		
+		@SuppressWarnings( "unchecked" )
 		Map< Integer, Course > courseMap = ( Map< Integer, Course > ) method.invoke( this.strategy, new File("./data/importer/luebeck" ));
 		assertEquals( 1, courseMap.size() );
 		
@@ -73,6 +74,12 @@ public class LuebeckXmlImporterStrategyTest {
 					System.out.println("########################");
 					System.out.println("Thread: ");
 					System.out.println(thread);
+					for( Posting p : thread.getPostings() ) {
+						System.out.println("////////////////////");
+						System.out.println("Posting: ");
+						System.out.println(p);
+						System.out.println("////////////////////");
+					}
 					System.out.println("########################");
 				}
 			}
