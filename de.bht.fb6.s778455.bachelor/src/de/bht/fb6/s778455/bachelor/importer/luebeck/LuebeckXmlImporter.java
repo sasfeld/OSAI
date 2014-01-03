@@ -89,7 +89,7 @@ public class LuebeckXmlImporter extends AImportStrategy {
 			// parse course file
 			this.parseCourseFile( courses, courseFile );
 		}
-		return null;
+		return courses;
 	}
 
 	/**
@@ -106,29 +106,34 @@ public class LuebeckXmlImporter extends AImportStrategy {
 
 		// only handle the first course xml node
 		try {
-			final int courseId = Integer.parseInt(  ( String ) extractor.buildXPath(
-					"/course[1]/@id", false ));
+			final int courseId = Integer.parseInt( ( String ) extractor
+					.buildXPath( "/course[1]/@id", false ) );
 			final String shortName = ( String ) extractor.buildXPath(
 					"/course[1]/shortname/text()", false );
 			final String fullName = ( String ) extractor.buildXPath(
 					"/course[1]/fullname/text()", false );
 			final String summary = ( String ) extractor.buildXPath(
 					"/course[1]/summary/text()", false );
-			final String lang = ( String ) extractor.buildXPath(
-					"/course[1]/lang/text()", false );
-			final long timeCreated = Long.parseLong( ( String ) extractor.buildXPath( "//course[1]/timecreated/text()", false ));
-			final long timeModified = Long.parseLong( ( String ) extractor.buildXPath( "//course[1]/timemodified/text()", false ));
-			
+			String lang = "";
+			try {
+				lang = ( String ) extractor.buildXPath(
+						"/course[1]/lang/text()", false );
+			} catch( NullPointerException e ) {
+				lang = "";
+			}
+			final long timeCreated = Long.parseLong( ( String ) extractor
+					.buildXPath( "//course[1]/timecreated/text()", false ) );
+			final long timeModified = Long.parseLong( ( String ) extractor
+					.buildXPath( "//course[1]/timemodified/text()", false ) );
+
 			Course newCourse = new Course( fullName );
-			newCourse.setShortName( shortName )				
-				.setSummary( summary )
-				.setLang( lang )
-				.setCreationDate( new Date( timeCreated ) )
-				.setModificationDate( new Date( timeModified) )
-				.setId( courseId );
-			
+			newCourse.setShortName( shortName ).setSummary( summary )
+					.setLang( lang ).setCreationDate( new Date( timeCreated ) )
+					.setModificationDate( new Date( timeModified ) )
+					.setId( courseId );
+
 			courses.put( courseId, newCourse );
-				
+
 		} catch( NullPointerException | ClassCastException e ) {
 			throw new GeneralLoggingException( getClass()
 					+ "parseCourseFile: exception " + e,
