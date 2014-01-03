@@ -51,6 +51,11 @@ public interface IConfigKeys {
 	 */
 	String ANONYM_LEARNED_COMMON_GERMAN = "anonym.learned.common.german";
 	
+	/**
+	 * key to the most common English words
+	 */
+	String ANONYM_LEARNED_COMMON_ENGLISH = "anonym.learned.common.english";
+	
 	/*
 	* import module
 	*/

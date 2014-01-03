@@ -84,6 +84,14 @@ public class NameCorpusStrategyTest {
 		
 		assertEquals( expectedOutput, result );
 		
+		// lower cased
+		input = "gruß schmiedecke";
+		expectedOutput = "gruß "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT;
+		
+		result = this.strategy.anonymizeText( input, testBoard );
+		
+		assertEquals( expectedOutput, result );
+		
 	}
 
 }
