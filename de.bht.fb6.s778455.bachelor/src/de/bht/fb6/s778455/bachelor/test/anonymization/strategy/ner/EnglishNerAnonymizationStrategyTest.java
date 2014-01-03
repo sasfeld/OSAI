@@ -54,6 +54,16 @@ public class EnglishNerAnonymizationStrategyTest {
 		
 		String anonymized = this.strategy.anonymizeText( input );
 		assertEquals( expectedOutput, anonymized );
+		
+		/*
+		 * make sure that common names are not replaced.
+		 */
+		input = "Hello Montag, how are you doing?";
+		expectedOutput = "Hello <PERSON>Montag</PERSON>, how are you doing?";
+
+		anonymized = this.strategy.anonymizeText( input );
+		assertEquals( expectedOutput, anonymized );
+		
 	}
 
 }
