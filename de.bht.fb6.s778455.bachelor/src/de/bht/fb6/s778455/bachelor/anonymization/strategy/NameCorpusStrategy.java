@@ -8,10 +8,12 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import de.bht.fb6.s778455.bachelor.anonymization.CommonNameExcluder;
 import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
 
 /**
  * <p>
@@ -24,6 +26,16 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
  * 
  */
 public class NameCorpusStrategy extends AAnomyzationStrategy {
+	protected CommonNameExcluder commonNameExcluder;
+
+	/**
+	 * Create and initialize a new {@link NameCorpusStrategy}.
+	 * 
+	 * @throws InvalidConfigException
+	 */
+	public NameCorpusStrategy() throws InvalidConfigException {
+		this.commonNameExcluder = CommonNameExcluder.getInstance();
+	}
 
 	@Override
 	/*
@@ -52,33 +64,38 @@ public class NameCorpusStrategy extends AAnomyzationStrategy {
 		// check all names
 		for( String name : names ) {
 			// exclude common names
-			
-			// case 1: name in a single line
-			Pattern pNameSingleLine = Pattern.compile( "(?i)(?<=^)" + name
-					+ "(?=$)(?![a-zA-Z0-9]+)", Pattern.MULTILINE );
-			Matcher matcherSingeLine = pNameSingleLine.matcher( anonymizedText );
-			anonymizedText = matcherSingeLine
-					.replaceAll( NAME_CORPUS_REPLACEMENT );
+			if( !this.commonNameExcluder.isCommon( name, true ) ) {
+				// case 1: name in a single line
+				Pattern pNameSingleLine = Pattern.compile( "(?i)(?<=^)" + name
+						+ "(?=$)(?![a-zA-Z0-9]+)", Pattern.MULTILINE );
+				Matcher matcherSingeLine = pNameSingleLine
+						.matcher( anonymizedText );
+				anonymizedText = matcherSingeLine
+						.replaceAll( NAME_CORPUS_REPLACEMENT );
 
-			// case 2: name at the beginning of a line
-			Pattern pNameAtBeginning = Pattern.compile( "(?i)(?<=^)" + name
-					+ "(?=[\\s!?.,;-_]{1})(?![a-zA-Z0-9]+)", Pattern.MULTILINE );
-			Matcher matcherBeginning = pNameAtBeginning
-					.matcher( anonymizedText );
-			anonymizedText = matcherBeginning
-					.replaceAll( NAME_CORPUS_REPLACEMENT );
+				// case 2: name at the beginning of a line
+				Pattern pNameAtBeginning = Pattern.compile( "(?i)(?<=^)" + name
+						+ "(?=[\\s!?.,;-_]{1})(?![a-zA-Z0-9]+)",
+						Pattern.MULTILINE );
+				Matcher matcherBeginning = pNameAtBeginning
+						.matcher( anonymizedText );
+				anonymizedText = matcherBeginning
+						.replaceAll( NAME_CORPUS_REPLACEMENT );
 
-			// case 3: name at the end of a line
-			Pattern pNameAtEnd = Pattern.compile( "(?i)(?<=\\s)" + name
-					+ "(?=$)(?![a-zA-Z0-9]+)", Pattern.MULTILINE );
-			Matcher matcherEnd = pNameAtEnd.matcher( anonymizedText );
-			anonymizedText = matcherEnd.replaceAll( NAME_CORPUS_REPLACEMENT );
+				// case 3: name at the end of a line
+				Pattern pNameAtEnd = Pattern.compile( "(?i)(?<=\\s)" + name
+						+ "(?=$)(?![a-zA-Z0-9]+)", Pattern.MULTILINE );
+				Matcher matcherEnd = pNameAtEnd.matcher( anonymizedText );
+				anonymizedText = matcherEnd
+						.replaceAll( NAME_CORPUS_REPLACEMENT );
 
-			// case 4: name anywhere in line
-			Pattern pNameInLine = Pattern.compile( "(?i)(?<=\\s)" + name
-					+ "(?=[\\s!?.,;-_]{1})(?![a-zA-Z0-9]+)" );
-			Matcher matcherInLine = pNameInLine.matcher( anonymizedText );
-			anonymizedText = matcherInLine.replaceAll( NAME_CORPUS_REPLACEMENT );
+				// case 4: name anywhere in line
+				Pattern pNameInLine = Pattern.compile( "(?i)(?<=\\s)" + name
+						+ "(?=[\\s!?.,;-_]{1})(?![a-zA-Z0-9]+)" );
+				Matcher matcherInLine = pNameInLine.matcher( anonymizedText );
+				anonymizedText = matcherInLine
+						.replaceAll( NAME_CORPUS_REPLACEMENT );
+			}
 		}
 
 		return anonymizedText;

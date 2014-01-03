@@ -21,19 +21,20 @@ import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus.PersonNameType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 
 /**
- * <p>This class realizes tests of {@link NameCorpusStrategy}</p>
- *
+ * <p>
+ * This class realizes tests of {@link NameCorpusStrategy}
+ * </p>
+ * 
  * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
  * @since 05.12.2013
- *
+ * 
  */
 public class NameCorpusStrategyTest {
 	protected AAnomyzationStrategy strategy;
 	private PersonNameCorpus personNameCorpus;
- 
+
 	/*
-	 * ##################################
-	 * # test preparation #
+	 * ################################## # test preparation #
 	 * ##################################
 	 */
 	/**
@@ -42,9 +43,11 @@ public class NameCorpusStrategyTest {
 	@Before
 	public void setUp() throws Exception {
 		this.strategy = new NameCorpusStrategy();
-	    DirectoryImportStrategy importStrategy = new DirectoryImportStrategy();
-		
-		this.personNameCorpus = importStrategy.fillFromFile( new File( "./data/anonymization/personnames/testprenames.txt" ), new PersonNameCorpus(), PersonNameType.LASTNAME );
+		DirectoryImportStrategy importStrategy = new DirectoryImportStrategy();
+
+		this.personNameCorpus = importStrategy.fillFromFile( new File(
+				"./data/anonymization/personnames/testprenames.txt" ),
+				new PersonNameCorpus(), PersonNameType.LASTNAME );
 	}
 
 	/**
@@ -57,41 +60,54 @@ public class NameCorpusStrategyTest {
 
 	@Test
 	public void testAnonymizeText() throws GeneralLoggingException {
-		Board testBoard = new Board( new Course( "unit test course" ));
+		Board testBoard = new Board( new Course( "unit test course" ) );
 		testBoard.getBelongingCourse().setPersonNameCorpus( personNameCorpus );
-		
-		System.out.println(this.personNameCorpus);
-		
+
+		System.out.println( this.personNameCorpus );
+
 		String input = "Hallo Farshad! Fr. Schmiedecke? Richtige Einstellung! Das sagt auch Mustafa. Gruß Özbey";
-		String expectedOutput = "Hallo "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT+"! Fr. "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT+"? Richtige Einstellung! Das sagt auch "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT+". Gruß "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT;
-		
+		String expectedOutput = "Hallo "
+				+ NameCorpusStrategy.NAME_CORPUS_REPLACEMENT + "! Fr. "
+				+ NameCorpusStrategy.NAME_CORPUS_REPLACEMENT
+				+ "? Richtige Einstellung! Das sagt auch "
+				+ NameCorpusStrategy.NAME_CORPUS_REPLACEMENT + ". Gruß "
+				+ NameCorpusStrategy.NAME_CORPUS_REPLACEMENT;
+
 		String result = this.strategy.anonymizeText( input, testBoard );
-		
-		assertEquals( expectedOutput, result );		
-		
-		input = "ich finde, der Dis-Kurs sollte in das offizielle Modulhandbuch. Vielleicht können Sie sich ja darum bem�hen, Fr. Schmiedecke ? ;)";
-		expectedOutput = "ich finde, der Dis-Kurs sollte in das offizielle Modulhandbuch. Vielleicht können Sie sich ja darum bem�hen, Fr. "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT+" ? ;)";
-		
-		result = this.strategy.anonymizeText( input, testBoard );
-		
+
 		assertEquals( expectedOutput, result );
-		
+
+		input = "ich finde, der Dis-Kurs sollte in das offizielle Modulhandbuch. Vielleicht können Sie sich ja darum bem�hen, Fr. Schmiedecke ? ;)";
+		expectedOutput = "ich finde, der Dis-Kurs sollte in das offizielle Modulhandbuch. Vielleicht können Sie sich ja darum bem�hen, Fr. "
+				+ NameCorpusStrategy.NAME_CORPUS_REPLACEMENT + " ? ;)";
+
+		result = this.strategy.anonymizeText( input, testBoard );
+
+		assertEquals( expectedOutput, result );
+
 		// "hauke[xawgas] shall not be replaced
 		input = "haukeineinemWort";
 		expectedOutput = input;
-		
+
 		result = this.strategy.anonymizeText( input, testBoard );
-		
+
 		assertEquals( expectedOutput, result );
-		
+
 		// lower cased
 		input = "gruß schmiedecke";
-		expectedOutput = "gruß "+NameCorpusStrategy.NAME_CORPUS_REPLACEMENT;
-		
+		expectedOutput = "gruß " + NameCorpusStrategy.NAME_CORPUS_REPLACEMENT;
+
 		result = this.strategy.anonymizeText( input, testBoard );
-		
+
 		assertEquals( expectedOutput, result );
-		
+
+		// common names
+		input = "da elsta";
+		expectedOutput = input;
+
+		result = this.strategy.anonymizeText( input, testBoard );
+
+		assertEquals( expectedOutput, result );
 	}
 
 }
