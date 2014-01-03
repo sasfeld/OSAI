@@ -7,11 +7,9 @@ import java.util.List;
 import java.util.Set;
 
 import de.bht.fb6.s778455.bachelor.anonymization.CommonNameExcluder;
-import de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.Course.LearnedWordTypes;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
-import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
 
 /**
