@@ -4,6 +4,7 @@
 package de.bht.fb6.s778455.bachelor.importer.luebeck;
 
 import java.io.File;
+import java.io.FileFilter;
 import java.io.InputStream;
 import java.util.Collection;
 import java.util.Date;
@@ -12,6 +13,7 @@ import java.util.Map;
 import java.util.Set;
 
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
+import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus.PersonNameType;
@@ -87,9 +89,55 @@ public class LuebeckXmlImporter extends AImportStrategy {
 			}
 
 			// parse course file
-			this.parseCourseFile( courses, courseFile );
+			Course newCourse = this.parseCourseFile( courses, courseFile );
+			
+			// import boards
+			this.importBoards(newCourse, courseDir);
 		}
 		return courses;
+	}
+
+	/**
+	 * Import boards for the given course and the course's directory.
+	 * @param newCourse
+	 * @param courseFile
+	 * @throws GeneralLoggingException 
+	 */
+	private void importBoards( Course newCourse, File courseFile ) throws GeneralLoggingException {
+		// Get a list of files containing xml files for a single forum
+		File[] forumDirs = new File( courseFile, "activities" ).listFiles( new FileFilter() {
+			@Override
+			public boolean accept( File f ) {
+				return f.getName().startsWith( "forum_" );
+			}
+		} );
+		
+		for( File forumDir : forumDirs ) {
+			File forumXml = new File( forumDir, "forum.xml" );
+			if (!forumXml.exists() || !forumXml.isFile()) {
+				throw new GeneralLoggingException( getClass() + ": the given file " + forumXml + " doesn't exist.", "Internal error in the importer module." );
+			}
+			
+			XmlExtractor forumExtractor = new XmlExtractor( forumXml.getAbsolutePath(), new HashMap<String, String>() );
+			final int boardid = Integer.parseInt( ( String ) forumExtractor
+					.buildXPath( "//forum[1]/@id", false ) );
+			final String type = ( String ) forumExtractor.buildXPath(
+					"//forum[1]/type/text()", false );
+			final String name = ( String ) forumExtractor.buildXPath(
+					"//forum[1]/name/text()", false );
+			final String intro = ( String ) forumExtractor.buildXPath(
+					"//forum[1]/intro/text()", false );
+			final Date timeModified = new Date( Long.parseLong( ( String ) forumExtractor.buildXPath(
+					"//forum[1]/timemodified/text()", false ) ) );
+			
+			Board newBoard = new Board( newCourse );
+			newBoard.setIntro( intro );
+			newBoard.setType( type );
+			newBoard.setTitle( name );
+			newBoard.setModificationDate( timeModified );
+			
+			newCourse.addBoard( newBoard );
+		}
 	}
 
 	/**
@@ -97,9 +145,10 @@ public class LuebeckXmlImporter extends AImportStrategy {
 	 * 
 	 * @param courses
 	 * @param courseFile
+	 * @return 
 	 * @throws GeneralLoggingException
 	 */
-	private void parseCourseFile( Map< Integer, Course > courses,
+	private Course parseCourseFile( Map< Integer, Course > courses,
 			File courseFile ) throws GeneralLoggingException {
 		XmlExtractor extractor = new XmlExtractor(
 				courseFile.getAbsolutePath(), new HashMap< String, String >() );
@@ -133,6 +182,8 @@ public class LuebeckXmlImporter extends AImportStrategy {
 					.setId( courseId );
 
 			courses.put( courseId, newCourse );
+			
+			return newCourse;
 
 		} catch( NullPointerException | ClassCastException e ) {
 			throw new GeneralLoggingException( getClass()
