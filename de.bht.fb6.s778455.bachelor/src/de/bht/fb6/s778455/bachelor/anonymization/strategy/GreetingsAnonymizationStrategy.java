@@ -3,6 +3,7 @@
  */
 package de.bht.fb6.s778455.bachelor.anonymization.strategy;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -94,8 +95,13 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 	 */
 	private List< String > getGreetingWords() throws InvalidConfigException {
 		if( null == this.greetingWords ) { // be lazy
-			this.greetingWords = ServiceFactory.getConfigReader()
-					.fetchMultipleValues( IConfigKeys.ANONYM_GREETINGS_GERMAN );
+			List<String> combinedWords = new ArrayList<String>();
+			// combine both English and German greeting words
+			combinedWords.addAll( ServiceFactory.getConfigReader()
+					.fetchMultipleValues( IConfigKeys.ANONYM_GREETINGS_GERMAN ) );
+			combinedWords.addAll( ServiceFactory.getConfigReader()
+					.fetchMultipleValues( IConfigKeys.ANONYM_GREETINGS_ENGLISH ) );
+			this.greetingWords = combinedWords;
 		}
 		return this.greetingWords;
 	}

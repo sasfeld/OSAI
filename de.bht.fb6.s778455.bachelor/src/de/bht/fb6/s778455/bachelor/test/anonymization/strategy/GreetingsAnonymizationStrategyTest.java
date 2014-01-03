@@ -233,8 +233,16 @@ public class GreetingsAnonymizationStrategyTest {
 		assertTrue( learnedWords.contains( "SF" ) );
 		assertTrue( learnedWords.contains( "xyz" ) );
 		
-		assertEquals( 13, learnedWords.size() );
+		assertEquals( 10, learnedWords.size() );
 		
+		/*
+		 * "Best Wishes, xyz"
+		 */
+		input = "Hallo!\nGuter Beitrag, gef�llt mir!\nBest Wishes, xyz";		
+		expectedOutput = "Hallo!\nGuter Beitrag, gef�llt mir!\nBest Wishes, " + GreetingsAnonymizationStrategy.PERSONAL_GREETING_REPLACEMENT;
+		
+		result = this.strategy.anonymizeText( input, testBoard );
+		assertEquals( expectedOutput, result );		
 	}
 
 }

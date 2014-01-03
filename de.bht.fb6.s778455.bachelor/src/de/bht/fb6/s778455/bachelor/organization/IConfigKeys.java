@@ -43,6 +43,10 @@ public interface IConfigKeys {
 	 * Key to fetch multiple greetings in German.
 	 */
 	String ANONYM_GREETINGS_GERMAN = "anonym.greetings.german";
+	/**
+	 * Key to fetch multiple greetings in English.
+	 */
+	String ANONYM_GREETINGS_ENGLISH = "anonym.greetings.english";
 	String ANONYM_GREETINGS_NUMBEROFLINES = "anonym.greetings.numberoflines";
 	String ANONYM_GREETINGS_LEARNED_MAXWORDS = "anonym.greetings.learned.maxwords";
 	
