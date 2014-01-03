@@ -66,7 +66,7 @@ public interface IConfigKeys {
 	String IMPORT_STRATEGY_AUDITORIUM_DB_HOST = "import.strategy.auditorium.db.host";
 	String IMPORT_STRATEGY_AUDITORIUM_DB_USER = "import.strategy.auditorium.db.user";
 	String IMPORT_STRATEGY_AUDITORIUM_DB_PW = "import.strategy.auditorium.db.password";
-	
+	String IMPORT_STRATEGY_LUEBECK_DATA = "import.strategy.luebeck.datafolder";
 	/*
 	 * export module 
 	 */

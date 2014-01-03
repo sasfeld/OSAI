@@ -15,6 +15,7 @@ import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
 import de.bht.fb6.s778455.bachelor.exporter.experimental.DirectoryExportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy;
+import de.bht.fb6.s778455.bachelor.importer.luebeck.LuebeckXmlImporterStrategy;
 import de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader;
 import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
@@ -59,6 +60,10 @@ public class AnonymizationController {
 							.getConfigReader()
 							.fetchValue(
 									IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_DATAFOLDER ) );
+		} else if( importStrategy instanceof LuebeckXmlImporterStrategy ) {
+			this.configuredDataFile = new File( ServiceFactory
+					.getConfigReader().fetchValue(
+							IConfigKeys.IMPORT_STRATEGY_LUEBECK_DATA ) );
 		} else {
 			this.configuredDataFile = new File( ServiceFactory
 					.getConfigReader().fetchValue(
@@ -194,22 +199,22 @@ public class AnonymizationController {
 	 */
 	public void performAnonymizationAnalysis() throws GeneralLoggingException {
 		long startTime = new Date().getTime();
-		System.out.println("starting import...");
+		System.out.println( "starting import..." );
 		Collection< Course > rawCourses = this.importStrategy
 				.importBoardFromFile( this.configuredDataFile );
-		System.out.println("import successful");
+		System.out.println( "import successful" );
 		System.out.println();
-		System.out.println("starting anonymization...");
+		System.out.println( "starting anonymization..." );
 		Collection< Course > anonymizedCourses = this
 				.performAnonymization( rawCourses );
 		System.out.println();
-		System.out.println("anonymization successful");
-		System.out.println("Starting export...");
-		long elapsedTime = new Date().getTime() - startTime;		
+		System.out.println( "anonymization successful" );
+		System.out.println( "Starting export..." );
+		long elapsedTime = new Date().getTime() - startTime;
 		this.exportStrategy.exportToFile( anonymizedCourses,
 				this.configuredExportFile );
 		System.out.println();
-		System.out.println("Export successfull");
+		System.out.println( "Export successfull" );
 		System.out.println( getStatistics( anonymizedCourses, elapsedTime ) );
 	}
 
@@ -269,8 +274,10 @@ public class AnonymizationController {
 							.fetchValue(
 									IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC )
 							.equals( "fallback" ) ) {
-				statisticsBuilder.append( "Course specific name corpus for course: " + course.getTitle() + "\n");
-				statisticsBuilder.append( course.getPersonNameCorpus() + "\n");
+				statisticsBuilder
+						.append( "Course specific name corpus for course: "
+								+ course.getTitle() + "\n" );
+				statisticsBuilder.append( course.getPersonNameCorpus() + "\n" );
 			}
 			// System.out.println("Course: " + course);
 			// System.out.println("");

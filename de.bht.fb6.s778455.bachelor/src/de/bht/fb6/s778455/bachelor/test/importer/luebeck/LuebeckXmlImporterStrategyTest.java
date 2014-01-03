@@ -14,28 +14,28 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import de.bht.fb6.s778455.bachelor.importer.luebeck.LuebeckXmlImporter;
+import de.bht.fb6.s778455.bachelor.importer.luebeck.LuebeckXmlImporterStrategy;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 
 /**
- * <p>This class contains tests of the {@link LuebeckXmlImporter}.</p>
+ * <p>This class contains tests of the {@link LuebeckXmlImporterStrategy}.</p>
  *
  * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
  * @since 03.01.2014
  *
  */
 public class LuebeckXmlImporterStrategyTest {
-	private LuebeckXmlImporter strategy;
+	private LuebeckXmlImporterStrategy strategy;
 
 	/**
 	 * @throws java.lang.Exception
 	 */
 	@Before
 	public void setUp() throws Exception {
-		this.strategy = new LuebeckXmlImporter();
+		this.strategy = new LuebeckXmlImporterStrategy();
 	}
 
 	/**
@@ -51,13 +51,13 @@ public class LuebeckXmlImporterStrategyTest {
 	 * Test protected method.
 	 */
 	public void testImportCourses() throws NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
-		Method method = LuebeckXmlImporter.class
+		Method method = LuebeckXmlImporterStrategy.class
 				.getDeclaredMethod( "importCourses", File.class );
 		method.setAccessible( true );
 		
 		@SuppressWarnings( "unchecked" )
 		Map< Integer, Course > courseMap = ( Map< Integer, Course > ) method.invoke( this.strategy, new File("./data/importer/luebeck" ));
-		assertEquals( 1, courseMap.size() );
+		assertEquals( 12, courseMap.size() );
 		
 		for( Course c : courseMap.values() ) {
 			System.out.println("++++++++++++++++++");
