@@ -10,7 +10,9 @@ import java.util.Date;
 import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
 import de.bht.fb6.s778455.bachelor.exporter.experimental.DirectoryExportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
+import de.bht.fb6.s778455.bachelor.importer.auditorium.AuditoriumImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy;
+import de.bht.fb6.s778455.bachelor.importer.luebeck.LuebeckXmlImporterStrategy;
 import de.bht.fb6.s778455.bachelor.importer.moodle.MoodlePostgreSqlImportStrategy;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
@@ -37,7 +39,7 @@ public class AnonymizationCliController {
 	 * 
 	 */
 	public enum ImportMethods {
-		POSTGREDUMP, FILESYSTEM,
+		POSTGREDUMP, FILESYSTEM, LUEBECK_XML, AUDITORIUM_DB,
 	}
 
 	/**
@@ -99,6 +101,10 @@ public class AnonymizationCliController {
 			this.importStrategy = new MoodlePostgreSqlImportStrategy();
 		} else if( importMethod.equals( ImportMethods.FILESYSTEM ) ) {
 			this.importStrategy = new DirectoryImportStrategy();
+		} else if( importMethod.equals( ImportMethods.LUEBECK_XML ) ) {
+			this.importStrategy = new LuebeckXmlImporterStrategy();
+		} else if( importMethod.equals( ImportMethods.AUDITORIUM_DB ) ) {
+			this.importStrategy = new AuditoriumImportStrategy();
 		} else {
 			throw new UnsupportedOperationException(
 					"The given import strategy " + importStrategy
@@ -144,15 +150,15 @@ public class AnonymizationCliController {
 			throw new IllegalStateException(
 					"performAnonymization() must be called after performImport()! Maybe the import wasn't succesful." );
 		}
-		
+
 		this.anonymizationStartTime = new Date().getTime();
 		this.anonymizedCourses = this.anonymizationController
 				.performAnonymization( this.rawCourses );
 		this.anonymizationStopTime = new Date().getTime();
-		
+
 		// really erase the raw material
 		this.rawCourses = null;
-		
+
 		this.numberAnonymizedCourses = this.anonymizedCourses.size();
 
 		return true;
@@ -175,30 +181,35 @@ public class AnonymizationCliController {
 
 		return true;
 	}
-	
+
 	/**
 	 * Get a string containing statistics.
+	 * 
 	 * @return
 	 */
 	public String getStatistics() {
 		StringBuilder statisticsBuilder = new StringBuilder();
-		
-		statisticsBuilder.append( "Number of imported courses: " + this.numberImportedCourses +"\n");
-		statisticsBuilder.append( "Number of anonymized courses: " + this.numberAnonymizedCourses +"\n");
-		
-		long elapsedTime = this.anonymizationStopTime - this.anonymizationStartTime;
-		statisticsBuilder.append( this.anonymizationController.getStatistics( this.anonymizedCourses, elapsedTime ));
-		
+
+		statisticsBuilder.append( "Number of imported courses: "
+				+ this.numberImportedCourses + "\n" );
+		statisticsBuilder.append( "Number of anonymized courses: "
+				+ this.numberAnonymizedCourses + "\n" );
+
+		long elapsedTime = this.anonymizationStopTime
+				- this.anonymizationStartTime;
+		statisticsBuilder.append( this.anonymizationController.getStatistics(
+				this.anonymizedCourses, elapsedTime ) );
+
 		return statisticsBuilder.toString();
 	}
 
 	public static void main( String[] args ) {
-		System.out.println("..:: Moodle anonymization tool ::..");
-		System.out.println("Welcome!");
-		System.out.println("");
-		System.out.println("Append --help for a help text.");
-		System.out.println("");
-		
+		System.out.println( "..:: Moodle anonymization tool ::.." );
+		System.out.println( "Welcome!" );
+		System.out.println( "" );
+		System.out.println( "Append --help for a help text." );
+		System.out.println( "" );
+
 		// read args
 		int ind = 0;
 		String inputFile = null;
@@ -206,8 +217,8 @@ public class AnonymizationCliController {
 		String importMethodString = null;
 		String exportMethodString = null;
 
-		if ( 0 == args.length || args[0].equals( "--help" ) ) {
-			System.out.println(printHelp());
+		if( 0 == args.length || args[0].equals( "--help" ) ) {
+			System.out.println( printHelp() );
 			return;
 		}
 		// read options
@@ -278,7 +289,7 @@ public class AnonymizationCliController {
 				System.out.println( "Controller is initialized..." );
 				System.out.println( "Input file: " + inputFile );
 				System.out.println( "Output file: " + outputFile );
-				System.out.println( "Import method: " + importMethod );
+				System.out.println( "Import method: " + importMethod + (importMethod.equals( ImportMethods.AUDITORIUM_DB ) ? "Make sure that you have configured the database connection in the anonymization.properties!" : ""));
 				System.out.println( "Export method: " + exportMethod );
 				System.out.println();
 			} catch( UnsupportedOperationException | IllegalArgumentException
@@ -305,7 +316,7 @@ public class AnonymizationCliController {
 				System.err.println( "Import wasn't successful." );
 				return;
 			}
-			System.out.println("Import was successful!");
+			System.out.println( "Import was successful!" );
 
 			// perform anonymization
 			boolean anonymSuccess = false;
@@ -314,15 +325,16 @@ public class AnonymizationCliController {
 				anonymSuccess = controller.performAnonymization();
 			} catch( GeneralLoggingException e ) {
 				anonymSuccess = false;
-				System.err.println( "Anonymization wasn't succesful. Error: " + e.getLocalizedMessage() );
+				System.err.println( "Anonymization wasn't succesful. Error: "
+						+ e.getLocalizedMessage() );
 			}
-			
-			if (!anonymSuccess) {
+
+			if( !anonymSuccess ) {
 				System.err.println( "Anonymization wasn't successful." );
 				return;
 			}
-			System.out.println("Anonymization was successful!");
-			
+			System.out.println( "Anonymization was successful!" );
+
 			// perform export
 			boolean exportSuccess = false;
 
@@ -330,37 +342,40 @@ public class AnonymizationCliController {
 				exportSuccess = controller.performExport();
 			} catch( GeneralLoggingException e ) {
 				exportSuccess = false;
-				System.err.println( "Export wasn't succesful. Error: " + e.getLocalizedMessage() );
+				System.err.println( "Export wasn't succesful. Error: "
+						+ e.getLocalizedMessage() );
 			}
-			
-			if (!exportSuccess) {
+
+			if( !exportSuccess ) {
 				System.err.println( "Export wasn't successful." );
 				return;
 			}
-			System.out.println("Export was successful!");
+			System.out.println( "Export was successful!" );
 			System.out.println();
-			
+
 			// Show stats
-			System.out.println(controller.getStatistics());
-			
-			System.out.println("Goodybe :)");
+			System.out.println( controller.getStatistics() );
+
+			System.out.println( "Goodybe :)" );
 		}
 
 	}
 
 	private static String printHelp() {
 		StringBuilder helpBuilder = new StringBuilder();
-		
+
 		helpBuilder.append( "..:: HELP ::..\n" );
-		helpBuilder.append( "The anonymization tool takes a file or directory that contains the unanonymized data from Moodle and exports it using a given method.\n" );
-		helpBuilder.append( "Make sure, that you configured the anonymization chain in the anonymization.properties config file.\n" );
+		helpBuilder
+				.append( "The anonymization tool takes a file or directory that contains the unanonymized data from Moodle and exports it using a given method.\n" );
+		helpBuilder
+				.append( "Make sure, that you configured the anonymization chain in the anonymization.properties config file.\n" );
 		helpBuilder.append( "\n" );
 		helpBuilder.append( "Required arguments:\n\n" );
 		helpBuilder.append( "-inputfile [FILE]\n" );
-		helpBuilder.append( "-importmethod [postgredump|filesystem]\n" );
+		helpBuilder.append( "-importmethod [postgredump|filesystem|luebeck_xml|auditorium_db]\n" );
 		helpBuilder.append( "-exportmethod [filesystem]\n" );
-		helpBuilder.append( "-outputfile [FILE]\n" );	
-		
+		helpBuilder.append( "-outputfile [FILE]\n" );
+
 		return helpBuilder.toString();
 	}
 
