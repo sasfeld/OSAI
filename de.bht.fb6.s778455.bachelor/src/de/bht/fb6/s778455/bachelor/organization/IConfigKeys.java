@@ -76,6 +76,7 @@ public interface IConfigKeys {
 	String IMPORT_STRATEGY_AUDITORIUM_DB_USER = "import.strategy.auditorium.db.user";
 	String IMPORT_STRATEGY_AUDITORIUM_DB_PW = "import.strategy.auditorium.db.password";
 	String IMPORT_STRATEGY_LUEBECK_DATA = "import.strategy.luebeck.datafolder";
+	
 	/*
 	 * export module 
 	 */
@@ -85,4 +86,9 @@ public interface IConfigKeys {
 	String EXPORT_STRATEGY_SERIALIZED_DATAFOLDER = "export.strategy.serialized.datafolder";
 	String EXPORT_STRATEGY_DIRECTORYEXPORT_ENCODING = "export.strategy.directoryexport.encoding";
 	String IMPORT_STRATEGY_AUDITORIUM_DB_DBNAME = "import.strategy.auditorium.db.dbname";
+	
+	/*
+	 * Semantics module.
+	 */
+	String SEMANTICS_EXTRACTION_TOPICZOOM_ENDPOINT = "semantics.extraction.topiczoom.endpoint";
 }
