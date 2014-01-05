@@ -15,12 +15,13 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
-import org.omg.CORBA.RepositoryIdHelper;
 
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
+import de.bht.fb6.s778455.bachelor.semantic.organization.service.ServiceFactory;
 
 /**
  * <p>
@@ -50,7 +51,7 @@ public class TopicZoomExtractionStrategy extends AExtractionStrategy {
 	 */
 	public TopicZoomExtractionStrategy() {
 		this.initClient();
-		this.serviceUrl = "http://s15415510.onlinehome-server.info:2208/quickindex.xml";
+		this.serviceUrl = ServiceFactory.getConfigReader().fetchValue( IConfigKeys.SEMANTICS_EXTRACTION_TOPICZOOM_ENDPOINT );
 	}
 
 	/*
