@@ -1,15 +1,10 @@
 /**
  * Copyright (c) 2013 Sascha Feldmann (sascha.feldmann@gmx.de) 
  */
-package de.bht.fb6.s778455.bachelor.semantic.extraction;
+package de.bht.fb6.s778455.bachelor.semantic.extraction.topiczoom;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.ResponseHandler;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
@@ -21,6 +16,7 @@ import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
+import de.bht.fb6.s778455.bachelor.semantic.extraction.AExtractionStrategy;
 import de.bht.fb6.s778455.bachelor.semantic.organization.service.ServiceFactory;
 
 /**
@@ -43,7 +39,7 @@ public class TopicZoomExtractionStrategy extends AExtractionStrategy {
 	public static final String HTTP_CONTENT_TYPE = "Content-Type";
 
 	protected CloseableHttpClient httpClient;
-	protected final String serviceUrl;
+	protected String serviceUrl;
 	protected boolean clientClosed;
 
 	/**
@@ -78,33 +74,7 @@ public class TopicZoomExtractionStrategy extends AExtractionStrategy {
 			postRequest.addHeader( HTTP_CONTENT_TYPE, "text/xml; version=3.2" );
 			postRequest.setEntity( new StringEntity( p.getContent() ) );
 
-			ResponseHandler< String > responseHandler = new ResponseHandler< String >() {
-				@Override
-				public String handleResponse( HttpResponse response )
-						throws ClientProtocolException, IOException {
-					// everything ok => status: 200
-					if( 200 == response.getStatusLine().getStatusCode() ) { 
-						// build a string from the response of TopicZoom
-						StringBuilder strBuilder = new StringBuilder();
-
-						InputStream is = response.getEntity().getContent();
-						BufferedReader r = new BufferedReader(
-								new InputStreamReader( is ) );
-
-						String line;
-						while( null != ( line = r.readLine() ) ) {
-							strBuilder.append( line + "\n" );
-						}
-
-						return strBuilder.toString();
-					} else {
-						throw new IOException(
-								getClass()
-										+ ":extractSemantics(): TopicZoom returned bad status code: "
-										+ response.getStatusLine().toString() );
-					}
-				}
-			};
+			ResponseHandler< String > responseHandler = new TopicZoomResponseHandler();
 
 			// execute request
 			String responseBody = httpClient.execute( postRequest,

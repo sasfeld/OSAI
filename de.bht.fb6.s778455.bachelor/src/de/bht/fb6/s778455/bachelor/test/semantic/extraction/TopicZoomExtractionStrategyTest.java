@@ -9,7 +9,7 @@ import org.junit.Test;
 
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
-import de.bht.fb6.s778455.bachelor.semantic.extraction.TopicZoomExtractionStrategy;
+import de.bht.fb6.s778455.bachelor.semantic.extraction.topiczoom.TopicZoomExtractionStrategy;
 
 /**
  * <p>This class contains tests of the {@link TopicZoomExtractionStrategy}.</p>
