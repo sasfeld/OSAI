@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2013-2014 Sascha Feldmann (sascha.feldmann@gmx.de) 
  */
-package de.bht.fb6.s778455.bachelor.semantic.extraction.topiczoom;
+package de.bht.fb6.s778455.bachelor.model.tools;
 
 import de.bht.fb6.s778455.bachelor.model.Tag;
 import de.bht.fb6.s778455.bachelor.model.TopicZoomTag;

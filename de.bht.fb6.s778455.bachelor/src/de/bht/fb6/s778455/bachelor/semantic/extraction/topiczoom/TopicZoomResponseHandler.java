@@ -18,6 +18,7 @@ import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.ResponseHandler;
 
 import de.bht.fb6.s778455.bachelor.model.Tag;
+import de.bht.fb6.s778455.bachelor.model.tools.TagComparator;
 
 /**
  * 
