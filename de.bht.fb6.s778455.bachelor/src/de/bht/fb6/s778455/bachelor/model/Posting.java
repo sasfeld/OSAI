@@ -4,9 +4,12 @@
 
 package de.bht.fb6.s778455.bachelor.model;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
@@ -28,7 +31,7 @@ public class Posting extends AUserContribution {
 		 */
 		TOPIC_ZOOM,
 	}
-	
+
 	/**
 	 * Untagged content.
 	 */
@@ -49,23 +52,22 @@ public class Posting extends AUserContribution {
 	 */
 	public Posting( BoardThread thread ) {
 		this.belongingThread = thread;
-		
+
 		this._initialize();
 	}
-	
+
 	/**
 	 * Create a bare posting.
 	 */
 	public Posting() {
 		this.belongingThread = null;
-		
+
 		this._initialize();
 	}
-	
-	private void _initialize() {
-		this.tagMap = new HashMap< Posting.TagType, List<Tag> >();
-	}
 
+	private void _initialize() {
+		this.tagMap = new HashMap< Posting.TagType, List< Tag > >();
+	}
 
 	/**
 	 * @return the belongingThread
@@ -84,7 +86,7 @@ public class Posting extends AUserContribution {
 	/**
 	 * @param parentPostingId
 	 *            the parentPostingId to set
-	 * @return 
+	 * @return
 	 */
 	public Posting setParentPostingId( int parentPostingId ) {
 		this.parentPostingId = parentPostingId;
@@ -101,7 +103,7 @@ public class Posting extends AUserContribution {
 	/**
 	 * @param content
 	 *            the untagged content to set
-	 * @return 
+	 * @return
 	 */
 	public Posting setContent( String content ) {
 		this.content = content;
@@ -118,7 +120,7 @@ public class Posting extends AUserContribution {
 	/**
 	 * @param taggedContent
 	 *            the taggedContent to set
-	 * @return 
+	 * @return
 	 */
 	public Posting setTaggedContent( String taggedContent ) {
 		this.taggedContent = taggedContent;
@@ -134,12 +136,35 @@ public class Posting extends AUserContribution {
 		StringBuilder txtExport = new StringBuilder();
 
 		txtExport.append( super.exportToTxt() );
+
+		// tags
+		List< Tag > topicZoomTags = this.getTags( TagType.TOPIC_ZOOM );
+
+		if( null != topicZoomTags ) {
+			for( Tag tag : topicZoomTags ) {
+				if( tag instanceof TopicZoomTag ) {
+					TopicZoomTag topicZoomTag = ( TopicZoomTag ) tag;
+					txtExport.append( "TOPIC_ZOOM_TAG: " + "value:"
+							+ topicZoomTag.getValue() + ";" + "weight:"
+							+ topicZoomTag.getWeight() + ";" + "significance:"
+							+ topicZoomTag.getSignificance() + ";"
+							+ "degreegeneralization:"
+							+ topicZoomTag.getDegreeGeneralization() + ";"
+							+ "uri:" + topicZoomTag.getUri() + "\n" );
+				} else {
+					Application
+							.log( getClass()
+									+ ":exportToTxt(): the saved tag is not of type TopicZoomTag. There must be some error in the extraction process. Only add TopicZoomTags when using TopicZoom.",
+									LogType.ERROR );
+				}
+			}
+		}
+
 		txtExport.append( "PARENT_POSTING_ID: " + this.getParentPostingId()
 				+ "\n" );
 		String postingType = this.getPostingType();
-		if ( null != postingType ) {
-			txtExport.append( "POSTING_TYPE: " + postingType
-					+ "\n" );
+		if( null != postingType ) {
+			txtExport.append( "POSTING_TYPE: " + postingType + "\n" );
 		}
 		txtExport.append( "CONTENT:\n" );
 
@@ -186,51 +211,124 @@ public class Posting extends AUserContribution {
 			this.setContent( value );
 		} else if( key.equals( "TAGGED_CONTENT" ) ) {
 			this.setTaggedContent( value );
-		} else if( key.equals( "POSTING_TYPE" )) {
+		} else if( key.equals( "POSTING_TYPE" ) ) {
 			this.setPostingType( value );
+		} else if( key.equals( "TOPIC_ZOOM_TAG" ) ) {
+			this.parseTopicZoomValue( value );
 		}
 	}
+
+	/**
+	 * Parse the value for the key "TOPIC_ZOOM_TAG" within a txt file and fill
+	 * the Posting's tags.
+	 * 
+	 * @param value
+	 */
+	private void parseTopicZoomValue( final String value ) {
+		/*
+		 * structure:
+		 * value:xyz;weight:1.0;significance:3.0;degreegeneralization:
+		 * 6;uri:testuri
+		 */
+
+		String[] splitValues = value.split( ";" );		
+
+		String name = "";
+		double weight = 0;
+		double significance = 0;
+		int degreegeneralization = 0;
+		String uri = "";
+		
+		for( String splitValue : splitValues ) {
+			final Pattern pKeyValue = Pattern.compile( "([a-z]+):(.*)" );
+			final Matcher mKeyValue = pKeyValue.matcher( splitValue );
+			
+			while( mKeyValue.find() ) {
+				final String key = mKeyValue.group(1);
+				final String kValue = mKeyValue.group(2);			
+				
+				switch( key ) {
+				case "value":
+					name = kValue;
+					break;
+				case "weight":
+					weight = Double.parseDouble( kValue );
+					break;
+				case "significance":
+					significance = Double.parseDouble( kValue );
+					break;
+				case "degreegeneralization":
+					degreegeneralization = Integer.parseInt( kValue );
+				case "uri":
+					uri = kValue;
+				default:
+					Application.log( getClass() + ":parseTopicZoomValue(): key " + key + " couldn't be matched.", LogType.ERROR );;
+				}
+				
+			}
+		}		
+		
+		
+		Tag newTag = new TopicZoomTag( significance, degreegeneralization, weight, name, uri );
+		this.addTag(newTag, TagType.TOPIC_ZOOM);
+	}
+
 	
 
 	public Posting setPostingType( String postType ) {
 		this.postType = postType;
 		return this;
 	}
-	
+
 	public String getPostingType() {
 		return this.postType;
 	}
 
 	/**
 	 * Set the whole {@link Tag} list for the given {@link TagType}.
+	 * 
 	 * @param fetchedTags
-	 * @param topicZoom
+	 * @param tagType
 	 */
-	public void setTags( List< Tag > fetchedTags, TagType topicZoom ) {
-		this.tagMap.put(topicZoom, fetchedTags);		
+	public void setTags( List< Tag > fetchedTags, TagType tagType ) {
+		this.tagMap.put( tagType, fetchedTags );
+	}
+
+	/**
+	 * Add a single tag.
+	 * @param newTag
+	 * @param tagType
+	 */
+	public void addTag( Tag newTag, TagType tagType ) {
+		// create list if neccessary
+		if ( null == this.getTags( tagType ) ) {
+			this.tagMap.put( tagType, new ArrayList<Tag>() );
+		}
+		
+		// add to map
+		this.getTags( tagType ).add( newTag );
 	}
 	
 	/**
-	 * Get the whole {@link Tag} list for  the given {@link TagType}.
+	 * Get the whole {@link Tag} list for the given {@link TagType}.
+	 * 
 	 * @param tagType
-	 * @return 
+	 * @return
 	 * @return might return null.
 	 */
 	public List< Tag > getTags( TagType tagType ) {
 		return this.tagMap.get( tagType );
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see java.lang.Object#hashCode()
 	 */
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = super.hashCode();
-		result = prime
-				* result
-				+ ( ( belongingThread == null ) ? 0 : belongingThread
-						.hashCode() );
 		result = prime * result
 				+ ( ( content == null ) ? 0 : content.hashCode() );
 		result = prime * result + parentPostingId;
@@ -242,7 +340,9 @@ public class Posting extends AUserContribution {
 		return result;
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see java.lang.Object#equals(java.lang.Object)
 	 */
 	@Override
@@ -284,13 +384,15 @@ public class Posting extends AUserContribution {
 		return true;
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see java.lang.Object#toString()
 	 */
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append( "Posting [" );	
+		builder.append( "Posting [" );
 		builder.append( "getParentPostingId()=" );
 		builder.append( getParentPostingId() );
 		builder.append( ", getContent()=" );

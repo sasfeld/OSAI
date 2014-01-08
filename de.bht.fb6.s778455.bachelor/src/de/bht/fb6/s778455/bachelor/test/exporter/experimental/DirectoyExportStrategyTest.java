@@ -9,6 +9,7 @@ import static org.junit.Assert.assertTrue;
 import java.io.File;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
@@ -24,6 +25,9 @@ import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Posting;
+import de.bht.fb6.s778455.bachelor.model.Posting.TagType;
+import de.bht.fb6.s778455.bachelor.model.Tag;
+import de.bht.fb6.s778455.bachelor.model.TopicZoomTag;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 
@@ -100,6 +104,12 @@ public class DirectoyExportStrategyTest {
 		samplePosting1.setTaggedContent( "This content is tagged by <I-PERS>Max Mustermann</I-PERS>." );
 		samplePosting1.setPostingType( "question" );
 		sampleThread1.addPosting( samplePosting1  );
+		
+		ArrayList< Tag > tagList = new ArrayList<Tag>();
+		tagList.add( new TopicZoomTag( 6, 4, 3, "test", "testuri" ) );
+		tagList.add( new TopicZoomTag( 3, 2, 1, "test", "testuri2" ) );
+		
+		samplePosting1.setTags( tagList, TagType.TOPIC_ZOOM );
 		
 		Posting samplePosting2 = new Posting();
 		samplePosting2.setContent( "This is a another posting" );
