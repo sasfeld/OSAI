@@ -74,15 +74,15 @@ public class TopicZoomResponseHandler implements ResponseHandler< String > {
 		
 		// parse xml
 		final XmlExtractor xmlExtractor = new StringXmlExtractor( response, ServiceFactory.getTZNamespaces() );
-		final String[] rdfIdQuery = ( String[] ) xmlExtractor.buildXPath( "//TZTopic/@RDFID/text()", true );
+		final String[] rdfIdQuery = ( String[] ) xmlExtractor.buildXPath( "//TZTopic/@RDFID", true );
 		
 		for( String rdfId : rdfIdQuery ) {
 			// prepare queries
-			String queryPrefix = "//TZTopic[@RDFID=" + rdfId + "]";
-			String queryTxt = queryPrefix + "/txt/text()";
-			String queryWeight = queryPrefix + "/weight";
-			String queryDoG = queryPrefix + "/DoG";
-			String querySig = queryPrefix + "/Sig";
+			String queryPrefix = "//TZTopic[@RDFID='" + rdfId + "']";
+			String queryTxt = queryPrefix + "/@txt";
+			String queryWeight = queryPrefix + "/@weight";
+			String queryDoG = queryPrefix + "/@DoG";
+			String querySig = queryPrefix + "/@Sig";
 			
 			// execute queries
 			String txt = ( String ) xmlExtractor.buildXPath( queryTxt, false );

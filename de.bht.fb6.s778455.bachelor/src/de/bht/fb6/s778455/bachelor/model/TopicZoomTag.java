@@ -93,6 +93,7 @@ public class TopicZoomTag extends Tag {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
+		builder.append( super.toString() + ";");
 		builder.append( "TopicZoomTag [getDegreeGeneralization()=" );
 		builder.append( getDegreeGeneralization() );
 		builder.append( ", getSignificance()=" );
