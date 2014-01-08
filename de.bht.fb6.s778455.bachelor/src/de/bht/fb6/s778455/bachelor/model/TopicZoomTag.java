@@ -15,6 +15,20 @@ public class TopicZoomTag extends Tag {
 	protected double significance;
 	
 	/**
+	 * Create a new TopicZoomTag
+	 * @param significance
+	 * @param degreeGeneralization
+	 * @param weight
+	 * @param value
+	 * @param uri
+	 */
+	public TopicZoomTag(double significance, int degreeGeneralization, double weight, String value, String uri) {
+		super( weight, value, uri );
+		
+		this.significance = significance;
+		this.degreeGeneralization = degreeGeneralization;
+	}
+	/**
 	 * @return the degreeGeneralization
 	 */
 	public int getDegreeGeneralization() {

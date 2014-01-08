@@ -14,6 +14,24 @@ public class Tag {
 	protected double weight;
 	protected String value;
 	protected String uri;
+	
+	/**
+	 * Create a new Tag.
+	 * @param weight
+	 * @param value
+	 * @param uri
+	 * @throws IllegalArgumentException if you try to commit null values
+	 */
+	public Tag(double weight, String value, String uri) {
+		if ( null == value || null == uri ) {
+			throw new IllegalArgumentException( "Illegal null value for 'value' or 'uri'!" );
+		}
+		
+		this.weight = weight;
+		this.value = value;
+		this.uri = uri;
+	}
+	
 	/**
 	 * @return the weight
 	 */
