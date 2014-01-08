@@ -4,6 +4,9 @@
 
 package de.bht.fb6.s778455.bachelor.model;
 
+import java.util.List;
+import java.util.Map;
+
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 
@@ -18,6 +21,13 @@ import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
  * 
  */
 public class Posting extends AUserContribution {
+	public enum TagType {
+		/**
+		 * key for tags extracted by the TopicZoom WebTag service.
+		 */
+		TOPIC_ZOOM,
+	}
+	
 	/**
 	 * Untagged content.
 	 */
@@ -29,6 +39,7 @@ public class Posting extends AUserContribution {
 	protected int parentPostingId;
 	protected BoardThread belongingThread;
 	protected String postType;
+	protected Map< TagType, List< Tag > > tagMap;
 
 	/**
 	 * Create a Posting with a link to the belonging thread {@link Thread}
@@ -169,6 +180,35 @@ public class Posting extends AUserContribution {
 			this.setPostingType( value );
 		}
 	}
+	
+
+	public Posting setPostingType( String postType ) {
+		this.postType = postType;
+		return this;
+	}
+	
+	public String getPostingType() {
+		return this.postType;
+	}
+
+	/**
+	 * Set the whole {@link Tag} list for the given {@link TagType}.
+	 * @param fetchedTags
+	 * @param topicZoom
+	 */
+	public void setTags( List< Tag > fetchedTags, TagType topicZoom ) {
+		this.tagMap.put(topicZoom, fetchedTags);		
+	}
+	
+	/**
+	 * Get the whole {@link Tag} list for  the given {@link TagType}.
+	 * @param tagType
+	 * @return 
+	 * @return might return null.
+	 */
+	public List< Tag > getTags( TagType tagType ) {
+		return this.tagMap.get( tagType );
+	}
 
 	/* (non-Javadoc)
 	 * @see java.lang.Object#hashCode()
@@ -252,14 +292,5 @@ public class Posting extends AUserContribution {
 		builder.append( getTitle() );
 		builder.append( "]" );
 		return builder.toString();
-	}
-
-	public Posting setPostingType( String postType ) {
-		this.postType = postType;
-		return this;
-	}
-	
-	public String getPostingType() {
-		return this.postType;
 	}
 }

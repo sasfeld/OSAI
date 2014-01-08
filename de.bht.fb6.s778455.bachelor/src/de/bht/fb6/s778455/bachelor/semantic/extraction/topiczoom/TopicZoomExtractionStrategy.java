@@ -4,6 +4,8 @@
 package de.bht.fb6.s778455.bachelor.semantic.extraction.topiczoom;
 
 import java.io.IOException;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 import org.apache.http.client.ResponseHandler;
@@ -13,7 +15,9 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 
 import de.bht.fb6.s778455.bachelor.model.Posting;
+import de.bht.fb6.s778455.bachelor.model.Posting.TagType;
 import de.bht.fb6.s778455.bachelor.model.Tag;
+import de.bht.fb6.s778455.bachelor.model.tools.TopicZoomTagComparator;
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
@@ -34,7 +38,7 @@ import de.bht.fb6.s778455.bachelor.semantic.organization.service.ServiceFactory;
  * @since 05.01.2014
  * 
  */
-public class TopicZoomExtractionStrategy extends AExtractionStrategy {
+public class TopicZoomExtractionStrategy extends AExtractionStrategy {	
 	/**
 	 * HTTP Header key for the content type.
 	 */
@@ -76,14 +80,21 @@ public class TopicZoomExtractionStrategy extends AExtractionStrategy {
 			postRequest.addHeader( HTTP_CONTENT_TYPE, "text/xml; version=3.2" );
 			postRequest.setEntity( new StringEntity( p.getContent() ) );
 
-			ResponseHandler< String > responseHandler = new TopicZoomResponseHandler();			
+			final ResponseHandler< String > responseHandler = new TopicZoomResponseHandler();			
 
 			// execute request
-			String responseBody = httpClient.execute( postRequest,
+			final String responseBody = httpClient.execute( postRequest,
 					responseHandler );
 			
 			// fetch tags from xml response
-			List< Tag > fetchedTags = ( ( TopicZoomResponseHandler ) responseHandler ).fetchTags(responseBody);
+			final List< Tag > fetchedTags = ( ( TopicZoomResponseHandler ) responseHandler ).fetchTags(responseBody);
+			
+			// sort tags decending
+			final TopicZoomTagComparator tagComparator = new TopicZoomTagComparator();
+			Collections.sort( fetchedTags, tagComparator );
+			
+			// add tags to posting
+			p.setTags( fetchedTags, TagType.TOPIC_ZOOM);			
 			
 			// proceed request
 			System.out.println( "Response:\n" + responseBody );
