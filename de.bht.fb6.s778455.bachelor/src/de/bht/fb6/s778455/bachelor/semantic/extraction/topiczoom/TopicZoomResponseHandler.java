@@ -7,10 +7,17 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
+import net.sf.saxon.expr.sort.SortedGroupIterator;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.ResponseHandler;
+
+import de.bht.fb6.s778455.bachelor.model.Tag;
 
 /**
  * 
@@ -46,5 +53,22 @@ public class TopicZoomResponseHandler implements ResponseHandler< String > {
 							+ ":extractSemantics(): TopicZoom returned bad status code: "
 							+ response.getStatusLine().toString() );
 		}
+	}
+	
+	/**
+	 * Fetch the tags from Topic Zoom's response.
+	 * @param response {@link String} the XML response from Topic Zoom.
+	 * @return a sorted list of tags (primary sorting criteria is the weight; the secondary sorting criteria is the significance)
+	 */
+	public List< Tag > fetchTags( final String response ) {
+		// Create new list
+		final List< Tag > fetchedTags = new ArrayList<Tag>();
+		
+		
+		
+		// instanciate comparator
+		final Comparator< Tag > tagComparator = new TagComparator();
+		
+		return null;		
 	}
 }

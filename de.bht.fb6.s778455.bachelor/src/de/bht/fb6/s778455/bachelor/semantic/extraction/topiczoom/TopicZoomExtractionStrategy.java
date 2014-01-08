@@ -4,6 +4,7 @@
 package de.bht.fb6.s778455.bachelor.semantic.extraction.topiczoom;
 
 import java.io.IOException;
+import java.util.List;
 
 import org.apache.http.client.ResponseHandler;
 import org.apache.http.client.methods.HttpPost;
@@ -12,6 +13,7 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 
 import de.bht.fb6.s778455.bachelor.model.Posting;
+import de.bht.fb6.s778455.bachelor.model.Tag;
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
@@ -74,11 +76,14 @@ public class TopicZoomExtractionStrategy extends AExtractionStrategy {
 			postRequest.addHeader( HTTP_CONTENT_TYPE, "text/xml; version=3.2" );
 			postRequest.setEntity( new StringEntity( p.getContent() ) );
 
-			ResponseHandler< String > responseHandler = new TopicZoomResponseHandler();
+			ResponseHandler< String > responseHandler = new TopicZoomResponseHandler();			
 
 			// execute request
 			String responseBody = httpClient.execute( postRequest,
 					responseHandler );
+			
+			// fetch tags from xml response
+			List< Tag > fetchedTags = ( ( TopicZoomResponseHandler ) responseHandler ).fetchTags(responseBody);
 			
 			// proceed request
 			System.out.println( "Response:\n" + responseBody );

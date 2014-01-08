@@ -17,25 +17,25 @@ public class TopicZoomTag extends Tag {
 	/**
 	 * @return the degreeGeneralization
 	 */
-	protected int getDegreeGeneralization() {
+	public int getDegreeGeneralization() {
 		return degreeGeneralization;
 	}
 	/**
 	 * @param degreeGeneralization the degreeGeneralization to set
 	 */
-	protected void setDegreeGeneralization( int degreeGeneralization ) {
+	public void setDegreeGeneralization( int degreeGeneralization ) {
 		this.degreeGeneralization = degreeGeneralization;
 	}
 	/**
 	 * @return the significance
 	 */
-	protected double getSignificance() {
+	public double getSignificance() {
 		return significance;
 	}
 	/**
 	 * @param significance the significance to set
 	 */
-	protected void setSignificance( double significance ) {
+	public void setSignificance( double significance ) {
 		this.significance = significance;
 	}
 	

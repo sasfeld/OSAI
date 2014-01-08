@@ -17,37 +17,37 @@ public class Tag {
 	/**
 	 * @return the weight
 	 */
-	protected double getWeight() {
+	public double getWeight() {
 		return weight;
 	}
 	/**
 	 * @param weight the weight to set
 	 */
-	protected void setWeight( double weight ) {
+	public void setWeight( double weight ) {
 		this.weight = weight;
 	}
 	/**
 	 * @return the value
 	 */
-	protected String getValue() {
+	public String getValue() {
 		return value;
 	}
 	/**
 	 * @param value the value to set
 	 */
-	protected void setValue( String value ) {
+	public void setValue( String value ) {
 		this.value = value;
 	}
 	/**
 	 * @return the uri
 	 */
-	protected String getUri() {
+	public String getUri() {
 		return uri;
 	}
 	/**
 	 * @param uri the uri to set
 	 */
-	protected void setUri( String uri ) {
+	public void setUri( String uri ) {
 		this.uri = uri;
 	}
 	/* (non-Javadoc)
