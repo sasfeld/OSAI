@@ -5,7 +5,6 @@ package de.bht.fb6.s778455.bachelor.semantic.extraction.topiczoom;
 
 import java.io.IOException;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 import org.apache.http.client.ResponseHandler;
@@ -92,12 +91,11 @@ public class TopicZoomExtractionStrategy extends AExtractionStrategy {
 			// sort tags decending
 			final TopicZoomTagComparator tagComparator = new TopicZoomTagComparator();
 			Collections.sort( fetchedTags, tagComparator );
+			// reverse so the order is descending
+			Collections.reverse( fetchedTags );
 			
 			// add tags to posting
 			p.setTags( fetchedTags, TagType.TOPIC_ZOOM);			
-			
-			// proceed request
-			System.out.println( "Response:\n" + responseBody );
 		} catch( IOException e ) {
 			throw new GeneralLoggingException(
 					getClass() + ":extractSemantics(): exception occured: " + e,

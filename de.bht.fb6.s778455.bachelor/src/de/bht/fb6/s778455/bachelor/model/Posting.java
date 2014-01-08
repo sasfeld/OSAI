@@ -4,6 +4,7 @@
 
 package de.bht.fb6.s778455.bachelor.model;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -48,14 +49,23 @@ public class Posting extends AUserContribution {
 	 */
 	public Posting( BoardThread thread ) {
 		this.belongingThread = thread;
+		
+		this._initialize();
 	}
-
+	
 	/**
 	 * Create a bare posting.
 	 */
 	public Posting() {
 		this.belongingThread = null;
+		
+		this._initialize();
 	}
+	
+	private void _initialize() {
+		this.tagMap = new HashMap< Posting.TagType, List<Tag> >();
+	}
+
 
 	/**
 	 * @return the belongingThread
@@ -217,11 +227,16 @@ public class Posting extends AUserContribution {
 	public int hashCode() {
 		final int prime = 31;
 		int result = super.hashCode();
+		result = prime
+				* result
+				+ ( ( belongingThread == null ) ? 0 : belongingThread
+						.hashCode() );
 		result = prime * result
 				+ ( ( content == null ) ? 0 : content.hashCode() );
 		result = prime * result + parentPostingId;
 		result = prime * result
 				+ ( ( postType == null ) ? 0 : postType.hashCode() );
+		result = prime * result + ( ( tagMap == null ) ? 0 : tagMap.hashCode() );
 		result = prime * result
 				+ ( ( taggedContent == null ) ? 0 : taggedContent.hashCode() );
 		return result;
@@ -242,7 +257,8 @@ public class Posting extends AUserContribution {
 		if( belongingThread == null ) {
 			if( other.belongingThread != null )
 				return false;
-		}
+		} else if( !belongingThread.equals( other.belongingThread ) )
+			return false;
 		if( content == null ) {
 			if( other.content != null )
 				return false;
@@ -254,6 +270,11 @@ public class Posting extends AUserContribution {
 			if( other.postType != null )
 				return false;
 		} else if( !postType.equals( other.postType ) )
+			return false;
+		if( tagMap == null ) {
+			if( other.tagMap != null )
+				return false;
+		} else if( !tagMap.equals( other.tagMap ) )
 			return false;
 		if( taggedContent == null ) {
 			if( other.taggedContent != null )

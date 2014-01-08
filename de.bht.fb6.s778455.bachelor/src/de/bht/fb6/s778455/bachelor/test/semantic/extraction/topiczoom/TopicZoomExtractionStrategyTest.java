@@ -8,6 +8,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import de.bht.fb6.s778455.bachelor.model.Posting;
+import de.bht.fb6.s778455.bachelor.model.Posting.TagType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.semantic.extraction.topiczoom.TopicZoomExtractionStrategy;
 
@@ -44,6 +45,8 @@ public class TopicZoomExtractionStrategyTest {
 		samplePosting.setContent( "Chardonnay ist ein Wein\nAlbert Einstein ist eine Person" );
 		
 		this.strategy.extractSemantics( samplePosting );
+		
+		System.out.println(samplePosting.getTags( TagType.TOPIC_ZOOM ));
 	}
 
 }
