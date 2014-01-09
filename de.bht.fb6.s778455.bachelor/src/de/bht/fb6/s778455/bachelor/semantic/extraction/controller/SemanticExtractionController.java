@@ -60,7 +60,7 @@ public class SemanticExtractionController {
 			
 			final AExtractionStrategy extractionStrategy = (AExtractionStrategy) clazz;
 			
-			this._performExtractionForPostings(inputCourses, extractionStrategy);
+			this._performExtractionForPostingsAndCourses(inputCourses, extractionStrategy);
  		}
 		
 		// strategies only fill models attributes
@@ -72,11 +72,28 @@ public class SemanticExtractionController {
 	 * @param inputCourses
 	 * @param extractionStrategy
 	 */
-	private void _performExtractionForPostings(
+	private void _performExtractionForPostingsAndCourses(
 			Collection< Course > inputCourses,
 			AExtractionStrategy extractionStrategy ) {
 		for( Course course : inputCourses ) {
+			if ( this.printInfo()) {
+				System.out.println("Enriching course " + course.getTitle() + "...\n");
+			}
+			try {
+				extractionStrategy.extractSemantics( course );
+			} catch( GeneralLoggingException e1 ) {
+				// continue, error is already logged
+			}
 			for( Board board : course.getBoards() ) {
+				if ( this.printInfo()) {
+					System.out.println("Enriching board " + board.getTitle() + "...\n");
+				}
+				try {
+					extractionStrategy.extractSemantics( board );
+				} catch( GeneralLoggingException e1 ) {
+					// continue, error is already logged
+				}
+				
 				for( BoardThread thread : board.getBoardThreads() ) {
 					for( Posting posting : thread.getPostings() ) {
 						try {

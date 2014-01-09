@@ -7,6 +7,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
@@ -47,6 +48,14 @@ public class TopicZoomExtractionStrategyTest {
 		this.strategy.extractSemantics( samplePosting );
 		
 		System.out.println(samplePosting.getTags( TagType.TOPIC_ZOOM ));
+		
+		// create sample course
+		Course newCourse = new Course( "Albert Einstein - Kurs" );
+		newCourse.setSummary( "Chardonnay ist ein Wein." );
+		
+		this.strategy.extractSemantics( newCourse );
+		
+		System.out.println(newCourse.getTags( TagType.TOPIC_ZOOM ));
 	}
 
 }
