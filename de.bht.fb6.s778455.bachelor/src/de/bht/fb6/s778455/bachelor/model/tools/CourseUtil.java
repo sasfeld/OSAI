@@ -41,7 +41,51 @@ public class CourseUtil {
 			final Collection< Course > courses, TagType tagType ) {
 		Set< Tag > distinctTags = new HashSet< Tag >();
 		for( Course course : courses ) {
+			List< Tag > courseTags = course.getTags( tagType );
+
+			if( null != courseTags ) {
+				// check equality of posting's tags and the already
+				// collected tags
+				for( Tag tag : courseTags ) {
+					boolean found = false;
+					for( Tag distinctTag : distinctTags ) {
+						if( tag.getUri().equals(
+								distinctTag.getUri() )
+								&& tag.getValue().equals(
+										distinctTag.getValue() ) ) {
+							found = true;
+						}
+					}
+
+					if( !found ) {
+						distinctTags.add( tag );
+					}
+
+				}
+			}
 			for( Board board : course.getBoards() ) {
+				List< Tag > boardTags = board.getTags( tagType );
+
+				if( null != boardTags ) {
+					// check equality of posting's tags and the already
+					// collected tags
+					for( Tag tag : boardTags ) {
+						boolean found = false;
+						for( Tag distinctTag : distinctTags ) {
+							if( tag.getUri().equals(
+									distinctTag.getUri() )
+									&& tag.getValue().equals(
+											distinctTag.getValue() ) ) {
+								found = true;
+							}
+						}
+
+						if( !found ) {
+							distinctTags.add( tag );
+						}
+
+					}
+				}
 				for( BoardThread thread : board.getBoardThreads() ) {
 					for( Posting posting : thread.getPostings() ) {
 						List< Tag > tags = posting.getTags( tagType );

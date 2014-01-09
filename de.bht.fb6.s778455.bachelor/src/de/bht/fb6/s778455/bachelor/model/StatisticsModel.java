@@ -81,6 +81,155 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
 	protected int numberTzAndNerTaggedPostings;
 	
 	/**
+	 * Number of {@link Course} with {@link TopicZoomTag}.
+	 */
+	protected int numberTopicZoomTaggedCourses;
+	/**
+	 * Number of {@link Board} with {@link TopicZoomTag}.
+	 */
+	protected int numberTopicZoomTaggedBoards;
+	/**
+	 * Number of {@link Course} with NER {@link Tag}.
+	 */
+	protected int numberNerTaggedCourses;
+	/**
+	 * Number of {@link Board} with NER {@link Tag}.
+	 */
+	protected int numberNerTaggedBoards;
+	/**
+	 * Number of {@link Course} with both Ner Tags and {@link TopicZoomTag}.
+	 */
+	protected int numberTaggedCourses;
+	/**
+	 * Number of {@link Board} with both Ner {@link Tag} and {@link TopicZoomTag}.
+	 */
+	protected int numberTaggedBoards;
+	
+	/**
+	 * Number of {@link Tag} which belong to {@link Board} instances.
+	 */
+	protected int numberBoardTags;
+	/**
+	 * Number of {@link Tag} belonging to {@link Course} instances.
+	 */
+	protected int numberCourseTags;
+	/**
+	 * Number of {@link Tag} belonging to {@link Posting} instances.
+	 */
+	protected int numberPostingTags;
+	
+	/**
+	 * @return the numberTopicZoomTaggedCourses
+	 */
+	public final int getNumberTopicZoomTaggedCourses() {
+		return numberTopicZoomTaggedCourses;
+	}
+	/**
+	 * @param numberTopicZoomTaggedCourses the numberTopicZoomTaggedCourses to set
+	 */
+	public final void setNumberTopicZoomTaggedCourses(
+			int numberTopicZoomTaggedCourses ) {
+		this.numberTopicZoomTaggedCourses = numberTopicZoomTaggedCourses;
+	}
+	/**
+	 * @return the numberTopicZoomTaggedBoards
+	 */
+	public final int getNumberTopicZoomTaggedBoards() {
+		return numberTopicZoomTaggedBoards;
+	}
+	/**
+	 * @param numberTopicZoomTaggedBoards the numberTopicZoomTaggedBoards to set
+	 */
+	public final void setNumberTopicZoomTaggedBoards(
+			int numberTopicZoomTaggedBoards ) {
+		this.numberTopicZoomTaggedBoards = numberTopicZoomTaggedBoards;
+	}
+	/**
+	 * @return the numberNerTaggedCourses
+	 */
+	public final int getNumberNerTaggedCourses() {
+		return numberNerTaggedCourses;
+	}
+	/**
+	 * @param numberNerTaggedCourses the numberNerTaggedCourses to set
+	 */
+	public final void setNumberNerTaggedCourses( int numberNerTaggedCourses ) {
+		this.numberNerTaggedCourses = numberNerTaggedCourses;
+	}
+	/**
+	 * @return the numberNerTaggedBoards
+	 */
+	public final int getNumberNerTaggedBoards() {
+		return numberNerTaggedBoards;
+	}
+	/**
+	 * @param numberNerTaggedBoards the numberNerTaggedBoards to set
+	 */
+	public final void setNumberNerTaggedBoards( int numberNerTaggedBoards ) {
+		this.numberNerTaggedBoards = numberNerTaggedBoards;
+	}
+	/**
+	 * @return the numberTaggedCourses
+	 */
+	public final int getNumberTaggedCourses() {
+		return numberTaggedCourses;
+	}
+	/**
+	 * @param numberTaggedCourses the numberTaggedCourses to set
+	 */
+	public final void setNumberTaggedCourses( int numberTaggedCourses ) {
+		this.numberTaggedCourses = numberTaggedCourses;
+	}
+	/**
+	 * @return the numberTaggedBoards
+	 */
+	public final int getNumberTaggedBoards() {
+		return numberTaggedBoards;
+	}
+	/**
+	 * @param numberTaggedBoards the numberTaggedBoards to set
+	 */
+	public final void setNumberTaggedBoards( int numberTaggedBoards ) {
+		this.numberTaggedBoards = numberTaggedBoards;
+	}
+	/**
+	 * @return the numberBoardTags
+	 */
+	public final int getNumberBoardTags() {
+		return numberBoardTags;
+	}
+	/**
+	 * @param numberBoardTags the numberBoardTags to set
+	 */
+	public final void setNumberBoardTags( int numberBoardTags ) {
+		this.numberBoardTags = numberBoardTags;
+	}
+	/**
+	 * @return the numberCourseTags
+	 */
+	public final int getNumberCourseTags() {
+		return numberCourseTags;
+	}
+	/**
+	 * @param numberCourseTags the numberCourseTags to set
+	 */
+	public final void setNumberCourseTags( int numberCourseTags ) {
+		this.numberCourseTags = numberCourseTags;
+	}
+	/**
+	 * @return the numberPostingTags
+	 */
+	public final int getNumberPostingTags() {
+		return numberPostingTags;
+	}
+	/**
+	 * @param numberPostingTags the numberPostingTags to set
+	 */
+	public final void setNumberPostingTags( int numberPostingTags ) {
+		this.numberPostingTags = numberPostingTags;
+	}
+
+	/**
 	 * {@link List} of all {@link Posting} which don't have any {@link Tag}.
 	 */
 	protected List< Posting > untaggedPostings;
@@ -333,16 +482,25 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
 		int result = 1;
 		result = prime * result
 				+ ( ( dateCreation == null ) ? 0 : dateCreation.hashCode() );
+		result = prime * result + numberBoardTags;
 		result = prime * result + numberBoards;
+		result = prime * result + numberCourseTags;
 		result = prime * result + numberCourses;
 		result = prime * result + numberDistinctNerTags;
 		result = prime * result + numberDistinctTopicZoomTags;
+		result = prime * result + numberNerTaggedBoards;
+		result = prime * result + numberNerTaggedCourses;
 		result = prime * result + numberNerTaggedPostings;
 		result = prime * result + numberNerTags;
+		result = prime * result + numberPostingTags;
 		result = prime * result + numberPostings;
+		result = prime * result + numberTaggedBoards;
+		result = prime * result + numberTaggedCourses;
 		result = prime * result + numberTaggedPostings;
 		result = prime * result + numberTags;
 		result = prime * result + numberThreads;
+		result = prime * result + numberTopicZoomTaggedBoards;
+		result = prime * result + numberTopicZoomTaggedCourses;
 		result = prime * result + numberTopicZoomTaggedPostings;
 		result = prime * result + numberTopicZoomTags;
 		result = prime * result + numberTzAndNerTaggedPostings;
@@ -369,7 +527,11 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
 				return false;
 		} else if( !dateCreation.equals( other.dateCreation ) )
 			return false;
+		if( numberBoardTags != other.numberBoardTags )
+			return false;
 		if( numberBoards != other.numberBoards )
+			return false;
+		if( numberCourseTags != other.numberCourseTags )
 			return false;
 		if( numberCourses != other.numberCourses )
 			return false;
@@ -377,17 +539,31 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
 			return false;
 		if( numberDistinctTopicZoomTags != other.numberDistinctTopicZoomTags )
 			return false;
+		if( numberNerTaggedBoards != other.numberNerTaggedBoards )
+			return false;
+		if( numberNerTaggedCourses != other.numberNerTaggedCourses )
+			return false;
 		if( numberNerTaggedPostings != other.numberNerTaggedPostings )
 			return false;
 		if( numberNerTags != other.numberNerTags )
 			return false;
+		if( numberPostingTags != other.numberPostingTags )
+			return false;
 		if( numberPostings != other.numberPostings )
+			return false;
+		if( numberTaggedBoards != other.numberTaggedBoards )
+			return false;
+		if( numberTaggedCourses != other.numberTaggedCourses )
 			return false;
 		if( numberTaggedPostings != other.numberTaggedPostings )
 			return false;
 		if( numberTags != other.numberTags )
 			return false;
 		if( numberThreads != other.numberThreads )
+			return false;
+		if( numberTopicZoomTaggedBoards != other.numberTopicZoomTaggedBoards )
+			return false;
+		if( numberTopicZoomTaggedCourses != other.numberTopicZoomTaggedCourses )
 			return false;
 		if( numberTopicZoomTaggedPostings != other.numberTopicZoomTaggedPostings )
 			return false;
@@ -409,7 +585,25 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append( "StatisticsModel [getDateCreation()=" );
+		builder.append( "StatisticsModel [getNumberTopicZoomTaggedCourses()=" );
+		builder.append( getNumberTopicZoomTaggedCourses() );
+		builder.append( ", getNumberTopicZoomTaggedBoards()=" );
+		builder.append( getNumberTopicZoomTaggedBoards() );
+		builder.append( ", getNumberNerTaggedCourses()=" );
+		builder.append( getNumberNerTaggedCourses() );
+		builder.append( ", getNumberNerTaggedBoards()=" );
+		builder.append( getNumberNerTaggedBoards() );
+		builder.append( ", getNumberTaggedCourses()=" );
+		builder.append( getNumberTaggedCourses() );
+		builder.append( ", getNumberTaggedBoards()=" );
+		builder.append( getNumberTaggedBoards() );
+		builder.append( ", getNumberBoardTags()=" );
+		builder.append( getNumberBoardTags() );
+		builder.append( ", getNumberCourseTags()=" );
+		builder.append( getNumberCourseTags() );
+		builder.append( ", getNumberPostingTags()=" );
+		builder.append( getNumberPostingTags() );
+		builder.append( ", getDateCreation()=" );
 		builder.append( getDateCreation() );
 		builder.append( ", getNumberCourses()=" );
 		builder.append( getNumberCourses() );
@@ -437,8 +631,6 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
 		builder.append( getNumberDistinctTopicZoomTags() );
 		builder.append( ", getNumberDistinctNerTags()=" );
 		builder.append( getNumberDistinctNerTags() );
-//		builder.append( ", getUntaggedPostings()=" );
-//		builder.append( getUntaggedPostings() );
 		builder.append( "]" );
 		return builder.toString();
 	}
