@@ -21,16 +21,6 @@ import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
  * 
  */
 public class Posting extends AUserContribution {
-	public enum TagType {
-		/**
-		 * key for tags extracted by the TopicZoom WebTag service.
-		 */
-		TOPIC_ZOOM, 
-		/**
-		 * key for tags won by Stanford Named Entity Recognition (NER)
-		 */
-		NER_TAGS,
-	}
 
 	/**
 	 * Untagged content.

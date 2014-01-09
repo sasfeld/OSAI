@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import de.bht.fb6.s778455.bachelor.model.Posting.TagType;
+import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 
@@ -43,7 +43,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	}
 	
 	private void _initialize() {
-		this.tagMap = new HashMap< Posting.TagType, List< Tag > >();
+		this.tagMap = new HashMap< TagType, List< Tag > >();
 	}
 	
 	/**

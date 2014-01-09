@@ -15,9 +15,10 @@ import org.apache.http.impl.client.HttpClients;
 
 import de.bht.fb6.s778455.bachelor.model.AUserContribution;
 import de.bht.fb6.s778455.bachelor.model.Board;
+import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Posting;
-import de.bht.fb6.s778455.bachelor.model.Posting.TagType;
 import de.bht.fb6.s778455.bachelor.model.Tag;
+import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
 import de.bht.fb6.s778455.bachelor.model.tools.TopicZoomTagComparator;
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
@@ -58,30 +59,8 @@ public class TopicZoomExtractionStrategy extends AExtractionStrategy {
 				IConfigKeys.SEMANTICS_EXTRACTION_TOPICZOOM_ENDPOINT );
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see de.bht.fb6.s778455.bachelor.semantic.extraction.AExtractionStrategy#
-	 * extractSemantics(de.bht.fb6.s778455.bachelor.model.Posting)
-	 */
-	@Override
-	public void extractSemantics( final AUserContribution userContribution )
+	protected List< Tag > getTagsFromString( final String inputString )
 			throws GeneralLoggingException {
-		// first check if the posting already has TopicZoomTags when the
-		// lazyMode is enabled
-		if( super.isLazyMode()
-				&& null != userContribution.getTags( TagType.TOPIC_ZOOM )
-				&& 0 < userContribution.getTags( TagType.TOPIC_ZOOM ).size() ) {
-			Application
-					.log( getClass()
-							+ ":extractSemantics(): the lazy mode is enabled and the posting with id "
-							+ userContribution.getTitle()
-							+ "already has TopiczoomTags. I will not poll TopicZoom again.",
-							LogType.INFO );
-			return;
-		}
-		// else: proceed
-
 		if( this.clientClosed ) {
 			Application
 					.log( getClass()
@@ -95,23 +74,7 @@ public class TopicZoomExtractionStrategy extends AExtractionStrategy {
 
 			HttpPost postRequest = new HttpPost( this.serviceUrl );
 			postRequest.addHeader( HTTP_CONTENT_TYPE, "text/xml; version=3.2" );
-			/*
-			 * Decide, which textual information shall be sent to TopicZoom
-			 * WebTagService.
-			 */
-			if( userContribution instanceof Posting ) {
-				// posting: sent the content of the posting
-				postRequest.setEntity( new StringEntity( ((Posting) userContribution).getContent() ) );
-			} else if ( userContribution instanceof Board ) {
-				Board b = (Board) userContribution;
-				
-				// board: concat title and intro
-				StringBuilder strBuilder = new StringBuilder();
-				strBuilder.append( b.getTitle() + "\n\n" )
-					.append( b.getIntro() );
-				
-				postRequest.setEntity( new StringEntity( strBuilder.toString() ));
-			}
+			postRequest.setEntity( new StringEntity( inputString ) );
 
 			final ResponseHandler< String > responseHandler = new TopicZoomResponseHandler();
 
@@ -129,11 +92,11 @@ public class TopicZoomExtractionStrategy extends AExtractionStrategy {
 			// reverse so the order is descending
 			Collections.reverse( fetchedTags );
 
-			// add tags to posting
-			userContribution.setTags( fetchedTags, TagType.TOPIC_ZOOM );
+			return fetchedTags;
 		} catch( IOException e ) {
 			throw new GeneralLoggingException(
-					getClass() + ":extractSemantics(): exception occured: " + e,
+					getClass() + ":getTagsFromString(): exception occured: "
+							+ e,
 					"An exception occured while querying the TopicZoom WebService. See the logs for details." );
 		} finally {
 			try {
@@ -142,11 +105,93 @@ public class TopicZoomExtractionStrategy extends AExtractionStrategy {
 				this.clientClosed = true;
 				Application
 						.log( getClass()
-								+ ": extractSemantics: Exception when trying to close the http client: "
+								+ ": getTagsFromString: Exception when trying to close the http client: "
 								+ e, LogType.ERROR );
 			}
 		}
 
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see de.bht.fb6.s778455.bachelor.semantic.extraction.AExtractionStrategy#
+	 * extractSemantics(de.bht.fb6.s778455.bachelor.model.Posting)
+	 */
+	@Override
+	public void extractSemantics( final AUserContribution userContribution )
+			throws GeneralLoggingException {
+		// first check if the posting already has TopicZoomTags when the
+		// lazyMode is enabled
+		if( super.isLazyMode()
+				&& null != userContribution.getTags( TagType.TOPIC_ZOOM )
+				&& 0 < userContribution.getTags( TagType.TOPIC_ZOOM ).size() ) {
+			Application
+					.log( getClass()
+							+ ":extractSemantics(): the lazy mode is enabled and the user contribution with id "
+							+ userContribution.getTitle()
+							+ "already has TopiczoomTags. I will not poll TopicZoom again.",
+							LogType.INFO );
+			return;
+		}
+		// else: proceed
+
+		String strSend = "";
+		if( userContribution instanceof Posting ) {
+			// posting: sent the content of the posting
+			strSend = ( ( Posting ) userContribution ).getContent();
+		} else if( userContribution instanceof Board ) {
+			Board b = ( Board ) userContribution;
+
+			// board: concat title and intro
+			StringBuilder strBuilder = new StringBuilder();
+			strBuilder.append( b.getTitle() + "\n\n" ).append( b.getIntro() );
+
+			strSend = strBuilder.toString();
+		} else {
+			// return because the given userContribution isn't supported
+			return;
+		}
+
+		// fetch tags from xml response
+		final List< Tag > fetchedTags = this.getTagsFromString( strSend );
+
+		// add tags to posting
+		userContribution.setTags( fetchedTags, TagType.TOPIC_ZOOM );
+	}
+
+	@Override
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see de.bht.fb6.s778455.bachelor.semantic.extraction.AExtractionStrategy#
+	 * extractSemantics(de.bht.fb6.s778455.bachelor.model.Course)
+	 */
+	public void extractSemantics( final Course course )
+			throws GeneralLoggingException {
+		// first check if the posting already has TopicZoomTags when the
+		// lazyMode is enabled
+		if( super.isLazyMode() && null != course.getTags( TagType.TOPIC_ZOOM )
+				&& 0 < course.getTags( TagType.TOPIC_ZOOM ).size() ) {
+			Application
+					.log( getClass()
+							+ ":extractSemantics(): the lazy mode is enabled and the course with id "
+							+ course.getTitle()
+							+ "already has TopiczoomTags. I will not poll TopicZoom again.",
+							LogType.INFO );
+			return;
+		}
+
+		// concat the title and summary of the course to get a maxmimum of words
+		StringBuilder strBuilder = new StringBuilder();
+		strBuilder.append( course.getTitle() + "\n\n" )
+				.append( course.getSummary() );
+		
+		// fetch tags from xml response
+		final List< Tag > fetchedTags = this.getTagsFromString( strBuilder.toString() );
+
+		// add tags to posting
+		course.setTags( fetchedTags, TagType.TOPIC_ZOOM );
 	}
 
 	/**
@@ -157,5 +202,4 @@ public class TopicZoomExtractionStrategy extends AExtractionStrategy {
 
 		this.clientClosed = false;
 	}
-
 }

@@ -4,8 +4,10 @@
 package de.bht.fb6.s778455.bachelor.semantic.extraction;
 
 import de.bht.fb6.s778455.bachelor.model.AUserContribution;
+import de.bht.fb6.s778455.bachelor.model.Board;
+import de.bht.fb6.s778455.bachelor.model.BoardThread;
+import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Posting;
-import de.bht.fb6.s778455.bachelor.model.Posting.TagType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 
 /**
@@ -48,4 +50,11 @@ public abstract class AExtractionStrategy {
 	 */
 	public abstract void extractSemantics(final AUserContribution userContribution) throws GeneralLoggingException;
 
+	/**
+	 * Extract semantic information from the given {@link Course}. 
+	 * This is only meant to extract information from the course model itself, not from underlying {@link Board}, {@link BoardThread} and {@link Posting} instances!
+	 * @param course
+	 * @throws GeneralLoggingException
+	 */
+	public abstract void extractSemantics(final Course course) throws GeneralLoggingException;
 }
