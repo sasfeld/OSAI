@@ -6,8 +6,6 @@ package de.bht.fb6.s778455.bachelor.model;
 
 import java.util.HashMap;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
@@ -52,23 +50,21 @@ public class Posting extends AUserContribution {
 	 * @param thread
 	 */
 	public Posting( BoardThread thread ) {
+		super();
+		
 		this.belongingThread = thread;
-
-		this._initialize();
 	}
 
 	/**
 	 * Create a bare posting.
 	 */
 	public Posting() {
+		super();
+		
 		this.belongingThread = null;
-
-		this._initialize();
 	}
 
-	private void _initialize() {
-		this.tagMap = new HashMap< Posting.TagType, List< Tag > >();
-	}
+
 
 	/**
 	 * @return the belongingThread
@@ -212,10 +208,6 @@ public class Posting extends AUserContribution {
 	public int hashCode() {
 		final int prime = 31;
 		int result = super.hashCode();
-		result = prime
-				* result
-				+ ( ( belongingThread == null ) ? 0 : belongingThread
-						.hashCode() );
 		result = prime * result
 				+ ( ( content == null ) ? 0 : content.hashCode() );
 		result = prime * result + parentPostingId;
@@ -238,11 +230,6 @@ public class Posting extends AUserContribution {
 		if( getClass() != obj.getClass() )
 			return false;
 		Posting other = ( Posting ) obj;
-		if( belongingThread == null ) {
-			if( other.belongingThread != null )
-				return false;
-		} else if( !belongingThread.equals( other.belongingThread ) )
-			return false;
 		if( content == null ) {
 			if( other.content != null )
 				return false;
@@ -269,8 +256,7 @@ public class Posting extends AUserContribution {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append( "Posting [getBelongingThread()=" );
-		builder.append( getBelongingThread() );
+		builder.append( "Posting [");
 		builder.append( ", getParentPostingId()=" );
 		builder.append( getParentPostingId() );
 		builder.append( ", getContent()=" );

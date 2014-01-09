@@ -5,6 +5,7 @@ package de.bht.fb6.s778455.bachelor.model;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
@@ -37,6 +38,14 @@ public abstract class AUserContribution implements IDirectoryPortable {
 
 	protected Map< TagType, List< Tag > > tagMap;
 
+	public AUserContribution() {
+		this._initialize();
+	}
+	
+	private void _initialize() {
+		this.tagMap = new HashMap< Posting.TagType, List< Tag > >();
+	}
+	
 	/**
 	 * @return the id
 	 */

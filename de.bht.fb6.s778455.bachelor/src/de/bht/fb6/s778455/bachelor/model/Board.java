@@ -34,6 +34,8 @@ public class Board extends AUserContribution {
 	 * @param course
 	 */
 	public Board( Course course ) {
+		super();
+		
 		if( null == course ) {
 			throw new IllegalArgumentException( getClass()
 					+ ": null argument in constructor!" );
@@ -51,6 +53,8 @@ public class Board extends AUserContribution {
 	 * @param boardTitle
 	 */
 	public Board( Course course, String boardTitle ) {
+		super();
+		
 		if( null == course || null == boardTitle ) {
 			throw new IllegalArgumentException( getClass()
 					+ ": null argument in constructor!" );
