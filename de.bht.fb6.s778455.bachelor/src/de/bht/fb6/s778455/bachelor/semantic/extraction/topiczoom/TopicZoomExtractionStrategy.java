@@ -67,14 +67,13 @@ public class TopicZoomExtractionStrategy extends AExtractionStrategy {
 			Application
 					.log( getClass()
 							+ ":extractSemantics(): the client was closed due an error within a previous http request to the topic zoom web service. However, I will reinstanciate it.",
-							LogType.INFO );
-
-			// reinstanciate client
-			this.initClient();
+							LogType.INFO );			
 		}
 
 		// create HTTP GET request
 		try {
+			this.initClient();
+			
 			HttpPost postRequest = new HttpPost( this.serviceUrl );
 			postRequest.addHeader( HTTP_CONTENT_TYPE, "text/xml; version=3.2" );
 			postRequest.setEntity( new StringEntity( p.getContent() ) );

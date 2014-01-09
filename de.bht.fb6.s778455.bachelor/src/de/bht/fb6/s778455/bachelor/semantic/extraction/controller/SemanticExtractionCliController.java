@@ -39,6 +39,7 @@ public class SemanticExtractionCliController {
 
 	public SemanticExtractionCliController(final File finputFile, final File foutputFile) throws InvalidConfigException {
 		this.semanticExtractionController = new SemanticExtractionController();
+		this.semanticExtractionController.setPrintInfo( true );
 		
 		this.inputFile = finputFile;
 		this.outputFile = foutputFile;
@@ -106,13 +107,17 @@ public class SemanticExtractionCliController {
 	 * 
 	 * @return
 	 */
-	public String getStatistics() {
+	public String getStatistics(boolean showTime) {
 		StringBuilder statisticsBuilder = new StringBuilder();
 
+		if ( showTime ) {
 		long elapsedTime = this.extractionStopTime
 				- this.extractionStartTime;
 		statisticsBuilder.append( "Elapsed time (seconds): " + elapsedTime);
-
+		}
+		
+		statisticsBuilder.append( "Number of courses: " + numberImportedCourses + "\n\n" );
+		statisticsBuilder.append( this.semanticExtractionController.getStatistics( this.rawCourses ) );
 		return statisticsBuilder.toString();
 	}
 
@@ -196,6 +201,9 @@ public class SemanticExtractionCliController {
 		}
 		System.out.println("Import was successfull!\n\n");
 		
+		// statistics
+		System.out.println(controller.getStatistics(false));
+		
 		// perform extraction
 		try {
 			System.out.println("Starting extraction...\n\n");
@@ -216,7 +224,7 @@ public class SemanticExtractionCliController {
 		}		
 		System.out.println("Export was successfull!\n\n");
 		
-		System.out.println(controller.getStatistics());
+		System.out.println(controller.getStatistics(true));
 		System.out.println("See the posting files saved in your outputFolder. The postings are now enriched with tags and stuff.\n\n");
 		System.out.println("Goodbye :)");
 	}
