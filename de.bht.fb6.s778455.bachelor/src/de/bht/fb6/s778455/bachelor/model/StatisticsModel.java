@@ -438,8 +438,8 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
 		builder.append( getNumberDistinctTopicZoomTags() );
 		builder.append( ", getNumberDistinctNerTags()=" );
 		builder.append( getNumberDistinctNerTags() );
-		builder.append( ", getUntaggedPostings()=" );
-		builder.append( getUntaggedPostings() );
+//		builder.append( ", getUntaggedPostings()=" );
+//		builder.append( getUntaggedPostings() );
 		builder.append( "]" );
 		return builder.toString();
 	}

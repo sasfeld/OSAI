@@ -93,4 +93,5 @@ public interface IConfigKeys {
 	String SEMANTICS_EXTRACTION_TOPICZOOM_ENDPOINT = "semantics.extraction.topiczoom.endpoint";
 	String SEMANTICS_EXTRACTION_STRATEGY_TOPICZOOM = "de.bht.fb6.s778455.bachelor.semantic.extraction.topiczoom.TopicZoomExtractionStrategy";
 	String SEMANTICS_EXTRACTION_STRATEGY_CHAIN = "semantics.extraction.strategy.chain";
+	String SEMANTICS_EXTRACTION_STRATEGY_LAZY = "semantics.extraction.strategy.lazy";
 }
