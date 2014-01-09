@@ -29,7 +29,11 @@ public class Posting extends AUserContribution {
 		/**
 		 * key for tags extracted by the TopicZoom WebTag service.
 		 */
-		TOPIC_ZOOM,
+		TOPIC_ZOOM, 
+		/**
+		 * key for tags won by Stanford Named Entity Recognition (NER)
+		 */
+		NER_TAGS,
 	}
 
 	/**
@@ -416,4 +420,60 @@ public class Posting extends AUserContribution {
 		builder.append( "]" );
 		return builder.toString();
 	}
+
+	/**
+	 * Return a boolean whether this Posting is tagged by TopicZoom Web Tagging.<br />
+	 * The condition for a posting to be tagged is the existence of at least one tag.
+	 * @return
+	 */
+	public boolean isTopicZoomTagged() {
+		if ( null == this.getTags( TagType.TOPIC_ZOOM )) {
+			return false;
+		}
+		
+		return this.getTags( TagType.TOPIC_ZOOM ).size() > 0 ? true : false;
+	}
+
+	/**
+	 * Return a boolean whether this Posting is tagged.<br />
+	 * The condition for a posting to be tagged is the existence of at least one tag.
+	 * @return
+	 */
+	public boolean isTagged() {
+		if ( this.isTopicZoomTagged() ) {
+			return true;
+		}
+		if ( this.isNerTagged() ) {
+			return true;
+		}
+		
+		return false;
+	}
+
+	/**
+	 * Get the number of all tags which enrich this {@link Posting}.
+	 * @return
+	 */
+	public int getNumberTags() {
+		int numberTags = 0;
+		
+		for( List< Tag > tags : this.tagMap.values() ) {
+			numberTags += tags.size();
+		}
+		return numberTags;
+	}
+
+	/**
+	 * Return true if this posting is tagged by Named Entity Recognition (NER) tags
+	 * @return
+	 */
+	public boolean isNerTagged() {
+		if ( null == this.getTags( TagType.NER_TAGS )) {
+			return false;
+		}
+		
+		return this.getTags( TagType.NER_TAGS ).size() > 0 ? true : false;
+	}
+	
+	
 }
