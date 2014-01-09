@@ -14,6 +14,7 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 
 import de.bht.fb6.s778455.bachelor.model.AUserContribution;
+import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.model.Posting.TagType;
 import de.bht.fb6.s778455.bachelor.model.Tag;
@@ -38,7 +39,7 @@ import de.bht.fb6.s778455.bachelor.semantic.organization.service.ServiceFactory;
  * @since 05.01.2014
  * 
  */
-public class TopicZoomExtractionStrategy extends AExtractionStrategy {	
+public class TopicZoomExtractionStrategy extends AExtractionStrategy {
 	/**
 	 * HTTP Header key for the content type.
 	 */
@@ -53,7 +54,8 @@ public class TopicZoomExtractionStrategy extends AExtractionStrategy {
 	 */
 	public TopicZoomExtractionStrategy() {
 		this.initClient();
-		this.serviceUrl = ServiceFactory.getConfigReader().fetchValue( IConfigKeys.SEMANTICS_EXTRACTION_TOPICZOOM_ENDPOINT );
+		this.serviceUrl = ServiceFactory.getConfigReader().fetchValue(
+				IConfigKeys.SEMANTICS_EXTRACTION_TOPICZOOM_ENDPOINT );
 	}
 
 	/*
@@ -63,46 +65,72 @@ public class TopicZoomExtractionStrategy extends AExtractionStrategy {
 	 * extractSemantics(de.bht.fb6.s778455.bachelor.model.Posting)
 	 */
 	@Override
-	public void extractSemantics( final AUserContribution userContribution ) throws GeneralLoggingException {
-		// first check if the posting already has TopicZoomTags when the lazyMode is enabled
-		if( super.isLazyMode() && null != userContribution.getTags( TagType.TOPIC_ZOOM ) && 0 < userContribution.getTags( TagType.TOPIC_ZOOM ).size()) {
-			Application.log( getClass() + ":extractSemantics(): the lazy mode is enabled and the posting with id " + userContribution.getTitle() + "already has TopiczoomTags. I will not poll TopicZoom again.", LogType.INFO );
+	public void extractSemantics( final AUserContribution userContribution )
+			throws GeneralLoggingException {
+		// first check if the posting already has TopicZoomTags when the
+		// lazyMode is enabled
+		if( super.isLazyMode()
+				&& null != userContribution.getTags( TagType.TOPIC_ZOOM )
+				&& 0 < userContribution.getTags( TagType.TOPIC_ZOOM ).size() ) {
+			Application
+					.log( getClass()
+							+ ":extractSemantics(): the lazy mode is enabled and the posting with id "
+							+ userContribution.getTitle()
+							+ "already has TopiczoomTags. I will not poll TopicZoom again.",
+							LogType.INFO );
 			return;
 		}
 		// else: proceed
-				
+
 		if( this.clientClosed ) {
 			Application
 					.log( getClass()
 							+ ":extractSemantics(): the client was closed due an error within a previous http request to the topic zoom web service. However, I will reinstanciate it.",
-							LogType.INFO );			
+							LogType.INFO );
 		}
 
 		// create HTTP GET request
 		try {
 			this.initClient();
-			
+
 			HttpPost postRequest = new HttpPost( this.serviceUrl );
 			postRequest.addHeader( HTTP_CONTENT_TYPE, "text/xml; version=3.2" );
-			postRequest.setEntity( new StringEntity( p.getContent() ) );
+			/*
+			 * Decide, which textual information shall be sent to TopicZoom
+			 * WebTagService.
+			 */
+			if( userContribution instanceof Posting ) {
+				// posting: sent the content of the posting
+				postRequest.setEntity( new StringEntity( ((Posting) userContribution).getContent() ) );
+			} else if ( userContribution instanceof Board ) {
+				Board b = (Board) userContribution;
+				
+				// board: concat title and intro
+				StringBuilder strBuilder = new StringBuilder();
+				strBuilder.append( b.getTitle() + "\n\n" )
+					.append( b.getIntro() );
+				
+				postRequest.setEntity( new StringEntity( strBuilder.toString() ));
+			}
 
-			final ResponseHandler< String > responseHandler = new TopicZoomResponseHandler();			
-			
+			final ResponseHandler< String > responseHandler = new TopicZoomResponseHandler();
+
 			// execute request
 			final String responseBody = httpClient.execute( postRequest,
 					responseHandler );
-			
+
 			// fetch tags from xml response
-			final List< Tag > fetchedTags = ( ( TopicZoomResponseHandler ) responseHandler ).fetchTags(responseBody);
-			
+			final List< Tag > fetchedTags = ( ( TopicZoomResponseHandler ) responseHandler )
+					.fetchTags( responseBody );
+
 			// sort tags decending
 			final TopicZoomTagComparator tagComparator = new TopicZoomTagComparator();
 			Collections.sort( fetchedTags, tagComparator );
 			// reverse so the order is descending
 			Collections.reverse( fetchedTags );
-			
+
 			// add tags to posting
-			p.setTags( fetchedTags, TagType.TOPIC_ZOOM);			
+			userContribution.setTags( fetchedTags, TagType.TOPIC_ZOOM );
 		} catch( IOException e ) {
 			throw new GeneralLoggingException(
 					getClass() + ":extractSemantics(): exception occured: " + e,
