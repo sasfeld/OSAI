@@ -3,8 +3,12 @@
  */
 package de.bht.fb6.s778455.bachelor.model;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
+import java.util.Map;
 
+import de.bht.fb6.s778455.bachelor.model.Posting.TagType;
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 
@@ -28,6 +32,11 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	protected Creator creator;
 	protected String title;
 	protected int id;
+	
+	protected Map< TagType, List< Tag > > tagMap;
+
+
+	
 
 	/**
 	 * @return the id
@@ -113,10 +122,99 @@ public abstract class AUserContribution implements IDirectoryPortable {
 		this.title = title;
 		return this;
 	}
-
-	/*
-	 * (non-Javadoc)
+	
+	/**
+	 * Set the whole {@link Tag} list for the given {@link TagType}.
 	 * 
+	 * @param fetchedTags
+	 * @param tagType
+	 */
+	public void setTags( List< Tag > fetchedTags, TagType tagType ) {
+		this.tagMap.put( tagType, fetchedTags );
+	}
+
+	/**
+	 * Add a single tag.
+	 * @param newTag
+	 * @param tagType
+	 */
+	public void addTag( Tag newTag, TagType tagType ) {
+		// create list if neccessary
+		if ( null == this.getTags( tagType ) ) {
+			this.tagMap.put( tagType, new ArrayList<Tag>() );
+		}
+		
+		// add to map
+		this.getTags( tagType ).add( newTag );
+	}
+	
+	/**
+	 * Get the whole {@link Tag} list for the given {@link TagType}.
+	 * 
+	 * @param tagType
+	 * @return
+	 * @return might return null.
+	 */
+	public List< Tag > getTags( TagType tagType ) {
+		return this.tagMap.get( tagType );
+	}
+	
+	/**
+	 * Return a boolean whether this Posting is tagged by TopicZoom Web Tagging.<br />
+	 * The condition for a posting to be tagged is the existence of at least one tag.
+	 * @return
+	 */
+	public boolean isTopicZoomTagged() {
+		if ( null == this.getTags( TagType.TOPIC_ZOOM )) {
+			return false;
+		}
+		
+		return this.getTags( TagType.TOPIC_ZOOM ).size() > 0 ? true : false;
+	}
+
+	/**
+	 * Return a boolean whether this Posting is tagged.<br />
+	 * The condition for a posting to be tagged is the existence of at least one tag.
+	 * @return
+	 */
+	public boolean isTagged() {
+		if ( this.isTopicZoomTagged() ) {
+			return true;
+		}
+		if ( this.isNerTagged() ) {
+			return true;
+		}
+		
+		return false;
+	}
+
+	/**
+	 * Get the number of all tags which enrich this {@link Posting}.
+	 * @return
+	 */
+	public int getNumberTags() {
+		int numberTags = 0;
+		
+		for( List< Tag > tags : this.tagMap.values() ) {
+			numberTags += tags.size();
+		}
+		return numberTags;
+	}
+
+	/**
+	 * Return true if this posting is tagged by Named Entity Recognition (NER) tags
+	 * @return
+	 */
+	public boolean isNerTagged() {
+		if ( null == this.getTags( TagType.NER_TAGS )) {
+			return false;
+		}
+		
+		return this.getTags( TagType.NER_TAGS ).size() > 0 ? true : false;
+	}
+	
+
+	/* (non-Javadoc)
 	 * @see java.lang.Object#hashCode()
 	 */
 	@Override
@@ -127,13 +225,17 @@ public abstract class AUserContribution implements IDirectoryPortable {
 				+ ( ( creationDate == null ) ? 0 : creationDate.hashCode() );
 		result = prime * result
 				+ ( ( creator == null ) ? 0 : creator.hashCode() );
+		result = prime * result + id;
+		result = prime
+				* result
+				+ ( ( modificationDate == null ) ? 0 : modificationDate
+						.hashCode() );
+		result = prime * result + ( ( tagMap == null ) ? 0 : tagMap.hashCode() );
 		result = prime * result + ( ( title == null ) ? 0 : title.hashCode() );
 		return result;
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
+	/* (non-Javadoc)
 	 * @see java.lang.Object#equals(java.lang.Object)
 	 */
 	@Override
@@ -155,6 +257,18 @@ public abstract class AUserContribution implements IDirectoryPortable {
 				return false;
 		} else if( !creator.equals( other.creator ) )
 			return false;
+		if( id != other.id )
+			return false;
+		if( modificationDate == null ) {
+			if( other.modificationDate != null )
+				return false;
+		} else if( !modificationDate.equals( other.modificationDate ) )
+			return false;
+		if( tagMap == null ) {
+			if( other.tagMap != null )
+				return false;
+		} else if( !tagMap.equals( other.tagMap ) )
+			return false;
 		if( title == null ) {
 			if( other.title != null )
 				return false;
@@ -163,6 +277,34 @@ public abstract class AUserContribution implements IDirectoryPortable {
 		return true;
 	}
 
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append( "AUserContribution [getId()=" );
+		builder.append( getId() );
+		builder.append( ", getModificationDate()=" );
+		builder.append( getModificationDate() );
+		builder.append( ", getCreationDate()=" );
+		builder.append( getCreationDate() );
+		builder.append( ", getCreator()=" );
+		builder.append( getCreator() );
+		builder.append( ", getTitle()=" );
+		builder.append( getTitle() );
+		builder.append( ", isTopicZoomTagged()=" );
+		builder.append( isTopicZoomTagged() );
+		builder.append( ", isTagged()=" );
+		builder.append( isTagged() );
+		builder.append( ", getNumberTags()=" );
+		builder.append( getNumberTags() );
+		builder.append( ", isNerTagged()=" );
+		builder.append( isNerTagged() );
+		builder.append( "]" );
+		return builder.toString();
+	}
+	
 	/* (non-Javadoc)
 	 * @see de.bht.fb6.s778455.bachelor.model.IDirectoryPortable#exportToTxt()
 	 */
@@ -227,4 +369,6 @@ public abstract class AUserContribution implements IDirectoryPortable {
 		}
 
 	}
+	
+	
 }

@@ -3,7 +3,9 @@
  */
 package de.bht.fb6.s778455.bachelor.semantic.extraction;
 
+import de.bht.fb6.s778455.bachelor.model.AUserContribution;
 import de.bht.fb6.s778455.bachelor.model.Posting;
+import de.bht.fb6.s778455.bachelor.model.Posting.TagType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 
 /**
@@ -15,10 +17,35 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
  */
 public abstract class AExtractionStrategy {	
 	/**
-	 * Extract semantic information from a given {@link Posting}.
+	 * Flag whether the lazy mode is enabled (true) or not (false).
+	 * The lazy mode means: if a UserContribution was already tagged by the same {@link TagType}, than it will not be tagged again.
+	 */
+	protected boolean lazyMode = true;
+	
+	
+	/**
+	 * @return the lazyMode
+	 */
+	public final boolean isLazyMode() {
+		return lazyMode;
+	}
+
+
+	/**
+	 * Flag whether the lazy mode is enabled (true) or not (false).
+	 * The lazy mode means: if a UserContribution was already tagged by the same {@link TagType}, than it will not be tagged again.
+	 * @param lazyMode the lazyMode to set
+	 */
+	public final void setLazyMode( final boolean lazyMode ) {
+		this.lazyMode = lazyMode;
+	}
+
+
+	/**
+	 * Extract semantic information from a given {@link AUserContribution}
 	 * @param p
 	 * @throws GeneralLoggingException 
 	 */
-	public abstract void extractSemantics(final Posting p) throws GeneralLoggingException;
+	public abstract void extractSemantics(final AUserContribution userContribution) throws GeneralLoggingException;
 
 }

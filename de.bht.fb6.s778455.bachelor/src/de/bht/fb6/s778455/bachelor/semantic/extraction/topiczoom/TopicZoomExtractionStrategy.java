@@ -13,6 +13,7 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 
+import de.bht.fb6.s778455.bachelor.model.AUserContribution;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.model.Posting.TagType;
 import de.bht.fb6.s778455.bachelor.model.Tag;
@@ -62,7 +63,14 @@ public class TopicZoomExtractionStrategy extends AExtractionStrategy {
 	 * extractSemantics(de.bht.fb6.s778455.bachelor.model.Posting)
 	 */
 	@Override
-	public void extractSemantics( Posting p ) throws GeneralLoggingException {
+	public void extractSemantics( final AUserContribution userContribution ) throws GeneralLoggingException {
+		// first check if the posting already has TopicZoomTags when the lazyMode is enabled
+		if( super.isLazyMode() && null != userContribution.getTags( TagType.TOPIC_ZOOM ) && 0 < userContribution.getTags( TagType.TOPIC_ZOOM ).size()) {
+			Application.log( getClass() + ":extractSemantics(): the lazy mode is enabled and the posting with id " + userContribution.getTitle() + "already has TopiczoomTags. I will not poll TopicZoom again.", LogType.INFO );
+			return;
+		}
+		// else: proceed
+				
 		if( this.clientClosed ) {
 			Application
 					.log( getClass()
@@ -79,7 +87,7 @@ public class TopicZoomExtractionStrategy extends AExtractionStrategy {
 			postRequest.setEntity( new StringEntity( p.getContent() ) );
 
 			final ResponseHandler< String > responseHandler = new TopicZoomResponseHandler();			
-
+			
 			// execute request
 			final String responseBody = httpClient.execute( postRequest,
 					responseHandler );

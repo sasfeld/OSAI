@@ -4,10 +4,8 @@
 
 package de.bht.fb6.s778455.bachelor.model;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -47,8 +45,7 @@ public class Posting extends AUserContribution {
 	protected int parentPostingId;
 	protected BoardThread belongingThread;
 	protected String postType;
-	protected Map< TagType, List< Tag > > tagMap;
-
+	
 	/**
 	 * Create a Posting with a link to the belonging thread {@link Thread}
 	 * 
@@ -288,65 +285,30 @@ public class Posting extends AUserContribution {
 		return this.postType;
 	}
 
-	/**
-	 * Set the whole {@link Tag} list for the given {@link TagType}.
-	 * 
-	 * @param fetchedTags
-	 * @param tagType
-	 */
-	public void setTags( List< Tag > fetchedTags, TagType tagType ) {
-		this.tagMap.put( tagType, fetchedTags );
-	}
-
-	/**
-	 * Add a single tag.
-	 * @param newTag
-	 * @param tagType
-	 */
-	public void addTag( Tag newTag, TagType tagType ) {
-		// create list if neccessary
-		if ( null == this.getTags( tagType ) ) {
-			this.tagMap.put( tagType, new ArrayList<Tag>() );
-		}
-		
-		// add to map
-		this.getTags( tagType ).add( newTag );
-	}
 	
-	/**
-	 * Get the whole {@link Tag} list for the given {@link TagType}.
-	 * 
-	 * @param tagType
-	 * @return
-	 * @return might return null.
-	 */
-	public List< Tag > getTags( TagType tagType ) {
-		return this.tagMap.get( tagType );
-	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
+	/* (non-Javadoc)
 	 * @see java.lang.Object#hashCode()
 	 */
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = super.hashCode();
+		result = prime
+				* result
+				+ ( ( belongingThread == null ) ? 0 : belongingThread
+						.hashCode() );
 		result = prime * result
 				+ ( ( content == null ) ? 0 : content.hashCode() );
 		result = prime * result + parentPostingId;
 		result = prime * result
 				+ ( ( postType == null ) ? 0 : postType.hashCode() );
-		result = prime * result + ( ( tagMap == null ) ? 0 : tagMap.hashCode() );
 		result = prime * result
 				+ ( ( taggedContent == null ) ? 0 : taggedContent.hashCode() );
 		return result;
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
+	/* (non-Javadoc)
 	 * @see java.lang.Object#equals(java.lang.Object)
 	 */
 	@Override
@@ -375,11 +337,6 @@ public class Posting extends AUserContribution {
 				return false;
 		} else if( !postType.equals( other.postType ) )
 			return false;
-		if( tagMap == null ) {
-			if( other.tagMap != null )
-				return false;
-		} else if( !tagMap.equals( other.tagMap ) )
-			return false;
 		if( taggedContent == null ) {
 			if( other.taggedContent != null )
 				return false;
@@ -388,92 +345,26 @@ public class Posting extends AUserContribution {
 		return true;
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
+	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
 	 */
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append( "Posting [" );
-		builder.append( "getParentPostingId()=" );
+		builder.append( "Posting [getBelongingThread()=" );
+		builder.append( getBelongingThread() );
+		builder.append( ", getParentPostingId()=" );
 		builder.append( getParentPostingId() );
 		builder.append( ", getContent()=" );
 		builder.append( getContent() );
 		builder.append( ", getTaggedContent()=" );
 		builder.append( getTaggedContent() );
-		builder.append( ", exportToTxt()=" );
-		builder.append( exportToTxt() );
 		builder.append( ", getPostingType()=" );
 		builder.append( getPostingType() );
-		builder.append( ", getId()=" );
-		builder.append( getId() );
-		builder.append( ", getModificationDate()=" );
-		builder.append( getModificationDate() );
-		builder.append( ", getCreationDate()=" );
-		builder.append( getCreationDate() );
-		builder.append( ", getCreator()=" );
-		builder.append( getCreator() );
-		builder.append( ", getTitle()=" );
-		builder.append( getTitle() );
+		builder.append( ", toString()=" );
+		builder.append( super.toString() );
 		builder.append( "]" );
 		return builder.toString();
-	}
-
-	/**
-	 * Return a boolean whether this Posting is tagged by TopicZoom Web Tagging.<br />
-	 * The condition for a posting to be tagged is the existence of at least one tag.
-	 * @return
-	 */
-	public boolean isTopicZoomTagged() {
-		if ( null == this.getTags( TagType.TOPIC_ZOOM )) {
-			return false;
-		}
-		
-		return this.getTags( TagType.TOPIC_ZOOM ).size() > 0 ? true : false;
-	}
-
-	/**
-	 * Return a boolean whether this Posting is tagged.<br />
-	 * The condition for a posting to be tagged is the existence of at least one tag.
-	 * @return
-	 */
-	public boolean isTagged() {
-		if ( this.isTopicZoomTagged() ) {
-			return true;
-		}
-		if ( this.isNerTagged() ) {
-			return true;
-		}
-		
-		return false;
-	}
-
-	/**
-	 * Get the number of all tags which enrich this {@link Posting}.
-	 * @return
-	 */
-	public int getNumberTags() {
-		int numberTags = 0;
-		
-		for( List< Tag > tags : this.tagMap.values() ) {
-			numberTags += tags.size();
-		}
-		return numberTags;
-	}
-
-	/**
-	 * Return true if this posting is tagged by Named Entity Recognition (NER) tags
-	 * @return
-	 */
-	public boolean isNerTagged() {
-		if ( null == this.getTags( TagType.NER_TAGS )) {
-			return false;
-		}
-		
-		return this.getTags( TagType.NER_TAGS ).size() > 0 ? true : false;
-	}
-	
+	}	
 	
 }
