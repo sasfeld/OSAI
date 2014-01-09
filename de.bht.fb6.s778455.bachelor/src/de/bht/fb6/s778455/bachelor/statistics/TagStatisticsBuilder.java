@@ -23,6 +23,14 @@ import de.bht.fb6.s778455.bachelor.model.StatisticsModel;
  */
 public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 
+	public TagStatisticsBuilder() {
+		super();
+	}
+	
+	public TagStatisticsBuilder(AStatisticsBuilder builder) {
+		super( builder );
+	}
+	
 	/*
 	 * (non-Javadoc)
 	 * @see de.bht.fb6.s778455.bachelor.statistics.AStatisticsBuilder#buildStatistics(java.util.Collection)

@@ -22,7 +22,15 @@ import de.bht.fb6.s778455.bachelor.model.StatisticsModel;
  *
  */
 public class GeneralStatisticsBuilder extends DecoratingStatisticsBuilder{
-
+	
+	public GeneralStatisticsBuilder() {
+		super();
+	}
+	
+	public GeneralStatisticsBuilder(AStatisticsBuilder builder) {
+		super( builder );
+	}
+	
 	/*
 	 * (non-Javadoc)
 	 * @see de.bht.fb6.s778455.bachelor.statistics.AStatisticsBuilder#buildStatistics(java.util.Collection)
