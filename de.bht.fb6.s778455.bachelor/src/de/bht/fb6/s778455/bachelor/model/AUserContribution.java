@@ -368,6 +368,25 @@ public abstract class AUserContribution implements IDirectoryPortable {
 				}
 			}
 		}
+		
+		List< Tag > nerTags = this.getTags( TagType.NER_TAGS );
+		if( null != nerTags ) {
+			for( Tag tag : nerTags ) {
+				if( tag instanceof NerTag ) {
+					NerTag nerTag = ( NerTag ) tag;
+					exportStr.append( "NER_TAG: " + "value:"
+							+ nerTag.getValue() + ";" + "weight:"
+							+ nerTag.getWeight() + ";" + "significance:"
+							+ "uri:" + nerTag.getUri() + ";"
+							+ "classifierlabel:" + nerTag.getClassifierLabel() + "\n" );
+				} else {
+					Application
+							.log( getClass()
+									+ ":exportToTxt(): the saved tag is not of type NerTag. There must be some error in the extraction process. Only add TopicZoomTags when using TopicZoom.",
+									LogType.ERROR );
+				}
+			}
+		}
 
 		return exportStr.toString();
 	}
@@ -419,6 +438,8 @@ public abstract class AUserContribution implements IDirectoryPortable {
 			this.setTitle( value );
 		}  else if( key.equals( "TOPIC_ZOOM_TAG" ) ) {
 			this.parseTopicZoomValue( value );
+		} else if ( key.equals( "NER_TAG" )) {
+			this.parseNerTagValue( value );
 		}
 
 	}
@@ -471,11 +492,60 @@ public abstract class AUserContribution implements IDirectoryPortable {
 				}
 				
 			}
-		}		
-		
+		}			
 		
 		Tag newTag = new TopicZoomTag( significance, degreegeneralization, weight, name, uri );
 		this.addTag(newTag, TagType.TOPIC_ZOOM);
+	}
+	
+	/**
+	 * Parse the value for the key "NER_TAG" within a txt file and fill
+	 * the Posting's tags.
+	 * 
+	 * @param value
+	 */
+	protected void parseNerTagValue( final String value ) {
+		/*
+		 * structure:
+		 * value:xyz;weight:1.0;significance:3.0;degreegeneralization:
+		 * 6;uri:testuri
+		 */
+
+		String[] splitValues = value.split( ";" );		
+
+		String name = "";
+		double weight = 0;
+		String uri = "";
+		String classifierlabel = "";
+		
+		for( String splitValue : splitValues ) {
+			final Pattern pKeyValue = Pattern.compile( "([a-z]+):(.*)" );
+			final Matcher mKeyValue = pKeyValue.matcher( splitValue );
+			
+			while( mKeyValue.find() ) {
+				final String key = mKeyValue.group(1);
+				final String kValue = mKeyValue.group(2);			
+				
+				switch( key ) {
+				case "value":
+					name = kValue;
+					break;
+				case "weight":
+					weight = Double.parseDouble( kValue );
+					break;				
+				case "uri":
+					uri = kValue;
+				case "classifierlabel":
+					classifierlabel = kValue;
+				default:
+					Application.log( getClass() + ":parseNerTagValue(): key " + key + " couldn't be matched.", LogType.ERROR );;
+				}
+				
+			}
+		}			
+		
+		Tag newTag = new NerTag(classifierlabel, weight, name, uri);
+		this.addTag(newTag, TagType.NER_TAGS);
 	}
 
 }

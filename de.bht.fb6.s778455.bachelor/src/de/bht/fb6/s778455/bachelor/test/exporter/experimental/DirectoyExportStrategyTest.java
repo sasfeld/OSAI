@@ -24,6 +24,7 @@ import de.bht.fb6.s778455.bachelor.exporter.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.NerTag;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.model.Tag;
 import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
@@ -107,9 +108,10 @@ public class DirectoyExportStrategyTest {
 		
 		ArrayList< Tag > tagList = new ArrayList<Tag>();
 		tagList.add( new TopicZoomTag( 6, 4, 3, "test", "testuri" ) );
-		tagList.add( new TopicZoomTag( 3, 2, 1, "test", "testuri2" ) );
+		tagList.add( new TopicZoomTag( 3, 2, 1, "test", "testuri2" ) );	
 		
 		samplePosting1.setTags( tagList, TagType.TOPIC_ZOOM );
+		samplePosting1.addTag( new NerTag( "I-LOC", -1.0, "Berlin", "berlin" ), TagType.NER_TAGS );
 		
 		Posting samplePosting2 = new Posting();
 		samplePosting2.setContent( "This is a another posting" );

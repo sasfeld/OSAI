@@ -118,7 +118,8 @@ public class DirectoryImportStrategyTest {
 				for( Posting posting : postings ) {
 					System.out.println("Posting: \n\n");
 					System.out.println(posting);
-					System.out.println("posting tags: \n\n\n" + posting.getTags( TagType.TOPIC_ZOOM ) + "\n\n\n");
+					System.out.println("posting tags: \n\n\n" + posting.getTags( TagType.TOPIC_ZOOM ) + 
+							"\n" + posting.getTags( TagType.NER_TAGS ) + "\n\n\n");
 					if( 0 == i ) {
 //						assertEquals( 1384093141, posting.getCreationDate()
 //								.getTime() );

@@ -90,10 +90,10 @@ public class NerTagMapper {
 		for( MappableLabels label : MappableLabels.values() ) {
 			final String classifierLabel = label.getClassifierLabel();
 			final Pattern pNerTag = Pattern.compile( "<" + classifierLabel
-					+ ">(.*?)</" + classifierLabel );
+					+ ">(.*?)</" + classifierLabel + ">" );
 			final Matcher mNerTag = pNerTag.matcher( taggedString );
 			
-			while ( mNerTag.matches() ) {
+			while ( mNerTag.find() ) {
 				final String tagContent = mNerTag.group( 1 );
 				
 				// create new NerTag
@@ -108,10 +108,10 @@ public class NerTagMapper {
 		for( MappableLabels label : MappableLabels.values() ) {
 			final String classifierLabel = label.getClassifierLabel();
 			final Pattern pNerTag = Pattern.compile( "<" + classifierLabel
-					+ ">(.*?)</" + classifierLabel );
+					+ ">(.*?)</" + classifierLabel + ">" );
 			final Matcher mNerTag = pNerTag.matcher( taggedString );
 			
-			while ( mNerTag.matches() ) {
+			while ( mNerTag.find() ) {
 				final String tagContent = mNerTag.group( 1 );
 				
 				// create new NerTag
