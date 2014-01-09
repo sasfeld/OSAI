@@ -4,9 +4,6 @@
 
 package de.bht.fb6.s778455.bachelor.model;
 
-import java.util.HashMap;
-import java.util.List;
-
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 
