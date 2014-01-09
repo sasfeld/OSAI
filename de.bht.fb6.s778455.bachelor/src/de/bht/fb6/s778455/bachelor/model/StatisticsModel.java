@@ -5,7 +5,9 @@ package de.bht.fb6.s778455.bachelor.model;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
+import de.bht.fb6.s778455.bachelor.model.Posting.TagType;
 import de.bht.fb6.s778455.bachelor.statistics.AStatisticsBuilder;
 
 /**
@@ -18,22 +20,71 @@ import de.bht.fb6.s778455.bachelor.statistics.AStatisticsBuilder;
 public class StatisticsModel implements IDirectoryPortable, Serializable {
 	private static final long serialVersionUID = 1L;
 
+	/**
+	 * Creation date of the statistics model.
+	 */
 	protected Date dateCreation;
 	
+	/**
+	 * Number of given courses.
+	 */
 	protected int numberCourses;
+	/**
+	 * Number of given boards.
+	 */
 	protected int numberBoards;
+	/**
+	 * Number of given threads.
+	 */
 	protected int numberThreads;
+	/**
+	 * Number of given postings.
+	 */
 	protected int numberPostings;
 	
+	/**
+	 * Number of postings which have Tags extracted by Topic Zoom.
+	 */
 	protected int numberTopicZoomTaggedPostings;
+	/**
+	 * Number of postings which have NER tags.
+	 */
 	protected int numberNerTaggedPostings;
+	/**
+	 * Number of postings which have at least one tag.
+	 */
 	protected int numberTaggedPostings;
 	
+	/**
+	 * Number of {@link TopicZoomTag} instances.
+	 */
 	protected int numberTopicZoomTags;
+	/**
+	 * Number of {@link Tag} instances with {@link TagType} NER-Tag .
+	 */
 	protected int numberNerTags;
+	/**
+	 * Number of {@link Tag} instances.
+	 */
 	protected int numberTags;
+	/**
+	 * Number of distinct {@link TopicZoomTag} tags. Distinct means: the URI and the value are equal, so only count it once.
+	 */
+	protected int numberDistinctTopicZoomTags;
+	/**
+	 * Number of distinct {@link Tag} instances representing NER tags. Distinct means: the URI and the value are equal, so only count it once.
+	 */
+	protected int numberDistinctNerTags;
 
-	private int numberTzAndNerTaggedPostings;
+	/**
+	 * Number of {@link Posting} instances which have both - {@link TopicZoomTag} and {@link Tag} representing NER tags.
+	 */
+	protected int numberTzAndNerTaggedPostings;
+	
+	/**
+	 * {@link List} of all {@link Posting} which don't have any {@link Tag}.
+	 */
+	protected List< Posting > untaggedPostings;
 	
 	/**
 	 * @return the dateCreation
@@ -222,6 +273,58 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
 		return this;
 	}
 	
+	/**
+	 * @return the numberDistinctTopicZoomTags
+	 */
+	public final int getNumberDistinctTopicZoomTags() {
+		return numberDistinctTopicZoomTags;
+	}
+	
+	/**
+	 * @param numberDistinctTopicZoomTags the numberDistinctTopicZoomTags to set
+	 * @return 
+	 */
+	public final StatisticsModel setNumberDistinctTopicZoomTags(
+			int numberDistinctTopicZoomTags ) {
+		this.numberDistinctTopicZoomTags = numberDistinctTopicZoomTags;
+		
+		return this;
+	}
+	
+	/**
+	 * @return the numberDistinctNerTags
+	 */
+	public final int getNumberDistinctNerTags() {
+		return numberDistinctNerTags;
+	}
+	
+	/**
+	 * @param numberDistinctNerTags the numberDistinctNerTags to set
+	 * @return 
+	 */
+	public final StatisticsModel setNumberDistinctNerTags( int numberDistinctNerTags ) {
+		this.numberDistinctNerTags = numberDistinctNerTags;
+		
+		return this;
+	}
+	
+	/**
+	 * @return the untaggedPostings
+	 */
+	public final List< Posting > getUntaggedPostings() {
+		return untaggedPostings;
+	}
+	
+	/**
+	 * @param untaggedPostings the untaggedPostings to set
+	 * @return 
+	 */
+	public final StatisticsModel setUntaggedPostings( List< Posting > untaggedPostings ) {
+		this.untaggedPostings = untaggedPostings;
+		
+		return this;
+	}
+	
 	/* (non-Javadoc)
 	 * @see java.lang.Object#hashCode()
 	 */
@@ -233,6 +336,8 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
 				+ ( ( dateCreation == null ) ? 0 : dateCreation.hashCode() );
 		result = prime * result + numberBoards;
 		result = prime * result + numberCourses;
+		result = prime * result + numberDistinctNerTags;
+		result = prime * result + numberDistinctTopicZoomTags;
 		result = prime * result + numberNerTaggedPostings;
 		result = prime * result + numberNerTags;
 		result = prime * result + numberPostings;
@@ -242,6 +347,10 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
 		result = prime * result + numberTopicZoomTaggedPostings;
 		result = prime * result + numberTopicZoomTags;
 		result = prime * result + numberTzAndNerTaggedPostings;
+		result = prime
+				* result
+				+ ( ( untaggedPostings == null ) ? 0 : untaggedPostings
+						.hashCode() );
 		return result;
 	}
 	/* (non-Javadoc)
@@ -265,6 +374,10 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
 			return false;
 		if( numberCourses != other.numberCourses )
 			return false;
+		if( numberDistinctNerTags != other.numberDistinctNerTags )
+			return false;
+		if( numberDistinctTopicZoomTags != other.numberDistinctTopicZoomTags )
+			return false;
 		if( numberNerTaggedPostings != other.numberNerTaggedPostings )
 			return false;
 		if( numberNerTags != other.numberNerTags )
@@ -282,6 +395,11 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
 		if( numberTopicZoomTags != other.numberTopicZoomTags )
 			return false;
 		if( numberTzAndNerTaggedPostings != other.numberTzAndNerTaggedPostings )
+			return false;
+		if( untaggedPostings == null ) {
+			if( other.untaggedPostings != null )
+				return false;
+		} else if( !untaggedPostings.equals( other.untaggedPostings ) )
 			return false;
 		return true;
 	}
@@ -316,6 +434,12 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
 		builder.append( getNumberNerTags() );
 		builder.append( ", getNumberTags()=" );
 		builder.append( getNumberTags() );
+		builder.append( ", getNumberDistinctTopicZoomTags()=" );
+		builder.append( getNumberDistinctTopicZoomTags() );
+		builder.append( ", getNumberDistinctNerTags()=" );
+		builder.append( getNumberDistinctNerTags() );
+		builder.append( ", getUntaggedPostings()=" );
+		builder.append( getUntaggedPostings() );
 		builder.append( "]" );
 		return builder.toString();
 	}
