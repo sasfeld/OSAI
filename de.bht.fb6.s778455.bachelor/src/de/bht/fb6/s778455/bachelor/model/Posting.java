@@ -138,29 +138,6 @@ public class Posting extends AUserContribution {
 
 		txtExport.append( super.exportToTxt() );
 
-		// tags
-		List< Tag > topicZoomTags = this.getTags( TagType.TOPIC_ZOOM );
-
-		if( null != topicZoomTags ) {
-			for( Tag tag : topicZoomTags ) {
-				if( tag instanceof TopicZoomTag ) {
-					TopicZoomTag topicZoomTag = ( TopicZoomTag ) tag;
-					txtExport.append( "TOPIC_ZOOM_TAG: " + "value:"
-							+ topicZoomTag.getValue() + ";" + "weight:"
-							+ topicZoomTag.getWeight() + ";" + "significance:"
-							+ topicZoomTag.getSignificance() + ";"
-							+ "degreegeneralization:"
-							+ topicZoomTag.getDegreeGeneralization() + ";"
-							+ "uri:" + topicZoomTag.getUri() + "\n" );
-				} else {
-					Application
-							.log( getClass()
-									+ ":exportToTxt(): the saved tag is not of type TopicZoomTag. There must be some error in the extraction process. Only add TopicZoomTags when using TopicZoom.",
-									LogType.ERROR );
-				}
-			}
-		}
-
 		txtExport.append( "PARENT_POSTING_ID: " + this.getParentPostingId()
 				+ "\n" );
 		String postingType = this.getPostingType();
@@ -214,67 +191,8 @@ public class Posting extends AUserContribution {
 			this.setTaggedContent( value );
 		} else if( key.equals( "POSTING_TYPE" ) ) {
 			this.setPostingType( value );
-		} else if( key.equals( "TOPIC_ZOOM_TAG" ) ) {
-			this.parseTopicZoomValue( value );
 		}
-	}
-
-	/**
-	 * Parse the value for the key "TOPIC_ZOOM_TAG" within a txt file and fill
-	 * the Posting's tags.
-	 * 
-	 * @param value
-	 */
-	private void parseTopicZoomValue( final String value ) {
-		/*
-		 * structure:
-		 * value:xyz;weight:1.0;significance:3.0;degreegeneralization:
-		 * 6;uri:testuri
-		 */
-
-		String[] splitValues = value.split( ";" );		
-
-		String name = "";
-		double weight = 0;
-		double significance = 0;
-		int degreegeneralization = 0;
-		String uri = "";
-		
-		for( String splitValue : splitValues ) {
-			final Pattern pKeyValue = Pattern.compile( "([a-z]+):(.*)" );
-			final Matcher mKeyValue = pKeyValue.matcher( splitValue );
-			
-			while( mKeyValue.find() ) {
-				final String key = mKeyValue.group(1);
-				final String kValue = mKeyValue.group(2);			
-				
-				switch( key ) {
-				case "value":
-					name = kValue;
-					break;
-				case "weight":
-					weight = Double.parseDouble( kValue );
-					break;
-				case "significance":
-					significance = Double.parseDouble( kValue );
-					break;
-				case "degreegeneralization":
-					degreegeneralization = Integer.parseInt( kValue );
-				case "uri":
-					uri = kValue;
-				default:
-					Application.log( getClass() + ":parseTopicZoomValue(): key " + key + " couldn't be matched.", LogType.ERROR );;
-				}
-				
-			}
-		}		
-		
-		
-		Tag newTag = new TopicZoomTag( significance, degreegeneralization, weight, name, uri );
-		this.addTag(newTag, TagType.TOPIC_ZOOM);
-	}
-
-	
+	}	
 
 	public Posting setPostingType( String postType ) {
 		this.postType = postType;

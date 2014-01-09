@@ -7,6 +7,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import de.bht.fb6.s778455.bachelor.model.Posting.TagType;
 import de.bht.fb6.s778455.bachelor.organization.Application;
@@ -32,11 +34,8 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	protected Creator creator;
 	protected String title;
 	protected int id;
-	
+
 	protected Map< TagType, List< Tag > > tagMap;
-
-
-	
 
 	/**
 	 * @return the id
@@ -48,7 +47,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	/**
 	 * @param id
 	 *            the id to set
-	 * @return 
+	 * @return
 	 */
 	public AUserContribution setId( int id ) {
 		this.id = id;
@@ -65,7 +64,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	/**
 	 * @param modificationDate
 	 *            the modificationDate to set
-	 * @return 
+	 * @return
 	 */
 	public AUserContribution setModificationDate( Date modificationDate ) {
 		this.modificationDate = modificationDate;
@@ -82,7 +81,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	/**
 	 * @param creationDate
 	 *            the creationDate to set
-	 * @return 
+	 * @return
 	 */
 	public AUserContribution setCreationDate( Date creationDate ) {
 		this.creationDate = creationDate;
@@ -99,7 +98,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	/**
 	 * @param creator
 	 *            the creator to set
-	 * @return 
+	 * @return
 	 */
 	public AUserContribution setCreator( Creator creator ) {
 		this.creator = creator;
@@ -116,13 +115,13 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	/**
 	 * @param title
 	 *            the title to set
-	 * @return 
+	 * @return
 	 */
 	public AUserContribution setTitle( String title ) {
 		this.title = title;
 		return this;
 	}
-	
+
 	/**
 	 * Set the whole {@link Tag} list for the given {@link TagType}.
 	 * 
@@ -135,19 +134,20 @@ public abstract class AUserContribution implements IDirectoryPortable {
 
 	/**
 	 * Add a single tag.
+	 * 
 	 * @param newTag
 	 * @param tagType
 	 */
 	public void addTag( Tag newTag, TagType tagType ) {
 		// create list if neccessary
-		if ( null == this.getTags( tagType ) ) {
-			this.tagMap.put( tagType, new ArrayList<Tag>() );
+		if( null == this.getTags( tagType ) ) {
+			this.tagMap.put( tagType, new ArrayList< Tag >() );
 		}
-		
+
 		// add to map
 		this.getTags( tagType ).add( newTag );
 	}
-	
+
 	/**
 	 * Get the whole {@link Tag} list for the given {@link TagType}.
 	 * 
@@ -158,43 +158,48 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	public List< Tag > getTags( TagType tagType ) {
 		return this.tagMap.get( tagType );
 	}
-	
+
 	/**
 	 * Return a boolean whether this Posting is tagged by TopicZoom Web Tagging.<br />
-	 * The condition for a posting to be tagged is the existence of at least one tag.
+	 * The condition for a posting to be tagged is the existence of at least one
+	 * tag.
+	 * 
 	 * @return
 	 */
 	public boolean isTopicZoomTagged() {
-		if ( null == this.getTags( TagType.TOPIC_ZOOM )) {
+		if( null == this.getTags( TagType.TOPIC_ZOOM ) ) {
 			return false;
 		}
-		
+
 		return this.getTags( TagType.TOPIC_ZOOM ).size() > 0 ? true : false;
 	}
 
 	/**
 	 * Return a boolean whether this Posting is tagged.<br />
-	 * The condition for a posting to be tagged is the existence of at least one tag.
+	 * The condition for a posting to be tagged is the existence of at least one
+	 * tag.
+	 * 
 	 * @return
 	 */
 	public boolean isTagged() {
-		if ( this.isTopicZoomTagged() ) {
+		if( this.isTopicZoomTagged() ) {
 			return true;
 		}
-		if ( this.isNerTagged() ) {
+		if( this.isNerTagged() ) {
 			return true;
 		}
-		
+
 		return false;
 	}
 
 	/**
 	 * Get the number of all tags which enrich this {@link Posting}.
+	 * 
 	 * @return
 	 */
 	public int getNumberTags() {
 		int numberTags = 0;
-		
+
 		for( List< Tag > tags : this.tagMap.values() ) {
 			numberTags += tags.size();
 		}
@@ -202,19 +207,22 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	}
 
 	/**
-	 * Return true if this posting is tagged by Named Entity Recognition (NER) tags
+	 * Return true if this posting is tagged by Named Entity Recognition (NER)
+	 * tags
+	 * 
 	 * @return
 	 */
 	public boolean isNerTagged() {
-		if ( null == this.getTags( TagType.NER_TAGS )) {
+		if( null == this.getTags( TagType.NER_TAGS ) ) {
 			return false;
 		}
-		
+
 		return this.getTags( TagType.NER_TAGS ).size() > 0 ? true : false;
 	}
-	
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see java.lang.Object#hashCode()
 	 */
 	@Override
@@ -235,7 +243,9 @@ public abstract class AUserContribution implements IDirectoryPortable {
 		return result;
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see java.lang.Object#equals(java.lang.Object)
 	 */
 	@Override
@@ -277,7 +287,9 @@ public abstract class AUserContribution implements IDirectoryPortable {
 		return true;
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see java.lang.Object#toString()
 	 */
 	@Override
@@ -304,8 +316,10 @@ public abstract class AUserContribution implements IDirectoryPortable {
 		builder.append( "]" );
 		return builder.toString();
 	}
-	
-	/* (non-Javadoc)
+
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see de.bht.fb6.s778455.bachelor.model.IDirectoryPortable#exportToTxt()
 	 */
 	@Override
@@ -323,18 +337,46 @@ public abstract class AUserContribution implements IDirectoryPortable {
 		}
 		exportStr.append( "TITLE: " + this.getTitle() + "\n" );
 
+		// tags
+		List< Tag > topicZoomTags = this.getTags( TagType.TOPIC_ZOOM );
+
+		if( null != topicZoomTags ) {
+			for( Tag tag : topicZoomTags ) {
+				if( tag instanceof TopicZoomTag ) {
+					TopicZoomTag topicZoomTag = ( TopicZoomTag ) tag;
+					exportStr.append( "TOPIC_ZOOM_TAG: " + "value:"
+							+ topicZoomTag.getValue() + ";" + "weight:"
+							+ topicZoomTag.getWeight() + ";" + "significance:"
+							+ topicZoomTag.getSignificance() + ";"
+							+ "degreegeneralization:"
+							+ topicZoomTag.getDegreeGeneralization() + ";"
+							+ "uri:" + topicZoomTag.getUri() + "\n" );
+				} else {
+					Application
+							.log( getClass()
+									+ ":exportToTxt(): the saved tag is not of type TopicZoomTag. There must be some error in the extraction process. Only add TopicZoomTags when using TopicZoom.",
+									LogType.ERROR );
+				}
+			}
+		}
+
 		return exportStr.toString();
 	}
 
-	/* (non-Javadoc)
-	 * @see de.bht.fb6.s778455.bachelor.model.IDirectoryPortable#importFromTxt(java.lang.String, java.lang.String)
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * de.bht.fb6.s778455.bachelor.model.IDirectoryPortable#importFromTxt(java
+	 * .lang.String, java.lang.String)
 	 */
 	@Override
 	public void importFromTxt( String key, String value ) {
 		if( null == key || 0 == key.length() || null == value
 				|| 0 == value.length() ) {
 			throw new IllegalArgumentException(
-					"Illegal value for key or value! Key: " + key +"; value: " + value  );
+					"Illegal value for key or value! Key: " + key + "; value: "
+							+ value );
 		}
 
 		if( key.equals( "ID" ) ) {
@@ -364,11 +406,67 @@ public abstract class AUserContribution implements IDirectoryPortable {
 								+ ":importFromTxt: couldn't parse given modification date to an Date . Given value: "
 								+ value, LogType.ERROR );
 			}
-		} else if ( key.equals( "TITLE" ) ) {
+		} else if( key.equals( "TITLE" ) ) {
 			this.setTitle( value );
+		}  else if( key.equals( "TOPIC_ZOOM_TAG" ) ) {
+			this.parseTopicZoomValue( value );
 		}
 
 	}
 	
-	
+	/**
+	 * Parse the value for the key "TOPIC_ZOOM_TAG" within a txt file and fill
+	 * the Posting's tags.
+	 * 
+	 * @param value
+	 */
+	protected void parseTopicZoomValue( final String value ) {
+		/*
+		 * structure:
+		 * value:xyz;weight:1.0;significance:3.0;degreegeneralization:
+		 * 6;uri:testuri
+		 */
+
+		String[] splitValues = value.split( ";" );		
+
+		String name = "";
+		double weight = 0;
+		double significance = 0;
+		int degreegeneralization = 0;
+		String uri = "";
+		
+		for( String splitValue : splitValues ) {
+			final Pattern pKeyValue = Pattern.compile( "([a-z]+):(.*)" );
+			final Matcher mKeyValue = pKeyValue.matcher( splitValue );
+			
+			while( mKeyValue.find() ) {
+				final String key = mKeyValue.group(1);
+				final String kValue = mKeyValue.group(2);			
+				
+				switch( key ) {
+				case "value":
+					name = kValue;
+					break;
+				case "weight":
+					weight = Double.parseDouble( kValue );
+					break;
+				case "significance":
+					significance = Double.parseDouble( kValue );
+					break;
+				case "degreegeneralization":
+					degreegeneralization = Integer.parseInt( kValue );
+				case "uri":
+					uri = kValue;
+				default:
+					Application.log( getClass() + ":parseTopicZoomValue(): key " + key + " couldn't be matched.", LogType.ERROR );;
+				}
+				
+			}
+		}		
+		
+		
+		Tag newTag = new TopicZoomTag( significance, degreegeneralization, weight, name, uri );
+		this.addTag(newTag, TagType.TOPIC_ZOOM);
+	}
+
 }
