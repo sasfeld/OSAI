@@ -58,8 +58,11 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 		 * number of tags belonging to course, board or postings.
 		 */
 		int numberTagsForPostings = 0;
+		List< Tag > distinctTagsForPostings = new ArrayList< Tag >();
 		int numberTagsForBoards = 0;
+		List< Tag > distinctTagsForBoards = new ArrayList< Tag >();
 		int numberTagsForCourses = 0;
+		List< Tag > distinctTagsForCourses = new ArrayList< Tag >();
 
 		/*
 		 * number of postings with tags
@@ -89,15 +92,16 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 
 		for( Course course : courses ) {
 			// TopicZoomTags
+			List< Tag > topicTags = course.getTags( TagType.TOPIC_ZOOM );
 			if( course.isTopicZoomTagged() ) {
-				numberTopicZoomTags += course.getTags( TagType.TOPIC_ZOOM )
-						.size();
+				numberTopicZoomTags += topicTags.size();
 				numberCoursesTzTags++;
 			}
 
 			// NER tags
+			List< Tag > nerTags = course.getTags( TagType.NER_TAGS );
 			if( course.isNerTagged() ) {
-				numberNerTags += course.getTags( TagType.NER_TAGS ).size();
+				numberNerTags += nerTags.size();
 				numberCoursesNerTags++;
 			}
 
@@ -105,17 +109,23 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 			if( course.isTagged() ) {
 				numberTags += course.getNumberTags();
 				numberCoursesTags++;
-				
-				numberTagsForCourses += course.getNumberTags();
-			} 
+
+				if( null != topicTags ) {
+					distinctTagsForCourses.addAll( topicTags );
+				}
+				if( null != nerTags ) {
+					distinctTagsForCourses.addAll( nerTags );
+				}
+			}
 
 			// intersection stats
 			if( course.isNerTagged() && course.isTopicZoomTagged() ) {
 				numberCoursesTzAndNerTags += 1;
 			}
-			
+
 			for( Board board : course.getBoards() ) {
 				// TopicZoomTags
+				List< Tag > ctopicTags = board.getTags( TagType.TOPIC_ZOOM );
 				if( board.isTopicZoomTagged() ) {
 					numberTopicZoomTags += board.getTags( TagType.TOPIC_ZOOM )
 							.size();
@@ -123,6 +133,7 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 				}
 
 				// NER tags
+				List< Tag > cnerTags = board.getTags( TagType.NER_TAGS );
 				if( board.isNerTagged() ) {
 					numberNerTags += board.getTags( TagType.NER_TAGS ).size();
 					numberBoardsNerTags++;
@@ -132,18 +143,26 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 				if( board.isTagged() ) {
 					numberTags += board.getNumberTags();
 					numberBoardsTags++;
-					
-					numberTagsForBoards += board.getNumberTags();
-				} 
+
+					if( null != ctopicTags ) {
+						distinctTagsForBoards.addAll( board
+								.getTags( TagType.TOPIC_ZOOM ) );
+					}
+					if( null != cnerTags ) {
+						distinctTagsForBoards.addAll( board
+								.getTags( TagType.NER_TAGS ) );
+					}
+				}
 
 				// intersection stats
 				if( board.isNerTagged() && board.isTopicZoomTagged() ) {
 					numberBoardsTzAndNerTags += 1;
 				}
-				
+
 				for( BoardThread thread : board.getBoardThreads() ) {
 					for( Posting posting : thread.getPostings() ) {
 						// TopicZoomTags
+						List< Tag > ptopicTags = posting.getTags( TagType.TOPIC_ZOOM );
 						if( posting.isTopicZoomTagged() ) {
 							numberTopicZoomTags += posting.getTags(
 									TagType.TOPIC_ZOOM ).size();
@@ -151,6 +170,7 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 						}
 
 						// NER tags
+						List< Tag > pnerTags = posting.getTags( TagType.NER_TAGS );
 						if( posting.isNerTagged() ) {
 							numberNerTags += posting.getTags( TagType.NER_TAGS )
 									.size();
@@ -161,8 +181,15 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 						if( posting.isTagged() ) {
 							numberTags += posting.getNumberTags();
 							numberPostingsTags++;
-							
-							numberTagsForPostings += posting.getNumberTags();
+
+							if( null != ptopicTags ) {
+								distinctTagsForPostings.addAll( posting
+										.getTags( TagType.TOPIC_ZOOM ) );
+							}
+							if( null != pnerTags ) {
+								distinctTagsForPostings.addAll( posting
+										.getTags( TagType.NER_TAGS ) );
+							}
 						} else { // add posting to untagged list
 							untaggedPostings.add( posting );
 						}
@@ -188,10 +215,23 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 				.setNumberTaggedPostings( numberPostingsTags )
 				.setNumberTzAndNerTaggedPostings( numberPostingsTzAndNerTags )
 				.setNumberTopicZoomTags( numberTopicZoomTags )
-				.setNumberNerTags( numberNerTags ).setNumberTags( numberTags )
+				.setNumberNerTags( numberNerTags )
+				.setNumberTags( numberTags )
 				.setNumberDistinctTopicZoomTags( numberDistinctTzTags )
 				.setNumberDistinctNerTags( numberDistinctNerTags )
-				.setUntaggedPostings( untaggedPostings );
+				.setUntaggedPostings( untaggedPostings )
+				.setNumberTaggedCourses( numberCoursesTags )
+				.setNumberTaggedBoards( numberBoardsTags )
+				.setNumberTaggedPostings( numberPostingsTags )
+				.setDistinctNumberCourseTags(
+						CourseUtil.getDistinctTags( distinctTagsForCourses )
+								.size() )
+				.setDistinctNumberBoardTags(
+						CourseUtil.getDistinctTags( distinctTagsForBoards )
+								.size() )
+				.setDistinctNumberPostingTags(
+						CourseUtil.getDistinctTags( distinctTagsForPostings )
+								.size() );
 
 		return model;
 	}

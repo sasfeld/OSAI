@@ -3,6 +3,7 @@
  */
 package de.bht.fb6.s778455.bachelor.model.tools;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
@@ -116,5 +117,33 @@ public class CourseUtil {
 		}
 		
 		return distinctTags;
+	}
+	
+	public static Set< Tag > getDistinctTags(final List< Tag > tags) {
+		// copy tag list
+		List< Tag > tagCopy = new ArrayList<Tag>();
+		tagCopy.addAll( tags );
+		
+		//  create return set
+		Set< Tag > returnSet = new HashSet<Tag>();
+		
+		for( Tag tag : tagCopy ) {
+			boolean found = false;
+			for( Tag distinctTag : tags ) {
+				if( !tag.equals( distinctTag ) && tag.getUri().equals(
+						distinctTag.getUri() )
+						&& tag.getValue().equals(
+								distinctTag.getValue() ) ) {
+					found = true;
+				}
+			}
+
+			if( !found ) {
+				returnSet.add( tag );
+			}
+
+		}
+				
+		return returnSet;		
 	}
 }
