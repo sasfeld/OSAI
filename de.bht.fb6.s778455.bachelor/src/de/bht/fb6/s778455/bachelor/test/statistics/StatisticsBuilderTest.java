@@ -3,11 +3,10 @@
  */
 package de.bht.fb6.s778455.bachelor.test.statistics;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.HashMap;
 
 import org.junit.After;
 import org.junit.Before;
@@ -17,10 +16,9 @@ import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Posting;
+import de.bht.fb6.s778455.bachelor.model.Posting.TagType;
 import de.bht.fb6.s778455.bachelor.model.StatisticsModel;
 import de.bht.fb6.s778455.bachelor.model.Tag;
-import de.bht.fb6.s778455.bachelor.model.Posting.TagType;
-import de.bht.fb6.s778455.bachelor.organization.xml.XmlExtractor;
 import de.bht.fb6.s778455.bachelor.statistics.AStatisticsBuilder;
 import de.bht.fb6.s778455.bachelor.statistics.GeneralStatisticsBuilder;
 import de.bht.fb6.s778455.bachelor.statistics.TagStatisticsBuilder;

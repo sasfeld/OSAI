@@ -13,6 +13,9 @@ import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
+import de.bht.fb6.s778455.bachelor.statistics.AStatisticsBuilder;
+import de.bht.fb6.s778455.bachelor.statistics.GeneralStatisticsBuilder;
+import de.bht.fb6.s778455.bachelor.statistics.TagStatisticsBuilder;
 
 /**
  * <p>
@@ -118,8 +121,6 @@ public class SemanticExtractionCliController {
 			statisticsBuilder.append( "Elapsed time (seconds): " + elapsedTime );
 		}
 
-		statisticsBuilder.append( "Number of courses: " + numberImportedCourses
-				+ "\n\n" );
 		statisticsBuilder.append( this.semanticExtractionController
 				.getStatistics( this.rawCourses ) );
 		return statisticsBuilder.toString();
@@ -130,9 +131,9 @@ public class SemanticExtractionCliController {
 	 * @return
 	 */
 	public String getTagStatistics(final Collection< Course > collection) {
-		StringBuilder statisticsBuilder = new StringBuilder();
-		statisticsBuilder.append( "Number of postings: "  );
-		return null;
+		AStatisticsBuilder builder = new GeneralStatisticsBuilder( new TagStatisticsBuilder() );
+		
+		return builder.buildStatistics( collection ).toString();
 	}
 
 	public static void main( String[] args ) {
