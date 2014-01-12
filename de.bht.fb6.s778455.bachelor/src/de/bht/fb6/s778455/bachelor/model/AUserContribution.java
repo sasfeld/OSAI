@@ -32,7 +32,6 @@ import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 public abstract class AUserContribution implements IDirectoryPortable {
 	protected Date creationDate;
 	protected Date modificationDate;
-	protected Creator creator;
 	protected String title;
 	protected int id;
 
@@ -94,23 +93,6 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	 */
 	public AUserContribution setCreationDate( Date creationDate ) {
 		this.creationDate = creationDate;
-		return this;
-	}
-
-	/**
-	 * @return the creator
-	 */
-	public Creator getCreator() {
-		return creator;
-	}
-
-	/**
-	 * @param creator
-	 *            the creator to set
-	 * @return
-	 */
-	public AUserContribution setCreator( Creator creator ) {
-		this.creator = creator;
 		return this;
 	}
 
@@ -240,8 +222,6 @@ public abstract class AUserContribution implements IDirectoryPortable {
 		int result = 1;
 		result = prime * result
 				+ ( ( creationDate == null ) ? 0 : creationDate.hashCode() );
-		result = prime * result
-				+ ( ( creator == null ) ? 0 : creator.hashCode() );
 		result = prime * result + id;
 		result = prime
 				* result
@@ -270,12 +250,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 			if( other.creationDate != null )
 				return false;
 		} else if( !creationDate.equals( other.creationDate ) )
-			return false;
-		if( creator == null ) {
-			if( other.creator != null )
-				return false;
-		} else if( !creator.equals( other.creator ) )
-			return false;
+			return false;	
 		if( id != other.id )
 			return false;
 		if( modificationDate == null ) {
@@ -310,8 +285,6 @@ public abstract class AUserContribution implements IDirectoryPortable {
 		builder.append( getModificationDate() );
 		builder.append( ", getCreationDate()=" );
 		builder.append( getCreationDate() );
-		builder.append( ", getCreator()=" );
-		builder.append( getCreator() );
 		builder.append( ", getTitle()=" );
 		builder.append( getTitle() );
 		builder.append( ", isTopicZoomTagged()=" );

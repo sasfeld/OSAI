@@ -25,7 +25,8 @@ public class Tag {
 	protected double weight;
 	protected String value;
 	protected String uri;
-	
+	protected TagType tagType;
+
 	/**
 	 * Create a new Tag.
 	 * @param weight
@@ -33,7 +34,7 @@ public class Tag {
 	 * @param uri
 	 * @throws IllegalArgumentException if you try to commit null values
 	 */
-	public Tag(double weight, String value, String uri) {
+	public Tag(double weight, String value, String uri, TagType tagType) {
 		if ( null == value || null == uri ) {
 			throw new IllegalArgumentException( "Illegal null value for 'value' or 'uri'!" );
 		}
@@ -41,6 +42,21 @@ public class Tag {
 		this.weight = weight;
 		this.value = value;
 		this.uri = uri;
+		this.tagType = tagType;
+	}
+	
+	/**
+	 * @return the tagType
+	 */
+	public final TagType getTagType() {
+		return tagType;
+	}
+
+	/**
+	 * @param tagType the tagType to set
+	 */
+	public final void setTagType( TagType tagType ) {
+		this.tagType = tagType;
 	}
 	
 	/**

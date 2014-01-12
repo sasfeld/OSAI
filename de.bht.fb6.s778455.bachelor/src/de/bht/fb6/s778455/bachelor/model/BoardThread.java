@@ -138,8 +138,6 @@ public class BoardThread extends AUserContribution {
 		builder.append( getModificationDate() );
 		builder.append( ", getCreationDate()=" );
 		builder.append( getCreationDate() );
-		builder.append( ", getCreator()=" );
-		builder.append( getCreator() );
 		builder.append( ", getTitle()=" );
 		builder.append( getTitle() );
 		builder.append( "]" );

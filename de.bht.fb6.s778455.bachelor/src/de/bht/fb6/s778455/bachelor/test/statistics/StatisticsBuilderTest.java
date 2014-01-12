@@ -65,18 +65,18 @@ public class StatisticsBuilderTest {
 		// posting
 		Posting p = new Posting( dummyThread );
 		// add some test tags
-		p.addTag( new Tag( 8.0, "testtag", "some uri" ), TagType.TOPIC_ZOOM );
-		p.addTag( new Tag( 4.0, "testtag2", "some uri" ), TagType.TOPIC_ZOOM );
-		p.addTag( new Tag( 3.0, "testtag3", "some uri" ), TagType.TOPIC_ZOOM );
-		p.addTag( new Tag( 2.0, "testtag4", "some uri" ), TagType.TOPIC_ZOOM );
-		p.addTag( new Tag( 1.0, "testtag5", "some uri" ), TagType.TOPIC_ZOOM );
-		p.addTag( new Tag( 0.626123, "testtag6", "some uri" ),
+		p.addTag( new Tag( 8.0, "testtag", "some uri", TagType.TOPIC_ZOOM  ), TagType.TOPIC_ZOOM );
+		p.addTag( new Tag( 4.0, "testtag2", "some uri", TagType.TOPIC_ZOOM  ), TagType.TOPIC_ZOOM );
+		p.addTag( new Tag( 3.0, "testtag3", "some uri", TagType.TOPIC_ZOOM  ), TagType.TOPIC_ZOOM );
+		p.addTag( new Tag( 2.0, "testtag4", "some uri", TagType.TOPIC_ZOOM  ), TagType.TOPIC_ZOOM );
+		p.addTag( new Tag( 1.0, "testtag5", "some uri", TagType.TOPIC_ZOOM  ), TagType.TOPIC_ZOOM );
+		p.addTag( new Tag( 0.626123, "testtag6", "some uri", TagType.TOPIC_ZOOM  ),
 				TagType.TOPIC_ZOOM );
-		p.addTag( new Tag( 0.1351533, "testtag7", "some uri" ),
+		p.addTag( new Tag( 0.1351533, "testtag7", "some uri", TagType.TOPIC_ZOOM  ),
 				TagType.TOPIC_ZOOM );
-		p.addTag( new Tag( 5, "nertag1", "some uri" ), TagType.NER_TAGS );
-		p.addTag( new Tag( 4, "nertag2", "some uri" ), TagType.NER_TAGS );
-		p.addTag( new Tag( 3, "nertag3", "some uri" ), TagType.NER_TAGS );
+		p.addTag( new Tag( 5, "nertag1", "some uri", TagType.NER_TAGS ), TagType.NER_TAGS );
+		p.addTag( new Tag( 4, "nertag2", "some uri", TagType.NER_TAGS ), TagType.NER_TAGS );
+		p.addTag( new Tag( 3, "nertag3", "some uri", TagType.NER_TAGS ), TagType.NER_TAGS );
 		dummyThread.addPosting( p );
 
 		// add a posting without tags
@@ -89,9 +89,9 @@ public class StatisticsBuilderTest {
 		// posting
 		Posting anotherP = new Posting( dummyThread );
 		// add some test tags
-		anotherP.addTag( new Tag( 8.0, "testtag", "some uri" ), TagType.TOPIC_ZOOM );
-		anotherP.addTag( new Tag( 4.0, "testtag2", "some uri" ), TagType.TOPIC_ZOOM );
-		anotherP.addTag( new Tag( 5, "nertag1", "some uri" ), TagType.NER_TAGS );
+		anotherP.addTag( new Tag( 8.0, "testtag", "some uri", TagType.TOPIC_ZOOM ), TagType.TOPIC_ZOOM );
+		anotherP.addTag( new Tag( 4.0, "testtag2", "some uri", TagType.TOPIC_ZOOM ), TagType.TOPIC_ZOOM );
+		anotherP.addTag( new Tag( 5, "nertag1", "some uri", TagType.TOPIC_ZOOM ), TagType.NER_TAGS );
 		anotherThread.addPosting( anotherP );
 
 		return coll;

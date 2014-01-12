@@ -3,6 +3,7 @@
  */
 package de.bht.fb6.s778455.bachelor.model;
 
+
 /**
  * <p>This class realizes the represenation of a tag extracted by Stanford NLP using Named Entity Recognition (NER).</p>
  *
@@ -17,7 +18,7 @@ public class NerTag extends Tag {
 	protected String classifierLabel;
 	
 	public NerTag( String classifierLabel, double weight, String value, String uri ) {
-		super( weight, value, uri );	
+		super( weight, value, uri , TagType.NER_TAGS);	
 		
 		this.classifierLabel = classifierLabel;
 	}

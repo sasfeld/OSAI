@@ -3,6 +3,7 @@
  */
 package de.bht.fb6.s778455.bachelor.model;
 
+
 /**
  * <p>This class describes Tags recieved by the Topic Zoom WebTags service.</p>
  *
@@ -23,7 +24,7 @@ public class TopicZoomTag extends Tag {
 	 * @param uri
 	 */
 	public TopicZoomTag(double significance, int degreeGeneralization, double weight, String value, String uri) {
-		super( weight, value, uri );
+		super( weight, value, uri, TagType.TOPIC_ZOOM );
 		
 		this.significance = significance;
 		this.degreeGeneralization = degreeGeneralization;

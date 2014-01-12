@@ -60,11 +60,10 @@ public class Course implements Serializable, IDirectoryPortable {
 	protected String lang;
 	protected Date creationDate;
 	protected Date modificationDate;
-	protected User docent;
 	protected List< Board > boards;
 	protected PersonNameCorpus personNameCorpus;
 	protected Map< LearnedWordTypes, Set< String > > learnedWords;
-	private String url;
+	protected String url;
 	protected Map< TagType, List< Tag > > tagMap;
 
 	/**
@@ -193,12 +192,6 @@ public class Course implements Serializable, IDirectoryPortable {
 		return this;
 	}
 
-	/**
-	 * @return the docent
-	 */
-	public User getDocent() {
-		return docent;
-	}
 
 	/**
 	 * @return the shortName
@@ -278,15 +271,6 @@ public class Course implements Serializable, IDirectoryPortable {
 		return null; // not found
 	}
 
-	/**
-	 * @param docent
-	 *            the docent to set
-	 * @return
-	 */
-	public Course setDocent( User docent ) {
-		this.docent = docent;
-		return this;
-	}
 
 	/**
 	 * <p>
@@ -579,7 +563,7 @@ public class Course implements Serializable, IDirectoryPortable {
 		}		
 		
 		
-		Tag newTag = new TopicZoomTag( significance, degreegeneralization, weight, name, uri );
+		Tag newTag = new TopicZoomTag( significance, degreegeneralization, weight, name, uri);
 		this.addTag(newTag, TagType.TOPIC_ZOOM);
 	}
 	
@@ -595,7 +579,6 @@ public class Course implements Serializable, IDirectoryPortable {
 		result = prime * result + ( ( boards == null ) ? 0 : boards.hashCode() );
 		result = prime * result
 				+ ( ( creationDate == null ) ? 0 : creationDate.hashCode() );
-		result = prime * result + ( ( docent == null ) ? 0 : docent.hashCode() );
 		result = prime * result + id;
 		result = prime * result + ( ( lang == null ) ? 0 : lang.hashCode() );
 		result = prime * result
@@ -640,11 +623,6 @@ public class Course implements Serializable, IDirectoryPortable {
 			if( other.creationDate != null )
 				return false;
 		} else if( !creationDate.equals( other.creationDate ) )
-			return false;
-		if( docent == null ) {
-			if( other.docent != null )
-				return false;
-		} else if( !docent.equals( other.docent ) )
 			return false;
 		if( id != other.id )
 			return false;
@@ -711,8 +689,6 @@ public class Course implements Serializable, IDirectoryPortable {
 		builder.append( getModificationDate() );
 		builder.append( ", getId()=" );
 		builder.append( getId() );
-		builder.append( ", getDocent()=" );
-		builder.append( getDocent() );
 		builder.append( ", getShortName()=" );
 		builder.append( getShortName() );
 		builder.append( ", getSummary()=" );
