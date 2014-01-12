@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2013 Sascha Feldmann (sascha.feldmann@gmx.de) 
  */
-package de.bht.fb6.s778455.bachelor.importer.luebeck;
+package de.bht.fb6.s778455.bachelor.importer.moodle;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -31,7 +31,7 @@ import de.bht.fb6.s778455.bachelor.organization.xml.XmlExtractor;
  * @since 03.01.2014
  * 
  */
-public class LuebeckXmlImporterStrategy extends AImportStrategy {
+public class MoodleXmlImporterStrategy extends AImportStrategy {
 
 	/*
 	 * (non-Javadoc)

@@ -15,7 +15,7 @@ import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
 import de.bht.fb6.s778455.bachelor.exporter.experimental.DirectoryExportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy;
-import de.bht.fb6.s778455.bachelor.importer.luebeck.LuebeckXmlImporterStrategy;
+import de.bht.fb6.s778455.bachelor.importer.moodle.MoodleXmlImporterStrategy;
 import de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader;
 import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
@@ -61,7 +61,7 @@ public class AnonymizationController {
 							.getConfigReader()
 							.fetchValue(
 									IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_DATAFOLDER ) );
-		} else if( importStrategy instanceof LuebeckXmlImporterStrategy ) {
+		} else if( importStrategy instanceof MoodleXmlImporterStrategy ) {
 			this.configuredDataFile = new File( ServiceFactory
 					.getConfigReader().fetchValue(
 							IConfigKeys.IMPORT_STRATEGY_LUEBECK_DATA ) );

@@ -14,28 +14,28 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import de.bht.fb6.s778455.bachelor.importer.luebeck.LuebeckXmlImporterStrategy;
+import de.bht.fb6.s778455.bachelor.importer.moodle.MoodleXmlImporterStrategy;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 
 /**
- * <p>This class contains tests of the {@link LuebeckXmlImporterStrategy}.</p>
+ * <p>This class contains tests of the {@link MoodleXmlImporterStrategy}.</p>
  *
  * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
  * @since 03.01.2014
  *
  */
 public class LuebeckXmlImporterStrategyTest {
-	private LuebeckXmlImporterStrategy strategy;
+	private MoodleXmlImporterStrategy strategy;
 
 	/**
 	 * @throws java.lang.Exception
 	 */
 	@Before
 	public void setUp() throws Exception {
-		this.strategy = new LuebeckXmlImporterStrategy();
+		this.strategy = new MoodleXmlImporterStrategy();
 	}
 
 	/**
@@ -51,7 +51,7 @@ public class LuebeckXmlImporterStrategyTest {
 	 * Test protected method.
 	 */
 	public void testImportCourses() throws NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
-		Method method = LuebeckXmlImporterStrategy.class
+		Method method = MoodleXmlImporterStrategy.class
 				.getDeclaredMethod( "importCourses", File.class );
 		method.setAccessible( true );
 		
