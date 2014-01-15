@@ -48,6 +48,13 @@ public class NerExtractionStrategyTest {
 		this.strategy = null;
 	}
 
+	@Test( expected = IllegalArgumentException.class )
+	public void testWrongClassifier() {
+		File englishCorpusFile = new File( ServiceFactory.getConfigReader()
+				.fetchValue( IConfigKeys.ANONYM_NER_ENGLISH_4CLASS_FILE ) );
+		new GermanNerExtractionStrategy( englishCorpusFile );
+	}
+
 	@Test
 	public void testExtractSemantics() throws GeneralLoggingException {
 		// create sample posting
