@@ -15,11 +15,12 @@ import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
-import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.ner.NerExtractionStrategy;
+import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.ner.ANerExtractionStrategy;
+import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.ner.GermanNerExtractionStrategy;
 
 /**
  * <p>
- * This class contains tests of the {@link NerExtractionStrategy}
+ * This class contains tests of the {@link ANerExtractionStrategy}
  * </p>
  * 
  * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
@@ -27,7 +28,7 @@ import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.ner.NerExtractionStra
  * 
  */
 public class NerExtractionStrategyTest {
-	protected NerExtractionStrategy strategy;
+	protected ANerExtractionStrategy strategy;
 
 	/**
 	 * @throws java.lang.Exception
@@ -36,7 +37,7 @@ public class NerExtractionStrategyTest {
 	public void setUp() throws Exception {
 		File corpusFile = new File( ServiceFactory.getConfigReader()
 				.fetchValue( IConfigKeys.ANONYM_NER_GERMAN_HGC_FILE ) );
-		this.strategy = new NerExtractionStrategy( corpusFile );
+		this.strategy = new GermanNerExtractionStrategy( corpusFile );
 	}
 
 	/**
