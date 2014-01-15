@@ -23,6 +23,11 @@ import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
  * This class offers methods to parse postgre sql dump files.
  * </p>
  * 
+ * <p>
+ * The command to create the dump file must contain the '-c' option.<br />
+ * It implies that 'copy' statements are used.
+ * </p>
+ * 
  * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
  * @since 11.12.2013
  * 
