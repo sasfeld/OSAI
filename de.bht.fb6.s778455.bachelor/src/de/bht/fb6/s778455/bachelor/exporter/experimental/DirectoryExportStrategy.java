@@ -73,7 +73,7 @@ public class DirectoryExportStrategy extends AExportStrategy {
 		for( Course course : anonymizedCourses ) {
 			this.createCourseDir( outputFile, course );
 		}
-		return false;
+		return true;
 	}
 
 	/**

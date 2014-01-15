@@ -91,7 +91,7 @@ public class DirectoryImportStrategyTest {
 				int i = 0;
 				// test sorting of threads (the timestamps from the postings are
 				// used to determine the creation date)
-				for( BoardThread boardThread : board
+				for( @SuppressWarnings( "unused" ) BoardThread boardThread : board
 						.getBoardThreads() ) {
 					if( 0 == i ) { // timestamp is smaller -> so it should be
 									// first in the list

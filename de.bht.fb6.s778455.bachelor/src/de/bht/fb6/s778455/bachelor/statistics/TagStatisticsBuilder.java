@@ -44,6 +44,7 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 	 * de.bht.fb6.s778455.bachelor.statistics.AStatisticsBuilder#buildStatistics
 	 * (java.util.Collection)
 	 */
+	@SuppressWarnings( "unused" )
 	public StatisticsModel buildStatistics( final Collection< Course > courses ) {
 		final StatisticsModel model = super.buildStatistics( courses );
 
