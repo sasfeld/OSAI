@@ -15,7 +15,7 @@ import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
-import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.NerExtractionStrategy;
+import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.ner.NerExtractionStrategy;
 
 /**
  * <p>

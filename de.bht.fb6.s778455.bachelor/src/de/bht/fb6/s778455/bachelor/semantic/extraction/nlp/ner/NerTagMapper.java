@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2013-2014 Sascha Feldmann (sascha.feldmann@gmx.de) 
  */
-package de.bht.fb6.s778455.bachelor.semantic.extraction.nlp;
+package de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.ner;
 
 import java.util.Set;
 import java.util.regex.Matcher;
