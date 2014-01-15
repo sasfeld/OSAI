@@ -24,7 +24,9 @@ import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
  */
 public class NerTagMapper {
 	public enum MappableLabels {
-		ORGANIZATION, LOCATION, MISC;
+		GERMAN_ORGANIZATION, GERMAN_LOCATION, GERMAN_MISC,
+		ENGLISH_LOCATION, ENGLISH_ORGANIZATION, ENGLISH_MISC, ENGLISH_TIME, ENGLISH_MONEY,
+		ENGLISH_PERCENT, ENGLISH_DATE;
 
 		/**
 		 * Get the {@link MappableLabels} for the given classifier label by
@@ -36,11 +38,25 @@ public class NerTagMapper {
 		public MappableLabels getLabel( String classifierLabel ) {
 			switch( classifierLabel.trim().toLowerCase() ) {
 			case "i-org":
-				return ORGANIZATION;
+				return GERMAN_ORGANIZATION;
 			case "i-loc":
-				return LOCATION;
+				return GERMAN_LOCATION;
 			case "i-misc":
-				return MISC;
+				return GERMAN_MISC;
+			case "location":
+				return ENGLISH_LOCATION;
+			case "organization":
+				return ENGLISH_ORGANIZATION;
+			case "misc":
+				return ENGLISH_MISC;
+			case "time":
+				return ENGLISH_TIME;
+			case "money":
+				return ENGLISH_MONEY;
+			case "percent":
+				return ENGLISH_PERCENT;
+			case "date":
+				return ENGLISH_DATE;
 			default:
 				return null;
 			}
@@ -53,12 +69,27 @@ public class NerTagMapper {
 		 */
 		public String getClassifierLabel() {
 			switch( this ) {
-			case ORGANIZATION:
+			case GERMAN_ORGANIZATION:
 				return "I-ORG";
-			case LOCATION:
+			case GERMAN_LOCATION:
 				return "I-LOC";
-			case MISC:
+			case GERMAN_MISC:
 				return "I-MISC";
+			case ENGLISH_DATE:
+				return "DATE";
+			case ENGLISH_LOCATION:
+				return "LOCATION";
+			case ENGLISH_MISC:
+				return "MISC";
+			case ENGLISH_MONEY:
+				return "MONEY";
+			case ENGLISH_ORGANIZATION:
+				return "ORGANIZATION";
+			case ENGLISH_PERCENT:
+				return "PERCENT";
+			case ENGLISH_TIME:
+				return "TIME";
+						
 			default:
 				return null; // can't happen
 			}

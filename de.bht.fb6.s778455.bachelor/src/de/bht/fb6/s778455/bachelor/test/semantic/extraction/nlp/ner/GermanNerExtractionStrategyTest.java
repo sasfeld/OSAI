@@ -1,7 +1,9 @@
 /**
  * Copyright (c) 2013-2014 Sascha Feldmann (sascha.feldmann@gmx.de) 
  */
-package de.bht.fb6.s778455.bachelor.test.semantic.extraction.nlp;
+package de.bht.fb6.s778455.bachelor.test.semantic.extraction.nlp.ner;
+
+import static org.junit.Assert.assertTrue;
 
 import java.io.File;
 
@@ -27,7 +29,7 @@ import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.ner.GermanNerExtracti
  * @since 09.01.2014
  * 
  */
-public class NerExtractionStrategyTest {
+public class GermanNerExtractionStrategyTest {
 	protected ANerExtractionStrategy strategy;
 
 	/**
@@ -63,6 +65,9 @@ public class NerExtractionStrategyTest {
 				.setContent( "Warst du schonmal in Berlin?\nAlbert Einstein war in der Brandenburgischen Akademie der Wissenschaften." );
 
 		this.strategy.extractSemantics( samplePosting );
+
+		assertTrue( null != samplePosting.getTags( TagType.NER_TAGS ) );
+		assertTrue( samplePosting.getTags( TagType.NER_TAGS ).size() > 0 );
 
 		System.out.println( samplePosting.getTags( TagType.NER_TAGS ) );
 

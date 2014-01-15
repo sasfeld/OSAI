@@ -49,7 +49,7 @@ public class EnglishNerExtractionStrategy extends ANerExtractionStrategy {
 	 */
 	@Override
 	public List< String > getExpectedNerTags() {
-		return this.getExpectedNerTags();
+		return this.expectedNerTags;
 	}
 
 }
