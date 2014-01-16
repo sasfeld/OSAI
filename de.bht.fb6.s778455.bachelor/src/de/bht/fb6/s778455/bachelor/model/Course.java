@@ -82,6 +82,7 @@ public class Course implements Serializable, IDirectoryPortable {
 
 	private void _initialize() {
 		this.tagMap = new HashMap< TagType, List< Tag > >();
+		this.language = Language.UNKNOWN;
 	}
 
 	/**

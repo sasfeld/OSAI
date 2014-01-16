@@ -11,6 +11,7 @@ import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
 import de.bht.fb6.s778455.bachelor.exporter.experimental.DirectoryExportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.Language;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
 import de.bht.fb6.s778455.bachelor.statistics.AStatisticsBuilder;
@@ -27,256 +28,288 @@ import de.bht.fb6.s778455.bachelor.statistics.TagStatisticsBuilder;
  * 
  */
 public class SemanticExtractionCliController {
-	protected SemanticExtractionController semanticExtractionController;
-	protected File inputFile;
-	protected File outputFile;
+    protected SemanticExtractionController semanticExtractionController;
+    protected File inputFile;
+    protected File outputFile;
 
-	protected AImportStrategy importStrategy;
-	protected AExportStrategy exportStrategy;
-	protected Collection< Course > rawCourses;
-	protected Collection< Course > enrichedCourses;
+    protected AImportStrategy importStrategy;
+    protected AExportStrategy exportStrategy;
+    protected Collection< Course > rawCourses;
+    protected Collection< Course > enrichedCourses;
 
-	protected int numberImportedCourses;
-	private long extractionStartTime;
-	private long extractionStopTime;
+    protected int numberImportedCourses;
+    protected long extractionStartTime;
+    protected long extractionStopTime;
+    private final boolean statisticsMode;
 
-	public SemanticExtractionCliController( final File finputFile,
-			final File foutputFile ) throws InvalidConfigException {
-		this.semanticExtractionController = new SemanticExtractionController();
-		this.semanticExtractionController.setPrintInfo( true );
+    public SemanticExtractionCliController( final File finputFile,
+            final File foutputFile, final boolean statisticsMode )
+            throws InvalidConfigException {
+        if( !statisticsMode ) {
+            this.semanticExtractionController = new SemanticExtractionController(
+                    true );
+        }
 
-		this.inputFile = finputFile;
-		this.outputFile = foutputFile;
+        this.statisticsMode = statisticsMode;
 
-		this.importStrategy = new de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy();
-		this.exportStrategy = new DirectoryExportStrategy();
-	}
+        this.inputFile = finputFile;
+        this.outputFile = foutputFile;
 
-	/**
-	 * Perform the import delegation to the given import strategy.
-	 * 
-	 * @return true on success
-	 * @throws GeneralLoggingException
-	 */
-	public boolean performImport() throws GeneralLoggingException {
-		this.rawCourses = this.importStrategy
-				.importBoardFromFile( this.inputFile );
-		this.numberImportedCourses = this.rawCourses.size();
+        this.importStrategy = new de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy();
+        this.exportStrategy = new DirectoryExportStrategy();
+    }
 
-		return true;
-	}
+    /**
+     * Perform the import delegation to the given import strategy.
+     * 
+     * @return true on success
+     * @throws GeneralLoggingException
+     */
+    public boolean performImport() throws GeneralLoggingException {
+        this.rawCourses = this.importStrategy
+                .importBoardFromFile( this.inputFile );
+        this.numberImportedCourses = this.rawCourses.size();
 
-	/**
-	 * Perform the semantic extraction.
-	 * 
-	 * @return
-	 * @throws InvalidConfigException
-	 */
-	public boolean performExtraction() throws InvalidConfigException {
-		if( null == this.rawCourses ) {
-			throw new IllegalStateException(
-					"performAnonymization() must be called after performImport()! Maybe the import wasn't succesful." );
-		}
+        return true;
+    }
 
-		this.extractionStartTime = new Date().getTime();
-		this.enrichedCourses = this.semanticExtractionController
-				.performSemanticExtraction( this.rawCourses );
-		this.extractionStopTime = new Date().getTime();
+    /**
+     * Perform the semantic extraction.
+     * 
+     * @return
+     * @throws InvalidConfigException
+     */
+    public boolean performExtraction() throws InvalidConfigException {
+        if( null == this.rawCourses || this.statisticsMode ) {
+            throw new IllegalStateException(
+                    "performAnonymization() must be called after performImport()! Maybe the import wasn't succesful." );
+        }
 
-		// really erase the raw material
-		this.rawCourses = null;
+        this.extractionStartTime = new Date().getTime();
+        this.enrichedCourses = this.semanticExtractionController
+                .performSemanticExtraction( this.rawCourses );
+        this.extractionStopTime = new Date().getTime();
 
-		return true;
-	}
+        // really erase the raw material
+        this.rawCourses = null;
 
-	/**
-	 * Perform the export on the given {@link AExportStrategy}.
-	 * 
-	 * @return
-	 * @throws GeneralLoggingException
-	 */
-	public boolean performExport() throws GeneralLoggingException {
-		if( null == this.enrichedCourses ) {
-			throw new IllegalStateException(
-					"performExport() must be called after performAnonymization()! Maybe the anonymization wasn't succesful." );
-		}
+        return true;
+    }
 
-		this.exportStrategy
-				.exportToFile( this.enrichedCourses, this.outputFile );
+    /**
+     * Perform the export on the given {@link AExportStrategy}.
+     * 
+     * @return
+     * @throws GeneralLoggingException
+     */
+    public boolean performExport() throws GeneralLoggingException {
+        if( null == this.enrichedCourses || this.statisticsMode ) {
+            throw new IllegalStateException(
+                    "performExport() must be called after performAnonymization()! Maybe the anonymization wasn't succesful." );
+        }
 
-		return true;
-	}
+        this.exportStrategy
+                .exportToFile( this.enrichedCourses, this.outputFile );
 
-	/**
-	 * Get a string containing statistics.
-	 * 
-	 * @return
-	 */
-	public String getStatistics( boolean showTime ) {
-		StringBuilder statisticsBuilder = new StringBuilder();
+        return true;
+    }
 
-		if( showTime ) {
-			long elapsedTime = this.extractionStopTime
-					- this.extractionStartTime;
-			statisticsBuilder.append( "Elapsed time (seconds): " + elapsedTime );
-		}
+    /**
+     * Get a string containing statistics.
+     * 
+     * @return
+     */
+    public String getStatistics( final boolean showTime ) {
+        final StringBuilder statisticsBuilder = new StringBuilder();
 
-		statisticsBuilder.append( this.semanticExtractionController
-				.getStatistics( this.rawCourses ) );
-		return statisticsBuilder.toString();
-	}
-	
-	/**
-	 * Get statistics about enriched tags. This method will be perfomed on the given collection of {@link Course}.
-	 * @return
-	 */
-	public String getTagStatistics(final Collection< Course > collection) {
-		AStatisticsBuilder builder = new GeneralStatisticsBuilder( new TagStatisticsBuilder() );
-		
-		return builder.buildStatistics( collection ).toString();
-	}
+        if( showTime ) {
+            final long elapsedTime = this.extractionStopTime
+                    - this.extractionStartTime;
+            statisticsBuilder.append( "Elapsed time (seconds): " + elapsedTime );
+        }
 
-	public static void main( String[] args ) {
-		System.out.println( "..:: Semantic extraction tool ::.." );
-		System.out.println( "Welcome!" );
-		System.out.println( "" );
-		System.out.println( "Append --help for a help text." );
-		System.out.println( "" );
+        if( !this.statisticsMode ) {
+            statisticsBuilder.append( this.semanticExtractionController
+                    .getStatistics( this.rawCourses ) );
+        }
+        return statisticsBuilder.toString();
+    }
 
-		// read args
-		int ind = 0;
-		String inputFile = null;
-		String outputFile = null;
+    /**
+     * Get statistics about enriched tags. This method will be perfomed on the
+     * given collection of {@link Course}.
+     * 
+     * @return
+     */
+    public String getTagStatistics( final Collection< Course > collection ) {
+        final AStatisticsBuilder builder = new GeneralStatisticsBuilder(
+                new TagStatisticsBuilder() );
 
-		if( 0 == args.length || args[0].equals( "--help" ) ) {
-			System.out.println( printHelp() );
-			return;
-		}
+        return builder.buildStatistics( collection ).toString();
+    }
 
-		boolean statisticsMode = false;
-		// read options
-		for( String arg : args ) {
-			String argPrepared = arg.trim().toLowerCase();
-			System.out.println( argPrepared );
-			if( argPrepared.equals( "-inputfile" ) ) {
-				inputFile = ( ( ind + 1 ) < args.length ) ? args[ind + 1]
-						: null;
-			} else if( argPrepared.equals( "-outputfile" ) ) {
-				outputFile = ( ( ind + 1 ) < args.length ) ? args[ind + 1]
-						: null;
-			} else if( argPrepared.equals( "--statistics" ) ) {
-				statisticsMode = true;
-			}
-			ind++;
-		}
+    public static void main( final String[] args ) {
+        System.out.println( "..:: Semantic extraction tool ::.." );
+        System.out.println( "Welcome!" );
+        System.out.println( "" );
+        System.out.println( "Append --help for a help text." );
+        System.out.println( "" );
 
-		// validate
-		if( null == inputFile ) {
-			System.err
-					.println( "No inputFile given. Please give a fully qualified path after the '-inputFile' key." );
-		} else if( null == outputFile ) {
-			System.err
-					.println( "No outputtFile given. Please give a fully qualified path after the '-outputFile' key." );
-		}
+        // read args
+        int ind = 0;
+        String inputFile = null;
+        String outputFile = null;
 
-		// instantiate files and controller
-		File finputFile = new File( inputFile );
-		File foutputFile = new File( outputFile );
+        if( 0 == args.length || args[0].equals( "--help" ) ) {
+            System.out.println( printHelp() );
+            return;
+        }
 
-		if( !finputFile.exists() ) {
-			System.err
-					.println( "The given inputFile doesn't exist: "
-							+ inputFile
-							+ ". Make sure that you appended the correct file and retry." );
-		} else if( !foutputFile.exists() ) {
-			System.err
-					.println( "The given outputFile doesn't exist: "
-							+ outputFile
-							+ ". Make sure that you appended the correct file and retry." );
-		}
+        boolean statisticsMode = false;
+        String forceLang = "";
+        // read options
+        for( final String arg : args ) {
+            final String argPrepared = arg.trim().toLowerCase();
+            System.out.println( argPrepared );
+            if( argPrepared.equals( "-inputfile" ) ) {
+                inputFile = ( ( ind + 1 ) < args.length ) ? args[ind + 1]
+                        : null;
+            } else if( argPrepared.equals( "-outputfile" ) ) {
+                outputFile = ( ( ind + 1 ) < args.length ) ? args[ind + 1]
+                        : null;
+            } else if( argPrepared.equals( "--statistics" ) ) {
+                statisticsMode = true;
+            } else if( argPrepared.equals( "-forcelang" ) ) {
+                forceLang = ( ( ind + 1 ) < args.length ) ? args[ind + 1] : "";
+            }
+            ind++;
+        }
 
-		SemanticExtractionCliController controller = null;
-		try {
-			controller = new SemanticExtractionCliController( finputFile,
-					foutputFile );
-			System.out.println( "Controller is initialized..." );
-			System.out.println( "Input file: " + inputFile );
-			System.out.println( "Output file: " + outputFile );
-			System.out.println( "Statistics mode: "
-					+ ( statisticsMode ? "enabled" : "disabled" ) );
+        // validate
+        if( null == inputFile ) {
+            System.err
+                    .println( "No inputFile given. Please give a fully qualified path after the '-inputFile' key." );
+        } else if( null == outputFile ) {
+            System.err
+                    .println( "No outputtFile given. Please give a fully qualified path after the '-outputFile' key." );
+        }
 
-		} catch( InvalidConfigException e ) {
-			System.err.println( "Controller couldn't get initialized. Error: "
-					+ e.getLocalizedMessage() );
-			return;
-		}
+        // instantiate files and controller
+        final File finputFile = new File( inputFile );
+        final File foutputFile = new File( outputFile );
 
-		// perform import
-		try {
-			System.out.println( "Starting import...\n\n" );
-			controller.performImport();
-		} catch( GeneralLoggingException e ) {
-			System.err.println( "An error occured: " + e.getLocalizedMessage() );
-			return;
-		}
-		System.out.println( "Import was successfull!\n\n" );
+        if( !finputFile.exists() ) {
+            System.err
+                    .println( "The given inputFile doesn't exist: "
+                            + inputFile
+                            + ". Make sure that you appended the correct file and retry." );
+        } else if( !foutputFile.exists() ) {
+            System.err
+                    .println( "The given outputFile doesn't exist: "
+                            + outputFile
+                            + ". Make sure that you appended the correct file and retry." );
+        }
 
-		// statistics
-		System.out.println( controller.getStatistics( false ) );
+        final String lang = forceLang.trim().toLowerCase();
+        if( !lang.equals( "" ) && null == Language.getFromString( lang ) ) {
+            System.err.println( "The given language doesn't exist: " + lang
+                    + ". Make sure to use one of these options: "
+                    + Language.values() );
+        }
 
-		// perform extraction
-		if( !statisticsMode ) {
-			try {
-				System.out.println( "Starting extraction...\n\n" );
-				controller.performExtraction();
-			} catch( GeneralLoggingException e ) {
-				System.err.println( "An error occured: "
-						+ e.getLocalizedMessage() );
-				return;
-			}
-			System.out.println( "Extraction was successfull!\n\n" );
+        SemanticExtractionCliController controller = null;
+        try {
+            controller = new SemanticExtractionCliController( finputFile,
+                    foutputFile, statisticsMode );
 
-			// perform export
-			try {
-				System.out.println( "Starting export..." );
-				controller.performExport();
-			} catch( GeneralLoggingException e ) {
-				System.err.println( "An error occured: "
-						+ e.getLocalizedMessage() );
-				return;
-			}
-			System.out.println( "Export was successfull!\n\n" );
-		} else {
-			System.out.println(controller.getTagStatistics(controller.rawCourses));
-		}
+            if( !lang.equals( "" ) ) {
+                controller.setForcedLanguage( Language.getFromString( lang ) );
+            }
+            System.out.println( "Controller is initialized..." );
+            System.out.println( "Input file: " + inputFile );
+            System.out.println( "Output file: " + outputFile );
+            System.out.println( "Statistics mode: "
+                    + ( statisticsMode ? "enabled" : "disabled" ) );
 
-		System.out.println( controller.getStatistics( true ) );
-		System.out
-				.println( "See the posting files saved in your outputFolder. The postings are now enriched with tags and stuff.\n\n" );
-		System.out.println( "Goodbye :)" );
-	}
+        } catch( final InvalidConfigException e ) {
+            System.err.println( "Controller couldn't get initialized. Error: "
+                    + e.getLocalizedMessage() );
+            return;
+        }
 
+        // perform import
+        try {
+            System.out.println( "Starting import...\n\n" );
+            controller.performImport();
+        } catch( final GeneralLoggingException e ) {
+            System.err.println( "An error occured: " + e.getLocalizedMessage() );
+            return;
+        }
+        System.out.println( "Import was successfull!\n\n" );
 
-	private static String printHelp() {
-		StringBuilder helpBuilder = new StringBuilder();
+        // perform extraction
+        if( !statisticsMode ) {
+            try {
+                // statistics
+                System.out.println( controller.getStatistics( false ) );
 
-		helpBuilder.append( "..:: HELP ::..\n" );
-		helpBuilder
-				.append( "The semantic extraction tool takes a folder containing e learning courses and their boards, threads and postings to enrich them semantical.\n" );
-		helpBuilder
-				.append( "The structure of the file system must follow the one described in the documentation (see FileSystemImportStrategy).\n" );
-		helpBuilder
-				.append( "In general, the structure was created by the anonymization module after it anonymized postings from different sources.\n" );
-		helpBuilder
-				.append( "Make sure, that you configured the semantic extraction chain in the semantics.properties config file.\n" );
-		helpBuilder.append( "\n" );
-		helpBuilder.append( "Required arguments:\n\n" );
-		helpBuilder.append( "-inputfile [FILE]\n" );
-		helpBuilder.append( "-outputfile [FILE]\n" );
-		helpBuilder.append( "\n\n" );
-		helpBuilder
-				.append( "Append --statistics if you want an overview statistics about the number of tags in relation to the number of postings." );
+                System.out.println( "Starting extraction...\n\n" );
+                controller.performExtraction();
+            } catch( final GeneralLoggingException e ) {
+                System.err.println( "An error occured: "
+                        + e.getLocalizedMessage() );
+                return;
+            }
+            System.out.println( "Extraction was successfull!\n\n" );
 
-		return helpBuilder.toString();
-	}
+            // perform export
+            try {
+                System.out.println( "Starting export..." );
+                controller.performExport();
+            } catch( final GeneralLoggingException e ) {
+                System.err.println( "An error occured: "
+                        + e.getLocalizedMessage() );
+                return;
+            }
+            System.out.println( "Export was successfull!\n\n" );
+        } else {
+            System.out.println( controller
+                    .getTagStatistics( controller.rawCourses ) );
+        }
+
+        System.out.println( controller.getStatistics( true ) );
+        System.out
+                .println( "See the posting files saved in your outputFolder. The postings are now enriched with tags and stuff.\n\n" );
+        System.out.println( "Goodbye :)" );
+    }
+
+    private void setForcedLanguage( final Language valueOf ) {
+        this.semanticExtractionController.setForcedLanguage( valueOf );
+    }
+
+    private static String printHelp() {
+        final StringBuilder helpBuilder = new StringBuilder();
+
+        helpBuilder.append( "..:: HELP ::..\n" );
+        helpBuilder
+                .append( "The semantic extraction tool takes a folder containing e learning courses and their boards, threads and postings to enrich them semantical.\n" );
+        helpBuilder
+                .append( "The structure of the file system must follow the one described in the documentation (see FileSystemImportStrategy).\n" );
+        helpBuilder
+                .append( "In general, the structure was created by the anonymization module after it anonymized postings from different sources.\n" );
+        helpBuilder
+                .append( "Make sure, that you configured the semantic extraction chain in the semantics.properties config file.\n" );
+        helpBuilder.append( "\n" );
+        helpBuilder.append( "Required arguments:\n\n" );
+        helpBuilder.append( "-inputfile [FILE]\n" );
+        helpBuilder.append( "-outputfile [FILE]\n" );
+        helpBuilder.append( "[-forcelang [english,german]]\n" );
+        helpBuilder.append( "\n\n" );
+        helpBuilder
+                .append( "Use the -forcelang option carefully! If the language of the material is really unknown and can't be detected automatically, but you know the exact language, than you should use this option." );
+        helpBuilder
+                .append( "Append --statistics if you want an overview statistics about the number of tags in relation to the number of postings." );
+
+        return helpBuilder.toString();
+    }
 }

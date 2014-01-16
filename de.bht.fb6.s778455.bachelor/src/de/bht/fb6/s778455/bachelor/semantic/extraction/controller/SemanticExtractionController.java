@@ -12,6 +12,7 @@ import de.bht.fb6.s778455.bachelor.model.AUserContribution;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.Language;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
@@ -45,6 +46,7 @@ public class SemanticExtractionController {
     private ArrayList< AExtractionStrategy > germanPosStrategies;
     private ArrayList< AExtractionStrategy > englishPosStrategies;
     private AExtractionStrategy topicZoomStrategy;
+    private Language defaultLang;
 
     /**
      * Create a new semantic extraction controller.
@@ -53,9 +55,18 @@ public class SemanticExtractionController {
      * @throws IllegalArgumentException
      */
     public SemanticExtractionController() throws InvalidConfigException {
-        this.extractionChain = ServiceFactory.getConfigReader()
-                .fetchMultipleValues(
-                        IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_CHAIN );
+        this.initializeStrategies();
+    }
+    
+    /**
+     * Create a new semantic extraction controller.
+     * @param statisticsMode 
+     * 
+     * @throws InvalidConfigException
+     * @throws IllegalArgumentException
+     */
+    public SemanticExtractionController(final boolean showInfo) throws InvalidConfigException {      
+        this.setPrintInfo( showInfo );
 
         this.initializeStrategies();
     }
@@ -66,6 +77,11 @@ public class SemanticExtractionController {
      * @throws InvalidConfigException
      */
     private void initializeStrategies() throws InvalidConfigException {
+        this.extractionChain = ServiceFactory.getConfigReader()
+                .fetchMultipleValues(
+                        IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_CHAIN );
+        this.defaultLang = Language.UNKNOWN;
+        
         for( final String strategy : this.extractionChain ) {
             // try to get class
             Object clazz = null;
@@ -93,7 +109,7 @@ public class SemanticExtractionController {
                         clazz = new GermanNerExtractionStrategy( new File(
                                 ServiceFactory.getConfigReader().fetchValue(
                                         cascadeFile ) ) );
-                        
+
                         if( !( clazz instanceof AExtractionStrategy ) ) {
                             throw new InvalidConfigException(
                                     this.getClass()
@@ -170,7 +186,7 @@ public class SemanticExtractionController {
                     for( final String cascadeFile : germanCascade ) {
                         clazz = new GermanPosExtractionStrategy( new File(
                                 ServiceFactory.getConfigReader().fetchValue(
-                                        cascadeFile ) ) );                        
+                                        cascadeFile ) ) );
                         if( !( clazz instanceof AExtractionStrategy ) ) {
                             throw new InvalidConfigException(
                                     this.getClass()
@@ -203,7 +219,7 @@ public class SemanticExtractionController {
                     for( final String cascadeFile : englishCascade ) {
                         clazz = new EnglishPosExtractionStrategy( new File(
                                 ServiceFactory.getConfigReader().fetchValue(
-                                        cascadeFile ) ) );   
+                                        cascadeFile ) ) );
                         if( !( clazz instanceof AExtractionStrategy ) ) {
                             throw new InvalidConfigException(
                                     this.getClass()
@@ -272,7 +288,10 @@ public class SemanticExtractionController {
 
         for( final Course course : inputCourses ) {
             // separate extraction between languages
-            switch( course.getLanguage() ) {
+            Language entitiesLang = ( Language.UNKNOWN.equals( course
+                    .getLanguage() ) ) ? this.defaultLang : course
+                    .getLanguage();
+            switch( entitiesLang ) {
             case ENGLISH:
                 if( this.printInfo() ) {
                     System.out.println( "Enriching course " + course.getTitle()
@@ -302,11 +321,13 @@ public class SemanticExtractionController {
 
             // go deeper into boards
             for( final Board board : course.getBoards() ) {
-                switch( board.getLang() ) {
+                entitiesLang = ( Language.UNKNOWN.equals( board.getLang() ) ) ? this.defaultLang
+                        : board.getLang();
+                switch( entitiesLang ) {
                 case ENGLISH:
                     if( this.printInfo() ) {
-                        System.out.println( "Enriching course "
-                                + course.getTitle()
+                        System.out.println( "Enriching board "
+                                + board.getTitle()
                                 + "with English strategies...\n" );
                     }
                     this.performExtraction( board, this.englishPosStrategies );
@@ -314,8 +335,8 @@ public class SemanticExtractionController {
                     break;
                 case GERMAN:
                     if( this.printInfo() ) {
-                        System.out.println( "Enriching course "
-                                + course.getTitle()
+                        System.out.println( "Enriching board "
+                                + board.getTitle()
                                 + "with German strategies...\n" );
                     }
                     this.performExtraction( board, this.germanPosStrategies );
@@ -335,11 +356,14 @@ public class SemanticExtractionController {
                 // go deeper into postings
                 for( final BoardThread thread : board.getBoardThreads() ) {
                     for( final Posting posting : thread.getPostings() ) {
-                        switch( posting.getLang() ) {
+                        entitiesLang = ( Language.UNKNOWN.equals( posting
+                                .getLang() ) ) ? this.defaultLang : posting
+                                .getLang();
+                        switch( entitiesLang ) {
                         case ENGLISH:
                             if( this.printInfo() ) {
-                                System.out.println( "Enriching course "
-                                        + course.getTitle()
+                                System.out.println( "Enriching posting "
+                                        + posting.getTitle()
                                         + "with English strategies...\n" );
                             }
                             this.performExtraction( posting,
@@ -349,8 +373,8 @@ public class SemanticExtractionController {
                             break;
                         case GERMAN:
                             if( this.printInfo() ) {
-                                System.out.println( "Enriching course "
-                                        + course.getTitle()
+                                System.out.println( "Enriching posting "
+                                        + posting.getTitle()
                                         + "with German strategies...\n" );
                             }
                             this.performExtraction( posting,
@@ -380,13 +404,15 @@ public class SemanticExtractionController {
 
     private void performExtraction( final Course course,
             final AExtractionStrategy strategy ) {
-        if( this.printInfo ) {
+        if( this.printInfo && null != strategy ) {
             System.out.println( "Performing strategy " + strategy.getClass()
                     + " ..." );
         }
 
         try {
-            strategy.extractSemantics( course );
+            if( null != strategy ) {
+                strategy.extractSemantics( course );
+            }
         } catch( final GeneralLoggingException e ) {
             // continue, was logged already
         }
@@ -395,13 +421,15 @@ public class SemanticExtractionController {
 
     private void performExtraction( final AUserContribution contrib,
             final AExtractionStrategy strategy ) {
-        if( this.printInfo ) {
+        if( this.printInfo  && null != strategy ) {
             System.out.println( "Performing strategy " + strategy.getClass()
                     + " ..." );
         }
 
         try {
-            strategy.extractSemantics( contrib );
+            if( null != strategy ) {
+                strategy.extractSemantics( contrib );
+            }
         } catch( final GeneralLoggingException e ) {
             // continue, was logged already
         }
@@ -464,5 +492,15 @@ public class SemanticExtractionController {
                 .toString() + "\n" );
 
         return statisticsBuilder.toString();
+    }
+
+    /**
+     * Set the default language if it can't be determined for a {@link Course}
+     * or an {@link AUserContribution}.
+     * 
+     * @param defaultLang
+     */
+    public void setForcedLanguage( final Language defaultLang ) {
+        this.defaultLang = defaultLang;
     }
 }

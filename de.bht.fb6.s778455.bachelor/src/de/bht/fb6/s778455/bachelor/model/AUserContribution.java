@@ -44,6 +44,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	
 	private void _initialize() {
 		this.tagMap = new HashMap< TagType, List< Tag > >();
+		this.lang = Language.UNKNOWN;
 	}
 	
 	/**
