@@ -76,6 +76,10 @@ public class DirectoryImportStrategyTest {
 
 		// assert board/course names
 		for( final Course course : resultingSet ) {
+		    System.out.println("Course:\n");
+		    System.out.println(course.getTags( TagType.NER_TAG ) + "\n");
+		    System.out.println(course.getTags( TagType.POS_TAG ) + "\n");
+		    System.out.println(course.getTags( TagType.TOPIC_ZOOM ) + "\n\n\n");
 //			System.out.println("course: " + course);
 //			System.out.println("Number of boards: " + course.getBoards().size());
 			// there should only be one course

@@ -93,6 +93,10 @@ public class DirectoyExportStrategyTest {
 	public void testExport() throws GeneralLoggingException {			
 		final Course course = new Course( "Sample course" );
 		course.setUrl( "http://test.de" );
+		course.addTag( new PosTag( "NN", 0.0, "Beispiel", "beispiel.xad" ), TagType.POS_TAG );
+		course.addTag( new NerTag( "I-LOC", 0.0, "Berlin", "berlin.xad" ), TagType.NER_TAG );
+		course.addTag( new TopicZoomTag( 5, 1, 3, "Berlin", "214152" ), TagType.TOPIC_ZOOM );
+		
 		// input boards
 		final Board sampleBoard1 = new Board( course, "Sample board" );
 		
