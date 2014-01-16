@@ -74,9 +74,9 @@ public class StatisticsBuilderTest {
 				TagType.TOPIC_ZOOM );
 		p.addTag( new Tag( 0.1351533, "testtag7", "some uri", TagType.TOPIC_ZOOM  ),
 				TagType.TOPIC_ZOOM );
-		p.addTag( new Tag( 5, "nertag1", "some uri", TagType.NER_TAGS ), TagType.NER_TAGS );
-		p.addTag( new Tag( 4, "nertag2", "some uri", TagType.NER_TAGS ), TagType.NER_TAGS );
-		p.addTag( new Tag( 3, "nertag3", "some uri", TagType.NER_TAGS ), TagType.NER_TAGS );
+		p.addTag( new Tag( 5, "nertag1", "some uri", TagType.NER_TAG ), TagType.NER_TAG );
+		p.addTag( new Tag( 4, "nertag2", "some uri", TagType.NER_TAG ), TagType.NER_TAG );
+		p.addTag( new Tag( 3, "nertag3", "some uri", TagType.NER_TAG ), TagType.NER_TAG );
 		dummyThread.addPosting( p );
 
 		// add a posting without tags
@@ -91,7 +91,7 @@ public class StatisticsBuilderTest {
 		// add some test tags
 		anotherP.addTag( new Tag( 8.0, "testtag", "some uri", TagType.TOPIC_ZOOM ), TagType.TOPIC_ZOOM );
 		anotherP.addTag( new Tag( 4.0, "testtag2", "some uri", TagType.TOPIC_ZOOM ), TagType.TOPIC_ZOOM );
-		anotherP.addTag( new Tag( 5, "nertag1", "some uri", TagType.TOPIC_ZOOM ), TagType.NER_TAGS );
+		anotherP.addTag( new Tag( 5, "nertag1", "some uri", TagType.TOPIC_ZOOM ), TagType.NER_TAG );
 		anotherThread.addPosting( anotherP );
 
 		return coll;

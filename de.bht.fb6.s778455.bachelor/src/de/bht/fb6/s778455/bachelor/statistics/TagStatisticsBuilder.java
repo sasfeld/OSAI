@@ -100,7 +100,7 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 			}
 
 			// NER tags
-			List< Tag > nerTags = course.getTags( TagType.NER_TAGS );
+			List< Tag > nerTags = course.getTags( TagType.NER_TAG );
 			if( course.isNerTagged() ) {
 				numberNerTags += nerTags.size();
 				numberCoursesNerTags++;
@@ -134,9 +134,9 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 				}
 
 				// NER tags
-				List< Tag > cnerTags = board.getTags( TagType.NER_TAGS );
+				List< Tag > cnerTags = board.getTags( TagType.NER_TAG );
 				if( board.isNerTagged() ) {
-					numberNerTags += board.getTags( TagType.NER_TAGS ).size();
+					numberNerTags += board.getTags( TagType.NER_TAG ).size();
 					numberBoardsNerTags++;
 				}
 
@@ -151,7 +151,7 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 					}
 					if( null != cnerTags ) {
 						distinctTagsForBoards.addAll( board
-								.getTags( TagType.NER_TAGS ) );
+								.getTags( TagType.NER_TAG ) );
 					}
 				}
 
@@ -171,9 +171,9 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 						}
 
 						// NER tags
-						List< Tag > pnerTags = posting.getTags( TagType.NER_TAGS );
+						List< Tag > pnerTags = posting.getTags( TagType.NER_TAG );
 						if( posting.isNerTagged() ) {
-							numberNerTags += posting.getTags( TagType.NER_TAGS )
+							numberNerTags += posting.getTags( TagType.NER_TAG )
 									.size();
 							numberPostingsNerTags++;
 						}
@@ -189,7 +189,7 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 							}
 							if( null != pnerTags ) {
 								distinctTagsForPostings.addAll( posting
-										.getTags( TagType.NER_TAGS ) );
+										.getTags( TagType.NER_TAG ) );
 							}
 						} else { // add posting to untagged list
 							untaggedPostings.add( posting );
@@ -209,7 +209,7 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 		int numberDistinctTzTags = this.getDistinctTags( courses,
 				TagType.TOPIC_ZOOM );
 		int numberDistinctNerTags = this.getDistinctTags( courses,
-				TagType.NER_TAGS );
+				TagType.NER_TAG );
 
 		model.setNumberTopicZoomTaggedPostings( numberPostingsTzTags )
 				.setNumberNerTaggedPostings( numberPostingsNerTags )

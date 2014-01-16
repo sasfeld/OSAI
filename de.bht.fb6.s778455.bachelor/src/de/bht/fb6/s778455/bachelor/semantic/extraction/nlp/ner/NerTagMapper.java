@@ -129,7 +129,7 @@ public class NerTagMapper {
 				
 				// create new NerTag
 				final NerTag newTag = new NerTag( classifierLabel, -1.0, tagContent, "" );
-				contribution.addTag( newTag, TagType.NER_TAGS );
+				contribution.addTag( newTag, TagType.NER_TAG );
 			}
 		}
 
@@ -147,7 +147,7 @@ public class NerTagMapper {
 				
 				// create new NerTag
 				final NerTag newTag = new NerTag( classifierLabel, -1.0, tagContent, "" );
-				course.addTag( newTag, TagType.NER_TAGS );
+				course.addTag( newTag, TagType.NER_TAG );
 			}
 		}
 	}

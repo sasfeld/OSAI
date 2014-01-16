@@ -66,10 +66,10 @@ public class EnglishNerExtractionStrategyTest {
 
 		this.strategy.extractSemantics( samplePosting );
 
-		System.out.println( samplePosting.getTags( TagType.NER_TAGS ) );
+		System.out.println( samplePosting.getTags( TagType.NER_TAG ) );
 
-		assertTrue( null != samplePosting.getTags( TagType.NER_TAGS ) );
-		assertTrue( samplePosting.getTags( TagType.NER_TAGS ).size() > 0 );
+		assertTrue( null != samplePosting.getTags( TagType.NER_TAG ) );
+		assertTrue( samplePosting.getTags( TagType.NER_TAG ).size() > 0 );
 
 	}
 

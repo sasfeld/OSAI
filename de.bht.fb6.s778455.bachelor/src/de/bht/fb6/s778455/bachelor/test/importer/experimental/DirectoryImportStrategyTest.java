@@ -65,23 +65,23 @@ public class DirectoryImportStrategyTest {
 	 * Test of DirectoryImportStrategy#importFromFile(). 
 	 */
 	public void testImportFromFile() throws GeneralLoggingException {
-		File testDir = new File( ServiceFactory.getConfigReader().fetchValue(
+		final File testDir = new File( ServiceFactory.getConfigReader().fetchValue(
 				IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_TESTFOLDER ) );
 
-		Collection< Course > resultingSet = this.importStrategy
+		final Collection< Course > resultingSet = this.importStrategy
 				.importBoardFromFile( testDir );		
 		
 
 		assertTrue( null != resultingSet );
 
 		// assert board/course names
-		for( Course course : resultingSet ) {
-			System.out.println("course: " + course);
-			System.out.println("Number of boards: " + course.getBoards().size());
+		for( final Course course : resultingSet ) {
+//			System.out.println("course: " + course);
+//			System.out.println("Number of boards: " + course.getBoards().size());
 			// there should only be one course
 			assertTrue( course.getTitle().equals( "Sample course" ) );
 
-			for( Board board : course.getBoards() ) {
+			for( final Board board : course.getBoards() ) {
 				System.out.println("board: " + board);
 				// there should be only one board
 				assertTrue( board.getTitle().equals( "Sample board" ) );
@@ -91,7 +91,7 @@ public class DirectoryImportStrategyTest {
 				int i = 0;
 				// test sorting of threads (the timestamps from the postings are
 				// used to determine the creation date)
-				for( @SuppressWarnings( "unused" ) BoardThread boardThread : board
+				for( @SuppressWarnings( "unused" ) final BoardThread boardThread : board
 						.getBoardThreads() ) {
 					if( 0 == i ) { // timestamp is smaller -> so it should be
 									// first in the list
@@ -109,17 +109,18 @@ public class DirectoryImportStrategyTest {
 				}
 
 				// assert postings within a thread
-				List< Posting > postings = board
+				final List< Posting > postings = board
 						.getBoardThreads().get( 0 ).getPostings();
 				assertTrue( null != postings );
 				assertTrue( 2 == postings.size() );
 
 				i = 0;
-				for( Posting posting : postings ) {
-					System.out.println("Posting: \n\n");
-					System.out.println(posting);
+				for( final Posting posting : postings ) {
+//					System.out.println("Posting: \n\n");
+//					System.out.println(posting);
 					System.out.println("posting tags: \n\n\n" + posting.getTags( TagType.TOPIC_ZOOM ) + 
-							"\n" + posting.getTags( TagType.NER_TAGS ) + "\n\n\n");
+							"\n" + posting.getTags( TagType.NER_TAG ) + "\n" 
+							+ posting.getTags( TagType.POS_TAG ) +"\n\n\n");
 					if( 0 == i ) {
 //						assertEquals( 1384093141, posting.getCreationDate()
 //								.getTime() );

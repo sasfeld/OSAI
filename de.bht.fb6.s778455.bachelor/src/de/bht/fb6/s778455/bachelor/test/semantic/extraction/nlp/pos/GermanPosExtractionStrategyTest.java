@@ -51,7 +51,7 @@ public class GermanPosExtractionStrategyTest {
 
     @Test( expected = IllegalArgumentException.class )
     public void testForeignModel() {
-        final GermanPosExtractionStrategy newStrategy = new GermanPosExtractionStrategy(
+        new GermanPosExtractionStrategy(
                 new File( PATH_ENGLISH_MODEL ) );
     }
 

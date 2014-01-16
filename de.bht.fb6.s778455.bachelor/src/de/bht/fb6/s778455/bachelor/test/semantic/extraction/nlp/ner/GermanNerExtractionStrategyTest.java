@@ -66,10 +66,10 @@ public class GermanNerExtractionStrategyTest {
 
 		this.strategy.extractSemantics( samplePosting );
 
-		assertTrue( null != samplePosting.getTags( TagType.NER_TAGS ) );
-		assertTrue( samplePosting.getTags( TagType.NER_TAGS ).size() > 0 );
+		assertTrue( null != samplePosting.getTags( TagType.NER_TAG ) );
+		assertTrue( samplePosting.getTags( TagType.NER_TAG ).size() > 0 );
 
-		System.out.println( samplePosting.getTags( TagType.NER_TAGS ) );
+		System.out.println( samplePosting.getTags( TagType.NER_TAG ) );
 
 		// create sample course
 		Course newCourse = new Course( "Albert Einstein - Kurs" );
@@ -77,7 +77,7 @@ public class GermanNerExtractionStrategyTest {
 
 		this.strategy.extractSemantics( newCourse );
 
-		System.out.println( newCourse.getTags( TagType.NER_TAGS ) );
+		System.out.println( newCourse.getTags( TagType.NER_TAG ) );
 
 	}
 

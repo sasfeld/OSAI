@@ -19,7 +19,7 @@ public class Tag {
 		/**
 		 * key for tags won by Stanford Named Entity Recognition (NER)
 		 */
-		NER_TAGS, 
+		NER_TAG, 
 		/**
 		 * key for tags won by Stanford Part-of-Speech Tagging (POS)
 		 */

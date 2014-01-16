@@ -394,11 +394,11 @@ public class Course implements Serializable, IDirectoryPortable {
 	 * @return
 	 */
 	public boolean isNerTagged() {
-		if( null == this.getTags( TagType.NER_TAGS ) ) {
+		if( null == this.getTags( TagType.NER_TAG ) ) {
 			return false;
 		}
 
-		return this.getTags( TagType.NER_TAGS ).size() > 0 ? true : false;
+		return this.getTags( TagType.NER_TAG ).size() > 0 ? true : false;
 	}
 
 	/*
