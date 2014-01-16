@@ -19,6 +19,10 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
 import de.bht.fb6.s778455.bachelor.semantic.extraction.AExtractionStrategy;
+import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.ner.EnglishNerExtractionStrategy;
+import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.ner.GermanNerExtractionStrategy;
+import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.pos.EnglishPosExtractionStrategy;
+import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.pos.GermanPosExtractionStrategy;
 import de.bht.fb6.s778455.bachelor.semantic.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.statistics.AStatisticsBuilder;
 import de.bht.fb6.s778455.bachelor.statistics.GeneralStatisticsBuilder;
@@ -72,65 +76,74 @@ public class SemanticExtractionController {
             if( strategy.equals( IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_NER ) ) {
                 // get German cascade
                 this.germanNerStrategies = new ArrayList< AExtractionStrategy >();
-                final List< String > germanCascade = ServiceFactory
+
+                final String nerLangs = ServiceFactory
                         .getConfigReader()
-                        .fetchMultipleValues(
-                                IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_NER_GERMAN_CASCADE );
+                        .fetchValue(
+                                IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_NER_LANGUAGES )
+                        .trim().toLowerCase();
 
-                for( final String cascadeFile : germanCascade ) {
-                    clazz = ServiceFactory.getConfigReader()
-                            .getConfiguredClass(
-                                    strategy,
-                                    new File( ServiceFactory.getConfigReader()
-                                            .fetchValue( cascadeFile ) ) );
-                    if( !( clazz instanceof AExtractionStrategy ) ) {
-                        throw new InvalidConfigException(
-                                this.getClass()
-                                        + "performSemanticExtraction: the configuration value for the key "
-                                        + strategy
-                                        + " doesn't point to a class extending AExtractionStrategy. Please check the configuration.",
-                                "Illegal configuration value. Please check the logs.",
-                                null );
-                    }
+                if( nerLangs.contains( "german" ) ) {
+                    final List< String > germanCascade = ServiceFactory
+                            .getConfigReader()
+                            .fetchMultipleValues(
+                                    IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_NER_GERMAN_CASCADE );
 
-                    this.germanNerStrategies
-                            .add( ( AExtractionStrategy ) clazz );
+                    for( final String cascadeFile : germanCascade ) {
+                        clazz = new GermanNerExtractionStrategy( new File(
+                                ServiceFactory.getConfigReader().fetchValue(
+                                        cascadeFile ) ) );
+                        
+                        if( !( clazz instanceof AExtractionStrategy ) ) {
+                            throw new InvalidConfigException(
+                                    this.getClass()
+                                            + "performSemanticExtraction: the configuration value for the key "
+                                            + strategy
+                                            + " doesn't point to a class extending AExtractionStrategy. Please check the configuration.",
+                                    "Illegal configuration value. Please check the logs.",
+                                    null );
+                        }
 
-                    if( this.printInfo ) {
-                        System.out.println( "Initialized " + clazz.getClass()
-                                + "\n" );
+                        this.germanNerStrategies
+                                .add( ( AExtractionStrategy ) clazz );
+
+                        if( this.printInfo ) {
+                            System.out.println( "Initialized "
+                                    + clazz.getClass() + "\n" );
+                        }
                     }
                 }
 
-                // get German cascade
+                // get English cascade
                 this.englishNerStrategies = new ArrayList< AExtractionStrategy >();
-                final List< String > englishCascade = ServiceFactory
-                        .getConfigReader()
-                        .fetchMultipleValues(
-                                IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_NER_ENGLISH_CASCADE );
 
-                for( final String cascadeFile : englishCascade ) {
-                    clazz = ServiceFactory.getConfigReader()
-                            .getConfiguredClass(
-                                    strategy,
-                                    new File( ServiceFactory.getConfigReader()
-                                            .fetchValue( cascadeFile ) ) );
-                    if( !( clazz instanceof AExtractionStrategy ) ) {
-                        throw new InvalidConfigException(
-                                this.getClass()
-                                        + "performSemanticExtraction: the configuration value for the key "
-                                        + strategy
-                                        + " doesn't point to a class extending AExtractionStrategy. Please check the configuration.",
-                                "Illegal configuration value. Please check the logs.",
-                                null );
-                    }
+                if( nerLangs.contains( "english" ) ) {
+                    final List< String > englishCascade = ServiceFactory
+                            .getConfigReader()
+                            .fetchMultipleValues(
+                                    IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_NER_ENGLISH_CASCADE );
 
-                    this.englishNerStrategies
-                            .add( ( AExtractionStrategy ) clazz );
+                    for( final String cascadeFile : englishCascade ) {
+                        clazz = new EnglishNerExtractionStrategy( new File(
+                                ServiceFactory.getConfigReader().fetchValue(
+                                        cascadeFile ) ) );
+                        if( !( clazz instanceof AExtractionStrategy ) ) {
+                            throw new InvalidConfigException(
+                                    this.getClass()
+                                            + "performSemanticExtraction: the configuration value for the key "
+                                            + strategy
+                                            + " doesn't point to a class extending AExtractionStrategy. Please check the configuration.",
+                                    "Illegal configuration value. Please check the logs.",
+                                    null );
+                        }
 
-                    if( this.printInfo ) {
-                        System.out.println( "Initialized " + clazz.getClass()
-                                + "\n" );
+                        this.englishNerStrategies
+                                .add( ( AExtractionStrategy ) clazz );
+
+                        if( this.printInfo ) {
+                            System.out.println( "Initialized "
+                                    + clazz.getClass() + "\n" );
+                        }
                     }
                 }
             }
@@ -141,65 +154,73 @@ public class SemanticExtractionController {
             if( strategy.equals( IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_POS ) ) {
                 // get German cascade
                 this.germanPosStrategies = new ArrayList< AExtractionStrategy >();
-                final List< String > germanCascade = ServiceFactory
+
+                final String posLangs = ServiceFactory
                         .getConfigReader()
-                        .fetchMultipleValues(
-                                IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_POS_GERMAN_CASCADE );
+                        .fetchValue(
+                                IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_NER_LANGUAGES )
+                        .trim().toLowerCase();
 
-                for( final String cascadeFile : germanCascade ) {
-                    clazz = ServiceFactory.getConfigReader()
-                            .getConfiguredClass(
-                                    strategy,
-                                    new File( ServiceFactory.getConfigReader()
-                                            .fetchValue( cascadeFile ) ) );
-                    if( !( clazz instanceof AExtractionStrategy ) ) {
-                        throw new InvalidConfigException(
-                                this.getClass()
-                                        + "performSemanticExtraction: the configuration value for the key "
-                                        + strategy
-                                        + " doesn't point to a class extending AExtractionStrategy. Please check the configuration.",
-                                "Illegal configuration value. Please check the logs.",
-                                null );
-                    }
+                if( posLangs.contains( "german" ) ) {
+                    final List< String > germanCascade = ServiceFactory
+                            .getConfigReader()
+                            .fetchMultipleValues(
+                                    IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_POS_GERMAN_CASCADE );
 
-                    this.germanPosStrategies
-                            .add( ( AExtractionStrategy ) clazz );
+                    for( final String cascadeFile : germanCascade ) {
+                        clazz = new GermanPosExtractionStrategy( new File(
+                                ServiceFactory.getConfigReader().fetchValue(
+                                        cascadeFile ) ) );                        
+                        if( !( clazz instanceof AExtractionStrategy ) ) {
+                            throw new InvalidConfigException(
+                                    this.getClass()
+                                            + "performSemanticExtraction: the configuration value for the key "
+                                            + strategy
+                                            + " doesn't point to a class extending AExtractionStrategy. Please check the configuration.",
+                                    "Illegal configuration value. Please check the logs.",
+                                    null );
+                        }
 
-                    if( this.printInfo ) {
-                        System.out.println( "Initialized " + clazz.getClass()
-                                + "\n" );
+                        this.germanPosStrategies
+                                .add( ( AExtractionStrategy ) clazz );
+
+                        if( this.printInfo ) {
+                            System.out.println( "Initialized "
+                                    + clazz.getClass() + "\n" );
+                        }
                     }
                 }
 
-                // get German cascade
+                // get English cascade
                 this.englishPosStrategies = new ArrayList< AExtractionStrategy >();
-                final List< String > englishCascade = ServiceFactory
-                        .getConfigReader()
-                        .fetchMultipleValues(
-                                IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_POS_ENGLISH_CASCADE );
 
-                for( final String cascadeFile : englishCascade ) {
-                    clazz = ServiceFactory.getConfigReader()
-                            .getConfiguredClass(
-                                    strategy,
-                                    new File( ServiceFactory.getConfigReader()
-                                            .fetchValue( cascadeFile ) ) );
-                    if( !( clazz instanceof AExtractionStrategy ) ) {
-                        throw new InvalidConfigException(
-                                this.getClass()
-                                        + "performSemanticExtraction: the configuration value for the key "
-                                        + strategy
-                                        + " doesn't point to a class extending AExtractionStrategy. Please check the configuration.",
-                                "Illegal configuration value. Please check the logs.",
-                                null );
-                    }
+                if( posLangs.contains( "english" ) ) {
+                    final List< String > englishCascade = ServiceFactory
+                            .getConfigReader()
+                            .fetchMultipleValues(
+                                    IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_POS_ENGLISH_CASCADE );
 
-                    this.englishPosStrategies
-                            .add( ( AExtractionStrategy ) clazz );
+                    for( final String cascadeFile : englishCascade ) {
+                        clazz = new EnglishPosExtractionStrategy( new File(
+                                ServiceFactory.getConfigReader().fetchValue(
+                                        cascadeFile ) ) );   
+                        if( !( clazz instanceof AExtractionStrategy ) ) {
+                            throw new InvalidConfigException(
+                                    this.getClass()
+                                            + "performSemanticExtraction: the configuration value for the key "
+                                            + strategy
+                                            + " doesn't point to a class extending AExtractionStrategy. Please check the configuration.",
+                                    "Illegal configuration value. Please check the logs.",
+                                    null );
+                        }
 
-                    if( this.printInfo ) {
-                        System.out.println( "Initialized " + clazz.getClass()
-                                + "\n" );
+                        this.englishPosStrategies
+                                .add( ( AExtractionStrategy ) clazz );
+
+                        if( this.printInfo ) {
+                            System.out.println( "Initialized "
+                                    + clazz.getClass() + "\n" );
+                        }
                     }
                 }
             }
@@ -289,7 +310,7 @@ public class SemanticExtractionController {
                                 + "with English strategies...\n" );
                     }
                     this.performExtraction( board, this.englishPosStrategies );
-                    this.performExtraction( board, this.englishNerStrategies );                   
+                    this.performExtraction( board, this.englishNerStrategies );
                     break;
                 case GERMAN:
                     if( this.printInfo() ) {
@@ -360,31 +381,31 @@ public class SemanticExtractionController {
     private void performExtraction( final Course course,
             final AExtractionStrategy strategy ) {
         if( this.printInfo ) {
-            System.out.println( "Performing strategy "
-                    + strategy.getClass() + " ..." );
+            System.out.println( "Performing strategy " + strategy.getClass()
+                    + " ..." );
         }
-        
+
         try {
             strategy.extractSemantics( course );
         } catch( final GeneralLoggingException e ) {
             // continue, was logged already
         }
-        
+
     }
-    
+
     private void performExtraction( final AUserContribution contrib,
             final AExtractionStrategy strategy ) {
         if( this.printInfo ) {
-            System.out.println( "Performing strategy "
-                    + strategy.getClass() + " ..." );
+            System.out.println( "Performing strategy " + strategy.getClass()
+                    + " ..." );
         }
-        
+
         try {
             strategy.extractSemantics( contrib );
         } catch( final GeneralLoggingException e ) {
             // continue, was logged already
         }
-        
+
     }
 
     private void performExtraction( final AUserContribution contrib,

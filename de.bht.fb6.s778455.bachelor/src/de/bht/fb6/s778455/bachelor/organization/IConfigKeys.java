@@ -100,4 +100,6 @@ public interface IConfigKeys {
 	String SEMANTICS_EXTRACTION_STRATEGY_POS = "semantics.extraction.strategy.pos";
 	String SEMANTICS_EXTRACTION_STRATEGY_POS_GERMAN_CASCADE = "semantics.extraction.strategy.pos.german.cascade";
 	String SEMANTICS_EXTRACTION_STRATEGY_POS_ENGLISH_CASCADE = "semantics.extraction.strategy.pos.english.cascade";
+	String SEMANTICS_EXTRACTION_STRATEGY_POS_LANGUAGES = "semantics.extraction.strategy.pos.languages";
+	String SEMANTICS_EXTRACTION_STRATEGY_NER_LANGUAGES = "semantics.extraction.strategy.ner.languages";
 }
