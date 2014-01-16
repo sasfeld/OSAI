@@ -669,30 +669,31 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
         return this.numberDistinctPosTags;
     }
 
-    /*
-     * (non-Javadoc)
-     * 
+    /* (non-Javadoc)
      * @see java.lang.Object#hashCode()
      */
     @Override
     public int hashCode() {
         final int prime = 31;
         int result = 1;
-        result = prime
-                * result
-                + ( ( this.dateCreation == null ) ? 0 : this.dateCreation
-                        .hashCode() );
-        result = prime * result + this.numberDistinctBoardTags;
+        result = prime * result
+                + ( ( this.dateCreation == null ) ? 0 : this.dateCreation.hashCode() );
         result = prime * result + this.numberBoards;
-        result = prime * result + this.numberDistinctCourseTags;
         result = prime * result + this.numberCourses;
+        result = prime * result + this.numberDistinctBoardTags;
+        result = prime * result + this.numberDistinctCourseTags;
         result = prime * result + this.numberDistinctNerTags;
+        result = prime * result + this.numberDistinctPosTags;
+        result = prime * result + this.numberDistinctPostingTags;
         result = prime * result + this.numberDistinctTopicZoomTags;
         result = prime * result + this.numberNerTaggedBoards;
         result = prime * result + this.numberNerTaggedCourses;
         result = prime * result + this.numberNerTaggedPostings;
         result = prime * result + this.numberNerTags;
-        result = prime * result + this.numberDistinctPostingTags;
+        result = prime * result + this.numberPosTaggedBoards;
+        result = prime * result + this.numberPosTaggedCourses;
+        result = prime * result + this.numberPosTaggedPostings;
+        result = prime * result + this.numberPosTags;
         result = prime * result + this.numberPostings;
         result = prime * result + this.numberTaggedBoards;
         result = prime * result + this.numberTaggedCourses;
@@ -706,14 +707,12 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
         result = prime * result + this.numberTzAndNerTaggedPostings;
         result = prime
                 * result
-                + ( ( this.untaggedPostings == null ) ? 0
-                        : this.untaggedPostings.hashCode() );
+                + ( ( this.untaggedPostings == null ) ? 0 : this.untaggedPostings
+                        .hashCode() );
         return result;
     }
 
-    /*
-     * (non-Javadoc)
-     * 
+    /* (non-Javadoc)
      * @see java.lang.Object#equals(java.lang.Object)
      */
     @Override
@@ -730,15 +729,19 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
                 return false;
         } else if( !this.dateCreation.equals( other.dateCreation ) )
             return false;
-        if( this.numberDistinctBoardTags != other.numberDistinctBoardTags )
-            return false;
         if( this.numberBoards != other.numberBoards )
-            return false;
-        if( this.numberDistinctCourseTags != other.numberDistinctCourseTags )
             return false;
         if( this.numberCourses != other.numberCourses )
             return false;
+        if( this.numberDistinctBoardTags != other.numberDistinctBoardTags )
+            return false;
+        if( this.numberDistinctCourseTags != other.numberDistinctCourseTags )
+            return false;
         if( this.numberDistinctNerTags != other.numberDistinctNerTags )
+            return false;
+        if( this.numberDistinctPosTags != other.numberDistinctPosTags )
+            return false;
+        if( this.numberDistinctPostingTags != other.numberDistinctPostingTags )
             return false;
         if( this.numberDistinctTopicZoomTags != other.numberDistinctTopicZoomTags )
             return false;
@@ -750,7 +753,13 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
             return false;
         if( this.numberNerTags != other.numberNerTags )
             return false;
-        if( this.numberDistinctPostingTags != other.numberDistinctPostingTags )
+        if( this.numberPosTaggedBoards != other.numberPosTaggedBoards )
+            return false;
+        if( this.numberPosTaggedCourses != other.numberPosTaggedCourses )
+            return false;
+        if( this.numberPosTaggedPostings != other.numberPosTaggedPostings )
+            return false;
+        if( this.numberPosTags != other.numberPosTags )
             return false;
         if( this.numberPostings != other.numberPostings )
             return false;
@@ -782,9 +791,7 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
         return true;
     }
 
-    /*
-     * (non-Javadoc)
-     * 
+    /* (non-Javadoc)
      * @see java.lang.Object#toString()
      */
     @Override
@@ -802,11 +809,11 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
         builder.append( this.getNumberTaggedCourses() );
         builder.append( ", getNumberTaggedBoards()=" );
         builder.append( this.getNumberTaggedBoards() );
-        builder.append( ", getNumberBoardTags()=" );
+        builder.append( ", getDistinctNumberBoardTags()=" );
         builder.append( this.getDistinctNumberBoardTags() );
-        builder.append( ", getNumberCourseTags()=" );
+        builder.append( ", getDistinctNumberCourseTags()=" );
         builder.append( this.getDistinctNumberCourseTags() );
-        builder.append( ", getNumberPostingTags()=" );
+        builder.append( ", getDistinctNumberPostingTags()=" );
         builder.append( this.getDistinctNumberPostingTags() );
         builder.append( ", getDateCreation()=" );
         builder.append( this.getDateCreation() );
@@ -836,6 +843,16 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
         builder.append( this.getNumberDistinctTopicZoomTags() );
         builder.append( ", getNumberDistinctNerTags()=" );
         builder.append( this.getNumberDistinctNerTags() );
+        builder.append( ", getNumberPosTags()=" );
+        builder.append( this.getNumberPosTags() );
+        builder.append( ", getNumberPosTaggedCourses()=" );
+        builder.append( this.getNumberPosTaggedCourses() );
+        builder.append( ", getNumberPosTaggedBoards()=" );
+        builder.append( this.getNumberPosTaggedBoards() );
+        builder.append( ", getNumberPosTaggedPostings()=" );
+        builder.append( this.getNumberPosTaggedPostings() );
+        builder.append( ", getNumberDistinctPosTags()=" );
+        builder.append( this.getNumberDistinctPosTags() );
         builder.append( "]" );
         return builder.toString();
     }

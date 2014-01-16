@@ -114,7 +114,7 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 			// Pos tags
 			final List< Tag > posTags = course.getTags( TagType.POS_TAG );
 			if( course.isPosTagged() ) {
-			    numberPosTags += nerTags.size();
+			    numberPosTags += posTags.size();
 			    numberCoursesPosTags++;
 			}
 
@@ -158,7 +158,7 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 				// Pos tags
 	            final List< Tag > cposTags = board.getTags( TagType.POS_TAG );
 	            if( course.isPosTagged() ) {
-	                numberPosTags += nerTags.size();
+	                numberPosTags += cposTags.size();
 	                numberBoardsPosTags++;
 	            }
 
@@ -209,7 +209,7 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 						// Pos tags
 		                final List< Tag > pposTags = posting.getTags( TagType.POS_TAG );
 		                if( posting.isPosTagged() ) {
-		                    numberPosTags += nerTags.size();
+		                    numberPosTags += pposTags.size();
 		                    numberPostingsPosTags++;
 		                }
 
@@ -254,6 +254,7 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 
 		model.setNumberTopicZoomTaggedPostings( numberPostingsTzTags )
 				.setNumberNerTaggedPostings( numberPostingsNerTags )
+				.setNumberPosTaggedPostings( numberPostingsPosTags )
 				.setNumberTaggedPostings( numberPostingsTags )
 				.setNumberTzAndNerTaggedPostings( numberPostingsTzAndNerTags )
 				.setNumberTopicZoomTags( numberTopicZoomTags )
