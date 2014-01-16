@@ -95,5 +95,9 @@ public interface IConfigKeys {
 	String SEMANTICS_EXTRACTION_STRATEGY_NER = "semantics.extraction.strategy.ner";
 	String SEMANTICS_EXTRACTION_STRATEGY_CHAIN = "semantics.extraction.strategy.chain";
 	String SEMANTICS_EXTRACTION_STRATEGY_LAZY = "semantics.extraction.strategy.lazy";
-	String SEMANTICS_EXTRACTION_STRATEGY_NER_CASCADE = "semantics.extraction.strategy.ner.cascade";
+	String SEMANTICS_EXTRACTION_STRATEGY_NER_GERMAN_CASCADE = "semantics.extraction.strategy.ner.german.cascade";
+	String SEMANTICS_EXTRACTION_STRATEGY_NER_ENGLISH_CASCADE = "semantics.extraction.strategy.ner.english.cascade";
+	String SEMANTICS_EXTRACTION_STRATEGY_POS = "semantics.extraction.strategy.pos";
+	String SEMANTICS_EXTRACTION_STRATEGY_POS_GERMAN_CASCADE = "semantics.extraction.strategy.pos.german.cascade";
+	String SEMANTICS_EXTRACTION_STRATEGY_POS_ENGLISH_CASCADE = "semantics.extraction.strategy.pos.english.cascade";
 }

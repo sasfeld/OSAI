@@ -66,7 +66,7 @@ public class SemanticExtractionController {
 			Object clazz = null;
 			if( strategy.equals( IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_NER ) ) {
 				// get cascade
-				List< String > cascade = ServiceFactory.getConfigReader().fetchMultipleValues( IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_NER_CASCADE );
+				List< String > cascade = ServiceFactory.getConfigReader().fetchMultipleValues( IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_NER_GERMAN_CASCADE );
 				
 				for( String cascadeFile : cascade ) {
 					clazz = ServiceFactory.getConfigReader().getConfiguredClass(
