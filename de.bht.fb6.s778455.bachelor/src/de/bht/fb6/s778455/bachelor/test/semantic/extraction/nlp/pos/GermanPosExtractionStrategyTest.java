@@ -3,6 +3,8 @@
  */
 package de.bht.fb6.s778455.bachelor.test.semantic.extraction.nlp.pos;
 
+import static org.junit.Assert.assertTrue;
+
 import java.io.File;
 
 import org.junit.After;
@@ -10,6 +12,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import de.bht.fb6.s778455.bachelor.model.Posting;
+import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.semantic.extraction.AExtractionStrategy;
 import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.pos.APosExtractionStrategy;
@@ -50,9 +53,12 @@ public class GermanPosExtractionStrategyTest {
 		posting.setContent( "Hallo zusammen. Ich habe eine Frage zum Thema Variablen in Java. Wie deklariere ich eine lokale Variable? Vielen Dank!" );
 		this.strategy.extractSemantics( posting );
 		
-		// English text on German Model
-		posting.setContent( "Hello together. I have a question to the topic variables in Java. How can I declare a local variable? Thanks alot!" );
-		this.strategy.extractSemantics( posting );
+		System.out.println(posting.getTags( TagType.POS_TAG ) + "\n\n");
+		System.out.println("tagged content: " + posting.getTaggedContent());
+		
+		assertTrue(null != posting.getTags( TagType.POS_TAG ));
+		assertTrue(0 < posting.getTags( TagType.POS_TAG ).size());
+		assertTrue(null != posting.getTaggedContent());
 	}
 
 }
