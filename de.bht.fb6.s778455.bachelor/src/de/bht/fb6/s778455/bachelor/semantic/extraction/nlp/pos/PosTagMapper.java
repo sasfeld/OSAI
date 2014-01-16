@@ -7,6 +7,9 @@ import java.util.Set;
 
 import de.bht.fb6.s778455.bachelor.model.AUserContribution;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.PosTag;
+import de.bht.fb6.s778455.bachelor.model.Tag;
+import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
 
 /**
  * <p>
@@ -21,6 +24,7 @@ import de.bht.fb6.s778455.bachelor.model.Course;
  */
 public class PosTagMapper {
     protected Set< String > posTags;
+    protected final PosParser posParser;
 
     /**
      * Create a new PosTagMapper with a given Set of posTags which have to get mapped.
@@ -33,6 +37,8 @@ public class PosTagMapper {
                     + ": null value is not allowed in a parameter!" );
         }
         this.posTags = posTags;
+        
+        this.posParser = new PosParser();
     }
     
     /**
@@ -46,6 +52,15 @@ public class PosTagMapper {
             throw new IllegalArgumentException( this.getClass()
                     + "mapToContribution: null value is not allowed in a parameter!" );
         }
+        
+        for( final String posTag : this.posTags ) {
+            final Set< String > words = this.posParser.getWords( posTag, taggedString );
+            
+            for( final String word : words ) {
+                final Tag newPosTag = new PosTag( posTag, 0.0, word, "" );
+                contribution.addTag( newPosTag, TagType.POS_TAG );
+            }
+        }
     }
     
     /**
@@ -58,6 +73,15 @@ public class PosTagMapper {
         if ( null == taggedString || null == course ) {
             throw new IllegalArgumentException( this.getClass()
                     + "mapToCourse: null value is not allowed in a parameter!" );
+        }
+        
+        for( final String posTag : this.posTags ) {
+            final Set< String > words = this.posParser.getWords( posTag, taggedString );
+            
+            for( final String word : words ) {
+                final Tag newPosTag = new PosTag( posTag, 0.0, word, "" );
+                course.addTag( newPosTag, TagType.POS_TAG );
+            }
         }
     }
 

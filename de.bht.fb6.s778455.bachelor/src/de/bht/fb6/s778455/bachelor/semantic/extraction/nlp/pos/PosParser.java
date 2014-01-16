@@ -49,7 +49,7 @@ public class PosParser {
             final String matchedPosTag = mPosTaggedWord.group( 2 );
 
             // check if matched posTag and desired match
-            if( posTag.equals( matchedPosTag ) ) {
+            if( !posTag.equals( matchedPosTag ) ) {
                 throw new IllegalStateException(
                         this.getClass()
                                 + ":getWords(): the given posTag "
