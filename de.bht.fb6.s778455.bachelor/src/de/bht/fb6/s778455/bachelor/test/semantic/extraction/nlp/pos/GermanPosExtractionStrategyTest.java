@@ -12,16 +12,17 @@ import org.junit.Test;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.semantic.extraction.AExtractionStrategy;
-import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.pos.PosExtractionStrategy;
+import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.pos.APosExtractionStrategy;
+import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.pos.GermanPosExtractionStrategy;
 
 /**
- * <p>This class realizes tests of the {@link PosExtractionStrategy}</p>
+ * <p>This class realizes tests of the {@link APosExtractionStrategy}</p>
  *
  * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
  * @since 15.01.2014
  *
  */
-public class PosExtractionStrategyTest {
+public class GermanPosExtractionStrategyTest {
 	protected static final String PATH_GERMAN_HGC_MODEL = "./conf/pos/models/german-hgc.tagger";
 	protected AExtractionStrategy strategy;
 
@@ -30,8 +31,8 @@ public class PosExtractionStrategyTest {
 	 */
 	@Before
 	public void setUp() throws Exception {
-		File model = new File( PATH_GERMAN_HGC_MODEL );
-		this.strategy = new PosExtractionStrategy( model );
+		final File model = new File( PATH_GERMAN_HGC_MODEL );
+		this.strategy = new GermanPosExtractionStrategy( model );
 	}
 
 	/**
@@ -45,7 +46,7 @@ public class PosExtractionStrategyTest {
 	@Test
 	public void testExtractSemantics() throws GeneralLoggingException {
 		// German Text and German model
-		Posting posting = new Posting();
+		final Posting posting = new Posting();
 		posting.setContent( "Hallo zusammen. Ich habe eine Frage zum Thema Variablen in Java. Wie deklariere ich eine lokale Variable? Vielen Dank!" );
 		this.strategy.extractSemantics( posting );
 		
