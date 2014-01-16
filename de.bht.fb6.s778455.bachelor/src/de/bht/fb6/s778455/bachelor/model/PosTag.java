@@ -26,6 +26,8 @@ public class PosTag extends Tag {
      */
 	public PosTag( final String posTag, final double weight, final String value, final String uri) {
 		super( weight, value, uri, TagType.POS_TAG);
+		
+		this.posTag = posTag;
 	}
 
     /**
