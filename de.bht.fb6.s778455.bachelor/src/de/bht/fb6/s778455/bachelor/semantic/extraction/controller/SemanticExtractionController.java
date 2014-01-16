@@ -8,10 +8,13 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
+import de.bht.fb6.s778455.bachelor.model.AUserContribution;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Posting;
+import de.bht.fb6.s778455.bachelor.organization.Application;
+import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
@@ -31,52 +34,55 @@ import de.bht.fb6.s778455.bachelor.statistics.GeneralStatisticsBuilder;
  * 
  */
 public class SemanticExtractionController {
-	protected List< String > extractionChain;
-	private boolean printInfo = false;
+    protected List< String > extractionChain;
+    private boolean printInfo = false;
     private ArrayList< AExtractionStrategy > germanNerStrategies;
     private ArrayList< AExtractionStrategy > englishNerStrategies;
     private ArrayList< AExtractionStrategy > germanPosStrategies;
     private ArrayList< AExtractionStrategy > englishPosStrategies;
     private AExtractionStrategy topicZoomStrategy;
 
-	/**
-	 * Create a new semantic extraction controller.
-	 * 
-	 * @throws InvalidConfigException
-	 * @throws IllegalArgumentException
-	 */
-	public SemanticExtractionController() throws InvalidConfigException {
-		this.extractionChain = ServiceFactory.getConfigReader()
-				.fetchMultipleValues(
-						IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_CHAIN );
-		
-		this.initializeStrategies();
-	}
+    /**
+     * Create a new semantic extraction controller.
+     * 
+     * @throws InvalidConfigException
+     * @throws IllegalArgumentException
+     */
+    public SemanticExtractionController() throws InvalidConfigException {
+        this.extractionChain = ServiceFactory.getConfigReader()
+                .fetchMultipleValues(
+                        IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_CHAIN );
 
-	/**
-	 * Initialize configured {@link AExtractionStrategy}.
-	 * @throws InvalidConfigException 
-	 */
-	private void initializeStrategies() throws InvalidConfigException {
-	    for( final String strategy : this.extractionChain ) {
-	        // try to get class
+        this.initializeStrategies();
+    }
+
+    /**
+     * Initialize configured {@link AExtractionStrategy}.
+     * 
+     * @throws InvalidConfigException
+     */
+    private void initializeStrategies() throws InvalidConfigException {
+        for( final String strategy : this.extractionChain ) {
+            // try to get class
             Object clazz = null;
-            
+
             /*
-             * ######################
-             * #
-             * # ANerStrategy
-             * #
-             * ######################
+             * ###################### # # ANerStrategy # ######################
              */
             if( strategy.equals( IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_NER ) ) {
                 // get German cascade
-                this.germanNerStrategies = new ArrayList<AExtractionStrategy>();
-                final List< String > germanCascade = ServiceFactory.getConfigReader().fetchMultipleValues( IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_NER_GERMAN_CASCADE );
-                
+                this.germanNerStrategies = new ArrayList< AExtractionStrategy >();
+                final List< String > germanCascade = ServiceFactory
+                        .getConfigReader()
+                        .fetchMultipleValues(
+                                IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_NER_GERMAN_CASCADE );
+
                 for( final String cascadeFile : germanCascade ) {
-                    clazz = ServiceFactory.getConfigReader().getConfiguredClass(
-                            strategy, new File( ServiceFactory.getConfigReader().fetchValue( cascadeFile ) ) );
+                    clazz = ServiceFactory.getConfigReader()
+                            .getConfiguredClass(
+                                    strategy,
+                                    new File( ServiceFactory.getConfigReader()
+                                            .fetchValue( cascadeFile ) ) );
                     if( !( clazz instanceof AExtractionStrategy ) ) {
                         throw new InvalidConfigException(
                                 this.getClass()
@@ -87,20 +93,28 @@ public class SemanticExtractionController {
                                 null );
                     }
 
-                    this.germanNerStrategies.add( ( AExtractionStrategy ) clazz );
-                    
-                    if ( this.printInfo ) {
-                        System.out.println("Initialized " + clazz.getClass() + "\n");
+                    this.germanNerStrategies
+                            .add( ( AExtractionStrategy ) clazz );
+
+                    if( this.printInfo ) {
+                        System.out.println( "Initialized " + clazz.getClass()
+                                + "\n" );
                     }
                 }
-                
+
                 // get German cascade
-                this.englishNerStrategies = new ArrayList<AExtractionStrategy>();
-                final List< String > englishCascade = ServiceFactory.getConfigReader().fetchMultipleValues( IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_NER_ENGLISH_CASCADE );
-                
+                this.englishNerStrategies = new ArrayList< AExtractionStrategy >();
+                final List< String > englishCascade = ServiceFactory
+                        .getConfigReader()
+                        .fetchMultipleValues(
+                                IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_NER_ENGLISH_CASCADE );
+
                 for( final String cascadeFile : englishCascade ) {
-                    clazz = ServiceFactory.getConfigReader().getConfiguredClass(
-                            strategy, new File( ServiceFactory.getConfigReader().fetchValue( cascadeFile ) ) );
+                    clazz = ServiceFactory.getConfigReader()
+                            .getConfiguredClass(
+                                    strategy,
+                                    new File( ServiceFactory.getConfigReader()
+                                            .fetchValue( cascadeFile ) ) );
                     if( !( clazz instanceof AExtractionStrategy ) ) {
                         throw new InvalidConfigException(
                                 this.getClass()
@@ -111,29 +125,33 @@ public class SemanticExtractionController {
                                 null );
                     }
 
-                    this.englishNerStrategies.add( ( AExtractionStrategy ) clazz );
-                    
-                    if ( this.printInfo ) {
-                        System.out.println("Initialized " + clazz.getClass() + "\n");
+                    this.englishNerStrategies
+                            .add( ( AExtractionStrategy ) clazz );
+
+                    if( this.printInfo ) {
+                        System.out.println( "Initialized " + clazz.getClass()
+                                + "\n" );
                     }
                 }
             }
-            
+
             /*
-             * ######################
-             * #
-             * # APosStrategy
-             * #
-             * ######################
+             * ###################### # # APosStrategy # ######################
              */
             if( strategy.equals( IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_POS ) ) {
                 // get German cascade
-                this.germanPosStrategies = new ArrayList<AExtractionStrategy>();
-                final List< String > germanCascade = ServiceFactory.getConfigReader().fetchMultipleValues( IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_POS_GERMAN_CASCADE );
-                
+                this.germanPosStrategies = new ArrayList< AExtractionStrategy >();
+                final List< String > germanCascade = ServiceFactory
+                        .getConfigReader()
+                        .fetchMultipleValues(
+                                IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_POS_GERMAN_CASCADE );
+
                 for( final String cascadeFile : germanCascade ) {
-                    clazz = ServiceFactory.getConfigReader().getConfiguredClass(
-                            strategy, new File( ServiceFactory.getConfigReader().fetchValue( cascadeFile ) ) );
+                    clazz = ServiceFactory.getConfigReader()
+                            .getConfiguredClass(
+                                    strategy,
+                                    new File( ServiceFactory.getConfigReader()
+                                            .fetchValue( cascadeFile ) ) );
                     if( !( clazz instanceof AExtractionStrategy ) ) {
                         throw new InvalidConfigException(
                                 this.getClass()
@@ -144,20 +162,28 @@ public class SemanticExtractionController {
                                 null );
                     }
 
-                    this.germanPosStrategies.add( ( AExtractionStrategy ) clazz );
-                    
-                    if ( this.printInfo ) {
-                        System.out.println("Initialized " + clazz.getClass() + "\n");
+                    this.germanPosStrategies
+                            .add( ( AExtractionStrategy ) clazz );
+
+                    if( this.printInfo ) {
+                        System.out.println( "Initialized " + clazz.getClass()
+                                + "\n" );
                     }
                 }
-                
+
                 // get German cascade
-                this.englishPosStrategies = new ArrayList<AExtractionStrategy>();
-                final List< String > englishCascade = ServiceFactory.getConfigReader().fetchMultipleValues( IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_POS_ENGLISH_CASCADE );
-                
+                this.englishPosStrategies = new ArrayList< AExtractionStrategy >();
+                final List< String > englishCascade = ServiceFactory
+                        .getConfigReader()
+                        .fetchMultipleValues(
+                                IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_POS_ENGLISH_CASCADE );
+
                 for( final String cascadeFile : englishCascade ) {
-                    clazz = ServiceFactory.getConfigReader().getConfiguredClass(
-                            strategy, new File( ServiceFactory.getConfigReader().fetchValue( cascadeFile ) ) );
+                    clazz = ServiceFactory.getConfigReader()
+                            .getConfiguredClass(
+                                    strategy,
+                                    new File( ServiceFactory.getConfigReader()
+                                            .fetchValue( cascadeFile ) ) );
                     if( !( clazz instanceof AExtractionStrategy ) ) {
                         throw new InvalidConfigException(
                                 this.getClass()
@@ -168,23 +194,23 @@ public class SemanticExtractionController {
                                 null );
                     }
 
-                    this.englishPosStrategies.add( ( AExtractionStrategy ) clazz );
-                    
-                    if ( this.printInfo ) {
-                        System.out.println("Initialized " + clazz.getClass() + "\n");
+                    this.englishPosStrategies
+                            .add( ( AExtractionStrategy ) clazz );
+
+                    if( this.printInfo ) {
+                        System.out.println( "Initialized " + clazz.getClass()
+                                + "\n" );
                     }
                 }
             }
-            
+
             /*
-             * ######################
-             * #
-             * # TopicZoomStrategy
-             * #
+             * ###################### # # TopicZoomStrategy #
              * ######################
              */
-            
-            if ( strategy.equals( IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_TOPICZOOM )) {
+
+            if( strategy
+                    .equals( IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_TOPICZOOM ) ) {
                 clazz = ServiceFactory.getConfigReader().getConfiguredClass(
                         strategy );
                 if( !( clazz instanceof AExtractionStrategy ) ) {
@@ -197,112 +223,225 @@ public class SemanticExtractionController {
                             null );
                 }
 
-               this.topicZoomStrategy = (AExtractionStrategy) clazz;
-               
+                this.topicZoomStrategy = ( AExtractionStrategy ) clazz;
 
-               if ( this.printInfo ) {
-                   System.out.println("Initialized " + clazz.getClass() + "\n");
-               }
+                if( this.printInfo ) {
+                    System.out.println( "Initialized " + clazz.getClass()
+                            + "\n" );
+                }
             }
-	    }
-        
+        }
+
     }
 
     /**
-	 * Perform the configured semantic extraction strategies.
-	 * 
-	 * @param inputCourses
-	 * @return
-	 * @throws InvalidConfigException
-	 */
-	public Collection< Course > performSemanticExtraction(
-			final Collection< Course > inputCourses )
-			throws InvalidConfigException {
-		if( null == inputCourses ) {
-			throw new IllegalArgumentException(
-					"None of the given parameters may be null!" );
-		}
+     * Perform the configured semantic extraction strategies.
+     * 
+     * @param inputCourses
+     * @return
+     * @throws InvalidConfigException
+     */
+    public Collection< Course > performSemanticExtraction(
+            final Collection< Course > inputCourses )
+            throws InvalidConfigException {
+        if( null == inputCourses ) {
+            throw new IllegalArgumentException(
+                    "None of the given parameters may be null!" );
+        }
 
-		
+        for( final Course course : inputCourses ) {
+            // separate extraction between languages
+            switch( course.getLanguage() ) {
+            case ENGLISH:
+                if( this.printInfo() ) {
+                    System.out.println( "Enriching course " + course.getTitle()
+                            + "with English strategies...\n" );
+                }
+                this.performExtraction( course, this.englishPosStrategies );
+                this.performExtraction( course, this.englishNerStrategies );
+                break;
+            case GERMAN:
+                if( this.printInfo() ) {
+                    System.out.println( "Enriching course " + course.getTitle()
+                            + "with German strategies...\n" );
+                }
+                this.performExtraction( course, this.germanPosStrategies );
+                this.performExtraction( course, this.germanNerStrategies );
+                this.performExtraction( course, this.topicZoomStrategy );
+                break;
+            default: // UNKNOWN
+                Application
+                        .log( this.getClass()
+                                + ":performSemanticExtraction(): the given course ("
+                                + course.getTitle()
+                                + ")has an unknown language. I will not perform any extraction strategy.",
+                                LogType.WARNING );
+                break;
+            }
 
-		// strategies only fill models attributes
-		return inputCourses;
-	}
+            // go deeper into boards
+            for( final Board board : course.getBoards() ) {
+                switch( board.getLang() ) {
+                case ENGLISH:
+                    if( this.printInfo() ) {
+                        System.out.println( "Enriching course "
+                                + course.getTitle()
+                                + "with English strategies...\n" );
+                    }
+                    this.performExtraction( board, this.englishPosStrategies );
+                    this.performExtraction( board, this.englishNerStrategies );                   
+                    break;
+                case GERMAN:
+                    if( this.printInfo() ) {
+                        System.out.println( "Enriching course "
+                                + course.getTitle()
+                                + "with German strategies...\n" );
+                    }
+                    this.performExtraction( board, this.germanPosStrategies );
+                    this.performExtraction( board, this.germanNerStrategies );
+                    this.performExtraction( board, this.topicZoomStrategy );
+                    break;
+                default: // UNKNOWN
+                    Application
+                            .log( this.getClass()
+                                    + ":performSemanticExtraction(): the given board ("
+                                    + board.getTitle()
+                                    + ")has an unknown language. I will not perform any extraction strategy.",
+                                    LogType.WARNING );
+                    break;
+                }
 
-	/**
-	 * Iterate through postings and let the given {@link AExtractionStrategy} do
-	 * its work.
-	 * 
-	 * @param inputCourses
-	 * @param extractionStrategy
-	 */
-	private void _performExtractionForPostingsAndCourses(
-			final Collection< Course > inputCourses,
-			final AExtractionStrategy extractionStrategy ) {
-		for( final Course course : inputCourses ) {
-			if( this.printInfo() ) {
-				System.out.println( "Enriching course " + course.getTitle()
-						+ "...\n" );
-			}
-			try {
-				extractionStrategy.extractSemantics( course );
-			} catch( final GeneralLoggingException e1 ) {
-				// continue, error is already logged
-			}
-			for( final Board board : course.getBoards() ) {
-				if( this.printInfo() ) {
-					System.out.println( "Enriching board " + board.getTitle()
-							+ "...\n" );
-				}
-				try {
-					extractionStrategy.extractSemantics( board );
-				} catch( final GeneralLoggingException e1 ) {
-					// continue, error is already logged
-				}
+                // go deeper into postings
+                for( final BoardThread thread : board.getBoardThreads() ) {
+                    for( final Posting posting : thread.getPostings() ) {
+                        switch( posting.getLang() ) {
+                        case ENGLISH:
+                            if( this.printInfo() ) {
+                                System.out.println( "Enriching course "
+                                        + course.getTitle()
+                                        + "with English strategies...\n" );
+                            }
+                            this.performExtraction( posting,
+                                    this.englishPosStrategies );
+                            this.performExtraction( posting,
+                                    this.englishNerStrategies );
+                            break;
+                        case GERMAN:
+                            if( this.printInfo() ) {
+                                System.out.println( "Enriching course "
+                                        + course.getTitle()
+                                        + "with German strategies...\n" );
+                            }
+                            this.performExtraction( posting,
+                                    this.germanPosStrategies );
+                            this.performExtraction( posting,
+                                    this.germanNerStrategies );
+                            this.performExtraction( posting,
+                                    this.topicZoomStrategy );
+                            break;
+                        default: // UNKNOWN
+                            Application
+                                    .log( this.getClass()
+                                            + ":performSemanticExtraction(): the given posting ("
+                                            + posting.getTitle()
+                                            + ")has an unknown language. I will not perform any extraction strategy.",
+                                            LogType.WARNING );
+                            break;
+                        }
+                    }
+                }
+            }
+        }
 
-				for( final BoardThread thread : board.getBoardThreads() ) {
-					for( final Posting posting : thread.getPostings() ) {
-						try {
-							if( this.printInfo() ) {
-								System.out.println( "Enriching posting "
-										+ posting.getTitle() + "...\n" );
-							}
-							extractionStrategy.extractSemantics( posting );
-						} catch( final GeneralLoggingException e ) {
-							// continue, the error is already logged
-						}
-					}
-				}
-			}
-		}
+        // strategies only fill models attributes
+        return inputCourses;
+    }
 
-	}
+    private void performExtraction( final Course course,
+            final AExtractionStrategy strategy ) {
+        if( this.printInfo ) {
+            System.out.println( "Performing strategy "
+                    + strategy.getClass() + " ..." );
+        }
+        
+        try {
+            strategy.extractSemantics( course );
+        } catch( final GeneralLoggingException e ) {
+            // continue, was logged already
+        }
+        
+    }
+    
+    private void performExtraction( final AUserContribution contrib,
+            final AExtractionStrategy strategy ) {
+        if( this.printInfo ) {
+            System.out.println( "Performing strategy "
+                    + strategy.getClass() + " ..." );
+        }
+        
+        try {
+            strategy.extractSemantics( contrib );
+        } catch( final GeneralLoggingException e ) {
+            // continue, was logged already
+        }
+        
+    }
 
-	private boolean printInfo() {
-		return this.printInfo;
-	}
+    private void performExtraction( final AUserContribution contrib,
+            final ArrayList< AExtractionStrategy > strategies ) {
+        for( final AExtractionStrategy aExtractionStrategy : strategies ) {
+            try {
+                if( this.printInfo ) {
+                    System.out.println( "Performing strategy "
+                            + aExtractionStrategy.getClass() + " ..." );
+                }
+                aExtractionStrategy.extractSemantics( contrib );
+            } catch( final GeneralLoggingException e ) {
+                // continue, error is logged
+            }
+        }
+    }
 
-	public void setPrintInfo( final boolean printInfo ) {
-		this.printInfo = printInfo;
-	}
+    private void performExtraction( final Course course,
+            final ArrayList< AExtractionStrategy > strategies ) {
+        for( final AExtractionStrategy aExtractionStrategy : strategies ) {
+            try {
+                if( this.printInfo ) {
+                    System.out.println( "Performing strategy "
+                            + aExtractionStrategy.getClass() + " ..." );
+                }
+                aExtractionStrategy.extractSemantics( course );
+            } catch( final GeneralLoggingException e ) {
+                // continue, error is logged
+            }
+        }
+    }
 
-	/**
-	 * Get a statistics string.
-	 * 
-	 * @param anonymizedCourses
-	 * @param elapsedTime
-	 */
-	public String getStatistics( final Collection< Course > anonymizedCourses ) {
-		final StringBuilder statisticsBuilder = new StringBuilder();
+    private boolean printInfo() {
+        return this.printInfo;
+    }
 
-		statisticsBuilder
-				.append( "Used chain of extraction strategies (config keys): "
-						+ this.extractionChain + "\n" );
+    public void setPrintInfo( final boolean printInfo ) {
+        this.printInfo = printInfo;
+    }
 
-		final AStatisticsBuilder builder = new GeneralStatisticsBuilder();
-		statisticsBuilder.append( builder.buildStatistics( anonymizedCourses )
-				.toString() + "\n" );
+    /**
+     * Get a statistics string.
+     * 
+     * @param anonymizedCourses
+     * @param elapsedTime
+     */
+    public String getStatistics( final Collection< Course > anonymizedCourses ) {
+        final StringBuilder statisticsBuilder = new StringBuilder();
 
-		return statisticsBuilder.toString();
-	}
+        statisticsBuilder
+                .append( "Used chain of extraction strategies (config keys): "
+                        + this.extractionChain + "\n" );
+
+        final AStatisticsBuilder builder = new GeneralStatisticsBuilder();
+        statisticsBuilder.append( builder.buildStatistics( anonymizedCourses )
+                .toString() + "\n" );
+
+        return statisticsBuilder.toString();
+    }
 }
