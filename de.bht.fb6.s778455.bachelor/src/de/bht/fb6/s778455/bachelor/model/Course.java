@@ -385,6 +385,9 @@ public class Course implements Serializable, IDirectoryPortable {
 		if( this.isNerTagged() ) {
 			return true;
 		}
+		if ( this.isPosTagged() ) {
+		    return true;
+		}
 
 		return false;
 	}
@@ -886,5 +889,17 @@ public class Course implements Serializable, IDirectoryPortable {
 	public String getUrl() {
 		return this.url;
 	}
+
+	/**
+	 * Check if the course has {@link PosTag} instances.
+	 * @return
+	 */
+    public boolean isPosTagged() {
+        if( null == this.getTags( TagType.POS_TAG ) ) {
+            return false;
+        }
+
+        return this.getTags( TagType.POS_TAG ).size() > 0 ? true : false;
+    }
 
 }
