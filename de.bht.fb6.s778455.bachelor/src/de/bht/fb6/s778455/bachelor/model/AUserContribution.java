@@ -34,6 +34,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	protected Date modificationDate;
 	protected String title;
 	protected int id;
+	protected Language lang;
 
 	protected Map< TagType, List< Tag > > tagMap;
 
@@ -46,6 +47,20 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	}
 	
 	/**
+     * @return the lang
+     */
+    public final Language getLang() {
+        return this.lang;
+    }
+
+    /**
+     * @param lang the lang to set
+     */
+    public final void setLang( final Language lang ) {
+        this.lang = lang;
+    }
+
+    /**
 	 * @return the id
 	 */
 	public int getId() {
@@ -211,93 +226,92 @@ public abstract class AUserContribution implements IDirectoryPortable {
 		return this.getTags( TagType.NER_TAG ).size() > 0 ? true : false;
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see java.lang.Object#hashCode()
-	 */
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result
-				+ ( ( this.creationDate == null ) ? 0 : this.creationDate.hashCode() );
-		result = prime * result + this.id;
-		result = prime
-				* result
-				+ ( ( this.modificationDate == null ) ? 0 : this.modificationDate
-						.hashCode() );
-		result = prime * result + ( ( this.tagMap == null ) ? 0 : this.tagMap.hashCode() );
-		result = prime * result + ( ( this.title == null ) ? 0 : this.title.hashCode() );
-		return result;
-	}
+	/* (non-Javadoc)
+     * @see java.lang.Object#hashCode()
+     */
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result
+                + ( ( this.creationDate == null ) ? 0 : this.creationDate.hashCode() );
+        result = prime * result + this.id;
+        result = prime * result + ( ( this.lang == null ) ? 0 : this.lang.hashCode() );
+        result = prime
+                * result
+                + ( ( this.modificationDate == null ) ? 0 : this.modificationDate
+                        .hashCode() );
+        result = prime * result + ( ( this.tagMap == null ) ? 0 : this.tagMap.hashCode() );
+        result = prime * result + ( ( this.title == null ) ? 0 : this.title.hashCode() );
+        return result;
+    }
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see java.lang.Object#equals(java.lang.Object)
-	 */
-	@Override
-	public boolean equals( final Object obj ) {
-		if( this == obj )
-			return true;
-		if( obj == null )
-			return false;
-		if( this.getClass() != obj.getClass() )
-			return false;
-		final AUserContribution other = ( AUserContribution ) obj;
-		if( this.creationDate == null ) {
-			if( other.creationDate != null )
-				return false;
-		} else if( !this.creationDate.equals( other.creationDate ) )
-			return false;	
-		if( this.id != other.id )
-			return false;
-		if( this.modificationDate == null ) {
-			if( other.modificationDate != null )
-				return false;
-		} else if( !this.modificationDate.equals( other.modificationDate ) )
-			return false;
-		if( this.tagMap == null ) {
-			if( other.tagMap != null )
-				return false;
-		} else if( !this.tagMap.equals( other.tagMap ) )
-			return false;
-		if( this.title == null ) {
-			if( other.title != null )
-				return false;
-		} else if( !this.title.equals( other.title ) )
-			return false;
-		return true;
-	}
+	/* (non-Javadoc)
+     * @see java.lang.Object#equals(java.lang.Object)
+     */
+    @Override
+    public boolean equals( final Object obj ) {
+        if( this == obj )
+            return true;
+        if( obj == null )
+            return false;
+        if( this.getClass() != obj.getClass() )
+            return false;
+        final AUserContribution other = ( AUserContribution ) obj;
+        if( this.creationDate == null ) {
+            if( other.creationDate != null )
+                return false;
+        } else if( !this.creationDate.equals( other.creationDate ) )
+            return false;
+        if( this.id != other.id )
+            return false;
+        if( this.lang != other.lang )
+            return false;
+        if( this.modificationDate == null ) {
+            if( other.modificationDate != null )
+                return false;
+        } else if( !this.modificationDate.equals( other.modificationDate ) )
+            return false;
+        if( this.tagMap == null ) {
+            if( other.tagMap != null )
+                return false;
+        } else if( !this.tagMap.equals( other.tagMap ) )
+            return false;
+        if( this.title == null ) {
+            if( other.title != null )
+                return false;
+        } else if( !this.title.equals( other.title ) )
+            return false;
+        return true;
+    }
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see java.lang.Object#toString()
-	 */
-	@Override
-	public String toString() {
-		final StringBuilder builder = new StringBuilder();
-		builder.append( "AUserContribution [getId()=" );
-		builder.append( this.getId() );
-		builder.append( ", getModificationDate()=" );
-		builder.append( this.getModificationDate() );
-		builder.append( ", getCreationDate()=" );
-		builder.append( this.getCreationDate() );
-		builder.append( ", getTitle()=" );
-		builder.append( this.getTitle() );
-		builder.append( ", isTopicZoomTagged()=" );
-		builder.append( this.isTopicZoomTagged() );
-		builder.append( ", isTagged()=" );
-		builder.append( this.isTagged() );
-		builder.append( ", getNumberTags()=" );
-		builder.append( this.getNumberTags() );
-		builder.append( ", isNerTagged()=" );
-		builder.append( this.isNerTagged() );
-		builder.append( "]" );
-		return builder.toString();
-	}
+	/* (non-Javadoc)
+     * @see java.lang.Object#toString()
+     */
+    @Override
+    public String toString() {
+        final StringBuilder builder = new StringBuilder();
+        builder.append( "AUserContribution [getLang()=" );
+        builder.append( this.getLang() );
+        builder.append( ", getId()=" );
+        builder.append( this.getId() );
+        builder.append( ", getModificationDate()=" );
+        builder.append( this.getModificationDate() );
+        builder.append( ", getCreationDate()=" );
+        builder.append( this.getCreationDate() );
+        builder.append( ", getTitle()=" );
+        builder.append( this.getTitle() );
+        builder.append( ", isTopicZoomTagged()=" );
+        builder.append( this.isTopicZoomTagged() );
+        builder.append( ", isTagged()=" );
+        builder.append( this.isTagged() );
+        builder.append( ", getNumberTags()=" );
+        builder.append( this.getNumberTags() );
+        builder.append( ", isNerTagged()=" );
+        builder.append( this.isNerTagged() );
+        builder.append( "]" );
+        return builder.toString();
+    }
 
 	/*
 	 * (non-Javadoc)

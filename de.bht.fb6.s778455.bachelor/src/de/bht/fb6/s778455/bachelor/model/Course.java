@@ -65,6 +65,7 @@ public class Course implements Serializable, IDirectoryPortable {
 	protected Map< LearnedWordTypes, Set< String > > learnedWords;
 	protected String url;
 	protected Map< TagType, List< Tag > > tagMap;
+	protected Language language;
 
 	/**
 	 * Create a course for which only a title is given.
@@ -84,6 +85,20 @@ public class Course implements Serializable, IDirectoryPortable {
 	}
 
 	/**
+     * @return the language
+     */
+    public final Language getLanguage() {
+        return this.language;
+    }
+
+    /**
+     * @param language the language to set
+     */
+    public final void setLanguage( final Language language ) {
+        this.language = language;
+    }
+
+    /**
 	 * @return the personNameCorpus
 	 */
 	public PersonNameCorpus getPersonNameCorpus() {
@@ -708,143 +723,153 @@ public class Course implements Serializable, IDirectoryPortable {
 		this.addTag(newTag, TagType.TOPIC_ZOOM);
 	}
 	
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see java.lang.Object#hashCode()
-	 */
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + ( ( this.boards == null ) ? 0 : this.boards.hashCode() );
-		result = prime * result
-				+ ( ( this.creationDate == null ) ? 0 : this.creationDate.hashCode() );
-		result = prime * result + this.id;
-		result = prime * result + ( ( this.lang == null ) ? 0 : this.lang.hashCode() );
-		result = prime * result
-				+ ( ( this.learnedWords == null ) ? 0 : this.learnedWords.hashCode() );
-		result = prime
-				* result
-				+ ( ( this.modificationDate == null ) ? 0 : this.modificationDate
-						.hashCode() );
-		result = prime
-				* result
-				+ ( ( this.personNameCorpus == null ) ? 0 : this.personNameCorpus
-						.hashCode() );
-		result = prime * result
-				+ ( ( this.shortName == null ) ? 0 : this.shortName.hashCode() );
-		result = prime * result
-				+ ( ( this.summary == null ) ? 0 : this.summary.hashCode() );
-		result = prime * result + ( ( this.title == null ) ? 0 : this.title.hashCode() );
-		result = prime * result + ( ( this.url == null ) ? 0 : this.url.hashCode() );
-		return result;
-	}
+	/* (non-Javadoc)
+     * @see java.lang.Object#hashCode()
+     */
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ( ( this.boards == null ) ? 0 : this.boards.hashCode() );
+        result = prime * result
+                + ( ( this.creationDate == null ) ? 0 : this.creationDate.hashCode() );
+        result = prime * result + this.id;
+        result = prime * result + ( ( this.lang == null ) ? 0 : this.lang.hashCode() );
+        result = prime * result
+                + ( ( this.language == null ) ? 0 : this.language.hashCode() );
+        result = prime * result
+                + ( ( this.learnedWords == null ) ? 0 : this.learnedWords.hashCode() );
+        result = prime
+                * result
+                + ( ( this.modificationDate == null ) ? 0 : this.modificationDate
+                        .hashCode() );
+        result = prime
+                * result
+                + ( ( this.personNameCorpus == null ) ? 0 : this.personNameCorpus
+                        .hashCode() );
+        result = prime * result
+                + ( ( this.shortName == null ) ? 0 : this.shortName.hashCode() );
+        result = prime * result
+                + ( ( this.summary == null ) ? 0 : this.summary.hashCode() );
+        result = prime * result + ( ( this.tagMap == null ) ? 0 : this.tagMap.hashCode() );
+        result = prime * result + ( ( this.title == null ) ? 0 : this.title.hashCode() );
+        result = prime * result + ( ( this.url == null ) ? 0 : this.url.hashCode() );
+        return result;
+    }
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see java.lang.Object#equals(java.lang.Object)
-	 */
-	@Override
-	public boolean equals( final Object obj ) {
-		if( this == obj )
-			return true;
-		if( obj == null )
-			return false;
-		if( this.getClass() != obj.getClass() )
-			return false;
-		final Course other = ( Course ) obj;
-		if( this.boards == null ) {
-			if( other.boards != null )
-				return false;
-		} else if( !this.boards.equals( other.boards ) )
-			return false;
-		if( this.creationDate == null ) {
-			if( other.creationDate != null )
-				return false;
-		} else if( !this.creationDate.equals( other.creationDate ) )
-			return false;
-		if( this.id != other.id )
-			return false;
-		if( this.lang == null ) {
-			if( other.lang != null )
-				return false;
-		} else if( !this.lang.equals( other.lang ) )
-			return false;
-		if( this.learnedWords == null ) {
-			if( other.learnedWords != null )
-				return false;
-		} else if( !this.learnedWords.equals( other.learnedWords ) )
-			return false;
-		if( this.modificationDate == null ) {
-			if( other.modificationDate != null )
-				return false;
-		} else if( !this.modificationDate.equals( other.modificationDate ) )
-			return false;
-		if( this.personNameCorpus == null ) {
-			if( other.personNameCorpus != null )
-				return false;
-		} else if( !this.personNameCorpus.equals( other.personNameCorpus ) )
-			return false;
-		if( this.shortName == null ) {
-			if( other.shortName != null )
-				return false;
-		} else if( !this.shortName.equals( other.shortName ) )
-			return false;
-		if( this.summary == null ) {
-			if( other.summary != null )
-				return false;
-		} else if( !this.summary.equals( other.summary ) )
-			return false;
-		if( this.title == null ) {
-			if( other.title != null )
-				return false;
-		} else if( !this.title.equals( other.title ) )
-			return false;
-		if( this.url == null ) {
-			if( other.url != null )
-				return false;
-		} else if( !this.url.equals( other.url ) )
-			return false;
-		return true;
-	}
+	/* (non-Javadoc)
+     * @see java.lang.Object#equals(java.lang.Object)
+     */
+    @Override
+    public boolean equals( final Object obj ) {
+        if( this == obj )
+            return true;
+        if( obj == null )
+            return false;
+        if( this.getClass() != obj.getClass() )
+            return false;
+        final Course other = ( Course ) obj;
+        if( this.boards == null ) {
+            if( other.boards != null )
+                return false;
+        } else if( !this.boards.equals( other.boards ) )
+            return false;
+        if( this.creationDate == null ) {
+            if( other.creationDate != null )
+                return false;
+        } else if( !this.creationDate.equals( other.creationDate ) )
+            return false;
+        if( this.id != other.id )
+            return false;
+        if( this.lang == null ) {
+            if( other.lang != null )
+                return false;
+        } else if( !this.lang.equals( other.lang ) )
+            return false;
+        if( this.language != other.language )
+            return false;
+        if( this.learnedWords == null ) {
+            if( other.learnedWords != null )
+                return false;
+        } else if( !this.learnedWords.equals( other.learnedWords ) )
+            return false;
+        if( this.modificationDate == null ) {
+            if( other.modificationDate != null )
+                return false;
+        } else if( !this.modificationDate.equals( other.modificationDate ) )
+            return false;
+        if( this.personNameCorpus == null ) {
+            if( other.personNameCorpus != null )
+                return false;
+        } else if( !this.personNameCorpus.equals( other.personNameCorpus ) )
+            return false;
+        if( this.shortName == null ) {
+            if( other.shortName != null )
+                return false;
+        } else if( !this.shortName.equals( other.shortName ) )
+            return false;
+        if( this.summary == null ) {
+            if( other.summary != null )
+                return false;
+        } else if( !this.summary.equals( other.summary ) )
+            return false;
+        if( this.tagMap == null ) {
+            if( other.tagMap != null )
+                return false;
+        } else if( !this.tagMap.equals( other.tagMap ) )
+            return false;
+        if( this.title == null ) {
+            if( other.title != null )
+                return false;
+        } else if( !this.title.equals( other.title ) )
+            return false;
+        if( this.url == null ) {
+            if( other.url != null )
+                return false;
+        } else if( !this.url.equals( other.url ) )
+            return false;
+        return true;
+    }
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see java.lang.Object#toString()
-	 */
-	@Override
-	public String toString() {
-		final StringBuilder builder = new StringBuilder();
-		builder.append( "Course [getPersonNameCorpus()=" );
-		builder.append( this.getPersonNameCorpus() );
-		builder.append( ", getLang()=" );
-		builder.append( this.getLang() );
-		builder.append( ", getTitle()=" );
-		builder.append( this.getTitle() );
-		builder.append( ", getCreationDate()=" );
-		builder.append( this.getCreationDate() );
-		builder.append( ", getModificationDate()=" );
-		builder.append( this.getModificationDate() );
-		builder.append( ", getId()=" );
-		builder.append( this.getId() );
-		builder.append( ", getShortName()=" );
-		builder.append( this.getShortName() );
-		builder.append( ", getSummary()=" );
-		builder.append( this.getSummary() );
-		builder.append( ", getBoards()=" );
-		builder.append( this.getBoards() );
-		builder.append( ", exportToTxt()=" );
-		builder.append( this.exportToTxt() );
-		builder.append( ", hashCode()=" );
-		builder.append( this.hashCode() );
-		builder.append( ", getUrl()=" );
-		builder.append( this.getUrl() );
-		builder.append( "]" );
-		return builder.toString();
-	}
+	/* (non-Javadoc)
+     * @see java.lang.Object#toString()
+     */
+    @Override
+    public String toString() {
+        final StringBuilder builder = new StringBuilder();
+        builder.append( "Course [getLanguage()=" );
+        builder.append( this.getLanguage() );
+        builder.append( ", getPersonNameCorpus()=" );
+        builder.append( this.getPersonNameCorpus() );
+        builder.append( ", getLang()=" );
+        builder.append( this.getLang() );
+        builder.append( ", getTitle()=" );
+        builder.append( this.getTitle() );
+        builder.append( ", getCreationDate()=" );
+        builder.append( this.getCreationDate() );
+        builder.append( ", getModificationDate()=" );
+        builder.append( this.getModificationDate() );
+        builder.append( ", getId()=" );
+        builder.append( this.getId() );
+        builder.append( ", getShortName()=" );
+        builder.append( this.getShortName() );
+        builder.append( ", getSummary()=" );
+        builder.append( this.getSummary() );
+        builder.append( ", getBoards()=" );
+        builder.append( this.getBoards() );
+        builder.append( ", isTopicZoomTagged()=" );
+        builder.append( this.isTopicZoomTagged() );
+        builder.append( ", isTagged()=" );
+        builder.append( this.isTagged() );
+        builder.append( ", getNumberTags()=" );
+        builder.append( this.getNumberTags() );
+        builder.append( ", isNerTagged()=" );
+        builder.append( this.isNerTagged() );
+        builder.append( ", getUrl()=" );
+        builder.append( this.getUrl() );
+        builder.append( "]" );
+        return builder.toString();
+    }
 
 	/**
 	 * Set the url String of this course.
