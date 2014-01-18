@@ -16,6 +16,7 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
 import de.bht.fb6.s778455.bachelor.statistics.AStatisticsBuilder;
 import de.bht.fb6.s778455.bachelor.statistics.GeneralStatisticsBuilder;
+import de.bht.fb6.s778455.bachelor.statistics.LanguageStatisticsBuilder;
 import de.bht.fb6.s778455.bachelor.statistics.TagStatisticsBuilder;
 
 /**
@@ -141,9 +142,9 @@ public class SemanticExtractionCliController {
      * 
      * @return
      */
-    public String getTagStatistics( final Collection< Course > collection ) {
+    public String getTagAndLangStatistics( final Collection< Course > collection ) {
         final AStatisticsBuilder builder = new GeneralStatisticsBuilder(
-                new TagStatisticsBuilder() );
+                new TagStatisticsBuilder( new LanguageStatisticsBuilder() ) );
 
         return builder.buildStatistics( collection ).toString();
     }
@@ -274,7 +275,7 @@ public class SemanticExtractionCliController {
             System.out.println( "Export was successfull!\n\n" );
         } else {
             System.out.println( controller
-                    .getTagStatistics( controller.rawCourses ) );
+                    .getTagAndLangStatistics( controller.rawCourses ) );
         }
 
         System.out.println( controller.getStatistics( true ) );

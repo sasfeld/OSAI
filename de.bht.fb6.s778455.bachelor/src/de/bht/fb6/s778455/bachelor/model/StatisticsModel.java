@@ -867,19 +867,15 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
         return this;
     }
 
-    /*
-     * (non-Javadoc)
-     * 
+    /* (non-Javadoc)
      * @see java.lang.Object#hashCode()
      */
     @Override
     public int hashCode() {
         final int prime = 31;
         int result = 1;
-        result = prime
-                * result
-                + ( ( this.dateCreation == null ) ? 0 : this.dateCreation
-                        .hashCode() );
+        result = prime * result
+                + ( ( this.dateCreation == null ) ? 0 : this.dateCreation.hashCode() );
         result = prime * result + this.numberBoards;
         result = prime * result + this.numberCourses;
         result = prime * result + this.numberDistinctBoardTags;
@@ -888,6 +884,12 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
         result = prime * result + this.numberDistinctPosTags;
         result = prime * result + this.numberDistinctPostingTags;
         result = prime * result + this.numberDistinctTopicZoomTags;
+        result = prime * result + this.numberEnglishBoards;
+        result = prime * result + this.numberEnglishCourses;
+        result = prime * result + this.numberEnglishPostings;
+        result = prime * result + this.numberGermanBoards;
+        result = prime * result + this.numberGermanCourses;
+        result = prime * result + this.numberGermanPostings;
         result = prime * result + this.numberNerTaggedBoards;
         result = prime * result + this.numberNerTaggedCourses;
         result = prime * result + this.numberNerTaggedPostings;
@@ -907,16 +909,17 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
         result = prime * result + this.numberTopicZoomTaggedPostings;
         result = prime * result + this.numberTopicZoomTags;
         result = prime * result + this.numberTzAndNerTaggedPostings;
+        result = prime * result + this.numberUnknownLangBoards;
+        result = prime * result + this.numberUnknownLangCourses;
+        result = prime * result + this.numberUnknownLangPostings;
         result = prime
                 * result
-                + ( ( this.untaggedPostings == null ) ? 0
-                        : this.untaggedPostings.hashCode() );
+                + ( ( this.untaggedPostings == null ) ? 0 : this.untaggedPostings
+                        .hashCode() );
         return result;
     }
 
-    /*
-     * (non-Javadoc)
-     * 
+    /* (non-Javadoc)
      * @see java.lang.Object#equals(java.lang.Object)
      */
     @Override
@@ -948,6 +951,18 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
         if( this.numberDistinctPostingTags != other.numberDistinctPostingTags )
             return false;
         if( this.numberDistinctTopicZoomTags != other.numberDistinctTopicZoomTags )
+            return false;
+        if( this.numberEnglishBoards != other.numberEnglishBoards )
+            return false;
+        if( this.numberEnglishCourses != other.numberEnglishCourses )
+            return false;
+        if( this.numberEnglishPostings != other.numberEnglishPostings )
+            return false;
+        if( this.numberGermanBoards != other.numberGermanBoards )
+            return false;
+        if( this.numberGermanCourses != other.numberGermanCourses )
+            return false;
+        if( this.numberGermanPostings != other.numberGermanPostings )
             return false;
         if( this.numberNerTaggedBoards != other.numberNerTaggedBoards )
             return false;
@@ -987,6 +1002,12 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
             return false;
         if( this.numberTzAndNerTaggedPostings != other.numberTzAndNerTaggedPostings )
             return false;
+        if( this.numberUnknownLangBoards != other.numberUnknownLangBoards )
+            return false;
+        if( this.numberUnknownLangCourses != other.numberUnknownLangCourses )
+            return false;
+        if( this.numberUnknownLangPostings != other.numberUnknownLangPostings )
+            return false;
         if( this.untaggedPostings == null ) {
             if( other.untaggedPostings != null )
                 return false;
@@ -995,9 +1016,7 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
         return true;
     }
 
-    /*
-     * (non-Javadoc)
-     * 
+    /* (non-Javadoc)
      * @see java.lang.Object#toString()
      */
     @Override
@@ -1059,6 +1078,24 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
         builder.append( this.getNumberPosTaggedPostings() );
         builder.append( ", getNumberDistinctPosTags()=" );
         builder.append( this.getNumberDistinctPosTags() );
+        builder.append( ", getNumberGermanCourses()=" );
+        builder.append( this.getNumberGermanCourses() );
+        builder.append( ", getNumberGermanBoards()=" );
+        builder.append( this.getNumberGermanBoards() );
+        builder.append( ", getNumberGermanPostings()=" );
+        builder.append( this.getNumberGermanPostings() );
+        builder.append( ", getNumberEnglishCourses()=" );
+        builder.append( this.getNumberEnglishCourses() );
+        builder.append( ", getNumberEnglishBoards()=" );
+        builder.append( this.getNumberEnglishBoards() );
+        builder.append( ", getNumberEnglishPostings()=" );
+        builder.append( this.getNumberEnglishPostings() );
+        builder.append( ", getNumberUnknownLangCourses()=" );
+        builder.append( this.getNumberUnknownLangCourses() );
+        builder.append( ", getNumberUnknownLangBoards()=" );
+        builder.append( this.getNumberUnknownLangBoards() );
+        builder.append( ", getNumberUnknownLangPostings()=" );
+        builder.append( this.getNumberUnknownLangPostings() );
         builder.append( "]" );
         return builder.toString();
     }
