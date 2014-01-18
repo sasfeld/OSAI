@@ -1,7 +1,9 @@
 /**
  * Copyright (c) 2013-2014 Sascha Feldmann (sascha.feldmann@gmx.de) 
  */
-package de.bht.fb6.s778455.bachelor.test.semantic.extraction.nlp;
+package de.bht.fb6.s778455.bachelor.test.semantic.extraction.nlp.ner;
+
+import static org.junit.Assert.assertTrue;
 
 import java.io.File;
 
@@ -15,19 +17,20 @@ import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
-import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.NerExtractionStrategy;
+import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.ner.ANerExtractionStrategy;
+import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.ner.GermanNerExtractionStrategy;
 
 /**
  * <p>
- * This class contains tests of the {@link NerExtractionStrategy}
+ * This class contains tests of the {@link ANerExtractionStrategy}
  * </p>
  * 
  * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
  * @since 09.01.2014
  * 
  */
-public class NerExtractionStrategyTest {
-	protected NerExtractionStrategy strategy;
+public class GermanNerExtractionStrategyTest {
+	protected ANerExtractionStrategy strategy;
 
 	/**
 	 * @throws java.lang.Exception
@@ -36,7 +39,7 @@ public class NerExtractionStrategyTest {
 	public void setUp() throws Exception {
 		File corpusFile = new File( ServiceFactory.getConfigReader()
 				.fetchValue( IConfigKeys.ANONYM_NER_GERMAN_HGC_FILE ) );
-		this.strategy = new NerExtractionStrategy( corpusFile );
+		this.strategy = new GermanNerExtractionStrategy( corpusFile );
 	}
 
 	/**
@@ -45,6 +48,13 @@ public class NerExtractionStrategyTest {
 	@After
 	public void tearDown() throws Exception {
 		this.strategy = null;
+	}
+
+	@Test( expected = IllegalArgumentException.class )
+	public void testWrongClassifier() {
+		File englishCorpusFile = new File( ServiceFactory.getConfigReader()
+				.fetchValue( IConfigKeys.ANONYM_NER_ENGLISH_4CLASS_FILE ) );
+		new GermanNerExtractionStrategy( englishCorpusFile );
 	}
 
 	@Test
@@ -56,7 +66,10 @@ public class NerExtractionStrategyTest {
 
 		this.strategy.extractSemantics( samplePosting );
 
-		System.out.println( samplePosting.getTags( TagType.NER_TAGS ) );
+		assertTrue( null != samplePosting.getTags( TagType.NER_TAG ) );
+		assertTrue( samplePosting.getTags( TagType.NER_TAG ).size() > 0 );
+
+		System.out.println( samplePosting.getTags( TagType.NER_TAG ) );
 
 		// create sample course
 		Course newCourse = new Course( "Albert Einstein - Kurs" );
@@ -64,7 +77,7 @@ public class NerExtractionStrategyTest {
 
 		this.strategy.extractSemantics( newCourse );
 
-		System.out.println( newCourse.getTags( TagType.NER_TAGS ) );
+		System.out.println( newCourse.getTags( TagType.NER_TAG ) );
 
 	}
 

@@ -34,6 +34,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	protected Date modificationDate;
 	protected String title;
 	protected int id;
+	protected Language lang;
 
 	protected Map< TagType, List< Tag > > tagMap;
 
@@ -43,13 +44,28 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	
 	private void _initialize() {
 		this.tagMap = new HashMap< TagType, List< Tag > >();
+		this.lang = Language.UNKNOWN;
 	}
 	
 	/**
+     * @return the lang
+     */
+    public final Language getLang() {
+        return this.lang;
+    }
+
+    /**
+     * @param lang the lang to set
+     */
+    public final void setLang( final Language lang ) {
+        this.lang = lang;
+    }
+
+    /**
 	 * @return the id
 	 */
 	public int getId() {
-		return id;
+		return this.id;
 	}
 
 	/**
@@ -57,7 +73,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	 *            the id to set
 	 * @return
 	 */
-	public AUserContribution setId( int id ) {
+	public AUserContribution setId( final int id ) {
 		this.id = id;
 		return this;
 	}
@@ -66,7 +82,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	 * @return the modificationDate
 	 */
 	public Date getModificationDate() {
-		return modificationDate;
+		return this.modificationDate;
 	}
 
 	/**
@@ -74,7 +90,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	 *            the modificationDate to set
 	 * @return
 	 */
-	public AUserContribution setModificationDate( Date modificationDate ) {
+	public AUserContribution setModificationDate( final Date modificationDate ) {
 		this.modificationDate = modificationDate;
 		return this;
 	}
@@ -83,7 +99,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	 * @return the creationDate
 	 */
 	public Date getCreationDate() {
-		return creationDate;
+		return this.creationDate;
 	}
 
 	/**
@@ -91,7 +107,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	 *            the creationDate to set
 	 * @return
 	 */
-	public AUserContribution setCreationDate( Date creationDate ) {
+	public AUserContribution setCreationDate( final Date creationDate ) {
 		this.creationDate = creationDate;
 		return this;
 	}
@@ -100,7 +116,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	 * @return the title
 	 */
 	public String getTitle() {
-		return title;
+		return this.title;
 	}
 
 	/**
@@ -108,7 +124,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	 *            the title to set
 	 * @return
 	 */
-	public AUserContribution setTitle( String title ) {
+	public AUserContribution setTitle( final String title ) {
 		this.title = title;
 		return this;
 	}
@@ -119,7 +135,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	 * @param fetchedTags
 	 * @param tagType
 	 */
-	public void setTags( List< Tag > fetchedTags, TagType tagType ) {
+	public void setTags( final List< Tag > fetchedTags, final TagType tagType ) {
 		this.tagMap.put( tagType, fetchedTags );
 	}
 
@@ -129,7 +145,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	 * @param newTag
 	 * @param tagType
 	 */
-	public void addTag( Tag newTag, TagType tagType ) {
+	public void addTag( final Tag newTag, final TagType tagType ) {
 		// create list if neccessary
 		if( null == this.getTags( tagType ) ) {
 			this.tagMap.put( tagType, new ArrayList< Tag >() );
@@ -146,7 +162,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	 * @return
 	 * @return might return null.
 	 */
-	public List< Tag > getTags( TagType tagType ) {
+	public List< Tag > getTags( final TagType tagType ) {
 		return this.tagMap.get( tagType );
 	}
 
@@ -179,6 +195,9 @@ public abstract class AUserContribution implements IDirectoryPortable {
 		if( this.isNerTagged() ) {
 			return true;
 		}
+		if ( this.isPosTagged() ) {
+		    return true;
+		}
 
 		return false;
 	}
@@ -191,7 +210,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	public int getNumberTags() {
 		int numberTags = 0;
 
-		for( List< Tag > tags : this.tagMap.values() ) {
+		for( final List< Tag > tags : this.tagMap.values() ) {
 			numberTags += tags.size();
 		}
 		return numberTags;
@@ -204,100 +223,111 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	 * @return
 	 */
 	public boolean isNerTagged() {
-		if( null == this.getTags( TagType.NER_TAGS ) ) {
+		if( null == this.getTags( TagType.NER_TAG ) ) {
 			return false;
 		}
 
-		return this.getTags( TagType.NER_TAGS ).size() > 0 ? true : false;
+		return this.getTags( TagType.NER_TAG ).size() > 0 ? true : false;
 	}
+	
+	/**
+     * Check if the course has {@link PosTag} instances.
+     * @return
+     */
+    public boolean isPosTagged() {
+        if( null == this.getTags( TagType.POS_TAG ) ) {
+            return false;
+        }
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see java.lang.Object#hashCode()
-	 */
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result
-				+ ( ( creationDate == null ) ? 0 : creationDate.hashCode() );
-		result = prime * result + id;
-		result = prime
-				* result
-				+ ( ( modificationDate == null ) ? 0 : modificationDate
-						.hashCode() );
-		result = prime * result + ( ( tagMap == null ) ? 0 : tagMap.hashCode() );
-		result = prime * result + ( ( title == null ) ? 0 : title.hashCode() );
-		return result;
-	}
+        return this.getTags( TagType.POS_TAG ).size() > 0 ? true : false;
+    }
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see java.lang.Object#equals(java.lang.Object)
-	 */
-	@Override
-	public boolean equals( Object obj ) {
-		if( this == obj )
-			return true;
-		if( obj == null )
-			return false;
-		if( getClass() != obj.getClass() )
-			return false;
-		AUserContribution other = ( AUserContribution ) obj;
-		if( creationDate == null ) {
-			if( other.creationDate != null )
-				return false;
-		} else if( !creationDate.equals( other.creationDate ) )
-			return false;	
-		if( id != other.id )
-			return false;
-		if( modificationDate == null ) {
-			if( other.modificationDate != null )
-				return false;
-		} else if( !modificationDate.equals( other.modificationDate ) )
-			return false;
-		if( tagMap == null ) {
-			if( other.tagMap != null )
-				return false;
-		} else if( !tagMap.equals( other.tagMap ) )
-			return false;
-		if( title == null ) {
-			if( other.title != null )
-				return false;
-		} else if( !title.equals( other.title ) )
-			return false;
-		return true;
-	}
+	/* (non-Javadoc)
+     * @see java.lang.Object#hashCode()
+     */
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result
+                + ( ( this.creationDate == null ) ? 0 : this.creationDate.hashCode() );
+        result = prime * result + this.id;
+        result = prime * result + ( ( this.lang == null ) ? 0 : this.lang.hashCode() );
+        result = prime
+                * result
+                + ( ( this.modificationDate == null ) ? 0 : this.modificationDate
+                        .hashCode() );
+        result = prime * result + ( ( this.tagMap == null ) ? 0 : this.tagMap.hashCode() );
+        result = prime * result + ( ( this.title == null ) ? 0 : this.title.hashCode() );
+        return result;
+    }
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see java.lang.Object#toString()
-	 */
-	@Override
-	public String toString() {
-		StringBuilder builder = new StringBuilder();
-		builder.append( "AUserContribution [getId()=" );
-		builder.append( getId() );
-		builder.append( ", getModificationDate()=" );
-		builder.append( getModificationDate() );
-		builder.append( ", getCreationDate()=" );
-		builder.append( getCreationDate() );
-		builder.append( ", getTitle()=" );
-		builder.append( getTitle() );
-		builder.append( ", isTopicZoomTagged()=" );
-		builder.append( isTopicZoomTagged() );
-		builder.append( ", isTagged()=" );
-		builder.append( isTagged() );
-		builder.append( ", getNumberTags()=" );
-		builder.append( getNumberTags() );
-		builder.append( ", isNerTagged()=" );
-		builder.append( isNerTagged() );
-		builder.append( "]" );
-		return builder.toString();
-	}
+	/* (non-Javadoc)
+     * @see java.lang.Object#equals(java.lang.Object)
+     */
+    @Override
+    public boolean equals( final Object obj ) {
+        if( this == obj )
+            return true;
+        if( obj == null )
+            return false;
+        if( this.getClass() != obj.getClass() )
+            return false;
+        final AUserContribution other = ( AUserContribution ) obj;
+        if( this.creationDate == null ) {
+            if( other.creationDate != null )
+                return false;
+        } else if( !this.creationDate.equals( other.creationDate ) )
+            return false;
+        if( this.id != other.id )
+            return false;
+        if( this.lang != other.lang )
+            return false;
+        if( this.modificationDate == null ) {
+            if( other.modificationDate != null )
+                return false;
+        } else if( !this.modificationDate.equals( other.modificationDate ) )
+            return false;
+        if( this.tagMap == null ) {
+            if( other.tagMap != null )
+                return false;
+        } else if( !this.tagMap.equals( other.tagMap ) )
+            return false;
+        if( this.title == null ) {
+            if( other.title != null )
+                return false;
+        } else if( !this.title.equals( other.title ) )
+            return false;
+        return true;
+    }
+
+	/* (non-Javadoc)
+     * @see java.lang.Object#toString()
+     */
+    @Override
+    public String toString() {
+        final StringBuilder builder = new StringBuilder();
+        builder.append( "AUserContribution [getLang()=" );
+        builder.append( this.getLang() );
+        builder.append( ", getId()=" );
+        builder.append( this.getId() );
+        builder.append( ", getModificationDate()=" );
+        builder.append( this.getModificationDate() );
+        builder.append( ", getCreationDate()=" );
+        builder.append( this.getCreationDate() );
+        builder.append( ", getTitle()=" );
+        builder.append( this.getTitle() );
+        builder.append( ", isTopicZoomTagged()=" );
+        builder.append( this.isTopicZoomTagged() );
+        builder.append( ", isTagged()=" );
+        builder.append( this.isTagged() );
+        builder.append( ", getNumberTags()=" );
+        builder.append( this.getNumberTags() );
+        builder.append( ", isNerTagged()=" );
+        builder.append( this.isNerTagged() );
+        builder.append( "]" );
+        return builder.toString();
+    }
 
 	/*
 	 * (non-Javadoc)
@@ -306,7 +336,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	 */
 	@Override
 	public String exportToTxt() {
-		StringBuilder exportStr = new StringBuilder();
+		final StringBuilder exportStr = new StringBuilder();
 
 		exportStr.append( "ID: " + this.getId() + "\n" );
 		if( null != this.getCreationDate() ) {
@@ -320,12 +350,12 @@ public abstract class AUserContribution implements IDirectoryPortable {
 		exportStr.append( "TITLE: " + this.getTitle() + "\n" );
 
 		// tags
-		List< Tag > topicZoomTags = this.getTags( TagType.TOPIC_ZOOM );
+		final List< Tag > topicZoomTags = this.getTags( TagType.TOPIC_ZOOM );
 
 		if( null != topicZoomTags ) {
-			for( Tag tag : topicZoomTags ) {
+			for( final Tag tag : topicZoomTags ) {
 				if( tag instanceof TopicZoomTag ) {
-					TopicZoomTag topicZoomTag = ( TopicZoomTag ) tag;
+					final TopicZoomTag topicZoomTag = ( TopicZoomTag ) tag;
 					exportStr.append( "TOPIC_ZOOM_TAG: " + "value:"
 							+ topicZoomTag.getValue() + ";" + "weight:"
 							+ topicZoomTag.getWeight() + ";" + "significance:"
@@ -335,30 +365,49 @@ public abstract class AUserContribution implements IDirectoryPortable {
 							+ "uri:" + topicZoomTag.getUri() + "\n" );
 				} else {
 					Application
-							.log( getClass()
+							.log( this.getClass()
 									+ ":exportToTxt(): the saved tag is not of type TopicZoomTag. There must be some error in the extraction process. Only add TopicZoomTags when using TopicZoom.",
 									LogType.ERROR );
 				}
 			}
 		}
 		
-		List< Tag > nerTags = this.getTags( TagType.NER_TAGS );
+		final List< Tag > nerTags = this.getTags( TagType.NER_TAG );
 		if( null != nerTags ) {
-			for( Tag tag : nerTags ) {
+			for( final Tag tag : nerTags ) {
 				if( tag instanceof NerTag ) {
-					NerTag nerTag = ( NerTag ) tag;
+					final NerTag nerTag = ( NerTag ) tag;
 					exportStr.append( "NER_TAG: " + "value:"
 							+ nerTag.getValue() + ";" + "weight:"
-							+ nerTag.getWeight() + ";" + "significance:"
+							+ nerTag.getWeight() + ";" 
 							+ "uri:" + nerTag.getUri() + ";"
 							+ "classifierlabel:" + nerTag.getClassifierLabel() + "\n" );
 				} else {
 					Application
-							.log( getClass()
+							.log( this.getClass()
 									+ ":exportToTxt(): the saved tag is not of type NerTag. There must be some error in the extraction process. Only add TopicZoomTags when using TopicZoom.",
 									LogType.ERROR );
 				}
 			}
+		}
+		
+		final List< Tag > posTags = this.getTags( TagType.POS_TAG );
+		if( null != posTags ) {
+		    for( final Tag tag : posTags ) {
+		        if( tag instanceof PosTag ) {
+		            final PosTag posTag = ( PosTag ) tag;
+		            exportStr.append( "POS_TAG: " + "value:"
+		                    + posTag.getValue() + ";" + "weight:"
+		                    + posTag.getWeight() + ";"
+		                    + "uri:" + posTag.getUri() + ";"
+		                    + "postag:" + posTag.getPosTag() + "\n" );
+		        } else {
+		            Application
+		            .log( this.getClass()
+		                    + ":exportToTxt(): the saved tag is not of type PosTag. There must be some error in the extraction process. Only add TopicZoomTags when using TopicZoom.",
+		                    LogType.ERROR );
+		        }
+		    }
 		}
 
 		return exportStr.toString();
@@ -372,7 +421,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 	 * .lang.String, java.lang.String)
 	 */
 	@Override
-	public void importFromTxt( String key, String value ) {
+	public void importFromTxt( final String key, final String value ) {
 		if( null == key || 0 == key.length() || null == value
 				|| 0 == value.length() ) {
 			throw new IllegalArgumentException(
@@ -383,27 +432,27 @@ public abstract class AUserContribution implements IDirectoryPortable {
 		if( key.equals( "ID" ) ) {
 			try {
 				this.setId( Integer.parseInt( value ) );
-			} catch( NumberFormatException e ) {
+			} catch( final NumberFormatException e ) {
 				Application
-						.log( getClass()
+						.log( this.getClass()
 								+ ":importFromTxt: couldn't parse given value to an integer ID. Given value: "
 								+ value, LogType.ERROR );
 			}
 		} else if( key.equals( "CREATION_DATETIME" ) ) {
 			try {
 				this.setCreationDate( new Date( Long.parseLong( value ) ) );
-			} catch( NumberFormatException e ) {
+			} catch( final NumberFormatException e ) {
 				Application
-						.log( getClass()
+						.log( this.getClass()
 								+ ":importFromTxt: couldn't parse given creation date to an Date . Given value: "
 								+ value, LogType.ERROR );
 			}
 		} else if( key.equals( "MODIFICATION_DATETIME" ) ) {
 			try {
 				this.setModificationDate( new Date( Long.parseLong( value ) ) );
-			} catch( NumberFormatException e ) {
+			} catch( final NumberFormatException e ) {
 				Application
-						.log( getClass()
+						.log( this.getClass()
 								+ ":importFromTxt: couldn't parse given modification date to an Date . Given value: "
 								+ value, LogType.ERROR );
 			}
@@ -413,11 +462,59 @@ public abstract class AUserContribution implements IDirectoryPortable {
 			this.parseTopicZoomValue( value );
 		} else if ( key.equals( "NER_TAG" )) {
 			this.parseNerTagValue( value );
+		} else if ( key.equals( "POS_TAG" )) {
+		    this.parsePosTagValue( value );
 		}
 
 	}
 	
-	/**
+	private void parsePosTagValue( final String value ) {
+	    /*
+         * structure:
+         * value:xyz;weight:1.0;significance:3.0;degreegeneralization:
+         * 6;uri:testuri
+         */
+
+        final String[] splitValues = value.split( ";" );        
+
+        String name = "";
+        double weight = 0;
+        String uri = "";
+        String posTag = "";
+        
+        for( final String splitValue : splitValues ) {
+            final Pattern pKeyValue = Pattern.compile( "([a-z]+):(.*)" );
+            final Matcher mKeyValue = pKeyValue.matcher( splitValue );
+            
+            while( mKeyValue.find() ) {
+                final String key = mKeyValue.group(1);
+                final String kValue = mKeyValue.group(2);           
+                
+                switch( key ) {
+                case "value":
+                    name = kValue;
+                    break;
+                case "weight":
+                    weight = Double.parseDouble( kValue );
+                    break;              
+                case "uri":
+                    uri = kValue;
+                    break; 
+                case "postag":
+                    posTag = kValue;
+                    break; 
+                default:
+                    Application.log( this.getClass() + ":parsePosTagValue(): key " + key + " couldn't be matched.", LogType.ERROR );;
+                }
+                
+            }
+        }           
+        
+        final Tag newTag = new PosTag(posTag, weight, name, uri);
+        this.addTag(newTag, TagType.POS_TAG);        
+    }
+
+    /**
 	 * Parse the value for the key "TOPIC_ZOOM_TAG" within a txt file and fill
 	 * the Posting's tags.
 	 * 
@@ -430,7 +527,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 		 * 6;uri:testuri
 		 */
 
-		String[] splitValues = value.split( ";" );		
+		final String[] splitValues = value.split( ";" );		
 
 		String name = "";
 		double weight = 0;
@@ -438,7 +535,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 		int degreegeneralization = 0;
 		String uri = "";
 		
-		for( String splitValue : splitValues ) {
+		for( final String splitValue : splitValues ) {
 			final Pattern pKeyValue = Pattern.compile( "([a-z]+):(.*)" );
 			final Matcher mKeyValue = pKeyValue.matcher( splitValue );
 			
@@ -458,16 +555,18 @@ public abstract class AUserContribution implements IDirectoryPortable {
 					break;
 				case "degreegeneralization":
 					degreegeneralization = Integer.parseInt( kValue );
+					break; 
 				case "uri":
 					uri = kValue;
+					break; 
 				default:
-					Application.log( getClass() + ":parseTopicZoomValue(): key " + key + " couldn't be matched.", LogType.ERROR );;
+					Application.log( this.getClass() + ":parseTopicZoomValue(): key " + key + " couldn't be matched.", LogType.ERROR );;
 				}
 				
 			}
 		}			
 		
-		Tag newTag = new TopicZoomTag( significance, degreegeneralization, weight, name, uri );
+		final Tag newTag = new TopicZoomTag( significance, degreegeneralization, weight, name, uri );
 		this.addTag(newTag, TagType.TOPIC_ZOOM);
 	}
 	
@@ -484,14 +583,14 @@ public abstract class AUserContribution implements IDirectoryPortable {
 		 * 6;uri:testuri
 		 */
 
-		String[] splitValues = value.split( ";" );		
+		final String[] splitValues = value.split( ";" );		
 
 		String name = "";
 		double weight = 0;
 		String uri = "";
 		String classifierlabel = "";
 		
-		for( String splitValue : splitValues ) {
+		for( final String splitValue : splitValues ) {
 			final Pattern pKeyValue = Pattern.compile( "([a-z]+):(.*)" );
 			final Matcher mKeyValue = pKeyValue.matcher( splitValue );
 			
@@ -508,17 +607,19 @@ public abstract class AUserContribution implements IDirectoryPortable {
 					break;				
 				case "uri":
 					uri = kValue;
+					break; 
 				case "classifierlabel":
 					classifierlabel = kValue;
+					break; 
 				default:
-					Application.log( getClass() + ":parseNerTagValue(): key " + key + " couldn't be matched.", LogType.ERROR );;
+					Application.log( this.getClass() + ":parseNerTagValue(): key " + key + " couldn't be matched.", LogType.ERROR );;
 				}
 				
 			}
 		}			
 		
-		Tag newTag = new NerTag(classifierlabel, weight, name, uri);
-		this.addTag(newTag, TagType.NER_TAGS);
+		final Tag newTag = new NerTag(classifierlabel, weight, name, uri);
+		this.addTag(newTag, TagType.NER_TAG);
 	}
 
 }

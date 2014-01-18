@@ -18,7 +18,7 @@ public class NerTag extends Tag {
 	protected String classifierLabel;
 	
 	public NerTag( String classifierLabel, double weight, String value, String uri ) {
-		super( weight, value, uri , TagType.NER_TAGS);	
+		super( weight, value, uri , TagType.NER_TAG);	
 		
 		this.classifierLabel = classifierLabel;
 	}

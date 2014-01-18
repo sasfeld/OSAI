@@ -1,9 +1,10 @@
 /**
  * Copyright (c) 2013-2014 Sascha Feldmann (sascha.feldmann@gmx.de) 
  */
-package de.bht.fb6.s778455.bachelor.semantic.extraction.nlp;
+package de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.ner;
 
 import java.io.File;
+import java.util.List;
 
 import de.bht.fb6.s778455.bachelor.model.AUserContribution;
 import de.bht.fb6.s778455.bachelor.model.Board;
@@ -24,22 +25,41 @@ import edu.stanford.nlp.ling.CoreLabel;
  * @since 09.01.2014
  * 
  */
-public class NerExtractionStrategy extends AExtractionStrategy {
+public abstract class ANerExtractionStrategy extends AExtractionStrategy {
 	protected CRFClassifier< CoreLabel > classifier;
 	protected NerTagMapper nerTagMapper;
 
 	/**
-	 * Create a new {@link NerExtractionStrategy} using the given corpusFile.
+	 * Create a new {@link ANerExtractionStrategy} using the given corpusFile.
 	 * 
-	 * @param corpusFile
+	 * @param classifierFile
 	 */
-	public NerExtractionStrategy( final File corpusFile ) {
-		if( null == corpusFile ) {
+	public ANerExtractionStrategy( final File classifierFile,
+			String... allowedCorpusNames ) {
+		if( null == classifierFile ) {
 			throw new IllegalArgumentException(
 					"Null is not allowed in a parameter!" );
 		}
 
-		this._initializeClassifier( corpusFile );
+		// check if the classifier file is allowed for the language (sub classes
+		// define that)
+		// so we try to forbid the usage of classifiers for other languages than
+		// the given subclass
+		boolean isAllowed = false;
+		for( String allowedCorpusName : allowedCorpusNames ) {
+			if( classifierFile.getName().startsWith( allowedCorpusName ) ) {
+				isAllowed = true;
+			}
+		}
+
+		if( !isAllowed ) {
+			throw new IllegalArgumentException(
+					getClass()
+							+ ": The given classifierFile doesn't seem to be allowed for this language. It mus be one of the following: "
+							+ allowedCorpusNames );
+		}
+
+		this._initializeClassifier( classifierFile );
 	}
 
 	/**
@@ -52,6 +72,33 @@ public class NerExtractionStrategy extends AExtractionStrategy {
 				.getAbsolutePath() );
 		this.nerTagMapper = new NerTagMapper( classifier.labels() );
 	}
+	
+	/**
+	 * Check whether the expected classifier labels are included in the classifier.
+	 */
+	protected void _checkClassifierLabels() {
+		boolean notContained = false;
+		for( final String expectedLabel : this.getExpectedNerTags() ) {
+			if ( !classifier.labels().contains( expectedLabel )) {
+				notContained = true;
+			}
+		}
+		
+		// throw exception if not contained
+		if ( notContained ) {
+			throw new IllegalArgumentException(
+					getClass()
+							+ ": The given classifierFile doesn't seem to be allowed for this language.");
+		}
+	}
+	
+	/**
+	 * Each subclass needs to define the NER tags/labels that it expects from
+	 * the classifier. So we can do an error handling if a foreign classifier is
+	 * used.
+	 */
+	public abstract List< String > getExpectedNerTags();
+	
 
 	/*
 	 * (non-Javadoc)
@@ -104,7 +151,8 @@ public class NerExtractionStrategy extends AExtractionStrategy {
 				course.getSummary() );
 
 		// let classifier NER tag
-		final String taggedStr = classifier.classifyWithInlineXML( strBuilder.toString() );
+		final String taggedStr = classifier.classifyWithInlineXML( strBuilder
+				.toString() );
 		this.nerTagMapper.mapToCourse( taggedStr, course );
 	}
 

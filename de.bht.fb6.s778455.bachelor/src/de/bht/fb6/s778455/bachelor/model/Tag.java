@@ -19,7 +19,11 @@ public class Tag {
 		/**
 		 * key for tags won by Stanford Named Entity Recognition (NER)
 		 */
-		NER_TAGS,
+		NER_TAG, 
+		/**
+		 * key for tags won by Stanford Part-of-Speech Tagging (POS)
+		 */
+		POS_TAG,
 	}
 	
 	protected double weight;
@@ -34,7 +38,7 @@ public class Tag {
 	 * @param uri
 	 * @throws IllegalArgumentException if you try to commit null values
 	 */
-	public Tag(double weight, String value, String uri, TagType tagType) {
+	public Tag(final double weight, final String value, final String uri, final TagType tagType) {
 		if ( null == value || null == uri ) {
 			throw new IllegalArgumentException( "Illegal null value for 'value' or 'uri'!" );
 		}
@@ -49,13 +53,13 @@ public class Tag {
 	 * @return the tagType
 	 */
 	public final TagType getTagType() {
-		return tagType;
+		return this.tagType;
 	}
 
 	/**
 	 * @param tagType the tagType to set
 	 */
-	public final void setTagType( TagType tagType ) {
+	public final void setTagType( final TagType tagType ) {
 		this.tagType = tagType;
 	}
 	
@@ -63,36 +67,36 @@ public class Tag {
 	 * @return the weight
 	 */
 	public double getWeight() {
-		return weight;
+		return this.weight;
 	}
 	/**
 	 * @param weight the weight to set
 	 */
-	public void setWeight( double weight ) {
+	public void setWeight( final double weight ) {
 		this.weight = weight;
 	}
 	/**
 	 * @return the value
 	 */
 	public String getValue() {
-		return value;
+		return this.value;
 	}
 	/**
 	 * @param value the value to set
 	 */
-	public void setValue( String value ) {
+	public void setValue( final String value ) {
 		this.value = value;
 	}
 	/**
 	 * @return the uri
 	 */
 	public String getUri() {
-		return uri;
+		return this.uri;
 	}
 	/**
 	 * @param uri the uri to set
 	 */
-	public void setUri( String uri ) {
+	public void setUri( final String uri ) {
 		this.uri = uri;
 	}
 	/* (non-Javadoc)
@@ -102,10 +106,10 @@ public class Tag {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ( ( uri == null ) ? 0 : uri.hashCode() );
-		result = prime * result + ( ( value == null ) ? 0 : value.hashCode() );
+		result = prime * result + ( ( this.uri == null ) ? 0 : this.uri.hashCode() );
+		result = prime * result + ( ( this.value == null ) ? 0 : this.value.hashCode() );
 		long temp;
-		temp = Double.doubleToLongBits( weight );
+		temp = Double.doubleToLongBits( this.weight );
 		result = prime * result + ( int ) ( temp ^ ( temp >>> 32 ) );
 		return result;
 	}
@@ -113,25 +117,25 @@ public class Tag {
 	 * @see java.lang.Object#equals(java.lang.Object)
 	 */
 	@Override
-	public boolean equals( Object obj ) {
+	public boolean equals( final Object obj ) {
 		if( this == obj )
 			return true;
 		if( obj == null )
 			return false;
-		if( getClass() != obj.getClass() )
+		if( this.getClass() != obj.getClass() )
 			return false;
-		Tag other = ( Tag ) obj;
-		if( uri == null ) {
+		final Tag other = ( Tag ) obj;
+		if( this.uri == null ) {
 			if( other.uri != null )
 				return false;
-		} else if( !uri.equals( other.uri ) )
+		} else if( !this.uri.equals( other.uri ) )
 			return false;
-		if( value == null ) {
+		if( this.value == null ) {
 			if( other.value != null )
 				return false;
-		} else if( !value.equals( other.value ) )
+		} else if( !this.value.equals( other.value ) )
 			return false;
-		if( Double.doubleToLongBits( weight ) != Double
+		if( Double.doubleToLongBits( this.weight ) != Double
 				.doubleToLongBits( other.weight ) )
 			return false;
 		return true;
@@ -142,13 +146,13 @@ public class Tag {
 	 */
 	@Override
 	public String toString() {
-		StringBuilder builder = new StringBuilder();
+		final StringBuilder builder = new StringBuilder();
 		builder.append( "Tag [getWeight()=" );
-		builder.append( getWeight() );
+		builder.append( this.getWeight() );
 		builder.append( ", getValue()=" );
-		builder.append( getValue() );
+		builder.append( this.getValue() );
 		builder.append( ", getUri()=" );
-		builder.append( getUri() );
+		builder.append( this.getUri() );
 		builder.append( "]" );
 		return builder.toString();
 	}	

@@ -33,7 +33,7 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 		super();
 	}
 
-	public TagStatisticsBuilder( AStatisticsBuilder builder ) {
+	public TagStatisticsBuilder( final AStatisticsBuilder builder ) {
 		super( builder );
 	}
 
@@ -44,7 +44,8 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 	 * de.bht.fb6.s778455.bachelor.statistics.AStatisticsBuilder#buildStatistics
 	 * (java.util.Collection)
 	 */
-	@SuppressWarnings( "unused" )
+	@Override
+    @SuppressWarnings( "unused" )
 	public StatisticsModel buildStatistics( final Collection< Course > courses ) {
 		final StatisticsModel model = super.buildStatistics( courses );
 
@@ -53,23 +54,25 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 		 */
 		int numberTopicZoomTags = 0;
 		int numberNerTags = 0;
+		int numberPosTags = 0;
 		int numberTags = 0;
 
 		/*
 		 * number of tags belonging to course, board or postings.
 		 */
-		int numberTagsForPostings = 0;
-		List< Tag > distinctTagsForPostings = new ArrayList< Tag >();
-		int numberTagsForBoards = 0;
-		List< Tag > distinctTagsForBoards = new ArrayList< Tag >();
-		int numberTagsForCourses = 0;
-		List< Tag > distinctTagsForCourses = new ArrayList< Tag >();
+		final int numberTagsForPostings = 0;
+		final List< Tag > distinctTagsForPostings = new ArrayList< Tag >();
+		final int numberTagsForBoards = 0;
+		final List< Tag > distinctTagsForBoards = new ArrayList< Tag >();
+		final int numberTagsForCourses = 0;
+		final List< Tag > distinctTagsForCourses = new ArrayList< Tag >();
 
 		/*
 		 * number of postings with tags
 		 */
 		int numberPostingsTzTags = 0;
 		int numberPostingsNerTags = 0;
+		int numberPostingsPosTags = 0;
 		int numberPostingsTags = 0;
 		int numberPostingsTzAndNerTags = 0;
 
@@ -78,6 +81,7 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 		 */
 		int numberCoursesTzTags = 0;
 		int numberCoursesNerTags = 0;
+		int numberCoursesPosTags = 0;
 		int numberCoursesTags = 0;
 		int numberCoursesTzAndNerTags = 0;
 
@@ -86,24 +90,32 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 		 */
 		int numberBoardsTzTags = 0;
 		int numberBoardsNerTags = 0;
+		int numberBoardsPosTags = 0;
 		int numberBoardsTags = 0;
 		int numberBoardsTzAndNerTags = 0;
 
-		List< Posting > untaggedPostings = new ArrayList< Posting >();
+		final List< Posting > untaggedPostings = new ArrayList< Posting >();
 
-		for( Course course : courses ) {
+		for( final Course course : courses ) {
 			// TopicZoomTags
-			List< Tag > topicTags = course.getTags( TagType.TOPIC_ZOOM );
+			final List< Tag > topicTags = course.getTags( TagType.TOPIC_ZOOM );
 			if( course.isTopicZoomTagged() ) {
 				numberTopicZoomTags += topicTags.size();
 				numberCoursesTzTags++;
 			}
 
 			// NER tags
-			List< Tag > nerTags = course.getTags( TagType.NER_TAGS );
+			final List< Tag > nerTags = course.getTags( TagType.NER_TAG );
 			if( course.isNerTagged() ) {
 				numberNerTags += nerTags.size();
 				numberCoursesNerTags++;
+			}
+			
+			// Pos tags
+			final List< Tag > posTags = course.getTags( TagType.POS_TAG );
+			if( course.isPosTagged() ) {
+			    numberPosTags += posTags.size();
+			    numberCoursesPosTags++;
 			}
 
 			// general tags
@@ -117,6 +129,9 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 				if( null != nerTags ) {
 					distinctTagsForCourses.addAll( nerTags );
 				}
+				if( null != posTags ) {
+				    distinctTagsForCourses.addAll( posTags );
+                }
 			}
 
 			// intersection stats
@@ -124,9 +139,9 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 				numberCoursesTzAndNerTags += 1;
 			}
 
-			for( Board board : course.getBoards() ) {
+			for( final Board board : course.getBoards() ) {
 				// TopicZoomTags
-				List< Tag > ctopicTags = board.getTags( TagType.TOPIC_ZOOM );
+				final List< Tag > ctopicTags = board.getTags( TagType.TOPIC_ZOOM );
 				if( board.isTopicZoomTagged() ) {
 					numberTopicZoomTags += board.getTags( TagType.TOPIC_ZOOM )
 							.size();
@@ -134,11 +149,19 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 				}
 
 				// NER tags
-				List< Tag > cnerTags = board.getTags( TagType.NER_TAGS );
+				final List< Tag > cnerTags = board.getTags( TagType.NER_TAG );
 				if( board.isNerTagged() ) {
-					numberNerTags += board.getTags( TagType.NER_TAGS ).size();
+					numberNerTags += board.getTags( TagType.NER_TAG ).size();
 					numberBoardsNerTags++;
 				}
+				
+				// Pos tags
+	            final List< Tag > cposTags = board.getTags( TagType.POS_TAG );
+	            if( course.isPosTagged() ) {
+	                numberPosTags += cposTags.size();
+	                numberBoardsPosTags++;
+	            }
+
 
 				// general tags
 				if( board.isTagged() ) {
@@ -151,8 +174,13 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 					}
 					if( null != cnerTags ) {
 						distinctTagsForBoards.addAll( board
-								.getTags( TagType.NER_TAGS ) );
+								.getTags( TagType.NER_TAG ) );
+					}					
+					if( null != cposTags ) {
+					    distinctTagsForBoards.addAll( board
+					            .getTags( TagType.POS_TAG ) );
 					}
+					
 				}
 
 				// intersection stats
@@ -160,10 +188,10 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 					numberBoardsTzAndNerTags += 1;
 				}
 
-				for( BoardThread thread : board.getBoardThreads() ) {
-					for( Posting posting : thread.getPostings() ) {
+				for( final BoardThread thread : board.getBoardThreads() ) {
+					for( final Posting posting : thread.getPostings() ) {
 						// TopicZoomTags
-						List< Tag > ptopicTags = posting.getTags( TagType.TOPIC_ZOOM );
+						final List< Tag > ptopicTags = posting.getTags( TagType.TOPIC_ZOOM );
 						if( posting.isTopicZoomTagged() ) {
 							numberTopicZoomTags += posting.getTags(
 									TagType.TOPIC_ZOOM ).size();
@@ -171,12 +199,19 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 						}
 
 						// NER tags
-						List< Tag > pnerTags = posting.getTags( TagType.NER_TAGS );
+						final List< Tag > pnerTags = posting.getTags( TagType.NER_TAG );
 						if( posting.isNerTagged() ) {
-							numberNerTags += posting.getTags( TagType.NER_TAGS )
+							numberNerTags += posting.getTags( TagType.NER_TAG )
 									.size();
 							numberPostingsNerTags++;
 						}
+						
+						// Pos tags
+		                final List< Tag > pposTags = posting.getTags( TagType.POS_TAG );
+		                if( posting.isPosTagged() ) {
+		                    numberPosTags += pposTags.size();
+		                    numberPostingsPosTags++;
+		                }
 
 						// general tags
 						if( posting.isTagged() ) {
@@ -189,8 +224,12 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 							}
 							if( null != pnerTags ) {
 								distinctTagsForPostings.addAll( posting
-										.getTags( TagType.NER_TAGS ) );
+										.getTags( TagType.NER_TAG ) );
 							}
+							if( null != pposTags ) {
+							    distinctTagsForPostings.addAll( posting
+		                                .getTags( TagType.POS_TAG ) );
+		                    }
 						} else { // add posting to untagged list
 							untaggedPostings.add( posting );
 						}
@@ -206,20 +245,25 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 		}
 
 		// fetch number of distinct tags (rdfId and value are equal)
-		int numberDistinctTzTags = this.getDistinctTags( courses,
+		final int numberDistinctTzTags = this.getDistinctTags( courses,
 				TagType.TOPIC_ZOOM );
-		int numberDistinctNerTags = this.getDistinctTags( courses,
-				TagType.NER_TAGS );
+		final int numberDistinctNerTags = this.getDistinctTags( courses,
+				TagType.NER_TAG );
+		final int numberDistinctPosTags = this.getDistinctTags( courses,
+		        TagType.POS_TAG );
 
 		model.setNumberTopicZoomTaggedPostings( numberPostingsTzTags )
 				.setNumberNerTaggedPostings( numberPostingsNerTags )
+				.setNumberPosTaggedPostings( numberPostingsPosTags )
 				.setNumberTaggedPostings( numberPostingsTags )
 				.setNumberTzAndNerTaggedPostings( numberPostingsTzAndNerTags )
 				.setNumberTopicZoomTags( numberTopicZoomTags )
 				.setNumberNerTags( numberNerTags )
+				.setNumberPosTags( numberPosTags ) 
 				.setNumberTags( numberTags )
 				.setNumberDistinctTopicZoomTags( numberDistinctTzTags )
 				.setNumberDistinctNerTags( numberDistinctNerTags )
+				.setNumberDistinctPosTags ( numberDistinctPosTags )
 				.setUntaggedPostings( untaggedPostings )
 				.setNumberTaggedCourses( numberCoursesTags )
 				.setNumberTaggedBoards( numberBoardsTags )
@@ -247,7 +291,7 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 	 */
 	private int getDistinctTags( final Collection< Course > courses,
 			final TagType tagType ) {
-		Set< Tag > distinctTags = CourseUtil.getDistinctTags( courses, tagType );
+		final Set< Tag > distinctTags = CourseUtil.getDistinctTags( courses, tagType );
 
 		return distinctTags.size();
 	}
