@@ -1,13 +1,11 @@
 /**
  * Copyright (c) 2013 Sascha Feldmann (sascha.feldmann@gmx.de) 
  */
-package de.bht.fb6.s778455.bachelor.anonymization;
+package de.bht.fb6.s778455.bachelor.organization.corpus;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory;
-import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
 
 /**
@@ -20,28 +18,13 @@ import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
  */
 public class CommonNameExcluder {
 	protected static CommonNameExcluder instance;
-	protected List< String > commonGermanWords;
-	protected List< String > commonEnglishWords;
-	
-	
-	protected CommonNameExcluder() throws InvalidConfigException {
-		this.commonGermanWords = ServiceFactory.getConfigReader()
-				.fetchMultipleValues( IConfigKeys.ANONYM_LEARNED_COMMON_GERMAN );
-		this.commonEnglishWords = ServiceFactory.getConfigReader()
-				.fetchMultipleValues( IConfigKeys.ANONYM_LEARNED_COMMON_ENGLISH );
-		this.prepareCommonWords();
-	}
-	
-	private void prepareCommonWords() {
-		// trim all words from config
-		for( String germanWord : this.commonGermanWords ) {
-			germanWord = germanWord.trim();
-		}		
-		
-		for( String englishWord : this.commonEnglishWords ) {
-			englishWord = englishWord.trim();
-		}
-	}
+	protected CommonWordCorpus corpus;
+
+
+    protected CommonNameExcluder() throws InvalidConfigException {
+		this.corpus = CommonWordCorpus.getCommonWordCorpus();
+	}	
+
 
 	/**
 	 * Get the singleton {@link CommonNameExcluder}. 
@@ -62,12 +45,12 @@ public class CommonNameExcluder {
 	 * @param caseSensitive set false if you want the word to be checked case insensitive (upper and lower characters don't matter)
 	 * @return true if the word is a common word. 
 	 */
-	public boolean isCommon( final String word, boolean caseSensitive ) {
+	public boolean isCommon( final String word, final boolean caseSensitive ) {
 		String checkedWord = word.trim();
 		
-		List< String > combinedLists = new ArrayList<String>();
-		combinedLists.addAll( this.commonEnglishWords );
-		combinedLists.addAll( this.commonGermanWords );
+		final List< String > combinedLists = new ArrayList<String>();
+		combinedLists.addAll( this.corpus.getCommonEnglishWords() );
+		combinedLists.addAll( this.corpus.getCommonEnglishWords() );
 		
 		for( final String commonWord : combinedLists ) {
 			String checkingWord = commonWord;
