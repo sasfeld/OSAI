@@ -91,7 +91,7 @@ public class StringUtil {
         final String[] words = cleanedText.split( " " );
         
         for( final String word : words ) {
-            if ( word.matches( "[A-Za-z]+" )) {
+            if ( word.matches( "[A-Za-z']+" )) {
                 resultSet.add( word );
             }
         }

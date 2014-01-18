@@ -49,7 +49,18 @@ public class LanguageDetectionStrategyTest {
         
         assertEquals( Language.GERMAN, p.getLang() );
         
+        // test for English Posting
+        final Posting englishP = new Posting();
         
+        assertEquals( Language.UNKNOWN, englishP.getLang() );
+        
+        final String contentE = "Hello all, how are you this fine day? So, I am looking for 1 more group member as I still haven't found one, if any of the ones that still don't have a group wishes to join me then reply to this thread, thanks =)";
+        
+        englishP.setContent( contentE );
+        
+        this.strategy.extractSemantics( englishP );
+        
+        assertEquals( Language.ENGLISH, englishP.getLang() );
         
     }
 

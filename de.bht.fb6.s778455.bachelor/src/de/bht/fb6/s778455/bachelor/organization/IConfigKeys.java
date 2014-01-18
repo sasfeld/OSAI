@@ -102,4 +102,7 @@ public interface IConfigKeys {
 	String SEMANTICS_EXTRACTION_STRATEGY_POS_ENGLISH_CASCADE = "semantics.extraction.strategy.pos.english.cascade";
 	String SEMANTICS_EXTRACTION_STRATEGY_POS_LANGUAGES = "semantics.extraction.strategy.pos.languages";
 	String SEMANTICS_EXTRACTION_STRATEGY_NER_LANGUAGES = "semantics.extraction.strategy.ner.languages";
+	String SEMANTICS_EXTRACTION_STRATEGY_LANGUAGEDETECTION_MIMIMUM_ENGLISH = "semantics.extraction.strategy.languagedetection.minimum.english";
+	String SEMANTICS_EXTRACTION_STRATEGY_LANGUAGEDETECTION_MIMIMUM_GERMAN = "semantics.extraction.strategy.languagedetection.minimum.german";
+	String SEMANTICS_EXTRACTION_STRATEGY_LANGUAGEDETECTION_MIMIMUM_DIFFERENCE = "semantics.extraction.strategy.languagedetection.minimum.difference";
 }

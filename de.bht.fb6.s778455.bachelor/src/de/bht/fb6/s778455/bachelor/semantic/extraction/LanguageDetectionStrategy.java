@@ -12,9 +12,11 @@ import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Language;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
 import de.bht.fb6.s778455.bachelor.organization.StringUtil;
 import de.bht.fb6.s778455.bachelor.organization.corpus.CommonWordCorpus;
+import de.bht.fb6.s778455.bachelor.semantic.organization.service.ServiceFactory;
 
 /**
  * <p>
@@ -43,9 +45,9 @@ public class LanguageDetectionStrategy extends AExtractionStrategy {
     public LanguageDetectionStrategy() throws InvalidConfigException {
         this.commonWordCorpus = CommonWordCorpus.getCommonWordCorpus();
 
-        this.mimumPercentageGerman = 40;
-        this.minumPercentageEnglish = 40;
-        this.minumPercentageDiff = 10;
+        this.mimumPercentageGerman = Double.parseDouble( ServiceFactory.getConfigReader().fetchValue( IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_LANGUAGEDETECTION_MIMIMUM_GERMAN ) );
+        this.minumPercentageEnglish = Double.parseDouble( ServiceFactory.getConfigReader().fetchValue( IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_LANGUAGEDETECTION_MIMIMUM_ENGLISH ) );
+        this.minumPercentageDiff =  Double.parseDouble( ServiceFactory.getConfigReader().fetchValue( IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_LANGUAGEDETECTION_MIMIMUM_DIFFERENCE ));
     }
 
     /**
