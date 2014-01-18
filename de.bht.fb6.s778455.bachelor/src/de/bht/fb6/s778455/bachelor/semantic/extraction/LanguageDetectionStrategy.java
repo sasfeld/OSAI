@@ -45,9 +45,21 @@ public class LanguageDetectionStrategy extends AExtractionStrategy {
     public LanguageDetectionStrategy() throws InvalidConfigException {
         this.commonWordCorpus = CommonWordCorpus.getCommonWordCorpus();
 
-        this.mimumPercentageGerman = Double.parseDouble( ServiceFactory.getConfigReader().fetchValue( IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_LANGUAGEDETECTION_MIMIMUM_GERMAN ) );
-        this.minumPercentageEnglish = Double.parseDouble( ServiceFactory.getConfigReader().fetchValue( IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_LANGUAGEDETECTION_MIMIMUM_ENGLISH ) );
-        this.minumPercentageDiff =  Double.parseDouble( ServiceFactory.getConfigReader().fetchValue( IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_LANGUAGEDETECTION_MIMIMUM_DIFFERENCE ));
+        this.mimumPercentageGerman = Double
+                .parseDouble( ServiceFactory
+                        .getConfigReader()
+                        .fetchValue(
+                                IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_LANGUAGEDETECTION_MIMIMUM_GERMAN ) );
+        this.minumPercentageEnglish = Double
+                .parseDouble( ServiceFactory
+                        .getConfigReader()
+                        .fetchValue(
+                                IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_LANGUAGEDETECTION_MIMIMUM_ENGLISH ) );
+        this.minumPercentageDiff = Double
+                .parseDouble( ServiceFactory
+                        .getConfigReader()
+                        .fetchValue(
+                                IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_LANGUAGEDETECTION_MIMIMUM_DIFFERENCE ) );
     }
 
     /**
@@ -63,11 +75,13 @@ public class LanguageDetectionStrategy extends AExtractionStrategy {
         // prepare string
         final String preparedStr = super.prepareText( inputStr );
         // first, split the string in to words (by whitespaces)
-        final Set<String> words = StringUtil.getWords( preparedStr );
+        final Set< String > words = StringUtil.getWords( preparedStr );
 
         // get the word coverage of English words
-        final double englishCoverage = this._calculateCoverage( words, Language.ENGLISH );
-        final double germanCoverage = this._calculateCoverage( words, Language.GERMAN );
+        final double englishCoverage = this._calculateCoverage( words,
+                Language.ENGLISH );
+        final double germanCoverage = this._calculateCoverage( words,
+                Language.GERMAN );
 
         // both percentages are large enough
         if( englishCoverage > this.minumPercentageEnglish
@@ -113,28 +127,32 @@ public class LanguageDetectionStrategy extends AExtractionStrategy {
      * Get the coverage of English words in the words array.
      * 
      * @param words
-     * @param english 
+     * @param english
      * @return {@link Double} the coverage in percent. Minimum value: 0,
      *         maximum: 100
      */
-    private double _calculateCoverage( final Set< String > words, final Language lang ) {
+    private double _calculateCoverage( final Set< String > words,
+            final Language lang ) {
         double numberCommonWords = 0;
         final double numberWords = words.size();
 
         // iterate through words, check if a word is common
         for( final String word : words ) {
-            if ( lang.equals( Language.GERMAN )) {
-                if( this.commonWordCorpus.getCommonGermanWords().contains( word ) ) {
+            if( lang.equals( Language.GERMAN ) ) {
+                if( this.commonWordCorpus.getCommonGermanWords()
+                        .contains( word ) ) {
                     numberCommonWords++;
                 }
-            } else if (lang.equals( Language.ENGLISH ) ) {
-                if( this.commonWordCorpus.getCommonEnglishWords().contains( word ) ) {
+            } else if( lang.equals( Language.ENGLISH ) ) {
+                if( this.commonWordCorpus.getCommonEnglishWords().contains(
+                        word ) ) {
                     numberCommonWords++;
                 }
             } else {
-                throw new IllegalArgumentException( "lang must be one of English or German!" );
+                throw new IllegalArgumentException(
+                        "lang must be one of English or German!" );
             }
-            
+
         }
 
         // return the percentage of common words ( number of common words /
@@ -180,7 +198,9 @@ public class LanguageDetectionStrategy extends AExtractionStrategy {
         // try decision of language
         try {
             final Language lang = this.decideLanguage( strofInterest );
-            userContribution.setLang( lang );
+            if( userContribution instanceof Posting ) {
+                userContribution.setLang( lang );
+            }
         } catch( final UnexpectedException e ) {
             throw new GeneralLoggingException(
                     this.getClass()

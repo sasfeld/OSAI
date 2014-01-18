@@ -46,7 +46,7 @@ public class SemanticExtractionController {
     private ArrayList< AExtractionStrategy > germanPosStrategies;
     private ArrayList< AExtractionStrategy > englishPosStrategies;
     private AExtractionStrategy topicZoomStrategy;
-    private AExtractionStrategy languageDetectionStrategy;    
+    private AExtractionStrategy languageDetectionStrategy;
     private Language defaultLang;
 
     /**
@@ -58,15 +58,17 @@ public class SemanticExtractionController {
     public SemanticExtractionController() throws InvalidConfigException {
         this.initializeStrategies();
     }
-    
+
     /**
      * Create a new semantic extraction controller.
-     * @param statisticsMode 
+     * 
+     * @param statisticsMode
      * 
      * @throws InvalidConfigException
      * @throws IllegalArgumentException
      */
-    public SemanticExtractionController(final boolean showInfo) throws InvalidConfigException {      
+    public SemanticExtractionController( final boolean showInfo )
+            throws InvalidConfigException {
         this.setPrintInfo( showInfo );
 
         this.initializeStrategies();
@@ -82,7 +84,7 @@ public class SemanticExtractionController {
                 .fetchMultipleValues(
                         IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_CHAIN );
         this.defaultLang = Language.UNKNOWN;
-        
+
         for( final String strategy : this.extractionChain ) {
             // try to get class
             Object clazz = null;
@@ -267,11 +269,11 @@ public class SemanticExtractionController {
                     System.out.println( "Initialized " + clazz.getClass()
                             + "\n" );
                 }
-            } 
-            
+            }
+
             /*
              * LanguageDetectionStrategy
-             */            
+             */
             if( strategy
                     .equals( IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_LANGUAGEDETECTION ) ) {
                 clazz = ServiceFactory.getConfigReader().getConfiguredClass(
@@ -373,7 +375,8 @@ public class SemanticExtractionController {
                     break;
                 default: // UNKNOWN
                     // perform Language Detection Strategy
-                    this.performExtraction( board, this.languageDetectionStrategy );
+                    this.performExtraction( board,
+                            this.languageDetectionStrategy );
                     Application
                             .log( this.getClass()
                                     + ":performSemanticExtraction(): the given board ("
@@ -416,7 +419,8 @@ public class SemanticExtractionController {
                             break;
                         default: // UNKNOWN
                             // perform Language Detection Strategy
-                            this.performExtraction( board, this.languageDetectionStrategy );
+                            this.performExtraction( posting,
+                                    this.languageDetectionStrategy );
                             Application
                                     .log( this.getClass()
                                             + ":performSemanticExtraction(): the given posting ("
@@ -453,7 +457,7 @@ public class SemanticExtractionController {
 
     private void performExtraction( final AUserContribution contrib,
             final AExtractionStrategy strategy ) {
-        if( this.printInfo  && null != strategy ) {
+        if( this.printInfo && null != strategy ) {
             System.out.println( "Performing strategy " + strategy.getClass()
                     + " ..." );
         }
@@ -470,30 +474,34 @@ public class SemanticExtractionController {
 
     private void performExtraction( final AUserContribution contrib,
             final ArrayList< AExtractionStrategy > strategies ) {
-        for( final AExtractionStrategy aExtractionStrategy : strategies ) {
-            try {
-                if( this.printInfo ) {
-                    System.out.println( "Performing strategy "
-                            + aExtractionStrategy.getClass() + " ..." );
+        if( null != strategies ) {
+            for( final AExtractionStrategy aExtractionStrategy : strategies ) {
+                try {
+                    if( this.printInfo ) {
+                        System.out.println( "Performing strategy "
+                                + aExtractionStrategy.getClass() + " ..." );
+                    }
+                    aExtractionStrategy.extractSemantics( contrib );
+                } catch( final GeneralLoggingException e ) {
+                    // continue, error is logged
                 }
-                aExtractionStrategy.extractSemantics( contrib );
-            } catch( final GeneralLoggingException e ) {
-                // continue, error is logged
             }
         }
     }
 
     private void performExtraction( final Course course,
             final ArrayList< AExtractionStrategy > strategies ) {
-        for( final AExtractionStrategy aExtractionStrategy : strategies ) {
-            try {
-                if( this.printInfo ) {
-                    System.out.println( "Performing strategy "
-                            + aExtractionStrategy.getClass() + " ..." );
+        if( null != strategies ) {
+            for( final AExtractionStrategy aExtractionStrategy : strategies ) {
+                try {
+                    if( this.printInfo ) {
+                        System.out.println( "Performing strategy "
+                                + aExtractionStrategy.getClass() + " ..." );
+                    }
+                    aExtractionStrategy.extractSemantics( course );
+                } catch( final GeneralLoggingException e ) {
+                    // continue, error is logged
                 }
-                aExtractionStrategy.extractSemantics( course );
-            } catch( final GeneralLoggingException e ) {
-                // continue, error is logged
             }
         }
     }
