@@ -3,6 +3,9 @@
  */
 package de.bht.fb6.s778455.bachelor.organization;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * <p>
  * This class offers static methods to work with Strings.
@@ -74,6 +77,26 @@ public class StringUtil {
                 ", " );
         
         return cleanedText;
+	}
+	
+	/**
+	 * Get a set of words (which consist only of alphanumerical symbols) for the given string.
+	 * @param inputStr
+	 * @return
+	 */
+	public static Set< String > getWords( final String inputStr ) {
+        final Set< String > resultSet = new HashSet<String>();
+        
+        final String cleanedText = fillMissingWhitespaces( inputStr );
+        final String[] words = cleanedText.split( " " );
+        
+        for( final String word : words ) {
+            if ( word.matches( "[A-Za-z]+" )) {
+                resultSet.add( word );
+            }
+        }
+        
+        return resultSet;
 	}
 
 }

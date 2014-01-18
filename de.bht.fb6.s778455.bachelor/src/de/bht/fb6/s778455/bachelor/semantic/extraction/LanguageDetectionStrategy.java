@@ -4,6 +4,7 @@
 package de.bht.fb6.s778455.bachelor.semantic.extraction;
 
 import java.rmi.UnexpectedException;
+import java.util.Set;
 
 import de.bht.fb6.s778455.bachelor.model.AUserContribution;
 import de.bht.fb6.s778455.bachelor.model.Board;
@@ -12,6 +13,7 @@ import de.bht.fb6.s778455.bachelor.model.Language;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
+import de.bht.fb6.s778455.bachelor.organization.StringUtil;
 import de.bht.fb6.s778455.bachelor.organization.corpus.CommonWordCorpus;
 
 /**
@@ -56,8 +58,10 @@ public class LanguageDetectionStrategy extends AExtractionStrategy {
      */
     protected Language decideLanguage( final String inputStr )
             throws UnexpectedException {
+        // prepare string
+        final String preparedStr = super.prepareText( inputStr );
         // first, split the string in to words (by whitespaces)
-        final String[] words = inputStr.split( " " );
+        final Set<String> words = StringUtil.getWords( preparedStr );
 
         // get the word coverage of English words
         final double englishCoverage = this._calculateCoverage( words, Language.ENGLISH );
@@ -66,7 +70,7 @@ public class LanguageDetectionStrategy extends AExtractionStrategy {
         // both percentages are large enough
         if( englishCoverage > this.minumPercentageEnglish
                 && germanCoverage > this.mimumPercentageGerman ) {
-            // calculate difference to decide. If the differnce is not large
+            // calculate difference to decide. If the difference is not large
             // enough, than we cannot decide
             final double coverageDiff = germanCoverage - englishCoverage;
 
@@ -111,9 +115,9 @@ public class LanguageDetectionStrategy extends AExtractionStrategy {
      * @return {@link Double} the coverage in percent. Minimum value: 0,
      *         maximum: 100
      */
-    private double _calculateCoverage( final String[] words, final Language lang ) {
+    private double _calculateCoverage( final Set< String > words, final Language lang ) {
         double numberCommonWords = 0;
-        final double numberWords = words.length;
+        final double numberWords = words.size();
 
         // iterate through words, check if a word is common
         for( final String word : words ) {
