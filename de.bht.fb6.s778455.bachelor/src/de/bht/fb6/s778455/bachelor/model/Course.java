@@ -441,6 +441,7 @@ public class Course implements Serializable, IDirectoryPortable {
 		txtExport.append( "LANG: " + this.getLang() + "\n" );
 		txtExport.append( "SHORT_NAME: " + this.getShortName() + "\n" );
 		txtExport.append( "TITLE: " + this.getTitle() + "\n" );
+		txtExport.append( "LANGUAGE: " + this.getLanguage() + "\n" );
 		txtExport.append( "SUMMARY: " + this.getSummary() + "\n" );
 		final String url = this.getUrl();
 
@@ -571,6 +572,8 @@ public class Course implements Serializable, IDirectoryPortable {
             this.parseNerTagValue( value );
         } else if ( key.equals( "POS_TAG" )) {
             this.parsePosTagValue( value );
+        } else if ( key.equals( "LANGUAGE" )) {
+            this.setLanguage( Language.getFromString( value ) );
         }
 	}
 	

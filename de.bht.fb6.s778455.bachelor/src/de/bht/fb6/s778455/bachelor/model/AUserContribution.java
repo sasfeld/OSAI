@@ -348,6 +348,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 					+ this.getModificationDate().getTime() + "\n" );
 		}
 		exportStr.append( "TITLE: " + this.getTitle() + "\n" );
+		exportStr.append( "LANGUAGE: " + this.getLang() + "\n" );
 
 		// tags
 		final List< Tag > topicZoomTags = this.getTags( TagType.TOPIC_ZOOM );
@@ -464,6 +465,8 @@ public abstract class AUserContribution implements IDirectoryPortable {
 			this.parseNerTagValue( value );
 		} else if ( key.equals( "POS_TAG" )) {
 		    this.parsePosTagValue( value );
+		} else if ( key.equals( "LANGUAGE" )) {
+		    this.setLang( Language.getFromString( value ) );
 		}
 
 	}
