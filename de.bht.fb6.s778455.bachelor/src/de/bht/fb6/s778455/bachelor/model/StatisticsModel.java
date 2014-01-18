@@ -123,7 +123,7 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
      * Number of {@link Posting} with POS {@link Tag}.
      */
     protected int numberPosTaggedPostings;
-    
+
     /**
      * Number of {@link Course} with both Ner Tags and {@link TopicZoomTag}.
      */
@@ -146,6 +146,44 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
      * Number of {@link Tag} belonging to {@link Posting} instances.
      */
     protected int numberDistinctPostingTags;
+    /**
+     * Number of courses with language = German.
+     */
+    protected int numberGermanCourses = 0;
+    /**
+     * Number of boards with language = German.
+     */
+    protected int numberGermanBoards = 0;
+    /**
+     * Number of postings with language = German.
+     */
+    protected int numberGermanPostings = 0;
+
+    /**
+     * Number of courses with language = English.
+     */
+    protected int numberEnglishCourses = 0;
+    /**
+     * Number of boards with language = English.
+     */
+    protected int numberEnglishBoards = 0;
+    /**
+     * Number of postings with language = English.
+     */
+    protected int numberEnglishPostings = 0;
+
+    /**
+     * Number of courses with language = UNKNOWN.
+     */
+    protected int numberUnknownLangCourses = 0;
+    /**
+     * Number of boards with language = UNKNOWN.
+     */
+    protected int numberUnknownLangBoards = 0;
+    /**
+     * Number of postings with language = UNKNOWN.
+     */
+    protected int numberUnknownLangPostings = 0;
 
     /**
      * @return the numberTopicZoomTaggedCourses
@@ -602,12 +640,13 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
     }
 
     /**
-     * @param numberPosTags the numberPosTags to set
-     * @return 
+     * @param numberPosTags
+     *            the numberPosTags to set
+     * @return
      */
     public final StatisticsModel setNumberPosTags( final int numberPosTags ) {
         this.numberPosTags = numberPosTags;
-        
+
         return this;
     }
 
@@ -619,12 +658,14 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
     }
 
     /**
-     * @param numberPosTaggedCourses the numberPosTaggedCourses to set
-     * @return 
+     * @param numberPosTaggedCourses
+     *            the numberPosTaggedCourses to set
+     * @return
      */
-    public final StatisticsModel setNumberPosTaggedCourses( final int numberPosTaggedCourses ) {
+    public final StatisticsModel setNumberPosTaggedCourses(
+            final int numberPosTaggedCourses ) {
         this.numberPosTaggedCourses = numberPosTaggedCourses;
-        
+
         return this;
     }
 
@@ -636,12 +677,14 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
     }
 
     /**
-     * @param numberPosTaggedBoards the numberPosTaggedBoards to set
-     * @return 
+     * @param numberPosTaggedBoards
+     *            the numberPosTaggedBoards to set
+     * @return
      */
-    public final StatisticsModel setNumberPosTaggedBoards( final int numberPosTaggedBoards ) {
+    public final StatisticsModel setNumberPosTaggedBoards(
+            final int numberPosTaggedBoards ) {
         this.numberPosTaggedBoards = numberPosTaggedBoards;
-        
+
         return this;
     }
 
@@ -653,12 +696,14 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
     }
 
     /**
-     * @param numberPosTaggedPostings the numberPosTaggedPostings to set
-     * @return 
+     * @param numberPosTaggedPostings
+     *            the numberPosTaggedPostings to set
+     * @return
      */
-    public final StatisticsModel setNumberPosTaggedPostings( final int numberPosTaggedPostings ) {
+    public final StatisticsModel setNumberPosTaggedPostings(
+            final int numberPosTaggedPostings ) {
         this.numberPosTaggedPostings = numberPosTaggedPostings;
-        
+
         return this;
     }
 
@@ -669,15 +714,172 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
         return this.numberDistinctPosTags;
     }
 
-    /* (non-Javadoc)
+    /**
+     * @return the numberGermanCourses
+     */
+    public final int getNumberGermanCourses() {
+        return this.numberGermanCourses;
+    }
+
+    /**
+     * @param numberGermanCourses the numberGermanCourses to set
+     * @return 
+     */
+    public final StatisticsModel setNumberGermanCourses( final int numberGermanCourses ) {
+        this.numberGermanCourses = numberGermanCourses;
+        
+        return this;
+    }
+
+    /**
+     * @return the numberGermanBoards
+     */
+    public final int getNumberGermanBoards() {
+        return this.numberGermanBoards;
+    }
+
+    /**
+     * @param numberGermanBoards the numberGermanBoards to set
+     * @return 
+     */
+    public final StatisticsModel setNumberGermanBoards( final int numberGermanBoards ) {
+        this.numberGermanBoards = numberGermanBoards;
+        
+        return this;
+    }
+
+    /**
+     * @return the numberGermanPostings
+     */
+    public final int getNumberGermanPostings() {
+        return this.numberGermanPostings;
+    }
+
+    /**
+     * @param numberGermanPostings the numberGermanPostings to set
+     * @return 
+     */
+    public final StatisticsModel setNumberGermanPostings( final int numberGermanPostings ) {
+        this.numberGermanPostings = numberGermanPostings;
+        
+        return this;
+    }
+
+    /**
+     * @return the numberEnglishCourses
+     */
+    public final int getNumberEnglishCourses() {
+        return this.numberEnglishCourses;
+    }
+
+    /**
+     * @param numberEnglishCourses the numberEnglishCourses to set
+     * @return 
+     */
+    public final StatisticsModel setNumberEnglishCourses( final int numberEnglishCourses ) {
+        this.numberEnglishCourses = numberEnglishCourses;
+        
+        return this;
+    }
+
+    /**
+     * @return the numberEnglishBoards
+     */
+    public final int getNumberEnglishBoards() {
+        return this.numberEnglishBoards;
+    }
+
+    /**
+     * @param numberEnglishBoards the numberEnglishBoards to set
+     * @return 
+     */
+    public final StatisticsModel setNumberEnglishBoards( final int numberEnglishBoards ) {
+        this.numberEnglishBoards = numberEnglishBoards;
+        
+        return this;
+    }
+
+    /**
+     * @return the numberEnglishPostings
+     */
+    public final int getNumberEnglishPostings() {
+        return this.numberEnglishPostings;
+    }
+
+    /**
+     * @param numberEnglishPostings the numberEnglishPostings to set
+     * @return 
+     */
+    public final StatisticsModel setNumberEnglishPostings( final int numberEnglishPostings ) {
+        this.numberEnglishPostings = numberEnglishPostings;
+        
+        return this;
+    }
+
+    /**
+     * @return the numberUnknownLangCourses
+     */
+    public final int getNumberUnknownLangCourses() {
+        return this.numberUnknownLangCourses;
+    }
+
+    /**
+     * @param numberUnknownLangCourses the numberUnknownLangCourses to set
+     * @return 
+     */
+    public final StatisticsModel setNumberUnknownLangCourses( final int numberUnknownLangCourses ) {
+        this.numberUnknownLangCourses = numberUnknownLangCourses;
+        
+        return this;
+    }
+
+    /**
+     * @return the numberUnknownLangBoards
+     */
+    public final int getNumberUnknownLangBoards() {
+        return this.numberUnknownLangBoards;
+    }
+
+    /**
+     * @param numberUnknownLangBoards the numberUnknownLangBoards to set
+     * @return 
+     */
+    public final StatisticsModel setNumberUnknownLangBoards( final int numberUnknownLangBoards ) {
+        this.numberUnknownLangBoards = numberUnknownLangBoards;
+        
+        return this;
+    }
+
+    /**
+     * @return the numberUnknownLangPostings
+     */
+    public final int getNumberUnknownLangPostings() {
+        return this.numberUnknownLangPostings;
+    }
+
+    /**
+     * @param numberUnknownLangPostings the numberUnknownLangPostings to set
+     * @return 
+     */
+    public final StatisticsModel setNumberUnknownLangPostings( final int numberUnknownLangPostings ) {
+        this.numberUnknownLangPostings = numberUnknownLangPostings;
+        
+        return this;
+    }
+
+    /*
+     * (non-Javadoc)
+     * 
      * @see java.lang.Object#hashCode()
      */
     @Override
     public int hashCode() {
         final int prime = 31;
         int result = 1;
-        result = prime * result
-                + ( ( this.dateCreation == null ) ? 0 : this.dateCreation.hashCode() );
+        result = prime
+                * result
+                + ( ( this.dateCreation == null ) ? 0 : this.dateCreation
+                        .hashCode() );
         result = prime * result + this.numberBoards;
         result = prime * result + this.numberCourses;
         result = prime * result + this.numberDistinctBoardTags;
@@ -707,12 +909,14 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
         result = prime * result + this.numberTzAndNerTaggedPostings;
         result = prime
                 * result
-                + ( ( this.untaggedPostings == null ) ? 0 : this.untaggedPostings
-                        .hashCode() );
+                + ( ( this.untaggedPostings == null ) ? 0
+                        : this.untaggedPostings.hashCode() );
         return result;
     }
 
-    /* (non-Javadoc)
+    /*
+     * (non-Javadoc)
+     * 
      * @see java.lang.Object#equals(java.lang.Object)
      */
     @Override
@@ -791,7 +995,9 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
         return true;
     }
 
-    /* (non-Javadoc)
+    /*
+     * (non-Javadoc)
+     * 
      * @see java.lang.Object#toString()
      */
     @Override

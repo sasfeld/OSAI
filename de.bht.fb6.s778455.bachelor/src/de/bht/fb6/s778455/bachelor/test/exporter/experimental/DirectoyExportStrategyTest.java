@@ -24,6 +24,7 @@ import de.bht.fb6.s778455.bachelor.exporter.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.Language;
 import de.bht.fb6.s778455.bachelor.model.NerTag;
 import de.bht.fb6.s778455.bachelor.model.PosTag;
 import de.bht.fb6.s778455.bachelor.model.Posting;
@@ -93,6 +94,7 @@ public class DirectoyExportStrategyTest {
 	public void testExport() throws GeneralLoggingException {			
 		final Course course = new Course( "Sample course" );
 		course.setUrl( "http://test.de" );
+		course.setLanguage( Language.GERMAN );
 		course.addTag( new PosTag( "NN", 0.0, "Beispiel", "beispiel.xad" ), TagType.POS_TAG );
 		course.addTag( new NerTag( "I-LOC", 0.0, "Berlin", "berlin.xad" ), TagType.NER_TAG );
 		course.addTag( new TopicZoomTag( 5, 1, 3, "Berlin", "214152" ), TagType.TOPIC_ZOOM );
@@ -109,6 +111,7 @@ public class DirectoyExportStrategyTest {
 		samplePosting1.setCreationDate( new Date() );		
 		samplePosting1.setTaggedContent( "This content is tagged by <I-PERS>Max Mustermann</I-PERS>." );
 		samplePosting1.setPostingType( "question" );
+		samplePosting1.setLang( Language.GERMAN );
 		sampleThread1.addPosting( samplePosting1  );
 		
 		final ArrayList< Tag > tagList = new ArrayList<Tag>();
