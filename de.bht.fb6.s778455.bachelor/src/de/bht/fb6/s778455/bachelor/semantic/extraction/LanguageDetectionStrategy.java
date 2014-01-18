@@ -12,7 +12,7 @@ import de.bht.fb6.s778455.bachelor.model.Language;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
-import de.bht.fb6.s778455.bachelor.organization.corpus.CommonNameExcluder;
+import de.bht.fb6.s778455.bachelor.organization.corpus.CommonWordCorpus;
 
 /**
  * <p>
@@ -28,7 +28,7 @@ import de.bht.fb6.s778455.bachelor.organization.corpus.CommonNameExcluder;
  */
 public class LanguageDetectionStrategy extends AExtractionStrategy {
 
-    protected final CommonNameExcluder commonNameExcluder;
+    protected final CommonWordCorpus commonWordCorpus;
     protected double mimumPercentageGerman;
     protected double minumPercentageEnglish;
     protected double minumPercentageDiff;
@@ -39,7 +39,7 @@ public class LanguageDetectionStrategy extends AExtractionStrategy {
      * @throws InvalidConfigException
      */
     public LanguageDetectionStrategy() throws InvalidConfigException {
-        this.commonNameExcluder = CommonNameExcluder.getInstance();
+        this.commonWordCorpus = CommonWordCorpus.getCommonWordCorpus();
 
         this.mimumPercentageGerman = 40;
         this.minumPercentageEnglish = 40;
@@ -60,8 +60,8 @@ public class LanguageDetectionStrategy extends AExtractionStrategy {
         final String[] words = inputStr.split( " " );
 
         // get the word coverage of English words
-        final double englishCoverage = this._calculateCoverage( words );
-        final double germanCoverage = this._calculateCoverage( words );
+        final double englishCoverage = this._calculateCoverage( words, Language.ENGLISH );
+        final double germanCoverage = this._calculateCoverage( words, Language.GERMAN );
 
         // both percentages are large enough
         if( englishCoverage > this.minumPercentageEnglish
@@ -107,18 +107,28 @@ public class LanguageDetectionStrategy extends AExtractionStrategy {
      * Get the coverage of English words in the words array.
      * 
      * @param words
+     * @param english 
      * @return {@link Double} the coverage in percent. Minimum value: 0,
      *         maximum: 100
      */
-    private double _calculateCoverage( final String[] words ) {
+    private double _calculateCoverage( final String[] words, final Language lang ) {
         double numberCommonWords = 0;
         final double numberWords = words.length;
 
         // iterate through words, check if a word is common
         for( final String word : words ) {
-            if( this.commonNameExcluder.isCommon( word, false ) ) {
-                numberCommonWords++;
+            if ( lang.equals( Language.GERMAN )) {
+                if( this.commonWordCorpus.getCommonGermanWords().contains( word ) ) {
+                    numberCommonWords++;
+                }
+            } else if (lang.equals( Language.ENGLISH ) ) {
+                if( this.commonWordCorpus.getCommonEnglishWords().contains( word ) ) {
+                    numberCommonWords++;
+                }
+            } else {
+                throw new IllegalArgumentException( "lang must be one of English or German!" );
             }
+            
         }
 
         // return the percentage of common words ( number of common words /

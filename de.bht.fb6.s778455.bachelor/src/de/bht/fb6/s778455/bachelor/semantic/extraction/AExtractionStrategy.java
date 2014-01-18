@@ -8,7 +8,9 @@ import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Posting;
+import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.organization.StringUtil;
 
 /**
  * <p>This class defines the API for all concrete strategies which aim to extract semantic information from {@link Posting} instances.</p>
@@ -29,7 +31,7 @@ public abstract class AExtractionStrategy {
 	 * @return the lazyMode
 	 */
 	public final boolean isLazyMode() {
-		return lazyMode;
+		return this.lazyMode;
 	}
 
 
@@ -42,6 +44,20 @@ public abstract class AExtractionStrategy {
 		this.lazyMode = lazyMode;
 	}
 
+	/**
+	 * Prepare the given string - text.
+	 * @param preparedText
+	 * @return
+	 */
+	protected String prepareText( final String text ) {
+	    if ( null == text ) {
+	        throw new IllegalArgumentException( "The value for the argument text mustn't be null!" );
+	    }
+	    
+	    final String cleanedText = StringUtil.fillMissingWhitespaces( text );
+	    
+	    return cleanedText;
+	}
 
 	/**
 	 * Extract semantic information from a given {@link AUserContribution}
