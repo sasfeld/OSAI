@@ -59,6 +59,7 @@ public class LanguageStatisticsBuilder extends DecoratingStatisticsBuilder {
                 break;
             case GERMAN:
                 numberGermanCourses++;
+                break;
             default:
                 numberUnknownLangCourses++;
             }
@@ -70,6 +71,7 @@ public class LanguageStatisticsBuilder extends DecoratingStatisticsBuilder {
                     break;
                 case GERMAN:
                     numberGermanBoards++;
+                    break;
                 default:
                     numberUnknownLangBoards++;
                 }
@@ -82,6 +84,7 @@ public class LanguageStatisticsBuilder extends DecoratingStatisticsBuilder {
                             break;
                         case GERMAN:
                             numberGermanPostings++;
+                            break;
                         default:
                             numberUnknownLangPostings++;
                         }

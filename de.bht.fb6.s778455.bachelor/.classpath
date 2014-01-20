@@ -19,5 +19,6 @@
 	<classpathentry kind="lib" path="lib/stanford-postagger-3.3.1-javadoc.jar"/>
 	<classpathentry kind="lib" path="lib/stanford-postagger-3.3.1-src.jar"/>
 	<classpathentry kind="lib" path="lib/stanford-postagger-3.3.1.jar"/>
+	<classpathentry kind="lib" path="lib/Mallet.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
