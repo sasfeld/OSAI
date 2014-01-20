@@ -10,6 +10,7 @@ import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.organization.MoodleHelper;
 import de.bht.fb6.s778455.bachelor.organization.StringUtil;
 
 /**
@@ -54,7 +55,9 @@ public abstract class AExtractionStrategy {
 	        throw new IllegalArgumentException( "The value for the argument text mustn't be null!" );
 	    }
 	    
-	    final String cleanedText = StringUtil.fillMissingWhitespaces( text );
+	    String cleanedText = StringUtil.fillMissingWhitespaces( text );
+	    
+	    cleanedText = MoodleHelper.removeMoodleChars( cleanedText );
 	    
 	    return cleanedText;
 	}

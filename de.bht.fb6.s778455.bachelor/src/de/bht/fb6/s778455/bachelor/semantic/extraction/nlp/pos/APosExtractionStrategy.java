@@ -111,7 +111,9 @@ public abstract class APosExtractionStrategy extends AExtractionStrategy {
         // for a posting, extract the content and tag it
         if( userContribution instanceof Posting ) {
             final Posting p = ( Posting ) userContribution;
-            final String untaggedContent = p.getContent();
+            String untaggedContent = p.getContent();
+            
+            untaggedContent = super.prepareText( untaggedContent );
 
             // perform pos tagging
             final String taggedContent = this.maxentTagger
@@ -129,7 +131,9 @@ public abstract class APosExtractionStrategy extends AExtractionStrategy {
             final StringBuilder strBuilder = new StringBuilder();
             strBuilder.append( b.getTitle() + "\n\n" ).append( b.getIntro() );
 
-            final String strToTag = strBuilder.toString();
+            String strToTag = strBuilder.toString();
+            
+            strToTag = super.prepareText( strToTag );
 
             // perform pos tagging and mapping
             final String taggedStr = this.maxentTagger.tagString( strToTag );

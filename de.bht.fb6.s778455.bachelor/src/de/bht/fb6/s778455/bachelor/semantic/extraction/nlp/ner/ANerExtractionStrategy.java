@@ -35,7 +35,7 @@ public abstract class ANerExtractionStrategy extends AExtractionStrategy {
 	 * @param classifierFile
 	 */
 	public ANerExtractionStrategy( final File classifierFile,
-			String... allowedCorpusNames ) {
+			final String... allowedCorpusNames ) {
 		if( null == classifierFile ) {
 			throw new IllegalArgumentException(
 					"Null is not allowed in a parameter!" );
@@ -46,7 +46,7 @@ public abstract class ANerExtractionStrategy extends AExtractionStrategy {
 		// so we try to forbid the usage of classifiers for other languages than
 		// the given subclass
 		boolean isAllowed = false;
-		for( String allowedCorpusName : allowedCorpusNames ) {
+		for( final String allowedCorpusName : allowedCorpusNames ) {
 			if( classifierFile.getName().startsWith( allowedCorpusName ) ) {
 				isAllowed = true;
 			}
@@ -54,7 +54,7 @@ public abstract class ANerExtractionStrategy extends AExtractionStrategy {
 
 		if( !isAllowed ) {
 			throw new IllegalArgumentException(
-					getClass()
+					this.getClass()
 							+ ": The given classifierFile doesn't seem to be allowed for this language. It mus be one of the following: "
 							+ allowedCorpusNames );
 		}
@@ -67,10 +67,10 @@ public abstract class ANerExtractionStrategy extends AExtractionStrategy {
 	 * 
 	 * @param corpusFile
 	 */
-	private void _initializeClassifier( File corpusFile ) {
+	private void _initializeClassifier( final File corpusFile ) {
 		this.classifier = CRFClassifier.getClassifierNoExceptions( corpusFile
 				.getAbsolutePath() );
-		this.nerTagMapper = new NerTagMapper( classifier.labels() );
+		this.nerTagMapper = new NerTagMapper( this.classifier.labels() );
 	}
 	
 	/**
@@ -79,7 +79,7 @@ public abstract class ANerExtractionStrategy extends AExtractionStrategy {
 	protected void _checkClassifierLabels() {
 		boolean notContained = false;
 		for( final String expectedLabel : this.getExpectedNerTags() ) {
-			if ( !classifier.labels().contains( expectedLabel )) {
+			if ( !this.classifier.labels().contains( expectedLabel )) {
 				notContained = true;
 			}
 		}
@@ -87,7 +87,7 @@ public abstract class ANerExtractionStrategy extends AExtractionStrategy {
 		// throw exception if not contained
 		if ( notContained ) {
 			throw new IllegalArgumentException(
-					getClass()
+					this.getClass()
 							+ ": The given classifierFile doesn't seem to be allowed for this language.");
 		}
 	}
@@ -107,7 +107,7 @@ public abstract class ANerExtractionStrategy extends AExtractionStrategy {
 	 * extractSemantics(de.bht.fb6.s778455.bachelor.model.AUserContribution)
 	 */
 	@Override
-	public void extractSemantics( AUserContribution userContribution )
+	public void extractSemantics( final AUserContribution userContribution )
 			throws GeneralLoggingException {
 		if( null == userContribution ) {
 			throw new IllegalArgumentException(
@@ -119,10 +119,10 @@ public abstract class ANerExtractionStrategy extends AExtractionStrategy {
 			// posting: sent the content of the posting
 			strToTag = ( ( Posting ) userContribution ).getContent();
 		} else if( userContribution instanceof Board ) {
-			Board b = ( Board ) userContribution;
+			final Board b = ( Board ) userContribution;
 
 			// board: concat title and intro
-			StringBuilder strBuilder = new StringBuilder();
+			final StringBuilder strBuilder = new StringBuilder();
 			strBuilder.append( b.getTitle() + "\n\n" ).append( b.getIntro() );
 
 			strToTag = strBuilder.toString();
@@ -130,9 +130,11 @@ public abstract class ANerExtractionStrategy extends AExtractionStrategy {
 			// return because the given userContribution isn't supported
 			return;
 		}
+		
+		strToTag = super.prepareText( strToTag );
 
 		// let classifier NER tag
-		final String taggedStr = classifier.classifyWithInlineXML( strToTag );
+		final String taggedStr = this.classifier.classifyWithInlineXML( strToTag );
 		this.nerTagMapper.mapToContribution( taggedStr, userContribution );
 	}
 
@@ -143,15 +145,15 @@ public abstract class ANerExtractionStrategy extends AExtractionStrategy {
 	 * extractSemantics(de.bht.fb6.s778455.bachelor.model.Course)
 	 */
 	@Override
-	public void extractSemantics( Course course )
+	public void extractSemantics( final Course course )
 			throws GeneralLoggingException {
 		// concat the title and summary of the course to get a maxmimum of words
-		StringBuilder strBuilder = new StringBuilder();
+		final StringBuilder strBuilder = new StringBuilder();
 		strBuilder.append( course.getTitle() + "\n\n" ).append(
 				course.getSummary() );
 
 		// let classifier NER tag
-		final String taggedStr = classifier.classifyWithInlineXML( strBuilder
+		final String taggedStr = this.classifier.classifyWithInlineXML( strBuilder
 				.toString() );
 		this.nerTagMapper.mapToCourse( taggedStr, course );
 	}
