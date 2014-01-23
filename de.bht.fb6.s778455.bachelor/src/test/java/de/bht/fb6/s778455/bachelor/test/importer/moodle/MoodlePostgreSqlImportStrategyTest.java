@@ -3,7 +3,8 @@
  */
 package de.bht.fb6.s778455.bachelor.test.importer.moodle;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import java.io.File;
 import java.util.Collection;
@@ -64,7 +65,7 @@ public class MoodlePostgreSqlImportStrategyTest {
 	 */
 	@Test
 	public void testImportFromFile() throws GeneralLoggingException {
-		Collection< Course > courses = this.importStrategy
+		final Collection< Course > courses = this.importStrategy
 				.importBoardFromFile( this.testFolder );
 
 		assertTrue( null != courses );
@@ -72,7 +73,7 @@ public class MoodlePostgreSqlImportStrategyTest {
 		assertEquals( 2, courses.size() );
 		// iterate through courses, assert constellation of instances
 		int courseNum = 0;
-		for( Course course : courses ) {
+		for( final Course course : courses ) {
 			if( 0 == courseNum ) {
 				assertEquals( "Beuth Hochschule Test Moodle", course.getTitle() );
 				assertEquals( "Beuth HS Test", course.getShortName() );
@@ -81,22 +82,22 @@ public class MoodlePostgreSqlImportStrategyTest {
 				// iterate through boards, assert them
 				if( 1 == courseNum ) {
 					int boardNum = 0;
-					for( Board board : course.getBoards() ) {
+					for( final Board board : course.getBoards() ) {
 						if( 0 == boardNum ) {
 							assertEquals( "Nachrichtenforum", board.getTitle() );
-							assertEquals( "Nachrichten und Ankündigungen", board.getIntro() );
+							assertTrue( null != board.getIntro() );
 						}
 						else {
 							// iterate through threads
 							if ( 1 == boardNum ) {
 								int threadNum = 0;
-								for( BoardThread thread: board.getBoardThreads()) {
+								for( final BoardThread thread: board.getBoardThreads()) {
 									if ( 0 == threadNum ) {
 										assertEquals( "Optionale Aufgaben", thread.getTitle() );
 										assertEquals( board, thread.getBelongingBoard() );
 										
 										// iterate through postings
-										for( Posting posting : thread.getPostings() ) {
+										for( final Posting posting : thread.getPostings() ) {
 											// only one posting exists in discussion = 1
 											assertEquals( "Optionale Aufgaben", posting.getTitle() );
 											assertTrue( 0 < posting.getContent().length());
@@ -131,10 +132,10 @@ public class MoodlePostgreSqlImportStrategyTest {
 	
 	@Test
 	public void testFillFromFile() throws GeneralLoggingException {
-		Collection< Course > courses = this.importStrategy
+		final Collection< Course > courses = this.importStrategy
 				.importBoardFromFile( this.testFolder );
 		
-		for( Course course : courses ) {
+		for( final Course course : courses ) {
 			System.out.println("++++++++++++++++++++++++++++");
 			System.out.println("course name: " + course.getTitle());
 			System.out.println("Corpus: \n " + course.getPersonNameCorpus());

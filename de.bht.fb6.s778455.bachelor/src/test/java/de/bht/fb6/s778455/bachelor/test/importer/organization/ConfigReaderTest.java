@@ -68,10 +68,10 @@ public class ConfigReaderTest {
 	 * @see de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader#fetchValues()
 	 */
 	public void testFetchValues() {
-		Map< String, String > configValues = this.configReader.fetchValues();
+		final Map< String, String > configValues = this.configReader.fetchValues();
 		
 		// assert size -> force the devloper to check this test before he manipulates the configuration
-		assertEquals( 9, configValues.size() );
+		assertEquals( 14, configValues.size() );
 		
 		// assert properties' keys
 		assertTrue( configValues.containsKey( IConfigKeys.IMPORT_STRATEGY_CLASS) );
@@ -111,10 +111,10 @@ public class ConfigReaderTest {
 	 */
 	public void testConfiguredClasses() throws ClassNotFoundException, NoSuchMethodException, SecurityException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
 		// importer strategy
-		String importerStrategy = this.configReader.fetchValue( IConfigKeys.IMPORT_STRATEGY_CLASS );
-		Class< ? > className = Class.forName( importerStrategy );
-		Constructor< ? > constructor = className.getConstructor( );
-		Object strategyObject = constructor.newInstance(  );
+		final String importerStrategy = this.configReader.fetchValue( IConfigKeys.IMPORT_STRATEGY_CLASS );
+		final Class< ? > className = Class.forName( importerStrategy );
+		final Constructor< ? > constructor = className.getConstructor( );
+		final Object strategyObject = constructor.newInstance(  );
 		
 		assertTrue( null != importerStrategy );
 		assertTrue ( strategyObject instanceof AImportStrategy );
@@ -126,7 +126,7 @@ public class ConfigReaderTest {
 	 * @see de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader:getConfiguredImportStrategy
 	 */
 	public void testGetConfiguredImportStrategy() throws InvalidConfigException {
-		AImportStrategy importStrategy = ((ConfigReader) this.configReader).getConfiguredImportStrategy();
+		final AImportStrategy importStrategy = ((ConfigReader) this.configReader).getConfiguredImportStrategy();
 		assertTrue( null != importStrategy);
 	}
 }
