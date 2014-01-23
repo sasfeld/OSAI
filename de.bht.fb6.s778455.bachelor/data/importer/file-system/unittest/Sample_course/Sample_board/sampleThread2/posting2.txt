@@ -1,0 +1,9 @@
+ID: 0
+CREATION_DATETIME: 1390143881774
+TITLE: null
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 0
+CONTENT:
+This is a another posting
+TAGGED_CONTENT:
+This content is tagged by <I-PERS>Max Mustermann</I-PERS>.

@@ -1,0 +1,15 @@
+ID: 0
+CREATION_DATETIME: 1390057481774
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:test;weight:3.0;significance:6.0;degreegeneralization:4;uri:testuri
+TOPIC_ZOOM_TAG: value:test;weight:1.0;significance:3.0;degreegeneralization:2;uri:testuri2
+NER_TAG: value:Berlin;weight:-1.0;uri:berlin;classifierlabel:I-LOC
+POS_TAG: value:Variable;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+This is a sample posting.
+And a newline.
+TAGGED_CONTENT:
+This content is tagged by <I-PERS>Max Mustermann</I-PERS>.
