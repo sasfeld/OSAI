@@ -146,9 +146,9 @@ public class DirectoyExportStrategyTest {
 		this.exportStrategy.exportToFile( courseSet, this.testFolder );
 		
 		// assert file structure
-		final File course1File = new File( this.testFolder, course.getTitle());
+		final File course1File = new File( this.testFolder, "Sample_course");
 		
-		final File board1File = new File( course1File, sampleBoard1.getTitle() );
+		final File board1File = new File( course1File, "Sample_board" );
 		assertTrue( board1File.exists() );
 		assertTrue( board1File.isDirectory() );
 		

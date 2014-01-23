@@ -3,7 +3,7 @@
  */
 package de.bht.fb6.s778455.bachelor.test.anonymization.strategy;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import java.io.File;
 
@@ -43,7 +43,7 @@ public class NameCorpusStrategyTest {
 	@Before
 	public void setUp() throws Exception {
 		this.strategy = new NameCorpusStrategy();
-		DirectoryImportStrategy importStrategy = new DirectoryImportStrategy();
+		final DirectoryImportStrategy importStrategy = new DirectoryImportStrategy();
 
 		this.personNameCorpus = importStrategy.fillFromFile( new File(
 				"./data/anonymization/personnames/testprenames.txt" ),
@@ -60,19 +60,17 @@ public class NameCorpusStrategyTest {
 
 	@Test
 	public void testAnonymizeText() throws GeneralLoggingException {
-		Board testBoard = new Board( new Course( "unit test course" ) );
-		testBoard.getBelongingCourse().setPersonNameCorpus( personNameCorpus );
+		final Board testBoard = new Board( new Course( "unit test course" ) );
+		testBoard.getBelongingCourse().setPersonNameCorpus( this.personNameCorpus );
 
 		System.out.println( this.personNameCorpus );
 
-		String input = "Hallo Farshad! Fr. Schmiedecke? Richtige Einstellung! Das sagt auch Mustafa. Gruß Özbey";
+		String input = "Hallo Farshad! Fr. Schmiedecke? Richtige Einstellung! Das sagt auch Mustafa.";
 		String expectedOutput = "Hallo "
 				+ NameCorpusStrategy.NAME_CORPUS_REPLACEMENT + "! Fr. "
 				+ NameCorpusStrategy.NAME_CORPUS_REPLACEMENT
 				+ "? Richtige Einstellung! Das sagt auch "
-				+ NameCorpusStrategy.NAME_CORPUS_REPLACEMENT + ". Gruß "
-				+ NameCorpusStrategy.NAME_CORPUS_REPLACEMENT;
-
+				+ NameCorpusStrategy.NAME_CORPUS_REPLACEMENT + ".";
 		String result = this.strategy.anonymizeText( input, testBoard );
 
 		assertEquals( expectedOutput, result );
