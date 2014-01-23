@@ -68,10 +68,10 @@ public class ConfigReaderTest {
 	 * @see de.bht.fb6.s778455.bachelor.organization.anonymization.ConfigReader#fetchValues()
 	 */
 	public void testFetchValues() {
-		Map< String, String > configValues = this.configReader.fetchValues();
+		final Map< String, String > configValues = this.configReader.fetchValues();
 		
 		// assert size -> force the devloper to check this test before he manipulates the configuration
-		assertEquals( 131, configValues.size() );
+		assertEquals( 579, configValues.size() );
 		
 		// assert properties' keys
 		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_GERMAN_DEWAC_FILE ) );
@@ -109,16 +109,16 @@ public class ConfigReaderTest {
 	@Test
 	public void testFetchMultipleValues() throws InvalidConfigException {
 		// test german corpus config keys (format: a.b.c.1 = property and a.b.c.2 = property2)
-		List< String > germanCorpora = this.configReader.fetchMultipleValues( IConfigKeys.ANONYM_NER_GERMAN_CORPORA );
+		final List< String > germanCorpora = this.configReader.fetchMultipleValues( IConfigKeys.ANONYM_NER_GERMAN_CORPORA );
 		
 		assertTrue( 2 == germanCorpora.size() );	
 		
 		// test config keys pointing to a property which is comma-separated
-		List< String > germanCorporaCascade = this.configReader.fetchMultipleValues( IConfigKeys.ANONYM_NER_GERMAN_CASCADE );
+		final List< String > germanCorporaCascade = this.configReader.fetchMultipleValues( IConfigKeys.ANONYM_NER_GERMAN_CASCADE );
 		assertTrue( germanCorporaCascade.size() >= 1 );
 		
 		// german greetings
-		List< String > germanGreetings = this.configReader.fetchMultipleValues( IConfigKeys.ANONYM_GREETINGS_GERMAN );
+		final List< String > germanGreetings = this.configReader.fetchMultipleValues( IConfigKeys.ANONYM_GREETINGS_GERMAN );
 		
 		assertTrue( 1 < germanGreetings.size() );	
 	}
@@ -131,7 +131,7 @@ public class ConfigReaderTest {
 	@Test
 	public void testFetchMultipleValuesSingleKey() throws InvalidConfigException {		
 		// test single property key -> shouldn't point to a list of values
-		List< String > singleValueList = this.configReader.fetchMultipleValues( IConfigKeys.ANONYM_NER_GERMAN_DEWAC_FILE );
+		final List< String > singleValueList = this.configReader.fetchMultipleValues( IConfigKeys.ANONYM_NER_GERMAN_DEWAC_FILE );
 		
 		assertTrue( 1 == singleValueList.size());
 	}
@@ -139,8 +139,8 @@ public class ConfigReaderTest {
 	@Test
 	public void testGetConfiguredClass() throws InvalidConfigException {
 		// test for GermanNerAnonymizationStrategy
-		ConfigReader configReader = (ConfigReader) this.configReader;
-		AAnomyzationStrategy strategy =  configReader.<AAnomyzationStrategy>getConfiguredClass( IConfigKeys.ANONYM_NER_GERMAN_STRATEGY_CLASS, new File( this.configReader.fetchValue( IConfigKeys.ANONYM_NER_GERMAN_HGC_FILE )));
+		final ConfigReader configReader = (ConfigReader) this.configReader;
+		final AAnomyzationStrategy strategy =  configReader.<AAnomyzationStrategy>getConfiguredClass( IConfigKeys.ANONYM_NER_GERMAN_STRATEGY_CLASS, new File( this.configReader.fetchValue( IConfigKeys.ANONYM_NER_GERMAN_HGC_FILE )));
 		
 		assertTrue( null != strategy );
 	}

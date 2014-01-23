@@ -50,7 +50,7 @@ public class CommonNameExcluder {
 		
 		final List< String > combinedLists = new ArrayList<String>();
 		combinedLists.addAll( this.corpus.getCommonEnglishWords() );
-		combinedLists.addAll( this.corpus.getCommonEnglishWords() );
+		combinedLists.addAll( this.corpus.getCommonGermanWords() );
 		
 		for( final String commonWord : combinedLists ) {
 			String checkingWord = commonWord;
