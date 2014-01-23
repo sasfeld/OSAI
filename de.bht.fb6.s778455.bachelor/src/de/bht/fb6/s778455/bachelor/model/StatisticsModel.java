@@ -184,6 +184,10 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
      * Number of postings with language = UNKNOWN.
      */
     protected int numberUnknownLangPostings = 0;
+    /**
+     * Number of postings with empty content.
+     */
+    protected int numberPostingsEmptyContent;
 
     /**
      * @return the numberTopicZoomTaggedCourses
@@ -867,6 +871,20 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
         return this;
     }
 
+    /**
+     * @return the numberPostingsEmptyContent
+     */
+    public final int getNumberPostingsEmptyContent() {
+        return this.numberPostingsEmptyContent;
+    }
+
+    /**
+     * @param numberPostingsEmptyContent the numberPostingsEmptyContent to set
+     */
+    public final void setNumberPostingsEmptyContent( final int numberPostingsEmptyContent ) {
+        this.numberPostingsEmptyContent = numberPostingsEmptyContent;
+    }
+
     /* (non-Javadoc)
      * @see java.lang.Object#hashCode()
      */
@@ -899,6 +917,7 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
         result = prime * result + this.numberPosTaggedPostings;
         result = prime * result + this.numberPosTags;
         result = prime * result + this.numberPostings;
+        result = prime * result + this.numberPostingsEmptyContent;
         result = prime * result + this.numberTaggedBoards;
         result = prime * result + this.numberTaggedCourses;
         result = prime * result + this.numberTaggedPostings;
@@ -981,6 +1000,8 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
         if( this.numberPosTags != other.numberPosTags )
             return false;
         if( this.numberPostings != other.numberPostings )
+            return false;
+        if( this.numberPostingsEmptyContent != other.numberPostingsEmptyContent )
             return false;
         if( this.numberTaggedBoards != other.numberTaggedBoards )
             return false;
@@ -1096,6 +1117,8 @@ public class StatisticsModel implements IDirectoryPortable, Serializable {
         builder.append( this.getNumberUnknownLangBoards() );
         builder.append( ", getNumberUnknownLangPostings()=" );
         builder.append( this.getNumberUnknownLangPostings() );
+        builder.append( ", getNumberPostingsEmptyContent()=" );
+        builder.append( this.getNumberPostingsEmptyContent() );
         builder.append( "]" );
         return builder.toString();
     }

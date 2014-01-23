@@ -8,6 +8,7 @@ import java.util.Collection;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.model.StatisticsModel;
 
 /**
@@ -27,7 +28,7 @@ public class GeneralStatisticsBuilder extends DecoratingStatisticsBuilder{
 		super();
 	}
 	
-	public GeneralStatisticsBuilder(AStatisticsBuilder builder) {
+	public GeneralStatisticsBuilder(final AStatisticsBuilder builder) {
 		super( builder );
 	}
 	
@@ -35,20 +36,28 @@ public class GeneralStatisticsBuilder extends DecoratingStatisticsBuilder{
 	 * (non-Javadoc)
 	 * @see de.bht.fb6.s778455.bachelor.statistics.AStatisticsBuilder#buildStatistics(java.util.Collection)
 	 */
-	public StatisticsModel buildStatistics( final Collection< Course > courses ) {
+	@Override
+    public StatisticsModel buildStatistics( final Collection< Course > courses ) {
 		final StatisticsModel model = super.buildStatistics( courses );
 		
-		int numberCourses = courses.size();
+		final int numberCourses = courses.size();
 		int numberBoards = 0;
 		int numberThreads = 0;
 		int numberPostings = 0;
+		int numberPostingsEmptyContent = 0;
 
-		for( Course course : courses ) {
+		for( final Course course : courses ) {
 			numberBoards += course.getBoards().size();
-			for( Board board : course.getBoards() ) {				
+			for( final Board board : course.getBoards() ) {				
 				numberThreads += board.getBoardThreads().size();
-				for( BoardThread boardThread : board.getBoardThreads() ) {					
+				for( final BoardThread boardThread : board.getBoardThreads() ) {					
 					numberPostings += boardThread.getPostings().size();
+					
+					for( final Posting p : boardThread.getPostings() ) {
+                        if ( 0 == p.getContent().trim().length()) {
+                            numberPostingsEmptyContent++;
+                        }
+                    }
 				}				
 			}
 		}
