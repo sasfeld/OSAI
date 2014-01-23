@@ -1,2 +1,5 @@
 /bin
 /data/exporter
+/target
+/cli
+/lib

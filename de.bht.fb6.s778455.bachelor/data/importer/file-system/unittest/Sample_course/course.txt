@@ -1,0 +1,10 @@
+ID: 0
+LANG: null
+SHORT_NAME: null
+TITLE: Sample course
+LANGUAGE: GERMAN
+SUMMARY: null
+URL: http://test.de
+TOPIC_ZOOM_TAG: value:Berlin;weight:3.0;significance:5.0;degreegeneralization:1;uri:214152
+NER_TAG: value:Berlin;weight:0.0;uri:berlin.xad;classifierlabel:I-LOC
+POS_TAG: value:Beispiel;weight:0.0;uri:beispiel.xad;postag:NN
