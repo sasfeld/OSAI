@@ -76,6 +76,7 @@ public interface IConfigKeys {
 	String IMPORT_STRATEGY_AUDITORIUM_DB_USER = "import.strategy.auditorium.db.user";
 	String IMPORT_STRATEGY_AUDITORIUM_DB_PW = "import.strategy.auditorium.db.password";
 	String IMPORT_STRATEGY_LUEBECK_DATA = "import.strategy.luebeck.datafolder";
+	
 	/*
 	 * export module 
 	 */
@@ -85,4 +86,24 @@ public interface IConfigKeys {
 	String EXPORT_STRATEGY_SERIALIZED_DATAFOLDER = "export.strategy.serialized.datafolder";
 	String EXPORT_STRATEGY_DIRECTORYEXPORT_ENCODING = "export.strategy.directoryexport.encoding";
 	String IMPORT_STRATEGY_AUDITORIUM_DB_DBNAME = "import.strategy.auditorium.db.dbname";
+	
+	/*
+	 * Semantics module.
+	 */
+	String SEMANTICS_EXTRACTION_TOPICZOOM_ENDPOINT = "semantics.extraction.topiczoom.endpoint";
+	String SEMANTICS_EXTRACTION_STRATEGY_TOPICZOOM = "semantics.extraction.strategy.topiczoom";
+	String SEMANTICS_EXTRACTION_STRATEGY_NER = "semantics.extraction.strategy.ner";
+	String SEMANTICS_EXTRACTION_STRATEGY_CHAIN = "semantics.extraction.strategy.chain";
+	String SEMANTICS_EXTRACTION_STRATEGY_LAZY = "semantics.extraction.strategy.lazy";
+	String SEMANTICS_EXTRACTION_STRATEGY_NER_GERMAN_CASCADE = "semantics.extraction.strategy.ner.german.cascade";
+	String SEMANTICS_EXTRACTION_STRATEGY_NER_ENGLISH_CASCADE = "semantics.extraction.strategy.ner.english.cascade";
+	String SEMANTICS_EXTRACTION_STRATEGY_POS = "semantics.extraction.strategy.pos";
+	String SEMANTICS_EXTRACTION_STRATEGY_POS_GERMAN_CASCADE = "semantics.extraction.strategy.pos.german.cascade";
+	String SEMANTICS_EXTRACTION_STRATEGY_POS_ENGLISH_CASCADE = "semantics.extraction.strategy.pos.english.cascade";
+	String SEMANTICS_EXTRACTION_STRATEGY_POS_LANGUAGES = "semantics.extraction.strategy.pos.languages";
+	String SEMANTICS_EXTRACTION_STRATEGY_NER_LANGUAGES = "semantics.extraction.strategy.ner.languages";
+	String SEMANTICS_EXTRACTION_STRATEGY_LANGUAGEDETECTION= "semantics.extraction.strategy.languagedetection";
+	String SEMANTICS_EXTRACTION_STRATEGY_LANGUAGEDETECTION_MIMIMUM_ENGLISH = "semantics.extraction.strategy.languagedetection.minimum.english";
+	String SEMANTICS_EXTRACTION_STRATEGY_LANGUAGEDETECTION_MIMIMUM_GERMAN = "semantics.extraction.strategy.languagedetection.minimum.german";
+	String SEMANTICS_EXTRACTION_STRATEGY_LANGUAGEDETECTION_MIMIMUM_DIFFERENCE = "semantics.extraction.strategy.languagedetection.minimum.difference";
 }

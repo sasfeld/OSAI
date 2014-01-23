@@ -57,14 +57,7 @@ public class XmlExtractor {
 		}
 		this.uri = uri;
 
-		// define the Saxon processor
-		Processor processor = new Processor( false );
-		xPathCompiler = processor.newXPathCompiler();
-		// declare each namespace
-		for( String namespace : namespaces.keySet() ) {
-			xPathCompiler.declareNamespace( namespace,
-					namespaces.get( namespace ) );
-		}
+		Processor processor = _createProcessor( namespaces );
 		DocumentBuilder builder = processor.newDocumentBuilder();
 		try {
 			contextItem = builder.build( new File( uri ) );
@@ -75,6 +68,30 @@ public class XmlExtractor {
 							+ uri,
 					"Internal error in the XMLExtractory. Please see the logs." );
 		}
+	}
+
+	/**
+	 * Create and return the {@link Processor} and also assign the xPathCompiler field.
+	 * @param namespaces
+	 * @return
+	 */
+	protected Processor _createProcessor( final Map< String, String > namespaces ) {
+		// define the Saxon processor
+		Processor processor = new Processor( false );
+		xPathCompiler = processor.newXPathCompiler();
+		// declare each namespace
+		for( String namespace : namespaces.keySet() ) {
+			xPathCompiler.declareNamespace( namespace,
+					namespaces.get( namespace ) );
+		}
+		return processor;
+	}
+	
+	/**
+	 * This constructor should be called by subclasses.
+	 */
+	protected XmlExtractor() {
+		// nothing to do: just for subclasses to avoid compiler errors
 	}
 
 	/**

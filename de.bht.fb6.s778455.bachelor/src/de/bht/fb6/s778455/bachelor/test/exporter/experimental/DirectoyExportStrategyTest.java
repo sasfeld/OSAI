@@ -9,6 +9,7 @@ import static org.junit.Assert.assertTrue;
 import java.io.File;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
@@ -23,7 +24,13 @@ import de.bht.fb6.s778455.bachelor.exporter.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.Language;
+import de.bht.fb6.s778455.bachelor.model.NerTag;
+import de.bht.fb6.s778455.bachelor.model.PosTag;
 import de.bht.fb6.s778455.bachelor.model.Posting;
+import de.bht.fb6.s778455.bachelor.model.Tag;
+import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
+import de.bht.fb6.s778455.bachelor.model.TopicZoomTag;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 
@@ -85,23 +92,37 @@ public class DirectoyExportStrategyTest {
 	 */
 	@Test
 	public void testExport() throws GeneralLoggingException {			
-		Course course = new Course( "Sample course" );
+		final Course course = new Course( "Sample course" );
 		course.setUrl( "http://test.de" );
-		// input boards
-		Board sampleBoard1 = new Board( course, "Sample board" );
+		course.setLanguage( Language.GERMAN );
+		course.addTag( new PosTag( "NN", 0.0, "Beispiel", "beispiel.xad" ), TagType.POS_TAG );
+		course.addTag( new NerTag( "I-LOC", 0.0, "Berlin", "berlin.xad" ), TagType.NER_TAG );
+		course.addTag( new TopicZoomTag( 5, 1, 3, "Berlin", "214152" ), TagType.TOPIC_ZOOM );
 		
-		BoardThread sampleThread1 = new BoardThread();
+		// input boards
+		final Board sampleBoard1 = new Board( course, "Sample board" );
+		
+		final BoardThread sampleThread1 = new BoardThread();
 		sampleThread1.setTitle( "sampleThread1" );
 		sampleThread1.setCreationDate( new Date());
 		
-		Posting samplePosting1 = new Posting();
+		final Posting samplePosting1 = new Posting();
 		samplePosting1.setContent( "This is a sample posting.\nAnd a newline." );
 		samplePosting1.setCreationDate( new Date() );		
 		samplePosting1.setTaggedContent( "This content is tagged by <I-PERS>Max Mustermann</I-PERS>." );
 		samplePosting1.setPostingType( "question" );
+		samplePosting1.setLang( Language.GERMAN );
 		sampleThread1.addPosting( samplePosting1  );
 		
-		Posting samplePosting2 = new Posting();
+		final ArrayList< Tag > tagList = new ArrayList<Tag>();
+		tagList.add( new TopicZoomTag( 6, 4, 3, "test", "testuri" ) );
+		tagList.add( new TopicZoomTag( 3, 2, 1, "test", "testuri2" ) );	
+		
+		samplePosting1.setTags( tagList, TagType.TOPIC_ZOOM );
+		samplePosting1.addTag( new NerTag( "I-LOC", -1.0, "Berlin", "berlin" ), TagType.NER_TAG );
+		samplePosting1.addTag( new PosTag( "NN", 0.0, "Variable", "" ), TagType.POS_TAG );
+		
+		final Posting samplePosting2 = new Posting();
 		samplePosting2.setContent( "This is a another posting" );
 		samplePosting2.setCreationDate( new Date(samplePosting1.getCreationDate().getTime() + 1000 * 60 * 60 * 24)); // + 1 day
 		samplePosting2.setTaggedContent( "This content is tagged by <I-PERS>Max Mustermann</I-PERS>." );
@@ -109,7 +130,7 @@ public class DirectoyExportStrategyTest {
 		
 		sampleBoard1.addThread( sampleThread1  );
 		
-		BoardThread sampleThread2 = new BoardThread();
+		final BoardThread sampleThread2 = new BoardThread();
 		sampleThread2.setTitle( "sampleThread2" );
 		sampleThread2.setCreationDate( new Date(sampleThread1.getCreationDate().getTime() + 1000 * 60 * 60 * 24));
 		sampleThread2.addPosting( samplePosting2 );
@@ -119,19 +140,19 @@ public class DirectoyExportStrategyTest {
 		
 		course.addBoard( sampleBoard1 );
 		
-		Set< Course > courseSet = new HashSet<Course>();	
+		final Set< Course > courseSet = new HashSet<Course>();	
 		courseSet.add( course );
 		
 		this.exportStrategy.exportToFile( courseSet, this.testFolder );
 		
 		// assert file structure
-		File course1File = new File( this.testFolder, course.getTitle());
+		final File course1File = new File( this.testFolder, course.getTitle());
 		
-		File board1File = new File( course1File, sampleBoard1.getTitle() );
+		final File board1File = new File( course1File, sampleBoard1.getTitle() );
 		assertTrue( board1File.exists() );
 		assertTrue( board1File.isDirectory() );
 		
-		File thread1File = new File( board1File, sampleThread1.getTitle() );
+		final File thread1File = new File( board1File, sampleThread1.getTitle() );
 		assertTrue( thread1File.exists() );
 		assertTrue( thread1File.isDirectory() );
 		
@@ -145,7 +166,7 @@ public class DirectoyExportStrategyTest {
 		assertTrue( samplePosting2File.isFile() );
 		assertTrue( samplePosting2File.getAbsolutePath().endsWith( ".txt" ));
 		
-		File thread2File = new File( board1File, sampleThread2.getTitle() );
+		final File thread2File = new File( board1File, sampleThread2.getTitle() );
 		assertTrue( thread2File.exists() );
 		assertTrue( thread2File.isDirectory() );
 		
@@ -162,12 +183,12 @@ public class DirectoyExportStrategyTest {
 	
 	@Test
 	public void testRemoveIllegalChars() throws NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
-		Method method = DirectoryExportStrategy.class
+		final Method method = DirectoryExportStrategy.class
 				.getDeclaredMethod( "removeIllegalChars", String.class );
 		method.setAccessible( true );
 		
-		String input = "ein..nichterlaubter..filename !!!";
-		String expected = "ein_nichterlaubter_filename____";
+		final String input = "ein..nichterlaubter..filename !!!";
+		final String expected = "ein_nichterlaubter_filename____";
 		
 		assertEquals(expected, (String) method.invoke( this.exportStrategy, input ));
 	}

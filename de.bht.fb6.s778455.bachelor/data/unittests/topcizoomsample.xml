@@ -1,0 +1,37 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+<soap:Header>
+</soap:Header>
+<soap:Body><TZTopicSet xmlns:tzns="http://www.topiczoom.de:2208/TZNS" date="Sun Jan  5 12:46:40 2014">
+<TopicZoomWebTagsInfo info="Die aktuellen Nutzungsbedingungen der TopicZoomWeb-Tags finden sie unter http://www.topiczoom.de/wp-content/uploads/2012/02/TopicZoomWebTag_V2.0.pdf"/>
+<TZTopic txt="Lebensmittel" weight="2" DoG="4" Sig="5.39532912814362" RDFID="21884553" />
+<TZTopic txt="Küche, Essen und Trinken, Lebensmittel, Ernährung" weight="2" DoG="3" Sig="4.91002646160872" RDFID="20297943" />
+<TZTopic txt="Speisen und Getränke" weight="2" DoG="5" Sig="6.18498720908441" RDFID="20287964" />
+<TZTopic txt="Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby" weight="2" DoG="2" Sig="3.4415452961402" RDFID="21999745" />
+<TZTopic txt="Leben und Alltag" weight="2" DoG="2" Sig="2.88779161029679" RDFID="21306723" />
+<TZTopic txt="Getränke" weight="2" DoG="6" Sig="6.40410071281195" RDFID="20765188" />
+<TZTopic txt="Alkoholische Getränke" weight="2" DoG="8" Sig="7.1791204277225" RDFID="20900916" />
+<TZTopic txt="Essen und Trinken, Kochen und Backen" weight="2" DoG="4" Sig="5.62097580967595" RDFID="21957704" />
+<TZTopic txt="Wein" weight="2" DoG="9" Sig="7.66512439831468" RDFID="20900899" />
+<TZTopic txt="Deutsche Physiker" weight="1" DoG="13" Sig="5.45839502300295" RDFID="19748452" />
+<TZTopic txt="Persönlichkeiten aus der Schweiz" weight="1" DoG="9" Sig="3.42104072915031" RDFID="21977390" />
+<TZTopic txt="Weißweine, Weißweingebiete und weiße Rebsorten" weight="1" DoG="10" Sig="4.76524784244299" RDFID="20883474" />
+<TZTopic txt="Chardonnay" weight="1" DoG="11" Sig="6.35427475761695" RDFID="20273837" />
+<TZTopic txt="Schweiz" weight="1" DoG="8" Sig="2.86006816661717" RDFID="21996940" />
+<TZTopic txt="Wissenschaftler aus der Schweiz" weight="1" DoG="10" Sig="5.31455398677705" RDFID="21127441" />
+<TZTopic txt="Forschung und Entwicklung" weight="1" DoG="3" Sig="2.46895214055237" RDFID="21603526" />
+<TZTopic txt="Naturwissenschaften" weight="1" DoG="4" Sig="2.23699226098339" RDFID="21976710" />
+<TZTopic txt="Wissenschaft, Technik und Verkehr" weight="1" DoG="2" Sig="1.07441906812122" RDFID="21999813" />
+<TZTopic txt="Wissenschaft und Technik in Deutschland" weight="1" DoG="9" Sig="2.72471669356842" RDFID="21946076" />
+<TZTopic txt="Deutsche Wissenschaftlerinnen und Wissenschaftler" weight="1" DoG="11" Sig="4.47367469977018" RDFID="19872093" />
+<TZTopic txt="Schweizer Physiker" weight="1" DoG="11" Sig="5.45839502300295" RDFID="19748537" />
+<TZTopic txt="Deutsche Persönlichkeiten im Bereich Wissenschaft und Technologie" weight="1" DoG="10" Sig="3.81982265650685" RDFID="21977203" />
+<TZTopic txt="Natur, Mensch, Zivilisation und Umwelt" weight="1" DoG="2" Sig="1.16884339240287" RDFID="21999711" />
+<TZTopic txt="Forschung" weight="1" DoG="4" Sig="2.52445328033462" RDFID="21471079" />
+<TZTopic txt="Deutschland" weight="1" DoG="8" Sig="1.01788212728215" RDFID="21996974" />
+<TZTopic txt="Physik" weight="1" DoG="5" Sig="3.07446713887034" RDFID="21976659" />
+<TZTopic txt="Deutsche Naturwissenschaftler" weight="1" DoG="12" Sig="4.96798039649707" RDFID="21908540" />
+<TZTopic txt="Natur" weight="1" DoG="3" Sig="1.75110858232764" RDFID="21981878" />
+<TZTopic txt="Albert Einstein" weight="1" DoG="14" Sig="5.45839502300295" RDFID="21218068" />
+<TZTopic txt="Physiker" weight="1" DoG="8" Sig="4.45094351273181" RDFID="21629995" />
+<TZTopic txt="Europa" weight="1" DoG="6" Sig="0.777938407775155" RDFID="21972001" />
+</TZTopicSet></soap:Body></soap:Envelope>

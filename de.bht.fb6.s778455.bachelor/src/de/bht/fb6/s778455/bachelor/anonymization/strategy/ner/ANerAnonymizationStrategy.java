@@ -9,9 +9,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-import de.bht.fb6.s778455.bachelor.anonymization.CommonNameExcluder;
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.organization.corpus.CommonNameExcluder;
 import edu.stanford.nlp.ie.AbstractSequenceClassifier;
 import edu.stanford.nlp.ie.crf.CRFClassifier;
 import edu.stanford.nlp.ling.CoreLabel;

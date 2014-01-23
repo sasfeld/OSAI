@@ -6,11 +6,11 @@ package de.bht.fb6.s778455.bachelor.anonymization.strategy;
 import java.util.List;
 import java.util.Set;
 
-import de.bht.fb6.s778455.bachelor.anonymization.CommonNameExcluder;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.Course.LearnedWordTypes;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
+import de.bht.fb6.s778455.bachelor.organization.corpus.CommonNameExcluder;
 
 /**
  * <p>
@@ -47,18 +47,18 @@ public class LearnedNamesStrategy extends AAnomyzationStrategy {
 	 * #anonymizeText(java.lang.String, de.bht.fb6.s778455.bachelor.model.Board)
 	 */
 	@Override
-	public String anonymizeText( String inputText, Board belongingBoard )
+	public String anonymizeText( final String inputText, final Board belongingBoard )
 			throws GeneralLoggingException {
-		String anonymizedText = inputText;
+		String anonymizedText = super.prepareText( inputText );
 
-		Set< String > personNames = belongingBoard.getBelongingCourse()
+		final Set< String > personNames = belongingBoard.getBelongingCourse()
 				.getLearnedWords( LearnedWordTypes.PERSON_NAME );
 		if( null != personNames ) {
-			for( String personName : personNames ) {
+			for( final String personName : personNames ) {
 				// not a common word
 				if( !this.commonNameExcluder.isCommon( personName, false )) {
-					String prefixRegEx = "(?<=[\\s,.!?;]{1})";
-					String suffixRegEx = "(?=[\\s,.!?;]?)(?![a-zA-Z0-9]+)";
+					final String prefixRegEx = "(?<=[\\s,.!?;]{1})";
+					final String suffixRegEx = "(?=[\\s,.!?;]?)(?![a-zA-Z0-9]+)";
 
 					anonymizedText = anonymizedText.replaceAll( prefixRegEx
 							+ personName + suffixRegEx,
@@ -71,7 +71,7 @@ public class LearnedNamesStrategy extends AAnomyzationStrategy {
 							LEARNED_PERSON_NAME_REPLACEMENT );
 
 					// upper first character of personName
-					String upperedPersonName = Character.toString(
+					final String upperedPersonName = Character.toString(
 							personName.charAt( 0 ) ).toUpperCase()
 							+ personName.substring( 1 );
 					anonymizedText = anonymizedText.replaceAll( prefixRegEx
@@ -92,10 +92,10 @@ public class LearnedNamesStrategy extends AAnomyzationStrategy {
 	 * #anonymizeText(java.lang.String)
 	 */
 	@Override
-	public String anonymizeText( String inputText )
+	public String anonymizeText( final String inputText )
 			throws GeneralLoggingException {
 		throw new GeneralLoggingException(
-				getClass()
+				this.getClass()
 						+ ":anonymizeText() doesn't support the anonymization without a given board.",
 				"An internal error raised by the LearnedNamesStrategy occured. Please read the logs!" );
 	}
@@ -108,7 +108,7 @@ public class LearnedNamesStrategy extends AAnomyzationStrategy {
 	 * #removeSpecialTags(java.lang.String)
 	 */
 	@Override
-	public String removeSpecialTags( String inputText ) {
+	public String removeSpecialTags( final String inputText ) {
 		return inputText;
 	}
 

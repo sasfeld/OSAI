@@ -80,6 +80,8 @@ public class BoardThread extends AUserContribution {
 	 * Create a new bare BoardThread.
 	 */
 	public BoardThread() {
+		super();
+		
 		this.postings = new ArrayList< Posting >(); 
 	}
 	
@@ -88,6 +90,8 @@ public class BoardThread extends AUserContribution {
 	 * @param belongingBoard
 	 */
 	public BoardThread( Board belongingBoard ) {
+		super();
+		
 		this.belongingBoard = belongingBoard;
 		
 		this.postings = new ArrayList< Posting >(); 
@@ -134,8 +138,6 @@ public class BoardThread extends AUserContribution {
 		builder.append( getModificationDate() );
 		builder.append( ", getCreationDate()=" );
 		builder.append( getCreationDate() );
-		builder.append( ", getCreator()=" );
-		builder.append( getCreator() );
 		builder.append( ", getTitle()=" );
 		builder.append( getTitle() );
 		builder.append( "]" );

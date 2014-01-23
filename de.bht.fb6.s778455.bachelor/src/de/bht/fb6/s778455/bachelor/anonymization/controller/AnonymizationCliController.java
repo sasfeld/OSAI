@@ -12,7 +12,7 @@ import de.bht.fb6.s778455.bachelor.exporter.experimental.DirectoryExportStrategy
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.auditorium.AuditoriumImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy;
-import de.bht.fb6.s778455.bachelor.importer.luebeck.LuebeckXmlImporterStrategy;
+import de.bht.fb6.s778455.bachelor.importer.moodle.MoodleXmlImporterStrategy;
 import de.bht.fb6.s778455.bachelor.importer.moodle.MoodlePostgreSqlImportStrategy;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
@@ -102,7 +102,7 @@ public class AnonymizationCliController {
 		} else if( importMethod.equals( ImportMethods.FILESYSTEM ) ) {
 			this.importStrategy = new DirectoryImportStrategy();
 		} else if( importMethod.equals( ImportMethods.LUEBECK_XML ) ) {
-			this.importStrategy = new LuebeckXmlImporterStrategy();
+			this.importStrategy = new MoodleXmlImporterStrategy();
 		} else if( importMethod.equals( ImportMethods.AUDITORIUM_DB ) ) {
 			this.importStrategy = new AuditoriumImportStrategy();
 		} else {

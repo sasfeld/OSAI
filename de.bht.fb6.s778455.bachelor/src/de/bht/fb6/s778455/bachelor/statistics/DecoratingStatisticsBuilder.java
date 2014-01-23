@@ -1,0 +1,64 @@
+/**
+ * Copyright (c) 2013-2014 Sascha Feldmann (sascha.feldmann@gmx.de) 
+ */
+package de.bht.fb6.s778455.bachelor.statistics;
+
+import java.util.Collection;
+import java.util.Date;
+
+import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.StatisticsModel;
+
+/**
+ * <p>This class is super class for all {@link AStatisticsBuilder} which can be decorated.</p>
+ *
+ * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
+ * @since 09.01.2014
+ *
+ */
+public abstract class DecoratingStatisticsBuilder extends AStatisticsBuilder {
+	protected AStatisticsBuilder decoratedStrategy;
+	
+
+	/**
+	 * Create a new statistics builder handing in a strategy.
+	 * @param decoratedStrategy
+	 */
+	public DecoratingStatisticsBuilder(final AStatisticsBuilder decoratedStrategy) {
+		this.decoratedStrategy = decoratedStrategy;
+	}
+	
+	/**
+	 * Create a statistics builder which is not decorated.
+	 */
+	public DecoratingStatisticsBuilder() {
+		this.decoratedStrategy = null;
+	}
+	
+
+
+	@Override
+	/*
+	 * (non-Javadoc)
+	 * @see de.bht.fb6.s778455.bachelor.statistics.AStatisticsBuilder#buildStatistics(java.util.Collection)
+	 */
+	public StatisticsModel buildStatistics( final Collection< Course > courses ) {
+		// just pass the model to the decorating strategies.
+		if ( null == this.getModel() ) {
+			StatisticsModel newModel = new StatisticsModel();
+			newModel.setDateCreation( new Date() ); // current datetime
+			this.setModel( newModel );
+		}
+		
+		if ( null != this.decoratedStrategy ) {
+			this.decoratedStrategy.setModel( this.getModel() );
+			// let the decorated strategy and its decorated strategies do their work
+			this.decoratedStrategy.buildStatistics( courses );
+		}
+		
+		return this.getModel();
+	}
+	
+	
+
+}

@@ -86,4 +86,22 @@ public class FileUtil {
 
 		return lines;
 	}
+	
+	/**
+	 * Read a whole file and get a single string including line separators.
+	 * @param file
+	 * @param encoding
+	 * @return
+	 * @throws GeneralLoggingException
+	 */
+	public static String readFile( File file, String encoding ) throws GeneralLoggingException {
+		final List< String > lines = readFileLineBased( file, encoding );
+		
+		final StringBuilder singleStrBuilder = new StringBuilder();
+		for( String line : lines ) {
+			singleStrBuilder.append( line + "\n" );
+		}
+		
+		return singleStrBuilder.toString();		
+	}
 }

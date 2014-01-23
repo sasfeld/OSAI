@@ -67,7 +67,7 @@ public class GermanNerAnonymizationStrategyTest {
 	public void testPrepareText() throws NoSuchMethodException,
 			SecurityException, IllegalAccessException,
 			IllegalArgumentException, InvocationTargetException, GeneralLoggingException {
-		Method method = GermanNerAnonymizationStrategy.class.getSuperclass()
+		final Method method = GermanNerAnonymizationStrategy.class.getSuperclass()
 				.getSuperclass()
 				.getDeclaredMethod( "prepareText", String.class );
 		method.setAccessible( true );
@@ -146,6 +146,15 @@ public class GermanNerAnonymizationStrategyTest {
 		 */
 		inputText = "Liebe Grüße, Sascha Feldmann";
 		expectedCleanedText = "Liebe Grüße, " + AAnomyzationStrategy.NE_PERSON_REPLACEMENT;
+		
+		cleanedText = this.strategy.anonymizeText( inputText );
+		assertEquals( expectedCleanedText, cleanedText );
+		
+		/*
+		 * test replacement of &quot;
+		 */
+		inputText = "Er sagt: &quot;Was?&quot;";
+		expectedCleanedText = "Er sagt: Was?";
 		
 		cleanedText = this.strategy.anonymizeText( inputText );
 		assertEquals( expectedCleanedText, cleanedText );

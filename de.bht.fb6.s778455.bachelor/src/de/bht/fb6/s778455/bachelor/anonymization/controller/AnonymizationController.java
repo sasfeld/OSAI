@@ -15,16 +15,17 @@ import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
 import de.bht.fb6.s778455.bachelor.exporter.experimental.DirectoryExportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy;
-import de.bht.fb6.s778455.bachelor.importer.luebeck.LuebeckXmlImporterStrategy;
+import de.bht.fb6.s778455.bachelor.importer.moodle.MoodleXmlImporterStrategy;
 import de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader;
 import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
-import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
+import de.bht.fb6.s778455.bachelor.statistics.AStatisticsBuilder;
+import de.bht.fb6.s778455.bachelor.statistics.GeneralStatisticsBuilder;
 
 /**
  * 
@@ -60,7 +61,7 @@ public class AnonymizationController {
 							.getConfigReader()
 							.fetchValue(
 									IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_DATAFOLDER ) );
-		} else if( importStrategy instanceof LuebeckXmlImporterStrategy ) {
+		} else if( importStrategy instanceof MoodleXmlImporterStrategy ) {
 			this.configuredDataFile = new File( ServiceFactory
 					.getConfigReader().fetchValue(
 							IConfigKeys.IMPORT_STRATEGY_LUEBECK_DATA ) );
@@ -244,11 +245,7 @@ public class AnonymizationController {
 						+ de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory
 								.getConfigReader().fetchValue(
 										IConfigKeys.ANONYM_STRATEGY_CHAIN )
-						+ "\n" );
-		statisticsBuilder.append( "Number of courses: "
-				+ anonymizedCourses.size() + "\n" );
-		int numberThreads = 0;
-		int numberPostings = 0;
+						+ "\n" );	
 
 		if( ServiceFactory
 				.getConfigReader()
@@ -278,30 +275,8 @@ public class AnonymizationController {
 						.append( "Course specific name corpus for course: "
 								+ course.getTitle() + "\n" );
 				statisticsBuilder.append( course.getPersonNameCorpus() + "\n" );
-			}
-			// System.out.println("Course: " + course);
-			// System.out.println("");
-			// System.out.println(".............................");
-			for( Board board : course.getBoards() ) {
-				// System.out.println("Board: " + board);
-				// System.out.println();
-				// System.out.println("++++++++++++++++++++++++++++++");
-				numberThreads += board.getBoardThreads().size();
-
-				for( BoardThread boardThread : board.getBoardThreads() ) {
-					// System.out.println("Thread: " + boardThread);
-					// System.out.println();
-					// System.out.println("--------------------------------");
-					numberPostings += boardThread.getPostings().size();
-
-					// for( Posting p : boardThread.getPostings() ) {
-					// // System.out.println("Posting: " + p);
-					// }
-					// System.out.println("--------------------------------");
-				}
-				// System.out.println("++++++++++++++++++++++++++++++");
-			}
-			// System.out.println(".............................");
+			}			
+			
 		}
 
 		statisticsBuilder.append( "Export strategy: "
@@ -315,9 +290,10 @@ public class AnonymizationController {
 											IConfigKeys.EXPORT_STRATEGY_DIRECTORYEXPORT_ENCODING )
 							+ "\n" );
 		}
-		statisticsBuilder.append( "Number of threads: " + numberThreads + "\n" );
-		statisticsBuilder.append( "Number of postings: " + numberPostings
-				+ "\n" );
+		
+		AStatisticsBuilder generalBuilder = new GeneralStatisticsBuilder();
+		statisticsBuilder.append( generalBuilder.buildStatistics( anonymizedCourses ).toString() + "\n" );
+		
 		statisticsBuilder.append( "Elapsed time (s): " + elapsedTime / 1000
 				+ "\n" );
 

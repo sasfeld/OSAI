@@ -3,13 +3,12 @@
  */
 package de.bht.fb6.s778455.bachelor.anonymization.strategy;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.organization.MoodleHelper;
+import de.bht.fb6.s778455.bachelor.organization.StringUtil;
 
 /**
  * 
@@ -88,7 +87,7 @@ public abstract class AAnomyzationStrategy {
 	 * @return a new {@link String}
 	 * @throws GeneralLoggingException
 	 */
-	protected String prepareText( String preparedText )
+	protected String prepareText( final String preparedText )
 			throws GeneralLoggingException {
 		if( null != preparedText ) {
 			String cleanedText = preparedText;
@@ -99,57 +98,17 @@ public abstract class AAnomyzationStrategy {
 			// remove empty lines
 			cleanedText = cleanedText.replaceAll( "(?m)^[ \t]*\r?\n", "" );
 
-			// insert whitespaces after ".": negative lookahead regex: all "."
-			// followed by no whitespace will be replaced by ".[whitespace]". to
-			// avoid a whitespace at the end of the string, the whitespace must
-			// be followed by alphanumeric characters
-			cleanedText = cleanedText.replaceAll(
-					"(?<!(http://)(www)?[a-zA-Z.]*)\\.(?!\\s)(?=[a-zA-Z0-9])",
-					". " );
-			// insert whitespaces after ",": negative lookahead regex: all ","
-			// followed by no whitespace will be replaced by ",[whitespace]"
-			cleanedText = cleanedText.replaceAll( "\\,(?!\\s)(?=[a-zA-Z0-9])",
-					", " );
+			cleanedText = StringUtil.fillMissingWhitespaces( cleanedText );
 
 			return cleanedText;
 		}
-		throw new GeneralLoggingException( getClass()
+		throw new GeneralLoggingException( this.getClass()
 				+ "prepareText: null pointer",
 				"Internal error in the anonymization system!" );
 	}
 
-	private String removeMoodleChars( String cleanedText ) {
-		String newCleanedText = cleanedText;
-		
-//		newCleanedText = newCleanedText.replaceAll( "</?[a-z]+(\\s=\".*?\")*[\\s]*/?>", " " );
-		Pattern pTag = Pattern.compile( "</?.*?/?>" );
-		Matcher mTag = pTag.matcher( newCleanedText );
-		List< String > matchedSequences = new ArrayList<String>();
-		
-		while ( mTag.find() ) {
-			String matchedSequence = mTag.group();
-			if ( !matchedSequence.contains( LEARNED_PERSON_NAME_REPLACEMENT )
-				&& !matchedSequence.contains( NAME_CORPUS_REPLACEMENT )
-				&& !matchedSequence.contains( PERSONAL_DATA_REPLACEMENT )
-				&& !matchedSequence.contains( PERSONAL_GREETING_REPLACEMENT )
-				&& !matchedSequence.contains( NE_PERSON_REPLACEMENT )) {
-				matchedSequences.add( matchedSequence );
-			}
-		}
-		for( String matchedSequence : matchedSequences ) {
-			try {
-			newCleanedText = newCleanedText.replaceAll( matchedSequence, "" );
-			} catch ( Exception e) { // TODO be less defensive
-				// TODO handle exception
-			}
-		}
-// 		newCleanedText = newCleanedText.replaceAll( "</?.*?/?>", " " );
-		newCleanedText = newCleanedText.replaceAll( "(\\\\r\\\\n|\\\\n|\\\\t)", " " );
-//		newCleanedText = newCleanedText.replaceAll( "" + '\n', " " );
-//		newCleanedText = newCleanedText.replaceAll( "" + '\r', " " );
-//		newCleanedText = newCleanedText.replaceAll( "" + '\t', " " );
-		
-		return newCleanedText;
+	private String removeMoodleChars( final String cleanedText ) {
+		return MoodleHelper.removeMoodleChars( cleanedText );
 	}
 
 	/**
@@ -158,7 +117,7 @@ public abstract class AAnomyzationStrategy {
 	 * @param preparedText
 	 * @return a new {@link String}
 	 */
-	protected String filterPersonalData( String preparedText ) {
+	protected String filterPersonalData( final String preparedText ) {
 		String cleanedText = preparedText;
 
 		// replace eMail-addresses, follows example at

@@ -18,6 +18,7 @@ import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
  * 
  */
 public class Posting extends AUserContribution {
+
 	/**
 	 * Untagged content.
 	 */
@@ -29,13 +30,15 @@ public class Posting extends AUserContribution {
 	protected int parentPostingId;
 	protected BoardThread belongingThread;
 	protected String postType;
-
+	
 	/**
 	 * Create a Posting with a link to the belonging thread {@link Thread}
 	 * 
 	 * @param thread
 	 */
 	public Posting( BoardThread thread ) {
+		super();
+		
 		this.belongingThread = thread;
 	}
 
@@ -43,8 +46,12 @@ public class Posting extends AUserContribution {
 	 * Create a bare posting.
 	 */
 	public Posting() {
+		super();
+		
 		this.belongingThread = null;
 	}
+
+
 
 	/**
 	 * @return the belongingThread
@@ -63,7 +70,7 @@ public class Posting extends AUserContribution {
 	/**
 	 * @param parentPostingId
 	 *            the parentPostingId to set
-	 * @return 
+	 * @return
 	 */
 	public Posting setParentPostingId( int parentPostingId ) {
 		this.parentPostingId = parentPostingId;
@@ -80,7 +87,7 @@ public class Posting extends AUserContribution {
 	/**
 	 * @param content
 	 *            the untagged content to set
-	 * @return 
+	 * @return
 	 */
 	public Posting setContent( String content ) {
 		this.content = content;
@@ -97,7 +104,7 @@ public class Posting extends AUserContribution {
 	/**
 	 * @param taggedContent
 	 *            the taggedContent to set
-	 * @return 
+	 * @return
 	 */
 	public Posting setTaggedContent( String taggedContent ) {
 		this.taggedContent = taggedContent;
@@ -113,12 +120,12 @@ public class Posting extends AUserContribution {
 		StringBuilder txtExport = new StringBuilder();
 
 		txtExport.append( super.exportToTxt() );
+
 		txtExport.append( "PARENT_POSTING_ID: " + this.getParentPostingId()
 				+ "\n" );
 		String postingType = this.getPostingType();
-		if ( null != postingType ) {
-			txtExport.append( "POSTING_TYPE: " + postingType
-					+ "\n" );
+		if( null != postingType ) {
+			txtExport.append( "POSTING_TYPE: " + postingType + "\n" );
 		}
 		txtExport.append( "CONTENT:\n" );
 
@@ -165,10 +172,21 @@ public class Posting extends AUserContribution {
 			this.setContent( value );
 		} else if( key.equals( "TAGGED_CONTENT" ) ) {
 			this.setTaggedContent( value );
-		} else if( key.equals( "POSTING_TYPE" )) {
+		} else if( key.equals( "POSTING_TYPE" ) ) {
 			this.setPostingType( value );
 		}
+	}	
+
+	public Posting setPostingType( String postType ) {
+		this.postType = postType;
+		return this;
 	}
+
+	public String getPostingType() {
+		return this.postType;
+	}
+
+	
 
 	/* (non-Javadoc)
 	 * @see java.lang.Object#hashCode()
@@ -199,10 +217,6 @@ public class Posting extends AUserContribution {
 		if( getClass() != obj.getClass() )
 			return false;
 		Posting other = ( Posting ) obj;
-		if( belongingThread == null ) {
-			if( other.belongingThread != null )
-				return false;
-		}
 		if( content == null ) {
 			if( other.content != null )
 				return false;
@@ -229,37 +243,19 @@ public class Posting extends AUserContribution {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append( "Posting [" );	
-		builder.append( "getParentPostingId()=" );
+		builder.append( "Posting [");
+		builder.append( ", getParentPostingId()=" );
 		builder.append( getParentPostingId() );
 		builder.append( ", getContent()=" );
 		builder.append( getContent() );
 		builder.append( ", getTaggedContent()=" );
 		builder.append( getTaggedContent() );
-		builder.append( ", exportToTxt()=" );
-		builder.append( exportToTxt() );
 		builder.append( ", getPostingType()=" );
 		builder.append( getPostingType() );
-		builder.append( ", getId()=" );
-		builder.append( getId() );
-		builder.append( ", getModificationDate()=" );
-		builder.append( getModificationDate() );
-		builder.append( ", getCreationDate()=" );
-		builder.append( getCreationDate() );
-		builder.append( ", getCreator()=" );
-		builder.append( getCreator() );
-		builder.append( ", getTitle()=" );
-		builder.append( getTitle() );
+		builder.append( ", toString()=" );
+		builder.append( super.toString() );
 		builder.append( "]" );
 		return builder.toString();
-	}
-
-	public Posting setPostingType( String postType ) {
-		this.postType = postType;
-		return this;
-	}
+	}	
 	
-	public String getPostingType() {
-		return this.postType;
-	}
 }

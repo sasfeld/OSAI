@@ -29,7 +29,7 @@ public class GermanNerAnonymizationStrategy extends ANerAnonymizationStrategy {
 	 * @throws GeneralLoggingException 
 	 */
 	public GermanNerAnonymizationStrategy(
-			AAnomyzationStrategy decoratingStrategy, File corpusFile ) throws GeneralLoggingException {
+			final AAnomyzationStrategy decoratingStrategy, final File corpusFile ) throws GeneralLoggingException {
 		super( decoratingStrategy, corpusFile );
 	}
 	
@@ -38,7 +38,7 @@ public class GermanNerAnonymizationStrategy extends ANerAnonymizationStrategy {
 	 * @param corpusFile
 	 * @throws GeneralLoggingException 
 	 */
-	public GermanNerAnonymizationStrategy(File corpusFile) throws GeneralLoggingException {
+	public GermanNerAnonymizationStrategy(final File corpusFile) throws GeneralLoggingException {
 		super( corpusFile );
 	}	
 	
@@ -47,7 +47,7 @@ public class GermanNerAnonymizationStrategy extends ANerAnonymizationStrategy {
 	 * @param corpusFiles
 	 * @throws GeneralLoggingException
 	 */
-	public GermanNerAnonymizationStrategy(List< File > corpusFiles ) throws GeneralLoggingException {
+	public GermanNerAnonymizationStrategy(final List< File > corpusFiles ) throws GeneralLoggingException {
 		super( corpusFiles );
 	}
 	
@@ -57,7 +57,7 @@ public class GermanNerAnonymizationStrategy extends ANerAnonymizationStrategy {
 	 * @param corpusFiles
 	 * @throws GeneralLoggingException
 	 */
-	public GermanNerAnonymizationStrategy(AAnomyzationStrategy decoratingStrategy, List< File > corpusFiles ) throws GeneralLoggingException {
+	public GermanNerAnonymizationStrategy(final AAnomyzationStrategy decoratingStrategy, final List< File > corpusFiles ) throws GeneralLoggingException {
 		super( decoratingStrategy, corpusFiles );
 	}
 	
@@ -65,11 +65,12 @@ public class GermanNerAnonymizationStrategy extends ANerAnonymizationStrategy {
 	 * (non-Javadoc)
 	 * @see de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy#anonymizeText(java.lang.String)
 	 */
-	public String anonymizeText( String inputText ) throws GeneralLoggingException {
-		String preAnonymizedText = super.anonymizeText( inputText );
+	@Override
+    public String anonymizeText( final String inputText ) throws GeneralLoggingException {
+		final String preAnonymizedText = super.anonymizeText( inputText );
 		
 		String anonymizedText = preAnonymizedText;
-		for( AbstractSequenceClassifier< CoreLabel > classifier : this.classifierList ) {
+		for( final AbstractSequenceClassifier< CoreLabel > classifier : this.classifierList ) {
 			anonymizedText = classifier.classifyWithInlineXML( anonymizedText );
 			anonymizedText = this.removeTaggedPersons(anonymizedText, classifier);
 		}						
@@ -83,14 +84,14 @@ public class GermanNerAnonymizationStrategy extends ANerAnonymizationStrategy {
 	 * @param classifier 
 	 * @return a new {@link String}
 	 */
-	private String removeTaggedPersons( String taggedText, AbstractSequenceClassifier< CoreLabel > classifier ) {
+	private String removeTaggedPersons( final String taggedText, final AbstractSequenceClassifier< CoreLabel > classifier ) {
 		String cleanedText = taggedText; 
 		
 		// check common names before replacing
-		Pattern pPersTag = Pattern.compile( "<I-PER>(.*?)</I-PER>" );
-		Matcher mPersTag = pPersTag.matcher( cleanedText );
+		final Pattern pPersTag = Pattern.compile( "<I-PER>(.*?)</I-PER>" );
+		final Matcher mPersTag = pPersTag.matcher( cleanedText );
 		while (mPersTag.find()) {
-			String persTag = mPersTag.group(1);
+			final String persTag = mPersTag.group(1);
 			
 			if (!this.commonNameExcluder.isCommon( persTag, true )) {
 				cleanedText = mPersTag.replaceAll( NE_PERSON_REPLACEMENT );
@@ -105,7 +106,7 @@ public class GermanNerAnonymizationStrategy extends ANerAnonymizationStrategy {
 	 * (non-Javadoc)
 	 * @see de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy#anonymizeText(java.lang.String, de.bht.fb6.s778455.bachelor.model.Board)
 	 */
-	public String anonymizeText( String inputText, Board belongingBoard )
+	public String anonymizeText( final String inputText, final Board belongingBoard )
 			throws GeneralLoggingException {
 		// we don't need the board instance here
 		return this.anonymizeText( inputText ); 
