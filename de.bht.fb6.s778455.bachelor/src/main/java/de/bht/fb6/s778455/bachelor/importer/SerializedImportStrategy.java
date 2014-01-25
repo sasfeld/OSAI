@@ -9,10 +9,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.ObjectInputStream;
 import java.util.Collection;
-import java.util.HashSet;
 import java.util.Set;
 
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus.PersonNameType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
@@ -29,36 +29,36 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 public class SerializedImportStrategy extends AImportStrategy {
 
 	@Override
-	public Set< Course > importBoardFromStream( InputStream inputStream ) {
+	public Set< Course > importBoardFromStream( final InputStream inputStream ) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public Collection< Course > importBoardFromFile( File inputFile )
+	public LmsCourseSet importBoardFromFile( final File inputFile )
 			throws GeneralLoggingException {
 		if( !inputFile.exists() || !inputFile.isFile() ) {
-			throw new GeneralLoggingException( getClass()
+			throw new GeneralLoggingException( this.getClass()
 					+ ":importBoardFromFile(): the given inputFile ("
 					+ inputFile + ") doesn't exist or point to a real file.",
 					"Internal error in the import module. See the logs" );
 		}
 		
-		Collection< Course > courseCollection = new HashSet<Course>();
+		final LmsCourseSet courseSet = new LmsCourseSet();
 		ObjectInputStream is = null;
 		try {
 			is = new ObjectInputStream( new FileInputStream( inputFile ) );
-			Object readObject = is.readObject();
+			final Object readObject = is.readObject();
 			if (readObject instanceof Collection< ? >) {
-				Collection< ? > courses = (Collection< ? >) readObject;
-				for( Object course : courses ) {
+				final Collection< ? > courses = (Collection< ? >) readObject;
+				for( final Object course : courses ) {
 					if (course instanceof Course) {
-						courseCollection.add( (Course) course );
+						courseSet.add( (Course) course );
 					}
 				}
 			}
 		} catch (IOException | ClassNotFoundException e) {
-			throw new GeneralLoggingException( getClass()
+			throw new GeneralLoggingException( this.getClass()
 					+ ":importBoardFromFile(): exception"
 					+ e,
 					"Internal error in the import module. See the logs" );
@@ -66,22 +66,22 @@ public class SerializedImportStrategy extends AImportStrategy {
 			if (null != is) {
 				try {
 					is.close();
-				} catch( IOException e ) {
+				} catch( final IOException e ) {
 					// already caught
 				}
 			}
 		}
 		
-		if (0 == courseCollection.size()) {
-			throw new GeneralLoggingException( getClass()
+		if (0 == courseSet.size()) {
+			throw new GeneralLoggingException( this.getClass()
 					+ ":importBoardFromFile(): the imported collection is empty.", "Internal error in the import module" );
 		}
-		return courseCollection;
+		return courseSet;
 	}
 
 	@Override
-	public PersonNameCorpus fillFromFile( File personCorpus,
-			PersonNameCorpus corpusInstance, PersonNameType nameType )
+	public PersonNameCorpus fillFromFile( final File personCorpus,
+			final PersonNameCorpus corpusInstance, final PersonNameType nameType )
 			throws GeneralLoggingException {
 		// TODO Auto-generated method stub
 		return null;

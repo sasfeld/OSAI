@@ -6,7 +6,6 @@ package de.bht.fb6.s778455.bachelor.test.anonymization.controller;
 import static org.junit.Assert.assertTrue;
 
 import java.io.File;
-import java.util.Collection;
 
 import org.junit.After;
 import org.junit.Before;
@@ -19,6 +18,7 @@ import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
@@ -65,27 +65,27 @@ public class AnonymizationControllerTest {
 	 * @throws GeneralLoggingException
 	 */
 	public void testPerformAnonymization() throws GeneralLoggingException {
-		AImportStrategy strategy = new DirectoryImportStrategy();
-		Collection< Course > courses = strategy.importBoardFromFile( new File( ServiceFactory.getConfigReader().fetchValue( IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_TESTFOLDER ) ));
-		Collection< Course > anonymizedCourses = this.anonymizationController
+		final AImportStrategy strategy = new DirectoryImportStrategy();
+		final LmsCourseSet courses = strategy.importBoardFromFile( new File( ServiceFactory.getConfigReader().fetchValue( IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_TESTFOLDER ) ));
+		final LmsCourseSet anonymizedCourses = this.anonymizationController
 				.performAnonymization(courses );
 		assertTrue( null != anonymizedCourses );
 
 		// some sysouts
-		for( Course course : anonymizedCourses ) {
+		for( final Course course : anonymizedCourses ) {
 			System.out.println( "##########################" );
 			System.out.println( "#" );
 			System.out.println( "# course: " + course.getTitle() );
-			for( Board courseBoard : course.getBoards() ) {
+			for( final Board courseBoard : course.getBoards() ) {
 				System.out.println( "........................." );
 				System.out.println( "." );
 				System.out.println(". board: " + courseBoard.getTitle());
-				for( BoardThread boardThread : courseBoard.getBoardThreads() ) {
+				for( final BoardThread boardThread : courseBoard.getBoardThreads() ) {
 					System.out.println( "+++++++++++++++++++++++++++" );
 					System.out.println( "+" );
 					System.out.println( "+ thread: " + boardThread );
 
-					for( Posting posting : boardThread.getPostings() ) {
+					for( final Posting posting : boardThread.getPostings() ) {
 						System.out.println( "---------------------------" );
 						System.out.println( "-" );
 						System.out.println( "- posting: " + posting );

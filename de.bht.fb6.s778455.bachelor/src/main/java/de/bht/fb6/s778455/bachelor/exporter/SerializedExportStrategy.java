@@ -7,9 +7,8 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
-import java.util.Collection;
 
-import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 
 /**
@@ -31,10 +30,10 @@ public class SerializedExportStrategy extends AExportStrategy {
 	 * de.bht.fb6.s778455.bachelor.exporter.AExportStrategy#exportToFile(java
 	 * .util.Collection, java.io.File)
 	 */
-	public boolean exportToFile( Collection< Course > anonymizedCourses,
-			File outputFile ) throws GeneralLoggingException {
+	public boolean exportToFile( final LmsCourseSet anonymizedCourses,
+			final File outputFile ) throws GeneralLoggingException {
 		if( !outputFile.getParentFile().exists() ) {
-			throw new GeneralLoggingException( getClass()
+			throw new GeneralLoggingException( this.getClass()
 					+ ":exportToFile(): the given outputFile ("
 					+ outputFile.getAbsolutePath()
 					+ ") doesn't exist or is not a directoy.",
@@ -45,15 +44,15 @@ public class SerializedExportStrategy extends AExportStrategy {
 		try {
 			os = new ObjectOutputStream( new FileOutputStream( outputFile ) );
 			os.writeObject( anonymizedCourses );			
-		} catch (IOException e) {
-			throw new GeneralLoggingException( getClass()
+		} catch (final IOException e) {
+			throw new GeneralLoggingException( this.getClass()
 					+ ":exportToFile(): exception\n" + e, "Internal error in the export module. Please read the logs"); 
 		} finally {
 			if ( null != os) {
 				try {
 					os.flush();
 					os.close();
-				} catch( IOException e ) {
+				} catch( final IOException e ) {
 					// already caught
 				}			
 			}

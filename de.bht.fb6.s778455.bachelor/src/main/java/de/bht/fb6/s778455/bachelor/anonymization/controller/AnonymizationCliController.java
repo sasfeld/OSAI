@@ -4,7 +4,6 @@
 package de.bht.fb6.s778455.bachelor.anonymization.controller;
 
 import java.io.File;
-import java.util.Collection;
 import java.util.Date;
 
 import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
@@ -12,9 +11,9 @@ import de.bht.fb6.s778455.bachelor.exporter.experimental.DirectoryExportStrategy
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.auditorium.AuditoriumImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy;
-import de.bht.fb6.s778455.bachelor.importer.moodle.MoodleXmlImporterStrategy;
 import de.bht.fb6.s778455.bachelor.importer.moodle.MoodlePostgreSqlImportStrategy;
-import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.importer.moodle.MoodleXmlImporterStrategy;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
 
@@ -56,13 +55,13 @@ public class AnonymizationCliController {
 		FILESYSTEM,
 	}
 
-	private File inputFile;
-	private File outputFile;
+	private final File inputFile;
+	private final File outputFile;
 	private AImportStrategy importStrategy;
 	private AExportStrategy exportStrategy;
-	private AnonymizationController anonymizationController;
-	private Collection< Course > rawCourses;
-	private Collection< Course > anonymizedCourses;
+	private final AnonymizationController anonymizationController;
+	private LmsCourseSet rawCourses;
+	private LmsCourseSet anonymizedCourses;
 	private int numberImportedCourses;
 	private int numberAnonymizedCourses;
 	private long anonymizationStartTime;
@@ -80,8 +79,8 @@ public class AnonymizationCliController {
 	 * @throws {@link UnsupportedOperationException} when giving unsupported
 	 *         methods.
 	 */
-	public AnonymizationCliController( File inputFile, File outputFile,
-			ImportMethods importMethod, ExportMethods exportMethod )
+	public AnonymizationCliController( final File inputFile, final File outputFile,
+			final ImportMethods importMethod, final ExportMethods exportMethod )
 			throws InvalidConfigException {
 		if( null == inputFile || !inputFile.exists() ) {
 			throw new IllegalArgumentException(
@@ -107,7 +106,7 @@ public class AnonymizationCliController {
 			this.importStrategy = new AuditoriumImportStrategy();
 		} else {
 			throw new UnsupportedOperationException(
-					"The given import strategy " + importStrategy
+					"The given import strategy " + this.importStrategy
 							+ " is not supported yet!" );
 		}
 
@@ -116,7 +115,7 @@ public class AnonymizationCliController {
 			this.exportStrategy = new DirectoryExportStrategy();
 		} else {
 			throw new UnsupportedOperationException(
-					"The given export strategy " + exportStrategy
+					"The given export strategy " + this.exportStrategy
 							+ " is not supported yet!" );
 		}
 
@@ -188,14 +187,14 @@ public class AnonymizationCliController {
 	 * @return
 	 */
 	public String getStatistics() {
-		StringBuilder statisticsBuilder = new StringBuilder();
+		final StringBuilder statisticsBuilder = new StringBuilder();
 
 		statisticsBuilder.append( "Number of imported courses: "
 				+ this.numberImportedCourses + "\n" );
 		statisticsBuilder.append( "Number of anonymized courses: "
 				+ this.numberAnonymizedCourses + "\n" );
 
-		long elapsedTime = this.anonymizationStopTime
+		final long elapsedTime = this.anonymizationStopTime
 				- this.anonymizationStartTime;
 		statisticsBuilder.append( this.anonymizationController.getStatistics(
 				this.anonymizedCourses, elapsedTime ) );
@@ -203,7 +202,7 @@ public class AnonymizationCliController {
 		return statisticsBuilder.toString();
 	}
 
-	public static void main( String[] args ) {
+	public static void main( final String[] args ) {
 		System.out.println( "..:: Moodle anonymization tool ::.." );
 		System.out.println( "Welcome!" );
 		System.out.println( "" );
@@ -222,8 +221,8 @@ public class AnonymizationCliController {
 			return;
 		}
 		// read options
-		for( String arg : args ) {
-			String argPrepared = arg.trim().toLowerCase();
+		for( final String arg : args ) {
+			final String argPrepared = arg.trim().toLowerCase();
 			System.out.println( argPrepared );
 			if( argPrepared.equals( "-inputfile" ) ) {
 				inputFile = ( ( ind + 1 ) < args.length ) ? args[ind + 1]
@@ -264,7 +263,7 @@ public class AnonymizationCliController {
 			ImportMethods importMethod = null;
 			try {
 				importMethod = ImportMethods.valueOf( importMethodString );
-			} catch( IllegalArgumentException e ) {
+			} catch( final IllegalArgumentException e ) {
 				System.err
 						.println( "Wrong import method given. Allowed values are: 'postgredump' or 'fileystem'" );
 				return;
@@ -273,7 +272,7 @@ public class AnonymizationCliController {
 			ExportMethods exportMethod = null;
 			try {
 				exportMethod = ExportMethods.valueOf( exportMethodString );
-			} catch( IllegalArgumentException e ) {
+			} catch( final IllegalArgumentException e ) {
 				System.err
 						.println( "Wrong export method given. Allowed values are: 'fileystem'" );
 				return;
@@ -305,7 +304,7 @@ public class AnonymizationCliController {
 			boolean importSuccess = false;
 			try {
 				importSuccess = controller.performImport();
-			} catch( GeneralLoggingException e ) {
+			} catch( final GeneralLoggingException e ) {
 				importSuccess = false;
 				System.err.println( "Import wasn't successful. Error: "
 						+ e.getLocalizedMessage() );
@@ -323,7 +322,7 @@ public class AnonymizationCliController {
 
 			try {
 				anonymSuccess = controller.performAnonymization();
-			} catch( GeneralLoggingException e ) {
+			} catch( final GeneralLoggingException e ) {
 				anonymSuccess = false;
 				System.err.println( "Anonymization wasn't succesful. Error: "
 						+ e.getLocalizedMessage() );
@@ -340,7 +339,7 @@ public class AnonymizationCliController {
 
 			try {
 				exportSuccess = controller.performExport();
-			} catch( GeneralLoggingException e ) {
+			} catch( final GeneralLoggingException e ) {
 				exportSuccess = false;
 				System.err.println( "Export wasn't succesful. Error: "
 						+ e.getLocalizedMessage() );
@@ -362,7 +361,7 @@ public class AnonymizationCliController {
 	}
 
 	private static String printHelp() {
-		StringBuilder helpBuilder = new StringBuilder();
+		final StringBuilder helpBuilder = new StringBuilder();
 
 		helpBuilder.append( "..:: HELP ::..\n" );
 		helpBuilder

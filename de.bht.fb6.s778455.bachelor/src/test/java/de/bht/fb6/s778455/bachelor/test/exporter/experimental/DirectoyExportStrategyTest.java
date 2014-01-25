@@ -11,8 +11,6 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.HashSet;
-import java.util.Set;
 
 import org.junit.After;
 import org.junit.Before;
@@ -25,6 +23,7 @@ import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Language;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.NerTag;
 import de.bht.fb6.s778455.bachelor.model.PosTag;
 import de.bht.fb6.s778455.bachelor.model.Posting;
@@ -140,7 +139,7 @@ public class DirectoyExportStrategyTest {
 		
 		course.addBoard( sampleBoard1 );
 		
-		final Set< Course > courseSet = new HashSet<Course>();	
+		final LmsCourseSet courseSet = new LmsCourseSet();	
 		courseSet.add( course );
 		
 		this.exportStrategy.exportToFile( courseSet, this.testFolder );

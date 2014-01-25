@@ -6,11 +6,11 @@ package de.bht.fb6.s778455.bachelor.importer;
 
 import java.io.File;
 import java.io.InputStream;
-import java.util.Collection;
 import java.util.Map;
 import java.util.Set;
 
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus.PersonNameType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
@@ -40,7 +40,7 @@ public abstract class AImportStrategy {
 	 * @return a {@link Map} of key value pairs.
 	 * @throws GeneralLoggingException 
 	 */
-	abstract public Collection< Course > importBoardFromFile(File inputFile) throws GeneralLoggingException;
+	abstract public LmsCourseSet importBoardFromFile(File inputFile) throws GeneralLoggingException;
 	
 	/**
 	 * <p>Fill a given {@link PersonNameCorpus} by names contained in a given {@link File}.</p>

@@ -12,6 +12,7 @@ import de.bht.fb6.s778455.bachelor.exporter.experimental.DirectoryExportStrategy
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Language;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
 import de.bht.fb6.s778455.bachelor.statistics.AStatisticsBuilder;
@@ -35,8 +36,8 @@ public class SemanticExtractionCliController {
 
     protected AImportStrategy importStrategy;
     protected AExportStrategy exportStrategy;
-    protected Collection< Course > rawCourses;
-    protected Collection< Course > enrichedCourses;
+    protected LmsCourseSet rawCourses;
+    protected LmsCourseSet enrichedCourses;
 
     protected int numberImportedCourses;
     protected long extractionStartTime;

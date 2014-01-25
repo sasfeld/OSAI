@@ -6,7 +6,6 @@ package de.bht.fb6.s778455.bachelor.importer.experimental;
 import java.io.File;
 import java.io.FilenameFilter;
 import java.io.InputStream;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.regex.Matcher;
@@ -18,6 +17,7 @@ import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.IDirectoryPortable;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus.PersonNameType;
 import de.bht.fb6.s778455.bachelor.model.Posting;
@@ -98,11 +98,11 @@ public class DirectoryImportStrategy extends AImportStrategy {
 						IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC )
 				.equals( "false" ) ) {
 			this.personCorpus = ServiceFactory.getPersonNameCorpusSingleton();
-			String prenamesFile = ServiceFactory
+			final String prenamesFile = ServiceFactory
 					.getConfigReader()
 					.fetchValue(
 							IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_NAMECORPUS_PRENAMES );
-			String lastnamesFile = ServiceFactory
+			final String lastnamesFile = ServiceFactory
 					.getConfigReader()
 					.fetchValue(
 							IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_NAMECORPUS_LASTNAMES );
@@ -119,14 +119,14 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	 * @param prenamesFile
 	 * @param lastnamesFile
 	 */
-	private void fillSingletonPersonCorpus( PersonNameCorpus personCorpus,
-			String prenamesFile, String lastnamesFile ) {
-		File fPrenamesFile = new File( prenamesFile );
-		File fLastnamesFile = new File( lastnamesFile );
+	private void fillSingletonPersonCorpus( final PersonNameCorpus personCorpus,
+			final String prenamesFile, final String lastnamesFile ) {
+		final File fPrenamesFile = new File( prenamesFile );
+		final File fLastnamesFile = new File( lastnamesFile );
 
 		if( !fPrenamesFile.exists() ) {
 			Application
-					.log( getClass()
+					.log( this.getClass()
 							+ ":fillSingletonPersonCorpus: the configured corpus files "
 							+ fPrenamesFile.getAbsolutePath()
 							+ " doesn't exist.", LogType.CRITICAL );
@@ -134,13 +134,13 @@ public class DirectoryImportStrategy extends AImportStrategy {
 			try {
 				this.fillFromFile( fPrenamesFile, personCorpus,
 						PersonNameType.PRENAME );
-			} catch( GeneralLoggingException e ) {
+			} catch( final GeneralLoggingException e ) {
 				// exception makes a log
 			}
 		}
 
 		if( !fLastnamesFile.exists() ) {
-			Application.log( getClass()
+			Application.log( this.getClass()
 					+ ":fillSingletonPersonCorpus: the configured corpus file "
 					+ fLastnamesFile.getAbsolutePath() + " doesn't .",
 					LogType.CRITICAL );
@@ -148,7 +148,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 			try {
 				this.fillFromFile( fLastnamesFile, personCorpus,
 						PersonNameType.LASTNAME );
-			} catch( GeneralLoggingException e ) {
+			} catch( final GeneralLoggingException e ) {
 				// exception makes a log
 			}
 		}
@@ -163,7 +163,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	 * de.bht.fb6.s778455.bachelor.importer.AImportStrategy#importFromStream
 	 * (java.io.InputStream)
 	 */
-	public Set< Course > importBoardFromStream( InputStream inputStream ) {
+	public Set< Course > importBoardFromStream( final InputStream inputStream ) {
 		// not supported
 		throw new UnsupportedOperationException(
 				"DirectoyImportStrategy:importFromStream() isn't supported." );
@@ -177,10 +177,10 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	 * de.bht.fb6.s778455.bachelor.importer.AImportStrategy#importFromFile(java
 	 * .io.File)
 	 */
-	public Set< Course > importBoardFromFile( File inputFile )
+	public LmsCourseSet importBoardFromFile( final File inputFile )
 			throws GeneralLoggingException {
 		// fully qualified name of this class + method to be printed in a log
-		String fullyQualified = getClass() + ":importFromFile";
+		final String fullyQualified = this.getClass() + ":importFromFile";
 
 		if( !inputFile.exists() ) {
 			throw new GeneralLoggingException(
@@ -199,16 +199,16 @@ public class DirectoryImportStrategy extends AImportStrategy {
 
 		}
 
-		Set< Course > courseSet = new HashSet< Course >();
+		final LmsCourseSet courseSet = new LmsCourseSet();
 
 		// iterate through children directorys - a dir represents a course/board
-		for( File childDir : inputFile.listFiles() ) {
+		for( final File childDir : inputFile.listFiles() ) {
 			if( childDir.isDirectory() ) { // append error log
 
-				String courseName = childDir.getName();
-				Course course = new Course( courseName );
+				final String courseName = childDir.getName();
+				final Course course = new Course( courseName );
 
-				File courseTxtFile = new File( childDir, "course.txt" );
+				final File courseTxtFile = new File( childDir, "course.txt" );
 				// find course.txt, parse it
 				this.importTxtFile( courseTxtFile, course );
 
@@ -229,40 +229,40 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	 * @param childDir
 	 * @param courseBoardMap
 	 */
-	private void fillBoards( Course course, File courseDir ) {
+	private void fillBoards( final Course course, final File courseDir ) {
 		// bare course board list to be filled
-		List< Board > courseBoards = course.getBoards();
+		final List< Board > courseBoards = course.getBoards();
 
 		boolean specificCorpusIncluded = false;
-		for( File boardDir : courseDir.listFiles() ) {
+		for( final File boardDir : courseDir.listFiles() ) {
 			// check if dir is a person corpus dir
 			if( boardDir.getName().equals( PERSON_CORPUS_DIR ) ) {
 				if( this.boardSpecificImport.equals( "true" )
 						|| this.boardSpecificImport.equals( "fallback" ) ) {
 					try {
-						PersonNameCorpus bareCorpus = new PersonNameCorpus();
-						File prenameFile = new File( boardDir,
+						final PersonNameCorpus bareCorpus = new PersonNameCorpus();
+						final File prenameFile = new File( boardDir,
 								PERSON_CORPUS_PRENAME_FILE );
 						this.fillFromFile( prenameFile, bareCorpus,
 								PersonNameType.PRENAME );
-						File lastnameFile = new File( boardDir,
+						final File lastnameFile = new File( boardDir,
 								PERSON_CORPUS_LASTNAME_FILE );
 						this.fillFromFile( lastnameFile, bareCorpus,
 								PersonNameType.LASTNAME );
 						// set specific corpus instance
 						course.setPersonNameCorpus( bareCorpus );
 						specificCorpusIncluded = true;
-					} catch( GeneralLoggingException e ) {
+					} catch( final GeneralLoggingException e ) {
 						// log was written, just continue
 					}
 				}
 			} else if( boardDir.isDirectory() ) { // append error log
 				// create new Board instance
-				Board newBoard = new Board( course );
+				final Board newBoard = new Board( course );
 				newBoard.setTitle( boardDir.getName() );
 
 				// fill from board.txt
-				File boardTxt = new File( boardDir, "board.txt" );
+				final File boardTxt = new File( boardDir, "board.txt" );
 				this.importTxtFile( boardTxt, newBoard );
 
 				this.fillBoard( newBoard, boardDir );
@@ -276,7 +276,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 		if( ( !specificCorpusIncluded && this.boardSpecificImport
 				.equals( "fallback" ) )
 				|| this.boardSpecificImport.equals( "false" ) ) {
-			Application.log( getClass()
+			Application.log( this.getClass()
 					+ ":fillBoards: fallback to global person corpus.",
 					LogType.INFO );
 			// set singleton corpus
@@ -285,16 +285,16 @@ public class DirectoryImportStrategy extends AImportStrategy {
 		}
 	}
 
-	private void fillBoard( Board newBoard, File boardDir ) {
-		for( File threadDir : boardDir.listFiles() ) {
+	private void fillBoard( final Board newBoard, final File boardDir ) {
+		for( final File threadDir : boardDir.listFiles() ) {
 			if( threadDir.isDirectory() ) {
 				// create new thread
-				BoardThread boardThread = new BoardThread( newBoard );
-				String threadName = threadDir.getName();
+				final BoardThread boardThread = new BoardThread( newBoard );
+				final String threadName = threadDir.getName();
 				boardThread.setTitle( threadName );
 
 				// import boardthread.txt
-				File boardThreadFile = new File( threadDir, "boardthread.txt" );
+				final File boardThreadFile = new File( threadDir, "boardthread.txt" );
 				this.importTxtFile( boardThreadFile, boardThread );
 
 				this.fillThread( boardThread, threadDir );
@@ -310,19 +310,19 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	 * @param boardThread
 	 * @param threadDir
 	 */
-	private void fillThread( BoardThread boardThread, File threadDir ) {
-		FilenameFilter txtFileFilter = new FilenameFilter() {
+	private void fillThread( final BoardThread boardThread, final File threadDir ) {
+		final FilenameFilter txtFileFilter = new FilenameFilter() {
 			/**
 			 * Filter the posting files for posting *.txt files.
 			 */
 			@Override
-			public boolean accept( File dir, String fileName ) {
+			public boolean accept( final File dir, final String fileName ) {
 				return fileName.startsWith( "posting" )
 						&& fileName.endsWith( ".txt" );
 			}
 		};
-		for( File postingFile : threadDir.listFiles( txtFileFilter ) ) {
-			Posting p = new Posting( boardThread );
+		for( final File postingFile : threadDir.listFiles( txtFileFilter ) ) {
+			final Posting p = new Posting( boardThread );
 
 			// import from posting file
 			this.importTxtFile( postingFile, p );
@@ -343,10 +343,10 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	 * @param importFile
 	 * @param portableModel
 	 */
-	private void importTxtFile( File importFile,
-			IDirectoryPortable portableModel ) {
+	private void importTxtFile( final File importFile,
+			final IDirectoryPortable portableModel ) {
 		// fully qualified name of this class + method to be printed in a log
-		String fullyQualified = getClass() + ":importTxtFile";
+		final String fullyQualified = this.getClass() + ":importTxtFile";
 
 		List< String > lines;
 		try {
@@ -354,24 +354,24 @@ public class DirectoryImportStrategy extends AImportStrategy {
 
 			boolean contentMatched = false;
 			boolean taggedContentMatched = false;
-			StringBuilder contentBuilder = new StringBuilder();
-			StringBuilder taggedContentBuilder = new StringBuilder();
+			final StringBuilder contentBuilder = new StringBuilder();
+			final StringBuilder taggedContentBuilder = new StringBuilder();
 
-			for( String line : lines ) {
+			for( final String line : lines ) {
 				if( !contentMatched && !taggedContentMatched ) {
 					if( line.trim().toLowerCase().contains( "content:" ) ) {
 						contentMatched = true;
 					} else { // match key value pairs
-						Pattern pKeyValue = Pattern.compile(
+						final Pattern pKeyValue = Pattern.compile(
 								"^([A-Z_]+):\\s(.*?)$", Pattern.MULTILINE );
-						Matcher matcher = pKeyValue.matcher( line );
+						final Matcher matcher = pKeyValue.matcher( line );
 						while( matcher.find() ) {
-							String key = matcher.group( 1 );
-							String value = matcher.group( 2 );
+							final String key = matcher.group( 1 );
+							final String value = matcher.group( 2 );
 
 							try {
 								portableModel.importFromTxt( key, value );
-							} catch( IllegalArgumentException e ) {
+							} catch( final IllegalArgumentException e ) {
 								Application.log( fullyQualified
 										+ ": exception occured, file: "
 										+ importFile + ": " + e, LogType.ERROR );
@@ -393,7 +393,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 				try {
 					portableModel.importFromTxt( "CONTENT",
 							contentBuilder.toString() );
-				} catch( IllegalArgumentException e ) {
+				} catch( final IllegalArgumentException e ) {
 					Application.log( fullyQualified
 							+ ": exception occured, file: " + importFile + ": "
 							+ e, LogType.ERROR );
@@ -408,7 +408,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 				try {
 					portableModel.importFromTxt( "TAGGED_CONTENT",
 							taggedContentBuilder.toString() );
-				} catch( IllegalArgumentException e ) {
+				} catch( final IllegalArgumentException e ) {
 					Application.log( fullyQualified
 							+ ": exception occured, file: " + importFile + ": "
 							+ e, LogType.ERROR );
@@ -419,9 +419,9 @@ public class DirectoryImportStrategy extends AImportStrategy {
 				Application.log( "no posting tagged content found, file: "
 						+ importFile, LogType.WARNING );
 			}
-		} catch( GeneralLoggingException e1 ) {
+		} catch( final GeneralLoggingException e1 ) {
 			// is logged already
-		} catch( IllegalArgumentException e ) {
+		} catch( final IllegalArgumentException e ) {
 			Application.log( fullyQualified + ": exception occured, file: "
 					+ importFile + ": " + e, LogType.ERROR );
 		}
@@ -437,11 +437,11 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	 * .io.File, de.bht.fb6.s778455.bachelor.model.PersonNameCorpus,
 	 * de.bht.fb6.s778455.bachelor.model.PersonNameCorpus.PersonNameType)
 	 */
-	public PersonNameCorpus fillFromFile( File personCorpus,
-			PersonNameCorpus corpusInstance, PersonNameType nameType )
+	public PersonNameCorpus fillFromFile( final File personCorpus,
+			final PersonNameCorpus corpusInstance, final PersonNameType nameType )
 			throws GeneralLoggingException {
 		if( !personCorpus.exists() ) {
-			throw new GeneralLoggingException( getClass()
+			throw new GeneralLoggingException( this.getClass()
 					+ ":fillFromFile: the given file doesn't exist. File was: "
 					+ personCorpus.getAbsolutePath(),
 					"Internal error in the import module. Please read the logs." );
@@ -449,25 +449,25 @@ public class DirectoryImportStrategy extends AImportStrategy {
 
 		if( !personCorpus.isFile() ) {
 			throw new GeneralLoggingException(
-					getClass()
+					this.getClass()
 							+ ":fillFromFile: the given file doesn't appear to be a file. File was: "
 							+ personCorpus.getAbsolutePath(),
 					"Internal error in the import module. Please read the logs." );
 
 		}
 
-		List< String > lines = FileUtil.readFileLineBased( personCorpus,
+		final List< String > lines = FileUtil.readFileLineBased( personCorpus,
 				this.encoding );
 
 		int lineNumber = 0;
-		for( String line : lines ) {
+		for( final String line : lines ) {
 			lineNumber++;
 			// line must only consist of letters
 			if( line.matches( "^[^\\s]+$" ) ) {
 				corpusInstance.fillName( nameType, line ); // case-insensitive
 			} else {
 				Application
-						.log( getClass()
+						.log( this.getClass()
 								+ "fillFromFile(): illegal line in person name corpus file ("
 								+ personCorpus.getAbsolutePath()
 								+ "). Line number: " + lineNumber,

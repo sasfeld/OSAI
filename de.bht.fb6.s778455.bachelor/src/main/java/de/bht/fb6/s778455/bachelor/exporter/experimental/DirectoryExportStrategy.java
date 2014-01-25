@@ -8,7 +8,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
-import java.util.Collection;
 import java.util.List;
 
 import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
@@ -16,6 +15,7 @@ import de.bht.fb6.s778455.bachelor.exporter.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
@@ -38,7 +38,7 @@ import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
  */
 public class DirectoryExportStrategy extends AExportStrategy {
 
-	private String encoding;
+	private final String encoding;
 
 	public DirectoryExportStrategy() {
 		this.encoding = ServiceFactory.getConfigReader().fetchValue(
@@ -53,24 +53,24 @@ public class DirectoryExportStrategy extends AExportStrategy {
 	 * de.bht.fb6.s778455.bachelor.exporter.AExportStrategy#exportToFile(java
 	 * .util.Map, java.io.File)
 	 */
-	public boolean exportToFile( Collection< Course > anonymizedCourses,
-			File outputFile ) throws GeneralLoggingException {
+	public boolean exportToFile( final LmsCourseSet anonymizedCourses,
+			final File outputFile ) throws GeneralLoggingException {
 		if( !outputFile.exists() ) {
 			throw new GeneralLoggingException(
-					getClass()
+					this.getClass()
 							+ ":exportToFile: the given outputFile (a directory) (value: "
 							+ outputFile.getAbsolutePath() + ") doesn't exist.",
 					"An internal error occured in the exporter module. Please check the logs." );
 		}
 		if( !outputFile.isDirectory() ) {
-			throw new GeneralLoggingException( getClass()
+			throw new GeneralLoggingException( this.getClass()
 					+ ":exportToFile: the given outputFile (value: "
 					+ outputFile.getAbsolutePath()
 					+ " ) isn't a valid directoy.",
 					"An internal error occured in the exporter module. Please check the logs." );
 		}
 
-		for( Course course : anonymizedCourses ) {
+		for( final Course course : anonymizedCourses ) {
 			this.createCourseDir( outputFile, course );
 		}
 		return true;
@@ -83,14 +83,14 @@ public class DirectoryExportStrategy extends AExportStrategy {
 	 * @param course
 	 * @throws GeneralLoggingException
 	 */
-	private void createCourseDir( File outputDir, Course course )
+	private void createCourseDir( final File outputDir, final Course course )
 			throws GeneralLoggingException {
-		File newCourseDir = new File( outputDir,
+		final File newCourseDir = new File( outputDir,
 				this.removeIllegalChars( course.getTitle() ) );
 		newCourseDir.mkdir(); // create new dir immediatly.
 
 		// create course.txt file
-		File courseFile = new File( newCourseDir, "course.txt" );
+		final File courseFile = new File( newCourseDir, "course.txt" );
 		this.createTxtFile( courseFile, course.exportToTxt() );
 
 		this.createBoardDirs( newCourseDir, course.getBoards() );
@@ -102,7 +102,7 @@ public class DirectoryExportStrategy extends AExportStrategy {
 	 * @param title
 	 * @return
 	 */
-	private String removeIllegalChars( String filename ) {
+	private String removeIllegalChars( final String filename ) {
 		String changedFilename = filename.replaceAll( "[^a-zA-Z0-9.-]", "_" );
 		changedFilename = changedFilename.replaceAll( "[.]{2,}", "_" );
 		return changedFilename;
@@ -116,19 +116,19 @@ public class DirectoryExportStrategy extends AExportStrategy {
 	 * @param boards
 	 * @throws GeneralLoggingException
 	 */
-	private void createBoardDirs( File courseDir, List< Board > boards )
+	private void createBoardDirs( final File courseDir, final List< Board > boards )
 			throws GeneralLoggingException {
 
-		for( Board board : boards ) {
-			File newBoardDir = new File( courseDir,
+		for( final Board board : boards ) {
+			final File newBoardDir = new File( courseDir,
 					this.removeIllegalChars( board.getTitle() ) );
 			newBoardDir.mkdir(); // create new dir immediatly.
 
 			// create board.txt file
-			File boardTxt = new File( newBoardDir, "board.txt" );
+			final File boardTxt = new File( newBoardDir, "board.txt" );
 			this.createTxtFile( boardTxt, board.exportToTxt() );
 
-			for( BoardThread boardThread : board.getBoardThreads() ) {
+			for( final BoardThread boardThread : board.getBoardThreads() ) {
 				this.createBoardThreadDir( newBoardDir, boardThread );
 			}
 		}
@@ -142,13 +142,13 @@ public class DirectoryExportStrategy extends AExportStrategy {
 	 * @param boardThread
 	 * @throws GeneralLoggingException
 	 */
-	private void createBoardThreadDir( File newBoardDir, BoardThread boardThread )
+	private void createBoardThreadDir( final File newBoardDir, final BoardThread boardThread )
 			throws GeneralLoggingException {
-		File newBoardThreadDir = new File( newBoardDir,
+		final File newBoardThreadDir = new File( newBoardDir,
 				this.removeIllegalChars( boardThread.getTitle() ) );
 		newBoardThreadDir.mkdir(); // create new dir immediatly.
 
-		File newBoardThreadFile = new File( newBoardThreadDir,
+		final File newBoardThreadFile = new File( newBoardThreadDir,
 				"boardthread.txt" );
 		this.createTxtFile( newBoardThreadFile, boardThread.exportToTxt() );
 		// if (!successCreation) {
@@ -162,15 +162,15 @@ public class DirectoryExportStrategy extends AExportStrategy {
 		// }
 
 		int i = 1;
-		for( Posting posting : boardThread.getPostings() ) {
-			File newPostingFile = new File( newBoardThreadDir, "posting" + i
+		for( final Posting posting : boardThread.getPostings() ) {
+			final File newPostingFile = new File( newBoardThreadDir, "posting" + i
 					+ ".txt" );
 			this.createTxtFile( newPostingFile, posting.exportToTxt() );
 			i++;
 		}
 	}
 
-	private void createTxtFile( File newFile, String txtContent )
+	private void createTxtFile( final File newFile, final String txtContent )
 			throws GeneralLoggingException {
 		try {
 			newFile.createNewFile();
@@ -182,17 +182,17 @@ public class DirectoryExportStrategy extends AExportStrategy {
 				writer = new PrintWriter( new OutputStreamWriter(
 						new FileOutputStream( newFile ), this.encoding ) );
 			}
-			String[] lines = txtContent.split( "\n" );
+			final String[] lines = txtContent.split( "\n" );
 
-			for( String line : lines ) {
+			for( final String line : lines ) {
 				writer.println( line );
 			}
 
 			writer.flush();
 
 			writer.close();
-		} catch( IOException e ) {
-			throw new GeneralLoggingException( getClass()
+		} catch( final IOException e ) {
+			throw new GeneralLoggingException( this.getClass()
 					+ ":createTxtFile: the file ("
 					+ newFile.getAbsolutePath()
 					+ ")couldn't be created. Original exception: \n"

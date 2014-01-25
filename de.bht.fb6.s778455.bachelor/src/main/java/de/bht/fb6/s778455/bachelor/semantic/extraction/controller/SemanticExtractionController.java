@@ -13,6 +13,7 @@ import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Language;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
@@ -306,8 +307,8 @@ public class SemanticExtractionController {
      * @return
      * @throws InvalidConfigException
      */
-    public Collection< Course > performSemanticExtraction(
-            final Collection< Course > inputCourses )
+    public LmsCourseSet performSemanticExtraction(
+            final LmsCourseSet inputCourses )
             throws InvalidConfigException {
         if( null == inputCourses ) {
             throw new IllegalArgumentException(

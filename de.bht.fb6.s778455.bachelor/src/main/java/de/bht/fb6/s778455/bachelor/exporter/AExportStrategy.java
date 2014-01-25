@@ -4,9 +4,8 @@
 package de.bht.fb6.s778455.bachelor.exporter;
 
 import java.io.File;
-import java.util.Collection;
 
-import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 
 /**
@@ -25,5 +24,5 @@ public abstract class AExportStrategy {
 	 * @return true on success
 	 * @throws GeneralLoggingException 
 	 */
-	public abstract boolean exportToFile(Collection< Course > anonymizedCourses, File outputFile) throws GeneralLoggingException;
+	public abstract boolean exportToFile(LmsCourseSet anonymizedCourses, File outputFile) throws GeneralLoggingException;
 }

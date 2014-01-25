@@ -20,6 +20,7 @@ import de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader;
 import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
@@ -45,9 +46,9 @@ public class AnonymizationController {
 	protected AImportStrategy importStrategy;
 	protected File configuredDataFile;
 	protected File configuredExportFile;
-	private AExportStrategy exportStrategy;
-	private List< String > chainingKeys;
-	private IConfigReader anonymConfigReader;
+	private final AExportStrategy exportStrategy;
+	private final List< String > chainingKeys;
+	private final IConfigReader anonymConfigReader;
 
 	public AnonymizationController() throws InvalidConfigException {
 		this.importStrategy = ( ( ConfigReader ) ServiceFactory
@@ -55,13 +56,13 @@ public class AnonymizationController {
 
 		this.anonymConfigReader = de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory
 				.getConfigReader();
-		if( importStrategy instanceof DirectoryImportStrategy ) {
+		if( this.importStrategy instanceof DirectoryImportStrategy ) {
 			this.configuredDataFile = new File(
 					ServiceFactory
 							.getConfigReader()
 							.fetchValue(
 									IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_DATAFOLDER ) );
-		} else if( importStrategy instanceof MoodleXmlImporterStrategy ) {
+		} else if( this.importStrategy instanceof MoodleXmlImporterStrategy ) {
 			this.configuredDataFile = new File( ServiceFactory
 					.getConfigReader().fetchValue(
 							IConfigKeys.IMPORT_STRATEGY_LUEBECK_DATA ) );
@@ -75,7 +76,7 @@ public class AnonymizationController {
 		this.exportStrategy = ( ( de.bht.fb6.s778455.bachelor.exporter.organization.ConfigReader ) de.bht.fb6.s778455.bachelor.exporter.organization.service.ServiceFactory
 				.getConfigReader() ).getConfiguredExportStrategy();
 
-		if( exportStrategy instanceof DirectoryExportStrategy ) {
+		if( this.exportStrategy instanceof DirectoryExportStrategy ) {
 			this.configuredExportFile = new File(
 					de.bht.fb6.s778455.bachelor.exporter.organization.service.ServiceFactory
 							.getConfigReader()
@@ -93,8 +94,8 @@ public class AnonymizationController {
 
 	}
 
-	public AnonymizationController( AImportStrategy importStrategy,
-			AExportStrategy exportStrategy ) throws InvalidConfigException {
+	public AnonymizationController( final AImportStrategy importStrategy,
+			final AExportStrategy exportStrategy ) throws InvalidConfigException {
 		this.importStrategy = importStrategy;
 		this.exportStrategy = exportStrategy;
 
@@ -112,14 +113,14 @@ public class AnonymizationController {
 	 * @throws GeneralLoggingException
 	 *             if the import strategy raised any error
 	 */
-	public Collection< Course > performAnonymization(
-			Collection< Course > rawCourses ) throws GeneralLoggingException {
+	public LmsCourseSet performAnonymization(
+			final LmsCourseSet rawCourses ) throws GeneralLoggingException {
 		// perform import first
-		Collection< Course > courses = rawCourses;
+		final LmsCourseSet courses = rawCourses;
 
 		// chaining: create new anonymizer instance
-		for( String chainingKey : this.chainingKeys ) {
-			String chainingValue = this.anonymConfigReader
+		for( final String chainingKey : this.chainingKeys ) {
+			final String chainingValue = this.anonymConfigReader
 					.fetchValue( chainingKey );
 
 			if( "de.bht.fb6.s778455.bachelor.anonymization.strategy.ner.GermanNerAnonymizationStrategy"
@@ -127,7 +128,7 @@ public class AnonymizationController {
 					|| "de.bht.fb6.s778455.bachelor.anonymization.strategy.ner.EnglishNerAnonymizationStrategy"
 							.equals( chainingValue ) ) {
 				// cascades: create cascades of corpora
-				String cascadeKey = ( chainingValue
+				final String cascadeKey = ( chainingValue
 						.equals( "de.bht.fb6.s778455.bachelor.anonymization.strategy.ner.GermanNerAnonymizationStrategy" ) ) ? IConfigKeys.ANONYM_NER_GERMAN_CASCADE
 						: IConfigKeys.ANONYM_NER_ENGLISH_CASCADE;
 				List< String > corpora = this.anonymConfigReader
@@ -141,23 +142,23 @@ public class AnonymizationController {
 							.fetchMultipleValues( ( chainingValue
 									.equals( "de.bht.fb6.s778455.bachelor.anonymization.strategy.ner.GermanNerAnonymizationStrategy" ) ) ? IConfigKeys.ANONYM_NER_GERMAN_CORPORA
 									: IConfigKeys.ANONYM_NER_ENGLISH_CORPORA );
-					for( String corpusFile : corpora ) {
-						AAnomyzationStrategy strategy = this.anonymConfigReader
+					for( final String corpusFile : corpora ) {
+						final AAnomyzationStrategy strategy = this.anonymConfigReader
 								.getConfiguredClass( chainingKey, new File(
 										corpusFile ) );
-						Anonymizer anonymizer = new Anonymizer( strategy );
+						final Anonymizer anonymizer = new Anonymizer( strategy );
 
 						// anonymize boards using the ANerAnonymizationStrategy
 						this._anonymizeCourseBoards( anonymizer, courses );
 					}
 				} else { // cascades is a list of properties' keys
-					for( String corpusKey : corpora ) {
-						AAnomyzationStrategy strategy = this.anonymConfigReader
+					for( final String corpusKey : corpora ) {
+						final AAnomyzationStrategy strategy = this.anonymConfigReader
 								.getConfiguredClass(
 										chainingKey,
 										new File( this.anonymConfigReader
 												.fetchValue( corpusKey ) ) );
-						Anonymizer anonymizer = new Anonymizer( strategy );
+						final Anonymizer anonymizer = new Anonymizer( strategy );
 
 						// anonymize boards using the ANerAnonymizationStrategy
 						this._anonymizeCourseBoards( anonymizer, courses );
@@ -165,10 +166,10 @@ public class AnonymizationController {
 				}
 
 			} else {
-				AAnomyzationStrategy strategy = this.anonymConfigReader
+				final AAnomyzationStrategy strategy = this.anonymConfigReader
 						.getConfiguredClass( chainingKey );
 
-				Anonymizer anonymizer = new Anonymizer( strategy );
+				final Anonymizer anonymizer = new Anonymizer( strategy );
 
 				// anonymize boards using the ANerAnonymizationStrategy
 				this._anonymizeCourseBoards( anonymizer, courses );
@@ -183,10 +184,10 @@ public class AnonymizationController {
 	 * 
 	 * @param courses
 	 */
-	protected void _anonymizeCourseBoards( Anonymizer anonymizer,
-			Collection< Course > courses ) {
-		for( Course course : courses ) {
-			for( Board courseBoard : course.getBoards() ) {
+	protected void _anonymizeCourseBoards( final Anonymizer anonymizer,
+			final Collection< Course > courses ) {
+		for( final Course course : courses ) {
+			for( final Board courseBoard : course.getBoards() ) {
 				anonymizer.anonymizeBoard( courseBoard );
 			}
 		}
@@ -199,24 +200,24 @@ public class AnonymizationController {
 	 * @throws GeneralLoggingException
 	 */
 	public void performAnonymizationAnalysis() throws GeneralLoggingException {
-		long startTime = new Date().getTime();
+		final long startTime = new Date().getTime();
 		System.out.println( "starting import..." );
-		Collection< Course > rawCourses = this.importStrategy
+		final LmsCourseSet rawCourses = this.importStrategy
 				.importBoardFromFile( this.configuredDataFile );
 		System.out.println( "import successful" );
 		System.out.println();
 		System.out.println( "starting anonymization..." );
-		Collection< Course > anonymizedCourses = this
+		final LmsCourseSet anonymizedCourses = this
 				.performAnonymization( rawCourses );
 		System.out.println();
 		System.out.println( "anonymization successful" );
 		System.out.println( "Starting export..." );
-		long elapsedTime = new Date().getTime() - startTime;
+		final long elapsedTime = new Date().getTime() - startTime;
 		this.exportStrategy.exportToFile( anonymizedCourses,
 				this.configuredExportFile );
 		System.out.println();
 		System.out.println( "Export successfull" );
-		System.out.println( getStatistics( anonymizedCourses, elapsedTime ) );
+		System.out.println( this.getStatistics( anonymizedCourses, elapsedTime ) );
 	}
 
 	/**
@@ -225,9 +226,9 @@ public class AnonymizationController {
 	 * @param anonymizedCourses
 	 * @param elapsedTime
 	 */
-	public String getStatistics( Collection< Course > anonymizedCourses,
-			long elapsedTime ) {
-		StringBuilder statisticsBuilder = new StringBuilder();
+	public String getStatistics( final Collection< Course > anonymizedCourses,
+			final long elapsedTime ) {
+		final StringBuilder statisticsBuilder = new StringBuilder();
 
 		statisticsBuilder.append( "Import strategy: "
 				+ this.importStrategy.getClass() + "\n" );
@@ -260,7 +261,7 @@ public class AnonymizationController {
 							+ ServiceFactory.getPersonNameCorpusSingleton()
 									.getLastnames().size() + "\n" );
 		}
-		for( Course course : anonymizedCourses ) {
+		for( final Course course : anonymizedCourses ) {
 			if( ServiceFactory
 					.getConfigReader()
 					.fetchValue(
@@ -291,7 +292,7 @@ public class AnonymizationController {
 							+ "\n" );
 		}
 		
-		AStatisticsBuilder generalBuilder = new GeneralStatisticsBuilder();
+		final AStatisticsBuilder generalBuilder = new GeneralStatisticsBuilder();
 		statisticsBuilder.append( generalBuilder.buildStatistics( anonymizedCourses ).toString() + "\n" );
 		
 		statisticsBuilder.append( "Elapsed time (s): " + elapsedTime / 1000
@@ -300,8 +301,8 @@ public class AnonymizationController {
 		return statisticsBuilder.toString();
 	}
 
-	public static void main( String[] args ) throws GeneralLoggingException {
-		AnonymizationController controller = new AnonymizationController();
+	public static void main( final String[] args ) throws GeneralLoggingException {
+		final AnonymizationController controller = new AnonymizationController();
 		controller.performAnonymizationAnalysis();
 
 		System.out.println( "analysis performed!" );
