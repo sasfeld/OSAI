@@ -4,6 +4,7 @@
 package de.bht.fb6.s778455.bachelor.semantic.store;
 
 import com.hp.hpl.jena.query.Dataset;
+import com.hp.hpl.jena.query.ReadWrite;
 
 /**
  * <p>This class realizes the adapter to access the RdfTripleStore from the Jena library.</p>
@@ -23,6 +24,21 @@ public class RdfTripleStoreAdapter {
         this.jenaStore = jenaStore;       
     }
     
+    public void executeInsert( final String sparqlComannd ) {
+        this.beginTransaction( ReadWrite.WRITE );
+        
+        try {
+            
+        } finally {
+            this.endTransaction();
+        }
+    }
     
-
+    protected void beginTransaction( final ReadWrite mode) {
+        this.jenaStore.begin( mode );
+    }
+    
+    protected void endTransaction() {
+        this.jenaStore.end();
+    }
 }
