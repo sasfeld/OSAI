@@ -226,7 +226,7 @@ public class AnonymizationController {
 	 * @param anonymizedCourses
 	 * @param elapsedTime
 	 */
-	public String getStatistics( final Collection< Course > anonymizedCourses,
+	public String getStatistics( final LmsCourseSet anonymizedCourses,
 			final long elapsedTime ) {
 		final StringBuilder statisticsBuilder = new StringBuilder();
 

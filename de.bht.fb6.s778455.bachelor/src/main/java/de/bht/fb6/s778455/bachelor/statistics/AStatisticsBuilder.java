@@ -3,9 +3,8 @@
  */
 package de.bht.fb6.s778455.bachelor.statistics;
 
-import java.util.Collection;
-
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.StatisticsModel;
 
 
@@ -25,13 +24,13 @@ public abstract class AStatisticsBuilder {
 	 * @return the model
 	 */
 	protected final StatisticsModel getModel() {
-		return model;
+		return this.model;
 	}
 
 	/**
 	 * @param model the model to set
 	 */
-	protected final void setModel( StatisticsModel model ) {
+	protected final void setModel( final StatisticsModel model ) {
 		this.model = model;
 	}
 	
@@ -40,5 +39,5 @@ public abstract class AStatisticsBuilder {
 	 * @param courses
 	 * @return a fresh {@link StatisticsModel}
 	 */
-	public abstract StatisticsModel buildStatistics(final Collection< Course > courses);
+	public abstract StatisticsModel buildStatistics(final LmsCourseSet courses);
 }

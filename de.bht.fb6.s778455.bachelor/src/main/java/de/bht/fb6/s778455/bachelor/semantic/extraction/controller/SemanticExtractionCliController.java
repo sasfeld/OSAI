@@ -4,7 +4,6 @@
 package de.bht.fb6.s778455.bachelor.semantic.extraction.controller;
 
 import java.io.File;
-import java.util.Collection;
 import java.util.Date;
 
 import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
@@ -143,7 +142,7 @@ public class SemanticExtractionCliController {
      * 
      * @return
      */
-    public String getTagAndLangStatistics( final Collection< Course > collection ) {
+    public String getTagAndLangStatistics( final LmsCourseSet collection ) {
         final AStatisticsBuilder builder = new GeneralStatisticsBuilder(
                 new TagStatisticsBuilder( new LanguageStatisticsBuilder() ) );
 

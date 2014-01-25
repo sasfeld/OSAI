@@ -5,9 +5,6 @@ package de.bht.fb6.s778455.bachelor.test.statistics;
 
 import static org.junit.Assert.assertEquals;
 
-import java.util.ArrayList;
-import java.util.Collection;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -15,10 +12,11 @@ import org.junit.Test;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
-import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
 import de.bht.fb6.s778455.bachelor.model.StatisticsModel;
 import de.bht.fb6.s778455.bachelor.model.Tag;
+import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
 import de.bht.fb6.s778455.bachelor.statistics.AStatisticsBuilder;
 import de.bht.fb6.s778455.bachelor.statistics.GeneralStatisticsBuilder;
 import de.bht.fb6.s778455.bachelor.statistics.TagStatisticsBuilder;
@@ -33,7 +31,7 @@ import de.bht.fb6.s778455.bachelor.statistics.TagStatisticsBuilder;
  * 
  */
 public class StatisticsBuilderTest {	
-	private Collection< Course > collection;
+	private LmsCourseSet collection;
 
 	/**
 	 * @throws java.lang.Exception
@@ -52,18 +50,18 @@ public class StatisticsBuilderTest {
 	}
 
 	
-	private Collection< Course > createDummyCollection() {
-		Collection< Course > coll = new ArrayList< Course >();
+	private LmsCourseSet createDummyCollection() {
+		final LmsCourseSet coll = new LmsCourseSet();
 
-		Course dummyCourse = new Course( "dummy" );
+		final Course dummyCourse = new Course( "dummy" );
 		coll.add( dummyCourse );
-		Board dummyBoard = new Board( dummyCourse, "Dummy board" );
+		final Board dummyBoard = new Board( dummyCourse, "Dummy board" );
 		dummyCourse.addBoard( dummyBoard );
-		BoardThread dummyThread = new BoardThread( dummyBoard );
+		final BoardThread dummyThread = new BoardThread( dummyBoard );
 		dummyBoard.addThread( dummyThread );
 
 		// posting
-		Posting p = new Posting( dummyThread );
+		final Posting p = new Posting( dummyThread );
 		// add some test tags
 		p.addTag( new Tag( 8.0, "testtag", "some uri", TagType.TOPIC_ZOOM  ), TagType.TOPIC_ZOOM );
 		p.addTag( new Tag( 4.0, "testtag2", "some uri", TagType.TOPIC_ZOOM  ), TagType.TOPIC_ZOOM );
@@ -83,11 +81,11 @@ public class StatisticsBuilderTest {
 		dummyThread.addPosting( new Posting( dummyThread ) );
 
 		// another thread
-		BoardThread anotherThread = new BoardThread( dummyBoard );
+		final BoardThread anotherThread = new BoardThread( dummyBoard );
 		dummyBoard.addThread( anotherThread );
 
 		// posting
-		Posting anotherP = new Posting( dummyThread );
+		final Posting anotherP = new Posting( dummyThread );
 		// add some test tags
 		anotherP.addTag( new Tag( 8.0, "testtag", "some uri", TagType.TOPIC_ZOOM ), TagType.TOPIC_ZOOM );
 		anotherP.addTag( new Tag( 4.0, "testtag2", "some uri", TagType.TOPIC_ZOOM ), TagType.TOPIC_ZOOM );
@@ -100,8 +98,8 @@ public class StatisticsBuilderTest {
 	@Test
 	public void testBuildStatistics() {
 		// first only test the GeneralStatisticsBuilder
-		AStatisticsBuilder generalBuilder = new GeneralStatisticsBuilder();
-		StatisticsModel statisticsModel = generalBuilder.buildStatistics( collection );
+		final AStatisticsBuilder generalBuilder = new GeneralStatisticsBuilder();
+		StatisticsModel statisticsModel = generalBuilder.buildStatistics( this.collection );
 		
 		assertEquals( 1, statisticsModel.getNumberCourses() );
 		assertEquals( 1, statisticsModel.getNumberBoards() );
@@ -109,8 +107,8 @@ public class StatisticsBuilderTest {
 		assertEquals( 3, statisticsModel.getNumberPostings() );
 		
 		// now, test only the TagStatisticsBuilder
-		AStatisticsBuilder tagBuilder = new TagStatisticsBuilder();
-		statisticsModel = tagBuilder.buildStatistics( collection );
+		final AStatisticsBuilder tagBuilder = new TagStatisticsBuilder();
+		statisticsModel = tagBuilder.buildStatistics( this.collection );
 		
 		assertEquals( 0, statisticsModel.getNumberCourses() );
 		assertEquals( 0, statisticsModel.getNumberBoards() );
@@ -127,8 +125,8 @@ public class StatisticsBuilderTest {
 		assertEquals( 2, statisticsModel.getNumberTzAndNerTaggedPostings());
 		
 		// now test the decoration
-		AStatisticsBuilder decoratedBuilder = new GeneralStatisticsBuilder( new TagStatisticsBuilder() );
-		statisticsModel = decoratedBuilder.buildStatistics( collection );
+		final AStatisticsBuilder decoratedBuilder = new GeneralStatisticsBuilder( new TagStatisticsBuilder() );
+		statisticsModel = decoratedBuilder.buildStatistics( this.collection );
 		
 		assertEquals( 1, statisticsModel.getNumberCourses() );
 		assertEquals( 1, statisticsModel.getNumberBoards() );

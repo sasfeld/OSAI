@@ -3,10 +3,9 @@
  */
 package de.bht.fb6.s778455.bachelor.statistics;
 
-import java.util.Collection;
 import java.util.Date;
 
-import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.StatisticsModel;
 
 /**
@@ -42,10 +41,10 @@ public abstract class DecoratingStatisticsBuilder extends AStatisticsBuilder {
 	 * (non-Javadoc)
 	 * @see de.bht.fb6.s778455.bachelor.statistics.AStatisticsBuilder#buildStatistics(java.util.Collection)
 	 */
-	public StatisticsModel buildStatistics( final Collection< Course > courses ) {
+	public StatisticsModel buildStatistics( final LmsCourseSet courses ) {
 		// just pass the model to the decorating strategies.
 		if ( null == this.getModel() ) {
-			StatisticsModel newModel = new StatisticsModel();
+			final StatisticsModel newModel = new StatisticsModel();
 			newModel.setDateCreation( new Date() ); // current datetime
 			this.setModel( newModel );
 		}

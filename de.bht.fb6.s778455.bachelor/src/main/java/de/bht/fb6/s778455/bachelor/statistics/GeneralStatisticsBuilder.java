@@ -3,11 +3,10 @@
  */
 package de.bht.fb6.s778455.bachelor.statistics;
 
-import java.util.Collection;
-
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.model.StatisticsModel;
 
@@ -42,7 +41,7 @@ public class GeneralStatisticsBuilder extends DecoratingStatisticsBuilder {
      * (java.util.Collection)
      */
     @Override
-    public StatisticsModel buildStatistics( final Collection< Course > courses ) {
+    public StatisticsModel buildStatistics( final LmsCourseSet courses ) {
         final StatisticsModel model = super.buildStatistics( courses );
 
         final int numberCourses = courses.size();

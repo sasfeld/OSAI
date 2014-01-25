@@ -11,6 +11,7 @@ import java.util.Set;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.model.StatisticsModel;
 import de.bht.fb6.s778455.bachelor.model.Tag;
@@ -46,7 +47,7 @@ public class TagStatisticsBuilder extends DecoratingStatisticsBuilder {
 	 */
 	@Override
     @SuppressWarnings( "unused" )
-	public StatisticsModel buildStatistics( final Collection< Course > courses ) {
+	public StatisticsModel buildStatistics( final LmsCourseSet courses ) {
 		final StatisticsModel model = super.buildStatistics( courses );
 
 		/*

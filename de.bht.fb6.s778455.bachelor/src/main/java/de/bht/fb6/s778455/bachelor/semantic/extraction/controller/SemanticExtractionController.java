@@ -5,7 +5,6 @@ package de.bht.fb6.s778455.bachelor.semantic.extraction.controller;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 import de.bht.fb6.s778455.bachelor.model.AUserContribution;
@@ -521,7 +520,7 @@ public class SemanticExtractionController {
      * @param anonymizedCourses
      * @param elapsedTime
      */
-    public String getStatistics( final Collection< Course > anonymizedCourses ) {
+    public String getStatistics( final LmsCourseSet anonymizedCourses ) {
         final StringBuilder statisticsBuilder = new StringBuilder();
 
         statisticsBuilder
