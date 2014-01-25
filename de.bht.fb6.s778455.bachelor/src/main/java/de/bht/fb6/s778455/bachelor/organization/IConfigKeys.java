@@ -106,4 +106,9 @@ public interface IConfigKeys {
 	String SEMANTICS_EXTRACTION_STRATEGY_LANGUAGEDETECTION_MIMIMUM_ENGLISH = "semantics.extraction.strategy.languagedetection.minimum.english";
 	String SEMANTICS_EXTRACTION_STRATEGY_LANGUAGEDETECTION_MIMIMUM_GERMAN = "semantics.extraction.strategy.languagedetection.minimum.german";
 	String SEMANTICS_EXTRACTION_STRATEGY_LANGUAGEDETECTION_MIMIMUM_DIFFERENCE = "semantics.extraction.strategy.languagedetection.minimum.difference";
+
+	/*
+	 * Semantics: store 
+	 */
+	String SEMANTICS_STORE_DATASET = "semantics.store.dataset";
 }
