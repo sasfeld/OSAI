@@ -116,4 +116,17 @@ public class RdfTripleStoreAdapter {
         this.jenaStore.commit();
         this.wasCommited = true;
     }
+    
+    public String showOntologyTriples() {
+        final StringBuilder b = new StringBuilder();
+        
+        final OntModel ontM = this.getOntologyModel();
+        
+        // imported ontologies
+        for(  final String importedOnt : ontM.listImportedOntologyURIs() ) {
+            b.append( "Imported ontology: " + importedOnt + "\n" );
+        }
+        
+        return b.toString();
+    }
 }

@@ -64,9 +64,7 @@ public class ServiceFactory {
 	        // the factory will either create a bare dataset if the configured folder is empty or join the existing triples
 	        jenaStore = TDBFactory.createDataset( getConfigReader().fetchValue( IConfigKeys.SEMANTICS_STORE_DATASET ) );
 	    }
-	    if ( null == ontologyFile ) {
-	        ontologyFile = new File( getConfigReader().fetchValue( IConfigKeys.SEMANTICS_STORE_ONTOLOGY_FILE ) );
-	    }
+	    final File ontologyFile = getOntologyFile();
 	    
 	    if ( null == jenaAdapter ) {
 	        jenaAdapter = new RdfTripleStoreAdapter(jenaStore, ontologyFile);
@@ -75,4 +73,17 @@ public class ServiceFactory {
 	    
 	    return jenaAdapter;
 	}
+
+    /**
+     * Get the ontology (.owl) file.
+     * @return 
+     * @return {@link File}
+     */
+    public static File getOntologyFile() {
+        if ( null == ontologyFile ) {
+	        ontologyFile = new File( getConfigReader().fetchValue( IConfigKeys.SEMANTICS_STORE_ONTOLOGY_FILE ) );
+	    }
+        
+        return ontologyFile;
+    }
 }
