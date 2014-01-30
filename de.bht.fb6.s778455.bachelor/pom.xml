@@ -61,7 +61,12 @@
 		<groupId>xerces</groupId>
 		<artifactId>xercesImpl</artifactId>
 		<version>2.11.0</version>
-	</dependency>           
+	</dependency>    
+	<dependency>
+		<groupId>log4j</groupId>
+		<artifactId>log4j</artifactId>
+		<version>1.2.17</version>
+	</dependency>                   
   </dependencies>
   <description>This software is a result of the bachelor thesis of Sascha Feldmann.
 

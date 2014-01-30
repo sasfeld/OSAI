@@ -16,6 +16,7 @@ import com.hp.hpl.jena.tdb.TDBFactory;
 
 import de.bht.fb6.s778455.bachelor.semantic.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
+import de.bht.fb6.s778455.bachelor.test.framework.LoggingAwareTest;
 
 /**
  * <p>This class contains tests of the {@link RdfTripleStoreAdapter}.</p>
@@ -32,12 +33,19 @@ import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
  * @since 30.01.2014
  *
  */
-public class RdfTripleStoreAdapterTest {
+public class RdfTripleStoreAdapterTest extends LoggingAwareTest {
     /**
      * Path to the dataset for unit testing.
      */
     private static final String LOCATION_UNIT_TEST_DS = "./data/semantics/unittest/testdataset";
     protected RdfTripleStoreAdapter adapter;
+    
+    /**
+     * As a logging aware test, call the super constructor.
+     */
+    public RdfTripleStoreAdapterTest() {
+        super();
+    }
 
     /**
      * @throws java.lang.Exception
@@ -45,7 +53,8 @@ public class RdfTripleStoreAdapterTest {
     @Before
     public void setUp() throws Exception {
         final Dataset jenaStore = TDBFactory.createDataset( LOCATION_UNIT_TEST_DS );
-        final File ontologyFile = ServiceFactory.getOntologyFile();
+        final File ontologyFile = ServiceFactory.getOntologyFile();       
+        
         
         this.adapter = new RdfTripleStoreAdapter( jenaStore, ontologyFile );
     }
