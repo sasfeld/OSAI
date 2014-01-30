@@ -6,14 +6,20 @@ package de.bht.fb6.s778455.bachelor.semantic.store;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.util.Set;
 
+import com.hp.hpl.jena.ontology.DatatypeProperty;
+import com.hp.hpl.jena.ontology.ObjectProperty;
+import com.hp.hpl.jena.ontology.OntClass;
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.query.Dataset;
 import com.hp.hpl.jena.query.ReadWrite;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
+import com.hp.hpl.jena.util.iterator.ExtendedIterator;
 
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
+import de.bht.fb6.s778455.bachelor.organization.CollectionUtil;
 
 /**
  * <p>This class realizes the adapter to access the RdfTripleStore from the Jena library.</p>
@@ -29,19 +35,20 @@ public class RdfTripleStoreAdapter {
     protected ReadWrite lastMode;
     protected OntModel ontologyModel;
     protected File ontologyFile;
+    protected String ontologyBaseUri;
 
     /**
      * Create the adapter which access the given {@link Dataset} from the Jena TDB layer.
      * @param jenaStore
      */
-    public RdfTripleStoreAdapter( final Dataset jenaStore, final File ontologyFile ) {
-        this.initialize( jenaStore, ontologyFile );
+    public RdfTripleStoreAdapter( final Dataset jenaStore, final File ontologyFile, final String ontologyBaseUri ) {
+        this.initialize( jenaStore, ontologyFile, ontologyBaseUri );
     }
 
     /**
      * @param jenaStore
      */
-    protected void initialize( final Dataset jenaStore, final File ontologyFile ) {
+    protected void initialize( final Dataset jenaStore, final File ontologyFile, final String ontologyBaseUri ) {
         if ( null == jenaStore || null == ontologyFile || ! ontologyFile.exists() ) {
             throw new IllegalArgumentException( "Null values are not allowed for arguments or the ontology file doesn't exist!" );
         }
@@ -50,7 +57,8 @@ public class RdfTripleStoreAdapter {
         this.inTransaction = false;
         this.wasCommited = false;
         this.lastMode = null;
-        this.ontologyFile = ontologyFile;        
+        this.ontologyFile = ontologyFile;    
+        this.ontologyBaseUri = ontologyBaseUri;
     }
     
     /**
@@ -73,7 +81,7 @@ public class RdfTripleStoreAdapter {
             this.ontologyModel = ModelFactory.createOntologyModel();
             try {
                 final FileInputStream fIn = new FileInputStream( this.ontologyFile );
-                this.ontologyModel.read( fIn, "http://saschafeldmann.de/bachelor/ontology" );             
+                this.ontologyModel.read( fIn, this.ontologyBaseUri );             
             } catch( final FileNotFoundException e ) {
                 Application.log( "Ontology file not found: " + this.ontologyFile, LogType.CRITICAL, this.getClass() );
             }           
@@ -139,4 +147,41 @@ public class RdfTripleStoreAdapter {
         
         return b.toString();
     }
+    
+    /**
+     * Get a list of those ontologies which were imported in the OWL ontology.
+     * @return
+     */
+    public Set<String> getImportedOntologies() {
+        return this.getOntologyModel().listImportedOntologyURIs();
+    }
+    
+    /**
+     * Get the set of {@link OntClass}
+     * @return
+     */
+    public Set< OntClass > getOntologieClasses() {       
+        final ExtendedIterator< OntClass > it = this.getOntologyModel().listClasses();
+        return CollectionUtil.buildSetFromIterator( it );
+    }
+    
+    /**
+     * Get the set of {@link ObjectProperty}
+     * @return
+     */
+    public Set< ObjectProperty > getOntologieObjectProperties() {
+        final ExtendedIterator<ObjectProperty> it = this.getOntologyModel().listObjectProperties();
+        return CollectionUtil.buildSetFromIterator( it );
+    }
+    
+    /**
+     * Get the set of {@link DatatypeProperty}
+     * @return
+     */
+    public Set< DatatypeProperty > getOntologieDatatypeProperties() {
+        final ExtendedIterator<DatatypeProperty> it = this.getOntologyModel().listDatatypeProperties();
+        return CollectionUtil.buildSetFromIterator( it );
+    }
+    
+    
 }

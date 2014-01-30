@@ -112,4 +112,5 @@ public interface IConfigKeys {
 	 */
 	String SEMANTICS_STORE_DATASET = "semantics.store.dataset";
 	String SEMANTICS_STORE_ONTOLOGY_FILE = "semantics.store.ontology.file";
+    String SEMANTICS_STORE_ONTOLOGY_BASEURI = "semantics.store.ontology.baseuri";
 }

@@ -28,6 +28,7 @@ public class ServiceFactory {
 	private static Dataset jenaStore;
 	private static RdfTripleStoreAdapter jenaAdapter;
     private static File ontologyFile;
+    private static String ontologyBaseUri;
 
 	/**
 	 * Return the config Reader for the semantics module.
@@ -63,11 +64,10 @@ public class ServiceFactory {
 	    if ( null == jenaStore ) {
 	        // the factory will either create a bare dataset if the configured folder is empty or join the existing triples
 	        jenaStore = TDBFactory.createDataset( getConfigReader().fetchValue( IConfigKeys.SEMANTICS_STORE_DATASET ) );
-	    }
-	    final File ontologyFile = getOntologyFile();
+	    }	    
 	    
 	    if ( null == jenaAdapter ) {
-	        jenaAdapter = new RdfTripleStoreAdapter(jenaStore, ontologyFile);
+	        jenaAdapter = new RdfTripleStoreAdapter(jenaStore, getOntologyFile(), getOntologyBaseUri());
 	    }	    
 	    
 	    
@@ -76,7 +76,6 @@ public class ServiceFactory {
 
     /**
      * Get the ontology (.owl) file.
-     * @return 
      * @return {@link File}
      */
     public static File getOntologyFile() {
@@ -85,5 +84,17 @@ public class ServiceFactory {
 	    }
         
         return ontologyFile;
+    }
+    
+    /**
+     * Get the base uri of the own ontology (.owl) file.
+     * @return {@link String}
+     */
+    public static String getOntologyBaseUri() {
+        if ( null == ontologyBaseUri ) {
+            ontologyBaseUri = getConfigReader().fetchValue( IConfigKeys.SEMANTICS_STORE_ONTOLOGY_BASEURI );
+        }
+        
+        return ontologyBaseUri;
     }
 }

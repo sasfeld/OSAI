@@ -3,6 +3,8 @@
  */
 package de.bht.fb6.s778455.bachelor.test.semantic.store;
 
+import static org.junit.Assert.assertEquals;
+
 import java.io.File;
 
 import org.junit.After;
@@ -53,10 +55,11 @@ public class RdfTripleStoreAdapterTest extends LoggingAwareTest {
     @Before
     public void setUp() throws Exception {
         final Dataset jenaStore = TDBFactory.createDataset( LOCATION_UNIT_TEST_DS );
-        final File ontologyFile = ServiceFactory.getOntologyFile();       
+        final File ontologyFile = ServiceFactory.getOntologyFile();
+        final String ontologyBaseUri = ServiceFactory.getOntologyBaseUri();
         
         
-        this.adapter = new RdfTripleStoreAdapter( jenaStore, ontologyFile );
+        this.adapter = new RdfTripleStoreAdapter( jenaStore, ontologyFile, ontologyBaseUri );
     }
 
     /**
@@ -66,13 +69,15 @@ public class RdfTripleStoreAdapterTest extends LoggingAwareTest {
     public void tearDown() throws Exception {
         this.adapter = null;
     }
-
-    @Test
+    
     /**
      * Some tests of the {@link OntModel}
      */
+    @Test
     public void testOntologyModel() {
-       System.out.println(this.adapter.showOntologyTriples());
+        assertEquals(4, this.adapter.getImportedOntologies().size());
+        assertEquals( 25, this.adapter.getOntologieClasses().size() );
+        assertEquals( 32, this.adapter.getOntologieDatatypeProperties().size() );
     }
 
 }
