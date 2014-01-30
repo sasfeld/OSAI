@@ -29,6 +29,10 @@ public class Application {
         INFO, WARNING, ERROR, CRITICAL;
         
         @SuppressWarnings( "deprecation" )
+        /**
+         * Mapping from our to log4's log type.
+         * @return
+         */
         public Priority getLog4jLevel() {
             switch( this ) {
             case INFO:
@@ -59,6 +63,19 @@ public class Application {
         // log in root logger
         rootLogger.log( logType.getLog4jLevel(), logMessage );
     }
+    
+    /**
+     * Log a message for a given class.
+     * @param logMessage
+     * @param logType
+     * @param clazz
+     */
+    public static void log( final String logMessage, final LogType logType,
+            final Class< ? > clazz ) {   
+         // log in root logger
+         Logger.getLogger( clazz ).log( logType.getLog4jLevel(), logMessage );
+        
+    }
 
     /**
      * Initialize the logging system.
@@ -79,4 +96,5 @@ public class Application {
             rootLogger = Logger.getRootLogger();
         }
     }
+    
 }

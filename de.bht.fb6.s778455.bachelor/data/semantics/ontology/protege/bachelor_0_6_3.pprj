@@ -1,4 +1,4 @@
-; Thu Jan 30 17:13:35 CET 2014
+; Thu Jan 30 19:12:07 CET 2014
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -120,50 +120,11 @@
 ([bachelor_0_6_3_ProjectKB_Class32] of  Property_List
 )
 
-([bachelor_0_6_3_ProjectKB_Class328] of  String
-
-	(name "http://www.w3.org/2002/07/owl#Class")
-	(string_value "%3ANAME"))
-
-([bachelor_0_6_3_ProjectKB_Class329] of  String
-
-	(name ":INSTANCE-ANNOTATION")
-	(string_value "%3AANNOTATION-TEXT"))
-
 ([bachelor_0_6_3_ProjectKB_Class33] of  Widget
 
 	(is_hidden TRUE)
 	(property_list [bachelor_0_6_3_ProjectKB_Class34])
 	(widget_class_name "edu.stanford.smi.protegex.chatPlugin.ChatTab"))
-
-([bachelor_0_6_3_ProjectKB_Class330] of  String
-
-	(name ":META-CLASS")
-	(string_value "%3ANAME"))
-
-([bachelor_0_6_3_ProjectKB_Class331] of  String
-
-	(name ":PAL-CONSTRAINT")
-	(string_value "%3APAL-NAME"))
-
-([bachelor_0_6_3_ProjectKB_Class332] of  String
-
-	(name "http://www.w3.org/2002/07/owl#Thing")
-	(string_value "%3ANAME"))
-
-([bachelor_0_6_3_ProjectKB_Class33369] of  Widget
-
-	(height 120)
-	(is_hidden FALSE)
-	(name "http://saschafeldmann.de/bachelor/ontology#property_datatype_topic_uri")
-	(property_list [bachelor_0_6_3_ProjectKB_Class33370])
-	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.MultiLiteralWidget")
-	(width 200)
-	(x 0)
-	(y 390))
-
-([bachelor_0_6_3_ProjectKB_Class33370] of  Property_List
-)
 
 ([bachelor_0_6_3_ProjectKB_Class34] of  Property_List
 )
@@ -267,6 +228,31 @@
 ([bachelor_0_6_3_ProjectKB_Class54] of  Property_List
 )
 
+([bachelor_0_6_3_ProjectKB_Class55] of  String
+
+	(name ":INSTANCE-ANNOTATION")
+	(string_value "%3AANNOTATION-TEXT"))
+
+([bachelor_0_6_3_ProjectKB_Class56] of  String
+
+	(name "http://www.w3.org/2002/07/owl#Class")
+	(string_value "%3ANAME"))
+
+([bachelor_0_6_3_ProjectKB_Class57] of  String
+
+	(name ":PAL-CONSTRAINT")
+	(string_value "%3APAL-NAME"))
+
+([bachelor_0_6_3_ProjectKB_Class58] of  String
+
+	(name ":META-CLASS")
+	(string_value "%3ANAME"))
+
+([bachelor_0_6_3_ProjectKB_Class59] of  String
+
+	(name "http://www.w3.org/2002/07/owl#Thing")
+	(string_value "%3ANAME"))
+
 ([bachelor_0_6_3_ProjectKB_Class6] of  Property_List
 )
 
@@ -288,11 +274,11 @@
 ([BROWSER_SLOT_NAMES] of  Property_List
 
 	(properties
-		[bachelor_0_6_3_ProjectKB_Class328]
-		[bachelor_0_6_3_ProjectKB_Class329]
-		[bachelor_0_6_3_ProjectKB_Class330]
-		[bachelor_0_6_3_ProjectKB_Class331]
-		[bachelor_0_6_3_ProjectKB_Class332]))
+		[bachelor_0_6_3_ProjectKB_Class55]
+		[bachelor_0_6_3_ProjectKB_Class56]
+		[bachelor_0_6_3_ProjectKB_Class57]
+		[bachelor_0_6_3_ProjectKB_Class58]
+		[bachelor_0_6_3_ProjectKB_Class59]))
 
 ([CLSES_TAB] of  Widget
 
@@ -920,9 +906,6 @@
 	(y 0))
 
 ([KB_221055_Instance_71] of  Property_List
-)
-
-([KB_260581_Class0] of  Map
 )
 
 ([KB_301165_Instance_1013] of  Widget
@@ -5608,6 +5591,9 @@
 ([KB_941921_Instance_7] of  Property_List
 )
 
+([KB_945389_Class0] of  Map
+)
+
 ([OWL_ProjectKB_Instance_3] of  String
 
 	(name "owl_build")
@@ -5629,9 +5615,9 @@
 	(browser_slot_names [BROWSER_SLOT_NAMES])
 	(customized_instance_widgets
 		[KB_713803_Instance_477]
-		[PAL_FORM_WIDGET]
-		[KB_691299_Instance_398]
 		[KB_313796_Instance_852]
+		[KB_691299_Instance_398]
+		[PAL_FORM_WIDGET]
 		[Instance_581]
 		[KB_713803_Instance_693]
 		[INSTANCE_ANNOTATION_FORM_WIDGET]
@@ -5653,8 +5639,8 @@
 		[KB_938545_Instance_329]
 		[KB_764103_Instance_545]
 		[KB_301165_Instance_1013]
-		[KB_713803_Instance_390]
-		[Instance_443])
+		[Instance_443]
+		[KB_713803_Instance_390])
 	(default_cls_metaclass "http://www.w3.org/2002/07/owl#Class")
 	(default_facet_metaclass ":STANDARD-FACET")
 	(default_instance_widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.OWLFormWidget")
@@ -5662,8 +5648,8 @@
 	(hidden_classes
 		"http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"
 		":DIRECT-TEMPLATE-SLOTS"
-		"http://www.w3.org/2002/07/owl#DataRange"
 		"http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"
+		"http://www.w3.org/2002/07/owl#DataRange"
 		"http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
 		"http://www.w3.org/2002/07/owl#onProperty"
 		":DIRECT-DOMAIN"
@@ -5680,26 +5666,26 @@
 		"http://protege.stanford.edu/plugins/owl/protege#SLOT-CONSTRAINTS"
 		"http://www.w3.org/2002/07/owl#SymmetricProperty"
 		"http://www.w3.org/2001/XMLSchema#IDREF"
-		"http://protege.stanford.edu/plugins/owl/protege#PAL-NAME"
-		"http://www.w3.org/2002/07/owl#differentFrom"
-		":SLOT-NUMERIC-MINIMUM"
 		"http://www.w3.org/2001/XMLSchema#integer"
+		":SLOT-NUMERIC-MINIMUM"
+		"http://www.w3.org/2002/07/owl#differentFrom"
+		"http://protege.stanford.edu/plugins/owl/protege#PAL-NAME"
 		"http://www.w3.org/2001/XMLSchema#gMonth"
 		"http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"
 		"http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"
 		"http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"
-		"http://www.w3.org/2001/XMLSchema#unsignedShort"
-		":OWL-CLASS"
 		":NUMERIC-MAXIMUM"
+		":OWL-CLASS"
+		"http://www.w3.org/2001/XMLSchema#unsignedShort"
 		"http://www.w3.org/2003/11/swrl#propertyPredicate"
 		"http://www.w3.org/2001/XMLSchema#unsignedInt"
-		":STANDARD-FACET"
 		"http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"
-		"http://www.w3.org/2002/07/owl#Restriction"
+		":STANDARD-FACET"
 		":STANDARD-CLASS"
+		"http://www.w3.org/2002/07/owl#Restriction"
 		":ANNOTATION-TEXT"
-		"http://www.w3.org/2002/07/owl#MaxCardinalityRestriction"
 		"http://www.w3.org/2003/11/swrl#arguments"
+		"http://www.w3.org/2002/07/owl#MaxCardinalityRestriction"
 		"http://www.w3.org/2001/XMLSchema#NCName"
 		"http://www.w3.org/2001/XMLSchema#ID"
 		"http://www.w3.org/2002/07/owl#InverseFunctionalProperty"
@@ -5707,8 +5693,8 @@
 		":ANNOTATED-INSTANCE"
 		"http://www.w3.org/2000/01/rdf-schema#member"
 		"http://www.w3.org/2003/11/swrl#BuiltinAtom"
-		":OWL-ONTOLOGY-POINTER-CLASS"
 		"http://www.w3.org/2002/07/owl#Ontology"
+		":OWL-ONTOLOGY-POINTER-CLASS"
 		"http://www.w3.org/2002/07/owl#LogicalClass"
 		"http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
 		"http://www.w3.org/1999/02/22-rdf-syntax-ns#object"
@@ -5752,103 +5738,103 @@
 		":DIRECT-TYPE"
 		"http://www.w3.org/2001/XMLSchema#base64Binary"
 		"http://www.w3.org/2001/XMLSchema#short"
-		"http://www.w3.org/2002/07/owl#equivalentClass"
 		":NAME"
+		"http://www.w3.org/2002/07/owl#equivalentClass"
 		"http://www.w3.org/2002/07/owl#maxCardinality"
 		"http://www.w3.org/2002/07/owl#FunctionalProperty"
 		"http://protege.stanford.edu/plugins/owl/protege#PAL-DESCRIPTION"
 		"http://protege.stanford.edu/plugins/owl/protege#inferredSubclassOf"
-		":PAL-DESCRIPTION"
 		"http://www.w3.org/2003/11/swrl#SameIndividualAtom"
-		"http://www.w3.org/2001/XMLSchema#anyURI"
-		"http://www.w3.org/2002/07/owl#AnonymousClass"
+		":PAL-DESCRIPTION"
 		"http://www.w3.org/2002/07/owl#MinCardinalityRestriction"
+		"http://www.w3.org/2002/07/owl#AnonymousClass"
+		"http://www.w3.org/2001/XMLSchema#anyURI"
 		"http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
 		"http://www.w3.org/2002/07/owl#AllValuesFromRestriction"
 		":CLASS"
 		"http://www.w3.org/2002/07/owl#complementOf"
 		"http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"
-		"http://www.w3.org/2002/07/owl#DeprecatedClass"
-		"http://www.w3.org/2001/XMLSchema#hexBinary"
 		":ROLE"
+		"http://www.w3.org/2001/XMLSchema#hexBinary"
+		"http://www.w3.org/2002/07/owl#DeprecatedClass"
 		"http://www.w3.org/2002/07/owl#DatatypeProperty"
-		"http://www.w3.org/2001/XMLSchema#unsignedByte"
 		"http://www.w3.org/2001/XMLSchema#double"
+		"http://www.w3.org/2001/XMLSchema#unsignedByte"
 		"http://www.w3.org/2002/07/owl#distinctMembers"
-		":DOCUMENTATION-IN-FRAME"
-		"http://www.w3.org/2002/07/owl#IntersectionClass"
 		"http://www.w3.org/2002/07/owl#TransitiveProperty"
+		"http://www.w3.org/2002/07/owl#IntersectionClass"
+		":DOCUMENTATION-IN-FRAME"
 		":SLOT-NUMERIC-MAXIMUM"
 		":INSTANCE-ANNOTATION"
 		"http://www.w3.org/2000/01/rdf-schema#range"
 		":SLOT-MINIMUM-CARDINALITY"
 		"http://www.w3.org/2002/07/owl#AnnotationProperty"
-		":DIRECT-SUBCLASSES"
 		"http://www.w3.org/2001/XMLSchema#gYearMonth"
+		":DIRECT-SUBCLASSES"
 		"http://www.w3.org/2002/07/owl#DeprecatedProperty"
-		":CREATOR"
 		"http://www.w3.org/2002/07/owl#ComplementClass"
-		"http://www.w3.org/2002/07/owl#ObjectProperty"
+		":CREATOR"
 		":ASSOCIATED-FACET"
+		"http://www.w3.org/2002/07/owl#ObjectProperty"
 		"http://www.w3.org/2001/XMLSchema#ENTITY"
 		":DOCUMENTATION"
 		"http://www.w3.org/2001/XMLSchema#byte"
 		"http://www.w3.org/2001/XMLSchema#float"
 		":DIRECT-SUPERCLASSES"
 		":CREATION-TIMESTAMP"
-		":NUMERIC-MINIMUM"
 		":META-CLASS"
+		":NUMERIC-MINIMUM"
 		"http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"
 		"http://www.w3.org/2000/01/rdf-schema#domain"
 		"http://protege.stanford.edu/plugins/owl/protege#TO"
-		"http://www.w3.org/2002/07/owl#backwardCompatibleWith"
 		":DIRECT-SUBSLOTS"
+		"http://www.w3.org/2002/07/owl#backwardCompatibleWith"
 		":RELATION"
 		":MODIFICATION-TIMESTAMP"
 		"http://www.w3.org/2001/XMLSchema#gYear"
 		"http://www.w3.org/2001/XMLSchema#gMonthDay"
-		"http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
 		"http://www.w3.org/2001/XMLSchema#normalizedString"
+		"http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
 		"http://protege.stanford.edu/plugins/owl/protege#FROM"
 		"http://www.w3.org/2001/XMLSchema#nonPositiveInteger"
 		"http://www.w3.org/2000/01/rdf-schema#Datatype"
-		"http://protege.stanford.edu/plugins/owl/protege#classificationStatus"
 		"http://www.w3.org/2002/07/owl#someValuesFrom"
+		"http://protege.stanford.edu/plugins/owl/protege#classificationStatus"
 		"http://protege.stanford.edu/plugins/owl/protege#inferredSuperclassOf"
-		"http://www.w3.org/2000/01/rdf-schema#subPropertyOf"
 		"http://www.w3.org/1999/02/22-rdf-syntax-ns#List"
-		"http://www.w3.org/2003/11/swrl#Atom"
-		"http://www.w3.org/2001/XMLSchema#QName"
+		"http://www.w3.org/2000/01/rdf-schema#subPropertyOf"
 		"http://www.w3.org/2003/11/swrl#DifferentIndividualsAtom"
+		"http://www.w3.org/2001/XMLSchema#QName"
+		"http://www.w3.org/2003/11/swrl#Atom"
 		"http://www.w3.org/2003/11/swrl#dataRange"
 		"http://www.w3.org/2002/07/owl#AllDifferent"
 		"http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-		"http://www.w3.org/2002/07/owl#EnumeratedClass"
 		"http://www.w3.org/2003/11/swrl#Variable"
-		"http://www.w3.org/2002/07/owl#disjointWith"
+		"http://www.w3.org/2002/07/owl#EnumeratedClass"
 		":DIRECT-INSTANCES"
+		"http://www.w3.org/2002/07/owl#disjointWith"
 		"http://www.w3.org/2001/XMLSchema#unsignedLong"
 		":MINIMUM-CARDINALITY"
-		"http://www.w3.org/2002/07/owl#unionOf"
 		"http://protege.stanford.edu/plugins/owl/protege#DIRECTED-BINARY-RELATION"
+		"http://www.w3.org/2002/07/owl#unionOf"
 		":SLOT"
-		":SLOT-DEFAULTS"
-		":TO"
 		"http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"
-		":SYSTEM-CLASS"
+		":TO"
+		":SLOT-DEFAULTS"
 		"http://www.w3.org/2002/07/owl#minCardinality"
+		":SYSTEM-CLASS"
 		":SLOT-MAXIMUM-CARDINALITY"
 		":DEFAULTS"
 		"http://www.w3.org/2001/XMLSchema#gDay"
 		"http://www.w3.org/2003/11/swrl#argument2"
 		"http://www.w3.org/2003/11/swrl#argument1"
-		":FACET"
 		"http://www.w3.org/2002/07/owl#allValuesFrom"
+		":FACET"
 		":INVERSE"
-		":SLOT-VALUES"
-		"http://www.w3.org/2002/07/owl#intersectionOf"
-		"http://www.w3.org/2002/07/owl#priorVersion"
 		"http://www.w3.org/2003/11/swrl#DataRangeAtom"
+		"http://www.w3.org/2002/07/owl#priorVersion"
+		"http://www.w3.org/2002/07/owl#intersectionOf"
+		":SLOT-VALUES"
 		"http://www.w3.org/2001/XMLSchema#token"
 		"http://www.w3.org/2002/07/owl#Nothing"
 		"http://www.w3.org/2002/07/owl#hasValue")

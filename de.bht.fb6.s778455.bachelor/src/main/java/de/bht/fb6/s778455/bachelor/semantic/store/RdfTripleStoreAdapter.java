@@ -4,11 +4,16 @@
 package de.bht.fb6.s778455.bachelor.semantic.store;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.query.Dataset;
 import com.hp.hpl.jena.query.ReadWrite;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
+
+import de.bht.fb6.s778455.bachelor.organization.Application;
+import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 
 /**
  * <p>This class realizes the adapter to access the RdfTripleStore from the Jena library.</p>
@@ -37,8 +42,8 @@ public class RdfTripleStoreAdapter {
      * @param jenaStore
      */
     protected void initialize( final Dataset jenaStore, final File ontologyFile ) {
-        if ( null == jenaStore || null == ontologyFile ) {
-            throw new IllegalArgumentException( "Null values are not allowed for arguments!" );
+        if ( null == jenaStore || null == ontologyFile || ! ontologyFile.exists() ) {
+            throw new IllegalArgumentException( "Null values are not allowed for arguments or the ontology file doesn't exist!" );
         }
         
         this.jenaStore = jenaStore;        
@@ -66,7 +71,12 @@ public class RdfTripleStoreAdapter {
         if ( null == this.ontologyModel ) {     
             // create default ontology model: OWL full language, in-memory storage, RDFS inference
             this.ontologyModel = ModelFactory.createOntologyModel();
-            this.ontologyModel.read( this.ontologyFile.getAbsolutePath() );
+            try {
+                final FileInputStream fIn = new FileInputStream( this.ontologyFile );
+                this.ontologyModel.read( fIn, "http://saschafeldmann.de/bachelor/ontology" );             
+            } catch( final FileNotFoundException e ) {
+                Application.log( "Ontology file not found: " + this.ontologyFile, LogType.CRITICAL, this.getClass() );
+            }           
         }
         
         return this.ontologyModel;
