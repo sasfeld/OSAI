@@ -3,6 +3,7 @@
  */
 package de.bht.fb6.s778455.bachelor.semantic.organization.service;
 
+import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -26,6 +27,7 @@ public class ServiceFactory {
 	private static Map< String, String > namespacesMap;
 	private static Dataset jenaStore;
 	private static RdfTripleStoreAdapter jenaAdapter;
+    private static File ontologyFile;
 
 	/**
 	 * Return the config Reader for the semantics module.
@@ -62,8 +64,12 @@ public class ServiceFactory {
 	        // the factory will either create a bare dataset if the configured folder is empty or join the existing triples
 	        jenaStore = TDBFactory.createDataset( getConfigReader().fetchValue( IConfigKeys.SEMANTICS_STORE_DATASET ) );
 	    }
+	    if ( null == ontologyFile ) {
+	        ontologyFile = new File( getConfigReader().fetchValue( IConfigKeys.SEMANTICS_STORE_ONTOLOGY_FILE ) );
+	    }
+	    
 	    if ( null == jenaAdapter ) {
-	        jenaAdapter = new RdfTripleStoreAdapter(jenaStore);
+	        jenaAdapter = new RdfTripleStoreAdapter(jenaStore, ontologyFile);
 	    }	    
 	    
 	    
