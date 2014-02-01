@@ -4,6 +4,7 @@
 package de.bht.fb6.s778455.bachelor.test.semantic.store;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import java.io.File;
 import java.lang.reflect.Field;
@@ -11,14 +12,22 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Set;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.hp.hpl.jena.datatypes.xsd.XSDDatatype;
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.query.Dataset;
 import com.hp.hpl.jena.rdf.model.Model;
+import com.hp.hpl.jena.rdf.model.Property;
+import com.hp.hpl.jena.rdf.model.RDFNode;
+import com.hp.hpl.jena.rdf.model.Resource;
+import com.hp.hpl.jena.rdf.model.ResourceFactory;
+import com.hp.hpl.jena.rdf.model.Statement;
+import com.hp.hpl.jena.rdf.model.impl.StatementImpl;
 import com.hp.hpl.jena.tdb.TDBFactory;
 
 import de.bht.fb6.s778455.bachelor.semantic.organization.service.ServiceFactory;
@@ -83,7 +92,7 @@ public class RdfTripleStoreAdapterTest extends LoggingAwareTest {
     public void testIncrementVersion() throws NoSuchMethodException, SecurityException, NoSuchFieldException, IllegalArgumentException, IllegalAccessException, InvocationTargetException {
         // get reflection method
         final Method method = RdfTripleStoreAdapter.class
-                .getDeclaredMethod( "incrementVersion");
+                .getDeclaredMethod( "incrementVersion", Boolean.class);
         method.setAccessible( true );
         
         // inject some value
@@ -92,17 +101,50 @@ public class RdfTripleStoreAdapterTest extends LoggingAwareTest {
         f.set( this.adapter, "V_30_01_2014_1" );
         
         // Check values        
-        String result = ( String ) method.invoke( this.adapter );
+        String result = ( String ) method.invoke( this.adapter, false );
         String expected = "V_" + new SimpleDateFormat( "dd_MM_yyyy" ).format( new Date() ) + "_2";
         
         assertEquals( expected, result );
         
-        result = ( String ) method.invoke( this.adapter );
+        result = ( String ) method.invoke( this.adapter, false );
         expected = "V_" + new SimpleDateFormat( "dd_MM_yyyy" ).format( new Date() ) + "_3";
         
-        assertEquals( expected, result );       
+        assertEquals( expected, result );
+    }
+    
+    @Test
+    public void testReleaseModel() {
+        final OntModel ontModel = this.adapter.getPureOntologyModel();
         
+        assertTrue( null != ontModel );
         
+        final Resource subject = ResourceFactory.createResource( "http://example.org/test" );
+        final Property predicate = ResourceFactory.createProperty( "http://example.org/hasAge" );
+        final RDFNode object = ResourceFactory.createTypedLiteral( "10", XSDDatatype.XSDinteger );
+        
+        // add some triples
+        final Statement s = new StatementImpl( subject, predicate, object );
+        ontModel.add( s );
+        
+        // release model
+        final String oldVersion = this.adapter.getCurrentVersion();
+        this.adapter.releaseModel( ontModel, false );
+        
+        // assert another version now
+        assertTrue(  !oldVersion.equals( this.adapter.getCurrentVersion() ) );
+        
+        // assert triple
+        this.adapter.setWorkingVersion( this.adapter.getCurrentVersion() );
+        final Set< Statement > statements = this.adapter.getStatements();
+        
+        boolean statementContained = false;
+        for( final Statement statement : statements ) {
+            if ( statement.equals( s ) ) {
+                statementContained = true;
+            }
+        }
+        
+        assertTrue( statementContained );        
     }
 
     /**

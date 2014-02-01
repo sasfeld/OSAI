@@ -7,9 +7,13 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Set;
 
+import com.hp.hpl.jena.datatypes.xsd.XSDDatatype;
 import com.hp.hpl.jena.ontology.DatatypeProperty;
 import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.ObjectProperty;
@@ -19,6 +23,12 @@ import com.hp.hpl.jena.query.Dataset;
 import com.hp.hpl.jena.query.ReadWrite;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
+import com.hp.hpl.jena.rdf.model.NodeIterator;
+import com.hp.hpl.jena.rdf.model.Property;
+import com.hp.hpl.jena.rdf.model.RDFNode;
+import com.hp.hpl.jena.rdf.model.Resource;
+import com.hp.hpl.jena.rdf.model.ResourceFactory;
+import com.hp.hpl.jena.rdf.model.Statement;
 import com.hp.hpl.jena.util.iterator.ExtendedIterator;
 
 import de.bht.fb6.s778455.bachelor.organization.Application;
@@ -35,7 +45,9 @@ import de.bht.fb6.s778455.bachelor.organization.CollectionUtil;
  * @since 25.01.2014
  * 
  */
-public class RdfTripleStoreAdapter {
+public class RdfTripleStoreAdapter implements IUniqueProperties,
+        IUniqueResources {
+    protected static final String STARTING_VERSION = "Initial version";
     protected Dataset jenaStore;
     protected boolean inTransaction;
     protected boolean wasCommited;
@@ -43,12 +55,18 @@ public class RdfTripleStoreAdapter {
     protected OntModel ontologyModel;
     protected File ontologyFile;
     protected String ontologyBaseUri;
+
+    /**
+     * The version to work with. The name of the named graph.
+     */
+    protected String workingVersion;
     /**
      * The current version of the dataset. The different graphes are accessible
      * by the name of the version (NamedGraphes). The current version will be
      * stored in the default model. Format: Vdd_mm_YYYY_incrementNumber
      */
     protected String currentVersion;
+    private List< String > errors;
 
     /**
      * Create the adapter which access the given {@link Dataset} from the Jena
@@ -78,6 +96,90 @@ public class RdfTripleStoreAdapter {
         this.lastMode = null;
         this.ontologyFile = ontologyFile;
         this.ontologyBaseUri = ontologyBaseUri;
+        this.errors = new ArrayList<>();
+        this.loadCurrentVersion();
+    }
+
+    /**
+     * Load the current version contained in the default model.
+     */
+    protected void loadCurrentVersion() {
+        this.beginTransaction( ReadWrite.READ );
+        final Model defaultM = this.jenaStore.getDefaultModel();
+
+        // does default model contain the version resource and property?
+        final Resource resource = ResourceFactory.createResource( OWL_ONTOLOGY );
+        final Property property = ResourceFactory.createProperty( VERSION );
+
+        if( defaultM.contains( resource, property ) ) {
+            final NodeIterator it = defaultM.listObjectsOfProperty( resource,
+                    property );
+
+            final Set< RDFNode > nodesToRemove = CollectionUtil
+                    .buildSetFromIterator( it );
+
+            // iteratore through
+            for( final RDFNode nodeToRemove : nodesToRemove ) {
+                // set current version
+                this.currentVersion = nodeToRemove.asLiteral().getLexicalForm();
+            }
+        } else { // set starting version
+            this.currentVersion = STARTING_VERSION;
+        }
+
+        this.endTransaction( false );
+    }
+
+    protected void deleteCurrentVersion() {
+        this.beginTransaction( ReadWrite.WRITE );
+        final Model defaultM = this.jenaStore.getDefaultModel();
+
+        // does default model contain the version resource and property?
+        final Resource resource = ResourceFactory.createResource( OWL_ONTOLOGY );
+        final Property property = ResourceFactory.createProperty( VERSION );
+
+        if( defaultM.contains( resource, property ) ) {
+            final NodeIterator it = defaultM.listObjectsOfProperty( resource,
+                    property );
+
+            final Set< RDFNode > nodesToRemove = CollectionUtil
+                    .buildSetFromIterator( it );
+
+            // remove old version triples
+            for( final RDFNode nodeToRemove : nodesToRemove ) {
+                final Statement stmToRemove = ResourceFactory.createStatement(
+                        resource, property, nodeToRemove );
+
+                if( !defaultM.contains( stmToRemove ) ) {
+                    // add to internal error list
+                    this.addError( "Version statement doesn't exist in default model, but it should exist: "
+                            + stmToRemove );
+                } else {
+                    defaultM.remove( stmToRemove );
+                }
+            }
+        } else {
+            this.addError( "No version statement exists in the default model." );
+        }
+        this.commitTransaction();
+        this.endTransaction( false );
+    }
+
+    protected void addError( final String errorMsg ) {
+        this.errors.add( errorMsg );
+    }
+
+    /**
+     * Get the current error messages. This will flush the error list.
+     * 
+     * @return
+     */
+    public List< String > getErrors() {
+        // copy list
+        final List< String > errors = new ArrayList<>( this.errors );
+
+        this.errors.clear();
+        return errors;
     }
 
     /**
@@ -91,8 +193,48 @@ public class RdfTripleStoreAdapter {
         try {
 
         } finally {
-            this.endTransaction();
+            this.endTransaction( false );
         }
+    }
+
+    /**
+     * @return the workingVersion
+     */
+    public final String getWorkingVersion() {
+        return this.workingVersion;
+    }
+
+    /**
+     * Set the version to work with. This means, all operation done here will be
+     * performed on the named model belonging to the given version.
+     * 
+     * @param workingVersion
+     *            the workingVersion to set
+     */
+    public final void setWorkingVersion( final String workingVersion ) {
+        if( null == workingVersion ) {
+            throw new IllegalArgumentException(
+                    "Null is not allowed as workingVersion!" );
+        }
+        if( !this.hasVersion( workingVersion ) ) {
+            throw new IllegalArgumentException(
+                    "A graph for the given version doesn't exist!" );
+        }
+
+        this.workingVersion = workingVersion;
+    }
+
+    /**
+     * Check if the jena store has a graph for the given version.
+     * 
+     * @param version
+     * @return
+     */
+    public boolean hasVersion( final String version ) {
+        this.beginTransaction( ReadWrite.READ );
+        final boolean exists = null != this.jenaStore.getNamedModel( version );
+        this.endTransaction( false );
+        return exists;
     }
 
     /**
@@ -100,7 +242,7 @@ public class RdfTripleStoreAdapter {
      * the {@link OntModel} only contains the coneptualization and is not filled
      * with instances.
      */
-    protected OntModel getPureOntologyModel() {
+    public OntModel getPureOntologyModel() {
         if( null == this.ontologyModel ) {
             // create default ontology model: OWL full language, in-memory
             // storage, RDFS inference
@@ -136,13 +278,14 @@ public class RdfTripleStoreAdapter {
 
     /**
      * End the last transaction.
+     * @param ignoreCommit set to true if you want to supress an illegal state exception caused by a missing commit.
      */
-    protected void endTransaction() {
+    protected void endTransaction( final boolean ignoreCommit ) {
         if( !this.inTransaction ) {
             throw new IllegalStateException( "There's no active transaction!" );
         }
-        if( null != this.lastMode && ReadWrite.WRITE == this.lastMode
-                && ( !this.wasCommited ) ) {
+        if( !ignoreCommit && (null != this.lastMode && ReadWrite.WRITE == this.lastMode
+                && ( !this.wasCommited ) ) ) {
             throw new IllegalStateException(
                     "The transaction was ended without commit!" );
         }
@@ -150,6 +293,7 @@ public class RdfTripleStoreAdapter {
         this.jenaStore.end();
         this.inTransaction = false;
         this.lastMode = null;
+        this.wasCommited = false;
     }
 
     /**
@@ -173,22 +317,31 @@ public class RdfTripleStoreAdapter {
      * returned version {@link String} will be added to this TDB.
      * 
      * @param newModel
-     * @return String the version (name of the named graph to which the given model was added)
+     * @param integrateOntology
+     *            boolean whether the model shall be added to the pure ontology
+     * @return String the version (name of the named graph to which the given
+     *         model was added)
      */
-    public String releaseModel( final Model newModel ) {
-        this.beginTransaction( ReadWrite.WRITE );
+    public String releaseModel( final Model newModel,
+            final boolean integrateOntology ) {
+        final String incrementVersion = this.incrementVersion( true );
 
+        this.beginTransaction( ReadWrite.WRITE );
         // add newModel to ontModel
-        final OntModel ontModel = this.getPureOntologyModel();
-        ontModel.add( newModel );
-        // now add ontologyModel to new named
-        this.jenaStore.addNamedModel( this.incrementVersion(), ontModel );
+        if( integrateOntology ) {
+            final OntModel ontModel = this.getPureOntologyModel();
+            ontModel.add( newModel );
+            // now add ontologyModel to new named
+            this.jenaStore.addNamedModel( incrementVersion, ontModel );
+        } else {
+            this.jenaStore.addNamedModel( incrementVersion, newModel );
+        }
 
         // commit the transaction
         this.commitTransaction();
 
-        this.endTransaction();
-        
+        this.endTransaction( false );
+
         return this.getCurrentVersion();
     }
 
@@ -197,7 +350,7 @@ public class RdfTripleStoreAdapter {
      * 
      * @return
      */
-    protected String incrementVersion() {
+    protected String incrementVersion( final Boolean setInGraph ) {
         final Date d = new Date();
         String completeNo = "V_"
                 + new SimpleDateFormat( "dd_MM_yyyy" ).format( d );
@@ -218,7 +371,36 @@ public class RdfTripleStoreAdapter {
         completeNo += "_" + incrementNo;
 
         this.currentVersion = completeNo;
+
+        if( setInGraph ) {
+            // set current version in default graph
+            this.setCurrentVersionInGraph();
+        }
+
         return completeNo;
+    }
+
+    /**
+     * Set the current version on the dataset.
+     */
+    protected void setCurrentVersionInGraph() {
+        this.beginTransaction( ReadWrite.WRITE );
+        final Model defaultModel = this.jenaStore.getDefaultModel();              
+        this.endTransaction( true );
+      
+        // delete old version
+        this.deleteCurrentVersion();
+
+        final Statement versionStatement = ResourceFactory.createStatement(
+                ResourceFactory.createResource( OWL_ONTOLOGY ), ResourceFactory
+                        .createProperty( VERSION ), ResourceFactory
+                        .createTypedLiteral( this.currentVersion,
+                                XSDDatatype.XSDstring ) );
+
+        this.beginTransaction( ReadWrite.WRITE );
+        defaultModel.add( versionStatement );
+        this.commitTransaction();
+        this.endTransaction( false );
     }
 
     public String showOntologyTriples() {
@@ -290,9 +472,32 @@ public class RdfTripleStoreAdapter {
     /**
      * Get the current (latest) version of the graph in this TDB / jena store.
      * You can use it to get the named graph containing the tripels.
+     * 
      * @return
      */
     public String getCurrentVersion() {
         return this.currentVersion;
+    }
+
+    /**
+     * Get the set of statements.
+     * 
+     * @return
+     */
+    public Set< Statement > getStatements() {
+        if( null == this.workingVersion ) {
+            throw new IllegalStateException(
+                    "You need to set a working version before calling this method!" );
+        }
+        
+        this.beginTransaction( ReadWrite.READ );
+        try {
+            final Iterator< Statement > it = this.jenaStore.getNamedModel(
+                    this.workingVersion ).listStatements();
+            final Set< Statement > set = CollectionUtil.buildSetFromIterator( it ); 
+            return set;
+        } finally {
+            this.endTransaction( false );
+        }        
     }
 }
