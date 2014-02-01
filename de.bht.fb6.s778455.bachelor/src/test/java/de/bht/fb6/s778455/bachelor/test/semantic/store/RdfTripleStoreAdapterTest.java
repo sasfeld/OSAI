@@ -138,7 +138,7 @@ public class RdfTripleStoreAdapterTest extends LoggingAwareTest {
         final Set< Statement > statements = this.adapter.getStatements();
         
         boolean statementContained = false;
-        for( final Statement statement : statements ) {
+        for( final Statement statement : statements ) {           
             if ( statement.equals( s ) ) {
                 statementContained = true;
             }
