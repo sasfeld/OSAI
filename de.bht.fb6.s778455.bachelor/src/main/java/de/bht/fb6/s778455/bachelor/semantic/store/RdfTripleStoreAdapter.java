@@ -21,6 +21,7 @@ import com.hp.hpl.jena.ontology.OntClass;
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.query.Dataset;
 import com.hp.hpl.jena.query.ReadWrite;
+import com.hp.hpl.jena.rdf.model.Literal;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.NodeIterator;
@@ -46,7 +47,7 @@ import de.bht.fb6.s778455.bachelor.organization.CollectionUtil;
  * 
  */
 public class RdfTripleStoreAdapter implements IUniqueProperties,
-        IUniqueResources {
+        IUniqueResources, IUniqueGraphNames {
     protected static final String STARTING_VERSION = "Initial version";
     protected Dataset jenaStore;
     protected boolean inTransaction;
@@ -105,64 +106,87 @@ public class RdfTripleStoreAdapter implements IUniqueProperties,
      */
     protected void loadCurrentVersion() {
         this.beginTransaction( ReadWrite.READ );
-        final Model defaultM = this.jenaStore.getDefaultModel();
 
-        // does default model contain the version resource and property?
-        final Resource resource = ResourceFactory.createResource( OWL_ONTOLOGY );
-        final Property property = ResourceFactory.createProperty( VERSION );
+        try {
+            if( !this.jenaStore.containsNamedModel( NAME_INFO_GRAPH ) ) {
+                this.currentVersion = STARTING_VERSION;
+            } else {
+                final Model infoM = this.jenaStore
+                        .getNamedModel( NAME_INFO_GRAPH );
 
-        if( defaultM.contains( resource, property ) ) {
-            final NodeIterator it = defaultM.listObjectsOfProperty( resource,
-                    property );
+                // does default model contain the version resource and property?
+                final Resource resource = ResourceFactory
+                        .createResource( OWL_ONTOLOGY );
+                final Property property = ResourceFactory
+                        .createProperty( VERSION );
 
-            final Set< RDFNode > nodesToRemove = CollectionUtil
-                    .buildSetFromIterator( it );
+                if( infoM.contains( resource, property ) ) {
+                    final NodeIterator it = infoM.listObjectsOfProperty(
+                            resource, property );
 
-            // iteratore through
-            for( final RDFNode nodeToRemove : nodesToRemove ) {
-                // set current version
-                this.currentVersion = nodeToRemove.asLiteral().getLexicalForm();
+                    final Set< RDFNode > nodesToRemove = CollectionUtil
+                            .buildSetFromIterator( it );
+
+                    // iteratore through
+                    for( final RDFNode nodeToRemove : nodesToRemove ) {
+                        // set current version
+                        this.currentVersion = nodeToRemove.asLiteral()
+                                .getLexicalForm();
+                    }
+                } else { // set starting version
+                    this.currentVersion = STARTING_VERSION;
+                }
             }
-        } else { // set starting version
-            this.currentVersion = STARTING_VERSION;
+        } finally {
+            this.endTransaction( false );
         }
-
-        this.endTransaction( false );
     }
 
     protected void deleteCurrentVersion() {
         this.beginTransaction( ReadWrite.WRITE );
-        final Model defaultM = this.jenaStore.getDefaultModel();
 
-        // does default model contain the version resource and property?
-        final Resource resource = ResourceFactory.createResource( OWL_ONTOLOGY );
-        final Property property = ResourceFactory.createProperty( VERSION );
+        try {
+            if( this.jenaStore.containsNamedModel( NAME_INFO_GRAPH ) ) {
+                final Model defaultM = this.jenaStore
+                        .getNamedModel( NAME_INFO_GRAPH );
 
-        if( defaultM.contains( resource, property ) ) {
-            final NodeIterator it = defaultM.listObjectsOfProperty( resource,
-                    property );
+                // does default model contain the version resource and property?
+                final Resource resource = ResourceFactory
+                        .createResource( OWL_ONTOLOGY );
+                final Property property = ResourceFactory
+                        .createProperty( VERSION );
 
-            final Set< RDFNode > nodesToRemove = CollectionUtil
-                    .buildSetFromIterator( it );
+                if( defaultM.contains( resource, property ) ) {
+                    final NodeIterator it = defaultM.listObjectsOfProperty(
+                            resource, property );
 
-            // remove old version triples
-            for( final RDFNode nodeToRemove : nodesToRemove ) {
-                final Statement stmToRemove = ResourceFactory.createStatement(
-                        resource, property, nodeToRemove );
+                    final Set< RDFNode > nodesToRemove = CollectionUtil
+                            .buildSetFromIterator( it );
 
-                if( !defaultM.contains( stmToRemove ) ) {
-                    // add to internal error list
-                    this.addError( "Version statement doesn't exist in default model, but it should exist: "
-                            + stmToRemove );
+                    // remove old version triples
+                    for( final RDFNode nodeToRemove : nodesToRemove ) {
+                        final Statement stmToRemove = ResourceFactory
+                                .createStatement( resource, property,
+                                        nodeToRemove );
+
+                        if( !defaultM.contains( stmToRemove ) ) {
+                            // add to internal error list
+                            this.addError( "Version statement doesn't exist in default model, but it should exist: "
+                                    + stmToRemove );
+                        } else {
+                            defaultM.remove( stmToRemove );
+                        }
+                    }
                 } else {
-                    defaultM.remove( stmToRemove );
+                    this.addError( "No version statement exists in the info model." );
                 }
+            } else {
+                this.addError( "No info graph exists." );
             }
-        } else {
-            this.addError( "No version statement exists in the default model." );
+            this.commitTransaction();
+        } finally {
+            this.endTransaction( false );
         }
-        this.commitTransaction();
-        this.endTransaction( false );
     }
 
     protected void addError( final String errorMsg ) {
@@ -232,9 +256,14 @@ public class RdfTripleStoreAdapter implements IUniqueProperties,
      */
     public boolean hasVersion( final String version ) {
         this.beginTransaction( ReadWrite.READ );
-        final boolean exists = null != this.jenaStore.getNamedModel( version );
-        this.endTransaction( false );
-        return exists;
+
+        try {
+            final boolean exists = null != this.jenaStore
+                    .getNamedModel( version );
+            return exists;
+        } finally {
+            this.endTransaction( false );
+        }
     }
 
     /**
@@ -278,14 +307,17 @@ public class RdfTripleStoreAdapter implements IUniqueProperties,
 
     /**
      * End the last transaction.
-     * @param ignoreCommit set to true if you want to supress an illegal state exception caused by a missing commit.
+     * 
+     * @param ignoreCommit
+     *            set to true if you want to supress an illegal state exception
+     *            caused by a missing commit.
      */
     protected void endTransaction( final boolean ignoreCommit ) {
         if( !this.inTransaction ) {
             throw new IllegalStateException( "There's no active transaction!" );
         }
-        if( !ignoreCommit && (null != this.lastMode && ReadWrite.WRITE == this.lastMode
-                && ( !this.wasCommited ) ) ) {
+        if( !ignoreCommit
+                && ( null != this.lastMode && ReadWrite.WRITE == this.lastMode && ( !this.wasCommited ) ) ) {
             throw new IllegalStateException(
                     "The transaction was ended without commit!" );
         }
@@ -321,43 +353,51 @@ public class RdfTripleStoreAdapter implements IUniqueProperties,
      *            boolean whether the model shall be added to the pure ontology
      * @return String the version (name of the named graph to which the given
      *         model was added)
+     * @throws Exception
      */
     public String releaseModel( final Model newModel,
-            final boolean integrateOntology ) {
+            final boolean integrateOntology ) throws RdfTripleStoreException {
         final String incrementVersion = this.incrementVersion( true );
 
         this.beginTransaction( ReadWrite.WRITE );
-        // add newModel to ontModel
-        if( integrateOntology ) {
-            final OntModel ontModel = this.getPureOntologyModel();
-            ontModel.add( newModel );
-            // now add ontologyModel to new named
-            this.jenaStore.addNamedModel( incrementVersion, ontModel );
-        } else {
-            this.jenaStore.addNamedModel( incrementVersion, newModel );
+        try {
+            // add newModel to ontModel
+            if( integrateOntology ) {
+                final OntModel ontModel = this.getPureOntologyModel();
+                ontModel.add( newModel );
+                // now add ontologyModel to new named
+                this.jenaStore.addNamedModel( incrementVersion, ontModel );
+            } else {
+                this.jenaStore.addNamedModel( incrementVersion, newModel );
+            }
+
+            // commit the transaction
+            this.commitTransaction();
+            return this.getCurrentVersion();
+        } catch ( final Exception e ) {
+            throw new RdfTripleStoreException( e );
+        }    
+        finally {        
+            this.endTransaction( true );
         }
-
-        // commit the transaction
-        this.commitTransaction();
-
-        this.endTransaction( false );
-
-        return this.getCurrentVersion();
     }
 
     /**
      * Increment the current version string.
      * 
      * @return
+     * @throws Exception
      */
-    protected String incrementVersion( final Boolean setInGraph ) {
+    protected String incrementVersion( final Boolean setInGraph )
+            throws RdfTripleStoreException {
         final Date d = new Date();
         String completeNo = "V_"
                 + new SimpleDateFormat( "dd_MM_yyyy" ).format( d );
         int incrementNo = 0;
 
         // initial version
-        if( null != this.currentVersion
+        if( !STARTING_VERSION.equals( this.currentVersion )
+                && null != this.currentVersion
                 && 0 != this.currentVersion.trim().length() ) {
             final String[] spl = this.currentVersion.split( "_" );
 
@@ -382,12 +422,10 @@ public class RdfTripleStoreAdapter implements IUniqueProperties,
 
     /**
      * Set the current version on the dataset.
+     * 
+     * @throws Exception
      */
-    protected void setCurrentVersionInGraph() {
-        this.beginTransaction( ReadWrite.WRITE );
-        final Model defaultModel = this.jenaStore.getDefaultModel();              
-        this.endTransaction( true );
-      
+    protected void setCurrentVersionInGraph() throws RdfTripleStoreException {
         // delete old version
         this.deleteCurrentVersion();
 
@@ -396,11 +434,33 @@ public class RdfTripleStoreAdapter implements IUniqueProperties,
                         .createProperty( VERSION ), ResourceFactory
                         .createTypedLiteral( this.currentVersion,
                                 XSDDatatype.XSDstring ) );
+        final Resource r = ResourceFactory.createResource( OWL_ONTOLOGY );
+        final Property p = ResourceFactory.createProperty(
+                "http://saschafeldmann.de/bachelor/ontology/", VERSION );
+        final Literal l = ResourceFactory.createTypedLiteral(
+                this.currentVersion, XSDDatatype.XSDstring );
 
+        // if an info model doesn't exist yet, create one
         this.beginTransaction( ReadWrite.WRITE );
-        defaultModel.add( versionStatement );
-        this.commitTransaction();
-        this.endTransaction( false );
+        try {
+            Model m = null;
+            if( !this.jenaStore.containsNamedModel( NAME_INFO_GRAPH ) ) {
+                final Model defaultM = ModelFactory.createDefaultModel();
+                this.jenaStore.addNamedModel( NAME_INFO_GRAPH,
+                        defaultM );
+                m = defaultM;               
+            } else {
+                m =  this.jenaStore
+                        .getNamedModel( NAME_INFO_GRAPH );
+            }
+            
+            m.addLiteral( r, p, l );
+            this.commitTransaction();
+        } catch( final Exception e ) {
+            throw new RdfTripleStoreException( e );
+        } finally {
+            this.endTransaction( true );
+        }   
     }
 
     public String showOntologyTriples() {
@@ -489,15 +549,44 @@ public class RdfTripleStoreAdapter implements IUniqueProperties,
             throw new IllegalStateException(
                     "You need to set a working version before calling this method!" );
         }
-        
+
         this.beginTransaction( ReadWrite.READ );
         try {
             final Iterator< Statement > it = this.jenaStore.getNamedModel(
                     this.workingVersion ).listStatements();
-            final Set< Statement > set = CollectionUtil.buildSetFromIterator( it ); 
+            final Set< Statement > set = CollectionUtil
+                    .buildSetFromIterator( it );
             return set;
         } finally {
             this.endTransaction( false );
-        }        
+        }
+    }
+
+    /**
+     * Get all available versions (graph names). The related SparQL is the
+     * following:
+     * 
+     * <pre>
+     *  SELECT DISTINCT ?g
+     *             WHERE {
+     *               GRAPH ?g {
+     *                 ?s ?p ?o
+     *               }
+     *         }
+     * </pre>
+     * 
+     * @return
+     */
+    public Set< String > getAvailableVersions() {
+        this.beginTransaction( ReadWrite.READ );
+
+        try {
+            final Iterator< String > it = this.jenaStore.listNames();
+            final Set< String > set = CollectionUtil.buildSetFromIterator( it );
+            return set;
+        } finally {
+            this.endTransaction( false );
+        }
+
     }
 }

@@ -11,5 +11,5 @@ package de.bht.fb6.s778455.bachelor.semantic.store;
  *
  */
 public interface IUniqueResources {
-    String OWL_ONTOLOGY = "owl:Ontology";
+    String OWL_ONTOLOGY = "http://myownmodel.someurl";
 }

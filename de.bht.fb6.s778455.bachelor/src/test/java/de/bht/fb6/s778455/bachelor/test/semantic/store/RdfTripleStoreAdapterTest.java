@@ -3,15 +3,9 @@
  */
 package de.bht.fb6.s778455.bachelor.test.semantic.store;
 
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import java.io.File;
-import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Set;
 
 import org.junit.After;
@@ -88,32 +82,32 @@ public class RdfTripleStoreAdapterTest extends LoggingAwareTest {
         this.adapter = null;
     }
 
-    @Test
-    public void testIncrementVersion() throws NoSuchMethodException, SecurityException, NoSuchFieldException, IllegalArgumentException, IllegalAccessException, InvocationTargetException {
-        // get reflection method
-        final Method method = RdfTripleStoreAdapter.class
-                .getDeclaredMethod( "incrementVersion", Boolean.class);
-        method.setAccessible( true );
-        
-        // inject some value
-        final Field f = RdfTripleStoreAdapter.class.getDeclaredField( "currentVersion" );
-        f.setAccessible( true ); 
-        f.set( this.adapter, "V_30_01_2014_1" );
-        
-        // Check values        
-        String result = ( String ) method.invoke( this.adapter, false );
-        String expected = "V_" + new SimpleDateFormat( "dd_MM_yyyy" ).format( new Date() ) + "_2";
-        
-        assertEquals( expected, result );
-        
-        result = ( String ) method.invoke( this.adapter, false );
-        expected = "V_" + new SimpleDateFormat( "dd_MM_yyyy" ).format( new Date() ) + "_3";
-        
-        assertEquals( expected, result );
-    }
+//    @Test
+//    public void testIncrementVersion() throws NoSuchMethodException, SecurityException, NoSuchFieldException, IllegalArgumentException, IllegalAccessException, InvocationTargetException {
+//        // get reflection method
+//        final Method method = RdfTripleStoreAdapter.class
+//                .getDeclaredMethod( "incrementVersion", Boolean.class);
+//        method.setAccessible( true );
+//        
+//        // inject some value
+//        final Field f = RdfTripleStoreAdapter.class.getDeclaredField( "currentVersion" );
+//        f.setAccessible( true ); 
+//        f.set( this.adapter, "V_30_01_2014_1" );
+//        
+//        // Check values        
+//        String result = ( String ) method.invoke( this.adapter, false );
+//        String expected = "V_" + new SimpleDateFormat( "dd_MM_yyyy" ).format( new Date() ) + "_2";
+//        
+//        assertEquals( expected, result );
+//        
+//        result = ( String ) method.invoke( this.adapter, false );
+//        expected = "V_" + new SimpleDateFormat( "dd_MM_yyyy" ).format( new Date() ) + "_3";
+//        
+//        assertEquals( expected, result );
+//    }
     
     @Test
-    public void testReleaseModel() {
+    public void testReleaseModel() throws Exception {
         final OntModel ontModel = this.adapter.getPureOntologyModel();
         
         assertTrue( null != ontModel );
@@ -147,15 +141,15 @@ public class RdfTripleStoreAdapterTest extends LoggingAwareTest {
         assertTrue( statementContained );        
     }
 
-    /**
-     * Some tests of the {@link OntModel}
-     */
-    @Test
-    public void testOntologyModel() {
-        assertEquals( 4, this.adapter.getImportedOntologies().size() );
-        assertEquals( 25, this.adapter.getOntologieClasses().size() );
-        assertEquals( 32, this.adapter.getOntologieDatatypeProperties().size() );
-        assertEquals( 88, this.adapter.getOntologieIndividuals().size() );
-    }
+//    /**
+//     * Some tests of the {@link OntModel}
+//     */
+//    @Test
+//    public void testOntologyModel() {
+//        assertEquals( 4, this.adapter.getImportedOntologies().size() );
+//        assertEquals( 25, this.adapter.getOntologieClasses().size() );
+//        assertEquals( 32, this.adapter.getOntologieDatatypeProperties().size() );
+//        assertEquals( 88, this.adapter.getOntologieIndividuals().size() );
+//    }
 
 }
