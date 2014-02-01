@@ -11,5 +11,7 @@ package de.bht.fb6.s778455.bachelor.semantic.store;
  *
  */
 public interface IUniqueResources {
-    String OWL_ONTOLOGY = "http://myownmodel.someurl";
+    String BASE_URI = "http://saschafeldmann.de/bachelor/ontology/";
+    
+    String URI_OWL_ONTOLOGY = BASE_URI + "about";
 }

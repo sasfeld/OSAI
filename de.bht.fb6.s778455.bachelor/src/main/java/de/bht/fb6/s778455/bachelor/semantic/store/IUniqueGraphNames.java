@@ -10,5 +10,7 @@ package de.bht.fb6.s778455.bachelor.semantic.store;
  * @since 01.02.2014
  */
 public interface IUniqueGraphNames {
-    String NAME_INFO_GRAPH = "infograph";
+    String BASE_URI = "http://saschafeldmann.de/bachelor/ontology/";
+    
+    String URI_INFO_GRAPH = BASE_URI + "infograph";
 }

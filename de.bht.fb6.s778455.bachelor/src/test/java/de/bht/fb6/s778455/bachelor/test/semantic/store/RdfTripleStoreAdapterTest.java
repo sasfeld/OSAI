@@ -12,7 +12,6 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.hp.hpl.jena.datatypes.xsd.XSDDatatype;
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.query.Dataset;
 import com.hp.hpl.jena.rdf.model.Model;
@@ -50,8 +49,9 @@ public class RdfTripleStoreAdapterTest extends LoggingAwareTest {
     /**
      * Path to the dataset for unit testing.
      */
-    private static final String LOCATION_UNIT_TEST_DS = "./data/semantics/unittest/testdataset";
+    private static final String LOCATION_UNIT_TEST_DS = "C:/jena/unittest";
     protected RdfTripleStoreAdapter adapter;
+    private Dataset jenaStore;
 
     /**
      * As a logging aware test, call the super constructor.
@@ -65,12 +65,12 @@ public class RdfTripleStoreAdapterTest extends LoggingAwareTest {
      */
     @Before
     public void setUp() throws Exception {
-        final Dataset jenaStore = TDBFactory
+        this.jenaStore = TDBFactory
                 .createDataset( LOCATION_UNIT_TEST_DS );
         final File ontologyFile = ServiceFactory.getOntologyFile();
         final String ontologyBaseUri = ServiceFactory.getOntologyBaseUri();
 
-        this.adapter = new RdfTripleStoreAdapter( jenaStore, ontologyFile,
+        this.adapter = new RdfTripleStoreAdapter( this.jenaStore, ontologyFile,
                 ontologyBaseUri );
     }
 
@@ -109,16 +109,21 @@ public class RdfTripleStoreAdapterTest extends LoggingAwareTest {
     @Test
     public void testReleaseModel() throws Exception {
         final OntModel ontModel = this.adapter.getPureOntologyModel();
+//        final Model ontModel = ModelFactory.createDefaultModel();
+       
+        
+//        final OntModel ontModel = ModelFactory.createOntologyModel();
         
         assertTrue( null != ontModel );
         
         final Resource subject = ResourceFactory.createResource( "http://example.org/test" );
-        final Property predicate = ResourceFactory.createProperty( "http://example.org/hasAge" );
-        final RDFNode object = ResourceFactory.createTypedLiteral( "10", XSDDatatype.XSDinteger );
+        final Property predicate = ResourceFactory.createProperty( "http://example.org/", "hasAge" );
+        final RDFNode object = ResourceFactory.createTypedLiteral( "10" );
         
         // add some triples
         final Statement s = new StatementImpl( subject, predicate, object );
-        ontModel.add( s );
+        ontModel.add( s );        
+   
         
         // release model
         final String oldVersion = this.adapter.getCurrentVersion();
@@ -141,6 +146,12 @@ public class RdfTripleStoreAdapterTest extends LoggingAwareTest {
         assertTrue( statementContained );        
     }
 
+//    @Test
+//    public void testSome() {
+//        System.out.println("Versions: ");
+//        System.out.println(this.adapter.getAvailableVersions());
+//    }
+//    
 //    /**
 //     * Some tests of the {@link OntModel}
 //     */
