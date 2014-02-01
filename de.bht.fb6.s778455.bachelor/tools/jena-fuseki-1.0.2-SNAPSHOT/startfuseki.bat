@@ -1,0 +1,1 @@
+fuseki-server --config=./config-tdb-unittest.ttl
