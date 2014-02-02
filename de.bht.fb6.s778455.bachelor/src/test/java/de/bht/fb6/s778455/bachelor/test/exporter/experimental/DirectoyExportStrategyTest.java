@@ -91,7 +91,7 @@ public class DirectoyExportStrategyTest {
 	 */
 	@Test
 	public void testExport() throws GeneralLoggingException {			
-		final Course course = new Course( "Sample course" );
+		final Course course = new Course( "Sample course", new LmsCourseSet( "unit test course set" )  );
 		course.setUrl( "http://test.de" );
 		course.setLanguage( Language.GERMAN );
 		course.addTag( new PosTag( "NN", 0.0, "Beispiel", "beispiel.xad" ), TagType.POS_TAG );
@@ -139,7 +139,7 @@ public class DirectoyExportStrategyTest {
 		
 		course.addBoard( sampleBoard1 );
 		
-		final LmsCourseSet courseSet = new LmsCourseSet();	
+		final LmsCourseSet courseSet = new LmsCourseSet( "unit test lms course");	
 		courseSet.add( course );
 		
 		this.exportStrategy.exportToFile( courseSet, this.testFolder );

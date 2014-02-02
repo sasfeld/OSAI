@@ -16,6 +16,7 @@ import de.bht.fb6.s778455.bachelor.anonymization.strategy.NameCorpusStrategy;
 import de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus.PersonNameType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
@@ -60,7 +61,7 @@ public class NameCorpusStrategyTest {
 
 	@Test
 	public void testAnonymizeText() throws GeneralLoggingException {
-		final Board testBoard = new Board( new Course( "unit test course" ) );
+		final Board testBoard = new Board( new Course( "unit test course", new LmsCourseSet( "unit test course set" )  ) );
 		testBoard.getBelongingCourse().setPersonNameCorpus( this.personNameCorpus );
 
 		System.out.println( this.personNameCorpus );

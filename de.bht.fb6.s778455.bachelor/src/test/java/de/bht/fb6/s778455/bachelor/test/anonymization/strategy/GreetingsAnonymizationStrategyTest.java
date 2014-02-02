@@ -3,7 +3,8 @@
  */
 package de.bht.fb6.s778455.bachelor.test.anonymization.strategy;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import java.util.Set;
 
@@ -16,6 +17,7 @@ import de.bht.fb6.s778455.bachelor.anonymization.strategy.GreetingsAnonymization
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Course.LearnedWordTypes;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 
 /**
@@ -56,7 +58,7 @@ public class GreetingsAnonymizationStrategyTest {
 	 */
 	@Test
 	public void testAnonymizeText() throws GeneralLoggingException {
-		Board testBoard = new Board( new Course( "unit test course" ) );
+		final Board testBoard = new Board( new Course( "unit test course", new LmsCourseSet( "unit test course set" ) ) );
 		
 		/*
 		 * "Gru� XY"
@@ -225,7 +227,7 @@ public class GreetingsAnonymizationStrategyTest {
 		/*
 		 * assert "learned words"
 		 */
-		Set< String > learnedWords = testBoard.getBelongingCourse().getLearnedWords( LearnedWordTypes.PERSON_NAME );
+		final Set< String > learnedWords = testBoard.getBelongingCourse().getLearnedWords( LearnedWordTypes.PERSON_NAME );
 		System.out.println(learnedWords);
 		
 		assertTrue ( null != learnedWords);		

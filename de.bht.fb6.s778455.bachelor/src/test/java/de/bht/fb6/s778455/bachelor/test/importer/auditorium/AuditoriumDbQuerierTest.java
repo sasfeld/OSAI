@@ -3,7 +3,8 @@
  */
 package de.bht.fb6.s778455.bachelor.test.importer.auditorium;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import java.util.Collection;
 import java.util.Map;
@@ -17,6 +18,7 @@ import de.bht.fb6.s778455.bachelor.importer.auditorium.AuditoriumDbQuerier;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 
@@ -51,61 +53,61 @@ public class AuditoriumDbQuerierTest {
 
 	@Test
 	public void testFetchCourses() throws GeneralLoggingException {
-		Map< Integer, Course > fetchedCourses = this.dbQuerier.fetchCourses();
+		final Map< Integer, Course > fetchedCourses = this.dbQuerier.fetchCourses( new LmsCourseSet( "unit test course set" )  );
 
 		assertTrue( null != fetchedCourses );
 
-		int numberFecthedCourses = fetchedCourses.size();
+		final int numberFecthedCourses = fetchedCourses.size();
 		assertTrue( 0 < numberFecthedCourses );
 
 		System.out.println( "Number of fetched courses: "
 				+ numberFecthedCourses );
 
-		Collection< Course > courses = fetchedCourses.values();
-		for( Course course : courses ) {
+		final Collection< Course > courses = fetchedCourses.values();
+		for( final Course course : courses ) {
 			assertTrue( 0 != course.getId() );
 		}
 
 		// test fetchBoards
-		Map< Integer, Board > fetchedBoards = this.dbQuerier
+		final Map< Integer, Board > fetchedBoards = this.dbQuerier
 				.fetchBoards( fetchedCourses );
 
 		assertTrue( null != fetchedBoards );
 
-		int numberFetchedBoards = fetchedBoards.size();
+		final int numberFetchedBoards = fetchedBoards.size();
 		assertTrue( 0 < numberFetchedBoards );
 
 		System.out
 				.println( "Number of fetched boards: " + numberFetchedBoards );
 
-		for( Board board : fetchedBoards.values() ) {
+		for( final Board board : fetchedBoards.values() ) {
 			assertTrue( 0 != board.getId() );
 		}
 
 		// test fetchBoardThreads
-		Map< Integer, BoardThread > fetchedThreads = this.dbQuerier
+		final Map< Integer, BoardThread > fetchedThreads = this.dbQuerier
 				.fetchBoardThreads( fetchedBoards );
 		
 		assertTrue ( null != fetchedThreads );
-		int numberFetchedThreads = fetchedThreads.size();
+		final int numberFetchedThreads = fetchedThreads.size();
 		assertTrue ( 0 < numberFetchedThreads );
 		
 		System.out.println(" Number of fetched threads: " + numberFetchedThreads);
 		
-		for( BoardThread thread: fetchedThreads.values() ) {
+		for( final BoardThread thread: fetchedThreads.values() ) {
 			assertTrue( 0 != thread.getId() );
 		}
 		
 		// test fetchPostings
-		Collection< Posting > fetchedPostings = this.dbQuerier.fetchPostings( fetchedThreads );
+		final Collection< Posting > fetchedPostings = this.dbQuerier.fetchPostings( fetchedThreads );
 		
 		assertTrue( null != fetchedPostings );
-		int numberFetchedPostings = fetchedPostings.size();
+		final int numberFetchedPostings = fetchedPostings.size();
 		assertTrue( 0 < numberFetchedPostings );
 		
 		System.out.println("Number of fetched postings: " + numberFetchedPostings);
 		
-		for( Posting posting : fetchedPostings ) {
+		for( final Posting posting : fetchedPostings ) {
 			assertTrue ( 0 != posting.getId());		
 		}
 	
@@ -117,13 +119,13 @@ public class AuditoriumDbQuerierTest {
 		int numContainedBoards = 0;
 		int numContainedThreads = 0;
 		int numContainedPostings = 0;
-		for( Course fCourse : fetchedCourses.values() ) {
+		for( final Course fCourse : fetchedCourses.values() ) {
 			numContainedBoards += fCourse.getBoards().size();
 			
-			for( Board board : fCourse.getBoards() ) {
+			for( final Board board : fCourse.getBoards() ) {
 				numContainedThreads += board.getBoardThreads().size();
 				
-				for( BoardThread thread : board.getBoardThreads() ) {
+				for( final BoardThread thread : board.getBoardThreads() ) {
 					numContainedPostings += thread.getPostings().size();
 				}
 			}
@@ -143,8 +145,8 @@ public class AuditoriumDbQuerierTest {
 	
 	@Test
 	public void testFetchnames() throws GeneralLoggingException {
-		Set< String > prenames = this.dbQuerier.fetchPrenames();
-		Set< String > lastnames = this.dbQuerier.fetchLastnames();
+		final Set< String > prenames = this.dbQuerier.fetchPrenames();
+		final Set< String > lastnames = this.dbQuerier.fetchLastnames();
 		
 		assertTrue( null != prenames );
 		assertTrue( null != lastnames );

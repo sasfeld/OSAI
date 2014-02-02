@@ -8,6 +8,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
@@ -42,7 +43,7 @@ public class TopicZoomExtractionStrategyTest {
 	@Test
 	public void testExtractSemantics() throws GeneralLoggingException {
 		// create sample posting
-		Posting samplePosting = new Posting();
+		final Posting samplePosting = new Posting();
 		samplePosting.setContent( "Chardonnay ist ein Wein\nAlbert Einstein ist eine Person" );
 		
 		this.strategy.extractSemantics( samplePosting );
@@ -50,7 +51,7 @@ public class TopicZoomExtractionStrategyTest {
 		System.out.println(samplePosting.getTags( TagType.TOPIC_ZOOM ));
 		
 		// create sample course
-		Course newCourse = new Course( "Albert Einstein - Kurs" );
+		final Course newCourse = new Course( "Albert Einstein - Kurs", new LmsCourseSet( "unit test course set" )  );
 		newCourse.setSummary( "Chardonnay ist ein Wein." );
 		
 		this.strategy.extractSemantics( newCourse );
