@@ -5,6 +5,8 @@
 
 package de.bht.fb6.s778455.bachelor.model;
 
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -38,10 +40,10 @@ public class BoardThread extends AUserContribution {
 		final int prime = 31;
 		int result = super.hashCode();
 		result = prime * result
-				+ ( ( endDate == null ) ? 0 : endDate.hashCode() );
-		result = prime * result + firstPostingId;
+				+ ( ( this.endDate == null ) ? 0 : this.endDate.hashCode() );
+		result = prime * result + this.firstPostingId;
 		result = prime * result
-				+ ( ( postings == null ) ? 0 : postings.hashCode() );
+				+ ( ( this.postings == null ) ? 0 : this.postings.hashCode() );
 		return result;
 	}
 
@@ -49,29 +51,29 @@ public class BoardThread extends AUserContribution {
 	 * @see java.lang.Object#equals(java.lang.Object)
 	 */
 	@Override
-	public boolean equals( Object obj ) {
+	public boolean equals( final Object obj ) {
 		if( this == obj )
 			return true;
 		if( !super.equals( obj ) )
 			return false;
-		if( getClass() != obj.getClass() )
+		if( this.getClass() != obj.getClass() )
 			return false;
-		BoardThread other = ( BoardThread ) obj;
-		if( belongingBoard == null ) {
+		final BoardThread other = ( BoardThread ) obj;
+		if( this.belongingBoard == null ) {
 			if( other.belongingBoard != null )
 				return false;
 		} 
-		if( endDate == null ) {
+		if( this.endDate == null ) {
 			if( other.endDate != null )
 				return false;
-		} else if( !endDate.equals( other.endDate ) )
+		} else if( !this.endDate.equals( other.endDate ) )
 			return false;
-		if( firstPostingId != other.firstPostingId )
+		if( this.firstPostingId != other.firstPostingId )
 			return false;
-		if( postings == null ) {
+		if( this.postings == null ) {
 			if( other.postings != null )
 				return false;
-		} else if( !postings.equals( other.postings ) )
+		} else if( !this.postings.equals( other.postings ) )
 			return false;
 		return true;
 	}
@@ -89,8 +91,8 @@ public class BoardThread extends AUserContribution {
 	 * Create a new thread with a link to the parent {@link Board}.
 	 * @param belongingBoard
 	 */
-	public BoardThread( Board belongingBoard ) {
-		super();
+	public BoardThread( final Board belongingBoard ) {
+		super( belongingBoard.getBelongingCourse() );
 		
 		this.belongingBoard = belongingBoard;
 		
@@ -101,7 +103,7 @@ public class BoardThread extends AUserContribution {
 	 * @return the belongingBoard
 	 */
 	public Board getBelongingBoard() {
-		return belongingBoard;
+		return this.belongingBoard;
 	}
 
 	/**
@@ -109,37 +111,50 @@ public class BoardThread extends AUserContribution {
 	 * The Posting will be sorted immediatly.
 	 * @param p
 	 */
-	public void addPosting(Posting p) {
-		Comparator< AUserContribution > dateComparator = new DateComparator();
+	public void addPosting(final Posting p) {
+		final Comparator< AUserContribution > dateComparator = new DateComparator();
 		
-		postings.add( p );
+		this.postings.add( p );
 		// sort ascending
 		Collections.sort( this.postings, dateComparator );
 	}
+	
+	 @Override
+	    /*
+	     * (non-Javadoc)
+	     * 
+	     * @see de.bht.fb6.s778455.bachelor.model.IRdfUsable#getRdfUri()
+	     */
+	    public URI getRdfUri() throws URISyntaxException {
+	        final URI uri = new URI( super.prepareRdfUri() + "boardthread" + "/"
+	                + this.getId() );
+
+	        return uri;
+	    }
 	
 	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
 	 */
 	@Override
 	public String toString() {
-		StringBuilder builder = new StringBuilder();
+		final StringBuilder builder = new StringBuilder();
 		builder.append( "BoardThread [" );
 		builder.append( "getPostings()=" );
-		builder.append( getPostings() );
+		builder.append( this.getPostings() );
 		builder.append( ", getFirstPostingId()=" );
-		builder.append( getFirstPostingId() );
+		builder.append( this.getFirstPostingId() );
 		builder.append( ", getEndDate()=" );
-		builder.append( getEndDate() );
+		builder.append( this.getEndDate() );
 		builder.append( ", exportToTxt()=" );
-		builder.append( exportToTxt() );
+		builder.append( this.exportToTxt() );
 		builder.append( ", getId()=" );
-		builder.append( getId() );
+		builder.append( this.getId() );
 		builder.append( ", getModificationDate()=" );
-		builder.append( getModificationDate() );
+		builder.append( this.getModificationDate() );
 		builder.append( ", getCreationDate()=" );
-		builder.append( getCreationDate() );
+		builder.append( this.getCreationDate() );
 		builder.append( ", getTitle()=" );
-		builder.append( getTitle() );
+		builder.append( this.getTitle() );
 		builder.append( "]" );
 		return builder.toString();
 	}
@@ -158,7 +173,7 @@ public class BoardThread extends AUserContribution {
 	 * @param postingId
 	 * @return 
 	 */
-	public BoardThread setFirstPostingId( int postingId ) {
+	public BoardThread setFirstPostingId( final int postingId ) {
 		this.firstPostingId = postingId;
 		
 		return this;
@@ -177,7 +192,7 @@ public class BoardThread extends AUserContribution {
 	 * @param date
 	 * @return 
 	 */
-	public BoardThread setEndDate( Date date ) {
+	public BoardThread setEndDate( final Date date ) {
 		this.endDate = date;		
 		
 		return this;
@@ -195,8 +210,9 @@ public class BoardThread extends AUserContribution {
 	 * (non-Javadoc)
 	 * @see de.bht.fb6.s778455.bachelor.model.AUserContribution#exportToTxt()
 	 */
-	public String exportToTxt() {
-		StringBuilder txtExport = new StringBuilder();
+	@Override
+    public String exportToTxt() {
+		final StringBuilder txtExport = new StringBuilder();
 		
 		txtExport.append( super.exportToTxt() );
 		txtExport.append( "FIRST_POSTING_ID: " + this.getFirstPostingId() + "\n");
@@ -208,15 +224,16 @@ public class BoardThread extends AUserContribution {
 	 * (non-Javadoc)
 	 * @see de.bht.fb6.s778455.bachelor.model.AUserContribution#importFromTxt(java.lang.String, java.lang.String)
 	 */
-	public void importFromTxt( String key, String value ) {
+	@Override
+    public void importFromTxt( final String key, final String value ) {
 		super.importFromTxt( key, value );
 		
 		if( key.equals( "FIRST_POSTING_ID" ) ) {
 			try {
 				this.setFirstPostingId( Integer.parseInt( value ) );
-			} catch( NumberFormatException e ) {
+			} catch( final NumberFormatException e ) {
 				Application
-						.log( getClass()
+						.log( this.getClass()
 								+ ":importFromTxt: couldn't parse given value to an integer firstPostingId. Given value: "
 								+ value, LogType.ERROR );
 			}

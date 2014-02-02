@@ -3,6 +3,7 @@
  */
 package de.bht.fb6.s778455.bachelor.model;
 
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
@@ -29,22 +30,35 @@ import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
  * @since 20.11.2013
  * 
  */
-public abstract class AUserContribution implements IDirectoryPortable {
+public abstract class AUserContribution implements IDirectoryPortable, IRdfUsable {
 	protected Date creationDate;
 	protected Date modificationDate;
 	protected String title;
 	protected int id;
 	protected Language lang;
-
+	protected Course course;
+	
 	protected Map< TagType, List< Tag > > tagMap;
 
-	public AUserContribution() {
-		this._initialize();
+	/**
+	 * New UserContribution with link to course instance
+	 * @param belongingCourse
+	 */
+	public AUserContribution( final Course belongingCourse ) {
+		this._initialize( belongingCourse );
 	}
 	
-	private void _initialize() {
+	/**
+	 * New user contribution without link to course instance (will be NULL)
+	 */
+	public AUserContribution( ) {
+	    this._initialize( null );
+	}
+	
+	private void _initialize(final Course belongingCourse) {
 		this.tagMap = new HashMap< TagType, List< Tag > >();
 		this.lang = Language.UNKNOWN;
+		this.course = belongingCourse;
 	}
 	
 	/**
@@ -625,4 +639,24 @@ public abstract class AUserContribution implements IDirectoryPortable {
 		this.addTag(newTag, TagType.NER_TAG);
 	}
 
+	
+	
+	/**
+	 * Prepare the rdf uri to keep it unique for all models.
+	 * @return
+	 * @throws URISyntaxException 
+	 */
+	protected String prepareRdfUri() throws URISyntaxException {
+	    final String prefix = this.getBelongingCourse().getRdfUri().toString() + "/";
+	    return prefix;
+	}
+	
+	   /**
+     * Get the course to which the board instance belongs.
+     * 
+     * @return
+     */
+    public Course getBelongingCourse() {
+        return this.course;
+    }
 }

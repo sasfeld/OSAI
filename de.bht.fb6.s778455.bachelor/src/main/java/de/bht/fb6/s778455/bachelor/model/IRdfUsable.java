@@ -4,6 +4,9 @@
 package de.bht.fb6.s778455.bachelor.model;
 
 import java.net.URI;
+import java.net.URISyntaxException;
+
+import de.bht.fb6.s778455.bachelor.semantic.store.ontology.IBaseUris;
 
 /**
  * <p>This interface defines methods which are used in the semantic creation.</p>
@@ -13,10 +16,11 @@ import java.net.URI;
  * @since 02.02.2014
  *
  */
-public interface IRdfUsable {
+public interface IRdfUsable extends IBaseUris {
     /**
      * Get the RDF uri identifying the object as an OWL individual or RDF node in general.
      * @return
+     * @throws URISyntaxException 
      */
-    URI getRdfUri();
+    URI getRdfUri() throws URISyntaxException;
 }
