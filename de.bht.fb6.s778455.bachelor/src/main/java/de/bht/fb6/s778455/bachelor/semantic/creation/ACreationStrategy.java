@@ -5,8 +5,10 @@ package de.bht.fb6.s778455.bachelor.semantic.creation;
 
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.rdf.model.RDFNode;
+import com.hp.hpl.jena.rdf.model.Resource;
 
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
+import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.semantic.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
 import de.bht.fb6.s778455.bachelor.semantic.store.ontology.IOwlClasses;
@@ -52,12 +54,24 @@ public abstract class ACreationStrategy implements IOwlClasses, IOwlDatatypeProp
     protected OntModel getOntologyModel() {
         return this.ontologyModel;
     }
+    
+    /**
+     * Get resource for the given lms class.
+     * 
+     * @param owlClass
+     * @return
+     */
+    protected Resource getLmsClassResource( final String owlClass ) {
+        final Resource r = this.getOntologyModel().getResource( owlClass );      
+        return r;
+    }
 
     /**
      * Create RDF triples which are stored by the {@link RdfTripleStoreAdapter}.
      * 
      * @param courseSet
+     * @throws GeneralLoggingException 
      */
-    public abstract void createRdfTriples( final LmsCourseSet courseSet );  
+    public abstract void createRdfTriples( final LmsCourseSet courseSet ) throws GeneralLoggingException;  
 
 }

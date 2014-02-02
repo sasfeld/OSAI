@@ -3,6 +3,8 @@
  */
 package de.bht.fb6.s778455.bachelor.model;
 
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
@@ -14,7 +16,7 @@ import java.util.Set;
  * @since 25.01.2014
  *
  */
-public class LmsCourseSet extends HashSet< Course >{       
+public class LmsCourseSet extends HashSet< Course > implements IRdfUsable {       
     private static final long serialVersionUID = 1L;
     protected String name;
     
@@ -67,6 +69,16 @@ public class LmsCourseSet extends HashSet< Course >{
      */
     public String getName() {
         return this.name;
+    }
+
+    @Override
+    /*
+     * (non-Javadoc)
+     * @see de.bht.fb6.s778455.bachelor.model.IRdfUsable#getRdfUri()
+     */
+    public URI getRdfUri() throws URISyntaxException {
+        final URI newUri = new URI( INDIVIDUAL_BASE_URI + this.getName());
+        return newUri;
     }
     
 }
