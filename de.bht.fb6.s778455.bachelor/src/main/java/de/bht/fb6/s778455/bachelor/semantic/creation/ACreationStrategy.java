@@ -17,6 +17,7 @@ import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.rdf.model.ResourceFactory;
 
 import de.bht.fb6.s778455.bachelor.model.IRdfUsable;
+import de.bht.fb6.s778455.bachelor.model.Language;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.semantic.organization.service.ServiceFactory;
@@ -179,6 +180,49 @@ public abstract class ACreationStrategy implements IOwlClasses, IOwlDatatypeProp
         
         // add triple / statement
         this.getOntologyModel().add( leftIndividual, objectProperty, rightIndividual );
+    }
+    
+    /**
+     * Create a language edge for the given {@link IRdfUsable}.
+     * 
+     * @param course
+     * @throws GeneralLoggingException 
+     */
+    protected void createLanguageEdge( final IRdfUsable model, final Language lang ) throws GeneralLoggingException {
+        if ( null == model || null == lang ) {
+            throw new IllegalArgumentException( "Null values are not allowed as parameters!" );
+        }
+        
+        final OntModel ontModel = this.getOntologyModel();
+        try {
+            final Individual indModel = ontModel.getIndividual( model.getRdfUri().toString() );
+            final Individual langInd = ontModel.getIndividual( lang.getRdfUri().toString() );
+            
+            // check if individuals exist
+            if( null == indModel || !ontModel.containsResource( indModel ) ) {
+                throw new GeneralLoggingException(
+                        this.getClass()
+                                + ":createLanguageEdge(): No individual found for model: "
+                                + model,
+                        "Internal error in the CourseCreation. See the logs" );
+            }
+            if( null == langInd || !ontModel.containsResource( langInd ) ) {
+                throw new GeneralLoggingException(
+                        this.getClass()
+                        + ":createLanguageEdge(): No individual found for lang: "
+                        + lang,
+                        "Internal error in the CourseCreation. See the logs" );
+            }
+            
+            // add node
+            this.addPropertyObjectBetween( indModel, langInd, PROPERTY_OBJECT_LANGUAGE );
+        }  catch( final URISyntaxException e ) {          
+                throw new GeneralLoggingException(
+                        this.getClass()
+                                + ":createLanguageEdge(): Illegal URI for language or model: "
+                                + lang +"; model: " + model,
+                        "Internal error in the CourseCreation. See the logs" );
+        }
     }
     
     

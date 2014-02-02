@@ -3,6 +3,11 @@
  */
 package de.bht.fb6.s778455.bachelor.model;
 
+import java.net.URI;
+import java.net.URISyntaxException;
+
+import de.bht.fb6.s778455.bachelor.semantic.store.vocabulary.IOwlIndividuals;
+
 /**
  * <p>
  * This enumeration keeps language information.
@@ -12,7 +17,7 @@ package de.bht.fb6.s778455.bachelor.model;
  * @since 16.01.2014
  * 
  */
-public enum Language {
+public enum Language implements IRdfUsable {
     GERMAN, ENGLISH, UNKNOWN;
 
     /**
@@ -33,4 +38,22 @@ public enum Language {
             return UNKNOWN;
         }
     }
+
+    @Override
+    /*
+     * (non-Javadoc)
+     * 
+     * @see de.bht.fb6.s778455.bachelor.model.IRdfUsable#getRdfUri()
+     */
+    public URI getRdfUri() throws URISyntaxException {
+        switch( this ) {
+            case ENGLISH:
+                return new URI( IOwlIndividuals.INSTANCE_LANG_EN );
+            case GERMAN:
+                return new URI( IOwlIndividuals.INSTANCE_LANG_DE );
+            default:
+                throw new IllegalArgumentException( "Can't map UNKNOWN to an RDF id!" );
+        }
+    }
+
 }

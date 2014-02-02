@@ -13,6 +13,7 @@ import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.IRdfUsable;
+import de.bht.fb6.s778455.bachelor.model.Language;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
@@ -102,19 +103,38 @@ public class CourseCreationStrategy extends ACreationStrategy {
     private void createCourseBoardEdges( final LmsCourseSet courseSet )
             throws GeneralLoggingException {
         for( final Course course : courseSet ) {
+            if( null != course.getLanguage() ) {
+                super.createLanguageEdge( course, course.getLanguage() );
+            }
             for( final Board board : course.getBoards() ) {
-                this.createEdge( course, board, IOwlObjectProperties.PROPERTY_OBJECT_COURSE_BOARD );
-                
+                if( null != board.getLang() ) {
+                    super.createLanguageEdge( board, board.getLang() );
+                }
+                this.createEdge( course, board,
+                        IOwlObjectProperties.PROPERTY_OBJECT_COURSE_BOARD );
+
                 for( final BoardThread thread : board.getBoardThreads() ) {
-                    this.createEdge( board, thread, IOwlObjectProperties.PROPERTY_OBJECT_BOARD_THREAD );
-                    
+                    if( null != thread.getLang() ) {
+                        super.createLanguageEdge( thread, thread.getLang() );
+                    }
+                    this.createEdge( board, thread,
+                            IOwlObjectProperties.PROPERTY_OBJECT_BOARD_THREAD );
+
                     for( final Posting posting : thread.getPostings() ) {
-                        this.createEdge( thread, posting, IOwlObjectProperties.PROPERTY_OBJECT_THREAD_POSTING );
+                        if( null != posting.getLang() ) {
+                            super.createLanguageEdge( posting, posting.getLang() );
+                        }
+                        this.createEdge(
+                                thread,
+                                posting,
+                                IOwlObjectProperties.PROPERTY_OBJECT_THREAD_POSTING );
                     }
                 }
             }
         }
     }
+
+   
 
     /**
      * Create a single OWL object property between the given course and the
@@ -124,7 +144,8 @@ public class CourseCreationStrategy extends ACreationStrategy {
      * @param rightSide
      * @throws GeneralLoggingException
      */
-    private void createEdge( final IRdfUsable leftSide, final IRdfUsable rightSide, final String objectProperty )
+    private void createEdge( final IRdfUsable leftSide,
+            final IRdfUsable rightSide, final String objectProperty )
             throws GeneralLoggingException {
         final OntModel ontModel = super.getOntologyModel();
         try {
@@ -148,9 +169,9 @@ public class CourseCreationStrategy extends ACreationStrategy {
                                 + rightSide.getRdfUri(),
                         "Internal error in the CourseCreation. See the logs" );
             }
-            
+
             // add node between them
-            super.addPropertyObjectBetween( indLeft, indRight, objectProperty);
+            super.addPropertyObjectBetween( indLeft, indRight, objectProperty );
         } catch( final URISyntaxException e ) {
             try {
                 throw new GeneralLoggingException(
