@@ -46,7 +46,7 @@ public class AuditoriumImportStrategy extends AImportStrategy {
 	@Override
 	public LmsCourseSet importBoardFromFile( final File inputFile )
 			throws GeneralLoggingException {
-	    final LmsCourseSet auditoriumCourseSet = new LmsCourseSet( COURSE_SET_NAME );
+	    final LmsCourseSet auditoriumCourseSet = new LmsCourseSet( super.removeIllegalChars( COURSE_SET_NAME ) );
 		// ignore input file. DB connection configured in the importer.properties will be used
 		final AuditoriumDbQuerier querier = new AuditoriumDbQuerier();
 		

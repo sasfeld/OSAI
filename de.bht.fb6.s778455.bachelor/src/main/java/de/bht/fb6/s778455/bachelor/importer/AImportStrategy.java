@@ -13,6 +13,7 @@ import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus.PersonNameType;
+import de.bht.fb6.s778455.bachelor.organization.FileUtil;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 
 /**
@@ -52,4 +53,13 @@ public abstract class AImportStrategy {
 	 * @throws GeneralLoggingException 
 	 */
 	abstract public PersonNameCorpus fillFromFile(File personCorpus, PersonNameCorpus corpusInstance, PersonNameType nameType) throws GeneralLoggingException;
+	
+	/**
+	 * Remove illegal characters in file names.
+	 * @param fileName
+	 * @return
+	 */
+	protected String removeIllegalChars( final String fileName ) {
+	    return FileUtil.removeIllegalChars( fileName );
+	}
 }

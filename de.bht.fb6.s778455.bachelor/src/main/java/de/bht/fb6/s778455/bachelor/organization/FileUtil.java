@@ -35,13 +35,13 @@ public class FileUtil {
 	 * @return
 	 * @throws GeneralLoggingException
 	 */
-	public static List< String > readFileLineBased( File file, String encoding )
+	public static List< String > readFileLineBased( final File file, final String encoding )
 			throws GeneralLoggingException {
 		try {
 			if( null != encoding && !"false".equals( encoding ) ) {
 				Charset.forName( encoding );
 			}
-		} catch( UnsupportedCharsetException e ) {
+		} catch( final UnsupportedCharsetException e ) {
 			throw new GeneralLoggingException(
 					"readFileLineBased(): the given charset/encoding "
 							+ encoding
@@ -54,7 +54,7 @@ public class FileUtil {
 					"readFileLineBased(): The given file is null or doesn't exist!" );
 		}
 
-		List< String > lines = new ArrayList< String >();
+		final List< String > lines = new ArrayList< String >();
 		BufferedReader reader = null;
 		try {
 			if( null != encoding && !"false".equals( encoding )) {
@@ -67,7 +67,7 @@ public class FileUtil {
 			while( null != ( line = reader.readLine() ) ) {
 				lines.add( line ); // add single line to collection
 			}
-		} catch( IOException e ) {
+		} catch( final IOException e ) {
 			throw new GeneralLoggingException(
 					"readFileLineBased(): The given file ("
 							+ file.getAbsolutePath()
@@ -77,7 +77,7 @@ public class FileUtil {
 			if( null != reader ) {
 				try {
 					reader.close();
-				} catch( IOException e ) {
+				} catch( final IOException e ) {
 					// don't do anything here. an exception was already caught
 					// above
 				}
@@ -94,14 +94,25 @@ public class FileUtil {
 	 * @return
 	 * @throws GeneralLoggingException
 	 */
-	public static String readFile( File file, String encoding ) throws GeneralLoggingException {
+	public static String readFile( final File file, final String encoding ) throws GeneralLoggingException {
 		final List< String > lines = readFileLineBased( file, encoding );
 		
 		final StringBuilder singleStrBuilder = new StringBuilder();
-		for( String line : lines ) {
+		for( final String line : lines ) {
 			singleStrBuilder.append( line + "\n" );
 		}
 		
 		return singleStrBuilder.toString();		
+	}
+	
+	/**
+	 * Remove illegal characters in a filename
+	 * @param filename
+	 * @return
+	 */
+	public static String removeIllegalChars( final String filename ) {
+	    String changedFilename = filename.replaceAll( "[^a-zA-Z0-9.-]", "_" );
+        changedFilename = changedFilename.replaceAll( "[.]{2,}", "_" );
+        return changedFilename;
 	}
 }

@@ -63,7 +63,7 @@ public class MoodleXmlImporterStrategy extends AImportStrategy {
 		}
 
 		// set the lms course set name from the upper file's name
-		final LmsCourseSet xmlCourseSet = new LmsCourseSet( inputFile.getName() );
+		final LmsCourseSet xmlCourseSet = new LmsCourseSet( super.removeIllegalChars( inputFile.getName() ));
 		final Map< Integer, Course > importedCourses = this.importCourses( inputFile, xmlCourseSet );
 		xmlCourseSet.addAll( importedCourses.values() ) ;
 		return xmlCourseSet;

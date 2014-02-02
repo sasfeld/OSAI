@@ -137,7 +137,7 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 		}
 
 		// set course set's name from input file
-		final LmsCourseSet dumpCourseSet = new LmsCourseSet( inputFile.getName() );
+		final LmsCourseSet dumpCourseSet = new LmsCourseSet( super.removeIllegalChars( inputFile.getName() ));
 		
 		// import courses
 		final Map< Integer, Course > courses = this.importCourses( inputFile, dumpCourseSet );
