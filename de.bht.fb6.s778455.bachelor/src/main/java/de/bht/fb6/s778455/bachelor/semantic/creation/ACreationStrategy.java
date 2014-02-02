@@ -9,6 +9,9 @@ import com.hp.hpl.jena.rdf.model.RDFNode;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.semantic.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
+import de.bht.fb6.s778455.bachelor.semantic.store.ontology.IOwlClasses;
+import de.bht.fb6.s778455.bachelor.semantic.store.ontology.IOwlDatatypeProperties;
+import de.bht.fb6.s778455.bachelor.semantic.store.ontology.IOwlObjectProperties;
 
 /**
  * <p>
@@ -25,7 +28,7 @@ import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
  * @since 25.01.2014
  * 
  */
-public abstract class ACreationStrategy {
+public abstract class ACreationStrategy implements IOwlClasses, IOwlDatatypeProperties, IOwlObjectProperties {
     private final RdfTripleStoreAdapter tripleStoreAdapter;
     private final OntModel ontologyModel;
     
@@ -34,10 +37,18 @@ public abstract class ACreationStrategy {
         this.ontologyModel = this.tripleStoreAdapter.getPureOntologyModel();
     }
     
+    /**
+     * Get the single triple store adapter.
+     * @return
+     */
     protected RdfTripleStoreAdapter getTripleStoreAdapter() {
         return this.tripleStoreAdapter;
     }
     
+    /**
+     * Get the pure ontology model (shortener to tripleStoreAdapter.getPureOntologyModel())
+     * @return
+     */
     protected OntModel getOntologyModel() {
         return this.ontologyModel;
     }

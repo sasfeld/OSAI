@@ -22,20 +22,34 @@ public class LmsCourseSet extends HashSet< Course >{
      * Create a LmsCourseSet from an existing collection.
      * @param values
      */
-    public LmsCourseSet( final Collection< Course > values ) {
+    public LmsCourseSet( final Collection< Course > values, final String courseSetName ) {
         super();
         
         if ( null == values ) {
             throw new IllegalArgumentException( this.getClass() + ":LmsCourseSet: null value of parameter is not allowed!" );
         }
         
-        super.addAll( values );
+        super.addAll( values );      
+        
+        this.initialize( courseSetName );
     }
     
-    public LmsCourseSet() {
+    /**
+     * Create a new courseSet with a given name.
+     * @param courseSetName
+     */
+    public LmsCourseSet(final String courseSetName) {
         super();
+        
+        this.initialize( courseSetName );
     }
 
+    protected void initialize( final String courseSetName ) {
+        if ( null == courseSetName ) {
+            throw new IllegalArgumentException("Null is not allowed as name for the courseSet!");
+        }
+        this.name = courseSetName;
+    }
     /**
      * Name of the Course Set.
      * @param name

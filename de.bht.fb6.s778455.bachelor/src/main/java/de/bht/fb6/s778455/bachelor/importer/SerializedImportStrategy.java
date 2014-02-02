@@ -44,7 +44,8 @@ public class SerializedImportStrategy extends AImportStrategy {
 					"Internal error in the import module. See the logs" );
 		}
 		
-		final LmsCourseSet courseSet = new LmsCourseSet();
+		// set name from upper dir's name
+		final LmsCourseSet courseSet = new LmsCourseSet( inputFile.getName() );
 		ObjectInputStream is = null;
 		try {
 			is = new ObjectInputStream( new FileInputStream( inputFile ) );

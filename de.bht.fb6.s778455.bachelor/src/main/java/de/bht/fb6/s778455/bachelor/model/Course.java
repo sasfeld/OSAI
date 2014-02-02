@@ -5,6 +5,8 @@
 package de.bht.fb6.s778455.bachelor.model;
 
 import java.io.Serializable;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
@@ -29,7 +31,7 @@ import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
  * @since 20.11.2013
  * 
  */
-public class Course implements Serializable, IDirectoryPortable {
+public class Course implements Serializable, IDirectoryPortable, IRdfUsable {
 	/**
 	 * 
 	 */
@@ -66,16 +68,23 @@ public class Course implements Serializable, IDirectoryPortable {
 	protected String url;
 	protected Map< TagType, List< Tag > > tagMap;
 	protected Language language;
+	protected LmsCourseSet lmsCourseSet;
 
 	/**
 	 * Create a course for which only a title is given.
 	 * 
 	 * @param courseTitle
+	 * @param lmsCourseSet the course set to which this instance belongs
 	 */
-	public Course( final String courseTitle ) {
+	public Course( final String courseTitle, final LmsCourseSet lmsCourseSet ) {
+	    if ( null == courseTitle || null == lmsCourseSet ) {
+	        throw new IllegalArgumentException( "Null is not allowed as parameter value!" );
+	    }
+	    
 		this.setTitle( courseTitle );
 		this.boards = new ArrayList< Board >();
 		this.learnedWords = new HashMap< LearnedWordTypes, Set< String > >();
+		this.lmsCourseSet = lmsCourseSet;
 
 		this._initialize();
 	}
@@ -894,6 +903,20 @@ public class Course implements Serializable, IDirectoryPortable {
 	}
 
 	/**
+     * @return the lmsCourseSet
+     */
+    public final LmsCourseSet getLmsCourseSet() {
+        return this.lmsCourseSet;
+    }
+
+    /**
+     * @param lmsCourseSet the lmsCourseSet to set
+     */
+    public final void setLmsCourseSet( final LmsCourseSet lmsCourseSet ) {
+        this.lmsCourseSet = lmsCourseSet;
+    }
+
+    /**
 	 * Check if the course has {@link PosTag} instances.
 	 * @return
 	 */
@@ -903,6 +926,39 @@ public class Course implements Serializable, IDirectoryPortable {
         }
 
         return this.getTags( TagType.POS_TAG ).size() > 0 ? true : false;
+    }
+
+    @Override
+    /*
+     * (non-Javadoc)
+     * @see de.bht.fb6.s778455.bachelor.model.IRdfUsable#getRdfUri()
+     */
+    public URI getRdfUri() {
+        // first try to get URL from import
+        final String url = this.getUrl();
+        
+        // URL exists, so try to embed in URI instance
+        URI uri = null;
+        
+        if  (null != url ) {
+            try {
+                uri = new URI( url );
+            } catch( final URISyntaxException e ) {
+               // leave uri null
+            }
+        }
+        
+        // if uri is still null, generate one
+        if ( null == uri ) {
+            uri = this.generateUri();
+        }
+        
+        return null;
+    }
+
+    protected URI generateUri() {
+        // TODO Auto-generated method stub
+        return null;
     }
 
 }

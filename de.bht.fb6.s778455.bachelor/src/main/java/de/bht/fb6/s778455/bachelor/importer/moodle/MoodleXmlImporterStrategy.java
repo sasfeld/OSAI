@@ -32,7 +32,6 @@ import de.bht.fb6.s778455.bachelor.organization.xml.XmlExtractor;
  * 
  */
 public class MoodleXmlImporterStrategy extends AImportStrategy {
-
 	/*
 	 * (non-Javadoc)
 	 * 
@@ -63,18 +62,22 @@ public class MoodleXmlImporterStrategy extends AImportStrategy {
 					"Internal error in the importer module. Please see the logs." );
 		}
 
-		final Map< Integer, Course > importedCourses = this.importCourses( inputFile );
-		return new LmsCourseSet( importedCourses.values() );
+		// set the lms course set name from the upper file's name
+		final LmsCourseSet xmlCourseSet = new LmsCourseSet( inputFile.getName() );
+		final Map< Integer, Course > importedCourses = this.importCourses( inputFile, xmlCourseSet );
+		xmlCourseSet.addAll( importedCourses.values() ) ;
+		return xmlCourseSet;
 	}
 
 	/**
 	 * Import courses from underlying course directories.
+	 * @param xmlCourseSet 
 	 * 
 	 * @param inputFile
 	 * @return
 	 * @throws GeneralLoggingException
 	 */
-	private Map< Integer, Course > importCourses( final File topDir )
+	private Map< Integer, Course > importCourses( final File topDir, final LmsCourseSet xmlCourseSet )
 			throws GeneralLoggingException {
 		final Map< Integer, Course > courses = new HashMap< Integer, Course >();
 
@@ -91,12 +94,12 @@ public class MoodleXmlImporterStrategy extends AImportStrategy {
 			}
 
 			// parse course file
-			final Course newCourse = this.parseCourseFile( courses, courseFile );
+			final Course newCourse = this.parseCourseFile( courses, courseFile, xmlCourseSet );
 
 			// import boards
 			this.importBoards( newCourse, courseDir );
 			
-			// fill name corpu
+			// fill name corpus
 			final File personCorpusFile = new File( courseDir, "users.xml" );
 			newCourse.setPersonNameCorpus( new PersonNameCorpus() );
 			this.fillFromFile( personCorpusFile, newCourse.getPersonNameCorpus(), null );
@@ -262,11 +265,12 @@ public class MoodleXmlImporterStrategy extends AImportStrategy {
 	 * 
 	 * @param courses
 	 * @param courseFile
+	 * @param xmlCourseSet 
 	 * @return
 	 * @throws GeneralLoggingException
 	 */
 	private Course parseCourseFile( final Map< Integer, Course > courses,
-			final File courseFile ) throws GeneralLoggingException {
+			final File courseFile, final LmsCourseSet xmlCourseSet ) throws GeneralLoggingException {
 		final XmlExtractor extractor = new XmlExtractor(
 				courseFile.getAbsolutePath(), new HashMap< String, String >() );
 
@@ -292,7 +296,7 @@ public class MoodleXmlImporterStrategy extends AImportStrategy {
 			final long timeModified = Long.parseLong( ( String ) extractor
 					.buildXPath( "//course[1]/timemodified/text()", false ) );
 
-			final Course newCourse = new Course( fullName );
+			final Course newCourse = new Course( fullName, xmlCourseSet );
 			newCourse.setShortName( shortName ).setSummary( summary )
 					.setLang( lang ).setCreationDate( new Date( timeCreated ) )
 					.setModificationDate( new Date( timeModified ) )

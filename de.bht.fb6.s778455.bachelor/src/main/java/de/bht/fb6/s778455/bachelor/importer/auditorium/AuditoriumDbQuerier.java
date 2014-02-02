@@ -18,6 +18,7 @@ import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
@@ -70,12 +71,12 @@ public class AuditoriumDbQuerier {
 					password ) );
 			this.setDatabase( ServiceFactory.getConfigReader().fetchValue(
 					IConfigKeys.IMPORT_STRATEGY_AUDITORIUM_DB_DBNAME ) );
-		} catch( SQLException e ) { // no connection
+		} catch( final SQLException e ) { // no connection
 			throw new GeneralLoggingException(
-					getClass()
+					this.getClass()
 							+ ":initializeConnection(): couldn't open connection. Original exception:\n"
 							+ e, "An error occured in the import module." );
-		} catch( ClassNotFoundException e ) { // no MySQL jdbc driver
+		} catch( final ClassNotFoundException e ) { // no MySQL jdbc driver
 			throw new GeneralLoggingException(
 					"No MySQL jdbc driver found. Please make sure that you have the latest JDBC driver in your classpath.",
 					"Internal error in the import module. Please read the logs" );
@@ -86,14 +87,14 @@ public class AuditoriumDbQuerier {
 	 * @return the connection
 	 */
 	protected java.sql.Connection getConnection() {
-		return connection;
+		return this.connection;
 	}
 
 	/**
 	 * @param connection
 	 *            the connection to set
 	 */
-	protected void setConnection( java.sql.Connection connection ) {
+	protected void setConnection( final java.sql.Connection connection ) {
 		this.connection = connection;
 	}
 
@@ -101,31 +102,32 @@ public class AuditoriumDbQuerier {
 	 * @return the database
 	 */
 	protected String getDatabase() {
-		return database;
+		return this.database;
 	}
 
 	/**
 	 * @param database
 	 *            the database to set
 	 */
-	protected void setDatabase( String database ) {
+	protected void setDatabase( final String database ) {
 		this.database = database;
 	}
 
 	/**
 	 * Fetch the courses from the database.
 	 * 
+	 * @param auditoriumCourseSet 	 * 
 	 * @return
 	 * @throws GeneralLoggingException
 	 */
-	public Map< Integer, Course > fetchCourses() throws GeneralLoggingException {
-		Map< Integer, Course > resultingMap = new HashMap< Integer, Course >();
+	public Map< Integer, Course > fetchCourses(final LmsCourseSet auditoriumCourseSet) throws GeneralLoggingException {
+		final Map< Integer, Course > resultingMap = new HashMap< Integer, Course >();
 
-		String command = "SELECT id, name, created_at, updated_at, url, description FROM "
+		final String command = "SELECT id, name, created_at, updated_at, url, description FROM "
 				+ this.getDatabase() + ".lectures";
 		try {
-			Statement selectStmt = this.getConnection().createStatement();
-			ResultSet results = selectStmt.executeQuery( command );
+			final Statement selectStmt = this.getConnection().createStatement();
+			final ResultSet results = selectStmt.executeQuery( command );
 
 			// Iterate through entities
 			while( results.next() ) {
@@ -138,16 +140,16 @@ public class AuditoriumDbQuerier {
 				final String description = results.getString( "description" );
 				final String url = results.getString( "url" );
 
-				Course newCourse = new Course( title );
+				final Course newCourse = new Course( title, auditoriumCourseSet );
 				newCourse.setId( id ).setCreationDate( createdAt )
 						.setModificationDate( updatedAt )
 						.setSummary( description ).setUrl( url );
 
 				resultingMap.put( id, newCourse );
 			}
-		} catch( SQLException e ) {
+		} catch( final SQLException e ) {
 			throw new GeneralLoggingException(
-					getClass() + ":fetchCourses: MySQL error: \n" + e,
+					this.getClass() + ":fetchCourses: MySQL error: \n" + e,
 					"Internal error while working with MySQL in the importer module. Please see the logs." );
 		}
 
@@ -162,16 +164,16 @@ public class AuditoriumDbQuerier {
 	 * @return
 	 * @throws GeneralLoggingException
 	 */
-	public Map< Integer, Board > fetchBoards( Map< Integer, Course > courseMap )
+	public Map< Integer, Board > fetchBoards( final Map< Integer, Course > courseMap )
 			throws GeneralLoggingException {
-		Map< Integer, Board > boardMap = new HashMap< Integer, Board >();
+		final Map< Integer, Board > boardMap = new HashMap< Integer, Board >();
 
-		String command = "SELECT id, name, lecture_id AS course_id, description, created_at, updated_at FROM "
+		final String command = "SELECT id, name, lecture_id AS course_id, description, created_at, updated_at FROM "
 				+ this.getDatabase() + ".courses";
 
 		try {
-			Statement selectStmt = this.getConnection().createStatement();
-			ResultSet results = selectStmt.executeQuery( command );
+			final Statement selectStmt = this.getConnection().createStatement();
+			final ResultSet results = selectStmt.executeQuery( command );
 
 			// Iterate through entities
 			while( results.next() ) {
@@ -183,16 +185,16 @@ public class AuditoriumDbQuerier {
 				final String description = results.getString( "description" );
 				final int courseId = results.getInt( "course_id" );
 
-				Course course = courseMap.get( courseId );
+				final Course course = courseMap.get( courseId );
 
 				if( null == course ) {
 					Application
-							.log( getClass()
+							.log( this.getClass()
 									+ ":fetchBoards(): lecture entity for given course doesn't exist. Lecture id: "
 									+ courseId + "; course: " + id,
 									LogType.ERROR );
 				} else {
-					Board newBoard = new Board( course );
+					final Board newBoard = new Board( course );
 					newBoard.setId( id ).setTitle( title )
 							.setCreationDate(  createdAt  )
 							.setModificationDate(  updatedAt  );
@@ -202,9 +204,9 @@ public class AuditoriumDbQuerier {
 					boardMap.put( id, newBoard );
 				}
 			}
-		} catch( SQLException e ) {
+		} catch( final SQLException e ) {
 			throw new GeneralLoggingException(
-					getClass() + ":fetchCourses: MySQL error: \n" + e,
+					this.getClass() + ":fetchCourses: MySQL error: \n" + e,
 					"Internal error while working with MySQL in the importer module. Please see the logs." );
 		}
 
@@ -219,16 +221,16 @@ public class AuditoriumDbQuerier {
 	 * @throws GeneralLoggingException
 	 */
 	public Map< Integer, BoardThread > fetchBoardThreads(
-			Map< Integer, Board > boardMap ) throws GeneralLoggingException {
-		Map< Integer, BoardThread > threadMap = new HashMap< Integer, BoardThread >();
+			final Map< Integer, Board > boardMap ) throws GeneralLoggingException {
+		final Map< Integer, BoardThread > threadMap = new HashMap< Integer, BoardThread >();
 
-		String command = "SELECT id, subject, body, post_type, parent_id, course_id AS board_id, created_at, updated_at FROM "
+		final String command = "SELECT id, subject, body, post_type, parent_id, course_id AS board_id, created_at, updated_at FROM "
 				+ this.getDatabase()
 				+ ".posts WHERE post_type IN ('question', 'announcement') AND parent_id IS NULL";
 
 		try {
-			Statement selectStmt = this.getConnection().createStatement();
-			ResultSet results = selectStmt.executeQuery( command );
+			final Statement selectStmt = this.getConnection().createStatement();
+			final ResultSet results = selectStmt.executeQuery( command );
 
 			// Iterate through entities
 			while( results.next() ) {
@@ -241,21 +243,21 @@ public class AuditoriumDbQuerier {
 				final Date updatedAt = results.getDate( "updated_at" );
 				final int boardId = results.getInt( "board_id" );
 
-				Board board = boardMap.get( boardId );
+				final Board board = boardMap.get( boardId );
 
 				if( null == board ) {
 					Application
-							.log( getClass()
+							.log( this.getClass()
 									+ ":fetchBoards(): course entity for given posting thread doesn't exist. course id: "
 									+ boardId + "; post: " + id, LogType.ERROR );
 				} else {
-					BoardThread newThread = new BoardThread( board );
+					final BoardThread newThread = new BoardThread( board );
 					newThread.setId( id )
 							.setCreationDate( createdAt  )
 							.setModificationDate( updatedAt  )
 							.setTitle( title );
 
-					Posting posting = new Posting( newThread );
+					final Posting posting = new Posting( newThread );
 					posting.setContent( content ).setPostingType( postType )
 							.setCreationDate(  createdAt  )
 							.setModificationDate( updatedAt  )
@@ -269,9 +271,9 @@ public class AuditoriumDbQuerier {
 					threadMap.put( id, newThread );
 				}
 			}
-		} catch( SQLException e ) {
+		} catch( final SQLException e ) {
 			throw new GeneralLoggingException(
-					getClass() + ":fetchBoardThreads: MySQL error: \n" + e,
+					this.getClass() + ":fetchBoardThreads: MySQL error: \n" + e,
 					"Internal error while working with MySQL in the importer module. Please see the logs." );
 		}
 
@@ -286,11 +288,11 @@ public class AuditoriumDbQuerier {
 	 * @throws GeneralLoggingException
 	 */
 	public Collection< Posting > fetchPostings(
-			Map< Integer, BoardThread > threads )
+			final Map< Integer, BoardThread > threads )
 			throws GeneralLoggingException {
-		Collection< Posting > postingCollection = new HashSet< Posting >();
+		final Collection< Posting > postingCollection = new HashSet< Posting >();
 
-		for( Integer threadid : threads.keySet() ) {
+		for( final Integer threadid : threads.keySet() ) {
 			this.fetchPostingRecusively( threadid, postingCollection,
 					threads.get( threadid ) );
 		}
@@ -306,15 +308,15 @@ public class AuditoriumDbQuerier {
 	 * @param boardThread
 	 * @throws GeneralLoggingException
 	 */
-	private void fetchPostingRecusively( Integer parentId,
-			Collection< Posting > postingCollection, BoardThread boardThread )
+	private void fetchPostingRecusively( final Integer parentId,
+			final Collection< Posting > postingCollection, final BoardThread boardThread )
 			throws GeneralLoggingException {
-		String command = "SELECT id, subject, body, post_type, parent_id, course_id AS board_id, created_at, updated_at FROM "
+		final String command = "SELECT id, subject, body, post_type, parent_id, course_id AS board_id, created_at, updated_at FROM "
 				+ this.getDatabase() + ".posts WHERE parent_id = " + parentId;
 
 		try {
-			Statement selectStmt = this.getConnection().createStatement();
-			ResultSet results = selectStmt.executeQuery( command );
+			final Statement selectStmt = this.getConnection().createStatement();
+			final ResultSet results = selectStmt.executeQuery( command );
 
 			// Iterate through entities
 			while( results.next() ) {
@@ -329,7 +331,7 @@ public class AuditoriumDbQuerier {
 				final Date updatedAt = results.getDate( "updated_at" );
 				// final int boardId = results.getInt( "board_id" );
 
-				Posting newPosting = new Posting( boardThread );
+				final Posting newPosting = new Posting( boardThread );
 				newPosting.setContent( content )
 						.setParentPostingId( parentPostingId )
 						.setPostingType( postType ).setTitle( title )
@@ -341,9 +343,9 @@ public class AuditoriumDbQuerier {
 				this.fetchPostingRecusively( id, postingCollection, boardThread );
 			}
 
-		} catch( SQLException e ) {
+		} catch( final SQLException e ) {
 			throw new GeneralLoggingException(
-					getClass() + ":fetchPostingRecursiveley: MySQL error: \n"
+					this.getClass() + ":fetchPostingRecursiveley: MySQL error: \n"
 							+ e,
 					"Internal error while working with MySQL in the importer module. Please see the logs." );
 		}
@@ -356,22 +358,22 @@ public class AuditoriumDbQuerier {
 	 * @throws GeneralLoggingException
 	 */
 	public Set< String > fetchPrenames() throws GeneralLoggingException {
-		Set< String > prenameSet = new HashSet<String>();
+		final Set< String > prenameSet = new HashSet<String>();
 		
-		String command = "SELECT DISTINCT(first_name) FROM " + this.getDatabase() + ".users";
+		final String command = "SELECT DISTINCT(first_name) FROM " + this.getDatabase() + ".users";
 		
 		try {
-			Statement selectStmt = this.getConnection().createStatement();
-			ResultSet results = selectStmt.executeQuery( command );
+			final Statement selectStmt = this.getConnection().createStatement();
+			final ResultSet results = selectStmt.executeQuery( command );
 
 			// Iterate through entities
 			while( results.next() ) {
 				prenameSet.add( results.getString( "first_name" ) );
 			}
 
-		} catch( SQLException e ) {
+		} catch( final SQLException e ) {
 			throw new GeneralLoggingException(
-					getClass() + ":fetchPrenames: MySQL error: \n"
+					this.getClass() + ":fetchPrenames: MySQL error: \n"
 							+ e,
 					"Internal error while working with MySQL in the importer module. Please see the logs." );
 		}
@@ -385,22 +387,22 @@ public class AuditoriumDbQuerier {
 	 * @throws GeneralLoggingException
 	 */
 	public Set< String > fetchLastnames() throws GeneralLoggingException {
-		Set< String > lastnameSet = new HashSet<String>();
+		final Set< String > lastnameSet = new HashSet<String>();
 		
-		String command = "SELECT DISTINCT(last_name) FROM " + this.getDatabase() + ".users";
+		final String command = "SELECT DISTINCT(last_name) FROM " + this.getDatabase() + ".users";
 		
 		try {
-			Statement selectStmt = this.getConnection().createStatement();
-			ResultSet results = selectStmt.executeQuery( command );
+			final Statement selectStmt = this.getConnection().createStatement();
+			final ResultSet results = selectStmt.executeQuery( command );
 			
 			// Iterate through entities
 			while( results.next() ) {
 				lastnameSet.add( results.getString( "last_name" ) );
 			}
 			
-		} catch( SQLException e ) {
+		} catch( final SQLException e ) {
 			throw new GeneralLoggingException(
-					getClass() + ":fetchLastnames: MySQL error: \n"
+					this.getClass() + ":fetchLastnames: MySQL error: \n"
 							+ e,
 					"Internal error while working with MySQL in the importer module. Please see the logs." );
 		}

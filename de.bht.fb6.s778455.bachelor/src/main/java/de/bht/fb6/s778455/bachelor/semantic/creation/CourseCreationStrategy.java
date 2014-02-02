@@ -37,6 +37,7 @@ public class CourseCreationStrategy extends ACreationStrategy {
     protected void createLmsInstance( final LmsCourseSet courseSet ) {
         final OntModel ontModel = super.getOntologyModel();
         
+        
     }
 
 }
