@@ -6,7 +6,7 @@ package de.bht.fb6.s778455.bachelor.model;
 import java.net.URI;
 import java.net.URISyntaxException;
 
-import de.bht.fb6.s778455.bachelor.semantic.store.ontology.IBaseUris;
+import de.bht.fb6.s778455.bachelor.semantic.store.vocabulary.IBaseUris;
 
 /**
  * <p>This interface defines methods which are used in the semantic creation.</p>

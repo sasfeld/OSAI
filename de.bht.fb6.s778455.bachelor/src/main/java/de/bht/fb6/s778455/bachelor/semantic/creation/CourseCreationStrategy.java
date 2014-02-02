@@ -5,13 +5,9 @@ package de.bht.fb6.s778455.bachelor.semantic.creation;
 
 import java.net.URISyntaxException;
 
-import com.hp.hpl.jena.datatypes.xsd.XSDDatatype;
 import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.OntClass;
 import com.hp.hpl.jena.ontology.OntModel;
-import com.hp.hpl.jena.rdf.model.Literal;
-import com.hp.hpl.jena.rdf.model.Property;
-import com.hp.hpl.jena.rdf.model.ResourceFactory;
 
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
@@ -31,7 +27,9 @@ import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
 public class CourseCreationStrategy extends ACreationStrategy {
 
     /**
-     * Create a strategy with given adapter (otherwise use the constructor without args)
+     * Create a strategy with given adapter (otherwise use the constructor
+     * without args)
+     * 
      * @param adapter
      */
     public CourseCreationStrategy( final RdfTripleStoreAdapter adapter ) {
@@ -47,10 +45,55 @@ public class CourseCreationStrategy extends ACreationStrategy {
     @Override
     public void createRdfTriples( final LmsCourseSet courseSet )
             throws GeneralLoggingException {
+        // create individual for LMS instance first
         this.createLmsInstance( courseSet );
 
+        // create individuals for course instances
         for( final Course course : courseSet ) {
+            this.createCourseInstance( course );
+        }
+    }
 
+    /**
+     * Create a single OWL instance for the given course instance.
+     * 
+     * @param course
+     * @throws GeneralLoggingException
+     */
+    private void createCourseInstance( final Course course )
+            throws GeneralLoggingException {
+        final OntModel ontModel = super.getOntologyModel();
+
+        final OntClass courseClassResource = this
+                .getClassResource( CLASS_COURSE );
+
+        try {
+            if( null != courseClassResource
+                    && ontModel.containsResource( courseClassResource ) ) {
+                // create individual
+                final Individual courseIndividual = this.createIndividual(
+                        course, courseClassResource );
+                
+                /*
+                 * ###### add properties ######
+                 */
+                
+                // add title          
+                super.addPropertyDataTitle( courseIndividual, course.getTitle() ); 
+                super.addPropertyDataWebUrl( courseIndividual, course.getUrl() );                
+            } else {
+                throw new GeneralLoggingException(
+                        this.getClass()
+                                + ":createCourseInstance(): No OWL class found in the used ontology for the LMS course set. The class must have the URI: "
+                                + CLASS_COURSE,
+                        "Internal error in the CourseCreation. See the logs" );
+            }
+        } catch( final URISyntaxException e ) {
+            throw new GeneralLoggingException(
+                    this.getClass()
+                            + ":createCourseInstance(): invalid URI returned by course: "
+                            + course.getShortName(),
+                    "Internal error in the CourseCreation. See the logs" );
         }
     }
 
@@ -65,28 +108,15 @@ public class CourseCreationStrategy extends ACreationStrategy {
         final OntModel ontModel = super.getOntologyModel();
 
         try {
-            final OntClass lmsClassResource = this
-                    .getLmsClassResource( CLASS_LMS );
+            final OntClass lmsClassResource = this.getClassResource( CLASS_LMS );
 
-            if( null != lmsClassResource ) {
+            if( null != lmsClassResource
+                    && ontModel.containsResource( lmsClassResource ) ) {
                 // found resource
-                final Individual lmsIndividual = ontModel.createIndividual(
-                        courseSet.getRdfUri().toString(), lmsClassResource );
+                final Individual lmsIndividual = this.createIndividual( courseSet, lmsClassResource );
 
                 // add title
-                final Property titleProperty = ontModel
-                        .createProperty( PROPERTY_DATA_TITLE );
-                if( null == titleProperty ) {
-                    // no title property found
-                    throw new GeneralLoggingException(
-                            this.getClass()
-                                    + ":createLmsInstance(): No OWL data property found in the used ontology for the title. It must have the URI: "
-                                    + PROPERTY_DATA_TITLE,
-                            "Internal error in the CourseCreation. See the logs" );
-                } else {
-                    final Literal titleLiteral = ResourceFactory.createTypedLiteral( courseSet.getName(), XSDDatatype.XSDstring );
-                    ontModel.add( lmsIndividual, titleProperty, titleLiteral );
-                }
+                super.addPropertyDataTitle( lmsIndividual, courseSet.getName() );                
 
             } else {
                 // no resource found for LMS class

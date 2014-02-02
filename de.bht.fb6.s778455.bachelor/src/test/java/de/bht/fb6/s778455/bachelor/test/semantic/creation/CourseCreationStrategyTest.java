@@ -22,8 +22,8 @@ import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.semantic.creation.ACreationStrategy;
 import de.bht.fb6.s778455.bachelor.semantic.creation.CourseCreationStrategy;
 import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
-import de.bht.fb6.s778455.bachelor.semantic.store.ontology.IOwlClasses;
-import de.bht.fb6.s778455.bachelor.semantic.store.ontology.IOwlDatatypeProperties;
+import de.bht.fb6.s778455.bachelor.semantic.store.vocabulary.IOwlClasses;
+import de.bht.fb6.s778455.bachelor.semantic.store.vocabulary.IOwlDatatypeProperties;
 import de.bht.fb6.s778455.bachelor.test.framework.JenaFrameworkTest;
 import de.bht.fb6.s778455.bachelor.test.framework.LoggingAwareTest;
 
