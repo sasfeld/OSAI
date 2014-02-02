@@ -16,6 +16,7 @@ import java.util.Set;
  */
 public class LmsCourseSet extends HashSet< Course >{       
     private static final long serialVersionUID = 1L;
+    protected String name;
     
     /**
      * Create a LmsCourseSet from an existing collection.
@@ -33,6 +34,25 @@ public class LmsCourseSet extends HashSet< Course >{
     
     public LmsCourseSet() {
         super();
+    }
+
+    /**
+     * Name of the Course Set.
+     * @param name
+     */
+    public void setName( final String name ) {
+        if ( null == name ) {
+            throw new IllegalArgumentException( "Null is not allowed as parameter value!" );
+        }
+        this.name = name;
+    }
+    
+    /**
+     * Get the name of this CourseSet
+     * @return String
+     */
+    public String getName() {
+        return this.name;
     }
     
 }

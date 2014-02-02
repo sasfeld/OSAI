@@ -200,6 +200,8 @@ public class DirectoryImportStrategy extends AImportStrategy {
 		}
 
 		final LmsCourseSet courseSet = new LmsCourseSet();
+		// set the name of the CourseSet from the upper directory name
+		courseSet.setName( inputFile.getName() );
 
 		// iterate through children directorys - a dir represents a course/board
 		for( final File childDir : inputFile.listFiles() ) {
