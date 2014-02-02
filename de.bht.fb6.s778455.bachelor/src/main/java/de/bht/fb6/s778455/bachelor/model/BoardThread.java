@@ -30,6 +30,7 @@ public class BoardThread extends AUserContribution {
 	protected Board belongingBoard;
 	private int firstPostingId;
 	private Date endDate;
+	protected String webUrl;
 	
 	
 	/* (non-Javadoc)
@@ -206,7 +207,23 @@ public class BoardThread extends AUserContribution {
 		return this.endDate;
 	}
 	
-	/*
+	/**
+	 * Get the URL to the real resource (discussion thread)
+     * @return the webUrl
+     */
+    public final String getWebUrl() {
+        return this.webUrl;
+    }
+
+    /**
+     * The webUrl is the URL to the real resource (discussion thread)
+     * @param webUrl the webUrl to set
+     */
+    public final void setWebUrl( final String webUrl ) {
+        this.webUrl = webUrl;
+    }
+
+    /*
 	 * (non-Javadoc)
 	 * @see de.bht.fb6.s778455.bachelor.model.AUserContribution#exportToTxt()
 	 */

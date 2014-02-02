@@ -18,8 +18,11 @@ import com.hp.hpl.jena.datatypes.xsd.XSDDatatype;
 import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.rdf.model.RDFNode;
 
+import de.bht.fb6.s778455.bachelor.model.Board;
+import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
+import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.semantic.creation.ACreationStrategy;
 import de.bht.fb6.s778455.bachelor.semantic.creation.CourseCreationStrategy;
 import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
@@ -60,6 +63,155 @@ public class CourseCreationStrategyTest extends LoggingAwareTest implements IOwl
         this.adapter = null;
     }
 
+    @Test
+    public void testCreatePostingInstance() throws NoSuchMethodException,
+    SecurityException, IllegalAccessException,
+    IllegalArgumentException, InvocationTargetException {
+        final LmsCourseSet courseSet = new LmsCourseSet( "unittestcourseset" );
+        final Course course = new Course( "unittestcourse", courseSet );
+        course.setWebUrl( "http://example.org" );
+        course.setId( 1 );
+        final Board board = new Board( course, "unittestboard" );
+        board.setId( 1 );
+        board.setWebUrl( "http://board.example.org" );
+        final BoardThread thread = new BoardThread( board );
+        thread.setId( 1 );
+        thread.setTitle( "Some nice topic" );
+        thread.setWebUrl( "http://board.example.org/topic.php?id=1" );
+        final Posting posting = new Posting( thread );
+        posting.setId( 1 );
+        posting.setTitle( "Some nice posting" );
+        
+        final Method m = CourseCreationStrategy.class.getDeclaredMethod(
+                "createPostingInstance", Posting.class );
+        m.setAccessible( true );
+        
+        m.invoke( this.strategy, posting );
+        
+        // assert statements for the courseSet are contained
+        final Set< Individual > indis = this.adapter.getOntologieIndividuals();
+        System.out.println("Indis: \n\n" + indis);
+        
+        boolean classMatched = false;
+        for( final Individual individual : indis ) {
+            System.out.println("indi uri: " + individual.getURI() + "\n");
+            if( individual.getOntClass()
+                    .equals(
+                            this.adapter.getPureOntologyModel().getOntClass(
+                                    CLASS_POSTING ) ) ) {
+                classMatched = true;
+                final RDFNode title = individual.getPropertyValue( this.adapter.getPureOntologyModel().getProperty( PROPERTY_DATA_TITLE ) );
+                
+                // assert datatype of object 'title'
+                assertTrue ( title.isLiteral() );
+                assertTrue ( title.asLiteral().getDatatypeURI().equals( XSDDatatype.XSDstring.getURI() ));
+                assertEquals ( "Some nice posting", title.asLiteral().getString() );
+            }
+        }
+        
+        assertTrue( classMatched );
+    }
+    
+    @Test
+    public void testCreateThreadInstance() throws NoSuchMethodException,
+    SecurityException, IllegalAccessException,
+    IllegalArgumentException, InvocationTargetException {
+        final LmsCourseSet courseSet = new LmsCourseSet( "unittestcourseset" );
+        final Course course = new Course( "unittestcourse", courseSet );
+        course.setWebUrl( "http://example.org" );
+        course.setId( 1 );
+        final Board board = new Board( course, "unittestboard" );
+        board.setId( 1 );
+        board.setWebUrl( "http://board.example.org" );
+        final BoardThread thread = new BoardThread( board );
+        thread.setId( 1 );
+        thread.setTitle( "Some nice topic" );
+        thread.setWebUrl( "http://board.example.org/topic.php?id=1" );
+        
+        final Method m = CourseCreationStrategy.class.getDeclaredMethod(
+                "createThreadInstance", BoardThread.class );
+        m.setAccessible( true );
+        
+        m.invoke( this.strategy, thread );
+        
+        // assert statements for the courseSet are contained
+        final Set< Individual > indis = this.adapter.getOntologieIndividuals();
+        System.out.println("Indis: \n\n" + indis);
+        
+        boolean classMatched = false;
+        for( final Individual individual : indis ) {
+            System.out.println("indi uri: " + individual.getURI() + "\n");
+            if( individual.getOntClass()
+                    .equals(
+                            this.adapter.getPureOntologyModel().getOntClass(
+                                    CLASS_THREAD ) ) ) {
+                classMatched = true;
+                final RDFNode title = individual.getPropertyValue( this.adapter.getPureOntologyModel().getProperty( PROPERTY_DATA_TITLE ) );
+                
+                // assert datatype of object 'title'
+                assertTrue ( title.isLiteral() );
+                assertTrue ( title.asLiteral().getDatatypeURI().equals( XSDDatatype.XSDstring.getURI() ));
+                assertEquals ( "Some nice topic", title.asLiteral().getString() );
+                
+                // assert datatype 'property_data_web_url'
+                final RDFNode webUrl = individual.getPropertyValue( this.adapter.getPureOntologyModel().getProperty( PROPERTY_DATA_WEB_URI ) );
+                assertTrue( webUrl.isLiteral() );
+                assertTrue ( webUrl.asLiteral().getDatatypeURI().equals( IDCTerms.DCTERMS_URI ));
+                assertEquals ( "http://board.example.org/topic.php?id=1", webUrl.asLiteral().getString());
+            }
+        }
+        
+        assertTrue( classMatched );
+    }
+    
+    @Test
+    public void testCreateBoardInstance() throws NoSuchMethodException,
+    SecurityException, IllegalAccessException,
+    IllegalArgumentException, InvocationTargetException {
+        final LmsCourseSet courseSet = new LmsCourseSet( "unittestcourseset" );
+        final Course course = new Course( "unittestcourse", courseSet );
+        course.setWebUrl( "http://example.org" );
+        course.setId( 1 );
+        final Board board = new Board( course, "unittestboard" );
+        board.setId( 1 );
+        board.setWebUrl( "http://board.example.org" );
+        
+        final Method m = CourseCreationStrategy.class.getDeclaredMethod(
+                "createBoardInstance", Board.class );
+        m.setAccessible( true );
+        
+        m.invoke( this.strategy, board );
+        
+        // assert statements for the courseSet are contained
+        final Set< Individual > indis = this.adapter.getOntologieIndividuals();
+        System.out.println("Indis: \n\n" + indis);
+        
+        boolean classMatched = false;
+        for( final Individual individual : indis ) {
+            System.out.println("indi uri: " + individual.getURI() + "\n");
+            if( individual.getOntClass()
+                    .equals(
+                            this.adapter.getPureOntologyModel().getOntClass(
+                                    CLASS_BOARD ) ) ) {
+                classMatched = true;
+                final RDFNode title = individual.getPropertyValue( this.adapter.getPureOntologyModel().getProperty( PROPERTY_DATA_TITLE ) );
+                
+                // assert datatype of object 'title'
+                assertTrue ( title.isLiteral() );
+                assertTrue ( title.asLiteral().getDatatypeURI().equals( XSDDatatype.XSDstring.getURI() ));
+                assertEquals ( "unittestboard", title.asLiteral().getString() );
+                
+                // assert datatype 'property_data_web_url'
+                final RDFNode webUrl = individual.getPropertyValue( this.adapter.getPureOntologyModel().getProperty( PROPERTY_DATA_WEB_URI ) );
+                assertTrue( webUrl.isLiteral() );
+                assertTrue ( webUrl.asLiteral().getDatatypeURI().equals( IDCTerms.DCTERMS_URI ));
+                assertEquals ( "http://board.example.org", webUrl.asLiteral().getString());
+            }
+        }
+        
+        assertTrue( classMatched );
+    }
+    
     @Test
     public void testCreateCourseInstance() throws NoSuchMethodException,
             SecurityException, IllegalAccessException,
