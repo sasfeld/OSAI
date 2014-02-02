@@ -559,6 +559,15 @@ public class RdfTripleStoreAdapter implements IUniqueProperties,
     }
 
     /**
+     * Get the set of statements within the OntModel.
+     * @return
+     */
+    public Set< Statement > getOntologyStatements() {
+        final Iterator< Statement > it = this.getPureOntologyModel().listStatements();
+        return CollectionUtil.buildSetFromIterator( it );
+    }
+    
+    /**
      * Get the current (latest) version of the graph in this TDB / jena store.
      * You can use it to get the named graph containing the tripels.
      * 

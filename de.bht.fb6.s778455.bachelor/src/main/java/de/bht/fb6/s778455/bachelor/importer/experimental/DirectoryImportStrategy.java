@@ -333,6 +333,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 				// use the first posting to enrich the thread's metadata
 				if( postingFile.getName().contains( "posting1" ) ) {
 					boardThread.setCreationDate( p.getCreationDate() );
+					boardThread.setTitle( p.getTitle() );
 				}
 			}
 		}

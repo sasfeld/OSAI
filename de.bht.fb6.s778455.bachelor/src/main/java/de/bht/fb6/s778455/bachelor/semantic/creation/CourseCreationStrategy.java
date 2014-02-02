@@ -12,10 +12,12 @@ import com.hp.hpl.jena.ontology.OntModel;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.IRdfUsable;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
+import de.bht.fb6.s778455.bachelor.semantic.store.vocabulary.IOwlObjectProperties;
 
 /**
  * <p>
@@ -54,35 +56,127 @@ public class CourseCreationStrategy extends ACreationStrategy {
         // create individuals for course instances
         for( final Course course : courseSet ) {
             this.createCourseInstance( course );
-            
+
             // create individuals for board instances
             for( final Board board : course.getBoards() ) {
                 this.createBoardInstance( board );
-                
+
                 // create individuals for thread instances
-                for ( final BoardThread thread : board.getBoardThreads()) {
+                for( final BoardThread thread : board.getBoardThreads() ) {
                     this.createThreadInstance( thread );
-                    
+
                     // create individuals for postings
                     for( final Posting posting : thread.getPostings() ) {
                         this.createPostingInstance( posting );
-                    }                  
+                    }
+                }
+            }
+        }
+
+        this.createEdges( courseSet );
+    }
+
+    /**
+     * Create the edges for the following object properties:
+     * <ul>
+     * <li>property_object_board_thread</li>
+     * <li>property_object_course_board</li>
+     * <li>property_object_thread_posting</li>
+     * <li>property_object_language</li>
+     * </ul>
+     * 
+     * @param courseSet
+     * @throws GeneralLoggingException
+     */
+    private void createEdges( final LmsCourseSet courseSet )
+            throws GeneralLoggingException {
+        this.createCourseBoardEdges( courseSet );
+    }
+
+    /**
+     * property_object_course_board
+     * 
+     * @param courseSet
+     * @throws GeneralLoggingException
+     */
+    private void createCourseBoardEdges( final LmsCourseSet courseSet )
+            throws GeneralLoggingException {
+        for( final Course course : courseSet ) {
+            for( final Board board : course.getBoards() ) {
+                this.createEdge( course, board, IOwlObjectProperties.PROPERTY_OBJECT_COURSE_BOARD );
+                
+                for( final BoardThread thread : board.getBoardThreads() ) {
+                    this.createEdge( board, thread, IOwlObjectProperties.PROPERTY_OBJECT_BOARD_THREAD );
+                    
+                    for( final Posting posting : thread.getPostings() ) {
+                        this.createEdge( thread, posting, IOwlObjectProperties.PROPERTY_OBJECT_THREAD_POSTING );
+                    }
                 }
             }
         }
     }
 
     /**
-     * Create a single OWL instance / individual for the given posting.
-     * @param posting
-     * @throws GeneralLoggingException 
+     * Create a single OWL object property between the given course and the
+     * board.
+     * 
+     * @param leftSide
+     * @param rightSide
+     * @throws GeneralLoggingException
      */
-    private void createPostingInstance( final Posting posting ) throws GeneralLoggingException {
+    private void createEdge( final IRdfUsable leftSide, final IRdfUsable rightSide, final String objectProperty )
+            throws GeneralLoggingException {
+        final OntModel ontModel = super.getOntologyModel();
+        try {
+            final Individual indLeft = ontModel.getIndividual( leftSide
+                    .getRdfUri().toString() );
+            final Individual indRight = ontModel.getIndividual( rightSide
+                    .getRdfUri().toString() );
+
+            // check if individuals exist
+            if( null == indLeft || !ontModel.containsResource( indLeft ) ) {
+                throw new GeneralLoggingException(
+                        this.getClass()
+                                + ":createCourseBoardEdges(): No individual found for course: "
+                                + leftSide.getRdfUri(),
+                        "Internal error in the CourseCreation. See the logs" );
+            }
+            if( null == indRight || !ontModel.containsResource( indRight ) ) {
+                throw new GeneralLoggingException(
+                        this.getClass()
+                                + ":createCourseBoardEdges(): No individual found for board: "
+                                + rightSide.getRdfUri(),
+                        "Internal error in the CourseCreation. See the logs" );
+            }
+            
+            // add node between them
+            super.addPropertyObjectBetween( indLeft, indRight, objectProperty);
+        } catch( final URISyntaxException e ) {
+            try {
+                throw new GeneralLoggingException(
+                        this.getClass()
+                                + ":createCourseBoardEdges(): Illegal URI for course or board: "
+                                + leftSide.getRdfUri() + "; board: "
+                                + rightSide.getRdfUri(),
+                        "Internal error in the CourseCreation. See the logs" );
+            } catch( final URISyntaxException e1 ) {
+                // forget it
+            }
+        }
+    }
+
+    /**
+     * Create a single OWL instance / individual for the given posting.
+     * 
+     * @param posting
+     * @throws GeneralLoggingException
+     */
+    private void createPostingInstance( final Posting posting )
+            throws GeneralLoggingException {
         final OntModel ontModel = super.getOntologyModel();
 
-        final OntClass postingResource = this
-                .getClassResource( CLASS_POSTING );
-        
+        final OntClass postingResource = this.getClassResource( CLASS_POSTING );
+
         try {
             if( null != postingResource
                     && ontModel.containsResource( postingResource ) ) {
@@ -94,8 +188,9 @@ public class CourseCreationStrategy extends ACreationStrategy {
                  */
 
                 // add title
-                super.addPropertyDataTitle( threadIndividual, posting.getTitle() );                
-               
+                super.addPropertyDataTitle( threadIndividual,
+                        posting.getTitle() );
+
             } else {
                 throw new GeneralLoggingException(
                         this.getClass()
@@ -109,20 +204,21 @@ public class CourseCreationStrategy extends ACreationStrategy {
                             + ":createPostingInstance(): invalid URI returned by course: "
                             + posting.getTitle(),
                     "Internal error in the CourseCreation. See the logs" );
-        }        
+        }
     }
 
     /**
      * Create a single OWL instance / individual for the given thread instance.
+     * 
      * @param thread
-     * @throws GeneralLoggingException 
+     * @throws GeneralLoggingException
      */
-    private void createThreadInstance( final BoardThread thread ) throws GeneralLoggingException {
+    private void createThreadInstance( final BoardThread thread )
+            throws GeneralLoggingException {
         final OntModel ontModel = super.getOntologyModel();
 
-        final OntClass threadResource = this
-                .getClassResource( CLASS_THREAD );
-        
+        final OntClass threadResource = this.getClassResource( CLASS_THREAD );
+
         try {
             if( null != threadResource
                     && ontModel.containsResource( threadResource ) ) {
@@ -134,8 +230,10 @@ public class CourseCreationStrategy extends ACreationStrategy {
                  */
 
                 // add title and web url
-                super.addPropertyDataTitle( threadIndividual, thread.getTitle() );
-                
+                if( null != thread.getTitle() ) {
+                    super.addPropertyDataTitle( threadIndividual,
+                            thread.getTitle() );
+                }
                 if( null != thread.getWebUrl() ) {
                     super.addPropertyDataWebUrl( threadIndividual,
                             thread.getWebUrl() );
@@ -154,20 +252,22 @@ public class CourseCreationStrategy extends ACreationStrategy {
                             + thread.getTitle(),
                     "Internal error in the CourseCreation. See the logs" );
         }
-        
+
     }
 
     /**
      * Create a single OWL instance / individual for the given board instance.
+     * 
      * @param board
-     * @throws GeneralLoggingException 
+     * @throws GeneralLoggingException
      */
-    private void createBoardInstance( final Board board ) throws GeneralLoggingException {
+    private void createBoardInstance( final Board board )
+            throws GeneralLoggingException {
         final OntModel ontModel = super.getOntologyModel();
 
         final OntClass courseBoardResource = this
                 .getClassResource( CLASS_BOARD );
-        
+
         try {
             if( null != courseBoardResource
                     && ontModel.containsResource( courseBoardResource ) ) {
@@ -180,7 +280,7 @@ public class CourseCreationStrategy extends ACreationStrategy {
 
                 // add title and web url
                 super.addPropertyDataTitle( boardIndividual, board.getTitle() );
-                
+
                 if( null != board.getWebUrl() ) {
                     super.addPropertyDataWebUrl( boardIndividual,
                             board.getWebUrl() );
@@ -199,7 +299,7 @@ public class CourseCreationStrategy extends ACreationStrategy {
                             + board.getTitle(),
                     "Internal error in the CourseCreation. See the logs" );
         }
-        
+
     }
 
     /**

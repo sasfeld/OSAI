@@ -7,6 +7,7 @@ import java.net.URISyntaxException;
 
 import com.hp.hpl.jena.datatypes.xsd.XSDDatatype;
 import com.hp.hpl.jena.ontology.Individual;
+import com.hp.hpl.jena.ontology.ObjectProperty;
 import com.hp.hpl.jena.ontology.OntClass;
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.rdf.model.Literal;
@@ -155,6 +156,29 @@ public abstract class ACreationStrategy implements IOwlClasses, IOwlDatatypeProp
         final Literal uriLiteral = this.getOntologyModel().createTypedLiteral( url, IDCTerms.DCTERMS_URI );
         // now add the triple / statement
         this.getOntologyModel().add( courseIndividual, uriProperty, uriLiteral );        
+    }
+
+    /**
+     * Add the connecting property 'property_object_[leftside]_[rightside]' to the ontology model.
+     * @param leftIndividual
+     * @param rightIndividual
+     * @param objProperty
+     * @throws GeneralLoggingException 
+     */
+    public void addPropertyObjectBetween( final Individual leftIndividual,
+            final Individual rightIndividual, final String objProperty ) throws GeneralLoggingException {
+        final ObjectProperty objectProperty = this.getOntologyModel().createObjectProperty( objProperty );
+        if ( null == objectProperty || !this.getOntologyModel().containsResource( objectProperty )) {
+            // property not found
+            throw new GeneralLoggingException(
+                    this.getClass()
+                            + ":addPropertyObjectBetween(): No OWL object property found in the used ontology for the title. It must have the URI: "
+                            + objProperty,
+                    "Internal error in the CourseCreation. See the logs" );
+        }
+        
+        // add triple / statement
+        this.getOntologyModel().add( leftIndividual, objectProperty, rightIndividual );
     }
     
     
