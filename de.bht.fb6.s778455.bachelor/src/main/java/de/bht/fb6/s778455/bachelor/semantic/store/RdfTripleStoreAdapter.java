@@ -37,6 +37,9 @@ import com.hp.hpl.jena.util.iterator.ExtendedIterator;
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 import de.bht.fb6.s778455.bachelor.organization.CollectionUtil;
+import de.bht.fb6.s778455.bachelor.semantic.store.ontology.IUniqueGraphNames;
+import de.bht.fb6.s778455.bachelor.semantic.store.ontology.IUniqueProperties;
+import de.bht.fb6.s778455.bachelor.semantic.store.ontology.IUniqueResources;
 
 /**
  * <p>

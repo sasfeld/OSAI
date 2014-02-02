@@ -3,6 +3,7 @@
  */
 package de.bht.fb6.s778455.bachelor.semantic.creation;
 
+import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.rdf.model.RDFNode;
 
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
@@ -26,13 +27,19 @@ import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
  */
 public abstract class ACreationStrategy {
     private final RdfTripleStoreAdapter tripleStoreAdapter;
+    private final OntModel ontologyModel;
     
     public ACreationStrategy() {
         this.tripleStoreAdapter = ServiceFactory.getJenaStoreAdapter();
+        this.ontologyModel = this.tripleStoreAdapter.getPureOntologyModel();
     }
     
     protected RdfTripleStoreAdapter getTripleStoreAdapter() {
         return this.tripleStoreAdapter;
+    }
+    
+    protected OntModel getOntologyModel() {
+        return this.ontologyModel;
     }
 
     /**

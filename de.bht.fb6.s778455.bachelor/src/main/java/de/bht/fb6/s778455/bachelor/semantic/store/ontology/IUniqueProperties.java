@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2013-2014 Sascha Feldmann (sascha.feldmann@gmx.de) 
  */
-package de.bht.fb6.s778455.bachelor.semantic.store;
+package de.bht.fb6.s778455.bachelor.semantic.store.ontology;
 
 /**
  * <p>
@@ -11,8 +11,6 @@ package de.bht.fb6.s778455.bachelor.semantic.store;
  * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
  * @since 01.02.2014
  */
-public interface IUniqueProperties {
-    String BASE_URI = "http://saschafeldmann.de/bachelor/ontology/";
-
+public interface IUniqueProperties extends IBaseUris{
     String VERSION = BASE_URI + "version";
 }
