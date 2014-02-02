@@ -111,6 +111,9 @@ public class RdfTripleStoreAdapter implements IUniqueProperties,
         this.errors = new ArrayList<>();
         this.currentVersion = STARTING_VERSION;
         this.loadCurrentVersion();
+        
+        // load ontology model immediatly
+        this.getPureOntologyModel();
     }
 
     /**

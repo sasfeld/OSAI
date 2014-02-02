@@ -3,9 +3,9 @@
  */
 package de.bht.fb6.s778455.bachelor.semantic.creation;
 
+import com.hp.hpl.jena.ontology.OntClass;
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.rdf.model.RDFNode;
-import com.hp.hpl.jena.rdf.model.Resource;
 
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
@@ -39,6 +39,15 @@ public abstract class ACreationStrategy implements IOwlClasses, IOwlDatatypeProp
         this.ontologyModel = this.tripleStoreAdapter.getPureOntologyModel();
     }
     
+    public ACreationStrategy( final RdfTripleStoreAdapter adapter ) {
+        if ( null == adapter ) {
+            throw new IllegalArgumentException( "Null values are not allowed for parameters!" );
+        }
+        
+        this.tripleStoreAdapter = adapter;
+        this.ontologyModel = this.tripleStoreAdapter.getPureOntologyModel();
+    }
+    
     /**
      * Get the single triple store adapter.
      * @return
@@ -61,8 +70,8 @@ public abstract class ACreationStrategy implements IOwlClasses, IOwlDatatypeProp
      * @param owlClass
      * @return
      */
-    protected Resource getLmsClassResource( final String owlClass ) {
-        final Resource r = this.getOntologyModel().getResource( owlClass );      
+    protected OntClass getLmsClassResource( final String owlClass ) {
+        final OntClass r = this.getOntologyModel().getOntClass( owlClass );      
         return r;
     }
 

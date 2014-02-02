@@ -5,14 +5,18 @@ package de.bht.fb6.s778455.bachelor.semantic.creation;
 
 import java.net.URISyntaxException;
 
+import com.hp.hpl.jena.datatypes.xsd.XSDDatatype;
 import com.hp.hpl.jena.ontology.Individual;
+import com.hp.hpl.jena.ontology.OntClass;
 import com.hp.hpl.jena.ontology.OntModel;
+import com.hp.hpl.jena.rdf.model.Literal;
 import com.hp.hpl.jena.rdf.model.Property;
-import com.hp.hpl.jena.rdf.model.Resource;
+import com.hp.hpl.jena.rdf.model.ResourceFactory;
 
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
 
 /**
  * <p>
@@ -25,6 +29,14 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
  * 
  */
 public class CourseCreationStrategy extends ACreationStrategy {
+
+    /**
+     * Create a strategy with given adapter (otherwise use the constructor without args)
+     * @param adapter
+     */
+    public CourseCreationStrategy( final RdfTripleStoreAdapter adapter ) {
+        super( adapter );
+    }
 
     /*
      * (non-Javadoc)
@@ -53,7 +65,7 @@ public class CourseCreationStrategy extends ACreationStrategy {
         final OntModel ontModel = super.getOntologyModel();
 
         try {
-            final Resource lmsClassResource = this
+            final OntClass lmsClassResource = this
                     .getLmsClassResource( CLASS_LMS );
 
             if( null != lmsClassResource ) {
@@ -71,7 +83,10 @@ public class CourseCreationStrategy extends ACreationStrategy {
                                     + ":createLmsInstance(): No OWL data property found in the used ontology for the title. It must have the URI: "
                                     + PROPERTY_DATA_TITLE,
                             "Internal error in the CourseCreation. See the logs" );
-                }        
+                } else {
+                    final Literal titleLiteral = ResourceFactory.createTypedLiteral( courseSet.getName(), XSDDatatype.XSDstring );
+                    ontModel.add( lmsIndividual, titleProperty, titleLiteral );
+                }
 
             } else {
                 // no resource found for LMS class

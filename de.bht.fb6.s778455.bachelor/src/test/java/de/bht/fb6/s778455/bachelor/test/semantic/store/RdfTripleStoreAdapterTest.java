@@ -3,9 +3,14 @@
  */
 package de.bht.fb6.s778455.bachelor.test.semantic.store;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-import java.io.File;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Set;
 
 import org.junit.After;
@@ -13,7 +18,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.hp.hpl.jena.ontology.OntModel;
-import com.hp.hpl.jena.query.Dataset;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.Property;
 import com.hp.hpl.jena.rdf.model.RDFNode;
@@ -21,10 +25,9 @@ import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.rdf.model.ResourceFactory;
 import com.hp.hpl.jena.rdf.model.Statement;
 import com.hp.hpl.jena.rdf.model.impl.StatementImpl;
-import com.hp.hpl.jena.tdb.TDBFactory;
 
-import de.bht.fb6.s778455.bachelor.semantic.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
+import de.bht.fb6.s778455.bachelor.test.framework.JenaFrameworkTest;
 import de.bht.fb6.s778455.bachelor.test.framework.LoggingAwareTest;
 
 /**
@@ -45,13 +48,8 @@ import de.bht.fb6.s778455.bachelor.test.framework.LoggingAwareTest;
  * @since 30.01.2014
  * 
  */
-public class RdfTripleStoreAdapterTest extends LoggingAwareTest {
-    /**
-     * Path to the dataset for unit testing.
-     */
-    private static final String LOCATION_UNIT_TEST_DS = "C:/jena/unittest";
+public class RdfTripleStoreAdapterTest extends LoggingAwareTest {   
     protected RdfTripleStoreAdapter adapter;
-    private Dataset jenaStore;
 
     /**
      * As a logging aware test, call the super constructor.
@@ -65,13 +63,7 @@ public class RdfTripleStoreAdapterTest extends LoggingAwareTest {
      */
     @Before
     public void setUp() throws Exception {
-        this.jenaStore = TDBFactory
-                .createDataset( LOCATION_UNIT_TEST_DS );
-        final File ontologyFile = ServiceFactory.getOntologyFile();
-        final String ontologyBaseUri = ServiceFactory.getOntologyBaseUri();
-
-        this.adapter = new RdfTripleStoreAdapter( this.jenaStore, ontologyFile,
-                ontologyBaseUri );
+        this.adapter = JenaFrameworkTest.getRdfTripleStoreAdapter();
     }
 
     /**
@@ -82,29 +74,29 @@ public class RdfTripleStoreAdapterTest extends LoggingAwareTest {
         this.adapter = null;
     }
 
-//    @Test
-//    public void testIncrementVersion() throws NoSuchMethodException, SecurityException, NoSuchFieldException, IllegalArgumentException, IllegalAccessException, InvocationTargetException {
-//        // get reflection method
-//        final Method method = RdfTripleStoreAdapter.class
-//                .getDeclaredMethod( "incrementVersion", Boolean.class);
-//        method.setAccessible( true );
-//        
-//        // inject some value
-//        final Field f = RdfTripleStoreAdapter.class.getDeclaredField( "currentVersion" );
-//        f.setAccessible( true ); 
-//        f.set( this.adapter, "V_30_01_2014_1" );
-//        
-//        // Check values        
-//        String result = ( String ) method.invoke( this.adapter, false );
-//        String expected = "V_" + new SimpleDateFormat( "dd_MM_yyyy" ).format( new Date() ) + "_2";
-//        
-//        assertEquals( expected, result );
-//        
-//        result = ( String ) method.invoke( this.adapter, false );
-//        expected = "V_" + new SimpleDateFormat( "dd_MM_yyyy" ).format( new Date() ) + "_3";
-//        
-//        assertEquals( expected, result );
-//    }
+    @Test
+    public void testIncrementVersion() throws NoSuchMethodException, SecurityException, NoSuchFieldException, IllegalArgumentException, IllegalAccessException, InvocationTargetException {
+        // get reflection method
+        final Method method = RdfTripleStoreAdapter.class
+                .getDeclaredMethod( "incrementVersion", Boolean.class);
+        method.setAccessible( true );
+        
+        // inject some value
+        final Field f = RdfTripleStoreAdapter.class.getDeclaredField( "currentVersion" );
+        f.setAccessible( true ); 
+        f.set( this.adapter, "V_30_01_2014_1" );
+        
+        // Check values        
+        String result = ( String ) method.invoke( this.adapter, false );
+        String expected = "V_" + new SimpleDateFormat( "dd_MM_yyyy" ).format( new Date() ) + "_2";
+        
+        assertEquals( expected, result );
+        
+        result = ( String ) method.invoke( this.adapter, false );
+        expected = "V_" + new SimpleDateFormat( "dd_MM_yyyy" ).format( new Date() ) + "_3";
+        
+        assertEquals( expected, result );
+    }
     
     @Test
     public void testReleaseModel() throws Exception {
@@ -146,21 +138,21 @@ public class RdfTripleStoreAdapterTest extends LoggingAwareTest {
         assertTrue( statementContained );        
     }
 
-//    @Test
-//    public void testSome() {
-//        System.out.println("Versions: ");
-//        System.out.println(this.adapter.getAvailableVersions());
-//    }
-//    
-//    /**
-//     * Some tests of the {@link OntModel}
-//     */
-//    @Test
-//    public void testOntologyModel() {
-//        assertEquals( 4, this.adapter.getImportedOntologies().size() );
-//        assertEquals( 25, this.adapter.getOntologieClasses().size() );
-//        assertEquals( 32, this.adapter.getOntologieDatatypeProperties().size() );
-//        assertEquals( 88, this.adapter.getOntologieIndividuals().size() );
-//    }
+    @Test
+    public void testSome() {
+        System.out.println("Versions: ");
+        System.out.println(this.adapter.getAvailableVersions());
+    }
+    
+    /**
+     * Some tests of the {@link OntModel}
+     */
+    @Test
+    public void testOntologyModel() {
+        assertEquals( 4, this.adapter.getImportedOntologies().size() );
+        assertEquals( 25, this.adapter.getOntologieClasses().size() );
+        assertEquals( 32, this.adapter.getOntologieDatatypeProperties().size() );
+        assertEquals( 88, this.adapter.getOntologieIndividuals().size() );
+    }
 
 }

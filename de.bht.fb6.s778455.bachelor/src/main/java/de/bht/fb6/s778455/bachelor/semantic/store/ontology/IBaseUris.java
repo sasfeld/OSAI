@@ -11,7 +11,14 @@ package de.bht.fb6.s778455.bachelor.semantic.store.ontology;
  *
  */
 public interface IBaseUris {
+    /**
+     * Base URI for the usage of 'rdf:about'
+     */
     String BASE_URI = "http://saschafeldmann.de/bachelor/ontology/";
+    /**
+     * Base URI for the usage of 'rdf:ID'
+     */
+    String BASE_URI_ID = "http://saschafeldmann.de/bachelor/ontology#";
     
     String INDIVIDUAL_BASE_URI = BASE_URI + "individuals/";
 }
