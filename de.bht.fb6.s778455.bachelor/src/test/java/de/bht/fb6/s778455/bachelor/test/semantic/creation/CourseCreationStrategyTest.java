@@ -26,6 +26,7 @@ import com.hp.hpl.jena.rdf.model.impl.StatementImpl;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.Language;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
@@ -35,6 +36,7 @@ import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
 import de.bht.fb6.s778455.bachelor.semantic.store.vocabulary.IDCTerms;
 import de.bht.fb6.s778455.bachelor.semantic.store.vocabulary.IOwlClasses;
 import de.bht.fb6.s778455.bachelor.semantic.store.vocabulary.IOwlDatatypeProperties;
+import de.bht.fb6.s778455.bachelor.semantic.store.vocabulary.IOwlIndividuals;
 import de.bht.fb6.s778455.bachelor.semantic.store.vocabulary.IOwlObjectProperties;
 import de.bht.fb6.s778455.bachelor.test.framework.JenaFrameworkTest;
 import de.bht.fb6.s778455.bachelor.test.framework.LoggingAwareTest;
@@ -81,19 +83,23 @@ public class CourseCreationStrategyTest extends LoggingAwareTest implements
         final Course course = new Course( "unittestcourse", courseSet );
         course.setWebUrl( "http://example.org" );
         course.setId( 1 );
+        course.setLanguage( Language.GERMAN );
         courseSet.add( course );
         final Board board = new Board( course, "unittestboard" );
         board.setId( 1 );
         board.setWebUrl( "http://board.example.org" );
+        board.setLang( Language.GERMAN );
         course.addBoard( board );
         final BoardThread thread = new BoardThread( board );
         thread.setId( 1 );
         thread.setTitle( "Some nice topic" );
         thread.setWebUrl( "http://board.example.org/topic.php?id=1" );
+        thread.setLang( Language.GERMAN );
         board.addThread( thread ); 
         final Posting posting = new Posting( thread );
         posting.setId( 1 );
         posting.setTitle( "Some nice posting" );
+        posting.setLang( Language.ENGLISH );
         thread.addPosting( posting );
 
         this.strategy.createRdfTriples( courseSet );
@@ -112,6 +118,14 @@ public class CourseCreationStrategyTest extends LoggingAwareTest implements
                 .getRdfUri().toString() ), new PropertyImpl(
                         IOwlObjectProperties.PROPERTY_OBJECT_THREAD_POSTING ),
                         new ResourceImpl( posting.getRdfUri().toString() ) );
+        final Statement s4 = new StatementImpl( new ResourceImpl( thread
+                .getRdfUri().toString() ), new PropertyImpl(
+                        IOwlObjectProperties.PROPERTY_OBJECT_LANGUAGE ),
+                        new ResourceImpl( IOwlIndividuals.INSTANCE_LANG_DE ) );
+        final Statement s5 = new StatementImpl( new ResourceImpl( posting
+                .getRdfUri().toString() ), new PropertyImpl(
+                        IOwlObjectProperties.PROPERTY_OBJECT_LANGUAGE ),
+                        new ResourceImpl( IOwlIndividuals.INSTANCE_LANG_EN ) );
 
         for( final Statement statement : statements ) {
             System.out.println("statement: " + statement + "\n");
