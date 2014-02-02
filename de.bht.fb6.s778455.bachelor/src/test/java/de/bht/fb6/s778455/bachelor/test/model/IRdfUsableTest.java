@@ -58,7 +58,7 @@ public class IRdfUsableTest {
         assertEquals( expected, rdfUsable.getRdfUri() );
         
         // assert that predefined uris are prefered
-        course.setUrl( "http://example.org" );        
+        course.setWebUrl( "http://example.org" );        
         expected = new URI( "http://example.org" );        
         assertEquals( expected, rdfUsable.getRdfUri() );
     }

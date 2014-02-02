@@ -454,7 +454,7 @@ public class Course implements Serializable, IDirectoryPortable, IRdfUsable {
         txtExport.append( "TITLE: " + this.getTitle() + "\n" );
         txtExport.append( "LANGUAGE: " + this.getLanguage() + "\n" );
         txtExport.append( "SUMMARY: " + this.getSummary() + "\n" );
-        final String url = this.getUrl();
+        final String url = this.getWebUrl();
 
         if( null != url ) {
             txtExport.append( "URL: " + url + "\n" );
@@ -576,7 +576,7 @@ public class Course implements Serializable, IDirectoryPortable, IRdfUsable {
         } else if( key.equals( "SUMMARY" ) ) {
             this.setSummary( value );
         } else if( key.equals( "URL" ) ) {
-            this.setUrl( value );
+            this.setWebUrl( value );
         } else if( key.equals( "TOPIC_ZOOM_TAG" ) ) {
             this.parseTopicZoomValue( value );
         } else if( key.equals( "NER_TAG" ) ) {
@@ -908,7 +908,7 @@ public class Course implements Serializable, IDirectoryPortable, IRdfUsable {
         builder.append( ", isNerTagged()=" );
         builder.append( this.isNerTagged() );
         builder.append( ", getUrl()=" );
-        builder.append( this.getUrl() );
+        builder.append( this.getWebUrl() );
         builder.append( "]" );
         return builder.toString();
     }
@@ -919,12 +919,12 @@ public class Course implements Serializable, IDirectoryPortable, IRdfUsable {
      * @param url
      * @return
      */
-    public Course setUrl( final String url ) {
+    public Course setWebUrl( final String url ) {
         this.url = url;
         return this;
     }
 
-    public String getUrl() {
+    public String getWebUrl() {
         return this.url;
     }
 
@@ -963,19 +963,19 @@ public class Course implements Serializable, IDirectoryPortable, IRdfUsable {
      * @see de.bht.fb6.s778455.bachelor.model.IRdfUsable#getRdfUri()
      */
     public URI getRdfUri() throws URISyntaxException {
-        // first try to get URL from import
-        final String url = this.getUrl();
-
+//        // first try to get URL from import
+//        final String url = this.getUrl();
+//
         // URL exists, so try to embed in URI instance
         URI uri = null;
-
-        if( null != url ) {
-            try {
-                uri = new URI( url );
-            } catch( final URISyntaxException e ) {
-                // leave uri null
-            }
-        }
+//
+//        if( null != url ) {
+//            try {
+//                uri = new URI( url );
+//            } catch( final URISyntaxException e ) {
+//                // leave uri null
+//            }
+//        }
 
         // if uri is still null, generate one
         if( null == uri ) {

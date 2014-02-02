@@ -92,7 +92,7 @@ public class DirectoyExportStrategyTest {
 	@Test
 	public void testExport() throws GeneralLoggingException {			
 		final Course course = new Course( "Sample course", new LmsCourseSet( "unit test course set" )  );
-		course.setUrl( "http://test.de" );
+		course.setWebUrl( "http://test.de" );
 		course.setLanguage( Language.GERMAN );
 		course.addTag( new PosTag( "NN", 0.0, "Beispiel", "beispiel.xad" ), TagType.POS_TAG );
 		course.addTag( new NerTag( "I-LOC", 0.0, "Berlin", "berlin.xad" ), TagType.NER_TAG );

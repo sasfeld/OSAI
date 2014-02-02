@@ -28,6 +28,7 @@ public class Board extends AUserContribution {
     protected List< BoardThread > boardThreads;
     protected String type;
     protected String intro;
+    protected String url;
 
     /**
      * Create a new Board. A Board is included in the given course.
@@ -170,6 +171,22 @@ public class Board extends AUserContribution {
                 + this.getId() );
 
         return uri;
+    }
+
+    /**
+     * Get the webUrl
+     * @return the url
+     */
+    public final String getWebUrl() {
+        return this.url;
+    }
+
+    /**
+     * Set the webUrl
+     * @param url the url to set
+     */
+    public final void setWebUrl( final String url ) {
+        this.url = url;
     }
 
     /*

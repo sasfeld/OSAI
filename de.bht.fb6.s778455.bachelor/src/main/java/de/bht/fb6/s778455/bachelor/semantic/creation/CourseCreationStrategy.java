@@ -9,6 +9,7 @@ import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.OntClass;
 import com.hp.hpl.jena.ontology.OntModel;
 
+import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
@@ -51,11 +52,61 @@ public class CourseCreationStrategy extends ACreationStrategy {
         // create individuals for course instances
         for( final Course course : courseSet ) {
             this.createCourseInstance( course );
+            
+            // create individuals for board instances
+            for( final Board board : course.getBoards() ) {
+                this.createBoardInstance( board );
+            }
         }
     }
 
     /**
-     * Create a single OWL instance for the given course instance.
+     * Create a single OWL instance / individual for the given board instance.
+     * @param board
+     * @throws GeneralLoggingException 
+     */
+    private void createBoardInstance( final Board board ) throws GeneralLoggingException {
+        final OntModel ontModel = super.getOntologyModel();
+
+        final OntClass courseBoardResource = this
+                .getClassResource( CLASS_BOARD );
+        
+        try {
+            if( null != courseBoardResource
+                    && ontModel.containsResource( courseBoardResource ) ) {
+                // create individual
+                final Individual boardIndividual = this.createIndividual(
+                        board, courseBoardResource );
+                /*
+                 * ###### add properties ######
+                 */
+
+                // add title and web url
+                super.addPropertyDataTitle( boardIndividual, board.getTitle() );
+                
+                if( null != board.getWebUrl() ) {
+                    super.addPropertyDataWebUrl( boardIndividual,
+                            board.getWebUrl() );
+                }
+            } else {
+                throw new GeneralLoggingException(
+                        this.getClass()
+                                + ":createBoardInstance(): No OWL class found in the used ontology for the LMS course set. The class must have the URI: "
+                                + CLASS_BOARD,
+                        "Internal error in the CourseCreation. See the logs" );
+            }
+        } catch( final URISyntaxException e ) {
+            throw new GeneralLoggingException(
+                    this.getClass()
+                            + ":createBoardInstance(): invalid URI returned by course: "
+                            + board.getTitle(),
+                    "Internal error in the CourseCreation. See the logs" );
+        }
+        
+    }
+
+    /**
+     * Create a single OWL instance / individual for the given course instance.
      * 
      * @param course
      * @throws GeneralLoggingException
@@ -73,14 +124,17 @@ public class CourseCreationStrategy extends ACreationStrategy {
                 // create individual
                 final Individual courseIndividual = this.createIndividual(
                         course, courseClassResource );
-                
+
                 /*
                  * ###### add properties ######
                  */
-                
-                // add title          
-                super.addPropertyDataTitle( courseIndividual, course.getTitle() ); 
-                super.addPropertyDataWebUrl( courseIndividual, course.getUrl() );                
+
+                // add title and web url
+                super.addPropertyDataTitle( courseIndividual, course.getTitle() );
+                if( null != course.getWebUrl() ) {
+                    super.addPropertyDataWebUrl( courseIndividual,
+                            course.getWebUrl() );
+                }
             } else {
                 throw new GeneralLoggingException(
                         this.getClass()
@@ -98,7 +152,7 @@ public class CourseCreationStrategy extends ACreationStrategy {
     }
 
     /**
-     * Create a single OWL instance for the courseSet instance.
+     * Create a single OWL instance / individual for the courseSet instance.
      * 
      * @param courseSet
      * @throws GeneralLoggingException
@@ -113,10 +167,11 @@ public class CourseCreationStrategy extends ACreationStrategy {
             if( null != lmsClassResource
                     && ontModel.containsResource( lmsClassResource ) ) {
                 // found resource
-                final Individual lmsIndividual = this.createIndividual( courseSet, lmsClassResource );
+                final Individual lmsIndividual = this.createIndividual(
+                        courseSet, lmsClassResource );
 
                 // add title
-                super.addPropertyDataTitle( lmsIndividual, courseSet.getName() );                
+                super.addPropertyDataTitle( lmsIndividual, courseSet.getName() );
 
             } else {
                 // no resource found for LMS class

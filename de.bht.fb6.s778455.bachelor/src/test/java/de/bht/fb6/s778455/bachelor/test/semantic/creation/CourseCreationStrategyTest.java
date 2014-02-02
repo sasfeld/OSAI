@@ -18,10 +18,12 @@ import com.hp.hpl.jena.datatypes.xsd.XSDDatatype;
 import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.rdf.model.RDFNode;
 
+import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.semantic.creation.ACreationStrategy;
 import de.bht.fb6.s778455.bachelor.semantic.creation.CourseCreationStrategy;
 import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
+import de.bht.fb6.s778455.bachelor.semantic.store.vocabulary.IDCTerms;
 import de.bht.fb6.s778455.bachelor.semantic.store.vocabulary.IOwlClasses;
 import de.bht.fb6.s778455.bachelor.semantic.store.vocabulary.IOwlDatatypeProperties;
 import de.bht.fb6.s778455.bachelor.test.framework.JenaFrameworkTest;
@@ -58,6 +60,51 @@ public class CourseCreationStrategyTest extends LoggingAwareTest implements IOwl
         this.adapter = null;
     }
 
+    @Test
+    public void testCreateCourseInstance() throws NoSuchMethodException,
+            SecurityException, IllegalAccessException,
+            IllegalArgumentException, InvocationTargetException {
+        final LmsCourseSet courseSet = new LmsCourseSet( "unittestcourseset" );
+        final Course course = new Course( "unittestcourse", courseSet );
+        course.setWebUrl( "http://example.org" );
+        course.setId( 1 );
+
+        final Method m = CourseCreationStrategy.class.getDeclaredMethod(
+                "createCourseInstance", Course.class );
+        m.setAccessible( true );
+
+        m.invoke( this.strategy, course );
+
+        // assert statements for the courseSet are contained
+        final Set< Individual > indis = this.adapter.getOntologieIndividuals();
+        System.out.println("Indis: \n\n" + indis);
+        
+        boolean classMatched = false;
+        for( final Individual individual : indis ) {
+            System.out.println("indi uri: " + individual.getURI() + "\n");
+            if( individual.getOntClass()
+                    .equals(
+                            this.adapter.getPureOntologyModel().getOntClass(
+                                    CLASS_COURSE ) ) ) {
+                classMatched = true;
+                final RDFNode title = individual.getPropertyValue( this.adapter.getPureOntologyModel().getProperty( PROPERTY_DATA_TITLE ) );
+                
+                // assert datatype of object 'title'
+                assertTrue ( title.isLiteral() );
+                assertTrue ( title.asLiteral().getDatatypeURI().equals( XSDDatatype.XSDstring.getURI() ));
+                assertEquals ( "unittestcourse", title.asLiteral().getString() );
+                
+                // assert datatype 'property_data_web_url'
+                final RDFNode webUrl = individual.getPropertyValue( this.adapter.getPureOntologyModel().getProperty( PROPERTY_DATA_WEB_URI ) );
+                assertTrue( webUrl.isLiteral() );
+                assertTrue ( webUrl.asLiteral().getDatatypeURI().equals( IDCTerms.DCTERMS_URI ));
+                assertEquals ( "http://example.org", webUrl.asLiteral().getString());
+            }
+        }
+        
+        assertTrue( classMatched );
+    }
+    
     @Test
     public void testCreateLmsInstance() throws NoSuchMethodException,
             SecurityException, IllegalAccessException,

@@ -143,7 +143,7 @@ public class AuditoriumDbQuerier {
 				final Course newCourse = new Course( title, auditoriumCourseSet );
 				newCourse.setId( id ).setCreationDate( createdAt )
 						.setModificationDate( updatedAt )
-						.setSummary( description ).setUrl( url );
+						.setSummary( description ).setWebUrl( url );
 
 				resultingMap.put( id, newCourse );
 			}
