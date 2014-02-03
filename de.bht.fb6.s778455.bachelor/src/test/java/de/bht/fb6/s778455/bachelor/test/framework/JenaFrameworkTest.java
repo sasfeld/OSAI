@@ -35,8 +35,9 @@ public class JenaFrameworkTest {
             final Dataset jenaStore = TDBFactory.createDataset( LOCATION_UNIT_TEST_DS );
             final File ontologyFile = ServiceFactory.getOntologyFile();
             final String ontologyBaseUri = ServiceFactory.getOntologyBaseUri();
+            final Boolean forceOntUpdate = ServiceFactory.getForceOntUpdate();
             adapter = new RdfTripleStoreAdapter( jenaStore, ontologyFile,
-                    ontologyBaseUri );                      
+                    ontologyBaseUri, forceOntUpdate );                      
         }
         
         return adapter;

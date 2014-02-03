@@ -11,4 +11,6 @@ package de.bht.fb6.s778455.bachelor.semantic.store.vocabulary;
  */
 public interface IUniqueGraphNames extends IBaseUris {    
     String URI_INFO_GRAPH = BASE_URI + "infograph";
+    
+    String URI_BARE_ONTOLOGY_GRAPH = BASE_URI + "ontology";
 }

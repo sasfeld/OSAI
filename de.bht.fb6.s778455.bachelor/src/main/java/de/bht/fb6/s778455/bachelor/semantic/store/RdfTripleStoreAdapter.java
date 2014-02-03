@@ -21,6 +21,7 @@ import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.ObjectProperty;
 import com.hp.hpl.jena.ontology.OntClass;
 import com.hp.hpl.jena.ontology.OntModel;
+import com.hp.hpl.jena.ontology.OntModelSpec;
 import com.hp.hpl.jena.query.Dataset;
 import com.hp.hpl.jena.query.ReadWrite;
 import com.hp.hpl.jena.rdf.model.Literal;
@@ -53,6 +54,10 @@ import de.bht.fb6.s778455.bachelor.semantic.store.vocabulary.IUniqueResources;
  */
 public class RdfTripleStoreAdapter implements IUniqueProperties,
         IUniqueResources, IUniqueGraphNames {
+    /**
+     * The {@link OntModelSpec} from Jena used for the {@link OntModel}.
+     */
+    public static final OntModelSpec ONT_MODEL_SPECIFICATION = OntModelSpec.OWL_DL_MEM_RDFS_INF;
     protected static final String STARTING_VERSION = "Initial version";
     protected Dataset jenaStore;
     protected boolean inTransaction;
@@ -73,6 +78,10 @@ public class RdfTripleStoreAdapter implements IUniqueProperties,
      */
     protected String currentVersion;
     private List< String > errors;
+    /**
+     * Flag whether the update of the ontology shall be forced.
+     */
+    private boolean forceUpdateOntology;
 
     /**
      * Create the adapter which access the given {@link Dataset} from the Jena
@@ -81,15 +90,19 @@ public class RdfTripleStoreAdapter implements IUniqueProperties,
      * @param jenaStore
      */
     public RdfTripleStoreAdapter( final Dataset jenaStore,
-            final File ontologyFile, final String ontologyBaseUri ) {
-        this.initialize( jenaStore, ontologyFile, ontologyBaseUri );
+            final File ontologyFile, final String ontologyBaseUri,
+            final boolean forceUpdateOntology ) {
+        this.initialize( jenaStore, ontologyFile, ontologyBaseUri,
+                forceUpdateOntology );
     }
 
     /**
      * @param jenaStore
+     * @param forceUpdateOntology2
      */
     protected void initialize( final Dataset jenaStore,
-            final File ontologyFile, final String ontologyBaseUri ) {
+            final File ontologyFile, final String ontologyBaseUri,
+            final boolean forceUpdateOntology ) {
         if( null == jenaStore || null == ontologyFile || !ontologyFile.exists()
                 || null == ontologyBaseUri ) {
             throw new IllegalArgumentException(
@@ -110,8 +123,9 @@ public class RdfTripleStoreAdapter implements IUniqueProperties,
         this.ontologyFile = ontologyFile;
         this.errors = new ArrayList<>();
         this.currentVersion = STARTING_VERSION;
+        this.forceUpdateOntology = forceUpdateOntology;
         this.loadCurrentVersion();
-        
+
         // load ontology model immediatly
         this.getPureOntologyModel();
     }
@@ -288,21 +302,61 @@ public class RdfTripleStoreAdapter implements IUniqueProperties,
      */
     public OntModel getPureOntologyModel() {
         if( null == this.ontologyModel ) {
-            // create default ontology model: OWL full language, in-memory
-            // storage, RDFS inference
-            this.ontologyModel = ModelFactory.createOntologyModel();
+            // try to get the ontology from the named graph
+            boolean containsNamedModel = false;
             try {
-                final FileInputStream fIn = new FileInputStream(
-                        this.ontologyFile );
-                this.ontologyModel.read( fIn,
-                        this.ontologyBaseUri.toExternalForm() );
-            } catch( final FileNotFoundException e ) {
-                Application.log( "Ontology file not found: "
-                        + this.ontologyFile, LogType.CRITICAL, this.getClass() );
+                this.beginTransaction( ReadWrite.READ );
+                containsNamedModel = this.jenaStore
+                        .containsNamedModel( URI_BARE_ONTOLOGY_GRAPH );
+            } finally {
+                this.endTransaction( false );
+            }
+
+            if( !this.forceUpdateOntology && containsNamedModel ) {
+                try {
+                    this.beginTransaction( ReadWrite.WRITE );
+                    final Model bareModel = this.jenaStore
+                            .getNamedModel( URI_BARE_ONTOLOGY_GRAPH );
+                    this.ontologyModel = ModelFactory.createOntologyModel(
+                            ONT_MODEL_SPECIFICATION, bareModel );
+                } finally {
+                    this.endTransaction( true );
+                }
+
+            } else {
+                // create default ontology model: OWL full language, in-memory
+                // storage, RDFS inference
+                this._fetchFreshOntModel();
             }
         }
 
         return this.ontologyModel;
+    }
+
+    /**
+     * Fetch the fresh ontology model directly from the original source.
+     */
+    protected void _fetchFreshOntModel() {
+        this.ontologyModel = ModelFactory
+                .createOntologyModel( ONT_MODEL_SPECIFICATION );
+        try {
+            final FileInputStream fIn = new FileInputStream( this.ontologyFile );
+            this.ontologyModel
+                    .read( fIn, this.ontologyBaseUri.toExternalForm() );
+
+            // save ontology in dataset
+            try {
+                this.beginTransaction( ReadWrite.WRITE );
+                this.jenaStore.addNamedModel( URI_BARE_ONTOLOGY_GRAPH,
+                        this.ontologyModel );
+                this.commitTransaction();
+            } finally {
+                this.endTransaction( false );
+            }
+        } catch( final FileNotFoundException e ) {
+            Application.log( "Ontology file not found: " + this.ontologyFile,
+                    LogType.CRITICAL, this.getClass() );
+        }
     }
 
     /**
@@ -368,7 +422,8 @@ public class RdfTripleStoreAdapter implements IUniqueProperties,
      * @param integrateOntology
      *            boolean whether the model shall be added to the pure ontology
      * @return String the version (name of the named graph to which the given
-     *         model was added) or null if no valid URL for the new version was generated
+     *         model was added) or null if no valid URL for the new version was
+     *         generated
      * @throws Exception
      */
     public String releaseModel( final Model newModel,
@@ -412,6 +467,17 @@ public class RdfTripleStoreAdapter implements IUniqueProperties,
         try {
             final URL newUrl = new URL( this.ontologyBaseUri.toExternalForm()
                     + "/" + this.getCurrentVersion() );
+            return newUrl;
+        } catch( final MalformedURLException e ) {
+            this.addError( "Illegal version URI: " + e );
+            return null;
+        }
+    }
+    
+    private URL getCurrentWorkingVersionUri() {
+        try {
+            final URL newUrl = new URL( this.ontologyBaseUri.toExternalForm()
+                    + "/" + this.getWorkingVersion() );
             return newUrl;
         } catch( final MalformedURLException e ) {
             this.addError( "Illegal version URI: " + e );
@@ -473,18 +539,18 @@ public class RdfTripleStoreAdapter implements IUniqueProperties,
 
         // if an info model doesn't exist yet, create one
         this.beginTransaction( ReadWrite.WRITE );
-        try {          
+        try {
             if( !this.jenaStore.containsNamedModel( URI_INFO_GRAPH ) ) {
                 final Model defaultM = ModelFactory.createDefaultModel();
                 defaultM.addLiteral( r, p, l );
-                this.jenaStore.addNamedModel( URI_INFO_GRAPH, defaultM );               
+                this.jenaStore.addNamedModel( URI_INFO_GRAPH, defaultM );
             } else {
                 final Model m = this.jenaStore.getNamedModel( URI_INFO_GRAPH );
-                m.addLiteral( r, p, l );                
+                m.addLiteral( r, p, l );
             }
-            
+
             this.commitTransaction();
-            
+
         } catch( final Exception e ) {
             throw new RdfTripleStoreException( e );
         } finally {
@@ -560,13 +626,15 @@ public class RdfTripleStoreAdapter implements IUniqueProperties,
 
     /**
      * Get the set of statements within the OntModel.
+     * 
      * @return
      */
     public Set< Statement > getOntologyStatements() {
-        final Iterator< Statement > it = this.getPureOntologyModel().listStatements();
+        final Iterator< Statement > it = this.getPureOntologyModel()
+                .listStatements();
         return CollectionUtil.buildSetFromIterator( it );
     }
-    
+
     /**
      * Get the current (latest) version of the graph in this TDB / jena store.
      * You can use it to get the named graph containing the tripels.
@@ -591,7 +659,7 @@ public class RdfTripleStoreAdapter implements IUniqueProperties,
         this.beginTransaction( ReadWrite.READ );
         try {
             final Iterator< Statement > it = this.jenaStore.getNamedModel(
-                    this.workingVersion ).listStatements();
+                    this.getCurrentWorkingVersionUri().toExternalForm() ).listStatements();
             final Set< Statement > set = CollectionUtil
                     .buildSetFromIterator( it );
             return set;

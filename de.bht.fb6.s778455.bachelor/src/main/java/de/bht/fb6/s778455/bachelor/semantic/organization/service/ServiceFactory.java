@@ -29,6 +29,7 @@ public class ServiceFactory {
 	private static RdfTripleStoreAdapter jenaAdapter;
     private static File ontologyFile;
     private static String ontologyBaseUri;
+    private static Boolean forceOntUpdate;
 
 	/**
 	 * Return the config Reader for the semantics module.
@@ -67,12 +68,24 @@ public class ServiceFactory {
 	    }	    
 	    
 	    if ( null == jenaAdapter ) {
-	        jenaAdapter = new RdfTripleStoreAdapter(jenaStore, getOntologyFile(), getOntologyBaseUri());
+	        jenaAdapter = new RdfTripleStoreAdapter(jenaStore, getOntologyFile(), getOntologyBaseUri(), getForceOntUpdate());
 	    }	    
 	    
 	    
 	    return jenaAdapter;
 	}
+
+	/**
+	 * Get the forceUpdateOnt flag.
+	 * @return
+	 */
+    public static boolean getForceOntUpdate() {
+        if ( null == forceOntUpdate) {
+            forceOntUpdate = Boolean.parseBoolean( getConfigReader().fetchValue( IConfigKeys.SEMANTICS_STORE_ONTOLOGY_FORCEUPDATE ) );
+        }
+        
+        return forceOntUpdate;
+    }
 
     /**
      * Get the ontology (.owl) file.
