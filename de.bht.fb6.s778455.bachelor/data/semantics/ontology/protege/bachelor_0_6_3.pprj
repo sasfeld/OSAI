@@ -1,4 +1,4 @@
-; Tue Feb 04 10:04:29 CET 2014
+; Tue Feb 04 10:38:16 CET 2014
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -231,31 +231,6 @@
 ([bachelor_0_6_3_ProjectKB_Class6] of  Property_List
 )
 
-([bachelor_0_6_3_ProjectKB_Class65] of  String
-
-	(name ":INSTANCE-ANNOTATION")
-	(string_value "%3AANNOTATION-TEXT"))
-
-([bachelor_0_6_3_ProjectKB_Class66] of  String
-
-	(name "http://www.w3.org/2002/07/owl#Class")
-	(string_value "%3ANAME"))
-
-([bachelor_0_6_3_ProjectKB_Class67] of  String
-
-	(name ":PAL-CONSTRAINT")
-	(string_value "%3APAL-NAME"))
-
-([bachelor_0_6_3_ProjectKB_Class68] of  String
-
-	(name ":META-CLASS")
-	(string_value "%3ANAME"))
-
-([bachelor_0_6_3_ProjectKB_Class69] of  String
-
-	(name "http://www.w3.org/2002/07/owl#Thing")
-	(string_value "%3ANAME"))
-
 ([bachelor_0_6_3_ProjectKB_Class7] of  Widget
 
 	(is_hidden TRUE)
@@ -264,6 +239,31 @@
 
 ([bachelor_0_6_3_ProjectKB_Class8] of  Property_List
 )
+
+([bachelor_0_6_3_ProjectKB_Class80] of  String
+
+	(name ":INSTANCE-ANNOTATION")
+	(string_value "%3AANNOTATION-TEXT"))
+
+([bachelor_0_6_3_ProjectKB_Class81] of  String
+
+	(name "http://www.w3.org/2002/07/owl#Class")
+	(string_value "%3ANAME"))
+
+([bachelor_0_6_3_ProjectKB_Class82] of  String
+
+	(name ":PAL-CONSTRAINT")
+	(string_value "%3APAL-NAME"))
+
+([bachelor_0_6_3_ProjectKB_Class83] of  String
+
+	(name ":META-CLASS")
+	(string_value "%3ANAME"))
+
+([bachelor_0_6_3_ProjectKB_Class84] of  String
+
+	(name "http://www.w3.org/2002/07/owl#Thing")
+	(string_value "%3ANAME"))
 
 ([bachelor_0_6_3_ProjectKB_Class9] of  Widget
 
@@ -274,11 +274,11 @@
 ([BROWSER_SLOT_NAMES] of  Property_List
 
 	(properties
-		[bachelor_0_6_3_ProjectKB_Class65]
-		[bachelor_0_6_3_ProjectKB_Class66]
-		[bachelor_0_6_3_ProjectKB_Class67]
-		[bachelor_0_6_3_ProjectKB_Class68]
-		[bachelor_0_6_3_ProjectKB_Class69]))
+		[bachelor_0_6_3_ProjectKB_Class80]
+		[bachelor_0_6_3_ProjectKB_Class81]
+		[bachelor_0_6_3_ProjectKB_Class82]
+		[bachelor_0_6_3_ProjectKB_Class83]
+		[bachelor_0_6_3_ProjectKB_Class84]))
 
 ([CLSES_TAB] of  Widget
 

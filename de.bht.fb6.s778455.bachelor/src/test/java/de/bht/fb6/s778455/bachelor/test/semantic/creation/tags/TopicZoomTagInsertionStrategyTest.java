@@ -3,7 +3,7 @@
  */
 package de.bht.fb6.s778455.bachelor.test.semantic.creation.tags;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -17,7 +17,6 @@ import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
 import de.bht.fb6.s778455.bachelor.model.TopicZoomTag;
-import de.bht.fb6.s778455.bachelor.semantic.creation.CourseCreationStrategy;
 import de.bht.fb6.s778455.bachelor.semantic.creation.tags.TopicZoomTagInsertionStrategy;
 import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
 import de.bht.fb6.s778455.bachelor.semantic.store.vocabulary.IOwlDatatypeProperties;
