@@ -102,8 +102,7 @@ public class SemanticCreationController {
                     .getServiceFactory()
                     .getConfigReader()
                     .getConfiguredClass(
-                            this.getServiceFactory().getConfigReader()
-                                    .fetchValue( creationStrategy ) );
+                           creationStrategy  );
 
             if( this.printInfo ) {
                 System.out.println( "Created class " + strat.getClass() );

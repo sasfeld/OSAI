@@ -25,6 +25,7 @@ import de.bht.fb6.s778455.bachelor.model.tools.CourseUtil;
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.semantic.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
 
 /**
@@ -37,6 +38,14 @@ import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
  * 
  */
 public class TopicZoomTagInsertionStrategy extends ATagInsertionStrategy {
+    /**
+     * Create a new strategy which fetches the {@link RdfTripleStoreAdapter}
+     * from the {@link ServiceFactory}.
+     */
+    public TopicZoomTagInsertionStrategy() {
+        super();
+    }
+    
     /**
      * Create a new strategy with an injected {@link RdfTripleStoreAdapter}.
      * 

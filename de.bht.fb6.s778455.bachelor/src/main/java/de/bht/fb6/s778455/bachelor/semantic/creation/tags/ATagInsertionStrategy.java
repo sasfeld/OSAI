@@ -10,6 +10,7 @@ import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Tag;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.semantic.creation.ACreationStrategy;
+import de.bht.fb6.s778455.bachelor.semantic.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
 
 /**
@@ -21,6 +22,14 @@ import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
  */
 public abstract class ATagInsertionStrategy extends ACreationStrategy {
 
+    /**
+     * Create a new strategy which fetches the {@link RdfTripleStoreAdapter}
+     * from the {@link ServiceFactory}.
+     */
+    public ATagInsertionStrategy() {
+        super();
+    }
+    
     /**
      * Create a new strategy with an injected {@link RdfTripleStoreAdapter}.
      * @param adapter
