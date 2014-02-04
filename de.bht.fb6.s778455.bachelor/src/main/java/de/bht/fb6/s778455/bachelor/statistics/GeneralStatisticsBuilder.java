@@ -90,4 +90,21 @@ public class GeneralStatisticsBuilder extends DecoratingStatisticsBuilder {
         return model;
     }
 
+    @Override
+    /*
+     * (non-Javadoc)
+     * @see de.bht.fb6.s778455.bachelor.statistics.DecoratingStatisticsBuilder#getStringRepresentation()
+     */
+    public String getStringRepresentation() {
+        final StringBuilder builder = new StringBuilder();
+        builder.append( super.getStringRepresentation() );
+        
+        builder.append( "Number of courses: " + this.model.getNumberCourses() + "\n" );
+        builder.append( "Number of board: " + this.model.getNumberBoards() + "\n" );
+        builder.append( "Number of threads: " + this.model.getNumberThreads() + "\n" );
+        builder.append( "Number of postings: " + this.model.getNumberPostings() + "\n" );
+        
+        return builder.toString();
+    }
+
 }

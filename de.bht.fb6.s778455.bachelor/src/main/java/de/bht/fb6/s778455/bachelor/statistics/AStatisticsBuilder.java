@@ -40,4 +40,10 @@ public abstract class AStatisticsBuilder {
 	 * @return a fresh {@link StatisticsModel}
 	 */
 	public abstract StatisticsModel buildStatistics(final LmsCourseSet courses);
+	
+	/**
+	 * Prepare a string that contains the most common info in a proper way.
+	 * @return
+	 */
+	public abstract String getStringRepresentation();
 }
