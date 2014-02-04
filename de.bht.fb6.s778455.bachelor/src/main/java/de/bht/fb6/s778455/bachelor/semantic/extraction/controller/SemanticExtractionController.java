@@ -62,7 +62,7 @@ public class SemanticExtractionController {
     /**
      * Create a new semantic extraction controller.
      * 
-     * @param statisticsMode
+     * @param showInfo  set to true if you desire to print the working status on stdout.
      * 
      * @throws InvalidConfigException
      * @throws IllegalArgumentException

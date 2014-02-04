@@ -30,6 +30,7 @@ public class ServiceFactory {
     private static File ontologyFile;
     private static String ontologyBaseUri;
     private static Boolean forceOntUpdate;
+    private static ServiceFactory instance;
 
 	/**
 	 * Return the config Reader for the semantics module.
@@ -109,5 +110,17 @@ public class ServiceFactory {
         }
         
         return ontologyBaseUri;
+    }
+
+    /**
+     * Get the serviceFactory instance.
+     * @return
+     */
+    public static ServiceFactory getInstance() {
+       if ( null == instance ) {
+           instance = new ServiceFactory();
+       }
+       
+       return instance;
     }
 }

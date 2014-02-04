@@ -114,4 +114,12 @@ public interface IConfigKeys {
 	String SEMANTICS_STORE_ONTOLOGY_FILE = "semantics.store.ontology.file";
     String SEMANTICS_STORE_ONTOLOGY_BASEURI = "semantics.store.ontology.baseuri";
     String SEMANTICS_STORE_ONTOLOGY_FORCEUPDATE = "semantics.store.ontology.forceupdate";
+    
+
+    /*
+     * Semantics: creation 
+     */
+    String SEMANTICS_CREATION_STRATEGY_COURSECREATION = "semantics.creation.strategy.coursecreation";
+    String SEMANTICS_CREATION_STRATEGY_TOPICZOOM = "semantics.creation.strategy.topiczoom";
+    String SEMANTICS_CREATION_STRATEGY_CHAIN = "semantics.creation.strategy.chain";
 }
