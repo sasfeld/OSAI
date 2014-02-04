@@ -45,7 +45,7 @@ public class TopicZoomTagInsertionStrategy extends ATagInsertionStrategy {
     public TopicZoomTagInsertionStrategy() {
         super();
     }
-    
+
     /**
      * Create a new strategy with an injected {@link RdfTripleStoreAdapter}.
      * 
@@ -68,18 +68,26 @@ public class TopicZoomTagInsertionStrategy extends ATagInsertionStrategy {
         this.addNodesForTzTags( courseSet );
 
         for( final Course course : courseSet ) {
-            this.addTopics( course, course.getTags( TagType.TOPIC_ZOOM ) );
+            if( course.isTopicZoomTagged() ) {
+                this.addTopics( course, course.getTags( TagType.TOPIC_ZOOM ) );
+            }
 
             for( final Board board : course.getBoards() ) {
-                this.addTopics( board, board.getTags( TagType.TOPIC_ZOOM ) );
+                if( board.isTopicZoomTagged() ) {
+                    this.addTopics( board, board.getTags( TagType.TOPIC_ZOOM ) );
+                }
 
                 for( final BoardThread boardThread : board.getBoardThreads() ) {
-                    this.addTopics( boardThread,
-                            boardThread.getTags( TagType.TOPIC_ZOOM ) );
+                    if( boardThread.isTopicZoomTagged() ) {
+                        this.addTopics( boardThread,
+                                boardThread.getTags( TagType.TOPIC_ZOOM ) );
+                    }
 
                     for( final Posting posting : boardThread.getPostings() ) {
-                        this.addTopics( posting,
-                                posting.getTags( TagType.TOPIC_ZOOM ) );
+                        if( posting.isTopicZoomTagged() ) {
+                            this.addTopics( posting,
+                                    posting.getTags( TagType.TOPIC_ZOOM ) );
+                        }
                     }
                 }
             }

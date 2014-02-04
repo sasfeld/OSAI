@@ -75,7 +75,7 @@ public class SemanticCreationCliController {
             throw new IllegalStateException( "Import was already performed!" );
         }      
 
-        this.importStrategy.importBoardFromFile( this.inputFile );
+        this.importedCourses = this.importStrategy.importBoardFromFile( this.inputFile );
 
         return true;
     }
@@ -118,6 +118,10 @@ public class SemanticCreationCliController {
      * @return
      */
     public String getStatistics() {
+        if ( null == this.importedCourses ) {
+            throw new IllegalStateException( "You need to perform creation before!" );
+        }
+        
         final GeneralStatisticsBuilder statBuilder = new GeneralStatisticsBuilder();
 
         statBuilder

@@ -42,6 +42,10 @@ public class GeneralStatisticsBuilder extends DecoratingStatisticsBuilder {
      */
     @Override
     public StatisticsModel buildStatistics( final LmsCourseSet courses ) {
+        if ( null == courses ) {
+            throw new IllegalArgumentException( "Null is not allowed as parameter value!" );
+        }
+        
         final StatisticsModel model = super.buildStatistics( courses );
 
         final int numberCourses = courses.size();

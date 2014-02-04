@@ -5,8 +5,10 @@
 package de.bht.fb6.s778455.bachelor.model;
 
 import java.io.Serializable;
+import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
@@ -65,7 +67,7 @@ public class Course implements Serializable, IDirectoryPortable, IRdfUsable {
     protected List< Board > boards;
     protected PersonNameCorpus personNameCorpus;
     protected Map< LearnedWordTypes, Set< String > > learnedWords;
-    protected String url;
+    protected URL webUrl;
     protected Map< TagType, List< Tag > > tagMap;
     protected Language language;
     protected LmsCourseSet lmsCourseSet;
@@ -454,7 +456,7 @@ public class Course implements Serializable, IDirectoryPortable, IRdfUsable {
         txtExport.append( "TITLE: " + this.getTitle() + "\n" );
         txtExport.append( "LANGUAGE: " + this.getLanguage() + "\n" );
         txtExport.append( "SUMMARY: " + this.getSummary() + "\n" );
-        final String url = this.getWebUrl();
+        final String url = this.getWebUrl().toExternalForm();
 
         if( null != url ) {
             txtExport.append( "URL: " + url + "\n" );
@@ -576,7 +578,11 @@ public class Course implements Serializable, IDirectoryPortable, IRdfUsable {
         } else if( key.equals( "SUMMARY" ) ) {
             this.setSummary( value );
         } else if( key.equals( "URL" ) ) {
-            this.setWebUrl( value );
+            try {
+                this.setWebUrl( new URL( value ) );
+            } catch ( final MalformedURLException e ) {
+                Application.log( "Invalid URL permitted: "+value, LogType.ERROR, this.getClass() );
+            }
         } else if( key.equals( "TOPIC_ZOOM_TAG" ) ) {
             this.parseTopicZoomValue( value );
         } else if( key.equals( "NER_TAG" ) ) {
@@ -791,7 +797,7 @@ public class Course implements Serializable, IDirectoryPortable, IRdfUsable {
         result = prime * result
                 + ( ( this.title == null ) ? 0 : this.title.hashCode() );
         result = prime * result
-                + ( ( this.url == null ) ? 0 : this.url.hashCode() );
+                + ( ( this.webUrl == null ) ? 0 : this.webUrl.hashCode() );
         return result;
     }
 
@@ -863,10 +869,10 @@ public class Course implements Serializable, IDirectoryPortable, IRdfUsable {
                 return false;
         } else if( !this.title.equals( other.title ) )
             return false;
-        if( this.url == null ) {
-            if( other.url != null )
+        if( this.webUrl == null ) {
+            if( other.webUrl != null )
                 return false;
-        } else if( !this.url.equals( other.url ) )
+        } else if( !this.webUrl.equals( other.webUrl ) )
             return false;
         return true;
     }
@@ -919,13 +925,13 @@ public class Course implements Serializable, IDirectoryPortable, IRdfUsable {
      * @param url
      * @return
      */
-    public Course setWebUrl( final String url ) {
-        this.url = url;
+    public Course setWebUrl( final URL url ) {
+        this.webUrl = url;
         return this;
     }
 
-    public String getWebUrl() {
-        return this.url;
+    public URL getWebUrl() {
+        return this.webUrl;
     }
 
     /**
@@ -963,19 +969,19 @@ public class Course implements Serializable, IDirectoryPortable, IRdfUsable {
      * @see de.bht.fb6.s778455.bachelor.model.IRdfUsable#getRdfUri()
      */
     public URI getRdfUri() throws URISyntaxException {
-//        // first try to get URL from import
-//        final String url = this.getUrl();
-//
+        // // first try to get URL from import
+        // final String url = this.getUrl();
+        //
         // URL exists, so try to embed in URI instance
         URI uri = null;
-//
-//        if( null != url ) {
-//            try {
-//                uri = new URI( url );
-//            } catch( final URISyntaxException e ) {
-//                // leave uri null
-//            }
-//        }
+        //
+        // if( null != url ) {
+        // try {
+        // uri = new URI( url );
+        // } catch( final URISyntaxException e ) {
+        // // leave uri null
+        // }
+        // }
 
         // if uri is still null, generate one
         if( null == uri ) {

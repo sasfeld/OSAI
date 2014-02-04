@@ -9,6 +9,8 @@ import static org.junit.Assert.assertTrue;
 import java.io.File;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -90,9 +92,9 @@ public class DirectoyExportStrategyTest {
 	 * ##################################
 	 */
 	@Test
-	public void testExport() throws GeneralLoggingException {			
+	public void testExport() throws GeneralLoggingException, MalformedURLException {			
 		final Course course = new Course( "Sample course", new LmsCourseSet( "unit test course set" )  );
-		course.setWebUrl( "http://test.de" );
+		course.setWebUrl( new URL( "http://test.de" ));
 		course.setLanguage( Language.GERMAN );
 		course.addTag( new PosTag( "NN", 0.0, "Beispiel", "beispiel.xad" ), TagType.POS_TAG );
 		course.addTag( new NerTag( "I-LOC", 0.0, "Berlin", "berlin.xad" ), TagType.NER_TAG );

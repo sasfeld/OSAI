@@ -4,6 +4,7 @@
 package de.bht.fb6.s778455.bachelor.semantic.creation;
 
 import java.net.URISyntaxException;
+import java.net.URL;
 
 import com.hp.hpl.jena.datatypes.xsd.XSDDatatype;
 import com.hp.hpl.jena.ontology.Individual;
@@ -20,7 +21,9 @@ import com.hp.hpl.jena.rdf.model.ResourceFactory;
 import de.bht.fb6.s778455.bachelor.model.IRdfUsable;
 import de.bht.fb6.s778455.bachelor.model.Language;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
+import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 import de.bht.fb6.s778455.bachelor.semantic.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
 import de.bht.fb6.s778455.bachelor.semantic.store.vocabulary.IDCTerms;
@@ -186,7 +189,7 @@ public abstract class ACreationStrategy implements IOwlClasses,
      * @throws GeneralLoggingException
      */
     public void addPropertyDataWebUrl( final Individual courseIndividual,
-            final String url ) throws GeneralLoggingException {
+            final URL url ) throws GeneralLoggingException {
         // get property instance
         final Property uriProperty = this.getOntologyModel().createProperty(
                 PROPERTY_DATA_WEB_URI );
@@ -264,6 +267,11 @@ public abstract class ACreationStrategy implements IOwlClasses,
         if( null == model || null == lang ) {
             throw new IllegalArgumentException(
                     "Null values are not allowed as parameters!" );
+        }
+        // don't map unknown language. do a log entry and return to the calling method
+        if ( lang.equals( Language.UNKNOWN )) {
+            Application.log( "createLanguageEdge(): unknown language can't be mapped. Model: " + model, LogType.WARNING, this.getClass() );
+            return;
         }
 
         final OntModel ontModel = this.getOntologyModel();

@@ -5,8 +5,10 @@ package de.bht.fb6.s778455.bachelor.test.model;
 
 import static org.junit.Assert.assertEquals;
 
+import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.net.URL;
 
 import org.junit.After;
 import org.junit.Before;
@@ -46,7 +48,7 @@ public class IRdfUsableTest {
     }
 
     @Test
-    public void testForCourse() throws URISyntaxException {
+    public void testForCourse() throws URISyntaxException, MalformedURLException {
         final Course course = new Course( "unittestcourse", this.courseSet );
         course.setId( 1 );
         final IRdfUsable rdfUsable = course;
@@ -58,7 +60,7 @@ public class IRdfUsableTest {
         assertEquals( expected, rdfUsable.getRdfUri() );
         
         // assert that predefined uris are prefered
-        course.setWebUrl( "http://example.org" );        
+        course.setWebUrl( new URL ("http://example.org" ) );        
         expected = new URI( "http://example.org" );        
         assertEquals( expected, rdfUsable.getRdfUri() );
     }

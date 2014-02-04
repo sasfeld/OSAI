@@ -3,6 +3,8 @@
  */
 package de.bht.fb6.s778455.bachelor.importer.auditorium;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -143,7 +145,13 @@ public class AuditoriumDbQuerier {
 				final Course newCourse = new Course( title, auditoriumCourseSet );
 				newCourse.setId( id ).setCreationDate( createdAt )
 						.setModificationDate( updatedAt )
-						.setSummary( description ).setWebUrl( url );
+						.setSummary( description );
+				
+				try {
+				    newCourse.setWebUrl( new URL( url ) );
+				} catch ( final MalformedURLException e ) {
+				    Application.log( "Invalid URL in auditorium: " + url, LogType.ERROR, this.getClass() );
+				}
 
 				resultingMap.put( id, newCourse );
 			}

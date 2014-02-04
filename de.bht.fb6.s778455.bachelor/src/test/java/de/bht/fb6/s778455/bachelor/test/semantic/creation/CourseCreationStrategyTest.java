@@ -8,7 +8,9 @@ import static org.junit.Assert.assertTrue;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.net.MalformedURLException;
 import java.net.URISyntaxException;
+import java.net.URL;
 import java.util.Set;
 
 import org.junit.After;
@@ -77,23 +79,23 @@ public class CourseCreationStrategyTest extends LoggingAwareTest implements
     public void testCreateEdges() throws NoSuchMethodException,
             SecurityException, IllegalAccessException,
             IllegalArgumentException, InvocationTargetException,
-            URISyntaxException, GeneralLoggingException {
+            URISyntaxException, GeneralLoggingException, MalformedURLException {
         // createCourseBoardEdges
         final LmsCourseSet courseSet = new LmsCourseSet( "unittestcourseset" );
         final Course course = new Course( "unittestcourse", courseSet );
-        course.setWebUrl( "http://example.org" );
+        course.setWebUrl( new URL( "http://example.org" ));
         course.setId( 1 );
         course.setLanguage( Language.GERMAN );
         courseSet.add( course );
         final Board board = new Board( course, "unittestboard" );
         board.setId( 1 );
-        board.setWebUrl( "http://board.example.org" );
+        board.setWebUrl( new URL( "http://board.example.org" ));
         board.setLang( Language.GERMAN );
         course.addBoard( board );
         final BoardThread thread = new BoardThread( board );
         thread.setId( 1 );
         thread.setTitle( "Some nice topic" );
-        thread.setWebUrl( "http://board.example.org/topic.php?id=1" );
+        thread.setWebUrl( new URL(  "http://board.example.org/topic.php?id=1" ) );
         thread.setLang( Language.GERMAN );
         board.addThread( thread ); 
         final Posting posting = new Posting( thread );
@@ -140,18 +142,18 @@ public class CourseCreationStrategyTest extends LoggingAwareTest implements
     @Test
     public void testCreatePostingInstance() throws NoSuchMethodException,
             SecurityException, IllegalAccessException,
-            IllegalArgumentException, InvocationTargetException {
+            IllegalArgumentException, InvocationTargetException, MalformedURLException {
         final LmsCourseSet courseSet = new LmsCourseSet( "unittestcourseset" );
         final Course course = new Course( "unittestcourse", courseSet );
-        course.setWebUrl( "http://example.org" );
+        course.setWebUrl( new URL ( "http://example.org" ));
         course.setId( 1 );
         final Board board = new Board( course, "unittestboard" );
         board.setId( 1 );
-        board.setWebUrl( "http://board.example.org" );
+        board.setWebUrl( new URL( "http://board.example.org" ) );
         final BoardThread thread = new BoardThread( board );
         thread.setId( 1 );
         thread.setTitle( "Some nice topic" );
-        thread.setWebUrl( "http://board.example.org/topic.php?id=1" );
+        thread.setWebUrl( new URL( "http://board.example.org/topic.php?id=1" ));
         final Posting posting = new Posting( thread );
         posting.setId( 1 );
         posting.setTitle( "Some nice posting" );
@@ -192,18 +194,18 @@ public class CourseCreationStrategyTest extends LoggingAwareTest implements
     @Test
     public void testCreateThreadInstance() throws NoSuchMethodException,
             SecurityException, IllegalAccessException,
-            IllegalArgumentException, InvocationTargetException {
+            IllegalArgumentException, InvocationTargetException, MalformedURLException {
         final LmsCourseSet courseSet = new LmsCourseSet( "unittestcourseset" );
         final Course course = new Course( "unittestcourse", courseSet );
-        course.setWebUrl( "http://example.org" );
+        course.setWebUrl( new URL ("http://example.org" ));
         course.setId( 1 );
         final Board board = new Board( course, "unittestboard" );
         board.setId( 1 );
-        board.setWebUrl( "http://board.example.org" );
+        board.setWebUrl( new URL(  "http://board.example.org" ));
         final BoardThread thread = new BoardThread( board );
         thread.setId( 1 );
         thread.setTitle( "Some nice topic" );
-        thread.setWebUrl( "http://board.example.org/topic.php?id=1" );
+        thread.setWebUrl( new URL( "http://board.example.org/topic.php?id=1"  ));
 
         final Method m = CourseCreationStrategy.class.getDeclaredMethod(
                 "createThreadInstance", BoardThread.class );
@@ -250,14 +252,14 @@ public class CourseCreationStrategyTest extends LoggingAwareTest implements
     @Test
     public void testCreateBoardInstance() throws NoSuchMethodException,
             SecurityException, IllegalAccessException,
-            IllegalArgumentException, InvocationTargetException {
+            IllegalArgumentException, InvocationTargetException, MalformedURLException {
         final LmsCourseSet courseSet = new LmsCourseSet( "unittestcourseset" );
         final Course course = new Course( "unittestcourse", courseSet );
-        course.setWebUrl( "http://example.org" );
+        course.setWebUrl( new URL ("http://example.org" ));
         course.setId( 1 );
         final Board board = new Board( course, "unittestboard" );
         board.setId( 1 );
-        board.setWebUrl( "http://board.example.org" );
+        board.setWebUrl( new URL( "http://board.example.org" ));
 
         final Method m = CourseCreationStrategy.class.getDeclaredMethod(
                 "createBoardInstance", Board.class );
@@ -304,10 +306,10 @@ public class CourseCreationStrategyTest extends LoggingAwareTest implements
     @Test
     public void testCreateCourseInstance() throws NoSuchMethodException,
             SecurityException, IllegalAccessException,
-            IllegalArgumentException, InvocationTargetException {
+            IllegalArgumentException, InvocationTargetException, MalformedURLException {
         final LmsCourseSet courseSet = new LmsCourseSet( "unittestcourseset" );
         final Course course = new Course( "unittestcourse", courseSet );
-        course.setWebUrl( "http://example.org" );
+        course.setWebUrl( new URL ("http://example.org" ));
         course.setId( 1 );
 
         final Method m = CourseCreationStrategy.class.getDeclaredMethod(

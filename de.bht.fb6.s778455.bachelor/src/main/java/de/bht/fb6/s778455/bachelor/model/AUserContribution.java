@@ -3,7 +3,9 @@
  */
 package de.bht.fb6.s778455.bachelor.model;
 
+import java.net.MalformedURLException;
 import java.net.URISyntaxException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
@@ -37,8 +39,8 @@ public abstract class AUserContribution implements IDirectoryPortable, IRdfUsabl
 	protected int id;
 	protected Language lang;
 	protected Course course;
-	
-	protected Map< TagType, List< Tag > > tagMap;
+	protected URL webUrl;
+    protected Map< TagType, List< Tag > > tagMap;
 
 	/**
 	 * New UserContribution with link to course instance
@@ -363,6 +365,9 @@ public abstract class AUserContribution implements IDirectoryPortable, IRdfUsabl
 		}
 		exportStr.append( "TITLE: " + this.getTitle() + "\n" );
 		exportStr.append( "LANGUAGE: " + this.getLang() + "\n" );
+		if ( null != this.getWebUrl() ) {
+		    exportStr.append( "WEB_URL: " + this.getWebUrl().toExternalForm() );
+		}
 
 		// tags
 		final List< Tag > topicZoomTags = this.getTags( TagType.TOPIC_ZOOM );
@@ -481,6 +486,12 @@ public abstract class AUserContribution implements IDirectoryPortable, IRdfUsabl
 		    this.parsePosTagValue( value );
 		} else if ( key.equals( "LANGUAGE" )) {
 		    this.setLang( Language.getFromString( value ) );
+		} else if ( key.equals( "WEB_URL" )) {
+		    try {
+		        this.setWebUrl( new URL( value ) );
+		    } catch ( final MalformedURLException e ) {
+		        Application.log( "Illegal value for WEB_URI given: "+value, LogType.ERROR, this.getClass() );
+		    }
 		}
 
 	}
@@ -658,5 +669,19 @@ public abstract class AUserContribution implements IDirectoryPortable, IRdfUsabl
      */
     public Course getBelongingCourse() {
         return this.course;
+    }
+    
+    /**
+     * @return the webUrl
+     */
+    public final URL getWebUrl() {
+        return this.webUrl;
+    }
+
+    /**
+     * @param webUrl the webUrl to set
+     */
+    public final void setWebUrl( final URL webUrl ) {
+        this.webUrl = webUrl;
     }
 }
