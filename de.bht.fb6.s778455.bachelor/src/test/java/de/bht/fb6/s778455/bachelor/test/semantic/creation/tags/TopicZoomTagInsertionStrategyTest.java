@@ -14,6 +14,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.Language;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
 import de.bht.fb6.s778455.bachelor.model.TopicZoomTag;
@@ -65,6 +66,7 @@ public class TopicZoomTagInsertionStrategyTest extends LoggingAwareTest implemen
     public void testCreateRdfTriples() throws GeneralLoggingException, URISyntaxException {
         final LmsCourseSet courseSet = new LmsCourseSet( "unittestcourseset" );
         final Course testCourse = new Course( "unittestcourse", courseSet );
+        testCourse.setLanguage( Language.GERMAN );
         final TopicZoomTag tzTag = new TopicZoomTag( 6, 3, 7, "unittest",
                 "http://notexisting.tld/unittest" );
         testCourse.addTag( tzTag, TagType.TOPIC_ZOOM );
