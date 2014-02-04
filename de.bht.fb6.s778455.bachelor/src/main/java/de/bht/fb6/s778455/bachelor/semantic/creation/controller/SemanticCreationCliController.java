@@ -215,8 +215,23 @@ public class SemanticCreationCliController {
 
     }
 
-    private static char[] printHelp() {
-        // TODO Auto-generated method stub
-        return null;
+    private static String printHelp() {
+        final StringBuilder helpBuilder = new StringBuilder();
+
+        helpBuilder.append( "..:: HELP ::..\n" );
+        helpBuilder
+                .append( "The semantic creation tool takes the semantically enriched models and adds representations of them in an RDF network.\n" );
+        helpBuilder
+                .append( "The structure of the file system must follow the one described in the documentation (see FileSystemImportStrategy).\n" );
+        helpBuilder
+                .append( "In general, the structure was created by the semantic extraction module after it tagged the coures, boards, threads and postings, maybe defined the language and so on.\n" );
+        helpBuilder
+                .append( "Make sure, that you configured the semantic creation chain in the semantics.properties config file.\n" );
+        helpBuilder.append( "\n" );
+        helpBuilder.append( "Required arguments:\n\n" );
+        helpBuilder.append( "-inputfile [FILE]\n" );
+        helpBuilder.append( "\n\n" );
+
+        return helpBuilder.toString();
     }
 }
