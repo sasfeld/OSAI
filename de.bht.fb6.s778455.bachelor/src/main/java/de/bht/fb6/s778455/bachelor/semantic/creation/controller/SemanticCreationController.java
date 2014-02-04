@@ -3,8 +3,11 @@
  */
 package de.bht.fb6.s778455.bachelor.semantic.creation.controller;
 
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.hp.hpl.jena.rdf.model.Model;
 
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
@@ -12,6 +15,8 @@ import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
 import de.bht.fb6.s778455.bachelor.semantic.creation.ACreationStrategy;
 import de.bht.fb6.s778455.bachelor.semantic.organization.service.ServiceFactory;
+import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
+import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreException;
 
 /**
  * <p>
@@ -25,6 +30,8 @@ import de.bht.fb6.s778455.bachelor.semantic.organization.service.ServiceFactory;
 public class SemanticCreationController {
     private List< ACreationStrategy > creationStrategies;
     private final boolean printInfo;
+    private RdfTripleStoreAdapter rdfStoreAdapter;
+    private URL releasedVersionUri;
 
     /**
      * Create a new controller. No info will be printed.
@@ -33,6 +40,7 @@ public class SemanticCreationController {
      */
     public SemanticCreationController() throws InvalidConfigException {
         this.initializeStrategies();
+        this.initializeRdfStore();
 
         this.printInfo = false;
     }
@@ -48,8 +56,16 @@ public class SemanticCreationController {
     public SemanticCreationController( final boolean printInfo )
             throws InvalidConfigException {
         this.initializeStrategies();
+        this.initializeRdfStore();
 
         this.printInfo = printInfo;
+    }
+
+    /**
+     * Intialize the {@link RdfTripleStoreAdapter}
+     */
+    private void initializeRdfStore() {
+        this.rdfStoreAdapter = ServiceFactory.getJenaStoreAdapter();
     }
 
     /**
@@ -77,20 +93,22 @@ public class SemanticCreationController {
 
         for( final String creationStrategy : creationChain ) {
             if( this.printInfo ) {
-                System.out.println( "Trying to initialize configured class for " + creationStrategy );
+                System.out
+                        .println( "Trying to initialize configured class for "
+                                + creationStrategy );
             }
-            
+
             final ACreationStrategy strat = this
                     .getServiceFactory()
                     .getConfigReader()
                     .getConfiguredClass(
                             this.getServiceFactory().getConfigReader()
                                     .fetchValue( creationStrategy ) );
-            
+
             if( this.printInfo ) {
                 System.out.println( "Created class " + strat.getClass() );
             }
-            
+
             this.creationStrategies.add( strat );
         }
     }
@@ -99,20 +117,51 @@ public class SemanticCreationController {
      * Perform the creation of the semantic network.
      */
     public void performSemanticCreation( final LmsCourseSet inputCourseSet ) {
+        Model enrichedModel = null;
         for( final ACreationStrategy creationStrategy : this.creationStrategies ) {
             if( this.printInfo ) {
-               System.out.println( "Performing semantic creation with strategy " + creationStrategy.getClass() );
-            }            
-            
+                System.out
+                        .println( "Performing semantic creation with strategy "
+                                + creationStrategy.getClass() );
+            }
+
             try {
                 creationStrategy.createRdfTriples( inputCourseSet );
+                enrichedModel = creationStrategy.getEnrichedModel();
             } catch( final GeneralLoggingException e ) {
-               System.err.println( "Semantic creation failed: " + e.getMessage() );
+                System.err.println( "Semantic creation failed: "
+                        + e.getMessage() );
             }
-            
-            if ( this.printInfo ) {
+
+            if( this.printInfo ) {
                 System.out.println( "Semantic creation was succesful!" );
             }
+
         }
+
+        // release the ontology model which the creation strategy filled
+        if( null != enrichedModel ) {
+            try {
+                this.rdfStoreAdapter.releaseModel( enrichedModel, false );
+                this.releasedVersionUri = this.rdfStoreAdapter.getCurrentVersionUri();                
+            } catch( final RdfTripleStoreException e ) {
+                System.err
+                        .println( "Releasing the enriched model to the Jena triple store failed: "
+                                + e.getMessage() );
+            }
+        } else {
+            System.err.println( "Realeasing the enriched model failed: no model instance given." );
+        }
+    }
+    
+    /**
+     * Get the name (URI) of the named graph for the released model.
+     * @return
+     */
+    public String getUriForReleasedModel() {
+        if ( null == this.releasedVersionUri ) {
+            throw new IllegalStateException( "You need to perform the creation before calling this method!" );
+        }
+        return this.releasedVersionUri.toExternalForm();
     }
 }

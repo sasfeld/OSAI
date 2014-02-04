@@ -11,6 +11,7 @@ import com.hp.hpl.jena.ontology.ObjectProperty;
 import com.hp.hpl.jena.ontology.OntClass;
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.rdf.model.Literal;
+import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.Property;
 import com.hp.hpl.jena.rdf.model.RDFNode;
 import com.hp.hpl.jena.rdf.model.Resource;
@@ -109,6 +110,14 @@ public abstract class ACreationStrategy implements IOwlClasses,
      */
     public abstract void createRdfTriples( final LmsCourseSet courseSet )
             throws GeneralLoggingException;
+    
+    /**
+     * Get the {@link Model} which was enriched by this strategy.
+     * @return
+     */
+    public Model getEnrichedModel() {
+        return this.getOntologyModel();
+    }
 
     /**
      * Create an {@link Individual} in the ontology model.

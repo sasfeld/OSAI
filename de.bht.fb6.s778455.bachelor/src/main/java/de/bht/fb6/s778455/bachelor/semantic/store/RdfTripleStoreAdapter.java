@@ -463,7 +463,7 @@ public class RdfTripleStoreAdapter implements IUniqueProperties,
      * 
      * @return
      */
-    private URL getCurrentVersionUri() {
+    public URL getCurrentVersionUri() {
         try {
             final URL newUrl = new URL( this.ontologyBaseUri.toExternalForm()
                     + "/" + this.getCurrentVersion() );
