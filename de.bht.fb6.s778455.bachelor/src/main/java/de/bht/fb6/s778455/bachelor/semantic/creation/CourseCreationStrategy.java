@@ -103,25 +103,42 @@ public class CourseCreationStrategy extends ACreationStrategy {
             throws GeneralLoggingException {
         for( final Course course : courseSet ) {
             if( null != course.getLanguage() ) {
-                super.createLanguageEdge( course, course.getLanguage() );
+                try {
+                    super.createLanguageEdge( course, course.getLanguage() );
+                } catch( final GeneralLoggingException e ) {
+                    // don't react, already logged
+                }
             }
             for( final Board board : course.getBoards() ) {
                 if( null != board.getLang() ) {
-                    super.createLanguageEdge( board, board.getLang() );
+                    try {
+                        super.createLanguageEdge( board, board.getLang() );
+                    } catch( final GeneralLoggingException e ) {
+                        // don't react, already logged
+                    }
                 }
                 this.createEdge( course, board,
                         IOwlObjectProperties.PROPERTY_OBJECT_COURSE_BOARD );
 
                 for( final BoardThread thread : board.getBoardThreads() ) {
                     if( null != thread.getLang() ) {
-                        super.createLanguageEdge( thread, thread.getLang() );
+                        try {
+                            super.createLanguageEdge( thread, thread.getLang() );
+                        } catch( final GeneralLoggingException e ) {
+                            // don't react, already logged
+                        }
                     }
                     this.createEdge( board, thread,
                             IOwlObjectProperties.PROPERTY_OBJECT_BOARD_THREAD );
 
                     for( final Posting posting : thread.getPostings() ) {
                         if( null != posting.getLang() ) {
-                            super.createLanguageEdge( posting, posting.getLang() );
+                            try {
+                                super.createLanguageEdge( posting,
+                                        posting.getLang() );
+                            } catch( final GeneralLoggingException e ) {
+                                // don't react, already logged
+                            }
                         }
                         this.createEdge(
                                 thread,
@@ -132,8 +149,6 @@ public class CourseCreationStrategy extends ACreationStrategy {
             }
         }
     }
-
-   
 
     /**
      * Create a single OWL object property between the given course and the
@@ -154,18 +169,35 @@ public class CourseCreationStrategy extends ACreationStrategy {
                     .getRdfUri().toString() );
 
             // check if individuals exist
-            if( null == indLeft || !ontModel.containsResource( indLeft ) ) {
+            try {
+                if( null == indLeft || !ontModel.containsResource( indLeft ) ) {
+                    throw new GeneralLoggingException(
+                            this.getClass()
+                                    + ":createCourseBoardEdges(): No individual found for course: "
+                                    + leftSide.getRdfUri(),
+                            "Internal error in the CourseCreation. See the logs" );
+                }
+            } catch( final NullPointerException e ) {
                 throw new GeneralLoggingException(
                         this.getClass()
                                 + ":createCourseBoardEdges(): No individual found for course: "
                                 + leftSide.getRdfUri(),
                         "Internal error in the CourseCreation. See the logs" );
             }
-            if( null == indRight || !ontModel.containsResource( indRight ) ) {
+
+            try {
+                if( null == indRight || !ontModel.containsResource( indRight ) ) {
+                    throw new GeneralLoggingException(
+                            this.getClass()
+                                    + ":createCourseBoardEdges(): No individual found for board: "
+                                    + rightSide.getRdfUri(),
+                            "Internal error in the CourseCreation. See the logs" );
+                }
+            } catch( final NullPointerException e ) {
                 throw new GeneralLoggingException(
                         this.getClass()
-                                + ":createCourseBoardEdges(): No individual found for board: "
-                                + rightSide.getRdfUri(),
+                                + ":createCourseBoardEdges(): No individual found for course: "
+                                + leftSide.getRdfUri(),
                         "Internal error in the CourseCreation. See the logs" );
             }
 
@@ -218,11 +250,18 @@ public class CourseCreationStrategy extends ACreationStrategy {
                                 + CLASS_POSTING,
                         "Internal error in the CourseCreation. See the logs" );
             }
+
         } catch( final URISyntaxException e ) {
             throw new GeneralLoggingException(
                     this.getClass()
                             + ":createPostingInstance(): invalid URI returned by course: "
                             + posting.getTitle(),
+                    "Internal error in the CourseCreation. See the logs" );
+        } catch( final NullPointerException e ) {
+            throw new GeneralLoggingException(
+                    this.getClass()
+                            + ":createPostingInstance(): No OWL class found in the used ontology for the LMS course set. The class must have the URI: "
+                            + CLASS_POSTING,
                     "Internal error in the CourseCreation. See the logs" );
         }
     }
@@ -271,6 +310,12 @@ public class CourseCreationStrategy extends ACreationStrategy {
                             + ":createThreadInstance(): invalid URI returned by course: "
                             + thread.getTitle(),
                     "Internal error in the CourseCreation. See the logs" );
+        } catch( final NullPointerException e ) {
+            throw new GeneralLoggingException(
+                    this.getClass()
+                            + ":createPostingInstance(): No OWL class found in the used ontology for the LMS course set. The class must have the URI: "
+                            + CLASS_POSTING,
+                    "Internal error in the CourseCreation. See the logs" );
         }
 
     }
@@ -317,6 +362,12 @@ public class CourseCreationStrategy extends ACreationStrategy {
                     this.getClass()
                             + ":createBoardInstance(): invalid URI returned by course: "
                             + board.getTitle(),
+                    "Internal error in the CourseCreation. See the logs" );
+        } catch( final NullPointerException e ) {
+            throw new GeneralLoggingException(
+                    this.getClass()
+                            + ":createPostingInstance(): No OWL class found in the used ontology for the LMS course set. The class must have the URI: "
+                            + CLASS_POSTING,
                     "Internal error in the CourseCreation. See the logs" );
         }
 
@@ -365,6 +416,12 @@ public class CourseCreationStrategy extends ACreationStrategy {
                             + ":createCourseInstance(): invalid URI returned by course: "
                             + course.getShortName(),
                     "Internal error in the CourseCreation. See the logs" );
+        } catch( final NullPointerException e ) {
+            throw new GeneralLoggingException(
+                    this.getClass()
+                            + ":createPostingInstance(): No OWL class found in the used ontology for the LMS course set. The class must have the URI: "
+                            + CLASS_POSTING,
+                    "Internal error in the CourseCreation. See the logs" );
         }
     }
 
@@ -403,6 +460,12 @@ public class CourseCreationStrategy extends ACreationStrategy {
                     this.getClass()
                             + ":createLmsInstance(): invalid URI returned by courseSet: "
                             + courseSet.getName(),
+                    "Internal error in the CourseCreation. See the logs" );
+        } catch( final NullPointerException e ) {
+            throw new GeneralLoggingException(
+                    this.getClass()
+                            + ":createPostingInstance(): No OWL class found in the used ontology for the LMS course set. The class must have the URI: "
+                            + CLASS_POSTING,
                     "Internal error in the CourseCreation. See the logs" );
         }
     }

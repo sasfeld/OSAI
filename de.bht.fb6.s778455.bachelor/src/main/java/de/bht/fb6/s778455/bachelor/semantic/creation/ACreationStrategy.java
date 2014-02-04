@@ -42,47 +42,54 @@ import de.bht.fb6.s778455.bachelor.semantic.store.vocabulary.IOwlObjectPropertie
  * @since 25.01.2014
  * 
  */
-public abstract class ACreationStrategy implements IOwlClasses, IOwlDatatypeProperties, IOwlObjectProperties {
+public abstract class ACreationStrategy implements IOwlClasses,
+        IOwlDatatypeProperties, IOwlObjectProperties {
     private final RdfTripleStoreAdapter tripleStoreAdapter;
     private final OntModel ontologyModel;
-    
+
     /**
-     * Create a new strategy which fetches the {@link RdfTripleStoreAdapter} from the {@link ServiceFactory}.
+     * Create a new strategy which fetches the {@link RdfTripleStoreAdapter}
+     * from the {@link ServiceFactory}.
      */
     public ACreationStrategy() {
         this.tripleStoreAdapter = ServiceFactory.getJenaStoreAdapter();
         this.ontologyModel = this.tripleStoreAdapter.getPureOntologyModel();
     }
-    
+
     /**
      * Create a new strategy with an injected {@link RdfTripleStoreAdapter}.
+     * 
      * @param adapter
      */
     public ACreationStrategy( final RdfTripleStoreAdapter adapter ) {
-        if ( null == adapter ) {
-            throw new IllegalArgumentException( "Null values are not allowed for parameters!" );
+        if( null == adapter ) {
+            throw new IllegalArgumentException(
+                    "Null values are not allowed for parameters!" );
         }
-        
+
         this.tripleStoreAdapter = adapter;
         this.ontologyModel = this.tripleStoreAdapter.getPureOntologyModel();
     }
-    
+
     /**
      * Get the single triple store adapter.
+     * 
      * @return
      */
     protected RdfTripleStoreAdapter getTripleStoreAdapter() {
         return this.tripleStoreAdapter;
     }
-    
+
     /**
-     * Get the pure ontology model (shortener to tripleStoreAdapter.getPureOntologyModel())
+     * Get the pure ontology model (shortener to
+     * tripleStoreAdapter.getPureOntologyModel())
+     * 
      * @return
      */
     protected OntModel getOntologyModel() {
         return this.ontologyModel;
     }
-    
+
     /**
      * Get resource for the given lms class.
      * 
@@ -90,7 +97,7 @@ public abstract class ACreationStrategy implements IOwlClasses, IOwlDatatypeProp
      * @return
      */
     protected OntClass getClassResource( final String owlClass ) {
-        final OntClass r = this.getOntologyModel().getOntClass( owlClass );      
+        final OntClass r = this.getOntologyModel().getOntClass( owlClass );
         return r;
     }
 
@@ -98,34 +105,55 @@ public abstract class ACreationStrategy implements IOwlClasses, IOwlDatatypeProp
      * Create RDF triples which are stored by the {@link RdfTripleStoreAdapter}.
      * 
      * @param courseSet
-     * @throws GeneralLoggingException 
+     * @throws GeneralLoggingException
      */
-    public abstract void createRdfTriples( final LmsCourseSet courseSet ) throws GeneralLoggingException;  
+    public abstract void createRdfTriples( final LmsCourseSet courseSet )
+            throws GeneralLoggingException;
 
     /**
      * Create an {@link Individual} in the ontology model.
-     * @param rdfUsable the model, offering a getRdfUri() implementation
-     * @param courseClassResource the Owl class, use the interface IOwlClasses
-     * @return {@link Individual}. Consider that it is added to the ont model immediatly.
-     * @throws URISyntaxException 
+     * 
+     * @param rdfUsable
+     *            the model, offering a getRdfUri() implementation
+     * @param courseClassResource
+     *            the Owl class, use the interface IOwlClasses
+     * @return {@link Individual}. Consider that it is added to the ont model
+     *         immediatly.
+     * @throws URISyntaxException
      */
-    protected Individual createIndividual( final IRdfUsable rdfUsable, final OntClass courseClassResource ) throws URISyntaxException {
-        final Individual individual = this.getOntologyModel().createIndividual( rdfUsable.getRdfUri().toString(), courseClassResource );
+    protected Individual createIndividual( final IRdfUsable rdfUsable,
+            final OntClass courseClassResource ) throws URISyntaxException {
+        final Individual individual = this.getOntologyModel().createIndividual(
+                rdfUsable.getRdfUri().toString(), courseClassResource );
         return individual;
     }
-    
+
     /**
-     * Add the property 'property_data_title' on the given resource. 
-     * The property range is a string. This method will transform it to the correct XSD datatype.
+     * Add the property 'property_data_title' on the given resource. The
+     * property range is a string. This method will transform it to the correct
+     * XSD datatype.
+     * 
      * @param resource
      * @param title
-     * @throws GeneralLoggingException 
+     * @throws GeneralLoggingException
      */
-    protected void addPropertyDataTitle( final Resource resource, final String title) throws GeneralLoggingException {
+    protected void addPropertyDataTitle( final Resource resource,
+            final String title ) throws GeneralLoggingException {
         // get property instance
-        final Property titleProperty = this.getOntologyModel()
-                .createProperty( PROPERTY_DATA_TITLE );
-        if( null == titleProperty ) {
+        final Property titleProperty = this.getOntologyModel().createProperty(
+                PROPERTY_DATA_TITLE );
+        try {
+            if( null == titleProperty
+                    || !this.getOntologyModel()
+                            .containsResource( titleProperty ) ) {
+                // no title property found
+                throw new GeneralLoggingException(
+                        this.getClass()
+                                + ":addPropertyDataTitle(): No OWL data property found in the used ontology for the title. It must have the URI: "
+                                + PROPERTY_DATA_TITLE,
+                        "Internal error in the CourseCreation. See the logs" );
+            }
+        } catch( final NullPointerException e ) {
             // no title property found
             throw new GeneralLoggingException(
                     this.getClass()
@@ -134,77 +162,108 @@ public abstract class ACreationStrategy implements IOwlClasses, IOwlDatatypeProp
                     "Internal error in the CourseCreation. See the logs" );
         }
         // get litertal instance
-        final Literal titleLiteral = ResourceFactory
-                .createTypedLiteral( title,
-                        XSDDatatype.XSDstring );
+        final Literal titleLiteral = ResourceFactory.createTypedLiteral( title,
+                XSDDatatype.XSDstring );
         // now add the triple / statement
         this.getOntologyModel().add( resource, titleProperty, titleLiteral );
     }
 
     /**
-     * Add the property 'property_data_web_url' on the given resource.
-     * The property range is a dctermsUri.
+     * Add the property 'property_data_web_url' on the given resource. The
+     * property range is a dctermsUri.
+     * 
      * @param courseIndividual
      * @param url
-     * @throws GeneralLoggingException 
+     * @throws GeneralLoggingException
      */
-    public void addPropertyDataWebUrl( final Individual courseIndividual, final String url ) throws GeneralLoggingException {
+    public void addPropertyDataWebUrl( final Individual courseIndividual,
+            final String url ) throws GeneralLoggingException {
         // get property instance
-        final Property uriProperty = this.getOntologyModel()
-                .createProperty( PROPERTY_DATA_WEB_URI );
-        if( null == uriProperty || !this.getOntologyModel().containsResource( uriProperty ) ) {
+        final Property uriProperty = this.getOntologyModel().createProperty(
+                PROPERTY_DATA_WEB_URI );
+        try {
+            if( null == uriProperty
+                    || !this.getOntologyModel().containsResource( uriProperty ) ) {
+                // no title property found
+                throw new GeneralLoggingException(
+                        this.getClass()
+                                + ":addPropertyDataWebUrl(): No OWL data property found in the used ontology for the web url. It must have the URI: "
+                                + PROPERTY_DATA_WEB_URI,
+                        "Internal error in the CourseCreation. See the logs" );
+            }
+        } catch( final NullPointerException e ) {
             // no title property found
             throw new GeneralLoggingException(
                     this.getClass()
-                            + ":addPropertyDataWebUrl(): No OWL data property found in the used ontology for the title. It must have the URI: "
-                            + PROPERTY_DATA_WEB_URI,
+                            + ":addPropertyDataWebUrl(): No OWL data property found in the used ontology for the web url. It must have the URI: "
+                            + PROPERTY_DATA_TITLE,
                     "Internal error in the CourseCreation. See the logs" );
         }
         // get litertal instance
-        final Literal uriLiteral = this.getOntologyModel().createTypedLiteral( url, IDCTerms.DCTERMS_URI );
+        final Literal uriLiteral = this.getOntologyModel().createTypedLiteral(
+                url, IDCTerms.DCTERMS_URI );
         // now add the triple / statement
-        this.getOntologyModel().add( courseIndividual, uriProperty, uriLiteral );        
+        this.getOntologyModel().add( courseIndividual, uriProperty, uriLiteral );
     }
 
     /**
-     * Add the connecting property 'property_object_[leftside]_[rightside]' to the ontology model.
+     * Add the connecting property 'property_object_[leftside]_[rightside]' to
+     * the ontology model.
+     * 
      * @param leftIndividual
      * @param rightIndividual
      * @param objProperty
-     * @throws GeneralLoggingException 
+     * @throws GeneralLoggingException
      */
     public void addPropertyObjectBetween( final Individual leftIndividual,
-            final Individual rightIndividual, final String objProperty ) throws GeneralLoggingException {
-        final ObjectProperty objectProperty = this.getOntologyModel().createObjectProperty( objProperty );
-        if ( null == objectProperty || !this.getOntologyModel().containsResource( objectProperty )) {
-            // property not found
+            final Individual rightIndividual, final String objProperty )
+            throws GeneralLoggingException {
+        final ObjectProperty objectProperty = this.getOntologyModel()
+                .createObjectProperty( objProperty );
+        try {
+            if( null == objectProperty
+                    || !this.getOntologyModel().containsResource(
+                            objectProperty ) ) {
+                // property not found
+                throw new GeneralLoggingException(
+                        this.getClass()
+                                + ":addPropertyObjectBetween(): No OWL object property found in the used ontology for the object property. It must have the URI: "
+                                + objProperty,
+                        "Internal error in the CourseCreation. See the logs" );
+            }
+        } catch( final NullPointerException e ) {
             throw new GeneralLoggingException(
                     this.getClass()
-                            + ":addPropertyObjectBetween(): No OWL object property found in the used ontology for the title. It must have the URI: "
+                            + ":addPropertyObjectBetween(): No OWL object property found in the used ontology for the object property. It must have the URI: "
                             + objProperty,
                     "Internal error in the CourseCreation. See the logs" );
         }
-        
+
         // add triple / statement
-        this.getOntologyModel().add( leftIndividual, objectProperty, rightIndividual );
+        this.getOntologyModel().add( leftIndividual, objectProperty,
+                rightIndividual );
     }
-    
+
     /**
      * Create a language edge for the given {@link IRdfUsable}.
      * 
      * @param course
-     * @throws GeneralLoggingException 
+     * @throws GeneralLoggingException
      */
-    protected void createLanguageEdge( final IRdfUsable model, final Language lang ) throws GeneralLoggingException {
-        if ( null == model || null == lang ) {
-            throw new IllegalArgumentException( "Null values are not allowed as parameters!" );
+    protected void createLanguageEdge( final IRdfUsable model,
+            final Language lang ) throws GeneralLoggingException {
+        if( null == model || null == lang ) {
+            throw new IllegalArgumentException(
+                    "Null values are not allowed as parameters!" );
         }
-        
+
         final OntModel ontModel = this.getOntologyModel();
         try {
-            final Individual indModel = ontModel.getIndividual( model.getRdfUri().toString() );
-            final Individual langInd = ontModel.getIndividual( lang.getRdfUri().toString() );
-            
+            final Individual indModel = ontModel.getIndividual( model
+                    .getRdfUri().toString() );
+            final Individual langInd = ontModel.getIndividual( lang.getRdfUri()
+                    .toString() );
+
             // check if individuals exist
             if( null == indModel || !ontModel.containsResource( indModel ) ) {
                 throw new GeneralLoggingException(
@@ -216,21 +275,27 @@ public abstract class ACreationStrategy implements IOwlClasses, IOwlDatatypeProp
             if( null == langInd || !ontModel.containsResource( langInd ) ) {
                 throw new GeneralLoggingException(
                         this.getClass()
-                        + ":createLanguageEdge(): No individual found for lang: "
-                        + lang,
+                                + ":createLanguageEdge(): No individual found for lang: "
+                                + lang,
                         "Internal error in the CourseCreation. See the logs" );
             }
-            
+
             // add node
-            this.addPropertyObjectBetween( indModel, langInd, PROPERTY_OBJECT_LANGUAGE );
-        }  catch( final URISyntaxException e ) {          
-                throw new GeneralLoggingException(
-                        this.getClass()
-                                + ":createLanguageEdge(): Illegal URI for language or model: "
-                                + lang +"; model: " + model,
-                        "Internal error in the CourseCreation. See the logs" );
+            this.addPropertyObjectBetween( indModel, langInd,
+                    PROPERTY_OBJECT_LANGUAGE );
+        } catch( final URISyntaxException e ) {
+            throw new GeneralLoggingException(
+                    this.getClass()
+                            + ":createLanguageEdge(): Illegal URI for language or model: "
+                            + lang + "; model: " + model,
+                    "Internal error in the CourseCreation. See the logs" );
+        } catch( final NullPointerException e ) {
+            throw new GeneralLoggingException(
+                    this.getClass()
+                            + ":createLanguageEdge(): No individual found for lang: "
+                            + lang,
+                    "Internal error in the CourseCreation. See the logs" );
         }
     }
-    
-    
+
 }
