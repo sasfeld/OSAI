@@ -45,54 +45,54 @@ public class NameCorpusStrategy extends AAnomyzationStrategy {
 	 * de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy
 	 * #anonymizeText(java.lang.String, de.bht.fb6.s778455.bachelor.model.Board)
 	 */
-	public String anonymizeText( String inputText, Board belongingBoard )
+	public String anonymizeText( final String inputText, final Board belongingBoard )
 			throws GeneralLoggingException {
 		// use board specific name corpus here
-		PersonNameCorpus nameCorpus = belongingBoard.getBelongingCourse()
+		final PersonNameCorpus nameCorpus = belongingBoard.getBelongingCourse()
 				.getPersonNameCorpus();
-		String anonymized = this.anonymizeNames( inputText, nameCorpus );
+		final String anonymized = this.anonymizeNames( inputText, nameCorpus );
 		return anonymized;
 	}
 
-	private String anonymizeNames( String inputText, PersonNameCorpus nameCorpus )
+	private String anonymizeNames( final String inputText, final PersonNameCorpus nameCorpus )
 			throws GeneralLoggingException {
 		String anonymizedText = super.prepareText( inputText );
-		List< String > names = new ArrayList< String >();
+		final List< String > names = new ArrayList< String >();
 		names.addAll( nameCorpus.getPrenames() );
 		names.addAll( nameCorpus.getLastnames() );
 
 		// check all names
-		for( String name : names ) {
+		for( final String name : names ) {
 			// exclude common names
 			if( !this.commonNameExcluder.isCommon( name, true ) ) {
 				// case 1: name in a single line
-				Pattern pNameSingleLine = Pattern.compile( "(?i)(?<=^)" + name
+				final Pattern pNameSingleLine = Pattern.compile( "(?i)(?<=^)" + name
 						+ "(?=$)(?![a-zA-Z0-9]+)", Pattern.MULTILINE );
-				Matcher matcherSingeLine = pNameSingleLine
+				final Matcher matcherSingeLine = pNameSingleLine
 						.matcher( anonymizedText );
 				anonymizedText = matcherSingeLine
 						.replaceAll( NAME_CORPUS_REPLACEMENT );
 
 				// case 2: name at the beginning of a line
-				Pattern pNameAtBeginning = Pattern.compile( "(?i)(?<=^)" + name
+				final Pattern pNameAtBeginning = Pattern.compile( "(?i)(?<=^)" + name
 						+ "(?=[\\s!?.,;-_]{1})(?![a-zA-Z0-9]+)",
 						Pattern.MULTILINE );
-				Matcher matcherBeginning = pNameAtBeginning
+				final Matcher matcherBeginning = pNameAtBeginning
 						.matcher( anonymizedText );
 				anonymizedText = matcherBeginning
 						.replaceAll( NAME_CORPUS_REPLACEMENT );
 
 				// case 3: name at the end of a line
-				Pattern pNameAtEnd = Pattern.compile( "(?i)(?<=\\s)" + name
+				final Pattern pNameAtEnd = Pattern.compile( "(?i)(?<=\\s)" + name
 						+ "(?=$)(?![a-zA-Z0-9]+)", Pattern.MULTILINE );
-				Matcher matcherEnd = pNameAtEnd.matcher( anonymizedText );
+				final Matcher matcherEnd = pNameAtEnd.matcher( anonymizedText );
 				anonymizedText = matcherEnd
 						.replaceAll( NAME_CORPUS_REPLACEMENT );
 
 				// case 4: name anywhere in line
-				Pattern pNameInLine = Pattern.compile( "(?i)(?<=\\s)" + name
+				final Pattern pNameInLine = Pattern.compile( "(?i)(?<=\\s)" + name
 						+ "(?=[\\s!?.,;-_]{1})(?![a-zA-Z0-9]+)" );
-				Matcher matcherInLine = pNameInLine.matcher( anonymizedText );
+				final Matcher matcherInLine = pNameInLine.matcher( anonymizedText );
 				anonymizedText = matcherInLine
 						.replaceAll( NAME_CORPUS_REPLACEMENT );
 			}
@@ -109,31 +109,32 @@ public class NameCorpusStrategy extends AAnomyzationStrategy {
 	 * de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy
 	 * #anonymizeText(java.lang.String)
 	 */
-	public String anonymizeText( String inputText )
+	public String anonymizeText( final String inputText )
 			throws GeneralLoggingException {
 		// use singleton name corpus here
-		PersonNameCorpus nameCorpus = ServiceFactory
+		final PersonNameCorpus nameCorpus = ServiceFactory
 				.getPersonNameCorpusSingleton();
-		String anonymized = this.anonymizeNames( inputText, nameCorpus );
+		final String anonymized = this.anonymizeNames( inputText, nameCorpus );
 		return anonymized;
 	}
 
 	@Override
-	public String removeSpecialTags( String inputText ) {
-		// TODO Auto-generated method stub
+	public String removeSpecialTags( final String inputText ) {		
 		return inputText;
 	}
 
 	@Override
 	public List< AAnomyzationStrategy > getWrappedStrategies() {
-		// TODO Auto-generated method stub
-		return null;
+		throw new UnsupportedOperationException("This strategy doesn't have wrapped strategies!");
 	}
 
 	@Override
 	public String getDetails() {
-		// TODO Auto-generated method stub
-		return null;
+		final StringBuilder builder = new StringBuilder();
+		builder.append( "Used common name excluder: \n\n" );
+		builder.append( this.commonNameExcluder.toString() );
+		
+		return builder.toString();
 	}
 
 }

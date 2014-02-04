@@ -38,7 +38,7 @@ public class Anonymizer {
 	 * Instanciate a new Anonymizer using the given strategy.
 	 * @param strategy
 	 */
-	public Anonymizer( AAnomyzationStrategy strategy ) {
+	public Anonymizer( final AAnomyzationStrategy strategy ) {
 		this.anonymizationStrategy = strategy;
 	}
 
@@ -48,23 +48,21 @@ public class Anonymizer {
 	 * @param inputBoard
 	 * @return the anonymized {@link Board} 
 	 */
-	public Board anonymizeBoard(Board inputBoard) {
+	public Board anonymizeBoard(final Board inputBoard) {
 		// iterate through threads and postings and hand in the text to be anonymized by the configured strategy
-		for( BoardThread boardThread : inputBoard.getBoardThreads() ) {
+		for( final BoardThread boardThread : inputBoard.getBoardThreads() ) {
 			if (boardThread.getTitle().equals( "Anonymisierung im Dis-Kurs" ) && this.anonymizationStrategy instanceof NameCorpusStrategy) {
 				System.out.println("jo");
 			}
-			for( Posting posting : boardThread.getPostings() ) {
+			for( final Posting posting : boardThread.getPostings() ) {
 				try {
-					String anonymizedTaggedText = this.anonymizationStrategy.anonymizeText( posting.getContent(), inputBoard );
+					final String anonymizedTaggedText = this.anonymizationStrategy.anonymizeText( posting.getContent(), inputBoard );
 					// String without NER tags (but anonymization tags)
-					String anonymizedUntaggedText = this.anonymizationStrategy.removeSpecialTags( anonymizedTaggedText );
+					final String anonymizedUntaggedText = this.anonymizationStrategy.removeSpecialTags( anonymizedTaggedText );
 					
 					posting.setContent( anonymizedUntaggedText );
-					
-					// TODO set tagged text?
 				}
-				catch (GeneralLoggingException e) {
+				catch (final GeneralLoggingException e) {
 					System.err.println("Error while anonymisation of thread " + boardThread + ":"+  e.getPresentationMessage());
 				}				
 			}

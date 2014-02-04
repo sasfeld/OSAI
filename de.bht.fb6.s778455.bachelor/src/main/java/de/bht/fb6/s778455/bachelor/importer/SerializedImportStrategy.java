@@ -28,10 +28,43 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
  */
 public class SerializedImportStrategy extends AImportStrategy {
 
-	@Override
-	public Set< Course > importBoardFromStream( final InputStream inputStream ) {
-		// TODO Auto-generated method stub
-		return null;
+	private static final String INPUT_STREAM_COURSE_NAME = "inputStreamCourseSet";
+
+    @Override
+	public Set< Course > importBoardFromStream( final InputStream inputStream ) throws GeneralLoggingException {	
+        final LmsCourseSet courseSet = new LmsCourseSet( INPUT_STREAM_COURSE_NAME );
+	    ObjectInputStream is = null;
+        try {
+            is = new ObjectInputStream( inputStream  );
+            final Object readObject = is.readObject();
+            if (readObject instanceof Collection< ? >) {
+                final Collection< ? > courses = (Collection< ? >) readObject;
+                for( final Object course : courses ) {
+                    if (course instanceof Course) {
+                        courseSet.add( (Course) course );
+                    }
+                }
+            }
+        } catch (IOException | ClassNotFoundException e) {
+            throw new GeneralLoggingException( this.getClass()
+                    + ":importBoardFromFile(): exception"
+                    + e,
+                    "Internal error in the import module. See the logs" );
+        } finally {
+            if (null != is) {
+                try {
+                    is.close();
+                } catch( final IOException e ) {
+                    // already caught
+                }
+            }
+        }
+        
+        if (0 == courseSet.size()) {
+            throw new GeneralLoggingException( this.getClass()
+                    + ":importBoardFromFile(): the imported collection is empty.", "Internal error in the import module" );
+        }
+        return courseSet;
 	}
 
 	@Override
@@ -84,8 +117,7 @@ public class SerializedImportStrategy extends AImportStrategy {
 	public PersonNameCorpus fillFromFile( final File personCorpus,
 			final PersonNameCorpus corpusInstance, final PersonNameType nameType )
 			throws GeneralLoggingException {
-		// TODO Auto-generated method stub
-		return null;
+		throw new UnsupportedOperationException( "fillFromFile() isn't supported yet!" );
 	}
 
 }

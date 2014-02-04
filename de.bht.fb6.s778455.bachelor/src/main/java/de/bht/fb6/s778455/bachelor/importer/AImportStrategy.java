@@ -31,8 +31,9 @@ public abstract class AImportStrategy {
 	 * <p>This will grant a fast access to a learning course's (e.g. a "Moodle course") board.
 	 * @param inputStream any {@link InputStream} (e.g.: from an HTTP resource, a file resource,...)
 	 * @return a {@link Map} of key value pairs.
+	 * @throws GeneralLoggingException 
 	 */
-	abstract public Set< Course > importBoardFromStream(InputStream inputStream);
+	abstract public Set< Course > importBoardFromStream(InputStream inputStream) throws GeneralLoggingException;
 	
 	/**
 	 * <p>Import raw data from a {@link File} and construct a {@link Set} with {@link Course} instances.</p>

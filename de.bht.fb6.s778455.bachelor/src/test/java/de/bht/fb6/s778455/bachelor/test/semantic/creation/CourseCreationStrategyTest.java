@@ -133,6 +133,8 @@ public class CourseCreationStrategyTest extends LoggingAwareTest implements
         assertTrue( statements.contains( s1 ) );
         assertTrue( statements.contains( s2 ) );
         assertTrue( statements.contains( s3 ) );
+        assertTrue( statements.contains( s4 ) );
+        assertTrue( statements.contains( s5 ) );
     }
 
     @Test
