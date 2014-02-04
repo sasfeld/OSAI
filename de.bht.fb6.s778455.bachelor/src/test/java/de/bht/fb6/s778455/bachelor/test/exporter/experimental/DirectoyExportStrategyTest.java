@@ -113,6 +113,7 @@ public class DirectoyExportStrategyTest {
 		samplePosting1.setTaggedContent( "This content is tagged by <I-PERS>Max Mustermann</I-PERS>." );
 		samplePosting1.setPostingType( "question" );
 		samplePosting1.setLang( Language.GERMAN );
+		samplePosting1.setWebUrl( new URL( "http://example.org/posting1" ) );
 		sampleThread1.addPosting( samplePosting1  );
 		
 		final ArrayList< Tag > tagList = new ArrayList<Tag>();

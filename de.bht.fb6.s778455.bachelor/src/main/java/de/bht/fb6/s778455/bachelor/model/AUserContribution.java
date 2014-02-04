@@ -275,6 +275,7 @@ public abstract class AUserContribution implements IDirectoryPortable, IRdfUsabl
                         .hashCode() );
         result = prime * result + ( ( this.tagMap == null ) ? 0 : this.tagMap.hashCode() );
         result = prime * result + ( ( this.title == null ) ? 0 : this.title.hashCode() );
+        result = prime * result + ( ( this.webUrl == null ) ? 0 : this.webUrl.hashCode() );
         return result;
     }
 
@@ -289,7 +290,7 @@ public abstract class AUserContribution implements IDirectoryPortable, IRdfUsabl
             return false;
         if( this.getClass() != obj.getClass() )
             return false;
-        final AUserContribution other = ( AUserContribution ) obj;
+        final AUserContribution other = ( AUserContribution ) obj;    
         if( this.creationDate == null ) {
             if( other.creationDate != null )
                 return false;
@@ -313,6 +314,11 @@ public abstract class AUserContribution implements IDirectoryPortable, IRdfUsabl
             if( other.title != null )
                 return false;
         } else if( !this.title.equals( other.title ) )
+            return false;
+        if( this.webUrl == null ) {
+            if( other.webUrl != null )
+                return false;
+        } else if( !this.webUrl.equals( other.webUrl ) )
             return false;
         return true;
     }
@@ -341,6 +347,10 @@ public abstract class AUserContribution implements IDirectoryPortable, IRdfUsabl
         builder.append( this.getNumberTags() );
         builder.append( ", isNerTagged()=" );
         builder.append( this.isNerTagged() );
+        builder.append( ", isPosTagged()=" );
+        builder.append( this.isPosTagged() );
+        builder.append( ", getWebUrl()=" );
+        builder.append( this.getWebUrl() );
         builder.append( "]" );
         return builder.toString();
     }
@@ -366,7 +376,7 @@ public abstract class AUserContribution implements IDirectoryPortable, IRdfUsabl
 		exportStr.append( "TITLE: " + this.getTitle() + "\n" );
 		exportStr.append( "LANGUAGE: " + this.getLang() + "\n" );
 		if ( null != this.getWebUrl() ) {
-		    exportStr.append( "WEB_URL: " + this.getWebUrl().toExternalForm() );
+		    exportStr.append( "WEB_URL: " + this.getWebUrl().toExternalForm() + "\n");
 		}
 
 		// tags
