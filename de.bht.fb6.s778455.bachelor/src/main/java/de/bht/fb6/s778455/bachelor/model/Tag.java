@@ -3,6 +3,11 @@
  */
 package de.bht.fb6.s778455.bachelor.model;
 
+import java.net.URI;
+import java.net.URISyntaxException;
+
+import de.bht.fb6.s778455.bachelor.semantic.store.vocabulary.IBaseUris;
+
 /**
  * <p>This class represents a (auto-generated) Tag which one posting can have.</p>
  *
@@ -10,7 +15,7 @@ package de.bht.fb6.s778455.bachelor.model;
  * @since 05.01.2014
  *
  */
-public class Tag {
+public class Tag implements IRdfUsable, IBaseUris {
 	public enum TagType {
 		/**
 		 * key for tags extracted by the TopicZoom WebTag service.
@@ -155,6 +160,22 @@ public class Tag {
 		builder.append( this.getUri() );
 		builder.append( "]" );
 		return builder.toString();
-	}	
+	}
+
+    @Override
+    /*
+     * (non-Javadoc)
+     * @see de.bht.fb6.s778455.bachelor.model.IRdfUsable#getRdfUri()
+     */
+    public URI getRdfUri() throws URISyntaxException {
+        if ( null != this.getValue() || 0 != this.getValue().length() ) {
+            final URI newUri = new  URI( INDIVIDUAL_BASE_URI + 
+                    "tags/" + this.getUri() );
+            
+            return newUri;
+        }
+        
+        throw new IllegalArgumentException( "The value for this.getUri() musn't be null and empty!" );
+    }	
 	
 }

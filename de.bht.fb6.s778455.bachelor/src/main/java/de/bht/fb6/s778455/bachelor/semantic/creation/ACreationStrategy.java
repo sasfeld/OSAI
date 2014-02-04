@@ -46,11 +46,18 @@ public abstract class ACreationStrategy implements IOwlClasses, IOwlDatatypeProp
     private final RdfTripleStoreAdapter tripleStoreAdapter;
     private final OntModel ontologyModel;
     
+    /**
+     * Create a new strategy which fetches the {@link RdfTripleStoreAdapter} from the {@link ServiceFactory}.
+     */
     public ACreationStrategy() {
         this.tripleStoreAdapter = ServiceFactory.getJenaStoreAdapter();
         this.ontologyModel = this.tripleStoreAdapter.getPureOntologyModel();
     }
     
+    /**
+     * Create a new strategy with an injected {@link RdfTripleStoreAdapter}.
+     * @param adapter
+     */
     public ACreationStrategy( final RdfTripleStoreAdapter adapter ) {
         if ( null == adapter ) {
             throw new IllegalArgumentException( "Null values are not allowed for parameters!" );
