@@ -11,17 +11,20 @@ import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
 import com.hp.hpl.jena.datatypes.xsd.XSDDatatype;
+import com.hp.hpl.jena.ontology.ConversionException;
 import com.hp.hpl.jena.ontology.DatatypeProperty;
 import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.ObjectProperty;
 import com.hp.hpl.jena.ontology.OntClass;
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.ontology.OntModelSpec;
+import com.hp.hpl.jena.ontology.OntResource;
 import com.hp.hpl.jena.query.Dataset;
 import com.hp.hpl.jena.query.ReadWrite;
 import com.hp.hpl.jena.rdf.model.Literal;
@@ -34,6 +37,7 @@ import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.rdf.model.ResourceFactory;
 import com.hp.hpl.jena.rdf.model.Statement;
 import com.hp.hpl.jena.util.iterator.ExtendedIterator;
+import com.hp.hpl.jena.vocabulary.RDF;
 
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
@@ -618,10 +622,28 @@ public class RdfTripleStoreAdapter implements IUniqueProperties,
      * 
      * @return
      */
-    public Set< Individual > getOntologieIndividuals() {
-        final ExtendedIterator< Individual > it = this.getPureOntologyModel()
-                .listIndividuals();
-        return CollectionUtil.buildSetFromIterator( it );
+    public Set< Individual > getOntologieIndividuals() {     
+       return this.listIndividuals();       
+    }
+
+    /**
+     * List the individuals from the pure ontology model.
+     * @return
+     */
+    private Set< Individual > listIndividuals() {
+        final Set<Individual> results = new HashSet<Individual>();
+        for (final Iterator<Statement> i = this.getPureOntologyModel().listStatements( null, RDF.type, (RDFNode) null); i.hasNext(); ) {
+            final OntResource r = i.next().getSubject().as( OntResource.class );
+            if (r.isIndividual()) {
+                try {
+                    results.add( r.as( Individual.class ) );
+                } catch ( final ConversionException e ) {
+                    // the given node is not an individual, continue
+                }
+            }
+        }
+        
+        return results;
     }
 
     /**

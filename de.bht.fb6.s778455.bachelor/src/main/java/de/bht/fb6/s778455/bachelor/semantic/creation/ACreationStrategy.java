@@ -48,6 +48,12 @@ import de.bht.fb6.s778455.bachelor.semantic.store.vocabulary.IOwlObjectPropertie
  */
 public abstract class ACreationStrategy implements IOwlClasses,
         IOwlDatatypeProperties, IOwlObjectProperties {
+    /**
+     * The {@link OntModel} is the one which all strategies in the configured
+     * chain shall manipulate. So, the scope has to be static.
+     */
+    protected static OntModel singletonOntModel;
+
     private final RdfTripleStoreAdapter tripleStoreAdapter;
     private final OntModel ontologyModel;
 
@@ -57,7 +63,16 @@ public abstract class ACreationStrategy implements IOwlClasses,
      */
     public ACreationStrategy() {
         this.tripleStoreAdapter = ServiceFactory.getJenaStoreAdapter();
-        this.ontologyModel = this.tripleStoreAdapter.getPureOntologyModel();
+        
+        // check if singleton exists
+        if( null == singletonOntModel ) {
+            this.ontologyModel = this.tripleStoreAdapter.getPureOntologyModel();
+            
+            // set in static scope
+            singletonOntModel = this.ontologyModel;
+        } else {
+            this.ontologyModel = singletonOntModel;
+        }
     }
 
     /**
@@ -113,9 +128,10 @@ public abstract class ACreationStrategy implements IOwlClasses,
      */
     public abstract void createRdfTriples( final LmsCourseSet courseSet )
             throws GeneralLoggingException;
-    
+
     /**
      * Get the {@link Model} which was enriched by this strategy.
+     * 
      * @return
      */
     public Model getEnrichedModel() {
@@ -268,9 +284,12 @@ public abstract class ACreationStrategy implements IOwlClasses,
             throw new IllegalArgumentException(
                     "Null values are not allowed as parameters!" );
         }
-        // don't map unknown language. do a log entry and return to the calling method
-        if ( lang.equals( Language.UNKNOWN )) {
-            Application.log( "createLanguageEdge(): unknown language can't be mapped. Model: " + model, LogType.WARNING, this.getClass() );
+        // don't map unknown language. do a log entry and return to the calling
+        // method
+        if( lang.equals( Language.UNKNOWN ) ) {
+            Application.log(
+                    "createLanguageEdge(): unknown language can't be mapped. Model: "
+                            + model, LogType.WARNING, this.getClass() );
             return;
         }
 
@@ -307,10 +326,9 @@ public abstract class ACreationStrategy implements IOwlClasses,
                             + lang + "; model: " + model,
                     "Internal error in the CourseCreation. See the logs" );
         } catch( final NullPointerException e ) {
-            throw new GeneralLoggingException(
-                    this.getClass()
-                            + ":createLanguageEdge(): No individual found for lang: "
-                            + lang,
+            throw new GeneralLoggingException( this.getClass()
+                    + ":createLanguageEdge(): No individual found for lang: "
+                    + lang,
                     "Internal error in the CourseCreation. See the logs" );
         }
     }
