@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2013-2014 Sascha Feldmann (sascha.feldmann@gmx.de) 
  */
-package de.bht.fb6.s778455.bachelor.semantic.extraction;
+package de.bht.fb6.s778455.bachelor.test.semantic.extraction;
 
 import static org.junit.Assert.assertEquals;
 
@@ -12,6 +12,8 @@ import org.junit.Test;
 import de.bht.fb6.s778455.bachelor.model.Language;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.semantic.extraction.AExtractionStrategy;
+import de.bht.fb6.s778455.bachelor.semantic.extraction.LanguageDetectionStrategy;
 
 /**
  * 
