@@ -3,6 +3,9 @@
  */
 package de.bht.fb6.s778455.bachelor.model;
 
+import java.net.URI;
+import java.net.URISyntaxException;
+
 /**
  * <p>
  * A PosTag represents tags won by Part of Speech - Tagging. They can be used to
@@ -43,6 +46,22 @@ public class PosTag extends Tag {
     public final void setPosTag( final String posTag ) {
         this.posTag = posTag;
     }
+    
+    /*
+     * (non-Javadoc)
+     * @see de.bht.fb6.s778455.bachelor.model.IRdfUsable#getRdfUri()
+     */
+    @Override
+    public URI getRdfUri() throws URISyntaxException {
+        if ( null != this.getValue() || 0 != this.getValue().length() ) {
+            final URI newUri = new  URI( INDIVIDUAL_BASE_URI + 
+                    "tags/pos/" + this.getValue().trim() );
+            
+            return newUri;
+        }
+        
+        throw new IllegalArgumentException( "The value for this.getUri() musn't be null and empty!" );
+    }   
 
     /* (non-Javadoc)
      * @see java.lang.Object#hashCode()

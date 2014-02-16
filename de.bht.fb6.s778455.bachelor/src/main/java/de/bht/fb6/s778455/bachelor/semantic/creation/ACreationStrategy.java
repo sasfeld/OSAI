@@ -143,16 +143,16 @@ public abstract class ACreationStrategy implements IOwlClasses,
      * 
      * @param rdfUsable
      *            the model, offering a getRdfUri() implementation
-     * @param courseClassResource
+     * @param classResource
      *            the Owl class, use the interface IOwlClasses
      * @return {@link Individual}. Consider that it is added to the ont model
      *         immediatly.
      * @throws URISyntaxException
      */
     protected Individual createIndividual( final IRdfUsable rdfUsable,
-            final OntClass courseClassResource ) throws URISyntaxException {
+            final OntClass classResource ) throws URISyntaxException {
         final Individual individual = this.getOntologyModel().createIndividual(
-                rdfUsable.getRdfUri().toString(), courseClassResource );
+                rdfUsable.getRdfUri().toString(), classResource );
         return individual;
     }
 

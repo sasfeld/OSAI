@@ -23,41 +23,41 @@
   <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource"/>
   <owl:Class rdf:ID="class_board">
     <owl:disjointWith>
-      <owl:Class rdf:ID="class_course"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:ID="class_topic"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:ID="class_thread"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:ID="class_posting"/>
+      <owl:Class rdf:ID="class_language"/>
     </owl:disjointWith>
     <owl:disjointWith>
       <owl:Class rdf:ID="class_lms"/>
     </owl:disjointWith>
     <owl:disjointWith>
-      <owl:Class rdf:ID="class_language"/>
+      <owl:Class rdf:ID="class_posting"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="class_thread"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="class_topic"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="class_course"/>
     </owl:disjointWith>
   </owl:Class>
   <owl:Class rdf:about="#class_thread">
+    <owl:disjointWith rdf:resource="#class_board"/>
     <owl:disjointWith>
-      <owl:Class rdf:about="#class_topic"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#class_posting"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#class_lms"/>
+      <owl:Class rdf:about="#class_course"/>
     </owl:disjointWith>
     <owl:disjointWith>
       <owl:Class rdf:about="#class_language"/>
     </owl:disjointWith>
     <owl:disjointWith>
-      <owl:Class rdf:about="#class_course"/>
+      <owl:Class rdf:about="#class_lms"/>
     </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#class_board"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#class_posting"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#class_topic"/>
+    </owl:disjointWith>
   </owl:Class>
   <owl:Class rdf:about="#class_topic">
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -84,119 +84,96 @@
     &lt;p&gt;&#xD;
       &amp;#160;&#xD;
     &lt;/p&gt;</rdfs:comment>
-    <owl:disjointWith rdf:resource="#class_thread"/>
+    <owl:disjointWith rdf:resource="#class_board"/>
     <owl:disjointWith>
-      <owl:Class rdf:about="#class_posting"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#class_lms"/>
+      <owl:Class rdf:about="#class_course"/>
     </owl:disjointWith>
     <owl:disjointWith>
       <owl:Class rdf:about="#class_language"/>
     </owl:disjointWith>
     <owl:disjointWith>
-      <owl:Class rdf:about="#class_course"/>
+      <owl:Class rdf:about="#class_lms"/>
     </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#class_board"/>
-  </owl:Class>
-  <owl:Class rdf:about="#class_language">
-    <owl:disjointWith rdf:resource="#class_topic"/>
-    <owl:disjointWith rdf:resource="#class_thread"/>
     <owl:disjointWith>
       <owl:Class rdf:about="#class_posting"/>
     </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#class_thread"/>
+  </owl:Class>
+  <owl:Class rdf:about="#class_language">
+    <owl:disjointWith rdf:resource="#class_board"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#class_course"/>
+    </owl:disjointWith>
     <owl:disjointWith>
       <owl:Class rdf:about="#class_lms"/>
     </owl:disjointWith>
     <owl:disjointWith>
-      <owl:Class rdf:about="#class_course"/>
+      <owl:Class rdf:about="#class_posting"/>
     </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#class_board"/>
+    <owl:disjointWith rdf:resource="#class_thread"/>
+    <owl:disjointWith rdf:resource="#class_topic"/>
   </owl:Class>
   <owl:Class rdf:about="#class_posting">
-    <owl:disjointWith rdf:resource="#class_topic"/>
-    <owl:disjointWith rdf:resource="#class_thread"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#class_lms"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#class_language"/>
+    <owl:disjointWith rdf:resource="#class_board"/>
     <owl:disjointWith>
       <owl:Class rdf:about="#class_course"/>
     </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#class_board"/>
-  </owl:Class>
-  <owl:Class rdf:about="#class_course">
-    <owl:disjointWith rdf:resource="#class_topic"/>
-    <owl:disjointWith rdf:resource="#class_thread"/>
-    <owl:disjointWith rdf:resource="#class_posting"/>
+    <owl:disjointWith rdf:resource="#class_language"/>
     <owl:disjointWith>
       <owl:Class rdf:about="#class_lms"/>
     </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#class_language"/>
+    <owl:disjointWith rdf:resource="#class_thread"/>
+    <owl:disjointWith rdf:resource="#class_topic"/>
+  </owl:Class>
+  <owl:Class rdf:about="#class_course">
     <owl:disjointWith rdf:resource="#class_board"/>
+    <owl:disjointWith rdf:resource="#class_language"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#class_lms"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#class_posting"/>
+    <owl:disjointWith rdf:resource="#class_thread"/>
+    <owl:disjointWith rdf:resource="#class_topic"/>
   </owl:Class>
   <owl:Class rdf:about="#class_lms">
-    <owl:disjointWith rdf:resource="#class_topic"/>
-    <owl:disjointWith rdf:resource="#class_thread"/>
-    <owl:disjointWith rdf:resource="#class_posting"/>
-    <owl:disjointWith rdf:resource="#class_language"/>
-    <owl:disjointWith rdf:resource="#class_course"/>
     <owl:disjointWith rdf:resource="#class_board"/>
+    <owl:disjointWith rdf:resource="#class_course"/>
+    <owl:disjointWith rdf:resource="#class_language"/>
+    <owl:disjointWith rdf:resource="#class_posting"/>
+    <owl:disjointWith rdf:resource="#class_thread"/>
+    <owl:disjointWith rdf:resource="#class_topic"/>
   </owl:Class>
-  <owl:ObjectProperty rdf:ID="property_object_language">
+  <owl:ObjectProperty rdf:ID="property_object_posting_topic">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:range rdf:resource="#class_topic"/>
+    <owl:inverseOf rdf:resource="#property_object_posting_topic"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="ObjectProperty_28"/>
+  <owl:ObjectProperty rdf:ID="property_object_hasTopic">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
     <rdfs:domain>
       <owl:Class>
         <owl:unionOf rdf:parseType="Collection">
-          <owl:Class rdf:about="#class_posting"/>
-          <owl:Class rdf:about="#class_course"/>
           <owl:Class rdf:about="#class_board"/>
+          <owl:Class rdf:about="#class_course"/>
+          <owl:Class rdf:about="#class_posting"/>
           <owl:Class rdf:about="#class_thread"/>
         </owl:unionOf>
       </owl:Class>
     </rdfs:domain>
-    <rdfs:range rdf:resource="#class_language"/>
-    <owl:inverseOf rdf:resource="#property_object_language"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:ID="property_object_thread_posting">
-    <rdfs:domain rdf:resource="#class_thread"/>
-    <rdfs:range rdf:resource="#class_posting"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-    <owl:inverseOf rdf:resource="#property_object_thread_posting"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:ID="property_object_course_board">
-    <rdfs:domain rdf:resource="#class_course"/>
-    <owl:inverseOf rdf:resource="#property_object_course_board"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-    <rdfs:range rdf:resource="#class_board"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:ID="property_object_board_topic">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-    <owl:inverseOf rdf:resource="#property_object_board_topic"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:ID="ObjectProperty_28"/>
-  <owl:ObjectProperty rdf:ID="property_object_board_thread">
-    <owl:inverseOf rdf:resource="#property_object_board_thread"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-    <rdfs:range rdf:resource="#class_thread"/>
-    <rdfs:domain rdf:resource="#class_board"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:ID="property_object_thread_topic">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-    <owl:inverseOf rdf:resource="#property_object_thread_topic"/>
     <rdfs:range rdf:resource="#class_topic"/>
   </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:ID="property_object_lms_course">
-    <rdfs:range rdf:resource="#class_course"/>
-    <rdfs:domain rdf:resource="#class_lms"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:ID="property_object_course_topic">
-    <rdfs:range rdf:resource="#class_topic"/>
-    <owl:inverseOf rdf:resource="#property_object_course_topic"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+  <owl:ObjectProperty rdf:ID="property_object_topic_uri_new">
+    <rdfs:domain rdf:resource="#class_topic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:inverseOf rdf:resource="#property_object_topic_uri_new"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >&lt;p style="margin-top: 0"&gt;&#xD;
+      URI to the describing RDF node.&#xD;
+    &lt;/p&gt;</rdfs:comment>
   </owl:ObjectProperty>
   <rdf:Property rdf:about="http://purl.org/dc/elements/1.1/relation"/>
   <rdf:Property rdf:about="http://purl.org/dc/elements/1.1/language"/>
@@ -251,40 +228,65 @@
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:ID="DatatypeProperty_2"/>
-  <owl:TransitiveProperty rdf:ID="property_object_hasTopic">
+  <owl:TransitiveProperty rdf:ID="property_object_board_topic">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="#property_object_board_topic"/>
+  </owl:TransitiveProperty>
+  <owl:TransitiveProperty rdf:ID="property_object_thread_topic">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="#property_object_thread_topic"/>
+    <rdfs:range rdf:resource="#class_topic"/>
+  </owl:TransitiveProperty>
+  <owl:TransitiveProperty rdf:ID="property_object_course_topic">
+    <rdfs:range rdf:resource="#class_topic"/>
+    <owl:inverseOf rdf:resource="#property_object_course_topic"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:TransitiveProperty>
+  <owl:SymmetricProperty rdf:ID="property_object_language">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:domain>
       <owl:Class>
         <owl:unionOf rdf:parseType="Collection">
-          <owl:Class rdf:about="#class_board"/>
-          <owl:Class rdf:about="#class_course"/>
           <owl:Class rdf:about="#class_posting"/>
+          <owl:Class rdf:about="#class_course"/>
+          <owl:Class rdf:about="#class_board"/>
           <owl:Class rdf:about="#class_thread"/>
         </owl:unionOf>
       </owl:Class>
     </rdfs:domain>
-    <rdfs:range rdf:resource="#class_topic"/>
-  </owl:TransitiveProperty>
-  <owl:SymmetricProperty rdf:ID="property_object_posting_topic">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:range rdf:resource="#class_topic"/>
-    <owl:inverseOf rdf:resource="#property_object_posting_topic"/>
+    <rdfs:range rdf:resource="#class_language"/>
+    <owl:inverseOf rdf:resource="#property_object_language"/>
   </owl:SymmetricProperty>
-  <owl:SymmetricProperty rdf:ID="property_object_topic_uri_new">
-    <rdfs:domain rdf:resource="#class_topic"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-    <owl:inverseOf rdf:resource="#property_object_topic_uri_new"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+  <owl:SymmetricProperty rdf:ID="property_object_thread_posting">
+    <rdfs:domain rdf:resource="#class_thread"/>
+    <rdfs:range rdf:resource="#class_posting"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >&lt;p style="margin-top: 0"&gt;&#xD;
-      URI to the describing RDF node.&#xD;
-    &lt;/p&gt;</rdfs:comment>
+    <owl:inverseOf rdf:resource="#property_object_thread_posting"/>
+  </owl:SymmetricProperty>
+  <owl:SymmetricProperty rdf:ID="property_object_course_board">
+    <rdfs:domain rdf:resource="#class_course"/>
+    <owl:inverseOf rdf:resource="#property_object_course_board"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="#class_board"/>
+  </owl:SymmetricProperty>
+  <owl:SymmetricProperty rdf:ID="property_object_board_thread">
+    <owl:inverseOf rdf:resource="#property_object_board_thread"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="#class_thread"/>
+    <rdfs:domain rdf:resource="#class_board"/>
+  </owl:SymmetricProperty>
+  <owl:SymmetricProperty rdf:ID="property_object_lms_course">
+    <owl:inverseOf rdf:resource="#property_object_lms_course"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="#class_course"/>
+    <rdfs:domain rdf:resource="#class_lms"/>
   </owl:SymmetricProperty>
   <class_language rdf:ID="instance_lang_en">
-    <property_data_language_readable_name xml:lang="en">English</property_data_language_readable_name>
     <property_data_language_readable_name xml:lang="de">Englisch</property_data_language_readable_name>
+    <property_data_language_readable_name xml:lang="en">English</property_data_language_readable_name>
   </class_language>
   <j.0:VocabularyEncodingScheme rdf:about="http://purl.org/dc/terms/DCMIType"/>
   <j.0:VocabularyEncodingScheme rdf:about="http://purl.org/dc/terms/LCSH"/>
@@ -314,8 +316,8 @@
   </foaf:Person>
   <j.0:VocabularyEncodingScheme rdf:about="http://purl.org/dc/terms/UDC"/>
   <class_language rdf:ID="instance_lang_de">
-    <property_data_language_readable_name xml:lang="en">German</property_data_language_readable_name>
     <property_data_language_readable_name xml:lang="de">Deutsch</property_data_language_readable_name>
+    <property_data_language_readable_name xml:lang="en">German</property_data_language_readable_name>
   </class_language>
 </rdf:RDF>
 

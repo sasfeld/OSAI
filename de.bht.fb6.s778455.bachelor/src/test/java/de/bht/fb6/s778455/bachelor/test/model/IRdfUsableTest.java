@@ -61,7 +61,7 @@ public class IRdfUsableTest {
         
         // assert that predefined uris are prefered
         course.setWebUrl( new URL ("http://example.org" ) );        
-        expected = new URI( "http://example.org" );        
+        expected = new URI( "http://saschafeldmann.de/bachelor/ontology/individuals/unittestcourseset/1" );        
         assertEquals( expected, rdfUsable.getRdfUri() );
     }
     

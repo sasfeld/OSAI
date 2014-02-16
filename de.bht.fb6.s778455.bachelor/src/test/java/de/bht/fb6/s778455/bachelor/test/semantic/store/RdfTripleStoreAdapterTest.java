@@ -159,8 +159,8 @@ public class RdfTripleStoreAdapterTest extends LoggingAwareTest {
     @Test
     public void testOntologyModel() {
         assertEquals( 4, this.adapter.getImportedOntologies().size() );
-        assertEquals( 31, this.adapter.getOntologieClasses().size() );
-        assertEquals( 32, this.adapter.getOntologieDatatypeProperties().size() );
+        assertEquals( 26, this.adapter.getOntologieClasses().size() );
+        assertEquals( 33, this.adapter.getOntologieDatatypeProperties().size() );
 //        assertEquals( 90, this.adapter.getOntologieIndividuals().size() );
     }
 

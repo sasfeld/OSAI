@@ -73,4 +73,17 @@
 The bachelor thesis topic is &quot;Analyzing Moodle boards by using semantic networks&quot;.
 
 This software includes the anonymization of person entities in  postings of a board, the semantical enrichment and the creation of a semantic network.</description>
+
+	<build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>    
+        </plugins>
+    </build>
+
 </project>
