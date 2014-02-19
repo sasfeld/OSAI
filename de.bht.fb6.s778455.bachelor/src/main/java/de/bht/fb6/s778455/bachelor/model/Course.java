@@ -456,9 +456,10 @@ public class Course implements Serializable, IDirectoryPortable, IRdfUsable {
         txtExport.append( "TITLE: " + this.getTitle() + "\n" );
         txtExport.append( "LANGUAGE: " + this.getLanguage() + "\n" );
         txtExport.append( "SUMMARY: " + this.getSummary() + "\n" );
-        final String url = this.getWebUrl().toExternalForm();
+        
 
-        if( null != url ) {
+        if( null != this.getWebUrl() ) {
+            final String url = this.getWebUrl().toExternalForm();
             txtExport.append( "URL: " + url + "\n" );
         }
 

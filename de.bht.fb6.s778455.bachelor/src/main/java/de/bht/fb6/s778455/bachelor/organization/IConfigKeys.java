@@ -122,4 +122,5 @@ public interface IConfigKeys {
     String SEMANTICS_CREATION_STRATEGY_COURSECREATION = "semantics.creation.strategy.coursecreation";
     String SEMANTICS_CREATION_STRATEGY_TOPICZOOM = "semantics.creation.strategy.topiczoom";
     String SEMANTICS_CREATION_STRATEGY_CHAIN = "semantics.creation.strategy.chain";
+    String SEMANTICS_EXTRACTION_STRATEGY_WEBURI = "semantics.extraction.strategy.weburis";
 }

@@ -47,6 +47,7 @@ public class SemanticExtractionController {
     private ArrayList< AExtractionStrategy > englishPosStrategies;
     private AExtractionStrategy topicZoomStrategy;
     private AExtractionStrategy languageDetectionStrategy;
+    private AExtractionStrategy webUriStrategy;
     private Language defaultLang;
 
     /**
@@ -62,7 +63,9 @@ public class SemanticExtractionController {
     /**
      * Create a new semantic extraction controller.
      * 
-     * @param showInfo  set to true if you desire to print the working status on stdout.
+     * @param showInfo
+     *            set to true if you desire to print the working status on
+     *            stdout.
      * 
      * @throws InvalidConfigException
      * @throws IllegalArgumentException
@@ -295,6 +298,31 @@ public class SemanticExtractionController {
                             + "\n" );
                 }
             }
+
+            /*
+             * WebUriStrategy
+             */
+            if( strategy
+                    .equals( IConfigKeys.SEMANTICS_EXTRACTION_STRATEGY_WEBURI ) ) {
+                clazz = ServiceFactory.getConfigReader().getConfiguredClass(
+                        strategy );
+                if( !( clazz instanceof AExtractionStrategy ) ) {
+                    throw new InvalidConfigException(
+                            this.getClass()
+                                    + "performSemanticExtraction: the configuration value for the key "
+                                    + strategy
+                                    + " doesn't point to a class extending AExtractionStrategy. Please check the configuration.",
+                            "Illegal configuration value. Please check the logs.",
+                            null );
+                }
+
+                this.webUriStrategy = ( AExtractionStrategy ) clazz;
+
+                if( this.printInfo ) {
+                    System.out.println( "Initialized " + clazz.getClass()
+                            + "\n" );
+                }
+            }
         }
 
     }
@@ -307,8 +335,7 @@ public class SemanticExtractionController {
      * @throws InvalidConfigException
      */
     public LmsCourseSet performSemanticExtraction(
-            final LmsCourseSet inputCourses )
-            throws InvalidConfigException {
+            final LmsCourseSet inputCourses ) throws InvalidConfigException {
         if( null == inputCourses ) {
             throw new IllegalArgumentException(
                     "None of the given parameters may be null!" );
@@ -327,6 +354,7 @@ public class SemanticExtractionController {
                 }
                 this.performExtraction( course, this.englishPosStrategies );
                 this.performExtraction( course, this.englishNerStrategies );
+                this.performExtraction( course, this.webUriStrategy );
                 break;
             case GERMAN:
                 if( this.printInfo() ) {
@@ -336,10 +364,12 @@ public class SemanticExtractionController {
                 this.performExtraction( course, this.germanPosStrategies );
                 this.performExtraction( course, this.germanNerStrategies );
                 this.performExtraction( course, this.topicZoomStrategy );
+                this.performExtraction( course, this.webUriStrategy );
                 break;
             default: // UNKNOWN
                 // perform Language Detection Strategy
                 this.performExtraction( course, this.languageDetectionStrategy );
+                this.performExtraction( course, this.webUriStrategy );
                 Application
                         .log( this.getClass()
                                 + ":performSemanticExtraction(): the given course ("
@@ -362,6 +392,7 @@ public class SemanticExtractionController {
                     }
                     this.performExtraction( board, this.englishPosStrategies );
                     this.performExtraction( board, this.englishNerStrategies );
+                    this.performExtraction( board, this.webUriStrategy );
                     break;
                 case GERMAN:
                     if( this.printInfo() ) {
@@ -372,11 +403,13 @@ public class SemanticExtractionController {
                     this.performExtraction( board, this.germanPosStrategies );
                     this.performExtraction( board, this.germanNerStrategies );
                     this.performExtraction( board, this.topicZoomStrategy );
+                    this.performExtraction( board, this.webUriStrategy );
                     break;
                 default: // UNKNOWN
                     // perform Language Detection Strategy
                     this.performExtraction( board,
                             this.languageDetectionStrategy );
+                    this.performExtraction( board, this.webUriStrategy );
                     Application
                             .log( this.getClass()
                                     + ":performSemanticExtraction(): the given board ("
@@ -388,6 +421,7 @@ public class SemanticExtractionController {
 
                 // go deeper into postings
                 for( final BoardThread thread : board.getBoardThreads() ) {
+                    this.performExtraction( thread, this.webUriStrategy );
                     for( final Posting posting : thread.getPostings() ) {
                         entitiesLang = ( Language.UNKNOWN.equals( posting
                                 .getLang() ) ) ? this.defaultLang : posting
@@ -403,6 +437,7 @@ public class SemanticExtractionController {
                                     this.englishPosStrategies );
                             this.performExtraction( posting,
                                     this.englishNerStrategies );
+                            this.performExtraction( posting, this.webUriStrategy );
                             break;
                         case GERMAN:
                             if( this.printInfo() ) {
@@ -416,11 +451,13 @@ public class SemanticExtractionController {
                                     this.germanNerStrategies );
                             this.performExtraction( posting,
                                     this.topicZoomStrategy );
+                            this.performExtraction( posting, this.webUriStrategy );
                             break;
                         default: // UNKNOWN
                             // perform Language Detection Strategy
                             this.performExtraction( posting,
                                     this.languageDetectionStrategy );
+                            this.performExtraction( posting, this.webUriStrategy );
                             Application
                                     .log( this.getClass()
                                             + ":performSemanticExtraction(): the given posting ("
