@@ -28,7 +28,24 @@ public class Tag implements IRdfUsable, IBaseUris {
 		/**
 		 * key for tags won by Stanford Part-of-Speech Tagging (POS)
 		 */
-		POS_TAG,
+		POS_TAG;
+		
+		/**
+		 * Get the corresponding class to which the key shall show.
+		 * @return
+		 */
+		public Class< ? > getCorrespondingClass() {
+            switch( this ) {
+            case TOPIC_ZOOM:
+                return TopicZoomTag.class;
+            case NER_TAG:
+                return NerTag.class;
+            case POS_TAG:
+                return PosTag.class;
+            default:
+                return null;
+            }
+        }
 	}
 	
 	protected double weight;

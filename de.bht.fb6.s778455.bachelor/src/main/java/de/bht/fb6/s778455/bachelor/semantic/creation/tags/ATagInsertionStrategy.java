@@ -3,11 +3,18 @@
  */
 package de.bht.fb6.s778455.bachelor.semantic.creation.tags;
 
+import java.net.URISyntaxException;
+import java.util.Collection;
+import java.util.List;
+
 import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.ObjectProperty;
 
+import de.bht.fb6.s778455.bachelor.model.IRdfUsable;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Tag;
+import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
+import de.bht.fb6.s778455.bachelor.model.TopicZoomTag;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.semantic.creation.ACreationStrategy;
 import de.bht.fb6.s778455.bachelor.semantic.organization.service.ServiceFactory;
@@ -67,5 +74,111 @@ public abstract class ATagInsertionStrategy extends ACreationStrategy {
         
         // add triple / statement
         this.getOntologyModel().add( topicIndividual, objectProperty, uri );        
+    }
+    
+    /**
+     * Add the {@link TopicZoomTag} instances of the given IRdfUsable to the
+     * semantic network.
+     * 
+     * @param model
+     * @param tags
+     * @param topicZoom 
+     * @throws GeneralLoggingException
+     */
+    protected void addTopics( final IRdfUsable model, final List< Tag > tags, final TagType tagType )
+            throws GeneralLoggingException {
+        if( null == model ) {
+            throw new IllegalArgumentException(
+                    "Null value is not allowed for parameter!" );
+        }
+
+        final boolean validModelTags = this.validateTags( tags, tagType );
+        if( validModelTags ) {
+            // try to get individual for model
+            try {
+                final Individual modelIndividual = super.getOntologyModel()
+                        .getIndividual( model.getRdfUri().toString() );
+
+                try {
+                    if( null == modelIndividual
+                            && !super.getOntologyModel().containsResource(
+                                    modelIndividual ) ) {
+                        throw new GeneralLoggingException(
+                                this.getClass()
+                                        + ":addTopic(): no OWL individual found in the ontology for: "
+                                        + model,
+                                "Error in TopicZoomTagInsertion. Read the logs." );
+
+                    }
+                } catch( final NullPointerException e ) {
+                    throw new GeneralLoggingException(
+                            this.getClass()
+                                    + ":addTopic(): no OWL individual found in the ontology for: "
+                                    + model,
+                            "Error in TopicZoomTagInsertion. Read the logs." );
+                }
+
+                // try to get individual for each tag instance
+                for( final Tag tag : tags ) {
+                    final Individual tagIndividual = super.getOntologyModel()
+                            .getIndividual( tag.getRdfUri().toString() );
+
+                    try {
+                        if( null == tagIndividual
+                                && !super.getOntologyModel().containsResource(
+                                        tagIndividual ) ) {
+                            throw new GeneralLoggingException(
+                                    this.getClass()
+                                            + ":addTopic(): no OWL individual found in the ontology for tag: "
+                                            + tag,
+                                    "Error in TopicZoomTagInsertion. Read the logs." );
+                        }
+                    } catch( final NullPointerException e ) {
+                        throw new GeneralLoggingException(
+                                this.getClass()
+                                        + ":addTopic(): no OWL individual found in the ontology for tag: "
+                                        + tag,
+                                "Error in TopicZoomTagInsertion. Read the logs." );
+                    }
+
+                    // add object property edge between model and tag
+                    try {
+                        super.addPropertyObjectBetween( modelIndividual,
+                                tagIndividual, PROPERTY_OBJECT_HASTOPIC );
+                    } catch( final GeneralLoggingException e ) {
+                        // don't do anything, continue with other tags, alread
+                        // logged
+                    }
+                }
+
+            } catch( final URISyntaxException e ) {
+                throw new GeneralLoggingException(
+                        this.getClass()
+                                + ":addTopic(): no OWL individual found in the ontology for: "
+                                + model,
+                        "Error in TopicZoomTagInsertion. Read the logs." );
+            }
+        }
+    }
+    
+    /**
+     * Check if the given TZ tags are valid {@link TopicZoomTag} instances.
+     * 
+     * @param tzTags
+     * @return
+     */
+    protected boolean validateTags( final Collection< Tag > tzTags, final TagType tagType ) {
+        if( null == tzTags ) {
+            throw new IllegalArgumentException(
+                    "Null value is not allowed for parameter!" );
+        }
+
+        for( final Tag tag : tzTags ) {
+            final Class< ? > clazz = tagType.getCorrespondingClass();
+            if( !( tag.getClass().equals( clazz ) ) ) {
+                return false;
+            }
+        }
+        return true;
     }
 }

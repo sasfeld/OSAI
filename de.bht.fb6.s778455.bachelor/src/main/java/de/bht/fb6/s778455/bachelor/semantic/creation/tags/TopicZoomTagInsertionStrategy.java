@@ -69,24 +69,24 @@ public class TopicZoomTagInsertionStrategy extends ATagInsertionStrategy {
 
         for( final Course course : courseSet ) {
             if( course.isTopicZoomTagged() ) {
-                this.addTopics( course, course.getTags( TagType.TOPIC_ZOOM ) );
+                this.addTopics( course, course.getTags( TagType.TOPIC_ZOOM ), TagType.TOPIC_ZOOM );
             }
 
             for( final Board board : course.getBoards() ) {
                 if( board.isTopicZoomTagged() ) {
-                    this.addTopics( board, board.getTags( TagType.TOPIC_ZOOM ) );
+                    this.addTopics( board, board.getTags( TagType.TOPIC_ZOOM ), TagType.TOPIC_ZOOM );
                 }
 
                 for( final BoardThread boardThread : board.getBoardThreads() ) {
                     if( boardThread.isTopicZoomTagged() ) {
                         this.addTopics( boardThread,
-                                boardThread.getTags( TagType.TOPIC_ZOOM ) );
+                                boardThread.getTags( TagType.TOPIC_ZOOM ), TagType.TOPIC_ZOOM );
                     }
 
                     for( final Posting posting : boardThread.getPostings() ) {
                         if( posting.isTopicZoomTagged() ) {
                             this.addTopics( posting,
-                                    posting.getTags( TagType.TOPIC_ZOOM ) );
+                                    posting.getTags( TagType.TOPIC_ZOOM ), TagType.TOPIC_ZOOM );
                         }
                     }
                 }
@@ -104,7 +104,7 @@ public class TopicZoomTagInsertionStrategy extends ATagInsertionStrategy {
         final Set< Tag > tzTags = CourseUtil.getDistinctTags( courseSet,
                 TagType.TOPIC_ZOOM );
 
-        final boolean validTzTags = this.validateTags( tzTags );
+        final boolean validTzTags = this.validateTags( tzTags, TagType.TOPIC_ZOOM );
         if( validTzTags ) {
             final OntModel ontModel = super.getOntologyModel();
 
@@ -147,107 +147,8 @@ public class TopicZoomTagInsertionStrategy extends ATagInsertionStrategy {
         }
     }
 
-    /**
-     * Check if the given TZ tags are valid {@link TopicZoomTag} instances.
-     * 
-     * @param tzTags
-     * @return
-     */
-    private boolean validateTags( final Collection< Tag > tzTags ) {
-        if( null == tzTags ) {
-            throw new IllegalArgumentException(
-                    "Null value is not allowed for parameter!" );
-        }
+   
 
-        for( final Tag tag : tzTags ) {
-            if( !( tag instanceof TopicZoomTag ) ) {
-                return false;
-            }
-        }
-        return true;
-    }
-
-    /**
-     * Add the {@link TopicZoomTag} instances of the given IRdfUsable to the
-     * semantic network.
-     * 
-     * @param model
-     * @param tags
-     * @throws GeneralLoggingException
-     */
-    protected void addTopics( final IRdfUsable model, final List< Tag > tags )
-            throws GeneralLoggingException {
-        if( null == model ) {
-            throw new IllegalArgumentException(
-                    "Null value is not allowed for parameter!" );
-        }
-
-        final boolean validModelTags = this.validateTags( tags );
-        if( validModelTags ) {
-            // try to get individual for model
-            try {
-                final Individual modelIndividual = super.getOntologyModel()
-                        .getIndividual( model.getRdfUri().toString() );
-
-                try {
-                    if( null == modelIndividual
-                            && !super.getOntologyModel().containsResource(
-                                    modelIndividual ) ) {
-                        throw new GeneralLoggingException(
-                                this.getClass()
-                                        + ":addTopic(): no OWL individual found in the ontology for: "
-                                        + model,
-                                "Error in TopicZoomTagInsertion. Read the logs." );
-
-                    }
-                } catch( final NullPointerException e ) {
-                    throw new GeneralLoggingException(
-                            this.getClass()
-                                    + ":addTopic(): no OWL individual found in the ontology for: "
-                                    + model,
-                            "Error in TopicZoomTagInsertion. Read the logs." );
-                }
-
-                // try to get individual for each tag instance
-                for( final Tag tag : tags ) {
-                    final Individual tagIndividual = super.getOntologyModel()
-                            .getIndividual( tag.getRdfUri().toString() );
-
-                    try {
-                        if( null == tagIndividual
-                                && !super.getOntologyModel().containsResource(
-                                        tagIndividual ) ) {
-                            throw new GeneralLoggingException(
-                                    this.getClass()
-                                            + ":addTopic(): no OWL individual found in the ontology for tag: "
-                                            + tag,
-                                    "Error in TopicZoomTagInsertion. Read the logs." );
-                        }
-                    } catch( final NullPointerException e ) {
-                        throw new GeneralLoggingException(
-                                this.getClass()
-                                        + ":addTopic(): no OWL individual found in the ontology for tag: "
-                                        + tag,
-                                "Error in TopicZoomTagInsertion. Read the logs." );
-                    }
-
-                    // add object property edge between model and tag
-                    try {
-                        super.addPropertyObjectBetween( modelIndividual,
-                                tagIndividual, PROPERTY_OBJECT_HASTOPIC );
-                    } catch( final GeneralLoggingException e ) {
-                        // don't do anything, continue with other tags, alread
-                        // logged
-                    }
-                }
-
-            } catch( final URISyntaxException e ) {
-                throw new GeneralLoggingException(
-                        this.getClass()
-                                + ":addTopic(): no OWL individual found in the ontology for: "
-                                + model,
-                        "Error in TopicZoomTagInsertion. Read the logs." );
-            }
-        }
-    }
+    
+    
 }

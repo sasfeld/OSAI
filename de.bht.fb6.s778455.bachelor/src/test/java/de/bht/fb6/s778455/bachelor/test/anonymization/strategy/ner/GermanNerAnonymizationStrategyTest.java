@@ -169,6 +169,7 @@ public class GermanNerAnonymizationStrategyTest {
 		assertEquals( expectedCleanedText, cleanedText );
 	}
 
+
 	// @Test
 	// /**
 	// * Use reflection to test the private method of ANerAnoymizationStrategy.
