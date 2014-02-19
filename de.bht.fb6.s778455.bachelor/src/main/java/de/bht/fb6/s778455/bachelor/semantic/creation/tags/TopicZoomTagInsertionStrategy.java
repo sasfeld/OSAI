@@ -4,8 +4,6 @@
 package de.bht.fb6.s778455.bachelor.semantic.creation.tags;
 
 import java.net.URISyntaxException;
-import java.util.Collection;
-import java.util.List;
 import java.util.Set;
 
 import com.hp.hpl.jena.ontology.Individual;
@@ -15,7 +13,6 @@ import com.hp.hpl.jena.ontology.OntModel;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
-import de.bht.fb6.s778455.bachelor.model.IRdfUsable;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.model.Tag;
@@ -123,16 +120,16 @@ public class TopicZoomTagInsertionStrategy extends ATagInsertionStrategy {
                         }
 
                         // add the original URI to the new individual
-                        if( null != tag.getUri() ) {
+                        if( null != tag.getRelatedConceptUri() ) {
                             super.addPropertyObjectTopicConceptUri(
-                                    topicIndividual, tag.getUri() );
+                                    topicIndividual, tag.getRelatedConceptUri() );
                         }
 
                     } catch( final URISyntaxException e ) {
                         Application
                                 .log( this.getClass()
                                         + ":addNodesForTzTags(): illegal URI for tag: "
-                                        + tag.getUri()
+                                        + tag.getRelatedConceptUri()
                                         + "! I will not add it to the semantic network.",
                                         LogType.ERROR );
                     }

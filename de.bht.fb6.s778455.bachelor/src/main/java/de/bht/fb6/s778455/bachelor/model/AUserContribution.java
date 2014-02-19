@@ -392,7 +392,7 @@ public abstract class AUserContribution implements IDirectoryPortable, IRdfUsabl
 							+ topicZoomTag.getSignificance() + ";"
 							+ "degreegeneralization:"
 							+ topicZoomTag.getDegreeGeneralization() + ";"
-							+ "uri:" + topicZoomTag.getUri() + "\n" );
+							+ "uri:" + topicZoomTag.getRelatedConceptUri() + "\n" );
 				} else {
 					Application
 							.log( this.getClass()
@@ -410,7 +410,7 @@ public abstract class AUserContribution implements IDirectoryPortable, IRdfUsabl
 					exportStr.append( "NER_TAG: " + "value:"
 							+ nerTag.getValue() + ";" + "weight:"
 							+ nerTag.getWeight() + ";" 
-							+ "uri:" + nerTag.getUri() + ";"
+							+ "uri:" + nerTag.getRelatedConceptUri() + ";"
 							+ "classifierlabel:" + nerTag.getClassifierLabel() + "\n" );
 				} else {
 					Application
@@ -429,7 +429,7 @@ public abstract class AUserContribution implements IDirectoryPortable, IRdfUsabl
 		            exportStr.append( "POS_TAG: " + "value:"
 		                    + posTag.getValue() + ";" + "weight:"
 		                    + posTag.getWeight() + ";"
-		                    + "uri:" + posTag.getUri() + ";"
+		                    + "uri:" + posTag.getRelatedConceptUri() + ";"
 		                    + "postag:" + posTag.getPosTag() + "\n" );
 		        } else {
 		            Application

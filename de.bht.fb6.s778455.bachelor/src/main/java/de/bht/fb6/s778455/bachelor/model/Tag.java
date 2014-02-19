@@ -50,7 +50,7 @@ public class Tag implements IRdfUsable, IBaseUris {
 	
 	protected double weight;
 	protected String value;
-	protected String uri;
+	protected String relatedConceptUri;
 	protected TagType tagType;
 
 	/**
@@ -67,7 +67,7 @@ public class Tag implements IRdfUsable, IBaseUris {
 		
 		this.weight = weight;
 		this.value = value;
-		this.uri = uri;
+		this.relatedConceptUri = uri;
 		this.tagType = tagType;
 	}
 	
@@ -110,16 +110,16 @@ public class Tag implements IRdfUsable, IBaseUris {
 		this.value = value;
 	}
 	/**
-	 * @return the uri
+	 * @return the the uri of a related concept, e.g. from another ontology.
 	 */
-	public String getUri() {
-		return this.uri;
+	public String getRelatedConceptUri() {
+		return this.relatedConceptUri;
 	}
 	/**
-	 * @param uri the uri to set
+	 * @param set the uri of a related concept, e.g. from another ontology.
 	 */
-	public void setUri( final String uri ) {
-		this.uri = uri;
+	public void setRelatedConceptUri( final String uri ) {
+		this.relatedConceptUri = uri;
 	}
 	/* (non-Javadoc)
 	 * @see java.lang.Object#hashCode()
@@ -128,7 +128,7 @@ public class Tag implements IRdfUsable, IBaseUris {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ( ( this.uri == null ) ? 0 : this.uri.hashCode() );
+		result = prime * result + ( ( this.relatedConceptUri == null ) ? 0 : this.relatedConceptUri.hashCode() );
 		result = prime * result + ( ( this.value == null ) ? 0 : this.value.hashCode() );
 		long temp;
 		temp = Double.doubleToLongBits( this.weight );
@@ -147,10 +147,10 @@ public class Tag implements IRdfUsable, IBaseUris {
 		if( this.getClass() != obj.getClass() )
 			return false;
 		final Tag other = ( Tag ) obj;
-		if( this.uri == null ) {
-			if( other.uri != null )
+		if( this.relatedConceptUri == null ) {
+			if( other.relatedConceptUri != null )
 				return false;
-		} else if( !this.uri.equals( other.uri ) )
+		} else if( !this.relatedConceptUri.equals( other.relatedConceptUri ) )
 			return false;
 		if( this.value == null ) {
 			if( other.value != null )
@@ -174,7 +174,7 @@ public class Tag implements IRdfUsable, IBaseUris {
 		builder.append( ", getValue()=" );
 		builder.append( this.getValue() );
 		builder.append( ", getUri()=" );
-		builder.append( this.getUri() );
+		builder.append( this.getRelatedConceptUri() );
 		builder.append( "]" );
 		return builder.toString();
 	}
@@ -185,9 +185,9 @@ public class Tag implements IRdfUsable, IBaseUris {
      * @see de.bht.fb6.s778455.bachelor.model.IRdfUsable#getRdfUri()
      */
     public URI getRdfUri() throws URISyntaxException {
-        if ( null != this.getUri() || 0 != this.getUri().length() ) {
+        if ( null != this.getRelatedConceptUri() || 0 != this.getRelatedConceptUri().length() ) {
             final URI newUri = new  URI( INDIVIDUAL_BASE_URI + 
-                    "tags/" + this.getUri() );
+                    "tags/" + this.getRelatedConceptUri() );
             
             return newUri;
         }

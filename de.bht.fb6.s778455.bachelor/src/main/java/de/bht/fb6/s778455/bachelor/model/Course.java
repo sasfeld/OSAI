@@ -475,7 +475,7 @@ public class Course implements Serializable, IDirectoryPortable, IRdfUsable {
                             + topicZoomTag.getSignificance() + ";"
                             + "degreegeneralization:"
                             + topicZoomTag.getDegreeGeneralization() + ";"
-                            + "uri:" + topicZoomTag.getUri() + "\n" );
+                            + "uri:" + topicZoomTag.getRelatedConceptUri() + "\n" );
                 } else {
                     Application
                             .log( this.getClass()
@@ -493,7 +493,7 @@ public class Course implements Serializable, IDirectoryPortable, IRdfUsable {
                     txtExport.append( "NER_TAG: " + "value:"
                             + nerTag.getValue() + ";" + "weight:"
                             + nerTag.getWeight() + ";" + "uri:"
-                            + nerTag.getUri() + ";" + "classifierlabel:"
+                            + nerTag.getRelatedConceptUri() + ";" + "classifierlabel:"
                             + nerTag.getClassifierLabel() + "\n" );
                 } else {
                     Application
@@ -512,7 +512,7 @@ public class Course implements Serializable, IDirectoryPortable, IRdfUsable {
                     txtExport.append( "POS_TAG: " + "value:"
                             + posTag.getValue() + ";" + "weight:"
                             + posTag.getWeight() + ";" + "uri:"
-                            + posTag.getUri() + ";" + "postag:"
+                            + posTag.getRelatedConceptUri() + ";" + "postag:"
                             + posTag.getPosTag() + "\n" );
                 } else {
                     Application

@@ -6,6 +6,8 @@ package de.bht.fb6.s778455.bachelor.model;
 import java.net.URI;
 import java.net.URISyntaxException;
 
+import de.bht.fb6.s778455.bachelor.organization.FileUtil;
+
 /**
  * <p>
  * A PosTag represents tags won by Part of Speech - Tagging. They can be used to
@@ -55,7 +57,7 @@ public class PosTag extends Tag {
     public URI getRdfUri() throws URISyntaxException {
         if ( null != this.getValue() || 0 != this.getValue().length() ) {
             final URI newUri = new  URI( INDIVIDUAL_BASE_URI + 
-                    "tags/pos/" + this.getValue().trim() );
+                    "tags/pos/" + FileUtil.removeIllegalChars( this.getValue().trim() ));
             
             return newUri;
         }

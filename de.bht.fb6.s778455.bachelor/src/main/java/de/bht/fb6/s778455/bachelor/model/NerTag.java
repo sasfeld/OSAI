@@ -6,6 +6,8 @@ package de.bht.fb6.s778455.bachelor.model;
 import java.net.URI;
 import java.net.URISyntaxException;
 
+import de.bht.fb6.s778455.bachelor.organization.FileUtil;
+
 
 /**
  * <p>This class realizes the represenation of a tag extracted by Stanford NLP using Named Entity Recognition (NER).</p>
@@ -89,7 +91,7 @@ public class NerTag extends Tag {
     public URI getRdfUri() throws URISyntaxException {
         if ( null != this.getValue() || 0 != this.getValue().length() ) {
             final URI newUri = new  URI( INDIVIDUAL_BASE_URI + 
-                    "tags/ner/" + this.getValue().trim() );
+                    "tags/ner/" + FileUtil.removeIllegalChars( this.getValue().trim() ) );
             
             return newUri;
         }
