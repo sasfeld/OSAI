@@ -3,8 +3,6 @@
  */
 package de.bht.fb6.s778455.bachelor.test.semantic.extraction;
 
-import static org.junit.Assert.*;
-
 import java.io.File;
 import java.util.List;
 

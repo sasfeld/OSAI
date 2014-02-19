@@ -10,6 +10,7 @@ import de.bht.fb6.s778455.bachelor.model.AUserContribution;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
@@ -42,7 +43,7 @@ public class WebUriExtractionStrategy extends AExtractionStrategy {
             
             if ( BASE_URL.equals( BASE_URL_LUEBECK ) || BASE_URL.equals( BASE_URL_BEUTH )) {
                 try {
-                    b.setWebUrl( new URL ( BASE_URL + "mod/forum/view.php?id=" + userContribution.getId() ));
+                    b.setWebUrl( new URL ( BASE_URL + "mod/forum/view.php?id=" + b.getId() ));
                 } catch( final MalformedURLException e ) {
                    Application.log( "Couldnt set URL", LogType.ERROR, this.getClass() );
                 }
@@ -50,17 +51,28 @@ public class WebUriExtractionStrategy extends AExtractionStrategy {
         }
         
         if ( userContribution instanceof BoardThread ) {
-            final Board b = (Board) userContribution;
+            final BoardThread b = (BoardThread) userContribution;
             
             if ( BASE_URL.equals( BASE_URL_LUEBECK ) || BASE_URL.equals( BASE_URL_BEUTH )) {
                 try {
-                    b.setWebUrl( new URL ( BASE_URL + "mod/forum/discuss.php?id=" + userContribution.getId() ));
+                    b.setWebUrl( new URL ( BASE_URL + "mod/forum/discuss.php?id=" + b.getId() ));
                 } catch( final MalformedURLException e ) {
                     Application.log( "Couldnt set URL", LogType.ERROR, this.getClass() );
                 }
             }
         }
 
+        if ( userContribution instanceof Posting ) {
+            final Posting b = (Posting) userContribution;
+            
+            if ( BASE_URL.equals( BASE_URL_LUEBECK ) || BASE_URL.equals( BASE_URL_BEUTH )) {
+                try {
+                    b.setWebUrl( new URL ( BASE_URL + "mod/forum/discuss.php?id=" + b.getBelongingThread().getId() + "#" + b.getId() ));
+                } catch( final MalformedURLException e ) {
+                    Application.log( "Couldnt set URL", LogType.ERROR, this.getClass() );
+                }
+            }
+        }
     }
 
     /* (non-Javadoc)
@@ -69,8 +81,13 @@ public class WebUriExtractionStrategy extends AExtractionStrategy {
     @Override
     public void extractSemantics( final Course course )
             throws GeneralLoggingException {
-        // TODO Auto-generated method stub
-
+        if ( BASE_URL.equals( BASE_URL_LUEBECK ) || BASE_URL.equals( BASE_URL_BEUTH )) {
+            try {
+                course.setWebUrl( new URL ( BASE_URL + "course/view.php?id=" + course.getId()));
+            } catch( final MalformedURLException e ) {
+                Application.log( "Couldnt set URL", LogType.ERROR, this.getClass() );
+            }
+        }
     }
 
 }

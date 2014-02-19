@@ -17,6 +17,8 @@ import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
  *
  */
 public class ServiceFactory {
+    protected static ServiceFactory instance;
+    
 	protected static IConfigReader configReader;
 	private static PersonNameCorpus personNameCorpus;
 	protected static DirectoryImportStrategy dirImportStrat;
@@ -55,8 +57,15 @@ public class ServiceFactory {
 	    return dirImportStrat;
 	}
 
+	/**
+	 * Get the singleton ServiceFactory.
+	 * @return
+	 */
     public static ServiceFactory getInstance() {
-        // TODO Auto-generated method stub
-        return null;
+       if ( null == instance ) {
+           instance = new ServiceFactory();
+       }
+       
+       return instance;
     }
 }

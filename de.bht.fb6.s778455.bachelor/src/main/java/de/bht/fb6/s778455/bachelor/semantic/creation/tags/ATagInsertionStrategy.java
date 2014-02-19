@@ -11,7 +11,6 @@ import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.ObjectProperty;
 
 import de.bht.fb6.s778455.bachelor.model.IRdfUsable;
-import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Tag;
 import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
 import de.bht.fb6.s778455.bachelor.model.TopicZoomTag;
@@ -45,14 +44,6 @@ public abstract class ATagInsertionStrategy extends ACreationStrategy {
         super( adapter );
     }
 
-    /* (non-Javadoc)
-     * @see de.bht.fb6.s778455.bachelor.semantic.creation.ACreationStrategy#createRdfTriples(de.bht.fb6.s778455.bachelor.model.LmsCourseSet)
-     */
-    @Override
-    public void createRdfTriples( final LmsCourseSet courseSet )
-            throws GeneralLoggingException {
-        // TODO identify generic work
-    }
 
     /**
      * Add the object property to a concept URI which is not part of the own ontology.
