@@ -55,7 +55,7 @@ public abstract class ACreationStrategy implements IOwlClasses,
     protected static OntModel singletonOntModel;
 
     private final RdfTripleStoreAdapter tripleStoreAdapter;
-    private final OntModel ontologyModel;
+    private OntModel ontologyModel;
 
     /**
      * Create a new strategy which fetches the {@link RdfTripleStoreAdapter}
@@ -64,16 +64,10 @@ public abstract class ACreationStrategy implements IOwlClasses,
     public ACreationStrategy() {
         this.tripleStoreAdapter = ServiceFactory.getJenaStoreAdapter();
         
-        // check if singleton exists
-        if( null == singletonOntModel ) {
-            this.ontologyModel = this.tripleStoreAdapter.getPureOntologyModel();
-            
-            // set in static scope
-            singletonOntModel = this.ontologyModel;
-        } else {
-            this.ontologyModel = singletonOntModel;
-        }
+        this._prepareSingletonOntModel();
     }
+
+   
 
     /**
      * Create a new strategy with an injected {@link RdfTripleStoreAdapter}.
@@ -88,8 +82,25 @@ public abstract class ACreationStrategy implements IOwlClasses,
 
         this.tripleStoreAdapter = adapter;
         this.ontologyModel = this.tripleStoreAdapter.getPureOntologyModel();
+        
+        this._prepareSingletonOntModel();
     }
 
+    /**
+     * Get or prepare the singleton ont model.
+     */
+    protected void _prepareSingletonOntModel() {
+        // check if singleton exists
+        if( null == singletonOntModel ) {
+            this.ontologyModel = this.tripleStoreAdapter.getPureOntologyModel();
+            
+            // set in static scope
+            singletonOntModel = this.ontologyModel;
+        } else {
+            this.ontologyModel = singletonOntModel;
+        }
+    }
+    
     /**
      * Get the single triple store adapter.
      * 
