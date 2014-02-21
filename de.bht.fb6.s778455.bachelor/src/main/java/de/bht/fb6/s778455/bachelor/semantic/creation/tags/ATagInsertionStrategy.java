@@ -137,6 +137,7 @@ public abstract class ATagInsertionStrategy extends ACreationStrategy {
                         super.addPropertyObjectBetween( modelIndividual,
                                 tagIndividual, PROPERTY_OBJECT_HASTOPIC );
                     } catch( final GeneralLoggingException e ) {
+                    	System.err.println(e);
                         // don't do anything, continue with other tags, alread
                         // logged
                     }

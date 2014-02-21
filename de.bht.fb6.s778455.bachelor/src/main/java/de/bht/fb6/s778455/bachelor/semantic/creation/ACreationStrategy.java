@@ -80,8 +80,7 @@ public abstract class ACreationStrategy implements IOwlClasses,
                     "Null values are not allowed for parameters!" );
         }
 
-        this.tripleStoreAdapter = adapter;
-        this.ontologyModel = this.tripleStoreAdapter.getPureOntologyModel();
+        this.tripleStoreAdapter = adapter;       
         
         this._prepareSingletonOntModel();
     }

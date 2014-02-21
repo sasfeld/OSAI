@@ -185,7 +185,7 @@ public class Tag implements IRdfUsable, IBaseUris {
      * @see de.bht.fb6.s778455.bachelor.model.IRdfUsable#getRdfUri()
      */
     public URI getRdfUri() throws URISyntaxException {
-        if ( null != this.getRelatedConceptUri() || 0 != this.getRelatedConceptUri().length() ) {
+        if ( null != this.getRelatedConceptUri() && 0 != this.getRelatedConceptUri().length() ) {
             final URI newUri = new  URI( INDIVIDUAL_BASE_URI + 
                     "tags/" + this.getRelatedConceptUri() );
             
