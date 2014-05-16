@@ -13,6 +13,7 @@ import org.junit.Test;
 
 import de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
@@ -37,7 +38,7 @@ public class GermanNerExtractionStrategyTest {
 	 */
 	@Before
 	public void setUp() throws Exception {
-		File corpusFile = new File( ServiceFactory.getConfigReader()
+		final File corpusFile = new File( ServiceFactory.getConfigReader()
 				.fetchValue( IConfigKeys.ANONYM_NER_GERMAN_HGC_FILE ) );
 		this.strategy = new GermanNerExtractionStrategy( corpusFile );
 	}
@@ -52,7 +53,7 @@ public class GermanNerExtractionStrategyTest {
 
 	@Test( expected = IllegalArgumentException.class )
 	public void testWrongClassifier() {
-		File englishCorpusFile = new File( ServiceFactory.getConfigReader()
+		final File englishCorpusFile = new File( ServiceFactory.getConfigReader()
 				.fetchValue( IConfigKeys.ANONYM_NER_ENGLISH_4CLASS_FILE ) );
 		new GermanNerExtractionStrategy( englishCorpusFile );
 	}
@@ -60,7 +61,7 @@ public class GermanNerExtractionStrategyTest {
 	@Test
 	public void testExtractSemantics() throws GeneralLoggingException {
 		// create sample posting
-		Posting samplePosting = new Posting();
+		final Posting samplePosting = new Posting();
 		samplePosting
 				.setContent( "Warst du schonmal in Berlin?\nAlbert Einstein war in der Brandenburgischen Akademie der Wissenschaften." );
 
@@ -72,7 +73,7 @@ public class GermanNerExtractionStrategyTest {
 		System.out.println( samplePosting.getTags( TagType.NER_TAG ) );
 
 		// create sample course
-		Course newCourse = new Course( "Albert Einstein - Kurs" );
+		final Course newCourse = new Course( "Albert Einstein - Kurs", new LmsCourseSet( "unit test course set" )  );
 		newCourse.setSummary( "Chardonnay ist ein Wein." );
 
 		this.strategy.extractSemantics( newCourse );

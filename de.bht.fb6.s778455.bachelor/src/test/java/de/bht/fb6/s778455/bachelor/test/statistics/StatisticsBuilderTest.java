@@ -51,9 +51,9 @@ public class StatisticsBuilderTest {
 
 	
 	private LmsCourseSet createDummyCollection() {
-		final LmsCourseSet coll = new LmsCourseSet();
+		final LmsCourseSet coll = new LmsCourseSet( "unit test" );
 
-		final Course dummyCourse = new Course( "dummy" );
+		final Course dummyCourse = new Course( "dummy", coll );
 		coll.add( dummyCourse );
 		final Board dummyBoard = new Board( dummyCourse, "Dummy board" );
 		dummyCourse.addBoard( dummyBoard );

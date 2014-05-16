@@ -1,7 +1,8 @@
 ID: 0
-CREATION_DATETIME: 1390057481774
+CREATION_DATETIME: 1391528180759
 TITLE: null
 LANGUAGE: GERMAN
+WEB_URL: http://example.org/posting1
 TOPIC_ZOOM_TAG: value:test;weight:3.0;significance:6.0;degreegeneralization:4;uri:testuri
 TOPIC_ZOOM_TAG: value:test;weight:1.0;significance:3.0;degreegeneralization:2;uri:testuri2
 NER_TAG: value:Berlin;weight:-1.0;uri:berlin;classifierlabel:I-LOC

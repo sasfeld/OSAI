@@ -26,8 +26,13 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
  *
  */
 public class AuditoriumImportStrategy extends AImportStrategy {
+    /**
+     * Name of the course set defined by this import strategy.
+     * Make sure to chosse a name which is valid in a URI.
+     */
+	public static final String COURSE_SET_NAME = "auditorium_dresden";
 
-	/* (non-Javadoc)
+    /* (non-Javadoc)
 	 * @see de.bht.fb6.s778455.bachelor.importer.AImportStrategy#importBoardFromStream(java.io.InputStream)
 	 */
 	@Override
@@ -41,10 +46,11 @@ public class AuditoriumImportStrategy extends AImportStrategy {
 	@Override
 	public LmsCourseSet importBoardFromFile( final File inputFile )
 			throws GeneralLoggingException {
+	    final LmsCourseSet auditoriumCourseSet = new LmsCourseSet( super.removeIllegalChars( COURSE_SET_NAME ) );
 		// ignore input file. DB connection configured in the importer.properties will be used
 		final AuditoriumDbQuerier querier = new AuditoriumDbQuerier();
 		
-		final Map< Integer, Course > courseMap = querier.fetchCourses();
+		final Map< Integer, Course > courseMap = querier.fetchCourses( auditoriumCourseSet );
 		final Map< Integer, Board > boardMap = querier.fetchBoards( courseMap );
 		final Map< Integer, BoardThread > threadMap = querier.fetchBoardThreads( boardMap );
 		querier.fetchPostings( threadMap );
@@ -57,7 +63,8 @@ public class AuditoriumImportStrategy extends AImportStrategy {
 		
 		this.fillFromFile( null, corpus, null );
 		
-		return new LmsCourseSet(courseMap.values());
+		auditoriumCourseSet.addAll( courseMap.values() );
+		return auditoriumCourseSet;
 	}
 
 	/* (non-Javadoc)

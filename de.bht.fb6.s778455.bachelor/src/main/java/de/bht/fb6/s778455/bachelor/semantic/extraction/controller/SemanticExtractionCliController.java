@@ -129,7 +129,7 @@ public class SemanticExtractionCliController {
             statisticsBuilder.append( "Elapsed time (seconds): " + elapsedTime );
         }
 
-        if( !this.statisticsMode ) {
+        if( !this.statisticsMode && null != this.rawCourses ) {
             statisticsBuilder.append( this.semanticExtractionController
                     .getStatistics( this.rawCourses ) );
         }

@@ -3,6 +3,9 @@
  */
 package de.bht.fb6.s778455.bachelor.model;
 
+import java.net.MalformedURLException;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
@@ -29,22 +32,35 @@ import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
  * @since 20.11.2013
  * 
  */
-public abstract class AUserContribution implements IDirectoryPortable {
+public abstract class AUserContribution implements IDirectoryPortable, IRdfUsable {
 	protected Date creationDate;
 	protected Date modificationDate;
 	protected String title;
 	protected int id;
 	protected Language lang;
+	protected Course course;
+	protected URL webUrl;
+    protected Map< TagType, List< Tag > > tagMap;
 
-	protected Map< TagType, List< Tag > > tagMap;
-
-	public AUserContribution() {
-		this._initialize();
+	/**
+	 * New UserContribution with link to course instance
+	 * @param belongingCourse
+	 */
+	public AUserContribution( final Course belongingCourse ) {
+		this._initialize( belongingCourse );
 	}
 	
-	private void _initialize() {
+	/**
+	 * New user contribution without link to course instance (will be NULL)
+	 */
+	public AUserContribution( ) {
+	    this._initialize( null );
+	}
+	
+	private void _initialize(final Course belongingCourse) {
 		this.tagMap = new HashMap< TagType, List< Tag > >();
 		this.lang = Language.UNKNOWN;
+		this.course = belongingCourse;
 	}
 	
 	/**
@@ -259,6 +275,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
                         .hashCode() );
         result = prime * result + ( ( this.tagMap == null ) ? 0 : this.tagMap.hashCode() );
         result = prime * result + ( ( this.title == null ) ? 0 : this.title.hashCode() );
+        result = prime * result + ( ( this.webUrl == null ) ? 0 : this.webUrl.hashCode() );
         return result;
     }
 
@@ -273,7 +290,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
             return false;
         if( this.getClass() != obj.getClass() )
             return false;
-        final AUserContribution other = ( AUserContribution ) obj;
+        final AUserContribution other = ( AUserContribution ) obj;    
         if( this.creationDate == null ) {
             if( other.creationDate != null )
                 return false;
@@ -297,6 +314,11 @@ public abstract class AUserContribution implements IDirectoryPortable {
             if( other.title != null )
                 return false;
         } else if( !this.title.equals( other.title ) )
+            return false;
+        if( this.webUrl == null ) {
+            if( other.webUrl != null )
+                return false;
+        } else if( !this.webUrl.equals( other.webUrl ) )
             return false;
         return true;
     }
@@ -325,6 +347,10 @@ public abstract class AUserContribution implements IDirectoryPortable {
         builder.append( this.getNumberTags() );
         builder.append( ", isNerTagged()=" );
         builder.append( this.isNerTagged() );
+        builder.append( ", isPosTagged()=" );
+        builder.append( this.isPosTagged() );
+        builder.append( ", getWebUrl()=" );
+        builder.append( this.getWebUrl() );
         builder.append( "]" );
         return builder.toString();
     }
@@ -349,6 +375,9 @@ public abstract class AUserContribution implements IDirectoryPortable {
 		}
 		exportStr.append( "TITLE: " + this.getTitle() + "\n" );
 		exportStr.append( "LANGUAGE: " + this.getLang() + "\n" );
+		if ( null != this.getWebUrl() ) {
+		    exportStr.append( "WEB_URL: " + this.getWebUrl().toExternalForm() + "\n");
+		}
 
 		// tags
 		final List< Tag > topicZoomTags = this.getTags( TagType.TOPIC_ZOOM );
@@ -363,7 +392,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 							+ topicZoomTag.getSignificance() + ";"
 							+ "degreegeneralization:"
 							+ topicZoomTag.getDegreeGeneralization() + ";"
-							+ "uri:" + topicZoomTag.getUri() + "\n" );
+							+ "uri:" + topicZoomTag.getRelatedConceptUri() + "\n" );
 				} else {
 					Application
 							.log( this.getClass()
@@ -381,7 +410,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 					exportStr.append( "NER_TAG: " + "value:"
 							+ nerTag.getValue() + ";" + "weight:"
 							+ nerTag.getWeight() + ";" 
-							+ "uri:" + nerTag.getUri() + ";"
+							+ "uri:" + nerTag.getRelatedConceptUri() + ";"
 							+ "classifierlabel:" + nerTag.getClassifierLabel() + "\n" );
 				} else {
 					Application
@@ -400,7 +429,7 @@ public abstract class AUserContribution implements IDirectoryPortable {
 		            exportStr.append( "POS_TAG: " + "value:"
 		                    + posTag.getValue() + ";" + "weight:"
 		                    + posTag.getWeight() + ";"
-		                    + "uri:" + posTag.getUri() + ";"
+		                    + "uri:" + posTag.getRelatedConceptUri() + ";"
 		                    + "postag:" + posTag.getPosTag() + "\n" );
 		        } else {
 		            Application
@@ -467,6 +496,12 @@ public abstract class AUserContribution implements IDirectoryPortable {
 		    this.parsePosTagValue( value );
 		} else if ( key.equals( "LANGUAGE" )) {
 		    this.setLang( Language.getFromString( value ) );
+		} else if ( key.equals( "WEB_URL" )) {
+		    try {
+		        this.setWebUrl( new URL( value ) );
+		    } catch ( final MalformedURLException e ) {
+		        Application.log( "Illegal value for WEB_URI given: "+value, LogType.ERROR, this.getClass() );
+		    }
 		}
 
 	}
@@ -625,4 +660,38 @@ public abstract class AUserContribution implements IDirectoryPortable {
 		this.addTag(newTag, TagType.NER_TAG);
 	}
 
+	
+	
+	/**
+	 * Prepare the rdf uri to keep it unique for all models.
+	 * @return
+	 * @throws URISyntaxException 
+	 */
+	protected String prepareRdfUri() throws URISyntaxException {
+	    final String prefix = this.getBelongingCourse().getRdfUri().toString() + "/";
+	    return prefix;
+	}
+	
+	   /**
+     * Get the course to which the board instance belongs.
+     * 
+     * @return
+     */
+    public Course getBelongingCourse() {
+        return this.course;
+    }
+    
+    /**
+     * @return the webUrl
+     */
+    public final URL getWebUrl() {
+        return this.webUrl;
+    }
+
+    /**
+     * @param webUrl the webUrl to set
+     */
+    public final void setWebUrl( final URL webUrl ) {
+        this.webUrl = webUrl;
+    }
 }

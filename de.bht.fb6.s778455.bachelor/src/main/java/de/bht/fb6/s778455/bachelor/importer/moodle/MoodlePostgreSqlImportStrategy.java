@@ -136,8 +136,11 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 					"Internal error in the moodle postgre SQL import. Please see the logs" );
 		}
 
+		// set course set's name from input file
+		final LmsCourseSet dumpCourseSet = new LmsCourseSet( super.removeIllegalChars( inputFile.getName() ));
+		
 		// import courses
-		final Map< Integer, Course > courses = this.importCourses( inputFile );
+		final Map< Integer, Course > courses = this.importCourses( inputFile, dumpCourseSet );
 		final Map< Integer, Board > boards = this.importBoards( inputFile, courses );
 		final Map< Integer, BoardThread > threads = this.importBoardThreads(
 				inputFile, boards );
@@ -147,7 +150,8 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 		// import person
 		this.fillFromFile( inputFile, null, null );
 		
-		return new LmsCourseSet(courses.values());
+		dumpCourseSet.addAll( courses.values() );
+		return dumpCourseSet;
 	}
 
 	/**
@@ -543,11 +547,12 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 	 * Import the courses from the sql dump.
 	 * 
 	 * @param inputFile
+	 * @param dumpCourseSet 
 	 * @return a {@link Set} of {@link Course} instance.
 	 * @throws GeneralLoggingException
 	 *             if the dump is invalid
 	 */
-	private Map< Integer, Course > importCourses( final File inputFile )
+	private Map< Integer, Course > importCourses( final File inputFile, final LmsCourseSet dumpCourseSet )
 			throws GeneralLoggingException {
 		final Map< Integer, Course > returnCourses = new HashMap< Integer, Course >();
 		final File courseDump = new File( inputFile, NAME_COURSE_FILE );
@@ -569,7 +574,7 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 						"summary", "lang", "timecreated", "timemodified" );
 
 		// map entities
-		this.mapCourse( returnCourses, resultingEntities );
+		this.mapCourse( returnCourses, resultingEntities, dumpCourseSet );
 
 		return returnCourses;
 	}
@@ -579,9 +584,10 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 	 * 
 	 * @param returnCourses
 	 * @param resultingEntities
+	 * @param dumpCourseSet 
 	 */
 	private void mapCourse( final Map< Integer, Course > returnCourses,
-			final List< Map< String, String >> resultingEntities ) {
+			final List< Map< String, String >> resultingEntities, final LmsCourseSet dumpCourseSet ) {
 
 		for( final Map< String, String > entity : resultingEntities ) {
 			final String fullname = entity.get( "fullname" );
@@ -600,7 +606,7 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 								+ "mapCourse: the course entity doesn't have a fullname or id. Given dump file: "
 								+ NAME_COURSE_FILE, LogType.ERROR );
 			} else { // course name given so the course has an identity
-				final Course course = new Course( fullname );
+				final Course course = new Course( fullname, dumpCourseSet );
 				course.setTitle( fullname );
 				course.setId( id );
 

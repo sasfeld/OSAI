@@ -3,6 +3,8 @@
  */
 package de.bht.fb6.s778455.bachelor.exporter.organization.service;
 
+import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
+import de.bht.fb6.s778455.bachelor.exporter.experimental.DirectoryExportStrategy;
 import de.bht.fb6.s778455.bachelor.exporter.organization.ConfigReader;
 import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
 
@@ -15,6 +17,7 @@ import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
  */
 public class ServiceFactory {
 	protected static IConfigReader configReader;
+	protected static DirectoryExportStrategy dirExportStrat;
 	
 	/**
 	 * Get the {@link IConfigReader} for the exporter module.
@@ -26,5 +29,17 @@ public class ServiceFactory {
 		}
 		return configReader;
 	}
+	
+	/**
+     * Get the {@link DirectoyExportStrategy}.
+     * @return
+     */
+    public static AExportStrategy getDirectoryExportStrategy() {
+        if(null == dirExportStrat) {
+            dirExportStrat = new DirectoryExportStrategy();
+        }
+        
+        return dirExportStrat;
+    }
 
 }

@@ -3,7 +3,7 @@
  */
 package de.bht.fb6.s778455.bachelor.test.anonymization.strategy;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.After;
 import org.junit.Before;
@@ -14,6 +14,7 @@ import de.bht.fb6.s778455.bachelor.anonymization.strategy.LearnedNamesStrategy;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Course.LearnedWordTypes;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 
 /**
@@ -55,7 +56,7 @@ public class LearnedNamesStrategyTest {
 	 * @throws GeneralLoggingException
 	 */
 	public void testAnonymizeText() throws GeneralLoggingException {
-		Board testBoard = new Board( new Course( "testCourse" ) );
+		final Board testBoard = new Board( new Course( "testCourse", new LmsCourseSet( "unit test course set" )  ) );
 		testBoard.getBelongingCourse().addLearnedWord( "max", LearnedWordTypes.PERSON_NAME );
 		testBoard.getBelongingCourse().addLearnedWord( "Mustermann", LearnedWordTypes.PERSON_NAME );
 		testBoard.getBelongingCourse().addLearnedWord( "xyz", LearnedWordTypes.PERSON_NAME );
@@ -75,7 +76,7 @@ public class LearnedNamesStrategyTest {
 	
 	@Test
 	public void testCommonWords() throws GeneralLoggingException {
-		Board testBoard = new Board( new Course( "testCourse" ) );
+		final Board testBoard = new Board( new Course( "testCourse", new LmsCourseSet( "unit test course set" )  ) );
 		
 		// german common words
 		testBoard.getBelongingCourse().addLearnedWord( "im", LearnedWordTypes.PERSON_NAME );

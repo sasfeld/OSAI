@@ -50,8 +50,8 @@ public class CourseUtil {
 				for( Tag tag : courseTags ) {
 					boolean found = false;
 					for( Tag distinctTag : distinctTags ) {
-						if( tag.getUri().equals(
-								distinctTag.getUri() )
+						if( tag.getRelatedConceptUri().equals(
+								distinctTag.getRelatedConceptUri() )
 								&& tag.getValue().equals(
 										distinctTag.getValue() ) ) {
 							found = true;
@@ -73,8 +73,8 @@ public class CourseUtil {
 					for( Tag tag : boardTags ) {
 						boolean found = false;
 						for( Tag distinctTag : distinctTags ) {
-							if( tag.getUri().equals(
-									distinctTag.getUri() )
+							if( tag.getRelatedConceptUri().equals(
+									distinctTag.getRelatedConceptUri() )
 									&& tag.getValue().equals(
 											distinctTag.getValue() ) ) {
 								found = true;
@@ -97,8 +97,8 @@ public class CourseUtil {
 							for( Tag tag : tags ) {
 								boolean found = false;
 								for( Tag distinctTag : distinctTags ) {
-									if( tag.getUri().equals(
-											distinctTag.getUri() )
+									if( tag.getRelatedConceptUri().equals(
+											distinctTag.getRelatedConceptUri() )
 											&& tag.getValue().equals(
 													distinctTag.getValue() ) ) {
 										found = true;
@@ -130,8 +130,8 @@ public class CourseUtil {
 		for( Tag tag : tagCopy ) {
 			boolean found = false;
 			for( Tag distinctTag : tags ) {
-				if( !tag.equals( distinctTag ) && tag.getUri().equals(
-						distinctTag.getUri() )
+				if( !tag.equals( distinctTag ) && tag.getRelatedConceptUri().equals(
+						distinctTag.getRelatedConceptUri() )
 						&& tag.getValue().equals(
 								distinctTag.getValue() ) ) {
 					found = true;

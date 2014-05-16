@@ -44,7 +44,7 @@ public class PostgreSqlDumpParser {
 	public PostgreSqlDumpParser( final File dumpFile ) {
 		if( null == dumpFile || !dumpFile.exists() || !dumpFile.isFile() ) {
 			throw new IllegalArgumentException(
-					getClass()
+					this.getClass()
 							+ ": the given value for file ("
 							+ dumpFile
 							+ ") isn't allowed here. Either it is null or doesn't exist" );
@@ -78,7 +78,7 @@ public class PostgreSqlDumpParser {
 			boolean matchingCompleted = false;
 
 			while( null != ( line = reader.readLine() ) ) {
-				String manipulatedEnding = line.concat( "\n" );
+				final String manipulatedEnding = line.concat( "\n" );
 				// is this table of interest?
 				if( tableMatched ) {
 					// end of table data
@@ -92,9 +92,9 @@ public class PostgreSqlDumpParser {
 						break;
 					} else { // match each row and map the values depending on
 								// the positon
-						Pattern pRow = Pattern.compile( "(?i)(.*?[\\t\\n]{1})", Pattern.MULTILINE );
+						final Pattern pRow = Pattern.compile( "(?i)(.*?[\\t\\n]{1})", Pattern.MULTILINE );
 						// form: column => value
-						Map< String, String > rowMap = new HashMap< String, String >();
+						final Map< String, String > rowMap = new HashMap< String, String >();
 						this.mapRow( pRow, rowMap, columnPositions, manipulatedEnding,
 								tableName );
 
@@ -107,13 +107,13 @@ public class PostgreSqlDumpParser {
 
 					// This pattern matches the columns names including their
 					// separators
-					Pattern pColumns = Pattern
+					final Pattern pColumns = Pattern
 							.compile( "(?i)([a-z]+[,\\s)]{2})" );
 					final Map< String, Integer > allColumnPositions = this
 							.mapGroupPositions( pColumns, line );
 
 					// only keep required positions
-					for( String column : columns ) {
+					for( final String column : columns ) {
 						if( allColumnPositions.containsKey( column ) ) {
 							// store: column name => position
 							columnPositions.put(
@@ -121,7 +121,7 @@ public class PostgreSqlDumpParser {
 						} else { // isn't contained in matched columns -> log
 									// this
 							Application
-									.log( getClass()
+									.log( this.getClass()
 											+ "fetchEntities(): The given column ("
 											+ column
 											+ ") couldn't be matched in the input file "
@@ -133,22 +133,22 @@ public class PostgreSqlDumpParser {
 
 			if( tableMatched && !matchingCompleted ) {
 				Application
-						.log( getClass()
+						.log( this.getClass()
 								+ "fetchEntities: the given dump file seems to be corrupt. Didn't reach a valid sequence which closes the table data area. Given file: "
 								+ this.dumpFile + "; given tableName: "
 								+ tableName, LogType.ERROR );
 			}
 			else if( !tableMatched ) {
 				Application
-				.log( getClass()
+				.log( this.getClass()
 						+ "fetchEntities: the given dump file seems to be corrupt. Didn't find the given tableName. Given file: "
 						+ this.dumpFile + "; given tableName: "
 						+ tableName, LogType.ERROR );
 			}
 
 			this.freeReader( reader );
-		} catch( IOException e ) {
-			Application.log( getClass() + "fetchEntities: exception: " + e,
+		} catch( final IOException e ) {
+			Application.log( this.getClass() + "fetchEntities: exception: " + e,
 					LogType.ERROR );
 		} finally { // try to close the reader
 			if( null != reader ) {
@@ -170,13 +170,13 @@ public class PostgreSqlDumpParser {
 	 * @param line
 	 * @param tableName
 	 */
-	private void mapRow( Pattern pRow, Map< String, String > rowMap,
-			Map< Integer, String > columnPositions, String line,
-			String tableName ) {
+	private void mapRow( final Pattern pRow, final Map< String, String > rowMap,
+			final Map< Integer, String > columnPositions, final String line,
+			final String tableName ) {
 
 		int groupNum = 0;
 		int matchedColumns = 0;
-		Matcher matcher = pRow.matcher( line );
+		final Matcher matcher = pRow.matcher( line );
 		while( matcher.find() ) {
 			// find the position of the value in the position map
 			if ( columnPositions.containsKey( groupNum ) ) {
@@ -199,7 +199,7 @@ public class PostgreSqlDumpParser {
 		// check if the number of positions in both maps is equal
 		if( columnPositions.keySet().size() != matchedColumns ) {
 			Application
-					.log( getClass()
+					.log( this.getClass()
 							+ "mapRow(): It seems like the given dump file is corrupt because the number of data elements ("
 							+ matchedColumns
 							+ ") doesn't match the number of columns ("
@@ -217,12 +217,12 @@ public class PostgreSqlDumpParser {
 	 * @param line
 	 * @return
 	 */
-	private Map< String, Integer > mapGroupPositions( Pattern pColumns,
-			String line ) {
-		Map< String, Integer > posMap = new HashMap< String, Integer >();
+	private Map< String, Integer > mapGroupPositions( final Pattern pColumns,
+			final String line ) {
+		final Map< String, Integer > posMap = new HashMap< String, Integer >();
 
 		int groupNum = 0;
-		Matcher matcher = pColumns.matcher( line );
+		final Matcher matcher = pColumns.matcher( line );
 		while( matcher.find() ) {
 			String groupValue = matcher.group( 0 );
 			// replace column separator
@@ -242,10 +242,10 @@ public class PostgreSqlDumpParser {
 	 * 
 	 * @param reader
 	 */
-	private void freeReader( BufferedReader reader ) {
+	private void freeReader( final BufferedReader reader ) {
 		try {
 			reader.close();
-		} catch( IOException e ) {
+		} catch( final IOException e ) {
 			// already caught
 		}
 	}
@@ -257,7 +257,7 @@ public class PostgreSqlDumpParser {
 	 * @throws FileNotFoundException
 	 */
 	private BufferedReader openReader() throws FileNotFoundException {
-		BufferedReader reader = new BufferedReader( new FileReader(
+		final BufferedReader reader = new BufferedReader( new FileReader(
 				this.dumpFile ) );
 		return reader;
 	}

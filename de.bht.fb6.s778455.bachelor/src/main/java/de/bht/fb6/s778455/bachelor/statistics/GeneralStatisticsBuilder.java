@@ -42,6 +42,10 @@ public class GeneralStatisticsBuilder extends DecoratingStatisticsBuilder {
      */
     @Override
     public StatisticsModel buildStatistics( final LmsCourseSet courses ) {
+        if ( null == courses ) {
+            throw new IllegalArgumentException( "Null is not allowed as parameter value!" );
+        }
+        
         final StatisticsModel model = super.buildStatistics( courses );
 
         final int numberCourses = courses.size();
@@ -88,6 +92,23 @@ public class GeneralStatisticsBuilder extends DecoratingStatisticsBuilder {
                 .setNumberPostingsEmptyContent( numberPostingsEmptyContent );
 
         return model;
+    }
+
+    @Override
+    /*
+     * (non-Javadoc)
+     * @see de.bht.fb6.s778455.bachelor.statistics.DecoratingStatisticsBuilder#getStringRepresentation()
+     */
+    public String getStringRepresentation() {
+        final StringBuilder builder = new StringBuilder();
+        builder.append( super.getStringRepresentation() );
+        
+        builder.append( "Number of courses: " + this.model.getNumberCourses() + "\n" );
+        builder.append( "Number of board: " + this.model.getNumberBoards() + "\n" );
+        builder.append( "Number of threads: " + this.model.getNumberThreads() + "\n" );
+        builder.append( "Number of postings: " + this.model.getNumberPostings() + "\n" );
+        
+        return builder.toString();
     }
 
 }

@@ -3,6 +3,8 @@
  */
 package de.bht.fb6.s778455.bachelor.model;
 
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
@@ -14,25 +16,69 @@ import java.util.Set;
  * @since 25.01.2014
  *
  */
-public class LmsCourseSet extends HashSet< Course >{       
+public class LmsCourseSet extends HashSet< Course > implements IRdfUsable {       
     private static final long serialVersionUID = 1L;
+    protected String name;
     
     /**
      * Create a LmsCourseSet from an existing collection.
      * @param values
      */
-    public LmsCourseSet( final Collection< Course > values ) {
+    public LmsCourseSet( final Collection< Course > values, final String courseSetName ) {
         super();
         
         if ( null == values ) {
             throw new IllegalArgumentException( this.getClass() + ":LmsCourseSet: null value of parameter is not allowed!" );
         }
         
-        super.addAll( values );
+        super.addAll( values );      
+        
+        this.initialize( courseSetName );
     }
     
-    public LmsCourseSet() {
+    /**
+     * Create a new courseSet with a given name.
+     * @param courseSetName
+     */
+    public LmsCourseSet(final String courseSetName) {
         super();
+        
+        this.initialize( courseSetName );
+    }
+
+    protected void initialize( final String courseSetName ) {
+        if ( null == courseSetName ) {
+            throw new IllegalArgumentException("Null is not allowed as name for the courseSet!");
+        }
+        this.name = courseSetName;
+    }
+    /**
+     * Name of the Course Set.
+     * @param name
+     */
+    public void setName( final String name ) {
+        if ( null == name ) {
+            throw new IllegalArgumentException( "Null is not allowed as parameter value!" );
+        }
+        this.name = name;
+    }
+    
+    /**
+     * Get the name of this CourseSet
+     * @return String
+     */
+    public String getName() {
+        return this.name;
+    }
+
+    @Override
+    /*
+     * (non-Javadoc)
+     * @see de.bht.fb6.s778455.bachelor.model.IRdfUsable#getRdfUri()
+     */
+    public URI getRdfUri() throws URISyntaxException {
+        final URI newUri = new URI( INDIVIDUAL_BASE_URI + this.getName());
+        return newUri;
     }
     
 }

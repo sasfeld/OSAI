@@ -75,8 +75,8 @@ public class MoodlePostgreSqlImportStrategyTest {
 		int courseNum = 0;
 		for( final Course course : courses ) {
 			if( 0 == courseNum ) {
-				assertEquals( "Beuth Hochschule Test Moodle", course.getTitle() );
-				assertEquals( "Beuth HS Test", course.getShortName() );
+				assertTrue( 0 < course.getTitle().length() );
+				assertTrue( 0 < course.getShortName().length() );
 				assertTrue( 0 < course.getSummary().length() );
 			} else {
 				// iterate through boards, assert them

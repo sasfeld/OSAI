@@ -17,6 +17,7 @@ import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
+import de.bht.fb6.s778455.bachelor.organization.FileUtil;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 
@@ -103,9 +104,7 @@ public class DirectoryExportStrategy extends AExportStrategy {
 	 * @return
 	 */
 	private String removeIllegalChars( final String filename ) {
-		String changedFilename = filename.replaceAll( "[^a-zA-Z0-9.-]", "_" );
-		changedFilename = changedFilename.replaceAll( "[.]{2,}", "_" );
-		return changedFilename;
+		return FileUtil.removeIllegalChars( filename );
 	}
 
 	/**

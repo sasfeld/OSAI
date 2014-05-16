@@ -3,6 +3,7 @@
  */
 package de.bht.fb6.s778455.bachelor.test.importer.experimental;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import java.io.File;
@@ -19,6 +20,7 @@ import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
+import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
@@ -67,9 +69,12 @@ public class DirectoryImportStrategyTest {
 	public void testImportFromFile() throws GeneralLoggingException {
 		final File testDir = new File( ServiceFactory.getConfigReader().fetchValue(
 				IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_TESTFOLDER ) );
-
+	
 		final Collection< Course > resultingSet = this.importStrategy
-				.importBoardFromFile( testDir );		
+				.importBoardFromFile( testDir );	
+		
+		// assert name of upper dir = course set name
+		assertEquals( testDir.getName(), ((LmsCourseSet ) resultingSet).getName() );
 		
 
 		assertTrue( null != resultingSet );

@@ -3,11 +3,17 @@
  */
 package de.bht.fb6.s778455.bachelor.semantic.organization.service;
 
+import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.hp.hpl.jena.query.Dataset;
+import com.hp.hpl.jena.tdb.TDBFactory;
+
+import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
 import de.bht.fb6.s778455.bachelor.semantic.organization.ConfigReader;
+import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
 
 /**
  * <p>This class is a static ServiceFactory for the semantics module.</p>
@@ -19,6 +25,12 @@ import de.bht.fb6.s778455.bachelor.semantic.organization.ConfigReader;
 public class ServiceFactory {	
 	private static IConfigReader configReader;
 	private static Map< String, String > namespacesMap;
+	private static Dataset jenaStore;
+	private static RdfTripleStoreAdapter jenaAdapter;
+    private static File ontologyFile;
+    private static String ontologyBaseUri;
+    private static Boolean forceOntUpdate;
+    private static ServiceFactory instance;
 
 	/**
 	 * Return the config Reader for the semantics module.
@@ -44,4 +56,71 @@ public class ServiceFactory {
 		}
 		return namespacesMap;
 	}
+	
+	/**
+	 * Get the Jena adapter from the TDB storage layer. 
+	 * This means the RDF triples are stored in a so-called "Dataset" folder on the disk.
+	 * @return
+	 */
+	public static RdfTripleStoreAdapter getJenaStoreAdapter() {
+	    if ( null == jenaStore ) {
+	        // the factory will either create a bare dataset if the configured folder is empty or join the existing triples
+	        jenaStore = TDBFactory.createDataset( getConfigReader().fetchValue( IConfigKeys.SEMANTICS_STORE_DATASET ) );
+	    }	    
+	    
+	    if ( null == jenaAdapter ) {
+	        jenaAdapter = new RdfTripleStoreAdapter(jenaStore, getOntologyFile(), getOntologyBaseUri(), getForceOntUpdate());
+	    }	    
+	    
+	    
+	    return jenaAdapter;
+	}
+
+	/**
+	 * Get the forceUpdateOnt flag.
+	 * @return
+	 */
+    public static boolean getForceOntUpdate() {
+        if ( null == forceOntUpdate) {
+            forceOntUpdate = Boolean.parseBoolean( getConfigReader().fetchValue( IConfigKeys.SEMANTICS_STORE_ONTOLOGY_FORCEUPDATE ) );
+        }
+        
+        return forceOntUpdate;
+    }
+
+    /**
+     * Get the ontology (.owl) file.
+     * @return {@link File}
+     */
+    public static File getOntologyFile() {
+        if ( null == ontologyFile ) {
+	        ontologyFile = new File( getConfigReader().fetchValue( IConfigKeys.SEMANTICS_STORE_ONTOLOGY_FILE ) );
+	    }
+        
+        return ontologyFile;
+    }
+    
+    /**
+     * Get the base uri of the own ontology (.owl) file.
+     * @return {@link String}
+     */
+    public static String getOntologyBaseUri() {
+        if ( null == ontologyBaseUri ) {
+            ontologyBaseUri = getConfigReader().fetchValue( IConfigKeys.SEMANTICS_STORE_ONTOLOGY_BASEURI );
+        }
+        
+        return ontologyBaseUri;
+    }
+
+    /**
+     * Get the serviceFactory instance.
+     * @return
+     */
+    public static ServiceFactory getInstance() {
+       if ( null == instance ) {
+           instance = new ServiceFactory();
+       }
+       
+       return instance;
+    }
 }

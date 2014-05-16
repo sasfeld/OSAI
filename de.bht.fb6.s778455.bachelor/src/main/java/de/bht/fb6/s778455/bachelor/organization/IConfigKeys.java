@@ -106,4 +106,23 @@ public interface IConfigKeys {
 	String SEMANTICS_EXTRACTION_STRATEGY_LANGUAGEDETECTION_MIMIMUM_ENGLISH = "semantics.extraction.strategy.languagedetection.minimum.english";
 	String SEMANTICS_EXTRACTION_STRATEGY_LANGUAGEDETECTION_MIMIMUM_GERMAN = "semantics.extraction.strategy.languagedetection.minimum.german";
 	String SEMANTICS_EXTRACTION_STRATEGY_LANGUAGEDETECTION_MIMIMUM_DIFFERENCE = "semantics.extraction.strategy.languagedetection.minimum.difference";
+
+	/*
+	 * Semantics: store 
+	 */
+	String SEMANTICS_STORE_DATASET = "semantics.store.dataset";
+	String SEMANTICS_STORE_ONTOLOGY_FILE = "semantics.store.ontology.file";
+    String SEMANTICS_STORE_ONTOLOGY_BASEURI = "semantics.store.ontology.baseuri";
+    String SEMANTICS_STORE_ONTOLOGY_FORCEUPDATE = "semantics.store.ontology.forceupdate";
+    
+
+    /*
+     * Semantics: creation 
+     */
+    String SEMANTICS_CREATION_STRATEGY_COURSECREATION = "semantics.creation.strategy.coursecreation";
+    String SEMANTICS_CREATION_STRATEGY_TOPICZOOM = "semantics.creation.strategy.topiczoom";
+    String SEMANTICS_CREATION_STRATEGY_POS = "semantics.creation.strategy.pos";
+    String SEMANTICS_CREATION_STRATEGY_NER = "semantics.creation.strategy.ner";
+    String SEMANTICS_CREATION_STRATEGY_CHAIN = "semantics.creation.strategy.chain";
+    String SEMANTICS_EXTRACTION_STRATEGY_WEBURI = "semantics.extraction.strategy.weburis";
 }

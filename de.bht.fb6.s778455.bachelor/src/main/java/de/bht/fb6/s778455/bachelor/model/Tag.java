@@ -3,6 +3,11 @@
  */
 package de.bht.fb6.s778455.bachelor.model;
 
+import java.net.URI;
+import java.net.URISyntaxException;
+
+import de.bht.fb6.s778455.bachelor.semantic.store.vocabulary.IBaseUris;
+
 /**
  * <p>This class represents a (auto-generated) Tag which one posting can have.</p>
  *
@@ -10,7 +15,7 @@ package de.bht.fb6.s778455.bachelor.model;
  * @since 05.01.2014
  *
  */
-public class Tag {
+public class Tag implements IRdfUsable, IBaseUris {
 	public enum TagType {
 		/**
 		 * key for tags extracted by the TopicZoom WebTag service.
@@ -23,12 +28,29 @@ public class Tag {
 		/**
 		 * key for tags won by Stanford Part-of-Speech Tagging (POS)
 		 */
-		POS_TAG,
+		POS_TAG;
+		
+		/**
+		 * Get the corresponding class to which the key shall show.
+		 * @return
+		 */
+		public Class< ? > getCorrespondingClass() {
+            switch( this ) {
+            case TOPIC_ZOOM:
+                return TopicZoomTag.class;
+            case NER_TAG:
+                return NerTag.class;
+            case POS_TAG:
+                return PosTag.class;
+            default:
+                return null;
+            }
+        }
 	}
 	
 	protected double weight;
 	protected String value;
-	protected String uri;
+	protected String relatedConceptUri;
 	protected TagType tagType;
 
 	/**
@@ -45,7 +67,7 @@ public class Tag {
 		
 		this.weight = weight;
 		this.value = value;
-		this.uri = uri;
+		this.relatedConceptUri = uri;
 		this.tagType = tagType;
 	}
 	
@@ -88,16 +110,16 @@ public class Tag {
 		this.value = value;
 	}
 	/**
-	 * @return the uri
+	 * @return the the uri of a related concept, e.g. from another ontology.
 	 */
-	public String getUri() {
-		return this.uri;
+	public String getRelatedConceptUri() {
+		return this.relatedConceptUri;
 	}
 	/**
-	 * @param uri the uri to set
+	 * @param set the uri of a related concept, e.g. from another ontology.
 	 */
-	public void setUri( final String uri ) {
-		this.uri = uri;
+	public void setRelatedConceptUri( final String uri ) {
+		this.relatedConceptUri = uri;
 	}
 	/* (non-Javadoc)
 	 * @see java.lang.Object#hashCode()
@@ -106,7 +128,7 @@ public class Tag {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ( ( this.uri == null ) ? 0 : this.uri.hashCode() );
+		result = prime * result + ( ( this.relatedConceptUri == null ) ? 0 : this.relatedConceptUri.hashCode() );
 		result = prime * result + ( ( this.value == null ) ? 0 : this.value.hashCode() );
 		long temp;
 		temp = Double.doubleToLongBits( this.weight );
@@ -125,10 +147,10 @@ public class Tag {
 		if( this.getClass() != obj.getClass() )
 			return false;
 		final Tag other = ( Tag ) obj;
-		if( this.uri == null ) {
-			if( other.uri != null )
+		if( this.relatedConceptUri == null ) {
+			if( other.relatedConceptUri != null )
 				return false;
-		} else if( !this.uri.equals( other.uri ) )
+		} else if( !this.relatedConceptUri.equals( other.relatedConceptUri ) )
 			return false;
 		if( this.value == null ) {
 			if( other.value != null )
@@ -152,9 +174,25 @@ public class Tag {
 		builder.append( ", getValue()=" );
 		builder.append( this.getValue() );
 		builder.append( ", getUri()=" );
-		builder.append( this.getUri() );
+		builder.append( this.getRelatedConceptUri() );
 		builder.append( "]" );
 		return builder.toString();
-	}	
+	}
+
+    @Override
+    /*
+     * (non-Javadoc)
+     * @see de.bht.fb6.s778455.bachelor.model.IRdfUsable#getRdfUri()
+     */
+    public URI getRdfUri() throws URISyntaxException {
+        if ( null != this.getRelatedConceptUri() && 0 != this.getRelatedConceptUri().length() ) {
+            final URI newUri = new  URI( INDIVIDUAL_BASE_URI + 
+                    "tags/" + this.getRelatedConceptUri() );
+            
+            return newUri;
+        }
+        
+        throw new IllegalArgumentException( "The value for this.getUri() musn't be null and empty!" );
+    }	
 	
 }

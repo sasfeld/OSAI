@@ -9,6 +9,8 @@ import static org.junit.Assert.assertTrue;
 import java.io.File;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -90,9 +92,9 @@ public class DirectoyExportStrategyTest {
 	 * ##################################
 	 */
 	@Test
-	public void testExport() throws GeneralLoggingException {			
-		final Course course = new Course( "Sample course" );
-		course.setUrl( "http://test.de" );
+	public void testExport() throws GeneralLoggingException, MalformedURLException {			
+		final Course course = new Course( "Sample course", new LmsCourseSet( "unit test course set" )  );
+		course.setWebUrl( new URL( "http://test.de" ));
 		course.setLanguage( Language.GERMAN );
 		course.addTag( new PosTag( "NN", 0.0, "Beispiel", "beispiel.xad" ), TagType.POS_TAG );
 		course.addTag( new NerTag( "I-LOC", 0.0, "Berlin", "berlin.xad" ), TagType.NER_TAG );
@@ -111,6 +113,7 @@ public class DirectoyExportStrategyTest {
 		samplePosting1.setTaggedContent( "This content is tagged by <I-PERS>Max Mustermann</I-PERS>." );
 		samplePosting1.setPostingType( "question" );
 		samplePosting1.setLang( Language.GERMAN );
+		samplePosting1.setWebUrl( new URL( "http://example.org/posting1" ) );
 		sampleThread1.addPosting( samplePosting1  );
 		
 		final ArrayList< Tag > tagList = new ArrayList<Tag>();
@@ -139,7 +142,7 @@ public class DirectoyExportStrategyTest {
 		
 		course.addBoard( sampleBoard1 );
 		
-		final LmsCourseSet courseSet = new LmsCourseSet();	
+		final LmsCourseSet courseSet = new LmsCourseSet( "unit test lms course");	
 		courseSet.add( course );
 		
 		this.exportStrategy.exportToFile( courseSet, this.testFolder );

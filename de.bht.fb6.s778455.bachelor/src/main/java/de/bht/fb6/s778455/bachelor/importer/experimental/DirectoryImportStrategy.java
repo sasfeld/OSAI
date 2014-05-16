@@ -199,14 +199,15 @@ public class DirectoryImportStrategy extends AImportStrategy {
 
 		}
 
-		final LmsCourseSet courseSet = new LmsCourseSet();
+		 // set the name of the CourseSet from the upper directory name
+		final LmsCourseSet courseSet = new LmsCourseSet( super.removeIllegalChars( inputFile.getName() ));	
 
 		// iterate through children directorys - a dir represents a course/board
 		for( final File childDir : inputFile.listFiles() ) {
 			if( childDir.isDirectory() ) { // append error log
 
 				final String courseName = childDir.getName();
-				final Course course = new Course( courseName );
+				final Course course = new Course( courseName, courseSet );
 
 				final File courseTxtFile = new File( childDir, "course.txt" );
 				// find course.txt, parse it
@@ -332,6 +333,7 @@ public class DirectoryImportStrategy extends AImportStrategy {
 				// use the first posting to enrich the thread's metadata
 				if( postingFile.getName().contains( "posting1" ) ) {
 					boardThread.setCreationDate( p.getCreationDate() );
+					boardThread.setTitle( p.getTitle() );
 				}
 			}
 		}
