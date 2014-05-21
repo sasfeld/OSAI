@@ -73,7 +73,7 @@ public class OliverLuebeckStrategyTest {
 		int courseNum = 0;
 		for( final Course course : courses ) {
 			if( 0 == courseNum ) {
-				assertEquals("oliver_luebeck_course1", course.getTitle());
+				assertEquals("oliver_luebeck_course_1", course.getTitle());
 				assertTrue( null == course.getShortName());
 				assertTrue( null == course.getSummary() );
 				
