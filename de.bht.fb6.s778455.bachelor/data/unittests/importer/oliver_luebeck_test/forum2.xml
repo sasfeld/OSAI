@@ -44,7 +44,6 @@ Achtung: UebClockman braucht weitere Klassen. Le04 gut lesen ;-)!
 
 Viel Erfolg!
     </post>
-    </post>
     <post id="4" reply="3" author="Student1" time="Sonntag, 6. April 2007, 20:06">
 Habs jetzt hinbekommen, vielen Dank an euch! lächelnd
     </post>
@@ -99,7 +98,7 @@ Komplement zur Erstellung eine jar-Datei.
   </thread>
   
     <thread title="html-code">
-    <post id="10" author="Student3" time="Sonntag, 27. April 2007, 16:51">
+    <post id="10" author="Student3" time="Sonntag, 27. April 2007, 16:51"><![CDATA[
 Ich bin in HTML noch nicht versiert, vielleicht hat jemand schon mehr Erfahrung und kann mir helfen.
 Ich versuche das Applet in der HTML-Datei anders zu platzieren, aber egal was ich hinter align angebe, das Fenster bewegt sich keinen Millimeter.
 Folgende Zeile gebe ich an:
@@ -107,17 +106,16 @@ Folgende Zeile gebe ich an:
 align=right alt=".......">
 </applet>
 Was mache ich falsch?
-    </post>
+    ]]></post>
     <post id="11" reply="10" author="Student3" time="Sonntag, 27. April 2007, 17:52">
 Habe den Fehler gefunden. War gar kein Fehler. So klappt es. Habe immer über appletviewer getestet und damit verändert er die Position des Fensters nicht. Bei Aufruf über Explorer klappt die Anzeige oben rechts.
 Kann die Diskussion hier leider nicht löschen und antworte mir daher selbst. zwinkernd
     </post>
   </thread>
   
-    </thread>
   
   <thread title="Exceptions">
-    <post id="12" author="Student2" time="Montag, 28. April 2007, 15:53">
+    <post id="12" author="Student2" time="Montag, 28. April 2007, 15:53"><![CDATA[
 Hallo Mentor1
 
 Ich habe ein Java Programm ausprobiert und scheitere bei der Ausführung. Das kompilieren lief problemlos ohne Fehler. Könnten Sie mich bitte beraten?
@@ -168,11 +166,11 @@ ausgabe( 4 );
 Ich komme nicht weiter und erbitte Hilfe. Vielen Dank.
 
 mfg
-    </post>
+    ]]></post>
   </thread>
   
     <thread title="Exceptions">
-    <post id="13" author="Student2" time="Montag, 28. April 2007, 15:54">
+    <post id="13" author="Student2" time="Montag, 28. April 2007, 15:54"><![CDATA[
 Hallo Mentor1
 
 Ich habe ein Java Programm ausprobiert und scheitere bei der Ausführung. Das kompilieren lief problemlos ohne Fehler. Könnten Sie mich bitte beraten?
@@ -223,7 +221,7 @@ ausgabe( 4 );
 Ich komme nicht weiter und erbitte Hilfe. Vielen Dank.
 
 mfg
-    </post>
+    ]]></post>
     <post id="14" reply="13" author="Student2" time="Montag, 28. April 2007, 17:44">
 Hallo Freunde
 
@@ -258,7 +256,7 @@ Mit freundlichen Grüssen
   </thread>
   
   <thread title="Adobe-Connect Sitzung 27.05.08. + for schleife">
-    <post id="16" author="Mentor1" time="Dienstag, 27. Mai 2007, 21:11">
+    <post id="16" author="Mentor1" time="Dienstag, 27. Mai 2007, 21:11"><![CDATA[
 ist unter:
 http://breeze.tfh-berlin.de/p91326221/
 Wie versprochen das letzte Beispiel mit 2 Variablen in der Schleife:
@@ -270,7 +268,7 @@ for (int i=0, j=100; i<=10 ; i++, j=j+2)‏{
 }
 
 Mit freundlichen Grüssen
-    </post>
+    ]]></post>
   </thread>
   
   <thread title="Adobe-Connect Sitzung 10.06.08.">
@@ -283,7 +281,7 @@ Mit freundlichen Grüßen,
   </thread>
   
     <thread title="neuer termin">
-    <post id="18" author " time="Freitag, 4. Juli 2007, 10:16">
+    <post id="18" author="" time="Freitag, 4. Juli 2007, 10:16">
     </post>
     <post id="19" reply="18" author="Mentor1" time="Freitag, 4. Juli 2007, 10:16">
 Lieber Frau Student3, liebe Studierende,
