@@ -5,6 +5,7 @@ package de.bht.fb6.s778455.bachelor.importer.organization.service;
 
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy;
+import de.bht.fb6.s778455.bachelor.importer.moodle.OliverLuebeckStrategy;
 import de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
 import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
@@ -68,4 +69,14 @@ public class ServiceFactory {
        
        return instance;
     }
+
+    /**
+     * This fabric method creates a new instance of {@link OliverLuebeckStrategy}.
+     * Define additional creation logic here.
+     * @return
+     */
+	public static AImportStrategy newOliverLuebeckStrategy() {
+		OliverLuebeckStrategy strategy = new OliverLuebeckStrategy();
+		return strategy;
+	}
 }
