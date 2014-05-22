@@ -1,0 +1,1550 @@
+ <forum>
+  <thread title="Einsendeaufgabe 02-E3 - VerzErst.java">
+    <post id="1" author="Student1" time="Dienstag, 5. Oktober 2010, 16:09" attachment="Telefonlisteneintrag.java"><![CDATA[
+Hallo ,
+
+wenn ich mir die JavaDoc zu VerzErst.java anschaue, dann finde ich dort die Methoden eingabeStream() und eingeben(), die vom Prinzip das selbe tun: einen String vom Anwender entgegennehmen.
+
+Zumal wir alle Methoden in einer einzigen Klasse zusammenfassen, erscheint mir dann eine der beiden Methoden obsolet. Ich kann doch eingabeStream() sowohl für die Eingabe des Dateinamens, als auch für die Eingabe eines Pfades verwenden (oder ggf. eine zu erstellende oder zu kopierende Datei voll-qualifiziert angeben)?
+
+Mache ich hier einen Denkfehler?
+
+Grüße aus Lichterfelde,
+    ]]></post>
+    <post id="2" reply="1" author="Student2" time="Dienstag, 5. Oktober 2010, 18:43"><![CDATA[
+Hallo ,
+
+die Methode Eingabe() fordert die Eingabe vom Anwender und gibt die Methode eingabeStream() zurück. Beide Methoden sind vom Typ String.
+Die Methode eingabeStream() wiederum stellt den Stream zum Einlesen zur Verfügung, stellt also die Verbindung zur Tastatur des Benutzers her und liest die Eingabe des Benutzers mit der Methode readLine() ein.
+
+Ist das so korrekt Frau Professor Merceron? - oder habe ich da einen Denkfehler?
+
+Viele Grüße
+    ]]></post>
+    <post id="3" reply="2" author="Mentor1" time="Dienstag, 5. Oktober 2010, 19:44"><![CDATA[
+Lieber , liebe ,
+in der Tat ist der Unterschied zwischen den 2 Methoden minimal. Wenn Sie nur die Methode eingeben() programmieren, bin ich einverstanden. Herr Sander, Sie haben den Unterschied richtig erkannt. Die Methode eingeben() (nicht Eingeben() !) kann die Methode eingabeStream() aufrufen und ihr Ergebnis zurück geben. Beide Methode liefern ein Ergebnis vom Typ String.
+Viel Erfolg weiter.
+Telefonlisteneintrag.java 
+    ]]></post>
+  </thread>
+  
+ <thread title="OutputStreamWriter">
+    <post id="4" author="Mentor1" time="Dienstag, 5. Oktober 2010, 21:50"><![CDATA[
+Liebe Studierende,
+
+eine Ergänzung zur Web Konferenz:
+An OutputStreamWriter is a bridge from character streams to byte streams.
+A BufferedWriter writes text to a character-output stream, buffering characters so as to provide for the efficient writing.
+Also die Zeichen werden zuerst mit dem BufferedWriter-Objekt in ein Puffer geschrieben, dann das OutputStreamWriter-Objekt reicht sie weiter an das FileOutputStream-Objekt, das verantwortlich ist, um Bytes in die Datei zu schreiben.
+Mit freundlichen Gruessen,
+    ]]></post>
+  </thread>
+  
+   <thread title="LE2 - Beispielcode DateiKopieren.java">
+    <post id="5" author="Student3" time="Dienstag, 5. Oktober 2010, 20:54"><![CDATA[
+Hallo,
+in der LE2 Seite 18 geht es um das Verschieben von Dateien.
+(hier die URL)
+
+Soweit ok. Allerdings verstehe ich nicht, warum die Dateilänge erst als Long eingelesen, dann aber zum Integer gekürzt wird:
+
+042 private static void kopiereDatei(String quellDatei, String zielDatei) 043 throws IOException { 044 // Einfache Ein- und Ausgabestroeme oeffnen 045 FileInputStream in = new FileInputStream(quellDatei); 046 FileOutputStream out = new FileOutputStream(zielDatei); 047 long dateiLaenge = (new File(quellDatei)).length(); 048 // Byte-Array, in das Daten eingelesen werden sollen, erzeugen 049 byte[] b = new byte[(int) dateiLaenge]; 050 int len; 051 // Daten aus Quelldatei einlesen und in Zieldatei schreiben 052 while ((len = in.read(b)) > 0) { 053 out.write(b, 0, len); 054 } 
+
+Schröpfe ich damit nicht die Zieldatei auf die Anzahl des Integerbereichs (zwar +/- 2.000.000.000 Zeichen, aber was wäre bei einer Videodatei)?
+    ]]></post>
+    <post id="6" reply="5" author="Mentor1" time="Dienstag, 5. Oktober 2010, 21:56"><![CDATA[
+Hallo Herr Süß,
+
+Für die Verständnis-Frage: wie lang darf ein Array sein?
+Viele Gruesse
+    ]]></post>
+    <post id="7" reply="6" author="Student3" time="Dienstag, 5. Oktober 2010, 22:00"><![CDATA[
+In der Webkonferenz kam die Antwort schon vor:
+da ein Array maxLenght 2.000.000.000 hat darf es beim schreiben auch nicht länger sein.
+Aber wie sieht es mit Dateien größer 2 GigaByte aus - würde das dennoch klappen?
+    ]]></post>
+    <post id="8" reply="7" author="Mentor1" time="Mittwoch, 6. Oktober 2010, 09:11"><![CDATA[
+Ja, die Anweisung in.read(b) ist in der while Schleife. So lange es Daten zum lesen gibt, wird sie ausgeführt. Die Anweisung;
+
+ byte[] b = new byte[(int) dateiLaenge]; 
+
+hat den folgenden Vorteil: ist die Datei-Länge von in kleiner als Integer.MAX_VALUE, dann passt die ganze Datei in b.
+Mit freundlichen Gruessen,
+    ]]></post>
+  </thread>
+  
+     <thread title="Exception">
+    <post id="9" author="Student4" time="Samstag, 9. Oktober 2010, 08:04"><![CDATA[
+In der LE02 werden manchmal "IOException" geworfen und manchmal "Exception". Es erschließt sich mir nicht ganz, wann ich welche verwenden muss.
+Bei dem Einlesen eines Objektes möchte Eclipse die "Exception" haben und beim Ausgeben eines Objektes die "IOException". Ich verstehe nicht den Unterschied.
+Oder gibt es keine Erklärung und man muss das sich einfach merken?
+Vielleicht weiß jemand eine Antwort darauf?!
+    ]]></post>
+    <post id="10" reply="9" author="Student2" time="Samstag, 9. Oktober 2010, 14:31"><![CDATA[
+Hallo ,
+
+eine IOExeption ist eine Exception speziell für die Ein- und Ausgabe (IO), sozusagen eine Unterkategorie der Exceptions. Und da die LE02 sich mit Ein- und Ausgabeströmen befasst, werden hier hauptsächlich IOExceptions behandelt.
+Die Exceptions wurden bereits in einer LE in Programmierung I behandelt. Dort kannst Du noch mal näheres dazu nachlesen.
+
+Viele Grüße
+    ]]></post>
+    <post id="11" reply="10" author="Student4" time="Samstag, 9. Oktober 2010, 17:49"><![CDATA[
+Okay, danke!
+     ]]></post>
+    <post id="12" reply="10" author="Mentor1" time="Montag, 11. Oktober 2010, 08:48"><![CDATA[
+Hallo , ,
+
+gut gesehen und wichtige Frage . Mit der Anweisung catch Exception werden alle Ausnahmen gefangen, die vom Typ Exception sind. Weil viele Exception-Klassen die Klasse Exception erben (siehe http://download.oracle.com/javase/6/docs/api/ und Pr I) werden damit viele verschiedene Ausnahmen gefangen. Erinnerung von Vererbung: ein Objekt vom Typ IOException ist auch vom Typ Exception. Mit der Anweisung catch IOException werden viel weniger aber auch viel spezifischere Ausnahmen gefangen, da viel weniger Klassen die Klasse IOException erben. Etwas ähnliches gilt für throws Exception und throws IOException.
+Mit freundlichen Gruessen,
+    ]]></post>
+  </thread>
+  
+       <thread title="Fragen zu Seite 4 und Seite 10">
+    <post id="13" author="Student5" time="Sonntag, 10. Oktober 2010, 20:10"><![CDATA[
+Seite 4:
+- Ich bekomme bei der Ausführung des Quelltextes eine Exception ausgegeben? (Siehe Screenshot)
+
+- Mir ist auch der Exception-Gebrauch nicht so ganz klar. Nachdem man mit throws eine Exception quasi deklariert, müsste doch dann, wo sie ausgegeben werden soll,
+diese ebenfalls mit "throw" eingegeben werden. Im Quelltext befindet sich aber nichts mit "throw"?
+
+
+Seite 10:
+Quellcode "BinaerDatenManipulieren":
+1. Die Länge vom Byte-Array: 14720. Ist damit 14720 Bytes gemeint?
+
+2. Ich bin nicht sicher, ob ich das Konzept der Parameterübergabe richtig verstanden habe:
+
+// Pruefen, ob zwei Uebergabeparameter bei Programmaufruf angegeben
+// wurden
+if (args.length != 2) {
+System.out
+.println("Fehler!\nAufruf des Programms ohne Dateiangaben.");
+System.exit(1);
+}
+
+// Dateinamen aus Uebergabeparametern lesen
+String bildDateiOriginal = args[0];
+String bildDateiGeand = args[1];
+
+
+Wieso ungleich 2? Weil es 2 Bilddateien gibt- einmal das orginal- und dann das manipulierte Bild?
+
+Wenn man demnach also "String bildDateiOriginal = args[0];" eingibt, liest das Programm die gesamte Bilddatei, ganz egal wieviel Byte oder mb?
+
+Grüsse
+    ]]></post>
+    <post id="14" reply="13" author="Student6" time="Sonntag, 10. Oktober 2010, 21:42"><![CDATA[
+Hallo ,
+
+Zum ersten Problem:
+Ich kann anhand des Screenshots den Fehler nicht finden - Hilfreich wäre vielleicht der ganze Quellcode.
+
+Zum zweiten Problem:
+Du kannst die Länge einer Datei mit der Methode length() aus der Klasse File dem Byte-Array übergeben - Die Länge des Arrays entspricht dann der Länge der Datei in Bytes.
+
+Bei der Parameterprüfung verlangt das Programm an dieser Stelle zwei Parameter, die du vermutlich in den Einstellungen angegeben hast. Ist die Anzahl ungleich 2 (weil nicht vorhanden oder falscher Name) dann gibt das Programm einen Fehler aus. Erst wenn die Parameter vollständig übergeben wurden geht es weiter. Übergibst du drei Parameter müsste dort stehen args.length !=3
+
+Bei der Übergabe werden hier keine Dateien eingelesen. Es wird nur geprüft, ob die Dateien, die als Parameter angegeben wurden auch zur Verfügung stehen. Es werden hier nur die Namen der Dateien für das Programm aus der Datei gelesen: String bildDateiOriginal = args[0]; String bildDateiGeand = args[1]; Zum testen kannst du mit System.out.print(bildDateiOriginal); sehen welchen Wert der String bildDateiOriginal bekommen hat.
+
+Ich hoffe, ich konnte erstmal helfen. Sollte in meinen Angaben ein Fehler sein, bitte ich um Berichtigung der anderen Kursteilnehmer ;) Danke
+    ]]></post>
+    <post id="15" reply="14" author="Student5" time="Sonntag, 10. Oktober 2010, 22:15"><![CDATA[
+Hallo,
+
+Zur Exception: Das ist der Quellcode von Seite 4, den ich eingebe.
+Bekommt Ihr denn damit keine Exception?
+
+Frage 2 ist geklärt, habe verstanden.
+Dankeschön.
+ 
+Ursprungsbeitrag | Bearbeiten | Thema teilen | Löschen | Antwort
+Nutzerbild Student6
+Re: Fragen zu Seite 4 und Seite 10
+von Student6 - Sonntag, 10. Oktober 2010, 23:25
+ 
+Habe ich jetzt auch bemerkt - Ist schon spät |-.
+
+Mein Programm lässt sich mit exakt diesem Quellcode fehlerfrei ausführen :-/
+    ]]></post>
+    <post id="16" reply="13" author="Student7" time="Sonntag, 10. Oktober 2010, 22:09"><![CDATA[
+Hallo, zu Deiner Frage nach der Exception:
+
+Ich habe auch eine, aber nur, wenn ich den Code im Aptana (Eclipse) ausführe. Gehe ich auf die Commandline und rufe das Kompilat mit "java EinfacheAusgabe" auf, klappt alles.
+
+In der Doku zu java.io.Console steht etwas drin (was ich nicht ganz verstehe), was aber meiner Meinung nach soetwas sagt, wie daß eine Konsole auch verbindbar sein muß, was bei den IDEs wohl nicht automatisch der Fall ist.
+
+HTH
+    ]]></post>
+    <post id="17" reply="16" author="Student5" time="Sonntag, 10. Oktober 2010, 22:16"><![CDATA[
+Hallo,
+Du meinst also es liegt an Eclipse?
+Na gut, aber Commandozeile ausprobieren werde ich nicht, weiß ich erst mal Bescheid. Danke.
+
+    ]]></post>
+    <post id="18" reply="17" author="Mentor1" time="Montag, 11. Oktober 2010, 08:58"><![CDATA[
+Liebe Studierende,
+in der Tat hat Eclipse Probleme mit der Klasse Console. Man kann damit nicht richtig von der Tastatur einlesen. Die String Variable hat dann kein Objekt also ist mit null initialisiert und daher die NullPointerException, die waehrend der Ausfuehrung von der Java Virtuell Maschine geworfen wird. Also Programme mit der Klasse Console "von Hand" mit java ausfuehren.
+Mit freundlichen Gruessen
+    ]]></post>
+    <post id="19" reply="18" author="Student2" time="Montag, 11. Oktober 2010, 09:38"><![CDATA[
+Liebe Mitkommilitonen,
+
+ich glaube, dass sind Versionsprobleme von Java und Eclipse. Meiner Kenntnis nach gibt es die Klasse Console erst ab Java 6 und Eclipse arbeitet, glaube ich, standardmäßig  mit Java 5.
+
+Bitte berichten Sie/berichtet mich, falls ich mich irre!
+
+Viele Grüße
+    ]]></post>
+  </thread>
+  <thread title="Parameterübergabe">
+    <post id="20" author="Student5" time="Montag, 11. Oktober 2010, 13:51"><![CDATA[
+Hallo,
+
+Seite 18:
+Klasse "DateiKopieren"
+"if (args.length != 2)"
+
+Wenn ich Mike gestern richtig verstanden habe, hätte es doch in diesem Quellcode und diesem Kontext
+"if (args.length == 2)" ?
+
+heißen müssen?
+Ich glaube so 100% habe ich die Parameterübergabe nicht verstanden?
+
+Grüsse
+   ]]></post>
+    <post id="21" reply="20" author="Student8" time="Montag, 11. Oktober 2010, 15:41"><![CDATA[
+Wenn ich Mike gestern richtig verstanden habe, hätte es doch in diesem Quellcode und diesem Kontext
+"if (args.length == 2)" ?      richtig
+    ]]></post>
+  </thread>
+  
+  
+  <thread title="Weitere Fragen zu Seite 13 + 14">
+    <post id="22" author="Student5" time="Sonntag, 10. Oktober 2010, 22:18"><![CDATA[
+Hallo,
+ich hätte noch folgende Fragen:
+
+Seite 13:
+Frage zu CharacterAusgabeStrom
+
+FileOutputStream foStream = new FileOutputStream(dateiName);
+OutputStreamWriter osWriter = new OutputStreamWriter(foStream);
+BufferedWriter bWriter = new BufferedWriter(osWriter);
+// Datenfluss: Programm --> bWriter --> osWriter --> foStream --> Datei
+Wenn der Datenfluss Programm --> bWriter --> osWriter --> foStream --> Datei ist, wieso wird es dann in dieser Reihenfolge eingegeben?
+Also erst foStream, dann osWriter, dann bWriter, somit genau umgekehrt? Der Compiler arbeitet sich doch von oben nach unten durch?
+
+
+Seite 14:
+-mark(int readAheadLimit) setzt eine Markierung in den Datenstrom: Was markiert man denn üblicherweise?
+
+- Ich habe in die TestDatei.txt einen türkischen Text schreiben wollen, aber die türkischen Zeichensätze werden als ? dargestellt.
+Ich weiß nicht genau, ob es damit zusammenhängt, aber wenn man die türk. Zeichensätze korrekt angezeigt bekommen möchte, sollte der in türkisch verfasste Texte
+nicht in Unicode, sondern als UTF-8 abgespreichert werden. Wie realisiere ich das in meinem Programm?
+
+Viele Grüsse
+    ]]></post>
+    <post id="23" reply="22" author="Mentor1" time="Montag, 11. Oktober 2010, 17:36"><![CDATA[
+Liebe ,
+
+Das Kommentar:
+// Datenfluss: Programm --> bWriter --> osWriter --> foStream --> Datei
+zeigt, wie die Daten vom Program in die Datei gelangen. Dafuer werden die Anweisungen von oben nach unten ausgefuehrt, da haben Sie voellig Recht. So werden die Objekte in der richtigen Reihenfolge erzeugt. Somit kann das Objekt bWriter das Objekt osWriter benutzen.
+mark is wichtig, wenn man beim Lesen einer Datei an eine bestimmte Position zurueck kommen moechte. Wir werden in dieser LE diese Methode nicht weiter vertiefen.
+Java arbeitet mit Unicode. Eine Text-Datei ist meistens nicht mit Unicode gespeichert (braucht viel Platz), sondern mit einer anderen Codierung wie UTF-8. Die Klasse InputStreamReader hat weitere Konstruktoren, die erlauben die Codierung der Datei anzugeben. Versuchen Sie die Datei mit türkischen Zeichensätze so zu lesen:
+FileInputStream fis = new FileInputStream (NamenderDatei);
+InputStreamReader isr = new InputStreamReader(fis, "UTF-8");
+
+Mit freundlichen Gruessen,
+    ]]></post>
+  </thread>
+  
+   
+  <thread title="Einsende Aufgabe LE 04 Frage???">
+    <post id="24" author="Student8" time="Mittwoch, 13. Oktober 2010, 16:17"><![CDATA[
+in der Aufgabenbeschreibung steht was von
+
+/** This method parses the two parameters as numbers, calculates
+* and returns the sum, substraction, product, division and modulo
+* exactly in this order.
+
+was ist mit modulo gemeint?
+
+Kann mir jemand helfen?
+  ]]></post>
+    <post id="25" reply="24" author="Student2" time="Mittwoch, 13. Oktober 2010, 17:01"><![CDATA[
+Hallo ,
+
+Modulo ist der ganzzahlige Rest und hat den Operator %.
+
+10 % 4 = 2 oder 10 % 3 = 1
+
+Gruß 
+  ]]></post>
+    <post id="26" reply="25" author="Student8" time="Mittwoch, 13. Oktober 2010, 18:03"><![CDATA[
+thx you
+
+ist so lang her -.-
+    ]]></post>
+  </thread>
+  
+  <thread title="Klasse KreisErw aus Kapitel 4.2">
+    <post id="27" author="Student9" time="Samstag, 16. Oktober 2010, 15:58"><![CDATA[
+Ich habe mal eine Frage zur Klasse KreisErw und zwar wird immer im Konstruktor die Instanzvariable mit this aufgerufen. Warum hier nicht?
+ 	]]></post>
+    <post id="28" reply="27" author="Student3" time="Samstag, 16. Oktober 2010, 19:22"><![CDATA[
+Hallo :
+private double _radius;
+KreisErw(double i_radius) {
+_radius=i_radius;
+}
+hier sind es 2 verschiedene Variablen-Namen.
+Wenn die Objektvariable statt _radius (ohne i) auch i_radius heißen würde, wäre es: private double i_radius;
+KreisErw(double i_radius) {
+this.i_radius=i_radius;
+}
+	]]></post>
+    <post id="29" reply="28" author="Student9" time="Sonntag, 17. Oktober 2010, 14:29"><![CDATA[
+Achso, ok. Danke Dir. 
+    ]]></post>
+  </thread>
+  
+  <thread title="ESA LE4">
+    <post id="30" author="Student2" time="Sonntag, 17. Oktober 2010, 12:35"><![CDATA[
+Hallo Leute,
+
+welche Execptions benutzt Ihr, um die Fehleingaben abzufangen?
+
+Ich benute die NumberFormatException und die ArithmeticException, konnte bisher aber nur die Texteingabe (NumberFormatException) damit abfangen aber nicht die Divsion durch Null oder die Divsion im Integerbereich.
+
+Vielleicht liegt es ja auch daran, dass ich zur Rückumwandlung in einen String-Wert folgende Codezeile direkt benute:
+String div = String.valueOf(n1 / n2);
+Ansonsten gebe ich die Exceptions bis zur Testklasse mit throws weiter und versuche sie erst dort "zu fangen".
+
+Konnte Ihr alle möglichen Fehleingaben abfangen?
+
+Gruß 
+	]]></post>
+    <post id="31" reply="30" author="Student4" time="Sonntag, 17. Oktober 2010, 16:19"><![CDATA[
+Hallo 
+Ich habe die beiden Exceptions mit einem Try and Catch Block abgefangen und das hat funktioniert. Den String habe mit ich Float.toString() und mit Integer.toString() zurück verwandelt. Frau Merceron hat es so abgesegnet. Der Try und Catch Block soll allerdings nicht in der Testklasse sein, sondern in IntRechner und FloatRechner, so der Kommentar.
+
+Gruß
+	]]></post>
+    <post id="32" reply="31" author="Student2" time="Sonntag, 17. Oktober 2010, 17:39"><![CDATA[ 
+Hallo ,
+
+habe auch schon versucht, den try-catch-Block in den anderen zwei Methoden zu gebrauchen, hatte dort aber Probleme (Compilierfehler) mit dem Rückgabewert.
+
+Danke 
+	]]></post>
+    <post id="33" reply="30" author="Student3" time="Sonntag, 17. Oktober 2010, 17:53"><![CDATA[ 
+aber nicht die Division durch Null oder die Divsion im Integerbereich abfangen
+Was haltet ihr von der einfachen Idee, weg von TryCatch und hin zu einer Verzweigung: "Falls Nummer2 gleich Null, dann..." Gruß 
+ 	]]></post>
+    <post id="34" reply="33" author="Student4" time="Sonntag, 17. Oktober 2010, 18:38"><![CDATA[ 
+Ich hatte es so verstanden, dass es schon um die Exceptions ging!
+ 	]]></post>
+    <post id="35" reply="30" author="Student4" time="Sonntag, 17. Oktober 2010, 18:49"><![CDATA[ 
+So funktioniert es bei mir. In der IntRechner wie auch in der FloatRechner:
+
+public class IntRechner implements Rechner{
+String[] ergebnis = new String[5];
+/**
+* @param number1 first number
+* @param number2 second number
+* Methode zum Ausgeben mehrerer Rechenaufgaben
+**/
+public String[] rechnen(String number1, String number2) {
+try{
+ergebnis[0] = getSum(number1, number2);
+ergebnis[1] = getSubtraktion(number1, number2);
+ergebnis[2] = getProdukt(number1, number2);
+ergebnis[3] = getDivision(number1, number2);
+ergebnis[4] = getModulo(number1, number2);
+
+}catch(ArithmeticException e){
+System.out.println("Division durch Null geht nicht!");
+}catch(NumberFormatException e){
+System.out.println("Falsche Zeicheneingabe!");}
+return ergebnis;
+}
+ 	]]></post>
+    <post id="36" reply="35" author="Student2" time="Sonntag, 17. Oktober 2010, 19:21"><![CDATA[ 
+Hallo ,
+
+Du hättest nicht gleich den ganzen Code hinschreiben müssen, denn mancher Dozent sieht das gar nicht so gern.
+Aber ich sehe meinen Fehler: Es ist das Semikolon vor der schließenden geschweiften Klammer in der vorvorletzten Zeile.
+
+Danke 
+
+PS: Mit einem If-Block müsste es natürlich auch funktionieren.
+	]]></post>
+    <post id="37" reply="30" author="Student2" time="Montag, 18. Oktober 2010, 19:59"><![CDATA[ 
+Ich habe die Exceptions, die ich nicht fangen konnte jetzt selbst definiert, z. B. so:
+
+class MyException extends Exception {
+public MyException() {
+}
+public MyException(String s) {
+super(s);
+}
+}
+...
+if ((n1 > 1410065407) || (n2 > 1410065407) || (n1 + n2 > 1410065407) || (n1 * n2 > 1410065407))
+throw new MyException("Zahl ausserhalb des Wertebereichs von Integer! ");
+...
+} catch(MyException me) {
+System.out.print(me.getMessage()); //Ueberlauf
+
+Gruß
+    ]]></post>
+ 
+  </thread>
+  
+     <thread title="ESAS">
+    <post id="38" author="Student4" time="Mittwoch, 20. Oktober 2010, 15:12"><![CDATA[
+Hallo 
+Ich habe mir eben einen persönlichen Plan erstellt und da ist mir aufgefallen, dass die ESA LE12 am 15.11.2010 abgegeben werden soll, vor den den anderen LEs. Ist das richtig so? Sollen wir die LE12 tatsächlich vorziehen?
+
+Schöne Grüße
+	]]></post>
+    <post id="39" reply="38" author="Mentor1" time="Donnerstag, 21. Oktober 2010, 05:16"><![CDATA[  
+Hallo ,
+
+JA! da die LEs 08 und 09 erst Ende Oktober zur Verfuegung stehen. Rekursion ist unabhaengig von graphischen Oberflaechen.
+
+Mit freundlichen Gruessen
+    ]]></post>
+  </thread>
+  
+    <thread title="Wann beginnt die heutige Videokonferenz?">
+    <post id="40" author="Student5" time="Donnerstag, 28. Oktober 2010, 15:18"><![CDATA[
+Hallo,
+
+weiß jemand um wieviel Uhr das OM heute beginnt?
+Geht es von 19.00-20.00 Uhr oder von 20.15-21.15 Uhr
+
+Grüsse 
+    ]]></post>
+  </thread>
+  
+  
+  <thread title="ESA Meine Array List">
+    <post id="41" author="Student10" time="Sonntag, 31. Oktober 2010, 19:00"><![CDATA[
+Hallo Zusammen
+
+Ich habe ein Problem mit der 2. Aufgabe, Meine Array List
+Wenn ich mein Array fülle und dann eine for-Schleife zum ausgeben mache bekomme ich auf der Konsole "MeineArrayList2@1ad086a" angezeigt.
+
+for (String s : ms) {
+System.out.println(s);
+}
+
+Das "ms" wird mit der Meldung "can only iterate over an array or an instance of java.lang.Iterable" markiert.
+
+Ich habe dann noch die Methode iterator() und alles was dazugehört eingefügt, dann funktioniert die Methode .add aber nicht mehr.
+(Ich denke auch, dass ist in der Aufgabe nicht wirklich gefragt)
+
+Wie habt Ihr das denn gelöst?
+
+Danke und Gruss
+	]]></post>
+    <post id="42" reply="41" author="Student1" time="Sonntag, 31. Oktober 2010, 21:58"><![CDATA[ 
+Aus Deiner Schleife alleine kann ich Dir nicht die genaue Lösung Deines Problems nenen, da mir der restliche Programmcode fehlt. Aber soviel scheint mir sicher:
+
+In Deiner Array-List speicherst Du zusammengesetze Objekte (also ein Objekt besteht beispielsweise aus String name und String telefonnummer).
+Wenn Du nun Deine Arraylist mit Deiner Forschleife durchläufst und mit sysout System.out.println ausgibst, dann liefert Dir das die Speicheradresse zurück, an der Dein zusammengesetztes Objekt gespeichert ist.
+
+Wenn Du aber an die einzelnen Inhalte von Deinem zusammengesetzten Objekt ran möchtest, dann musst Du die Inhalte des zusammengesetzten Objektes direkt adressieren.
+
+Am Beispiel der aktuellen Einsendeaufgabe:
+
+In der Klasse Telefoneintrag hast Du stehen:
+
+public class TelefonEintrag
+{
+String name = "";
+String number = "";
+//und noch viel mehr Programmcode//
+}
+
+Wenn Du nun mit
+
+TelefonEintrag te = new TelefonEintrag();
+
+ein Objekt te vom Typ TelefonEintrag anlegst, dann hast Du darin Name und Nummer gespeichert. Du erreichst sie mit te.name und te.nummer.
+
+Nun packst Du das Objekt in eine ArrayList, damit Du halt viele dieser Objekte verwalten kannst:
+
+ArrayList<TelefonEintrag> al = new ArrayList<TelefonEintrag>();
+
+Damit hast Du nun eine Arraylist, in die Du beliebig viele Objekte vom Typ te verwalten kannst.
+
+Wenn Du dann die Inhalte eines der te-Objkte ausgeben möchtest, kannst Du das folgendernmassen erreichen:
+
+for(TelefonEintrag currentEntry : al)
+{
+System.out.println("Name: " + currentEntry.name + "\t" + " Nummer: " + currentEntry.number);
+}
+
+Ich hoffe, dass es Dir ein wenig weiterhilft, falls nicht, schreib mir einfach.
+
+Abendliche Grüße,
+	]]></post>
+    <post id="43" reply="42" author="Student1" time="Sonntag, 31. Oktober 2010, 23:14"><![CDATA[ 
+ Ich seh gerade, ich hab auf den falschen Teil der Einsendeaufgaben geantwortet. Ich schau es mir aber trotzdem an :D
+ 	]]></post>
+    <post id="44" reply="41" author="Student4" time="Montag, 1. November 2010, 08:42"><![CDATA[ 
+Ich habe in der Main Methode ein String Array erzeugt und Elemente mit Strings zur Liste hinzugefügt.
+In der Methode ausgebenAlleElem() ein Object Array erstellt und dieses an das String Array übergeben:
+Object[] neu = str.ausgebenAlleElem(); (str ist hier mein String Array)
+
+Und dann die for Schleife!
+
+Hoffe ich konnte dir helfen!
+ 	]]></post>
+    <post id="45" reply="41" author="Mentor1" time="Montag, 1. November 2010, 09:19"><![CDATA[ 
+Liebe ,
+
+sehr gute Frage. Man muss einen etwas subtilen Unterschied ein mal gut begreifen: den Unterschied zwischen der Klasse MeineArrayList und der Klasse MeineArrayListTest, die eine Variable vom Typ MeineArrayList benutzt. Die Klasse MeineArrayList enthält ein Array namens list. In dieser Klasse kann man mit der Variable list die Art Schleife benutzen, die Sie beschreiben, weil diese Anweisung fuer Arrays unterstützt wird, etwa so:
+
+for (E o: list)
+
+Dagegen ist die Variable ms in der Klasse MeineArrayListTest vom Typ MeineArrayList, und die Klasse MeineArrayList selbst unterstützt diese Anweisung nicht. Damit sie diese Anweisung unterstützt, sollte sie die Schnittstelle java.util.Iterator implementieren.
+
+Macht es Sinn?
+Mit freundlichen Grüßen
+    ]]></post>
+  </thread>
+  
+         <thread title="Übung 06-03 - Rechteck">
+    <post id="46" author="Student9" time="Dienstag, 2. November 2010, 16:25"><![CDATA[
+Hallo,
+
+ich habe bei der Übung 06-03 eine Applikation zum Zeichnen eines Rechtecks programmiert. Allerdings wird keines gezeichnet, es erscheint nur das weiße Fenster.
+
+Quelltext:
+
+import java.awt.Frame;
+import java.awt.Graphics;
+
+public class Rechteck {
+
+ public static void main(String[] args) {
+  Frame recht = new Frame();
+  recht.setVisible(true);
+  recht.setTitle("Mein Rechteck");
+  recht.setSize(700, 300);
+  recht.paint(null);
+ }
+ 
+ public void paint(Graphics g) {
+  g.drawRect(40, 60, 200, 40);
+ }
+}
+
+Möglicherweise liegt das am Parameter beim Methodenaufruf von paint(). Wie kann dies denn stattdessen lauten? Ich hoffe, Ihr könnt mir helfen.
+	]]></post>
+    <post id="47" reply="46" author="Student4" time="Dienstag, 2. November 2010, 17:03"><![CDATA[ 
+Hi ,
+
+soweit ich das überblicken kann, musst du noch "extends Frame" machen.
+Dann sollte es gehen.
+
+Grüße
+	]]></post>
+    <post id="48" reply="46" author="Student4" time="Dienstag, 2. November 2010, 17:06"><![CDATA[ 
+Ich war glaube ich zu schnell mit meiner Antwort! Dein Fenster öffnet sich ja!
+Ich melde mich gleich noch mal!
+	]]></post>
+    <post id="49" reply="46" author="Student4" time="Dienstag, 2. November 2010, 17:18"><![CDATA[ 
+So, jetzt habe ich noch mal bei mir geschaut!
+Da dies kein Applet ist musst du in der paint Methode den super Konstruktur aufrufen super.paint(g); und auch die Frame Klasse implementieren, so wie ich schon geschrieben habe.
+Was du mit recht.paint(null); sagen möchtest weiß ich nicht. Aber meiner Ansicht nach ist das nicht nötig.
+Alles natürlich ohne Gewähr! :-)
+Schöne Grüße
+	]]></post>
+    <post id="50" reply="46" author="Student4" time="Dienstag, 2. November 2010, 17:25"><![CDATA[ 
+Jetzt ist mir noch was eingefallen! Ich glaube man muss Rechteck Objekt vom Typ Frame erzeugen.
+Also eher so: Frame recht = new Rechteck...
+	]]></post>
+    <post id="51" reply="46" author="Mentor1" time="Mittwoch, 3. November 2010, 08:20"><![CDATA[ 
+Liebe , liebe Studierende,
+
+sehr gute Frage. Wenn man möchte, dass die Methode paint etwas zeichnen, dann muss man die Methode paint der Klasse java.awt.Component überschreiben. Das heisst die Klasse Rechteck muss eine Unterklasse von java.awt.Component sein. Es ist der Fall, wenn die Klasse eine unter Klasse von java.awt.Frame, java.applet.Applet oder javax.swing.JFrame ist. Von Applet nach JFrame (jetzt mehr benutzt als Frame) empfehle ich die folgende Übersetzung:
+
+import java.awt.Graphics; import java.applet.Applet; 
+
+public class Gruss extends Applet { public void paint(Graphics g) { g.drawString("Gruss an Fritz", 100, 50); } }
+ 
+import javax.swing.JFrame;
+import java.awt.Graphics;
+public class Gruss extends JFrame {
+public Gruss(){ setTitle("Gruesse"); setSize(200, 170);
+ setDefaultCloseOperation(EXIT_ON_CLOSE);
+ setVisible(true); }
+public void paint(Graphics g){ super.paint(g); g.drawString("Gruss an Fritz", 100, 50); }
+public static void main(String[] args) { new Gruss(); } } 
+
+Am Donnerstag werde ich darauf eingehen.
+Mit freundlichen Gruessen
+	]]></post>
+    <post id="52" reply="51" author="Student9" time="Mittwoch, 3. November 2010, 11:12"><![CDATA[
+Danke für die Antworten.
+
+Dies würde auch als Applikation funktionieren, oder?
+	]]></post>
+    <post id="53" reply="52" author="Student9" time="Mittwoch, 3. November 2010, 11:12"><![CDATA[
+Die Frage hat sich erledigt. Danke,
+    ]]></post>
+  </thread>
+  
+  <thread title="Präsenz 01 - Telefonlisteneintrag.java">
+    <post id="54" author="Mentor1" time="Montag, 15. November 2010, 11:09"><![CDATA[
+Liebe Studierende,
+
+Hier Tipps fuer die Einsendeaufgaben 12, da Sie alle aehnliche Schwierigkeiten haben.
+Der Algorithmus nach der Loesung im Buch « Sprechen Sie Java? » Von H. Mössenböck (in unserer Bibliothek).
+
+public boolean existWeg(int x, int y){
+
+// zuerst die Faelle pruefen die keinen rekursiven Aufruf erfoerdern
+
+// 1. ausserhalb des Labyrinths return false
+
+// 2. Platz nicht frei return false
+
+// wenn dies nicht zutrifft, koennte der Weg erfolgreich sein
+
+// die Stelle als «besucht » bezeichnen (mit '*', 'b' oder aehnliches)
+
+// falls die Grenze schon erreicht ist, oder existsWeg(x+1, y)
+
+// oder existsWeg(x-1,y ) usw...
+
+// man kann hier die Position des Punktes ausgeben.
+
+// return true;
+
+// sonst return false
+
+}
+
+
+Um das Labyrinth zu speichern am besten: char [ ] [ ]
+
+Sie koennen das Labyrinth direkt initialisieren, etwa so:
+
+char[][] lab1= { {'X',' ',' '},
+
+{'X',' ',' '},
+
+{' ','X',' '} };
+
+Viel Erfolg!
+Mit freundlichen Gruessen, 
+    ]]></post>
+  </thread>
+  
+  <thread title="LE08">
+    <post id="55" author="Student4" time="Montag, 15. November 2010, 19:12"><![CDATA[
+Bin gerade am Anfang der LE08 und bin bei der Aufgabe, bei der man Text und ein BIld einfügen soll. Es funktioniert auch alles, aber das Bild wird nicht angezeigt, ob es es im Package liegt.
+Vielleicht kann mir jemand helfen? (Siehe Screenshots)
+
+Der Code:
+public void initGUI() {
+JFrame fenster = new JFrame();
+fenster.setSize(new Dimension(600, 400));
+
+fenster.setTitle("Mein Cocktailmixer");
+
+fenster.setLocationRelativeTo(null);
+fenster.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+JPanel start = erzeugeBegruessungsPanel();
+
+fenster.getContentPane().add(start);
+
+fenster.setVisible(true);
+
+}
+
+
+private static JPanel erzeugeBegruessungsPanel() {
+
+JPanel newPanel = new JPanel();
+
+JLabel begText = new JLabel("Willkommen beim CocktailMixer");
+newPanel.add(begText);
+
+JLabel begBild = new JLabel(new ImageIcon("AbbCocktail.gif"));
+newPanel.add(begBild);
+
+return newPanel;
+}
+
+
+public static void main(String[] args) {
+
+MeinCocktailMixerGUI mcmg = new MeinCocktailMixerGUI();
+mcmg.initGUI();
+
+
+}
+	]]></post>
+    <post id="56" reply="55" author="Student7" time="Montag, 15. November 2010, 20:53"><![CDATA[
+Ich habe mir das in der Lektion angesprochene "data"-Verzeichnis in meinem neuen GUI-Projekt angelegt. Dahinein habe ich dann mit der Eclipse-Importfunktion das zuvor heruntergeladene Bild importiert.
+
+Danach kannst Du entweder vor den Dateinamen ein "data/" setzen oder Du setzt den Workspace wie in der Lektion angegeben auf das data-Verzeichnis. (Run - Run Configration...)
+
+Gruß
+	]]></post>
+    <post id="57" reply="56" author="Student4" time="Dienstag, 16. November 2010, 07:35"><![CDATA[
+Vielen Dank euch beiden! Ich habe das überlesen in der LE08. Jetzt hat es geklappt.
+Schöne Grüße
+	]]></post>
+    <post id="58" reply="55" author="Student11" time="Montag, 15. November 2010, 21:17"><![CDATA[
+Hallo ,
+
+wenn du keine Einstellungen an der Konfiguration vornehmen willst, die Grafikdatei einfach in Projektverzeichnis kopieren. Bei dir "CocktailMixerGUI". Ansonsten wie von Bernhard bzw. in der Lerneinheit beschrieben.
+
+Gruß
+    ]]></post>
+  </thread>
+  
+  <thread title="Neue Frage LE08">
+    <post id="59" author="Student4" time="Dienstag, 16. November 2010, 13:34"><![CDATA[
+Ich habe ein kleines Problem. Ich habe den Code von noch mal selber geschrieben von Seite 14. Doch leider gibt es dort eine kleine Treppe in dem Textfeld "Cocktailname". Ich habe mehrfach kontrolliert und dann die Datei aus der Lerneinheit compiliert. Da sieht alles gut aus!
+Vielleicht sieht jemand von euch den Fehler. Screenshot ist unten!
+
+public class CocktailNeuPanel extends JPanel{
+
+
+public CocktailNeuPanel(){
+this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
+
+this.add(Box.createVerticalGlue());
+
+Box nameLabelBox = Box.createHorizontalBox();
+nameLabelBox.add(Box.createHorizontalGlue());
+
+
+JLabel nameLabel = new JLabel("Cocktailname");
+
+nameLabel.setAlignmentX(SwingConstants.LEFT);
+groesseEinsetzen(nameLabel, 585, 20);
+nameLabelBox.add(nameLabel);
+this.add(nameLabelBox);
+
+
+Box nameTextFieldBox = Box.createHorizontalBox();
+nameTextFieldBox.add(Box.createHorizontalGlue());
+JTextField nameTextField = new JTextField();
+groesseEinsetzen(nameTextField, 580, 20);
+nameTextField.setAlignmentX(SwingConstants.LEFT);
+nameTextFieldBox.add(nameTextField);
+nameTextField.add(Box.createHorizontalGlue());
+this.add(nameTextFieldBox);
+
+
+this.add(Box.createRigidArea(new Dimension(0, 20)));
+
+Box zubereitungsLabelBox = Box.createHorizontalBox();
+zubereitungsLabelBox.add(Box.createHorizontalGlue());
+JLabel zubereitungsLabel = new JLabel("Zubereitung");
+
+zubereitungsLabel.setAlignmentX(SwingConstants.LEFT);
+groesseEinsetzen(zubereitungsLabel, 585, 20);
+zubereitungsLabelBox.add(zubereitungsLabel);
+this.add(zubereitungsLabelBox);
+
+Box zubereitungTextAreaBox = Box.createHorizontalBox();
+zubereitungTextAreaBox.add(Box.createHorizontalGlue());
+JTextArea zubereitungTextArea = new JTextArea();
+JScrollPane scrollZubereitung = new JScrollPane(zubereitungTextArea);
+groesseEinsetzen(scrollZubereitung, 580, 50);
+scrollZubereitung.setAlignmentX(SwingConstants.LEFT);
+zubereitungTextAreaBox.add(scrollZubereitung);
+zubereitungTextAreaBox.add(Box.createHorizontalGlue());
+this.add(zubereitungTextAreaBox);
+
+this.add(Box.createVerticalGlue());
+}
+
+private static void groesseEinsetzen(JComponent c, int width, int height){
+Dimension d = new Dimension(width, height);
+c.setPreferredSize(d);
+c.setMaximumSize(d);
+c.setMinimumSize(d);
+}
+
+}
+    ]]></post>
+  </thread>
+  
+  <thread title="Webkonferenz am 18. Nov?">
+    <post id="60" author="Student3" time="Donnerstag, 18. November 2010, 10:39"><![CDATA[
+Hallo,
+kurze Frage kurze Antwort:
+Findet heute abend planmäßig eine Webkonferenz statt?
+Wenn ja, um 19:00 Uhr oder 20:00?
+Gruß 
+	]]></post>
+    <post id="61" reply="60" author="Mentor1" time="Donnerstag, 18. November 2010, 12:56"><![CDATA[ 
+Lieber , liebe Studierende,
+
+Danke für die Erinnerung. Wie Sie im Kursplan sehen können, sind die Webkonferenzen nur um 19Uhr geplant, da nicht so viele sich beteiligt haben. Für diejenige, die erst etwas später sich einschalten können (etwa 19:15), werde ich nach 20:00 den Anfang wiederholen. In der LE08 in Moodle steht ein Programm, das wir heute Abend besprechen werden.
+Bis heute Abend,
+	]]></post>
+    <post id="62" reply="60" author="Student4" time="Donnerstag, 18. November 2010, 14:52"><![CDATA[ 
+Hallo an alle!
+Ich kann leider heute abend nicht teilnehmen. Bitte daran denken die Webkonferenz aufzuzeichnen.
+Danke
+Gruß
+    ]]></post>
+  </thread>
+  
+  <thread title="LE8 GUI - einsenden oder nicht">
+    <post id="63" author="Student3" time="Samstag, 27. November 2010, 00:24"><![CDATA[
+Am Ende der LE8 steht, dass die Aufgabe nicht eingesendet werden soll, aber für LE9 wichtig ist.
+Im Moodle gibt's allerdings einen Uploadtermin.
+
+Daher meine Frage: hochladen oder nicht?
+Danke im Voraus für die Antwort.
+
+Gruß 
+	]]></post>
+    <post id="64" reply="63" author="Mentor1" time="Samstag, 27. November 2010, 09:56"><![CDATA[ 
+abe senden wie üblich!
+Viele Gruesse 
+    ]]></post>
+  </thread>
+  
+    <thread title="Lösungen aus der Präsenz">
+    <post id="65" author="Thomas Gorny" time="Donnerstag, 18. November 2010, 01:33" attachment="Konto.zip"><![CDATA[
+Hallo,
+
+in der Präsenz wurde ich gebeten meine Versionen der Klassen aus der Konto-Aufgabe hochzulanden. Ich füge die Java-Dateien der Klassen Kunde und Konto als Anhang an diesen Post. Ich hoffe es ist nützlich...  
+
+Viele Grüße und frohes Schaffen!
+
+
+PS: falls der Anhang nicht funktioniert hier nochmal alles in Textform:
+
+
+
+public abstract class Konto implements Comparable<Konto>{
+   
+    private String nummer;
+    protected double stand;
+
+    public Konto(String s, double summe) {
+        nummer = s;
+        if (summe >= 0)
+            stand = summe;
+        else
+            stand = 0;
+    }
+
+    public String toString() {
+        return "Kontonummer: " + nummer + "\t Stand: " + stand;
+    }
+
+    public abstract void abheben(double summe);
+   
+    /**
+     * prüft erst ob das Übergebene Objekt vom Typ Konto ist, ansonsten
+     * herrscht keine Gleichheit und die Methode kann mit false beenden.
+     *
+     * Ansonsten wird der String der eigenen Kontonummer mit dem des
+     * übergebenen Kontos verglichen und das ergebnis zurückgegeben.
+     */
+    @Override
+    public boolean equals(Object ob){
+        if ( ! (ob instanceof Konto)) return false;
+        Konto konto = (Konto) ob;
+        return nummer.equals(konto.nummer);       
+    }
+   
+    /**
+     * die Implementierung der methode wird vom Interface Comparable verlangt
+     *
+     * prüft ob der eigene Kontostand größer bzw kleiner als der des
+     * übergebenen Kontos ist, entsprechend wird result angepasst.
+     *
+     * Falls nichts zutrifft, also die Kontostände gleich sind, wird
+     * der Anfangswert von result, nämlich 0 übergeben
+     */
+    public int compareTo(Konto secondKonto){
+        int result = 0;
+        if (stand > secondKonto.stand){
+            result = 1;
+        }
+        if (stand < secondKonto.stand){
+            result = -1;
+        }
+        return result;
+    }
+}
+
+
+
+public class Kunde {
+    private String name;
+    private ArrayList<Konto> konten;
+
+    /**
+     * Der Konstruktor nimmt den Kundennamen entgegen und legt eine neue
+     * Arraylist für seine Konten an.
+     *
+     * @param name Name des Kunden
+     */
+    public Kunde(String name) {
+        this.name = name;
+        konten = new ArrayList<Konto>();
+    }
+   
+    /**
+     * Das übergebene Konto wird mit der add()-Methode von ArrayList
+     * in der Objekt-Eigenschaft konten abgespeichert
+     *
+     * @param konto ein neues Konto
+     */
+    public void addKonto(Konto konto) {
+        konten.add(konto);
+    }
+
+    /**
+     * erzeugt einen String mit Namen und den konten des Kunden,
+     * und gibt diesen zurück.
+     * Die Konten werden durch die toString()-methode der Klasse
+     * Arraylist ausgegeben. 
+     */
+    @Override
+    public String toString() {
+        String s = "KontoInhaber: " + name + "\n";
+        s += konten.toString() + "\n";
+        return s;
+    }
+
+    /**
+     * Gibt alle Konten als Array zurück
+     *
+     * @return der Methode toArray wird der generische Typ der ArrayList als neues
+     * leeres Array-Objekt übergeben, dadurch hat das Array den richtigen Typ
+     * anstatt ein bloßes Object[] array zu sein
+     */
+    public Konto[] getAllKontos() {
+        return konten.toArray(new Konto[0]);
+    }
+}
+	]]></post>
+    <post id="66" reply="65" author="Student2" time="Sonntag, 28. November 2010, 20:06"><![CDATA[ 
+Danke !
+
+Gruß
+    ]]></post>
+  </thread>
+  
+      <thread title="LE9 EBH - gedrückte Taste abfangen (Ohne Hilfs-Button)">
+    <post id="67" author="Student3" time="Sonntag, 5. Dezember 2010, 21:40"><![CDATA[
+Hallo an alle,
+
+beim Thema 3.4 KeyEvent in der LE9 werden 2 Buttons angezeigt und darunter ein Zeichenfeld mit einem kleinen Kreis. (Ich hänge ein Bild an)
+Der Kreis kann wandern, wenn die eine der Tasten l,r,u,o gedrückt wird.
+Nun habe ich "zum Wandern" die Pfeiltasten hinzugefügt und stoße auf folgendes Problem:
+
+Der KeyListener ist auf die Buttons gesetzt (siehe Quelltext Auzug).
+Wie kann ich die Tasteneingabe OHNE Hilfsbutton abfangen und den KeyListener auf das Fenster oder ähnliches setzen?
+* getContentPane().addKeyListener(this); //klappt nicht
+* this.addKeyListener(this); //klappt nicht
+
+
+3.4 KeyEvent und FokusEvent (Auszug)
+
+private Button a = new Button("Button A");
+private Button b = new Button("Button B");
+getContentPane().add(a);
+getContentPane().add(b);
+
+a.addKeyListener(this);
+b.addKeyListener(this);
+
+public void keyPressed(KeyEvent e) {
+if (e.getKeyChar() == 'r' || e.getKeyCode() == KeyEvent.VK_RIGHT) {
+xlinks = xlinks + schrittweite;
+}
+if (e.getKeyChar() == 'l' || e.getKeyCode() == KeyEvent.VK_LEFT) {
+xlinks = xlinks - schrittweite;
+}
+if (e.getKeyChar() == 'u' || e.getKeyCode() == KeyEvent.VK_DOWN) {
+yoben = yoben + schrittweite;
+}
+if (e.getKeyChar() == 'o' || e.getKeyCode() == KeyEvent.VK_UP) {
+yoben = yoben - schrittweite;
+}
+}
+
+URL http://moodle.oncampus.de/modules/ir019/onmod/GP2EBH/3systemnah/key.shtml?inhalt=true
+
+Ich danke im Voraus für eure Antworten.
+Gruß 
+	]]></post>
+    <post id="68" reply="67" author="Mentor1" time="Montag, 6. Dezember 2010, 11:52"><![CDATA[ 
+Lieber , liebe Studierende,
+
+sehr gute Vertiefung. Damit es klappt sollen die Komponente, die in dieser Klasse definiert sind, nämlich das DrawPanel-Objekt oder das TastaturEreignisse-Objekt den Fokus haben koennen. Dies wird mit der Methode setFocusable gemacht, siehe auch:
+http://download.oracle.com/javase/tutorial/uiswing/misc/focus.html#focusable
+Dir Reihenfolge, wie die Objekte hinfugefuegt werden, bestimmt welche graphische Komponente am Anfang den Fokus hat (ausser man benutzt ein FocusTravesalPolicy-Objekt).
+Probieren Sie:
+p = new DrawPanel();
+p.setFocusable(true);
+p.addKeyListener(this);
+p.addFocusListener(this);
+und lassen Sie die JButton-Objekte weg. Sie werden den Kreis bewegen koennen.
+Die folgende Änderung gibt Einsicht
+public void keyPressed(KeyEvent e) {
+System.out.println(e.getSource());
+....
+}
+Etwas ähnliches gilt fuer focusGained.
+Falls Sie die JButton Objekte lassen, werden Sie merken, dass das sie per Default den Fokus behalten (wenn JButton Objekt a oder b den Fokus gewonnen hat, kann p den Fokus nicht mehr gewinnen).
+
+Viel Erfolg der dieser LE!
+	]]></post>
+    <post id="69" reply="68" author="Student3" time="Montag, 6. Dezember 2010, 17:43"><![CDATA[ 
+Danke schön - es funktioniert.
+Manchmal sind es nur (wichtige) Kleinigkeiten, die es zum Leben erwecken :-)
+    ]]></post>
+  </thread>
+  
+  
+  <thread title="SAX-Ausgabe">
+    <post id="70" author="Student9" time="Dienstag, 21. Dezember 2010, 11:35"><![CDATA[
+Hallo,
+
+ich habe folgendes Problem. Wenn ich das Programm SAXAusgabe ausführe, kommt diese Meldung. Die Datei adressen2.xml habe ich im selben Verzeichnis abgelegt.
+
+Ich hoffe, Ihr könnt mir helfen.
+	]]></post>
+    <post id="71" reply="70" author="Student9" time="Dienstag, 21. Dezember 2010, 11:47"><![CDATA[  
+Hat sich erledigt. Es lag an dem Buchstaben "ß" und dem Umlaut in der xml-Datei. ;)
+    ]]></post>
+  </thread>
+  
+  <thread title="Rinzo für Eclipse">
+    <post id="72" author="Student4" time="Donnerstag, 23. Dezember 2010, 14:59"><![CDATA[
+Hallo an alle!
+Ich habe versucht Rinzo für Eclipse zu installieren, doch leider gibt es eine Fehlermeldung bei der Installation. (Siehe Screenshot!)
+Die Systemvoraussetzungen habe ich erfüllt. Ich arbeite mit Java 6 und Eclipse 3.6.
+Weiß jemand von euch Abhilfe?
+
+Auf diesem Wege wünschen ich euch allen eine schöne Weihnachtszeit und einen guten Rutsch!
+
+Schöne Grüße
+    ]]></post>
+  </thread>
+  
+  <thread title="LE11 XML mit DOM - Probleme bei Reihenfolge und Nummern von Child-Knoten">
+    <post id="73" author="Student3" time="Montag, 27. Dezember 2010, 16:03"><![CDATA[
+Hallo,
+in der LE11 bin ich (erst mit der ESA) auf ein Problem gestoßen, wie die Child-Nodes eines Elementes sortiert werden. Es betrifft die Methoden: getAlleNamen(), getAdressenDaten(), wo ich überall mit getChildNodes() arbeite (bsw. Name und Adresse).
+
+Situation
+Wir erstellen ein Adressbuch mit der folgenden Struktur:
+Adressbuch
+|--Kontakt (mit typ & id)
+|--Name
+| |--Vorname
+| |--Nachname
+|--Adresse
+| |--Strasse
+| |--PLZ
+| |--Ort
+| |--Land
+
+Angenommen, ich lassen mit alle NAME-Elemente in eine NodeList ausgeben.
+Dann möchte ich beim jedem Element die Nachfolgeknoten Vor- und Nachname auslesen.
+nodeVorname = nodelistName.item(i).getChildNodes().item(0);
+nodeNachname = nodelistName.item(i).getChildNodes().item(1);
+Problem
+Ich dachte Name-->Child0 ist Vorname und Name-->Child1 ist Nachname.
+Aber Vorname ist dann "null", Nachname hat den Wert aus Vorname
+Gleiches Problem bei den Adress-Elementen.
+Bei meinen items 0,1,2,3 ist nur jedes 2. gefüllt
+Lösung
+und folgendes Funktioniert
+nodeVorname = nodelistName.item(i).getChildNodes().item(1);
+nodeNachname = nodelistName.item(i).getChildNodes().item(3);
+
+
+Bei den Übungen zum Ausgeben oder Löschen von Elementen in XML hatte ich keinerlei Probleme. Jetzt bei der ESA habe ich diese Schwierigkeiten.
+Deshalb kann wohl auch meine Kontakt-Löschen-Methode kein passendes Element entfernen und wirft Fehler.
+
+Frage
+Kennt jemand dieses Problem!?
+
+Danke im Voraus
+	]]></post>
+    <post id="74" reply="73" author="Mentor1" time="Montag, 3. Januar 2011, 11:37"><![CDATA[ 
+Lieber , liebe Studierende,
+
+zuerst bitte ich für diese späte Antwort um Entschuldigung (Grund: Urlaub!).
+Das Problem kommt daher, dass die Standard-Java Bibliothek, die wir benutzen, alle Zeichnen der Datei berücksichtigt einschliesslich die sogenannte "whitespace" wie Zwischenraum und neue Zeilen. Daher in:
+|--Name
+| |--Vorname
+| |--Nachname
+enthaelt die Nodelist des Elementes Name zuerst ein TEXT_NODE fuer neue Zeile nach Name, denn ein ELEMENT_NODE fuer Vorname usw.
+
+Hier ist eine methode, die diese Struktur erkundet, adressBuch ist das Dokument:
+
+private void showAllNames(){
+NodeList nl = adressBuch.getElementsByTagName("Name");
+for (int i=0; i<nl.getLength();i++){
+Node n = nl.item(i);
+System.out.println("Node.ELEMENT_NODE " + (n.getNodeType() == Node.ELEMENT_NODE));
+Element e = (Element) n;
+System.out.println("TagName " + e.getTagName());
+NodeList nln = n.getChildNodes();
+for (int j=0; j<nln.getLength(); j++){
+Node ni=nln.item(j);
+System.out.println("Node.ELEMENT_NODE " + (ni.getNodeType() == Node.ELEMENT_NODE));
+boolean isText = ni.getNodeType() == Node.TEXT_NODE;
+System.out.println("Node.TEXT_NODE " + (isText));
+if (isText){
+Text t = (Text) ni;
+System.out.println("Node.getTextContent " + t.getTextContent());
+System.out.println("t.isElementContentWhitespace " + t.isElementContentWhitespace());
+}
+}
+}
+}
+
+
+Ich wuensche Ihnen ein frohes neues Jahr!
+Mit freundlichen Gruessen
+    ]]></post>
+  </thread>
+  
+  <thread title="Präsenz Aufgabe 6 - Verkettete Liste - remove">
+    <post id="75" author="Student7" time="Samstag, 8. Januar 2011, 16:24"><![CDATA[
+Da ich schon gefragt wurde:
+
+Methode remove(E e):
+
+Die verkette Liste besteht ja aus Elementen, die jeweils einen Zeiger auf ihren Nachfolger haben. Wenn also mittendrin ein Element entfernt werden soll, dann muß beim Vorläufer der Zeiger, der auf den Nachfolger zeigt, eingetragen werden. Diese Adresse habe ich aus dem Zeiger des zu löschenden Elementes genommen und "nach vorne" geschrieben.
+
+// Vorläufer holen
+Knoten vorKnoten = sucheVor(hier.e);
+// Beim Vorläufer die Adresse setzen, die hier die nächste gewesen war
+vorKnoten.next = hier.next;
+
+Weitere Fragen gerne.
+Gruß 
+    ]]></post>
+  </thread>
+  
+  <thread title="Präsenz Aufgabe 5 - Collection/ArrayList">
+    <post id="76" author="Student2" time="Samstag, 8. Januar 2011, 16:28"><![CDATA[ 
+Im Text der Aufgabe fehlt in der Zeile
+System.out.println(cI.removeAll(new LinkedList<String>()));
+das d bei LinkedList. Es gibt einen Compilerfehler.
+
+Gruß
+    ]]></post>
+  </thread>
+  
+  <thread title="Wierholungsfragen für Connect-Konferenz 20.01.11 19Uhr">
+    <post id="77" author="Mentor1" time="Donnerstag, 13. Januar 2011, 13:12" attachment="ZusammenfassungsFragen200111.doc"><![CDATA[
+Liebe Studierende,
+
+die letzte Präsenz hat mir gezeigt, dass eine Wiederholung von wichtigen Konzepten vor der Klausur nützlich wäre. Im Anhang steht eine Liste mit Wiederholungsfragen. Bitte ergänzen Sie diese Liste mit weiteren Fragen und mit Antworten. Keine Angst von "falschen" Antworten, ich werde sie schon korrigieren. Die noch ungeklärte Fragen werden wir in der nächsten Adobe-Connect-Konferenz am Do. den 20.01.11 besprochen.
+Viel Spaß und Erfolg beim Lernen!
+    ]]></post>
+  </thread>
+  
+  <thread title="Applets">
+    <post id="78" author="Student4" time="Sonntag, 16. Januar 2011, 17:57"><![CDATA[
+
+Kommen denn auch Applets dran? Die Lektion haben wir in Prog1 nicht behandelt. Es gibt aber eine Aufgabe in einer der Probeklausuren!
+
+Schöne Grüße
+	]]></post>
+    <post id="79" reply="78" author="Mentor1" time="Montag, 17. Januar 2011, 09:27"><![CDATA[ 
+Liebe , liebe Studierende, Applets kommen nicht dran. Es ist aber kein schwieriges Thema. Wir haben gesehen, wie aus einem Applet eine Anwendung wird und umgekehrt. Grob zusammengefasst fuer die Richtung Applet -> Anwendung: die Klasse JFrame erweitern, alles was in der init Methode ist kommt ins Konstruktor plus ein paar Befehle hinzufügen wie setSiZe, setDefaultCloseOperation und setVisible. Wichtiger ist es Graphics, GUI und Ereignisbehandlung, die Applets wie Anwendungen betreffen. Mit freundlichen Gruessen
+    ]]></post>
+  </thread>
+  
+    <thread title="Seitenanzahl">
+    <post id="80" author="Student4" time="Montag, 17. Januar 2011, 10:10"><![CDATA[
+
+Gleich noch eine Frage: Wissen Sie schon wieviele Seiten wir mit zur Klausur nehmen dürfen?
+
+Schöne Grüße
+	]]></post>
+    <post id="81" reply="80" author="Mentor1" time="Montag, 17. Januar 2011, 11:48"><![CDATA[ 
+Liebe Studierende,
+
+Wir machen wie in der Vergangenheit:
+Als Hilfsmittel zur Klausur sind 6 DIN-A4-Seiten (mit beschriebener Vorder- und Rückseite) mit eigenen Notizen zugelassen.
+
+Tipp: waehren der Wiederholung (Präsenz, LEs, Einsendeaufgaben usw.) erstellen Sie Ihre "Spickzettel". Dann loesen Sie auf Papier nur mit Hilfe der Spickzettel in 120 Minuten alte Klausuren. So werden sie am besten Ihre Kenntnisse und Ihre "Spickzettel" einschätzen. Achtung: die LE11 XML ist neu. Nur aus diesem Grund gibt es keine XML-Aufgabe in den alten Klausuren.
+
+Ich wuensche Ihnen schon mal viel Erfolg!
+Kommen denn auch Applets dran? Die Lektion haben wir in Prog1 nicht behandelt. Es gibt aber eine Aufgabe in einer der Probeklausuren!
+
+Schöne Grüße
+	]]></post>
+  </thread>
+  
+  <thread title="Beispielcode CocktailMixer (GUI, EBH, Klassenbeziehung)">
+    <post id="82" author="Student3" time="Donnerstag, 13. Januar 2011, 22:21" attachment="LE9_CocktailmixerGUI_EXAMPLE_Team_Stoeckel_Suess_v0.9.zip"><![CDATA[
+Hallo an alle,
+auf Nachfrage nach der Präsenz stelle ich den Quellcode für den CocktailMixer bereit.
+(Ich denke, Steffi stimmt dem zu).
+
+Auf 2 PDF Seiten habe ich grafisch versucht, den Aufbau und die Beziehungen der Klassen simpel zu erklären - guckt einfach hinein.
+
+Die Tipps von Frau Merceron sind umgesetzt:
+Die ActionListener sind nun kurze, innere Klassen beim jeweiligen MenuItem.
+Die Hauptklasse gibt nur noch Objekte von "Cocktailbar" statt "Mixer" weiter.
+
+Bei Fragen einfach per Email melden
+
+Gruß 
+
+
+
+Frage an
+Bei der Klasse NeuerCocktail möchte ich gerne im Hauptfenster der GuiMeinCocktailMixer Aktion auslösen (Fenstertitel ändern, JDialog zeigen)
+Ohne das Mixer-Objekt habe ich keinen Rückwärts-Zugriff mehr. Die Kommentare in der Klasse zeigen die entsprechenden Stellen:
+// v0.9: entfällt, da kein zugriff auf mixer/ jframe
+//cmixer.refreshTitle();
+
+// v0.9: entfällt, da kein zugriff auf mixer/ jframe
+//JOptionPane.showMessageDialog(cmixer.cockFenster,
+// "Cocktail gespeichert");
+Welchen Weg kann ich dabei gehen?
+	]]></post>
+    <post id="83" reply="82" author="Student9" time="Freitag, 14. Januar 2011, 16:08"><![CDATA[ 
+Hallo ,
+
+das ist auch in meinem Sinne. Danke!
+	]]></post>
+    <post id="84" reply="83" author="Mentor1" time="Samstag, 15. Januar 2011, 20:33"><![CDATA[ 
+Liebe , lieber ,
+
+Danke fuer diese Loesung, die zeigt, dass Sie die Grundkonzepten der GUI sehr gut meistern. Prima! 5 Beobachtungen:
+
+1- GUIMeinCocktailMixer Methode initGUI
+die Zeile cockFenster = new Container(); ist ueberfluessig sogar irrefuehrend. Die naechste Zuweisung ist notwendig, sie macht die Verbindung mit dem JFrame-Objekt:
+cockFenster = getContentPane();
+Als Erinnerung hat das Content Pane eines JFrame-Objektes ein BorderLayout per default. Die Kombination der Methoden getContentPane() dann setLayout(), wie Sie machen, erlaubt das default Layout durch ein anderes zu ersetzen.
+
+2- Sie haben das Attribut CocktailBar cbar mit der Erreichbarkeit public deklariert. Warum?
+
+3- Warum finden Sie nuetzlich die JMenuItem-Objekte einen Namen durch den Aufruf der Methode setName() zu geben?
+
+4- Die Klasse GUICocktailMixerNeu ist hier wenig nuetzlich. Es ist besser nur die Klasse GUICocktailNeuPanel zu benutzen.
+
+5- Die Klasse CocktailBar braucht keine neue Methode neuerMixer(). Im Prinzip ist die Logik durch GUIs nicht betroffen. Die Zuweisung
+cbar = new CocktailBar(); in der Klasse GUIMeinCocktailMixer ist genug.
+
+Herr Suess Sie haben Recht: den Titel des Fensters zu aendern von der Klasse GUICocktailNeuPanel ist nicht mehr so leicht moeglich, wenn nur das CocktailBar-Objekt gereicht wird. Das Pop-Up aber geht leicht, das ParentComponent kann das JPanel sein:
+JOptionPane.showMessageDialog(this, "Cocktail gespeichert");
+
+Mit freundlichen Gruessen
+	]]></post>
+    <post id="85" reply="84" author="Student3" time="Montag, 17. Januar 2011, 23:35"><![CDATA[ 
+Danke an  für die Anmerkungen.
+Ihre Tipps helfen mir gut, die Programme zu verbessern.
+
+Als Info für Mitstudenten möchte ich nun den Punkt 3 beantworten:
+
+JMenuItem mit setName() stammt aus der (komplizierteren) Version, die ich bei der Präsenz vorgestellt habe. Sie sind überflüssig.
+Da nun je JMenuItem ein ActionListener als innere Klasse implementiert ist, weiß das Programm schon, welcher Button gedrückt wurde und welches JPanel im CardLayout gezeigt werden soll.
+
+Auf Anfrage (bsw. Studenten) gebe ich die aktualisierte Version weiter.
+    ]]></post>
+  </thread>
+  
+  <thread title="Webkonferenz">
+    <post id="86" author="Student4" time="Donnerstag, 20. Januar 2011, 10:43"><![CDATA[
+Lieber
+Findet heute um 19 Uhr eine Webkonferenz statt?
+Wenn ja, sind verkettete Listen Klausur relevant? Wenn ja, könnten wir die Methoden contains() und remove() aus der Präsenzaufgabe 6 besprechen?
+
+Schöne Grüße
+	]]></post>
+    <post id="87" reply="86" author="Mentor1" time="Donnerstag, 20. Januar 2011, 14:09"><![CDATA[ 
+Liebe Studierende,
+
+die Web-Konferenz findet heute um 19Uhr statt. Ich nehme gerne weitere Fragen wie Ihre auf Frau Mueller. Bitte vergessen Sie nicht, meine Liste von Fragen. Am besten Vorschläge für fie Antworten in Moodle stellen! Danke.
+Bis heute Abend
+    ]]></post>
+  </thread>
+  
+  <thread title="Antworten">
+    <post id="88" author="Student4" time="Donnerstag, 20. Januar 2011, 15:48"><![CDATA[
+Okay dann fange ich mal an:
+
+Programmieren 1:
+
+1. Eine Variable stellt Speicher zu Verfügung. Sie muss genau definiert werden! z.b. Typ Float hat 4 Bytes.
+Ein Attribut ist eine Variable, die in der Klasse deklariert wird.
+Variablen können als Parameter an eine Methode übergeben werden.
+Eine lokale Variable wird in der Methode selber deklariert und verlert ihre Gültigkeit nach dem Beenden der Methode.
+
+2. Konstruktoren werden benötigt, um Obejekte zu erzeugen. Auch hier können Parameter übergeben werden. Konstruktoren der Oberklasse können mit super() aufgerufen werden.
+
+3. ?
+
+4. Feste Größe, Konstante
+
+5. Überladen bedeutet, dass Methoden mit gleichem Namen in einer Klasse vorkommen können. Sie enden mit ihrer Laufzeit.
+Überschrieben werden Methoden, wenn eine Klasse oder ein Interface vererbt bzw. implementiert wird und die Methoden derselbigen importiert werden. In der neuen Klasse werden sie überschrieben.
+
+
+Programmieren 2:
+
+1. Ein Array kann eine begrenzte Anzahl von typgleichen Objekten aufnehmen und verwalten.
+Dateien?
+Datenbanken?
+
+2. Array hat eine vorher festgelegte Anzahl. Arraylist kann dynamisch Objekte aufnehmen.
+
+3. Arraylist ist für eine einfach verkettete Liste und Linked List für eine doppelt verkette Liste?
+
+4. Ein Interface ist auch abstract, hat aber keine ausprogrammierten Methoden. Ein abstrakte Klasse kann schon ausprogrammierte Methoden haben.
+Klassen können mehrere Interfaces implementieren, aber nicht mehrere abstrakte Klassen. Von den Funktionen her, sind beide gleich.
+
+5. Ich kann das nicht in Worte fassen.
+
+6.
+a. Eine Eigene Listener Klasse erstellen
+b. Den Listener anonym erstellen
+c. Den Listener anaony erstellen + einer inneren Klasse
+
+7. JFrame = BorderLayout
+JPanel = Border Layout?
+
+8. setLayout(New Flowlayout())
+
+9. Eine rekursive Methode ruft sich solange selbst auf bis die vorher bestimmte Abbruchbedingung eintrifft. Ansonsten würde sie endlos laufen.
+Die Methode traversieren läuft solange, bis kein Element mehr gefunden wird
+
+Schöne Grüße
+Bis heute Abend
+	]]></post>
+    <post id="89" reply="88" author="Student9" time="Samstag, 22. Januar 2011, 15:21" attachment="ZusammenfassungsFragen200111_XXXX.doc"><![CDATA[ 
+Ich stelle auch mal meine Antworten ein.
+
+Schönes Wochenende und viel Erfolg beim Lernen.
+
+Liebe Grüße,
+    ]]></post>
+  </thread>
+  
+  <thread title="Fragen zu alten Klausuren">
+    <post id="90" author="Mentor1" time="Dienstag, 25. Januar 2011, 19:22"><![CDATA[
+Liebe Studierende,
+
+die folgenden Fragen sind moeglicherweise fuer viele interessant. Daher die Antwort im Forum unten.
+Mit freundlichen Gruessen
+
+Frage 1: Aufgabenstellung
+Bei Aufgabe bin ich 1 nicht sicher, wie die Lösung aussehen soll.
+"1. I/O Programmierung und ArrayList<E> mit Java (25 Punkte)
+Schreiben Sie ein Methode public static <E> void schreibeInDatei(String
+dateiName, ArrayList<E> ar), die folgendes leistet. Alle Objekte, die das Arralist<E>-
+Objekt ar enthaltet, werden als Text in die Datei Namens dateiName geschrieben, ein Objekt pro Zeile."
+
+"Als Text speichern" heißt für mich Unicode, also: FileOutputStream--> OutputStreamWriter--> BuffereWriter--> bw.wirte(String s)
+
+Das ArrayList<E> kann jedoch verschiedene Objekte enthalten, nicht nur String und int.
+"ein Objekt pro Zeile" passt eher und ich kann
+FileOutputStream--> ObjectOutputStream--> oos.writeObject(Object o) nutzen
+
+Frage: Welcher Weg ist gefordert?
+Antwort: Mit jedem Objekt kann man eine toString-Methode aufrufen, die entweder aus der Klasse selbst kommt, oder aus einer Oberklasse, vielleicht sogar aus der Object-Klasse. Also ist hier der erste Weg erwartet.
+
+Frage 2: Bewertung
+Wie wird die Aufgabe SimpleGUI ebenfalls im WS2009/2010 bewertet?
+Für 25 Punkte muss hier wohl nicht viel geschrieben werden.
+Meine Lösung auf dem Papier hatte einen Fehler in der anonymen Klasse:
+
+tf.addActionListener(new ActionListener() {
+@Override
+public void actionPerformed(ActionEvent e) {
+System.out.println(tf.getText()); <-- nicht zulässig
+}
+});
+Mit Eclipse habe ich getestet und folgende Lösung erreicht:
+tf.addActionListener(new ActionListener() {
+@Override
+public void actionPerformed(ActionEvent e) {
+String text = ((JTextField)(e.getSource())).getText();
+System.out.println(text);
+}
+});
+Frage: Wieviele Punkte würde ich dadurch verlieren?
+Antwort: Zuerst gab es einen Fehler in der Klausur in Moodle. Ich habe die richtige Version hochgeladen. Der Fehler hat moeglicherweise zur Verwirrung bei Erstellung der Loesung gebracht. VIELEN DANK fuer diese Frage.
+Mit diesem Fehler verlieren Sie knapp die Haelfte der Punkten. Man muss hier auch zeigen, dass man Erreichbarkeit mit inneren Klassen beherrscht. Eine Alternative ist einfach tf als Attribut in der Klasse zu deklarieren, und nicht mehr lokal im Konstruktor. Dann geht der erste Ansatz.
+    ]]></post>
+  </thread>
+
+  <thread title="verketteteListe">
+    <post id="91" author="Student4" time="Dienstag, 25. Januar 2011, 20:16"><![CDATA[
+Hallo an alle,
+
+ich dachte in der letzten Webkonferenz, dass ich die Methode sucheVor() verstanden hätte, aber leider ist dem nicht so.
+
+Was genau sagt "end.e" und "vor.next.e" aus ???????
+
+private Knoten sucheVor(E e){
+end.e = e;
+Knoten vor = anf;
+ 
+while(! e.equals(vor.next.e)){
+vor = vor.next;
+}
+return vor;
+
+Im voraus schon mal Danke für Antworten!
+
+Schöne Grüße
+	]]></post>
+    <post id="92" reply="91" author="Mentor1" time="Donnerstag, 27. Januar 2011, 12:22"><![CDATA[ 
+Liebe , liebe Studierende,
+
+Die Klasse VerketteListe<E> hat 2 Attribute von Typ Knoten namens end und anf. Diese Zwei Elemente enthalten keine konkrete Daten. Sie sind nur "dummy"-Konten, die das Navigieren in der verketteten Liste helfen. Ein Knoten-Objekt hat wiederum 2 Attribute namens next und e, siehe Klasse Knoten. Das Attribut e enthaelt das Element, das in der verketteten Liste gespeichert ist, next enthaelt die Referenz zum naechsten Knoten-Objekt, siehe auch LE13 Seite 16.
+
+Zweck der Methode sucheVor ist den Knoten in der verketteten Liste zu finden, der vor dem Knoten liegt, dessen Attribut e den Parameter e enthaelt. Nehmen wir das erste Bild der Seite 16. Falls der Parameter der Methode sucheVor das Element O2 ist, gibt die Methode sucheVor das Knoten-Objekt mit dem Element O1 zurueck.
+
+Die Methode sucheVor nimmt als Hilfe die 2 dummy-Knoten anf und end. Das dummy Objekt end ist nicht dafuer da, um ein Element zu speichern, sondern um das Ende der Liste zu zeigen.
+Die Anweisung:
+end.e = e;
+weist das Element e, das gesucht wird, in das e Attribut des Knoten-Objektes end zu. Dies macht die Schleife leichter zu schreiben. Falls der Parameter e im Knoten-Objekt end gefunden wird, weiss man dass e nicht in der Liste gespeichert ist.
+vor.next.e ist so zu verstehen: vor ist ein Knoten-Objekt; next ist ein Attribut vom Objekt vor und enthaelt die Referenz des naechsten Knoten-Objekt in der Liste. e ist das Attribut also das Element dieses naechsten Knoten-Objekt. Als Beispiel nehmen wir noch die erste Abbildung der Seite 16: wenn vor das Knoten-Objekt mit dem Element O1 ist, dann ist vor.next.e das Element O2.
+
+Macht es Sinn?
+
+Mit freundlichen Gruessen
+	]]></post>
+    <post id="93" reply="92" author="Student4" time="Donnerstag, 27. Januar 2011, 15:15"><![CDATA[ 
+Vielen Dank 
+
+Dann probiere ich mich noch mal an der Aufgabe. Ich denke, es ist jetzt klarer!
+
+Gruß
+	]]></post>
+    <post id="94" reply="93" author="Student4" time="Donnerstag, 27. Januar 2011, 18:51"><![CDATA[ 
+Ich bin mir nicht sicher, ob ich es verstanden habe!
+
+Noch mal eine Frage:
+Ich verstehe leider immer noch nicht die Anweisung end.e = e;? e ist dann am Ende der Liste und wird nicht gespeichert, d.h. e ist nicht in der Liste?
+Woher weiß ich dann, dass e nicht irgendwo anders ist? Oder mache ich einen Denkfehler?
+
+Hier mal meine Versuche, Die Methode contains() und remove() zu programmieren:
+
+//Liefert true, wenn e in dieser Sammlung vorkommt
+public boolean contains(E e){
+Knoten vor = sucheVor(e);
+if(vor.next == end)
+return false;
+return true;
+
+}//Ende contains
+
+
+//Falls e in einem oder mehreren Knoten dieser Sammlung vorkommt,
+//wird einer dieser Knoten gelöscht und true geliefert. Sonst false!
+public boolean remove(E e){
+
+Knoten hier = anf.next;
+Knoten vor = sucheVor(hier.e);
+
+while(e.equals(vor.next.e))
+vor.next = hier.next;
+return true;
+
+}//Ende remove
+
+
+Freue mich über Rückmeldung! Finde das sehr verwirrend alles! :-)
+	]]></post>
+    <post id="95" reply="94" author="Mentor1" time="Donnerstag, 27. Januar 2011, 21:10"><![CDATA[ 
+Liebe , liebe Studierende,
+
+ich habe mich nicht genau genug ausgedrueckt.
+end.e = e; speichert e am Ende der Liste, in den dummy Knoten. Wenn e nur hier in diesem dummy-Knoten gefunden wird und nicht vorher, dann weiss man dass e nicht echt in der Liste gespeichert ist, nur am Ende als Falle so zu sagen.
+Wir nehmen wieder Abbildung 1 der Seite 16 LE13, und denken es gaebe end als dummy Knoten statt null am Ende der Abbildung. Wir suchen O2. Als erstes weist die Methode sucheVor das Element O2 in das Attribut e von end, also in den dummy-Knoten. O2 ist aber echt gespeichert. Daher bricht die while Schleife so bald O2 gefunden wird, und gibt den Knoten mit Element O1 zurueck.
+Jetzt suchen wir O5. Als erstes weist die Methode sucheVor das Element O5 in das Attribut e von end, also in den dummy-Knoten. O5 ist nicht echt gespeichert.
+Die while Schleife bricht ab, wenn die ganze Liste durch ist und gibt den Knoten mit dem Wert O4 zurueck.
+
+Ist es klarer?
+
+Ihre Methode contains ist korrekt. Sehr gut. Hier eine bessere Programmierung:
+//Liefert true, wenn e in dieser Sammlung vorkommt
+public boolean contains(E e){
+Knoten vor = sucheVor(e);
+return k.next != end;
+}
+
+Die Methode remove braucht keine while Schleife. Sie ist einfacher.
+Wir nehmen wieder Abbildung 1 der Seite 16 LE13. Wir wollen O3 entfernen.
+Die Methode sucheVor wird uns den Knoten k mit Element O2 liefern. Welcher Knoten ist der naechste Knoten von k, wenn Knoten mit O3 weg ist?
+
+Versuchen Sie es.
+
+Mit freundlichen Gruessen
+	]]></post>
+    <post id="96" reply="95" author="Student4" time="Freitag, 28. Januar 2011, 09:32"><![CDATA[ 
+Lieber
+
+Vielen dank für Ihre ausführlichen Antworten.
+Hier noch mal die Methode remove(). Jetzt wird sich zeigen, ob ich es verstanden habe! :-)
+
+public boolean remove(E e){
+Knoten vor = sucheVor(e);
+Knoten k = vor.next;
+k = k.next;
+return true;
+}
+
+Schöne Grüße
+	]]></post>
+    <post id="97" reply="96" author="Mentor1" time="Freitag, 28. Januar 2011, 17:04"><![CDATA[ 
+Liebe ,
+
+fast sehr gut gemacht. Das wesentliche haben Sie verstanden. "Fast" aus dem folgenden Grund: was passiert wenn e nicht echt in der Liste gespeichert ist? Wir nehmen wieder die gleiche Abbildung: wenn wir O8 entfernen wollen, dann soll die Methode remove false zurueck geben.
+
+Eine kuerzere Form der Programmierung ist:
+
+Knoten vor = sucheVor(e);
+vor.next = vor.next.next;
+
+Haben Sie das Programm in der main Methode getestet?
+
+Mit freundlichen Gruessen
+	]]></post>
+    <post id="98" reply="97" author="Student4" time="Freitag, 28. Januar 2011, 20:52"><![CDATA[ 
+Lieber
+Nochmals Danke für Ihre Antwort.
+
+Ich habe nun eine Mainmethode geschrieben und so funktioniert es!
+
+public boolean remove(E e){
+Knoten vor = sucheVor(e);
+if(vor.next == end)
+return false;
+else
+vor.next = vor.next.next;
+return true;
+
+Schöne Grüße
+    ]]></post>
+  </thread>
+</forum>
