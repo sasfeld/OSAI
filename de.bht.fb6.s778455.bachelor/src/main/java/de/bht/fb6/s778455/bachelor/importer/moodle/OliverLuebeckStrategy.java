@@ -41,6 +41,9 @@ public class OliverLuebeckStrategy extends AImportStrategy {
 	 * Name of the {@link LmsCourseSet} that is given by this strategy.
 	 */
 	public static final String NAME_COURSE_SET = "oliver_luebeck";
+	@SuppressWarnings("unused")
+	private File inputFile;
+	private File processingFile;
 
 	/*
 	 * (non-Javadoc)
@@ -72,11 +75,12 @@ public class OliverLuebeckStrategy extends AImportStrategy {
 					+ ") doesn't exist or appear to be a directory.",
 					"Internal error in the importer module. Please see the logs.");
 		}
+		this.inputFile = inputFile;
 
 		// set the lms course set name from the upper file's name
 		final LmsCourseSet courseSet = new LmsCourseSet(NAME_COURSE_SET);
-		final Set<Course> importedCourses = this.importCourses(
-				inputFile, courseSet);
+		final Set<Course> importedCourses = this.importCourses(inputFile,
+				courseSet);
 		courseSet.addAll(importedCourses);
 		return courseSet;
 	}
@@ -89,8 +93,8 @@ public class OliverLuebeckStrategy extends AImportStrategy {
 	 * @return
 	 * @throws GeneralLoggingException
 	 */
-	private Set<Course> importCourses(File inputFile,
-			LmsCourseSet courseSet) throws GeneralLoggingException {
+	private Set<Course> importCourses(File inputFile, LmsCourseSet courseSet)
+			throws GeneralLoggingException {
 		File[] forumFiles = inputFile.listFiles(new FilenameFilter() {
 
 			@Override
@@ -101,7 +105,8 @@ public class OliverLuebeckStrategy extends AImportStrategy {
 
 		Set<Course> courses = new HashSet<>();
 		for (File forumFile : forumFiles) {
-
+			this.processingFile = forumFile;
+			
 			int fileNumber = this.getNumberFromFileName(forumFile);
 			// add the currently only one existing course
 			Course newCourse = ServiceFactory.newCourse(fileNumber,
@@ -159,9 +164,10 @@ public class OliverLuebeckStrategy extends AImportStrategy {
 	 * @param forumExtractor
 	 * @param threadNode
 	 * @param newThread
+	 * @throws GeneralLoggingException 
 	 */
 	private void importPostings(XmlExtractor forumExtractor, String threadNode,
-			BoardThread newThread) {
+			BoardThread newThread) throws GeneralLoggingException {
 		final String[] postNodes = (String[]) forumExtractor.buildXPath(
 				threadNode + "/post/@id", true);
 
@@ -183,17 +189,25 @@ public class OliverLuebeckStrategy extends AImportStrategy {
 					+ "/text()", false);
 
 			// create Posting instance and assign attributes
-			Posting newPosting = ServiceFactory.newPosting(
-					Integer.parseInt(postId), content, newThread,
-					Language.GERMAN);
-			if (null != parentId) {
-				newPosting.setParentPostingId(parentId);
-			}
+			try {
+				Posting newPosting = ServiceFactory.newPosting(
+						Integer.parseInt(postId), content, newThread,
+						Language.GERMAN);
+				if (null != parentId) {
+					newPosting.setParentPostingId(parentId);
+				}
 
-			// add to hierarchy
-			newThread.addPosting(newPosting);
+				// add to hierarchy
+				newThread.addPosting(newPosting);
+			} catch (NumberFormatException e) {
+				throw new GeneralLoggingException(getClass()
+						+ ":importPostings(): in file " + this.processingFile.getName() +" couldn't parse ID to integer:\n"
+						+ e,
+						"Internal error in the importer module. Please see the logs.");
+			}		
 		}
 	}
+
 
 	/**
 	 * Get the file number of the given xml file, so that [NUMBER] is extracted
