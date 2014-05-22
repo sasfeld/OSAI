@@ -5,6 +5,7 @@ package de.bht.fb6.s778455.bachelor.importer.organization.service;
 
 import java.io.File;
 import java.util.Collections;
+import java.util.Comparator;
 
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy;
@@ -17,6 +18,7 @@ import de.bht.fb6.s778455.bachelor.model.Language;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
 import de.bht.fb6.s778455.bachelor.model.Posting;
+import de.bht.fb6.s778455.bachelor.model.tools.IdComparator;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
 import de.bht.fb6.s778455.bachelor.organization.xml.XmlExtractor;
@@ -210,5 +212,14 @@ public class ServiceFactory {
 		newPosting.setLang(postingLanguage);
 		
 		return newPosting;
+	}
+
+	/**
+	 * Create a new {@link IdComparator} instance.
+	 * @return
+	 */
+	public static Comparator<Course> newIdComparator() {
+		IdComparator newComparator = new IdComparator();
+		return newComparator;
 	}
 }

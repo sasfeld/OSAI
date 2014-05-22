@@ -6,7 +6,6 @@ package de.bht.fb6.s778455.bachelor.importer.moodle;
 import java.io.File;
 import java.io.FilenameFilter;
 import java.io.InputStream;
-import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -76,7 +75,7 @@ public class OliverLuebeckStrategy extends AImportStrategy {
 
 		// set the lms course set name from the upper file's name
 		final LmsCourseSet courseSet = new LmsCourseSet(NAME_COURSE_SET);
-		final Collection<Course> importedCourses = this.importCourses(
+		final Set<Course> importedCourses = this.importCourses(
 				inputFile, courseSet);
 		courseSet.addAll(importedCourses);
 		return courseSet;
@@ -90,7 +89,7 @@ public class OliverLuebeckStrategy extends AImportStrategy {
 	 * @return
 	 * @throws GeneralLoggingException
 	 */
-	private Collection<Course> importCourses(File inputFile,
+	private Set<Course> importCourses(File inputFile,
 			LmsCourseSet courseSet) throws GeneralLoggingException {
 		File[] forumFiles = inputFile.listFiles(new FilenameFilter() {
 
@@ -100,7 +99,7 @@ public class OliverLuebeckStrategy extends AImportStrategy {
 			}
 		});
 
-		Collection<Course> courses = new HashSet<>();
+		Set<Course> courses = new HashSet<>();
 		for (File forumFile : forumFiles) {
 
 			int fileNumber = this.getNumberFromFileName(forumFile);
