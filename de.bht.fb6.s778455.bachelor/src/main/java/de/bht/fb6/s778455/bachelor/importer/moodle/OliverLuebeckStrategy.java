@@ -112,7 +112,7 @@ public class OliverLuebeckStrategy extends AImportStrategy {
 			int fileNumber = this.getNumberFromFileName(forumFile);
 			// add the currently only one existing course
 			Course newCourse = ServiceFactory.newCourse(fileNumber,
-					"oliver_luebeck_course_" + fileNumber, courseSet);
+					"oliver_luebeck_course_" + fileNumber, courseSet, Language.GERMAN);
 			// create the currently only existing board
 			Board newBoard = ServiceFactory.newBoard(fileNumber,
 					forumFile.getName(), newCourse, Language.GERMAN);

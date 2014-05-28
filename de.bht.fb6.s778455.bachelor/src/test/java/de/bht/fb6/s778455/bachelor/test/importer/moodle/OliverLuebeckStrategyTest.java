@@ -76,6 +76,7 @@ public class OliverLuebeckStrategyTest {
 				assertEquals("oliver_luebeck_course_1", course.getTitle());
 				assertTrue( null == course.getShortName());
 				assertTrue( null == course.getSummary() );
+				assertEquals( Language.GERMAN, course.getLanguage() );
 				
 				// iterate through boards, assert them
 				if( 1 == courseNum ) {

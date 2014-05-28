@@ -98,10 +98,11 @@ public class ServiceFactory {
 	 * 
 	 * @param courseId
 	 * @param courseName must not be null
+	 * @param language 
 	 * @return
 	 * @throws NullPointerException if one of the arguments is null
 	 */
-	public static Course newCourse(int courseId, String courseName, LmsCourseSet lmsCourseSet) {
+	public static Course newCourse(int courseId, String courseName, LmsCourseSet lmsCourseSet, Language language) {
 		if (null == courseName) {
 			throw new NullPointerException("Null is not allowed for parameter 2");
 		}
@@ -111,6 +112,7 @@ public class ServiceFactory {
 		
 		Course newCourse = new Course(courseName, lmsCourseSet);
 		newCourse.setId(courseId);
+		newCourse.setLanguage(language);
 		// add further logic for extensions
 		
 		return newCourse;
