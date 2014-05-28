@@ -120,6 +120,11 @@ public class AnonymizationController {
 
 		// chaining: create new anonymizer instance
 		for( final String chainingKey : this.chainingKeys ) {
+			// break the processing if the chaining key is empty
+			if ( "".equals(chainingKey.trim()) ) {
+				break;
+			}
+			
 			final String chainingValue = this.anonymConfigReader
 					.fetchValue( chainingKey );
 

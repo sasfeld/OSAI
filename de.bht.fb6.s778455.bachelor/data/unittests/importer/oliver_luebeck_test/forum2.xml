@@ -1,0 +1,303 @@
+<forum>
+  <thread title="Java le04 kompilieren - Fehlermeldung #1">
+    <post id="1" author="Student1" time="Sonntag, 6. April 2007, 08:12">
+Hallo, ich bekomme folgendes wenn ich das Programm mit Java kompilieren möchte:
+
+[cordon@localhost le04]$ java UebClockman.java
+Exception in thread "main" java.lang.NoClassDefFoundError: UebClockman/java
+Caused by: java.lang.ClassNotFoundException: UebClockman.java
+at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+at java.security.AccessController.doPrivileged(Native Method)
+at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:276)
+at java.lang.ClassLoader.loadClass(ClassLoader.java:251)
+at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:319)
+
+Kann mir jemand von euch helfen? Habe ganz normal den Quellcode kopiert und auch die Umgebungsvariablen gesetzt (gleiche unter WinXP), aber anscheinend findet er da was nicht in Gedanken
+
+MfG
+    </post>
+    <post id="2" reply="1" author="Student2" time="Sonntag, 6. April 2007, 11:34">
+Moinsen
+
+In der Exception steht, daß der Compiler die Klasse UebClockman nicht finden kann. Ich nehme mal an, das der Pfad zur benötigten Klasse nicht während des Kompilierens miteingegeben wurde...
+
+Im Kp. 4.2 habe ich was gefunden:
+
+Wir merken uns also: Werden für die Applikation zusätzliche Klassen benötigt, so muss der Befehl zum Übersetzen die Option -classpath gefolgt von dem Pfad zu dem Verzeichnis der zusätzlichen Klassen enthalten.
+
+javac -classpath KlassenPfad NameIhrerKlasse.java
+
+Noch ein Hinweis: Es kann sein, das ihr System die Datei javac nicht sofort findet. Das liegt dann unter Umständen daran, das die Datei nicht im Suchpfad ihres Systems gefunden wurde. Um diese Fehlermeldung zu umgehen muss der Ursprungspfad des Compliers angegeben werden:
+
+C:\jdk1.3.1\bin\javac -classpath .;C:\ UebClockman.java
+Das könnte vllt. helfen.
+
+lg,
+    </post>
+    <post id="3" reply="1" author="Mentor1" time="Sonntag, 6. April 2007, 18:40">
+Beim Compilieren immer den ganzen Namen der Datei angeben: javac UebClockman.java
+Beim Ausführen den Namen der Klasse ohne die Extension .class angeben: java UebClockman
+
+Achtung: UebClockman braucht weitere Klassen. Le04 gut lesen ;-)!
+
+Viel Erfolg!
+    </post>
+    <post id="4" reply="3" author="Student1" time="Sonntag, 6. April 2007, 20:06">
+Habs jetzt hinbekommen, vielen Dank an euch! lächelnd
+    </post>
+    
+  </thread>
+  
+  <thread title="Umgebungsvariablen">
+    <post id="5" author="Student2" time="Samstag, 5. April 2007, 22:31">
+Hallo Frau Mentor1
+
+Ich habe eine Frage zur Umgebungsvariable (Systemsteurungs-->System-->Umgebungsvariablen). Kann man die Umgebungsvariable des CLASSPATH problemlos auf einen beliebigen Wert setzen, e.g. das Developer Verzeichnis, was wir lt. LE nutzen sollen?
+
+mfg,
+    </post>
+    <post id="6" reply="5" author="Student1" time="Sonntag, 6. April 2007, 08:14">
+Hallo,
+ich für meinen Teil kann dir sagen, daß ich unter XP meine Umgebungsvariablen von dem JDK hinzugefügt habe.
+MfG
+    </post>
+    <post id="7" reply="6" author="Mentor1" time="Sonntag, 6. April 2007, 19:07">
+Die Variable CLASSPATH enthält die Wege zum Verzeichnissen, in denen java nach Klassen sucht. Wenn Sie mehrere Wege benötigen, verbinden Sie sie mit ';'. Dabei bedeutet '.' das aktuelle Verzeichnis. Meine CLASSPATH Variable sieht so aus:
+
+c:\ProgramFiles\junit3.8.2\junit3.8.2\junit.jar;.;D:\Klassen;D:\Agathe;C:\Program Files\jdom-1.1\build\jdom.jar
+
+Wie Sie sehen, vfh/prog1/bib/clockman ist nicht in der CLASSATH Variable dabei (weil nur für UebClokman wichtig).
+
+
+Ich habe vfh direkt in D gespeichert. Ich compiliere UebClockman.java mit:
+
+javac -cp .;D:\ UebClockman.java
+
+und führe aus mit:
+
+java -cp .;D:\ UebClockman
+
+Hilft es Ihnen weiter?
+    </post>
+     <post id="8" reply="7" author="Student2" time="Sonntag, 6. April 2007, 22:13">
+Dankeschön. Ich werde es austesten. =)
+
+Ich habe inzwischen zwei Stunden lang verschiedene Kombinationen probiert und diverse Hinweise im Netz gelesen. Jetzt läuft die Kompiliererei von jedem Ort aus.
+
+Viele Grüße
+    </post>
+    
+  </thread>
+  
+  <thread title="AR-Dateien LE04 S.19">
+    <post id="9" author="Mentor1" time="Mittwoch, 9. April 2007, 09:38" attachment="Hello01.java">
+Komplement zur Erstellung eine jar-Datei.
+    </post>
+  </thread>
+  
+    <thread title="html-code">
+    <post id="10" author="Student3" time="Sonntag, 27. April 2007, 16:51"><![CDATA[
+Ich bin in HTML noch nicht versiert, vielleicht hat jemand schon mehr Erfahrung und kann mir helfen.
+Ich versuche das Applet in der HTML-Datei anders zu platzieren, aber egal was ich hinter align angebe, das Fenster bewegt sich keinen Millimeter.
+Folgende Zeile gebe ich an:
+<applet codebase="." code="Einsendeaufgabe05.class" width=200 height=100
+align=right alt=".......">
+</applet>
+Was mache ich falsch?
+    ]]></post>
+    <post id="11" reply="10" author="Student3" time="Sonntag, 27. April 2007, 17:52">
+Habe den Fehler gefunden. War gar kein Fehler. So klappt es. Habe immer über appletviewer getestet und damit verändert er die Position des Fensters nicht. Bei Aufruf über Explorer klappt die Anzeige oben rechts.
+Kann die Diskussion hier leider nicht löschen und antworte mir daher selbst. zwinkernd
+    </post>
+  </thread>
+  
+  
+  <thread title="Exceptions">
+    <post id="12" author="Student2" time="Montag, 28. April 2007, 15:53"><![CDATA[
+Hallo Mentor1
+
+Ich habe ein Java Programm ausprobiert und scheitere bei der Ausführung. Das kompilieren lief problemlos ohne Fehler. Könnten Sie mich bitte beraten?
+
+#########################################################
+java Quadrat.java
+Process started >>>
+java.lang.NoClassDefFoundError: Quadrat/java
+Caused by: java.lang.ClassNotFoundException: Quadrat.java
+at java.net.URLClassLoader$1.run(Unknown Source)
+at java.security.AccessController.doPrivileged(Native Method)
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+Exception in thread "main" <<< Process finished.
+#########################################################
+Hier ist der Quelltext:
+
+public class Quadrat
+{
+static int quadrat( int n )
+{
+return n * n;
+}
+static void ausgabe( int n )
+{
+String s;
+int i;
+for ( i = 1; i <= n; i=i+1 )
+{
+s = "Quadrat("
++ i
++ ") = "
++ quadrat(i);
+System.out.println( s );
+}
+}
+
+public static void main( String[] args )
+{
+ausgabe( 4 );
+}
+}
+##############################################
+
+Ich komme nicht weiter und erbitte Hilfe. Vielen Dank.
+
+mfg
+    ]]></post>
+  </thread>
+  
+    <thread title="Exceptions">
+    <post id="13" author="Student2" time="Montag, 28. April 2007, 15:54"><![CDATA[
+Hallo Mentor1
+
+Ich habe ein Java Programm ausprobiert und scheitere bei der Ausführung. Das kompilieren lief problemlos ohne Fehler. Könnten Sie mich bitte beraten?
+
+#########################################################
+java Quadrat.java
+Process started >>>
+java.lang.NoClassDefFoundError: Quadrat/java
+Caused by: java.lang.ClassNotFoundException: Quadrat.java
+at java.net.URLClassLoader$1.run(Unknown Source)
+at java.security.AccessController.doPrivileged(Native Method)
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+Exception in thread "main" <<< Process finished.
+#########################################################
+Hier ist der Quelltext:
+
+public class Quadrat
+{
+static int quadrat( int n )
+{
+return n * n;
+}
+static void ausgabe( int n )
+{
+String s;
+int i;
+for ( i = 1; i <= n; i=i+1 )
+{
+s = "Quadrat("
++ i
++ ") = "
++ quadrat(i);
+System.out.println( s );
+}
+}
+
+public static void main( String[] args )
+{
+ausgabe( 4 );
+}
+}
+##############################################
+
+Ich komme nicht weiter und erbitte Hilfe. Vielen Dank.
+
+mfg
+    ]]></post>
+    <post id="14" reply="13" author="Student2" time="Montag, 28. April 2007, 17:44">
+Hallo Freunde
+
+Also... So ein blöder falscher Fehler... Ich habe schlichtweg diesen Anfängerfehler gemacht:
+
+javac -verbose Quadrat.java
+
+schnippschnapp---Compiler fertsch... Dann habe ich versucht die Datei zu starten und habe eingegeben:
+
+java Quadrat.java
+
+Dann kommt die ellenlange Fehlermeldung, die ich zuvor gepostet habe. Ende des Lieds ist, um das Proggy zum Laufen zu bekommen, braucht man einfach nur den Suffix nach der Compilierung weglassen:
+
+Also statt
+falsch: java Quadrat.java
+richtig: java Quadrat
+
+Macht's gut 
+    </post>
+  </thread>
+  
+    <thread title="Adobe-Connect Sitzung 06.05.08.">
+    <post id="15" author="Mentor1" time="Dienstag, 13. Mai 2007, 12:30">
+befindet sich hier:
+
+http://breeze.tfh-berlin.de/p20438132/
+
+(z.Z. habe ich Probleme mit Änderungen im Kursplan – daher diese Mitteilung im Forum).
+
+Mit freundlichen Grüssen
+    </post>
+  </thread>
+  
+  <thread title="Adobe-Connect Sitzung 27.05.08. + for schleife">
+    <post id="16" author="Mentor1" time="Dienstag, 27. Mai 2007, 21:11"><![CDATA[
+ist unter:
+http://breeze.tfh-berlin.de/p91326221/
+Wie versprochen das letzte Beispiel mit 2 Variablen in der Schleife:
+
+for (int i=0, j=100; i<=10 ; i++, j=j+2)‏{
+
+  System.out.println(i+ " " + j);
+
+}
+
+Mit freundlichen Grüssen
+    ]]></post>
+  </thread>
+  
+  <thread title="Adobe-Connect Sitzung 10.06.08.">
+    <post id="17" author="Mentor1" time="Dienstag, 10. Juni 2007, 21:12">
+ist hier:
+http://breeze.tfh-berlin.de/p85415630/
+zu finden.
+Mit freundlichen Grüßen,
+    </post>
+  </thread>
+  
+    <thread title="neuer termin">
+    <post id="18" author="" time="Freitag, 4. Juli 2007, 10:16">
+    </post>
+    <post id="19" reply="18" author="Mentor1" time="Freitag, 4. Juli 2007, 10:16">
+Lieber Frau Student3, liebe Studierende,
+
+
+Ich schlage den Dienstag 08.07.08 fuer die nächste Adobe Sitzung Sitzung gleiche Zeit (20Uhr- 21 Uhr) vor.
+
+Zur Klausur SS07: Die neue Art der for Schleife (seit Java 5) wie in der Aufgabe 1 ist zu kennen, siehe auch in Moodle LE 15 das Programm ReiheEinAus.java. Ich werde in der nächsten Sitzung diese Art Schleife erklären.
+
+Wie in Moodle schon erwähnt (Klausur) Aufgabe 3 geht zu weit für diese Klausur. Sie ist mit Aufgabe 3 der 2. Praesenz zu ersetzen.
+
+Gute Vorbereitung und bis Dienstag!
+
+Mit freundlichen grüßen
+    </post>
+  </thread>
+
+</forum>
+  

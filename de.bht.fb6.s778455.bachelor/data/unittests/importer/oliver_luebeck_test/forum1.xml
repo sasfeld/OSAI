@@ -1,0 +1,665 @@
+<forum>
+  <thread title="Mehr ueber generische Typen">
+    <post id="1" author="Author1" time="Montag, 12. November 2007, 16:51"><![CDATA[
+Liebe Studierende,
+
+falls Sie generische Typen (wie im Vector<E>) vertiefen wollen, hier die Seite des Tutorials: http://java.sun.com/docs/books/tutorial/java/generics/index.html
+Mit freundlichen Grüssen
+    ]]></post>
+  </thread>
+  
+  <thread title="Präsenz 01 - TelefonlisteTst.java">
+    <post id="2" author="Author2" time="Samstag, 10. November 2007, 15:20" attachment="yes"><![CDATA[
+TelefonlisteTst.java 
+    ]]></post>
+  </thread>
+  
+  <thread title="Präsenz 01 - Telefonliste.java">
+    <post id="3" author="Author2" time="Samstag, 10. November 2007, 15:21" attachment="yes"><![CDATA[
+Telefonliste.java 
+    ]]></post>
+  </thread>
+  
+  <thread title="MeinVektor">
+    <post id="4" author="Author3" time="Samstag, 10. November 2007, 15:21"><![CDATA[
+Hi Folks,
+Frau Author1, bat mich, die Klasse MeinVektor mal online zu stellen.
+
+Also, anbei mein Vorschlag:
+
+MeinVektor.java
+
+import java.util.Iterator;
+import java.util.NoSuchElementException;
+
+/**
+ * Klasse, in der einige Eigenschaften der Originalklasse 'Vector' nachvollzogen werden.
+ * @author Author3<br>nach Vorlage, Praesenz, 2007-11-10 TFH Berlin.
+ * @version 1.1 2007-11-11 (Helau!)
+ */
+public class MeinVektor<T>
+{
+    // Attribute
+    private T[] list;
+    private int size = 0;
+    private int capacity = 5;
+    private int increment = 3;
+
+    /**
+     * Konstruktor default Anfangskapazitaet und default automatischen Kapazitaetszuwachs.
+     */
+    public MeinVektor()
+    {
+        list = (T[]) new Object[capacity];
+    }
+
+    /**
+     * Konstruktor mit eigener Angabe der Anfangskapazitaet und des automatischen Kapazitaetszuwachs [ und -Reduzierung ].
+     * @param c Anfangskapazitaet
+     * @param inc automatischer Kapazitaetszuwachs (Inkrement) [ und - Reduzierung (Dekrement) ]
+     */
+    public MeinVektor(int c, int inc)
+    {
+        capacity = c;    // Anfangskapazitaet
+        size = 0;        // Groesse
+        increment = inc; // Zuwachs [Reduzierung]
+        list = (T[]) new Object[capacity];
+    }
+
+    /**
+     * Hinzufuegen von einem Element
+     * @param e Element des Typs T.
+     */
+    public void add(T e)
+    {
+        // Pruefen, ob list voll ist. Bedingte Erweiterung der Kapazitaet.
+        if (size == list.length)
+        {
+            T[] newList = (T[]) new Object[list.length + increment];
+            System.arraycopy(list, 0, newList, 0, list.length);
+            list = newList;
+        }
+        list[size] = e;
+        size++;
+    }
+
+    /**
+     * Loeschen des Elements an der Position index.
+     * @param index Index des Elements
+     */
+    public void remove(int index)
+    {
+        // pruefen, ob index gueltig ist
+        if (index >= 0 && index < size){
+            for (int i=index; i < size -1; i++){
+                list[i] = list[i+1];
+            }
+            size--;
+        }
+    }
+
+    /**
+     * Loeschen aller Elemente.
+     */
+    public void removeAll()
+    {
+        list = (T[]) new Object[capacity];
+        size = 0;
+    }
+
+    /**
+     * Gibt die aktuelle Kapazitaet zurueck.
+     */
+    public int capacity()
+    {
+        // NICHT 'capacity', da dies nur die Anfangskapazitaet ist!
+        return list.length;
+    }
+    
+    /**
+     * Gibt die Anzahl der Elemente zurueck.
+     */
+    public int size()
+    {
+        return size;
+    }
+    
+    public 
+
+    /**
+     * Gibt die Text-Repraesentation der Vektorelemente zurueck.
+     */
+    String toString()
+    {
+        
+        String out = "[ ";
+        {
+            for(int i=0;i<size-1;i++)
+            {
+                out += list[i].toString()+", ";
+            }
+            if(size>0)
+            {
+                out += list[size-1].toString();
+            }
+        }
+        return out + " ]";
+    }
+
+    /**
+     * Gibt einen Iterator auf die enthaltenen Objekte zurueck.
+     * @return MeinIterator , Interne Klasse, implementiert Iterator
+     */    
+    public Iterator<T> iterator()
+    {
+        return new MeinIterator();
+    }
+
+    // Innere Klasse fuer den eigenen Iterators
+    private class MeinIterator implements Iterator<T>
+    {
+        int ii ;  // Iteratorindex
+
+        /*
+         * Konstruktor des Iterators
+         */
+        public MeinIterator ()
+        {
+            ii = 0;
+        }
+
+        /**
+         * @return true wenn  die Iteration weitere Elemente hat.
+         */
+        public boolean hasNext()
+        {
+            if (ii < size) return true;
+            return false;
+        }
+
+        /**
+         * @return T naechstes Element der Iteration.
+         * @throw NoSuchElementException wenn es keine weiteren Elemente mehr gibt.
+         */
+        public T next()
+        {
+            // Hmm, damit wird hasNext vermutlich immer doppelt aufgerufen. 
+            if (! hasNext()) throw new NoSuchElementException();
+            T t = list[ii];
+            ii ++;
+            return t;
+        }
+
+        /**
+         * Urspruenglich vorgesehen fuer die Entfernung des letzten zurueckgegebene Elements.
+         * Wird hier nicht unterstuetzt. 
+         */
+        public void remove()
+        {
+            throw new UnsupportedOperationException();
+        }
+
+    } // Ende MeinIterator
+}
+
+MeinVektorTest.java
+
+import java.util.Iterator;
+
+/**
+ * Klasse zum Testen von MeinVektor!
+ */
+public class MeinVektorTest
+{
+    /**
+     * Testen
+     * @param args Startargumente
+     */
+    static public void main(String[] args)
+    {        
+        // Kurzer Test Default 
+        MeinVektor<String> mvd = new MeinVektor<String>();
+        mvd.add("index0"); 
+        System.out.println("Defaultkapazitaet: "+mvd.capacity());
+
+        // Erstellen einer Instanz der Klasse MeinVektor mit Anfangskapazitaet 3 und Increment 2.
+        MeinVektor<String> mv = new MeinVektor<String>(3,2);
+
+        // Fuellen mit Daten
+        System.out.println("\nFuellen mit Daten und Testen von Kapazitaetszuwachs:");
+        mv.add("index0");
+        mv.add("index1");
+        mv.add("index2");
+        // Testen des Increments
+        System.out.println("Kapazitaet soll: 3  ist: "+mv.capacity());
+        mv.add("index3");
+        // Testen des Increments
+        System.out.println("Kapazitaet soll: 5  ist: "+mv.capacity());
+        mv.add("index4");
+        mv.add("index5");
+        // Testen des Increments
+        System.out.println("Kapazitaet soll: 7  ist: "+mv.capacity());
+        mv.add("index7");
+        mv.add("index8");
+        // Testen des Increments
+        System.out.println("Kapazitaet soll: 9  ist: "+mv.capacity());
+        
+        // Testen von toString()
+        System.out.println("\nTesten von 'toString()':");
+        System.out.println(mv + " size: " + mv.size());
+
+        // Testen von iterator()
+        System.out.println("\nTesten von 'iterator()':");
+        Iterator<String> i = mv.iterator();
+        System.out.print("[ ");
+        while(i.hasNext())
+        {
+            System.out.print(i.next().toString()+", ");
+        }
+        System.out.println(" ]");
+        System.out.println("\nTesten von Iterator-Exception:");
+        try { i.next(); }
+        catch(Exception e) { System.out.println("Exceptionklasse: " +e.getClass() + " OK!"); }
+        
+        // Testen von remove()
+        System.out.println("\nTesten von 'remove()' index 7 und 2:");
+        mv.remove(7);
+        mv.remove(2);
+        System.out.println(mv + " size: " + mv.size());
+        
+        // Testen von removeAll()
+        System.out.println("\nTesten von 'removeAll()':");
+        mv.removeAll();
+        System.out.println(mv + " size: " + mv.size());
+    }
+}
+
+
+    ]]></post>
+  </thread>
+  
+  <thread title="Präsenz 01 - Telefonlisteneintrag.java">
+    <post id="5" author="Author2" time="Samstag, 10. November 2007, 15:22" attachment="yes"><![CDATA[
+Telefonlisteneintrag.java 
+    ]]></post>
+    <post id="6" reply="5" author="Author1" time="Montag, 12. November 2007, 20:40"><![CDATA[
+Viele haben die Methode equals, wie unten geschrieben. Die zwei Schreibweisen bewirken genau das gleiche.
+public boolean equals(Telefonlisteneintrag te){
+return name.equals(te.name) && telNumber.equals(te.telNumber);
+}
+    ]]></post>
+  </thread>
+    <thread title="probleme mit tostring()">
+    <post id="7" author="Author4 " time="Sonntag, 11. November 2007, 19:06"><![CDATA[
+Hallo,
+
+ich habe angefangen mit ein Adresßbuch zu basteln.
+
+Dabei habe ich ein Problem mit einer Methode und der Verwendung in anderen Klassen.
+
+Ich habe in einer Klasse ein Attriut das vom Typ einer anderen Klasse ist. In einer Methode zu Ausgabe der UID wird die Methode der Klasse aufgerufen dabei gibt es allerdings eine Nullpointer exception.
+
+Ich sitze da jetzt schon länger dran und finde den Fehler nicht.
+
+Vielleicht hat ja einer von euch eine Idee.
+
+Gruß und Dank
+
+
+import java.util.Date;
+import java.text.*;
+
+public class natPerson extends Person
+{
+//vererbt von Pers
+// protected String name;
+// protected UID persid;
+protected String vorname;
+protected Date geburtstag;
+protected boolean geschlecht;
+
+public natPerson(String i_name, String i_vname)
+{
+super(i_name, "nP");
+vorname = i_vname;
+
+UID test = persid.lese_UID();
+System.out.print("natPers ");
+System.out.println(test.toString());
+System.out.println("natPers " + persid.toString());
+}
+public void setze_gebDatum(String i_gebDat)
+{
+DateFormat datFormat = DateFormat.getDateInstance();
+try { geburtstag = datFormat.parse(i_gebDat); }
+catch ( ParseException e ) { System.err.println( e ); }
+}
+public void setze_geschlecht(boolean i_geschlecht)
+{
+geschlecht = i_geschlecht;
+}
+public String lese_Namen()
+{
+return vorname + " " + name;
+}
+public String lese_Vornamen()
+{
+return vorname;
+}
+public String lese_Nachnamen()
+{
+return name;
+}
+public Date lese_gebtag()
+{
+return geburtstag;
+}
+public String lese_gebtag(DateFormat datformat)
+{
+return "muß noch implementiert werden";
+}
+public boolean lese_geschlecht()
+{
+return geschlecht;
+}
+public String lese_persid()
+{
+//hier soll die ID aus der Klasse UID aufgerufen werden, da kommt es um Fehler
+return this.persid.toString();
+}
+}
+
+
+
+import java.util.UUID;
+
+public class UID
+{
+// private String kategorie;
+// private UUID uid;
+public String kategorie;
+public UUID uid;
+public UID(String i_kategorie)
+{
+kategorie = i_kategorie;
+uid = UUID.randomUUID();
+System.out.println("uid " + kategorie + "/" + uid.toString());
+}
+public UID lese_UID()
+{
+return this;
+}
+public String toString()
+{
+return kategorie + "/" + uid.toString();
+
+//testhalber habe ich auch mal nur ein OK zurückgegeben, dabei kommt der gleiche Fehler
+// return "OK inUID";
+
+}
+}
+    ]]></post>
+    <post id="8" reply="7" author="Author5" time="Sonntag, 11. November 2007, 22:43"><![CDATA[
+/*
+Hallo Author4,
+
+könntest Du noch die Superklassen mitschicken? Dann könnte ich das auch mal testweise laufen lassen. Aber zumindest Deine Klasse Person{} fehlt mir.
+
+Zunächst eine Kleinigkeit: Klassennamen per Konvention immer mit einem Großbuchstaben anfangen, also besser NatPerson{}.
+
+Zum eigentlichen Thema: ich kann es wie gesagt so nicht testen, aber versuch doch mal ein paar System.out.println("Methodenname") in Deiner UID{}-Klasse einzubauen. Ich könnte mir denken, dass da nicht die toString()-Methode aufgerufen wird, die Du eigentlich aufrufen willst oder, dass es Probleme beim Überschreiben von UID gibt (es gibt eine Klasse UID im Java-API) - falls das unbeabsichtigt ist, würde ich einfach mal Deine Klasse umbenennen. Dann würde ich erst einmal die eleganten Einzeiler vorübergehend für die Fehlersuche zu Mehrzeilern machen, z.B.:
+*/
+
+public String toString()
+{
+System.out.println("in UID.toString()");
+String rueckgabe = kategorie + "/" + uid.toString();
+System.out.println(rueckgabe);
+return kategorie + "/" + uid.toString();
+}
+
+// Viele Grüße
+    ]]></post>
+    <post id="9" reply="8" author="Author4 " time="Montag, 12. November 2007, 06:41"><![CDATA[
+Hallo,
+
+hier ist die Person Klasse, da passiert aber icht viel.
+
+
+abstract public class Person
+{
+protected String name;
+protected UID persid;
+
+public Person(String i_name, String i_kat)
+{
+name = i_name;
+UID persid = new UID(i_kat);
+}
+}
+
+Danke schonmal und einen schönen Tag
+    ]]></post>
+    <post id="10" reply="9" author="Author5" time="Montag, 12. November 2007, 11:37"><![CDATA[
+// Doch. Drei Buchstaben zu viel ;-)
+
+abstract public class Person
+{
+protected String name;
+protected UID persid;
+
+public Person(String i_name, String i_kat)
+{
+name = i_name;
+// Das war nicht ganz leicht zu finden ... statt:
+
+// UID persid = new UID(i_kat);
+
+// muss es heißen:
+persid = new UID(i_kat);
+
+// sonst generierst Du eine neue UID
+// mit sehr begrenztem scope
+// die lebt nur bis zur nächsten }
+// this.persid wurde daher gar nicht initialisiert,
+// nur die lokale UID persid, die gleich wieder weg war.
+}
+}
+
+Viele Grüße
+    ]]></post>
+    <post id="11" reply="5" author="Author6" time="Montag, 12. November 2007, 12:27" attachment="yes"><![CDATA[
+Hi,
+ich glaub, ich hab nur in der abstrakten Klasse was geändert:
+"this.persid = new UID(i_kat);"
+
+-aber sicher bin ich mir nicht. hab deswegen die veränderten dateien nochmal mitgeschickt.
+? funkioniert so ?
+
+mfg 
+
+
+o0h.. hab jetzt grad eerst den letzten beitrag gelesen...
+    ]]></post>
+    <post id="12" reply="11" author="Author4 " time="Montag, 12. November 2007, 15:22"><![CDATA[
+Hi,
+
+danke werde ich heute abend gleich mal testen.
+
+ich geb dann bescheid.
+
+Gruß
+    ]]></post>
+    <post id="13" reply="12" author="Author4 " time="Dienstag, 13. November 2007, 22:22"><![CDATA[
+jetzt läufts,
+
+vielen Dank
+
+gruß
+    ]]></post>
+    <post id="14" reply="13" author="Author1" time="Mittwoch, 14. November 2007, 08:50"><![CDATA[
+Hallo zusammen,
+
+Ihr Programm Herr Author4 ist eine sehr interessante Anwendung für vieles, was im Programmieren gelernt wird.
+
+Der Fehler in der Klasse UID kommt oft vor: eine neue Variable deklarieren statt das Attribut, das schon in der Klasse deklariert wurde, zu benutzen.
+Ich habe 2 Frage zur Gestaltung der Anwendung:
+1- Warum haben Sie die Methode lese_UID() in der Klasse UID statt die folgende Methode in der Klasse Person
+public UID getPersid(){
+return persid;
+}
+2- Warum ist Person eine abstrakte Klasse? Diese Klasse enthält keine abstrakten Methoden. Wollen Sie verhindern, dass man Objekte vom Typ Person mit new erzeugen kann?
+
+Viele Grüße
+    ]]></post>
+    <post id="15" reply="14" author="Author4 " time="Mittwoch, 14. November 2007, 22:07"><![CDATA[
+Hallo,
+
+die Klasse UID hat noch ein Kennzeichen für die Kategorie, da die UID noch in anderen Klassen verwendet werden soll. Man hätte die Klasse UID eigentlich als Erweiterung anlegen können.
+
+Mit dem eigenen Namen der Methoden, wollte ich die eigenen Methoden von den standard Methoden absetzen. Das eine Unart von mir.
+
+Die Person Klasse ist eigentlich nur zur Zusammenfassung gemeinsamer Eigenschaften, da es nur zwei Unterklassen gibt (juristische und natürliche Personen) macht es keinen Sinn diese zu erzeugen. Es sollte bei der erzeugung eigentlich immer klar sein ob es eine juristische oder natürliche Person ist. Evtl. könnte man einige Methoden in der Person Klasse noch zusammenfassen.
+
+gruß
+    ]]></post>
+  </thread>
+  
+  <thread title="Fragen zur LE 08">
+    <post id="16" author="Author7 " time="Montag, 19. November 2007, 14:24"><![CDATA[
+Hallo allerseits,
+
+ich habe zwei kleine Fragen zur LE 08, vielleicht hat jemand von euch einen Tip für mich:
+
+1. Es gibt da in der Lerneinheit irgendwo eine Übung, bei der man 2 Fenster gleichzeitig öffnet (kein Dialogfenster). Ich habe es irgendwie nicht hinbekommen, die Schaltfläche für das Schließen des Fensters so zu belegen, dass die Fenster unabhängig voneinander geschlossen werden können - sie schließen bei mir immer beide gleichzeitig. Weiß jemand vielleicht wo der Fehler liegt? Der Code lautet:
+
+import java.awt.*;
+import javax.swing.JFrame;
+
+public class SwingFenZwi10 extends JFrame {
+public static void main(String[] args) {
+JFrame f1 = new JFrame();
+f1.setSize(300,200);
+f1.setTitle("Mein Fenster");
+f1.setLocation(30, 50);
+f1.setVisible(true);
+f1.setDefaultCloseOperation(EXIT_ON_CLOSE);
+
+JFrame f2 = new JFrame();
+f2.setSize(500,300);
+f2.setTitle("Zweites Fenster");
+f2.setLocation(350,50);
+f2.setVisible(true);
+f2.setDefaultCloseOperation(EXIT_ON_CLOSE);
+}
+}
+
+2. Könnte man bei der Einsendeaufgabe auch die Klasse RadioButton anstelle von CheckBox + ButtonGroup verwenden?
+
+Vielen Dank schonmal & schöne Grüße
+    ]]></post>
+    <post id="17" reply="16" author="Author5" time="Dienstag, 20. November 2007, 17:02"><![CDATA[
+Hallo,
+
+da ich mich erst jetzt mit der LE befassen konnte, kommt die Antwort auch erst jetzt. Sorry.
+
+Das Problem liegt bei EXIT_ON_CLOSE.
+
+Aus dem API (javax.swing Class JFrame):
+EXIT_ON_CLOSE (defined in JFrame): Exit the application using the System exit method. Use this only in applications.
+
+Deine Applikation wird also durch das Schließen des (eines) Fensters beendet(!), was alle ihre offenen Fenster schließt.
+
+Nochmals aus dem API:
+Unlike a Frame, a JFrame has some notion of how to respond when the user attempts to close the window. The default behavior is to simply hide the JFrame when the user closes the window. To change the default behavior, you invoke the method setDefaultCloseOperation(int). To make the JFrame behave the same as a Frame instance, use setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE).
+
+Mit anderen Worten, wenn Du einfach nicht die Methode setDefaultCloseOperation() aufrufst, verhält sich alles wie gewünscht. Allerdings werden die Fenster nicht wirklich geschlossen, sondern quasi setVisible(false) ausgeführt. Du kannst sie also einfach wieder sichtbar machen.
+
+Viele Grüße
+    ]]></post>
+    <post id="18" reply="17" author="Author7 " time="Mittwoch, 21. November 2007, 10:02"><![CDATA[
+Hallo,
+
+vielen Dank für Deine ausführliche Antwort.
+Du hast recht: es steht alles in der API. Das nächste Mal muss ich die Ausführungen dort genauer lesen (schäm!).
+
+Viele Grüße
+    ]]></post>
+    <post id="19" reply="17" author="Author1" time="Mittwoch, 21. November 2007, 16:05"><![CDATA[
+Natürlich kann man JRadioButton + ButtonGroup statt JCheckBox + ButtonGroup. Die Knöpfe sehen dann etwas anders aus.
+
+Viel Spaß beim Probieren!
+    ]]></post>
+  </thread>
+  
+  <thread title="Einsendeaufgabe LE09 und Interface">
+    <post id="20" author="Author1" time="Montag, 3. Dezember 2007, 19:16"><![CDATA[
+Liebe Studierende,
+
+Zur Erinnerung: Es ist möglich für eine Klasse mehrere Schnittstellen zu implementieren.
+
+public class HinzKunz extends Frame implements AdjustmentListener, WindowListener ....
+
+ist gültig.
+
+Mit freundlichen Gruessen
+    ]]></post>
+  </thread>
+  
+    <thread title="Tipp Einsendeaufgabe LE10">
+    <post id="21" author="Author1" time="Dienstag, 11. Dezember 2007, 10:37"><![CDATA[
+Liebe Studierende,
+
+Falls Ihre Klasse HKLabel.java keine innere Klasse von HinzKunzSwing.java ist, sollen Sie zusätzliche Methoden in der Klasse HKLabel.java deklarieren, damit Sie die Schiebwerte fuer Hinz und Kunz in dieser Klasse bekannt machen koennen.
+
+Viel Erfolg!
+    ]]></post>
+  </thread>
+  
+<thread title="LE13 Seite 13 Methode full">
+    <post id="22" author="Author1" time="Mittwoch, 9. Januar 2008, 13:05"><![CDATA[
+Liebe Studierende,
+
+Herr Author3 hat mich aufmerksam gemacht, dass diese Methode einen Fehler enthält. Die richtige Methode ist:
+
+public boolean full() {
+
+return ( ( tail == queue.length -1 ) && ( head == 0 ) ) || ( head == ( tail+1 ));
+
+}
+
+
+Vielen Dank nochmal Herr Author3.
+    ]]></post>
+  </thread>
+  
+  <thread title="Präsenz02 Lösung für VerketteListe.java">
+    <post id="23" author="Author5" time="Samstag, 12. Januar 2008, 16:51"><![CDATA[
+Hallo allerseits,
+
+hier die ergänzten und Prof. Author1 geprüften Methoden
+contains() und remove(), die in der Präsenzübung 5 gefragt waren:
+
+public boolean contains(E e) {
+// Liefert true, wenn e in dieser Sammlung vorkommt.
+if(sucheVor(e).next == end)
+return false;
+else
+return true;
+} // contains
+public boolean remove(E e) {
+// Falls e in einem oder mehreren Knoten dieser Sammlung vorkommt,
+// wird einer dieser Knoten geloescht und true geliefert. Sonst wird
+// false geliefert.
+if(sucheVor(e).next == end)
+return false;
+else {
+sucheVor(e).next = sucheVor(e).next.next;
+return true;
+}
+} // remove
+
+Viele Grüße
+    ]]></post>
+  </thread>
+</forum>
