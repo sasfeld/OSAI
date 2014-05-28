@@ -176,11 +176,11 @@ public class OliverLuebeckStrategy extends AImportStrategy {
 		for (final String postId : postNodes) {
 			final String postNode = threadNode + "/post[@id='" + postId + "']";
 			// fetch attributes
-			Integer parentId = null;
+			Long parentId = null;
 			try {
 				final Object parentPostingId = forumExtractor.buildXPath(
 						postNode + "/@reply", false);
-				parentId = Integer.parseInt((String) parentPostingId);
+				parentId = Long.parseLong((String) parentPostingId);
 			} catch (NullPointerException e) {
 				// just continue, this only occurs if no reply attribute was
 				// given.

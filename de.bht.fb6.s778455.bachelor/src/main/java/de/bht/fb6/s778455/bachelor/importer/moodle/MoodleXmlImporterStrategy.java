@@ -240,7 +240,7 @@ public class MoodleXmlImporterStrategy extends AImportStrategy {
 				final Date timeCreated = new Date(
 						Long.parseLong( ( String ) forumExtractor.buildXPath(
 								postingNode + "/created", false ) ) );
-				final int parentPosting = Integer.parseInt( (String ) forumExtractor.buildXPath( postingNode + "/parent/text()", false ));
+				final Long parentPosting = Long.parseLong( (String ) forumExtractor.buildXPath( postingNode + "/parent/text()", false ));
 				
 				final Posting newPosting = new Posting( newThread );
 				newPosting.setId( Integer.parseInt( postingId ));

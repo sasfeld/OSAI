@@ -334,7 +334,7 @@ public class AuditoriumDbQuerier {
 				final String title = results.getString( "subject" );
 				final String content = results.getString( "body" );
 				final String postType = results.getString( "post_type" );
-				final int parentPostingId = results.getInt( "parent_id" );
+				final Long parentPostingId = results.getLong( "parent_id" );
 				final Date createdAt = results.getDate( "created_at" );
 				final Date updatedAt = results.getDate( "updated_at" );
 				// final int boardId = results.getInt( "board_id" );

@@ -123,8 +123,8 @@ public class OliverLuebeckStrategyTest {
 											assertEquals(null, thread.getWebUrl());
 										}
 										// make sure that parent posting is 1
-										if( 2 == postingNum ) {
-											assertEquals(1, posting.getParentPostingId());
+										if( 2 == postingNum ) {								
+											assertEquals(new Long(1), posting.getParentPostingId());
 										}
 										
 										
