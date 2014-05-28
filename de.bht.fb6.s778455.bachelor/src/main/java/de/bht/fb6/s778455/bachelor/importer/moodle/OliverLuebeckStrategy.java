@@ -8,6 +8,8 @@ import java.io.FilenameFilter;
 import java.io.InputStream;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
@@ -217,7 +219,13 @@ public class OliverLuebeckStrategy extends AImportStrategy {
 	 * @return
 	 */
 	private int getNumberFromFileName(File inputFile) {
-		return Integer.parseInt(inputFile.getName().substring(5, 6));
+		Pattern pNumber = Pattern.compile("^forum([0-9]+)\\.xml");
+		Matcher matcher = pNumber.matcher(inputFile.getName());
+		if (matcher.find()) {
+			int number = Integer.parseInt(matcher.group(1));
+			return number;
+		}
+		throw new IllegalArgumentException("The given file name doesn't have the pattern forum[number].xml");
 	}
 
 	/*
