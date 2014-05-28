@@ -214,8 +214,6 @@ public class Posting extends AUserContribution {
 	public int hashCode() {
 		final int prime = 31;
 		int result = super.hashCode();
-		result = prime * result
-				+ ((belongingThread == null) ? 0 : belongingThread.hashCode());
 		result = prime * result + ((content == null) ? 0 : content.hashCode());
 		result = prime * result
 				+ ((parentPostingId == null) ? 0 : parentPostingId.hashCode());

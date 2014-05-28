@@ -6,6 +6,9 @@ package de.bht.fb6.s778455.bachelor.importer.moodle;
 import java.io.File;
 import java.io.FilenameFilter;
 import java.io.InputStream;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Matcher;
@@ -21,6 +24,8 @@ import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus.PersonNameType;
 import de.bht.fb6.s778455.bachelor.model.Posting;
+import de.bht.fb6.s778455.bachelor.organization.Application;
+import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.xml.XmlExtractor;
 
@@ -115,7 +120,7 @@ public class OliverLuebeckStrategy extends AImportStrategy {
 					"oliver_luebeck_course_" + fileNumber, courseSet, Language.GERMAN);
 			// create the currently only existing board
 			Board newBoard = ServiceFactory.newBoard(fileNumber,
-					forumFile.getName(), newCourse, Language.GERMAN);
+					forumFile.getName().substring(0, forumFile.getName().length() - 4), newCourse, Language.GERMAN);
 
 			// parse the XML files to add threads and postings
 			this.importThreads(forumFile, newBoard);
@@ -173,7 +178,12 @@ public class OliverLuebeckStrategy extends AImportStrategy {
 		final String[] postNodes = (String[]) forumExtractor.buildXPath(
 				threadNode + "/post/@id", true);
 
+		int numberIteration = 0;
 		for (final String postId : postNodes) {
+			if (0 == numberIteration) {
+				newThread.setFirstPostingId(Integer.parseInt(postId));
+			}
+			
 			final String postNode = threadNode + "/post[@id='" + postId + "']";
 			// fetch attributes
 			Long parentId = null;
@@ -186,9 +196,24 @@ public class OliverLuebeckStrategy extends AImportStrategy {
 				// given.
 			}
 
+			// fetch time attribute
+			// fetch content
+			String time = (String) forumExtractor.buildXPath(postNode
+					+ "/@time", false);
+			// forum0.xml: time="Sonntag, 11. November 2007, 19:06"
+			SimpleDateFormat timeFormat = new SimpleDateFormat("EEEE, d. MMMM yyyy, H:m");
+			
+			
 			// fetch content
 			String content = (String) forumExtractor.buildXPath(postNode
 					+ "/text()", false);
+			
+			Date dTime = new Date();
+			try {
+				dTime = timeFormat.parse(time);
+			} catch (ParseException e1) {
+				Application.log("Couldn't parse attribute @time of XML node post. Setting creation date to today...", LogType.ERROR, getClass());
+			}
 
 			// create Posting instance and assign attributes
 			try {
@@ -198,15 +223,19 @@ public class OliverLuebeckStrategy extends AImportStrategy {
 				if (null != parentId) {
 					newPosting.setParentPostingId(parentId);
 				}
+				newPosting.setCreationDate(dTime);
+				newPosting.setModificationDate(dTime);
 
 				// add to hierarchy
-				newThread.addPosting(newPosting);
+				newThread.addPosting(newPosting);				
 			} catch (NumberFormatException e) {
 				throw new GeneralLoggingException(getClass()
 						+ ":importPostings(): in file " + this.processingFile.getName() +" couldn't parse ID to integer:\n"
 						+ e,
 						"Internal error in the importer module. Please see the logs.");
-			}		
+			}
+			
+			numberIteration++;
 		}
 	}
 

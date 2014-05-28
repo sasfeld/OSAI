@@ -6,6 +6,8 @@ package de.bht.fb6.s778455.bachelor.model.tools;
 import java.util.Comparator;
 
 import de.bht.fb6.s778455.bachelor.model.AUserContribution;
+import de.bht.fb6.s778455.bachelor.model.BoardThread;
+import de.bht.fb6.s778455.bachelor.model.Posting;
 
 /**
  * <p>This is a date comparator for all {@link AUserContribution}.</p>
@@ -26,6 +28,35 @@ public class DateComparator implements Comparator< AUserContribution > {
 				|| null == o2.getCreationDate() ) {
 			// compare modification date
 			if( null == o1.getModificationDate() || null == o2.getModificationDate()) {
+				// fallback: if the contribution is a thread, try to get the dates from the posting
+				if ( o1 instanceof BoardThread && o2 instanceof BoardThread ) {
+					BoardThread b1 = (BoardThread) o1;
+					BoardThread b2 = (BoardThread) o2;
+					
+					Posting p1 = b1.getPostings().get(0);
+					Posting p2 = b2.getPostings().get(0);
+					// try modification date first
+					if (p1.getModificationDate() != null && p2.getModificationDate() != null
+							&& (p1.getModificationDate().getTime() < p2.getModificationDate().getTime())) {
+						return -1;
+					}
+					if (p1.getModificationDate() != null && p2.getModificationDate() != null
+							&& (p1.getModificationDate().getTime() > p2.getModificationDate().getTime())) {
+						return 1;
+					}
+					
+					if (p1.getCreationDate() != null && p2.getCreationDate() != null
+							&& (p1.getCreationDate().getTime() < p2.getCreationDate().getTime())) {
+						return -1;
+					}
+					if (p1.getCreationDate() != null && p2.getCreationDate() != null
+							&& (p1.getCreationDate().getTime() > p2.getCreationDate().getTime())) {
+						return 1;
+					}
+					
+					return 0;
+				}
+				
 				return 0; // no  comparison possible
 			}
 			else {

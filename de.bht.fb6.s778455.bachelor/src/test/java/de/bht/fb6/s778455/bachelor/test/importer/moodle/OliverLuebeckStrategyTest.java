@@ -76,68 +76,65 @@ public class OliverLuebeckStrategyTest {
 				assertEquals("oliver_luebeck_course_1", course.getTitle());
 				assertTrue( null == course.getShortName());
 				assertTrue( null == course.getSummary() );
-				assertEquals( Language.GERMAN, course.getLanguage() );
-				
-				// iterate through boards, assert them
-				if( 1 == courseNum ) {
-					int boardNum = 0;
-					for( final Board board : course.getBoards() ) {
-						assertEquals(course, board.getBelongingCourse());
-						if( 0 == boardNum ) {
-							assertEquals( "forum1", board.getTitle() );
-							assertEquals( 1, board.getId() );
-							assertEquals(Language.GERMAN, board.getLang());
-							
-							assertEquals(null, board.getType());
-							assertEquals(null, board.getIntro());
-							assertEquals(null, board.getCreationDate());
-							assertEquals(null, board.getModificationDate());
-							assertEquals(null, board.getWebUrl());
-							
-							// iterate through threads
-							int threadNum = 0;
-							for( final BoardThread thread: board.getBoardThreads()) {
-								if ( 0 == threadNum ) {
-									assertEquals( "Mehr ueber generische Typen", thread.getTitle() );
-									assertEquals(1, thread.getId());
-									assertEquals( board, thread.getBelongingBoard() );
-									assertEquals(Language.GERMAN, thread.getLang());
-									assertEquals(1, thread.getFirstPostingId());
-									assertEquals(null, thread.getWebUrl());
-									assertEquals(null, thread.getCreationDate());
-									assertEquals(null, thread.getModificationDate());
-									assertEquals(null, thread.getEndDate());
-									
-									// iterate through postings
-									int postingNum = 0;
-									for( final Posting posting : thread.getPostings() ) {
-										if( 1 == postingNum ) {
-											assertEquals( 1, posting.getId() );
-											assertEquals(null, posting.getParentPostingId());
-											// we don't want CDATA annotations in the content
-											assertEquals(-1, posting.getContent().indexOf("<![CDATA["));
-											SimpleDateFormat format = new SimpleDateFormat("dd/M/yyyy");
-											assertEquals("12/11/2007", format.format(posting.getCreationDate()));
-											assertEquals(Language.GERMAN, posting.getLang());
-											
-											assertEquals(null, thread.getWebUrl());
-										}
-										// make sure that parent posting is 1
-										if( 2 == postingNum ) {								
-											assertEquals(new Long(1), posting.getParentPostingId());
-										}
-										
-										
-										postingNum++;
-									}
-								}			
-								threadNum++;
-							}				
-						}
+				assertEquals( Language.GERMAN, course.getLanguage() );					
+		
+				int boardNum = 0;
+				for( final Board board : course.getBoards() ) {
+					assertEquals(course, board.getBelongingCourse());
+					if( 0 == boardNum ) {
+						assertEquals( "forum1", board.getTitle() );
+						assertEquals( 1, board.getId() );
+						assertEquals(Language.GERMAN, board.getLang());
 						
-						boardNum++;
-					}				
-				}
+						assertEquals(null, board.getType());
+						assertEquals(null, board.getIntro());
+						assertEquals(null, board.getCreationDate());
+						assertEquals(null, board.getModificationDate());
+						assertEquals(null, board.getWebUrl());
+						
+						// iterate through threads
+						int threadNum = 0;
+						for( final BoardThread thread: board.getBoardThreads()) {
+							if ( 5 == threadNum ) {
+								assertEquals( "Mehr ueber generische Typen", thread.getTitle() );
+								assertEquals(1, thread.getId());
+								assertEquals( board, thread.getBelongingBoard() );
+								assertEquals(Language.GERMAN, thread.getLang());
+								assertEquals(1, thread.getFirstPostingId());
+								assertEquals(null, thread.getWebUrl());
+								assertEquals(null, thread.getCreationDate());
+								assertEquals(null, thread.getModificationDate());
+								assertEquals(null, thread.getEndDate());
+								
+								// iterate through postings
+								int postingNum = 0;
+								for( final Posting posting : thread.getPostings() ) {
+									if( 0 == postingNum ) {
+										assertEquals( 1, posting.getId() );
+										assertEquals(null, posting.getParentPostingId());
+										// we don't want CDATA annotations in the content
+										assertEquals(-1, posting.getContent().indexOf("<![CDATA["));
+										SimpleDateFormat format = new SimpleDateFormat("dd/M/yyyy");
+										assertEquals("12/11/2007", format.format(posting.getCreationDate()));
+										assertEquals(Language.GERMAN, posting.getLang());
+										
+										assertEquals(null, thread.getWebUrl());
+									}
+									// make sure that parent posting is 1
+									if( 1 == postingNum ) {								
+										assertEquals(new Long(1), posting.getParentPostingId());
+									}
+									
+									
+									postingNum++;
+								}
+							}			
+							threadNum++;
+						}				
+					}
+					
+					boardNum++;
+				}				
 			}
 			courseNum++;
 		}
