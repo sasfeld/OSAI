@@ -33,76 +33,75 @@ import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
  * 
  */
 public class AnonymizationControllerTest {
-	protected AnonymizationController anonymizationController;
+    protected AnonymizationController anonymizationController;
 
-	/*
-	 * ################################## # # test preparation #
-	 * ##################################
-	 */
-	/**
-	 * @throws java.lang.Exception
-	 */
-	@Before
-	public void setUp() throws Exception {
-		this.anonymizationController = new AnonymizationController();
-	}
+    // @formatter:off
+    /*
+    * ################################### 
+    * #	
+    * # test preparation 
+    * #
+    * ##################################
+     */
+    // @formatter:on
+    /**
+     * @throws java.lang.Exception
+     */
+    @Before
+    public void setUp() throws Exception {
+        this.anonymizationController = new AnonymizationController();
+    }
 
-	/**
-	 * @throws java.lang.Exception
-	 */
-	@After
-	public void tearDown() throws Exception {
-		this.anonymizationController = null;
-	}
+    /**
+     * @throws java.lang.Exception
+     */
+    @After
+    public void tearDown() throws Exception {
+        this.anonymizationController = null;
+    }
 
-	/*
-	 * ################################## # # tests #
-	 * ##################################
-	 */
-	@Test
-	/**
-	 * This is a general test of the anonymization controller.
-	 * @throws GeneralLoggingException
-	 */
-	public void testPerformAnonymization() throws GeneralLoggingException {
-		final AImportStrategy strategy = new DirectoryImportStrategy();
-		final LmsCourseSet courses = strategy.importBoardFromFile( new File( ServiceFactory.getConfigReader().fetchValue( IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_TESTFOLDER ) ));
-		final LmsCourseSet anonymizedCourses = this.anonymizationController
-				.performAnonymization(courses );
-		assertTrue( null != anonymizedCourses );
+    // @formatter:off
+    /*
+    * ################################### 
+    * # 
+    * # tests
+    * #
+    * ##################################
+     */
+    // @formatter:on
+    @Test
+    /**
+     * This is a general test of the anonymization controller.
+     * @throws GeneralLoggingException
+     */
+    public void testPerformAnonymization() throws GeneralLoggingException {
+        final AImportStrategy strategy = new DirectoryImportStrategy();
+        final LmsCourseSet courses = strategy
+                .importBoardFromFile(new File(
+                        ServiceFactory
+                                .getConfigReader()
+                                .fetchValue(
+                                        IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_TESTFOLDER)));
+        final LmsCourseSet anonymizedCourses = this.anonymizationController
+                .performAnonymization(courses);
+        assertTrue(null != anonymizedCourses);
 
-		// some sysouts
-		for( final Course course : anonymizedCourses ) {
-			System.out.println( "##########################" );
-			System.out.println( "#" );
-			System.out.println( "# course: " + course.getTitle() );
-			for( final Board courseBoard : course.getBoards() ) {
-				System.out.println( "........................." );
-				System.out.println( "." );
-				System.out.println(". board: " + courseBoard.getTitle());
-				for( final BoardThread boardThread : courseBoard.getBoardThreads() ) {
-					System.out.println( "+++++++++++++++++++++++++++" );
-					System.out.println( "+" );
-					System.out.println( "+ thread: " + boardThread );
+        // ensure that course set is iterable
+        for (final Course course : anonymizedCourses) {
+            assertTrue(null != course.getTitle());
+            for (final Board courseBoard : course.getBoards()) {
+                assertTrue(null != courseBoard.getTitle());
+                for (final BoardThread boardThread : courseBoard
+                        .getBoardThreads()) {
+                    assertTrue(null != boardThread.getTitle());
+                    for (final Posting posting : boardThread.getPostings()) {
+                        assertTrue(null != posting.getTitle());
+                    }
 
-					for( final Posting posting : boardThread.getPostings() ) {
-						System.out.println( "---------------------------" );
-						System.out.println( "-" );
-						System.out.println( "- posting: " + posting );
-						System.out.println( "-" );
-						System.out.println( "---------------------------" );
-					}
+                }
+            }
+        }
 
-					System.out.println( "+" );
-					System.out.println( "+++++++++++++++++++++++++++" );
-				}
-				System.out.println( "." );
-				System.out.println( "........................." );
-			}
-			System.out.println( "#" );
-			System.out.println( "##########################" );
-		}
-
-	}
+    }
 
 }

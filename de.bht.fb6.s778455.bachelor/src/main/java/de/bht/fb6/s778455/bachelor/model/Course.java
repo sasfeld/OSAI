@@ -740,8 +740,10 @@ public class Course implements Serializable, IDirectoryPortable, IRdfUsable {
                     break;
                 case "degreegeneralization":
                     degreegeneralization = Integer.parseInt( kValue );
+                    break;
                 case "uri":
                     uri = kValue;
+                    break;
                 default:
                     Application.log( this.getClass()
                             + ":parseTopicZoomValue(): key " + key
