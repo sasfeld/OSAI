@@ -22,6 +22,7 @@ import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>
@@ -32,7 +33,7 @@ import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
  * @since 20.11.2013
  * 
  */
-public class AnonymizationControllerTest {
+public class AnonymizationControllerTest extends NoLoggingTest {
     protected AnonymizationController anonymizationController;
 
     // @formatter:off

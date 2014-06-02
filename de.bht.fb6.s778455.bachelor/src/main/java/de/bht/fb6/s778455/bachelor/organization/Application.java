@@ -5,9 +5,10 @@ import java.io.File;
  * Copyright (c) 2013 Sascha Feldmann (sascha.feldmann@gmx.de) 
  */
 
-import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.Priority;
+import org.apache.log4j.PropertyConfigurator;
 
 /**
  * <p>
@@ -22,19 +23,20 @@ public class Application {
     /**
      * Flag whether the logger was initialized.
      */
-    private static boolean loggerInitialized = false;
+    private static boolean productionLoggerInitialized = false;
     private static Logger rootLogger;
+    private static boolean unittestLoggerInitialized;
 
     public enum LogType {
         INFO, WARNING, ERROR, CRITICAL;
-        
-        @SuppressWarnings( "deprecation" )
+
+        @SuppressWarnings("deprecation")
         /**
          * Mapping from our to log4's log type.
          * @return
          */
         public Priority getLog4jLevel() {
-            switch( this ) {
+            switch (this) {
             case INFO:
                 return Priority.INFO;
             case WARNING:
@@ -42,7 +44,7 @@ public class Application {
             case ERROR:
                 return Priority.ERROR;
             case CRITICAL:
-                return Priority.FATAL;     
+                return Priority.FATAL;
             default:
                 return Priority.DEBUG;
             }
@@ -55,46 +57,63 @@ public class Application {
      * @param logMessage
      * @param logType
      */
-    public static void log( final String logMessage, final LogType logType ) {
-       if ( ! loggerInitialized ) {
-           initializeLogger();
-       }    
-        
+    public static void log(final String logMessage, final LogType logType) {
+        if (!productionLoggerInitialized && !unittestLoggerInitialized) {
+            initializeLogger(false);
+        }
+
         // log in root logger
-        rootLogger.log( logType.getLog4jLevel(), logMessage );
+        rootLogger.log(logType.getLog4jLevel(), logMessage);
     }
-    
+
     /**
      * Log a message for a given class.
+     * 
      * @param logMessage
      * @param logType
      * @param clazz
      */
-    public static void log( final String logMessage, final LogType logType,
-            final Class< ? > clazz ) {   
-         // log in root logger
-         Logger.getLogger( clazz ).log( logType.getLog4jLevel(), logMessage );
-        
+    public static void log(final String logMessage, final LogType logType,
+            final Class<?> clazz) {
+        // log in root logger
+        Logger.getLogger(clazz).log(logType.getLog4jLevel(), logMessage);
+
     }
 
     /**
      * Initialize the logging system.
+     * 
+     * @param unitTest
+     *            indicidates whether the unittest configuration should be read.
      */
-    public static void initializeLogger() {
-        if( !loggerInitialized ) {
-            if( null == System.getProperty( "log4j.configuration" ) ) {
-                System.setProperty( "log4j.configuration",
-                        new File( ".", "conf" + File.separatorChar
-                                + "log4j.properties" ).getAbsolutePath() );
-            } else {
-                System.err
-                        .println( "Log4j configuration file is already set..." );
+    public static void initializeLogger(boolean unitTest) {
+        // set unit test configuration
+        if (unitTest) {
+            if (!unittestLoggerInitialized) {
+                String confFile = new File(".", "conf" + File.separatorChar
+                        + "log4j-unittest.properties").getAbsolutePath();
+                unittestLoggerInitialized = true;
+                productionLoggerInitialized = false;
+                _initRootLogger(confFile);
             }
+            return;
+        }
 
-            BasicConfigurator.configure();
-            loggerInitialized = true;
-            rootLogger = Logger.getRootLogger();
+        // otherwise set production configuration file
+        if (!productionLoggerInitialized) {
+            String confFile = new File(".", "conf" + File.separatorChar
+                    + "log4j.properties").getAbsolutePath();
+
+            productionLoggerInitialized = true;
+            unittestLoggerInitialized = false;
+            _initRootLogger(confFile);
         }
     }
-    
+
+    protected static void _initRootLogger(String confFile) {
+        LogManager.resetConfiguration();
+        PropertyConfigurator.configure(confFile);
+        rootLogger = LogManager.getRootLogger();
+    }
+
 }
