@@ -20,6 +20,8 @@ import org.apache.log4j.PropertyConfigurator;
  * 
  */
 public class Application {
+    private static final String PATH_LOG4J_CONFIG = "./conf/logging";
+    
     /**
      * Flag whether the logger was initialized.
      */
@@ -90,7 +92,7 @@ public class Application {
         // set unit test configuration
         if (unitTest) {
             if (!unittestLoggerInitialized) {
-                String confFile = new File(".", "conf" + File.separatorChar
+                String confFile = new File(PATH_LOG4J_CONFIG + File.separatorChar
                         + "log4j-unittest.properties").getAbsolutePath();
                 unittestLoggerInitialized = true;
                 productionLoggerInitialized = false;
@@ -101,7 +103,7 @@ public class Application {
 
         // otherwise set production configuration file
         if (!productionLoggerInitialized) {
-            String confFile = new File(".", "conf" + File.separatorChar
+            String confFile = new File(PATH_LOG4J_CONFIG + File.separatorChar
                     + "log4j.properties").getAbsolutePath();
 
             productionLoggerInitialized = true;
