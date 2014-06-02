@@ -17,6 +17,7 @@ import org.junit.runners.Parameterized.Parameters;
 
 import de.bht.fb6.s778455.bachelor.model.TopicZoomTag;
 import de.bht.fb6.s778455.bachelor.model.tools.TopicZoomTagComparator;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>This class contains parametrized tests of the {@link TopicZoomTagComparator}.</p>
@@ -26,7 +27,7 @@ import de.bht.fb6.s778455.bachelor.model.tools.TopicZoomTagComparator;
  *
  */
 @RunWith(value = Parameterized.class)
-public class TopicZoomTagComparatorTest {
+public class TopicZoomTagComparatorTest extends NoLoggingTest {
 	protected TopicZoomTagComparator comparator;
 	protected TopicZoomTag inputLeftTag;
 	protected TopicZoomTag inputRightTag;

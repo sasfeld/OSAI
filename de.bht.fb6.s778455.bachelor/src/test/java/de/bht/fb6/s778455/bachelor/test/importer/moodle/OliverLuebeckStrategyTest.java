@@ -23,6 +23,7 @@ import de.bht.fb6.s778455.bachelor.model.Language;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>
@@ -33,7 +34,7 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
  * @since 21.05.2014
  * 
  */
-public class OliverLuebeckStrategyTest {
+public class OliverLuebeckStrategyTest extends NoLoggingTest {
 	/**
 	 * Path to the folder containing the testdata to be imported.
 	 * This is hard-coded and not in a config file because we don't want to have unit test configuration in production config files.

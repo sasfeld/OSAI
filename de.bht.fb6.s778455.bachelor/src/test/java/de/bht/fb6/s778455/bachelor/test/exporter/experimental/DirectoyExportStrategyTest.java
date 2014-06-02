@@ -34,6 +34,7 @@ import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
 import de.bht.fb6.s778455.bachelor.model.TopicZoomTag;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>This class realizes tests of the {@link DirectoryExportStrategy}.</p>
@@ -48,7 +49,7 @@ import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
  * @since 24.11.2013
  *
  */
-public class DirectoyExportStrategyTest {
+public class DirectoyExportStrategyTest extends NoLoggingTest {
 	protected AExportStrategy exportStrategy;
 	private File testFolder;
 

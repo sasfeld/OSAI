@@ -22,6 +22,7 @@ import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>
@@ -32,7 +33,7 @@ import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
  * @since 11.12.2013
  * 
  */
-public class MoodlePostgreSqlImportStrategyTest {
+public class MoodlePostgreSqlImportStrategyTest extends NoLoggingTest {
 	protected AImportStrategy importStrategy;
 	protected File testFolder;
 

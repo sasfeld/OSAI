@@ -14,6 +14,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import de.bht.fb6.s778455.bachelor.importer.moodle.PostgreSqlDumpParser;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>This class contains tests of the {@link PostgreSqlDumpParser}.</p>
@@ -22,7 +23,7 @@ import de.bht.fb6.s778455.bachelor.importer.moodle.PostgreSqlDumpParser;
  * @since 11.12.2013
  *
  */
-public class PostgreSqlDumpParserTest {
+public class PostgreSqlDumpParserTest extends NoLoggingTest {
 	/**
 	 * Determine the path to the test postgre sql dump here.
 	 */

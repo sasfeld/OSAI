@@ -20,6 +20,7 @@ import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>This class contains tests of the {@link MoodleXmlImporterStrategy}.</p>
@@ -28,7 +29,7 @@ import de.bht.fb6.s778455.bachelor.model.Posting;
  * @since 03.01.2014
  *
  */
-public class LuebeckXmlImporterStrategyTest {
+public class LuebeckXmlImporterStrategyTest extends NoLoggingTest {
 	private MoodleXmlImporterStrategy strategy;
 
 	/**

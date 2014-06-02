@@ -20,6 +20,7 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.ner.ANerExtractionStrategy;
 import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.ner.GermanNerExtractionStrategy;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>
@@ -30,7 +31,7 @@ import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.ner.GermanNerExtracti
  * @since 09.01.2014
  * 
  */
-public class GermanNerExtractionStrategyTest {
+public class GermanNerExtractionStrategyTest extends NoLoggingTest {
 	protected ANerExtractionStrategy strategy;
 
 	/**

@@ -14,6 +14,7 @@ import org.junit.Test;
 
 import de.bht.fb6.s778455.bachelor.organization.FileUtil;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>This class realizes tests of the {@link FileUtil} class.</p>
@@ -22,7 +23,7 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
  * @since 05.12.2013
  *
  */
-public class FileUtilTest {
+public class FileUtilTest extends NoLoggingTest {
 
 	private static final String TEST_FILE = "./data/unittests/fileLineBased.txt";
 

@@ -12,6 +12,7 @@ import org.junit.Test;
 
 import de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 import edu.stanford.nlp.ie.AbstractSequenceClassifier;
 import edu.stanford.nlp.ie.crf.CRFClassifier;
 import edu.stanford.nlp.ling.CoreLabel;
@@ -24,7 +25,7 @@ import edu.stanford.nlp.ling.CoreLabel;
  * @since 17.02.2014
  *
  */
-public class GeneralNerTest {
+public class GeneralNerTest extends NoLoggingTest {
     protected AbstractSequenceClassifier< CoreLabel > classifier;
 
     @Before

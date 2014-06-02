@@ -20,6 +20,7 @@ import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
 import de.bht.fb6.s778455.bachelor.statistics.AStatisticsBuilder;
 import de.bht.fb6.s778455.bachelor.statistics.GeneralStatisticsBuilder;
 import de.bht.fb6.s778455.bachelor.statistics.TagStatisticsBuilder;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>
@@ -30,7 +31,7 @@ import de.bht.fb6.s778455.bachelor.statistics.TagStatisticsBuilder;
  * @since 09.01.2014
  * 
  */
-public class StatisticsBuilderTest {	
+public class StatisticsBuilderTest extends NoLoggingTest {	
 	private LmsCourseSet collection;
 
 	/**

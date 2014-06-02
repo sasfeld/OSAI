@@ -17,6 +17,7 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.semantic.extraction.AExtractionStrategy;
 import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.pos.APosExtractionStrategy;
 import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.pos.GermanPosExtractionStrategy;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>
@@ -27,7 +28,7 @@ import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.pos.GermanPosExtracti
  * @since 15.01.2014
  * 
  */
-public class GermanPosExtractionStrategyTest {
+public class GermanPosExtractionStrategyTest extends NoLoggingTest {
     protected static final String PATH_GERMAN_HGC_MODEL = "./conf/pos/models/german-hgc.tagger";
     protected static final String PATH_ENGLISH_MODEL = "./conf/pos/models/english-left3words-distsim.tagger";
     protected AExtractionStrategy strategy;

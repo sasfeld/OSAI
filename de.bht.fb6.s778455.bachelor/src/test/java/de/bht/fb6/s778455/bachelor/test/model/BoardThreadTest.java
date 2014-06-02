@@ -20,6 +20,7 @@ import org.junit.runners.Parameterized.Parameters;
 
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Posting;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>
@@ -35,7 +36,7 @@ import de.bht.fb6.s778455.bachelor.model.Posting;
  * 
  */
 @RunWith( value = Parameterized.class )
-public class BoardThreadTest {
+public class BoardThreadTest extends NoLoggingTest {
 	protected BoardThread boardThread;
 	private List< Posting > inputList;
 	private List< Posting > outputList;

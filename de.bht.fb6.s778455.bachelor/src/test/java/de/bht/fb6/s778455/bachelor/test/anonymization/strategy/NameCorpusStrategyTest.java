@@ -20,6 +20,7 @@ import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
 import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus.PersonNameType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>
@@ -30,7 +31,7 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
  * @since 05.12.2013
  * 
  */
-public class NameCorpusStrategyTest {
+public class NameCorpusStrategyTest extends NoLoggingTest {
 	protected AAnomyzationStrategy strategy;
 	private PersonNameCorpus personNameCorpus;
 

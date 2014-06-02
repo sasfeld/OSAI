@@ -16,6 +16,7 @@ import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.ner.EnglishNerAnonymizationStrategy;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>
@@ -26,7 +27,7 @@ import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
  * @since 18.12.2013
  * 
  */
-public class EnglishNerAnonymizationStrategyTest {
+public class EnglishNerAnonymizationStrategyTest extends NoLoggingTest {
 	protected AAnomyzationStrategy strategy;
 
 	/**

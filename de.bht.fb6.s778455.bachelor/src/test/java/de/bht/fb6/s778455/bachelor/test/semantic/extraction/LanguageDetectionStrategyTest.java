@@ -14,6 +14,7 @@ import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.semantic.extraction.AExtractionStrategy;
 import de.bht.fb6.s778455.bachelor.semantic.extraction.LanguageDetectionStrategy;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * 
@@ -23,7 +24,7 @@ import de.bht.fb6.s778455.bachelor.semantic.extraction.LanguageDetectionStrategy
  * @since 18.01.2014
  *
  */
-public class LanguageDetectionStrategyTest {
+public class LanguageDetectionStrategyTest extends NoLoggingTest {
     protected AExtractionStrategy strategy;
     
     @Before

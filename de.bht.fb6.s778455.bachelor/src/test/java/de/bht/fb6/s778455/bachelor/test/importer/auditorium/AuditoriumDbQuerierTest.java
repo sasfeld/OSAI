@@ -21,6 +21,7 @@ import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>
@@ -31,7 +32,7 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
  * @since 17.12.2013
  * 
  */
-public class AuditoriumDbQuerierTest {
+public class AuditoriumDbQuerierTest extends NoLoggingTest {
 
 	protected AuditoriumDbQuerier dbQuerier;
 

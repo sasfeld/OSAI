@@ -12,6 +12,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import de.bht.fb6.s778455.bachelor.organization.xml.XmlExtractor;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>
@@ -22,7 +23,7 @@ import de.bht.fb6.s778455.bachelor.organization.xml.XmlExtractor;
  * @since 03.01.2014
  * 
  */
-public class XmlExtractorTest {
+public class XmlExtractorTest extends NoLoggingTest {
 
 	private XmlExtractor exctractor;
 

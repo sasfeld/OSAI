@@ -25,6 +25,7 @@ import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>
@@ -35,7 +36,7 @@ import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
  * @since 20.11.2013
  * 
  */
-public class DirectoryImportStrategyTest {
+public class DirectoryImportStrategyTest extends NoLoggingTest {
 	protected AImportStrategy importStrategy;
 
 	/*
@@ -81,10 +82,6 @@ public class DirectoryImportStrategyTest {
 
 		// assert board/course names
 		for( final Course course : resultingSet ) {
-		    System.out.println("Course:\n");
-		    System.out.println(course.getTags( TagType.NER_TAG ) + "\n");
-		    System.out.println(course.getTags( TagType.POS_TAG ) + "\n");
-		    System.out.println(course.getTags( TagType.TOPIC_ZOOM ) + "\n\n\n");
 //			System.out.println("course: " + course);
 //			System.out.println("Number of boards: " + course.getBoards().size());
 			// there should only be one course
