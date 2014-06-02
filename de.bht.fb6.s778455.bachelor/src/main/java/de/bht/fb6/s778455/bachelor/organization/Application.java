@@ -5,6 +5,11 @@ import java.io.File;
  * Copyright (c) 2013 Sascha Feldmann (sascha.feldmann@gmx.de) 
  */
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.PrintStream;
+
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.Priority;
@@ -20,8 +25,16 @@ import org.apache.log4j.PropertyConfigurator;
  * 
  */
 public class Application {
-    private static final String PATH_LOG4J_CONFIG = "./conf/logging";
-    
+    /**
+     * Directory (without trailing '/'!) of the loggin configuration.
+     * This directory needs two files: log4j.properties (production) and log4-unittest.properties (test)
+     */
+    private static final String PATH_LOG4J_CONFIG = "./conf/logging";    
+    /**
+     * File where the sysout and syserr get logged.
+     */
+    private static final File LOG_FILE_UNITTEST = new File("./logs/unittests.log");
+
     /**
      * Flag whether the logger was initialized.
      */
@@ -92,11 +105,13 @@ public class Application {
         // set unit test configuration
         if (unitTest) {
             if (!unittestLoggerInitialized) {
-                String confFile = new File(PATH_LOG4J_CONFIG + File.separatorChar
-                        + "log4j-unittest.properties").getAbsolutePath();
+                String confFile = new File(PATH_LOG4J_CONFIG
+                        + File.separatorChar + "log4j-unittest.properties")
+                        .getAbsolutePath();
                 unittestLoggerInitialized = true;
                 productionLoggerInitialized = false;
                 _initRootLogger(confFile);
+                _enableUnitTestLog();
             }
             return;
         }
@@ -109,6 +124,30 @@ public class Application {
             productionLoggerInitialized = true;
             unittestLoggerInitialized = false;
             _initRootLogger(confFile);
+            _enableRegularLog();
+        }
+    }
+
+    private static void _enableRegularLog() {
+       System.setOut(System.out);
+       System.setErr(System.err);
+    }
+
+    private static void _enableUnitTestLog() {
+        try {
+            System.setOut(new PrintStream(new FileOutputStream(
+                    LOG_FILE_UNITTEST)));
+            System.setErr(new PrintStream(new FileOutputStream(
+                    LOG_FILE_UNITTEST)));
+        } catch (FileNotFoundException e) {
+            try {
+                LOG_FILE_UNITTEST.createNewFile();
+            } catch (IOException | SecurityException e1) {
+                System.err
+                        .println("Couldn't create the unit test log file with name: "
+                                + LOG_FILE_UNITTEST.getName()
+                                + ". Please check security settings on the target platform.");
+            }
         }
     }
 
