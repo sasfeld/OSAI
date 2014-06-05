@@ -1,0 +1,9 @@
+ID: 248
+CREATION_DATETIME: 1349820000000
+MODIFICATION_DATETIME: 1349992800000
+TITLE: Falls du den [Mathema
+PARENT_POSTING_ID: 247
+POSTING_TYPE: answer
+CONTENT:
+Falls du den [Mathematik Lernraum](http://www.math.tu-dresden. de/~noack/DS/DSLA2012. html#lr) meinst, der ist dann offen, sobald die erste Mathematik Übung stattgefunden hat. So war es die vergangenen Jahre zumindest.
+TAGGED_CONTENT:

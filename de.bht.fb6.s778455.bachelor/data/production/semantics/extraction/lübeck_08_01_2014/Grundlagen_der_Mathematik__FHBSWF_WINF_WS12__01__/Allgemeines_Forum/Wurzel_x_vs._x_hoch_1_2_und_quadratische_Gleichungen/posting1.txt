@@ -1,0 +1,24 @@
+ID: 167629
+CREATION_DATETIME: 1349543780
+MODIFICATION_DATETIME: 1349543780
+TITLE: Wurzel x vs. x hoch 1/2 und quadratische Gleichungen
+TOPIC_ZOOM_TAG: value:Quadratische Gleichungen;weight:1.0;significance:6.35427475761695;degreegeneralization:8;uri:20115482
+TOPIC_ZOOM_TAG: value:Gleichungen;weight:1.0;significance:5.1553271212178;degreegeneralization:7;uri:20115499
+TOPIC_ZOOM_TAG: value:Definitionen;weight:1.0;significance:4.78652764965239;degreegeneralization:3;uri:20913411
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:3.89064791503836;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:2.23699226098339;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:1.75110858232764;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:1.16884339240287;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+heute sagte mir jemand, die <REMOVED_PERSON_ENTITY> aus 9 könne sowohl +3 als auch -3 sein. Im online Vorkurs (www. om-bridge. de) Teil2 Abschnitt 1. 1 steht es jedoch anders beschrieben. Ich verstehe aus der Definition, dass die <REMOVED_PERSON_ENTITY> aus 9 immer +3 ist, während 9 hoch 1/2 sowohl +3 als auch -3 sein kann.
+Warum muss man dann in quadratischen Gleichungen Fallunterscheidungen machen?
+M. f. G.
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

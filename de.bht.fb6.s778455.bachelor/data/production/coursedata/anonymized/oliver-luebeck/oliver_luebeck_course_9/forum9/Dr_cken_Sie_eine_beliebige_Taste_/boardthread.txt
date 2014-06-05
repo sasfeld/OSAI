@@ -1,0 +1,4 @@
+ID: 10
+TITLE: Drücken Sie eine beliebige Taste...
+LANGUAGE: GERMAN
+FIRST_POSTING_ID: 44

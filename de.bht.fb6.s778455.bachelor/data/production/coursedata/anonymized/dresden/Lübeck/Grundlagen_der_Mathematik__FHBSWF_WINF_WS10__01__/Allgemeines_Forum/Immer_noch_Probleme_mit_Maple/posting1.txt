@@ -1,0 +1,8 @@
+ID: 97774
+CREATION_DATETIME: 1287602165
+MODIFICATION_DATETIME: 1287602235
+TITLE: Immer noch Probleme mit Maple
+PARENT_POSTING_ID: 0
+CONTENT:
+ Hallo zusammen, ich habe die interaktiven Sachen (Maple) immer noch nicht zum laufen bekommen. Habe es mit Firefox 3. 6. 10, IE 8 und Opera 10. 63 versucht. Anbei ein Screenshot wie es bei mir aussieht (auch wenn ich auf den Maple Link klicke). Hat irgendwer das selbe Problem oder eine Lösung. Ich weiß nicht mehr weiter :(Die interaktiven Sachen wo Applet dran steht funktionieren super. VGDaniel 
+TAGGED_CONTENT:

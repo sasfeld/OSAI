@@ -1,0 +1,14 @@
+ID: 2749
+CREATION_DATETIME: 1383951600000
+MODIFICATION_DATETIME: 1383951600000
+TITLE: UserAccount soll nicht erweitert werden. Deswegen hat der Ctor auch nur package visibility, damit UAs...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2748
+POSTING_TYPE: answer
+CONTENT:
+UserAccount soll nicht erweitert werden. Deswegen hat der Ctor auch nur package visibility, damit UAs nur über den UserAccountManager erstellt werden.
+
+Falls dein Nutzer extra Eigenschaften haben soll, dann mache es wie im Videoshop. Oder spricht in deinem Fall irgendetwas dagegen?
+
+Unabhängig davon, ja die Javadoc ist <NAME_CORPUS_REPLACEMENT> noch nicht vollständig, wird nachgereicht.
+TAGGED_CONTENT:

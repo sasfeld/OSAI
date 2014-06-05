@@ -1,0 +1,8 @@
+ID: 16523
+CREATION_DATETIME: 1234965613
+MODIFICATION_DATETIME: 1234965613
+TITLE: Klausurnoten und Klausureneinsicht
+PARENT_POSTING_ID: 0
+CONTENT:
+ Hallo Sie alle,  die Korrektur der <REMOVED_PERSON_ENTITY> d. Programmieren-Klausur ist in Arbeit. Dann kommt Grundlagen der Mathematik an die Reihe. Die Noten stehen noch nicht fest.  Bitte machen Sie sich keine <REMOVED_PERSON_ENTITY> wegen der Klausureneinsicht. Auch wenn die zwei Wochen Klausureneinsicht um sind, haben Sie noch  Gelegenheit, in die Klausur reinzuschauen.  Ich mache normalerweise beim <REMOVED_PERSON_ENTITY>, die es Ihnen erlauben sollten die Bewertung nachzuvollziehen.  Ausserdem stehe ich auch später für Rückfragen noch zur Verfügung.  Mit besten Grüßen, <PERSONAL_GREETING_REMOVEMENT>. <REMOVED_PERSON_ENTITY>. 
+TAGGED_CONTENT:

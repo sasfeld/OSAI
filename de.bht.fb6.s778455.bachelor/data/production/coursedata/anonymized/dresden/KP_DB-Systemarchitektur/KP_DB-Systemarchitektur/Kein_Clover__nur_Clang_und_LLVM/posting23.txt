@@ -1,0 +1,9 @@
+ID: 2011
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Die Zeilenenden standen alle drin. da schluckt das svn nichts weg
+PARENT_POSTING_ID: 2006
+POSTING_TYPE: comment
+CONTENT:
+Die Zeilenenden standen alle drin. <NAME_CORPUS_REPLACEMENT> schluckt das svn nichts weg
+TAGGED_CONTENT:

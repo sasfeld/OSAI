@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<groups>
+  <group id="2129">
+    <name>Gruppe 1</name>
+    <idnumber></idnumber>
+    <description></description>
+    <descriptionformat>1</descriptionformat>
+    <enrolmentkey></enrolmentkey>
+    <picture>0</picture>
+    <hidepicture>0</hidepicture>
+    <timecreated>1351179711</timecreated>
+    <timemodified>1351179839</timemodified>
+    <group_members>
+      <group_member id="9025">
+        <userid>10311</userid>
+        <timeadded>1351179725</timeadded>
+        <component></component>
+        <itemid>0</itemid>
+      </group_member>
+      <group_member id="9027">
+        <userid>10321</userid>
+        <timeadded>1351179732</timeadded>
+        <component></component>
+        <itemid>0</itemid>
+      </group_member>
+      <group_member id="9029">
+        <userid>3897</userid>
+        <timeadded>1351179745</timeadded>
+        <component></component>
+        <itemid>0</itemid>
+      </group_member>
+      <group_member id="9031">
+        <userid>10349</userid>
+        <timeadded>1351179839</timeadded>
+        <component></component>
+        <itemid>0</itemid>
+      </group_member>
+    </group_members>
+  </group>
+  <groupings>
+  </groupings>
+</groups>

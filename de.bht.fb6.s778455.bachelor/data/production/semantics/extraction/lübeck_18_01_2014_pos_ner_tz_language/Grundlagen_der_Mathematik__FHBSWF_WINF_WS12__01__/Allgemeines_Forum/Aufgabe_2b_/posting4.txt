@@ -1,0 +1,49 @@
+ID: 184449
+CREATION_DATETIME: 1354461624
+MODIFICATION_DATETIME: 1354461624
+TITLE: Re: Aufgabe 2b)
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Mathematik;weight:3.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:3.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Vektorräume;weight:1.0;significance:4.23618317174463;degreegeneralization:8;uri:20146881
+TOPIC_ZOOM_TAG: value:Lineare Algebra;weight:1.0;significance:4.23618317174463;degreegeneralization:7;uri:20881366
+TOPIC_ZOOM_TAG: value:Algebraische Begriffe;weight:1.0;significance:4.23618317174463;degreegeneralization:7;uri:20767840
+TOPIC_ZOOM_TAG: value:Skalare;weight:1.0;significance:4.23618317174463;degreegeneralization:7;uri:19937424
+TOPIC_ZOOM_TAG: value:Algebra;weight:1.0;significance:4.23618317174463;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Natur;weight:3.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Verfügungen;weight:1.0;significance:2.41632133369659;degreegeneralization:3;uri:19992589
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:3.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:3.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:0.883699004801097;degreegeneralization:2;uri:21999830
+POS_TAG: value:Spaltenvektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gedanken;weight:0.0;uri:;postag:NN
+POS_TAG: value:Idee;weight:0.0;uri:;postag:NN
+POS_TAG: value:G;weight:0.0;uri:;postag:NN
+POS_TAG: value:gung;weight:0.0;uri:;postag:NN
+POS_TAG: value:eLars;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sorry;weight:0.0;uri:;postag:NN
+POS_TAG: value:Untervektorraum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Grundlage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nullvektors;weight:0.0;uri:;postag:NN
+POS_TAG: value:R;weight:0.0;uri:;postag:NN
+POS_TAG: value:nnen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Multiplikation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Addition;weight:0.0;uri:;postag:NN
+POS_TAG: value:Knoten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektorraum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skalaren;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Summe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ansatz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Prinzip;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rechenregeln;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nullvektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorraussetzung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 184435
+CONTENT:
+Hi <REMOVED_PERSON_ENTITY>,
+aufgrund der Vorraussetzung, dass die Spaltenvektoren in Summe 0 ergeben sollen, also einen Nullvektor (habe ich mir gedacht) bilden, kann ich die Spaltenvektoren, hier eben eindimensionale durch die Knoten von v1, v2,..., so mit Skalaren multiplizieren, dass sie gemeinsam den Nullvektor ergeben. Hieraus folgt ja wieder, dass entweder die triviale Lösung oder eben unendlich viele Lösungen möglich ist/sind. Oder? :/
+Andere Idee, ähnliches Prinzip: Bei einem Untervektorraum von V müssen wir für W doch eigentlich "nur" zeigen, dass er abgeschlossen ist, wenn man die Addition und die skalare Multiplikation durchführt. Da wir hier ja komplett R zur Verfügung haben (V(G)--&gt;R), kommen wir doch mit diesen beiden Rechenregeln nie aus dem vorgegeben Vektorraum heraus oder? Können wir hier nicht eindimensionale Spaltenvektoren als Grundlage nutzen?  Wenn wir dies tun, würde auch meine Idee bzgl. des Nullvektors wieder greifen, so denke ich zumindest.... Ich bin etwas verwirrt jetzt. Dein Ansatz gefällt mir doch immer mehr :)Sorry, wenn ich etwas verwirrend schreibe, aber es ist gar nicht so trivial, seine mathematischen Gedanken niederzuschreiben :DGrüßeLars
+TAGGED_CONTENT:
+Hi_NE <_VVFIN REMOVED_PERSON_ENTITY_NE >_NE ,_$, aufgrund_APPR der_ART Vorraussetzung_NN ,_$, dass_KOUS die_ART Spaltenvektoren_NN in_APPR Summe_NN 0_CARD ergeben_VVPP sollen_VMFIN ,_$, also_ADV einen_ART Nullvektor_NN -LRB-_TRUNC habe_VAFIN ich_PPER mir_PPER gedacht_VVPP -RRB-_TRUNC bilden_VVINF ,_$, kann_VMFIN ich_PPER die_ART Spaltenvektoren_NN ,_$, hier_ADV eben_ADV eindimensionale_ADJA durch_APPR die_ART Knoten_NN von_APPR v1_CARD ,_$, v2_CARD ,_$, ..._$( ,_$, so_ADV mit_APPR Skalaren_NN multiplizieren_VVINF ,_$, dass_KOUS sie_PPER gemeinsam_ADJD den_ART Nullvektor_NN ergeben_VVPP ._$. Hieraus_ADV folgt_VVFIN ja_ADV wieder_ADV ,_$, dass_KOUS entweder_KON die_ART triviale_ADJA Lösung_NN oder_KON eben_ADV unendlich_ADJD viele_PIDAT Lösungen_NN möglich_ADJD ist\/sind_ADJD ._$. Oder_KON ?_$. :_$. \/_CARD Andere_ADJA Idee_NN ,_$, ähnliches_ADJA Prinzip_NN :_$. Bei_APPR einem_ART Untervektorraum_NN von_APPR V_CARD müssen_VMFIN wir_PPER für_APPR W_XY doch_KON eigentlich_ADV "_$( nur_ADV "_$( zeigen_VVINF ,_$, dass_KOUS er_PPER abgeschlossen_VVPP ist_VAFIN ,_$, wenn_KOUS man_PIS die_ART Addition_NN und_KON die_ART skalare_ADJA Multiplikation_NN durchführt_VVPP ._$. Da_KOUS wir_PPER hier_ADV ja_ADV komplett_ADJD R_NN zur_APPRART Verfügung_NN haben_VAFIN -LRB-_TRUNC V_CARD -LRB-_TRUNC G_NN -RRB-_TRUNC --_-- >_XY R_XY -RRB-_TRUNC ,_$, kommen_VVFIN wir_PPER doch_ADV mit_APPR diesen_PDAT beiden_PIDAT Rechenregeln_NN nie_ADV aus_APPR dem_ART vorgegeben_ADJA Vektorraum_NN heraus_PTKVZ oder_KON ?_$. Können_NN wir_PPER hier_ADV nicht_PTKNEG eindimensionale_ADJA Spaltenvektoren_NN als_APPR Grundlage_NN nutzen_VVINF ?_$. Wenn_KOUS wir_PPER dies_PDS tun_VVINF ,_$, würde_VAFIN auch_ADV meine_PPOSAT Idee_NN bzgl_ADJD ._$. des_ART Nullvektors_NN wieder_ADV greifen_VVINF ,_$, so_ADV denke_VVFIN ich_PPER zumindest_ADV ..._$( Ich_PPER bin_VAFIN etwas_ADV verwirrt_ADJD jetzt_ADV ._$. Dein_PPOSAT Ansatz_NN gefällt_VVFIN mir_PPER doch_ADV immer_ADV mehr_ADV :_$. -RRB-_TRUNC Sorry_NN ,_$, wenn_KOUS ich_PPER etwas_PIS verwirrend_ADJD schreibe_VVFIN ,_$, aber_KON es_PPER ist_VAFIN gar_ADV nicht_PTKNEG so_ADV trivial_ADJD ,_$, seine_PPOSAT mathematischen_ADJA Gedanken_NN niederzuschreiben_VVIZU :_$. DGrüßeLars_NN 

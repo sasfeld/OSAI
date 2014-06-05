@@ -1,0 +1,9 @@
+ID: 895
+CREATION_DATETIME: 1354057200000
+MODIFICATION_DATETIME: 1354057200000
+TITLE: I read a bit about hash-tables and concluded that hash-tables with open addressing will be good enoug...
+PARENT_POSTING_ID: 891
+POSTING_TYPE: answer
+CONTENT:
+I read a bit about hash-tables and concluded that hash-tables with open addressing will be good enough. They should consume less space as direct addressed hash-tables because we usually expect relation length to be less than value domain size.
+TAGGED_CONTENT:

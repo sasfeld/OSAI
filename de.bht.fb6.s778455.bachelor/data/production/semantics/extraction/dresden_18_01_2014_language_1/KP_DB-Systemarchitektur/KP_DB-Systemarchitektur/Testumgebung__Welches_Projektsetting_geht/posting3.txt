@@ -1,0 +1,10 @@
+ID: 1903
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: Die Codeanalyse wird allerdings schon angestoßen, wenn man die createKernel() Methode vom CLeverTrust...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1900
+POSTING_TYPE: comment
+CONTENT:
+Die Codeanalyse wird allerdings schon angestoßen, wenn man die createKernel() Methode vom CLeverTrustee aufruft. Nur die Execution geht noch nicht
+TAGGED_CONTENT:

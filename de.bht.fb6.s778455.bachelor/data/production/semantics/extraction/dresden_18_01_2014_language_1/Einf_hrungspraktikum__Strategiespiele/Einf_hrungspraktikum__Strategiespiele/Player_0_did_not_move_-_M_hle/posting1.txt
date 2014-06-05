@@ -1,0 +1,10 @@
+ID: 1237
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1382306400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Sry dass ich hier schonwieder nen post eröffne, aber bei mir kommt nach dem Start des Programms vom MCP: Player = (meine KI) did not move... also nichtmal, dass ich einfach nur (   ) zurückgebe, sondern der text. kann mir jmd weiterhelfen?
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 2227
+CREATION_DATETIME: 1373666400000
+MODIFICATION_DATETIME: 1373925600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich habe die Daten recherchiert. Es gibt mehr kleine Daten als grosse Daten. Aber nur die grosse Daten kann der Trend beschreiben. Wenn wir nur mit viel klein Daten "Least Square" berechnen. Wir koennen nur die Predict Zeit, die mit kleine Daten aehnlich sind.
+
+Deshalb soll wir mehr grosse Test Daten vorhanden, oder kleine Daten verzichten.
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 2302
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Ich suche meinen Bug im PC-Pool. Wenn wir treffen wollen, gehe ich oben.
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Ich suche meinen Bug im PC-Pool. Wenn wir treffen wollen, gehe ich oben.
+TAGGED_CONTENT:

@@ -1,0 +1,15 @@
+ID: 191743
+CREATION_DATETIME: 1357642354
+MODIFICATION_DATETIME: 1357642354
+TITLE: Re: Vektoren linear abhängig/ unabhängig mit LGS lösen
+TOPIC_ZOOM_TAG: value:Wissenschaftliche Theorie und Theorien;weight:1.0;significance:7.24896400108977;degreegeneralization:3;uri:20916437
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 191725
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+keine Angst, Sie erwecken keinen schlechten Eindruck - Sie erarbeiten sich gerade aktiv das Thema, und da verläuft man sich alle Nase lang. Das geht jedem so. Gerade bei Gleichungssystemen verrechnet man sich immer viel zu leicht. Das passiert mir auch - der Trick liegt darin, selber zu erkennen, ob man richtig liegt oder falsch. Deshalb reite ich immer so auf dem Durchführen der Probe herum.
+Zu Ihrer Lösung: Sie sind schon fast am Ziel, Sie haben sich nur bei der Deutung vertan. Da es ein homogenes System ist, wissen wir aus der Theorie, dass es immer lösbar ist (z. B. trivial durch denn Nullvektor). Und in der Tat enthält die letzte <REMOVED_PERSON_ENTITY> gar keinen Widerspruch, denn als Gleichung steht dort lediglich die Forderung x4=x5. 
+Wenn Sie etwa x5=r setzen, erhalten Sie sofort x4=x5=r, x3=0, x2=-x5=-r, x1=2*x5=2*r. Folglich ist (x1,..., x5)=r*(2,-1, 0, 1, 1) für beliebiges reelles r. Um zu überprüfen, ob ich mich hierbei nun nicht vertan habe, sollten Sie natürlich nun noch eine Probe machen.
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

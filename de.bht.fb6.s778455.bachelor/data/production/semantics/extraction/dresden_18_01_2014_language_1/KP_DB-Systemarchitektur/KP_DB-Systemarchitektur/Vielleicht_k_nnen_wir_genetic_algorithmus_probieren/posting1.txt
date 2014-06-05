@@ -1,0 +1,10 @@
+ID: 2427
+CREATION_DATETIME: 1374444000000
+MODIFICATION_DATETIME: 1381874400000
+TITLE: null
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wenn wir weiter manchen, können wir genetic algorithmus probieren, statt einfach avg oder einen sehr complex Modell zu suchen.
+TAGGED_CONTENT:

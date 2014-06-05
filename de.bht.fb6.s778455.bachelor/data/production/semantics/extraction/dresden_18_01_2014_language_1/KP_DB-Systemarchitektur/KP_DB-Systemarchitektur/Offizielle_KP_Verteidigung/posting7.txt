@@ -1,0 +1,14 @@
+ID: 2329
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Alter, jetzt mal ernsthaft. Ne Achsenbeschrift is nich damit getan n paar Zahlen ranzuschreiben. Da g...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Alter, jetzt mal ernsthaft. Ne Achsenbeschrift is nich damit getan n paar Zahlen ranzuschreiben. <NAME_CORPUS_REPLACEMENT> gehts drum dass <NAME_CORPUS_REPLACEMENT> auch Achsenbezeichner dranstehen und die Achsen sich in einem vernünftigen Interval befinden, sowie die Beschriftung nich aller 5 Werte angezeigt wird.
+
+Wenn du solche Folien dort zeigen willst, dann machst du das ohne mich!
+
+Sorry, aber das geht wirklich nicht....
+TAGGED_CONTENT:

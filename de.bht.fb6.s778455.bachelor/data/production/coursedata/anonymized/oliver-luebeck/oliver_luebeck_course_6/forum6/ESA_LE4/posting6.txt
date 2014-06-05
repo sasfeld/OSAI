@@ -1,0 +1,33 @@
+ID: 35
+CREATION_DATETIME: 1287334140000
+MODIFICATION_DATETIME: 1287334140000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 30
+CONTENT:
+ 
+So funktioniert es bei mir. In der IntRechner wie auch in der FloatRechner:
+
+public class IntRechner implements Rechner{
+String[] ergebnis = new String[5];
+/**
+* @param number1 first number
+* @param number2 second number
+* Methode zum Ausgeben mehrerer Rechenaufgaben
+**/
+public String[] rechnen(String number1, String number2) {
+try{
+ergebnis[0] = getSum(number1, number2);
+ergebnis[1] = getSubtraktion(number1, number2);
+ergebnis[2] = getProdukt(number1, number2);
+ergebnis[3] = getDivision(number1, number2);
+ergebnis[4] = getModulo(number1, number2);
+
+}catch(ArithmeticException e){
+System.out.println("Division durch Null geht nicht!");
+}catch(NumberFormatException e){
+System.out.println("Falsche Zeicheneingabe!");}
+return ergebnis;
+}
+ 	
+TAGGED_CONTENT:

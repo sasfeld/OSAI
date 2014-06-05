@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="11448" moduleid="55387" modulename="forum" contextid="78616">
+  <forum id="11448">
+    <type>general</type>
+    <name>Fachforum zum Teil I</name>
+    <intro>Hier können Sie Fachfragen zum Teil I diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>2</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1218800557</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="36367">
+        <name>Beispiel fuer Division mehrgliedriger Ausdruecke</name>
+        <firstpost>97789</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1286804894</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97789">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1286804426</created>
+            <modified>1286804894</modified>
+            <mailed>1</mailed>
+            <subject>Beispiel fuer Division mehrgliedriger Ausdruecke</subject>
+            <message>Gegeben: Dividend und Divisor
+
+(2a - ay - axy + 2ax) / (1 + x)
+
+Gesucht: Quotient
+
+Ansatz: Erstes Glied des Dividenden durch erstes Glied des Divisors teilen, Ergebnis ist erstes Glied des Quotienten. Dann Quotient mit Divisor multiplizieren und Ergebnis unter Dividenden schreiben und von diesem abziehen. Ergebnis ist (einfacherer) mehrgliedriger Ausdruck. Diesen Ausdruck wieder nach o.g. Ansatz teilen und dadurch das zweite Glied des Divisors ermitteln usw.
+
+Beispiel: 
+
+(2a - ay - axy + 2ax) : (1 + x) = 2a - ay
+-2a                   - 2ax
+____________________
+       - ay - axy        
+    -(- ay - axy)
+____________________
+                         0
+
+
+Kontrolle:
+
+(1 + x) (2a - ay) = 2a - ay + 2ax - axy
+
+ok.
+
+Fertig.</message>
+            <messageformat>2</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36368">
+        <name>Wurzelgesetze für gleiche Radikanden</name>
+        <firstpost>97790</firstpost>
+        <userid>3697</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1287000346</timemodified>
+        <usermodified>3697</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97790">
+            <parent>0</parent>
+            <userid>3697</userid>
+            <created>1286997925</created>
+            <modified>1286997925</modified>
+            <mailed>1</mailed>
+            <subject>Wurzelgesetze für gleiche Radikanden</subject>
+            <message>Hallo,&lt;br /&gt;&lt;br /&gt;ich habe da mal ein Problem..&lt;br /&gt;&lt;br /&gt;Laut Skript (siehe 2.27) gilt:&lt;br /&gt;&lt;br /&gt;$$ \sqrt[m]{a} $$•$$ \sqrt[n]{a} $$ = $$ \sqrt[ \frac{m \cdot n}{n+m} ]{a} $$&lt;br /&gt;&lt;br /&gt;Es gilt ebenso (siehe 2.23):&lt;br /&gt;&lt;br /&gt;$$a^{ \frac{m}{n} }$$ = $$ \sqrt[n]{a^{m}} $$&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Demnach erwarte ich eigentlich in 2.27 folgendes:&lt;br /&gt;&lt;br /&gt;$$ \sqrt[m]{a} $$•$$ \sqrt[n]{a} $$ = $$ \sqrt[\left(m \cdot n\right)]{a^{n+m}} $$&lt;br /&gt;&lt;br /&gt;Wo ist hier mein Denkfehler? &lt;br /&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97791">
+            <parent>97790</parent>
+            <userid>3697</userid>
+            <created>1287000346</created>
+            <modified>1287000346</modified>
+            <mailed>1</mailed>
+            <subject>Re: Wurzelgesetze für gleiche Radikanden</subject>
+            <message>OK, ich hab es jetzt. Zunächst wird der Wurzelexponent erweitert. Danach kann man kürzen:&lt;br /&gt;&lt;br /&gt;(1) $$ \sqrt[m \cdot n]{a^{n+m}} $$ &lt;br /&gt;(2) $$ \sqrt[ \frac{m \cdot n \cdot \left(n+m\right)}{n+m} ]{a^{n+m}} $$&lt;br /&gt;&lt;br /&gt;(3) $$ \sqrt[ \frac{m \cdot n}{n+m} ]{a} $$&lt;br /&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36369">
+        <name>Beispiele von heute, Whiteboard bei 0:44:47</name>
+        <firstpost>97792</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1287004182</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97792">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1287004182</created>
+            <modified>1287004182</modified>
+            <mailed>1</mailed>
+            <subject>Beispiele von heute, Whiteboard bei 0:44:47</subject>
+            <message>Wen es interessiert:
+
+oben : bijektiv
+
+mittig : nicht surjektiv weil nicht funktional; injektiv (a und b max. einmal zugeordnet)
+
+unten : funktional aber weder surjektiv (b nicht zugeordnet) noch injektiv (a mehrfach zugeordnet). Fehlende Injektivitaet verhindert Bildung der Umkehrfunktion auf zugeordneten Elementen. Fehlende Surjektivitaet verhindert Bildung der Umkehrfunktion auf nicht zugeordneten Elementen.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36370">
+        <name>Erratum: Inverse von x^2</name>
+        <firstpost>97793</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1288818037</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97793">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1287602278</created>
+            <modified>1287602278</modified>
+            <mailed>1</mailed>
+            <subject>Erratum: Inverse von x^2</subject>
+            <message>Bei der Bildung von f^-1(x) mit f(x) = x^2 haette ich einige Punkte mehr berechnen sollen. Dann ergibt sich (selbstverstaendlich) die Umkehrfunktion von x^2 als sqrt(x) (Quadratwurzel).
+
+Der Logarithmus, z. B. lb(x) hat als Umkehrfunktion 2^x.
+
+Es gibt einen sehr guten Zugang zu Mathematik-Software zum Evaluieren von Funktionen auf http://www.wolframalpha.com/.
+
+Es ist eine Such- und Deduktions-Maschine fuer mathematisch-naturwissenschaftliche Inhalte.
+</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97794">
+            <parent>97793</parent>
+            <userid>3661</userid>
+            <created>1288818037</created>
+            <modified>1288818037</modified>
+            <mailed>1</mailed>
+            <subject>Ergaenzung: LO02 S. 27 Umwandlung sofortperiodischer Dezimalbruch...</subject>
+            <message>... in gemeiner Bruch:
+
+Wir nehmen z. B. die Zahl 1,636363...
+
+Die Periode endet an der zweiten Nachkommastelle und wiederholt sich danach. Die zweite Nachkommastelle hat die Wertigkeit 10^-2. 
+
+(Gleichung 1) 10^2 * 1,6363... = 163,6363...
+
+Diese Zahl wird benutzt, um den Zaehler des gemeinen Bruchs zu bestimmen.
+
+Als naechstes wollen wir den periodischen Nachkommaanteil loswerden. Wir subtrahieren daher vom o.g. Term den Nachkommaanteil:
+
+-1 * 1,6363... = -1,6363...
+
+(aus Gleichung 1) 163,6363... -1,6363... = 162
+
+auf der linken Seite entsteht dadurch:
+
+100 * 1,6363... - 1 * 1,6363... = 99 * 1,6363...
+
+Wir setzen gleich:
+
+99 * 1,6363... = 162
+
+und loesen zur linken Seite auf:
+
+1,6363... = 162 / 99
+
+Wir machen die Probe und 162 : 99 ergibt: 1,6363...
+
+Fertig.
+
+</message>
+            <messageformat>2</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36371">
+        <name>ESA  Aufgabe11 Terme vereinfachen</name>
+        <firstpost>97795</firstpost>
+        <userid>3701</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1287838450</timemodified>
+        <usermodified>3701</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97795">
+            <parent>0</parent>
+            <userid>3701</userid>
+            <created>1287829720</created>
+            <modified>1287829751</modified>
+            <mailed>1</mailed>
+            <subject>ESA  Aufgabe11 Terme vereinfachen</subject>
+            <message> Hallo zusammen,&lt;br /&gt;&lt;br /&gt;bin ich zu blöd oder gebe ich es einfach falsch ein. Oder gehe ich sogar zu weit?&lt;br /&gt;&lt;br /&gt;Aufgabe:&lt;br /&gt;$$a^{4}- \frac{81}{a^{2}+9} \cdot \left(a-3\right)$$&lt;br /&gt;&lt;br /&gt;Mein Ergebnis ist:&lt;br /&gt;$$a+ \frac{3}{-\left(3\right)} \cdot a^{2}+9 \cdot a$$&lt;br /&gt;&lt;br /&gt;und die Eingabe in LonCapa habe ich wie folgt:&lt;br /&gt;(a+3)/(-3*a^2+9*a)&lt;br /&gt;&lt;br /&gt;Ich habe noch ein Versuch :-)&lt;br /&gt;&lt;br /&gt;Danke und Gruß&lt;br /&gt;Daniel&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97796">
+            <parent>97795</parent>
+            <userid>3681</userid>
+            <created>1287837345</created>
+            <modified>1287837345</modified>
+            <mailed>1</mailed>
+            <subject>Re: ESA  Aufgabe11 Terme vereinfachen</subject>
+            <message>Wenn ich mal deine Eingabe von LONCAPA umwandeln würde in unsere Schreibweise, dann würde das herauskommen:
+
+siehe Anhang
+
+Wenn man deins übernehmen würde, dann würde es wie folgt umgeschrieben werden:
+
+a-a^2+9*a
+
+Also sind das im Endeffekt zwei verschiedene Paar Schuhe.
+Jedoch würde ich dir ein Tipp für die Aufgabe geben: Ziehe das Minus raus vor dem Bruch und da hast du vielleicht ein Teil einer binomischer Formel. ;-)</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97797">
+            <parent>97796</parent>
+            <userid>3701</userid>
+            <created>1287838339</created>
+            <modified>1287838450</modified>
+            <mailed>1</mailed>
+            <subject>Re: ESA  Aufgabe11 Terme vereinfachen</subject>
+            <message> Klar, war einfach zu blöd :) Mein Ergebnis welches ich oben gepostet habe hat der Editor ja eigentlich schon richtig umgewandelt. Einfach 3/-3 streichen und schon hat man a-a^2+9*a&lt;br /&gt;&lt;br /&gt;Aber LonCapa sagte mir eben das dieses Ergebnis falsch ist. Alle 5 Versuche weg. Egal :)&lt;br /&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36372">
+        <name>(x-1)^3</name>
+        <firstpost>97798</firstpost>
+        <userid>3701</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1289151520</timemodified>
+        <usermodified>3681</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97798">
+            <parent>0</parent>
+            <userid>3701</userid>
+            <created>1289140052</created>
+            <modified>1289140052</modified>
+            <mailed>1</mailed>
+            <subject>(x-1)^3</subject>
+            <message>Hi zusammen,&lt;br /&gt;&lt;br /&gt;ich stehe mal wieder auf dem Schlauch...&lt;br /&gt;&lt;br /&gt;Es geht um die ESA Aufgabe: Ordner &amp;quot;Relationen, Abbildungen und Funktionen&amp;quot; Aufgabe: &amp;quot;Umkehrfunktion einer Parabel ungeraden Grades bestimmen&amp;quot;&lt;br /&gt;&lt;br /&gt;Meine Frage ist: Wie löse ich (x-1)^3 auf? Wolframalpha sagt, das Ergebnis lautet: x^3 - 3x^2 + 3x - 1&lt;br /&gt;&lt;br /&gt;Wie ist der Weg dort hin?&lt;br /&gt;&lt;br /&gt;@Herr Jensen:&lt;br /&gt;Ich würde Sie bitten das Thema Umkehrfunktionen anhand eines konkreten Beispiels (z.B. Lon-Capa: Umkehrfunktion einer Hyperbel bestimmen) nochmals in den Chat einzubauen. Das Skript ist hier irgendwie ziemlich dürftig, finde ich.&lt;br /&gt;&lt;br /&gt;Viele Grüße&lt;br /&gt;Daniel&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97799">
+            <parent>97798</parent>
+            <userid>3707</userid>
+            <created>1289143367</created>
+            <modified>1289143367</modified>
+            <mailed>1</mailed>
+            <subject>Re: (x-1)^3</subject>
+            <message>Hallo Daniel,&lt;br /&gt;&lt;br /&gt;schau dir mal die 2. binomische Formel an.&lt;br /&gt;Überhaupt sind viele Aufgaben mit den binomischen Formeln lösbar.&lt;br /&gt;&lt;br /&gt;Viele Grüße&lt;br /&gt;Marco Fuhrmann&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97800">
+            <parent>97798</parent>
+            <userid>3681</userid>
+            <created>1289151520</created>
+            <modified>1289151520</modified>
+            <mailed>1</mailed>
+            <subject>Re: (x-1)^3</subject>
+            <message>Hallo Daniel,
+
+für den ganz einfachen weg: 
+
+(x-1)^3 
+= (x - 1) * (x - 1) * (x - 1) 
+= (x^2 - 2x + 1) * (x-1) 
+= x^3 - 2x^2 + x-x^2 + 2x-1
+= x^3 - 3x^2 + 3x - 1
+
+(ich glaube, auf diesen Weg wollte das der Marco haben)
+
+sonst, wenn du das Thema "Pascal'sche Dreieck", müsstest du das damit herausfinden können!
+
+( a + b ) ^ 3 
+= 1 * a^3 * b^0 + 3 * a^2 * b + 3 * a * b^2 + 1 * a^0 * b^3
+
+Füge für a = x und b = -1 und dann kann es loslegen!
+
+Bitte sehr!</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36373">
+        <name>Quadratische und biquadratische Gleichungen loesen</name>
+        <firstpost>97801</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1290076105</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97801">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1290076105</created>
+            <modified>1290076105</modified>
+            <mailed>1</mailed>
+            <subject>Quadratische und biquadratische Gleichungen loesen</subject>
+            <message>LO 02 S. 68: Diese Gleichungsart loest man mithilfe der pq-Formel nach den Unbekannten auf, d.h. man findet die Zahlwerte, die in die Variable aufgrund der Gleichung reinpassen (andere Zahlwerte erfuellen die Gleichung nicht und sind daher keine Loesungen):
+
+Quadratisch:
+
+Sei:
+
+a * x^2 + b * x + c = 0
+
+Dann:
+
+x^2 + p * x + q = 0
+
+p = b / a
+
+q = c / a
+
+x1, x2 = - p/2 +- sqrt( ( p / 2 ) ^ 2 - q )
+
+Es sind also max. 2 Zahlen als Loesung moeglich. Das +- resultiert daraus, dass eine negative und eine positive Zahl gleichen Betrags ins Quadrat genommen dieselbe Zahl ergeben.
+
+Biquadratisch:
+
+Sei die Form:
+
+a * x^4 + b * x^2 + c = 0
+
+Dann:
+
+Ersetze (d.h. "substituiere") y=x^2 und loese die Gleichung anhand der pq-Formel oben. Das Ergebnis muss natuerlich rueckersetzt werden und dann hat man das Ergebnis (bis zu vier Zahlen). 
+</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36374">
+        <name>Binomialkoeffizienten</name>
+        <firstpost>97802</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1290253416</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97802">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1290253328</created>
+            <modified>1290253416</modified>
+            <mailed>1</mailed>
+            <subject>Binomialkoeffizienten</subject>
+            <message>Begleitend zum letzten Chat nochmals ein komplettes Beispiel zur Veranschaulichung:
+
+Der Binomialkoeffizient n ueber k (die Klammern muss ich wegen Moodle so seltsam setzen, eigentlich soll es eine grosse linke und eine grosse rechte Klammer sein):
+( n )
+( k )
+
+ist definiert als n! / ((n-k) ! k ! )
+
+(Erinnerung: Es gilt bereits 0! = 1, 1! = 1, ..., 3! = 3 * 2 * 1 usw.)
+
+Beispiele fuer Binomialkoeffizienten:
+
+( 3 )   ( 3 )   ( 3 )   ( 3 )
+( 0 )   ( 1 )   ( 2 )   ( 3 )
+
+Diese rechnet man mittels der Definition aus:
+
+1, 3, 3, 1
+
+Die Summe ist 1+3+3+1=8=2^3
+
+Beobachtung: Wenn ich fuer beliebiges n die Summe aller seiner Binomialkoeffizienten bilde erhalte ich immer 2^n als Ergebnis dieser Summe.
+
+Die Binomialkoeffizienten sind nuetzlich, um z. B. (a+b)^n fuer beliebige n auszumultiplizieren (mit dem binomischen Lehrsatz, LO02 S. 63). Gluecklicherweise gibt es eine sehr schnelle Methode, die Binomialkoeffizienten fuer beliebige n auszurechnen ohne jedesmal die obige Definition mit den Fakultaeten auszurechnen. Denn es gilt das Pascal'sche Dreieck:
+
+n=0     1
+n=1   1  1
+n=2  1 2 1
+n=3 1 3 3 1
+usw.
+Das Bildungsgesetz ist sehr einfach und im Skript auf Seite 62 schoen erklaert. In jeder Zeile ergibt die Summer der Werte 2^n. Die Summer aller Werte in *allen* Zeilen ueber einer Zeile ergibt 2^n-1.
+
+Anwendung:
+
+Ich habe (a+b)^3, d.h. somit n=3.
+
+Dann ergibt sich:
+
+(a+b)^3 = 1*a^3 + 3*a^2b + 3*ab^2 + 1*b^3 
+
+Wenn ich (a+b)^2 rechne ergibt sich a^2 + 2ab + b^2.
+
+Vorteil: Ich muss weder Binomialkoeffizienten mittels Fakultaet errechnen noch den Ausdruck (a+b)^n von Hand ausmultiplizieren. Das obige Bildungsgesetzt gilt fuer alle n aus N.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</message>
+            <messageformat>2</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36375">
+        <name>Umkehrfunktionen bilden</name>
+        <firstpost>97803</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1290420302</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97803">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1290420302</created>
+            <modified>1290420302</modified>
+            <mailed>1</mailed>
+            <subject>Umkehrfunktionen bilden</subject>
+            <message>Die Loesung ergibt sich aus LO 01 und LO 02. Wir wissen z. B., dass die Umkehrfunktion von + - ist und von / * usw.
+
+Beispiel:
+
+f(x) = x + 1
+
+f^-1(x) = x - 1
+
+Weiterhin werden Funktionen "von innen nach aussen" evaluiert, d.h. erst die inneren Klammern, dann z. B. Potenzen usw.
+
+Bei der Umkehrfunktion gehen Sie in umgekehrter Reihenfolge vor und kehren jede der algebraischen Operationen mit ihrem Gegenteil um.
+
+Beispiel:
+
+f(x) = 3(x+1)^2
+
+gaebe:
+
+f^-1(x) = 1 +- sqrt(x/3)
+</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="101115">
+        <userid>3641</userid>
+      </subscription>
+      <subscription id="101116">
+        <userid>3673</userid>
+      </subscription>
+      <subscription id="101117">
+        <userid>3613</userid>
+      </subscription>
+      <subscription id="101118">
+        <userid>3617</userid>
+      </subscription>
+      <subscription id="101119">
+        <userid>3603</userid>
+      </subscription>
+      <subscription id="101120">
+        <userid>3653</userid>
+      </subscription>
+      <subscription id="101121">
+        <userid>3697</userid>
+      </subscription>
+      <subscription id="101122">
+        <userid>3625</userid>
+      </subscription>
+      <subscription id="101123">
+        <userid>3691</userid>
+      </subscription>
+      <subscription id="101124">
+        <userid>3707</userid>
+      </subscription>
+      <subscription id="101125">
+        <userid>3671</userid>
+      </subscription>
+      <subscription id="101126">
+        <userid>3639</userid>
+      </subscription>
+      <subscription id="101127">
+        <userid>3633</userid>
+      </subscription>
+      <subscription id="101128">
+        <userid>2617</userid>
+      </subscription>
+      <subscription id="101129">
+        <userid>3705</userid>
+      </subscription>
+      <subscription id="101130">
+        <userid>3713</userid>
+      </subscription>
+      <subscription id="101131">
+        <userid>3721</userid>
+      </subscription>
+      <subscription id="101132">
+        <userid>3693</userid>
+      </subscription>
+      <subscription id="101133">
+        <userid>3661</userid>
+      </subscription>
+      <subscription id="101134">
+        <userid>3649</userid>
+      </subscription>
+      <subscription id="101135">
+        <userid>3701</userid>
+      </subscription>
+      <subscription id="101136">
+        <userid>3681</userid>
+      </subscription>
+      <subscription id="101137">
+        <userid>3703</userid>
+      </subscription>
+      <subscription id="101138">
+        <userid>3727</userid>
+      </subscription>
+      <subscription id="101139">
+        <userid>3689</userid>
+      </subscription>
+      <subscription id="101140">
+        <userid>3687</userid>
+      </subscription>
+      <subscription id="101141">
+        <userid>3679</userid>
+      </subscription>
+      <subscription id="101142">
+        <userid>3643</userid>
+      </subscription>
+      <subscription id="101143">
+        <userid>3659</userid>
+      </subscription>
+      <subscription id="101144">
+        <userid>3695</userid>
+      </subscription>
+      <subscription id="101145">
+        <userid>3683</userid>
+      </subscription>
+      <subscription id="101146">
+        <userid>2635</userid>
+      </subscription>
+      <subscription id="101147">
+        <userid>2563</userid>
+      </subscription>
+      <subscription id="101148">
+        <userid>3723</userid>
+      </subscription>
+      <subscription id="101149">
+        <userid>3725</userid>
+      </subscription>
+      <subscription id="101150">
+        <userid>3669</userid>
+      </subscription>
+      <subscription id="101151">
+        <userid>3677</userid>
+      </subscription>
+      <subscription id="101152">
+        <userid>3717</userid>
+      </subscription>
+      <subscription id="101153">
+        <userid>3719</userid>
+      </subscription>
+      <subscription id="101154">
+        <userid>3709</userid>
+      </subscription>
+      <subscription id="101155">
+        <userid>3675</userid>
+      </subscription>
+      <subscription id="101156">
+        <userid>3711</userid>
+      </subscription>
+      <subscription id="101157">
+        <userid>3657</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

@@ -1,0 +1,10 @@
+ID: 2991
+CREATION_DATETIME: 1385247600000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: Erstmal Entschuldigung, dass ich meine Frage so unübersichtlich gestaltet hab. Das Problem war wirkli...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2987
+POSTING_TYPE: answer
+CONTENT:
+Erstmal Entschuldigung, dass ich meine Frage so unübersichtlich gestaltet hab. Das Problem war wirklich einfach zu lösen. Wie <REMOVED_PERSON_ENTITY> beschrieben, nur das man noch `` schreiben musste. Danke für die Antwort.
+TAGGED_CONTENT:

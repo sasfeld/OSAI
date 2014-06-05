@@ -1,0 +1,15 @@
+ID: 18
+CREATION_DATETIME: 1176231480000
+MODIFICATION_DATETIME: 1176231480000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 16
+CONTENT:
+
+Hi Oliver,
+
+ohne codebase funktioniert, lass dass einfach weg dann geht dein HTML Code.
+
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

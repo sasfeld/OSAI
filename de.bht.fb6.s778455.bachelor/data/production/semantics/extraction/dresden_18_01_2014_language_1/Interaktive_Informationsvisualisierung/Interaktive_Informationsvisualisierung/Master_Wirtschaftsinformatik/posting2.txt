@@ -1,0 +1,14 @@
+ID: 1687
+CREATION_DATETIME: 1365544800000
+MODIFICATION_DATETIME: 1365631200000
+TITLE: Hallo,
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1669
+POSTING_TYPE: answer
+CONTENT:
+Hallo,
+
+die Veranstaltung wurde bisher nicht für Wirtschaftsinformatiker gemeldet. Ich bitte Sie, sich bei ihrem Prüfungsamt zu erkundigen, ob die Veranstaltung in einem ihrer Module angerechnet werden könnte (und unter welchen Bedingungen, z. B. die Prüfungsform). Sie können dann gern persönlich vorbei kommen, um Details mit uns zu besprechen.
+
+Viele Grüße, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

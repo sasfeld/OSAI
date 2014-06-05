@@ -1,0 +1,10 @@
+ID: 2509
+CREATION_DATETIME: 1375826400000
+MODIFICATION_DATETIME: 1375999200000
+TITLE: Du musst alle Abhängigkeiten beachten, die sich ableiten lassen (laut Def. Hülle). Da gehört auch die...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2500
+POSTING_TYPE: answer
+CONTENT:
+Du musst alle Abhängigkeiten beachten, die sich ableiten lassen (laut <REMOVED_PERSON_ENTITY>. Hülle). <NAME_CORPUS_REPLACEMENT> gehört auch die Regel \begin{equation} C \cup D \rightarrow A \cup B \cup E \end{equation} dazu. Dann kommt man drauf.
+TAGGED_CONTENT:

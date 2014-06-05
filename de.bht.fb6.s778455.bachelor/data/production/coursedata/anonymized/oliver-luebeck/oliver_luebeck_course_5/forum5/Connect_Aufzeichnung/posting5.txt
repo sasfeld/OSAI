@@ -1,0 +1,16 @@
+ID: 25
+CREATION_DATETIME: 1191858540000
+MODIFICATION_DATETIME: 1191858540000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 24
+CONTENT:
+
+Liebe Studierende,
+
+Folgendes versuchen:
+Im Browser alle Cookies von connect.oncampus.de löschen, dann alle Browser-Fenster schließen und nochmal probieren einfach entweder durch den Link in LE02 oder durch den Knopf Archiv in Web Konferenzen.
+
+Mit freundlichen Gruessen,
+   
+TAGGED_CONTENT:

@@ -1,0 +1,27 @@
+ID: 80
+CREATION_DATETIME: 1306684920000
+MODIFICATION_DATETIME: 1306684920000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 79
+CONTENT:
+    
+Hallo ,
+
+also so sieht mein Reporter (Reporter1 ist meine Testdatei zwinkernd) bisher aus:
+
+public class Reporter1 extends ShapeTester {
+
+static public void report(Shape s) {
+s.toString();
+s.area();
+s.circumference();
+}
+
+Ich kann ihn dann zwar aufrufen in ShapeTester mit z.B. Reporter1.report(rectangle1); wenn ich allerdings die methoden area und circumference in ShapeTester entferne, rechnet er nichts.
+
+zu shape1: ich hatte jetzt in die toString -Methode noch ein System.out.println... gepackt - nehme ich das raus, bekomme ich kein Objekt!!! Total doof!
+
+Liebe Grüße, 
+    
+TAGGED_CONTENT:

@@ -1,0 +1,26 @@
+ID: 40
+CREATION_DATETIME: 1304789340000
+MODIFICATION_DATETIME: 1304789340000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo!
+
+Ich habe soeben die Rechner Aufgabe von LE09 "gelöst"!
+
+Jetzt wirft er aber beim teilen durch 0 oder wenn ich z.B:
+4* = drücke ("also zahl1->op->=" ohne zahl2) Exceptions.
+
+Ist es teil der Aufgabe diese zu verhindern ?? Oder geht es nur darum das er richtig rechnet wenn er die Werte erhält ???
+
+Sonst müsste ich halt noch ausschließen das eine Zahl nicht enthalten ist
+oder durch 0 geteilt wird. Dann würde ich aber eigentlich gerne einen String ERR zurückgeben. Vorgabe ist aber eben "int".
+
+Was meint ihr dazu bzw wie habt ihr das ganze gelöst ??
+
+Schönen Samstag noch !!
+
+   
+TAGGED_CONTENT:

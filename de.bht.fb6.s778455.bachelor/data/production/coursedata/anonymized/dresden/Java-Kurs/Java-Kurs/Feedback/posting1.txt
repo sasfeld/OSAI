@@ -1,0 +1,11 @@
+ID: 2790
+CREATION_DATETIME: 1384124400000
+MODIFICATION_DATETIME: 1384988400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wie gefallen euch die Kurse?  
+Kommt ihr zurecht, gibt es Probleme?  
+Habt ihr Kritik oder Anregungen?  
+TAGGED_CONTENT:

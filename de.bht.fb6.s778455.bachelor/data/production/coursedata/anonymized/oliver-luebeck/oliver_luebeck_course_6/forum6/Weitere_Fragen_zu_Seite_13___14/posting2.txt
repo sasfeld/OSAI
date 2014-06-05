@@ -1,0 +1,21 @@
+ID: 23
+CREATION_DATETIME: 1286811360000
+MODIFICATION_DATETIME: 1286811360000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 22
+CONTENT:
+
+Liebe ,
+
+Das Kommentar:
+// Datenfluss: Programm --> bWriter --> osWriter --> foStream --> Datei
+zeigt, wie die Daten vom Program in die Datei gelangen. Dafuer werden die Anweisungen von oben nach unten ausgefuehrt, da haben Sie voellig Recht. So werden die Objekte in der richtigen Reihenfolge erzeugt. Somit kann das Objekt bWriter das Objekt osWriter benutzen.
+mark is wichtig, wenn man beim Lesen einer Datei an eine bestimmte Position zurueck kommen moechte. Wir werden in dieser LE diese Methode nicht weiter vertiefen.
+Java arbeitet mit Unicode. Eine Text-Datei ist meistens nicht mit Unicode gespeichert (braucht viel Platz), sondern mit einer anderen Codierung wie UTF-8. Die Klasse InputStreamReader hat weitere Konstruktoren, die erlauben die Codierung der Datei anzugeben. Versuchen Sie die Datei mit türkischen Zeichensätze so zu lesen:
+FileInputStream fis = new FileInputStream (NamenderDatei);
+InputStreamReader isr = new InputStreamReader(fis, "UTF-8");
+
+Mit freundlichen Gruessen,
+    
+TAGGED_CONTENT:

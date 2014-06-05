@@ -1,0 +1,11 @@
+ID: 260477
+CREATION_DATETIME: 1385746177
+MODIFICATION_DATETIME: 1385746177
+TITLE: Übungsklausur
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Studierenden,
+im unteren Abschnitt finden Sie eine erste Übungsklausur.
+Viele Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

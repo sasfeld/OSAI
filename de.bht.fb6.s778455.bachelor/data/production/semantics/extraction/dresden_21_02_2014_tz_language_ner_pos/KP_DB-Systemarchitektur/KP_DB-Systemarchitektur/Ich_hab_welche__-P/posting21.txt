@@ -1,0 +1,21 @@
+ID: 2006
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Eben habe ich bei mir lokal festgestellt, dass die Fehlermeldungen verschwinden, wenn ich die ersten ...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+POS_TAG: value:Parser;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeilen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Leerzeilen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehlermeldungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kernels;weight:0.0;uri:;postag:NN
+POS_TAG: value:Code;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: answer
+CONTENT:
+Eben habe ich bei mir lokal festgestellt, dass die Fehlermeldungen verschwinden, wenn ich die ersten drei Zeilen des sum-Kernels weglasse. Also hat der Parser ein Problem damit, wenn Code mit <REMOVED_PERSON_ENTITY> oder Leerzeilen versehen ist?
+TAGGED_CONTENT:
+Eben_ADV habe_VAFIN ich_PPER bei_APPR mir_PPER lokal_ADJD festgestellt_VVPP ,_$, dass_KOUS die_ART Fehlermeldungen_NN verschwinden_VVFIN ,_$, wenn_KOUS ich_PPER die_ART ersten_ADJA drei_CARD Zeilen_NN des_ART sum-Kernels_NN weglasse_VVINF ._$. Also_ADV hat_VAFIN der_ART Parser_NN ein_ART Problem_NN damit_PROAV ,_$, wenn_KOUS Code_NN mit_APPR <_CARD REMOVED_PERSON_ENTITY_NN >_CARD oder_KON Leerzeilen_NN versehen_VVPP ist_VAFIN ?_$. 

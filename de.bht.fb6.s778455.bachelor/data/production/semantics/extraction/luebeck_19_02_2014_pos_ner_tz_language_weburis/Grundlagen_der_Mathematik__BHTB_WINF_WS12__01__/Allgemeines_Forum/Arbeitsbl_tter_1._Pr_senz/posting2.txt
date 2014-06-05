@@ -1,0 +1,28 @@
+ID: 171973
+CREATION_DATETIME: 1350551027
+MODIFICATION_DATETIME: 1350551027
+TITLE: Re: Arbeitsblätter 1. Präsenz
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=63881#171973
+NER_TAG: value:VG;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:VG;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Mails;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anhang;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mailadresse;weight:0.0;uri:;postag:NN
+POS_TAG: value:senz;weight:0.0;uri:;postag:NN
+POS_TAG: value:chen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Arbeitsblatt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hr;weight:0.0;uri:;postag:NN
+POS_TAG: value:Moodle;weight:0.0;uri:;postag:NN
+POS_TAG: value:VG;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgaben;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 171943
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+in der Präsenz haben wir keine neuen Aufgaben bearbeitet, nur das Arbeitsblatt, das hier in Moodle runterladen kannst und das mit den Brüchen, das Hr. Moesner rumgeschickt hast. Falls die die Mail von ihm nicht hast, ich habs hier als Anhang beigefügt, das ander gibts wie gesagt in Moodle zum selber runterladen. Du solltest Hrn. Moesner ggf. auch deine Mailadresse nochmal mitteilen, falls du bis jetzt keine Mails von ihm bekommen hast.
+Was die Gruppen angeht, unserer Gruppe ist jezt schon zu 4. und damit wohl leider wohl?!
+VG, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE ,_$, in_APPR der_ART Präsenz_NN haben_VAFIN wir_PPER keine_PIAT neuen_ADJA Aufgaben_NN bearbeitet_VVPP ,_$, nur_ADV das_ART Arbeitsblatt_NN ,_$, das_PRELS hier_ADV in_APPR Moodle_NE runterladen_VVINF kannst_VMFIN und_KON das_ART mit_APPR den_ART Brüchen_NN ,_$, das_ART Hr_NN ._$. Moesner_NE rumgeschickt_VVFIN hast_VAFIN ._$. Falls_KOUS die_PRELS die_ART Mail_NE von_APPR ihm_PPER nicht_PTKNEG hast_VAFIN ,_$, ich_PPER habs_VVFIN hier_ADV als_APPR Anhang_NN beigefügt_VVFIN ,_$, das_ART ander_ADJA gibts_ADV wie_KOKOM gesagt_VVPP in_APPR Moodle_NN zum_APPRART selber_ADV runterladen_VVIZU ._$. Du_PPER solltest_ADV Hrn_NE ._$. Moesner_NE ggf_VVFIN ._$. auch_ADV deine_PPOSAT Mailadresse_NN nochmal_ADV mitteilen_VVINF ,_$, falls_KOUS du_PPER bis_APPR jetzt_ADV keine_PIAT Mails_NN von_APPR ihm_PPER bekommen_VVFIN hast_VAFIN ._$. Was_PWS die_ART Gruppen_NN angeht_VVFIN ,_$, unserer_PPOSAT Gruppe_NN ist_VAFIN jezt_ADJD schon_ADV zu_APPR 4_CARD ._$. und_KON damit_PROAV wohl_ADV leider_ADV wohl_ADV ?!_CARD VG_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

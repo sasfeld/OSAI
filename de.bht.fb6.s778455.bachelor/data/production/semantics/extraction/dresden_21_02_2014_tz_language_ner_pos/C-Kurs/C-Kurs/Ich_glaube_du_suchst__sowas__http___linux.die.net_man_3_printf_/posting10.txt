@@ -1,0 +1,39 @@
+ID: 2919
+CREATION_DATETIME: 1384815600000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: Ok das leuchtet mir alles ein.
+LANGUAGE: GERMAN
+POS_TAG: value:Formatierungszeichen;weight:0.0;uri:;postag:NN
+POS_TAG: value:ende;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beispiel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nachhinein;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tabellen;weight:0.0;uri:;postag:NN
+POS_TAG: value:anwendungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:bersicht;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Variante;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sinn;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2914
+POSTING_TYPE: comment
+CONTENT:
+Ok das leuchtet mir alles ein.
+
+Ja so machen  wir es auch.  Jeder löst alleine und am ende wird eine Musterlösung gezeigt. finde ich eine gute Variante. 
+
+Die Lösungen weichen tatsächlich nicht groß ab, hat mich auch schon überrascht. 
+
+War halt nur ne idee aber jetzt im Nachhinein sehe ich <NAME_CORPUS_REPLACEMENT> auch keinen Sinn mehr drin. 
+
+Mir fällt <NAME_CORPUS_REPLACEMENT> grad eine Frage ein.
+
+Gibt es irgendwo eine Übersicht über die Formatierungszeichen für die printf und scanf anwendungen? Also eine richtige?
+
+Ich habe zwar einige Tabellen gefunden aber <NAME_CORPUS_REPLACEMENT> waren bisher immer mal Fehler drin.
+
+Z. b. stand für long double nur % f drin und nicht % Lf. (Hoffentlich vertue ich mich grad nicht mit dem Beispiel. Aber ich denke ihr wisst was ich meine.
+TAGGED_CONTENT:
+Ok_KOUS das_ART leuchtet_VVFIN mir_PPER alles_PIS ein_PTKVZ ._$. Ja_PTKANT so_ADV machen_VVFIN wir_PPER es_PPER auch_ADV ._$. Jeder_PIS löst_VVFIN alleine_ADV und_KON am_APPRART ende_NN wird_VAFIN eine_ART Musterlösung_NN gezeigt_VVPP ._$. finde_VVFIN ich_PPER eine_ART gute_ADJA Variante_NN ._$. Die_ART Lösungen_NN weichen_VVFIN tatsächlich_ADJD nicht_PTKNEG groß_ADJD ab_PTKVZ ,_$, hat_VAFIN mich_PPER auch_ADV schon_ADV überrascht_VVPP ._$. War_VAFIN halt_ADV nur_ADV ne_ADV idee_VVFIN aber_ADV jetzt_ADV im_APPRART Nachhinein_NN sehe_VVFIN ich_PPER <_CARD NAME_CORPUS_REPLACEMENT_NN >_VVFIN auch_ADV keinen_PIAT Sinn_NN mehr_ADV drin_ADV ._$. Mir_PPER fällt_VVFIN <_PRF NAME_CORPUS_REPLACEMENT_NE >_CARD grad_ADV eine_ART Frage_NN ein_PTKVZ ._$. Gibt_VVFIN es_PPER irgendwo_ADV eine_ART Übersicht_NN über_APPR die_ART Formatierungszeichen_NN für_APPR die_ART printf_ADJD und_KON scanf_VVFIN anwendungen_NN ?_$. Also_ADV eine_ART richtige_ADJA ?_$. Ich_PPER habe_VAFIN zwar_ADV einige_PIAT Tabellen_NN gefunden_VVPP aber_KON <_XY NAME_CORPUS_REPLACEMENT_NN >_CARD waren_VAFIN bisher_ADV immer_ADV mal_ADV Fehler_NN drin_ADV ._$. Z._NE b._NE stand_VVFIN für_APPR long_FM double_FM nur_ADV %_NN f_VVFIN drin_ADV und_KON nicht_PTKNEG %_NN Lf_NE ._$. -LRB-_TRUNC Hoffentlich_ADV vertue_VVFIN ich_PPER mich_PRF grad_ADV nicht_PTKNEG mit_APPR dem_ART Beispiel_NN ._$. Aber_KON ich_PPER denke_VVFIN ihr_PPOSAT wisst_VAFIN was_PWS ich_PPER meine_VVFIN ._$. 

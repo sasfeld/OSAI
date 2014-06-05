@@ -1,0 +1,10 @@
+ID: 2255
+CREATION_DATETIME: 1373925600000
+MODIFICATION_DATETIME: 1373925600000
+TITLE: Ich habe die Funktionen predictTime beide soweit abgeändert, dass sie einen konstanten Wert zurückgeb...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2251
+POSTING_TYPE: comment
+CONTENT:
+Ich habe die Funktionen predictTime beide soweit abgeändert, dass sie einen konstanten Wert zurückgeben, das ändert aber nichts an der langsamen Ausführung.
+TAGGED_CONTENT:

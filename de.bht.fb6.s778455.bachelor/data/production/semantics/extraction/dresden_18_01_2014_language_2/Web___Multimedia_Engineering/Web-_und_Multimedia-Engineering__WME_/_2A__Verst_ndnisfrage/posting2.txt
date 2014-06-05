@@ -1,0 +1,14 @@
+ID: 883
+CREATION_DATETIME: 1353970800000
+MODIFICATION_DATETIME: 1354921200000
+TITLE: Das gleiche Ergebnis ist es nicht. in TA1 reicht eine einfache Ausgabe der XSL-Transformation aus, da...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 882
+POSTING_TYPE: answer
+CONTENT:
+Das gleiche Ergebnis ist es nicht. in TA1 reicht eine einfache Ausgabe der XSL-Transformation aus, dabei können die Feeds zB nacheinander jeweils in einer Tabelle stehen.
+
+Im zweiten Teil sollen die Sachen dann "gemischt" in einer Formatierung auftauchen.
+
+Soweit klar?
+TAGGED_CONTENT:

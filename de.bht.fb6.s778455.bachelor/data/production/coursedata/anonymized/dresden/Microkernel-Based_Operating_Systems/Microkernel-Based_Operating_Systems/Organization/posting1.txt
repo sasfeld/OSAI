@@ -1,0 +1,13 @@
+ID: 229
+CREATION_DATETIME: 1349733600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+* Lecture: Tuesdays, 16. 40, INF/E01
+* Exercise: Tuesdays, 14:50, INF/E08 (every 2nd week)
+- There are practical tutorials and paper reading exercises.
+- The tutorials will give you an overview of how to run an L4-based system.
+- The reading exercises cover research related to the lecture. You are *required* to read the paper before the meeting. The papers' content will be part of the final exam.
+TAGGED_CONTENT:

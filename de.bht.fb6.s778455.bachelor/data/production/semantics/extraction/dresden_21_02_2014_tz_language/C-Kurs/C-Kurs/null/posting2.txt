@@ -1,0 +1,33 @@
+ID: 3021
+CREATION_DATETIME: 1385420400000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: `man sqrt` sagt: `#include <math.h>`.
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Compiler;weight:2.0;significance:11.6099372265658;degreegeneralization:9;uri:20195178
+TOPIC_ZOOM_TAG: value:Technische Informatik;weight:2.0;significance:10.3106542424356;degreegeneralization:5;uri:20889033
+TOPIC_ZOOM_TAG: value:Programmiersprachen;weight:2.0;significance:7.85651925131431;degreegeneralization:8;uri:20901749
+TOPIC_ZOOM_TAG: value:Programmierung;weight:2.0;significance:7.16337207075436;degreegeneralization:7;uri:21461440
+TOPIC_ZOOM_TAG: value:Formale Sprachen;weight:2.0;significance:7.03179571296564;degreegeneralization:6;uri:21978155
+TOPIC_ZOOM_TAG: value:Computersprachen;weight:2.0;significance:7.02837690621686;degreegeneralization:6;uri:19949137
+TOPIC_ZOOM_TAG: value:Software;weight:2.0;significance:5.21023364446695;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:2.0;significance:5.02422544755277;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Sprache;weight:2.0;significance:5.00870710783694;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:2.0;significance:5.00780172072213;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:2.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Computer;weight:2.0;significance:4.31013985980766;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:2.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:2.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:2.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 3020
+POSTING_TYPE: answer
+CONTENT:
+`man sqrt` sagt: `#include `.
+
+Wenn du das `#include ` in einen Header schreibst, `#include`-est du dann auch deinen Header?
+
+Oder sagt der Compiler spezifisch "math. h not found?". Komplette Fehlermeldungen wären natürlich nicht schlecht - meine <REMOVED_PERSON_ENTITY> ist heute morgen etwas frostbedeckt.
+
+Sagt der Compiler (eigentlich der <REMOVED_PERSON_ENTITY>) aber: `undefined reference to 'sqrt'` dann musst du dein `-lm` nach deiner C-File schreiben. Die Reihenfolge ist *nicht* egal.
+TAGGED_CONTENT:

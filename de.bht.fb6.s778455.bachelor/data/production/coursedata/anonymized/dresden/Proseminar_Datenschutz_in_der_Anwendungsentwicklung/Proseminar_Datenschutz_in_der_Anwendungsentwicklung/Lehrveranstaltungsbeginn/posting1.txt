@@ -1,0 +1,9 @@
+ID: 2540
+CREATION_DATETIME: 1380837600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die erste Lehrveranstaltung zum Proseminar wird am **21. 10. 2013** stattfinden. Der 14. 10. 2013 ist demzufolge noch frei ;-)
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1380
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: ist mir auch aufgefallen, der hat das löschen des posts irgendwie nicht erkannt...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1322
+POSTING_TYPE: answer
+CONTENT:
+ist mir auch aufgefallen, der hat das löschen des posts irgendwie nicht erkannt...
+TAGGED_CONTENT:

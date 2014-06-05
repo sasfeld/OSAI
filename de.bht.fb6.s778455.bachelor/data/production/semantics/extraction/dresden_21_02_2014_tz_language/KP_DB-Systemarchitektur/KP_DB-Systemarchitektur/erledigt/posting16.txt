@@ -1,0 +1,10 @@
+ID: 2039
+CREATION_DATETIME: 1370988000000
+MODIFICATION_DATETIME: 1370988000000
+TITLE: danke fürs mergen. Kannst du noch die Punkte aus der Ausblicksfolie mit reinbauen (die hatte ich in d...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+danke fürs mergen. Kannst du noch die Punkte aus der Ausblicksfolie mit reinbauen (die hatte ich in der zwischenpraesi2 eingebaut), und dann die Schlussfolie an den Schluss setzen?
+TAGGED_CONTENT:

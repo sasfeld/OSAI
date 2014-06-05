@@ -1,0 +1,12 @@
+ID: 881
+CREATION_DATETIME: 1353970800000
+MODIFICATION_DATETIME: 1366840800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+jetzt nochmal zu richtigen Lehrveranstaltung:
+Das Passwort für die Vorlesungsunterlagen scheint sich gegenüber dem doch sehr einfachen der letzten Jahre, geändert zu haben. Könnte es mit mal bitte jemand zuschicken? Ich habe keine PM-Funktion hier gefunden, aber meine Mail-Adresse lässt sich ja leicht aus meinem Profil ableiten ;)
+Vielen Dank schon mal, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 639
+CREATION_DATETIME: 1351724400000
+MODIFICATION_DATETIME: 1351724400000
+TITLE: Nein! in den letzten Tagen habe ich keine Emails mehr zum Support Center bekommen. Scheint also zu fu...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 558
+POSTING_TYPE: comment
+CONTENT:
+Nein! in den letzten Tagen habe ich keine Emails mehr zum Support Center bekommen. Scheint also zu funktionieren. 
+
+Werden Announcements eigentlich anderes behandelt in dem Zusammenhang? 
+
+Und wie ist es mit Emails zu neuen Antworten/Comments zu meinen eigenen Questions/Antworten/Comments? Bekomme ich dann trotzdem Emails oder sind die dann wirklich für alle Posts dieses Kurses abbestellt?
+TAGGED_CONTENT:

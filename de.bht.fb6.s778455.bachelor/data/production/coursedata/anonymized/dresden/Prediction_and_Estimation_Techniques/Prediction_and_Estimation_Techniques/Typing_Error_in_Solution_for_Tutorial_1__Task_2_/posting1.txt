@@ -1,0 +1,15 @@
+ID: 713
+CREATION_DATETIME: 1352415600000
+MODIFICATION_DATETIME: 1382392800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+I was <NAME_CORPUS_REPLACEMENT> going over the slides of todays tutorial (found in the Google cache) and I have a problem on slide 5.
+It says: 
+$$P(X_1) = \frac{h}{m+h}  imes \frac{h}{m+h-1}$$.
+Shoudn't it be:
+$$P(X_1) = \frac{h}{m+h}  imes \frac{ extbf{m}}{m+h-1}$$?
+So, the probability of receiving a healthy packet multiplied by the probability of receiving a malicious packet next (as per definition of $X_i$)?
+TAGGED_CONTENT:

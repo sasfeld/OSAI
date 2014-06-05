@@ -1,0 +1,11 @@
+ID: 2430
+CREATION_DATETIME: 1374444000000
+MODIFICATION_DATETIME: 1374530400000
+TITLE: Kurz: Nein. In den 64 Byte Frames sind nur 46 Byte Nutzdaten. Somit muss nach präsentiertem V+Ü-Stoff...
+PARENT_POSTING_ID: 2419
+POSTING_TYPE: comment
+CONTENT:
+Kurz: Nein. In den 64 Byte Frames sind nur 46 Byte Nutzdaten. Somit muss nach präsentiertem V+Ü-Stoff gerechnet werden (13*46)/(12*64+512)=46, 72%. → Korrekt wäre übrigens sehr wahrscheinlich etwas in die Richtung (13*46)/(13*64+512-2*8)=47, 31%, denn auch der geburstete Jumbo-Frame muss <NAME_CORPUS_REPLACEMENT> einem Start Limiter und einem IFG umschlossen sein und darf somit nicht in die Berechnung aufgenommen werden. - In der präsentierten Vorlesung ist das auf der Folie oben richtig dargestellt, wo SL und IFG nicht mit zum für die Berechnung betrachteten Frame gehören. Unten (bei der 1500-Angabe) ist es dann falsch. - <REMOVED_PERSON_ENTITY> hier müsste ich erst einmal selbst nachdenken (daher die drei Versuche), was der richtige IFG-Wert im Bursting-Array ist.
+Zur Wahrscheinlichkeit: Falls sowas dran kommt, dann sind in der Regel Berechnungsanweisungen vorhanden, oder für die Berechnung notwendige Angaben sind gegeben. Vergleichen Sie dazu bspw. die Wiederholungsklausur vom letzten Semester, wo eine solche Effizienzberechnung durchgeführt werden sollte.
+Edit: http://docwiki.cisco.com/wiki/Ethernet_Technologies
+TAGGED_CONTENT:

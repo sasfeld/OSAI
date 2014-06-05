@@ -1,0 +1,36 @@
+ID: 194143
+CREATION_DATETIME: 1358412880
+MODIFICATION_DATETIME: 1358412880
+TITLE: Re: Gruppenübungen
+TOPIC_ZOOM_TAG: value:Vektoren;weight:8.0;significance:11.2964884579857;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:8.0;significance:6.91670740451264;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:8.0;significance:3.97687513063715;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:8.0;significance:3.11308192413803;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:9.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:8.0;significance:2.07794380871622;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaftliche Theorie und Theorien;weight:1.0;significance:0.80544044456553;degreegeneralization:3;uri:20916437
+TOPIC_ZOOM_TAG: value:Bücher;weight:1.0;significance:0.644755137658051;degreegeneralization:5;uri:21981657
+TOPIC_ZOOM_TAG: value:Presse, Druck und Verlagswesen;weight:1.0;significance:0.43330355912592;degreegeneralization:4;uri:21990174
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:0.298547048297862;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:0.242365739546187;degreegeneralization:2;uri:21990259
+NER_TAG: value:LK;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+NER_TAG: value:LGS;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+NER_TAG: value:LGS;weight:-1.0;significance:uri:;classifierlabel:I-LOC
+PARENT_POSTING_ID: 193181
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+zur Aufgabe H werden Sie im Kapitel 9. 6 des Skriptes fündig.
+Aufgabe J ist sicherlich die anspruchsvollste der Übungsaufgaben. Sie lässt sich aber bereits mit unserem Werkzeugkasten lösen (mit etwas mehr Theorie bloß noch ein wenig eleganter):
+Ein Vektor liegt in BEIDEN Unterräumen, wenn er gleichzeitig eine LK sowohl der Vektoren aus M1 und der aus M2 ist: x1*u1+...+xr*ur=y1*v1+...+ys*vs (mit M1={u1,..., ur}, M2={v1,..., vs}). Konzentrieren wir uns auf den linken Teil der Gleichung: Dort steht eine LK von Spaltenvektoren mit unbekannten Koeffizienten x1,..., xr. Herauskommen soll der Vektor auf der rechten <REMOVED_PERSON_ENTITY>. Damit haben wir ein LGS: A*x=b. In A stehen spaltenweise die Vektoren u1,..., ur. In x stehen wie unbekannten Koeffizienten der ersten LK. In b stehen die Komponenten des Vektors y1*v1+...+ys*vs. Letztere können wir ausrechnen, allerdings bleiben die y1,..., ys als Parameter ohne konkrete Werte. 
+Es ergibt sich:
+ 2  4  1 -2  1 | 3y1+7y2 0  1  0  1  0 | -2y1-y2
+-3 -4 -1  4 -2 | -5y1-12y2
+ 1  0  0 -2  1 | 3y1+5y2
+Dieses LGS rechnen Sie wie üblich durch, trotz der seltsamen rechten <REMOVED_PERSON_ENTITY>. Am Ende müssen Sie die Nullzeilen interpretieren, um Bedingungen an die y1,..., ys abzuleiten. Ergäbe sich etwa
+ 0  0  0  0  0 | y1
+so hieße das notwendig y1=0 für einen Vektor im Durchschnitt. Wäre das die einzige Nullzeile, so könnte man y2 beliebig wählen und erhielte immer eine Lösung für die x1,..., xr. Damit wären aus dem <REMOVED_PERSON_ENTITY> von M2 genau die Vielfachen des zweiten Vektors in M2 jeweils auch LK der Vektoren aus M1, also aus dem Durchschnitt. 
+Prinzipiell können natürlich auch kompliziertere Bedingungen an die Lösbarkeit aus den Nullzeilen entstehen. Letztlich müsste man dann als Unterproblem ein homogenes LGS für die y1,..., ys lösen. Es ergäbe sich eine allgemeine Darstellung der Lösung, und diese würde man dann in die Ausgangslinearkombinaton mit den y1,..., ys einsetzen.
+Probieren Sie es ruhig einmal aus!
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

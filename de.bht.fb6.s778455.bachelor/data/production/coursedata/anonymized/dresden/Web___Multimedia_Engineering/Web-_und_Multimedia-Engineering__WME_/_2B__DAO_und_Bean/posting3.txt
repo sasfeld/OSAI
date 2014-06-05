@@ -1,0 +1,10 @@
+ID: 912
+CREATION_DATETIME: 1354143600000
+MODIFICATION_DATETIME: 1354143600000
+TITLE: Funktioniert wunderbar. Habe im Internet bei allen Tutorials komplett andere Implementierungen für DA...
+PARENT_POSTING_ID: 900
+POSTING_TYPE: comment
+CONTENT:
+Funktioniert wunderbar. Wir haben im Internet Tutorials mit komplett anderen Implementierungen für DAO und Beans gefunden, aber jetzt ist es klar.
+Danke für die Hilfe.
+TAGGED_CONTENT:

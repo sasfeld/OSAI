@@ -1,0 +1,11 @@
+ID: 251275
+CREATION_DATETIME: 1383164863
+MODIFICATION_DATETIME: 1383164863
+TITLE: Online Übungsgruppe - 06.11. - 21:00 Uhr
+NER_TAG: value:OM GdP;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+NER_TAG: value:Arndt;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+PARENT_POSTING_ID: 0
+CONTENT:
+Ich habe eben ne Weile mit <REMOVED_PERSON_ENTITY> diskutiert und wir wollen einfach mal versuchen ein regelmäßiges Onlinemeeting (ohne Dozent) zu etablieren um sich gegenseitig auszutauschen, Denkanstöße, Anregungen hilfreiche Links, Buchempfehlungen und so weiter zu erhalten und einbringen zu können. Wir hoffen, dass sich ein paar (möglichst viele *g*) Leute finden, die ebenfalls interessiert sind. Gemeinsam lernt es sich einfach besser. Wegen des Termins sind wir uns noch nicht ganz einig. Wenn bis dahin keine anderen Vorschläge kommen, würde ich jetzt als nächsten Termin erstmal den 6. 11. nach dem OM GdP fokusieren.
+Sonnige Grüße Arndt
+TAGGED_CONTENT:

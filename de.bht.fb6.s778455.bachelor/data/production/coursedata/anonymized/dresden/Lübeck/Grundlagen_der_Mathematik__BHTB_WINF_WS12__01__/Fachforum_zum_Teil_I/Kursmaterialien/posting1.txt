@@ -1,0 +1,11 @@
+ID: 168215
+CREATION_DATETIME: 1349700959
+MODIFICATION_DATETIME: 1349700959
+TITLE: Kursmaterialien
+PARENT_POSTING_ID: 0
+CONTENT:
+hallo,
+ich bin gerade noch mal in ruhe das online-meeting durchgegangen, weil ich nicht daran teilgenommen habe. dort ist von kursmaterialien die rede bzw. von aufgabe 9 a-f. wo stehen bei euch die kursmaterialien? ich bin bereits bei mir alle links durchgegangen, aber habe sie nicht gefunden bzw. sehe keinen mit dieser beschriftung.
+viele grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

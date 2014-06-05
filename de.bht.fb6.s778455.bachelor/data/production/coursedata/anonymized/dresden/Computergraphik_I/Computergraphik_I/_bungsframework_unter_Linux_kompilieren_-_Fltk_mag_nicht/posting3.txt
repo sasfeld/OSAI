@@ -1,0 +1,9 @@
+ID: 437
+CREATION_DATETIME: 1350684000000
+MODIFICATION_DATETIME: 1350684000000
+TITLE: Warum setzt du nicht 
+PARENT_POSTING_ID: 434
+POSTING_TYPE: comment
+CONTENT:
+Warum setzt du nicht einfach eine VM mit Windows und Visual Studio auf? Das erspart dir viel Ärger. Oder wird das Framework mittlerweile unter <REMOVED_PERSON_ENTITY> unterstützt?
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 2818
+CREATION_DATETIME: 1384210800000
+MODIFICATION_DATETIME: 1384729200000
+TITLE: Nochmal versuchen. Die Fehlermeldung (Timeout) deutet auf eine shaky Internetverbindung hin. Das Einf...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2817
+POSTING_TYPE: answer
+CONTENT:
+Nochmal versuchen. Die Fehlermeldung (Timeout) deutet auf eine shaky Internetverbindung hin. Das Einfachste ist: Rechtsklick auf das Projekt, Maven, Update project und im Dialog dann "Force update of dependencies" (o.ä.). Danach sollte am pom. xml und an dem Projekt nirgendwo mehr ein rotes Kreuz sein. Dann einfach die Klasse mit der `main(…)`-Methode starten.
+
+PS: Seit wann entwickelt man denn auf <REMOVED_PERSON_ENTITY>? :) *scnr*
+TAGGED_CONTENT:

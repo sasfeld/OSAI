@@ -1,0 +1,13 @@
+ID: 2
+CREATION_DATETIME: 1175425320000
+MODIFICATION_DATETIME: 1175425320000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1
+CONTENT:
+
+    
+    Also ich habe Auskommentieren so verstanden, indem ich vor die import-Anweisung das Kommentarzeichen // gesetzt habe. So wird die Import-Anweisung beim Compilieren nicht beachtet, man weiß jedoch trotzdem noch, dass eine import-Anweisung an diese Stelle im Quellcode geschrieben wird.
+
+    
+TAGGED_CONTENT:

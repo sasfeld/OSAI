@@ -1,0 +1,17 @@
+ID: 161011
+CREATION_DATETIME: 1347899103
+MODIFICATION_DATETIME: 1347899103
+TITLE: Re: Lerngruppe gesucht
+LANGUAGE: GERMAN
+POS_TAG: value:Lerngruppe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Idee;weight:0.0;uri:;postag:NN
+POS_TAG: value:Stunden;weight:0.0;uri:;postag:NN
+POS_TAG: value:Chat;weight:0.0;uri:;postag:NN
+POS_TAG: value:Termine;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 160947
+CONTENT:
+Was ist "nicht ganz so spät"?
+Ja, Termine können wir noch vereinbaren. Allerdings halte ich "nach dem Chat" schon für eine gute Idee. Man muss ja nicht noch 3 Stunden machen.
+Ja, prinzipiell bin ich für Lerngruppe.
+TAGGED_CONTENT:
+Was_PWS ist_VAFIN "_$( nicht_PTKNEG ganz_ADV so_ADV spät_ADJD "_$( ?_$. Ja_PTKANT ,_$, Termine_NN können_VMFIN wir_PPER noch_ADV vereinbaren_VVINF ._$. Allerdings_ADV halte_VVFIN ich_PPER "_$( nach_APPR dem_ART Chat_NN "_$( schon_ADV für_APPR eine_ART gute_ADJA Idee_NN ._$. Man_PIS muss_VMFIN ja_ADV nicht_PTKNEG noch_ADV 3_CARD Stunden_NN machen_VVINF ._$. Ja_PTKANT ,_$, prinzipiell_ADJD bin_VAFIN ich_PPER für_APPR Lerngruppe_NN ._$. 

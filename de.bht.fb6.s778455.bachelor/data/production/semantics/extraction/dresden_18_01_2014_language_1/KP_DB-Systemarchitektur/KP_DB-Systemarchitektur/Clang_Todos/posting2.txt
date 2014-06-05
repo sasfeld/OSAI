@@ -1,0 +1,16 @@
+ID: 2217
+CREATION_DATETIME: 1373493600000
+MODIFICATION_DATETIME: 1373493600000
+TITLE: Das mit der temporären Datei ist drin.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2207
+POSTING_TYPE: comment
+CONTENT:
+Das mit der temporären Datei ist drin.
+
+Die Exitcodes werden ausgewertet, nur scheint <NAME_CORPUS_REPLACEMENT> wie gesagt nichts bei rauszukommen. Ich habe mich auch noch mal ein paar Stunden damit beschäftigt, den Clang mittels der Bibliothek aufzurufen, aber das Interface ist so kompliziert und nirgends dokumentiert, <NAME_CORPUS_REPLACEMENT> es ja nur eine einzige Anwendung gibt, die das Interface benutzt.
+
+http://clang.llvm.org/doxygen/classclang_1_1CompilerInstance. html
+
+Auch mit dem Linken hab' ich keine Ahnung, was <NAME_CORPUS_REPLACEMENT> noch alles rein muss.
+TAGGED_CONTENT:

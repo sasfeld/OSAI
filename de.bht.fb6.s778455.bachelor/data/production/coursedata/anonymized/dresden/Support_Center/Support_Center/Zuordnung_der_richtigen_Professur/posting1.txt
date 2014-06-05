@@ -1,0 +1,12 @@
+ID: 439
+CREATION_DATETIME: 1350684000000
+MODIFICATION_DATETIME: 1350856800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+könntet ihr bitte die Lehrveranstaltung "Web- und Multimedia-Engineering" (WS 12/13 und zukünftige Semester) der Professur für Multimedia-Technologie zuordnen - URL: http://mt.inf.tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/lehre/wme/.
+Danke, viele Grüße,
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

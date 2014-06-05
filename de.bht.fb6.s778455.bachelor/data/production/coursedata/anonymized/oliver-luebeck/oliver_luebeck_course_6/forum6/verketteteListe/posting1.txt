@@ -1,0 +1,28 @@
+ID: 91
+CREATION_DATETIME: 1295982960000
+MODIFICATION_DATETIME: 1295982960000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo an alle,
+
+ich dachte in der letzten Webkonferenz, dass ich die Methode sucheVor() verstanden hätte, aber leider ist dem nicht so.
+
+Was genau sagt "end.e" und "vor.next.e" aus ???????
+
+private Knoten sucheVor(E e){
+end.e = e;
+Knoten vor = anf;
+ 
+while(! e.equals(vor.next.e)){
+vor = vor.next;
+}
+return vor;
+
+Im voraus schon mal Danke für Antworten!
+
+Schöne Grüße
+	
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 172
+CREATION_DATETIME: 1348524000000
+MODIFICATION_DATETIME: 1348524000000
+TITLE: Das erzeugt bei mir d
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 170
+POSTING_TYPE: comment
+CONTENT:
+Das erzeugt bei mir den selben Fehler, deshalb der (vermeintliche) Workaround mit temp. 
+TAGGED_CONTENT:

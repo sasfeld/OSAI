@@ -1,0 +1,10 @@
+ID: 117545
+CREATION_DATETIME: 1319734637
+MODIFICATION_DATETIME: 1319734637
+TITLE: Re: Gruppensuche
+POS_TAG: value:Leo;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117544
+CONTENT:
+Reicht es wenn wir zu dritt sind?GrußLeo 
+TAGGED_CONTENT:
+Reicht_VVFIN es_PPER wenn_KOUS wir_PPER zu_APPR dritt_ADJD sind?GrußLeo_NN 

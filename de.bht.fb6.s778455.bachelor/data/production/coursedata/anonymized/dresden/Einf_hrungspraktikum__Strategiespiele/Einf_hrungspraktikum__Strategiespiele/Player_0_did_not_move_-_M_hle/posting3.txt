@@ -1,0 +1,9 @@
+ID: 1239
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: Ich tippe darauf, dass dein Programm abgestürzt ist.
+PARENT_POSTING_ID: 1237
+POSTING_TYPE: answer
+CONTENT:
+Ich tippe darauf, dass dein Programm abgestürzt ist. Ohne mehr <REMOVED_PERSON_ENTITY> kann ich dazu aber nichts sagen, <NAME_CORPUS_REPLACEMENT> meine Kristallkugel gerade in der Reparatur ist.
+TAGGED_CONTENT:

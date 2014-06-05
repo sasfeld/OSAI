@@ -1,0 +1,17 @@
+ID: 2154357
+CREATION_DATETIME: 1362351600000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Distributed Operating Systems
+INTRO: The Distributed Operating Systems lecture continues and consolidates the topics of the basic course Operating Systems and Security. It is particularly focused on presenting a balanced combination of distributed systems in-use as well as research projects and their underlying construction principles.
+
+The lecture will cover the following aspects:
+
+* Scalability exemplified on DNS
+* Memory Consistency in Parallel Systems
+* Synchronization
+* Distributed File Systems
+* Trusted Computing
+* Security in the Internet Age
+* Time and Coordination
+* Fault-tolerance
+TYPE: null

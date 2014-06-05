@@ -1,0 +1,12 @@
+ID: 649
+CREATION_DATETIME: 1351810800000
+MODIFICATION_DATETIME: 1351810800000
+TITLE: Generell ist es nicht notwendig, Submit-Buttons mit einer Funktionalität zu belegen. Wenn ihr das "Er...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 647
+POSTING_TYPE: answer
+CONTENT:
+Generell ist es nicht notwendig, Submit-Buttons mit einer Funktionalität zu belegen. Wenn ihr das "Ergebnis nach dem Submit" zeigen wollt, könnt ihr auch einfach eine weitere <REMOVED_PERSON_ENTITY> erstellen.
+
+Aber wenn ihr hier unbedingt JavaScript nutzen wollt, dann ist das auch okay. Sprich für diesen Fall geht es in Ordnung.
+TAGGED_CONTENT:

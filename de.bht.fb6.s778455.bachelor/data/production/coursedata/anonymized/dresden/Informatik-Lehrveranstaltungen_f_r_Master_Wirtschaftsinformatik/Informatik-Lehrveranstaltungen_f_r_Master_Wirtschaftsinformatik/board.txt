@@ -1,0 +1,6 @@
+ID: 2154332
+CREATION_DATETIME: 1350338400000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Informatik-Lehrveranstaltungen für Master Wirtschaftsinformatik
+INTRO: Diskussionsseite für Fragen zu den Angeboten der Fakultät Informatik für den Master-Studiengang Wirtschaftsinformatik
+TYPE: null

@@ -1,0 +1,24 @@
+ID: 97767
+CREATION_DATETIME: 1286729946
+MODIFICATION_DATETIME: 1286729946
+TITLE: Zugang LON-CAPA
+NER_TAG: value:ID;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:Lower Saxony Universities;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:ID;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:Lower Saxony Universities;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+POS_TAG: value:Lower;weight:0.0;uri:;postag:NN
+POS_TAG: value:ne;weight:0.0;uri:;postag:NN
+POS_TAG: value:Erstellung;weight:0.0;uri:;postag:NN
+POS_TAG: value:ID;weight:0.0;uri:;postag:NN
+POS_TAG: value:Account;weight:0.0;uri:;postag:NN
+POS_TAG: value:glichCreation;weight:0.0;uri:;postag:NN
+POS_TAG: value:System;weight:0.0;uri:;postag:NN
+POS_TAG: value:Versuch;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehlermeldung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Moin, beim Versuch mich in das LON-CAPA System einzuloggen, bekomme ich folgende Fehlermeldung, nachdem ich mich erfolgreich einloggen konnte und meinen Account dort erstellen wollte...
+Account-Erstellung nicht möglichCreation of a new user account using an e-mail address or an institutional log-in ID as username is not permitted at this institution (Lower Saxony Universities). Weiß jemand woran das liegen kann oder hat das selbe Problem?! Als Anmeldedomäne habe ich &quot;fhwf&quot; angegeben. Gruß 
+TAGGED_CONTENT:
+Moin_NE ,_$, beim_APPRART Versuch_NN mich_PRF in_APPR das_ART LON-CAPA_ADJA System_NN einzuloggen_VVIZU ,_$, bekomme_VVFIN ich_PPER folgende_ADJA Fehlermeldung_NN ,_$, nachdem_KOUS ich_PPER mich_PRF erfolgreich_ADJD einloggen_VVINF konnte_VMFIN und_KON meinen_PPOSAT Account_NN dort_ADV erstellen_VVINF wollte_VMFIN ..._$( Account-Erstellung_NN nicht_PTKNEG möglichCreation_NN of_NE a_NE new_NE user_FM account_FM using_FM an_APPR e-mail_NE address_NE or_NE an_APPR institutional_ADJD log-in_ADJA ID_NN as_NE username_VVFIN is_VAFIN not_ADJD permitted_FM at_FM this_FM institution_FM -LRB-_TRUNC Lower_NN Saxony_NE Universities_NE -RRB-_TRUNC ._$. Weiß_ADJD jemand_PIS woran_PWAV das_ART liegen_VVINF kann_VMFIN oder_KON hat_VAFIN das_ART selbe_ADJA Problem_NN ?!_CARD Als_APPR Anmeldedomäne_NN habe_VAFIN ich_PPER "_$( fhwf_ADJD "_$( angegeben_VVPP ._$. Gruß_XY 

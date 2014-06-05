@@ -1,0 +1,19 @@
+ID: 3
+CREATION_DATETIME: 1175427240000
+MODIFICATION_DATETIME: 1175427240000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2
+CONTENT:
+
+    Hallo ,
+
+daran habe ich gar nicht gedacht.:)
+Ich dachte halt, ich soll kommentieren was der Import macht, also nach dem Motto: // Importanweisung weist auf zusätzlich verwendete Packages hin.
+
+Dank dir für den Hinweis.
+
+Gruß
+
+    
+TAGGED_CONTENT:

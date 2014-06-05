@@ -1,0 +1,21 @@
+ID: 2447
+CREATION_DATETIME: 1374616800000
+MODIFICATION_DATETIME: 1379541600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Gegeben sei folgende Aufgabe:
+Die Übertragurigseffizienz eines fehlerfreien Kommunikationssystems auf Basis des ,, Stop-and-Wait’ Protokolls ist gegeben als: u = ts/ T
+t3 Ist die Dauer für das <REMOVED_PERSON_ENTITY> eines Datenpakets und T die Zeit zwischen zwei Paketübertragungen(siehe Abbildung 1). tau und tau ack sind die Signalaufzeiten zwischen Sender und Empfänger; die lokale Verarbeitungszeit des Acknowledgepakets ist typischerweise vernachlässigbar.
+Wie lang soll ein Paket eines Übertragungskanals sein, der die folgenden Eigenschaften besitzt?
+- u=0, 54
+- Datenrate = 100 Mbit/s .
+- Ausbreitungsgeschwindigkeit = 2 x i  kmfs
+- Leitunglänge — 10 km
+Meine Lösung:
+tau = d/V = 10km/200. 000km/s = 0, 00005
+u = ts / T=0, 54 = ts / 2tau+ts
+-> ts= 0, 000054s
+F=b*ts=100MBit*0, 000052s=5, 2kBit
+TAGGED_CONTENT:

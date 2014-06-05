@@ -1,0 +1,12 @@
+ID: 2433
+CREATION_DATETIME: 1374530400000
+MODIFICATION_DATETIME: 1374530400000
+TITLE: habe eben die 5 nochmal durchgerechnet. Chokepakete werden glaube ich nach den beiden neunen verschic...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2300
+POSTING_TYPE: comment
+CONTENT:
+habe eben die 5 nochmal durchgerechnet. Chokepakete werden glaube ich nach den beiden neunen verschickt, oder?
+
+Rechnung: http://sdrv.ms/1bc0TNX
+TAGGED_CONTENT:

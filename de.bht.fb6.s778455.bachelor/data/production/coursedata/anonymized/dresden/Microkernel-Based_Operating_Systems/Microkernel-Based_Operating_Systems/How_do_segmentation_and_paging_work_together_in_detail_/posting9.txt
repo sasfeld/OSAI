@@ -1,0 +1,9 @@
+ID: 1527
+CREATION_DATETIME: 1363042800000
+MODIFICATION_DATETIME: 1363042800000
+TITLE: Linear and logical addresses are on x86 _both_ kinds of virtual addresses (if paging is enabled). The...
+PARENT_POSTING_ID: 1515
+POSTING_TYPE: comment
+CONTENT:
+Linear and logical addresses are on x86 _both_ kinds of virtual addresses (if paging is enabled). The terms only clarify if segmentation is already applied or not.
+TAGGED_CONTENT:

@@ -1,0 +1,34 @@
+ID: 2974
+CREATION_DATETIME: 1385161200000
+MODIFICATION_DATETIME: 1385161200000
+TITLE: `@RequestParam("id") UserAccountIdentifier userAccountIdentifier`ging mal früher und sollte IMO gehen...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2935
+POSTING_TYPE: comment
+CONTENT:
+`@RequestParam("id") UserAccountIdentifier userAccountIdentifier`ging mal früher und sollte IMO gehen, denke mal das werden wir fixen. Schreib <NAME_CORPUS_REPLACEMENT> aber einfach direkt UserAccount hin.
+
+Ein Customer weiß nicht, dass sein UserAccount deaktiviert wurde, du könnte zB ein enabled Attribut auch für den Customer einführen.
+
+```java
+
+public class Customer {
+
+/* ...... */ 
+
+    private boolean enabled = true;
+
+    public boolean isEnabled() {
+
+        return enabled;
+
+    }
+
+}
+
+```
+
+Und in deinem CustomerRepository noch die Zeile ergänzen `public Iterable findByEnabledTrue();`
+
+Gibt sicher noch andere bessere Möglichkeiten ohne extra Attribute einzuführen, aber ich habe schon meinen Pyjama an.
+TAGGED_CONTENT:

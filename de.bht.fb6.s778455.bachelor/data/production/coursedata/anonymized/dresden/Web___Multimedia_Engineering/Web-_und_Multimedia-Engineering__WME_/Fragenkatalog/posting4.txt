@@ -1,0 +1,9 @@
+ID: 1096
+CREATION_DATETIME: 1359759600000
+MODIFICATION_DATETIME: 1359759600000
+TITLE: Wer hat denn gesagt, dass das bei denen mit Fragen nicht auch so ist? :)
+PARENT_POSTING_ID: 1071
+POSTING_TYPE: comment
+CONTENT:
+Wer hat denn gesagt, dass das bei denen mit Fragen nicht auch so ist? :)
+TAGGED_CONTENT:

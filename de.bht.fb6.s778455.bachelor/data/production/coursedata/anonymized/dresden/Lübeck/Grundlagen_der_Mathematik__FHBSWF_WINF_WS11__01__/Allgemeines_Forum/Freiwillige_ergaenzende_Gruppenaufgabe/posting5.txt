@@ -1,0 +1,9 @@
+ID: 117540
+CREATION_DATETIME: 1323273730
+MODIFICATION_DATETIME: 1323273730
+TITLE: 2/2 Freiwillige ergaenzende Gruppenaufgabe
+PARENT_POSTING_ID: 117536
+CONTENT:
+2. und letzte Gruppenaufgabe. Sie koennen sie in denselben Gruppen bearbeiten wie die 1.
+Gruss NJ
+TAGGED_CONTENT:

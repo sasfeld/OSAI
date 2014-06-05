@@ -1,0 +1,38 @@
+ID: 97763
+CREATION_DATETIME: 1285419835
+MODIFICATION_DATETIME: 1285419835
+TITLE: Re: Vorleistungen aus alten Semestern
+TOPIC_ZOOM_TAG: value:Fachhochschule Braunschweig/Wolfenbüttel;weight:1.0;significance:6.35427475761695;degreegeneralization:13;uri:20100471
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten in Niedersachsen;weight:1.0;significance:5.8049686132829;degreegeneralization:12;uri:21880983
+TOPIC_ZOOM_TAG: value:Studiengänge;weight:1.0;significance:5.8049686132829;degreegeneralization:4;uri:20207129
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:2.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:2.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten in Deutschland;weight:1.0;significance:4.10436992245183;degreegeneralization:11;uri:21957585
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten in Europa;weight:1.0;significance:4.08262736648196;degreegeneralization:8;uri:20920126
+TOPIC_ZOOM_TAG: value:Studium und berufliche Ausbildung in Deutschland;weight:1.0;significance:4.08262736648196;degreegeneralization:10;uri:21881136
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung in Deutschland;weight:1.0;significance:3.81668785000005;degreegeneralization:9;uri:21998589
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung - Europa;weight:1.0;significance:3.79229276791534;degreegeneralization:7;uri:20742850
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:2.77735785682754;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Wissenschaft und Technik in Deutschland;weight:1.0;significance:2.72471669356842;degreegeneralization:9;uri:21946076
+TOPIC_ZOOM_TAG: value:Niedersachsen;weight:1.0;significance:2.70776591773057;degreegeneralization:10;uri:21996770
+TOPIC_ZOOM_TAG: value:Gesetze und Rechtsnormen;weight:1.0;significance:2.65949278077814;degreegeneralization:4;uri:21982286
+TOPIC_ZOOM_TAG: value:Gesetzgebung;weight:1.0;significance:2.61603856703501;degreegeneralization:3;uri:21982320
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:2.51211272377639;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:2.50390086036106;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:1.32554850720165;degreegeneralization:2;uri:21999830
+TOPIC_ZOOM_TAG: value:Deutschland;weight:1.0;significance:1.01788212728215;degreegeneralization:8;uri:21996974
+TOPIC_ZOOM_TAG: value:Europa;weight:1.0;significance:0.777938407775155;degreegeneralization:6;uri:21972001
+PARENT_POSTING_ID: 97762
+CONTENT:
+Alte Juristenweisheit: &quot;Ein Blick ins Gesetz erleichtert die Rechtsfindung.&quot;
+Prüfungsordnung für den Online-Studiengang „Wirtschaftsinformatik“ des Fachbereiches Informatik an der Fachhochschule Braunschweig/Wolfenbüttel:
+http://moodle.oncampus.de/file. php/1348/29-2009_BPO_WINF. pdf
+§ 13 Satz 5:&quot;Prüfungsvorleistungen (auch mehrteilige Prüfungsvorleistungen) sind innerhalb jeweils eines Studienhalbjahres zu erbringen. Die Wiederholung bereits bestandener Prüfungsvorleistungen ist nicht erforderlich. Prüfungsvorleistungen sind unbegrenzt oft wiederholbar.&quot;
+Grüße,
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

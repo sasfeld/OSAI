@@ -1,0 +1,22 @@
+ID: 509
+CREATION_DATETIME: 1351116000000
+MODIFICATION_DATETIME: 1383951600000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> u explain further about UNCP-store and UNCP-trace? and what is the difference between them?
+
+I got the main idea of Rendezvous points. i think the points cut the whole process into many small phases. at the end of these phases, we check the intermediate results of different CPUs. so, we <NAME_CORPUS_REPLACEMENT> synchronize the results at these points and don't care about the order of signal processing between the points. am i right?
+
+but still, i don't get many concepts of UNCP-store and UNCP-trace. like:
+
+what are retired instructions?
+
+what does "differ by at most N instructions" mean? what if the difference exceeds N?
+
+besides, what does 3N instructions mean in UNCP-trace?
+
+<NAME_CORPUS_REPLACEMENT> u explain these concepts further? btw, <NAME_CORPUS_REPLACEMENT> u also explain the examples on the slides?
+TAGGED_CONTENT:

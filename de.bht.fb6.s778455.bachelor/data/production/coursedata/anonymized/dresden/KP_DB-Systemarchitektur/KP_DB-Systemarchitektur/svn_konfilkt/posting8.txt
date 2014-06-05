@@ -1,0 +1,9 @@
+ID: 1870
+CREATION_DATETIME: 1369778400000
+MODIFICATION_DATETIME: 1369778400000
+TITLE: Ach so, dann ist es meine Schuld. Ich mache mal weiter jetzt mit Korrelationsanalyze.
+PARENT_POSTING_ID: 1863
+POSTING_TYPE: comment
+CONTENT:
+Ach so, dann ist es meine <REMOVED_PERSON_ENTITY>. Ich mache mal weiter jetzt mit Korrelationsanalyze.
+TAGGED_CONTENT:

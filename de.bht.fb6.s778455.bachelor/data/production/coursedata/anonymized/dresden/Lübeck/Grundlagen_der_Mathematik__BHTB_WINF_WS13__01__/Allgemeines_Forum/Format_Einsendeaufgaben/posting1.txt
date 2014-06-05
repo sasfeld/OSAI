@@ -1,0 +1,11 @@
+ID: 249161
+CREATION_DATETIME: 1382800724
+MODIFICATION_DATETIME: 1382800724
+TITLE: Format Einsendeaufgaben
+PARENT_POSTING_ID: 0
+CONTENT:
+Moin moin zusammen,
+vielleicht wurde die Frage ja schon wo beantwortet und ich habe es bloß nicht mitbekommen... WIE erstellt ihr die Antowrten für die <REMOVED_PERSON_ENTITY> ESAs?Schreibt ihr das alles in LaTeX, oder löst ihr die Aufgaben handschriftlich und scannt das dann ein?Oder mittels Stift und Grafiktablet?Ich steh grad etwas auf dem <REMOVED_PERSON_ENTITY> wie ich die gelösten Aufgaben am besten 'digitalisiere'.
+Ich freu mich auf eure Antworten
+LG <PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

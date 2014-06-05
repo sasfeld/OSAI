@@ -1,0 +1,13 @@
+ID: 70
+CREATION_DATETIME: 1182682380000
+MODIFICATION_DATETIME: 1182682380000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo allerseits,
+zur Info ich hab mal die 1. Aufgabe von LE12 (Reihung) hochgeladen, da Frau Merceron mich drum gebeten hat. Vielleicht hilfts ja dem ein oder anderen.
+Viele Grüße
+    
+TAGGED_CONTENT:

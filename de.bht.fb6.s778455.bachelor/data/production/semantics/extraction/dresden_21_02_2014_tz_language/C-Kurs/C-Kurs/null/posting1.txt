@@ -1,0 +1,20 @@
+ID: 3020
+CREATION_DATETIME: 1385420400000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Tipps;weight:1.0;significance:5.9727695009916;degreegeneralization:4;uri:20291636
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo.
+
+Ich habe jetzt schon bei der 2. Aufgabe (Quadratische Funktion) das Problem, das wenn ich mein Programm kompilieren will (mit gcc unter Ubuntu 12. 04, Quelltext mit <REMOVED_PERSON_ENTITY>) er nie die sqrt und pow findet. Im Header habe ich #include  stehen und beim compilieren gebe ich die -lm mit an um die Math library mit einzubinden. Aber trotzdem gibt er mir die Meldung undefined reference to 'sqrt' aus.
+
+Vielleicht kann mir ja mal jemand nen Tip geben was ich noch machen könnte.
+
+Danke im voraus
+TAGGED_CONTENT:

@@ -1,0 +1,17 @@
+ID: 2024
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: Ich denke, das ergibt sich aus dem Inhalt. Zuerst das allgemeine "Was wollen wir erreichen" und dann ...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Schnittstellen;weight:1.0;significance:8.39106140169762;degreegeneralization:6;uri:20896088
+TOPIC_ZOOM_TAG: value:Kommunikationstechnik;weight:1.0;significance:5.71829301474005;degreegeneralization:5;uri:20897125
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+Ich denke, das ergibt sich aus dem Inhalt. Zuerst das allgemeine "Was wollen wir erreichen" und dann das Interface und zum Schluss "wie wollen wir das erreichen"
+TAGGED_CONTENT:

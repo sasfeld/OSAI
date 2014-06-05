@@ -1,0 +1,10 @@
+ID: 167633
+CREATION_DATETIME: 1349544491
+MODIFICATION_DATETIME: 1349544491
+TITLE: Wi´s und Mi´s im Kurs
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+können in diesem Forum des Kurses im Moodle eigentlich nur Wi´s mitlesen oder auch Mi´s? (bitte nicht mit den netten Figuren der Spielekonsole (Wii) oder der Konsole selbst verwechseln ;-) )
+M. f. G. <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

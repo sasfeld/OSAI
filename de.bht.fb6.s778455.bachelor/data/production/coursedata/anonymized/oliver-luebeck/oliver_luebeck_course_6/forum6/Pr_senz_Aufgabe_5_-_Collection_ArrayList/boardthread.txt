@@ -1,0 +1,4 @@
+ID: 26
+TITLE: Präsenz Aufgabe 5 - Collection/ArrayList
+LANGUAGE: GERMAN
+FIRST_POSTING_ID: 76

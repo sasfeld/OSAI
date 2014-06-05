@@ -1,0 +1,17 @@
+ID: 19
+CREATION_DATETIME: 1286782680000
+MODIFICATION_DATETIME: 1286782680000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 18
+CONTENT:
+
+Liebe Mitkommilitonen,
+
+ich glaube, dass sind Versionsprobleme von Java und Eclipse. Meiner Kenntnis nach gibt es die Klasse Console erst ab Java 6 und Eclipse arbeitet, glaube ich, standardmäßig  mit Java 5.
+
+Bitte berichten Sie/berichtet mich, falls ich mich irre!
+
+Viele Grüße
+    
+TAGGED_CONTENT:

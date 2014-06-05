@@ -1,0 +1,10 @@
+ID: 1422
+CREATION_DATETIME: 1362783600000
+MODIFICATION_DATETIME: 1362783600000
+TITLE: The mapping database stores information about which user pages are mapped to which tasks and about th...
+PARENT_POSTING_ID: 1420
+POSTING_TYPE: comment
+CONTENT:
+The mapping database stores information about which user pages are mapped to which tasks and about the user-level mapping hierarchy. So I don't see why the mapping DB needs to know about kernel pages?
+Theoretically, yes, kernel memory could be scattered. <REMOVED_PERSON_ENTITY> this makes less sense.
+TAGGED_CONTENT:

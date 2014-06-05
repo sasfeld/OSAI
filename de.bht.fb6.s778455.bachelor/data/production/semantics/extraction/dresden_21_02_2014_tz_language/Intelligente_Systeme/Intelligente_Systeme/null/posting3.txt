@@ -1,0 +1,13 @@
+ID: 870
+CREATION_DATETIME: 1353970800000
+MODIFICATION_DATETIME: 1353970800000
+TITLE: Mein Fehler, hab es gerade Probiert und bei Intelligente Systeme geht es.
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Veranstaltungen;weight:1.0;significance:3.37051978211685;degreegeneralization:3;uri:20901494
+PARENT_POSTING_ID: 868
+POSTING_TYPE: comment
+CONTENT:
+Mein Fehler, hab es gerade Probiert und bei Intelligente Systeme geht es.
+
+Allerdings bei Angewandte KI nicht... Kann ich dir Frage verschieben? Die Veranstaltung gibt es hier nämlich noch nicht...
+TAGGED_CONTENT:

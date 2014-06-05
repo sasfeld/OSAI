@@ -1,0 +1,9 @@
+ID: 1202
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: Cool. Bis 26.3. läuft das Einführungspraktikum bei uns noch, da können wir das intensiv testen. :wink...
+PARENT_POSTING_ID: 1196
+POSTING_TYPE: comment
+CONTENT:
+Cool. Bis 26. 3. läuft das Einführungspraktikum bei uns noch, <NAME_CORPUS_REPLACEMENT> können wir das intensiv testen. ;)
+TAGGED_CONTENT:

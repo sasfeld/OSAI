@@ -1,0 +1,13 @@
+ID: 184479
+CREATION_DATETIME: 1354470926
+MODIFICATION_DATETIME: 1354470926
+TITLE: Re: Aufgabe 2b)
+PARENT_POSTING_ID: 184449
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+zu dem oberen Ansatz: Kannst Du bitte mal erklären, was in Deinem Ansatz die Spaltenvektoren sind? Ich verstehe das Modell nicht (was möglicherweise an mir liegt :-)
+zu dem unteren Ansatz: Du schreibst "Bei einem Untervektorraum von V müssen wir für W doch eigentlich "nur" zeigen, dass er abgeschlossen ist, wenn man die Addition und die skalare Multiplikation durchführt. Da wir hier ja komplett R zur Verfügung haben (V(G)--&gt;R), kommen wir doch mit diesen beiden Rechenregeln nie aus dem vorgegeben Vektorraum heraus oder?"
+Ich würde Abgeschlossenheit hinichtlich der Vektoraddition so verstehen, dass jeder Vektor aus dem Untervektorraum addiert werden darf und was dabei herauskommt, muss ebenfalls zu diesem Untervektorraum gehören, also ein Vektor des Unterraums sein. Was nützt es da, wenn wir ganz R zur Verfügung haben?
+Grüße
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

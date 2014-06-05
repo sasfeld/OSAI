@@ -1,0 +1,9 @@
+ID: 2373
+CREATION_DATETIME: 1374271200000
+MODIFICATION_DATETIME: 1374271200000
+TITLE: Mir ist es egal, so lange es nicht Sonntag abend um 10 ist ;)
+PARENT_POSTING_ID: 2344
+POSTING_TYPE: comment
+CONTENT:
+Mir ist es egal, so lange es nicht Sonntag abend um 10 ist ;)
+TAGGED_CONTENT:

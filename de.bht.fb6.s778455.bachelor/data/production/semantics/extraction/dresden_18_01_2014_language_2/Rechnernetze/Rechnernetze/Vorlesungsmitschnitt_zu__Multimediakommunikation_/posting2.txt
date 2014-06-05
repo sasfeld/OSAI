@@ -1,0 +1,12 @@
+ID: 2436
+CREATION_DATETIME: 1374530400000
+MODIFICATION_DATETIME: 1374616800000
+TITLE: Zum [Kurs Multimediakommunikation](https://auditorium.inf.tu-dresden.de/courses/2154446) gibt's hier ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2435
+POSTING_TYPE: answer
+CONTENT:
+Zum [Kurs Multimediakommunikation](https://auditorium. inf. tu-dresden. de/courses/2154446) gibt's hier auf auditorium [25 Videos](https://auditorium. inf. tu-dresden. de/courses/2154446/recordings) zum aktuellen <REMOVED_PERSON_ENTITY> der Kapitel 7ff.
+
+*Update:* Ich habe das Wort **Kapitel** überlesen... 
+TAGGED_CONTENT:

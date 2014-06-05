@@ -1,0 +1,15 @@
+ID: 919
+CREATION_DATETIME: 1354143600000
+MODIFICATION_DATETIME: 1354143600000
+TITLE: Die Prüfungsordnung (INF, 2004 - andere sicher ähnlich) sagt: " Die Diplomarbeit hat am letzten Tag d...
+PARENT_POSTING_ID: 918
+POSTING_TYPE: answer
+CONTENT:
+Die Prüfungsordnung (INF, 2004 - andere sicher ähnlich) sagt: " Die Diplomarbeit hat am letzten Tag der <REMOVED_PERSON_ENTITY> beim Prüfungsamt in drei Exemplaren
+vorzuliegen, andernfalls gilt sie als mit „nicht ausreichend“ bewertet. Der
+Abgabezeitpunkt ist aktenkundig zu machen. Bei der Abgabe der Diplomarbeit hat der
+Kandidat schriftlich zu versichern, dass er seine Arbeit – bei einer Gruppenarbeit seinen
+entsprechend gekennzeichneten Anteil der Arbeit – selbständig verfasst und keine
+anderen als die angegebenen Quellen und Hilfsmittel benutzt hat."
+<NAME_CORPUS_REPLACEMENT> Format steht <NAME_CORPUS_REPLACEMENT> nix.
+TAGGED_CONTENT:

@@ -1,0 +1,8 @@
+ID: 110804010
+CREATION_DATETIME: 1349560800000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Intelligente Systeme
+SUMMARY: 
+URL: http://www.inf.tu-dresden.de/content/institutes/ki/awv/winter.de.html

@@ -1,0 +1,19 @@
+ID: 13
+CREATION_DATETIME: 1193229300000
+MODIFICATION_DATETIME: 1193229300000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Ich habe nen Knoten im Hirn und hoffe, dass ihr mir helfen könnt.
+
+Es geht um die RechnerTest.java, ich habe verstanden das ich ein Objekt erzeugen muss, um auf dieses dann die Methode "rechnen" anzuwenden.
+
+
+...besitzt dieses Objekt nun 2 Strings oder ein array für die resultate?
+
+
+ich bin für jede hilfe dankbar, denn irgendwie häng ich fest.
+    
+TAGGED_CONTENT:

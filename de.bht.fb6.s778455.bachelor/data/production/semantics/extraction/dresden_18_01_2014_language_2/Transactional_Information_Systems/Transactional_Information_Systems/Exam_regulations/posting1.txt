@@ -1,0 +1,16 @@
+ID: 1654
+CREATION_DATETIME: 1364425200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Some people asked me, if they <NAME_CORPUS_REPLACEMENT> retry their exam because they don't like the grades.
+
+You <NAME_CORPUS_REPLACEMENT> find the answer in the [dse exam regulations PDF](http://tu-dresden. de/die_tu_dresden/fakultaeten/fakultaet_informatik/sysa/se/master/docs/dse_exam_regulations_en. pdf
+
+) under §14 and §15.
+
+Cheers, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

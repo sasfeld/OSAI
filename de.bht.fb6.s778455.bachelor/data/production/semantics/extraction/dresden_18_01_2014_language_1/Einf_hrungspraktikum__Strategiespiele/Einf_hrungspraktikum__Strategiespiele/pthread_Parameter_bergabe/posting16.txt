@@ -1,0 +1,10 @@
+ID: 1314
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Nur um sicher zu gehen: Du hast die single threaded Variante schon fertig, an Deinen Betreuer geschic...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1312
+POSTING_TYPE: comment
+CONTENT:
+Nur um sicher zu gehen: Du hast die single threaded Variante schon fertig, an Deinen Betreuer geschickt und der hat schon gesagt, dass Du bestanden hast? Falls nicht geht hier gerade mächtig was schief!
+TAGGED_CONTENT:

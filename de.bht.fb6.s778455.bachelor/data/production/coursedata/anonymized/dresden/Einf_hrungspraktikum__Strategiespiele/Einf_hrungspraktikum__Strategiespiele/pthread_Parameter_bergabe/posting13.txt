@@ -1,0 +1,9 @@
+ID: 1315
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Benutzt du mehrere Threads und übergibst den gleichen Pointer an alle?
+PARENT_POSTING_ID: 1310
+POSTING_TYPE: comment
+CONTENT:
+Benutzt du mehrere Threads und übergibst den gleichen Pointer an alle?
+TAGGED_CONTENT:

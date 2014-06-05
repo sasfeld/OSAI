@@ -1,0 +1,12 @@
+ID: 2094
+CREATION_DATETIME: 1371938400000
+MODIFICATION_DATETIME: 1382047200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+ist es möglich die Lösungen der letzten Info 2 (Maschinenwesen) Klausur zu bekommen ?
+TAGGED_CONTENT:

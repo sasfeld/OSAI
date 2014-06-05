@@ -1,0 +1,9 @@
+ID: 1606
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Du hast offensichtlich vorher Java programmiert. ;-) Du leckst Speicher mit deinem *new Konstrukt, we...
+PARENT_POSTING_ID: 1602
+POSTING_TYPE: comment
+CONTENT:
+Du hast offensichtlich vorher Java programmiert. ;-) Du leckst Speicher mit deinem *new Konstrukt, weil du den Vektor auf dem Heap allozierst, dann eine <REMOVED_PERSON_ENTITY> auf dem Stack anlegst und den Vektor auf dem Heap nie wieder freigibst. Was du willst ist `vector possiblemoves;`. Zur anderen Frage: Ich wollte wissen, welchen Rückgabetyp evaluateMove hat. Und dann wäre interessant, was vector bei dir für ein Typ ist. Der vector aus `#include ` ?
+TAGGED_CONTENT:

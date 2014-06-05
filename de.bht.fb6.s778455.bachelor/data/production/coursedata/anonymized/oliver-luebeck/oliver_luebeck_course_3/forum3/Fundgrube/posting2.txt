@@ -1,0 +1,21 @@
+ID: 41
+CREATION_DATETIME: 1202217120000
+MODIFICATION_DATETIME: 1202217120000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 40
+CONTENT:
+
+Hi Folks
+
+Hier ist wieder eine weitere Perle aus den Weiten des Internets gefischt worden. Unter den vielen Layoutmanagern, die man so bei Java benutzen kann und weil 55342 Manager nicht ausreichen, habe ich hier mal eine wirklich praktische Lösung.
+
+Wer möchte kann sich dit mal hier ansehen.
+http://www.migcalendar.com/miglayout/
+
+Die PDF-Kurzfassung:
+http://www.miglayout.com/QuickStart.pdf
+
+Have phun with coding =)
+    
+TAGGED_CONTENT:

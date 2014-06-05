@@ -1,0 +1,14 @@
+ID: 1669
+CREATION_DATETIME: 1365112800000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: null
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Guten Abend, 
+
+<REMOVED_PERSON_ENTITY> diese Veranstaltung für das Modul Informatik 1 des Studiengangs Wirtschaftsinformatik Master besucht werden?
+
+MfG <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,38 @@
+ID: 2153
+CREATION_DATETIME: 1372716000000
+MODIFICATION_DATETIME: 1373493600000
+TITLE: Doch, es ist genau nach der maximalen Anzahl der Einträge gefragt. Die Zweistufigkeit kommt dadurch i...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Byte;weight:2.0;significance:12.7085495152339;degreegeneralization:8;uri:20048519
+TOPIC_ZOOM_TAG: value:Speicherkapazität und Speichervolumen;weight:2.0;significance:9.48967369036573;degreegeneralization:7;uri:20048536
+TOPIC_ZOOM_TAG: value:Datenspeicherung;weight:2.0;significance:7.13639548305616;degreegeneralization:6;uri:20901528
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:2.0;significance:4.95064330688218;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:2.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:2.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:2.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Spiele;weight:1.0;significance:2.5016435201838;degreegeneralization:5;uri:20990217
+TOPIC_ZOOM_TAG: value:Spiele und Spielwaren;weight:1.0;significance:2.49094792519314;degreegeneralization:4;uri:21976965
+TOPIC_ZOOM_TAG: value:Hobby;weight:1.0;significance:2.47510802387151;degreegeneralization:3;uri:21999660
+TOPIC_ZOOM_TAG: value:Unterhaltung;weight:1.0;significance:2.24826185530525;degreegeneralization:3;uri:21999643
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:1.7207726480701;degreegeneralization:2;uri:21999745
+PARENT_POSTING_ID: 2152
+POSTING_TYPE: answer
+CONTENT:
+Doch, es ist genau nach der maximalen Anzahl der Einträge gefragt. Die Zweistufigkeit kommt dadurch ins Spiel, dass man bei einer zweistufigen Seitentabelle zusätzlich zu den Tabellen für den kompletten Adressraum noch eine weitere Top-Level-Pagetable braucht.
+
+Im Beispiel:
+
+32 bit Adressen -> 2^32 Byte Adressraum
+
+4 kB <REMOVED_PERSON_ENTITY> -> 2^12 Byte pro <REMOVED_PERSON_ENTITY>
+
+==> 2^32 / 2^12 = 2^20 Seiten pro Adressraum
+
+Entsprechend brauchst Du 2^20 Seitentabellen-Einträge. Diese werden verteilt auf 2^20 / 1024 = 2^20 / 2^10 = 2^10 = 1024 Seitentabellen.
+
+Bei einer zweistufigen Seitentabelle kommt jetzt noch das oberste Level hinzu. Das ist das PageDirectory - <REMOVED_PERSON_ENTITY>, die auf die ganzen anderen Seitentabellen verweist. Diese hat laut Aufgabenstellung 1024 Einträge, d. h. ein Page Directory reicht, um auf die 1024 Seitentabellen 2. Stufe zu verlinken.
+
+Entsprechend brauchst Du zur kompletten Abdeckung <REMOVED_PERSON_ENTITY> *2^20 + 1024* Einträge.
+TAGGED_CONTENT:

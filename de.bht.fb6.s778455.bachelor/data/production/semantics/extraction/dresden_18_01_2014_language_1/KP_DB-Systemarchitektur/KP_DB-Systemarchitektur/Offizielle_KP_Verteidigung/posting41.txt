@@ -1,0 +1,10 @@
+ID: 2416
+CREATION_DATETIME: 1374444000000
+MODIFICATION_DATETIME: 1374444000000
+TITLE: Ich bringe schonmal das Layout in Ordnung, die Plots würde ich danach nochmal angehen.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Ich bringe schonmal das Layout in Ordnung, die Plots würde ich danach nochmal angehen.
+TAGGED_CONTENT:

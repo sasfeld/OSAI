@@ -1,0 +1,12 @@
+ID: 1496
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Der Grund ist vermutlich, dass der Vector nicht richtig initialisiert wurde. Denn ein malloc initiali...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1491
+POSTING_TYPE: comment
+CONTENT:
+Der <REMOVED_PERSON_ENTITY> ist vermutlich, dass der Vector nicht richtig initialisiert war. Denn ein malloc initialisiert den Speicher <LEARNED_PERSON_NAME_REPLACEMENT> nicht. Und es ruft schon gar keine Konstruktoren auf. Wenn zuvor an die Stelle also Müll geschrieben wurde, kann alles mögliche passieren.
+
+Dies passiert nicht bei new, weil dort der (generierte) Konstruktor <NAME_CORPUS_REPLACEMENT> BoardState den Konstruktor des Vectors aufruft.
+TAGGED_CONTENT:

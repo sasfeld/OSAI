@@ -1,0 +1,8 @@
+ID: 116454
+CREATION_DATETIME: 1324058542
+MODIFICATION_DATETIME: 1324058605
+TITLE: Re: Welche Formelsammlung?
+PARENT_POSTING_ID: 116453
+CONTENT:
+ Hallo <REMOVED_PERSON_ENTITY>, eine ältere Ausgabe dieses Tafelwerkes habe ich in meinem Besitz und bin damit relativ zufrieden. <REMOVED_PERSON_ENTITY> dürfte die verlinkte oder ähnlich aktuelle Ausgabe haben. Zumindest die Themen <REMOVED_PERSON_ENTITY>'sche Algebra und Vektorrechnung - soweit bisher behandelt - sind weitestgehend enthalten (der Teil deutsch-&gt;boolescher Ausdruck fehlt leider). Zum Rechnen mit Matrizen habe ich jetzt nichts gefunden. In der Hoffnung, Dir zumindest ein wenig geholfen zu haben, verbleibe ich mit freundlichen Grüßen, <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

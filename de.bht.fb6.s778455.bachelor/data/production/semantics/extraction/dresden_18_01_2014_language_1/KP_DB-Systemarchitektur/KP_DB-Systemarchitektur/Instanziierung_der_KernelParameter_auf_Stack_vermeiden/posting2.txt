@@ -1,0 +1,10 @@
+ID: 2085
+CREATION_DATETIME: 1371679200000
+MODIFICATION_DATETIME: 1371679200000
+TITLE: Hört sich erstmal gut an und die Instanziierung ist auch nicht wirklich komplexer.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2079
+POSTING_TYPE: comment
+CONTENT:
+Hört sich erstmal gut an und die Instanziierung ist auch nicht wirklich komplexer.
+TAGGED_CONTENT:

@@ -1,0 +1,15 @@
+ID: 2519
+CREATION_DATETIME: 1376172000000
+MODIFICATION_DATETIME: 1376172000000
+TITLE: Ich versteh nicht wieso ABE nicht in der Hülle von C ist, es wird doch mit D darauf verwiesen?!
+LANGUAGE: GERMAN
+NER_TAG: value:ABE;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:lle;weight:0.0;uri:;postag:NN
+POS_TAG: value:C;weight:0.0;uri:;postag:NN
+POS_TAG: value:ABE;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2512
+POSTING_TYPE: comment
+CONTENT:
+Ich versteh nicht wieso ABE nicht in der Hülle <NAME_CORPUS_REPLACEMENT> C ist, es wird doch mit D darauf verwiesen?!
+TAGGED_CONTENT:
+Ich_PPER versteh_VVFIN nicht_PTKNEG wieso_PWAV ABE_NN nicht_PTKNEG in_APPR der_ART Hülle_NN <_NE NAME_CORPUS_REPLACEMENT_NE >_CARD C_NN ist_VAFIN ,_$, es_PPER wird_VAFIN doch_ADV mit_APPR D_NE darauf_PROAV verwiesen_VVPP ?!_XY 

@@ -1,0 +1,20 @@
+ID: 1446
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1365285600000
+TITLE: Muss man signal(SIGXCPU, sigfunc); in jeder Funktion aufrufen?
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1436
+POSTING_TYPE: question
+CONTENT:
+Muss man dieses
+
+```ruby
+
+signal(SIGXCPU, sigfunc);
+
+```
+
+in jede aufgerufene Funktion einbauen oder reicht es, wenn es einmal in main(); aufgerufen wird?
+
+Edit: Und sind hier zur Beendung <NAME_CORPUS_REPLACEMENT> ineinander verschachtelten Schleifen goto-Befehle erlaubt?
+TAGGED_CONTENT:

@@ -1,0 +1,11 @@
+ID: 2092883
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1380492000000
+TITLE: Support Center
+INTRO: Das ist das Support Center für auditorium. 
+
+Hier können allgemeine und Fragen zu  auditorium gestellt werden.  
+Hier werden Informationen zum aktuellen Stand zu auditorium veröffentlicht.
+
+Email: [inf-auditorium@groups.tu-dresden.de](mailto:inf-auditorium@groups.tu-dresden.de)
+TYPE: null

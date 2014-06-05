@@ -1,0 +1,33 @@
+ID: 170205
+CREATION_DATETIME: 1350213811
+MODIFICATION_DATETIME: 1350213811
+TITLE: Re: Online Präsenz vom 10.10.
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:5.18753055338448;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Ordnungsrelationen;weight:1.0;significance:4.005134111558;degreegeneralization:8;uri:20797488
+TOPIC_ZOOM_TAG: value:Ordnungstheorie;weight:1.0;significance:4.005134111558;degreegeneralization:6;uri:20797505
+TOPIC_ZOOM_TAG: value:Alphabete;weight:1.0;significance:4.005134111558;degreegeneralization:8;uri:20095405
+TOPIC_ZOOM_TAG: value:Relationen (Mathematik);weight:1.0;significance:4.005134111558;degreegeneralization:7;uri:20797471
+TOPIC_ZOOM_TAG: value:Schriftsprache;weight:1.0;significance:3.86997907552193;degreegeneralization:7;uri:20120599
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:2.98265634797786;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Mathematiker;weight:1.0;significance:2.85513826294746;degreegeneralization:8;uri:21966255
+TOPIC_ZOOM_TAG: value:Schrift;weight:1.0;significance:2.73624661496789;degreegeneralization:6;uri:20916998
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:3.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:2.33481144310352;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:2.0;significance:2.30164750105593;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Sprache, Zivilisation und Bevölkerung;weight:1.0;significance:2.22197222718385;degreegeneralization:5;uri:20895986
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:2.0;significance:1.93072090738998;degreegeneralization:3;uri:20758133
+TOPIC_ZOOM_TAG: value:Sprache als Bereich der Kultur;weight:1.0;significance:1.92180903080483;degreegeneralization:5;uri:20896003
+TOPIC_ZOOM_TAG: value:Forschung;weight:1.0;significance:1.68296885355641;degreegeneralization:4;uri:21471079
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:1.66956903594565;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Forschung und Entwicklung;weight:1.0;significance:1.64596809370158;degreegeneralization:3;uri:21603526
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:1.47917088314699;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:1.43255875749497;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Kunst, Kultur, Musik;weight:1.0;significance:1.01590231222495;degreegeneralization:2;uri:21999796
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:0.72709721863856;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 170025
+CONTENT:
+Okay, habe ich verstanden. Hierzu habe ich aber auch noch eine allgemeine Frage. Wenn ich schreibe "aRb" oder auch "bRa"  oder auch "cRz", woher weiß man dann ich welcher Relation diese Elemente zu einander stehen. Ich hoffe ihr versteht was ich meine. Anders ausgedrückt, wenn ich "aRb" einzelnt betrachte heißt das nun "a&lt;b", oder "a&gt;b", oder "a=b" oder "a&lt;=b" oder "a=&gt;b"? Das kann man doch gar nicht wissen.
+Ja, genau. Man kann es nicht wissen. a R b steht eben nicht für eine konkrete Relation, sondern erst einmal für eine beliebige, nicht genau bestimmte Relation, ist also eine abstrakte Betrachtung. Mathematiker wollen ja meistens auch keine konkreten Probleme lösen sondern abstrakte Aussagen formulieren, die für ganze <REMOVED_PERSON_ENTITY> von Problemen gelten. Man kann für R nun beliebige Relationen einsetzen (a größer als b, a kleiner als b, a gleich b, a ungleich b ...) und dann prüfen, ob sie reflexiv, symmetrisch transitiv usw. sind.
+Ich frage aus diesem <REMOVED_PERSON_ENTITY> weil Du oben geschrieben hast "Eine größer-oder-gleich Relation". Was genau soll eine "Eine größer-oder-gleich Relation" sein?
+Eine größer-oder-gleich-Relation ist gegeben, wenn <REMOVED_PERSON_ENTITY>, die links vom Zeichen &gt;= steht, größer oder gleich der <REMOVED_PERSON_ENTITY> ist, die rechts davon steht. Das ist doch eigentlich trivial, oder?Natürlich funktioniert das nur für Elemente wie Zahlen, die man auch hinsichtlich der Größe vergleichen kann. Wenn man a, b, c als Buchstaben betrachtet, dann muss man halt eine analoge Ordnungsrelation verwenden, also z. B. a "steht im Alphabet an der gleichen Stelle oder weiter hinten" wie bzw. als b.
+TAGGED_CONTENT:

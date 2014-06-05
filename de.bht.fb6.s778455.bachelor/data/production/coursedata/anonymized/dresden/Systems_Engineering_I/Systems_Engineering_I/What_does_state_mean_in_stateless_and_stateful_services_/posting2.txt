@@ -1,0 +1,9 @@
+ID: 2283
+CREATION_DATETIME: 1374012000000
+MODIFICATION_DATETIME: 1374012000000
+TITLE: The state relates to the current context of the request, e.g., its parameters.
+PARENT_POSTING_ID: 2282
+POSTING_TYPE: answer
+CONTENT:
+The state relates to the current context of the request, e. g., its parameters.
+TAGGED_CONTENT:

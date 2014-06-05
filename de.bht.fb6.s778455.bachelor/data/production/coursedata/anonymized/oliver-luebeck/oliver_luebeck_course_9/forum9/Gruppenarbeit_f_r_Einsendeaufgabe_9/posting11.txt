@@ -1,0 +1,12 @@
+ID: 56
+CREATION_DATETIME: 1179767940000
+MODIFICATION_DATETIME: 1179767940000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 55
+CONTENT:
+  
+Ja, ich bin auch noch "ohne".
+Falls Du inzwischen noch keinen gefunden hast...
+   
+TAGGED_CONTENT:

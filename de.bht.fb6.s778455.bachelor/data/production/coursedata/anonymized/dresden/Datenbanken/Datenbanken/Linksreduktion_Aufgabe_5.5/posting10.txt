@@ -1,0 +1,11 @@
+ID: 2528
+CREATION_DATETIME: 1376344800000
+MODIFICATION_DATETIME: 1376344800000
+TITLE: Müssen nicht alle Elemente aufgestellt werden?
+Waren grad essen, aber die anderen gehen noch.
+PARENT_POSTING_ID: 2512
+POSTING_TYPE: comment
+CONTENT:
+Müssen nicht alle Elemente aufgestellt werden?
+Waren grad essen, aber die anderen gehen noch.
+TAGGED_CONTENT:

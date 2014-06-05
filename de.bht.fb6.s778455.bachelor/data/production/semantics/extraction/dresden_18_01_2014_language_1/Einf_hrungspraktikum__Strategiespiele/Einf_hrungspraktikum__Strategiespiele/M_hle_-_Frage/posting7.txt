@@ -1,0 +1,10 @@
+ID: 1181
+CREATION_DATETIME: 1362438000000
+MODIFICATION_DATETIME: 1362438000000
+TITLE: ok, doch noch ne frage: was bringt mir der newline-char? ich muss doch im endeffekt nur 3 werte wiede...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1175
+POSTING_TYPE: comment
+CONTENT:
+ok, doch noch ne frage: was bringt mir der newline-char? ich muss doch im endeffekt nur 3 werte wiedergeben..?
+TAGGED_CONTENT:

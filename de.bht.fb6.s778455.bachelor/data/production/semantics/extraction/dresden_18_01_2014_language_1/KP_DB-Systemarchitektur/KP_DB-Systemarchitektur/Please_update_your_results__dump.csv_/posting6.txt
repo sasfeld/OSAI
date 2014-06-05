@@ -1,0 +1,10 @@
+ID: 2388
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: Nur das sie nicht unserem Projekt entsprechen.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2382
+POSTING_TYPE: comment
+CONTENT:
+Nur das sie nicht unserem Projekt entsprechen. <REMOVED_PERSON_ENTITY>, mach einfach eine neue dump. csv mit deinen Testfällen oder <REMOVED_PERSON_ENTITY> wie auch immer. Ich kann es nicht, <NAME_CORPUS_REPLACEMENT> ich nicht weiß, welche du verwendet hast.
+TAGGED_CONTENT:

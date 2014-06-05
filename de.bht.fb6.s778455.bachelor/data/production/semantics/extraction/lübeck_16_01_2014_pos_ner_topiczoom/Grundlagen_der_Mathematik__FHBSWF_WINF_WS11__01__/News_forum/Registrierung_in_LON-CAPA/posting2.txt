@@ -1,0 +1,11 @@
+ID: 117499
+CREATION_DATETIME: 1319015048
+MODIFICATION_DATETIME: 1319015048
+TITLE: Re: Registrierung in LON-CAPA
+POS_TAG: value:Aufnahme;weight:0.0;uri:;postag:NN
+POS_TAG: value:Antraege;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117498
+CONTENT:
+Die Aufnahme ist nun geschlossen. Offene Antraege wurden eben bearbeitet. <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Die_ART Aufnahme_NN ist_VAFIN nun_ADV geschlossen_VVPP ._$. Offene_ADJA Antraege_NN wurden_VAFIN eben_ADV bearbeitet_VVPP ._$. <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_XY 

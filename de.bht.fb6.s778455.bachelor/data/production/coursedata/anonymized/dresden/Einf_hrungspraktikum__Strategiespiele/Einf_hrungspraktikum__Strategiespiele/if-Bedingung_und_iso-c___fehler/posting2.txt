@@ -1,0 +1,11 @@
+ID: 1452
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1362870000000
+TITLE: Hat sich erledigt: es muss == ' ' heißen und nicht " ".
+Es werden keine Fehler mehr angezeigt.
+PARENT_POSTING_ID: 1451
+POSTING_TYPE: comment
+CONTENT:
+Hat sich erledigt: es muss == ' ' heißen und nicht " ".
+Es werden keine Fehler mehr angezeigt.
+TAGGED_CONTENT:

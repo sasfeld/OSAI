@@ -1,0 +1,22 @@
+ID: 184449
+CREATION_DATETIME: 1354461624
+MODIFICATION_DATETIME: 1354461624
+TITLE: Re: Aufgabe 2b)
+TOPIC_ZOOM_TAG: value:Mathematik;weight:3.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:3.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Vektorräume;weight:1.0;significance:4.23618317174463;degreegeneralization:8;uri:20146881
+TOPIC_ZOOM_TAG: value:Lineare Algebra;weight:1.0;significance:4.23618317174463;degreegeneralization:7;uri:20881366
+TOPIC_ZOOM_TAG: value:Algebraische Begriffe;weight:1.0;significance:4.23618317174463;degreegeneralization:7;uri:20767840
+TOPIC_ZOOM_TAG: value:Skalare;weight:1.0;significance:4.23618317174463;degreegeneralization:7;uri:19937424
+TOPIC_ZOOM_TAG: value:Algebra;weight:1.0;significance:4.23618317174463;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Natur;weight:3.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Verfügungen;weight:1.0;significance:2.41632133369659;degreegeneralization:3;uri:19992589
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:3.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:3.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:0.883699004801097;degreegeneralization:2;uri:21999830
+PARENT_POSTING_ID: 184435
+CONTENT:
+Hi <REMOVED_PERSON_ENTITY>,
+aufgrund der Vorraussetzung, dass die Spaltenvektoren in Summe 0 ergeben sollen, also einen Nullvektor (habe ich mir gedacht) bilden, kann ich die Spaltenvektoren, hier eben eindimensionale durch die Knoten von v1, v2,..., so mit Skalaren multiplizieren, dass sie gemeinsam den Nullvektor ergeben. Hieraus folgt ja wieder, dass entweder die triviale Lösung oder eben unendlich viele Lösungen möglich ist/sind. Oder? :/
+Andere Idee, ähnliches Prinzip: Bei einem Untervektorraum von V müssen wir für W doch eigentlich "nur" zeigen, dass er abgeschlossen ist, wenn man die Addition und die skalare Multiplikation durchführt. Da wir hier ja komplett R zur Verfügung haben (V(G)--&gt;R), kommen wir doch mit diesen beiden Rechenregeln nie aus dem vorgegeben Vektorraum heraus oder? Können wir hier nicht eindimensionale Spaltenvektoren als Grundlage nutzen?  Wenn wir dies tun, würde auch meine Idee bzgl. des Nullvektors wieder greifen, so denke ich zumindest.... Ich bin etwas verwirrt jetzt. Dein Ansatz gefällt mir doch immer mehr :)Sorry, wenn ich etwas verwirrend schreibe, aber es ist gar nicht so trivial, seine mathematischen Gedanken niederzuschreiben :DGrüßeLars
+TAGGED_CONTENT:

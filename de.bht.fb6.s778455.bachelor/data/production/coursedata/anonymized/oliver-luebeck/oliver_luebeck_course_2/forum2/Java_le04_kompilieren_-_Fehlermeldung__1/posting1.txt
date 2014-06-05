@@ -1,0 +1,26 @@
+ID: 1
+CREATION_DATETIME: 1175839920000
+MODIFICATION_DATETIME: 1175839920000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo, ich bekomme folgendes wenn ich das Programm mit Java kompilieren möchte:
+
+[cordon@localhost le04]$ java UebClockman.java
+Exception in thread "main" java.lang.NoClassDefFoundError: UebClockman/java
+Caused by: java.lang.ClassNotFoundException: UebClockman.java
+at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+at java.security.AccessController.doPrivileged(Native Method)
+at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:276)
+at java.lang.ClassLoader.loadClass(ClassLoader.java:251)
+at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:319)
+
+Kann mir jemand von euch helfen? Habe ganz normal den Quellcode kopiert und auch die Umgebungsvariablen gesetzt (gleiche unter WinXP), aber anscheinend findet er da was nicht in Gedanken
+
+MfG
+    
+TAGGED_CONTENT:

@@ -1,0 +1,18 @@
+ID: 16543
+CREATION_DATETIME: 1223454781
+MODIFICATION_DATETIME: 1223454781
+TITLE: Re: I: Gruppenangebot: Mathe für speziell Herausgeforderte
+TOPIC_ZOOM_TAG: value:Begabung;weight:1.0;significance:9.4127126492296;degreegeneralization:4;uri:20910980
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:5.57127107797354;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 16541
+CONTENT:
+Halloich halte mich in Sachen Mathematik für durchschnittlich begabt, ich hab den <REMOVED_PERSON_ENTITY> aber bereits mehrmals gelernrt: in der <REMOVED_PERSON_ENTITY>, früheres Studium(Elektrotechnik) und kam damit immer gut zurecht!Da ich den <REMOVED_PERSON_ENTITY> soweit kenne sollte es mir rechnerisch keine großen Probleme bereiten, euch gelegentlich bei schweren Aufgaben unter die Arme zu greifen!Ich würde gerne in eurer Gruppe mitmachen, wenn ihr es auch wollt!MfG <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 2121
+CREATION_DATETIME: 1372456800000
+MODIFICATION_DATETIME: 1372543200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+Wenn ich in Feedback::saveFeedback() <NAME_CORPUS_REPLACEMENT> der ExecutionInstance die getKernelExecutionTime() abfrage, kommt immer 0 oder 1 raus. Können wir das noch etwas präzisieren? Sonst sieht das Diagramm, das wir aus dem CSV erzeugen, erbärmlich aus.
+TAGGED_CONTENT:

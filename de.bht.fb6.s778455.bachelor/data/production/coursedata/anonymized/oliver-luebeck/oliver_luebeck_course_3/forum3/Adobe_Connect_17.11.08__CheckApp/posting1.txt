@@ -1,0 +1,38 @@
+ID: 7
+CREATION_DATETIME: 1195474800000
+MODIFICATION_DATETIME: 1195474800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+ 
+
+Liebe Studierende,
+
+das kleine Programm unten zeigt, dass die Methode nextBoolean() der Klasse Random true oder false zufällig zurück gibt.
+
+In einer Schleife ist die Wahrscheinlichkeit groß, dass true am Anfang der Schleife ausgegeben wird. Daher ist es immer ein der ersten 4 JCheckBox-Objekte in ihrem Programm Frau Blum, das angeschaltet wird. Wegen des ButtonGroup-Objektes werden weitere JcheckBox-Objekte, für die auch true gegeben wird, nicht angeschaltet. Tipp: Probieren Sie was passiert, wenn sie das ButtonGroup-Objekt weg lassen.
+
+Mit freundlichen Grüssen
+
+
+import java . util. Random;
+class TryRandom {
+static public void main(String[] sonja) {
+pln("TryRandom: Jetzt geht es los!");
+
+Random r = new Random();
+
+for (int i=0; i< 25; i++){
+pln(r.nextBoolean());
+}
+pln("TryRandom: Das war's erstmal!");
+} // main
+
+// Eine Methode mit einem kurzen Namen:
+static void pln(Object ob) {System.out.println(ob);}
+
+} // class TryRandom
+    
+TAGGED_CONTENT:

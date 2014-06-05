@@ -1,0 +1,12 @@
+ID: 37
+CREATION_DATETIME: 1177417440000
+MODIFICATION_DATETIME: 1177417440000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 36
+CONTENT:
+
+    ich habs wie ihr, aber
+wie ist es den mit der Rest Angabe für -13%-5 ? da bekomme ich -3.0 ausgespuckt aber wäre da nicht +3.0 korrekt?? 
+    
+TAGGED_CONTENT:

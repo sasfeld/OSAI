@@ -1,0 +1,11 @@
+ID: 195189
+CREATION_DATETIME: 1358759756
+MODIFICATION_DATETIME: 1358759756
+TITLE: Re: Gruppenübungen
+PARENT_POSTING_ID: 194913
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+es gilt, die Matrix M mittels geeigneter Zeilen- und Spaltenoperationen zur Matrix R umzuformen. Dies ist immer möglich, solange beide Matrizen den gleichen Rang haben (in diesem Fall haben beide Rang 2). Es ist nur ein wenig Augenmaß gefragt, um zielgerichtet vorzugehen. Zu jeder Umformung merken Sie sich dabei die zugehörige Elementarmatrix. Das Produkt aller benötigten Elementarmatrizen der Zeilenumformungen (in entgegengesetzter Reihenfolge der Anwendung) ergibt die Matrix P. Das Produkt aller benötigten Elementarmatrizen der Spaltenumformungen (in Reihenfolge der Anwendung) ergibt die Matrix Q. Es beschreibt die Multiplikation mit P von links die Gesamt-Anwendung aller benötigten Zeilenumformungen; analog beschreibt Q die Spaltenumformungen. Entsprechend ergibt sich P*M*Q=R als Abbild des Verfahrensverlaufes.
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

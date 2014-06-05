@@ -1,0 +1,27 @@
+ID: 31
+CREATION_DATETIME: 1191769620000
+MODIFICATION_DATETIME: 1191769620000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo Leute,
+
+ich habe ein kleines Problem mit der zweiten Aufgabe unserer Einsendeaufgabe.
+Es funktioniert ohne Probleme, die .html-Datei einzulesen und Zeilenweise zu verarbeiten. Auch das ersetzen der Umlaute habe ich hinbekommen (auch wenn ich mit der aktuellen Lösung nicht zufrieden bin).
+Mein Problem ist der writer.
+Ich bekomme keine Fehlermeldung oder ähnliches, die ausgabe-Datei wird auch erstellt, aber leider komplett ohne Inhalt.
+Wie ich sagte wird bei mir die Eingabe Zeilenweise verarbeitet, und ebenso sollte dann zeilenweise in die Ausgabe-Datei geschrieben werden. Aber wie gesagt, leider gar nichts.
+Die jeweilige Zeile heißt bei mir nach komplettem Durchlauf "newLineS". In meinem Code steht nun
+
+bWriter.write(newLineS);
+bWriter.newLine();
+
+Habe ich das missverstanden oder müsste auf diese Weise nicht der String newLineS in meine AUsgabe-Datei geschrieben werden?
+
+Hoffe ihr könnt mir helfen!
+
+Grüße
+    
+TAGGED_CONTENT:

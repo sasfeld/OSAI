@@ -1,0 +1,65 @@
+ID: 2902
+CREATION_DATETIME: 1384729200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+ich habe es soweit geschafft, <REMOVED_PERSON_ENTITY> zu erstellen, auf der der gerade angemeldete User sein Passwort ändern kann und das funktioniert auch. Nun würde ich aber gerne wissen, wie ich es hinbekomme, dass ich zum passwort ändern nicht nur das neue passwort iengebe und auf speichern klicke, sondern dass ich zur Passwortänderung das alte Passwort eingeben muss, dann das neue Passwort und dann nocheinmal das neue Passwort zur Bestätigung, bevor das neue Passwort dann gespeichert wird.
+Vielen Dank!
+Edit: Ich habe inzwischen erstmal ein <REMOVED_PERSON_ENTITY> zur Eingabe des alten Passwortes hinzugefügt und <NAME_CORPUS_REPLACEMENT> das dann mit dem alten Passwort des aktuellen Users vergleichen. In Eclipse bekomme ich keine Fehler, aber funktionieren tut es leider noch nicht.
+Hier der Java - Code:
+```java
+@Controller
+@PreAuthorize("hasRole('ROLE_CUSTOMER')")
+class CustomerController {
+  private final UserAccountManager userAccountManager;
+  @Autowired
+  public CustomerController(UserAccountManager userAccountManager) {
+    this. userAccountManager = userAccountManager;
+  }
+  @RequestMapping("/changeOldPW")
+  public String changeOldPW(@ModelAttribute("changePWForm") @Valid ChangePWForm changePWForm, BindingResult result, HttpSession session, @LoggedIn UserAccount userAccount) {
+    if(result. hasErrors()) {
+      return "changePW";
+    }
+    //altes eingegebenes Passwort aus Eingabefeld geben lassen
+    String oldTippedPW = changePWForm. getOldPW();
+    //altes Passwort des aktuellen Users geben lassen
+    Password oldGivenPW = userAccount. getPassword();
+    //altes UserPW in String umwandeln
+    String oldUserPW = oldGivenPW. toString();
+    //Beide Strings vergleichen
+    if(oldTippedPW. equals(oldUserPW)) {
+      // Falls alles in Ordnung ist, lass ich mir über @LoggedIn den aktuellen Account geben und bearbeite das PW über changePassword
+      userAccountManager. changePassword(userAccount, changePWForm. getNewPW());
+      userAccountManager. save(userAccount);     
+      return "redirect:/";
+    }
+    else { return "changePW"; }   
+  }
+  @RequestMapping("/changePW")
+  public String changePW(ModelMap modelMap) {
+    modelMap. addAttribute("changePWForm", new ChangePWForm());
+    return "changePW";
+  }
+}
+```
+und die dazugehörige HTML-Seite:
+```html
+    <title th:text="#{changePW. title}">Passwort ändern
+        <h1 th:text="#{changePW. title}">Passwort ändern
+          <form method="post" action="/changeOldPW" th:object="${changePWForm}">
+              <legend th:text="#{changePW. title}">Passwort ändern
+              <div th:if="${#fields. hasErrors('*')}">
+                Einige Angaben sind nicht korrekt.
+              <label th:text="#{changePW. oldPW}" for="oldPW">altes Passwort
+              <input id="oldPW" th:field="*{oldPW}" th:errorclass="fieldError" type="text" name="oldPW" /> 
+              <p th:if="${#fields. hasErrors('oldPW')}" th:errors="*{oldPW}">Bitte geben Sie zuerst ihr altes Passwort ein.
+              <label th:text="#{changePW. newPW}" for="newPW">neues Passwort
+              <input id="newPW" th:field="*{newPW}" th:errorclass="fieldError" type="text" name="newPW" /> 
+              <p th:if="${#fields. hasErrors('newPW')}" th:errors="*{newPW}">Bitte geben Sie ihr neues Passwort ein.
+              <input type="submit" th:value="#{changePW. submit}" value="Speichern" />
+```
+TAGGED_CONTENT:

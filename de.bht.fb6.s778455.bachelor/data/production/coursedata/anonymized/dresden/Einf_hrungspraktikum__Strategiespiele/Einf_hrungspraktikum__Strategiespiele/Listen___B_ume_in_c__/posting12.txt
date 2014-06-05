@@ -1,0 +1,12 @@
+ID: 1267
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Guck mal: [Erklärung und Beispiel](http://www.cplusplus.com/reference/list/list/begin/)  
+Die Suchma...
+PARENT_POSTING_ID: 1259
+POSTING_TYPE: answer
+CONTENT:
+Guck mal: [Erklärung und Beispiel](http://www.cplusplus.com/reference/list/list/begin/)  
+Die Suchmaschine deiner Wahl findet <NAME_CORPUS_REPLACEMENT> bestimmt noch viel mehr. Bevor du jetzt anfängst, die in die Tiefen der C++ - stdlib einzugraben, solltest du mal einen Blick in dein AuD-Skript werfen, <NAME_CORPUS_REPLACEMENT> steht nämlich alles drin. Für Bäume gibt es zwar vorgefertigte Sachen, aber ob die so einsteigerfreundlich sind…  
+Übrigens kannst du auch einfach C-Code benutzen, der funktioniert in C++ (bis auf minimale Ausnahmen) 1:1.
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 1306
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Oder sein Deutsch ist zu schlecht. Interpunktion und Orthographie lässt ja Raum zur Interpretation.
+PARENT_POSTING_ID: 1300
+POSTING_TYPE: comment
+CONTENT:
+Oder sein Deutsch ist zu schlecht. Interpunktion und Orthographie lassen <LEARNED_PERSON_NAME_REPLACEMENT> <REMOVED_PERSON_ENTITY> zur Interpretation.
+TAGGED_CONTENT:

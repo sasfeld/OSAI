@@ -1,0 +1,36 @@
+ID: 117494
+CREATION_DATETIME: 1321885574
+MODIFICATION_DATETIME: 1321885574
+TITLE: Kursplan Update
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Fachhochschulen in Deutschland;weight:1.0;significance:12.015402334674;degreegeneralization:12;uri:21957551
+TOPIC_ZOOM_TAG: value:Fachhochschulen;weight:1.0;significance:11.6099372265658;degreegeneralization:5;uri:21881935
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten in Deutschland;weight:1.0;significance:8.20873984490366;degreegeneralization:11;uri:21957585
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten in Europa;weight:1.0;significance:8.16525473296392;degreegeneralization:8;uri:20920126
+TOPIC_ZOOM_TAG: value:Studium und berufliche Ausbildung in Deutschland;weight:1.0;significance:8.16525473296392;degreegeneralization:10;uri:21881136
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung in Deutschland;weight:1.0;significance:7.6333757000001;degreegeneralization:9;uri:21998589
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung - Europa;weight:1.0;significance:7.58458553583067;degreegeneralization:7;uri:20742850
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Wissenschaft und Technik in Deutschland;weight:1.0;significance:5.44943338713683;degreegeneralization:9;uri:21946076
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Deutschland;weight:1.0;significance:2.0357642545643;degreegeneralization:8;uri:21996974
+TOPIC_ZOOM_TAG: value:Europa;weight:1.0;significance:1.55587681555031;degreegeneralization:6;uri:21972001
+POS_TAG: value:Pflichttermin;weight:0.0;uri:;postag:NN
+POS_TAG: value:Praesenzstundenplan;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fassung;weight:0.0;uri:;postag:NN
+POS_TAG: value:VFH;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kursplan;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bitte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Absprache;weight:0.0;uri:;postag:NN
+POS_TAG: value:Termin;weight:0.0;uri:;postag:NN
+POS_TAG: value:Pflichttermine;weight:0.0;uri:;postag:NN
+POS_TAG: value:Verschiebung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Bitte beachten Sie die Verschiebung der Pflichttermine im Kursplan. Es gilt der Praesenzstundenplan der VFH, an den ich den Kursplan (auf einer alten Fassung beruhend) nun angepasst habe.
+Weiterhin duerfen Sie sich den Januar-Termin als Pflichttermin nach (vorheriger) Absprache mit mir anrechnen lassen.
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Bitte_NN beachten_VVFIN Sie_PPER die_ART Verschiebung_NN der_ART Pflichttermine_NN im_APPRART Kursplan_NN ._$. Es_PPER gilt_VVFIN der_ART Praesenzstundenplan_NN der_ART VFH_NN ,_$, an_APPR den_PRELS ich_PPER den_ART Kursplan_NN -LRB-_TRUNC auf_APPR einer_ART alten_ADJA Fassung_NN beruhend_ADJD -RRB-_TRUNC nun_ADV angepasst_VVPP habe_VAFIN ._$. Weiterhin_ADV duerfen_VVFIN Sie_PPER sich_PRF den_ART Januar-Termin_NN als_APPR Pflichttermin_NN nach_APPR -LRB-_TRUNC vorheriger_ADJA -RRB-_TRUNC Absprache_NN mit_APPR mir_PPER anrechnen_VVINF lassen_VVINF ._$. <_XY REMOVED_PERSON_ENTITY_NE >_XY 

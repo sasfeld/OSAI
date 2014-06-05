@@ -1,0 +1,12 @@
+ID: 1272
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Ein Struct mit vier Elementen, zwei Pointer und eine Einfügefunktion. Das ist das minimale Setup für ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1267
+POSTING_TYPE: comment
+CONTENT:
+Ein Struct mit vier Elementen, zwei Pointer und eine Einfügefunktion. Das ist das minimale Setup für das Problem "Längster Ast in einem Baum finden."  
+
+Alternativ ein Struct mit drei Elementen, ein Pointer und zwei Funktionen. Dauert höchstens 15 min.
+TAGGED_CONTENT:

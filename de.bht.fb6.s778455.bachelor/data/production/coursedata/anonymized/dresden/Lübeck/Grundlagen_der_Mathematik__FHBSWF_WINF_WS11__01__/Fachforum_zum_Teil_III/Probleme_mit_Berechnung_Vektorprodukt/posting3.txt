@@ -1,0 +1,8 @@
+ID: 117584
+CREATION_DATETIME: 1324666617
+MODIFICATION_DATETIME: 1324666617
+TITLE: Re: Probleme mit Berechnung Vektorprodukt
+PARENT_POSTING_ID: 117582
+CONTENT:
+<REMOVED_PERSON_ENTITY> hat Recht. Du muss auf das Vorzeichen im zweiten Komponent achten und die Aufgabe ist gelöst. 
+TAGGED_CONTENT:

@@ -1,0 +1,25 @@
+ID: 170245
+CREATION_DATETIME: 1350221077
+MODIFICATION_DATETIME: 1350221077
+TITLE: Re: Online Präsenz vom 10.10.
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:Antwort;weight:0.0;uri:;postag:NN
+POS_TAG: value:senz;weight:0.0;uri:;postag:NN
+POS_TAG: value:bungsaufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dinge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Herrn;weight:0.0;uri:;postag:NN
+POS_TAG: value:Info;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 170213
+CONTENT:
+Hi <REMOVED_PERSON_ENTITY>,
+mal wieder besten Dank für deine ausführliche Antwort. Jetzt sind mir einige Dinge etwas klarer geworden. :-)
+Diese Übungsaufgabe würde in der Online Präsenz am 10. 10. kurz von Herrn <REMOVED_PERSON_ENTITY> angesprochen. Hoffe diese Info reicht dir?
+Danke und Guß
+<REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:
+Hi_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, mal_ADV wieder_ADV besten_ADJA Dank_NN für_APPR deine_PPOSAT ausführliche_ADJA Antwort_NN ._$. Jetzt_ADV sind_VAFIN mir_PPER einige_PIAT Dinge_NN etwas_ADV klarer_ADJD geworden_VAPP ._$. :--RRB-_NE Diese_PDAT Übungsaufgabe_NN würde_VAFIN in_APPR der_ART Online_ADJA Präsenz_NN am_APPRART 10_CARD ._$. 10_CARD ._$. kurz_ADJD von_APPR Herrn_NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE angesprochen_VVPP ._$. Hoffe_VVFIN diese_PDAT Info_NN reicht_VVFIN dir_PPER ?_$. Danke_NE und_KON Guß_NE <_NE REMOVED_PERSON_ENTITY_NE >_XY 

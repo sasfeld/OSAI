@@ -1,0 +1,14 @@
+ID: 17
+CREATION_DATETIME: 1176231120000
+MODIFICATION_DATETIME: 1176231120000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 16
+CONTENT:
+
+Hallo ,
+
+versuch mal ohne codebase, dass sollte auch so funktionieren, wenn sich die .class und die html im selben verzeichnis befinden.   
+
+    
+TAGGED_CONTENT:

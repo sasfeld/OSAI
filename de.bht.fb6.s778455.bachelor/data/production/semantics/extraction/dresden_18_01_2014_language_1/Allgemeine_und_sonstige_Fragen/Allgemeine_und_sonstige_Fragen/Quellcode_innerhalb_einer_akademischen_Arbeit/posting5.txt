@@ -1,0 +1,10 @@
+ID: 650
+CREATION_DATETIME: 1351810800000
+MODIFICATION_DATETIME: 1351810800000
+TITLE: Gerade drüber gestolpert [LaTeX source code listing like in professional books](http://stackoverflow....
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 632
+POSTING_TYPE: comment
+CONTENT:
+Gerade drüber gestolpert [LaTeX source code listing like in professional books](http://stackoverflow.com/q/741985/1248008).
+TAGGED_CONTENT:

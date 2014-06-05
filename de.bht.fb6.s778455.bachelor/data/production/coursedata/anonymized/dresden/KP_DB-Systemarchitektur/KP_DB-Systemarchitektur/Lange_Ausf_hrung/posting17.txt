@@ -1,0 +1,11 @@
+ID: 2252
+CREATION_DATETIME: 1373925600000
+MODIFICATION_DATETIME: 1373925600000
+TITLE: Aber terminiert es?
+Kannst du mal schauen, ob es am predictTime liegt? Dann könnte man nämlich das d...
+PARENT_POSTING_ID: 2251
+POSTING_TYPE: comment
+CONTENT:
+Aber terminiert es?
+Kannst du mal schauen, ob es am predictTime liegt? Dann könnte man nämlich das dirty-Flag anpassen.
+TAGGED_CONTENT:

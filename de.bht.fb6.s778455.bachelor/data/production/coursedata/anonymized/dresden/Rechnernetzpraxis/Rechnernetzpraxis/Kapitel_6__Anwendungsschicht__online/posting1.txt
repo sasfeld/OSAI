@@ -1,0 +1,10 @@
+ID: 3040
+CREATION_DATETIME: 1385506800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Hier der Link zum 6. Vorlesungskapitel:
+http://www.rn.inf.tu-dresden. de/lectures/Rechnernetzpraxis/06_RNP_Anwendungsschicht. pdf
+TAGGED_CONTENT:

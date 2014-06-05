@@ -1,0 +1,9 @@
+ID: 783
+CREATION_DATETIME: 1352934000000
+MODIFICATION_DATETIME: 1352934000000
+TITLE: What was the return value of fwrite on test 3?
+PARENT_POSTING_ID: 682
+POSTING_TYPE: comment
+CONTENT:
+What was the return value of fwrite on test 3?
+TAGGED_CONTENT:

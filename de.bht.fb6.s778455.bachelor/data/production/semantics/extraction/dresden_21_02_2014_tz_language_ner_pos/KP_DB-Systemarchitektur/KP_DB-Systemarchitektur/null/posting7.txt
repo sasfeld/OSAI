@@ -1,0 +1,13 @@
+ID: 2296
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Du siehst es in der Ausgabe-CSV, ob die Vorhersage trotzdem noch funktioniert.
+LANGUAGE: GERMAN
+POS_TAG: value:CSV;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorhersage;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2291
+POSTING_TYPE: comment
+CONTENT:
+Du siehst es in der Ausgabe-CSV, ob die Vorhersage trotzdem noch funktioniert.
+TAGGED_CONTENT:
+Du_PPER siehst_VAFIN es_PPER in_APPR der_ART Ausgabe-CSV_NN ,_$, ob_KOUS die_ART Vorhersage_NN trotzdem_PROAV noch_ADV funktioniert_VVFIN ._$. 

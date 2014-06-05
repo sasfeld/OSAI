@@ -1,0 +1,10 @@
+ID: 285
+CREATION_DATETIME: 1349906400000
+MODIFICATION_DATETIME: 1349906400000
+TITLE: [Kudos](http://www.ur
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 282
+POSTING_TYPE: comment
+CONTENT:
+[Kudos](http://www.urbandictionary.com/define. php?term=kudos) ist so ein allgemeiner Begriff für Belohnungspunkte. Wenn du quasi etwas toll gemacht hast, gibts Kudos dafür. Also wenn jemand deine Frage oder Antwort als gut bewerten will, gibt er dir Kudos, indem er auf den "<REMOVED_PERSON_ENTITY> Button" nach oben drückt.
+TAGGED_CONTENT:

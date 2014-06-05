@@ -1,0 +1,13 @@
+ID: 479
+CREATION_DATETIME: 1351029600000
+MODIFICATION_DATETIME: 1376517600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+As mentioned in the lecture there are little chances to do synchronization with the help of a semaphore thread as long as the competing threads are ignoring the results of the atomic decrement of the counter.
+Using the help of the kernel to do the synchronisation or help forcing the uncooperative thread to yield would probably break the concept of a µ-kernel. But the kernel takes its "power" from the priveleged instructions it <NAME_CORPUS_REPLACEMENT> execute and the address spaces it <NAME_CORPUS_REPLACEMENT> access. A switch to the kernel mode is (as far as I understand) simply done by switching the CPU from ring 3 to ring 0 with all the other hardware rings mostly unused.
+So why not use one of theese rings to establish an intermediate privelege mode - a synchronization mode? In combination with some address space that holds locking variables and critical code sections and <NAME_CORPUS_REPLACEMENT> only be accessed while in this mode one might be able to construct a mechanism to synchronize threads even if they do not cooperate.
+Do you think this might work?
+Or did I get my premises wrong?
+TAGGED_CONTENT:

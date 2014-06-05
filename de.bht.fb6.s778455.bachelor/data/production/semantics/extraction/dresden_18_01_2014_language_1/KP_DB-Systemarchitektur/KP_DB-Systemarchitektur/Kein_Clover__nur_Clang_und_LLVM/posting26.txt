@@ -1,0 +1,10 @@
+ID: 2010
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: hab ich probiert. hat auch nicht funktioniert
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2007
+POSTING_TYPE: comment
+CONTENT:
+hab ich probiert. hat auch nicht funktioniert
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 112
+CREATION_DATETIME: 1347919200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Wir haben eine Funktion hinzugefügt, mit der es möglich ist, [einen Kurs vorzuschlagen](http://auditorium.inftex.net/courses/new). Dieser kann auch direkt genutzt werden, muss aber noch <NAME_CORPUS_REPLACEMENT> unseren Admins freigegeben werden. 
+TAGGED_CONTENT:

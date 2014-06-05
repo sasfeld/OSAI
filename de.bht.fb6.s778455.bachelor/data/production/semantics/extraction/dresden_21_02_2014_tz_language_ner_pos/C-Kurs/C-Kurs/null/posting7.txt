@@ -1,0 +1,19 @@
+ID: 3032
+CREATION_DATETIME: 1385420400000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: Ok das Problem hat sich für mich somit erledigt. Es lag in der Tat einfach nur daran, dass ich die Re...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ende;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hilfe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tat;weight:0.0;uri:;postag:NN
+POS_TAG: value:Reihenfolge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Compileraufruf;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 3020
+POSTING_TYPE: comment
+CONTENT:
+Ok das Problem hat sich für mich somit erledigt. Es lag in der Tat einfach nur daran, dass ich die Reihenfolge beim Compileraufruf nicht eingehalten habe. Als ich -lm ans Ende gesetzt habe, funktionierte alles. Danke für die Hilfe!
+TAGGED_CONTENT:
+Ok_KOUS das_ART Problem_NN hat_VAFIN sich_PRF für_APPR mich_PPER somit_ADV erledigt_VVPP ._$. Es_PPER lag_VVFIN in_APPR der_ART Tat_NN einfach_ADV nur_ADV daran_PROAV ,_$, dass_KOUS ich_PPER die_ART Reihenfolge_NN beim_APPRART Compileraufruf_NN nicht_PTKNEG eingehalten_VVPP habe_VAFIN ._$. Als_KOUS ich_PPER -_$( lm_KON ans_APPRART Ende_NN gesetzt_VVPP habe_VAFIN ,_$, funktionierte_VVFIN alles_PIS ._$. Danke_PROAV für_APPR die_ART Hilfe_NN !_$. 

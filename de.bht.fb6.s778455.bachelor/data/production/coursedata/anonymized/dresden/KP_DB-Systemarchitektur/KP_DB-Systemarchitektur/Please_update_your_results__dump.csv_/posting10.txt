@@ -1,0 +1,12 @@
+ID: 2387
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: immer testCLT.
+
+Die jetzigen Diagramme sagen IMO allevaus, was sie sagen sollen. Also kein Grund zu...
+PARENT_POSTING_ID: 2382
+POSTING_TYPE: comment
+CONTENT:
+immer testCLT.
+Die jetzigen Diagramme sagen IMO allevaus, was sie sagen sollen. Also kein <REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

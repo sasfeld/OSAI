@@ -1,0 +1,18 @@
+ID: 3036
+CREATION_DATETIME: 1385506800000
+MODIFICATION_DATETIME: 1385506800000
+TITLE: Ich wollte den Loginname ändern können und hab keine Methode gefunden. Also dachte ich, man erstellt ...
+PARENT_POSTING_ID: 3033
+POSTING_TYPE: answer
+CONTENT:
+Ich wollte den Loginname ändern können und hab keine Methode gefunden. Also dachte ich, man erstellt einfach einen neuen UserAccount und deaktiviert den alten. 
+Ich glaub, mir ist gerade eine Lösung eingefallen. Ich lass einfachen den User sein Passwort als bestätigung eingeben. Verschlüssel es, und vergleiche es mit dem vom Account. Wenn das das richtige ist, hab ich das gesuchte Passwort.
+Meine Idee hat nicht Funktioniert. Hier mal der Codeblock:
+```java
+UserAccountIdentifier UI = new UserAccountIdentifier("Test");
+		UserAccount Account = userAccountManager. create(UI, "123", new Role("ROLE_CHEF"));
+		userAccountManager. save(Account);
+		System. out. println("Passwortvergleich: " + Account. getPassword(). equals(new Password("123")));
+```
+Das ergebnis war leider `false`
+TAGGED_CONTENT:

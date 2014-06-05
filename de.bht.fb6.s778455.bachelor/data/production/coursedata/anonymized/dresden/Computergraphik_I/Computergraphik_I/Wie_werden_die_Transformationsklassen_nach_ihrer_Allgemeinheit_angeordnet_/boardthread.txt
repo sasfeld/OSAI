@@ -1,0 +1,5 @@
+ID: 1871
+CREATION_DATETIME: 1369864800000
+MODIFICATION_DATETIME: 1376604000000
+TITLE: Wie werden die Transformationsklassen nach ihrer Allgemeinheit angeordnet?
+FIRST_POSTING_ID: 1871

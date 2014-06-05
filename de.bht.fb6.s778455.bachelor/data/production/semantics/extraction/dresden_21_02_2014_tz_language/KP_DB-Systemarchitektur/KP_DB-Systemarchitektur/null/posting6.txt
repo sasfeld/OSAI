@@ -1,0 +1,16 @@
+ID: 2291
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Da wir ja leider keine andere Möglichkeit finden konnten das ganze zu Umgehen, habe ich jetzt einen W...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+PARENT_POSTING_ID: 2203
+POSTING_TYPE: answer
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> wir ja leider keine andere Möglichkeit finden konnten das ganze zu Umgehen, habe ich jetzt einen Workaround eingebaut, der dafür sorgt, dass die Analyse (und damit der clangaufruf) nicht stattfindet, wenn eine Inteplattform verwendet wird.
+
+Dadurch sind die KernelMetrics dann immer 0.
+
+Die Auswirkungen auf die Vorhersage habe ich noch nicht getestet. Aber wenn ihr im Falle, dass keine Metric korreliert einfach die bisherigen Laufzeiten als Maßstab nehmt und mit diesen extrapoliert, dann dürfte das ja kein Problem sein.
+TAGGED_CONTENT:

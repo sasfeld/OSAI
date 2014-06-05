@@ -1,0 +1,14 @@
+ID: 12
+CREATION_DATETIME: 1304095380000
+MODIFICATION_DATETIME: 1304095380000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 11
+CONTENT:
+ 
+ich hab die neuen attribute einfach mit in ErweitertesAuto geschrieben und dann genau so zugewiesen wie es vorher z.b. mit autotyp und farbe gemacht wurde. meinst du wir sollten eine zweite methode dafür schreiben?
+wie das dann funktionieren würde müsste ich ausprobieren.
+
+jetzt hab ich endlich meine laptop zurück, dann werde ich gleich mal ein bißchen dran basteln, auch am "problem" mit dem Speichern von kmStand und neuem Standort....
+   
+TAGGED_CONTENT:

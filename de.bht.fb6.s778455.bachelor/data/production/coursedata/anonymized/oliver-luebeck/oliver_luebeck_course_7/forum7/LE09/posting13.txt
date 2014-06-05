@@ -1,0 +1,17 @@
+ID: 56
+CREATION_DATETIME: 1305041640000
+MODIFICATION_DATETIME: 1305041640000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 55
+CONTENT:
+  
+Völlig richtig.
+
+Bei dir sind aber die else if nicht nötig da du dich von oben nach unten durch arbeitest und sobald das Ergebnis true ist aus der Methode raus gehst.
+
+Auch ohne else if ist deine Methode lauffähig.
+
+Gruß
+    
+TAGGED_CONTENT:

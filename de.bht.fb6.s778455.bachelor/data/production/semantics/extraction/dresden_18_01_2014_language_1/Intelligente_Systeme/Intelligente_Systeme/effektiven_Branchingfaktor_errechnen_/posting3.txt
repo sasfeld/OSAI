@@ -1,0 +1,10 @@
+ID: 722
+CREATION_DATETIME: 1352502000000
+MODIFICATION_DATETIME: 1352502000000
+TITLE: Danke. Das habe ich mal implementiert und es scheint soweit ein plausibles Ergebnis dabei rauszukomme...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 719
+POSTING_TYPE: comment
+CONTENT:
+Danke. Das habe ich mal implementiert und es scheint soweit ein plausibles Ergebnis dabei rauszukommen.
+TAGGED_CONTENT:

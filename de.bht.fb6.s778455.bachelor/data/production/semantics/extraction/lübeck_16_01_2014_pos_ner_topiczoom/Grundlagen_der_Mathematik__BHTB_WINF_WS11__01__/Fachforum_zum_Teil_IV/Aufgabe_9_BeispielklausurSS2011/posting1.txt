@@ -1,0 +1,21 @@
+ID: 116465
+CREATION_DATETIME: 1326644430
+MODIFICATION_DATETIME: 1326644430
+TITLE: Aufgabe 9 BeispielklausurSS2011
+TOPIC_ZOOM_TAG: value:Liebe;weight:1.0;significance:6.84491833963583;degreegeneralization:5;uri:21126234
+TOPIC_ZOOM_TAG: value:Partnerschaft, Ehe, Liebe, Sex;weight:1.0;significance:4.77978319360723;degreegeneralization:4;uri:21126268
+TOPIC_ZOOM_TAG: value:Zwischenmenschliche Beziehungen;weight:1.0;significance:4.51902740448583;degreegeneralization:3;uri:20122843
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+POS_TAG: value:Umsetzung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Lieben;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungsansatz;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Ihr Lieben,
+kann mir jemand diese Aufgabe erklären? Ich komme der Umsetzung leider auch mit dem Lösungsansatz nicht näher.
+Was muss ich warum hier tun?
+Herzlichen Dank im voraus!
+TAGGED_CONTENT:
+Hallo_ITJ Ihr_PPOSAT Lieben_NN ,_$, kann_VMFIN mir_PPER jemand_PIS diese_PDAT Aufgabe_NN erklären_VVINF ?_$. Ich_PPER komme_VVFIN der_ART Umsetzung_NN leider_ADV auch_ADV mit_APPR dem_ART Lösungsansatz_NN nicht_PTKNEG näher_PTKVZ ._$. Was_PWS muss_VVFIN ich_PPER warum_PWAV hier_ADV tun_VVINF ?_$. Herzlichen_ADJA Dank_NN im_APPRART voraus_PTKVZ !_$. 

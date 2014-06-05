@@ -1,0 +1,10 @@
+ID: 526
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1351288800000
+TITLE: Das Paket, dass man braucht, enthält die Java Entwicklungsumgebung (JDK) und nicht die Java Laufzeitu...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 236
+POSTING_TYPE: comment
+CONTENT:
+Man braucht die Java Entwicklungsumgebung (JDK) und nicht die Java Laufzeitumgebung (JRE). Daher ist der Name des benötigten Pakets **jdk7-openjdk** (<REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>) oder auch **openjdk-6-jdk** (Debian/Ubuntu)
+TAGGED_CONTENT:

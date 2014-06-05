@@ -1,0 +1,34 @@
+ID: 932
+CREATION_DATETIME: 1354489200000
+MODIFICATION_DATETIME: 1381788000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wir haben jetzt noch drei Termine offen und um abzuschätzen, was ich dort noch behandeln sollte, bitte ich euch, mal euren Wissensstand einzuschätzen. Als Hilfrestellung hier mal ein paar Dinge, die ihr aus dem Steigreif wissen solltet:
+
+1. Was ist der Unterschied zwischen Klassen und Objekten?
+
+2. Wie ist die Syntax <NAME_CORPUS_REPLACEMENT> <REMOVED_PERSON_ENTITY>, Attributen und Methoden?
+
+3. Welche Kontrollstrukturen gibt es, was tun sie und wie ist ihre Syntax?
+
+4. Was sind Methodenparameter?
+
+5. Wozu dienen Pakete und wie benutzt man sie?
+
+6. Was ist ein Konstruktor, welche Eigenschaften hat er und wie wird er erstellt?
+
+7. Wozu dient das *import*-Statement?
+
+8. Wie funktioniert Vererbung?
+
+9. Wozu dienen abstrakte Klassen?
+
+10. Wozu dienen Interfaces?
+
+11. Was sind Generics (generische Parameter / Klassenparameter)?
+
+Und jetzt die ultimative Frage: Was ist im Moment noch unklar? (Und warum gibt es dann noch keine Frage dazu im Auditorium ;) )
+TAGGED_CONTENT:

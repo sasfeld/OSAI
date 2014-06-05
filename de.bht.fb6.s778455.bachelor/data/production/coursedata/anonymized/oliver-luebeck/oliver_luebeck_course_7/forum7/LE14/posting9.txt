@@ -1,0 +1,17 @@
+ID: 82
+CREATION_DATETIME: 1306687140000
+MODIFICATION_DATETIME: 1306687140000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 80
+CONTENT:
+    
+Hallo ,
+
+nochmal ich, vergiss meine vorherige Reporter-Klasse. Habe gerade alles überarbeitet - und siehe da: es funktioniert (auch ohne Veränderung in der Shape-Klasse)...lächelnd
+
+Und mein ShapeTester gibt das aus, was er soll. Mit den Variablen hatte ich keine Schwierigkeiten, wüßte jetzt aber auch nicht, woran das bei Dir liegt.
+
+Liebe Grüße, 
+    
+TAGGED_CONTENT:

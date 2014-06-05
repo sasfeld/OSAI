@@ -1,0 +1,25 @@
+ID: 2218
+CREATION_DATETIME: 1373493600000
+MODIFICATION_DATETIME: 1373580000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich hab eben einen Commit gemacht, der ein Log-Level einführt.
+Wenn ihr in Zukunft was auf die Konsole ausgebt, dann bitte auf das Loglevel abstimmen und zwar wie folgt:
+```ruby
+if(CLeverTrustee::getLogLevel() > 2){
+    cout << "some output" << endl;
+}
+```
+Die Loglevel haben dabei folgende Bedeutung:
+0 - no logging
+1 - <NAME_CORPUS_REPLACEMENT> errors
+2 - status information
+3 - all information
+Das Level kann zur Laufzeit gesetzt werden. Im Tester hab ich dafür eine Zeile eingefügt:
+```ruby
+clt::CLeverTrustee::getInstance(). setLogLevel(2);
+```
+Wenn ihr also irgendwelche Debuggingausgaben machen wollt (speziell, wenn ihr diese dann auch mit commited), dann die Bitte wie oben beschrieben auf das LogLevel 3 setzen und dann die Zeile im Tester anpassen und auf LogLevel 3 stellen, sodass wir nicht nach jedem Update die ganze Konsole voller Ausgaben haben.
+TAGGED_CONTENT:

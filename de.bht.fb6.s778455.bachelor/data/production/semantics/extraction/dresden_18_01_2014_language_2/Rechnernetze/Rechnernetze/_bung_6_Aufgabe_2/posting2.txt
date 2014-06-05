@@ -1,0 +1,16 @@
+ID: 2280
+CREATION_DATETIME: 1374012000000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: Hallo.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2278
+POSTING_TYPE: answer
+CONTENT:
+Hallo.
+
+b) Solche Szenarien gibt es bei Prokurierter Kommunikation (Proxy). Die Wiederholung der Adressen in den Klammern ist ein Feature <NAME_CORPUS_REPLACEMENT> Wireshark, das es dem Anwender erleichtern soll, bekannte Geräte zu identifizieren. Beispielsweise würde Wireshark bei mir zu <REMOVED_PERSON_ENTITY> anzeigen „Belldandy (10. 212. 187. 9)“. Dafür muss Wireshark die Geräte aber kennen. - Das sieht man bei den Angaben zur MAC-Adresse, wo aus den ersten Blöcken der Hersteller identifiziert werden kann, und genau das macht Wireshark dort auch.
+
+c) JA! - Wenn der Zielrechner nicht erreichbar ist, kommt die Antwort vom letzten Rechner/Router auf dem Weg dorthin. Ebenfalls kann die Antwort <NAME_CORPUS_REPLACEMENT> einem anderen Rechner kommen, wenn die Time-to-live (TTL) abläuft (diese wird bei jedem Hop reduziert). Und schlussendlich kann die Antwort auch <NAME_CORPUS_REPLACEMENT> einem selbst kommen. → Schalte mal alle Netzwerkkarte an Deinem Rechner ab (oder Kabel raus), öffne eine <REMOVED_PERSON_ENTITY> und führe mal aus „ping www. t-online. de“. - Du Erhältst eine <REMOVED_PERSON_ENTITY> <NAME_CORPUS_REPLACEMENT> Deinem eigenen Rechner.
+
+e) <REMOVED_PERSON_ENTITY> und gleicher Empfänger → SRC/DST gleich, nicht unterschiedlich! --- Es müssen sich alle IDs und Checksummen ändern. Die TTL kann, muss aber nicht verändert werden. Bspw. wenn ich die Entfernung zum Ziel bestimmen will, sende ich einen Ping mit TTL=1, dann TTL=2, TTL=3, etc., bis ich einen Pong (eine Antwort) erhalte.
+TAGGED_CONTENT:

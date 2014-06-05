@@ -1,0 +1,10 @@
+ID: 1693
+CREATION_DATETIME: 1365717600000
+MODIFICATION_DATETIME: 1365717600000
+TITLE: Hallo, wir bieten Karten- und Brettspiele an. Darüber hinaus wird es auch ein paar Kinect-Spiele gebe...
+PARENT_POSTING_ID: 1692
+POSTING_TYPE: answer
+CONTENT:
+Hallo, wir bieten <REMOVED_PERSON_ENTITY>- und Brettspiele an. Darüber hinaus wird es auch ein paar Kinect-Spiele geben. Ebenso gibt es dann auch ein paar Multiplayer-Spiele + Gamepads am Computer, die wir über den <REMOVED_PERSON_ENTITY> dann vorführen. Allerdings sind diese nicht selbstprogrammiert. Aber eine Indie-Game-Party wäre eine gute Idee. Könnte man in Zukunft mit in Erwägung ziehen ;)
+Übrigens: Es darf auch jeder seine eigenen Brett/Kinect/Computerspiele mitbringen. Wenn du also ein selbstprogrammiertes Multiplayerspiel hast, darfst du es gerne mitbringen und wir schließen deinen Laptop(?) an einen <REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

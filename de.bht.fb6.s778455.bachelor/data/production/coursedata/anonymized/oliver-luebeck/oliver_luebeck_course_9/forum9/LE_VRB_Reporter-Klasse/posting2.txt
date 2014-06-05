@@ -1,0 +1,18 @@
+ID: 60
+CREATION_DATETIME: 1180948680000
+MODIFICATION_DATETIME: 1180948680000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 59
+CONTENT:
+  
+Liebe , liebe Studierende,
+
+exzellente Frage. Es gibt keinen zwingenden Grund, diese Aufgabe mit Hilfe der Reporter-Klasse zu lösen. Es zu machen gibt ein Beispiel, wie man mit Hilfe der Vererbung und Polymorphie Code faktorisieren kann.
+
+In der ShapeTester-Klasse müssen Sie mehrere Objekte erzeugen, und für jedes Objekt im Prinzip immer die gleichen Methoden (circumference, area, toString usw.) aufrufen. Die Reporter-Klasse mit der Klassen-Methode report vermeidet, dass Sie immer in der Klasse ShapeTester 4 mal das Gleiche schreiben. Alle Methoden (circumference, area, toString usw.) rufen Sie nur ein Mal in der report Methode auf. In der Klasse ShapeTester brauchen Sie nur die verschiedene Shape-Objekte zu erzeugen und nur die Methode report aufzurufen, jedesmal mit einem anderen Shape-Objekt (egal welche Unterklasse) als Parameter.
+
+Ist diese Antwort einleuchtend?
+Viele Grüße
+    
+TAGGED_CONTENT:

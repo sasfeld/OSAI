@@ -1,0 +1,11 @@
+ID: 22729
+MODIFICATION_DATETIME: 1348132357
+TITLE: Fachforum zum Modul
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/view.php?id=22729
+POS_TAG: value:Modul;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fachforum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fachfragen;weight:0.0;uri:;postag:NN
+INTRO: <p>Hier können Sie Fachfragen zum Teil I diskutieren.</p>
+TYPE: general

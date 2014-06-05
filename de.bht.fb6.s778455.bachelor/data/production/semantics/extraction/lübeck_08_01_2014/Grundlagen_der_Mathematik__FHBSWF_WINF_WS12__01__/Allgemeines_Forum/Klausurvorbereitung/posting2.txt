@@ -1,0 +1,23 @@
+ID: 188477
+CREATION_DATETIME: 1355934287
+MODIFICATION_DATETIME: 1355934287
+TITLE: Re: Klausurvorbereitung
+TOPIC_ZOOM_TAG: value:Urlaub und Ferien;weight:1.0;significance:7.4881936901556;degreegeneralization:3;uri:20990115
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:6.95597687640829;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Videos;weight:1.0;significance:5.92070453292435;degreegeneralization:5;uri:20925532
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Filme;weight:1.0;significance:5.07179740279815;degreegeneralization:4;uri:21995223
+TOPIC_ZOOM_TAG: value:Film & Kino;weight:1.0;significance:4.85261731551531;degreegeneralization:3;uri:21998164
+TOPIC_ZOOM_TAG: value:Kunstwerke;weight:1.0;significance:4.64234194722766;degreegeneralization:3;uri:21981623
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:3.4415452961402;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Kunst, Kultur, Musik;weight:1.0;significance:3.04770693667486;degreegeneralization:2;uri:21999796
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 188419
+CONTENT:
+Ja, so geht es mir auch. Seit heute habe ich Urlaub. LON CAPA wollte ich auch zum Üben verwenden, aber leider sind die ersten Aufgaben ja schon nicht mehr zugänglich.
+Ansonsten lerne ich viel mit den Videos von Prof. <REMOVED_PERSON_ENTITY> (http://www.j3l7h. de/videos. html). Die finde ich sehr gut, insbesondere auch die <REMOVED_PERSON_ENTITY>. Herzliche Grüße
+<REMOVED_PERSON_ENTITY>
+ 
+TAGGED_CONTENT:

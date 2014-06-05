@@ -1,0 +1,12 @@
+ID: 246
+CREATION_DATETIME: 1349820000000
+MODIFICATION_DATETIME: 1349820000000
+TITLE: Btw. ist es sinnvoll 
+PARENT_POSTING_ID: 236
+POSTING_TYPE: comment
+CONTENT:
+<REMOVED_PERSON_ENTITY>. ist es sinnvoll folgende Code Blöcke zu verwenden, wenn hier Fragen gestellt werden:
+    ```java
+    // Code hier rein
+    ```
+TAGGED_CONTENT:

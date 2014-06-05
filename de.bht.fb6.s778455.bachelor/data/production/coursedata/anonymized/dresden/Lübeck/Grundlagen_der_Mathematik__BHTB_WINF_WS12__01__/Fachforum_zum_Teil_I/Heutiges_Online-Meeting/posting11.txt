@@ -1,0 +1,8 @@
+ID: 166611
+CREATION_DATETIME: 1349286026
+MODIFICATION_DATETIME: 1349286026
+TITLE: Re: Heutiges Online-Meeting
+PARENT_POSTING_ID: 166463
+CONTENT:
+Ich versteh garnichts mehr.. Warum sagt er dann bei der Einführungsveranstaltung, dass heute kein Meeting ist? Und warum schickt er diese Mail nicht an alle, damit auch alle Bescheid wissen? Und wo soll man nun hin? Hier oder Programmieren?
+TAGGED_CONTENT:

@@ -1,0 +1,11 @@
+ID: 1106
+CREATION_DATETIME: 1360450800000
+MODIFICATION_DATETIME: 1364767200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+Does anybody have by chance the solution to practice 6 task 5 step by step? In fact only for the delete operation.
+Thanks a lot
+TAGGED_CONTENT:

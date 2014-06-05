@@ -1,0 +1,30 @@
+ID: 721
+CREATION_DATETIME: 1352502000000
+MODIFICATION_DATETIME: 1352847600000
+TITLE: Da es um Suche und Branchingfaktor geht, gibt es in deinem Code eventuell eine Suchknotenexpansion?
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:2.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:2.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+PARENT_POSTING_ID: 718
+POSTING_TYPE: answer
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> es um Suche und Branchingfaktor geht, gibt es in deinem Code eventuell eine Suchknotenexpansion?
+
+Wenn ja kannst du den Branchingfaktor ganz präzise angeben indem du zwei globale Summen mitzählst:
+
+Bei jeder Expansion:
+
+```pseudo
+
+<REMOVED_PERSON_ENTITY> aller Suchknoten += Anzahl neuer Suchknoten
+
+Zähler der Expansionien ++
+
+```
+
+Am Ende gibst du den Quotienten aus: `<REMOVED_PERSON_ENTITY> aller Suchknoten/Zähler der Expansionien`.
+
+Was ist eine Suchknotenexpansion?:
+
+Immer wenn du mit deinem Problem in einem Zustand (zum Beispiel der obrigen Zahlenbelegung) bist kannst du durch eine <REMOVED_PERSON_ENTITY> an möglichen Operationen dein Problem in einen anderen Zustand bringen. Jeder dieser Zustände ist ein Suchknoten und das Hinzufügen der neuen möglichen Zustände zur Queue nennt sich <REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

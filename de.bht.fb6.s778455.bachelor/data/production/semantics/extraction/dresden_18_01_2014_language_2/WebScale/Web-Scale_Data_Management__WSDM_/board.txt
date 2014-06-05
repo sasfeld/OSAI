@@ -1,0 +1,7 @@
+ID: 2024340
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Web-Scale Data Management (WSDM)
+LANGUAGE: UNKNOWN
+INTRO: In den letzten Jahren ist die Menge an digitalen Informationen die weltweit gesammelt, verwaltet und analysiert werden dramatisch gestiegen. Diese Wachstum wird zum einem großen Teil von moderne Web-Anwendungen verursacht. Zum Beispiel verarbeitete Google im Jahr 2008 jeden Tag 20 Petabyte an Daten, jede Minute werden 48 Stunden Video auf YouTube hochgeladen, während Facebook allein ca. 100 Milliarden Fotos hostet. Allerdings ist Web-Scale Data Management nicht nur durch hohe Datenvolumen gekennzeichnet. Auch im Bezug auf Latenz, Durchsatz, Erreichbarkeit, Fehlertoleranz und nebenläufigen Zugriff gibt es zahlreiche neue Herausforderungen.
+TYPE: null

@@ -1,0 +1,12 @@
+ID: 504
+CREATION_DATETIME: 1351116000000
+MODIFICATION_DATETIME: 1351724400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Was passiert, wenn mein Server dem client mit _ENOREPLY_ antwortet?  
+Blockiert der Client dann nicht oder heißt das nur, dass er sich das Auswerten der Antwort gleich sparen kann?  
+Kriegt der Client den Rückgabewert überhaupt zu sehen?  
+Ich werde aus dem Quelltext <NAME_CORPUS_REPLACEMENT> *l4/cxx/ipc_server* nicht schlau, weiß aber, dass der Rückgabewert dort (auch?) ausgewertet wird.
+TAGGED_CONTENT:

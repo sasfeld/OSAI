@@ -1,0 +1,75 @@
+ID: 2546
+CREATION_DATETIME: 1381183200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Hallo <NAME_CORPUS_REPLACEMENT> Mitglieder,
+
+(english below)
+
+### [<REMOVED_PERSON_ENTITY> zur <REMOVED_PERSON_ENTITY> - Link to the survey](https://docs. google. com/forms/d/1ieQkifdHSkzdUJ80myk1iCE351ELMrzH2--MiuGI6eQ/viewform)
+
+im Rahmen meiner Diplomarbeit zum Thema „Evaluating the Use of Gamification in Higher Education to Improve Student Engagement“ möchte ich [eine Umfrage*](https://docs. google. com/forms/d/1ieQkifdHSkzdUJ80myk1iCE351ELMrzH2--MiuGI6eQ/viewform) zur Online Platform „auditorium“ starten. Mit dieser Umfrage möchte ich das Benutzererlebnis (User Experience) quantitativ ermitteln. 
+
+Sie können bis zum 31. Oktober 2013 an der Umfrage teilnehmen.
+
+Derzeit wird an einer [neuen Version <NAME_CORPUS_REPLACEMENT> „auditorium“](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/posts/2437) gearbeitet. Bevor diese neue Version aber veröffentlich wird, möchte ich Sie nach Ihrer Meinung fragen. Dabei möchte ich Sie bitten an dieser Umfrage vor der Umstellung teilzunehmen. Am Ende des Semesters wird es eine weitere Umfrage geben, um die Akzeptanz der neuen Funktionen zu ermitteln. Dazu möchte ich Ihnen am Ende des Semester eine weitere Email zusenden mit der zweiten Umfrage. 
+
+Die Ergebnisse beider Umfragen werden in meine Diplomarbeit einfließen und bilden die Grundlage einer quantitativen Analyse der Benutzerfreundlichkeit und -akzeptanz <NAME_CORPUS_REPLACEMENT> „auditorium“.
+
+Durch Ihre Teilnahme an der Umfrage tragen Sie dazu bei, dass „auditorium“ eine Bildungsplatform nach Ihren Vorstellungen werden kann. Die Teilnahme ist natürlich vollkommen freiwillig und anonym. Es gibt weder falsche, noch richtige Antworten. Ihr Feedback wird <NAME_CORPUS_REPLACEMENT> genommen und wird in die zukünftigen Versionen <NAME_CORPUS_REPLACEMENT> „auditorium“ einfließen.
+
+Die Umfrage ist unter folgendem Link erreichbar:
+
+[Umfrage zu auditorium](https://docs. google. com/forms/d/1ieQkifdHSkzdUJ80myk1iCE351ELMrzH2--MiuGI6eQ/viewform)
+
+Bei Fragen oder Feedback können Sie mir gern eine Email an <NAME_CORPUS_REPLACEMENT>. beier@tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT> senden. 
+
+Ich möchte mich für Ihre Teilnahme bereits im Voraus bedanken.
+
+Viele Grüße
+
+<PERSONAL_GREETING_REMOVEMENT>
+<NAME_CORPUS_REPLACEMENT>. beier@tu-dresden. <PERSONAL_GREETING_REMOVEMENT>
+
+<LEARNED_PERSON_NAME_REPLACEMENT> <NAME_CORPUS_REPLACEMENT> „auditorium“
+
+*Die Umfrage wurde mit Hilfe <NAME_CORPUS_REPLACEMENT> Google Docs Forms erstellt. Die Umfrage wird auf den Server <NAME_CORPUS_REPLACEMENT> Google Inc. gehostet. Es werden keine personenbezogenen Daten innerhalb der Umfrage <NAME_CORPUS_REPLACEMENT> Ihnen abgefragt.
+
+----------------
+
+**English:** 
+
+Dear members,
+
+I am currently writing on my diploma thesis with the topic „Evaluating the Use of Gamification in Higher Education to Improve Student Engagement.“ For my thesis I would like to conduct [a survey*](https://docs. google. com/forms/d/1ieQkifdHSkzdUJ80myk1iCE351ELMrzH2--MiuGI6eQ/viewform) about the online education platform „auditorium“. The goal of the survey is to analyze the user experience quantitatively. 
+
+You <NAME_CORPUS_REPLACEMENT> participate until 31st of october 2013.
+
+In a few weeks [we will publish a new version of „auditorium.“](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/posts/2437) Before we deploy the new version I wish to ask you to participate on this survey I am sending you. At the end of the winter semester 2013 I would like to invite you to a second survey. The second survey analyses the acceptance and user experience of the new version of „auditorium.” You will receive a second email inviting you to participate on it. 
+
+The results of both surveys will be part of my diploma thesis. They build the foundation for a quantitative analysis of the user experience and acceptance of the online platform „auditorium.“
+
+With your participation you will help to improve „auditorium,“ your participation will be voluntarily and anonymous. There are no right or wrong answers. The only important thing  is your opinion and feedback. 
+
+You <NAME_CORPUS_REPLACEMENT> find the survey under the following link:
+
+[Survey about auditorium](https://docs. google. com/forms/d/1ieQkifdHSkzdUJ80myk1iCE351ELMrzH2--MiuGI6eQ/viewform)
+
+If you wish you <NAME_CORPUS_REPLACEMENT> send me an email to <NAME_CORPUS_REPLACEMENT>. beier@tu-dresden. <PERSONAL_GREETING_REMOVEMENT>
+
+In advance I wish to express my gratitude for your kind participation.
+
+Kind Regards,
+
+<REMOVED_PERSON_ENTITY>
+
+<NAME_CORPUS_REPLACEMENT>. beier@tu-dresden. <PERSONAL_GREETING_REMOVEMENT>
+
+Main Developer of „auditorium“
+
+*The survey was created with Google Docs Forms. The survey is hosted on servers of Google Inc. I will not ask you to provide personal information.
+TAGGED_CONTENT:

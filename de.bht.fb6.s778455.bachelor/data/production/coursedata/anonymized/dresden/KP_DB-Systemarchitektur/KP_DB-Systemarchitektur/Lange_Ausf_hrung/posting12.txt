@@ -1,0 +1,9 @@
+ID: 2266
+CREATION_DATETIME: 1373925600000
+MODIFICATION_DATETIME: 1373925600000
+TITLE: Es ist aber kein Flag, sondern die 3-er-Entscheidung in, out oder inout.
+PARENT_POSTING_ID: 2189
+POSTING_TYPE: comment
+CONTENT:
+Es ist aber kein Flag, sondern die 3-er-Entscheidung in, out oder inout.
+TAGGED_CONTENT:

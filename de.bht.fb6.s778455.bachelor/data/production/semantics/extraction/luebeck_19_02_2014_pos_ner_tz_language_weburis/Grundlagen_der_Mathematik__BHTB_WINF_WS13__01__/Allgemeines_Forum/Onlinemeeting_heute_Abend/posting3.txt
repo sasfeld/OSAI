@@ -1,0 +1,45 @@
+ID: 252413
+CREATION_DATETIME: 1383503805
+MODIFICATION_DATETIME: 1383503805
+TITLE: Re: Onlinemeeting heute Abend
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=91801#252413
+TOPIC_ZOOM_TAG: value:Foren;weight:1.0;significance:7.65869350798439;degreegeneralization:3;uri:20770662
+TOPIC_ZOOM_TAG: value:Facebook;weight:1.0;significance:6.05439699505071;degreegeneralization:10;uri:20739705
+TOPIC_ZOOM_TAG: value:Webportale;weight:1.0;significance:5.73220144478618;degreegeneralization:9;uri:20919344
+TOPIC_ZOOM_TAG: value:Websuchmaschinen und Internetportale;weight:1.0;significance:5.25556718576847;degreegeneralization:8;uri:20989486
+TOPIC_ZOOM_TAG: value:Websuche;weight:1.0;significance:5.25209496005772;degreegeneralization:7;uri:20990897
+TOPIC_ZOOM_TAG: value:Webservices;weight:1.0;significance:5.20525988455884;degreegeneralization:7;uri:20921741
+TOPIC_ZOOM_TAG: value:Social Media;weight:1.0;significance:5.13399103103145;degreegeneralization:6;uri:19641505
+TOPIC_ZOOM_TAG: value:Soziale Netzwerke;weight:1.0;significance:5.13399103103145;degreegeneralization:7;uri:20739756
+TOPIC_ZOOM_TAG: value:Informationssuche und Informationsbeschaffung;weight:1.0;significance:5.11618338671413;degreegeneralization:3;uri:20989503
+TOPIC_ZOOM_TAG: value:Lifestyle und Internet;weight:1.0;significance:5.06890722737591;degreegeneralization:6;uri:21999575
+TOPIC_ZOOM_TAG: value:Soziologie;weight:1.0;significance:5.05838081438893;degreegeneralization:5;uri:21627802
+TOPIC_ZOOM_TAG: value:Internetdienste;weight:1.0;significance:5.01006672735298;degreegeneralization:6;uri:20772413
+TOPIC_ZOOM_TAG: value:Sozialwissenschaften;weight:1.0;significance:5.00644517518288;degreegeneralization:4;uri:21634330
+TOPIC_ZOOM_TAG: value:World Wide Web;weight:1.0;significance:4.80310786617364;degreegeneralization:6;uri:20772430
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Services und Dienstleistungen;weight:1.0;significance:4.74369862778661;degreegeneralization:5;uri:20197813
+TOPIC_ZOOM_TAG: value:Geisteswissenschaften;weight:1.0;significance:4.65434461816952;degreegeneralization:3;uri:21978240
+TOPIC_ZOOM_TAG: value:Lifestyle, Mode, Schönheit;weight:1.0;significance:4.37191942759678;degreegeneralization:3;uri:21999456
+TOPIC_ZOOM_TAG: value:Services und Dienstleistungen;weight:1.0;significance:4.22947364593082;degreegeneralization:4;uri:21993506
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:3.4415452961402;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:1.80459553725326;degreegeneralization:2;uri:21999847
+POS_TAG: value:Versatz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Minuten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Forum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Info;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 241967
+CONTENT:
+Danke,
+ist vielleicht schon ein bisschen spät, aber: Hab die Info in unserer Facebook-Gruppe bekommen ;)
+Das Forum hat irgendwie immer 30 Minuten Versatz...
+Gruß <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Danke_PROAV ,_$, ist_VAFIN vielleicht_ADV schon_ADV ein_ART bisschen_ADJA spät_ADJD ,_$, aber_KON :_$. Hab_VAFIN die_ART Info_NN in_APPR unserer_PPOSAT Facebook-Gruppe_NN bekommen_VVFIN ;-RRB-_NE Das_ART Forum_NN hat_VAFIN irgendwie_ADV immer_ADV 30_CARD Minuten_NN Versatz_NN ..._$( Gruß_NE <_NE REMOVED_PERSON_ENTITY_NE >_XY 

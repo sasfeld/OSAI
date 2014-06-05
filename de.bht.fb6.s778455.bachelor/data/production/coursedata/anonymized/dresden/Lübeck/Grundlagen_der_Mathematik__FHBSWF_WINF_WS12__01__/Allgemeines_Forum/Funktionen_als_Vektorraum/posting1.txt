@@ -1,0 +1,14 @@
+ID: 181909
+CREATION_DATETIME: 1353444798
+MODIFICATION_DATETIME: 1353444798
+TITLE: Funktionen als Vektorraum
+PARENT_POSTING_ID: 0
+CONTENT:
+Bei Prof. <REMOVED_PERSON_ENTITY> habe ich einige Videos zum Thema Vektorräume gefunden, in denen recht anschaulich erklärt wird, warum z. B. die <REMOVED_PERSON_ENTITY> aller reellen Funktionen R -&gt; R als Vektorraum betrachtet werden kann. (In LON CAPA hatte ich eine solche Aufgabe, mit der ich zunächst gar nichts anfangen konnte.)Vielleicht hilft es ja auch dem einen oder anderen hier:
+<a href="http://www.youtube.com/watch?v=6xs0aH2Gjpc" target="_blank">02. 05. 1 Begriff Vektorraum 7:39
+<a href="http://www.youtube.com/watch?v=SVFiwkL5diQ" target="_blank">02. 05. 2 Begriff Vektorraum 5:46
+bzw.
+<a href="http://www.youtube.com/watch?v=9324wQg_eu8" target="_blank">01. 2. 4 Vektorraum 16:01
+Grüße
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

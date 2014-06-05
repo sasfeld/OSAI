@@ -1,0 +1,17 @@
+ID: 9
+CREATION_DATETIME: 1175693940000
+MODIFICATION_DATETIME: 1175693940000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 8
+CONTENT:
+
+Hi!
+
+Verzeichnis unterschiede zu Windows sind uninteressant musst nur wissen wo du das "de" verzeichnis hin entpackt hast.
+
+Ich arbeite auf meinem Mac mit XCode: In den Developer tools ist javac und java mit bei und auch als Umgebungsvariable gesetzt (über Terminal aufrufen). Allerdings in version 1.6 was aber hierfür durchaus ausreichend ist.
+
+Gruß 
+    
+TAGGED_CONTENT:

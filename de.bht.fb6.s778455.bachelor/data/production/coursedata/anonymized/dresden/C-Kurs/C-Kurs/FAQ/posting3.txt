@@ -1,0 +1,9 @@
+ID: 2561
+CREATION_DATETIME: 1381701600000
+MODIFICATION_DATETIME: 1382479200000
+TITLE: Die Kurse finden auf deutsch statt. Sollte starker Bedarf bestehen (etwa 10 Personen), können wir drü...
+PARENT_POSTING_ID: 2560
+POSTING_TYPE: answer
+CONTENT:
+Die Kurse finden auf Deutsch statt. Sollte starker Bedarf bestehen (etwa 10 Personen), können wir drüber reden, ob wir tatsächlich einen englischen Kurs machen. Problematisch ist dabei, dass auch die Kursmaterialien in deutscher Sprache sind.
+TAGGED_CONTENT:

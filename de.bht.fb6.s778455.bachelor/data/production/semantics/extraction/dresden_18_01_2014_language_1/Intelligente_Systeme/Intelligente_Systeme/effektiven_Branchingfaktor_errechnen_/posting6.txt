@@ -1,0 +1,10 @@
+ID: 724
+CREATION_DATETIME: 1352502000000
+MODIFICATION_DATETIME: 1352934000000
+TITLE: Ich denke nicht, dass der Effektive Branching Faktor und die Anzahl der durchschnittlich expandierten...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 718
+POSTING_TYPE: answer
+CONTENT:
+Ich denke nicht, dass der Effektive Branching Faktor und die Anzahl der durchschnittlich expandierten Knoten das gleiche sind. Ersterer soll m. E. ein möglichst konstantes Maß der Heuristik für alle Probleminstanzen sein, letzteres ist ein Durchschnittswert für eine konkrete Instanz, die scheinbar stärker schwanken kann, sonst hätten sich die KI-Forscher (<REMOVED_PERSON_ENTITY> 1971) nicht diese Formel überlegt. (Leider habe ich keine Literatur gefunden, welche die Begriffe konkret abgrenzt.) Ansonsten hat Herr <REMOVED_PERSON_ENTITY> in meiner Übung folgende Formel genutzt $N = 1 + b + b^2 + \dots + b^{d-1} +\frac{b^d}{2}$, weil auf der untersten Ebene des Suchbaums durchschnittlich nur die Hälfte der Knoten expandiert werden.
+TAGGED_CONTENT:

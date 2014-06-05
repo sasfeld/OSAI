@@ -1,0 +1,51 @@
+ID: 3
+CREATION_DATETIME: 1193742240000
+MODIFICATION_DATETIME: 1193742240000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+    Lieber ,
+
+Sie sind nicht im Forum sondern direkt bei mir ;-) . Hier eine Moeglichkeit:
+
+System.out.println("letzte Änderung = "+new Date(datobj.lastModified()));
+
+Bitte alle Aufgaben vor der Praesenz noch schicken!
+Viele Gruesse
+
+
+On Wed, 29 Oct 2008 23:06:09 +0100, Student2 wrote
+> Hallo zusammen
+>
+> Ich hÃ¤nge noch an Aufgabe 3, weil ich die Aufgabe nicht so richtig durchschaue... Hmm naja - man soll ja nicht aufgeben, trotzdem ich mich schon seit Ã¼ber ner Woche mit dieser verwirrenden Aufgabe beschÃ¤ftige.
+>
+> Hier ist die Methode mit der ich (ein) Problem(e) habe:
+>
+> import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.nio.channels.FileChannel;
+import java.util.Date;
+
+public class DateiAction {
+protected String inf = "";
+
+...
+
+
+public static void lztAenderung(String inf) throws IOException {
+File datobj = new File(inf);
+String lastMod = new java.util.Date();0
+return System.out.println("Die Datei wurde zuletzt am " + lastMod.toString() + " modifiziert.");
+}
+}
+>
+> Ich weiÃŸ nicht so genau, wie ich aus dem lastMod ein Objekt von java.util.Date machen kann. Hat jemand einen Tip, was ich grundlegend richtig machen sollte? Ich kann einer Datei einfach nicht Ihre "Daten" abluchsen.
+>
+> Danke,
+
+    
+TAGGED_CONTENT:

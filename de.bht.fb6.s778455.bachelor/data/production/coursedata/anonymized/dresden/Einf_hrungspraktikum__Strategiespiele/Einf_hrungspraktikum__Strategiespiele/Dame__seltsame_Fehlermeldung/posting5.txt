@@ -1,0 +1,9 @@
+ID: 1364
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Das testet dann aber den MCP und nicht das Spieler-Programm. Hierzu brauchst Du noch mindestens die V...
+PARENT_POSTING_ID: 1357
+POSTING_TYPE: comment
+CONTENT:
+Das testet dann aber den MCP und nicht das Spieler-Programm. Hierzu brauchst Du noch mindestens die Valgrind-Option `--trace-children=yes` und spätestens <NAME_CORPUS_REPLACEMENT> wirds trickreich.
+TAGGED_CONTENT:

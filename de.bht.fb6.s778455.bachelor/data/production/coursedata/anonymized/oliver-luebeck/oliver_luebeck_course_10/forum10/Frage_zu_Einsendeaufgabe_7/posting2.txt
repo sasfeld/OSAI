@@ -1,0 +1,16 @@
+ID: 32
+CREATION_DATETIME: 1195223760000
+MODIFICATION_DATETIME: 1195223760000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 31
+CONTENT:
+
+Lieber , liebe Studierende,
+
+mit NeuPanel.java ist CocktailNeuPanel.java der LE06 gemeint. Und mit der CocktailMixer Klasse ist MeinCocktailMixerGUI der LE06 gemeint.
+ Ich habe in der Einsendeaufgabe korrigiert. In der LE07 geht es darum, die Klassen der LE06 anzupassen, und die Ereignisbehandlung zu programmieren. Ist es klarer so?
+
+Mit freundlichen Grüßen
+   
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 2337
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Jo, aber ist ja eh kein FullHD Beamer. wir können ja auch erstmal svg probieren und du lädst notfalls...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Jo, aber ist ja eh kein FullHD <REMOVED_PERSON_ENTITY>. wir können ja auch erstmal svg probieren und du lädst notfalls noch ne png version hoch
+TAGGED_CONTENT:

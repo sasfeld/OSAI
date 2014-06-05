@@ -1,0 +1,11 @@
+ID: 569
+CREATION_DATETIME: 1351465200000
+MODIFICATION_DATETIME: 1351465200000
+TITLE: Wo hast du `meta[]` definiert? Denn wenn es nur innerhalb der `get` Methode existiert, dann ist es lo...
+PARENT_POSTING_ID: 568
+POSTING_TYPE: comment
+CONTENT:
+~~Wo hast du `meta[]` definiert? Denn wenn es nur innerhalb der `get` Methode existiert, dann ist es logisch, dass es nach dem Funktionsaufruf keine Daten enthält.~~ Ok gerade gelesen, dass du es global definiert hast.
+Auch ist es eine bessere Praxis statt `alert(...)` `console. log(...)` aufzurufen und es über Firebug oder die integrierte Entwickler Konsole auszulesen, <NAME_CORPUS_REPLACEMENT> dann dort das gesamte Objekt verfügbar und durchsuchbar ist.
+Auch ist es besser, Variablen innerhalb JavaScripts nicht mit `$` zu beginnen, das kann zu Verwirrungen führen, <NAME_CORPUS_REPLACEMENT> jQuery das `$` ja für seine eigenen Funktionen nutzt, als Namensraum.
+TAGGED_CONTENT:

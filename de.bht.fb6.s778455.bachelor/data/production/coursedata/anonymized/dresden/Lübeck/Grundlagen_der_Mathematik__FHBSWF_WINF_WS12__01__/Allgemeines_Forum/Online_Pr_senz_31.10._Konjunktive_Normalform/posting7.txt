@@ -1,0 +1,15 @@
+ID: 177651
+CREATION_DATETIME: 1352102869
+MODIFICATION_DATETIME: 1352102869
+TITLE: Re: Online Präsenz 31.10. Konjunktive Normalform
+PARENT_POSTING_ID: 177483
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+es ist hier ziemlich wichtig zu wissen, was genau man aussagen möchte. Eine Normalform gibt uns einen zur gegebenen Formel X logisch gleichwertigen Ausdruck, d. h. egal wie man die <REMOVED_PERSON_ENTITY> mit Wahr/Falsch belegt, beide Ausdrücke liefern stets denselben Gesamtwahrheitswert. 
+Wenn Sie bloß Einzelfälle betrachten, müssen Sie aufpassen, weil es um notwendige und hinreichende Kriterien geht.
+Beispiel 1: Die erste <REMOVED_PERSON_ENTITY> des grünen Bereiches Ihrer Wahrheitstabelle ergibt, dass X *wahr* ist, falls A, B, C falsch sind. Dieses Wissen über A, B, C ist hinreichend für die Wahrheit von X, aber nicht notwendig. Denn für andere Fälle kann X ja auch wahr werden. In der Sprache der Booleschen Algebra: (NICHT A und NICHT B und NICHT C)-&gt;X ist eine Tautologie. Denn X ist niemals falsch, wenn der Ausdruck links vom <REMOVED_PERSON_ENTITY> wahr ist.
+Beispiel 2: Die erste <REMOVED_PERSON_ENTITY> des roten Bereiches Ihrer Wahrheitstabelle ergibt, dass X *falsch* ist, falls A, C falsch sind und B wahr ist. Dies ist hinreichend für X falsch, aber nicht notwendig, weil X ja auch bei anderen Belegungen falsch sein kann. Entsprechend ist (NICHT A und B und NICHT C)-&gt;NICHT X eine Tautologie. Denn NICHT X ist niemals falsch (also X niemals wahr), wenn der Ausdruck links vom <REMOVED_PERSON_ENTITY> wahr ist.
+Beispiel 3: Die Negation des Ausdrucks (NICHT A und B und NICHT C) der ersten <REMOVED_PERSON_ENTITY> des roten Bereiches wird genau dann wahr, wenn wir  genau *nicht* eine <REMOVED_PERSON_ENTITY> von A, B, C vorliegen haben, die zu dieser Zeile gehört. Unter den anderen Zeilen gibt es aber Fälle mit X wahr und X falsch - also können wir aus "NICHT (NICHT A und B und NICHT C)" weder X noch NICHT X schließen. Dazu brauchen wir dann die KNF (die deckt ja *alle* roten Zeilen ab).
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

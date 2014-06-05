@@ -1,0 +1,10 @@
+ID: 1199
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: Leider kann ich das nur einmal up-voten. Das ist in meiner Wunschliste für Auditorium mit großem Abst...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1196
+POSTING_TYPE: comment
+CONTENT:
+Leider kann ich das nur einmal up-voten. Das ist in meiner Wunschliste für Auditorium mit großem Abstand auf Platz eins. Insbesondere bei Lehrveranstaltungen mit großem Fragevolumen ist es für die Betreuer schwierig den Überblick über die Inbox zu behalten, wenn alle Mails unsortiert drinstehen.
+TAGGED_CONTENT:

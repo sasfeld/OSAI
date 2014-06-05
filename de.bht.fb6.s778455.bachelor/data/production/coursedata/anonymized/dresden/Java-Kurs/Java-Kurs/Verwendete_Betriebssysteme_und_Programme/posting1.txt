@@ -1,0 +1,18 @@
+ID: 236
+CREATION_DATETIME: 1349820000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+OS: egal - jedes größere Betriebssystem kann Java.
+Wir benötigen einen Klartexteditor.  
+Außerdem den Compiler **javac** und die Laufzeitumgebung **java** selbst. Beides ist dabei, wenn man Java installiert und selbstverständlich in den Rechnerpools verfügbar.
+####Wer seinen eigenen Laptop nutzen will: 
+**<REMOVED_PERSON_ENTITY>**
+Um Java Programme entwickeln zu können, benötigt ihr das [Java Developement Kit (kurz JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363. html), was durch Oracle (ehemals Sun) zum [Download](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363. html) zur Verfügung gestellt wird. Bitte achtet darauf die aktuelle Version 7 (auch 1. 7 genannt) zu installieren.
+**<REMOVED_PERSON_ENTITY>** 
+Das JDK ist mit Hilfe des Paketmanagers, der in Linux integriert ist (aptitute oder apt-get), zu finden z. B.: `sudo apt-get install openjdk-7-jdk` (debian/ubuntu).
+**Mac OS X**
+Nutzer <NAME_CORPUS_REPLACEMENT> Systemen mit OSX können sich das [JDK <NAME_CORPUS_REPLACEMENT> Oracle herunterladen](http://www.oracle.com/technetwork/java/javase/downloads/jdk7u9-downloads-1859576. html).
+TAGGED_CONTENT:

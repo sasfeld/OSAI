@@ -1,0 +1,18 @@
+ID: 2
+CREATION_DATETIME: 1175670420000
+MODIFICATION_DATETIME: 1175670420000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1
+CONTENT:
+
+    Re: Probleme mit Adobe Connect
+von Agathe Merceron - Mittwoch, 4. April 2007, 09:07
+ 
+Liebe Frau Lüdecke,
+
+es gibt den Link "help" unter Web Conference in Moodle, der hilfreich sein könnte. Sonst Kontaktieren Sie support@oncampus.de. Die Mitarbeiter sind effizient. Die Konferenz wurde aufgezeichnet und ist in Archive zu finden.
+
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

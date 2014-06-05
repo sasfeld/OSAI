@@ -1,0 +1,7 @@
+ID: 6503
+CREATION_DATETIME: 1236218983
+MODIFICATION_DATETIME: 1236218983
+TITLE: Noten sind festgelegt.
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=6503
+FIRST_POSTING_ID: 16529

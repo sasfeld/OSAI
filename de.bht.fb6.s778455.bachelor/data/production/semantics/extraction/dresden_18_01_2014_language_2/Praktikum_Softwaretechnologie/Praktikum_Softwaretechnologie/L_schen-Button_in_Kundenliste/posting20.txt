@@ -1,0 +1,14 @@
+ID: 2998
+CREATION_DATETIME: 1385247600000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: Html scheint wohl neu für dich zu sein? ;)
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2935
+POSTING_TYPE: comment
+CONTENT:
+Html scheint wohl neu für dich zu sein? ;)
+
+Erstmal das lesen http://de.selfhtml.org/ !
+
+Alle Attribute stehen in deinem td-Tag, wo ist dein form-Tag, wo dein input-Tag?
+TAGGED_CONTENT:

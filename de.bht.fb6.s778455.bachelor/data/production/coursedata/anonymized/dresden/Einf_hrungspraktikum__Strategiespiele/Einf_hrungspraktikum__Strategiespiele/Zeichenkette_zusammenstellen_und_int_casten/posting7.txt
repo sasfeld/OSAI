@@ -1,0 +1,9 @@
+ID: 135
+CREATION_DATETIME: 1348178400000
+MODIFICATION_DATETIME: 1348178400000
+TITLE: Um einen String in ei
+PARENT_POSTING_ID: 129
+POSTING_TYPE: answer
+CONTENT:
+Um einen String in einen int umzuwandeln, kannst Du die Funktionen der strtol()-Familie benutzen. Auch hier hilft die entsprechende Manpage (man strtol) weiter.
+TAGGED_CONTENT:

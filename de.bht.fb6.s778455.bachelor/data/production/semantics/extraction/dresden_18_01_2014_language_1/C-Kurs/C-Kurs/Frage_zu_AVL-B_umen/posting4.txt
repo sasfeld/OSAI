@@ -1,0 +1,14 @@
+ID: 1041
+CREATION_DATETIME: 1358118000000
+MODIFICATION_DATETIME: 1358118000000
+TITLE: Nur damit ich dich richtig verstehe: 
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1040
+POSTING_TYPE: comment
+CONTENT:
+Nur damit ich dich richtig verstehe: 
+
+Hast du die asserts in die tiefe-Funktion eingebaut?
+
+Ich denke die tiefe-Funktion ist richtig, aber das Rotieren oder Einfügen neuer Knoten in den <REMOVED_PERSON_ENTITY> ist falsch, weil <NAME_CORPUS_REPLACEMENT> die Pointer irgendwo inkonsistent gesetzt werden. (Oder hast du diese Code-Stellen auch schon überprüft und dort nichts fehlerhaftes gefunden?)
+TAGGED_CONTENT:

@@ -1,0 +1,15 @@
+ID: 2008
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: probier's mal mit der .profile
+LANGUAGE: GERMAN
+NER_TAG: value:SSH;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Einsatz;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2007
+POSTING_TYPE: comment
+CONTENT:
+probier's mal mit der . profile
+
+die bashrc kommt bei SSH nicht zum Einsatz.
+TAGGED_CONTENT:
+probier_ADJA 's_PPER mal_ADV mit_APPR der_ART ._$. profile_VVFIN die_ART bashrc_ADJD kommt_VVFIN bei_APPR SSH_NE nicht_PTKNEG zum_APPRART Einsatz_NN ._$. 

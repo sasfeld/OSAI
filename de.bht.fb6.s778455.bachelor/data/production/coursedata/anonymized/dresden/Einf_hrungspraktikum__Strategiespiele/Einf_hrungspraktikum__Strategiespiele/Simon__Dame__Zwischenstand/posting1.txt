@@ -1,0 +1,10 @@
+ID: 156
+CREATION_DATETIME: 1348437600000
+MODIFICATION_DATETIME: 1348437600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+http://pastebin.com/D5zSz8aS
+Die eine Situation habe ich gefixt; es lag daran, dass die Dame nicht auf ihr Startfeld springen konnte, <NAME_CORPUS_REPLACEMENT> sie <LEARNED_PERSON_NAME_REPLACEMENT> laut buffer noch dort stand. Außerdem sollten die <REMOVED_PERSON_ENTITY> jetzt versuchen, dem Gegner auszuweichen.
+TAGGED_CONTENT:

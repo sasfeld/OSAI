@@ -1,0 +1,10 @@
+ID: 2423
+CREATION_DATETIME: 1374444000000
+MODIFICATION_DATETIME: 1374444000000
+TITLE: Ok, sind dann bei bei der zweiten Routingtabelle für die Firewall alle Einträge statisch?
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2420
+POSTING_TYPE: comment
+CONTENT:
+Ok, sind dann bei bei der zweiten Routingtabelle für die Firewall alle Einträge statisch?
+TAGGED_CONTENT:

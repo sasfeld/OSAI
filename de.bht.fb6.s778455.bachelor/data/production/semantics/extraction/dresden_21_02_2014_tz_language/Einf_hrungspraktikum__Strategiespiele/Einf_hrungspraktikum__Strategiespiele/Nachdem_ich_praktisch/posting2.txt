@@ -1,0 +1,12 @@
+ID: 168
+CREATION_DATETIME: 1348524000000
+MODIFICATION_DATETIME: 1348524000000
+TITLE: Formatierung haut irg
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 166
+POSTING_TYPE: comment
+CONTENT:
+Formatierung haut irgendwie nicht hin :/
+
+Hoffe es ist trotzdem verständlich.
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1474
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Ich hatte deine Formatierung gerade korrigiert. Einfach drei backticks vor und nach das Log.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1468
+POSTING_TYPE: comment
+CONTENT:
+Ich hatte deine Formatierung gerade korrigiert. Einfach drei backticks vor und nach das Log.
+TAGGED_CONTENT:

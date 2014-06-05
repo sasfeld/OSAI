@@ -1,0 +1,44 @@
+ID: 1864
+CREATION_DATETIME: 1369778400000
+MODIFICATION_DATETIME: 1369778400000
+TITLE: Hi,
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1863
+POSTING_TYPE: comment
+CONTENT:
+Hi,
+
+Das mit den CallGraph-Passes und so funktioniert nicht so, wie ich es mir theoretisch überlegt hatte. In Rücksprache mit einigen LLVM-Entwicklern weiß ich jetzt, wie man es richtig machen muss.
+
+Ich würde mich gerne erst mal um den Code Analyzer kümmern, dass er lauffähige Ergebnisse hat. Du kümmerst dich besser um den Analyser und die Lernalgorithmen.
+
+Folgende Datenstruktur soll das Ergebnis eines Kernels sein:
+
+```c++
+
+class kernelMetrics {
+
+        public:
+
+        int memoryRead;
+
+        int memoryWrite;
+
+        int memoryReadCache;
+
+        int memoryWriteCache;
+
+        int instructionCount;
+
+        int overheadPenalty;
+
+        std::vector innerLoops;
+
+        void writeOut();
+
+};
+
+```
+
+Pro reale Ausführung erhält man noch die Daten, wie groß die Eingabe/Ausgabe war und wie lange die Ausführung gedauert hat. Du kannst dir mal Gedanken machen, wie unser Modul eine Korellation zwischen den in kernelMetrics angegebenen Werten (inklusive der rekursiven Struktur) und der Größe der Eingabe lernen soll. Du liest dir am besten ein paar Paper zu Korellationsanalyse und lernenden Algorithmen durch.
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 413
+CREATION_DATETIME: 1350511200000
+MODIFICATION_DATETIME: 1350511200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+bitte die Veranstaltung der Professur für Multimedia-Technologie zuordnen - URL: http://mt.inf.tu-dresden. de/lehre/UIE/
+
+Danke, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

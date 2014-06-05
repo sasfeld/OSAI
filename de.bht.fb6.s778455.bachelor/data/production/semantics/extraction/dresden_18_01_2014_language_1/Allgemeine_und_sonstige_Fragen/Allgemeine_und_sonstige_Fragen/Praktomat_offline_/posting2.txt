@@ -1,0 +1,10 @@
+ID: 839
+CREATION_DATETIME: 1353538800000
+MODIFICATION_DATETIME: 1353538800000
+TITLE: Ja, schaut so aus, als wäre der [Praktomat offline](http://www.downforeveryoneorjustme.com/praktomat....
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 838
+POSTING_TYPE: answer
+CONTENT:
+Ja, schaut so aus, als wäre der [Praktomat offline](http://www.downforeveryoneorjustme.com/praktomat. inf. tu-dresden. de). Aber wann die Betreuer ihn wieder online stellen werden, weiß ich nicht.
+TAGGED_CONTENT:

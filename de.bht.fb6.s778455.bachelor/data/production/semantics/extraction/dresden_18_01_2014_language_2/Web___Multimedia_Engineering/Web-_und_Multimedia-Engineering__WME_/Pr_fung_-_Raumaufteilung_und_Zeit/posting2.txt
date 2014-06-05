@@ -1,0 +1,12 @@
+ID: 1101
+CREATION_DATETIME: 1359932400000
+MODIFICATION_DATETIME: 1359932400000
+TITLE: Im Prüfungsplan unter http://inf.tu-dresden.de/?node_id=876&ln=de steht 05.02.2013, 11:00 im TRE/PHYS...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1100
+POSTING_TYPE: answer
+CONTENT:
+Im Prüfungsplan unter http://inf.tu-dresden. de/?node_id=876&ln=de steht 05. 02. 2013, 11:10 im TRE/PHYS/E.
+
+Viele Grüße.
+TAGGED_CONTENT:

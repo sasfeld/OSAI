@@ -1,0 +1,17 @@
+ID: 1861
+CREATION_DATETIME: 1369692000000
+MODIFICATION_DATETIME: 1369692000000
+TITLE: Erneut einige Fragen zu eurer CLevertrustee-Klasse:
+Der CLeverTrustee soll doch eigentlich ein Singl...
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Erneut einige Fragen zu eurer CLevertrustee-Klasse:
+Der CLeverTrustee soll doch eigentlich ein <REMOVED_PERSON_ENTITY> sein, liege ich richtig mit der Annahme? Falls ja, wundert mich euer aufbau noch ein wenig. Einerseits fehlen mir <NAME_CORPUS_REPLACEMENT> sie Sichtbarkeiten (Konstruktor private). Außerdem frage ich mich, wofür das '&' in der Zeile 
+```ruby
+CLeverTrustee& CLeverTrustee::getInstance()
+```
+gut ist. 
+Muss nicht außerdem die Variable instance in der getInstance()-Methode außerhalb der Funktion deklariert werden?
+<NAME_CORPUS_REPLACEMENT> das ganze nicht mein "Aufgabengebiet" ist, habe ich mich gehütet, in eurem Code herumzupfuschen.
+TAGGED_CONTENT:

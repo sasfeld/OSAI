@@ -1,0 +1,8 @@
+ID: 177437
+CREATION_DATETIME: 1352048803
+MODIFICATION_DATETIME: 1352048803
+TITLE: Re: Online Präsenz 31.10. Konjunktive Normalform
+PARENT_POSTING_ID: 177407
+CONTENT:
+Das siehst Du falsch. Damit X sicher wahr ist (letzte Spalte = 1), darf KEINE der roten Zeilen getroffen werden.(NICHT die erste rote <REMOVED_PERSON_ENTITY>) UND (NICHT die zweite rote <REMOVED_PERSON_ENTITY>) UND (NICHT die dritte rote <REMOVED_PERSON_ENTITY>)
+TAGGED_CONTENT:

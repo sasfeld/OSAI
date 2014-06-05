@@ -1,0 +1,10 @@
+ID: 1739
+CREATION_DATETIME: 1366063200000
+MODIFICATION_DATETIME: 1366063200000
+TITLE: Im Kontext von IWA können Sie sich bzgl. Selbststudium gerne an mich wenden - wir können dies z.B. na...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1730
+POSTING_TYPE: comment
+CONTENT:
+Im Kontext <NAME_CORPUS_REPLACEMENT> IWA können Sie sich bzgl. Selbststudium gerne an mich wenden - wir können dies z. B. nach der Übung am <REMOVED_PERSON_ENTITY> kurz besprechen...
+TAGGED_CONTENT:

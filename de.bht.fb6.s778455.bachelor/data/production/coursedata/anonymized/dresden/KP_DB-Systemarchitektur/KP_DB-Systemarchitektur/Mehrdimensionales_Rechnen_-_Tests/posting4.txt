@@ -1,0 +1,13 @@
+ID: 2140
+CREATION_DATETIME: 1372543200000
+MODIFICATION_DATETIME: 1372543200000
+TITLE: Jo, dann müssen die lokalen Dimension runtergesetzt werden, zum Beispiel auf 128 (in vielen Samples i...
+PARENT_POSTING_ID: 2137
+POSTING_TYPE: comment
+CONTENT:
+Jo, dann müssen die lokalen Dimension runtergesetzt werden, zum Beispiel auf 128 (in vielen Samples ist die sogar nur auf 16 gesetzt, weil sich dann der shared memory zur weiteren Beschleunigung nutzen lässt).
+Geht man davon aus, dass die globalen Dimensionen bis 1024 reichen, kann man so eine ziemlich große Matrix errechen: 
+128*128 * 1024*1024 = 17179869184
+Das ganze dann mit Floats gerechnet, bedeutet für den Speicherbedarf: 17179869184 * 4 Byte = 68719476736 Byte = 64 GByte
+Also keine Sorgen um die Dimensionen machen, eher um die Größe der Matrix die dabei entsteht ;-)
+TAGGED_CONTENT:

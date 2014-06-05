@@ -1,0 +1,13 @@
+ID: 97786
+CREATION_DATETIME: 1297242506
+MODIFICATION_DATETIME: 1297242506
+TITLE: Re: Klausur - Erlaubte Hilfsmittel
+POS_TAG: value:eHorst;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hand;weight:0.0;uri:;postag:NN
+POS_TAG: value:Notizen;weight:0.0;uri:;postag:NN
+POS_TAG: value:tter;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97785
+CONTENT:
+Müssen die beiden Blätter eigene Notizen von Hand geschrieben sein, oder dürfen diese auch maschinell beschrieben sein?GrüßeHorst Ruck 
+TAGGED_CONTENT:
+Müssen_VMFIN die_ART beiden_PIDAT Blätter_NN eigene_ADJA Notizen_NN von_APPR Hand_NN geschrieben_VVPP sein_VAINF ,_$, oder_KON dürfen_VMFIN diese_PDAT auch_ADV maschinell_ADJD beschrieben_VVPP sein?GrüßeHorst_NN Ruck_NE 

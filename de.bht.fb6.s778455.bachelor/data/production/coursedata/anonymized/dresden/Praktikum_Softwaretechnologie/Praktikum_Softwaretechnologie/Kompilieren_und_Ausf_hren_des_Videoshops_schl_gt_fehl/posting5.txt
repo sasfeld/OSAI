@@ -1,0 +1,13 @@
+ID: 2665
+CREATION_DATETIME: 1383174000000
+MODIFICATION_DATETIME: 1383174000000
+TITLE: die 1. version steht schon genau so in der pom.xml drin.
+
+die 2. versuche ich mal kurz
+PARENT_POSTING_ID: 2661
+POSTING_TYPE: comment
+CONTENT:
+die 1. version steht schon genau so in der pom. xml drin.
+die 2. versuche ich mal kurz
+edit: Update: hilft leider auch nichts - tritt genau der selbe Fehler wie am Anfang auf.
+TAGGED_CONTENT:

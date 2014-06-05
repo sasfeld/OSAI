@@ -1,0 +1,19 @@
+ID: 1572
+CREATION_DATETIME: 1363993200000
+MODIFICATION_DATETIME: 1363993200000
+TITLE: Wenn du schon C++ verwendest, kannst du ja auch die Möglichkeiten davon nutzen. Daher:
+
+```c++
+std...
+PARENT_POSTING_ID: 1563
+POSTING_TYPE: answer
+CONTENT:
+Wenn du schon C++ verwendest, kannst du <LEARNED_PERSON_NAME_REPLACEMENT> auch die Möglichkeiten davon nutzen. Daher:
+```c++
+std::stringstream ss;
+ss << 42;
+std::string str = ss. str();
+std::cout << str << std::endl;
+```
+So brauchst du dich nicht um die Speicherverwaltung kümmern und kannst ```str``` beliebig herumreichen. Falls du doch mal ein char* brauchst, kannst du ```str. c_str()``` verwenden. Bedenke aber, dass der char* nur gültig ist solange ```str``` existiert.
+TAGGED_CONTENT:

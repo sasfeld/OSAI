@@ -1,0 +1,22 @@
+ID: 97806
+CREATION_DATETIME: 1292840822
+MODIFICATION_DATETIME: 1292840822
+TITLE: Re: Parallelogrammfläche
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Vektoren;weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Kreuzprodukt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Versuchen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Laenge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spatprodukt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektors;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97805
+CONTENT:
+Versuchen Sie es mal mit dem Spatprodukt statt mit dem Kreuzprodukt. Das was Sie ausrechnen auf dem <REMOVED_PERSON_ENTITY> ist die Laenge des orthogonalen Vektors von a und b, also etwas komplett anderes.
+TAGGED_CONTENT:
+Versuchen_NN Sie_PPER es_PPER mal_ADV mit_APPR dem_ART Spatprodukt_NN statt_APPR mit_APPR dem_ART Kreuzprodukt_NN ._$. Das_ART was_PWS Sie_PPER ausrechnen_VVINF auf_APPR dem_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_ADJD ist_VAFIN die_ART Laenge_NN des_ART orthogonalen_ADJA Vektors_NN von_APPR a_NE und_KON b_XY ,_$, also_ADV etwas_PIS komplett_ADJD anderes_PIS ._$. 

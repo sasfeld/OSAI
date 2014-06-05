@@ -1,0 +1,18 @@
+ID: 183799
+CREATION_DATETIME: 1354116490
+MODIFICATION_DATETIME: 1354116490
+TITLE: ESA, Aufg. 2a)
+PARENT_POSTING_ID: 0
+CONTENT:
+Zur Frage, ob die möglichen Knotenbewertungen eines Graphen einen Vektorraum darstellen, möchte ich Euch mal folgenden Gedankengang vorstellen. (Ich hoffe, Ihr könnt meinen wirren Gedanken folgen :-)
+Wenn wir die Knotenbewertungen betrachten, dann spielen die Eigenschaften des hier gegebenen (oder auch irgendeines anderen) Graphen an sich (also Wege, Zyklen usw ....) sowie die Art und die Anordnung der Kanten für diese Betrachtung doch offenbar gar keine <REMOVED_PERSON_ENTITY>.
+Wir könnten (ohne die Knotenbewertung zu beeinträchtigen) die Kanten auch völlig anders anordnen oder auch ganz weglassen - dadurch ändert sich nicht an der Knotenbewertung.
+Wenn wir im Rahmen der Abstraktion (d. h. auch Ausblenden von Unwesentlichem) die Kanten also einfach mal wegnehmen und aus dem Bild entfernen, dann bleibt letztlich nur eine bestimmte <REMOVED_PERSON_ENTITY> von reellen Zahlen in einer bestimmten Anordnung stehen.
+Oder anders gesagt: Reelle Zahlen, die an eine wohldefinierte Position geschrieben werden.
+Und wir können doch jetzt im Prinzip auch irgendeine andere Anordnung dieser reellen Zahlen definieren und die bisherige Anordnung dann umkehrbar eindeutig (bijektiv) in diese neue andere Anordnung überführen (durch einen Vorgang, den ich jetzt mal "Transformation" nenne).
+Konkret: Wir wählen als neue Anordnung der gegebenen reellen Zahlen eine andere Anordnung, die wir bereits kennen, nämlich die Schreibweise zeilenweise untereinander und geben dafür verbindliche Transformationsregeln vor, z. B.: - Der Knotenwert von links unten soll immer in der ersten Zeile stehen - Der Wert des Knotens links oben soll in der zweiten Zeile stehen - usw...(Welcher Knotenwert an welche neue Position gesetzt wird, ist ja im Grunde beliebig. Wichtig ist aber natürlich, dass wir bei der Betrachtung mehrerer Knotenbewertungen immer die gleichen "Transformationsregeln" anwenden.)
+Wenn wir um diese neue "transformierte" Anordnung (zeilenweise) nun noch ein Klammernpaar setzen, dann entsteht ein Konstrukt, das uns bereits bekannt ist, nämlich ein reeller Spaltenvektor .
+Letztlich haben wir die ursprüngliche Knotenbewertung also doch nur auf eine andere (aber ebenso eindeutige) <REMOVED_PERSON_ENTITY> aufgeschrieben und dadurch in einen reellen Spaltenvektor überführt.
+(Ich denke, hier erübrigt es sich wohl, noch einmal zu zeigen, dass dieser zu einem reellen Vektorraum gehört und dass die bekannten Eigenschaften eines Vektorraums hier gelten. Das ist wohl unmittelbar einsichtig.)
+Irre ich mich irgendwo? Habe ich etwas übersehen? Oder könnt ihr mir zustimmen? Ich bitte um Eure Kommentare.
+TAGGED_CONTENT:

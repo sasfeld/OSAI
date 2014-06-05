@@ -1,0 +1,19 @@
+ID: 175827
+CREATION_DATETIME: 1351593856
+MODIFICATION_DATETIME: 1351593856
+TITLE: Aussagenlogik und Boole´sche Algebra
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+hatte eine Frage an Herrn <REMOVED_PERSON_ENTITY> in Bezug auf <REMOVED_PERSON_ENTITY> s. o und dort dann folgender Link:
+http://moodle.oncampus.de/modules/ir043/onmod/LO_05/1/onCampusBook/7/unit. html
+Es geht also um Aufgabe 2:
+Ich habe versucht mit den Wahrheitstafeln zur Wahrheit zu gelangen, bin aber immer an einer Kleinigkeit gescheitert. Diese Methode ist sehr aufwendig und kostet Zeit.
+Herr <REMOVED_PERSON_ENTITY> hat mir dann gemailt mit der Lösung zu Aufgabe 2a)
+Bei Aufgabe 2. a) geht man z. B. folgendermaßen vor(für die Negation nehme ich mal das "-"-Zeichen):(A -&gt; B) ^ -B -&gt; -A- zunächst erste Implikation mit Formel (5. 9) in eine Disjunktion umformen(-A v B) ^ -B -&gt; -A- <REMOVED_PERSON_ENTITY> der Bindungsstärke der Junktoren beachten  (siehe <REMOVED_PERSON_ENTITY>, Abschnitt 3. 1) und Klammern setzen:=((-A v B) ^ -B) -&gt; -A- <REMOVED_PERSON_ENTITY> (5. 6):=((-A ^ -B) v (B ^ -B)) -&gt; -A- <REMOVED_PERSON_ENTITY> (5. 7):=((-A ^ -B) v 0) -&gt; -A- <REMOVED_PERSON_ENTITY> (5. 5):=(-A ^ -B) -&gt; -A- zweite Implikation mit Formel (5. 9) in eine Disjunktion umformen:=-(-A ^ -B) v -A- <REMOVED_PERSON_ENTITY> (5. 8) und (5. 3):A v B v -A= A v -A v B- erneut Formel (5. 7) (<REMOVED_PERSON_ENTITY>: "Sein oder nicht Sein" ist immer wahr.)= 1 v B- <REMOVED_PERSON_ENTITY> (5. 5):= 1 (Tautologie bewiesen!)
+Also umformen und keine Wahrheitstafeln benutzen. Wenn noch Fragen sind, dann einfach fragen:-)
+ 
+Grüße
+Mark
+ 
+TAGGED_CONTENT:

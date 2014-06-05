@@ -1,0 +1,10 @@
+ID: 3050
+CREATION_DATETIME: 1385593200000
+MODIFICATION_DATETIME: 1385593200000
+TITLE: Ja, die oberste Klasse muss ein @Id Attribut haben. Kindklassen aber nicht mehr, das Attribut wird ja...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 3045
+POSTING_TYPE: comment
+CONTENT:
+\o/
+TAGGED_CONTENT:

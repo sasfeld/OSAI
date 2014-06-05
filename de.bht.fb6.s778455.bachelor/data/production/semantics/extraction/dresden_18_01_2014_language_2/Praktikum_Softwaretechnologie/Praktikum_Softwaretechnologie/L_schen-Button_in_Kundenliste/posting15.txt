@@ -1,0 +1,334 @@
+ID: 2985
+CREATION_DATETIME: 1385161200000
+MODIFICATION_DATETIME: 1385161200000
+TITLE: Ja, genau weil ichs ja shcon einmal in der Tabelle verwendet hab, wudner ich mich ja.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2935
+POSTING_TYPE: comment
+CONTENT:
+Ja, genau weil ichs ja shcon einmal in der Tabelle verwendet hab, wudner ich mich ja.
+
+Also wenn ich als Boss auf die Kundenliste will, erhalte ich dieses Exception-Fenster, <NAME_CORPUS_REPLACEMENT> steht:
+
+> Message:  Request processing failed; nested exception is org. thymeleaf. exceptions. TemplateInputException: Exception parsing document: template="customers", <NAME_CORPUS_REPLACEMENT> 34 - column 12
+
+und die exception:
+
+```
+
+org. springframework. web. util. NestedServletException: Request processing failed; nested exception is org. thymeleaf. exceptions. TemplateInputException: Exception parsing document: template="customers", <NAME_CORPUS_REPLACEMENT> 34 - column 12
+
+	org. springframework. web. servlet. FrameworkServlet. processRequest(FrameworkServlet. java:958)
+
+	org. springframework. web. servlet. FrameworkServlet. doGet(FrameworkServlet. java:837)
+
+	javax. servlet. http. HttpServlet. service(HttpServlet. java:621)
+
+	org. springframework. web. servlet. FrameworkServlet. service(FrameworkServlet. java:822)
+
+	javax. servlet. http. HttpServlet. service(HttpServlet. java:728)
+
+	org. springframework. web. filter. HiddenHttpMethodFilter. doFilterInternal(HiddenHttpMethodFilter. java:77)
+
+	org. springframework. web. filter. OncePerRequestFilter. doFilter(OncePerRequestFilter. java:108)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:330)
+
+	org. springframework. security. web. access. intercept. FilterSecurityInterceptor. invoke(FilterSecurityInterceptor. java:118)
+
+	org. springframework. security. web. access. intercept. FilterSecurityInterceptor. doFilter(FilterSecurityInterceptor. java:84)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. access. ExceptionTranslationFilter. doFilter(ExceptionTranslationFilter. java:113)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. session. SessionManagementFilter. doFilter(SessionManagementFilter. java:103)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. authentication. AnonymousAuthenticationFilter. doFilter(AnonymousAuthenticationFilter. java:113)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. servletapi. SecurityContextHolderAwareRequestFilter. doFilter(SecurityContextHolderAwareRequestFilter. java:150)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. savedrequest. RequestCacheAwareFilter. doFilter(RequestCacheAwareFilter. java:45)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. authentication. ui. DefaultLoginPageViewFilter. doFilter(DefaultLoginPageViewFilter. java:122)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. authentication. AbstractAuthenticationProcessingFilter. doFilter(AbstractAuthenticationProcessingFilter. java:199)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. authentication. logout. LogoutFilter. doFilter(LogoutFilter. java:110)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. header. HeaderWriterFilter. doFilterInternal(HeaderWriterFilter. java:57)
+
+	org. springframework. web. filter. OncePerRequestFilter. doFilter(OncePerRequestFilter. java:108)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. context. SecurityContextPersistenceFilter. doFilter(SecurityContextPersistenceFilter. java:87)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. context. request. async. WebAsyncManagerIntegrationFilter. doFilterInternal(WebAsyncManagerIntegrationFilter. java:50)
+
+	org. springframework. web. filter. OncePerRequestFilter. doFilter(OncePerRequestFilter. java:108)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. FilterChainProxy. doFilterInternal(FilterChainProxy. java:192)
+
+	org. springframework. security. web. FilterChainProxy. doFilter(FilterChainProxy. java:160)
+
+root cause
+
+org. thymeleaf. exceptions. TemplateInputException: Exception parsing document: template="customers", <NAME_CORPUS_REPLACEMENT> 34 - column 12
+
+	org. thymeleaf. templateparser. xmlsax. AbstractNonValidatingSAXTemplateParser. parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser. java:167)
+
+	org. thymeleaf. templateparser. xmlsax. AbstractNonValidatingSAXTemplateParser. parseTemplate(AbstractNonValidatingSAXTemplateParser. java:117)
+
+	org. thymeleaf. TemplateRepository. getTemplate(TemplateRepository. java:277)
+
+	org. thymeleaf. TemplateEngine. process(TemplateEngine. java:1104)
+
+	org. thymeleaf. TemplateEngine. process(TemplateEngine. java:1060)
+
+	org. thymeleaf. TemplateEngine. process(TemplateEngine. java:1011)
+
+	org. thymeleaf. spring3. view. ThymeleafView. renderFragment(ThymeleafView. java:335)
+
+	org. thymeleaf. spring3. view. ThymeleafView. render(ThymeleafView. java:190)
+
+	org. springframework. web. servlet. DispatcherServlet. render(DispatcherServlet. java:1227)
+
+	org. springframework. web. servlet. DispatcherServlet. processDispatchResult(DispatcherServlet. java:1014)
+
+	org. springframework. web. servlet. DispatcherServlet. doDispatch(DispatcherServlet. java:961)
+
+	org. springframework. web. servlet. DispatcherServlet. doService(DispatcherServlet. java:878)
+
+	org. springframework. web. servlet. FrameworkServlet. processRequest(FrameworkServlet. java:946)
+
+	org. springframework. web. servlet. FrameworkServlet. doGet(FrameworkServlet. java:837)
+
+	javax. servlet. http. HttpServlet. service(HttpServlet. java:621)
+
+	org. springframework. web. servlet. FrameworkServlet. service(FrameworkServlet. java:822)
+
+	javax. servlet. http. HttpServlet. service(HttpServlet. java:728)
+
+	org. springframework. web. filter. HiddenHttpMethodFilter. doFilterInternal(HiddenHttpMethodFilter. java:77)
+
+	org. springframework. web. filter. OncePerRequestFilter. doFilter(OncePerRequestFilter. java:108)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:330)
+
+	org. springframework. security. web. access. intercept. FilterSecurityInterceptor. invoke(FilterSecurityInterceptor. java:118)
+
+	org. springframework. security. web. access. intercept. FilterSecurityInterceptor. doFilter(FilterSecurityInterceptor. java:84)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. access. ExceptionTranslationFilter. doFilter(ExceptionTranslationFilter. java:113)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. session. SessionManagementFilter. doFilter(SessionManagementFilter. java:103)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. authentication. AnonymousAuthenticationFilter. doFilter(AnonymousAuthenticationFilter. java:113)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. servletapi. SecurityContextHolderAwareRequestFilter. doFilter(SecurityContextHolderAwareRequestFilter. java:150)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. savedrequest. RequestCacheAwareFilter. doFilter(RequestCacheAwareFilter. java:45)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. authentication. ui. DefaultLoginPageViewFilter. doFilter(DefaultLoginPageViewFilter. java:122)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. authentication. AbstractAuthenticationProcessingFilter. doFilter(AbstractAuthenticationProcessingFilter. java:199)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. authentication. logout. LogoutFilter. doFilter(LogoutFilter. java:110)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. header. HeaderWriterFilter. doFilterInternal(HeaderWriterFilter. java:57)
+
+	org. springframework. web. filter. OncePerRequestFilter. doFilter(OncePerRequestFilter. java:108)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. context. SecurityContextPersistenceFilter. doFilter(SecurityContextPersistenceFilter. java:87)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. context. request. async. WebAsyncManagerIntegrationFilter. doFilterInternal(WebAsyncManagerIntegrationFilter. java:50)
+
+	org. springframework. web. filter. OncePerRequestFilter. doFilter(OncePerRequestFilter. java:108)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. FilterChainProxy. doFilterInternal(FilterChainProxy. java:192)
+
+	org. springframework. security. web. FilterChainProxy. doFilter(FilterChainProxy. java:160)
+
+root cause
+
+org. xml. sax. SAXParseException; lineNumber: 34; columnNumber: 12; Auf Elementtyp "td" müssen entweder Attributspezifikationen, ">" oder "/>" folgen.
+
+	com. sun. org. apache. xerces. internal. util. ErrorHandlerWrapper. createSAXParseException(Unknown Source)
+
+	com. sun. org. apache. xerces. internal. util. ErrorHandlerWrapper. fatalError(Unknown Source)
+
+	com. sun. org. apache. xerces. internal. impl. XMLErrorReporter. reportError(Unknown Source)
+
+	com. sun. org. apache. xerces. internal. impl. XMLErrorReporter. reportError(Unknown Source)
+
+	com. sun. org. apache. xerces. internal. impl. XMLScanner. reportFatalError(Unknown Source)
+
+	com. sun. org. apache. xerces. internal. impl. XMLDocumentFragmentScannerImpl. seekCloseOfStartTag(Unknown Source)
+
+	com. sun. org. apache. xerces. internal. impl. XMLDocumentFragmentScannerImpl. scanStartElement(Unknown Source)
+
+	com. sun. org. apache. xerces. internal. impl. XMLDocumentFragmentScannerImpl$FragmentContentDriver. next(Unknown Source)
+
+	com. sun. org. apache. xerces. internal. impl. XMLDocumentScannerImpl. next(Unknown Source)
+
+	com. sun. org. apache. xerces. internal. impl. XMLDocumentFragmentScannerImpl. scanDocument(Unknown Source)
+
+	com. sun. org. apache. xerces. internal. parsers. XML11Configuration. parse(Unknown Source)
+
+	com. sun. org. apache. xerces. internal. parsers. XML11Configuration. parse(Unknown Source)
+
+	com. sun. org. apache. xerces. internal. parsers. XMLParser. parse(Unknown Source)
+
+	com. sun. org. apache. xerces. internal. parsers. AbstractSAXParser. parse(Unknown Source)
+
+	com. sun. org. apache. xerces. internal. jaxp. SAXParserImpl$JAXPSAXParser. parse(Unknown Source)
+
+	com. sun. org. apache. xerces. internal. jaxp. SAXParserImpl. parse(Unknown Source)
+
+	org. thymeleaf. templateparser. xmlsax. AbstractNonValidatingSAXTemplateParser. doParse(AbstractNonValidatingSAXTemplateParser. java:210)
+
+	org. thymeleaf. templateparser. xmlsax. AbstractNonValidatingSAXTemplateParser. parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser. java:134)
+
+	org. thymeleaf. templateparser. xmlsax. AbstractNonValidatingSAXTemplateParser. parseTemplate(AbstractNonValidatingSAXTemplateParser. java:117)
+
+	org. thymeleaf. TemplateRepository. getTemplate(TemplateRepository. java:277)
+
+	org. thymeleaf. TemplateEngine. process(TemplateEngine. java:1104)
+
+	org. thymeleaf. TemplateEngine. process(TemplateEngine. java:1060)
+
+	org. thymeleaf. TemplateEngine. process(TemplateEngine. java:1011)
+
+	org. thymeleaf. spring3. view. ThymeleafView. renderFragment(ThymeleafView. java:335)
+
+	org. thymeleaf. spring3. view. ThymeleafView. render(ThymeleafView. java:190)
+
+	org. springframework. web. servlet. DispatcherServlet. render(DispatcherServlet. java:1227)
+
+	org. springframework. web. servlet. DispatcherServlet. processDispatchResult(DispatcherServlet. java:1014)
+
+	org. springframework. web. servlet. DispatcherServlet. doDispatch(DispatcherServlet. java:961)
+
+	org. springframework. web. servlet. DispatcherServlet. doService(DispatcherServlet. java:878)
+
+	org. springframework. web. servlet. FrameworkServlet. processRequest(FrameworkServlet. java:946)
+
+	org. springframework. web. servlet. FrameworkServlet. doGet(FrameworkServlet. java:837)
+
+	javax. servlet. http. HttpServlet. service(HttpServlet. java:621)
+
+	org. springframework. web. servlet. FrameworkServlet. service(FrameworkServlet. java:822)
+
+	javax. servlet. http. HttpServlet. service(HttpServlet. java:728)
+
+	org. springframework. web. filter. HiddenHttpMethodFilter. doFilterInternal(HiddenHttpMethodFilter. java:77)
+
+	org. springframework. web. filter. OncePerRequestFilter. doFilter(OncePerRequestFilter. java:108)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:330)
+
+	org. springframework. security. web. access. intercept. FilterSecurityInterceptor. invoke(FilterSecurityInterceptor. java:118)
+
+	org. springframework. security. web. access. intercept. FilterSecurityInterceptor. doFilter(FilterSecurityInterceptor. java:84)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. access. ExceptionTranslationFilter. doFilter(ExceptionTranslationFilter. java:113)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. session. SessionManagementFilter. doFilter(SessionManagementFilter. java:103)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. authentication. AnonymousAuthenticationFilter. doFilter(AnonymousAuthenticationFilter. java:113)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. servletapi. SecurityContextHolderAwareRequestFilter. doFilter(SecurityContextHolderAwareRequestFilter. java:150)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. savedrequest. RequestCacheAwareFilter. doFilter(RequestCacheAwareFilter. java:45)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. authentication. ui. DefaultLoginPageViewFilter. doFilter(DefaultLoginPageViewFilter. java:122)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. authentication. AbstractAuthenticationProcessingFilter. doFilter(AbstractAuthenticationProcessingFilter. java:199)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. authentication. logout. LogoutFilter. doFilter(LogoutFilter. java:110)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. header. HeaderWriterFilter. doFilterInternal(HeaderWriterFilter. java:57)
+
+	org. springframework. web. filter. OncePerRequestFilter. doFilter(OncePerRequestFilter. java:108)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. context. SecurityContextPersistenceFilter. doFilter(SecurityContextPersistenceFilter. java:87)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. context. request. async. WebAsyncManagerIntegrationFilter. doFilterInternal(WebAsyncManagerIntegrationFilter. java:50)
+
+	org. springframework. web. filter. OncePerRequestFilter. doFilter(OncePerRequestFilter. java:108)
+
+	org. springframework. security. web. FilterChainProxy$VirtualFilterChain. doFilter(FilterChainProxy. java:342)
+
+	org. springframework. security. web. FilterChainProxy. doFilterInternal(FilterChainProxy. java:192)
+
+	org. springframework. security. web. FilterChainProxy. doFilter(FilterChainProxy. java:160)
+
+```
+TAGGED_CONTENT:

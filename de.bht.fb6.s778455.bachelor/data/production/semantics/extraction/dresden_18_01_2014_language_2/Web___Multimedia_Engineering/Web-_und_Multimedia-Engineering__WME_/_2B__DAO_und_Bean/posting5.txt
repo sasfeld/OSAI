@@ -1,0 +1,12 @@
+ID: 929
+CREATION_DATETIME: 1354316400000
+MODIFICATION_DATETIME: 1354316400000
+TITLE: Reicht es, dass der Debug Output jeweils getrennt für beide Feeds funkitoniert? 
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 900
+POSTING_TYPE: comment
+CONTENT:
+Reicht es, dass der Debug Output jeweils getrennt für beide Feeds funkitoniert? 
+
+Denn wenn wir beide gleichzeitig darstellen, dann sind 2 html-Container auf einer <REMOVED_PERSON_ENTITY> und somit ist das Ganze nicht mehr valide.
+TAGGED_CONTENT:

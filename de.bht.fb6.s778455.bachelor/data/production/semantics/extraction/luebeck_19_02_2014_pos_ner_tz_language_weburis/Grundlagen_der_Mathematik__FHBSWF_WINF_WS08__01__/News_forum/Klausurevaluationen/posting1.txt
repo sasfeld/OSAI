@@ -1,0 +1,36 @@
+ID: 16497
+CREATION_DATETIME: 1235684792
+MODIFICATION_DATETIME: 1235684792
+TITLE: Klausurevaluationen
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=6471#16497
+TOPIC_ZOOM_TAG: value:Informatik;weight:2.0;significance:2.51211272377639;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:2.0;significance:2.50390086036106;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:4.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:1.94532395751918;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Internet;weight:2.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:2.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Betriebssysteme;weight:1.0;significance:1.69341382990359;degreegeneralization:7;uri:20921095
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:3.0;significance:1.61162860218184;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:2.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Software;weight:1.0;significance:1.30255841111674;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:1.1184961304917;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:1.07753496495192;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:1.00175919109027;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:0.915417423102695;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:0.87555429116382;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:0.663149604892832;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:0.584421696201437;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:0.451148884313315;degreegeneralization:2;uri:21999847
+POS_TAG: value:Grundlagen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Online;weight:0.0;uri:;postag:NN
+POS_TAG: value:en;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mathematik;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klausuren;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Betriebssysteme;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+ Hallo Sie alle,  ich habe inzwischen 3 Klausuren evaluiert, benotet und eingetragen.  Die nächsten 2 die jetzt anstehen sind:  Wirtschaftsinformatik-Online: Grundlagen der Mathematik Medieninformatik-Online: Betriebssysteme 1  <REMOVED_PERSON_ENTITY> wird möglich sein.  Mit freundlichen Grüßen, <PERSONAL_GREETING_REMOVEMENT>. <REMOVED_PERSON_ENTITY>. 
+TAGGED_CONTENT:
+Hallo_ITJ Sie_PPER alle_PIS ,_$, ich_PPER habe_VAFIN inzwischen_ADV 3_CARD Klausuren_NN evaluiert_VVPP ,_$, benotet_VVPP und_KON eingetragen_VVPP ._$. Die_ART nächsten_ADJA 2_CARD die_ART jetzt_ADV anstehen_VVINF sind_VAFIN :_$. Wirtschaftsinformatik-Online_NN :_$. Grundlagen_NN der_ART Mathematik_NN Medieninformatik-Online_NN :_$. Betriebssysteme_NN 1_CARD <_XY REMOVED_PERSON_ENTITY_NN >_VVINF wird_VAFIN möglich_ADJD sein_VAINF ._$. Mit_APPR freundlichen_ADJA Grüßen_NN ,_$, <_CARD PERSONAL_GREETING_REMOVEMENT_NE >_NE ._$. <_XY REMOVED_PERSON_ENTITY_NE >_NE ._$. 

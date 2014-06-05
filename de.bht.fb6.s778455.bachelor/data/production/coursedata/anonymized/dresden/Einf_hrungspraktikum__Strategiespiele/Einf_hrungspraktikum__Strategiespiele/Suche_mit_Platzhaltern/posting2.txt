@@ -1,0 +1,11 @@
+ID: 1328
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Ich glaube gedit kann das nicht. Es gibt aber mindestens ein Plugin dafür (oder dagegen):
+http://hal...
+PARENT_POSTING_ID: 1327
+POSTING_TYPE: answer
+CONTENT:
+Ich glaube gedit kann das nicht. Es gibt aber mindestens ein Plugin dafür (oder dagegen):
+http://halfhourhacks.blogspot.de/2008/03/gedit-regular-expression-plugin. html
+TAGGED_CONTENT:

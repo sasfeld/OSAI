@@ -1,0 +1,10 @@
+ID: 2748
+CREATION_DATETIME: 1383951600000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+ich will gerade meine eigene Unterklasse <NAME_CORPUS_REPLACEMENT> UserAccount entwerfen und die Konstruktoren davon benutzen. Leider steht zu denen nichts im Salespoint javadoc und eclipse autovervollständigt nur zu UserAccount(UserAccountIdetifier, String, String, String, null), was weniger hilfreich ist und direkter Zugriff auf die fields ist durch private leider auch nicht möglich. Können noch Informationen zu den Konstruktoren in die Javadoc? Am besten auch noch gleich zu den fields.
+TAGGED_CONTENT:

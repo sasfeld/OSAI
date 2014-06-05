@@ -1,0 +1,14 @@
+ID: 75
+CREATION_DATETIME: 1201333200000
+MODIFICATION_DATETIME: 1201333200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 74
+CONTENT:
+ 
+Liebe Studierende,
+
+ja es sind 3 Blätter, also 6 Seiten, die Sie beliebig (per Hande, gedruckt) schreiben können. Frau Akkar, wie viele Seiten bräuchten Sie?
+Mit freundlichen Grüßen
+  
+TAGGED_CONTENT:

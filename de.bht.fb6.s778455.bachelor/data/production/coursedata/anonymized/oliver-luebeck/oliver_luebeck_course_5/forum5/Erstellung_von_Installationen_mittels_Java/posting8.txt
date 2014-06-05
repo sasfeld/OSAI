@@ -1,0 +1,28 @@
+ID: 8
+CREATION_DATETIME: 1190943480000
+MODIFICATION_DATETIME: 1190943480000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 7
+CONTENT:
+
+hallo ,
+
+also, eine clik-und-run Installation bekommt man aber mit einem selbstextrahierenden zip (.exe) sehr gut hin.
+
+einen un-installer mal aussen vor gelassen,
+
+der User ( z.b. Mutter) klickt auf die myApplication.exe nach dem entpacken wird gleich eine .CMD ausgeführt, die den startmenue Eintrag erstellt. mal abgesehen von der evtl. nicht vorhandenen JavaVM, erstmal fertig.
+
+In dem CMD-Fenster wird dann die frage gestellt, ob die javaVM gleich mit installiert werden soll! (Ja/Nein)
+Einige User werden hier sicher überfragt sein!!
+(wobei es auch nicht schlimm ist wenn man die versehentlich doppelt installiert, glaube ich).
+
+soweit so gut.
+
+die frage ist eher, warum es heutzutage noch computer gibt die keine javaVM installiert haben.
+
+normalerweise kann man doch so ein myApplication.jar auch einfach anklicken, und gut.
+
+gruss 
+TAGGED_CONTENT:

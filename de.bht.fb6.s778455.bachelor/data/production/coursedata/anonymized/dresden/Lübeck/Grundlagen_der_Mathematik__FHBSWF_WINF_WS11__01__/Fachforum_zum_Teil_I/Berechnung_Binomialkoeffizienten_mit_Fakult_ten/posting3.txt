@@ -1,0 +1,8 @@
+ID: 117579
+CREATION_DATETIME: 1318254775
+MODIFICATION_DATETIME: 1318254807
+TITLE: Re: Berechnung Binomialkoeffizienten mit Fakultäten
+PARENT_POSTING_ID: 117578
+CONTENT:
+ Ja danke ich hab es.... abbildung &quot;Tab. 6: <REMOVED_PERSON_ENTITY> - n!&quot; in LO2 war genau das was mir fehlte... oben war klar, nur unten nicht... aber dank der tabelle ist mir das nu auch klar... ;) Danke bianca... 
+TAGGED_CONTENT:

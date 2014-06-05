@@ -1,0 +1,9 @@
+ID: 745
+CREATION_DATETIME: 1352674800000
+MODIFICATION_DATETIME: 1352674800000
+TITLE: Habe jetzt per E-Mail angefragt und werde die Antwort dann hier auch veröffentlichen.
+PARENT_POSTING_ID: 728
+POSTING_TYPE: comment
+CONTENT:
+Habe jetzt per E-Mail angefragt und werde die Antwort dann hier auch veröffentlichen.
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 1081
+CREATION_DATETIME: 1359068400000
+MODIFICATION_DATETIME: 1359068400000
+TITLE: Thanks Tomas. And by the way, just a couple of questions regarding this week tutorial. For multi tena...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1076
+POSTING_TYPE: comment
+CONTENT:
+<REMOVED_PERSON_ENTITY>. And by the way, <NAME_CORPUS_REPLACEMENT> a couple of questions regarding this week tutorial. For multi tenancy, if instead of age we had another string column for tenant 2 (address for example), could we keep the same structure for the chunk table implementation (tenant, table, row, chunk, int, str1, str2) having by instance the values (2, 1, 1, 1, 1,'<REMOVED_PERSON_ENTITY>,'<REMOVED_PERSON_ENTITY>') and (2, 1, 1, 1, 2,%,'address of <REMOVED_PERSON_ENTITY>,%),  or do we need to add a new column?
+
+Thanks
+TAGGED_CONTENT:

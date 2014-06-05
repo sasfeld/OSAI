@@ -1,0 +1,14 @@
+ID: 2077
+CREATION_DATETIME: 1371506400000
+MODIFICATION_DATETIME: 1372284000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+
+ich habe bis jetzt diese Liste übernommen: http://www.khronos.org/registry/cl/sdk/1. 0/docs/man/xhtml/
+
+Die Liste ist in inc/CLFunctions. inc drin und könnte vielleicht noch ein paar Metadaten vertragen, findet ihr nicht?
+TAGGED_CONTENT:

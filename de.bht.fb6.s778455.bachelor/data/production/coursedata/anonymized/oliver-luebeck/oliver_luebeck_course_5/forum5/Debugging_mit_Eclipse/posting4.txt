@@ -1,0 +1,15 @@
+ID: 21
+CREATION_DATETIME: 1191859320000
+MODIFICATION_DATETIME: 1191859320000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 20
+CONTENT:
+
+Hallo ,
+in der BHT gibt es Programmierungskurse im gleichen Studiengang (Medieninformatik) in der Präsenz, also fuer Studierende, die den Präsenz-Studiengang statt den Online gewaehlt haben. Eclipse wird neben bei in den Übungen benutzt. Ein Kolleg, Prof. Grude, hat ein Paar Seiten dazu geschrieben, die allgemein zugänglich sind. Hier die Adresse:
+http://public.beuth-hochschule.de/~grude/PapTipsZuEclipse.pdf
+Sonst fuer weitere Referenzen gibt es unsere Bibliothek.
+Mit freundlichen Gruessen,
+    
+TAGGED_CONTENT:

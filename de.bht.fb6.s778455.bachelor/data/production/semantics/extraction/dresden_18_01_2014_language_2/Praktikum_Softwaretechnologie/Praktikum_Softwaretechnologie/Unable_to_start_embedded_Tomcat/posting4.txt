@@ -1,0 +1,10 @@
+ID: 2740
+CREATION_DATETIME: 1383865200000
+MODIFICATION_DATETIME: 1383865200000
+TITLE: Mh, ich habe keine Ahnung. Kannst du mal deine komplette KlStart.java ergänzen?
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2737
+POSTING_TYPE: comment
+CONTENT:
+Mh, ich habe keine Ahnung. Kannst du mal deine komplette KlStart. java ergänzen?
+TAGGED_CONTENT:

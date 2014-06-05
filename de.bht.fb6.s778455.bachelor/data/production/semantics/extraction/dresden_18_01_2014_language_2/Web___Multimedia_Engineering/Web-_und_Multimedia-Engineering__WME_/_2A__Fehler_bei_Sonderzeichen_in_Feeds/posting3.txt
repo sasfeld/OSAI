@@ -1,0 +1,10 @@
+ID: 945
+CREATION_DATETIME: 1354748400000
+MODIFICATION_DATETIME: 1354748400000
+TITLE: Die Umlaute klappen ja (ä,ü,ö,ß etc), aber wenn "&" irgendwo für einem String steht, wird es als HTML...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 943
+POSTING_TYPE: answer
+CONTENT:
+Die Umlaute klappen ja (ä,ü,ö,ß etc), aber wenn "&" irgendwo vor einem String steht, wird es als HTML interpretiert (H&M). UTF8 ist alles kodiert, ja. str_replace brachte bisher auch nichts.
+TAGGED_CONTENT:

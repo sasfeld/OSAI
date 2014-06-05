@@ -1,0 +1,16 @@
+ID: 3084
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: Ich habe ein leeres Id Interface und zwei abstrakte Unterklassen SimpleStringId und SimpleIntId. Simp...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3071
+POSTING_TYPE: comment
+CONTENT:
+Ich habe ein leeres Id Interface und zwei abstrakte Unterklassen SimpleStringId und SimpleIntId. SimpleStringId wird <NAME_CORPUS_REPLACEMENT> <REMOVED_PERSON_ENTITY> benutzt, die ihre Id selbst setzen, Int id für generierte Ids (Jede Entity-Klasse hat eine static inner id class, die entsprechend <NAME_CORPUS_REPLACEMENT> den beiden abstract id klassen erbt). Alle Klassen mit Id (also alle Entities) haben als abstrakte Oberklasse die Klasse UniqueObject. Diese kümmert sich eigentlich komplett um Funktionen wie equals, HashCode und definiert eine abstrakte Methode getId(). U. a. dafür wird das Interface benötigt.
+
+Das spart emens viel Copypasta in allen Unterklassen.
+
+Davon abgesehen werden alle Entitys in Objekten der Klasse "Bag" gespeichert (diese wrapt die Repository-Funktionalität, welche sich z. B. zu testzwecken einfach austauschen lässt, z. B. durch eine einfache Collection). Die Controller-Klassen bekommen die jeweilige Bag über die BagFactory, welche eine Service ist und somit <NAME_CORPUS_REPLACEMENT> Spring gewired werden kann. Die Factory sorgt dafür, dass vorhandene bags als SIngleton ausgelifert werden (genauer gesagt sie erstellt immer neue Bags und injiziert in die Bag die das entsprechende Repository Interface):
+
+Die Bag braucht ebenfalls das Interface id.
+TAGGED_CONTENT:

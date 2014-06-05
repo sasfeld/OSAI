@@ -1,0 +1,19 @@
+ID: 1156
+CREATION_DATETIME: 1362351600000
+MODIFICATION_DATETIME: 1362351600000
+TITLE: I improved my test program to write all the bytes in the allocated memory area and it turned out that...
+PARENT_POSTING_ID: 1143
+POSTING_TYPE: comment
+CONTENT:
+I improved my test program to write all the bytes in the allocated memory area and it turned out that I hit a page fault, slightly before the other error:
+~~~~~
+malloc-t| 	Request 428722 byte
+malloc-t| INFO 	call to malloc
+malloc-t| INFO 	Allocation successful
+malloc-t| 	Got 0x1c6c54e
+MOE: ds access out of bounds: offset=1000 size=1000
+malloc-t| L4Re[rm]: mapping for page fault failed with -34 @1c6d000 pc=1000310
+malloc-t| L4Re: unhandled exception: pc=0x1000310
+~~~~~
+Since everything else seems to work fine, I guess that the region I got from the region mapper was not what I wanted somehow. But neither *L4Re::Env::env()->mem_alloc()->alloc(…)* nor *L4Re::Env::env()->rm()->attach(…, L4Re::Rm::Search_addr, …)* returned an error. Is there a way of accessing the properties of the region to double-check it? Could I have messed up something with the flags I used (or didn't use)?
+TAGGED_CONTENT:

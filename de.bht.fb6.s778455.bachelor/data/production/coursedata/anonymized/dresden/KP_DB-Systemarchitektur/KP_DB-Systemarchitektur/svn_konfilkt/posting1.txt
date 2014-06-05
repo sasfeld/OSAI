@@ -1,0 +1,9 @@
+ID: 1863
+CREATION_DATETIME: 1369778400000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+<REMOVED_PERSON_ENTITY>, kannst du der Ordner "modul_loader" noch einmal commit? ich habe dümmlich "mc" und "commit" eingeben, und jetzt hat das Programme Fehler. Danke.
+TAGGED_CONTENT:

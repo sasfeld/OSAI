@@ -1,0 +1,18 @@
+ID: 8
+CREATION_DATETIME: 1175926260000
+MODIFICATION_DATETIME: 1175926260000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 5
+CONTENT:
+
+    Hallo David,
+
+das ist richtig - beim automatischen oder manuellem entpacken entsteht eine andere Verzeichnisstruktur mit einem weiteren übergeordneten Ordner. Ich habe mich auch am gegeben Beispiel orientiert und den überflüssigen Ordner gelöscht, die anderen natürlich beibehalten.
+
+Ganz wichtig ist zusätzlich die Konfiguration der Umgebungvariablen deiner Übungsumgebung wie im Blatt 15 beschrieben
+
+Wenn du den Ordner prog01 beibehältst müsste das so stimmen wie du schreibst: javac -classpath c:\prog01\ UebClockman.java Wenn du den Ordner prog01 mit in die Umgebungsvariable (Arbeitsplatz) schreibst oder Ihn löschst, geht es sogar ohne "classpath" da Pfad der Übungsumgebung schon festgelegt wurde - also reicht an der stellen auch: javac UebClockman.java
+
+    
+TAGGED_CONTENT:

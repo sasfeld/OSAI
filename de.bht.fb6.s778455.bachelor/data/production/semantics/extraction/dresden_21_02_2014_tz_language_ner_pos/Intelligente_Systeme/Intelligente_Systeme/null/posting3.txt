@@ -1,0 +1,19 @@
+ID: 870
+CREATION_DATETIME: 1353970800000
+MODIFICATION_DATETIME: 1353970800000
+TITLE: Mein Fehler, hab es gerade Probiert und bei Intelligente Systeme geht es.
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Veranstaltungen;weight:1.0;significance:3.37051978211685;degreegeneralization:3;uri:20901494
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:Veranstaltung;weight:0.0;uri:;postag:NN
+POS_TAG: value:KI;weight:0.0;uri:;postag:NN
+POS_TAG: value:Systeme;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 868
+POSTING_TYPE: comment
+CONTENT:
+Mein Fehler, hab es gerade Probiert und bei Intelligente Systeme geht es.
+
+Allerdings bei Angewandte KI nicht... Kann ich dir Frage verschieben? Die Veranstaltung gibt es hier nämlich noch nicht...
+TAGGED_CONTENT:
+Mein_PPOSAT Fehler_NN ,_$, hab_VAFIN es_PPER gerade_ADV Probiert_VVPP und_KON bei_APPR Intelligente_ADJA Systeme_NN geht_VVFIN es_PPER ._$. Allerdings_ADV bei_APPR Angewandte_ADJA KI_NN nicht_PTKNEG ..._$( Kann_VMFIN ich_PPER dir_PRF Frage_NN verschieben_VVINF ?_$. Die_ART Veranstaltung_NN gibt_VVFIN es_PPER hier_ADV nämlich_ADV noch_ADV nicht_PTKNEG ..._$( 

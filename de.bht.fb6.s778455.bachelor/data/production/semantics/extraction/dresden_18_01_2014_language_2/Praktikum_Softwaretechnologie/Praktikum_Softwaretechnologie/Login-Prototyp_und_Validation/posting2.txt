@@ -1,0 +1,14 @@
+ID: 2871
+CREATION_DATETIME: 1384642800000
+MODIFICATION_DATETIME: 1384642800000
+TITLE: Also in der register() Methode des Videohops befindet sich noch `modelMap.addAttribute("registrationF...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2863
+POSTING_TYPE: answer
+CONTENT:
+Also in der register() Methode des Videohops befindet sich noch `modelMap. addAttribute("registrationForm", new RegistrationForm());`
+
+Ich weiß jetzt nicht ob das in der ersten Version des Videoshops gefehlt hat, aber probier das mal.
+
+Außerdem kannst du statt `th:class="${#fields. hasErrors('password')}? 'fieldError'"` das `th:errorclass="fieldError"` nutzen Dafür musst du aber Thymleaf2. 1 nutzen, dazu einfach die pom. xml aus der neusten blanweb klauen.
+TAGGED_CONTENT:

@@ -1,0 +1,29 @@
+ID: 39
+CREATION_DATETIME: 1201207560000
+MODIFICATION_DATETIME: 1201207560000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 38
+CONTENT:
+
+    Hi 
+
+Vielen Dank...
+
+tatsächlich - ich lasse was einlesen, aber ignoriere den Wert. Wie ungeschickt... Hier ist ne kleine Alternative:
+
+protected String readString() throws IOException {
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+String line = br.readLine();
+return line;
+}
+
+und unten im Code wie gehabt:
+buff = readString();
+
+Jetzt muß ich meinem Proggi nur noch beibringen, daß es aufzuhören hat, wenn alle Versuche verbraucht sind... *ErniesLache
+
+Lieben Dank,
+
+    
+TAGGED_CONTENT:

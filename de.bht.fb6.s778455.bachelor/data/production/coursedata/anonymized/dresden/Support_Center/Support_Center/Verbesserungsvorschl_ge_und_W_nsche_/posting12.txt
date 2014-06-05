@@ -1,0 +1,9 @@
+ID: 426
+CREATION_DATETIME: 1350597600000
+MODIFICATION_DATETIME: 1358031600000
+TITLE: Ein kleinerer Header 
+PARENT_POSTING_ID: 369
+POSTING_TYPE: answer
+CONTENT:
+Ein kleinerer Header der nicht ein drittel des Bildschirms belegt...
+TAGGED_CONTENT:

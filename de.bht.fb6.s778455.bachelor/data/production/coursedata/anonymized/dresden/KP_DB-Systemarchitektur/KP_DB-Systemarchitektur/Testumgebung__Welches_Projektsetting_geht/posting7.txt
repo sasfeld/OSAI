@@ -1,0 +1,9 @@
+ID: 1913
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: src/project/Starter funktioniert aber. Soll ich das zum Aufbauen der Tests nehmen?
+PARENT_POSTING_ID: 1900
+POSTING_TYPE: answer
+CONTENT:
+src/project/Starter funktioniert aber. Soll ich das zum Aufbauen der Tests nehmen?
+TAGGED_CONTENT:

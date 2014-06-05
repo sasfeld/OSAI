@@ -1,0 +1,10 @@
+ID: 1928
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: Wenn ich den DumbTester (und auch mein Tester) mit Hilfe von compileandrun.sh -biuldLib erstellen las...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Wenn ich den DumbTester (und auch meinen Tester) mit Hilfe <NAME_CORPUS_REPLACEMENT> compileandrun. <LEARNED_PERSON_NAME_REPLACEMENT> -buildLib erstellen <NAME_CORPUS_REPLACEMENT>, Wird die Library trotzdem nicht erstellt und ein <REMOVED_PERSON_ENTITY> Fehler kommt dementsprechend. Habe ich einen Fehler gemacht oder haut <NAME_CORPUS_REPLACEMENT> etwas in der . <LEARNED_PERSON_NAME_REPLACEMENT>-Datei nicht hin? 
+TAGGED_CONTENT:

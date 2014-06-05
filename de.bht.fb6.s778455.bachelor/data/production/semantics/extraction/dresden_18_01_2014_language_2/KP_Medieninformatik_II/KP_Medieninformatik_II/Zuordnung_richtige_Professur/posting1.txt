@@ -1,0 +1,14 @@
+ID: 412
+CREATION_DATETIME: 1350511200000
+MODIFICATION_DATETIME: 1350511200000
+TITLE: null
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+die Veranstaltung bitte der Professur für Multimedia-Technologie zuordnen - URL: http://mt.inf.tu-dresden. de/lehre/KPMI/.
+
+Danke, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

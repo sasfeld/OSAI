@@ -1,0 +1,14 @@
+ID: 172307
+CREATION_DATETIME: 1350623210
+MODIFICATION_DATETIME: 1350623210
+TITLE: Re: Gruppen für die Einsendeaufgaben
+LANGUAGE: GERMAN
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 172291
+CONTENT:
+Meine Gruppe hat sich verändert, <REMOVED_PERSON_ENTITY> schrieb mir sie hat anderswo bereits zugesagt.
+ 
+Gruppe besteht also aus: <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Meine_PPOSAT Gruppe_NN hat_VAFIN sich_PRF verändert_VVPP ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE schrieb_VVFIN mir_PPER sie_PPER hat_VAFIN anderswo_ADV bereits_ADV zugesagt_VVPP ._$. Gruppe_NN besteht_VVFIN also_ADV aus_PTKVZ :_$. <_CARD REMOVED_PERSON_ENTITY_NN >_CARD ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

@@ -1,0 +1,14 @@
+ID: 1871
+CREATION_DATETIME: 1369864800000
+MODIFICATION_DATETIME: 1376604000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+ich bin gerade über die Frage gestolpert: **Ordnen Sie die Transformationsklassen (s. u.) nach ihrer Allgemeinheit!** und bin mir nicht sicher. 
+**Stimmt diese Reihenfolge (Allgemein --> Spezifisch):**
+1. Affine Transformation
+2. Starrkörpertransformation
+3. Perspektifische Transformation
+TAGGED_CONTENT:

@@ -1,0 +1,18 @@
+ID: 2517
+CREATION_DATETIME: 1376085600000
+MODIFICATION_DATETIME: 1376085600000
+TITLE: Wie kommst du denn darauf, rechts 'was anzuhängen? Die Abhängigkeitsregeln ändern sich bei der Linksr...
+LANGUAGE: GERMAN
+NER_TAG: value:ABE;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:lle;weight:0.0;uri:;postag:NN
+POS_TAG: value:ABE;weight:0.0;uri:;postag:NN
+POS_TAG: value:C;weight:0.0;uri:;postag:NN
+POS_TAG: value:ngigkeitsregeln;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Linksreduktion;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2512
+POSTING_TYPE: comment
+CONTENT:
+Wie kommst du denn darauf, rechts 'was anzuhängen? Die Abhängigkeitsregeln ändern sich bei der Linksreduktion überhaupt nicht. Soweit ich weiß, enthält die Hülle <NAME_CORPUS_REPLACEMENT> C nur sich selbst, d. h. ABE ist <NAME_CORPUS_REPLACEMENT> nicht drin, also kann man D nicht abziehen.
+TAGGED_CONTENT:
+Wie_PWAV kommst_VVFIN du_PPER denn_ADV darauf_PROAV ,_$, rechts_ADV '_$( was_PWS anzuhängen_VVIZU ?_$. Die_ART Abhängigkeitsregeln_NN ändern_VVFIN sich_PRF bei_APPR der_ART Linksreduktion_NN überhaupt_ADV nicht_PTKNEG ._$. Soweit_ADV ich_PPER weiß_VVFIN ,_$, enthält_VVFIN die_ART Hülle_NN <_CARD NAME_CORPUS_REPLACEMENT_NN >_ADJA C_NN nur_ADV sich_PRF selbst_ADV ,_$, d._PDS h._VVFIN ABE_NN ist_VAFIN <_CARD NAME_CORPUS_REPLACEMENT_NN >_VVFIN nicht_PTKNEG drin_ADV ,_$, also_ADV kann_VMFIN man_PIS D_XY nicht_PTKNEG abziehen_VVINF ._$. 

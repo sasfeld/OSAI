@@ -1,0 +1,12 @@
+ID: 28
+CREATION_DATETIME: 1177441200000
+MODIFICATION_DATETIME: 1177441200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 27
+CONTENT:
+  
+Hola,
+kontrollier doch mal ob deine PATH-Variable noch ordentlich zum jdk-Verzeichnis zeigt (man kann ja nie wissen...).  CLASSPATH würde ich probeweise auf ".;E:\" (sans Anführungszeichen) setzen, dann durchsucht er das gesamte Laufwerk.
+     
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 2957
+CREATION_DATETIME: 1384988400000
+MODIFICATION_DATETIME: 1385161200000
+TITLE: Schau mal in die Kommentar-Form in der `detail.html` vom Videoshop und danach in `CatalogController.c...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2935
+POSTING_TYPE: comment
+CONTENT:
+Schau mal in die Kommentar-Form in der `detail. html` vom Videoshop und danach in `CatalogController. comment()`.
+TAGGED_CONTENT:

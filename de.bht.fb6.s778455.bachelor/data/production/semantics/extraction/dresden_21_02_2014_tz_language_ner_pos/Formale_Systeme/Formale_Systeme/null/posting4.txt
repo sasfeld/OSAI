@@ -1,0 +1,14 @@
+ID: 455
+CREATION_DATETIME: 1350856800000
+MODIFICATION_DATETIME: 1351029600000
+TITLE: Es gilt zumindest $(p
+LANGUAGE: GERMAN
+POS_TAG: value:r;weight:0.0;uri:;postag:NN
+POS_TAG: value:q;weight:0.0;uri:;postag:NN
+POS_TAG: value:land;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 447
+POSTING_TYPE: comment
+CONTENT:
+Es gilt zumindest $((p \rightarrow q) \land (q \rightarrow r)) \rightarrow (p \rightarrow r)$
+TAGGED_CONTENT:
+Es_PPER gilt_VVFIN zumindest_ADV $_CARD -LRB-_TRUNC -LRB-_TRUNC p_XY \_CARD rightarrow_ADJA q_NN -RRB-_TRUNC \_XY land_NN -LRB-_TRUNC q_XY \_CARD rightarrow_ADJA r_NN -RRB-_TRUNC -RRB-_TRUNC \_XY rightarrow_ADJD -LRB-_TRUNC p_XY \_CARD rightarrow_ADJA r_NN -RRB-_TRUNC $_XY 

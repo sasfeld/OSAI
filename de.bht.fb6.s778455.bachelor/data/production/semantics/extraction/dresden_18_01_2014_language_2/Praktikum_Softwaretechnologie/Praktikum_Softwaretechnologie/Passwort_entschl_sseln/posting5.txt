@@ -1,0 +1,12 @@
+ID: 3038
+CREATION_DATETIME: 1385506800000
+MODIFICATION_DATETIME: 1385593200000
+TITLE: Und wo hast du jetzt das Passwort verschlüsselt?
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3036
+POSTING_TYPE: comment
+CONTENT:
+Und wo hast du jetzt das Passwort verschlüsselt?
+
+Wenn du Nutzer wirklich einen neuen UserAccount braucht, dann kann er das Passwort auch noch einmal eingeben.
+TAGGED_CONTENT:

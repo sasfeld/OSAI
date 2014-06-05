@@ -1,0 +1,8 @@
+ID: 110406004
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Softwaretechnologie I
+SUMMARY: 
+URL: http://st.inf.tu-dresden.de/teaching/swt

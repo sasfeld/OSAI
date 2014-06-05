@@ -1,0 +1,11 @@
+ID: 2010
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: hab ich probiert. hat auch nicht funktioniert
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2007
+POSTING_TYPE: comment
+CONTENT:
+hab ich probiert. hat auch nicht funktioniert
+TAGGED_CONTENT:
+hab_VAFIN ich_PPER probiert_VVPP ._$. hat_VAFIN auch_ADV nicht_PTKNEG funktioniert_VVFIN 

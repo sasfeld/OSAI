@@ -1,0 +1,18 @@
+ID: 1503
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Nils hat vollkommen recht. C++ Objekte nie mit `malloc` allozieren!
+LANGUAGE: GERMAN
+POS_TAG: value:Member;weight:0.0;uri:;postag:NN
+POS_TAG: value:Objekte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Konstruktoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:C;weight:0.0;uri:;postag:NN
+POS_TAG: value:Unterschied;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Konstruktur;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1491
+POSTING_TYPE: comment
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> hat vollkommen recht. C++ Objekte nie mit `malloc` allozieren! Dein struct hat nämlich einen Konstruktur, der automatisch generiert ist und die Konstruktoren der Member aufruft (v. a. den vom vector). Der Unterschied zwischen struct und class ist nur, dass bei structs per default jeder Member public ist.
+TAGGED_CONTENT:
+<_XY NAME_CORPUS_REPLACEMENT_NN >_CARD hat_VAFIN vollkommen_ADJD recht_ADJD ._$. C_NN +_XY +_XY Objekte_NN nie_ADV mit_APPR `_CARD malloc_ADJD `_ADJD allozieren_VVINF !_$. Dein_PPOSAT struct_ADJD hat_VAFIN nämlich_ADV einen_ART Konstruktur_NN ,_$, der_PRELS automatisch_ADJD generiert_VVPP ist_VAFIN und_KON die_ART Konstruktoren_NN der_ART Member_NE aufruft_VVFIN -LRB-_TRUNC v._APPRART a._APPRART den_ART vom_APPRART vector_ADJA -RRB-_TRUNC ._$. Der_ART Unterschied_NN zwischen_APPR struct_ADJD und_KON class_FM ist_VAFIN nur_ADV ,_$, dass_KOUS bei_APPR structs_ADV per_APPR default_ADJD jeder_PIDAT Member_NN public_ADJD ist_VAFIN ._$. 

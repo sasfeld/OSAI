@@ -1,0 +1,10 @@
+ID: 2310
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Was ist denn die letzte Logausgabe, wenn du mit Loglevel 3 kompilierst?
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2189
+POSTING_TYPE: comment
+CONTENT:
+Was ist denn die letzte Logausgabe, wenn du mit Loglevel 3 kompilierst?
+TAGGED_CONTENT:

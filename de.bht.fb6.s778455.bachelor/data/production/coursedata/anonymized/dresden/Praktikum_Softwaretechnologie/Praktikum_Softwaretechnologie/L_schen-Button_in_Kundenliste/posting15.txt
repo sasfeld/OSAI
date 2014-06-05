@@ -1,0 +1,13 @@
+ID: 2983
+CREATION_DATETIME: 1385161200000
+MODIFICATION_DATETIME: 1385161200000
+TITLE: Ok, das funktioniert aber leider auch nicht, hatte ich ja vorhin schon probiert, ich bekomme immer di...
+PARENT_POSTING_ID: 2935
+POSTING_TYPE: comment
+CONTENT:
+Ok, das funktioniert aber leider auch nicht, hatte ich ja vorhin schon probiert, ich bekomme immer diese Template-Exception.
+Und dann noch ne Frage zur Übergabe:
+Mein Methodenkopf ist ja
+public String deleteUser(@RequestParam("id") UserAccount userAccount)
+heißt das nicht eigentlich doch, dass ich den UserAccount übergebe?
+TAGGED_CONTENT:

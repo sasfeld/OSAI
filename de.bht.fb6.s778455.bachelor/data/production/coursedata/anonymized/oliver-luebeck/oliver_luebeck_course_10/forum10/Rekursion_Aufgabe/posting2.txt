@@ -1,0 +1,15 @@
+ID: 29
+CREATION_DATETIME: 1195137360000
+MODIFICATION_DATETIME: 1195137360000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 28
+CONTENT:
+
+Lieber ,
+
+haben Sie meine Tipps im Moodle-Kurs LE09 "Einsendeaufgabe bitte klicken" gesehen? Am einfachsten ist es, das Labyrinth hat den Typ char [ ], nicht String.
+
+Mit freundlichen Grüßen
+  
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 2033
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: das wäre sehr gut denke ich, da sich das ja bestimmt irgendwann durchsetzen wird. das wär blöd, wenn ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: comment
+CONTENT:
+das wäre sehr gut denke ich, <NAME_CORPUS_REPLACEMENT> sich das ja bestimmt irgendwann durchsetzen wird. das wär blöd, wenn unsere lib dann nicht mehr gehen würde.
+TAGGED_CONTENT:

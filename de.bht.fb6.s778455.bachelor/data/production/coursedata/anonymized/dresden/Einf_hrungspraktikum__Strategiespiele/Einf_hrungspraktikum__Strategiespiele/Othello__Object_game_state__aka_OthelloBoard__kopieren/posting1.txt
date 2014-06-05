@@ -1,0 +1,11 @@
+ID: 1481
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1380146400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> ich in einen <REMOVED_PERSON_ENTITY> die möglichen Züge durchgehen will, möchte das Objekt game_state kopieren.
+Allerdings geht das weder statisch, noch dynamisch. Wenn ich das richtig aus dem Quellcode rausgelesen soll das auch so sein.
+Ist meine Annahme richtig, oder habe ich was übersehen, bzw. wie könnte ich das Problem umgehen?
+TAGGED_CONTENT:

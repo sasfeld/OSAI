@@ -1,0 +1,15 @@
+ID: 658
+CREATION_DATETIME: 1352070000000
+MODIFICATION_DATETIME: 1352070000000
+TITLE: ausser natuerlich, das SVN Repo nutzt SVN externals, dann kannst du's gar nicht nutzen, da git-svn SV...
+LANGUAGE: GERMAN
+NER_TAG: value:SVN Repo;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:SVN;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:SVN;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:SVN;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 607
+POSTING_TYPE: comment
+CONTENT:
+ausser natuerlich, das SVN Repo nutzt SVN externals, dann kannst du's gar nicht nutzen, <NAME_CORPUS_REPLACEMENT> git-svn SVN externals nicht richtig unterstuetzt.
+TAGGED_CONTENT:
+ausser_ADJD natuerlich_ADJD ,_$, das_ART SVN_NN Repo_NE nutzt_VVFIN SVN_NN externals_ADV ,_$, dann_ADV kannst_VMFIN du_PPER 's_PPER gar_ADV nicht_PTKNEG nutzen_VVINF ,_$, <_CARD NAME_CORPUS_REPLACEMENT_NE >_NE git-svn_VVFIN SVN_NE externals_ADV nicht_PTKNEG richtig_ADJD unterstuetzt_VVPP ._$. 

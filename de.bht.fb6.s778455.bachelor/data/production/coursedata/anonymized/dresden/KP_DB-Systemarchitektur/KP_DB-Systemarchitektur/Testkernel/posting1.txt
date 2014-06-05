@@ -1,0 +1,12 @@
+ID: 1794
+CREATION_DATETIME: 1368396000000
+MODIFICATION_DATETIME: 1369087200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+die ersten laufenden Testkernel habe ich ins SVN eingecheckt. Die benötigten Speicherstrukturen habe ich (hoffentlich verständlich) zu Beginn der Files kommentiert. 
+Soll ich vorerst nur "Programme" schreiben, die nur einen einzelnen Kernel benötigen, oder soll die Black Box auch Programme mit mehr als einem Kernel im Programmfluss verarbeiten können?
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

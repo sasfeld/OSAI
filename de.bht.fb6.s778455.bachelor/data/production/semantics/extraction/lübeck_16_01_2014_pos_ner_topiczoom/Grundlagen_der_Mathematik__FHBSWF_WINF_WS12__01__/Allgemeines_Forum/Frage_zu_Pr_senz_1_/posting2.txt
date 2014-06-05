@@ -1,0 +1,32 @@
+ID: 167859
+CREATION_DATETIME: 1349625374
+MODIFICATION_DATETIME: 1349625374
+TITLE: Re: Frage zu Präsenz 1 
+TOPIC_ZOOM_TAG: value:Wohltätigkeit, Gemeinnützigkeit, Spenden, Hilfe, Engagement;weight:2.0;significance:5.98832936009863;degreegeneralization:3;uri:20919497
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:2.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+POS_TAG: value:Aussage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hilfe;weight:0.0;uri:;postag:NN
+POS_TAG: value:senz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ergebnis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Schritte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Besten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Folie;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:rde;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fragen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Schritt;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 167631
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>, 
+leider kann ich nicht direkt auf deine Frage antworten, habe aber auch ein paar Fragen zur ersten Präsenz und hoffe auf Hilfe.
+Ich hänge gerade auf Folie 12 und überlege mir wir ich folgende Aussage negieren soll:
+Es gibt eine natürliche <REMOVED_PERSON_ENTITY>, die größer als 7 ist.
+Hier hatten wir in der Präsenz gesagt, dass man dafür zwei Schritte vollziehehn muss. Der erste Schritt führt zu den Ergebnis:
+Es gibt keine natürliche <REMOVED_PERSON_ENTITY>, die größer als 7 ist.
+Anschließend muss man wohl noch weiter negieren aber wie?Würde mich über kurze Hilfe sehr freuen.
+Besten Dank und Gruß
+<REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NN >_VVFIN ,_$, leider_ADV kann_VMFIN ich_PPER nicht_PTKNEG direkt_ADJD auf_APPR deine_PPOSAT Frage_NN antworten_VVFIN ,_$, habe_VAFIN aber_ADV auch_ADV ein_ART paar_PIDAT Fragen_NN zur_APPRART ersten_ADJA Präsenz_NN und_KON hoffe_VVFIN auf_APPR Hilfe_NN ._$. Ich_PPER hänge_VVFIN gerade_ADV auf_APPR Folie_NN 12_CARD und_KON überlege_VVFIN mir_PPER wir_PPER ich_PPER folgende_ADJA Aussage_NN negieren_VVINF soll_VMFIN :_$. Es_PPER gibt_VVFIN eine_ART natürliche_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_NE ,_$, die_ART größer_ADJD als_APPR 7_CARD ist_VAFIN ._$. Hier_ADV hatten_VAFIN wir_PPER in_APPR der_ART Präsenz_NN gesagt_VVPP ,_$, dass_KOUS man_PIS dafür_PROAV zwei_CARD Schritte_NN vollziehehn_VVIZU muss_PTKVZ ._$. Der_ART erste_ADJA Schritt_NN führt_VVFIN zu_APPR den_ART Ergebnis_NN :_$. Es_PPER gibt_VVFIN keine_PIAT natürliche_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_NE ,_$, die_ART größer_ADJD als_APPR 7_CARD ist_VAFIN ._$. Anschließend_ADJD muss_VMFIN man_PIS wohl_ADV noch_ADV weiter_ADV negieren_VVFIN aber_ADV wie?Würde_NN mich_PRF über_APPR kurze_ADJA Hilfe_NN sehr_ADV freuen_VVINF ._$. Besten_NN Dank_NN und_KON Gruß_NN <_VVFIN REMOVED_PERSON_ENTITY_NE >_XY 

@@ -1,0 +1,9 @@
+ID: 1209
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: Vielleicht solltest du auch einfach Klammern setzen, wenn der Compiler dir das vorschlaegt. ;)
+PARENT_POSTING_ID: 1206
+POSTING_TYPE: comment
+CONTENT:
+Vielleicht solltest du auch einfach Klammern setzen, wenn der Compiler dir das vorschlaegt. ;)
+TAGGED_CONTENT:

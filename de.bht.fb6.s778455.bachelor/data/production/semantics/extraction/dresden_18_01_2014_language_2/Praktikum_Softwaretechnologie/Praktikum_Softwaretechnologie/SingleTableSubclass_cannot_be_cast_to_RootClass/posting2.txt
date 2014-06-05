@@ -1,0 +1,18 @@
+ID: 3045
+CREATION_DATETIME: 1385593200000
+MODIFICATION_DATETIME: 1385593200000
+TITLE: Ich kenne deinen Code nicht, aber ich habe mal Google bemüht, gar nicht schwer, einfach nach der Fehl...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3044
+POSTING_TYPE: answer
+CONTENT:
+Ich kenne deinen Code nicht, aber ich habe mal Google bemüht, gar nicht schwer, einfach nach der Fehlermeldung 
+
+googlen. :D
+
+Ich hab das gefunden.
+
+http://stackoverflow.com/questions/3615778/can-i-use-compositeid-on-subclasses-of-discriminated-entity-hierarchy
+
+Und jetzt kann ich anfangen zu raten, du erbst <NAME_CORPUS_REPLACEMENT> Salespoint Entity <REMOVED_PERSON_ENTITY> und packst aber noch eigene Ids in deine Entities. Wenn ja warum? 
+TAGGED_CONTENT:

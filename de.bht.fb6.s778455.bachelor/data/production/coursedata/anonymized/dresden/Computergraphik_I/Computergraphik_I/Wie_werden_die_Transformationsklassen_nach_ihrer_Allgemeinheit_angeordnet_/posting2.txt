@@ -1,0 +1,11 @@
+ID: 1879
+CREATION_DATETIME: 1370210400000
+MODIFICATION_DATETIME: 1370210400000
+TITLE: Fast. Perspektivische Transformationen sind die allgemeinsten, da an diese keine Anforderungen gestel...
+PARENT_POSTING_ID: 1871
+POSTING_TYPE: answer
+CONTENT:
+Fast. Perspektivische Transformationen sind die allgemeinsten, <NAME_CORPUS_REPLACEMENT> an diese keine Anforderungen gestellt werden.
+Affine Transformationen sind spezielle perspektivische Transformationen, bei denen der perspektivische Anteil nicht vorhanden ist.
+Und Starrkörpertransformationen sind spezielle affine Transformationen, bei denen keine Scherungen oder Skalierungen auftreten.
+TAGGED_CONTENT:

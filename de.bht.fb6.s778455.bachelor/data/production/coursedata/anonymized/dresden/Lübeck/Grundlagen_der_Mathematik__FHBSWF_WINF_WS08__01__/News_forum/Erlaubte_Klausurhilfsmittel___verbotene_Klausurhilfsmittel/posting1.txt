@@ -1,0 +1,8 @@
+ID: 16517
+CREATION_DATETIME: 1232381348
+MODIFICATION_DATETIME: 1232381348
+TITLE: Erlaubte Klausurhilfsmittel / verbotene Klausurhilfsmittel
+PARENT_POSTING_ID: 0
+CONTENT:
+ Hallo Sie alle,  eigentlich sind ab dieses Semester nur  2 Blätter (4 Seiten) selbst erstellte (gemeint ist auch: handschriftliche) Formelsammlung erlaubt.  Da ich aber aufgrund der anderen Regelung in vorigen Semestern etwas anderes gesagt habe, wird die Regelung wie folgt angepasst:   Ich empfehle dringend: 2 Blätter selbst erstellte (handschriftliche) Formelsammlung mitzubringen.  Scripte und Bücher Lösungen zu Übungsaufgaben etc. dürfen ausnahmsweise mitgebracht werden. Aber: Ich habe die Klausur gesehen und vermute, dass diejenigen die viel in Büchern, Scripten, Übungsaufgaben, etc. lesen wollen, in Zeitprobleme geraten werden.  Von daher ist es sicher besser wenn man mit dem eigenen <REMOVED_PERSON_ENTITY> und den erlaubten 2 Blättern selbst erstellter Formelsammlung auskommt. Das &quot;Selbst Erstellen&quot; der Formelsammlung ist sowieso eine gute Übung für die Klausur.  Sollten mir bei verschiedenen Leuten identische Formelsammlungen auffallen, liegt der Verdacht nahe dass Sie nicht selbst erstellt sind.  Kommunikative und elektronische Hilfsmittel sind verboten! Also insbesondere sind <REMOVED_PERSON_ENTITY> und Handies verboten. Quarz- oder andere elektronische Armbanduhren sind nur dann erlaubt, wenn Sie nach Uhr aussehen. Bei Verdacht, dass sie auch als Taschenrechner, <REMOVED_PERSON_ENTITY> oder anderes nicht &quot;uhrmäßiges&quot; verwendet werden können, sind Sie verboten. Taschenrechner sind ebenfalls verboten.  Mit freundlichen Grüßen, <PERSONAL_GREETING_REMOVEMENT>. <REMOVED_PERSON_ENTITY>. 
+TAGGED_CONTENT:

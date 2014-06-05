@@ -1,0 +1,11 @@
+ID: 2892
+CREATION_DATETIME: 1384642800000
+MODIFICATION_DATETIME: 1384642800000
+TITLE: Ich hab nochmal genauer drauf geschaut, deine ganze Table ist mit `<div th:if="${#fields.hasErrors('*...
+PARENT_POSTING_ID: 2886
+POSTING_TYPE: comment
+CONTENT:
+Ich hab nochmal genauer drauf geschaut, deine ganze Table ist mit `<div th:if="${#fields. hasErrors('*')}">` umschlossen.
+th:if rendert den Tag und seinen Content nur wenn die Bedingung wahr ist, es gibt aber (noch) keine Fehler, deswegen wird der Tag nicht gerendert.
+Im Videoshop benutze ich das nur für die Ausgabe "Einige Angaben sind nicht korrekt".
+TAGGED_CONTENT:

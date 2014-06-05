@@ -1,0 +1,9 @@
+ID: 206
+CREATION_DATETIME: 1349560800000
+MODIFICATION_DATETIME: 1349560800000
+TITLE: Ich würde davon ausge
+PARENT_POSTING_ID: 193
+POSTING_TYPE: comment
+CONTENT:
+Ich würde davon ausgehen. Die [Vorlesungswebseite](http://www.inf.tu-dresden. de/index. php?node_id=2523&ln=de) listet bisher auch nur den Termin der ersten Vorlesung. Alles Weitere wird dann sicherlich dort erklärt.
+TAGGED_CONTENT:

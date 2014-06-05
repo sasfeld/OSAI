@@ -1,0 +1,25 @@
+ID: 69
+CREATION_DATETIME: 1193602260000
+MODIFICATION_DATETIME: 1193602260000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Ich habe etwas über Threads in Java gelesen. Wie könnten wir das uns das z.B. in der einen oder anderen Form zu Nutze machen?
+
+Außerdem habe ich noch eine Frage zu den Exporten, die man mit Eclipse machen kann:
+
+Können Sie mir beschreiben, worin der interessante Unterschied zwischen Ant und make bzw. GNUmake liegt? Wie können wir als Lernende das für künftige Projekte nutzbar machen?
+
+Was kann ich bei Ant selbst beeinflussen, was über andere Tools nicht möglich ist?
+
+Inwiefern funktioniert der Compiler von Eclipse anders, als der von Sun, wenn man alles über die Kommandozeile kompilieren würde?
+
+Was mich zusätzlich interessieren würde, ich konnte aus dem Script nicht ganz deutlich lesen, wann man Interfaces bzw. Abstrakte Klassen erzeugt.
+
+mfg,
+
+EDIT: Korrektur meiner Orthographie ;-)
+	
+TAGGED_CONTENT:

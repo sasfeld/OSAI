@@ -1,0 +1,10 @@
+ID: 792
+CREATION_DATETIME: 1353106800000
+MODIFICATION_DATETIME: 1353106800000
+TITLE: Ich dachte das wäre für beide gleich, aber es geht um Aufgabe 2A.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 790
+POSTING_TYPE: comment
+CONTENT:
+Ich dachte das wäre für beide gleich, aber es geht um Aufgabe 2A.
+TAGGED_CONTENT:

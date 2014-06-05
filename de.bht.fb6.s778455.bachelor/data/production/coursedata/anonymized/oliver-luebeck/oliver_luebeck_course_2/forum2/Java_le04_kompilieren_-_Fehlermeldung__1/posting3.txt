@@ -1,0 +1,16 @@
+ID: 3
+CREATION_DATETIME: 1175877600000
+MODIFICATION_DATETIME: 1175877600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1
+CONTENT:
+
+Beim Compilieren immer den ganzen Namen der Datei angeben: javac UebClockman.java
+Beim Ausführen den Namen der Klasse ohne die Extension .class angeben: java UebClockman
+
+Achtung: UebClockman braucht weitere Klassen. Le04 gut lesen ;-)!
+
+Viel Erfolg!
+    
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 1767
+CREATION_DATETIME: 1367186400000
+MODIFICATION_DATETIME: 1372197600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+wie soll ich die (Test-)Daten für die Kernel bereitstellen?
+Ich dachte an csv-Files für unterschiedliche Szenarien, bin aber für alle Vorschläge offen.
+<LEARNED_PERSON_NAME_REPLACEMENT> <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

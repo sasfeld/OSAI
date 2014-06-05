@@ -1,0 +1,11 @@
+ID: 2034
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: Ich glaube ich habe jetzt verstanden was du meinst. Ich werde versuchen, das ganze bis Morgen noch zu...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Ich glaube ich habe jetzt verstanden was du meinst. Ich werde versuchen, das ganze bis Morgen noch zu ändern.
+TAGGED_CONTENT:
+Ich_PPER glaube_VVFIN ich_PPER habe_VAFIN jetzt_ADV verstanden_VVPP was_PWS du_PPER meinst_VVFIN ._$. Ich_PPER werde_VAFIN versuchen_VVINF ,_$, das_ART ganze_ADJA bis_APPR Morgen_ADV noch_ADV zu_PTKZU ändern_VVINF ._$. 

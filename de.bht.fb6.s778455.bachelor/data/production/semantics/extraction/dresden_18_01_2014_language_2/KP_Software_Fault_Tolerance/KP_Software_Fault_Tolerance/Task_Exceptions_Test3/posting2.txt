@@ -1,0 +1,10 @@
+ID: 663
+CREATION_DATETIME: 1352070000000
+MODIFICATION_DATETIME: 1352156400000
+TITLE: Consider the case when File class you implemented has been used carelessly, and write() or read() was...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 662
+POSTING_TYPE: answer
+CONTENT:
+Consider the case when File class you implemented has been used carelessly, and write() or read() was executed with closed file descriptor as argument, or that file descriptor was closed more than once.
+TAGGED_CONTENT:

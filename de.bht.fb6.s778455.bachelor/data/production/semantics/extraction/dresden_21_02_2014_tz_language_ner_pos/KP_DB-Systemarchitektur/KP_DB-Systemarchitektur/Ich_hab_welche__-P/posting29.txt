@@ -1,0 +1,13 @@
+ID: 2029
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: Mit llvm 3.2 kompiliert es, wir sollten uns somit auf Version 3.2 einigen.
+LANGUAGE: GERMAN
+POS_TAG: value:llvm;weight:0.0;uri:;postag:NN
+POS_TAG: value:Version;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: comment
+CONTENT:
+Mit llvm 3. 2 kompiliert es, wir sollten uns somit auf Version 3. 2 einigen.
+TAGGED_CONTENT:
+Mit_APPR llvm_NN 3_CARD ._$. 2_CARD kompiliert_VVFIN es_PPER ,_$, wir_PPER sollten_VMFIN uns_PPER somit_ADV auf_APPR Version_NN 3_CARD ._$. 2_CARD einigen_VVINF ._$. 

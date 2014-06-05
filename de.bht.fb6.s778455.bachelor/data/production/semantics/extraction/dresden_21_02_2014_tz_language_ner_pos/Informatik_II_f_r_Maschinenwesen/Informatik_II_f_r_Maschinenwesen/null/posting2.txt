@@ -1,0 +1,22 @@
+ID: 2183
+CREATION_DATETIME: 1373320800000
+MODIFICATION_DATETIME: 1373320800000
+TITLE: Alle Klassen, die nicht vorgegeben sind, werden erzeugt/übersetzt. Vorgegeben sind die, die in der Au...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Übersetzung;weight:1.0;significance:8.44586963819261;degreegeneralization:7;uri:20914720
+TOPIC_ZOOM_TAG: value:Sprachen der Erde;weight:1.0;significance:7.07733773341256;degreegeneralization:6;uri:21978223
+TOPIC_ZOOM_TAG: value:Sprache, Zivilisation und Bevölkerung;weight:1.0;significance:6.66591668155155;degreegeneralization:5;uri:20895986
+TOPIC_ZOOM_TAG: value:Sprache als Bereich der Kultur;weight:1.0;significance:5.7654270924145;degreegeneralization:5;uri:20896003
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:5.00870710783694;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Kunst, Kultur, Musik;weight:1.0;significance:3.04770693667486;degreegeneralization:2;uri:21999796
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klassen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2181
+POSTING_TYPE: comment
+CONTENT:
+Alle Klassen, die nicht vorgegeben sind, werden erzeugt/übersetzt. Vorgegeben sind die, die in der Aufgabe zu sehen sind und im JavaDoc dokumentiert.
+TAGGED_CONTENT:
+Alle_PIDAT Klassen_NN ,_$, die_PRELS nicht_PTKNEG vorgegeben_VVPP sind_VAFIN ,_$, werden_VAFIN erzeugt_VVPP \/_VAFIN übersetzt_VVPP ._$. Vorgegeben_VVPP sind_VAFIN die_PDS ,_$, die_PRELS in_APPR der_ART Aufgabe_NN zu_PTKZU sehen_VVINF sind_VAFIN und_KON im_APPRART JavaDoc_NE dokumentiert_VVFIN ._$. 

@@ -1,0 +1,12 @@
+ID: 81
+CREATION_DATETIME: 1343944800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Wir haben eine Organisation auf Github angelegt: [auditorium](http://github.com/auditorium). Das Projekt geht open source und wir wollen das Projekt in diesem Sinne voran treiben. 
+
+Falls ihr [Features, Bugs oder andere Issues](https://github. com/organizations/auditorium/dashboard/issues) habt, so bitten wir euch, diese [auf Github zu erstellen](https://github. com/organizations/auditorium/dashboard/issues), sodass wir diese abarbeiten können.
+TAGGED_CONTENT:

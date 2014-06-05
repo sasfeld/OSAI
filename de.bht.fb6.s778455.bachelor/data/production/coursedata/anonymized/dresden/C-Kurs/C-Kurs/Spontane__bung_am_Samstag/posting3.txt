@@ -1,0 +1,11 @@
+ID: 693
+CREATION_DATETIME: 1352329200000
+MODIFICATION_DATETIME: 1352329200000
+TITLE: Der nächste reguläre C-Kurs ist am 17.11.2012.
+[siehe hier](https://auditorium.inf.tu-dresden.de/cou...
+PARENT_POSTING_ID: 689
+POSTING_TYPE: comment
+CONTENT:
+Der nächste reguläre C-Kurs ist am 17. 11. 2012.
+[siehe hier](https://auditorium. inf. tu-dresden. de/courses/2154327)
+TAGGED_CONTENT:

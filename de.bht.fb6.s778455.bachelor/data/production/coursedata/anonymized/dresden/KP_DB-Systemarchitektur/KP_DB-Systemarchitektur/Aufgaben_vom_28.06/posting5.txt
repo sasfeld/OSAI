@@ -1,0 +1,9 @@
+ID: 2131
+CREATION_DATETIME: 1372543200000
+MODIFICATION_DATETIME: 1372543200000
+TITLE: Es ist meinen Fehler. Bemuehe ich mich darum. Ich vergessen ein Teil auszukommentieren.
+PARENT_POSTING_ID: 2130
+POSTING_TYPE: comment
+CONTENT:
+Es ist meinen Fehler. Bemuehe ich mich darum. Ich vergessen ein Teil auszukommentieren.
+TAGGED_CONTENT:

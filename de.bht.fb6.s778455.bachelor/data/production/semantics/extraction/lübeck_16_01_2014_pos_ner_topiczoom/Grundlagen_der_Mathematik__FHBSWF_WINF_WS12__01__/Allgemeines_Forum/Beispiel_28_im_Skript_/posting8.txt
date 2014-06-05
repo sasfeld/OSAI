@@ -1,0 +1,14 @@
+ID: 194833
+CREATION_DATETIME: 1358612558
+MODIFICATION_DATETIME: 1358612558
+TITLE: Re: Beispiel 28 im Skript....
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:Zeile;weight:0.0;uri:;postag:NN
+POS_TAG: value:Jups;weight:0.0;uri:;postag:NN
+POS_TAG: value:Meinung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 194831
+CONTENT:
+Jups. Mir ging es eigentlich nur darum, dass du immer x2 statt x3 in der zweiten Zeile geschrieben hast, was meiner Meinung nach halt nicht korrekt erschien. :)
+GrüßeLars
+TAGGED_CONTENT:
+Jups_NN ._$. Mir_PPER ging_VVFIN es_PPER eigentlich_ADV nur_ADV darum_PROAV ,_$, dass_KOUS du_PPER immer_ADV x2_CARD statt_APPR x3_CARD in_APPR der_ART zweiten_ADJA Zeile_NN geschrieben_VVPP hast_VAFIN ,_$, was_PWS meiner_PPOSAT Meinung_NN nach_APPO halt_ADV nicht_PTKNEG korrekt_ADJD erschien_VVFIN ._$. :-RRB-_NE GrüßeLars_NE 

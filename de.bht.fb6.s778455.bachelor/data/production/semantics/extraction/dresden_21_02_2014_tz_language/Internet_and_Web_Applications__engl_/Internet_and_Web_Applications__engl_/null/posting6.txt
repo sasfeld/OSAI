@@ -1,0 +1,10 @@
+ID: 1730
+CREATION_DATETIME: 1366063200000
+MODIFICATION_DATETIME: 1366063200000
+TITLE: Das Modul INF-PM-ANW beinhaltet aber zusätzlich noch 60 Stunden Selbststudium. D.h. man benötigt scho...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1690
+POSTING_TYPE: answer
+CONTENT:
+Das Modul INF-PM-ANW beinhaltet aber zusätzlich noch 60 Stunden Selbststudium. D. h. man benötigt schon ein konkreteres Thema, in das man sich vertiefen muss. Ich denke, das sollte sich aus dem Themenbereich <NAME_CORPUS_REPLACEMENT> IWA auch finden lassen. Die Frage wäre dann nur, wer dieses Selbststudium betreut oder das konkrete Thema vorgibt.
+TAGGED_CONTENT:

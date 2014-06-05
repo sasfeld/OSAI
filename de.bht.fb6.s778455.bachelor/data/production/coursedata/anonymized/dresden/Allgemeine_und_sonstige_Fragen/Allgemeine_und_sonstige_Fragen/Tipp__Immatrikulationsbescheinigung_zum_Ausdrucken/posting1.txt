@@ -1,0 +1,11 @@
+ID: 1549
+CREATION_DATETIME: 1363820400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Es kommt immer wieder vor, dass wir unsere Immatrikulationsbescheinigung einreichen oder vorzeigen müssen. Aber wir haben sie ja meist nicht bei uns. Und seitdem die <REMOVED_PERSON_ENTITY> der Fachsemester nicht mehr auf dem Studentenausweis steht ist es auch notwendig eine Immatrikulationsbescheinigung für Prüfungsanmeldungen dabei zu haben. Aber diese ist natürlich schnell vergessen. Dafür gibt es aber eine Lösung.
+Das **HISQIS**, vor allem Studenten <LEARNED_PERSON_NAME_REPLACEMENT>ßerhalb der Fakultät Informatik bekannt, bietet die Möglichkeit sich seine Immatrikulationsbescheinigung auszudrucken. Dazu musst Du einfach auf die [Startseite <NAME_CORPUS_REPLACEMENT> HISQIS](https://qis. dez. tu-dresden. de/qisserver/servlet/de. his. servlet. RequestDispatcherServlet?state=template&template=user/news) gehen. Dort bestätigst Du die Nutzungsbedingungen. Danach kannst Du dich mit deinem [ZIH-Login](http://tu-dresden. de/die_tu_dresden/zentrale_einrichtungen/zih/dienste/beratung_und_unterstuetzung/login_nutzung) anmelden, wobei das Login die **s-Nummer** ist.
+Nach dem Login erscheint nun die Übersicht der möglichen Aktionen. Über dieses Menü kannst Du nun die aktuelle und die des zurückgemeldeten Semesters ausdrucken.  
+TAGGED_CONTENT:

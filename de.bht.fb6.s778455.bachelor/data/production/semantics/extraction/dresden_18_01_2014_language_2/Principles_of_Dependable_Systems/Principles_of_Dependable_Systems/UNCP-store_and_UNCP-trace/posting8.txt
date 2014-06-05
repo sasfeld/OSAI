@@ -1,0 +1,10 @@
+ID: 534
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1351202400000
+TITLE: That's true, thanks! Do you really mean they must not be uncooperative or that they "can be uncoopera...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 510
+POSTING_TYPE: comment
+CONTENT:
+That's true, thanks! Do you really mean they must not be uncooperative or that they "can be uncooperative without intention"? As I understood it, NSAA allows running programs without VRO-instrumentation.
+TAGGED_CONTENT:

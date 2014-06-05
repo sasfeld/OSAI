@@ -1,0 +1,9 @@
+ID: 2124
+CREATION_DATETIME: 1372456800000
+MODIFICATION_DATETIME: 1372456800000
+TITLE: Da stimme ich zu. NICHT dazuerfinden!!! Also wenn man sich in der Prüfung unsicher ist, entweder frag...
+PARENT_POSTING_ID: 2073
+POSTING_TYPE: comment
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> stimme ich zu. NICHT dazuerfinden!!! Also wenn man sich in der Prüfung unsicher ist, entweder fragen und/oder einen kleinen <REMOVED_PERSON_ENTITY> darunter schreiben, damit der Korrekteur weiß was Du Dir dabei gedacht hast.
+TAGGED_CONTENT:

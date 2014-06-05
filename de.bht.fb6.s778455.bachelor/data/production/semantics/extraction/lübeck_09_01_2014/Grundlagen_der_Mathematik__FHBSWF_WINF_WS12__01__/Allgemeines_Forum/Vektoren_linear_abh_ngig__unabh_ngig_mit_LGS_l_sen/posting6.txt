@@ -1,0 +1,11 @@
+ID: 191639
+CREATION_DATETIME: 1357597505
+MODIFICATION_DATETIME: 1357597505
+TITLE: Re: Vektoren linear abhängig/ unabhängig mit LGS lösen
+PARENT_POSTING_ID: 191537
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+wenn die Probe schiefgeht, dann haben Sie sich unterwegs verrechnet. Wegen Rang 4 darf es am Ende ohnehin nur einen Freiheitsgrad geben - bei Ihnen sind es leider zwei. Einfach nochmal neu durchrechnen.
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

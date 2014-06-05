@@ -1,0 +1,9 @@
+ID: 1489
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1385506800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wenn ich Notifications lösche (sowohl bei 'delete all' als auch bei einzelnen), kommt jedes Mal <REMOVED_PERSON_ENTITY>, ob ich mir sicher bin. Ich find das eher nervig als hilfreich - bei Posts kann ich das verstehen, aber Notifications sind sowieso eher flüchtig und sollten standardmässig einfach zu löschen sein.
+TAGGED_CONTENT:

@@ -1,0 +1,16 @@
+ID: 2542
+CREATION_DATETIME: 1381096800000
+MODIFICATION_DATETIME: 1381096800000
+TITLE: meine Frage wurde per Mail beantwortet.
+Falls jemand das gleiche Problem hat:
+"(de)serialize_state ...
+PARENT_POSTING_ID: 2541
+POSTING_TYPE: answer
+CONTENT:
+meine Frage wurde per Mail beantwortet.
+Falls jemand das gleiche Problem hat:
+"`(de)serialize_state` gibt zurück, ob die Operation geklappt hat `true`.
+Der Zustand wird i. A. als `game_state` Struktur oder als Pointer auf eine
+`game_state` Struktur übergeben. Wie die Struktur definiert ist, siehst du
+in `include/state. h`."
+TAGGED_CONTENT:

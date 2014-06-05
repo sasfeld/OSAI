@@ -1,0 +1,10 @@
+ID: 2204
+CREATION_DATETIME: 1373407200000
+MODIFICATION_DATETIME: 1373407200000
+TITLE: Das scheint wirklich die falsche Clang-Executable zu sein. Dieser Clang geht davon aus, dass es sich ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2203
+POSTING_TYPE: comment
+CONTENT:
+Das scheint wirklich die falsche Clang-Executable zu sein. Dieser Clang geht davon aus, dass es sich um C99 und nicht um OpenCL handelt. Spielt Intel an der PATH-Variable herum? was sagt denn `clang --version`?
+TAGGED_CONTENT:

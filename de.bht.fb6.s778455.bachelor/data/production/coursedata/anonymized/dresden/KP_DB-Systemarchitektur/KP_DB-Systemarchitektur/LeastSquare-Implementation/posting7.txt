@@ -1,0 +1,9 @@
+ID: 2279
+CREATION_DATETIME: 1374012000000
+MODIFICATION_DATETIME: 1374012000000
+TITLE: Darum geht es nicht, das Problem umgehe ich momentan. Da ist generell noch ein Bug im Algorithmus dri...
+PARENT_POSTING_ID: 2246
+POSTING_TYPE: comment
+CONTENT:
+Darum geht es nicht, das Problem umgehe ich momentan. <NAME_CORPUS_REPLACEMENT> ist generell noch ein Bug im Algorithmus drin. Schau dir mal src/testCorrelation an. Die <REMOVED_PERSON_ENTITY> sind linear unabhängig, aber das Ergebnis ist falsch.
+TAGGED_CONTENT:

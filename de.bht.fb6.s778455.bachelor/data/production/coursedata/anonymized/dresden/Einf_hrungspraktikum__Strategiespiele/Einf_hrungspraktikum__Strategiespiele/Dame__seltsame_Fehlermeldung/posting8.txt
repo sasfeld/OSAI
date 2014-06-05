@@ -1,0 +1,9 @@
+ID: 1369
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Wenn du den Speicher mit malloc() oder free() oder new alloziert hast, musst du ihn selbst wieder auf...
+PARENT_POSTING_ID: 1357
+POSTING_TYPE: comment
+CONTENT:
+Wenn du den Speicher mit malloc() oder new alloziert hast, musst du ihn selbst wieder mit free() bzw. delete aufräumen.
+TAGGED_CONTENT:

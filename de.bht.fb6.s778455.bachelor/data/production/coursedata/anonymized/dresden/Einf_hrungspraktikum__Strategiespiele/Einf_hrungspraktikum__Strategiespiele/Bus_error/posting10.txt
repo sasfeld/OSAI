@@ -1,0 +1,9 @@
+ID: 1488
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Das Problem lässt sich leicht diagnostizieren, wenn du `new myBoardstate` statt `malloc` benutzt.
+PARENT_POSTING_ID: 1467
+POSTING_TYPE: comment
+CONTENT:
+Das Problem lässt sich leicht diagnostizieren, wenn du `new myBoardstate` statt `malloc` benutzt.
+TAGGED_CONTENT:

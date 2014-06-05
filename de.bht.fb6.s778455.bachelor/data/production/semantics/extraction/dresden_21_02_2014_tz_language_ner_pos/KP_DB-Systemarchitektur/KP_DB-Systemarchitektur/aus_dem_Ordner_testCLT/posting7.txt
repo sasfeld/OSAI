@@ -1,0 +1,24 @@
+ID: 1849
+CREATION_DATETIME: 1369173600000
+MODIFICATION_DATETIME: 1369173600000
+TITLE: Ich hab mich bei meinem Kommentar gestern in der Funktion geirrt. Die createKernel-Methode hat ja gar...
+LANGUAGE: GERMAN
+POS_TAG: value:Kommentar;weight:0.0;uri:;postag:NN
+POS_TAG: value:Methode;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fassung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tat;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vectors;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kernel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ausgabeparametern;weight:0.0;uri:;postag:NN
+POS_TAG: value:ProgramIDs;weight:0.0;uri:;postag:NN
+POS_TAG: value:Parameter;weight:0.0;uri:;postag:NN
+POS_TAG: value:Funktion;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Ich hab mich bei meinem Kommentar gestern in der Funktion geirrt. Die createKernel-Methode hat ja gar nichts mit Ein- und Ausgabeparametern zu tun, sorry.
+
+Die Parameter der createKernel-Methode sollte man in der Tat nochmal überdenken. Diese Fassung ist noch auf die Lösung abgestimmt, dass man ProgramIDs zurückbekommt (dementsprechend ist auch die Doku der Fkt. veraltet). Ich denke, ich werde es so ändern, dass man anstatt eines Vectors <NAME_CORPUS_REPLACEMENT> strings für die Kernel nur noch einen string angeben muss.
+TAGGED_CONTENT:
+Ich_PPER hab_VAFIN mich_PPER bei_APPR meinem_PPOSAT Kommentar_NN gestern_ADV in_APPR der_ART Funktion_NN geirrt_VVPP ._$. Die_ART createKernel-Methode_NN hat_VAFIN ja_ADV gar_ADV nichts_PIS mit_APPR Ein_ART -_$( und_KON Ausgabeparametern_NN zu_PTKZU tun_VVINF ,_$, sorry_VVFIN ._$. Die_ART Parameter_NN der_ART createKernel-Methode_NN sollte_VMFIN man_PIS in_APPR der_ART Tat_NN nochmal_ADV überdenken_VVINF ._$. Diese_PDAT Fassung_NN ist_VAFIN noch_ADV auf_APPR die_ART Lösung_NN abgestimmt_VVPP ,_$, dass_KOUS man_PIS ProgramIDs_NN zurückbekommt_VVFIN -LRB-_TRUNC dementsprechend_PROAV ist_VAFIN auch_ADV die_ART Doku_NE der_ART Fkt_NE ._$. veraltet_VVPP -RRB-_TRUNC ._$. Ich_PPER denke_VVFIN ,_$, ich_PPER werde_VAFIN es_PPER so_ADV ändern_VVINF ,_$, dass_KOUS man_PIS anstatt_APPR eines_ART Vectors_NN <_NE NAME_CORPUS_REPLACEMENT_NE >_NE strings_ADV für_APPR die_ART Kernel_NN nur_ADV noch_ADV einen_ART string_FM angeben_FM muss_FM ._$. 

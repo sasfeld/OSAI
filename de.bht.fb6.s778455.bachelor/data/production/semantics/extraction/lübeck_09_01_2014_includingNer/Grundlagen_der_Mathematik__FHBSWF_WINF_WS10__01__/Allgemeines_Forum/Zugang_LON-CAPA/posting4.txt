@@ -1,0 +1,9 @@
+ID: 97770
+CREATION_DATETIME: 1286789710
+MODIFICATION_DATETIME: 1286789710
+TITLE: Re: Zugang LON-CAPA
+NER_TAG: value:PWA;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+PARENT_POSTING_ID: 97769
+CONTENT:
+Gut wenn ich über den PWA der Ostfalia <REMOVED_PERSON_ENTITY> auf das LON-CAPA gehe, dann funktioniert es. Jetzt müssen nur noch die Inhalte freigeschaltet werden ... Danke ;-) 
+TAGGED_CONTENT:

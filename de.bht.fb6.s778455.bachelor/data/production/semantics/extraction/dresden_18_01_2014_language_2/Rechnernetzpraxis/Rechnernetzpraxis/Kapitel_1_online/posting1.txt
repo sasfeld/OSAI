@@ -1,0 +1,14 @@
+ID: 2580
+CREATION_DATETIME: 1381960800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Das erste <REMOVED_PERSON_ENTITY> der Vorlesung Rechnernetzpraxis findet sich nun unter:
+
+http://www.rn.inf.tu-dresden. de/lectures/Rechnernetzpraxis/01_RNP_Einleitung. pdf
+
+Das nächste Kapitel wird kurz vor der nächsten Lehrveranstaltung bereitgestellt. Inhalt wird Ethernet und Switching sein.
+TAGGED_CONTENT:

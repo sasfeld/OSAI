@@ -1,0 +1,12 @@
+ID: 2189
+CREATION_DATETIME: 1373320800000
+MODIFICATION_DATETIME: 1373320800000
+TITLE: Ich muss mich nochmal korrigieren. Ich hatte in meinem Code doch noch einen Fehler drin, hatte verges...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2179
+POSTING_TYPE: answer
+CONTENT:
+Ich muss mich nochmal korrigieren. Ich hatte in meinem Code doch noch einen Fehler drin, hatte vergessen eine Methode zu implementieren, weshalb er dann ewig rumrödelte. Aber das ist jetzt raus. Das bedeutet, die Ausführung dauert wieder wirklich nur so lang, wie die Kernel brauchen.
+
+Das ändert aber nichts daran, dass die Kernel streckenweise noch suboptimal sind.
+TAGGED_CONTENT:

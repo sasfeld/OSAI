@@ -1,0 +1,9 @@
+ID: 267
+CREATION_DATETIME: 1349906400000
+MODIFICATION_DATETIME: 1349906400000
+TITLE: Beim Managen von User
+PARENT_POSTING_ID: 70
+POSTING_TYPE: answer
+CONTENT:
+Beim <REMOVED_PERSON_ENTITY> <NAME_CORPUS_REPLACEMENT> Usern seh ich gerade die komplette Liste aller User als Auswahl. Die wird ja potenziell sehr lang. Könnte man das so bauen, dass die ganz oben erstmal die in den Kurs eingetragenen User enthält?
+TAGGED_CONTENT:

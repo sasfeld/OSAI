@@ -1,0 +1,10 @@
+ID: 2411
+CREATION_DATETIME: 1374444000000
+MODIFICATION_DATETIME: 1374444000000
+TITLE: Ich wäre ab jetzt verfügbar. wenn das Labor zu ist, einfach kurz im Nebenraum (3043) klopfen
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Ich wäre ab jetzt verfügbar. wenn das Labor zu ist, einfach kurz im Nebenraum (3043) klopfen
+TAGGED_CONTENT:

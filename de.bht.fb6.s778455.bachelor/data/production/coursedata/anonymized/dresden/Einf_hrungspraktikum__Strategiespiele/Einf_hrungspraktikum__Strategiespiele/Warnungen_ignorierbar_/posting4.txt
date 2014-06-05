@@ -1,0 +1,9 @@
+ID: 1207
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: ok, dann versuch ich mal das ganze in variablen outzusourcen für die übersicht, dafür wird dann der c...
+PARENT_POSTING_ID: 1206
+POSTING_TYPE: comment
+CONTENT:
+ok, dann versuch ich mal das ganze in variablen outzusourcen für die übersicht, dafür wird dann der code wesentlich länger... die länge spielt keine rolle in der bewertung, oder?
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 2468
+CREATION_DATETIME: 1374703200000
+MODIFICATION_DATETIME: 1379541600000
+TITLE: null
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+wie sieht denn ein MPLS-Header aus, also aus welchen Bestandteilen besteht er?
+
+Vielen Dank im Voraus.
+TAGGED_CONTENT:

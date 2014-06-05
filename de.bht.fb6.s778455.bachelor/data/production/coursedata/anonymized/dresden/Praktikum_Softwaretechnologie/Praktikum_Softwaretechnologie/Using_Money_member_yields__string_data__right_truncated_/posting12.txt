@@ -1,0 +1,10 @@
+ID: 2869
+CREATION_DATETIME: 1384642800000
+MODIFICATION_DATETIME: 1384642800000
+TITLE: Thanks for the quick reply. I have a question though. Documentation suggests, Lob is required for lar...
+PARENT_POSTING_ID: 2868
+POSTING_TYPE: comment
+CONTENT:
+Thanks for the quick reply. I have a question though. Documentation suggests, Lob is required for large data types. When looking through the create table statements, I see that for product (where it obviously works), the field is created as a blob(255). Why doesn't it work if the field is created as varblob(255)?
+@formatting: weird, now it looks ok for me too, I must have run in some caching issues. first it ignored my newlines in the create table query.
+TAGGED_CONTENT:

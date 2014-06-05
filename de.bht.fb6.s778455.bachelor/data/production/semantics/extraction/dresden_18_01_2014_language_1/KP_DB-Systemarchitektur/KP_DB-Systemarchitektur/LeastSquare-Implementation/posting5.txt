@@ -1,0 +1,10 @@
+ID: 2290
+CREATION_DATETIME: 1374012000000
+MODIFICATION_DATETIME: 1374012000000
+TITLE: Sollen wir morgen noch treffen, um diesen Problem zu loesen? Und noch etwas ueber Foilen sprechen?
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2246
+POSTING_TYPE: comment
+CONTENT:
+Sollen wir morgen noch treffen, um diesen Problem zu loesen? Und noch etwas ueber Foilen sprechen?
+TAGGED_CONTENT:

@@ -1,0 +1,11 @@
+ID: 256493
+CREATION_DATETIME: 1384697644
+MODIFICATION_DATETIME: 1384697644
+TITLE: Re: Aufgabenblock III
+PARENT_POSTING_ID: 255747
+CONTENT:
+Hallo Herr <REMOVED_PERSON_ENTITY>,
+so wie Sie es berechnet haben wäre es auch vollkommen o. k., das ergibt sich ja aus dem Asymmetriegesetz und die Reihenfolge bei der Bildung des Vektorproduktes war ja nicht vorgegeben.
+Viele Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

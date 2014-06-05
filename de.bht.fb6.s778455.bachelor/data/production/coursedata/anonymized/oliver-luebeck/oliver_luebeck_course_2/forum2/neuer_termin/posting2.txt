@@ -1,0 +1,22 @@
+ID: 19
+CREATION_DATETIME: 1183536960000
+MODIFICATION_DATETIME: 1183536960000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 18
+CONTENT:
+
+Lieber Frau Student3, liebe Studierende,
+
+
+Ich schlage den Dienstag 08.07.08 fuer die nächste Adobe Sitzung Sitzung gleiche Zeit (20Uhr- 21 Uhr) vor.
+
+Zur Klausur SS07: Die neue Art der for Schleife (seit Java 5) wie in der Aufgabe 1 ist zu kennen, siehe auch in Moodle LE 15 das Programm ReiheEinAus.java. Ich werde in der nächsten Sitzung diese Art Schleife erklären.
+
+Wie in Moodle schon erwähnt (Klausur) Aufgabe 3 geht zu weit für diese Klausur. Sie ist mit Aufgabe 3 der 2. Praesenz zu ersetzen.
+
+Gute Vorbereitung und bis Dienstag!
+
+Mit freundlichen grüßen
+    
+TAGGED_CONTENT:

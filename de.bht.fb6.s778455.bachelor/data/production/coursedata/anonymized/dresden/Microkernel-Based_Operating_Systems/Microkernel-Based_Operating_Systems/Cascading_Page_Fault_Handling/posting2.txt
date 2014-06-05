@@ -1,0 +1,10 @@
+ID: 1439
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1362870000000
+TITLE: It is the pager's duty to make sure that the memory he wants to map as a reply to a page fault is act...
+PARENT_POSTING_ID: 1435
+POSTING_TYPE: answer
+CONTENT:
+It is the pager's duty to make sure that the memory he wants to map as a reply to a page fault is actually there. In general, the pager does a mapping by specifying a flexpage describing a region in its own virtual address space. This does not yet make sure that a real mapping exists, because the respective region might not be backed by memory yet. In this case, the mapping will have no effect, the application will continue to run, raise the same page fault again - leading to a double fault.
+A sane idea to prevent this is for instance to let the pager touch (e. g., read the first word in every page) all memory before mapping it out.
+TAGGED_CONTENT:

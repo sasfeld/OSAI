@@ -1,0 +1,12 @@
+ID: 167629
+CREATION_DATETIME: 1349543780
+MODIFICATION_DATETIME: 1349543780
+TITLE: Wurzel x vs. x hoch 1/2 und quadratische Gleichungen
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+heute sagte mir jemand, die <REMOVED_PERSON_ENTITY> aus 9 könne sowohl +3 als auch -3 sein. Im online Vorkurs (www. om-bridge. de) Teil2 Abschnitt 1. 1 steht es jedoch anders beschrieben. Ich verstehe aus der Definition, dass die <REMOVED_PERSON_ENTITY> aus 9 immer +3 ist, während 9 hoch 1/2 sowohl +3 als auch -3 sein kann.
+Warum muss man dann in quadratischen Gleichungen Fallunterscheidungen machen?
+M. f. G.
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 3
+CREATION_DATETIME: 1190913600000
+MODIFICATION_DATETIME: 1190913600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2
+CONTENT:
+ 
+Vielen Dank für die Antwort, hat sehr geholfen, aber leider sind weitere aufgekommen.
+
+
+Sollen wir eigene Methoden schreiben zum kopieren oder anzeigen der Dateinformationen und zum erstellen von Verzeichnissen? Oder dürfen wir die von Java vorgegeben Klassen benutzen und diese in die Methoden implementieren?
+   
+TAGGED_CONTENT:

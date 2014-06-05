@@ -1,0 +1,14 @@
+ID: 2170
+CREATION_DATETIME: 1373148000000
+MODIFICATION_DATETIME: 1373234400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+OpenCL unterstützt ja auch die Vektortypen int4, int8 usw.
+
+Für <REMOVED_PERSON_ENTITY> Kernel benötige ich genau diese Typen, deshalb wollte ich die Handhabung mittels eines TestKernels für genau die Typen ausprobieren. Aber LLVM bringt Fehler dass es int4 nicht kennt. 
+
+Zumindest für <REMOVED_PERSON_ENTITY> Kernel benötige ich diese Datentypen. 
+TAGGED_CONTENT:

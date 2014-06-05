@@ -1,0 +1,9 @@
+ID: 2381
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: Schau mal die Pdfs mit der Bezeichnung IC-xxx.pdf an, sind das nicht die, die du vermisst? (sowohl al...
+PARENT_POSTING_ID: 2350
+POSTING_TYPE: comment
+CONTENT:
+Schau mal die Pdfs mit der Bezeichnung IC-xxx. pdf an, sind das nicht die, die du vermisst? (sowohl als "klassische", als auch als Boxplots)
+TAGGED_CONTENT:

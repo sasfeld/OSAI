@@ -1,0 +1,14 @@
+ID: 2065
+CREATION_DATETIME: 1371160800000
+MODIFICATION_DATETIME: 1371160800000
+TITLE: GUI Tools nehmen standardmäßig nur Tests, weswegen seine Testsuites, ohne dass diese von TestSuite er...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2060
+POSTING_TYPE: comment
+CONTENT:
+GUI Tools nehmen standardmäßig nur Tests, weswegen seine Testsuites, ohne dass diese <NAME_CORPUS_REPLACEMENT> TestSuite erben, nicht als Test erkannt und benutzt werden würden.
+
+Und wenn man "einfach" alle Testklassen ausführen will, macht es ebenfalls keinen Sinn sie zu gliedern.
+
+Ich weiß dass JUnit Tests nicht mit GUI Tools zu tun haben, aber in den meisten Fällen werden sie nun einmal <NAME_CORPUS_REPLACEMENT> GUI Tools benutzt. Ansonsten gibt es nur das automatisierte Ausführen dieser Tests, wie z. B. beim Praktomat.
+TAGGED_CONTENT:

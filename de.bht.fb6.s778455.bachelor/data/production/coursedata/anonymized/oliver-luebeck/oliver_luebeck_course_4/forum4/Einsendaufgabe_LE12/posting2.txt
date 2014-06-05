@@ -1,0 +1,15 @@
+ID: 59
+CREATION_DATETIME: 1180987680000
+MODIFICATION_DATETIME: 1180987680000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 58
+CONTENT:
+ 
+Lieber ,
+
+die Klasse Rechenwerk sollte mit einer anderen GUI benutzbar sein auch welche, die negativen Zahlen zulassen. Daher die Idee, zwischen Integer.MAX_VALUE und Integer.MAX_VALUE zu unterscheiden, es kommt darauf an, ob zahl1 positiv oder negativ ist.
+
+Viele Grusse
+    
+TAGGED_CONTENT:

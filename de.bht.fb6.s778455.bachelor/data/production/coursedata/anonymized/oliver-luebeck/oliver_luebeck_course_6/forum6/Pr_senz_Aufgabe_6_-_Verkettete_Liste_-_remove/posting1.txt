@@ -1,0 +1,23 @@
+ID: 75
+CREATION_DATETIME: 1294500240000
+MODIFICATION_DATETIME: 1294500240000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Da ich schon gefragt wurde:
+
+Methode remove(E e):
+
+Die verkette Liste besteht ja aus Elementen, die jeweils einen Zeiger auf ihren Nachfolger haben. Wenn also mittendrin ein Element entfernt werden soll, dann muß beim Vorläufer der Zeiger, der auf den Nachfolger zeigt, eingetragen werden. Diese Adresse habe ich aus dem Zeiger des zu löschenden Elementes genommen und "nach vorne" geschrieben.
+
+// Vorläufer holen
+Knoten vorKnoten = sucheVor(hier.e);
+// Beim Vorläufer die Adresse setzen, die hier die nächste gewesen war
+vorKnoten.next = hier.next;
+
+Weitere Fragen gerne.
+Gruß 
+    
+TAGGED_CONTENT:

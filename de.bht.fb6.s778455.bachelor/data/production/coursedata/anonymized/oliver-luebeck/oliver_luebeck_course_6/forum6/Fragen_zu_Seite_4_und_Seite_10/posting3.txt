@@ -1,0 +1,17 @@
+ID: 16
+CREATION_DATETIME: 1286741340000
+MODIFICATION_DATETIME: 1286741340000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 13
+CONTENT:
+
+Hallo, zu Deiner Frage nach der Exception:
+
+Ich habe auch eine, aber nur, wenn ich den Code im Aptana (Eclipse) ausführe. Gehe ich auf die Commandline und rufe das Kompilat mit "java EinfacheAusgabe" auf, klappt alles.
+
+In der Doku zu java.io.Console steht etwas drin (was ich nicht ganz verstehe), was aber meiner Meinung nach soetwas sagt, wie daß eine Konsole auch verbindbar sein muß, was bei den IDEs wohl nicht automatisch der Fall ist.
+
+HTH
+    
+TAGGED_CONTENT:

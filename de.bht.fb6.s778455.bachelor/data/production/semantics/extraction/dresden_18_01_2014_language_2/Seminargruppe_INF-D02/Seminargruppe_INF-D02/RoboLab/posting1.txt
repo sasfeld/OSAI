@@ -1,0 +1,12 @@
+ID: 681
+CREATION_DATETIME: 1352156400000
+MODIFICATION_DATETIME: 1383433200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+
+auf [der Seite]( http://tu-dresden. de/die_tu_dresden/fakultaeten/fakultaet_informatik/sysa/se/teaching/courses/ws/einfuehrungspraktikum_roboter_lab?set_language=en&cl=en) steht, ds die Einschreibung über jExam am 24. 10. 2012 begonne hat. Sollen wir uns <NAME_CORPUS_REPLACEMENT> schon einschreiben? Weil du heute nichts direkt dazu gesagt hast, frag ich liber mal.
+TAGGED_CONTENT:

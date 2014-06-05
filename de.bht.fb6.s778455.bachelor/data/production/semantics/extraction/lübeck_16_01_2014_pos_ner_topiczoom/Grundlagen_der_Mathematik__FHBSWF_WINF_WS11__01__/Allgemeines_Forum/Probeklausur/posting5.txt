@@ -1,0 +1,26 @@
+ID: 117558
+CREATION_DATETIME: 1327326016
+MODIFICATION_DATETIME: 1327326016
+TITLE: Re: Probeklausur
+TOPIC_ZOOM_TAG: value:Vektoren;weight:2.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+POS_TAG: value:Saurus;weight:0.0;uri:;postag:NN
+POS_TAG: value:LGS;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mirke;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ab;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Determinante;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117557
+CONTENT:
+Hallo Mirke, also der erste Teil ist die Determinante Berechnen. Wenn man es nach Saurus macht wäre das: 2*(-2)*2 + 2*2*a + (-4)*1*(-3) - 8a - (-6) - 2In dem 2. Teil musst du das LGS mit <REMOVED_PERSON_ENTITY> auflösen wobei du für a die 2 einsetzt. Dann kommst du irgendwann auf:1 1 -40 -3 60 0 0Ab hier rechest du dann mit z=t (erste Lösung) weiter. Das wäre dann: -3y + 6t = 0 --&gt; y = 2t (zweite Lösung)Dann: x + 2t -4t = 0 --&gt; x = 2t (dritte Lösung)Wenn man jetzt das t rauszieht dann hat man den Vektor t * (2 2 1). Allerdings erschließt sich mir der Vektor (1 1 1) noch nicht. Ich hoffe ich konnte dir etwas helfen. 
+TAGGED_CONTENT:
+Hallo_ITJ Mirke_NN ,_$, also_ADV der_ART erste_ADJA Teil_NN ist_VAFIN die_ART Determinante_NN Berechnen_VVINF ._$. Wenn_KOUS man_PIS es_PPER nach_APPR Saurus_NN macht_VVFIN wäre_VAFIN das_PDS :_$. 2_CARD \*_CARD -LRB-_TRUNC -2_XY -RRB-_TRUNC \*_NN 2_CARD +_XY 2_CARD \*_CARD 2_CARD \*_CARD a_XY +_XY -LRB-_TRUNC -4_CARD -RRB-_TRUNC \*_XY 1_CARD \*_CARD -LRB-_TRUNC -3_CARD -RRB-_TRUNC -_$( 8a_CARD -_$( -LRB-_TRUNC -6_CARD -RRB-_TRUNC -_$( 2In_XY dem_ART 2_CARD ._$. Teil_NN musst_VVFIN du_PPER das_ART LGS_NN mit_APPR <_CARD REMOVED_PERSON_ENTITY_NN >_XY auflösen_VVINF wobei_PWAV du_PPER für_APPR a_XY die_ART 2_CARD einsetzt_VVFIN ._$. Dann_ADV kommst_VVFIN du_PPER irgendwann_ADV auf_APPR :1_CARD 1_CARD -40_CARD -3_CARD 60_CARD 0_CARD 0Ab_NN hier_ADV rechest_VVFIN du_PPER dann_ADV mit_APPR z_XY =_XY t_XY -LRB-_TRUNC erste_ADJA Lösung_NN -RRB-_TRUNC weiter_PTKVZ ._$. Das_PDS wäre_VAFIN dann_ADV :_$. -3_CARD y_NE +_KON 6t_XY =_XY 0_CARD --_APPRART >_ADJA y_NE =_XY 2t_CARD -LRB-_TRUNC zweite_ADJA Lösung_NN -RRB-_TRUNC Dann_ADV :_$. x_XY +_XY 2t_CARD -4_CARD t_XY =_XY 0_CARD --_-- >_XY x_XY =_XY 2t_CARD -LRB-_TRUNC dritte_ADJA Lösung_NN -RRB-_TRUNC Wenn_KOUS man_PIS jetzt_ADV das_ART t_XY rauszieht_VVFIN dann_ADV hat_VAFIN man_PIS den_ART Vektor_NN t_XY \*_CARD -LRB-_TRUNC 2_CARD 2_CARD 1_CARD -RRB-_TRUNC ._$. Allerdings_ADV erschließt_VVFIN sich_PRF mir_PPER der_ART Vektor_NN -LRB-_TRUNC 1_CARD 1_CARD 1_CARD -RRB-_TRUNC noch_KON nicht_PTKNEG ._$. Ich_PPER hoffe_VVFIN ich_PPER konnte_VMFIN dir_PPER etwas_PIS helfen_VVINF ._$. 

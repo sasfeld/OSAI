@@ -1,0 +1,9 @@
+ID: 575
+CREATION_DATETIME: 1351465200000
+MODIFICATION_DATETIME: 1351465200000
+TITLE: Klingt nach guten Vorschlägen. Werde ich mal implementieren wenn ich Zeit hab. 
+PARENT_POSTING_ID: 574
+POSTING_TYPE: comment
+CONTENT:
+Klingt nach guten Vorschlägen. Werde ich mal implementieren wenn ich Zeit hab. 
+TAGGED_CONTENT:

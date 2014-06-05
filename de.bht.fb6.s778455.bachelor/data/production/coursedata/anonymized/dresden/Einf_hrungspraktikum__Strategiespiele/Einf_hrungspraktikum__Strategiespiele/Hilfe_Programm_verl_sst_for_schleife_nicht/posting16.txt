@@ -1,0 +1,9 @@
+ID: 1346
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: wird denn das "ende" inzwischen ausgegeben? bist du sicher, dass das die stelle ist, an der getpossib...
+PARENT_POSTING_ID: 1329
+POSTING_TYPE: comment
+CONTENT:
+wird denn das "ende" inzwischen ausgegeben? bist du sicher, dass das die stelle ist, an der getpossibleturns() aufgerufen wird?
+TAGGED_CONTENT:

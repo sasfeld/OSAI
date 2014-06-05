@@ -1,0 +1,28 @@
+ID: 58
+CREATION_DATETIME: 1200926700000
+MODIFICATION_DATETIME: 1200926700000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo,
+
+was bedeuted eigentlich dieser Codeabschnitt bzw verstehe ich das richtig?
+
+String bildDateiOriginal = args.length > 0 ? args[0] : "AbbWurfparabel.jpg";
+
+Wenn dem Programm Parameter übergeben wurden, dann lese zuerst "AbbWurfparabel.jpg" ein
+
+int dateiGroesse = args.length > 1 ? Integer.parseInt(args[1]) : 14720;
+Wenn das Array einen Index größer eins hat, also dem Programm überhaupt etwas übergeben wurde, dann soll die Dateigröße 14720 Bytes enthalten.
+Wandel die Bytes in einen int-Wert um
+
+String bildDateiGeand = args.length > 2 ? args[2] : "AbbWurfparabel_new.jpg";
+Gibt es einen 2. Index im Array, dann soll dem die Datei "AbbWurfparabel_new.jpg" zugewiesen werden.
+
+
+
+MfG
+   
+TAGGED_CONTENT:

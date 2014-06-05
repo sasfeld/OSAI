@@ -1,0 +1,12 @@
+ID: 168191
+CREATION_DATETIME: 1349699134
+MODIFICATION_DATETIME: 1349699134
+TITLE: Übungsaufgaben
+TOPIC_ZOOM_TAG: value:Internet;weight:3.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:3.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:3.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:3.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 0
+CONTENT:
+Ich denke mal, dass nach dem letzten Online-Meeting und den uns nun vorliegenden Übungsaufgaben, noch ausreichend Klärungsbedarf besteht. Irgendwie liegt zwischen der Probeaufgabe und den Übungsaufgaben eine <REMOVED_PERSON_ENTITY> die mir in den Online-Unterlagen und im Online-Meeting fehlt, soll heißen, da bestehen noch viele Detailfragen.
+TAGGED_CONTENT:

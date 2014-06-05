@@ -1,0 +1,12 @@
+ID: 2599
+CREATION_DATETIME: 1382306400000
+MODIFICATION_DATETIME: 1382914800000
+TITLE: You are basically right but you should also know that NoMagic "pays" with the license for the fact th...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2593
+POSTING_TYPE: comment
+CONTENT:
+You are basically right but you should also know that NoMagic "pays" with the license for the fact that they use our Dresden OCL tool which they built in to provide OCL support!
+
+And MagicDraw UML is the only UML tool which provide OCL support.
+TAGGED_CONTENT:

@@ -1,0 +1,27 @@
+ID: 166721
+CREATION_DATETIME: 1349333145
+MODIFICATION_DATETIME: 1349333145
+TITLE: Re: Heutiges Online-Meeting
+TOPIC_ZOOM_TAG: value:Foren;weight:1.0;significance:7.65869350798439;degreegeneralization:3;uri:20770662
+TOPIC_ZOOM_TAG: value:Nachrichten;weight:1.0;significance:4.45402063329418;degreegeneralization:5;uri:21872483
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:ndigungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:che;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mitteilungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:B;weight:0.0;uri:;postag:NN
+POS_TAG: value:Forum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Startseite;weight:0.0;uri:;postag:NN
+POS_TAG: value:Moodlesystem;weight:0.0;uri:;postag:NN
+POS_TAG: value:REMOVEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Profil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nachricht;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 166707
+CONTENT:
+Als Nachricht hier im Moodlesystem. Ich habe es auch nur zufällig gesehen.
+Meine Startseite ==&gt; Mein Profil ==&gt; Mitteilungen ==&gt; Aktuelle Gespräche
+Wünschenswert meinerseits wäre es wenn sämtliche Ankündigungen im entsprechenden Forum geposted werden. (z. B im News Forum)
+ 
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Als_APPR Nachricht_NN hier_ADV im_APPRART Moodlesystem_NN ._$. Ich_PPER habe_VAFIN es_PPER auch_ADV nur_ADV zufällig_ADJD gesehen_VVPP ._$. Meine_PPOSAT Startseite_NN =_XY =_XY >_CARD Mein_PPOSAT Profil_NN =_XY =_XY >_CARD Mitteilungen_NN =_XY =_XY >_CARD Aktuelle_ADJA Gespräche_NN Wünschenswert_ADJD meinerseits_ADV wäre_VAFIN es_PPER wenn_KOUS sämtliche_PIAT Ankündigungen_NN im_APPRART entsprechenden_ADJA Forum_NN geposted_VVPP werden_VAINF ._$. -LRB-_TRUNC z._APPRART B_NN im_APPRART News_FM Forum_NN -RRB-_TRUNC <_XY PERSONAL_GREETING_REMOVEMENT_NN >_XY 

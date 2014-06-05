@@ -1,0 +1,88 @@
+ID: 2995
+CREATION_DATETIME: 1385247600000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: Vielen Dank für die schnelle Antwort. Die Fehlermeldung muss man in dem Log erstmal finden : ]
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2970
+POSTING_TYPE: answer
+CONTENT:
+Vielen Dank für die schnelle Antwort. Die Fehlermeldung muss man in dem Log erstmal finden : ]
+
+Hab jetzt ein paar davon behoben, komme allerdings bei folgender nicht weiter:
+
+```code
+
+Caused by: org. hibernate. annotations. common. AssertionFailure: Declaring class is not found in the inheritance state hierarchy: swt13w30. domain. MyDate
+
+	at org. hibernate. cfg. BinderHelper. getMappedSuperclassOrNull(BinderHelper. java:787)
+
+	at org. hibernate. cfg. annotations. PropertyBinder. bind(PropertyBinder. java:236)
+
+	at org. hibernate. cfg. annotations. PropertyBinder. makePropertyValueAndBind(PropertyBinder. java:205)
+
+	at org. hibernate. cfg. AnnotationBinder. processElementAnnotations(AnnotationBinder. java:2038)
+
+	at org. hibernate. cfg. AnnotationBinder. fillComponent(AnnotationBinder. java:2410)
+
+	at org. hibernate. cfg. AnnotationBinder. fillComponent(AnnotationBinder. java:2313)
+
+	at org. hibernate. cfg. AnnotationBinder. bindComponent(AnnotationBinder. java:2262)
+
+	at org. hibernate. cfg. AnnotationBinder. processElementAnnotations(AnnotationBinder. java:1998)
+
+	at org. hibernate. cfg. AnnotationBinder. processIdPropertiesIfNotAlready(AnnotationBinder. java:767)
+
+	at org. hibernate. cfg. AnnotationBinder. bindClass(AnnotationBinder. java:686)
+
+	at org. hibernate. cfg. Configuration$MetadataSourceQueue. processAnnotatedClassesQueue(Configuration. java:3466)
+
+	at org. hibernate. cfg. Configuration$MetadataSourceQueue. processMetadata(Configuration. java:3420)
+
+	at org. hibernate. cfg. Configuration. secondPassCompile(Configuration. java:1348)
+
+	at org. hibernate. cfg. Configuration. buildSessionFactory(Configuration. java:1747)
+
+	at org. hibernate. ejb. EntityManagerFactoryImpl.(EntityManagerFactoryImpl. java:96)
+
+	at org. hibernate. ejb. Ejb3Configuration. buildEntityManagerFactory(Ejb3Configuration. java:913)
+
+	at org. hibernate. ejb. Ejb3Configuration. buildEntityManagerFactory(Ejb3Configuration. java:898)
+
+	at org. hibernate. ejb. HibernatePersistence. createContainerEntityManagerFactory(HibernatePersistence. java:76)
+
+	at org. springframework. orm. jpa. LocalContainerEntityManagerFactoryBean. createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean. java:318)
+
+	at org. springframework. orm. jpa. AbstractEntityManagerFactoryBean. afterPropertiesSet(AbstractEntityManagerFactoryBean. java:317)
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. invokeInitMethods(AbstractAutowireCapableBeanFactory. java:1607)
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. initializeBean(AbstractAutowireCapableBeanFactory. java:1544)
+
+	... 106 common frames omitted
+
+```
+
+MyDate Klasse:
+
+```java
+
+package swt13w30. domain;
+
+import javax. persistence. Embeddable;
+
+import javax. persistence. GeneratedValue;
+
+import javax. persistence. Id;
+
+@Embeddable
+
+public class MyDate {
+
+	@Id @GeneratedValue
+
+	private int date;
+
+}
+
+```
+TAGGED_CONTENT:

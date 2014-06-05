@@ -1,0 +1,13 @@
+ID: 1770
+CREATION_DATETIME: 1367272800000
+MODIFICATION_DATETIME: 1381960800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo zusammen,
+ich habe mal einen ersten Entwurf unseres Systems gemacht. Es ist das noch nicht vollständig, aber ich wollte meinen Zwischenstand erstmal zeigen. Das Bild des Entwurfs hätte ich gerne gepostet, allerdings finde ich hier keine Möglichkeit Bilder anzuhängen, also lege ich es gleich noch ins SVN unter documents ab.
+Gezeichnet habe ich das ganze in argouml (http://argouml.tigris.org/) und daraus auch den Code generiert, also nicht wundern, dass <NAME_CORPUS_REPLACEMENT> einiges noch nicht stimmt.
+Für Vorschläge und Diskussionen bin ich offen, ich denke sogar wir sollten <NAME_CORPUS_REPLACEMENT> noch sehr ausführlich drüber sprechen.
+Der erzeugte Code liegt übrigens im src Verzeichnis unter CLeverTrustee.
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 2103
+CREATION_DATETIME: 1372197600000
+MODIFICATION_DATETIME: 1372197600000
+TITLE: Die Datengenerierung ist für die vorhandenen Kernel integriert. Scheinbar war da ein Fehler in der Ma...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2082
+POSTING_TYPE: comment
+CONTENT:
+Die Datengenerierung ist für die vorhandenen Kernel integriert. Scheinbar war <NAME_CORPUS_REPLACEMENT> ein Fehler in der Makefile.
+
+Die benötigten Header wurden <NAME_CORPUS_REPLACEMENT> CLeverTrustee/build/inc ins testCLT/inc kopiert. darin liegen aber scheinbar veraltete Header. Ich habe jetzt die Makefile soweit angepasst, dass es <NAME_CORPUS_REPLACEMENT> CLeverTrustee/inc (und damit die aktuellen Header) rüberkopiert.
+TAGGED_CONTENT:

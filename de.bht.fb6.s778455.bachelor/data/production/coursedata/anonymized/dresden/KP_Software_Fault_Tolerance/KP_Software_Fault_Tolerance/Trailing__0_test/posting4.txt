@@ -1,0 +1,34 @@
+ID: 858
+CREATION_DATETIME: 1353884400000
+MODIFICATION_DATETIME: 1353970800000
+TITLE: Not in C. 
+
+In C a string is terminated with \0 by definition. A string without \0 is invalid but s...
+PARENT_POSTING_ID: 851
+POSTING_TYPE: answer
+CONTENT:
+Not in C. 
+In C a string is terminated with \0 by definition. A string without \0 is invalid but still possible due to bugs. You have a similar problem with any sort of array because there is no bounds-checking in <REMOVED_PERSON_ENTITY> languages typically do that for you automatically (eg, Java). That is one of the critics against using <REMOVED_PERSON_ENTITY>, the infrastructure necessary to implement bounds-checking is large and that is one of the reasons for a lower performance of higher-level languages.
+There are some bounds-checkers for C which <NAME_CORPUS_REPLACEMENT> be integrated with the compiler and might add some infrastructure to check sizes during runtime. You <NAME_CORPUS_REPLACEMENT> Google for that if you have interest.
+> "If my string violates this definition, strlen stops counting, when it finds a \0 anywhere behind the string in the memory. I don't consider this a safe way to check for strlen ..." 
+Or it raises a `SEGFAULT` signal if there was no \0 following the buggy string. That is "safe" in the sense that `strlen` does not modify the memory which it has read. Depending how your program further uses the size of the string, however, that <NAME_CORPUS_REPLACEMENT> lead your program to an eventual failure.
+> "... is there any way to do this right and not <NAME_CORPUS_REPLACEMENT> 'working'?"
+There are multiple papers trying to solve this in a 'good' way, check the web. Here is a naive solution: Use special methods to manipulate strings, for example the following:
+```C
+char* alloc_string(unsigned size) {
+  char* str = (char*) malloc(size + sizeof(unsigned));
+  unsigned* str_size = (unsigned*) str;
+  *str_size = size;  // save size
+  return str + sizeof(unsigned); // return pointer to address after size
+}
+void free_string(char* str) {
+  char* s = str - sizeof(unsigned); // recalculate allocated pointer
+  free(s);
+}
+unsigned strlen_string(char* str) {
+  char* s = str - sizeof(unsigned); // recalculate allocated pointer
+  return *(unsigned*) s;  // return size value store in "size address"
+}
+```
+This solution is naive because it only works if you always use the methods above.
+TAGGED_CONTENT:

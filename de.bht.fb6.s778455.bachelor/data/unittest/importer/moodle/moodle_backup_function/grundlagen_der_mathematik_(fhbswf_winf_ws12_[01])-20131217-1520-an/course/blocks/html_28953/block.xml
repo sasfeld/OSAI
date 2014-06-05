@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block id="28953" contextid="153071" version="2013050100">
+  <blockname>html</blockname>
+  <parentcontextid>153061</parentcontextid>
+  <showinsubcontexts>0</showinsubcontexts>
+  <pagetypepattern>course-view-*</pagetypepattern>
+  <subpagepattern>$@NULL@$</subpagepattern>
+  <defaultregion>side-post</defaultregion>
+  <defaultweight>4</defaultweight>
+  <configdata>Tzo4OiJzdGRDbGFzcyI6Mzp7czo1OiJ0aXRsZSI7czoxMjoiS3Vycy1IYXNodGFnIjtzOjY6ImZvcm1hdCI7czoxOiIxIjtzOjQ6InRleHQiO3M6MjM0OiI8cD5Gw7xyIFR3aXR0ZXI6PGJyIC8+PHNwYW4gc3R5bGU9ImNvbG9yOiAjZmYwMDAwOyI+PC9zcGFuPjwvcD4NCjxoMT48c3BhbiBzdHlsZT0iY29sb3I6ICNmZjAwMDA7Ij4jVkZIR0RNPGJyIC8+PC9zcGFuPjwvaDE+DQo8cD5NZWhyIEluZm9ybWF0aW9uZW4gaW4gZGVyIDxhIGhyZWY9Imh0dHA6Ly93aWtpLm9uY2FtcHVzLmRlL3N5c3RlbWUvbW9vZGxlL2hhc2h0YWdzIj5vbmNhbXB1c3BlZGlhPC9hPjwvcD4iO30=</configdata>
+  <block_positions>
+    <block_position id="1317">
+      <contextid>153061</contextid>
+      <pagetype>course-view-topics</pagetype>
+      <subpage></subpage>
+      <visible>1</visible>
+      <region>side-post</region>
+      <weight>6</weight>
+    </block_position>
+  </block_positions>
+</block>

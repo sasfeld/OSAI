@@ -1,0 +1,23 @@
+ID: 46
+CREATION_DATETIME: 1193057520000
+MODIFICATION_DATETIME: 1193057520000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo liebe Mitleidene lächelnd
+
+Ist jemand von euch schon mit Aufgabe 4 fertig?
+Die vier Klassen funktionieren soweit bei mir. Allerdings hole ich mir lediglich die berechneten Int und Float Ergebnisse in die Klasse RechnerTest.
+
+Die Methode in der Schnittstelle Rechner.java lautet bei mir noch
+void rechnen() throws IOException;
+
+Was muss ich ändern bzw. Ergänzen, damit wie in der Aufgabe verlangt ein String übergeben wird?
+
+Ich habe ein wenig mit der toString() Methode gespielt, kam aber zu keinem Ergebnis.
+
+Gruß
+	
+TAGGED_CONTENT:

@@ -1,0 +1,11 @@
+ID: 1515
+CREATION_DATETIME: 1363042800000
+MODIFICATION_DATETIME: 1363042800000
+TITLE: Segmentation is applied before paging. Segmentation translates a logical address into a linear addres...
+PARENT_POSTING_ID: 1514
+POSTING_TYPE: answer
+CONTENT:
+Segmentation is applied before paging. Segmentation translates a logical address into a linear address. Linear addresses are then subject to paging and this results in a physical address.
+Segmentation and paging are two different mechanisms. You <NAME_CORPUS_REPLACEMENT> disable paging, but segmentation is always active. Usually segmentation is effectively disabled by setting base and limit to 0 and 2`32-1 respectively. This yields, what is called a _flat address space_.
+This of course only applies to x86. The Intel Software Developer's manuals have a section on "Logical and Linear Addresses" and "Paging Overview" in volume 3A.
+TAGGED_CONTENT:

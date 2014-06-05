@@ -1,0 +1,19 @@
+ID: 237977
+CREATION_DATETIME: 1380649762
+MODIFICATION_DATETIME: 1380649762
+TITLE: Re: Gruppen für potenzielle Einsendeaufgaben
+TOPIC_ZOOM_TAG: value:Mathematiker;weight:1.0;significance:8.56541478884239;degreegeneralization:8;uri:21966255
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Forschung;weight:1.0;significance:5.04890656066924;degreegeneralization:4;uri:21471079
+TOPIC_ZOOM_TAG: value:Forschung und Entwicklung;weight:1.0;significance:4.93790428110475;degreegeneralization:3;uri:21603526
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 237309
+CONTENT:
+Hallo,
+ich würde dann hier mal die nächste Gruppe aufmachen ;-) Wir sind bereits zu zweit (Ich und <REMOVED_PERSON_ENTITY>) und suchen noch zwei bereitwillige Mathematiker :-)
+Grüße
+Michél
+TAGGED_CONTENT:

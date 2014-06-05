@@ -1,0 +1,9 @@
+ID: 761
+CREATION_DATETIME: 1352761200000
+MODIFICATION_DATETIME: 1352761200000
+TITLE: Allein aufgrund der Menge der angebotenen Lehrveranstaltungen (Vorlesungen mit Übungen) wäre es unsin...
+PARENT_POSTING_ID: 728
+POSTING_TYPE: comment
+CONTENT:
+Allein aufgrund der <REMOVED_PERSON_ENTITY> der angebotenen Lehrveranstaltungen (Vorlesungen mit Übungen) wäre es unsinnig Seminare als zweiten Teil zu nehmen. <LEARNED_PERSON_NAME_REPLACEMENT>ßerdem werden die Seminare bereits als AQUA bzw Berufsspezifische Schlüsselkompetenzen gefordert. Nach allem was wir (FSR) wissen, handelt es sich hier um nen Copy-Paste-Fehler/Typo. Professor <REMOVED_PERSON_ENTITY>aktueller Studiendekan) wurde über dieses Problem vor einiger Zeit <NAME_CORPUS_REPLACEMENT> uns informiert, im nächsten Fakultätsrat sollte das Problem angesprochen und möglichst gelöst werden. Ich empfehle dazu auch mal die zukünftigen FSR-Sitzungsprotokolle zu checken, wir werden bekanntgeben wenn sich was tut. Der aktuelle Zustand ist auf jeden Fall schwachsinnig.
+TAGGED_CONTENT:

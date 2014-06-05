@@ -1,0 +1,8 @@
+ID: 16575
+CREATION_DATETIME: 1224870274
+MODIFICATION_DATETIME: 1224870274
+TITLE: Weitere Gruppenbildung
+PARENT_POSTING_ID: 0
+CONTENT:
+N'Abend allerseits, ich suche noch Leute die in den nächsten Tagen mit der Einsendeaufgabe beginnen wollen. Also: Wer hat noch keine Gruppe? 
+TAGGED_CONTENT:

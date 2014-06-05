@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="11743" moduleid="56958" modulename="forum" contextid="80616">
+  <forum id="11743">
+    <type>general</type>
+    <name>Allgemeines Forum</name>
+    <intro>Hier können Sie übergeordnete und organisatorische Fragen diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>2</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1185448275</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="37722">
+        <name>Aufgraben und Praesenzphasen</name>
+        <firstpost>101860</firstpost>
+        <userid>3907</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1287224336</timemodified>
+        <usermodified>3933</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="101860">
+            <parent>0</parent>
+            <userid>3907</userid>
+            <created>1287221360</created>
+            <modified>1287221360</modified>
+            <mailed>1</mailed>
+            <subject>Aufgraben und Praesenzphasen</subject>
+            <message>Guten Tag,&lt;br /&gt;&lt;br /&gt;ich nehme an dem Kurs Grundlagen der Mathematik teil und konnte bei der Einfeuhrungsveranstaltung leider nicht dabei sein.&lt;br /&gt;&lt;br /&gt;Gibt es irgendwo eine Liste mit Terminen zu den Praesenzveranstaltungen und Hausaufgaben?&lt;br /&gt;&lt;br /&gt;Vielen Dank.&lt;br /&gt;Mit freundlichen Gruessen,&lt;br /&gt;&lt;br /&gt;Brahim Akef&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="101861">
+            <parent>101860</parent>
+            <userid>3933</userid>
+            <created>1287224336</created>
+            <modified>1287224336</modified>
+            <mailed>1</mailed>
+            <subject>Re: Aufgraben und Praesenzphasen</subject>
+            <message>Hausaufgaben gibt es nicht, wir arbeiten in Mathe nur die Aufgabe aus den Online Materialien durch.
+
+Als Themen kamen dran :
+- Logaritmen
+- Spezielle Operationszeichen
+- Binomischer Lehrsatz
+- Lösungen von Gleichungen und Ungleichungen
+- Trigonometrische Funktionen
+
+Eventuell kann ich dir eine Abschrift schicken, leider in schlechter Handschrift, vlt hat da jemand ja etwas besseres.
+
+Die Termine findet du unter 
+Fachbereichskurs (TFHB WINF) &gt; Präsenzwochenenden.
+
+
+oder als direkt link
+$@COURSEVIEWBYID*1350@$
+
+Mfg
+
+Martin Hoffmann</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="104364">
+        <userid>3881</userid>
+      </subscription>
+      <subscription id="104365">
+        <userid>3931</userid>
+      </subscription>
+      <subscription id="104366">
+        <userid>3923</userid>
+      </subscription>
+      <subscription id="104367">
+        <userid>3903</userid>
+      </subscription>
+      <subscription id="104368">
+        <userid>3913</userid>
+      </subscription>
+      <subscription id="104369">
+        <userid>3919</userid>
+      </subscription>
+      <subscription id="104370">
+        <userid>3927</userid>
+      </subscription>
+      <subscription id="104371">
+        <userid>3925</userid>
+      </subscription>
+      <subscription id="104372">
+        <userid>2647</userid>
+      </subscription>
+      <subscription id="104373">
+        <userid>3933</userid>
+      </subscription>
+      <subscription id="104374">
+        <userid>3907</userid>
+      </subscription>
+      <subscription id="104375">
+        <userid>3885</userid>
+      </subscription>
+      <subscription id="104376">
+        <userid>3897</userid>
+      </subscription>
+      <subscription id="104377">
+        <userid>3915</userid>
+      </subscription>
+      <subscription id="104378">
+        <userid>3869</userid>
+      </subscription>
+      <subscription id="104379">
+        <userid>3921</userid>
+      </subscription>
+      <subscription id="104380">
+        <userid>3935</userid>
+      </subscription>
+      <subscription id="104381">
+        <userid>3917</userid>
+      </subscription>
+      <subscription id="104382">
+        <userid>3941</userid>
+      </subscription>
+      <subscription id="104383">
+        <userid>3929</userid>
+      </subscription>
+      <subscription id="104384">
+        <userid>3943</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

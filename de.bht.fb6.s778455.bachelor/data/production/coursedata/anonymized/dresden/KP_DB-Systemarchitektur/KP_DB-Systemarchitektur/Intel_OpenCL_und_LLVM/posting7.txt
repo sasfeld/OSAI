@@ -1,0 +1,9 @@
+ID: 2295
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Theoretisch dürfte in dem Fall sogar die Durchschnittszeit greifen. Anpassungen sind also nicht nötig...
+PARENT_POSTING_ID: 2291
+POSTING_TYPE: comment
+CONTENT:
+Theoretisch dürfte in dem Fall sogar die Durchschnittszeit greifen. Anpassungen sind also nicht nötig.
+TAGGED_CONTENT:

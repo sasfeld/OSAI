@@ -1,0 +1,8 @@
+ID: 97781
+CREATION_DATETIME: 1292502946
+MODIFICATION_DATETIME: 1292502946
+TITLE: Taschenrechner
+PARENT_POSTING_ID: 0
+CONTENT:
+Muss mal ganz genau nachfragen. An Taschenrechnern ist alles erlaubt, solange sie nicht programmierbar sind?Ich habe diesen hier ins Auge gefasst:<a http://www.amazon.de/FX-991-ES-PLUS-Taschenrechner/dp/B003IDAW8Q/ref=sr_1_4?ie=UTF8&qid=1292501978&sr=8-4" title="FX991 ES Plus">CASIO FX 991 ES PLUS Taschenrechner - Neues Modell / 2010 VG <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

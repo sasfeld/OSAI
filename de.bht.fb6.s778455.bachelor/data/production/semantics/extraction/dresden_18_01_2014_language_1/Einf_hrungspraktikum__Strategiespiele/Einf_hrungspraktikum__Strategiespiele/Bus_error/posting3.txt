@@ -1,0 +1,14 @@
+ID: 1491
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Das Problem ist gelöst. Julian hat vorgeschlagen, statt malloc new myBoardState zu verwenden (siehe S...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1467
+POSTING_TYPE: answer
+CONTENT:
+Das Problem ist gelöst. <REMOVED_PERSON_ENTITY> hat vorgeschlagen, statt malloc new myBoardState zu verwenden (siehe Struct).
+
+Das hat den Fehler beseitigt - wieso auch immer.
+
+Danke euch beiden für die Antworten.
+TAGGED_CONTENT:

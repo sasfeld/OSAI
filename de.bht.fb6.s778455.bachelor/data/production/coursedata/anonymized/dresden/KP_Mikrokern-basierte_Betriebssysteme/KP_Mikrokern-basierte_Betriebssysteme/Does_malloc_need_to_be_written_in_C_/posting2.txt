@@ -1,0 +1,10 @@
+ID: 934
+CREATION_DATETIME: 1354489200000
+MODIFICATION_DATETIME: 1354575600000
+TITLE: I think it will work for both C and C++ since first you compile your malloc-library and than link it ...
+PARENT_POSTING_ID: 933
+POSTING_TYPE: answer
+CONTENT:
+I think it will work for both C and C++ since first you compile your malloc-library and than link it against your application. So C and C++ files do not intersect directly. Although there could be some issues if you use some features that are not available in C. Following discussion explains some issues with linking procedure: http://stackoverflow.com/questions/7288404/linking-c-to-c-in-gcc
+As I got this discussion you should use g++ for linking if you use such C++-features like exceptions, but if not object files generated from C++ sources should be completely compatible with C object files.
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 2025
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: ich habe jetzt erstmal eine gemergte Version der bisher vorhandenen Folien eingecheckt. 
+Ich habe ei...
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+ich habe jetzt erstmal eine gemergte Version der bisher vorhandenen Folien eingecheckt. 
+Ich habe ein paar <NAME_CORPUS_REPLACEMENT> <REMOVED_PERSON_ENTITY>' Folien für die Motivation genutzt.
+Wir sollten uns noch auf eine einhetliche Sprache einigen (bisher sind einige Folien auf Deutsch, manche auf Englisch). Den Ausblick/Todo habe ich noch offen gelassen, wollen wir das auch Arbeitspaketweise handhaben? ich denke das ist ganz sinnvoll. Es fehlen jetzt noch die Folien für den CLeverTrustee und für die Devices. Inhaltlich habe ich, außer offensichtliche Rechtschreibfehler, nichts geändert, nur alles ins Layout eingepasst. 
+Die Reihenfolge müssten wir dann noch richtig einbauen, wenn alle Folien vorbereitet sind. 
+Die Motivation können wir gern auch noch komplett ändern, war nur die Idee, das vielleicht so aufzusetzen.
+TAGGED_CONTENT:

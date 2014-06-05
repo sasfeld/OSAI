@@ -1,0 +1,40 @@
+ID: 1312
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Danke für den Hinweis. Ich habe eine bool Variable deklariert mit der ich überprüfe ob der thread die...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1300
+POSTING_TYPE: answer
+CONTENT:
+Danke für den Hinweis. Ich habe eine bool Variable deklariert mit der ich überprüfe ob der thread die variable schon eingelesen hat.
+
+```ruby
+
+void *thread_start(void *pt)
+
+{
+
+    param p=parameter;
+
+    paramter. useable=true;
+
+    (*(p. score))=detS(...);
+
+}
+
+int main()
+
+{...
+
+parameter. score=&(score);
+
+parameter. useable=false;
+
+pthread_create(&aktthread->t_id, NULL, thread_start, NULL);
+
+while(!parameter. useable) z=z;
+
+...}
+
+```
+TAGGED_CONTENT:

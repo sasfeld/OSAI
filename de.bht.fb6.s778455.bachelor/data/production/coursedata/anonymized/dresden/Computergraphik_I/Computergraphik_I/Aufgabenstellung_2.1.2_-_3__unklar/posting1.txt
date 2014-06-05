@@ -1,0 +1,12 @@
+ID: 750
+CREATION_DATETIME: 1352761200000
+MODIFICATION_DATETIME: 1372024800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Die Teilaufgabe verlangt
+> Wie viele Rechenoperationen werden auf der CPU 
+> und wie viele werden auf der GPU durchgeführt?
+Die Frage ist nun: Rechenoperationen *je was*? Soll die Angabe in OPs/sek, OPs/frame, OPs/dreieck oder etwas Anderem erfolgen?
+TAGGED_CONTENT:

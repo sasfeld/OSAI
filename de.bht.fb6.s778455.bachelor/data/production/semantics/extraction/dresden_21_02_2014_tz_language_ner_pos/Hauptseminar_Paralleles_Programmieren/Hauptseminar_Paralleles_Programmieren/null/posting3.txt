@@ -1,0 +1,30 @@
+ID: 2938
+CREATION_DATETIME: 1384988400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Arbeit und Beruf;weight:1.0;significance:3.54101226558305;degreegeneralization:3;uri:21924095
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:1.80459553725326;degreegeneralization:2;uri:21999847
+POS_TAG: value:Arbeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abstrakt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zusammenfassung;weight:0.0;uri:;postag:NN
+POS_TAG: value:EasyChair;weight:0.0;uri:;postag:NN
+POS_TAG: value:Reviewprozess;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hauptseminars;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bitte;weight:0.0;uri:;postag:NN
+POS_TAG: value:www;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einladungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Arbeiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gliederung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Plattform;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teilnehmer;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Heute haben alle Teilnehmer des Hauptseminars Einladungen für *EasyChair* (https://www. easychair. org) erhalten.
+
+Bitte meldet euch bei EasyChair an, um euer Zusammenfassung (Abstrakt und Gliederung) bei EasyChair und später die schriftliche Arbeit einzureichen. Später erlaubt es diese Plattform auch, die Arbeiten gegenseitig zu verbessern (Reviewprozess).
+
+**Bitte denkt an das einreichen des Zusammenfassung bis zum 4. 12. 2013!**
+TAGGED_CONTENT:
+Heute_ADV haben_VAFIN alle_PIDAT Teilnehmer_NN des_ART Hauptseminars_NN Einladungen_NN für_APPR \*_CARD EasyChair_NN \*_CARD -LRB-_TRUNC https:\/\/www_NN ._$. easychair_ADJD ._$. org_NE -RRB-_TRUNC erhalten_VVINF ._$. Bitte_NN meldet_VVFIN euch_PPER bei_APPR EasyChair_NN an_PTKVZ ,_$, um_KOUI euer_ADJA Zusammenfassung_NN -LRB-_TRUNC Abstrakt_NN und_KON Gliederung_NN -RRB-_TRUNC bei_APPR EasyChair_NN und_KON später_ADJD die_ART schriftliche_ADJA Arbeit_NN einzureichen_VVIZU ._$. Später_ADJD erlaubt_VVFIN es_PPER diese_PDAT Plattform_NN auch_ADV ,_$, die_ART Arbeiten_NN gegenseitig_ADJD zu_PTKZU verbessern_VVINF -LRB-_TRUNC Reviewprozess_NN -RRB-_TRUNC ._$. \*\*_ADJA Bitte_NN denkt_VVFIN an_APPR das_ART einreichen_VVINF des_ART Zusammenfassung_NN bis_APPR zum_APPRART 4_CARD ._$. 12_CARD ._$. 2013_CARD !_$. \*\*_XY 

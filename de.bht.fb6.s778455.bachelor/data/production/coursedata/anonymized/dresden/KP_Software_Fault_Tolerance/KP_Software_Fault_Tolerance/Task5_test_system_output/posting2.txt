@@ -1,0 +1,9 @@
+ID: 978
+CREATION_DATETIME: 1355785200000
+MODIFICATION_DATETIME: 1355785200000
+TITLE: You should simply print read_EIO instead of the whole path.
+PARENT_POSTING_ID: 977
+POSTING_TYPE: comment
+CONTENT:
+You should simply print read_EIO instead of the whole path.
+TAGGED_CONTENT:

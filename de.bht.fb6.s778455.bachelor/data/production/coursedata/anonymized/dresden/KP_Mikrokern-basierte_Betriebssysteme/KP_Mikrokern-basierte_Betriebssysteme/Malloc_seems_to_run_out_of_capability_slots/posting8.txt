@@ -1,0 +1,19 @@
+ID: 1151
+CREATION_DATETIME: 1361401200000
+MODIFICATION_DATETIME: 1361401200000
+TITLE: **cough** Now it crashes earlier with:
+~~~~
+
+pure virtual method called
+terminate called without ...
+PARENT_POSTING_ID: 1143
+POSTING_TYPE: comment
+CONTENT:
+**cough** Now it crashes earlier with:
+~~~~
+pure virtual method called
+terminate called without an active exception
+MOE: is terminating with 127, very bad......
+~~~~~
+The funny thing: There is no function call in the area where it crashes.
+TAGGED_CONTENT:

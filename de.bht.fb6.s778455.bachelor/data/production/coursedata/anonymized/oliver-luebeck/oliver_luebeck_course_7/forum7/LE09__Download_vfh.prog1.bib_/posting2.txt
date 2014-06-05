@@ -1,0 +1,17 @@
+ID: 21
+CREATION_DATETIME: 1304447400000
+MODIFICATION_DATETIME: 1304447400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 20
+CONTENT:
+ 
+hallo !
+
+die dateien waren alle in der übungsumgebung die wir ganz zu anfang runterladen und auf c: installieren sollten. da müsste dann eigentlich auch "bib" drin sein.
+falls du das noch runterladen musst:
+> Kurs-Materialien > Downloads > Übungsumgebung des Lernmoduls Programmieren 1 (ganz unten auf der seite)
+
+viele grüße,
+   
+TAGGED_CONTENT:

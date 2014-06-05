@@ -1,0 +1,20 @@
+ID: 9
+CREATION_DATETIME: 1191612420000
+MODIFICATION_DATETIME: 1191612420000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo
+
+Hat jemand von Euch ein paar Erfahrungen mit Apaches Ant? Ich versuche
+gerade eine simple Build-File zu machen, da das ja üblicherweise von
+einer IDE gemacht wird. Ich würde halt trotzdem gerne wissen, wie der
+Packaging Vorgang beim Compiling eines beliebigen Programmes läuft.
+
+Ich nutze Kubuntu Linux 9.04 mit 2.6.28-11-generic Kernel.
+
+Viele Grüße
+    
+TAGGED_CONTENT:

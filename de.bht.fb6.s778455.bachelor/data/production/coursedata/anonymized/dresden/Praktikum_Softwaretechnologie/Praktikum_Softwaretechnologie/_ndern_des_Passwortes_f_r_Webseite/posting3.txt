@@ -1,0 +1,9 @@
+ID: 2570
+CREATION_DATETIME: 1381874400000
+MODIFICATION_DATETIME: 1381874400000
+TITLE: Unser Tutor meinte, dass wir das Passwort (das er uns per E-Mail mitteilte) mit dem wir uns auf dem F...
+PARENT_POSTING_ID: 2569
+POSTING_TYPE: comment
+CONTENT:
+Unser Tutor meinte, dass wir das Passwort (das er uns per E-Mail mitteilte) mit dem wir uns auf dem FTP Server vom ZIH einloggen können sofort ändern sollen. Versuche ich mich allerdings mit denselben Benutzernamen und Passwort auf https://idm-service. tu-dresden. de einzuloggen erscheint: "username not provided", obwohl ich mich auf dem FTP Server einloggen damit einloggen kann.
+TAGGED_CONTENT:

@@ -1,0 +1,31 @@
+ID: 46
+CREATION_DATETIME: 1304617920000
+MODIFICATION_DATETIME: 1304617920000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 45
+CONTENT:
+  
+Hallo ,
+
+wahrscheinlich hast du die kleinen Striche links und rechts in der Überischt übersehen:
+
+| Messwert - Sollwert |
+
+Das heißt, der absolute Wert soll hier verglichen werden.
+Wenn der Messwert kleiner ist als der Sollwert kommt immer eine negative Zahl raus:
+10-10.9 = -0,9
+10-100 = -90
+und damit ist Messwert - Sollwert natürlich auch immer <= 0,1
+
+Es gibt in Java schon eine Klasse, die das Berechnen des absoluten Wertes übernimmt:
+Math.abs()
+Hier ist die Dokumentation dazu: link
+
+Hoffe das hilft dir weiter.
+
+Und zu deiner Anderen Frage: diese Buchstaben sind nur eine andere Schreibweise für sehr große bzw. sehr kleine Zahlen. du kannst das einfach so beim Einlesen der Werte eingeben.
+
+Gruß, 
+   
+TAGGED_CONTENT:

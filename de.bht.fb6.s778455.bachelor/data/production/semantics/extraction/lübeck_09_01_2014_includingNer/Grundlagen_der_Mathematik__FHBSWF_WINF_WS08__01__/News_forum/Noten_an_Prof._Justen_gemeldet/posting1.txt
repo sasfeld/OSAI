@@ -1,0 +1,14 @@
+ID: 16527
+CREATION_DATETIME: 1236258807
+MODIFICATION_DATETIME: 1236258807
+TITLE: Noten an Prof. Justen gemeldet
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:6.95597687640829;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+NER_TAG: value:EPV;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Sie alle, ich habe soeben fast alle festgelegten <REMOVED_PERSON_ENTITY> in die EPV an Prof. Dr. <REMOVED_PERSON_ENTITY> gemeldet. Mit besten Grüßen, <PERSONAL_GREETING_REMOVEMENT>. <REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

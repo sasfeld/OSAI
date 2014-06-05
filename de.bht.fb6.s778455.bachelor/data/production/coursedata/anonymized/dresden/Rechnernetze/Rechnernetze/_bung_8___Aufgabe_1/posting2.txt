@@ -1,0 +1,11 @@
+ID: 2419
+CREATION_DATETIME: 1374444000000
+MODIFICATION_DATETIME: 1374616800000
+TITLE: Da ist ein Fehler sowohl in der Vorlesung, als auch in der Übung. Der Interframe-Gap ist per Design e...
+PARENT_POSTING_ID: 2417
+POSTING_TYPE: answer
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> ist ein Fehler sowohl in der Vorlesung, als auch in der Übung. Der Interframe-Gap ist per Design exakt 96 Raw-Bit-Cycles lang, kann aber durch einige Optimierungen auf 47 Bit (Ethernet), 12 Byte (Fast-Ethernet), 8 Byte (Gigabit-Ethernet) und 5 Byte (10-Gigabit-Ethernet) verkürzt werden.
+Mit der Frame Check Sequency (CRC-Summe) <NAME_CORPUS_REPLACEMENT> 4 Byte ergibt sich ein End Limiter („EL“) <NAME_CORPUS_REPLACEMENT> 16 Byte bei Fast Ethernet (oben in der Vorlesung) und den angegebenen 12 Byte bei Gigabit-Ethernet (unten in der Vorlesung).
+<NAME_CORPUS_REPLACEMENT> laut Definition aus der Vorlesung die CRC-Summe aber mit den Adress-Headern zum Frame gehört, ergibt sich bei den 64-Byte-Frame in Ergänzung mit SL und IFG ein Block <NAME_CORPUS_REPLACEMENT> je 80 Byte pro Paket. Bei 13 gebursteten und gepaddeten Frames ergeben sich dann insgesamt 1488 Byte. [Diese Antwort musste ich leider 3mal editieren, bis alles richtig war. Sorry dafür!]
+TAGGED_CONTENT:

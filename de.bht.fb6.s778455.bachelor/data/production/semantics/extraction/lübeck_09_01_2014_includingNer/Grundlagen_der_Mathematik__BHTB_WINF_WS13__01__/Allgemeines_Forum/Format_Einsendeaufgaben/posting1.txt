@@ -1,0 +1,33 @@
+ID: 249161
+CREATION_DATETIME: 1382800724
+MODIFICATION_DATETIME: 1382800724
+TITLE: Format Einsendeaufgaben
+TOPIC_ZOOM_TAG: value:Desktop Publishing;weight:1.0;significance:12.015402334674;degreegeneralization:8;uri:20899879
+TOPIC_ZOOM_TAG: value:LaTeX;weight:1.0;significance:12.015402334674;degreegeneralization:10;uri:20899845
+TOPIC_ZOOM_TAG: value:TeX;weight:1.0;significance:12.015402334674;degreegeneralization:9;uri:20899862
+TOPIC_ZOOM_TAG: value:Elektronisches Publizieren;weight:1.0;significance:12.015402334674;degreegeneralization:7;uri:20111249
+TOPIC_ZOOM_TAG: value:Elektronische Publikation;weight:1.0;significance:12.015402334674;degreegeneralization:6;uri:20013193
+TOPIC_ZOOM_TAG: value:Publizieren;weight:1.0;significance:9.30735213357177;degreegeneralization:4;uri:20899896
+TOPIC_ZOOM_TAG: value:Publikationen;weight:1.0;significance:8.15467262363339;degreegeneralization:3;uri:20910946
+TOPIC_ZOOM_TAG: value:Beschreibungssprachen;weight:1.0;significance:7.60260404133335;degreegeneralization:7;uri:20900644
+TOPIC_ZOOM_TAG: value:Formale Sprachen;weight:1.0;significance:7.03179571296564;degreegeneralization:6;uri:21978155
+TOPIC_ZOOM_TAG: value:Computersprachen;weight:1.0;significance:7.02837690621686;degreegeneralization:6;uri:19949137
+TOPIC_ZOOM_TAG: value:Software;weight:1.0;significance:5.21023364446695;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:5.02422544755277;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:5.00870710783694;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:5.00780172072213;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:4.31013985980766;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+NER_TAG: value:LG;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+PARENT_POSTING_ID: 0
+CONTENT:
+Moin moin zusammen,
+vielleicht wurde die Frage ja schon wo beantwortet und ich habe es bloß nicht mitbekommen... WIE erstellt ihr die Antowrten für die <REMOVED_PERSON_ENTITY> ESAs?Schreibt ihr das alles in LaTeX, oder löst ihr die Aufgaben handschriftlich und scannt das dann ein?Oder mittels Stift und Grafiktablet?Ich steh grad etwas auf dem <REMOVED_PERSON_ENTITY> wie ich die gelösten Aufgaben am besten 'digitalisiere'.
+Ich freu mich auf eure Antworten
+LG <PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

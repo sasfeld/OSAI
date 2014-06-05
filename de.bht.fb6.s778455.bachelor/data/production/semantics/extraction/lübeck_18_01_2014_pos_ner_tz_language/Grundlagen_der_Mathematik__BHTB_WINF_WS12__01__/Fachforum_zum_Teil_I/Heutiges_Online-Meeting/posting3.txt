@@ -1,0 +1,19 @@
+ID: 166545
+CREATION_DATETIME: 1349279262
+MODIFICATION_DATETIME: 1349279583
+TITLE: Re: Heutiges Online-Meeting
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Feiertage;weight:1.0;significance:6.76051452605328;degreegeneralization:5;uri:20718404
+TOPIC_ZOOM_TAG: value:Konferenzen, Kongresse und Symposien;weight:1.0;significance:6.25966012108707;degreegeneralization:3;uri:21956956
+TOPIC_ZOOM_TAG: value:Feiern, Feste und Festakte;weight:1.0;significance:5.9680301556277;degreegeneralization:4;uri:20919667
+TOPIC_ZOOM_TAG: value:Veranstaltungen;weight:1.0;significance:3.37051978211685;degreegeneralization:3;uri:20901494
+POS_TAG: value:Herrn;weight:0.0;uri:;postag:NN
+POS_TAG: value:Feiertags;weight:0.0;uri:;postag:NN
+POS_TAG: value:Konferenz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mittwoch;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 166535
+CONTENT:
+Hallo, Heute ist kein <REMOVED_PERSON_ENTITY>... Die Konferenz wurde aufgrund des Feiertags durch Herrn <REMOVED_PERSON_ENTITY> auf nächsten Mittwoch verschoben 
+grüße
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, Heute_ADV ist_VAFIN kein_PIAT <_NN REMOVED_PERSON_ENTITY_NE >_NE ..._$( Die_ART Konferenz_NN wurde_VAFIN aufgrund_APPR des_ART Feiertags_NN durch_APPR Herrn_NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE auf_APPR nächsten_ADJA Mittwoch_NN verschoben_VVPP grüße_VVFIN 

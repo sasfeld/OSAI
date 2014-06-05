@@ -1,0 +1,39 @@
+ID: 191725
+CREATION_DATETIME: 1357639575
+MODIFICATION_DATETIME: 1357639575
+TITLE: Re: Vektoren linear abhängig/ unabhängig mit LGS lösen
+TOPIC_ZOOM_TAG: value:Rechen;weight:1.0;significance:6.35427475761695;degreegeneralization:9;uri:20730406
+TOPIC_ZOOM_TAG: value:Vektoren;weight:1.0;significance:6.35427475761695;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Kommilitonen;weight:1.0;significance:5.3813196830893;degreegeneralization:6;uri:20148190
+TOPIC_ZOOM_TAG: value:Gartengeräte;weight:1.0;significance:5.31455398677705;degreegeneralization:8;uri:21868998
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:2.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Gartenbedarf;weight:1.0;significance:4.76524784244299;degreegeneralization:7;uri:21869032
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Garten und Gartenbedarf;weight:1.0;significance:4.74483684518287;degreegeneralization:6;uri:20732293
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:2.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Haus, Garten, Wohnung, Einrichtung;weight:1.0;significance:3.99950965696079;degreegeneralization:5;uri:21993268
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:3.89064791503836;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Garten;weight:1.0;significance:3.48598860887736;degreegeneralization:5;uri:21869049
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:3.47798843820414;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Garten und Hausaußenbereich;weight:1.0;significance:3.4002332885325;degreegeneralization:4;uri:20726666
+TOPIC_ZOOM_TAG: value:Studenten;weight:1.0;significance:3.3437630829422;degreegeneralization:5;uri:20994552
+TOPIC_ZOOM_TAG: value:Schüler, Studenten;weight:1.0;significance:3.21878054168781;degreegeneralization:4;uri:20920823
+TOPIC_ZOOM_TAG: value:Wohltätigkeit, Gemeinnützigkeit, Spenden, Hilfe, Engagement;weight:1.0;significance:2.99416468004932;degreegeneralization:3;uri:20919497
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:2.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:2.78563553898677;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:2.77735785682754;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Freizeit, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:2.58555973932371;degreegeneralization:5;uri:21872415
+TOPIC_ZOOM_TAG: value:Wohnen, Haus und Garten;weight:1.0;significance:2.49537665211017;degreegeneralization:3;uri:21125894
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:2.23699226098339;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:1.75110858232764;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:1.7207726480701;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:1.16884339240287;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:0.90229776862663;degreegeneralization:2;uri:21999847
+PARENT_POSTING_ID: 191639
+CONTENT:
+Hallo Herr Prof. Dr. <REMOVED_PERSON_ENTITY>,
+Ich möchte hier im Matheforum vor Ihnen und den anderen Kommilitonen zwar nicht total dumm „rüberkommen“ aber wenn ich nach erneutes Rechen komme ich auf folgende Stufenmatrix:
+1 0 0 0  -2 | 00 1 0 0   1 | 00 0 1 0   0 | 00 0 0 1  -1 | 0Jetzt komme ich zu einer völlig neuen Lösung. Da in der letzen <REMOVED_PERSON_ENTITY> nun keine wahre Aussage mehr steht, würde ich sagen es gibt keine Lösung. Somit sind die Vektoren linear unabhängig.
+Um Rechenfehler auszuschließen habe ich diese Lösung (Matrix in Stufenform) mittels WolframAlpha ermittelt.
+Würde mich über Hilfe freuen. Besten Dank und GrußPascal <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

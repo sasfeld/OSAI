@@ -1,0 +1,13 @@
+ID: 1859
+CREATION_DATETIME: 1369692000000
+MODIFICATION_DATETIME: 1369864800000
+TITLE: null
+LANGUAGE: GERMAN
+POS_TAG: value:Ergebnisse;weight:0.0;uri:;postag:NN
+POS_TAG: value:HISQIS;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wann werden die Ergebnisse ins HISQIS übertragen?
+TAGGED_CONTENT:
+Wann_PWAV werden_VAFIN die_ART Ergebnisse_NN ins_APPRART HISQIS_NN übertragen_VVPP ?_$. 

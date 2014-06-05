@@ -1,0 +1,10 @@
+ID: 868
+CREATION_DATETIME: 1353970800000
+MODIFICATION_DATETIME: 1353970800000
+TITLE: Es hat sich nicht geändert. Ich kann mich immer noch damit anmelden. Groß- und Kleinschreibung beacht...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 867
+POSTING_TYPE: answer
+CONTENT:
+Es hat sich nicht geändert. Ich kann mich immer noch damit anmelden. Groß- und Kleinschreibung beachten.
+TAGGED_CONTENT:

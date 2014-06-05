@@ -1,0 +1,16 @@
+ID: 10
+CREATION_DATETIME: 1286627460000
+MODIFICATION_DATETIME: 1286627460000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 9
+CONTENT:
+
+Hallo ,
+
+eine IOExeption ist eine Exception speziell für die Ein- und Ausgabe (IO), sozusagen eine Unterkategorie der Exceptions. Und da die LE02 sich mit Ein- und Ausgabeströmen befasst, werden hier hauptsächlich IOExceptions behandelt.
+Die Exceptions wurden bereits in einer LE in Programmierung I behandelt. Dort kannst Du noch mal näheres dazu nachlesen.
+
+Viele Grüße
+    
+TAGGED_CONTENT:

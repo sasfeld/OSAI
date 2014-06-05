@@ -1,0 +1,9 @@
+ID: 2512
+CREATION_DATETIME: 1375999200000
+MODIFICATION_DATETIME: 1376344800000
+TITLE: ABE wäre dann allerdings nicht in der Hülle von C; deshalb es bringt nichts.
+PARENT_POSTING_ID: 2511
+POSTING_TYPE: answer
+CONTENT:
+ABE wäre dann allerdings nicht in der Hülle <NAME_CORPUS_REPLACEMENT> C; deshalb es bringt nichts.
+TAGGED_CONTENT:

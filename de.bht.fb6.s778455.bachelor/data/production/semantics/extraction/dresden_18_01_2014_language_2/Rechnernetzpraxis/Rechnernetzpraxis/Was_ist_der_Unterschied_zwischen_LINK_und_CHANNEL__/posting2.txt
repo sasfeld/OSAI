@@ -1,0 +1,14 @@
+ID: 2544
+CREATION_DATETIME: 1381096800000
+MODIFICATION_DATETIME: 1381096800000
+TITLE: Folgendes PDFgibt eine gute, verständliche Übersicht (nicht nur für die Begriffe Link/Channel):
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2543
+POSTING_TYPE: answer
+CONTENT:
+Folgendes PDFgibt eine gute, verständliche Übersicht (nicht nur für die Begriffe Link/Channel):
+
+http://www.telegaertner.com/de/karl-gaertner/artikel/pdf/Basiswissen. pdf
+
+Auf Seite 7 finden Sie die gesuchten Begriffe...
+TAGGED_CONTENT:

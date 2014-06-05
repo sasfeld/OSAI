@@ -1,0 +1,12 @@
+ID: 2830
+CREATION_DATETIME: 1384210800000
+MODIFICATION_DATETIME: 1384297200000
+TITLE: On 1st of November there was no SE1 exercise but also _no_ announcement.
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2813
+POSTING_TYPE: comment
+CONTENT:
+On 1st of November there was no SE1 exercise but also **no** announcement.
+
+So it's better to ask too much than too little (even if this is not SE1, but its the same chair) ;-)
+TAGGED_CONTENT:

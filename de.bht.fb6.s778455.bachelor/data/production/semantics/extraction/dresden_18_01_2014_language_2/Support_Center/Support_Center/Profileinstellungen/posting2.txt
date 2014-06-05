@@ -1,0 +1,10 @@
+ID: 323
+CREATION_DATETIME: 1350165600000
+MODIFICATION_DATETIME: 1350165600000
+TITLE: Kein Passwort um Ände
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 310
+POSTING_TYPE: comment
+CONTENT:
+Kein Passwort um Änderungen vorzunehmen?! Ist das nicht eine Sicherheitslücke? Ich meine, es gibt ja auch Leute die es an öffentlichen Rechnern nutzen und dann vergessen sich auszuloggen...
+TAGGED_CONTENT:

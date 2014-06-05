@@ -1,0 +1,12 @@
+ID: 1775
+CREATION_DATETIME: 1367445600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Auf den Folien Kapitel 4 wurden eben noch Fehler korrigiert bzw. Angaben ergänzt:
+- Folie 4. 8 - <REMOVED_PERSON_ENTITY> des <REMOVED_PERSON_ENTITY>
+- Folie 4. 20 - Fehlerkorrektur in 3. MPLS-Tabelle, 2. Zeile
+Die aktualisierten Folien sind auf der Webseite verfügbar. Bitte in schon ausgedruckten Folien noch <NAME_CORPUS_REPLACEMENT> Hand korrigieren.
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 162333
+CREATION_DATETIME: 1348224302
+MODIFICATION_DATETIME: 1348224302
+TITLE: Re: Praxisveranstaltung
+PARENT_POSTING_ID: 162169
+CONTENT:
+Also im Kursplan steht der 24. 11 als Präsenztermin drin. 
+So wie ich das verstanden habe soll es aber noch eine Übersicht vom Online-Team geben wo alle Themen und Wochenenden mit den entsprechenden Räumen drin sind.
+TAGGED_CONTENT:

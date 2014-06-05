@@ -1,0 +1,11 @@
+ID: 2315
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Probiert ihr gerade etwas an dem Wimpy herum?
+Auf einmal läuft das Programm nicht mehr ordnungsgemäß...
+PARENT_POSTING_ID: 2179
+POSTING_TYPE: answer
+CONTENT:
+Probiert ihr gerade etwas an dem Wimpy herum?
+Auf einmal läuft das Programm nicht mehr ordnungsgemäß, obwohl ich nichts weiter am Code verändert habe, was kritisch sein könnte.
+TAGGED_CONTENT:

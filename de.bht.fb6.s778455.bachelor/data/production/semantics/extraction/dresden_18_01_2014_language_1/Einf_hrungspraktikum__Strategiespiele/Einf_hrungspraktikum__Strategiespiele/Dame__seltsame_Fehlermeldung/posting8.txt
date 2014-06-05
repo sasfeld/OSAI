@@ -1,0 +1,10 @@
+ID: 1365
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: wird mein speicher nach dem durchlauf eines zuges wieder freigegebn oder muss ich das mauell machen?
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1357
+POSTING_TYPE: comment
+CONTENT:
+wird mein speicher nach dem durchlauf eines zuges wieder freigegebn oder muss ich das mauell machen?
+TAGGED_CONTENT:

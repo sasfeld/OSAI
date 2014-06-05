@@ -1,0 +1,14 @@
+ID: 1994
+CREATION_DATETIME: 1370728800000
+MODIFICATION_DATETIME: 1370728800000
+TITLE: sollte doch eigentlich keinen unterschied machen, wenn die llvm leute ordentlich gearbeitet haben ode...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1973
+POSTING_TYPE: comment
+CONTENT:
+sollte doch eigentlich keinen unterschied machen, wenn die llvm leute ordentlich gearbeitet haben oder?
+
+das mit dem Prefix mag schon nich schlecht sein, ich werd es einfach in die bashrc schreiben, damit es zu Beginn jeder Session gesetzt ist.
+
+Aber wir sollten die Clang-Problematik im Auge behalten, damit es später nicht zu Installationshickhack kommt, wenn die Bibliothek mal <NAME_CORPUS_REPLACEMENT> jemandem benutzt wird.
+TAGGED_CONTENT:

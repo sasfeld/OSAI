@@ -1,0 +1,23 @@
+ID: 40
+CREATION_DATETIME: 1201164000000
+MODIFICATION_DATETIME: 1201164000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hi Folks
+
+Hier ist eine Perle und zudem nettes Blog unter Billiarden -
+
+http://www.java-blog-buch.de
+
+Wer ein paar Zusatzinfos bzw. Auffrischung und Übung zu Java Code Patterns sucht, wird im "Das Java-Blog-Buch" mit vielen sehr interessanten Erklärungen erfreut werden. Und das in Deutsch! Hinzu kommt, daß alles gut lesbar und wohlstrukturiert in einem Wordpress Blog geschrieben ist.
+
+Vielleicht kennt der eine / die eine auch coolen Fundgruben bzgl. Javas und möchte das hier im Forum mit einer kleinen Bewertung adden?
+
+Daraus kann jeder sich dann eine hübsche handverlesene Linksammlung machen, die jedermann/frau in schwierigen Situationen... bla bla... ;-b
+
+Liebe Grüße
+    
+TAGGED_CONTENT:

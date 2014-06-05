@@ -1,0 +1,9 @@
+ID: 2133
+CREATION_DATETIME: 1372543200000
+MODIFICATION_DATETIME: 1372543200000
+TITLE: Ich habe gesagt compilieren, also mach Deine Konsole an und los geht es.
+PARENT_POSTING_ID: 2112
+POSTING_TYPE: comment
+CONTENT:
+Ich habe gesagt compilieren, also mach <REMOVED_PERSON_ENTITY> an und los geht es.
+TAGGED_CONTENT:

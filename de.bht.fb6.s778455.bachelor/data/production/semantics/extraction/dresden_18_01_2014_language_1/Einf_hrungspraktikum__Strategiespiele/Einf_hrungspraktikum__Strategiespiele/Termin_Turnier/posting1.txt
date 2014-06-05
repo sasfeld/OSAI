@@ -1,0 +1,10 @@
+ID: 1631
+CREATION_DATETIME: 1364252400000
+MODIFICATION_DATETIME: 1383951600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Steht mittlerweile schon ein Termin für das Turnier fest? Oder wenigstens so ungefähr (diese Woche noch, oder später)?
+TAGGED_CONTENT:

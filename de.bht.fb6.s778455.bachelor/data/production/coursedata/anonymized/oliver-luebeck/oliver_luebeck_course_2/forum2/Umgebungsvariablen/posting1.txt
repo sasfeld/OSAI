@@ -1,0 +1,15 @@
+ID: 5
+CREATION_DATETIME: 1175805060000
+MODIFICATION_DATETIME: 1175805060000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo Frau Mentor1
+
+Ich habe eine Frage zur Umgebungsvariable (Systemsteurungs-->System-->Umgebungsvariablen). Kann man die Umgebungsvariable des CLASSPATH problemlos auf einen beliebigen Wert setzen, e.g. das Developer Verzeichnis, was wir lt. LE nutzen sollen?
+
+mfg,
+    
+TAGGED_CONTENT:

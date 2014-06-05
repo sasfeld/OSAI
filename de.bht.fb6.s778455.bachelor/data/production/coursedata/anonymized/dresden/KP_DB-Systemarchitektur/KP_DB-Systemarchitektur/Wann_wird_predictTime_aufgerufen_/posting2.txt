@@ -1,0 +1,9 @@
+ID: 2228
+CREATION_DATETIME: 1373666400000
+MODIFICATION_DATETIME: 1373666400000
+TITLE: Zur predictTime in der csv: Das haben wir geändert, weil es ja nich Sinn der Sache ist, die Zeit nach...
+PARENT_POSTING_ID: 2226
+POSTING_TYPE: comment
+CONTENT:
+Zur predictTime in der csv: Das haben wir geändert, weil es ja nich Sinn der Sache ist, die Zeit nach der Ausführung "vorherzusagen", sondern vorher. Daher ist es Quatsch einfach nach der Ausführung eines Kernels die Zeit in die CSV zu schreiben. Die muss schon vorhergesagt werden.
+TAGGED_CONTENT:

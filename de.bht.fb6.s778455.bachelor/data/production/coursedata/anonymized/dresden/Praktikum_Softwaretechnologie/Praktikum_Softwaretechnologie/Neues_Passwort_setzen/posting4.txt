@@ -1,0 +1,9 @@
+ID: 2912
+CREATION_DATETIME: 1384815600000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: Das Interface `PasswordEncoder` hat direkt eine Methode `matches(…)` der du das neue und das alte Pas...
+PARENT_POSTING_ID: 2909
+POSTING_TYPE: comment
+CONTENT:
+Das Interface `PasswordEncoder` hat direkt eine Methode `matches(…)` der du das neue und das alte Passwort gibst. Was genau heißt denn, es funktioniert nicht? Bist du mal mit dem Debugger durch den Controller gesteppt?
+TAGGED_CONTENT:

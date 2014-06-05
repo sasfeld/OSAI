@@ -1,0 +1,23 @@
+ID: 117573
+CREATION_DATETIME: 1317839921
+MODIFICATION_DATETIME: 1317840085
+TITLE: Beispiel fuer Division mehrgliedriger Ausdruecke
+PARENT_POSTING_ID: 0
+CONTENT:
+Gegeben: Dividend und Divisor
+(2a - ay - axy + 2ax) / (1 + x)
+Gesucht: Quotient
+Ansatz: Erstes <REMOVED_PERSON_ENTITY> des Dividenden durch erstes <REMOVED_PERSON_ENTITY> des Divisors teilen, Ergebnis ist erstes <REMOVED_PERSON_ENTITY> des Quotienten. Dann Quotient mit Divisor multiplizieren und Ergebnis unter Dividenden schreiben und von diesem abziehen. Ergebnis ist (einfacherer) mehrgliedriger Ausdruck. Diesen Ausdruck wieder nach o. g. Ansatz teilen und dadurch das zweite <REMOVED_PERSON_ENTITY> des Divisors ermitteln usw.
+Beispiel: 
+(2a - ay - axy + 2ax) : (1 + x) = 2a - ay
+-2a                  - 2ax
+____________________
+      - ay - axy        
+    -(- ay - axy)
+____________________
+                        0
+Kontrolle:
+(1 + x) (2a - ay) = 2a - ay + 2ax - axy
+ok.
+Fertig.
+TAGGED_CONTENT:

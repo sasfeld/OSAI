@@ -1,0 +1,39 @@
+ID: 1571
+CREATION_DATETIME: 1363993200000
+MODIFICATION_DATETIME: 1363993200000
+TITLE: `str` ist vom Typ char *, also ein Pointer auf einen char. Ein Pointer ist ja erstmal nur eine Speich...
+PARENT_POSTING_ID: 1563
+POSTING_TYPE: answer
+CONTENT:
+`str` ist vom Typ char *, also ein Pointer auf einen char. Ein Pointer ist <LEARNED_PERSON_NAME_REPLACEMENT> erstmal nur <REMOVED_PERSON_ENTITY>, die angibt, wo das jeweilige Objekt (hier also ein char) liegt. Offensichtlich, weißt du `str` keinen Wert zu und es ist unklar, wo der Pointer hin zeigt. Ein Zugriff auf den <REMOVED_PERSON_ENTITY>, auf den `str` zeigt ist auf jeden Fall illegal.
+Jetzt musst du `str` auf einen gültigen Speicherbereich zeigen lassen. Dazu kannst du ein char-Array auf dem Stack allozieren:
+```
+char str[128];
+int a = 10;
+snprintf(str, sizeof(str), "%d ", a);
+printf("%s", str);
+```
+Wenn man in C einen Array als Parameter einer Funktion übergibt, wird daraus ein Pointer (sog. array to pointer decay). Dieser Pointer zeigt auf die Speicherstelle, wo das Array liegt. `sizeof()` gibt die Größe des Arrays an. Auf diese <REMOVED_PERSON_ENTITY> kann man den Array größer oder kleiner machen, und man kann nicht vergessen, die Größe beim Aufruf <NAME_CORPUS_REPLACEMENT> `snprintf()` anzupassen.
+Die zweite Möglichkeit wäre Speicher extra zu allozieren:
+```
+const size_t size = 128;
+char * str;
+str = (char *) malloc(size);
+if(!str) /* Speicher konnte nicht alloziert werden */
+  return;
+snprintf(str, size, "%d ", 12);
+printf("%s", str);
+free(str);
+```
+Die Nachteile liegen auf der Hand: jetzt musst du dich um den Speicher kümmern, d. h. nach Benutzung wieder freigeben und den auf Fehlschlagen <NAME_CORPUS_REPLACEMENT> `malloc()` prüfen. Der Vorteil: jetzt kannst du auch Buffer beliebiger Größe anlegen.
+Es gibt noch eine 3. Möglichkeit, wo dir `printf()` das Allozieren <NAME_CORPUS_REPLACEMENT> Speicher abnimmt:
+```
+char *str;
+asprintf(&str, "%d ", 42);
+if(!str)
+  return;
+printf("%s", str);
+free(str);
+```
+`asprintf()` alloziert ausreichend großen Speicher für den Format-String. Error-checking und Freigabe musst du trotzdem noch selbst machen. Damit `asprintf` den Pointer `str` ändern kann, muss man beim Aufruf die Adresse des Pointers (also einen Pointer auf einen Pointer) übergeben. An diese Adresse schreibt `asprintf()` nun die Adresse des allozierten Speichers.
+TAGGED_CONTENT:

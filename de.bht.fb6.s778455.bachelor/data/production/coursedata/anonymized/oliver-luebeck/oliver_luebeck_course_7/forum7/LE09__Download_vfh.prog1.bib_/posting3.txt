@@ -1,0 +1,17 @@
+ID: 22
+CREATION_DATETIME: 1304448600000
+MODIFICATION_DATETIME: 1304448600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 20
+CONTENT:
+ 
+Hallo,
+
+schau mal unter Lernprogramm LE04 auf Seite 6. Dort kannst du das Package runterladen.
+
+Oder versuch diesen Link hier. http://moodle.oncampus.de/mod/resource/view.php?id=87108
+
+Gruß
+   
+TAGGED_CONTENT:

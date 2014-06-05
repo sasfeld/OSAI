@@ -1,0 +1,18 @@
+ID: 2014
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Okay, mein Zeugs ist auch im SVN und kann in die große Präsi gemergt werden. Die Kästchen waren irgen...
+LANGUAGE: GERMAN
+NER_TAG: value:SVN;weight:-1.0;uri:;classifierlabel:I-LOC
+POS_TAG: value:Text;weight:0.0;uri:;postag:NN
+POS_TAG: value:stchen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeugs;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bitmaps;weight:0.0;uri:;postag:NN
+POS_TAG: value:SVN;weight:0.0;uri:;postag:NN
+POS_TAG: value:si;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+Okay, mein Zeugs ist auch im SVN und kann in die große Präsi gemergt werden. Die Kästchen waren irgendwie Bitmaps, deshalb habe ich den Text einfach drübergeschrieben, den ich drin haben wollte.
+TAGGED_CONTENT:
+Okay_NE ,_$, mein_PPOSAT Zeugs_NN ist_VAFIN auch_ADV im_APPRART SVN_NN und_KON kann_VMFIN in_APPR die_ART große_ADJA Präsi_NN gemergt_VVPP werden_VAINF ._$. Die_ART Kästchen_NN waren_VAFIN irgendwie_ADV Bitmaps_NN ,_$, deshalb_PROAV habe_VAFIN ich_PPER den_ART Text_NN einfach_ADV drübergeschrieben_VVPP ,_$, den_ART ich_PPER drin_ADV haben_VAFIN wollte_VMFIN ._$. 

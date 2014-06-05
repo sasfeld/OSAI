@@ -1,0 +1,10 @@
+ID: 254
+CREATION_DATETIME: 1349820000000
+MODIFICATION_DATETIME: 1349820000000
+TITLE: Du kannst in den Eins
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 215
+POSTING_TYPE: comment
+CONTENT:
+Du kannst in den Einstellungen festlegen ob Emails gesendet werden sollen. Und es werden nur Emails gesendet, sobald ein neuer Kommentar, eine neue Antwort oder eine neue Frage in dem <NAME_CORPUS_REPLACEMENT> dir abonnierten Kurs existieren.
+TAGGED_CONTENT:

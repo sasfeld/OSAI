@@ -1,0 +1,15 @@
+ID: 58
+CREATION_DATETIME: 1193673420000
+MODIFICATION_DATETIME: 1193673420000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 57
+CONTENT:
+ 
+Hallo ,
+
+public, static, protected usw. haben mit Erreichbarkeit zu tun. Diese Modifizierer (modifiers) kann man mit Klassen, Attributen, Konstruktoren, und Methoden benutzen. Attribute sind Variablen, die direkt in der Klasse deklariert werden. Auf Englisch fields oder auch instance variables für Objekt-Attribute (ohne static) und class variables fuer Klassen-Attribute (mit static).
+
+Mit freundlichen Gruessen,
+       
+TAGGED_CONTENT:

@@ -1,0 +1,8 @@
+ID: 97807
+CREATION_DATETIME: 1292949072
+MODIFICATION_DATETIME: 1292949969
+TITLE: Re: Parallelogrammfläche
+PARENT_POSTING_ID: 97806
+CONTENT:
+ Hallo Prof. <REMOVED_PERSON_ENTITY>, sorry, aber ich blicke echt nicht mehr durch. Laut verschiedenen &quot;Anleitungen&quot; wird das so berechnet, da der Betrag des Vektorproduktes = dem Flächeninhalt sein soll: 
+TAGGED_CONTENT:

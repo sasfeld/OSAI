@@ -1,0 +1,10 @@
+ID: 2156
+CREATION_DATETIME: 1372802400000
+MODIFICATION_DATETIME: 1372802400000
+TITLE: Du kannst die Korrelationsanalyse in der predictTime einbauen wie du möchtest. Die jetzige Fassung st...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2155
+POSTING_TYPE: comment
+CONTENT:
+Du kannst die Korrelationsanalyse in der predictTime einbauen wie du möchtest. Die jetzige Fassung stellt nur eine Alternative dar.
+TAGGED_CONTENT:

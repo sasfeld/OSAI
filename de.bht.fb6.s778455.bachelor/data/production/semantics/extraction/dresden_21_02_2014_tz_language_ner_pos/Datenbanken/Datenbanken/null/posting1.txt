@@ -1,0 +1,24 @@
+ID: 2516
+CREATION_DATETIME: 1376085600000
+MODIFICATION_DATETIME: 1376172000000
+TITLE: Die Umbenennung ist meiner Meinung nach optional, da für eine Vereinigung nur gelten muss, dass beide...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:Wertebereich;weight:0.0;uri:;postag:NN
+POS_TAG: value:Relationenschema;weight:0.0;uri:;postag:NN
+POS_TAG: value:NAME;weight:0.0;uri:;postag:NN
+POS_TAG: value:Meinung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Umbenennung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Attribute;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Relationen;weight:0.0;uri:;postag:NN
+POS_TAG: value:muss;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2515
+POSTING_TYPE: answer
+CONTENT:
+Die Umbenennung ist meiner Meinung nach optional, <NAME_CORPUS_REPLACEMENT> für eine <REMOVED_PERSON_ENTITY> nur gelten muss, dass beide Relationen einen kompatiblen Wertebereich und (bis auf Umbenennung) das gleiche Relationenschema besitzen. Das heißt die verschiedenen Attribute müssen gleich sein.
+
+Hier sind die beiden Attribute, um die es geht S_NAME und M_NAME, welche offensichtlich gleich sind (bis auf Umbenennung).
+TAGGED_CONTENT:
+Die_ART Umbenennung_NN ist_VAFIN meiner_PPOSAT Meinung_NN nach_APPO optional_ADJD ,_$, <_ADJD NAME_CORPUS_REPLACEMENT_NN >_VVFIN für_APPR eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN nur_ADV gelten_VVFIN muss_NN ,_$, dass_KOUS beide_PIS Relationen_NN einen_ART kompatiblen_ADJA Wertebereich_NN und_KON -LRB-_TRUNC bis_APPR auf_APPR Umbenennung_NN -RRB-_TRUNC das_ART gleiche_ADJA Relationenschema_NN besitzen_VVFIN ._$. Das_PDS heißt_VVFIN die_ART verschiedenen_ADJA Attribute_NN müssen_VMFIN gleich_ADV sein_VAINF ._$. Hier_ADV sind_VAFIN die_ART beiden_PIDAT Attribute_NN ,_$, um_KOUI die_ART es_PPER geht_VVFIN S_NAME_NN und_KON M_NAME_NN ,_$, welche_PWAT offensichtlich_ADJD gleich_ADV sind_VAFIN -LRB-_TRUNC bis_APPR auf_APPR Umbenennung_NN -RRB-_TRUNC ._$. 

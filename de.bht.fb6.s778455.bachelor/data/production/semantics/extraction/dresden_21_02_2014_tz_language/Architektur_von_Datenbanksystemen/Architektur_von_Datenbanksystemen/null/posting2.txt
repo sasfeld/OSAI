@@ -1,0 +1,10 @@
+ID: 1808
+CREATION_DATETIME: 1368482400000
+MODIFICATION_DATETIME: 1368482400000
+TITLE: Heute ist sie krankheitsbedingt ausgefallen, soweit ich weiß gab es keine Raumverlegung, ansonsten wü...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1807
+POSTING_TYPE: answer
+CONTENT:
+Heute ist sie krankheitsbedingt ausgefallen, soweit ich weiß gab es keine Raumverlegung, ansonsten würde das auch auf der Homepage stehen.
+TAGGED_CONTENT:

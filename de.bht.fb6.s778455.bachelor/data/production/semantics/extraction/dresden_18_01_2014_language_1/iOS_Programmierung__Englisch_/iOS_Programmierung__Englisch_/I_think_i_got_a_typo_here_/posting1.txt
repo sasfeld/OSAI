@@ -1,0 +1,18 @@
+ID: 2641
+CREATION_DATETIME: 1383001200000
+MODIFICATION_DATETIME: 1385334000000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+FeedListViewController. m
+
+self. navigationItem. rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@"selector"(openNewFeedView)]];
+
+Errors:
+
+- Implicit conversion of an Objective-C pointer to 'SEL' (aka 'SEL *') is disallowed with ARC
+
+- Use of undeclared identifier 'openNewFeedView'
+TAGGED_CONTENT:

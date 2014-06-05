@@ -1,0 +1,9 @@
+ID: 157
+CREATION_DATETIME: 1348437600000
+MODIFICATION_DATETIME: 1348437600000
+TITLE: ja, den Fehler hast d
+PARENT_POSTING_ID: 156
+POSTING_TYPE: comment
+CONTENT:
+ja, den Fehler hast du behoben, und du spielst recht gut gegen einen zufaellig spielenden Gegner
+TAGGED_CONTENT:

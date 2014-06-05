@@ -1,0 +1,9 @@
+ID: 589
+CREATION_DATETIME: 1351465200000
+MODIFICATION_DATETIME: 1351465200000
+TITLE: Schau dir mal [jQuery.parse(xml)](http://api.jquery.com/jQuery.parseXML/) an.
+PARENT_POSTING_ID: 586
+POSTING_TYPE: comment
+CONTENT:
+Schau dir mal [jQuery. parse(xml)](http://api.jquery.com/jQuery. parseXML/) an.
+TAGGED_CONTENT:

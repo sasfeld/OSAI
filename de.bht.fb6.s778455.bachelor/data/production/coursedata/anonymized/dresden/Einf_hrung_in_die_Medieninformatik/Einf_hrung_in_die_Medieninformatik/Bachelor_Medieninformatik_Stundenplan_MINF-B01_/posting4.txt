@@ -1,0 +1,9 @@
+ID: 207
+CREATION_DATETIME: 1349560800000
+MODIFICATION_DATETIME: 1349560800000
+TITLE: Für Bachelor-Erstis f
+PARENT_POSTING_ID: 192
+POSTING_TYPE: comment
+CONTENT:
+Für Bachelor-Erstis finden nur Vorlesungen statt, für Diplomer beginnen zwei Übungen bereits in der ersten Woche. Der Lernraum ist wie weiter unten schon erwähnt der Mathe-Lernraum, eine freiwillige, aber sehr nützliche Zusatzveranstaltung.
+TAGGED_CONTENT:

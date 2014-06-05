@@ -1,0 +1,10 @@
+ID: 1661
+CREATION_DATETIME: 1365026400000
+MODIFICATION_DATETIME: 1365026400000
+TITLE: Eigentlich dürfte das kein Problem darstellen. Aber ich kann dir dazu keine genaue Antwort geben. Hie...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1659
+POSTING_TYPE: comment
+CONTENT:
+Eigentlich dürfte das kein Problem darstellen. Aber ich kann dir dazu keine genaue Antwort geben. Hier ist einfacher direkt mit [Dr. <REMOVED_PERSON_ENTITY>](http://www.inf.tu-dresden. de/index. php?node_id=1380&ln=de&ma=11) darüber zu sprechen. Er ist meines Wissens noch nicht auf auditorium aktiv, weshalb ich dir raten würde, ihm eine Email zum Thema zu schreiben. Falls du <NAME_CORPUS_REPLACEMENT> ihm eine Antwort erhalten hast, halte uns auf dem Laufenden. :)
+TAGGED_CONTENT:

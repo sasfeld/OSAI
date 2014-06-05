@@ -1,0 +1,22 @@
+ID: 16
+CREATION_DATETIME: 1192643280000
+MODIFICATION_DATETIME: 1192643280000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 15
+CONTENT:
+ 
+Die main Methode wird ja beim Starten des Programms ausgeführt.
+Wie du sehen kannst hat diese Methode einen Parameter String[] args.
+
+Wenn du nun dein Programm startest und hinter den Dateinamen in der Kommandozeile noch mehr schreibst, wird alles was folgt in den String Array args gepackt. Auf die Parameter von der Kommandozeile kannst du nun in deinem Programm (in der main Methode) über das Array args zugreifen.
+
+Das Programm wie du es verwenden möchtest überprüft nun, ob 2 Parameter übergeben wurden. Du kannst entweder beim Programmstart 2 Parameter übergeben:
+
+java DeinProgramm Parameter1 Parameter2
+
+oder du löscht einfach die Abfrage if(args.length != 2)...
+
+Gruß,
+    
+TAGGED_CONTENT:

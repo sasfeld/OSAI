@@ -1,0 +1,10 @@
+ID: 764
+CREATION_DATETIME: 1352847600000
+MODIFICATION_DATETIME: 1352847600000
+TITLE: Da ich "N = Anzahl expandierter Knoten" mehrdeutig fand, habe ich mal nachgefragt. N ist die Anzahl a...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 718
+POSTING_TYPE: comment
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> ich "N = Anzahl expandierter Knoten" mehrdeutig fand, habe ich mal nachgefragt. N ist die Anzahl aller Knoten im Graph, nicht nur die, die man "aufgesplittet" hat.
+TAGGED_CONTENT:

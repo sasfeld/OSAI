@@ -1,0 +1,12 @@
+ID: 117522
+CREATION_DATETIME: 1319278633
+MODIFICATION_DATETIME: 1319278633
+TITLE: Wir sind Gruppe 2
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=43899#117522
+POS_TAG: value:Antworten;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Antworten Sie bitte.
+TAGGED_CONTENT:
+Antworten_NN Sie_PPER bitte_VVFIN ._$. 

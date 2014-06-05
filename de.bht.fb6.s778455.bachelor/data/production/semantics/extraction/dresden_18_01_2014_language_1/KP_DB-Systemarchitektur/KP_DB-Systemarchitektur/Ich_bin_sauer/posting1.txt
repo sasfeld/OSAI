@@ -1,0 +1,12 @@
+ID: 2222
+CREATION_DATETIME: 1373666400000
+MODIFICATION_DATETIME: 1382047200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Es hat schon wieder jemand am Code herumgespielt und die vorhergesagten Werte werden nicht mehr in die CSV eingetragen. (stattdessen viele nullen) Auf einmal sind 2 structMeasurement drin und alles irgendwie sinnlos.
+
+Ich habe das schon x mal korrigiert. Noch mal mach ich das nicht. Entweder, das funktioniert bis <REMOVED_PERSON_ENTITY> wieder oder ich arbeite nicht weiter.
+TAGGED_CONTENT:

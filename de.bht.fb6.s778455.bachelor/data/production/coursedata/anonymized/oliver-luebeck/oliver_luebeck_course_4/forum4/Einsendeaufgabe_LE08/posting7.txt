@@ -1,0 +1,16 @@
+ID: 46
+CREATION_DATETIME: 1177864620000
+MODIFICATION_DATETIME: 1177864620000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 45
+CONTENT:
+
+Ja stimmt im Grunde wird er nutzlos. Aber ich glaube damit soll einfach praktisch gezeigt werden, dass automatisch der Konstruktor gewählt wird, der in diesem Fall am ehesten weiterhilft. Bei uns im Beispiel wäre das dann eben der, mit den zwei zusätzlichen Attributen.
+
+Ich werds so abschicken, denke ich.
+
+Grüße
+
+    
+TAGGED_CONTENT:

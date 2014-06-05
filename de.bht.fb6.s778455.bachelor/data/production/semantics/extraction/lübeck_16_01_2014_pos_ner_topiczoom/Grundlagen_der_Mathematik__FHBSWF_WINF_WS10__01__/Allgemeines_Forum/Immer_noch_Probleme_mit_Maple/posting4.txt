@@ -1,0 +1,12 @@
+ID: 97777
+CREATION_DATETIME: 1287691206
+MODIFICATION_DATETIME: 1287691221
+TITLE: Re: Immer noch Probleme mit Maple
+POS_TAG: value:Antworten;weight:0.0;uri:;postag:NN
+POS_TAG: value:System;weight:0.0;uri:;postag:NN
+POS_TAG: value:Interaktion;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97776
+CONTENT:
+ Ahhh... ok. Dann ist ja alles gut bei meinem System. Dann ist &quot;Klick-Interaktion&quot; wirklich etwas verwirrend. Danke für die Antworten. VGDaniel 
+TAGGED_CONTENT:
+Ahhh_NE ..._$( ok_NE ._$. Dann_ADV ist_VAFIN ja_ADV alles_PIS gut_ADJD bei_APPR meinem_PPOSAT System_NN ._$. Dann_ADV ist_VAFIN "_$( Klick-Interaktion_NN "_$( wirklich_ADJD etwas_PIS verwirrend_ADJD ._$. Danke_PROAV für_APPR die_ART Antworten_NN ._$. VGDaniel_NE 

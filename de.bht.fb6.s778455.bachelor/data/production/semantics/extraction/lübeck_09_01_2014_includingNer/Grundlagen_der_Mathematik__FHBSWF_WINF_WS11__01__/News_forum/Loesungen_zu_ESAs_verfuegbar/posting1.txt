@@ -1,0 +1,9 @@
+ID: 117504
+CREATION_DATETIME: 1325741510
+MODIFICATION_DATETIME: 1325741510
+TITLE: Loesungen zu ESAs verfuegbar
+NER_TAG: value:LON-Capa;weight:-1.0;significance:uri:;classifierlabel:I-MISC
+PARENT_POSTING_ID: 0
+CONTENT:
+Die Eingaben in LON-Capa sind wie im Dezember angekuendigt nun geschlossen.
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 16607
+CREATION_DATETIME: 1232053608
+MODIFICATION_DATETIME: 1232053608
+TITLE: Bewertung der ESAs
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+hat schon jemand eine Bewertung mindestens zur ersten ESA erhalten? Mir war so, als ob <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY> sie zum Ende der Ferien fertig haben wollte...
+TAGGED_CONTENT:

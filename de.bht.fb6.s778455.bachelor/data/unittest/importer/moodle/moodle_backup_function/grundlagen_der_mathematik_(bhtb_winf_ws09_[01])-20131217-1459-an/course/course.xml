@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course id="1906" contextid="54875">
+  <shortname>Grundlagen der Mathematik (BHTB WINF WS09 [01])</shortname>
+  <fullname>Grundlagen der Mathematik (BHTB WINF WS09 [01])</fullname>
+  <idnumber>BHTB-S-WINF-1100-09W-01</idnumber>
+  <summary> BHTB-S-WINF-1100-09W-01</summary>
+  <summaryformat>1</summaryformat>
+  <format>topics</format>
+  <showgrades>1</showgrades>
+  <newsitems>1</newsitems>
+  <startdate>1248818400</startdate>
+  <marker>0</marker>
+  <maxbytes>209715200</maxbytes>
+  <legacyfiles>2</legacyfiles>
+  <showreports>0</showreports>
+  <visible>1</visible>
+  <groupmode>0</groupmode>
+  <groupmodeforce>0</groupmodeforce>
+  <defaultgroupingid>0</defaultgroupingid>
+  <lang></lang>
+  <theme>vfh2</theme>
+  <timecreated>1248861630</timecreated>
+  <timemodified>1257761570</timemodified>
+  <requested>0</requested>
+  <enablecompletion>0</enablecompletion>
+  <completionnotify>0</completionnotify>
+  <numsections>5</numsections>
+  <hiddensections>0</hiddensections>
+  <coursedisplay>0</coursedisplay>
+  <category id="19">
+    <name>WINF</name>
+    <description>$@NULL@$</description>
+  </category>
+  <tags>
+  </tags>
+</course>

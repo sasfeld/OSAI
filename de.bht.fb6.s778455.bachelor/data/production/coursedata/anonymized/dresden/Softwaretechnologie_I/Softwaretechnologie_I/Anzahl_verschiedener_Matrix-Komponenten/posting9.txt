@@ -1,0 +1,9 @@
+ID: 1999
+CREATION_DATETIME: 1370728800000
+MODIFICATION_DATETIME: 1370728800000
+TITLE: Ich habe jetzt die i's durch x und die j's durch y ersetzt und die unnötig gewordenen Zuweisungen wie...
+PARENT_POSTING_ID: 1987
+POSTING_TYPE: comment
+CONTENT:
+Ich habe jetzt die i's durch x und die j's durch y ersetzt und die unnötig gewordenen Zuweisungen wie "x=i" entfernt, doch das Problem besteht weiterhin! Ich habe gerade gedacht, dass der <NAME_CORPUS_REPLACEMENT> dir beschriebene Ablauf gar nicht so eintreten dürfte, weil nach dem Ausführen der inneren Schleife y=0 gesetzt wird und somit ist j=0, wenn die innere Schleife wieder ausgeführt wird. Der Fehler ist übrigens "expected: a but was: null", d. h. das 1. oder 2. Element wird nicht gefunden. Ich versteh nicht, woran das liegt. Trotzdem Danke!
+TAGGED_CONTENT:

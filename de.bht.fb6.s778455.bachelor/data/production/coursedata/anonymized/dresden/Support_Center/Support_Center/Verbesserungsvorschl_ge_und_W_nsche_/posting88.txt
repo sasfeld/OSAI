@@ -1,0 +1,9 @@
+ID: 1630
+CREATION_DATETIME: 1364252400000
+MODIFICATION_DATETIME: 1365372000000
+TITLE: Ganz an das Ende euerer Todo Liste könntet ihr gerne noch hinzufügen, dass die neu eingetragenen Kurs...
+PARENT_POSTING_ID: 369
+POSTING_TYPE: answer
+CONTENT:
+Ganz an das Ende euerer Todo Liste könntet ihr gerne noch hinzufügen, dass die neu eingetragenen Kurse auch nach den Semestern geordnet werden, damit man sie schneller finden kann, aber das ist, nur ein ganz kleiner <REMOVED_PERSON_ENTITY> der eher "nice to have" ist.
+TAGGED_CONTENT:

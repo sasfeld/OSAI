@@ -1,0 +1,13 @@
+ID: 1808
+CREATION_DATETIME: 1368482400000
+MODIFICATION_DATETIME: 1368482400000
+TITLE: Heute ist sie krankheitsbedingt ausgefallen, soweit ich weiß gab es keine Raumverlegung, ansonsten wü...
+LANGUAGE: GERMAN
+POS_TAG: value:Homepage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Raumverlegung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1807
+POSTING_TYPE: answer
+CONTENT:
+Heute ist sie krankheitsbedingt ausgefallen, soweit ich weiß gab es keine Raumverlegung, ansonsten würde das auch auf der Homepage stehen.
+TAGGED_CONTENT:
+Heute_ADV ist_VAFIN sie_PPER krankheitsbedingt_ADJD ausgefallen_VVPP ,_$, soweit_KOUS ich_PPER weiß_VVFIN gab_VVFIN es_PPER keine_PIAT Raumverlegung_NN ,_$, ansonsten_ADV würde_VAFIN das_PDS auch_ADV auf_APPR der_ART Homepage_NN stehen_VVFIN ._$. 

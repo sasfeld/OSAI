@@ -1,0 +1,10 @@
+ID: 3076
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: Kleine Challenge für dich: kannst du einen Testcase bauen, der das reproduziert?
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3075
+POSTING_TYPE: comment
+CONTENT:
+Kleine Challenge für dich: kannst du einen Testcase bauen, der das reproduziert?
+TAGGED_CONTENT:

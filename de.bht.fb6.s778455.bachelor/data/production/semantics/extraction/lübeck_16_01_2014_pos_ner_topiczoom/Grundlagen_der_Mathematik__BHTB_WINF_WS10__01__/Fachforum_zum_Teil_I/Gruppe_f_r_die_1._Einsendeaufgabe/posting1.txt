@@ -1,0 +1,14 @@
+ID: 101862
+CREATION_DATETIME: 1287940559
+MODIFICATION_DATETIME: 1287940559
+TITLE: Gruppe für die 1. Einsendeaufgabe
+POS_TAG: value:alleine!LG;weight:0.0;uri:;postag:NN
+POS_TAG: value:Moment;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hallo!Wer;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einsendeaufgabe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo!Wer hat noch keine Gruppe für die erste Einsendeaufgabe? Ich bin im Moment nämlich noch alleine!LG, <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:
+Hallo!Wer_NN hat_VAFIN noch_ADV keine_PIAT Gruppe_NN für_APPR die_ART erste_ADJA Einsendeaufgabe_NN ?_$. Ich_PPER bin_VAFIN im_APPRART Moment_NN nämlich_ADV noch_ADV alleine!LG_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

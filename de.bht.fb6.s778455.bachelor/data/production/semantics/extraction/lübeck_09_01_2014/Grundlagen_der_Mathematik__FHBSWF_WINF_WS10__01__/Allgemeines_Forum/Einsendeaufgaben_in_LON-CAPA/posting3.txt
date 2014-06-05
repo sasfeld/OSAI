@@ -1,0 +1,12 @@
+ID: 97746
+CREATION_DATETIME: 1285351459
+MODIFICATION_DATETIME: 1285351459
+TITLE: Re: Einsendeaufgaben in LON-CAPA
+PARENT_POSTING_ID: 97745
+CONTENT:
+Guten Abend an alle,
+das stimmt, es funktioniert nicht, wie man das gerne hätte, jedoch gibt es eine Lösung zu diesem "Problem":  https://vita. ostfalia. de/adm/login?domain=fhwf 
+Hiermit sollte es funktionieren! 
+Einen schönen Abend noch und schönes Wochenende!
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

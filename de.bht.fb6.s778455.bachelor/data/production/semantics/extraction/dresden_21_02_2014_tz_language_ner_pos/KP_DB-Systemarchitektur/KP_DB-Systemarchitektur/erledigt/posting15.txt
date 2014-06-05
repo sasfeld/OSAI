@@ -1,0 +1,23 @@
+ID: 2038
+CREATION_DATETIME: 1370988000000
+MODIFICATION_DATETIME: 1370988000000
+TITLE: Irgendwie scheint Powerpoint ziemliche Probleme mit den Versionen zu haben. Oder was auch immer. In d...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Labors;weight:1.0;significance:8.40448442202976;degreegeneralization:4;uri:20911456
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Uhr;weight:0.0;uri:;postag:NN
+POS_TAG: value:Probleme;weight:0.0;uri:;postag:NN
+POS_TAG: value:Folien;weight:0.0;uri:;postag:NN
+POS_TAG: value:Versionen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Version;weight:0.0;uri:;postag:NN
+POS_TAG: value:Labor;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+Irgendwie scheint Powerpoint ziemliche Probleme mit den Versionen zu haben. Oder was auch immer. In der zwischenpraesi2. pptx war auch einiges nicht so wie es sein sollte. Deshalb habe ich eine neue Version eingecheckt, mit allen bisherigen Folien (und 2 weiteren, de ich hinzugefügt habe)
+
+Ich bin heute ab ca 12 Uhr durchgehend im Labor, zwecks vorher nochmal klären.
+TAGGED_CONTENT:
+Irgendwie_ADV scheint_VVFIN Powerpoint_NE ziemliche_ADJA Probleme_NN mit_APPR den_ART Versionen_NN zu_PTKZU haben_VAINF ._$. Oder_KON was_PWS auch_ADV immer_ADV ._$. In_APPR der_ART zwischenpraesi2_NN ._$. pptx_ADJD war_VAFIN auch_ADV einiges_PIS nicht_PTKNEG so_ADV wie_PWAV es_PPER sein_VAINF sollte_VMFIN ._$. Deshalb_PROAV habe_VAFIN ich_PPER eine_ART neue_ADJA Version_NN eingecheckt_VVPP ,_$, mit_APPR allen_PIDAT bisherigen_ADJA Folien_NN -LRB-_TRUNC und_KON 2_CARD weiteren_ADJA ,_$, de_NE ich_PPER hinzugefügt_VVPP habe_VAFIN -RRB-_TRUNC Ich_PPER bin_VAFIN heute_ADV ab_APPR ca_FM 12_CARD Uhr_NN durchgehend_ADJD im_APPRART Labor_NN ,_$, zwecks_APPR vorher_ADV nochmal_ADV klären_VVINF ._$. 

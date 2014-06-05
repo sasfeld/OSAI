@@ -1,0 +1,9 @@
+ID: 959
+CREATION_DATETIME: 1355094000000
+MODIFICATION_DATETIME: 1355094000000
+TITLE: Please create two public questions, other students might have the same questions. I'll then reply as ...
+PARENT_POSTING_ID: 956
+POSTING_TYPE: comment
+CONTENT:
+Please create two public questions, other students might have the same questions. I'll then reply as soon as possible :-)
+TAGGED_CONTENT:

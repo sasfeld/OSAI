@@ -1,0 +1,26 @@
+ID: 2
+CREATION_DATETIME: 1175852040000
+MODIFICATION_DATETIME: 1175852040000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1
+CONTENT:
+
+Moinsen
+
+In der Exception steht, daß der Compiler die Klasse UebClockman nicht finden kann. Ich nehme mal an, das der Pfad zur benötigten Klasse nicht während des Kompilierens miteingegeben wurde...
+
+Im Kp. 4.2 habe ich was gefunden:
+
+Wir merken uns also: Werden für die Applikation zusätzliche Klassen benötigt, so muss der Befehl zum Übersetzen die Option -classpath gefolgt von dem Pfad zu dem Verzeichnis der zusätzlichen Klassen enthalten.
+
+javac -classpath KlassenPfad NameIhrerKlasse.java
+
+Noch ein Hinweis: Es kann sein, das ihr System die Datei javac nicht sofort findet. Das liegt dann unter Umständen daran, das die Datei nicht im Suchpfad ihres Systems gefunden wurde. Um diese Fehlermeldung zu umgehen muss der Ursprungspfad des Compliers angegeben werden:
+
+C:\jdk1.3.1\bin\javac -classpath .;C:\ UebClockman.java
+Das könnte vllt. helfen.
+
+lg,
+    
+TAGGED_CONTENT:

@@ -1,0 +1,16 @@
+ID: 80
+CREATION_DATETIME: 1401299979251
+MODIFICATION_DATETIME: 1401299979251
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo,
+mich verwirrt die Lösung zu dieser Aufgabe ein wenig.
+Ich hätte gedacht, da (i) über System.out.println ausgegeben wird, dass i dann in einer neuen Zeile stehen müsste?
+Oder andersrum, wenn i in der gleichen Zeile wie die Sterne auftauchen soll, dann müsste das ln wegfallen und erst danach eine neue Zeile erzeugt werden?
+Freue mich über kurze Aufklärung.
+Danke und viele Grüße,
+	
+TAGGED_CONTENT:

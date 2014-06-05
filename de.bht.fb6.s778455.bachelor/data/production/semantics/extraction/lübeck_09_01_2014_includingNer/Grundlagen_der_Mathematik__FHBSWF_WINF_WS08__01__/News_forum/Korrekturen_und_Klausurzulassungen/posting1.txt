@@ -1,0 +1,45 @@
+ID: 16519
+CREATION_DATETIME: 1232383247
+MODIFICATION_DATETIME: 1232383247
+TITLE: Korrekturen und Klausurzulassungen
+TOPIC_ZOOM_TAG: value:Wolfenbüttel;weight:2.0;significance:3.23493004403257;degreegeneralization:14;uri:21652214
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:4.0;significance:2.96043173000713;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Informatik;weight:4.0;significance:2.87098597003015;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Studenten;weight:3.0;significance:2.86608264252189;degreegeneralization:5;uri:20994552
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:4.0;significance:2.86160098326979;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Schüler, Studenten;weight:3.0;significance:2.75895475001813;degreegeneralization:4;uri:20920823
+TOPIC_ZOOM_TAG: value:Städte und Gemeinden im Landkreis Wolfenbüttel;weight:2.0;significance:2.7001294220607;degreegeneralization:13;uri:21811249
+TOPIC_ZOOM_TAG: value:Landkreis Wolfenbüttel;weight:2.0;significance:2.66892962435641;degreegeneralization:12;uri:21963008
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:4.0;significance:2.49659920698742;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:3.0;significance:2.3876876048458;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:2.22322738002192;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:7.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Niedersachsen;weight:2.0;significance:1.54729481013175;degreegeneralization:10;uri:21996770
+TOPIC_ZOOM_TAG: value:Software;weight:2.0;significance:1.48863818413341;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Künstliche Intelligenz;weight:1.0;significance:1.44908573682463;degreegeneralization:5;uri:20869466
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:1.27828129199051;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:4.0;significance:1.24645237480896;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Computer;weight:2.0;significance:1.23146853137362;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:2.0;significance:1.1448676469603;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:2.0;significance:1.04619134068879;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Programmierung;weight:1.0;significance:1.02333886725062;degreegeneralization:7;uri:21461440
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:1.00063347561579;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:0.993710982344041;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Betriebssysteme;weight:1.0;significance:0.967665045659191;degreegeneralization:7;uri:20921095
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:0.79353081623644;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:2.0;significance:0.757885262734666;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:0.6679105099445;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Deutschland;weight:2.0;significance:0.581646929875514;degreegeneralization:8;uri:21996974
+TOPIC_ZOOM_TAG: value:Arbeit und Beruf;weight:1.0;significance:0.505858895083293;degreegeneralization:3;uri:21924095
+TOPIC_ZOOM_TAG: value:Europa;weight:2.0;significance:0.444536233014374;degreegeneralization:6;uri:21972001
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:0.257799362464751;degreegeneralization:2;uri:21999847
+NER_TAG: value:MIM;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+NER_TAG: value:MIB;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+NER_TAG: value:MIB;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+NER_TAG: value:MIB;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+NER_TAG: value:KI;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+NER_TAG: value:MIM;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Sie alle, es stehen von meiner <REMOVED_PERSON_ENTITY> noch Korrekturen von Einsendeaufgaben aus, bzw. Benachrichtigungen, ob Sie die Klausurzulassungen erreicht hatten, oder nicht. Die Korrekturen sind ab jetzt in Arbeit mit folgender zeitlicherKorrekturreihenfolge der Fächer (diese entspricht der zeitlichen Reihenfolge, in der die Klausuren geschrieben werden):1. Künstliche Intelligenz (MIM)2. Mathematik 2 (MIB, alte PO)3. Einführung in die Informatik (MIB)4. Grundlagen der Programmierung (WINF)5. Grundlagen der Mathematik (WINF)6. Betriebssysteme 1 (MIB, alte PO)Sollten Sie Ihre Klausur schreiben wollen, Ihr Anmeldungszeitraum ablaufen, sie von mir noch kein Feedback zur Klaursurzulassung erhalten haben und die Anmeldefrist ablaufen, so melden sich die Wolfenbütteler Studierenden bitte trotzdem an. Sollten die Wolfenbütteler Studierenden sich angemeldet haben und die Klausurzulassung doch nicht erreichen, so klären dass Herr Prof. Dr. <REMOVED_PERSON_ENTITY> und ich intern; sie werden dann wieder abgemeldet. Die Studierenden des Kurses KI (MIM) werden kurzfristig, heute odermorgen die Benachrichtigung erhalten. Mit freundlichen Grüßen, <PERSONAL_GREETING_REMOVEMENT>. <REMOVED_PERSON_ENTITY>. 
+TAGGED_CONTENT:

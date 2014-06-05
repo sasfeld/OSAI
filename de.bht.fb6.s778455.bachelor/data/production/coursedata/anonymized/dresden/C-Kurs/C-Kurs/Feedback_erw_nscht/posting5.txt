@@ -1,0 +1,13 @@
+ID: 1035
+CREATION_DATETIME: 1358031600000
+MODIFICATION_DATETIME: 1358031600000
+TITLE: Hallo,
+ich fande den ganzen Kurs super. Die Betreuung war klasse und die Folien waren sehr gutes Leh...
+PARENT_POSTING_ID: 549
+POSTING_TYPE: answer
+CONTENT:
+Hallo,
+ich fande den ganzen Kurs super. Die Betreuung war klasse und die Folien waren sehr gutes Lehrmaterial.
+Leider (für die Kursleiter nicht für die Besucher) kamen zum Schluss nur noch wenige Leute was ich aber nicht wirklich störend fand; dadurch wurden meine Fragen schneller beantwortet ;)
+Ich würde mich sehr über einen weiterführenden Kurs freuen.
+TAGGED_CONTENT:

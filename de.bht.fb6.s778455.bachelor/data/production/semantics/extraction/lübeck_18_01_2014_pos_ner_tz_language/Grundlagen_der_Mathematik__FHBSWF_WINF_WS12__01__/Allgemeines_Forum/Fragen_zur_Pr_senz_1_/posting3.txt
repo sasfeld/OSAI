@@ -1,0 +1,25 @@
+ID: 170003
+CREATION_DATETIME: 1350141021
+MODIFICATION_DATETIME: 1350141021
+TITLE: Re: Fragen zur Präsenz 1 
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:6.95597687640829;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Herr;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Prof.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fragen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dr.;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 168475
+CONTENT:
+Hallo Herr Prof. Dr. <REMOVED_PERSON_ENTITY>,
+können Sie eventuell etwas zu meiner Fragen sagen.
+Ist meine Lösung korrekt?
+Schon einmal vielen Dank und Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ Herr_NN Prof._NN Dr._NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, können_VMFIN Sie_PPER eventuell_ADJD etwas_PIS zu_PTKZU meiner_PPOSAT Fragen_NN sagen_VVINF ._$. Ist_VAFIN meine_PPOSAT Lösung_NN korrekt_ADJD ?_$. Schon_ADV einmal_ADV vielen_PIDAT Dank_NN und_KON Gruß_NN <_VVFIN REMOVED_PERSON_ENTITY_NE >_XY 

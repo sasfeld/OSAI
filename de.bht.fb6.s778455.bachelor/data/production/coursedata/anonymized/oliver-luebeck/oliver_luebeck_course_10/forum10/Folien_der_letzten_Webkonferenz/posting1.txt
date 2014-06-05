@@ -1,0 +1,14 @@
+ID: 11
+CREATION_DATETIME: 1192640100000
+MODIFICATION_DATETIME: 1192640100000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+xxxx hat geschrieben, dass sie die Texte der Folien in moodle eingestellt hat. Weiß jemand wo ich die finde?
+
+
+LG und vielen Dank!
+    
+TAGGED_CONTENT:

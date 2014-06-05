@@ -1,0 +1,36 @@
+ID: 115390
+CREATION_DATETIME: 1327844845
+MODIFICATION_DATETIME: 1327844845
+TITLE: Re: Frage zu den Aufgaben
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Vektoren;weight:1.0;significance:6.35427475761695;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Skalare;weight:1.0;significance:6.35427475761695;degreegeneralization:7;uri:19937424
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Vektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spalte;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeilen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skalar;weight:0.0;uri:;postag:NN
+POS_TAG: value:Elemente;weight:0.0;uri:;postag:NN
+POS_TAG: value:Matrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeile;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anzahl;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:REMOVEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:B.;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 115389
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+nachdem Sie sich Ihre erste Frage selber beantwortet haben... :-)
+Nein, zwei <REMOVED_PERSON_ENTITY> (oder auch zwei Zeilen) können nicht multipliziert werden. Es geht nur:
+<REMOVED_PERSON_ENTITY> mal Spalte = Skalar (wobei die Anzahl der Elemente der Vektoren gleich sein müssen) oder 
+Spalte mal Zeile = Matrix z. B. (3x1) mal (1x5) ergibt eine (3x5) Matrix.
+Viele Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, nachdem_KOUS Sie_PPER sich_PRF Ihre_PPOSAT erste_ADJA Frage_NN selber_ADV beantwortet_VVPP haben_VAFIN ..._$( :--RRB-_TRUNC Nein_PTKANT ,_$, zwei_CARD <_XY REMOVED_PERSON_ENTITY_NE >_NE -LRB-_TRUNC oder_KON auch_ADV zwei_CARD Zeilen_NN -RRB-_TRUNC können_VMFIN nicht_PTKNEG multipliziert_VVPP werden_VAINF ._$. Es_PPER geht_VVFIN nur_ADV :_$. <_CARD REMOVED_PERSON_ENTITY_NN >_CARD mal_ADV Spalte_XY =_XY Skalar_NN -LRB-_TRUNC wobei_PWAV die_ART Anzahl_NN der_ART Elemente_NN der_ART Vektoren_NN gleich_ADV sein_VAINF müssen_VMINF -RRB-_TRUNC oder_KON Spalte_NN mal_ADV Zeile_NN =_XY Matrix_NE z._APPRART B._NN -LRB-_TRUNC 3x1_XY -RRB-_TRUNC mal_ADV -LRB-_TRUNC 1x5_XY -RRB-_TRUNC ergibt_VVFIN eine_ART -LRB-_TRUNC 3x5_KON -RRB-_TRUNC Matrix_NN ._$. Viele_PIDAT Grüße_NN <_CARD PERSONAL_GREETING_REMOVEMENT_NN >_XY 

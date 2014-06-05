@@ -1,0 +1,11 @@
+ID: 191163
+CREATION_DATETIME: 1357496877
+MODIFICATION_DATETIME: 1357496877
+TITLE: Arbeitsblatt zu LGS inkl. Lösungen abgelegt
+POS_TAG: value:Arbeitsblatt;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Arbeitsblatt zu LGS inkl. Lösungen abgelegt.
+TAGGED_CONTENT:
+Arbeitsblatt_NN zu_APPR LGS_NE inkl_ADJD ._$. Lösungen_NN abgelegt_VVPP ._$. 

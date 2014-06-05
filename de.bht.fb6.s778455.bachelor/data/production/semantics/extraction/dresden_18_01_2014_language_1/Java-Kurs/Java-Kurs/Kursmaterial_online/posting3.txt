@@ -1,0 +1,16 @@
+ID: 615
+CREATION_DATETIME: 1351551600000
+MODIFICATION_DATETIME: 1351551600000
+TITLE: Damit hättet ihr die Folien schneller als wir :)
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 613
+POSTING_TYPE: answer
+CONTENT:
+Damit hättet ihr die Folien schneller als wir :)
+
+Das Kursmaterial wird <NAME_CORPUS_REPLACEMENT> den Tutoren so lange wie es nur irgend möglich ist, zurecht gefeilt und ist für gewöhnlich auch erst kurz vor Beginn der Kurse "fertig". Wenn sich dann in den Kursen zeigt, dass es noch Fehler hat oder Stellen nicht so gelungen sind, wird <NAME_CORPUS_REPLACEMENT> auch nochmal nachpoliert, ehe die Folien zum Download bereit stehen.
+
+Mach dir mal keine <REMOVED_PERSON_ENTITY>, das mit der Mitschreiberei ist nur am Anfang so schlimm, wo es viel "Das ist einfach so" - Zeug gibt. Macht euch auch nicht die Mühe, die Folien komplett abzupinseln, dass war in der <REMOVED_PERSON_ENTITY> so. Hier reicht es, wenn du dir das Allerwichtigste notierst, was nicht auf den Folien zu finden ist. Wir wollen zusehen, dass es auch für den Java-Kurs Handouts gibt, damit ihr euch nicht alles merken müsst.
+
+Im <REMOVED_PERSON_ENTITY> könnt ihr auch einfach den Tutor danach fragen, wie die Syntax jetzt genau war oder ihn bitten das einfach nochmal (in groß) anzuschreiben.
+TAGGED_CONTENT:

@@ -1,0 +1,13 @@
+ID: 776
+CREATION_DATETIME: 1352847600000
+MODIFICATION_DATETIME: 1352847600000
+TITLE: I just see that I misunderstood, ho the thing works...
+
+I assumed that I request some memory from t...
+PARENT_POSTING_ID: 774
+POSTING_TYPE: comment
+CONTENT:
+I <NAME_CORPUS_REPLACEMENT> see that I misunderstood, how the thing works...
+I assumed that I request some memory from the dataspace manager and get an address to a chunk of memory to keep track of.
+But on a closer look one might see, that one of the parameters is in fact an output parameter and gives me a capability to a dataspace full of yet even unmapped memory- and so here I start again from zero...
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 17
+CREATION_DATETIME: 1286741760000
+MODIFICATION_DATETIME: 1286741760000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 16
+CONTENT:
+
+Hallo,
+Du meinst also es liegt an Eclipse?
+Na gut, aber Commandozeile ausprobieren werde ich nicht, weiß ich erst mal Bescheid. Danke.
+
+    
+TAGGED_CONTENT:

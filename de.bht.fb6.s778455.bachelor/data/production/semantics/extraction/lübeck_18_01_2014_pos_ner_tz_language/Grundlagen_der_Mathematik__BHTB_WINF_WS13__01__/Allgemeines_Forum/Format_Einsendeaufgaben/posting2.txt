@@ -1,0 +1,20 @@
+ID: 249171
+CREATION_DATETIME: 1382803523
+MODIFICATION_DATETIME: 1382803615
+TITLE: Re: Format Einsendeaufgaben
+LANGUAGE: GERMAN
+POS_TAG: value:Gelegenheit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anfrage;weight:0.0;uri:;postag:NN
+POS_TAG: value:FB;weight:0.0;uri:;postag:NN
+POS_TAG: value:Other;weight:0.0;uri:;postag:NN
+POS_TAG: value:REMOVEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Deine;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 249161
+CONTENT:
+ich würde es einfach einscannen!
+und bei Gelegenheit schau mal auf Deine Inbox bei FB bzw. Other, habe dir ne Anfrage gestellt :-)
+ 
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+ich_PPER würde_VAFIN es_PPER einfach_ADV einscannen_VVFIN !_$. und_KON bei_APPR Gelegenheit_NN schau_VVFIN mal_ADV auf_APPR Deine_NN Inbox_NE bei_APPR FB_NN bzw_VVINF ._$. Other_NN ,_$, habe_VAFIN dir_PPER ne_ADJA Anfrage_NN gestellt_VVPP :--RRB-_TRUNC Gruß_NN <_CARD PERSONAL_GREETING_REMOVEMENT_NN >_XY 

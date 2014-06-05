@@ -1,0 +1,22 @@
+ID: 2300
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: WIchtig ist, dass in der Klausur erkennbar ist, dass das Prinzip erkannt und verstanden wurde. Man kö...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2292
+POSTING_TYPE: answer
+CONTENT:
+WIchtig ist, dass in der Klausur erkennbar ist, dass das Prinzip erkannt und verstanden wurde. Man könnte also die Schreibarbeit reduzieren, indem man einleitend niederschreibt, dass in Routingtabellen eigentlich IP-Adressen gehören, der besseren Übersicht halber aber bei „Ziel“ die symbolischen Namen verwendet werden. In der Spalte „<REMOVED_PERSON_ENTITY>“ bietet sich diese Vorgehensweise jedoch nicht an, denn aus einer Angabe „SyA/24“ ist nicht ersichtlich, dass das Prinzip der (Sub)Netzadressen-Berechnung verstanden wurde.
+
+Gleiches gilt auch für z. B. die Aufgabe mit den transparenten Bridges. In der Übung waren nur symbolische Namen (A, B, C, ...) gegeben, aber keine MAC-Adressen. Falls so eine Aufgabe in der Klausur dran kommt, gehört auch hier natürlich der einleitende <REMOVED_PERSON_ENTITY>, dass in den Tabellen der Bridges MAC-Adressen stehen. Bitte nicht MAC-Adressen ausdenken! Lieber den Hinweis aufschreiben und die symbolischen Namen verwenden.
+
+Bezüglich der Eintragstypen „C“, „D“ und „S“: Connected-Einträge entstehen wie der Name vermuten lässt durch die Konnektierung; salopp gesagt „durch Kabel-Reinstecken“. Die statischen Einträge merkt man sich am besten als „Administrator-Vorgabe“; hier wird wirklich „von Hand“ (oder teils automatisiert) ein EIntrag nach administrativem <REMOVED_PERSON_ENTITY> eingetragen. → Im Beispiel der Übungsaufgabe will ein Administrator, dass alle Pakete ins SyA-Institut durch die Firewall müssen, ergo erzeugt dieser Administrator den statischen Eintrag.
+
+Und zur Aufgabe 5: Falls sowas in der Klausur dran kommt, bitte nicht in die Versuchung geraten, die Lastwert zu halbieren, etc. - Woher weiß man denn, wie lange ein Choke-Paket unterwegs ist? Wann wird es empfangen? Wann wird denn der halbierte Rest übertragen? --- Das sind alles Fragen, die man ohne weitere Angaben in der Aufgabenstellung nicht beantworten kann, daher gehe man einfach davon aus, dass die Choke-Pakete „irgendwann“ empfangen werden, und nimmt die Lastwert-Messreihe als unveränderlich hin.
+
+In meiner Interpretation der Lösung werden übrigens nur 2 Choke-Pakete versendet. Bitte noch einmal Prüfung, ob die bedienungstheoretische Formel
+
+$$ Last_{neu} = a\cdot Last_{alt} + \left(1-a\right)\cdot Last_{aktuell} $$
+
+richtig angewendet wurde
+TAGGED_CONTENT:

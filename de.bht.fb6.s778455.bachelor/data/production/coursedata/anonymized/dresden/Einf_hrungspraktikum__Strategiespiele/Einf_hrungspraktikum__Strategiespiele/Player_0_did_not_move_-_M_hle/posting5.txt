@@ -1,0 +1,9 @@
+ID: 1244
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: absturz war der richtige tipp, danke ;)
+PARENT_POSTING_ID: 1237
+POSTING_TYPE: answer
+CONTENT:
+absturz war der richtige tipp, danke ;)
+TAGGED_CONTENT:

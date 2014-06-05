@@ -1,0 +1,8 @@
+ID: 198175
+CREATION_DATETIME: 1359993310
+MODIFICATION_DATETIME: 1359993310
+TITLE: Re: Probeklausur 1 WS10 - Aufgabe 8
+PARENT_POSTING_ID: 197881
+CONTENT:
+ok. das war blödsinn. wenn 4b = c ist dann kommt genau die Matrix aus der Musterlösung bei raus.
+TAGGED_CONTENT:

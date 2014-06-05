@@ -1,0 +1,10 @@
+ID: 1922
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: Behalte das mal im Hinterkopf bzw. baue einen Adapter, sodass man jedes beliebige Trainings-Backend d...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1885
+POSTING_TYPE: comment
+CONTENT:
+Behalte das mal im Hinterkopf bzw. baue einen Adapter, sodass man jedes beliebige Trainings-Backend dahinterschrauben kann. Momentan wird es wohl ausreichen, beim "Warmlaufen" der DB einfach alle Testfälle zu messen. Später könnten dann ein MySQL-Backend dazukommen, dem man noch die Datenbankverbindung mitgeben muss.
+TAGGED_CONTENT:

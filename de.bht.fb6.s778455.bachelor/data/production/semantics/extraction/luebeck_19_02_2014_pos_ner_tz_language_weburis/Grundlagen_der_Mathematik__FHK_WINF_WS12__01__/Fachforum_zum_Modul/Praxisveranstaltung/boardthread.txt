@@ -1,0 +1,7 @@
+ID: 68031
+CREATION_DATETIME: 1353664510
+MODIFICATION_DATETIME: 1353667473
+TITLE: Praxisveranstaltung
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=68031
+FIRST_POSTING_ID: 182623

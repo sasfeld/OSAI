@@ -1,0 +1,9 @@
+ID: 539
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1351202400000
+TITLE: Would be good to note that we are talking about C-Style strings here (i.e. Arrays of char), not C++ S...
+PARENT_POSTING_ID: 537
+POSTING_TYPE: comment
+CONTENT:
+Would be good to note that we are talking about C-Style strings here (i. e. Arrays of char), not C++ String class instances.
+TAGGED_CONTENT:

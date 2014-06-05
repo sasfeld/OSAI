@@ -1,0 +1,9 @@
+ID: 1005
+CREATION_DATETIME: 1356044400000
+MODIFICATION_DATETIME: 1356044400000
+TITLE: Die Lehrveranstaltungen gehen ja nur noch bis Anfang Februar und ich muss ja bereits vorher meine Kom...
+PARENT_POSTING_ID: 728
+POSTING_TYPE: comment
+CONTENT:
+Die Lehrveranstaltungen gehen ja nur noch bis Anfang Februar und ich muss ja bereits vorher meine Komplexprüfung anmelden, wofür das dann ja mal feststetehen und offiziell sein muss. 
+TAGGED_CONTENT:

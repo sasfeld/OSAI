@@ -1,0 +1,9 @@
+ID: 2832
+CREATION_DATETIME: 1384297200000
+MODIFICATION_DATETIME: 1384297200000
+TITLE: I made the announcement during the exercise on Oct 23rd, so `me.say("No exercise next week!") == true...
+PARENT_POSTING_ID: 2813
+POSTING_TYPE: comment
+CONTENT:
+I made the announcement during the exercise on Oct 23rd, so `me. say("No exercise next week!") == true`.
+TAGGED_CONTENT:

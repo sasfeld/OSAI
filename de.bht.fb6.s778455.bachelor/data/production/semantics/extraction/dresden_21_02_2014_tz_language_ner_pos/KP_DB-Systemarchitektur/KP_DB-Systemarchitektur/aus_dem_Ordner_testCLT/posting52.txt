@@ -1,0 +1,12 @@
+ID: 2040
+CREATION_DATETIME: 1370988000000
+MODIFICATION_DATETIME: 1370988000000
+TITLE: das sieht gut aus, du hast nur vergessen die TestSuite.cpp hochzuladen ;)
+LANGUAGE: GERMAN
+POS_TAG: value:TestSuite;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+das sieht gut aus, du hast nur vergessen die TestSuite. cpp hochzuladen ;)
+TAGGED_CONTENT:
+das_ART sieht_VVFIN gut_ADJD aus_PTKVZ ,_$, du_PPER hast_VAFIN nur_ADV vergessen_VVINF die_ART TestSuite_NN ._$. cpp_XY hochzuladen_VVIZU ;-RRB-_XY 

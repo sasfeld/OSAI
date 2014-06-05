@@ -1,0 +1,15 @@
+ID: 86
+CREATION_DATETIME: 1295516580000
+MODIFICATION_DATETIME: 1295516580000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Lieber
+Findet heute um 19 Uhr eine Webkonferenz statt?
+Wenn ja, sind verkettete Listen Klausur relevant? Wenn ja, könnten wir die Methoden contains() und remove() aus der Präsenzaufgabe 6 besprechen?
+
+Schöne Grüße
+	
+TAGGED_CONTENT:

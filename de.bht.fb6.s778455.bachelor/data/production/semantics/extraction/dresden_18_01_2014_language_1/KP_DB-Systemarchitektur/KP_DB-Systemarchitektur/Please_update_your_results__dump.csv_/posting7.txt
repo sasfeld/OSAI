@@ -1,0 +1,10 @@
+ID: 2389
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: Ich kann nur schlecht neue Plots erstellen, wenn ich beim compilieren Fehler bekomme. Sobald das geht...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2382
+POSTING_TYPE: comment
+CONTENT:
+Ich kann nur schlecht neue Plots erstellen, wenn ich beim compilieren Fehler bekomme. Sobald das geht oder ich eine csv-Datei habe, werfe ich mich sofort an die Plots. In die Präsentation würde ich die aktualisierten einbauen, sobald ich eine Pre-Final Version bekomme, um sie kosmetisch anzupassen.
+TAGGED_CONTENT:

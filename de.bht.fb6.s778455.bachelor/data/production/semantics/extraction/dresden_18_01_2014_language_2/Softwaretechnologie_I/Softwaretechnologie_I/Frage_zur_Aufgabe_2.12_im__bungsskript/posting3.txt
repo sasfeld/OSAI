@@ -1,0 +1,14 @@
+ID: 2081
+CREATION_DATETIME: 1371592800000
+MODIFICATION_DATETIME: 1372197600000
+TITLE: Ersteres stimmt.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2073
+POSTING_TYPE: comment
+CONTENT:
+Ersteres stimmt.
+
+zum Zweiten Punkt: Das ist keine 'Textausführung', um ehrlich zu sein finde ich einen solchen Satz nicht im Aufgabentext. Gemeint ist aber, dass eine Mietwohnung nicht gleichzeitig mehrere Mietverträge haben kann, denn sonnst gäbe es gleichzeitig mehrere Mieter. <NAME_CORPUS_REPLACEMENT> aber ein Mietvertrag nur dann existiert, wenn ein Mieter existiert, kann eine Wohnung die vermietet wird (Mietwohnung), nicht ohne Mietvertrag existieren. Zeichne mal ein Objektdiagramm dazu, dann wirst Du sehen, warum sich diese Multiplizitäten ergeben.
+
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

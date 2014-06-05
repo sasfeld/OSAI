@@ -1,0 +1,9 @@
+ID: 393
+CREATION_DATETIME: 1350511200000
+MODIFICATION_DATETIME: 1353279600000
+TITLE: Der Remember Me Knopf
+PARENT_POSTING_ID: 387
+POSTING_TYPE: comment
+CONTENT:
+Der Remember Me Knopf ist nun verfügbar. Er führt dazu, dass man bis zu 2 Wochen eingeloggt bleibt, solange man sich nicht wieder ausloggt.
+TAGGED_CONTENT:

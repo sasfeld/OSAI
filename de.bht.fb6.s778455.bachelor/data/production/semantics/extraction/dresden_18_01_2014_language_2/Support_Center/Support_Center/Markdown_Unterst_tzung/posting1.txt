@@ -1,0 +1,20 @@
+ID: 47
+CREATION_DATETIME: 1342476000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Wir haben ein essentielles Feature hinzugefügt. Es können nun per Markdown Code, Links etc ausgezeichnet werden. Hier ein paar Beispiele:
+
+Links werden automatisch erkannt. Das Paket heißt übrigens Redcarpet <NAME_CORPUS_REPLACEMENT> github: https://github. com/tanoku/redcarpet/
+
+Code:
+
+```
+
+puts "yay"
+
+```
+TAGGED_CONTENT:

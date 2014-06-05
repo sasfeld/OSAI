@@ -1,0 +1,12 @@
+ID: 3104
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: Genau. Trotzdem müsste dann Booking von Abstractpersistable erben, damit ich ein gemeinsames Interfac...
+PARENT_POSTING_ID: 3069
+POSTING_TYPE: comment
+CONTENT:
+Mit eigene meinst du jetzt die <NAME_CORPUS_REPLACEMENT> mir beschriebene Composite id oder?
+Wenn ja. Trotzdem müsste dann Booking <NAME_CORPUS_REPLACEMENT> Abstractpersistable erben, damit ich ein gemeinsames Interface habe. Und AbstractPersistable müsste sich um die Generierung kümmern, wie es AbstractPersistable ja auch tut. Aber BookingId kann nicht generiert werden. Im AbstractPersistable ist aber die Annotaton @GeneratedValue vordefiniert.
+Meine Frage ist jetzt: Geht das trotzdem? Kann die Annotation @GeneratedValue eine nicht annotierbare Klasse einfach ignorieren oder wird es <NAME_CORPUS_REPLACEMENT> Fehlermeldungen geben?
+Naha, ich kann das ja auch mal slebst ausprobieren.
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 1773
+CREATION_DATETIME: 1367359200000
+MODIFICATION_DATETIME: 1374444000000
+TITLE: Es werden alle Hilfsmittel (Bücher, Skripte, Folien, Mitschriften ...) mit Ausnahme elektronischer Ko...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1772
+POSTING_TYPE: answer
+CONTENT:
+Es werden alle <REMOVED_PERSON_ENTITY> (Bücher, Skripte, Folien, Mitschriften ...) mit Ausnahme elektronischer Kommunikationsmittel zugelassen sein (also keine Handys, Smartphones, Notebooks etc.).
+
+Taschenrechner ohne Kommunikationsfunktionen sind ebenfalls erlaubt.
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 1627
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Man kann doch sicher auch beides umsetzen. Das ergänzen der sNummer dürfte ja jetzt nicht so ein groß...
+PARENT_POSTING_ID: 1625
+POSTING_TYPE: comment
+CONTENT:
+Man kann doch sicher auch beides umsetzen. Das ergänzen der sNummer dürfte ja jetzt nicht so ein großer Aufwand sein denke ich mal.
+TAGGED_CONTENT:

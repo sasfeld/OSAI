@@ -1,0 +1,15 @@
+ID: 179713
+CREATION_DATETIME: 1352708882
+MODIFICATION_DATETIME: 1352708882
+TITLE: ESA steht bereit
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Kursteilnehmer,
+die Einsendeaufgabe für diesen Kurs steht nun bereit. Die Aufgabe ist zweiteilig; der erste Teil behandelt <REMOVED_PERSON_ENTITY> des Grundlagenkapitels, der zweite Teil beschäftigt sich mit Vektorräumen.
+Von der Komplexität her könnten dies auch Klausuraufgaben sein. Dabei sollten Sie aber berücksichtigen, dass das Thema "Vektoren" momentan noch neu für Sie ist. Sie werden daher für die ESA insbesondere im Teil 2 mehr Zeit benötigen, als wenn Sie später besser ins Thema eingetaucht sein werden.
+Die Aufgabenlösungen sind in Einzelarbeit anzufertigen (Abschreiben fällt auf...), allerdings dürfen und sollen Sie natürlich gerne untereinander über Ihre Vorgehensweisen bzw. Lösungsansätze diskutieren. Denken Sie aber im Hinblick auf die Selbsteinschätzung Ihrer Leistung daran, dass Sie später in der Klausur gerade nicht mit Ihrem Nachbarn "diskutieren" dürfen.
+Abgabetermin: Sonntag, 9. Dezember 2012, 23:55
+Ihr Lösung laden Sie bitte als PDF im Kurs hoch. Eine verspätete Abgabe ist leider nicht möglich.
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

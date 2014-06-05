@@ -1,0 +1,16 @@
+ID: 1499
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo zusammen.
+Ich habe noch einmal eine Frage bezüglich der Unix-Signale und der Beendigung des normalen Rechenprozesses:
+Ich kann <LEARNED_PERSON_NAME_REPLACEMENT> in einem Ereignishandler für SIGXCPU einen gewünschten Zug an die Pipeline schicken. Nun würde <LEARNED_PERSON_NAME_REPLACEMENT> aber parallel noch der Rest der normalen Funktionalität weiterlaufen und irgendwann irgendeinen Müll an die Pipeline schicken.
+Nun gäbe es m. M. n. zwei Lösungen:
+1. Ich setze ein Flag und baue in jede Funktion eine Abfrage ein, ob dieses Flag gesetzt ist. Wenn gesetzt, wird die Funktion auf irgendeine Art und Weise beendet.
+2. Irgendwie starte ich gleich am Anfang der Berechnung einen Thread, in dem die Berechnung abläuft, speichere die Züge in einer globalen Variable. Bei Auftreten <NAME_CORPUS_REPLACEMENT> SIGXCPU könnte ich dann einerseits einen Zug aus dieser globalen Variable ausgeben, andererseits den Thread beenden und damit falsche Ausgaben verhindern.
+Welcher dieser Wege ist sinnvoller bzw. besser zu realisieren?
+(mein Problem ist, dass der erste Weg nicht sicher genug erscheint und ich <NAME_CORPUS_REPLACEMENT> Multithreading so gut wie keine Ahnung habe)
+TAGGED_CONTENT:

@@ -1,0 +1,16 @@
+ID: 57
+CREATION_DATETIME: 1193601420000
+MODIFICATION_DATETIME: 1193601420000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 56
+CONTENT:
+ 
+ 
+Hallo 
+
+Vielen Dank für die Antwort. Meinen Sie mit Attribute public, protected, public etc?
+
+mfg,
+	
+TAGGED_CONTENT:

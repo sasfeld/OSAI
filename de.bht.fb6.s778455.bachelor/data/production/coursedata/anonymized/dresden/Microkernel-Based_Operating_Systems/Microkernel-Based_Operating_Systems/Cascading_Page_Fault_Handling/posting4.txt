@@ -1,0 +1,9 @@
+ID: 1442
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: You don't touch the region in order to find out if its mapped. You touch it to make sure that your ow...
+PARENT_POSTING_ID: 1440
+POSTING_TYPE: answer
+CONTENT:
+You don't touch the region in order to find out if its mapped. You touch it to make sure that your own pager establishes a mapping. Touching either works (meaning you reach the end of the function) or raises an unhandled page fault.
+TAGGED_CONTENT:

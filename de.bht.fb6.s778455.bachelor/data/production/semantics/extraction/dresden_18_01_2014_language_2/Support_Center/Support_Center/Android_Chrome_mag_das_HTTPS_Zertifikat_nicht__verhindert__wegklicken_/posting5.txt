@@ -1,0 +1,12 @@
+ID: 1510
+CREATION_DATETIME: 1363042800000
+MODIFICATION_DATETIME: 1363042800000
+TITLE: Ich bekomme auf OS X auch hin- und wieder einen Zertifikatsfehler: "Dieses Zertifikat kann nicht über...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1462
+POSTING_TYPE: comment
+CONTENT:
+Ich bekomme auf OS X auch hin- und wieder einen Zertifikatsfehler: "Dieses Zertifikat kann nicht überprüft werden (OCSP-Dienst nicht zuverlässig)."
+
+Meine Vermutung ist, dass der OCSP-Dienst vom DFN rumzickt und wer mit aktiviertem Revocation-Check herumsurft, sieht dann solche Warnungen. Bei STS wird der OCSP-Check dann vermutlich mandatorisch.
+TAGGED_CONTENT:

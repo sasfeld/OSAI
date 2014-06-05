@@ -1,0 +1,19 @@
+ID: 2394
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374444000000
+TITLE: Prinzipiell das Prüfungsamt, denn egal was Du in die Anträge einträgst, es wird alles überprüft. Hast...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Prüfungsämter;weight:1.0;significance:12.7085495152339;degreegeneralization:8;uri:19997655
+TOPIC_ZOOM_TAG: value:Prüfungen und Abschlüsse an Hochschulen;weight:1.0;significance:7.84101506477834;degreegeneralization:5;uri:20293489
+TOPIC_ZOOM_TAG: value:Prüfungen, Abschlüsse und Zertifikate;weight:1.0;significance:7.28359949775252;degreegeneralization:4;uri:21974670
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:5.57127107797354;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Politik;weight:1.0;significance:1.84870472161056;degreegeneralization:2;uri:21999932
+PARENT_POSTING_ID: 2390
+POSTING_TYPE: answer
+CONTENT:
+Prinzipiell das Prüfungsamt, denn egal was Du in die Anträge einträgst, es wird alles überprüft. Hast Du also tatsächlich eine 2, 0 und trägst weil Du es nicht besser weißt (Anträge werden nach bestem Wissen und Gewissen ausgefüllt und eingereicht) eine 2, 3 ein, landet auf Deinem Zeugnis trotzdem die 2, 0. - Prinzipiell könntest Du also das <NAME_CORPUS_REPLACEMENT> leer lassen und damit zum PA laufen. ;-)
+TAGGED_CONTENT:

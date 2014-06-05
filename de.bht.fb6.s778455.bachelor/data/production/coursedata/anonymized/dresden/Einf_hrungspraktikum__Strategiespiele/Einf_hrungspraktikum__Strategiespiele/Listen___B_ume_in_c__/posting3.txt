@@ -1,0 +1,9 @@
+ID: 1261
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: du kannst a) einen std::vector verwenden und mittels einer einfachen foreach schleife über alle eleme...
+PARENT_POSTING_ID: 1259
+POSTING_TYPE: answer
+CONTENT:
+du kannst a) einen std::vector verwenden und mittels einer einfachen foreach schleife über alle elemente iterieren, bis du das gesuchte gefunden hast oder am ende bist oder b) eine variante <NAME_CORPUS_REPLACEMENT> std::set benutzen, diese enthalten schon eine find() methode. Noch zu a) die Suchfunktion ist nicht riesig, sondern 1-3 Zeilen :-)
+TAGGED_CONTENT:

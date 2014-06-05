@@ -1,0 +1,44 @@
+ID: 69
+CREATION_DATETIME: 1182525120000
+MODIFICATION_DATETIME: 1182525120000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 68
+CONTENT:
+   
+Hallo Leute,
+mittlerweile habt ihr das ja alles schon richtig verstanden. Ich fasse das dennoch mal zusammen.
+Normalerweise gilt
+int a = 5;
+int b = 5;
+if(a == b)
+  System.out.println("A and B has the same value");
+else
+  System.out.println("A and B has different values");
+
+StringBuider sa = new StringBulder("a");
+StringBuider sb = new StringBulder("a");
+StringBuider sc =sa;
+
+if(sa == sb)
+  System.out.println("sA and sB has the same reverence???");
+if(sa == sc)
+  System.out.println("sA and sC has the same reverence! You can also say the value of the REVERENCE is the same");
+
+ok. String verhält sich leider anders alles andere Klassen. Wenn ich Strings über den Literal erzeuge
+String st1 = "Hallo";
+verhält sich Java etwas extravagant.
+Java hat für sowas einen Stringconstantpool. Bedeutet Java hat für sowas einen extra Speicherbereich wo er reinschaut. Hab ich hier schon Hallo? Nein! Ok dann pack ich hier das rein und gebe die Sicherstelle zurück.
+String st1Again = "Hallo";
+Hier gehen wir wieder zum Stringconstantpool und schauen: Haben wir schon Hallo? Ja! Dann brauch ich den ja nicht anlegen und ich gebe die einfach die Reverenz.
+Daraus ergibt sich dann
+System.out.println(st1 == st1Again); // => true
+Das funktioniert so "gut" da Strings immutable sind. Ich glaube die Idee ist her Speicher zu sparen.
+Das gilt nicht für Strings die über new String("Hallo"); oder eingaben entstanden sind.
+
+P.S.
+Hierfür könnt ihr euch auch nochmal die Methode intern() von String anschauen
+P.P.S.
+Das gilt übrigens auch für Wapper Klassen z.B. Integer die über Autoboxing im Bereich von -128 bis 127. Aber ich Denke nicht das es Klausurrelevant ist.
+    
+TAGGED_CONTENT:

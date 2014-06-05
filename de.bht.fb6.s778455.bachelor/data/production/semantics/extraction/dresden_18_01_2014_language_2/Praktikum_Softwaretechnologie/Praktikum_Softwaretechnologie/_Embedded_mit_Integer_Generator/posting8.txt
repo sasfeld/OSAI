@@ -1,0 +1,14 @@
+ID: 3094
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: CompositeIDs sind nicht unausgereift, haben aber mit deinem Vererbungsproblem nichts zu tun. Die brau...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3069
+POSTING_TYPE: comment
+CONTENT:
+CompositeIDs sind nicht unausgereift, haben aber mit deinem Vererbungsproblem nichts zu tun. Die braucht man eigentlich nur, wenn man auf Legacy-Schemata mappen muss, was bei euch nicht der Fall ist. Es gibt also keinen Grund, nicht einfache IDs (z. B. `Long`s) zu verwenden.
+
+Warum muss eine ID ein `String` sein? Wieso brauchst du einen Generaotr, wenn du die manuell setzen willst? Alle nicht-numerischen IDs sind sehr schwer sauber zu auto-generieren (siehe [0]). Ich bin hier voll bei <REMOVED_PERSON_ENTITY>: keep it simple: `Long` IDs, dann tut ein einfaches `@GeneratedValue` auf nahezu jeder Datenbank (bzw. `AbstractPersistable` out of the box).
+
+[0] http://instagram-engineering. tumblr. com/post/10853187575/sharding-ids-at-instagram
+TAGGED_CONTENT:

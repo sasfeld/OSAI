@@ -1,0 +1,42 @@
+ID: 115377
+CREATION_DATETIME: 1317638804
+MODIFICATION_DATETIME: 1317638804
+TITLE: Videokonferenzen 
+TOPIC_ZOOM_TAG: value:Videokonferenzen;weight:1.0;significance:11.6099372265658;degreegeneralization:7;uri:20137786
+TOPIC_ZOOM_TAG: value:Videotechnik;weight:1.0;significance:11.0991116027998;degreegeneralization:6;uri:20897414
+TOPIC_ZOOM_TAG: value:Liebe;weight:1.0;significance:6.84491833963583;degreegeneralization:5;uri:21126234
+TOPIC_ZOOM_TAG: value:Studenten;weight:1.0;significance:6.6875261658844;degreegeneralization:5;uri:20994552
+TOPIC_ZOOM_TAG: value:Schüler, Studenten;weight:1.0;significance:6.43756108337563;degreegeneralization:4;uri:20920823
+TOPIC_ZOOM_TAG: value:Medientechnik;weight:1.0;significance:6.20426134169728;degreegeneralization:4;uri:20901460
+TOPIC_ZOOM_TAG: value:Videos;weight:1.0;significance:5.92070453292435;degreegeneralization:5;uri:20925532
+TOPIC_ZOOM_TAG: value:Kommunikationstechnik;weight:1.0;significance:5.71829301474005;degreegeneralization:5;uri:20897125
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:5.57127107797354;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Telekommunikation;weight:1.0;significance:5.40067673447022;degreegeneralization:5;uri:21990157
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Filme;weight:1.0;significance:5.07179740279815;degreegeneralization:4;uri:21995223
+TOPIC_ZOOM_TAG: value:Film & Kino;weight:1.0;significance:4.85261731551531;degreegeneralization:3;uri:21998164
+TOPIC_ZOOM_TAG: value:Partnerschaft, Ehe, Liebe, Sex;weight:1.0;significance:4.77978319360723;degreegeneralization:4;uri:21126268
+TOPIC_ZOOM_TAG: value:Kunstwerke;weight:1.0;significance:4.64234194722766;degreegeneralization:3;uri:21981623
+TOPIC_ZOOM_TAG: value:Zwischenmenschliche Beziehungen;weight:1.0;significance:4.51902740448583;degreegeneralization:3;uri:20122843
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Kunst, Kultur, Musik;weight:1.0;significance:3.04770693667486;degreegeneralization:2;uri:21999796
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Studierenden,
+zur Besprechung von Fragen zu den Lernobjekten oder den Übungs- und Zusatzaufgaben werden wir regelmäßige Videokonferenzen durchführen. Diese finden mittwochs um 19 Uhr statt, mit Ausnahme der ersten, die ich leider auf Mittwoch, 20 Uhr verschieben muss. Die Termine sind:
+Mittwoch, 12. 10.
+Mittwoch, 26. 10.
+Mittwoch, 9. 11.
+Mittwoch, 23. 11.
+Mittwoch, 7. 12.
+Mittwoch, 18. 1.
+Bis dann!
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

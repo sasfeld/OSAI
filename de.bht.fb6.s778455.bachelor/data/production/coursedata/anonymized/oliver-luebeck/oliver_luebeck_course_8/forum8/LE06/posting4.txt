@@ -1,0 +1,38 @@
+ID: 34
+CREATION_DATETIME: 1196186400000
+MODIFICATION_DATETIME: 1196186400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 33
+CONTENT:
+
+Hallo
+
+kann das jemand ausführlich erklären?
+
+Was bedeuten diese Zeilen und warum ?:
+
+private Container c;
+..........
+c= getContentPane(); // <-----?????????
+
+c.setLayout(new CardLayout());
+
+c.add(panel1, SPANEL1);
+c.add(panel2, SPANEL2);
+
+
+Das ist das Beispiel aus den Kursmaterialien zum CardLayout
+Also was bedeutet c=getContentPane(); ?
+und warum muss der Container nicht mit add in das JFrame eingefuegt werden?
+ 
+Ursprungsbeitrag | Bearbeiten | Thema teilen | Löschen | Antwort
+Nutzerbild Student8
+Re: LE06
+von Student8 - Sonntag, 27. November 2007, 20:06
+ 
+getContentPane gibt den Hintergrund JPane (Basisklasse wie alle Steuerelemente is Container) des aktuellen JFrames zurück. In diesem Fall der Standardmässige immer erstmal angelegte. Evtl nochmal die Klassenhierarchie anschauen und was z.B. der JFrame alles Standardmässig enthält.
+
+Deswegen muss es auch nicht extra dem JFrame hinzugefügt werden weil es bereits enthalten ist.
+    
+TAGGED_CONTENT:

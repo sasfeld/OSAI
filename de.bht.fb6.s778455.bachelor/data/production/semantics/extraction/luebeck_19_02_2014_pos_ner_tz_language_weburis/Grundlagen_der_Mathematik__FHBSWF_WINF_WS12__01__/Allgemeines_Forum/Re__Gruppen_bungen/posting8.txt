@@ -1,0 +1,28 @@
+ID: 194163
+CREATION_DATETIME: 1358416757
+MODIFICATION_DATETIME: 1358416757
+TITLE: Re: Gruppenübungen
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=72341#194163
+POS_TAG: value:A;weight:0.0;uri:;postag:NN
+POS_TAG: value:nicht?J;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abend;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klammer;weight:0.0;uri:;postag:NN
+POS_TAG: value:Matrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:eLars;weight:0.0;uri:;postag:NN
+POS_TAG: value:korrekt?Mich;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spaltenvektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:T;weight:0.0;uri:;postag:NN
+POS_TAG: value:XA;weight:0.0;uri:;postag:NN
+POS_TAG: value:t;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungsmenge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Matrizen;weight:0.0;uri:;postag:NN
+POS_TAG: value:hrungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:System;weight:0.0;uri:;postag:NN
+POS_TAG: value:Schritt;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 194143
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+danke erst einmal für die Ausführungen. Heißt, ich transponiere die Matrizen, erreiche dadurch, dass die "Kommutativität" nun doch funktioniert für XA zu A^T*X^T, löse das System dann mittels Gauß, erhalte eine normale oder parameterbehaftete Lösungsmenge, transponiere diesen Spaltenvektor wieder zurück und habe meine Matrix X?Ist das korrekt?Mich würde dennoch der Schritt interessieren, warum man aus (XA)^T --&gt; A^T * X^T folgern kann. Innerhalb der Klammer sind doch immer noch Matrizen und diese sind nicht kommutativ oder nicht?J schaue ich mir heute Abend einmal an, ob ich das durchrechnen kann. :)GrüßeLars
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, danke_VVFIN erst_ADV einmal_ADV für_APPR die_ART Ausführungen_NN ._$. Heißt_VVFIN ,_$, ich_PPER transponiere_VVFIN die_ART Matrizen_NN ,_$, erreiche_VVFIN dadurch_PROAV ,_$, dass_KOUS die_ART "_$( Kommutativität_NN "_$( nun_ADV doch_ADV funktioniert_VVFIN für_APPR XA_NN zu_APPR A_NN ^_CARD T_XY \*_CARD X_XY ^_CARD T_NN ,_$, löse_VVFIN das_ART System_NN dann_ADV mittels_APPR Gauß_NN ,_$, erhalte_VVFIN eine_ART normale_ADJA oder_KON parameterbehaftete_ADJA Lösungsmenge_NN ,_$, transponiere_VVFIN diesen_PDAT Spaltenvektor_NN wieder_ADV zurück_PTKVZ und_KON habe_VAFIN meine_PPOSAT Matrix_NN X?Ist_VVFIN das_ART korrekt?Mich_NN würde_VAFIN dennoch_ADV der_ART Schritt_NN interessieren_VVINF ,_$, warum_PWAV man_PIS aus_APPR -LRB-_TRUNC XA_NN -RRB-_TRUNC ^_XY T_XY --_-- >_XY A_NN ^_CARD T_XY \*_CARD X_XY ^_CARD T_NN folgern_VVINF kann_VMFIN ._$. Innerhalb_APPR der_ART Klammer_NN sind_VAFIN doch_ADV immer_ADV noch_ADV Matrizen_NN und_KON diese_PDS sind_VAFIN nicht_PTKNEG kommutativ_ADJD oder_KON nicht?J_NN schaue_VVFIN ich_PPER mir_PPER heute_ADV Abend_NN einmal_ADV an_PTKVZ ,_$, ob_KOUS ich_PPER das_ART durchrechnen_VVINF kann_VMFIN ._$. :_$. -RRB-_TRUNC GrüßeLars_NN 

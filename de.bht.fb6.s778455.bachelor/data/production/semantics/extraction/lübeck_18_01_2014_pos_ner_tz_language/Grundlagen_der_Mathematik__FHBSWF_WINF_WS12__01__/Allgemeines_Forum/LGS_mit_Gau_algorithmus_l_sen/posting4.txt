@@ -1,0 +1,48 @@
+ID: 190801
+CREATION_DATETIME: 1357413275
+MODIFICATION_DATETIME: 1357413275
+TITLE: Re: LGS mit Gaußalgorithmus lösen
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Vektoren;weight:5.0;significance:10.5904579293616;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:5.0;significance:6.4844131917306;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:5.0;significance:3.72832043497232;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:5.0;significance:2.9185143038794;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:6.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:5.0;significance:1.94807232067146;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Algorithmen;weight:1.0;significance:1.57507549620207;degreegeneralization:5;uri:20898553
+TOPIC_ZOOM_TAG: value:Chat;weight:1.0;significance:1.5512253555953;degreegeneralization:7;uri:20901477
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:1.0;significance:1.08399862544421;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Lifestyle und Internet;weight:1.0;significance:0.844817871229318;degreegeneralization:6;uri:21999575
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:0.837370907925462;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:0.834633620120355;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:0.739585441573495;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Lifestyle, Mode, Schönheit;weight:1.0;significance:0.728653237932797;degreegeneralization:3;uri:21999456
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:0.72709721863856;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:0.641389026055457;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:0.639133564513255;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:0.573590882690033;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:0.447820572446793;degreegeneralization:3;uri:20922149
+NER_TAG: value:LK;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:LK;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Vektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Idee;weight:0.0;uri:;postag:NN
+POS_TAG: value:durchrechnest;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Matrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:EInheitsmatrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:Darstellung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Algorithmus;weight:0.0;uri:;postag:NN
+POS_TAG: value:berlegung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Matrizen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einheitsvektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:LK;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 190701
+CONTENT:
+Hi <REMOVED_PERSON_ENTITY>,
+also sicher bin ich mir nicht, aber folgende Überlegung dazu:Im Chat haben wir gesagt, dass die rechte <REMOVED_PERSON_ENTITY> der Matrizen nicht relevant für den Gauss-Algorithmus ist, soll heißen, (x, y, z)^T sind ja alle möglichen Vektoren, die aus der Matrix mit den drei gegeben Vektoren herauskommen soll. So weit so gut.
+Jetzt lässt man also die rechte <REMOVED_PERSON_ENTITY> weg und bildet eine Matrix nur aus diesen drei Vektoren. Wenn du diese durchrechnest, kommst du auf die EInheitsmatrix, also die Einheitsvektoren aus R^3. Jetzt müssen wir diese neue Matrix mit unserem Vektor (x, y, z)^T multiplizieren und bekommen eine LK heraus, die sehr einfach ausschaut jetzt natürlich.
+Wenn du diese jetzt umformst zu der bekannten Darstellung:x1/x = α * 1 + β * 0 + γ * 0x2/y = α * 0 + β * 1 + γ * 0x3/z = α * 0 + β * 0 + γ * 1
+Dann kannst du jeden beliebigen Vektor aus dieser LK bilden. So war jetzt meine Idee dabei... GrüßeLars
+TAGGED_CONTENT:
+Hi_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, also_ADV sicher_ADJD bin_VAFIN ich_PPER mir_PPER nicht_PTKNEG ,_$, aber_KON folgende_ADJA Überlegung_NN dazu_PROAV :_$. Im_APPRART Chat_NE haben_VAFIN wir_PPER gesagt_VVPP ,_$, dass_KOUS die_ART rechte_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_VVFIN der_ART Matrizen_NN nicht_PTKNEG relevant_ADJD für_APPR den_ART Gauss-Algorithmus_NN ist_VAFIN ,_$, soll_VMFIN heißen_VVINF ,_$, -LRB-_TRUNC x_XY ,_$, y_NE ,_$, z_KON -RRB-_TRUNC ^_XY T_XY sind_VAFIN ja_ADV alle_PIDAT möglichen_ADJA Vektoren_NN ,_$, die_PRELS aus_APPR der_ART Matrix_NE mit_APPR den_ART drei_CARD gegeben_VVPP Vektoren_NN herauskommen_VVINF soll_VMFIN ._$. So_ADV weit_ADJD so_ADV gut_ADJD ._$. Jetzt_ADV lässt_VVFIN man_PIS also_ADV die_ART rechte_ADJA <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN weg_PTKVZ und_KON bildet_VVFIN eine_ART Matrix_NN nur_ADV aus_APPR diesen_PDAT drei_CARD Vektoren_NN ._$. Wenn_KOUS du_PPER diese_PDAT durchrechnest_NN ,_$, kommst_VVFIN du_PPER auf_APPR die_ART EInheitsmatrix_NN ,_$, also_ADV die_ART Einheitsvektoren_NN aus_APPR R_NE ^_CARD 3_CARD ._$. Jetzt_ADV müssen_VMFIN wir_PPER diese_PDAT neue_ADJA Matrix_NN mit_APPR unserem_PPOSAT Vektor_NN -LRB-_TRUNC x_XY ,_$, y_NE ,_$, z_KON -RRB-_TRUNC ^_XY T_XY multiplizieren_VVINF und_KON bekommen_VVFIN eine_ART LK_NN heraus_PTKVZ ,_$, die_ART sehr_ADV einfach_ADV ausschaut_VVFIN jetzt_ADV natürlich_ADV ._$. Wenn_KOUS du_PPER diese_PDAT jetzt_ADV umformst_VVPP zu_PTKZU der_ART bekannten_ADJA Darstellung_NN :_$. x1\/x_XY =_XY α_XY \*_XY 1_CARD +_XY β_XY \*_CARD 0_CARD +_XY γ_XY \*_CARD 0x2\/y_XY =_XY α_XY \*_CARD 0_CARD +_XY β_XY \*_XY 1_CARD +_XY γ_XY \*_CARD 0x3\/z_XY =_XY α_XY \*_CARD 0_CARD +_XY β_XY \*_CARD 0_CARD +_XY γ_XY \*_XY 1_CARD Dann_ADV kannst_VMFIN du_PPER jeden_PIDAT beliebigen_ADJA Vektor_NN aus_APPR dieser_PDAT LK_NN bilden_VVINF ._$. So_ADV war_VAFIN jetzt_ADV meine_PPOSAT Idee_NN dabei_PROAV ..._$( GrüßeLars_NE 

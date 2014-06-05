@@ -1,0 +1,9 @@
+ID: 3012
+CREATION_DATETIME: 1385247600000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: Danke für die Hilfe. Es hat funktioniert. Und Entschuldigung fürs viele editieren. Ich wollte es nur ...
+PARENT_POSTING_ID: 3010
+POSTING_TYPE: comment
+CONTENT:
+Danke für die Hilfe. Es hat funktioniert. Und Entschuldigung fürs viele editieren. Ich wollte es nur leserlicher machen und habs einfach nicht hin bekommen.
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 2364
+CREATION_DATETIME: 1374271200000
+MODIFICATION_DATETIME: 1374271200000
+TITLE: Ja, das sieht ein wenig merkwürdig aus. - Ich ändere es im Skript. Die Idee ist, dass TCP neben der g...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2361
+POSTING_TYPE: answer
+CONTENT:
+Ja, das sieht ein wenig merkwürdig aus. - Ich ändere es im Skript. Die Idee ist, dass TCP neben der gesicherten Verbindungskontrolle (Aufbau und Abbau) auch eine Reihenfolgegarantie bietet. Pakete, die zu früh eintreffen werden dann beim Empfänger gepuffert, bis die eigentlichen Vorgänger eintreffen, bzw. nach Ablauf einer Timeoutzeit neu angefordert. Die Vertauschung der Reihenfolge kann über die SYN- und ACK-Nummern wie in der Übung präsentiert erkannt werden.
+TAGGED_CONTENT:

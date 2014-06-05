@@ -1,0 +1,11 @@
+ID: 168473
+CREATION_DATETIME: 1349765556
+MODIFICATION_DATETIME: 1349765556
+TITLE: Re: Lektion1 Mächtigkeit & Vereinigungsmenge (?)
+PARENT_POSTING_ID: 168455
+CONTENT:
+Hey <REMOVED_PERSON_ENTITY>, super, vielen Dank für deine Anwort. Die Lösung für a wäre dann also
+I = [-2, 7] = {x|-2 &lt; = 7}Was mich in den Beispielaufgaben etwas irritiert ist, dass die Elemten teilweise mit "(...)" oder "[...]" oder auch "(...]" stehen. Ich vermute mal das ist ein Schreibfehler, oder?
+ Das Symbol "|" leitet also eine Art Bedinung ein. Bezüglich der Aufgabe a) würde es also grob heißen "x soll die Bedingung erfüllen, größer gleich minus 2 und kleiner gleich minus 4 zu sein". Kann man das so sagen?Noch einmal besten Dank und Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 68278
+CREATION_DATETIME: 1256382851
+MODIFICATION_DATETIME: 1256382851
+TITLE: Link Mathekurs
+LANGUAGE: GERMAN
+POS_TAG: value:Euch;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aktivierung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zwischenzeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Bei mir wird bei der Aktivierung vom <REMOVED_PERSON_ENTITY> angezeigt, dass es diese <REMOVED_PERSON_ENTITY> nicht mehr gibt. Hat in der Zwischenzeit einer von Euch, die aktuell passende <REMOVED_PERSON_ENTITY> gefunden?GrüßeMark 
+TAGGED_CONTENT:
+Bei_APPR mir_PPER wird_VAFIN bei_APPR der_ART Aktivierung_NN vom_APPRART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD angezeigt_VVPP ,_$, dass_KOUS es_PPER diese_PDAT <_NN REMOVED_PERSON_ENTITY_NE >_VVFIN nicht_PTKNEG mehr_ADV gibt_VVFIN ._$. Hat_VAFIN in_APPR der_ART Zwischenzeit_NN einer_PIS von_APPR Euch_NN ,_$, die_PRELS aktuell_ADJD passende_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_NE gefunden?GrüßeMark_NE 

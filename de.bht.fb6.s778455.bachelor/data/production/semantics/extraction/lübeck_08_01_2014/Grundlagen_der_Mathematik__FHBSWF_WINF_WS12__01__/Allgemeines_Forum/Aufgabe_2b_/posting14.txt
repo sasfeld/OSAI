@@ -1,0 +1,12 @@
+ID: 185681
+CREATION_DATETIME: 1354787810
+MODIFICATION_DATETIME: 1354787810
+TITLE: Re: Aufgabe 2b)
+PARENT_POSTING_ID: 185665
+CONTENT:
+wie gesagt, ich finde das gut und werde meine lösung auch so abegeben. was besseres fällt mir auch nicht ein.
+somit wäre b eingetlicht schon fast gelöst, da man jetzt nur noch zwei vektoren addieren muss und einmal einen vektor mit einen skalar multiplizieren muss.
+... ich bin gespannt auf die Klausur, wenn hier schon mehrere Leute knapp eine Woche für die Findung der Lösung einer Aufgabe benötigen ;) 
+Viele Grüße<PERSONAL_GREETING_REMOVEMENT>
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

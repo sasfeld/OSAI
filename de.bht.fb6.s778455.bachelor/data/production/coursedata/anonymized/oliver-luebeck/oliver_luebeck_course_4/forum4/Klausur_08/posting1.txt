@@ -1,0 +1,23 @@
+ID: 82
+CREATION_DATETIME: 1183399980000
+MODIFICATION_DATETIME: 1183399980000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo,
+
+In der Loesung zur Klausur 08 ist ein Fehler. Bei Aufgabe 2.2 komme ich auf diese Konsolenausgabe:
+
+X0X1X2X
+2Y2Y2Y2
+X0X1X2X
+1Y1Y1Y1
+
+Zur Aufgabe 4. b) habe ich ein Frage.
+Es sollen alle Attribute der Klasse PunkteKontoA genannt werden. Mit den attributen punkte und KontoNummer bin ich ja einverstanden aber das anzahlKontos mit dazu zählt, verstehe ich nicht ganz. Das Attribut ist eine Klassenvariable der Klasse PunkteKonto mit dem modifier private, sollte also auch für abgeleitete Klassen eine verdeckte variable sein. Wieso zählt sie dann mit zu den Attributen der Klasse PunkteKontoA ?
+
+Schöne Grüße
+	
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 1359
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Das steht in meiner Antwort unten schon eine ganze Weile...
+PARENT_POSTING_ID: 1329
+POSTING_TYPE: comment
+CONTENT:
+Das steht in meiner Antwort unten schon eine ganze Weile...
+TAGGED_CONTENT:

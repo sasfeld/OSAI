@@ -1,0 +1,11 @@
+ID: 186
+CREATION_DATETIME: 1349301600000
+MODIFICATION_DATETIME: 1349301600000
+TITLE: Ich hab gerade die Um
+PARENT_POSTING_ID: 158
+POSTING_TYPE: comment
+CONTENT:
+Ich hab gerade die Umbauarbeiten begonnen, ich beschreib morgen mal was ich gemacht haben werde :D
+*update:*
+wir brauchen smilies
+TAGGED_CONTENT:

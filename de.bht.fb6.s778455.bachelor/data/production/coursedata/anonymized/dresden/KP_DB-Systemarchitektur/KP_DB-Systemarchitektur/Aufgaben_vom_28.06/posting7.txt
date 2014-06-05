@@ -1,0 +1,14 @@
+ID: 2135
+CREATION_DATETIME: 1372543200000
+MODIFICATION_DATETIME: 1372543200000
+TITLE: Warum ist die kernelExecutionTime fast immer 0?
+
+In testdump.csv Dateien koennen wir sehen, dass ke...
+PARENT_POSTING_ID: 2107
+POSTING_TYPE: answer
+CONTENT:
+Warum ist die kernelExecutionTime fast immer 0?
+In testdump. csv Dateien koennen wir sehen, dass kernelExecutionTime fast immer 0.
+Brauche ich noch saveFeedback() auszufuehren bevor ich Correlationsanalysis machen?
+Wenn ein Column oder ein Row immer 0 ist, kann ich eigentlich kein Korrelationsanalyse machen.
+TAGGED_CONTENT:

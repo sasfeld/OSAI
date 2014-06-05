@@ -1,0 +1,11 @@
+ID: 2399
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: Die einzigen Mängel an den Foliensätzen waren die Diagramme.
+Natürlich würden mir noch massig Folien...
+PARENT_POSTING_ID: 2382
+POSTING_TYPE: comment
+CONTENT:
+Die einzigen Mängel an den Foliensätzen waren die Diagramme.
+Natürlich würden mir noch massig Folien einfallen, die man auch zur Codeanalyse machen könnte, aber das muss alles nicht sein. Wir sind besser dran, wenn wir es knapp halten und stattdessen auf Fragen gut antworten.
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 2766
+CREATION_DATETIME: 1383951600000
+MODIFICATION_DATETIME: 1383951600000
+TITLE: Ich erstelle ein System für ein Theater wo man Requisiten über eine Form, ähnlich wie die Registratio...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2764
+POSTING_TYPE: comment
+CONTENT:
+Ich erstelle ein System für ein Theater wo man Requisiten über eine Form, ähnlich wie die Registration Form aus dem Videoshop, ins System einfügt. <NAME_CORPUS_REPLACEMENT> habe ich natürlich auch eine Klasse Requisite erstellt, die ich im Entferntesten Sinne <NAME_CORPUS_REPLACEMENT> Disc. java abgeleitet habe. Dort hatte ich dann das @Entity rausgenommen.
+
+Warscheinlich wäre es aber sicher besser wenn es dort geblieben wäre. Die Form klappt bei mir aber auch nicht wirklich und wirft den Fehler "Request processing failed; nested exception is org. thymeleaf. exceptions. TemplateProcessingException: Exception evaluating SpringEL expression: "#fields. hasErrors('*')" (manage:28)". 
+TAGGED_CONTENT:

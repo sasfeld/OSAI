@@ -1,0 +1,16 @@
+ID: 37
+CREATION_DATETIME: 1201206000000
+MODIFICATION_DATETIME: 1201206000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 36
+CONTENT:
+
+    hallo ,
+
+damit deine variable buff den eingelesenen wert der methode readerTool erhaelt, musst du deine methode mit einem rueckgabewert versehen (also void raus und return rein)
+
+gruss
+
+    
+TAGGED_CONTENT:

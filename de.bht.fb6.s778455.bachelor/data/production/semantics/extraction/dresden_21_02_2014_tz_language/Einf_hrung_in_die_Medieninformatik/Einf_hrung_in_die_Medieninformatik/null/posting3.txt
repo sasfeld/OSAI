@@ -1,0 +1,24 @@
+ID: 633
+CREATION_DATETIME: 1351724400000
+MODIFICATION_DATETIME: 1351724400000
+TITLE: Ja, ich kann leider ebenfalls nicht auf Moodle zugreifen. Ich schlage daher vor, die Abgaben euren je...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:E-Mail;weight:1.0;significance:3.51418845310843;degreegeneralization:7;uri:20901800
+TOPIC_ZOOM_TAG: value:Kommunikationsdienste;weight:1.0;significance:3.42673879651575;degreegeneralization:4;uri:20034732
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:1.0;significance:3.25199587633262;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Finanzen;weight:2.0;significance:2.82332777150469;degreegeneralization:2;uri:21999881
+TOPIC_ZOOM_TAG: value:Internetdienste;weight:1.0;significance:2.50503336367649;degreegeneralization:6;uri:20772413
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Services und Dienstleistungen;weight:1.0;significance:2.11473682296541;degreegeneralization:4;uri:21993506
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:0.90229776862663;degreegeneralization:2;uri:21999847
+PARENT_POSTING_ID: 629
+POSTING_TYPE: answer
+CONTENT:
+Ja, ich kann leider ebenfalls nicht auf Moodle zugreifen. Ich schlage daher vor, die Abgaben euren jeweiligen Tutoren per E-Mail zu senden. Ich hätte also gerne die Abgaben der Gruppen 5 (DI 1. DS INF/E065), 8 (MI 2. DS INF/E065) und 10 (DO 1. DS INF/E065) zugeschickt, solange das Moodle nicht mitspielt.
+
+Grüße, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 2539
+CREATION_DATETIME: 1380578400000
+MODIFICATION_DATETIME: 1380578400000
+TITLE: I guess that [http://upstart.ubuntu.com/](Upstart) does what you want.
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2538
+POSTING_TYPE: answer
+CONTENT:
+I guess that [Upstart](http://upstart.ubuntu.com/) does what you want.
+TAGGED_CONTENT:

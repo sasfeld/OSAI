@@ -1,0 +1,10 @@
+ID: 2110
+CREATION_DATETIME: 1372370400000
+MODIFICATION_DATETIME: 1372370400000
+TITLE: Die einzigen Dateien, die von CLeverTrustee in den testCLT Ordner kopiert werden, sind die Header aus...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2107
+POSTING_TYPE: answer
+CONTENT:
+Die einzigen Dateien, die <NAME_CORPUS_REPLACEMENT> CLeverTrustee in den testCLT Ordner kopiert werden, sind die Header aus /CLeverTrustee/build/inc/ und die statische library, wenn ich mich nicht täusche. Aber die Correlation. h und Feedback. h brauchen wir im testCLT nicht.
+TAGGED_CONTENT:

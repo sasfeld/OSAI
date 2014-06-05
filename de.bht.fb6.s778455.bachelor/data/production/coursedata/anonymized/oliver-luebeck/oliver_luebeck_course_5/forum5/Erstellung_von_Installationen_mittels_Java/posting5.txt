@@ -1,0 +1,22 @@
+ID: 5
+CREATION_DATETIME: 1190847780000
+MODIFICATION_DATETIME: 1190847780000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 4
+CONTENT:
+
+Und was ist mit dem Tool hier?
+http://jstart32.sourceforge.net/
+
+What is jStart32 ?
+
+JStart32 works as a Win32-EXE wrapper to start JAVA Applications running on Windows 2000 or Windows XP. The exe creation tool allows developers to define icon, minimal java version and the start command of their java application. Both tools, the wrapper and the configuration utility are written in Delphi 7.
+
+
+screenshot.jpg
+
+Und was hast du eigentlich gegen JAR-Files?
+
+    
+TAGGED_CONTENT:

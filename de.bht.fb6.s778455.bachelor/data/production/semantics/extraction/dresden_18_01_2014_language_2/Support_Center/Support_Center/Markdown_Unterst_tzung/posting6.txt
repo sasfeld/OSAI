@@ -1,0 +1,12 @@
+ID: 65
+CREATION_DATETIME: 1342476000000
+MODIFICATION_DATETIME: 1342476000000
+TITLE: vllt kann man es auch
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 47
+POSTING_TYPE: comment
+CONTENT:
+vllt kann man es auch einschränken?
+
+Weil `inline code snippets` sind schon nützlich und automatische Linkerkennung http://google.<LEARNED_PERSON_NAME_REPLACEMENT>
+TAGGED_CONTENT:

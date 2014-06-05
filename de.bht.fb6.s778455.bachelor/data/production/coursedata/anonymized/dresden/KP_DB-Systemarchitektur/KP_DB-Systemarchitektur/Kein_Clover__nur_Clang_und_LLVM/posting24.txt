@@ -1,0 +1,9 @@
+ID: 2007
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Hab außerdem eben clang und llvm wieder installiert, weil Netbeans beim Remote Build offenbar irgendw...
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: answer
+CONTENT:
+Hab außerdem eben clang und llvm wieder installiert, weil Netbeans beim Remote Build offenbar irgendwie um die . bashrc rumkommt und es sonst nicht geht.
+TAGGED_CONTENT:

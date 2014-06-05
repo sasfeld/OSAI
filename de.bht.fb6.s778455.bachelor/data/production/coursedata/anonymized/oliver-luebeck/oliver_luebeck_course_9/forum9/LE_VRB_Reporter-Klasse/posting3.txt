@@ -1,0 +1,11 @@
+ID: 61
+CREATION_DATETIME: 1180961940000
+MODIFICATION_DATETIME: 1180961940000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 60
+CONTENT:
+ 
+Ah, dankeschön. Ja, das macht Sinn. Ich habe das allerdings etwas anders gelöst und hoffe, dass es so aber auch okay ist. 
+    
+TAGGED_CONTENT:

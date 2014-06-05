@@ -1,0 +1,9 @@
+ID: 1358
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: What does this have to do with null pointers?
+PARENT_POSTING_ID: 1325
+POSTING_TYPE: comment
+CONTENT:
+What does this have to do with null pointers?
+TAGGED_CONTENT:

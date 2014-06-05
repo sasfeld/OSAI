@@ -1,0 +1,9 @@
+ID: 1486
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Alternativ kannst Du auch Deine eigene Datenstruktur implementieren, wenn Dir das leichter fällt.
+PARENT_POSTING_ID: 1483
+POSTING_TYPE: comment
+CONTENT:
+Alternativ kannst Du auch Deine eigene Datenstruktur implementieren, wenn Dir das leichter fällt.
+TAGGED_CONTENT:

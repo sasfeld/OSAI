@@ -1,0 +1,9 @@
+ID: 110804155
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Interaktive Informationsvisualisierung
+LANGUAGE: UNKNOWN
+SUMMARY: null
+URL: http://mt.inf.tu-dresden.de/lehre/IInfoVis/2013/index.html

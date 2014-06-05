@@ -1,0 +1,15 @@
+ID: 12
+CREATION_DATETIME: 1191615600000
+MODIFICATION_DATETIME: 1191615600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 11
+CONTENT:
+
+Hallo 
+
+Coole Idee. Hatte das gleiche Problem vor ner Woche... =) Lustig, daß Du dazu einen Support-Artikel daraus machst...
+
+Beste Grüße,
+  
+TAGGED_CONTENT:

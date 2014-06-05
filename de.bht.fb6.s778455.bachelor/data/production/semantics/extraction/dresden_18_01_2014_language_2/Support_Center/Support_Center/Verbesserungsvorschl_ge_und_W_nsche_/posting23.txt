@@ -1,0 +1,10 @@
+ID: 517
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1351202400000
+TITLE: Die Möglichkeit nur einzelne Kurse per E-Mail zu abonnieren, z.B. möchte ich für de Support Center No...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 369
+POSTING_TYPE: answer
+CONTENT:
+Die Möglichkeit nur einzelne Kurse per E-Mail zu abonnieren, z. B. möchte ich für <LEARNED_PERSON_NAME_REPLACEMENT> Support Center <REMOVED_PERSON_ENTITY> im Web Interface aber nicht per E-Mail.
+TAGGED_CONTENT:

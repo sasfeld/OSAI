@@ -1,0 +1,12 @@
+ID: 2150
+CREATION_DATETIME: 1372716000000
+MODIFICATION_DATETIME: 1372716000000
+TITLE: Beim Korrigieren der Distinct-Testklasse ist mir aufgefallen, dass einerseits der Fehler "out of Ress...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2108
+POSTING_TYPE: answer
+CONTENT:
+Beim Korrigieren der Distinct-Testklasse ist mir aufgefallen, dass einerseits der Fehler "out of Ressources" auftritt, vermutlich wider zu großen Daten geschuldet. Später folgt noch ein Segfault.
+
+Wenn man die Workgroupsize aber hinreichend klein ansetzt, tritt der Segfault interessanterweise erst beim Durchlauf auf der AMD CPU, und <NAME_CORPUS_REPLACEMENT> nach dem 2. Durchlauf (aber innerhalb des OpenCL-Codes) . Ich suche weiter, ob der Fehler in der Testklasse liegt. Aber vielleicht könntet ihr auch schauen, ob <NAME_CORPUS_REPLACEMENT> vielleicht ein anderes Problem vorliegt. 
+TAGGED_CONTENT:

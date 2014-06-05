@@ -1,0 +1,4 @@
+ID: 36348
+MODIFICATION_DATETIME: 1289823855
+TITLE: ESAs "Reelle Zahlen" und "Funktionen" auf 23.11. verschoben
+FIRST_POSTING_ID: 97737

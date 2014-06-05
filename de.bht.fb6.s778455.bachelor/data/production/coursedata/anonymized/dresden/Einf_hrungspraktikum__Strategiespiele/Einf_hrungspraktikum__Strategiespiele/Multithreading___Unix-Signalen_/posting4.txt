@@ -1,0 +1,9 @@
+ID: 1502
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Naja, du musst das ja nicht überall prüfen, sondern nur an wichtigen Stellen. Überleg dir welche Teil...
+PARENT_POSTING_ID: 1500
+POSTING_TYPE: comment
+CONTENT:
+Naja, du musst das <LEARNED_PERSON_NAME_REPLACEMENT> nicht überall prüfen, sondern nur an wichtigen Stellen. Überleg dir welche Teile lange dauern, so dass es kritisch werden könnte die 1s einzuhalten.
+TAGGED_CONTENT:

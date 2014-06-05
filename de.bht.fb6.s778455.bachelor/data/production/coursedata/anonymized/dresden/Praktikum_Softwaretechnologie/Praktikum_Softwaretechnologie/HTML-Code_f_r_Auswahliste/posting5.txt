@@ -1,0 +1,9 @@
+ID: 3004
+CREATION_DATETIME: 1385247600000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: Stelle eine neue Frage statt eine Antwort unter deine Antwort zu setzten, ich überlege derweil. Kurze...
+PARENT_POSTING_ID: 2991
+POSTING_TYPE: comment
+CONTENT:
+Stelle eine neue Frage statt eine Antwort unter deine Antwort zu setzten, ich überlege derweil. Kurze Antwort, ist möglich.
+TAGGED_CONTENT:

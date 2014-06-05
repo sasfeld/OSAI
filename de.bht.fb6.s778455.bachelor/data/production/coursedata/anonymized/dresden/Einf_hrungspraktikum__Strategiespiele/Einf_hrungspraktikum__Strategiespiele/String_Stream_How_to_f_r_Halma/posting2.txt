@@ -1,0 +1,9 @@
+ID: 1257
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Wer lieber C-style programmiert, dem sei snprintf empfohlen (man snprintf). Macht im Prinzip das glei...
+PARENT_POSTING_ID: 1256
+POSTING_TYPE: comment
+CONTENT:
+Wer lieber C-style programmiert, dem sei snprintf empfohlen (man snprintf). Macht im Prinzip das gleiche wie ein "normales" printf, ausser dass es als ersten Parameter ein char-array erhält, in den der String geschrieben werden soll.
+TAGGED_CONTENT:

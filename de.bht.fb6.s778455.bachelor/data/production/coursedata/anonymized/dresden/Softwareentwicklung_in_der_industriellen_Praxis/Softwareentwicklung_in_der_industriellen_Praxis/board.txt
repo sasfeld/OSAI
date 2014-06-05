@@ -1,0 +1,6 @@
+ID: 2154602
+CREATION_DATETIME: 1380492000000
+MODIFICATION_DATETIME: 1380492000000
+TITLE: Softwareentwicklung in der industriellen Praxis
+INTRO: null
+TYPE: null

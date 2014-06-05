@@ -1,0 +1,28 @@
+ID: 174159
+CREATION_DATETIME: 1351105590
+MODIFICATION_DATETIME: 1351105590
+TITLE: Re: Gruppen für die Einsendeaufgaben
+TOPIC_ZOOM_TAG: value:Hollenbach;weight:1.0;significance:12.7085495152339;degreegeneralization:14;uri:21863456
+TOPIC_ZOOM_TAG: value:Gemeinden im Landkreis Aichach-Friedberg;weight:1.0;significance:9.61750706187561;degreegeneralization:13;uri:21863626
+TOPIC_ZOOM_TAG: value:Landkreis Aichach-Friedberg;weight:1.0;significance:9.34125368524745;degreegeneralization:12;uri:21863711
+TOPIC_ZOOM_TAG: value:Bayern;weight:1.0;significance:4.56358009814605;degreegeneralization:10;uri:21996634
+TOPIC_ZOOM_TAG: value:Deutschland;weight:1.0;significance:2.0357642545643;degreegeneralization:8;uri:21996974
+TOPIC_ZOOM_TAG: value:Europa;weight:1.0;significance:1.55587681555031;degreegeneralization:6;uri:21972001
+NER_TAG: value:Ragab El Sayed;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:Ragab El Sayed;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Aktualisierung;weight:0.0;uri:;postag:NN
+POS_TAG: value:n;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppen;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 172291
+CONTENT:
+Aktualisierung:
+Derzeit haben sich folgende Gruppen gebildet:
+<REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, Ramon Hollenbach
+Maxim Schwarz, <REMOVED_PERSON_ENTITY>, Steven Pawellek
+Peter Wachsmann, <REMOVED_PERSON_ENTITY>, Tim Brockmann
+Christian Giehler, <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, Thomas Severin
+Martin Duckert, <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, Bettina Löwe
+Nasser Ali, Ragab El Sayed, Ergün Aras, <REMOVED_PERSON_ENTITY> (so richtig?)
+TAGGED_CONTENT:
+Aktualisierung_NN :_$. Derzeit_ADV haben_VAFIN sich_PRF folgende_ADJA Gruppen_NN gebildet_VVPP :_$. <_CARD REMOVED_PERSON_ENTITY_NN >_CARD ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, Ramon_NE Hollenbach_NE Maxim_NE Schwarz_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, Steven_NE Pawellek_NE Peter_NE Wachsmann_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, Tim_NE Brockmann_NE Christian_NE Giehler_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, Thomas_NE Severin_NE Martin_NE Duckert_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, Bettina_NE Löwe_NE Nasser_NE Ali_NE ,_$, Ragab_NE El_NE Sayed_NE ,_$, Ergün_NN Aras_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE -LRB-_TRUNC so_ADV richtig_ADJD ?_$. -RRB-_TRUNC 

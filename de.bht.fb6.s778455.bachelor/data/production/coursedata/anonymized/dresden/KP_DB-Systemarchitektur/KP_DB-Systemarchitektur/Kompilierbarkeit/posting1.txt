@@ -1,0 +1,9 @@
+ID: 2115
+CREATION_DATETIME: 1372456800000
+MODIFICATION_DATETIME: 1372543200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Cheng, du hast vergessen, deine Dateien ins SVN einzuckecken. Das ganze ist jetzt nicht mehr kompilierbar.
+TAGGED_CONTENT:

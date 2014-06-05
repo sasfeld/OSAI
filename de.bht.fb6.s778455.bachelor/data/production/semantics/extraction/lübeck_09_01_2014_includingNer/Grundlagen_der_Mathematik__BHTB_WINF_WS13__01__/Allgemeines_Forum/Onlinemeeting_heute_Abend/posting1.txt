@@ -1,0 +1,40 @@
+ID: 241941
+CREATION_DATETIME: 1381342546
+MODIFICATION_DATETIME: 1381342546
+TITLE: Onlinemeeting heute Abend
+TOPIC_ZOOM_TAG: value:Adobe;weight:1.0;significance:3.12544833501957;degreegeneralization:13;uri:20199343
+TOPIC_ZOOM_TAG: value:Amerikanische Softwareunternehmen;weight:1.0;significance:2.25176872698205;degreegeneralization:12;uri:20921061
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:3.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Softwareunternehmen;weight:1.0;significance:2.14838375088077;degreegeneralization:9;uri:20921078
+TOPIC_ZOOM_TAG: value:IT-Unternehmen;weight:1.0;significance:2.13714673176666;degreegeneralization:7;uri:20030941
+TOPIC_ZOOM_TAG: value:Softwarebranche;weight:1.0;significance:2.12214269883759;degreegeneralization:8;uri:21868879
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Informationstechnologie;weight:1.0;significance:2.08392661988725;degreegeneralization:6;uri:21305822
+TOPIC_ZOOM_TAG: value:Computerunternehmen;weight:1.0;significance:2.02507702731785;degreegeneralization:8;uri:20002789
+TOPIC_ZOOM_TAG: value:Computerbranche;weight:1.0;significance:2.00219638307713;degreegeneralization:7;uri:20766616
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Bürotechnik, Computer und Datenverarbeitung;weight:1.0;significance:2.00219638307713;degreegeneralization:6;uri:21958469
+TOPIC_ZOOM_TAG: value:Unternehmen in den USA;weight:1.0;significance:1.76066681427887;degreegeneralization:11;uri:20906594
+TOPIC_ZOOM_TAG: value:Software;weight:1.0;significance:1.73674454815565;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:1.67474181585092;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:1.66926724024071;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Wirtschaft in den USA;weight:1.0;significance:1.64386503730383;degreegeneralization:9;uri:21944019
+TOPIC_ZOOM_TAG: value:Nordamerikanische Wirtschaft;weight:1.0;significance:1.636402039006;degreegeneralization:7;uri:21949000
+TOPIC_ZOOM_TAG: value:Technologieunternehmen;weight:1.0;significance:1.58460872691201;degreegeneralization:6;uri:20761754
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:1.47917088314699;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:1.43671328660255;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.34943182699235;degreegeneralization:5;uri:21993370
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:1.33567892145369;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.22055656413693;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:USA;weight:1.0;significance:1.04672836991657;degreegeneralization:8;uri:21980416
+TOPIC_ZOOM_TAG: value:Nordamerika;weight:1.0;significance:1.0062707563318;degreegeneralization:6;uri:21999201
+TOPIC_ZOOM_TAG: value:Unternehmen, Firmen und Firmengruppen;weight:1.0;significance:0.97027048096047;degreegeneralization:4;uri:21973565
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:0.884199473190443;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:0.716279378747483;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:0.601531845751087;degreegeneralization:2;uri:21999847
+NER_TAG: value:Adobe Connect;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+ich möchte mich nur mal kurz vergewissern, ob irgendeine Information an mir vorbei gegangen ist.
+Findet die Onlinekonferenz als "Web conference" mit Adobe Connect statt oder über einen alternativen Kommunikationskanal?
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

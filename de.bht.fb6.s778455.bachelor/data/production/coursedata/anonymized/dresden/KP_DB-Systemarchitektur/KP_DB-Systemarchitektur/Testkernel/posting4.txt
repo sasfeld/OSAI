@@ -1,0 +1,9 @@
+ID: 1798
+CREATION_DATETIME: 1368396000000
+MODIFICATION_DATETIME: 1368396000000
+TITLE: Na ja, technisch ja. Aber die Idee ist doch, dass ihr pro kernel + daten eine Entscheidung treffen so...
+PARENT_POSTING_ID: 1797
+POSTING_TYPE: comment
+CONTENT:
+Na ja, technisch ja. Aber die Idee ist doch, dass ihr pro kernel + daten eine Entscheidung treffen sollt, wo dieser Kernel ausgeführt wird. Wenn wir jetzt mehrere Kernel mit total unterschiedlichen Eigenschaften <NAME_CORPUS_REPLACEMENT> mit rein bringen, dann muss man auch <REMOVED_PERSON_ENTITY> <NAME_CORPUS_REPLACEMENT> A nach B + irgendwelche Abhängigkeiten beachten. Wobei davon wieder die Entscheidung <NAME_CORPUS_REPLACEMENT> A und B abhängt: ist es besser die Daten zu kopieren oder beide Kernel auf A auszuführen ... das kann sehr komplex werden!
+TAGGED_CONTENT:

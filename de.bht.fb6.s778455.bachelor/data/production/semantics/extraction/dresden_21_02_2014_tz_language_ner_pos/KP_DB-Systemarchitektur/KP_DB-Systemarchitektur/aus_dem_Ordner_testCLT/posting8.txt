@@ -1,0 +1,16 @@
+ID: 1850
+CREATION_DATETIME: 1369260000000
+MODIFICATION_DATETIME: 1369260000000
+TITLE: Alles klar. weitere Frage: Wenn ich Parameter habe, die ich sowohl für Input als auch für Output benö...
+LANGUAGE: GERMAN
+POS_TAG: value:Listen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Input;weight:0.0;uri:;postag:NN
+POS_TAG: value:Output;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Parameter;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Alles klar. weitere Frage: Wenn ich Parameter habe, die ich sowohl für Input als auch für Output benötige, sollen die in beiden Listen vorkommen?
+TAGGED_CONTENT:
+Alles_PIS klar_ADJD ._$. weitere_ADJA Frage_NN :_$. Wenn_KOUS ich_PPER Parameter_NN habe_VAFIN ,_$, die_PRELS ich_PPER sowohl_KON für_APPR Input_NN als_KOKOM auch_ADV für_APPR Output_NN benötige_VVFIN ,_$, sollen_VMFIN die_ART in_APPR beiden_PIDAT Listen_NN vorkommen_VVFIN ?_$. 

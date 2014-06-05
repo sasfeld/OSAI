@@ -1,0 +1,10 @@
+ID: 428
+CREATION_DATETIME: 1350597600000
+MODIFICATION_DATETIME: 1375135200000
+TITLE: How many credits will I get?
+PARENT_POSTING_ID: 229
+POSTING_TYPE: question
+CONTENT:
+Hello,
+in the study regulation paper is written that we <NAME_CORPUS_REPLACEMENT> get 6 credit points, but course web page says about 5 ones. What is true? And if possible, I have the same question regarding real-time systems. 
+TAGGED_CONTENT:

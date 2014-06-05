@@ -1,0 +1,24 @@
+ID: 2593
+CREATION_DATETIME: 1382306400000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: Magic Draw UML is the best UML tool on the market because it supports at best (conformant) the UML st...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2581
+POSTING_TYPE: answer
+CONTENT:
+<REMOVED_PERSON_ENTITY> UML is the best UML tool on the market because it supports at best (conformant) the UML standard (UML metamodel).
+
+The idea to use XMI for the exchange of UML models (not diagrams because diagrams only have no semantics) is basically ok. However in practice of state-of-the-art UML tools this does not really work.
+
+At first you have to choose the right metamodel for the exchange (EMF version ..., MOF version ...).
+
+Then it could basically work with a few exceptions because of the UML tool's extensions.
+
+In last years this situation is becoming better but in my experience there is still no satisfying solution.
+
+Therefore it is better to work with MagicDraw UML.
+
+Let me say it again: We do not need the diagrams we need for evaluation the models behind the diagrams!
+
+And, we <NAME_CORPUS_REPLACEMENT> be lucky to get the Professional Edition from NoMagic!
+TAGGED_CONTENT:

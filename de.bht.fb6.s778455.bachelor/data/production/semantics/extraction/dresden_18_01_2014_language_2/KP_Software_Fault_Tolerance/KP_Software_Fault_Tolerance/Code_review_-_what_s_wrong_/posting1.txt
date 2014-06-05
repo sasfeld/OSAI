@@ -1,0 +1,78 @@
+ID: 754
+CREATION_DATETIME: 1352761200000
+MODIFICATION_DATETIME: 1352847600000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+
+I <NAME_CORPUS_REPLACEMENT> took a look at the slides for task 3 and since it says "Post your answer in auditorium", I'll give it a start :-)
+
+However I'm not sure if I should post it to the public, so I made this post private and leave this decision to the course maintainers.
+
+## 1. example: ##
+
+Code from the slide:
+
+```ruby
+
+try {
+
+    fclose(fp);
+
+} catch (...) {
+
+    // whatever
+
+}
+
+```
+
+I think the problem here is that a library function which is responsible for closing a resource, e. g. fclose(), should probably not throw exceptions if it should be easy to use. The problem arises if you have to close more than one resource. Most programmers get it wrong like this:
+
+```ruby
+
+try {
+
+    fclose(fp1);
+
+    fclose(fp2); // potential resource leak
+
+} catch (...) {
+
+    // whatever
+
+}
+
+```
+
+This <NAME_CORPUS_REPLACEMENT> lead to a resource leak if the first fclose() call throws an exception. In this case the second fclose() call is not reached and resource fp2 will not be closed. You have to implement a separate try-catch for every fclose() call or use a safe wrapper function which does this for you and ignores or logs the exception.
+
+## 2. example ##
+
+Code from the slide:
+
+```ruby
+
+char* p = (char*) malloc(100);
+
+if (errno) puts(“out of memory”);
+
+```
+
+This code relies on a side effect of the stdlib function malloc(): setting the global variable errno. If your program has multiple threads which happen to call malloc() at a similar time, you end up with only the errno from the last malloc() call in both threads. But even in a single-threaded program this <NAME_CORPUS_REPLACEMENT> be a problem, consider the code:
+
+```ruby
+
+char* p1 = (char*) malloc(100);
+
+char* p2 = (char*) malloc(100);
+
+if (errno) puts("out of memory"); // but how do you know *which* malloc() call failed?
+
+```
+
+A better approach to detect the allocation failure is to check whether the (local) return values of malloc() in p, p1 or p2 are zero.
+TAGGED_CONTENT:

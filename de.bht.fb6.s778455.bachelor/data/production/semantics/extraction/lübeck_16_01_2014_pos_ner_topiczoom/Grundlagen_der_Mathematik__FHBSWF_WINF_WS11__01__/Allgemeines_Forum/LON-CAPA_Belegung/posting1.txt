@@ -1,0 +1,14 @@
+ID: 117518
+CREATION_DATETIME: 1319129297
+MODIFICATION_DATETIME: 1319129297
+TITLE: LON-CAPA Belegung
+POS_TAG: value:Bin;weight:0.0;uri:;postag:NN
+POS_TAG: value:t;weight:0.0;uri:;postag:NN
+POS_TAG: value:Funkt;weight:0.0;uri:;postag:NN
+POS_TAG: value:linalgmathegrundl;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kurs;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo, ich bin etwas Spät würde aber gern in LON-CAPA den Kurs ws20112012_VFH_linalgmathegrundl belegen, kann mich aber nicht selbst eintragen (Funkt. nicht zugelassen)Bin ich jetzt zu Spät oder kann man da noch was machen?Gruß 
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, ich_PPER bin_VAFIN etwas_ADV Spät_NN würde_VAFIN aber_ADV gern_ADV in_APPR LON-CAPA_NE den_ART Kurs_NN ws20112012_VFH_linalgmathegrundl_NN belegen_VVFIN ,_$, kann_VMFIN mich_PPER aber_ADV nicht_PTKNEG selbst_ADV eintragen_VVINF -LRB-_TRUNC Funkt_NN ._$. nicht_PTKNEG zugelassen_VVPP -RRB-_TRUNC Bin_NN ich_PPER jetzt_ADV zu_APPR Spät_NN oder_KON kann_VMFIN man_PIS da_ADV noch_ADV was_PWS machen?Gruß_NN 

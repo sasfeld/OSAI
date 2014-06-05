@@ -1,0 +1,10 @@
+ID: 2331
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Das zeig ich dir gerne persönlich. Es sind immer noch genug Diagramme drin, die auf der x-Achse schle...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Das zeig ich dir gerne persönlich. Es sind immer noch genug Diagramme drin, die auf der x-Achse schlechte Einteilungen haben und an den y-Achsen sehe ich nirgends eine <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

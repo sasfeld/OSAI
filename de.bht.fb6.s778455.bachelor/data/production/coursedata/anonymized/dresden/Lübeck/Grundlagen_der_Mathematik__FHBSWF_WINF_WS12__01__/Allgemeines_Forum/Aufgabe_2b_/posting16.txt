@@ -1,0 +1,14 @@
+ID: 185773
+CREATION_DATETIME: 1354807434
+MODIFICATION_DATETIME: 1354807434
+TITLE: Re: Aufgabe 2b)
+PARENT_POSTING_ID: 185647
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+Du schreibst "Letztendlich sind hier eine <REMOVED_PERSON_ENTITY> von Vektoren gegeben (v1, v2, v3, v4) die laut Aufgabenstellung einen Untervektorraum (W) des reellen Vektorraums (V) bilden, den wir bereits in der Aufgabenstellung a) kennen gelernt haben. Jetzt soll bewiesen werden wieso dieser Vektorraum W ein Untervektorraum des Vektorraum V ist."
+Das ist so nicht korrekt. Laut Aufgabenstellung bilden alle Knotenbewertungen eines beliebigen Graphen, für die jeweils die Nullregel erfüllt ist, einen Vektorraum. Und für beliebige Graphen soll dies ja auch gezeigt werden.
+V1 bis V4 sind auch bei dem konkret vorliegenden Graphen ja nur irgendwelche Repräsentanten des so definierten Vektorraumes W. Es gibt ja in diesem Fall unendlich viele Knotenbewertungen, die die Nullregel erfüllen. Man hätte also auch irgendwelche
+Allgemein gilt offensichtlich (siehe den Ansatz über ein LGS), dass es für einen beliebigen Graphen G entweder genau eine Nullsummen-Knotenbewertung gibt (den Nullvektor) oder unendlich viele.
+Grüße
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

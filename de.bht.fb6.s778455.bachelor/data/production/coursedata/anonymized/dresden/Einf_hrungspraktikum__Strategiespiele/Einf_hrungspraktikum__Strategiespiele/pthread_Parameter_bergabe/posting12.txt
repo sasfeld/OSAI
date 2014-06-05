@@ -1,0 +1,10 @@
+ID: 1311
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Die erste Regel für Programmieren mit Threads: 'Mache niemals Annahmen darüber, in welcher zeitlichen...
+PARENT_POSTING_ID: 1310
+POSTING_TYPE: comment
+CONTENT:
+Die erste Regel für Programmieren mit Threads: 'Mache niemals Annahmen darüber, in welcher zeitlichen Reihenfolge Deine Threads ausgeführt werden.'
+Konkret kann es in Deinem Fall sehr wohl vorkommen, dass main() eine Sekunde schläft, der andere Thread aber in der Zwischenzeit keine Rechenzeit bekommen hat. Die korrekte Lösung für Dein Problem ist die Verwendung <NAME_CORPUS_REPLACEMENT> Synchronisationsprimitiven, wie bspw. Semaphoren. Das bringen wir Dir dann im 3. Semester in der Betriebssysteme-Vorlesung bei. ;)
+TAGGED_CONTENT:

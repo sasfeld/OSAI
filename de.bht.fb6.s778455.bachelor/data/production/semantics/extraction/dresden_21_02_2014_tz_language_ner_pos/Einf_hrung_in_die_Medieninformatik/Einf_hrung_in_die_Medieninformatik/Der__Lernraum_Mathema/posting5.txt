@@ -1,0 +1,14 @@
+ID: 192
+CREATION_DATETIME: 1349560800000
+MODIFICATION_DATETIME: 1349560800000
+TITLE: Da nächste Woche sowi
+LANGUAGE: GERMAN
+POS_TAG: value:Woche;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:bungen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 190
+POSTING_TYPE: answer
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> nächste Woche sowieso noch keine Übungen statt finden, bekommen wir das sicher mitgeteilt. 
+TAGGED_CONTENT:
+<_XY NAME_CORPUS_REPLACEMENT_NN >_CARD nächste_ADJA Woche_NN sowieso_ADV noch_ADV keine_PIAT Übungen_NN statt_APPR finden_VVINF ,_$, bekommen_VVFIN wir_PPER das_ART sicher_ADJD mitgeteilt_VVPP ._$. 

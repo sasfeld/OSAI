@@ -1,0 +1,8 @@
+ID: 2023714
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: KP DB-Systemarchitektur
+SUMMARY: null
+URL: http://wwwdb.inf.tu-dresden.de/teaching/KPSA

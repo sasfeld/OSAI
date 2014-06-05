@@ -1,0 +1,16 @@
+ID: 2645
+CREATION_DATETIME: 1383001200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Werte RNP-Teilnehmer, damit Sie sich nicht am Reformationstag (alternativ "an Halloween") langweilen, habe ich soeben das 3. Kapitel der Vorlesung online gestellt. Es findet sich unter folgendem <REMOVED_PERSON_ENTITY>:
+
+http://www.rn.inf.tu-dresden. de/lectures/Rechnernetzpraxis/03_RNP_Internet_Protocol. pdf
+
+Werfen Sie bitte vor der nächsten Veranstaltung zumindest mal 15-20 Minuten einen Blick auf das Material. Behandelt wird vor allem IPv6...
+
+Das Übungsmaterial werde ich spätestens am Samstag bereitstellen.
+TAGGED_CONTENT:

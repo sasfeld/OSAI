@@ -1,0 +1,10 @@
+ID: 255
+CREATION_DATETIME: 1349820000000
+MODIFICATION_DATETIME: 1349820000000
+TITLE: War wohl etwas missve
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 215
+POSTING_TYPE: comment
+CONTENT:
+War wohl etwas missverständlich: Es kamen wegen 5 neuen Antworten/Kommentaren zum gleichen Thema in kurzer Zeit 5 Emails. Es würde mir reichen, wenn ich einmal zu Neuigkeiten im Thema per Mail informiert werde, und dann, bis ich mich das nächste mal eingelogt habe um die Neuigkeit zur Kenntnis zu nehmen, keine weiteren Mails mehr kommen. (Oder nur noch eine pro Tag oder so.)
+TAGGED_CONTENT:

@@ -1,0 +1,13 @@
+ID: 49
+CREATION_DATETIME: 1193297040000
+MODIFICATION_DATETIME: 1193297040000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 48
+CONTENT:
+
+ Ziel dieser Aufgabe ist es, mit einem kleinen Beispiel zu zeigen, wie eine Funktionalität in einer Schnittstelle gegeben, hier Rechner, zwei Implementierungen haben kann. Bis auf dem Typ, womit in der Implementierung berechnet wird, gibt es einen weiteren Unterschied zwischen beiden Implementierungen. Es ist sinnvoll die ArithmeticException im IntRechner zu fangen, dagegen in FloatRechner nicht.
+
+Mit freundlichen Gruessen,
+	
+TAGGED_CONTENT:

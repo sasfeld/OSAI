@@ -1,0 +1,9 @@
+ID: 2412
+CREATION_DATETIME: 1374444000000
+MODIFICATION_DATETIME: 1374444000000
+TITLE: Als ich kam, war noch zu. Gut, ich komm' hoch.
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Als ich kam, war noch zu. Gut, ich komm' hoch.
+TAGGED_CONTENT:

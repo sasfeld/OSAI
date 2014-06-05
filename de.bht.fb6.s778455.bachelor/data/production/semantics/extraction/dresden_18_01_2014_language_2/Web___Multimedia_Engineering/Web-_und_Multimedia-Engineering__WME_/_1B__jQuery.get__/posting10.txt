@@ -1,0 +1,14 @@
+ID: 588
+CREATION_DATETIME: 1351465200000
+MODIFICATION_DATETIME: 1351465200000
+TITLE: $(document).ready(function(){..}) habe ich entfernt, da läuft auch ohne dem. das problem bleibt jedoc...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 586
+POSTING_TYPE: comment
+CONTENT:
+$(document). ready(function(){..}) habe ich entfernt, <NAME_CORPUS_REPLACEMENT> läuft auch ohne dem. das problem bleibt jedoch bestehen. Auch wenn ich eine Funktion einbaue, ändert sich nix an der Tatsache.
+
+Ich kann es drehen und wenden, wie ich will - ich benötige nach dem get 2 alerts - erst dann geht es - hat dies irgendwas mit asynchronen aufrufen zu tun (davon habe ich gar keinen plan)?
+
+gibt es notfalls eine andere möglichkeit an die daten <NAME_CORPUS_REPLACEMENT> xml/xhtml zu kommen?
+TAGGED_CONTENT:

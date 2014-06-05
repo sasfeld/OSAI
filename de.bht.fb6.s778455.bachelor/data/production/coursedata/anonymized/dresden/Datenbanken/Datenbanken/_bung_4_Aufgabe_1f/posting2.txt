@@ -1,0 +1,10 @@
+ID: 2516
+CREATION_DATETIME: 1376085600000
+MODIFICATION_DATETIME: 1376172000000
+TITLE: Die Umbenennung ist meiner Meinung nach optional, da für eine Vereinigung nur gelten muss, dass beide...
+PARENT_POSTING_ID: 2515
+POSTING_TYPE: answer
+CONTENT:
+Die Umbenennung ist meiner Meinung nach optional, <NAME_CORPUS_REPLACEMENT> für eine <REMOVED_PERSON_ENTITY> nur gelten muss, dass beide Relationen einen kompatiblen Wertebereich und (bis auf Umbenennung) das gleiche Relationenschema besitzen. Das heißt die verschiedenen Attribute müssen gleich sein.
+Hier sind die beiden Attribute, um die es geht S_NAME und M_NAME, welche offensichtlich gleich sind (bis auf Umbenennung).
+TAGGED_CONTENT:

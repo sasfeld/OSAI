@@ -1,0 +1,10 @@
+ID: 1144
+CREATION_DATETIME: 1361401200000
+MODIFICATION_DATETIME: 1361401200000
+TITLE: If you are allocating 4000 * maximum 1 MB chunks, this would be up to 4 GB of memory. It seems more l...
+PARENT_POSTING_ID: 1143
+POSTING_TYPE: comment
+CONTENT:
+If you are allocating 4000 * maximum 1 MB chunks, this would be up to 4 GB of memory. It seems more likely you are running out of virtual memory or out of physical memory for your qemu instance here.
+Plus: Do you do proper error checking? The memory allocator should tell you what is going wrong here.
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 61
+CREATION_DATETIME: 1290081360000
+MODIFICATION_DATETIME: 1290081360000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 60
+CONTENT:
+ 
+Lieber , liebe Studierende,
+
+Danke für die Erinnerung. Wie Sie im Kursplan sehen können, sind die Webkonferenzen nur um 19Uhr geplant, da nicht so viele sich beteiligt haben. Für diejenige, die erst etwas später sich einschalten können (etwa 19:15), werde ich nach 20:00 den Anfang wiederholen. In der LE08 in Moodle steht ein Programm, das wir heute Abend besprechen werden.
+Bis heute Abend,
+	
+TAGGED_CONTENT:

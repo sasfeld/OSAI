@@ -1,0 +1,48 @@
+ID: 115381
+CREATION_DATETIME: 1319985828
+MODIFICATION_DATETIME: 1319985828
+TITLE: Kapitel 2.4 - Aufgabe 2
+TOPIC_ZOOM_TAG: value:Mathematische Logik;weight:1.0;significance:3.69970386759993;degreegeneralization:6;uri:20881349
+TOPIC_ZOOM_TAG: value:Symbolische Logik;weight:1.0;significance:3.69970386759993;degreegeneralization:7;uri:20782698
+TOPIC_ZOOM_TAG: value:Aussagenlogik;weight:1.0;significance:3.69970386759993;degreegeneralization:8;uri:20847655
+TOPIC_ZOOM_TAG: value:Übersetzung;weight:1.0;significance:2.81528987939754;degreegeneralization:7;uri:20914720
+TOPIC_ZOOM_TAG: value:Logik;weight:1.0;significance:2.77550762685335;degreegeneralization:4;uri:21472524
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:2.59376527669224;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Sprachen der Erde;weight:1.0;significance:2.35911257780419;degreegeneralization:6;uri:21978223
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:3.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Sprache, Zivilisation und Bevölkerung;weight:1.0;significance:2.22197222718385;degreegeneralization:5;uri:20895986
+TOPIC_ZOOM_TAG: value:Sprache als Bereich der Kultur;weight:1.0;significance:1.92180903080483;degreegeneralization:5;uri:20896003
+TOPIC_ZOOM_TAG: value:Kinder und Jugendliche;weight:1.0;significance:1.82144066654353;degreegeneralization:6;uri:21981759
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:1.66956903594565;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Geisteswissenschaften;weight:1.0;significance:1.55144820605651;degreegeneralization:3;uri:21978240
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:1.49132817398893;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:1.47917088314699;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Gesellschaft und Bevölkerungsgruppen;weight:1.0;significance:1.34546865460662;degreegeneralization:5;uri:21976727
+TOPIC_ZOOM_TAG: value:Bevölkerung;weight:1.0;significance:1.29609771644254;degreegeneralization:4;uri:21634313
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:1.16740572155176;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Kunst, Kultur, Musik;weight:1.0;significance:1.01590231222495;degreegeneralization:2;uri:21999796
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:0.72709721863856;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:0.716279378747483;degreegeneralization:2;uri:21999813
+POS_TAG: value:Ball;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kinder;weight:0.0;uri:;postag:NN
+POS_TAG: value:Herangehensweise;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aussagenlogik;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fenster;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ansatz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rabauken;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wahrheit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Irgendwie;weight:0.0;uri:;postag:NN
+POS_TAG: value:terin;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aussagen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wahrheitstafel;weight:0.0;uri:;postag:NN
+POS_TAG: value:nge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Personen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bausteine;weight:0.0;uri:;postag:NN
+POS_TAG: value:ter;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen, kann mir jemand die Herangehensweise für diese Aufgabe (Bausteine der Aussagenlogik) verraten:-------------''Wer von euch Rabauken hat den Ball in mein Fenster geschossen?'' schreit der <REMOVED_PERSON_ENTITY> wutschnaubend. Trotzig stehen die vier Kinder da. <REMOVED_PERSON_ENTITY> sagt: ''<REMOVED_PERSON_ENTITY> war es!'' <REMOVED_PERSON_ENTITY> sagt: ''<REMOVED_PERSON_ENTITY> hat es getan!'' <REMOVED_PERSON_ENTITY> sagt: ''Ich war es nicht!'' <REMOVED_PERSON_ENTITY> sagt: ''<REMOVED_PERSON_ENTITY> hat gelogen!''Wenn nur eine(r) von den vieren gelogen hat, wer hat den Ball geschossen? Und wer wars, wenn nur eine(r) die Wahrheit gesagt hat? Wir gehen dabei davon aus, dass es sich um einen Einzeltäter (eine Einzeltäterin) handelt.-------------Irgendwie hab ich da keinen Ansatz bzw. ich vllt. etwas zu kompliziert. Bisher hab ich versucht die Aussagen bzw. die Personen in einer Wahrheitstafel zu erfassen,  schaffe es aber nicht die Zusammenhänge in die Aussagenlogik zu übersetzten. Danke &amp; Gruß, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, kann_VMFIN mir_PPER jemand_PIS die_ART Herangehensweise_NN für_APPR diese_PDAT Aufgabe_NN -LRB-_TRUNC Bausteine_NN der_ART Aussagenlogik_NN -RRB-_TRUNC verraten_VVPP :_$. -------------_TRUNC ''_KON Wer_PWS von_APPR euch_PPER Rabauken_NN hat_VAFIN den_ART Ball_NN in_APPR mein_PPOSAT Fenster_NN geschossen_VVPP ?_$. ''_XY schreit_VVFIN der_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD wutschnaubend_ADJD ._$. Trotzig_ADJD stehen_VVFIN die_ART vier_CARD Kinder_NN da_ADV ._$. <_XY REMOVED_PERSON_ENTITY_NE >_CARD sagt_VVFIN :_$. ''_CARD <_XY REMOVED_PERSON_ENTITY_NE >_NE war_VAFIN es_PPER !_$. ''_XY <_XY REMOVED_PERSON_ENTITY_NE >_CARD sagt_VVFIN :_$. ''_CARD <_XY REMOVED_PERSON_ENTITY_NE >_NE hat_VAFIN es_PPER getan_VVPP !_$. ''_XY <_XY REMOVED_PERSON_ENTITY_NE >_CARD sagt_VVFIN :_$. ''_CARD Ich_PPER war_VAFIN es_PPER nicht_PTKNEG !_$. ''_XY <_XY REMOVED_PERSON_ENTITY_NE >_CARD sagt_VVFIN :_$. ''_CARD <_XY REMOVED_PERSON_ENTITY_NE >_NE hat_VAFIN gelogen_VVPP !_$. ''_XY Wenn_KOUS nur_ADV eine_ART -LRB-_TRUNC r_KON -RRB-_TRUNC von_APPR den_ART vieren_ADJA gelogen_VVPP hat_VAFIN ,_$, wer_PWS hat_VAFIN den_ART Ball_NN geschossen_VVPP ?_$. Und_KON wer_PWS wars_PIS ,_$, wenn_KOUS nur_ADV eine_ART -LRB-_TRUNC r_KON -RRB-_TRUNC die_ART Wahrheit_NN gesagt_VVPP hat_VAFIN ?_$. Wir_PPER gehen_VVFIN dabei_PROAV davon_PROAV aus_PTKVZ ,_$, dass_KOUS es_PPER sich_PRF um_APPR einen_ART Einzeltäter_NN -LRB-_TRUNC eine_ART Einzeltäterin_NN -RRB-_TRUNC handelt_VVFIN ._$. -------------_TRUNC Irgendwie_NN hab_VAFIN ich_PPER da_ADV keinen_PIAT Ansatz_NN bzw_NE ._$. ich_PPER vllt_VVFIN ._$. etwas_PIS zu_PTKZU kompliziert_VVFIN ._$. Bisher_ADV hab_VAFIN ich_PPER versucht_VVFIN die_ART Aussagen_NN bzw_NE ._$. die_ART Personen_NN in_APPR einer_ART Wahrheitstafel_NN zu_PTKZU erfassen_VVINF ,_$, schaffe_VVFIN es_PPER aber_ADV nicht_PTKNEG die_ART Zusammenhänge_NN in_APPR die_ART Aussagenlogik_NN zu_PTKZU übersetzten_VVINF ._$. Danke_PROAV &_KON Gruß_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

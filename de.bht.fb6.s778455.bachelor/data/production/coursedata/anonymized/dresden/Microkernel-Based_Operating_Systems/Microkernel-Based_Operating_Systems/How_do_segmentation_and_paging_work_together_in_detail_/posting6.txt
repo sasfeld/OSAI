@@ -1,0 +1,9 @@
+ID: 1521
+CREATION_DATETIME: 1363042800000
+MODIFICATION_DATETIME: 1363042800000
+TITLE: Since you can use large pages this is a non-issue.
+PARENT_POSTING_ID: 1515
+POSTING_TYPE: comment
+CONTENT:
+Since you <NAME_CORPUS_REPLACEMENT> use large pages this is a non-issue.
+TAGGED_CONTENT:

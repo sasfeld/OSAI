@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="22459" moduleid="109969" modulename="forum" contextid="154223">
+  <forum id="22459">
+    <type>general</type>
+    <name>Fachforum zum Teil II</name>
+    <intro>Hier können Sie Fachfragen zum Teil II diskutieren. </intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1218802758</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="65405">
+        <name>Aussagenlogik und Boole´sche Algebra</name>
+        <firstpost>175827</firstpost>
+        <userid>3757</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1355267823</timemodified>
+        <usermodified>10325</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="175827">
+            <parent>0</parent>
+            <userid>3757</userid>
+            <created>1351593856</created>
+            <modified>1351593856</modified>
+            <mailed>1</mailed>
+            <subject>Aussagenlogik und Boole´sche Algebra</subject>
+            <message>&lt;p&gt;Hallo zusammen,&lt;/p&gt;
+&lt;p&gt;hatte eine Frage an Herrn Moesner in Bezug auf Kapitel s.o und dort dann folgender Link:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://moodle.oncampus.de/modules/ir043/onmod/LO_05/1/onCampusBook/7/unit.html"&gt;http://moodle.oncampus.de/modules/ir043/onmod/LO_05/1/onCampusBook/7/unit.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Es geht also um Aufgabe 2:&lt;/p&gt;
+&lt;p&gt;Ich habe versucht mit den Wahrheitstafeln zur Wahrheit zu gelangen, bin aber immer an einer Kleinigkeit gescheitert. Diese Methode ist sehr aufwendig und kostet Zeit.&lt;/p&gt;
+&lt;p&gt;Herr Moesner hat mir dann gemailt mit der Lösung zu Aufgabe 2a)&lt;/p&gt;
+&lt;p&gt;Bei Aufgabe 2.a) geht man z.B. folgendermaßen vor&lt;br /&gt;(für die Negation nehme ich mal das "-"-Zeichen):&lt;br /&gt;(A -&amp;gt; B) ^ -B -&amp;gt; -A&lt;br /&gt;- zunächst erste Implikation mit Formel (5.9) in eine Disjunktion umformen&lt;br /&gt;(-A v B) ^ -B -&amp;gt; -A&lt;br /&gt;- Hierarchie der Bindungsstärke der Junktoren beachten&lt;br /&gt;  (siehe LE Bausteine, Abschnitt 3.1) und Klammern setzen:&lt;br /&gt;=((-A v B) ^ -B) -&amp;gt; -A&lt;br /&gt;- Formel (5.6):&lt;br /&gt;=((-A ^ -B) v (B ^ -B)) -&amp;gt; -A&lt;br /&gt;- Formel (5.7):&lt;br /&gt;=((-A ^ -B) v 0) -&amp;gt; -A&lt;br /&gt;- Formel (5.5):&lt;br /&gt;=(-A ^ -B) -&amp;gt; -A&lt;br /&gt;- zweite Implikation mit Formel (5.9) in eine Disjunktion umformen:&lt;br /&gt;=-(-A ^ -B) v -A&lt;br /&gt;- Formel (5.8) und (5.3):&lt;br /&gt;A v B v -A&lt;br /&gt;= A v -A v B&lt;br /&gt;- erneut Formel (5.7) (Hamlet: "Sein oder nicht Sein" ist immer wahr.)&lt;br /&gt;= 1 v B&lt;br /&gt;- Formel (5.5):&lt;br /&gt;= 1 (Tautologie bewiesen!)&lt;/p&gt;
+&lt;p&gt;Also umformen und keine Wahrheitstafeln benutzen. Wenn noch Fragen sind, dann einfach fragen:-)&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Grüße&lt;/p&gt;
+&lt;p&gt;Mark&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="177171">
+            <parent>175827</parent>
+            <userid>10771</userid>
+            <created>1351956295</created>
+            <modified>1351956295</modified>
+            <mailed>1</mailed>
+            <subject>Re: Aussagenlogik und Boole´sche Algebra</subject>
+            <message>&lt;p&gt;Scheinbar ging der Beitrag nicht per mail raus. Hab da jetzt ne Stunde drüber "gebrütet" und das jetzt hier gefzunden.&lt;br /&gt;Besten Dank!&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="186953">
+            <parent>175827</parent>
+            <userid>10325</userid>
+            <created>1355267823</created>
+            <modified>1355267823</modified>
+            <mailed>1</mailed>
+            <subject>Re: Aussagenlogik und Boole´sche Algebra</subject>
+            <message>&lt;p&gt;Was muss denn genau rauskommen, wenn die Formel nur erfüllbar oder nicht erfüllbar sein soll?&lt;/p&gt;
+&lt;p&gt;reicht es aus, wenn bei erfüllbar eine Variable steht, oder wie geht man dann vor? Wahrheitstafeln aufmalen?&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Ich habe dort bei b) A ^ C raus. aber woher soll ich denn dann wissen  dass die Formel nicht erfüllbar ist?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="69807">
+        <name>Gruppenwechsel</name>
+        <firstpost>186731</firstpost>
+        <userid>10325</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1355231203</timemodified>
+        <usermodified>10325</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="186731">
+            <parent>0</parent>
+            <userid>10325</userid>
+            <created>1355231203</created>
+            <modified>1355231203</modified>
+            <mailed>1</mailed>
+            <subject>Gruppenwechsel</subject>
+            <message>&lt;p&gt;Ich würde gerne diesmal in eine andere Gruppe wechseln.&lt;/p&gt;
+&lt;p&gt;Ich bin Momentan in einer 4-er Gruppe. Gibt es noch eine andere 3-er Gruppe zu denen ich wechseln könnte?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="69943">
+        <name>2. Gruppenaufgabe</name>
+        <firstpost>186955</firstpost>
+        <userid>10325</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1356557046</timemodified>
+        <usermodified>10325</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="186955">
+            <parent>0</parent>
+            <userid>10325</userid>
+            <created>1355268080</created>
+            <modified>1355268080</modified>
+            <mailed>1</mailed>
+            <subject>2. Gruppenaufgabe</subject>
+            <message>&lt;p&gt;Ich verstehe nicht ganz was Herr Moesner in der 1.Teilaufgabe it dem 1. Satz meint.&lt;/p&gt;
+&lt;p&gt;Also Herr Birkmann bleibt Zuhause, wenn Louisa und Mutter nicht kommen.&lt;/p&gt;
+&lt;p&gt;oder&lt;/p&gt;
+&lt;p&gt;Herr Birkmann bleibt zuhause wenn, Louise kommt aber Mutter nicht. oder Mutter kommt, aber Louise nicht.&lt;/p&gt;
+&lt;p&gt;Der Satz in der Klammer bringt mich irgendwie durcheinander.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="187531">
+            <parent>186955</parent>
+            <userid>10341</userid>
+            <created>1355563424</created>
+            <modified>1355563424</modified>
+            <mailed>1</mailed>
+            <subject>Re: 2. Gruppenaufgabe</subject>
+            <message>&lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;also ich versteh es so$$( \neg (L \wedge M) \rightarrow ( \neg V))$$ , was meint Ihr.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="187865">
+            <parent>187531</parent>
+            <userid>3897</userid>
+            <created>1355735782</created>
+            <modified>1355735782</modified>
+            <mailed>1</mailed>
+            <subject>Re: 2. Gruppenaufgabe</subject>
+            <message>&lt;p&gt;Sehe ich wie Peter :)&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="189203">
+            <parent>187865</parent>
+            <userid>10325</userid>
+            <created>1356555111</created>
+            <modified>1356555111</modified>
+            <mailed>1</mailed>
+            <subject>Re: 2. Gruppenaufgabe</subject>
+            <message>&lt;p&gt;ok mal eine andere Frage: &lt;/p&gt;
+&lt;p&gt;Zeichen für Negation: -&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;wenn ich jetzt diese Formel umwandle: (L --&amp;gt; (N v V)) &lt;/p&gt;
+&lt;p&gt;dann nehme ich zuerst die Formel 5.9 also kommt raus&lt;/p&gt;
+&lt;p&gt;( - (L) v (N v V)&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;worauf bezieht sich dann die Negation. Nur auf das L oder auch auf den Rest?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="189205">
+            <parent>189203</parent>
+            <userid>10325</userid>
+            <created>1356557046</created>
+            <modified>1356557046</modified>
+            <mailed>1</mailed>
+            <subject>Re: 2. Gruppenaufgabe</subject>
+            <message>&lt;p&gt;ok hat sich erledigt. Bin selbst drauf gekommen&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="72493">
+        <name>Lösung für die zweite Gruppenaufgabe</name>
+        <firstpost>193503</firstpost>
+        <userid>3881</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1358184598</timemodified>
+        <usermodified>3881</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="193503">
+            <parent>0</parent>
+            <userid>3881</userid>
+            <created>1358184598</created>
+            <modified>1358184598</modified>
+            <mailed>1</mailed>
+            <subject>Lösung für die zweite Gruppenaufgabe</subject>
+            <message>&lt;p&gt;Hallo zusammen,&lt;/p&gt;
+&lt;p&gt;anbei die Lösungen für die zweite Gruppenaufgabe.&lt;/p&gt;
+&lt;p&gt;Liebe Grüße&lt;/p&gt;
+&lt;p&gt;Necla Aksoy&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="75271">
+        <name>Lösungen der Klausuraufgaben</name>
+        <firstpost>200429</firstpost>
+        <userid>10325</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1363111283</timemodified>
+        <usermodified>10325</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="200429">
+            <parent>0</parent>
+            <userid>10325</userid>
+            <created>1363041595</created>
+            <modified>1363041595</modified>
+            <mailed>1</mailed>
+            <subject>Lösungen der Klausuraufgaben</subject>
+            <message>&lt;p&gt;es geht um die Aufgabe 3 der 1. Probeklausur. -- soll als Negationszeichen dienen.&lt;/p&gt;
+&lt;p&gt;A v ( B ^ --C) v (--A ^ --C) v (--A ^ --B)&lt;/p&gt;
+&lt;p&gt;Herr Moesner formt die Formal sofort in folgende einfache Gestalt um:&lt;/p&gt;
+&lt;p&gt;A  v --B v --C&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Meine Frage ist, wie kommt er so einfach drauf?? Er hat nicht hingeschrieben was er genau weiter umgeformt hat. Oder kann man das an irgendwas sofort erkennen?&lt;/p&gt;
+&lt;p&gt;Bei mir wäre der Lösungsweg viel länger und komplizierter, weil ich nicht verstehe wie er das gleich auf 3 Variablen zusammengefasst hat.&lt;/p&gt;
+&lt;p&gt;Was hat er also mit was zusammengezogen?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="200431">
+            <parent>200429</parent>
+            <userid>3897</userid>
+            <created>1363072463</created>
+            <modified>1363072463</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lösungen der Klausuraufgaben</subject>
+            <message>&lt;p&gt;Hi Alina,&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;die Lösungswege sind wohl leider nur gekürzt dargestellt, auch ich bräuchte etwas mehr an Schreibarbeit um diese Aufgabe zu lösen. &lt;/p&gt;
+&lt;p&gt;Zum Thema Aussagenlogik hab ich noch ein Skript gefunden das mir etwas mehr zusätzliche "Erleuchtung" brachte.&lt;/p&gt;
+&lt;p&gt;Wenn weitere Fragen sind meld dich gerne, falls nein dann sehen wir uns kommende Woche zur Klausur und viel Erfolg beim Lernen.&lt;/p&gt;
+&lt;p&gt;Andreas&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="200467">
+            <parent>200429</parent>
+            <userid>10771</userid>
+            <created>1363084432</created>
+            <modified>1363084432</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lösungen der Klausuraufgaben</subject>
+            <message>&lt;p&gt;Eigentlich geht es bei dieser Aufgabe wirklich schnell wenn man sieht das die --A gestrichen werden können. Ich hab mal meinen Weg angehangen&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="200505">
+            <parent>200467</parent>
+            <userid>10325</userid>
+            <created>1363111283</created>
+            <modified>1363111283</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lösungen der Klausuraufgaben</subject>
+            <message>&lt;p&gt;das war echtr hilfreich!! Danke))&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="239213">
+        <userid>3757</userid>
+      </subscription>
+      <subscription id="239403">
+        <userid>10771</userid>
+      </subscription>
+      <subscription id="240643">
+        <userid>10325</userid>
+      </subscription>
+      <subscription id="240705">
+        <userid>10341</userid>
+      </subscription>
+      <subscription id="240723">
+        <userid>3897</userid>
+      </subscription>
+      <subscription id="241931">
+        <userid>3881</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

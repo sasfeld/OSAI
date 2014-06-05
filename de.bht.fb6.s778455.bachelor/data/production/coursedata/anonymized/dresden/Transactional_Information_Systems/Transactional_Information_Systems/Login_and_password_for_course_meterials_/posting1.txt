@@ -1,0 +1,12 @@
+ID: 2612
+CREATION_DATETIME: 1382479200000
+MODIFICATION_DATETIME: 1385334000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hello,
+During today tutorial login and password to [1] were given, but I forgot to note them down. <NAME_CORPUS_REPLACEMENT> you give provide mi it one more time?
+Bye!
+[1] http://wwwdb.inf.tu-dresden. de/lectures/ws-2013-2014/transactional-information-systems/
+TAGGED_CONTENT:

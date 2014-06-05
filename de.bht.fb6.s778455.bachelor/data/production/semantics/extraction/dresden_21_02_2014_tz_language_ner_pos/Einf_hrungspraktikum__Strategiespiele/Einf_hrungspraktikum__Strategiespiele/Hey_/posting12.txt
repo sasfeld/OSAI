@@ -1,0 +1,11 @@
+ID: 1540
+CREATION_DATETIME: 1363734000000
+MODIFICATION_DATETIME: 1363734000000
+TITLE: ja ging auch :) naja egal ich habs wieder raus genommen.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1535
+POSTING_TYPE: comment
+CONTENT:
+ja ging auch :) naja egal ich habs wieder raus genommen.
+TAGGED_CONTENT:
+ja_ADV ging_VVFIN auch_ADV :-RRB-_NE naja_VVIMP egal_ADV ich_PPER habs_VAFIN wieder_ADV raus_ADV genommen_VVPP ._$. 

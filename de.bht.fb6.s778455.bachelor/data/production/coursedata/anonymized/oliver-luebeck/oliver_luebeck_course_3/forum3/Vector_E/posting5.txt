@@ -1,0 +1,21 @@
+ID: 15
+CREATION_DATETIME: 1199629500000
+MODIFICATION_DATETIME: 1199629500000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 14
+CONTENT:
+
+    Hallo ,
+
+GridLayout sind nicht einfach, weil die Anzahl an Spalten und Zeilen, die man angibt, nicht zwingend sind (When both the number of rows and the number of columns have been set to non-zero values, either by a constructor or by the setRows and setColumns methods, the number of columns specified is ignored. Instead, the number of columns is determined from the specified number of rows and the total number of components in the layout.... ).
+
+Eine Möglichkeit hier ist es ein JPanel-Objekt zu erzeugen. Ein JPanel-Objekt hat einen FlowLayout, die graphische Komponente werden nebeneinander gestellt. In das JPanel-Objekt können Sie die zwei ScrollBar-Objekte und die zwei Label-Objekte tun. Das JPanel-Objekt kann oben in ein Frame-Objekt kommen (ein Frame-Objekt hat ein BorderLayout, oben in NORTH) oder, falls Sie weiter ein GridLayout benutzen, das JPanel-Objekt kommt mit seinem Inhalt als Komponente in ein Kästchen des GridLayouts.
+
+Hilft dies Ihnen weiter?
+
+
+Viel Erfolg!
+
+    
+TAGGED_CONTENT:

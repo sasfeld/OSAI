@@ -1,0 +1,14 @@
+ID: 64
+CREATION_DATETIME: 1197901200000
+MODIFICATION_DATETIME: 1197901200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 63
+CONTENT:
+
+
+vielen dank! :)
+
+werde ich gleich mal probieren. mal gucken ob der rest dann auch noch klappt....
+   
+TAGGED_CONTENT:

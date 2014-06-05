@@ -1,0 +1,13 @@
+ID: 166549
+CREATION_DATETIME: 1349279940
+MODIFICATION_DATETIME: 1349279940
+TITLE: Re: Heutiges Online-Meeting
+LANGUAGE: GERMAN
+POS_TAG: value:Info;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 166545
+CONTENT:
+Hallo zusammen,
+vielen dank für die Info.
+thomas schmieglitz
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, vielen_PIS dank_APPR für_APPR die_ART Info_NN ._$. thomas_NE schmieglitz_NE 

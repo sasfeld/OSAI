@@ -1,0 +1,10 @@
+ID: 1094
+CREATION_DATETIME: 1359500400000
+MODIFICATION_DATETIME: 1359586800000
+TITLE: Die Veranstaltungen hier in auditorium werden auch erst mit jexam verfügbar sein. 
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1092
+POSTING_TYPE: comment
+CONTENT:
+Die Veranstaltungen hier in auditorium werden erst dann verfügbar sein, sobald sie in jexam verfügbar sind.
+TAGGED_CONTENT:

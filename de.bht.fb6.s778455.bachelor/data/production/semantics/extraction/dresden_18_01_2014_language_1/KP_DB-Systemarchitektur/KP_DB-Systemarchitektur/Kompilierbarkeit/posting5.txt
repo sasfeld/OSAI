@@ -1,0 +1,12 @@
+ID: 2120
+CREATION_DATETIME: 1372456800000
+MODIFICATION_DATETIME: 1372456800000
+TITLE: doch, es gibt cstring welcher bedeutet string.h in c. ich muss die Funktion "memcpy"  
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2115
+POSTING_TYPE: answer
+CONTENT:
+doch, es gibt cstring welcher bedeutet string. h in c. ich muss die Funktion "memcpy"  benutzen
+
+http://www.cplusplus.com/reference/cstring/
+TAGGED_CONTENT:

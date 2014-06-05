@@ -1,0 +1,9 @@
+ID: 936
+CREATION_DATETIME: 1354489200000
+MODIFICATION_DATETIME: 1354489200000
+TITLE: What Maksym says. You just need to make sure that malloc() in your C++ implementation is made visible...
+PARENT_POSTING_ID: 934
+POSTING_TYPE: comment
+CONTENT:
+What Maksym says. You <NAME_CORPUS_REPLACEMENT> need to make sure that malloc() in your C++ implementation is made visible as a C symbol (`extern "C"`).
+TAGGED_CONTENT:

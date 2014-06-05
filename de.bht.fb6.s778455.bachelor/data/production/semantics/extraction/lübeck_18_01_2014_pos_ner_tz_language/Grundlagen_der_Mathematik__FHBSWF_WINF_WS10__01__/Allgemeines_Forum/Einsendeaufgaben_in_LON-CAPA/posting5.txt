@@ -1,0 +1,18 @@
+ID: 97748
+CREATION_DATETIME: 1285358198
+MODIFICATION_DATETIME: 1285358198
+TITLE: Re: Einsendeaufgaben in LON-CAPA
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Frauen;weight:1.0;significance:4.56619523838409;degreegeneralization:5;uri:20929187
+POS_TAG: value:Woche;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Antworten;weight:0.0;uri:;postag:NN
+POS_TAG: value:hrungsveranstaltung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Daten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Account;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frau;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97747
+CONTENT:
+Hallo und danke für die schnellen Antworten :)!Ich habe die Woche schon mit Frau <REMOVED_PERSON_ENTITY> telefoniert und da erwähnte sie diesen Account und meinte das wir die Login-Daten bei der Einführungsveranstaltung erhalten würden. Viele Grüße 
+TAGGED_CONTENT:
+Hallo_ITJ und_KON danke_VVFIN für_APPR die_ART schnellen_ADJA Antworten_NN :-RRB-_TRUNC !_$. Ich_PPER habe_VAFIN die_ART Woche_NN schon_ADV mit_APPR Frau_NN <_NE REMOVED_PERSON_ENTITY_NE >_CARD telefoniert_VVPP und_KON da_ADV erwähnte_ADJA sie_PPER diesen_PDAT Account_NN und_KON meinte_VVFIN das_ART wir_PPER die_ART Login-Daten_NN bei_APPR der_ART Einführungsveranstaltung_NN erhalten_VVPP würden_VAFIN ._$. Viele_PIDAT Grüße_NN 

@@ -1,0 +1,12 @@
+ID: 33
+CREATION_DATETIME: 1287330780000
+MODIFICATION_DATETIME: 1287330780000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 30
+CONTENT:
+ 
+aber nicht die Division durch Null oder die Divsion im Integerbereich abfangen
+Was haltet ihr von der einfachen Idee, weg von TryCatch und hin zu einer Verzweigung: "Falls Nummer2 gleich Null, dann..." Gruß 
+ 	
+TAGGED_CONTENT:

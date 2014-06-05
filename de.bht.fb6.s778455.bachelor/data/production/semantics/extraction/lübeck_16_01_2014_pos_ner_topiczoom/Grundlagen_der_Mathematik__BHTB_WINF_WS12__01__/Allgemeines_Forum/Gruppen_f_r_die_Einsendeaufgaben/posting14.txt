@@ -1,0 +1,21 @@
+ID: 172275
+CREATION_DATETIME: 1350592847
+MODIFICATION_DATETIME: 1350592847
+TITLE: Re: Gruppen für die Einsendeaufgaben
+POS_TAG: value:Arigirios;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Suche;weight:0.0;uri:;postag:NN
+POS_TAG: value:t.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Leute;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hr;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 172235
+CONTENT:
+Hallo Arigirios,
+bin auch noch auf der Suche, wäre also dabei.
+@Alina: Gruppen sollen 3 - 4 Leute bestehen. Ansonsten teilt Hr. Moesner alles weitere noch mit -> Aufgabe, <REMOVED_PERSON_ENTITY> e. t. c.
+Grüße
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ Arigirios_NN ,_$, bin_VAFIN auch_ADV noch_ADV auf_APPR der_ART Suche_NN ,_$, wäre_VAFIN also_ADV dabei_PROAV ._$. @Alina_NE :_$. Gruppen_NN sollen_VMFIN 3_CARD -_$( 4_CARD Leute_NN bestehen_VVFIN ._$. Ansonsten_ADV teilt_VVFIN Hr_NN ._$. Moesner_NE alles_PIS weitere_ADJA noch_ADV mit_APPR -_$( >_ADJA Aufgabe_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE e._ADJA t._NN c._VVFIN Grüße_NN <_NE REMOVED_PERSON_ENTITY_NE >_XY 

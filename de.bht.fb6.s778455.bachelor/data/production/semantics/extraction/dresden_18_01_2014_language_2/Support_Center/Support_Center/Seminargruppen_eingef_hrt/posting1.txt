@@ -1,0 +1,40 @@
+ID: 380
+CREATION_DATETIME: 1350424800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Wir haben nun die Seminargruppen eingepflegt. Sie sind dem ["Chair" Seminargruppen](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/chairs/2045572) zugeordnet im ["Institut" Fakultätsintern"](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/institutes/30020).
+
+Hier die einzelnen Seminargruppen im Überblick:
+
+* [Seminargruppe INF-D01](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/courses/2154333)
+
+* [Seminargruppe INF-D02](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/courses/2154334)
+
+* [Seminargruppe INF-D03](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/courses/2154335)
+
+* [Seminargruppe INF-D04](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/courses/2154336)
+
+* [Seminargruppe INF-B01](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/courses/2154337)
+
+* [Seminargruppe INF-B02](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/courses/2154338)
+
+* [Seminargruppe INF-B03](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/courses/2154339)
+
+* [Seminargruppe INF-B04](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/courses/2154340)
+
+* [Seminargruppe MINF-B01](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/courses/2154341)
+
+* [Seminargruppe MINF-B02](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/courses/2154342)
+
+* [Seminargruppe MINF-B03](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/courses/2154343)
+
+* [Seminargruppe MINF-B04](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/courses/2154344)
+
+* [Seminargruppe MINF-B05](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/courses/2154345)
+
+* [Seminargruppe MINF-B06](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/courses/2154346)
+TAGGED_CONTENT:

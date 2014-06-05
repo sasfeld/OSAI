@@ -1,0 +1,18 @@
+ID: 31
+CREATION_DATETIME: 1177166400000
+MODIFICATION_DATETIME: 1177166400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+    Bin ein wenig verwirrt wegen der Null-Divisionen in unserer Aufgabe.
+Das Programm wird compiliert und ich kann es dann auch ausführen.
+Aber Division durch Null darf ja eigentlich nicht sein.
+Hätte erwartet, dass es dann eine Fehlermeldung oä gibt?
+Oder hab ich da was übersehen?
+
+Grüße, 
+
+    
+TAGGED_CONTENT:

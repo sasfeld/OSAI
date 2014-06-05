@@ -1,0 +1,24 @@
+ID: 372
+CREATION_DATETIME: 1350424800000
+MODIFICATION_DATETIME: 1350424800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ahoj,
+
+könnt ihr bitte für die Seminargruppen jeweils einen Kurs oder so anlegen? Wären folgende Seminargruppen:
+
+INF-D01 bis INF-D04
+
+INF-B01 bis INF-B04
+
+MINF-B01 bis MINF-B06
+
+Ich bin Mentor für MINF-B01 und MINF-B02, die anderen werden sich dann sicherlich auch demnächst melden.
+
+Grüße,
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

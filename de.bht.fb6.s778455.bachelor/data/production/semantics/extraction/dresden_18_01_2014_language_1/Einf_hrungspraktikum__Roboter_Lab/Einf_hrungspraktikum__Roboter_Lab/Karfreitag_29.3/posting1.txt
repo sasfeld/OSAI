@@ -1,0 +1,14 @@
+ID: 1064
+CREATION_DATETIME: 1358550000000
+MODIFICATION_DATETIME: 1384297200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Der zweite Durchgang des Praktikums soll ja bis zum einschließlich 29. 3. gehen.
+
+Der 29. 3. 2013 ist aber Karfreitag, also Feiertag.
+
+Müssen wir trotzdem zur Uni? Kann ich mir iwie nicht so recht vorstellen.
+TAGGED_CONTENT:

@@ -1,0 +1,162 @@
+ID: 97773
+CREATION_DATETIME: 1287567295
+MODIFICATION_DATETIME: 1287567295
+TITLE: OT: Job-Boerse
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:9.0;significance:3.93214375100518;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:7.0;significance:3.62652886925874;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:4.0;significance:2.22850843118942;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Wolfsburg;weight:3.0;significance:2.07926915760338;degreegeneralization:13;uri:21652180
+TOPIC_ZOOM_TAG: value:Studenten;weight:3.0;significance:2.00625784976532;degreegeneralization:5;uri:20994552
+TOPIC_ZOOM_TAG: value:Schüler, Studenten;weight:3.0;significance:1.93126832501269;degreegeneralization:4;uri:20920823
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:10.0;significance:1.80459553725326;degreegeneralization:2;uri:21999847
+TOPIC_ZOOM_TAG: value:Services und Dienstleistungen;weight:4.0;significance:1.69178945837233;degreegeneralization:4;uri:21993506
+TOPIC_ZOOM_TAG: value:Veranstaltungen;weight:5.0;significance:1.68525989105843;degreegeneralization:3;uri:20901494
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:3.0;significance:1.66641471409652;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Niedersachsen;weight:3.0;significance:1.62465955063834;degreegeneralization:10;uri:21996770
+TOPIC_ZOOM_TAG: value:Internet;weight:4.0;significance:1.5393336625331;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:4.0;significance:1.53392055483181;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:6.0;significance:1.30877499354941;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Studienorte;weight:1.0;significance:1.27085495152339;degreegeneralization:4;uri:19940399
+TOPIC_ZOOM_TAG: value:Messestände;weight:1.0;significance:1.2015402334674;degreegeneralization:9;uri:20723793
+TOPIC_ZOOM_TAG: value:Jahr 2010;weight:2.0;significance:1.19242747733211;degreegeneralization:11;uri:20891209
+TOPIC_ZOOM_TAG: value:Messeauftritte;weight:1.0;significance:1.16099372265658;degreegeneralization:8;uri:20724320
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:4.0;significance:1.0747693738723;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Aussteller;weight:1.0;significance:1.04059644222399;degreegeneralization:5;uri:19964471
+TOPIC_ZOOM_TAG: value:Absolventen;weight:1.0;significance:1.00004993141317;degreegeneralization:5;uri:20909756
+TOPIC_ZOOM_TAG: value:Lehranstalten;weight:1.0;significance:0.993596079299414;degreegeneralization:4;uri:20910997
+TOPIC_ZOOM_TAG: value:Arbeitserfahrung;weight:1.0;significance:0.987533617117771;degreegeneralization:4;uri:20783242
+TOPIC_ZOOM_TAG: value:Praktika;weight:1.0;significance:0.987533617117771;degreegeneralization:6;uri:20783225
+TOPIC_ZOOM_TAG: value:Kostenfreiheit;weight:1.0;significance:0.971281724167994;degreegeneralization:5;uri:19951857
+TOPIC_ZOOM_TAG: value:Fakultäten;weight:1.0;significance:0.961750706187561;degreegeneralization:5;uri:20916947
+TOPIC_ZOOM_TAG: value:Beruf und Karriere;weight:2.0;significance:0.94285090576359;degreegeneralization:4;uri:20990557
+TOPIC_ZOOM_TAG: value:Unternehmen, Firmen und Firmengruppen;weight:3.0;significance:0.873243432864423;degreegeneralization:4;uri:21973565
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:4.0;significance:0.85953525449698;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Berufliche Ausbildung und Weiterbildung;weight:1.0;significance:0.825420221898042;degreegeneralization:5;uri:21869780
+TOPIC_ZOOM_TAG: value:Messen (Wirtschaft);weight:1.0;significance:0.821991314550179;degreegeneralization:4;uri:20919378
+TOPIC_ZOOM_TAG: value:Erwachsenenbildung und berufliche Bildung;weight:1.0;significance:0.819769000871708;degreegeneralization:3;uri:21306077
+TOPIC_ZOOM_TAG: value:Ausstellungen und Publikumsschauen;weight:1.0;significance:0.753806552019577;degreegeneralization:4;uri:20732633
+TOPIC_ZOOM_TAG: value:Prüfungen, Abschlüsse und Zertifikate;weight:1.0;significance:0.728359949775252;degreegeneralization:4;uri:21974670
+TOPIC_ZOOM_TAG: value:Marketing, Werbung und Öffentlichkeitsarbeit;weight:1.0;significance:0.725751106166823;degreegeneralization:7;uri:21993081
+TOPIC_ZOOM_TAG: value:Verfügungen;weight:1.0;significance:0.724896400108977;degreegeneralization:3;uri:19992589
+TOPIC_ZOOM_TAG: value:Arbeit und Beruf;weight:2.0;significance:0.70820245311661;degreegeneralization:3;uri:21924095
+TOPIC_ZOOM_TAG: value:E-Mail;weight:1.0;significance:0.702837690621686;degreegeneralization:7;uri:20901800
+TOPIC_ZOOM_TAG: value:Kommunikationsdienste;weight:1.0;significance:0.68534775930315;degreegeneralization:4;uri:20034732
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:1.0;significance:0.650399175266524;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Marketing und Vertrieb;weight:1.0;significance:0.648597324716256;degreegeneralization:6;uri:20190860
+TOPIC_ZOOM_TAG: value:Karriere;weight:1.0;significance:0.648201284594646;degreegeneralization:5;uri:20923509
+TOPIC_ZOOM_TAG: value:Deutschland;weight:3.0;significance:0.61072927636929;degreegeneralization:8;uri:21996974
+TOPIC_ZOOM_TAG: value:Internetdienste;weight:1.0;significance:0.501006672735298;degreegeneralization:6;uri:20772413
+TOPIC_ZOOM_TAG: value:Europa;weight:3.0;significance:0.466763044665093;degreegeneralization:6;uri:21972001
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:0.443751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Finanzthemen in der Wirtschaft;weight:1.0;significance:0.415117453418486;degreegeneralization:3;uri:21602030
+TOPIC_ZOOM_TAG: value:Finanzen;weight:1.0;significance:0.282332777150469;degreegeneralization:2;uri:21999881
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:0.265109701440329;degreegeneralization:2;uri:21999830
+NER_TAG: value:FH;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:Hochschule;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:Fahrzeugtechnik;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:URL;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:Wolfsburg;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:Campus Wolfsburg;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:Robert-Koch-Platz;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:Wolfsburg;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:FH;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:Hochschule;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:Fahrzeugtechnik;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:URL;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:Wolfsburg;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:Campus Wolfsburg;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:Robert-Koch-Platz;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:Wolfsburg;weight:-1.0;uri:;classifierlabel:I-LOC
+POS_TAG: value:Besuchs;weight:0.0;uri:;postag:NN
+POS_TAG: value:innen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Service;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bewerberinnen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Informationen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Studienort;weight:0.0;uri:;postag:NN
+POS_TAG: value:Personalverantwortlichen;weight:0.0;uri:;postag:NN
+POS_TAG: value:rung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Interessierten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bewerberprofil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Campus;weight:0.0;uri:;postag:NN
+POS_TAG: value:Studierenden;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kontakten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorteil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Firmenkontaktmesse;weight:0.0;uri:;postag:NN
+POS_TAG: value:chen;weight:0.0;uri:;postag:NN
+POS_TAG: value:nden;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aussteller;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abschlussarbeiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Event;weight:0.0;uri:;postag:NN
+POS_TAG: value:chsinteresse;weight:0.0;uri:;postag:NN
+POS_TAG: value:glichkeiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fragen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Berufsmessen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bewerberpool;weight:0.0;uri:;postag:NN
+POS_TAG: value:Platz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fax.;weight:0.0;uri:;postag:NN
+POS_TAG: value:glichkeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Veranstaltung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bewerbungsservice;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rahmen;weight:0.0;uri:;postag:NN
+POS_TAG: value:REMOVEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kommen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kollegium;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bewerbungstraining;weight:0.0;uri:;postag:NN
+POS_TAG: value:Praktika;weight:0.0;uri:;postag:NN
+POS_TAG: value:gung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Veranstaltungstag;weight:0.0;uri:;postag:NN
+POS_TAG: value:wolfsburg;weight:0.0;uri:;postag:NN
+POS_TAG: value:Karriere;weight:0.0;uri:;postag:NN
+POS_TAG: value:Unternehmen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hochschule;weight:0.0;uri:;postag:NN
+POS_TAG: value:Absolventen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Interessierte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Uhr;weight:0.0;uri:;postag:NN
+POS_TAG: value:Services;weight:0.0;uri:;postag:NN
+POS_TAG: value:Exkursion;weight:0.0;uri:;postag:NN
+POS_TAG: value:November;weight:0.0;uri:;postag:NN
+POS_TAG: value:Feedback;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tel.;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Messezelt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Oktober;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wolfenb;weight:0.0;uri:;postag:NN
+POS_TAG: value:t;weight:0.0;uri:;postag:NN
+POS_TAG: value:Festanstellungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Raum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorbereitung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bewerber;weight:0.0;uri:;postag:NN
+POS_TAG: value:Thema;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+meet@ostfalia-campus-wolfsburg am 03. November 2010
+Liebes Kollegium,
+die hochschuleigene Firmenkontaktmesse meet@ostfalia-campus-wolfsburg hat sich am Studienort Wolfsburg fest etabliert und bietet engagierten Studierenden und Absolventen die Möglichkeit, regionale sowie überregionale Unternehmen kennen zu lernen.
+Von 10 bis 16 Uhr präsentieren sich am Campus Wolfsburg, direkt im Messezelt auf dem Robert-Koch-Platz, rund 20 Aussteller an ihren Messeständen und stehen für alle Fragen rund um die Karriere zur Verfügung. In persönlichen Gesprächen mit <REMOVED_PERSON_ENTITY>- und Personalverantwortlichen können sich Interessierte direkt um Praktika, Abschlussarbeiten oder Festanstellungen bewerben.
+Online-Bewerbungs-Service:
+Zusätzlich steht ein Online-Bewerbungsservice zur Veranstaltung bereit. Der
+Vorteil: Bewerberinnen und Bewerber erhalten auf ein abgegebenes Bewerberprofil von allen den Bewerberpool nutzenden Unternehmen Feedback bzgl. deren Gesprächsinteresse am Veranstaltungstag. 
+Kick-Off-Event:
+Zur optimalen Vorbereitung des Besuchs der meet@ostfalia-campus-wolfsburg wird Interessierten zudem am 27. Oktober 2010 in der Zeit von 10 - 14 Uhr in Raum A-126, Kleiststraße 14-16 ein kostenfreies Bewerbungstraining angeboten. Hier werden wertvolle <REMOVED_PERSON_ENTITY> zum Thema "Richtig Kontakten auf Berufsmessen" erörtert und zur Klärung offener Fragen beigetragen.
+Detaillierte Informationen zur Veranstaltung, dem Bewerbungstraining und zu den Online-Services unter:
+www. ostfalia. de/meet
+Wir freuen uns, wenn Sie diese Informationen interessierten Studierenden und Absolventen/innen zugänglich machen würden bzw. Sie im Rahmen Ihrer Möglichkeiten eine kurze Messe-Exkursion mit Ihren Studierenden durchführen.
+Wir freuen uns auf Ihr Kommen.
+Freundliche Grüße<PERSONAL_GREETING_REMOVEMENT>
+<PERSONAL_GREETING_REMOVEMENT>
+________________________________________
+Dipl.-Kffr. (FH) Sabine König
+Career Service
+Ostfalia Hochschule für angewandte <REMOVED_PERSON_ENTITY>
+- Hochschule Braunschweig/Wolfenbüttel - 
+Fakultät Fahrzeugtechnik 
+Kleiststr. 33 
+38440 Wolfsburg
+Tel.: (0 53 61) 8922-21020
+Fax.: (0 53 61) 8922-21022
+E-Mail: sa. koenig@ostfalia. <PERSONAL_GREETING_REMOVEMENT>
+URL: http://www.ostfalia.de/cms/de/f/Career_Service/
+TAGGED_CONTENT:
+meet@ostfalia-campus-wolfsburg_NE am_APPRART 03_CARD ._$. November_NN 2010_CARD Liebes_ADJA Kollegium_NN ,_$, die_ART hochschuleigene_ADJA Firmenkontaktmesse_NN meet@ostfalia-campus-wolfsburg_NE hat_VAFIN sich_PRF am_APPRART Studienort_NN Wolfsburg_NE fest_ADJD etabliert_VVPP und_KON bietet_VVFIN engagierten_ADJA Studierenden_NN und_KON Absolventen_NN die_ART Möglichkeit_NN ,_$, regionale_ADJA sowie_KON überregionale_ADJA Unternehmen_NN kennen_VVINF zu_PTKZU lernen_VVINF ._$. Von_APPR 10_CARD bis_APPR 16_CARD Uhr_NN präsentieren_VVFIN sich_PRF am_APPRART Campus_NN Wolfsburg_NE ,_$, direkt_ADJD im_APPRART Messezelt_NN auf_APPR dem_ART Robert-Koch-Platz_NN ,_$, rund_ADV 20_CARD Aussteller_NN an_APPR ihren_PPOSAT Messeständen_NN und_KON stehen_VVFIN für_APPR alle_PIDAT Fragen_NN rund_ADV um_APPR die_ART Karriere_NN zur_APPRART Verfügung_NN ._$. In_APPR persönlichen_ADJA Gesprächen_NN mit_APPR <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN -_$( und_KON Personalverantwortlichen_NN können_VMFIN sich_PRF Interessierte_NN direkt_ADJD um_APPR Praktika_NN ,_$, Abschlussarbeiten_NN oder_KON Festanstellungen_NN bewerben_VVFIN ._$. Online-Bewerbungs-Service_NN :_$. Zusätzlich_ADJD steht_VVFIN ein_ART Online-Bewerbungsservice_NN zur_APPRART Veranstaltung_NN bereit_ADJD ._$. Der_ART Vorteil_NN :_$. Bewerberinnen_NN und_KON Bewerber_NN erhalten_VVFIN auf_APPR ein_ART abgegebenes_ADJA Bewerberprofil_NN von_APPR allen_PIDAT den_ART Bewerberpool_NN nutzenden_ADJA Unternehmen_NN Feedback_NN bzgl_ADJD ._$. deren_PDAT Gesprächsinteresse_NN am_APPRART Veranstaltungstag_NN ._$. Kick-Off-Event_NN :_$. Zur_APPRART optimalen_ADJA Vorbereitung_NN des_ART Besuchs_NN der_ART meet@ostfalia-campus-wolfsburg_NN wird_VAFIN Interessierten_NN zudem_PROAV am_APPRART 27_CARD ._$. Oktober_NN 2010_CARD in_APPR der_ART Zeit_NN von_APPR 10_CARD -_$( 14_CARD Uhr_NN in_APPR Raum_NN A-126_CARD ,_$, Kleiststraße_NN 14-16_CARD ein_ART kostenfreies_ADJA Bewerbungstraining_NN angeboten_VVPP ._$. Hier_ADV werden_VAFIN wertvolle_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_CARD zum_APPRART Thema_NN "_$( Richtig_ADJD Kontakten_NN auf_APPR Berufsmessen_NN "_$( erörtert_VVPP und_KON zur_APPRART Klärung_NN offener_ADJA Fragen_NN beigetragen_VVPP ._$. Detaillierte_ADJA Informationen_NN zur_APPRART Veranstaltung_NN ,_$, dem_ART Bewerbungstraining_NN und_KON zu_APPR den_ART Online-Services_NN unter_APPR :_$. www_PTKVZ ._$. ostfalia_NE ._$. de\/meet_VVFIN Wir_PPER freuen_VVFIN uns_PPER ,_$, wenn_KOUS Sie_PPER diese_PDAT Informationen_NN interessierten_ADJA Studierenden_NN und_KON Absolventen\/innen_NN zugänglich_ADJD machen_VVINF würden_VAFIN bzw_NE ._$. Sie_PPER im_APPRART Rahmen_NN Ihrer_PPOSAT Möglichkeiten_NN eine_ART kurze_ADJA Messe-Exkursion_NN mit_APPR Ihren_PPOSAT Studierenden_NN durchführen_VVINF ._$. Wir_PPER freuen_VVFIN uns_PRF auf_APPR Ihr_PPOSAT Kommen_NN ._$. Freundliche_ADJA Grüße_NN <_VVFIN PERSONAL_GREETING_REMOVEMENT_NE >_NE <_NE PERSONAL_GREETING_REMOVEMENT_NE >_NE _________________________________________NE Dipl.-Kffr_NE ._$. -LRB-_TRUNC FH_NE -RRB-_TRUNC Sabine_NE König_NE Career_NE Service_NN Ostfalia_NE Hochschule_NN für_APPR angewandte_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_NE -_$( Hochschule_NN Braunschweig\/Wolfenb_NN üttel_ADJD -_$( Fakultät_NN Fahrzeugtechnik_NE Kleiststr_NE ._$. 33_CARD 38440_CARD Wolfsburg_NE Tel._NN :_$. -LRB-_TRUNC 0_CARD 53_CARD 61_CARD -RRB-_TRUNC 8922-21020_CARD Fax._NN :_$. -LRB-_TRUNC 0_CARD 53_CARD 61_CARD -RRB-_TRUNC 8922-21022_CARD E-Mail_NE :_$. sa_FM ._$. koenig@ostfalia_NE ._$. <_XY PERSONAL_GREETING_REMOVEMENT_NN >_CARD URL_NE :_$. http:\/\/www.ostfalia.de\/cms\/de\/f\/Career_Service\/_NN 

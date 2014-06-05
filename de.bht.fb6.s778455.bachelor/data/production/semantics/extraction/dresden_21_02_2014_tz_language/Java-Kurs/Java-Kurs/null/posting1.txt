@@ -1,0 +1,98 @@
+ID: 2940
+CREATION_DATETIME: 1384988400000
+MODIFICATION_DATETIME: 1385593200000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Informatik;weight:3.0;significance:3.76816908566458;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:3.0;significance:3.7558512905416;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Programmierung;weight:2.0;significance:3.58168603537718;degreegeneralization:7;uri:21461440
+TOPIC_ZOOM_TAG: value:Formale Sprachen;weight:2.0;significance:3.51589785648282;degreegeneralization:6;uri:21978155
+TOPIC_ZOOM_TAG: value:Computersprachen;weight:2.0;significance:3.51418845310843;degreegeneralization:6;uri:19949137
+TOPIC_ZOOM_TAG: value:UML;weight:1.0;significance:3.17713737880847;degreegeneralization:10;uri:20185335
+TOPIC_ZOOM_TAG: value:Softwarearchitektur;weight:1.0;significance:3.0038505836685;degreegeneralization:8;uri:20803812
+TOPIC_ZOOM_TAG: value:Programmierparadigmen;weight:1.0;significance:2.72919751150148;degreegeneralization:8;uri:20797607
+TOPIC_ZOOM_TAG: value:Objektorientierte Programmierung;weight:1.0;significance:2.72919751150148;degreegeneralization:9;uri:20185318
+TOPIC_ZOOM_TAG: value:Deutschland sucht den Superstar;weight:1.0;significance:2.72919751150148;degreegeneralization:16;uri:20741388
+TOPIC_ZOOM_TAG: value:Software;weight:2.0;significance:2.60511682223347;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Sprache;weight:2.0;significance:2.50435355391847;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Semester;weight:1.0;significance:2.41600676937763;degreegeneralization:4;uri:20914363
+TOPIC_ZOOM_TAG: value:Castingshows;weight:1.0;significance:2.41600676937763;degreegeneralization:10;uri:20741405
+TOPIC_ZOOM_TAG: value:Softwareentwicklung;weight:1.0;significance:2.28125764419446;degreegeneralization:7;uri:20897091
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:2.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:4.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Computer;weight:2.0;significance:2.15506992990383;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:RTL Television;weight:1.0;significance:2.14535378254721;degreegeneralization:15;uri:20898859
+TOPIC_ZOOM_TAG: value:Private Fernsehsender in Deutschland;weight:1.0;significance:2.12596422396074;degreegeneralization:14;uri:21915102
+TOPIC_ZOOM_TAG: value:Private Fernsehsender in Europa;weight:1.0;significance:2.12596422396074;degreegeneralization:10;uri:21956327
+TOPIC_ZOOM_TAG: value:Fernsehshows;weight:1.0;significance:2.04131368324098;degreegeneralization:9;uri:20738770
+TOPIC_ZOOM_TAG: value:Fernsehunterhaltung;weight:1.0;significance:2.03866815590835;degreegeneralization:7;uri:20200550
+TOPIC_ZOOM_TAG: value:Fernsehsendungen und Fernsehserien - Unterhaltung;weight:1.0;significance:2.03866815590835;degreegeneralization:8;uri:20802435
+TOPIC_ZOOM_TAG: value:Private Fernsehsender;weight:1.0;significance:2.02335724959817;degreegeneralization:9;uri:21915204
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:2.0;significance:2.00351838218053;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Programmiersprachen;weight:1.0;significance:1.96412981282858;degreegeneralization:8;uri:20901749
+TOPIC_ZOOM_TAG: value:Persönlichkeiten des Bereichs Informatik;weight:1.0;significance:1.93818061440817;degreegeneralization:5;uri:21632885
+TOPIC_ZOOM_TAG: value:Beschreibungssprachen;weight:1.0;significance:1.90065101033334;degreegeneralization:7;uri:20900644
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:2.0;significance:1.83083484620539;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Rundfunk;weight:1.0;significance:1.75370434410781;degreegeneralization:7;uri:21868301
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Fernsehen;weight:1.0;significance:1.75370434410781;degreegeneralization:8;uri:21914116
+TOPIC_ZOOM_TAG: value:Fernsehsendungen und -Serien;weight:1.0;significance:1.65093907070474;degreegeneralization:7;uri:21981096
+TOPIC_ZOOM_TAG: value:Rundfunksendungen;weight:1.0;significance:1.64927054393281;degreegeneralization:6;uri:20128521
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:3.0;significance:1.61162860218184;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Fernsehsender in Deutschland;weight:1.0;significance:1.49647993009462;degreegeneralization:13;uri:21915408
+TOPIC_ZOOM_TAG: value:Fernsehen in Deutschland;weight:1.0;significance:1.47877084566348;degreegeneralization:12;uri:21915765
+TOPIC_ZOOM_TAG: value:Medienunternehmen;weight:1.0;significance:1.47432628415816;degreegeneralization:7;uri:20888812
+TOPIC_ZOOM_TAG: value:Unternehmen im Bereich Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:1.45988376614205;degreegeneralization:6;uri:20898400
+TOPIC_ZOOM_TAG: value:Fernsehsender;weight:1.0;significance:1.44063388103367;degreegeneralization:8;uri:21915544
+TOPIC_ZOOM_TAG: value:Rundfunksender;weight:1.0;significance:1.43049576395687;degreegeneralization:7;uri:20053126
+TOPIC_ZOOM_TAG: value:Essen und Trinken, Kochen und Backen;weight:1.0;significance:1.40524395241899;degreegeneralization:4;uri:21957704
+TOPIC_ZOOM_TAG: value:Firmen und Firmengruppen in Deutschland;weight:1.0;significance:1.33854679620311;degreegeneralization:11;uri:21955222
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:2.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:1.29518888187812;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Freizeit, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:1.29277986966186;degreegeneralization:5;uri:21872415
+TOPIC_ZOOM_TAG: value:Fernsehen;weight:1.0;significance:1.26879496638858;degreegeneralization:6;uri:21990225
+TOPIC_ZOOM_TAG: value:Rundfunk in Deutschland;weight:1.0;significance:1.2663864699183;degreegeneralization:11;uri:21632103
+TOPIC_ZOOM_TAG: value:Forschung und Entwicklung;weight:1.0;significance:1.23447607027619;degreegeneralization:3;uri:21603526
+TOPIC_ZOOM_TAG: value:Küche, Essen und Trinken, Lebensmittel, Ernährung;weight:1.0;significance:1.22750661540218;degreegeneralization:3;uri:20297943
+TOPIC_ZOOM_TAG: value:Deutsche Wirtschaft;weight:1.0;significance:1.1594889938211;degreegeneralization:9;uri:21976557
+TOPIC_ZOOM_TAG: value:Unterhaltung;weight:1.0;significance:1.12413092765262;degreegeneralization:3;uri:21999643
+TOPIC_ZOOM_TAG: value:Rundfunk;weight:1.0;significance:1.11318027198803;degreegeneralization:5;uri:21871684
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:1.09226215305699;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Medienbranche;weight:1.0;significance:1.08386441694799;degreegeneralization:6;uri:20771019
+TOPIC_ZOOM_TAG: value:Medien in Deutschland;weight:1.0;significance:1.08317237498358;degreegeneralization:10;uri:20917168
+TOPIC_ZOOM_TAG: value:Medien, Information und Kommunikation in Deutschland;weight:1.0;significance:1.06050455965498;degreegeneralization:9;uri:20917185
+TOPIC_ZOOM_TAG: value:Europäische Wirtschaft;weight:1.0;significance:1.05519628362712;degreegeneralization:7;uri:21994832
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.01207387024426;degreegeneralization:5;uri:21993370
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:0.863117812895972;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:0.86038632403505;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Unternehmen, Firmen und Firmengruppen;weight:1.0;significance:0.727702860720353;degreegeneralization:4;uri:21973565
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:0.724020340271243;degreegeneralization:3;uri:20758133
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:0.721947902574197;degreegeneralization:2;uri:21306723
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:0.67173085867019;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Deutschland;weight:1.0;significance:0.508941063641075;degreegeneralization:8;uri:21996974
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:0.451148884313315;degreegeneralization:2;uri:21999847
+TOPIC_ZOOM_TAG: value:Europa;weight:1.0;significance:0.388969203887577;degreegeneralization:6;uri:21972001
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hey Leute, wisst ihr, dass es prinzipiell möglich ist, 
+
+-> Fussballweltmeister ohne <REMOVED_PERSON_ENTITY> zu werden
+
+-> Deutschland sucht den Superstar zu gewinnen, obwohl man taubstumm ist
+
+-> man 100 Tage ohne Essen und Trinken überleben kann
+
+Man aber NIEMALS Informatiker wird, ohne das man eine objektorientierte Programmiersprache wie Java beherrscht? Deswegen : Es sind noch Plätze im Javakurs frei! Gerade Durchfaller in SWT sollten hier ihre Chance suchen! Es gibt einige, die mit Java so ihre Probleme hatten, und hier habt ihr die Möglichkeit, es nochmal richtig zu üben, in Vorbereitung auf SWT!
+
+Entweder schreibt ihr mich einfach direkt an (mein Kurs ist Di. 4, Mail: <NAME_CORPUS_REPLACEMENT>. heinrich2@mailbox. tu-dresden. de), oder geht auf 
+
+https://auditorium. inf. tu-dresden. de/courses/2154639
+
+und schaut Euch <NAME_CORPUS_REPLACEMENT> an, in welche Kurse ihr wollt.
+
+Beste Grüße,
+
+Martin﻿
+
+P. S. Wer in meinen Kurs kommt - ich behandle definitiv auch UML und Design Patterns, also eine optimale Vorbereitung auf Softwaretechnologie im 2. Semester oder für Wiederholer!
+TAGGED_CONTENT:

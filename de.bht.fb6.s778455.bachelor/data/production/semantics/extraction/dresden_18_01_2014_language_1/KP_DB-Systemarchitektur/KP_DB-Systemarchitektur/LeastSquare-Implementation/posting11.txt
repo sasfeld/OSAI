@@ -1,0 +1,14 @@
+ID: 2281
+CREATION_DATETIME: 1374012000000
+MODIFICATION_DATETIME: 1374012000000
+TITLE: Die Beispiel im src/testCorrelation. a= [ 1,1,0;1,2,0;1,1,1;1,2,1], b=[5;10;2;3].
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2246
+POSTING_TYPE: comment
+CONTENT:
+Die Beispiel im src/testCorrelation. a= [ 1, 1, 0;1, 2, 0;1, 1, 1;1, 2, 1], b=[5;10;2;3].
+
+Ergebnis ist w=inv(a'*a)*a'*b=[3;3;-5]
+
+Die Ausgaben sind gleich mit octave und mit ./test 
+TAGGED_CONTENT:

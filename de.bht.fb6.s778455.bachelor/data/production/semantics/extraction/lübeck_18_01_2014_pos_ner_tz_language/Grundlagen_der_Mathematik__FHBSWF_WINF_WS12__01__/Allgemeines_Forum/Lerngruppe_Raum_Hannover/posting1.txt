@@ -1,0 +1,37 @@
+ID: 186407
+CREATION_DATETIME: 1355126363
+MODIFICATION_DATETIME: 1355126363
+TITLE: Lerngruppe Raum Hannover
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Weihnachten;weight:1.0;significance:6.95280730164701;degreegeneralization:9;uri:20915502
+TOPIC_ZOOM_TAG: value:Feiertage;weight:1.0;significance:6.76051452605328;degreegeneralization:5;uri:20718404
+TOPIC_ZOOM_TAG: value:Brauchtum;weight:1.0;significance:6.55369142121751;degreegeneralization:8;uri:20912663
+TOPIC_ZOOM_TAG: value:Tradition, Brauchtum und Sitten;weight:1.0;significance:6.13766655289434;degreegeneralization:7;uri:21389003
+TOPIC_ZOOM_TAG: value:Kulturkreise und kulturelle Gruppen;weight:1.0;significance:6.13626697253992;degreegeneralization:6;uri:20989588
+TOPIC_ZOOM_TAG: value:Feiern, Feste und Festakte;weight:1.0;significance:5.9680301556277;degreegeneralization:4;uri:20919667
+TOPIC_ZOOM_TAG: value:Völker der Erde;weight:1.0;significance:5.25209496005772;degreegeneralization:4;uri:21464177
+TOPIC_ZOOM_TAG: value:Gesellschaft und Bevölkerungsgruppen;weight:1.0;significance:4.03640596381987;degreegeneralization:5;uri:21976727
+TOPIC_ZOOM_TAG: value:Bevölkerung;weight:1.0;significance:3.88829314932761;degreegeneralization:4;uri:21634313
+TOPIC_ZOOM_TAG: value:Veranstaltungen;weight:1.0;significance:3.37051978211685;degreegeneralization:3;uri:20901494
+TOPIC_ZOOM_TAG: value:Kunst, Kultur, Musik;weight:1.0;significance:3.04770693667486;degreegeneralization:2;uri:21999796
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+POS_TAG: value:Lerngruppe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Lust;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klausurvorbereitung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Januar;weight:0.0;uri:;postag:NN
+POS_TAG: value:Weihnachten;weight:0.0;uri:;postag:NN
+POS_TAG: value:REMOVEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+hat vielleicht jemand Lust, sich an einer Lerngruppe im <REMOVED_PERSON_ENTITY> zu beteiligen? Insbesondere zur Klausurvorbereitung?
+Ich habe vor und nach Weihnachten noch ein paar <REMOVED_PERSON_ENTITY>. Da würde es gut passen. Oder ansonsten im Januar gelegentlich abends?
+Herzliche Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+ 
+ 
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, hat_VAFIN vielleicht_ADV jemand_PIS Lust_NN ,_$, sich_PRF an_APPR einer_ART Lerngruppe_NN im_APPRART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD zu_PTKZU beteiligen_VVINF ?_$. Insbesondere_ADV zur_APPRART Klausurvorbereitung_NN ?_$. Ich_PPER habe_VAFIN vor_PTKVZ und_KON nach_APPR Weihnachten_NN noch_ADV ein_ART paar_PIDAT <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN ._$. Da_ADV würde_VAFIN es_PPER gut_ADJD passen_VVINF ._$. Oder_KON ansonsten_ADV im_APPRART Januar_NN gelegentlich_ADJD abends_ADV ?_$. Herzliche_ADJA Grüße_NN <_CARD PERSONAL_GREETING_REMOVEMENT_NN >_XY 

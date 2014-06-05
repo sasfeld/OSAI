@@ -1,0 +1,10 @@
+ID: 2756
+CREATION_DATETIME: 1383951600000
+MODIFICATION_DATETIME: 1383951600000
+TITLE: Das heißt der autowired einfach das schon implementierte Interface da dran, obwohl es package visible...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2749
+POSTING_TYPE: comment
+CONTENT:
+Das heißt der autowired einfach das schon implementierte Interface <NAME_CORPUS_REPLACEMENT> dran, obwohl es package visible ist? Heißt das, dass wenn wir auch nur eine Methode anders machen wollen wir das selbst nochmal alles neuschreiben müssen? Ist es eigentlich erlaubt das zu decompilieren und den Code zu kopieren, damit wir das extenden können :)
+TAGGED_CONTENT:

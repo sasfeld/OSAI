@@ -1,0 +1,17 @@
+ID: 97776
+CREATION_DATETIME: 1287678921
+MODIFICATION_DATETIME: 1287678921
+TITLE: Re: Immer noch Probleme mit Maple
+TOPIC_ZOOM_TAG: value:World Wide Web;weight:1.0;significance:4.80310786617364;degreegeneralization:6;uri:20772430
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:Web;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hr;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97775
+CONTENT:
+Richtig erkannt Hr. <REMOVED_PERSON_ENTITY>. Wer interaktiv im Web probieren moechte beachte bitte den Link nach http://www.wolframalpha.com/.
+Mit Maple koennen Sie nur etwas machen wenn Sie es bei sich lokal installieren.
+TAGGED_CONTENT:
+Richtig_ADJD erkannt_VVPP Hr_NN ._$. <_XY REMOVED_PERSON_ENTITY_NE >_NE ._$. Wer_PWS interaktiv_ADJD im_APPRART Web_NN probieren_VVINF moechte_VMFIN beachte_ADV bitte_VVFIN den_ART Link_NE nach_APPR http:\/\/www.wolframalpha.com\/_NE ._$. Mit_APPR Maple_NE koennen_VVFIN Sie_PPER nur_ADV etwas_PIS machen_VVINF wenn_KOUS Sie_PPER es_PPER bei_APPR sich_PRF lokal_ADJD installieren_VVINF ._$. 

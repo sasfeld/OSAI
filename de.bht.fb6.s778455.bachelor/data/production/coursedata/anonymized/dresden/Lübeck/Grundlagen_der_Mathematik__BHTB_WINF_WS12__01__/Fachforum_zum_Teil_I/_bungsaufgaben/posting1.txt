@@ -1,0 +1,8 @@
+ID: 168191
+CREATION_DATETIME: 1349699134
+MODIFICATION_DATETIME: 1349699134
+TITLE: Übungsaufgaben
+PARENT_POSTING_ID: 0
+CONTENT:
+Ich denke mal, dass nach dem letzten Online-Meeting und den uns nun vorliegenden Übungsaufgaben, noch ausreichend Klärungsbedarf besteht. Irgendwie liegt zwischen der Probeaufgabe und den Übungsaufgaben eine <REMOVED_PERSON_ENTITY> die mir in den Online-Unterlagen und im Online-Meeting fehlt, soll heißen, da bestehen noch viele Detailfragen.
+TAGGED_CONTENT:

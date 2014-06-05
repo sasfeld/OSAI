@@ -1,0 +1,13 @@
+ID: 2474
+CREATION_DATETIME: 1374703200000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: 20 Bit Label, 3 Bit Quality of Service, 1 S-Bit, 8 Bit TTL
+
+Das S-Bit gibt im Falle von 1 an, dass ...
+PARENT_POSTING_ID: 2468
+POSTING_TYPE: answer
+CONTENT:
+20 Bit Label, 3 Bit Quality of Service, 1 S-Bit, 8 Bit TTL
+Das S-Bit gibt im Falle <NAME_CORPUS_REPLACEMENT> 1 an, dass es das unterste Label ist und alle anderen Labels davor sind mit 0 gekennzeichnet.
+TTL zeigt an, wie oft ein Paket noch weitergeleitet werden kann. Irgendwann erreicht es den Wert 0 und wird verworfen. Das verhindert ein endlos wanderndes Paket (glaube ich zu wissen).
+TAGGED_CONTENT:

@@ -1,0 +1,8 @@
+ID: 110804124
+CREATION_DATETIME: 1350424800000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: seminargruppe MINF-B04
+SUMMARY: Die Seminargruppe MINF-B04 betreffende, allgemeine Fragen und Anliegen können hier eingetragen werden.
+URL: 

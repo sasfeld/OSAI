@@ -1,0 +1,30 @@
+ID: 2191
+CREATION_DATETIME: 1373407200000
+MODIFICATION_DATETIME: 1373925600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Bevor ich jedes mal eine neue Frage eröffne, werde ich Fehler, die mir auffallen, gesammelt unter eine Frage packen.
+
+Hier das erste, was mir auffiel:
+
+Scheinbar sind die Barriers (CLK_GLOBAL/LOCAL_MEM_FENCE) nicht bekannt, ich vermute bei LLVM, aber bin mir nicht sicher, hier die Fehlerausgabe:
+
+```ruby
+
+Created device successfully with type: CPU OpenCL 1. 2 AMD-APP (1113. 2)
+
+:10:16: error: use of undeclared identifier 'CLK_GLOBAL_MEM_FENCE'
+
+#define __GXX_ABI_VERSION 1002
+
+               ^
+
+1 error generated.
+
+```
+
+Es scheint aber trotz des Fehlers bis zum Ende durchzulaufen.
+TAGGED_CONTENT:

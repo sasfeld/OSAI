@@ -1,0 +1,10 @@
+ID: 845
+CREATION_DATETIME: 1353711600000
+MODIFICATION_DATETIME: 1379109600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Im folgenden Git-Repository befindet sich mein Twitter-Server, der als kleines Projekt während der Veranstalung entstand. Ist mit Grails als Web-Framework und MongoDB als Datenbank implementiert.
+https://github. com/TaDe90/twitter-server
+TAGGED_CONTENT:

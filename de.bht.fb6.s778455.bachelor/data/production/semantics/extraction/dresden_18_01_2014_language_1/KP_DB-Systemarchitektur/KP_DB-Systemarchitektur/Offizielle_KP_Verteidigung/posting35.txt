@@ -1,0 +1,14 @@
+ID: 2410
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: Die predictTime ist freilich immer 0, da ihr die Daten vom Training nehmt, wo noch keine Zeit vorherg...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Die predictTime ist freilich immer 0, <NAME_CORPUS_REPLACEMENT> ihr die Daten vom Training nehmt, wo noch keine Zeit vorhergesagt wird. (totalpredictedTime: predict time before execution)
+
+(NEWpredictTime: predicted time after execution)
+
+Ansonsten bitte die totalExecutionTime (executionTime + copyTime) verwenden, <NAME_CORPUS_REPLACEMENT> die auch für die Vorhersage verwendet wird.
+TAGGED_CONTENT:

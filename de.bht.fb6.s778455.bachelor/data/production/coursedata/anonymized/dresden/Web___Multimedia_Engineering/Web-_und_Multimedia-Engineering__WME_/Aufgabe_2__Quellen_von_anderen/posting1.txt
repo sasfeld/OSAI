@@ -1,0 +1,9 @@
+ID: 790
+CREATION_DATETIME: 1353106800000
+MODIFICATION_DATETIME: 1385506800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Dürfen wir hier wieder, wie bei Aufgabe 1A, Code verwenden, der nicht <NAME_CORPUS_REPLACEMENT> uns erstellt wurde, wenn wir die Quelle angeben?
+TAGGED_CONTENT:

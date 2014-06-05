@@ -1,0 +1,12 @@
+ID: 22
+CREATION_DATETIME: 1191773940000
+MODIFICATION_DATETIME: 1191773940000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo zusammen, habs gestern leider nicht mehr in die Webkonferenz geschafft und will mir grad die Aufzeichnung reinziehen. Der verlangt aber ein Passwort das scheinbar nicht identisch mit dem für Moodle ist. Kommt ihr da rein?
+Gruß 
+   
+TAGGED_CONTENT:

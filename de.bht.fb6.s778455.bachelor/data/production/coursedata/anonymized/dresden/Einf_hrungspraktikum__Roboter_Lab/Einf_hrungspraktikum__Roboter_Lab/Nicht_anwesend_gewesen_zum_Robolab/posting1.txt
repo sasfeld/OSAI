@@ -1,0 +1,10 @@
+ID: 1456
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hiho,
+ich war leider zum Robolab nicht anwesend (Gründe möchte ich hier nicht weiter anführen) und wollte deshalb fragen ob ich dies denn im nächsten Semester nachholen kann bzw was dies für Konsequenzen denn für mich hat?
+TAGGED_CONTENT:

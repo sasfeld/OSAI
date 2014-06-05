@@ -1,0 +1,9 @@
+ID: 2841
+CREATION_DATETIME: 1384383600000
+MODIFICATION_DATETIME: 1385074800000
+TITLE: I'm looking forward to a clarification with respect to the connection between Dresden OCL, NoMagic an...
+PARENT_POSTING_ID: 2593
+POSTING_TYPE: comment
+CONTENT:
+I'm looking forward to a clarification with respect to the connection between Dresden OCL, NoMagic and the chair. Cause I don't see why NoMagic would have to pay for implementation of Dresden OCL…? Also, I'd like to know whether the mentioned way of exporting the model in a common format is accepted by the chair.
+TAGGED_CONTENT:

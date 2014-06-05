@@ -1,0 +1,25 @@
+ID: 16675
+CREATION_DATETIME: 1227732757
+MODIFICATION_DATETIME: 1227732757
+TITLE: Zeitmanagement
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Bücher;weight:1.0;significance:5.80279623892246;degreegeneralization:5;uri:21981657
+TOPIC_ZOOM_TAG: value:Presse, Druck und Verlagswesen;weight:1.0;significance:3.89973203213328;degreegeneralization:4;uri:21990174
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:Tipp?Ist;weight:0.0;uri:;postag:NN
+POS_TAG: value:tzen!Was;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kapitel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Idee;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wissenstand;weight:0.0;uri:;postag:NN
+POS_TAG: value:Modul;weight:0.0;uri:;postag:NN
+POS_TAG: value:senz;weight:0.0;uri:;postag:NN
+POS_TAG: value:nen;weight:0.0;uri:;postag:NN
+POS_TAG: value:erwartet?Hat;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeitaufwand;weight:0.0;uri:;postag:NN
+POS_TAG: value:terminiert?Ich;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Wie habt ihr euch das Modul terminiert?Ich kann den Zeitaufwand für die einzelnen Kapitel ganz schlecht einschätzen!Was wird denn in der Präsenz als Wissenstand erwartet?Hat jemand da eine Idee oder nen guten Tipp?Ist alles schon so verdammt lange her:-/
+TAGGED_CONTENT:
+Wie_PWAV habt_VAFIN ihr_PPER euch_PRF das_ART Modul_NN terminiert?Ich_NN kann_VMFIN den_ART Zeitaufwand_NN für_APPR die_ART einzelnen_ADJA Kapitel_NN ganz_ADV schlecht_ADJD einschätzen!Was_NN wird_VAFIN denn_ADV in_APPR der_ART Präsenz_NN als_APPR Wissenstand_NN erwartet?Hat_NN jemand_PIS da_ADV eine_ART Idee_NN oder_KON nen_NN guten_ADJA Tipp?Ist_NN alles_PIS schon_ADV so_ADV verdammt_VVFIN lange_ADV her_PTKVZ :_$. -_$( \/_XY 

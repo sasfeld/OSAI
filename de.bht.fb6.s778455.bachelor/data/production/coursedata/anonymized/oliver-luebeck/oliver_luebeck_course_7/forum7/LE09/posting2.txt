@@ -1,0 +1,17 @@
+ID: 43
+CREATION_DATETIME: 1304373300000
+MODIFICATION_DATETIME: 1304373300000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 42
+CONTENT:
+ 
+Hallo!
+
+Habe die Aufgabe LE09 schon abgegeben. Hatte doch glatt vergessen diese Tabelle anzufertigen. Hmm, habe dennoch in der Berwertung im Modul schon 100% zu stehen.
+
+Eventuell muss ich die Tabelle nochmal nachreichen. Würde da aber nur die Werte nehmen die schon vergegeben sind. Sind ja kleine und große Werte dabei.
+
+Gruß
+   
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 995
+CREATION_DATETIME: 1355958000000
+MODIFICATION_DATETIME: 1355958000000
+TITLE: So, server should take the compiled version of my code?
+PARENT_POSTING_ID: 991
+POSTING_TYPE: comment
+CONTENT:
+So, server should take the compiled version of my code?
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 780
+CREATION_DATETIME: 1352847600000
+MODIFICATION_DATETIME: 1352847600000
+TITLE: Ok dann ist ja alles in Butter :)
+Dein Programm scheint wohl auch (so wie meins) alle quadratischen ...
+PARENT_POSTING_ID: 721
+POSTING_TYPE: comment
+CONTENT:
+Ok dann ist ja alles in Butter :)
+Dein Programm scheint wohl auch (so wie meins) alle quadratischen Felder zu verarbeiten ;)
+mfg
+TAGGED_CONTENT:

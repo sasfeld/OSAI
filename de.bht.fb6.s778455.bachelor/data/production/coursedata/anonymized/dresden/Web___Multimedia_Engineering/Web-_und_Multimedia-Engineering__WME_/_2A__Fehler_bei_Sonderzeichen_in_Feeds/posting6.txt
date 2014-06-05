@@ -1,0 +1,9 @@
+ID: 950
+CREATION_DATETIME: 1354748400000
+MODIFICATION_DATETIME: 1354748400000
+TITLE: Hmm. Setz den String in eine Variable und geb dann diese Variable per echo aus? Würde das helfen? Ode...
+PARENT_POSTING_ID: 945
+POSTING_TYPE: comment
+CONTENT:
+Hmm. Setz den String in eine Variable und geb dann diese Variable per echo aus? Würde das helfen? Oder auch schon getestet ob es in anderen Browsern genauso aussieht?
+TAGGED_CONTENT:

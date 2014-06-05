@@ -1,0 +1,9 @@
+ID: 1908
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: Maybe slide 22 helps: https://os.inf.tu-dresden.de/Studium/MkK//SS2013/06_mdb.pdf 
+PARENT_POSTING_ID: 1681
+POSTING_TYPE: comment
+CONTENT:
+Maybe slide 22 helps: https://os. inf. tu-dresden. de/Studium/MkK//SS2013/06_mdb. pdf (hotspot = sendbase)
+TAGGED_CONTENT:

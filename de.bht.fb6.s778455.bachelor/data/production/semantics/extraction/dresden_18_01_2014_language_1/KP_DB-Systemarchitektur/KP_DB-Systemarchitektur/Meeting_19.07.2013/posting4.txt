@@ -1,0 +1,10 @@
+ID: 2354
+CREATION_DATETIME: 1374184800000
+MODIFICATION_DATETIME: 1374184800000
+TITLE: sie sind so erkennbar, ja, so habe ich nur mehr Aufwand, zu identifizieren, welchen Kernel ich gerade...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2344
+POSTING_TYPE: comment
+CONTENT:
+sie sind so erkennbar, ja, so habe ich nur mehr Aufwand, zu identifizieren, welchen Kernel ich gerade bearbeite, eine einfache KernelID o.ä. würde das Skript um einiges vereinfachen
+TAGGED_CONTENT:

@@ -1,0 +1,35 @@
+ID: 2044
+CREATION_DATETIME: 1371074400000
+MODIFICATION_DATETIME: 1371074400000
+TITLE: Hallo Christoph,
+
+Der Fehler war folgender:
+Deine next()-Methode hat eine Prüfung mit der Methode ...
+PARENT_POSTING_ID: 1976
+POSTING_TYPE: answer
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+Der Fehler war folgender:
+Deine next()-Methode hat eine Prüfung mit der Methode hasNext() verwendet. Was bedeutet, dass Du immer zwei Felder weiterspringst.
+Also erst ruft der Client hasNext() auf um zu wissen, ob er noch ein Element bekommen kann. Wenn ja, dann bekommt er es mit next() und ruft noch einmal gleich hasNext() mit auf.
+Das 2mal liegt daran, dass Dein Iterator bei hasNext() weiterrückt.
+Also zwei Möglichkeiten:
+(Die falsche)
+Du änderst diese Methode so (TODO)
+```ruby
+public E next() {
+			// / TODO
+			if (next != null)
+				return next;
+			return null;
+		}
+```
+Dann fügst Du vor den 'false' in hasNext() noch 'next = null;' ein.
+Warum falsch?
+Ganz einfach. Der Iterator soll bei hasNext() nur sagen, ob es noch etwas gibt. Wenn ich also auf Zelle 2|3 stehe, dann kann ich 5 mal hasNext() aufrufen und ich stehe immer noch auf 2|3 (Bitte Aufgabe lesen und VERSTEHEN).
+Erst bei next() soll er weiterrücken. Der Test berücksichtigt das leider nicht...
+Also die richtige Lösung. Die Methoden next() und hasNext() entsprechend der Aufgabenstellung und der obigen Erklärung anpassen.
+Dieser Fehler wird sehr häufig gemacht. Das liegt z. T. daran, dass die Literatur beide genannten Methoden nicht genau festlegt und somit beide Möglichkeiten zulässig sind.
+<NAME_CORPUS_REPLACEMENT> ist es dann als Programmierer wichtig sich die Spezifikation genau anzuschauen. In diesem Fall die Aufgabe.
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

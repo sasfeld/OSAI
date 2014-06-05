@@ -1,0 +1,35 @@
+ID: 84
+CREATION_DATETIME: 1306691160000
+MODIFICATION_DATETIME: 1306691160000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 83
+CONTENT:
+   
+Hallo ,
+
+also ich weiß nicht, wie das bei Dir im Gesamtbild aussieht, aber ich habe in meinem Reporter so etwas stehen:
+
+System.out.println (rectangle1.toString() + " / Area: " + rectangle1.area(35d,15d) + " / Circumference: " +
+rectangle1.circumference(35d,15d));
+
+... das dann jeweils in square1, circle1...
+
+Die Delta-Werte gebe ich zur to-String-Methode dazu (Bemerkungen der Aufgabe:
+
+- die Klasse enthält eine toString-Methode, welche als Zeichenkette die Art des Objektes
+(hier ...), den Ursprung und die Werte für xDelta und yDelta (oder entsprechend geforderte) liefert
+
+Demzufolge sieht meine toString-Methode bspw. für das Rectangle so aus:
+
+public String toString() {
+return ("Rectangle with origin: " + origin() + ", xDelta: " + xDelta + ", yDelta: " + yDelta);
+}
+
+Ich hoffe, ich konnte Dir weiterhelfen...lächelnd!
+
+Ich bin jetzt noch verabredet und verabschiede mich für heute (hat auch lange genug gedauert zwinkernd).
+
+Liebe Grüße, 
+    
+TAGGED_CONTENT:

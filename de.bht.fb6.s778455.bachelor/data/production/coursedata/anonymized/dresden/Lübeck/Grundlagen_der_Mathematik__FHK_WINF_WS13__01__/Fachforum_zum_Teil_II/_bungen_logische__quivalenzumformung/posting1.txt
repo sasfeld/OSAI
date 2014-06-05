@@ -1,0 +1,10 @@
+ID: 253451
+CREATION_DATETIME: 1383744172
+MODIFICATION_DATETIME: 1383744172
+TITLE: Übungen logische Äquivalenzumformung
+PARENT_POSTING_ID: 0
+CONTENT:
+Hat jemand ein paar gute Übungen incl. Lösungen zur logischen Äquivalenzumformung im Internet gefunden?
+In den Übungsaufgaben sind ja nur 2 vorhanden und im Script auch nicht sonderlich viele. Man braucht ja schon ein wenig mehr Anwendung um die richtigen Regeln anzuwenden finde ich. Sonst landet man schnell in einer Sackgasse.
+Vielen Dank im voraus :-)
+TAGGED_CONTENT:

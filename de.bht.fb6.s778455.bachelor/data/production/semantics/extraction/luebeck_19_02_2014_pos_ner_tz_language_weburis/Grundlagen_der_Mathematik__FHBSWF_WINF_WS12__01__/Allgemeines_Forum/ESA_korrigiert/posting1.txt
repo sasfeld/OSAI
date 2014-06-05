@@ -1,0 +1,61 @@
+ID: 186971
+CREATION_DATETIME: 1355296380
+MODIFICATION_DATETIME: 1355296380
+TITLE: ESA korrigiert
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=69949#186971
+TOPIC_ZOOM_TAG: value:Seitenbeschreibungssprachen;weight:1.0;significance:7.8032747367955;degreegeneralization:8;uri:19947182
+TOPIC_ZOOM_TAG: value:Drucksysteme;weight:1.0;significance:7.8032747367955;degreegeneralization:7;uri:20900661
+TOPIC_ZOOM_TAG: value:PDF;weight:1.0;significance:7.8032747367955;degreegeneralization:9;uri:20900627
+TOPIC_ZOOM_TAG: value:Drucktechnik;weight:1.0;significance:7.70460320928847;degreegeneralization:5;uri:20900695
+TOPIC_ZOOM_TAG: value:Beschreibungssprachen;weight:1.0;significance:7.60260404133335;degreegeneralization:7;uri:20900644
+TOPIC_ZOOM_TAG: value:Formale Sprachen;weight:1.0;significance:7.03179571296564;degreegeneralization:6;uri:21978155
+TOPIC_ZOOM_TAG: value:Computersprachen;weight:1.0;significance:7.02837690621686;degreegeneralization:6;uri:19949137
+TOPIC_ZOOM_TAG: value:Liebe;weight:1.0;significance:6.84491833963583;degreegeneralization:5;uri:21126234
+TOPIC_ZOOM_TAG: value:Software;weight:1.0;significance:5.21023364446695;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:5.02422544755277;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:5.00870710783694;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:5.00780172072213;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Partnerschaft, Ehe, Liebe, Sex;weight:1.0;significance:4.77978319360723;degreegeneralization:4;uri:21126268
+TOPIC_ZOOM_TAG: value:Zwischenmenschliche Beziehungen;weight:1.0;significance:4.51902740448583;degreegeneralization:3;uri:20122843
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:4.31013985980766;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Presse, Druck und Verlagswesen;weight:1.0;significance:3.89973203213328;degreegeneralization:4;uri:21990174
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+NER_TAG: value:ESA;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:ESA;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Kommentar;weight:0.0;uri:;postag:NN
+POS_TAG: value:ckmeldung;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:PDF;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hinweisen;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beste;weight:0.0;uri:;postag:NN
+POS_TAG: value:ESA;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fragen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Liebe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bisherige;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gesamtwertung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kursteilnehmer;weight:0.0;uri:;postag:NN
+POS_TAG: value:Korrekturanmerkungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nacharbeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kurs;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nachsendefrist;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Kursteilnehmer,
+wie Sie sicherlich bereits bemerkt haben, ist Ihre eingeschickte ESA nun korrigiert. Sie sollten dazu folgende Rückmeldung im Kurs finden:
+  1) Bisherige Gesamtwertung "ok"-"Nacharbeit"-"nicht ok".
+  2) Einen zusammenfassenden Kommentar inkl. Hinweisen zur etwaigen Nachsendefrist.
+  3) Ein PDF Ihrer Lösung mit Korrekturanmerkungen meinerseits.
+Solle irgendetwas davon Fragen aufwerfen, zögern Sie nicht, mich zu kontaktieren.
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:
+Liebe_NN Kursteilnehmer_NN ,_$, wie_PWAV Sie_PPER sicherlich_ADV bereits_ADV bemerkt_VVPP haben_VAFIN ,_$, ist_VAFIN Ihre_PPOSAT eingeschickte_ADJA ESA_NN nun_ADV korrigiert_VVFIN ._$. Sie_PPER sollten_VMFIN dazu_PROAV folgende_ADJA Rückmeldung_NN im_APPRART Kurs_NN finden_VVINF :_$. 1_CARD -RRB-_TRUNC Bisherige_NN Gesamtwertung_NN "_$( ok_FM "_$( -_$( "_$( Nacharbeit_NN "_$( -_$( "_$( nicht_PTKNEG ok_FM "_$( ._$. 2_CARD -RRB-_TRUNC Einen_ART zusammenfassenden_ADJA Kommentar_NN inkl_ADJD ._$. Hinweisen_NN zur_APPRART etwaigen_ADJA Nachsendefrist_NN ._$. 3_CARD -RRB-_TRUNC Ein_ART PDF_NN Ihrer_PPOSAT Lösung_NN mit_APPR Korrekturanmerkungen_NN meinerseits_ADV ._$. Solle_VMFIN irgendetwas_PIS davon_PROAV Fragen_NN aufwerfen_VVFIN ,_$, zögern_VVFIN Sie_PPER nicht_PTKNEG ,_$, mich_PRF zu_PTKZU kontaktieren_VVINF ._$. Beste_NN Grüße_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ._$. 

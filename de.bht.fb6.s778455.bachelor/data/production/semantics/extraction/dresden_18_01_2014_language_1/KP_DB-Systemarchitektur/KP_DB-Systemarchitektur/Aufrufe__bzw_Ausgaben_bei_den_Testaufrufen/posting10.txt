@@ -1,0 +1,68 @@
+ID: 2173
+CREATION_DATETIME: 1373148000000
+MODIFICATION_DATETIME: 1373148000000
+TITLE: Zum TestNLJ: Das programm Crasht nach einem SIGABORT; (double free or corrupted). Valgrind sagt folge...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2108
+POSTING_TYPE: answer
+CONTENT:
+Zum TestNLJ: Das programm Crasht nach einem SIGABORT; (double free or corrupted). Valgrind sagt folgendes: 
+
+```ruby
+
+==25500== Thread 1:
+
+==25500== Invalid read of size 8
+
+==25500==    at 0x75CE965: clEnqueueReadBuffer (in /usr/lib/OpenCL/vendors/amd/libamdocl64. so)
+
+==25500==    by 0x41A68A: clt::ExecutionInstance::getResults() (ExecutionInstance. cpp:63)
+
+==25500==    by 0x41478F: clt::CLeverTrustee::training(clt::Kernel&) (CLeverTrustee. cpp:116)
+
+==25500==    by 0x414524: clt::CLeverTrustee::createKernel(std::string, std::string, int (*)(int, std::vector >*, std::vector >*, int*, int*, int*, int*, int*, int*), int (*)(int, std::vector >*, std::vector >*)) (CLeverTrustee. cpp:87)
+
+==25500==    by 0x40FC62: test::TestNLJ::setUp() (TestNLJ. cpp:114)
+
+==25500==    by 0x41120D: test::TestSuite::execute() (TestSuite. cpp:12)
+
+==25500==    by 0x40AD98: main (testCLT. cpp:42)
+
+==25500==  Address 0xcc000000f3 is not stack'd, malloc'd or (recently) free'd
+
+==25500==
+
+==25500==
+
+==25500== Process terminating with default action of signal 11 (SIGSEGV)
+
+==25500==  Access not within mapped region at address 0xCC000000F3
+
+==25500==    at 0x75CE965: clEnqueueReadBuffer (in /usr/lib/OpenCL/vendors/amd/libamdocl64. so)
+
+==25500==    by 0x41A68A: clt::ExecutionInstance::getResults() (ExecutionInstance. cpp:63)
+
+==25500==    by 0x41478F: clt::CLeverTrustee::training(clt::Kernel&) (CLeverTrustee. cpp:116)
+
+==25500==    by 0x414524: clt::CLeverTrustee::createKernel(std::string, std::string, int (*)(int, std::vector >*, std::vector >*, int*, int*, int*, int*, int*, int*), int (*)(int, std::vector >*, std::vector >*)) (CLeverTrustee. cpp:87)
+
+==25500==    by 0x40FC62: test::TestNLJ::setUp() (TestNLJ. cpp:114)
+
+==25500==    by 0x41120D: test::TestSuite::execute() (TestSuite. cpp:12)
+
+==25500==    by 0x40AD98: main (testCLT. cpp:42)
+
+==25500==  If you believe this happened as a result of a stack
+
+==25500==  overflow in your program's main thread (unlikely but
+
+==25500==  possible), you <NAME_CORPUS_REPLACEMENT> try to increase the size of the
+
+==25500==  main thread stack using the --main-stacksize= flag.
+
+==25500==  The main thread stack size used in this run was 8388608.
+
+```
+
+Das hilft mit nur nicht allzu viel. Vielleicht könnt ihr mal kurz drüberschauen, ob der Fehler in meinem Code liegt, oder doch anderswo.
+TAGGED_CONTENT:

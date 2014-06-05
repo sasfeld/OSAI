@@ -1,0 +1,23 @@
+ID: 101860
+CREATION_DATETIME: 1287221360
+MODIFICATION_DATETIME: 1287221360
+TITLE: Aufgraben und Praesenzphasen
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Tag;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hausaufgaben?Vielen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Terminen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Praesenzveranstaltungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einfeuhrungsveranstaltung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mathematik;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruessen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Guten Tag, ich nehme an dem <REMOVED_PERSON_ENTITY> der Mathematik teil und konnte bei der Einfeuhrungsveranstaltung leider nicht dabei sein. Gibt es irgendwo eine <REMOVED_PERSON_ENTITY> mit Terminen zu den Praesenzveranstaltungen und Hausaufgaben?Vielen Dank. Mit freundlichen Gruessen, <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:
+Guten_ADJA Tag_NN ,_$, ich_PPER nehme_VVFIN an_APPR dem_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN der_ART Mathematik_NN teil_PTKVZ und_KON konnte_VMFIN bei_APPR der_ART Einfeuhrungsveranstaltung_NN leider_ADV nicht_PTKNEG dabei_PROAV sein_VAINF ._$. Gibt_VVFIN es_PPER irgendwo_ADV eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN mit_APPR Terminen_NN zu_APPR den_ART Praesenzveranstaltungen_NN und_KON Hausaufgaben?Vielen_NN Dank_NN ._$. Mit_APPR freundlichen_ADJA Gruessen_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

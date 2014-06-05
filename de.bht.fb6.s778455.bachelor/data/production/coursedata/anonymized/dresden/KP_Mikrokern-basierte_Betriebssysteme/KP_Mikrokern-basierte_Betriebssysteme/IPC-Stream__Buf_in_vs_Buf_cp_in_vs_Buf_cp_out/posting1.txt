@@ -1,0 +1,11 @@
+ID: 536
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1383001200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich habe eigentlich keine Lust, meinen String <REMOVED_PERSON_ENTITY> für <REMOVED_PERSON_ENTITY> durch den IPC-Stream zu schieben und hab mal geschaut, was der `>>` Operator noch kann. Dabei bin ich auf `Buf_in`, `Buf_cp_in` und `Buf_cp_out` gestoßen.  
+Was ist der Unterschied zwischen den einzelnen <REMOVED_PERSON_ENTITY>?  
+Sind die für meinen <REMOVED_PERSON_ENTITY> (String per IPC übertragen) überhaupt geeignet?
+TAGGED_CONTENT:

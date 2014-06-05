@@ -1,0 +1,9 @@
+ID: 529
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1351202400000
+TITLE: Can you please ask the questions one by one the next time? Then one can answer them individually.
+PARENT_POSTING_ID: 514
+POSTING_TYPE: comment
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> you please ask the questions one by one the next time? Then one <NAME_CORPUS_REPLACEMENT> answer them individually.
+TAGGED_CONTENT:

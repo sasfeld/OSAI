@@ -1,0 +1,10 @@
+ID: 2397
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: Leute, wir treffen uns morgen 12:30 im Labor um nochmal alles durchzugehen. @Stefanie: willst du auch...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Leute, wir treffen uns morgen 12:30 im Labor um nochmal alles durchzugehen. @Stefanie: willst du auch was sagen beim Vortrag? hätte <NAME_CORPUS_REPLACEMENT> zum Beispiel noch an die Einleitung gedacht, also nochmal Aufgabenstellung und dieses Blackboxschema. Wenn du Lust dazu hast, wie du willst.
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 185719
+CREATION_DATETIME: 1354797022
+MODIFICATION_DATETIME: 1354797175
+TITLE: Re: Aufgabe 2b)
+PARENT_POSTING_ID: 185681
+CONTENT:
+Muss man denn jetzt noch addieren und mit einem Skalar multiplizieren? Laut Aufgabenstellung sollen wir das nicht unbedingt auf den Graph G beziehen, sondern allgemein fassen.
+Kann man da jetzt nicht einfach "Skalar * Vektor A ist immernoch ein Skalar * Vektor" und nichts anderes schreiben?Bin nicht sicher, ob wir die Vektoren überhaupt dafür nutzen sollen... Aber wie zur Hölle zeige ich, dass die abgeschlossen sind? :)
+TAGGED_CONTENT:

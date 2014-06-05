@@ -1,0 +1,12 @@
+ID: 2174
+CREATION_DATETIME: 1373148000000
+MODIFICATION_DATETIME: 1373148000000
+TITLE: In den OpenCL-Code (siehe http://clang.llvm.org/docs/LanguageExtensions.html)
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2170
+POSTING_TYPE: comment
+CONTENT:
+In den OpenCL-Code (siehe http://clang.llvm.org/docs/LanguageExtensions. html)
+
+Perspektivisch müssen wir einen Header finden, der alle Vektortypen definiert und den automatisch laden lassen.
+TAGGED_CONTENT:

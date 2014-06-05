@@ -1,0 +1,13 @@
+ID: 1971
+CREATION_DATETIME: 1370556000000
+MODIFICATION_DATETIME: 1371074400000
+TITLE: Gibts die auch in einem freien Format? Und gibts schon nen konkreten Anlass, die zu benutzen?
+LANGUAGE: GERMAN
+POS_TAG: value:Anlass;weight:0.0;uri:;postag:NN
+POS_TAG: value:Format;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+Gibts die auch in einem freien Format? Und gibts schon nen konkreten Anlass, die zu benutzen?
+TAGGED_CONTENT:
+Gibts_VVFIN die_ART auch_ADV in_APPR einem_ART freien_ADJA Format_NN ?_$. Und_KON gibts_ADV schon_ADV nen_ADV konkreten_ADJA Anlass_NN ,_$, die_PRELS zu_APPR benutzen_VVINF ?_$. 

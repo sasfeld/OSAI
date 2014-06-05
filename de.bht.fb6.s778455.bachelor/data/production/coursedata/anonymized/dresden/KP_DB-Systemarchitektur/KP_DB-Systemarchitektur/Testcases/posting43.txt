@@ -1,0 +1,12 @@
+ID: 2015
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Die Indizes beginnen bei 0.
+Und bei der Workgroupsize musst du darauf achten, dass in der globalDimX...
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Die Indizes beginnen bei 0.
+Und bei der Workgroupsize musst du darauf achten, dass in der globalDimX genauso viele drinstehen, wie du in die localDimX schreibst.
+Ich mache mir derzeit allerdings um was ganz anderes Sorgen. Ich dachte ja, dass die Ausführung korrekt funktionieren würde. Allerdings tut sie das nicht, es kommen falsche Ergebnisse zurück. Ich such jetzt schon mehrere Tage und heute schon wieder 6 Stunden... bisherige Erkenntnis: er kopiert das Inputarray nicht rüber (ich nutze noch den Tester mit dem Sum-Kernel), nur die erste Stelle des Arrays, danach stehen verrückte Werte... Und ich hab immer noch keinen <REMOVED_PERSON_ENTITY> wieso
+TAGGED_CONTENT:

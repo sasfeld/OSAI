@@ -1,0 +1,7 @@
+ID: 6513
+CREATION_DATETIME: 1224870274
+MODIFICATION_DATETIME: 1225130339
+TITLE: Weitere Gruppenbildung
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=6513
+FIRST_POSTING_ID: 16575

@@ -1,0 +1,14 @@
+ID: 2497
+CREATION_DATETIME: 1375740000000
+MODIFICATION_DATETIME: 1376344800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo, 
+
+könnte jmd bitte noch einmal kurz erklären wie man bei der Übung 5, Aufgabe 2a) auf die funktionalen Abhängigkeiten aus dem Relationenmodell kommt? Leider komme ich nicht drauf.
+
+Vielen Dank
+TAGGED_CONTENT:

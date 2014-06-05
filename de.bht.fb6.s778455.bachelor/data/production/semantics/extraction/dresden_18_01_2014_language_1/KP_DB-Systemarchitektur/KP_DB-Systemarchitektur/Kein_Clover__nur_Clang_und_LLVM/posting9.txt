@@ -1,0 +1,10 @@
+ID: 1888
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: Achja, aus den KernelMetrics sollte das LLVM-Zeugs eh rausfliegen. Ich habe die Include und die cpp a...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: answer
+CONTENT:
+Achja, aus den KernelMetrics sollte das LLVM-Zeugs eh rausfliegen. Ich habe die Include und die cpp angepasst.
+TAGGED_CONTENT:

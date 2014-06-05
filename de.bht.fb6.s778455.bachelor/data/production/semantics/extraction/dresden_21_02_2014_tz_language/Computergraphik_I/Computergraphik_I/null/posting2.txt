@@ -1,0 +1,31 @@
+ID: 1950
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Hallo,
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Algorithmen;weight:2.0;significance:9.45045297721244;degreegeneralization:5;uri:20898553
+TOPIC_ZOOM_TAG: value:Informatik;weight:2.0;significance:5.02422544755277;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:2.0;significance:5.00780172072213;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:1.72623562579194;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:1.44804068054249;degreegeneralization:3;uri:20758133
+PARENT_POSTING_ID: 1947
+POSTING_TYPE: answer
+CONTENT:
+Hallo,
+
+könntest Du <NAME_CORPUS_REPLACEMENT> bitte noch etwas genauer drauf eingehen, in welchem Zusammenhang die Frage steht? Meine Vermutung ist die:
+
+Klar kann man eine Tiefensortierung auf Basis <NAME_CORPUS_REPLACEMENT> Polygonen machen, nur hätte das entscheidende Nachteile und Unklarheiten:
+
+1. Wie entscheidet man, welche Tiefe ein Polygon hat? Klar ist das Polygon immer planar, aber es kann entlang seiner Oberfläche trotzdem in der Tiefe variieren. Den Mittelpunkt zu nehmen würde bei großen Polygonen nicht funktionieren und wenn man beginnt, jede Polygonecke einzusortieren ist unklar, wie das Polygon dann zu zeichnen ist. Schau auch mal in das CG1-Skript. <NAME_CORPUS_REPLACEMENT> ist irgendwo eine Abbildung mit 4 Dreiecken zu sehen, die entlang der Kanten eines Quadrates gehen und dessen Spitzen jeweils das nächste überdecken. Einen solchen Fall könnte man mit einer Tiefensortierung wohl nicht erschlagen. Vermutlich ist dieses Bild auch das, worauf die Frage abzielt.
+
+2. Letzter Punkt beschreibt auch das nächste Problem: Was macht man, wenn sich zwei Polygone durchdringen? Bei Sortierung auf Polygonebene müsste man dann die Polygone genau an den Schnittkanten in 2 aufteilen - das klappt aber nur in wenigen Fällen und ist unendlich aufwendig.
+
+3. Unter Umständen werden sehr viele Polygone gerendert. Jedes müsste man dann in eine geordnete Liste einsortieren. Das könnte sehr rechenintensiv sein. Ist aber eher ein schwächeres Argument.
+
+4. Die bildbasierten Renderverfahren, also so wie es OpenGL und DirectX sind, basieren auf dem Painters-Algorithmus, bei dem verdeckte Polygone einfach übergezeichnet werden. Der zeichnet zwar im Normalfall viele Polygone, die hinterher komplett verdeckt werden, ist aber sehr einfach aus algorithmischer Sicht und vor allem extrem gut pro Pixel parallelisierbar. Nutzt man einen Tiefenpuffer pro Pixel hat man alle Vorteile übernommen: man kann durch eine einfache Vergleichsoperation pro Zeichnen sehr leicht entscheiden, ob ein Fragment gemalt werden soll oder nicht... und das für jeden Pixel unabhängig, was eben eine enorme Parallelisierbarkeit ermöglicht.
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 682
+CREATION_DATETIME: 1352242800000
+MODIFICATION_DATETIME: 1352242800000
+TITLE: You don't have to check for file permissions. Simply throw an exception if fwrite returns 0.
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 566
+POSTING_TYPE: answer
+CONTENT:
+You don't have to check for file permissions. Simply throw an exception if fwrite returns 0.
+
+Note 1:  Test 2 writes on a open for read file. Test 7 tests the normal behavior.
+
+Note 2: I removed the other misleading answer I gave.
+TAGGED_CONTENT:

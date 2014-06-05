@@ -1,0 +1,13 @@
+ID: 1932
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: Bei mir segfaulten die Tests, aber das stört mich nicht, weil der Code für den ich zuständig bin, ehe...
+LANGUAGE: GERMAN
+POS_TAG: value:Tests;weight:0.0;uri:;postag:NN
+POS_TAG: value:Code;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Bei mir segfaulten die Tests, aber das stört mich nicht, weil der Code für den ich zuständig bin, eher aufgerufen wird :D
+TAGGED_CONTENT:
+Bei_APPR mir_PPER segfaulten_VVFIN die_ART Tests_NN ,_$, aber_KON das_PDS stört_VVFIN mich_PPER nicht_PTKNEG ,_$, weil_KOUS der_ART Code_NN für_APPR den_ART ich_PPER zuständig_ADJD bin_VAFIN ,_$, eher_ADV aufgerufen_VVPP wird_VAFIN ,_$, D_XY 

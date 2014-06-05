@@ -1,0 +1,13 @@
+ID: 944
+CREATION_DATETIME: 1354748400000
+MODIFICATION_DATETIME: 1354748400000
+TITLE: schau mal hier: 
+http://www.designerzone.de/webdesign-tipps-html-sonderzeichen-liste.php
+PARENT_POSTING_ID: 943
+POSTING_TYPE: answer
+CONTENT:
+schau mal hier: 
+http://www.designerzone.de/webdesign-tipps-html-sonderzeichen-liste. php
+<REMOVED_PERSON_ENTITY> man ganz leicht korrigieren :). Schreib statt "ß" einfach "&szlig;"
+Für die Feeds: Habt ihr sichergestellt, dass es in UTF8 kodiert wird? Dann dürften <NAME_CORPUS_REPLACEMENT> auch die Sonderzeichen normal dargestellt werden.
+TAGGED_CONTENT:

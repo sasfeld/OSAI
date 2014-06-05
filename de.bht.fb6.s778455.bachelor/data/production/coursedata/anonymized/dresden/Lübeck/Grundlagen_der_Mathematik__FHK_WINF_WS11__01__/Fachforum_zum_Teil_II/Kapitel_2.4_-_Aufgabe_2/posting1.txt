@@ -1,0 +1,8 @@
+ID: 115381
+CREATION_DATETIME: 1319985828
+MODIFICATION_DATETIME: 1319985828
+TITLE: Kapitel 2.4 - Aufgabe 2
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen, kann mir jemand die Herangehensweise für diese Aufgabe (Bausteine der Aussagenlogik) verraten:-------------''Wer von euch Rabauken hat den Ball in mein Fenster geschossen?'' schreit der <REMOVED_PERSON_ENTITY> wutschnaubend. Trotzig stehen die vier Kinder da. <REMOVED_PERSON_ENTITY> sagt: ''<REMOVED_PERSON_ENTITY> war es!'' <REMOVED_PERSON_ENTITY> sagt: ''<REMOVED_PERSON_ENTITY> hat es getan!'' <REMOVED_PERSON_ENTITY> sagt: ''Ich war es nicht!'' <REMOVED_PERSON_ENTITY> sagt: ''<REMOVED_PERSON_ENTITY> hat gelogen!''Wenn nur eine(r) von den vieren gelogen hat, wer hat den Ball geschossen? Und wer wars, wenn nur eine(r) die Wahrheit gesagt hat? Wir gehen dabei davon aus, dass es sich um einen Einzeltäter (eine Einzeltäterin) handelt.-------------Irgendwie hab ich da keinen Ansatz bzw. ich vllt. etwas zu kompliziert. Bisher hab ich versucht die Aussagen bzw. die Personen in einer Wahrheitstafel zu erfassen,  schaffe es aber nicht die Zusammenhänge in die Aussagenlogik zu übersetzten. Danke &amp; Gruß, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

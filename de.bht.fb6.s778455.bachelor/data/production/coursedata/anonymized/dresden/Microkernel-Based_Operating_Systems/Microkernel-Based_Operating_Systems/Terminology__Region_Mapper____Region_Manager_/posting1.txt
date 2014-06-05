@@ -1,0 +1,9 @@
+ID: 1408
+CREATION_DATETIME: 1362783600000
+MODIFICATION_DATETIME: 1365372000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Do the expressions *Region Mapper* and *Region Manager* mean the same? If not where is the difference?
+TAGGED_CONTENT:

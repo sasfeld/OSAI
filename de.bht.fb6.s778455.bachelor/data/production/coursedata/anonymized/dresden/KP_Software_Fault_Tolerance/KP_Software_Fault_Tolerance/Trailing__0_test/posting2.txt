@@ -1,0 +1,9 @@
+ID: 853
+CREATION_DATETIME: 1353798000000
+MODIFICATION_DATETIME: 1353798000000
+TITLE: I think you don`t need to worry about testing the end of your string. Take a look at malloc_prot func...
+PARENT_POSTING_ID: 851
+POSTING_TYPE: comment
+CONTENT:
+I think you don`t need to worry about testing the end of your string. Take a look at malloc_prot function description one more time. You will see that this function will copy 'size' elements from your 'source' to the new allocated memory. For a valid string you <NAME_CORPUS_REPLACEMENT> use 'strlen(s) + 1' size and a string without trailing \0, <NAME_CORPUS_REPLACEMENT> 'strlen(s)' size
+TAGGED_CONTENT:

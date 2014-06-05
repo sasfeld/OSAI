@@ -1,0 +1,9 @@
+ID: 2908
+CREATION_DATETIME: 1384729200000
+MODIFICATION_DATETIME: 1384729200000
+TITLE: Übrigens danke Oliver für deine Mühe. Ich weiss wie schwer es ist eine korrekte Ferndiagnose zu mache...
+PARENT_POSTING_ID: 2897
+POSTING_TYPE: comment
+CONTENT:
+Übrigens danke <REMOVED_PERSON_ENTITY> für deine Mühe. Ich weiss wie schwer es ist eine korrekte Ferndiagnose zu machen ;-)
+TAGGED_CONTENT:

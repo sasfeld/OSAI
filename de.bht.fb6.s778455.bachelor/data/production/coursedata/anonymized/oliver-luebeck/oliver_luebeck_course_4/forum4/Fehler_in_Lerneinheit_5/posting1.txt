@@ -1,0 +1,18 @@
+ID: 11
+CREATION_DATETIME: 1176220860000
+MODIFICATION_DATETIME: 1176220860000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+    Möchte nur kurz darauf hinweisen, dass in der Lerneinheit 5 im Unterpunkt 1.4 Programmierung von Applets im Quellcode des Applets MeinZweitesApplet.java ein Fehler in Zeile 009 ist:
+
+Es heißt hier nur init () {
+
+Funktioniert hat das Kompilieren erst als ich die Zeile wie folgt ergänzt habe:
+
+public void init() {
+
+    
+TAGGED_CONTENT:

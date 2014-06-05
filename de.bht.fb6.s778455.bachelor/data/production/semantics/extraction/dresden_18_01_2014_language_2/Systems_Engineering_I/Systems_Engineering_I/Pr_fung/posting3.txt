@@ -1,0 +1,10 @@
+ID: 1733
+CREATION_DATETIME: 1366063200000
+MODIFICATION_DATETIME: 1366063200000
+TITLE: Laut "Introduction" Foliensatz sind die Prüfungen nur für "diploma students" mündlich, für "all other...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1678
+POSTING_TYPE: comment
+CONTENT:
+Laut "Introduction" Foliensatz sind die Prüfungen nur für "diploma students" mündlich, für "all other students" schriftlich! Das ist verwirrend
+TAGGED_CONTENT:

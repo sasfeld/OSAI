@@ -1,0 +1,9 @@
+ID: 2226
+CREATION_DATETIME: 1373666400000
+MODIFICATION_DATETIME: 1373925600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Aufgrund der dirty-Logik müsste nach meinem Ermessen die Auswertung viel öfter aufgerufen werden. Die Matrix wird nur insgesamt 2 Mal wärend der Ausführung <NAME_CORPUS_REPLACEMENT> testCLT ausgerechnet. Die Frage ist: warum genau 2 mal und warum nicht 0 oder n mal?0 mal wäre logisch, weil es bei der Trainingsphase keine Prediction geben könnten mal wäre auch logisch, wenn man vor jedem Scheduling einmal predictet und der vorherige Run die Ergebnisse verunreinigt hat. Außerdem hatte ich mal Code drin, der nach den Tests mit den gesammelten Daten das predictTime mit den gesammelten Daten errechnet hat und in die CSV getan hat. Irgendwer hat diesen Code rausgeschmissen, siehe Crosspost.
+TAGGED_CONTENT:

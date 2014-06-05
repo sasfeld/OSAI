@@ -1,0 +1,9 @@
+ID: 2215
+CREATION_DATETIME: 1373493600000
+MODIFICATION_DATETIME: 1373493600000
+TITLE: Mit selbsterklärend meinte ich nicht, dass man dazu nichts mehr zu sagen braucht. Aber ein gutes Diag...
+PARENT_POSTING_ID: 2209
+POSTING_TYPE: comment
+CONTENT:
+Mit selbsterklärend meinte ich nicht, dass man dazu nichts mehr zu sagen braucht. Aber ein gutes Diagramm muss man auch außerhalb des Kontexts verstehen können. Dazu zählen nun mal Achsenbeschriftung + sinnvolle Darstellungsweise.
+TAGGED_CONTENT:

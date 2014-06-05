@@ -1,0 +1,21 @@
+ID: 184109
+CREATION_DATETIME: 1354258313
+MODIFICATION_DATETIME: 1354258313
+TITLE: Re: ESA, Teil 1
+TOPIC_ZOOM_TAG: value:Nachbarn;weight:1.0;significance:8.39106140169762;degreegeneralization:4;uri:20804645
+TOPIC_ZOOM_TAG: value:Wohnen, Haus und Garten;weight:1.0;significance:4.99075330422034;degreegeneralization:3;uri:21125894
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Werte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nachbarn;weight:0.0;uri:;postag:NN
+POS_TAG: value:Knoten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Knotenwerte;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 183515
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+wenn da steht "die <REMOVED_PERSON_ENTITY> der Knotenwerte seiner Nachbarn", dann ist das für mich eindeutig: Nur die Werte der Nachbarn werden addiert, nicht der jeweilige Knoten selbst.
+Grüße
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE ,_$, wenn_KOUS da_ADV steht_VVFIN "_$( die_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN der_ART Knotenwerte_NN seiner_PPOSAT Nachbarn_NN "_$( ,_$, dann_ADV ist_VAFIN das_PDS für_APPR mich_PPER eindeutig_ADJD :_$. Nur_ADV die_ART Werte_NN der_ART Nachbarn_NN werden_VAFIN addiert_VVPP ,_$, nicht_PTKNEG der_ART jeweilige_ADJA Knoten_NN selbst_ADV ._$. Grüße_NN <_NE REMOVED_PERSON_ENTITY_NE >_XY 

@@ -1,0 +1,15 @@
+ID: 2039
+CREATION_DATETIME: 1370988000000
+MODIFICATION_DATETIME: 1370988000000
+TITLE: danke fürs mergen. Kannst du noch die Punkte aus der Ausblicksfolie mit reinbauen (die hatte ich in d...
+LANGUAGE: GERMAN
+POS_TAG: value:Schluss;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ausblicksfolie;weight:0.0;uri:;postag:NN
+POS_TAG: value:Punkte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Schlussfolie;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+danke fürs mergen. Kannst du noch die Punkte aus der Ausblicksfolie mit reinbauen (die hatte ich in der zwischenpraesi2 eingebaut), und dann die Schlussfolie an den Schluss setzen?
+TAGGED_CONTENT:
+danke_VVFIN fürs_APPRART mergen_VVINF ._$. Kannst_VMFIN du_PPER noch_ADV die_ART Punkte_NN aus_APPR der_ART Ausblicksfolie_NN mit_APPR reinbauen_ADJA -LRB-_TRUNC die_ART hatte_VAFIN ich_PPER in_APPR der_ART zwischenpraesi2_NN eingebaut_VVPP -RRB-_TRUNC ,_$, und_KON dann_ADV die_ART Schlussfolie_NN an_APPR den_ART Schluss_NN setzen_VVINF ?_$. 

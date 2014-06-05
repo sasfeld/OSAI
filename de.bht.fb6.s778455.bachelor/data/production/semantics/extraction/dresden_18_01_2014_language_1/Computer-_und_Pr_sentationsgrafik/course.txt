@@ -1,0 +1,9 @@
+ID: 110407015
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Computer- und Präsentationsgrafik
+LANGUAGE: GERMAN
+SUMMARY: null
+URL: http://web.inf.tu-dresden.de/TU/Informatik/Fak/w/e08liste92.html

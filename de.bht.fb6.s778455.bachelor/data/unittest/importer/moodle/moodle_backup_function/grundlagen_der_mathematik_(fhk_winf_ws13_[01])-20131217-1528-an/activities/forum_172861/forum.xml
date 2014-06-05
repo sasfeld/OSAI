@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="30835" moduleid="172861" modulename="forum" contextid="247249">
+  <forum id="30835">
+    <type>general</type>
+    <name>Allgemeines Forum</name>
+    <intro>Hier können Sie übergeordnete und organisatorische Fragen diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>2</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1185448275</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="93277">
+        <name>Videokonferenzen</name>
+        <firstpost>246011</firstpost>
+        <userid>3589</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1382106265</timemodified>
+        <usermodified>665</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="246011">
+            <parent>0</parent>
+            <userid>3589</userid>
+            <created>1382096207</created>
+            <modified>1382096207</modified>
+            <mailed>1</mailed>
+            <subject>Videokonferenzen</subject>
+            <message>&lt;p&gt;Können die Videokonferenzen aufgezeichnet werden? Es gibt bestimmt einige Teilnehmer die es nicht immer zu den Terminen schaffen. Wäre toll damit man keine Informationen verpasst.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="246021">
+            <parent>246011</parent>
+            <userid>13721</userid>
+            <created>1382099499</created>
+            <modified>1382099582</modified>
+            <mailed>1</mailed>
+            <subject>Re: Videokonferenzen</subject>
+            <message>&lt;p&gt;Ich wäre dafür! &lt;/p&gt;
+&lt;p&gt;Bei der Einführung sagte man zwar, es wird aus Datenschutzgründen nicht mehr gemacht, aber wenn alle dafür stimmen!&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="246075">
+            <parent>246011</parent>
+            <userid>665</userid>
+            <created>1382106213</created>
+            <modified>1382106265</modified>
+            <mailed>1</mailed>
+            <subject>Re: Videokonferenzen</subject>
+            <message>&lt;p&gt;Liebe Studierenden,&lt;/p&gt;
+&lt;p&gt;Videokonferenzen sind keine Vorlesungen, sondern leben von der aktiven Teilnahme mehrerer (gerne vieler) Teilnehmer. Eine Aufnahme führt aber voraussichtlich zu einer sinkenden Anzahl Teilnehmer. Aus diesem Grund und den datenschutzrechtlichen Problemen möchte ich keine Videokonferenzen aufzeichnen.&lt;/p&gt;
+&lt;p&gt;Für einen erfolgreichen Abschluss des Moduls ist die Teilnahme an den Videokonferenzen auch nicht zwingend notwendig. Bei Fragen und zum Austausch untereinander kann (und soll) gerne das Forum genutzt werden.&lt;/p&gt;
+&lt;p&gt;Viele Grüße&lt;/p&gt;
+&lt;p&gt;Ulrike Bähr&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="310505">
+        <userid>643</userid>
+      </subscription>
+      <subscription id="311615">
+        <userid>665</userid>
+      </subscription>
+      <subscription id="311697">
+        <userid>321</userid>
+      </subscription>
+      <subscription id="330063">
+        <userid>729</userid>
+      </subscription>
+      <subscription id="330067">
+        <userid>3511</userid>
+      </subscription>
+      <subscription id="330071">
+        <userid>10895</userid>
+      </subscription>
+      <subscription id="330075">
+        <userid>10925</userid>
+      </subscription>
+      <subscription id="330079">
+        <userid>741</userid>
+      </subscription>
+      <subscription id="330083">
+        <userid>10897</userid>
+      </subscription>
+      <subscription id="330087">
+        <userid>10909</userid>
+      </subscription>
+      <subscription id="330091">
+        <userid>10889</userid>
+      </subscription>
+      <subscription id="344077">
+        <userid>3589</userid>
+      </subscription>
+      <subscription id="348541">
+        <userid>10911</userid>
+      </subscription>
+      <subscription id="356443">
+        <userid>723</userid>
+      </subscription>
+      <subscription id="359327">
+        <userid>13727</userid>
+      </subscription>
+      <subscription id="361367">
+        <userid>13723</userid>
+      </subscription>
+      <subscription id="361371">
+        <userid>12749</userid>
+      </subscription>
+      <subscription id="363631">
+        <userid>13717</userid>
+      </subscription>
+      <subscription id="365355">
+        <userid>13725</userid>
+      </subscription>
+      <subscription id="366883">
+        <userid>13713</userid>
+      </subscription>
+      <subscription id="366887">
+        <userid>777</userid>
+      </subscription>
+      <subscription id="366891">
+        <userid>13731</userid>
+      </subscription>
+      <subscription id="368033">
+        <userid>14459</userid>
+      </subscription>
+      <subscription id="368037">
+        <userid>13715</userid>
+      </subscription>
+      <subscription id="369669">
+        <userid>13733</userid>
+      </subscription>
+      <subscription id="369673">
+        <userid>13711</userid>
+      </subscription>
+      <subscription id="369677">
+        <userid>14525</userid>
+      </subscription>
+      <subscription id="370871">
+        <userid>10927</userid>
+      </subscription>
+      <subscription id="371745">
+        <userid>13729</userid>
+      </subscription>
+      <subscription id="371749">
+        <userid>13709</userid>
+      </subscription>
+      <subscription id="372781">
+        <userid>14571</userid>
+      </subscription>
+      <subscription id="373043">
+        <userid>13721</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

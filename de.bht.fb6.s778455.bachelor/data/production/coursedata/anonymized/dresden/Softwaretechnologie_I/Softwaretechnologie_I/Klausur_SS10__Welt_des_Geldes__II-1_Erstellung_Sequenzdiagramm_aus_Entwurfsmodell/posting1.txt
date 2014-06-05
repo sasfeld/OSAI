@@ -1,0 +1,10 @@
+ID: 2067
+CREATION_DATETIME: 1371160800000
+MODIFICATION_DATETIME: 1379541600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo, hat sich schon mal jemand an der oben genannten Aufgabe versucht? Gegeben sind die entsprechenden Klassen (ohne Klassenbeziehungen). In einem <REMOVED_PERSON_ENTITY> soll das Wechseln <NAME_CORPUS_REPLACEMENT> 100 Euro in US$ dargestellt werden (Die Parameter der Methoden sollen nicht beachtet werden.). Gegeben sind nur die "Start-"<REMOVED_PERSON_ENTITY> des Clienten mit dem Methodenaufruf exchange(...) zum converter:CurrencyConverter. Ich weiß so ungefähr, was ein Seqenzdiagramm ist und habe rein intuitiv mal aufgemalt, wie das aussehen könnte (siehe http://www.fotos-hochladen. net/view/pict1287ab16s27cigjfmpr80. jpg   ). Blöd ist ja, dass man sich nicht an den Parametern der Methoden orientieren soll / kann. Kann mal jemand seinen Senf dazu geben, ob man das so ungefähr so machen kann bzw. was falsch / richtig ist und mit welchen Ansatzpunkten man wie das Diagramm richtig entwickelt.
+Danke.
+TAGGED_CONTENT:

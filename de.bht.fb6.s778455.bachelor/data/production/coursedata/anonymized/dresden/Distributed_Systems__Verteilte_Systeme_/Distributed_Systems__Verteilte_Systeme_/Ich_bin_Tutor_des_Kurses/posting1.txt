@@ -1,0 +1,11 @@
+ID: 367
+CREATION_DATETIME: 1350424800000
+MODIFICATION_DATETIME: 1350424800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+Ich bin ein Tutor des Kurses. Bitte authorisieren Sie mich.
+Danke SchillAlexander
+TAGGED_CONTENT:

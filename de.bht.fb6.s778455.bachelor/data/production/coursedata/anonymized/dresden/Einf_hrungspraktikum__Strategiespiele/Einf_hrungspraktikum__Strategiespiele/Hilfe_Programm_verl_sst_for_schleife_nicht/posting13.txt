@@ -1,0 +1,9 @@
+ID: 1343
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Ok. Jetzt mal langsam: Was meinst du mit "er geht nicht raus" und woran merkst du das?
+PARENT_POSTING_ID: 1329
+POSTING_TYPE: comment
+CONTENT:
+Ok. Jetzt mal langsam: Was meinst du mit "er geht nicht raus" und woran merkst du das? Wird jetzt zumindest "ende" ausgegeben?
+TAGGED_CONTENT:

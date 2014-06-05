@@ -1,0 +1,16 @@
+ID: 110801007
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Drahtgebundene und Drahtlose Sensor-Aktor-Netzwerke
+LANGUAGE: GERMAN
+SUMMARY: null
+TOPIC_ZOOM_TAG: value:Sensoren;weight:1.0;significance:9.18218899061777;degreegeneralization:6;uri:20883559
+TOPIC_ZOOM_TAG: value:Messgeräte;weight:1.0;significance:8.64810650468751;degreegeneralization:5;uri:20883542
+TOPIC_ZOOM_TAG: value:Messtechnik;weight:1.0;significance:8.64810650468751;degreegeneralization:4;uri:20883576
+TOPIC_ZOOM_TAG: value:Maschinen, Geräte und Apparate;weight:1.0;significance:4.74508944859496;degreegeneralization:4;uri:21993336
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Netzwerke;weight:0.0;uri:;postag:NN
+POS_TAG: value:Drahtgebundene;weight:0.0;uri:;postag:NN

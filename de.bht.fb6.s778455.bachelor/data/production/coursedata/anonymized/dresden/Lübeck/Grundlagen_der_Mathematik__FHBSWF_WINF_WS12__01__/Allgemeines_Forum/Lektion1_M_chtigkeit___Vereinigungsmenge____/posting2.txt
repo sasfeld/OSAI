@@ -1,0 +1,9 @@
+ID: 168455
+CREATION_DATETIME: 1349742654
+MODIFICATION_DATETIME: 1349742945
+TITLE: Re: Lektion1 Mächtigkeit & Vereinigungsmenge (?)
+PARENT_POSTING_ID: 168373
+CONTENT:
+<REMOVED_PERSON_ENTITY>,
+zur ersten Frage:Die 2n zeigt dir hier an, dass du, egal welche natürliche <REMOVED_PERSON_ENTITY> du einsetzt, immer eine gerade <REMOVED_PERSON_ENTITY> als Ergebnis erhälst (2*1; 2*2, ...). Der Strich heißt in etwa "... mit der Bedingung, dass n ∈ N". Der <REMOVED_PERSON_ENTITY> könnte dann in etwa so lauten: "M ist die <REMOVED_PERSON_ENTITY> aller geraden (natürlichen) Zahlen 2n mit der Bedingung, dass n ∈ N ist." Zur zweiten Frage:Vereinigung heißt ja soviel wie: A υ B enthält alle Elemente, die in A ODER in B liegen. Jetzt musst du dir überlegen, welche Elemente die Intervalle I1, I2 und I3 enthalten. Vielleicht einfach mal alle Zahlen, die innerhalb der Intervalle zu finden sind, aufschreiben. Anschließend nimmst du bei z. B. Aufgabe a) einfach alle Zahlen, die du in I1 und I2 (du nimmst ja alle Elemente, die da sind... siehe oben) vorfindest und formulierst aus diesen ein neues Intervall in der Form wie I1, I2, I3 schon angegeben sind (FIKTIV also z. B. "Menge der natürlichen Zahlen (deine herausgesuchten Elemente/Zahlen), die zwischen -5 und 10 liegen" --&gt; ]-5, 10[ oder (-5, 10) --&gt; -5 und 10 gehören in diesem Beispiel nicht dazu). Ich hoffe, du kannst damit etwas anfangen. Ansonsten versuch ich's oder wer anders noch einmal. GrüßeLars
+TAGGED_CONTENT:

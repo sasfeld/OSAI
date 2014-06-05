@@ -1,0 +1,9 @@
+ID: 1567
+CREATION_DATETIME: 1363993200000
+MODIFICATION_DATETIME: 1363993200000
+TITLE: Hast du auch eine Frage? "Geht nicht" ist eine Fehlerbeschreibung die ein angehender Ingenieur niemal...
+PARENT_POSTING_ID: 1563
+POSTING_TYPE: comment
+CONTENT:
+Hast du auch eine Frage? "Geht nicht" ist eine <REMOVED_PERSON_ENTITY> die ein angehender Ingenieur niemals abgeben sollte.
+TAGGED_CONTENT:

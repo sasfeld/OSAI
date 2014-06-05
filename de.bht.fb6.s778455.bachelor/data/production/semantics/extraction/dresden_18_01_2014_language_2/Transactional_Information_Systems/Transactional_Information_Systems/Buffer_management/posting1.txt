@@ -1,0 +1,14 @@
+ID: 1120
+CREATION_DATETIME: 1360969200000
+MODIFICATION_DATETIME: 1361055600000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi.
+
+In replacement strategy LFU of buffer management, in case of two pages with equal counter number which page should be chosen?
+
+Thanks.
+TAGGED_CONTENT:

@@ -1,0 +1,17 @@
+ID: 35
+CREATION_DATETIME: 1201202520000
+MODIFICATION_DATETIME: 1201202520000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 34
+CONTENT:
+
+    Hallo ihr beiden,
+
+ich hab die Aufgabe auch ohne Konsoleneingabe gelöst. Falls das wirklich gefordert war, so hoffe ich auf genauere Aufgabenstellungen dieses Jahr. ;)
+
+
+MfG
+
+    
+TAGGED_CONTENT:

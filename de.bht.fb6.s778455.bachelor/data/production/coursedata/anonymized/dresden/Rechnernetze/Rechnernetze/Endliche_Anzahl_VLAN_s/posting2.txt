@@ -1,0 +1,10 @@
+ID: 2245
+CREATION_DATETIME: 1373925600000
+MODIFICATION_DATETIME: 1374012000000
+TITLE: Die Frage ist nicht die Verknüpfung der Netze, sondern das saubere Trennen der einzelnen VLANs in ein...
+PARENT_POSTING_ID: 2244
+POSTING_TYPE: answer
+CONTENT:
+Die Frage ist nicht die Verknüpfung der Netze, sondern das saubere Trennen der einzelnen VLANs in einem größeren Netzwerk, z. B. einem Provider-Backbone. Hier gibt es aber die Q-in-Q-Tagging-Lösung.
+Eine schöne Beschreibung gibt es bei Cisco: http://www.cisco.com/en/US/docs/ios/lanswitch/configuration/guide/lsw_ieee_802. 1q. html
+TAGGED_CONTENT:

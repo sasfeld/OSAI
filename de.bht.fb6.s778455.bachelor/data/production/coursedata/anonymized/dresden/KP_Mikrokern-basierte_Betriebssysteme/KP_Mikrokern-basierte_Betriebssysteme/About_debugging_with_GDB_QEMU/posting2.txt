@@ -1,0 +1,9 @@
+ID: 1294
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: You need to load the binary, not the object file, because the object file does not contain the proper...
+PARENT_POSTING_ID: 1293
+POSTING_TYPE: answer
+CONTENT:
+You need to load the binary, not the object file, because the object file does not contain the proper symbol addresses.
+TAGGED_CONTENT:

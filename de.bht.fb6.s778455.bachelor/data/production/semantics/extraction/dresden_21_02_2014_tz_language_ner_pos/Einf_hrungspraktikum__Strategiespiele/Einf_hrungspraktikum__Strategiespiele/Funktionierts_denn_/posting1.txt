@@ -1,0 +1,42 @@
+ID: 1481
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1380146400000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Source-Code;weight:1.0;significance:4.74483684518287;degreegeneralization:9;uri:20804305
+TOPIC_ZOOM_TAG: value:Programmcode;weight:1.0;significance:4.6214068062171;degreegeneralization:8;uri:20804322
+TOPIC_ZOOM_TAG: value:Züge;weight:1.0;significance:3.99950965696079;degreegeneralization:8;uri:21308253
+TOPIC_ZOOM_TAG: value:Programmierung;weight:1.0;significance:3.58168603537718;degreegeneralization:7;uri:21461440
+TOPIC_ZOOM_TAG: value:Schienenverkehr;weight:1.0;significance:3.2509867942545;degreegeneralization:6;uri:21897745
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:2.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Software;weight:1.0;significance:2.60511682223347;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:2.51211272377639;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:2.50390086036106;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Fahrzeuge und Verkehrsmittel;weight:1.0;significance:2.26257607261774;degreegeneralization:6;uri:21881442
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:2.15506992990383;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Verkehr;weight:1.0;significance:2.03580982110768;degreegeneralization:5;uri:21897779
+TOPIC_ZOOM_TAG: value:Transport, Verkehr und Logistik;weight:1.0;significance:2.00954255143862;degreegeneralization:4;uri:21925982
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:2.00351838218053;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.83083484620539;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:1.72623562579194;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:1.44804068054249;degreegeneralization:3;uri:20758133
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:1.16884339240287;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+POS_TAG: value:Annahme;weight:0.0;uri:;postag:NN
+POS_TAG: value:Quellcode;weight:0.0;uri:;postag:NN
+POS_TAG: value:Objekt;weight:0.0;uri:;postag:NN
+POS_TAG: value:ge;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> ich in einen <REMOVED_PERSON_ENTITY> die möglichen Züge durchgehen will, möchte das Objekt game_state kopieren.
+
+Allerdings geht das weder statisch, noch dynamisch. Wenn ich das richtig aus dem Quellcode rausgelesen soll das auch so sein.
+
+Ist meine Annahme richtig, oder habe ich was übersehen, bzw. wie könnte ich das Problem umgehen?
+TAGGED_CONTENT:
+<_XY NAME_CORPUS_REPLACEMENT_NN >_VVFIN ich_PPER in_APPR einen_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN die_ART möglichen_ADJA Züge_NN durchgehen_VVFIN will_VMFIN ,_$, möchte_VMFIN das_ART Objekt_NN game_state_VVFIN kopieren_VVINF ._$. Allerdings_ADV geht_VVFIN das_ART weder_KON statisch_ADJD ,_$, noch_KON dynamisch_ADJD ._$. Wenn_KOUS ich_PPER das_ART richtig_ADJD aus_APPR dem_ART Quellcode_NN rausgelesen_VVINF soll_VMFIN das_PDS auch_ADV so_ADV sein_VAINF ._$. Ist_VAFIN meine_PPOSAT Annahme_NN richtig_ADJD ,_$, oder_KON habe_VAFIN ich_PPER was_PWS übersehen_VVPP ,_$, bzw_VVFIN ._$. wie_KOKOM könnte_VMFIN ich_PPER das_ART Problem_NN umgehen_VVINF ?_$. 

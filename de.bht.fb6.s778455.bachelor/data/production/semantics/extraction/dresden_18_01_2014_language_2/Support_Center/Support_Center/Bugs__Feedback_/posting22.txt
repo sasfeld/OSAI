@@ -1,0 +1,10 @@
+ID: 223
+CREATION_DATETIME: 1349647200000
+MODIFICATION_DATETIME: 1349647200000
+TITLE: Danke für den Hinweis
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 217
+POSTING_TYPE: comment
+CONTENT:
+Danke für den Hinweis. Externe Links werden nun in einem neuen Tab oder <REMOVED_PERSON_ENTITY> geöffnet und sind gekennzeichnet mit dem Icon: . Je nachdem welche Einstellungen man im Browser getroffen hat. (target _blank)
+TAGGED_CONTENT:

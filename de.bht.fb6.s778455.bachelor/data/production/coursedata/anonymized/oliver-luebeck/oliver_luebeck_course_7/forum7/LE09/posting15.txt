@@ -1,0 +1,18 @@
+ID: 52
+CREATION_DATETIME: 1305447540000
+MODIFICATION_DATETIME: 1305447540000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 51
+CONTENT:
+  Hey 
+
+Das Problem haben alle anderen auch, ist nur keinem aufgefallen :-)
+Das liegt daran, wie die Zahlen intern verwaltet werden.
+Da der Computer Zahlen ja nur binär versteht, müssen die eingegebenen Werte ja umgewandelt werden. Dabei entstehen dann diese ungenauigkeiten.
+
+Falls es dich interessiert kannst du z.B. hier schauen wie das funktioniert.
+
+Gruß, 
+   
+TAGGED_CONTENT:

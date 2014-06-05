@@ -1,0 +1,16 @@
+ID: 674
+CREATION_DATETIME: 1352156400000
+MODIFICATION_DATETIME: 1353884400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+I thougt a bit about how to implement malloc() in L4:
+- If one needs new memory pages one <NAME_CORPUS_REPLACEMENT> ask the pager responsible for my address space
+- Maybe one <NAME_CORPUS_REPLACEMENT> <NAME_CORPUS_REPLACEMENT> provoke a page fault to ask for a new memory page
+- A pager only hands out full pages
+- So I have to manage the memory, I got from the pager myself
+- That is why one might think of implementing malloc as a call to a memory management server...
+Are my thoughts correct so far?
+(Asked as private question to not spoil the others.)
+TAGGED_CONTENT:

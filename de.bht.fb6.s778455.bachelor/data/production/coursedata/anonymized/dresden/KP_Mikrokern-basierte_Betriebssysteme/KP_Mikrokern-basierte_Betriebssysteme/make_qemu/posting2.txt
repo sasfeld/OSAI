@@ -1,0 +1,12 @@
+ID: 556
+CREATION_DATETIME: 1351375200000
+MODIFICATION_DATETIME: 1356130800000
+TITLE: Die Lösung: Das Tool "dialog" mit dem Linux-Paketmanager Deiner Wahl  installieren. ;)
+
+Es sollte a...
+PARENT_POSTING_ID: 555
+POSTING_TYPE: answer
+CONTENT:
+Die Lösung: Das Tool "dialog" mit dem Linux-Paketmanager Deiner Wahl  installieren. ;)
+Es sollte aber auf jeden Fall "make qemu E=hello" funktionieren. Dazu brauchst Du das dialog-Tool nicht.
+TAGGED_CONTENT:

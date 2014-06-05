@@ -1,0 +1,12 @@
+ID: 2275
+CREATION_DATETIME: 1374012000000
+MODIFICATION_DATETIME: 1374012000000
+TITLE: Ich denke die Eingabenmatrix sind noch linear abhaengig.
+Guck mal Zeile 8666-8865. Wir bekommen nega...
+PARENT_POSTING_ID: 2246
+POSTING_TYPE: comment
+CONTENT:
+Ich denke die Eingabenmatrix sind noch linear abhaengig.
+Guck mal Zeile 8666-8865. Wir bekommen negative Wert. Wenn ich mit octave analyisiere, bekommen ich nicht  5 <REMOVED_PERSON_ENTITY>, sondern row(a'*a)=3
+Wenn ich die inverse Matrix suche,  bekomme ich "warning: inverse: matrix singular to machine precision, rcond = 2. 44021e-24"
+TAGGED_CONTENT:

@@ -1,0 +1,19 @@
+ID: 72
+CREATION_DATETIME: 1201420740000
+MODIFICATION_DATETIME: 1201420740000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 71
+CONTENT:
+
+ 
+Liebe , liebe Studierende,
+
+diese Aufgabe sollte zusammen mit der Seite 23 der LE 08 gelesen werden. In der main Methode finden sich die Standard-Anweisungen, um eine XML-Datei einzulesen und dabei alle Elemente in ein Document-Objekt zu speichern. Die Methode traversieren besucht rekursiv alle Knoten des Document-Objektes. Wie diese Methode programmiert ist, ist auch klassisch, wenn man alle Knoten eines Baumes besuchen möchte, siehe 2. Frage der Übung 4 der 2. Präsenz. Der Unterschied zwischen Präsenz und Seite 24 der LE ist, die if Anweisung, um zu prüfen, ob ein Element Attribute hat, und diese mit Hilfe einer Schleife auszugeben, wenn die Bedingung erfüllt ist.
+Ist es klarer?
+Mit freundlichen Grüßen
+
+
+PS: bei XML den Unterschied zwischen Elemente und Attribute (Seiten 6, 11, 14) gut verstehen. Das DOM Document Objekt Model (Baum der Elemente, Seite 16) auch gut verstehen. 
+    
+TAGGED_CONTENT:

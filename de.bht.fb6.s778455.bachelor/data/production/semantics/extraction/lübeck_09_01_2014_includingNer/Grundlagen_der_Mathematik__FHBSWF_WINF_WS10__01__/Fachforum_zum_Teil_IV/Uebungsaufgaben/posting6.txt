@@ -1,0 +1,29 @@
+ID: 97817
+CREATION_DATETIME: 1294454411
+MODIFICATION_DATETIME: 1294454756
+TITLE: Re: Uebungsaufgaben
+TOPIC_ZOOM_TAG: value:Algorithmen;weight:2.0;significance:4.72522648860622;degreegeneralization:5;uri:20898553
+TOPIC_ZOOM_TAG: value:Vektoren;weight:1.0;significance:3.17713737880847;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Informatik;weight:2.0;significance:2.51211272377639;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:2.0;significance:2.50390086036106;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:4.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:1.94532395751918;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:1.73899421910207;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:1.38867892841377;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:1.29518888187812;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:1.1184961304917;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:1.09226215305699;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:0.87555429116382;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:0.584421696201437;degreegeneralization:2;uri:21999711
+NER_TAG: value:LGS;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+NER_TAG: value:LO;weight:-1.0;significance:uri:;classifierlabel:I-LOC
+PARENT_POSTING_ID: 97816
+CONTENT:
+Hier meine abschliessenden Anmerkungen. Wir haben es eingangs etwas zu kompliziert begonnen, denn es mussten nur die Determinante und der Gausssche Algorithmus fuer konkrete Lambda ausgefuehrt werden. Hier fand ich die Aufgabenstellung etwas zu kompliziert formuliert.
+Worauf Prof. <REMOVED_PERSON_ENTITY> hinaus will (worauf man kommt, wenn man lange genug denkt):
+Fuer den Fall det A != 0 wissen wir fuer homogene(!) Systeme immer, dass die einzige Loesung nur der 0-Vektor in x sein kann. det A != 0 bedeutet im homogenen System naemlich, dass keine nichttriviale Loesung vorliegt.
+det A = 0 wiederum kann zweierlei bedeutet: Es gibt entweder keine oder unendlich viele <REMOVED_PERSON_ENTITY> (steht am Ende von LO 12).
+Anhand des ausgefuehrten Gauss-Algorithmus erkennen wir in der b-Spalte der 0-Zeile, welcher Fall vorliegt (ungleich 0 wenn keine Loesung, = 0 wenn unendlich viele Loesungen). Nun kann es im homogenen LGS allerdings niemals vorkommen, dass die b-Spalte ungleich 0 wird, denn ansonsten haetten wir es mit einem inhomogenen LGS zu tun, was unserer Praemisse widerspraeche (Beweis durch Widerspruch, LO 06, S. 8).
+qed.
+TAGGED_CONTENT:

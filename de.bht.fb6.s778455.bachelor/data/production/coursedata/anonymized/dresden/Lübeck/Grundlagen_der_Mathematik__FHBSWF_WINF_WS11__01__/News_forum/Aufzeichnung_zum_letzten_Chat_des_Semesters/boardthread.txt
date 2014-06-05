@@ -1,0 +1,4 @@
+ID: 43888
+MODIFICATION_DATETIME: 1325701346
+TITLE: Aufzeichnung zum letzten Chat des Semesters
+FIRST_POSTING_ID: 117502

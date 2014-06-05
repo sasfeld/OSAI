@@ -1,0 +1,26 @@
+ID: 190353
+CREATION_DATETIME: 1357244029
+MODIFICATION_DATETIME: 1357244029
+TITLE: LGS mit Gaußalgorithmus lösen
+POS_TAG: value:Script;weight:0.0;uri:;postag:NN
+POS_TAG: value:VektorenMatrixLGS;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vekotren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Seite;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Werte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Besten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Systems;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beispielaufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+kann mir jemand zufälligerweise erklären wie man im Script (VektorenMatrixLGS. pdf) auf Seite 72. in der Beispielaufgabe auf die beiden unabhängige Lösungen des homogenen Systems kommt:Die beiden unabhänigen Lösungen lauten:x^(1) = (-3, 0, 1, 0)^Tx^(1) = (5, 2, 0, 1)^T
+Ich sehe derzeit leider nur fogende Lösung x^(0) mit (-3,-3, 0, 0)^T
+Außerdem würde ich gerne wissen wollen was die Werte (0) - (2) angeben sollen. Handelt es sich hierbei um eine <REMOVED_PERSON_ENTITY> der Vekotren?
+Besten Dank und Gruß
+<REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, kann_VMFIN mir_PPER jemand_PIS zufälligerweise_ADV erklären_VVINF wie_KOKOM man_PIS im_APPRART Script_NN -LRB-_TRUNC VektorenMatrixLGS_NN ._$. pdf_XY -RRB-_TRUNC auf_APPR Seite_NN 72_CARD ._$. in_APPR der_ART Beispielaufgabe_NN auf_APPR die_ART beiden_PIDAT unabhängige_ADJA Lösungen_NN des_ART homogenen_ADJA Systems_NN kommt_VVFIN :_$. Die_ART beiden_PIDAT unabhänigen_ADJA Lösungen_NN lauten_VVINF :_$. x_XY ^_CARD -LRB-_TRUNC 1_CARD -RRB-_TRUNC =_XY -LRB-_TRUNC -3_CARD ,_$, 0_CARD ,_$, 1_CARD ,_$, 0_CARD -RRB-_TRUNC ^_XY Tx_NE ^_CARD -LRB-_TRUNC 1_CARD -RRB-_TRUNC =_XY -LRB-_TRUNC 5_CARD ,_$, 2_CARD ,_$, 0_CARD ,_$, 1_CARD -RRB-_TRUNC ^_XY T_XY Ich_PPER sehe_VVFIN derzeit_ADV leider_ADV nur_ADV fogende_ADJA Lösung_NN x_XY ^_CARD -LRB-_TRUNC 0_CARD -RRB-_TRUNC mit_APPR -LRB-_TRUNC -3_TRUNC ,_$, -3_CARD ,_$, 0_CARD ,_$, 0_CARD -RRB-_TRUNC ^_XY T_XY Außerdem_PROAV würde_VAFIN ich_PPER gerne_ADV wissen_VVINF wollen_VMFIN was_PWS die_ART Werte_NN -LRB-_TRUNC 0_CARD -RRB-_TRUNC -_$( -LRB-_TRUNC 2_CARD -RRB-_TRUNC angeben_VVINF sollen_VMFIN ._$. Handelt_VVFIN es_PPER sich_PRF hierbei_PROAV um_APPR eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN der_ART Vekotren_NN ?_$. Besten_NN Dank_NN und_KON Gruß_NN <_VVFIN REMOVED_PERSON_ENTITY_NE >_XY 

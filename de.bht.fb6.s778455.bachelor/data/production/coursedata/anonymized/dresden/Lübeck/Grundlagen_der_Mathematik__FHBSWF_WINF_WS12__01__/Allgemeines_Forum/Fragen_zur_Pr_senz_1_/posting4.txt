@@ -1,0 +1,14 @@
+ID: 170027
+CREATION_DATETIME: 1350145144
+MODIFICATION_DATETIME: 1350145144
+TITLE: Re: Fragen zur Präsenz 1 
+PARENT_POSTING_ID: 167889
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+da spiele ich jetzt einmal den kritischen Skeptiker, den es zu überzeugen gilt (ich sagte ja, Beweise sind Akte der Überzeugung):
+Sie schreiben M={3, 5, 7, 11, 13, 17, 19,...}. Hier nehmen Sie zuerst an, es gebe nur endlich viele Primzahlen. Danach schreiben Sie sieben Ihnen bekannte Primzahlen in eine <REMOVED_PERSON_ENTITY> M und notieren drei Punkte "..." dahinter. Wofür stehen die drei Punkte? Für die restlichen der - nur als endlich viele angenommenen - Primzahlen? Dann ergäbe sich kein Widerspruch. Wenn sie für die unendlich vielen weiteren Primzahlen stehen (wo Sie ja gerade das Gegenteil angenommen haben), zeige ich mich demonstrativ skeptisch und mache ich es wie beim Poker: Ich will sehen! Schreiben Sie bitte ausführlich aus, was die drei Punkte abkürzen, d. h. ich will ALLE weiteren Primzahlen wissen, so dass ich einsehe, dass es tatsächlich unendlich viele sind....
+Im zweiten Fall sieht es ähnlich aus: "die darauf folgende Primzahl" - heißt was? Sie haben gerade angenommen, dass es nur endlich viele gibt und z die größte ist. Was genau soll dann "die darauf folgende Primzahl" sein, wenn es sie doch nach Annahme nicht gibt? Zudem hakt es in Ihrem Produkt: Es kann z*(irgendwas) keine Primzahl sein, denn sie ist ersichtlich Produkt zweier Zahlen ungleich eins.
+Tipp zum weiteren Vorgehen: Nehmen Sie an, 3 und 5 und 7 wären die einzigen Primzahlen. Könnten Sie abhängig von diesen Zahlen eine weitere Zahl konstruieren, die wohl selber entweder eine Primzahl ist oder einen Primfaktor ungleich 3, 5, 7 hat? Gemeint ist hier, nicht einfach 11 anzugeben, sondern sich zu überlegen, wie eine <REMOVED_PERSON_ENTITY> gewonnen werden kann, die weder durch 3 noch durch 5 noch durch 7 teilbar ist. Diese ist dann entweder Primzahl (dann aber größer als 7) oder enthält einen noch unbekannten Primfaktor (wo doch 3, 5, 7 alle möglichen sein sollten). Da würde den Widerspruch bringen. Diesen Gedankengang müssen Sie sodann etwas abstrakter fassen: Angenommen p_1,..., p_n wären die einzigen Primzahlen. Sie würden aus diesen eine <REMOVED_PERSON_ENTITY> konstruieren, die durch keine dieser Zahlen teilbar ist usw.
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

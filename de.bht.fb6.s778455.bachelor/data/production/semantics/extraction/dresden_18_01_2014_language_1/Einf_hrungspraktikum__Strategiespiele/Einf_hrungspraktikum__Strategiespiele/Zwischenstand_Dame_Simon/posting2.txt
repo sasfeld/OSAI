@@ -1,0 +1,30 @@
+ID: 121
+CREATION_DATETIME: 1348092000000
+MODIFICATION_DATETIME: 1348092000000
+TITLE: So gibst du ein char 
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 120
+POSTING_TYPE: answer
+CONTENT:
+So gibst du ein char aus. 
+
+```c
+
+char out = 'h';
+
+printf( "%c", out ); 
+
+```
+
+Und so einen char array, bzw. string.
+
+```c
+
+char* out = "hello world!"
+
+printf( "%s", out ); 
+
+```
+
+Für eine neue Zeile fügst du noch ' ' ein.
+TAGGED_CONTENT:

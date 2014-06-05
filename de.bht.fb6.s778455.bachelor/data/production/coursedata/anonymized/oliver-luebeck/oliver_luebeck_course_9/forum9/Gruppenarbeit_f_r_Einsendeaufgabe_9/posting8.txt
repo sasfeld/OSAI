@@ -1,0 +1,16 @@
+ID: 53
+CREATION_DATETIME: 1179736380000
+MODIFICATION_DATETIME: 1179736380000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 52
+CONTENT:
+  
+Hört sich doch super an. Wie sieht dein Zeitplan aus?
+Ich muss gestehen, das ich mir die ganze Sache noch nicht wirklich durchgelesen habe und ich leider auch zu den gehöre, die sich mit der Programmierung sehr schwer tut. Sprich ich bin nicht die "hellste" in der Sache!
+
+Wie schauts bei dir? Wäre ehrlich gesagt dankbar, wenn du das Gegenteil von mir wärst!
+
+LG
+   
+TAGGED_CONTENT:

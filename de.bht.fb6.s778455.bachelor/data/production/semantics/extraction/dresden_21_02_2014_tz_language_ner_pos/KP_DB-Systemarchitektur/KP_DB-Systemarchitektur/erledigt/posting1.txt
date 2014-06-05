@@ -1,0 +1,14 @@
+ID: 1970
+CREATION_DATETIME: 1370556000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+NER_TAG: value:SVN;weight:-1.0;uri:;classifierlabel:I-LOC
+POS_TAG: value:Intro;weight:0.0;uri:;postag:NN
+POS_TAG: value:SVN;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+liegt im SVN unter Documents/Intro. ppt
+TAGGED_CONTENT:
+liegt_VVFIN im_APPRART SVN_NN unter_APPR Documents\/Intro_NN ._$. ppt_XY 

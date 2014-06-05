@@ -1,0 +1,104 @@
+ID: 2203
+CREATION_DATETIME: 1373407200000
+MODIFICATION_DATETIME: 1383260400000
+TITLE: null
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo, das Problem geht nochmal speziell an <REMOVED_PERSON_ENTITY>.
+
+Wie <REMOVED_PERSON_ENTITY> ja schon vor 4 Wochen gesagt hat, funktioniert unsere Library mit Intels OpenCL-Treiber nicht.
+
+Ich habe jetzt auf meinem Rechner (i7) probiert, das ganze zum Laufen zu bringen und bekommen folgende Fehlermeldung:
+
+```ruby
+
+$ ./testCLTstatic 
+
+I am the tester
+
+numPlatforms: 1 -- I take Platform 1
+
+numDevices: 1 -- I take Device 1
+
+onamae ha        Intel(R) Core(TM) i7-3517U CPU @ 1. 90GHz
+
+Created device successfully with type: CPU OpenCL 1. 2 (Build 67279)
+
+/dev/stdin:1:144: warning: implicit declaration of function 'get_global_id' is invalid in C99 [-Wimplicit-function-declaration]
+
+  ...__global int* B,                     const int wA, const int wB)                     {                       int tx = get_global_id(0)...
+
+                                                                                                                              ^
+
+1 warning generated.
+
+warning: clang exited with error code
+
+Stack dump:
+
+0.	Running pass 'CallGraph Pass Manager' on module 'kernel. <LEARNED_PERSON_NAME_REPLACEMENT>'.
+
+1.	Running pass 'BasicBlock Pass Manager' on function '@matrixMul'
+
+2.	Running pass 'Unnamed pass: implement Pass::getPassName()' on basic block '%0'
+
+Segmentation fault (core dumped)
+
+```
+
+Hier der gdb backtrace dazu:
+
+```ruby
+
+(gdb) backtrace
+
+#0  0x0000000000586990 in llvm::GlobalValue::isDeclaration() const ()
+
+#1  0x000000000042a2e1 in clt::getBBMetrics (bb=..., analysis=0x355b5d0) at src/HelperPasses. cpp:94
+
+#2  0x00000000004245b0 in clt::BBCLCost::runOnBasicBlock (this=0x3563030, bb=...) at inc/HelperPasses. h:61
+
+#3  0x00000000005adfd5 in (anonymous namespace)::BBPassManager::runOnFunction(llvm::Function&) ()
+
+#4  0x00000000005ae57d in non-virtual thunk to (anonymous namespace)::BBPassManager::runOnFunction(llvm::Function&) ()
+
+#5  0x00000000005ac550 in llvm::FPPassManager::runOnFunction(llvm::Function&) ()
+
+#6  0x0000000000484f73 in (anonymous namespace)::CGPassManager::runOnModule(llvm::Module&) ()
+
+#7  0x00000000005ac991 in llvm::MPPassManager::runOnModule(llvm::Module&) ()
+
+#8  0x00000000005ad20c in llvm::PassManagerImpl::run(llvm::Module&) ()
+
+#9  0x00000000005ad50a in llvm::PassManager::run(llvm::Module&) ()
+
+#10 0x0000000000423ecf in clt::ProgramAnalyzer::analyze (this=0x8817a0, 
+
+    programSrc="__kernel void matrixMul(      __global int* C,      __global int* A,      __global int* B,      const int wA, const int wB)     {     int tx = get_global_id(0);     int ty = get_global_id(1);     int "..., kernelName="matrixMul") at src/ProgramAnalyzer. cpp:65
+
+#11 0x0000000000418352 in clt::Feedback::analyzeKernel (this=0x8817c0, 
+
+    programSrc="__kernel void matrixMul(      __global int* C,      __global int* A,      __global int* B,      const int wA, const int wB)     {     int tx = get_global_id(0);     int ty = get_global_id(1);     int "..., kernelToAnalyze=0xc0a730) at src/Feedback. cpp:22
+
+#12 0x000000000041059b in clt::CLeverTrustee::createKernel (this=0x87e400 <clt::CLeverTrustee::getInstance()::instance>, 
+
+    programStr="__kernel void matrixMul(      __global int* C,      __global int* A,      __global int* B,      const int wA, const int wB)     {     int tx = get_global_id(0);     int ty = get_global_id(1);     int "..., kernelName="matrixMul", 
+
+    pgenerateData=0x409d3d <test::generateMMData(int, std::vector >*, std::vector >*, int*, int*, int*, int*, int*, int*)>, 
+
+    pdeleteData=0x409feb <test::deleteMMData(int, std::vector >*, std::vector >*)>) at src/CLeverTrustee. cpp:86
+
+#13 0x0000000000409c73 in test::TestMatrixMult::setUp (this=0x8814f0) at src/TestMatrixMult. cpp:35
+
+#14 0x000000000040e3ce in test::TestSuite::execute (this=0x8814d0) at src/TestSuite. cpp:12
+
+#15 0x0000000000407ebd in main (argc=1, argv=0x7fffffffe098) at src/testCLT. cpp:43
+
+```
+
+Es ist besonders wichtig, dass das ganze auch auf Intel CPUs läuft, <NAME_CORPUS_REPLACEMENT> diese nun mal den Markt beherrschen.
+
+Noch eine Anmerkung: wenn ich die Kernelanalyse auskommentiere, läuft alles problemlos durch, also bitte beheben.
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 243
+CREATION_DATETIME: 1349820000000
+MODIFICATION_DATETIME: 1349820000000
+TITLE: Bitte beachtet, dass 
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 236
+POSTING_TYPE: comment
+CONTENT:
+Bitte beachtet, dass ihr in den Pools nicht ohne weiteres Software nachinstallieren könnt - dort müsst ihr mit dem auskommen, was <NAME_CORPUS_REPLACEMENT> ist. Was ihr zuhause benutzt ist natürlich euch überlassen :)
+TAGGED_CONTENT:

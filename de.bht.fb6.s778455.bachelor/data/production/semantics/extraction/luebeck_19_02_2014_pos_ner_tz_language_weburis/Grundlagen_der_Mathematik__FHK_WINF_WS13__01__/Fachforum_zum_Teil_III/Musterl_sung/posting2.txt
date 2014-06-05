@@ -1,0 +1,18 @@
+ID: 261051
+CREATION_DATETIME: 1386002815
+MODIFICATION_DATETIME: 1386002815
+TITLE: Re: Musterlösung
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=98733#261051
+NER_TAG: value:VG;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:VG;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 261025
+CONTENT:
+Hallo Miglena,
+<REMOVED_PERSON_ENTITY>REMOVED_PERSON_ENTITY> meinte, ich könnte meine <REMOVED_PERSON_ENTITY> auch als Musterlösung hochladen, was ich natürlich auch gerne mache.
+VG an alle
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ Miglena_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE REMOVED_PERSON_ENTITY_NE >_CARD meinte_VVFIN ,_$, ich_PPER könnte_VMFIN meine_PPOSAT <_NN REMOVED_PERSON_ENTITY_NE >_VVFIN auch_ADV als_APPR Musterlösung_NN hochladen_VVFIN ,_$, was_PWS ich_PPER natürlich_ADV auch_ADV gerne_ADV mache_VVFIN ._$. VG_NN an_APPR alle_PIDAT <_CARD REMOVED_PERSON_ENTITY_NN >_XY 

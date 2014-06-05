@@ -1,0 +1,16 @@
+ID: 2244
+CREATION_DATETIME: 1373925600000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich habe eben den Wikipediaartikel zu IEEE 802. 1Q durchgelesen und bin über maximale Anzahl VLANs gestolpert.
+
+>  12 Bit zur Aufnahme der VLAN ID;
+
+>  insgesamt 4094 VLANs
+
+Wie groß sind denn im Normalfall VLAN-Netzwerke? Ich könnte mir Vorstellen, dass für Forschungsnetzwerke eine <REMOVED_PERSON_ENTITY> <NAME_CORPUS_REPLACEMENT> mehr als 4094 Netzwerken sinnvoll ist. Ist das nicht der Fall?
+TAGGED_CONTENT:

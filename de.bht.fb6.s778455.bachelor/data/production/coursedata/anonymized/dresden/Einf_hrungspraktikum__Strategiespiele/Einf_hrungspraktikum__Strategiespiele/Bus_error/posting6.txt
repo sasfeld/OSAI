@@ -1,0 +1,10 @@
+ID: 1480
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Das kann Memory Corruption sein (also du schreibst über die Grenzen eines Arrays hinaus) oder Use-aft...
+PARENT_POSTING_ID: 1467
+POSTING_TYPE: answer
+CONTENT:
+Das kann Memory Corruption sein (also du schreibst über die Grenzen eines Arrays hinaus) oder Use-after-free. Um grob das Problem einzugrenzen, kann es manchmal hilfreich sein, ein paar assert Aufrufe zu plazieren, die schauen, dass zum Beispiel dein Vector keine unglaubwürdige Länge hat. Dann schmiert dein Programm eher ab und rechnet nicht noch eine ganze Weile weiter.
+Tools wie valgrind können dir auch direkt zeigen, wo du bei der Speicherallokation einen Fehler machst.
+TAGGED_CONTENT:

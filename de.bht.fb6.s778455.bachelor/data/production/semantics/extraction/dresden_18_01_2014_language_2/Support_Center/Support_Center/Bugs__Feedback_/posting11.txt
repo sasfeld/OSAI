@@ -1,0 +1,10 @@
+ID: 123
+CREATION_DATETIME: 1348092000000
+MODIFICATION_DATETIME: 1349820000000
+TITLE: Ich bekomme dauernd M
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 70
+POSTING_TYPE: answer
+CONTENT:
+Ich bekomme dauernd Mails mit Antworten auf Themen, die privat gestellt wurden - zumindest vermute ich, dass es so ist, denn ich kriege jedes Mal die "You don't have permission to access this page" Meldung. Oder ich bin zu blöd, mich richtig einzutragen.
+TAGGED_CONTENT:

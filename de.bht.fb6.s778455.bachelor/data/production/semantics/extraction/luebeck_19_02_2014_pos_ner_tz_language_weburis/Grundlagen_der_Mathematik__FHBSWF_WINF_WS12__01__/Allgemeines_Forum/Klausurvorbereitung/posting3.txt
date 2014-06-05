@@ -1,0 +1,34 @@
+ID: 188763
+CREATION_DATETIME: 1356076027
+MODIFICATION_DATETIME: 1356076027
+TITLE: Re: Klausurvorbereitung
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=70597#188763
+TOPIC_ZOOM_TAG: value:Verfügungen;weight:1.0;significance:7.24896400108977;degreegeneralization:3;uri:19992589
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:6.95597687640829;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Bücher;weight:1.0;significance:5.80279623892246;degreegeneralization:5;uri:21981657
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Presse, Druck und Verlagswesen;weight:1.0;significance:3.89973203213328;degreegeneralization:4;uri:21990174
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:2.65109701440329;degreegeneralization:2;uri:21999830
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+NER_TAG: value:LON CAPA;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LON CAPA;weight:-1.0;uri:;classifierlabel:I-LOC
+POS_TAG: value:Kapitel;weight:0.0;uri:;postag:NN
+POS_TAG: value:hlung;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:gung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Punkte;weight:0.0;uri:;postag:NN
+POS_TAG: value:REMOVEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 188477
+CONTENT:
+@Prof. <REMOVED_PERSON_ENTITY>:
+ist es vielleicht möglich, die zeitlich abgelaufenen Kapitel in LON CAPA (ggf. nach der Auszählung der Punkte) wieder zugänglich zu machen oder anderweitig noch ein paar <REMOVED_PERSON_ENTITY> zur Verfügung zu stellen?
+Freundliche Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+@Prof_NE ._$. <_XY REMOVED_PERSON_ENTITY_NE >_NE :_$. ist_VAFIN es_PPER vielleicht_ADV möglich_ADJD ,_$, die_ART zeitlich_ADJD abgelaufenen_ADJA Kapitel_NN in_APPR LON_NE CAPA_NE -LRB-_TRUNC ggf_PTKVZ ._$. nach_APPR der_ART Auszählung_NN der_ART Punkte_NN -RRB-_TRUNC wieder_ADV zugänglich_ADJD zu_PTKZU machen_VVINF oder_KON anderweitig_ADJD noch_ADV ein_ART paar_PIDAT <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN zur_APPRART Verfügung_NN zu_PTKZU stellen_VVINF ?_$. Freundliche_ADJA Grüße_NN <_CARD PERSONAL_GREETING_REMOVEMENT_NN >_XY 

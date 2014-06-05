@@ -1,0 +1,11 @@
+ID: 1642
+CREATION_DATETIME: 1364252400000
+MODIFICATION_DATETIME: 1364252400000
+TITLE: Tja, schade. Ich fürchte da können wir nix machen.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1633
+POSTING_TYPE: comment
+CONTENT:
+Tja, schade. Ich fürchte <NAME_CORPUS_REPLACEMENT> können wir nix machen. :(
+TAGGED_CONTENT:
+Tja_NE ,_$, schade_ADJD ._$. Ich_PPER fürchte_VVFIN <_PRF NAME_CORPUS_REPLACEMENT_NE >_VVINF können_VMFIN wir_PPER nix_PIS machen_VVINF ._$. :-LRB-_XY 

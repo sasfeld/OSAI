@@ -1,0 +1,16 @@
+ID: 20
+CREATION_DATETIME: 1194179160000
+MODIFICATION_DATETIME: 1194179160000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 19
+CONTENT:
+ 
+Liebe , liebe Studierende,
+
+Sehr gute Antwort, DANKE. Können Sie jetzt gute Javadoc-Kommentare für diese 2 Methoden geben? Als Erinnerung, ein Javadoc-Kommentar sagt nur, was die Methode macht, nicht wie sie programmiert ist. Danke im Voraus für das Mitmachen.
+
+Viele Grüße
+
+   
+TAGGED_CONTENT:

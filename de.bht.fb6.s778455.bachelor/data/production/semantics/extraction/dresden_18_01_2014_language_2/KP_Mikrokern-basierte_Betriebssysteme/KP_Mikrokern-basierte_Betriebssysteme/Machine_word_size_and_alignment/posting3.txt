@@ -1,0 +1,16 @@
+ID: 886
+CREATION_DATETIME: 1354057200000
+MODIFICATION_DATETIME: 1354057200000
+TITLE: To make #3 a bit clearer:
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 884
+POSTING_TYPE: comment
+CONTENT:
+To make #3 a bit clearer:
+
+Let's assume we have a system with a machine word size of 8 bytes. I start a memory access at address **0x1000** and write a structure containing **9 bytes**. So I assume the size of the structure is rounded up to the next multiple of the machine word size which is **16 bytes**. <REMOVED_PERSON_ENTITY> the next address behind this structure would be 
+
+**0x1000 + sizeof( structure ) = 0x1010**
+
+Does this rounding up always <NAME_CORPUS_REPLACEMENT>? Or <NAME_CORPUS_REPLACEMENT> there be other funny alignment effects?
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 117562
+CREATION_DATETIME: 1327389596
+MODIFICATION_DATETIME: 1327389596
+TITLE: Re: Probeklausur
+TOPIC_ZOOM_TAG: value:Vektoren;weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 117561
+CONTENT:
+Du hast recht, ich habe übersehen das dort mal keine 0 Steht. (War meist so) Dann passt meine Rechnung nicht. Dann wäre das:z=t (1. L.)-3y + 6t = 3y= -1 + 2t (2. L.)x - 1 + 2t -4t = -2x = -1 +2t (3. L.)Was dann der Lösung von <REMOVED_PERSON_ENTITY> entsprechen würde mitt * (2 2 1) + (-1 -1 0)Was auch nicht der Musterlösung entspricht. Leider ist mir das grade auch ein Rätsel weshalb die Werte im 2. Vektor postitiv sind und bei dem z noch eine 1 dazukommt. Falls du noch Fragen hast kannst mich über skype erreichen: ei5fuch5 
+TAGGED_CONTENT:

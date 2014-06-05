@@ -1,0 +1,10 @@
+ID: 1764
+CREATION_DATETIME: 1366927200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Der Zeitplan wurde eben aktualisiert. Der Vortrag 7 hat sich vom 11. 06. auf den 18. 06. verschoben. Ein weiterer Vortrag ist am 18. 06. dazugekommen.
+TAGGED_CONTENT:

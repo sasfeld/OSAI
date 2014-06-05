@@ -1,0 +1,16 @@
+ID: 245933
+CREATION_DATETIME: 1382085250
+MODIFICATION_DATETIME: 1382085271
+TITLE: Klausurrelevanz
+POS_TAG: value:eEddie;weight:0.0;uri:;postag:NN
+POS_TAG: value:Digitale;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hinweis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Schaltnetze;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ordnung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+ich wollte hier nur mal sichergehen. Im Hinweis steht, dass LO6 komplett nicht klausurrelevant ist. Wenn das LO6 geöffnet wird steht nur bei einem <REMOVED_PERSON_ENTITY> (Digitale Schaltnetze), dass es nicht klausurrelevant ist. Ich gehe davon aus, dass der Hinweis richtig ist und damit LO6 komplett übersprungen werden kann. Ist das so in Ordnung?
+Viele GrüßeEddie <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, ich_PPER wollte_VMFIN hier_ADV nur_ADV mal_ADV sichergehen_VVINF ._$. Im_APPRART Hinweis_NN steht_VVFIN ,_$, dass_KOUS LO6_NE komplett_ADJD nicht_PTKNEG klausurrelevant_ADJD ist_VAFIN ._$. Wenn_KOUS das_ART LO6_NN geöffnet_VVPP wird_VAFIN steht_VVFIN nur_ADV bei_APPR einem_ART <_NN REMOVED_PERSON_ENTITY_NE >_NE -LRB-_TRUNC Digitale_NN Schaltnetze_NN -RRB-_TRUNC ,_$, dass_KOUS es_PPER nicht_PTKNEG klausurrelevant_ADJD ist_VAFIN ._$. Ich_PPER gehe_VVFIN davon_PROAV aus_PTKVZ ,_$, dass_KOUS der_ART Hinweis_NN richtig_ADJD ist_VAFIN und_KON damit_PROAV LO6_NN komplett_ADJD übersprungen_VVPP werden_VAINF kann_VMFIN ._$. Ist_VAFIN das_PDS so_ADV in_APPR Ordnung_NN ?_$. Viele_PIDAT GrüßeEddie_NN <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

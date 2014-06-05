@@ -1,0 +1,14 @@
+ID: 12
+CREATION_DATETIME: 1286779680000
+MODIFICATION_DATETIME: 1286779680000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 10
+CONTENT:
+
+Hallo , ,
+
+gut gesehen und wichtige Frage . Mit der Anweisung catch Exception werden alle Ausnahmen gefangen, die vom Typ Exception sind. Weil viele Exception-Klassen die Klasse Exception erben (siehe http://download.oracle.com/javase/6/docs/api/ und Pr I) werden damit viele verschiedene Ausnahmen gefangen. Erinnerung von Vererbung: ein Objekt vom Typ IOException ist auch vom Typ Exception. Mit der Anweisung catch IOException werden viel weniger aber auch viel spezifischere Ausnahmen gefangen, da viel weniger Klassen die Klasse IOException erben. Etwas ähnliches gilt für throws Exception und throws IOException.
+Mit freundlichen Gruessen,
+    
+TAGGED_CONTENT:

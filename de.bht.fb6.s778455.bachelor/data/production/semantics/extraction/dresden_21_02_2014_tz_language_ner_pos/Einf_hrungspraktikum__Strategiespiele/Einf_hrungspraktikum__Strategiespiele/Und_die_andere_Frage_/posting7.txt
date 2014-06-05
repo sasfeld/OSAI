@@ -1,0 +1,12 @@
+ID: 1616
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: okay hab mich kurz mit christian besprochen und bin vorangekommen, gab wohl probleme mit meinem copy-...
+LANGUAGE: GERMAN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1602
+POSTING_TYPE: answer
+CONTENT:
+okay hab mich kurz mit <NAME_CORPUS_REPLACEMENT> besprochen und bin vorangekommen, gab wohl probleme mit meinem copy-constructor und destructor.
+TAGGED_CONTENT:
+okay_PWAV hab_VAFIN mich_PPER kurz_ADJD mit_APPR <_CARD NAME_CORPUS_REPLACEMENT_NN >_CARD besprochen_VVPP und_KON bin_VAFIN vorangekommen_VVPP ,_$, gab_VVFIN wohl_ADV probleme_ADJD mit_APPR meinem_PPOSAT copy-constructor_ADJA und_KON destructor_ADJD ._$. 

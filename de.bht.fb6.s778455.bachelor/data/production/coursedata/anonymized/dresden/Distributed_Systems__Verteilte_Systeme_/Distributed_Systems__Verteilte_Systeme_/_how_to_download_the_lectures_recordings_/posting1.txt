@@ -1,0 +1,14 @@
+ID: 400
+CREATION_DATETIME: 1350511200000
+MODIFICATION_DATETIME: 1383001200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hello,
+I don't know how to download the lectures of prof. Dr. <REMOVED_PERSON_ENTITY>. 
+This is the link:
+http://www.inf.tu-dresden. de/index. php?node_id=1785&ln=en&video=teleuni_piloten_vorlesungsvideos_distributed_systems
+and I'd like to know why we have to use the login (sya1) and password(xntusfbn)?For what?
+Thank you very much!
+TAGGED_CONTENT:

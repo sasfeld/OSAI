@@ -1,0 +1,14 @@
+ID: 68275
+CREATION_DATETIME: 1256725673
+MODIFICATION_DATETIME: 1256725673
+TITLE: Re: Lerngruppe 4
+POS_TAG: value:Euch;weight:0.0;uri:;postag:NN
+POS_TAG: value:Platz;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 68274
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+ich würde gern bei Euch mitmachen, wenn Ihr noch einen Platz für mich habt.
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE ,_$, ich_PPER würde_VAFIN gern_ADV bei_APPR Euch_NN mitmachen_VVINF ,_$, wenn_KOUS Ihr_PPOSAT noch_ADV einen_ART Platz_NN für_APPR mich_PPER habt_VAFIN ._$. Gruß_NE <_NE PERSONAL_GREETING_REMOVEMENT_NE >_XY 

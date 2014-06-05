@@ -1,0 +1,12 @@
+ID: 1947
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1376604000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+ich habe mal wieder eine Frage zu CGI: Warum kann die Tiefensortierung nicht auf Basis <NAME_CORPUS_REPLACEMENT> Polygonen durchgeführt werden?
+Ich bin bisher auf keine qualifizierte Antwort gekommen, außer: weil es zu rechenintensiv wäre.
+Vielleicht kann mir jemand dabei Helfen, eine Antwort auf diese Frage zu finden? :)
+TAGGED_CONTENT:

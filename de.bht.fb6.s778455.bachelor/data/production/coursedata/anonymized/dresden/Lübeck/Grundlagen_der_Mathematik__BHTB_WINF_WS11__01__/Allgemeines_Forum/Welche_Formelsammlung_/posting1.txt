@@ -1,0 +1,8 @@
+ID: 116453
+CREATION_DATETIME: 1324053504
+MODIFICATION_DATETIME: 1324053504
+TITLE: Welche Formelsammlung?
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen, welche Formelsammlung für Mathe könnt ihr empfehlen? Gibt es auch welche, wo schon die Gesetze der Aussagenlogik gleich mit drin sind?Vielen Dank für jeden Buchtipp! :-) 
+TAGGED_CONTENT:

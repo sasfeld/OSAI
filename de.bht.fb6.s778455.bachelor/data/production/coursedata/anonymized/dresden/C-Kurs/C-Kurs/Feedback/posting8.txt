@@ -1,0 +1,9 @@
+ID: 2920
+CREATION_DATETIME: 1384815600000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: Ich glaube du suchst [sowas](http://linux.die.net/man/3/printf).
+PARENT_POSTING_ID: 2914
+POSTING_TYPE: comment
+CONTENT:
+Ich glaube du suchst [sowas](http://linux.die.net/man/3/printf), Abschnitt *flag characters*, sowie [das hier für scanf](http://linux.die.net/man/3/scanf).
+TAGGED_CONTENT:

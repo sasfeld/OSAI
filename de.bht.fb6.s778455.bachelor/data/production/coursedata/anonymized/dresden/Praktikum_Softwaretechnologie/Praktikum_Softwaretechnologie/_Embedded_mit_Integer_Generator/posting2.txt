@@ -1,0 +1,14 @@
+ID: 3071
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: > It seems that it is impossible to use @GeneratedValue in @EmbeddedId
+
+via http://stackoverflow.co...
+PARENT_POSTING_ID: 3069
+POSTING_TYPE: answer
+CONTENT:
+> It seems that it is impossible to use @GeneratedValue in @EmbeddedId
+via http://stackoverflow.com/a/8558589
+Wieso benutzt du denn nicht einfach ein long als Id und gut?
+Id manuell hochzählen wird brechen wenn es schon, nach einem Neustart, persistente Daten gibt.
+TAGGED_CONTENT:

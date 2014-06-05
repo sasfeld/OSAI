@@ -1,0 +1,13 @@
+ID: 1127
+CREATION_DATETIME: 1361142000000
+MODIFICATION_DATETIME: 1361142000000
+TITLE: Meiner Meinung nach: nein, Du brauchst keinen Taschenrechner.
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 1126
+POSTING_TYPE: comment
+CONTENT:
+Meiner Meinung nach: nein, Du brauchst keinen Taschenrechner.
+
+Um das zu prüfen, schau Dir mal die Probeaufgaben zu Sicherheit (RSA) und Quantitative Methoden (Echtzeit) an. Das wären die potenziellen Kandidaten für einen Taschenrechner. Üblicherweise wählen wir aber die Beispiele dort so, dass man das auch im <NAME_CORPUS_REPLACEMENT> rechnen kann.
+TAGGED_CONTENT:

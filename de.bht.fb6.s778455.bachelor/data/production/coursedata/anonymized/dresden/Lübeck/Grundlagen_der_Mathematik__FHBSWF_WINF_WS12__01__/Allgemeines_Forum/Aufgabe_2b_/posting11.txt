@@ -1,0 +1,8 @@
+ID: 184543
+CREATION_DATETIME: 1354523239
+MODIFICATION_DATETIME: 1354523239
+TITLE: Re: Aufgabe 2b)
+PARENT_POSTING_ID: 184535
+CONTENT:
+Stimmt. vx bildet gesamt eine Knotenbewertung. Eventuell hat ja noch wer anders eine Idee? Wäre echt super. :/
+TAGGED_CONTENT:

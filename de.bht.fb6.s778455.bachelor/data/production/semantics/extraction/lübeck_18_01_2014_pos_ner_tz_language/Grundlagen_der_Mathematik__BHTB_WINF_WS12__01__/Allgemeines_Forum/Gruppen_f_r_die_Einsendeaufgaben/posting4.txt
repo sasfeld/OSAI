@@ -1,0 +1,13 @@
+ID: 171933
+CREATION_DATETIME: 1350547370
+MODIFICATION_DATETIME: 1350547370
+TITLE: Re: Gruppen für die Einsendeaufgaben
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 171815
+CONTENT:
+Hallo,
+ich bin auch noch "ungruppiert" und würde mich freuen, wo mitmachen zu können. 
+Schönen Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, ich_PPER bin_VAFIN auch_ADV noch_ADV "_$( ungruppiert_ADJD "_$( und_KON würde_VAFIN mich_PPER freuen_VVINF ,_$, wo_PWAV mitmachen_VVINF zu_PTKZU können_VMINF ._$. Schönen_ADJA Gruß_NN <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

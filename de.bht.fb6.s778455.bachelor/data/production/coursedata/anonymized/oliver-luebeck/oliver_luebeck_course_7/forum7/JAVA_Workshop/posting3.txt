@@ -1,0 +1,16 @@
+ID: 59
+CREATION_DATETIME: 1305110220000
+MODIFICATION_DATETIME: 1305110220000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 57
+CONTENT:
+  
+Tja, da muss ich leider arbeiten. Könnte evt. erst um 21:00 Uhr per Skype oder so dazukommen. Aber gute Idee!!
+Montags oder Donnerstags hab ich abends meistens frei.
+
+eBooks für Java ..? ich schau auch mal.... ;-)
+
+Gruß 
+   
+TAGGED_CONTENT:

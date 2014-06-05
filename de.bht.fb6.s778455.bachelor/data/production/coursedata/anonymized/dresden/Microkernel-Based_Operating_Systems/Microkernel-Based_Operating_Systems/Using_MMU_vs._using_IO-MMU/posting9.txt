@@ -1,0 +1,9 @@
+ID: 1645
+CREATION_DATETIME: 1364252400000
+MODIFICATION_DATETIME: 1364252400000
+TITLE: How does my read/ write to a virtual address (which is to be translated to a piece of physical device...
+PARENT_POSTING_ID: 1636
+POSTING_TYPE: comment
+CONTENT:
+How does my read/ write to a virtual address (which is to be translated to a piece of physical device memory) then happen to end up where it should go? 
+TAGGED_CONTENT:

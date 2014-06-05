@@ -1,0 +1,146 @@
+ID: 3052
+CREATION_DATETIME: 1385679600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Moin!
+Ich habe gerade die <REMOVED_PERSON_ENTITY> User und Customer (Unterklasse) implementiert und versucht, "@MappedSuperclass" wie hier:
+http://docs.oracle.com/javaee/7/api/javax/persistence/MappedSuperclass. html
+zu benutzen. Ich bekomme allerdings folgenden Fehler:
+```text
+Caused by: org. hibernate. AssertionFailure: Unexpected identifier type on the referenced entity when mapping a @MapsId: swt13w30. domain. Customer
+	at org. hibernate. cfg. CopyIdentifierComponentSecondPass. doSecondPass(CopyIdentifierComponentSecondPass. java:66) ~[hibernate-core-4. 2. 1. Final. jar:4. 2. 1. Final]
+	at org. hibernate. cfg. Configuration. processSecondPassesOfType(Configuration. java:1404) ~[hibernate-core-4. 2. 1. Final. jar:4. 2. 1. Final]
+	at org. hibernate. cfg. Configuration. secondPassCompile(Configuration. java:1357) ~[hibernate-core-4. 2. 1. Final. jar:4. 2. 1. Final]
+	at org. hibernate. cfg. Configuration. buildSessionFactory(Configuration. java:1747) ~[hibernate-core-4. 2. 1. Final. jar:4. 2. 1. Final]
+	at org. hibernate. ejb. EntityManagerFactoryImpl.(EntityManagerFactoryImpl. java:96) ~[hibernate-entitymanager-4. 2. 1. Final. jar:4. 2. 1. Final]
+	at org. hibernate. ejb. Ejb3Configuration. buildEntityManagerFactory(Ejb3Configuration. java:913) ~[hibernate-entitymanager-4. 2. 1. Final. jar:4. 2. 1. Final]
+	at org. hibernate. ejb. Ejb3Configuration. buildEntityManagerFactory(Ejb3Configuration. java:898) ~[hibernate-entitymanager-4. 2. 1. Final. jar:4. 2. 1. Final]
+	at org. hibernate. ejb. HibernatePersistence. createContainerEntityManagerFactory(HibernatePersistence. java:76) ~[hibernate-entitymanager-4. 2. 1. Final. jar:4. 2. 1. Final]
+	at org. springframework. orm. jpa. LocalContainerEntityManagerFactoryBean. createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean. java:318) ~[spring-orm-4. 0. 0. RC1. jar:4. 0. 0. RC1]
+	at org. springframework. orm. jpa. AbstractEntityManagerFactoryBean. afterPropertiesSet(AbstractEntityManagerFactoryBean. java:317) ~[spring-orm-4. 0. 0. RC1. jar:4. 0. 0. RC1]
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. invokeInitMethods(AbstractAutowireCapableBeanFactory. java:1607) ~[spring-beans-4. 0. 0. RC1. jar:4. 0. 0. RC1]
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. initializeBean(AbstractAutowireCapableBeanFactory. java:1544) ~[spring-beans-4. 0. 0. RC1. jar:4. 0. 0. RC1]
+	... 106 common frames omitted
+```
+Meine beiden classen sehen folgendermaßen aus:
+```java
+package swt13w30. domain;
+import java. io. Serializable;
+import java. util. Objects;
+import javax. persistence. Embeddable;
+import javax. persistence. Embedded;
+import javax. persistence. EmbeddedId;
+import javax. persistence. Id;
+import javax. persistence. MappedSuperclass;
+import javax. persistence. OneToOne;
+import javax. persistence. Transient;
+import org. salespointframework. core. useraccount. Password;
+import org. salespointframework. core. useraccount. Role;
+import org. salespointframework. core. useraccount. UserAccount;
+import org. salespointframework. core. useraccount. UserAccountIdentifier;
+import org. salespointframework. core. useraccount. UserAccountManager;
+import org. springframework. beans. factory. annotation. Autowired;
+/**
+ * Wraps UserAccount and UserAccountIdentifier to hide some funtionality which is
+ * not needed and to fit Id to this apps style and interfaces like Serializable.
+ * 
+ * Subclasses even hide the roles and kind of the id.
+ * @author <REMOVED_PERSON_ENTITY>
+ */
+@MappedSuperclass
+public abstract class User implements UniqueObject{
+	/**-------------------------------------------------------------------------
+	 * Id class
+	 * -------------------------------------------------------------------------
+	 */
+	@Embeddable
+	public class UserId implements Serializable{
+		private static final long serialVersionUID = -1265600891683699707L;
+		private UserAccountIdentifier id;
+		public UserId(String id) {
+			this. id = new UserAccountIdentifier(id);
+		}
+		@Override
+		public int hashCode() {
+			return id. hashCode();
+		}
+		@Override
+		public boolean equals(Object obj) {
+			return id. equals(obj);
+		}
+		@Override
+		public String toString() {
+			return id. toString();
+		}
+	}
+	/**-------------------------------------------------------------------------
+	 * Attributes 
+	 * -------------------------------------------------------------------------
+	 */
+	@EmbeddedId UserId id;//Not working for subclasses???
+	@Autowired
+	@Transient private UserAccountManager manager;
+	@OneToOne private UserAccount account;
+	/**-------------------------------------------------------------------------
+	 * Methods
+	 * -------------------------------------------------------------------------
+	 */
+	/**Do not use. Only for JPA/Hibernate.*/
+	@Deprecated public User() {}
+	/**
+	 * TODO: What happens if you pass a null for role? Does that work out?
+	 */
+	public User(String id, String password, Role role) {
+		Objects. requireNonNull(id);
+		Objects. requireNonNull(password);
+		account = manager. create(new UserAccountIdentifier(id), password, role);
+		this. id = new UserId(id);
+	}
+	@Override
+	public int hashCode (){
+		return id. hashCode();
+	}
+	@Override
+	public boolean equals(Object o) {
+		return id. equals(o);
+	}
+	/**-------------------------------------------------------------------------
+	 * Getter & Setter
+	 * -------------------------------------------------------------------------
+	 */
+	@Override
+	public UserId getId() {
+		return id;
+	}
+	public Password getPassword() {
+		return account. getPassword();
+	}
+	public void changePassword(String password) {
+		manager. changePassword(account, password);
+	}
+}
+```
+und
+```ruby
+package swt13w30. domain;
+import javax. persistence. Entity;
+import org. salespointframework. core. useraccount. Role;
+/**
+ * <NAME_CORPUS_REPLACEMENT> log in as a customer to the public site of <REMOVED_PERSON_ENTITY>.
+ * Email is used as primary key, so the customer needs to login with it.
+ * @author <REMOVED_PERSON_ENTITY>
+ */
+@Entity
+public class Customer extends User {
+	public Customer(String email, String password) {
+		super(email, password, new Role("CUSTOMER"));
+	}
+	public String getEmail() {
+		return getId(). toString();
+	}
+}
+```
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 238
+CREATION_DATETIME: 1349820000000
+MODIFICATION_DATETIME: 1349820000000
+TITLE: Japp, wenn man das Pa
+PARENT_POSTING_ID: 237
+POSTING_TYPE: comment
+CONTENT:
+Japp, wenn man das Paper nicht gelesen hat sollte man gar nicht erst kommen. Es sei denn man ist der einzige der überhaupt <NAME_CORPUS_REPLACEMENT> ist, dann bekommt man eine sehr persönliche Betreuung :D
+TAGGED_CONTENT:

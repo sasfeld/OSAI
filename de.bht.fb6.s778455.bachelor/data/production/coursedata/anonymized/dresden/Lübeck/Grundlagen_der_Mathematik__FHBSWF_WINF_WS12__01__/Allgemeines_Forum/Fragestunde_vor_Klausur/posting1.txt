@@ -1,0 +1,11 @@
+ID: 196077
+CREATION_DATETIME: 1359122488
+MODIFICATION_DATETIME: 1359122488
+TITLE: Fragestunde vor Klausur
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Klausurteilnehmer,
+am Mittwoch, den 30. 1. 2013, stehe ich Ihnen von 19-20 Uhr im Moodle-Chatraum noch ein letztes Mal vor der Klausur für Fragen bereit. 
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

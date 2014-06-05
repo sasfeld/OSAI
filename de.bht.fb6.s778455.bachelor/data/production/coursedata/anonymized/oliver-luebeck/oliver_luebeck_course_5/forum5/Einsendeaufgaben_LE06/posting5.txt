@@ -1,0 +1,32 @@
+ID: 76
+CREATION_DATETIME: 1194624420000
+MODIFICATION_DATETIME: 1194624420000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 75
+CONTENT:
+ 
+Hi ,
+
+wenn ich dein Applet starte bekomme ich direkt einen Fehler, da du die Schleife nur bis zahlenwerte.length-1 laufen lassen darfst. Also
+
+for (i = 0; i < zahlenwerte.length; i++)
+
+weshalb das ganze so durcheinander aussieht ist, da du die y-Position der Balken anders setzen musst:
+
+zB.:
+
+int y = 500 - hoehe;
+
+500 ist dann die yPosition der (hier unsichtbaren) y-Achse deines Diagramms. Also der Startpunkt aller Balken.
+Im Gegensatz zum Koordinatensystem, das wir sonst so kennen, geht in Java die yAchse von oben nach unten. Das heißt der Nullpunkt (0,0) ist ganz oben links in deinem Fenster. Der Punkt (100, 100) ist dann 100 nach rechts und 100 nach unten versetzt. So wird dann ein Rechteck mit der Methode fillRect von der gegebenen start-y-Position aus mit der von dir angegebenen Höhe nach UNTEN gezeichnet.
+
+Du musst dir vorstellen du gehst beim Zeichnen des Balkens vom Nullpunkt des Fensters (also ganz oben links) 500 nach unten, dann die Höhe des Balkens wieder nach oben und zeichnest dann von dort aus den Balken in positiver Richtung (nach unten) mit der Höhe.
+
+So sind dann alle Balken auf einer Linie.
+
+Ich hoffe das war irgenwie verständlich. Sonst einfach nochmal fragen.
+
+Viele Grüße,
+	
+TAGGED_CONTENT:

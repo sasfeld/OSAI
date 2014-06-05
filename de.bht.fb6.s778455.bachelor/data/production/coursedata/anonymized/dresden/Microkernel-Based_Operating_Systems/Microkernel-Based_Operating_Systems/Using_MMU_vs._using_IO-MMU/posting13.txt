@@ -1,0 +1,11 @@
+ID: 1649
+CREATION_DATETIME: 1364252400000
+MODIFICATION_DATETIME: 1364252400000
+TITLE: While [Intels employees](http://software.intel.com/en-us/blogs/2009/03/02/intels-virtualization-for-d...
+PARENT_POSTING_ID: 1646
+POSTING_TYPE: comment
+CONTENT:
+While [Intels employees](http://software.intel.com/en-us/blogs/2009/03/02/intels-virtualization-for-directed-io-aka-iommu-part-1) state:  
+> 
+Basically an IOMMU brokers any DMA request on behalf of an IO device translating IO virtual address much the same way as the processor MMU complex performs translation of a virtual address to physical address.
+TAGGED_CONTENT:

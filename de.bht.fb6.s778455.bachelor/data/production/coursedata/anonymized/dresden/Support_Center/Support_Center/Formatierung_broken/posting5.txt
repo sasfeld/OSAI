@@ -1,0 +1,9 @@
+ID: 1375
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Bei mir (Firefox 19.0) sieht es [so](http://tinypic.com/r/5pgz9/6) aus.
+PARENT_POSTING_ID: 1367
+POSTING_TYPE: comment
+CONTENT:
+Bei mir (Firefox 19. 0) sieht es [so](http://tinypic.com/r/5pgz9/6) aus.
+TAGGED_CONTENT:

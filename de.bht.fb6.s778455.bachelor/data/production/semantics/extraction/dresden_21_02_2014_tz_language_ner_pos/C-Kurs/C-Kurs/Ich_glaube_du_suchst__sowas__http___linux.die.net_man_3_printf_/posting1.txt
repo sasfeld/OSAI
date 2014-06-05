@@ -1,0 +1,21 @@
+ID: 2789
+CREATION_DATETIME: 1384124400000
+MODIFICATION_DATETIME: 1385420400000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Kritik;weight:1.0;significance:5.60194337750662;degreegeneralization:4;uri:20077113
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:Kritik;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kurse;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anregungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Probleme;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wie gefallen euch die Kurse?  
+
+Kommt ihr zurecht, gibt es Probleme?  
+
+Habt ihr Kritik oder Anregungen?  
+TAGGED_CONTENT:
+Wie_PWAV gefallen_VVPP euch_PRF die_ART Kurse_NN ?_$. Kommt_VVFIN ihr_PPOSAT zurecht_PTKVZ ,_$, gibt_VVFIN es_PPER Probleme_NN ?_$. Habt_VAFIN ihr_PPER Kritik_NN oder_KON Anregungen_NN ?_$. 

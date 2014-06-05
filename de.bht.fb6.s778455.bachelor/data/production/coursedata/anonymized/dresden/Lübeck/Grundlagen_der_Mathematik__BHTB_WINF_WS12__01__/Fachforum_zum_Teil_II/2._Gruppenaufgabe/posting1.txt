@@ -1,0 +1,12 @@
+ID: 186955
+CREATION_DATETIME: 1355268080
+MODIFICATION_DATETIME: 1355268080
+TITLE: 2. Gruppenaufgabe
+PARENT_POSTING_ID: 0
+CONTENT:
+Ich verstehe nicht ganz was Herr <REMOVED_PERSON_ENTITY> in der 1. Teilaufgabe it dem 1. Satz meint.
+Also <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY> bleibt Zuhause, wenn <REMOVED_PERSON_ENTITY> und Mutter nicht kommen.
+oder
+<REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY> bleibt zuhause wenn, <REMOVED_PERSON_ENTITY> kommt aber Mutter nicht. oder Mutter kommt, aber Louise nicht.
+Der <REMOVED_PERSON_ENTITY> in der Klammer bringt mich irgendwie durcheinander.
+TAGGED_CONTENT:

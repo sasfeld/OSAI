@@ -1,0 +1,9 @@
+ID: 2819
+CREATION_DATETIME: 1384210800000
+MODIFICATION_DATETIME: 1384210800000
+TITLE: Jup, das wird es sein. Eduroam läuft bei mir mehr als langsam. An nem PC-Pool-Recher hab ich es schon...
+PARENT_POSTING_ID: 2818
+POSTING_TYPE: comment
+CONTENT:
+<REMOVED_PERSON_ENTITY>, das wird es sein. Eduroam läuft bei mir mehr als langsam. An nem PC-Pool-Recher hab ich es schon hingekriegt; ich probier es dann zu Hause nochmal.
+TAGGED_CONTENT:

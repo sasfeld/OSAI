@@ -1,0 +1,9 @@
+ID: 210
+CREATION_DATETIME: 1349647200000
+MODIFICATION_DATETIME: 1349647200000
+TITLE: Ja, aber Headlines si
+PARENT_POSTING_ID: 208
+POSTING_TYPE: comment
+CONTENT:
+Ja, aber Headlines sind eh angepasst, ansonsten finde zumindest ich es sinnvoll, Markdown in den Kommentaren aktiviert zu lassen, zumal man damit auch Code einfügen kann. Ich würde es erstmal beobachten. Oder welche Elemente sollten dazu führen dass man es deaktivieren sollte?
+TAGGED_CONTENT:

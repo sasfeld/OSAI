@@ -1,0 +1,11 @@
+ID: 2605
+CREATION_DATETIME: 1382392800000
+MODIFICATION_DATETIME: 1384988400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+ich kann "Lehrveranstaltung Allgemeine Qualifikationen." nicht finden.
+Ich habe nur "Lehrveranstaltungen: Ein- und Austragen" und als ich drin war, konnte ich auch keine "Allgemeine Qualifikationen" sehen.
+Wie kann ich für diesen Kurs einschreiben? Oder muss ich sogar die Einschreibung machen? Ich möchte nur etwas lernen und Sie haben gesagt, es gibt sowieso keinen <REMOVED_PERSON_ENTITY> am Ende. Und ich brauche auch keinen.
+TAGGED_CONTENT:

@@ -1,0 +1,13 @@
+ID: 194457
+CREATION_DATETIME: 1358496381
+MODIFICATION_DATETIME: 1358496381
+TITLE: Re: Gruppenübungen
+PARENT_POSTING_ID: 194209
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+okay, danke für die Erklärung. :)Eine Frage hätte ich aber noch zu H:
+Die transponierten Matrizen haben dann ja die Form A --&gt;7x4 und B --&gt;7x4. Heißt, dass X dann ja eine 4x4 Matrix sein muss, damit man die Matrixmultiplikation überhaupt durchführen kann und eine weitere 7x4 Matrix entstehen kann.
+Mir ist jetzt noch nicht ganz klar, wie ich diese 4x4 Matrix mit den insgesamt 16 Variablen berechnen kann. Muss man hier theoretisch jede Spalte X1 und B1 seperat von Xn und Bn betrachten? Dann bekommt man ja für jede inhomogene rechte <REMOVED_PERSON_ENTITY> (Spalte Bn) jeweils die Unbekannten von Xn heraus, oder?  Also den Gaußalgorithmus verwenden und am Ende die ein- oder mehrdeutigen Lösungen für die Xn <REMOVED_PERSON_ENTITY> ablesen. Das theoretisch mit jeder rechten Spalte.
+Paralleles Abarbeiten der Zeilenoperationen ist hier dann natürlich möglich.
+Ist das von der Überlegung her korrekt?GrüßeLars
+TAGGED_CONTENT:

@@ -1,0 +1,20 @@
+ID: 378
+CREATION_DATETIME: 1350424800000
+MODIFICATION_DATETIME: 1350424800000
+TITLE: Sie wurden als Mainta
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 367
+POSTING_TYPE: answer
+CONTENT:
+Sie wurden als Maintainer eingetragen, <NAME_CORPUS_REPLACEMENT> Sie ja für die Vorlesung verantwortlich sind. Entsprechend können Sie die Vorlesung verwalten:
+
+* Benutzer als Editor, Member oder Maintainer eintragen (nur als Maintainer möglich)
+
+* Kurs löschen (nur als Maintainer möglich)
+
+* Kurs bearbeiten (auch als Editor möglich)
+
+* Neues Semester anlegen (auch als Editor möglich)
+
+* Mitteilungen eintragen (auch als Editor möglich)
+TAGGED_CONTENT:

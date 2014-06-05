@@ -1,0 +1,35 @@
+ID: 39
+CREATION_DATETIME: 1196959500000
+MODIFICATION_DATETIME: 1196959500000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 38
+CONTENT:
+
+Hallo ,
+
+Die Erklärung in unserem Skript ist wirklich etwas dürftig...
+Ich musste auch erst einmal im Netz suchen.
+Dabei fand ich diesen Link ganz hilfreich.
+Dort wird es so erklärt:
+
+Anonyme Klassen haben keinen Namen und erzeugen immer automatisch ein Objekt. Klassendefinition und Objekterzeugung sind zu einem Sprachkonstrukt verbunden. Die allgemeine Notation ist folgende:
+
+new KlasseOderSchnittstelle() { /* Eigenschaften der inneren Klasse */ } 
+
+In dem Block geschweifter Klammern lassen sich nun Methoden und Attribute definieren. Hinter new steht der Name einer Klasse oder Schnittstelle.
+
+Auf Seite 10 in der LE07 gibt es dann noch mal ein Codebeispiel. Vergleiche mal mit der Notation oben.
+
+b.addActionListener(new ActionListener()) {Klassenrumpf}; 
+
+Diese Erklärung ist auch hilfreich:
+
+Durch den Klassenrumpf wird eine unbenannte Klasse bestimmt, welche die direkt nach dem "new" angegebene Klasse erweitert, ohne dass es in diesem Fall nötig ist, das Schlüsselwort "extends" zu verwenden. Gleichzeitig wird ein Exemplar dieser Klasse erzeugt.Da die so deklarierte Klasse des erzeugten Objektes keinen Namen hat, wird sie auch als eine anonyme Klasse bezeichnet.
+
+
+Ich hoffe, das hilft etwas!
+
+Viele Grüße,
+   
+TAGGED_CONTENT:

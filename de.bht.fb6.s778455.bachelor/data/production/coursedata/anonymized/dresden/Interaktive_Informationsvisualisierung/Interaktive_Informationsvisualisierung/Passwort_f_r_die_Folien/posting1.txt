@@ -1,0 +1,9 @@
+ID: 1774
+CREATION_DATETIME: 1367445600000
+MODIFICATION_DATETIME: 1367791200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Könnten Sie mir den Zugang für die Folien schreiben? Ich habe leider meine Notizen verlegt. Vielen Dank.
+TAGGED_CONTENT:

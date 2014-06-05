@@ -1,0 +1,27 @@
+ID: 185665
+CREATION_DATETIME: 1354785250
+MODIFICATION_DATETIME: 1354785250
+TITLE: Re: Aufgabe 2b)
+TOPIC_ZOOM_TAG: value:Vektoren;weight:5.0;significance:9.07753536802421;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:7.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:7.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:7.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:7.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:7.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Algebraische Begriffe;weight:1.0;significance:1.81550707360484;degreegeneralization:7;uri:20767840
+TOPIC_ZOOM_TAG: value:Skalare;weight:1.0;significance:1.81550707360484;degreegeneralization:7;uri:19937424
+TOPIC_ZOOM_TAG: value:Vektorräume;weight:1.0;significance:1.81550707360484;degreegeneralization:8;uri:20146881
+TOPIC_ZOOM_TAG: value:Algebra;weight:1.0;significance:1.81550707360484;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Lineare Algebra;weight:1.0;significance:1.81550707360484;degreegeneralization:7;uri:20881366
+TOPIC_ZOOM_TAG: value:Verfügungen;weight:1.0;significance:1.03556628586997;degreegeneralization:3;uri:19992589
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:0.378728144914756;degreegeneralization:2;uri:21999830
+NER_TAG: value:UVR;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+NER_TAG: value:UVR;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+NER_TAG: value:UVR;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+NER_TAG: value:LK's;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+PARENT_POSTING_ID: 185647
+CONTENT:
+Moin,
+genau das, was <REMOVED_PERSON_ENTITY> geschrieben hat, ist mir dann auch gestern in den Sinn gekommen. Es geht laut Aufgabenstellung nämlich nur darum, ob W ein UVR von V ist, nicht um das Beweisen, dass die Nullregel in allen Fällen erfüllt ist. Hinweis aus der Aufgabe: "nur für sich selber, nicht für die Aufgabenlösung"... somit denke ich, dass wir wirklich nur die Kriterien für den UVR prüfen müssen. Heißt, dass wir uns die Knotenbewertungen (gesamt v1, v2, v3, v4, nicht die einzelnen reellen Zahlen an den Knoten) als <REMOVED_PERSON_ENTITY> (wie in Aufgabe 2a schon beschrieben) denken/notieren und diese dann als <REMOVED_PERSON_ENTITY> definieren, da wir ja aus Aufgabe 2c schon wissen, dass diese linear unabhängig sind. Hieraus ergibt sich also ein <REMOVED_PERSON_ENTITY> mit der Dimension 4 (ein <REMOVED_PERSON_ENTITY> kann als Vektorraum gesehen werden). Da wir ganz IR zu Verfügung haben, können wir hier beliebige Skalare nutzen, um die skalare Multiplikation mit den Vektoren durchzuführen. Und die "neuen" Vektoren führen (da gesamt IR) nicht aus dem UVR W heraus. Genauso die Addition der Vektoren. Es sind dann halt immernoch Vektoren aus W. Da kann man machen, was man will. Die üblichen LK's, die die restlichen Vektoren aus W beschreiben, sind natürlich, wie <REMOVED_PERSON_ENTITY> auch schon geschrieben hat, enthalten.
+<REMOVED_PERSON_ENTITY>{a*v1, b*v2, c*v3, d*v4 | a, b, c, d € IR}Irgendwie so hätte ich das dann aufgeschrieben. Was meint ihr dazu?GrüßeLars
+TAGGED_CONTENT:

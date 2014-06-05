@@ -1,0 +1,9 @@
+ID: 107
+CREATION_DATETIME: 1347919200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Einführung zum Praktikum findet wie geplant morgen, am Mittwoch, dem 19. September, um 10:00 Uhr im Raum INF 3105 statt. Das ist im Beratungsraum in der dritten Etage.
+TAGGED_CONTENT:

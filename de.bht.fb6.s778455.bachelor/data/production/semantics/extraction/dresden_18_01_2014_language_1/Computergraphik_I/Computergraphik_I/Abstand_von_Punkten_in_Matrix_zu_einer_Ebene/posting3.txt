@@ -1,0 +1,10 @@
+ID: 605
+CREATION_DATETIME: 1351551600000
+MODIFICATION_DATETIME: 1351551600000
+TITLE: Okay, ich habe jetzt an meine Matrix **P**, die ja aus den Vektoren $(p_1 | p_2 | \dots p_n)$ besteht...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 602
+POSTING_TYPE: answer
+CONTENT:
+Okay, ich habe jetzt an meine Matrix **P**, die ja aus den Vektoren $(p_1 | p_2 | \dots p_n)$ besteht, einfach $d^T$ <NAME_CORPUS_REPLACEMENT> links dranmultipliziert und das scheint zu geben, was ich haben will...
+TAGGED_CONTENT:

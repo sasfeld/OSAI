@@ -1,0 +1,10 @@
+ID: 619
+CREATION_DATETIME: 1351551600000
+MODIFICATION_DATETIME: 1351551600000
+TITLE: Ich meinte eher, dass es nett wäre, die Folie im Laufe des Kurses zu haben, so dass man bei Übungen  ...
+PARENT_POSTING_ID: 615
+POSTING_TYPE: comment
+CONTENT:
+Ich meinte eher, dass es nett wäre, die Folie im Laufe des Kurses zu haben, so dass man bei Übungen  das ganze Bild hat und immer was nachschlagen kann. Aber auf jeden Fall, bin froh, dass die Tutoren immer helfen und erklären. Ihr müsst viel <REMOVED_PERSON_ENTITY> mit uns haben ;) 
+@Lars <REMOVED_PERSON_ENTITY>: Danke für das Buch!
+TAGGED_CONTENT:

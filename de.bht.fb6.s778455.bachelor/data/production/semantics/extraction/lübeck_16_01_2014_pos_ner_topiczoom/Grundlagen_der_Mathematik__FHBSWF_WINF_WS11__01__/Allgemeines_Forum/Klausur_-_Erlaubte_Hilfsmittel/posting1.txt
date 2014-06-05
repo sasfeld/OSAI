@@ -1,0 +1,16 @@
+ID: 117570
+CREATION_DATETIME: 1326789626
+MODIFICATION_DATETIME: 1326999702
+TITLE: Klausur - Erlaubte Hilfsmittel
+POS_TAG: value:Seiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektorfunktionen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Formelsammlung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Notizen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Taschenrechner;weight:0.0;uri:;postag:NN
+POS_TAG: value:Schreibzeug;weight:0.0;uri:;postag:NN
+POS_TAG: value:Blaetter;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+2 A4-Blaetter (4 Seiten) eigene Notizen, Schreibzeug, nichtprogrammierbarer Taschenrechner und ohne Vektorfunktionen, 1 Formelsammlung
+TAGGED_CONTENT:
+2_CARD A4-Blaetter_NN -LRB-_TRUNC 4_CARD Seiten_NN -RRB-_TRUNC eigene_ADJA Notizen_NN ,_$, Schreibzeug_NN ,_$, nichtprogrammierbarer_ADJA Taschenrechner_NN und_KON ohne_APPR Vektorfunktionen_NN ,_$, 1_CARD Formelsammlung_NN 

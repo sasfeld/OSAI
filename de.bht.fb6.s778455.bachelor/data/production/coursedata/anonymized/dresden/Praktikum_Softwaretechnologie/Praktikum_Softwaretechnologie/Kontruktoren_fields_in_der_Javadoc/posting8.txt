@@ -1,0 +1,12 @@
+ID: 2757
+CREATION_DATETIME: 1383951600000
+MODIFICATION_DATETIME: 1383951600000
+TITLE: Ja genau.
+Was heißt denn **alles** neu schreiben, _Composition over inheritance_ ist unser Motto, si...
+PARENT_POSTING_ID: 2749
+POSTING_TYPE: comment
+CONTENT:
+Ja genau.
+Was heißt denn **alles** neu schreiben, _Composition over inheritance_ ist unser Motto, siehe VideoCatalog, <NAME_CORPUS_REPLACEMENT> wird nichts neu geschrieben sondern nur delegiert. 
+Ich kann und willl ja nicht verbieten, dass ihr den Code dekompiliert und erweitert, ich finde es nur sinnlos. Was ist denn dein Anwendungsfall, denn du im jetzigen Frameworkzustand nicht umsetzen kannst?
+TAGGED_CONTENT:

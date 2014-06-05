@@ -1,0 +1,10 @@
+ID: 1313
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: ich wuerde das parameter.usable = true mal mindestens noch hinter die zuweisung von score setzen. son...
+PARENT_POSTING_ID: 1312
+POSTING_TYPE: comment
+CONTENT:
+ich wuerde das parameter. usable = true mal mindestens noch hinter die zuweisung <NAME_CORPUS_REPLACEMENT> score setzen. sonst kann es dir naemlich passieren, dass dein thread unterbrochen wird direkt nachdem useable auf true gesetzt wurde, aber eben bevor der wert wirklich gesetzt wurde.
+bei deiner while-schleife musst du uebrigens noch aufpassen, dass dir der compiler das nicht weg optimiert..
+TAGGED_CONTENT:

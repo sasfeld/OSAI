@@ -1,0 +1,22 @@
+ID: 1256
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Hi, 
+
+<NAME_CORPUS_REPLACEMENT> der Example player in halma in C++ ist, hier das 3-Zeiler Howto für Stringstreams: Ihr braucht `` und `` als includes und bekommt dann einen stream, in den ihr per `<<` operator elemente an einen String anhängen könnt. 
+
+    std::stringstream ss( std::stringstream::in | std::stringstream::out ); 
+
+erzeugt einen Stringstream in der lokalen Variable ss
+
+    ss << "abc"
+
+fügt die Zeichen `abc` an das Ende des Strings an. Natürlich geht `<<` auch mit anderen Typen wie zum Beispiel unsigned int. Den String, der in dem Stream zusammengebastelt wird, bekommt Ihr am Ende mit:
+
+    ss. str();
+TAGGED_CONTENT:

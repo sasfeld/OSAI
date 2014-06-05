@@ -1,0 +1,29 @@
+ID: 117575
+CREATION_DATETIME: 1317924336
+MODIFICATION_DATETIME: 1317924411
+TITLE: Re: Beispiel fuer Division mehrgliedriger Ausdruecke
+PARENT_POSTING_ID: 117574
+CONTENT:
+ja, das geht so:
+  372 / 31 = 1
+-31
+  --
+   6
+  372 / 31 = 1
+-31
+  --
+   62
+  372 / 31 = 12
+-31
+  --
+   62
+ -62
+  372 / 31 = 12
+-31
+  --
+   62
+ -62
+   --
+     0 d. h. Rest 0 - fertig.
+Konnte ich Ihre Frage beantworten?
+TAGGED_CONTENT:

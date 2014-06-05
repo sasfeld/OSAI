@@ -1,0 +1,9 @@
+ID: 327
+CREATION_DATETIME: 1350165600000
+MODIFICATION_DATETIME: 1350165600000
+TITLE: Das wurde nun so ange
+PARENT_POSTING_ID: 310
+POSTING_TYPE: comment
+CONTENT:
+Das wurde nun so angepasst, dass das aktuelle Passwort notwendig ist, sobald das Password geändert werden soll.
+TAGGED_CONTENT:

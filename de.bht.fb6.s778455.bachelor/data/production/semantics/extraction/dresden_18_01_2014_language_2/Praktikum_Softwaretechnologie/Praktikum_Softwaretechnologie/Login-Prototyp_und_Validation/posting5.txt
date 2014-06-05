@@ -1,0 +1,10 @@
+ID: 2891
+CREATION_DATETIME: 1384642800000
+MODIFICATION_DATETIME: 1384642800000
+TITLE: Ich habe grade mal geschaut und nein, sind sie leider nicht
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2886
+POSTING_TYPE: comment
+CONTENT:
+Ich habe grade mal geschaut und nein, sind sie leider nicht
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 2674
+CREATION_DATETIME: 1383174000000
+MODIFICATION_DATETIME: 1383174000000
+TITLE: Die overriding Meldung ist nur eine Warnung. Wenn hibernate-validator-5.0.1.Final.jar in den Maven De...
+PARENT_POSTING_ID: 2662
+POSTING_TYPE: comment
+CONTENT:
+Die overriding Meldung ist nur eine Warnung. Wenn hibernate-validator-5. 0. 1. Final. jar in den Maven Dependencies angezeigt wird sollte es eigentlich gehen.
+Ansonsten, entferne die Annotationen und an andere Stelle ggf. das @Valid, gibts halt keine Validierung bei der Registrierung, der Videoshop funktioniert aber auch ohne.
+TAGGED_CONTENT:

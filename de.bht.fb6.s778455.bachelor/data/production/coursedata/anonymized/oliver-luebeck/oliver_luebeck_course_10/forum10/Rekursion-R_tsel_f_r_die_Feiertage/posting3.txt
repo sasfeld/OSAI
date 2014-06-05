@@ -1,0 +1,17 @@
+ID: 68
+CREATION_DATETIME: 1199534220000
+MODIFICATION_DATETIME: 1199534220000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 66
+CONTENT:
+
+/**
+ * Die Methode gibt jedesmal z zur Konsole aus, wenn ein z in n gefunden wird.
+
+ *
+ * @param n, a positive integer number
+ * @param z, a positive digit from 1 to 9
+ */
+    
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 2415
+CREATION_DATETIME: 1374444000000
+MODIFICATION_DATETIME: 1374444000000
+TITLE: Wie gesagt, ich bin da. Mein Laptop hat Powerpoint drauf. Habe mir schon markiert, was alles zu änder...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Wie gesagt, ich bin <NAME_CORPUS_REPLACEMENT>. Mein Laptop hat Powerpoint drauf. Habe mir inzwischen markiert, was alles zu ändern ist. Ich bin ab jetzt auch durchgehend im Labor. kannst also gern herkommen und wir werfen uns gemeinsam ran
+TAGGED_CONTENT:

@@ -1,0 +1,19 @@
+ID: 1514
+CREATION_DATETIME: 1363042800000
+MODIFICATION_DATETIME: 1372802400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+My world view as for now is:  
+ * there is segmentation which manages the access rights and properties of a memory region called segment  
+ * there is an optional translation between virtual and physical addresses called paging  
+ * The MMU handles both, the segment and page translation  
+ * Today, mostly a flat memory model is used  
+ * one distiguishes linear, logical, virtual and physical addresses  
+*But now is the questions:*  
+How do paging and segmentation interlock?  
+Does both happen in parallel or is one done before another?  
+Are theese strictly seperated mechanisms or are they <NAME_CORPUS_REPLACEMENT> different views of the same thing?  
+And what is meant by *linear* and *logical* addresses exactly? It <NAME_CORPUS_REPLACEMENT> seems like they are different names for virtual addresses.
+TAGGED_CONTENT:

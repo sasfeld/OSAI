@@ -1,0 +1,36 @@
+ID: 16521
+CREATION_DATETIME: 1233175872
+MODIFICATION_DATETIME: 1233175872
+TITLE: E-Mail-Server Auszeit
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Jahr 2009;weight:2.0;significance:6.22544216377673;degreegeneralization:11;uri:21411375
+TOPIC_ZOOM_TAG: value:Rechenzentren;weight:1.0;significance:4.78652764965239;degreegeneralization:7;uri:20900338
+TOPIC_ZOOM_TAG: value:Datenverarbeitung;weight:1.0;significance:4.23722150531833;degreegeneralization:6;uri:21127016
+TOPIC_ZOOM_TAG: value:Foren;weight:1.0;significance:3.8293467539922;degreegeneralization:3;uri:20770662
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:2.77735785682754;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:2.59037776375624;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:1.0;significance:2.47532165344109;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:2.18452430611399;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:2.00351838218053;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.83083484620539;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+POS_TAG: value:Connect;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hochschule;weight:0.0;uri:;postag:NN
+POS_TAG: value:Information;weight:0.0;uri:;postag:NN
+POS_TAG: value:Uhr;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mailserver;weight:0.0;uri:;postag:NN
+POS_TAG: value:Achtung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rechenzentrums;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeitraum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Umstellungsarbeiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Forum;weight:0.0;uri:;postag:NN
+POS_TAG: value:en;weight:0.0;uri:;postag:NN
+POS_TAG: value:Telefon;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Sie alle,  beachten Sie bitte folgende Information unseres Rechenzentrums:  &quot;Achtung: Der Mailserver der Hochschule ist wegen Umstellungsarbeiten  vom 30. 1. 2009 ab 14. 00 <REMOVED_PERSON_ENTITY> bis 02. 02. 2009 um ca. 7. 00 Uhr nicht erreichbar.&quot;   Das heißt, dass Sie mich im fraglichen Zeitraum höchstens über Forum,  Acrobat-Connect oder Telefon erreichen können.  Mit freundlichen Grüßen, <PERSONAL_GREETING_REMOVEMENT>. <REMOVED_PERSON_ENTITY>. 
+TAGGED_CONTENT:
+Hallo_ITJ Sie_PPER alle_PIS ,_$, beachten_VVFIN Sie_PPER bitte_VVFIN folgende_ADJA Information_NN unseres_PPOSAT Rechenzentrums_NN :_$. "_$( Achtung_NN :_$. Der_ART Mailserver_NN der_ART Hochschule_NN ist_VAFIN wegen_APPR Umstellungsarbeiten_NN vom_APPRART 30_CARD ._$. 1_CARD ._$. 2009_CARD ab_APPR 14_CARD ._$. 00_CARD <_XY REMOVED_PERSON_ENTITY_NN >_CARD bis_APPR 02_CARD ._$. 02_CARD ._$. 2009_CARD um_APPR ca._ADV 7_CARD ._$. 00_CARD Uhr_NN nicht_PTKNEG erreichbar_ADJD ._$. "_$( Das_PDS heißt_VVFIN ,_$, dass_KOUS Sie_PPER mich_PRF im_APPRART fraglichen_ADJA Zeitraum_NN höchstens_ADV über_APPR Forum_NN ,_$, Acrobat-Connect_NN oder_KON Telefon_NN erreichen_VVINF können_VMFIN ._$. Mit_APPR freundlichen_ADJA Grüßen_NN ,_$, <_CARD PERSONAL_GREETING_REMOVEMENT_NE >_NE ._$. <_XY REMOVED_PERSON_ENTITY_NE >_NE ._$. 

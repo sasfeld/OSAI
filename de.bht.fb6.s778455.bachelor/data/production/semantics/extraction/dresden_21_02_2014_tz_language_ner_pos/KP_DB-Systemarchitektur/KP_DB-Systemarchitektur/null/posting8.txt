@@ -1,0 +1,22 @@
+ID: 2297
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Gute Nachricht: Die Ergebnisse sind ebenfalls gut
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Nachrichten;weight:1.0;significance:4.45402063329418;degreegeneralization:5;uri:21872483
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:Ergebnisse;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorhersage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Diagramm;weight:0.0;uri:;postag:NN
+POS_TAG: value:Genauigkeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:pres;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nachricht;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2291
+POSTING_TYPE: comment
+CONTENT:
+Gute Nachricht: Die Ergebnisse sind ebenfalls gut
+
+Ich hab' ein Diagramm über die Genauigkeit der Durchschnitts-Vorhersage in die Documents/pres_diagramme. odp mit aufgenommen.
+TAGGED_CONTENT:
+Gute_ADJA Nachricht_NN :_$. Die_ART Ergebnisse_NN sind_VAFIN ebenfalls_ADV gut_ADJD Ich_PPER hab_VAFIN '_$( ein_ART Diagramm_NN über_APPR die_ART Genauigkeit_NN der_ART Durchschnitts-Vorhersage_NN in_APPR die_ART Documents\/pres_NN __CARD diagramme_PDS ._$. odp_XY mit_APPR aufgenommen_VVPP ._$. 

@@ -1,0 +1,30 @@
+ID: 2206
+CREATION_DATETIME: 1373493600000
+MODIFICATION_DATETIME: 1373493600000
+TITLE: Im Programm bringt ein "clang -print-search-dirs" folgendes:
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2203
+POSTING_TYPE: answer
+CONTENT:
+Im Programm bringt ein "clang -print-search-dirs" folgendes:
+
+```ruby
+
+programs: =/home/maxcell/installations/clang+llvm-3. 3-x86_64-fedora18/bin:/usr/lib/gcc/x86_64-redhat-linux/4. 8. 1/../../../../x86_64-redhat-linux/bin
+
+libraries: =/home/maxcell/installations/clang+llvm-3. 3-x86_64-fedora18/bin/../lib/clang/3. 3:/usr/lib/gcc/x86_64-redhat-linux/4. 8. 1:/usr/lib/gcc/x86_64-redhat-linux/4. 8. 1/../../../../lib64:/lib/../lib64:/usr/lib/../lib64:/usr/lib/gcc/x86_64-redhat-linux/4. 8. 1/../../..:/lib:/usr/lib
+
+```
+
+Ein "clang --version" bringt:
+
+```ruby
+
+clang version 3. 3 (tags/RELEASE_33/final)
+
+Target: x86_64-unknown-linux-gnu
+
+Thread model: posix
+
+```
+TAGGED_CONTENT:

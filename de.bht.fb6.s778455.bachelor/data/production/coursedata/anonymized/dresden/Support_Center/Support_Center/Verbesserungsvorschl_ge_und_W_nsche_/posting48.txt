@@ -1,0 +1,9 @@
+ID: 1089
+CREATION_DATETIME: 1359500400000
+MODIFICATION_DATETIME: 1359500400000
+TITLE: Biomedizinische Technik im Anwendungsfach wäre ebenfalls cool :)
+PARENT_POSTING_ID: 1087
+POSTING_TYPE: comment
+CONTENT:
+Biomedizinische Technik im Anwendungsfach wäre ebenfalls cool :)
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 1476
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Ja, wie unten geschrieben (ich weiß dass Ruby die Sprache ist, aber das Highlighting war auf den zwei...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1467
+POSTING_TYPE: comment
+CONTENT:
+Ja, wie unten geschrieben (ich weiß dass Ruby die Sprache ist, aber das Highlighting war auf den zwei Zeilen nicht so wichtig), hatte ich eigentlich auch Newlines, nur wurden die rausgestripped. Ich kann meinen Post auch nicht bearbeiten. Hast du die permissions?
+
+@hannes: danke!
+TAGGED_CONTENT:

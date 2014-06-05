@@ -1,0 +1,16 @@
+ID: 2667
+CREATION_DATETIME: 1383174000000
+MODIFICATION_DATETIME: 1383174000000
+TITLE: zu finden sind:
+hibernate-validator-4.3.1.Final.jar
+validation-api-1.1.0.Final.jar
+PARENT_POSTING_ID: 2662
+POSTING_TYPE: comment
+CONTENT:
+zu finden sind:
+```ruby
+hibernate-validator-4. 3. 1. Final. jar
+validation-api-1. 1. 0. Final. jar
+```
+edit: formatierung
+TAGGED_CONTENT:

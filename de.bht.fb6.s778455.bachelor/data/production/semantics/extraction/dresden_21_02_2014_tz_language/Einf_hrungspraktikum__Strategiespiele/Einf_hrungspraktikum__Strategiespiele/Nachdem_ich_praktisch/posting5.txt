@@ -1,0 +1,10 @@
+ID: 171
+CREATION_DATETIME: 1348524000000
+MODIFICATION_DATETIME: 1348524000000
+TITLE: Im Constructor musst/
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 170
+POSTING_TYPE: comment
+CONTENT:
+Im Constructor musst/solltest du alle member initialisieren, andernfalls fuegt der Compiler default-Constructor-Aufrufe ein, sprich `Zug()`
+TAGGED_CONTENT:

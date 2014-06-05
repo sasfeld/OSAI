@@ -1,0 +1,9 @@
+ID: 2023611
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Informatik II für Verkehrsingenieure
+LANGUAGE: UNKNOWN
+SUMMARY: null
+URL: http://www.inf.tu-dresden.de/index.php?node_id=2568&ln=de&lv_id=61

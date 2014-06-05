@@ -1,0 +1,7 @@
+ID: 62409
+CREATION_DATETIME: 1349692833
+MODIFICATION_DATETIME: 1349692833
+TITLE: Obermenge/ Untermenge
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=62409
+FIRST_POSTING_ID: 168133

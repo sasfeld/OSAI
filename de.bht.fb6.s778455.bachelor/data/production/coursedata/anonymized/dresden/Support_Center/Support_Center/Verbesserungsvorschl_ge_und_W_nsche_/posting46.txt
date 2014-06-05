@@ -1,0 +1,9 @@
+ID: 1026
+CREATION_DATETIME: 1357772400000
+MODIFICATION_DATETIME: 1359932400000
+TITLE: Ist jetzt zu sehen. Sobald etwas neues innerhalb eines Posts geschrieben wurde oder der Post aktualis...
+PARENT_POSTING_ID: 673
+POSTING_TYPE: comment
+CONTENT:
+Ist jetzt zu sehen. Sobald etwas neues innerhalb eines Posts geschrieben wurde oder der Post aktualisiert wurde, so steht <NAME_CORPUS_REPLACEMENT> nun "update ...." rechts unten im Teaser des Posts auf der Startseite und in der Post-Übersicht auf der Kursseite.
+TAGGED_CONTENT:

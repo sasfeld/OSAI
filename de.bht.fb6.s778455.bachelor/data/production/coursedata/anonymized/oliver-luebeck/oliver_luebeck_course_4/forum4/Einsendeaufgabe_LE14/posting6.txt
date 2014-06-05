@@ -1,0 +1,17 @@
+ID: 67
+CREATION_DATETIME: 1181591760000
+MODIFICATION_DATETIME: 1181591760000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 61
+CONTENT:
+
+Ich habe im Moment auch noch das Problem, dass die Methode toString() aus der Superklasse Punkt.java keine Ausgabe bringt. Compilieren und Ausführen funktioniert, nur ohne Ausgabe.
+
+Ich habe meinen Fehler noch nicht erkannt und habe vorerst eine eigene Methode in der Subklasse Quadrat geschrieben, die mir x und y ausgeben und die ich dann in der Testklasse auf mein neu erzeugtes Objekt anwende.
+
+Ich hätte auch gern einen Tipp, wie ich die Methode toString() aus Punkt.java in die Testklasse einbinde
+
+Gruß 
+    
+TAGGED_CONTENT:

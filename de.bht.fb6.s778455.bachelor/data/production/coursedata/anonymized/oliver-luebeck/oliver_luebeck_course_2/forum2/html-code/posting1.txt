@@ -1,0 +1,17 @@
+ID: 10
+CREATION_DATETIME: 1177685460000
+MODIFICATION_DATETIME: 1177685460000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Ich bin in HTML noch nicht versiert, vielleicht hat jemand schon mehr Erfahrung und kann mir helfen.
+Ich versuche das Applet in der HTML-Datei anders zu platzieren, aber egal was ich hinter align angebe, das Fenster bewegt sich keinen Millimeter.
+Folgende Zeile gebe ich an:
+<applet ." code="Einsendeaufgabe05.class" width=200 height=100
+align=right alt=".......">
+</applet>
+Was mache ich falsch?
+    
+TAGGED_CONTENT:

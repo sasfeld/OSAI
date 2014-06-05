@@ -1,0 +1,22 @@
+ID: 1942
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: Ist denn die src/testCLT/lib/libCLeverTrustee.so bei dir vorhanden?
+LANGUAGE: GERMAN
+NER_TAG: value:CLeverTrustee;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:Headers;weight:0.0;uri:;postag:NN
+POS_TAG: value:CLeverTrustee;weight:0.0;uri:;postag:NN
+POS_TAG: value:Libs;weight:0.0;uri:;postag:NN
+POS_TAG: value:lib;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:Schau;weight:0.0;uri:;postag:NN
+POS_TAG: value:libCLeverTrustee;weight:0.0;uri:;postag:NN
+POS_TAG: value:Make;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Ist denn die src/testCLT/lib/libCLeverTrustee. so bei dir vorhanden?
+
+Normalerweise muss Make in testCLT die CLeverTrustee bauen und anschließend die Libs und Headers rüberkopieren. Schau mal genau auf die Fehler, die Make ausspuckt.
+TAGGED_CONTENT:
+Ist_VAFIN denn_ADV die_ART src\/testCLT\/lib_NN \/_CARD libCLeverTrustee_NN ._$. so_ADV bei_APPR dir_PPER vorhanden_ADJD ?_$. Normalerweise_ADV muss_VMFIN Make_NN in_APPR testCLT_NE die_ART CLeverTrustee_NN bauen_VVINF und_KON anschließend_ADJD die_ART Libs_NN und_KON Headers_NN rüberkopieren_VVINF ._$. Schau_NN mal_ADV genau_ADJD auf_APPR die_ART Fehler_NN ,_$, die_ART Make_NN ausspuckt_VVFIN ._$. 

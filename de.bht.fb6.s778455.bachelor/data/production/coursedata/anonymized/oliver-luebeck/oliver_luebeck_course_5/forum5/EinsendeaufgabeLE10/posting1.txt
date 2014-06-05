@@ -1,0 +1,117 @@
+ID: 88
+CREATION_DATETIME: 1198063500000
+MODIFICATION_DATETIME: 1198063500000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hänge noch an der Einsendeaufgabe LE10.
+Die Slider werden angezeigt. Die Balken jedoch nicht. Kann mir eventuell jemand helfen. Versuche die Problemlösung mit dem GridBagLayout:
+
+package einsendeaufgabeLE10;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JSlider;
+import java.awt.Container;
+import java.awt.GridBagLayout;
+import java.awt.GridBagConstraints;
+import java.awt.event.WindowListener;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowAdapter;
+import javax.swing.event.ChangeListener;
+import javax.swing.event.ChangeEvent;
+
+@SuppressWarnings("serial")
+public class HinzKunzSwing extends JFrame {
+
+private JSlider s1;
+private JSlider s2;
+private JLabel l1;
+private JLabel l2;
+private Container contentPane;
+private GridBagLayout gridbag = new GridBagLayout();
+private HKLabel balken1;
+private HKLabel balken2;
+public static int value;
+
+
+
+public HinzKunzSwing(){
+
+super("Hinz und Kunz Swing");
+s1 = new JSlider(JSlider.HORIZONTAL, 0, 101, 0);
+s2 = new JSlider(JSlider.HORIZONTAL, 0, 101, 0);
+l1 = new JLabel("Hinz: ");
+l2 = new JLabel("Kunz: ");
+contentPane = getContentPane();
+contentPane.setLayout(gridbag);
+GridBagConstraints c = new GridBagConstraints();
+c.gridwidth = 1;
+c.gridheight = 1;
+c.gridwidth = GridBagConstraints.REMAINDER;
+gridbag.setConstraints(s2, c);
+c.gridwidth = 1;
+contentPane.add(l1);
+contentPane.add(s1);
+contentPane.add(l2);
+contentPane.add(s2);
+
+s1.addChangeListener(new ChangeListener(){
+public void stateChanged(ChangeEvent e){
+JSlider source = (JSlider)e.getSource();
+if(source.getValueIsAdjusting()){
+value = (int)source.getValue();
+balken1 = new HKLabel();
+contentPane.add(balken1);
+}
+}
+});
+s2.addChangeListener(new ChangeListener(){
+public void stateChanged(ChangeEvent e){
+JSlider source = (JSlider)e.getSource();
+if(source.getValueIsAdjusting()){
+value = (int)source.getValue();
+balken2 = new HKLabel();
+contentPane.add(balken2);
+}
+}
+});
+
+WindowListener listener = new WindowAdapter(){
+public void WindowClosing(WindowEvent e){
+System.exit(0);
+}
+};
+this.addWindowListener(listener);
+this.setVisible(true);
+this.setSize(600, 300);
+}
+
+public static void main(String[] args){
+new HinzKunzSwing();
+}
+}
+
+und hier die KHLabel Klasse:
+
+package einsendeaufgabeLE10;
+
+import javax.swing.JLabel;
+import java.awt.Graphics;
+
+
+@SuppressWarnings("serial")
+public class HKLabel extends JLabel{
+
+public void paintComponent(Graphics g) {
+super.paintComponent(g);
+g.fillRect(0, 0, HinzKunzSwing.value, 20);
+
+}
+
+}
+
+       
+TAGGED_CONTENT:

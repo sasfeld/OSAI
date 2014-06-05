@@ -1,0 +1,14 @@
+ID: 885
+CREATION_DATETIME: 1354057200000
+MODIFICATION_DATETIME: 1354057200000
+TITLE: 1. L4 defines user-level data types such as l4_umword_t. umword stands for ''unsigned machine word'',...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 884
+POSTING_TYPE: answer
+CONTENT:
+1. L4 defines user-level data types such as `l4_umword_t`. umword stands for ''unsigned machine word'', hence `sizeof(l4_umword_t)` should to the trick.
+
+2. No. But you <NAME_CORPUS_REPLACEMENT> assume that dataspaces are always attached to a page-aligned boundary by the region manager.
+
+3. I'm afraid I don't get the question.
+TAGGED_CONTENT:

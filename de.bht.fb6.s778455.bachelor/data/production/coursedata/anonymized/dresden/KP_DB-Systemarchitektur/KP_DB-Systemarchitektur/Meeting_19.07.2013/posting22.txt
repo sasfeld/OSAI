@@ -1,0 +1,10 @@
+ID: 2379
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: Für die 32bit-reads sind Dateien, die mit 32bit anfangen am schönsten. (Boxplot, auch wenn ich boxplo...
+PARENT_POSTING_ID: 2350
+POSTING_TYPE: comment
+CONTENT:
+Für die 32bit-reads sind Dateien, die mit 32bit anfangen am schönsten. (Boxplot, auch wenn ich boxplots nicht verstehe)
+Was ich noch vermisse, ist das Diagramm Instrcount vs SKET. Für die Präzision der Vorhersage brauchen wir ja wirklich nur diese 4x3-Wand. Das werden ein paar Folien weniger.
+TAGGED_CONTENT:

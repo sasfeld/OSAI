@@ -1,0 +1,10 @@
+ID: 1598
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Das ist kein Problem im Zusammenhang mit const. Das Problem ist, dass du die Adresse auf buffer überg...
+PARENT_POSTING_ID: 1590
+POSTING_TYPE: answer
+CONTENT:
+Das ist kein Problem im Zusammenhang mit const. Das Problem ist, dass du die Adresse auf buffer übergibst, Buffer selbst ist aber bereits ein <REMOVED_PERSON_ENTITY> (Ein Array ist nur ein Zeiger `array[4]` ist das selbe wie `*(array+4)` ). 
+Alternativ kannst du auch einfach die Funktion output so abwandeln, dass sie ein `const char*` akzeptiert, sofern die Funktion den  String wirklich nur ausgibt und nicht abändert
+TAGGED_CONTENT:

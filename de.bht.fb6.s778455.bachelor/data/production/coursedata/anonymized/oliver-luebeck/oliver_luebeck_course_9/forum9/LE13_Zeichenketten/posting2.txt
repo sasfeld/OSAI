@@ -1,0 +1,13 @@
+ID: 73
+CREATION_DATETIME: 1183096080000
+MODIFICATION_DATETIME: 1183096080000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 72
+CONTENT:
+  
+Diese Lösung ist ein gutes Beispiel einer Stärke der OO-Programmierung: wiederverwenden. Die Methode zeichenZaehlen erledigt eine bestimmte Aufgabe, ist leicht zu testen, und wird wieder verwendet in anderen Methoden, die dadurch kürzer und leichter zu programmieren sind.
+
+Wiederverwendbarkeit ist auch ein Prinzip hinter MVC, Model View Controller, die wir mit graphischen Oberflächen in Programmieren II sehen werden. 
+    
+TAGGED_CONTENT:

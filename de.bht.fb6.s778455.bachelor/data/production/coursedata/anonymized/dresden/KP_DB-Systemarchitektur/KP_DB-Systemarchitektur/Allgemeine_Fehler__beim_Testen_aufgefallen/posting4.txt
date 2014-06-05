@@ -1,0 +1,9 @@
+ID: 2200
+CREATION_DATETIME: 1373407200000
+MODIFICATION_DATETIME: 1373407200000
+TITLE: in der TestCLT habe ich alle Kernel kommentiert, wenn Fehler auftauchen. Also am besten den dementspr...
+PARENT_POSTING_ID: 2191
+POSTING_TYPE: comment
+CONTENT:
+in der TestCLT habe ich alle Kernel kommentiert, wenn Fehler auftauchen. Also am besten den dementsprechenden Kernel einkommentieren und laufen lassen.
+TAGGED_CONTENT:

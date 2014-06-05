@@ -1,0 +1,9 @@
+ID: 110804187
+CREATION_DATETIME: 1384642800000
+MODIFICATION_DATETIME: 1384642800000
+LANG: null
+SHORT_NAME: null
+TITLE: Machine Learning
+LANGUAGE: UNKNOWN
+SUMMARY: null
+URL: http://www.inf.tu-dresden.de/index.php?node_id=2092&ln=en

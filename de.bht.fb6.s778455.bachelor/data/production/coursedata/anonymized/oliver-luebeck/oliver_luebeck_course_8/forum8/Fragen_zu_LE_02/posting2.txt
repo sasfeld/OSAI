@@ -1,0 +1,18 @@
+ID: 67
+CREATION_DATETIME: 1201014720000
+MODIFICATION_DATETIME: 1201014720000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 66
+CONTENT:
+
+Liebe , liebe Studierende,
+
+1) Ich nehme an, sie meinen "private static final long serialVersionUID = 123456789L;"
+Diese Nummer ist kein Muss aber sinnvoll. Wenn eine Klasse sich ändert, vor allem sie hat weniger Attribute, ist es sinnvoll zu wissen, mit welcher Version der Klasse, Objekte gespeichert wurden. Sie können die Nummer selbst festlegen, oder eclipse machen lassen.
+2) Sicherheit ist hier allgemein gemeint.Wenn man verhindern möchte, dass Objekte einer bestimmten Klasse serialisiert oder als Objekte gespeichert werden, dann soll diese bestimmte Klasse die Schnittstelle java.io.Serializable NICHT implementieren.
+3) Ja, es gibt mehrere Wege mit Hilfe der java.io Bibliothek Texte in eine Datei zu speichern.
+4) die Namen der Dateien sollen als Parameter beim Programmaufruf übergeben werden, etwa so: java DateiKopieren file1 file2. file1 und file2 werden im Array args, Parameter der main Methode, gespeichert. Dieses Array hat denn die Länge 2, wenn die Parameter für die Namen der Dateien übergeben worden sind.
+Mit freundlichen Grüßen
+  
+TAGGED_CONTENT:

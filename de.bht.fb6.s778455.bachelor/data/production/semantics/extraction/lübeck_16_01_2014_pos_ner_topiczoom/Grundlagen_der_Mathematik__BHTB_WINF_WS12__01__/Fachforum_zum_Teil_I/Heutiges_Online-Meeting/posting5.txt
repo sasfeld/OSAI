@@ -1,0 +1,13 @@
+ID: 166561
+CREATION_DATETIME: 1349281876
+MODIFICATION_DATETIME: 1349281876
+TITLE: Re: Heutiges Online-Meeting
+POS_TAG: value:Info;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 166545
+CONTENT:
+Hallo,
+erstmal vielen Dank für die Info. Sagst du uns noch kurz, woher du das weißt?
+Gruß, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, erstmal_ADV vielen_PIDAT Dank_NN für_APPR die_ART Info_NN ._$. Sagst_VAFIN du_PPER uns_PRF noch_ADV kurz_ADJD ,_$, woher_PWAV du_PPER das_ART weißt_VVFIN ?_$. Gruß_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

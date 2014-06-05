@@ -1,0 +1,43 @@
+ID: 3069
+CREATION_DATETIME: 1385679600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich habe einen ganzen Haufen Entity-Klassen mit mit @EmbeddedId annotierten Id-Klassen. Nun kann ich leider in den Embedded <REMOVED_PERSON_ENTITY> keinen automatischen Generator mit @GeneratedValue erstellen, <NAME_CORPUS_REPLACEMENT> das in JPA anscheinend nicht vorgesehen ist.
+Habe desegen einen Sequenzgenerator:
+```java
+@MappedSuperclass
+abstract public class SimpleIntId implements Id {
+	@GeneratedValue(generator="my_seq")
+	@SequenceGenerator(name="my_seq", allocationSize=100)
+	private int id=0;
+	@Deprecated public SimpleIntId() {
+	}
+}
+```
+und eine Tablegenerator:
+```java
+@MappedSuperclass
+abstract public class SimpleIntId implements Id {
+	@TableGenerator(name = "canonicalKeys", allocationSize = 1, initialValue = 1)
+	@GeneratedValue(strategy = GenerationType. TABLE, generator = "canonicalKeys")
+	@Column(name = "CANONICAL_ID", unique = false, nullable = false, insertable = true, updatable = true)
+	private int id=0;
+	@Deprecated public SimpleIntId() {
+	}
+}
+```
+ausprobiert. Die Unterklassen sind entsprechend mit @Embeddable annotiert. Spring bootet problemlos, leider bleibt die id immer 0. Mit einer selbst erstellten id (z. B. statische Variable, die einfach hochgezählt wird), funktioniert alles problemlos:
+```java
+@MappedSuperclass
+abstract public class SimpleIntId implements Id {
+	private static int count = 0;
+	private int id = 0;
+	@Deprecated public SimpleIntId() {
+		id = ++count;
+	}
+}
+```
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 120
+CREATION_DATETIME: 1348092000000
+MODIFICATION_DATETIME: 1348092000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+http://pastebin.com/6zqaY0UU
+Wie kann man eigentlich den Inhalt eines char-Feldes mit printf ausgeben? Mit %s habe ich es nicht hinbekommen.
+TAGGED_CONTENT:

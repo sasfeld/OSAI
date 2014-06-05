@@ -1,0 +1,12 @@
+ID: 1318
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Hab alles geändert und es funktioniert. 
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1300
+POSTING_TYPE: answer
+CONTENT:
+Hab alles geändert und es funktioniert. 
+
+Die single threaded Variante ist schon fertig, ich habe aber noch nicht die neuste Version eingeschickt.
+TAGGED_CONTENT:

@@ -1,0 +1,40 @@
+ID: 1957
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Da der Post dadurch gar nicht mehr lesbar war, habe ich den Code rausgenommen, werde es aber gleich i...
+PARENT_POSTING_ID: 1367
+POSTING_TYPE: comment
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> der Post dadurch gar nicht mehr lesbar war, habe ich den Code rausgenommen, werde es aber gleich in diesen Post reineditieren (Da fällt mir auf, dass man bei der Comment-Funktion keine Option hat, einen Codeblock, bzw die anderen Optionen mittels Button einzufügen)
+```ruby
+opencl@wimpy:~/Documents/TestStefanie/test4/testCLT$ make -B
+g++ -c src/testCLT. cpp -o obj/testCLT. o -Iinc/ -g
+make -C ../CLeverTrustee
+make[1]: Entering directory `/home/opencl/Documents/TestStefanie/test4/CLeverTrustee'
+g++ -fPIC -g `llvm-config --cxxflags` -std=c++0x -Iinc/ -c -o obj/CLeverTrustee. o src/CLeverTrustee. cpp
+g++ -lOpenCL `llvm-config --libs` `llvm-config --ldflags`  obj/CLeverTrustee. o   -o obj/CLeverTrustee
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 0 has invalid symbol index 10
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 1 has invalid symbol index 11
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 2 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 3 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 4 has invalid symbol index 10
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 5 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 6 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 7 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 8 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 9 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 10 has invalid symbol index 11
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 11 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 12 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 13 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 14 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 15 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 16 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 17 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 18 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 19 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 20 has invalid symbol index 19
+```
+Edit: sehr schön, hier funktioniert es. Das nennt sich wohl Vorführeffekt. 
+Dann hat sich das vorerst erledigt. Falls so etwas wieder auftritt, werde ich einen Link schicken.
+TAGGED_CONTENT:

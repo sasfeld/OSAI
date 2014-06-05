@@ -1,0 +1,12 @@
+ID: 3101
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: Dann versteh ich an der Stelle `@ManyToMany` nicht. 
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3069
+POSTING_TYPE: comment
+CONTENT:
+Dann versteh ich an der Stelle `@ManyToMany` nicht. 
+
+Buchung kennt beide? Dann gibt es doch nur 2 `@OneToOne`, eine zum User, die andere zur Tour.
+TAGGED_CONTENT:

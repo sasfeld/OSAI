@@ -1,0 +1,15 @@
+ID: 87
+CREATION_DATETIME: 1196250660000
+MODIFICATION_DATETIME: 1196250660000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 86
+CONTENT:
+ 
+Hi!
+Vielen Dank für die Antwort. Habe gestern auch noch mit setBounds() rumprobiert, aber das hatte bei mir irgendwie nicht geklappt. Hab den Fehler jetzt aber und nun klappt es.
+
+Grz.
+
+       
+TAGGED_CONTENT:

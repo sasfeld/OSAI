@@ -1,0 +1,12 @@
+ID: 1849
+CREATION_DATETIME: 1369173600000
+MODIFICATION_DATETIME: 1369173600000
+TITLE: Ich hab mich bei meinem Kommentar gestern in der Funktion geirrt. Die createKernel-Methode hat ja gar...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Ich hab mich bei meinem Kommentar gestern in der Funktion geirrt. Die createKernel-Methode hat ja gar nichts mit Ein- und Ausgabeparametern zu tun, sorry.
+
+Die Parameter der createKernel-Methode sollte man in der Tat nochmal überdenken. Diese Fassung ist noch auf die Lösung abgestimmt, dass man ProgramIDs zurückbekommt (dementsprechend ist auch die Doku der Fkt. veraltet). Ich denke, ich werde es so ändern, dass man anstatt eines Vectors <NAME_CORPUS_REPLACEMENT> strings für die Kernel nur noch einen string angeben muss.
+TAGGED_CONTENT:

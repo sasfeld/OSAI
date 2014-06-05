@@ -1,0 +1,14 @@
+ID: 1388
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Okay. I did all the stuff suggested and my findings are:  
+
+- I did not run out of capability slots...
+PARENT_POSTING_ID: 1143
+POSTING_TYPE: answer
+CONTENT:
+Okay. I did all the stuff suggested and my findings are:  
+- I did not run out of capability slots.  
+- at some point in time I get an invalid capability for reasons yet to understand  
+This discloses this question and raises the new one "Why on earth do I get an invalid capability?" But this I would suggest to be discussed in a new thread.
+TAGGED_CONTENT:

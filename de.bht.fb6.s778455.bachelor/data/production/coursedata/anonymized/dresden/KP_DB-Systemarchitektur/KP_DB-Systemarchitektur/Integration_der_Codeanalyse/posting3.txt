@@ -1,0 +1,10 @@
+ID: 1901
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: Naja, aktuell ist es eben so, dass wenn der Nutzer einen Kernel erstellt auch ein neues Program erste...
+PARENT_POSTING_ID: 1885
+POSTING_TYPE: comment
+CONTENT:
+Naja, aktuell ist es eben so, dass wenn der Nutzer einen Kernel erstellt auch ein neues Program erstellt wird. D. h. bei einem analyze Aufruf kommt es zur Zeit nie dazu, dass sich mehrere Kernel in einer Src verstecken. Deshalb hab ich die Map weggelassen. 
+Und das Mapping der Results auf den betreffenden Kernel wird dann in der Feedbackklasse übernommen, <NAME_CORPUS_REPLACEMENT> diese ja letzendlich die Ergebnisse der Analyse verwerten soll.
+TAGGED_CONTENT:

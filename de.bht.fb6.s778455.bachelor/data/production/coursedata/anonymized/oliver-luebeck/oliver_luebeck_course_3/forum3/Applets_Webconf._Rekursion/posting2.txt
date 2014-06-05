@@ -1,0 +1,20 @@
+ID: 20
+CREATION_DATETIME: 1201024260000
+MODIFICATION_DATETIME: 1201024260000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 19
+CONTENT:
+
+    
+    Hallo ,
+
+ich habe das so verstanden, dass man nur mit der paint(Graphics g) Methode auf die Methoden von Graphics zugreifen kannst. Also in diesem Fall drawOval. In init() deklariert man wohl nur alles was man bei einer Applikation in einen Konstruktor oder in die main - Methode schreiben würde. Du kannst ja mal ausprobieren in der paint-Methode ein Label zu deklarieren. Nach meiner Meinung kann man in init() die awt und swing Klassen verwenden, und wenn man nur zeichnet kann somit init() weggelassen werden.
+
+Hier nochmal der Link http://connect.oncampus.de/p88328178/ zur Rekursion.
+
+
+Gruss 
+
+    
+TAGGED_CONTENT:

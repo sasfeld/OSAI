@@ -1,0 +1,12 @@
+ID: 167891
+CREATION_DATETIME: 1349629453
+MODIFICATION_DATETIME: 1349629711
+TITLE: Re: Frage zu Präsenz 1 
+PARENT_POSTING_ID: 167859
+CONTENT:
+Hi <REMOVED_PERSON_ENTITY>,
+ich glaube, dass wir daraus...
+Es gibt keine natürliche <REMOVED_PERSON_ENTITY>, die kleiner, gleich (&lt;=) 7 ist.
+... gemacht haben. Ich meine behalten zu haben, dass wir stumpf die Aussagen "umdrehen" sollen.
+GrüßeLars
+TAGGED_CONTENT:

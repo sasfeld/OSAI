@@ -1,0 +1,12 @@
+ID: 76
+CREATION_DATETIME: 1201430400000
+MODIFICATION_DATETIME: 1201430400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 75
+CONTENT:
+
+Zu Aufgabe 1, zweite Präsenz:
+Helfen Dir die Hinweise, dass die Einerstelle modulo 10 ist und Du die übergebene Integer-Zahl quasi "kürzen" kannst, wenn Du sie durch 10 teilst?
+    
+TAGGED_CONTENT:

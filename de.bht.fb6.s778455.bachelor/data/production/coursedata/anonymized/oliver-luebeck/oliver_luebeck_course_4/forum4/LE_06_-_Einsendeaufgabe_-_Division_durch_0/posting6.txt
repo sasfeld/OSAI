@@ -1,0 +1,16 @@
+ID: 36
+CREATION_DATETIME: 1177350600000
+MODIFICATION_DATETIME: 1177350600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 35
+CONTENT:
+
+    Danke für die Antworten!
+Habe das ganze auch so gelöst! Sehr gut nun bin ich beruhigt^^
+Aber mir ist immernoch nicht ganz klar, was für Ergebnisse bei bestimmten Rechnungen von uns erwartet wird.
+Reicht dort die Standardausgabe NaN aus? Und Infinity multiplizieren?
+
+Grüße
+    
+TAGGED_CONTENT:

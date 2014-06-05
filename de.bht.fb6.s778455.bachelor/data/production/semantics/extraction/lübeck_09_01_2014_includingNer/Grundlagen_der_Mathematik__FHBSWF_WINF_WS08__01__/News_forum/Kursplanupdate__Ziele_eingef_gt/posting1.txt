@@ -1,0 +1,8 @@
+ID: 16503
+CREATION_DATETIME: 1222183561
+MODIFICATION_DATETIME: 1222183561
+TITLE: Kursplanupdate: Ziele eingefügt
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Sie alle, im Kursplan wurde der Abschnitt Ziele eingefügt. MfG, al.
+TAGGED_CONTENT:

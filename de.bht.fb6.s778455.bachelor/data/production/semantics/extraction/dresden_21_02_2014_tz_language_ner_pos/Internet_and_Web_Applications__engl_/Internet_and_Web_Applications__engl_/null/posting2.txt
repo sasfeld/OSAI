@@ -1,0 +1,29 @@
+ID: 1729
+CREATION_DATETIME: 1365976800000
+MODIFICATION_DATETIME: 1365976800000
+TITLE: Nein, dies stellt kein Problem dar. Wir sind grundsätzlich für maximale Flexibilität, und die Idee be...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Lehrstühle;weight:1.0;significance:10.0694921856187;degreegeneralization:6;uri:20911082
+TOPIC_ZOOM_TAG: value:Fakultäten;weight:1.0;significance:9.61750706187561;degreegeneralization:5;uri:20916947
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:hle;weight:0.0;uri:;postag:NN
+POS_TAG: value:gen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Themenbereiche;weight:0.0;uri:;postag:NN
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+POS_TAG: value:Professuren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Idee;weight:0.0;uri:;postag:NN
+POS_TAG: value:t;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vordergrund;weight:0.0;uri:;postag:NN
+POS_TAG: value:Modularisierung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kombination;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1727
+POSTING_TYPE: comment
+CONTENT:
+Nein, dies stellt kein Problem dar. Wir sind grundsätzlich für maximale Flexibilität, und die Idee bei der Modularisierung ist es ja, <REMOVED_PERSON_ENTITY> (und damit breitere Themenbereiche) in den Vordergrund zu stellen, und nicht einzelne Lehrstühle. Eine Kombination über Professuren hinweg ist also bei gewissen vorhandenen fachlichen Bezügen durchaus möglich.
+TAGGED_CONTENT:
+Nein_PTKANT ,_$, dies_PDS stellt_VVFIN kein_PIAT Problem_NN dar_PTKVZ ._$. Wir_PPER sind_VAFIN grundsätzlich_ADJD für_APPR maximale_ADJA Flexibilität_NN ,_$, und_KON die_ART Idee_NN bei_APPR der_ART Modularisierung_NN ist_VAFIN es_PPER ja_ADV ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE -LRB-_TRUNC und_KON damit_PROAV breitere_ADJA Themenbereiche_NN -RRB-_TRUNC in_APPR den_ART Vordergrund_NN zu_PTKZU stellen_VVINF ,_$, und_KON nicht_PTKNEG einzelne_ADJA Lehrstühle_NN ._$. Eine_ART Kombination_NN über_APPR Professuren_NN hinweg_APZR ist_VAFIN also_ADV bei_APPR gewissen_ADJA vorhandenen_ADJA fachlichen_ADJA Bezügen_NN durchaus_ADV möglich_ADJD ._$. 

@@ -1,0 +1,9 @@
+ID: 2464
+CREATION_DATETIME: 1374703200000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: hallo, wie sieht es denn in der schriftlichen prüfung aus - können die fragen (die ja wahrscheinlich ...
+PARENT_POSTING_ID: 1668
+POSTING_TYPE: comment
+CONTENT:
+hallo, wie sieht es denn in der schriftlichen prüfung aus - können die fragen (die ja wahrscheinlich in englisch gestellt werden) auch in deutsch beantwortet werden?
+TAGGED_CONTENT:

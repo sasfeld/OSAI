@@ -1,0 +1,11 @@
+ID: 869
+CREATION_DATETIME: 1353970800000
+MODIFICATION_DATETIME: 1353970800000
+TITLE: Damit die Ausgabe für die Tagesschau funktioniert, musst du in der xslt Datei den Namespace atom verw...
+PARENT_POSTING_ID: 823
+POSTING_TYPE: answer
+CONTENT:
+Damit die Ausgabe für die Tagesschau funktioniert, musst du in der xslt Datei den Namespace atom verwenden, also z. B. 
+```
+```
+TAGGED_CONTENT:

@@ -1,0 +1,16 @@
+ID: 578
+CREATION_DATETIME: 1351465200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Folien findet ihr ab sofort [hier](http://users.ifsr.de/~fredo/Java-Kurs/). Ich hoffe, dass ich alle Fehler jetzt raus habe. Ich habe das Beispiel mit der Input-Klasse nochmal etwas ergänzt, damit ihr das auch komplett übernehmen könnt.
+
+### Alternative zur Input-Klasse ###
+
+Wem das zu unschön ist, eine eigene Klasse für den Input anzulegen, darf sich auch der Klasse java. io. Console bedienen. Beachtet bitte, dass es diese erst ab Java 6 in dieser Form gibt und sich Details dazu in Java 7 nochmal geändert haben.
+
+[Dokumentation](http://docs.oracle.com/javase/6/docs/api/java/io/Console. html)
+TAGGED_CONTENT:

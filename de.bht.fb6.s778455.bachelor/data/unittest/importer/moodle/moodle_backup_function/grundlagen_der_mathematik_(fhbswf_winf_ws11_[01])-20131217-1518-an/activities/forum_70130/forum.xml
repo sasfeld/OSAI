@@ -1,0 +1,1536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="13945" moduleid="70130" modulename="forum" contextid="97996">
+  <forum id="13945">
+    <type>general</type>
+    <name>Allgemeines Forum</name>
+    <intro>Hier können Sie übergeordnete und organisatorische Fragen diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>2</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1185448275</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="43894">
+        <name>LON-CAPA - mir wird dort kein Kurs bzw. nicht die Lektionen 0-3 angezeigt</name>
+        <firstpost>117508</firstpost>
+        <userid>3699</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1316524550</timemodified>
+        <usermodified>3591</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117508">
+            <parent>0</parent>
+            <userid>3699</userid>
+            <created>1316412681</created>
+            <modified>1316412681</modified>
+            <mailed>1</mailed>
+            <subject>LON-CAPA - mir wird dort kein Kurs bzw. nicht die Lektionen 0-3 angezeigt</subject>
+            <message>Hallo, habe mich gerade das 1. Mal in LON-CAPA eingeloggt (bislang habe iche s noch nicht nützen müssen). Wie finde ich denn nun die Lektionen 0-3?Bei mir steht weder ein Kurs noch irgendwelche Lektionen. Wer kann mir weiter helfen?&lt;br /&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117509">
+            <parent>117508</parent>
+            <userid>779</userid>
+            <created>1316418223</created>
+            <modified>1316418223</modified>
+            <mailed>1</mailed>
+            <subject>Re: LON-CAPA - mir wird dort kein Kurs bzw. nicht die Lektionen 0-3 angezeigt</subject>
+            <message>Hallo Mirke,&lt;br /&gt;also ich kann den Kurs auch noch nicht sehen. Ich schätze mal, dass er noch nicht für uns freigegeben ist.&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117510">
+            <parent>117508</parent>
+            <userid>3515</userid>
+            <created>1316420165</created>
+            <modified>1316420165</modified>
+            <mailed>1</mailed>
+            <subject>Re: LON-CAPA - mir wird dort kein Kurs bzw. nicht die Lektionen 0-3 angezeigt</subject>
+            <message>Ja ich denke auch, dass er dazu was am Mittwoch im Chat uns sagen/freigeben wird. </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117511">
+            <parent>117509</parent>
+            <userid>3699</userid>
+            <created>1316422384</created>
+            <modified>1316422384</modified>
+            <mailed>1</mailed>
+            <subject>Re: LON-CAPA - mir wird dort kein Kurs bzw. nicht die Lektionen 0-3 angezeigt</subject>
+            <message>Danke, nun bin ich beruhigt... :) </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117512">
+            <parent>117510</parent>
+            <userid>3497</userid>
+            <created>1316440861</created>
+            <modified>1316440861</modified>
+            <mailed>1</mailed>
+            <subject>Re: LON-CAPA - mir wird dort kein Kurs bzw. nicht die Lektionen 0-3 angezeigt</subject>
+            <message>Der erste Kurs ist sichtbar, wenn man danach sucht. Allerdings kann man sich nicht selbst eintragen. Heißt also, warten.</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117513">
+            <parent>117512</parent>
+            <userid>3661</userid>
+            <created>1316446493</created>
+            <modified>1316446493</modified>
+            <mailed>1</mailed>
+            <subject>Re: LON-CAPA - mir wird dort kein Kurs bzw. nicht die Lektionen 0-3 angezeigt</subject>
+            <message>Wie man das macht und belegt werde ich im 1. Chat sagen. Die Selbstbelegung ist nun aktiviert. VG NJ</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117514">
+            <parent>117513</parent>
+            <userid>3591</userid>
+            <created>1316524550</created>
+            <modified>1316524550</modified>
+            <mailed>1</mailed>
+            <subject>Re: LON-CAPA - mir wird dort kein Kurs bzw. nicht die Lektionen 0-3 angezeigt</subject>
+            <message>&lt;p&gt;Hallo, &lt;/p&gt;
+&lt;p&gt;leider werde ich am ersten Chat am 21.09. nicht teilnehmen können. Würden Sie den Chat bitte aufzeichnen?&lt;/p&gt;
+&lt;p&gt;Vielen Dank, &lt;/p&gt;
+&lt;p&gt;Julia Hahn&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43895">
+        <name>Literatur</name>
+        <firstpost>117515</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1316717812</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117515">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1316717812</created>
+            <modified>1316717812</modified>
+            <mailed>1</mailed>
+            <subject>Literatur</subject>
+            <message>H.-J. Bartsch: "Mathematische Formeln". Buch und Zeit Verlagsgesellschaft.
+
+Böhme: "Algebra". Springer.
+
+Jänich: "Lineare Algebra". Springer.
+
+Papula: „Mathematik für Ingenieure und Naturwissenschaftler, Bd. 1“, Vieweg Winter: „Grundlagen der formalen Logik“, Verlag Harri Deutsch
+
+Stöcker, H. (Hrsg.): "Analysis für Ingenieurstudenten" (2 Bde.), Verlag Harri Deutsch
+
+Stöcker, H. (Hrsg.): "Lineare Algebra, Optimierung, Wahrscheinlichkeits- rechnung und Statistik" , Verlag Harri Deutsch</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43896">
+        <name>LON Capa Komplexe Zahlen</name>
+        <firstpost>117516</firstpost>
+        <userid>3515</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1319013967</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117516">
+            <parent>0</parent>
+            <userid>3515</userid>
+            <created>1318930729</created>
+            <modified>1318930729</modified>
+            <mailed>1</mailed>
+            <subject>LON Capa Komplexe Zahlen</subject>
+            <message>Hallo,&lt;br /&gt;&lt;br /&gt;unter Kapitel 0: Komplexe Zahlen ist kein Fälligkeitsdatum hinterlegt. Sind diese Aufgabe nur freiwillig oder liegt hier ein Fehler vor?&lt;br /&gt;&lt;br /&gt;Viele Grüße&lt;br /&gt;&lt;br /&gt;Fabian Sievers&lt;br /&gt;&lt;a href="https://vita.ostfalia.de/adm/navmaps?&amp;filter=&amp;condition=0&amp;hereType=&amp;here=uploaded%2ffhwf%2f3710818b9fa5d4e41fhwfl1%2fdefault%2esequence___9___adm%2fnavmaps&amp;jump=uploaded%2ffhwf%2f3710818b9fa5d4e41fhwfl1%2fdefault%2esequence___4___uploaded%2ffhwf%2f3710818b9fa5d4e41fhwfl1%2fdefault_1217837801%2esequence&amp;folderManip=1"&gt;&lt;/a&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117517">
+            <parent>117516</parent>
+            <userid>3661</userid>
+            <created>1319013967</created>
+            <modified>1319013967</modified>
+            <mailed>1</mailed>
+            <subject>Re: LON Capa Komplexe Zahlen</subject>
+            <message>Wie dem Skript zu entnehmen ist ist komplexe Zahlen nicht klausurrelevant.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43897">
+        <name>LON-CAPA Belegung</name>
+        <firstpost>117518</firstpost>
+        <userid>3559</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1319210683</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117518">
+            <parent>0</parent>
+            <userid>3559</userid>
+            <created>1319129297</created>
+            <modified>1319129297</modified>
+            <mailed>1</mailed>
+            <subject>LON-CAPA Belegung</subject>
+            <message>Hallo, ich bin etwas Spät würde aber gern in LON-CAPA den Kurs ws20112012_VFH_linalgmathegrundl belegen, kann mich aber nicht selbst eintragen (Funkt. nicht zugelassen)&lt;br /&gt;&lt;br /&gt;Bin ich jetzt zu Spät oder kann man da noch was machen?&lt;br /&gt;&lt;br /&gt;Gruß&lt;br /&gt;&lt;br /&gt;&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117519">
+            <parent>117518</parent>
+            <userid>3559</userid>
+            <created>1319129564</created>
+            <modified>1319129582</modified>
+            <mailed>1</mailed>
+            <subject>Re: LON-CAPA Belegung</subject>
+            <message> Ach hab gerade meine Emails geprüft bin zu Spät schade...</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117520">
+            <parent>117518</parent>
+            <userid>3661</userid>
+            <created>1319210683</created>
+            <modified>1319210683</modified>
+            <mailed>1</mailed>
+            <subject>Re: LON-CAPA Belegung</subject>
+            <message>Erstens ist das leider der falsche Ort, um mich zu fragen. -&gt; Email an mich persoenlich.
+
+Zweitens habe ich diese Frage beantwortet:
+$@FORUMDISCUSSIONVIEW*50500@$
+
+Ich werde Sie ausnahmsweise nachtraeglich eintragen, habe Sie bereits im System gefunden.
+
+Gruss und viel Erfolg beim Loesen Nils Jensen</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43898">
+        <name>Wir sind Gruppe 1</name>
+        <firstpost>117521</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1319278622</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117521">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1319278622</created>
+            <modified>1319278622</modified>
+            <mailed>1</mailed>
+            <subject>Wir sind Gruppe 1</subject>
+            <message>Antworten Sie bitte.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43899">
+        <name>Wir sind Gruppe 2</name>
+        <firstpost>117522</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1319278633</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117522">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1319278633</created>
+            <modified>1319278633</modified>
+            <mailed>1</mailed>
+            <subject>Wir sind Gruppe 2</subject>
+            <message>Antworten Sie bitte.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43900">
+        <name>Wir sind Gruppe 3</name>
+        <firstpost>117523</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1320069328</timemodified>
+        <usermodified>3523</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117523">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1319278644</created>
+            <modified>1319278644</modified>
+            <mailed>1</mailed>
+            <subject>Wir sind Gruppe 3</subject>
+            <message>Antworten Sie bitte.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117524">
+            <parent>117523</parent>
+            <userid>3523</userid>
+            <created>1320069328</created>
+            <modified>1320069328</modified>
+            <mailed>1</mailed>
+            <subject>Re: Wir sind Gruppe 3</subject>
+            <message>Jessica Kirsch, Fabian Sievers, Martin Bergien </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43901">
+        <name>Wir sind Gruppe 4</name>
+        <firstpost>117525</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1320863347</timemodified>
+        <usermodified>3499</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117525">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1319278654</created>
+            <modified>1319278654</modified>
+            <mailed>1</mailed>
+            <subject>Wir sind Gruppe 4</subject>
+            <message>Antworten Sie bitte.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117526">
+            <parent>117525</parent>
+            <userid>3537</userid>
+            <created>1320001922</created>
+            <modified>1320001945</modified>
+            <mailed>1</mailed>
+            <subject>Re: Wir sind Gruppe 4</subject>
+            <message>&lt;p&gt;&lt;font class="Apple-style-span" face="arial, helvetica, sans-serif"&gt;&lt;font class="Apple-style-span" style="font-weight: normal; "&gt;Leonhard Bröning&lt;br /&gt;&lt;/font&gt;&lt;font class="Apple-style-span" style="font-weight: normal; "&gt;Frank Pape&lt;br /&gt;&lt;/font&gt;Christian Cholewa&lt;/font&gt;&lt;/p&gt;
+</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117527">
+            <parent>117526</parent>
+            <userid>3537</userid>
+            <created>1320790247</created>
+            <modified>1320790247</modified>
+            <mailed>1</mailed>
+            <subject>Re: Wir sind Gruppe 4</subject>
+            <message>&lt;div&gt;Ist die Lösung richtig?&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;b&gt;Aufgabe b)&lt;/b&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;reicht das Ergebnis ?&lt;/b&gt;&lt;/div&gt;&lt;div&gt;[ -3/4; -3/10 ) U ( -3/2; -3/4 )&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;oder noch zusammenfassen wenn möglich ?&lt;/b&gt;&lt;/div&gt;&lt;div&gt;( -3/2; -3/10 )&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Lernvideo:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;a href="http://www.youtube.com/watch?v=K5owIKr5V_4"&gt;http://www.youtube.com/watch?v=K5owIKr5V_4&lt;/a&gt;&lt;/div&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117528">
+            <parent>117527</parent>
+            <userid>3499</userid>
+            <created>1320863347</created>
+            <modified>1320863347</modified>
+            <mailed>1</mailed>
+            <subject>Re: Wir sind Gruppe 4</subject>
+            <message>Hi Christian,&lt;br /&gt;&lt;br /&gt;habe als Lösung auch (-3/2; -3/10) rausbekommen. &lt;br /&gt;&lt;br /&gt;Gruß&lt;br /&gt;Frank&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43902">
+        <name>Wir sind Gruppe 5</name>
+        <firstpost>117529</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1319564618</timemodified>
+        <usermodified>3519</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117529">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1319278666</created>
+            <modified>1319278666</modified>
+            <mailed>1</mailed>
+            <subject>Wir sind Gruppe 5</subject>
+            <message>Antworten Sie bitte.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117530">
+            <parent>117529</parent>
+            <userid>3519</userid>
+            <created>1319564618</created>
+            <modified>1319564618</modified>
+            <mailed>1</mailed>
+            <subject>Re: Wir sind Gruppe 5</subject>
+            <message>Nico Lochow, Richard Graca, Kashif Parwaz </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43903">
+        <name>Wir sind Gruppe 6</name>
+        <firstpost>117531</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1319559405</timemodified>
+        <usermodified>3503</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117531">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1319278682</created>
+            <modified>1319278682</modified>
+            <mailed>1</mailed>
+            <subject>Wir sind Gruppe 6</subject>
+            <message>Antworten Sie bitte.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117532">
+            <parent>117531</parent>
+            <userid>3503</userid>
+            <created>1319479702</created>
+            <modified>1319479702</modified>
+            <mailed>1</mailed>
+            <subject>Re: Wir sind Gruppe 6</subject>
+            <message>Oliver Ewoldsen, Patrick Hersing und Dennis Demuth </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117533">
+            <parent>117532</parent>
+            <userid>3503</userid>
+            <created>1319559405</created>
+            <modified>1319559405</modified>
+            <mailed>1</mailed>
+            <subject>Re: Wir sind Gruppe 6</subject>
+            <message>und Daniel Preuße. </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43904">
+        <name>Wir sind Gruppe 7</name>
+        <firstpost>117534</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1319459688</timemodified>
+        <usermodified>3699</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117534">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1319278693</created>
+            <modified>1319278693</modified>
+            <mailed>1</mailed>
+            <subject>Wir sind Gruppe 7</subject>
+            <message>Antworten Sie bitte.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117535">
+            <parent>117534</parent>
+            <userid>3699</userid>
+            <created>1319459688</created>
+            <modified>1319459688</modified>
+            <mailed>1</mailed>
+            <subject>Re: Wir sind Gruppe 7</subject>
+            <message>Adrien Matern, Benjamin Bake und Mirke Kohlstädt </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43905">
+        <name>Freiwillige ergaenzende Gruppenaufgabe</name>
+        <firstpost>117536</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1325701526</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117536">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1319279535</created>
+            <modified>1319279535</modified>
+            <mailed>1</mailed>
+            <subject>Freiwillige ergaenzende Gruppenaufgabe</subject>
+            <message>Bitte lesen! Viel Spass beim Bearbeiten.
+
+Nils Jensen</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117537">
+            <parent>117536</parent>
+            <userid>3507</userid>
+            <created>1319482798</created>
+            <modified>1319482798</modified>
+            <mailed>1</mailed>
+            <subject>Re: Freiwillige ergaenzende Gruppenaufgabe</subject>
+            <message>Moin Moin!
+
+Wer hat Lust mir mir eine der verbleibenden Gruppen zu füllen?
+
+Greetz
+Der Daniel</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117538">
+            <parent>117537</parent>
+            <userid>3507</userid>
+            <created>1319548629</created>
+            <modified>1319548629</modified>
+            <mailed>1</mailed>
+            <subject>Re: Freiwillige ergaenzende Gruppenaufgabe</subject>
+            <message>Moin!&lt;br /&gt;&lt;br /&gt;Hat sich für mich erledigt. Eine Gruppe hat sich gefunden.&lt;br /&gt;&lt;br /&gt;Grüße&lt;br /&gt;Daniel&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117539">
+            <parent>117536</parent>
+            <userid>3661</userid>
+            <created>1321463894</created>
+            <modified>1321463894</modified>
+            <mailed>1</mailed>
+            <subject>Re: Freiwillige ergaenzende Gruppenaufgabe</subject>
+            <message>... und die Loesung.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117540">
+            <parent>117536</parent>
+            <userid>3661</userid>
+            <created>1323273730</created>
+            <modified>1323273730</modified>
+            <mailed>1</mailed>
+            <subject>2/2 Freiwillige ergaenzende Gruppenaufgabe</subject>
+            <message>2. und letzte Gruppenaufgabe. Sie koennen sie in denselben Gruppen bearbeiten wie die 1.
+
+Gruss NJ</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117541">
+            <parent>117540</parent>
+            <userid>3661</userid>
+            <created>1325701526</created>
+            <modified>1325701526</modified>
+            <mailed>1</mailed>
+            <subject>Re: 2/2 Freiwillige ergaenzende Gruppenaufgabe</subject>
+            <message>Lsg.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43906">
+        <name>Gruppensuche</name>
+        <firstpost>117542</firstpost>
+        <userid>3627</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1319749800</timemodified>
+        <usermodified>3537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117542">
+            <parent>0</parent>
+            <userid>3627</userid>
+            <created>1319563272</created>
+            <modified>1319563272</modified>
+            <mailed>1</mailed>
+            <subject>Gruppensuche</subject>
+            <message>Hallo,&lt;br /&gt;&lt;br /&gt;wer will mit mir eine Gruppe machen?&lt;br /&gt;&lt;br /&gt;Gruß&lt;br /&gt;Leo&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117543">
+            <parent>117542</parent>
+            <userid>3537</userid>
+            <created>1319618547</created>
+            <modified>1319618547</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppensuche</subject>
+            <message>ich bin dabei</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117544">
+            <parent>117542</parent>
+            <userid>3499</userid>
+            <created>1319619014</created>
+            <modified>1319619014</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppensuche</subject>
+            <message>ich würde auch mitmachen&lt;br /&gt;&lt;br /&gt;Gruß&lt;br /&gt;Frank&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117545">
+            <parent>117544</parent>
+            <userid>3627</userid>
+            <created>1319734637</created>
+            <modified>1319734637</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppensuche</subject>
+            <message>Reicht es wenn wir zu dritt sind?&lt;br /&gt;&lt;br /&gt;Gruß&lt;br /&gt;Leo&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117546">
+            <parent>117545</parent>
+            <userid>3537</userid>
+            <created>1319749800</created>
+            <modified>1319749800</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppensuche</subject>
+            <message>Ist ja freiwillig also denke ich mal 3 reichen. Die anderen Gruppen sind auch nicht größer. Und wenn sich einer findet können wir den auch noch hinzunehmen. Welche Gruppe wollen wir nehmen? 1 - 4 ist noch frei.</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43907">
+        <name>Üben Üben Üben</name>
+        <firstpost>117547</firstpost>
+        <userid>3505</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1325091933</timemodified>
+        <usermodified>3507</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117547">
+            <parent>0</parent>
+            <userid>3505</userid>
+            <created>1319733469</created>
+            <modified>1319733469</modified>
+            <mailed>1</mailed>
+            <subject>Üben Üben Üben</subject>
+            <message>&lt;p&gt; Was macht man nicht alles für Mathe......&lt;/p&gt;
+&lt;p&gt;Wer Lust hat, wir sind inner Uni, ich denke mal jetzt jeden Donnerstag so ab 18.30 Uhr, wer also Lust hat und sonst nix umme Ohren hat....&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Grüßle&lt;/p&gt;
+&lt;p&gt;Oliver Ewoldsen&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117548">
+            <parent>117547</parent>
+            <userid>3689</userid>
+            <created>1321958895</created>
+            <modified>1321958895</modified>
+            <mailed>1</mailed>
+            <subject>Re: Üben Üben Üben</subject>
+            <message>Hallo,&lt;div&gt;seid Ihr eigentlich noch regelmäßig Donnerstag Abends in der Uni um Mathe zu üben und wenn ja wo ? Würde gern mal vorbei kommen.. Brauche jemand der mit mir Aussagenlogik übt.. &lt;/div&gt;&lt;div&gt;Grüße&lt;/div&gt;&lt;div&gt;Daniela Misch&lt;/div&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117549">
+            <parent>117548</parent>
+            <userid>3505</userid>
+            <created>1321969732</created>
+            <modified>1321969732</modified>
+            <mailed>1</mailed>
+            <subject>Re: Üben Üben Üben</subject>
+            <message>Hallo,&lt;br /&gt;&lt;br /&gt;ja wir sind regelmäßig in der Uni. Wir sind am Exer im 1 OG auf der linken Seite, ganz hinten durch und dem krach folgen ;-)&lt;br /&gt;&lt;br /&gt;Grüßle&lt;br /&gt;Oliver Ewoldsen&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117550">
+            <parent>117547</parent>
+            <userid>3537</userid>
+            <created>1324415964</created>
+            <modified>1324416035</modified>
+            <mailed>1</mailed>
+            <subject>Re: Üben Üben Üben</subject>
+            <message>Würde am 29.12. mal vorbeikommen. Seit ihr an dem Tag auch in der Uni?
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Glaub die Uni hat an dem Tag gar nicht auf ... hmm seit ihr dann wo anders?&lt;/div&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117551">
+            <parent>117550</parent>
+            <userid>3507</userid>
+            <created>1325091933</created>
+            <modified>1325091933</modified>
+            <mailed>1</mailed>
+            <subject>Re: Üben Üben Üben</subject>
+            <message>Moin Moin!&lt;br /&gt;&lt;br /&gt;Wir sind morgen um 15:00 Uhr am Exer sein.&lt;br /&gt;Irgendwo in der ersten Etage. ;-)&lt;br /&gt;&lt;br /&gt;Grüße&lt;br /&gt;Die Gruppe!&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43908">
+        <name>Klausurhilfsmittel</name>
+        <firstpost>117552</firstpost>
+        <userid>3603</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1320061297</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117552">
+            <parent>0</parent>
+            <userid>3603</userid>
+            <created>1319737154</created>
+            <modified>1319737154</modified>
+            <mailed>1</mailed>
+            <subject>Klausurhilfsmittel</subject>
+            <message>&lt;p&gt; Hallo Herr Prof. Jensen,&lt;/p&gt;
+&lt;p&gt;beim letzten Mal waren die zugelassenen Hilfsmittel folgende:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;quot;2 Blaetter (4 Seiten) eigene Notizen, Schreibzeug, nichtprogrammierbarer Taschenrechner, Formelsammlung&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Gilt das noch unverändert?&lt;/p&gt;
+&lt;p&gt;Freundliche Grüße&lt;/p&gt;
+&lt;p&gt;Matthias Lippmann&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117553">
+            <parent>117552</parent>
+            <userid>3661</userid>
+            <created>1320061297</created>
+            <modified>1320061297</modified>
+            <mailed>1</mailed>
+            <subject>Re: Klausurhilfsmittel</subject>
+            <message>ja</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43909">
+        <name>Probeklausur</name>
+        <firstpost>117554</firstpost>
+        <userid>3653</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1328516341</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117554">
+            <parent>0</parent>
+            <userid>3653</userid>
+            <created>1326735065</created>
+            <modified>1326735065</modified>
+            <mailed>1</mailed>
+            <subject>Probeklausur</subject>
+            <message>Hallo, gibt es eine Möglichkeit einen Lösungsvorschlag für die Probeklausur zu bekommen?&lt;br /&gt;mG Marc&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117555">
+            <parent>117554</parent>
+            <userid>3661</userid>
+            <created>1326999824</created>
+            <modified>1326999824</modified>
+            <mailed>1</mailed>
+            <subject>Re: Probeklausur</subject>
+            <message>anbei</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117556">
+            <parent>117554</parent>
+            <userid>3699</userid>
+            <created>1327318250</created>
+            <modified>1327318250</modified>
+            <mailed>1</mailed>
+            <subject>Re: Probeklausur</subject>
+            <message>Danke. So kann man sich gut selbst kontrollieren. Allerdings komme ich mit Aufgabe 9nicht klar, auch die Lösung kann ich nicht nachvollziehen. Kann da sjemand nochmal aufschlüsseln?&lt;br /&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117557">
+            <parent>117556</parent>
+            <userid>3699</userid>
+            <created>1327322700</created>
+            <modified>1327322700</modified>
+            <mailed>1</mailed>
+            <subject>Re: Probeklausur</subject>
+            <message>1 1 -4&lt;br /&gt;1 -2 2 = 0&lt;br /&gt;a -3 2&lt;br /&gt;&lt;br /&gt;Da bin ich nuns elbst drauf gekommen, wie man hier auf a=2 kommt.&lt;br /&gt;Jeder Wert muss von 0 addiert oder subtrahiert werden...und dann ist alles 0 und a bleibt a = 2.&lt;br /&gt;&lt;br /&gt;Aber wie kommt man dann auf den 2. Teil? Das erschließt sich mir noch nicht.&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117558">
+            <parent>117557</parent>
+            <userid>3515</userid>
+            <created>1327326016</created>
+            <modified>1327326016</modified>
+            <mailed>1</mailed>
+            <subject>Re: Probeklausur</subject>
+            <message>Hallo Mirke,&lt;br /&gt;&lt;br /&gt;also der erste Teil ist die Determinante Berechnen. Wenn man es nach Saurus macht wäre das: &lt;br /&gt;2*(-2)*2 + 2*2*a + (-4)*1*(-3) - 8a - (-6) - 2&lt;br /&gt;&lt;br /&gt;In dem 2. Teil musst du das LGS mit Gauss auflösen wobei du für a die 2 einsetzt.&lt;br /&gt;Dann kommst du irgendwann auf:&lt;br /&gt;1 1 -4&lt;br /&gt;0 -3 6&lt;br /&gt;0 0 0&lt;br /&gt;&lt;br /&gt;Ab hier rechest du dann mit z=t (erste Lösung) weiter.&lt;br /&gt;Das wäre dann: -3y + 6t = 0 --&amp;gt; y = 2t (zweite Lösung)&lt;br /&gt;Dann: x + 2t -4t = 0 --&amp;gt; x = 2t (dritte Lösung)&lt;br /&gt;&lt;br /&gt;Wenn man jetzt das t rauszieht dann hat man den Vektor t * (2 2 1).&lt;br /&gt;Allerdings erschließt sich mir der Vektor (1 1 1) noch nicht.&lt;br /&gt;&lt;br /&gt;Ich hoffe ich konnte dir etwas helfen.&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117559">
+            <parent>117557</parent>
+            <userid>3537</userid>
+            <created>1327328173</created>
+            <modified>1327328504</modified>
+            <mailed>1</mailed>
+            <subject>Re: Probeklausur</subject>
+            <message> &lt;span style="font-weight: bold;"&gt;Lösungsansatz&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span style="font-style: italic;"&gt;Unterstriche ignorieren (Formatierung)&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;Nachdem du so eine Form hast (unendlich viele Lösungen)&lt;br /&gt;y_z_x&lt;br /&gt;1 -4 1 | -2&lt;br /&gt;0 -6 3 | -3&lt;br /&gt;0 _0 0 |_0&lt;br /&gt;&lt;br /&gt;Hast du 3 Gleichungssysteme:&lt;br /&gt;y - 4z + x = -2&lt;br /&gt;-6z + 3x = -3&lt;br /&gt;0x = 0&lt;br /&gt;&lt;br /&gt;Für x kannste jede Zahl verwenden also eine freie Variable.&lt;br /&gt;&lt;span style="text-decoration: underline;"&gt;x = t&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;Um z herauszufinden muss du x in die 2.Gleichung einsetzen.&lt;br /&gt;&lt;br /&gt;&lt;span style="text-decoration: underline;"&gt;z = R * Rt&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;Um x herauszufinden muss du x und z in die 1.Gleichung einsetzen.&lt;br /&gt;&lt;br /&gt;&lt;span style="text-decoration: underline;"&gt;y = R * Rt&lt;/span&gt;&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117560">
+            <parent>117559</parent>
+            <userid>3537</userid>
+            <created>1327331938</created>
+            <modified>1327331938</modified>
+            <mailed>1</mailed>
+            <subject>Re: Probeklausur</subject>
+            <message>Lösung:&lt;br /&gt;(x y z) = (0 0 1/2) + t * (1 1 1/2)&lt;br /&gt;&lt;br /&gt;Lösung:&lt;br /&gt;(x y z) = (-1 -1 0) + t * (2 2 1)&lt;br /&gt;&lt;br /&gt;Ich komme nie auf die Lösung in der Probeklausur. Kann mir jemand helfen?&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117561">
+            <parent>117558</parent>
+            <userid>3507</userid>
+            <created>1327348310</created>
+            <modified>1327348733</modified>
+            <mailed>1</mailed>
+            <subject>Re: Probeklausur</subject>
+            <message> Moin Fabian,&lt;br /&gt;&lt;br /&gt;wir sitzen hier gerade vor Raum 127, also mit UniVibes, und wollten fragen&lt;br /&gt;warum Du die Formeln nach der Gauselimination auf =0 gesetzt hast?&lt;br /&gt;&lt;br /&gt;Grüße&lt;br /&gt;Patrick, Dennis und Daniel&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117562">
+            <parent>117561</parent>
+            <userid>3515</userid>
+            <created>1327389596</created>
+            <modified>1327389596</modified>
+            <mailed>1</mailed>
+            <subject>Re: Probeklausur</subject>
+            <message>Du hast recht, ich habe übersehen das dort mal keine 0 Steht. (War meist so) Dann passt meine Rechnung nicht.&lt;br /&gt;Dann wäre das:&lt;br /&gt;z=t (1. L.)&lt;br /&gt;-3y + 6t = 3&lt;br /&gt;y= -1 + 2t (2. L.)&lt;br /&gt;x - 1 + 2t -4t = -2&lt;br /&gt;x = -1 +2t (3. L.)&lt;br /&gt;&lt;br /&gt;Was dann der Lösung von Christian entsprechen würde mit&lt;br /&gt;t * (2 2 1) + (-1 -1 0)&lt;br /&gt;&lt;br /&gt;Was auch nicht der Musterlösung entspricht. Leider ist mir das grade auch ein Rätsel weshalb die Werte im 2. Vektor postitiv sind und bei dem z noch eine 1 dazukommt.&lt;br /&gt;Falls du noch Fragen hast kannst mich über skype erreichen: ei5fuch5&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117563">
+            <parent>117555</parent>
+            <userid>3661</userid>
+            <created>1327425286</created>
+            <modified>1327425286</modified>
+            <mailed>1</mailed>
+            <subject>Re: Probeklausur</subject>
+            <message>Achtung! Die Loesung zu Aufgabe 9 muss korrigiert heissen: 
+
+t * (2, 2, 1) + (-1, -1, 0)
+
+Danke an die Lerngruppe von Fr. Misch, mich auf den Fehler aufmerksam gemacht zu haben.
+
+Gruss Nils Jensen
+</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117564">
+            <parent>117560</parent>
+            <userid>3661</userid>
+            <created>1327425346</created>
+            <modified>1327425346</modified>
+            <mailed>1</mailed>
+            <subject>Re: Probeklausur</subject>
+            <message>sorry, das ist so korrekt! s. Posting oben.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117565">
+            <parent>117563</parent>
+            <userid>3699</userid>
+            <created>1327479748</created>
+            <modified>1327479748</modified>
+            <mailed>1</mailed>
+            <subject>Re: Probeklausur</subject>
+            <message>so lässt sich meine Lösung nun auch nachvollziehen...Habe vorher immer meinen Fehler gesucht. </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117566">
+            <parent>117563</parent>
+            <userid>3507</userid>
+            <created>1327600574</created>
+            <modified>1327600574</modified>
+            <mailed>1</mailed>
+            <subject>Re: Probeklausur</subject>
+            <message>Hallo Herr Jensen,&lt;br /&gt;&lt;br /&gt;Wolframalpha liefert hier aber auch scheinbar die erste Lösung aus&lt;br /&gt;der Klausur oder irre ich mich da jetzt?&lt;br /&gt;&lt;br /&gt;&lt;a href="http://www.wolframalpha.com/input/?i=%28x%2By-4z%3D-2%29%2C%28x-2y%2B2z%3D1%29%2C%28ax-3y%2B2z%3D1%29"&gt;Lösung gem. Wolfram&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Grüße&lt;br /&gt;Daniel Preuße&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117567">
+            <parent>117566</parent>
+            <userid>3661</userid>
+            <created>1327682224</created>
+            <modified>1327682969</modified>
+            <mailed>1</mailed>
+            <subject>Re: Probeklausur</subject>
+            <message>Gut, befassen wir uns genauer damit. Augenscheinlich sind die Loesungen aus dem Vorschlag von Kollege Schiffer und das, was wir alle bisher selbst ausgerechnet haben, unterschiedlich. ok. Das einer von uns dabei falsch lag *ist jedoch nicht richtig*, denn beides stimmt, wie ich nochmals geprueft habe. Es gibt naemlich eine Kleinigkeit zu bemerken. Sehen Sie:
+
+t * (2 2 1) + (-1 -1 0) = (1 1 1)
+
+t * (2 2 1) = (1 1 1) - (-1 -1 0)
+
+t * (2 2 1) = (2 2 1) 
+
+logischerweise mit t = 1
+
+Es geht aber auch (natuerlich):
+
+t * (2 2 1) + (1 1 1) = (-1 -1 0)
+
+t * (2 2 1) = (-1 -1 0) + (-1 -1 -1)
+
+t * (2 2 1) = (-2 -2 -1) 
+
+mit t = -1
+
+Der Punkt ist der: Bei unendlich vielen Loesungen nehmen Sie genau einen Vektor aus der Loesungsmenge, und alle anderen Vektoren linearkombinieren Sie mit dem Vektor. Das kann entweder der Vektor (1 1 1) sein oder der Vektor (-1 -1 0) sein in unserem Fall.
+
+Es ist dabei egal, welchen Vektor Sie nehmen, solange er in der Loesungsmenge ist. 
+
+Probieren Sie es aus: Setzen Sie einmal den Vektor (1 1 1) und einmal den Vektor (-1 -1 0) zur Probe ein: Beide gehen und ergeben (-2 1 1). Was ich oben gezeigt habe ist, dass beide Vektoren aus derselben Loesungsmenge stammen.
+
+Genau so waere z. B. richtig:
+
+t * (2 2 1) + (3 3 2). Dann muesste die Probe mit t=0 und somit (3 3 2) eingesetzt in die Matrix den Vektor b = (-2 1 1) geben, was der Fall ist.
+
+
+</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117568">
+            <parent>117564</parent>
+            <userid>3687</userid>
+            <created>1328277960</created>
+            <modified>1328277960</modified>
+            <mailed>1</mailed>
+            <subject>Re: Probeklausur</subject>
+            <message>Wird sich die Probeklausur inhaltlich und von den Aufgabentypen her mit der eigentlichen Klausur ähneln?</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117569">
+            <parent>117568</parent>
+            <userid>3661</userid>
+            <created>1328516341</created>
+            <modified>1328516341</modified>
+            <mailed>1</mailed>
+            <subject>Re: Probeklausur</subject>
+            <message>Zur inhaltlichen Aehnlichkeit werde ich keine Aussage machen, da ist klar, das alles aus dem Skript kommen kann :-) Von der Erfahrung her sind Aufbau und Aufgabentypen allerdings aehnlich.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43910">
+        <name>Klausur - Erlaubte Hilfsmittel</name>
+        <firstpost>117570</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1326999702</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117570">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1326789626</created>
+            <modified>1326999702</modified>
+            <mailed>1</mailed>
+            <subject>Klausur - Erlaubte Hilfsmittel</subject>
+            <message>2 A4-Blaetter (4 Seiten) eigene Notizen, Schreibzeug, nichtprogrammierbarer Taschenrechner und ohne Vektorfunktionen, 1 Formelsammlung</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117571">
+            <parent>117570</parent>
+            <userid>3699</userid>
+            <created>1326963866</created>
+            <modified>1326963866</modified>
+            <mailed>1</mailed>
+            <subject>Re: Klausur - Erlaubte Hilfsmittel</subject>
+            <message>Müssen die eigenen Notizen handschriftlich sein oder können sie auch mit dem PC erstellt werden? </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117572">
+            <parent>117571</parent>
+            <userid>3661</userid>
+            <created>1326999597</created>
+            <modified>1326999597</modified>
+            <mailed>1</mailed>
+            <subject>Re: Klausur - Erlaubte Hilfsmittel</subject>
+            <message>egal</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="128402">
+        <userid>3647</userid>
+      </subscription>
+      <subscription id="128403">
+        <userid>3725</userid>
+      </subscription>
+      <subscription id="128404">
+        <userid>3717</userid>
+      </subscription>
+      <subscription id="128405">
+        <userid>3559</userid>
+      </subscription>
+      <subscription id="128406">
+        <userid>3661</userid>
+      </subscription>
+      <subscription id="128407">
+        <userid>3603</userid>
+      </subscription>
+      <subscription id="128408">
+        <userid>3507</userid>
+      </subscription>
+      <subscription id="128409">
+        <userid>3713</userid>
+      </subscription>
+      <subscription id="128410">
+        <userid>3489</userid>
+      </subscription>
+      <subscription id="128411">
+        <userid>3519</userid>
+      </subscription>
+      <subscription id="128412">
+        <userid>3675</userid>
+      </subscription>
+      <subscription id="128413">
+        <userid>3643</userid>
+      </subscription>
+      <subscription id="128414">
+        <userid>3631</userid>
+      </subscription>
+      <subscription id="128415">
+        <userid>3645</userid>
+      </subscription>
+      <subscription id="128416">
+        <userid>2617</userid>
+      </subscription>
+      <subscription id="128417">
+        <userid>3523</userid>
+      </subscription>
+      <subscription id="128418">
+        <userid>3653</userid>
+      </subscription>
+      <subscription id="128419">
+        <userid>3703</userid>
+      </subscription>
+      <subscription id="128420">
+        <userid>3685</userid>
+      </subscription>
+      <subscription id="128421">
+        <userid>3699</userid>
+      </subscription>
+      <subscription id="128422">
+        <userid>3613</userid>
+      </subscription>
+      <subscription id="128423">
+        <userid>3687</userid>
+      </subscription>
+      <subscription id="128424">
+        <userid>3495</userid>
+      </subscription>
+      <subscription id="128425">
+        <userid>3633</userid>
+      </subscription>
+      <subscription id="128426">
+        <userid>3493</userid>
+      </subscription>
+      <subscription id="128427">
+        <userid>3689</userid>
+      </subscription>
+      <subscription id="128428">
+        <userid>3513</userid>
+      </subscription>
+      <subscription id="128429">
+        <userid>3517</userid>
+      </subscription>
+      <subscription id="128430">
+        <userid>3711</userid>
+      </subscription>
+      <subscription id="128431">
+        <userid>3521</userid>
+      </subscription>
+      <subscription id="128432">
+        <userid>3695</userid>
+      </subscription>
+      <subscription id="128433">
+        <userid>3537</userid>
+      </subscription>
+      <subscription id="128434">
+        <userid>3649</userid>
+      </subscription>
+      <subscription id="128435">
+        <userid>3503</userid>
+      </subscription>
+      <subscription id="128436">
+        <userid>3505</userid>
+      </subscription>
+      <subscription id="128437">
+        <userid>3515</userid>
+      </subscription>
+      <subscription id="128438">
+        <userid>3693</userid>
+      </subscription>
+      <subscription id="128439">
+        <userid>3499</userid>
+      </subscription>
+      <subscription id="128440">
+        <userid>3591</userid>
+      </subscription>
+      <subscription id="128441">
+        <userid>3509</userid>
+      </subscription>
+      <subscription id="128442">
+        <userid>3501</userid>
+      </subscription>
+      <subscription id="128443">
+        <userid>3487</userid>
+      </subscription>
+      <subscription id="128444">
+        <userid>3627</userid>
+      </subscription>
+      <subscription id="128445">
+        <userid>3639</userid>
+      </subscription>
+      <subscription id="128446">
+        <userid>3545</userid>
+      </subscription>
+      <subscription id="128448">
+        <userid>3531</userid>
+      </subscription>
+      <subscription id="128449">
+        <userid>3669</userid>
+      </subscription>
+      <subscription id="128450">
+        <userid>3533</userid>
+      </subscription>
+      <subscription id="128451">
+        <userid>3551</userid>
+      </subscription>
+      <subscription id="128452">
+        <userid>3511</userid>
+      </subscription>
+      <subscription id="128453">
+        <userid>3637</userid>
+      </subscription>
+      <subscription id="128454">
+        <userid>3557</userid>
+      </subscription>
+      <subscription id="128455">
+        <userid>3549</userid>
+      </subscription>
+      <subscription id="128456">
+        <userid>3657</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

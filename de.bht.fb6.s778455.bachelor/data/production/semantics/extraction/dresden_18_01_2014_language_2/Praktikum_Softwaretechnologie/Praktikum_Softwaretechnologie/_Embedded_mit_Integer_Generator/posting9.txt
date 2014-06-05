@@ -1,0 +1,18 @@
+ID: 3095
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: Und was ist mit Assoziationsklassen? Das wäre z.B. die Klasse "Booking" bei uns. Ein User kann mehrer...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3069
+POSTING_TYPE: comment
+CONTENT:
+Und was ist mit Assoziationsklassen? Das wäre z. B. die Klasse "Booking" bei uns. Ein User kann mehrere Touren buchen, eine Tour kann <NAME_CORPUS_REPLACEMENT>  mehreren Touren gebucht werden, also ManyToMany.
+
+Die Buchung selbst beinhaltet aber auch noch zusätzliche Infos wie z. B. Klasse und <REMOVED_PERSON_ENTITY> und Anreisewahl. => Assoziationsklasse
+
+Die Assoziationsklasse hat dann ja als Key die entsprechende Tour und den User. Hier macht eine extra long id keinen Sinn, weil mehrere Bookings mit demselben User und derselben Tour niemals existieren dürfen!
+
+Das ist doch der SInn <NAME_CORPUS_REPLACEMENT> Composite <REMOVED_PERSON_ENTITY>?
+
+Angenommen es gäbe mehrere Touren (Unterklassen <NAME_CORPUS_REPLACEMENT> Tour), und entsprechende Unterklassen <NAME_CORPUS_REPLACEMENT> Booking, dann sollte doch die Composite-Id vererbt werden dürfen??
+TAGGED_CONTENT:

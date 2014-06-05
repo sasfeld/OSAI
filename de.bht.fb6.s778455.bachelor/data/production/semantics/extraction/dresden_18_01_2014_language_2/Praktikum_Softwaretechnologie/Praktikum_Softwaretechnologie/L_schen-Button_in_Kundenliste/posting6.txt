@@ -1,0 +1,14 @@
+ID: 2961
+CREATION_DATETIME: 1385074800000
+MODIFICATION_DATETIME: 1385074800000
+TITLE: Richtig, es gibt keine Methode. Das liegt z.B. daran, dass wir  UserAccounts auch in der Order speich...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2935
+POSTING_TYPE: comment
+CONTENT:
+Richtig, es gibt keine Methode. Das liegt z. B. daran, dass wir  UserAccounts auch in der Order speichern. Würde man den Account löschen, würde die Datenbank inkonsistent werden, es sei denn man würde die Order auch gleich löschen, aber das wollen wir nicht.
+
+Man kann Accounts deaktivieren (& aktivieren), dafür gibt es Methoden auf dem UserAccountManager.
+
+Jetzt zu deinem hidden input <REMOVED_PERSON_ENTITY>, du musst das übertragen, was den UserAccount bzw Customer eindeutig identifiziert, seine Id.
+TAGGED_CONTENT:

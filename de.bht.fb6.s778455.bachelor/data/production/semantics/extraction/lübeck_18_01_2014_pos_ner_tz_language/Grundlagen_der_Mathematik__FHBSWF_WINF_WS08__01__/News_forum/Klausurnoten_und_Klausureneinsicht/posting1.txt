@@ -1,0 +1,45 @@
+ID: 16523
+CREATION_DATETIME: 1234965613
+MODIFICATION_DATETIME: 1234965613
+TITLE: Klausurnoten und Klausureneinsicht
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:3.89064791503836;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Verfügungen;weight:1.0;significance:3.62448200054489;degreegeneralization:3;uri:19992589
+TOPIC_ZOOM_TAG: value:Programmierung;weight:1.0;significance:3.58168603537718;degreegeneralization:7;uri:21461440
+TOPIC_ZOOM_TAG: value:Software;weight:1.0;significance:2.60511682223347;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:2.51211272377639;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:2.50390086036106;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:2.23699226098339;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:2.15506992990383;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:2.00351838218053;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.83083484620539;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Arbeit und Beruf;weight:1.0;significance:1.77050613279153;degreegeneralization:3;uri:21924095
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:1.75110858232764;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:1.32554850720165;degreegeneralization:2;uri:21999830
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:1.16884339240287;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:0.90229776862663;degreegeneralization:2;uri:21999847
+POS_TAG: value:Arbeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klausureneinsicht;weight:0.0;uri:;postag:NN
+POS_TAG: value:Grundlagen;weight:0.0;uri:;postag:NN
+POS_TAG: value:gung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bitte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Noten;weight:0.0;uri:;postag:NN
+POS_TAG: value:ckfragen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gelegenheit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ausserdem;weight:0.0;uri:;postag:NN
+POS_TAG: value:Korrektur;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wochen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bewertung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Reihe;weight:0.0;uri:;postag:NN
+POS_TAG: value:en;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mathematik;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klausur;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+ Hallo Sie alle,  die Korrektur der <REMOVED_PERSON_ENTITY> d. Programmieren-Klausur ist in Arbeit. Dann kommt Grundlagen der Mathematik an die Reihe. Die Noten stehen noch nicht fest.  Bitte machen Sie sich keine <REMOVED_PERSON_ENTITY> wegen der Klausureneinsicht. Auch wenn die zwei Wochen Klausureneinsicht um sind, haben Sie noch  Gelegenheit, in die Klausur reinzuschauen.  Ich mache normalerweise beim <REMOVED_PERSON_ENTITY>, die es Ihnen erlauben sollten die Bewertung nachzuvollziehen.  Ausserdem stehe ich auch später für Rückfragen noch zur Verfügung.  Mit besten Grüßen, <PERSONAL_GREETING_REMOVEMENT>. <REMOVED_PERSON_ENTITY>. 
+TAGGED_CONTENT:
+Hallo_ITJ Sie_PPER alle_PIS ,_$, die_PRELS Korrektur_NN der_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD d._ART Programmieren-Klausur_NN ist_VAFIN in_APPR Arbeit_NN ._$. Dann_ADV kommt_VVFIN Grundlagen_NN der_ART Mathematik_NN an_APPR die_ART Reihe_NN ._$. Die_ART Noten_NN stehen_VVFIN noch_ADV nicht_PTKNEG fest_PTKVZ ._$. Bitte_NN machen_VVFIN Sie_PPER sich_PRF keine_PIAT <_NN REMOVED_PERSON_ENTITY_NE >_CARD wegen_APPR der_ART Klausureneinsicht_NN ._$. Auch_ADV wenn_KOUS die_ART zwei_CARD Wochen_NN Klausureneinsicht_NN um_APPR sind_VAFIN ,_$, haben_VAFIN Sie_PPER noch_ADV Gelegenheit_NN ,_$, in_APPR die_ART Klausur_NN reinzuschauen_VVIZU ._$. Ich_PPER mache_VVFIN normalerweise_ADV beim_APPRART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN ,_$, die_PRELS es_PPER Ihnen_PPER erlauben_VVINF sollten_VMFIN die_ART Bewertung_NN nachzuvollziehen_VVIZU ._$. Ausserdem_NN stehe_VVFIN ich_PPER auch_ADV später_ADJD für_APPR Rückfragen_NN noch_ADV zur_APPRART Verfügung_NN ._$. Mit_APPR besten_ADJA Grüßen_NN ,_$, <_CARD PERSONAL_GREETING_REMOVEMENT_NE >_NE ._$. <_XY REMOVED_PERSON_ENTITY_NE >_NE ._$. 

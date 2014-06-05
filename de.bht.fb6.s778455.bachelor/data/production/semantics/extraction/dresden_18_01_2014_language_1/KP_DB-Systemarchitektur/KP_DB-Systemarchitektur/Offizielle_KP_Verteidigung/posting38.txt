@@ -1,0 +1,10 @@
+ID: 2413
+CREATION_DATETIME: 1374444000000
+MODIFICATION_DATETIME: 1374444000000
+TITLE: Na gut, das bringt mir jetzt auch nichts. Ich bin wieder ins Rechnerkabinett gegangen, wo ich wenigst...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Na gut, das bringt mir jetzt auch nichts. Ich bin wieder ins Rechnerkabinett gegangen, wo ich wenigstens einen Rechner habe (wenn auch dort nirgends gleichzeitig SSHFS und Office installiert ist)
+TAGGED_CONTENT:

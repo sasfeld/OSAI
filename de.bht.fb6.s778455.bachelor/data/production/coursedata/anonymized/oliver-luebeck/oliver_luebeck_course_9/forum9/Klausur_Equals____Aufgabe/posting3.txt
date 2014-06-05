@@ -1,0 +1,12 @@
+ID: 67
+CREATION_DATETIME: 1182458040000
+MODIFICATION_DATETIME: 1182458040000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 65
+CONTENT:
+   
+das hängt wahrscheinlich damit zusammen, dass char ein primitiver Datentyp ist, String aber ein referentieller. hier werden wahrscheinlich nicht die Werte verglichen, sondern die Bezeichner, also wäre s1 ungleich s2, false. Weil die Werte bei referentiellen Typen nicht direkt dort gespeichert werden, aber ohne Gewähr. 
+
+    
+TAGGED_CONTENT:

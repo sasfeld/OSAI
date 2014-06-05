@@ -1,0 +1,14 @@
+ID: 62
+CREATION_DATETIME: 1290088320000
+MODIFICATION_DATETIME: 1290088320000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 60
+CONTENT:
+ 
+Hallo an alle!
+Ich kann leider heute abend nicht teilnehmen. Bitte daran denken die Webkonferenz aufzuzeichnen.
+Danke
+Gruß
+    
+TAGGED_CONTENT:

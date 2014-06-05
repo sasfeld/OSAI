@@ -1,0 +1,10 @@
+ID: 888
+CREATION_DATETIME: 1354057200000
+MODIFICATION_DATETIME: 1354057200000
+TITLE: I just thought about packing things as dense in memory as possible. Since malloc() should always retu...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 884
+POSTING_TYPE: comment
+CONTENT:
+I <NAME_CORPUS_REPLACEMENT> thought about packing things as dense in memory as possible. Since malloc() should always return aligned addresses, I came to the conclusion to always round the requested memory up to the next machine word size.
+TAGGED_CONTENT:

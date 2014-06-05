@@ -1,0 +1,12 @@
+ID: 148
+CREATION_DATETIME: 1348264800000
+MODIFICATION_DATETIME: 1348351200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wenn ich die KI starte, findet er einen Sprung, obwohl <NAME_CORPUS_REPLACEMENT> existiert, der Zug beinhaltet auch etwas merkwürdige Zeichen: I�<7
+Ich habe mal in Zeile 362 das 'feldZurueckwandeln' weggenommen und es funktionierte wie zuvor beabsichtigt.
+Es kommt auch <REMOVED_PERSON_ENTITY>, dass ein <REMOVED_PERSON_ENTITY> auf eine lokale Variable zurückgegeben wird.
+http://pastebin.com/BVKCAkqe
+TAGGED_CONTENT:

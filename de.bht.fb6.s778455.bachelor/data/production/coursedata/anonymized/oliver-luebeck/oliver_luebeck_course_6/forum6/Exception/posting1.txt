@@ -1,0 +1,14 @@
+ID: 9
+CREATION_DATETIME: 1286604240000
+MODIFICATION_DATETIME: 1286604240000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+In der LE02 werden manchmal "IOException" geworfen und manchmal "Exception". Es erschließt sich mir nicht ganz, wann ich welche verwenden muss.
+Bei dem Einlesen eines Objektes möchte Eclipse die "Exception" haben und beim Ausgeben eines Objektes die "IOException". Ich verstehe nicht den Unterschied.
+Oder gibt es keine Erklärung und man muss das sich einfach merken?
+Vielleicht weiß jemand eine Antwort darauf?!
+    
+TAGGED_CONTENT:

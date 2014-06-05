@@ -1,0 +1,22 @@
+ID: 194785
+CREATION_DATETIME: 1358603792
+MODIFICATION_DATETIME: 1358603792
+TITLE: Re: Gruppenübungen
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=72341#194785
+TOPIC_ZOOM_TAG: value:Bücher;weight:1.0;significance:5.80279623892246;degreegeneralization:5;uri:21981657
+TOPIC_ZOOM_TAG: value:Presse, Druck und Verlagswesen;weight:1.0;significance:3.89973203213328;degreegeneralization:4;uri:21990174
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:Kapitel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wochenende;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skriptes;weight:0.0;uri:;postag:NN
+POS_TAG: value:bung;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 194729
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+schauen Sie für Gruppenübung D einmal ins Kapitel 9. 7 des Skriptes.
+Schönes Wochenende, <REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NN >_CARD <_XY REMOVED_PERSON_ENTITY_NE >_CARD ,_$, schauen_VVINF Sie_PPER für_APPR Gruppenübung_NN D_NE einmal_ADV ins_APPRART Kapitel_NN 9_CARD ._$. 7_CARD des_ART Skriptes_NN ._$. Schönes_ADJA Wochenende_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ._$. 

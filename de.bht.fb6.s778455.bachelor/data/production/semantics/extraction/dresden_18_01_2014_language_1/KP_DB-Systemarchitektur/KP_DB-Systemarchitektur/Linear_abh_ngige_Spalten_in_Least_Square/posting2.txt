@@ -1,0 +1,12 @@
+ID: 2242
+CREATION_DATETIME: 1373925600000
+MODIFICATION_DATETIME: 1373925600000
+TITLE: OK, jetzt habe ich ein Programm, das Matrix ins RowEchelonForm finden kann. Damit kann man linear abh...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2241
+POSTING_TYPE: comment
+CONTENT:
+OK, jetzt habe ich ein Programm geschrieben, das Matrix ins RowEchelonForm wechseln kann. Damit kann man linear abhaengigge <REMOVED_PERSON_ENTITY> entwerfen. 
+
+Kann ich jetzt die . cpp Datei veraenderen? Oder sollen wir irgendwann treffen und zusammen die Klasse anpassen?
+TAGGED_CONTENT:

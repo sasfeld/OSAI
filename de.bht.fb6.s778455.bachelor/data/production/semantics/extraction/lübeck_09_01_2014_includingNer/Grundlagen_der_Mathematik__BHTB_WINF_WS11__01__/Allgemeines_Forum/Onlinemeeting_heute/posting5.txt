@@ -1,0 +1,9 @@
+ID: 116459
+CREATION_DATETIME: 1326903932
+MODIFICATION_DATETIME: 1326903932
+TITLE: Re: Onlinemeeting heute
+NER_TAG: value:LG;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+PARENT_POSTING_ID: 116456
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>, also ich habe mir aufgeschrieben das erst am 25. 01. wieder <REMOVED_PERSON_ENTITY> ist. LG <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

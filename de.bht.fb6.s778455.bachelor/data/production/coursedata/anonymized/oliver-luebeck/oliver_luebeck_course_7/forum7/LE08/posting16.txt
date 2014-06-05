@@ -1,0 +1,28 @@
+ID: 19
+CREATION_DATETIME: 1304613120000
+MODIFICATION_DATETIME: 1304613120000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 18
+CONTENT:
+ 
+Hallo 
+
+Dein Problem ist, dass du versuchst von "Außen" auf eine private Variable zuzugreifen.
+Auf die Variable farbe kann nur die Klasse EinfachesAuto selbst zugreifen.
+Um dein Problem zu lösen musst du entweder die Variable farbe auf public setzen, das würde allerdings dem Prinzip der Kapselung der Objektorientierten Programmierung widersprechen.
+Oder aber, du schreibst dir eine Methode die public ist und die Variable farbe zurückliefert.
+
+z.B.
+
+public String getFarbe() {
+return this.farbe;
+}
+
+Nun kannst du auch aus AutoTest durch auto1.getFarbe() die Farbe herausbekommen.
+
+Die sogenannten Zugriffsmodifizierer findest du in LE06, Kapitel 3
+
+Gruß, 
+    
+TAGGED_CONTENT:

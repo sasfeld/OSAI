@@ -1,0 +1,30 @@
+ID: 2769
+CREATION_DATETIME: 1384038000000
+MODIFICATION_DATETIME: 1384124400000
+TITLE: Die Fehlermeldung springt einem, wenn man bisschen runterscrollt, ins Gesicht.
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2768
+POSTING_TYPE: answer
+CONTENT:
+Die Fehlermeldung springt einem, wenn man bisschen runterscrollt, ins Gesicht.
+
+```
+
+java. lang. IllegalStateException: Neither BindingResult nor plain target object for bean name 'registrationForm' available as request attribute
+
+```
+
+Schau dir im Videoshop, die ShopController. register() Methode an und vergleiche was in deiner WelcomeController. manage() Methode fehlt.
+
+Zusätzlich könntest du dir mal im aktuellsten Videoshop angucken, dass man auch Messages an die Validierung anhängen kann (siehe RegistrationForm). Außerdem bietet Thymeleaf mit th:errorclass einen Shortcut um die Klasse im Fehlerfall zu setzen, ist auch im aktuellen Videoshop zu sehen.
+
+Zu deiner Requisite Klasse.
+
+* Mir ist überhaupt nicht klar wieso dort ein name sowie id Attribute deklariert ist, beides ist schon im Product zu finden und ist in der Javadoc nachlesbar. 
+
+* Du hast vergessen den passenden Superkonstruktor aus der Produktklasse aufzurufen, dem würde ich unter anderem den Namen übergeben. Wenn du @SupressWarnings in Verbindung mit Salespoint benutzt, machst du was falsch.
+
+* Der parameterlose Konstruktor darf natürlich nicht auskommentiert sein. @Entity auch wieder einkommentieren. ;)
+
+Dass der Tomcat nicht startete liegt vermutlich daran dass JPA vorher kaputt ging, u. a. weil Product ein name Attribute hat, aber auch deine Requisite Klasse, damit würde die Datenbanktabelle zwei name-Spalten bekommen und das geht nicht.
+TAGGED_CONTENT:

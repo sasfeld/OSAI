@@ -1,0 +1,15 @@
+ID: 12
+CREATION_DATETIME: 1192710480000
+MODIFICATION_DATETIME: 1192710480000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 11
+CONTENT:
+
+Liebe Frau , liebe Studierende,
+
+der  Text ist im Abschnitt Thema 3 LE03.
+
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

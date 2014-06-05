@@ -1,0 +1,13 @@
+ID: 2707
+CREATION_DATETIME: 1383519600000
+MODIFICATION_DATETIME: 1383519600000
+TITLE: ```
+Could not generate CGLIB subclass of class [class videoshop.controller.BossController]: Common c...
+PARENT_POSTING_ID: 2703
+POSTING_TYPE: comment
+CONTENT:
+```
+Could not generate CGLIB subclass of class [class videoshop. controller. BossController]: Common causes of this problem include using a final class or a non-visible class; nested exception is java. lang. IllegalArgumentException: Superclass has no null constructors but no arguments were given
+```
+Mit einem leeren default Ctor im Controller kann man das umgehen, <REMOVED_PERSON_ENTITY> denn Videoshop noch einmal upzudaten....
+TAGGED_CONTENT:

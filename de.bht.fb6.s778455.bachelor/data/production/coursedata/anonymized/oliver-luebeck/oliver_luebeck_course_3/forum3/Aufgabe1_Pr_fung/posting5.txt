@@ -1,0 +1,24 @@
+ID: 36
+CREATION_DATETIME: 1201203180000
+MODIFICATION_DATETIME: 1201203180000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 33
+CONTENT:
+
+    Da war ich nicht so sicher. Deswegen habe ich versucht eine Luxusausführung zu machen... dient ja auch der Übung...
+
+@Kkkk
+Danke Dir. da könntest Du recht haben. Ich dachte ich probier's halt mal aus.
+
+@Kkkkk
+ich hoffe auch =)
+
+Kann mir denn jemand sagen was ich da ändern könnte, damit ich der Variable "buff" das Zeug aus dem Zeichenpuffer zuweise?
+
+Ich weiß nicht so genau, wie ich nun die Methode für diesen Zweck daran ansetze. Pls help...
+
+Liebe Grüße
+
+    
+TAGGED_CONTENT:

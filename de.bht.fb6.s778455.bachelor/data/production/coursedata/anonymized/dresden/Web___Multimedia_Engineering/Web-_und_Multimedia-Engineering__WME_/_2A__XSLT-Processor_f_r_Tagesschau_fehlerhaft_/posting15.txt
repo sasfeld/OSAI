@@ -1,0 +1,9 @@
+ID: 899
+CREATION_DATETIME: 1354143600000
+MODIFICATION_DATETIME: 1354143600000
+TITLE: Uns war das Problem vorher nicht bekannt, falls einige wegen dieses NS-Eintrags nicht-valides HTML ab...
+PARENT_POSTING_ID: 869
+POSTING_TYPE: comment
+CONTENT:
+Uns war das Problem vorher nicht bekannt, falls einige wegen dieses NS-Eintrags nicht-valides HTML abgeben wird das KEINEN Punktabzug geben (der Rest soll trotzdem valide sein! ;))
+TAGGED_CONTENT:

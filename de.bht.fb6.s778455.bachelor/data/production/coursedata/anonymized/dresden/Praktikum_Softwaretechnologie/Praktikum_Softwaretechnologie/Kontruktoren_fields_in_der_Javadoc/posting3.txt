@@ -1,0 +1,9 @@
+ID: 2751
+CREATION_DATETIME: 1383951600000
+MODIFICATION_DATETIME: 1383951600000
+TITLE: Wenn man es wie im Videoshop macht, also so, dass jeder User nur einen UserAccount hat und keiner ist...
+PARENT_POSTING_ID: 2749
+POSTING_TYPE: comment
+CONTENT:
+Warum ist der Ctor nur package visible? Geht <NAME_CORPUS_REPLACEMENT> irgentwas mit der automatisch erstellten Managerklasse über Repository kaputt, wenn ich den nochmal selbst ableite?
+TAGGED_CONTENT:

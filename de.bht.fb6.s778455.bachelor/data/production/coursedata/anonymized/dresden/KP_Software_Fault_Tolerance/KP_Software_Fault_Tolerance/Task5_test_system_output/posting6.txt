@@ -1,0 +1,9 @@
+ID: 982
+CREATION_DATETIME: 1355871600000
+MODIFICATION_DATETIME: 1355871600000
+TITLE: No, your solution is fine. There should be exactly one whitespace between the column and the text aft...
+PARENT_POSTING_ID: 980
+POSTING_TYPE: comment
+CONTENT:
+No, your solution is fine. There should be exactly one whitespace between the column and the text afterwards. Python's print adds an whitespace automatically between the strings. Our script could have a regular expression for any number of blanks, but then we should also have a regular expression for *
+TAGGED_CONTENT:

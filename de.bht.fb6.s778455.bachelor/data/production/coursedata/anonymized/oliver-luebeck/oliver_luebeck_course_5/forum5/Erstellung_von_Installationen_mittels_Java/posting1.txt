@@ -1,0 +1,22 @@
+ID: 1
+CREATION_DATETIME: 1190619840000
+MODIFICATION_DATETIME: 1190619840000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo 
+
+Ich habe ein Frage, wie man ein Java Programm auf beliebigen Windows Systemen installiert.
+
+Folgendes Szenario:
+Ich erstelle ein Programm, aus dem ich eine EXE machen möchte, die ein User ausführen kann, bei dem es unerheblich ist, ob eine JVM installiert ist. Das Installationsprogramm, soll selbsttätig prüfen, ob eine benötigte Java Version installiert ist, z.B. JavaEE, ME bzw. ein beliebiger Typ. Die Installationsroutine soll dann daraufhin anbieten eine mit eingepackte Version der JVM zu installieren oder zu überspringen und mit der direkten Installation zu beginnen. Im abschließenden Prozeß sollte dann das Programm mit einem Icon, Namen und Programmordner über das Startmenü abgerufen werden können.
+
+Wie geht das? Welche Softwarelösung wird dafür angeboten?
+
+Ich weiß, daß es entsprechende Tools für .NET IDEs gibt, z.B. InstallShield etc. gibt es das auch für NB oder Eclipse? Ich selbst bin NB User.
+
+Vielen Dank,
+   
+TAGGED_CONTENT:

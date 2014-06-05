@@ -1,0 +1,12 @@
+ID: 2134
+CREATION_DATETIME: 1372543200000
+MODIFICATION_DATETIME: 1372543200000
+TITLE: Liest Du Dir die Aufgabe und Posts auch mal durch??? Gehrke hat gefragt ob du Generics verwendest. Sc...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2129
+POSTING_TYPE: comment
+CONTENT:
+Liest Du Dir die Aufgabe und Posts auch mal durch??? <REMOVED_PERSON_ENTITY> hat gefragt ob du Generics verwendest. Schau mal Deinen Code an... <REMOVED_PERSON_ENTITY> aus der Sektion Hints der Aufagbe: 'Think about type safety! Since we use Generics it is not enough to implement this with elements of type Object.' Dann habe ich Dir gesagt, m dass die Warnung auf Typunsicherheit hinweist... Bitte überarbeite Deine Code damit er Typsicher ist und poste ihn noch einmal, wenn es dann nicht geht. (Tip: Lade Dir mal den UnitTest runter und schaue wie er aufgebaut ist, vielleicht siehst du dann deinen Fehler.)
+
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

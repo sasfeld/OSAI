@@ -1,0 +1,9 @@
+ID: 429
+CREATION_DATETIME: 1350597600000
+MODIFICATION_DATETIME: 1382047200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Kann ich als Moderator den Kommentar https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/posts/229#post-428 zu einer Frage machen? 
+TAGGED_CONTENT:

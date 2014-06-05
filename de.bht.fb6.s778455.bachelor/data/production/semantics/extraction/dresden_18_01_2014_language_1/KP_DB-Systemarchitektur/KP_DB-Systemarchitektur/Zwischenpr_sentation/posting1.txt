@@ -1,0 +1,20 @@
+ID: 1852
+CREATION_DATETIME: 1369260000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Hallo zusammen,
+
+Ich würde gerne eine Zwischenpräsentation für unser Projekt ansetzen, damit <REMOVED_PERSON_ENTITY> und ein paar andere vom Lehrstuhl mal den aktuellen Stand sehen. Die Idee ist zu zeigen, was man schon hat, und was man noch machen will. Erste Zeitmessungen wäre dafür natürlich schön.
+
+Ich würde jetzt den 14. Juni 10 Uhr planen (Freitag in 3 Wochen).
+
+Passt das mit allen?
+
+Danke,
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

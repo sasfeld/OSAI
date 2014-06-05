@@ -1,0 +1,11 @@
+ID: 2146
+CREATION_DATETIME: 1372629600000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+eine Frage zu der Folie. Wieso wird die Netto-Datenrate bei der Manchester-Kodierung mit der 1/2 Bitrate angegeben wenn diese doch höher sein müsste als die <NAME_CORPUS_REPLACEMENT> NRZ die mit der Bitrate angegeben wird?
+edit: Doch noch eine Frage zur Manchester-Kodierung. Welche Pegeländerungen finden bei welchen Folgen oder <REMOVED_PERSON_ENTITY> <NAME_CORPUS_REPLACEMENT> 0 auf 1 oder 1 auf 0 statt?
+TAGGED_CONTENT:

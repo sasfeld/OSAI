@@ -1,0 +1,19 @@
+ID: 37
+CREATION_DATETIME: 1195554720000
+MODIFICATION_DATETIME: 1195554720000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 36
+CONTENT:
+
+Lieber , liebe Studierende,
+
+es geht mit Umwegen durch die Methode getViewport() der Klasse JScrollPane. Man muss noch das Component-Objekt des JViewport-Objektes holen, und es in ein JTextArea-Objekt casten, weil das JScrollPane ein JTextArea-Objekt zeigt, etwa so:
+
+((JTextArea) js.getViewport().getView()).getText()
+
+js ist das JScrolPane Objekt.
+
+Mit freundlichen Grüßen
+   
+TAGGED_CONTENT:

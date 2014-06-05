@@ -1,0 +1,12 @@
+ID: 2812
+CREATION_DATETIME: 1384210800000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hello there,
+as there is no exercice on friday for SE1 due to the <NAME_CORPUS_REPLACEMENT> of content, I was wondering if there will be one for SE2 tomorrow.
+Help would be much appreciated :)
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

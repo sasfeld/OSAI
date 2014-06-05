@@ -1,0 +1,9 @@
+ID: 2672
+CREATION_DATETIME: 1383174000000
+MODIFICATION_DATETIME: 1383174000000
+TITLE: Ja, das ist erstmal okay. Das kann man sicher sauberer lösen, das Projekt sollte aber so laufen.
+PARENT_POSTING_ID: 2662
+POSTING_TYPE: comment
+CONTENT:
+Ja, das ist erstmal okay. Das kann man sicher sauberer lösen, das Projekt sollte aber so laufen.
+TAGGED_CONTENT:

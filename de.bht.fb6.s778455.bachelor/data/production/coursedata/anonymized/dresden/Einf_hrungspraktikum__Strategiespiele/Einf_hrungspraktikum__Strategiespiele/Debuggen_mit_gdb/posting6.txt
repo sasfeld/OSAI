@@ -1,0 +1,9 @@
+ID: 1433
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1362870000000
+TITLE: Ich weiß nicht genau was du meinst. Passiert das nach dem run und hast du Ausgaben in deinem Programm...
+PARENT_POSTING_ID: 1428
+POSTING_TYPE: comment
+CONTENT:
+Ich weiß nicht genau was du meinst. Passiert das nach dem run und hast du Ausgaben in deinem Programm? Dann solltest du besser stdout und/oder stderr woanders hinleiten: ```(gdb) run 1>/dev/null 2>/dev/null 3output. txt```
+TAGGED_CONTENT:

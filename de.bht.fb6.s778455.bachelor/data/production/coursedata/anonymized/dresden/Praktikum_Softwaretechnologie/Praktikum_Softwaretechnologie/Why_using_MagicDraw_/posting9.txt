@@ -1,0 +1,12 @@
+ID: 2594
+CREATION_DATETIME: 1382306400000
+MODIFICATION_DATETIME: 1382392800000
+TITLE: I don't think I can be lucky to use a proprietary software instead of Free Software.
+But actually yo...
+PARENT_POSTING_ID: 2593
+POSTING_TYPE: comment
+CONTENT:
+I don't think I <NAME_CORPUS_REPLACEMENT> be lucky to use a proprietary software instead of Free Software.
+But actually your suggest brings us to a solution that is satisfaying for both sides. With papyrus uml I get a model. uml File, that <NAME_CORPUS_REPLACEMENT> be imported into MagicDraw. You then get the model, but not the diagram. But as you said, the Model is all you want (not the diagram). So <NAME_CORPUS_REPLACEMENT> you tell me, if this works out for you or the chair?
+EDIT: I have tested the import in MagicDraw and it seems to work. Maybe I <NAME_CORPUS_REPLACEMENT> send you the *. uml File so you <NAME_CORPUS_REPLACEMENT> check it out for yourself?
+TAGGED_CONTENT:

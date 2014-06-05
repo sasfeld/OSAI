@@ -1,0 +1,9 @@
+ID: 1185
+CREATION_DATETIME: 1362438000000
+MODIFICATION_DATETIME: 1362438000000
+TITLE: das ist alles Interaktion mit dem Nutzer, für dich nur im Bezug auf die Kommunikation mit dem mcp rel...
+PARENT_POSTING_ID: 1175
+POSTING_TYPE: comment
+CONTENT:
+das ist alles Interaktion mit dem Nutzer, für dich nur im Bezug auf die Kommunikation mit dem mcp relevant.
+TAGGED_CONTENT:

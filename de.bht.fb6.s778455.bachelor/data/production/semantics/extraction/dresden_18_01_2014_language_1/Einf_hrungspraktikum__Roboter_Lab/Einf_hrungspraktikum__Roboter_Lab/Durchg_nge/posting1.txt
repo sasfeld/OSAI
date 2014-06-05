@@ -1,0 +1,14 @@
+ID: 1528
+CREATION_DATETIME: 1363042800000
+MODIFICATION_DATETIME: 1385593200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Guten Tag,
+
+Ich habe die Aufteilung des Praktikums in 2 Durchgänge leider erst heute endeckt. Meinen Nachnamen nach käme in den ersten Durchgang. Doch der läuft leider schon. Hier setzt meine Frage an. Gibt es eine Möglichkeit, dass ich noch am 2. Durchgang teilnehmen kann, der am 18. 03 startet? Oder muss ich bis zum Sommersemester warten, bis ich das Einführungspraktikum nachholen kann? Würde es etwas bringen wenn ich zur Einführungsveranstaltung am 18. 03 gehe und versuche in diesen Durchgang kommen, <NAME_CORPUS_REPLACEMENT> ja auch einige für diesen Durchgang vorgesehene Studenten nich kommen werden, oder hätte das keinen Sinn?
+
+Schon mal danke im vorraus.
+TAGGED_CONTENT:

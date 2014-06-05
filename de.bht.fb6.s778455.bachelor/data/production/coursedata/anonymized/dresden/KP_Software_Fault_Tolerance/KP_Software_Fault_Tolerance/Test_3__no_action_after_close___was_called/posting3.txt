@@ -1,0 +1,13 @@
+ID: 668
+CREATION_DATETIME: 1352156400000
+MODIFICATION_DATETIME: 1352156400000
+TITLE: Yes, I already considered that.
+But why should I implement the same functionality twice? Now close a...
+PARENT_POSTING_ID: 667
+POSTING_TYPE: comment
+CONTENT:
+Yes, I already considered that.
+But why should I implement the same functionality twice? Now close and ~File do exactly the same. I would <NAME_CORPUS_REPLACEMENT> call close() in ~File.
+That's not what I would call intuitive ;)
+Anyway, it works now, thanks.
+TAGGED_CONTENT:

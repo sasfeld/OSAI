@@ -1,0 +1,9 @@
+ID: 401
+CREATION_DATETIME: 1350511200000
+MODIFICATION_DATETIME: 1350511200000
+TITLE: You can right click o
+PARENT_POSTING_ID: 400
+POSTING_TYPE: answer
+CONTENT:
+You <NAME_CORPUS_REPLACEMENT> right click on each link and download the file to your hard disc. Or use [vlc](http://videolan.org) and stream them.
+TAGGED_CONTENT:

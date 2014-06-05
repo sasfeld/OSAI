@@ -1,0 +1,11 @@
+ID: 193181
+CREATION_DATETIME: 1358098133
+MODIFICATION_DATETIME: 1358098133
+TITLE: Gruppenübungen
+PARENT_POSTING_ID: 0
+CONTENT:
+Hi zusammen,
+ich hätte gern gewusst, wie ich die Gruppenübungsaufgaben H und J angehe.
+H: Bestimmen Sie eine Matrix X, so dass XA=B gilt.
+J: Bestimmen Sie den Durchschnitt der von den gegebenen Mengen M1, M2 jeweils aufgespannten Unterräume des R^4. Wie mache ich das? Jemand eine Idee?GrüßeLars
+TAGGED_CONTENT:

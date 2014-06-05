@@ -1,0 +1,15 @@
+ID: 55
+CREATION_DATETIME: 1178547240000
+MODIFICATION_DATETIME: 1178547240000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 52
+CONTENT:
+  
+Zur Taschenrechneraufgabe...
+Ich habe die Klasse Rechenwerk.java mittels switch-Anweisung umgesetzt. Wie komme ich jetzt aber an den Ausdruck, sprich wie frage ich ab welche Rechenoperation gedrückt wurde (Division, Multiplikation, Addition, Subtraktion)? Ich bekomme immer etwas von wegen "cannot find symbol" oder "unreachable statement".
+Die Klasse Taschenrechner.java ist nicht komplett, oder? Da fehlt noch der Aufruf der Klasse zur Berechnung.
+
+Ganz schön viel für Donnerstagnachmittag ;)
+	
+TAGGED_CONTENT:

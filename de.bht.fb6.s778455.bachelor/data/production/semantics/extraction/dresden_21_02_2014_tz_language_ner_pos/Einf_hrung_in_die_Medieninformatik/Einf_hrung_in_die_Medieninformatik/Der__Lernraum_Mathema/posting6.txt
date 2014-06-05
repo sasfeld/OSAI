@@ -1,0 +1,17 @@
+ID: 196
+CREATION_DATETIME: 1349560800000
+MODIFICATION_DATETIME: 1349560800000
+TITLE: Also finden nächste W
+LANGUAGE: GERMAN
+NER_TAG: value:LR;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Woche;weight:0.0;uri:;postag:NN
+POS_TAG: value:Donnerstag;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorlesungen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 192
+POSTING_TYPE: comment
+CONTENT:
+Also finden nächste Woche nur V (Vorlesungen) statt?
+
+Und was ist eigentlich am Donnerstag LR um 16. 40?
+TAGGED_CONTENT:
+Also_ADV finden_VVFIN nächste_ADJA Woche_NN nur_ADV V_CARD -LRB-_TRUNC Vorlesungen_NN -RRB-_TRUNC statt_PTKVZ ?_$. Und_KON was_PWS ist_VAFIN eigentlich_ADV am_APPRART Donnerstag_NN LR_NE um_APPR 16_CARD ._$. 40_CARD ?_$. 

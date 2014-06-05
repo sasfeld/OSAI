@@ -1,0 +1,9 @@
+ID: 631
+CREATION_DATETIME: 1351724400000
+MODIFICATION_DATETIME: 1351724400000
+TITLE: Ist mir auch vollkommen unklar – wobei es beim RoboLab zumindest davon abhing, was der Betreuer wollt...
+PARENT_POSTING_ID: 607
+POSTING_TYPE: comment
+CONTENT:
+Ist mir auch vollkommen unklar – wobei es beim RoboLab zumindest davon abhing, was der Betreuer wollte (ich hatte damals Glück :) ). -- Notfalls gibts ja noch git svn ;)
+TAGGED_CONTENT:

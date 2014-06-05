@@ -1,0 +1,13 @@
+ID: 117565
+CREATION_DATETIME: 1327479748
+MODIFICATION_DATETIME: 1327479748
+TITLE: Re: Probeklausur
+LANGUAGE: GERMAN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:Habe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117563
+CONTENT:
+so lässt sich meine Lösung nun auch nachvollziehen... Habe vorher immer meinen Fehler gesucht. 
+TAGGED_CONTENT:
+so_ADV lässt_VVFIN sich_PRF meine_PPOSAT Lösung_NN nun_ADV auch_ADV nachvollziehen_VVINF ..._$( Habe_NN vorher_ADV immer_ADV meinen_PPOSAT Fehler_NN gesucht_VVPP ._$. 

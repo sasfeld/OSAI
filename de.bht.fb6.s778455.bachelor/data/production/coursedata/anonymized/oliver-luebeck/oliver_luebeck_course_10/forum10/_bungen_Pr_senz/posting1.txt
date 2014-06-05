@@ -1,0 +1,129 @@
+ID: 69
+CREATION_DATETIME: 1201247280000
+MODIFICATION_DATETIME: 1201247280000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo zusammen,
+
+ich hab mal eine Frage zu der CheckApp aus der 2. Präsenz. Ich habs soweit hingekriegt, dass sich die Farben ändern usw. Allerdings nicht unter Verwendung von einer "Buttongroup" (müsste es dann nicht viel mehr eine Checkboxgroup sein??). Sodass meine Implementierung der Anforderung "Immer nur eine Checkbox darf aktiv sein" vielleicht etwas umständlich ist!? Aber eine CheckBoxGroup sind dann eigentlich runde RadioButtons, aber in dem Bild in der Übung sind es quadratische CheckBoxen, deswegen hab ich es erstmal sein lassen.
+
+Und ich benutze nun zwar das JPanel, allerdings funktioniert das dann mit dem FlowLayout nicht. Also wenn man der Benutzer zB 10 Boxen haben möchte, dann sind nur die ersten 8 zu sehen, weil das Fenster nicht breit genug ist. Wenn ich mit Container und getContentPane arbeite, dann funktionierts (muss nur die eine Zeile mit "add (oben, BorderLayout.North)" rauskommentieren).
+
+Wie habt ihr das hinbekommen mit diesen Anforderungen JPanel und Buttongroup?
+
+Danke für eure/Ihre Tipps und Hinweise!
+
+ 
+
+import javax.swing.*;
+
+import java.awt.*;
+
+import java.awt.event.*;
+
+import java.io.*;
+
+import java.util.Random;
+
+public class CheckApp extends JFrame {
+
+private JCheckBox[] jcb;
+
+privateintsize;
+
+public CheckApp(int size) {
+
+JPanel oben = new JPanel();
+
+// Container oben = getContentPane();
+
+// oben.setLayout(new FlowLayout());
+
+jcb = new JCheckBox[size];
+
+this.size = size;
+
+for (int i = 0; i < size; i++) {
+
+jcb[i] = new JCheckBox(Integer.toString(i + 1));
+
+Random r = new Random();
+
+jcb[i].setOpaque(true);
+
+jcb[i].setBackground(new Color(r.nextInt(256), r.nextInt(256), r
+
+.nextInt(256)));
+
+oben.add(jcb[i]);
+
+jcb[i].addActionListener(new MyListener());
+
+}
+
+Random rCheck = new Random();
+
+int j = rCheck.nextInt(size);
+
+jcb[j].setSelected(true);
+
+add(oben, BorderLayout.NORTH);
+
+setTitle("CheckApp");
+
+setSize(400, 300);
+
+setLocationRelativeTo(null);
+
+setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+setVisible(true);
+
+this.setAlwaysOnTop(true);
+
+}
+
+class MyListener implements ActionListener {
+
+public void actionPerformed(ActionEvent e) {
+
+for (int i = 0; i < size; i++) {
+
+jcb[i].setSelected(false);
+
+}
+
+Random r = new Random();
+
+((JCheckBox) e.getSource()).setBackground(new Color(r.nextInt(256),
+
+r.nextInt(256), r.nextInt(256)));
+
+((JCheckBox) e.getSource()).setSelected(true);
+
+}
+
+}
+
+public static void main(String[] args) throws NumberFormatException,
+
+IOException {
+
+int anzahl;
+
+System.out.print("Wie viele Checkboxen? ");
+
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+anzahl = Integer.parseInt(br.readLine());
+
+new CheckApp(anzahl);
+
+}
+
+}
+      
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 1930
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: Die Zeichenfolge "DumbTester" kommt übrigens nirgends im gesamten SVN vor.
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Die Zeichenfolge "DumbTester" kommt übrigens nirgends im gesamten SVN vor.
+TAGGED_CONTENT:

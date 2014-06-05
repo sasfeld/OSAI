@@ -1,0 +1,10 @@
+ID: 2158
+CREATION_DATETIME: 1372802400000
+MODIFICATION_DATETIME: 1372888800000
+TITLE: Wenn du Funktion flushResult etwas machen würde, dann könnten wir das auch in selbst in der predictTi...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2155
+POSTING_TYPE: comment
+CONTENT:
+Wenn du Funktion flushResult etwas machen würde, dann könnten wir das auch in selbst in der predictTime aufrufen oder an die richtige Stelle kopieren. Allerdings passiert bisher ja nichts in flushResults (zumindest in dem Stand, der im SVN ist)
+TAGGED_CONTENT:

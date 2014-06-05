@@ -1,0 +1,17 @@
+ID: 63
+CREATION_DATETIME: 1290813840000
+MODIFICATION_DATETIME: 1290813840000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Am Ende der LE8 steht, dass die Aufgabe nicht eingesendet werden soll, aber für LE9 wichtig ist.
+Im Moodle gibt's allerdings einen Uploadtermin.
+
+Daher meine Frage: hochladen oder nicht?
+Danke im Voraus für die Antwort.
+
+Gruß 
+	
+TAGGED_CONTENT:

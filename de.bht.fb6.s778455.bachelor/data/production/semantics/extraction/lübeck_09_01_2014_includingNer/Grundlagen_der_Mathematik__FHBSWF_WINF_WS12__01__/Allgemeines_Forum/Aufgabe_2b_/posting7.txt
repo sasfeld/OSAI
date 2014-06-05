@@ -1,0 +1,8 @@
+ID: 184471
+CREATION_DATETIME: 1354467004
+MODIFICATION_DATETIME: 1354467004
+TITLE: Re: Aufgabe 2b)
+PARENT_POSTING_ID: 184459
+CONTENT:
+Ja, stimmt, schon wieder falsch. Jetzt gebe ich es auf. Aber ich hoffe, es ist klar was gemeint ist. Eben alle <REMOVED_PERSON_ENTITY> des aktuellen Knotens aufschreiben und die <REMOVED_PERSON_ENTITY> muss 0 sein.
+TAGGED_CONTENT:

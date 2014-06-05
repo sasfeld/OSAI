@@ -1,0 +1,13 @@
+ID: 167083
+CREATION_DATETIME: 1349374515
+MODIFICATION_DATETIME: 1349374515
+TITLE: Re: Lerndiskussion nach den Webkonferenzen
+POS_TAG: value:Mittwoch;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sachen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 166943
+CONTENT:
+Hallo zusammen,
+ja ich wäre auch dabei. Einige Sachen waren mir wieder gleich klar. Andere hingegen überhaupt nicht.
+Bis Mittwoch <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, ja_ADV ich_PPER wäre_VAFIN auch_ADV dabei_PROAV ._$. Einige_PIAT Sachen_NN waren_VAFIN mir_PPER wieder_ADV gleich_ADV klar_ADJD ._$. Andere_PIS hingegen_ADV überhaupt_ADV nicht_PTKNEG ._$. Bis_APPR Mittwoch_NN <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

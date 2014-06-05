@@ -1,0 +1,12 @@
+ID: 191725
+CREATION_DATETIME: 1357639575
+MODIFICATION_DATETIME: 1357639575
+TITLE: Re: Vektoren linear abhängig/ unabhängig mit LGS lösen
+PARENT_POSTING_ID: 191639
+CONTENT:
+Hallo Herr Prof. Dr. <REMOVED_PERSON_ENTITY>,
+Ich möchte hier im Matheforum vor Ihnen und den anderen Kommilitonen zwar nicht total dumm „rüberkommen“ aber wenn ich nach erneutes Rechen komme ich auf folgende Stufenmatrix:
+1 0 0 0  -2 | 00 1 0 0   1 | 00 0 1 0   0 | 00 0 0 1  -1 | 0Jetzt komme ich zu einer völlig neuen Lösung. Da in der letzen <REMOVED_PERSON_ENTITY> nun keine wahre Aussage mehr steht, würde ich sagen es gibt keine Lösung. Somit sind die Vektoren linear unabhängig.
+Um Rechenfehler auszuschließen habe ich diese Lösung (Matrix in Stufenform) mittels WolframAlpha ermittelt.
+Würde mich über Hilfe freuen. Besten Dank und GrußPascal <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

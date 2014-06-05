@@ -1,0 +1,9 @@
+ID: 831
+CREATION_DATETIME: 1353538800000
+MODIFICATION_DATETIME: 1353884400000
+TITLE: Dann müsste der untere Teil vom MDR ja auch unformatiert sein (welches er aber nicht, da wir die Date...
+PARENT_POSTING_ID: 823
+POSTING_TYPE: answer
+CONTENT:
+Dann müsste der untere Teil vom MDR ja auch unformatiert sein (welches er aber nicht, <NAME_CORPUS_REPLACEMENT> wir die Daten in eine Tabelle eingepflegen lassen)? Der Screen wurde vom Firefox gemacht, welcher als einziger die tagesschau-Seite korrekt anzeigen konnte. Also hätte theoretisch das auch hier funktionieren müssen?!
+TAGGED_CONTENT:

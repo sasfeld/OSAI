@@ -1,0 +1,9 @@
+ID: 1142
+CREATION_DATETIME: 1361401200000
+MODIFICATION_DATETIME: 1361401200000
+TITLE: Okay, I checked that. All mallocs seem to complete fine.  No calls to free were made, when the error ...
+PARENT_POSTING_ID: 1116
+POSTING_TYPE: comment
+CONTENT:
+Okay, I checked that. All mallocs seem to complete fine.  No calls to free were made, when the error occurs. I had no problems with other programs either. 
+TAGGED_CONTENT:

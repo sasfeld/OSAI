@@ -1,0 +1,11 @@
+ID: 247
+CREATION_DATETIME: 1349820000000
+MODIFICATION_DATETIME: 1362783600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Findet denn der LR am <REMOVED_PERSON_ENTITY> den 11. 10 statt oder auch erst in der nächsten Woche?
+Kann nirgendwo etwas dazu finden.
+Danke!
+TAGGED_CONTENT:

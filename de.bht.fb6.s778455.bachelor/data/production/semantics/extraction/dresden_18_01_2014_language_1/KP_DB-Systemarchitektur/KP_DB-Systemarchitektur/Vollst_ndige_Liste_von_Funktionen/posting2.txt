@@ -1,0 +1,18 @@
+ID: 2078
+CREATION_DATETIME: 1371506400000
+MODIFICATION_DATETIME: 1371506400000
+TITLE: Du hast jetzt das 1.0 Manual verlinkt. Heißt das, du hast bisher also erstmal nur die Funktionen aus ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2077
+POSTING_TYPE: answer
+CONTENT:
+Du hast jetzt das 1. 0 Manual verlinkt. Heißt das, du hast bisher also erstmal nur die Funktionen aus der 1. 0 rausgelesen?
+
+Mit den nachfolgenden Versionen kam ja dann noch einiges dazu. Hier zum Beispiel ein netter Artikel dazu:
+
+http://streamcomputing.eu/blog/2011-11-19/difference-between-opencl-1-2-and-1-1/
+
+Das betrifft zwar die Unterschiede zwischen 1. 1 und 1. 2, ist aber auch <NAME_CORPUS_REPLACEMENT> Intresse.
+
+Zu den Metadaten: gut wäre es, wenn man in irgendeiner Form abbilden könnte, ab welcher Version <NAME_CORPUS_REPLACEMENT> OpenCL eine spezielle Funktion unterstützt wird und ob dafür noch bestimmte Extensions oder Device Capabilities benötigt werden.
+TAGGED_CONTENT:

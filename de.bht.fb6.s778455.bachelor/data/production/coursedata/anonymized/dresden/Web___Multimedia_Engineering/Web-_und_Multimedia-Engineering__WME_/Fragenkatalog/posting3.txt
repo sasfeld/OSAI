@@ -1,0 +1,9 @@
+ID: 1095
+CREATION_DATETIME: 1359759600000
+MODIFICATION_DATETIME: 1359759600000
+TITLE: Und ich schätze mal, bei den anderen Foliensätzen ohne Frage müssen wir alles drauf haben? :D
+PARENT_POSTING_ID: 1071
+POSTING_TYPE: comment
+CONTENT:
+Und ich schätze mal, bei den anderen Foliensätzen ohne Frage müssen wir alles drauf haben? :D
+TAGGED_CONTENT:

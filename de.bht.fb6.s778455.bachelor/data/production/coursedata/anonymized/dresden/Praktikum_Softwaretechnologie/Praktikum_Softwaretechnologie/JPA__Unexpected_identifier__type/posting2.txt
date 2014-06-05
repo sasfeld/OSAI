@@ -1,0 +1,24 @@
+ID: 3054
+CREATION_DATETIME: 1385679600000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: @MapsId ... noch nie gehört. 
+
+Euer Code ist mir unnötig komplex. Wozu eine extra UserId wenn du de...
+PARENT_POSTING_ID: 3052
+POSTING_TYPE: answer
+CONTENT:
+@MapsId ... noch nie gehört. 
+Euer Code ist mir unnötig komplex. Wozu eine extra UserId wenn du den UserIdentifier direkt nutzen kannst??
+In unserem UserAccount sieht das so aus:
+```
+@EmbeddedId
+@AttributeOverride(name = "id", column = @Column(name = "USERACCOUNT_ID"))
+private UserAccountIdentifier userAccountIdentifier;
+```
+> Wraps UserAccount and UserAccountIdentifier to hide some funtionality which is not needed
+Dann benutzt die Funktionalität doch einfach nicht.
+> and to fit Id to this apps style and interfaces like Serializable
+Man kann es sich auch unnötig schwer machen.
+Was macht denn der UserAccountManager **in** deinem User, das ist sehr sehr unschön. 
+Ich seh auch nirgends, dass du den UserAccount via . save() speicherst, verlässt du dich aufs cascading? Es ist zwar nirgends so richtig dokumentiert (und vielleicht ändern wir das noch), aber ohne save wird das Passwort nicht gehashed.
+TAGGED_CONTENT:

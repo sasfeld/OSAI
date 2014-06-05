@@ -1,0 +1,11 @@
+ID: 117563
+CREATION_DATETIME: 1327425286
+MODIFICATION_DATETIME: 1327425286
+TITLE: Re: Probeklausur
+PARENT_POSTING_ID: 117555
+CONTENT:
+Achtung! Die Loesung zu Aufgabe 9 muss korrigiert heissen: 
+t * (2, 2, 1) + (-1, -1, 0)
+Danke an die Lerngruppe von Fr. <REMOVED_PERSON_ENTITY>, mich auf den Fehler aufmerksam gemacht zu haben.
+<REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,11 @@
+ID: 97754
+CREATION_DATETIME: 1285329237
+MODIFICATION_DATETIME: 1285329237
+TITLE: Web conferencing
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Studierende:
+Bitte beachten Sie die Hinweise zum Web conferencing, dessen Zugang links unten in Moodle angeklickt wird. Hilfe erhalten Sie vom technischen Support der virtuellen Fachhochschule.
+Sie brauchen ein Headset und idealerweise eine Webcam (optional) um mit Ihrem Tutor zu den Video-Chat-Zeiten zufriedenstellend kommunizieren zu koennen.
+<REMOVED_PERSON_ENTITY> Prof. <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

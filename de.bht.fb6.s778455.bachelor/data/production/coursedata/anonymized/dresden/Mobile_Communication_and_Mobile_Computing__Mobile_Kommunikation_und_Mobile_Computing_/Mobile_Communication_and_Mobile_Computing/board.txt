@@ -1,0 +1,14 @@
+ID: 2072443
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Mobile Communication and Mobile Computing
+INTRO: The lecture gives an introduction into principles, standards and solutions for mobile
+communication and its applications within the area of mobile computing. Based on the
+physical foundations of mobile communication channels, typical standards such as GSM
+(Global System for Mobile Communication) are presented. Techniques for locating mobile
+users and mobile devices also present a major focus area. In the area of application
+support, typical software architectures and services for mobile computing are discussed.
+Examplesof application areas covered are sales support and service engineering. An
+outlook towards high performance communication in mobile networks and related
+applications concludes the lecture.
+TYPE: null

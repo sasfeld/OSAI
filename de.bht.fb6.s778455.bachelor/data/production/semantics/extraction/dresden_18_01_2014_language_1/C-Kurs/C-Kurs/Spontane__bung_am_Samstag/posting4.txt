@@ -1,0 +1,10 @@
+ID: 694
+CREATION_DATETIME: 1352329200000
+MODIFICATION_DATETIME: 1352329200000
+TITLE: Ah danke. ich dachte es wäre einfach zweiwöchig
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 689
+POSTING_TYPE: comment
+CONTENT:
+Ah danke. ich dachte es wäre einfach zweiwöchig
+TAGGED_CONTENT:

@@ -1,0 +1,58 @@
+ID: 1072
+CREATION_DATETIME: 1358809200000
+MODIFICATION_DATETIME: 1385420400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Die Berechnung der aktuellen Punkte auf http://mt.inf.tu-dresden. de/lehre/wme/material/Ergebnisse_Web. htm erfolgt, wenn mich nicht alles täuscht nach der Formel
+
+```ruby
+
+ (%1 + %2 + 0) / 3 = Bisheriges Übungsergebnis (in %)
+
+```
+
+Zitat Einführungsfolie
+
+> Qualifikation bzw. Zulassung zur Klausur:
+
+> Mindestens 50% der Übungspunkte
+
+Mit anderen Worten, zur Prüfungsqualifikation muss gelten
+
+```ruby
+
+ (%1 + %2 + %3) >= 150
+
+```
+
+Mal angenommen %1 + %2 sei 149
+
+Gemäß der Bepunktungsaufschlüsselung für Aufgabe 3 gilt
+
+```ruby
+
+ (Weitere Anforderungen(3)) / (100%(3)) = 4P / 48P = 8, 3%
+
+```
+
+Kann man also davon ausgehen, dass es in diesem Fall (leicht) ausreichen würde
+
+* Ein korrekt benanntes, leeres Android 4. 2 Projekt (mit vollständigem JavaDoc aller eigenen Methoden) 
+
+* und eine <REMOVED_PERSON_ENTITY> mit den geforderten Informationen zu erstellen
+
+* alles korrekt zu archivieren und zu benennen
+
+* und rechtzeitig abzugeben?
+
+(sowie, falls nötig, für die Präsentation zu votieren)
+
+oder gibt es eine Mindestanforderung an Funktionalität, deren Nichterfüllung eine Bepunktung ausschließt?
+
+Mir ist klar dass eine solche "Lösung" der Aufgabe nicht erwünscht ist, aber ist sie erlaubt?
+
+Das ist bitte nicht als Kritik an der Übung zu verstehen, sondern lediglich als Versuch der Effizienzmaximierung in Zeiten der obligatorischen prüfungsbedingten Semesterendphasenzeitverfügbarkeitsdezimierung ;)
+TAGGED_CONTENT:

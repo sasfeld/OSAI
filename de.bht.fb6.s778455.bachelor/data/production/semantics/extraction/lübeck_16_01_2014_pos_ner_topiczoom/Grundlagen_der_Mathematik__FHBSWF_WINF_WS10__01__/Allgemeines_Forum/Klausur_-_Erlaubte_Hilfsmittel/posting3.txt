@@ -1,0 +1,12 @@
+ID: 97785
+CREATION_DATETIME: 1297110261
+MODIFICATION_DATETIME: 1297110261
+TITLE: Re: Klausur - Erlaubte Hilfsmittel
+POS_TAG: value:Probeklausur;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hilfsmittel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kollege;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97784
+CONTENT:
+Bei der Probeklausur orientiere ich mich an Kollege <REMOVED_PERSON_ENTITY>. Erlaubte Hilfsmittel sind wie gesagt mehr.
+TAGGED_CONTENT:
+Bei_APPR der_ART Probeklausur_NN orientiere_VVFIN ich_PPER mich_PRF an_APPR Kollege_NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE ._$. Erlaubte_ADJA Hilfsmittel_NN sind_VAFIN wie_KOKOM gesagt_VVPP mehr_PIS ._$. 

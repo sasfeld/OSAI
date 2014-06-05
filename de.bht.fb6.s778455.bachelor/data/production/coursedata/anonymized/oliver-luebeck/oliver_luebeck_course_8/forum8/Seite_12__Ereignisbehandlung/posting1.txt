@@ -1,0 +1,18 @@
+ID: 48
+CREATION_DATETIME: 1198587000000
+MODIFICATION_DATETIME: 1198587000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Sg
+(oder an alle mit Ahnung),
+
+auf Seite 12, LE07 wird die Ereignisauswertung als Flußdiagramm vorgestellt.
+Da steht u.a. : " Wird der Button b1 gedrückt erzeugt das Programm ein Event-Objekt. Der "Browser" erkennt das Ereignis und....
+Was ist denn hier eigentlich mit "Browser" gemeint?
+
+MfG
+   
+TAGGED_CONTENT:

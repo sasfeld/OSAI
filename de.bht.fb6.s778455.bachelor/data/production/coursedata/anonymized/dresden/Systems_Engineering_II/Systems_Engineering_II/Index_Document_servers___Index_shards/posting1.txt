@@ -1,0 +1,14 @@
+ID: 2576
+CREATION_DATETIME: 1381960800000
+MODIFICATION_DATETIME: 1384902000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+So regarding to my last question, I now found that the index is a list of URLs that stored in some kind of database, is it correct?
+If so I do have another two question:
+1. Are the Index server and Document server also the database that store the corresponding information? Or they are <NAME_CORPUS_REPLACEMENT> servers and there is separate database?
+2. Are all the shards contains exactly the same information? If they are, then my understanding "the index is a list of URLs" doesn't make sense; if they are not, what if the shard selected by load balancer to process the enquiry doesn't have the information for this enquiry (I think it's not gonna be re-directed to other shards)?
+A bit confusing...
+Thanks for anyone that <NAME_CORPUS_REPLACEMENT> help.
+TAGGED_CONTENT:

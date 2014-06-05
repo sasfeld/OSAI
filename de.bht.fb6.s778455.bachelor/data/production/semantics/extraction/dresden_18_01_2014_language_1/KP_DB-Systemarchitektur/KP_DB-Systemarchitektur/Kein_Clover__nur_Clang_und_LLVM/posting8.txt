@@ -1,0 +1,12 @@
+ID: 1886
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: Nein. Ich nutze z.B. g++. Das "LLVM-Zeugs" ist eine Sammlung von ganz normalen C++-Bibliotheken.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: comment
+CONTENT:
+Nein. Ich nutze z. B. g++. Das "LLVM-Zeugs" ist eine <REMOVED_PERSON_ENTITY> <NAME_CORPUS_REPLACEMENT> ganz normalen C++-<REMOVED_PERSON_ENTITY>.
+
+Schau mal in die Makefile <NAME_CORPUS_REPLACEMENT> modul_loader, dort steht drin, wie man llvm-config korrekt benutzen muss. llvm-config besorgt dir automatisch die richtigen Flags für Compiler und <REMOVED_PERSON_ENTITY>, sodass es mit LLVM kompiliert. (dadurch funktioniert auch der Trick mit clanc-llvm/bin in PATH)
+TAGGED_CONTENT:

@@ -1,0 +1,39 @@
+ID: 97811
+CREATION_DATETIME: 1296067180
+MODIFICATION_DATETIME: 1296067300
+TITLE: Ergaenzendes zum Skalarprodukt
+TOPIC_ZOOM_TAG: value:Mathematik;weight:8.0;significance:6.91670740451264;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Vektorräume;weight:4.0;significance:5.64824422899284;degreegeneralization:8;uri:20146881
+TOPIC_ZOOM_TAG: value:Lineare Algebra;weight:4.0;significance:5.64824422899284;degreegeneralization:7;uri:20881366
+TOPIC_ZOOM_TAG: value:Algebraische Begriffe;weight:4.0;significance:5.64824422899284;degreegeneralization:7;uri:20767840
+TOPIC_ZOOM_TAG: value:Algebra;weight:4.0;significance:5.64824422899284;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Vektoren;weight:4.0;significance:5.64824422899284;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:8.0;significance:3.97687513063715;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:8.0;significance:3.11308192413803;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:9.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:8.0;significance:2.07794380871622;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:HTML;weight:1.0;significance:1.03415023706353;degreegeneralization:8;uri:20901715
+TOPIC_ZOOM_TAG: value:Beschreibungssprachen;weight:1.0;significance:0.844733782370372;degreegeneralization:7;uri:20900644
+TOPIC_ZOOM_TAG: value:Formale Sprachen;weight:1.0;significance:0.78131063477396;degreegeneralization:6;uri:21978155
+TOPIC_ZOOM_TAG: value:Computersprachen;weight:1.0;significance:0.780930767357429;degreegeneralization:6;uri:19949137
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:0.556523011981882;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:0.55642241341357;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:0.493056961048997;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:0.478904428867518;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:0.445226307151229;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:0.427592684036971;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:0.426089043008837;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:0.406852188045642;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:0.298547048297862;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:0.294733157730148;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:0.242365739546187;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 0
+CONTENT:
+Ergaenzend aus http://www.mathemator.org/Media/Themen/SkalProd0. html:
+Allgemein heißt eine [...] Verknüpfung in einem Vektorraum ein Skalarprodukt, wenn die folgenden Eigenschaften vorliegen:
+- Die Verknüpfung zweier Vektoren ergibt stets eine reelle <REMOVED_PERSON_ENTITY>.
+- Das Skalarprodukt eines Vektors mit sich selber ist nie negativ; es hat genau dann den Wert null, wenn es sich bei dem Vektor um den Nullvektor handelt.
+- Die Verknüpfung ist kommutativ.
+- Hinsichtlich der Addition im Vektorraum gilt ein distributivartiges Rechengesetz. Es handelt sich hierbei nicht exakt um das Distributivgesetz, weil - trotz gleicher Notation mit <REMOVED_PERSON_ENTITY> - die Addition in einem Fall im Vektorraum, im anderen Fall in den reellen Zahlen erfolgt. (s. LON-CAPA-Aufgaben)
+- Hinsichtlich der Multiplikation mit reellen Zahlen im Vektorraum gilt eine Art Assoziativgesetz. Auch dieses Rechengesetz ist nur "assoziativartig", weil die reelle <REMOVED_PERSON_ENTITY> r auf der einen <REMOVED_PERSON_ENTITY> mit einem Vektor, auf der anderen mit einer reellen Zahl multipliziert wird.
+TAGGED_CONTENT:

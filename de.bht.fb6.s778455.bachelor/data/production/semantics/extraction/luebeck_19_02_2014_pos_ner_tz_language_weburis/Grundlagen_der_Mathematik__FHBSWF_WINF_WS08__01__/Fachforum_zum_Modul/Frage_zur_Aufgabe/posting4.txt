@@ -1,0 +1,31 @@
+ID: 16669
+CREATION_DATETIME: 1231868514
+MODIFICATION_DATETIME: 1231868514
+TITLE: Re: Frage zur Aufgabe
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=6537#16669
+TOPIC_ZOOM_TAG: value:HTML;weight:1.0;significance:9.30735213357177;degreegeneralization:8;uri:20901715
+TOPIC_ZOOM_TAG: value:Beschreibungssprachen;weight:1.0;significance:7.60260404133335;degreegeneralization:7;uri:20900644
+TOPIC_ZOOM_TAG: value:Formale Sprachen;weight:1.0;significance:7.03179571296564;degreegeneralization:6;uri:21978155
+TOPIC_ZOOM_TAG: value:Computersprachen;weight:1.0;significance:7.02837690621686;degreegeneralization:6;uri:19949137
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:5.00870710783694;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:5.00780172072213;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:4.31013985980766;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:onCampusBook;weight:0.0;uri:;postag:NN
+POS_TAG: value:moodle.oncampus.de;weight:0.0;uri:;postag:NN
+POS_TAG: value:posten?http;weight:0.0;uri:;postag:NN
+POS_TAG: value:determinanten;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 16663
+CONTENT:
+an alle, die die aufg. 8 im lo10 (determinanten), kap. 6 (aufgaben) richtig gerechnet haben: kann wer mal bitte den rechenweg posten?http://moodle.oncampus.de/modules/ir043/onmod/matheI/lo10_determinanten/1/onCampusBook/11/unit. html 
+TAGGED_CONTENT:
+an_APPR alle_PIDAT ,_$, die_PRELS die_ART aufg_ADJD ._$. 8_CARD im_APPRART lo10_CARD -LRB-_TRUNC determinanten_NN -RRB-_TRUNC ,_$, kap_VVFIN ._$. 6_CARD -LRB-_TRUNC aufgaben_VVINF -RRB-_TRUNC richtig_ADJD gerechnet_VVPP haben_VAFIN :_$. kann_VMFIN wer_PWS mal_ADV bitte_VVFIN den_ART rechenweg_ADJA posten?http_NN :_$. \/_CARD \/_CARD moodle.oncampus.de_NN \/_CARD modules\/ir043\/onmod_CARD \/_CARD matheI\/lo10_NN __CARD determinanten\/1\/onCampusBook_NN \/_VVFIN 11\/unit_ADJD ._$. html_XY 

@@ -1,0 +1,9 @@
+ID: 941
+CREATION_DATETIME: 1354662000000
+MODIFICATION_DATETIME: 1354662000000
+TITLE: Vielleicht hilft dieses Snipped noch bei der Verarbeitung dann: System.setProperty("javax.xml.transfo...
+PARENT_POSTING_ID: 940
+POSTING_TYPE: comment
+CONTENT:
+Vielleicht hilft dieses Snipped noch bei der Verarbeitung dann: System. setProperty("javax. xml. transform. TransformerFactory","net. sf. saxon. TransformerFactoryImpl");
+TAGGED_CONTENT:

@@ -1,0 +1,18 @@
+ID: 8
+CREATION_DATETIME: 1191430500000
+MODIFICATION_DATETIME: 1191430500000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+SgF ,
+
+ich bin erst heute dazu gekommen, mir die Aufzeichnung der OM anzuschauen. Die Nachklausur (welche Sie uns per Mail geschickt haben) wurde gar nicht besprochen.
+
+Bekommen wir davon noch die Musterlösung?
+
+Mit freundlichen Grüssen
+
+     
+TAGGED_CONTENT:

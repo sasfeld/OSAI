@@ -1,0 +1,10 @@
+ID: 1948
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1381528800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wäre es möglich die kompletten Lösungen (inkl. der Antworten auf die Fragen, nicht nur Code)  für die morgige Übung auch online zu stellen? In Anbetracht der aktuellen Hochwasserlage fehlen vermutlich sowieso viele Leute und so wäre es für sie kein Nachteil.
+TAGGED_CONTENT:

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file id="1754635">
+    <contenthash>204680f895aafbe90de9f809d40a44c633f4866c</contenthash>
+    <contextid>242501</contextid>
+    <component>mod_forum</component>
+    <filearea>attachment</filearea>
+    <itemid>237069</itemid>
+    <filepath>/</filepath>
+    <filename>Screenshot Leere Inhalte.png</filename>
+    <userid>14019</userid>
+    <filesize>82750</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1380534524</timecreated>
+    <timemodified>1380534618</timemodified>
+    <source>leer.png</source>
+    <author>Steffen Brümmel</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="1754637">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>242501</contextid>
+    <component>mod_forum</component>
+    <filearea>attachment</filearea>
+    <itemid>237069</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>14019</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1380534618</timecreated>
+    <timemodified>1380534618</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="1756403">
+    <contenthash>ebd60e8294428722d38b4081244afd0faab63207</contenthash>
+    <contextid>242501</contextid>
+    <component>mod_forum</component>
+    <filearea>attachment</filearea>
+    <itemid>237609</itemid>
+    <filepath>/</filepath>
+    <filename>filterregeln.png</filename>
+    <userid>14093</userid>
+    <filesize>19948</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1380619825</timecreated>
+    <timemodified>1380619931</timemodified>
+    <source>filterregeln.png</source>
+    <author>Stefan Sander</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="1756405">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>242501</contextid>
+    <component>mod_forum</component>
+    <filearea>attachment</filearea>
+    <itemid>237609</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>14093</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1380619931</timecreated>
+    <timemodified>1380619931</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+</files>

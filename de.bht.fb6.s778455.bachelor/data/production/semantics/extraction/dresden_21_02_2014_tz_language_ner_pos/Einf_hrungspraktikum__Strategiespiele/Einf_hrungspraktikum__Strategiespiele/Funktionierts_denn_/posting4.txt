@@ -1,0 +1,45 @@
+ID: 1494
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Der Copy-Constructor an sich ja nur mit dem kompiliert es
+LANGUAGE: GERMAN
+NER_TAG: value:OthelloBoard;weight:-1.0;uri:;classifierlabel:I-LOC
+POS_TAG: value:Argument;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Constructor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehlermeldung;weight:0.0;uri:;postag:NN
+POS_TAG: value:stateOfBranch;weight:0.0;uri:;postag:NN
+POS_TAG: value:Umwandlung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1483
+POSTING_TYPE: comment
+CONTENT:
+Der Copy-Constructor an sich <LEARNED_PERSON_NAME_REPLACEMENT>, nur mit diesem kompiliert es
+
+aber wie genau muss ich jetzt das kopieren durchführen
+
+```ruby
+
+game_state* stateOfBranch = new game_state(old_state);
+
+game_state stateOfBranch(old_state);
+
+```
+
+weder statisch noch dynamisch funktioniert
+
+Fehlermeldung:
+
+```ruby
+
+players/my-player. <LEARNED_PERSON_NAME_REPLACEMENT>:138:34: Fehler: ungültige Umwandlung <NAME_CORPUS_REPLACEMENT> »const game_state* {aka const OthelloBoard*}« in »unsigned int« [-fpermissive]
+
+In file included from players/my-player. <LEARNED_PERSON_NAME_REPLACEMENT>:2:0:
+
+./board. h:113:3: Fehler:   Argument 1 <NAME_CORPUS_REPLACEMENT> »OthelloBoard::OthelloBoard(unsigned int, unsigned int)« wird initialisiert [-fpermissive]
+
+```
+
+<NAME_CORPUS_REPLACEMENT> scheine ich noch woanders einen Fehler zu haben
+TAGGED_CONTENT:
+Der_ART Copy-Constructor_NN an_APPR sich_PRF <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_VVFIN ,_$, nur_ADV mit_APPR diesem_PDAT kompiliert_VVPP es_PPER aber_ADV wie_KOKOM genau_ADJD muss_VVFIN ich_PPER jetzt_ADV das_ART kopieren_VVINF durchführen_VVINF ``_VAFIN `_CARD ruby_NE game_state_ADJA \*_NN stateOfBranch_XY =_XY new_ITJ game_state_ADJA -LRB-_TRUNC old_state_ADJA -RRB-_TRUNC ;_$. game_state_ADJA stateOfBranch_NN -LRB-_TRUNC old_state_ADJA -RRB-_TRUNC ;_$. ``_CARD `_XY weder_KON statisch_ADJD noch_ADV dynamisch_ADJD funktioniert_VVFIN Fehlermeldung_NN :_$. ``_CARD `_XY ruby_NE players\/my-player_ADJD ._$. <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_VVFIN ,_$, 138_CARD ,_$, 34_CARD :_$. Fehler_NN :_$. ungültige_ADJA Umwandlung_NN <_VVFIN NAME_CORPUS_REPLACEMENT_NE >_NE "_$( const_VVFIN game_state_ADJA \*_NN -LCB-_TRUNC aka_NE const_VVFIN OthelloBoard_NE \*_NE -RCB-_TRUNC "_$( in_APPR "_$( unsigned_FM int_FM "_$( -LSB-_TRUNC -_$( fpermissive_ADJA -RSB-_TRUNC In_APPR file_FM included_FM from_FM players\/my-player_FM ._$. <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_VVFIN ,_$, 2_CARD ,_$, 0_CARD :_$. ._$. \/_NE board_VVFIN ._$. h_FM ,_$, 113_CARD ,_$, 3_CARD :_$. Fehler_NN :_$. Argument_NN 1_CARD <_XY NAME_CORPUS_REPLACEMENT_NN >_CARD "_$( OthelloBoard_NE :_$. ,_$, OthelloBoard_NE -LRB-_TRUNC unsigned_FM int_FM ,_$, unsigned_FM int_FM -RRB-_TRUNC "_$( wird_VAFIN initialisiert_VVPP -LSB-_TRUNC -_$( fpermissive_ADJA -RSB-_TRUNC ``_KON `_XY <_CARD NAME_CORPUS_REPLACEMENT_NN >_CARD scheine_VVFIN ich_PPER noch_ADV woanders_ADV einen_ART Fehler_NN zu_PTKZU haben_VAINF 

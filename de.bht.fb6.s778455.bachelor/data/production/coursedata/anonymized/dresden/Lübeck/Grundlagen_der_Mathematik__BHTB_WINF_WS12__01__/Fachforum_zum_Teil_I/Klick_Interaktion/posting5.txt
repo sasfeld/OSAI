@@ -1,0 +1,11 @@
+ID: 168189
+CREATION_DATETIME: 1349698319
+MODIFICATION_DATETIME: 1349698319
+TITLE: Re: Klick Interaktion
+PARENT_POSTING_ID: 168119
+CONTENT:
+Hi <REMOVED_PERSON_ENTITY>,
+je nach Betriebssystem die entsprechende Datei runterladen und installieren
+http://www.oracle.com/technetwork/java/javase/downloads/jre7u7-downloads-1836441. html
+Grüße <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

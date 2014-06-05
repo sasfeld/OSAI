@@ -1,0 +1,10 @@
+ID: 2758
+CREATION_DATETIME: 1383951600000
+MODIFICATION_DATETIME: 1383951600000
+TITLE: Ich will zb von Product erben und noch ein paar Methoden für den Catalog hinzufügen,der dann für dies...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2749
+POSTING_TYPE: comment
+CONTENT:
+Ich will zb <NAME_CORPUS_REPLACEMENT> Product erben und noch ein paar Methoden für den Catalog hinzufügen, der dann für dieses <NAME_CORPUS_REPLACEMENT> Product erbende Objekt noch ein paar Methoden hinzufügt.
+TAGGED_CONTENT:

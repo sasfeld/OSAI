@@ -1,0 +1,19 @@
+ID: 117582
+CREATION_DATETIME: 1323695907
+MODIFICATION_DATETIME: 1323695907
+TITLE: Probleme mit Berechnung Vektorprodukt
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+ich habe leider irgendwie Probleme beim Lösen der Aufgaben zum Vektorprodukt und bitte hier um Rat, da ich meinen Fehler nicht sehen kann:
+Vektor a = 1,-4,-1
+Vektor b = 5, 5, 2
+Meine Rechnung:
+(-4*2) -(5*-4) = -3
+(1*2) - (5*-1) = 7
+(1*5)- (5*-4) = 25
+Mein Ergebnis demnach Vektor a x Vektor b = (-3, 7, 25). Ist aber falsch (laut LONCAPA). 
+Würde mich sehr freuen, wenn mir hier jemand auf die Sprünge helfen könnte. DANKE!
+Grüße,
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

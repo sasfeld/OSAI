@@ -1,0 +1,59 @@
+ID: 88
+CREATION_DATETIME: 1295534880000
+MODIFICATION_DATETIME: 1295534880000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Okay dann fange ich mal an:
+
+Programmieren 1:
+
+1. Eine Variable stellt Speicher zu Verfügung. Sie muss genau definiert werden! z.b. Typ Float hat 4 Bytes.
+Ein Attribut ist eine Variable, die in der Klasse deklariert wird.
+Variablen können als Parameter an eine Methode übergeben werden.
+Eine lokale Variable wird in der Methode selber deklariert und verlert ihre Gültigkeit nach dem Beenden der Methode.
+
+2. Konstruktoren werden benötigt, um Obejekte zu erzeugen. Auch hier können Parameter übergeben werden. Konstruktoren der Oberklasse können mit super() aufgerufen werden.
+
+3. ?
+
+4. Feste Größe, Konstante
+
+5. Überladen bedeutet, dass Methoden mit gleichem Namen in einer Klasse vorkommen können. Sie enden mit ihrer Laufzeit.
+Überschrieben werden Methoden, wenn eine Klasse oder ein Interface vererbt bzw. implementiert wird und die Methoden derselbigen importiert werden. In der neuen Klasse werden sie überschrieben.
+
+
+Programmieren 2:
+
+1. Ein Array kann eine begrenzte Anzahl von typgleichen Objekten aufnehmen und verwalten.
+Dateien?
+Datenbanken?
+
+2. Array hat eine vorher festgelegte Anzahl. Arraylist kann dynamisch Objekte aufnehmen.
+
+3. Arraylist ist für eine einfach verkettete Liste und Linked List für eine doppelt verkette Liste?
+
+4. Ein Interface ist auch abstract, hat aber keine ausprogrammierten Methoden. Ein abstrakte Klasse kann schon ausprogrammierte Methoden haben.
+Klassen können mehrere Interfaces implementieren, aber nicht mehrere abstrakte Klassen. Von den Funktionen her, sind beide gleich.
+
+5. Ich kann das nicht in Worte fassen.
+
+6.
+a. Eine Eigene Listener Klasse erstellen
+b. Den Listener anonym erstellen
+c. Den Listener anaony erstellen + einer inneren Klasse
+
+7. JFrame = BorderLayout
+JPanel = Border Layout?
+
+8. setLayout(New Flowlayout())
+
+9. Eine rekursive Methode ruft sich solange selbst auf bis die vorher bestimmte Abbruchbedingung eintrifft. Ansonsten würde sie endlos laufen.
+Die Methode traversieren läuft solange, bis kein Element mehr gefunden wird
+
+Schöne Grüße
+Bis heute Abend
+	
+TAGGED_CONTENT:

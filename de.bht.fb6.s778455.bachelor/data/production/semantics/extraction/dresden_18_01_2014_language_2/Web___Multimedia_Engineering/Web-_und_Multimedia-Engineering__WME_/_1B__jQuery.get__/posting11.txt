@@ -1,0 +1,12 @@
+ID: 604
+CREATION_DATETIME: 1351551600000
+MODIFICATION_DATETIME: 1351551600000
+TITLE: Das Problem liegt an der Asynchronität.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 568
+POSTING_TYPE: answer
+CONTENT:
+Das Problem liegt an der Asynchronität.
+
+Ich rufe nun das Laden der Karte und die Abfrage des Arrays als Funktion IN der Get() auf. Somit kommt es nicht mehr zum asynchronen Aufruf des Arrays. Es muss also die komplette restliche Programmabfolge in der Get() aufgerufen werden.
+TAGGED_CONTENT:

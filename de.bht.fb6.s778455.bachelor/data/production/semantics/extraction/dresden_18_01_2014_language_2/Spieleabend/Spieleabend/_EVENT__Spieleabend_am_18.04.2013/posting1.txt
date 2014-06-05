@@ -1,0 +1,20 @@
+ID: 1664
+CREATION_DATETIME: 1365112800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Das neue Semester kommt so langsam ins Rollen und zum Auftakt wird an der Informatik-Fakultät einen neuen Spieleabend geben.
+
+Wann?
+
+ab 18:30 am 18. 04. 2013
+
+Wo?
+
+Informatik-Fakultät, <REMOVED_PERSON_ENTITY> im Foyer vor dem ASCII/FSR-Büro
+
+Räume werden noch bekannt gegeben. 
+TAGGED_CONTENT:

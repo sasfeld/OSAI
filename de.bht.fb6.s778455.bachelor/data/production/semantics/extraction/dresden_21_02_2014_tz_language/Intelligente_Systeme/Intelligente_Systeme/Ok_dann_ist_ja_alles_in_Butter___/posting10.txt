@@ -1,0 +1,20 @@
+ID: 780
+CREATION_DATETIME: 1352847600000
+MODIFICATION_DATETIME: 1352847600000
+TITLE: Ok dann ist ja alles in Butter :)
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Butter;weight:1.0;significance:10.6291079735541;degreegeneralization:7;uri:20278988
+TOPIC_ZOOM_TAG: value:Milchprodukte;weight:1.0;significance:8.58141513018884;degreegeneralization:6;uri:20279617
+TOPIC_ZOOM_TAG: value:Grundnahrungsmittel;weight:1.0;significance:6.5948673354017;degreegeneralization:6;uri:21290964
+TOPIC_ZOOM_TAG: value:Lebensmittel;weight:1.0;significance:5.39532912814362;degreegeneralization:4;uri:21884553
+TOPIC_ZOOM_TAG: value:Küche, Essen und Trinken, Lebensmittel, Ernährung;weight:1.0;significance:4.91002646160872;degreegeneralization:3;uri:20297943
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+PARENT_POSTING_ID: 721
+POSTING_TYPE: comment
+CONTENT:
+Ok dann ist ja alles in Butter :)
+
+Dein Programm scheint wohl auch (so wie meins) alle quadratischen Felder zu verarbeiten ;)
+
+mfg
+TAGGED_CONTENT:

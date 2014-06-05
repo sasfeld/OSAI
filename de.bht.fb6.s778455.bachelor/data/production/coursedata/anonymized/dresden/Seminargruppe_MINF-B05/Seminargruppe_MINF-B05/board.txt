@@ -1,0 +1,6 @@
+ID: 2154345
+CREATION_DATETIME: 1350424800000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Seminargruppe MINF-B05
+INTRO: Die Seminargruppe MINF-B05 betreffende, allgemeine Fragen und Anliegen können hier eingetragen werden.
+TYPE: null

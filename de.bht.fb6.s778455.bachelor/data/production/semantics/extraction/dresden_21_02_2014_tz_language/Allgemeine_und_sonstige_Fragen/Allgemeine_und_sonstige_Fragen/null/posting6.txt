@@ -1,0 +1,19 @@
+ID: 651
+CREATION_DATETIME: 1351810800000
+MODIFICATION_DATETIME: 1351810800000
+TITLE: Ja genau das Beispiel hatte ich auch gefunden. Habe aber mein Listing abgewandelt, weil es immer noch...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Übergewicht;weight:1.0;significance:8.41809007408554;degreegeneralization:6;uri:20906577
+TOPIC_ZOOM_TAG: value:Körpergewicht;weight:1.0;significance:7.69791422113767;degreegeneralization:5;uri:20906713
+TOPIC_ZOOM_TAG: value:Leiden und Gesundheitsstörungen;weight:1.0;significance:7.59055570281717;degreegeneralization:4;uri:20991271
+TOPIC_ZOOM_TAG: value:Ernährung unter gesundheitlicher und wissenschaftlicher Perspektive;weight:1.0;significance:6.61497974518879;degreegeneralization:4;uri:21986655
+TOPIC_ZOOM_TAG: value:Küche, Essen und Trinken, Lebensmittel, Ernährung;weight:1.0;significance:4.91002646160872;degreegeneralization:3;uri:20297943
+TOPIC_ZOOM_TAG: value:Krankheiten, Beschwerden und Leiden;weight:1.0;significance:4.55003327042709;degreegeneralization:3;uri:21985125
+TOPIC_ZOOM_TAG: value:Gesundheit;weight:1.0;significance:3.54697930762717;degreegeneralization:2;uri:21997569
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 632
+POSTING_TYPE: comment
+CONTENT:
+Ja genau das Beispiel hatte ich auch gefunden. Habe aber mein Listing abgewandelt, weil es immer noch viel zu übergewichtig aussieht - meiner Meinung nach zumindest.
+TAGGED_CONTENT:

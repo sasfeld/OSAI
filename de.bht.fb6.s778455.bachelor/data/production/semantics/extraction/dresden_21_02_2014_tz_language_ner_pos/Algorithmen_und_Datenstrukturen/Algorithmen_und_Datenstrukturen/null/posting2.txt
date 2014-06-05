@@ -1,0 +1,22 @@
+ID: 677
+CREATION_DATETIME: 1352156400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+NER_TAG: value:DS;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Information;weight:0.0;uri:;postag:NN
+POS_TAG: value:Besucher;weight:0.0;uri:;postag:NN
+POS_TAG: value:bung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Verlegung;weight:0.0;uri:;postag:NN
+POS_TAG: value:len;weight:0.0;uri:;postag:NN
+POS_TAG: value:Raum;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Übung am Mi 7. 11. in der 6. DS. wird <NAME_CORPUS_REPLACEMENT> Raum POT/13 zum Raum ZEU/255 verlegt.
+
+Es wäre schön, wenn ihr diese Information noch auf anderen Kanälen an Besucher dieser Übung weitergeben könntet, weil wir <NAME_CORPUS_REPLACEMENT> der Verlegung leider erst heute erfahren haben.
+TAGGED_CONTENT:
+Die_ART Übung_NN am_APPRART Mi_FM 7_CARD ._$. 11_CARD ._$. in_APPR der_ART 6_CARD ._$. DS_NE ._$. wird_VAFIN <_CARD NAME_CORPUS_REPLACEMENT_NN >_ADJA Raum_NN POT\/13_CARD zum_APPRART Raum_NN ZEU\/255_CARD verlegt_VVPP ._$. Es_PPER wäre_VAFIN schön_ADJD ,_$, wenn_KOUS ihr_PPOSAT diese_PDAT Information_NN noch_ADV auf_APPR anderen_ADJA Kanälen_NN an_APPR Besucher_NN dieser_PDAT Übung_NN weitergeben_VVFIN könntet_ADJD ,_$, weil_KOUS wir_PPER <_PRF NAME_CORPUS_REPLACEMENT_NE >_VVFIN der_ART Verlegung_NN leider_ADV erst_ADV heute_ADV erfahren_VVPP haben_VAFIN ._$. 

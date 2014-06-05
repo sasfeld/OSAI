@@ -1,0 +1,16 @@
+ID: 167859
+CREATION_DATETIME: 1349625374
+MODIFICATION_DATETIME: 1349625374
+TITLE: Re: Frage zu Präsenz 1 
+PARENT_POSTING_ID: 167631
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>, 
+leider kann ich nicht direkt auf deine Frage antworten, habe aber auch ein paar Fragen zur ersten Präsenz und hoffe auf Hilfe.
+Ich hänge gerade auf Folie 12 und überlege mir wir ich folgende Aussage negieren soll:
+Es gibt eine natürliche <REMOVED_PERSON_ENTITY>, die größer als 7 ist.
+Hier hatten wir in der Präsenz gesagt, dass man dafür zwei Schritte vollziehehn muss. Der erste Schritt führt zu den Ergebnis:
+Es gibt keine natürliche <REMOVED_PERSON_ENTITY>, die größer als 7 ist.
+Anschließend muss man wohl noch weiter negieren aber wie?Würde mich über kurze Hilfe sehr freuen.
+Besten Dank und Gruß
+<REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

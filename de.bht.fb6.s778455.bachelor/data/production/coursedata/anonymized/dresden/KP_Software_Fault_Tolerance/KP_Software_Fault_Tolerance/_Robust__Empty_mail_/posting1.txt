@@ -1,0 +1,11 @@
+ID: 818
+CREATION_DATETIME: 1353279600000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hey,
+I got an empty email. Is this because of my code or is the test system (temporarily) broken? I ran make before committing it. 
+Thanks!
+TAGGED_CONTENT:

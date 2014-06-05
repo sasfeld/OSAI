@@ -1,0 +1,12 @@
+ID: 75
+CREATION_DATETIME: 1343426400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Wir haben Aufräumarbeiten durchgeführt. Die Dummydaten wurden entfernt. Betroffen waren alle Objekte die mit der Fakultät 'Informatik' zusammenhingen. Diese sind nicht mehr verfügbar. Die richtige Fakultät ist diese ['Fakultät Informatik'](http://auditorium.inftex.net/faculties/30010).
+Außerdem können Fragen und Informationen bearbeitet werden. Dazu wurde ein 'edit button' eingefügt. Der jenige, der die Rechte hat, kann diesen sehen.
+Viel Spaß weiterhin auf auditorium.
+Falls ihr Fragen oder Hinweise habt, dann [schriebt uns einfach eine Mail](mailto:auditorium@inftex. net) oder [folgt uns auf Twitter](http://twitter.com/_auditorium)
+TAGGED_CONTENT:

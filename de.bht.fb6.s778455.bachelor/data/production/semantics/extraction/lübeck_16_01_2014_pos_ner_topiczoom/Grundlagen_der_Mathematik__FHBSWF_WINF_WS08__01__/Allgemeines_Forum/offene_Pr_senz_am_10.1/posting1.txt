@@ -1,0 +1,22 @@
+ID: 16603
+CREATION_DATETIME: 1231534662
+MODIFICATION_DATETIME: 1231534662
+TITLE: offene Präsenz am 10.1.
+TOPIC_ZOOM_TAG: value:Persönlichkeiten des Bereichs Medieninformatik;weight:1.0;significance:12.7085495152339;degreegeneralization:6;uri:21632817
+TOPIC_ZOOM_TAG: value:Medieninformatik;weight:1.0;significance:12.015402334674;degreegeneralization:5;uri:21633837
+TOPIC_ZOOM_TAG: value:Persönlichkeiten des Bereichs Informatik;weight:1.0;significance:7.75272245763267;degreegeneralization:5;uri:21632885
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:5.02422544755277;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:5.00780172072213;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+NER_TAG: value:LG;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:LG;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:stattfindet?Danke;weight:0.0;uri:;postag:NN
+POS_TAG: value:senz;weight:0.0;uri:;postag:NN
+POS_TAG: value:LG;weight:0.0;uri:;postag:NN
+POS_TAG: value:Medieninformatiker;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo, weiß jemand wo morgen die offene Präsenz der Medieninformatiker stattfindet?Danke. LG <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, weiß_VVFIN jemand_PIS wo_PWAV morgen_ADV die_ART offene_ADJA Präsenz_NN der_ART Medieninformatiker_NN stattfindet?Danke_NN ._$. LG_NN <_VVFIN REMOVED_PERSON_ENTITY_NE >_XY 

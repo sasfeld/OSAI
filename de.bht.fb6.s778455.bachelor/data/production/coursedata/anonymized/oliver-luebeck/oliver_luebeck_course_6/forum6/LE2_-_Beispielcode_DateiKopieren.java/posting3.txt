@@ -1,0 +1,13 @@
+ID: 7
+CREATION_DATETIME: 1286308800000
+MODIFICATION_DATETIME: 1286308800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 6
+CONTENT:
+
+In der Webkonferenz kam die Antwort schon vor:
+da ein Array maxLenght 2.000.000.000 hat darf es beim schreiben auch nicht länger sein.
+Aber wie sieht es mit Dateien größer 2 GigaByte aus - würde das dennoch klappen?
+    
+TAGGED_CONTENT:

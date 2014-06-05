@@ -1,0 +1,10 @@
+ID: 2401
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: Im pdf Seite 44 und 45 gibt es noch kleine Diagramme, die übrig sind.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2369
+POSTING_TYPE: answer
+CONTENT:
+Im pdf Seite 44 und 45 gibt es noch kleine Diagramme, die übrig sind.
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 2341
+CREATION_DATETIME: 1374184800000
+MODIFICATION_DATETIME: 1374184800000
+TITLE: Auf Seite 29 müssten alle Punkte nach Solution: eingerückt werden. Auf Seite 26 ist ein kleines Bild ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Auf Seite 29 müssten alle Punkte nach Solution: eingerückt werden. Auf Seite 26 ist ein kleines Bild reingerutscht.
+
+Die Seitennummern rechts unten auf allen Seiten sind komisch.
+TAGGED_CONTENT:

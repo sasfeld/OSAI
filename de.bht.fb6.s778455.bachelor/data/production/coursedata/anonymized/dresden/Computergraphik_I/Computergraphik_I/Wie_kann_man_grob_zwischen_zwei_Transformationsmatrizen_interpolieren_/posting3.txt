@@ -1,0 +1,9 @@
+ID: 1875
+CREATION_DATETIME: 1369951200000
+MODIFICATION_DATETIME: 1369951200000
+TITLE: Vielen Dank für die ausführliche Antwort. Ich war mir nicht sicher, ob diese Decomposition notwendig ...
+PARENT_POSTING_ID: 1873
+POSTING_TYPE: comment
+CONTENT:
+Vielen Dank für die ausführliche Antwort. Ich war mir nicht sicher, ob diese Decomposition notwendig war. Aber nun ergibt es ein Bild. Danke.
+TAGGED_CONTENT:

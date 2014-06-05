@@ -1,8 +1,0 @@
-CREATION_DATETIME: 1366877279
-CONTENT: 
-Hallo, 
-
-ich habe versucht Ihr Projekt bei mir zu kompilieren, und es gibt diverse Syntaxfehler etc. Haben Sie mir den richtigen Codestand geschickt? Ich empfehle Ihnen, einmal die .pro.user-Datei zu löschen, sowie das komplette Build-Verzeichnis (das liegt auf der gleichen Ebene wie das Projektverzeichnis), und dann die Kompilation nochmal zu versuchen. Wenn's nicht klappt schicken Sie mir bitte einmal das gesamte Projektverzeichnis per Email, ich lasse es dann noch mal bei mir durchlaufen.
-
-Gruß Hartmut Schirmacher
-

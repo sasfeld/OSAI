@@ -1,0 +1,9 @@
+ID: 2718
+CREATION_DATETIME: 1383606000000
+MODIFICATION_DATETIME: 1383778800000
+TITLE: Im neusten, eben veröffentlichten, Videoshop kann man ohne Probleme @PreAuthorize nutzen. Die nötigen...
+PARENT_POSTING_ID: 2702
+POSTING_TYPE: answer
+CONTENT:
+Im neusten, eben veröffentlichten, Videoshop kann man ohne Probleme @PreAuthorize nutzen. Die nötigen Einstellungen dafür sind schon vorhanden, außerdem habe ich diese auch in die blankweb. zip übernommen.
+TAGGED_CONTENT:

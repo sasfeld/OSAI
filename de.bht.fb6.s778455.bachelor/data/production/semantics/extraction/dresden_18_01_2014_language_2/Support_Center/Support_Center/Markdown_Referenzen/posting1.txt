@@ -1,0 +1,14 @@
+ID: 61
+CREATION_DATETIME: 1342476000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Hier die Referenz für Markdown:
+
+http://daringfireball.net/projects/markdown/syntax
+
+Hier noch ein sinnvolles [Cheet Sheat für Markdown](http://five.squarespace.com/display/ShowHelp?section=Markdown).
+TAGGED_CONTENT:

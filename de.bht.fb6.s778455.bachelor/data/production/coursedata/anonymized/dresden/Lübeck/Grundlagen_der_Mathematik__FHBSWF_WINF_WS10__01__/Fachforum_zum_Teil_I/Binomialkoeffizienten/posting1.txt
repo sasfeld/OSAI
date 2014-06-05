@@ -1,0 +1,33 @@
+ID: 97802
+CREATION_DATETIME: 1290253328
+MODIFICATION_DATETIME: 1290253416
+TITLE: Binomialkoeffizienten
+PARENT_POSTING_ID: 0
+CONTENT:
+Begleitend zum letzten Chat nochmals ein komplettes Beispiel zur Veranschaulichung:
+Der Binomialkoeffizient n ueber k (die Klammern muss ich wegen Moodle so seltsam setzen, eigentlich soll es eine grosse linke und eine grosse rechte Klammer sein):
+( n )
+( k )
+ist definiert als n! / ((n-k) ! k ! )
+(Erinnerung: Es gilt bereits 0! = 1, 1! = 1, ..., 3! = 3 * 2 * 1 usw.)
+Beispiele fuer Binomialkoeffizienten:
+( 3 )   ( 3 )   ( 3 )   ( 3 )
+( 0 )   ( 1 )   ( 2 )   ( 3 )
+Diese rechnet man mittels der Definition aus:
+1, 3, 3, 1
+Die <REMOVED_PERSON_ENTITY> ist 1+3+3+1=8=2^3
+Beobachtung: Wenn ich fuer beliebiges n die <REMOVED_PERSON_ENTITY> aller seiner Binomialkoeffizienten bilde erhalte ich immer 2^n als Ergebnis dieser <REMOVED_PERSON_ENTITY>.
+Die Binomialkoeffizienten sind nuetzlich, um z. B. (a+b)^n fuer beliebige n auszumultiplizieren (mit dem binomischen Lehrsatz, LO02 S. 63). Gluecklicherweise gibt es eine sehr schnelle Methode, die Binomialkoeffizienten fuer beliebige n auszurechnen ohne jedesmal die obige Definition mit den Fakultaeten auszurechnen. Denn es gilt das Pascal'sche Dreieck:
+n=0     1
+n=1   1  1
+n=2  1 2 1
+n=3 1 3 3 1
+usw.
+Das Bildungsgesetz ist sehr einfach und im Skript auf Seite 62 schoen erklaert. In jeder <REMOVED_PERSON_ENTITY> ergibt die Summer der Werte 2^n. Die Summer aller Werte in *allen* Zeilen ueber einer <REMOVED_PERSON_ENTITY> ergibt 2^n-1.
+Anwendung:
+Ich habe (a+b)^3, d. h. somit n=3.
+Dann ergibt sich:
+(a+b)^3 = 1*a^3 + 3*a^2b + 3*ab^2 + 1*b^3 
+Wenn ich (a+b)^2 rechne ergibt sich a^2 + 2ab + b^2.
+Vorteil: Ich muss weder Binomialkoeffizienten mittels Fakultaet errechnen noch den Ausdruck (a+b)^n von Hand ausmultiplizieren. Das obige Bildungsgesetzt gilt fuer alle n aus N.
+TAGGED_CONTENT:

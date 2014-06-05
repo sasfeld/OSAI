@@ -1,0 +1,13 @@
+ID: 2105
+CREATION_DATETIME: 1372370400000
+MODIFICATION_DATETIME: 1383346800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Frage per Mail erhalten:
+1.) Was bedeutet "A+V" auf Folie 4 (<REMOVED_PERSON_ENTITY> --> Response <NAME_CORPUS_REPLACEMENT> YouTube nach Browser)?
+2.) Was bedeutet die Abkürzung "MMK-Anwendung" auf Folie 15?
+3.) Zudem verstehe ich nicht ganz, wie man bei der Berechnung auf Folie 10 (Mittlere Anzahl Bits pro Zeichen) auf die 2 in dem Teilschritt 2*0, 25 kommt?
+Wie berechnet man die 2 bzw. wo kommt diese <REMOVED_PERSON_ENTITY> her?
+TAGGED_CONTENT:

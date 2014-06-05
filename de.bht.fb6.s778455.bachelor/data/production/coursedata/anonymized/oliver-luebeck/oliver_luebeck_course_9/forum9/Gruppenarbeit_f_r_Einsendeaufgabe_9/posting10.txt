@@ -1,0 +1,11 @@
+ID: 55
+CREATION_DATETIME: 1179767160000
+MODIFICATION_DATETIME: 1179767160000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 46
+CONTENT:
+  
+Benötigt noch jemand einen Partner? Habe die Aufgabe soweit schon fertig :)
+   
+TAGGED_CONTENT:

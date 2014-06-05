@@ -1,0 +1,15 @@
+ID: 2106
+CREATION_DATETIME: 1372370400000
+MODIFICATION_DATETIME: 1372370400000
+TITLE: 1. A+V bedeutet Audio und Video - ist jetzt auf der Folie ausgeschrieben
+
+2. MMK-Anwendung bedeutet...
+PARENT_POSTING_ID: 2105
+POSTING_TYPE: answer
+CONTENT:
+1. A+V bedeutet Audio und Video - ist jetzt auf der Folie ausgeschrieben
+2. MMK-Anwendung bedeutet "Multimediakommunikations-Anwendung" - zugegeben ein sperriger Ausdruck, der vorher nicht definiert wurde. Jetzt korrigiert zu "Multimedia-Anwendung"
+3. Die Idee <NAME_CORPUS_REPLACEMENT> <REMOVED_PERSON_ENTITY> ist, dass Zeichen mit unterschiedlich viel Bits codiert werden. Diese Codierung wird so gewählt, dass häufig auftretende Zeichen mit möglichst wenig Bits codiert werden. In der Berechnung links ermitteln wir, dass wir a mit 2 Bit (10), b mit 1 Bit (0), c mit 4 Bit (1111) usw. codieren, damit es möglichst effizient ist. Um jetzt die durchschnittliche Anzahl Bits pro Zeichen zu ermitteln, multiplizieren wir für jedes Zeichen seine Auftrittswahrscheinlichkeit mit der gewählten Anzahl Bits für dieses Zeichen im Huffman-Code.
+Also für a: 1*0, 5 (da mit 0 codiert), für b 2*0, 25 (da mit 10 codiert, also Anzahl Bits=2), für c: 4*0, 05 usw.
+ 
+TAGGED_CONTENT:

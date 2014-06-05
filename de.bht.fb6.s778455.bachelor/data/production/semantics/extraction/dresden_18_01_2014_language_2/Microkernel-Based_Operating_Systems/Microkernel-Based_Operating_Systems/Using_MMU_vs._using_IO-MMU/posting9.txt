@@ -1,0 +1,10 @@
+ID: 1638
+CREATION_DATETIME: 1364252400000
+MODIFICATION_DATETIME: 1364252400000
+TITLE: Who is I and what do you mean with device memory?
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1636
+POSTING_TYPE: comment
+CONTENT:
+Who is I and what do you mean with device memory?
+TAGGED_CONTENT:

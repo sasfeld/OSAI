@@ -1,0 +1,12 @@
+ID: 2515
+CREATION_DATETIME: 1376085600000
+MODIFICATION_DATETIME: 1376344800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+wieso muss man bei der 1f noch die Relationen umbenennen, also wieso das pS_Name <- M_Name noch?
+TAGGED_CONTENT:

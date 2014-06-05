@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="30053" moduleid="169523" modulename="forum" contextid="242507">
+  <forum id="30053">
+    <type>general</type>
+    <name>Fachforum zum Teil I</name>
+    <intro> Hier können Sie Fachfragen zum Teil I diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>2</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1218800557</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+    </discussions>
+    <subscriptions>
+      <subscription id="311449">
+        <userid>2647</userid>
+      </subscription>
+      <subscription id="329849">
+        <userid>10349</userid>
+      </subscription>
+      <subscription id="329853">
+        <userid>10329</userid>
+      </subscription>
+      <subscription id="329857">
+        <userid>10343</userid>
+      </subscription>
+      <subscription id="329861">
+        <userid>14069</userid>
+      </subscription>
+      <subscription id="329865">
+        <userid>1905</userid>
+      </subscription>
+      <subscription id="329869">
+        <userid>10323</userid>
+      </subscription>
+      <subscription id="329873">
+        <userid>10361</userid>
+      </subscription>
+      <subscription id="329877">
+        <userid>14025</userid>
+      </subscription>
+      <subscription id="329881">
+        <userid>10307</userid>
+      </subscription>
+      <subscription id="329885">
+        <userid>14093</userid>
+      </subscription>
+      <subscription id="344111">
+        <userid>3755</userid>
+      </subscription>
+      <subscription id="344737">
+        <userid>14017</userid>
+      </subscription>
+      <subscription id="344741">
+        <userid>14061</userid>
+      </subscription>
+      <subscription id="344745">
+        <userid>14055</userid>
+      </subscription>
+      <subscription id="346783">
+        <userid>10317</userid>
+      </subscription>
+      <subscription id="347157">
+        <userid>3769</userid>
+      </subscription>
+      <subscription id="349471">
+        <userid>10325</userid>
+      </subscription>
+      <subscription id="350581">
+        <userid>14031</userid>
+      </subscription>
+      <subscription id="350585">
+        <userid>3931</userid>
+      </subscription>
+      <subscription id="350589">
+        <userid>12805</userid>
+      </subscription>
+      <subscription id="350593">
+        <userid>14029</userid>
+      </subscription>
+      <subscription id="353539">
+        <userid>3765</userid>
+      </subscription>
+      <subscription id="354791">
+        <userid>3767</userid>
+      </subscription>
+      <subscription id="355097">
+        <userid>14049</userid>
+      </subscription>
+      <subscription id="355101">
+        <userid>14071</userid>
+      </subscription>
+      <subscription id="355105">
+        <userid>14051</userid>
+      </subscription>
+      <subscription id="357021">
+        <userid>14067</userid>
+      </subscription>
+      <subscription id="357025">
+        <userid>3787</userid>
+      </subscription>
+      <subscription id="357029">
+        <userid>3781</userid>
+      </subscription>
+      <subscription id="357033">
+        <userid>3941</userid>
+      </subscription>
+      <subscription id="359313">
+        <userid>14021</userid>
+      </subscription>
+      <subscription id="362165">
+        <userid>14019</userid>
+      </subscription>
+      <subscription id="363617">
+        <userid>14041</userid>
+      </subscription>
+      <subscription id="364857">
+        <userid>14091</userid>
+      </subscription>
+      <subscription id="368011">
+        <userid>3885</userid>
+      </subscription>
+      <subscription id="368015">
+        <userid>14013</userid>
+      </subscription>
+      <subscription id="369663">
+        <userid>14097</userid>
+      </subscription>
+      <subscription id="371739">
+        <userid>7477</userid>
+      </subscription>
+      <subscription id="371743">
+        <userid>14039</userid>
+      </subscription>
+      <subscription id="372499">
+        <userid>14011</userid>
+      </subscription>
+      <subscription id="373037">
+        <userid>14053</userid>
+      </subscription>
+      <subscription id="373811">
+        <userid>10313</userid>
+      </subscription>
+      <subscription id="374135">
+        <userid>12841</userid>
+      </subscription>
+      <subscription id="376727">
+        <userid>14063</userid>
+      </subscription>
+      <subscription id="378243">
+        <userid>14043</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

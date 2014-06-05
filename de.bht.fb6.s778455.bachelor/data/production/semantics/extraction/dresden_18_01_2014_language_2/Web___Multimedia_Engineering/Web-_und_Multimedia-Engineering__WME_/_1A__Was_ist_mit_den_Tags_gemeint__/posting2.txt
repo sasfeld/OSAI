@@ -1,0 +1,10 @@
+ID: 477
+CREATION_DATETIME: 1351029600000
+MODIFICATION_DATETIME: 1351029600000
+TITLE: **Antwort:** Es soll 
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 470
+POSTING_TYPE: answer
+CONTENT:
+**Antwort:** Es soll die Möglichkeit geben mittels Tags eine Filterung vorzunehmen (z. B. Auswahl aus einer Tag-Cloud). Die Funktionalität der Filterung muss nichtimplementiert werden, kann aber beispielhaft mittels CSS oder als extra "gefilterte" HTML-Seite erfolgen.
+TAGGED_CONTENT:

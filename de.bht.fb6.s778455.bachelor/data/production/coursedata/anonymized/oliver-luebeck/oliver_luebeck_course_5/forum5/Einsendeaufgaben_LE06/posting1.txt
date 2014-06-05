@@ -1,0 +1,18 @@
+ID: 73
+CREATION_DATETIME: 1194189060000
+MODIFICATION_DATETIME: 1194189060000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo zusammen,
+
+bei der ESA03 (Torte) habe ich folgendes Problem:
+Es wird ein Kreis mit 7 Teilstücken gezeichnet, die Proportionen stimmen auch, jedoch bleibt immer ein kleines Stück frei. Also ein achtes, weißes Teilstück bevor im Kreis wieder die Startposition (3 Uhr) erreicht wird. Ich vermute das hängt mit Rundungsdifferenzen bei der Berechnung der Anteile zusammen, da diese ja in eine Integer-Variable ohne Nachkommastellen gezwängt werden.
+
+Hat hierfür jemand eine Lösungsidee?
+
+Schönen Gruß,
+	
+TAGGED_CONTENT:

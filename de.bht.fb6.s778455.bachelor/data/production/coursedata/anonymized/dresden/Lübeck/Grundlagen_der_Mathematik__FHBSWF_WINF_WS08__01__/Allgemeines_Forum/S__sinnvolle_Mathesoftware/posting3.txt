@@ -1,0 +1,13 @@
+ID: 16535
+CREATION_DATETIME: 1223473475
+MODIFICATION_DATETIME: 1223473475
+TITLE: Re: S: sinnvolle Mathesoftware
+PARENT_POSTING_ID: 16531
+CONTENT:
+Hallo, habe nun ein paar <REMOVED_PERSON_ENTITY> bekommen und auch einiges an OpenSource im Netz gefunden, was ganz sinnvoll sein könnte:
+  SciLab
+  Octave
+  Yacas
+  Maxima
+Ich habe mich nun erstmal für SciLab entschieden. LG <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

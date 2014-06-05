@@ -1,0 +1,22 @@
+ID: 93
+CREATION_DATETIME: 1309876800000
+MODIFICATION_DATETIME: 1309876800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+ 
+Fehler in der Lösung:
+public void verschieben(float satz){
+super.verschieben(satz);
+z += satz;
+}
+statt
+public void verschieben(float satz){
+super.umsetzen(satz);
+z += satz;
+}
+
+Danke für den Hinweis! 
+    
+TAGGED_CONTENT:

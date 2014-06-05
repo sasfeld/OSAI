@@ -1,0 +1,11 @@
+ID: 1043
+CREATION_DATETIME: 1358118000000
+MODIFICATION_DATETIME: 1358118000000
+TITLE: Richtig, du könntest, je nachdem was du in den verschiedenen Rotationen anfasst, testen ob 
+`bm->lin...
+PARENT_POSTING_ID: 1040
+POSTING_TYPE: comment
+CONTENT:
+Richtig, du könntest, je nachdem was du in den verschiedenen Rotationen anfasst, testen ob 
+`bm->links->rechts != bm->links` usw. ist. 
+TAGGED_CONTENT:

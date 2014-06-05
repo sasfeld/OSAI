@@ -1,0 +1,9 @@
+ID: 2434
+CREATION_DATETIME: 1374530400000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: Sieht gut aus. → Nicht vergessen, den Taschenrechner auch wirklich mit zur Klausur zu nehmen.
+PARENT_POSTING_ID: 2300
+POSTING_TYPE: comment
+CONTENT:
+Sieht gut aus. → Nicht vergessen, den Taschenrechner auch wirklich mit zur Klausur zu nehmen.
+TAGGED_CONTENT:

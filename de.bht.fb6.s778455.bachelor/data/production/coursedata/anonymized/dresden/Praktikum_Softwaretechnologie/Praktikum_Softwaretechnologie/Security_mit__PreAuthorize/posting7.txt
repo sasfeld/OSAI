@@ -1,0 +1,10 @@
+ID: 2710
+CREATION_DATETIME: 1383519600000
+MODIFICATION_DATETIME: 1383519600000
+TITLE: Gemeint hatte ich die methode `configure(…)` die in `WebSecurityConfiguration` bereits überschrieben ...
+PARENT_POSTING_ID: 2703
+POSTING_TYPE: comment
+CONTENT:
+Gemeint hatte ich die methode `configure(…)` die in `WebSecurityConfiguration` bereits überschrieben ist. Hier bekommst du ein `HttpSecurity`-Objekt, auf dem du per `authorizeRequests()` an einen `ExpressionUrlAuthorizationConfigurer` kommst auf dem du dann die entsprechende Methode rufen kannst.
+Der einfachste Weg weitere Security-Constraints hinzuzufügen ist dem hinter dem `…. antMatchers("/**"). permitAll()` einfach weitere `antMatchers(…)` Aufrufe hinzuzfügen.
+TAGGED_CONTENT:

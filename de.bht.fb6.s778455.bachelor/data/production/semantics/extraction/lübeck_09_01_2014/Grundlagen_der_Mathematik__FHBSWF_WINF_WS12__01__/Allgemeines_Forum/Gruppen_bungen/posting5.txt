@@ -1,0 +1,19 @@
+ID: 193785
+CREATION_DATETIME: 1358270943
+MODIFICATION_DATETIME: 1358270943
+TITLE: Re: Gruppenübungen
+TOPIC_ZOOM_TAG: value:Vektoren;weight:2.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 193565
+CONTENT:
+M)Habe mir zum M noch einmal Gedanken gemacht. Basis des Bildes = <REMOVED_PERSON_ENTITY> die linear unabhängig sind. D. h. ich muss einfach die Matrix nehmen und auf Stufenform bringen, dann sehe ich welche Vektoren linear unabhängig sind und kann diese aus der Ausgangsmatrix übernehmen.
+Bei der Umformung auf Stufenform, dürfen aber nur Spaltenoperationen angewendet werden, da sonst das Bild verändert wird.
+<REMOVED_PERSON_ENTITY> nur mit Spanteloperationen sieht meine Endmatrix folgendermaßen aus:
+1 0 0 0 0 0 00 1 0 0 0 0 00 0 1 0 0 0 00 0 0 1 0 0 0Die Vektoren 4 und 6 habe ich getauscht. Diese tausche ich wieder zurück:1 0 0 0 0 0 00 1 0 0 0 0 00 0 1 0 0 0 00 0 0 0 0 1 0D. h. das Bild sieht folgendermaßen aus: 2  4  1  3 0  1  0 -2-3 -4 -1 -5 1  0  0  3 Stimmt diese Lösung?Wäre man auch irgendwie anders auf diese Lösung gekommen?Eine 4x7 Matrix auf Stufenform zu bringen dauert nämlich relativ lange...
+Danke und Gruß
+<REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1996
+CREATION_DATETIME: 1370728800000
+MODIFICATION_DATETIME: 1370728800000
+TITLE: Hab ich gemacht. Das löst die Problematik für die wimpy-Node, aber noch nicht für andere Rechner. Kla...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1973
+POSTING_TYPE: comment
+CONTENT:
+Hab ich gemacht. Das löst die Problematik für die wimpy-Node, aber noch nicht für andere Rechner. Klappt es denn bei den anderen lokal?
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 2786
+CREATION_DATETIME: 1384124400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+There will be no PODS lecture, nor exercise this week (Nov 12th and 14th respectively).
+Next week we should have both again. The exercise will be a paper discussion, the paper will be announced during this week. Please read it.
+TAGGED_CONTENT:

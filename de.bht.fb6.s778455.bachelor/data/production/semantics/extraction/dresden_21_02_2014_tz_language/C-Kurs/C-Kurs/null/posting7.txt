@@ -1,0 +1,12 @@
+ID: 3032
+CREATION_DATETIME: 1385420400000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: Ok das Problem hat sich für mich somit erledigt. Es lag in der Tat einfach nur daran, dass ich die Re...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+PARENT_POSTING_ID: 3020
+POSTING_TYPE: comment
+CONTENT:
+Ok das Problem hat sich für mich somit erledigt. Es lag in der Tat einfach nur daran, dass ich die Reihenfolge beim Compileraufruf nicht eingehalten habe. Als ich -lm ans Ende gesetzt habe, funktionierte alles. Danke für die Hilfe!
+TAGGED_CONTENT:

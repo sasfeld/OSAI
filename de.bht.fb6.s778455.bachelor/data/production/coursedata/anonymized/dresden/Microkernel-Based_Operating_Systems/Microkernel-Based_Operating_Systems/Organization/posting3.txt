@@ -1,0 +1,12 @@
+ID: 503
+CREATION_DATETIME: 1351116000000
+MODIFICATION_DATETIME: 1351116000000
+TITLE: Answer by Michael Roitzsch copied from the other thread:
+
+The study regulations are the authoritati...
+PARENT_POSTING_ID: 428
+POSTING_TYPE: answer
+CONTENT:
+Answer by <REMOVED_PERSON_ENTITY> copied from the other thread:
+> The study regulations are the authoritative source and it seems that the credit assignments changed without us noticing, so thanks for your message. I will update the website. The same applies to real-time systems.
+TAGGED_CONTENT:

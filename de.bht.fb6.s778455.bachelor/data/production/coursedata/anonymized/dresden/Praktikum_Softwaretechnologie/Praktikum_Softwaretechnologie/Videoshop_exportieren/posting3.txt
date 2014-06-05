@@ -1,0 +1,9 @@
+ID: 2837
+CREATION_DATETIME: 1384297200000
+MODIFICATION_DATETIME: 1384297200000
+TITLE: Es hat funktioniert. Allerdings gab es auch noch ein Hardwareproblem. Der USB-Stick wollte nicht so r...
+PARENT_POSTING_ID: 2835
+POSTING_TYPE: comment
+CONTENT:
+Es hat funktioniert. Allerdings gab es auch noch ein Hardwareproblem. Der USB-Stick wollte nicht so recht, aber mit der externen Festplatte hat es funktioniert.
+TAGGED_CONTENT:

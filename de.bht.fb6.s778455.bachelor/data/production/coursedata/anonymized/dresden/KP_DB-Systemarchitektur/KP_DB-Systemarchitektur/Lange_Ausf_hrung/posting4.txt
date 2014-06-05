@@ -1,0 +1,23 @@
+ID: 2188
+CREATION_DATETIME: 1373320800000
+MODIFICATION_DATETIME: 1373320800000
+TITLE: Es lag doch nich an dem, was ich letztens eingecheckt hab.
+Die aktuellen Tests liefen so lang, weil ...
+PARENT_POSTING_ID: 2179
+POSTING_TYPE: answer
+CONTENT:
+Es lag doch nich an dem, was ich letztens eingecheckt hab.
+Die aktuellen Tests liefen so lang, weil jetzt überall richtige Testdaten erstellt werden und damit die Berechnung einfach lange dauert.
+Ich habe jetzt im testCLT eine Zeile eingetragen, die die Trainingsphase ausschaltet, wer die Trainingsphase braucht, der muss diese Zeile wieder auskommentieren und viel Geduld mitbringen.
+Allerdings habe ich beim durchschauen auch festgestellt, dass zum Beispiel der Avg Kernel nicht wirklich ein paralleler Kernel ist, sondern einfach nur serieller Code, der auf den Devices in tausendfacher Ausführung gestartet wird --> auch ein Grund für die extreme Dauer.
+Speziell beim AVG Kernel (den hab ich mir jetzt grad angeschaut):
+Der Code sorgt dafür, dass jeder Thread, der auf dem Device erstellt wird alle Werte aufsummiert und dann den Mittelwert bildet. Das sorgt für diverse Probleme in einer realen Anwendung:
+1. Das ist keine Parallelisierung, eher eine starke Verlangsamung
+2. mehrere Threads greifen ständig auf dieselben Speicheradressen schreibend und nicht atomar zu: undefiniertes Verhalten (fällt hier nicht weiter auf, <NAME_CORPUS_REPLACEMENT> eh jeder Thread dasselbe ausrechnet)
+3. Die Division <NAME_CORPUS_REPLACEMENT> Integern ist für einen Mittelwert relativ zweckfrei, <NAME_CORPUS_REPLACEMENT> ungenau und nichts praxisnah, aber das ist das kleinste Problem.
+4. Das schlimmste ist im AVG-Kernel diese Zeile:
+```ruby
+output[0]+=input[i];
+```
+Das sorgt dafür, dass jeder Additionsschritt einen Zugriff auf den Global Memory darstellt --> nen schlimmeren Slowdown gibt's nicht. Das ist auch der Grund, warum der Kernel so ewig läuft. (Hätte unsere Clang übrigens eine <REMOVED_PERSON_ENTITY>, wäre uns die enorme Anzahl an Speicherzugriffen sofort aufgefallen....) Also dort eine lokale Variable anlegen, aufsummieren und dann am Schluss in den global mem ablegen. Achja, und natürlich paralellisieren...
+TAGGED_CONTENT:

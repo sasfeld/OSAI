@@ -1,0 +1,12 @@
+ID: 1882
+CREATION_DATETIME: 1370210400000
+MODIFICATION_DATETIME: 1370210400000
+TITLE: Die LLVM-Leute ändern gerne die Interfaces. Bei jeder Version.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: comment
+CONTENT:
+Die LLVM-Leute ändern gerne die Interfaces. Bei jeder Version.
+
+In größeren Projekten wie <REMOVED_PERSON_ENTITY> kann man mit #ifdef das LLVM_VERSION abfragen. Wenn du es mit LLVM 3. 3 zum Laufen bekommen willst, kannst du ja eine Funktionierende Version mit Präprozessorbefehlen bauen.
+TAGGED_CONTENT:

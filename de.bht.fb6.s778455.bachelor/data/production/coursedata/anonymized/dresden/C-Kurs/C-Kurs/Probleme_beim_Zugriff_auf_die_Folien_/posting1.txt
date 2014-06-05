@@ -1,0 +1,13 @@
+ID: 975
+CREATION_DATETIME: 1355698800000
+MODIFICATION_DATETIME: 1358031600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+der Zugriff auf die Folien dauert ewigkeiten. Könntet ihr das bitte beheben? 
+Ich hab es heute 3 mal in der Uni und ein mal <NAME_CORPUS_REPLACEMENT> daheim probiert. 
+Schöne Grüße,
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

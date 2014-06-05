@@ -1,0 +1,12 @@
+ID: 1545
+CREATION_DATETIME: 1363734000000
+MODIFICATION_DATETIME: 1363734000000
+TITLE: OK. It is implemented, because I managed to do this.
+
+Than question changes to: Do we have use libi...
+PARENT_POSTING_ID: 1543
+POSTING_TYPE: comment
+CONTENT:
+OK. It is implemented, because I managed to do this.
+Than question changes to: Do we have use libio-io or libio-direct or anything we want?
+TAGGED_CONTENT:

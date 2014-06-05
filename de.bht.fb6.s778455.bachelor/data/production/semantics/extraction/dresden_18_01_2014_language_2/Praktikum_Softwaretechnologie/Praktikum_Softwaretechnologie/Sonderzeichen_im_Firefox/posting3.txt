@@ -1,0 +1,26 @@
+ID: 3017
+CREATION_DATETIME: 1385334000000
+MODIFICATION_DATETIME: 1385420400000
+TITLE: Hier noch zwei weitere Sachen die du überprüfen könntest:
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3015
+POSTING_TYPE: answer
+CONTENT:
+Hier noch zwei weitere Sachen die du überprüfen könntest:
+
+Habt ihr das Encoding im Eclipse-Projekt nachträglich umgestellt? Dateien die zu diesem Zeitpunkt schon angelegt sind behalten u. U. trotz der Umstellung ihre alte Kodierung. Wenn du unter <REMOVED_PERSON_ENTITY> oder OS X unterwegs bist, kannst du mit dem folgenden Kommando die Kodierung relativ zuverlässig feststellen:
+
+```bash
+
+# unter OS X ist es der Schalter -I (minus groß i)
+
+file -i datei. html
+
+datei. html: text/html; charset=iso-8859-1
+
+```
+
+An dieser Stelle sollte `charset=utf-8` stehen. Unter <REMOVED_PERSON_ENTITY> lässt sich die Kodierung wahrscheinlich mit einem Editor wie Notepad++ herausfinden.
+
+Ansonsten: Enthält das Template vielleicht einen widersprüchlichen ``-Tag mit Charset-Angaben?
+TAGGED_CONTENT:

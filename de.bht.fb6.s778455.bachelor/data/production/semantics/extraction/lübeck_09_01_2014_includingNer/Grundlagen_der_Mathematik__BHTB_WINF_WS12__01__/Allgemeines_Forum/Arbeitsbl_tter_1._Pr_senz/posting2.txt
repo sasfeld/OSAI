@@ -1,0 +1,12 @@
+ID: 171973
+CREATION_DATETIME: 1350551027
+MODIFICATION_DATETIME: 1350551027
+TITLE: Re: Arbeitsblätter 1. Präsenz
+NER_TAG: value:VG;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+PARENT_POSTING_ID: 171943
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+in der Präsenz haben wir keine neuen Aufgaben bearbeitet, nur das Arbeitsblatt, das hier in Moodle runterladen kannst und das mit den Brüchen, das Hr. Moesner rumgeschickt hast. Falls die die Mail von ihm nicht hast, ich habs hier als Anhang beigefügt, das ander gibts wie gesagt in Moodle zum selber runterladen. Du solltest Hrn. Moesner ggf. auch deine Mailadresse nochmal mitteilen, falls du bis jetzt keine Mails von ihm bekommen hast.
+Was die Gruppen angeht, unserer Gruppe ist jezt schon zu 4. und damit wohl leider wohl?!
+VG, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

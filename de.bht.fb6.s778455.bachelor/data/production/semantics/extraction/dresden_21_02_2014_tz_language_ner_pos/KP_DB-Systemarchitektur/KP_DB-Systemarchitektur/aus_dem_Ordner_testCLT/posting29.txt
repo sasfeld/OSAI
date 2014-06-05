@@ -1,0 +1,13 @@
+ID: 1961
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Aktuell könnte es daran liegen, dass ich meinen Stand committed hab, bin dabei zu prüfen, ob alles no...
+LANGUAGE: GERMAN
+POS_TAG: value:Stand;weight:0.0;uri:;postag:NN
+POS_TAG: value:zeug;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Aktuell könnte es daran liegen, dass ich meinen Stand committed hab, bin dabei zu prüfen, ob alles noch problemlos läuft. melde mich, sobald ich damit weiter bin, muss mir hier erstmal das llvm-zeug installieren
+TAGGED_CONTENT:
+Aktuell_ADJD könnte_VMFIN es_PPER daran_PROAV liegen_VVFIN ,_$, dass_KOUS ich_PPER meinen_PPOSAT Stand_NN committed_ADJD hab_VAFIN ,_$, bin_VAFIN dabei_PROAV zu_PTKZU prüfen_VVINF ,_$, ob_KOUS alles_PIS noch_ADV problemlos_ADJD läuft_VVFIN ._$. melde_VVFIN mich_PPER ,_$, sobald_KOUS ich_PPER damit_PROAV weiter_ADV bin_VAFIN ,_$, muss_VVIMP mir_PPER hier_ADV erstmal_ADV das_ART llvm-zeug_NN installieren_VVINF 

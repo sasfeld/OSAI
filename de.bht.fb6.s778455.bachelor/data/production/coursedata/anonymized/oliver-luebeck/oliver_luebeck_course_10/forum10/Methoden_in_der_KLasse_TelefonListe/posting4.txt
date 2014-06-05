@@ -1,0 +1,15 @@
+ID: 19
+CREATION_DATETIME: 1194046140000
+MODIFICATION_DATETIME: 1194046140000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 18
+CONTENT:
+ 
+Ah, ich habe etwas übersehen.
+
+Bei der ersten Methode wird nur "richard", "35467654" ausgeben, bei der zweiten "richard", "35467654" sowie "richard", "22467343".
+
+Bei der ersten Methode kann der zweite "richard" gar nicht ausgegeben werden, da wir uns in keiner Schleife mehr befinden und somit die liste gar nicht mehr durchsucht werden kann. Die Methode wird verlassen.
+   
+TAGGED_CONTENT:

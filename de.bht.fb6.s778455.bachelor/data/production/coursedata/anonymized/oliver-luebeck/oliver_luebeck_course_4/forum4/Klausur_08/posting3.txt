@@ -1,0 +1,21 @@
+ID: 84
+CREATION_DATETIME: 1183482600000
+MODIFICATION_DATETIME: 1183482600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 82
+CONTENT:
+
+
+Liebe , lieber ,
+
+Danke fuer den Fehler-Hinweis in der Aufgabe 2.2.
+
+Aufgabe 2: eine Klasse erbt immer alle Elemente (Attribute und Methoden) der Oberklasse unabhängig der Errreichbarkeit (public, private, usw.) und ob es Klassen- oder Objekt-Elemente sind. Das Attribut punkte ist in der Oberklasse mit protected deklariert, nur damit die Programmierung der Methode toString() in der Unterklasse leichter wird.
+
+Erreichbarkeit (private ) hat mit Verdeckung von Attributen nichts zu tun. Ein Attribut der Oberklasse ist in der Unterklasse verdeckt, wenn in der Unterklasse ein Attribut mit genau dem gleichen Namen wie in der Oberklasse deklariert wird.
+
+Hilft dies Ihnen weiter?
+Mit freundlichen Gruessen,
+	
+TAGGED_CONTENT:

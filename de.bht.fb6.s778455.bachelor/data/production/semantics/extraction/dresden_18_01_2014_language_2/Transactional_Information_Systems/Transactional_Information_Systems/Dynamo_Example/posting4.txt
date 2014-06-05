@@ -1,0 +1,10 @@
+ID: 1117
+CREATION_DATETIME: 1360882800000
+MODIFICATION_DATETIME: 1360882800000
+TITLE: I would be grateful if someone can post or mail the solution( with explanation would be better) for D...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1076
+POSTING_TYPE: comment
+CONTENT:
+I would be grateful if someone <NAME_CORPUS_REPLACEMENT> post or mail the solution( with explanation would be better) for Dynamo exercises?
+TAGGED_CONTENT:

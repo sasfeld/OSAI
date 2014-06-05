@@ -1,0 +1,9 @@
+ID: 2325
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Ich würde die Entwicklungsphase einfach mal unabhängig vom Endergebnis betrachten. Wir haben damit be...
+PARENT_POSTING_ID: 2321
+POSTING_TYPE: comment
+CONTENT:
+Ich würde die Entwicklungsphase einfach mal unabhängig vom Endergebnis betrachten. Wir haben damit bewiesen, dass bei einer Approximation jeder komplexere als der einfachste Ansatz nicht lohnenswert ist. Außerdem haben wir die Erfahrung gewonnen, Zwischenergebnisse so früh wie möglich (grafisch) auszuwerten, bevor man in eine falsche Richtung rennt.
+TAGGED_CONTENT:

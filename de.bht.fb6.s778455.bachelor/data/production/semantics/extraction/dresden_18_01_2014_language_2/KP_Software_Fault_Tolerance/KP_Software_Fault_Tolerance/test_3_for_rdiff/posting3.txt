@@ -1,0 +1,10 @@
+ID: 2680
+CREATION_DATETIME: 1383174000000
+MODIFICATION_DATETIME: 1383174000000
+TITLE: Thanks, but manage to bypass it with good ol' "write everything again from scratch" hehe
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2679
+POSTING_TYPE: comment
+CONTENT:
+Thanks, but manage to bypass it with good ol' "write everything again from scratch" hehe
+TAGGED_CONTENT:

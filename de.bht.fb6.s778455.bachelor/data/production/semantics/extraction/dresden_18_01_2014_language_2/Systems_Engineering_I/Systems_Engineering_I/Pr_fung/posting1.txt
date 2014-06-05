@@ -1,0 +1,10 @@
+ID: 1677
+CREATION_DATETIME: 1365285600000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Welche Form hat die Prüfung, wenn die Lehrveranstaltung als Teil des Moduls "INF-B-520 Vertiefung zur Bachelorarbeit" belegt wird und in welcher Sprache wird sie durchgeführt?
+TAGGED_CONTENT:

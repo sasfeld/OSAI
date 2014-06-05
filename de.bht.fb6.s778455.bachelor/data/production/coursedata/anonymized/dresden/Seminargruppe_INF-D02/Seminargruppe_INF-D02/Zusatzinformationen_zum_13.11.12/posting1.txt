@@ -1,0 +1,20 @@
+ID: 759
+CREATION_DATETIME: 1352761200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Prüfungs- und Studienordnung auf Deutsch:
+https://auditorium. inf. tu-dresden. de/posts/744
+Neben- bzw. Anwendungsfach:
+http://www.inf.tu-dresden. de/index. php?node_id=3025
+bitte unbedingt auf dieser Mailingliste eintragen, damit die Verantwortliche (<REMOVED_PERSON_ENTITY>) euch erreichen kann:
+https://lists. ifsr. de/mailman/listinfo/fsr-info
+und auch hier <NAME_CORPUS_REPLACEMENT> Zeit zu Zeit mal nach Neuigkeiten schauen:
+http://www.inf.tu-dresden. de/portal. php?node_id=2704&ln=de&group=58
+INF-D-520 - "Allgemeine Basisqualifikation" im Diplomstudiengang Informatik und
+INF-D-940 - "Berufsspezifische Schlüsselkompetenzen" im Diplomstudiengang Informatik:
+http://www.inf.tu-dresden. de/index. php?node_id=2711&ln=de
+jeweils auf „Lehrveranstaltungskatalog” klicken um die PDF zu öffnen
+TAGGED_CONTENT:

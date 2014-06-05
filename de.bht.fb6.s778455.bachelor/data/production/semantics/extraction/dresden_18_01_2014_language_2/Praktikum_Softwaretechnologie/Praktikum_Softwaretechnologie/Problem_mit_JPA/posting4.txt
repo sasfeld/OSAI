@@ -1,0 +1,10 @@
+ID: 2950
+CREATION_DATETIME: 1384988400000
+MODIFICATION_DATETIME: 1384988400000
+TITLE: Okay, in welchem Package liegt deine Main-Klasse?
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2947
+POSTING_TYPE: comment
+CONTENT:
+Okay, in welchem Package liegt deine Main-Klasse?
+TAGGED_CONTENT:

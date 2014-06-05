@@ -1,0 +1,17 @@
+ID: 70
+CREATION_DATETIME: 1201250340000
+MODIFICATION_DATETIME: 1201250340000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 69
+CONTENT:
+
+xxxx und ich haben an dem Samstag auch drüber geredet.
+
+Beides geht natürlich und funktioniert auch, aber Checkboxgroup ist java.awt und ButtonGroup ist javax.swing.
+
+Normalerweise nimmst du wenn du ein JFrame einsetzt möglichst viel aus dieser Bibliothek. 
+
+zur größe des Fensters: setz einfach in den Konstruktor vor "this.visible(true);" folgendes: "this.pack();"
+      
+TAGGED_CONTENT:

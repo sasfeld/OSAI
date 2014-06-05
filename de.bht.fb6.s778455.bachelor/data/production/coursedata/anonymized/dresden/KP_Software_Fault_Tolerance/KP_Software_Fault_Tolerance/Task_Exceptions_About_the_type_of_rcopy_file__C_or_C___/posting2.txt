@@ -1,0 +1,9 @@
+ID: 542
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1351202400000
+TITLE: Did you take a look at the slides for the task? Slide 12 explains the structure of the rcopy implemen...
+PARENT_POSTING_ID: 541
+POSTING_TYPE: comment
+CONTENT:
+Did you take a look at the slides for the task? Slide 12 explains the structure of the rcopy implementation, it seems to be needed to implement File class that uses libc functions and add a wrapper to this class that will throw and catch exceptions.
+TAGGED_CONTENT:

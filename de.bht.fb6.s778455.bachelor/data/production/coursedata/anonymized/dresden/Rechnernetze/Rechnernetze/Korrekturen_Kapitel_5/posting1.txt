@@ -1,0 +1,9 @@
+ID: 1804
+CREATION_DATETIME: 1368482400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+In den Vorlesungsfolien zu Kapitel 5 - <REMOVED_PERSON_ENTITY> wurden auf den Folien 5. 10, 5. 12 und 5. 31 Anpassungen und Ergänzungen gemacht. Bitte auf schon ausgedruckten Folien entsprechend ergänzen. Die aktuelle Version ist auf der Webseite als PDF verfügbar.
+TAGGED_CONTENT:

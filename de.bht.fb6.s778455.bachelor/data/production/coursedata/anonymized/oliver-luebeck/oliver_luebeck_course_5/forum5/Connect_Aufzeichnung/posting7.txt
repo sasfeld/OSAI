@@ -1,0 +1,13 @@
+ID: 28
+CREATION_DATETIME: 1191918240000
+MODIFICATION_DATETIME: 1191918240000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 27
+CONTENT:
+
+Ok, also vom Rechner im Geschäft funktionierts. Hab wohl irgendwas an der Installation daheim zerschossen. Werde berichten worans gelegen hat wenn ich dahinter gekommen bin.
+
+Gruß 
+   
+TAGGED_CONTENT:

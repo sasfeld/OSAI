@@ -1,0 +1,10 @@
+ID: 1632
+CREATION_DATETIME: 1364252400000
+MODIFICATION_DATETIME: 1364252400000
+TITLE: Im Moment steht sowieso eine Überarbeitung der Kernanwendung an. Steht quasi schon auf der Liste. :)
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1630
+POSTING_TYPE: comment
+CONTENT:
+Im Moment steht sowieso eine <REMOVED_PERSON_ENTITY> der Kernanwendung an. Steht quasi schon auf der Liste. :)
+TAGGED_CONTENT:

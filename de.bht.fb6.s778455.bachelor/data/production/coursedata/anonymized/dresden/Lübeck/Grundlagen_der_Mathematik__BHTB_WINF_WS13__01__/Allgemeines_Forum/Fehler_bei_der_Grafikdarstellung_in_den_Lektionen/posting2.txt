@@ -1,0 +1,10 @@
+ID: 236933
+CREATION_DATETIME: 1380482953
+MODIFICATION_DATETIME: 1380483114
+TITLE: Re: Fehler bei der Grafikdarstellung in den Lektionen
+PARENT_POSTING_ID: 236867
+CONTENT:
+Hallo,
+gestern hatte ich das gleiche Problem auf dem IPad. Mit Stand heute (29. 09. 2013 21:00 Uhr) sind bei mir wieder alle Symbole und Abbildungen unter Safari (IPad), Chrome (Win7) und Firefox (Win7) sichtbar.
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

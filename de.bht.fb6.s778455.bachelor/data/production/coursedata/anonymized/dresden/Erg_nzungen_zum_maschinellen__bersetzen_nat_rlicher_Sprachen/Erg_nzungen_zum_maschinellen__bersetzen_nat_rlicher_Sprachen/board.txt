@@ -1,0 +1,6 @@
+ID: 2154374
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Ergänzungen zum maschinellen Übersetzen natürlicher Sprachen
+INTRO: null
+TYPE: null

@@ -1,0 +1,22 @@
+ID: 1171
+CREATION_DATETIME: 1362438000000
+MODIFICATION_DATETIME: 1380405600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Entschuldigt den etwas stumpfen Code, aber ich versuche grad einfach nur zu verstehen, wie der MCP Befehle entgegennimmt.
+Mein Player soll momentan einfach nur den Zug "21-17" ausführen wenn er dran ist. Dazu verwende ich folgenden Code:
+```ruby
+buffer[0] = '2';
+buffer[1] = '1';
+buffer[2] = '-';
+buffer[3] = '1';
+buffer[4] = '7';
+buffer[5] = 0;
+ # so geht's weiter...
+buffer[39] = 0;
+```
+Wenn das jetzt zum MCP zurückkommt, bemängelt er "too long, had to cut" und nimmt einfach nur "21-1" statt "21-17" als Eingabe. Wieso?
+Lg <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,17 @@
+ID: 2017
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: um euch auf den aktuellen Stand zu bringen: nach debugging mit dem gDEBugger hab ich in den Memory bu...
+LANGUAGE: GERMAN
+POS_TAG: value:Stand;weight:0.0;uri:;postag:NN
+POS_TAG: value:Idee;weight:0.0;uri:;postag:NN
+POS_TAG: value:Integerwert;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wert;weight:0.0;uri:;postag:NN
+POS_TAG: value:gDEBugger;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+um euch auf den aktuellen Stand zu bringen: nach debugging mit dem gDEBugger hab ich in den Memory buffers auf dem device gesehen, dass jeder 4. Wert richtig ist (also der übertragene Integerwert), kann mir allerdings noch nichts erklären warum. Vllt hat ja einer <NAME_CORPUS_REPLACEMENT> euch ne Idee...
+TAGGED_CONTENT:
+um_APPR euch_PPER auf_APPR den_ART aktuellen_ADJA Stand_NN zu_PTKZU bringen_VVINF :_$. nach_APPR debugging_FM mit_APPR dem_ART gDEBugger_NN hab_VAFIN ich_PPER in_APPR den_ART Memory_NE buffers_FM auf_APPR dem_ART device_FM gesehen_VVPP ,_$, dass_KOUS jeder_PIDAT 4_CARD ._$. Wert_NN richtig_ADJD ist_VAFIN -LRB-_TRUNC also_ADV der_ART übertragene_ADJA Integerwert_NN -RRB-_TRUNC ,_$, kann_VMFIN mir_PPER allerdings_ADV noch_ADV nichts_PIS erklären_VVINF warum_PWAV ._$. Vllt_VVPP hat_VAFIN ja_ADV einer_ART <_ADJA NAME_CORPUS_REPLACEMENT_NN >_CARD euch_PRF ne_PDAT Idee_NN ..._$( 

@@ -1,0 +1,9 @@
+ID: 799
+CREATION_DATETIME: 1353279600000
+MODIFICATION_DATETIME: 1353279600000
+TITLE: Das kann auch der jeweilige Editor bereits machen.
+PARENT_POSTING_ID: 797
+POSTING_TYPE: comment
+CONTENT:
+Das kann auch der jeweilige Editor bereits machen.
+TAGGED_CONTENT:

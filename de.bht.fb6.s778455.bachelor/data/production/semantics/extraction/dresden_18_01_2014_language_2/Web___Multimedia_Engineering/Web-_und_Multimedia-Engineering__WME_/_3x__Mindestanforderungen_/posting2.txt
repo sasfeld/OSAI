@@ -1,0 +1,12 @@
+ID: 1073
+CREATION_DATETIME: 1358895600000
+MODIFICATION_DATETIME: 1358982000000
+TITLE: Netter Versuch - Das würde mir im Sinne der "Effizienzmaximierung [...] der obligatorisch[en] prüfung...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1072
+POSTING_TYPE: answer
+CONTENT:
+Netter Versuch - Das würde mir im Sinne der "Effizienzmaximierung [...] der obligatorisch[en] prüfungsbedingten Semesterendphasenzeitverfügbarkeitsdezimierung" helfen, <NAME_CORPUS_REPLACEMENT> es eine Klausur weniger zu kontrollieren gäbe.
+
+Im <NAME_CORPUS_REPLACEMENT> - Ihre Interpretation des Bewertungssystems entspricht nicht der Intention der Durchführung einer <REMOVED_PERSON_ENTITY>, geschweige denn der Intention der eigentlichen Aufgabenstellung. Indes steht unter "Weitere Anforderungen" in der Aufgabenstellung wörtlich "Das Ergebnis soll weiterhin die folgenden Anforderungen erfüllen". Die Betonung liegt hier natürlich auf **weiterhin**.
+TAGGED_CONTENT:

@@ -1,0 +1,15 @@
+ID: 58
+CREATION_DATETIME: 1289852220000
+MODIFICATION_DATETIME: 1289852220000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 55
+CONTENT:
+
+Hallo ,
+
+wenn du keine Einstellungen an der Konfiguration vornehmen willst, die Grafikdatei einfach in Projektverzeichnis kopieren. Bei dir "CocktailMixerGUI". Ansonsten wie von Bernhard bzw. in der Lerneinheit beschrieben.
+
+Gruß
+    
+TAGGED_CONTENT:

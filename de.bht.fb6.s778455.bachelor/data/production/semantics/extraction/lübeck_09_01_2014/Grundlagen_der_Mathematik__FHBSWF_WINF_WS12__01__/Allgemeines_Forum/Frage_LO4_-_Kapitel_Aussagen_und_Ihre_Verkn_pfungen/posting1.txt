@@ -1,0 +1,15 @@
+ID: 169849
+CREATION_DATETIME: 1350059753
+MODIFICATION_DATETIME: 1350059753
+TITLE: Frage LO4 - Kapitel:Aussagen und Ihre Verknüpfungen
+TOPIC_ZOOM_TAG: value:Bücher;weight:1.0;significance:5.80279623892246;degreegeneralization:5;uri:21981657
+TOPIC_ZOOM_TAG: value:Presse, Druck und Verlagswesen;weight:1.0;significance:3.89973203213328;degreegeneralization:4;uri:21990174
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+ich bearbeite zur Zeit das Lernobjekt 4, Aussagen und Ihre Verknüpfungen. Am Ende das Kapitels gibt es einen Punkt 2. 4 mit Aufagben. Habe diese versucht zu lösen, allerdings kam ich bei Aufagbe 2 und 3 nie auf das gleiche Ergebnis wie in der Lösung. 
+Hat das schon jemand von euch richtig gelöst bzw. ist schon jemand an der Stelle???
+Gruß <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

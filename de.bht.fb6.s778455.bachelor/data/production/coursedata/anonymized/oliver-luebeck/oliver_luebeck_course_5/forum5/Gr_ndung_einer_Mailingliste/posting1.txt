@@ -1,0 +1,17 @@
+ID: 13
+CREATION_DATETIME: 1191613020000
+MODIFICATION_DATETIME: 1191613020000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hi zusammen
+
+Hat jemand eigentlich meine Einladung zu einer Mailingliste erhalten? Ich wollte mit Euch eine private Lerngruppe bzw. bilden, die zwar unmoderiert läuft, dafür aber großen (und privaten) Kommunikationsspielraum bietet.
+
+Würde mich mal interessieren, ob die Einladungen überhaupt angekommen sind.
+
+Viele Grüße
+    
+TAGGED_CONTENT:

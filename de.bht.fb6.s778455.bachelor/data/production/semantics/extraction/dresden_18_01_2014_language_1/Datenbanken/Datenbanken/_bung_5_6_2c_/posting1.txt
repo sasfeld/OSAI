@@ -1,0 +1,26 @@
+ID: 2521
+CREATION_DATETIME: 1376172000000
+MODIFICATION_DATETIME: 1381960800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+
+das Ziel der 2. Normalform ist ja die volle funktionale Abhängigkeit jedes Nichtschlüsselattributs vom Primärschlüssel.
+
+Für mich ist aus 2a) ersichtlich, dass D und G nur <NAME_CORPUS_REPLACEMENT> A und B abhängig sind, sowie E und F nur <NAME_CORPUS_REPLACEMENT> A.
+
+Für mich ergibt sich intuitiv folgende Zerlegung:
+
+R1=(A, B, C)
+
+R2=(A, B, D, G)
+
+R3=(A, E, F)
+
+Jedoch ist in der Lösung R2 = (B, D, G). Ist meine Lösung ebenfalls korrekt, wenn nein, warum nicht?
+
+Und müsste man beim Zerlegen nicht auch Verlustfreiheit und Abhängigkeitserhaltung achten? Das wurde in der Vorlesung angesprochen, aber in der Übung wurde es nicht behandelt.
+TAGGED_CONTENT:

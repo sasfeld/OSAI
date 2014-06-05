@@ -1,0 +1,12 @@
+ID: 1768
+CREATION_DATETIME: 1367186400000
+MODIFICATION_DATETIME: 1367186400000
+TITLE: CSV Dateien könnten etwas groß werden, wenn man ~100 Tests mit vielleicht verschiedenen Ausgangsdaten...
+PARENT_POSTING_ID: 1767
+POSTING_TYPE: answer
+CONTENT:
+CSV Dateien könnten etwas groß werden, wenn man ~100 Tests mit vielleicht verschiedenen Ausgangsdaten speichern will.
+Ist es vielleicht besser, pro Kernel eine Klasse zu machen, die alle <NAME_CORPUS_REPLACEMENT> eine Überklasse TestCase erben und Methoden wie getKernel, getData haben? Und in getData könnte man dann jedes mal die Daten generieren. Wenn man auf random Daten arbeitet, ist das bestimmt die bessere <REMOVED_PERSON_ENTITY>.
+Andererseits dauert das Datengenerieren auch ein bisschen, wenn man z. B. einen Index braucht.
+Ihr könnt das gerne frei entscheiden.
+TAGGED_CONTENT:

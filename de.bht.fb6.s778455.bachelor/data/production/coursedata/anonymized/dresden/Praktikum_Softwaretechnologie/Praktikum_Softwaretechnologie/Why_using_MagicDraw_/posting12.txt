@@ -1,0 +1,10 @@
+ID: 2598
+CREATION_DATETIME: 1382306400000
+MODIFICATION_DATETIME: 1382392800000
+TITLE: It is common practice for proprietary software vendors (Microsoft does that too, and many others) to ...
+PARENT_POSTING_ID: 2593
+POSTING_TYPE: comment
+CONTENT:
+It is common practice for proprietary software vendors (Microsoft does that too, and many others) to distribute free samples of their products to students, so that the students get used to their software, and, once they graduate and work at some company in the industry, help to make that company use their product. Secondly, this practice allows chairs to require students to use proprietary software, because the “I can't afford it” argument no longer works.
+This is a very objectionable practice in my opinion, and it is sad that chairs fall for it so easily. We should not regard the free license as a friendly gift from NoMagic, because gifts from companies always come with a hidden agenda.
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 39
+CREATION_DATETIME: 1175518380000
+MODIFICATION_DATETIME: 1175518380000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Wie funktioniert die Webkonferenz? Klar, Headset und Kamera ist logisch.
+Aber kann es sein, dass ich hier tatsächlich Windows nutzen muss? Unter Linux läuft nämlich gar nichts.
+    
+TAGGED_CONTENT:

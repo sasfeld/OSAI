@@ -1,0 +1,16 @@
+ID: 675
+CREATION_DATETIME: 1352156400000
+MODIFICATION_DATETIME: 1352415600000
+TITLE: Building malloc() as a call to a memory-managing server does not suffice, because this server will th...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 674
+POSTING_TYPE: answer
+CONTENT:
+Building `malloc()` as a call to a memory-managing server does not suffice, because this server will then work with something like a dataspace, which in turn is based on the granularity of a page. Therefore, any allocated area you get from this server will be at least 4 kB (== 1 page) large -- not a decent idea if you think of dynamically allocating  loads of byte-sized objects.
+
+Actually, this `malloc()` server is already there. Every task has a memory allocator assigned, which is a capability to a server handing out dataspaces. (See `l4re/include/env` and `l4re/include/mem_alloc`). You <NAME_CORPUS_REPLACEMENT> already now use this server.
+
+Your second assignment will then be to implement a "real" `malloc/free` on top of this interface, e. g., one that allocates something like 1 MB of dataspace and then internally uses this dataspace to hand out smaller chunks whenever someone calls `malloc`. If you want to dive deeper, you might search the web for dynamic memory management (focus on the allocator part, not the interface itself).
+
+All hail the motivated students!
+TAGGED_CONTENT:

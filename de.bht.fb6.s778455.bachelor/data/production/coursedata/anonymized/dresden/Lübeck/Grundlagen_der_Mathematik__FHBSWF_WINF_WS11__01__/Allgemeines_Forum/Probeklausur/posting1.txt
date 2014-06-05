@@ -1,0 +1,8 @@
+ID: 117554
+CREATION_DATETIME: 1326735065
+MODIFICATION_DATETIME: 1326735065
+TITLE: Probeklausur
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo, gibt es eine Möglichkeit einen Lösungsvorschlag für die Probeklausur zu bekommen?mG <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

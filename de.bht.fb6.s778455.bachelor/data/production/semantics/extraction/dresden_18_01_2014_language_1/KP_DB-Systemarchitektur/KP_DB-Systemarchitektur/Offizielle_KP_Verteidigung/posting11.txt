@@ -1,0 +1,12 @@
+ID: 2333
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: OK, sieht schon etwas besser aus, zumindest was Einheiten und Co angeht. Können wir ja morgen nochmal...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+OK, sieht schon etwas besser aus, zumindest was Einheiten und <NAME_CORPUS_REPLACEMENT> angeht. Können wir ja morgen nochmal quatschen.
+
+Kannst du deine Folien nochmal im pptx-format erstellen und abspeichern und einchecken? Weil ich die Foliensätze jetzt basierend auf der Zwischenpräsi erstelle und sich das sonst nicht zusammenbringen lässt. Danke
+TAGGED_CONTENT:

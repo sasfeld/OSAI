@@ -1,0 +1,30 @@
+ID: 177651
+CREATION_DATETIME: 1352102869
+MODIFICATION_DATETIME: 1352102869
+TITLE: Re: Online Präsenz 31.10. Konjunktive Normalform
+TOPIC_ZOOM_TAG: value:Logik;weight:2.0;significance:8.32652288056005;degreegeneralization:4;uri:21472524
+TOPIC_ZOOM_TAG: value:Algebraische Begriffe;weight:1.0;significance:6.35427475761695;degreegeneralization:7;uri:20767840
+TOPIC_ZOOM_TAG: value:Algebren;weight:1.0;significance:6.35427475761695;degreegeneralization:8;uri:20767823
+TOPIC_ZOOM_TAG: value:Algebra;weight:1.0;significance:6.35427475761695;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Boolesche Algebra;weight:1.0;significance:6.35427475761695;degreegeneralization:9;uri:20214779
+TOPIC_ZOOM_TAG: value:Mathematische Logik;weight:1.0;significance:5.5495558013999;degreegeneralization:6;uri:20881349
+TOPIC_ZOOM_TAG: value:Geisteswissenschaften;weight:2.0;significance:4.65434461816952;degreegeneralization:3;uri:21978240
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:3.89064791503836;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:2.50435355391847;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:2.23699226098339;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:1.75110858232764;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:1.16884339240287;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 177483
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+es ist hier ziemlich wichtig zu wissen, was genau man aussagen möchte. Eine Normalform gibt uns einen zur gegebenen Formel X logisch gleichwertigen Ausdruck, d. h. egal wie man die <REMOVED_PERSON_ENTITY> mit Wahr/Falsch belegt, beide Ausdrücke liefern stets denselben Gesamtwahrheitswert. 
+Wenn Sie bloß Einzelfälle betrachten, müssen Sie aufpassen, weil es um notwendige und hinreichende Kriterien geht.
+Beispiel 1: Die erste <REMOVED_PERSON_ENTITY> des grünen Bereiches Ihrer Wahrheitstabelle ergibt, dass X *wahr* ist, falls A, B, C falsch sind. Dieses Wissen über A, B, C ist hinreichend für die Wahrheit von X, aber nicht notwendig. Denn für andere Fälle kann X ja auch wahr werden. In der Sprache der Booleschen Algebra: (NICHT A und NICHT B und NICHT C)-&gt;X ist eine Tautologie. Denn X ist niemals falsch, wenn der Ausdruck links vom <REMOVED_PERSON_ENTITY> wahr ist.
+Beispiel 2: Die erste <REMOVED_PERSON_ENTITY> des roten Bereiches Ihrer Wahrheitstabelle ergibt, dass X *falsch* ist, falls A, C falsch sind und B wahr ist. Dies ist hinreichend für X falsch, aber nicht notwendig, weil X ja auch bei anderen Belegungen falsch sein kann. Entsprechend ist (NICHT A und B und NICHT C)-&gt;NICHT X eine Tautologie. Denn NICHT X ist niemals falsch (also X niemals wahr), wenn der Ausdruck links vom <REMOVED_PERSON_ENTITY> wahr ist.
+Beispiel 3: Die Negation des Ausdrucks (NICHT A und B und NICHT C) der ersten <REMOVED_PERSON_ENTITY> des roten Bereiches wird genau dann wahr, wenn wir  genau *nicht* eine <REMOVED_PERSON_ENTITY> von A, B, C vorliegen haben, die zu dieser Zeile gehört. Unter den anderen Zeilen gibt es aber Fälle mit X wahr und X falsch - also können wir aus "NICHT (NICHT A und B und NICHT C)" weder X noch NICHT X schließen. Dazu brauchen wir dann die KNF (die deckt ja *alle* roten Zeilen ab).
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

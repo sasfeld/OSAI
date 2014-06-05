@@ -1,0 +1,17 @@
+ID: 63
+CREATION_DATETIME: 1182005520000
+MODIFICATION_DATETIME: 1182005520000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 62
+CONTENT:
+ 
+Hallo zusammen,
+
+es fehlen die Anführungszeichen als Parameter für den Aufruf des Superkonstruktors in beiden Fällen, klaro:
+
+super("");
+
+Ciao
+    
+TAGGED_CONTENT:

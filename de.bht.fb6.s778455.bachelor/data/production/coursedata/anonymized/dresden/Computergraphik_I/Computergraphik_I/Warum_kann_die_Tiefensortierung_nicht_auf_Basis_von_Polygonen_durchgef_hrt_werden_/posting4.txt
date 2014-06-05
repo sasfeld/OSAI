@@ -1,0 +1,10 @@
+ID: 1951
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Hier noch ein Hinweis: Falls man Transparenz unterstützen will (vor allem, wenn sich halbtransparente...
+PARENT_POSTING_ID: 1947
+POSTING_TYPE: answer
+CONTENT:
+Hier noch ein Hinweis: Falls man Transparenz unterstützen will (vor allem, wenn sich halbtransparente Polygone mit verschiedenen Farben überdecken) mach man meistens eine Vorsortierung. Im gröbsten Fall auf Basis <NAME_CORPUS_REPLACEMENT> 3D-Objekten und im feineren Fall auf Basis der Polygone. Wenn man es aber richtig machen will mit der Transparent nutzt man Depth-Peeling (siehe Wikipedia). Das nur, falls noch eine Folgefrage zur Transparenz kommt.
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

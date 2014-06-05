@@ -1,0 +1,15 @@
+ID: 191881
+CREATION_DATETIME: 1357671085
+MODIFICATION_DATETIME: 1357671226
+TITLE: Re: Vektoren linear abhängig/ unabhängig mit LGS lösen
+PARENT_POSTING_ID: 191825
+CONTENT:
+sorry wegen der späten Anwort.
+Wenn Du für r=2 setzt kommt leider nicht der Vektor raus den du berechnet hast, sondern wie gewünscht der Nullvektor.
+Ich rechne das einfach mal vor:Bevor ich aber damit anfange möchte ich noch einmal aufschreiben welches Ergebnis, dass lösen das LGS liefert. Forme ich das LGS bzw. die Matrix in die Stufenform um erhalte ich für x1 bis x5 folgende Definitionen:
+x1=2*x5x2=-x5x3=0x4=x5x5=rWenn Du für r = 2 einsetzt ergeben sich folgende Werte:x1=2*2=4x2=-2x3=0x4=2x5=2Diese Werte sind also die Skalare die ich für den Vektor 1 - Vektor 5 benutzen muss. Anschließend kann ich dann die benötige LK einfach aufschreiben. D. h. 4* (0, 1, 0, 2)+(-2)*(0, 1, 2, 1)+0*(4, 0, 0, 0)+2*(0,-2, 2,-2)+2*(0, 1, 0,-1)=(0, 0, 0, 0)
+Die Vektoren die wir hier benutzen sind diese, die in der Aufgabenstellung bereits vorgegeben waren.
+Ich hoffe, dass hilft weiter?
+Viele Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

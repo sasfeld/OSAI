@@ -1,0 +1,13 @@
+ID: 194795
+CREATION_DATETIME: 1358605856
+MODIFICATION_DATETIME: 1358605856
+TITLE: Re: Gruppenübungen
+PARENT_POSTING_ID: 194457
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+die Dimensionen sind so korrekt. XA=B bedeutet hier, dass Format (4x4) mal (4x7) dann (4x7) ergibt; transponiert heißt zu A^T * X^T = B^T heißt es, Format (7x4) mal (4x4) ergibt (7x4).
+Zur Lösung: Ja, es gibt soviele rechte Seiten, wie es <REMOVED_PERSON_ENTITY> in B^T gibt. Da die rechten Seiten den Lösungsweg nicht beeinflussen, können Sie das System am Stück parallel lösen, indem Sie jede Zeilenoperation auf alle rechten Seiten gleichzeitig anwenden.  Gesucht ist am Ende übrigens IRGENDEINE Lösung des Systems A^T | B^T. Wenn es also eine Wahlmöglichkeit geben sollte, dann dürfen sie frei wählen.
+Kleine Anmerkung am Rande: Da die Größe des Lösungsraumes (sofern überhaupt lösbar) aber nicht von der rechten Seite abhängt (sondern vom Lösungsraum des homogenen Systems), wissen Sie, dass es - wenn überhaupt - bei allen rechten Seiten gleichzeitig zur Mehrdeutigkeit der Lösung kommen muss. Es geht also nicht an, dass für eine der rechten Seiten es eindeutig klappt, für eine andere aber mehrdeutig.
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

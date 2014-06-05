@@ -1,0 +1,18 @@
+ID: 1344
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: daran:
+```ruby
+getpossibleturns(buffer);
+
+		printf("erster zug");
+```
+PARENT_POSTING_ID: 1329
+POSTING_TYPE: comment
+CONTENT:
+daran:
+```ruby
+		getpossibleturns(buffer);
+		printf("erster zug ");
+```
+TAGGED_CONTENT:

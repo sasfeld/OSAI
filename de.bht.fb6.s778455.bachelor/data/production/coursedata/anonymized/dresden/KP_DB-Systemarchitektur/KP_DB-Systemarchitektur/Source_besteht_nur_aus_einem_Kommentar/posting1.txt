@@ -1,0 +1,13 @@
+ID: 1926
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370556000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Folgender Input:
+```c
+//input: list of integers//output: single output value__kernel void sum(	__global int *input		,		__global int *output){int position=get_global_id(0);int old=atomic_add(output, input[position]);}
+```
+Irgendwas ist mit den Zeilenendungen nicht Ok. Alles besteht nur aus einem einzigen Kommentar.
+TAGGED_CONTENT:

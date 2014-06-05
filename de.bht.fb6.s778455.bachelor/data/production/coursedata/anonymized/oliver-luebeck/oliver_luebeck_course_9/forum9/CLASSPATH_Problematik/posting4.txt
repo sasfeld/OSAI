@@ -1,0 +1,14 @@
+ID: 30
+CREATION_DATETIME: 1177492920000
+MODIFICATION_DATETIME: 1177492920000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 29
+CONTENT:
+  
+Lieber ,
+in welchem Verzeichnis sind Sie, wenn Sie javac oder java ausführen? Ist ., der momentane Verzeichnis mit Hilfe von ;.; auch im CLASSPATH?
+Ich weiss, dass solche Probleme viel Zeit rauben können.
+Viele Grüße
+     
+TAGGED_CONTENT:

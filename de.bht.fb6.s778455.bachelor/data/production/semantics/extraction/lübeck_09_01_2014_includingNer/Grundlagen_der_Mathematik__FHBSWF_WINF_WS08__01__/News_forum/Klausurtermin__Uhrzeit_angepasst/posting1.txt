@@ -1,0 +1,8 @@
+ID: 16515
+CREATION_DATETIME: 1232377567
+MODIFICATION_DATETIME: 1232377567
+TITLE: Klausurtermin: Uhrzeit angepasst
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Sie alle, habe eben die Uhrzeit des Klausurtermins mit der Terminliste im Fachbereichskurs abgeglichen. Irrtümer bleiben vorbehalten. Es gilt nicht dieser Kursplan, sondern die offizielle Prüfungsliste. Mit freundlichen Grüßen, <PERSONAL_GREETING_REMOVEMENT>. <REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

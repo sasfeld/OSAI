@@ -1,0 +1,9 @@
+ID: 2386
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: Ah sorry, jetzt seh ich sie auch. Und die Boxplots sind tatsächlich besser. Die nehmen wir. Wenn die ...
+PARENT_POSTING_ID: 2350
+POSTING_TYPE: comment
+CONTENT:
+Ah sorry, jetzt seh ich sie auch. Und die Boxplots sind tatsächlich besser. Die nehmen wir. Wenn die Diagramme jetzt noch in die Abschlusspräsi aufgenommen werden, sehe ich grünes Licht für morgen.
+TAGGED_CONTENT:

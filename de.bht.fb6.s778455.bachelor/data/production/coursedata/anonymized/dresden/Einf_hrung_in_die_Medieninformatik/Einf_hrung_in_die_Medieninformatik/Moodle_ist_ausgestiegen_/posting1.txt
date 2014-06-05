@@ -1,0 +1,14 @@
+ID: 629
+CREATION_DATETIME: 1351724400000
+MODIFICATION_DATETIME: 1381874400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+moodle funktioniert seit vorgestern oder gestern nicht mehr, kann das sein?
+Ich bekomme immer ein Server-Timeout, wenn ich versuche die moodle-Seite aufzurufen.
+Wie sieht das denn mit dem Abgeben der Hausaufgaben aus?
+Grüße
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

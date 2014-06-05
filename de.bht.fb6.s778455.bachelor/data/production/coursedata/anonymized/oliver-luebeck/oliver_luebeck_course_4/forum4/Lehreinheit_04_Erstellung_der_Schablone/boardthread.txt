@@ -1,0 +1,4 @@
+ID: 1
+TITLE: Lehreinheit 04 Erstellung der Schablone
+LANGUAGE: GERMAN
+FIRST_POSTING_ID: 1

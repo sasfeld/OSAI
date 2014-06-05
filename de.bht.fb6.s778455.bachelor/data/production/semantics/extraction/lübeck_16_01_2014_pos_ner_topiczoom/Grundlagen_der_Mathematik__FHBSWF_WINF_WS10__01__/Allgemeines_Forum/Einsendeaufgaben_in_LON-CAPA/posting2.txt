@@ -1,0 +1,15 @@
+ID: 97745
+CREATION_DATETIME: 1285347932
+MODIFICATION_DATETIME: 1285347932
+TITLE: Re: Einsendeaufgaben in LON-CAPA
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:hrungsveranstaltung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kennung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Oktober;weight:0.0;uri:;postag:NN
+POS_TAG: value:Moodle;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kennungen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97744
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>, ich habe versucht mich so eben mit der mir bekannten Kennung einzuloggen. Allerdings ging das nicht! :( Also ich habe es mit der Kennung, die mir für Moodle zu geschickt wurden, versucht. Eine andere Kennung liegt mir derzeit noch nicht vor. Kann es sein, dass wir die Kennungen erst bei der Einführungsveranstaltung, am 09. Oktober erhalten? Viele Grüße <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, ich_PPER habe_VAFIN versucht_VVPP mich_PRF so_ADV eben_ADV mit_APPR der_ART mir_PPER bekannten_ADJA Kennung_NN einzuloggen_VVIZU ._$. Allerdings_ADV ging_VVFIN das_PDS nicht_PTKNEG !_$. :-LRB-_XY Also_ADV ich_PPER habe_VAFIN es_PPER mit_APPR der_ART Kennung_NN ,_$, die_PRELS mir_PPER für_APPR Moodle_NN zu_PTKZU geschickt_VVPP wurden_VAFIN ,_$, versucht_VVFIN ._$. Eine_ART andere_ADJA Kennung_NN liegt_VVFIN mir_PPER derzeit_ADV noch_ADV nicht_PTKNEG vor_PTKVZ ._$. Kann_VMFIN es_PPER sein_VAINF ,_$, dass_KOUS wir_PPER die_ART Kennungen_NN erst_ADV bei_APPR der_ART Einführungsveranstaltung_NN ,_$, am_APPRART 09_CARD ._$. Oktober_NN erhalten_VVFIN ?_$. Viele_PIDAT Grüße_NN <_VVFIN REMOVED_PERSON_ENTITY_NE >_XY 

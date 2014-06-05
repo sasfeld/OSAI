@@ -1,0 +1,9 @@
+ID: 1778
+CREATION_DATETIME: 1367445600000
+MODIFICATION_DATETIME: 1367445600000
+TITLE: Ich habe die Makefile Datei auch dafür geschrieben, aber ich glaube, dass einige Dateien noch nicht k...
+PARENT_POSTING_ID: 1770
+POSTING_TYPE: answer
+CONTENT:
+Ich habe die Makefile Datei auch dafür geschrieben, aber ich glaube, dass einige Dateien noch nicht komplett sind.
+TAGGED_CONTENT:

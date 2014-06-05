@@ -1,0 +1,8 @@
+ID: 110603003
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Datenbankprogrammierung
+SUMMARY: 
+URL: http://wwwdb.inf.tu-dresden.de/teaching/archives/2006/02/datenbankprogra_3.php

@@ -1,0 +1,12 @@
+ID: 1801
+CREATION_DATETIME: 1368396000000
+MODIFICATION_DATETIME: 1368396000000
+TITLE: Am Anfang würde es erst mal reichen, die Anzahl der Load- und Store-Befehle zu zählen. Schließlich is...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1788
+POSTING_TYPE: comment
+CONTENT:
+Am Anfang würde es erst mal reichen, die Anzahl der Load- und Store-Befehle zu zählen. Schließlich ist der Flaschenhals einzig- und allein das Speicherinterface.
+
+Du kannst mit einem simplen Modell anfangen, dass Funktionsaufrufe erst mal ignoriert werden und auch so einfach alles <NAME_CORPUS_REPLACEMENT> allen BasicBlocks zusammengezählt wird. Später können wir das immer noch verfeinern.
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 942
+CREATION_DATETIME: 1354662000000
+MODIFICATION_DATETIME: 1354748400000
+TITLE: Gehört zwar eigentlich zur 2A aber weil ich grad selber fast ne Frage dazu verfasst hätte:
+Wer in ph...
+PARENT_POSTING_ID: 939
+POSTING_TYPE: answer
+CONTENT:
+Gehört zwar eigentlich zur 2A aber weil ich grad selber fast ne Frage dazu verfasst hätte:
+Wer in php das selbe Problem mit der xml Deklaration hat, sollte eventuell vorhandenes Copypasta überprüfen (mikiwiki): `echo $output->saveXML();` -> `echo $output->saveHTML();`
+So einfach >.<
+TAGGED_CONTENT:

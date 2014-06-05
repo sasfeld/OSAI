@@ -1,0 +1,17 @@
+ID: 51
+CREATION_DATETIME: 1197225900000
+MODIFICATION_DATETIME: 1197225900000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 50
+CONTENT:
+
+Lieber , liebe Studierende,
+
+Zweck dieser Aufgabe ist "nur" die erwähnten Klassen zu testen, etwa wie Sie Ihre Klasse MeineArrayList getestet haben. Ist die Aufgabe klarer Herr Kliem?
+
+Merken Sie, dass die Klasse ArrayStackGen<E>  mit push Ausnahmen werfen kann, was in der Klasse ListStackGen<E> nicht passiert. Die Implementierung eines Stapels mit einer verketteten Liste ist sehr dynamisch. Dagegen bei der Implementierung mit einem Array muss die Größe des Arrays fest gelegt werden.
+
+Mit freundlichen Grüßen
+   
+TAGGED_CONTENT:

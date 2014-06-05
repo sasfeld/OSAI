@@ -1,0 +1,14 @@
+ID: 97750
+CREATION_DATETIME: 1288601590
+MODIFICATION_DATETIME: 1288601590
+TITLE: Re: Einsendeaufgaben in LON-CAPA
+PARENT_POSTING_ID: 97749
+CONTENT:
+Die Konditionen lauten:
+1) ab 50% richtig ueber alle Aufgaben gilt als "bestanden"
+2) Die in der VFH ueblichen Klausurbedingungen werden mir noch vor der Klausur mitgeteilt, da die Klausur vorauss. zentral verfasst werden wird. Ich gehe davon aus, dass Sie folgendes nutzen duerfen:
+- <REMOVED_PERSON_ENTITY>
+- nichtprogrammierbarer Taschenrechner
+- leere Blaetter und Schreibzeug (kein Bleistift fuer Abgaben)
+- zwei DIN-A4-Blaetter Notizen (d. h. 4 Seiten)
+TAGGED_CONTENT:

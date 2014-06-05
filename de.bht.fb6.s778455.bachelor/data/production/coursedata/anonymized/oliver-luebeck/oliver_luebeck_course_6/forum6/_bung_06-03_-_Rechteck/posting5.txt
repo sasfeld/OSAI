@@ -1,0 +1,12 @@
+ID: 50
+CREATION_DATETIME: 1288715100000
+MODIFICATION_DATETIME: 1288715100000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 46
+CONTENT:
+ 
+Jetzt ist mir noch was eingefallen! Ich glaube man muss Rechteck Objekt vom Typ Frame erzeugen.
+Also eher so: Frame recht = new Rechteck...
+	
+TAGGED_CONTENT:

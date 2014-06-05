@@ -1,0 +1,9 @@
+ID: 1283
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Okay, Ichecked all that. All sizes seem to be fine, the sizes passed to *mem_alloc()* and *attach()* ...
+PARENT_POSTING_ID: 1143
+POSTING_TYPE: comment
+CONTENT:
+Okay, Ichecked all that. All sizes seem to be fine, the sizes passed to *mem_alloc()* and *attach()* are alway full page sizes ( i. e. multiples of 4096 ). There also seems never to be a mismatch between the size of the requested memory region and the size of the returned dataspace. Is there a possibility that I mess up something with the capabilities ( e. g. overriding a capability of a dataspace still in use)?
+TAGGED_CONTENT:

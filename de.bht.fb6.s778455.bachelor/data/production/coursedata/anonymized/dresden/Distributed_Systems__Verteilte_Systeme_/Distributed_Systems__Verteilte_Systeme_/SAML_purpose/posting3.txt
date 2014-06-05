@@ -1,0 +1,9 @@
+ID: 1140
+CREATION_DATETIME: 1361314800000
+MODIFICATION_DATETIME: 1361314800000
+TITLE: Than I do not understand why in the example of Simple Sing-On in slide 11.16 user first addresses to ...
+PARENT_POSTING_ID: 1139
+POSTING_TYPE: comment
+CONTENT:
+Than I do not understand why in the example of Simple Sing-On in slide 11. 16 user first addresses to identity provider and than to service provider? As I understand it this is service provider who determines what identity providers are possible. So user has first make request to service provider.
+TAGGED_CONTENT:

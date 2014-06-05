@@ -1,0 +1,14 @@
+ID: 2784
+CREATION_DATETIME: 1384124400000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hello,
+
+in rcopy part do we have to assume that testing system also <NAME_CORPUS_REPLACEMENT> call methods that were bu us? I mean methods whose signatures was not defined at the beginning of task?
+
+And also do we have to assume that constructor and destructor could be called out of order (like method was called, but constructor hasn't)? Or not called at all? Or called twice?
+TAGGED_CONTENT:

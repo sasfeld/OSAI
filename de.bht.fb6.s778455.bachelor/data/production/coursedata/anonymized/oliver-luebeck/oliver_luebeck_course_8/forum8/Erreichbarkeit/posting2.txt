@@ -1,0 +1,15 @@
+ID: 27
+CREATION_DATETIME: 1193935080000
+MODIFICATION_DATETIME: 1193935080000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 26
+CONTENT:
+
+Attribute private
+Konstruktor public (ausser man will z.B. den Defaultkonstruktor verbieten)
+Methoden public
+
+Dadurch kann man Abhängigkeiten besser behandeln wenn eine Klasse eine andere nutzt und man nachträglich Änderungen am Verhalten durchführen will.
+    
+TAGGED_CONTENT:

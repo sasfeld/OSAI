@@ -1,0 +1,11 @@
+ID: 117507
+CREATION_DATETIME: 1330958204
+MODIFICATION_DATETIME: 1330958204
+TITLE: Evaluation WS 11/12
+PARENT_POSTING_ID: 0
+CONTENT:
+Sehr geehrte Damen und <REMOVED_PERSON_ENTITY>,
+ich moechte mich fuer die Evaluation bedanken und auf Anfrage werde ich gerne diese in einem Chat besprechen. Bitte melden Sie sich, falls Sie Bedarf sehen.
+Ansonsten wuensche ich Ihnen ein gutes, neues und erfolgreiches Semester.
+Prof. <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

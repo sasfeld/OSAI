@@ -1,0 +1,153 @@
+ID: 166
+CREATION_DATETIME: 1348524000000
+MODIFICATION_DATETIME: 1348610400000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Züge;weight:20.0;significance:7.27183573992872;degreegeneralization:8;uri:21308253
+TOPIC_ZOOM_TAG: value:Schienenverkehr;weight:20.0;significance:5.91088508046273;degreegeneralization:6;uri:21897745
+TOPIC_ZOOM_TAG: value:Fahrzeuge und Verkehrsmittel;weight:20.0;significance:4.11377467748681;degreegeneralization:6;uri:21881442
+TOPIC_ZOOM_TAG: value:Verkehr;weight:20.0;significance:3.70147240201396;degreegeneralization:5;uri:21897779
+TOPIC_ZOOM_TAG: value:Transport, Verkehr und Logistik;weight:20.0;significance:3.6537137298884;degreegeneralization:4;uri:21925982
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:22.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:22.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:20.0;significance:2.12516980436886;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Compiler;weight:2.0;significance:1.05544883877871;degreegeneralization:9;uri:20195178
+TOPIC_ZOOM_TAG: value:Technische Informatik;weight:2.0;significance:0.937332203857782;degreegeneralization:5;uri:20889033
+TOPIC_ZOOM_TAG: value:Programmiersprachen;weight:2.0;significance:0.714229022846755;degreegeneralization:8;uri:20901749
+TOPIC_ZOOM_TAG: value:Programmierung;weight:2.0;significance:0.651215642795851;degreegeneralization:7;uri:21461440
+TOPIC_ZOOM_TAG: value:Formale Sprachen;weight:2.0;significance:0.639254155724149;degreegeneralization:6;uri:21978155
+TOPIC_ZOOM_TAG: value:Computersprachen;weight:2.0;significance:0.638943355110624;degreegeneralization:6;uri:19949137
+TOPIC_ZOOM_TAG: value:Wahlen;weight:2.0;significance:0.479052538439824;degreegeneralization:4;uri:21471691
+TOPIC_ZOOM_TAG: value:Software;weight:2.0;significance:0.47365760404245;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:2.0;significance:0.456747767959343;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Sprache;weight:2.0;significance:0.455337009803358;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:2.0;significance:0.45525470188383;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:2.0;significance:0.40341024085827;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Computer;weight:2.0;significance:0.391830896346151;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:2.0;significance:0.364276069487369;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Politische Ereignisse;weight:2.0;significance:0.355518078754806;degreegeneralization:3;uri:21997144
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:2.0;significance:0.332879062946435;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:0.19829924144688;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Politik;weight:2.0;significance:0.16806406560096;degreegeneralization:2;uri:21999932
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:0.131640061867499;degreegeneralization:3;uri:20758133
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich habe mir eine Zug-Klasse erstellt, in der ich den besten Zug für einen Spielstein bestimmen kann.
+
+Nun habe ich eine Klasse Move, in der ich den besten Zug pro <REMOVED_PERSON_ENTITY> speichern will, die Bewertung dieses Zuges und den Output, den ich an das MCP schicken muss.
+
+Doch, wenn ich in dem Konstruktor meiner Move Klasse den Zug instanziieren will, gibt mir der Compiler eine Fehlermeldung, dass die angegebenen Parameter des Zug Konstruktors (2 Integerzahlen) nicht mit dem Konstruktor der Klasse Zug übereinstimmen. Er erkennt, also die beiden <NAME_CORPUS_REPLACEMENT> mir übergebenen Integerzahlen nicht als solche und selbst wenn ich die betreffende Codezeile herausnehme, gibt er mir weiterhin diese Fehlermeldung, solange bis ich auch das Zugattribut in Move herausnehme.
+
+Ich habe in einer statischen Funktion erfolgreich den Konstruktor <NAME_CORPUS_REPLACEMENT> Zug angewendet, also scheint es etwas mit der Klasse Move zu tun zu haben.
+
+Außerdem mosert er rum, wenn ich ein Zug-Objekt mit festen Zahlen instanziieren will (z. B. Zug temp(0, 0) ).
+
+Woran liegt das, dass der Compiler die Parameter nicht als die Verlangten erkennt?
+
+Zug Klasse
+
+```c
+
+class Zug
+
+{
+
+	public:
+
+		int loc;
+
+		int zugAnzahl;
+
+		int rating;
+
+		Zug* zugArray;
+
+		Zug (int pos, int rate) 
+
+		{
+
+			zugAnzahl = 0;
+
+			loc = pos;
+
+			rating = rate;
+
+		}
+
+		void addZug(Zug toAdd)
+
+		{
+
+			zugArray[zugAnzahl] = toAdd;
+
+			zugAnzahl++;
+
+		}
+
+};
+
+```
+
+Move Klasse
+
+```c
+
+class Move
+
+{
+
+	public:
+
+		Zug zugObject;
+
+		int moveRating;
+
+		int* positionArray;
+
+		char* encodedMove;
+
+		Move(int position)
+
+		{
+
+			Zug temp(position, 0);
+
+			zugObject = temp;
+
+		}
+
+};
+
+```
+
+Fehlermeldungen
+
+```c
+
+g++ -Wall -o "example_player3" "example_player3. <LEARNED_PERSON_NAME_REPLACEMENT>" (im Verzeichnis: /home/michael/Arbeitsfläche)
+
+Kompilierung fehlgeschlagen.
+
+example_player3. <LEARNED_PERSON_NAME_REPLACEMENT>: In Konstruktor »Move::Move(int)«:
+
+example_player3. <LEARNED_PERSON_NAME_REPLACEMENT>:268:3: Fehler: keine passende Funktion für Aufruf <NAME_CORPUS_REPLACEMENT> »Zug::Zug()«
+
+example_player3. <LEARNED_PERSON_NAME_REPLACEMENT>:268:3: Anmerkung: Kandidaten sind:
+
+example_player3. <LEARNED_PERSON_NAME_REPLACEMENT>:44:3: Anmerkung: Zug::Zug(int, int)
+
+example_player3. <LEARNED_PERSON_NAME_REPLACEMENT>:44:3: Anmerkung:   Kandidat erwartet 2 Argumente, 0 angegeben
+
+example_player3. <LEARNED_PERSON_NAME_REPLACEMENT>:36:7: Anmerkung: Zug::Zug(const Zug&)
+
+example_player3. <LEARNED_PERSON_NAME_REPLACEMENT>:36:7: Anmerkung:   Kandidat erwartet 1 Argument, 0 angegeben
+
+example_player3. <LEARNED_PERSON_NAME_REPLACEMENT>: Im globalen Gültigkeitsbereich:
+
+example_player3. <LEARNED_PERSON_NAME_REPLACEMENT>:229:13: Warnung: »int* buildArray(Zug, int*)« definiert, aber nicht verwendet [-Wunused-function]
+
+```
+
+// Formatierung angepasst -- <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 2472
+CREATION_DATETIME: 1374703200000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: Kleine Anmerkung: alles so verständlich, als Ergebnis für die reinen "Lauflängencodes" kriege ich auc...
+PARENT_POSTING_ID: 2471
+POSTING_TYPE: comment
+CONTENT:
+Kleine Anmerkung: alles so verständlich, als Ergebnis für die reinen "Lauflängencodes" kriege ich auch 1187, aber wie oben schon in der Formel <NAME_CORPUS_REPLACEMENT> dir geschrieben muss noch mit 3 Byte pro Code multipliziert werden, Endergebnis ist also 3561 Byte, oder?
+TAGGED_CONTENT:

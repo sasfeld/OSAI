@@ -1,0 +1,10 @@
+ID: 2377
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: But in order to decide which platform will finish the task earlier we also have to take the schedulin...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2375
+POSTING_TYPE: comment
+CONTENT:
+But in order to decide which platform will finish the task earlier we also have to take the scheduling time of highly occupied cpus into account.
+TAGGED_CONTENT:

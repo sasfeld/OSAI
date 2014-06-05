@@ -1,0 +1,9 @@
+ID: 110406018
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: KP Accenture Campus Challenge
+LANGUAGE: UNKNOWN
+SUMMARY: null
+URL: http://web.inf.tu-dresden.de/~s5850075/content/index.php?node=teaching&leaf=2&subject=72

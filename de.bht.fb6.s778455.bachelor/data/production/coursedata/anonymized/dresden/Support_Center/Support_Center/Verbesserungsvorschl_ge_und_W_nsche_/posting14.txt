@@ -1,0 +1,9 @@
+ID: 466
+CREATION_DATETIME: 1350943200000
+MODIFICATION_DATETIME: 1350943200000
+TITLE: Wie stellst du dir da
+PARENT_POSTING_ID: 396
+POSTING_TYPE: comment
+CONTENT:
+Wie stellst du dir das mit dem Zuschalten genau vor? Dass du ein Konto per TU Dresden Adresse anlegst und dann in den Einstellungen andere Accounts (twitter, facebook, etc.) verlinken kannst, um dich mit denen anzumelden?
+TAGGED_CONTENT:

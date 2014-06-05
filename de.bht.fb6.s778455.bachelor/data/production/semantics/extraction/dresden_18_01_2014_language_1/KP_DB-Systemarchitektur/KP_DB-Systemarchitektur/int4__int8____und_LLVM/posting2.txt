@@ -1,0 +1,10 @@
+ID: 2171
+CREATION_DATETIME: 1373148000000
+MODIFICATION_DATETIME: 1373148000000
+TITLE: `typedef __attribute__((vector_size(16))) int int4;`
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2170
+POSTING_TYPE: comment
+CONTENT:
+`typedef __attribute__((vector_size(16))) int int4;`
+TAGGED_CONTENT:

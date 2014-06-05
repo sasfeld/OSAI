@@ -1,0 +1,25 @@
+ID: 3027
+CREATION_DATETIME: 1385420400000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: Nenn' das nicht Header, weil sonst jeder denkt, du meintest eine extra Header-File.
+LANGUAGE: GERMAN
+POS_TAG: value:Vorteil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Symbole;weight:0.0;uri:;postag:NN
+POS_TAG: value:Header;weight:0.0;uri:;postag:NN
+POS_TAG: value:File;weight:0.0;uri:;postag:NN
+POS_TAG: value:Funktionen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Reihenfolge;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Code;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehlermeldung;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 3020
+POSTING_TYPE: comment
+CONTENT:
+<REMOVED_PERSON_ENTITY>' das nicht Header, weil sonst jeder denkt, du meintest eine extra Header-File.
+
+Ach <NAME_CORPUS_REPLACEMENT> war die Fehlermeldung … wer lesen kann ist klar im Vorteil.
+
+Was euch gesagt wurde ist schlichtweg falsch. Die Reihenfolge ist sehr wohl   wichtig. Einfach erklärt: wenn der <REMOVED_PERSON_ENTITY> die Symbole der libmath zuerst liest, weiß er ja noch gar nicht, dass später die Symbole `sqrt`und `pow` benötigt, also merkt er sich diese nicht. Wenn er deinen Code zuerst durch geht, merkt der <REMOVED_PERSON_ENTITY>, dass die Funktionen (richtig: Symbole) `sqrt` und `pow` verwendet werden. Wenn er nun als nächstes die Symbole der libmath liest, kann er diese "undefined references" auflösen.
+TAGGED_CONTENT:
+<_XY REMOVED_PERSON_ENTITY_NE >_NE '_$( das_PDS nicht_PTKNEG Header_NN ,_$, weil_KOUS sonst_ADV jeder_PIS denkt_VVFIN ,_$, du_PPER meintest_VVFIN eine_ART extra_ADV Header-File_NN ._$. Ach_ITJ <_XY NAME_CORPUS_REPLACEMENT_NN >_ADJD war_VAFIN die_ART Fehlermeldung_NN ..._$( wer_PWS lesen_VVINF kann_VMFIN ist_VAFIN klar_ADJD im_APPRART Vorteil_NN ._$. Was_PWS euch_PRF gesagt_VVPP wurde_VAFIN ist_VAFIN schlichtweg_ADV falsch_ADJD ._$. Die_ART Reihenfolge_NN ist_VAFIN sehr_ADV wohl_ADV wichtig_ADJD ._$. Einfach_ADV erklärt_VVFIN :_$. wenn_KOUS der_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN die_ART Symbole_NN der_ART libmath_NE zuerst_ADV liest_VVFIN ,_$, weiß_VVFIN er_PPER ja_ADV noch_ADV gar_ADV nicht_PTKNEG ,_$, dass_KOUS später_ADJD die_ART Symbole_NN `_VVFIN sqrt_ADJD `_PTKVZ und_KON `_VVFIN pow_NE `_NE benötigt_VVPP ,_$, also_ADV merkt_VVFIN er_PPER sich_PRF diese_PDAT nicht_PTKNEG ._$. Wenn_KOUS er_PPER deinen_PPOSAT Code_NN zuerst_ADV durch_APPR geht_VVFIN ,_$, merkt_VVFIN der_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN ,_$, dass_KOUS die_ART Funktionen_NN -LRB-_TRUNC richtig_ADJD :_$. Symbole_NN -RRB-_TRUNC `_XY sqrt_VVIMP `_PTKVZ und_KON `_VVFIN pow_NE `_NE verwendet_VVPP werden_VAINF ._$. Wenn_KOUS er_PPER nun_ADV als_APPR nächstes_ADJA die_ART Symbole_NN der_ART libmath_ADJD liest_VVFIN ,_$, kann_VMFIN er_PPER diese_PDAT "_$( undefined_ADJD references_ADJA "_$( auflösen_VVINF ._$. 

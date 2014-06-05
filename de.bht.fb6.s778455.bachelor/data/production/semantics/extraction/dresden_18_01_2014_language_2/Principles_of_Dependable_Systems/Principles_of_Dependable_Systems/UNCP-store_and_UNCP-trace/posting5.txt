@@ -1,0 +1,10 @@
+ID: 538
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1351202400000
+TITLE: I think UNCP-Store is meant for resynchronization issue. im not sure about my understanding. but here...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 531
+POSTING_TYPE: comment
+CONTENT:
+I think UNCP-Store is meant for resynchronization issue. im not sure about my understanding. but here is my idea: if some processor is uncooperative, the rendezvous protocol would lead to endless loop. so we <NAME_CORPUS_REPLACEMENT> use timeout to detect which processor is uncooperative. after detection, we <NAME_CORPUS_REPLACEMENT> set VRO points to this processor(?) but according to ur answer, it seems after detection, VRO points are not useful at all and then adopt another strategy to synchronize the processors. 
+TAGGED_CONTENT:

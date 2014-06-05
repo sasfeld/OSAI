@@ -1,0 +1,18 @@
+ID: 71
+CREATION_DATETIME: 1201251060000
+MODIFICATION_DATETIME: 1201251060000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 70
+CONTENT:
+
+Danke ,
+
+der Hinweis mit pack() ist super, funktioniert passgenau :)
+
+Aber ButtonGroup versteh ich ich immer noch nicht. ButtonGroup.add erwartet als Parameter "AbstractButtons", aber wir haben doch gar keine Buttons, sondern CheckBoxen?
+
+Und bei mir siehts mit der CheckBoxGroup eben aus wie runde RadioButtons und nicht mehr wie quadratische CheckBoxen. Hast du vielleicht mal einen Code-Ausschnitt? Danke.
+
+    
+TAGGED_CONTENT:

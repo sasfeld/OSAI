@@ -1,0 +1,9 @@
+ID: 2417
+CREATION_DATETIME: 1374444000000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+In der Übung wurde die Anzahl der Frames, die in den Byte Cycle bei Gigabit Ethernet mit Padding und Bursting passen, mit 13 berechnet. Wenn ich das nachrechne, erhalte ich ca. 12, 5. Wieso wurde hier auf und nicht abgerundet (genauso bei der Berechnung der Anzahl der Frames bei Jumbo-Frames)? Wenn man zur Kontrolle den Byte Cycle bei 13 Frames berechnet, erhält man 13 * 12 + 512 + 12 * 64 + 13 * 8 = 1540, was ja über den maximal zulässigen 1500 Byte liegt. Müsste bei dieser Berechnung nicht grundsätzlich abgerundet werden?
+TAGGED_CONTENT:

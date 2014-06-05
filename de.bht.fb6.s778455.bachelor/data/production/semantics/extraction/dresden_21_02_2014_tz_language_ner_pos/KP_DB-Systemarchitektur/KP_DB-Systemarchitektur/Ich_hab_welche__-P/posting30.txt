@@ -1,0 +1,14 @@
+ID: 2031
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: Wir haben nur mit 3.2 gearbeitet.
+LANGUAGE: GERMAN
+POS_TAG: value:berlegen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: comment
+CONTENT:
+Wir haben nur mit 3. 2 gearbeitet.
+
+Wir waren nur am Überlegen, ob wir es vielleicht auch für 3. 3 kompatibel machen.
+TAGGED_CONTENT:
+Wir_PPER haben_VAFIN nur_ADV mit_APPR 3_CARD ._$. 2_CARD gearbeitet_VVPP ._$. Wir_PPER waren_VAFIN nur_ADV am_APPRART Überlegen_NN ,_$, ob_KOUS wir_PPER es_PPER vielleicht_ADV auch_ADV für_APPR 3_CARD ._$. 3_CARD kompatibel_ADJD machen_VVINF ._$. 

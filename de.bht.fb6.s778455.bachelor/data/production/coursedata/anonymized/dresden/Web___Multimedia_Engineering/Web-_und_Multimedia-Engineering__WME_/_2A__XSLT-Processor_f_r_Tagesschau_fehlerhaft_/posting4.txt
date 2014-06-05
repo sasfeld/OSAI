@@ -1,0 +1,15 @@
+ID: 829
+CREATION_DATETIME: 1353538800000
+MODIFICATION_DATETIME: 1353884400000
+TITLE: Hier(oben Tagesschau, unten MDR):
+http://www.myimg.de/?img=screenshotf2e29.jpg
+
+MDR hat den gleich...
+PARENT_POSTING_ID: 823
+POSTING_TYPE: comment
+CONTENT:
+Hier(oben Tagesschau, unten MDR):
+http://www.myimg.de/?img=screenshotf2e29. jpg
+MDR hat den gleichen XSLT-Code, aber mit komplett anderem Ergebnis.
+P. S. habe eben gemerkt, dass der Firefox der einzige Browser ist, welcher die <REMOVED_PERSON_ENTITY> http://www.tagesschau.de/xml/atom/ ordnungsgemäß anzeigt. Opera und Chrome zeigen auch so seltsame Textbrocken an. Vllt hat es <NAME_CORPUS_REPLACEMENT> etwas mit zu tun?
+TAGGED_CONTENT:

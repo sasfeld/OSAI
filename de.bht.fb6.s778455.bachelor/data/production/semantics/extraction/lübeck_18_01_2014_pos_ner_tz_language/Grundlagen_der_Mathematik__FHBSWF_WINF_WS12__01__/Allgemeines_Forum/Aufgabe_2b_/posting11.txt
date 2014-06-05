@@ -1,0 +1,13 @@
+ID: 184543
+CREATION_DATETIME: 1354523239
+MODIFICATION_DATETIME: 1354523239
+TITLE: Re: Aufgabe 2b)
+LANGUAGE: GERMAN
+POS_TAG: value:Idee;weight:0.0;uri:;postag:NN
+POS_TAG: value:Knotenbewertung;weight:0.0;uri:;postag:NN
+POS_TAG: value:vx;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 184535
+CONTENT:
+Stimmt. vx bildet gesamt eine Knotenbewertung. Eventuell hat ja noch wer anders eine Idee? Wäre echt super. :/
+TAGGED_CONTENT:
+Stimmt_VVFIN ._$. vx_NN bildet_VVFIN gesamt_ADJD eine_ART Knotenbewertung_NN ._$. Eventuell_ADJD hat_VAFIN ja_ADV noch_ADV wer_PWS anders_ADV eine_ART Idee_NN ?_$. Wäre_VAFIN echt_ADJD super_ADJD ._$. :_$. \/_CARD 

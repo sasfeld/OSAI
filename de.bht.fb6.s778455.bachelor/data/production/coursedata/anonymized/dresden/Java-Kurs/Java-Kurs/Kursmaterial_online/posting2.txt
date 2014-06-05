@@ -1,0 +1,9 @@
+ID: 613
+CREATION_DATETIME: 1351551600000
+MODIFICATION_DATETIME: 1373407200000
+TITLE: Folien für einen nächsten Termin
+PARENT_POSTING_ID: 578
+POSTING_TYPE: question
+CONTENT:
+Ist es auch möglich, die Folien für einen nächsten Termin vor dem Termin haben? Dann könnte man sie bei Übungen durchblättern und müsste  nicht alles sehr schnell nachschreiben...
+TAGGED_CONTENT:

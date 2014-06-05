@@ -1,0 +1,50 @@
+ID: 2910
+CREATION_DATETIME: 1384729200000
+MODIFICATION_DATETIME: 1384729200000
+TITLE: Also ich hab jetzt, wie empfohlen, folgendes probiert:
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2909
+POSTING_TYPE: comment
+CONTENT:
+Also ich hab jetzt, wie empfohlen, folgendes probiert:
+
+```java
+
+if(result. hasErrors()) {
+
+      return "changePW";
+
+    }
+
+    //altes eingegebenes Passwort aus Eingabefeld geben lassen
+
+    String oldTippedPW = changePWForm. getOldPW();
+
+    //altes Passwort des aktuellen Users geben lassen
+
+    Password oldGivenPW = userAccount. getPassword();
+
+    //altes UserPW in String umwandeln
+
+    if(userAccountManager. getPasswordEncoder(). encode(oldTippedPW). equals(userAccount. getPassword(). toString())) {
+
+      // Falls alles in Ordnung ist, lass ich mir über @LoggedIn den aktuellen Account geben und bearbeite das PW über changePassword
+
+      userAccountManager. changePassword(userAccount, changePWForm. getNewPW());
+
+      userAccountManager. save(userAccount);     
+
+      return "redirect:/";
+
+    }
+
+    else { return "changePW"; }   
+
+  }
+
+```
+
+In eclipse gibts wieder keinen fehler, aber funktionieren tuts immer noch nicht.
+
+Danke schonmal!
+TAGGED_CONTENT:

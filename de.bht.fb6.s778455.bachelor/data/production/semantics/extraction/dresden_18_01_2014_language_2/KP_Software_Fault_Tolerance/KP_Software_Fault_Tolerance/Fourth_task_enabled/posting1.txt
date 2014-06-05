@@ -1,0 +1,28 @@
+ID: 3053
+CREATION_DATETIME: 1385679600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Dear students,
+
+the fourth task ("wrapper") is available. Please download the slides from our website and update your subversion repository. You'll find a task description in the task directory.
+
+```
+
+$ cd mtrkl_nb
+
+$ svn up
+
+```
+
+Please remember that your commits should be called in the task directory otherwise the testing system is not fired.
+
+Deadline is December 12th.
+
+Happy coding,
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

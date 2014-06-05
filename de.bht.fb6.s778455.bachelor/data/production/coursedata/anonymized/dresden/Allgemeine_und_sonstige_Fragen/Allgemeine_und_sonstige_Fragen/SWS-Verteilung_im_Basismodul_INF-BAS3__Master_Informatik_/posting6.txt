@@ -1,0 +1,10 @@
+ID: 734
+CREATION_DATETIME: 1352674800000
+MODIFICATION_DATETIME: 1352674800000
+TITLE: Was 4/4/0 angeht, gilt das aber entsprechend der Modulbeschreibung nur dann wenn 0/2/0 ein Seminar is...
+PARENT_POSTING_ID: 728
+POSTING_TYPE: comment
+CONTENT:
+Was 4/4/0 angeht, gilt das aber entsprechend der Modulbeschreibung nur dann wenn 0/2/0 ein Seminar ist. Aber ja die Modulbeschreibung ist sehr irreführend, denn es ist nicht gesagt, ob bei den frei wählbaren Vorlesungen die Übungen angerechnet werden... Die sind ja eigentich immer mit dabei. Ich sehe das Problem jetzt... :-/
+(Ja ich sehe gerade, dass <NAME_CORPUS_REPLACEMENT> zwei Worte verloren gegangen sind. Sorry. Wird in der Antwort <NAME_CORPUS_REPLACEMENT> mir angepasst.)
+TAGGED_CONTENT:

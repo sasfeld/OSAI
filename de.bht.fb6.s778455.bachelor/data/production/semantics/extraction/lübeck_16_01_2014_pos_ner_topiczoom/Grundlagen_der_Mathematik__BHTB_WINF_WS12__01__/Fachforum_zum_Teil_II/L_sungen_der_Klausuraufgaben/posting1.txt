@@ -1,0 +1,27 @@
+ID: 200429
+CREATION_DATETIME: 1363041595
+MODIFICATION_DATETIME: 1363041595
+TITLE: Lösungen der Klausuraufgaben
+POS_TAG: value:Probeklausur;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungsweg;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gestalt;weight:0.0;uri:;postag:NN
+POS_TAG: value:A;weight:0.0;uri:;postag:NN
+POS_TAG: value:B;weight:0.0;uri:;postag:NN
+POS_TAG: value:Variablen;weight:0.0;uri:;postag:NN
+POS_TAG: value:C;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Negationszeichen;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+es geht um die Aufgabe 3 der 1. Probeklausur. -- soll als Negationszeichen dienen.
+A v ( B ^ --C) v (--A ^ --C) v (--A ^ --B)
+<REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY> formt die Formal sofort in folgende einfache Gestalt um:
+A  v --B v --C
+ 
+Meine Frage ist, wie kommt er so einfach drauf?? Er hat nicht hingeschrieben was er genau weiter umgeformt hat. Oder kann man das an irgendwas sofort erkennen?
+Bei mir wäre der Lösungsweg viel länger und komplizierter, weil ich nicht verstehe wie er das gleich auf 3 Variablen zusammengefasst hat.
+Was hat er also mit was zusammengezogen?
+TAGGED_CONTENT:
+es_PPER geht_VVFIN um_APPR die_ART Aufgabe_NN 3_CARD der_ART 1_CARD ._$. Probeklausur_NN ._$. --_APPR soll_VMFIN als_APPR Negationszeichen_NN dienen_VVINF ._$. A_NN v_VVFIN -LRB-_TRUNC B_NN ^_CARD --_APPRART C_NN -RRB-_TRUNC v_XY -LRB-_TRUNC --_-- A_NN ^_CARD --_APPRART C_NN -RRB-_TRUNC v_XY -LRB-_TRUNC --_-- A_NN ^_CARD --_-- B_XY -RRB-_TRUNC <_XY REMOVED_PERSON_ENTITY_NN >_CARD <_XY REMOVED_PERSON_ENTITY_NN >_CARD formt_VVFIN die_ART Formal_ADJD sofort_ADV in_APPR folgende_ADJA einfache_ADJA Gestalt_NN um_PTKVZ :_$. A_NN v_XY --_-- B_XY v_XY --_APPRART C_NN Meine_PPOSAT Frage_NN ist_VAFIN ,_$, wie_PWAV kommt_VVFIN er_PPER so_ADV einfach_ADJD drauf_PROAV ??_VVFIN Er_PPER hat_VAFIN nicht_PTKNEG hingeschrieben_VVPP was_PWS er_PPER genau_ADJD weiter_ADV umgeformt_VVPP hat_VAFIN ._$. Oder_KON kann_VMFIN man_PIS das_ART an_APPR irgendwas_PIAT sofort_ADV erkennen_VVINF ?_$. Bei_APPR mir_PPER wäre_VAFIN der_ART Lösungsweg_NN viel_ADV länger_ADJD und_KON komplizierter_ADJA ,_$, weil_KOUS ich_PPER nicht_PTKNEG verstehe_VVFIN wie_KOKOM er_PPER das_ART gleich_ADV auf_APPR 3_CARD Variablen_NN zusammengefasst_VVPP hat_VAFIN ._$. Was_PWS hat_VAFIN er_PPER also_ADV mit_APPR was_PWS zusammengezogen_VVPP ?_$. 

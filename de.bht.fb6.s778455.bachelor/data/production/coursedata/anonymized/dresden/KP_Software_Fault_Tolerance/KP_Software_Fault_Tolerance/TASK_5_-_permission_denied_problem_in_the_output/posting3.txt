@@ -1,0 +1,10 @@
+ID: 991
+CREATION_DATETIME: 1355958000000
+MODIFICATION_DATETIME: 1355958000000
+TITLE: yes, fig.c is source code and code is written in c. I tested on my local pc, the same problem 
+
+PARENT_POSTING_ID: 989
+POSTING_TYPE: answer
+CONTENT:
+yes, fig. c is source code and code is written in c. I tested on my local pc, the same problem 
+TAGGED_CONTENT:

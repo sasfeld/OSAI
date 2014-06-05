@@ -1,0 +1,13 @@
+ID: 71
+CREATION_DATETIME: 1305642540000
+MODIFICATION_DATETIME: 1305642540000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 70
+CONTENT:
+  
+Ok, in meinem Profil steht mein Skype Name. Werde online sein. Wenn nicht einfach ne EMail schreiben. Rufe diese oft ab :).
+
+Gruß
+    
+TAGGED_CONTENT:

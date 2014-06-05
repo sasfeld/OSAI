@@ -1,0 +1,17 @@
+ID: 97780
+CREATION_DATETIME: 1292516067
+MODIFICATION_DATETIME: 1292516067
+TITLE: Re: Formelsammlung zur Klausur
+POS_TAG: value:Lehrbuecher;weight:0.0;uri:;postag:NN
+POS_TAG: value:Empfehlung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Buechern;weight:0.0;uri:;postag:NN
+POS_TAG: value:Empfehlungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klausur;weight:0.0;uri:;postag:NN
+POS_TAG: value:o.;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97778
+CONTENT:
+Ja, weitere Empfehlungen sind: <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>.
+Nicht gehen wuerden komplette Lehrbuecher, diese muessten Sie waehrend der Klausur wegpacken. Mit den o. g. drei Buechern und Ihrer Empfehlung duerften Sie aber garantiert arbeiten.
+TAGGED_CONTENT:
+Ja_PTKANT ,_$, weitere_ADJA Empfehlungen_NN sind_VAFIN :_$. <_CARD REMOVED_PERSON_ENTITY_NN >_CARD ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ._$. Nicht_PTKNEG gehen_VVINF wuerden_VAFIN komplette_ADJA Lehrbuecher_NN ,_$, diese_PDAT muessten_ADJA Sie_PPER waehrend_ADJD der_ART Klausur_NN wegpacken_VVINF ._$. Mit_APPR den_ART o._NN g._ADV drei_CARD Buechern_NN und_KON Ihrer_PPOSAT Empfehlung_NN duerften_VVFIN Sie_PPER aber_ADV garantiert_ADJD arbeiten_VVINF ._$. 

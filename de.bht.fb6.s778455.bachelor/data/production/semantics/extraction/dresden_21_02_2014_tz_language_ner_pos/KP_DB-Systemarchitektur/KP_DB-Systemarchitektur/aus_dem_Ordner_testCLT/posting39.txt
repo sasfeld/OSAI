@@ -1,0 +1,18 @@
+ID: 1982
+CREATION_DATETIME: 1370642400000
+MODIFICATION_DATETIME: 1370642400000
+TITLE: die Ausführung klappt nur, wenn vorher der LD_LIBRARY_PATH gesetzt wird. geschieht automatisch, wenn ...
+LANGUAGE: GERMAN
+POS_TAG: value:hrung;weight:0.0;uri:;postag:NN
+POS_TAG: value:PATH;weight:0.0;uri:;postag:NN
+POS_TAG: value:testCLTstatic;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:run;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+die Ausführung klappt nur, wenn vorher der LD_LIBRARY_PATH gesetzt wird. geschieht automatisch, wenn du die run. <LEARNED_PERSON_NAME_REPLACEMENT> benutzt.
+
+du kannst aber auch einfach die testCLTstatic binary ausführen, <NAME_CORPUS_REPLACEMENT> brauchst du das nicht machen.
+TAGGED_CONTENT:
+die_ART Ausführung_NN klappt_VVFIN nur_ADV ,_$, wenn_KOUS vorher_ADV der_ART LD_LIBRARY_PATH_NN gesetzt_VVPP wird_VAFIN ._$. geschieht_VVFIN automatisch_ADJD ,_$, wenn_KOUS du_PPER die_ART run_NN ._$. <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_CARD benutzt_VVPP ._$. du_PPER kannst_VMFIN aber_ADV auch_ADV einfach_ADV die_ART testCLTstatic_NN binary_NE ausführen_VVINF ,_$, <_CARD NAME_CORPUS_REPLACEMENT_NE >_NE brauchst_VVFIN du_PPER das_PDS nicht_PTKNEG machen_VVINF ._$. 

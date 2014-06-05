@@ -1,0 +1,9 @@
+ID: 2804
+CREATION_DATETIME: 1384124400000
+MODIFICATION_DATETIME: 1384124400000
+TITLE: Gibt es einen guten Grund wieso die Frage private ist, wenn du den relevanten Teil von Employee reine...
+PARENT_POSTING_ID: 2791
+POSTING_TYPE: comment
+CONTENT:
+Gibt es einen guten Grund wieso die Frage private ist, wenn du den relevanten Teil <NAME_CORPUS_REPLACEMENT> Employee reineditierst und den Download entfernst, sollte die Frage&Antwort auch für andere hilfreich sein. Außerdem könnte ich dann, aus Faulheit, beim nächsten mal drauf verlinken.
+TAGGED_CONTENT:

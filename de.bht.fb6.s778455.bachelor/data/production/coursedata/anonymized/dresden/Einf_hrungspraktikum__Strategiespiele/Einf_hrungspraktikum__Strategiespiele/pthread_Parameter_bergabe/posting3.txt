@@ -1,0 +1,9 @@
+ID: 1302
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Und wie gehst du sicher, dass der Thread schon Zeit hatte etwas in score zu schreiben, wenn du es in ...
+PARENT_POSTING_ID: 1300
+POSTING_TYPE: comment
+CONTENT:
+Und wie gehst du sicher, dass der Thread schon Zeit hatte etwas in score zu schreiben, wenn du es in main überprüfst?
+TAGGED_CONTENT:

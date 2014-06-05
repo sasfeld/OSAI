@@ -1,0 +1,10 @@
+ID: 1843
+CREATION_DATETIME: 1369087200000
+MODIFICATION_DATETIME: 1369087200000
+TITLE: Genügt es nicht, die Klasse TestCase (ist ein Interface notwendig), mit den jeweiligen Instanziierung...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Genügt es nicht, die Klasse TestCase (ist ein Interface notwendig), mit den jeweiligen Instanziierungen für die einzelnen Testkernel anzulegen? Ausgeführt wird es dann doch sowieso über den CLeverTrustee, der "nur" die richtigen Parameter mitbekommen muss. Oder habe ich <NAME_CORPUS_REPLACEMENT> noch einen groben Denkfehler?
+TAGGED_CONTENT:

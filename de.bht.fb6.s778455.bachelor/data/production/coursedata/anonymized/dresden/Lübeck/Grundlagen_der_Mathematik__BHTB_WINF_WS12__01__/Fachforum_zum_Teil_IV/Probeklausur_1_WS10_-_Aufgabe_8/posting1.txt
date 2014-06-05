@@ -1,0 +1,13 @@
+ID: 197881
+CREATION_DATETIME: 1359892524
+MODIFICATION_DATETIME: 1359892524
+TITLE: Probeklausur 1 WS10 - Aufgabe 8
+PARENT_POSTING_ID: 0
+CONTENT:
+ich komme beim durchrechnen auf ein andrers Ergebniss:
+4a + 4d =-ca + d = -4b--&gt; c = 4b
+Wenn das richtig ist müsste die Matrix so sein:
+a      -2a
+-1/2a  a
+Laut Musterlösung müsste aber 4b = c sein. Hat jemand einen Tip wo der Fehler liegt?
+TAGGED_CONTENT:

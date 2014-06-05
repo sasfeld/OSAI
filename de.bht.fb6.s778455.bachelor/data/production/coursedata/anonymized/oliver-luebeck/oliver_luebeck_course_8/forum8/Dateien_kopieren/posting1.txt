@@ -1,0 +1,18 @@
+ID: 13
+CREATION_DATETIME: 1192467120000
+MODIFICATION_DATETIME: 1192467120000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Guten Tag,
+
+ich tue mich irgendwie mit den Pfaden schwer, es klappt einfach nicht.
+Meine Datei AbbwurfParabel.jpg wird nicht in das Zielverzeichnis kopiert
+
+(DateiKopieren.java, LE02 Dateien)
+
+Kann mir jemand sagen, was nicht stimmt? (schicke Screenshot als Anhang)?
+     
+TAGGED_CONTENT:

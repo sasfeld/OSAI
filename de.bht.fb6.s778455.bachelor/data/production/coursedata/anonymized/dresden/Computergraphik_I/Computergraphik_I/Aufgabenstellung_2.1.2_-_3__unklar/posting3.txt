@@ -1,0 +1,9 @@
+ID: 752
+CREATION_DATETIME: 1352761200000
+MODIFICATION_DATETIME: 1352761200000
+TITLE: Wenn es heißt, dass die GPU parallel arbeitet, nehme ich an, dass damit gemeint ist, dass sie die ein...
+PARENT_POSTING_ID: 751
+POSTING_TYPE: comment
+CONTENT:
+Wenn es heißt, dass die GPU parallel arbeitet, nehme ich an, dass damit gemeint ist, dass sie die einzelnen Pixel parallel rendert, und nicht die verschiedenen Frames parallel.
+TAGGED_CONTENT:

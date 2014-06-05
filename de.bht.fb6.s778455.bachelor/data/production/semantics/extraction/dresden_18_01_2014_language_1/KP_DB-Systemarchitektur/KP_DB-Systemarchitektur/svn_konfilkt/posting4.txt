@@ -1,0 +1,14 @@
+ID: 1866
+CREATION_DATETIME: 1369778400000
+MODIFICATION_DATETIME: 1369778400000
+TITLE: OK, dann kümmere ich jetzt um Korellationsanalyse. Ich verstehe nicht ganz, warum brauchen wir CallGr...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1863
+POSTING_TYPE: comment
+CONTENT:
+OK, dann kümmere ich jetzt um Korellationsanalyse. Ich verstehe nicht ganz, warum brauchen wir CallGraph Pass nicht mehr, aber wir können am Freitag diskutieren.
+
+Das Konflikt habe ich schon gelöst. 
+
+popen kann ganz normale . <LEARNED_PERSON_NAME_REPLACEMENT> Datei erzeugen. Nur gibt es einige "Warning" und "notice", die auch exisiert, wenn man mit clang in Commando compiliert.
+TAGGED_CONTENT:

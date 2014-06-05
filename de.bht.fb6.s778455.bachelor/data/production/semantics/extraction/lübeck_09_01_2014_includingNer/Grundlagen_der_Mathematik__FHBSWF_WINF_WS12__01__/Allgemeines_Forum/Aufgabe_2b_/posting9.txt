@@ -1,0 +1,17 @@
+ID: 184507
+CREATION_DATETIME: 1354479201
+MODIFICATION_DATETIME: 1354479201
+TITLE: Re: Aufgabe 2b)
+TOPIC_ZOOM_TAG: value:Vektoren;weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Verfügungen;weight:1.0;significance:7.24896400108977;degreegeneralization:3;uri:19992589
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:2.65109701440329;degreegeneralization:2;uri:21999830
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+NER_TAG: value:LGS;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+PARENT_POSTING_ID: 184479
+CONTENT:
+Die Spaltenvektoren sind in meinem Beispiel die Knotenbewertungen, halt als eindimensionale Vektoren. Keine Ahnung, ob man das so machen darf/kann/sollte. Bzgl. deiner Frage wegen der Abgeschlossenheit. Wenn wir eben ganz R zur Verfügung haben, ist es doch umso einfacher, diese Untervektorraumkriterien zu beweisen, oder liege ich da vollkommen daneben?Letztendlich kann ich mich nicht so richtig damit anfreunden, dass wir hier ein LGS nutzen, obwohl der Rest der Aufgaben mit Spaltenvektoren, <REMOVED_PERSON_ENTITY> usw zu lösen sei. Das stört mich so ein wenig. Weißt, was ich meine?GrüßeLars
+TAGGED_CONTENT:

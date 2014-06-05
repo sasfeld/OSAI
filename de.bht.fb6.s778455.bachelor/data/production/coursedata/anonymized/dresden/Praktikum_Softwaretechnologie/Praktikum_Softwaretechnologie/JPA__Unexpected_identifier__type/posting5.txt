@@ -1,0 +1,11 @@
+ID: 3068
+CREATION_DATETIME: 1385679600000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: @Funktionalität: Es ging mir darum, dass Funktionalität, die da ist, aber nix bewirkt unschön ist. We...
+PARENT_POSTING_ID: 3054
+POSTING_TYPE: comment
+CONTENT:
+@Funktionalität: Es ging mir darum, dass Funktionalität, die <NAME_CORPUS_REPLACEMENT> ist, aber nix bewirkt unschön ist. Wenn z. B. jemand im Controller fröhlich UserAccounts disabled und sich dann wundert wieso nix passiert... sowas ist schon im Design vermeidbar. Bei 5 Leuten ist das noch kein Problem. Aber wenn die Methoden enable/disable gar nicht sichtbar wären, käme auch niemand auf die Idee die zu benutzen => das Design erklärt selbstständig was geht und was nicht. In diesem Fall erklärt es eben, dass es keine disableten User gibt, weil es die entsprechenden Methoden gar nicht anbietet.
+@dumme POJOs Naja. Wenn ich es schaffen würde, den UserAccountManager in User zu kapseln, würde das denke ich schonmal einige Dependencies im Rest des Programms verringern (und man braucht sich nicht um hashen/saven kümmern), und es spricht ja nix dagegen dass auch ein POJO die Verantworung übernimmt, die es (mehr oder weniger problemlos) übernehmen kann.
+Hier kommt man aber wohl nicht um eine UserAccountManagerFactory herum, <NAME_CORPUS_REPLACEMENT> dem die User die Referenz auf den UserAccountMangager beziehen, <NAME_CORPUS_REPLACEMENT> @Autowired hier wie du schon gesagt hast ziemlich sinnlos ist. Ich weiß nicht was aufwendiger ist, die Factory oder das gesamte über-den-Haufen-Werfen des User-Designs. Naja, ich probiere wohl erstmal die Factory.
+TAGGED_CONTENT:

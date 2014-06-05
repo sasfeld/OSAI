@@ -1,0 +1,31 @@
+ID: 13
+CREATION_DATETIME: 1304101560000
+MODIFICATION_DATETIME: 1304101560000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 12
+CONTENT:
+ 
+Hallo ,
+
+ich habe die neuen Attribute ebenso in ErweitertesAuto geschrieben.
+Ich meine, dass wir einen neuen Konstruktor schreiben sollten.
+Das habe ich aber bisher nicht ganz hinbekommen und in diesem Zusammenhang ist es außerdem recht unnötig, da der von uns gewählte Weg einfacher ist.
+
+Was deine Probleme mit dem kmStand und dem neuen Standort angeht kann ich dir helfen. Nach deinen Tipps bestehe ich sogar darauf. :-)
+
+Ergänze doch mal diese Befehle in faehrtNach
+
+this.kmStand=(this.kmStand+entfernung);
+this.standort=ziel;
+return this.kmStand;
+
+Wenn du in AutoTest2 erst alleDatenAnzeigen startest, dann faehrtNach und dann die neue Methode mit den veränderten Werten anzeigst,
+funktioniert alles einwandfrei.
+
+Viele Grüße, 
+
+PS: Wer geht nächste Woche zu dem Treffen mit Frau Prof. Dr. Merceron?
+Ich finde das eine tolle Idee und werde auf jeden Fall kommen.
+   
+TAGGED_CONTENT:

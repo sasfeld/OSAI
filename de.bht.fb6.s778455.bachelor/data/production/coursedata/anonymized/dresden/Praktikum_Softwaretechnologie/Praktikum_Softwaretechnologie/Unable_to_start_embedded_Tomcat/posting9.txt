@@ -1,0 +1,9 @@
+ID: 2767
+CREATION_DATETIME: 1383951600000
+MODIFICATION_DATETIME: 1383951600000
+TITLE: Letzteres ist ja eh eine neue Fragen. ;)
+PARENT_POSTING_ID: 2764
+POSTING_TYPE: comment
+CONTENT:
+Letzteres ist ja eh eine neue Fragen. ;)
+TAGGED_CONTENT:

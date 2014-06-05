@@ -1,0 +1,15 @@
+ID: 36
+CREATION_DATETIME: 1178139240000
+MODIFICATION_DATETIME: 1178139240000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 35
+CONTENT:
+ 
+Ich weiß nicht genau, was ich geändetr habe, aber es funktioniert :-)
+
+Aber trotzdem vielen Dank für die angebotene Hilfe.
+
+Viele Grüße 
+    
+TAGGED_CONTENT:

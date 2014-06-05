@@ -1,0 +1,32 @@
+ID: 287
+CREATION_DATETIME: 1349992800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Disclaimer: Der C-Kurs ist **nicht** Teil der Vorlesung AuD und der Lehrstuhl für __Grundlagen der Programmierung__ hat **nichts** mit dem C-Kurs zu tun.
+
+### Kurzübersicht ###
+
+#### C-Kurs ####
+
+**Von:** Studenten  
+
+**Beantwortet Fragen zu:** C
+
+#### AuD ####
+
+**Von:** Lehrstuhl GdP  
+
+**Beantwortet Fragen zu:** AuD
+
+### Erläuterung ###
+
+Ziel des Kurses ist es, Grundlagenwissen über die Anwendung der Sprache C zu vermitteln. Dieses Wissen ist in der Vorlesung AuD allerdings hilfreich und die Organisatoren des Kurses haben ein Auge darauf, was in AuD und anderen Veranstaltungen gelehrt wird und werden dementsprechend Querverweise geben.  
+
+Mitarbeiter des Lehrstuhles __Grundlagen der Programmierung__ (das schließt Prof. <REMOVED_PERSON_ENTITY> ein) haben nichts mit der Organisation des C-Kurses zu tun und können und werden euch keine Fragen dazu beantworten.  
+
+Der C-Kurs kann die Vorlesung und Übungen zu AuD **nicht** ersetzen, sondern höchstens ergänzen.
+TAGGED_CONTENT:

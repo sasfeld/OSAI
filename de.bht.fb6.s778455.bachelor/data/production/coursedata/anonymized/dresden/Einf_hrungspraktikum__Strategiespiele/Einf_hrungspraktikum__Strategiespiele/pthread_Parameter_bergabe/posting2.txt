@@ -1,0 +1,9 @@
+ID: 1301
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Kannst du sagen, wo parameter deklariert ist (global/lokal) und welchen Typ score hat?
+PARENT_POSTING_ID: 1300
+POSTING_TYPE: comment
+CONTENT:
+Kannst du sagen, wo parameter deklariert ist (global/lokal) und welchen Typ score hat?
+TAGGED_CONTENT:

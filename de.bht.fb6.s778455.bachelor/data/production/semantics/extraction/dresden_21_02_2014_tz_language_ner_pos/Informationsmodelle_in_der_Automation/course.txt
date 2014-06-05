@@ -1,0 +1,10 @@
+ID: 110804007
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Informationsmodelle in der Automation
+LANGUAGE: GERMAN
+SUMMARY: null
+POS_TAG: value:Automation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Informationsmodelle;weight:0.0;uri:;postag:NN

@@ -1,0 +1,11 @@
+ID: 131
+CREATION_DATETIME: 1348178400000
+MODIFICATION_DATETIME: 1348178400000
+TITLE: Ich möchte gerne pro 
+PARENT_POSTING_ID: 129
+POSTING_TYPE: answer
+CONTENT:
+Ich möchte gerne pro Spielstein eine Zugfolge als string/char* in ein Zeigerarray (char *zuege[12];
+) ablegen, um erstmal mögliche Züge zu sammeln.
+Die Zugfolge soll dabei rekursiv zusammengestellt werden.
+TAGGED_CONTENT:

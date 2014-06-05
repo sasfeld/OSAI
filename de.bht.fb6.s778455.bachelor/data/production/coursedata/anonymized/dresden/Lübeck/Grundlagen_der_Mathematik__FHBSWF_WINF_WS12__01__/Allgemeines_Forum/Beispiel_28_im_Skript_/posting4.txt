@@ -1,0 +1,12 @@
+ID: 194761
+CREATION_DATETIME: 1358600369
+MODIFICATION_DATETIME: 1358601308
+TITLE: Re: Beispiel 28 im Skript....
+PARENT_POSTING_ID: 194737
+CONTENT:
+Hi,
+x1=-3-3r+5sx2=-3+2sx3=rx4=s
+Stimmt nicht ganz, denn Zeile 2 muss mit x3 beginnen (eben durch den angesprochen nicht rückgängig gemachten Spaltentausch zuvor). Dann kann man den Vektor (-3, 0, 1, 0)^T ablesen, aber dann halt mit x2 und x3 vertauscht:
+x1 -3x3 0x2 1x4 0Sozusagen... das ist dann die  linear unabhängige Lösung, wie sie im Skript beschrieben wird. Danach tauscht man Zeile 2 und 3 wieder zurück und kann dann die affine Menge angeben.
+GrüßeLars
+TAGGED_CONTENT:

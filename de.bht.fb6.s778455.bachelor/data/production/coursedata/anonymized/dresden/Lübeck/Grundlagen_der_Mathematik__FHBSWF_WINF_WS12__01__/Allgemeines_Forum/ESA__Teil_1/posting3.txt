@@ -1,0 +1,11 @@
+ID: 184109
+CREATION_DATETIME: 1354258313
+MODIFICATION_DATETIME: 1354258313
+TITLE: Re: ESA, Teil 1
+PARENT_POSTING_ID: 183515
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+wenn da steht "die <REMOVED_PERSON_ENTITY> der Knotenwerte seiner Nachbarn", dann ist das für mich eindeutig: Nur die Werte der Nachbarn werden addiert, nicht der jeweilige Knoten selbst.
+Grüße
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

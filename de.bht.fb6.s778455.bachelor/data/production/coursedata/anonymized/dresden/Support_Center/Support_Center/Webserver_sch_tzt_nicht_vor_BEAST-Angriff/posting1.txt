@@ -1,0 +1,11 @@
+ID: 1566
+CREATION_DATETIME: 1363993200000
+MODIFICATION_DATETIME: 1381788000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ist nur eine kleine SSL-Konfigurationsschwäche, aber der Auditorium-Webserver schützt nicht vor dem BEAST-Angriff:
+https://www. ssllabs. com/ssltest/analyze. html?d=auditorium. inf. tu-dresden. <PERSONAL_GREETING_REMOVEMENT>
+Ich weiß allerdings nicht, was ihr <NAME_CORPUS_REPLACEMENT> machen könnt und wie viel am ZIH hängt.
+TAGGED_CONTENT:

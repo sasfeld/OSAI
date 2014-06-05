@@ -1,0 +1,20 @@
+ID: 52
+CREATION_DATETIME: 1193380440000
+MODIFICATION_DATETIME: 1193380440000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 51
+CONTENT:
+ 
+Hi Stefan,
+
+man kann nur Klassenmethoden direkt aufrufen.
+Du musst in Deiner Testklasse erst ein Objekt der Klasse IntRechner erzeugen und die Methode dann damit aufrufen, etwa so:
+
+IntRechner object = new IntRechner();
+
+ergebnisInt = object.rechnen(zahl1,zahl2);
+
+Grüße,
+	
+TAGGED_CONTENT:

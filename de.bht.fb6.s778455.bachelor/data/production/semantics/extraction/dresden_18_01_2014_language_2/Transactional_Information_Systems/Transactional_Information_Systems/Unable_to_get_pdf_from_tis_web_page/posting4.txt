@@ -1,0 +1,10 @@
+ID: 1050
+CREATION_DATETIME: 1358290800000
+MODIFICATION_DATETIME: 1358290800000
+TITLE: And now without any change from my side it works from dormitory again.
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1047
+POSTING_TYPE: comment
+CONTENT:
+And now without any change from my side it works from dormitory again.
+TAGGED_CONTENT:

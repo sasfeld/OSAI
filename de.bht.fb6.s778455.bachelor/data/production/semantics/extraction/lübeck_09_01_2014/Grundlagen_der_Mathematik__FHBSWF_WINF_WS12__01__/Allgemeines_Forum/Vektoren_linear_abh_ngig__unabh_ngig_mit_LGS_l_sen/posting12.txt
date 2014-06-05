@@ -1,0 +1,15 @@
+ID: 191891
+CREATION_DATETIME: 1357671665
+MODIFICATION_DATETIME: 1357671665
+TITLE: Re: Vektoren linear abhängig/ unabhängig mit LGS lösen
+TOPIC_ZOOM_TAG: value:Skalare;weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:19937424
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 191881
+CONTENT:
+Ah, alles klar. Ich habe nicht daran gedacht, dass das die Werte der Skalare für die Ausgangsvektoren sind, die wir damit multiplizieren müssen.
+Vielen Dank :))GrüßeLars
+TAGGED_CONTENT:

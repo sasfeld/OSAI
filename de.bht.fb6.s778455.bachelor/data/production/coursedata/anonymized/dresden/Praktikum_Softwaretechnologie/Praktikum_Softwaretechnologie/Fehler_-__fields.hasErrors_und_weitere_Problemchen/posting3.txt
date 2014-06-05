@@ -1,0 +1,19 @@
+ID: 2811
+CREATION_DATETIME: 1384210800000
+MODIFICATION_DATETIME: 1384210800000
+TITLE: Lieben Dank für die Antwort. Das und die weiteren kleinen Probleme konnte ich damit lösen.
+
+Nun hab...
+PARENT_POSTING_ID: 2769
+POSTING_TYPE: comment
+CONTENT:
+Lieben Dank für die Antwort. Das und die weiteren kleinen Probleme konnte ich damit lösen.
+Nun habe ich 2 neue Probleme:
+Zum einen wirft die Form, in der ich neue Requisiten hinzufügen kann, den Error:
+```
+HTTP Status 500 - Request processing failed; nested exception is javax. validation. UnexpectedTypeException: HV000030: No validator could be found for type: org. salespointframework. core. money. Money.
+```
+sobald ich auf hinzufügen drücke und die Form dann überprüft wird.
+Und zum anderen wird auf der "Requisitenübersichts"-Seite einfach keine Auflistung der Requisiten erstellt. Diese habe ich ähnlich wie die Übersicht im Videoshop mit einer Art for:each Schleife erstellt. Habe es schon auf Biegen und Brechen mit vielen Versionen getestet, aber es möchte einfach nicht klappen. Die eine Requisite "Hut" die dort angezeigt wird, veranschaulicht einfach nur wie es dann mal aussehen soll, also nicht wundern ;)
+Habe die Dropbox wieder aktualisiert und würde mich über Hilfe freuen. Bin auch nachher im Lernraum in der 6. DS wenn wir uns vielleicht mal zusammen hinsetzen könnten.
+TAGGED_CONTENT:

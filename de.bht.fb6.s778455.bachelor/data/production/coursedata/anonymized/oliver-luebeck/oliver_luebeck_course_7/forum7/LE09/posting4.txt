@@ -1,0 +1,17 @@
+ID: 45
+CREATION_DATETIME: 1304606580000
+MODIFICATION_DATETIME: 1304606580000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 42
+CONTENT:
+  
+Hallo,
+
+klink mich mit meiner Frage auch mal mit ein und hoffe auf Hilfe!
+Hab meine Messwertdatei inzwischen halbwegs zum laufen bekommen,
+aber leider funktionierts nur richtig wenn der Messwert größer als der Sollwert ist. Ist er kleiner dann gibt er mir immer nur aus das der "Wert im Toleranzbereich ist". Ausserdem ist mir etwas unklar was mit dem Zahlen-Buchstaben-Salat geschehen soll, muss er da ausgeben das der eingegebene Wert nicht kompatibel ist?
+
+Danke und liebe Grüße
+   
+TAGGED_CONTENT:

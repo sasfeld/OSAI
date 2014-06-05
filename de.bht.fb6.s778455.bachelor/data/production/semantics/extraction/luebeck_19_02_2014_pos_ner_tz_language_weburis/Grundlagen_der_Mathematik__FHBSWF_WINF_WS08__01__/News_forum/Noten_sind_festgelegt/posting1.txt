@@ -1,0 +1,14 @@
+ID: 16529
+CREATION_DATETIME: 1236218983
+MODIFICATION_DATETIME: 1236218983
+TITLE: Noten sind festgelegt.
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=6503#16529
+NER_TAG: value:EPV;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:EPV;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:MfG;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Sie alle, <REMOVED_PERSON_ENTITY> sind weitgehend fertig, aber die EPV hat mich heute rausgeschmissen. Morgen mehr. MfG, al.
+TAGGED_CONTENT:
+Hallo_ITJ Sie_PPER alle_PIS ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_ADJD sind_VAFIN weitgehend_ADJD fertig_ADJD ,_$, aber_KON die_ART EPV_NE hat_VAFIN mich_PPER heute_ADV rausgeschmissen_VVPP ._$. Morgen_ADV mehr_ADV ._$. MfG_NN ,_$, al._ADV ._$. 

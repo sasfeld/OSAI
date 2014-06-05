@@ -1,0 +1,10 @@
+ID: 183271
+CREATION_DATETIME: 1353929113
+MODIFICATION_DATETIME: 1353929439
+TITLE: 3. Einsendeaufgabe (Vektoren) - Musterlösung
+PARENT_POSTING_ID: 0
+CONTENT:
+Da Frau <REMOVED_PERSON_ENTITY> mir geschrieben hat, dass ich meine Lösung zu der 3. Einsendeaufgabe (Vektoren) gerne als Musterlösung hier einstellen kann, mache ich das. Ich hoffe, dass Sie Euch weiterhilft.
+VGStefan
+Kurze Anmerkung: Ich denke, dass es bei d) "λ element R \{0}" heißen muss
+TAGGED_CONTENT:

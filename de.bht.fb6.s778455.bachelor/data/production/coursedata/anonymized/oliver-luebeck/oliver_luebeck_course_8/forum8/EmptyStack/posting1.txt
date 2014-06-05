@@ -1,0 +1,30 @@
+ID: 53
+CREATION_DATETIME: 1199305920000
+MODIFICATION_DATETIME: 1199305920000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo, beim durcharbeiten der LE10 taucht mir folgende Frage auf:
+
+Angeboten wird der Code:
+
+ if (empty()) { throw new EmptyStackException();  }
+ else{
+ // Löschen
+ }
+
+Wäre es nicht besser so:
+
+try{
+// Löschen eines Elementes
+}catch(EmptyStackException e){
+// Meldung
+}
+
+So spar ich mir die Methode, die Ausnahme kommt in jedem Fall, wenn der Stapel leer ist ... Was meint ihr?
+
+Grüsse, 
+   
+TAGGED_CONTENT:

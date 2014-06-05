@@ -1,0 +1,9 @@
+ID: 110804111
+CREATION_DATETIME: 1349992800000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Master Distributed Systems Engineering
+LANGUAGE: UNKNOWN
+SUMMARY: null
+URL: http://dse.inf.tu-dresden.de/

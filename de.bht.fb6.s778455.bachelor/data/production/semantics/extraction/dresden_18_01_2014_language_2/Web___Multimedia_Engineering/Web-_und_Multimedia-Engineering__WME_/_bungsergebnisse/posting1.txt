@@ -1,0 +1,10 @@
+ID: 1021
+CREATION_DATETIME: 1357599600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die vorläufigen Übungsergebnisse (http://mt.inf.tu-dresden. de/lehre/wme/uebung. html) sind nun online verfügbar!
+TAGGED_CONTENT:

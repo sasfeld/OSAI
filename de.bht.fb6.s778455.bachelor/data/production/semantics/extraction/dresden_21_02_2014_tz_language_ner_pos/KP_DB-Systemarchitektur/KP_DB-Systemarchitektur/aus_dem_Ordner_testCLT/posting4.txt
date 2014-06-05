@@ -1,0 +1,21 @@
+ID: 1845
+CREATION_DATETIME: 1369087200000
+MODIFICATION_DATETIME: 1369087200000
+TITLE: Gut, dann werde ich es so weiter handhaben. 
+LANGUAGE: GERMAN
+NER_TAG: value:CLeverTrustee-Klasse;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:createKernel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klasse;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Parameter;weight:0.0;uri:;postag:NN
+POS_TAG: value:Funktion;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Gut, dann werde ich es so weiter handhaben. 
+
+Eine weitere Frage: 
+
+In der Funktion createKernel in der CLeverTrustee-Klasse, wofür sind die beiden Parameter genau gedacht? So richtig werde ich daraus noch nicht schlau. 
+TAGGED_CONTENT:
+Gut_ADJD ,_$, dann_ADV werde_VAFIN ich_PPER es_PPER so_ADV weiter_ADV handhaben_VVINF ._$. Eine_ART weitere_ADJA Frage_NN :_$. In_APPR der_ART Funktion_NN createKernel_NN in_APPR der_ART CLeverTrustee-Klasse_NN ,_$, wofür_PWAV sind_VAFIN die_ART beiden_PIDAT Parameter_NN genau_ADJD gedacht_VVPP ?_$. So_ADV richtig_ADJD werde_VAFIN ich_PPER daraus_PROAV noch_ADV nicht_PTKNEG schlau_ADJD ._$. 

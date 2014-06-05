@@ -1,0 +1,10 @@
+ID: 1282
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Bisher war es lediglich vorgesehen, dass diese Benachrichtigungen raus gehen, um den Nutzer darauf hi...
+PARENT_POSTING_ID: 1196
+POSTING_TYPE: comment
+CONTENT:
+Bisher war es lediglich vorgesehen, dass diese Benachrichtigungen raus gehen, um den Nutzer darauf hinzuweisen, dass eine neue Antwort oder ein neuer Kommentar etc. geschrieben wurde. 
+Es ist vorgesehen einen RSS-Feed zu implementieren. Der ja dann genau dein Problem lösen würde und auch attraktiver wäre. Deshalb wird dieser Feature-Request <NAME_CORPUS_REPLACEMENT> dir erst einmal hinten angestellt. Du kannst ihn aber gern [als neues Issue bei Github](https://github. com/auditorium/auditorium/issues/new) eintragen. :)
+TAGGED_CONTENT:

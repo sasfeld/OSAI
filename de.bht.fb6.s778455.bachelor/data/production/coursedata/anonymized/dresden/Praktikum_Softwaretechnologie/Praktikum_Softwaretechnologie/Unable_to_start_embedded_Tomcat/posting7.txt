@@ -1,0 +1,9 @@
+ID: 2765
+CREATION_DATETIME: 1383951600000
+MODIFICATION_DATETIME: 1383951600000
+TITLE: An welcher Klasse stand denn dein @Entity? Jetzt kannst du Objekte der Klassen nicht mehr persistiere...
+PARENT_POSTING_ID: 2764
+POSTING_TYPE: comment
+CONTENT:
+An welcher Klasse stand denn dein @Entity? Jetzt kannst du Objekte der <REMOVED_PERSON_ENTITY> nicht mehr persistieren!?
+TAGGED_CONTENT:

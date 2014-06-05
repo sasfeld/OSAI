@@ -1,0 +1,14 @@
+ID: 3
+CREATION_DATETIME: 1286300640000
+MODIFICATION_DATETIME: 1286300640000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2
+CONTENT:
+
+Lieber , liebe ,
+in der Tat ist der Unterschied zwischen den 2 Methoden minimal. Wenn Sie nur die Methode eingeben() programmieren, bin ich einverstanden. Herr Sander, Sie haben den Unterschied richtig erkannt. Die Methode eingeben() (nicht Eingeben() !) kann die Methode eingabeStream() aufrufen und ihr Ergebnis zurück geben. Beide Methode liefern ein Ergebnis vom Typ String.
+Viel Erfolg weiter.
+Telefonlisteneintrag.java 
+    
+TAGGED_CONTENT:

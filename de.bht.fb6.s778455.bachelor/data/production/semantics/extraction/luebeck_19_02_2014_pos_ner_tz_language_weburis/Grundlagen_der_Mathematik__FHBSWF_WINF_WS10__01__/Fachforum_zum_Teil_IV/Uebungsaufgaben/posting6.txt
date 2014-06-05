@@ -1,0 +1,55 @@
+ID: 97817
+CREATION_DATETIME: 1294454411
+MODIFICATION_DATETIME: 1294454756
+TITLE: Re: Uebungsaufgaben
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=36379#97817
+TOPIC_ZOOM_TAG: value:Algorithmen;weight:2.0;significance:4.72522648860622;degreegeneralization:5;uri:20898553
+TOPIC_ZOOM_TAG: value:Vektoren;weight:1.0;significance:3.17713737880847;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Informatik;weight:2.0;significance:2.51211272377639;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:2.0;significance:2.50390086036106;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:4.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:1.94532395751918;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:1.73899421910207;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:1.38867892841377;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:1.29518888187812;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:1.1184961304917;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:1.09226215305699;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:0.87555429116382;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:0.584421696201437;degreegeneralization:2;uri:21999711
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:LO;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:LO;weight:-1.0;uri:;classifierlabel:I-LOC
+POS_TAG: value:Spalte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ende;weight:0.0;uri:;postag:NN
+POS_TAG: value:LGS;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anmerkungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:A;weight:0.0;uri:;postag:NN
+POS_TAG: value:Loesungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fall;weight:0.0;uri:;postag:NN
+POS_TAG: value:LO;weight:0.0;uri:;postag:NN
+POS_TAG: value:Prof.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabenstellung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beweis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Algorithmus;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeile;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fuer;weight:0.0;uri:;postag:NN
+POS_TAG: value:Loesung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Systeme;weight:0.0;uri:;postag:NN
+POS_TAG: value:Praemisse;weight:0.0;uri:;postag:NN
+POS_TAG: value:Determinante;weight:0.0;uri:;postag:NN
+POS_TAG: value:Widerspruch;weight:0.0;uri:;postag:NN
+POS_TAG: value:System;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97816
+CONTENT:
+Hier meine abschliessenden Anmerkungen. Wir haben es eingangs etwas zu kompliziert begonnen, denn es mussten nur die Determinante und der Gausssche Algorithmus fuer konkrete Lambda ausgefuehrt werden. Hier fand ich die Aufgabenstellung etwas zu kompliziert formuliert.
+Worauf Prof. <REMOVED_PERSON_ENTITY> hinaus will (worauf man kommt, wenn man lange genug denkt):
+Fuer den Fall det A != 0 wissen wir fuer homogene(!) Systeme immer, dass die einzige Loesung nur der 0-Vektor in x sein kann. det A != 0 bedeutet im homogenen System naemlich, dass keine nichttriviale Loesung vorliegt.
+det A = 0 wiederum kann zweierlei bedeutet: Es gibt entweder keine oder unendlich viele <REMOVED_PERSON_ENTITY> (steht am Ende von LO 12).
+Anhand des ausgefuehrten Gauss-Algorithmus erkennen wir in der b-Spalte der 0-Zeile, welcher Fall vorliegt (ungleich 0 wenn keine Loesung, = 0 wenn unendlich viele Loesungen). Nun kann es im homogenen LGS allerdings niemals vorkommen, dass die b-Spalte ungleich 0 wird, denn ansonsten haetten wir es mit einem inhomogenen LGS zu tun, was unserer Praemisse widerspraeche (Beweis durch Widerspruch, LO 06, S. 8).
+qed.
+TAGGED_CONTENT:
+Hier_ADV meine_PPOSAT abschliessenden_ADJA Anmerkungen_NN ._$. Wir_PPER haben_VAFIN es_PPER eingangs_ADV etwas_PIS zu_PTKZU kompliziert_VVFIN begonnen_VVPP ,_$, denn_KON es_PPER mussten_VVFIN nur_ADV die_ART Determinante_NN und_KON der_ART Gausssche_ADJA Algorithmus_NN fuer_ADJD konkrete_ADJA Lambda_NE ausgefuehrt_VVPP werden_VAINF ._$. Hier_ADV fand_VVFIN ich_PPER die_ART Aufgabenstellung_NN etwas_PIS zu_PTKZU kompliziert_VVFIN formuliert_VVPP ._$. Worauf_PWAV Prof._NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE hinaus_APZR will_VMFIN -LRB-_TRUNC worauf_PWAV man_PIS kommt_VVFIN ,_$, wenn_KOUS man_PIS lange_ADV genug_ADV denkt_VVFIN -RRB-_TRUNC :_$. Fuer_NN den_ART Fall_NN det_PWS A_NN !_$. =_XY 0_CARD wissen_VVFIN wir_PPER fuer_ADJA homogene_ADJA -LRB-_TRUNC !_$. -RRB-_TRUNC Systeme_NN immer_ADV ,_$, dass_KOUS die_ART einzige_ADJA Loesung_NN nur_ADV der_ART 0-Vektor_NN in_APPR x_XY sein_VAINF kann_VMFIN ._$. det_PWS A_NN !_$. =_XY 0_CARD bedeutet_VVFIN im_APPRART homogenen_ADJA System_NN naemlich_ADJD ,_$, dass_KOUS keine_PIAT nichttriviale_ADJA Loesung_NN vorliegt_VVFIN ._$. det_PWS A_NN =_XY 0_CARD wiederum_ADV kann_VMFIN zweierlei_PIS bedeutet_VVFIN :_$. Es_PPER gibt_VVFIN entweder_KON keine_PIAT oder_KON unendlich_ADJD viele_PIDAT <_NN REMOVED_PERSON_ENTITY_NE >_NE -LRB-_TRUNC steht_VVFIN am_APPRART Ende_NN von_APPR LO_NE 12_CARD -RRB-_TRUNC ._$. Anhand_APPR des_ART ausgefuehrten_ADJA Gauss-Algorithmus_NN erkennen_VVFIN wir_PPER in_APPR der_ART b-Spalte_NN der_ART 0-Zeile_NN ,_$, welcher_PRELS Fall_NN vorliegt_VVFIN -LRB-_TRUNC ungleich_ADJD 0_CARD wenn_KOUS keine_PIAT Loesung_NN ,_$, =_XY 0_CARD wenn_KOUS unendlich_ADJD viele_PIDAT Loesungen_NN -RRB-_TRUNC ._$. Nun_ADV kann_VMFIN es_PPER im_APPRART homogenen_ADJA LGS_NN allerdings_ADV niemals_ADV vorkommen_VVFIN ,_$, dass_KOUS die_ART b-Spalte_NN ungleich_ADJD 0_CARD wird_VAFIN ,_$, denn_KON ansonsten_ADV haetten_VVFIN wir_PPER es_PPER mit_APPR einem_ART inhomogenen_ADJA LGS_NN zu_PTKZU tun_VVINF ,_$, was_PWS unserer_PPOSAT Praemisse_NN widerspraeche_ADJA -LRB-_TRUNC Beweis_NN durch_APPR Widerspruch_NN ,_$, LO_NN 06_CARD ,_$, S._NE 8_CARD -RRB-_TRUNC ._$. qed_NE ._$. 

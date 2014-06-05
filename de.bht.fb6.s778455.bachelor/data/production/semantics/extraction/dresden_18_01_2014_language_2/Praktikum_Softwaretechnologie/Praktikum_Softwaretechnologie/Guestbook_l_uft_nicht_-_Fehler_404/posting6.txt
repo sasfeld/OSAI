@@ -1,0 +1,10 @@
+ID: 2735
+CREATION_DATETIME: 1383778800000
+MODIFICATION_DATETIME: 1383778800000
+TITLE: also VideoShop geht komischer Weise. Woran kann das liegen?
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2728
+POSTING_TYPE: comment
+CONTENT:
+also VideoShop geht komischer <REMOVED_PERSON_ENTITY>. Woran kann das liegen?
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 2708
+CREATION_DATETIME: 1383519600000
+MODIFICATION_DATETIME: 1383519600000
+TITLE: Ein leerer Konstruktor ist klassendesigntechnisch keine gute Idee. Du kannst dann nämlich keine final...
+PARENT_POSTING_ID: 2703
+POSTING_TYPE: comment
+CONTENT:
+Ein leerer Konstruktor ist klassendesigntechnisch keine gute Idee. Du kannst dann nämlich keine finalen <REMOVED_PERSON_ENTITY> mehr verwenden und Clients können die Klasse potentiell in invalidem Zustand (Felder bleiben `null`) erzeugen kann. Abhilfe wäre hier ein Interface für den Controller einzuführen, so dass Spring einfache JDK Dynamic Proxies verwenden. Die andere Möglichkeit wäre ein Upgrade auf Spring 4 RC1, das diese Limitierung <NAME_CORPUS_REPLACEMENT> CGLib umgeht. Ich vermute, dass wird auch noch passieren, konnte aber bisher nicht, <NAME_CORPUS_REPLACEMENT> das RC1 erst letzten Freitag erschienen ist.
+TAGGED_CONTENT:

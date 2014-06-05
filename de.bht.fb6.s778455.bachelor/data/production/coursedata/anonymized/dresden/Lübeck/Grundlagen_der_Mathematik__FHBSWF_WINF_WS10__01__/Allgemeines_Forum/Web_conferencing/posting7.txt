@@ -1,0 +1,8 @@
+ID: 97760
+CREATION_DATETIME: 1285933172
+MODIFICATION_DATETIME: 1285933210
+TITLE: Re: Web conferencing
+PARENT_POSTING_ID: 97759
+CONTENT:
+Der erste Chat kommende Woche dient dazu, die Technik kennenzulernen (Mikrofontest, Aufzeichnung, dringende Fragen). Inhaltlich geht's nach der Einfuehrung in den Praesenzen und Chats los.
+TAGGED_CONTENT:

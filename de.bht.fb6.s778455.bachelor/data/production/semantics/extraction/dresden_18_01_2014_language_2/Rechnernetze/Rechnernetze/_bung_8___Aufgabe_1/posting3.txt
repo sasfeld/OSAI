@@ -1,0 +1,14 @@
+ID: 2429
+CREATION_DATETIME: 1374444000000
+MODIFICATION_DATETIME: 1374616800000
+TITLE: Ist das realistisch, dass sowas in der Klausur berechnet werden muss, wenn Sie dafür schon 3 Versuche...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2419
+POSTING_TYPE: comment
+CONTENT:
+Ist das realistisch, dass sowas in der Klausur berechnet werden muss, wenn Sie dafür schon 3 Versuche benötigen?
+
+Zudem stellt sich mir die Frage, wie dann bei Padding und Bursting die Payload Effizienz berechnet wird?
+
+Ich habe ja 64*13 Byte Daten, die dann als 64*12 + 512 Byte versendet werden, was 0. 65 ergeben würde.
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 1518
+CREATION_DATETIME: 1363042800000
+MODIFICATION_DATETIME: 1363042800000
+TITLE: Of course, you can set a 1:1 page table in 64-bit mode to more or less disable paging.
+PARENT_POSTING_ID: 1515
+POSTING_TYPE: comment
+CONTENT:
+Of course, you <NAME_CORPUS_REPLACEMENT> set a 1:1 page table in 64-bit mode to more or less disable paging.
+TAGGED_CONTENT:

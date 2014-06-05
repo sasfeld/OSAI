@@ -1,0 +1,20 @@
+ID: 117549
+CREATION_DATETIME: 1321969732
+MODIFICATION_DATETIME: 1321969732
+TITLE: Re: Üben Üben Üben
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Allgemeine (nicht fachgebundene) Universitäten;weight:1.0;significance:6.31830884816858;degreegeneralization:5;uri:21881952
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Exer;weight:0.0;uri:;postag:NN
+POS_TAG: value:Uni;weight:0.0;uri:;postag:NN
+POS_TAG: value:leOliver;weight:0.0;uri:;postag:NN
+POS_TAG: value:OG;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ewoldsen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117548
+CONTENT:
+Hallo, ja wir sind regelmäßig in der Uni. Wir sind am Exer im 1 OG auf der linken <REMOVED_PERSON_ENTITY>, ganz hinten durch und dem krach folgen ;-)GrüßleOliver Ewoldsen 
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, ja_ADV wir_PPER sind_VAFIN regelmäßig_ADJD in_APPR der_ART Uni_NN ._$. Wir_PPER sind_VAFIN am_APPRART Exer_NN im_APPRART 1_CARD OG_NN auf_APPR der_ART linken_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_NE ,_$, ganz_ADV hinten_ADV durch_PTKVZ und_KON dem_ART krach_ADJD folgen_VVFIN ;_$. -_$( -RRB-_TRUNC GrüßleOliver_NN Ewoldsen_NN 

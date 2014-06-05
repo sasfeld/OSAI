@@ -1,0 +1,18 @@
+ID: 14
+CREATION_DATETIME: 1176619620000
+MODIFICATION_DATETIME: 1176619620000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+ 
+Es fehlen in der Triangle.java zwei Methoden, damit ich überhaupt TriangleTest.java kompilieren kann.
+isIsosceles
+und
+calculateCircumference
+Die erste Methode soll die Gleichschenkligkeit angeben und die zweite Methode den Umfang. Klar, den Umfang sollten wir sowieso machen, aber sollen wir jetzt zusätzlich zu der Gleichschenkligkeit immer noch die Rechtwinkligkeit ausgeben lassen? Ist ja immerhin nicht das Gleiche.
+Waren die beiden Methoden als Platzhalter gedacht und wir sollten in der Triangle.java die Methoden programmieren?
+
+Und falls die isIsosceles-Methode eigentlich hätte da sein müssen, darf ich die einfach ersetzen oder soll ich da einen Code-Schnipsel von Ihnen einfügen?
+    
+TAGGED_CONTENT:

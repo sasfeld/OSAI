@@ -1,0 +1,4 @@
+ID: 9
+TITLE: Klasse KreisErw aus Kapitel 4.2
+LANGUAGE: GERMAN
+FIRST_POSTING_ID: 27

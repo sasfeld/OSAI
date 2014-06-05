@@ -1,0 +1,61 @@
+ID: 1822
+CREATION_DATETIME: 1368741600000
+MODIFICATION_DATETIME: 1372370400000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Schnittstellen;weight:2.0;significance:8.39106140169762;degreegeneralization:6;uri:20896088
+TOPIC_ZOOM_TAG: value:Kommunikationstechnik;weight:2.0;significance:5.71829301474005;degreegeneralization:5;uri:20897125
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:2.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:2.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:2.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+NER_TAG: value:AVG;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Kommentar;weight:0.0;uri:;postag:NN
+POS_TAG: value:Testprogramm;weight:0.0;uri:;postag:NN
+POS_TAG: value:Programm;weight:0.0;uri:;postag:NN
+POS_TAG: value:Daten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ausgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klasse;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klassen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sinn;weight:0.0;uri:;postag:NN
+POS_TAG: value:Interface;weight:0.0;uri:;postag:NN
+POS_TAG: value:TestCases;weight:0.0;uri:;postag:NN
+POS_TAG: value:Test;weight:0.0;uri:;postag:NN
+POS_TAG: value:getWorkitemCount;weight:0.0;uri:;postag:NN
+POS_TAG: value:TestCase;weight:0.0;uri:;postag:NN
+POS_TAG: value:getParameterSizes;weight:0.0;uri:;postag:NN
+POS_TAG: value:Testcase;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kernel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wissen;weight:0.0;uri:;postag:NN
+POS_TAG: value:NestedLoopJoin;weight:0.0;uri:;postag:NN
+POS_TAG: value:Liste;weight:0.0;uri:;postag:NN
+POS_TAG: value:Selection;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+<REMOVED_PERSON_ENTITY>, vielleicht macht es Sinn für das Testprogramm pro Test eine Klasse zu machen. 
+
+ein Interface könnte so aussehen
+
+TestCase{
+
+TestCase() = 0;  // malloc arrays + init data
+
+~TestCase() = 0; // delete arrays
+
+vector<void*> getParameters() = 0;
+
+vector getParameterSizes() = 0;
+
+string getKernel() = 0;
+
+int getWorkitemCount() = 0;
+
+}
+
+irgendwie so. Dann halt eine Klasse pro Testcase (NestedLoopJoin, Selection, AVG, ...). Dann könnte man sich quasi in dem Test Programm eine Liste mit TestCases machen, und die dann mit gleichen Interface austesten. (Damit ist das Wissen über Eingabe/Ausgabe Daten auch in den Klassen gekapselt und nicht nur im Kernel als Kommentar)
+
+Was denkt ihr?
+TAGGED_CONTENT:
+<_XY REMOVED_PERSON_ENTITY_NE >_NE ,_$, vielleicht_ADV macht_VVFIN es_PPER Sinn_NN für_APPR das_ART Testprogramm_NN pro_APPR Test_NN eine_ART Klasse_NN zu_PTKZU machen_VVINF ._$. ein_ART Interface_NN könnte_VMFIN so_ADV aussehen_VVFIN TestCase_NN -LCB-_TRUNC TestCase_NN -LRB-_TRUNC -RRB-_TRUNC =_XY 0_CARD ;_$. \/_CARD \/_CARD malloc_ADJD arrays_ADJD +_KON init_ADJD data_FM ~_FM TestCase_FM -LRB-_TRUNC -RRB-_TRUNC =_XY 0_CARD ;_$. \/_CARD \/_CARD delete_FM arrays_FM vector_FM <_FM void_FM \*_FM >_FM getParameters_FM -LRB-_TRUNC -RRB-_TRUNC =_XY 0_CARD ;_$. vector_ADJA getParameterSizes_NN -LRB-_TRUNC -RRB-_TRUNC =_XY 0_CARD ;_$. string_FM getKernel_FM -LRB-_TRUNC -RRB-_TRUNC =_XY 0_CARD ;_$. int_APPR getWorkitemCount_NN -LRB-_TRUNC -RRB-_TRUNC =_XY 0_CARD ;_$. -RCB-_TRUNC irgendwie_ADV so_ADV ._$. Dann_ADV halt_ADV eine_ART Klasse_NN pro_APPR Testcase_NN -LRB-_TRUNC NestedLoopJoin_NN ,_$, Selection_NN ,_$, AVG_NE ,_$, ..._$( -RRB-_TRUNC ._$. Dann_ADV könnte_VMFIN man_PIS sich_PRF quasi_ADV in_APPR dem_ART Test_NN Programm_NN eine_ART Liste_NN mit_APPR TestCases_NN machen_VVINF ,_$, und_KON die_ART dann_ADV mit_APPR gleichen_ADJA Interface_NN austesten_VVINF ._$. -LRB-_TRUNC Damit_PROAV ist_VAFIN das_ART Wissen_NN über_APPR Eingabe\/Ausgabe_NN Daten_NN auch_ADV in_APPR den_ART Klassen_NN gekapselt_VVPP und_KON nicht_PTKNEG nur_ADV im_APPRART Kernel_NN als_APPR Kommentar_NN -RRB-_TRUNC Was_PWS denkt_VVFIN ihr_PPOSAT ?_$. 

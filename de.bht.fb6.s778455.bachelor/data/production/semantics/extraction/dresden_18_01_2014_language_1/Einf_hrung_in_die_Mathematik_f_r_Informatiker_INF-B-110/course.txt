@@ -1,0 +1,9 @@
+ID: 110804127
+CREATION_DATETIME: 1350511200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Einführung in die Mathematik für Informatiker INF-B-110
+LANGUAGE: GERMAN
+SUMMARY: null
+URL: http://www.math.tu-dresden.de/%7Enoack/DS/DSLA2012.html

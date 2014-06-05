@@ -1,0 +1,5 @@
+ID: 2253
+MODIFICATION_DATETIME: 1185448253
+TITLE: Fachforum zum Modul
+INTRO: Hier können Sie Fachfragen zu den Themen des Moduls diskutieren.
+TYPE: general

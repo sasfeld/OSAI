@@ -1,0 +1,10 @@
+ID: 1086
+CREATION_DATETIME: 1359500400000
+MODIFICATION_DATETIME: 1385334000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo, ich suche jemanden zum gemeinsamen lernen für die AUI Prüfung. Meine Prüfung ist Ende Februar.
+TAGGED_CONTENT:

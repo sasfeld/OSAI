@@ -1,0 +1,20 @@
+ID: 3108
+CREATION_DATETIME: 1385852400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: Für die Asserts benötigst du noch folgende imports:
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3075
+POSTING_TYPE: comment
+CONTENT:
+Für die Asserts benötigst du noch folgende imports:
+
+```java
+
+import static org. hamcrest. <REMOVED_PERSON_ENTITY>.*;
+
+import static org. junit. Assert.*;
+
+```
+
+`@ContextConfiguration` solltest du auch mit `CMD+SPACE` importiert bekommen. Grundsätzlich, sollte man Imports nie selbst schreiben müssen, sondern sie entweder über die Codecompletion oder "Organize Imports" <NAME_CORPUS_REPLACEMENT> der IDE komplettieren lassen.
+TAGGED_CONTENT:

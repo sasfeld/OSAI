@@ -1,0 +1,25 @@
+ID: 7
+CREATION_DATETIME: 1190921820000
+MODIFICATION_DATETIME: 1190921820000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 5
+CONTENT:
+
+Hi 
+
+Ich hab nüscht gegen Jars. =)
+
+Aber der eine oder andere User hat möglicherweise nicht das nötige Wissen wie man damit umgeht. Da denke ich an meine Mutter, die sich abunsu auf Ihrem Netbook ins WWW traut und gerne mal was ausprobieren möchte. Ihr sind EXE files geläufig. JARs hat sie im Leben noch nicht gehört und weiß daher auch nicht was man damit machen soll. So geht es Ihr und mit Sicherheit Millionen anderer Menschen, die mit Microsofts spezifischen Dateiformaten umgehen.
+
+Die allermeisten User lieben Fire-And-Forget Installationen, bei der alles nötige im Hintergrund abläuft. ;-) So wie ich.
+
+Das ist nun mein Plan. Eine Software, die alles nötige mitbringt und installiert. Ich gehe hierbei nur von Java aus.
+
+Bei MS läuft es doch genauso. Wenn Du ne .NET Anwendung installierst, dann wird das .NET Framework installiert, wenn es noch nicht da ist. Oder eben das C++ Framework von MS. Oder DirectX 9 oder 10 für Spielekram etc. Alles dasselbe.
+
+Ich wüßte eben gern, wie man das Industriekonform löst. Wie machen das die "richtigen" ;-) Programmierer?
+
+Viele Grüße,
+    
+TAGGED_CONTENT:

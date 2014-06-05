@@ -1,0 +1,10 @@
+ID: 16671
+CREATION_DATETIME: 1232040148
+MODIFICATION_DATETIME: 1232044325
+TITLE: Re: Frage zur Aufgabe
+POS_TAG: value:n;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 16669
+CONTENT:
+ Bitteschön, al.
+TAGGED_CONTENT:
+Bitteschön_NN ,_$, al._ADV ._$. 

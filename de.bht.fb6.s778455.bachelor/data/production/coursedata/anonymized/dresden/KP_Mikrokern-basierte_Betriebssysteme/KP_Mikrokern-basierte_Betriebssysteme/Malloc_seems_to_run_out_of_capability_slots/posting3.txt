@@ -1,0 +1,16 @@
+ID: 1145
+CREATION_DATETIME: 1361401200000
+MODIFICATION_DATETIME: 1361401200000
+TITLE: I supposed that aquiring the capability via  
+
+~~~~~
+L4Re::Util::cap_alloc.alloc<L4Re::Dataspace>(...
+PARENT_POSTING_ID: 1143
+POSTING_TYPE: comment
+CONTENT:
+I supposed that aquiring the capability via  
+~~~~~
+L4Re::Util::cap_alloc. alloc()
+~~~~~
+Would return me the same capability all the time...
+TAGGED_CONTENT:

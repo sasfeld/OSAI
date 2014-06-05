@@ -1,0 +1,15 @@
+ID: 14
+CREATION_DATETIME: 1191617520000
+MODIFICATION_DATETIME: 1191617520000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 13
+CONTENT:
+
+Moin ,
+
+die Mail bzgl. Lerngruppe über googlegroups ist bei mir angekommen. War mir jetzt nur nich ganz klar, ob du das Online oder mit Treffen machen wolltest.
+
+Jruß,
+   
+TAGGED_CONTENT:

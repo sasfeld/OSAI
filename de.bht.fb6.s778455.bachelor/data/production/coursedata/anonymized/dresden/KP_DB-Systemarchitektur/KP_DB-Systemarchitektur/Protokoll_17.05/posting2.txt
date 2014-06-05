@@ -1,0 +1,14 @@
+ID: 1846
+CREATION_DATETIME: 1369087200000
+MODIFICATION_DATETIME: 1369087200000
+TITLE: Ich habe mal ein leeres Programm zum testen hochgeladen inklusive buildscript.
+Das ganze wird einfac...
+PARENT_POSTING_ID: 1821
+POSTING_TYPE: comment
+CONTENT:
+Ich habe mal ein leeres Programm zum testen hochgeladen inklusive buildscript.
+Das ganze wird einfach mit ./compileandrun. <LEARNED_PERSON_NAME_REPLACEMENT> aufgerufen (-help gibt alle Möglichkeiten zur Nutzung des Skripts aus).
+Es empfiehlt sich der Aufruf mittels
+./compileandrun. <LEARNED_PERSON_NAME_REPLACEMENT> -buildLib
+dabei wird auch gleich die CLeverTrustee library erstellt und der lib* file inkl. Header entsprechend in das Verzeichnis des Testprogramms kopiert.
+TAGGED_CONTENT:

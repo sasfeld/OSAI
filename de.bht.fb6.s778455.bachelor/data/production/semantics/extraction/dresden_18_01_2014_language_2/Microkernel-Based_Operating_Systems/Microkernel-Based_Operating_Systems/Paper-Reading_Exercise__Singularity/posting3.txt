@@ -1,0 +1,10 @@
+ID: 748
+CREATION_DATETIME: 1352674800000
+MODIFICATION_DATETIME: 1352761200000
+TITLE: Oops. It's on the web site now. I agree with Michael about moving the exercise, though. December 4th ...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 747
+POSTING_TYPE: comment
+CONTENT:
+Oops. It's on the web site now. I agree with <REMOVED_PERSON_ENTITY> about moving the exercise, though. December 4th appears to be still free.
+TAGGED_CONTENT:

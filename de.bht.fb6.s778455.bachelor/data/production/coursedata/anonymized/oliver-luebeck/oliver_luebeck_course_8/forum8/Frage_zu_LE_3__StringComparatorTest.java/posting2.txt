@@ -1,0 +1,17 @@
+ID: 61
+CREATION_DATETIME: 1201015380000
+MODIFICATION_DATETIME: 1201015380000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 60
+CONTENT:
+
+Liebe , liebe Studierende,
+
+Die Klasse StringComparator Seite 10 benutzt die Methode compareTo der Klasse String:
+int compareTo(String anotherString)
+Compares two strings lexicographically.
+Also werden die Elemente alphabetisch sortiert, Großbuchstaben kommen vor Kleinbuchstaben.
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

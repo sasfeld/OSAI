@@ -1,0 +1,15 @@
+ID: 44
+CREATION_DATETIME: 1304447100000
+MODIFICATION_DATETIME: 1304447100000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 43
+CONTENT:
+  
+hallo !
+
+vielen dank für die schnelle antwort! ich werde mich später mal an die tabelle setzen. hab aber jetzt schon rausgefunden, dass es zu fehlern bei extrem großen zahlen kommt. ist das bei dir auch so?
+
+alles liebe,
+   
+TAGGED_CONTENT:

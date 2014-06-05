@@ -1,0 +1,20 @@
+ID: 897
+CREATION_DATETIME: 1354057200000
+MODIFICATION_DATETIME: 1354057200000
+TITLE: ```<xsl:stylesheet 
+  version="1.0" 
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:at...
+PARENT_POSTING_ID: 869
+POSTING_TYPE: comment
+CONTENT:
+```
+<xsl:stylesheet 
+  version="1. 0" 
+  xmlns:xsl="http://www.w3. org/1999/XSL/Transform"
+  xmlns:atom="http://www.w3. org/2005/Atom"
+  exclude-result-prefixes="atom"
+>
+```
+Versuchs mal mit dieser Stylesheet-Definiton
+TAGGED_CONTENT:

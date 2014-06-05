@@ -1,0 +1,10 @@
+ID: 2022
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: Wenn man falsche Dimensionen angibt, werden ungültige IDs ausgelassen.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Wenn man falsche Dimensionen angibt, werden ungültige IDs ausgelassen.
+TAGGED_CONTENT:

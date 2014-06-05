@@ -1,0 +1,10 @@
+ID: 194033
+CREATION_DATETIME: 1358358839
+MODIFICATION_DATETIME: 1358358839
+TITLE: Re: Gruppenübungen
+PARENT_POSTING_ID: 193565
+CONTENT:
+Zur Aufgabe E eine Frage.
+Meine Ergebnis sieht so aus:1 0 0 -2   1  |0 50 1 0  1   0  |0 -10 0 1 -2  -1  |0 10 0 0  0   0  |0+t 0Komme zwar auch auf Null aber irgendwie sieht das anders aus...?
+Vermutlich hat sich einer von uns verrechent. Wo wir uns einig sind ist aber das Rang von A = Rang von A|b sein muss damit es lösbar ist. 
+TAGGED_CONTENT:

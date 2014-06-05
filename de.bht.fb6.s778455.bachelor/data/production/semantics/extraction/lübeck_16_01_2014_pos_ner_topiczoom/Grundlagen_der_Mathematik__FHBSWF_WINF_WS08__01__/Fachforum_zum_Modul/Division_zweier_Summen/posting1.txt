@@ -1,0 +1,42 @@
+ID: 16659
+CREATION_DATETIME: 1224008379
+MODIFICATION_DATETIME: 1224008438
+TITLE: Division zweier Summen
+TOPIC_ZOOM_TAG: value:Chat;weight:1.0;significance:4.65367606678589;degreegeneralization:7;uri:20901477
+TOPIC_ZOOM_TAG: value:HTML;weight:1.0;significance:4.65367606678589;degreegeneralization:8;uri:20901715
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:2.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Internet;weight:2.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:2.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Beschreibungssprachen;weight:1.0;significance:3.80130202066668;degreegeneralization:7;uri:20900644
+TOPIC_ZOOM_TAG: value:Formale Sprachen;weight:1.0;significance:3.51589785648282;degreegeneralization:6;uri:21978155
+TOPIC_ZOOM_TAG: value:Computersprachen;weight:1.0;significance:3.51418845310843;degreegeneralization:6;uri:19949137
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:1.0;significance:3.25199587633262;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:2.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Lifestyle und Internet;weight:1.0;significance:2.53445361368796;degreegeneralization:6;uri:21999575
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:2.50435355391847;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:2.50390086036106;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Lifestyle, Mode, Schönheit;weight:1.0;significance:2.18595971379839;degreegeneralization:3;uri:21999456
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:2.15506992990383;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:2.00351838218053;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.83083484620539;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:1.7207726480701;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:1.07441906812122;degreegeneralization:2;uri:21999813
+POS_TAG: value:unit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Modul;weight:0.0;uri:;postag:NN
+POS_TAG: value:Chat;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bsp.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zwischenschritte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beispielen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>, 
+wie eben im Chat besprochen, bitte die Zwischenschritte zu den Beispielen aus dem Modul.
+1. Bsp.: (300+70+2) : (30+1) = 10+2 = 12
+2. Bsp.: (20a2+2ab-6b2) : (4a-2b) = 5a+3b
+3. Bsp.: (14a2+2ab-3b2) : (2a+2b) = 7a - 6b + 9b2 : ( 2a + 2b ) 
+(hoffe, dass war jetzt richtig)
+http://moodle.oncampus.de/modules/ir043/onmod/matheI/lo2_reelle/1/onCampusBook/11/unit. html
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, wie_PWAV eben_ADV im_APPRART Chat_NN besprochen_VVPP ,_$, bitte_VVFIN die_ART Zwischenschritte_NN zu_APPR den_ART Beispielen_NN aus_APPR dem_ART Modul_NN ._$. 1_CARD ._$. Bsp._NN :_$. -LRB-_TRUNC 300_CARD +70_CARD +2_CARD -RRB-_TRUNC :_$. -LRB-_TRUNC 30_CARD +1_CARD -RRB-_TRUNC =_XY 10_CARD +2_XY =_XY 12_CARD 2_CARD ._$. Bsp._NN :_$. -LRB-_TRUNC 20a2_XY +2_CARD ab-6b2_XY -RRB-_TRUNC :_$. -LRB-_TRUNC 4a-2b_CARD -RRB-_TRUNC =_XY 5a_CARD +3_CARD b_XY 3_CARD ._$. Bsp._NN :_$. -LRB-_TRUNC 14a2_XY +2_CARD ab-3b2_XY -RRB-_TRUNC :_$. -LRB-_TRUNC 2a_CARD +2_CARD b_XY -RRB-_TRUNC =_XY 7a_CARD -_$( 6b_CARD +_XY 9b2_CARD :_$. -LRB-_TRUNC 2a_CARD +_XY 2b_CARD -RRB-_TRUNC -LRB-_TRUNC hoffe_VVFIN ,_$, dass_KOUS war_VAFIN jetzt_ADV richtig_ADJD -RRB-_TRUNC http:\/\/moodle.oncampus.de\/modules\/ir043\/onmod\/matheI\/lo2_reelle\/1\/onCampusBook\/11\/unit_NN ._$. html_XY 

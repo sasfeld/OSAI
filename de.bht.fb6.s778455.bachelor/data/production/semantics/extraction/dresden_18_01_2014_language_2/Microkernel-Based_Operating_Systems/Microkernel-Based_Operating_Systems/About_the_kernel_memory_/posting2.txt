@@ -1,0 +1,16 @@
+ID: 1420
+CREATION_DATETIME: 1362783600000
+MODIFICATION_DATETIME: 1362783600000
+TITLE: The (32bit) kernel memory resides in the top 1GB of every task's *virtual* memory. This simply means ...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1419
+POSTING_TYPE: answer
+CONTENT:
+The (32bit) kernel memory resides in the top 1GB of every task's *virtual* memory. This simply means that the page table for every task for this region contains the same mappings across all tasks. This memory is owned and used by the kernel.
+
+User applications <NAME_CORPUS_REPLACEMENT> there not have memory mappings at addresses larger than 0xc0000000 (3GB).
+
+Sigma0 is a user application and therefore does not know which memory is owned by the kernel.
+
+The mapping database is part of the kernel itself.
+TAGGED_CONTENT:

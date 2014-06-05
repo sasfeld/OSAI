@@ -1,0 +1,20 @@
+ID: 162401
+CREATION_DATETIME: 1348235526
+MODIFICATION_DATETIME: 1348235526
+TITLE: Re: Praxisveranstaltung
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=60221#162401
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:Selbstmanagment;weight:0.0;uri:;postag:NN
+POS_TAG: value:hrung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kurzpplan;weight:0.0;uri:;postag:NN
+POS_TAG: value:zenstag;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kommunikation;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 162391
+CONTENT:
+Wo finde ich den den Kurzpplan? Und habt ihr euch schon mit <REMOVED_PERSON_ENTITY> beschäftigt?
+Ich bin gerade bei Kommunikation, Führung und Selbstmanagment, da ich dachte das kommt am ersten Präzenstag.
+TAGGED_CONTENT:
+Wo_PWAV finde_VVFIN ich_PPER den_ART den_ART Kurzpplan_NN ?_$. Und_KON habt_VAFIN ihr_PPER euch_PRF schon_ADV mit_APPR <_CARD REMOVED_PERSON_ENTITY_NN >_ADJD beschäftigt_VVPP ?_$. Ich_PPER bin_VAFIN gerade_ADV bei_APPR Kommunikation_NN ,_$, Führung_NN und_KON Selbstmanagment_NN ,_$, da_KOUS ich_PPER dachte_VVFIN das_PDS kommt_VVFIN am_APPRART ersten_ADJA Präzenstag_NN ._$. 

@@ -1,0 +1,9 @@
+ID: 177171
+CREATION_DATETIME: 1351956295
+MODIFICATION_DATETIME: 1351956295
+TITLE: Re: Aussagenlogik und Boole´sche Algebra
+PARENT_POSTING_ID: 175827
+CONTENT:
+Scheinbar ging der Beitrag nicht per mail raus. Hab da jetzt ne Stunde drüber "gebrütet" und das jetzt hier gefzunden. Besten Dank!
+ 
+TAGGED_CONTENT:

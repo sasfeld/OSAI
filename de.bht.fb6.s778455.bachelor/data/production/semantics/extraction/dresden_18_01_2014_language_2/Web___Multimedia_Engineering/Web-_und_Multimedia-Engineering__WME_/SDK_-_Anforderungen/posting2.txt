@@ -1,0 +1,20 @@
+ID: 1080
+CREATION_DATETIME: 1358982000000
+MODIFICATION_DATETIME: 1359068400000
+TITLE: Zum Testen könnt ihr benutzen was ihr wollt - die Abgabeversion soll mit minimal v14 laufen (also 4.0...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1079
+POSTING_TYPE: answer
+CONTENT:
+Zum Testen könnt ihr benutzen was ihr wollt - die Abgabeversion soll mit minimal v14 laufen (also 4. 0), Target soll 4. 2 sein.
+
+```ruby
+
+<uses-sdk
+
+        android:minSdkVersion="14"
+
+        android:targetSdkVersion="17" />
+
+```
+TAGGED_CONTENT:

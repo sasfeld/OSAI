@@ -1,0 +1,15 @@
+ID: 22
+CREATION_DATETIME: 1177359000000
+MODIFICATION_DATETIME: 1177359000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 21
+CONTENT:
+ 
+Ich denke das verständnis Problem mit dem Konstruktor lag an der Aufgabenstellung weil dort geschrieben ist:
+
+weiteren Konstruktor, der die neuen Attribute ebenfalls initialisiert.
+
+daraus könnte man lesen das man noch einen zweiten Konstruktor erstellen muss
+     
+TAGGED_CONTENT:

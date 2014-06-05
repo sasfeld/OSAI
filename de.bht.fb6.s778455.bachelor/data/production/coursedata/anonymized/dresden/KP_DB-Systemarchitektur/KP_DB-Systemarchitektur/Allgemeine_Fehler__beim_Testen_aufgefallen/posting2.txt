@@ -1,0 +1,9 @@
+ID: 2197
+CREATION_DATETIME: 1373407200000
+MODIFICATION_DATETIME: 1373407200000
+TITLE: @Carl: Mir scheint es langsam so, dass llvm ziemlich schlecht geeignet ist, um mit OpenCL zusammenzua...
+PARENT_POSTING_ID: 2191
+POSTING_TYPE: comment
+CONTENT:
+@Carl: Mir scheint es langsam so, dass llvm ziemlich schlecht geeignet ist, um mit OpenCL zusammenzuarbeiten. Entweder, du findest noch einen Header, wo die OpenCL Funktionalität drinsteht, sodass nicht bei jedem Kernel neue Fehlermeldungen kommen, oder das ganze Ding macht nicht viel Sinn und kann eigentlich komplett raus.
+TAGGED_CONTENT:

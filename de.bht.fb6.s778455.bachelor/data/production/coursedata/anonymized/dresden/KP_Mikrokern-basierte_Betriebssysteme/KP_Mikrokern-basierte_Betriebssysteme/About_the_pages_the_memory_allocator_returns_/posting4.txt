@@ -1,0 +1,9 @@
+ID: 774
+CREATION_DATETIME: 1352847600000
+MODIFICATION_DATETIME: 1353884400000
+TITLE: mem_alloc returns a dataspace. As we learned in the lecture, dataspaces represent a collection of (vi...
+PARENT_POSTING_ID: 770
+POSTING_TYPE: answer
+CONTENT:
+mem_alloc returns a dataspace. As we learned in the lecture, dataspaces represent a collection of (virtual) memory pages, hence dataspaces always have a size equal to a multiple of the underlying platform's page size. On x86 this size is 4K (or 4M).
+TAGGED_CONTENT:

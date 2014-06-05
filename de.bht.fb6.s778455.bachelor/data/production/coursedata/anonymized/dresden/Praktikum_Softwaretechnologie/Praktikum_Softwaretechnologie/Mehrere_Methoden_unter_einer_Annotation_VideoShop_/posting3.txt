@@ -1,0 +1,26 @@
+ID: 2850
+CREATION_DATETIME: 1384470000000
+MODIFICATION_DATETIME: 1384556400000
+TITLE: Ich bin mir nicht sicher ob ich die Frage richtig verstehe, zur Not kannst du auch auf Englisch frage...
+PARENT_POSTING_ID: 2848
+POSTING_TYPE: answer
+CONTENT:
+Ich bin mir nicht sicher ob ich die Frage richtig verstehe, zur Not kannst du auch auf Englisch fragen.
+Strings beziehungsweise alle Objekte kannst du in die ModelMap mit einem Key hinzufügen. 
+Die ModelMap ist ähnlich zur java. util. Map
+Der String ist der Key, mit dem du das Objekt im Html abrufen kannst.
+zum Beispiel:
+`modelMap. addAttribute("key", "Hello World");`
+im Html:
+`<p th:text="${key}">`
+Du kannst mehrer KeyValue Pairs hinzufügen und abrufen. 
+```
+modelMap. addAttribute("text1", "Hello");
+modelMap. addAttribute("text2", "World");
+```
+im Html:
+```
+<p th:text="${text1}">
+<p th:text="${text2}">
+```
+TAGGED_CONTENT:

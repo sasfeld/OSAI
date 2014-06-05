@@ -1,0 +1,14 @@
+ID: 117504
+CREATION_DATETIME: 1325741510
+MODIFICATION_DATETIME: 1325741510
+TITLE: Loesungen zu ESAs verfuegbar
+NER_TAG: value:LON-Capa;weight:-1.0;uri:;classifierlabel:I-MISC
+NER_TAG: value:LON-Capa;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:Dezember;weight:0.0;uri:;postag:NN
+POS_TAG: value:Capa;weight:0.0;uri:;postag:NN
+POS_TAG: value:Eingaben;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Die Eingaben in LON-Capa sind wie im Dezember angekuendigt nun geschlossen.
+TAGGED_CONTENT:
+Die_ART Eingaben_NN in_APPR LON-Capa_NN sind_VAFIN wie_KOKOM im_APPRART Dezember_NN angekuendigt_VVPP nun_ADV geschlossen_VVPP ._$. 

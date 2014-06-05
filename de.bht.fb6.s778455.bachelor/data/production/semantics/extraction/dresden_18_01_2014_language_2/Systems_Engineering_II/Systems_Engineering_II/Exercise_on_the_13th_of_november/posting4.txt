@@ -1,0 +1,10 @@
+ID: 2815
+CREATION_DATETIME: 1384210800000
+MODIFICATION_DATETIME: 1384210800000
+TITLE: True is not an integer, how can an answer be greater than True? :-)
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2813
+POSTING_TYPE: comment
+CONTENT:
+True is not an integer, how <NAME_CORPUS_REPLACEMENT> an answer be greater than True? :-)
+TAGGED_CONTENT:

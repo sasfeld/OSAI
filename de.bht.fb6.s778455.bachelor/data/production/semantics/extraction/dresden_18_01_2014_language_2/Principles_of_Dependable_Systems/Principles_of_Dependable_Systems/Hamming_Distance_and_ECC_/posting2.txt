@@ -1,0 +1,12 @@
+ID: 963
+CREATION_DATETIME: 1355180400000
+MODIFICATION_DATETIME: 1355180400000
+TITLE: I'm feeling lucky at Google gave me this link: http://www.cs.skhbbss.edu.hk/tm/errordetection/hamming...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 962
+POSTING_TYPE: answer
+CONTENT:
+I'm feeling lucky at Google gave me this link: http://www.cs.skhbbss.edu.hk/tm/errordetection/hammingcode. htm
+
+It explains the Hamming distance and you <NAME_CORPUS_REPLACEMENT> even try on an example yourself how ECC works.
+TAGGED_CONTENT:

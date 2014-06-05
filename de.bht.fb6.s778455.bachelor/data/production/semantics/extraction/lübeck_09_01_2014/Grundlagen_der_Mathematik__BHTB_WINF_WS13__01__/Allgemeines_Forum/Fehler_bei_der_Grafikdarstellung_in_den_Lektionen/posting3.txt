@@ -1,0 +1,9 @@
+ID: 237029
+CREATION_DATETIME: 1380529249
+MODIFICATION_DATETIME: 1380529249
+TITLE: Re: Fehler bei der Grafikdarstellung in den Lektionen
+PARENT_POSTING_ID: 236867
+CONTENT:
+Ich nehme alles zurück. Heute Vormittag bekomme ich auch nur noch Kästchen angezeigt, wenn ich die Lerneinheiten öffne.
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1541
+CREATION_DATETIME: 1363734000000
+MODIFICATION_DATETIME: 1363734000000
+TITLE: ps auxww ist besser, weil es die Prozessnamen am rechten Rand des Terminals nicht abschneidet.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1429
+POSTING_TYPE: comment
+CONTENT:
+ps auxww ist besser, weil es die Prozessnamen am rechten Rand des Terminals nicht abschneidet.
+TAGGED_CONTENT:

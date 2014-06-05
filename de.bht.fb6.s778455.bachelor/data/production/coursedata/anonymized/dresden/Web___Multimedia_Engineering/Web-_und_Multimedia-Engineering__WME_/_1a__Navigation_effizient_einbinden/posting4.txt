@@ -1,0 +1,9 @@
+ID: 564
+CREATION_DATETIME: 1351375200000
+MODIFICATION_DATETIME: 1351375200000
+TITLE: Kein Problem. Ja iFrames sind keine gute Lösung. Ich nutze sie auch nie, aber es ist eben die einzige...
+PARENT_POSTING_ID: 563
+POSTING_TYPE: comment
+CONTENT:
+Kein Problem. Ja iFrames sind keine gute Lösung. Ich nutze sie auch nie, aber es ist eben die einzige Möglichkeit für deinen Ansatz. ;)
+TAGGED_CONTENT:

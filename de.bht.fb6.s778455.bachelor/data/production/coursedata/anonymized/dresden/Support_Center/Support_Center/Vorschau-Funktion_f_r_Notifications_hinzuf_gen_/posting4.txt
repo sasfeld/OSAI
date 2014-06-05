@@ -1,0 +1,11 @@
+ID: 332
+CREATION_DATETIME: 1350165600000
+MODIFICATION_DATETIME: 1350424800000
+TITLE: Ich habe die Vorschau
+PARENT_POSTING_ID: 329
+POSTING_TYPE: answer
+CONTENT:
+Ich habe die Vorschaufunktion soeben eingebaut. Danke! Das war <REMOVED_PERSON_ENTITY>, die lange liegengeblieben war..
+ [Schau es dir mal an...](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/notifications ) :) 
+Nun erscheint eine <REMOVED_PERSON_ENTITY> und wenn man auf "read more" klickt, so wird der Inhalt des Posts komplett dargestellt. Der Link zum Post ist nun nicht mehr auf der gesamten Tabellenzeile, sondern farblich hervorgehoben (blau).
+TAGGED_CONTENT:

@@ -1,0 +1,8 @@
+ID: 191053
+CREATION_DATETIME: 1357488987
+MODIFICATION_DATETIME: 1357488987
+TITLE: Re: Vektoren linear abhängig/ unabhängig mit LGS lösen
+PARENT_POSTING_ID: 191031
+CONTENT:
+sorry, ich meine Aufgabe 42 und nicht 41.
+TAGGED_CONTENT:

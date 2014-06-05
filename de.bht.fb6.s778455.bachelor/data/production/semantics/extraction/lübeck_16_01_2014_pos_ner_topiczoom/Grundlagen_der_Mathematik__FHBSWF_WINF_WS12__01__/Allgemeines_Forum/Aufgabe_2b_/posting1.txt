@@ -1,0 +1,67 @@
+ID: 184265
+CREATION_DATETIME: 1354294856
+MODIFICATION_DATETIME: 1354295204
+TITLE: Aufgabe 2b)
+TOPIC_ZOOM_TAG: value:Algebraische Begriffe;weight:5.0;significance:9.07753536802421;degreegeneralization:7;uri:20767840
+TOPIC_ZOOM_TAG: value:Vektorräume;weight:5.0;significance:9.07753536802421;degreegeneralization:8;uri:20146881
+TOPIC_ZOOM_TAG: value:Algebra;weight:5.0;significance:9.07753536802421;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Lineare Algebra;weight:5.0;significance:9.07753536802421;degreegeneralization:7;uri:20881366
+TOPIC_ZOOM_TAG: value:Mathematik;weight:7.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:7.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:7.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Gleichungen;weight:2.0;significance:2.94590121212446;degreegeneralization:7;uri:20115499
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:7.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:7.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+POS_TAG: value:Gedanken;weight:0.0;uri:;postag:NN
+POS_TAG: value:LGS;weight:0.0;uri:;postag:NN
+POS_TAG: value:Variablen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabenstellung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nachbarknotenbewertungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skript;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nullsummenbewertungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Knotenwerte;weight:0.0;uri:;postag:NN
+POS_TAG: value:muss;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nullsummenregel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Unbekannte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Graphen;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungsmenge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beispielgraphen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Argumentation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gleichungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:fertig?Ich;weight:0.0;uri:;postag:NN
+POS_TAG: value:Knoten;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektorraum;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Diskussion;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:Knotenbewertungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gleichung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nullregel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gleichungssystem;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kommentare;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Eine echte Diskussion kommt hier ja hier bisher irgendwie nicht auf. Was ist los? Habt Ihr die Aufgaben alle schon fertig?Ich probiere es noch einmal mit meinen Gedanken zu 2b) und bitte um Kommentare.
+Hier ist laut Aufgabenstellung zu zeigen, dass die <REMOVED_PERSON_ENTITY> aller Knotenbewertungen eines (beliebigen) Graphen, die die Nullsummenregel erfüllen, einen Vektorraum bilden.
+Im Skript (zum Teil III, S. 66, <REMOVED_PERSON_ENTITY> 11) findet sich der <REMOVED_PERSON_ENTITY>
+"Die <REMOVED_PERSON_ENTITY> aller Lösungen x eines homogenen LGS Ax = 0 bildet einen Vektorraum."
+Das nehme ich mal genau so als gegeben und bewiesen hin.
+Wenn wir also ein lineares Gleichungssystem finden, dessen Lösungsmenge alle Nullsummenbewertungen sind, dann haben wir also auch gezeigt, dass diese einen Vektorraum bilden.
+Und wie kommen wir zu einem LGS, dessen Lösungen alle Nullsummenbewertungen sind?
+Wir können doch bei jedem beliebigen Graphen immer alle Knoten nacheinander "besuchen" und dann eine Gleichung aufstellen, die erfüllt sein muss, damit die <REMOVED_PERSON_ENTITY> seiner Nachbarknotenbewertungen 0 ergibt.
+Ich habe die Knoten unseres Beispielgraphen mal mit Variablen benannt, das sieht dann beispielsweise so aus:
+    (f)     (g)           |       | (a)-(b)-(c)-(d)-(e)           |         (h)
+Jetzt können wir doch bei (a) beginnen und stellen fest, dass b = 0 sein muss. Dies ist unsere erste Gleichung. Wir fahren mit (b) fort und sehen, dass a + f + h = 0 sein muss. Dies ist unsere zweite Gleichung usw. Da wir immer genauso viele Unbekannte haben, wie Gleichungen (eine je Knoten) und die rechte <REMOVED_PERSON_ENTITY> der Gleichungen immer 0 ist, erhalten wir hier immer ein homogenes LGS. Dieses LGS ist also für jeden Graphen immer lösbar (wie jedes homogene LGS). Entweder es gibt nur die triviale Lösung (alle Knotenwerte sind 0) oder es gibt unendlich viele Lösungen. Die Lösungen sind eben gerade die Knotenbewertungen, für die die Nullregel gilt. Und diese bilden (<REMOVED_PERSON_ENTITY> oben) einen Vektorraum. Damit wäre also gezeigt, dass die Knotenbewertungen mit geltender Nullregel einen Vektorraum bilden.
+Findet jemand einen Fehler in der Argumentation?
+TAGGED_CONTENT:
+Eine_ART echte_ADJA Diskussion_NN kommt_VVFIN hier_ADV ja_ADV hier_ADV bisher_ADV irgendwie_ADV nicht_PTKNEG auf_PTKVZ ._$. Was_PWS ist_VAFIN los_PTKVZ ?_$. Habt_VAFIN Ihr_PPOSAT die_ART Aufgaben_NN alle_PIDAT schon_ADV fertig?Ich_NN probiere_VVFIN es_PPER noch_ADV einmal_ADV mit_APPR meinen_PPOSAT Gedanken_NN zu_PTKZU 2b_CARD -RRB-_TRUNC und_KON bitte_VVFIN um_APPR Kommentare_NN ._$. Hier_ADV ist_VAFIN laut_APPR Aufgabenstellung_NN zu_PTKZU zeigen_VVINF ,_$, dass_KOUS die_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD aller_PIDAT Knotenbewertungen_NN eines_ART -LRB-_TRUNC beliebigen_ADJA -RRB-_TRUNC Graphen_NN ,_$, die_PRELS die_ART Nullsummenregel_NN erfüllen_VVINF ,_$, einen_ART Vektorraum_NN bilden_VVINF ._$. Im_APPRART Skript_NN -LRB-_TRUNC zum_APPRART Teil_NN III_CARD ,_$, S._NE 66_CARD ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_CARD 11_CARD -RRB-_TRUNC findet_VVFIN sich_PRF der_ART <_NN REMOVED_PERSON_ENTITY_NE >_NE "_$( Die_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD aller_PIDAT Lösungen_NN x_XY eines_ART homogenen_ADJA LGS_NN Ax_XY =_XY 0_CARD bildet_VVFIN einen_ART Vektorraum_NN ._$. "_$( Das_ART nehme_VVFIN ich_PPER mal_ADV genau_ADJD so_ADV als_KOKOM gegeben_VVPP und_KON bewiesen_VVPP hin_PTKVZ ._$. Wenn_KOUS wir_PPER also_ADV ein_ART lineares_ADJA Gleichungssystem_NN finden_VVINF ,_$, dessen_PRELAT Lösungsmenge_NN alle_PIDAT Nullsummenbewertungen_NN sind_VAFIN ,_$, dann_ADV haben_VAFIN wir_PPER also_ADV auch_ADV gezeigt_VVPP ,_$, dass_KOUS diese_PDAT einen_ART Vektorraum_NN bilden_VVINF ._$. Und_KON wie_PWAV kommen_VVFIN wir_PPER zu_APPR einem_ART LGS_NN ,_$, dessen_PRELAT Lösungen_NN alle_PIDAT Nullsummenbewertungen_NN sind_VAFIN ?_$. Wir_PPER können_VMFIN doch_ADV bei_APPR jedem_PIDAT beliebigen_ADJA Graphen_NN immer_ADV alle_PIDAT Knoten_NN nacheinander_ADV "_$( besuchen_VVFIN "_$( und_KON dann_ADV eine_ART Gleichung_NN aufstellen_VVINF ,_$, die_PRELS erfüllt_VVPP sein_VAINF muss_VMFIN ,_$, damit_KOUS die_ART <_CARD REMOVED_PERSON_ENTITY_NN >_APPR seiner_PPOSAT Nachbarknotenbewertungen_NN 0_CARD ergibt_VVFIN ._$. Ich_PPER habe_VAFIN die_ART Knoten_NN unseres_PPOSAT Beispielgraphen_NN mal_ADV mit_APPR Variablen_NN benannt_VVPP ,_$, das_PRELS sieht_VVFIN dann_ADV beispielsweise_ADV so_ADV aus_PTKVZ :_$. -LRB-_TRUNC f_VVFIN -RRB-_TRUNC -LRB-_TRUNC g_XY -RRB-_TRUNC |_XY |_CARD -LRB-_TRUNC a_XY -RRB-_TRUNC -_$( -LRB-_TRUNC b_XY -RRB-_TRUNC -_$( -LRB-_TRUNC c_XY -RRB-_TRUNC -_$( -LRB-_TRUNC d_FM -RRB-_TRUNC -_$( -LRB-_TRUNC e_ART -RRB-_TRUNC |_XY -LRB-_TRUNC h_FM -RRB-_TRUNC Jetzt_ADV können_VMFIN wir_PPER doch_ADV bei_APPR -LRB-_TRUNC a_XY -RRB-_TRUNC beginnen_VVINF und_KON stellen_VVINF fest_PTKVZ ,_$, dass_KOUS b_XY =_XY 0_CARD sein_PPOSAT muss_NN ._$. Dies_PDS ist_VAFIN unsere_PPOSAT erste_ADJA Gleichung_NN ._$. Wir_PPER fahren_VVFIN mit_APPR -LRB-_TRUNC b_XY -RRB-_TRUNC fort_PTKVZ und_KON sehen_VVFIN ,_$, dass_KOUS a_XY +_KON f_VVFIN +_KON h_FM =_XY 0_CARD sein_PPOSAT muss_NN ._$. Dies_PDS ist_VAFIN unsere_PPOSAT zweite_ADJA Gleichung_NN usw_NE ._$. Da_KOUS wir_PPER immer_ADV genauso_ADV viele_PIDAT Unbekannte_NN haben_VAFIN ,_$, wie_PWAV Gleichungen_NN -LRB-_TRUNC eine_ART je_ADV Knoten_NN -RRB-_TRUNC und_KON die_ART rechte_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_VVFIN der_ART Gleichungen_NN immer_ADV 0_CARD ist_VAFIN ,_$, erhalten_VVFIN wir_PPER hier_ADV immer_ADV ein_ART homogenes_ADJA LGS_NN ._$. Dieses_PDAT LGS_NN ist_VAFIN also_ADV für_APPR jeden_PIDAT Graphen_NN immer_ADV lösbar_ADJD -LRB-_TRUNC wie_KOKOM jedes_PIDAT homogene_ADJA LGS_NN -RRB-_TRUNC ._$. Entweder_KON es_PPER gibt_VVFIN nur_ADV die_ART triviale_ADJA Lösung_NN -LRB-_TRUNC alle_PIDAT Knotenwerte_NN sind_VAFIN 0_CARD -RRB-_TRUNC oder_KON es_PPER gibt_VVFIN unendlich_ADJD viele_PIDAT Lösungen_NN ._$. Die_ART Lösungen_NN sind_VAFIN eben_ADV gerade_ADV die_ART Knotenbewertungen_NN ,_$, für_APPR die_PRELS die_ART Nullregel_NN gilt_VVFIN ._$. Und_KON diese_PDS bilden_VVFIN -LRB-_TRUNC <_XY REMOVED_PERSON_ENTITY_NN >_CARD oben_ADV -RRB-_TRUNC einen_ART Vektorraum_NN ._$. Damit_PROAV wäre_VAFIN also_ADV gezeigt_VVPP ,_$, dass_KOUS die_ART Knotenbewertungen_NN mit_APPR geltender_ADJA Nullregel_NN einen_ART Vektorraum_NN bilden_VVINF ._$. Findet_VVFIN jemand_PIS einen_ART Fehler_NN in_APPR der_ART Argumentation_NN ?_$. 

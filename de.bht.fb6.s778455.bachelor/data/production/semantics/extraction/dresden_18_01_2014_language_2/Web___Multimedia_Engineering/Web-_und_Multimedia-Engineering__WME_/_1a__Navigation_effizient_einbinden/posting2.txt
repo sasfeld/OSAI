@@ -1,0 +1,12 @@
+ID: 562
+CREATION_DATETIME: 1351375200000
+MODIFICATION_DATETIME: 1351375200000
+TITLE: Das wird leider nicht funktionieren. Dafür sind ja gerade die iframes entworfen worden. Wenn du sie e...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 554
+POSTING_TYPE: answer
+CONTENT:
+Das wird leider nicht funktionieren. Dafür sind ja gerade die iframes entworfen worden. Wenn du sie entsprechend gut per css anpasst sind sie auch nicht mehr solche Störfaktoren (siehe z. B. [Gmail](http://gmail.com) dort Werden iframes eingesetzt, um die <REMOVED_PERSON_ENTITY> effizienter zu gestalten). Aber du wirst nicht umhin kommen diese Redundanz entweder per iframes, Javascript oder PHP ... zu implementieren.
+
+Hier mal ein [StackOverflow Post zu den Pros&Cons <NAME_CORPUS_REPLACEMENT> iframes](http://stackoverflow.com/questions/362730/are-iframes-considered-bad-practice).
+TAGGED_CONTENT:

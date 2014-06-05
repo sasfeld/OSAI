@@ -1,0 +1,17 @@
+ID: 1944
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: Sicher, dass du auf der aktuellen SVN bist?
+Die Korrekte Fehlermeldung für den Fall wäre nämlich
+``...
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Sicher, dass du auf der aktuellen SVN bist?
+Die Korrekte Fehlermeldung für den Fall wäre nämlich
+make: Entering directory `/home/opencl/svnkpopencl/src/CLeverTrustee'
+make: Nothing to be done for `all'.
+make: Leaving directory `/home/opencl/svnkpopencl/src/CLeverTrustee'
+Schau mal, ob in der Makefile `make -B $(OLDPATHTOLIB)` oder `make -C $(OLDPATHTOLIB)` steht. Wenn `-B` steht, ist es die alte Version.
+Solltest du auf der aktuellen Version sein, kannst du die Makefile mal so reparieren, dass sie, auch wenn der Bauvorgang nicht ausgelöst wird, trotzdem die Dateien kopiert werden?
+TAGGED_CONTENT:

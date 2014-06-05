@@ -1,0 +1,10 @@
+ID: 819
+CREATION_DATETIME: 1353366000000
+MODIFICATION_DATETIME: 1353366000000
+TITLE: The testing system is running ok. Did you receive a completely empty email? No error message, nothing...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 818
+POSTING_TYPE: comment
+CONTENT:
+The testing system is running ok. Did you receive a completely empty email? No error message, nothing?
+TAGGED_CONTENT:

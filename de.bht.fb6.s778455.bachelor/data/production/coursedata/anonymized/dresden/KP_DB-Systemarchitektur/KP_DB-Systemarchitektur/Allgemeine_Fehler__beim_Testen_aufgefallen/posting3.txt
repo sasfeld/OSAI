@@ -1,0 +1,9 @@
+ID: 2199
+CREATION_DATETIME: 1373407200000
+MODIFICATION_DATETIME: 1373407200000
+TITLE: Das könnte daran liegen, dass das OpenCL-Frontent der LLVM nur für einen bestimmten OpenCL-Treiber ge...
+PARENT_POSTING_ID: 2191
+POSTING_TYPE: comment
+CONTENT:
+Das könnte daran liegen, dass das OpenCL-Frontent der LLVM nur für einen bestimmten OpenCL-Treiber geeignet ist. Aber wo genau tritt der Fehler denn auf, damit ich ihn beheben kann?
+TAGGED_CONTENT:

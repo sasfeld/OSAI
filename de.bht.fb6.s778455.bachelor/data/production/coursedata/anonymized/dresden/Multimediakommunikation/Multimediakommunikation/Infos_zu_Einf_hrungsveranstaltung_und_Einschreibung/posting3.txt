@@ -1,0 +1,9 @@
+ID: 1660
+CREATION_DATETIME: 1365026400000
+MODIFICATION_DATETIME: 1365026400000
+TITLE: Ja, es ist für alle Studenten, die einen Übungsvortrag halten weiterhin eine 2/2/0-Veranstaltung. 
+PARENT_POSTING_ID: 1657
+POSTING_TYPE: comment
+CONTENT:
+Ja, es ist für alle Studenten, die einen Übungsvortrag halten weiterhin eine 2/2/0-Veranstaltung. 
+TAGGED_CONTENT:

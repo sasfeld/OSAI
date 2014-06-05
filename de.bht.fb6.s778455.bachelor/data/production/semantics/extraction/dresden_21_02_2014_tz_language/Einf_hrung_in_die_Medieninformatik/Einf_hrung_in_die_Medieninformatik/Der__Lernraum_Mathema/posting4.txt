@@ -1,0 +1,10 @@
+ID: 192
+CREATION_DATETIME: 1349560800000
+MODIFICATION_DATETIME: 1349560800000
+TITLE: Da nächste Woche sowi
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 190
+POSTING_TYPE: answer
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> nächste Woche sowieso noch keine Übungen statt finden, bekommen wir das sicher mitgeteilt. 
+TAGGED_CONTENT:

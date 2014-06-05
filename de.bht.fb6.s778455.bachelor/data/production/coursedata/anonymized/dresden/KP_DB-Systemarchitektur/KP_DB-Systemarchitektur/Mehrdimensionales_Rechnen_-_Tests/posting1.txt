@@ -1,0 +1,11 @@
+ID: 2136
+CREATION_DATETIME: 1372543200000
+MODIFICATION_DATETIME: 1372629600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Bei der MatrixMultiplikation habe ich festgestellt, dass durch das zweidimensionale Abarbeiten bereits mit 256 x 256 globalen bzw lokalen Workgroups schon die Grenze der Maximalen Workgroupsize (1024) schon "leicht" überschritten ist. 
+Deshalb wirft das Programm OpenCL-Fehler und stürzt später ab.
+Wie lösen wir das ganze am besten, damit auch ähnlich große  Berechnungen funktionieren?
+TAGGED_CONTENT:

@@ -1,0 +1,16 @@
+ID: 54
+CREATION_DATETIME: 1193386560000
+MODIFICATION_DATETIME: 1193386560000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 52
+CONTENT:
+ 
+Ihre Frage berührt einen wichtigen Punkt. Man kann in einer „Interface„ nur Objekt-Methoden deklarieren, keine Klassen-Methoden mit static. Dies hat tiefen Gründen. Diese Gründen hängen damit zusammen, dass eine „Interface „ ein Typ ist. Also Rechner r = new IntRechner(); ist möglich. Dass eine „Interface„ ein Typ ist macht die Softwareentwicklung mit Komponenten möglich. Also man kann darauf nicht verzichten. Also daher die Einschränkung, dass static Methoden in Schnittstellen nicht erlaubt sind.
+
+In unserem Beispiel aber, hat eine Klasse keine Attribute. Also ist es nicht sinnvoll mehrere Objekte zu erzeugen, weil sie sich nicht durch verschiedenen Werten in den Attributen unterscheiden. Unser Beispiel ist ein Fall fuer ein Singleton-Pattern, das erlaubt, dass nur ein einziges Objekt erzeugt wird. Dafuer muss man den Konstruktor etwas anders programmieren. Design-Pattern kommen in der Veranstaltung Softwareentwicklung.
+
+Mit freundlichen gruessen,
+
+       
+TAGGED_CONTENT:

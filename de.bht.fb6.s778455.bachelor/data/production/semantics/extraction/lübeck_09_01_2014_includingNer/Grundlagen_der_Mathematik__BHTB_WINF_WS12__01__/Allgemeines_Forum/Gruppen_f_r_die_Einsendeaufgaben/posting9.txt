@@ -1,0 +1,12 @@
+ID: 172219
+CREATION_DATETIME: 1350585964
+MODIFICATION_DATETIME: 1350585964
+TITLE: Re: Gruppen für die Einsendeaufgaben
+NER_TAG: value:Necla;weight:-1.0;significance:uri:;classifierlabel:I-LOC
+PARENT_POSTING_ID: 172195
+CONTENT:
+Hey <REMOVED_PERSON_ENTITY>,
+<REMOVED_PERSON_ENTITY>, Necla und ich würden eine Gruppe bilden, bist du mit dabei?
+Schönen Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

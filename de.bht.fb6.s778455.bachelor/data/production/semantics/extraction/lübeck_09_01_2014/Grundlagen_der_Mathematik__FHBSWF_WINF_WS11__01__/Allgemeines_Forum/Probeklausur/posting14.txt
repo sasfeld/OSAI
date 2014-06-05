@@ -1,0 +1,28 @@
+ID: 117567
+CREATION_DATETIME: 1327682224
+MODIFICATION_DATETIME: 1327682969
+TITLE: Re: Probeklausur
+TOPIC_ZOOM_TAG: value:Vektoren;weight:10.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:10.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:10.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:10.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:10.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:10.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 117566
+CONTENT:
+Gut, befassen wir uns genauer damit. Augenscheinlich sind die Loesungen aus dem Vorschlag von Kollege <REMOVED_PERSON_ENTITY> und das, was wir alle bisher selbst ausgerechnet haben, unterschiedlich. ok. Das einer von uns dabei falsch lag *ist jedoch nicht richtig*, denn beides stimmt, wie ich nochmals geprueft habe. Es gibt naemlich eine Kleinigkeit zu bemerken. Sehen Sie:
+t * (2 2 1) + (-1 -1 0) = (1 1 1)
+t * (2 2 1) = (1 1 1) - (-1 -1 0)
+t * (2 2 1) = (2 2 1) 
+logischerweise mit t = 1
+Es geht aber auch (natuerlich):
+t * (2 2 1) + (1 1 1) = (-1 -1 0)
+t * (2 2 1) = (-1 -1 0) + (-1 -1 -1)
+t * (2 2 1) = (-2 -2 -1) 
+mit t = -1
+Der Punkt ist der: Bei unendlich vielen Loesungen nehmen Sie genau einen Vektor aus der Loesungsmenge, und alle anderen Vektoren linearkombinieren Sie mit dem Vektor. Das kann entweder der Vektor (1 1 1) sein oder der Vektor (-1 -1 0) sein in unserem Fall.
+Es ist dabei egal, welchen Vektor Sie nehmen, solange er in der Loesungsmenge ist. 
+Probieren Sie es aus: Setzen Sie einmal den Vektor (1 1 1) und einmal den Vektor (-1 -1 0) zur Probe ein: Beide gehen und ergeben (-2 1 1). Was ich oben gezeigt habe ist, dass beide Vektoren aus derselben Loesungsmenge stammen.
+Genau so waere z. B. richtig:
+t * (2 2 1) + (3 3 2). Dann muesste die Probe mit t=0 und somit (3 3 2) eingesetzt in die Matrix den Vektor b = (-2 1 1) geben, was der Fall ist.
+TAGGED_CONTENT:

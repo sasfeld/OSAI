@@ -1,0 +1,23 @@
+ID: 14
+CREATION_DATETIME: 1286739720000
+MODIFICATION_DATETIME: 1286739720000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 13
+CONTENT:
+
+Hallo ,
+
+Zum ersten Problem:
+Ich kann anhand des Screenshots den Fehler nicht finden - Hilfreich wäre vielleicht der ganze Quellcode.
+
+Zum zweiten Problem:
+Du kannst die Länge einer Datei mit der Methode length() aus der Klasse File dem Byte-Array übergeben - Die Länge des Arrays entspricht dann der Länge der Datei in Bytes.
+
+Bei der Parameterprüfung verlangt das Programm an dieser Stelle zwei Parameter, die du vermutlich in den Einstellungen angegeben hast. Ist die Anzahl ungleich 2 (weil nicht vorhanden oder falscher Name) dann gibt das Programm einen Fehler aus. Erst wenn die Parameter vollständig übergeben wurden geht es weiter. Übergibst du drei Parameter müsste dort stehen args.length !=3
+
+Bei der Übergabe werden hier keine Dateien eingelesen. Es wird nur geprüft, ob die Dateien, die als Parameter angegeben wurden auch zur Verfügung stehen. Es werden hier nur die Namen der Dateien für das Programm aus der Datei gelesen: String bildDateiOriginal = args[0]; String bildDateiGeand = args[1]; Zum testen kannst du mit System.out.print(bildDateiOriginal); sehen welchen Wert der String bildDateiOriginal bekommen hat.
+
+Ich hoffe, ich konnte erstmal helfen. Sollte in meinen Angaben ein Fehler sein, bitte ich um Berichtigung der anderen Kursteilnehmer ;) Danke
+    
+TAGGED_CONTENT:

@@ -1,0 +1,18 @@
+ID: 2037
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: Ich hab jetzt noch meine Folien hinzugefügt und beim Ausblick was hingeschrieben.
+LANGUAGE: GERMAN
+POS_TAG: value:Formatierung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aussagen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Folien;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ausblick;weight:0.0;uri:;postag:NN
+POS_TAG: value:si;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+Ich hab jetzt noch meine Folien hinzugefügt und beim Ausblick was hingeschrieben.
+
+<NAME_CORPUS_REPLACEMENT> mein Office allerdings die Formatierung in der Präsi nach eigenen Aussagen "repariert" hat ;-) hab ich das ganze mal als zwischenpraesi2 hochgeladen.
+TAGGED_CONTENT:
+Ich_PPER hab_VAFIN jetzt_ADV noch_ADV meine_PPOSAT Folien_NN hinzugefügt_VVPP und_KON beim_APPRART Ausblick_NN was_PWS hingeschrieben_VVPP ._$. <_XY NAME_CORPUS_REPLACEMENT_NE >_NE mein_PPOSAT Office_NE allerdings_ADV die_ART Formatierung_NN in_APPR der_ART Präsi_NN nach_APPR eigenen_ADJA Aussagen_NN "_$( repariert_VVPP "_$( hat_VAFIN ;--RRB-_TRUNC hab_VAFIN ich_PPER das_ART ganze_ADJA mal_ADV als_APPR zwischenpraesi2_CARD hochgeladen_VVIZU ._$. 

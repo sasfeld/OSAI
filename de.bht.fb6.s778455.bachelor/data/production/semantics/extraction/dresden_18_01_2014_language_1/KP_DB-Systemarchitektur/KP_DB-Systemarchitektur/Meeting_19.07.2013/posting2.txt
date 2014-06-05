@@ -1,0 +1,10 @@
+ID: 2351
+CREATION_DATETIME: 1374184800000
+MODIFICATION_DATETIME: 1374184800000
+TITLE: Eine neue Spalte mit einer ID für den aktuell bearbeiteten Kernel, könnte das einfach in die Dumpdate...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2344
+POSTING_TYPE: comment
+CONTENT:
+Eine neue Spalte mit einer ID für den aktuell bearbeiteten Kernel, könnte das einfach in die Dumpdatei mit eingefügt werden, z. b. als neue spalte? Wenn nicht, löse ich es anderweitig, würde aber einiges vereinfachen, wenn das möglich wäre.
+TAGGED_CONTENT:

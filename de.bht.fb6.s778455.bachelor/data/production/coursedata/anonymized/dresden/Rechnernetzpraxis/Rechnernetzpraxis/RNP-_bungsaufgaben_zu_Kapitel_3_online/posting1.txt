@@ -1,0 +1,12 @@
+ID: 2774
+CREATION_DATETIME: 1384038000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Aufgaben finden sich hier:
+http://www.rn.inf.tu-dresden. de/lectures/Rechnernetzpraxis/03_RNP_Internet_Protocol_uebung. pdf
+<NAME_CORPUS_REPLACEMENT> Raw-Sockets einfach hervorragend geeignet sind, um sich mit Protokolldetails zu beschäftigen, gibt es zu diesen erneut eine Aufgabe. Sie dürfen sich also wieder über C-Programmierung freuen. Daneben gibt es eine Aufgabe zu IPv6.
+Wir werden die Aufgaben natürlich wieder in der Übungsstunde (2. DS am <REMOVED_PERSON_ENTITY>) besprechen...
+TAGGED_CONTENT:

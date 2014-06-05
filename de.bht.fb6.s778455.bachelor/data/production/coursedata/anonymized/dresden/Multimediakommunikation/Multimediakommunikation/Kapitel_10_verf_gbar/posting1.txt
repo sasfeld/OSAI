@@ -1,0 +1,12 @@
+ID: 2056
+CREATION_DATETIME: 1371160800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Videos zu Kapitel 10 Data Sharing sind jetzt verfügbar:
+https://auditorium. inf. tu-dresden. de/courses/2154446/recordings
+Diese bitte in der Woche 17.-21. 06. anschauen.
+Die Vorlesung am 25. 06. zu Shared Editing setzt direkt auf das Kapitel 10 auf.
+TAGGED_CONTENT:

@@ -1,0 +1,21 @@
+ID: 83
+CREATION_DATETIME: 1195751880000
+MODIFICATION_DATETIME: 1195751880000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 81
+CONTENT:
+ 
+Hallo,
+
+hatte dasselbe Problem, hab nach etwas googeln ne Lösung gefunden, vielleicht auch keine Musterlösung ;)
+Der farblose Hintergrund wird wohl nicht neu gezeichnet mit repaint, sondern nur die Grafik. Also hab ich ein weisses Rechteck dahinter gelegt mit den Abmessungen vom Fenster:
+
+g.setColor(Color.WHITE);
+g.fillRect(0,0,getWidth(),getHeight());
+
+Danach die Farbe wieder auf schwarz setzen!
+
+Viele Grüße
+	
+TAGGED_CONTENT:

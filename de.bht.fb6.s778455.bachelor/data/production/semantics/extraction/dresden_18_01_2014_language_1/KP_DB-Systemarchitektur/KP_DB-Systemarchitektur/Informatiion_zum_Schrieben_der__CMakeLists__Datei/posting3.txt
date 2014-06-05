@@ -1,0 +1,10 @@
+ID: 1792
+CREATION_DATETIME: 1368223200000
+MODIFICATION_DATETIME: 1368223200000
+TITLE: Ich habe versucht, aber das Paket "clang+llvm-3.2-x86_64-linux-ubuntu-12.04" keine "CMake" Unterstütz...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1788
+POSTING_TYPE: comment
+CONTENT:
+Ich habe versucht, aber das Paket "clang+llvm-3. 2-x86_64-linux-ubuntu-12. 04" keine "CMake" Unterstützung habe. In Ordner /share soll es ein  Ordner "module" sein.
+TAGGED_CONTENT:

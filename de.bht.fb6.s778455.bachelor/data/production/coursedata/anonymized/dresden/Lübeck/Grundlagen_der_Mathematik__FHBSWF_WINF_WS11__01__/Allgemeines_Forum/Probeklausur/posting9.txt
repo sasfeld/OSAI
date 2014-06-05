@@ -1,0 +1,8 @@
+ID: 117562
+CREATION_DATETIME: 1327389596
+MODIFICATION_DATETIME: 1327389596
+TITLE: Re: Probeklausur
+PARENT_POSTING_ID: 117561
+CONTENT:
+Du hast recht, ich habe übersehen das dort mal keine 0 Steht. (War meist so) Dann passt meine Rechnung nicht. Dann wäre das:z=t (1. L.)-3y + 6t = 3y= -1 + 2t (2. L.)x - 1 + 2t -4t = -2x = -1 +2t (3. L.)Was dann der Lösung von <REMOVED_PERSON_ENTITY> entsprechen würde mitt * (2 2 1) + (-1 -1 0)Was auch nicht der Musterlösung entspricht. Leider ist mir das grade auch ein Rätsel weshalb die Werte im 2. Vektor postitiv sind und bei dem z noch eine 1 dazukommt. Falls du noch Fragen hast kannst mich über skype erreichen: ei5fuch5 
+TAGGED_CONTENT:

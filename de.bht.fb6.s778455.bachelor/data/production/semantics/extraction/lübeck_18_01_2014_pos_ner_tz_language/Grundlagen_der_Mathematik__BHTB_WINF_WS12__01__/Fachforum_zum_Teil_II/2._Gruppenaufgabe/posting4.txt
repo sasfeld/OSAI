@@ -1,0 +1,24 @@
+ID: 189203
+CREATION_DATETIME: 1356555111
+MODIFICATION_DATETIME: 1356555111
+TITLE: Re: 2. Gruppenaufgabe
+LANGUAGE: GERMAN
+POS_TAG: value:Formel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rest;weight:0.0;uri:;postag:NN
+POS_TAG: value:L;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeichen;weight:0.0;uri:;postag:NN
+POS_TAG: value:N;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Negation;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 187865
+CONTENT:
+ok mal eine andere Frage: 
+Zeichen für Negation: -
+ 
+wenn ich jetzt diese Formel umwandle: (L --&gt; (N v V)) 
+dann nehme ich zuerst die Formel 5. 9 also kommt raus
+( - (L) v (N v V)
+ 
+worauf bezieht sich dann die Negation. Nur auf das L oder auch auf den Rest?
+TAGGED_CONTENT:
+ok_NE mal_ADV eine_ART andere_ADJA Frage_NN :_$. Zeichen_NN für_APPR Negation_NN :_$. -_$( wenn_KOUS ich_PPER jetzt_ADV diese_PDAT Formel_NN umwandle_VVFIN :_$. -LRB-_TRUNC L_NN --_-- >_XY -LRB-_TRUNC N_NN v_VVFIN V_CARD -RRB-_TRUNC -RRB-_TRUNC dann_ADV nehme_VVFIN ich_PPER zuerst_ADV die_ART Formel_NN 5_CARD ._$. 9_CARD also_ADV kommt_VVFIN raus_ADV -LRB-_TRUNC -_$( -LRB-_TRUNC L_NN -RRB-_TRUNC v_XY -LRB-_TRUNC N_NN v_VVFIN V_CARD -RRB-_TRUNC worauf_PWAV bezieht_VVFIN sich_PRF dann_ADV die_ART Negation_NN ._$. Nur_ADV auf_APPR das_ART L_NN oder_KON auch_ADV auf_APPR den_ART Rest_NN ?_$. 

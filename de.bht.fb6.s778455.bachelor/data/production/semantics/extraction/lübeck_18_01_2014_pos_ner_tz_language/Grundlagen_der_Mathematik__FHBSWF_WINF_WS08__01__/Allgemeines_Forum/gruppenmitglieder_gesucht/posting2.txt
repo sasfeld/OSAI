@@ -1,0 +1,14 @@
+ID: 16563
+CREATION_DATETIME: 1224762843
+MODIFICATION_DATETIME: 1224762843
+TITLE: Re: gruppenmitglieder gesucht
+LANGUAGE: GERMAN
+POS_TAG: value:Interesse;weight:0.0;uri:;postag:NN
+POS_TAG: value:eBernhard;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einsendeaufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgaben;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 16561
+CONTENT:
+Hi, ich hätte Interesse und wäre dabei. habe sogar schon einige Aufgaben von der Einsendeaufgabe bearbeitet :) Viele GrüßeBernhard  
+TAGGED_CONTENT:
+Hi_NE ,_$, ich_PPER hätte_VAFIN Interesse_NN und_KON wäre_VAFIN dabei_PROAV ._$. habe_VAFIN sogar_ADV schon_ADV einige_PIAT Aufgaben_NN von_APPR der_ART Einsendeaufgabe_NN bearbeitet_VVPP :-RRB-_TRUNC Viele_PIDAT GrüßeBernhard_NN 

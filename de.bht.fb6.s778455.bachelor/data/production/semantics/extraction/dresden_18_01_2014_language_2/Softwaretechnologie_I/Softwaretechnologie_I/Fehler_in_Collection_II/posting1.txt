@@ -1,0 +1,86 @@
+ID: 1818
+CREATION_DATETIME: 1368655200000
+MODIFICATION_DATETIME: 1372456800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo. Die Aufgabe Collections I funktioniert problemlos, aber in Collections II, wenn ich die Methode bestandNachAutorAuflisten() ergänze, hat der Compiler ein Problem. So sieht meine Klasse Bibliothek aus:
+
+```ruby
+
+import java. util.*;
+
+public class Bibliothek{
+
+  private List bestand = new LinkedList();
+
+  public Bibliothek(){}
+
+  public boolean sortiertesEinfuegen(Buch neuesBuch){
+
+    bestand. add(neuesBuch); Collections. sort(bestand); return true;}
+
+  public Buch sucheNachISBN(String isbn){
+
+    for(<REMOVED_PERSON_ENTITY> buch: bestand){
+
+      if(buch. getIsbn(). equals(isbn)){
+
+        return buch;}
+
+      if(Integer. parseInt(buch. getIsbn()) > Integer. parseInt(isbn)){
+
+        return null;}
+
+    }
+
+    return null;
+
+  }
+
+  public Collection sucheNachAutor(String autor){
+
+    List buecher = new LinkedList();
+
+    for(Buch b: bestand){
+
+      if(autor. equals(b. getAutor())){
+
+        buecher. add(b);
+
+      }
+
+    }
+
+    return buecher;
+
+  }
+
+  public Map bestandNachAutorAuflisten(){
+
+    Map autorliste = new HashMap();
+
+    for(Buch buch: bestand){
+
+      if(!autorliste. containsKey(buch. getAutor())){
+
+        autorliste. put(buch. getAutor(), new HashSet());
+
+      }
+
+      autorliste. get(buch. getAutor()). add(buch);
+
+    }
+
+    return autorliste;
+
+  }
+
+}
+
+```
+
+Bei "autorliste. get(buch. getAutor()). add(buch);" sagt der Compiler immer, dass es add(buch) nicht gibt ("cannot find Symbol"), was ich überhaupt nicht verstehe, <NAME_CORPUS_REPLACEMENT> wir es in der Übung auch so gemacht haben. Im Buch ist "public String getAutor(){return autor;}" definiert, daran kann es also nicht liegen. Was ist hier der Fehler?
+TAGGED_CONTENT:

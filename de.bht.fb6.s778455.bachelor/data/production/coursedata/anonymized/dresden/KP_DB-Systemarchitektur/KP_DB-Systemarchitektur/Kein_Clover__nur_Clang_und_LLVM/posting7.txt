@@ -1,0 +1,14 @@
+ID: 1884
+CREATION_DATETIME: 1370210400000
+MODIFICATION_DATETIME: 1370210400000
+TITLE: Also wenn ich das ganze bei mir versuche zu erstellen, bekomm ich nur zwei Fehler:
+
+/usr/include/ll...
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: comment
+CONTENT:
+Also wenn ich das ganze bei mir versuche zu erstellen, bekomm ich nur zwei Fehler:
+/usr/include/llvm/Support/DataTypes. h:49:3: error: #error "Must #define __STDC_LIMIT_MACROS before #including Support/DataTypes. h"
+/usr/include/llvm/Support/DataTypes. h:53:3: error: #error "Must #define __STDC_CONSTANT_MACROS before " "#including Support/DataTypes. h"
+Ich binde die KernelMetrics jetzt so ins Projekt ein, dass alles was LLVM zeug ist, auskommentiert ist. <NAME_CORPUS_REPLACEMENT> würde ich dich dann mal bitten, <NAME_CORPUS_REPLACEMENT> drüber zuschauen, damit die Analyse dann auch ins eigentliche Projekt eingebunden werden kann.
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 2846
+CREATION_DATETIME: 1384383600000
+MODIFICATION_DATETIME: 1384383600000
+TITLE: Du kannst dir per Annoation den zur Zeit eingeloggten UserAccount geben lassen - siehe `BasketControl...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2845
+POSTING_TYPE: answer
+CONTENT:
+Du kannst dir per Annoation den zur Zeit eingeloggten UserAccount geben lassen - siehe `BasketController. buy()` im Videoshop.
+
+Auf dem UserAccount selber kannst du dann `getRoles()` oder `hasRole()` nutzen.
+TAGGED_CONTENT:

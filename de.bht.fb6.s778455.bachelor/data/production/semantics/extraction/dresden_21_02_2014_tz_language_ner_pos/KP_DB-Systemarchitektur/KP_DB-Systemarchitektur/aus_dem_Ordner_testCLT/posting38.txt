@@ -1,0 +1,21 @@
+ID: 1981
+CREATION_DATETIME: 1370642400000
+MODIFICATION_DATETIME: 1370642400000
+TITLE: Das compilieren funktioniert inzwischen. Jedoch kommt beim Starten der testCLT der fehler, dass die l...
+LANGUAGE: GERMAN
+POS_TAG: value:testCLT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:libCLeverTrustee;weight:0.0;uri:;postag:NN
+POS_TAG: value:Starten;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Das compilieren funktioniert inzwischen. Jedoch kommt beim Starten der testCLT der fehler, dass die lib nicht gefunden wird. "
+
+./testCLT: error while loading shared libraries: libCLeverTrustee. so: cannot open shared object file: No such file or directory" 
+
+<REMOVED_PERSON_ENTITY> das sein dass <NAME_CORPUS_REPLACEMENT> noch ein Fehler im make ist?
+TAGGED_CONTENT:
+Das_ART compilieren_ADJA funktioniert_VVFIN inzwischen_ADV ._$. Jedoch_KON kommt_VVFIN beim_APPRART Starten_NN der_ART testCLT_NN der_ART fehler_ADJA ,_$, dass_KOUS die_ART lib_FM nicht_PTKNEG gefunden_VVPP wird_VAFIN ._$. "_$( ._$. \/_XY testCLT_NN :_$. error_FM while_FM loading_FM shared_FM libraries_FM :_$. libCLeverTrustee_NN ._$. so_ADV :_$. can_ADV not_ADJD open_FM shared_FM object_FM file_FM :_$. No_FM such_FM file_FM or_FM directory_FM "_$( <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN das_ART sein_PPOSAT dass_KOUS <_XY NAME_CORPUS_REPLACEMENT_NN >_CARD noch_ADV ein_ART Fehler_NN im_APPRART make_FM ist_VAFIN ?_$. 

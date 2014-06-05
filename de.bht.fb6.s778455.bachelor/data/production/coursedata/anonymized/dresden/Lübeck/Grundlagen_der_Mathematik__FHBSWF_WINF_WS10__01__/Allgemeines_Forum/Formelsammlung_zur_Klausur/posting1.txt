@@ -1,0 +1,11 @@
+ID: 97778
+CREATION_DATETIME: 1292432171
+MODIFICATION_DATETIME: 1292432171
+TITLE: Formelsammlung zur Klausur
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> Prof. <REMOVED_PERSON_ENTITY>,
+Sie hatten in der Präsenzveranstaltung am Samstag gesagt, dass eine Formelsammlung zur Klausur erlaubt ist. Welche Kriterien muss denn eine erlaubte Formelsammlung erfüllen?Ist diese hier z. B. zulässig: http://www.amazon.de/Mathematik-Formeln-Merks%C3%A4tze-Manfred-Hoffmann/dp/3817477228
+Freundliche Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

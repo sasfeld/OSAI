@@ -1,0 +1,40 @@
+ID: 706
+CREATION_DATETIME: 1352329200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Hi everyone,
+yesterday I heard, that some of you have troubles to get Java or the JDBC connection to work. Here is a little example for an initial connection (for windows):
+1 Download the two jars from our website: http://wwwdb.inf.tu-dresden. de/misc/WS1213/TIS/TIS_Practical_part_1. zip
+2 Make a file "MyConnection. java" with this content:
+```java
+import java. sql. Connection;
+import java. sql. DatabaseMetaData;
+import java. sql. DriverManager;
+import java. sql. ResultSet;
+public class MyConnection {
+    public static void main(String[] args) throws Exception {
+        Class. forName("org. h2. Driver");
+        Connection conn = DriverManager. getConnection("jdbc:h2:tcp://127. 0. 1. 1:9092/~/test", "sa", "");
+        DatabaseMetaData dbmd = conn. getMetaData();
+        System. out. println("Database system: "     + dbmd. getDatabaseProductName());
+        System. out. println("Version        : "    + dbmd. getDatabaseMajorVersion() + "." + dbmd. getDatabaseMinorVersion());
+        ResultSet rs = dbmd. getTables(null, null, "%", null);
+        while (rs. next()) {
+             System. out. println(rs. getString(3));
+        }
+        rs. close();
+        // do something else ...
+        conn. close();
+    }
+}
+```
+3 Compile the program (how-to: http://www.brighthub.com/computing/windows-platform/articles/8013. aspx)
+If not already installed you will have to install the Java Development Kit (http://www.oracle.com/technetwork/java/javase/downloads/java-se-jdk-7-download-432154. html)
+4 Start the server with the command <NAME_CORPUS_REPLACEMENT> (cmd): java -cp h2. jar org. h2. tools. Server
+5 Run the program (cmd): java -cp .;jars\h2. jar MyConnection
+6 You should see some information about H2 and a list of tables..
+For bigger java projects I would suggest you use eclipse (www. eclipse. org).
+TAGGED_CONTENT:

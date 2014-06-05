@@ -1,0 +1,12 @@
+ID: 234
+CREATION_DATETIME: 1349820000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+OS: <REMOVED_PERSON_ENTITY>
+Genutzt werden die Programme **gcc** und **gdb**. Diese sind in den Rechnerpools für Linux vorinstalliert. Des weiteren werden wir einen Klartexteditor nutzen; Welchen genau, kann jeder für sich entscheiden.
+Außerdem hantieren wir auf der Shell, die natürlich auch vorhanden ist.
+Wer jetzt in Panik verfallen möchte, weil er keine Ahnung <NAME_CORPUS_REPLACEMENT> <REMOVED_PERSON_ENTITY> und so hat, den muss ich enttäuschen: Solange derjenige auf Sachen klicken und Text eintippen kann, gibt es keinen vernünftigen Grund, warum derjenige daran scheitern sollte.
+TAGGED_CONTENT:

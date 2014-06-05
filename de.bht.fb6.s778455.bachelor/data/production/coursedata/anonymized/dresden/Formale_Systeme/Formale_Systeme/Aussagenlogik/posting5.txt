@@ -1,0 +1,9 @@
+ID: 459
+CREATION_DATETIME: 1350943200000
+MODIFICATION_DATETIME: 1352674800000
+TITLE: Aus $(p \to q) \wedge
+PARENT_POSTING_ID: 447
+POSTING_TYPE: answer
+CONTENT:
+Aus $(p  o q) \wedge (q→r)$ folgt $(p  o r)$. Allerding sind beide Aussagen nicht äquivalent. Als Gegenbeispiel kann man die Belegung $I: p^I =  op, q^I=\bot, r^I= op$ finden, das zwar Modell für $(p  o r)$ aber nicht für $(p  o q) \wedge (q→r)$ ist.
+TAGGED_CONTENT:

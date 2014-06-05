@@ -1,0 +1,10 @@
+ID: 2980
+CREATION_DATETIME: 1385161200000
+MODIFICATION_DATETIME: 1385161200000
+TITLE: Dein `th:value` ist Quark, wenn dein Input schon "id" nennst, solltest du vielleicht eine übergeben. ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2935
+POSTING_TYPE: comment
+CONTENT:
+Dein `th:value` ist Quark, wenn dein Input schon "id" nennst, solltest du vielleicht eine übergeben. 
+TAGGED_CONTENT:

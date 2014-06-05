@@ -1,0 +1,21 @@
+ID: 31
+CREATION_DATETIME: 1177508040000
+MODIFICATION_DATETIME: 1177508040000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 27
+CONTENT:
+  
+Hallo,
+
+versuch es mal mit "set CLASSPATH=.;E:\Studium\M2_Programmierung\"
+
+Der Importbefehl setzt glaube ich eine gewisse Verzeichnissstrucktur vorraus die erst ab "de" im Importbefehl beginnt.
+
+Alle Verzeichnisse/Ordner vorher MUSST du im Classpath benennen, sowie das aktuelle Arbeitsverzeichnis durch einen Punkt.
+
+Wenn du rumprobieren willst empfehle ich mit "javac -classpath [Pfade] Klasse.java" zu arbeiten anstatt mit "set" ständig Umgebungsvariablen zu verändern.
+
+Ich wünsch dir viel Glück und hoffe ich konnte helfen.
+     
+TAGGED_CONTENT:

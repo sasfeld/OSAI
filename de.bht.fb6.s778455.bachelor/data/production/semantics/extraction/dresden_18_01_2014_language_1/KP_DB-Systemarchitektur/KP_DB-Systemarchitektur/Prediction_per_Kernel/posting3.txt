@@ -1,0 +1,10 @@
+ID: 2232
+CREATION_DATETIME: 1373752800000
+MODIFICATION_DATETIME: 1373752800000
+TITLE: Ich schau mir das noch mal genau an, welches LGS man aufstellen muss, damit wirklich gute Daten herau...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2230
+POSTING_TYPE: comment
+CONTENT:
+Ich schau mir das noch mal genau an, welches LGS man aufstellen muss, damit wirklich gute Daten herauskommen.
+TAGGED_CONTENT:

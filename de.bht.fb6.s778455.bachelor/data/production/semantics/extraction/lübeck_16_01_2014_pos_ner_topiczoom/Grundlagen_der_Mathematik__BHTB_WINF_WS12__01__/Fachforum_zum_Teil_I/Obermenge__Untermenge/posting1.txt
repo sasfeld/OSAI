@@ -1,0 +1,22 @@
+ID: 168133
+CREATION_DATETIME: 1349692833
+MODIFICATION_DATETIME: 1349692833
+TITLE: Obermenge/ Untermenge
+POS_TAG: value:PS;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeichen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klammer;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klammern;weight:0.0;uri:;postag:NN
+POS_TAG: value:Obermenge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Y;weight:0.0;uri:;postag:NN
+POS_TAG: value:Untermenge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Element;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+<REMOVED_PERSON_ENTITY> oder Untermenge einer <REMOVED_PERSON_ENTITY> Y ist eine <REMOVED_PERSON_ENTITY> X, in Zeichen X ≤ Y oder Y ≥ X , wenn jedes x Element von X und auch von Y ist.  (bis hierhin  noch alles verständlich)
+Umgekehrt ist Y Obermenge von X(Y≥X). Ich verstehe nicht, was das mit der Klammer soll. wieso steht das überhaupt in Klammern? 
+und heißt es dann Y≥X(Y≥X)?
+ 
+PS. die zeichen ≤≥ habe ich jetzt als Obermenge und Untermenge benutzt, weil hier keine runden sind.
+TAGGED_CONTENT:
+<_XY REMOVED_PERSON_ENTITY_NE >_CARD oder_KON Untermenge_NN einer_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN Y_NE ist_VAFIN eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD X_XY ,_$, in_APPR Zeichen_NN X_XY ≤_CARD Y_NN oder_KON Y_NN ≥_CARD X_XY ,_$, wenn_KOUS jedes_PIDAT x_XY Element_NN von_APPR X_XY und_KON auch_ADV von_APPR Y_NE ist_VAFIN ._$. -LRB-_TRUNC bis_APPR hierhin_PROAV noch_ADV alles_PIS verständlich_ADJD -RRB-_TRUNC Umgekehrt_ADJD ist_VAFIN Y_NE Obermenge_NN von_APPR X_XY -LRB-_TRUNC Y_XY ≥_CARD X_XY -RRB-_TRUNC ._$. Ich_PPER verstehe_VVFIN nicht_PTKNEG ,_$, was_PWS das_PDS mit_APPR der_ART Klammer_NN soll_VMFIN ._$. wieso_PWAV steht_VVFIN das_ART überhaupt_ADV in_APPR Klammern_NN ?_$. und_KON heißt_VVFIN es_PPER dann_ADV Y_NE ≥_CARD X_XY -LRB-_TRUNC Y_XY ≥_CARD X_XY -RRB-_TRUNC ?_$. PS_NN ._$. die_ART zeichen_ADJA ≤_NN ≥_CARD habe_VAFIN ich_PPER jetzt_ADV als_APPR Obermenge_NN und_KON Untermenge_NN benutzt_VVPP ,_$, weil_KOUS hier_ADV keine_PIAT runden_ADJA sind_VAFIN ._$. 

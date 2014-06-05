@@ -1,0 +1,12 @@
+ID: 2261
+CREATION_DATETIME: 1373925600000
+MODIFICATION_DATETIME: 1373925600000
+TITLE: Ich habe einen Fehler beim Freigeben der CL-Memoryobjekte behoben, der zu Zugriffsfehlern beim Sum- u...
+PARENT_POSTING_ID: 2189
+POSTING_TYPE: comment
+CONTENT:
+Ich habe einen Fehler beim Freigeben der <LEARNED_PERSON_NAME_REPLACEMENT>-Memoryobjekte behoben, der zu Zugriffsfehlern beim Sum- und VectorAdd-Kernel geführt hat.
+Außerdem habe ich im TestNLJ einen Fehler angepasst (hier war nur die Länge des outputparameters nicht richtig gesetzt).
+Zur Zeit ergeben sich aber noch Probleme, wenn ein Inputparameter gleichzeitig auch ein Outputparameter ist, daran müsste ich nochmal schrauben. Das ist auch der Grund, warum die BitonicSort noch nicht funktioniert.
+Bei der Diagonalmatrix kommt es zur Zeit beim Training noch zu Fehlern, <NAME_CORPUS_REPLACEMENT> die iGPU so wenig Speicher allokieren kann. Das korrigiere ich heute Abend aber noch, <NAME_CORPUS_REPLACEMENT> muss ich nur eine andere Deviceproperty auslesen. Soweit erstmal mein Stand.
+TAGGED_CONTENT:

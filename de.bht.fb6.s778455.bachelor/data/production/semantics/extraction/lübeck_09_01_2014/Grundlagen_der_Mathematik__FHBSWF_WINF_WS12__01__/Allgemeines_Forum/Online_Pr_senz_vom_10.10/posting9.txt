@@ -1,0 +1,16 @@
+ID: 170245
+CREATION_DATETIME: 1350221077
+MODIFICATION_DATETIME: 1350221077
+TITLE: Re: Online Präsenz vom 10.10.
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 170213
+CONTENT:
+Hi <REMOVED_PERSON_ENTITY>,
+mal wieder besten Dank für deine ausführliche Antwort. Jetzt sind mir einige Dinge etwas klarer geworden. :-)
+Diese Übungsaufgabe würde in der Online Präsenz am 10. 10. kurz von Herrn <REMOVED_PERSON_ENTITY> angesprochen. Hoffe diese Info reicht dir?
+Danke und Guß
+<REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

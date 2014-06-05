@@ -1,0 +1,12 @@
+ID: 2033
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: das wäre sehr gut denke ich, da sich das ja bestimmt irgendwann durchsetzen wird. das wär blöd, wenn ...
+LANGUAGE: GERMAN
+POS_TAG: value:lib;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: comment
+CONTENT:
+das wäre sehr gut denke ich, <NAME_CORPUS_REPLACEMENT> sich das ja bestimmt irgendwann durchsetzen wird. das wär blöd, wenn unsere lib dann nicht mehr gehen würde.
+TAGGED_CONTENT:
+das_ART wäre_VAFIN sehr_ADV gut_ADJD denke_VVFIN ich_PPER ,_$, <_CARD NAME_CORPUS_REPLACEMENT_NE >_VVFIN sich_PRF das_PDS ja_ADV bestimmt_VVPP irgendwann_ADV durchsetzen_VVINF wird_VAFIN ._$. das_ART wär_VAFIN blöd_ADJD ,_$, wenn_KOUS unsere_PPOSAT lib_NN dann_ADV nicht_PTKNEG mehr_ADV gehen_VVINF würde_VAFIN ._$. 

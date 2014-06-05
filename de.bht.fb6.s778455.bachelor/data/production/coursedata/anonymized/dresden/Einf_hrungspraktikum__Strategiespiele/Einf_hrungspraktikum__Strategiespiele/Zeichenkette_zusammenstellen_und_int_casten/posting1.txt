@@ -1,0 +1,11 @@
+ID: 129
+CREATION_DATETIME: 1348178400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich würde gerne eine Zeichenkette erstellen, indem ich zeichen und Zahlen konkateniere.
+1. Wie konkateniert man mit C?
+2. Wie wandelt man int in char* um?
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1162
+CREATION_DATETIME: 1362351600000
+MODIFICATION_DATETIME: 1362351600000
+TITLE: Dann existiert der Lehrstuhl nicht. Falls er angelegt werden soll, einfach ansagen, um welchen es sic...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1160
+POSTING_TYPE: comment
+CONTENT:
+Dann existiert der Lehrstuhl nicht. Falls er angelegt werden soll, einfach ansagen, um welchen es sich handelt.
+TAGGED_CONTENT:

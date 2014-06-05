@@ -1,0 +1,9 @@
+ID: 1988
+CREATION_DATETIME: 1370728800000
+MODIFICATION_DATETIME: 1370728800000
+TITLE: Das ist ein Fehler im praktomaten. der gibt die consolen ausgabe direkt aus die werte sind in <> werd...
+PARENT_POSTING_ID: 1987
+POSTING_TYPE: comment
+CONTENT:
+Das ist ein Fehler im praktomaten. der gibt die consolen ausgabe direkt aus die werte sind in  werden also vom browser als html erkannt, geschluckt und verworfen weil er die tags nicht kennt. Lange Rede kurzer Sinn: Rechtsklick Quelltext anzeigen und suchen
+TAGGED_CONTENT:

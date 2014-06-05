@@ -1,0 +1,38 @@
+ID: 646
+CREATION_DATETIME: 1351724400000
+MODIFICATION_DATETIME: 1351810800000
+TITLE: Hallo,
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 629
+POSTING_TYPE: answer
+CONTENT:
+Hallo,
+
+hier noch kurz meine Info dazu, die ich auch eben über an die mail-Adressen, der in jExam eingeschriebenen
+
+Studenten geschickt habe.
+
+Das Problem mit dem Moodle ist wohl ein größeres und wird wohl noch bis mindestens <REMOVED_PERSON_ENTITY> benötigen. <NAME_CORPUS_REPLACEMENT> der 
+
+Instituts-eigene  Server vom Nachbarlehrstuhl betreut wird haben wir <NAME_CORPUS_REPLACEMENT> auch keinen Zugriff oder eine Möglichkeit, etwas zu beschleunigen.
+
+Diejenigen, die die erste Übung noch nicht abgeben konnten, brauchen sich keine Sorgen zu machen. Sobald der 
+
+Server wieder läuft, schreibe ich eine <REMOVED_PERSON_ENTITY>, so  dass diese Abgaben dann noch getätigt werden können. 
+
+Ebenso bei der zweiten Auf gabe, die nächste Woche vorgestellt wird. Ihr könnt die Übung natürlich nicht eher anfangen, als dass die Aufgabe im Moodle ist und wir passen dann die Bearbeitungszeit entsprechend an. 
+
+Sobald die Aufgabe ins Moodle gestellt werden kann, gebe ich nochmal über das Forum Bescheid.
+
+Wir werden es jedenfalls so lösen, dass ihr möglichst keine Nachteile habt.
+
+Vom <REMOVED_PERSON_ENTITY> der Abgaben an die Tutoren bitte ich eher abzusehen. Diese können erst bewerten, wenn das Moodle
+
+wieder läuft und die Abgaben werden eh über das Moodle "archiviert", so dass nicht im mail-Konto etwas durch die 
+
+Lappen geht. Die Abgaben können alle wie gesagt später dann noch getätigt werden
+
+ <REMOVED_PERSON_ENTITY> und einen schönen Abend noch allen
+
+  <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

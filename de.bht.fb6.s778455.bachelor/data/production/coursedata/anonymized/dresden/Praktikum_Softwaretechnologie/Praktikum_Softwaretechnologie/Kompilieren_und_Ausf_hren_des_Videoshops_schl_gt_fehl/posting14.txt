@@ -1,0 +1,20 @@
+ID: 2671
+CREATION_DATETIME: 1383174000000
+MODIFICATION_DATETIME: 1383174000000
+TITLE: Ok.
+Heruntergeladen, entpackt.
+In Eclipse via Maven importiert.
+UTF-8 eingestellt, jdk und salespo...
+PARENT_POSTING_ID: 2662
+POSTING_TYPE: comment
+CONTENT:
+Ok.
+Heruntergeladen, entpackt.
+In Eclipse via Maven importiert.
+UTF-8 eingestellt, jdk und salespoint-5. 3 eingebunden.
+```ruby
+hibernate-validator-5. 0. 1. Final. jar
+```
+ist zu finden. Trotzdem meldet pom: "overriding managed version 4. 3. 1. final for hindernate-validator".
+noch kein build und ähnliches ausgeführt.
+TAGGED_CONTENT:

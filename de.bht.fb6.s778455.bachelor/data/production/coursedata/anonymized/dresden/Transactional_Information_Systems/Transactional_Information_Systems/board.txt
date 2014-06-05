@@ -1,0 +1,6 @@
+ID: 2154640
+CREATION_DATETIME: 1381096800000
+MODIFICATION_DATETIME: 1381096800000
+TITLE: Transactional Information Systems
+INTRO: Database systems play a central role in building large and distributed transactionally working information systems. Within this lecture, we discuss techniques which are required to setup a robust distributed information system. After repeating the core concepts of ER modeling and the relational database model including SQL, we focus on specific features of a large scale database system.
+TYPE: null

@@ -1,0 +1,9 @@
+ID: 1108
+CREATION_DATETIME: 1360537200000
+MODIFICATION_DATETIME: 1360537200000
+TITLE: Richtig. man muss  einfach nur das Interface *Iterable* implementieren.
+PARENT_POSTING_ID: 1105
+POSTING_TYPE: comment
+CONTENT:
+Richtig. man muss  einfach nur das Interface *Iterable* implementieren.
+TAGGED_CONTENT:

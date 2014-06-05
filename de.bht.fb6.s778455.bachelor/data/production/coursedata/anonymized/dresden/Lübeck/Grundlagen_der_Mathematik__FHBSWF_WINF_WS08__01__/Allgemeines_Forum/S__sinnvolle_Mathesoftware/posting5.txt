@@ -1,0 +1,8 @@
+ID: 16539
+CREATION_DATETIME: 1223647760
+MODIFICATION_DATETIME: 1223647760
+TITLE: Re: S: sinnvolle Mathesoftware
+PARENT_POSTING_ID: 16537
+CONTENT:
+Hallo, Prof. <REMOVED_PERSON_ENTITY> hatte mir <REMOVED_PERSON_ENTITY> als gut empfohlen und eine Lizenz für Maple in die Hand gedrückt (wegen der Maple-Übungen im Modul.)Nun muss ich es installieren. dann mal sehen. MfG, al.
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 2251
+CREATION_DATETIME: 1373925600000
+MODIFICATION_DATETIME: 1373925600000
+TITLE: Das Programm braucht wieder sehr lange für die Analyse (mehrere Minuten, bis evtl Fehlermeldungen auf...
+PARENT_POSTING_ID: 2179
+POSTING_TYPE: answer
+CONTENT:
+Das Programm braucht wieder sehr lange für die Analyse (mehrere Minuten, bis evtl Fehlermeldungen auftauchen und selbst dann noch nicht beendet). Ich wollte einen Kernel mit der Berechnung in einer Diagonalmatrix einfügen, aber so ist die Fehlerbehebung ein wenig anstrengend und zeitraubend ;)
+TAGGED_CONTENT:

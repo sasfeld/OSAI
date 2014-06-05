@@ -1,0 +1,18 @@
+ID: 1440
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1384902000000
+TITLE: So, a page fault occurs, the pager is being made responsible for providing the page and now:1. it c...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1435
+POSTING_TYPE: question
+CONTENT:
+So, a page fault occurs, the pager is being made responsible for providing the page and now:
+
+1. it chooses a memory region in its own address space
+
+2. it touches it in order to find out if it <NAME_CORPUS_REPLACEMENT> be mapped
+
+3. if not starts at **1.**
+
+Is this how it is implemented or do double faults occure usually?
+TAGGED_CONTENT:

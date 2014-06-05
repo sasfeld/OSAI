@@ -1,0 +1,19 @@
+ID: 6
+CREATION_DATETIME: 1195247220000
+MODIFICATION_DATETIME: 1195247220000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 5
+CONTENT:
+
+ 
+Liebe ,
+
+Herr Busse, Ihre Antwort ist sehr allgemein und betrifft die Aufgabe der LE08 nicht ganz genau. In der Aufgabe der LE08, wird die Benutzereingabe benutzt, um die Groesse des Arrays zu bestimmen, nicht um eine neue Komponente in ein Array hinzufügen.
+
+Wie immer, gibt es mehrere Wege, um die Aufgabe LE08 zu loesen. Es ist möglich alle JcheckBox-Objekte in ein Array zu speichern. Es muss nicht unbedingt sein. Frau Weinert, Sie haben es richtig erkannt: am besten arbeitet man mit einer Schleife, um alle JCheckBox-Objekte zu erzeugen, und in ein Jpanel-Objekt hinzuzufügen. Weil die Anzahl der JCheckBox-Objekte, die zu erzeugen sind, ist bekannt (durch den Parameter des Konstruktors) ist hier eine For-Schleife sehr geeignet.
+Ist dies eine Hilfe?
+
+Frohes Schaffen!
+    
+TAGGED_CONTENT:

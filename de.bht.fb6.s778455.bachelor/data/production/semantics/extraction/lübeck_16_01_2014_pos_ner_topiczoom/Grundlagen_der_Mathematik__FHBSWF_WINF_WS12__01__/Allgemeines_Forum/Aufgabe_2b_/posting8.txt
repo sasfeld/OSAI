@@ -1,0 +1,43 @@
+ID: 184479
+CREATION_DATETIME: 1354470926
+MODIFICATION_DATETIME: 1354470926
+TITLE: Re: Aufgabe 2b)
+TOPIC_ZOOM_TAG: value:Vektoren;weight:2.0;significance:8.47236634348927;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:3.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Verfügungen;weight:2.0;significance:4.83264266739318;degreegeneralization:3;uri:19992589
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:3.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Algebraische Begriffe;weight:1.0;significance:4.23618317174463;degreegeneralization:7;uri:20767840
+TOPIC_ZOOM_TAG: value:Vektorräume;weight:1.0;significance:4.23618317174463;degreegeneralization:8;uri:20146881
+TOPIC_ZOOM_TAG: value:Lineare Algebra;weight:1.0;significance:4.23618317174463;degreegeneralization:7;uri:20881366
+TOPIC_ZOOM_TAG: value:Algebra;weight:1.0;significance:4.23618317174463;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Natur;weight:3.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:3.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:3.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:2.0;significance:1.76739800960219;degreegeneralization:2;uri:21999830
+POS_TAG: value:Spaltenvektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektorraum;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:G;weight:0.0;uri:;postag:NN
+POS_TAG: value:Modell;weight:0.0;uri:;postag:NN
+POS_TAG: value:gung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ansatz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Untervektorraum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abgeschlossenheit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kannst;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektoraddition;weight:0.0;uri:;postag:NN
+POS_TAG: value:Unterraums;weight:0.0;uri:;postag:NN
+POS_TAG: value:R;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rechenregeln;weight:0.0;uri:;postag:NN
+POS_TAG: value:Multiplikation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Addition;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 184449
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+zu dem oberen Ansatz: Kannst Du bitte mal erklären, was in Deinem Ansatz die Spaltenvektoren sind? Ich verstehe das Modell nicht (was möglicherweise an mir liegt :-)
+zu dem unteren Ansatz: Du schreibst "Bei einem Untervektorraum von V müssen wir für W doch eigentlich "nur" zeigen, dass er abgeschlossen ist, wenn man die Addition und die skalare Multiplikation durchführt. Da wir hier ja komplett R zur Verfügung haben (V(G)--&gt;R), kommen wir doch mit diesen beiden Rechenregeln nie aus dem vorgegeben Vektorraum heraus oder?"
+Ich würde Abgeschlossenheit hinichtlich der Vektoraddition so verstehen, dass jeder Vektor aus dem Untervektorraum addiert werden darf und was dabei herauskommt, muss ebenfalls zu diesem Untervektorraum gehören, also ein Vektor des Unterraums sein. Was nützt es da, wenn wir ganz R zur Verfügung haben?
+Grüße
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE ,_$, zu_APPR dem_ART oberen_ADJA Ansatz_NN :_$. Kannst_NN Du_PPER bitte_PTKANT mal_ADV erklären_VVINF ,_$, was_PWS in_APPR Deinem_ART Ansatz_NN die_ART Spaltenvektoren_NN sind_VAFIN ?_$. Ich_PPER verstehe_VVFIN das_ART Modell_NN nicht_PTKNEG -LRB-_TRUNC was_PWS möglicherweise_ADV an_APPR mir_PPER liegt_VVFIN :--RRB-_NE zu_APPR dem_ART unteren_ADJA Ansatz_NN :_$. Du_PPER schreibst_ADV "_$( Bei_APPR einem_ART Untervektorraum_NN von_APPR V_CARD müssen_VMFIN wir_PPER für_APPR W_XY doch_KON eigentlich_ADV "_$( nur_ADV "_$( zeigen_VVINF ,_$, dass_KOUS er_PPER abgeschlossen_VVPP ist_VAFIN ,_$, wenn_KOUS man_PIS die_ART Addition_NN und_KON die_ART skalare_ADJA Multiplikation_NN durchführt_VVPP ._$. Da_KOUS wir_PPER hier_ADV ja_ADV komplett_ADJD R_NN zur_APPRART Verfügung_NN haben_VAFIN -LRB-_TRUNC V_CARD -LRB-_TRUNC G_NN -RRB-_TRUNC --_-- >_XY R_XY -RRB-_TRUNC ,_$, kommen_VVFIN wir_PPER doch_ADV mit_APPR diesen_PDAT beiden_PIDAT Rechenregeln_NN nie_ADV aus_APPR dem_ART vorgegeben_ADJA Vektorraum_NN heraus_PTKVZ oder_KON ?_$. "_$( Ich_PPER würde_VAFIN Abgeschlossenheit_NN hinichtlich_ADJD der_ART Vektoraddition_NN so_ADV verstehen_VVINF ,_$, dass_KOUS jeder_PIDAT Vektor_NN aus_APPR dem_ART Untervektorraum_NN addiert_VVPP werden_VAINF darf_VMFIN und_KON was_PWS dabei_PROAV herauskommt_VVFIN ,_$, muss_VMFIN ebenfalls_ADV zu_APPR diesem_PDAT Untervektorraum_NN gehören_VVFIN ,_$, also_ADV ein_ART Vektor_NN des_ART Unterraums_NN sein_VAINF ._$. Was_PWS nützt_VVFIN es_PPER da_ADV ,_$, wenn_KOUS wir_PPER ganz_ADV R_NE zur_APPRART Verfügung_NN haben_VAFIN ?_$. Grüße_NN <_NE REMOVED_PERSON_ENTITY_NE >_XY 

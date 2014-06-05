@@ -1,0 +1,16 @@
+ID: 823
+CREATION_DATETIME: 1353538800000
+MODIFICATION_DATETIME: 1365372000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+So heißt meine folgende XSLT-Datei für die Tagesschau:
+```
+<?xml version="1. 0" encoding="UTF-8"?>
+```
+Wie kommt es, dass ich damit bereits einen Output erhalte? Theoretisch müsste das Ergebnis dann <NAME_CORPUS_REPLACEMENT> sein, aber stattdessen bekomme ich einen dicken Blocktext, unformatiert. 
+<NAME_CORPUS_REPLACEMENT> ist es egal ob ich irgendwelche HTML-tags zwischen den 
+`` schiebe oder nicht. Ergebnis ist immer dasselbe, welches vollkommen unlogisch ist.
+Jedenfalls kann ich dadurch die Informationen nicht vernünftig in eine Tabelle oder sonstwie zu formatieren.
+TAGGED_CONTENT:

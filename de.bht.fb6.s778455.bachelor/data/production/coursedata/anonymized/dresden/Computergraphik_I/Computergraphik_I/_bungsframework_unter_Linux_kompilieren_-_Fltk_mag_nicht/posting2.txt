@@ -1,0 +1,9 @@
+ID: 435
+CREATION_DATETIME: 1350597600000
+MODIFICATION_DATETIME: 1350597600000
+TITLE: Nachdem ich mit etwas
+PARENT_POSTING_ID: 434
+POSTING_TYPE: comment
+CONTENT:
+Nachdem ich mit etwas Hexerei in den CMake-Cache geschaut habe, stellt sich raus, dass wohl nicht *FLTK2_INCLUDE_DIRS* das Problem ist (wobei FLTK in einer eigenen modifizierten Version mitkommt, darum wurde das wohl auch nicht erwähnt) sondern der Verweis auf *cgv_gl_INCLUDE_DIRS* und *gcv_INCLUDE_DIRS*, die CMake scheinbar nicht kennt.
+TAGGED_CONTENT:

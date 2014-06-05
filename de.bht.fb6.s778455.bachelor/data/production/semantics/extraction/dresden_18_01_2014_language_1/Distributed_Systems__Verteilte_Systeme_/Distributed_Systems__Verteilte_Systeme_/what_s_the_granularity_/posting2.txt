@@ -1,0 +1,10 @@
+ID: 822
+CREATION_DATETIME: 1353452400000
+MODIFICATION_DATETIME: 1353452400000
+TITLE: The granularity refers to the size of the distribution units (i.e. processes or objects). In the clie...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 725
+POSTING_TYPE: answer
+CONTENT:
+The granularity refers to the size of the distribution units (i. e. processes or objects). In the client/server model, those (operating system level) processes are always large and heavyweight. In the object model, objects <NAME_CORPUS_REPLACEMENT> be of any size, i. e. also lightweight and therefore more efficient distribution units are explicitly supported. This is clearly an advantage.
+TAGGED_CONTENT:

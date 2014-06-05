@@ -1,0 +1,22 @@
+ID: 1077
+CREATION_DATETIME: 1358982000000
+MODIFICATION_DATETIME: 1365372000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+ist die komplette Aufgabe nicht bestanden, wenn man ein Musskriterium nicht erfüllt oder gibt es nur Punktabzüge?
+
+(ich nehme an, Muss- und Wunschkriterien wurden hier benannt, um Prioritäten zu setzen)
+
+Ganz im Speziellen möchte ich Fragen, was mit dem Kriterium " Filter „Tags“ " gemeint ist, <NAME_CORPUS_REPLACEMENT> mir kein standardisiertes EXIF-Feld dafür bekannt ist. 
+
+Desweiteren, wie habt Ihr euch die Realisierung des Kriteriums "Volltextsuche in der Beschreibung" vorgestellt?
+
+(Das ExifInterface <NAME_CORPUS_REPLACEMENT> Android beinhaltet kein EXIF-IMAGEDESCRIPTION Attribut, sowie auch eure Beispielbilder nicht.)
+
+Grüße
+TAGGED_CONTENT:

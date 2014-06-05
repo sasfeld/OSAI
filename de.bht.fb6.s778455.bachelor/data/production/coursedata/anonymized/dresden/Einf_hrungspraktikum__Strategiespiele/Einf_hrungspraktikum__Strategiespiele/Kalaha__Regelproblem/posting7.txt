@@ -1,0 +1,9 @@
+ID: 1479
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Die Lösung des Problems: Ich hole mir den besten Move via Zeigerübergabe (call by reference). Ich hab...
+PARENT_POSTING_ID: 1468
+POSTING_TYPE: answer
+CONTENT:
+Die Lösung des Problems: Ich hole mir den besten Move via Zeigerübergabe (call by reference). Ich hab mich <NAME_CORPUS_REPLACEMENT> ein bisschen mit der Syntax versehen (Zeiger auf lokal genutzte Variable), daher wurde das Ding immer 0.
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 2978
+CREATION_DATETIME: 1385161200000
+MODIFICATION_DATETIME: 1385334000000
+TITLE: Für die 2 geordneten Multisets habe ich 2 geordnete Multisets verwendet. ;) Siehe hier: http://www.cp...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2977
+POSTING_TYPE: comment
+CONTENT:
+Für die 2 geordneten Multisets habe ich 2 geordnete Multisets verwendet. ;) Siehe hier: http://www.cplusplus.com/reference/set/multiset/ Wenn ich es dort richtig herauslese hat diese Datenstruktur die geforderte Laufzeit für das Einfügen und Entfernen <NAME_CORPUS_REPLACEMENT> Elementen. Zu deiner zweiten Frage: Das ist bestimmt die beste Methode. Ich habe es bisher so gemacht dass jede <REMOVED_PERSON_ENTITY> <NAME_CORPUS_REPLACEMENT> links nach rechts durchgelaufen wird, dementsprechend werden zu Beginn der Zeilen jeweils einmal die 2 Mengen neu aufgebaut, was natürlich aufgrund des Sortierens langsamer ist. Ich würde hier gerne an deine Frage anknüpfen und fragen ob dieses Vorgehen zu einem Punktabzug führt.
+TAGGED_CONTENT:

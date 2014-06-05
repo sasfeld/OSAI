@@ -1,0 +1,14 @@
+ID: 1427
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1382306400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+ich habe gerade Probleme, den gdb zum debuggen richtig zu verwenden. Wenn ich das Programm mit dem Make file starte ist mir klar. Aber wie sage ich dem gdb, dass ich z. B. in myplayer. <LEARNED_PERSON_NAME_REPLACEMENT> jetzt breakpoints setzen will? wenn ich jetzt make run break 55 oder soetwas eingebe, überspringt er das break, vermjute mal weil ich <LEARNED_PERSON_NAME_REPLACEMENT> nicht spezifiziere in welcher datei die zeile gemeint ist. bin noch linux neuling und habe <NAME_CORPUS_REPLACEMENT> noch keine ahnung, wenn ich dazu was bei google gesucht habe, hatten die <LEARNED_PERSON_NAME_REPLACEMENT> auch nur eine direkte datei zum testen, und kein mcp drumherum...
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

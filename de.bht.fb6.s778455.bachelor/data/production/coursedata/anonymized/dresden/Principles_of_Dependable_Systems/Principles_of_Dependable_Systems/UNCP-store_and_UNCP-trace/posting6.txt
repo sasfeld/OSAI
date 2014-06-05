@@ -1,0 +1,13 @@
+ID: 514
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1383865200000
+TITLE: Follow up questions to UNCP-store and UNCP-trace
+PARENT_POSTING_ID: 509
+POSTING_TYPE: question
+CONTENT:
+thank u for the [answer](https://auditorium. inf. tu-dresden. de/posts/509#post-510). it is much clear to me now.
+but i still have a few following questions:
+1. for rendezvous protocol, the highest VRO-number is choosen to process the irq. so the fastest PE <NAME_CORPUS_REPLACEMENT> process the irq immediately. what should other PEs do? should they wait until they reach the highest VRO-number?
+2. for resynchronization approach, u still did not explain what the retired instructions mean. why should the maximum number of retired instructions be determined?
+3. about the copying issue of UNCP-store, i still can't get where/when the copy happens. i mean, take 3 processors as a example, P1 finishes VRO point 1 and 2 and executes toward 3, P2 is executing toward 4, P3 is executing toward 5. should they copy the value at point 1 and 2? or the value at point 4 (only P3 finishes this point)?
+TAGGED_CONTENT:

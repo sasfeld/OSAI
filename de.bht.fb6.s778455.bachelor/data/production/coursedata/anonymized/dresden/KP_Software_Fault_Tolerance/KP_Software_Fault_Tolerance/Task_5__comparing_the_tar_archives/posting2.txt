@@ -1,0 +1,11 @@
+ID: 968
+CREATION_DATETIME: 1355526000000
+MODIFICATION_DATETIME: 1355526000000
+TITLE: Yes, I also face the same problem.
+So first I unpack the content.tar, then create an tar archive cal...
+PARENT_POSTING_ID: 967
+POSTING_TYPE: answer
+CONTENT:
+Yes, I also face the same problem.
+So first I unpack the content. tar, then create an tar archive called "original. tar" in the normal environment. then compare the "tmp. tar" with "original. tar".
+TAGGED_CONTENT:

@@ -1,0 +1,41 @@
+ID: 97735
+CREATION_DATETIME: 1285329082
+MODIFICATION_DATETIME: 1285338473
+TITLE: LON-CAPA
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:2.0;significance:3.45383701834165;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Rechenzentren;weight:1.0;significance:3.19101843310159;degreegeneralization:7;uri:20900338
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:2.0;significance:2.91269907481865;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Datenverarbeitung;weight:1.0;significance:2.82481433687889;degreegeneralization:6;uri:21127016
+TOPIC_ZOOM_TAG: value:Passwörter;weight:1.0;significance:2.80603002469518;degreegeneralization:7;uri:20841178
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:2.0;significance:2.67135784290737;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Foren;weight:1.0;significance:2.5528978359948;degreegeneralization:3;uri:20770662
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:2.0;significance:2.44111312827385;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:2.31865895880276;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Liebe;weight:1.0;significance:2.28163944654528;degreegeneralization:5;uri:21126234
+TOPIC_ZOOM_TAG: value:Computer-Sicherheit;weight:1.0;significance:2.26501550319855;degreegeneralization:6;uri:21307607
+TOPIC_ZOOM_TAG: value:IT-Sicherheit;weight:1.0;significance:2.24918139187022;degreegeneralization:5;uri:20850035
+TOPIC_ZOOM_TAG: value:Studenten;weight:1.0;significance:2.22917538862813;degreegeneralization:5;uri:20994552
+TOPIC_ZOOM_TAG: value:Sicherheitstechnologie;weight:1.0;significance:2.20199697354012;degreegeneralization:5;uri:21307624
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:3.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Schüler, Studenten;weight:1.0;significance:2.14585369445854;degreegeneralization:4;uri:20920823
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:1.85709035932451;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:1.85157190455169;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:2.0;significance:1.76839894638089;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:1.0;significance:1.65021443562739;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:Partnerschaft, Ehe, Liebe, Sex;weight:1.0;significance:1.59326106453574;degreegeneralization:4;uri:21126268
+TOPIC_ZOOM_TAG: value:Zwischenmenschliche Beziehungen;weight:1.0;significance:1.50634246816194;degreegeneralization:3;uri:20122843
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:1.45419443727712;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:1.43671328660255;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Verbrechen und Kriminalität;weight:1.0;significance:1.24616628446897;degreegeneralization:4;uri:21982303
+TOPIC_ZOOM_TAG: value:Rechtsverstöße, Straftaten, Kriminalität;weight:1.0;significance:1.2345451912556;degreegeneralization:3;uri:20801755
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:0.962597203432263;degreegeneralization:2;uri:21306723
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:0.883699004801097;degreegeneralization:2;uri:21999830
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Studierende,
+bitte loggen Sie sich bis zum 30. 9. (sofern Account vorliegt) in LON-CAPA erstmalig ein. Der Link ist im Allgemeinen Forum dieses Moduls zu finden, zur Erinnerung:
+https://vita. sonia. de/adm/login?username=&domain=fhwf
+Benutzerkennung und Passwort sind dasselbe, das Sie vom Rechenzentrum fuer andere Accounts bekommen haben.
+Hintergrund: Bei Ihrer ersten Anmeldung registriert Sie LON-CAPA automatisch. Danach kann ich Ihren Namen dem Kurs hinzufuegen. Sobald das geschehen ist, bietet Ihnen LON-CAPA diesen Kurs an und sie koennen darin die Einsendeaufgaben bearbeiten.
+<REMOVED_PERSON_ENTITY> Prof. <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

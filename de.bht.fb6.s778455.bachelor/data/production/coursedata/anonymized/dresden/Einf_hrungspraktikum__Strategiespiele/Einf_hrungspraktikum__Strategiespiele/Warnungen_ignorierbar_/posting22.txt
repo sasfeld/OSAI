@@ -1,0 +1,9 @@
+ID: 1233
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: Aber (= (= a b) c) evaluiert genauso wie obige Syntax, oder?
+PARENT_POSTING_ID: 1225
+POSTING_TYPE: comment
+CONTENT:
+Aber (= (= a b) c) evaluiert genauso wie obige Syntax, oder?
+TAGGED_CONTENT:

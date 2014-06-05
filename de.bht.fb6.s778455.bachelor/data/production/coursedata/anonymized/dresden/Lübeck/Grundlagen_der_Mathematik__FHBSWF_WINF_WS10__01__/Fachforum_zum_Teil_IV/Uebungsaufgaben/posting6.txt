@@ -1,0 +1,13 @@
+ID: 97817
+CREATION_DATETIME: 1294454411
+MODIFICATION_DATETIME: 1294454756
+TITLE: Re: Uebungsaufgaben
+PARENT_POSTING_ID: 97816
+CONTENT:
+Hier meine abschliessenden Anmerkungen. Wir haben es eingangs etwas zu kompliziert begonnen, denn es mussten nur die Determinante und der Gausssche Algorithmus fuer konkrete Lambda ausgefuehrt werden. Hier fand ich die Aufgabenstellung etwas zu kompliziert formuliert.
+Worauf Prof. <REMOVED_PERSON_ENTITY> hinaus will (worauf man kommt, wenn man lange genug denkt):
+Fuer den Fall det A != 0 wissen wir fuer homogene(!) Systeme immer, dass die einzige Loesung nur der 0-Vektor in x sein kann. det A != 0 bedeutet im homogenen System naemlich, dass keine nichttriviale Loesung vorliegt.
+det A = 0 wiederum kann zweierlei bedeutet: Es gibt entweder keine oder unendlich viele <REMOVED_PERSON_ENTITY> (steht am Ende von LO 12).
+Anhand des ausgefuehrten Gauss-Algorithmus erkennen wir in der b-Spalte der 0-Zeile, welcher Fall vorliegt (ungleich 0 wenn keine Loesung, = 0 wenn unendlich viele Loesungen). Nun kann es im homogenen LGS allerdings niemals vorkommen, dass die b-Spalte ungleich 0 wird, denn ansonsten haetten wir es mit einem inhomogenen LGS zu tun, was unserer Praemisse widerspraeche (Beweis durch Widerspruch, LO 06, S. 8).
+qed.
+TAGGED_CONTENT:

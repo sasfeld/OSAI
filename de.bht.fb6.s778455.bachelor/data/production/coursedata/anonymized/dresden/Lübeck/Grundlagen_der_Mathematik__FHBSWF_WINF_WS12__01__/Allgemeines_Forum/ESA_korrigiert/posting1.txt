@@ -1,0 +1,15 @@
+ID: 186971
+CREATION_DATETIME: 1355296380
+MODIFICATION_DATETIME: 1355296380
+TITLE: ESA korrigiert
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Kursteilnehmer,
+wie Sie sicherlich bereits bemerkt haben, ist Ihre eingeschickte ESA nun korrigiert. Sie sollten dazu folgende Rückmeldung im Kurs finden:
+  1) Bisherige Gesamtwertung "ok"-"Nacharbeit"-"nicht ok".
+  2) Einen zusammenfassenden Kommentar inkl. Hinweisen zur etwaigen Nachsendefrist.
+  3) Ein PDF Ihrer Lösung mit Korrekturanmerkungen meinerseits.
+Solle irgendetwas davon Fragen aufwerfen, zögern Sie nicht, mich zu kontaktieren.
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

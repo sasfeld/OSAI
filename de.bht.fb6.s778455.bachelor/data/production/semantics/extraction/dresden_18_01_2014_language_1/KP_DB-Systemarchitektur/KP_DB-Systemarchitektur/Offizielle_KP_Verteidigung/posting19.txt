@@ -1,0 +1,10 @@
+ID: 2340
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Ging leider nicht mit Office zu öffnen, hab jetzt die Folien händisch rüberkopiert und die Bilder ein...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Ging leider nicht mit Office zu öffnen, hab jetzt die Folien händisch rüberkopiert und die <REMOVED_PERSON_ENTITY> eingefügt. Außerdem ist jetzt ne pdf <NAME_CORPUS_REPLACEMENT> der präsi im Repo
+TAGGED_CONTENT:

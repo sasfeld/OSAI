@@ -1,0 +1,13 @@
+ID: 194913
+CREATION_DATETIME: 1358628296
+MODIFICATION_DATETIME: 1358628296
+TITLE: Re: Gruppenübungen
+PARENT_POSTING_ID: 194785
+CONTENT:
+Hallo Herr Prof. Dr. <REMOVED_PERSON_ENTITY>,
+Vielen Dank für die Antwort. Also ich habe mir das besagte Kapitel noch einmal angeschaut. Ich weiß eigentlich auch was ich mit einer Produktmatrix und Elementarmatrix  machen kann , aber ich sehe nicht wirklich wie mir dieses Wissen hier weiterhelfen soll. Um eine Produktmatrix erzeugen zu können muss ich ja ganz genau wissen welche operationen mittels Gaußalgo. durchgeführt wurden sind. Wenn ich dann M als Koeffizietenmatrix setze und und R für die rechte <REMOVED_PERSON_ENTITY> einsetzte dann ist dieses LGS nicht lösbar , da der Rang unterschiedlich ist.
+ 
+Haben Sie eventuell noch ein Tipp für mich? Können mir meine Mitstreiter eventuell auf die Sprünge helfen?
+Besten Dank und Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

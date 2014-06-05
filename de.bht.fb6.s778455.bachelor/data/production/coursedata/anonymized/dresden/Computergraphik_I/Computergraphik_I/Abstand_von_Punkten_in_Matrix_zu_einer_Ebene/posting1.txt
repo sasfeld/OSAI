@@ -1,0 +1,13 @@
+ID: 602
+CREATION_DATETIME: 1351551600000
+MODIFICATION_DATETIME: 1384729200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+<REMOVED_PERSON_ENTITY>, ich steh auf dem <REMOVED_PERSON_ENTITY>. Ich habe eine Matrix mit Punkten als <REMOVED_PERSON_ENTITY> und soll jetzt rausfinden, wie ich das Ganze mit einer anderen Matrix multipliziere, um in einer Zeile des Ergebnisses den Abstand des jeweiligen Punktes zur einer Ebene stehen zu haben.
+Dabei sei das Ganze per Translation bereits so hingeschoben, dass die Ebene durch den Nullpunkt geht. Der Normalenvektor der Ebene sei mit dem Vektor **d** gegeben.
+Mein Ansatz ist, dass bei einem Punkt mit Ortsvektor **p** der Abstand zur Ebene gegeben ist durch 
+$\frac{|d \bullet p|}{|d|}$.
+Aber wie gieße ich das jetzt in eine Matrix?
+TAGGED_CONTENT:

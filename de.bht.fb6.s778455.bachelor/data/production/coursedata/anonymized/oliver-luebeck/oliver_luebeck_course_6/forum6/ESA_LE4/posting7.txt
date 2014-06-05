@@ -1,0 +1,18 @@
+ID: 36
+CREATION_DATETIME: 1287336060000
+MODIFICATION_DATETIME: 1287336060000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 35
+CONTENT:
+ 
+Hallo ,
+
+Du hättest nicht gleich den ganzen Code hinschreiben müssen, denn mancher Dozent sieht das gar nicht so gern.
+Aber ich sehe meinen Fehler: Es ist das Semikolon vor der schließenden geschweiften Klammer in der vorvorletzten Zeile.
+
+Danke 
+
+PS: Mit einem If-Block müsste es natürlich auch funktionieren.
+	
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 1902
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: geht aktuell leider noch nicht, gibt noch Probleme bei der Ausführung.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1900
+POSTING_TYPE: comment
+CONTENT:
+geht aktuell leider noch nicht, gibt noch Probleme bei der Ausführung.
+
+Ansonsten ist der bisherige Testbeispielcode im Ordner testCLT zu finden (genauer testCLT/src/testCLT. cpp) das ganze lässt sich mit "./compileandbuild -buildLib" ausführen
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 2071
+CREATION_DATETIME: 1371420000000
+MODIFICATION_DATETIME: 1371420000000
+TITLE: So, was wollen wir nun für eine GPU für die Wimpy bestellen?
+
+Ich denke er läuft auf die "Zotac GeF...
+PARENT_POSTING_ID: 2057
+POSTING_TYPE: answer
+CONTENT:
+So, was wollen wir nun für eine GPU für die Wimpy bestellen?
+Ich denke er läuft auf die "Zotac GeForce GT 630 Synergy" hinaus. Die sollte schon <REMOVED_PERSON_ENTITY> sein mit 1-2 GB Memory und 50-65 <REMOVED_PERSON_ENTITY> max. Denkt ihr die braucht zu viel <REMOVED_PERSON_ENTITY> für ein 180 <REMOVED_PERSON_ENTITY>? Nvidia schreibt immer: system mind. 300W netzteil
+TAGGED_CONTENT:

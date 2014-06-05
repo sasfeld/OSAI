@@ -1,0 +1,19 @@
+ID: 172065
+CREATION_DATETIME: 1350563605
+MODIFICATION_DATETIME: 1350563605
+TITLE: Re: Arbeitsblätter 1. Präsenz
+LANGUAGE: GERMAN
+POS_TAG: value:mails;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabenblatt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 171973
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+vielen Dank dafür, an dieses Aufgabenblatt kann ich mich tatsächlich nicht erinnern, obwohl ich eigentlich schon e-mails von <REMOVED_PERSON_ENTITY>lomo") bekommen habe. Ich kann das gerade nicht nachprüfen, da meine e-mails dummerweise komplett gelöscht wurden... Ich werde ihn nochmal fragen.
+Danke wegen der Gruppe, ich hoffe, ich komme noch irgendwo unter.
+Schönen Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE ,_$, vielen_PIDAT Dank_NN dafür_PROAV ,_$, an_APPR dieses_PDAT Aufgabenblatt_NN kann_VMFIN ich_PPER mich_PRF tatsächlich_ADJD nicht_PTKNEG erinnern_VVINF ,_$, obwohl_KOUS ich_PPER eigentlich_ADV schon_ADV e-mails_ADV von_APPR <_CARD REMOVED_PERSON_ENTITY_NN >_CARD lomo_FM "_$( -RRB-_TRUNC bekommen_VVPP habe_VAFIN ._$. Ich_PPER kann_VMFIN das_ART gerade_ADV nicht_PTKNEG nachprüfen_VVINF ,_$, da_KOUS meine_PPOSAT e-mails_NN dummerweise_ADV komplett_ADJD gelöscht_VVPP wurden_VAFIN ..._$( Ich_PPER werde_VAFIN ihn_PPER nochmal_ADV fragen_VVFIN ._$. Danke_PROAV wegen_APPR der_ART Gruppe_NN ,_$, ich_PPER hoffe_VVFIN ,_$, ich_PPER komme_VVFIN noch_ADV irgendwo_ADV unter_PTKVZ ._$. Schönen_ADJA Gruß_NN <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

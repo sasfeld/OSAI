@@ -1,0 +1,12 @@
+ID: 1785
+CREATION_DATETIME: 1367791200000
+MODIFICATION_DATETIME: 1367791200000
+TITLE: Das war nicht das Passende, aber ich habe es mir jetzt erfragt. Danke!
+LANGUAGE: GERMAN
+POS_TAG: value:Passende;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1774
+POSTING_TYPE: answer
+CONTENT:
+Das war nicht das Passende, aber ich habe es mir jetzt erfragt. Danke!
+TAGGED_CONTENT:
+Das_PDS war_VAFIN nicht_PTKNEG das_ART Passende_NN ,_$, aber_KON ich_PPER habe_VAFIN es_PPER mir_PPER jetzt_ADV erfragt_VVPP ._$. Danke_PROAV !_$. 

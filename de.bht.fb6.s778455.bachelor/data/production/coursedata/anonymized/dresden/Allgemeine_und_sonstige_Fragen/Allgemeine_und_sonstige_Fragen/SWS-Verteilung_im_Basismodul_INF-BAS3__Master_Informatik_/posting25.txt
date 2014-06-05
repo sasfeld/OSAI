@@ -1,0 +1,10 @@
+ID: 1022
+CREATION_DATETIME: 1357599600000
+MODIFICATION_DATETIME: 1357599600000
+TITLE: kleines Update: habe das Problem der Prüfungsausschussvorsitzenden unterbreitet. Sie ist prinzipiell ...
+PARENT_POSTING_ID: 728
+POSTING_TYPE: comment
+CONTENT:
+kleines Update: habe das Problem der Prüfungsausschussvorsitzenden unterbreitet. Sie ist prinzipiell unserer Meinung. Das ganze muss jetzt aber mit den betreffenden Profs geprüft werden.
+I'll keep you updated.
+TAGGED_CONTENT:

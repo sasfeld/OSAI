@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="13464" moduleid="67238" modulename="forum" contextid="94156">
+  <forum id="13464">
+    <type>news</type>
+    <name>Wichtige Ankündigungen</name>
+    <intro>&lt;p&gt;Neuigkeiten und Ankündigungen&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>1</scale>
+    <maxbytes>0</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1317638385</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="42906">
+        <name>Videokonferenzen </name>
+        <firstpost>115377</firstpost>
+        <userid>665</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1317638804</timemodified>
+        <usermodified>665</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="115377">
+            <parent>0</parent>
+            <userid>665</userid>
+            <created>1317638804</created>
+            <modified>1317638804</modified>
+            <mailed>1</mailed>
+            <subject>Videokonferenzen </subject>
+            <message>&lt;p&gt;Liebe Studierenden,&lt;/p&gt;
+&lt;p&gt;zur Besprechung von Fragen zu den Lernobjekten oder den Übungs- und Zusatzaufgaben werden wir regelmäßige Videokonferenzen durchführen. Diese finden mittwochs um &lt;strong&gt;19 Uhr&lt;/strong&gt; statt, mit Ausnahme der ersten, die ich leider auf Mittwoch, 20 Uhr verschieben muss. Die Termine sind:&lt;/p&gt;
+&lt;p&gt;Mittwoch, 12.10.&lt;/p&gt;
+&lt;p&gt;Mittwoch, 26.10.&lt;/p&gt;
+&lt;p&gt;Mittwoch, 9.11.&lt;/p&gt;
+&lt;p&gt;Mittwoch, 23.11.&lt;/p&gt;
+&lt;p&gt;Mittwoch, 7.12.&lt;/p&gt;
+&lt;p&gt;Mittwoch, 18.1.&lt;/p&gt;
+&lt;p&gt;Bis dann!&lt;/p&gt;
+&lt;p&gt;Ulrike Bähr&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="42907">
+        <name>Zusätzliche Video-Konferenz am 21.12. 19 Uhr</name>
+        <firstpost>115378</firstpost>
+        <userid>665</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1323283155</timemodified>
+        <usermodified>665</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="115378">
+            <parent>0</parent>
+            <userid>665</userid>
+            <created>1323283155</created>
+            <modified>1323283155</modified>
+            <mailed>1</mailed>
+            <subject>Zusätzliche Video-Konferenz am 21.12. 19 Uhr</subject>
+            <message>&lt;p&gt;Liebe Studierenden,&lt;/p&gt;
+&lt;p&gt;wie besprochen, findet eine weitere Video-Konferenz zum Thema Vektorrechnung am Mittwoch, 21.12. um 19 Uhr statt.&lt;/p&gt;
+&lt;p&gt;Viele Grüße&lt;/p&gt;
+&lt;p&gt;Ulrike Bähr&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="42908">
+        <name>Hinweise zu den Klausuren</name>
+        <firstpost>115379</firstpost>
+        <userid>665</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1327426940</timemodified>
+        <usermodified>665</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="115379">
+            <parent>0</parent>
+            <userid>665</userid>
+            <created>1327426940</created>
+            <modified>1327426940</modified>
+            <mailed>1</mailed>
+            <subject>Hinweise zu den Klausuren</subject>
+            <message>&lt;div class="posting"&gt; 
+  &lt;p&gt;Liebe Studierenden,&lt;/p&gt; 
+  &lt;p&gt;die Hinweise zu den Klausuren finden Sie &lt;a href="http://moodle.oncampus.de/file.php/4531/Klausurhinweise.pdf"&gt;&lt;font color="#ca2011"&gt;hier&lt;/font&gt;&lt;/a&gt; bzw. im Kurs unter Informationen.&lt;/p&gt; 
+  &lt;p&gt;Viel Erfolg!&lt;/p&gt; 
+  &lt;p&gt;Ulrike Bähr&lt;/p&gt;&lt;/div&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

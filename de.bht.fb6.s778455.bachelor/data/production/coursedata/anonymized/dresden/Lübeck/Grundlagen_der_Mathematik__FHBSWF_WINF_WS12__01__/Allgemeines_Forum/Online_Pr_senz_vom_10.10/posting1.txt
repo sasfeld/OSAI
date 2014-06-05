@@ -1,0 +1,34 @@
+ID: 169191
+CREATION_DATETIME: 1349900351
+MODIFICATION_DATETIME: 1349900351
+TITLE: Online Präsenz vom 10.10.
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+bezüglich der heutigen Online Präsenz zum Thema Ordnungsrelationen und Äquivalenzrelation habe ich noch ein paar Frage.
+1. Frage
+{(a, b),(b, b),(c, b)} Was ist dieser Ausdruck?
+Reflexiv? Nein weil nicht alle Elemente mit sich selbst in Verbindung stehen. Um Reflexivität zu erfüllen, müsste die Paare (a, a) &amp; (c, c) auch noch in der Menge aufgelistet werden.
+Symmetrisch?Nicht symentrisch weil nicht für jedes Paar eine "Umkehrung" aufgelistet ist. Um die Eigenschaft der der Symmetrie zu erfüllen musste noch folgende Paare in der Menge stehen:(b, a), (b, c)
+Antisymmetrisch?Ja! Grund ist der Ausdruck ist das Element (c, b).!!!Kann man das noch einmal genauer erklären?
+Transitiv?Eigentlich nicht weil a in Relation zu b, b in Releation zu b und c in Releation zu b steht. Da hier kein Fall abzuprüfen ist, sind hier die Eingeschaften der Transitivität erfüllt.!!!Kann man das noch genauer erläutern?!!!Eigentlich müsste ja dann jeder Ausdruck transitiv sein weil entweder ist er es oder es ist kein Fall abzuprüfen, oder?
+Am Ende stellt sich heraus die <REMOVED_PERSON_ENTITY> ist antisymmtrisch und transitiv. Damit ist es weder eine Ordnungsrelationen noch eine Äquivalenzrelation.'
+2. Frage
+Wie kann man sagen, dass z. B. die Zeichen "&lt;" nicht reflexiv &amp; symmetrisch sind "&lt;=" reflexiv ist und das "=" symmetrisch ist ohnedas diese Zeichen in Verbindung mit irgendwelchen Elementen gebracht werden?
+3 Frage
+Äquivalenzrelation grafisch.
+Bedingung: "Lässt beim Teilen durch 3 den gleichen Rest"
+Folgende Zahlen:12, 3, 2, 5, 1, 4, 7
+12:3 = Rest 0
+5:3 = Rest 2
+7:3 = Rest 14:3 = Rest 1
+7 und 4 haben den gleichen Rest somit gehören Sie zusammen. Man kann sie also untereinander verbinden: 7-&gt;1 / 7-&gt;4 / 4-&gt;1Die beiden anderen Zahlen kann man auch noch verbinden 5-&gt;2 &amp; 12-&gt;3 müsste hier dann nicht aber eine 0 stehen? Weil 12 : 3 den Rest 0 ergibt(?)
+4 Frage:
+Was bedeutet folgender Ausdruck ausgesprochen:aRb:&lt;=&gt;a|b -&gt;&gt; a steht in Relation mit b wenn a teilt b, ist das richtig?
+5 Frage:
+Ist folgende Annahme von mir richtig:
+-{(a, b),(b, c),(a, c)} -&gt;&gt; Andere Ausdruckweise: aRb, bRc -&gt; aRc-&gt;&gt; Andere Ausdruckweise: Wenn a in Relation zu b und b in Relation zu C steht dann steht a auch in Relation zu c
+Mal wieder besten Dank für eure Unterstützung.
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

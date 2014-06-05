@@ -1,0 +1,15 @@
+ID: 62
+CREATION_DATETIME: 1181908140000
+MODIFICATION_DATETIME: 1181908140000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo zusammen,
+
+habe gerade versucht, die Klassen Buch und Fachbuch von S. 10/19 aus Kapitel Vererbung nachzuschreiben. Wenn ich das richtig verstanden habe, sollte es wie beschrieben funktionieren. Ich bekomme aber eine Fehlermeldung, habe schon einiges ausprobiert, den Fehler aber noch nicht gefunden, sodass ich das gerade nicht richtig nachvollziehen kann? Sieht jemand den Fehler und kann mir helfen? 
+
+Ciao
+    
+TAGGED_CONTENT:

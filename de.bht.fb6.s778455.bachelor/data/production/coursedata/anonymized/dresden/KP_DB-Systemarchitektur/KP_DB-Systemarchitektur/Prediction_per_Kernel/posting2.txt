@@ -1,0 +1,9 @@
+ID: 2231
+CREATION_DATETIME: 1373666400000
+MODIFICATION_DATETIME: 1373666400000
+TITLE: die Daten mit GeForce sieht noch komisch aus. Sollen wir mehr Rang fuer Least Square benutzen.
+PARENT_POSTING_ID: 2230
+POSTING_TYPE: comment
+CONTENT:
+die Daten mit GeForce sieht noch komisch aus. Sollen wir mehr Rang fuer Least Square benutzen?
+TAGGED_CONTENT:

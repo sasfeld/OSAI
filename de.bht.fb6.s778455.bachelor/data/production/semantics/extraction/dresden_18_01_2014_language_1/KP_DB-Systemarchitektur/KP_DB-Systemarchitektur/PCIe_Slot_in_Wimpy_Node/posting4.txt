@@ -1,0 +1,12 @@
+ID: 2072
+CREATION_DATETIME: 1371420000000
+MODIFICATION_DATETIME: 1371420000000
+TITLE: http://www.gpuzoo.com/GPU-NVIDIA/GeForce_GT_630_DDR3.html
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2071
+POSTING_TYPE: comment
+CONTENT:
+http://www.gpuzoo.com/GPU-NVIDIA/GeForce_GT_630_DDR3. html
+
+http://clbenchmark.com/device-environment. jsp?config=12606626
+TAGGED_CONTENT:

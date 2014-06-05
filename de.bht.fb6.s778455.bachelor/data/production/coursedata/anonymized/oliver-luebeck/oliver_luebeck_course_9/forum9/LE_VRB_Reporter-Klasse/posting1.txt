@@ -1,0 +1,13 @@
+ID: 59
+CREATION_DATETIME: 1180895640000
+MODIFICATION_DATETIME: 1180895640000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+ 
+Welche Funktion hat die Reporter-Klasse, die ich da erstellen soll? Es ist doch alles per Konsole durch die ShapeTester-Klasse schon ausgegeben.
+
+Ich versteh jetzt die Aufgabe "Programmieren sie dazu eine Hilfsklasse Reporter, in der sich die Methode report mit der folgenden Signatur befindet: static public void report(Shape s)." nicht.
+    
+TAGGED_CONTENT:

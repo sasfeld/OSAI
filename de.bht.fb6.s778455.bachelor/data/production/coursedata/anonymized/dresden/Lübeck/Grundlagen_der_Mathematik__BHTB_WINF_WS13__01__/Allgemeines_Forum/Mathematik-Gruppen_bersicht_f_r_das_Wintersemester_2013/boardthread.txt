@@ -1,0 +1,4 @@
+ID: 92387
+MODIFICATION_DATETIME: 1383591137
+TITLE: Mathematik-Gruppenübersicht für das Wintersemester 2013
+FIRST_POSTING_ID: 243737

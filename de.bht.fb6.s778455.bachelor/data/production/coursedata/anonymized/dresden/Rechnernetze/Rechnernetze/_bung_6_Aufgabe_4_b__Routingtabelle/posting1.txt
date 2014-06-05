@@ -1,0 +1,18 @@
+ID: 2418
+CREATION_DATETIME: 1374444000000
+MODIFICATION_DATETIME: 1374789600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wir versuchen eben noch die Übung 6 Aufgabe 4b) zu lösen
+wir haben folgenden Tabellenkopf:
+Typ |  <REMOVED_PERSON_ENTITY>               | Ziel 
+-----------------------------
+c   | 141. 76. 49. 0/22   | 141. 76. 40. 190 ("A")|
+c   | 141. 76. 29. 32/28 | 141. 76. 40. ("C")
+ist die <REMOVED_PERSON_ENTITY> die <REMOVED_PERSON_ENTITY> des Endziels?
+Wie entscheiden wir bei dieser Aufgabe, ob es Statisch, dynamisch oder connected ist?
+Statisch für weiter entfernte, Connected für direkt daneben liegende Rechner?
+Vielleicht könnte uns jmd die richtige Routingtabelle sagen oder sogar vorrechnen?
+TAGGED_CONTENT:

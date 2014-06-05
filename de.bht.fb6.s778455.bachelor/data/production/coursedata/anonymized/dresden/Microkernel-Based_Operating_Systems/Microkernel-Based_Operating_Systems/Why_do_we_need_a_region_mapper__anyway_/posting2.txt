@@ -1,0 +1,11 @@
+ID: 1681
+CREATION_DATETIME: 1365372000000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: 1. The send base comes into play when the faulting thread and the page fault handler disagree on the ...
+PARENT_POSTING_ID: 1680
+POSTING_TYPE: answer
+CONTENT:
+1. The send base comes into play when the faulting thread and the page fault handler disagree on the size of the region for a flexpage mapping. The faulter <NAME_CORPUS_REPLACEMENT> for instance specify a region of 1 MB to get a mapping into, but the fault handler <NAME_CORPUS_REPLACEMENT> only be serving 4 kB page mappings.  In this case the question arises, where to in the receiver's 1 MB region the handler's 4 kB page should be mapped. This is specified by the send base (and some additional magic regarding the sizes and alignments of the mappings - for details refer to the implemenation in Fiasco as I'm afraid the kernel maintainer is the only person who really knows all the rules).
+2. The client's address space <NAME_CORPUS_REPLACEMENT> consist of regions originating from different sources (e. g., an mmap'ed file from a file server and anonymous memory from a memory server). To resolve a page fault, the pager needs to be aware which of the sources it needs to ask for memory (and content). This is why we need the region map and the region manager by the way.
+3. I have a feeling that you are mixing up terms here.  If there are two pagers (== page fault handlers) for one address space, these need to synchronize their views on the address space layout as otherwise they <NAME_CORPUS_REPLACEMENT> map different pages to the same virtual address. This is a race condition and definitely not something the application would want. We avoid this need for synchronization by having exactly one pager for every address space.
+TAGGED_CONTENT:

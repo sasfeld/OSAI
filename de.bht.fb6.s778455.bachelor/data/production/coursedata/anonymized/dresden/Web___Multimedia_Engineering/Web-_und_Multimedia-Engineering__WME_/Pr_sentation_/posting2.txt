@@ -1,0 +1,19 @@
+ID: 643
+CREATION_DATETIME: 1351724400000
+MODIFICATION_DATETIME: 1381701600000
+TITLE: **Wie viel Zeit bekommen wir?**
+Jede Gruppe hat 10 Minuten für Ihren Vortrag. Die Zeit sollte auch s...
+PARENT_POSTING_ID: 642
+POSTING_TYPE: answer
+CONTENT:
+**Wie viel Zeit bekommen wir?**
+Jede Gruppe hat 10 Minuten für Ihren Vortrag. Die Zeit sollte auch so eingehalten werden. Die Infos dazu sind aber auch in den allgemeinen Folien nochmal (Folie "Votierungen")
+**Was wird Inhaltlich erwartet?**
+Stellt eure Lösung und das Vorhegen vor. Was waren eure Probleme, was kann man bei eurer Lösung vielleicht als Besonders hervorheben? 
+**Sollen beide Teammitglieder zu Wort kommen?**
+Muss nicht zwingend. Es müssen aber alle <NAME_CORPUS_REPLACEMENT> sein um auf Nachfragen etc. antworten zu können.
+**Ist die Präsentation Punkterelevant oder wollt ihr nur sicherstellen, dass wirklich wir das gemacht haben?**
+Ja, nein.
+**Was muss ich machen wenn ich präsentieren möchte?**
+Mail an <REMOVED_PERSON_ENTITY> und Folien (Template beachten!!) mit abgeben
+TAGGED_CONTENT:

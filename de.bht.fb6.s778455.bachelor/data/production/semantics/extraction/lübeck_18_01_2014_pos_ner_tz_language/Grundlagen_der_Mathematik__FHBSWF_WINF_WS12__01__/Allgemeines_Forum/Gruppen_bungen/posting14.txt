@@ -1,0 +1,47 @@
+ID: 194913
+CREATION_DATETIME: 1358628296
+MODIFICATION_DATETIME: 1358628296
+TITLE: Re: Gruppenübungen
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:3.47798843820414;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Tipps;weight:1.0;significance:2.9863847504958;degreegeneralization:4;uri:20291636
+TOPIC_ZOOM_TAG: value:Bücher;weight:1.0;significance:2.90139811946123;degreegeneralization:5;uri:21981657
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:2.77735785682754;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:2.59037776375624;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:2.18452430611399;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Presse, Druck und Verlagswesen;weight:1.0;significance:1.94986601606664;degreegeneralization:4;uri:21990174
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:1.07441906812122;degreegeneralization:2;uri:21999813
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+POS_TAG: value:Rang;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kapitel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Koeffizietenmatrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:Antwort;weight:0.0;uri:;postag:NN
+POS_TAG: value:Elementarmatrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:LGS;weight:0.0;uri:;postag:NN
+POS_TAG: value:Prof.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tipp;weight:0.0;uri:;postag:NN
+POS_TAG: value:algo;weight:0.0;uri:;postag:NN
+POS_TAG: value:Herr;weight:0.0;uri:;postag:NN
+POS_TAG: value:nnen;weight:0.0;uri:;postag:NN
+POS_TAG: value:R;weight:0.0;uri:;postag:NN
+POS_TAG: value:nge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Produktmatrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:Besten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wissen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mitstreiter;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dr.;weight:0.0;uri:;postag:NN
+POS_TAG: value:operationen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 194785
+CONTENT:
+Hallo Herr Prof. Dr. <REMOVED_PERSON_ENTITY>,
+Vielen Dank für die Antwort. Also ich habe mir das besagte Kapitel noch einmal angeschaut. Ich weiß eigentlich auch was ich mit einer Produktmatrix und Elementarmatrix  machen kann , aber ich sehe nicht wirklich wie mir dieses Wissen hier weiterhelfen soll. Um eine Produktmatrix erzeugen zu können muss ich ja ganz genau wissen welche operationen mittels Gaußalgo. durchgeführt wurden sind. Wenn ich dann M als Koeffizietenmatrix setze und und R für die rechte <REMOVED_PERSON_ENTITY> einsetzte dann ist dieses LGS nicht lösbar , da der Rang unterschiedlich ist.
+ 
+Haben Sie eventuell noch ein Tipp für mich? Können mir meine Mitstreiter eventuell auf die Sprünge helfen?
+Besten Dank und Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ Herr_NN Prof._NN Dr._NN <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, Vielen_PIS Dank_NN für_APPR die_ART Antwort_NN ._$. Also_ADV ich_PPER habe_VAFIN mir_PPER das_ART besagte_ADJA Kapitel_NN noch_ADV einmal_ADV angeschaut_VVPP ._$. Ich_PPER weiß_VVFIN eigentlich_ADV auch_ADV was_PWS ich_PPER mit_APPR einer_ART Produktmatrix_NN und_KON Elementarmatrix_NN machen_VVINF kann_VMFIN ,_$, aber_KON ich_PPER sehe_VVFIN nicht_PTKNEG wirklich_ADJD wie_KOKOM mir_PPER dieses_PDAT Wissen_NN hier_ADV weiterhelfen_VVINF soll_VMFIN ._$. Um_APPR eine_ART Produktmatrix_NN erzeugen_VVINF zu_PTKZU können_VMINF muss_PPER ich_PPER ja_ADV ganz_ADV genau_ADJD wissen_VVFIN welche_PWAT operationen_NN mittels_APPR Gaußalgo_NN ._$. durchgeführt_VVPP wurden_VAFIN sind_VAFIN ._$. Wenn_KOUS ich_PPER dann_ADV M_NE als_APPR Koeffizietenmatrix_NN setze_VVFIN und_KON und_KON R_NN für_APPR die_ART rechte_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_CARD einsetzte_VVFIN dann_ADV ist_VAFIN dieses_PDAT LGS_NN nicht_PTKNEG lösbar_ADJD ,_$, da_KOUS der_ART Rang_NN unterschiedlich_ADJD ist_VAFIN ._$. Haben_VAFIN Sie_PPER eventuell_ADJD noch_ADV ein_ART Tipp_NN für_APPR mich_PPER ?_$. Können_NN mir_PPER meine_PPOSAT Mitstreiter_NN eventuell_ADJD auf_APPR die_ART Sprünge_NN helfen_VVINF ?_$. Besten_NN Dank_NN und_KON Gruß_NN <_VVFIN REMOVED_PERSON_ENTITY_NE >_XY 

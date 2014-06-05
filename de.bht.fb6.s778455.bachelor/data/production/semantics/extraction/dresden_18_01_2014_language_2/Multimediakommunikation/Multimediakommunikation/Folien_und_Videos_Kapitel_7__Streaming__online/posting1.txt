@@ -1,0 +1,16 @@
+ID: 1841
+CREATION_DATETIME: 1369087200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Wie angekündigt wird das Kapitel 7 als Online-Vorlesung verfügbar gemacht. Ihr solltet euch die Videos innerhalb der nächsten 2 Wochen anschauen, <NAME_CORPUS_REPLACEMENT> am 04. 06. die Vorlesung mit dem Kapitel 8 regulär fortgeführt wird. Die entsprechenden Folien sind auf der Webseite der Lehrveranstaltung verfügbar. 
+
+Das Ganze hier ist ein Experiment, bitte also über die handwerklichen Mängel der Videos großzügig hinwegsehen... :-)
+
+Kommentare sind sehr willkommen. Zu jedem Video-Post gibt es eine Diskussionsseite in Auditorium, die für diesen Zweck genutzt werden kann und soll. 
+
+https://auditorium. inf. tu-dresden. de/courses/2154446/recordings
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 1737
+CREATION_DATETIME: 1366063200000
+MODIFICATION_DATETIME: 1366063200000
+TITLE: An wen kann ich mich für das Selbststudium wenden? Und gibt es irgendwo konkretere Informationen als ...
+PARENT_POSTING_ID: 1730
+POSTING_TYPE: comment
+CONTENT:
+An wen kann ich mich für das Selbststudium wenden? Und gibt es irgendwo konkretere Informationen als in der Modulbeschreibung, was das Selbststudium umfassen muss?
+TAGGED_CONTENT:

@@ -1,0 +1,46 @@
+ID: 2704
+CREATION_DATETIME: 1383519600000
+MODIFICATION_DATETIME: 1383519600000
+TITLE: Mit @EnableGlobalMethodSecurity gibt es beim Start den Fehler:
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2703
+POSTING_TYPE: comment
+CONTENT:
+Mit @EnableGlobalMethodSecurity gibt es beim Start den Fehler:
+
+```
+
+Caused by: java. lang. IllegalArgumentException: Expecting to only find a single bean for type interface org. springframework. security. authentication. AuthenticationManager, but found []
+
+at org. springframework. util. Assert. isTrue(Assert. java:65)
+
+at org. springframework. security. config. annotation. method. configuration. GlobalMethodSecurityConfiguration. lazyBean(GlobalMethodSecurityConfiguration. java:361)
+
+at org. springframework. security. config. annotation. method. configuration. GlobalMethodSecurityConfiguration. authenticationManager(GlobalMethodSecurityConfiguration. java:250)
+
+at org. springframework. security. config. annotation. method. configuration. GlobalMethodSecurityConfiguration. methodSecurityInterceptor(GlobalMethodSecurityConfiguration. java:119)
+
+at org. springframework. security. config. annotation. method. configuration. GlobalMethodSecurityConfiguration$$EnhancerByCGLIB$$bf94234f. CGLIB$methodSecurityInterceptor$2()
+
+at org. springframework. security. config. annotation. method. configuration. GlobalMethodSecurityConfiguration$$EnhancerByCGLIB$$bf94234f$$FastClassByCGLIB$$622cff51. invoke()
+
+at org. springframework. cglib. proxy. MethodProxy. invokeSuper(MethodProxy. java:228)
+
+at org. springframework. context. annotation. ConfigurationClassEnhancer$BeanMethodInterceptor. intercept(ConfigurationClassEnhancer. java:334)
+
+at org. springframework. security. config. annotation. method. configuration. GlobalMethodSecurityConfiguration$$EnhancerByCGLIB$$bf94234f. methodSecurityInterceptor()
+
+at sun. reflect. NativeMethodAccessorImpl. invoke0(Native Method)
+
+at sun. reflect. NativeMethodAccessorImpl. invoke(NativeMethodAccessorImpl. java:57)
+
+at sun. reflect. DelegatingMethodAccessorImpl. invoke(DelegatingMethodAccessorImpl. java:43)
+
+at java. lang. reflect. Method. invoke(Method. java:601)
+
+at org. springframework. beans. factory. support. SimpleInstantiationStrategy. instantiate(SimpleInstantiationStrategy. java:166)
+
+... 18 more
+
+```
+TAGGED_CONTENT:

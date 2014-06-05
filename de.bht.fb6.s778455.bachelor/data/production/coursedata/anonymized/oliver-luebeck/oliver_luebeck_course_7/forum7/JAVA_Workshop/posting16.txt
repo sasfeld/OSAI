@@ -1,0 +1,18 @@
+ID: 72
+CREATION_DATETIME: 1305643020000
+MODIFICATION_DATETIME: 1305643020000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 70
+CONTENT:
+  
+hallo! :)
+
+bin zwar wieder in berlin, aber hab gleich noch nen besichtigungstermin, den konnte ich nicht verschieben....
+
+wie habt ihr das denn mit skype/teamviewer geplant? ich hab jetzt mal beides installiert. skype: naamah.erdbeerwelt
+wäre schön, wenn es klappen würde.
+
+alles liebe,
+    
+TAGGED_CONTENT:

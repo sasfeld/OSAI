@@ -1,0 +1,14 @@
+ID: 2916
+CREATION_DATETIME: 1384815600000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: Ich glaube er meinte eine Musterlösung bereitzustellen /nachdem/ die Studenten eine Aufgabe gelöst ha...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2914
+POSTING_TYPE: comment
+CONTENT:
+Ich glaube er meinte eine Musterlösung bereitzustellen /nachdem/ die Studenten eine Aufgabe gelöst haben.
+
+BTW: Es gibt keine "gute" oder "schlechte" Syntax -- die Syntax ist entweder korrekt oder nicht. KevG meint sicherlich Stil, obwohl hier wieder die "Gefahr" besteht in indentation wars zu geraten.
+
+Im Großen und Ganzen finde ich die Idee aber gut und mache das bei meinen Studenten auch.
+TAGGED_CONTENT:

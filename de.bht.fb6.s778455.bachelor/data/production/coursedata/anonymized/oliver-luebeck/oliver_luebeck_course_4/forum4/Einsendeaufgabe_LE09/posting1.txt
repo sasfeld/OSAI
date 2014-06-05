@@ -1,0 +1,45 @@
+ID: 52
+CREATION_DATETIME: 1178360400000
+MODIFICATION_DATETIME: 1178360400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+    
+    Bin gerade etwas ahnungslos was die Einsendeaufgabe LE09 betrifft, habe wie verlangt die Taschenrechner Klasse erstellt (Ist ja die Vorlage, dem Skript nach zur Aktivierung) aber er möchte sie nicht kompilieren, da er mit Gui Klasse nichts anfangen kann. Habe alles genau so eingetippt und mit der Gui Klasse haben wir ja direkt noch nichts zu schaffen, diese wurde ja bereits vorprogrammiert.
+
+import java.awt.*;
+
+public class Taschenrechner {
+
+private Gui rechner;
+
+public Taschenrechner() {
+rechner = new Gui();
+
+}
+
+public static void main(String[] args){
+new Taschenrechner();
+}
+
+}
+
+Das ist die Fehlermedlung der DOS-Eingabeaufforderung:
+
+C:\vfh>javac Taschenrechner.java
+Taschenrechner.java:14: cannot find symbol
+symbol : class Gui
+location: class Taschenrechner
+private Gui rechner;
+^
+Taschenrechner.java:17: cannot find symbol
+symbol : class Gui
+location: class Taschenrechner
+rechner = new Gui();
+^
+2 errors
+
+    
+TAGGED_CONTENT:

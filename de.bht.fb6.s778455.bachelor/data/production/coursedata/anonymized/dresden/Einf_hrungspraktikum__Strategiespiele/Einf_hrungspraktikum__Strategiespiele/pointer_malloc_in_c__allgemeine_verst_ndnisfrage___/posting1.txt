@@ -1,0 +1,19 @@
+ID: 1402
+CREATION_DATETIME: 1362783600000
+MODIFICATION_DATETIME: 1363647600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+ich allokiere einen pointer p
+p = malloc(sizeof(irgendwas));
+dann habe ich ein element bzw. speicher in größe <NAME_CORPUS_REPLACEMENT> "irgendwas"
+dann kommt irgendwann mal
+p = NULL;
+also ist das element bzw. der speicherplatz <NAME_CORPUS_REPLACEMENT> dem element immer noch <NAME_CORPUS_REPLACEMENT>, aber p zeigt nicht mehr darauf
+dann möchte ich ein neues element erstellen (mit p) und zb wert eingeben
+p->wert = 5;
+jetzt ist meine frage, schreibt es die 5 auch in mein neues element oder in das alte, das ich am anfang allokiert habe?
+bzw. müsste ich erneut p = malloc(sizeof(irgendwas)); allokieren um das neue element zu erstellen und dann die 5 darein eintragen??
+ich hoffe, dass man meine frage verstehen kann xD
+TAGGED_CONTENT:

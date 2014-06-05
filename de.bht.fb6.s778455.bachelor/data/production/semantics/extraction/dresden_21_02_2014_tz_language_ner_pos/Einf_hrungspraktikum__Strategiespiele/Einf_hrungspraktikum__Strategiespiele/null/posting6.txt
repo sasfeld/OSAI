@@ -1,0 +1,22 @@
+ID: 2541
+CREATION_DATETIME: 1381096800000
+MODIFICATION_DATETIME: 1382652000000
+TITLE: null
+LANGUAGE: GERMAN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:State;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kalaha;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ergebnis;weight:0.0;uri:;postag:NN
+POS_TAG: value:glichkeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Funktion;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wert;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wird bei Kalaha der State wirklich nur so übergeben, wie es die `print_state()` Funktion zulässt?
+
+ich finde leider keine Möglichkeit zu testen, wie das Ergebnis der `serialize_state()` bzw `deserialize_state()` aussieht. Bekomme ich das überhaupt? schließlich gibt die Funktion einen Bool-Wert zurück.
+
+viele Grüße
+TAGGED_CONTENT:
+Wird_VAFIN bei_APPR Kalaha_NN der_ART State_NN wirklich_ADJD nur_ADV so_ADV übergeben_VVINF ,_$, wie_PWAV es_PPER die_ART `_ADJA print_state_ADJA -LRB-_TRUNC -RRB-_TRUNC `_KON Funktion_NN zulässt_VVFIN ?_$. ich_PPER finde_VVFIN leider_ADV keine_PIAT Möglichkeit_NN zu_PTKZU testen_VVINF ,_$, wie_PWAV das_ART Ergebnis_NN der_ART `_ADJA serialize_state_ADJA -LRB-_TRUNC -RRB-_TRUNC `_XY bzw_ITJ `_XY deserialize_state_PDS -LRB-_TRUNC -RRB-_TRUNC `_XY aussieht_VVFIN ._$. Bekomme_VVFIN ich_PPER das_ART überhaupt_ADV ?_$. schließlich_ADV gibt_VVFIN die_ART Funktion_NN einen_ART Bool-Wert_NN zurück_PTKVZ ._$. viele_PIDAT Grüße_NN 

@@ -1,0 +1,18 @@
+ID: 1703
+CREATION_DATETIME: 1365804000000
+MODIFICATION_DATETIME: 1365804000000
+TITLE: Die Übung ist natürlich hervorragend aufgebaut. ;-)
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1700
+POSTING_TYPE: answer
+CONTENT:
+Die Übung ist natürlich hervorragend aufgebaut. ;-)
+
+Ziel der Übung ist die Vertiefung der Vorlesungsinhalte wie auch die praktische Demonstration <NAME_CORPUS_REPLACEMENT> ausgewählten Inhalten der Vorlesung. An der ein oder anderen Stelle wird dann auch mal ein mit den Vorlesungsinhalten zusätzlicher Inhalt eingeführt (bspw. ein in der VL nur vom Begriff her erwähnter Mechanismus, um Daten im Web Browser persistent zu machen).
+
+Dabei wird es keine Gruppenarbeit oder einzureichenden Lösungen geben. Die Übung wird als Frontalübung durchgeführt - wir gehen die einzelnen Aufgaben, die im Vorfeld online gestellt werden (auf der <NAME_CORPUS_REPLACEMENT> Ihnen verlinkten Seite), nach und nach gemeinsam durch und diskutieren diese. 
+
+Eine Anwesenheitspflicht besteht nicht, die Inhalte der Übung sind aber natürlich prüfungsrelevant.
+
+Sie müssen somit die im Rahmen der Übung besprochenen Inhalte in der Prüfung parat haben, um die dann insgesamt 4 SWS angerechnet zu bekommen.
+TAGGED_CONTENT:

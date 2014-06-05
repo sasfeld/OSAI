@@ -1,0 +1,16 @@
+ID: 45
+CREATION_DATETIME: 1177864140000
+MODIFICATION_DATETIME: 1177864140000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 44
+CONTENT:
+
+so find' ich's auch am besten und logisch.
+wobei dann der "urkonstruktor" nutzlos wird.
+also könnte man den gleich aus'm code streichen^^
+
+ich werd's auch erstmal so lassen und dann mal sehen :)
+
+    
+TAGGED_CONTENT:

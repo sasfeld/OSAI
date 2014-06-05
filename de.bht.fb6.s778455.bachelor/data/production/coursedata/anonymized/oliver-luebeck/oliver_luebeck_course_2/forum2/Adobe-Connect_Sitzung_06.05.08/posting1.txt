@@ -1,0 +1,17 @@
+ID: 15
+CREATION_DATETIME: 1179052200000
+MODIFICATION_DATETIME: 1179052200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+befindet sich hier:
+
+http://breeze.tfh-berlin.de/p20438132/
+
+(z.Z. habe ich Probleme mit Änderungen im Kursplan – daher diese Mitteilung im Forum).
+
+Mit freundlichen Grüssen
+    
+TAGGED_CONTENT:

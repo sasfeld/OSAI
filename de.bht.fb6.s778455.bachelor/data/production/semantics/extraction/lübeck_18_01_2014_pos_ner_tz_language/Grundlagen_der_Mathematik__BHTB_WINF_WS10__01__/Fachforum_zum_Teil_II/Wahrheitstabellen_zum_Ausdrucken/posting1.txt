@@ -1,0 +1,14 @@
+ID: 101865
+CREATION_DATETIME: 1287916612
+MODIFICATION_DATETIME: 1287916612
+TITLE: Wahrheitstabellen zum Ausdrucken
+LANGUAGE: GERMAN
+POS_TAG: value:Wahrheitstabellen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ausdrucken;weight:0.0;uri:;postag:NN
+POS_TAG: value:runterladen!LG;weight:0.0;uri:;postag:NN
+POS_TAG: value:REMOVEMENT;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Habe mir die Wahrheitstabellen zum Ausdrucken erstellt!Wem es nützt, kann es hier gerne runterladen!LG <PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Habe_VAFIN mir_PPER die_ART Wahrheitstabellen_NN zum_APPRART Ausdrucken_NN erstellt!Wem_VVFIN es_PPER nützt_VVFIN ,_$, kann_VMFIN es_PPER hier_ADV gerne_ADV runterladen!LG_NN <_CARD PERSONAL_GREETING_REMOVEMENT_NN >_XY 

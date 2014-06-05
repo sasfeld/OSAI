@@ -1,0 +1,12 @@
+ID: 506
+CREATION_DATETIME: 1351116000000
+MODIFICATION_DATETIME: 1351465200000
+TITLE: You already found the right place to search for. The server class is responsible for receiving reques...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 504
+POSTING_TYPE: answer
+CONTENT:
+You already found the right place to search for. The server class is responsible for receiving requests and dispatching the answers. It has a function `reply_n_wait` that performs the actions to receive requests. If the `dispatch` function returns ENOREPLY, it only waits for a new incoming message. Otherwise it uses the `reply_and_wait` IPC system call to send an answer and then immediately wait for the next incoming message.
+
+The client is not involved in ENOREPLY at all. This code simply tells the framework to not send a reply, regardless of whether the client waits for one or not. If the client waits and the server does not send a reply, the client will simply be blocked in an `ipc_call` forever.
+TAGGED_CONTENT:

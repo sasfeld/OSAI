@@ -1,0 +1,20 @@
+ID: 184435
+CREATION_DATETIME: 1354458452
+MODIFICATION_DATETIME: 1354458452
+TITLE: Re: Aufgabe 2b)
+TOPIC_ZOOM_TAG: value:Skalare;weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:19937424
+TOPIC_ZOOM_TAG: value:Nachbarn;weight:1.0;significance:8.39106140169762;degreegeneralization:4;uri:20804645
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Wohnen, Haus und Garten;weight:1.0;significance:4.99075330422034;degreegeneralization:3;uri:21125894
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 184407
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+ja, Du hast recht, das hatte ich übersehen. Knoten (b) hat tatsächlich vier Nachbarn, nicht nur drei, also muss die Gleichung lauten a+b+f+h=0. Deinen Ansatz mit Splatenvektoren und dazugehörigem Skalar habe ich nicht verstanden. Kannst Du das vielleicht etwas näher erläutern?
+Grüße
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

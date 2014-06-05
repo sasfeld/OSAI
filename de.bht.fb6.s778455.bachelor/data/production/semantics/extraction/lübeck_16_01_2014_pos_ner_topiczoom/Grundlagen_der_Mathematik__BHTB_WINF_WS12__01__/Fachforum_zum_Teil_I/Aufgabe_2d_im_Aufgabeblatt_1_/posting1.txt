@@ -1,0 +1,21 @@
+ID: 169567
+CREATION_DATETIME: 1349983523
+MODIFICATION_DATETIME: 1349983523
+TITLE: Aufgabe 2d im Aufgabeblatt 1 
+NER_TAG: value:MfG;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:MfG;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:ttern;weight:0.0;uri:;postag:NN
+POS_TAG: value:Leute;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:durcharbeiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabeblatt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgaben;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hi Leute,
+ich bin noch am durcharbeiten der Aufgaben in den beiden Aufgabenblättern.
+Kann mir einer auf die sprünge helfen wie ich die Aufgabe 2d im Aufgabeblatt 1 lösen kann ich komm einfach nicht auf 3/2.
+Aufgabe  $$\left|x-1\right| \ge \left|x-2\right|$$
+MfG
+TAGGED_CONTENT:
+Hi_NE Leute_NN ,_$, ich_PPER bin_VAFIN noch_ADV am_APPRART durcharbeiten_NN der_ART Aufgaben_NN in_APPR den_ART beiden_PIDAT Aufgabenblättern_NN ._$. Kann_VMFIN mir_PPER einer_ART auf_APPR die_ART sprünge_ADJD helfen_VVINF wie_KOKOM ich_PPER die_ART Aufgabe_NN 2d_CARD im_APPRART Aufgabeblatt_NN 1_CARD lösen_VVINF kann_VMFIN ich_PPER komm_PRF einfach_ADV nicht_PTKNEG auf_APPR 3\/2_CARD ._$. Aufgabe_NN $_CARD $_XY \_XY left_FM |_FM x-1_FM \_FM right_FM |_FM \_FM ge_FM \_FM left_FM |_FM x-2_FM \_FM right_FM |_FM $_FM $_FM MfG_XY 

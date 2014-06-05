@@ -1,0 +1,13 @@
+ID: 1536
+CREATION_DATETIME: 1363734000000
+MODIFICATION_DATETIME: 1363734000000
+TITLE: Für CXXFLAGS_common ist -d keine gültige Option. Das sollte gar nicht funktionieren. ./mcp -d funktio...
+LANGUAGE: GERMAN
+POS_TAG: value:Option;weight:0.0;uri:;postag:NN
+POS_TAG: value:Funktion;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1535
+POSTING_TYPE: comment
+CONTENT:
+Für CXXFLAGS_common ist -d keine gültige Option. Das sollte gar nicht funktionieren. ./mcp -d funktioniert nur für Kalaha und auch erst seit dieser <REMOVED_PERSON_ENTITY>, vorher gab es diese Funktion nicht.
+TAGGED_CONTENT:
+Für_APPR CXXFLAGS_common_NE ist_VAFIN -_$( d_FM keine_PIAT gültige_ADJA Option_NN ._$. Das_ART sollte_VMFIN gar_ADV nicht_PTKNEG funktionieren_VVINF ._$. ._$. \/_XY mcp_XY -_$( d_FM funktioniert_VVFIN nur_ADV für_APPR Kalaha_NE und_KON auch_ADV erst_ADV seit_APPR dieser_PDAT <_NN REMOVED_PERSON_ENTITY_NE >_NE ,_$, vorher_ADV gab_VVFIN es_PPER diese_PDAT Funktion_NN nicht_PTKNEG ._$. 

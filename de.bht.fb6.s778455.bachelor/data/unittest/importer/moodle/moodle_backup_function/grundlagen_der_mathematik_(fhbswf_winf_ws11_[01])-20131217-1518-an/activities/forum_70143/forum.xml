@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="13949" moduleid="70143" modulename="forum" contextid="98009">
+  <forum id="13949">
+    <type>general</type>
+    <name>Fachforum zum Teil IV</name>
+    <intro>Hier können Sie Fachfragen zum Teil IV diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1218803060</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="43917">
+        <name>Erratum Chat heute</name>
+        <firstpost>117588</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1324497976</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117588">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1324497934</created>
+            <modified>1324497976</modified>
+            <mailed>1</mailed>
+            <subject>Erratum Chat heute</subject>
+            <message>Operation eines Elements k mit dem neutralen Element e ergibt immer das Element k, deshalb ist das Element e neutral (wirkungslos). Die Nullmatrix ist deshalb fuer die ADDITION das neutrale Element (nicht fuer die Multiplikation).
+
+NJ
+
+</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43918">
+        <name>Chat vom 4.1.12, Probeklausur Aufgabe 5</name>
+        <firstpost>117589</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1325711293</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117589">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1325710968</created>
+            <modified>1325711293</modified>
+            <mailed>1</mailed>
+            <subject>Chat vom 4.1.12, Probeklausur Aufgabe 5</subject>
+            <message>Eine alternativer Loesungsweg ist in der Tat (a x b) x c (Klammern vernachlaessigbar)!
+
+Wenn Sie somit im R3 sind und das Kreuzprodukt zur Verfuegung steht, ist o.g. Loesungsweg etwas einfacher.
+
+Mein Vorschlag lautete:
+
+a = u * (1, 1, 0), b = v * (0, 1, 1), c = w * (-1, 2, -3)
+
+(a + b) * c = 0 wenn
+
+u * -1 + 2u + 2v + -3v = 0
+
+u = +v = lambda, d.h.
+
+x = lambda * (1, 2, 1)
+
+Der 2. Vorschlag aus einer Klausur im WS 03/04 lautete:
+
+(a x b) x c ist (1, 2, 1)
+
+Der Student hat nun bemerkt, dass man die volle Loesungsmenge erhaelt, wenn man (1, 2, 1) mit w skaliert. Ich war zuerst skeptisch, dass beides auf dieselbe Loesungsmenge hinauslaeuft, da ich damit rechnete, dass Teile der 2. Loesung ausserhalb der Ebene von a x b liegen wuerden. Beim Skalieren kann das aber ausgeschlossen werden. Es bleibt uebrig, dass es andere Vektoren geben koennte, die ich laut erstem Vorschlag finde, aber nicht laut 2. Vorschlag.
+
+Beide Vorschlaege fuehren aber zur gleichen Loesungsmenge. Ich zeige, dass beide Loesungswege aequivalent sind!
+
+Zu zeigen:
+
+lambda * (1, 2, 1) = (a x b) xc
+
+fuer lambda = 1 ok (einfach Kreuzprodukte mit o.g. Vektoren und Skalierung 1 ausrechnen).
+
+fuer lambda &lt;&gt; 1 sei die rechte Seite:
+
+(g * (1, 1, 0) x h * (0, 1, 1)) x m * (-1, 2, -3)
+
+= (g, g, 0) x (0, h, h) x (-m, 2m, -3m)
+= (gh, -gh, gh) x (-m, 2m, -3m)
+= (ghm, 2 * ghm, ghm)
+= (ghm) * (1, 2, 1)
+
+sei lambda = ghm, q.e.d.
+
+</message>
+            <messageformat>2</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43919">
+        <name>Probeklausur Aufgabe 4</name>
+        <firstpost>117590</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1326781844</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117590">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1326725396</created>
+            <modified>1326781844</modified>
+            <mailed>1</mailed>
+            <subject>Probeklausur Aufgabe 4</subject>
+            <message>Anbei ist der Ansatz: (! = not)
+
+((K oder !R) -&amp;gt; !W)
+UND ((W oder R) -&amp;gt; K)
+UND !(R UND K)
+UND (K -&amp;gt; W)
+
+Beachten Sie insb. den letzten Term. Dessen Umformung lautet bekanntermassen inkl. Wahrheitstabelle:
+K W | !K oder W
+0 0  | 1
+0 1  | 1
+1 0  | 0
+1 1  | 1
+
+Das Ergebnis nach Umformung zur Pruefung lautet:
+!K UND !R UND !W
+</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="128515">
+        <userid>3661</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

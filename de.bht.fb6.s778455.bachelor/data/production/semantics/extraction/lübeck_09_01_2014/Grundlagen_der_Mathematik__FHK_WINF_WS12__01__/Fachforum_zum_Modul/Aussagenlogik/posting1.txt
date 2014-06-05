@@ -1,0 +1,10 @@
+ID: 173385
+CREATION_DATETIME: 1350926268
+MODIFICATION_DATETIME: 1350926268
+TITLE: Aussagenlogik
+PARENT_POSTING_ID: 0
+CONTENT:
+Hey Leute,
+wer Interesse hat kann sich gerne morgen gegen 19. 30 in den offenen Konferenzraum begeben. Wir wollen einmal das Thema Aussagelogik besprechen. 
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

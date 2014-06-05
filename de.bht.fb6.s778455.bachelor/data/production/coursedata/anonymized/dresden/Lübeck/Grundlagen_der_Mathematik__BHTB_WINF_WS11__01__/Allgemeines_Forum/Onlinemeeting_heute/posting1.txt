@@ -1,0 +1,11 @@
+ID: 116455
+CREATION_DATETIME: 1325664207
+MODIFICATION_DATETIME: 1325664207
+TITLE: Onlinemeeting heute
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+können wir das Onlinmeeting heute eine halbe Stunde später starten (20:30), da wir von 19:30-20:30 Onlinemeeting Programmierung haben?
+Danke im voraus
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1931
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: Dann scheine ich noch eine veraltete Version des SVN zu haben (obwohl heute morgen ausgecheckt), Da g...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Dann scheine ich noch eine veraltete Version des SVN zu haben (obwohl heute morgen ausgecheckt), <NAME_CORPUS_REPLACEMENT> gibt der aktuelle Code "I am a dumb tester " aus. 
+TAGGED_CONTENT:

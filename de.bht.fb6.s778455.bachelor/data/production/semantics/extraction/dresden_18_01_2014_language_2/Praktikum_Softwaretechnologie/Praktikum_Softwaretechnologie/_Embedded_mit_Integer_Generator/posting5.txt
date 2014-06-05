@@ -1,0 +1,22 @@
+ID: 3089
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: 1. Oh Danke.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3085
+POSTING_TYPE: comment
+CONTENT:
+1. Oh Danke.
+
+Unsere id ist ein String, welche überall (außer UAId) mit `UUID. randomUUID(). toString()` initialisiert wird.
+
+Allerdings wäre es auch für uns einfacher gewesen, wenn wir <REMOVED_PERSON_ENTITY> als Ids genommen hätten. Ändern wir vielleicht nach dem Praktikum, damit wir keine abgefahrenen Ideen fördern. :)
+
+2. JPA und Vererbung über Entites geht doch, über <REMOVED_PERSON_ENTITY> war vermutlich nicht so ein großer Usecase.
+
+3. Naja, damit ermutigen wir dich vielleicht, deinen Ansatz weiter zu verfolgen, mit den Bags, der Factory usw.  Am Ende verstehst du das nur, aber dein Team nicht. Denen traust du ja eh nicht so viel zu, sonst würdest du dir wegen UA. enable/disable keine Sorgen machen!? ;)
+
+<REMOVED_PERSON_ENTITY>, du kannst nicht mehr gefeuert werden, weil niemand deinen unverständlichen Code warten kann. :D
+
+Ok ich habe deinen Code größtenteils nicht gesehen, Joke und so.
+TAGGED_CONTENT:

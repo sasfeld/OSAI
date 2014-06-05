@@ -1,0 +1,9 @@
+ID: 2517
+CREATION_DATETIME: 1376085600000
+MODIFICATION_DATETIME: 1376085600000
+TITLE: Wie kommst du denn darauf, rechts 'was anzuhängen? Die Abhängigkeitsregeln ändern sich bei der Linksr...
+PARENT_POSTING_ID: 2512
+POSTING_TYPE: comment
+CONTENT:
+Wie kommst du denn darauf, rechts 'was anzuhängen? Die Abhängigkeitsregeln ändern sich bei der Linksreduktion überhaupt nicht. Soweit ich weiß, enthält die Hülle <NAME_CORPUS_REPLACEMENT> C nur sich selbst, d. h. ABE ist <NAME_CORPUS_REPLACEMENT> nicht drin, also kann man D nicht abziehen.
+TAGGED_CONTENT:

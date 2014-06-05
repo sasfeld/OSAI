@@ -1,0 +1,49 @@
+ID: 240837
+CREATION_DATETIME: 1381194015
+MODIFICATION_DATETIME: 1381194118
+TITLE: Re: Fehler bei der Grafikdarstellung in den Lektionen
+TOPIC_ZOOM_TAG: value:Funktechnik;weight:2.0;significance:3.69434109221447;degreegeneralization:4;uri:20897975
+TOPIC_ZOOM_TAG: value:Telekommunikation;weight:2.0;significance:3.60045115631348;degreegeneralization:5;uri:21990157
+TOPIC_ZOOM_TAG: value:Mobilfunknetze;weight:1.0;significance:3.40788095514863;degreegeneralization:6;uri:19944054
+TOPIC_ZOOM_TAG: value:Drahtlose Technologie;weight:1.0;significance:2.87140165100394;degreegeneralization:6;uri:21307590
+TOPIC_ZOOM_TAG: value:Drahtloses Netz;weight:1.0;significance:2.87140165100394;degreegeneralization:10;uri:20919803
+TOPIC_ZOOM_TAG: value:Lokale Telekommunikationsnetzwerke;weight:1.0;significance:2.83963159106917;degreegeneralization:8;uri:20889492
+TOPIC_ZOOM_TAG: value:Funknetze;weight:1.0;significance:2.82481433687889;degreegeneralization:9;uri:20889458
+TOPIC_ZOOM_TAG: value:Telekommunikationsnetzwerke;weight:1.0;significance:2.72531667402689;degreegeneralization:7;uri:20889526
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:3.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Deutsche Telekom AG;weight:1.0;significance:2.55504146610489;degreegeneralization:14;uri:21642167
+TOPIC_ZOOM_TAG: value:Unternehmen im Bereich Telekommunikation in Deutschland;weight:1.0;significance:2.46676060594424;degreegeneralization:13;uri:21632715
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:2.0;significance:2.44111312827385;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Unternehmen im Bereich Telekommunikation in Europa;weight:1.0;significance:2.40930353063065;degreegeneralization:10;uri:21632766
+TOPIC_ZOOM_TAG: value:Unternehmen im Bereich Telekommunikation;weight:1.0;significance:2.22197222718385;degreegeneralization:8;uri:21632783
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Telekommunikation;weight:1.0;significance:2.21260392907715;degreegeneralization:7;uri:21993013
+TOPIC_ZOOM_TAG: value:Telekommunikationsmarkt;weight:1.0;significance:2.21106782804841;degreegeneralization:6;uri:20204375
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:1.0;significance:2.16799725088841;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:3.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Kommunikationstechnik;weight:1.0;significance:1.90609767158002;degreegeneralization:5;uri:20897125
+TOPIC_ZOOM_TAG: value:Mobilfunk-Technik;weight:1.0;significance:1.88759097945147;degreegeneralization:5;uri:20896496
+TOPIC_ZOOM_TAG: value:Wissenschaft und Technik in Deutschland;weight:1.0;significance:1.81647779571228;degreegeneralization:9;uri:21946076
+TOPIC_ZOOM_TAG: value:Firmen und Firmengruppen in Deutschland;weight:1.0;significance:1.78472906160415;degreegeneralization:11;uri:21955222
+TOPIC_ZOOM_TAG: value:World Wide Web;weight:1.0;significance:1.60103595539121;degreegeneralization:6;uri:20772430
+TOPIC_ZOOM_TAG: value:Technologieunternehmen;weight:1.0;significance:1.58460872691201;degreegeneralization:6;uri:20761754
+TOPIC_ZOOM_TAG: value:Deutsche Wirtschaft;weight:1.0;significance:1.5459853250948;degreegeneralization:9;uri:21976557
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:1.47917088314699;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Wirtschaftlicher Markt;weight:1.0;significance:1.47857450386118;degreegeneralization:3;uri:21308831
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:1.45419443727712;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Medien, Information und Kommunikation in Deutschland;weight:1.0;significance:1.41400607953997;degreegeneralization:9;uri:20917185
+TOPIC_ZOOM_TAG: value:Europäische Wirtschaft;weight:1.0;significance:1.4069283781695;degreegeneralization:7;uri:21994832
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.34943182699235;degreegeneralization:5;uri:21993370
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.28277805211091;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.27826712902651;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Unternehmen, Firmen und Firmengruppen;weight:1.0;significance:0.97027048096047;degreegeneralization:4;uri:21973565
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:0.895641144893587;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Deutschland;weight:1.0;significance:0.678588084854767;degreegeneralization:8;uri:21996974
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:0.601531845751087;degreegeneralization:2;uri:21999847
+TOPIC_ZOOM_TAG: value:Europa;weight:1.0;significance:0.518625605183437;degreegeneralization:6;uri:21972001
+PARENT_POSTING_ID: 238043
+CONTENT:
+Hi,
+ich habe mittlerweile herausgefunden, dass die Symbole bei mir ausgeblendet werden, sobald ich über das Mobilfunknetz der Telekom in die Module gehe.
+Sobald ich mit einem WLAN verbunden bin, werden alle Symbole korrekt angezeigt.
+ 
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 97780
+CREATION_DATETIME: 1292516067
+MODIFICATION_DATETIME: 1292516067
+TITLE: Re: Formelsammlung zur Klausur
+PARENT_POSTING_ID: 97778
+CONTENT:
+Ja, weitere Empfehlungen sind: <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>.
+Nicht gehen wuerden komplette Lehrbuecher, diese muessten Sie waehrend der Klausur wegpacken. Mit den o. g. drei Buechern und Ihrer Empfehlung duerften Sie aber garantiert arbeiten.
+TAGGED_CONTENT:

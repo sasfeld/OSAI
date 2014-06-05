@@ -1,0 +1,14 @@
+ID: 2534
+CREATION_DATETIME: 1380060000000
+MODIFICATION_DATETIME: 1384210800000
+TITLE: Hallo,
+
+danke für den Hinweis. Da ist offenbar beim Update von auditorium die Emailadresse nicht ak...
+PARENT_POSTING_ID: 2533
+POSTING_TYPE: answer
+CONTENT:
+Hallo,
+danke für den Hinweis. <NAME_CORPUS_REPLACEMENT> ist offenbar beim Update <NAME_CORPUS_REPLACEMENT> auditorium die Emailadresse nicht aktuallisiert worden. Die richtige Emailadresse lautet:
+[inf-auditorium@groups. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>](mailto:inf-auditorium@groups. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>)
+Was genau meinst du mit "Kurse des vergangenen Semesters ins aktuelle einfügen"? Wenn man Maintainer ist, kann man normalerweise ein neues Semester anlegen. 
+TAGGED_CONTENT:

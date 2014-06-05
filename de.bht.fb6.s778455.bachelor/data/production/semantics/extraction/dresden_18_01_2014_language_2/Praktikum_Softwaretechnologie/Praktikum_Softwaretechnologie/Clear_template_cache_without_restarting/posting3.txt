@@ -1,0 +1,10 @@
+ID: 2860
+CREATION_DATETIME: 1384556400000
+MODIFICATION_DATETIME: 1384642800000
+TITLE: It should work if you use `spring.thymeleaf.cache`. :)
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2859
+POSTING_TYPE: comment
+CONTENT:
+It should work if you use `spring. thymeleaf. cache`. :)
+TAGGED_CONTENT:

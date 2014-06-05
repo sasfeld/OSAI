@@ -1,0 +1,10 @@
+ID: 1883
+CREATION_DATETIME: 1370210400000
+MODIFICATION_DATETIME: 1370210400000
+TITLE: Bin ich eigentlich gezwungen den Clang Compiler zu nehmen, sobald ich das LLVM Zeug ins Projekt einbi...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: comment
+CONTENT:
+Bin ich eigentlich gezwungen den Clang Compiler zu nehmen, sobald ich das LLVM Zeug ins Projekt einbinde?
+TAGGED_CONTENT:

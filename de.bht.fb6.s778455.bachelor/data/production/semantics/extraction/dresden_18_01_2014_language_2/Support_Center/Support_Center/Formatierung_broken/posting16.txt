@@ -1,0 +1,10 @@
+ID: 1955
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Trotz Code-Block  (nicht inline) wurde bei mir die Formatierung in einem Comment auch zerhauen, wie o...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1367
+POSTING_TYPE: comment
+CONTENT:
+Trotz Code-Block  (nicht inline) wurde bei mir die Formatierung in einem Comment auch zerhauen, wie oben genannt. Es sah so aus als würde es Probleme mit dem Zeilenumbruch geben?
+TAGGED_CONTENT:

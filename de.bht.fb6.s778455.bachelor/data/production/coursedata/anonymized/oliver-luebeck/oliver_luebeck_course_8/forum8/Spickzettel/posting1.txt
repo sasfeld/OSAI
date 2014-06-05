@@ -1,0 +1,17 @@
+ID: 73
+CREATION_DATETIME: 1201274760000
+MODIFICATION_DATETIME: 1201274760000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Sg ,
+
+Sie hatten uns Studenten während des letzten Präsensunterrichtes ja gesagt, dass Sie bei Bedarf auch mehr als 3 A4 Seiten Spickzettel zulassen könnten.
+Gilt das immer noch?
+Könnten wir in der Klausur mehr als 3 A 4 Seiten Spickzettel benutzen?
+
+MfG
+  
+TAGGED_CONTENT:

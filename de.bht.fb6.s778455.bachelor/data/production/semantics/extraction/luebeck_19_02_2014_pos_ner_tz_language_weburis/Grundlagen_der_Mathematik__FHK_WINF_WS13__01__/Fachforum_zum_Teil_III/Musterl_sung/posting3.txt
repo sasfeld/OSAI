@@ -1,0 +1,17 @@
+ID: 261337
+CREATION_DATETIME: 1386095371
+MODIFICATION_DATETIME: 1386095371
+TITLE: Re: Musterlösung
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=98733#261337
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 261025
+CONTENT:
+Hallo Miglena,
+hast du die Lösung mit Latex erstellt?
+ 
+Grüße,
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ Miglena_NE ,_$, hast_VAFIN du_PPER die_ART Lösung_NN mit_APPR Latex_NE erstellt_VVPP ?_$. Grüße_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

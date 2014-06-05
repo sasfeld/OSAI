@@ -1,0 +1,4 @@
+ID: 12
+TITLE: Gruppenarbeit für Einsendeaufgabe 9
+LANGUAGE: GERMAN
+FIRST_POSTING_ID: 46

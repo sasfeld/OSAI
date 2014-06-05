@@ -1,0 +1,13 @@
+ID: 34
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Hallo,
+es haben sich ja bereits einige Interessenten angemeldet. Diese Anwendung ist aus dem Komplexpraktikum Service and Cloud Computing entstanden. Hier können Studenten Fragen zu Kursen stellen und offene Fragen beantworten.
+Dieser Kurs ist für Fragen rund um Auditorium erstellt worden. Falls ihr Fragen, <REMOVED_PERSON_ENTITY>, etc habt, dann hier hinein. 
+Vielen Dank und viele Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

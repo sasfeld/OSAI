@@ -1,0 +1,14 @@
+ID: 31
+CREATION_DATETIME: 1287325140000
+MODIFICATION_DATETIME: 1287325140000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 30
+CONTENT:
+
+Hallo 
+Ich habe die beiden Exceptions mit einem Try and Catch Block abgefangen und das hat funktioniert. Den String habe mit ich Float.toString() und mit Integer.toString() zurück verwandelt. Frau Merceron hat es so abgesegnet. Der Try und Catch Block soll allerdings nicht in der Testklasse sein, sondern in IntRechner und FloatRechner, so der Kommentar.
+
+Gruß
+	
+TAGGED_CONTENT:

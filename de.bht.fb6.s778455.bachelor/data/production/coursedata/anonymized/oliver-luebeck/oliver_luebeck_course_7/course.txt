@@ -1,0 +1,6 @@
+ID: 7
+LANG: null
+SHORT_NAME: null
+TITLE: oliver_luebeck_course_7
+LANGUAGE: GERMAN
+SUMMARY: null

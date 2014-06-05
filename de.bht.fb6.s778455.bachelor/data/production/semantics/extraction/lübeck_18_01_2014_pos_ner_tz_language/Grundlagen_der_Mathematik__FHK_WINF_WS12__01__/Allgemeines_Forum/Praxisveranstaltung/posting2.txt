@@ -1,0 +1,22 @@
+ID: 162333
+CREATION_DATETIME: 1348224302
+MODIFICATION_DATETIME: 1348224302
+TITLE: Re: Praxisveranstaltung
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:umen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wochenenden;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kursplan;weight:0.0;uri:;postag:NN
+POS_TAG: value:bersicht;weight:0.0;uri:;postag:NN
+POS_TAG: value:Team;weight:0.0;uri:;postag:NN
+POS_TAG: value:Themen;weight:0.0;uri:;postag:NN
+POS_TAG: value:senztermin;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 162169
+CONTENT:
+Also im Kursplan steht der 24. 11 als Präsenztermin drin. 
+So wie ich das verstanden habe soll es aber noch eine Übersicht vom Online-Team geben wo alle Themen und Wochenenden mit den entsprechenden Räumen drin sind.
+TAGGED_CONTENT:
+Also_ADV im_APPRART Kursplan_NN steht_VVFIN der_ART 24_CARD ._$. 11_CARD als_APPR Präsenztermin_NN drin_ADV ._$. So_ADV wie_KOKOM ich_PPER das_ART verstanden_VVPP habe_VAFIN soll_VMFIN es_PPER aber_ADV noch_ADV eine_ART Übersicht_NN vom_APPRART Online-Team_NN geben_VVFIN wo_PWAV alle_PIDAT Themen_NN und_KON Wochenenden_NN mit_APPR den_ART entsprechenden_ADJA Räumen_NN drin_ADV sind_VAFIN ._$. 

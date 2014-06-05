@@ -1,0 +1,19 @@
+ID: 5
+CREATION_DATETIME: 1286304840000
+MODIFICATION_DATETIME: 1286304840000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo,
+in der LE2 Seite 18 geht es um das Verschieben von Dateien.
+(hier die URL)
+
+Soweit ok. Allerdings verstehe ich nicht, warum die Dateilänge erst als Long eingelesen, dann aber zum Integer gekürzt wird:
+
+042 private static void kopiereDatei(String quellDatei, String zielDatei) 043 throws IOException { 044 // Einfache Ein- und Ausgabestroeme oeffnen 045 FileInputStream in = new FileInputStream(quellDatei); 046 FileOutputStream out = new FileOutputStream(zielDatei); 047 long dateiLaenge = (new File(quellDatei)).length(); 048 // Byte-Array, in das Daten eingelesen werden sollen, erzeugen 049 byte[] b = new byte[(int) dateiLaenge]; 050 int len; 051 // Daten aus Quelldatei einlesen und in Zieldatei schreiben 052 while ((len = in.read(b)) > 0) { 053 out.write(b, 0, len); 054 } 
+
+Schröpfe ich damit nicht die Zieldatei auf die Anzahl des Integerbereichs (zwar +/- 2.000.000.000 Zeichen, aber was wäre bei einer Videodatei)?
+    
+TAGGED_CONTENT:

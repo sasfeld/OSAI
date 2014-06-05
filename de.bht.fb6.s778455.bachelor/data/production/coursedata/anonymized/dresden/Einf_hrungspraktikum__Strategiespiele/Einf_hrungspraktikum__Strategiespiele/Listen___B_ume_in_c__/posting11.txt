@@ -1,0 +1,25 @@
+ID: 1264
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: google hilft da schon viel weiter, versuch's das nächste mal doch erstmal alleine.
+
+#include <set> ...
+PARENT_POSTING_ID: 1262
+POSTING_TYPE: comment
+CONTENT:
+google hilft <NAME_CORPUS_REPLACEMENT> schon viel weiter, versuch's das nächste mal doch erstmal alleine.
+```ruby
+#include 
+#include 
+int main()
+{
+    std::set soi;
+    for (int i=0; i<10;i++) {
+        soi. insert(i);
+    }
+    if (soi. find(5) != soi. end()) {
+        printf ("5 found ");
+    }
+}
+```
+TAGGED_CONTENT:

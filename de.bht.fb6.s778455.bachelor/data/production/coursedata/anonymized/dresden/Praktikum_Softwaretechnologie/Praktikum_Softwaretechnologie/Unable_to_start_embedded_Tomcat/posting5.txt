@@ -1,0 +1,9 @@
+ID: 2741
+CREATION_DATETIME: 1383951600000
+MODIFICATION_DATETIME: 1383951600000
+TITLE: Hallo, ich habe jetzt ein komplett neues, leeres Maven Projekt angelegt. Ohne Blankweb Vorlage. Jetzt...
+PARENT_POSTING_ID: 2737
+POSTING_TYPE: comment
+CONTENT:
+Hallo, ich habe jetzt ein komplett neues, leeres Maven Projekt angelegt. Ohne Blankweb Vorlage. Jetzt funktioniert es, warum auch immer.
+TAGGED_CONTENT:

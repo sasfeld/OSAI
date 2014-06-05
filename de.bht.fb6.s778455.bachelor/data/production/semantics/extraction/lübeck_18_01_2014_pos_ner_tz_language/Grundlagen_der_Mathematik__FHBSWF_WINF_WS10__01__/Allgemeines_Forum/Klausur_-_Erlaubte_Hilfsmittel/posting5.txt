@@ -1,0 +1,16 @@
+ID: 97787
+CREATION_DATETIME: 1297264667
+MODIFICATION_DATETIME: 1297264667
+TITLE: Re: Klausur - Erlaubte Hilfsmittel
+LANGUAGE: GERMAN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Musterklausur;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97785
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+gibt es gegebenfalls eine Lösung zu der Musterklausur. Ich würde gern meine Lösungen überprüfen!
+Danke
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, gibt_VVFIN es_PPER gegebenfalls_ADV eine_ART Lösung_NN zu_APPR der_ART Musterklausur_NN ._$. Ich_PPER würde_VAFIN gern_ADV meine_PPOSAT Lösungen_NN überprüfen_VVINF !_$. Danke_PROAV <_VVFIN REMOVED_PERSON_ENTITY_NE >_XY 

@@ -1,0 +1,31 @@
+ID: 97764
+CREATION_DATETIME: 1285576401
+MODIFICATION_DATETIME: 1285576401
+TITLE: Re: Vorleistungen aus alten Semestern
+TOPIC_ZOOM_TAG: value:Fachhochschulen in Deutschland;weight:1.0;significance:6.007701167337;degreegeneralization:12;uri:21957551
+TOPIC_ZOOM_TAG: value:Fachhochschulen;weight:1.0;significance:5.8049686132829;degreegeneralization:5;uri:21881935
+TOPIC_ZOOM_TAG: value:Definitionen;weight:1.0;significance:4.78652764965239;degreegeneralization:3;uri:20913411
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten in Deutschland;weight:1.0;significance:4.10436992245183;degreegeneralization:11;uri:21957585
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten in Europa;weight:1.0;significance:4.08262736648196;degreegeneralization:8;uri:20920126
+TOPIC_ZOOM_TAG: value:Studium und berufliche Ausbildung in Deutschland;weight:1.0;significance:4.08262736648196;degreegeneralization:10;uri:21881136
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung in Deutschland;weight:1.0;significance:3.81668785000005;degreegeneralization:9;uri:21998589
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung - Europa;weight:1.0;significance:3.79229276791534;degreegeneralization:7;uri:20742850
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:2.77735785682754;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Wissenschaft und Technik in Deutschland;weight:1.0;significance:2.72471669356842;degreegeneralization:9;uri:21946076
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:2.59037776375624;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:2.18452430611399;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Services und Dienstleistungen;weight:1.0;significance:2.11473682296541;degreegeneralization:4;uri:21993506
+TOPIC_ZOOM_TAG: value:Deutschland;weight:1.0;significance:1.01788212728215;degreegeneralization:8;uri:21996974
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:0.90229776862663;degreegeneralization:2;uri:21999847
+TOPIC_ZOOM_TAG: value:Europa;weight:1.0;significance:0.777938407775155;degreegeneralization:6;uri:21972001
+PARENT_POSTING_ID: 97763
+CONTENT:
+Danke fuer den Hinweis! 
+Die Definition der Pruefungsvorleistung (PV) ist nicht frei von Interpretations-Spielraum. Der von Ihnen zitierte Beitrag besagt mindestens, dass *genau dieselbe* PV nicht wiederholt werden muss. Es heisst in der PO (S. 9):
+"Die Prüfungsvorleistungen sind zu Beginn des Studienhalbjahrs von den Prüfungsberechtig- ten bekanntzugeben. Die <REMOVED_PERSON_ENTITY>- gen sind erbracht, wenn die zugehörigen Lerneinheiten und Aufgaben mindestens mit ausreichendem Ergebnis bearbeitet worden sind."
+Ist die PV an ein Modul und einen Inhalt geknuepft oder nur an ein Modul? Das ist ein Unterschied, wie wir jetzt sehen.
+Allerdings habe ich nochmal beim VFH-Service rueckgefragt und der bestaetigt Ihre Sichtweise. 
+Ich aendere den Hinweis, danke!
+<REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

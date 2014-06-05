@@ -1,0 +1,14 @@
+ID: 191545
+CREATION_DATETIME: 1357582720
+MODIFICATION_DATETIME: 1357582720
+TITLE: Re: Vektoren linear abhängig/ unabhängig mit LGS lösen
+PARENT_POSTING_ID: 191537
+CONTENT:
+... wenn ich noch einmal drüber nachdenke, stelle ich fest, dass in der Endmatrix doch nicht nur 3 Einheitsvektoren auftauchen sondern ingesamt 4. Der vierte Vektor (0, 0, 1, 0)^T kommt aber doppelt drin vor.
+Wenn ich jetzt eine Lösung aufstellen müsste komme ich zu folgenden Ergebnis:
+- x1=3*5-x5- x2=-x4- x3=0- x4=r- x5=x1+3x4Bedeutet dies, dass ich doch nur einen Freiheitsgrad bestimmen muss?
+Leider kann ich so aber für x1 und x5 keinen Skalar bzw. Koeffizienten bestimmen. Ich habe zwar zwei Unbekannte und zwei Gleichuungen (x1 &amp; x5). Hier komme ich nach <REMOVED_PERSON_ENTITY> aber zu folgenden Ergebnis:15-x5=15-x5x=xVon daher weiß ich gerade nich wie ich diese Aufgabe lösen soll.
+Würde mich über Rückmeldung freuen.
+Besten Dank und Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

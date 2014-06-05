@@ -1,0 +1,12 @@
+ID: 117571
+CREATION_DATETIME: 1326963866
+MODIFICATION_DATETIME: 1326963866
+TITLE: Re: Klausur - Erlaubte Hilfsmittel
+LANGUAGE: GERMAN
+POS_TAG: value:Notizen;weight:0.0;uri:;postag:NN
+POS_TAG: value:PC;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117570
+CONTENT:
+Müssen die eigenen Notizen handschriftlich sein oder können sie auch mit dem PC erstellt werden? 
+TAGGED_CONTENT:
+Müssen_VMFIN die_ART eigenen_ADJA Notizen_NN handschriftlich_ADJD sein_VAINF oder_KON können_VMFIN sie_PPER auch_ADV mit_APPR dem_ART PC_NN erstellt_VVPP werden_VAINF ?_$. 

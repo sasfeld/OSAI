@@ -1,0 +1,10 @@
+ID: 1799
+CREATION_DATETIME: 1368396000000
+MODIFICATION_DATETIME: 1368396000000
+TITLE: Also um das nochmal klar zu stellen: Klar soll das Programm mehrere Kernel unterstützen. Aber für den...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1797
+POSTING_TYPE: comment
+CONTENT:
+Also um das nochmal klar zu stellen: Klar soll das Programm mehrere Kernel unterstützen. Aber für den Anfang ohne Abhänigkeiten oder Programmfluss zw. den Kernels. Also 1 DB-Operator = 1 Kernel. 
+TAGGED_CONTENT:

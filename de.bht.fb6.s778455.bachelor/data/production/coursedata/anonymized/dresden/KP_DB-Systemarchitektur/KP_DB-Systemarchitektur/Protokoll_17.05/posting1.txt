@@ -1,0 +1,23 @@
+ID: 1821
+CREATION_DATETIME: 1368741600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+-----Done/Info:
+Parser: Parser für basic block fertig
+Parser: clang wird über Komando Zeile genutzt (einfacher als lib einzubinden)
+Devices+Infrastruktur: Device und Device Queues werden erstellt
+Testcases: 7 Testkernel erstellt, lokal getestet
+------TODO:
+Parser: beim parsen auch Funktionsaufrufen folgen
+Parser: Schleifen erkennen/auswerten
+Parser: erste Funktionen in ProgramAnalyser Klasse einbinden (bis nächste Woche!)
+Devices+Infrastruktur: compile kernel pro device
+Devices+Infrastruktur: Device Eigentschaften auslesen
+Devices+Infrastruktur: Infrastruktur weiter ausbauen (Nutzung als dynamische lib)
+Testcases: weitere Kernel schreiben
+Testcases: Testprogramm erstellen + Aufruf Skript (compile, LD_LIBRARY_PATH setzen, ausführen)
+Ich hoffe <NAME_CORPUS_REPLACEMENT> fühlt sich jeder irgendwo angesprochen. Wenn was fehlt bitte bescheid sagen.
+TAGGED_CONTENT:

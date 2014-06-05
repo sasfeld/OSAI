@@ -1,0 +1,75 @@
+ID: 59
+CREATION_DATETIME: 1289910840000
+MODIFICATION_DATETIME: 1289910840000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Ich habe ein kleines Problem. Ich habe den Code von noch mal selber geschrieben von Seite 14. Doch leider gibt es dort eine kleine Treppe in dem Textfeld "Cocktailname". Ich habe mehrfach kontrolliert und dann die Datei aus der Lerneinheit compiliert. Da sieht alles gut aus!
+Vielleicht sieht jemand von euch den Fehler. Screenshot ist unten!
+
+public class CocktailNeuPanel extends JPanel{
+
+
+public CocktailNeuPanel(){
+this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
+
+this.add(Box.createVerticalGlue());
+
+Box nameLabelBox = Box.createHorizontalBox();
+nameLabelBox.add(Box.createHorizontalGlue());
+
+
+JLabel nameLabel = new JLabel("Cocktailname");
+
+nameLabel.setAlignmentX(SwingConstants.LEFT);
+groesseEinsetzen(nameLabel, 585, 20);
+nameLabelBox.add(nameLabel);
+this.add(nameLabelBox);
+
+
+Box nameTextFieldBox = Box.createHorizontalBox();
+nameTextFieldBox.add(Box.createHorizontalGlue());
+JTextField nameTextField = new JTextField();
+groesseEinsetzen(nameTextField, 580, 20);
+nameTextField.setAlignmentX(SwingConstants.LEFT);
+nameTextFieldBox.add(nameTextField);
+nameTextField.add(Box.createHorizontalGlue());
+this.add(nameTextFieldBox);
+
+
+this.add(Box.createRigidArea(new Dimension(0, 20)));
+
+Box zubereitungsLabelBox = Box.createHorizontalBox();
+zubereitungsLabelBox.add(Box.createHorizontalGlue());
+JLabel zubereitungsLabel = new JLabel("Zubereitung");
+
+zubereitungsLabel.setAlignmentX(SwingConstants.LEFT);
+groesseEinsetzen(zubereitungsLabel, 585, 20);
+zubereitungsLabelBox.add(zubereitungsLabel);
+this.add(zubereitungsLabelBox);
+
+Box zubereitungTextAreaBox = Box.createHorizontalBox();
+zubereitungTextAreaBox.add(Box.createHorizontalGlue());
+JTextArea zubereitungTextArea = new JTextArea();
+JScrollPane scrollZubereitung = new JScrollPane(zubereitungTextArea);
+groesseEinsetzen(scrollZubereitung, 580, 50);
+scrollZubereitung.setAlignmentX(SwingConstants.LEFT);
+zubereitungTextAreaBox.add(scrollZubereitung);
+zubereitungTextAreaBox.add(Box.createHorizontalGlue());
+this.add(zubereitungTextAreaBox);
+
+this.add(Box.createVerticalGlue());
+}
+
+private static void groesseEinsetzen(JComponent c, int width, int height){
+Dimension d = new Dimension(width, height);
+c.setPreferredSize(d);
+c.setMaximumSize(d);
+c.setMinimumSize(d);
+}
+
+}
+    
+TAGGED_CONTENT:

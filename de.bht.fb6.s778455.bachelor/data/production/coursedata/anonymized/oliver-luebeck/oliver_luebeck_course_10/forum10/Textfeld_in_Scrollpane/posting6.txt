@@ -1,0 +1,11 @@
+ID: 38
+CREATION_DATETIME: 1195555440000
+MODIFICATION_DATETIME: 1195555440000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 37
+CONTENT:
+
+Diese Lösung hatte ich auch schon gefunden, allerdings bekomme ich eine Fehlermeldung, dass die Funktion getViewport nicht zur Verfügung steht, wenn ich allerdings mit getClass checke um was es sich handelt, habe ich definitiv eine JscrollPane und auch ein Cast verändert leider an dieser Situation nichts.
+   
+TAGGED_CONTENT:

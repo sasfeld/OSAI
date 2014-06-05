@@ -1,0 +1,13 @@
+ID: 930
+CREATION_DATETIME: 1354402800000
+MODIFICATION_DATETIME: 1354402800000
+TITLE: Thank you for the answer.
+I'm attending the courses abaut the master in distributed system and on th...
+PARENT_POSTING_ID: 788
+POSTING_TYPE: comment
+CONTENT:
+Thank you for the answer.
+I'm attending the courses abaut the master in distributed system and on the website there isn't nothing on the date, how you <NAME_CORPUS_REPLACEMENT> see here:
+http://tu-dresden. de/die_tu_dresden/fakultaeten/fakultaet_informatik/sysa/se/master/exams
+It is important for me to know the exactly period of the examinations because I'm planning to organize a trip.
+TAGGED_CONTENT:

@@ -1,0 +1,910 @@
+<forum>
+
+  <thread title="Vector E">
+    <post id="1" author="Student1" time="Dienstag, 21. Oktober 2007, 10:27"><![CDATA[
+    Hallo,
+kann mir jemand sagen wo ich noch mehr Infos zu "Vector E" finde? Bisher habe ich noch nichts schlaues gefunden. So richtig verstanden habe ich das alles nicht so. Hat jemand den Link zum online-meeting schon gefunden?
+Liebe Grüße und herzlichen Dank, 
+    ]]></post>
+    <post id="2" reply="1" author="Mentor1" time="Dienstag, 21. Oktober 2007, 17:21"><![CDATA[
+Hallo,
+
+Mit der neuen Installation durch Moodle habe ich Probleme die Aufzeichnung zu finden. Ich hoffe, dass ich morgen soweit bin.
+
+Viele Grüße
+    ]]></post>
+    
+  </thread>
+  
+  <thread title="Aufgabe 3 lastModified">
+    <post id="3" author="Mentor1" time="Donnerstag, 30. Oktober 2007, 12:04"><![CDATA[
+    Lieber ,
+
+Sie sind nicht im Forum sondern direkt bei mir ;-) . Hier eine Moeglichkeit:
+
+System.out.println("letzte Änderung = "+new Date(datobj.lastModified()));
+
+Bitte alle Aufgaben vor der Praesenz noch schicken!
+Viele Gruesse
+
+
+On Wed, 29 Oct 2008 23:06:09 +0100, Student2 wrote
+> Hallo zusammen
+>
+> Ich hÃ¤nge noch an Aufgabe 3, weil ich die Aufgabe nicht so richtig durchschaue... Hmm naja - man soll ja nicht aufgeben, trotzdem ich mich schon seit Ã¼ber ner Woche mit dieser verwirrenden Aufgabe beschÃ¤ftige.
+>
+> Hier ist die Methode mit der ich (ein) Problem(e) habe:
+>
+> import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.nio.channels.FileChannel;
+import java.util.Date;
+
+public class DateiAction {
+protected String inf = "";
+
+...
+
+
+public static void lztAenderung(String inf) throws IOException {
+File datobj = new File(inf);
+String lastMod = new java.util.Date();0
+return System.out.println("Die Datei wurde zuletzt am " + lastMod.toString() + " modifiziert.");
+}
+}
+>
+> Ich weiÃŸ nicht so genau, wie ich aus dem lastMod ein Objekt von java.util.Date machen kann. Hat jemand einen Tip, was ich grundlegend richtig machen sollte? Ich kann einer Datei einfach nicht Ihre "Daten" abluchsen.
+>
+> Danke,
+
+    ]]></post>
+    
+  </thread>
+  
+    <thread title="ESA_LE08">
+    <post id="4" author="Student1" time="Freitag, 14. November 2007, 12:43"><![CDATA[
+    Hallo,
+ich komme mal wieder nicht weiter mit der aktuellen ESA. Wer von Euch ist schon so weit?
+Ich weiss derzeit eigentlich nur nicht welche Schleife (ob überhaupt eine Schleife) ich benutzen muss um die vom Benutzer ausgewählte Anzahl an Checkboxelementen zu übergeben. Benutze ich eine Schleife, kann man eine vom Benutzer eingegebene Zahl an ein Array übergeben oder an einen Vektor? Irgendwie stehe ich völlig auf dem Schlauch und die Zeit rennt davon.
+Bin Euch für jede Anregung dankbar!!!
+Gruss, 
+
+    ]]></post>
+    <post id="5" reply="4" author="Student3" time="Freitag, 14. November 2007, 13:43"><![CDATA[
+    Hallo ,
+
+ich bin sogar noch weiter im Rückstand als Du, da ich hier mitten in einem dreiwöchigen Audit festhänge, also keine Panik.
+
+Die Frage mit der Schleife kann ich Dir daher nicht beantworten, aber natürlich kannst Du eine Benutzereingabe an ein Array oder Vektor übergeben.
+
+Wenn es sich um einen neuen - zusätzlichen - Wert handelt, mußt Du nur prüfen
+
+- ob im Array oder im Vektor noch Platz für einen weiteren Eintrag ist (ausser bei der generischen Klasse Vektor(T), der verwaltet sich von alleine und da kann man "stumpf" hinzufügen)
+- wenn kein Platz mehr ist, diesen erst vergrößern (quasi eine Neuanlage mit kopieren der bestehenden Inhalte)
+- wenn Platz ist, feststellen, an welcher Stelle der letzte Eintrag ist und dann die Benutzereingabe an letzteStelle+1 speichern.
+
+Was Dir passieren kann ist, dass Du die Eingabe entweder in das vom Array/Vektor erwartete Format konvertierst (bswp. String -> Integer, oder in ein Objekt mit passender Struktur) ODER Du legst das Array bzw. den Vektor bereits typ-konform an.
+
+Leider hab ich gerade nicht die Zeit, mir die Aufgabe im Detail anzuschauen, aber ich versuche heute oder morgen Dir zu obigem Beispiele rauszusuchen und zu posten.
+
+^^^^ Alles nur nach meinem Wissensstand. Sollte ich irgendwo etwas falsches geschrieben haben, korrigiert mich bitte, damit ich dazulernen kann. Thx ;) ^^^^
+Liebe Grüße,
+
+    ]]></post>
+    
+    <post id="6" reply="5" author="Mentor1" time="Sonntag, 16. November 2007, 22:07"><![CDATA[
+ 
+Liebe ,
+
+Herr Busse, Ihre Antwort ist sehr allgemein und betrifft die Aufgabe der LE08 nicht ganz genau. In der Aufgabe der LE08, wird die Benutzereingabe benutzt, um die Groesse des Arrays zu bestimmen, nicht um eine neue Komponente in ein Array hinzufügen.
+
+Wie immer, gibt es mehrere Wege, um die Aufgabe LE08 zu loesen. Es ist möglich alle JcheckBox-Objekte in ein Array zu speichern. Es muss nicht unbedingt sein. Frau Weinert, Sie haben es richtig erkannt: am besten arbeitet man mit einer Schleife, um alle JCheckBox-Objekte zu erzeugen, und in ein Jpanel-Objekt hinzuzufügen. Weil die Anzahl der JCheckBox-Objekte, die zu erzeugen sind, ist bekannt (durch den Parameter des Konstruktors) ist hier eine For-Schleife sehr geeignet.
+Ist dies eine Hilfe?
+
+Frohes Schaffen!
+    ]]></post>
+    
+  </thread>
+  
+    <thread title="Adobe Connect 17.11.08: CheckApp">
+    
+    <post id="7" author="Mentor1" time="Mittwoch, 19. November 2007, 13:20"><![CDATA[
+ 
+
+Liebe Studierende,
+
+das kleine Programm unten zeigt, dass die Methode nextBoolean() der Klasse Random true oder false zufällig zurück gibt.
+
+In einer Schleife ist die Wahrscheinlichkeit groß, dass true am Anfang der Schleife ausgegeben wird. Daher ist es immer ein der ersten 4 JCheckBox-Objekte in ihrem Programm Frau Blum, das angeschaltet wird. Wegen des ButtonGroup-Objektes werden weitere JcheckBox-Objekte, für die auch true gegeben wird, nicht angeschaltet. Tipp: Probieren Sie was passiert, wenn sie das ButtonGroup-Objekt weg lassen.
+
+Mit freundlichen Grüssen
+
+
+import java . util. Random;
+class TryRandom {
+static public void main(String[] sonja) {
+pln("TryRandom: Jetzt geht es los!");
+
+Random r = new Random();
+
+for (int i=0; i< 25; i++){
+pln(r.nextBoolean());
+}
+pln("TryRandom: Das war's erstmal!");
+} // main
+
+// Eine Methode mit einem kurzen Namen:
+static void pln(Object ob) {System.out.println(ob);}
+
+} // class TryRandom
+    ]]></post>
+    
+  </thread>
+  
+     <thread title="1.Frage zu Rekursion">
+    <post id="8" author="Student4" time="Donnerstag, 18. Dezember 2007, 22:49"><![CDATA[
+    
+    Ich habe ein ganz einfaches rekursives Programm im Internet gefunden, wo ich die Ausgabe nicht verstehe.
+//------------------------------------------------------
+public class RekursionsDemo{
+public static void main(String[] args){
+rekursion(5);
+}
+private static void rekursion(int a){
+a--;
+System.out.println(a);
+if (a!=0) rekursion(a);
+System.out.println(a);
+}
+}
+//--------------------------------------------------
+Die Ausgabe sieht so aus:
+
+4
+3
+2
+1
+0
+0
+1
+2
+3
+4
+
+
+Ich verstehe nicht, warum er wieder hochzählt.
+Kann mir jemand das erklären?
+
+Gruss
+
+    ]]></post>
+    <post id="9" reply="8" author="Student5" time="Freitag, 19. Dezember 2007, 00:44"><![CDATA[
+    Das bewirkt die if-abfrage. Zunächst wird das 4,3,2,1,0 durch das 1-ste println(a) gebildet und da a!=0, geht man immer einen schritt weiter in die rekursion hinein. Nach dem man bei a=0 angelangt ist geht man wieder die einzelnen Schritte raus aus der rekursion und das 2-te println(a) kommt zum züge (das programm wird ja weiter abgearbeitet). das 2-te println(a) gibt nun nacheinander den wert von a aus, der vor dem rekursionsschritt a zugewiesen wurde... also quasi rückwärts wieder nach oben zählen. Ich hoffe das richtig verstanden und erklärt zu haben. lg
+
+    ]]></post>
+    
+       <post id="10" reply="9" author="Mentor1" time="Freitag, 19. Dezember 2007, 09:55"><![CDATA[
+       Gut verstanden und gute Antwort. Tipp: probieren Sie das Programm aus, in dem Sie ein von den println Befehle weg kommentieren.
+Viel Spaß mit Rekursion!
+
+    ]]></post>
+    
+    <post id="11" reply="10" author="Student4" time="Freitag, 19. Dezember 2007, 20:44"><![CDATA[
+    
+    Vielen Dank für die Erklärungen.
+Ich habe die beiden Zeilen abwechseln auskommentiert. Jetzt weiss ich welche println-Ausgabe für welche Ausgabe benutzt wird. Ebenfalls habe ich in Eclipse den Debugger mit schrittweiser Abarbeitung eingeschaltet.
+Im Debugger war zu erkennen, dass die Ausgabe von 4-0 durch die Zeilen bis zur If-Anweisung mit dem Aufruf von rekursion erfolgt(Zeile 6-8). Bis dahin alles noch logisch (funktioniert wie eine Schleife).
+Die Ausgabe von 0-4 erfolgt dann durch eine schleifenartige Abarbeitung der Zeilen nach if bis zur folgenden geschweiften Klammer der Prozedur rekursion (Zeile 9-10).
+Mein logisches Verständnis würde mir sagen, dass nach Erfüllung der if-Abfrage die nächste Zeile (println) einmal ausgeführt wird und dann die Prozedur rekursion beendet ist. Warum dreht sich hier was zurück?
+Hat das mit der Ablage der Variable a im Speicher zu tun, wenn ja, wie funktioniert das?
+Kann mir jemand das ganz genau erklären um es besser zu verstehen?
+
+Gruss
+
+    ]]></post>
+    
+    <post id="12" reply="11" author="Student4" time="Freitag, 19. Dezember 2007, 22:51"><![CDATA[
+    
+    Ich glaube ich brauche die Beantwortung der Frage nicht mehr, habe soeben im Internet ein gutes Beispiel gefunden, wo meine Verständisfrage beantwortet wird. Dort wird es grafisch anhand eines Beispieles gut dargestellt, wie die Rekursion abläuft.
+
+So nun will ich Euch nicht mehr länger nerven. lächelnd
+Aber vielen Dank nochmal.
+
+Falls jemand meinen Link wissen will, habe ihn unten eingefügt.
+
+Gruss  und Schöne Weihnachten
+
+www.swisseduc.ch/informatik/karatojava/javakara/material/docs/rekursion.pdf 
+
+    ]]></post>
+    
+  </thread>
+  
+    <thread title="Vector E">
+    <post id="13" author="Student2" time="Sonntag, 4. Januar 2008, 18:58"><![CDATA[
+    Hi zusammen
+
+Da es niemandem anderen wohl aufgefallen ist, oder vielleicht egal, dachte ich mal nachzufragen, ob jemand weiß, daß es da innerhalb der Java Language ein Problem gibt, wenn man das GridLayout in Verbindung mit den Applets darstellen will. In der Einsendeaufgabe steht, daß man das Applet anpassen soll, aber nichts von neubauen, deswegen habe ich da ein paar Probleme, dieses GridLayout zu verwenden...
+
+Ich brech' mir einen ab diese Scrollbars mit Text nebeneinander zu bekommen. Weiß jemand woran das liegt? Seid ihr alle andere Wege gegangen?
+
+Viele Grüße
+    
+    ]]></post>
+    <post id="14" reply="13" author="Student2" time="Dienstag, 6. Januar 2008, 12:13"><![CDATA[
+    Hi Folks
+
+Okay... 2 Tage sind vergangen... Scheint niemand zu lesen. Gut.
+
+Here's my crappy solution...
+
+Also der dieses GridLayout ist ne Katastrophe. Alles fließt irgendwo hin und läßt sich nur mit vielen umständlichen Code-Zeilen einstellen.
+
+Whatever... ich habs irgendwie hingeschmissen...
+
+public String h = "Hinz:";
+public String k = "Kunz:";
+public String h_ = "Hinz";
+public String k_ = "Kunz";
+public String Footer = "Vergleich der Koerpergroessen -- Bewegen Sie die ScrollBars!";
+
+@Override
+public void init() {
+
+setSize(500, 400);
+setPreferredSize(new Dimension(500, 400));
+//setLayout(new FlowLayout());
+//setLayout( new GridLayout(3, 2, 5, 5)); // public GridLayout(int rows, int cols, int hgap, int vgap)
+
+sb = new Scrollbar(Scrollbar.HORIZONTAL, 50, 1, 0, 101 ); //public Scrollbar(int orientation, int value, int visible, int minimum, int maximum)
+sb2 = new Scrollbar(Scrollbar.HORIZONTAL, 50, 1, 0, 101);
+sb.setPreferredSize(new Dimension(150, 20));
+sb2.setPreferredSize(new Dimension(150, 20));
+add(new Label(h));
+add(sb);
+add(new Label(k));
+add(sb2);
+msg = new Label();
+add(msg);
+msg.setPreferredSize(new Dimension(150, 20));
+sb.addAdjustmentListener(this);
+sb2.addAdjustmentListener(this);
+
+//an dieser Stelle kommen die
+
+
+add(new Label(Footer));
+
+
+}
+
+Schön ist anders... Könnte mir bitte jemand einen Tipp geben, wie man das schöner macht? Ich würde den Kram da oben gern ein bißchen reduzieren und weiß nicht wie...
+
+Viele Grüße
+
+    ]]></post>
+    
+    <post id="15" reply="14" author="Mentor1" time="Dienstag, 6. Januar 2008, 15:25"><![CDATA[
+    Hallo ,
+
+GridLayout sind nicht einfach, weil die Anzahl an Spalten und Zeilen, die man angibt, nicht zwingend sind (When both the number of rows and the number of columns have been set to non-zero values, either by a constructor or by the setRows and setColumns methods, the number of columns specified is ignored. Instead, the number of columns is determined from the specified number of rows and the total number of components in the layout.... ).
+
+Eine Möglichkeit hier ist es ein JPanel-Objekt zu erzeugen. Ein JPanel-Objekt hat einen FlowLayout, die graphische Komponente werden nebeneinander gestellt. In das JPanel-Objekt können Sie die zwei ScrollBar-Objekte und die zwei Label-Objekte tun. Das JPanel-Objekt kann oben in ein Frame-Objekt kommen (ein Frame-Objekt hat ein BorderLayout, oben in NORTH) oder, falls Sie weiter ein GridLayout benutzen, das JPanel-Objekt kommt mit seinem Inhalt als Komponente in ein Kästchen des GridLayouts.
+
+Hilft dies Ihnen weiter?
+
+
+Viel Erfolg!
+
+    ]]></post>
+    
+    <post id="16" reply="15" author="Student2" time="Dienstag, 6. Januar 2008, 16:25"><![CDATA[
+    
+    Hallo  und Forum
+
+DAnke für den Tip. Ich habe das Applet jetzt so gemacht... Sieht immer noch ziemlich strange aus. Wie bekomme ich die Balken dynamisch aktualisiert? Und wie bekomme ich die Labels "fließend" vor die Balken? Hat jemand eine Idee? Kann ich Paint (g) irgendwie in void init integrieren? Vielen Dank...
+
+
+/**
+* @author  
+* @since 2.1.2009
+* @version 1.0.2
+*/
+
+import java.awt.*;
+import java.applet.Applet;
+import java.awt.event.*;
+
+public class HinzKunz extends Applet implements AdjustmentListener {
+
+private Scrollbar sb = null;
+private Scrollbar sb2 = null;
+
+private int slideVal_hinz = 10;
+private int slideVal_kunz = 10;
+private int schieberWert;
+private int schieberWert2 = 0;
+private Label msg;
+
+public String h = "Hinz:";
+public String k = "Kunz:";
+public String h_ = "Hinz";
+public String k_ = "Kunz";
+public String Footer = "Vergleich der Koerpergroessen -- Bewegen Sie die ScrollBars!";
+
+@Override
+public void init() {
+
+setSize(500, 400);
+setPreferredSize(new Dimension(500, 400));
+sb = new Scrollbar(Scrollbar.HORIZONTAL, 50, 1, 0, 101 ); //public Scrollbar(int orientation, int value, int visible, int minimum, int maximum)
+sb2 = new Scrollbar(Scrollbar.HORIZONTAL, 50, 1, 0, 101);
+sb.setPreferredSize(new Dimension(150, 20));
+sb2.setPreferredSize(new Dimension(150, 20));
+add(new Label(h));
+add(sb);
+add(new Label(k));
+add(sb2);
+msg = new Label();
+add(msg);
+msg.setPreferredSize(new Dimension(150, 20));
+sb.addAdjustmentListener(this);
+sb2.addAdjustmentListener(this);
+
+add(new Label(h_));
+add(new Label(k_));
+
+add(new Label(Footer));
+}
+
+
+public void adjustmentValueChanged( AdjustmentEvent adjE ) {
+
+
+if ( adjE.getSource() == sb ) // duerfte hier fehlen !
+schieberWert = sb.getValue();
+
+if ( adjE.getSource() == sb2 ) // duerfte hier fehlen !
+schieberWert2 = sb2.getValue();
+
+int compare_sb = sb.getValue(); // getVal for sb Hinz !
+int compare_sb2 = sb2.getValue(); // getVal for sb Kunz !
+
+if (compare_sb > compare_sb2) {
+final String z1 = "Hinz ist groesser !";
+msg.setText(z1);
+} else {
+final String z1 = "Kunz ist groesser !";
+msg.setText(z1);
+}
+}
+
+@Override
+public void paint (Graphics g) {
+
+//Balken Hinz
+int width_ = sb.getValue();
+g.setColor(Color.MAGENTA);
+g.fillRect(80, 200, width_, 30);
+
+//Balken Kunz
+int width_2 = sb2.getValue();
+g.setColor(Color.ORANGE);
+g.fillRect(80, 270, width_2, 30);
+
+}
+}
+
+Anbei ist mein java file...
+
+Viele Grüße
+
+    ]]></post>
+    
+    <post id="17" reply="16" author="Mentor1" time="Mittwoch, 7. Januar 2008, 11:19" attachment="HinzKunz.java"><![CDATA[
+    Hallo  und alle Studierende,
+
+der Teufel steckt im Detail: haben Sie "repaint()" beachtet in allen Besipielen der LE09?
+Die Aufgabe fragt nach einer Anwendung, nicht nach einem Applet. Anbei die grobe Umstellung.
+Ich hoffe, dass Sie alle
+- die Hauptidee einer Umwandlung Applet-Anwendung verstehen.
+- verstehen, welche variablen Attribute in einer GUI sein sollen und welche lokal deklariert werden.
+
+Bis Samstag und frohes Schaffen!
+
+    ]]></post>
+    
+  </thread>
+  
+   <thread title="Vermeidung des Flackerns beim repaint()">
+    <post id="18" author="Student2" time="Donnerstag, 8. Januar 2008, 10:36"><![CDATA[
+    
+    Hi Folks
+
+Hier ist was für die Graphik Liebhaber unter Euch. Eine Methode wwie man das Flackern vermeidet, daß bei einer dynamischen Anpassung von 2D oder 3D Elementen auftritt.
+
+Das Howto:
+http://www.developer.com/java/other/article.php/626541
+
+Das Beispiel:
+http://www.developer.com/repository/softwaredev/content/article/2000/06/20/SDtravisdblbuf/test1a.html
+
+
+Jo, dann noch viel Freude und bis Sonnabend
+
+    ]]></post>
+     
+  </thread>
+  
+    <thread title="Applets/Webconf. Rekursion">
+    <post id="19" author="Student1" time="Donnerstag, 22. Januar 2008, 12:09"><![CDATA[
+    
+    Hallo,
+wahrscheinlich ist die Antwort auf diese Frage nicht schwer, aber ich komme trotzdem nicht drauf! traurig
+Warum gibt es Applets die ich mit der Methode init(); aufrufen muss (z.B. dieses ganze Checkbox- und Radiobuttongedöns und dann wiederum die Grafiken wie Oval.java, Kreis.java etc. die ich einfach mit der Methode paint(); aufrufen kann.
+Das sind doch beides Applets. Eigentlich müsste ich das doch auch initialisieren, oder? Bitte um einfache Erklärung! zwinkernd
+
+Und dann noch eine Frage zu der allein abgehaltenen Webconf. zum Thema Rekursion? Hat jemand den Link gefunden?
+
+Danke schonmal im voraus.
+lg,
+    
+    ]]></post>
+    <post id="20" reply="19" author="Student4" time="Donnerstag, 22. Januar 2008, 18:51"><![CDATA[
+    
+    Hallo ,
+
+ich habe das so verstanden, dass man nur mit der paint(Graphics g) Methode auf die Methoden von Graphics zugreifen kannst. Also in diesem Fall drawOval. In init() deklariert man wohl nur alles was man bei einer Applikation in einen Konstruktor oder in die main - Methode schreiben würde. Du kannst ja mal ausprobieren in der paint-Methode ein Label zu deklarieren. Nach meiner Meinung kann man in init() die awt und swing Klassen verwenden, und wenn man nur zeichnet kann somit init() weggelassen werden.
+
+Hier nochmal der Link http://connect.oncampus.de/p88328178/ zur Rekursion.
+
+
+Gruss 
+
+    ]]></post>
+    
+       <post id="21" reply="20" author="Mentor1" time="Freitag, 23. Januar 2008, 09:37"><![CDATA[
+       
+       Hallo , hallo , hallo alle,
+
+Gute Frage und gute Antwort!Noch eine Ergänzung: die Methoden init und paint sind beide Methoden, die man ueberschreiben kann (siehe java Dokumentation der Klasse Applet und auch LE 5 Programmieren 1). Die Methode init ist in der Klasse Applet deklariert. Wie Sie schreiben Frau Blum: Man kann sie als eine Art Ersatz fuer einen Konstruktor sehen. Sie wird nur ein mal aufgerufen, wenn das Applet geladen wird. In dieser Methode sollte man alles initialisieren, was fuer das Funktionieren des Applets noetig ist. Die Methode paint dagegen ist in der Container Klasse deklariert. Sie wird vom Betriebsystem aufgerufen, jedesmal das die graphische Komponente neu am Schirm gezeichnet sein soll.
+
+Viele Gruesse
+
+    ]]></post>
+    
+  </thread>
+  
+   <thread title="Applet-Fenster trotz Frame?">
+    <post id="22" author="Student4" time="Donnerstag, 22. Januar 2008, 19:20"><![CDATA[
+    
+    Hallo,
+
+zum gleichen Thema wie Franzi habe ich folgende Frage:
+
+Ich habe das Applet aus LE09 Tagesmenue in eine Applikation umschreiben wollen, und habe nur wenige Zeilen verändert.
+Was ich nicht verstehe ist, ich leite meine Applikation nicht von der Klasse Applet ab und deklariere auch im Konstruktor ein JFrame, aber die Ausgabe erfolgt als Applet-Fenster. Passiert das, weil ich die Methode paint bzw. paintComponent benutze ohne sie in einer separaten Klasse zu definieren um es als Objekt dann in mein Fenster einzufügen? Ich füge das Beispiel mal bei. Würde dann auch nur das Sandboxprinzip greifen oder kann ich das damit umgehen und trotzdem die Vorteile einer Applikation nutzen?
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+public class TagesmenueApplikation implements ItemListener {
+
+Checkbox c1, c2, c3;
+boolean nichts;
+boolean c1wunsch = false;
+boolean c2wunsch = false;
+boolean c3wunsch = false;
+JFrame f = new JFrame();
+
+public TagesmenueApplikation() {
+
+c1 = new Checkbox(" Tagessuppe ");
+c2 = new Checkbox(" Eisbein ");
+c3 = new Checkbox(" Dessert ");
+f.add( c1 );
+f.add( c2 );
+f.add( c3 );
+c1.addItemListener( this );
+c2.addItemListener( this );
+c3.addItemListener( this );
+}
+public void paint ( Graphics g ) {
+final String zeileA =
+"Waehlen Sie a la carte - aus unserem Angebot ";
+final String zeileB =
+"Bisher haben Sie sich noch nicht entschieden !";
+final String zeileC =
+"Sie haben aus unserem Angebot bestellt: ";
+final String zeile1 = " Tagessuppe ";
+final String zeile2 = " Eisbein ";
+final String zeile3 = " Dessert ";
+g.drawString( zeileA, 50, 70);
+nichts = !( c1wunsch || c2wunsch || c3wunsch );
+if ( nichts )
+g.drawString( zeileB ,50, 100);
+else {
+g.drawString( zeileC, 50, 100 );
+if ( c1wunsch ) g.drawString( zeile1 ,80, 130);
+if ( c2wunsch ) g.drawString( zeile2 ,80, 150);
+if ( c3wunsch ) g.drawString( zeile3 ,80, 170);
+};
+}
+public void itemStateChanged( ItemEvent iE ) {
+if ( iE.getSource() == c1 ) c1wunsch = c1.getState();
+if ( iE.getSource() == c2 ) c2wunsch = c2.getState();
+if ( iE.getSource() == c3 ) c3wunsch = c3.getState();
+f.repaint();
+}
+}
+
+
+Gruss 
+    
+    ]]></post>
+    <post id="23" reply="22" author="Student4" time="Donnerstag, 22. Januar 2008, 19:28"><![CDATA[
+    
+    ooops, sehe gerade, dass ja die main - Methode in meiner Applikation fehlt. Aber warum sagt er mir der Compiler das nicht, warum nimmt er automatisch ein AppletFenster?
+
+Wenn ich folgendes noch hinzufüge:
+
+public static void main (String args[]){
+new TagesmenueApplikation();
+}
+
+dann zeigt er mir bei der Ausführung nur eine Fehlerausschrift an. Anscheinend kollidieren jetzt das Frame- und das AppletFenster.
+
+
+??????????????????????????????????????????????????????????????????????????????????
+
+    ]]></post>
+    
+     <post id="24" reply="23" author="Mentor1" time="Freitag, 23. Januar 2008, 09:56"><![CDATA[
+     
+     Hallo ,
+
+Hervorragende Vertiefung des Stoffes! Es fehlen nur noch die letzte Details.
+Wie waere es mit so einem Befehl:
+f.setVisible(true); ?
+JFrame hat ein BorderLayout. Was passiert mit den 3 Befehlen unten? Wohin kommen c1, c2 und c3, wenn keine Position angegeben ist?
+f.add( c1);
+f.add( c2 );
+f.add( c3 );
+Aber vielleicht der wichtigste Punkt ist der folgende:
+Wird ueberhaupt eine Methode mit Ihrer Methode paint ueberschrieben?
+
+Ich kann mir das Kollidieren zwischen JFrame und Applet nicht so recht erklaeren. Gaebe es ein Problem mit einer TagesMenu.class Datei? Sie glauben eine zu benutzen, aber in Wirklichkeit wird eine andere benutzt?
+
+Viele Gruesse
+
+    ]]></post>
+    
+  </thread>
+  
+    <thread title="Testaufgabe 3C">
+    <post id="25" author="Student1" time="Freitag, 23. Januar 2008, 19:17"><![CDATA[
+    
+    Hallo Ihr Lieben,
+kommt Ihr gut voran? Ich habe ganz schönen bammel vor Montag! in Gedanken Ich habe gerade die Testaufgabe 3C programmiert, was ich im westentlichen auch ganz gut gepackt habe. Aber wie bekommt man denn den Cursor bei der Ausgabe in die nächste Zeile? Das habe ich nicht rausfinden können. Vielleicht kann mir ja jemand weiterhelfen!? Würde mich freuen!
+ Danke für die Antwort auf meine letzte Frage!!!
+
+Liebe Grüße,
+    
+    ]]></post>
+    <post id="26" reply="25" author="Student2" time="Samstag, 24. Januar 2008, 09:50"><![CDATA[
+    Hi 
+
+Hab was unter Google gefunden... Du willst den Focus setzen? Probier' mal das folgende:
+
+http://www.tutorials.de/forum/java/237827-cursor-textfeld-setzen.html
+
+Ansonsten unter den Java Tuts ist hier noch Code + Erklärung, wie man seinen eigenen Focuspfad legt:
+
+http://java.sun.com/docs/books/tutorial/uiswing/misc/focus.html#customFocusTraversal
+
+Hast Du ansonsten mal ein kurzes kompilierbares ausführbares Beispiel Deines Problems? Hoffe das hilft weiter...
+
+Liebe Grüße
+    
+    ]]></post>
+    <post id="27" reply="26" author="Mentor1" time="Samstag, 24. Januar 2008, 10:25"><![CDATA[
+    
+        Hallo ,
+
+ich freue mich, dass Sie so konsequent ueben.
+Könnten Sie Ihr Programm schreiben, damit ich besser sehen kann, woher das Problem kommt?
+Viele Gruesse
+
+    ]]></post>
+    
+    <post id="28" reply="27" author="Student1" time="Samstag, 24. Januar 2008, 15:24"><![CDATA[
+    
+    Also unten steht mal mein Testcode von reku08. Ich denke ich habe bloß nicht ganz den Teil der Aufgabe verstanden wo es heißt: "Am Ende ist der Cursor
+am Anfang der nächsten Zeile." Da weiß icht nicht, wie ich es umsetzten soll!
+Ich hoffe die anderen Bedingungen sind gut und richig umgesetzt.
+Danke und liebe Grüße, Franzi
+
+public class reku08 {
+static public void reku08(final int N) {
+// Precondition: N positiv ist. Jede Ziffer von N
+// wird zwei mal nacheinander ausgegeben (erst die Einerziffer,
+// dann die Zehnerziffer etc.). Am Ende ist der Cursor
+// am Anfang der nächsten Zeile.
+//
+// Zum Beispiel reku07(123) ergibt:
+// 332211
+//
+ 
+if (N > 0){
+System.out.print(N % 10);
+System.out.print(N % 10);
+reku08(N/10);
+}
+}
+ 
+public static void main (String[] args){
+int testZahl = 123;
+reku08(testZahl);
+}
+}
+    ]]></post>
+    
+    <post id="29" reply="28" author="Student6" time="Samstag, 24. Januar 2008, 16:43"><![CDATA[
+    Hi ,
+
+meine "Möchte-gern" Lösung ist:
+
+else System.out.println("\n"+"Test");
+
+dann steht, wenn die Rekursion durchlaufen ist der C. in der nächsten Zeile.
+Bin mir aber nicht sicher, ob das stimmt ....
+
+Grüße
+    
+
+    ]]></post>
+    
+    <post id="30" reply="29" author="Mentor1" time="Samstag, 24. Januar 2008, 19:00"><![CDATA[
+     Hallo , 
+
+wieder gute Frage. Die Details sind nicht immer leicht. Nicht immer weit im Internet nachschauen , sehr oft sind die einfachsten Loesungen, wie  vorgeschlagen hat, die besten.
+else System.out.println(); // reicht auch.
+Eine andere Loesung :
+
+static void reku08(int n){
+
+if (n < 10){
+
+System.out.println("" + n + n);
+
+} else {
+
+System.out.print("" + (n % 10) + (n % 10));
+
+reku08(n/10);
+
+}
+
+}
+Viele Gruesse
+    
+
+    ]]></post>
+    
+    <post id="31" reply="30" author="Student2" time="Samstag, 24. Januar 2008, 19:22"><![CDATA[
+    Hallo 
+
+Da haben Sie sehr recht... ^_^
+
+Ich ging in diesem Fall von einem Formfield aus, wo man was eintragen kann und nicht von einem Linefeed... :D
+
+Viele Grüße
+    ]]></post>
+    
+  </thread>
+  
+   <thread title="Aufgabe1 Prüfung">
+    <post id="32" author="Student2" time="Samstag, 24. Januar 2008, 18:43"><![CDATA[
+    Hallo Forum
+
+Kann mir bitte jemand sagen, was ich richtigerweise ändern muß, damit ich die Aufgabe zum Laufen bekomme? Ich bekomme nicht die Konsoleneingabe so hin, daß man fünf Texte eingeben kann, die jeweils durch ein <Return> getrennt sind.
+
+Wie weise ich denn nun meine schicke Methode der Variable zu, damit die mit Text gefüllt werden kann?
+
+Anbei ist mein Code:
+
+package laborteststand;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.Serializable;
+import java.util.ArrayList;
+/**
+*
+* @author 
+* @version 0.0.1
+* @since 24.01.2009
+*/
+
+
+public class ArrayList_A1 implements Serializable {
+
+ArrayList<String> ars = new ArrayList<String>();
+
+public void ReaderTool() throws IOException {
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+br.readLine();
+}
+
+
+public void fillArrList() throws FileNotFoundException, IOException {
+
+BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("C:\temp\text.txt")));
+int counter = 4;
+
+for (int i = 0; i <= ars.size(); i++) {
+String s = "";
+System.out.println("Sie haben noch " + (counter+1) + " Eingaben.");
+System.out.println("Wie lautet Ihre Eingabe?: ");
+//###########Problem#################
+String buff = ReaderTool();
+//###################################
+ars.add(i, buff);
+s = ars.get(i);
+bw.write(s + "\n");
+counter--;
+}
+bw.flush();
+bw.close();
+}
+
+
+/**
+* @param args the command line arguments
+*/
+public static void main(String[] args)throws IOException {
+
+System.out.println("Fuellen Sie die Liste nacheinander mit RETURN Zwischenschritten:");
+
+ArrayList_A1 TuWasIchSageUnd = new ArrayList_A1();
+TuWasIchSageUnd.fillArrList();
+
+}
+}
+
+Vielen Dank für Eure Hilfe.
+
+Grüße
+
+P.S. Sorry das das so beschissen formatiert ist, aber dieses Nudel schmeißt alle meine Text-Anpassungen über Bord... 
+    
+    ]]></post>
+    <post id="33" reply="32" author="Student4" time="Samstag, 24. Januar 2008, 19:51"><![CDATA[
+    hallo ,
+
+versuche es mal mit der methode bw.newLine(); (siehe dazu LE02)
+
+gruss
+
+    ]]></post>
+    
+    <post id="34" reply="33" author="Student4" time="Samstag, 24. Januar 2008, 20:09"><![CDATA[
+    hallo ,
+
+noch ein kleines nachkommentar. ich hatte die 1.pruefungsaufgabe nicht so verstanden, dass eine konsoleneingabe gefordert wird.
+
+ich hattes es einfacher geloest, was hoffentlich auch richtig wäre.
+
+gruss
+    
+
+    ]]></post>
+    
+    <post id="35" reply="34" author="Student7" time="Samstag, 24. Januar 2008, 20:22"><![CDATA[
+    Hallo ihr beiden,
+
+ich hab die Aufgabe auch ohne Konsoleneingabe gelöst. Falls das wirklich gefordert war, so hoffe ich auf genauere Aufgabenstellungen dieses Jahr. ;)
+
+
+MfG
+
+    ]]></post>
+    
+    <post id="36" reply="33" author="Student2" time="Samstag, 24. Januar 2008, 20:33"><![CDATA[
+    Da war ich nicht so sicher. Deswegen habe ich versucht eine Luxusausführung zu machen... dient ja auch der Übung...
+
+@Kkkk
+Danke Dir. da könntest Du recht haben. Ich dachte ich probier's halt mal aus.
+
+@Kkkkk
+ich hoffe auch =)
+
+Kann mir denn jemand sagen was ich da ändern könnte, damit ich der Variable "buff" das Zeug aus dem Zeichenpuffer zuweise?
+
+Ich weiß nicht so genau, wie ich nun die Methode für diesen Zweck daran ansetze. Pls help...
+
+Liebe Grüße
+
+    ]]></post>
+    <post id="37" reply="36" author="Student4" time="Samstag, 24. Januar 2008, 21:20"><![CDATA[
+    hallo ,
+
+damit deine variable buff den eingelesenen wert der methode readerTool erhaelt, musst du deine methode mit einem rueckgabewert versehen (also void raus und return rein)
+
+gruss
+
+    ]]></post>
+    <post id="38" reply="37" author="Student4" time="Samstag, 24. Januar 2008, 21:24"><![CDATA[
+    so jetzt wie immer meine zweite antwort, das faellt mir meist im nachhinein ein. du koenntest auch auf deine methode readerTool verzichten, wenn du direkt hinter String buff = br.readLine(); schreibst. das passt vielleicht zu deinem interesse nach kurzen programmen mehr.
+
+gruss 
+
+    ]]></post>
+    <post id="39" reply="38" author="Student2" time="Samstag, 24. Januar 2008, 21:46"><![CDATA[
+    Hi 
+
+Vielen Dank...
+
+tatsächlich - ich lasse was einlesen, aber ignoriere den Wert. Wie ungeschickt... Hier ist ne kleine Alternative:
+
+protected String readString() throws IOException {
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+String line = br.readLine();
+return line;
+}
+
+und unten im Code wie gehabt:
+buff = readString();
+
+Jetzt muß ich meinem Proggi nur noch beibringen, daß es aufzuhören hat, wenn alle Versuche verbraucht sind... *ErniesLache
+
+Lieben Dank,
+
+    ]]></post>
+    
+  </thread>
+
+
+  <thread title="Fundgrube">
+    <post id="40" author="Student2" time="Samstag, 24. Januar 2008, 09:40"><![CDATA[
+Hi Folks
+
+Hier ist eine Perle und zudem nettes Blog unter Billiarden -
+
+http://www.java-blog-buch.de
+
+Wer ein paar Zusatzinfos bzw. Auffrischung und Übung zu Java Code Patterns sucht, wird im "Das Java-Blog-Buch" mit vielen sehr interessanten Erklärungen erfreut werden. Und das in Deutsch! Hinzu kommt, daß alles gut lesbar und wohlstrukturiert in einem Wordpress Blog geschrieben ist.
+
+Vielleicht kennt der eine / die eine auch coolen Fundgruben bzgl. Javas und möchte das hier im Forum mit einer kleinen Bewertung adden?
+
+Daraus kann jeder sich dann eine hübsche handverlesene Linksammlung machen, die jedermann/frau in schwierigen Situationen... bla bla... ;-b
+
+Liebe Grüße
+    ]]></post>
+    <post id="41" reply="40" author="Student2" time="Donnerstag, 5. Februar 2008, 14:12"><![CDATA[
+Hi Folks
+
+Hier ist wieder eine weitere Perle aus den Weiten des Internets gefischt worden. Unter den vielen Layoutmanagern, die man so bei Java benutzen kann und weil 55342 Manager nicht ausreichen, habe ich hier mal eine wirklich praktische Lösung.
+
+Wer möchte kann sich dit mal hier ansehen.
+http://www.migcalendar.com/miglayout/
+
+Die PDF-Kurzfassung:
+http://www.miglayout.com/QuickStart.pdf
+
+Have phun with coding =)
+    ]]></post>
+    
+  </thread>
+  
+
+</forum>
+  

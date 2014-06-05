@@ -1,0 +1,12 @@
+ID: 190801
+CREATION_DATETIME: 1357413275
+MODIFICATION_DATETIME: 1357413275
+TITLE: Re: LGS mit Gaußalgorithmus lösen
+PARENT_POSTING_ID: 190701
+CONTENT:
+Hi <REMOVED_PERSON_ENTITY>,
+also sicher bin ich mir nicht, aber folgende Überlegung dazu:Im Chat haben wir gesagt, dass die rechte <REMOVED_PERSON_ENTITY> der Matrizen nicht relevant für den Gauss-Algorithmus ist, soll heißen, (x, y, z)^T sind ja alle möglichen Vektoren, die aus der Matrix mit den drei gegeben Vektoren herauskommen soll. So weit so gut.
+Jetzt lässt man also die rechte <REMOVED_PERSON_ENTITY> weg und bildet eine Matrix nur aus diesen drei Vektoren. Wenn du diese durchrechnest, kommst du auf die EInheitsmatrix, also die Einheitsvektoren aus R^3. Jetzt müssen wir diese neue Matrix mit unserem Vektor (x, y, z)^T multiplizieren und bekommen eine LK heraus, die sehr einfach ausschaut jetzt natürlich.
+Wenn du diese jetzt umformst zu der bekannten Darstellung:x1/x = α * 1 + β * 0 + γ * 0x2/y = α * 0 + β * 1 + γ * 0x3/z = α * 0 + β * 0 + γ * 1
+Dann kannst du jeden beliebigen Vektor aus dieser LK bilden. So war jetzt meine Idee dabei... GrüßeLars
+TAGGED_CONTENT:

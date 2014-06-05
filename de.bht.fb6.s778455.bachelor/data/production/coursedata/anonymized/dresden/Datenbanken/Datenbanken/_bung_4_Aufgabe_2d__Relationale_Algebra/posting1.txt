@@ -1,0 +1,9 @@
+ID: 2524
+CREATION_DATETIME: 1376172000000
+MODIFICATION_DATETIME: 1379714400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wieso wird in der Lösung vor dem Join mit Verein erstmal nach <REMOVED_PERSON_ENTITY>. V_Name projiziert? Nur aus Effizienzgründen, oder steckt <NAME_CORPUS_REPLACEMENT> mehr dahinter?
+TAGGED_CONTENT:

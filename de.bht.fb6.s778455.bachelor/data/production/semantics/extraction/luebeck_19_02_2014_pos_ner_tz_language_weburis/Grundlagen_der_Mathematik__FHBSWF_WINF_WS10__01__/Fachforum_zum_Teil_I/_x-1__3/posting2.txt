@@ -1,0 +1,16 @@
+ID: 97799
+CREATION_DATETIME: 1289143367
+MODIFICATION_DATETIME: 1289143367
+TITLE: Re: (x-1)^3
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=36372#97799
+POS_TAG: value:Formel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Formeln;weight:0.0;uri:;postag:NN
+POS_TAG: value:berhaupt;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgaben;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97798
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>, schau dir mal die 2. binomische Formel an.Überhaupt sind viele Aufgaben mit den binomischen Formeln lösbar. Viele <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE ,_$, schau_VVIMP dir_PPER mal_ADV die_ART 2_CARD ._$. binomische_ADJA Formel_NN an.Überhaupt_NN sind_VAFIN viele_PIDAT Aufgaben_NN mit_APPR den_ART binomischen_ADJA Formeln_NN lösbar_ADJD ._$. Viele_PIDAT <_CARD REMOVED_PERSON_ENTITY_NN >_XY 

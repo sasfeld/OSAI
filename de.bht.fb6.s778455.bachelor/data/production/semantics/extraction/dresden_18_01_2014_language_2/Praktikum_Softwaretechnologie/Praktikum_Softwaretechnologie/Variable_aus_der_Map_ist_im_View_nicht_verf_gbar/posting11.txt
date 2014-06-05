@@ -1,0 +1,10 @@
+ID: 2803
+CREATION_DATETIME: 1384124400000
+MODIFICATION_DATETIME: 1384124400000
+TITLE: Da hab ich wohl was durcheinander bekommen. Vielen Dank für die Erinnerung. :)
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2799
+POSTING_TYPE: comment
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> hab ich wohl was durcheinander bekommen. Vielen Dank für die Erinnerung. :)
+TAGGED_CONTENT:

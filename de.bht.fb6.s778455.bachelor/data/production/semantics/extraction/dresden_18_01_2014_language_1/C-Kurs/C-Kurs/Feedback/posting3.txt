@@ -1,0 +1,22 @@
+ID: 2914
+CREATION_DATETIME: 1384815600000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: Hier hat ja noch gar niemand geschrieben O.o
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2789
+POSTING_TYPE: answer
+CONTENT:
+Hier hat ja noch gar niemand geschrieben O. o
+
+Mir persönlich gefällt mein Kurs am Dienstag morgen sehr gut bisher.
+
+Probleme gab es noch keine. die kurzen Einführungen zu verschiedenen Themen zu Beginn der Doppelstunde sind interessant und nicht zu lange.
+
+Auch das wir größtenteils selbstständig arbeiten müssen aber jemand vor Ort ist den man bei Problemen fragen kann finde ich Ideal. 
+
+Weiter so!
+
+Was vielleicht noch ganz praktisch wäre, <REMOVED_PERSON_ENTITY> oder Erklärungen zu den einzelnen Programmen wo man etwas rausfinden soll, wie z. B. "Rechenfehler", nachträglich auf die Seite Laden wäre klasse um im nachhinein nochmal reflektieren zu können. Das vielleicht als einzigen Verbesserungsvorschlag. Ebenso Musterlösungen zu den selbst zu schreibenden Programme mit "guter" Syntaxt usw. Das mal als Verbesserungsvorschlag.
+
+Ansonsten alles gut!
+TAGGED_CONTENT:

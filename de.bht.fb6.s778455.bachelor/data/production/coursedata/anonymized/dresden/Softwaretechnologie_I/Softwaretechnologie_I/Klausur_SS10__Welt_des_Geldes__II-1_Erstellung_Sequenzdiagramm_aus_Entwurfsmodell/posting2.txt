@@ -1,0 +1,20 @@
+ID: 2080
+CREATION_DATETIME: 1371592800000
+MODIFICATION_DATETIME: 1371592800000
+TITLE: Hallo.
+
+Weder finde ich die Aufgabe im Übungs-Script nicht, noch kann ich mich an solch eine nicht ...
+PARENT_POSTING_ID: 2067
+POSTING_TYPE: answer
+CONTENT:
+Hallo.
+Weder finde ich die Aufgabe im Übungs-Script, noch kann ich mich an solch eine erinnern.
+Dann weiß ich nicht, was Du jetzt wissen möchtest.
+Ich versuche mal das zu beantworten, wo ich denke, dass Du es wissen wolltest.
+Im Entwurf kann man auf den Kommunikationen Parameter verwenden.
+Köpfe (z. B. Objekte) werden mit einem <REMOVED_PERSON_ENTITY> dargestellt, diese fehlen.
+<NAME_CORPUS_REPLACEMENT> Du Kommunikation <NAME_CORPUS_REPLACEMENT> Objekten dargestellt hast fehlen die Unterstreichungen.
+Bei Policity und Money würde ich gerne sehen wollen wer das jeweilige Objekt erzeugt, <NAME_CORPUS_REPLACEMENT> beide im Zeitverlauf erst später existieren.
+Ansonsten ist die Syntax richtig.
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

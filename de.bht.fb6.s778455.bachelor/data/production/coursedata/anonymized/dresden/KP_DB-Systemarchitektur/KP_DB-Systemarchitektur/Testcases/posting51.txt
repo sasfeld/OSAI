@@ -1,0 +1,12 @@
+ID: 2036
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: sehr schön, dann guck ich mir das später nochmal an und wir quatschen morgen nochmal kurz drüber.
+Ic...
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+sehr schön, dann guck ich mir das später nochmal an und wir quatschen morgen nochmal kurz drüber.
+Ich werd jetzt noch so schnell wie möglich die übrigen Folien erstellen.
+Ich denke, wir sollten morgen alle nicht zu spät bei der Präsi sein, damit wir nochmal absprechen können, wer was vorstellt etc.
+TAGGED_CONTENT:

@@ -1,0 +1,20 @@
+ID: 3005
+CREATION_DATETIME: 1385247600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+ich wollte fragen, ob es möglich, dass man dynamisch bestimmen kann, welcher Eintrag in der Liste standartmäßig ausgewählt ist. 
+Im meinem Fall verwende ich das für die Auswahl der Rolle des Users. Wenn ein neuer User erstellt wird, ist immer Chef ausgewählt. 
+Nun möchte ich aber, wenn ich einen User editiere, dass seine Role automatisch ausgewählt wird. Z. B. wenn ich einen Verkäufer auswähle, soll in der Auswahlliste auch <REMOVED_PERSON_ENTITY> beim laden der Seite ausgewählt sein.
+Edit:
+Hier ist der Abschnitt für die Auswahlbox:
+```html
+   Chef 
+   Verkaufer 
+   Pensionsarbeiter 
+   Gartenbauer 
+```
+TAGGED_CONTENT:

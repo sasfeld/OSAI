@@ -1,0 +1,34 @@
+ID: 241967
+CREATION_DATETIME: 1381346047
+MODIFICATION_DATETIME: 1381346047
+TITLE: Re: Onlinemeeting heute Abend
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:5.18753055338448;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:2.98265634797786;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Programmierung;weight:1.0;significance:2.38779069025145;degreegeneralization:7;uri:21461440
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:2.33481144310352;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:3.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Konferenzen, Kongresse und Symposien;weight:1.0;significance:2.08655337369569;degreegeneralization:3;uri:21956956
+TOPIC_ZOOM_TAG: value:Software;weight:1.0;significance:1.73674454815565;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:1.67474181585092;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:1.66926724024071;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:1.55845785653717;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:1.43671328660255;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:1.33567892145369;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.22055656413693;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:0.884199473190443;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:0.72709721863856;degreegeneralization:2;uri:21990259
+POS_TAG: value:Woche;weight:0.0;uri:;postag:NN
+POS_TAG: value:Konferenzen;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Uhr;weight:0.0;uri:;postag:NN
+POS_TAG: value:Grundlagen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mathematik;weight:0.0;uri:;postag:NN
+POS_TAG: value:Programmierung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 241941
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+soweit mir bekannt, werden immer abwechselnd in Grundlagen der Programmierung und in Mathematik jeweils mittwochs um 20 Uhr Konferenzen gehalten. Heute war noch einmal GdP dran und nächste Woche ist dann Mathematik dran. Ab nächster Woche also immer wöchentlich wechselnd.
+ 
+Grüße, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE ,_$, soweit_ADV mir_PPER bekannt_ADJD ,_$, werden_VAFIN immer_ADV abwechselnd_ADJD in_APPR Grundlagen_NN der_ART Programmierung_NN und_KON in_APPR Mathematik_NN jeweils_ADV mittwochs_ADV um_APPR 20_CARD Uhr_NN Konferenzen_NN gehalten_VVPP ._$. Heute_ADV war_VAFIN noch_ADV einmal_ADV GdP_NE dran_PROAV und_KON nächste_ADJA Woche_NN ist_VAFIN dann_ADV Mathematik_NN dran_PROAV ._$. Ab_APPR nächster_ADJA Woche_NN also_ADV immer_ADV wöchentlich_ADJD wechselnd_ADJD ._$. Grüße_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

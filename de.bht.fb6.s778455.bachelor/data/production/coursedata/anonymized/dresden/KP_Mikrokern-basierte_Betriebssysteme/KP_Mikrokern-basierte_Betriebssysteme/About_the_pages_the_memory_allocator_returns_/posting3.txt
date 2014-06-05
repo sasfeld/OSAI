@@ -1,0 +1,11 @@
+ID: 772
+CREATION_DATETIME: 1352847600000
+MODIFICATION_DATETIME: 1352847600000
+TITLE: The [manual page](http://os.inf.tu-dresden.de/L4Re/doc/classL4Re_1_1Mem__alloc.html) states in the do...
+PARENT_POSTING_ID: 770
+POSTING_TYPE: comment
+CONTENT:
+The [manual page](http://os.inf.tu-dresden. de/L4Re/doc/classL4Re_1_1Mem__alloc. html) states in the documentation for  the method **L4Re::Mem_alloc::alloc(…)** that
+> [the parameter] size [is the] Size to be requested in bytes (granularity is (super)pages and the size is rounded up to this granularity). 
+So I assume it always rounds up to page size which is supposed to be 4K.
+TAGGED_CONTENT:

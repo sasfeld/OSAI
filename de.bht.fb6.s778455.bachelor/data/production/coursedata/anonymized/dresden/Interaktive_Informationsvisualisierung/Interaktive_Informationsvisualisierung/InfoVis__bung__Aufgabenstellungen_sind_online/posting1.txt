@@ -1,0 +1,9 @@
+ID: 1704
+CREATION_DATETIME: 1365804000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Aufgabenstellungen für die InfoVis Übung sind [online verfügbar](http://mt.inf.tu-dresden. de/lehre/InfoVis/2013/uebung. html)!
+TAGGED_CONTENT:

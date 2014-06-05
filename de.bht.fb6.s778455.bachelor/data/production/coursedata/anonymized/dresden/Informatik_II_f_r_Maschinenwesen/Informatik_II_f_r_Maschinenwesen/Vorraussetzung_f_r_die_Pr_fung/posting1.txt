@@ -1,0 +1,9 @@
+ID: 2488
+CREATION_DATETIME: 1375480800000
+MODIFICATION_DATETIME: 1379109600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi, die Prüfung für Info 2 steht ja vor der Tür, und es ist doch so, dass man den Beleg bestehen muss, um die Prüfung bestehen zu können oder? Wenn das so ist, dann würde das ja bedeuten, dass man die Prüfung gar nicht erst schreiben braucht, wenn man den Beleg sowieso vermasselt hat. Also meine Eigendliche Frage: Wann bekommt man denn das Ergebnis beim Beleg mitgeteilt, und hat es Sinn die Prüfung zu schreiben, wenn man sich sicher ist im Beleg durchgefallen zu sein?
+TAGGED_CONTENT:

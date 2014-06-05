@@ -1,0 +1,9 @@
+ID: 827
+CREATION_DATETIME: 1353538800000
+MODIFICATION_DATETIME: 1353884400000
+TITLE: Bitte mal die Frage öffentlich stellen und die fehlerhafte Ausgabe mit einfügen.. Danke
+PARENT_POSTING_ID: 823
+POSTING_TYPE: comment
+CONTENT:
+Bitte mal die Frage öffentlich stellen und die fehlerhafte Ausgabe mit einfügen.. Danke
+TAGGED_CONTENT:

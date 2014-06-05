@@ -1,0 +1,15 @@
+ID: 2971
+CREATION_DATETIME: 1385074800000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: Customer scheint kein Entity zu sein?
+
+```
+Caused by: org.hibernate.AnnotationException: @OneToOne...
+PARENT_POSTING_ID: 2970
+POSTING_TYPE: answer
+CONTENT:
+Customer scheint kein Entity zu sein?
+```
+Caused by: org. hibernate. AnnotationException: @OneToOne or @ManyToOne on swt13w30. domain. Booking. customer references an unknown entity: swt13w30. domain. Customer
+```
+TAGGED_CONTENT:

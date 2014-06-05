@@ -1,0 +1,9 @@
+ID: 1612
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: wie oben geschrieben: es gibt den Move an sich zurück (der code dazu ist im eigentlichen Post)
+PARENT_POSTING_ID: 1602
+POSTING_TYPE: comment
+CONTENT:
+wie oben geschrieben: es gibt den Move an sich zurück (der code dazu ist im eigentlichen Post)
+TAGGED_CONTENT:

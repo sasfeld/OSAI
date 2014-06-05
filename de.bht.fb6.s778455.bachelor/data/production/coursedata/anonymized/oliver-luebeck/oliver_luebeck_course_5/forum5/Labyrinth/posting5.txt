@@ -1,0 +1,27 @@
+ID: 93
+CREATION_DATETIME: 1199973180000
+MODIFICATION_DATETIME: 1199973180000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 92
+CONTENT:
+ 
+Hey ,
+
+weshalb du die Exception bekommst liegt wohl hieran:
+
+char position = lab[x][y];
+position = '*';
+
+wenn du für position = '*' vergibst wird nicht der Wert im Array sondern nur der Wert der Variable position verändert. char ist kein referenzieller sondern ein primitiver Datentyp. Bei einem Object beispielsweise würde das funktionieren. bei char allerdings nicht. es muss heißen:
+
+lab[x][y] = '*';
+
+dann ist schonmal die Exception weg soweit ich das sehe. Die Funktion hat sich unendlich oft selbst aufgerufen, da nie eine Position belegt wurde und er immer wieder true zurückgab.
+
+In glaube in der if-Bedingung, wo du existWeg() rekursiv aufrufst müsstest du auch noch was ändern, sonst gibt er auch, wenn kein Weg existiert, true zurück.
+
+Vele Grüße,
+
+       
+TAGGED_CONTENT:

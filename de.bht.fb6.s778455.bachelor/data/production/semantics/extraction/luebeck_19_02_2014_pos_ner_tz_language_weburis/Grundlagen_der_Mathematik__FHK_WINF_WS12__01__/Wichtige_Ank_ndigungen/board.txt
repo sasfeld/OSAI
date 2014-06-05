@@ -1,0 +1,15 @@
+ID: 22725
+MODIFICATION_DATETIME: 1348132280
+TITLE: Wichtige Ankündigungen
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/view.php?id=22725
+TOPIC_ZOOM_TAG: value:Generäle;weight:1.0;significance:7.75978962485576;degreegeneralization:8;uri:21633208
+TOPIC_ZOOM_TAG: value:Offiziere;weight:1.0;significance:7.09542140884586;degreegeneralization:7;uri:21628006
+TOPIC_ZOOM_TAG: value:Soldaten;weight:1.0;significance:6.16319985489951;degreegeneralization:6;uri:21602506
+TOPIC_ZOOM_TAG: value:Militär;weight:1.0;significance:4.65243985568887;degreegeneralization:4;uri:21969468
+TOPIC_ZOOM_TAG: value:Verteidigungspolitik;weight:1.0;significance:4.56242000520852;degreegeneralization:3;uri:21997195
+TOPIC_ZOOM_TAG: value:Politik;weight:1.0;significance:1.84870472161056;degreegeneralization:2;uri:21999932
+POS_TAG: value:ndigungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:General;weight:0.0;uri:;postag:NN
+INTRO: <p>General news and announcements</p>
+TYPE: news

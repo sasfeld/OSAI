@@ -1,0 +1,9 @@
+ID: 637
+CREATION_DATETIME: 1351724400000
+MODIFICATION_DATETIME: 1351724400000
+TITLE: Naja, mit nem eigenen Server und einer Gruppe, die auch git will, kannst du sogar alle stärken von gi...
+PARENT_POSTING_ID: 607
+POSTING_TYPE: comment
+CONTENT:
+Naja, mit nem eigenen Server und einer Gruppe, die auch git will, kannst du sogar alle stärken <NAME_CORPUS_REPLACEMENT> git nutzen. Einfach lokal & in der Gruppe immer git verwenden und das forwarden zum SVN-Server (ggf. nur einen Branch forwarden) den Server übernehmen lassen.
+TAGGED_CONTENT:

@@ -1,0 +1,13 @@
+ID: 3021
+CREATION_DATETIME: 1385420400000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: `man sqrt` sagt: `#include <math.h>`.
+Wenn du das `#include <math.h>` in einen Header schreibst, `#i...
+PARENT_POSTING_ID: 3020
+POSTING_TYPE: answer
+CONTENT:
+`man sqrt` sagt: `#include `.
+Wenn du das `#include ` in einen Header schreibst, `#include`-est du dann auch deinen Header?
+Oder sagt der Compiler spezifisch "math. h not found?". Komplette Fehlermeldungen wären natürlich nicht schlecht - meine <REMOVED_PERSON_ENTITY> ist heute morgen etwas frostbedeckt.
+Sagt der Compiler (eigentlich der <REMOVED_PERSON_ENTITY>) aber: `undefined reference to 'sqrt'` dann musst du dein `-lm` nach deiner C-File schreiben. Die Reihenfolge ist *nicht* egal.
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 3057
+CREATION_DATETIME: 1385679600000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: Yes, I was also there and the tutor has started to talk about a different topic which has nothing to ...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 3055
+POSTING_TYPE: answer
+CONTENT:
+Yes, I was also there and the tutor has started to talk about a different topic which has nothing to do with the last <REMOVED_PERSON_ENTITY>'s lecture. :/
+TAGGED_CONTENT:

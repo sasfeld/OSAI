@@ -1,0 +1,12 @@
+ID: 465
+CREATION_DATETIME: 1350943200000
+MODIFICATION_DATETIME: 1384297200000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+The given link to the repository http://os.inf.tu-dresden. de/Studium/Praktikum/src/trunk/kpr/ does not seem to exist.
+
+I <NAME_CORPUS_REPLACEMENT> cut it to http://os.inf.tu-dresden. de/Studium/Praktikum/src/trunk and it seems to do fine. Or was the subdirectory **kpr** intended to have contained something special?
+TAGGED_CONTENT:

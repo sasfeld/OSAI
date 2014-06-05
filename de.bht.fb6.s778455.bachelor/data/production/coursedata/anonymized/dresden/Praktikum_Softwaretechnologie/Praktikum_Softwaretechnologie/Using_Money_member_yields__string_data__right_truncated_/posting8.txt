@@ -1,0 +1,9 @@
+ID: 2882
+CREATION_DATETIME: 1384642800000
+MODIFICATION_DATETIME: 1384642800000
+TITLE: No sliding html content anymore. Thanks for testing this "feature" ;)
+PARENT_POSTING_ID: 2867
+POSTING_TYPE: comment
+CONTENT:
+No sliding html content anymore. Thanks for testing this "feature" ;)
+TAGGED_CONTENT:

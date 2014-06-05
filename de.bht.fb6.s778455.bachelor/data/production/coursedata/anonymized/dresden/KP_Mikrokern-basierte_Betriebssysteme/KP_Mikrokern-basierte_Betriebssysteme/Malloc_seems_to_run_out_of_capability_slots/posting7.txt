@@ -1,0 +1,9 @@
+ID: 1150
+CREATION_DATETIME: 1361401200000
+MODIFICATION_DATETIME: 1361401200000
+TITLE: I thought so :) That is why I asked. I will try to fix it by aquiring the capability only once and ca...
+PARENT_POSTING_ID: 1143
+POSTING_TYPE: comment
+CONTENT:
+I thought so :) That is why I asked. I will try to fix it by aquiring the capability only once and caching it. Results follow…
+TAGGED_CONTENT:

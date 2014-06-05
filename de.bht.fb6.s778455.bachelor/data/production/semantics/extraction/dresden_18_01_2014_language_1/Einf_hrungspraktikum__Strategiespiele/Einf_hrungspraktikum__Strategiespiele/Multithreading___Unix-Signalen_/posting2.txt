@@ -1,0 +1,14 @@
+ID: 1500
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Der erste Weg ist der bessere. Für die zweite müsste du recht viel im Signal-Handler machen wie z.B. ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1499
+POSTING_TYPE: answer
+CONTENT:
+Der erste Weg ist der bessere. Für den zweiten müsstest du recht viel im Signal-Handler machen wie z. B. ```fprintf``` o.ä.. Laut ```man 7 signal``` ist es nicht sicher, diese im Signal-Handler aufzurufen.
+
+Beim ersten Weg musst du lediglich drauf achten das Flag häufig genug zu prüfen. Sonst verstreicht eine weitere Sekunde und der MCP killt dich :)
+
+Noch ein Hinweis: Das Flag solltest du mit ```volatile``` deklarieren, weil es unabhängig vom normalen Kontrollfluss geändert wird und daher der Compiler das nicht mitbekommt (mit Optimierungen packt der Compiler das sonst gerne in ein Register statt im Speicher zu gucken und das Register ändert sich dann natürlich nie).
+TAGGED_CONTENT:

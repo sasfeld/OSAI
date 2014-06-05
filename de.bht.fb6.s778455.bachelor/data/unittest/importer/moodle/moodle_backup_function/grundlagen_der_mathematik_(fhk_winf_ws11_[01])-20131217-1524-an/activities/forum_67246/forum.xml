@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="13466" moduleid="67246" modulename="forum" contextid="94164">
+  <forum id="13466">
+    <type>general</type>
+    <name>Fachforum zum Teil I</name>
+    <intro>Hier können Sie Fachfragen zum Teil I diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>2</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1218800557</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+    </discussions>
+    <subscriptions>
+      <subscription id="123149">
+        <userid>741</userid>
+      </subscription>
+      <subscription id="123150">
+        <userid>743</userid>
+      </subscription>
+      <subscription id="123151">
+        <userid>751</userid>
+      </subscription>
+      <subscription id="123152">
+        <userid>665</userid>
+      </subscription>
+      <subscription id="123153">
+        <userid>321</userid>
+      </subscription>
+      <subscription id="123154">
+        <userid>643</userid>
+      </subscription>
+      <subscription id="123155">
+        <userid>7812</userid>
+      </subscription>
+      <subscription id="123156">
+        <userid>725</userid>
+      </subscription>
+      <subscription id="123157">
+        <userid>723</userid>
+      </subscription>
+      <subscription id="123158">
+        <userid>727</userid>
+      </subscription>
+      <subscription id="123159">
+        <userid>769</userid>
+      </subscription>
+      <subscription id="123160">
+        <userid>761</userid>
+      </subscription>
+      <subscription id="123161">
+        <userid>745</userid>
+      </subscription>
+      <subscription id="123162">
+        <userid>747</userid>
+      </subscription>
+      <subscription id="123163">
+        <userid>729</userid>
+      </subscription>
+      <subscription id="123164">
+        <userid>739</userid>
+      </subscription>
+      <subscription id="123165">
+        <userid>759</userid>
+      </subscription>
+      <subscription id="123166">
+        <userid>767</userid>
+      </subscription>
+      <subscription id="123167">
+        <userid>755</userid>
+      </subscription>
+      <subscription id="123168">
+        <userid>757</userid>
+      </subscription>
+      <subscription id="123169">
+        <userid>749</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

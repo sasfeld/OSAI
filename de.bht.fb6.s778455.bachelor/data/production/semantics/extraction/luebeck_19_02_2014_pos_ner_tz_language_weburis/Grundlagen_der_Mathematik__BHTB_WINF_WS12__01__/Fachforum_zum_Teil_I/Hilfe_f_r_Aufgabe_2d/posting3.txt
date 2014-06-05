@@ -1,0 +1,39 @@
+ID: 167959
+CREATION_DATETIME: 1349638053
+MODIFICATION_DATETIME: 1349638053
+TITLE: Re: Hilfe für Aufgabe 2d
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=62177#167959
+TOPIC_ZOOM_TAG: value:Blindheit;weight:1.0;significance:5.661127577057;degreegeneralization:9;uri:20918511
+TOPIC_ZOOM_TAG: value:Sehschwäche;weight:1.0;significance:5.661127577057;degreegeneralization:8;uri:20929765
+TOPIC_ZOOM_TAG: value:Augenleiden und Augenerkrankungen;weight:1.0;significance:5.3813196830893;degreegeneralization:7;uri:20929782
+TOPIC_ZOOM_TAG: value:Augenheilkunde;weight:1.0;significance:5.31455398677705;degreegeneralization:6;uri:21981538
+TOPIC_ZOOM_TAG: value:Körperliche Behinderungen und Gebrechen;weight:1.0;significance:5.20298221111995;degreegeneralization:4;uri:20907563
+TOPIC_ZOOM_TAG: value:Erkrankungen und Leiden im Bereich Kopf und Hals;weight:1.0;significance:4.15705018028074;degreegeneralization:5;uri:20906475
+TOPIC_ZOOM_TAG: value:Behinderungen und Gebrechen;weight:1.0;significance:3.8556686207349;degreegeneralization:3;uri:21981215
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:3.47798843820414;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:2.77735785682754;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:2.59037776375624;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Klinische Medizin;weight:1.0;significance:2.42514766652395;degreegeneralization:5;uri:21997603
+TOPIC_ZOOM_TAG: value:Krankheiten, Beschwerden und Leiden;weight:1.0;significance:2.27501663521354;degreegeneralization:3;uri:21985125
+TOPIC_ZOOM_TAG: value:Medizinische Wissenschaften;weight:1.0;significance:2.25605635199945;degreegeneralization:4;uri:21997586
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:2.18452430611399;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Humanmedizin;weight:1.0;significance:2.15383272310903;degreegeneralization:4;uri:21994033
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Medizin;weight:1.0;significance:2.05896000287226;degreegeneralization:3;uri:21981606
+TOPIC_ZOOM_TAG: value:Gesundheit;weight:1.0;significance:1.77348965381358;degreegeneralization:2;uri:21997569
+POS_TAG: value:sungsweg;weight:0.0;uri:;postag:NN
+POS_TAG: value:Antwort;weight:0.0;uri:;postag:NN
+POS_TAG: value:L;weight:0.0;uri:;postag:NN
+POS_TAG: value:Prof.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Voraussetzung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Blindheit;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 167823
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+danke für deine Antwort. Prof. <REMOVED_PERSON_ENTITY> hat mir geschrieben, mein Lösungsweg ist soweit richtig - nur das 0&gt;=-1 ist natürlich richtig und nicht, wie von mir aus Blindheit angenommen, falsch... Daher gilt das x&gt;=2 aus der Voraussetzung und vereinigt mit 3/2 &lt;= x &lt; 2 ergibt sich L = {3/2 &lt;= x &lt; oo}.
+Schönen Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NN >_VVFIN ,_$, danke_VVFIN für_APPR deine_PPOSAT Antwort_NN ._$. Prof._NN <_VVFIN REMOVED_PERSON_ENTITY_NE >_NE hat_VAFIN mir_PPER geschrieben_VVPP ,_$, mein_PPOSAT Lösungsweg_NN ist_VAFIN soweit_ADV richtig_ADJD -_$( nur_ADV das_ART 0_CARD >_XY =_XY -1_CARD ist_VAFIN natürlich_ADV richtig_ADJD und_KON nicht_PTKNEG ,_$, wie_PWAV von_APPR mir_PPER aus_APPR Blindheit_NN angenommen_VVPP ,_$, falsch_ADJD ..._$( Daher_PROAV gilt_VVFIN das_ART x_XY >_XY =_XY 2_CARD aus_APPR der_ART Voraussetzung_NN und_KON vereinigt_VVFIN mit_APPR 3\/2_CARD <_XY =_XY x_XY <_CARD 2_CARD ergibt_VVFIN sich_PRF L_NN =_XY -LCB-_TRUNC 3\/2_CARD <_XY =_XY x_XY <_CARD oo_FM -RCB-_TRUNC ._$. Schönen_ADJA Gruß_NN <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

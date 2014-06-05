@@ -1,0 +1,38 @@
+ID: 2154638
+CREATION_DATETIME: 1380837600000
+MODIFICATION_DATETIME: 1383519600000
+TITLE: C-Kurs
+INTRO: ### Was? ###
+Anfängerkurs für die Programmiersprache C.
+
+#### Umfang ####
+Zeitaufwand 2 SWS.
+
+#### Inhaltliche Ausrichtung ####
+Der Kurs behandelt die Grundlagen der Programmierung in der Sprache C. Die generelle Ausrichtung ist ein wenig technisch orientiert, da der algorithmische Teil ja schon durch die Vorlesungen _AuD_ und _Programmierung_ abgedeckt wird.
+Hauptziel ist es, dem Studenten einen Überblick über die verschiedenen Aspekte der C-Programmierung und eine Grundlage zum weiterführenden Selbststudium zu geben.
+
+### Software ###
+Benutzt werden ein **Klartext**editor eurer Wahl (also notepad, notepad2, gedit, kate, nano, vim… ).  
+Zudem wird als Compiler _gcc_ oder _clang_ genutzt, sowie _gdb_ als Debugger.
+
+#### Windows ####
+Windows-Nutzer benötigen [cygwin](http://cygwin.com/install.html) oder alternativ [mingw](http://sourceforge.net/projects/mingw/files/). Diese bringen die benötigten Programme mit.
+
+#### Linux ####
+Linux-Nutzer fragen ihren Paketmanager nach _gcc_ und _gdb_.
+
+#### Mac ####
+Mac-Nutzer benutzen entweder [Xcode](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12) oder (wem der Download mehrerer GB zu groß ist) suchen sich die Lösung [hier](https://github.com/kennethreitz/osx-gcc-installer#osx-gcc-installer)
+
+### Termine ###
+Kick-off, Freitag, **1.11.2013, 6.DS** in der **E23**
+
+#### Reguläre Kurstermine ####
+* Montag, 2. DS E069 (Windows / Linux)
+* Montag, 4. DS E069 (Windows / Linux)
+* Dienstag, 2. DS E069 (Windows / Linux)
+* Dienstag, 4. DS E069 (Windows / Linux)
+* Donnerstag, 4. DS E067 ( nur Windows!)
+* Freitag, 5.DS E069 (Windows / Linux)
+TYPE: null

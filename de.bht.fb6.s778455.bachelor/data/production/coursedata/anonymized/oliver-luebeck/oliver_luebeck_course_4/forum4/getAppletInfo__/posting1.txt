@@ -1,0 +1,22 @@
+ID: 24
+CREATION_DATETIME: 1176206880000
+MODIFICATION_DATETIME: 1176206880000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+    Hallo *.
+ich habe das Applet für die Einsendeaufgabe angefangen und stolpere gerade über die Ausgabe der getAppletInfo -Methode. Wenn ich die Java-Konsole im Browser öffne zeigt er mir gar nichts an. Über den appletviewer tut sich auch nichts. Wie mache ich meinen String verfügbar?
+
+<code>
+public String getAppletInfo() {
+String info = "Test";
+return info;
+}
+</code>
+
+Gruß
+
+    
+TAGGED_CONTENT:

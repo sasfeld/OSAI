@@ -1,0 +1,12 @@
+ID: 2805
+CREATION_DATETIME: 1384124400000
+MODIFICATION_DATETIME: 1384124400000
+TITLE: Mir ist noch dieses Machwerk aufgefallen
+`for (Iterator iterator = entries.values().iterator(); iter...
+PARENT_POSTING_ID: 2799
+POSTING_TYPE: comment
+CONTENT:
+Mir ist noch dieses Machwerk aufgefallen
+`for (Iterator iterator = entries. values(). iterator(); iterator. hasNext();) `
+Es müsste so heißen `for(Typ variable : Iterable/Collection)` (vergleiche th:each in deinem staffplan), deine Variante ist schwer lesbar, schwer verständlich, fehleranfällig, hässlich, unnötig und nicht generisch. 
+TAGGED_CONTENT:

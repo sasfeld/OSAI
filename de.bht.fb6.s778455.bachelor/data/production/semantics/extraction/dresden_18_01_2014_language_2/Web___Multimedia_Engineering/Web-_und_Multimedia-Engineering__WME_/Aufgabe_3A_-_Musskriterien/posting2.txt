@@ -1,0 +1,10 @@
+ID: 1078
+CREATION_DATETIME: 1358982000000
+MODIFICATION_DATETIME: 1358982000000
+TITLE: Erfüllung aller MUSS-Kriterien ergibt 50% der Punkte, werden einzelne nicht erfüllt gibts dann eben A...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1077
+POSTING_TYPE: answer
+CONTENT:
+Erfüllung aller MUSS-Kriterien ergibt 50% der Punkte, werden einzelne nicht erfüllt gibts dann eben Abzüge.
+TAGGED_CONTENT:

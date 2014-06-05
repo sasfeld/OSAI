@@ -1,0 +1,10 @@
+ID: 436
+CREATION_DATETIME: 1350597600000
+MODIFICATION_DATETIME: 1350597600000
+TITLE: Ich verlinke hier mal
+PARENT_POSTING_ID: 241
+POSTING_TYPE: comment
+CONTENT:
+Ich verlinke hier mal das Paper, was kurz umreißt, wie man den Inhalt effizient für sich erschließen kann: [How to read a paper](http://blizzard.cs.uwaterloo.ca/keshav/home/Papers/data/07/paper-reading. pdf).
+(via [Björn <NAME_CORPUS_REPLACEMENT>](https://auditorium. inf. tu-dresden. de/users/31))
+TAGGED_CONTENT:

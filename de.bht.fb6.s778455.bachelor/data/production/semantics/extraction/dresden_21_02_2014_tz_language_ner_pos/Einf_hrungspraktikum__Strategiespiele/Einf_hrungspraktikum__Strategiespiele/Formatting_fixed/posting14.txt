@@ -1,0 +1,15 @@
+ID: 1488
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Das Problem lässt sich leicht diagnostizieren, wenn du `new myBoardstate` statt `malloc` benutzt.
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+POS_TAG: value:myBoardstate;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1467
+POSTING_TYPE: comment
+CONTENT:
+Das Problem lässt sich leicht diagnostizieren, wenn du `new myBoardstate` statt `malloc` benutzt.
+TAGGED_CONTENT:
+Das_ART Problem_NN lässt_VVFIN sich_PRF leicht_ADJD diagnostizieren_VVINF ,_$, wenn_KOUS du_PPER `_XY new_ITJ myBoardstate_NN `_CARD statt_APPR `_CARD malloc_ADJD `_ADJD benutzt_VVPP ._$. 

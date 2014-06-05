@@ -1,0 +1,8 @@
+ID: 101865
+CREATION_DATETIME: 1287916612
+MODIFICATION_DATETIME: 1287916612
+TITLE: Wahrheitstabellen zum Ausdrucken
+PARENT_POSTING_ID: 0
+CONTENT:
+Habe mir die Wahrheitstabellen zum Ausdrucken erstellt!Wem es nützt, kann es hier gerne runterladen!LG <PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

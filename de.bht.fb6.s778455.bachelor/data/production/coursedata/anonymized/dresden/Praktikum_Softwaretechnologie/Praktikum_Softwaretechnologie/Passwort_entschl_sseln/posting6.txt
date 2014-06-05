@@ -1,0 +1,9 @@
+ID: 3039
+CREATION_DATETIME: 1385506800000
+MODIFICATION_DATETIME: 1385506800000
+TITLE: Du hast wohl recht. Ich wollte nur nicht, dass man seinen Login-Name nur in Verbindung mit dem Passwo...
+PARENT_POSTING_ID: 3036
+POSTING_TYPE: comment
+CONTENT:
+Du hast wohl recht. Ich wollte nur nicht, dass man seinen Login-Name nur in Verbindung mit dem Passwort ändern kann. Und wenn es doch sein muss, dann wollte ich zumindest eine Sicherheitsabfrage haben. Aber das ist doch etwas übertireben. Danke für dein Hilfe.
+TAGGED_CONTENT:

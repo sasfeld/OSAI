@@ -1,0 +1,10 @@
+ID: 1877
+CREATION_DATETIME: 1369951200000
+MODIFICATION_DATETIME: 1373320800000
+TITLE: Die Sortierung der Liste "My Courses" (https://auditorium.inf.tu-dresden.de/my_courses) nach Semester...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 369
+POSTING_TYPE: answer
+CONTENT:
+Die Sortierung der Liste "My Courses" (https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/my_courses) nach Semestern wäre praktisch. Das aktuelle Semester sollte zuerst angezeigt werden. Ansonsten verliert man irgendwann die Übersicht. 
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 49
+CREATION_DATETIME: 1199262660000
+MODIFICATION_DATETIME: 1199262660000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 48
+CONTENT:
+
+Liebe , liebe Studierende,
+
+gute Frage! Die Animation wurde für Applets geschrieben, daher Browser. Betriebssystem ist für Anwendungen passender.
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

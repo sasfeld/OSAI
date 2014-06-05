@@ -1,0 +1,10 @@
+ID: 2021
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Aso ich hatte mich jetzt auf das innere y=0; bezogen. das andere hab ich komplett übersehen. sry. naj...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1987
+POSTING_TYPE: comment
+CONTENT:
+Aso ich hatte mich jetzt auf das innere y=0; bezogen. das andere hab ich komplett übersehen. sry. Diese Redundanz scheint mir aber auch etwas unsinnig. Hatte das fix ohne gelöst. Naja viel spaß noch.
+TAGGED_CONTENT:

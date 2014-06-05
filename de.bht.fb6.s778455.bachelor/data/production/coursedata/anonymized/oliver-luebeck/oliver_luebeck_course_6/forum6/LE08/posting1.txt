@@ -1,0 +1,53 @@
+ID: 55
+CREATION_DATETIME: 1289844720000
+MODIFICATION_DATETIME: 1289844720000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Bin gerade am Anfang der LE08 und bin bei der Aufgabe, bei der man Text und ein BIld einfügen soll. Es funktioniert auch alles, aber das Bild wird nicht angezeigt, ob es es im Package liegt.
+Vielleicht kann mir jemand helfen? (Siehe Screenshots)
+
+Der Code:
+public void initGUI() {
+JFrame fenster = new JFrame();
+fenster.setSize(new Dimension(600, 400));
+
+fenster.setTitle("Mein Cocktailmixer");
+
+fenster.setLocationRelativeTo(null);
+fenster.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+JPanel start = erzeugeBegruessungsPanel();
+
+fenster.getContentPane().add(start);
+
+fenster.setVisible(true);
+
+}
+
+
+private static JPanel erzeugeBegruessungsPanel() {
+
+JPanel newPanel = new JPanel();
+
+JLabel begText = new JLabel("Willkommen beim CocktailMixer");
+newPanel.add(begText);
+
+JLabel begBild = new JLabel(new ImageIcon("AbbCocktail.gif"));
+newPanel.add(begBild);
+
+return newPanel;
+}
+
+
+public static void main(String[] args) {
+
+MeinCocktailMixerGUI mcmg = new MeinCocktailMixerGUI();
+mcmg.initGUI();
+
+
+}
+	
+TAGGED_CONTENT:

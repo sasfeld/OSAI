@@ -1,0 +1,16 @@
+ID: 2752
+CREATION_DATETIME: 1383951600000
+MODIFICATION_DATETIME: 1383951600000
+TITLE: Weil wir uns beim entwickeln dafür entschieden haben. Im UserAccount stehen nur die Credentials + Nam...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2749
+POSTING_TYPE: comment
+CONTENT:
+Weil wir uns beim entwickeln dafür entschieden haben. Im UserAccount stehen nur die Credentials + Name&Mail, alles weitere (wie Adresse, Bonuspunkte, Schlüpferfarbe, etc) sollten in eine extra Klasse und damit auch in eine extra Tabelle. In die UA Tabelle gehört das alles IMO nicht rein.
+
+Am liebsten hätte ich noch UserAccount final gemacht und den parameterlosen Ctor versteckt, aber beides geht wegen JPA nicht.
+
+Es geht nichts kaputt, in Salespoint selber benutzen wir auch gar nicht die Repository Abstraktion <NAME_CORPUS_REPLACEMENT> Spring, alles <NAME_CORPUS_REPLACEMENT> Hand geschrieben. ;)
+
+Was ist denn dein Usecase, wieso willst du unbedingt den UserAccount erweitern?
+TAGGED_CONTENT:

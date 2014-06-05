@@ -1,0 +1,10 @@
+ID: 1595
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: ich möchte ja auch den inhalt der const char nur in eine char kopieren, allerdings finde ich dazu kei...
+PARENT_POSTING_ID: 1590
+POSTING_TYPE: answer
+CONTENT:
+ich möchte <LEARNED_PERSON_NAME_REPLACEMENT> auch den inhalt der const char nur in eine char kopieren, allerdings finde ich dazu keine passende funktion, der der buffer <LEARNED_PERSON_NAME_REPLACEMENT> ein char[39] ist und damit nicht zum char* umgewandelt werden kann, sondern nur zum char*[39].
+das hilft mir aber nicht.
+TAGGED_CONTENT:

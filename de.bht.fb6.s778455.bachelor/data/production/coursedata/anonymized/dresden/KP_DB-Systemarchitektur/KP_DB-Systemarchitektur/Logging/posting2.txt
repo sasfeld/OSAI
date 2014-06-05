@@ -1,0 +1,15 @@
+ID: 2219
+CREATION_DATETIME: 1373493600000
+MODIFICATION_DATETIME: 1373493600000
+TITLE: Halt stop!
+<br>
+Bitte baue einen LogStream als std::ostream, dem man am Anfang die Lognummer gibt.
+...
+PARENT_POSTING_ID: 2218
+POSTING_TYPE: comment
+CONTENT:
+Halt stop!
+Bitte baue einen LogStream als std::ostream, dem man am Anfang die Lognummer gibt.
+sowas wie CLeverTrustee::log << log_level(3) << "Hallo Welt" << ...
+alles andere wird zu viel Schreibarbeit und unportabel.
+TAGGED_CONTENT:

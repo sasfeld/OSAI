@@ -1,0 +1,12 @@
+ID: 770
+CREATION_DATETIME: 1352847600000
+MODIFICATION_DATETIME: 1362783600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Unless specified otherwise the memory allocator is supposed to return pages of the size 4K = 4096 bytes.  
+Is this architecture dependent or <NAME_CORPUS_REPLACEMENT> I rely on this fact?  
+Are the returned pages always aligned at a multiple of 4K?  
+(I. e. do they start with addresses 0, 4K, 8K, 12K and so on?)
+TAGGED_CONTENT:

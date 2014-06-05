@@ -1,0 +1,10 @@
+ID: 2572
+CREATION_DATETIME: 1381874400000
+MODIFICATION_DATETIME: 1381874400000
+TITLE: Also redest du nicht von deinem normalen ZIH-Login. Dann ist das IDM irrelevant und ich kann dir nich...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2569
+POSTING_TYPE: comment
+CONTENT:
+Also redest du nicht <NAME_CORPUS_REPLACEMENT> deinem normalen ZIH-Login. Dann ist das IDM irrelevant und ich kann dir nicht weiter helfen, <NAME_CORPUS_REPLACEMENT> ich nicht weiß mit welchem Login du dich wo einloggen sollst.
+TAGGED_CONTENT:

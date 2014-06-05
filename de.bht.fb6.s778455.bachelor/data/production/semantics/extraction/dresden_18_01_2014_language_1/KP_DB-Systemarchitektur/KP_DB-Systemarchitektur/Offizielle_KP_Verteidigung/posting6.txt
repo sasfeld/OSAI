@@ -1,0 +1,10 @@
+ID: 2327
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Ich hab die odp angepasst, auch inhaltlich. Die Achsenbeschriftungen sind jetzt auch dort drin, wo es...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Ich hab die odp angepasst, auch inhaltlich. Die Achsenbeschriftungen sind jetzt auch dort drin, wo es Sinn macht.
+TAGGED_CONTENT:

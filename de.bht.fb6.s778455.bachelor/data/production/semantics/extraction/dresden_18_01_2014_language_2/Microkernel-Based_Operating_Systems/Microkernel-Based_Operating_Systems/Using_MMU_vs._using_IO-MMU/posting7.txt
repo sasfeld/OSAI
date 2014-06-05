@@ -1,0 +1,10 @@
+ID: 1636
+CREATION_DATETIME: 1364252400000
+MODIFICATION_DATETIME: 1364252400000
+TITLE: The MMU and IOMMU sit (conceptually) between different parts of the computer. Imagine the MMU sitting...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 1634
+POSTING_TYPE: answer
+CONTENT:
+The MMU and IOMMU sit (conceptually) between different parts of the computer. Imagine MMUs sitting between each CPU and RAM. An IOMMU sits between devices and RAM. So if a CPU accesses memory using a virtual address the MMU translates this. If a device accesses memory, the IOMMU translates this.
+TAGGED_CONTENT:

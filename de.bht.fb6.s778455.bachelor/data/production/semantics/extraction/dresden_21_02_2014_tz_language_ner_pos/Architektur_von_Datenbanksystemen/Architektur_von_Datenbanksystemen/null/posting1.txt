@@ -1,0 +1,29 @@
+ID: 1807
+CREATION_DATETIME: 1368482400000
+MODIFICATION_DATETIME: 1379109600000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Vorlesungen;weight:2.0;significance:10.9167900460059;degreegeneralization:6;uri:20916641
+TOPIC_ZOOM_TAG: value:Ereignisse im Bereich Bildung, Erziehung und Ausbildung;weight:2.0;significance:9.2428136124342;degreegeneralization:3;uri:21872857
+TOPIC_ZOOM_TAG: value:Stoff und Inhalte von Vorlesungen;weight:1.0;significance:6.35427475761695;degreegeneralization:7;uri:20715157
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:2.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:2.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:2.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+NER_TAG: value:DS;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:HP;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Doppelbelegung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorlesung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorlesungsstoff;weight:0.0;uri:;postag:NN
+POS_TAG: value:Interesse;weight:0.0;uri:;postag:NN
+POS_TAG: value:Male;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo, wo findet denn die Di-Vorlesung (normalerweise Di, 6. DS, E023 - steht so auch so auf der HP) neuerdings statt? Wollte sie aus Interesse, wegen Stunden-Doppelbelegung aber nicht immer möglich, dienstags besuchen - letzten beiden Male war der <REMOVED_PERSON_ENTITY> leer.
+
+Und wie weit ist der Vorlesungsstoff?
+
+Danke.  
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, wo_PWAV findet_VVFIN denn_ADV die_ART Di-Vorlesung_NN -LRB-_TRUNC normalerweise_ADV Di_NE ,_$, 6_CARD ._$. DS_NE ,_$, E023_NE -_$( steht_VVFIN so_ADV auch_ADV so_ADV auf_APPR der_ART HP_NE -RRB-_TRUNC neuerdings_ADV statt_APPR ?_$. Wollte_VMFIN sie_PPER aus_APPR Interesse_NN ,_$, wegen_APPR Stunden-Doppelbelegung_NN aber_ADV nicht_PTKNEG immer_ADV möglich_ADJD ,_$, dienstags_ADV besuchen_VVINF -_$( letzten_ADJA beiden_PIDAT Male_NN war_VAFIN der_ART <_NN REMOVED_PERSON_ENTITY_NE >_CARD leer_ADJD ._$. Und_KON wie_PWAV weit_ADJD ist_VAFIN der_ART Vorlesungsstoff_NN ?_$. Danke_NE ._$. 

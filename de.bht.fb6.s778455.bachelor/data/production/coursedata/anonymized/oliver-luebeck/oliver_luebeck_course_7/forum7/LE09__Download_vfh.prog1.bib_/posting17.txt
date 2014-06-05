@@ -1,0 +1,25 @@
+ID: 37
+CREATION_DATETIME: 1304624580000
+MODIFICATION_DATETIME: 1304624580000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 36
+CONTENT:
+ 
+Vielen Dank an alle! Ihr habt mir echt weiter geholfen.
+Dennoch:
+-> meine Helden des Tages: Clemens und Oliver
+
+Eure Tipps haben mir ein lauffähiges Programm beschert.
+
+Den betrag bekomme ich leider noch nicht hin.
+public static double abs(double messwert)) klappt irgendwie nicht so recht.
+Vermutlich habe ich es an die falsche Stelle geschrieben.
+Wo sollte man es den postieren?
+java.lang.Math; habe ich importiert.
+
+Woher könnt ihr so gut JAVA?
+
+Beste Grüße, 
+   
+TAGGED_CONTENT:

@@ -1,0 +1,17 @@
+ID: 2082
+CREATION_DATETIME: 1371592800000
+MODIFICATION_DATETIME: 1372284000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo zusammen,
+ich habe soeben das Interface zur automatischen Datengenerierung in der Trainingsphase hochgeladen.
+Was sich im wesentlich ändert bei der Kernelerstellung und Ausführung, wenn man das automatische Training auslösen möchte, ist im Testcase TestSum zu sehen. Darin habe ich beispielhaft die Nutzung implementiert.
+Die Änderungen kurz zusammengefasst:
+Beim Erstellen des Kernels (in der execute-Methode des TestCase) werden dem createKernel()-Aufruf zwei weitere Argumente mitgegeben. Das erste ist ein Pointer auf die Funktion, welche die Testdaten erstellen und das zweite ist ein Pointer auf die Funktion, welche die Testdaten wieder löscht.
+Diese Funktionen dürfen nicht innerhalb der TestSum Klasse deklariert werden.
+Ich habe sie aber in die TestSum. cpp Datei geschrieben. Die Funktionen hab ich ausführlich dokumentiert, sodass sie auf andere Fälle angepasst werden können. 
+Entscheidend für andere TestCases ist also, dass Methoden hinzugefügt werden, die dieselbe Signatur wie diese zwei Methoden haben (natürlich mit anderen Funktionsnamen) und Daten für den speziellen Fall erzeugen bzw. wieder löschen.
+@Stefanie: Kannst du dich darum kümmern, das für die anderen TestCases zu implementieren? Danke :-) Bei Fragen einfach fragen. Aktuell scheint das Auditorium zwar keine Mails zu verschicken, aber ich schau regelmäßig vorbei.
+TAGGED_CONTENT:

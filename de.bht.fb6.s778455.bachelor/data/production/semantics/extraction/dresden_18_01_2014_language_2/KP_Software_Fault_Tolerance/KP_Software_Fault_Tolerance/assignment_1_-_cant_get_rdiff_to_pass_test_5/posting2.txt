@@ -1,0 +1,10 @@
+ID: 2646
+CREATION_DATETIME: 1383087600000
+MODIFICATION_DATETIME: 1383174000000
+TITLE: I have worked it out. My implementation had a segfault when one of the files did not exists.
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2640
+POSTING_TYPE: answer
+CONTENT:
+I have worked it out. My implementation had a segfault when one of the files did not exists.
+TAGGED_CONTENT:

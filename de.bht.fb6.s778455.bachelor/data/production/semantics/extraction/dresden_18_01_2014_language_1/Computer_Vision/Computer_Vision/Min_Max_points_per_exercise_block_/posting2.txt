@@ -1,0 +1,28 @@
+ID: 3029
+CREATION_DATETIME: 1385420400000
+MODIFICATION_DATETIME: 1385420400000
+TITLE: Hier sind die Spielregel/Zeitplan (Achtung: es hat sich etwas geändert!!!):
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3019
+POSTING_TYPE: answer
+CONTENT:
+Hier sind die Spielregel/Zeitplan (Achtung: es hat sich etwas geändert!!!):
+
+Es gibt folgende Blocks:
+
+1. Einführung (max. 1P) -- abgelaufen
+
+2. Filterung (max. 4P) -- läuft gerade, Deadline am 2. 12. 2013
+
+3. Geometrien (max. 4P) -- Einführung am 3/4. 12. 2013
+
+4. Labelling Probleme (max. 4P) -- Einführung am 7/8. 01. 2014
+
+Die Übungen sind erfolgreich abgeschlossen, wenn:
+
+1. Insgesamt **9** Punkte aufgesammelt sind (nicht 10, wie vorher angekündigt) **und**
+
+2. Zu den 2., 3. und 4. jeweils mindestens ein Punkt anwesend ist.
+
+"Deadline" bedeutet, dass zum entsprechenden Datum die Lösungen abgegeben werden müssen (Verspätung = Punktabzug). Sollte bei der Lösung etwas nicht in Ordnung sein, kann auch nach dem Deadline eine Auflage erteilt werden.
+TAGGED_CONTENT:

@@ -1,0 +1,26 @@
+ID: 1606
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Du hast offensichtlich vorher Java programmiert. ;-) Du leckst Speicher mit deinem *new Konstrukt, we...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Vektoren;weight:2.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Stack;weight:0.0;uri:;postag:NN
+POS_TAG: value:Konstrukt;weight:0.0;uri:;postag:NN
+POS_TAG: value:ckgabetyp;weight:0.0;uri:;postag:NN
+POS_TAG: value:Speicher;weight:0.0;uri:;postag:NN
+POS_TAG: value:evaluateMove;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Typ;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1602
+POSTING_TYPE: comment
+CONTENT:
+Du hast offensichtlich vorher Java programmiert. ;-) Du leckst Speicher mit deinem *new Konstrukt, weil du den Vektor auf dem Heap allozierst, dann eine <REMOVED_PERSON_ENTITY> auf dem Stack anlegst und den Vektor auf dem Heap nie wieder freigibst. Was du willst ist `vector possiblemoves;`. Zur anderen Frage: Ich wollte wissen, welchen Rückgabetyp evaluateMove hat. Und dann wäre interessant, was vector bei dir für ein Typ ist. Der vector aus `#include ` ?
+TAGGED_CONTENT:
+Du_PPER hast_VAFIN offensichtlich_ADJD vorher_ADV Java_NE programmiert_VVPP ._$. ;--RRB-_XY Du_PPER leckst_ADJD Speicher_NN mit_APPR deinem_ADJA \*_NN new_APPR Konstrukt_NN ,_$, weil_KOUS du_PPER den_ART Vektor_NN auf_APPR dem_ART Heap_NE allozierst_VVFIN ,_$, dann_ADV eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN auf_APPR dem_ART Stack_NN anlegst_VVFIN und_KON den_ART Vektor_NN auf_APPR dem_ART Heap_NE nie_ADV wieder_ADV freigibst_VVFIN ._$. Was_PWS du_PPER willst_VMFIN ist_VAFIN `_ADJD vector_ADJD possiblemoves_ADJA ;_$. `_PTKVZ ._$. Zur_APPRART anderen_ADJA Frage_NN :_$. Ich_PPER wollte_VMFIN wissen_VVINF ,_$, welchen_PWAT Rückgabetyp_NN evaluateMove_NN hat_VAFIN ._$. Und_KON dann_ADV wäre_VAFIN interessant_ADJD ,_$, was_PWS vector_VVFIN bei_APPR dir_PPER für_APPR ein_ART Typ_NN ist_VAFIN ._$. Der_ART vector_ADJD aus_APPR `_CARD #include_ADJA `_NN ?_$. 

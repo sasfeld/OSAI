@@ -1,0 +1,16 @@
+ID: 75
+CREATION_DATETIME: 1183312620000
+MODIFICATION_DATETIME: 1183312620000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 74
+CONTENT:
+  
+Die Klasse Object (jede Klasse erbt von Object) besitzt eine Methode toString(), die wir hier in dem Fall in der Klasse PunkteKontoA überschrieben haben. Die JVM ruft glaube automatisch diese Methode im Fall von System.out.println() auf, um das Objekt als String repräsentieren zu können.
+Kurz (vereinfacht) gesagt: System.out.println(pk) ist im Grunde das Gleiche wie System.out.println(pk.toString()).
+
+Gruß 
+
+P.S. Ich war darüber auch gestolpert (schau mal auch unter chapter 5.11.1 bei Galileo unter:http://openbook.galileocomputing.de/javainsel/javainsel_05_011.html)
+    
+TAGGED_CONTENT:

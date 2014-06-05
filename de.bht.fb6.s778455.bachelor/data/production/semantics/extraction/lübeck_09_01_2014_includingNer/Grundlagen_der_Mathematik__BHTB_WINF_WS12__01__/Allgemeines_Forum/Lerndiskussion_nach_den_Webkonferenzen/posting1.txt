@@ -1,0 +1,26 @@
+ID: 166943
+CREATION_DATETIME: 1349358680
+MODIFICATION_DATETIME: 1349358680
+TITLE: Lerndiskussion nach den Webkonferenzen
+TOPIC_ZOOM_TAG: value:Dozenten;weight:2.0;significance:6.81576191029727;degreegeneralization:6;uri:20916250
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:3.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:3.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:2.0;significance:3.70314380910339;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studenten;weight:1.0;significance:2.22917538862813;degreegeneralization:5;uri:20994552
+TOPIC_ZOOM_TAG: value:Schüler, Studenten;weight:1.0;significance:2.14585369445854;degreegeneralization:4;uri:20920823
+TOPIC_ZOOM_TAG: value:Konferenzen, Kongresse und Symposien;weight:1.0;significance:2.08655337369569;degreegeneralization:3;uri:21956956
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:1.85709035932451;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:1.43255875749497;degreegeneralization:2;uri:21999813
+NER_TAG: value:VG Konrad;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+ich habe mir überlegt  die Meetingsoftware zu nutzen um im Anschluss an die <REMOVED_PERSON_ENTITY>, eine <REMOVED_PERSON_ENTITY> für interessierte Studenten abzuhalten. Hierfür steht uns ja der Button"Discussion" bereit wie in der Einführungsveranstaltung vorgestellt.
+Meine Vorstellung ist, dass dort im gemeinsamen Austausch Fragen gestellt werden, Ideen gesammelt und Lösungen erarbeitet werden.
+Ich selbst bin schon lange aus dem <REMOVED_PERSON_ENTITY> raus und mir würde es leichter fallen wenn man vielleicht anhand von Beispielaufgaben die Lösungswege gemeinsam durchgeht. Mir fällt beim Durchgehen der LE oft auf, dass sich immer noch Lücken erschließen.
+Ich würde das ab der nächsten WebKonferenz organisieren und schlage aber schon mal abweichend davon den kommenden MIttwoch (10. 10. 2012) vor, wo keine Webkonferenz des Dozenten stattfindet.
+Uhrzeit dann 20:00 und die restlichen Tage im Anschluss an die Webkonferenz des Dozenten.
+ 
+VG Konrad
+ 
+TAGGED_CONTENT:

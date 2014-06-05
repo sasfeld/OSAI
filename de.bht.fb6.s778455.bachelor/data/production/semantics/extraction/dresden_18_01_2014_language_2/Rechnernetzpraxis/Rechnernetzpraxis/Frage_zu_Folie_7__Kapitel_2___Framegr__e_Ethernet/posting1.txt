@@ -1,0 +1,10 @@
+ID: 2729
+CREATION_DATETIME: 1383692400000
+MODIFICATION_DATETIME: 1385506800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Es gab zur letzten Vorlesung eine Nachfrage bzgl. der Folie 7 im Kapitel 2. Dort wird eine Abbildung gezeigt, in der ein Ethernetframe mittels Wireshark visualisiert wird. Es wird angezeigt, dass das Frame nur 60 Byte besitzt. <NAME_CORPUS_REPLACEMENT> Ethernet eigentlich 64 Bytes als Minimalgröße für Frames besitzt, scheint hier etwas nicht zu stimmen. Wieso zeigt <REMOVED_PERSON_ENTITY> also nur 60 Bytes als Framegröße an?
+TAGGED_CONTENT:

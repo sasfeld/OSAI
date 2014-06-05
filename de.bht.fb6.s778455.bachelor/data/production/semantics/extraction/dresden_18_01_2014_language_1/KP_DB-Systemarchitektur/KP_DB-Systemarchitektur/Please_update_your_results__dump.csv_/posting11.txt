@@ -1,0 +1,14 @@
+ID: 2396
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: So, geupdatede version liegt im svn. Die schick ich jetzt auch erstmal an Tomas.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2382
+POSTING_TYPE: comment
+CONTENT:
+So, geupdatede version liegt im svn. Die schick ich jetzt auch erstmal an <REMOVED_PERSON_ENTITY>.
+
+<NAME_CORPUS_REPLACEMENT> <REMOVED_PERSON_ENTITY> nicht nochmal eine neue Version seines Teils der Präsentation hochgeladen hat, hab ich einfach die plots in die folien eingefügt, <NAME_CORPUS_REPLACEMENT> denen ich dachte, dass sie <NAME_CORPUS_REPLACEMENT> reinpassen. Wenn <NAME_CORPUS_REPLACEMENT> was nicht stimmt, dann bitte noch schleunigst ändern, bzw. schreiben.
+
+Und nochmal: bitte neue csv Datei generieren und hochladen, damit Stefanie die Plots aktualisieren kann!
+TAGGED_CONTENT:

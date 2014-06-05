@@ -1,0 +1,12 @@
+ID: 2335
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Ja Bilder finde ich auch besser. Bei SVG bin ich mir nicht sicher, hab ich noch nie ausprobiert. Ich ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Ja Bilder finde ich auch besser. Bei SVG bin ich mir nicht sicher, hab ich noch nie ausprobiert. Ich hab meine <REMOVED_PERSON_ENTITY> alle als PNG eingebunden, das wäre also ne Option, die funktioniert.
+
+Edit: Ich hab eben mal die vorläufige Version der Präsentation hochgeladen. Bei der Korrelationsanalyse bin ich mir jetzt noch nich so sicher und die Evaluation wird <NAME_CORPUS_REPLACEMENT> <REMOVED_PERSON_ENTITY> auch nochmal angepasst und mit Diagrammen versehen, sobald wir eine final Version unseres Programms haben
+TAGGED_CONTENT:

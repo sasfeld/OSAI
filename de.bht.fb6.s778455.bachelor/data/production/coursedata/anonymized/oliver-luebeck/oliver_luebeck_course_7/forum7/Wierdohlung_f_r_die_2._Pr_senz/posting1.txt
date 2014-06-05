@@ -1,0 +1,38 @@
+ID: 92
+CREATION_DATETIME: 1309171560000
+MODIFICATION_DATETIME: 1309171560000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Liebe Studierende,
+
+als Vorbereitung für die Präsenz, bitte beantworten Sie Fragen unten. Am besten auf ein Stück Papier, das Sie mir geben. So weiß ich besser, was Sie wissen und nicht wissen, und was vor der Klausur eine Wiederholung braucht.
+Bis Samstag!
+Mit freundlichen Grüßen
+
+
+- Was sind die Hauptteile einer Java-Klasse? Attribute, Konstruktoren, Methoden. Eine Java Klasse kann auch innere Klassen beinhalten (siehe LE über Ausnahmen)
+
+- Was heißt eine Methode überladen? Was heißt eine Methode überschreiben?
+Eine Methode ist überladen, wenn sie mit dem gleichen Namen aber verschiedenen Parameterlisten (gleiche Signatur) mehrmals in einer Klasse vorkommt. Beispiel: Klasse StringBuilde Methode append.
+Eine Methode ist überschrieben, wenn sie exact mit dem gleichen Kopf in eine Unterklasse neu implementiert ist. Beispiel: die Methoden toString oder equals der Klasse Object werden in vielen Unterklassen überschrieben.
+
+- In den folgenden Code-Zeilen:
+Triangle t1 = new Triangle(3,4,5);
+System.out.println(t1.toString());
+woher kommt die Methode toString()?
+Da die Methode toString in der Klasse Triangle nicht existiert, muss sie in einer Oberklasse der Klasse Triangle deklariert worden sein. In diesem Fall ist sie in der Klasse Object deklariert.
+
+- Listen Sie alle Schlüssel-Wörter der Java Sprache, die Sie kennen, zusammen mit ihrer Bedeutung.
+Am besten hier listen sie diese Wörter nach Kategorien. Achtung: Manche Kategorien überlappen sich.
+Kategorie 1: Schlüssel-Wörter für die Deklaration von Klassen, Attributen, Konstruktoren und Methoden.
+Kategorie 2: Schlüssel-Wörter um primitive Typen zu deklarieren.
+Kategorie 3: Schlüssel-Wörter für Erreichbarkeit.
+Kategorie 4: Schlüssel-Wörter für Vererbung.
+Kategorie 5: Schlüssel-Wörter um Anweisungen zu schreiben.
+Kategorie 6: Schlüssel-Wörter für Ausnahmen.
+Kategorie 7: Schlüssel-Wörter für Pakete.
+    
+TAGGED_CONTENT:

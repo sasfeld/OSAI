@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file id="1645245">
+    <contenthash>b6e5d5be17fd1dab10b135485b3e4f015118a9f6</contenthash>
+    <contextid>247227</contextid>
+    <component>course</component>
+    <filearea>section</filearea>
+    <itemid>98301</itemid>
+    <filepath>/</filepath>
+    <filename>moodle_grafik_grundlagen_mathe_IR043.jpg</filename>
+    <userid>321</userid>
+    <filesize>33001</filesize>
+    <mimetype>image/jpeg</mimetype>
+    <status>0</status>
+    <timecreated>1377157301</timecreated>
+    <timemodified>1377157317</timemodified>
+    <source>moodle_grafik_grundlagen_mathe_IR043.jpg</source>
+    <author>Birte Scharpf</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="1871807">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>247263</contextid>
+    <component>mod_forum</component>
+    <filearea>attachment</filearea>
+    <itemid>261051</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>14571</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1386002815</timecreated>
+    <timemodified>1386002815</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="1871805">
+    <contenthash>f90c2a73f4c5b6d6be47928e03806b6eaf2e2e7e</contenthash>
+    <contextid>247263</contextid>
+    <component>mod_forum</component>
+    <filearea>attachment</filearea>
+    <itemid>261051</itemid>
+    <filepath>/</filepath>
+    <filename>GdM_Winf_Einsendeaufgabe_3.pdf</filename>
+    <userid>14571</userid>
+    <filesize>503615</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1386002273</timecreated>
+    <timemodified>1386002815</timemodified>
+    <source>GdM_Winf_Einsendeaufgabe_3.pdf</source>
+    <author>Michael Krause</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="1871593">
+    <contenthash>bd3e6e195d79195d19f20b8418ee5700da82c4d5</contenthash>
+    <contextid>247263</contextid>
+    <component>mod_forum</component>
+    <filearea>attachment</filearea>
+    <itemid>261025</itemid>
+    <filepath>/</filepath>
+    <filename>Einsendeaufgabe_3.pdf</filename>
+    <userid>13713</userid>
+    <filesize>106755</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1385994637</timecreated>
+    <timemodified>1385994678</timemodified>
+    <source>Einsendeaufgabe_3.pdf</source>
+    <author>Miglena Dineva</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="1871595">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>247263</contextid>
+    <component>mod_forum</component>
+    <filearea>attachment</filearea>
+    <itemid>261025</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>13713</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1385994678</timecreated>
+    <timemodified>1385994678</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+</files>

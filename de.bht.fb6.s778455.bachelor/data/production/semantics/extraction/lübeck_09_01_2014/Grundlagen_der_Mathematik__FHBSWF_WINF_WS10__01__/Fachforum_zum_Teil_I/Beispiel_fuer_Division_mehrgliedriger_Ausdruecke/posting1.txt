@@ -1,0 +1,41 @@
+ID: 97789
+CREATION_DATETIME: 1286804426
+MODIFICATION_DATETIME: 1286804894
+TITLE: Beispiel fuer Division mehrgliedriger Ausdruecke
+TOPIC_ZOOM_TAG: value:Dividenden;weight:2.0;significance:10.0004993141317;degreegeneralization:9;uri:20763573
+TOPIC_ZOOM_TAG: value:Gewinnausschüttungen;weight:2.0;significance:10.0004993141317;degreegeneralization:8;uri:20763590
+TOPIC_ZOOM_TAG: value:Aktionärseinkommen;weight:2.0;significance:10.0004993141317;degreegeneralization:8;uri:20763607
+TOPIC_ZOOM_TAG: value:Unternehmensgewinne;weight:2.0;significance:8.97087989695056;degreegeneralization:7;uri:21126319
+TOPIC_ZOOM_TAG: value:Aktionäre;weight:2.0;significance:8.41809007408554;degreegeneralization:7;uri:21125996
+TOPIC_ZOOM_TAG: value:Geschäftsergebnis;weight:2.0;significance:7.08453200904659;degreegeneralization:6;uri:21123735
+TOPIC_ZOOM_TAG: value:Finanzinvestoren und Anleger;weight:2.0;significance:6.61497974518879;degreegeneralization:5;uri:20899216
+TOPIC_ZOOM_TAG: value:Firmenfinanzen;weight:2.0;significance:6.34897564656155;degreegeneralization:5;uri:21127305
+TOPIC_ZOOM_TAG: value:Aktien;weight:2.0;significance:6.08315714722597;degreegeneralization:6;uri:21304768
+TOPIC_ZOOM_TAG: value:Löhne und Einkommen;weight:2.0;significance:5.8929095251596;degreegeneralization:4;uri:21306417
+TOPIC_ZOOM_TAG: value:Wertpapiere;weight:2.0;significance:5.35739128880323;degreegeneralization:5;uri:21304802
+TOPIC_ZOOM_TAG: value:Vermögensanlage;weight:2.0;significance:5.06028648433201;degreegeneralization:4;uri:21973514
+TOPIC_ZOOM_TAG: value:Besitz und Vermögen;weight:2.0;significance:4.90063288630752;degreegeneralization:3;uri:20800990
+TOPIC_ZOOM_TAG: value:Finanzthemen in der Wirtschaft;weight:2.0;significance:4.15117453418486;degreegeneralization:3;uri:21602030
+TOPIC_ZOOM_TAG: value:Arbeit und Beruf;weight:2.0;significance:3.54101226558305;degreegeneralization:3;uri:21924095
+TOPIC_ZOOM_TAG: value:Unternehmen, Firmen und Firmengruppen;weight:2.0;significance:2.91081144288141;degreegeneralization:4;uri:21973565
+TOPIC_ZOOM_TAG: value:Finanzen;weight:2.0;significance:2.82332777150469;degreegeneralization:2;uri:21999881
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:2.0;significance:1.80459553725326;degreegeneralization:2;uri:21999847
+PARENT_POSTING_ID: 0
+CONTENT:
+Gegeben: Dividend und Divisor
+(2a - ay - axy + 2ax) / (1 + x)
+Gesucht: Quotient
+Ansatz: Erstes <REMOVED_PERSON_ENTITY> des Dividenden durch erstes <REMOVED_PERSON_ENTITY> des Divisors teilen, Ergebnis ist erstes <REMOVED_PERSON_ENTITY> des Quotienten. Dann Quotient mit Divisor multiplizieren und Ergebnis unter Dividenden schreiben und von diesem abziehen. Ergebnis ist (einfacherer) mehrgliedriger Ausdruck. Diesen Ausdruck wieder nach o. g. Ansatz teilen und dadurch das zweite <REMOVED_PERSON_ENTITY> des Divisors ermitteln usw.
+Beispiel: 
+(2a - ay - axy + 2ax) : (1 + x) = 2a - ay
+-2a                   - 2ax
+____________________
+       - ay - axy        
+    -(- ay - axy)
+____________________
+                         0
+Kontrolle:
+(1 + x) (2a - ay) = 2a - ay + 2ax - axy
+ok.
+Fertig.
+TAGGED_CONTENT:

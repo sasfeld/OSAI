@@ -1,0 +1,11 @@
+ID: 79
+CREATION_DATETIME: 1295252820000
+MODIFICATION_DATETIME: 1295252820000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 78
+CONTENT:
+ 
+Liebe , liebe Studierende, Applets kommen nicht dran. Es ist aber kein schwieriges Thema. Wir haben gesehen, wie aus einem Applet eine Anwendung wird und umgekehrt. Grob zusammengefasst fuer die Richtung Applet -> Anwendung: die Klasse JFrame erweitern, alles was in der init Methode ist kommt ins Konstruktor plus ein paar Befehle hinzufügen wie setSiZe, setDefaultCloseOperation und setVisible. Wichtiger ist es Graphics, GUI und Ereignisbehandlung, die Applets wie Anwendungen betreffen. Mit freundlichen Gruessen
+    
+TAGGED_CONTENT:

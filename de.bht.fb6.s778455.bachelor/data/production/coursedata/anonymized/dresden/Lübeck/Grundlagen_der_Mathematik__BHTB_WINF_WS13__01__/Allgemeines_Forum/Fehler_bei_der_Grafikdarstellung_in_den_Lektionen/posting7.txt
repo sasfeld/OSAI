@@ -1,0 +1,10 @@
+ID: 237303
+CREATION_DATETIME: 1380560004
+MODIFICATION_DATETIME: 1380560039
+TITLE: Re: Fehler bei der Grafikdarstellung in den Lektionen
+PARENT_POSTING_ID: 237069
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+ich sehe gerade, dass du ABP auf den Seiten der VFH aktiv hast. Im Browser-Check auf der <REMOVED_PERSON_ENTITY> wird angegeben, dass <REMOVED_PERSON_ENTITY> u. U. Inhalte wegfiltern.
+Probier doch mal, den Blocker für oncampus. de zu deaktivieren
+TAGGED_CONTENT:

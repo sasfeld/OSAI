@@ -1,0 +1,10 @@
+ID: 505
+CREATION_DATETIME: 1351116000000
+MODIFICATION_DATETIME: 1351116000000
+TITLE: Die logische Folge-Anfrage ist nun, Kommentare und Antworten aus der extrahierten Frage ebenfalls in ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 499
+POSTING_TYPE: comment
+CONTENT:
+Die logische Folge-Anfrage ist nun, Kommentare und Antworten aus der extrahierten Frage ebenfalls in die neue Follow-Up Frage zu übernehmen... *Immer mehr haben will*
+TAGGED_CONTENT:

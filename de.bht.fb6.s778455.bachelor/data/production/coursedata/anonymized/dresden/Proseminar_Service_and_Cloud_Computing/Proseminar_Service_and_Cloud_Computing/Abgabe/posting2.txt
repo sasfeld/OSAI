@@ -1,0 +1,9 @@
+ID: 1985
+CREATION_DATETIME: 1370642400000
+MODIFICATION_DATETIME: 1370642400000
+TITLE: Hallo! Schicke die Ausarbeitung an beide, dann kommt sie auch sicher an (und die betreuende Person er...
+PARENT_POSTING_ID: 1984
+POSTING_TYPE: answer
+CONTENT:
+Hallo! Schicke die Ausarbeitung an beide, dann kommt sie auch sicher an (und die betreuende Person erhält ihre Kopie auch sofort ohne Umweg).
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1377
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1382047200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Habe grade eine Antwort negativ bewertet, bei einem Nutzer mit 0p. Danach hatte er dann 1p. Ist das beabsichtigt?
+TAGGED_CONTENT:

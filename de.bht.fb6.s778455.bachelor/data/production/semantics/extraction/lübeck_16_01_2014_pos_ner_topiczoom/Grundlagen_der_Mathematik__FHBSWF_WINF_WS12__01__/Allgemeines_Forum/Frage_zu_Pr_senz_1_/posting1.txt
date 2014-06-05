@@ -1,0 +1,26 @@
+ID: 167631
+CREATION_DATETIME: 1349544136
+MODIFICATION_DATETIME: 1349544136
+TITLE: Frage zu Präsenz 1 
+TOPIC_ZOOM_TAG: value:Verfügungen;weight:1.0;significance:7.24896400108977;degreegeneralization:3;uri:19992589
+TOPIC_ZOOM_TAG: value:Jahr 2012;weight:1.0;significance:5.92522431462997;degreegeneralization:11;uri:20891175
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:1.0;significance:4.95064330688218;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:2.65109701440329;degreegeneralization:2;uri:21999830
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Webkonferenz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Herrn;weight:0.0;uri:;postag:NN
+POS_TAG: value:gung;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Datei;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+in der von Herrn <REMOVED_PERSON_ENTITY> zur Verfügung gestellten Datei: 2012-10-06_LA-Präsenz1. pdf auf S. 3 verstehe ich nix mehr.
+Gibt es hier jemanden, der die komplette <REMOVED_PERSON_ENTITY> verstanden hat und erklären kann? Wenn ja, würde ich dafür gerne eine Webkonferenz anbieten, für alle, die es auch nicht verstanden haben. Auf <REMOVED_PERSON_ENTITY> zeichne ich gerne auf.
+M. f. G. <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, in_APPR der_PRELS von_APPR Herrn_NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE zur_APPRART Verfügung_NN gestellten_ADJA Datei_NN :_$. 2012-10-06_LA-Präsenz1_NN ._$. pdf_XY auf_APPR S._NE 3_CARD verstehe_VVFIN ich_PPER nix_PIS mehr_ADV ._$. Gibt_VVFIN es_PPER hier_ADV jemanden_VVFIN ,_$, der_PRELS die_ART komplette_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_CARD verstanden_VVPP hat_VAFIN und_KON erklären_VVINF kann_VMFIN ?_$. Wenn_KOUS ja_ADV ,_$, würde_VAFIN ich_PPER dafür_PROAV gerne_ADV eine_ART Webkonferenz_NN anbieten_VVFIN ,_$, für_APPR alle_PIS ,_$, die_PRELS es_PPER auch_ADV nicht_PTKNEG verstanden_VVPP haben_VAINF ._$. Auf_APPR <_CARD REMOVED_PERSON_ENTITY_NN >_CARD zeichne_VVFIN ich_PPER gerne_ADV auf_PTKVZ ._$. M._NE f._VVFIN G._NE <_NE REMOVED_PERSON_ENTITY_NE >_XY 

@@ -1,0 +1,38 @@
+ID: 1300
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1363993200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Weiß jemand wie ich Parameter an die mit pthread_create aufgerufene funktion übergebe?
+
+```ruby
+
+void *thread_start(void *pt)
+
+{
+
+	param *p;
+
+	p=(struct param *)pt;
+
+	(*(p->score))=detS(...);
+
+}
+
+int main()
+
+{...
+
+parameter. score=&(score);
+
+pthread_create(&aktthread->t_id, NULL, thread_start,(void*)&parameter);
+
+...}
+
+```
+
+parameter ist ein struct. in main wird score aber kein wert zugiesen warum???
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 483
+CREATION_DATETIME: 1351029600000
+MODIFICATION_DATETIME: 1351029600000
+TITLE: Forcing all threads i
+PARENT_POSTING_ID: 479
+POSTING_TYPE: comment
+CONTENT:
+Forcing all threads into a separate privilege level to do access shared data still requires all participants to adhere to the protocol. You can't simply prevent a thread from accessing memory.
+TAGGED_CONTENT:

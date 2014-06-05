@@ -1,0 +1,9 @@
+ID: 3107
+CREATION_DATETIME: 1385852400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: Willkommen in der schönen Welt des Objekt-relationalen-Mappings. Ich glaube wir schweifen hier ziemli...
+PARENT_POSTING_ID: 3069
+POSTING_TYPE: comment
+CONTENT:
+Willkommen in der schönen Welt des Objekt-relationalen-Mappings. Ich glaube wir schweifen hier ziemlich vom Thema ab, <NAME_CORPUS_REPLACEMENT> eigentlich auf jede Antwort oder jeden Kommentar ein neuer, anderer Aspekt der Ursprungsfrage zum Thema wird. Unique-Constraints, "Gleichheit" <NAME_CORPUS_REPLACEMENT> Entitäten, <REMOVED_PERSON_ENTITY> <NAME_CORPUS_REPLACEMENT> Objekten in Collections usw. So eine Diskussion passt nicht wirklich in ein FAQ System. Macht evtl. der Lernraum am Dienstag mehr Sinn?
+TAGGED_CONTENT:

@@ -1,0 +1,30 @@
+ID: 252531
+CREATION_DATETIME: 1383547346
+MODIFICATION_DATETIME: 1383547346
+TITLE: Re: Online Übungsgruppe - 06.11. - 21:00 Uhr
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:5.18753055338448;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Ungleichungen;weight:1.0;significance:4.23618317174463;degreegeneralization:7;uri:20806277
+TOPIC_ZOOM_TAG: value:Mathematikunterricht;weight:1.0;significance:3.6389300153353;degreegeneralization:7;uri:20897533
+TOPIC_ZOOM_TAG: value:Schulunterricht;weight:1.0;significance:3.20583568729187;degreegeneralization:6;uri:20897550
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:2.98265634797786;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Logik;weight:1.0;significance:2.77550762685335;degreegeneralization:4;uri:21472524
+TOPIC_ZOOM_TAG: value:Unterricht;weight:1.0;significance:2.70786067885445;degreegeneralization:4;uri:20916930
+TOPIC_ZOOM_TAG: value:Internet;weight:2.0;significance:2.56555610422183;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:2.0;significance:2.55653425805302;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:2.33481144310352;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:3.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Schulen;weight:1.0;significance:1.95671477146219;degreegeneralization:5;uri:21882020
+TOPIC_ZOOM_TAG: value:Schulische Bildung und Erziehung;weight:1.0;significance:1.95564467958544;degreegeneralization:3;uri:21882122
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:1.85709035932451;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:2.0;significance:1.79128228978717;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:1.55845785653717;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Geisteswissenschaften;weight:1.0;significance:1.55144820605651;degreegeneralization:3;uri:21978240
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:1.45634953740933;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:1.45419443727712;degreegeneralization:2;uri:21990259
+NER_TAG: value:ESA;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+NER_TAG: value:LG;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+PARENT_POSTING_ID: 251275
+CONTENT:
+Na da scheint es ja durchaus erstmal Interesse zu geben. Das ist doch schon mal schön.
+Wie gesagt, wegen des Termins, der ist noch nicht in Stein gemeißelt. Ich hatte für den Mittwoch plädiert, da da vermutlich wegen <REMOVED_PERSON_ENTITY> bzw. GdP die Meisten sowieso online sind. Um gegebenenfalls nicht in Zeitdruck zu geraten, hätte ich zunächst mal auf nach den offizielen OM's abgezielt. Das heißt aber nicht, dass man nicht auch vorher schon zusammen kommen kann. Sollte sich eine Mehrheit für einen beliebigen anderen Termin finden, ist das auch okay. Nur um jetzt nicht ewig Zeit mit der Terminfindung zu vergeuden, fangen wir halt initial einfach mal mit dem o. g. Termin an. 19:00 <REMOVED_PERSON_ENTITY> wird für mich beispielsweise auch schon sehr knapp... Wie sieht es denn mit den Themenschwerpunkten für Mittwoch aus?a) Wollen/müssen wir noch mal Übungsaufgaben zu Ungleichungen/Beträgen machen?b) <REMOVED_PERSON_ENTITY> wir die ESA mal durchgehen?c) Wollen wir (schon) mit Fragestellungen der Logik anfangen?d) SonstigesAus meiner Sicht können wir zumindest a) weglassen. (Müssen aber natürlich nicht)Generell besteht die Intention darin, die Termine so zu legen, dass zwischen Mathe OM und Lerngruppe ein paar Tage liegen. Damit hat jeder die Möglichkeit die Übungen und Hinweise aus dem OM erst mal für sich selbst zu verarbeiten um dann in der Lerngruppe Unklarheiten beseitigen zu können. Außerdem haben wir so die Möglichkeit Punkte die wir auch in der Lerngruppe gemeinsam nicht geklärt kriegen als Fragen für das jeweils nächste OM vorzubereiten. Für Mittwoch: Da die Frage nach 19:00 Uhr aufkam - ich werde mich bemühen da schon online zu sein. Auf blöd kommen wir da erst mal zu zweit zusammen und schauen wie weit wir kommen. Der 21:00 Uhr Termin bleibt selbstverständlich bestehen. Am Ende jedes Meetings werden wir den nächsten Termin festlegen und hier bekanntgeben. Wenn das geht, werde ich den Threadtitel entsprechend aktualisieren. LG <PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

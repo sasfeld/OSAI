@@ -1,0 +1,21 @@
+ID: 40
+CREATION_DATETIME: 1175521860000
+MODIFICATION_DATETIME: 1175521860000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 39
+CONTENT:
+  
+Hallo,
+
+benutzt wird "Adobe Connect".
+
+Hier findest du die Systemvorraussetzungen:
+
+http://www.adobe.com/de/products/connect/productinfo/systemreqs/
+
+Für Linux also Firefox und Flash 9 oder höher
+
+Wenn dies bei dir erfüllt ist beschreib bitte genauer was bei dir auftritt
+    
+TAGGED_CONTENT:

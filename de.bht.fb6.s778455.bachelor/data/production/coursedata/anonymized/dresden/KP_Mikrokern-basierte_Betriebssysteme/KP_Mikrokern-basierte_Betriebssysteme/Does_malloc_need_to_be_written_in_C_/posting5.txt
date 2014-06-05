@@ -1,0 +1,9 @@
+ID: 1016
+CREATION_DATETIME: 1357340400000
+MODIFICATION_DATETIME: 1357340400000
+TITLE: Long forgotten ... I ran into this as well. The magic is called BID - the build infrastructure for DR...
+PARENT_POSTING_ID: 933
+POSTING_TYPE: comment
+CONTENT:
+Long forgotten ... I ran into this as well. The magic is called BID - the build infrastructure for DROPS. And someone (I won't name anyone here) claims that C++ files should have . cc as an extension and that . cpp stands for "C/C++ preprocessed". I'll try to remember putting this into next year's slides.
+TAGGED_CONTENT:

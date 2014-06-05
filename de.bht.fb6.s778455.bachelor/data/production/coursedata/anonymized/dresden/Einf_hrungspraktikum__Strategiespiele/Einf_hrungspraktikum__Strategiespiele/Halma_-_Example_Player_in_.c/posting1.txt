@@ -1,0 +1,12 @@
+ID: 1255
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi, 
+I've been asked in a private question for a halma example player in plain <REMOVED_PERSON_ENTITY> there is no such thing. 
+Sorry for the public answer; the link in the private question was broken.
+    <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

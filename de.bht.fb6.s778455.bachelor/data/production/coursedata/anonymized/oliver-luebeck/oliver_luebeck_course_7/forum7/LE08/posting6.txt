@@ -1,0 +1,21 @@
+ID: 9
+CREATION_DATETIME: 1304024580000
+MODIFICATION_DATETIME: 1304024580000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 8
+CONTENT:
+ 
+hallo ihr zwei :)
+
+ich habe das System.out.println direkt in die methode fährtNach geschrieben. da werden dann mein text und die übergebenen werte für this.standort, ziel und entfernung ausgegeben.
+als zweites hab ich kmStand neu berechnet (this.kmStand + entfernung) und ihn mit return zurück gegeben.
+
+sollten wir auch den neuen standort (ziel) übergeben?
+
+und noch eine frage: was macht ihr mit dem neuen kmStand? schreibt ihr noch eine methode zur ausgabe? ansonsten würde man es ja nur sehen, wenn man erst danach alleDatenAusgeben aufruft, oder? man könnte natürlich eine zweite methode zum ausgeben der (geänderten) daten schreiben.... hmm...
+in der aufgabenstellung steht ja nur, dass der neue kmStand zurückgegeben werden soll, nicht was damit passieren soll...
+
+alles liebe,
+    
+TAGGED_CONTENT:

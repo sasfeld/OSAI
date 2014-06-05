@@ -1,0 +1,15 @@
+ID: 64
+CREATION_DATETIME: 1181576700000
+MODIFICATION_DATETIME: 1181576700000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 63
+CONTENT:
+
+x und y sind nicht die Seitenlänge sondern die Koordinaten des Mittelpunkts.
+
+Die erste Aufgabe hat mir mehr Schwierigkeiten bereitet, weil ja die Attribute der Superklasse "private" haben und damit nicht vererbbar sind. Hab das jetzt in "public" geändert in der EinfachesAuto.java ... oder gibts da ne bessere Lösung? Normalerweise hat man ja keinen Zugriff auf die Superklasse.
+
+LG 
+  	
+TAGGED_CONTENT:

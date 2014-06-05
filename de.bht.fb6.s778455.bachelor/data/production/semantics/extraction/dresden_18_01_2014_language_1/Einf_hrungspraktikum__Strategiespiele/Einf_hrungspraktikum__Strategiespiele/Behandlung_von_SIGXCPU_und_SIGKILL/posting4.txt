@@ -1,0 +1,10 @@
+ID: 1449
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1362870000000
+TITLE: Zum edit: Ich wuerde sagen, solange es die Lesbarkeit verbessert ja. Aber generell sollte man sich au...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1446
+POSTING_TYPE: comment
+CONTENT:
+Zum edit: Ich wuerde sagen, solange es die Lesbarkeit verbessert <LEARNED_PERSON_NAME_REPLACEMENT>. Aber generell sollte man sich auf sinvolle Faelle beschraenken und nicht in Versuchung kommen wild durch den Code zu springen. 
+TAGGED_CONTENT:

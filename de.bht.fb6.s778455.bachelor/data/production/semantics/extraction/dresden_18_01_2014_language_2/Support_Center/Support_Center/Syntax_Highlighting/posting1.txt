@@ -1,0 +1,74 @@
+ID: 78
+CREATION_DATETIME: 1343858400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+###Wir haben etwas Neues! 
+
+Quellcode kann nun mit einer Sprache spezifiziert werden. Um eine Sprache zu spezifizieren, muss einfach hinter    ``` die jeweilige Sprache geschrieben werden:
+
+    ``` ruby
+
+    def do_something
+
+      puts 'something'
+
+    end
+
+    ```
+
+Die Standardsprache ist ruby und sieht folgendermaßen aus:
+
+```ruby
+
+def do_something_again
+
+  puts 'Ruby syntax highlighting'
+
+end
+
+```
+
+Folgende Sprachen werden unterstützt in Klammern der code, der statt 'ruby' eingesetzt werden kann:
+
+* C (c)
+
+* C++ (cplusplus)
+
+* Clojure (clojure)
+
+* CSS (css)
+
+* Delphi (delphi)
+
+* diff (diff)
+
+* ERB (erb)
+
+* <REMOVED_PERSON_ENTITY> (groovy)
+
+* HAML (haml)
+
+* HTML (html)
+
+* Java (java)
+
+* JavaScript (javascript)
+
+* JSON (json)
+
+* PHP (php)
+
+* <REMOVED_PERSON_ENTITY> (python)
+
+* Ruby (ruby)
+
+* SQL (sql)
+
+* XML (xml)
+
+* YAML (yaml)
+TAGGED_CONTENT:

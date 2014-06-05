@@ -1,0 +1,25 @@
+ID: 1079
+CREATION_DATETIME: 1358982000000
+MODIFICATION_DATETIME: 1374789600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+ich habe eine Frage zu:
+"Verwenden'Sie'die'Android'SDK'Plattform'17'(Android'4. 2)'und'Eclipse.'Testen'Sie'Ihre'
+Anwendung'mit'dem'Android'<REMOVED_PERSON_ENTITY>'Device'„Galaxy'Nexus“'(4. 7“'mit'720x1280).'"
+Wahrscheinlich ist damit gemeint, dass in der AndroidManifest. xml das steht:
+```
+ <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+```
+Ist es aber dennoch ok, wenn stattdessen folgendes steht:
+```
+ <uses-sdk
+        android:minSdkVersion="7" />
+```
+Damit ist quasi die maximale/gezielte Version nach oben offen (also auch API 17).
+Grund für die Anfrage ist: mit obiger Deklaration läuft es nicht richtig im Emulator, während das untere kurioserweise funktioniert, obwohl das virtuelle Device auf API17 / Android 4. 2 eingestellt ist.
+TAGGED_CONTENT:

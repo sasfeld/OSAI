@@ -1,0 +1,6 @@
+ID: 0
+LANG: null
+SHORT_NAME: null
+TITLE: Lübeck
+LANGUAGE: UNKNOWN
+SUMMARY: null

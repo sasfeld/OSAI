@@ -1,0 +1,9 @@
+ID: 1599
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Ansonsten ist cplusplus.com auch eine gute Anlaufstelle, da findet sich z.B. diese Funktion: http://w...
+PARENT_POSTING_ID: 1598
+POSTING_TYPE: comment
+CONTENT:
+Ansonsten ist cplusplus. com auch eine gute Anlaufstelle, <NAME_CORPUS_REPLACEMENT> findet sich z. B. diese Funktion: http://www.cplusplus.com/reference/string/string/copy/
+TAGGED_CONTENT:

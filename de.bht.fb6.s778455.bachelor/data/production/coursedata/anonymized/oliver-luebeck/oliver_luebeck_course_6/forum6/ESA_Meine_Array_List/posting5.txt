@@ -1,0 +1,20 @@
+ID: 45
+CREATION_DATETIME: 1288599540000
+MODIFICATION_DATETIME: 1288599540000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 41
+CONTENT:
+ 
+Liebe ,
+
+sehr gute Frage. Man muss einen etwas subtilen Unterschied ein mal gut begreifen: den Unterschied zwischen der Klasse MeineArrayList und der Klasse MeineArrayListTest, die eine Variable vom Typ MeineArrayList benutzt. Die Klasse MeineArrayList enthält ein Array namens list. In dieser Klasse kann man mit der Variable list die Art Schleife benutzen, die Sie beschreiben, weil diese Anweisung fuer Arrays unterstützt wird, etwa so:
+
+for (E o: list)
+
+Dagegen ist die Variable ms in der Klasse MeineArrayListTest vom Typ MeineArrayList, und die Klasse MeineArrayList selbst unterstützt diese Anweisung nicht. Damit sie diese Anweisung unterstützt, sollte sie die Schnittstelle java.util.Iterator implementieren.
+
+Macht es Sinn?
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

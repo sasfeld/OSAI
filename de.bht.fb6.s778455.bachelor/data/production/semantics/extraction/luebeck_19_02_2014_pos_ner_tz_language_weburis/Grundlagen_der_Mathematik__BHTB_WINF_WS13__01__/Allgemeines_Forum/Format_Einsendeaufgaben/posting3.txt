@@ -1,0 +1,34 @@
+ID: 249447
+CREATION_DATETIME: 1382880619
+MODIFICATION_DATETIME: 1382880619
+TITLE: Re: Format Einsendeaufgaben
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=94315#249447
+TOPIC_ZOOM_TAG: value:Ungleichungen;weight:1.0;significance:6.35427475761695;degreegeneralization:7;uri:20806277
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:3.89064791503836;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Digitaltechnik;weight:1.0;significance:3.21595301294614;degreegeneralization:5;uri:20870775
+TOPIC_ZOOM_TAG: value:Elektronik und Elektrotechnik;weight:1.0;significance:2.81300047293931;degreegeneralization:4;uri:21870953
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:2.23699226098339;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:1.75110858232764;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:1.16884339240287;degreegeneralization:2;uri:21999711
+POS_TAG: value:Integration;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mathtype;weight:0.0;uri:;postag:NN
+POS_TAG: value:Word;weight:0.0;uri:;postag:NN
+POS_TAG: value:Standalone;weight:0.0;uri:;postag:NN
+POS_TAG: value:Form;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ungleichungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einsendeaufgaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sachen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgaben;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 249161
+CONTENT:
+Hi !
+Generell sollen die Einsendeaufgaben in digitaler Form vorliegen. Also keine eingescannten Aufgaben. Ich arbeite hauptsächlich mit Word und/oder Mathtype ( als Standalone oder Integration in Office).
+Meist reichen die von Word gegebenen Sachen schon aus für die Ungleichungen.
+ 
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Hi_NE !_$. Generell_ADJD sollen_VMFIN die_ART Einsendeaufgaben_NN in_APPR digitaler_ADJA Form_NN vorliegen_VVINF ._$. Also_ADV keine_PIAT eingescannten_ADJA Aufgaben_NN ._$. Ich_PPER arbeite_VVFIN hauptsächlich_ADJD mit_APPR Word_NN und\/oder_ADJA Mathtype_NN -LRB-_TRUNC als_APPR Standalone_NN oder_KON Integration_NN in_APPR Office_NE -RRB-_TRUNC ._$. Meist_ADV reichen_VVFIN die_ART von_APPR Word_NE gegebenen_ADJA Sachen_NN schon_ADV aus_APPR für_APPR die_ART Ungleichungen_NN ._$. Gruß_NE <_NE PERSONAL_GREETING_REMOVEMENT_NE >_XY 

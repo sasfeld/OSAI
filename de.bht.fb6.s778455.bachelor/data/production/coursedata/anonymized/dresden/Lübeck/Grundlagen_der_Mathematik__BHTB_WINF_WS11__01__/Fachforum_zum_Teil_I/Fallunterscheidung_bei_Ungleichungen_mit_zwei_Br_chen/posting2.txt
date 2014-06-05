@@ -1,0 +1,9 @@
+ID: 116461
+CREATION_DATETIME: 1319066208
+MODIFICATION_DATETIME: 1319066208
+TITLE: Re: Fallunterscheidung bei Ungleichungen mit zwei Brüchen
+PARENT_POSTING_ID: 116460
+CONTENT:
+Hey <REMOVED_PERSON_ENTITY>,
+ich denke man soll nur die Nennner beachten! <REMOVED_PERSON_ENTITY> mit 16 Fällen wäre viel zu umfangreich.:-O Du kannst ja unseren Dozenten fragen, ob es Ungleichungen gibt mit mehr als 4 Fällen? Wir haben auch nur Ungleichungen mit höchstens 4 Fällen bearbeitet. 
+TAGGED_CONTENT:

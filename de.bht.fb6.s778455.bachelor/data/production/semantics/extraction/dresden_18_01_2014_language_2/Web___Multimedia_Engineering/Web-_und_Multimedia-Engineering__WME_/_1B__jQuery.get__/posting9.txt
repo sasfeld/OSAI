@@ -1,0 +1,36 @@
+ID: 586
+CREATION_DATETIME: 1351465200000
+MODIFICATION_DATETIME: 1351465200000
+TITLE: Dadurch, dass du in der `$(document).ready(function(){..})` den Code aufrufst, wird dieser ja direkt ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 568
+POSTING_TYPE: answer
+CONTENT:
+Dadurch, dass du in der `$(document). ready(function(){..})` den Code aufrufst, wird dieser ja direkt beim Rendern der <REMOVED_PERSON_ENTITY> genutzt. Eine Möglichkeit wäre es direkt nach <REMOVED_PERSON_ENTITY> der `each`-<REMOVED_PERSON_ENTITY> eine callback Funktion einzubauen, z. B. so:
+
+    function after_each_callback(/*some params*/) {
+
+      alert(meta[0]);
+
+    }
+
+    $(document). ready(function() {
+
+      // read meta. xml
+
+      $. get("meta. xml", function(XMLArray){
+
+        // search all PhotoItems
+
+        $(XMLArray). find("li. photoItem"). each(function(){
+
+          // do something
+
+        });
+
+        after_each_callback(/*some params*/);
+
+      }); 
+
+    });
+TAGGED_CONTENT:

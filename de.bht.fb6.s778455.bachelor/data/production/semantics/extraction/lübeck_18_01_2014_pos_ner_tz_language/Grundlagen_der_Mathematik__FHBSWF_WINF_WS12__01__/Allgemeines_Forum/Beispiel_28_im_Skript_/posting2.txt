@@ -1,0 +1,41 @@
+ID: 194659
+CREATION_DATETIME: 1358533739
+MODIFICATION_DATETIME: 1358533739
+TITLE: Re: Beispiel 28 im Skript....
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Vektoren;weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+POS_TAG: value:Vektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Script;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektordarstellung;weight:0.0;uri:;postag:NN
+POS_TAG: value:LGS;weight:0.0;uri:;postag:NN
+POS_TAG: value:Paramter;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Menge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gleichung;weight:0.0;uri:;postag:NN
+POS_TAG: value:r;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anzahl;weight:0.0;uri:;postag:NN
+POS_TAG: value:Angabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spaltentausch;weight:0.0;uri:;postag:NN
+POS_TAG: value:Parameter;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 194617
+CONTENT:
+Hi <REMOVED_PERSON_ENTITY>,
+die Lösung die im Script angegeben ist, ist als affine Menge angegeben. Hierbei wurde aber erst die Lösung angegeben und später der Spaltentausch rückgängig gemacht. Ich bevorzuge es, auf Spaltentausch zu verzichten bzw. den Spaltentausch bereits vor Angabe der Lösung rückgängig zu machen.
+Letzentlich wurde folgendes gemacht. Wenn man den Spaltentausch nicht rückkängig ergeben sich für x1-x4 folgende Lösungen. Die kann man aus den LGS ablesen muss dann aber die Gleichung noch nach x1, x2 x3 etc. umstellen. x1=-3-3x3+5x4x2=-3+2x4x3=rx4=sFür x3 und x4 müssen freie Parameter vergeben werden, da diese über das LGS nicht ausreichend bestimmt wurden sind oder anders ausgedrückt unendliche viele Lösungen haben. (Ich hoffe man darf das so sagen?)Wenn ich jetzt für x3 und x4 jeweils r und s einsetze(das sind die freien Paramter), erhalte ich folgendes:x1=-3-3r+5sx2=-3+2sx3=rx4=sDiese Lösung kann ich auch als Vektordarstellung (affine <REMOVED_PERSON_ENTITY>) angeben und zwar.
+(x1, x2, x3, x4)^T=(-3, -3, 0, 0)^T+r*(-3, 0, 1, 0)+s(5, 2, 0, 1)
+Ich gebe also in den jeweilgen Vektoren die Anzahl von r und s an. Ich hoffe das hilft weiter?
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Hi_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, die_ART Lösung_NN die_ART im_APPRART Script_NN angegeben_VVPP ist_VAFIN ,_$, ist_VAFIN als_APPR affine_ADJA Menge_NN angegeben_VVPP ._$. Hierbei_PROAV wurde_VAFIN aber_ADV erst_ADV die_ART Lösung_NN angegeben_VVPP und_KON später_ADJD der_ART Spaltentausch_NN rückgängig_ADJD gemacht_VVPP ._$. Ich_PPER bevorzuge_VVFIN es_PPER ,_$, auf_APPR Spaltentausch_NN zu_PTKZU verzichten_VVINF bzw_VVFIN ._$. den_ART Spaltentausch_NN bereits_ADV vor_APPR Angabe_NN der_ART Lösung_NN rückgängig_ADJD zu_PTKZU machen_VVINF ._$. Letzentlich_ADJD wurde_VAFIN folgendes_ADJA gemacht_VVPP ._$. Wenn_KOUS man_PIS den_ART Spaltentausch_NN nicht_PTKNEG rückkängig_ADJD ergeben_VVFIN sich_PRF für_APPR x1-x4_CARD folgende_ADJA Lösungen_NN ._$. Die_ART kann_VMFIN man_PIS aus_APPR den_ART LGS_NN ablesen_VVINF muss_VMFIN dann_ADV aber_ADV die_ART Gleichung_NN noch_ADV nach_APPR x1_CARD ,_$, x2_CARD x3_CARD etc._ADV umstellen_VVINF ._$. x1_XY =_XY -3_CARD -3_CARD x3_CARD +5_CARD x4x2_XY =_XY -3_CARD +2_CARD x4x3_XY =_XY rx4_XY =_XY sFür_NN x3_CARD und_KON x4_CARD müssen_VMFIN freie_ADJA Parameter_NN vergeben_VVPP werden_VAINF ,_$, da_ADV diese_PDAT über_APPR das_ART LGS_NN nicht_PTKNEG ausreichend_ADJD bestimmt_VVPP wurden_VAFIN sind_VAFIN oder_KON anders_ADV ausgedrückt_VVPP unendliche_ADJA viele_PIDAT Lösungen_NN haben_VAFIN ._$. -LRB-_TRUNC Ich_PPER hoffe_VVFIN man_PIS darf_VMFIN das_ART so_ADV sagen_VVINF ?_$. -RRB-_TRUNC Wenn_KOUS ich_PPER jetzt_ADV für_APPR x3_CARD und_KON x4_CARD jeweils_ADV r_ADJD und_KON s_PPER einsetze_VVFIN -LRB-_TRUNC das_PDS sind_VAFIN die_ART freien_ADJA Paramter_NN -RRB-_TRUNC ,_$, erhalte_VVFIN ich_PPER folgendes_ADJA :_$. x1_XY =_XY -3_CARD -3_CARD r_XY +5_CARD sx2_XY =_XY -3_CARD +2_CARD sx3_XY =_XY rx4_XY =_XY sDiese_NE Lösung_NN kann_VMFIN ich_PPER auch_ADV als_APPR Vektordarstellung_NN -LRB-_TRUNC affine_XY <_CARD REMOVED_PERSON_ENTITY_NN >_CARD -RRB-_TRUNC angeben_VVINF und_KON zwar_ADV ._$. -LRB-_TRUNC x1_CARD ,_$, x2_CARD ,_$, x3_CARD ,_$, x4_CARD -RRB-_TRUNC ^_XY T_XY =-LRB-_TRUNC -3_TRUNC ,_$, -3_CARD ,_$, 0_CARD ,_$, 0_CARD -RRB-_TRUNC ^_XY T_XY +_XY r_XY \*_CARD -LRB-_TRUNC -3_CARD ,_$, 0_CARD ,_$, 1_CARD ,_$, 0_CARD -RRB-_TRUNC +_KON s_PPER -LRB-_TRUNC 5_CARD ,_$, 2_CARD ,_$, 0_CARD ,_$, 1_CARD -RRB-_TRUNC Ich_PPER gebe_VVFIN also_ADV in_APPR den_ART jeweilgen_ADJA Vektoren_NN die_ART Anzahl_NN von_APPR r_NN und_KON s_PPER an_PTKVZ ._$. Ich_PPER hoffe_VVFIN das_PDS hilft_VVFIN weiter_PTKVZ ?_$. Gruß_NE <_NE PERSONAL_GREETING_REMOVEMENT_NE >_XY 

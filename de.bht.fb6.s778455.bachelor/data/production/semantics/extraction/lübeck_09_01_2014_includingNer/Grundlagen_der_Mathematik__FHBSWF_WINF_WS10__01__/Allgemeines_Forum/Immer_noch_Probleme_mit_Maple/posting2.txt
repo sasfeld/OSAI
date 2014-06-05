@@ -1,0 +1,43 @@
+ID: 97775
+CREATION_DATETIME: 1287637645
+MODIFICATION_DATETIME: 1287637645
+TITLE: Re: Immer noch Probleme mit Maple
+TOPIC_ZOOM_TAG: value:Computer;weight:4.0;significance:4.31013985980766;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:4.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:3.0;significance:3.7558512905416;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:4.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Computeralgebra;weight:1.0;significance:3.17713737880847;degreegeneralization:7;uri:20801262
+TOPIC_ZOOM_TAG: value:Algebra;weight:1.0;significance:3.17713737880847;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Lerninhalte;weight:1.0;significance:2.8305637885285;degreegeneralization:5;uri:19978173
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:4.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Software;weight:2.0;significance:2.60511682223347;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:2.0;significance:2.51211272377639;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:HTML;weight:1.0;significance:2.32683803339294;degreegeneralization:8;uri:20901715
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:4.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:4.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Lernen;weight:1.0;significance:1.9952904241304;degreegeneralization:4;uri:20797964
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:1.94532395751918;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Beschreibungssprachen;weight:1.0;significance:1.90065101033334;degreegeneralization:7;uri:20900644
+TOPIC_ZOOM_TAG: value:Formale Sprachen;weight:1.0;significance:1.75794892824141;degreegeneralization:6;uri:21978155
+TOPIC_ZOOM_TAG: value:Computersprachen;weight:1.0;significance:1.75709422655422;degreegeneralization:6;uri:19949137
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:1.39281776949338;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:1.25217677695923;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:1.1184961304917;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:1.10937816236024;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:1.09226215305699;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:0.962083539083185;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:0.958700346769882;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:0.87555429116382;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:0.67173085867019;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:0.584421696201437;degreegeneralization:2;uri:21999711
+NER_TAG: value:&quot;Maple;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+NER_TAG: value:Englisch;weight:-1.0;significance:uri:;classifierlabel:I-MISC
+NER_TAG: value:HTML-Seiten;weight:-1.0;significance:uri:;classifierlabel:I-MISC
+PARENT_POSTING_ID: 97774
+CONTENT:
+Welches Verhalten hättest Du denn erwartet hinter dem Maple-Link? In der Kursbeschreibung steht folgendes:
+&quot;[..] enthalten alle <REMOVED_PERSON_ENTITY> (über &quot;Maple&quot;-Buttons erreichbare) <REMOVED_PERSON_ENTITY> auf Seiten, die mittels der Computeralgebra-Software &quot;Maple&quot; erzeugt wurden und der Vertiefung und Ergänzung des Lernstoffs dienen. Die Maple-Beiträge der Teile II und III sind allerdings in Englisch gehalten. Wer im Besitz der Maple-Software ist, kann mit den zugrunde liegenden Maple-Worksheets auch interaktiv arbeiten.&quot;
+Ich würde das so verstehen, dass es sich um statische HTML-Seiten handelt, die in Maple erzeugt wurden. Insofern ist die Bezeichnung &quot;Interaktion&quot; hier vielleicht etwas irreführend. Fraglich bleibt für mich allerdings, wo die o. g. Worksheets zu finden sind. Vielleicht ist damit auch nur gemeint, dass man die roten Maple-Befehle per Copy&amp;Paste in Maple übernehmen kann?
+Grüße,
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

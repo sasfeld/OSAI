@@ -1,0 +1,26 @@
+ID: 182665
+CREATION_DATETIME: 1353669439
+MODIFICATION_DATETIME: 1353669439
+TITLE: Präsenzveranstaltung - Mitschrift
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Verfügungen;weight:1.0;significance:7.24896400108977;degreegeneralization:3;uri:19992589
+TOPIC_ZOOM_TAG: value:Krankheiten, Beschwerden und Leiden;weight:1.0;significance:4.55003327042709;degreegeneralization:3;uri:21985125
+TOPIC_ZOOM_TAG: value:Gesundheit;weight:1.0;significance:3.54697930762717;degreegeneralization:2;uri:21997569
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:2.65109701440329;degreegeneralization:2;uri:21999830
+NER_TAG: value:GrüßeStefan;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:GrüßeStefan;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Euch;weight:0.0;uri:;postag:NN
+POS_TAG: value:eStefan;weight:0.0;uri:;postag:NN
+POS_TAG: value:gung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bitte;weight:0.0;uri:;postag:NN
+POS_TAG: value:senzveranstaltung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mitschrift;weight:0.0;uri:;postag:NN
+POS_TAG: value:muss;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+da ich krank zu <REMOVED_PERSON_ENTITY> bleiben muss, habe ich auch für diese Präsenzveranstaltung eine große Bitte an Euch. Kann mir einer nach der Präsenzveranstaltung seine Mitschrift zur Verfügung stellen? Wäre klasse!
+Vielen Dank und schöne GrüßeStefan
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, da_KOUS ich_PPER krank_ADJD zu_PTKZU <_VVINF REMOVED_PERSON_ENTITY_NE >_CARD bleiben_VVFIN muss_NN ,_$, habe_VAFIN ich_PPER auch_ADV für_APPR diese_PDAT Präsenzveranstaltung_NN eine_ART große_ADJA Bitte_NN an_APPR Euch_NN ._$. Kann_VMFIN mir_PPER einer_ART nach_APPR der_ART Präsenzveranstaltung_NN seine_PPOSAT Mitschrift_NN zur_APPRART Verfügung_NN stellen_VVINF ?_$. Wäre_VAFIN klasse_ADJA !_$. Vielen_PIDAT Dank_NN und_KON schöne_ADJA GrüßeStefan_NN 

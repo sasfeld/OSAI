@@ -1,0 +1,10 @@
+ID: 2673
+CREATION_DATETIME: 1383174000000
+MODIFICATION_DATETIME: 1383174000000
+TITLE: Leider tut es das aber nicht. Mit dieser Meldung "overriding managed version 4.3.1.final for hinderna...
+PARENT_POSTING_ID: 2662
+POSTING_TYPE: comment
+CONTENT:
+Leider tut es das aber nicht. Mit dieser Meldung "overriding managed version 4. 3. 1. final for hindernate-validator" meldet Eclipse leider einen Fehler in registrationform. java: "The import org. hibernate. validator. constraints. NotEmpty cannot be resolved"
+und damit kann das Projekt leider nicht fehlerfrei kompiliert werden.
+TAGGED_CONTENT:

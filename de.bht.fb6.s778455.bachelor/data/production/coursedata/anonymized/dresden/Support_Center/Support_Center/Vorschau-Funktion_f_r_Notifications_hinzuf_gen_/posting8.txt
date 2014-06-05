@@ -1,0 +1,9 @@
+ID: 364
+CREATION_DATETIME: 1350338400000
+MODIFICATION_DATETIME: 1350338400000
+TITLE: So ich hab nun die Mö
+PARENT_POSTING_ID: 332
+POSTING_TYPE: comment
+CONTENT:
+So ich hab nun die Möglichkeit implementiert, dass einzelne Notifications als gelesen markiert werden können. Außerdem können einzelne Notifications gelöscht werden. Permissions wurden entsprechend angepasst.
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 1004
+CREATION_DATETIME: 1356044400000
+MODIFICATION_DATETIME: 1356044400000
+TITLE: Im letzten Fakrat wurden (meines Wissens nach) leider nur der neue Dekan und ähnliche Verwaltungsgesc...
+PARENT_POSTING_ID: 728
+POSTING_TYPE: comment
+CONTENT:
+Im letzten Fakrat wurden (meines Wissens nach) leider nur der neue Dekan und ähnliche Verwaltungsgeschäfte erledigt. Ich setze das Thema aber gerne nochmal auf die FSR-TOPListe. Wenn sich was bzgl. Fakrat getan hat, werdet ihr es aus dem FSR-Protokoll erfahren
+TAGGED_CONTENT:

@@ -1,0 +1,30 @@
+ID: 191031
+CREATION_DATETIME: 1357487130
+MODIFICATION_DATETIME: 1357487130
+TITLE: Vektoren linear abhängig/ unabhängig mit LGS lösen
+TOPIC_ZOOM_TAG: value:Vektoren;weight:2.0;significance:8.47236634348927;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:5.18753055338448;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Vorlesungen;weight:1.0;significance:3.6389300153353;degreegeneralization:6;uri:20916641
+TOPIC_ZOOM_TAG: value:Ereignisse im Bereich Bildung, Erziehung und Ausbildung;weight:1.0;significance:3.0809378708114;degreegeneralization:3;uri:21872857
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:2.98265634797786;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:2.33481144310352;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:3.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Bücher;weight:1.0;significance:1.93426541297415;degreegeneralization:5;uri:21981657
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:1.85157190455169;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:1.72691850917083;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:1.55845785653717;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:1.45634953740933;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Presse, Druck und Verlagswesen;weight:1.0;significance:1.29991067737776;degreegeneralization:4;uri:21990174
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:0.895641144893587;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:0.72709721863856;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+diesmal geht es um folgende Aufgae.
+Script (Teil_III_VektorenMatrizenLGS. pdf) S. 53 Nr. 41.
+Hier ist eine <REMOVED_PERSON_ENTITY> von Vektoren gegeben und man soll 1. sagen ob diese linear abhängig sind2. wenn dies der Fall ist eine x-beliebe LK zum Nullvektor angeben
+Diese Aufgabe steht zwar im Kapitel Matrizen ich möchte diese aber mittels eines LGS lösen. Wenn ich dies tue komme ich am Ende auf folgende Lösung:A. Die Endmatrix (d. h. Matrix die entstanden ist wenn alle Regieanweisungen duchgeführt wurden sind)  sagt mir aufgrund der letzen Zeile 0=0, dass dieses Gleichungssystem lösbar ist. B. Da die Einheitsmatrix nicht bis zum Ende durchgeht (d. h. nicht in jeder Zeile steht nur eine 1), kann ich sagen, dass es die Vektoren linear abhängig sein müssen. C. Da B. zutriff muss ich nun Punkt 2. in der Aufgabe lösen. Hier tue ich mich etwas schnwer. Ich komme letzentlich auf folgende Lösung:- x1=3x4-x5- x2=-x4- x3=0- x4=r- x5=s(Da für x4 und x5 in der Endmatrix keine Einheitsvektoren enstanden sind, habe ich für diese Werte Paramter gesetzt)Ich frage mich, ob dies schon das Ergebnis sein soll. Komischwerweise ist dies aber keine LK. Was ich in der Vorlesung noch gelernt habe, ist, dass man diese Lösung als affine Menge angeben kann. Dies würde dann aus meiner Sicht so aussehen:(x1, x2, x3, x4, x5)^T=(0, 0, 0, 0, 0)^T+r*(3,-1, 0, 1, 0)^T+s(-1, 0, 0, 0, 1)^TMir fällt etwas schwer eine beliebe LK zum Nullvektor anzugeben weil ich diese aus der Matrix nicht wirklich ablesen kann.
+Kann eventuell jemand helfen?
+Und dann würde ich noch gerne wissen wolle, wie man diese Aufgabe hätte ohne LGS lösen können.
+Besten Dank und GrußPascal
+TAGGED_CONTENT:

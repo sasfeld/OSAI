@@ -1,0 +1,50 @@
+ID: 2107
+CREATION_DATETIME: 1372370400000
+MODIFICATION_DATETIME: 1372975200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> ich scheinbar nicht berechtigt bin hier Announcements zu erstellen, hier unsere Aufgabenverteilung als Frage (das heißt nicht, dass die Aufgaben zur Frage stehen ;-) ).
+
+cheng:
+
+korelationsanalyse in extra klasse (bis heute (28. 06.) Abend)
+
+korelationsanalyse vorerst nur mit executionTime (ohne copyTime) berechnen
+
+predictedTime() implementieren (ab Sonntag)
+
+carl:
+
+csv export der vorhergesagten/gemessenen daten (Anpassung der Feedbackklasse am Samstag)
+
+visualisierung
+
+llvm versionskompatibilität (v3. 3)
+
+in 2 wochen: weltherrschaft
+
+mario:
+
+scheduling
+
+device queueing
+
+matthias:
+
+speicherlebenszyklus
+
+evaluation
+
+stefanie:
+
+matrixmul
+
+sort-kernel
+
+kernelargumente bestehender tests prüfen
+
+check-methode, ob ergebnisse korrekt sind
+TAGGED_CONTENT:

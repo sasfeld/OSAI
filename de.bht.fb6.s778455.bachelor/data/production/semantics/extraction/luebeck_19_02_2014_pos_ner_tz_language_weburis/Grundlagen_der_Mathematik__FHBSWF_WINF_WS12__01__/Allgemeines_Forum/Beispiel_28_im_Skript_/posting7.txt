@@ -1,0 +1,25 @@
+ID: 194831
+CREATION_DATETIME: 1358612001
+MODIFICATION_DATETIME: 1358612001
+TITLE: Re: Beispiel 28 im Skript....
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=72949#194831
+TOPIC_ZOOM_TAG: value:Vektoren;weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:gen;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungsmenge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bestandteil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tausch;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:cktauschens;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 194817
+CONTENT:
+Ja genau, aufgrund des nicht Zurücktauschens habe ich (-3, 0, 1, 0)^T drin. Natürlich denke ich auch, dass dieser Vektor nicht unbedingt Bestandteil der affinen Lösungsmenge ist. Die affine Lösungsmenge kann ich erst angeben wenn ich den Tausch rückgängig gemacht habe. Diese lautet dann, sow ie Du schon gesagt hast, (-3, 1, 0, 0)^T. Eventuell habe ich mich in meinen vorherigen Beträgen nicht 100% ausgedrückt aber die Frage war ja wie man "plötzlich" (-3, 0, 1, 0)^T und nicht auf (-3, 1, 0, 0)^T.
+GrußPascal
+TAGGED_CONTENT:
+Ja_PTKANT genau_ADJD ,_$, aufgrund_APPR des_ART nicht_PTKNEG Zurücktauschens_NN habe_VAFIN ich_PPER -LRB-_TRUNC -3_CARD ,_$, 0_CARD ,_$, 1_CARD ,_$, 0_CARD -RRB-_TRUNC ^_XY T_XY drin_ADV ._$. Natürlich_ADV denke_VVFIN ich_PPER auch_ADV ,_$, dass_KOUS dieser_PDAT Vektor_NN nicht_PTKNEG unbedingt_ADV Bestandteil_NN der_ART affinen_ADJA Lösungsmenge_NN ist_VAFIN ._$. Die_ART affine_ADJA Lösungsmenge_NN kann_VMFIN ich_PPER erst_ADV angeben_VVINF wenn_KOUS ich_PPER den_ART Tausch_NN rückgängig_ADJD gemacht_VVPP habe_VAFIN ._$. Diese_PDS lautet_VVFIN dann_ADV ,_$, sow_ADV ie_VVFIN Du_PPER schon_ADV gesagt_VVPP hast_VAFIN ,_$, -LRB-_TRUNC -3_TRUNC ,_$, 1_CARD ,_$, 0_CARD ,_$, 0_CARD -RRB-_TRUNC ^_XY T._NE Eventuell_NE habe_VAFIN ich_PPER mich_PRF in_APPR meinen_PPOSAT vorherigen_ADJA Beträgen_NN nicht_PTKNEG 100_CARD %_NN ausgedrückt_VVPP aber_KON die_ART Frage_NN war_VAFIN ja_ADV wie_PWAV man_PIS "_$( plötzlich_ADJD "_$( -LRB-_TRUNC -3_CARD ,_$, 0_CARD ,_$, 1_CARD ,_$, 0_CARD -RRB-_TRUNC ^_XY T_XY und_KON nicht_PTKNEG auf_APPR -LRB-_TRUNC -3_TRUNC ,_$, 1_CARD ,_$, 0_CARD ,_$, 0_CARD -RRB-_TRUNC ^_XY T._NE GrußPascal_NE 

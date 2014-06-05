@@ -1,0 +1,38 @@
+ID: 188419
+CREATION_DATETIME: 1355923953
+MODIFICATION_DATETIME: 1355923953
+TITLE: Klausurvorbereitung
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=70597#188419
+TOPIC_ZOOM_TAG: value:Feiertage;weight:1.0;significance:3.38025726302664;degreegeneralization:5;uri:20718404
+TOPIC_ZOOM_TAG: value:Feiern, Feste und Festakte;weight:1.0;significance:2.98401507781385;degreegeneralization:4;uri:20919667
+TOPIC_ZOOM_TAG: value:Bücher;weight:1.0;significance:2.90139811946123;degreegeneralization:5;uri:21981657
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:2.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Presse, Druck und Verlagswesen;weight:1.0;significance:1.94986601606664;degreegeneralization:4;uri:21990174
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Veranstaltungen;weight:1.0;significance:1.68525989105843;degreegeneralization:3;uri:20901494
+NER_TAG: value:LonCapa;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LonCapa;weight:-1.0;uri:;classifierlabel:I-LOC
+POS_TAG: value:Tage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Unterlagen;weight:0.0;uri:;postag:NN
+POS_TAG: value:bung;weight:0.0;uri:;postag:NN
+POS_TAG: value:cher;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:LonCapa;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klausur;weight:0.0;uri:;postag:NN
+POS_TAG: value:Feiertage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorbereitung;weight:0.0;uri:;postag:NN
+POS_TAG: value:bungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Internet;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgaben;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+über die Feiertage habe ich ein paar Tage urlaub. Da wollte ich schonmal mit der Vorbereitung auf die Klausur beginnen. Habe mir überlegt noch einige Aufgabe aus dem LonCapa zu rechen. Auch im Internet habe ich schon Aufgaben zur Übung gefunden.
+Habt ihr bestimmte Bücher oder sonstige Unterlagen aus den ihr lernt? Könnt ihr bestimtme Unterlagen / Übungen empfehlen?
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, über_APPR die_ART Feiertage_NN habe_VAFIN ich_PPER ein_ART paar_PIDAT Tage_NN urlaub_ADJD ._$. Da_ADV wollte_VMFIN ich_PPER schonmal_ADV mit_APPR der_ART Vorbereitung_NN auf_APPR die_ART Klausur_NN beginnen_VVINF ._$. Habe_VAFIN mir_PPER überlegt_VVFIN noch_ADV einige_PIAT Aufgabe_NN aus_APPR dem_ART LonCapa_NN zu_PTKZU rechen_VVINF ._$. Auch_ADV im_APPRART Internet_NN habe_VAFIN ich_PPER schon_ADV Aufgaben_NN zur_APPRART Übung_NN gefunden_VVPP ._$. Habt_VAFIN ihr_PPOSAT bestimmte_ADJA Bücher_NN oder_KON sonstige_ADJA Unterlagen_NN aus_APPR den_ART ihr_PPER lernt_VVFIN ?_$. Könnt_NE ihr_PPOSAT bestimtme_ADJA Unterlagen_NN \/_CARD Übungen_NN empfehlen_VVFIN ?_$. Gruß_NE <_NE PERSONAL_GREETING_REMOVEMENT_NE >_XY 

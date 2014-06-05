@@ -1,0 +1,11 @@
+ID: 237455
+CREATION_DATETIME: 1380571500
+MODIFICATION_DATETIME: 1380571500
+TITLE: Re: Gruppen für potenzielle Einsendeaufgaben
+PARENT_POSTING_ID: 237309
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+wenn du und <REMOVED_PERSON_ENTITY> nichts dagegen habt, würde ich mich euch gern anschließen. Mein Problem ist leider, dass ich seit 4 Jahren kein <REMOVED_PERSON_ENTITY> mehr hatte (3 Jahre Ausbildung bei der Agentur für Arbeit und jetzt 1 Jahr berufstätig) und ich mich in viele Sachen erst wieder reinfuchsen muss. Ich würde mich aber sehr freuen, wenn ihr mich vllt. bei einigen Sachverhalten unterstützen könntet. :-)
+Liebe Grüße,
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

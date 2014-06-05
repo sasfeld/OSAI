@@ -1,0 +1,14 @@
+ID: 1433
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1362870000000
+TITLE: Ich weiß nicht genau was du meinst. Passiert das nach dem run und hast du Ausgaben in deinem Programm...
+LANGUAGE: GERMAN
+POS_TAG: value:Programm;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ausgaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:run;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1428
+POSTING_TYPE: comment
+CONTENT:
+Ich weiß nicht genau was du meinst. Passiert das nach dem run und hast du Ausgaben in deinem Programm? Dann solltest du besser stdout und/oder stderr woanders hinleiten: ```(gdb) run 1>/dev/null 2>/dev/null 3output. txt```
+TAGGED_CONTENT:
+Ich_PPER weiß_VVFIN nicht_PTKNEG genau_ADJD was_PWS du_PPER meinst_VVFIN ._$. Passiert_VVFIN das_PDS nach_APPR dem_ART run_NN und_KON hast_VAFIN du_PPER Ausgaben_NN in_APPR deinem_ADJA Programm_NN ?_$. Dann_ADV solltest_VVFIN du_PPER besser_ADJD stdout_VVFIN und\/oder_ADJD stderr_ADJD woanders_ADV hinleiten_VVINF :_$. ``_CARD `_XY -LRB-_TRUNC gdb_KON -RRB-_TRUNC run_XY 1_CARD >_CARD \/_CARD dev\/null_CARD 2_CARD >_CARD \/_CARD dev\/null_CARD 3output_CARD ._$. txt_XY ``_CARD `_XY 

@@ -1,0 +1,36 @@
+ID: 97796
+CREATION_DATETIME: 1287837345
+MODIFICATION_DATETIME: 1287837345
+TITLE: Re: ESA  Aufgabe11 Terme vereinfachen
+TOPIC_ZOOM_TAG: value:Schuhe;weight:1.0;significance:8.0545891650764;degreegeneralization:7;uri:21865700
+TOPIC_ZOOM_TAG: value:Kleidungsstücke;weight:1.0;significance:6.25021123188914;degreegeneralization:6;uri:20746471
+TOPIC_ZOOM_TAG: value:Tipps;weight:1.0;significance:5.9727695009916;degreegeneralization:4;uri:20291636
+TOPIC_ZOOM_TAG: value:Kleidung;weight:1.0;significance:5.47726251090631;degreegeneralization:5;uri:21952706
+TOPIC_ZOOM_TAG: value:Mode;weight:1.0;significance:5.45862397851594;degreegeneralization:5;uri:20900933
+TOPIC_ZOOM_TAG: value:Textilien;weight:1.0;significance:5.4354569192344;degreegeneralization:4;uri:20890342
+TOPIC_ZOOM_TAG: value:Mode und Schönheit;weight:1.0;significance:5.33392050001498;degreegeneralization:4;uri:21999609
+TOPIC_ZOOM_TAG: value:Lifestyle, Mode, Schönheit;weight:1.0;significance:4.37191942759678;degreegeneralization:3;uri:21999456
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:3.4415452961402;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:Paar;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anhang;weight:0.0;uri:;postag:NN
+POS_TAG: value:Minus;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tipp;weight:0.0;uri:;postag:NN
+POS_TAG: value:Formel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Schreibweise;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Endeffekt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Schuhe;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97795
+CONTENT:
+Wenn ich mal deine <REMOVED_PERSON_ENTITY> von LONCAPA umwandeln würde in unsere Schreibweise, dann würde das herauskommen:
+siehe Anhang
+Wenn man deins übernehmen würde, dann würde es wie folgt umgeschrieben werden:
+a-a^2+9*a
+Also sind das im Endeffekt zwei verschiedene Paar Schuhe.
+Jedoch würde ich dir ein Tipp für die Aufgabe geben: Ziehe das Minus raus vor dem <REMOVED_PERSON_ENTITY> und da hast du vielleicht ein Teil einer binomischer Formel. ;-)
+TAGGED_CONTENT:
+Wenn_KOUS ich_PPER mal_ADV deine_PPOSAT <_NN REMOVED_PERSON_ENTITY_NE >_CARD von_APPR LONCAPA_NE umwandeln_VVINF würde_VAFIN in_APPR unsere_PPOSAT Schreibweise_NN ,_$, dann_ADV würde_VAFIN das_ART herauskommen_VVINF :_$. siehe_VVIMP Anhang_NN Wenn_KOUS man_PIS deins_ADJD übernehmen_VVINF würde_VAFIN ,_$, dann_ADV würde_VAFIN es_PPER wie_PWAV folgt_VVFIN umgeschrieben_VVPP werden_VAINF :_$. a-a_ITJ ^_XY 2_CARD +9_CARD \*_CARD a_XY Also_ADV sind_VAFIN das_PDS im_APPRART Endeffekt_NN zwei_CARD verschiedene_ADJA Paar_NN Schuhe_NN ._$. Jedoch_KON würde_VAFIN ich_PPER dir_PPER ein_ART Tipp_NN für_APPR die_ART Aufgabe_NN geben_VVINF :_$. Ziehe_VVFIN das_ART Minus_NN raus_ADV vor_APPR dem_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN und_KON da_ADV hast_VAFIN du_PPER vielleicht_ADV ein_ART Teil_NN einer_ART binomischer_ADJA Formel_NN ._$. ;--RRB-_XY 

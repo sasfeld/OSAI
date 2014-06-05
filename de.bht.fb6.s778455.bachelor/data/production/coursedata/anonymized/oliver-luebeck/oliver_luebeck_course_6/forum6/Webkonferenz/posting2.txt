@@ -1,0 +1,14 @@
+ID: 87
+CREATION_DATETIME: 1295528940000
+MODIFICATION_DATETIME: 1295528940000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 86
+CONTENT:
+ 
+Liebe Studierende,
+
+die Web-Konferenz findet heute um 19Uhr statt. Ich nehme gerne weitere Fragen wie Ihre auf Frau Mueller. Bitte vergessen Sie nicht, meine Liste von Fragen. Am besten Vorschläge für fie Antworten in Moodle stellen! Danke.
+Bis heute Abend
+    
+TAGGED_CONTENT:

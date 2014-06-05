@@ -1,0 +1,15 @@
+ID: 2
+CREATION_DATETIME: 1192980060000
+MODIFICATION_DATETIME: 1192980060000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1
+CONTENT:
+
+Hallo,
+
+Mit der neuen Installation durch Moodle habe ich Probleme die Aufzeichnung zu finden. Ich hoffe, dass ich morgen soweit bin.
+
+Viele Grüße
+    
+TAGGED_CONTENT:

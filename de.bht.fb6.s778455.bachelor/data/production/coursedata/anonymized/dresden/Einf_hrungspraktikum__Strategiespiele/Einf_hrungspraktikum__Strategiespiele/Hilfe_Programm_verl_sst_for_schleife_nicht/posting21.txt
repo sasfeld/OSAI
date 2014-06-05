@@ -1,0 +1,23 @@
+ID: 1352
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: er kommt nur nich in das if:
+
+```ruby
+if (haveJumps == 1) {
+			printf("jump");
+			jumping(buffer...
+PARENT_POSTING_ID: 1329
+POSTING_TYPE: comment
+CONTENT:
+er kommt nur nich in das if:
+```ruby
+if (haveJumps == 1) {
+			printf("jump");
+			jumping(buffer);
+		} else {
+			printf("move");
+			moving(buffer, outputbuffer);
+		}
+```
+TAGGED_CONTENT:

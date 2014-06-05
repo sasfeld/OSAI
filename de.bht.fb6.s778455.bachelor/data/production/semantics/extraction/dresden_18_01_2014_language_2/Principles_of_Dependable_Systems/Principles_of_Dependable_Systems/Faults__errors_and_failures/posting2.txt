@@ -1,0 +1,14 @@
+ID: 359
+CREATION_DATETIME: 1350338400000
+MODIFICATION_DATETIME: 1351375200000
+TITLE: See
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 358
+POSTING_TYPE: answer
+CONTENT:
+See
+
+- Lecture 1 slide 25
+
+- Basic concepts and taxonomy of dependable and secure computing - Avizienis, A. et al.
+TAGGED_CONTENT:

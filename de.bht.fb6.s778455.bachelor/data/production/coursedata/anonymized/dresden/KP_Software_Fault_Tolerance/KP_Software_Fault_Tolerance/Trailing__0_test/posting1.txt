@@ -1,0 +1,18 @@
+ID: 851
+CREATION_DATETIME: 1353798000000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+I am a bit confused right now. For the test cases without a trailing \0, my implementation has the same issue as strlen. It will eventually find a \0, but this will occur somewhere after the end of the string.
+```c
+     // or <NAME_CORPUS_REPLACEMENT> use strlen( s ) :-P
+     // bogus happens if there is no \0 for strlen and this
+     for( int i = 0; ; i++ ) 
+       if( *(s + i) == '\0' ) break;
+```
+So isn't that faulty behaviour?
+Is there any way to test for the end of a string, if \0 is missing?
+TAGGED_CONTENT:

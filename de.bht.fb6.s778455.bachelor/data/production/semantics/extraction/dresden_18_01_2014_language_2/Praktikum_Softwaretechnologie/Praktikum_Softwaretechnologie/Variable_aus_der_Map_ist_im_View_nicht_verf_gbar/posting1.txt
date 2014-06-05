@@ -1,0 +1,44 @@
+ID: 2791
+CREATION_DATETIME: 1384124400000
+MODIFICATION_DATETIME: 1385506800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+ich programmiere gerade einen Benutzerverwaltungs-Prototypen für das Theater. Die im Staffplan eingefügten Daten sollen über den Controller an das Frontend übergeben werden. Es handelt sich dabei um 4 Variablen. Wenn ich das Projekt kompiliere und den Server mit dem Browser öffne, springt mir immer die folgende Fehlermeldung ins Gesicht:
+
+Field or property 'worktime' cannot be found on object of type 'staffplan. model. Director'
+
+Die Variable worktime habe ich genau wie die anderen Variablen deklariert und in die Map eingefügt. Beim Debugging ist sie auch am richtigen Platz, aber ThymeLeaf behauptet felsenfest, dass sie nicht verfügbar ist. 
+
+Edit: 
+
+Director erbt <NAME_CORPUS_REPLACEMENT> Employee
+
+```
+
+public class Employee {
+
+	/* .... */ 
+
+	private final int worktime;
+
+	public int getWorkTime() {
+
+		return worktime;
+
+	}
+
+}
+
+```
+
+Vielen Dank!
+
+<NAME_CORPUS_REPLACEMENT> Grüße,
+
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

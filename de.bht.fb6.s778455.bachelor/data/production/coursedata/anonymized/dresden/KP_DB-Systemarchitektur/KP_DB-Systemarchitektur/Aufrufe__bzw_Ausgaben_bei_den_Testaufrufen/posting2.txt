@@ -1,0 +1,12 @@
+ID: 2111
+CREATION_DATETIME: 1372370400000
+MODIFICATION_DATETIME: 1372370400000
+TITLE: #define uint unsigned int
+
+Selbiges gilt für Vektortypen. Wie gesagt fehlt da irgendein Header, der...
+PARENT_POSTING_ID: 2108
+POSTING_TYPE: comment
+CONTENT:
+#define uint unsigned int
+Selbiges gilt für Vektortypen. Wie gesagt fehlt <NAME_CORPUS_REPLACEMENT> irgendein Header, der die ganzen <LEARNED_PERSON_NAME_REPLACEMENT>-typischen Typen definiert.
+TAGGED_CONTENT:

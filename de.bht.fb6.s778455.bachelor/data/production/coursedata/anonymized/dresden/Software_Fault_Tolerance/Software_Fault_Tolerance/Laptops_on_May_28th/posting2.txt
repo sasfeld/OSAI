@@ -1,0 +1,9 @@
+ID: 1858
+CREATION_DATETIME: 1369605600000
+MODIFICATION_DATETIME: 1369605600000
+TITLE: No computers are required but please repeat the material of the lecture.
+PARENT_POSTING_ID: 1857
+POSTING_TYPE: answer
+CONTENT:
+No computers are required but please repeat the material of the lecture.
+TAGGED_CONTENT:

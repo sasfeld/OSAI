@@ -1,0 +1,10 @@
+ID: 2223
+CREATION_DATETIME: 1373666400000
+MODIFICATION_DATETIME: 1373666400000
+TITLE: Seit gestern morgen habe ich gar nichts veraendert. Koennen wir einfach die Version Rollback machen?
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2222
+POSTING_TYPE: comment
+CONTENT:
+Seit gestern morgen habe ich gar nichts veraendert. Koennen wir einfach die Version Rollback machen?
+TAGGED_CONTENT:

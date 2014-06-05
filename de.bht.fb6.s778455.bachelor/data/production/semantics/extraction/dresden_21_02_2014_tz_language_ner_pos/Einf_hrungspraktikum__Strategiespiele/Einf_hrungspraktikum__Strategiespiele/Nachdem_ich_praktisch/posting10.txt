@@ -1,0 +1,67 @@
+ID: 176
+CREATION_DATETIME: 1348610400000
+MODIFICATION_DATETIME: 1348610400000
+TITLE: Nachdem ich praktisch
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Arbeitserfahrung;weight:1.0;significance:4.93766808558885;degreegeneralization:4;uri:20783242
+TOPIC_ZOOM_TAG: value:Praktika;weight:1.0;significance:4.93766808558885;degreegeneralization:6;uri:20783225
+TOPIC_ZOOM_TAG: value:Berufliche Ausbildung und Weiterbildung;weight:1.0;significance:4.12710110949021;degreegeneralization:5;uri:21869780
+TOPIC_ZOOM_TAG: value:Erwachsenenbildung und berufliche Bildung;weight:1.0;significance:4.09884500435854;degreegeneralization:3;uri:21306077
+TOPIC_ZOOM_TAG: value:Züge;weight:1.0;significance:3.99950965696079;degreegeneralization:8;uri:21308253
+TOPIC_ZOOM_TAG: value:Öffentlichkeit;weight:1.0;significance:3.96052888622594;degreegeneralization:5;uri:19952282
+TOPIC_ZOOM_TAG: value:Schienenverkehr;weight:1.0;significance:3.2509867942545;degreegeneralization:6;uri:21897745
+TOPIC_ZOOM_TAG: value:Beruf und Karriere;weight:1.0;significance:2.35712726440897;degreegeneralization:4;uri:20990557
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Fahrzeuge und Verkehrsmittel;weight:1.0;significance:2.26257607261774;degreegeneralization:6;uri:21881442
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:2.18452430611399;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Verkehr;weight:1.0;significance:2.03580982110768;degreegeneralization:5;uri:21897779
+TOPIC_ZOOM_TAG: value:Transport, Verkehr und Logistik;weight:1.0;significance:2.00954255143862;degreegeneralization:4;uri:21925982
+TOPIC_ZOOM_TAG: value:Bevölkerung;weight:1.0;significance:1.9441465746638;degreegeneralization:4;uri:21634313
+TOPIC_ZOOM_TAG: value:Arbeit und Beruf;weight:1.0;significance:1.77050613279153;degreegeneralization:3;uri:21924095
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:1.07441906812122;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:0.90229776862663;degreegeneralization:2;uri:21999847
+NER_TAG: value:FAQ;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:FAQ;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abfragen;weight:0.0;uri:;postag:NN
+POS_TAG: value:toAdd;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:Objekt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Praktikum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Code;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zug;weight:0.0;uri:;postag:NN
+POS_TAG: value:Arrays;weight:0.0;uri:;postag:NN
+POS_TAG: value:Instanziieren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Containern;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 166
+POSTING_TYPE: answer
+CONTENT:
+Nachdem ich die FAQ gelesen und praktisch alle Arrays mit vector - Containern vertauscht habe, ging endlich alles und ich konnte die anderen Fehler korrigieren.
+
+```c
+
+#include 
+
+int main()
+
+{
+
+    std::vector  zugArray; // Instanziieren
+
+    Zug toAdd(bla, bla);
+
+    zugArray. push_back(toAdd); // Objekt hinten ranhängen
+
+    zugArray[0] == toAdd; // Abfragen wie einen Array
+
+    ...
+
+}
+
+```
+
+@Mods: Wenn das Praktikum vorbei ist und ihr die Frage als hilfreich erachtet, könnt ihr den Code ganz oben gerne löschen und die Frage öffentlich machen. 
+TAGGED_CONTENT:
+Nachdem_KOUS ich_PPER die_ART FAQ_NN gelesen_VVPP und_KON praktisch_ADJD alle_PIDAT Arrays_NN mit_APPR vector_ADJD -_$( Containern_NN vertauscht_VVFIN habe_VAFIN ,_$, ging_VVFIN endlich_ADV alles_PIS und_KON ich_PPER konnte_VMFIN die_ART anderen_ADJA Fehler_NN korrigieren_VVINF ._$. ``_XY `_XY c_FM #include_FM int_FM main_FM -LRB-_TRUNC -RRB-_TRUNC -LCB-_TRUNC std_ITJ :_$. ,_$, vector_VVFIN zugArray_NE ;_$. \/_CARD \/_CARD Instanziieren_NN Zug_NN toAdd_NE -LRB-_TRUNC bla_ITJ ,_$, bla_KON -RRB-_TRUNC ;_$. zugArray_NE ._$. push_back_ADJD -LRB-_TRUNC toAdd_NN -RRB-_TRUNC ;_$. \/_CARD \/_CARD Objekt_NN hinten_ADV ranhängen_VVFIN zugArray_NE -LSB-_TRUNC 0_CARD -RSB-_TRUNC =_XY =_XY toAdd_NE ;_$. \/_CARD \/_CARD Abfragen_NN wie_KOKOM einen_ART Array_NE ..._$( -RCB-_TRUNC ``_KON `_XY @Mods_NE :_$. Wenn_KOUS das_ART Praktikum_NN vorbei_ADV ist_VAFIN und_KON ihr_PPOSAT die_ART Frage_NN als_APPR hilfreich_ADJD erachtet_VVFIN ,_$, könnt_VVFIN ihr_PPOSAT den_ART Code_NN ganz_ADV oben_ADV gerne_ADV löschen_VVINF und_KON die_ART Frage_NN öffentlich_ADJD machen_VVINF ._$. 

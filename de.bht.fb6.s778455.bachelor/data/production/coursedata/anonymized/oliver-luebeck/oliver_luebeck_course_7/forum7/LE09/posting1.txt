@@ -1,0 +1,16 @@
+ID: 42
+CREATION_DATETIME: 1304368320000
+MODIFICATION_DATETIME: 1304368320000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo! :)
+
+Hat sich zufällig schon jemand von euch schon die Einsendeaufgabe 09-E1 angeschaut?
+Dort soll eine Tabelle erstellt werden. Nun frage ich mich wie umfangreich diese Tabelle sein sollte (Eine Seite? Zwei Seiten? Zehn Seiten? überrascht...) und ob es reicht nur kurz zu schreiben was die Ausgabe ist (exakt, in Toleranz, brauchbar....) oder ob auch der Wert der Abweichung angegeben werden soll. Den Wert habe ich eh schon ausgerechnet, wobei ich mittlerweile denke, dass ich mir das vielleicht auch hätte sparen können wenn wir den gar nicht in die Tabelle schreiben sollen.
+
+Danke schonmal und noch einen schönen Abend,
+   
+TAGGED_CONTENT:

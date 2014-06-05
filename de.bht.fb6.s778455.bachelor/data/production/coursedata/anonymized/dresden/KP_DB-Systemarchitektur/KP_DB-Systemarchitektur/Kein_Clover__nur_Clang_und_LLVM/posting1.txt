@@ -1,0 +1,12 @@
+ID: 1750
+CREATION_DATETIME: 1366408800000
+MODIFICATION_DATETIME: 1373839200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Die Gute Nachricht: Wir brauchen gar nicht <REMOVED_PERSON_ENTITY>, sondern der OpenCL-Compiler ist in Clang enthalten.
+Ich habe derweil ein kleines Script in den einen example-Ordner hinzugefügt, mit dem kernel. <LEARNED_PERSON_NAME_REPLACEMENT> mittels clang in kernel. <LEARNED_PERSON_NAME_REPLACEMENT> übersetzt wird. Über diesen Zwischencode kann man mit dem LLVM-Framework die Code-Analysen laufen lassen und z. B. die Anzahl und Anordnung der Store-Anweisungen zählen.
+Es müsste also jeder in der Lage sein, LLVM bzw Clang zu kompilieren oder binary Releases finden.
+Wir sollten uns vielleicht auch auch auf eine LLVM-Version einigen, denn die Entwickler haben die Eigenart, Bezeichner umzubenennen, wodurch die unterschiedlichen Versionen alle miteinander inkompatibel sind.
+TAGGED_CONTENT:

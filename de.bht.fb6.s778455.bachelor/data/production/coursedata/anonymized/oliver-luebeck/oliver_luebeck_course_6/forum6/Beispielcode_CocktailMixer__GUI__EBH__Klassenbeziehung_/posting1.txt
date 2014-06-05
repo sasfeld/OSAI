@@ -1,0 +1,36 @@
+ID: 82
+CREATION_DATETIME: 1294953660000
+MODIFICATION_DATETIME: 1294953660000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo an alle,
+auf Nachfrage nach der Präsenz stelle ich den Quellcode für den CocktailMixer bereit.
+(Ich denke, Steffi stimmt dem zu).
+
+Auf 2 PDF Seiten habe ich grafisch versucht, den Aufbau und die Beziehungen der Klassen simpel zu erklären - guckt einfach hinein.
+
+Die Tipps von Frau Merceron sind umgesetzt:
+Die ActionListener sind nun kurze, innere Klassen beim jeweiligen MenuItem.
+Die Hauptklasse gibt nur noch Objekte von "Cocktailbar" statt "Mixer" weiter.
+
+Bei Fragen einfach per Email melden
+
+Gruß 
+
+
+
+Frage an
+Bei der Klasse NeuerCocktail möchte ich gerne im Hauptfenster der GuiMeinCocktailMixer Aktion auslösen (Fenstertitel ändern, JDialog zeigen)
+Ohne das Mixer-Objekt habe ich keinen Rückwärts-Zugriff mehr. Die Kommentare in der Klasse zeigen die entsprechenden Stellen:
+// v0.9: entfällt, da kein zugriff auf mixer/ jframe
+//cmixer.refreshTitle();
+
+// v0.9: entfällt, da kein zugriff auf mixer/ jframe
+//JOptionPane.showMessageDialog(cmixer.cockFenster,
+// "Cocktail gespeichert");
+Welchen Weg kann ich dabei gehen?
+	
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 2001
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Ich habe gestern die Funktionierende Version meiner Testumgebung eingecheckt. Die makefile ist ein kl...
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Ich habe gestern die Funktionierende Version meiner Testumgebung eingecheckt. Die makefile ist ein klein wenig abgewandelt, damit alles richtig compiliert. Bis heute abend werde ich noch für die anderen Kernel die Aufrufe vorbereiten. Die Datengeneratoren habe ich mir als ToDo nach der Zwischenpräsi gesetzt.
+TAGGED_CONTENT:

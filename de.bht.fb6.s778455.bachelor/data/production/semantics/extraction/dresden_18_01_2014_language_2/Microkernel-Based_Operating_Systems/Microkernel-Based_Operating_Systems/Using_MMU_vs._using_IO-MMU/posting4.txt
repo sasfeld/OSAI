@@ -1,0 +1,18 @@
+ID: 1647
+CREATION_DATETIME: 1364252400000
+MODIFICATION_DATETIME: 1364252400000
+TITLE: On the other hand, the slides state:  
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1646
+POSTING_TYPE: comment
+CONTENT:
+On the other hand, the slides state:  
+
+> <REMOVED_PERSON_ENTITY> access buffers through virtual addresses  
+
+> – I/O MMU translates accesses from virtual to IO-virtual addresses (IOVA)  
+
+> – restrict access to phys. memory by only mapping certain IOVAs into driver's address space  
+
+(MBOS, 06-Drivers, Slide 29)
+TAGGED_CONTENT:

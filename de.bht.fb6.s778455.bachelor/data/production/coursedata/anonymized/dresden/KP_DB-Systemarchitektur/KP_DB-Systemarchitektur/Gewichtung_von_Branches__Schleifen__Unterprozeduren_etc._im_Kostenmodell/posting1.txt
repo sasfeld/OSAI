@@ -1,0 +1,13 @@
+ID: 1802
+CREATION_DATETIME: 1368482400000
+MODIFICATION_DATETIME: 1369087200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+Ich habe mal ein simples Kostenmodell aufgestellt (class kernelMetrics in src/modul_loader/kernelcost. cpp).
+Momentan werte ich die Metrics einfach für dein Eintritts-BasicBlock des Kernels aus.
+Die Idee ist, dass man die <REMOVED_PERSON_ENTITY> pro BasicBlock bestimmt und anschließend abschätzt anhand der Callgraph-Struktur und der Schleifenverschachtelung, wie oft jeder BasicBlock ausgeführt wird und die Metrics so gewichtet werden.
+@freakrobot: Packst du mal den Code, den ich bis jetzt geschrieben habe in einen BasicBlock Analysis-Pass, der dann sauber über einen llvm::PassManager aufgerufen wird? Anschließend machst du dir Gedanken, wie man abschätzen könnte, wie oft jeder BasicBlock ausgeführt wird. (Eine gute Heuristik zur Bewertung <NAME_CORPUS_REPLACEMENT> Schleifen wird hier vorgestellt: http://www.youtube.com/watch?v=wUMMikqJHYk)
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 1923
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: Static kann ich wieder einbauen.
+
+Ich kann die Makefile auch so umstrukturieren, dass erst mal alle...
+PARENT_POSTING_ID: 1920
+POSTING_TYPE: comment
+CONTENT:
+Static kann ich wieder einbauen.
+Ich kann die Makefile auch so umstrukturieren, dass erst mal alle Headerfiles rüberkopiert werden in das Testprojekt und dann lokal gebaut wird.
+TAGGED_CONTENT:

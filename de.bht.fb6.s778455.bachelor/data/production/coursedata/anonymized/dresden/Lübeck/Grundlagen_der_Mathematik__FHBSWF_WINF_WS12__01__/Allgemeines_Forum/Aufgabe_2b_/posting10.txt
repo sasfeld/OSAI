@@ -1,0 +1,9 @@
+ID: 184535
+CREATION_DATETIME: 1354520120
+MODIFICATION_DATETIME: 1354520120
+TITLE: Re: Aufgabe 2b)
+PARENT_POSTING_ID: 184507
+CONTENT:
+Ich habe es so verstanden, dass EINE Knotenbewertung nicht die Bewertung eines Knotens ist, sondern die Bewertung ALLER Knoten des Graphen. Laut Aufgabenstellung sind ja v1 bis v4 zusammen 4 Knotenbewertungen. <REMOVED_PERSON_ENTITY> kann also nicht einfach eine reelle Zahl sein.
+Ja, es gibt vermutlich auch (mindestens) einen anderen <REMOVED_PERSON_ENTITY>, die Aufgabenstellung zu lösen (zu zeigen, dass die Nullsummenknotenbewertungen einen Vektorraum bilden) ohne ein LGS zu verwenden. Ich sehe ihn nur zur Zeit eben nicht.
+TAGGED_CONTENT:

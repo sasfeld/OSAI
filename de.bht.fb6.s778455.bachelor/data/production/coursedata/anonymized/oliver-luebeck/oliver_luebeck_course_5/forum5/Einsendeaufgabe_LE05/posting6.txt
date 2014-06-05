@@ -1,0 +1,16 @@
+ID: 64
+CREATION_DATETIME: 1194021120000
+MODIFICATION_DATETIME: 1194021120000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 62
+CONTENT:
+ 
+Hallo ,
+
+"Telefon.TelefonEintrag@addbf1" sieht aus wie eine Objekt-Refferenz. Kann es sein das du dein Methoden auf private gesetzt hast und keine getter und setter eingefügt hast?
+
+Währe jetzt meine erste Idee...
+Schönen Gruß
+	
+TAGGED_CONTENT:

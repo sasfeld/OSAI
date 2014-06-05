@@ -1,0 +1,13 @@
+ID: 191807
+CREATION_DATETIME: 1357655473
+MODIFICATION_DATETIME: 1357655473
+TITLE: Re: Vektoren linear abhängig/ unabhängig mit LGS lösen
+PARENT_POSTING_ID: 191743
+CONTENT:
+Hallo Herr Prof. Dr. <REMOVED_PERSON_ENTITY>,
+Stimmt ja, ein homogenes System hat immer mindestens eine Lösung. Daran habe ich gar nicht gedacht.
+Die Probe war übrigens korrekt, Sie haben sich also nicht verrechent. ;)
+Vielen Dank für die schnelle Antwort. ich habe diese Sache nun endlich verstanden.
+Gruß<PERSONAL_GREETING_REMOVEMENT>
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

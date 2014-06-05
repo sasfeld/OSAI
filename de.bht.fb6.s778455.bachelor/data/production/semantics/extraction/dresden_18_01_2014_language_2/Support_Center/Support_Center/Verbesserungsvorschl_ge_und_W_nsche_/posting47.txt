@@ -1,0 +1,10 @@
+ID: 1087
+CREATION_DATETIME: 1359500400000
+MODIFICATION_DATETIME: 1359500400000
+TITLE: Integration der Kurse anderer Fakultäten, die von Informatikern besucht werden, z.B. Angebote im Rahm...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 369
+POSTING_TYPE: answer
+CONTENT:
+Integration der Kurse anderer Fakultäten, die <NAME_CORPUS_REPLACEMENT> Informatikern besucht werden, z. B. Angebote im Rahmen des Nebenfachs Psychologie. Zu den Hauptfach-Leuten hat man sonst schwer Kontakt.
+TAGGED_CONTENT:

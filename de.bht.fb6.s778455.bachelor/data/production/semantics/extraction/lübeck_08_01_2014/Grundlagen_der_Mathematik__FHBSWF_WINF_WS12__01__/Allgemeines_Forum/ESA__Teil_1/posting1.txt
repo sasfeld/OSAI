@@ -1,0 +1,20 @@
+ID: 180485
+CREATION_DATETIME: 1352910394
+MODIFICATION_DATETIME: 1352910394
+TITLE: ESA, Teil 1
+TOPIC_ZOOM_TAG: value:Primfaktoren;weight:1.0;significance:12.7085495152339;degreegeneralization:8;uri:19749455
+TOPIC_ZOOM_TAG: value:Primzahlen;weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:20841025
+TOPIC_ZOOM_TAG: value:Zahlentheorie;weight:1.0;significance:11.6099372265658;degreegeneralization:6;uri:20881383
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 0
+CONTENT:
+Da die Diskussion hier ja ausdrücklich erlaubt bzw. erwünscht ist, beginne ich mal mit dem Teil 1 der Einsendeaufgabe (beim zweiten Teil hänge ich - ehrlich gesagt - noch total in der Luft).
+Gesucht ist eine natürliche <REMOVED_PERSON_ENTITY> n, nämlich die Anzahl der jeweils in eine Pappschachtel zu füllenden Produkte. Die Pappschachteln sollen wiederum in Kisten verpackt werden und die Anzahl der Pappschachteln je Kiste soll möglichst klein gehalten werden (also soll n möglichst groß sein). Da die Anzahl der Pappschachteln ganzzahlig sein soll, muss n so gewählt werden, dass die Verpackungseinheiten (330, 600 und 1170) jeweils Vielfache von n sind. Oder anders herum gesagt: n ist  gemeinsamer Teiler der o. g. VPE.
+Gesucht ist letztlich also der größte gemeinsame Teile (ggT) der genannten Zahlen.
+Diesen findet man durch <REMOVED_PERSON_ENTITY> der VPE in Primfaktoren, Auswahl der gemeinsamen Primafaktoren und des jeweils kleinsten Exponenten.
+Die Rechnung und Lösung stelle ich nicht hier ein, das ginge wohl zu weit.
+TAGGED_CONTENT:

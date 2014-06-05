@@ -1,0 +1,16 @@
+ID: 2642
+CREATION_DATETIME: 1383001200000
+MODIFICATION_DATETIME: 1383001200000
+TITLE: Hi, have a look at your `@selector`.  And you should put a ':' at the end of your selector because it...
+PARENT_POSTING_ID: 2641
+POSTING_TYPE: answer
+CONTENT:
+Hi, have a look at your `@selector`.  And you should put a ':' at the end of your selector because it receives the sender of the event.
+```
+self. navigationItem. rightBarButtonItem = [[UIBarButtonItem alloc] 
+  initWithBarButtonSystemItem:UIBarButtonSystemItemAdd 
+                        target:self 
+                        action:@selector(openNewFeedView:)];
+```
+Also there were some wrong brackets.
+TAGGED_CONTENT:

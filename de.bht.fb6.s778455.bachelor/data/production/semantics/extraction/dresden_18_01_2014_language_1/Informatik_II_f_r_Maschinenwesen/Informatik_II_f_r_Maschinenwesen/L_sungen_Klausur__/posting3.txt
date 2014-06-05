@@ -1,0 +1,12 @@
+ID: 2163
+CREATION_DATETIME: 1372975200000
+MODIFICATION_DATETIME: 1373320800000
+TITLE: Irgendwann gibts dann auch noch eine Klausurensammlung. Ich vermute mal (bei uns war das jedenfalls s...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2094
+POSTING_TYPE: answer
+CONTENT:
+Irgendwann gibts dann auch noch eine Klausurensammlung. Ich vermute mal (bei uns war das jedenfalls so), dass <NAME_CORPUS_REPLACEMENT> ein paar <REMOVED_PERSON_ENTITY> aus den vergangenen Semestern drin sind.
+
+Wenn du <NAME_CORPUS_REPLACEMENT> Fragen hast oder nicht weißt, wie was funktioniert, kannst du ja einen der Tutoren fragen. Die wissen das dann. Quasi wandelnde Musterlösungen mit Zugangsbeschränkung.
+TAGGED_CONTENT:

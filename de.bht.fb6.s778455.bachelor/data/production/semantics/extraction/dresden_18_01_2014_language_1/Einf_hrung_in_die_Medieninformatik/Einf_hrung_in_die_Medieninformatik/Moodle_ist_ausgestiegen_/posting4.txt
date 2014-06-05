@@ -1,0 +1,12 @@
+ID: 641
+CREATION_DATETIME: 1351724400000
+MODIFICATION_DATETIME: 1351810800000
+TITLE: Das gleiche gilt natürlich auch für mich. Ihr könnt mir eure Erebnisse gern zusenden, solange moodle ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 633
+POSTING_TYPE: comment
+CONTENT:
+Das gleiche gilt natürlich auch für mich. Ihr könnt mir eure Erebnisse gern zusenden, solange moodle down ist. Das betrifft die Gruppen 2, 9 und 11, wobei Gruppe 11 ja auch noch bis morgen warten kann, ob moodle <NAME_CORPUS_REPLACEMENT> vielleicht wieder lauffähig ist. Und bitte immer nur einer der Gruppenmitglieder das Dokument an mich verpackt senden. Danke
+
+Schönen Abend noch an alle!
+TAGGED_CONTENT:

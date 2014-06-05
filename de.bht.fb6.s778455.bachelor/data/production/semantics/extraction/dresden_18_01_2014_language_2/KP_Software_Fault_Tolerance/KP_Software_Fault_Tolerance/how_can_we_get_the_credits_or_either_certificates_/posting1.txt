@@ -1,0 +1,16 @@
+ID: 1111
+CREATION_DATETIME: 1360537200000
+MODIFICATION_DATETIME: 1382914800000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+hey,
+
+    after committing task 7, no further information is updated. I mean, no list of passed students, no information about how we <NAME_CORPUS_REPLACEMENT> get the credits.
+
+    How <NAME_CORPUS_REPLACEMENT> we be sure that we have passed the lab?
+
+    How <NAME_CORPUS_REPLACEMENT> we get the credits? shall we go to some office to get the certificates?
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 1686
+CREATION_DATETIME: 1365458400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Der Zeitplan für die Vorlesungen und Übungen ist in einer ersten Version online. Bitte meldet euch zeitnah, falls es Fragen dazu gibt. Änderungen werden jeweils hier in Auditorium bekannt gegeben.
+
+http://www.inf.tu-dresden. de/index. php?node_id=2568&ln=de&lv_id=52
+TAGGED_CONTENT:

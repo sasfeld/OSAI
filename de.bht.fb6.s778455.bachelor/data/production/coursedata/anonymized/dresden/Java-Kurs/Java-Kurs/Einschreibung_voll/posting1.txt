@@ -1,0 +1,13 @@
+ID: 2610
+CREATION_DATETIME: 1382479200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> Studenten,
+Die Einschreibelisten waren in weniger als 24 Stunden voll. Wow… simply wow. Ich freue mich über euer reges Interesse an den Kursen und möchte euch aber um Folgendes bitten:
+Diejenigen, die sich in **beide** Kurse eingetragen haben, überlegen bitte, ob sie wirklich auch zwei Kurse komplett durchziehen möchten. Es wäre unglaublich kontraproduktiv, wenn ihr mitten drin einen der Kurse abbrechen würdet und damit jemandem, der jetzt auf der Warteliste steht, die Chance nehmt, an dem Kurs teilzunehmen.
+**Empfehlung:** Wenn ihr _unter dem dritten Semester_ seid und noch kein C beherrscht, möchte ich euch den C-Kurs ans Herz legen. Ansonsten den Java-Kurs. Wenn ihr _über oder im dritten Semester_ seid, aber schon Java könnt, dürft ihr natürlich den C-Kurs besuchen :)
+Ich (und eure Kommilitonen auf der Warteliste) danken euch für euer Entgegenkommen.
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 186407
+CREATION_DATETIME: 1355126363
+MODIFICATION_DATETIME: 1355126363
+TITLE: Lerngruppe Raum Hannover
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+hat vielleicht jemand Lust, sich an einer Lerngruppe im <REMOVED_PERSON_ENTITY> zu beteiligen? Insbesondere zur Klausurvorbereitung?
+Ich habe vor und nach Weihnachten noch ein paar <REMOVED_PERSON_ENTITY>. Da würde es gut passen. Oder ansonsten im Januar gelegentlich abends?
+Herzliche Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+ 
+ 
+TAGGED_CONTENT:

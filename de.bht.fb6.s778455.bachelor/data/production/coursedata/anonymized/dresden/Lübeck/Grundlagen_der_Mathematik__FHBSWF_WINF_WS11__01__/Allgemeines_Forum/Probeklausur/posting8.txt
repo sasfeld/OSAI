@@ -1,0 +1,8 @@
+ID: 117561
+CREATION_DATETIME: 1327348310
+MODIFICATION_DATETIME: 1327348733
+TITLE: Re: Probeklausur
+PARENT_POSTING_ID: 117558
+CONTENT:
+ Moin <REMOVED_PERSON_ENTITY>, wir sitzen hier gerade vor Raum 127, also mit UniVibes, und wollten fragenwarum Du die Formeln nach der Gauselimination auf =0 gesetzt hast?GrüßePatrick, <REMOVED_PERSON_ENTITY> und <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

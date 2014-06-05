@@ -1,0 +1,8 @@
+ID: 101859
+CREATION_DATETIME: 1292336005
+MODIFICATION_DATETIME: 1292336005
+TITLE: Probeklausur
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Studenten, Vodafone hat es immer noch nicht geschafft, mich mit DSL zu versorgen Unter Dateien habe ich eine &quot;alte&quot; Klausur zum Test eingestellt. <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 101866
+CREATION_DATETIME: 1287999654
+MODIFICATION_DATETIME: 1287999654
+TITLE: Re: Wahrheitstabellen zum Ausdrucken
+LANGUAGE: UNKNOWN
+POS_TAG: value:Warheitstafel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mathematerial;weight:0.0;uri:;postag:NN
+POS_TAG: value:he;weight:0.0;uri:;postag:NN
+POS_TAG: value:Liste;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 101865
+CONTENT:
+Coole Liste, danke für deine Mühe, im Mathematerial findest du auch nochmal eine Warheitstafel als übersicht welche auch sehr praktisch ist. 
+TAGGED_CONTENT:
+Coole_ADJA Liste_NN ,_$, danke_VVFIN für_APPR deine_PPOSAT Mühe_NN ,_$, im_APPRART Mathematerial_NN findest_VVFIN du_PPER auch_ADV nochmal_ADV eine_ART Warheitstafel_NN als_APPR übersicht_ADJD welche_PWAT auch_ADV sehr_ADV praktisch_ADJD ist_VAFIN ._$. 

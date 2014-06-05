@@ -1,0 +1,50 @@
+ID: 42
+CREATION_DATETIME: 1288558680000
+MODIFICATION_DATETIME: 1288558680000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 41
+CONTENT:
+ 
+Aus Deiner Schleife alleine kann ich Dir nicht die genaue Lösung Deines Problems nenen, da mir der restliche Programmcode fehlt. Aber soviel scheint mir sicher:
+
+In Deiner Array-List speicherst Du zusammengesetze Objekte (also ein Objekt besteht beispielsweise aus String name und String telefonnummer).
+Wenn Du nun Deine Arraylist mit Deiner Forschleife durchläufst und mit sysout System.out.println ausgibst, dann liefert Dir das die Speicheradresse zurück, an der Dein zusammengesetztes Objekt gespeichert ist.
+
+Wenn Du aber an die einzelnen Inhalte von Deinem zusammengesetzten Objekt ran möchtest, dann musst Du die Inhalte des zusammengesetzten Objektes direkt adressieren.
+
+Am Beispiel der aktuellen Einsendeaufgabe:
+
+In der Klasse Telefoneintrag hast Du stehen:
+
+public class TelefonEintrag
+{
+String name = "";
+String number = "";
+//und noch viel mehr Programmcode//
+}
+
+Wenn Du nun mit
+
+TelefonEintrag te = new TelefonEintrag();
+
+ein Objekt te vom Typ TelefonEintrag anlegst, dann hast Du darin Name und Nummer gespeichert. Du erreichst sie mit te.name und te.nummer.
+
+Nun packst Du das Objekt in eine ArrayList, damit Du halt viele dieser Objekte verwalten kannst:
+
+ArrayList<TelefonEintrag> al = new ArrayList<TelefonEintrag>();
+
+Damit hast Du nun eine Arraylist, in die Du beliebig viele Objekte vom Typ te verwalten kannst.
+
+Wenn Du dann die Inhalte eines der te-Objkte ausgeben möchtest, kannst Du das folgendernmassen erreichen:
+
+for(TelefonEintrag currentEntry : al)
+{
+System.out.println("Name: " + currentEntry.name + "\t" + " Nummer: " + currentEntry.number);
+}
+
+Ich hoffe, dass es Dir ein wenig weiterhilft, falls nicht, schreib mir einfach.
+
+Abendliche Grüße,
+	
+TAGGED_CONTENT:

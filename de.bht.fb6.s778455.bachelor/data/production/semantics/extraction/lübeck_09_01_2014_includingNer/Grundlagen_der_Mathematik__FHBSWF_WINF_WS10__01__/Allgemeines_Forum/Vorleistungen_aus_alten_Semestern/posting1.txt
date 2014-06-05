@@ -1,0 +1,29 @@
+ID: 97761
+CREATION_DATETIME: 1285339451
+MODIFICATION_DATETIME: 1285616524
+TITLE: Vorleistungen aus alten Semestern
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:3.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:3.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Semesterbeginn;weight:1.0;significance:4.23618317174463;degreegeneralization:5;uri:19940348
+TOPIC_ZOOM_TAG: value:Semester;weight:1.0;significance:3.22134235917017;degreegeneralization:4;uri:20914363
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:2.31865895880276;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Liebe;weight:1.0;significance:2.28163944654528;degreegeneralization:5;uri:21126234
+TOPIC_ZOOM_TAG: value:Studenten;weight:1.0;significance:2.22917538862813;degreegeneralization:5;uri:20994552
+TOPIC_ZOOM_TAG: value:Schüler, Studenten;weight:1.0;significance:2.14585369445854;degreegeneralization:4;uri:20920823
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:1.85709035932451;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:1.85157190455169;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Partnerschaft, Ehe, Liebe, Sex;weight:1.0;significance:1.59326106453574;degreegeneralization:4;uri:21126268
+TOPIC_ZOOM_TAG: value:Zwischenmenschliche Beziehungen;weight:1.0;significance:1.50634246816194;degreegeneralization:3;uri:20122843
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:0.962597203432263;degreegeneralization:2;uri:21306723
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:0.716279378747483;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Studierende,
+[DELETED]
+mich erreichen oft Anfragen, ob ich alte Vorleistungen im selben Fach anrechne. Leider kann dies im Rahmen der von mir betreuten Fächer nicht angeboten werden.
+- Die Module werden überarbeitet, Vorleistungen werden dadurch lückenhaft.
+- <REMOVED_PERSON_ENTITY> werden nicht zentral gespeichert. Es gibt keine Möglichkeit, <REMOVED_PERSON_ENTITY> und Bewertungskriterien zwischen Mentoren standardisiert auszutauschen.
+Bitte erneuern Sie daher Ihre Vorleistungen und informieren Sie bei Wiederholungen stets zu Semesteranfang Ihre Mentoren.
+[/DELETED]
+Gruss Prof. <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

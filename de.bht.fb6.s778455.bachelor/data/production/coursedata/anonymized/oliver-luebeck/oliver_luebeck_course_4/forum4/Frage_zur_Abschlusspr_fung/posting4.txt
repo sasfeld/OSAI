@@ -1,0 +1,15 @@
+ID: 76
+CREATION_DATETIME: 1182099660000
+MODIFICATION_DATETIME: 1182099660000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 75
+CONTENT:
+
+Hallo,
+findet die Klausur auf dem Papier oder offline am PC statt?
+
+mfg
+
+    
+TAGGED_CONTENT:

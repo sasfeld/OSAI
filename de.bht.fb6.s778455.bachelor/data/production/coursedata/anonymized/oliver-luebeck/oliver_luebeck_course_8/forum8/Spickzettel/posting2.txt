@@ -1,0 +1,13 @@
+ID: 74
+CREATION_DATETIME: 1201290900000
+MODIFICATION_DATETIME: 1201290900000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 73
+CONTENT:
+ 
+Also so wie ich das verstanden habe sind es 3 Blätter vorn und hinten beschrieben == 6 Seiten. Ich hoffe mich nicht getäuscht zu haben (Zettel schon fast fertig);
+
+grüsse, 
+  
+TAGGED_CONTENT:

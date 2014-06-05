@@ -1,0 +1,28 @@
+ID: 170189
+CREATION_DATETIME: 1350212186
+MODIFICATION_DATETIME: 1350212186
+TITLE: Re: Online Präsenz vom 10.10.
+TOPIC_ZOOM_TAG: value:Chat;weight:2.0;significance:4.65367606678589;degreegeneralization:7;uri:20901477
+TOPIC_ZOOM_TAG: value:Internet;weight:4.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:4.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:2.0;significance:3.25199587633262;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:4.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Lifestyle und Internet;weight:2.0;significance:2.53445361368796;degreegeneralization:6;uri:21999575
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:2.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Lifestyle, Mode, Schönheit;weight:2.0;significance:2.18595971379839;degreegeneralization:3;uri:21999456
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:4.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:2.0;significance:1.7207726480701;degreegeneralization:2;uri:21999745
+PARENT_POSTING_ID: 170025
+CONTENT:
+ 
+!!!Kann man das noch genauer erläutern? !!!Eigentlich müsste ja dann jeder Ausdruck transitiv sein weil entweder ist er es oder es ist kein Fall abzuprüfen, oder?
+ 
+Das ist so auf jeden Fall falsch, denn es gibt sehr wohl Relationen, die eindeutig nicht-transitiv sind. Sähe die <REMOVED_PERSON_ENTITY> z. B. so aus {(a, b), (b, c)} dann wäre sie eindeutig nicht transitiv, weil bei Tranistivität auch (a, c) enthalten sein müsste.
+ 
+Bleibt die Frage offen, wie man denn die Frage der Transitivität entscheidet, wenn keine solche Kette gegeben ist.
+Erstmal eine allgemeine Aussage zur Transitivität von mir:-&gt;Transitivität liegt dann vor, wenn man z. B. sagen kann, dass aus a c folgt wenn aus a b folgt und aus b c folgt.&lt;- "{(a, b), (b, c), (a, c)}"Stimmt das?
+Die Folgerung wird nur einmal benötigt. Wenn a R b und b R c, dann auch a R c.
+Das verstehe ich nicht so ganz. Bei deinem Beispiel {(a, b), (b, c)}, kann ich auch behaupten, dass Transitivität vorliegt, weil kein Fall abzuprüfen ist. So haben wir es, zumindest im Online-Chat, auch gesagt... oder?
+Was wir im Online-Chat dazu gesagt haben, habe ich wohl nicht so ganz verstanden, sorry. Fakt ist aber: Wenn wir drei unterschiedliche Elemente a, b und c haben und wir das Ergebnis haben {(a, b), (b, c)}, dann liegt offensichtlich keine Tranistivität vor. Läge sie vor, dann müsste das Ergebnis eben auch (a, c) enthalten.
+ 
+TAGGED_CONTENT:

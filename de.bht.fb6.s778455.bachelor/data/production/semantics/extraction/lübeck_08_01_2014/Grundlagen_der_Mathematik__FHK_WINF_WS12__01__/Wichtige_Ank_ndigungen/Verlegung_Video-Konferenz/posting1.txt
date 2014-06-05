@@ -1,0 +1,31 @@
+ID: 174733
+CREATION_DATETIME: 1351268563
+MODIFICATION_DATETIME: 1351268563
+TITLE: Verlegung Video-Konferenz
+TOPIC_ZOOM_TAG: value:Konferenzen, Kongresse und Symposien;weight:4.0;significance:6.25966012108707;degreegeneralization:3;uri:21956956
+TOPIC_ZOOM_TAG: value:Videos;weight:4.0;significance:5.92070453292435;degreegeneralization:5;uri:20925532
+TOPIC_ZOOM_TAG: value:Filme;weight:4.0;significance:5.07179740279815;degreegeneralization:4;uri:21995223
+TOPIC_ZOOM_TAG: value:Film & Kino;weight:4.0;significance:4.85261731551531;degreegeneralization:3;uri:21998164
+TOPIC_ZOOM_TAG: value:Kunstwerke;weight:4.0;significance:4.64234194722766;degreegeneralization:3;uri:21981623
+TOPIC_ZOOM_TAG: value:Kunst, Kultur, Musik;weight:4.0;significance:3.04770693667486;degreegeneralization:2;uri:21999796
+TOPIC_ZOOM_TAG: value:Verfügungen;weight:1.0;significance:1.81224100027244;degreegeneralization:3;uri:19992589
+TOPIC_ZOOM_TAG: value:Liebe;weight:1.0;significance:1.71122958490896;degreegeneralization:5;uri:21126234
+TOPIC_ZOOM_TAG: value:Studenten;weight:1.0;significance:1.6718815414711;degreegeneralization:5;uri:20994552
+TOPIC_ZOOM_TAG: value:Schüler, Studenten;weight:1.0;significance:1.60939027084391;degreegeneralization:4;uri:20920823
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:1.39281776949338;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:1.29518888187812;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Partnerschaft, Ehe, Liebe, Sex;weight:1.0;significance:1.19494579840181;degreegeneralization:4;uri:21126268
+TOPIC_ZOOM_TAG: value:Zwischenmenschliche Beziehungen;weight:1.0;significance:1.12975685112146;degreegeneralization:3;uri:20122843
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:1.09226215305699;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:0.721947902574197;degreegeneralization:2;uri:21306723
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:0.662774253600823;degreegeneralization:2;uri:21999830
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Studierenden,
+wie Sie vielleicht festgestellt haben, steht Ihnen die 2. Einsendeaufgabe bereits seit heute morgen zur Bearbeitung zur Verfügung. Aus organisatorischen Gründen wird der Abgabetermin auf den 1. November (14 Uhr)  vorgezogen. <REMOVED_PERSON_ENTITY> der Aufgabe erfolgt in einer Video-Konferenz am Donnerstag, 1. November um 19 <REMOVED_PERSON_ENTITY>, gemäß meinem Plan nach Ihrer Video-Konferenz in BWL.
+Die Video-Konferenz am Dienstag, 6. November entfällt.
+Eine zusätzliche Video-Konferenz findet deshalb in der folgenden Woche am Dienstag, 13. November statt. Auf diese <REMOVED_PERSON_ENTITY> können hoffentlich alle Fragen beantwortet werden.
+ 
+Viele Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

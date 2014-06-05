@@ -1,0 +1,14 @@
+ID: 1046
+CREATION_DATETIME: 1358204400000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+<REMOVED_PERSON_ENTITY>,
+
+I can't download any pdf from tis web-page http://wwwdb.inf.tu-dresden. de/lectures/ws-2012-2013/transactional-information-systems/ because it asks login and password when I try to do this. My student password and id do not work. <NAME_CORPUS_REPLACEMENT> you please fix that?
+
+Thanks in advance.
+TAGGED_CONTENT:

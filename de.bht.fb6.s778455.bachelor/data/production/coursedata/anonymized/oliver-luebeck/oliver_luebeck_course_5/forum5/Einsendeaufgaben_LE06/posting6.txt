@@ -1,0 +1,12 @@
+ID: 79
+CREATION_DATETIME: 1194684240000
+MODIFICATION_DATETIME: 1194684240000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 78
+CONTENT:
+
+Der Grund ist, dass Applet die Schnittstelle Serializable implementiert. Als Folge implementiert auch Histogramme Serializable. Die Schnittstelle Serializable erlaubt Objekte als Objekte in Dateien zu speichern. Es ist ratsam die Version der Klasse zu kennen, womit das Objekt erzeugt und gespeichert wurde. Das wird mit serialVersionUID gemacht. Wenn die Klasse sich verändert, kann es zu Problemen führen, wenn man ein Objekt aus der Datei lesen möchte, die eine veränderte Version der Klasse ist, womit das Objekt gespeichert wurde. Die Variable serialVersionUID hilft dies zu kontrollieren.
+Mit freundlichen Gruessen,
+	
+TAGGED_CONTENT:

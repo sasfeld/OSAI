@@ -1,0 +1,21 @@
+ID: 2024
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: Ich denke, das ergibt sich aus dem Inhalt. Zuerst das allgemeine "Was wollen wir erreichen" und dann ...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Schnittstellen;weight:1.0;significance:8.39106140169762;degreegeneralization:6;uri:20896088
+TOPIC_ZOOM_TAG: value:Kommunikationstechnik;weight:1.0;significance:5.71829301474005;degreegeneralization:5;uri:20897125
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Schluss;weight:0.0;uri:;postag:NN
+POS_TAG: value:Interface;weight:0.0;uri:;postag:NN
+POS_TAG: value:Inhalt;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+Ich denke, das ergibt sich aus dem Inhalt. Zuerst das allgemeine "Was wollen wir erreichen" und dann das Interface und zum Schluss "wie wollen wir das erreichen"
+TAGGED_CONTENT:
+Ich_PPER denke_VVFIN ,_$, das_ART ergibt_VVFIN sich_PRF aus_APPR dem_ART Inhalt_NN ._$. Zuerst_ADV das_ART allgemeine_ADJA "_$( Was_PWS wollen_VMFIN wir_PPER erreichen_VVINF "_$( und_KON dann_ADV das_ART Interface_NN und_KON zum_APPRART Schluss_NN "_$( wie_KOKOM wollen_VMFIN wir_PPER das_ART erreichen_VVINF "_$( 

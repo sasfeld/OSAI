@@ -1,0 +1,9 @@
+ID: 671
+CREATION_DATETIME: 1352156400000
+MODIFICATION_DATETIME: 1352156400000
+TITLE: Notice the close() function. Be aware that a FILE cannot be closed twice. I think the test3 calls at ...
+PARENT_POSTING_ID: 662
+POSTING_TYPE: comment
+CONTENT:
+Notice the close() function. Be aware that a FILE cannot be closed twice. I think the test3 calls at leat twice close() function, which causes the double free or corruption.
+TAGGED_CONTENT:

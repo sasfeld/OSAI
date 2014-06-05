@@ -1,0 +1,5 @@
+ID: 0
+TITLE: Grundlagen_der_Mathematik__FHBSWF_WINF_WS10__01__
+LANGUAGE: UNKNOWN
+INTRO: null
+TYPE: null

@@ -1,0 +1,35 @@
+ID: 97803
+CREATION_DATETIME: 1290420302
+MODIFICATION_DATETIME: 1290420302
+TITLE: Umkehrfunktionen bilden
+TOPIC_ZOOM_TAG: value:Algebra;weight:1.0;significance:12.7085495152339;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Beispiel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gegenteil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Operationen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Umkehrfunktion;weight:0.0;uri:;postag:NN
+POS_TAG: value:Potenzen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Funktionen;weight:0.0;uri:;postag:NN
+POS_TAG: value:LO;weight:0.0;uri:;postag:NN
+POS_TAG: value:Loesung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Reihenfolge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klammern;weight:0.0;uri:;postag:NN
+POS_TAG: value:B.;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Die Loesung ergibt sich aus LO 01 und LO 02. Wir wissen z. B., dass die Umkehrfunktion von + - ist und von / * usw.
+Beispiel:
+f(x) = x + 1
+f^-1(x) = x - 1
+Weiterhin werden Funktionen "von innen nach aussen" evaluiert, d. h. erst die inneren Klammern, dann z. B. Potenzen usw.
+Bei der Umkehrfunktion gehen Sie in umgekehrter Reihenfolge vor und kehren jede der algebraischen Operationen mit ihrem Gegenteil um.
+Beispiel:
+f(x) = 3(x+1)^2
+gaebe:
+f^-1(x) = 1 +- sqrt(x/3)
+TAGGED_CONTENT:
+Die_ART Loesung_NN ergibt_VVFIN sich_PRF aus_APPR LO_NN 01_CARD und_KON LO_NN 02_CARD ._$. Wir_PPER wissen_VVFIN z._APPRART B._NN ,_$, dass_KOUS die_ART Umkehrfunktion_NN von_APPR +_XY -_$( ist_VAFIN und_KON von_APPR \/_CARD \*_CARD usw_CARD ._$. Beispiel_NN :_$. f_VVFIN -LRB-_TRUNC x_XY -RRB-_TRUNC =_XY x_XY +_XY 1_CARD f_VVFIN ^_XY -1_CARD -LRB-_TRUNC x_XY -RRB-_TRUNC =_XY x_XY -_$( 1_CARD Weiterhin_ADV werden_VAFIN Funktionen_NN "_$( von_APPR innen_ADV nach_APPR aussen_ADJA "_$( evaluiert_VVPP ,_$, d._PDS h._VVFIN erst_ADV die_ART inneren_ADJA Klammern_NN ,_$, dann_ADV z._APPRART B._NN Potenzen_NN usw_NE ._$. Bei_APPR der_ART Umkehrfunktion_NN gehen_VVFIN Sie_PPER in_APPR umgekehrter_ADJA Reihenfolge_NN vor_PTKVZ und_KON kehren_VVFIN jede_PIDAT der_ART algebraischen_ADJA Operationen_NN mit_APPR ihrem_PPOSAT Gegenteil_NN um_PTKVZ ._$. Beispiel_NN :_$. f_VVFIN -LRB-_TRUNC x_XY -RRB-_TRUNC =_XY 3_CARD -LRB-_TRUNC x_XY +1_CARD -RRB-_TRUNC ^_XY 2_CARD gaebe_VVFIN :_$. f_VVFIN ^_XY -1_CARD -LRB-_TRUNC x_XY -RRB-_TRUNC =_XY 1_CARD +_XY -_$( sqrt_ADJD -LRB-_TRUNC x\/3_CARD -RRB-_TRUNC 

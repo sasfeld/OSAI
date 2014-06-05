@@ -1,0 +1,47 @@
+ID: 17
+CREATION_DATETIME: 1193593500000
+MODIFICATION_DATETIME: 1193593500000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+import java.awt.Color;
+import java.awt.Graphics;
+import java.io.IOException;
+import javax.swing.JFrame;
+
+
+
+public class HistoFarbig extends JFrame
+{
+public static void main(String[] args) throws IOException
+{
+new HistoFarbig();
+}
+
+public HistoFarbig()
+{
+JFrame jWindow=new JFrame();
+jWindow.setTitle("Farbiges Histogramm");
+jWindow.setSize(500, 500);
+jWindow.setBackground(Color.white);
+jWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+jWindow.setVisible(true);
+}
+
+public void paint(Graphics g)
+{
+super.paint(g);
+g.setColor(Color.black);
+g.drawLine(10,10,10,100);
+}
+}
+
+Lieber , liebe Studierende,
+
+Danke schön Herr Waidner, dass Sie diesen Typischen Fehler zeigen. Ihre Klasse ist eine Unterklasse von JFrame, HistoFarbig extends JFrame. Also paint überschreibt die paint Methode der oberen Klasse und wird mit this aufgerufen. Als Wiederspruch dazu erzeugen Sie im Konstrultor ein JFrame-Objekt. Die Methode paint wird NICHT mit dem Objekt jWindow aufgerufen.
+Sich gut merken: wenn eine Klasse als Unterklasse der Klasse JFrame deklariert wird, KEIN JFrame-Objekt im Konstruktor erzeugen (ausser es gibt einen SEHR guten Grund dafür). Siehe auch die Klasse VielEckAnwendung direkt in Moodle LE05, nicht im Lernmaterial.
+Mit freundlichen Grüßen
+     
+TAGGED_CONTENT:

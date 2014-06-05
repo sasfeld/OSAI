@@ -1,0 +1,9 @@
+ID: 1032
+CREATION_DATETIME: 1357858800000
+MODIFICATION_DATETIME: 1357858800000
+TITLE: There are multiple references on the footnote of the slides. The paper related to the slides you ment...
+PARENT_POSTING_ID: 1031
+POSTING_TYPE: answer
+CONTENT:
+There are multiple references on the footnote of the slides. The paper related to the slides you mentioned is "NonStop Advanced Architecture" - DSN '05.
+TAGGED_CONTENT:

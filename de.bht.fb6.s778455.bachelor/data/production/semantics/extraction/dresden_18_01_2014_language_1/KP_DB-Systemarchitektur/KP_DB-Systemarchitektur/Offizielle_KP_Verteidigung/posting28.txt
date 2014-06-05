@@ -1,0 +1,10 @@
+ID: 2342
+CREATION_DATETIME: 1374184800000
+MODIFICATION_DATETIME: 1374184800000
+TITLE: Einrückung und Bild kann ich nochmal überprüfen. für Feinheiten wie Seitennr., einheitliche Schriftgr...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Einrückung und Bild kann ich nochmal überprüfen. für Feinheiten wie Seitennr., einheitliche Schriftgröße, Ausrichtung etc hat sich glücklicherweise <REMOVED_PERSON_ENTITY> bereiterklärt. das passiert dann am WE
+TAGGED_CONTENT:

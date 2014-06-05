@@ -1,0 +1,27 @@
+ID: 161079
+CREATION_DATETIME: 1347908767
+MODIFICATION_DATETIME: 1347908767
+TITLE: Re: Lerngruppe gesucht
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Chat;weight:1.0;significance:9.30735213357177;degreegeneralization:7;uri:20901477
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:1.0;significance:6.50399175266524;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Lifestyle und Internet;weight:1.0;significance:5.06890722737591;degreegeneralization:6;uri:21999575
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Lifestyle, Mode, Schönheit;weight:1.0;significance:4.37191942759678;degreegeneralization:3;uri:21999456
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:3.4415452961402;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:Stunde;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wissens;weight:0.0;uri:;postag:NN
+POS_TAG: value:Konzentration;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 161035
+CONTENT:
+Meines Wissens nach dauert der Chat 1h.
+Danach hätten wir eine weitere Stunde. Für viel mehr <REMOVED_PERSON_ENTITY> wird die Konzentration wahrscheinlich nicht reichen, denke ich.
+M. f. G.
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Meines_PPOSAT Wissens_NN nach_APPO dauert_VVFIN der_ART Chat_NE 1h_CARD ._$. Danach_PROAV hätten_VAFIN wir_PPER eine_ART weitere_ADJA Stunde_NN ._$. Für_APPR viel_PIDAT mehr_ADV <_CARD REMOVED_PERSON_ENTITY_NN >_VVINF wird_VAFIN die_ART Konzentration_NN wahrscheinlich_ADJD nicht_PTKNEG reichen_VVINF ,_$, denke_VVFIN ich_PPER ._$. M._NE f._VVFIN G._NE <_NE REMOVED_PERSON_ENTITY_NE >_XY 

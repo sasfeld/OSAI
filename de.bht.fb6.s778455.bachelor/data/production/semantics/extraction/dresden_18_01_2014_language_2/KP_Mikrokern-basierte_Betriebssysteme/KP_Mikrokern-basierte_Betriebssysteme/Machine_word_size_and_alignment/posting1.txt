@@ -1,0 +1,14 @@
+ID: 884
+CREATION_DATETIME: 1354057200000
+MODIFICATION_DATETIME: 1372024800000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+1. What is the best way to figure out, how many bytes a machine word on my system (or *qemu*lated system) is?
+
+2. <NAME_CORPUS_REPLACEMENT> I safely assumme, that things in memory are always aligned at a multiple of this machine word size?
+
+3. What is the policy of aligning the objects in memory?
+TAGGED_CONTENT:

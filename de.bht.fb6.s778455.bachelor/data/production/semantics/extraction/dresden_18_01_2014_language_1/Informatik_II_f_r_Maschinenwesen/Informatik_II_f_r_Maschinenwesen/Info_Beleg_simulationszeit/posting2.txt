@@ -1,0 +1,18 @@
+ID: 2176
+CREATION_DATETIME: 1373234400000
+MODIFICATION_DATETIME: 1373234400000
+TITLE: Die Zeitpunkte sollten gleich sein, wenn der Produktionszyklus wie im Test standardmäßig eingestellt ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2168
+POSTING_TYPE: answer
+CONTENT:
+Die Zeitpunkte sollten gleich sein, wenn der Produktionszyklus wie im Test standardmäßig eingestellt auf 60 sec ist.
+
+Demzufolge ist jetzt. istNach(ende) == false und jetzt. istVor(ende) == false (siehe Javadoc)
+
+Was du machen kannst ist:
+
+if (! jetzt. istVor(ende))
+
+  return;
+TAGGED_CONTENT:

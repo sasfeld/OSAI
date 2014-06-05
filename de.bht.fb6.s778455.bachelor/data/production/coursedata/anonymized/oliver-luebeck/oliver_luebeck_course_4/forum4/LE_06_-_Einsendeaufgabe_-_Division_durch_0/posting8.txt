@@ -1,0 +1,16 @@
+ID: 38
+CREATION_DATETIME: 1177422480000
+MODIFICATION_DATETIME: 1177422480000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 37
+CONTENT:
+
+Hallo ,
+
+ich denke nicht. Der Quotient sollte positiv sein. Aber das ist doch nur der Rest von -13...
+
+Gruß
+
+    
+TAGGED_CONTENT:

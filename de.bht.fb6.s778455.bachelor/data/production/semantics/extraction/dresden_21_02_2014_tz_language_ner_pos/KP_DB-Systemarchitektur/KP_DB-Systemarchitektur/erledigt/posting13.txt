@@ -1,0 +1,38 @@
+ID: 2025
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: ich habe jetzt erstmal eine gemergte Version der bisher vorhandenen Folien eingecheckt. 
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:5.00870710783694;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+NER_TAG: value:Deutsch;weight:-1.0;uri:;classifierlabel:I-MISC
+NER_TAG: value:Englisch;weight:-1.0;uri:;classifierlabel:I-MISC
+NER_TAG: value:CLeverTrustee;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:Idee;weight:0.0;uri:;postag:NN
+POS_TAG: value:Arbeitspaketweise;weight:0.0;uri:;postag:NN
+POS_TAG: value:Motivation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Todo;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rechtschreibfehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:Deutsch;weight:0.0;uri:;postag:NN
+POS_TAG: value:CLeverTrustee;weight:0.0;uri:;postag:NN
+POS_TAG: value:Layout;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sprache;weight:0.0;uri:;postag:NN
+POS_TAG: value:Englisch;weight:0.0;uri:;postag:NN
+POS_TAG: value:Folien;weight:0.0;uri:;postag:NN
+POS_TAG: value:Reihenfolge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Version;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+ich habe jetzt erstmal eine gemergte Version der bisher vorhandenen Folien eingecheckt. 
+
+Ich habe ein paar <NAME_CORPUS_REPLACEMENT> <REMOVED_PERSON_ENTITY>' Folien für die Motivation genutzt.
+
+Wir sollten uns noch auf eine einhetliche Sprache einigen (bisher sind einige Folien auf Deutsch, manche auf Englisch). Den Ausblick/Todo habe ich noch offen gelassen, wollen wir das auch Arbeitspaketweise handhaben? ich denke das ist ganz sinnvoll. Es fehlen jetzt noch die Folien für den CLeverTrustee und für die Devices. Inhaltlich habe ich, außer offensichtliche Rechtschreibfehler, nichts geändert, nur alles ins Layout eingepasst. 
+
+Die Reihenfolge müssten wir dann noch richtig einbauen, wenn alle Folien vorbereitet sind. 
+
+Die Motivation können wir gern auch noch komplett ändern, war nur die Idee, das vielleicht so aufzusetzen.
+TAGGED_CONTENT:
+ich_PPER habe_VAFIN jetzt_ADV erstmal_ADV eine_ART gemergte_ADJA Version_NN der_ART bisher_ADV vorhandenen_ADJA Folien_NN eingecheckt_VVPP ._$. Ich_PPER habe_VAFIN ein_ART paar_PIDAT <_NN NAME_CORPUS_REPLACEMENT_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_NE '_$( Folien_NN für_APPR die_ART Motivation_NN genutzt_VVPP ._$. Wir_PPER sollten_VMFIN uns_PPER noch_ADV auf_APPR eine_ART einhetliche_ADJA Sprache_NN einigen_PIAT -LRB-_TRUNC bisher_ADV sind_VAFIN einige_PIAT Folien_NN auf_APPR Deutsch_NN ,_$, manche_PIAT auf_APPR Englisch_NN -RRB-_TRUNC ._$. Den_ART Ausblick\/Todo_NN habe_VAFIN ich_PPER noch_ADV offen_ADJD gelassen_VVPP ,_$, wollen_VMFIN wir_PPER das_PDS auch_ADV Arbeitspaketweise_NN handhaben_VVINF ?_$. ich_PPER denke_VVFIN das_PDS ist_VAFIN ganz_ADV sinnvoll_ADJD ._$. Es_PPER fehlen_VVFIN jetzt_ADV noch_ADV die_ART Folien_NN für_APPR den_ART CLeverTrustee_NN und_KON für_APPR die_ART Devices_NE ._$. Inhaltlich_ADJD habe_VAFIN ich_PPER ,_$, außer_APPR offensichtliche_ADJA Rechtschreibfehler_NN ,_$, nichts_PIS geändert_VVPP ,_$, nur_ADV alles_PIS ins_APPRART Layout_NN eingepasst_VVPP ._$. Die_ART Reihenfolge_NN müssten_VVFIN wir_PPER dann_ADV noch_ADV richtig_ADJD einbauen_VVINF ,_$, wenn_KOUS alle_PIDAT Folien_NN vorbereitet_VVPP sind_VAFIN ._$. Die_ART Motivation_NN können_VMFIN wir_PPER gern_ADV auch_ADV noch_ADV komplett_ADJD ändern_VVINF ,_$, war_VAFIN nur_ADV die_ART Idee_NN ,_$, das_ART vielleicht_ADV so_ADV aufzusetzen_VVIZU ._$. 

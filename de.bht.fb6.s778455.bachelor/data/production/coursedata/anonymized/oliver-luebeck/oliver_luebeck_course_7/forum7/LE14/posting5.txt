@@ -1,0 +1,17 @@
+ID: 78
+CREATION_DATETIME: 1306681680000
+MODIFICATION_DATETIME: 1306681680000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 77
+CONTENT:
+   
+Dank für Deine Antwort.
+
+Verstehe ich das richtig: die Klasse Reporter lege ich genauso an, wie in der Aufgabe beschrieben und füge nichts hinzu?
+
+Ich hatte übrigens auch ein Problem damit, überhaupt ein Shape-Objekt zu erzeugen, Hast du da in Shape etwas verändert?
+
+Liebe Grüße, 
+    
+TAGGED_CONTENT:

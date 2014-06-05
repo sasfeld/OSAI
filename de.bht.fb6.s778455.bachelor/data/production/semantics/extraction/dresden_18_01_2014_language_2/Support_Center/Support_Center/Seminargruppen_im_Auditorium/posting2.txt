@@ -1,0 +1,14 @@
+ID: 373
+CREATION_DATETIME: 1350424800000
+MODIFICATION_DATETIME: 1350511200000
+TITLE: Ich habe die Seminarg
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 372
+POSTING_TYPE: answer
+CONTENT:
+Ich habe die Seminargruppen eingerichtet: https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/chairs/2045572
+
+Die Chairs Übersichtsseite wird die Tage überarbeitet.
+
+Lectures können <NAME_CORPUS_REPLACEMENT> jedem angelegt werden: https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/lectures/new
+TAGGED_CONTENT:

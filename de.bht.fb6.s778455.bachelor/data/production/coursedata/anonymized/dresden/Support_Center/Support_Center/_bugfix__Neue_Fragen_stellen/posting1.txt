@@ -1,0 +1,10 @@
+ID: 90
+CREATION_DATETIME: 1347141600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Wir haben soeben den Bug behoben, dass zwischenzeitlich keine neuen Fragen gestellt werden konnten. Jetzt funktioniert wieder alles wie vorher. 
+Viel Spaß beim Fragen Stellen.
+TAGGED_CONTENT:

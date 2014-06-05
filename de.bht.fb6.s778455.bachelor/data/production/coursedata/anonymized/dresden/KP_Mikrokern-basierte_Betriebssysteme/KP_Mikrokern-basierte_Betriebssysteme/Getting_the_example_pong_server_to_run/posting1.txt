@@ -1,0 +1,10 @@
+ID: 1116
+CREATION_DATETIME: 1360882800000
+MODIFICATION_DATETIME: 1365285600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+I have difficulties to get the example pong server running. It boots [this far](http://pastebin.com/APZ2Nc6q) but does not enter graphical mode.  
+Here are my [pong. cfg](http://pastebin.com/t3Lf8TWN) and [modules. list entry](http://pastebin.com/Y87hLVnL). Another Problem ist to figure out who needs which capability (and which Capability names to use).
+TAGGED_CONTENT:

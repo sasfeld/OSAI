@@ -1,0 +1,9 @@
+ID: 253
+CREATION_DATETIME: 1349820000000
+MODIFICATION_DATETIME: 1349820000000
+TITLE: Der [Lernraum Mathema
+PARENT_POSTING_ID: 192
+POSTING_TYPE: comment
+CONTENT:
+Der [Lernraum Mathematik](http://tu-dresden. de/die_tu_dresden/fakultaeten/fakultaet_mathematik_und_naturwissenschaften/fachrichtung_mathematik/veranstaltungen/lernraum) öffnet erst in knapp 2 Wochen seine Türen, vorher gibt es ja auch noch nicht so viel zu besprechen.
+TAGGED_CONTENT:

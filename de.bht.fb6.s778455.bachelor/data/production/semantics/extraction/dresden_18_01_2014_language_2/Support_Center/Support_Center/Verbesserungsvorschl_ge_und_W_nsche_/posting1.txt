@@ -1,0 +1,12 @@
+ID: 369
+CREATION_DATETIME: 1350424800000
+MODIFICATION_DATETIME: 1385074800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wenn es zu auditorium Anregungen, <REMOVED_PERSON_ENTITY> oder Implementierungswünsche gibt, so können diese gern hier in dieser Frage **als Antwort eingetragen** und über die Kommentarfunktion jeweils diskutiert und über die Ratingfunktion bewertet werden. Die am höchsten bewerteten Anregungen werden dann umgesetzt oder mit höherer Priorität in Betracht gezogen. 
+
+**Gibt es Anregungen, Verbesserungsvorschläge oder Implementierungswünsche?**
+TAGGED_CONTENT:

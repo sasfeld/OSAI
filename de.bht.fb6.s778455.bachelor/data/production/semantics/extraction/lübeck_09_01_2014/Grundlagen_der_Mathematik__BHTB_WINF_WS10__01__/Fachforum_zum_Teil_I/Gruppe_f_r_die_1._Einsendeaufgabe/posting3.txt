@@ -1,0 +1,8 @@
+ID: 101864
+CREATION_DATETIME: 1288078885
+MODIFICATION_DATETIME: 1288078885
+TITLE: Re: Gruppe für die 1. Einsendeaufgabe
+PARENT_POSTING_ID: 101862
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>, ich täte mich gerne anschließen, falls noch ein Platz in der Gruppe frei ist. mfgRobert 
+TAGGED_CONTENT:

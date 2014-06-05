@@ -1,0 +1,15 @@
+ID: 166567
+CREATION_DATETIME: 1349282216
+MODIFICATION_DATETIME: 1349282216
+TITLE: Re: Heutiges Online-Meeting
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:Meeting;weight:0.0;uri:;postag:NN
+POS_TAG: value:Termin;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 166561
+CONTENT:
+Wäre auch nett, wenn <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY> uns dann einen neuen Termin für das 1. Online-Meeting schickt....
+TAGGED_CONTENT:
+Wäre_VAFIN auch_ADV nett_ADJD ,_$, wenn_KOUS <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN uns_PPER dann_ADV einen_ART neuen_ADJA Termin_NN für_APPR das_ART 1_CARD ._$. Online-Meeting_NN schickt_VVFIN ..._$( 

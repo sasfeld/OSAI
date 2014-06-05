@@ -1,0 +1,12 @@
+ID: 653
+CREATION_DATETIME: 1351897200000
+MODIFICATION_DATETIME: 1363734000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+In den Modulbeschreibungen der Basismodule zum Master-Studiengang Informatik steht:
+> Die Modulprüfung besteht aus einer mündlichen Prüfungsleistung (Einzelprüfung) im Umfang <NAME_CORPUS_REPLACEMENT> 30 Minuten.
+Der Prüfungsgegenstand beschränkt sich auf die vom Studierenden getroffene <REMOVED_PERSON_ENTITY> des Modulinhalts.
+Wie sieht diese Prüfung aus? Die Professoren der Lehrveranstaltungen sitzen gemeinsam zusammen und prüfen mich gleichzeitig? Und wie viel des Modulinhalts kann ich wählen bzw. ausschließen, über den ich mich prüfen lassen will?
+TAGGED_CONTENT:

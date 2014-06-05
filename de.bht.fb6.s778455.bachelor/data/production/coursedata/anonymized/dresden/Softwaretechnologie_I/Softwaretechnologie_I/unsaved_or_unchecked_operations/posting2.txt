@@ -1,0 +1,9 @@
+ID: 2113
+CREATION_DATETIME: 1372370400000
+MODIFICATION_DATETIME: 1372370400000
+TITLE: haste denn überall ordentlich generische typen verwendet und Queue auch generisch gemacht?
+PARENT_POSTING_ID: 2112
+POSTING_TYPE: answer
+CONTENT:
+haste denn überall ordentlich generische typen verwendet und Queue auch generisch gemacht?
+TAGGED_CONTENT:

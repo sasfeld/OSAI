@@ -1,0 +1,24 @@
+ID: 16667
+CREATION_DATETIME: 1224704051
+MODIFICATION_DATETIME: 1224704051
+TITLE: Re: Frage zur Aufgabe
+TOPIC_ZOOM_TAG: value:Quadratische Gleichungen;weight:1.0;significance:12.7085495152339;degreegeneralization:8;uri:20115482
+TOPIC_ZOOM_TAG: value:Gleichungen;weight:1.0;significance:10.3106542424356;degreegeneralization:7;uri:20115499
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:berlegung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Formel;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ergebnis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Diskriminante;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gleichung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Konstante;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 16663
+CONTENT:
+Wenn du folgende Aufgabe meinst:Bestimmen Sie die Konstante c so, dass die Gleichung 2x^2 + 3x = cgenau eine (doppelte) Lösung besitzt. Ich habe die Aufgabe folgendermaßen gelöst:Ausgangsüberlegung:Eine quadratische Gleichung hat genau eine (doppelte) Lösung, wenn die Diskriminante = 0 ist. Um die Diskriminante zu ermitteln muss die Gleichung zunächst so umgeformt werden, dass sie der pq-Formel entspricht. 2x^2 + 3x =c &lt;=&gt; x^2 + 3/2x - c/2 = 0Die Diskriminante entspricht (p/2)^2 - q . Also: (3/4)^2 - (-c/2) = 0 =&gt; 9/16 + c/2 = 0Nun musst du die Gleichung noch nach c auflösen. c = -9/8Somit muss c = -9/8 sein, damit die Gleichung nur eine Lösung besitzt. Sollte ich mich irren und nur zufällig auf das richtige Ergebnis gekommen sein, korregiert mich bitte! 
+TAGGED_CONTENT:
+Wenn_KOUS du_PPER folgende_ADJA Aufgabe_NN meinst_VVFIN :_$. Bestimmen_VVIMP Sie_PPER die_ART Konstante_NN c_VVFIN so_ADV ,_$, dass_KOUS die_ART Gleichung_NN 2x_CARD ^_XY 2_CARD +_XY 3x_XY =_XY cgenau_XY eine_ART -LRB-_TRUNC doppelte_ADJA -RRB-_TRUNC Lösung_NN besitzt_VVFIN ._$. Ich_PPER habe_VAFIN die_ART Aufgabe_NN folgendermaßen_ADV gelöst_VVPP :_$. Ausgangsüberlegung_NN :_$. Eine_ART quadratische_ADJA Gleichung_NN hat_VAFIN genau_ADJD eine_ART -LRB-_TRUNC doppelte_ADJA -RRB-_TRUNC Lösung_NN ,_$, wenn_KOUS die_ART Diskriminante_NN =_XY 0_CARD ist_VAFIN ._$. Um_KOUI die_ART Diskriminante_NN zu_PTKZU ermitteln_VVINF muss_VAFIN die_ART Gleichung_NN zunächst_ADV so_ADV umgeformt_VVPP werden_VAINF ,_$, dass_KOUS sie_PPER der_ART pq-Formel_NN entspricht_VVFIN ._$. 2x_XY ^_XY 2_CARD +_XY 3x_XY =_XY c_XY <_XY =_XY >_CARD x_XY ^_CARD 2_CARD +_XY 3\/2x_CARD -_$( c\/2_XY =_XY 0Die_XY Diskriminante_NN entspricht_VVFIN -LRB-_TRUNC p\/2_XY -RRB-_TRUNC ^_XY 2_CARD -_$( q_VVFIN ._$. Also_ADV :_$. -LRB-_TRUNC 3\/4_CARD -RRB-_TRUNC ^_XY 2_CARD -_$( -LRB-_TRUNC -_$( c\/2_XY -RRB-_TRUNC =_XY 0_CARD =_XY >_CARD 9\/16_CARD +_XY c\/2_XY =_XY 0Nun_XY musst_VMFIN du_PPER die_ART Gleichung_NN noch_ADV nach_APPR c_FM auflösen_VVINF ._$. c_XY =_XY -9_CARD \/_CARD 8Somit_XY muss_PPER c_XY =_XY -9_CARD \/_CARD 8_CARD sein_VAINF ,_$, damit_KOUS die_ART Gleichung_NN nur_ADV eine_ART Lösung_NN besitzt_VVFIN ._$. Sollte_VMFIN ich_PPER mich_PRF irren_VVFIN und_KON nur_ADV zufällig_ADJD auf_APPR das_ART richtige_ADJA Ergebnis_NN gekommen_VVPP sein_VAINF ,_$, korregiert_VVFIN mich_PPER bitte_PTKANT !_$. 

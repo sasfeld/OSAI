@@ -1,0 +1,8 @@
+ID: 172257
+CREATION_DATETIME: 1350590828
+MODIFICATION_DATETIME: 1350590828
+TITLE: Re: Gruppen für die Einsendeaufgaben
+PARENT_POSTING_ID: 172243
+CONTENT:
+Die Aufgabe kommt erst noch und es sollen 3-4 Leute sein.
+TAGGED_CONTENT:

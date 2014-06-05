@@ -1,0 +1,10 @@
+ID: 1099
+CREATION_DATETIME: 1359932400000
+MODIFICATION_DATETIME: 1359932400000
+TITLE: Thanks for the info. I'll check that next time. 
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1085
+POSTING_TYPE: answer
+CONTENT:
+Thanks for the info. I'll check that next time. 
+TAGGED_CONTENT:

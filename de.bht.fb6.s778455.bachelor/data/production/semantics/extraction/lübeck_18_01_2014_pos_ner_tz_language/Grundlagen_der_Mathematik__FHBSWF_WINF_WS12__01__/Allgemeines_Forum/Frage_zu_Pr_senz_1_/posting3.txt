@@ -1,0 +1,15 @@
+ID: 167891
+CREATION_DATETIME: 1349629453
+MODIFICATION_DATETIME: 1349629711
+TITLE: Re: Frage zu Präsenz 1 
+LANGUAGE: GERMAN
+POS_TAG: value:Aussagen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 167859
+CONTENT:
+Hi <REMOVED_PERSON_ENTITY>,
+ich glaube, dass wir daraus...
+Es gibt keine natürliche <REMOVED_PERSON_ENTITY>, die kleiner, gleich (&lt;=) 7 ist.
+... gemacht haben. Ich meine behalten zu haben, dass wir stumpf die Aussagen "umdrehen" sollen.
+GrüßeLars
+TAGGED_CONTENT:
+Hi_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, ich_PPER glaube_VVFIN ,_$, dass_KOUS wir_PPER daraus_PROAV ..._$( Es_PPER gibt_VVFIN keine_PIAT natürliche_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_NE ,_$, die_ART kleiner_ADJA ,_$, gleich_ADV -LRB-_TRUNC <_XY =-RRB-_XY 7_CARD ist_VAFIN ._$. ..._$( gemacht_VVPP haben_VAFIN ._$. Ich_PPER meine_VVFIN behalten_VVINF zu_PTKZU haben_VAINF ,_$, dass_KOUS wir_PPER stumpf_VVFIN die_ART Aussagen_NN "_$( umdrehen_VVINF "_$( sollen_VMFIN ._$. GrüßeLars_NE 

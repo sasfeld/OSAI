@@ -1,0 +1,13 @@
+ID: 65
+CREATION_DATETIME: 1197911100000
+MODIFICATION_DATETIME: 1197911100000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 64
+CONTENT:
+
+ es geht immer noch nicht. gleiches problem wie vorher: was ich manuell als string eintrage wird angezeigt, ebenso die ausgabe zu konsole. was ich per for-schleife aus der cBar eintrage wird nicht angezeigt. der fehler wird wohl an einer ganz anderen stelle des programms liegen. hab nur leider keine ahnung wo....
+
+ich hab xxx meine sachen geschickt, vielleicht findet sie den fehler. trotzdem danke für die hilfe! :)
+    
+TAGGED_CONTENT:

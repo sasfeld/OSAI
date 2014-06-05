@@ -1,0 +1,15 @@
+ID: 85
+CREATION_DATETIME: 1196176440000
+MODIFICATION_DATETIME: 1196176440000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 84
+CONTENT:
+ 
+Hallo, habe dasselbe Problem, es funktioniert alles soweit, ich muss das nur noch mit der Scrollbarpositionierung hinbekommen!
+
+Wieso kann ich denn dem Scrollbarobjekt nicht einfach einen festen "Platz" definieren oder geben??
+
+Wie kann ich die Scrollbars an den Ort platzieren, den ich definiere?
+	
+TAGGED_CONTENT:

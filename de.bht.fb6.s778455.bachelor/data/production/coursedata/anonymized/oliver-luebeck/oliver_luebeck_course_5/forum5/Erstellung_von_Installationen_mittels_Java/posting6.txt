@@ -1,0 +1,15 @@
+ID: 6
+CREATION_DATETIME: 1190908980000
+MODIFICATION_DATETIME: 1190908980000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 5
+CONTENT:
+
+Gute Frage ! Ich muss zugeben, dass ich die Antwort auf Anhieb nicht kenne (gibt es eine einfache Loesung mit Eclipse oder NetBeans? Zu beachten ist, dass ein JRE soll eventuell installiert werden. Sonst sind .jar Dateien eine gute Idee). Lassen Sie mich etwas Zeit, um dies zu recherchieren.
+
+In der Tat ist das JRE ist fuer nicht kommerzieller Zwecke frei downloadbar und benutzbar, also hier kein Problem.
+
+Mit freundlichen Gruessen,
+    
+TAGGED_CONTENT:

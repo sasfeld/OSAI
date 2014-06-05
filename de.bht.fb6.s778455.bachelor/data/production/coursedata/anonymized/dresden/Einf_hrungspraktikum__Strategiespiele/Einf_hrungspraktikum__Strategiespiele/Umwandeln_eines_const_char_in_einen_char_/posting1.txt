@@ -1,0 +1,10 @@
+ID: 1590
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1365458400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich scheitere momentan daran eine Möglichkeit zu finden, wie ich einen const char in einen char umwandle. Ich möchte nämlich wieder in den buffer schreiben, aber <NAME_CORPUS_REPLACEMENT> ich mit strings arbeite bekomme ich aus der convertierungsfunktion nur einen const char*.
+ich benutze die memberfunktion c_str() aus der std::string-klasse. vielleicht gibt es <LEARNED_PERSON_NAME_REPLACEMENT> auch eine Variante direkt aus einem string ein char zu machen?
+TAGGED_CONTENT:

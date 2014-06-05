@@ -1,0 +1,16 @@
+ID: 2471
+CREATION_DATETIME: 1374703200000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: Erst einmal wäre festzlegen, dass von den Farben im 8-Bit-Farbraum keine den Wert FF haben darf, denn...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2469
+POSTING_TYPE: answer
+CONTENT:
+Erst einmal wäre festzlegen, dass <NAME_CORPUS_REPLACEMENT> den Farben im 8-Bit-Farbraum keine den Wert FF haben darf, denn sonst klappt das nicht. <NAME_CORPUS_REPLACEMENT> den also eigentlich 256 möglichen Farben kann man nur 255 nutzen.
+
+Nun ist es so, dass häufig <REMOVED_PERSON_ENTITY> den Wert x00 und Weiß den Wert xFF erhält, wodurch das mit der Lauflängenkodierung nicht funktionieren würde. Genau aus dem Grund ist in der Aufabenstellung gegeben, dass Weiß hier mit x00 kodiert wird. (Im Endeffekt ist ja egal, wie die Farben im Farbraum verteilt sind; hauptsache Speichernder und Lesender sind sich einig)
+
+Es ergibt sich floor((640*480)/259)*3 + Rest. - Bleibt die Frage, ob der Rest komprimierbar ist. <NAME_CORPUS_REPLACEMENT> es 26 Byte sind, ist eine <REMOVED_PERSON_ENTITY> auf 3 Byte sinnvoll, wodurch sich ein Endergebnis <NAME_CORPUS_REPLACEMENT> 3561 Byte ergibt.
+
+Zu beachten wäre noch, dass das die reine Bildinhaltsinformation ist. Das Bild selbst muss noch durch Header (Format des Bildes, MIME-Type, Farbraum, etc.) und Prüfsummen ergänzt werden, weshalb die richtige Antwort auf die Frage wohl wäre: (3561 + X) Byte, X > 0.
+TAGGED_CONTENT:

@@ -1,0 +1,51 @@
+ID: 174733
+CREATION_DATETIME: 1351268563
+MODIFICATION_DATETIME: 1351268563
+TITLE: Verlegung Video-Konferenz
+TOPIC_ZOOM_TAG: value:Konferenzen, Kongresse und Symposien;weight:4.0;significance:6.25966012108707;degreegeneralization:3;uri:21956956
+TOPIC_ZOOM_TAG: value:Videos;weight:4.0;significance:5.92070453292435;degreegeneralization:5;uri:20925532
+TOPIC_ZOOM_TAG: value:Filme;weight:4.0;significance:5.07179740279815;degreegeneralization:4;uri:21995223
+TOPIC_ZOOM_TAG: value:Film & Kino;weight:4.0;significance:4.85261731551531;degreegeneralization:3;uri:21998164
+TOPIC_ZOOM_TAG: value:Kunstwerke;weight:4.0;significance:4.64234194722766;degreegeneralization:3;uri:21981623
+TOPIC_ZOOM_TAG: value:Kunst, Kultur, Musik;weight:4.0;significance:3.04770693667486;degreegeneralization:2;uri:21999796
+TOPIC_ZOOM_TAG: value:Verfügungen;weight:1.0;significance:1.81224100027244;degreegeneralization:3;uri:19992589
+TOPIC_ZOOM_TAG: value:Liebe;weight:1.0;significance:1.71122958490896;degreegeneralization:5;uri:21126234
+TOPIC_ZOOM_TAG: value:Studenten;weight:1.0;significance:1.6718815414711;degreegeneralization:5;uri:20994552
+TOPIC_ZOOM_TAG: value:Schüler, Studenten;weight:1.0;significance:1.60939027084391;degreegeneralization:4;uri:20920823
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:1.39281776949338;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:1.29518888187812;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Partnerschaft, Ehe, Liebe, Sex;weight:1.0;significance:1.19494579840181;degreegeneralization:4;uri:21126268
+TOPIC_ZOOM_TAG: value:Zwischenmenschliche Beziehungen;weight:1.0;significance:1.12975685112146;degreegeneralization:3;uri:20122843
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:1.09226215305699;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:0.721947902574197;degreegeneralization:2;uri:21306723
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:0.662774253600823;degreegeneralization:2;uri:21999830
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:gung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dienstag;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fragen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bearbeitung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Studierenden;weight:0.0;uri:;postag:NN
+POS_TAG: value:Woche;weight:0.0;uri:;postag:NN
+POS_TAG: value:Uhr;weight:0.0;uri:;postag:NN
+POS_TAG: value:Donnerstag;weight:0.0;uri:;postag:NN
+POS_TAG: value:Liebe;weight:0.0;uri:;postag:NN
+POS_TAG: value:nden;weight:0.0;uri:;postag:NN
+POS_TAG: value:November;weight:0.0;uri:;postag:NN
+POS_TAG: value:Konferenz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abgabetermin;weight:0.0;uri:;postag:NN
+POS_TAG: value:REMOVEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einsendeaufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Plan;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Studierenden,
+wie Sie vielleicht festgestellt haben, steht Ihnen die 2. Einsendeaufgabe bereits seit heute morgen zur Bearbeitung zur Verfügung. Aus organisatorischen Gründen wird der Abgabetermin auf den 1. November (14 Uhr)  vorgezogen. <REMOVED_PERSON_ENTITY> der Aufgabe erfolgt in einer Video-Konferenz am Donnerstag, 1. November um 19 <REMOVED_PERSON_ENTITY>, gemäß meinem Plan nach Ihrer Video-Konferenz in BWL.
+Die Video-Konferenz am Dienstag, 6. November entfällt.
+Eine zusätzliche Video-Konferenz findet deshalb in der folgenden Woche am Dienstag, 13. November statt. Auf diese <REMOVED_PERSON_ENTITY> können hoffentlich alle Fragen beantwortet werden.
+ 
+Viele Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Liebe_NN Studierenden_NN ,_$, wie_PWAV Sie_PPER vielleicht_ADV festgestellt_VVPP haben_VAFIN ,_$, steht_VVFIN Ihnen_PPER die_ART 2_CARD ._$. Einsendeaufgabe_NN bereits_ADV seit_APPR heute_ADV morgen_ADV zur_APPRART Bearbeitung_NN zur_APPRART Verfügung_NN ._$. Aus_APPR organisatorischen_ADJA Gründen_NN wird_VAFIN der_ART Abgabetermin_NN auf_APPR den_ART 1_CARD ._$. November_NN -LRB-_TRUNC 14_CARD Uhr_NN -RRB-_TRUNC vorgezogen_VVPP ._$. <_XY REMOVED_PERSON_ENTITY_NN >_VVFIN der_ART Aufgabe_NN erfolgt_VVFIN in_APPR einer_ART Video-Konferenz_NN am_APPRART Donnerstag_NN ,_$, 1_CARD ._$. November_NN um_APPR 19_CARD <_XY REMOVED_PERSON_ENTITY_NE >_NE ,_$, gemäß_APPR meinem_PPOSAT Plan_NN nach_APPR Ihrer_PPOSAT Video-Konferenz_NN in_APPR BWL_NE ._$. Die_ART Video-Konferenz_NN am_APPRART Dienstag_NN ,_$, 6_CARD ._$. November_NN entfällt_VVFIN ._$. Eine_ART zusätzliche_ADJA Video-Konferenz_NN findet_VVFIN deshalb_PROAV in_APPR der_ART folgenden_ADJA Woche_NN am_APPRART Dienstag_NN ,_$, 13_CARD ._$. November_NN statt_PTKVZ ._$. Auf_APPR diese_PDAT <_NN REMOVED_PERSON_ENTITY_NE >_VVINF können_VMFIN hoffentlich_ADV alle_PIDAT Fragen_NN beantwortet_VVPP werden_VAINF ._$. Viele_PIDAT Grüße_NN <_CARD PERSONAL_GREETING_REMOVEMENT_NN >_XY 

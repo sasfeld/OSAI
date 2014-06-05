@@ -1,0 +1,14 @@
+ID: 97805
+CREATION_DATETIME: 1292760174
+MODIFICATION_DATETIME: 1292760174
+TITLE: Parallelogrammfläche
+LANGUAGE: GERMAN
+POS_TAG: value:Jemand;weight:0.0;uri:;postag:NN
+POS_TAG: value:senz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:nge;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo, kann mir mal bitte Jemand auf die Sprünge helfen, wo hier der Fehler sein soll? Ist doch genau das, was wir bei der letzten Präsenz durchgenommen haben. 
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, kann_VMFIN mir_PPER mal_ADV bitte_ADV Jemand_NN auf_APPR die_ART Sprünge_NN helfen_VVINF ,_$, wo_PWAV hier_ADV der_ART Fehler_NN sein_VAINF soll_VMFIN ?_$. Ist_VAFIN doch_ADV genau_ADJD das_PDS ,_$, was_PRELS wir_PPER bei_APPR der_ART letzten_ADJA Präsenz_NN durchgenommen_VVPP haben_VAFIN ._$. 

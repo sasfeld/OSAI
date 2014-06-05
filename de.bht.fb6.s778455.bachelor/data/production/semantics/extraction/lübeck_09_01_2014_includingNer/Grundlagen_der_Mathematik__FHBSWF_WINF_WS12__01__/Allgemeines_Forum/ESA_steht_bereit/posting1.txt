@@ -1,0 +1,51 @@
+ID: 179713
+CREATION_DATETIME: 1352708882
+MODIFICATION_DATETIME: 1352708882
+TITLE: ESA steht bereit
+TOPIC_ZOOM_TAG: value:Vektorräume;weight:1.0;significance:6.35427475761695;degreegeneralization:8;uri:20146881
+TOPIC_ZOOM_TAG: value:Lineare Algebra;weight:1.0;significance:6.35427475761695;degreegeneralization:7;uri:20881366
+TOPIC_ZOOM_TAG: value:Algebraische Begriffe;weight:1.0;significance:6.35427475761695;degreegeneralization:7;uri:20767840
+TOPIC_ZOOM_TAG: value:Algebra;weight:1.0;significance:6.35427475761695;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Nachbarn;weight:1.0;significance:4.19553070084881;degreegeneralization:4;uri:20804645
+TOPIC_ZOOM_TAG: value:Seitenbeschreibungssprachen;weight:1.0;significance:3.90163736839775;degreegeneralization:8;uri:19947182
+TOPIC_ZOOM_TAG: value:Drucksysteme;weight:1.0;significance:3.90163736839775;degreegeneralization:7;uri:20900661
+TOPIC_ZOOM_TAG: value:PDF;weight:1.0;significance:3.90163736839775;degreegeneralization:9;uri:20900627
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:3.89064791503836;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Drucktechnik;weight:1.0;significance:3.85230160464423;degreegeneralization:5;uri:20900695
+TOPIC_ZOOM_TAG: value:Beschreibungssprachen;weight:1.0;significance:3.80130202066668;degreegeneralization:7;uri:20900644
+TOPIC_ZOOM_TAG: value:Formale Sprachen;weight:1.0;significance:3.51589785648282;degreegeneralization:6;uri:21978155
+TOPIC_ZOOM_TAG: value:Computersprachen;weight:1.0;significance:3.51418845310843;degreegeneralization:6;uri:19949137
+TOPIC_ZOOM_TAG: value:Liebe;weight:1.0;significance:3.42245916981792;degreegeneralization:5;uri:21126234
+TOPIC_ZOOM_TAG: value:Jahr 2012;weight:1.0;significance:2.96261215731499;degreegeneralization:11;uri:20891175
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:2.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+TOPIC_ZOOM_TAG: value:Software;weight:1.0;significance:2.60511682223347;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:2.51211272377639;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:2.50435355391847;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:2.50390086036106;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Wohnen, Haus und Garten;weight:1.0;significance:2.49537665211017;degreegeneralization:3;uri:21125894
+TOPIC_ZOOM_TAG: value:Partnerschaft, Ehe, Liebe, Sex;weight:1.0;significance:2.38989159680361;degreegeneralization:4;uri:21126268
+TOPIC_ZOOM_TAG: value:Zwischenmenschliche Beziehungen;weight:1.0;significance:2.25951370224292;degreegeneralization:3;uri:20122843
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:2.23699226098339;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:2.15506992990383;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:2.00351838218053;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Presse, Druck und Verlagswesen;weight:1.0;significance:1.94986601606664;degreegeneralization:4;uri:21990174
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.83083484620539;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:1.75110858232764;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:1.16884339240287;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+NER_TAG: value:ESA;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Kursteilnehmer,
+die Einsendeaufgabe für diesen Kurs steht nun bereit. Die Aufgabe ist zweiteilig; der erste Teil behandelt <REMOVED_PERSON_ENTITY> des Grundlagenkapitels, der zweite Teil beschäftigt sich mit Vektorräumen.
+Von der Komplexität her könnten dies auch Klausuraufgaben sein. Dabei sollten Sie aber berücksichtigen, dass das Thema "Vektoren" momentan noch neu für Sie ist. Sie werden daher für die ESA insbesondere im Teil 2 mehr Zeit benötigen, als wenn Sie später besser ins Thema eingetaucht sein werden.
+Die Aufgabenlösungen sind in Einzelarbeit anzufertigen (Abschreiben fällt auf...), allerdings dürfen und sollen Sie natürlich gerne untereinander über Ihre Vorgehensweisen bzw. Lösungsansätze diskutieren. Denken Sie aber im Hinblick auf die Selbsteinschätzung Ihrer Leistung daran, dass Sie später in der Klausur gerade nicht mit Ihrem Nachbarn "diskutieren" dürfen.
+Abgabetermin: Sonntag, 9. Dezember 2012, 23:55
+Ihr Lösung laden Sie bitte als PDF im Kurs hoch. Eine verspätete Abgabe ist leider nicht möglich.
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

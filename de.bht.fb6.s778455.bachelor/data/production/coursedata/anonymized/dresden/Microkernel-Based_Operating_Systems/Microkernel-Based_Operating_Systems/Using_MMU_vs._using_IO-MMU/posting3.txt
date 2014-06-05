@@ -1,0 +1,9 @@
+ID: 1637
+CREATION_DATETIME: 1364252400000
+MODIFICATION_DATETIME: 1364252400000
+TITLE: So if I want to access device memory, I just read/ write to the mapped areas in the RAM? Wouldn't tha...
+PARENT_POSTING_ID: 1636
+POSTING_TYPE: comment
+CONTENT:
+So if I want to access device memory, I <NAME_CORPUS_REPLACEMENT> read/ write to the mapped areas in the RAM? Wouldn't that be far slower then writing to the device directly? Who initiates the transfer of my data between the RAM and the device then? *confused*
+TAGGED_CONTENT:

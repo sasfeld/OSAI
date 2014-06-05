@@ -1,0 +1,10 @@
+ID: 172537
+CREATION_DATETIME: 1350655827
+MODIFICATION_DATETIME: 1350655827
+TITLE: Re: Gruppen für die Einsendeaufgaben
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 172361
+CONTENT:
+ich bin auch dabei in nasser und rageb's gruppe
+TAGGED_CONTENT:
+ich_PPER bin_VAFIN auch_ADV dabei_PROAV in_APPR nasser_ADJA und_KON rageb_VVFIN 's_PPER gruppe_XY 

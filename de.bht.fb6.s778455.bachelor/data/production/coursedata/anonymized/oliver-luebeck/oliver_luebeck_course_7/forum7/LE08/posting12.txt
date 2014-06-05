@@ -1,0 +1,20 @@
+ID: 15
+CREATION_DATETIME: 1304106300000
+MODIFICATION_DATETIME: 1304106300000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 14
+CONTENT:
+  
+Hallo ,
+
+danke für die Antwort!
+So kann ich mir vorstellen, dass es funktioniert.... Der zweite Konstruktor überbügelt ja sozusagen die Werte des ersten und stellt das ganze Paket zur Verfügung. Genauso, als wenn man nur einen hat.
+
+Wir lesen uns diese Woche bestimmt nochmal zu LE09.
+
+Beste Grüße, 
+
+PS: Bis nächste Woche zur Pre-Präsenz.
+   
+TAGGED_CONTENT:

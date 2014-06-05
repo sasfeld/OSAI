@@ -1,0 +1,25 @@
+ID: 92
+CREATION_DATETIME: 1296127320000
+MODIFICATION_DATETIME: 1296127320000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 91
+CONTENT:
+ 
+Liebe , liebe Studierende,
+
+Die Klasse VerketteListe<E> hat 2 Attribute von Typ Knoten namens end und anf. Diese Zwei Elemente enthalten keine konkrete Daten. Sie sind nur "dummy"-Konten, die das Navigieren in der verketteten Liste helfen. Ein Knoten-Objekt hat wiederum 2 Attribute namens next und e, siehe Klasse Knoten. Das Attribut e enthaelt das Element, das in der verketteten Liste gespeichert ist, next enthaelt die Referenz zum naechsten Knoten-Objekt, siehe auch LE13 Seite 16.
+
+Zweck der Methode sucheVor ist den Knoten in der verketteten Liste zu finden, der vor dem Knoten liegt, dessen Attribut e den Parameter e enthaelt. Nehmen wir das erste Bild der Seite 16. Falls der Parameter der Methode sucheVor das Element O2 ist, gibt die Methode sucheVor das Knoten-Objekt mit dem Element O1 zurueck.
+
+Die Methode sucheVor nimmt als Hilfe die 2 dummy-Knoten anf und end. Das dummy Objekt end ist nicht dafuer da, um ein Element zu speichern, sondern um das Ende der Liste zu zeigen.
+Die Anweisung:
+end.e = e;
+weist das Element e, das gesucht wird, in das e Attribut des Knoten-Objektes end zu. Dies macht die Schleife leichter zu schreiben. Falls der Parameter e im Knoten-Objekt end gefunden wird, weiss man dass e nicht in der Liste gespeichert ist.
+vor.next.e ist so zu verstehen: vor ist ein Knoten-Objekt; next ist ein Attribut vom Objekt vor und enthaelt die Referenz des naechsten Knoten-Objekt in der Liste. e ist das Attribut also das Element dieses naechsten Knoten-Objekt. Als Beispiel nehmen wir noch die erste Abbildung der Seite 16: wenn vor das Knoten-Objekt mit dem Element O1 ist, dann ist vor.next.e das Element O2.
+
+Macht es Sinn?
+
+Mit freundlichen Gruessen
+	
+TAGGED_CONTENT:

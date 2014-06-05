@@ -1,0 +1,15 @@
+ID: 178349
+CREATION_DATETIME: 1352230649
+MODIFICATION_DATETIME: 1352230649
+TITLE: Aussagenlogische Formel auflösen
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+<REMOVED_PERSON_ENTITY> mir jemand von euch eventuell mal kurz erklären wie ich folgende Aussagenlogische Formel vereinfachen kann, so dass man erkennt, dass die Formel eine nicht erfüllbare Lösung beinhaltet?
+NICHT((A-&gt;B) UND A-&gt;B) UND C
+Irgendwie stehe ich auf den <REMOVED_PERSON_ENTITY> und weiß nicht genau wie ich hier heran gehen soll. Klar man kann die Negationen und die Implikationen auflösen aber wie geht es denn weiter.
+Eventuell kann mir jemand von euch die Aufgabe einmal vorrechen.
+Schon einmal besten Dank!
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

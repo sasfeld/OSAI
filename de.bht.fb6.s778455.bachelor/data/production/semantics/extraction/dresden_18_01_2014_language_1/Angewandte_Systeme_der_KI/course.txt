@@ -1,0 +1,9 @@
+ID: 110804130
+CREATION_DATETIME: 1353970800000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Angewandte Systeme der KI
+LANGUAGE: GERMAN
+SUMMARY: null
+URL: http://www.inf.tu-dresden.de/content/institutes/ki/awv/systeme.de.html

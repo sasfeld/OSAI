@@ -1,0 +1,10 @@
+ID: 1423
+CREATION_DATETIME: 1362783600000
+MODIFICATION_DATETIME: 1362783600000
+TITLE: It was not clear to me that the MDB is restricted to *user* memory. It is now.
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1420
+POSTING_TYPE: comment
+CONTENT:
+It was not clear to me that the MDB is restricted to *user* memory. It is now.
+TAGGED_CONTENT:

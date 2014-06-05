@@ -1,0 +1,14 @@
+ID: 2500
+CREATION_DATETIME: 1375826400000
+MODIFICATION_DATETIME: 1380578400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Bei Aufgabe 5 der Übung 5 und 6 kann ich nicht nachvollziehen, warum A u B u E Teil der Hülle(FD, D) sind (Schritt Linksreduktion).
+
+E hängt transitiv <NAME_CORPUS_REPLACEMENT> D ab, aber A und B?
+
+Kann mir das bitte jmd erklären?
+TAGGED_CONTENT:

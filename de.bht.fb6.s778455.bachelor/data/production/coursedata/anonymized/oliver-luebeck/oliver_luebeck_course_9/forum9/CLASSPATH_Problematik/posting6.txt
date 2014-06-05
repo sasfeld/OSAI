@@ -1,0 +1,14 @@
+ID: 32
+CREATION_DATETIME: 1177520640000
+MODIFICATION_DATETIME: 1177520640000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 31
+CONTENT:
+  
+Guter hinweis. Aber da der Classpath von links nach rechts ausgewertet wird muss man auf die Reigenfolge achten.
+>>set CLASSPATH=.;E:\Studium\M2_Programmierung\<<
+. Ist ja das aktuelle Verzeichnes (das was ich Compilern bzw. Ausführen möchte) und das ist ja Abhängig von den Library’s (Klassensammlungen) die ihr benutzen wollt (:\Studium\M2_Programmierung\).
+Deshalb müsste man  >>set CLASSPATH=E:\Studium\M2_Programmierung\;.<<  schreiben. Das gilt auch für –cp –classpath bei java und javac.
+     
+TAGGED_CONTENT:

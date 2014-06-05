@@ -1,0 +1,14 @@
+ID: 23
+CREATION_DATETIME: 1193916420000
+MODIFICATION_DATETIME: 1193916420000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 22
+CONTENT:
+  
+Liebe , liebe Studierende,
+
+beides ist richtig oder, besser gesagt, beides ist möglich. Hauptsache, Sie zeichnen, was Sie möchten. Sie wählen Startwinkel und positive oder negative Drehrichtung damit Sie Ihr Ziel erreichen.
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

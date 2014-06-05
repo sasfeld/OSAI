@@ -1,0 +1,14 @@
+ID: 17
+CREATION_DATETIME: 1181502720000
+MODIFICATION_DATETIME: 1181502720000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+ist hier:
+http://breeze.tfh-berlin.de/p85415630/
+zu finden.
+Mit freundlichen Grüßen,
+    
+TAGGED_CONTENT:

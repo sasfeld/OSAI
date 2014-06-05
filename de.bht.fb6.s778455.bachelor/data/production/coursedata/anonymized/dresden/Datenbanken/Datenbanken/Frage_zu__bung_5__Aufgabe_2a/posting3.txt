@@ -1,0 +1,9 @@
+ID: 2501
+CREATION_DATETIME: 1375826400000
+MODIFICATION_DATETIME: 1375826400000
+TITLE: Tipp zur Formatierung: Du kannst es besser Formatieren, wenn du 4 Leerzeichen vor jede Zeile stellst,...
+PARENT_POSTING_ID: 2499
+POSTING_TYPE: comment
+CONTENT:
+Tipp zur Formatierung: Du kannst es besser Formatieren, wenn du 4 Leerzeichen vor jede Zeile stellst, dann erhälst du einen Code-Block in dem jedes Zeichen die gleiche Breite hat.
+TAGGED_CONTENT:

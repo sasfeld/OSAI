@@ -1,0 +1,43 @@
+ID: 94
+CREATION_DATETIME: 1296150660000
+MODIFICATION_DATETIME: 1296150660000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 93
+CONTENT:
+ 
+Ich bin mir nicht sicher, ob ich es verstanden habe!
+
+Noch mal eine Frage:
+Ich verstehe leider immer noch nicht die Anweisung end.e = e;? e ist dann am Ende der Liste und wird nicht gespeichert, d.h. e ist nicht in der Liste?
+Woher weiß ich dann, dass e nicht irgendwo anders ist? Oder mache ich einen Denkfehler?
+
+Hier mal meine Versuche, Die Methode contains() und remove() zu programmieren:
+
+//Liefert true, wenn e in dieser Sammlung vorkommt
+public boolean contains(E e){
+Knoten vor = sucheVor(e);
+if(vor.next == end)
+return false;
+return true;
+
+}//Ende contains
+
+
+//Falls e in einem oder mehreren Knoten dieser Sammlung vorkommt,
+//wird einer dieser Knoten gelöscht und true geliefert. Sonst false!
+public boolean remove(E e){
+
+Knoten hier = anf.next;
+Knoten vor = sucheVor(hier.e);
+
+while(e.equals(vor.next.e))
+vor.next = hier.next;
+return true;
+
+}//Ende remove
+
+
+Freue mich über Rückmeldung! Finde das sehr verwirrend alles! :-)
+	
+TAGGED_CONTENT:

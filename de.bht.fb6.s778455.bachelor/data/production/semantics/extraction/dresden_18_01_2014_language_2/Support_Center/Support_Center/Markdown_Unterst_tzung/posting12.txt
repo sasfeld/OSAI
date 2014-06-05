@@ -1,0 +1,22 @@
+ID: 55
+CREATION_DATETIME: 1342476000000
+MODIFICATION_DATETIME: 1342476000000
+TITLE: ```
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 47
+POSTING_TYPE: comment
+CONTENT:
+```
+
+class HTMLwithAlbino < Redcarpet::Render::HTML
+
+  def block_code(code, language)
+
+    <REMOVED_PERSON_ENTITY>. safe_colorize(code, language)
+
+  end
+
+end
+
+```
+TAGGED_CONTENT:

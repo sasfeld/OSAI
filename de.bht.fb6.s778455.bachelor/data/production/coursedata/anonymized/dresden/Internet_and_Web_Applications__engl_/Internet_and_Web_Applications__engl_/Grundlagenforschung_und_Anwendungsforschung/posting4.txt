@@ -1,0 +1,10 @@
+ID: 1728
+CREATION_DATETIME: 1365976800000
+MODIFICATION_DATETIME: 1365976800000
+TITLE: Verpflichtet mich die Wahl einer Lehrveranstaltung im Grundlagenforschung-/Anwendungsforschungs-Modus...
+PARENT_POSTING_ID: 1727
+POSTING_TYPE: comment
+CONTENT:
+Verpflichtet mich die <REMOVED_PERSON_ENTITY> einer Lehrveranstaltung im Grundlagenforschung-/Anwendungsforschungs-Modus zu etwas im entsprechenden Forschungsprojekt-Modul? D. h. kann ich nicht, wenn ich nun Internet and Web Applications bspw. als Anwendungsforschung wähle, im Forschungsprojekt nicht auch etwas an anderen Lehrstühlen, etwa Datenbanken, wählen (natürlich setzt das Forschungsprojekt gewisse Kenntnisse voraus, die ich ja aber auch bereits unabhängig vom <REMOVED_PERSON_ENTITY>-/Anwendungsforschungs-Modul besitzen kann)? 
+<NAME_CORPUS_REPLACEMENT> mir aber diese Vorlesung am meisten zusagt, würde ich auch, sofern ich an Ihrem Lehrstuhl das Forschungsprojekt mache, ein entsprechendes Thema bearbeiten wollen. Darum würde ich gern den umgekehrten Weg wählen: abhängig <NAME_CORPUS_REPLACEMENT> der besuchten Vorlesung ein entsprechendes Thema wählen, statt die Vorlesung abhängig vom späteren Thema. Stellt das ein Problem dar?
+TAGGED_CONTENT:

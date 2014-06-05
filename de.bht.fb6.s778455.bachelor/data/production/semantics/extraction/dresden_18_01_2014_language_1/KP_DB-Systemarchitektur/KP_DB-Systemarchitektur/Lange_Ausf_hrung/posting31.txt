@@ -1,0 +1,10 @@
+ID: 2320
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Ich hab jetzt mehrfach drübergeschaut, aber Ich sehe keine Stelle, die in ungültige Speicherbereiche ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2189
+POSTING_TYPE: comment
+CONTENT:
+Ich hab jetzt mehrfach drübergeschaut, aber Ich sehe keine Stelle, die in ungültige Speicherbereiche schreibt. Es wird aus dem globalen Array gelesen und an die gleiche Stelle geschreiben, sowie Operationen, wie  Bitshifts, <REMOVED_PERSON_ENTITY>, etc genutzt. Also nichts was meiner Meinung nach kritisch sein sollte.
+TAGGED_CONTENT:

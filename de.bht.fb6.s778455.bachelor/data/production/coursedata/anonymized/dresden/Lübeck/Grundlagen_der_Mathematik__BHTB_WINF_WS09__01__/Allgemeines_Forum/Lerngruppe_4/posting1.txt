@@ -1,0 +1,8 @@
+ID: 68274
+CREATION_DATETIME: 1256678039
+MODIFICATION_DATETIME: 1256678039
+TITLE: Lerngruppe 4
+PARENT_POSTING_ID: 0
+CONTENT:
+<REMOVED_PERSON_ENTITY> Villarinokönnen ja max. vier sein, kann sich also gerne noch jemand anschließen 
+TAGGED_CONTENT:

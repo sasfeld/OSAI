@@ -1,0 +1,9 @@
+ID: 3042
+CREATION_DATETIME: 1385593200000
+MODIFICATION_DATETIME: 1385593200000
+TITLE: Danke für den Hinweis. Da, wir aber heute morgen Gruppentreffen hatten, ist das Problem erstmal zweit...
+PARENT_POSTING_ID: 3036
+POSTING_TYPE: comment
+CONTENT:
+Danke für den Hinweis. <NAME_CORPUS_REPLACEMENT>, wir aber heute morgen Gruppentreffen hatten, ist das Problem erstmal zweitraning ;-)
+TAGGED_CONTENT:

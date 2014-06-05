@@ -1,0 +1,15 @@
+ID: 74
+CREATION_DATETIME: 1194196740000
+MODIFICATION_DATETIME: 1194196740000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 73
+CONTENT:
+ 
+Hallo ,
+
+deine Vermutung ist richtig. Hatte das gleiche Problem und hab´s dann als Graphic2D (genauer Arc2D.Float) mit Floatwerten programmiert. Das hat geklappt.
+
+Grüße,
+	
+TAGGED_CONTENT:

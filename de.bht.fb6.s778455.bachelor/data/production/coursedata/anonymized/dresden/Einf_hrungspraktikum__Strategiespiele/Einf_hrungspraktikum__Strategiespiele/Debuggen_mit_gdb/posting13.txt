@@ -1,0 +1,13 @@
+ID: 1538
+CREATION_DATETIME: 1363734000000
+MODIFICATION_DATETIME: 1363734000000
+TITLE: Hast du, nachdem du -d zu CXXFLAGS_common hinzugefügt hast, noch einmal "make" eingetippt?
+PARENT_POSTING_ID: 1535
+POSTING_TYPE: comment
+CONTENT:
+Hast du, nachdem du -d zu CXXFLAGS_common hinzugefügt hast, noch einmal "make" eingetippt? Ich bekomme nämlich eine Warnung:
+```
+cc1plus: warning: command <NAME_CORPUS_REPLACEMENT> option '-foutput-class-dir=...' is valid for Java but not for C++ [enabled by default]
+```
+-d ist eigentlich für [Debug-Dumps](http://gcc.gnu.org/onlinedocs/gcc/Debugging-Options. html) gedacht, erwartet aber noch einen Buchstaben:
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 68269
+CREATION_DATETIME: 1255789604
+MODIFICATION_DATETIME: 1255789755
+TITLE: Lerngruppe I
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=25621#68269
+POS_TAG: value:Mark;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+<REMOVED_PERSON_ENTITY>
+Mark Erik Jones
+Andreas Ladendorf
+TAGGED_CONTENT:
+<_XY REMOVED_PERSON_ENTITY_NE >_CARD Mark_NN Erik_NE Jones_NE Andreas_NE Ladendorf_NE 

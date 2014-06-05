@@ -1,0 +1,10 @@
+ID: 2183
+CREATION_DATETIME: 1373320800000
+MODIFICATION_DATETIME: 1373320800000
+TITLE: Alle Klassen, die nicht vorgegeben sind, werden erzeugt/übersetzt. Vorgegeben sind die, die in der Au...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2181
+POSTING_TYPE: comment
+CONTENT:
+Alle Klassen, die nicht vorgegeben sind, werden erzeugt/übersetzt. Vorgegeben sind die, die in der Aufgabe zu sehen sind und im JavaDoc dokumentiert.
+TAGGED_CONTENT:

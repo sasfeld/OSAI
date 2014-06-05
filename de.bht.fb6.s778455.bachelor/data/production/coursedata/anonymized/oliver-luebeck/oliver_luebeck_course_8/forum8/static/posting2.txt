@@ -1,0 +1,18 @@
+ID: 51
+CREATION_DATETIME: 1198758120000
+MODIFICATION_DATETIME: 1198758120000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 50
+CONTENT:
+
+Hallo,
+
+eine Methode oder ein Attribut sollte man mit static deklarieren, wenn man darauf zugreifen möchte, ohne eine Instanz der Klasse zu erzeugen.
+static-Methode wird auch Klassenmethode genannt. Sie existiert ohne von einem bestimmten Objekt abhängig zu sein.
+
+Wann sollte man sie einsetzen?
+Bei Objekten können sich ja während eines Programmablaufes Änderungen vornehmen. Wenn es eine Methode oder Variable sein soll, dessen Lebensdauer im gesamten Programmablauf in der Klasse nicht geändert werden soll, kann man static benutzen.
+MfG
+   
+TAGGED_CONTENT:

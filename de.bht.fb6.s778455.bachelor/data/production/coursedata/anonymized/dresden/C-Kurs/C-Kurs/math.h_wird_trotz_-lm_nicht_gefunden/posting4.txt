@@ -1,0 +1,9 @@
+ID: 3026
+CREATION_DATETIME: 1385420400000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: Kannst du im Zweifelsfall mal deinen Quelltext und kompletten Compileraufruf posten? (Quelltext bitte...
+PARENT_POSTING_ID: 3020
+POSTING_TYPE: comment
+CONTENT:
+Kannst du im Zweifelsfall mal deinen Quelltext und kompletten Compileraufruf posten? (Quelltext bitte formatieren, siehe [hier](http://warpedvisions.org/projects/markdown-cheat-sheet) oder, wenn länger bitte per [paste tool](http://pastebin.com))
+TAGGED_CONTENT:

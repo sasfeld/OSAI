@@ -1,0 +1,12 @@
+ID: 744
+CREATION_DATETIME: 1352674800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Das Prüfungsamt der Informatik hat eine [hilfreiche Zusammenfassung](http://www.inf.tu-dresden. de/index. php?node_id=887&ln=de) erstellt, in der man alle relevanten und bindenden Fakten zu Prüfungsmodalitäten finden kann, ohne seine Prüfungsordnung erst durchforsten zu müssen.
+
+**Sollte jeder Student gelesen haben!**
+TAGGED_CONTENT:

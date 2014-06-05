@@ -1,0 +1,12 @@
+ID: 1027
+CREATION_DATETIME: 1357772400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> Kommilitonen und Kommilitoninnen,
+am <REMOVED_PERSON_ENTITY>, dem 24. 01. 2013, findet um 18:30 wieder unser allseits bekannter Spielabend statt. Dazu werden in der Informatik Fakultät wieder möglichst alle Seminarräume reserviert (E001-E010... nähere Angaben/Updates folgen noch)
+Es sind alle spielwillige Studenten willkommen :)
+Wir bieten viele lustige <REMOVED_PERSON_ENTITY>- und Kartenspiele sowie auch die Möglichkeit sich an digitaler Unterhaltung a la Videospiele zu erfreuen. 
+TAGGED_CONTENT:

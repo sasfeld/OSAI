@@ -1,0 +1,12 @@
+ID: 1484
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: ah gut, ja denn hab ich schon gefunden kann damit nur noch nich ganz viel anfangen
+LANGUAGE: GERMAN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1483
+POSTING_TYPE: comment
+CONTENT:
+ah gut, <LEARNED_PERSON_NAME_REPLACEMENT> denn hab ich schon gefunden kann damit nur noch nich ganz viel anfangen
+TAGGED_CONTENT:
+ah_XY gut_ADJD ,_$, <_ADJD LEARNED_PERSON_NAME_REPLACEMENT_NN >_VVFIN denn_ADV hab_VAFIN ich_PPER schon_ADV gefunden_VVPP kann_VMFIN damit_PROAV nur_ADV noch_ADV nich_PTKNEG ganz_ADV viel_PIDAT anfangen_VVINF 

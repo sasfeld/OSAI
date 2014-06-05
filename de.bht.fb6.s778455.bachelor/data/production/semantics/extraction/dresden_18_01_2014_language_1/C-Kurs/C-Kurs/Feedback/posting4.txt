@@ -1,0 +1,10 @@
+ID: 2915
+CREATION_DATETIME: 1384815600000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: Wenn man Musterlösungen bereit stellt, neigen Studenten leider dazu, sie einfach abzuschreiben, ohne ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2914
+POSTING_TYPE: comment
+CONTENT:
+Wenn man Musterlösungen bereit stellt, neigen Studenten leider dazu, sie einfach abzuschreiben, ohne einen Erkenntnisgewinn zu haben. Ich ermutige dich aber gerne dazu, deine <REMOVED_PERSON_ENTITY> hier zur Diskussion zu stellen, dann haben alle die Gelegenheit, ihren Kommentar dazu zu geben oder Gegenvorschläge zu posten.
+TAGGED_CONTENT:

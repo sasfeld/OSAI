@@ -1,0 +1,13 @@
+ID: 30
+CREATION_DATETIME: 1176805620000
+MODIFICATION_DATETIME: 1176805620000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 29
+CONTENT:
+
+    Ja diese Liste kommt mir bekannt vor;) Du nutzt also J2SE 5.0 in der 32-bit Version. Das scheint mir auch am logischsten.
+
+Frag mich dann irgendwie nur, wozu es die Java SE 6 gibt, wenn die Applets nicht mal im Safari laufen.. Für Applikationen vielleicht?
+    
+TAGGED_CONTENT:

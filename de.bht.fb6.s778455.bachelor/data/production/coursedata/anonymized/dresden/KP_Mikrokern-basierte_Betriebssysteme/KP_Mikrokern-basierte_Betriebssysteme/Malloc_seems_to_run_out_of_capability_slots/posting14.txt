@@ -1,0 +1,11 @@
+ID: 1321
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: I think the theoretical limit for capability allocation is somewhere around 4 million -- what are you...
+PARENT_POSTING_ID: 1143
+POSTING_TYPE: comment
+CONTENT:
+I think the theoretical limit for capability allocation is somewhere around 4 million -- what are you doing??? ;)
+To figure things out: Go to the kernel debugger. Press 'Q' (capital q!) to get to the list of kernel objects. Navigate to your application's task object and press 'o' to view the task's capability space. You <NAME_CORPUS_REPLACEMENT> scroll up and down -- user caps start at 0x400 iirc.
+Also, if you don't release any objects in between, the cap allocator will give you sequential capability numbers, so you <NAME_CORPUS_REPLACEMENT> also <NAME_CORPUS_REPLACEMENT> look at the value returned from cap_alloc(). (There is a . raw() function in L4::Cap which gives you a raw cap_idx_t, which is nothing more than an integer. Remember that cap values need to be shiftes by L4_CAP_SHIFT (12 bits) to the right.)
+TAGGED_CONTENT:

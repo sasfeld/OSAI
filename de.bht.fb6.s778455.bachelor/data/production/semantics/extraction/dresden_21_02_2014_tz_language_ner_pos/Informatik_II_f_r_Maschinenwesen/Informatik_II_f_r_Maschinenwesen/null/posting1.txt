@@ -1,0 +1,13 @@
+ID: 1759
+CREATION_DATETIME: 1366840800000
+MODIFICATION_DATETIME: 1366840800000
+TITLE: zu Absatz 1: ja, geht auch, ist aber nicht gefordert. Macht natürlich mehr Spaß wenn das Smiley nicht...
+LANGUAGE: GERMAN
+POS_TAG: value:Macht;weight:0.0;uri:;postag:NN
+POS_TAG: value:Absatz;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1756
+POSTING_TYPE: comment
+CONTENT:
+zu Absatz 1: ja, geht auch, ist aber nicht gefordert. Macht natürlich mehr Spaß wenn das Smiley nicht nur in neidgelb sondern auch wutrot oder "mir is schlecht"-grün erstellt werden kann.
+TAGGED_CONTENT:
+zu_APPR Absatz_NN 1_CARD :_$. ja_ADV ,_$, geht_VVFIN auch_ADV ,_$, ist_VAFIN aber_ADV nicht_PTKNEG gefordert_VVPP ._$. Macht_NN natürlich_ADV mehr_ADV Spaß_NN wenn_KOUS das_ART Smiley_NE nicht_PTKNEG nur_ADV in_APPR neidgelb_ADJD sondern_KON auch_ADV wutrot_VVFIN oder_KON "_$( mir_PPER is_VAFIN schlecht_ADJD "_$( -_$( grün_ADJD erstellt_VVPP werden_VAINF kann_VMFIN ._$. 

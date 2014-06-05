@@ -1,0 +1,38 @@
+ID: 75
+CREATION_DATETIME: 1194620640000
+MODIFICATION_DATETIME: 1194620640000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 73
+CONTENT:
+ 
+Habe ein Problem. Die Balken in diesem Applet sind komplett durcheinander und ich verstehe nicht weshalb. Habe jede Überlegung dokummentiert und die Ergebnisse sogar auf einem Blatt mit Koordinatensystem graphisch überprüft.
+
+package einsendeaufgabeLE6;
+
+import java.awt.Color;
+import java.awt.Graphics;
+import java.applet.Applet;
+
+
+public class Histogramm extends Applet {
+
+public void paint (Graphics g) {
+
+int[] zahlenwerte = {5, 2, 7, 8, 9, 8, 3};
+int i;
+for(i = 0; i <= zahlenwerte.length; i++) {
+int höhe = zahlenwerte[i] * 100 / 2; //Bsp: i = 5 --> höhe = 250
+int breite = 50; //Breite bleibt konstant
+int x = 2 * i * 50; //x-Koordinate = breite des vorherigen Balkens + 50 pixel
+// Zwischenabstand der Balken.
+int y = höhe; //y-Koordinate passt sich der Höhe an damit Balken auf einer Ebene
+//starten
+g.setColor(Color.blue); //Farbe der Balken
+g.fillRect(x, y, breite, höhe); //Erzeugen der Balken
+
+}
+}
+}
+ 	
+TAGGED_CONTENT:

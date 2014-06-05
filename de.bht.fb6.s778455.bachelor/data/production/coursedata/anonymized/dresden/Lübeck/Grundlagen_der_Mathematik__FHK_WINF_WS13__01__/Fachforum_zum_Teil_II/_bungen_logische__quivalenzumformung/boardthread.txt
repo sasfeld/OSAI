@@ -1,0 +1,4 @@
+ID: 95785
+MODIFICATION_DATETIME: 1383744172
+TITLE: Übungen logische Äquivalenzumformung
+FIRST_POSTING_ID: 253451

@@ -1,0 +1,10 @@
+ID: 117506
+CREATION_DATETIME: 1329296426
+MODIFICATION_DATETIME: 1329296426
+TITLE: Klausureinsicht
+PARENT_POSTING_ID: 0
+CONTENT:
+Sehr geehrte Damen und <REMOVED_PERSON_ENTITY>,
+der Termin zur Klausureinsicht steht auf http://www.ostfalia.de/cms/de/pws/jensenn/index. html
+Mit freundlichem Gruss <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

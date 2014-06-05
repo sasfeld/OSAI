@@ -1,0 +1,10 @@
+ID: 913
+CREATION_DATETIME: 1354143600000
+MODIFICATION_DATETIME: 1355180400000
+TITLE: We do not want to dictate which type of hash tables should be used. Some types of hash tables are mor...
+PARENT_POSTING_ID: 891
+POSTING_TYPE: answer
+CONTENT:
+We do not want to dictate which type of hash tables should be used. Some types of hash tables are more suited than others and it is somewhat part of the task to find a good one. 
+An important data constraint is that the columns used as join attributes contain duplicates. Hence, some sort of duplicate handling is required. Furthermore, the largest value a column could be assumed to be known in advance. In order to use this information, however, the operator interface must be adapted.
+TAGGED_CONTENT:

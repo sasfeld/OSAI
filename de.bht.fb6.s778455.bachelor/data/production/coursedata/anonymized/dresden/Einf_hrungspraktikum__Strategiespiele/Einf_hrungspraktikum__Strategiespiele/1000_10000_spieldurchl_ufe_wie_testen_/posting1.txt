@@ -1,0 +1,9 @@
+ID: 1454
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1383260400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wie <NAME_CORPUS_REPLACEMENT> ich den dame mcp 1000/10000 spieldurchläufe machen, um meinen bot zu testen und mir dann am ende die win/loose/draw menge geben?
+TAGGED_CONTENT:

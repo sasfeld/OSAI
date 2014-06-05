@@ -1,0 +1,12 @@
+ID: 1391
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: You want pkg/l4sys/include/ARCH-x86/kdebug.h.
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1325
+POSTING_TYPE: comment
+CONTENT:
+You want pkg/l4sys/include/ARCH-x86/kdebug. h.
+
+My intention is to fix the problem for you quickly so you <NAME_CORPUS_REPLACEMENT> continue working. The fix for other users is already in our SVN.
+TAGGED_CONTENT:

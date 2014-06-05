@@ -1,0 +1,13 @@
+ID: 25
+CREATION_DATETIME: 1178031120000
+MODIFICATION_DATETIME: 1178031120000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Haben wir alle Informationen, um den Taschenrechner programmieren zu können?
+
+Vielen Dank,
+     
+TAGGED_CONTENT:

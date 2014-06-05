@@ -1,0 +1,17 @@
+ID: 2106722
+CREATION_DATETIME: 1349474400000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: KP Datenschutz in der Anwendungsentwicklung
+LANGUAGE: GERMAN
+SUMMARY: null
+TOPIC_ZOOM_TAG: value:Recht und Justiz im Bereich Medien, Information und Kommunikation;weight:1.0;significance:6.800466577065;degreegeneralization:3;uri:21310259
+TOPIC_ZOOM_TAG: value:Datenschutz;weight:1.0;significance:6.800466577065;degreegeneralization:6;uri:21310276
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:1.0;significance:4.95064330688218;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:2.65109701440329;degreegeneralization:2;uri:21999830
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813

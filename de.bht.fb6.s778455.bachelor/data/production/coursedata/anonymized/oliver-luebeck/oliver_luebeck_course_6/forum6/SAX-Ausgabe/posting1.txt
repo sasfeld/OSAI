@@ -1,0 +1,15 @@
+ID: 70
+CREATION_DATETIME: 1292927700000
+MODIFICATION_DATETIME: 1292927700000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo,
+
+ich habe folgendes Problem. Wenn ich das Programm SAXAusgabe ausführe, kommt diese Meldung. Die Datei adressen2.xml habe ich im selben Verzeichnis abgelegt.
+
+Ich hoffe, Ihr könnt mir helfen.
+	
+TAGGED_CONTENT:

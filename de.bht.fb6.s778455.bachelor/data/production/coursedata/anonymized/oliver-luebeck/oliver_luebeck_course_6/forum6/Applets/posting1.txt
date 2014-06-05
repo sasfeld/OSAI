@@ -1,0 +1,14 @@
+ID: 78
+CREATION_DATETIME: 1295197020000
+MODIFICATION_DATETIME: 1295197020000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+
+Kommen denn auch Applets dran? Die Lektion haben wir in Prog1 nicht behandelt. Es gibt aber eine Aufgabe in einer der Probeklausuren!
+
+Schöne Grüße
+	
+TAGGED_CONTENT:

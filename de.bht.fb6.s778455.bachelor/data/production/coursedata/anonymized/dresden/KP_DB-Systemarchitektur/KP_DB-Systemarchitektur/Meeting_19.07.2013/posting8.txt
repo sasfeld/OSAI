@@ -1,0 +1,9 @@
+ID: 2355
+CREATION_DATETIME: 1374184800000
+MODIFICATION_DATETIME: 1374184800000
+TITLE: Carl, bitte schau nochmal, ob die Daten so repräsentativ genug sind, die Plots für die 32bit-read-Plo...
+PARENT_POSTING_ID: 2350
+POSTING_TYPE: comment
+CONTENT:
+<REMOVED_PERSON_ENTITY>, bitte schau nochmal, ob die Daten so repräsentativ genug sind, die Plots für die 32bit-read-Plots sehen teilweise nicht gut aus, ich lade sie zur Überprüfung ins SVN. (ordentliche Legende folgt)  -> insbesondere der Geforce-plot
+TAGGED_CONTENT:

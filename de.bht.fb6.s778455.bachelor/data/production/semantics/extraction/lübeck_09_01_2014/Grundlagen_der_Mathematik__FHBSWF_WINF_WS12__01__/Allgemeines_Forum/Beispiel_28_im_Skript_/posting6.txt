@@ -1,0 +1,18 @@
+ID: 194817
+CREATION_DATETIME: 1358609672
+MODIFICATION_DATETIME: 1358609736
+TITLE: Re: Beispiel 28 im Skript....
+TOPIC_ZOOM_TAG: value:Vektoren;weight:2.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 194809
+CONTENT:
+Jein, denke ich. x2 und x3 sind zu diesem Zeitpunkt noch vertauscht oder nicht? Dieser Vektor ist nicht Bestandteil der allgemeinen (affinen) Lösungsmenge, da dort der Vektor ...+r*(-3, 1, 0, 0)^T enthalten ist. 
+Hierfür müssen x2 und x3 wieder zurückgetauscht werden.
+Du hast quasi ja aufgrund des nicht zurücktauschens:
+x1= -3 mal r drin in
+in x3 = 0 mal r drinin x2 1 mal r drin und in x4 = 0 mal r drin
+TAGGED_CONTENT:

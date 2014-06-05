@@ -1,0 +1,16 @@
+ID: 42
+CREATION_DATETIME: 1192787220000
+MODIFICATION_DATETIME: 1192787220000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Liebe Studierende,
+
+um die Zeit nicht als Dauer sondern als Datum zu erhlaten, die Klasse java.util.Date benutzen, etwa so:
+new Date(file.lastModified())
+
+Mit freundlichen Gruessen,
+       
+TAGGED_CONTENT:

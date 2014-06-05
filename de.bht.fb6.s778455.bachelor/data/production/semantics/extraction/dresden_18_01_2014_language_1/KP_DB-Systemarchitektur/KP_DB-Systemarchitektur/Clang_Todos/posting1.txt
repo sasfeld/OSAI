@@ -1,0 +1,30 @@
+ID: 2207
+CREATION_DATETIME: 1373493600000
+MODIFICATION_DATETIME: 1374012000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich mach hier mal eine Frage für Clangissues auf, <NAME_CORPUS_REPLACEMENT> gibt es nämlich noch ein paar.
+
+Zum einen natürlich das Problem mit Intelplatformen (dafür gibts ja schon die andere Frage).
+
+Zum anderen eine Todo, die wir auch schon mal angesprochen, die auch im Sourcecode vom ProgramAnalyzer noch vermerkt ist:
+
+```ruby
+
+// TODO: Temporäre Datei statt kernel. <PERSONAL_GREETING_REMOVEMENT>
+
+```
+
+--> ist denke ich selbsterklärend, was <NAME_CORPUS_REPLACEMENT> noch zu tun ist.
+
+Und der letzte Punkt: Clang Exit Codes.
+
+Es wird zwar jetzt im Code überprüft, ob sich clang vernünftig beendet, oder ob ein Fehler zurückbleibt, allerdings sorgt das nur dafür, dass auf der Konsole eine Fehlermeldung ausgegeben wird. Das hätte ich auch noch selbst hinbekommen...
+
+Was interessant ist: Warum tritt der Fehler auf und wie kann man ihn verhindern? <REMOVED_PERSON_ENTITY>, die bewusst irgendwelche Errorcodes übergibt ist nicht gut.
+
+Bitte schau dir das nochmal an <REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

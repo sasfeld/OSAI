@@ -1,0 +1,10 @@
+ID: 616
+CREATION_DATETIME: 1351551600000
+MODIFICATION_DATETIME: 1351551600000
+TITLE: Es gibt auch Bücher, die mal als Nachschlagewerk nutzen kann. Es wird in den Kursen ja nichts neues e...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 613
+POSTING_TYPE: answer
+CONTENT:
+Es gibt auch <REMOVED_PERSON_ENTITY>, die man als Nachschlagewerk nutzen kann. Es wird in den Kursen ja nichts Neues erfunden. Falls du schon vorher etwas nachschlagen oder vorarbeiten willst, dann nimm dir das [kostenlose <REMOVED_PERSON_ENTITY> <NAME_CORPUS_REPLACEMENT> <REMOVED_PERSON_ENTITY> Computing](http://openbook.galileocomputing.de/javainsel/) als Referenz. In diesem <REMOVED_PERSON_ENTITY> ist alles recht gut erklärt. 
+TAGGED_CONTENT:

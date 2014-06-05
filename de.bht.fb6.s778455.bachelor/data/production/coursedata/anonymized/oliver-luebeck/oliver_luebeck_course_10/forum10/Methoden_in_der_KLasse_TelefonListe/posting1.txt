@@ -1,0 +1,40 @@
+ID: 16
+CREATION_DATETIME: 1193776320000
+MODIFICATION_DATETIME: 1193776320000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+iebe Studierende,
+
+
+unten sind 2 Methoden der Klasse Telefonliste, wobei liste das Attribut der Klasse vom Typ ArrayList<TelefonEintrag> ist. Was schlagen Sie als javadoc-Kommentar für jede Methode vor?
+
+Mit freundlichen Grüßen
+
+
+ public void methode1(String namen){
+        int i =0;
+        while (i< liste.size() && ( ! (liste.get(i).getName().equals(namen)))) {
+            i++;
+            }
+        if (i < liste.size()){
+            System.out.println ("Eintrag: " + liste.get(i).toString());
+        }
+        
+    }
+
+ 
+
+ public void methode2(String namen){
+      for (TelefonEintrag t: liste){
+            if(t.getName().equals(namen)){
+                 System.out.println ("Eintrag: " + t.toString());
+            }
+        }
+
+}
+
+   
+TAGGED_CONTENT:

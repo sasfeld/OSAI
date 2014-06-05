@@ -1,0 +1,24 @@
+ID: 7
+CREATION_DATETIME: 1192551420000
+MODIFICATION_DATETIME: 1192551420000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Ich habe ein problem mit dem Löschen.
+
+Egal was ich versuche ich kann keine Elemente aus der Arraylist löschen. Mache ich einen Fehler bei
+
+public void deleteEintrag (in i){
+
+eintraege.remove(i);
+
+}
+
+
+????????
+
+auch der befehl "clear" bewirkt nichts
+  
+TAGGED_CONTENT:

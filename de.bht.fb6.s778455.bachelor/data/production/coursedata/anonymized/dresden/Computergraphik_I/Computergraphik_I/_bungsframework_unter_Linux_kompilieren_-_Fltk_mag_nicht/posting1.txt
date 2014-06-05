@@ -1,0 +1,17 @@
+ID: 434
+CREATION_DATETIME: 1350597600000
+MODIFICATION_DATETIME: 1381701600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich habe versucht, das Ganze mal selbst zu bauen, nachdem ich das buildscript aus der fancy HTML-Datei rausgebastelt habe. Nachdem mir dann aufgefallen ist, dass man auch fltk2 installieren sollte - was mit <NAME_CORPUS_REPLACEMENT> Silbe erwähnt wird - falle ich momentan über folgende Stelle:  
+```
+CMake Error at plugins/cg_fltk/CMakeLists. txt:74 (include_directories):
+  include_directories given empty-string as include directory.
+```
+Laut *env* sind die an der entsprechenden Stelle benutzten Umgebungsvariablen auch tatsächlich leer. Wenn ich mir das CMake-file angucke, scheint hier jemand die blanken Sources zu fltk zu erwarten... oder liege ich <NAME_CORPUS_REPLACEMENT> falsch?  
+Hat jemand das Ganze in seinem Linux am Laufen?  
+Noch besser: blickt jemand durch das Ganze geCMake und kann mir helfen, das Ganze so umzubiegen, dass es gegen mein installiertes Paket baut?
+Sehr schön ist auch das subtile FixMe in dem CMake-File :)
+TAGGED_CONTENT:

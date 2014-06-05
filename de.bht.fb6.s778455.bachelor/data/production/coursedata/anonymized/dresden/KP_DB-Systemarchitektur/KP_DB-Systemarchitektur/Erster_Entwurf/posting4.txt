@@ -1,0 +1,11 @@
+ID: 1779
+CREATION_DATETIME: 1367532000000
+MODIFICATION_DATETIME: 1367532000000
+TITLE: Sehe ich das richtig? Warum kann man mehrere Quellcodedateien an ein Programm anhängen?
+Ich dachte, ...
+PARENT_POSTING_ID: 1770
+POSTING_TYPE: answer
+CONTENT:
+Sehe ich das richtig? Warum kann man mehrere Quellcodedateien an ein Programm anhängen?
+Ich dachte, es war so gemeint, dass man für jeden Kernel eine ProgramID erzeugt, wobei für das Programm dann entschieden wird, auf welchem Device es laufen soll.
+TAGGED_CONTENT:

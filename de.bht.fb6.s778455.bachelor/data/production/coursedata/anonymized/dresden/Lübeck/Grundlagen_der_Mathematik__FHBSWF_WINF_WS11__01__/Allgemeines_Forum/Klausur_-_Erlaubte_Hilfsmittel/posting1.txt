@@ -1,0 +1,8 @@
+ID: 117570
+CREATION_DATETIME: 1326789626
+MODIFICATION_DATETIME: 1326999702
+TITLE: Klausur - Erlaubte Hilfsmittel
+PARENT_POSTING_ID: 0
+CONTENT:
+2 A4-Blaetter (4 Seiten) eigene Notizen, Schreibzeug, nichtprogrammierbarer Taschenrechner und ohne Vektorfunktionen, 1 Formelsammlung
+TAGGED_CONTENT:

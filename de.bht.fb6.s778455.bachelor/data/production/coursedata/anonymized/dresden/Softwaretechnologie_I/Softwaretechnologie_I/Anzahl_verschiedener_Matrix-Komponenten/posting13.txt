@@ -1,0 +1,9 @@
+ID: 2019
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Kann mal jemand z.B. ein Tutor einen Blick auf das vermutlich kleine Problem werfen, das das Programm...
+PARENT_POSTING_ID: 1976
+POSTING_TYPE: answer
+CONTENT:
+Kann mal jemand z. B. ein Tutor einen Blick auf das vermutlich kleine Problem werfen, das das Programm am laufen hindert?
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 11447
+MODIFICATION_DATETIME: 1185448275
+TITLE: Allgemeines Forum
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/view.php?id=11447
+TOPIC_ZOOM_TAG: value:Foren;weight:1.0;significance:7.65869350798439;degreegeneralization:3;uri:20770662
+POS_TAG: value:Forum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fragen;weight:0.0;uri:;postag:NN
+INTRO: Hier können Sie übergeordnete und organisatorische Fragen diskutieren.
+TYPE: general

@@ -1,0 +1,9 @@
+ID: 3043
+CREATION_DATETIME: 1385593200000
+MODIFICATION_DATETIME: 1385593200000
+TITLE: Do we need own computer with installed and configured Hadoop on this exercise ?
+PARENT_POSTING_ID: 3022
+POSTING_TYPE: comment
+CONTENT:
+Do we need own computer with installed and configured Hadoop on this exercise ?
+TAGGED_CONTENT:

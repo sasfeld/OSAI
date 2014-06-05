@@ -1,0 +1,10 @@
+ID: 3034
+CREATION_DATETIME: 1385506800000
+MODIFICATION_DATETIME: 1385593200000
+TITLE: Das macht keinen Sinn. Passwortverschlüsselungsalgorithmen *müssen* Einweg-Verschlüsselungen sein, so...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 3033
+POSTING_TYPE: answer
+CONTENT:
+Das macht keinen Sinn. Passwortverschlüsselungsalgorithmen *müssen* Einweg-Verschlüsselungen sein, sonst macht doch Verschlüsselung keinen Sinn, oder?
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 530
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1351202400000
+TITLE: Question 1: The fastest replica is the first one that reaches the VRO point that will be selected for...
+PARENT_POSTING_ID: 514
+POSTING_TYPE: answer
+CONTENT:
+Question 1: The fastest replica is the first one that reaches the VRO point that will be selected for delivering the signal. The VRO point is chosen based on the maximum, so no replica will have to go backwards. The first replica will wait at the VRO for all other replicas. The other replicas will see that there is an interrupt at a possibly earlier VRO. The VRO consensus protocol tells them that the interrupt will be delivered at the (max) VRO point of the first replica. The will then continue until all replicas reached the max VRO point and then the interrupt is handled.
+If the replicas that are behind would wait, then they would never reach the max VRO point.
+TAGGED_CONTENT:

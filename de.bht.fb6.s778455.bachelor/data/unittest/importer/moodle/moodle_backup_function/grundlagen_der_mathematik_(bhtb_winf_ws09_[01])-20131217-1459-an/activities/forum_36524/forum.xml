@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="7693" moduleid="36524" modulename="forum" contextid="54892">
+  <forum id="7693">
+    <type>general</type>
+    <name>Fachforum zum Teil I</name>
+    <intro>Hier können Sie Fachfragen zum Teil I diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>2</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1218800557</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="25626">
+        <name>Link Mathekurs</name>
+        <firstpost>68278</firstpost>
+        <userid>3757</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1256399277</timemodified>
+        <usermodified>3897</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="68278">
+            <parent>0</parent>
+            <userid>3757</userid>
+            <created>1256382851</created>
+            <modified>1256382851</modified>
+            <mailed>1</mailed>
+            <subject>Link Mathekurs</subject>
+            <message>Bei mir wird bei der Aktivierung vom Link angezeigt, dass es diese Seite nicht mehr gibt. Hat in der Zwischenzeit einer von Euch, die aktuell passende Seite gefunden?&lt;br /&gt;&lt;br /&gt;Grüße&lt;br /&gt;Mark&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="68279">
+            <parent>68278</parent>
+            <userid>3897</userid>
+            <created>1256389137</created>
+            <modified>1256389137</modified>
+            <mailed>1</mailed>
+            <subject>Re: Link Mathekurs</subject>
+            <message>Welchen Link meinst du genau?</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="68280">
+            <parent>68279</parent>
+            <userid>3757</userid>
+            <created>1256391534</created>
+            <modified>1256391534</modified>
+            <mailed>1</mailed>
+            <subject>Re: Link Mathekurs</subject>
+            <message>Diesen:&lt;br /&gt;&lt;br /&gt;&lt;a target="_blank" href="http://www3.math.tu-berlin.de/OMB/%3Cbr"&gt;http://www3.math.tu-berlin.de/OMB/&lt;/a&gt;&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="68281">
+            <parent>68280</parent>
+            <userid>3897</userid>
+            <created>1256398848</created>
+            <modified>1256399277</modified>
+            <mailed>1</mailed>
+            <subject>Re: Link Mathekurs</subject>
+            <message>&lt;p&gt;&lt;a href="http://www3.math.tu-berlin.de/OMB/login.html"&gt;http://www3.math.tu-berlin.de/OMB/login.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www3.math.tu-berlin.de/OMB/index.html"&gt;http://www3.math.tu-berlin.de/OMB/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Die gehn bei mir, jedoch kann ich nach dem Login kein Material entdecken.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="72188">
+        <userid>3757</userid>
+      </subscription>
+      <subscription id="72189">
+        <userid>2647</userid>
+      </subscription>
+      <subscription id="72190">
+        <userid>3869</userid>
+      </subscription>
+      <subscription id="72191">
+        <userid>3871</userid>
+      </subscription>
+      <subscription id="72192">
+        <userid>3885</userid>
+      </subscription>
+      <subscription id="72193">
+        <userid>3863</userid>
+      </subscription>
+      <subscription id="72194">
+        <userid>3889</userid>
+      </subscription>
+      <subscription id="72195">
+        <userid>3883</userid>
+      </subscription>
+      <subscription id="72196">
+        <userid>3881</userid>
+      </subscription>
+      <subscription id="72197">
+        <userid>3893</userid>
+      </subscription>
+      <subscription id="72198">
+        <userid>3887</userid>
+      </subscription>
+      <subscription id="72199">
+        <userid>3895</userid>
+      </subscription>
+      <subscription id="72200">
+        <userid>3899</userid>
+      </subscription>
+      <subscription id="72201">
+        <userid>3897</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

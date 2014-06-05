@@ -1,0 +1,16 @@
+ID: 2162
+CREATION_DATETIME: 1372975200000
+MODIFICATION_DATETIME: 1373234400000
+TITLE: Hallo Benny,
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2161
+POSTING_TYPE: answer
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+
+ja das passt dann, wenn du alles gemacht hast, wo ein TODO dransteht.
+
+Aber noch ein Tipp: Ich würde trotzdem nochmal nachschauen, ob wirklich alles gemacht wurde, was in der Aufgabenstellung steht. Sicher ist sicher. ;)
+
+Gruß
+TAGGED_CONTENT:

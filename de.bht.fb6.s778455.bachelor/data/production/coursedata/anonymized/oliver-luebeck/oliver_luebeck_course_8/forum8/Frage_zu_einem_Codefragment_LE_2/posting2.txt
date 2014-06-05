@@ -1,0 +1,28 @@
+ID: 59
+CREATION_DATETIME: 1200993360000
+MODIFICATION_DATETIME: 1200993360000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 58
+CONTENT:
+
+Hallo,
+
+die Schreibweise
+
+String bildDateiOriginal = args.length > 0 ? args[0] : "AbbWurfparabel.jpg";
+
+ist eine abgekürzte Form einer if-Verzweigung.
+Als "normale if-Verzweigung würde das ganze so aussehen:"
+
+String bildDateiOriginal;
+if(args.length > 0) {
+bildDateiOriginal = args[0];
+}
+else {
+bildDateiOriginal = "AbbWurfparabel.jpg"
+}
+
+Gruß,
+    
+TAGGED_CONTENT:

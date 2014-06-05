@@ -1,0 +1,19 @@
+ID: 1989
+CREATION_DATETIME: 1370728800000
+MODIFICATION_DATETIME: 1370728800000
+TITLE: in deinem code musst du aufpassen mit der inneren for schleife wenn x = 1 und y = 1 wird der beim ers...
+PARENT_POSTING_ID: 1987
+POSTING_TYPE: comment
+CONTENT:
+in deinem code musst du aufpassen mit der inneren for schleife wenn x = 1 und y = 1 wird der beim ersten durch lauf zwar bei i=1 und j=1 starten beim zweiten durchlauf (dann wenn durch i++ i erhöht wurde) fäng er mit i = 2 j = 1 an weil j wieder auf y gesetzt wird, obwohl j in diesem fall 0 sein müsste. vll sowas in dieser richtung?:
+```ruby
+for(; x < numberColumns; x++) {
+for(; y < numberRows; y++) {
+if(bla) { blub }
+}
+y=0;
+}
+```
+Also direkt mit x und y arbeiten.
+:3
+TAGGED_CONTENT:

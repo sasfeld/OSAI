@@ -1,0 +1,10 @@
+ID: 1269
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Ist es möglich, dass man selbst keine Mail mit dem eigenen Post/Kommentar/etc. bekommt? Das würde die...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1196
+POSTING_TYPE: comment
+CONTENT:
+Ist es möglich, dass man selbst keine Mail mit dem eigenen Post/Kommentar/etc. bekommt? Das würde die Threads kaputt machen.
+TAGGED_CONTENT:

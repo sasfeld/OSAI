@@ -1,0 +1,9 @@
+ID: 2122
+CREATION_DATETIME: 1372456800000
+MODIFICATION_DATETIME: 1372456800000
+TITLE: Hi Bubbles. das sind so viele Fragen, ich verstehe nicht was du jetzt genau wissen möchtest. Kannst D...
+PARENT_POSTING_ID: 2114
+POSTING_TYPE: comment
+CONTENT:
+Hi Bubbles. Das sind so viele Fragen, ich verstehe nicht was du jetzt genau wissen möchtest. Kannst Du mal bitte nach einer meiner Übungen zu mir kommen die Prüfung mitbringen und <REMOVED_PERSON_ENTITY>. Ich schaue mir das gerne mal an. <LEARNED_PERSON_NAME_REPLACEMENT> (ich habe Do. und Fr. in der 1. DS Übung)
+TAGGED_CONTENT:

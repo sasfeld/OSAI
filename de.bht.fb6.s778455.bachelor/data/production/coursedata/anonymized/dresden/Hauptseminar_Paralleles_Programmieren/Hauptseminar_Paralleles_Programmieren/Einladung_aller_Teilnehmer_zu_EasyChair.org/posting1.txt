@@ -1,0 +1,11 @@
+ID: 2938
+CREATION_DATETIME: 1384988400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Heute haben alle Teilnehmer des Hauptseminars Einladungen für *EasyChair* (https://www. easychair. org) erhalten.
+Bitte meldet euch bei EasyChair an, um euer Zusammenfassung (Abstrakt und Gliederung) bei EasyChair und später die schriftliche Arbeit einzureichen. Später erlaubt es diese Plattform auch, die Arbeiten gegenseitig zu verbessern (Reviewprozess).
+**Bitte denkt an das einreichen des Zusammenfassung bis zum 4. 12. 2013!**
+TAGGED_CONTENT:

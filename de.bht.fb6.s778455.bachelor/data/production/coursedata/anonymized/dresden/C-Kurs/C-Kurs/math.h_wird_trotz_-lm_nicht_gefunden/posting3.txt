@@ -1,0 +1,13 @@
+ID: 3025
+CREATION_DATETIME: 1385420400000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: Mit header meinte ich die Kopfzeile des codes wo auch include stdio mit bei steht.
+
+Das war im ende...
+PARENT_POSTING_ID: 3020
+POSTING_TYPE: comment
+CONTENT:
+Mit header meinte ich die Kopfzeile des codes wo auch include stdio mit bei steht.
+Das war im endeffekt die gesamte Fehlermeldung. Also nur undefined reference to....
+Hm uns wurde gesagt es wäre egal wo im compile befehl das -lm steht, es dürfe logischerweise nur nicht zwischen dem -o und dem dateinamen stehen. Aber ok, dann versuche ich es nachher nochmal indem ich das -lm ans ende setze, wenn ich aus der uni zurück bin.  Ich kann dann auch nochmal die exakte Fehlermeldung mit anfügen
+TAGGED_CONTENT:

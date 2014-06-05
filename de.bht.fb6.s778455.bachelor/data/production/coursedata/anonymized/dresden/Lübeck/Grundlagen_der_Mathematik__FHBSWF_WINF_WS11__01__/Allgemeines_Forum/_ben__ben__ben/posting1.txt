@@ -1,0 +1,11 @@
+ID: 117547
+CREATION_DATETIME: 1319733469
+MODIFICATION_DATETIME: 1319733469
+TITLE: Üben Üben Üben
+PARENT_POSTING_ID: 0
+CONTENT:
+ Was macht man nicht alles für Mathe......
+Wer Lust hat, wir sind inner Uni, ich denke mal jetzt jeden <REMOVED_PERSON_ENTITY> so ab 18. 30 <REMOVED_PERSON_ENTITY>, wer also Lust hat und sonst nix umme Ohren hat....
+Grüßle
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

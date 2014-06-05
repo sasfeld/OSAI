@@ -1,0 +1,17 @@
+ID: 77
+CREATION_DATETIME: 1201466400000
+MODIFICATION_DATETIME: 1201466400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 76
+CONTENT:
+
+Hallo,
+
+ja hat mir zumindest für die berechnung der Stellen definitiv weitergeholfen, nur an welcher stelle muss die Rekursion ist mir noch nicht ganz so klar...
+
+ 
+
+Danke erstmal.
+    
+TAGGED_CONTENT:

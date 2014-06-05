@@ -1,0 +1,18 @@
+ID: 37
+CREATION_DATETIME: 1192014240000
+MODIFICATION_DATETIME: 1192014240000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 34
+CONTENT:
+  
+Man kann in Java Strings direkt auf Zeichen durchsuchen lassen und diese dann durch andere Zeichen ersetzen. Bei mir funktioniert das wie folgt
+
+eineZeile = lesen.readLine();
+String newLine = eineZeile.replace("Ä", "&Auml;");
+
+Das muss man dann natürlich noch anpassen, sodass die Zeile mehrmals durchlaufen wird und nach allen Zeichen durchsucht wird, aber an sich funkioniert das.
+
+Grüße
+    
+TAGGED_CONTENT:

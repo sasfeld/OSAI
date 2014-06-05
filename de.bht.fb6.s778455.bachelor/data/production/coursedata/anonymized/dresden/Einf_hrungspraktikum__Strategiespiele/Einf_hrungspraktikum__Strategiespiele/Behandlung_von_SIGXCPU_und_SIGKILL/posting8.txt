@@ -1,0 +1,9 @@
+ID: 1565
+CREATION_DATETIME: 1363993200000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Ich erlaube mir mal in diesem Zusammenhang öffentlich anzuprangern das der Example Player bei Kalaha ...
+PARENT_POSTING_ID: 1446
+POSTING_TYPE: comment
+CONTENT:
+Ich erlaube mir mal in diesem Zusammenhang öffentlich anzuprangern das der Example Player bei Kalaha ein goto verwendet. Dabei sollte doch gerade dieser Code auch mit als Beispiel dienen.
+TAGGED_CONTENT:

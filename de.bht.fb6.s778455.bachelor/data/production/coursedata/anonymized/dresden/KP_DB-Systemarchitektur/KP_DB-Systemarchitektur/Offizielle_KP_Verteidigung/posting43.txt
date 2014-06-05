@@ -1,0 +1,9 @@
+ID: 2426
+CREATION_DATETIME: 1374444000000
+MODIFICATION_DATETIME: 1374444000000
+TITLE: Danke an alle, dass wir so gut durchgezogen haben. Und alles Gute für die Zukunft.
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Danke an alle, dass wir so gut durchgezogen haben. Und alles Gute für die Zukunft.
+TAGGED_CONTENT:

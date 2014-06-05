@@ -1,0 +1,11 @@
+ID: 3085
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: "Just because you over-engineer something, it doesn't mean you're an over-engineer" :)
+PARENT_POSTING_ID: 3069
+POSTING_TYPE: comment
+CONTENT:
+"Just because you over-engineer something, it doesn't mean you're an over-engineer" :)
+Vererbung ist das am meisten überschätzte Designmittel in der Objektorientierung [0]. Wenn du Basistypen verwenden willst: es gibt das interface `org. springframework. data. domain. Persistable` mit der Basisklasse `org. springframework. data. jpa. domain. AbstractPersistable` in Spring Data JPA . Die tun genau, was deine Basisklassen tun. Interfaces für ID Typen sind definitiv overkill.
+[0] http://stackoverflow.com/questions/49002/prefer-composition-over-inheritance 
+TAGGED_CONTENT:

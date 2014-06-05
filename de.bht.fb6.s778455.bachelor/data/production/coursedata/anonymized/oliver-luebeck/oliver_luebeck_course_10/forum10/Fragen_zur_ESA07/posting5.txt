@@ -1,0 +1,22 @@
+ID: 58
+CREATION_DATETIME: 1197585600000
+MODIFICATION_DATETIME: 1197585600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 57
+CONTENT:
+
+Hallo ,
+
+ich habe den Konstruktor jetzt so verändert:
+public CocktailNeuPanel(CocktailBar aktuelleBar){
+this.cBar = aktuelleBar;
+....
+}
+
+in MeinCocktailMixerGUI steht:
+neuerCocktailPanel = new CocktailNeuPanel(cBar);
+ 
+cBar ist die jeweils aktuelle CocktailBar (ändert sich durch Menü Cocktailmixer - Neu). Die Übergabe scheint auch zu funktionieren. War es so gemeint?
+  
+TAGGED_CONTENT:

@@ -1,0 +1,33 @@
+ID: 68277
+CREATION_DATETIME: 1256841305
+MODIFICATION_DATETIME: 1256841305
+TITLE: Lerngruppe 5
+NER_TAG: value:AppData\Local;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+PARENT_POSTING_ID: 0
+CONTENT:
+<link href="file:///C:\Users\shion\AppData\Local\Temp\msohtml1\01\clip_filelist. xml" rel="File-List" /><!--[if gte mso 9]>
+  Normal
+  0
+  21
+  MicrosoftInternetExplorer4
+<![endif]--> &lt;!-- /* Font Definitions */ @font-face {font-family:SimSun; panose-1:2 1 6 0 3 1 1 1 1 1; mso-font-alt:宋体; mso-font-charset:134; mso-generic-font-family:auto; mso-font-pitch:variable; mso-font-signature:3 680460288 22 0 262145 0;} @font-face {font-family:&quot;\@SimSun&quot;; panose-1:2 1 6 0 3 1 1 1 1 1; mso-font-charset:134; mso-generic-font-family:auto; mso-font-pitch:variable; mso-font-signature:3 680460288 22 0 262145 0;} /* Style Definitions */ p. MsoNormal, li. MsoNormal, div. MsoNormal {mso-style-parent:&quot;&quot;; margin:0cm; margin-bottom:. 0001pt; mso-pagination:widow-orphan; font-size:12. 0pt; font-family:&quot;Times New Roman&quot;; mso-fareast-font-family:SimSun;} @page Section1 {size:595. 3pt 841. 9pt; margin:70. 85pt 70. 85pt 2. 0cm 70. 85pt; mso-header-margin:35. 4pt; mso-footer-margin:35. 4pt; mso-paper-source:0;} div. Section1 {page:Section1;} --&gt; <!--[if gte mso 10]>
+ /* <REMOVED_PERSON_ENTITY> */
+ table. MsoNormalTable
+	{mso-style-name:"Normale Tabelle";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5. 4pt 0cm 5. 4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:. 0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10. 0pt;
+	font-family:"Times New Roman";}
+<![endif]--><!--[if gte mso 9]>
+<![endif]--><!--[if gte mso 9]>
+ <![endif]-->
+Björn Kießling
+Martin Brieger
+Sven Broeske 
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 211
+CREATION_DATETIME: 1349647200000
+MODIFICATION_DATETIME: 1349647200000
+TITLE: Kannst du das reprodu
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 209
+POSTING_TYPE: comment
+CONTENT:
+Kannst du das reproduzieren? Hast du vor dem Anmelden auf einen Link geklickt? Vllt hattest du ja keine Berechtigung nach dem Login die Aktion auszuführen? 
+
+// behoben
+TAGGED_CONTENT:

@@ -1,0 +1,16 @@
+ID: 2455
+CREATION_DATETIME: 1374703200000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: Prinzipiell gehört in die „Maske“-Spalte neben der Netzadresse auch die Netzmaske, sonst bringt uns d...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2454
+POSTING_TYPE: answer
+CONTENT:
+Prinzipiell gehört in die „<REMOVED_PERSON_ENTITY>“-Spalte neben der Netzadresse auch die Netzmaske, sonst bringt uns das nicht viel.
+
+Jedem eingehenden IP-Paket wird das Ziel entnommen. Dieses wird dann zeilenweise durch die Tabelle geschleift und jedesmal mit der angebenen <REMOVED_PERSON_ENTITY> die potentielle Subnetzadresse dieses Ziels ausgerechnet. Stimmt diese potentielle Subnetzadresse mit der in der Zeile angegebenen Subnetzadresse überein, so liegt ein Treffer vor, ansonsten nicht. Bei einem Treffer und nur bei einem Treffer wird das IP-Paket an die in der Spalte „Ziel“ angegebene Adresse weitergeleitet.
+
+In der letzten Zeile gibt es garantiert einen Treffen, denn HIER. EGAL. WELC. HEIP/0 == 0. 0. 0. 0 !
+
+Mit dieser Überlegung bitte noch einmal an die Aufgabe setzen.
+TAGGED_CONTENT:

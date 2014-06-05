@@ -1,0 +1,17 @@
+ID: 2724
+CREATION_DATETIME: 1383692400000
+MODIFICATION_DATETIME: 1383692400000
+TITLE: Hi,
+
+Today is the 6th of November and yes there will be an SE 2 exercise today.
+
+Cheers,
+Sebasti...
+PARENT_POSTING_ID: 2723
+POSTING_TYPE: answer
+CONTENT:
+Hi,
+Today is the 6th of November and yes there will be an SE 2 exercise today.
+Cheers,
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

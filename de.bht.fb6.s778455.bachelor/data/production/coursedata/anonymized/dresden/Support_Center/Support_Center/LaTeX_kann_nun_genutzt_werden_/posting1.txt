@@ -1,0 +1,23 @@
+ID: 178
+CREATION_DATETIME: 1348696800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Ein neues Feature wurde hinzugefügt. Ab sofort kann $\LaTeX$ innerhalb <NAME_CORPUS_REPLACEMENT> Fragen, Antworten und Kommentaren genutzt werden. Wie das geht? 
+### Innerhalb einer Zeile:
+Zwischen die beiden $-Zeichen `$...$` einfach das LaTeX eingeben:
+```latex
+Was ist die Polstelle dieser Funktion $\frac{1-x}{5x^2-2}$?
+```
+Was ist die Polstelle dieser Funktion $\frac{1-x}{5x^2-2}$?
+### Als LaTeX Block:
+Und wenn ein LaTeX Block gewünscht wird, dann werden einfach zwei Dollarzeichen genutzt `$$...$$`:
+```latex
+$$\int_a^b f(x) dx=F(b)-F(a)$$
+```
+$$\int_a^b f(x) dx=F(b)-F(a)$$
+Hier die offizielle Dokumentation: http://www.mathjax.org/docs/2. 0/tex. html
+<REMOVED_PERSON_ENTITY> beim mathematische Formeln lösen :)
+TAGGED_CONTENT:

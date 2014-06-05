@@ -1,0 +1,6 @@
+ID: 2154483
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Proseminar Aufgabenstellungen der Bildanalyse und Mustererkennung
+INTRO: null
+TYPE: null

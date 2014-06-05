@@ -1,0 +1,9 @@
+ID: 915
+CREATION_DATETIME: 1354143600000
+MODIFICATION_DATETIME: 1354143600000
+TITLE: Wie gesagt seid ihr in der Implementierung sehr frei. Hauptsache ist, dass ihr euch an die Konvention...
+PARENT_POSTING_ID: 900
+POSTING_TYPE: comment
+CONTENT:
+Wie gesagt seid ihr in der Implementierung sehr frei. Hauptsache ist, dass ihr euch an die Konventionen für Namen etc. haltet ;)
+TAGGED_CONTENT:

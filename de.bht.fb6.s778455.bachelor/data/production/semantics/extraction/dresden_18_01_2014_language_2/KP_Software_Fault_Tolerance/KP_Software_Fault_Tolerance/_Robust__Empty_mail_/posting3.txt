@@ -1,0 +1,10 @@
+ID: 820
+CREATION_DATETIME: 1353366000000
+MODIFICATION_DATETIME: 1353366000000
+TITLE: It's completely blank. Not even "Hi, We checked revision...".  
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 818
+POSTING_TYPE: comment
+CONTENT:
+It's completely <NAME_CORPUS_REPLACEMENT>. Not even "Hi, We checked revision...".  I checked out the repo again and re-committed it. Still the same. 
+TAGGED_CONTENT:

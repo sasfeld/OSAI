@@ -1,0 +1,36 @@
+ID: 633
+CREATION_DATETIME: 1351724400000
+MODIFICATION_DATETIME: 1351724400000
+TITLE: Ja, ich kann leider ebenfalls nicht auf Moodle zugreifen. Ich schlage daher vor, die Abgaben euren je...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:E-Mail;weight:1.0;significance:3.51418845310843;degreegeneralization:7;uri:20901800
+TOPIC_ZOOM_TAG: value:Kommunikationsdienste;weight:1.0;significance:3.42673879651575;degreegeneralization:4;uri:20034732
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:1.0;significance:3.25199587633262;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Finanzen;weight:2.0;significance:2.82332777150469;degreegeneralization:2;uri:21999881
+TOPIC_ZOOM_TAG: value:Internetdienste;weight:1.0;significance:2.50503336367649;degreegeneralization:6;uri:20772413
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Services und Dienstleistungen;weight:1.0;significance:2.11473682296541;degreegeneralization:4;uri:21993506
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:0.90229776862663;degreegeneralization:2;uri:21999847
+NER_TAG: value:DS;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:MI;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:DS;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:DS;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tutoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:MI;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abgaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppen;weight:0.0;uri:;postag:NN
+POS_TAG: value:DI;weight:0.0;uri:;postag:NN
+POS_TAG: value:Moodle;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 629
+POSTING_TYPE: answer
+CONTENT:
+Ja, ich kann leider ebenfalls nicht auf Moodle zugreifen. Ich schlage daher vor, die Abgaben euren jeweiligen Tutoren per E-Mail zu senden. Ich hätte also gerne die Abgaben der Gruppen 5 (DI 1. DS INF/E065), 8 (MI 2. DS INF/E065) und 10 (DO 1. DS INF/E065) zugeschickt, solange das Moodle nicht mitspielt.
+
+Grüße, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Ja_PTKANT ,_$, ich_PPER kann_VMFIN leider_ADV ebenfalls_ADV nicht_PTKNEG auf_APPR Moodle_NN zugreifen_VVINF ._$. Ich_PPER schlage_VVFIN daher_PROAV vor_PTKVZ ,_$, die_ART Abgaben_NN euren_VVFIN jeweiligen_ADJA Tutoren_NN per_APPR E-Mail_NE zu_PTKZU senden_VVINF ._$. Ich_PPER hätte_VAFIN also_ADV gerne_ADV die_ART Abgaben_NN der_ART Gruppen_NN 5_CARD -LRB-_TRUNC DI_NN 1_CARD ._$. DS_ART INF\/E065_CARD -RRB-_TRUNC ,_$, 8_CARD -LRB-_TRUNC MI_NN 2_CARD ._$. DS_ART INF\/E065_CARD -RRB-_TRUNC und_KON 10_CARD -LRB-_TRUNC DO_XY 1_CARD ._$. DS_ART INF\/E065_CARD -RRB-_TRUNC zugeschickt_VVPP ,_$, solange_KOUS das_ART Moodle_NN nicht_PTKNEG mitspielt_VVFIN ._$. Grüße_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

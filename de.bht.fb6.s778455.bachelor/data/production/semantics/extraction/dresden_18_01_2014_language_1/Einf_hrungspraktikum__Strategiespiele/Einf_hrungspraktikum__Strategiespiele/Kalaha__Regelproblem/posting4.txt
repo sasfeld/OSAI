@@ -1,0 +1,10 @@
+ID: 1473
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Was gibst du konkret an den MCP zurück? Kannst du mit einem printf vor dem serialize_move verifiziere...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1468
+POSTING_TYPE: comment
+CONTENT:
+Was gibst du konkret an den MCP zurück? Kannst du mit einem printf vor dem serialize_move verifizieren, dass <NAME_CORPUS_REPLACEMENT> auch eine 1 drin steht? Ansonsten schick mal deinen Code an einfprakt@
+TAGGED_CONTENT:

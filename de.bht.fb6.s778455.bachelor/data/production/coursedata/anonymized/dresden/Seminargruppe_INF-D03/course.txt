@@ -1,0 +1,8 @@
+ID: 110804115
+CREATION_DATETIME: 1350424800000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Seminargruppe INF-D03
+SUMMARY: Die Seminargruppe INF-D03 betreffende, allgemeine Fragen und Anliegen können hier eingetragen werden.
+URL: 

@@ -1,0 +1,9 @@
+ID: 2224
+CREATION_DATETIME: 1373666400000
+MODIFICATION_DATETIME: 1373666400000
+TITLE: Nein, ich will, dass Mario das wieder so baut, dass man die abgeschätzte mit der gemessenen Zeit verg...
+PARENT_POSTING_ID: 2222
+POSTING_TYPE: comment
+CONTENT:
+Nein, ich will, dass <REMOVED_PERSON_ENTITY> das wieder so baut, dass man die abgeschätzte mit der gemessenen Zeit vergleichen kann.
+TAGGED_CONTENT:

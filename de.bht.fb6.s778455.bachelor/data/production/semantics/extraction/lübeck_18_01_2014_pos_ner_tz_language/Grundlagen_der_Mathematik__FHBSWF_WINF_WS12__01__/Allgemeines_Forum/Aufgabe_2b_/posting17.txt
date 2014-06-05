@@ -1,0 +1,33 @@
+ID: 185807
+CREATION_DATETIME: 1354813010
+MODIFICATION_DATETIME: 1354813010
+TITLE: Re: Aufgabe 2b)
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Algebraische Begriffe;weight:1.0;significance:6.35427475761695;degreegeneralization:7;uri:20767840
+TOPIC_ZOOM_TAG: value:Vektorräume;weight:1.0;significance:6.35427475761695;degreegeneralization:8;uri:20146881
+TOPIC_ZOOM_TAG: value:Algebra;weight:1.0;significance:6.35427475761695;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Lineare Algebra;weight:1.0;significance:6.35427475761695;degreegeneralization:7;uri:20881366
+TOPIC_ZOOM_TAG: value:Vektoren;weight:1.0;significance:6.35427475761695;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Nullsummenregel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektorraum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beispiele;weight:0.0;uri:;postag:NN
+POS_TAG: value:Graphen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Formel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Eigenschaft;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abstraktion;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beantwortung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Untervektorraum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Welt;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 185773
+CONTENT:
+Moin :)
+Würde ich ähnlich sehen. Es geht halt nur um die Abstraktion auf den Graphen, der als Vektorraum gesehen werden kann. Wir sprechen einfach nur über Vektoren, die eine Eigenschaft X (hier die Nullsummenregel) erfüllen und somit in ihrer eigenen Welt, also einem Untervektorraum, existieren. V1 ... v4 kann man hier als Beispiele nehmen, um eine Formel aufzustellen, falls man dies für die Beantwortung der Aufgabe machen möchte. Er schreibt aber ja auch, dass wir dies unabhängig von den Graphen tun sollen. GrüßeLars 
+TAGGED_CONTENT:
+Moin_NE :-RRB-_NE Würde_VAFIN ich_PPER ähnlich_ADJD sehen_VVINF ._$. Es_PPER geht_VVFIN halt_ADV nur_ADV um_APPR die_ART Abstraktion_NN auf_APPR den_ART Graphen_NN ,_$, der_PRELS als_APPR Vektorraum_NN gesehen_VVPP werden_VAINF kann_VMFIN ._$. Wir_PPER sprechen_VVFIN einfach_ADV nur_ADV über_APPR Vektoren_NN ,_$, die_PRELS eine_ART Eigenschaft_NN X_XY -LRB-_TRUNC hier_ADV die_ART Nullsummenregel_NN -RRB-_TRUNC erfüllen_VVINF und_KON somit_ADV in_APPR ihrer_PPOSAT eigenen_ADJA Welt_NN ,_$, also_ADV einem_ART Untervektorraum_NN ,_$, existieren_VVFIN ._$. V1_CARD ..._$( v4_CARD kann_VMFIN man_PIS hier_ADV als_APPR Beispiele_NN nehmen_VVINF ,_$, um_KOUI eine_ART Formel_NN aufzustellen_VVIZU ,_$, falls_KOUS man_PIS dies_PDS für_APPR die_ART Beantwortung_NN der_ART Aufgabe_NN machen_VVINF möchte_VMFIN ._$. Er_PPER schreibt_VVFIN aber_ADV ja_ADV auch_ADV ,_$, dass_KOUS wir_PPER dies_PDS unabhängig_ADJD von_APPR den_ART Graphen_NN tun_VVINF sollen_VMFIN ._$. GrüßeLars_NE 

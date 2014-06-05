@@ -1,0 +1,23 @@
+ID: 117562
+CREATION_DATETIME: 1327389596
+MODIFICATION_DATETIME: 1327389596
+TITLE: Re: Probeklausur
+TOPIC_ZOOM_TAG: value:Vektoren;weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Werte;weight:0.0;uri:;postag:NN
+POS_TAG: value:tsel;weight:0.0;uri:;postag:NN
+POS_TAG: value:z;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rechnung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fragen;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117561
+CONTENT:
+Du hast recht, ich habe übersehen das dort mal keine 0 Steht. (War meist so) Dann passt meine Rechnung nicht. Dann wäre das:z=t (1. L.)-3y + 6t = 3y= -1 + 2t (2. L.)x - 1 + 2t -4t = -2x = -1 +2t (3. L.)Was dann der Lösung von <REMOVED_PERSON_ENTITY> entsprechen würde mitt * (2 2 1) + (-1 -1 0)Was auch nicht der Musterlösung entspricht. Leider ist mir das grade auch ein Rätsel weshalb die Werte im 2. Vektor postitiv sind und bei dem z noch eine 1 dazukommt. Falls du noch Fragen hast kannst mich über skype erreichen: ei5fuch5 
+TAGGED_CONTENT:
+Du_PPER hast_VAFIN recht_ADJD ,_$, ich_PPER habe_VAFIN übersehen_VVPP das_PDS dort_ADV mal_ADV keine_PIAT 0_CARD Steht_VVFIN ._$. -LRB-_TRUNC War_VAFIN meist_ADV so_ADV -RRB-_TRUNC Dann_ADV passt_ADV meine_PPOSAT Rechnung_NN nicht_PTKNEG ._$. Dann_ADV wäre_VAFIN das_PDS :_$. z_XY =_XY t_XY -LRB-_TRUNC 1_CARD ._$. L._NE -RRB-_TRUNC -3_CARD y_NE +_KON 6t_XY =_XY 3y_XY =_XY -1_CARD +_XY 2t_CARD -LRB-_TRUNC 2_CARD ._$. L._NE -RRB-_TRUNC x_XY -_$( 1_CARD +_XY 2t_CARD -4_CARD t_XY =_XY -2_CARD x_XY =_XY -1_CARD +2_CARD t_XY -LRB-_TRUNC 3_CARD ._$. L._NE -RRB-_TRUNC Was_PWS dann_ADV der_ART Lösung_NN von_APPR <_CARD REMOVED_PERSON_ENTITY_NN >_CARD entsprechen_VVFIN würde_VAFIN mitt_APPR \*_CARD -LRB-_TRUNC 2_CARD 2_CARD 1_CARD -RRB-_TRUNC +_KON -LRB-_TRUNC -1_CARD -1_CARD 0_CARD -RRB-_TRUNC Was_PWS auch_ADV nicht_PTKNEG der_ART Musterlösung_NN entspricht_VVFIN ._$. Leider_ADV ist_VAFIN mir_PPER das_ART grade_ADV auch_ADV ein_ART Rätsel_NN weshalb_PWAV die_ART Werte_NN im_APPRART 2_CARD ._$. Vektor_NN postitiv_ADJD sind_VAFIN und_KON bei_APPR dem_ART z_NN noch_ADV eine_ART 1_CARD dazukommt_VVFIN ._$. Falls_KOUS du_PPER noch_ADV Fragen_NN hast_VAFIN kannst_VMFIN mich_PRF über_APPR skype_VVIMP erreichen_VVINF :_$. ei5fuch5_CARD 

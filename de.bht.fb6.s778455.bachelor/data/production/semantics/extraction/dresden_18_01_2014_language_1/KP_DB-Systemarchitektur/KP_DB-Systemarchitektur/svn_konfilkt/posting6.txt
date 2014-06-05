@@ -1,0 +1,12 @@
+ID: 1868
+CREATION_DATETIME: 1369778400000
+MODIFICATION_DATETIME: 1369778400000
+TITLE: Das soll nicht das sein. Ich habe pclose() direkt nach popen() geschrieben, die der Subprozess synchr...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1863
+POSTING_TYPE: comment
+CONTENT:
+Das muss nicht das sein. Ich habe pclose() direkt nach popen() geschrieben, die der Subprozess synchronisiert wird. 
+
+>The pclose( ) function (which receives the file pointer returned by popen( ) as its parameter) simply invokes the wait4( ) system call and waits for the termination of the process created by popen( ).
+TAGGED_CONTENT:

@@ -1,0 +1,11 @@
+ID: 215
+CREATION_DATETIME: 1349647200000
+MODIFICATION_DATETIME: 1349906400000
+TITLE: Feature-Request:
+Es 
+PARENT_POSTING_ID: 70
+POSTING_TYPE: answer
+CONTENT:
+Feature-Request:
+Es wäre cool, dass man nicht zu jeden Course Notifications bekommt, sondern nur zu denen man will.
+TAGGED_CONTENT:

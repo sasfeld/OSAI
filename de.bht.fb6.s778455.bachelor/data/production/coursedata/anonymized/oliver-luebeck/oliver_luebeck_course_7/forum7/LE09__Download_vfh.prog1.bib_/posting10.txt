@@ -1,0 +1,30 @@
+ID: 29
+CREATION_DATETIME: 1304598420000
+MODIFICATION_DATETIME: 1304598420000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 28
+CONTENT:
+ 
+@
+
+Hast Du ein Buchtipp für Einsteiger?
+ 
+Ursprungsbeitrag | Bearbeiten | Thema teilen | Löschen | Antwort
+Nutzerbild Student9
+Re: LE09 (Download vfh.prog1.bib)
+von Student9 - Donnerstag, 5. Mai 2011, 15:06
+ 
+@
+
+Eher nicht. Lese, wenn mir eine Lösung fehlt im Internet nach. Muss mal Daheim schauen ob ich noch JAVA Bücher rum zu liegen habe.
+
+Ansonsten einfach mal auf dieser Seite hier schauen. Dort gibt es günstig Bücher. Gegebenfalls kann man dort auch eine Sammelbestellung aufmachen und die Versandkosten sparen.
+
+http://www.terrashop.de/buecher/prog/java/
+
+eBooks habe ich sicherlich auch noch.
+
+Gruß
+   
+TAGGED_CONTENT:
