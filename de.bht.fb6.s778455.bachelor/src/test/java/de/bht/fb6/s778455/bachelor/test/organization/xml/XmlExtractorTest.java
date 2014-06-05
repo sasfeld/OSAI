@@ -5,6 +5,7 @@ package de.bht.fb6.s778455.bachelor.test.organization.xml;
 
 import static org.junit.Assert.*;
 
+import java.io.File;
 import java.util.HashMap;
 
 import org.junit.After;
@@ -24,42 +25,44 @@ import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
  * 
  */
 public class XmlExtractorTest extends NoLoggingTest {
+    protected static final File TEST_FILE = new File(PATH_UNITTEST_DATA_FOLDER
+            + "/organization/xmlSample.xml");
 
-	private XmlExtractor exctractor;
+    private XmlExtractor exctractor;
 
-	/**
-	 * @throws java.lang.Exception
-	 */
-	@Before
-	public void setUp() throws Exception {
-		this.exctractor = new XmlExtractor( "./data/unittests/xmlSample.xml",
-				new HashMap< String, String >() );
-	}
+    /**
+     * @throws java.lang.Exception
+     */
+    @Before
+    public void setUp() throws Exception {
+        this.exctractor = new XmlExtractor(TEST_FILE.getAbsolutePath(),
+                new HashMap<String, String>());
+    }
 
-	/**
-	 * @throws java.lang.Exception
-	 */
-	@After
-	public void tearDown() throws Exception {
-		this.exctractor = null;
-	}
+    /**
+     * @throws java.lang.Exception
+     */
+    @After
+    public void tearDown() throws Exception {
+        this.exctractor = null;
+    }
 
-	@Test
-	public void testBuildXpath() {
-		// query matching single node
-		String query;
+    @Test
+    public void testBuildXpath() {
+        // query matching single node
+        String query;
 
-		query = "//user[1]/username/text()";
+        query = "//user[1]/username/text()";
 
-		String result;
-		result = ( String ) this.exctractor.buildXPath( query, false );
-		assertEquals( "anon1", result );
+        String result;
+        result = (String) this.exctractor.buildXPath(query, false);
+        assertEquals("anon1", result);
 
-		// query matching multiple nodes
-		query = "//user/username/text()";
-		String[] results;
-		results = ( String[] ) this.exctractor.buildXPath( query, true );
+        // query matching multiple nodes
+        query = "//user/username/text()";
+        String[] results;
+        results = (String[]) this.exctractor.buildXPath(query, true);
 
-		assertEquals( 24, results.length );
-	}
+        assertEquals(24, results.length);
+    }
 }

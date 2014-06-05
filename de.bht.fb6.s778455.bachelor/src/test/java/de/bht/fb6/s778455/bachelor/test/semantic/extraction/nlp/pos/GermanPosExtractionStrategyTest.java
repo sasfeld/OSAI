@@ -29,8 +29,13 @@ import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
  * 
  */
 public class GermanPosExtractionStrategyTest extends NoLoggingTest {
-    protected static final String PATH_GERMAN_HGC_MODEL = "./conf/pos/models/german-hgc.tagger";
-    protected static final String PATH_ENGLISH_MODEL = "./conf/pos/models/english-left3words-distsim.tagger";
+    protected static final File GERMAN_HGC_MODEL_FILE = new File(
+            PATH_UNITTEST_DATA_FOLDER
+                    + "/organization/pos/models/german-hgc.tagger");
+    protected static final File ENGLISH_HGC_MODEL_FILE = new File(
+            PATH_UNITTEST_DATA_FOLDER
+                    + "/organization/pos/models/english-left3words-distsim.tagger");
+
     protected AExtractionStrategy strategy;
 
     /**
@@ -38,8 +43,7 @@ public class GermanPosExtractionStrategyTest extends NoLoggingTest {
      */
     @Before
     public void setUp() throws Exception {
-        final File model = new File( PATH_GERMAN_HGC_MODEL );
-        this.strategy = new GermanPosExtractionStrategy( model );
+        this.strategy = new GermanPosExtractionStrategy( GERMAN_HGC_MODEL_FILE );
     }
 
     /**
@@ -53,7 +57,7 @@ public class GermanPosExtractionStrategyTest extends NoLoggingTest {
     @Test( expected = IllegalArgumentException.class )
     public void testForeignModel() {
         new GermanPosExtractionStrategy(
-                new File( PATH_ENGLISH_MODEL ) );
+                ENGLISH_HGC_MODEL_FILE );
     }
 
     @Test

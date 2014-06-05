@@ -10,8 +10,6 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory;
-import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 import edu.stanford.nlp.ie.AbstractSequenceClassifier;
 import edu.stanford.nlp.ie.crf.CRFClassifier;
@@ -26,11 +24,15 @@ import edu.stanford.nlp.ling.CoreLabel;
  *
  */
 public class GeneralNerTest extends NoLoggingTest {
+    protected static File HGC_CORPUS_FILE = new File(
+            PATH_UNITTEST_DATA_FOLDER
+                    + "/organization/ner/stanford-ner-2012-05-22-german/hgc_175m_600.crf.ser.gz");
+    
     protected AbstractSequenceClassifier< CoreLabel > classifier;
 
     @Before
     public void setUp() throws Exception {
-        this.classifier = CRFClassifier.getClassifier( new File ( ServiceFactory.getConfigReader().fetchValue( IConfigKeys.ANONYM_NER_GERMAN_HGC_FILE )) );
+        this.classifier = CRFClassifier.getClassifier( HGC_CORPUS_FILE );
     }
 
     @After

@@ -19,76 +19,72 @@ import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
-import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
- * <p>This class contains tests of the {@link MoodleXmlImporterStrategy}.</p>
- *
+ * <p>
+ * This class contains tests of the {@link MoodleXmlImporterStrategy}.
+ * </p>
+ * 
  * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
  * @since 03.01.2014
- *
+ * 
  */
 public class LuebeckXmlImporterStrategyTest extends NoLoggingTest {
-	private MoodleXmlImporterStrategy strategy;
+    protected static final File IMPORT_FOLDER = new File(
+            PATH_UNITTEST_DATA_FOLDER + "/importer/moodle/moodle_backup_function");
+    
+    private MoodleXmlImporterStrategy strategy;
 
-	/**
-	 * @throws java.lang.Exception
-	 */
-	@Before
-	public void setUp() throws Exception {
-		this.strategy = new MoodleXmlImporterStrategy();
-	}
+    /**
+     * @throws java.lang.Exception
+     */
+    @Before
+    public void setUp() throws Exception {
+        this.strategy = new MoodleXmlImporterStrategy();
+    }
 
-	/**
-	 * @throws java.lang.Exception
-	 */
-	@After
-	public void tearDown() throws Exception {
-		this.strategy = null;
-	}
+    /**
+     * @throws java.lang.Exception
+     */
+    @After
+    public void tearDown() throws Exception {
+        this.strategy = null;
+    }
 
-	@Test
-	/**
-	 * Test protected method.
-	 */
-	public void testImportCourses() throws NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
-		final Method method = MoodleXmlImporterStrategy.class
-				.getDeclaredMethod( "importCourses", File.class, LmsCourseSet.class );
-		method.setAccessible( true );
-		
-		final LmsCourseSet courseSet = new LmsCourseSet( "test course set" );
-		@SuppressWarnings( "unchecked" )
-        final
-		Map< Integer, Course > courseMap = ( Map< Integer, Course > ) method.invoke( this.strategy, new File("./data/importer/luebeck"), courseSet );
-		assertEquals( 12, courseMap.size() );
-		
-		for( final Course c : courseMap.values() ) {
-			System.out.println("++++++++++++++++++");
-			System.out.println("Course: ");
-			System.out.println(c);
-			
-			for( final Board board : c.getBoards() ) {
-				System.out.println("----------------------");
-				System.out.println("Board: ");
-				System.out.println(board);
-				System.out.println("----------------------");
-				
-				for( final BoardThread thread : board.getBoardThreads() ) {
-					System.out.println("########################");
-					System.out.println("Thread: ");
-					System.out.println(thread);
-					for( final Posting p : thread.getPostings() ) {
-						System.out.println("////////////////////");
-						System.out.println("Posting: ");
-						System.out.println(p);
-						System.out.println("////////////////////");
-					}
-					System.out.println("########################");
-				}
-			}
-			System.out.println("++++++++++++++++++");
-		}
-	}
+    @Test
+    /**
+     * Test protected method.
+     */
+    public void testImportCourses() throws NoSuchMethodException,
+            SecurityException, IllegalAccessException,
+            IllegalArgumentException, InvocationTargetException {
+        final Method method = MoodleXmlImporterStrategy.class
+                .getDeclaredMethod("importCourses", File.class,
+                        LmsCourseSet.class);
+        method.setAccessible(true);
+
+        final LmsCourseSet courseSet = new LmsCourseSet("test course set");
+        @SuppressWarnings("unchecked")
+        final Map<Integer, Course> courseMap = (Map<Integer, Course>) method
+                .invoke(this.strategy, IMPORT_FOLDER,
+                        courseSet);
+        assertEquals(12, courseMap.size());
+
+        for (final Course c : courseMap.values()) {
+            assertEquals(3, c.getBoards().size());
+
+            for (final Board board : c.getBoards()) {
+                assertEquals(4, board.getBoardThreads().size());              
+
+                for (final BoardThread thread : board.getBoardThreads()) {
+                    assertEquals(1, thread.getPostings().size());              
+                    break;
+                }
+                break;
+            }
+            break;
+        }
+    }
 
 }

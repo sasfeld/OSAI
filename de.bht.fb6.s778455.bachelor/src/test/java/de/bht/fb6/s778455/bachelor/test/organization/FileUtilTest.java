@@ -8,8 +8,6 @@ import static org.junit.Assert.assertEquals;
 import java.io.File;
 import java.util.List;
 
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 
 import de.bht.fb6.s778455.bachelor.organization.FileUtil;
@@ -17,40 +15,28 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
- * <p>This class realizes tests of the {@link FileUtil} class.</p>
- *
+ * <p>
+ * This class realizes tests of the {@link FileUtil} class.
+ * </p>
+ * 
  * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
  * @since 05.12.2013
- *
+ * 
  */
 public class FileUtilTest extends NoLoggingTest {
+    protected static final File TEST_FILE = new File(PATH_UNITTEST_DATA_FOLDER
+            + "/organization/fileLineBased.txt");
 
-	private static final String TEST_FILE = "./data/unittests/fileLineBased.txt";
 
-	/**
-	 * @throws java.lang.Exception
-	 */
-	@Before
-	public void setUp() throws Exception {
-	}
+    @Test
+    public void testReadFileLineBased() throws GeneralLoggingException {
+        List<String> lines = FileUtil.readFileLineBased(TEST_FILE, "UTF-8");
 
-	/**
-	 * @throws java.lang.Exception
-	 */
-	@After
-	public void tearDown() throws Exception {
-	}
+        assertEquals(3, lines.size());
 
-	@Test
-	public void testReadFileLineBased() throws GeneralLoggingException {
-		File testFile = new File( TEST_FILE );
-		List< String > lines = FileUtil.readFileLineBased( testFile, "UTF-8" );
-		
-		assertEquals( 3, lines.size() );
-		
-		assertEquals( "First line", lines.get( 0 ));
-		assertEquals( "Second line", lines.get( 1 ));
-		assertEquals( "Third line", lines.get( 2 ));
-	}
+        assertEquals("First line", lines.get(0));
+        assertEquals("Second line", lines.get(1));
+        assertEquals("Third line", lines.get(2));
+    }
 
 }

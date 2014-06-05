@@ -14,14 +14,12 @@ import org.junit.Test;
 import de.bht.fb6.s778455.bachelor.anonymization.controller.AnonymizationController;
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy;
-import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
-import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
@@ -34,6 +32,8 @@ import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
  * 
  */
 public class AnonymizationControllerTest extends NoLoggingTest {
+    protected static final File DIRECTORYIMPORT_TESTFOLDER = new File(
+            PATH_UNITTEST_DATA_FOLDER + "/importer/file_system_test");
     protected AnonymizationController anonymizationController;
 
     // @formatter:off
@@ -78,11 +78,7 @@ public class AnonymizationControllerTest extends NoLoggingTest {
     public void testPerformAnonymization() throws GeneralLoggingException {
         final AImportStrategy strategy = new DirectoryImportStrategy();
         final LmsCourseSet courses = strategy
-                .importBoardFromFile(new File(
-                        ServiceFactory
-                                .getConfigReader()
-                                .fetchValue(
-                                        IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_TESTFOLDER)));
+                .importBoardFromFile(DIRECTORYIMPORT_TESTFOLDER);
         final LmsCourseSet anonymizedCourses = this.anonymizationController
                 .performAnonymization(courses);
         assertTrue(null != anonymizedCourses);
