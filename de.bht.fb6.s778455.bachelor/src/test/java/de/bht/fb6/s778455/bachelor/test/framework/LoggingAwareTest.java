@@ -12,7 +12,7 @@ import de.bht.fb6.s778455.bachelor.organization.Application;
  * @since 30.01.2014
  *
  */
-public abstract class LoggingAwareTest {
+public abstract class LoggingAwareTest extends UnitTest {
     
     public LoggingAwareTest() {
         Application.initializeLogger(false);

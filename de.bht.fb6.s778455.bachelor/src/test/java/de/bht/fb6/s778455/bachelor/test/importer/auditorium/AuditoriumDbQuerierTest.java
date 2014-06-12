@@ -21,6 +21,7 @@ import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.test.framework.ConfigReader;
 import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
@@ -35,12 +36,25 @@ import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 public class AuditoriumDbQuerierTest extends NoLoggingTest {
 
     protected AuditoriumDbQuerier dbQuerier;
+    protected boolean skipTest = false;
 
+    public AuditoriumDbQuerierTest()
+    {
+        super();
+        
+        ConfigReader reader = super.getServiceFactory().getService(ConfigReader.SERVICE_NAME);
+        skipTest = !reader.isAuditoriumImportTestEnabled();
+    }
+    
     /**
      * @throws java.lang.Exception
      */
     @Before
     public void setUp() throws Exception {
+        if (this.skipTest) {
+            return;
+        }
+        
         this.dbQuerier = new AuditoriumDbQuerier();
     }
 
@@ -54,6 +68,10 @@ public class AuditoriumDbQuerierTest extends NoLoggingTest {
 
     @Test
     public void testFetchCourses() throws GeneralLoggingException {
+        if (this.skipTest) {
+            return;
+        }
+        
         final Map<Integer, Course> fetchedCourses = this.dbQuerier
                 .fetchCourses(new LmsCourseSet("unit test course set"));
 
@@ -150,6 +168,10 @@ public class AuditoriumDbQuerierTest extends NoLoggingTest {
 
     @Test
     public void testFetchnames() throws GeneralLoggingException {
+        if (this.skipTest) {
+            return;
+        }
+        
         final Set<String> prenames = this.dbQuerier.fetchPrenames();
         final Set<String> lastnames = this.dbQuerier.fetchLastnames();
 

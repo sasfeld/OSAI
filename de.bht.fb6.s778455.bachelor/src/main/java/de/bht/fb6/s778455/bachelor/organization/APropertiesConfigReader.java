@@ -32,6 +32,8 @@ import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
  */
 public abstract class APropertiesConfigReader implements IConfigReader {
     protected static final String PATH_CONFIG = "./conf/production/";
+    protected static final String PATH_CONFIG_UNITTEST = "./conf/unittest/";
+    
     protected Properties properties;
     protected Map<String, String> propertiesMap;
 
@@ -195,6 +197,20 @@ public abstract class APropertiesConfigReader implements IConfigReader {
             throw new InvalidConfigException(errorMessage, presentationMessage,
                     e);
         }
+    }
+    
+    /**
+     * Check if the value for the given config key is 'enabled'.
+     * @param configKey
+     * @return
+     */
+    public boolean isValueEnabled( final String configKey ) 
+    {
+        if ("enabled".equals(this.fetchValue(configKey).trim().toLowerCase())) {
+            return true;
+        }
+        
+        return false;
     }
 
 }

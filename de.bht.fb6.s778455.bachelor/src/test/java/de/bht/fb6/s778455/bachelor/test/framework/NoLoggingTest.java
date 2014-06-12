@@ -15,11 +15,13 @@ import de.bht.fb6.s778455.bachelor.organization.Application;
  * @since 02.06.2014
  * 
  */
-public abstract class NoLoggingTest {
+public abstract class NoLoggingTest extends UnitTest {
     protected static final String PATH_UNITTEST_DATA_FOLDER = "./data/unittest";
 
     public NoLoggingTest() 
     {
+        super();
+        
         Application.initializeLogger(true);
     }
 }
