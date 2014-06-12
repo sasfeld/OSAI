@@ -28,7 +28,7 @@ public class ConfigReader extends APropertiesConfigReader implements
 	/**
 	 * Path to the anonymization.properties file.
 	 */
-	public static final String PATH_IMPORT_PROPERTIES = "./conf/importer.properties";
+	public static final String PATH_IMPORT_PROPERTIES = PATH_CONFIG + "importer.properties";
 	/**
 	 * Lazy value.
 	 */

@@ -33,7 +33,7 @@ public class ConfigReader extends APropertiesConfigReader implements
 	/**
 	 * Path to the anonymization.properties file.
 	 */
-	public static final String PATH_ANONYMIZATION_PROPERTIES = "./conf/anonymization.properties";
+	public static final String PATH_ANONYMIZATION_PROPERTIES = PATH_CONFIG + "anonymization.properties";
 
 	protected AAnomyzationStrategy anonymizationStrategy;
 
