@@ -37,13 +37,14 @@ public class AuditoriumDbQuerierTest extends NoLoggingTest {
 
     protected AuditoriumDbQuerier dbQuerier;
     protected boolean skipTest = false;
+    private ConfigReader configReader;
 
     public AuditoriumDbQuerierTest()
     {
         super();
         
-        ConfigReader reader = super.getServiceFactory().getService(ConfigReader.SERVICE_NAME);
-        skipTest = !reader.isAuditoriumImportTestEnabled();
+        this.configReader = super.getServiceFactory().getService(ConfigReader.SERVICE_NAME);
+        skipTest = !configReader.isAuditoriumImportTestEnabled();
     }
     
     /**
@@ -54,8 +55,11 @@ public class AuditoriumDbQuerierTest extends NoLoggingTest {
         if (this.skipTest) {
             return;
         }
-        
-        this.dbQuerier = new AuditoriumDbQuerier();
+        final String host = this.configReader.getAuditoriumHost();
+        final String user = this.configReader.getAuditoriumUser();
+        final String password = this.configReader.getAuditoriumPw();
+        final String dbname = this.configReader.getAuditoriumDbName();
+        this.dbQuerier = new AuditoriumDbQuerier(host, user, password, dbname);
     }
 
     /**
@@ -80,8 +84,6 @@ public class AuditoriumDbQuerierTest extends NoLoggingTest {
         final int numberFecthedCourses = fetchedCourses.size();
         assertTrue(0 < numberFecthedCourses);
 
-        System.out
-                .println("Number of fetched courses: " + numberFecthedCourses);
 
         final Collection<Course> courses = fetchedCourses.values();
         for (final Course course : courses) {
@@ -97,8 +99,6 @@ public class AuditoriumDbQuerierTest extends NoLoggingTest {
         final int numberFetchedBoards = fetchedBoards.size();
         assertTrue(0 < numberFetchedBoards);
 
-        System.out.println("Number of fetched boards: " + numberFetchedBoards);
-
         for (final Board board : fetchedBoards.values()) {
             assertTrue(0 != board.getId());
         }
@@ -111,9 +111,6 @@ public class AuditoriumDbQuerierTest extends NoLoggingTest {
         final int numberFetchedThreads = fetchedThreads.size();
         assertTrue(0 < numberFetchedThreads);
 
-        System.out.println(" Number of fetched threads: "
-                + numberFetchedThreads);
-
         for (final BoardThread thread : fetchedThreads.values()) {
             assertTrue(0 != thread.getId());
         }
@@ -125,9 +122,6 @@ public class AuditoriumDbQuerierTest extends NoLoggingTest {
         assertTrue(null != fetchedPostings);
         final int numberFetchedPostings = fetchedPostings.size();
         assertTrue(0 < numberFetchedPostings);
-
-        System.out.println("Number of fetched postings: "
-                + numberFetchedPostings);
 
         for (final Posting posting : fetchedPostings) {
             assertTrue(0 != posting.getId());
@@ -158,12 +152,6 @@ public class AuditoriumDbQuerierTest extends NoLoggingTest {
         // so it must be less than
         assertTrue(numberFetchedPostings < numContainedPostings);
         assertEquals(655, numContainedPostings - numberFetchedPostings);
-
-        System.out.println("Number of contained postings: "
-                + numContainedPostings);
-
-        System.out.println();
-        System.out.println(courses);
     }
 
     @Test
@@ -180,12 +168,6 @@ public class AuditoriumDbQuerierTest extends NoLoggingTest {
 
         assertTrue(0 < prenames.size());
         assertTrue(0 < lastnames.size());
-
-        System.out.println("prenames: ");
-        System.out.println(prenames);
-        System.out.println();
-        System.out.println("lastnames: ");
-        System.out.println(lastnames);
     }
 
 }

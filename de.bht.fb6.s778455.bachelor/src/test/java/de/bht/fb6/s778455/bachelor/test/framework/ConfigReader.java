@@ -43,4 +43,24 @@ public class ConfigReader extends APropertiesConfigReader implements IService {
     public String getServiceName() {
         return SERVICE_NAME;
     }
+
+
+    public String getAuditoriumHost() {
+        return super.fetchValue(IConfigKeys.UNITTEST_IMPORT_STRATEGY_AUDITORIUM_DB_DBHOST);
+    }
+
+
+    public String getAuditoriumUser() {
+        return super.fetchValue(IConfigKeys.UNITTEST_IMPORT_STRATEGY_AUDITORIUM_DB_USER);
+    }
+
+
+    public String getAuditoriumPw() {
+        return super.fetchValue(IConfigKeys.UNITTEST_IMPORT_STRATEGY_AUDITORIUM_DB_PW);
+    }
+
+
+    public String getAuditoriumDbName() {
+        return super.fetchValue(IConfigKeys.UNITTEST_IMPORT_STRATEGY_AUDITORIUM_DB_DBNAME);
+    }
 }

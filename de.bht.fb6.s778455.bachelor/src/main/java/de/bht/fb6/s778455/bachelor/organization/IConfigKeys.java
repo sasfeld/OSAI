@@ -134,4 +134,8 @@ public interface IConfigKeys {
      * unittest
      */
     String UNITTEST_IMPORT_STRATEGY_AUDITORIUM = "unittest.import.strategy.auditorium";
+    String UNITTEST_IMPORT_STRATEGY_AUDITORIUM_DB_DBHOST = "unittest.import.strategy.auditorium.db.host";
+    String UNITTEST_IMPORT_STRATEGY_AUDITORIUM_DB_USER = "unittest.import.strategy.auditorium.db.user";
+    String UNITTEST_IMPORT_STRATEGY_AUDITORIUM_DB_PW = "unittest.import.strategy.auditorium.db.password";
+    String UNITTEST_IMPORT_STRATEGY_AUDITORIUM_DB_DBNAME = "unittest.import.strategy.auditorium.db.dbname";
 }
