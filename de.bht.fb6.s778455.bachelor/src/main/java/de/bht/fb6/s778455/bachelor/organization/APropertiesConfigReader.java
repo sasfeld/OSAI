@@ -189,7 +189,7 @@ public abstract class APropertiesConfigReader implements IConfigReader {
                 | InvocationTargetException | ClassCastException e) {
             String errorMessage = "de.bht.fb6.s778455.bachelor.organization.APropertiesConfigReader.getConfiguredClass(): the instanciation of the given configured class (given value: "
                     + classPropertyKey
-                    + ") was not successfull. Either it doesn't exist or doesn't extend the given class. Full exception: \n"
+                    + ") was not successfull. Either it doesn't exist or doesn't extend the given class. Or the constructor raises an exception. Full exception: \n"
                     + e;
             String presentationMessage = "An internal error occured while trying to read the configuration in the module. Please read the error log.";
             throw new InvalidConfigException(errorMessage, presentationMessage,
