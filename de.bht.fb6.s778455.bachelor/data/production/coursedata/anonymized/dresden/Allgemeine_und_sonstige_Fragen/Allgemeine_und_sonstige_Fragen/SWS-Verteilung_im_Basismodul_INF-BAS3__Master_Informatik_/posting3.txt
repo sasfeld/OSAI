@@ -1,0 +1,13 @@
+ID: 730
+CREATION_DATETIME: 1352674800000
+MODIFICATION_DATETIME: 1352674800000
+TITLE: 4/4/0 sind doch aber:
+ - insgesamt 8 SWS,
+ - mindestens 2 SWS Übungen,
+ - mindestens 2 SWS Vorlesu...
+PARENT_POSTING_ID: 728
+POSTING_TYPE: comment
+CONTENT:
+4/4/0 sind doch aber: insgesamt 8 SWS, mindestens 2 SWS Übungen, mindestens 2 SWS Vorlesungen, und 4 SWS frei ausgewählt aus Vorlesungen und/oder Seminaren.
+Editiert für Formatierungsgewinn.
+TAGGED_CONTENT:

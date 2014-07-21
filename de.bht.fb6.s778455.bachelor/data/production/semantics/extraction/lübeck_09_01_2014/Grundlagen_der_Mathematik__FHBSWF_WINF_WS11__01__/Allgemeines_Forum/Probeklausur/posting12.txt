@@ -1,0 +1,8 @@
+ID: 117565
+CREATION_DATETIME: 1327479748
+MODIFICATION_DATETIME: 1327479748
+TITLE: Re: Probeklausur
+PARENT_POSTING_ID: 117563
+CONTENT:
+so lässt sich meine Lösung nun auch nachvollziehen... Habe vorher immer meinen Fehler gesucht. 
+TAGGED_CONTENT:

@@ -1,0 +1,16 @@
+ID: 33
+CREATION_DATETIME: 1201200660000
+MODIFICATION_DATETIME: 1201200660000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 32
+CONTENT:
+
+    hallo ,
+
+versuche es mal mit der methode bw.newLine(); (siehe dazu LE02)
+
+gruss
+
+    
+TAGGED_CONTENT:

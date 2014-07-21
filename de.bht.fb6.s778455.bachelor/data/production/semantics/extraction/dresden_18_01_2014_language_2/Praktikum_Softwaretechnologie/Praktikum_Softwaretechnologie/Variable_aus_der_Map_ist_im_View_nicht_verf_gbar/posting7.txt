@@ -1,0 +1,12 @@
+ID: 2799
+CREATION_DATETIME: 1384124400000
+MODIFICATION_DATETIME: 1384124400000
+TITLE: Dein getter heißt `getWorkTime()´, in deinem Template benutzt du `emp.worktime`, das  wird in den Auf...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2791
+POSTING_TYPE: answer
+CONTENT:
+Dein getter heißt `getWorkTime()`, in deinem Template benutzt du `emp. worktime`, das  wird in den Aufruf `emp. getWorktime()` übersetzt.
+
+t vs T.
+TAGGED_CONTENT:

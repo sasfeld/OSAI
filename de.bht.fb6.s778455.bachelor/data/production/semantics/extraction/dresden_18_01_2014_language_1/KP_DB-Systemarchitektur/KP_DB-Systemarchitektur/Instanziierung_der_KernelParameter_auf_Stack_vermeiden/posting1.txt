@@ -1,0 +1,34 @@
+ID: 2079
+CREATION_DATETIME: 1371506400000
+MODIFICATION_DATETIME: 1372543200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo zusammen,
+
+ich hab eine Frage, bei der es um das Design unseres Interfaces für den User geht.
+
+Zurzeit werden der KernelParameter beim User auf dem Stack instanziert. Also einfach so:
+
+```ruby
+
+KernelParameter myParameter;
+
+```
+
+Das bedeutet allerdings, dass im Headerfile, den der User einbinden muss, auch alle möglichen privaten Member sowie Funktionen, die der User gar nicht braucht, drinstehen müssen.
+
+Das würde ich gern vermeiden und denke deshalb darüber nach die Instanziierung der KernelParameter nur noch auf dem Heap zuzulassen (privater Konstruktor + create-Methode, welche dann einen Pointer bzw. Reference auf die neue Instanz zurückliefert, ähnlich zu <REMOVED_PERSON_ENTITY>, nur mit mehreren Instanzen).
+
+Danach geht's dann nur noch so:
+
+```ruby
+
+kernelParameter* myParameter = Kernelparameter::createInstance();
+
+```
+
+Was haltet ihr davon? Gibt's Meinungen?
+TAGGED_CONTENT:

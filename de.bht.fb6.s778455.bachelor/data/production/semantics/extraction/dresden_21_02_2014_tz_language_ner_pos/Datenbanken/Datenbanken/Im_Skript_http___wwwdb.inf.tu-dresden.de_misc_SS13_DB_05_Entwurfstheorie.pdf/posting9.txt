@@ -1,0 +1,20 @@
+ID: 2527
+CREATION_DATETIME: 1376344800000
+MODIFICATION_DATETIME: 1376344800000
+TITLE: C ist sowohl in der Transitiven Hülle von A als auch in der Transitiven Hülle von B (siehe eine Folie...
+LANGUAGE: GERMAN
+POS_TAG: value:A;weight:0.0;uri:;postag:NN
+POS_TAG: value:lle;weight:0.0;uri:;postag:NN
+POS_TAG: value:B;weight:0.0;uri:;postag:NN
+POS_TAG: value:C;weight:0.0;uri:;postag:NN
+POS_TAG: value:Transitiven;weight:0.0;uri:;postag:NN
+POS_TAG: value:Folie;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2512
+POSTING_TYPE: comment
+CONTENT:
+C ist sowohl in der Transitiven Hülle <NAME_CORPUS_REPLACEMENT> A als auch in der Transitiven Hülle <NAME_CORPUS_REPLACEMENT> B (siehe eine Folie davor).
+
+Wann geht ihr essen?
+TAGGED_CONTENT:
+C_NN ist_VAFIN sowohl_KON in_APPR der_ART Transitiven_NN Hülle_NN <_CARD NAME_CORPUS_REPLACEMENT_NN >_CARD A_NN als_KON auch_ADV in_APPR der_ART Transitiven_NN Hülle_NN <_CARD NAME_CORPUS_REPLACEMENT_NN >_VVFIN B_NN -LRB-_TRUNC siehe_VVIMP eine_ART Folie_NN davor_PROAV -RRB-_TRUNC ._$. Wann_PWAV geht_VVFIN ihr_PPER essen_VVINF ?_$. 

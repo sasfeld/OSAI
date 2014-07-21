@@ -1,0 +1,9 @@
+ID: 1550
+CREATION_DATETIME: 1363820400000
+MODIFICATION_DATETIME: 1363820400000
+TITLE: Für Kahala funktioniert das übrigens auch, sollte sicher auch für andere interessant sein.
+PARENT_POSTING_ID: 1455
+POSTING_TYPE: comment
+CONTENT:
+Für Kalaha funktioniert das ebenso, sollte für andere auch interessant sein.
+TAGGED_CONTENT:

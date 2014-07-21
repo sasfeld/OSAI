@@ -1,0 +1,10 @@
+ID: 1426
+CREATION_DATETIME: 1362783600000
+MODIFICATION_DATETIME: 1362783600000
+TITLE: The kernel reserves a chunk of *physical* memory for itself and maps this into everyone's *virtual* t...
+PARENT_POSTING_ID: 1419
+POSTING_TYPE: answer
+CONTENT:
+The kernel reserves a chunk of *physical* memory for itself and maps this into everyone's *virtual* top 1 GB region. Only the remainder of memory is made available to user space by passing it to sigma0 during startup.
+Access to kernel memory from user space is prevented by the MMU using [page tables](http://en.wikipedia.org/wiki/Page_table).
+TAGGED_CONTENT:

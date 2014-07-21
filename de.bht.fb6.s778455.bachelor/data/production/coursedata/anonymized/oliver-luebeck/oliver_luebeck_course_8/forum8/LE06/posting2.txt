@@ -1,0 +1,19 @@
+ID: 32
+CREATION_DATETIME: 1195555740000
+MODIFICATION_DATETIME: 1195555740000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 31
+CONTENT:
+
+Hallo,
+
+ich habe gerade die IDE NetBeans entdeckt.
+Damit kann die GUI zeichnerisch, also anhand des Designs zusammengebaut werden und der Java-Code wird automatisch generiert.
+
+
+http://netbeans.org/index_de.html
+
+Grüße und einen schönen Sonntag
+    
+TAGGED_CONTENT:

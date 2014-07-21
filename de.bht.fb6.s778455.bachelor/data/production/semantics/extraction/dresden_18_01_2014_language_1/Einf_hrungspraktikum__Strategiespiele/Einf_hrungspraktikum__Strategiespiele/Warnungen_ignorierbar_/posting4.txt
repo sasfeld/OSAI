@@ -1,0 +1,10 @@
+ID: 1218
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: vi/vim/Gvim, emacs, Sublime Text, GEdit, uvm. Jetzt geht der Flamewar los ...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 1210
+POSTING_TYPE: comment
+CONTENT:
+vi/vim/Gvim, emacs, Sublime Text, GEdit, uvm. Jetzt geht der Flamewar los ...
+TAGGED_CONTENT:

@@ -1,0 +1,11 @@
+ID: 241941
+CREATION_DATETIME: 1381342546
+MODIFICATION_DATETIME: 1381342546
+TITLE: Onlinemeeting heute Abend
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+ich möchte mich nur mal kurz vergewissern, ob irgendeine Information an mir vorbei gegangen ist.
+Findet die Onlinekonferenz als "Web conference" mit Adobe Connect statt oder über einen alternativen Kommunikationskanal?
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

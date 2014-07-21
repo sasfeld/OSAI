@@ -1,0 +1,30 @@
+ID: 185719
+CREATION_DATETIME: 1354797022
+MODIFICATION_DATETIME: 1354797175
+TITLE: Re: Aufgabe 2b)
+TOPIC_ZOOM_TAG: value:Mathematik;weight:5.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Skalare;weight:3.0;significance:7.62512970914034;degreegeneralization:7;uri:19937424
+TOPIC_ZOOM_TAG: value:Vektoren;weight:2.0;significance:5.08341980609356;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:5.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:5.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:5.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:5.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Hölle;weight:1.0;significance:2.06213084848712;degreegeneralization:6;uri:20910334
+TOPIC_ZOOM_TAG: value:Satan;weight:1.0;significance:1.86825073704949;degreegeneralization:5;uri:20910351
+TOPIC_ZOOM_TAG: value:Fiktionale Persönlichkeiten;weight:1.0;significance:1.54092064185769;degreegeneralization:3;uri:21970709
+TOPIC_ZOOM_TAG: value:Religion;weight:1.0;significance:0.916820531903616;degreegeneralization:3;uri:21993642
+TOPIC_ZOOM_TAG: value:Religion und Weltanschauung;weight:1.0;significance:0.854123200960664;degreegeneralization:2;uri:21310871
+POS_TAG: value:Vektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:lle;weight:0.0;uri:;postag:NN
+POS_TAG: value:A;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skalar;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Graph;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabenstellung;weight:0.0;uri:;postag:NN
+POS_TAG: value:schreiben?Bin;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 185681
+CONTENT:
+Muss man denn jetzt noch addieren und mit einem Skalar multiplizieren? Laut Aufgabenstellung sollen wir das nicht unbedingt auf den Graph G beziehen, sondern allgemein fassen.
+Kann man da jetzt nicht einfach "Skalar * Vektor A ist immernoch ein Skalar * Vektor" und nichts anderes schreiben?Bin nicht sicher, ob wir die Vektoren überhaupt dafür nutzen sollen... Aber wie zur Hölle zeige ich, dass die abgeschlossen sind? :)
+TAGGED_CONTENT:
+Muss_NE man_PIS denn_ADV jetzt_ADV noch_ADV addieren_VVINF und_KON mit_APPR einem_ART Skalar_NN multiplizieren_VVINF ?_$. Laut_APPR Aufgabenstellung_NN sollen_VMFIN wir_PPER das_PDS nicht_PTKNEG unbedingt_ADV auf_APPR den_ART Graph_NN G_NE beziehen_VVINF ,_$, sondern_KON allgemein_ADJD fassen_VVINF ._$. Kann_VMFIN man_PIS da_ADV jetzt_ADV nicht_PTKNEG einfach_ADJD "_$( Skalar_FM \*_FM Vektor_FM A_NN ist_VAFIN immernoch_ADV ein_ART Skalar_NN \*_CARD Vektor_NN "_$( und_KON nichts_PIAT anderes_PIS schreiben?Bin_NN nicht_PTKNEG sicher_ADJD ,_$, ob_KOUS wir_PPER die_ART Vektoren_NN überhaupt_ADV dafür_PROAV nutzen_VVINF sollen_VMFIN ..._$( Aber_KON wie_PWAV zur_APPRART Hölle_NN zeige_VVFIN ich_PPER ,_$, dass_KOUS die_ART abgeschlossen_VVPP sind_VAFIN ?_$. :-RRB-_XY 

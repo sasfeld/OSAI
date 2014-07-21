@@ -1,0 +1,38 @@
+ID: 117507
+CREATION_DATETIME: 1330958204
+MODIFICATION_DATETIME: 1330958204
+TITLE: Evaluation WS 11/12
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:2.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Semester;weight:1.0;significance:4.83201353875525;degreegeneralization:4;uri:20914363
+TOPIC_ZOOM_TAG: value:Chat;weight:1.0;significance:4.65367606678589;degreegeneralization:7;uri:20901477
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:2.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:3.47798843820414;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:1.0;significance:3.25199587633262;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:2.77735785682754;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Lifestyle und Internet;weight:1.0;significance:2.53445361368796;degreegeneralization:6;uri:21999575
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Lifestyle, Mode, Schönheit;weight:1.0;significance:2.18595971379839;degreegeneralization:3;uri:21999456
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:1.7207726480701;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:1.07441906812122;degreegeneralization:2;uri:21999813
+POS_TAG: value:Evaluation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Semester;weight:0.0;uri:;postag:NN
+POS_TAG: value:Damen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bedarf;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anfrage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Chat;weight:0.0;uri:;postag:NN
+POS_TAG: value:Prof.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bitte;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Sehr geehrte Damen und <REMOVED_PERSON_ENTITY>,
+ich moechte mich fuer die Evaluation bedanken und auf Anfrage werde ich gerne diese in einem Chat besprechen. Bitte melden Sie sich, falls Sie Bedarf sehen.
+Ansonsten wuensche ich Ihnen ein gutes, neues und erfolgreiches Semester.
+Prof. <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Sehr_ADV geehrte_ADJA Damen_NN und_KON <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN ,_$, ich_PPER moechte_VVFIN mich_PRF fuer_VAFIN die_ART Evaluation_NN bedanken_VVFIN und_KON auf_APPR Anfrage_NN werde_VAFIN ich_PPER gerne_ADV diese_PDAT in_APPR einem_ART Chat_NN besprechen_VVFIN ._$. Bitte_NN melden_VVFIN Sie_PPER sich_PRF ,_$, falls_KOUS Sie_PPER Bedarf_NN sehen_VVINF ._$. Ansonsten_ADV wuensche_VVFIN ich_PPER Ihnen_PPER ein_ART gutes_ADJA ,_$, neues_ADJA und_KON erfolgreiches_ADJA Semester_NN ._$. Prof._NN <_VVFIN REMOVED_PERSON_ENTITY_NE >_XY 

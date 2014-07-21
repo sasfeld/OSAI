@@ -1,0 +1,19 @@
+ID: 2445
+CREATION_DATETIME: 1374616800000
+MODIFICATION_DATETIME: 1374789600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+In einer Früheren Klausur wurde folgende Aufgabe gestellt:
+Sie führen ein Telefongespräch über Ihr ISDN-Telefon (Datenrate <NAME_CORPUS_REPLACEMENT> 64 kbit/s). Die Daten sollen über ein ATM-Netz (Datenrate <NAME_CORPUS_REPLACEMENT> 155 Mbit/s) transportiert werden. Dazu müssen die Datenpakete des Datenstroms in 53 Byte große ATM-Zellen verpackt werden. <NAME_CORPUS_REPLACEMENT> den 53 Bytes sind 5 Bytes Header und 48 Bytes Payload, 
+a) Warum sind die 5 Bytes Header erforderlich?
+b) Welche Verzögerung ergibt sich durch das Verpacken des ISDN-Datenstroms in die ATM-
+Zellen für die ISDN-Verbindung und das anschließende Weitersenden der Zellen, wenn nur
+die Daten dieser Verbindung über das ATM-Netz transportiert werden und alle ATM-Zellen
+vollständig gefüllt sind? Welcher Leitungslänge entspricht eine solche Verzögerung (Signalausbreitungsgeschwindigkeit 200000 km/s)?
+c) Angenommen. ATM hätte einen <REMOVED_PERSON_ENTITY> der Größe 1500 Byte (wie Ethernet) und — wie
+ober, — 5 Bytes Header. Wie groß wäre die zeitliche Verzögerung dann und welcher Strecke
+wurde sie nun entsprechen?
+Ich bin überfordert, glaube allerdings, dass das ok ist, weil ATM dieses Jahr jediglich mündlich in der VL erwähnt wurde und sonst keine <REMOVED_PERSON_ENTITY> spielte. Kann ich diese Aufgabe guten Gewissens nicht lösen können?
+TAGGED_CONTENT:

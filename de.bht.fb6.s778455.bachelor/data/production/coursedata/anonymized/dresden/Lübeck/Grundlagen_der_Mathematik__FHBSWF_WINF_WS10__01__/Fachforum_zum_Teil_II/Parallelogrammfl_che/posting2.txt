@@ -1,0 +1,8 @@
+ID: 97806
+CREATION_DATETIME: 1292840822
+MODIFICATION_DATETIME: 1292840822
+TITLE: Re: Parallelogrammfläche
+PARENT_POSTING_ID: 97805
+CONTENT:
+Versuchen Sie es mal mit dem Spatprodukt statt mit dem Kreuzprodukt. Das was Sie ausrechnen auf dem <REMOVED_PERSON_ENTITY> ist die Laenge des orthogonalen Vektors von a und b, also etwas komplett anderes.
+TAGGED_CONTENT:

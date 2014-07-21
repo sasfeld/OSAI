@@ -1,0 +1,9 @@
+ID: 644
+CREATION_DATETIME: 1351724400000
+MODIFICATION_DATETIME: 1351724400000
+TITLE: In der Punkteaufschlüsselung der Bewertung taucht die Präsentation nicht auf (sollte wohl auch nicht ...
+PARENT_POSTING_ID: 643
+POSTING_TYPE: comment
+CONTENT:
+In der Punkteaufschlüsselung der Bewertung taucht die Präsentation nicht auf (sollte wohl auch nicht <NAME_CORPUS_REPLACEMENT> ja nicht jeder alles vorstellt). Zieht ihr dann einfach Punkte ab für schlechte Präsentationen? Oder gibts gar Extrapunkte?
+TAGGED_CONTENT:

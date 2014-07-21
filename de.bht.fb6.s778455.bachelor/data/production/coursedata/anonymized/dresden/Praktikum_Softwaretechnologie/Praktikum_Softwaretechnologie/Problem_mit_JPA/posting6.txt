@@ -1,0 +1,11 @@
+ID: 2952
+CREATION_DATETIME: 1384988400000
+MODIFICATION_DATETIME: 1384988400000
+TITLE: Damit das richtig funktioniert, ist es nötig die Packages richtig zu verwenden. Die Exception sagt di...
+PARENT_POSTING_ID: 2947
+POSTING_TYPE: answer
+CONTENT:
+Damit das richtig funktioniert, ist es nötig die Packages richtig zu verwenden. Die Exception sagt dir, dass Spring keine Beaninstanz für das `CustomerRepository` erzeugen kann. Dies ist der Fall, <NAME_CORPUS_REPLACEMENT> deine Main-Klasse in einem anderen Package liegt, als dein Repository-Interface.
+Um noch etwas genauer zu werden: die Main-Klasse ist mit `@ComponentScan` annotiert. Diese Annotation sorgt dafür, dass das Package der annotierten Klasse (in deinem Fall also `blankweb` und alle Subpackages) nach Spring-Komponenten durchsucht wird. <NAME_CORPUS_REPLACEMENT> dein Repository nicht unterhalb <NAME_CORPUS_REPLACEMENT> `blankweb` liegt wird es nicht gefunden und kann somit nicht in den Controller injiziert werden.
+Das klassische Vorgehen ist, ein Basispackage für die Applikation zu haben (z. B. `myApp`), in diesem Package die Main-Klasse mit der `@ComponentScan`-Annotation zu haben und dann alle Applikationsklassen und -interfaces unterhalb dieses Packages (u. U. auch in Subpackages wie z. B. `myApp. foo`) zu legen. Dann werden die Komponenten automatisch gefunden und können miteinander Verdrahtet werden.
+TAGGED_CONTENT:

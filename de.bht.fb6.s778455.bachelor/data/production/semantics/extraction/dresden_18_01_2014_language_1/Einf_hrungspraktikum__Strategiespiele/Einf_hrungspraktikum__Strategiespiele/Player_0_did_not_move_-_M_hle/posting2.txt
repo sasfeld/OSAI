@@ -1,0 +1,10 @@
+ID: 1238
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: hab jetzt nen pointer entfernt, den ich kurz davor neu gesetzt hatte, aber den fehler würd ich schon ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1237
+POSTING_TYPE: comment
+CONTENT:
+hab jetzt nen pointer entfernt, den ich kurz davor neu gesetzt hatte, aber den fehler würd ich schon gern verstehen...
+TAGGED_CONTENT:

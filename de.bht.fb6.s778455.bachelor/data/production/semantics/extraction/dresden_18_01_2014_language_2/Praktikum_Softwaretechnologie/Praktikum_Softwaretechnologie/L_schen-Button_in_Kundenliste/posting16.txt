@@ -1,0 +1,16 @@
+ID: 2986
+CREATION_DATETIME: 1385161200000
+MODIFICATION_DATETIME: 1385161200000
+TITLE: Der Fehler springt einen direkt an, Thymeleaf/SAX liefert sogar die Stelle,  einfacher kann man es de...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2935
+POSTING_TYPE: comment
+CONTENT:
+Der Fehler springt einen direkt an, Thymeleaf/SAX liefert sogar die Stelle,  einfacher kann man es dem Entwickler doch kaum machen.
+
+``` 
+
+org. xml. sax. SAXParseException; lineNumber: 34; columnNumber: 12; Auf Elementtyp "td" müssen entweder Attributspezifikationen, ">" oder "/>" folgen.
+
+```
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 1363
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Zum Debuggen von Speicherfehlern empfiehlt sich [valgrind](http://valgrind.org/). Leider ist die Bedi...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1357
+POSTING_TYPE: comment
+CONTENT:
+Zum Debuggen <NAME_CORPUS_REPLACEMENT> Speicherfehlern empfiehlt sich [valgrind](http://valgrind.org/). Leider ist die Bedienung und Auswertung nicht ganz einfach. Falls du es doch Probieren möchtest, musst du den mcp in etwa so aufrufen:
+
+```valgrind --tool=memcheck -v ./mcp player1 player2```
+TAGGED_CONTENT:

@@ -1,0 +1,23 @@
+ID: 194913
+CREATION_DATETIME: 1358628296
+MODIFICATION_DATETIME: 1358628296
+TITLE: Re: Gruppenübungen
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:3.47798843820414;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Tipps;weight:1.0;significance:2.9863847504958;degreegeneralization:4;uri:20291636
+TOPIC_ZOOM_TAG: value:Bücher;weight:1.0;significance:2.90139811946123;degreegeneralization:5;uri:21981657
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:2.77735785682754;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:2.59037776375624;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:2.18452430611399;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Presse, Druck und Verlagswesen;weight:1.0;significance:1.94986601606664;degreegeneralization:4;uri:21990174
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:1.07441906812122;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 194785
+CONTENT:
+Hallo Herr Prof. Dr. <REMOVED_PERSON_ENTITY>,
+Vielen Dank für die Antwort. Also ich habe mir das besagte Kapitel noch einmal angeschaut. Ich weiß eigentlich auch was ich mit einer Produktmatrix und Elementarmatrix  machen kann , aber ich sehe nicht wirklich wie mir dieses Wissen hier weiterhelfen soll. Um eine Produktmatrix erzeugen zu können muss ich ja ganz genau wissen welche operationen mittels Gaußalgo. durchgeführt wurden sind. Wenn ich dann M als Koeffizietenmatrix setze und und R für die rechte <REMOVED_PERSON_ENTITY> einsetzte dann ist dieses LGS nicht lösbar , da der Rang unterschiedlich ist.
+ 
+Haben Sie eventuell noch ein Tipp für mich? Können mir meine Mitstreiter eventuell auf die Sprünge helfen?
+Besten Dank und Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

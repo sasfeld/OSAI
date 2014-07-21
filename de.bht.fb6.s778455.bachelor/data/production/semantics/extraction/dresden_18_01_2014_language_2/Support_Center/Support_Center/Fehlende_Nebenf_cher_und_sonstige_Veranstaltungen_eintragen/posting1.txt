@@ -1,0 +1,28 @@
+ID: 1090
+CREATION_DATETIME: 1359500400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Es kommen vermehrt Anfragen, Nebenfächer und sonstige Fächer oder Veranstaltungen in auditorium einzupflegen. 
+
+Die Möglichkeit besteht. Die Mehrheit der existenten Veranstaltungen hier sind aus [jExam](http://jexam.<LEARNED_PERSON_NAME_REPLACEMENT>) importiert worden. Nicht alle Fächer sind dort vorhanden oder nicht relevante aus anderen Fachbereichen, weshalb erst einmal nur aus der Informatik Veranstaltungen importiert worden. 
+
+Falls Veranstaltungen fehlen oder eingetragen werden sollen, so schreibt uns hier einfach einen Kommentar oder eine [unverbindliche Email](mailto:inf-auditorium@groups. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>) mit folgenden Informationen:
+
+* <REMOVED_PERSON_ENTITY> zur Webseite
+
+* Fakultät
+
+* Lehrstuhl
+
+* Institut
+
+* Name des Fachs
+
+Dann tragen wir das entsprechend ein. 
+
+Falls eine Lehrveranstaltung zu einem Lehrstuhl fehlen, so können diese <NAME_CORPUS_REPLACEMENT> jedem [hier eingetragen werden](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/lectures/new). Wir schalten die Veranstaltung dann auch frei.
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 2371
+CREATION_DATETIME: 1374271200000
+MODIFICATION_DATETIME: 1374271200000
+TITLE: Am letzten Tag ist das etwas knapp. Ich denke, Cheng wird das in seiner Masterarbeit genauer unter di...
+PARENT_POSTING_ID: 2369
+POSTING_TYPE: comment
+CONTENT:
+Am letzten Tag ist das etwas knapp. Ich denke, Cheng wird das in seiner Masterarbeit genauer unter die Lupe nehmen. Ansonsten kannst du ja mal schauen, ob es eine Verbesserung bringt. Die Implementierungsphase des Projekts iat allerdings vorbei, wir sollten lieber die jetzigen Features stabilisieren und uns auf die Abschlusspräsentation konzentrieren. Der nächste Sprint passiert dann ja in euren Masterarbeiten.
+TAGGED_CONTENT:

@@ -9,6 +9,7 @@ import org.junit.Test;
 
 import de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>This class contains tests of the {@link ServiceFactory} class.</p>
@@ -17,7 +18,7 @@ import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
  * @since 15.11.2013
  *
  */
-public class ServiceFactoryTest {
+public class ServiceFactoryTest extends NoLoggingTest {
 
 	@Test
 	/**

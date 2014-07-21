@@ -1,0 +1,12 @@
+ID: 1013
+CREATION_DATETIME: 1357167600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Der Termin vom *5. 1. 2013* wird auf den *12. 1. 2013* verlegt. Bitte macht euch mal Gedanken darüber, welche Themen ihr noch einmal besprochen haben wollt.
+
+Der Termin vom *19. 1. 2013* wird auch nach hinten verschoben, auf den *26. 1. 2013*. <NAME_CORPUS_REPLACEMENT> das schon recht nah an der Prüfungszeit ist, findet der jeweilige Kurs nur statt, wenn genügend Leute (mindestens 5 je Kurs) Bedarf anmelden. Die Themenwahl orientiert sich auch hier an euren Bedürfnissen.
+TAGGED_CONTENT:

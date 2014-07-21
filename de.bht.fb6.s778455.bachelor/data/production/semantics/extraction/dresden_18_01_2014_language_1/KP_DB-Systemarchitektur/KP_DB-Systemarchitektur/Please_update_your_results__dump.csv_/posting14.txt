@@ -1,0 +1,10 @@
+ID: 2400
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: Die gewollte Dump-Datei habe ich in Documents/letzterdump.csv eingecheckt. Achtung! Die Spaltenbezeic...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2382
+POSTING_TYPE: comment
+CONTENT:
+Die gewollte Dump-Datei habe ich in Documents/letzterdump. csv eingecheckt. Achtung! Die Spaltenbezeichnung der CSV haben sich geändert.
+TAGGED_CONTENT:

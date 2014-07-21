@@ -1,0 +1,9 @@
+ID: 1570
+CREATION_DATETIME: 1363993200000
+MODIFICATION_DATETIME: 1363993200000
+TITLE: Mit `# char * str` legt du dir "nur" einen Pointer an, jedoch zeigt der noch nicht auf einen gueltige...
+PARENT_POSTING_ID: 1563
+POSTING_TYPE: answer
+CONTENT:
+Mit `char * str` legt du dir "nur" einen Pointer an, jedoch zeigt der noch nicht auf einen gueltigen Block Speicher, ist also nicht initialisiert. Das anschliessende `snprintf(str, 100, "%d", a);` schreibt damit irgendwo hin in den <REMOVED_PERSON_ENTITY>, was im besten Fall zum Absturz fuehrt, oder im unguenstigeren Fall zur Korruption irgendwelcher Daten, was dann viel spaeter sehr schwer zu findende Bugs hervorruft. Was du eigentlich machen moechtest, ist ein *char array* anlegen, und dort hinein mit snprintf schreiben, also `char buffer[16];` und danach `snprintf (buffer, sizeof(buffer), "%d ", 10);`
+TAGGED_CONTENT:

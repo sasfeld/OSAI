@@ -1,0 +1,13 @@
+ID: 97814
+CREATION_DATETIME: 1293520054
+MODIFICATION_DATETIME: 1293520054
+TITLE: Re: Uebungsaufgaben
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:6.95597687640829;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 97813
+CONTENT:
+Hallo Prof. <REMOVED_PERSON_ENTITY>, könnten Sie uns bitte auch die dazugehörigen Ergebnisse sowie Lösungswege zukommen lassen?Danke und <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1809
+CREATION_DATETIME: 1368482400000
+MODIFICATION_DATETIME: 1368482400000
+TITLE: Danke. Noch schnell: Wie weit ist denn die Stoffbehandlung?
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1807
+POSTING_TYPE: answer
+CONTENT:
+Danke. Noch schnell: Wie weit ist denn die Stoffbehandlung?
+TAGGED_CONTENT:

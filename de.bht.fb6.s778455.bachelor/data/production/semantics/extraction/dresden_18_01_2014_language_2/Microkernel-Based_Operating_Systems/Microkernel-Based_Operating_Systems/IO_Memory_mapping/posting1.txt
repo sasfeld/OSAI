@@ -1,0 +1,12 @@
+ID: 1740
+CREATION_DATETIME: 1366236000000
+MODIFICATION_DATETIME: 1381874400000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+How is the mapping of IO Memory into the address space done? The slides "<REMOVED_PERSON_ENTITY>" state that the chipset takes care of translating physical addresses into io memory addresses. Is this done implicitly or does anybody have to tell the chipset where every device is mapped?
+
+Does this mean if I plug in a PCI device with 4GB addressable device memory that I <NAME_CORPUS_REPLACEMENT> no longer address my RAM on a 32bit system?
+TAGGED_CONTENT:

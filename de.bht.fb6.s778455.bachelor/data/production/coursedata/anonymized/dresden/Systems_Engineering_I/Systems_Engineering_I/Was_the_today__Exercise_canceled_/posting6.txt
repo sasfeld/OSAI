@@ -1,0 +1,10 @@
+ID: 3063
+CREATION_DATETIME: 1385679600000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: Sorry guys, the swap of SE1 and SE2 this week was supposed to be announced on Monday during the lectu...
+PARENT_POSTING_ID: 3055
+POSTING_TYPE: answer
+CONTENT:
+Sorry guys, the swap of SE1 and SE2 this week was supposed to be announced on <REMOVED_PERSON_ENTITY> during the lecture. The ultimate solution is to look into our Google calendar, which we always keep up to date (http://se.inf.tu-dresden. de/teaching/courses/).
+Note that we will have another swap from Dec 13th to 11th (https://auditorium. inf. tu-dresden. de/posts/3024).
+TAGGED_CONTENT:

@@ -1,0 +1,11 @@
+ID: 2326
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Beim Thema Approximation geb ich dir Recht, aber von "rennen" in eine Richtung war nichts zu sehen......
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:2.65109701440329;degreegeneralization:2;uri:21999830
+PARENT_POSTING_ID: 2321
+POSTING_TYPE: comment
+CONTENT:
+Beim Thema Approximation geb ich dir Recht, aber <NAME_CORPUS_REPLACEMENT> "rennen" in eine Richtung war nichts zu sehen... erst in der vergangen Woche waren <NAME_CORPUS_REPLACEMENT> Fortschritte zu erkennen
+TAGGED_CONTENT:

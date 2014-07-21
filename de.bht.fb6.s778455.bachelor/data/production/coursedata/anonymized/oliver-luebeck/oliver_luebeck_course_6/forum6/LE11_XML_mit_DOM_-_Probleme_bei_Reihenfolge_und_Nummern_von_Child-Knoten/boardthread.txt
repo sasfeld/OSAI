@@ -1,0 +1,4 @@
+ID: 24
+TITLE: LE11 XML mit DOM - Probleme bei Reihenfolge und Nummern von Child-Knoten
+LANGUAGE: GERMAN
+FIRST_POSTING_ID: 73

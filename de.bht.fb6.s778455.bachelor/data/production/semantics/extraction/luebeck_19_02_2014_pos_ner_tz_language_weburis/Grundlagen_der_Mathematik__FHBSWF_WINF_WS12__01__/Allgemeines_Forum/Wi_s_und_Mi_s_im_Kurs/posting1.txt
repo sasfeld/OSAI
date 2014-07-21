@@ -1,0 +1,26 @@
+ID: 167633
+CREATION_DATETIME: 1349544491
+MODIFICATION_DATETIME: 1349544491
+TITLE: Wi´s und Mi´s im Kurs
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=62249#167633
+TOPIC_ZOOM_TAG: value:Konsolen;weight:1.0;significance:9.45045297721244;degreegeneralization:6;uri:20900202
+TOPIC_ZOOM_TAG: value:Foren;weight:1.0;significance:7.65869350798439;degreegeneralization:3;uri:20770662
+TOPIC_ZOOM_TAG: value:Maschinen, Geräte und Apparate;weight:1.0;significance:4.74508944859496;degreegeneralization:4;uri:21993336
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Figuren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wi;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kurses;weight:0.0;uri:;postag:NN
+POS_TAG: value:Forum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Konsole;weight:0.0;uri:;postag:NN
+POS_TAG: value:Moodle;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spielekonsole;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wii;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+können in diesem Forum des Kurses im Moodle eigentlich nur Wi´s mitlesen oder auch Mi´s? (bitte nicht mit den netten Figuren der Spielekonsole (Wii) oder der Konsole selbst verwechseln ;-) )
+M. f. G. <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, können_VMFIN in_APPR diesem_PDAT Forum_NN des_ART Kurses_NN im_APPRART Moodle_NN eigentlich_ADV nur_ADV Wi_NN ´_CARD s_PPER mitlesen_VVINF oder_KON auch_ADV Mi_FM ´_FM s_PPER ?_$. -LRB-_TRUNC bitte_PTKANT nicht_PTKNEG mit_APPR den_ART netten_ADJA Figuren_NN der_ART Spielekonsole_NN -LRB-_TRUNC Wii_NN -RRB-_TRUNC oder_KON der_ART Konsole_NN selbst_ADV verwechseln_VVFIN ;--RRB-_NE -RRB-_TRUNC M._NE f._NE G._NE <_NE REMOVED_PERSON_ENTITY_NE >_XY 

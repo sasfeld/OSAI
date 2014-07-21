@@ -1,0 +1,45 @@
+ID: 2221
+CREATION_DATETIME: 1373580000000
+MODIFICATION_DATETIME: 1373580000000
+TITLE: Ich habe grade den BitonicSort-Kernel angepasst. auch dieser stürzt ab. Hier der BT aus dem GBD:
+
+
+...
+PARENT_POSTING_ID: 2191
+POSTING_TYPE: answer
+CONTENT:
+Ich habe grade den BitonicSort-Kernel angepasst. auch dieser stürzt ab. Hier der BT aus dem GBD:
+```ruby
+Program received signal SIGABRT, Aborted.
+0x00007ffff6c18425 in __GI_raise (sig=)
+    at ../nptl/sysdeps/unix/sysv/linux/raise. c:64
+64      ../nptl/sysdeps/unix/sysv/linux/raise. c: No such file or directory.
+(gdb) bt
+#0  0x00007ffff6c18425 in __GI_raise (sig=)
+    at ../nptl/sysdeps/unix/sysv/linux/raise. c:64
+#1  0x00007ffff6c1bb8b in __GI_abort () at abort. c:91
+#2  0x00007ffff6c5639e in __libc_message (do_abort=2,
+    fmt=0x7ffff6d60008 "*** glibc detected *** %s: %s: 0x%s *** ")
+    at ../sysdeps/unix/sysv/linux/libc_fatal. c:201
+#3  0x00007ffff6c60b96 in malloc_printerr (action=3,
+    str=0x7ffff6d60140 "free(): invalid next size (normal)",
+    ptr=) at malloc. c:5018
+#4  0x00007ffff395b178 in ?? () from /usr/lib/OpenCL/vendors/amd/libamdocl64. <PERSONAL_GREETING_REMOVEMENT>
+#5  0x00007ffff395bd47 in ?? () from /usr/lib/OpenCL/vendors/amd/libamdocl64. <PERSONAL_GREETING_REMOVEMENT>
+#6  0x00007ffff396692b in ?? () from /usr/lib/OpenCL/vendors/amd/libamdocl64. <PERSONAL_GREETING_REMOVEMENT>
+#7  0x00007ffff3938187 in clReleaseMemObject ()
+   from /usr/lib/OpenCL/vendors/amd/libamdocl64. <PERSONAL_GREETING_REMOVEMENT>
+#8  0x000000000041b389 in clt::ExecutionInstance::getResults (this=0xbf7880)
+    at src/ExecutionInstance. cpp:86
+#9  0x0000000000413c1c in clt::CLeverTrustee::training (this=0x91a5c0,
+    kernel=...) at src/CLeverTrustee. cpp:129
+#10 0x00000000004138d8 in clt::CLeverTrustee::createKernel (this=0x91a5c0,
+    programStr=..., kernelName=...,
+    pgenerateData=0x40d32e <test::generateBitSData(int, std::vector >*, std::vector >*, int*, int*, int*, int*, int*, int*
+```
+So wie es scheint, liegt das Problem bei dem getResults() (die eigentliche Codezeile : `
+```ruby
+ outputs = myExecutionInstance->getResults(); 
+```
+ist aber schon auskommentiert ), <REMOVED_PERSON_ENTITY> es sein, dass <NAME_CORPUS_REPLACEMENT> die TestKlasse noch angepasst werden muss an veränderte Gegebenheiten?
+TAGGED_CONTENT:

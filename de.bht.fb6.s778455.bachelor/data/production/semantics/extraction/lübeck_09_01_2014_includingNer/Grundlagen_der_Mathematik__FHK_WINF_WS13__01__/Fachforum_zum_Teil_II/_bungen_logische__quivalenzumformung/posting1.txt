@@ -1,0 +1,17 @@
+ID: 253451
+CREATION_DATETIME: 1383744172
+MODIFICATION_DATETIME: 1383744172
+TITLE: Übungen logische Äquivalenzumformung
+TOPIC_ZOOM_TAG: value:Logik;weight:1.0;significance:8.32652288056005;degreegeneralization:4;uri:21472524
+TOPIC_ZOOM_TAG: value:Geisteswissenschaften;weight:1.0;significance:4.65434461816952;degreegeneralization:3;uri:21978240
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 0
+CONTENT:
+Hat jemand ein paar gute Übungen incl. Lösungen zur logischen Äquivalenzumformung im Internet gefunden?
+In den Übungsaufgaben sind ja nur 2 vorhanden und im Script auch nicht sonderlich viele. Man braucht ja schon ein wenig mehr Anwendung um die richtigen Regeln anzuwenden finde ich. Sonst landet man schnell in einer Sackgasse.
+Vielen Dank im voraus :-)
+TAGGED_CONTENT:

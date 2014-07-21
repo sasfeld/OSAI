@@ -1,0 +1,19 @@
+ID: 1941
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: auch mit -B tritt der Fehler weiterhin auf. Ich habe derzeit das testCLT und das CLeverTrustee-Verzei...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+NER_TAG: value:CLeverTrustee-Verzeichnis;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:testCLT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+POS_TAG: value:B;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:Verzeichnis;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+auch mit -B tritt der Fehler weiterhin auf. Ich habe derzeit das testCLT und das CLeverTrustee-Verzeichnis testweise in "meinem" Verzeichnis Documents/TestStefanie/test4. Könnte das Problem daran liegen?
+TAGGED_CONTENT:
+auch_ADV mit_APPR -_$( B_NN tritt_VVFIN der_ART Fehler_NN weiterhin_ADV auf_PTKVZ ._$. Ich_PPER habe_VAFIN derzeit_ADV das_ART testCLT_NN und_KON das_ART CLeverTrustee-Verzeichnis_NN testweise_ADV in_APPR "_$( meinem_PPOSAT "_$( Verzeichnis_NN Documents\/TestStefanie\/test4_NN ._$. Könnte_VMFIN das_ART Problem_NN daran_PROAV liegen_VVINF ?_$. 

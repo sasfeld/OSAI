@@ -1,0 +1,36 @@
+ID: 27
+CREATION_DATETIME: 1304590560000
+MODIFICATION_DATETIME: 1304590560000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 26
+CONTENT:
+ 
+Hi Leute,
+wollte auch endlich mal was schreiben.
+
+Also erstmal, Java ist schon eine komische Sprache - mit diesen import..., -classpath... , usw... Anweisungen. Ist in anderen Sprachen meiner Meinung nach wesentlich einfacher Klassen einzubinden.
+
+Ich haben auch lange verzweifelt, weil ich auch die komischen Fehlermeldungen hatte (cannot find symbol) oder besser noch package does not exist (will der mich verarschen, da ist es doch!!).
+Mittlerweile scheint es aber zu funktionieren, habe dann erstmal alles nach C:/ kopiert weil ich eigentlich meine eigene Ordnerstuktur habe, aber gut.
+Dateien runterladen und in das Verzeichnis kopieren, die Klasse muss man wohl direkt benennen:
+
+import vfh.prog1.bib.Konsole;
+
+Dann nicht vergessen beim Kompilieren und beim Aufrufen den classpath-Parameter richtig zu setzen ( . für das akt. Verzeichnis und dann soll er mal komplett C:\ durchsuchen)
+
+javac -classpath .;C:\ Messwertanalyse.java
+java -classpath .;C:\ Messwertanalyse
+
+Warum man das zweimal angeben muss, weiß ich ooch nich.
+
+PS: Buchtipp: Galileo Openbook: Java ist auch eine Insel
+
+http://openbook.galileocomputing.de/javainsel/
+
+Steht auch was zu Eclipse drinne, ist aber Einarbeitung erforderlich.
+
+
+Bis dann
+   
+TAGGED_CONTENT:

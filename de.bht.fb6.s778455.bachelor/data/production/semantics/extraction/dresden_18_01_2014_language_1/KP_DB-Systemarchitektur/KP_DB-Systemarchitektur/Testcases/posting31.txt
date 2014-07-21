@@ -1,0 +1,16 @@
+ID: 1963
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Jo, hab jetz alles ausgecheckt und kompiliert. (Beim ersten mal hab ich natürlich vergessen clang auc...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Jo, hab jetz alles ausgecheckt und kompiliert. (Beim ersten mal hab ich natürlich vergessen clang auch auszucheken... woraufhin sich mein Rechner nochmal totkompiliert hat, aber jetzt läuft es)
+
+Hab eben auch nochmal einen Commit hochgeschickt. Das sollte jetzt alles gehen.
+
+Ich hab im Makefile vom testCLT noch ein -lOpenCL hinzugefügt, das funktionierte sonst bei mir nicht.
+
+Jetz läuft es (zumindest bei mir ;-) ), hoffe, dass es bei euch auch geht
+TAGGED_CONTENT:

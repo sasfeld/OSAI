@@ -1,0 +1,9 @@
+ID: 1552
+CREATION_DATETIME: 1363820400000
+MODIFICATION_DATETIME: 1363993200000
+TITLE: Hey, vorraussichtlich am 18.04.2013. Werbung wie Plakate, Folien und eine explizite Ankündigung im au...
+PARENT_POSTING_ID: 1551
+POSTING_TYPE: answer
+CONTENT:
+Hey, vorraussichtlich am 18. 04. 2013. Werbung wie Plakate, Folien und eine explizite Ankündigung im auditorium folgen demnächst dazu noch.
+TAGGED_CONTENT:

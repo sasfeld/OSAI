@@ -1,0 +1,54 @@
+ID: 718
+CREATION_DATETIME: 1352502000000
+MODIFICATION_DATETIME: 1382047200000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Züge;weight:1.0;significance:7.99901931392159;degreegeneralization:8;uri:21308253
+TOPIC_ZOOM_TAG: value:Schienenverkehr;weight:1.0;significance:6.501973588509;degreegeneralization:6;uri:21897745
+TOPIC_ZOOM_TAG: value:Fahrzeuge und Verkehrsmittel;weight:1.0;significance:4.52515214523549;degreegeneralization:6;uri:21881442
+TOPIC_ZOOM_TAG: value:Verkehr;weight:1.0;significance:4.07161964221536;degreegeneralization:5;uri:21897779
+TOPIC_ZOOM_TAG: value:Transport, Verkehr und Logistik;weight:1.0;significance:4.01908510287724;degreegeneralization:4;uri:21925982
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo.
+
+<NAME_CORPUS_REPLACEMENT> die Übungs-Fragen in der IS-Übung dazu nur unzureichend beantwortet/besprochen worden sind, stehe ich gerade etwas auf dem <REMOVED_PERSON_ENTITY> wegen der Berechnung des effektiven Branchingfaktors.
+
+Wir sollen das ja in der Übungsaufgabe ja anhand unserer Ergebnisse berechnen und zurückgeben. Gibt es dafür einen einfachen Weg, ohne numerische Methoden zu implementieren?
+
+Also als Beispiel, meine Suche gibt folgendes Ergebnis (keine Ahnung ob die jetzt korrekt sind):
+
+```ruby
+
+     [java] -------------
+
+     [java] | 6 | 4 | 7 |
+
+     [java] -------------
+
+     [java] | 8 | 5 |   |
+
+     [java] -------------
+
+     [java] | 3 | 2 | 1 |
+
+     [java] -------------
+
+     [java] 
+
+     [java] Wert der Heuristik: 22
+
+     [java] Gelöst in 31 Zügen
+
+     [java] Expandierte Knoten: 40593
+
+...
+
+```
+
+So wie ich das jetzt verstanden habe, wäre N = 40593 und d = 31? Die Formel dann $N = 1 + b + b^2 + \cdots b^d$.
+TAGGED_CONTENT:

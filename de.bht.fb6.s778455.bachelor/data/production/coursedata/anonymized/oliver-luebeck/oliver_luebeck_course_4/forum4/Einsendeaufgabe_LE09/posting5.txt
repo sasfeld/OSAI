@@ -1,0 +1,21 @@
+ID: 56
+CREATION_DATETIME: 1178551500000
+MODIFICATION_DATETIME: 1178551500000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 55
+CONTENT:
+  
+ Die Rechenoperation wird ebenfalls als Parameter (3. parameter: "char op") an die Funktion rechnen im Rechenwerk übergeben.
+
+public int rechnen (int zahl1, int zahl2, char op)
+{
+//hier deine switch-Unterscheidung
+}
+
+Die Klasser Taschenrechner ist vollständig, allerdings ist die Funktionsweise ohne Dokumentation der Klasse Gui auch nicht so einfach nachzuvollziehen.
+Jedenfalls sollte Gui die Funktion rechnen() in Rechenwerk auslösen, wenn man auf "=" klickt.
+
+Hoffe es hilft..
+	
+TAGGED_CONTENT:

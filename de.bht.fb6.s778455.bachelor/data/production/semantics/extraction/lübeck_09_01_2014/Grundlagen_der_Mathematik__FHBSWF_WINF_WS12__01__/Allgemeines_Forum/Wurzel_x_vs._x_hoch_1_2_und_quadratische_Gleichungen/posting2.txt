@@ -1,0 +1,9 @@
+ID: 167635
+CREATION_DATETIME: 1349544728
+MODIFICATION_DATETIME: 1349544728
+TITLE: Re: Wurzel x vs. x hoch 1/2 und quadratische Gleichungen
+PARENT_POSTING_ID: 167629
+CONTENT:
+Das meint übrigens WolframAlpha dazu:
+http://www.wolframalpha.com/input/?i=9^1%2F2
+TAGGED_CONTENT:

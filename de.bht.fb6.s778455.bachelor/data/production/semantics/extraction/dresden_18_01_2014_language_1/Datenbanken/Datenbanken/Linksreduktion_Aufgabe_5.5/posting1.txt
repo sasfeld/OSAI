@@ -1,0 +1,14 @@
+ID: 2511
+CREATION_DATETIME: 1375999200000
+MODIFICATION_DATETIME: 1383519600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wir hatten als Lösung als erstes C abgezogen und die Hülle <NAME_CORPUS_REPLACEMENT> FD und D gebildet und rausbekommen, dass C wegfällt.
+
+Könnte man auch zuerst D abziehen? So C auch eine valide Lösung sein.
+
+Kann man also jeweils beides nehmen?
+TAGGED_CONTENT:

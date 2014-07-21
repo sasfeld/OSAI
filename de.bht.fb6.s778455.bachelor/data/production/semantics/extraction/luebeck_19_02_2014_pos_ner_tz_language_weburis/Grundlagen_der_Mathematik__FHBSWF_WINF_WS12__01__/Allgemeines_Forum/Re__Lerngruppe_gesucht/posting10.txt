@@ -1,0 +1,21 @@
+ID: 162947
+CREATION_DATETIME: 1348426076
+MODIFICATION_DATETIME: 1348426076
+TITLE: Re: Lerngruppe gesucht
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=59703#162947
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Grundlagen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mathematik;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 160999
+CONTENT:
+Kurze Frage,
+wie fit fühlt Ihr euch in den Grundlagen?
+Ich hatte schon ewig keine Mathematik mehr...
+TAGGED_CONTENT:
+Kurze_ADJA Frage_NN ,_$, wie_PWAV fit_ADJD fühlt_VVFIN Ihr_PPOSAT euch_PRF in_APPR den_ART Grundlagen_NN ?_$. Ich_PPER hatte_VAFIN schon_ADV ewig_ADJD keine_PIAT Mathematik_NN mehr_ADV ..._$( 

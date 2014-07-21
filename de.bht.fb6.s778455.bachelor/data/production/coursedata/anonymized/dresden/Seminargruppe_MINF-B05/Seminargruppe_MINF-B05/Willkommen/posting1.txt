@@ -1,0 +1,23 @@
+ID: 424
+CREATION_DATETIME: 1350511200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> Ersties,
+ich bin <REMOVED_PERSON_ENTITY>, eure Mentorin im ersten Semester. Das heißt, ich stehe euch ab
+sofort für Fragen und Ähnliches rund ums Studium zur Verfügung.
+Um euch kennenzulernen und unsere Treffen (die so in etwa alle 2-3 Wochen
+stattfinden sollten) zu organisieren, würde ich gern einen Termin festlegen.
+Laut eurem alten Stundenplan habt ihr Dienstags bis 14:30 Uhr eine Übung.
+Ich würde euch also vorschlagen, dass wir uns nächsten Dienstag, den 23. 10.
+um 15:00 Uhr im Foyer der Inf-Fakultät treffen und uns dann einen Raum suchen.
+Falls sich der Stundenplan so geändert hat, dass ihr <NAME_CORPUS_REPLACEMENT> nun eine Veranstaltung
+habt, sagt mir bitte schnellstmöglich Bescheid (und schickt den aktuellen
+Stundenplan idealerweise gleich mit).
+Wenn aber alles klappt und ihr zu der Zeit frei habt, <NAME_CORPUS_REPLACEMENT> ich euch schonmal
+ein schönes Wochenende und hoffe euch am Dienstag zahlreich zu sehen!
+Viele Grüße,
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

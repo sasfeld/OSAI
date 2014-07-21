@@ -1,0 +1,20 @@
+ID: 2909
+CREATION_DATETIME: 1384729200000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: So richtig vorgesehen ist/war das nicht, von daher haben wir auch nicht wirklich Support dafür.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2902
+POSTING_TYPE: answer
+CONTENT:
+So richtig vorgesehen ist/war das nicht, <NAME_CORPUS_REPLACEMENT> daher haben wir auch nicht wirklich Support dafür.
+
+Passwörter werden gehashed gespeichert, <NAME_CORPUS_REPLACEMENT> daher bringt ein normales String. equals nix.
+
+Probier mal
+
+`userAccountManager. getPasswordEncoder(). encode(oldPassString). equals(userAccount. getPassword(). toString())`
+
+Edit (via <REMOVED_PERSON_ENTITY>:
+
+`userAccountManager. getPasswordEncoder(). matches(oldPassString, userAccount. getPassword(). toString())`
+TAGGED_CONTENT:

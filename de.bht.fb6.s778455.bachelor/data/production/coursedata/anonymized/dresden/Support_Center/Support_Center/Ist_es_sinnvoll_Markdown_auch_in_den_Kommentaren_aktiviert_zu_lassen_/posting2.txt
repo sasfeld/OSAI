@@ -1,0 +1,10 @@
+ID: 68
+CREATION_DATETIME: 1342476000000
+MODIFICATION_DATETIME: 1350684000000
+TITLE: **Ja**, ich würde es 
+PARENT_POSTING_ID: 67
+POSTING_TYPE: answer
+CONTENT:
+**Ja**, ich würde es auch in den Kommentaren aktiviert lassen.
+Headlines sehe ich in diesem Rahmen hier keinen übermäßigen Nutzen, aber könnte das auch falsch einschätzen.
+TAGGED_CONTENT:

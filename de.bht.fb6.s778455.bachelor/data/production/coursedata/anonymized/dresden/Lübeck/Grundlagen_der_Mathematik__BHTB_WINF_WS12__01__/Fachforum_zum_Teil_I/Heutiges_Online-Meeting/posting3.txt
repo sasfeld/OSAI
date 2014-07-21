@@ -1,0 +1,9 @@
+ID: 166545
+CREATION_DATETIME: 1349279262
+MODIFICATION_DATETIME: 1349279583
+TITLE: Re: Heutiges Online-Meeting
+PARENT_POSTING_ID: 166535
+CONTENT:
+Hallo, Heute ist kein <REMOVED_PERSON_ENTITY>... Die Konferenz wurde aufgrund des Feiertags durch Herrn <REMOVED_PERSON_ENTITY> auf nächsten Mittwoch verschoben 
+grüße
+TAGGED_CONTENT:

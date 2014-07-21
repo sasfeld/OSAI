@@ -1,0 +1,36 @@
+ID: 194457
+CREATION_DATETIME: 1358496381
+MODIFICATION_DATETIME: 1358496381
+TITLE: Re: Gruppenübungen
+TOPIC_ZOOM_TAG: value:Wissenschaftliche Theorie und Theorien;weight:2.0;significance:7.24896400108977;degreegeneralization:3;uri:20916437
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Ende;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spalte;weight:0.0;uri:;postag:NN
+POS_TAG: value:algorithmus;weight:0.0;uri:;postag:NN
+POS_TAG: value:A;weight:0.0;uri:;postag:NN
+POS_TAG: value:B;weight:0.0;uri:;postag:NN
+POS_TAG: value:Matrixmultiplikation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Variablen;weight:0.0;uri:;postag:NN
+POS_TAG: value:rung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Matrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:eLars;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abarbeiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:muss;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeilenoperationen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Xn;weight:0.0;uri:;postag:NN
+POS_TAG: value:Form;weight:0.0;uri:;postag:NN
+POS_TAG: value:berlegung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Matrizen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Unbekannten;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 194209
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+okay, danke für die Erklärung. :)Eine Frage hätte ich aber noch zu H:
+Die transponierten Matrizen haben dann ja die Form A --&gt;7x4 und B --&gt;7x4. Heißt, dass X dann ja eine 4x4 Matrix sein muss, damit man die Matrixmultiplikation überhaupt durchführen kann und eine weitere 7x4 Matrix entstehen kann.
+Mir ist jetzt noch nicht ganz klar, wie ich diese 4x4 Matrix mit den insgesamt 16 Variablen berechnen kann. Muss man hier theoretisch jede Spalte X1 und B1 seperat von Xn und Bn betrachten? Dann bekommt man ja für jede inhomogene rechte <REMOVED_PERSON_ENTITY> (Spalte Bn) jeweils die Unbekannten von Xn heraus, oder?  Also den Gaußalgorithmus verwenden und am Ende die ein- oder mehrdeutigen Lösungen für die Xn <REMOVED_PERSON_ENTITY> ablesen. Das theoretisch mit jeder rechten Spalte.
+Paralleles Abarbeiten der Zeilenoperationen ist hier dann natürlich möglich.
+Ist das von der Überlegung her korrekt?GrüßeLars
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, okay_VVFIN ,_$, danke_VVFIN für_APPR die_ART Erklärung_NN ._$. :_$. -RRB-_TRUNC Eine_ART Frage_NN hätte_VAFIN ich_PPER aber_ADV noch_ADV zu_PTKZU H_XY :_$. Die_ART transponierten_ADJA Matrizen_NN haben_VAFIN dann_ADV ja_ADV die_ART Form_NN A_NN --_-- >_XY 7x4_CARD und_KON B_NN --_-- >_XY 7x4_CARD ._$. Heißt_VVFIN ,_$, dass_KOUS X_XY dann_ADV ja_ADV eine_ART 4x4_CARD Matrix_NN sein_PPOSAT muss_NN ,_$, damit_KOUS man_PIS die_ART Matrixmultiplikation_NN überhaupt_ADV durchführen_VVINF kann_VMFIN und_KON eine_ART weitere_ADJA 7x4_CARD Matrix_NN entstehen_VVINF kann_VMFIN ._$. Mir_PPER ist_VAFIN jetzt_ADV noch_ADV nicht_PTKNEG ganz_ADV klar_ADJD ,_$, wie_PWAV ich_PPER diese_PDAT 4x4_CARD Matrix_NN mit_APPR den_ART insgesamt_ADV 16_CARD Variablen_NN berechnen_VVINF kann_VMFIN ._$. Muss_NE man_PIS hier_ADV theoretisch_ADJD jede_PIDAT Spalte_NN X1_CARD und_KON B1_CARD seperat_ADJD von_APPR Xn_NE und_KON Bn_NE betrachten_VVFIN ?_$. Dann_ADV bekommt_VVFIN man_PIS ja_ADV für_APPR jede_PIDAT inhomogene_ADJA rechte_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_NE -LRB-_TRUNC Spalte_NN Bn_NE -RRB-_TRUNC jeweils_ADV die_ART Unbekannten_NN von_APPR Xn_NE heraus_PTKVZ ,_$, oder_KON ?_$. Also_ADV den_ART Gaußalgorithmus_NN verwenden_VVINF und_KON am_APPRART Ende_NN die_ART ein_PTKVZ -_$( oder_KON mehrdeutigen_ADJA Lösungen_NN für_APPR die_ART Xn_NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE ablesen_VVINF ._$. Das_ART theoretisch_ADJD mit_APPR jeder_PIDAT rechten_ADJA Spalte_NN ._$. Paralleles_ADJA Abarbeiten_NN der_ART Zeilenoperationen_NN ist_VAFIN hier_ADV dann_ADV natürlich_ADV möglich_ADJD ._$. Ist_VAFIN das_PDS von_APPR der_ART Überlegung_NN her_APZR korrekt?GrüßeLars_NN 

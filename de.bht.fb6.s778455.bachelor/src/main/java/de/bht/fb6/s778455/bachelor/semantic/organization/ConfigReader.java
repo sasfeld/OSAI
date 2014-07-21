@@ -15,7 +15,7 @@ import de.bht.fb6.s778455.bachelor.organization.APropertiesConfigReader;
  *
  */
 public class ConfigReader extends APropertiesConfigReader {
-	private static final File CONFIG_FILE = new File( "./conf/semantics.properties" );
+	private static final File CONFIG_FILE = new File( PATH_CONFIG + "semantics.properties" );
 
 	/**
 	 * Create a new ConfigReader.

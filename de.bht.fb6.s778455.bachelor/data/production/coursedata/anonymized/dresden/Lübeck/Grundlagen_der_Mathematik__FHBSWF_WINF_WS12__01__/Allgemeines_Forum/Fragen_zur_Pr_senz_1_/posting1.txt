@@ -1,0 +1,20 @@
+ID: 167889
+CREATION_DATETIME: 1349629418
+MODIFICATION_DATETIME: 1349629418
+TITLE: Fragen zur Präsenz 1 
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+damit wir bezüglich der Fragen zur ersten Präsenz etwas den Überblick behalten können, mach ich nun ein zweites Thema auf.
+Jetzt geht es um die Folie 23 im PDF-Dokument mit der Bezeichnung: "Präsenz 1 - Mathematische Logik, Argumentieren und Beweisen. v1. pdf"  Als Lösung kann ich hier folgendes präsentieren:Klassischer Widerspruchsbeweis:
+Angenommen, es gibt nur endlich viele Primzahlen
+Betrachtet die <REMOVED_PERSON_ENTITY> M = {3, 5, 7, 11, 13, 17, 19, …}
+M ist unendlich groß und besteht nur aus Primzahlen
+Die unendlich große <REMOVED_PERSON_ENTITY> M ist Teilmenge der endlichen <REMOVED_PERSON_ENTITY> aller Primzahlen, Wiederspruch!
+Prinzip des kleinsten Verbrechers:
+Angenommen, es gibt nur endlich viele Primzahlen
+Dann gibt es eine größte Primzahl z.
+Es ist aber z*(die darauf folgende Primzahl) auch eine <REMOVED_PERSON_ENTITY> und größer als z, Wiederspruch!
+Ich vermute mal, dass diese Lösung nicht ganz richtig ist. Was habe ich den falsch gemacht?Besten Dank und Gruß
+<REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

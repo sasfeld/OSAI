@@ -1,0 +1,9 @@
+ID: 1128
+CREATION_DATETIME: 1361142000000
+MODIFICATION_DATETIME: 1361142000000
+TITLE: Hmm. Only the IO server boots in your example. This means that the prerequisites for the second appli...
+PARENT_POSTING_ID: 1116
+POSTING_TYPE: comment
+CONTENT:
+Hmm. Only the IO server boots in your example. This means that the prerequisites for the second application (fb-drv) are not met. I suspect that the vbus cap in IO should not be called vbus but be named after the device  bus you want to hand out to your client (e. g., have the same name as in the IO config script).
+TAGGED_CONTENT:

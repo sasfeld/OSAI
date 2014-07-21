@@ -1,0 +1,10 @@
+ID: 169073
+CREATION_DATETIME: 1349888121
+MODIFICATION_DATETIME: 1349888121
+TITLE: Re: Chat nach dem Chat
+PARENT_POSTING_ID: 169039
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+aufgrund mangelnder Teilnahme ist es zu einem Individualchat geworden, der nur nach Absprache statt findet.
+Grüße, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

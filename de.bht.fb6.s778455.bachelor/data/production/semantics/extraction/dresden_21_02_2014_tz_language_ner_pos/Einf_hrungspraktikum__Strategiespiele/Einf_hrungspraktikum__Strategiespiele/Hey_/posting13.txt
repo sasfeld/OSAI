@@ -1,0 +1,14 @@
+ID: 1541
+CREATION_DATETIME: 1363734000000
+MODIFICATION_DATETIME: 1363734000000
+TITLE: ps auxww ist besser, weil es die Prozessnamen am rechten Rand des Terminals nicht abschneidet.
+LANGUAGE: GERMAN
+POS_TAG: value:Terminals;weight:0.0;uri:;postag:NN
+POS_TAG: value:Prozessnamen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rand;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1429
+POSTING_TYPE: comment
+CONTENT:
+ps auxww ist besser, weil es die Prozessnamen am rechten Rand des Terminals nicht abschneidet.
+TAGGED_CONTENT:
+ps_FM auxww_FM ist_VAFIN besser_ADJD ,_$, weil_KOUS es_PPER die_ART Prozessnamen_NN am_APPRART rechten_ADJA Rand_NN des_ART Terminals_NN nicht_PTKNEG abschneidet_VVFIN ._$. 

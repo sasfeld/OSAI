@@ -1,0 +1,10 @@
+ID: 636
+CREATION_DATETIME: 1351724400000
+MODIFICATION_DATETIME: 1351810800000
+TITLE: Ich kann dir nicht sagen, was _akzeptabel_ ist, da ich dafür sicherlich keine autorität bin. Aber wen...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 632
+POSTING_TYPE: comment
+CONTENT:
+Ich kann dir nicht sagen, was _akzeptabel_ ist, <NAME_CORPUS_REPLACEMENT> ich dafür sicherlich keine autorität bin. Aber wenn die Schnipsel für das Verständnis wichtig sind, würde ich sie ähnlich wie Abbildungen behandeln. Also ggf. über/neben der Seite floaten lassen.
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 2361
+CREATION_DATETIME: 1374271200000
+MODIFICATION_DATETIME: 1379541600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Guten Morgen,
+
+mir scheint, in Vorlesungsfolie 7. 7 sind (a) und (b) vertauscht. Oder täusche ich mich <NAME_CORPUS_REPLACEMENT>?
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 2253
+MODIFICATION_DATETIME: 1185448253
+TITLE: Fachforum zum Modul
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/view.php?id=2253
+POS_TAG: value:Modul;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fachforum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Moduls;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fachfragen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Themen;weight:0.0;uri:;postag:NN
+INTRO: Hier können Sie Fachfragen zu den Themen des Moduls diskutieren.
+TYPE: general

@@ -1,0 +1,12 @@
+ID: 518
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1351202400000
+TITLE: Wenn ich mich auslogge und dann z.B. in einer Mail auf den Link klicke oder so, dann bekomme ich den ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 392
+POSTING_TYPE: comment
+CONTENT:
+Wenn ich mich auslogge und dann z. B. in einer Mail auf den Link klicke oder so, dann bekomme ich den Sign in Dialog zu sehen und nachdem ich mich eingeloggt habe werde ich automatisch umgeleitet. 
+
+Es kann sein, dass der Post verschoben wurde (habe gerade Fragen zu einer Antwort als Follow up extrahiert. (Das rerouting muss noch angepasst werden.)
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 2265
+CREATION_DATETIME: 1373925600000
+MODIFICATION_DATETIME: 1373925600000
+TITLE: Ja an sowas hab ich auch gedacht. Wollte das zwar dem Nutzer abnehmen, damit er so wenig Zeilen wie m...
+PARENT_POSTING_ID: 2189
+POSTING_TYPE: comment
+CONTENT:
+Ja an sowas hab ich auch gedacht. Wollte das zwar dem Nutzer abnehmen, damit er so wenig Zeilen wie möglich schreiben muss, aber das is jetz auch nich mehr so tragisch. <NAME_CORPUS_REPLACEMENT> wir ja eh schon eine Unterteilung in input/output Parameter haben, werd ich einfach nur ein flag für inout = true | false einführen
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 983
+CREATION_DATETIME: 1355958000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Im SVN sind nun unter svnwsdm/_hadoop_exercise auch die Materialen für die Hadoop Übung verfügbar (Dokumentation, <REMOVED_PERSON_ENTITY>, Quellcode, Bibliotheken)
+TAGGED_CONTENT:

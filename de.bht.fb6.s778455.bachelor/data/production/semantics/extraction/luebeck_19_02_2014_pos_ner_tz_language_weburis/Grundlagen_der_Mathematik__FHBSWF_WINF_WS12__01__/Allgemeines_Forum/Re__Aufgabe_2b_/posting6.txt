@@ -1,0 +1,15 @@
+ID: 184459
+CREATION_DATETIME: 1354463637
+MODIFICATION_DATETIME: 1354463637
+TITLE: Re: Aufgabe 2b)
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=68705#184459
+POS_TAG: value:jap;weight:0.0;uri:;postag:NN
+POS_TAG: value:berlegung;weight:0.0;uri:;postag:NN
+POS_TAG: value:eLars;weight:0.0;uri:;postag:NN
+POS_TAG: value:Buchstaben;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 184455
+CONTENT:
+Moin <REMOVED_PERSON_ENTITY>, jap, deine Überlegung ist richtig. <REMOVED_PERSON_ENTITY> hat die Buchstaben vertauscht :)GrüßeLars
+TAGGED_CONTENT:
+Moin_NE <_VVFIN REMOVED_PERSON_ENTITY_NE >_NE ,_$, jap_NN ,_$, deine_PPOSAT Überlegung_NN ist_VAFIN richtig_ADJD ._$. <_XY REMOVED_PERSON_ENTITY_NE >_NE hat_VAFIN die_ART Buchstaben_NN vertauscht_VVFIN :_$. -RRB-_TRUNC GrüßeLars_NN 

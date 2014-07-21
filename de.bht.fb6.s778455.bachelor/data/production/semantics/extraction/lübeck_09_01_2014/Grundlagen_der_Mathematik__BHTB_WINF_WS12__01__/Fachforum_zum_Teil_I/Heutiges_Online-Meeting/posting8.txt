@@ -1,0 +1,15 @@
+ID: 166589
+CREATION_DATETIME: 1349284603
+MODIFICATION_DATETIME: 1349284747
+TITLE: Re: Heutiges Online-Meeting
+TOPIC_ZOOM_TAG: value:Feiertage;weight:2.0;significance:6.76051452605328;degreegeneralization:5;uri:20718404
+TOPIC_ZOOM_TAG: value:Feiern, Feste und Festakte;weight:2.0;significance:5.9680301556277;degreegeneralization:4;uri:20919667
+TOPIC_ZOOM_TAG: value:Veranstaltungen;weight:2.0;significance:3.37051978211685;degreegeneralization:3;uri:20901494
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 166463
+CONTENT:
+Das hat er bei der Einführungsveranstaltung gesagt... Er meinte da Feiertag ist begnnen wir erst nächste Woche mit dem online Meeting. Das trotz Feiertag ein Meeting stattfindet ist richtig allerdings nicht hier sondern bei programmieren I. Das ist jedenfalls mein Informationsstand
+TAGGED_CONTENT:

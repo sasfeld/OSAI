@@ -1,0 +1,10 @@
+ID: 601
+CREATION_DATETIME: 1351551600000
+MODIFICATION_DATETIME: 1351724400000
+TITLE: Wurde behoben. Dieser Kommentar geht nun an die, die die Option "wenn Autor" aktiviert haben oder Ema...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 558
+POSTING_TYPE: comment
+CONTENT:
+Wurde behoben. Dieser Kommentar geht nun an die, die die Option "wenn Autor" aktiviert haben oder Emails bei Mitgliedschaft für diesen Kurs aktiviert haben.
+TAGGED_CONTENT:

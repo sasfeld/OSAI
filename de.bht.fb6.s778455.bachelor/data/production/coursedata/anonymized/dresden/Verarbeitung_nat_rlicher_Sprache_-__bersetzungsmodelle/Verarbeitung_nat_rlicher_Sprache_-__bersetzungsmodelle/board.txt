@@ -1,0 +1,6 @@
+ID: 2154637
+CREATION_DATETIME: 1380492000000
+MODIFICATION_DATETIME: 1380492000000
+TITLE: Verarbeitung natürlicher Sprache - Übersetzungsmodelle
+INTRO: null
+TYPE: null

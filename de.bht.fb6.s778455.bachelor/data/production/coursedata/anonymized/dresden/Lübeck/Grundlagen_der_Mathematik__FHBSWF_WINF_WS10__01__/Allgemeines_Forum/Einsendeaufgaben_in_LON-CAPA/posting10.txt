@@ -1,0 +1,8 @@
+ID: 97753
+CREATION_DATETIME: 1289772852
+MODIFICATION_DATETIME: 1289772852
+TITLE: Re: Einsendeaufgaben in LON-CAPA
+PARENT_POSTING_ID: 97751
+CONTENT:
+Wenn ich das eben in LonCapa richtig gesehen habe, wurde der Teil 2 (in LonCapa die 1 - Aussagenlogik und <REMOVED_PERSON_ENTITY>'sche Algebra) auf den 02. 12. verschoben. VGDaniel 
+TAGGED_CONTENT:

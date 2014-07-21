@@ -1,0 +1,10 @@
+ID: 191955
+CREATION_DATETIME: 1357717431
+MODIFICATION_DATETIME: 1357717431
+TITLE: Probeklausur 2
+POS_TAG: value:Probeklausur;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Probeklausur 2 abgelegt.
+TAGGED_CONTENT:
+Probeklausur_NN 2_CARD abgelegt_VVPP ._$. 

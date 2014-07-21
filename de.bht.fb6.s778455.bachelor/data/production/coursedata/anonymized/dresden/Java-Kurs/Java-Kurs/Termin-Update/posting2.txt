@@ -1,0 +1,9 @@
+ID: 1068
+CREATION_DATETIME: 1358636400000
+MODIFICATION_DATETIME: 1358636400000
+TITLE: Hey, also ich wäre am 26.1. mit dabei und ich wäre dafür, dass wir vielleicht nochmal eine alte Klaus...
+PARENT_POSTING_ID: 1013
+POSTING_TYPE: comment
+CONTENT:
+Hey, also ich wäre am 26. 1. mit dabei und ich wäre dafür, dass wir vielleicht nochmal eine alte Klausur durchgehen?
+TAGGED_CONTENT:

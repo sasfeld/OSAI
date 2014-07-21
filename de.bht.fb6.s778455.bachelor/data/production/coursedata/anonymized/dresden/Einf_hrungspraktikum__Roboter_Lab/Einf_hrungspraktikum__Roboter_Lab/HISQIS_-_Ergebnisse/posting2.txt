@@ -1,0 +1,9 @@
+ID: 1860
+CREATION_DATETIME: 1369692000000
+MODIFICATION_DATETIME: 1369692000000
+TITLE: Nach kurzer Rücksprache mit der zuständigen Sekretärin wird die Übermittlung ans Informatik-Prüfungsa...
+PARENT_POSTING_ID: 1859
+POSTING_TYPE: answer
+CONTENT:
+Nach kurzer Rücksprache mit der zuständigen Sekretärin wird die Übermittlung ans Informatik-Prüfungsamt wohl morgen stattfinden, wann dann eventuelle andere Prüfungsämter und damit HISQIS davon erfährt, weiß ich allerdings nicht. Vermutlich in den nächsten Tagen.
+TAGGED_CONTENT:

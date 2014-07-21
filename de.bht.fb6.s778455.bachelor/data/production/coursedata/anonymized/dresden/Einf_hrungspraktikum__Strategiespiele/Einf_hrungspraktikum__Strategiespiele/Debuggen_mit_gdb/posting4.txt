@@ -1,0 +1,9 @@
+ID: 1431
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1362870000000
+TITLE: Das $ tippt man nicht mit ein. Das steht nur dafuer, dass du das in ein Terminal eintippen sollst.
+PARENT_POSTING_ID: 1428
+POSTING_TYPE: comment
+CONTENT:
+Das $ tippt man nicht mit ein. Das steht nur dafuer, dass du das in ein Terminal eintippen sollst.
+TAGGED_CONTENT:

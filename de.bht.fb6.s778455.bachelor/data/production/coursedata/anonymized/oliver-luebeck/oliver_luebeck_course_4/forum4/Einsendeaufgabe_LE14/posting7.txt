@@ -1,0 +1,19 @@
+ID: 68
+CREATION_DATETIME: 1181593380000
+MODIFICATION_DATETIME: 1181593380000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 67
+CONTENT:
+
+Wie waere es mit:
+System.out.println(q.toString());
+?
+oder sogar einfacher:
+System.out.println(q);
+?
+Mit q eine Variable vom Typ Punkt oder Untertyp vom Punkt
+Mit freundlichen Gruessen,
+
+	
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 168119
+CREATION_DATETIME: 1349690741
+MODIFICATION_DATETIME: 1349690741
+TITLE: Klick Interaktion
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Leute,
+gehen bei euch die Klick-Interaktionen in den Lerneinheiten auch nicht oder ist das nur bei mir so?
+TAGGED_CONTENT:

@@ -1,0 +1,8 @@
+ID: 110602015
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Mobile Communication and Mobile Computing (Mobile Kommunikation und Mobile Computing)
+LANGUAGE: UNKNOWN
+SUMMARY: null

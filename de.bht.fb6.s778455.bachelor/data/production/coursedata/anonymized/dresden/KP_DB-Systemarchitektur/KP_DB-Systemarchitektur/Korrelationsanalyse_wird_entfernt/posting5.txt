@@ -1,0 +1,9 @@
+ID: 2328
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Hmm, das meiste, was wir gemacht haben, war ja durch die Aufgabenstellung vorgegeben. Demzufolge habe...
+PARENT_POSTING_ID: 2321
+POSTING_TYPE: comment
+CONTENT:
+Hmm, das meiste, was wir gemacht haben, war ja durch die Aufgabenstellung vorgegeben. Demzufolge haben wir ja nur gezeigt, dass statt der in der Aufgabenstellung geforderten Methoden der Zeitvorhersage andere Methoden effektiver und einfacher zu implementieren sind.
+TAGGED_CONTENT:

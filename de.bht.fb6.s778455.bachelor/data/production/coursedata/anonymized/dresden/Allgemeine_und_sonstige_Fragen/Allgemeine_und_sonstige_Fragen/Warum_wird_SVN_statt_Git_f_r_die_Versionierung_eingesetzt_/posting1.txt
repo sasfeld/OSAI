@@ -1,0 +1,14 @@
+ID: 607
+CREATION_DATETIME: 1351551600000
+MODIFICATION_DATETIME: 1383433200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Warum setzen fast alle Lehrstühle, an denen ich bisher Vorlesungen gehört oder Praktika mitgemacht habe, vor allem auf SVN zum Versionieren <NAME_CORPUS_REPLACEMENT> Quellcode? 
+Git hat doch viele Vorzüge:
+* Jeder kann sich einen lokale Arbeitskopie halten, an der er arbeitet und beliebig viele Branches aufmachen kann.
+* Es wird nicht mehr direkt auf dem Repository gearbeitet.
+* Es können zur Übersicht beitragende Workflows wie [git-flow](http://nvie.com/posts/a-successful-git-branching-model/) eingesetzt werden,
+* [uvm.](http://git-scm. com/book)
+TAGGED_CONTENT:

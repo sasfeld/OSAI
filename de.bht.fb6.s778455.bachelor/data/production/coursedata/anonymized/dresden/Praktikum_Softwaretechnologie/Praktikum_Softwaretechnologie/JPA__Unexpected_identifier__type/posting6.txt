@@ -1,0 +1,13 @@
+ID: 3073
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: IMO völlig unbegründet diese Sorge, lege fest, dass es genau eine Methode gibt wo UAs enabled/disable...
+PARENT_POSTING_ID: 3054
+POSTING_TYPE: comment
+CONTENT:
+IMO völlig unbegründet diese <REMOVED_PERSON_ENTITY>, lege fest, dass es genau eine Methode gibt wo UAs enabled/disabled werden können (wenn überhaupt) und dann hat sich jeder daran zu halten. Oder arbeitet ihr gegeneinander im Team? 
+Aber wrappe ruhig weiter alles oder schreib dein eigenes Salespoint ohne Methoden die versehentlich aufgerufen werden können.:D
+Merkst du nicht, dass du es dir schwerer machst als nötig? Und das nur, damit niemand falsche Methoden aufruft, am besten fängst du noch an Teile vom JDK und Spring zu entfernen, <NAME_CORPUS_REPLACEMENT> könnten ja auch böse Methoden stecken!
+http://en.wikipedia.org/wiki/KISS_principle
+Bei deinen Spielereien lernst du sicher was über JPA und <NAME_CORPUS_REPLACEMENT>, aber es kommt nix sinnvolles dabei raus, eure Software wird nicht schneller fertig oder besser dadurch wenn du ein paar Methoden versteckst. Investiere deine Zeit doch lieber in Spielereien, die wirklich nützlich sind und das Endprodukt besser machen.
+TAGGED_CONTENT:

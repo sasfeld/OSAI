@@ -1,0 +1,19 @@
+ID: 50
+CREATION_DATETIME: 1193334060000
+MODIFICATION_DATETIME: 1193334060000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 46
+CONTENT:
+
+Danke!
+
+Mit einem Array vom Typ String bekommt man es ganz gut hin.
+
+So kann man das Array mit Werten füllen
+z.B. ergs[0] = Integer.toString(number1 + number2);
+und die Ergebnisse per Schleife ausgeben lassen.
+
+VG
+	
+TAGGED_CONTENT:

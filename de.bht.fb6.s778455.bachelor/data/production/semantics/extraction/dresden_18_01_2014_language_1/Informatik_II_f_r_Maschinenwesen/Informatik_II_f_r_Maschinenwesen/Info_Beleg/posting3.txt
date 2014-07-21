@@ -1,0 +1,10 @@
+ID: 2164
+CREATION_DATETIME: 1372975200000
+MODIFICATION_DATETIME: 1372975200000
+TITLE: somit muss ich jetzt nur noch meine Testfolgen (einfach und Komplex) als 2.5.2 in der Simulation Test...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2161
+POSTING_TYPE: answer
+CONTENT:
+somit muss ich jetzt nur noch meine Testfolgen (einfach und Komplex) als 2. 5. 2 in der Simulation Testen und ich bin fertig?
+TAGGED_CONTENT:

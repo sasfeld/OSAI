@@ -1,0 +1,23 @@
+ID: 168373
+CREATION_DATETIME: 1349721985
+MODIFICATION_DATETIME: 1349722306
+TITLE: Lektion1 Mächtigkeit & Vereinigungsmenge (?)
+TOPIC_ZOOM_TAG: value:Syntax;weight:1.0;significance:11.6099372265658;degreegeneralization:7;uri:20900032
+TOPIC_ZOOM_TAG: value:Allgemeine Sprachwissenschaft;weight:1.0;significance:9.27456231074878;degreegeneralization:6;uri:21633888
+TOPIC_ZOOM_TAG: value:Sprachwissenschaften;weight:1.0;significance:7.99005064393883;degreegeneralization:5;uri:21978138
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:5.00870710783694;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Geisteswissenschaften;weight:1.0;significance:4.65434461816952;degreegeneralization:3;uri:21978240
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+ich habe da noch einmal eine <REMOVED_PERSON_ENTITY> zur Mächtigkeit von Mengen. In der Lektion 1. 3. 1 taucht folgende <REMOVED_PERSON_ENTITY> auf:
+Die Erklärung dazu lautet"Die <REMOVED_PERSON_ENTITY> aller natürlichen Zahlen und die <REMOVED_PERSON_ENTITY> der geraden natürlichen Zahlen sind gleichmächtig, wie man durch folgende Zuordnung erkennt:"
+Warum diese Megen gleichmätig sind ist mir eigentlich bewusst. Ich komme mit der Syntax dieses Ausdruckes aber nicht so ganz zurecht. Das "2n |" irritiert mich etwas. Was genau soll dieser Ausdruck aussagen?
+Des Weiteren noch eine <REMOVED_PERSON_ENTITY> zur Vereinigungsmenge:Könnt ihr mir bitte erklären wie man folgende Aufgabenstellung löst.
+Die Vereinigungsmenge fasst zwei unterschiedliche Mengen zur einer neuen Menge zusamen. Aber leider verstehe ich nicht so ganz wie man diese Aufgabe lösen soll.
+Sorry wegen der vielen Nachfragen aber eventuell haben andere Mitstudenten ja ähnliche Fragen.
+Besten Dank und GrußPascal
+TAGGED_CONTENT:

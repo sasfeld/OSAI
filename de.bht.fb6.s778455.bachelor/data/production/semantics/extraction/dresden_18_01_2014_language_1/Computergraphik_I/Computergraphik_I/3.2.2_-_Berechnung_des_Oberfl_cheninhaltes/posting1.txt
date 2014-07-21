@@ -1,0 +1,10 @@
+ID: 961
+CREATION_DATETIME: 1355094000000
+MODIFICATION_DATETIME: 1376604000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Können wir bei der Implementierung der Berechnung des Oberflächeninhaltes für nicht-Dreiecksnetze wenigstens davon ausgehen, dass alle Facetten des Netzes konvex sind (wie es auch z. b. triangulate() tut), oder soll die Berechnung wirklich für vollkommen beliebige Netze funktionieren?
+TAGGED_CONTENT:

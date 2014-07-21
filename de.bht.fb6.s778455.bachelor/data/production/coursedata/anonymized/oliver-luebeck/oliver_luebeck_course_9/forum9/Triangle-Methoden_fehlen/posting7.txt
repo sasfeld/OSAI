@@ -1,0 +1,15 @@
+ID: 20
+CREATION_DATETIME: 1176661740000
+MODIFICATION_DATETIME: 1176661740000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 19
+CONTENT:
+  
+Liebe , liebe Studierende,
+
+der Aufruf der 2 Methoden isIsosceles und calculateCircumference in der Klasse TriangleTest.java ist ein Fehler. Ich habe ihn gemeldet. Diese 2 Methoden sollen Sie selbst programmieren und aufrufen. Danke für den Hinweis Frau Gorzelitz.
+
+Viele Grüße und frohes Schaffen
+    
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 554
+CREATION_DATETIME: 1351288800000
+MODIFICATION_DATETIME: 1384038000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+ich würde gern mal wissen, ob jemand eine gute Idee hat, wie man ohne <REMOVED_PERSON_ENTITY> oder PHP (wie in der
+Aufgabenstellung gefordert) vernünftig ein Menü (Banner, Menüleiste, Fußleiste etc.) einbinden kann, ohne dass ich es in jede html extra einfügen muss (aufgrund <NAME_CORPUS_REPLACEMENT> Flexiblität und Redundanz bevorzuge ich diese Variante nicht). Geht es so zu lösen, dass ich das komplette Menütemplate in einer <REMOVED_PERSON_ENTITY> habe und eben nur immer den Inhaltsbereich je nach angeklickten Menüpunkt verändern kann (ohne eben PHP oder Java Skript zu benutzen) Außerdem möchte ich auch keine Frames verwenden. 
+Danke für gute Vorschläge! 
+TAGGED_CONTENT:

@@ -1,0 +1,8 @@
+ID: 2023120
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Advanced Logics
+SUMMARY: null
+URL: http://www.computational-logic.org/content/study/master/summer06/courses/al.php?id=43

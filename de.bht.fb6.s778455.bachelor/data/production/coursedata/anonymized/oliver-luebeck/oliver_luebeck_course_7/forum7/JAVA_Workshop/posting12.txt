@@ -1,0 +1,15 @@
+ID: 68
+CREATION_DATETIME: 1305204480000
+MODIFICATION_DATETIME: 1305204480000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 67
+CONTENT:
+ 
+Ich glaube gegenüber so einem mächtigen Werkzeug wie Bildbearbeitungssoftware (Bsp.: Photoshop) ist Eclipse sehr einfach gehalten. Die Schwierigkeit liegt ja im Schreiben des Codes.
+
+Ich habe Daheim bestimmt irgendwo noch JAVA & Eclipse eBooks. Bei Bedarf kann ich da mal was per E-Mail verteilen.
+
+LG 
+    
+TAGGED_CONTENT:

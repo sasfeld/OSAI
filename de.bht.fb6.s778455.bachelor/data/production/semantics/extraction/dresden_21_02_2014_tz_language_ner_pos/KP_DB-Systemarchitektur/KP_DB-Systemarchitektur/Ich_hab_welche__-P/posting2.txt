@@ -1,0 +1,15 @@
+ID: 1760
+CREATION_DATETIME: 1366840800000
+MODIFICATION_DATETIME: 1366840800000
+TITLE: Ich bin ja für die aktuellste LLVM/Clang -Version 3.2:
+LANGUAGE: GERMAN
+POS_TAG: value:Clang;weight:0.0;uri:;postag:NN
+POS_TAG: value:Version;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: comment
+CONTENT:
+Ich bin ja für die aktuellste LLVM/Clang -Version 3. 2:
+
+http://llvm.org/releases/download. html#3. 2
+TAGGED_CONTENT:
+Ich_PPER bin_VAFIN ja_ADV für_APPR die_ART aktuellste_ADJA LLVM\/Clang_NN -_$( Version_NN 3_CARD ._$. 2_CARD :_$. http:\/\/llvm.org\/releases\/download_ADJD ._$. html_ADJD #_XY 3_CARD ._$. 2_CARD 

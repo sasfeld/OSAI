@@ -1,0 +1,9 @@
+ID: 910
+CREATION_DATETIME: 1354143600000
+MODIFICATION_DATETIME: 1354143600000
+TITLE: For completeness: Your dataspace might for instance represent a 4 GB video file and your application ...
+PARENT_POSTING_ID: 906
+POSTING_TYPE: comment
+CONTENT:
+For completeness: Your dataspace might for instance represent a 4 GB video file and your application might only want to look at a small part of it (e. g., a couple of MB). Hence, there's a use case for only attaching a smaller part of a dataspace instead of the full thing.
+TAGGED_CONTENT:

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="13469" moduleid="67261" modulename="forum" contextid="94179">
+  <forum id="13469">
+    <type>general</type>
+    <name>Fachforum zum Teil IV</name>
+    <intro>Hier können Sie Fachfragen zum Teil IV diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1218803060</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="42912">
+        <name>Frage zu den Aufgaben</name>
+        <firstpost>115388</firstpost>
+        <userid>745</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1327844845</timemodified>
+        <usermodified>665</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="115388">
+            <parent>0</parent>
+            <userid>745</userid>
+            <created>1327783349</created>
+            <modified>1327783349</modified>
+            <mailed>1</mailed>
+            <subject>Frage zu den Aufgaben</subject>
+            <message>'n Abend zusammen,&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Kann mir vielleicht jemand mit den Zusatzaufgaben des Aufgabenblock 4 zur Linearen Algebra weiterhelfen?&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Was ist der Unterschied bei 3a und b und bei 3c und d? Was sagt das T aus? &lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Viele Dank und viele Grüße&lt;/div&gt;&lt;div&gt;Mike Ellger&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="115389">
+            <parent>115388</parent>
+            <userid>745</userid>
+            <created>1327834496</created>
+            <modified>1327834496</modified>
+            <mailed>1</mailed>
+            <subject>Re: Frage zu den Aufgaben</subject>
+            <message>Wer lesen kann ... T ist also die Transponierte einer Matrix.&lt;br /&gt;&lt;br /&gt;ABer warum ist die Lösung zu Aufgabe 3b) nicht definiert? Kann ich die beiden Spaltenvektoren nicht multiplizieren?&lt;br /&gt;&lt;br /&gt;Kann ich nur Zeilen- und Spaltenvektor multiplizieren?h&lt;br /&gt;&lt;br /&gt;Viele Grüße&lt;br /&gt;Mike Ellger&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="115390">
+            <parent>115389</parent>
+            <userid>665</userid>
+            <created>1327844845</created>
+            <modified>1327844845</modified>
+            <mailed>1</mailed>
+            <subject>Re: Frage zu den Aufgaben</subject>
+            <message>&lt;p&gt;Hallo Herr Ellger,&lt;/p&gt;
+&lt;p&gt;nachdem Sie sich Ihre erste Frage selber beantwortet haben... :-)&lt;/p&gt;
+&lt;p&gt;Nein, zwei Spalten (oder auch zwei Zeilen) können nicht multipliziert werden. Es geht nur:&lt;/p&gt;
+&lt;p&gt;Zeile mal Spalte = Skalar (wobei die Anzahl der Elemente der Vektoren gleich sein müssen) oder &lt;/p&gt;
+&lt;p&gt;Spalte mal Zeile = Matrix z.B. (3x1) mal (1x5) ergibt eine (3x5) Matrix.&lt;/p&gt;
+&lt;p&gt;Viele Grüße&lt;/p&gt;
+&lt;p&gt;Ulrike Bähr&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="123174">
+        <userid>745</userid>
+      </subscription>
+      <subscription id="123175">
+        <userid>665</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

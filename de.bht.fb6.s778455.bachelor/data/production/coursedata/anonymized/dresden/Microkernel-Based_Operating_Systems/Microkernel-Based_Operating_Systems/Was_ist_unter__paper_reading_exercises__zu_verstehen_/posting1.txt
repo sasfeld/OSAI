@@ -1,0 +1,9 @@
+ID: 235
+CREATION_DATETIME: 1349820000000
+MODIFICATION_DATETIME: 1383260400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Was ist unter "paper reading exercises" zu verstehen? Bekommt <NAME_CORPUS_REPLACEMENT> jeder Student ein Paper, was er lesen muss und die Ergebnisse werden dann präsentiert? Oder wird einem Beigebracht, wie man Paper richtig und sinnvoll liest, um den Inhalt besser zu verstehen? 
+TAGGED_CONTENT:

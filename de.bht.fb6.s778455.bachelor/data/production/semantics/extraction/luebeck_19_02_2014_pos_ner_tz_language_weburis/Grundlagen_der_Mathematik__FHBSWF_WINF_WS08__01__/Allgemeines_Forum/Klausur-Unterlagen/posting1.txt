@@ -1,0 +1,23 @@
+ID: 16611
+CREATION_DATETIME: 1232284194
+MODIFICATION_DATETIME: 1232284194
+TITLE: Klausur-Unterlagen
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=6525#16611
+POS_TAG: value:Seiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:senz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Unterlagen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufzeichnungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Formelsammlung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klausuren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klausur;weight:0.0;uri:;postag:NN
+POS_TAG: value:Taschenrechner;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skript;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+welche Unterlagen dürfen wir in der Klausur benutzen? In der Pflichtpräsenz hieß es, dass wir eigentlich alles benutzen dürfen (Skript, Formelsammlung, eigene Aufzeichnungen, nicht programmierbarer Taschenrechner) - nun habe ich gehört, dass wir lediglich eine Formelsammlung auf 2 Seiten nutzen dürfen?
+Das fände ich nicht gut. 
+In allen anderen Klausuren dürfen wir sowohl das Skript als auch unsere eigenen Aufzeichnungen heranziehen und zusätzlich einen Taschenrechner nutzen.
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, welche_PWAT Unterlagen_NN dürfen_VMFIN wir_PPER in_APPR der_ART Klausur_NN benutzen_VVINF ?_$. In_APPR der_ART Pflichtpräsenz_NN hieß_VVFIN es_PPER ,_$, dass_KOUS wir_PPER eigentlich_ADV alles_PIS benutzen_VVINF dürfen_VMFIN -LRB-_TRUNC Skript_NN ,_$, Formelsammlung_NN ,_$, eigene_ADJA Aufzeichnungen_NN ,_$, nicht_PTKNEG programmierbarer_ADJA Taschenrechner_NN -RRB-_TRUNC -_$( nun_ADV habe_VAFIN ich_PPER gehört_VVPP ,_$, dass_KOUS wir_PPER lediglich_ADV eine_ART Formelsammlung_NN auf_APPR 2_CARD Seiten_NN nutzen_VVINF dürfen_VMINF ?_$. Das_ART fände_VVFIN ich_PPER nicht_PTKNEG gut_ADJD ._$. In_APPR allen_PIDAT anderen_ADJA Klausuren_NN dürfen_VMFIN wir_PPER sowohl_KON das_ART Skript_NN als_KON auch_ADV unsere_PPOSAT eigenen_ADJA Aufzeichnungen_NN heranziehen_VVINF und_KON zusätzlich_ADJD einen_ART Taschenrechner_NN nutzen_VVINF ._$. 

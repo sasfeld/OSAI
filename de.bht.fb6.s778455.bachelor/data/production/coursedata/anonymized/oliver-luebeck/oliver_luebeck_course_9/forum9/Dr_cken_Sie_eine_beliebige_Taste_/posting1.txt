@@ -1,0 +1,15 @@
+ID: 44
+CREATION_DATETIME: 1178883540000
+MODIFICATION_DATETIME: 1178883540000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Liebe Studierende,
+
+der Satz "Drücken Sie eine beliebige Taste...", der in mehreren Screenshots auch bei Einsendeaufgaben zu sehen ist, kommt automatisch bei der Ausführung von Programmen durch TextPad (Version 4 zumindest). Sie brauchen diesen nicht in Ihren Aufgaben zu berücksichtigen. Ich werde diesen "Fehler" melden.
+
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

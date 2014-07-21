@@ -1,0 +1,46 @@
+ID: 718
+CREATION_DATETIME: 1352502000000
+MODIFICATION_DATETIME: 1382047200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo.
+
+<NAME_CORPUS_REPLACEMENT> die Übungs-Fragen in der IS-Übung dazu nur unzureichend beantwortet/besprochen worden sind, stehe ich gerade etwas auf dem <REMOVED_PERSON_ENTITY> wegen der Berechnung des effektiven Branchingfaktors.
+
+Wir sollen das ja in der Übungsaufgabe ja anhand unserer Ergebnisse berechnen und zurückgeben. Gibt es dafür einen einfachen Weg, ohne numerische Methoden zu implementieren?
+
+Also als Beispiel, meine Suche gibt folgendes Ergebnis (keine Ahnung ob die jetzt korrekt sind):
+
+```ruby
+
+     [java] -------------
+
+     [java] | 6 | 4 | 7 |
+
+     [java] -------------
+
+     [java] | 8 | 5 |   |
+
+     [java] -------------
+
+     [java] | 3 | 2 | 1 |
+
+     [java] -------------
+
+     [java] 
+
+     [java] Wert der Heuristik: 22
+
+     [java] Gelöst in 31 Zügen
+
+     [java] Expandierte Knoten: 40593
+
+...
+
+```
+
+So wie ich das jetzt verstanden habe, wäre N = 40593 und d = 31? Die Formel dann $N = 1 + b + b^2 + \cdots b^d$.
+TAGGED_CONTENT:

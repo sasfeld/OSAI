@@ -1,0 +1,9 @@
+ID: 396
+CREATION_DATETIME: 1350511200000
+MODIFICATION_DATETIME: 1351202400000
+TITLE: OpenID (oder andere O
+PARENT_POSTING_ID: 369
+POSTING_TYPE: answer
+CONTENT:
+OpenID (oder andere OAuth Login Moeglichkeiten), damit ich mir nicht noch ein Passwort merken muss.
+TAGGED_CONTENT:

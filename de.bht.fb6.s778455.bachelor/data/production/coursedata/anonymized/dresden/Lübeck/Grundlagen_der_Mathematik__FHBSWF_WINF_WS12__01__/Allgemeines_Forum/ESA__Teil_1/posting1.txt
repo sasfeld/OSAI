@@ -1,0 +1,12 @@
+ID: 180485
+CREATION_DATETIME: 1352910394
+MODIFICATION_DATETIME: 1352910394
+TITLE: ESA, Teil 1
+PARENT_POSTING_ID: 0
+CONTENT:
+Da die Diskussion hier ja ausdrücklich erlaubt bzw. erwünscht ist, beginne ich mal mit dem Teil 1 der Einsendeaufgabe (beim zweiten Teil hänge ich - ehrlich gesagt - noch total in der Luft).
+Gesucht ist eine natürliche <REMOVED_PERSON_ENTITY> n, nämlich die Anzahl der jeweils in eine Pappschachtel zu füllenden Produkte. Die Pappschachteln sollen wiederum in Kisten verpackt werden und die Anzahl der Pappschachteln je Kiste soll möglichst klein gehalten werden (also soll n möglichst groß sein). Da die Anzahl der Pappschachteln ganzzahlig sein soll, muss n so gewählt werden, dass die Verpackungseinheiten (330, 600 und 1170) jeweils Vielfache von n sind. Oder anders herum gesagt: n ist  gemeinsamer Teiler der o. g. VPE.
+Gesucht ist letztlich also der größte gemeinsame Teile (ggT) der genannten Zahlen.
+Diesen findet man durch <REMOVED_PERSON_ENTITY> der VPE in Primfaktoren, Auswahl der gemeinsamen Primafaktoren und des jeweils kleinsten Exponenten.
+Die Rechnung und Lösung stelle ich nicht hier ein, das ginge wohl zu weit.
+TAGGED_CONTENT:

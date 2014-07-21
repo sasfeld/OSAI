@@ -1,0 +1,8 @@
+ID: 110804009
+CREATION_DATETIME: 1343944800000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Support Center
+SUMMARY: Support Center Auditorium
+URL: http://auditorium.inf.tu-dresden.de

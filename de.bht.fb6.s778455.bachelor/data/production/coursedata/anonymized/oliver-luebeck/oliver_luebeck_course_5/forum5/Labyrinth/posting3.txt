@@ -1,0 +1,13 @@
+ID: 91
+CREATION_DATETIME: 1197636000000
+MODIFICATION_DATETIME: 1197636000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 90
+CONTENT:
+ 
+Ja. Bereit besucht ist markiert, also nicht mehr frei.
+
+Mit freundlichen Gruessen,
+	
+TAGGED_CONTENT:

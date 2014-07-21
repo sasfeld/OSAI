@@ -1,0 +1,12 @@
+ID: 2008
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: probier's mal mit der .profile
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2007
+POSTING_TYPE: comment
+CONTENT:
+probier's mal mit der . profile
+
+die bashrc kommt bei SSH nicht zum Einsatz.
+TAGGED_CONTENT:

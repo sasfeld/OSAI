@@ -1,0 +1,17 @@
+ID: 1904
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: Okay. Welche Befehle muss ich hintereinander ausführen? Ich bekomme:
+
+```bash
+./compileandrun.sh: ...
+PARENT_POSTING_ID: 1900
+POSTING_TYPE: answer
+CONTENT:
+Okay. Welche Befehle muss ich hintereinander ausführen? Ich bekomme:
+```bash
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+./compileandrun. <LEARNED_PERSON_NAME_REPLACEMENT>: <NAME_CORPUS_REPLACEMENT> 119: 31158 Aborted                 (core dumped) ./build/testCLT
+```
+TAGGED_CONTENT:

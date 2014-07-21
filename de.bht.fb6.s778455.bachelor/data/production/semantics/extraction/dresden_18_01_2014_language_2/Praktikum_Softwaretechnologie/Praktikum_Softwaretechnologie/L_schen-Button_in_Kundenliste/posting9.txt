@@ -1,0 +1,26 @@
+ID: 2979
+CREATION_DATETIME: 1385161200000
+MODIFICATION_DATETIME: 1385161200000
+TITLE: Danke für den Hinweis, ich hatte den Import wirklich vergessen :p
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2935
+POSTING_TYPE: comment
+CONTENT:
+Danke für den Hinweis, ich hatte den Import wirklich vergessen :p
+
+Wenn ich mich jetzt als Boss anmelde und auf die Kundenliste will, erhalte ich eine Fehlermeldung:
+
+Request processing failed; nested exception is org. thymeleaf. exceptions. TemplateInputException: Exception parsing document: template="customers", <NAME_CORPUS_REPLACEMENT> 34 - column 12
+
+Soweit ich das interpretieren kann heißt das, er hatte probleme beim übersetzen meiner customers. html und zwar genau <NAME_CORPUS_REPLACEMENT>, wo mein Button ist.
+
+Aber was ist an dem Button falsch? Hier nochmal die betroffene Stelle:
+
+```ruby
+
+                                        Nutzer löschen
+
+                                        <input type="hidden" name="id" value="0" th:value="${customer. delete}" />
+
+```
+TAGGED_CONTENT:

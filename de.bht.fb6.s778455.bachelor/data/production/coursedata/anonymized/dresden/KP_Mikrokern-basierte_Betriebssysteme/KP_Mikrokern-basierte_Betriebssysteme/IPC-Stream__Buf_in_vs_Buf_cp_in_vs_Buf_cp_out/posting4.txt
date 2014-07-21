@@ -1,0 +1,10 @@
+ID: 540
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1351202400000
+TITLE: AFAIK, C++ strings use dynamic memory allocation, so it isn't possible to use them at the moment. At ...
+PARENT_POSTING_ID: 537
+POSTING_TYPE: comment
+CONTENT:
+AFAIK, C++ strings use dynamic memory allocation, so it isn't possible to use them at the moment. At least I didn't manage to allocate something on the heap.
+But than, when we have dynamic allocator, we will be able to use C++ strings' method c_str, that returns C-style string. So I don't think that there is big difference in using C-style and C++-style strings.
+TAGGED_CONTENT:

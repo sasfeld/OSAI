@@ -1,0 +1,15 @@
+ID: 72
+CREATION_DATETIME: 1181984280000
+MODIFICATION_DATETIME: 1181984280000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 71
+CONTENT:
+
+Lieber ,
+
+die Idee macht Sinn, sie muss aber anders umgesetzt werden.
+Mit int[][] entfernung wird das Array entfernung deklariert. Es gibt es also noch gar nicht. Aus diesem Grund kan man in der Initialisierung auf entfernung[0][1] noch nich zugreifen. Man muss Deklaration und Zuweisung trennen.
+Viele Gruesse,
+    
+TAGGED_CONTENT:

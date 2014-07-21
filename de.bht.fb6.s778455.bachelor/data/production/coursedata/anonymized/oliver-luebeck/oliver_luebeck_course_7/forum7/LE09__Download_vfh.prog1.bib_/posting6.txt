@@ -1,0 +1,21 @@
+ID: 25
+CREATION_DATETIME: 1304538060000
+MODIFICATION_DATETIME: 1304538060000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 23
+CONTENT:
+ 
+hallo !
+
+ich bin zum glück nicht wirklich berufstätig sondern arbeite nur nebenbei von daheim. das macht das ganze einfacher ;)
+
+wo genau dein problem liegt kann ich leider so auf anhieb auch nicht sagen, bei mir sieht das alles irgendwie anders aus.
+ich habe eine klasse MesswertAnalyse, dort rufe ich double wert = Konsole.getInputDouble("Wert:"); direkt in der main-methode auf. (an dieser stelle noch drauf achten, dass du zwei werte brauchst. soll- und messwert).
+daraus dann die abweichung bestimmen.
+
+danach musst du wie oben geschrieben nur noch "vergleichen", also in welcher größenordnung die abweichung liegt. ich meine es geht nur mit ner if-anweisung (weil es ja keine int-werte sind (oder byte oder short oder char....)). wenns auch mit switch geht lasse ich mich aber gern eines besseren belehren, das wäre übersichtlicher :)
+
+liebe grüße,
+   
+TAGGED_CONTENT:

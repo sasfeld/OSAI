@@ -1,0 +1,16 @@
+ID: 1780
+CREATION_DATETIME: 1367532000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Ich hab die 2 Paper vom <REMOVED_PERSON_ENTITY> ins SVN geladen. Die sind aber nur zur Info, damit man mal sieht, wie andere an das Thema heran gehen.
+
+Noch eine Idee zu den Device Eigenschaften:
+
+In den AMD Samples ist ein ganz gutes Tool namens BufferBandwidth. Das liegt auf der Wimpy-Node unter `/opt/AMDAPP/samples/opencl/cl/app/BufferBandwidth/` die binaries liegen unter `/opt/AMDAPP/samples/opencl/bin/x86_64/`
+
+Damit kann man recht gut den Speicher und den Bus einschätzen. Muss man aber bestimmt aus und umbauen, um es zu verwenden.
+TAGGED_CONTENT:

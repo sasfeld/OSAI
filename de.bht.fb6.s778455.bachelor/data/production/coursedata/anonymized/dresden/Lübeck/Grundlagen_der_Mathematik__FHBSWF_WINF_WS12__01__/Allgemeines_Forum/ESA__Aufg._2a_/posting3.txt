@@ -1,0 +1,9 @@
+ID: 184463
+CREATION_DATETIME: 1354464063
+MODIFICATION_DATETIME: 1354464063
+TITLE: Re: ESA, Aufg. 2a)
+PARENT_POSTING_ID: 183799
+CONTENT:
+Moin <REMOVED_PERSON_ENTITY>, finde ich auch gut den Ansatz, vor allem, weil man die Vektoren, die man hier aufgestellt hat, in Aufgabe 2c) wieder benötigt, um die linare Unabhängigkeit zu zeigen. Jedenfalls ist <REMOVED_PERSON_ENTITY>, diese nebeneinander aufzuschreiben und zu schauen, ob l. u. vorliegt. Hatten wir ja in der Präsenz u. a. auch mit den Einheitsvektoren so gemacht...
+Oder?GrüßeLars
+TAGGED_CONTENT:

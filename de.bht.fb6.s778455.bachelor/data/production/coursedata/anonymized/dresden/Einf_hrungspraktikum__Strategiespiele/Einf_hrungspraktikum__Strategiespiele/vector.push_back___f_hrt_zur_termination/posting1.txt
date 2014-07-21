@@ -1,0 +1,24 @@
+ID: 1602
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1368741600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich habe jetzt bei der Fehlersuche bemerkt, dass ein erster aufruf der Memberfunktion push_back() der Vector-Klasse dazu führt, dass der MCP versucht meinen ouput zu lesen. Ich nehme das mal als terminierung an.
+hier der code dazu (in auszügen):
+```ruby
+						possiblemoves. push_back(evaluateMove(i, i-7));
+						printf("Test possible moves ");
+```
+der print-befehl hier wird nicht mehr ausgeführt, allerdings werden im folgenden abschnitt alle ausgeführt:
+```ruby
+printf("Test 2 ");
+	Move returnMove(ch_start, ch_dest, rating, jump);
+	printf("Test 3 ");
+	return returnMove;
+```
+das letzt ist ein Auszug aus der evaluate-Move()-Methode <NAME_CORPUS_REPLACEMENT> mir.
+kann mir jemand sagen, warum ein erster aufruf der push-back-methode fehlschlägt?
+EDIT: es ist der erste Aufruf!
+TAGGED_CONTENT:

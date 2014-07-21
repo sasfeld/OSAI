@@ -1,0 +1,13 @@
+ID: 117549
+CREATION_DATETIME: 1321969732
+MODIFICATION_DATETIME: 1321969732
+TITLE: Re: Üben Üben Üben
+TOPIC_ZOOM_TAG: value:Allgemeine (nicht fachgebundene) Universitäten;weight:1.0;significance:6.31830884816858;degreegeneralization:5;uri:21881952
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 117548
+CONTENT:
+Hallo, ja wir sind regelmäßig in der Uni. Wir sind am Exer im 1 OG auf der linken <REMOVED_PERSON_ENTITY>, ganz hinten durch und dem krach folgen ;-)GrüßleOliver Ewoldsen 
+TAGGED_CONTENT:

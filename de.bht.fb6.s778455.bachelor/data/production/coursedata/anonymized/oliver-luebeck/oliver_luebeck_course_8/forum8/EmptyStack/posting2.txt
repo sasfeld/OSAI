@@ -1,0 +1,14 @@
+ID: 54
+CREATION_DATETIME: 1199439840000
+MODIFICATION_DATETIME: 1199439840000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 53
+CONTENT:
+
+Lieber ,
+
+humm.... um die Ausnahme EmptyStackException fangen zu können, muss sie geworfen werden. Wo sollte das Werfen der Ausnahme passieren?
+Viele Grüße
+   
+TAGGED_CONTENT:

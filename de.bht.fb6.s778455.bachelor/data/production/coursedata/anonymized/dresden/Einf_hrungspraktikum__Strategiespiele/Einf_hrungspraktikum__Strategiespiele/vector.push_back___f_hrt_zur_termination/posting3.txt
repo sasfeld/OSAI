@@ -1,0 +1,9 @@
+ID: 1604
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: die Rückgabe von evaluateMove() ist der untere Code-Schnipsel
+PARENT_POSTING_ID: 1602
+POSTING_TYPE: comment
+CONTENT:
+die Rückgabe <NAME_CORPUS_REPLACEMENT> evaluateMove() ist der untere Code-Schnipsel
+TAGGED_CONTENT:

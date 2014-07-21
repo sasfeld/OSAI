@@ -1,0 +1,14 @@
+ID: 1668
+CREATION_DATETIME: 1365112800000
+MODIFICATION_DATETIME: 1382738400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Guten Abend,
+
+<NAME_CORPUS_REPLACEMENT> ich keine weiteren Informationen zur Prüfung gefunden habe wollte ich fragen ob diese auf <REMOVED_PERSON_ENTITY> oder Englisch abzulegen ist.
+
+MfG <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 716
+CREATION_DATETIME: 1352415600000
+MODIFICATION_DATETIME: 1352415600000
+TITLE: Yes, you were right. No luck today. It's fixed now.
+PARENT_POSTING_ID: 712
+POSTING_TYPE: comment
+CONTENT:
+Yes, you were right. No luck today. It's fixed now.
+TAGGED_CONTENT:

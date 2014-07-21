@@ -1,0 +1,18 @@
+ID: 44
+CREATION_DATETIME: 1177863420000
+MODIFICATION_DATETIME: 1177863420000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 43
+CONTENT:
+
+Habe das jetzt so gelöst, dass mein zweite Konstruktor einfach nochmal alle Werte des 1. enthält. Das lss ich so, bis ich da Klarheit habe, wie es sonst gelöst werden soll^^
+
+Aber ich habe schon wieder eine frage. Undzwar kompiliert nun alles ohne Fehler, allerdings wird einfach kein Wert ausgegeben, wenn ich zum Beispiel die Methode alter() aufrufe. Was mir daran aufällt ist, dass sämtliche void Methoden funktionieren, die int Methoden allerdnigs nicht. Wo kann da mein Fehler liegen?
+
+Und danke nochmal für die Antworten hier!
+
+Grüße
+EDIT: Habe den Fehler behoben^^
+    
+TAGGED_CONTENT:

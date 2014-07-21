@@ -1,0 +1,53 @@
+ID: 176
+CREATION_DATETIME: 1348610400000
+MODIFICATION_DATETIME: 1348610400000
+TITLE: Nachdem ich praktisch
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Arbeitserfahrung;weight:1.0;significance:4.93766808558885;degreegeneralization:4;uri:20783242
+TOPIC_ZOOM_TAG: value:Praktika;weight:1.0;significance:4.93766808558885;degreegeneralization:6;uri:20783225
+TOPIC_ZOOM_TAG: value:Berufliche Ausbildung und Weiterbildung;weight:1.0;significance:4.12710110949021;degreegeneralization:5;uri:21869780
+TOPIC_ZOOM_TAG: value:Erwachsenenbildung und berufliche Bildung;weight:1.0;significance:4.09884500435854;degreegeneralization:3;uri:21306077
+TOPIC_ZOOM_TAG: value:Züge;weight:1.0;significance:3.99950965696079;degreegeneralization:8;uri:21308253
+TOPIC_ZOOM_TAG: value:Öffentlichkeit;weight:1.0;significance:3.96052888622594;degreegeneralization:5;uri:19952282
+TOPIC_ZOOM_TAG: value:Schienenverkehr;weight:1.0;significance:3.2509867942545;degreegeneralization:6;uri:21897745
+TOPIC_ZOOM_TAG: value:Beruf und Karriere;weight:1.0;significance:2.35712726440897;degreegeneralization:4;uri:20990557
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Fahrzeuge und Verkehrsmittel;weight:1.0;significance:2.26257607261774;degreegeneralization:6;uri:21881442
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:2.18452430611399;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Verkehr;weight:1.0;significance:2.03580982110768;degreegeneralization:5;uri:21897779
+TOPIC_ZOOM_TAG: value:Transport, Verkehr und Logistik;weight:1.0;significance:2.00954255143862;degreegeneralization:4;uri:21925982
+TOPIC_ZOOM_TAG: value:Bevölkerung;weight:1.0;significance:1.9441465746638;degreegeneralization:4;uri:21634313
+TOPIC_ZOOM_TAG: value:Arbeit und Beruf;weight:1.0;significance:1.77050613279153;degreegeneralization:3;uri:21924095
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:1.07441906812122;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:0.90229776862663;degreegeneralization:2;uri:21999847
+PARENT_POSTING_ID: 166
+POSTING_TYPE: answer
+CONTENT:
+Nachdem ich die FAQ gelesen und praktisch alle Arrays mit vector - Containern vertauscht habe, ging endlich alles und ich konnte die anderen Fehler korrigieren.
+
+```c
+
+#include 
+
+int main()
+
+{
+
+    std::vector  zugArray; // Instanziieren
+
+    Zug toAdd(bla, bla);
+
+    zugArray. push_back(toAdd); // Objekt hinten ranhängen
+
+    zugArray[0] == toAdd; // Abfragen wie einen Array
+
+    ...
+
+}
+
+```
+
+@Mods: Wenn das Praktikum vorbei ist und ihr die Frage als hilfreich erachtet, könnt ihr den Code ganz oben gerne löschen und die Frage öffentlich machen. 
+TAGGED_CONTENT:

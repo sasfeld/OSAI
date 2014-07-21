@@ -1,0 +1,20 @@
+ID: 2826
+CREATION_DATETIME: 1384210800000
+MODIFICATION_DATETIME: 1384210800000
+TITLE: Das hat nicht geholfen. Beim Import wird der Schritt mit den Häkchen komplett übersprungen, Maven Ins...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2818
+POSTING_TYPE: comment
+CONTENT:
+Das hat nicht geholfen. Beim Import wird der Schritt mit den Häkchen komplett übersprungen, Maven Install bricht ab mit Build Error (nachdem einige Dateien runtergeladen wurden) und Update mit Force .. gibt irgendwann das hier aus:
+
+```
+
+Could not get the value for parameter encoding for plugin execution default-resources
+
+Plugin org. apache. maven. plugins:maven-resources-plugin:2. 6 or one of its dependencies could not be resolved: Failed to collect dependencies for org. apache. maven. plugins:maven-resources-plugin:jar:2. 6 ()
+
+```
+
+Bei Maven Install werden übrigens nur Kilobyte-weise Daten runtergeladen, obwohl ich hier gute Anbindung habe.
+TAGGED_CONTENT:

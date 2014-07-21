@@ -1,0 +1,10 @@
+ID: 2147
+CREATION_DATETIME: 1372629600000
+MODIFICATION_DATETIME: 1374444000000
+TITLE: Wenn bei der Manchester-Kodierung lange Folgen von Nullen übertragen werden, so findet jeweils an der...
+PARENT_POSTING_ID: 2146
+POSTING_TYPE: answer
+CONTENT:
+Wenn bei der Manchester-Kodierung lange Folgen <NAME_CORPUS_REPLACEMENT> Nullen übertragen werden, so findet jeweils an der Grenze eines Taktintervalls eine Pegeländerung statt (für die Kodierung der nachfolgenden Null) und auch in  der Mitte jedes Taktintervalls (für die Übertragung der Taktung selbst). Das heißt, dass in diesem "worst case"-Fall quasi doppelt so viele Pegeländerungen (oder Informationskodierungen) pro gegebener Zeiteinheit auf den darunter liegenden Träger aufgeprägt werden müssen als bei einer "trivialen" Kodierung wie Non Return to Zero. Somit wird im worst case (Folgen <NAME_CORPUS_REPLACEMENT> Nullen) also die Hälfte der verfügbaren Bandbreite für die Taktkodierung "verschwendet", wodurch sich die tatsächlich realisierbare Netto-Datenrate (bei angenommener konstanter Bandbreite) auf die Hälfte des theoretisch möglichen Wertes reduziert.
+Weiter zur Manchester-Kodierung: Bei einer nachfolgenden "0" gibt es eine <REMOVED_PERSON_ENTITY>, bei einer nachfolgenden "1" keine (egal welches Bit zuvor übertragen wurde). Somit also bei Wechsel <NAME_CORPUS_REPLACEMENT> "0" auf "1" keine Pegeländerung, bei Wechsel <NAME_CORPUS_REPLACEMENT> "1" auf "0" dagegen eine Pegeländerung.
+TAGGED_CONTENT:

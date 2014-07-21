@@ -1,0 +1,9 @@
+ID: 2201
+CREATION_DATETIME: 1373407200000
+MODIFICATION_DATETIME: 1373407200000
+TITLE: ich glaube, du hast deinen aktuellen Stand noch nicht eingecheckt. wenn ich das Projekt nach fence du...
+PARENT_POSTING_ID: 2191
+POSTING_TYPE: comment
+CONTENT:
+ich glaube, du hast deinen aktuellen Stand noch nicht eingecheckt. wenn ich das Projekt nach fence durchsuche, findet er nichts.
+TAGGED_CONTENT:

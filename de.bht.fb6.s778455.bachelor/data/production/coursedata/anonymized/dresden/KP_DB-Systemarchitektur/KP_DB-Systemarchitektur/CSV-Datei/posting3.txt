@@ -1,0 +1,9 @@
+ID: 2195
+CREATION_DATETIME: 1373407200000
+MODIFICATION_DATETIME: 1373407200000
+TITLE: Wie gesagt, Mario hat da etwas rumgespielt. Der komplette Code gehört dir und du darfst es so umbauen...
+PARENT_POSTING_ID: 2193
+POSTING_TYPE: comment
+CONTENT:
+Wie gesagt, <REMOVED_PERSON_ENTITY> hat <NAME_CORPUS_REPLACEMENT> etwas rumgespielt. Der komplette Code gehört dir und du darfst es so umbauen, dass es am Ende funktioniert. Wie es genau am Ende funktionieren soll, weißt du ja.
+TAGGED_CONTENT:

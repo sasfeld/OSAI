@@ -1,0 +1,9 @@
+ID: 256
+CREATION_DATETIME: 1349820000000
+MODIFICATION_DATETIME: 1349820000000
+TITLE: Das schaffen wir in u
+PARENT_POSTING_ID: 241
+POSTING_TYPE: comment
+CONTENT:
+Das schaffen wir in unserer kleinen Lehrveranstaltung aber nicht, <REMOVED_PERSON_ENTITY>. ;)
+TAGGED_CONTENT:

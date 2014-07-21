@@ -1,0 +1,10 @@
+ID: 2211
+CREATION_DATETIME: 1373493600000
+MODIFICATION_DATETIME: 1373493600000
+TITLE: Hmm, dann ist das alles korrekt. Was ist das für eine Maschine? Bekomme ich dazu Zugang, um mir die S...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2206
+POSTING_TYPE: comment
+CONTENT:
+Hmm, dann ist das alles korrekt. Was ist das für eine Maschine? Bekomme ich dazu Zugang, um mir die Sache mal anzuschauen?
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 97757
+CREATION_DATETIME: 1285925916
+MODIFICATION_DATETIME: 1285925933
+TITLE: Re: Web conferencing
+PARENT_POSTING_ID: 97755
+CONTENT:
+Hallo,
+wenn sich bei Ihnen zwei Kurse desselben Semesters ueberschneiden bitte ich Sie, sich an den VFH-Service zu wenden. Dann muessten wir etwas reparieren.
+Ueberschneidungen zwischen Kursen verschiedener Semester sind kein Fehler. Bitte haben Sie Verstaendnis, dass wir in solchen Faellen keine ueberschneidungsfreien Vorlesungen anbieten. Allerdings bieten wir Aufzeichnungen der Chats an, was Ihr Problem loesen kann.
+TAGGED_CONTENT:

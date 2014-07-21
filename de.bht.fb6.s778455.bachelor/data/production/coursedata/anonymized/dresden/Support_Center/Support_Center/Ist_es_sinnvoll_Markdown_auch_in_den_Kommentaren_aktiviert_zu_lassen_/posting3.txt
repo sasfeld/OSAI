@@ -1,0 +1,9 @@
+ID: 69
+CREATION_DATETIME: 1342476000000
+MODIFICATION_DATETIME: 1342476000000
+TITLE: Naja die Headlines ka
+PARENT_POSTING_ID: 68
+POSTING_TYPE: comment
+CONTENT:
+Naja die Headlines kann man ja z. B. in dem Kontext auch verkleinern, sodass sie nicht so stark hervorstechen, aber durchaus einen Kommentar besser auszeichnen können. 
+TAGGED_CONTENT:

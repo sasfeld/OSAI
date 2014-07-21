@@ -1,0 +1,9 @@
+ID: 193
+CREATION_DATETIME: 1349560800000
+MODIFICATION_DATETIME: 1349820000000
+TITLE: Die Übungen sind alle
+PARENT_POSTING_ID: 190
+POSTING_TYPE: answer
+CONTENT:
+Die Übungen sind alle entweder in der INF/E065 oder der INF/E067. Die <NAME_CORPUS_REPLACEMENT> dir genannte am Mittwoch in der 2. DS ist laut [Gesamtstundenplan](http://www.inf.tu-dresden. de/content/units/deansoffice/downloads/schedules/stundenplan_ws1213. pdf) in der E065. Die Übungen in EMI gehen aber so weit ich weiß erst in der 2. Vorlesungswoche los.
+TAGGED_CONTENT:

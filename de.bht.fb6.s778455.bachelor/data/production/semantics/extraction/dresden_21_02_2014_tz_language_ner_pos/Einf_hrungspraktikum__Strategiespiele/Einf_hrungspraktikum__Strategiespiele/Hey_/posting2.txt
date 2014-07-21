@@ -1,0 +1,34 @@
+ID: 1428
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1362870000000
+TITLE: Hier mal ein Beispiel wie du dein Spieler mit einer bestimmten Eingabe füttern kannst und mit GDB dur...
+LANGUAGE: GERMAN
+POS_TAG: value:Beispiel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Format;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spielsituation;weight:0.0;uri:;postag:NN
+POS_TAG: value:player;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeile;weight:0.0;uri:;postag:NN
+POS_TAG: value:Variablen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Werte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Funktionen;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Code;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1427
+POSTING_TYPE: answer
+CONTENT:
+Hier mal ein Beispiel:
+
+    $ gdb my_player
+
+    (gdb) b my_player. <LEARNED_PERSON_NAME_REPLACEMENT>:55
+
+    (gdb) run 3output. txt
+
+    ...
+
+In die input. txt musst du also die gewünschte Spielsituation im entsprechenden Format legen. GDB hält dein <REMOVED_PERSON_ENTITY> dann an, sobald Zeile 55 der my_player. <LEARNED_PERSON_NAME_REPLACEMENT> erreicht wird und du kannst dann gucken was genau passiert. Mit "s" führst du eine <REMOVED_PERSON_ENTITY> aus und gehst in Funktionen rein, mit "n" führst du eine <REMOVED_PERSON_ENTITY> aus und überspringst Funktionen und mit "p" kannst du dir Werte <NAME_CORPUS_REPLACEMENT> Variablen und ähnlichem anschauen.
+
+Was auch sehr hilfreich ist ist GDB mit "--tui" zu starten. Dann siehst du gleichzeitig deinen Code.
+TAGGED_CONTENT:
+Hier_ADV mal_ADV ein_ART Beispiel_NN :_$. $_FM gdb_FM my_player_FM -LRB-_TRUNC gdb_KON -RRB-_TRUNC b_XY my_player_PTKVZ ._$. <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_CARD ,_$, 55_CARD -LRB-_TRUNC gdb_KON -RRB-_TRUNC run_KON 3output_VVFIN ._$. txt_XY ..._$( In_APPR die_ART input_FM ._$. txt_XY musst_VMFIN du_PPER also_ADV die_ART gewünschte_ADJA Spielsituation_NN im_APPRART entsprechenden_ADJA Format_NN legen_VVINF ._$. GDB_NE hält_VVFIN dein_PPOSAT <_NN REMOVED_PERSON_ENTITY_NE >_VVFIN dann_ADV an_PTKVZ ,_$, sobald_KOUS Zeile_NN 55_CARD der_ART my_player_NN ._$. <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_CARD erreicht_VVPP wird_VAFIN und_KON du_PPER kannst_VMFIN dann_ADV gucken_VVFIN was_PWS genau_ADV passiert_VVFIN ._$. Mit_APPR "_$( s_PPER "_$( führst_VVFIN du_PPER eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN aus_PTKVZ und_KON gehst_VVFIN in_APPR Funktionen_NN rein_PTKVZ ,_$, mit_APPR "_$( n_XY "_$( führst_VVFIN du_PPER eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN aus_PTKVZ und_KON überspringst_VVFIN Funktionen_NN und_KON mit_APPR "_$( p_XY "_$( kannst_VMFIN du_PPER dir_PRF Werte_NN <_CARD NAME_CORPUS_REPLACEMENT_NN >_ADJA Variablen_NN und_KON ähnlichem_ADJA anschauen_VVINF ._$. Was_PWS auch_ADV sehr_ADV hilfreich_ADJD ist_VAFIN ist_VAFIN GDB_NE mit_APPR "_$( --_-- tui_FM "_$( zu_PTKZU starten_VVINF ._$. Dann_ADV siehst_VVFIN du_PPER gleichzeitig_ADJD deinen_VVFIN Code_NN ._$. 

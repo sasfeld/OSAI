@@ -1,0 +1,16 @@
+ID: 169
+CREATION_DATETIME: 1348524000000
+MODIFICATION_DATETIME: 1348524000000
+TITLE: Um den Code auszuzeic
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 166
+POSTING_TYPE: comment
+CONTENT:
+Um den Code auszuzeichnen, nutze einfach:
+
+    ```c
+
+    # dein code hier
+
+    ```
+TAGGED_CONTENT:

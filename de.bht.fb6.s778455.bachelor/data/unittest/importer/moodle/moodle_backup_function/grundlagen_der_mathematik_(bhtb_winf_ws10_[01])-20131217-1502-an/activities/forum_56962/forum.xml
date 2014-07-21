@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="11744" moduleid="56962" modulename="forum" contextid="80620">
+  <forum id="11744">
+    <type>general</type>
+    <name>Fachforum zum Teil I</name>
+    <intro>Hier können Sie Fachfragen zum Teil I diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>2</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1218800557</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="37723">
+        <name>Gruppe für die 1. Einsendeaufgabe</name>
+        <firstpost>101862</firstpost>
+        <userid>3923</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1288078885</timemodified>
+        <usermodified>3903</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="101862">
+            <parent>0</parent>
+            <userid>3923</userid>
+            <created>1287940559</created>
+            <modified>1287940559</modified>
+            <mailed>1</mailed>
+            <subject>Gruppe für die 1. Einsendeaufgabe</subject>
+            <message>Hallo!&lt;br /&gt;&lt;br /&gt;Wer hat noch keine Gruppe für die erste Einsendeaufgabe? &lt;br /&gt;&lt;br /&gt;Ich bin im Moment nämlich noch alleine!&lt;br /&gt;&lt;br /&gt;LG,&lt;br /&gt;&lt;br /&gt;Andreas&lt;br /&gt;&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="101863">
+            <parent>101862</parent>
+            <userid>3917</userid>
+            <created>1287983309</created>
+            <modified>1287983309</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppe für die 1. Einsendeaufgabe</subject>
+            <message>Hallo Andreas,&lt;br /&gt;&lt;br /&gt;ich habe auch noch keinen für die Gruppenaufgabe!&lt;br /&gt;&lt;br /&gt;Gruß Denis&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="101864">
+            <parent>101862</parent>
+            <userid>3903</userid>
+            <created>1288078885</created>
+            <modified>1288078885</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppe für die 1. Einsendeaufgabe</subject>
+            <message>Hallo Andreas,&lt;br /&gt;&lt;br /&gt;ich täte mich gerne anschließen, falls noch ein Platz in der Gruppe frei ist.&lt;br /&gt;&lt;br /&gt;mfg&lt;br /&gt;Robert&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="104385">
+        <userid>3923</userid>
+      </subscription>
+      <subscription id="104386">
+        <userid>3913</userid>
+      </subscription>
+      <subscription id="104387">
+        <userid>3903</userid>
+      </subscription>
+      <subscription id="104388">
+        <userid>3919</userid>
+      </subscription>
+      <subscription id="104389">
+        <userid>3897</userid>
+      </subscription>
+      <subscription id="104390">
+        <userid>3927</userid>
+      </subscription>
+      <subscription id="104391">
+        <userid>3925</userid>
+      </subscription>
+      <subscription id="104392">
+        <userid>3881</userid>
+      </subscription>
+      <subscription id="104393">
+        <userid>2647</userid>
+      </subscription>
+      <subscription id="104394">
+        <userid>3931</userid>
+      </subscription>
+      <subscription id="104395">
+        <userid>3933</userid>
+      </subscription>
+      <subscription id="104396">
+        <userid>3907</userid>
+      </subscription>
+      <subscription id="104397">
+        <userid>3885</userid>
+      </subscription>
+      <subscription id="104398">
+        <userid>3915</userid>
+      </subscription>
+      <subscription id="104399">
+        <userid>3869</userid>
+      </subscription>
+      <subscription id="104400">
+        <userid>3921</userid>
+      </subscription>
+      <subscription id="104401">
+        <userid>3935</userid>
+      </subscription>
+      <subscription id="104402">
+        <userid>3917</userid>
+      </subscription>
+      <subscription id="104403">
+        <userid>3941</userid>
+      </subscription>
+      <subscription id="104404">
+        <userid>3929</userid>
+      </subscription>
+      <subscription id="104405">
+        <userid>3943</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

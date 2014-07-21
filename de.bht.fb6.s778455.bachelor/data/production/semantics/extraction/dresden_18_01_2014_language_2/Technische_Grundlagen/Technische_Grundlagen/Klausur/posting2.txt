@@ -1,0 +1,10 @@
+ID: 1038
+CREATION_DATETIME: 1358031600000
+MODIFICATION_DATETIME: 1372370400000
+TITLE: Wenn du dich sicher fühlst und die Prüfung für dich in den Zeitplan passt und die Modulbeschreibung k...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1037
+POSTING_TYPE: answer
+CONTENT:
+Wenn du dich sicher fühlst und die Prüfung für dich in den Zeitplan passt und die Modulbeschreibung keine Vorleistung vorschreibt, spricht nichts dagegen, dass du die Prüfung im ersten Semester machst. Der Vorteil für dich wäre, dass du im zweiten Semester, oder wann der reguläre Termin ist, eine Prüfung weniger hast und für mitunter schwerere Prüfungen mehr Zeit hast. 
+TAGGED_CONTENT:

@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="22455" moduleid="109957" modulename="forum" contextid="154211">
+  <forum id="22455">
+    <type>general</type>
+    <name>Allgemeines Forum</name>
+    <intro>Hier können Sie übergeordnete und organisatorische Fragen diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>2</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1185448275</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="61991">
+        <name>Lerndiskussion nach den Webkonferenzen</name>
+        <firstpost>166943</firstpost>
+        <userid>10323</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1349423327</timemodified>
+        <usermodified>10311</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="166943">
+            <parent>0</parent>
+            <userid>10323</userid>
+            <created>1349358680</created>
+            <modified>1349358680</modified>
+            <mailed>1</mailed>
+            <subject>Lerndiskussion nach den Webkonferenzen</subject>
+            <message>&lt;p&gt;Hallo zusammen,&lt;/p&gt;
+&lt;p&gt;ich habe mir überlegt  die Meetingsoftware zu nutzen um im Anschluss an die Konferenz des Dozenten, eine Konferenz für interessierte Studenten abzuhalten. Hierfür steht uns ja der Button"Discussion" bereit wie in der Einführungsveranstaltung vorgestellt.&lt;/p&gt;
+&lt;p&gt;Meine Vorstellung ist, dass dort im gemeinsamen Austausch Fragen gestellt werden, Ideen gesammelt und Lösungen erarbeitet werden.&lt;/p&gt;
+&lt;p&gt;Ich selbst bin schon lange aus dem Stoff raus und mir würde es leichter fallen wenn man vielleicht anhand von Beispielaufgaben die Lösungswege gemeinsam durchgeht. Mir fällt beim Durchgehen der LE oft auf, dass sich immer noch Lücken erschließen.&lt;/p&gt;
+&lt;p&gt;Ich würde das ab der nächsten WebKonferenz organisieren und schlage aber schon mal abweichend davon den kommenden MIttwoch (10.10.2012) vor, wo keine Webkonferenz des Dozenten stattfindet.&lt;/p&gt;
+&lt;p&gt;Uhrzeit dann 20:00 und die restlichen Tage im Anschluss an die Webkonferenz des Dozenten.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;VG Konrad&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="166975">
+            <parent>166943</parent>
+            <userid>10329</userid>
+            <created>1349362315</created>
+            <modified>1349362315</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lerndiskussion nach den Webkonferenzen</subject>
+            <message>Super  Idee! Mir geht es da genau wie dir...
+
+Gruß Jérome</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="167053">
+            <parent>166943</parent>
+            <userid>3897</userid>
+            <created>1349371545</created>
+            <modified>1349371545</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lerndiskussion nach den Webkonferenzen</subject>
+            <message>&lt;p&gt;Hallo Konrad, hallo Jèrome,&lt;/p&gt;
+&lt;p&gt;ich bin auch ich gerne dabei, dann bis Mittwoch.&lt;/p&gt;
+&lt;p&gt;einen schönen Abend noch,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Andreas&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="167083">
+            <parent>166943</parent>
+            <userid>10349</userid>
+            <created>1349374515</created>
+            <modified>1349374515</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lerndiskussion nach den Webkonferenzen</subject>
+            <message>&lt;p&gt;Hallo zusammen,&lt;/p&gt;
+&lt;p&gt;ja ich wäre auch dabei. Einige Sachen waren mir wieder gleich klar. Andere hingegen überhaupt nicht.&lt;/p&gt;
+&lt;p&gt;Bis Mittwoch Thomas&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="167165">
+            <parent>166943</parent>
+            <userid>10321</userid>
+            <created>1349385447</created>
+            <modified>1349385447</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lerndiskussion nach den Webkonferenzen</subject>
+            <message>&lt;p&gt;Hört sich gut an. Ich hoffe ich bin bis dahin schon etwas weiter im Skript.&lt;/p&gt;
+&lt;p&gt;Dann bis Mittwoch.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="167213">
+            <parent>167165</parent>
+            <userid>10311</userid>
+            <created>1349423327</created>
+            <modified>1349423327</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lerndiskussion nach den Webkonferenzen</subject>
+            <message>Hallo,
+Bin auch dabei! Bis Mittwoch.
+Gruß
+Christian
+</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="62835">
+        <name>1. Studentenkonferenz (Grundlagen der Mathematik - Betrag, Gleichungen/Ungleichungen))</name>
+        <firstpost>169137</firstpost>
+        <userid>10323</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1349895227</timemodified>
+        <usermodified>10323</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="169137">
+            <parent>0</parent>
+            <userid>10323</userid>
+            <created>1349895178</created>
+            <modified>1349895227</modified>
+            <mailed>1</mailed>
+            <subject>1. Studentenkonferenz (Grundlagen der Mathematik - Betrag, Gleichungen/Ungleichungen))</subject>
+            <message>&lt;p&gt;Hallo zusammen,&lt;/p&gt;
+&lt;p&gt;danke für die Klärung vieler Fragen und die angenehme Diskussion. So kann man das gerne öfter machen :)&lt;/p&gt;
+&lt;p&gt;Anbei die Screenshots der Konferenz.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Ich werd schauen, dass ich evtl. die Konferenz beim nächsten mal mit Audio aufzeichne und hochlade. Dann sind auch die dazugehörigen Erklärungen dabei.&lt;/p&gt;
+&lt;p&gt;Danke und Gruß,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Konrad&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src="@@PLUGINFILE@@/Konferenz%202.PNG" alt="" width="814" height="350" /&gt;&lt;img src="@@PLUGINFILE@@/Konferenz%201.PNG" alt="" width="845" height="632" /&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="63829">
+        <name>Gruppen für die Einsendeaufgaben</name>
+        <firstpost>171815</firstpost>
+        <userid>10321</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1351687204</timemodified>
+        <usermodified>3805</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="171815">
+            <parent>0</parent>
+            <userid>10321</userid>
+            <created>1350502163</created>
+            <modified>1350502186</modified>
+            <mailed>1</mailed>
+            <subject>Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;&lt;strong&gt;Folgende Gruppen haben sich bisher gebildet:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Daniel Kick, Jerome Morin, Martin Schwark, Ramon Hollenbach&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Maxim Schwarz, Stefan Tänzler, Steven Pawellek&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Christian Giehler, Antje Klemm, Thomas ???&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Ihr könnt gerne an mich eure Gruppen senden, dann ändere ich den Beitrag.&lt;/p&gt;
+&lt;p&gt;VG&lt;/p&gt;
+&lt;p&gt;antje&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="171909">
+            <parent>171815</parent>
+            <userid>1905</userid>
+            <created>1350542521</created>
+            <modified>1350542521</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Hallo zusammen,&lt;/p&gt;
+&lt;p&gt;ich suche noch eine Gruppe für die Einsendeaufgabe.&lt;/p&gt;
+&lt;p&gt;Kann ich bei Euch mitmachen Antje?&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;VG Bettina&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="171917">
+            <parent>171815</parent>
+            <userid>10307</userid>
+            <created>1350545108</created>
+            <modified>1350545176</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;Hey,&lt;/p&gt;
+&lt;p&gt;ich suche auch noch eine Gruppe, also bei wem ist noch was frei?&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Gruß &lt;/p&gt;
+&lt;p&gt;Martin&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="171933">
+            <parent>171815</parent>
+            <userid>10347</userid>
+            <created>1350547370</created>
+            <modified>1350547370</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;Hallo,&lt;/p&gt;
+&lt;p&gt;ich bin auch noch "ungruppiert" und würde mich freuen, wo mitmachen zu können. &lt;/p&gt;
+&lt;p&gt;Schönen Gruß&lt;/p&gt;
+&lt;p&gt;Alex&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="172023">
+            <parent>171815</parent>
+            <userid>10321</userid>
+            <created>1350556369</created>
+            <modified>1350556536</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;&lt;strong&gt;Derzeit haben sich folgende Gruppen gebildet:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Daniel Kick, Jerome Morin, Martin Schwark, Ramon Hollenbach&lt;/p&gt;
+&lt;p&gt;Maxim Schwarz, Stefan Tänzler, Steven Pawellek&lt;/p&gt;
+&lt;p&gt;Isabelle Moutoux, Peter Wachsmann, Konrad Konktek, Tim Brockmann&lt;/p&gt;
+&lt;p&gt;Christian Giehler, Antje Klemm, Andreas Ladendorf, (Thomas Severin?)&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="172109">
+            <parent>171815</parent>
+            <userid>3881</userid>
+            <created>1350570207</created>
+            <modified>1350570207</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;Hallo,&lt;/p&gt;
+&lt;p&gt;ich habe auch noch keine Gruppe für die Einsendeaufgabe. Sind noch Plätze frei?&lt;/p&gt;
+&lt;p&gt;Grüße&lt;/p&gt;
+&lt;p&gt;Necla&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="172155">
+            <parent>171815</parent>
+            <userid>10361</userid>
+            <created>1350576869</created>
+            <modified>1350576869</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;Hallo,&lt;/p&gt;
+&lt;p&gt;ich suche auch noch eine Gruppe für die Einsendeaufgabe.&lt;/p&gt;
+&lt;p&gt;Gruß&lt;/p&gt;
+&lt;p&gt;Oliver&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="172195">
+            <parent>171933</parent>
+            <userid>1905</userid>
+            <created>1350583071</created>
+            <modified>1350583182</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;Hey, Oliver, Alexander, Necla. Sollen wir uns zusammen tun?&lt;/p&gt;
+&lt;p&gt;LG Bettina&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="172219">
+            <parent>172195</parent>
+            <userid>10347</userid>
+            <created>1350585964</created>
+            <modified>1350585964</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;Hey Bettina,&lt;/p&gt;
+&lt;p&gt;Martin, Necla und ich würden eine Gruppe bilden, bist du mit dabei?&lt;/p&gt;
+&lt;p&gt;Schönen Gruß&lt;/p&gt;
+&lt;p&gt;Alex&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="172235">
+            <parent>171815</parent>
+            <userid>3785</userid>
+            <created>1350588377</created>
+            <modified>1350588377</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;Hey Leute,&lt;/p&gt;
+&lt;p&gt;bin auch noch ohne Gruppe. Sonst noch jemand auf der Suche?&lt;/p&gt;
+&lt;p&gt;Grüße&lt;/p&gt;
+&lt;p&gt;Argirios&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="172243">
+            <parent>172235</parent>
+            <userid>10325</userid>
+            <created>1350589459</created>
+            <modified>1350589459</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;Ich bin hier irgendwie nicht so ganz bei der Sache. Wann ist der Termin für Einsendeaufgaben und wie viele Leute sollen in eine Gruppe?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="172257">
+            <parent>172243</parent>
+            <userid>10311</userid>
+            <created>1350590828</created>
+            <modified>1350590828</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;Die Aufgabe kommt erst noch und es sollen 3-4 Leute sein.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="172271">
+            <parent>172235</parent>
+            <userid>3781</userid>
+            <created>1350592011</created>
+            <modified>1350592011</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;Hallo Argirios,&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;ich bin gerne dabei - wer noch?&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;Gruß&lt;/p&gt;
+&lt;p&gt;Markus&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="172275">
+            <parent>172235</parent>
+            <userid>10771</userid>
+            <created>1350592847</created>
+            <modified>1350592847</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>Hallo Arigirios,
+
+bin auch noch auf der Suche, wäre also dabei.
+
+@Alina: Gruppen sollen 3 - 4 Leute bestehen. Ansonsten teilt Hr. Moesner alles weitere noch mit -&gt; Aufgabe, Frist e.t.c.
+
+Grüße
+Robert</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="172277">
+            <parent>172219</parent>
+            <userid>1905</userid>
+            <created>1350593163</created>
+            <modified>1350593163</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;Jupp, bin dabei!&lt;/p&gt;
+&lt;p&gt;LG Bettina&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="172283">
+            <parent>172275</parent>
+            <userid>10921</userid>
+            <created>1350593707</created>
+            <modified>1350593707</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;hallo an alle hier,&lt;/p&gt;
+&lt;p&gt;habe auch noch kein plan und würde mich in eine gruppe anschließen wollen. bitte mich irgendwie wo frei ist aufnehmen.&lt;/p&gt;
+&lt;p&gt;gruß&lt;/p&gt;
+&lt;p&gt;ergün aras&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="172291">
+            <parent>172023</parent>
+            <userid>10321</userid>
+            <created>1350596588</created>
+            <modified>1350596588</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p id="yui_3_5_1_1_1350596175182_851"&gt;&lt;strong id="yui_3_5_1_1_1350596175182_850"&gt;Derzeit haben sich folgende Gruppen gebildet:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Daniel Kick, Jerome Morin, Martin Schwark, Ramon Hollenbach&lt;/p&gt;
+&lt;p&gt;Maxim Schwarz, Stefan Tänzler, Steven Pawellek&lt;/p&gt;
+&lt;p&gt;Isabelle Moutoux, Peter Wachsmann, Konrad Konktek, Tim Brockmann&lt;/p&gt;
+&lt;p&gt;Christian Giehler, Antje Klemm, Andreas Ladendorf, Thomas Severin&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Martin Duckert, Alexander Rößner, &lt;span&gt;Necla Aksoy, Bettina Löwe&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;Haben sich sonst noch Gruppen gefunden?&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="172307">
+            <parent>172291</parent>
+            <userid>10323</userid>
+            <created>1350623210</created>
+            <modified>1350623210</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;Meine Gruppe hat sich verändert, Isabelle schrieb mir sie hat anderswo bereits zugesagt.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Gruppe besteht also aus: &lt;span&gt;Peter Wachsmann, Konrad Kontek, Tim Brockmann&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="172361">
+            <parent>171815</parent>
+            <userid>10915</userid>
+            <created>1350634881</created>
+            <modified>1350634881</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;Hallo Zusammen, &lt;/p&gt;
+&lt;p&gt;Wir, Ragab El Sayed und Nasser Ali sind jetzt in einer Gruppe und suchen noch zwei Leute. Wer möchte dabei sein?&lt;/p&gt;
+&lt;p&gt;LG&lt;/p&gt;
+&lt;p&gt;Nasser&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="172499">
+            <parent>172361</parent>
+            <userid>10325</userid>
+            <created>1350650531</created>
+            <modified>1350650531</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;ich will auch zu euch&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="172537">
+            <parent>172361</parent>
+            <userid>10921</userid>
+            <created>1350655827</created>
+            <modified>1350655827</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;ich bin auch dabei in nasser und rageb's gruppe&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="173163">
+            <parent>171815</parent>
+            <userid>10327</userid>
+            <created>1350890181</created>
+            <modified>1350890181</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;Guten Morgen,&lt;br /&gt;ich suche auch noch eine Gruppe.&lt;br /&gt;MfG&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="173361">
+            <parent>173163</parent>
+            <userid>10361</userid>
+            <created>1350922668</created>
+            <modified>1350922668</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;Nabend&lt;/p&gt;
+&lt;p&gt;Bin auch noch auf der Suche.&lt;/p&gt;
+&lt;p&gt;gruß&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="174159">
+            <parent>172291</parent>
+            <userid>10321</userid>
+            <created>1351105590</created>
+            <modified>1351105590</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;Aktualisierung:&lt;/p&gt;
+&lt;p id="yui_3_5_1_1_1351105449907_870"&gt;&lt;strong id="yui_3_5_1_1_1351105449907_869"&gt;Derzeit haben sich folgende Gruppen gebildet:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Daniel Kick, Jerome Morin, Martin Schwark, Ramon Hollenbach&lt;/p&gt;
+&lt;p&gt;Maxim Schwarz, Stefan Tänzler, Steven Pawellek&lt;/p&gt;
+&lt;p&gt;Peter Wachsmann, Konrad Konktek, Tim Brockmann&lt;/p&gt;
+&lt;p&gt;Christian Giehler, Antje Klemm, Andreas Ladendorf, Thomas Severin&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Martin Duckert, Alexander Rößner, &lt;span&gt;Necla Aksoy, Bettina Löwe&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;span&gt;Nasser Ali, &lt;span&gt;Ragab El Sayed, Ergün Aras, Aline Maziewski (so richtig?)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="174217">
+            <parent>174159</parent>
+            <userid>10915</userid>
+            <created>1351115780</created>
+            <modified>1351115780</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;ja richtig &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="174225">
+            <parent>174159</parent>
+            <userid>3785</userid>
+            <created>1351143094</created>
+            <modified>1351143094</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;Hallo,&lt;/p&gt;
+&lt;p&gt;unsere Gruppe fehlt noch!&lt;/p&gt;
+&lt;p&gt;Markus Fiedeldei, Alina Maziewski, Robert Kittel, Argirios Kehagias&lt;/p&gt;
+&lt;p&gt;Dachte jedenfalls, dass Alina Maziewski sich bei uns gemeldet hatte.. Korrigiert mich bitte falls nicht.&lt;/p&gt;
+&lt;p&gt;Grüße&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="174273">
+            <parent>174225</parent>
+            <userid>10325</userid>
+            <created>1351153390</created>
+            <modified>1351153390</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;Hallo Agiros, ich bin bei Nasser Ali und Ergün Aras in der Gruppe. Aber das Forum scheint mir hier etwas durcheinander..&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="174279">
+            <parent>174225</parent>
+            <userid>10327</userid>
+            <created>1351153790</created>
+            <modified>1351153790</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;da ich noch keine Gruppe habe, würde ich dann in die von Markus Fiedeldei, Robert Kittel, Argirios Kehagias springen, wenn das OK ist?!&lt;br /&gt;MfG&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="174443">
+            <parent>174279</parent>
+            <userid>10771</userid>
+            <created>1351181366</created>
+            <modified>1351181366</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;Ok, dann so:&lt;/p&gt;
+&lt;p&gt;Markus Fiedeldei, David Meinke, Robert Kittel, Argirios Kehagias&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="176143">
+            <parent>173361</parent>
+            <userid>10325</userid>
+            <created>1351683502</created>
+            <modified>1351683502</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>&lt;p&gt;zu wann sind denn nun die Aufagaben einzusenden?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="176167">
+            <parent>176143</parent>
+            <userid>3805</userid>
+            <created>1351687204</created>
+            <modified>1351687204</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppen für die Einsendeaufgaben</subject>
+            <message>Letzter Abgabetermin für Gruppenaufgaben_1 ist der 08. November 2012.</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="63881">
+        <name>Arbeitsblätter 1. Präsenz</name>
+        <firstpost>171943</firstpost>
+        <userid>10347</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1350563605</timemodified>
+        <usermodified>10347</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="171943">
+            <parent>0</parent>
+            <userid>10347</userid>
+            <created>1350547689</created>
+            <modified>1350547689</modified>
+            <mailed>1</mailed>
+            <subject>Arbeitsblätter 1. Präsenz</subject>
+            <message>&lt;p&gt;Hallo,&lt;/p&gt;
+&lt;p&gt;leider konnte ich nicht zur ersten Präsenzveranstaltung erscheinen - hat jemand zufällig die beiden Arbeitsblätter in digitaler Form vorliegen und könnte sie hier zur Verfügung stellen? Das wäre super, vielen Dank.&lt;/p&gt;
+&lt;p&gt;Schönen Gruß&lt;/p&gt;
+&lt;p&gt;Alex&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="171973">
+            <parent>171943</parent>
+            <userid>3769</userid>
+            <created>1350551027</created>
+            <modified>1350551027</modified>
+            <mailed>1</mailed>
+            <subject>Re: Arbeitsblätter 1. Präsenz</subject>
+            <message>&lt;p&gt;Hallo Alexander,&lt;/p&gt;
+&lt;p&gt;in der Präsenz haben wir keine neuen Aufgaben bearbeitet, nur das Arbeitsblatt, das hier in Moodle runterladen kannst und das mit den Brüchen, das Hr. Moesner rumgeschickt hast. Falls die die Mail von ihm nicht hast, ich habs hier als Anhang beigefügt, das ander gibts wie gesagt in Moodle zum selber runterladen. Du solltest Hrn. Moesner ggf. auch deine Mailadresse nochmal mitteilen, falls du bis jetzt keine Mails von ihm bekommen hast.&lt;/p&gt;
+&lt;p&gt;Was die Gruppen angeht, unserer Gruppe ist jezt schon zu 4. und damit wohl leider wohl?!&lt;/p&gt;
+&lt;p&gt;VG, Tim&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="172065">
+            <parent>171973</parent>
+            <userid>10347</userid>
+            <created>1350563605</created>
+            <modified>1350563605</modified>
+            <mailed>1</mailed>
+            <subject>Re: Arbeitsblätter 1. Präsenz</subject>
+            <message>&lt;p&gt;Hallo Tim,&lt;/p&gt;
+&lt;p&gt;vielen Dank dafür, an dieses Aufgabenblatt kann ich mich tatsächlich nicht erinnern, obwohl ich eigentlich schon e-mails von Herrn Moesner (Alias "lomo") bekommen habe. Ich kann das gerade nicht nachprüfen, da meine e-mails dummerweise komplett gelöscht wurden... Ich werde ihn nochmal fragen.&lt;/p&gt;
+&lt;p&gt;Danke wegen der Gruppe, ich hoffe, ich komme noch irgendwo unter.&lt;/p&gt;
+&lt;p&gt;Schönen Gruß&lt;/p&gt;
+&lt;p&gt;Alex&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="184989">
+        <userid>2647</userid>
+      </subscription>
+      <subscription id="198015">
+        <userid>10347</userid>
+      </subscription>
+      <subscription id="198019">
+        <userid>10321</userid>
+      </subscription>
+      <subscription id="198023">
+        <userid>3925</userid>
+      </subscription>
+      <subscription id="198027">
+        <userid>10327</userid>
+      </subscription>
+      <subscription id="198031">
+        <userid>10311</userid>
+      </subscription>
+      <subscription id="198035">
+        <userid>10341</userid>
+      </subscription>
+      <subscription id="198039">
+        <userid>3931</userid>
+      </subscription>
+      <subscription id="198043">
+        <userid>10329</userid>
+      </subscription>
+      <subscription id="198047">
+        <userid>3759</userid>
+      </subscription>
+      <subscription id="198051">
+        <userid>3755</userid>
+      </subscription>
+      <subscription id="198055">
+        <userid>3941</userid>
+      </subscription>
+      <subscription id="198059">
+        <userid>3757</userid>
+      </subscription>
+      <subscription id="198063">
+        <userid>10323</userid>
+      </subscription>
+      <subscription id="198067">
+        <userid>1905</userid>
+      </subscription>
+      <subscription id="198071">
+        <userid>10319</userid>
+      </subscription>
+      <subscription id="198075">
+        <userid>3897</userid>
+      </subscription>
+      <subscription id="198079">
+        <userid>3885</userid>
+      </subscription>
+      <subscription id="211723">
+        <userid>10771</userid>
+      </subscription>
+      <subscription id="214731">
+        <userid>3881</userid>
+      </subscription>
+      <subscription id="214735">
+        <userid>3785</userid>
+      </subscription>
+      <subscription id="216169">
+        <userid>3769</userid>
+      </subscription>
+      <subscription id="216455">
+        <userid>10349</userid>
+      </subscription>
+      <subscription id="219739">
+        <userid>3817</userid>
+      </subscription>
+      <subscription id="221519">
+        <userid>10331</userid>
+      </subscription>
+      <subscription id="221523">
+        <userid>3805</userid>
+      </subscription>
+      <subscription id="222661">
+        <userid>3933</userid>
+      </subscription>
+      <subscription id="223837">
+        <userid>10317</userid>
+      </subscription>
+      <subscription id="225173">
+        <userid>3781</userid>
+      </subscription>
+      <subscription id="225177">
+        <userid>3907</userid>
+      </subscription>
+      <subscription id="225181">
+        <userid>3917</userid>
+      </subscription>
+      <subscription id="225615">
+        <userid>3767</userid>
+      </subscription>
+      <subscription id="226993">
+        <userid>10361</userid>
+      </subscription>
+      <subscription id="226997">
+        <userid>10355</userid>
+      </subscription>
+      <subscription id="227869">
+        <userid>10325</userid>
+      </subscription>
+      <subscription id="230335">
+        <userid>10921</userid>
+      </subscription>
+      <subscription id="231507">
+        <userid>10915</userid>
+      </subscription>
+      <subscription id="232961">
+        <userid>10353</userid>
+      </subscription>
+      <subscription id="232965">
+        <userid>10339</userid>
+      </subscription>
+      <subscription id="233509">
+        <userid>11591</userid>
+      </subscription>
+      <subscription id="233513">
+        <userid>10919</userid>
+      </subscription>
+      <subscription id="234607">
+        <userid>6071</userid>
+      </subscription>
+      <subscription id="237439">
+        <userid>10307</userid>
+      </subscription>
+      <subscription id="238413">
+        <userid>10343</userid>
+      </subscription>
+      <subscription id="239275">
+        <userid>10351</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

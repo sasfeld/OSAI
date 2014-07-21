@@ -1,0 +1,27 @@
+ID: 42
+CREATION_DATETIME: 1177858560000
+MODIFICATION_DATETIME: 1177858560000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 41
+CONTENT:
+
+Danke auf jedenfall erstmal für deine Antwort! So hatte ich es auch erst versucht, aber da beide Dateien bei mir im selben Verzeichnis liegen muss man das soweit ich weiß nicht importieren.
+Dazu haben wir ja den classpath eingestellt.
+
+Es funktioniert bei mir jetzt auch bedingt, bin mir aber nicht sicher, ob das so die Aufgabe war. In meiner AutoTest.java erstelle ich drei Objekte, die auf EinfachesAuto.class zugreifen und gebe verarbeite diese dann.
+
+EinfachesAuto test = new EinfachesAuto(besitzer, farbe, etc);
+Damit generiere ich das Objekt und mit
+
+test.alter(); rufe ich die Methode alter aus der Klasse EinfachesAuto.class auf.
+Das funktioniert soweit auch ohne Probleme (nach ewigem Fehlersuchen xD)
+Was mir im Moment Kopfzerbrechen macht ist ErweitertesAuto.class.
+Hier haben wir ja nun zwei Konstruktoren in denen Attribute deklariert werden.
+Jedenfalls habe ich das so verstanden, dass wir einen zweiten Konstruktor schreiben sollten. Mit meiner oben geschriebenen Variante allerdings greife ich nur auf den ersten zu. Was kann ich da machen?
+Vielleicht doch nur über Packages lösbar? Aber eigentlich haben wir ja noch keine eigenen Packages gemacht.
+
+Grüße
+
+    
+TAGGED_CONTENT:

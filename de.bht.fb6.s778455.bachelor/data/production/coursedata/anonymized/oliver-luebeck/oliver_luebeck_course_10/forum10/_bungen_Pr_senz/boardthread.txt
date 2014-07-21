@@ -1,0 +1,4 @@
+ID: 18
+TITLE: Übungen Präsenz
+LANGUAGE: GERMAN
+FIRST_POSTING_ID: 69

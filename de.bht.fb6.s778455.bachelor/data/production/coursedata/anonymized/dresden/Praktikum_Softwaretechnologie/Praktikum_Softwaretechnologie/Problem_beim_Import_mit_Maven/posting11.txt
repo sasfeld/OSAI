@@ -1,0 +1,10 @@
+ID: 2897
+CREATION_DATETIME: 1384642800000
+MODIFICATION_DATETIME: 1384642800000
+TITLE: Was mir noch einfällt dazu: ihr seid nicht zufällig Kunden einer der tollen Internetanbieter, die für...
+PARENT_POSTING_ID: 2817
+POSTING_TYPE: answer
+CONTENT:
+Was mir noch einfällt dazu: ihr seid nicht zufällig Kunden einer der tollen Internetanbieter, die für nicht auflösende URLs eine Suchseite zurückkommt? Ein ähnliches Problem machen Internetverbindungen die bei Erstverbindung auf eine Loginseite redirecten. Deren HTML landet dann nämlich als JAR gespeichert im lokalen Maven Repository und macht das natürlich unbrauchbar. Maven benötigt zwingend saubere 404 Statuscodes für fehlschlagende Anfragen, sonst arbeitet es nicht korrekt. Im <REMOVED_PERSON_ENTITY> kann man sich die als fehlerhaft reporteten JARs oder POMs mal genau anschauen. Nicht selten findet man darin hübsches HTML einer Suchseite, die der Provider ausgeliefert hat anstatt sauber 404 zurückzugeben.
+Wenn alles fehlschlägt, das lokale Repository löschen, Maven direkt installieren (http://maven.apache.org) und dann auf der Kommandozeile mit `mvn clean package` alles <NAME_CORPUS_REPLACEMENT> holen und bauen.
+TAGGED_CONTENT:

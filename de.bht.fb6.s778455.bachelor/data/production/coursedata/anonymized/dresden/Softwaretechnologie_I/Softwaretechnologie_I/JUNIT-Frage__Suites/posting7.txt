@@ -1,0 +1,9 @@
+ID: 2061
+CREATION_DATETIME: 1371160800000
+MODIFICATION_DATETIME: 1371160800000
+TITLE: Man kann eine eigene Klasse von TestSuite erben lassen. Dann fügt man Tests mit super.addTest(test) h...
+PARENT_POSTING_ID: 2047
+POSTING_TYPE: answer
+CONTENT:
+Man kann eine eigene Klasse <NAME_CORPUS_REPLACEMENT> TestSuite erben lassen. Dann fügt man Tests oder TestSuites mit super. addTest(test) hinzu. In dieser Variante ist deine Klasse selber eine TestSuite und kann anderen TestSuites hinzugefügt werden, nachdem du ein Objekt aus dieser Klasse erzeugt hast. Eine weitere Möglichkeit ist, man erstellt sich eine leere TestSuite mit "TestSuite ts = new TestSuite()" und füllt diese dann mit Tests oder weiteren TestSuites mit "ts. addTest(test)".
+TAGGED_CONTENT:

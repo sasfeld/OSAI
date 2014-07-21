@@ -1,0 +1,27 @@
+ID: 2376
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1375221600000
+TITLE: QuizProcess, State und die 3 Zustände bilden simpel und einfach das State Design Pattern. Wiederum si...
+PARENT_POSTING_ID: 2374
+POSTING_TYPE: answer
+CONTENT:
+QuizProcess, State und die 3 Zustände bilden simpel und einfach das State Design Pattern. Wiederum sind CardDrawing und ihre Unterklassen das Strategy Design Pattern, dass sich <NAME_CORPUS_REPLACEMENT> der Template Methode in sofern unterscheidet, dass die abstrakte(n) Methode(n), die dann in den Unterklassen implementiert werden, <NAME_CORPUS_REPLACEMENT> außen und nicht <NAME_CORPUS_REPLACEMENT> einer der nicht abstrakten Methoden der abstrakten Oberklasse aufgerufen werden.
+Das Template Method Pattern heißt deswegen so, weil eine grobe Implementierung schon in der Oberklasse erfolgt (template) und die Feinheiten in den Unterklassen.
+Stell dir das nun einmal so vor: Beim Kaffee bzw. Tee kochen geht man grob auf die gleiche Art vor. Wasser wird gekocht und anschließend wird das <REMOVED_PERSON_ENTITY> mit einem <NAME_CORPUS_REPLACEMENT> beiden "verbunden", um das Aroma heraus zu ziehen. 
+Nun ist die Art des "Verbindens" unterschiedlich. Beim Kaffee wird das <REMOVED_PERSON_ENTITY> durchgeleitet (ich geh mal <NAME_CORPUS_REPLACEMENT> Filterkaffee aus), während der Tee für einige Minuten im <REMOVED_PERSON_ENTITY> "gebadet wird".
+So ergibt sich folgende Struktur:
+```ruby
+Oberklasse HotBeverage
++make() # this. cookWater(); this. brew();
+-cookWater() # while(water not hot) { ... }
+-brew() # abstrakte Methode
+Unterklasse Coffee
+-brew() #Filter, Kaffee, <REMOVED_PERSON_ENTITY>, blub...
+Unterklasse Tea
+-brew() #Sieb, <REMOVED_PERSON_ENTITY>, blub...
+```
+brew() wird nur aus make() der Oberklasse aufgerufen.
+Vorteil: weniger Implementierungsaufwand in den Unterklassen. Außerdem weniger Code für weitere heißwasserbasierte Getränke.
+Natürlich müssen diese abstrakten Methode dafür nicht private sein. Werden die abstrakten Methoden sowohl <NAME_CORPUS_REPLACEMENT> innen als auch <NAME_CORPUS_REPLACEMENT> außen aufgerufen ist es sehr wahrscheinlich, dass diese Klassen sowohl das Strategy Design Pattern als auch das Template Method Design Pattern bilden. Ein Beispiel dafür ist das Project Management aus dem UML-Übungsskript und im Praktomaten.
+Viel Erfolg <PERSONAL_GREETING_REMOVEMENT>;)
+TAGGED_CONTENT:

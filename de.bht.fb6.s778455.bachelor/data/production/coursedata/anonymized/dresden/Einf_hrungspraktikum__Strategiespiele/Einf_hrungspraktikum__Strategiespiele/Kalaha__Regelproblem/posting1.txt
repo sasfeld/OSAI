@@ -1,0 +1,13 @@
+ID: 1468
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1364853600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+mein Code für Kalaha steht soweit. Allerdings habe ich bei der Eingabe <NAME_CORPUS_REPLACEMENT> "make fight" folgendes Problem:
+Das Programm startet mit folgendem game_state:
+06 06 06 06 06 06 00 (untere Reihe)
+Das Programm startet und wählt die erste Mulde (Index 0) als Ausgangspunkt. Es ergibt sich in der unteren Reihe also 00 07 07 07 07 07 01 und gemäß Regelwerk darf ich dann nochmal. Mein Programm will dann die zweite Mulde (Index 1) als game_move übergeben, allerdings meldet das MCP dann "invalid move". Warum?
+TAGGED_CONTENT:

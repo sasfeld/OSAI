@@ -1,0 +1,15 @@
+ID: 79
+CREATION_DATETIME: 1183236300000
+MODIFICATION_DATETIME: 1183236300000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo ,
+
+können Sie die Aufzeichnung von heute noch online stellen?
+
+Vielen Dank
+    
+TAGGED_CONTENT:

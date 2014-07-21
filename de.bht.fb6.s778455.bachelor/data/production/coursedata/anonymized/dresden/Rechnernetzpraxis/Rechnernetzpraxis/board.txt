@@ -1,0 +1,11 @@
+ID: 2154594
+CREATION_DATETIME: 1380492000000
+MODIFICATION_DATETIME: 1381096800000
+TITLE: Rechnernetzpraxis
+INTRO: Die Lehrveranstaltung gibt einen fundierten Einblick in verschiedene Rechnernetzprotokolle und -techniken. Die Hörer werden durch die Veranstaltung in die Lage versetzt, vor allem die aktuellen Fundamente des Internets zu verstehen und gegenwärtige Entwicklungstendenzen im Bereich von Rechnernetzen einzuschätzen.
+Neben der Behandlung von seit Jahrzehnten verbreiteten Protokollen wie IPv4 oder TCP wird ein besonderer Fokus auf neue Entwicklungen wie IPv6 oder Rechnernetzkommunikation in virtualisierten Umgebungen bzw. in Cloud-Umgebungen gerichtet. Zudem werden Querschnittsthemen wie Netzwerkmanagement und Sicherheit in Rechnernetzen detailliert behandelt.
+
+Die theoretischen Inhalte der Vorlesung werden durch praktische Übungseinheiten vertieft. Hierbei wird unter anderem exemplarisch auf Administrations- und Implementierungsaspekte im Linux-Umfeld eingegangen.
+
+Basiswissen über Rechnernetze auf dem Niveau des Grundstudiums wird vorausgesetzt.
+TYPE: null

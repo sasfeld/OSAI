@@ -1,0 +1,9 @@
+ID: 1639
+CREATION_DATETIME: 1364252400000
+MODIFICATION_DATETIME: 1364252400000
+TITLE: *I* here shall mean the software ( e.g. driver) that is running and the *device memory* might be some...
+PARENT_POSTING_ID: 1636
+POSTING_TYPE: comment
+CONTENT:
+*I* here shall mean the software ( e. g. driver) that is running and the *device memory* might be some rw-memory on a device like a network card, graphics card, whatever <NAME_CORPUS_REPLACEMENT> have a chunk of on-chip memory on its own...
+TAGGED_CONTENT:

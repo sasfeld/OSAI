@@ -1,0 +1,10 @@
+ID: 1069
+CREATION_DATETIME: 1358636400000
+MODIFICATION_DATETIME: 1358636400000
+TITLE: eine musterlösung für tamagotchie und die anderen komplizierteren dinge wäre cool ;)
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1007
+POSTING_TYPE: answer
+CONTENT:
+eine musterlösung für tamagotchie und die anderen komplizierteren dinge wäre cool ;)
+TAGGED_CONTENT:

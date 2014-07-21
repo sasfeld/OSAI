@@ -1,0 +1,13 @@
+ID: 703
+CREATION_DATETIME: 1352329200000
+MODIFICATION_DATETIME: 1352415600000
+TITLE: First, note that these flags are all unnecessary to allocate a dataspace. You can call `mem_alloc` wi...
+PARENT_POSTING_ID: 701
+POSTING_TYPE: answer
+CONTENT:
+First, note that these flags are all unnecessary to allocate a dataspace. You <NAME_CORPUS_REPLACEMENT> call `mem_alloc` without any flags and will get a memory dataspace. Actually, no dataspace manager is required to implement handling of these flags (although the default physical memory memory manager does).
+The flags have the following meaning:
+* _Continuous_ requests memory that is also continuous in physical RAM. A normal dataspace could be constructed of a bunch of physical memory pages and virtual memory would make sure these are virtually continuous. However, some use cases require memory to be physically continuous as well (hint: DMA).
+* _Pinned_ memory pages are those that must not be replaced by the system's page replacement policy. In general when you run out of memory you could have a memory manager that swaps out unused pages to disk. Marking a dataspace _pinned_ means that it should be excluded from swapping. Again, there are use cases where it looks like your application never touches memory, but in fact it is used by other means (hint: DMA).
+* _Super pages_ requests a dataspace consisting of larger pages. Normal x86 page size is 4 kB, but as an optimization, some CPUs allow you to allocate larger pages (4 MB for x86/32). This saves on page table memory and time for page table walks, but requires certain conditions to be met (e. g., mapping must start at a multiple of 4 MB). See [Wikipedia](http://en.wikipedia.org/wiki/Page_Size_Extension).
+TAGGED_CONTENT:

@@ -1,3 +1,0 @@
-CREATION_DATETIME: 1366885019
-CONTENT: 
-Ich hatte gerade nach einigen Änderungen ähnliche Fehler, und das Löschen des Build-Verzeichnisses hat sofort geholfen!

@@ -1,0 +1,19 @@
+ID: 1040
+CREATION_DATETIME: 1358031600000
+MODIFICATION_DATETIME: 1358031600000
+TITLE: Aber warum stürzt das Programm dann nicht immer ab?
+Ich kann leider nichts finden. mit der assert() ...
+PARENT_POSTING_ID: 1036
+POSTING_TYPE: answer
+CONTENT:
+Aber warum stürzt das Programm dann nicht immer ab?
+Ich kann leider nichts finden. mit der assert() Funktion passiert auch nichts. Pointer umsetzen tue ich eigentlich nur beim drehen und beim anhängen.
+```ruby
+#0  0x00000000004006d7 in tiefe (bm=, t=)
+    at avl. c:50
+#1  0x000000000040071d in tiefe (bm=0x602070, t=174694) at avl. c:53
+# add your code
+```
+heißt das nicht, dass der Fehlerer schon vor der Endlosschleife auftritt? 
+Danke für deine Hilfe.
+TAGGED_CONTENT:

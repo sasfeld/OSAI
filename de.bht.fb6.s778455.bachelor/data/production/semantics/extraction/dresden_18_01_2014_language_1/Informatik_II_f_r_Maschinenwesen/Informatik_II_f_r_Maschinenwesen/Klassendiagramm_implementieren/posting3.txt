@@ -1,0 +1,42 @@
+ID: 2496
+CREATION_DATETIME: 1375653600000
+MODIFICATION_DATETIME: 1375912800000
+TITLE: Da die andere Antwort einige Fehler enthaelt hier nochmal eine Richtigstellung:
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2491
+POSTING_TYPE: answer
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> die andere Antwort einige Fehler enthaelt hier nochmal eine Richtigstellung:
+
+ * Vererbung: Wenn Klasse A <NAME_CORPUS_REPLACEMENT> Klasse B erbt:
+
+```java
+
+public class A extends B {
+
+    ...
+
+}
+
+```
+
+ * Wenn B ein *Interface* ist, Klasse A also ein Interface implementiert:
+
+```java
+
+public class A implements B {
+
+    ...
+
+}
+
+```
+
+ * Assoziation, bei 1:1 hast du ein Attribut des jeweils Anderen in der Klasse (ungerichtet). Bzw. nur der einen Klasse (bei gerichteter Assoziation)
+
+ * Assoziation bei 1:n hast du ein Set, eine Liste oder eine Map (das wird meist aus einem Entwurfsklassendiagramm klar, muss aber nicht) in einer der <REMOVED_PERSON_ENTITY> und ein einfaches Attribut in der Anderen
+
+ * Assoziation bei n:m hast du in beiden Klassen ein Set, eine Liste oder eine Map
+
+ * Aggregation, Komposition gibt es in Java so nicht direkt <NAME_CORPUS_REPLACEMENT> daher kannst du das genauso umsetzen, wie eine Assoziation.
+TAGGED_CONTENT:

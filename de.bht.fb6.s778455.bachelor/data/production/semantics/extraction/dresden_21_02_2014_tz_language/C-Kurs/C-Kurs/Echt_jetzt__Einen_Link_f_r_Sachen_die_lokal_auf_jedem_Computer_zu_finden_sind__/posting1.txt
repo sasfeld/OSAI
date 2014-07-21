@@ -1,0 +1,16 @@
+ID: 2789
+CREATION_DATETIME: 1384124400000
+MODIFICATION_DATETIME: 1385420400000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Kritik;weight:1.0;significance:5.60194337750662;degreegeneralization:4;uri:20077113
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wie gefallen euch die Kurse?  
+
+Kommt ihr zurecht, gibt es Probleme?  
+
+Habt ihr Kritik oder Anregungen?  
+TAGGED_CONTENT:

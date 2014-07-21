@@ -1,0 +1,41 @@
+ID: 117515
+CREATION_DATETIME: 1316717812
+MODIFICATION_DATETIME: 1316717812
+TITLE: Literatur
+TOPIC_ZOOM_TAG: value:Mathematik;weight:3.0;significance:4.66877749804603;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Verlagshäuser;weight:3.0;significance:4.09848824007257;degreegeneralization:8;uri:21914303
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:4.0;significance:3.57918761757343;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Medienunternehmen;weight:3.0;significance:3.53838308197958;degreegeneralization:7;uri:20888812
+TOPIC_ZOOM_TAG: value:Natur;weight:5.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Presse, Druck und Verlagswesen;weight:4.0;significance:3.11978562570662;degreegeneralization:4;uri:21990174
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Presse, Druck und Verlagswesen;weight:3.0;significance:2.73225716547925;degreegeneralization:7;uri:21914065
+TOPIC_ZOOM_TAG: value:Medienbranche;weight:3.0;significance:2.60127460067517;degreegeneralization:6;uri:20771019
+TOPIC_ZOOM_TAG: value:Algebra;weight:1.0;significance:2.54170990304678;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Medien, Internet, Information und Kommunikation;weight:3.0;significance:2.42897728858622;degreegeneralization:5;uri:21993370
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:5.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:4.0;significance:2.14953874774461;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:5.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Analysis;weight:1.0;significance:2.10226498757954;degreegeneralization:6;uri:21644173
+TOPIC_ZOOM_TAG: value:Unternehmen, Firmen und Firmengruppen;weight:3.0;significance:1.74648686572885;degreegeneralization:4;uri:21973565
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:4.0;significance:1.74503332473254;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Ingenieure;weight:1.0;significance:1.7296213009375;degreegeneralization:6;uri:21611227
+TOPIC_ZOOM_TAG: value:Ingenieurswissenschaften und Ingenieurswesen;weight:1.0;significance:1.57765358992578;degreegeneralization:4;uri:21611261
+TOPIC_ZOOM_TAG: value:Winter;weight:1.0;significance:1.49230508861469;degreegeneralization:6;uri:20912731
+TOPIC_ZOOM_TAG: value:Bücher;weight:1.0;significance:1.16055924778449;degreegeneralization:5;uri:21981657
+TOPIC_ZOOM_TAG: value:Jahreszeiten;weight:1.0;significance:1.11810666215372;degreegeneralization:5;uri:20912799
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:3.0;significance:1.08275732235196;degreegeneralization:2;uri:21999847
+TOPIC_ZOOM_TAG: value:Forschung;weight:1.0;significance:1.00978131213385;degreegeneralization:4;uri:21471079
+TOPIC_ZOOM_TAG: value:Naturereignisse;weight:1.0;significance:1.00874674598964;degreegeneralization:4;uri:21974432
+TOPIC_ZOOM_TAG: value:Angewandte Wissenschaften;weight:1.0;significance:1.00799768144361;degreegeneralization:3;uri:21976591
+TOPIC_ZOOM_TAG: value:Forschung und Entwicklung;weight:1.0;significance:0.98758085622095;degreegeneralization:3;uri:21603526
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:0.530519683914266;degreegeneralization:3;uri:21925999
+NER_TAG: value:Vieweg Winter;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+PARENT_POSTING_ID: 0
+CONTENT:
+H.-J. <REMOVED_PERSON_ENTITY>: "Mathematische Formeln". Buch und Zeit Verlagsgesellschaft.
+Böhme: "Algebra". <REMOVED_PERSON_ENTITY>.
+<REMOVED_PERSON_ENTITY>: "Lineare Algebra". <REMOVED_PERSON_ENTITY>.
+<REMOVED_PERSON_ENTITY>: „Mathematik für Ingenieure und Naturwissenschaftler, Bd. 1“, Vieweg Winter: „Grundlagen der formalen Logik“, Verlag Harri Deutsch
+Stöcker, <REMOVED_PERSON_ENTITY>.): "Analysis für Ingenieurstudenten" (2 Bde.), Verlag Harri Deutsch
+Stöcker, <REMOVED_PERSON_ENTITY>.): "Lineare Algebra, Optimierung, Wahrscheinlichkeits- rechnung und Statistik" , Verlag <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

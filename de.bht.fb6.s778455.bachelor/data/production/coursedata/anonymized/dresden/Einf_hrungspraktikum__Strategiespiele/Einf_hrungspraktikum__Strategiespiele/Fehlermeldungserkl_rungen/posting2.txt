@@ -1,0 +1,22 @@
+ID: 1197
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: 1: Invalider Zug vom Spieler 1
+2: Invalider Zug vom Spieler -1
+3: Crash im Programm vom Spieler 1
+...
+PARENT_POSTING_ID: 1188
+POSTING_TYPE: answer
+CONTENT:
+1. Invalider Zug vom Spieler 1
+2. Invalider Zug vom <REMOVED_PERSON_ENTITY> -1
+3. Crash im Programm vom Spieler 1
+4. Crash im Programm vom <REMOVED_PERSON_ENTITY> -1
+5. Spielerprogramm konnte nicht ausgeführt werden
+6. Spieler 1 gewinnt
+7. Spieler -1 gewinnt
+8. Unentschieden
+Steht in mcp. <LEARNED_PERSON_NAME_REPLACEMENT>.
+Gruß,
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

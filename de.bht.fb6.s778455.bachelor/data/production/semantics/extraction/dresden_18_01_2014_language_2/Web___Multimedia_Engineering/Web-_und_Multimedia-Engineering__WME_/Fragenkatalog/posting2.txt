@@ -1,0 +1,10 @@
+ID: 1071
+CREATION_DATETIME: 1358809200000
+MODIFICATION_DATETIME: 1358809200000
+TITLE: Hallo, da es zur Vorlesung WME bisher keine schriftlichen Klausuren gab ist auch kein Klausur-Fragenk...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1070
+POSTING_TYPE: answer
+CONTENT:
+Hallo, <NAME_CORPUS_REPLACEMENT> es zur Vorlesung WME bisher keine schriftlichen Klausuren gab ist auch kein Klausur-Fragenkatalog vorhanden. Am Ende der meisten Vorlesungsfoliensätze befinden sich jedoch meist ein oder zwei Folien mit Fragen zum <REMOVED_PERSON_ENTITY>. Diese können bestimmt als gute <REMOVED_PERSON_ENTITY> beim Lernen dienen.
+TAGGED_CONTENT:

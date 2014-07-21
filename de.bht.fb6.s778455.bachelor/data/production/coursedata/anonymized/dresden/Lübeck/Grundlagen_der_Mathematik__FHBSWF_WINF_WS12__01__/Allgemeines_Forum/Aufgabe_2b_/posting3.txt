@@ -1,0 +1,11 @@
+ID: 184435
+CREATION_DATETIME: 1354458452
+MODIFICATION_DATETIME: 1354458452
+TITLE: Re: Aufgabe 2b)
+PARENT_POSTING_ID: 184407
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+ja, Du hast recht, das hatte ich übersehen. Knoten (b) hat tatsächlich vier Nachbarn, nicht nur drei, also muss die Gleichung lauten a+b+f+h=0. Deinen Ansatz mit Splatenvektoren und dazugehörigem Skalar habe ich nicht verstanden. Kannst Du das vielleicht etwas näher erläutern?
+Grüße
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

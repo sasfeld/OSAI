@@ -1,0 +1,45 @@
+ID: 101861
+CREATION_DATETIME: 1287224336
+MODIFICATION_DATETIME: 1287224336
+TITLE: Re: Aufgraben und Praesenzphasen
+TOPIC_ZOOM_TAG: value:Gleichungen;weight:1.0;significance:5.1553271212178;degreegeneralization:7;uri:20115499
+TOPIC_ZOOM_TAG: value:Hausaufgaben;weight:1.0;significance:5.03474609280935;degreegeneralization:7;uri:20197932
+TOPIC_ZOOM_TAG: value:Handschriften;weight:1.0;significance:4.83201353875525;degreegeneralization:7;uri:20769098
+TOPIC_ZOOM_TAG: value:Schulunterricht;weight:1.0;significance:4.80875353093781;degreegeneralization:6;uri:20897550
+TOPIC_ZOOM_TAG: value:Schrift;weight:1.0;significance:4.10436992245183;degreegeneralization:6;uri:20916998
+TOPIC_ZOOM_TAG: value:Unterricht;weight:1.0;significance:4.06179101828168;degreegeneralization:4;uri:20916930
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:3.89064791503836;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Sprache, Zivilisation und Bevölkerung;weight:1.0;significance:3.33295834077578;degreegeneralization:5;uri:20895986
+TOPIC_ZOOM_TAG: value:Schulen;weight:1.0;significance:2.93507215719329;degreegeneralization:5;uri:21882020
+TOPIC_ZOOM_TAG: value:Schulische Bildung und Erziehung;weight:1.0;significance:2.93346701937817;degreegeneralization:3;uri:21882122
+TOPIC_ZOOM_TAG: value:Sprache als Bereich der Kultur;weight:1.0;significance:2.88271354620725;degreegeneralization:5;uri:20896003
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:2.78563553898677;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:2.50435355391847;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:2.23699226098339;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:2.18452430611399;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:1.75110858232764;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Kunst, Kultur, Musik;weight:1.0;significance:1.52385346833743;degreegeneralization:2;uri:21999796
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:1.07441906812122;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 101860
+CONTENT:
+Hausaufgaben gibt es nicht, wir arbeiten in <REMOVED_PERSON_ENTITY> nur die Aufgabe aus den Online Materialien durch.
+Als Themen kamen dran :
+- Logaritmen
+- <REMOVED_PERSON_ENTITY>
+- <REMOVED_PERSON_ENTITY>
+- <REMOVED_PERSON_ENTITY> von Gleichungen und <REMOVED_PERSON_ENTITY>
+- Trigonometrische Funktionen
+Eventuell kann ich dir eine Abschrift schicken, leider in schlechter Handschrift, vlt hat da jemand ja etwas besseres.
+Die Termine findet du unter 
+Fachbereichskurs (TFHB WINF) > Präsenzwochenenden.
+oder als direkt link
+$@COURSEVIEWBYID*1350@$
+Mfg
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 1403
+CREATION_DATETIME: 1362783600000
+MODIFICATION_DATETIME: 1362783600000
+TITLE: mit malloc wird ein Stück Speicher alloziert, wenn du später p = NULL (besser nullptr, weil typsicher...
+PARENT_POSTING_ID: 1402
+POSTING_TYPE: answer
+CONTENT:
+mit malloc wird ein Stück Speicher alloziert, wenn du später p = NULL (besser nullptr, weil typsicher) ausführt, zeigt p erstmal 'ins Leere', d. h. wenn du keinen anderen <REMOVED_PERSON_ENTITY> auf das Objekt irgendwo hälst, dann kannst du den <REMOVED_PERSON_ENTITY> nie wieder freigeben und irgendwann ist er dann eben alle (1GB!). Falls du nur den pointer p für etwas anders verwenden willst, dann musst du ein zweites mal malloc aufrufen, bekommst ein *neues* Stück Speicher und kannst dieses benutzen, p->wert = 5 schriebe dann natürlich in das neue Objekt.
+TAGGED_CONTENT:

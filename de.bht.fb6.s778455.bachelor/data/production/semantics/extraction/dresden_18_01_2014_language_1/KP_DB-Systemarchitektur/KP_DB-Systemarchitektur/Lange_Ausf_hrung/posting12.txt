@@ -1,0 +1,16 @@
+ID: 2267
+CREATION_DATETIME: 1373925600000
+MODIFICATION_DATETIME: 1373925600000
+TITLE: Du kannst ja syntactic sugar machen a la
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2189
+POSTING_TYPE: comment
+CONTENT:
+Du kannst ja syntactic sugar machen a la
+
+`createSth. addInParam('a'). addOutParam('b'). addInOutParam('c')`
+
+Oder mit Stream-Syntax
+
+`kernel << inParam(a) << outParam(b);`
+TAGGED_CONTENT:

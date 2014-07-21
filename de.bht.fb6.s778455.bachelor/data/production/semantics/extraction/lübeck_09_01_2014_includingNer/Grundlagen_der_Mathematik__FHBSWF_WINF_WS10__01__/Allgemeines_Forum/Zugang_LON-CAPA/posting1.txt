@@ -1,0 +1,11 @@
+ID: 97767
+CREATION_DATETIME: 1286729946
+MODIFICATION_DATETIME: 1286729946
+TITLE: Zugang LON-CAPA
+NER_TAG: value:ID;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+NER_TAG: value:Lower Saxony Universities;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+PARENT_POSTING_ID: 0
+CONTENT:
+Moin, beim Versuch mich in das LON-CAPA System einzuloggen, bekomme ich folgende Fehlermeldung, nachdem ich mich erfolgreich einloggen konnte und meinen Account dort erstellen wollte...
+Account-Erstellung nicht möglichCreation of a new user account using an e-mail address or an institutional log-in ID as username is not permitted at this institution (Lower Saxony Universities). Weiß jemand woran das liegen kann oder hat das selbe Problem?! Als Anmeldedomäne habe ich &quot;fhwf&quot; angegeben. Gruß 
+TAGGED_CONTENT:

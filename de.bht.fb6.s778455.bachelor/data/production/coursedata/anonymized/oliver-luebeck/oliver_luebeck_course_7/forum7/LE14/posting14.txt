@@ -1,0 +1,17 @@
+ID: 87
+CREATION_DATETIME: 1306702560000
+MODIFICATION_DATETIME: 1306702560000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 86
+CONTENT:
+    
+@n: aaahhh! natürlich, einfach mit ins toString().... soweit konnte ich eben wohl nicht denken *g* als ich deine antwort gelesen hab hatte ichs schon abgeschickt. mist! aber danke trotzdem fürs entfernen des brettes vor meinem kopf! breit grinsend
+
+@h: ohje, bei deinem reporter versteh ich nur bahnhof! zeigt sicher mal wieder, dass ich deutlich zu wenig anhung hab zwinkernd
+
+@clemens: danke fürs angebot! :) habs jetzt wie gesagt schon abgeschickt, aber vielleicht bei der nächsten aufgabe.
+
+wünsch euch noch nen schönen abend! :)
+    
+TAGGED_CONTENT:

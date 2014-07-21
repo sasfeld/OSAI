@@ -1,0 +1,9 @@
+ID: 1093
+CREATION_DATETIME: 1359500400000
+MODIFICATION_DATETIME: 1359500400000
+TITLE: Der aktuelle Stand ist lücken- und fehlerhaft. Vielleicht noch 1-2 Wochen warten bevor man es für bar...
+PARENT_POSTING_ID: 1092
+POSTING_TYPE: comment
+CONTENT:
+Der aktuelle Stand ist lücken- und fehlerhaft. Vielleicht noch 1-2 Wochen warten bevor man es für bare Münze nehmen kann...
+TAGGED_CONTENT:

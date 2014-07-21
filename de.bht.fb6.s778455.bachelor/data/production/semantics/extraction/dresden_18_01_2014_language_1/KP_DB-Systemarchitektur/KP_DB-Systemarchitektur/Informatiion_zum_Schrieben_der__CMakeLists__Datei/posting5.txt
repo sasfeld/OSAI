@@ -1,0 +1,12 @@
+ID: 1800
+CREATION_DATETIME: 1368396000000
+MODIFICATION_DATETIME: 1368396000000
+TITLE: Dann schreibe ich CMakeLists.txt nicht mehr. Ich habe die Seite darauf gelesen und ich habe FunctionP...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1788
+POSTING_TYPE: comment
+CONTENT:
+Dann schreibe ich CMakeLists. txt nicht mehr. Ich habe die Seite darauf gelesen und ich habe FunctionPass, BlockPass, LoopPass sowie LoopInfo gespielt. Wir müssen genau definieren, was soll wir eigentlich in Pass analysieren? 
+
+Anzahl der Befehlen? Loops? Sprungbefehele? Und so was?
+TAGGED_CONTENT:

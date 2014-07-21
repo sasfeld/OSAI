@@ -1,0 +1,110 @@
+ID: 16
+CREATION_DATETIME: 1199633100000
+MODIFICATION_DATETIME: 1199633100000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 15
+CONTENT:
+
+    
+    Hallo  und Forum
+
+DAnke für den Tip. Ich habe das Applet jetzt so gemacht... Sieht immer noch ziemlich strange aus. Wie bekomme ich die Balken dynamisch aktualisiert? Und wie bekomme ich die Labels "fließend" vor die Balken? Hat jemand eine Idee? Kann ich Paint (g) irgendwie in void init integrieren? Vielen Dank...
+
+
+/**
+* @author  
+* @since 2.1.2009
+* @version 1.0.2
+*/
+
+import java.awt.*;
+import java.applet.Applet;
+import java.awt.event.*;
+
+public class HinzKunz extends Applet implements AdjustmentListener {
+
+private Scrollbar sb = null;
+private Scrollbar sb2 = null;
+
+private int slideVal_hinz = 10;
+private int slideVal_kunz = 10;
+private int schieberWert;
+private int schieberWert2 = 0;
+private Label msg;
+
+public String h = "Hinz:";
+public String k = "Kunz:";
+public String h_ = "Hinz";
+public String k_ = "Kunz";
+public String Footer = "Vergleich der Koerpergroessen -- Bewegen Sie die ScrollBars!";
+
+@Override
+public void init() {
+
+setSize(500, 400);
+setPreferredSize(new Dimension(500, 400));
+sb = new Scrollbar(Scrollbar.HORIZONTAL, 50, 1, 0, 101 ); //public Scrollbar(int orientation, int value, int visible, int minimum, int maximum)
+sb2 = new Scrollbar(Scrollbar.HORIZONTAL, 50, 1, 0, 101);
+sb.setPreferredSize(new Dimension(150, 20));
+sb2.setPreferredSize(new Dimension(150, 20));
+add(new Label(h));
+add(sb);
+add(new Label(k));
+add(sb2);
+msg = new Label();
+add(msg);
+msg.setPreferredSize(new Dimension(150, 20));
+sb.addAdjustmentListener(this);
+sb2.addAdjustmentListener(this);
+
+add(new Label(h_));
+add(new Label(k_));
+
+add(new Label(Footer));
+}
+
+
+public void adjustmentValueChanged( AdjustmentEvent adjE ) {
+
+
+if ( adjE.getSource() == sb ) // duerfte hier fehlen !
+schieberWert = sb.getValue();
+
+if ( adjE.getSource() == sb2 ) // duerfte hier fehlen !
+schieberWert2 = sb2.getValue();
+
+int compare_sb = sb.getValue(); // getVal for sb Hinz !
+int compare_sb2 = sb2.getValue(); // getVal for sb Kunz !
+
+if (compare_sb > compare_sb2) {
+final String z1 = "Hinz ist groesser !";
+msg.setText(z1);
+} else {
+final String z1 = "Kunz ist groesser !";
+msg.setText(z1);
+}
+}
+
+@Override
+public void paint (Graphics g) {
+
+//Balken Hinz
+int width_ = sb.getValue();
+g.setColor(Color.MAGENTA);
+g.fillRect(80, 200, width_, 30);
+
+//Balken Kunz
+int width_2 = sb2.getValue();
+g.setColor(Color.ORANGE);
+g.fillRect(80, 270, width_2, 30);
+
+}
+}
+
+Anbei ist mein java file...
+
+Viele Grüße
+
+    
+TAGGED_CONTENT:

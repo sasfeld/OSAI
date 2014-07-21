@@ -1,0 +1,14 @@
+ID: 49
+CREATION_DATETIME: 1197024900000
+MODIFICATION_DATETIME: 1197024900000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 48
+CONTENT:
+
+Mir erschließt sich der Sinn dieser Aufgabe auch noch nicht so ganz, aber ich würde ganz simpel einfach nen paar sachen einfügen, löschen, etc. ohne größeren Sinn dahinter.
+
+
+Mehr würde ich warscheinlich gar nicht machen, also eine extrem simple Aufgabe, wenn ich sie richtig verstehe. Also ohne Ziel einfach ein paar Sachen einfügen, löschen und das wars.
+   
+TAGGED_CONTENT:

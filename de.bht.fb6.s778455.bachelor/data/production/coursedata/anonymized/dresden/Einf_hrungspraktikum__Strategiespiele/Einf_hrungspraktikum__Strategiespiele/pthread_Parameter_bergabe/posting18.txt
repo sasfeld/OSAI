@@ -1,0 +1,9 @@
+ID: 1317
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Deine Schleife, die darauf wartet, dass usable sich ändert, funktioniert nicht zuverlässig. Du musst ...
+PARENT_POSTING_ID: 1312
+POSTING_TYPE: comment
+CONTENT:
+Deine Schleife, die darauf wartet, dass usable sich ändert, funktioniert nicht zuverlässig. Du musst usable als `volatile` deklarieren, damit der Compiler den Wert nicht in einem Register halten kann und davon ausgeht, dass der Wert asynchron in einem anderen Thread verändert werden kann.
+TAGGED_CONTENT:

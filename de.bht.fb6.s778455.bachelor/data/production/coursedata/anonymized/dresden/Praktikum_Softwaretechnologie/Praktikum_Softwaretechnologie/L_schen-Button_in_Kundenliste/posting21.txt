@@ -1,0 +1,11 @@
+ID: 2999
+CREATION_DATETIME: 1385247600000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: Ja, html ist nicht so meins... aber gänzlich neu isses schon nie (;
+Das alles in dem td-Tag steht we...
+PARENT_POSTING_ID: 2935
+POSTING_TYPE: comment
+CONTENT:
+Ja, html ist nicht so meins... aber gänzlich neu isses schon nie (;
+Das alles in dem td-Tag steht weiß ich, aber wenn ich jetzt um alles das form tag hatte, mit  am anfang und  am ende und wenn ich den submit-button mit  gekennzeichnet hatte, kam immer die exception, dass nach "td" immer Attributspezifikationen, > oder /> folgen muss und dann hab nacheinander div, form und input gelöscht, weil in jeder zeile besagter fehler kam.
+TAGGED_CONTENT:

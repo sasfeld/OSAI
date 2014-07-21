@@ -1,0 +1,14 @@
+ID: 2703
+CREATION_DATETIME: 1383519600000
+MODIFICATION_DATETIME: 1383519600000
+TITLE: Deine XML Konfiguration wir gar nicht von der Applikation beachtet bzw. registriert. Wir empfehlen di...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2702
+POSTING_TYPE: answer
+CONTENT:
+Deine XML Konfiguration wir gar nicht <NAME_CORPUS_REPLACEMENT> der Applikation beachtet bzw. registriert. Wir empfehlen die Nutzung <NAME_CORPUS_REPLACEMENT> Java-basierter Konfiguration wie bereits im VideoShop angefangen. Die relevante Klasse hier ist `WebSecurityConfiguration` innerhalb der Klasse `VideoShop`.
+
+Der Methode `antMatchers(…)` gibst du den abzusichernden Pfad und bekommst dann eine reihe <NAME_CORPUS_REPLACEMENT> Möglichkeiten zu definieren, wer diese URI benutzen darf. `hasRole(…)` ist wohl das was deinem Beispiel hier am nächsten kommt. Die Annotation an den Controllern brauchst du dann nicht.
+
+Möchtest du allerdings Security direkt an den Controllern definieren, aktivierst du das über die Annotation `@EnableGlobalMethodSecurity(prePostEnabled = true)` an der Klasse `WebSecurityConfiguration`. Mehr Informationen dazu findest du in der [Referenzdokumentation zu Spring Security](http://docs.spring.io/spring-security/site/docs/3. 2. 0. RC2/reference/htmlsingle/#jc-method).
+TAGGED_CONTENT:

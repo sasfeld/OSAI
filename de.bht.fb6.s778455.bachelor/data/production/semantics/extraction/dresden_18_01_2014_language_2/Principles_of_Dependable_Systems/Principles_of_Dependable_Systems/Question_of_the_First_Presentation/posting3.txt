@@ -1,0 +1,14 @@
+ID: 2901
+CREATION_DATETIME: 1384729200000
+MODIFICATION_DATETIME: 1384729200000
+TITLE: 1) In engineering, redundancy is the duplication of critical components or functions of a system with...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2862
+POSTING_TYPE: answer
+CONTENT:
+1. In engineering, redundancy is the duplication of critical components or functions of a system with the intention of increasing reliability of the system, usually in the case of a backup or fail-safe. [from Wikipedia](http://en.wikipedia.org/wiki/Redundancy_%28engineering%29)
+
+2. I think you are asking about slide 49: The slide is saying that the is redundant component 2 (spare component) which <NAME_CORPUS_REPLACEMENT> do the same job as component 1. Component 3 receives/expects input from component 1. A failure detector component <NAME_CORPUS_REPLACEMENT> detect that component 1 failed and trigger a reconfiguration of component 3. After the reconfiguration, component 3 receives input from component 2 (which does the same as the failed component 1).
+
+3. In this context, factors refers to the different dependability issues your system has. The idea is to identify these issues/factors, order them by impact on the overall system dependability, and then deal with those that have the highest impact.
+TAGGED_CONTENT:

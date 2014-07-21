@@ -1,0 +1,8 @@
+ID: 2134923
+CREATION_DATETIME: 1349474400000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: KP Mobile Applikation zur ubiquitären Exploration von Veranstaltungsdaten
+SUMMARY: null
+URL: 

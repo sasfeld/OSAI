@@ -1,0 +1,21 @@
+ID: 62
+CREATION_DATETIME: 1181421060000
+MODIFICATION_DATETIME: 1181421060000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 61
+CONTENT:
+
+Lieber ,
+
+in der main Methode was soll passieren? Was haben Sie programmiert?
+
+Ihre Klasse Quadrat sieht gut aus bis auf 3 Dinge:
+- Warum das Attribut umfang?
+- Die Rueckgabe der Methode getUmfang soll vom Typ double sein, nicht vom Typ String.
+- Die Methode toString() nicht vergessen (siehe Dokumentation der Klasse Quadrat)
+
+Mit freundlichen Gruessen,
+
+    
+TAGGED_CONTENT:

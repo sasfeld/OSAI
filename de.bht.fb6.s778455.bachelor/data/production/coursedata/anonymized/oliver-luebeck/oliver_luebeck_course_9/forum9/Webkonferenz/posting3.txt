@@ -1,0 +1,16 @@
+ID: 41
+CREATION_DATETIME: 1175523000000
+MODIFICATION_DATETIME: 1175523000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 40
+CONTENT:
+ 
+Auf dieser Seite:
+connect.oncampus.de/common/help/de/support/meeting_test.htm
+Bricht er schon bei Schritt 2 ab.
+
+Ehrlich gesagt, bin etwas überfordert, ob ich jetzt etwas (und wenn ja, was) installieren muss.
+Da ich etwas verplant war und gerade erst mitbekommen habe, dass morgen eine Konferenz ist, muss das ja eben auch schnell in Gang kommen.gemischt
+    
+TAGGED_CONTENT:

@@ -1,0 +1,16 @@
+ID: 51
+CREATION_DATETIME: 1177875960000
+MODIFICATION_DATETIME: 1177875960000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 50
+CONTENT:
+
+bitte und danke.
+
+ich wünsche dir bzw. allen anderen auch noch nen schönen abend :)
+
+grüße
+
+    
+TAGGED_CONTENT:

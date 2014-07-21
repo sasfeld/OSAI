@@ -1,0 +1,9 @@
+ID: 1783
+CREATION_DATETIME: 1367791200000
+MODIFICATION_DATETIME: 1367791200000
+TITLE: Ja, es findet eine praktische Übung statt.
+PARENT_POSTING_ID: 1782
+POSTING_TYPE: answer
+CONTENT:
+Ja, es findet eine praktische Übung statt.
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 699
+CREATION_DATETIME: 1352329200000
+MODIFICATION_DATETIME: 1352329200000
+TITLE: Seltsam bei mir geht es - geht es sonst bei jemandem noch nicht?
+PARENT_POSTING_ID: 697
+POSTING_TYPE: comment
+CONTENT:
+Seltsam bei mir geht es - geht es sonst bei jemandem noch nicht?
+TAGGED_CONTENT:

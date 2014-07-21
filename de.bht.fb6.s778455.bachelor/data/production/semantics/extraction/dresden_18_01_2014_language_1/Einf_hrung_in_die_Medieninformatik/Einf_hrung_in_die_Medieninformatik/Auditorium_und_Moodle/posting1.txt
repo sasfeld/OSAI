@@ -1,0 +1,16 @@
+ID: 212
+CREATION_DATETIME: 1349647200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Hallo,
+
+zu Beginn der Übungen wird die Lernplattform [Moodle](http://moodle.inf.tu-dresden. de) angeboten. Dort werden Folien, Übungsblätter und ebenfalls ein Forum  angeboten. Näheres wird in der Vorlesung am 12. 10 erläutert.
+
+Viel Erfolg<PERSONAL_GREETING_REMOVEMENT>
+
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

@@ -1,0 +1,13 @@
+ID: 117515
+CREATION_DATETIME: 1316717812
+MODIFICATION_DATETIME: 1316717812
+TITLE: Literatur
+PARENT_POSTING_ID: 0
+CONTENT:
+H.-J. <REMOVED_PERSON_ENTITY>: "Mathematische Formeln". Buch und Zeit Verlagsgesellschaft.
+Böhme: "Algebra". <REMOVED_PERSON_ENTITY>.
+<REMOVED_PERSON_ENTITY>: "Lineare Algebra". <REMOVED_PERSON_ENTITY>.
+<REMOVED_PERSON_ENTITY>: „Mathematik für Ingenieure und Naturwissenschaftler, Bd. 1“, Vieweg Winter: „Grundlagen der formalen Logik“, Verlag Harri Deutsch
+Stöcker, <REMOVED_PERSON_ENTITY>.): "Analysis für Ingenieurstudenten" (2 Bde.), Verlag Harri Deutsch
+Stöcker, <REMOVED_PERSON_ENTITY>.): "Lineare Algebra, Optimierung, Wahrscheinlichkeits- rechnung und Statistik" , Verlag <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

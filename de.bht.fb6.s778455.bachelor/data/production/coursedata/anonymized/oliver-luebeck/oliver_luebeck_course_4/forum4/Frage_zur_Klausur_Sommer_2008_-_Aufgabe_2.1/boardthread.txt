@@ -1,0 +1,4 @@
+ID: 18
+TITLE: Frage zur Klausur Sommer 2008 - Aufgabe 2.1
+LANGUAGE: GERMAN
+FIRST_POSTING_ID: 80

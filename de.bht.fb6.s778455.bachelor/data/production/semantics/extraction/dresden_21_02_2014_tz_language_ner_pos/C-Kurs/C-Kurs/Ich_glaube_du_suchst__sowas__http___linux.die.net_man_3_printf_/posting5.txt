@@ -1,0 +1,45 @@
+ID: 2914
+CREATION_DATETIME: 1384815600000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: Hier hat ja noch gar niemand geschrieben O.o
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:2.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:2.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+POS_TAG: value:Ort;weight:0.0;uri:;postag:NN
+POS_TAG: value:Seite;weight:0.0;uri:;postag:NN
+POS_TAG: value:rungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Problemen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Verbesserungsvorschlag;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dienstag;weight:0.0;uri:;postag:NN
+POS_TAG: value:Syntaxt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Laden;weight:0.0;uri:;postag:NN
+POS_TAG: value:Programmen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rechenfehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:Probleme;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beginn;weight:0.0;uri:;postag:NN
+POS_TAG: value:Programme;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kurs;weight:0.0;uri:;postag:NN
+POS_TAG: value:hrungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Themen;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:B.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Doppelstunde;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ideal;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2789
+POSTING_TYPE: answer
+CONTENT:
+Hier hat ja noch gar niemand geschrieben O. o
+
+Mir persönlich gefällt mein Kurs am Dienstag morgen sehr gut bisher.
+
+Probleme gab es noch keine. die kurzen Einführungen zu verschiedenen Themen zu Beginn der Doppelstunde sind interessant und nicht zu lange.
+
+Auch das wir größtenteils selbstständig arbeiten müssen aber jemand vor Ort ist den man bei Problemen fragen kann finde ich Ideal. 
+
+Weiter so!
+
+Was vielleicht noch ganz praktisch wäre, <REMOVED_PERSON_ENTITY> oder Erklärungen zu den einzelnen Programmen wo man etwas rausfinden soll, wie z. B. "Rechenfehler", nachträglich auf die Seite Laden wäre klasse um im nachhinein nochmal reflektieren zu können. Das vielleicht als einzigen Verbesserungsvorschlag. Ebenso Musterlösungen zu den selbst zu schreibenden Programme mit "guter" Syntaxt usw. Das mal als Verbesserungsvorschlag.
+
+Ansonsten alles gut!
+TAGGED_CONTENT:
+Hier_ADV hat_VAFIN ja_ADV noch_ADV gar_ADV niemand_PIS geschrieben_VVPP O._NE o_ADV Mir_PPER persönlich_ADJD gefällt_VVFIN mein_PPOSAT Kurs_NN am_APPRART Dienstag_NN morgen_ADV sehr_ADV gut_ADJD bisher_ADV ._$. Probleme_NN gab_VVFIN es_PPER noch_ADV keine_PIAT ._$. die_ART kurzen_ADJA Einführungen_NN zu_PTKZU verschiedenen_ADJA Themen_NN zu_APPR Beginn_NN der_ART Doppelstunde_NN sind_VAFIN interessant_ADJD und_KON nicht_PTKNEG zu_APPR lange_ADV ._$. Auch_ADV das_ART wir_PPER größtenteils_ADV selbstständig_ADJD arbeiten_VVINF müssen_VMFIN aber_ADV jemand_PIS vor_APPR Ort_NN ist_VAFIN den_ART man_PIS bei_APPR Problemen_NN fragen_VVINF kann_VMFIN finde_VVFIN ich_PPER Ideal_NN ._$. Weiter_ADV so_ADV !_$. Was_PWS vielleicht_ADV noch_ADV ganz_ADV praktisch_ADJD wäre_VAFIN ,_$, <_VVFIN REMOVED_PERSON_ENTITY_NE >_CARD oder_KON Erklärungen_NN zu_APPR den_ART einzelnen_ADJA Programmen_NN wo_PWAV man_PIS etwas_PIS rausfinden_VVINF soll_VMFIN ,_$, wie_PWAV z._APPRART B._NN "_$( Rechenfehler_NN "_$( ,_$, nachträglich_ADJD auf_APPR die_ART Seite_NN Laden_NN wäre_VAFIN klasse_ADJD um_APPR im_APPRART nachhinein_ADV nochmal_ADV reflektieren_VVFIN zu_PTKZU können_VMINF ._$. Das_ART vielleicht_ADV als_APPR einzigen_ADJA Verbesserungsvorschlag_NN ._$. Ebenso_ADV Musterlösungen_NN zu_APPR den_ART selbst_ADV zu_PTKZU schreibenden_ADJA Programme_NN mit_APPR "_$( guter_ADJA "_$( Syntaxt_NN usw_NE ._$. Das_ART mal_ADV als_APPR Verbesserungsvorschlag_NN ._$. Ansonsten_ADV alles_PIS gut_ADJD !_$. 

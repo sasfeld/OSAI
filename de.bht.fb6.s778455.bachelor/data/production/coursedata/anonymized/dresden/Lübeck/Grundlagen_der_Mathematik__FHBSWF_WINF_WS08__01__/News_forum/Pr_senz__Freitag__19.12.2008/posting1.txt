@@ -1,0 +1,8 @@
+ID: 16511
+CREATION_DATETIME: 1229621964
+MODIFICATION_DATETIME: 1229621964
+TITLE: Präsenz: Freitag, 19.12.2008
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Sie alle, die morgige Präsenz findet wieder im Fachbereich Informatik, Am Exer 2 statt. Der <REMOVED_PERSON_ENTITY> ist 252 oder Sie finden morgen anderslautende Hinweise ausgehängt. Mit freundlichen Grüßen, <PERSONAL_GREETING_REMOVEMENT>. <REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

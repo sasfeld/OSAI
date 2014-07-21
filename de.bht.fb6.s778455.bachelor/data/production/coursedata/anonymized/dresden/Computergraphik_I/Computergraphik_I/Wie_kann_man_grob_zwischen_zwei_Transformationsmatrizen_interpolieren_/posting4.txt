@@ -1,0 +1,10 @@
+ID: 1874
+CREATION_DATETIME: 1369951200000
+MODIFICATION_DATETIME: 1369951200000
+TITLE: Wow, soviele Fachbegriffe in der Antwort von Tenshi. Aber im Kern ist die Antwort schon die gewünscht...
+PARENT_POSTING_ID: 1872
+POSTING_TYPE: answer
+CONTENT:
+Wow, soviele Fachbegriffe in der Antwort <NAME_CORPUS_REPLACEMENT> Tenshi. Aber im <REMOVED_PERSON_ENTITY> ist die Antwort schon die gewünschte. Der Trick ist es eben genau, dass man nicht einfach die Matrix Eintrag für Eintrag interpolieren kann, sondern sie vorher geeignet in ihre Teiltransformationen zerlegen muss. Dazu nimmt man zuerst die in der 4x4-Matrix enthaltene Translation raus, was den ersten 3 Einträgen der rechtesten Spalte entspricht. Dann nimmt man sich die 3x3-Matrix (beginnend <NAME_CORPUS_REPLACEMENT> oben links) her und versucht die in Teiltransformationen zu zerlegen, <NAME_CORPUS_REPLACEMENT> denen man weiß, wie man die interpolieren kann.
+Die mathematischen Details dazu findest Du im Paper, das Tenshi verlinkt hat. Etwas kürzer ist es z. B. im CG1-Skript 2 ("Mathematische Grundlagen") aus dem WS10/11 aufgeschrieben. Schau <NAME_CORPUS_REPLACEMENT> mal auf Seite 37.
+TAGGED_CONTENT:

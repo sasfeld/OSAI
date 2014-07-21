@@ -1,0 +1,8 @@
+ID: 110801002
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Proseminar Technische Informationssysteme
+SUMMARY: 
+URL: http://www.inf.tu-dresden.de/index.php?node_id=1754&ln=de

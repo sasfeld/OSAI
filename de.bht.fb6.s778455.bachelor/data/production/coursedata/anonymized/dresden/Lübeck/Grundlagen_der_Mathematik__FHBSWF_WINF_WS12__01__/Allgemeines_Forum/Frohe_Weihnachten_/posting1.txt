@@ -1,0 +1,8 @@
+ID: 189047
+CREATION_DATETIME: 1356260406
+MODIFICATION_DATETIME: 1356260406
+TITLE: Frohe Weihnachten...
+PARENT_POSTING_ID: 0
+CONTENT:
+Ich wünsche allen ein schönes Weihnachtsfest und einen guten Rutsch in 2013.
+TAGGED_CONTENT:

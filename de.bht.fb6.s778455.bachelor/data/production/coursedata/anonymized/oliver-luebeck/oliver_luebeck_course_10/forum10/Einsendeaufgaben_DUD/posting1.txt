@@ -1,0 +1,17 @@
+ID: 1
+CREATION_DATETIME: 1190483400000
+MODIFICATION_DATETIME: 1190483400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Tach auch,
+
+ich wollte fragen was es mit den Einsendeaufgaben dort auf sich hat. In der zusätzlichen PDF steht nämlich dass sie mit Math.java usw sind. Also sollen sie keine Main-Methode haben?
+
+Und wenn nicht, soll dafür dann eine Extradatei geschrieben werden?
+
+Und muss ich diese dann auch mitschicken in der Mail?
+    
+TAGGED_CONTENT:

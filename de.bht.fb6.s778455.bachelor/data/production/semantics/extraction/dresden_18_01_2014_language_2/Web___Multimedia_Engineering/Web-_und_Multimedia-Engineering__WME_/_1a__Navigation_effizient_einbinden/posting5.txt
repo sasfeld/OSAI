@@ -1,0 +1,10 @@
+ID: 571
+CREATION_DATETIME: 1351465200000
+MODIFICATION_DATETIME: 1351465200000
+TITLE: Für den Seitenprototypen reicht es völlig aus, wenn ihr die wenigen Einzelseiten, die ihr erstellen m...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 554
+POSTING_TYPE: answer
+CONTENT:
+Für den Seitenprototypen reicht es völlig aus, wenn ihr die wenigen Einzelseiten, die ihr erstellen müsst, per Copy&Paste anlegt (Header, Footer, etc.). Auf solche "Funktionalität" können wir in diesem Fall verzichten.
+TAGGED_CONTENT:

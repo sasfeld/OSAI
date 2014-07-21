@@ -1,0 +1,18 @@
+ID: 775
+CREATION_DATETIME: 1352847600000
+MODIFICATION_DATETIME: 1352847600000
+TITLE: Makes sense, there are no error values defined for fwrite(). Nevertheless, I couldn't come up with th...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 682
+POSTING_TYPE: comment
+CONTENT:
+Makes sense, there are no error values defined for fwrite(). Nevertheless, I couldn't come up with the test case that proves any usefulness of value fwrtite() returns. I've tried 3 most obvious scenarios: 
+
+1) changing permission of the file fwrite() is going to write to in between of executing fopen() and fwrite(). In the end, fwrite() seems not to care at all about permissions on the moment of being executed.
+
+2) file was removed in between of fopen() and fwrite(). Quite predictably it resulted into segfault.
+
+3) Filesystem doesn't have enough space left. In spite of what is said in man fwrite() and man errno, errno was set to 28 - "No space left on device".
+
+So, the questions remains -- is there any test case that <NAME_CORPUS_REPLACEMENT> prove meaningfulness of testing the value fwrite() returns. Maybe there is a point in adding one to the test case suite for this task. ^_^
+TAGGED_CONTENT:

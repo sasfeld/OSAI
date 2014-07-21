@@ -1,0 +1,35 @@
+ID: 29
+CREATION_DATETIME: 1195234260000
+MODIFICATION_DATETIME: 1195234260000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Lieber oder KomulitonnInnen mit Ahnung,
+
+ich hatte nicht so genau verstanden, warum wir bei der equals-Methode "public boolean equals(Object ob) " verwenden und nicht public boolean equals(String s).
+Ist der Grund, warum wir die Methode equals wie unten gepostet implementieren folgender:
+
+Ich muß ja zunächst einmal klären, ob die Nummer, welche mir zum Vergleich gegeben wird, auch wirklich eine Kontonummer ist. Es könnte ja auch eine Telefonnummer oder Lottozahlen oder sonst was sein. Darum mache ich es wie unten angezeigt.
+Ist das eine richtige Erkenntnis?
+
+@Override
+public boolean equals(Object ob) {
+
+if (!(ob instanceof Konto))
+return false;
+
+Konto k = (Konto) ob;
+boolean vergleich = (k.nummer.equals(ob));
+if (vergleich == true)
+System.out.println("Beide Konten sind identisch");
+else
+System.out.println("Konten sind nicht identisch");
+return vergleich;
+}
+
+
+Grüsse
+    
+TAGGED_CONTENT:

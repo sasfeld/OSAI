@@ -1,0 +1,20 @@
+ID: 31
+CREATION_DATETIME: 1195148820000
+MODIFICATION_DATETIME: 1195148820000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Diese Aufgabe ist wieder zur 2 zu lösen. Ein Mitglied der Gruppe schreibt die Ereignis-Behandlung fuer die AusgabePanel.java Klasse, der andere für die NeuPanel.java Klasse.Sie teilen sich die Arbeit fuer die CocktailMixer Klasse.
+
+
+Das steht als zusatz im Moodle und ich verstehe nicht ganz was genau mit den beiden .java dateien gemeint ist die in dem obigen text stehen.
+
+Mit was ist genau mit AusgabePanel.java gemeint und ebenso was ist genau mit NeuPanel.java gemeint?
+
+CocktailNeuPanel.java ist die Datei die ich bei mir in der vorherigen Einsendeaufagbe stehen habe, also in meinem Projektordner für die GUI.
+
+Sind CocktailNeuPanel.java und NeuPanel.java hier das Gleiche oder verstehe ich das falsch? Und wenn sie es sind, auf was bezieht sich dann die Datei AusgabePanel.java?
+   
+TAGGED_CONTENT:

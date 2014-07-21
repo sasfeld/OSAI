@@ -1,0 +1,48 @@
+ID: 53
+CREATION_DATETIME: 1305030120000
+MODIFICATION_DATETIME: 1305030120000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 42
+CONTENT:
+  
+Hello,
+ich hatte eine sehr positive Rückmeldung bezüglich meiner Einsendeaufgabe LE09. Daher wollte ich mal ein paar Anregungen geben, wie man den Code schön übersichtlich gestalten kann.
+Kommentare (gerade von den Experten) gewünscht.
+
+Für die Bearbeitung des Messwertes habe ich eine kleine Klassenfunktion pruefeMesswert() geschrieben.
+
+public static char pruefeMesswert(double a) {
+
+if(a == 0.0) return 'e';
+ if(a <= 0.1) return 't';
+ if(a <= 0.5) return 'b';
+ return 'u';
+}
+
+Die Variable "double a" steht für den Vergleichswert "Messwert - Sollwert". Diese Funktion macht eigentlich nichts weiter, als je nach Auswertung des Vergleichswertes ein anderes Literal zurückzugeben, falls keine if-Anweisung greift eben 'u' für unbrauchbar.
+
+In der "main()" steht eine switch-Anweisung, die als Kriterium den Rückgabewert der obrigen Funktion bekommt.
+
+switch(pruefeMesswert(Math.abs(messwert-sollwert))) {
+ case 'e':
+System.out.println("Der Messwert entspricht exakt dem Sollwert.");
+ break;
+ case 't':
+System.out.println("Der Messwert ist in Toleranz.");
+ break;
+ case 'b':
+System.out.println("Der Messwert ist brauchbar.");
+ break;
+ case 'u':
+System.out.println("Der Messwert ist unbrauchbar!");
+ break;
+}
+
+Die Funktion Math.abs() kommt aus der Klasse java.lang.Math, aber das wurde ja schon besprochen. Die Verschachtelung in der switch-Anweisung ist zwar tief, aber lesbar. Man sieht auch deutlich: "else" und "default" sind nicht immer nötig.
+Was sagt ihr, sauberer Code?
+
+
+Gruss
+   
+TAGGED_CONTENT:

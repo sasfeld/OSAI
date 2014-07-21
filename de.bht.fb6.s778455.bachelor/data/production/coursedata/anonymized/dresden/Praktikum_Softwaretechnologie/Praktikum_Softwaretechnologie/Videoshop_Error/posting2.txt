@@ -1,0 +1,17 @@
+ID: 2778
+CREATION_DATETIME: 1384038000000
+MODIFICATION_DATETIME: 1384210800000
+TITLE: Mein Fehler, aber gar nicht schlecht, dann mache ich daraus gleich ein Howto for great justice in Sac...
+PARENT_POSTING_ID: 2772
+POSTING_TYPE: answer
+CONTENT:
+Mein Fehler, aber gar nicht schlecht, dann mache ich daraus gleich ein Howto for great justice in Sachen Fehlermeldung lesen, verstehen sowie Fehler beheben.
+Die Fehlermeldung liefert nicht nur die <REMOVED_PERSON_ENTITY> sondern noch mehr, aber eins nach dem anderen.
+1. Der Fehler:
+`message ... Exception evaluating SpringEL expression: "order. userIdentifier" (orders:29)` 
+Und wenn wir in der Konsole oder im Browser runterscrollen finden wir auch the root of all evil.
+`root cause ... Field or property 'userIdentifier' cannot be found on object of type 'org. salespointframework. core. order. Order`
+2. Wir wollen also den UserIdentifier (den Login) des Nutzers ausgeben, welcher diese Bestellung getätigt hat. Mal gucken was die [Javadoc für die Order](http://www.st.inf.tu-dresden. de/SalesPoint/v5. 0/download/JavaDoc/org/salespointframework/core/order/Order. html) so hergibt: [getUserAccount](http://www.st.inf.tu-dresden. de/SalesPoint/v5. 0/download/JavaDoc/org/salespointframework/core/order/Order. html#getUserAccount()) sieht ganz gut aus. :)
+3. In der Spring Expression Language wird aus `order. getUserAccount(). getIdentifier()` einfach `order. userAccount. identifier`, wir ersetzen also das fehlerhafte `order. userIdentifier` durch Letzteres.
+4. Gentlemen, we have achieved coolness.
+TAGGED_CONTENT:

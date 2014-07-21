@@ -1,0 +1,22 @@
+ID: 1362
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: ich habe nur ein free im code und das sollte nur kommen wenn da etwas ist
+```ruby
+void destroy(stru...
+PARENT_POSTING_ID: 1357
+POSTING_TYPE: comment
+CONTENT:
+ich habe nur ein free im code und das sollte nur kommen wenn <NAME_CORPUS_REPLACEMENT> etwas ist
+```ruby
+void destroy(struct node *leaf) {
+  if (leaf != 0) {
+    destroy(leaf->lefttop);
+    destroy(leaf->righttop);
+    destroy(leaf->leftbot);
+    destroy(leaf->rightbot);
+    free(leaf); 
+  }
+}
+```
+TAGGED_CONTENT:

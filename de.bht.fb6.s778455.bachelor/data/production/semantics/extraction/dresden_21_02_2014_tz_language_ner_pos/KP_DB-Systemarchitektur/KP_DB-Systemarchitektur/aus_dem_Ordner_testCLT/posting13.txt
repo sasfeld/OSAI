@@ -1,0 +1,22 @@
+ID: 1929
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: Es wird jetzt mit "make" gebaut und anhand der run.sh kannst du in Erfahrung bringen, wie man das Pro...
+LANGUAGE: GERMAN
+NER_TAG: value:PATH-Variable;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:Prog;weight:0.0;uri:;postag:NN
+POS_TAG: value:Variable;weight:0.0;uri:;postag:NN
+POS_TAG: value:Erfahrung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Umgebung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Verzeichnis;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:run;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bauen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Es wird jetzt mit "make" gebaut und anhand der run. <LEARNED_PERSON_NAME_REPLACEMENT> kannst du in Erfahrung bringen, wie man das Prog startet bzw. die Umgebung aufsetzt.
+
+(Ach, <NAME_CORPUS_REPLACEMENT> fällt mir noch ein, dass man die PATH-Variable auch zum Bauen auch auf das korrekte bin-Verzeichnis <NAME_CORPUS_REPLACEMENT> llvm zeigen lassen muss, wegen llvm-config)
+TAGGED_CONTENT:
+Es_PPER wird_VAFIN jetzt_ADV mit_APPR "_$( make_FM "_$( gebaut_VVPP und_KON anhand_APPR der_ART run_NN ._$. <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_VVFIN kannst_VMFIN du_PPER in_APPR Erfahrung_NN bringen_VVINF ,_$, wie_PWAV man_PIS das_ART Prog_NN startet_VVFIN bzw_NE ._$. die_ART Umgebung_NN aufsetzt_VVFIN ._$. -LRB-_TRUNC Ach_ITJ ,_$, <_CARD NAME_CORPUS_REPLACEMENT_NE >_NE fällt_VVFIN mir_PPER noch_ADV ein_PTKVZ ,_$, dass_KOUS man_PIS die_ART PATH-Variable_NN auch_ADV zum_APPRART Bauen_NN auch_ADV auf_APPR das_ART korrekte_ADJA bin-Verzeichnis_NN <_VVFIN NAME_CORPUS_REPLACEMENT_NE >_NE llvm_ADJD zeigen_VVINF lassen_VVFIN muss_PPER ,_$, wegen_APPR llvm-config_ADJD -RRB-_TRUNC 

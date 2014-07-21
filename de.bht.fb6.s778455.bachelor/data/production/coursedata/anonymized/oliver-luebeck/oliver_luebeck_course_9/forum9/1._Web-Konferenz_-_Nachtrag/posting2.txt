@@ -1,0 +1,28 @@
+ID: 4
+CREATION_DATETIME: 1175713620000
+MODIFICATION_DATETIME: 1175713620000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3
+CONTENT:
+
+
+Hallo,
+
+ich würde es ganz einfach mit
+
+public static void main(String[] args) {
+
+System.out.println(MyMath.differenziere2Zahlen(z1, z2));
+
+}
+
+probieren, wobei z1 und z2 die Zahlen sind die genutzt werden sollen (also zB. 2 und 1), und sehen was bei raus kommt...
+
+eventuell muss aber auch erst die MyMath Klasse geändert werden in public static int mit einem return-wert...
+
+Habs noch nicht getestet ;)
+
+LG 
+    
+TAGGED_CONTENT:

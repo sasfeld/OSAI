@@ -1,0 +1,7 @@
+ID: 42912
+CREATION_DATETIME: 1327783349
+MODIFICATION_DATETIME: 1327844845
+TITLE: Frage zu den Aufgaben
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=42912
+FIRST_POSTING_ID: 115388

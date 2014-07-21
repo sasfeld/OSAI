@@ -1,0 +1,18 @@
+ID: 1793
+CREATION_DATETIME: 1368223200000
+MODIFICATION_DATETIME: 1368223200000
+TITLE: Momentan arbeite ich mit normalen Makefiles, das geht auch ganz gut.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1788
+POSTING_TYPE: comment
+CONTENT:
+Momentan arbeite ich mit normalen Makefiles, das geht auch ganz gut.
+
+Der Ordner "clang+llvm-3. 2-x86_64-linux-ubuntu-12. 04" enthält schon alle Binaries, wir brauchen <NAME_CORPUS_REPLACEMENT> nix mehr dran machen.
+
+Wenn du in ~/svnkpopencl/src/modul_loader wechselst, kannst du mal das Skript "setup_prefix" in der environment ausführen. (also mit ". ./setup_prefix", man beachte den Punkt und das Leerzeichen vor dem ./", damit aktivierst du LLVM 3. 2 anstatt dem installierten LLVM 2. 9)
+
+Ist setup_prefix ausgeführt, kannst du das Textprogramm mit make bauen und mit ./kernelcost das Progrämmchen starten. Du kannst ja mal unter http://llvm.org/docs/doxygen/html/classllvm_1_1Function. html schauen, wie wir so eine Analyse des Kernels starten könnten.
+
+Ich werde derweil versuchen, den Clang-Aufruf ebenfalls in das Analyse-Programm zu integrieren.
+TAGGED_CONTENT:

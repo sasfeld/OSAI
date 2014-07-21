@@ -1,0 +1,9 @@
+ID: 97766
+CREATION_DATETIME: 1286391800
+MODIFICATION_DATETIME: 1286391800
+TITLE: Technischer Hinweis zu Videoaufzeichnungen
+PARENT_POSTING_ID: 0
+CONTENT:
+Bitte schalten Sie Ihr Mikro in Sprachpausen aus damit Echo-Effekte vermieden werden.
+Danke fuer Ihre Mithilfe, <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

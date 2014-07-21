@@ -1,0 +1,20 @@
+ID: 237455
+CREATION_DATETIME: 1380571500
+MODIFICATION_DATETIME: 1380571500
+TITLE: Re: Gruppen für potenzielle Einsendeaufgaben
+TOPIC_ZOOM_TAG: value:Liebe;weight:1.0;significance:6.84491833963583;degreegeneralization:5;uri:21126234
+TOPIC_ZOOM_TAG: value:Partnerschaft, Ehe, Liebe, Sex;weight:1.0;significance:4.77978319360723;degreegeneralization:4;uri:21126268
+TOPIC_ZOOM_TAG: value:Zwischenmenschliche Beziehungen;weight:1.0;significance:4.51902740448583;degreegeneralization:3;uri:20122843
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Arbeit und Beruf;weight:1.0;significance:3.54101226558305;degreegeneralization:3;uri:21924095
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:1.80459553725326;degreegeneralization:2;uri:21999847
+PARENT_POSTING_ID: 237309
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+wenn du und <REMOVED_PERSON_ENTITY> nichts dagegen habt, würde ich mich euch gern anschließen. Mein Problem ist leider, dass ich seit 4 Jahren kein <REMOVED_PERSON_ENTITY> mehr hatte (3 Jahre Ausbildung bei der Agentur für Arbeit und jetzt 1 Jahr berufstätig) und ich mich in viele Sachen erst wieder reinfuchsen muss. Ich würde mich aber sehr freuen, wenn ihr mich vllt. bei einigen Sachverhalten unterstützen könntet. :-)
+Liebe Grüße,
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

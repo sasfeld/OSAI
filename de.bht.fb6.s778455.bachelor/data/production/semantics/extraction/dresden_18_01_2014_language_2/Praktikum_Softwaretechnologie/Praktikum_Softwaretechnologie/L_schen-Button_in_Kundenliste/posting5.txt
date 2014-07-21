@@ -1,0 +1,32 @@
+ID: 2959
+CREATION_DATETIME: 1385074800000
+MODIFICATION_DATETIME: 1385074800000
+TITLE: Also, ich hab jetzt den Rumpf der Button-Funktion erstmal erweitert auf:
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2935
+POSTING_TYPE: comment
+CONTENT:
+Also, ich hab jetzt den <REMOVED_PERSON_ENTITY> der Button-Funktion erstmal erweitert auf:
+
+```java
+
+@RequestMapping(value="/deleteUser", method=RequestMethod. POST)
+
+	public String deleteUser() {
+
+	}
+
+```
+
+und der HTML-Button sieht so aus:
+
+```html
+
+										Nutzer löschen
+
+										<input type="hidden" name="pid" value="0" th:value="${customer. delete}" />
+
+```
+
+Meine größte Frage ist ja im Moment, wie ich eine Account-Löschen Funktion schreibe? Soweit ich weiß, gibts im Salespoint-Framework im UserAccountManager keine Methode zum Löschen eines Useraccounts, oder liege ich <NAME_CORPUS_REPLACEMENT> falsch? (ich hab keine gefunden)
+TAGGED_CONTENT:

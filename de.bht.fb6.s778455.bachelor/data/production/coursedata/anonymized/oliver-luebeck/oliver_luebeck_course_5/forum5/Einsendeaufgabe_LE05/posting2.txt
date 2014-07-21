@@ -1,0 +1,15 @@
+ID: 60
+CREATION_DATETIME: 1193936940000
+MODIFICATION_DATETIME: 1193936940000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 59
+CONTENT:
+ 
+Hi,
+
+mit increment ist der Wert geimeint, um den deine Liste vergroessert werden soll, wenn kein Platz mehr ist. Wenn ein neues Element hinzugefuegt wird muss also ueberprueft werden, ob genug Platz im Array ist. Wenn nich muss die Liste um den Wert increment erhoeht werden.
+
+Gruesse,
+	
+TAGGED_CONTENT:

@@ -1,0 +1,20 @@
+ID: 2444
+CREATION_DATETIME: 1374616800000
+MODIFICATION_DATETIME: 1383519600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Gegeben sei folgende Aufgabe:
+a) Warum gibt es bei Ethernetframes eine Mindestlänge?
+b) Wie groß (in Byte) ist diese Mindestlänge (ohne Präambel)?
+c) Wie lang ist die Sendedauer dieses Frames bei 10Base-T (10 Mbit/s)?
+d) Wie groß wäre ein Frame, der mit 1 Gbit/s gleich lang gesendet wird?
+e) Wie viele Bits passen auf ein 100 m langes Kabel beim <REMOVED_PERSON_ENTITY> mit 1 Gbit/s (Signalausbreitungsgeschwindigkeit ca. 200000 km/s) ?
+Lösung: 
+a) Dei bei Ethernet verwendete Verfahren CSMACD benötigt eine <REMOVED_PERSON_ENTITY> <NAME_CORPUS_REPLACEMENT> min. 2 tau, um Fehler bei der Übertragung zu erkennen. CD prüft, ob das gesendete Signal = empfangenes Signal. Wenn nicht solange übertragen wird, bis die Nachricht beim Empfänger angekommen ist, könnte eine Kollision nicht "gehört" werden.
+b) ja nach Standard. Bei IEEE802. 3 512kBit
+c) ts=0, 025s
+d)25MBit
+e)500kBit
+TAGGED_CONTENT:

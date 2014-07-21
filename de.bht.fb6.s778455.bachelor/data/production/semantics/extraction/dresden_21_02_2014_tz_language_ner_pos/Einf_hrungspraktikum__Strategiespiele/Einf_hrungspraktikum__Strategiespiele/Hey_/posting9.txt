@@ -1,0 +1,16 @@
+ID: 1537
+CREATION_DATETIME: 1363734000000
+MODIFICATION_DATETIME: 1363734000000
+TITLE: oke dann nehm ich alles zurück.
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+POS_TAG: value:Probleme;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1535
+POSTING_TYPE: comment
+CONTENT:
+oke dann nehm ich alles zurück.
+
+Komisch, dass es trotzdem ohne Probleme geht.
+TAGGED_CONTENT:
+oke_NE dann_ADV nehm_VVFIN ich_PPER alles_PIS zurück_PTKVZ ._$. Komisch_ADJD ,_$, dass_KOUS es_PPER trotzdem_PROAV ohne_APPR Probleme_NN geht_VVFIN ._$. 

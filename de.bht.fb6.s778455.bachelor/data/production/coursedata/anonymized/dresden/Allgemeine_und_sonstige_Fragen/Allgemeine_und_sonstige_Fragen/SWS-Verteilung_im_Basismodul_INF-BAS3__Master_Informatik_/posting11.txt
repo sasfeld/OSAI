@@ -1,0 +1,9 @@
+ID: 741
+CREATION_DATETIME: 1352674800000
+MODIFICATION_DATETIME: 1352674800000
+TITLE: Dann sehe ich da ein Problem mit dem Prüfungsamt, das sich wohl an die Modulbeschreibung halten wird....
+PARENT_POSTING_ID: 728
+POSTING_TYPE: comment
+CONTENT:
+Dann sehe ich <NAME_CORPUS_REPLACEMENT> ein Problem mit dem Prüfungsamt, das sich wohl an die Modulbeschreibung halten wird.
+TAGGED_CONTENT:

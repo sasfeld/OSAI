@@ -1,0 +1,9 @@
+ID: 620
+CREATION_DATETIME: 1351638000000
+MODIFICATION_DATETIME: 1351638000000
+TITLE: Ok now it's working. I made a < 0 check rather then a < size check on the return value of fwrite.
+PARENT_POSTING_ID: 566
+POSTING_TYPE: comment
+CONTENT:
+Ok now it's working. I made a < 0 check rather then a < size check on the return value of fwrite.
+TAGGED_CONTENT:

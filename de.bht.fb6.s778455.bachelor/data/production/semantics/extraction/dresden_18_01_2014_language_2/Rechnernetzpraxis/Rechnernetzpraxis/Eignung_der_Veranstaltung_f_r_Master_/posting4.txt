@@ -1,0 +1,10 @@
+ID: 1663
+CREATION_DATETIME: 1365112800000
+MODIFICATION_DATETIME: 1365112800000
+TITLE: Die Veranstaltung ist auch für den Master geeignet - ich habe es soeben geändert. Danke für den Hinwe...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1659
+POSTING_TYPE: answer
+CONTENT:
+Die Veranstaltung ist auch für den Master geeignet - ich habe es soeben geändert. Danke für den Hinweis!
+TAGGED_CONTENT:

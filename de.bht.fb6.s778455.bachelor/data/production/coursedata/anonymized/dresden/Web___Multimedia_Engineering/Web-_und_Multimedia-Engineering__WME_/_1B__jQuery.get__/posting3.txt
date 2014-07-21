@@ -1,0 +1,9 @@
+ID: 570
+CREATION_DATETIME: 1351465200000
+MODIFICATION_DATETIME: 1351465200000
+TITLE: Du rufst innerhalb von `.each` `meta[0] = id;` auf. Was ist, wenn das allerletzte Element wirklich `u...
+PARENT_POSTING_ID: 568
+POSTING_TYPE: comment
+CONTENT:
+Du rufst innerhalb <NAME_CORPUS_REPLACEMENT> `. each` `meta[0] = id;` auf. Was ist, wenn das allerletzte Element wirklich `undefined` ist? Welchen Wert hat denn dein letztes Element, was du innerhalb der each Schleife ausliest? Denn es wird dir ja nur das letzte Element in `meta[0]` gespeichert.
+TAGGED_CONTENT:

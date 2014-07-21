@@ -1,0 +1,17 @@
+ID: 920
+CREATION_DATETIME: 1354143600000
+MODIFICATION_DATETIME: 1354143600000
+TITLE: Ja ich kann mich erinnern das gelesen zu haben. Aber ich dachte, dass es vielleicht irgendwo eine ver...
+LANGUAGE: GERMAN
+NER_TAG: value:TUD Layouts;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Betreuer;weight:0.0;uri:;postag:NN
+POS_TAG: value:Layouts;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klausel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sache;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hochformat;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 919
+POSTING_TYPE: comment
+CONTENT:
+Ja ich kann mich erinnern das gelesen zu haben. Aber ich dachte, dass es vielleicht irgendwo eine versteckte Klausel gibt, die ich übersehen habe. Sicherlich liegt es am jeweiligen Betreuer, ob er es gut findet. Aber die TUD Layouts, die ich nicht empfehle, sind ja ausschließlich im Hochformat gehalten, weil es ja üblich ist. Aber ich finde es persönlich eben nicht so schön. Aber das ist natürlich eine subjektive Sache.
+TAGGED_CONTENT:
+Ja_PTKANT ich_PPER kann_VMFIN mich_PPER erinnern_VVINF das_ART gelesen_VVPP zu_PTKZU haben_VAINF ._$. Aber_KON ich_PPER dachte_VVFIN ,_$, dass_KOUS es_PPER vielleicht_ADV irgendwo_ADV eine_ART versteckte_ADJA Klausel_NN gibt_VVFIN ,_$, die_PRELS ich_PPER übersehen_VVPP habe_VAFIN ._$. Sicherlich_ADV liegt_VVFIN es_PPER am_APPRART jeweiligen_ADJA Betreuer_NN ,_$, ob_KOUS er_PPER es_PPER gut_ADJD findet_VVFIN ._$. Aber_KON die_ART TUD_NE Layouts_NN ,_$, die_PRELS ich_PPER nicht_PTKNEG empfehle_VVFIN ,_$, sind_VAFIN ja_ADV ausschließlich_ADV im_APPRART Hochformat_NN gehalten_VVPP ,_$, weil_KOUS es_PPER ja_ADV üblich_ADJD ist_VAFIN ._$. Aber_KON ich_PPER finde_VVFIN es_PPER persönlich_ADJD eben_ADV nicht_PTKNEG so_ADV schön_ADJD ._$. Aber_KON das_PDS ist_VAFIN natürlich_ADV eine_ART subjektive_ADJA Sache_NN ._$. 

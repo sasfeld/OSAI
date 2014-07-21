@@ -1,0 +1,31 @@
+ID: 19
+CREATION_DATETIME: 1191766020000
+MODIFICATION_DATETIME: 1191766020000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 18
+CONTENT:
+
+Hallo ,
+
+in der Tat ist das Beispiel in der LE01 nicht unbedingt einleuchtend.
+
+Ich habe in Moodle LE 01 ein Programm TryFloatValueOf.java und ein Screenshot beim Debug hochgeladen.
+
+Die Methode ValueOf der Klasse Float leistet ähnliches wie die Methode parseFloat, die wir Gestern im Seminar gesehen haben.
+
+Es gibt einen BreakPoint in der Zeile:
+
+System.out.println(s + " value :"+ f );
+
+Alle Variablen erscheinen oben rechts (siehe Screenshot). Die Variablen der Zeile mit BreakPoint sind mit Gelb gezeigt.
+
+Wenn man auf dem gruenen Pfeil in der Leiste oben drueckt (siehe Screenshot), laueft das Programm weiter, bis es weider zum BreakPoint kommt. Dann werden alle Werte der Variablen aktualisiert.
+
+
+Ich hoffe, dieses Programm hilft besser Debug zu verstehen.
+
+
+Mit freundlichen Gruessen,
+   
+TAGGED_CONTENT:

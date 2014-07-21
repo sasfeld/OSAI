@@ -1,0 +1,22 @@
+ID: 97801
+CREATION_DATETIME: 1290076105
+MODIFICATION_DATETIME: 1290076105
+TITLE: Quadratische und biquadratische Gleichungen loesen
+PARENT_POSTING_ID: 0
+CONTENT:
+LO 02 S. 68: Diese Gleichungsart loest man mithilfe der pq-Formel nach den Unbekannten auf, d. h. man findet die Zahlwerte, die in die Variable aufgrund der Gleichung reinpassen (andere Zahlwerte erfuellen die Gleichung nicht und sind daher keine Loesungen):
+Quadratisch:
+Sei:
+a * x^2 + b * x + c = 0
+Dann:
+x^2 + p * x + q = 0
+p = b / a
+q = c / a
+x1, x2 = - p/2 +- sqrt( ( p / 2 ) ^ 2 - q )
+Es sind also max. 2 Zahlen als Loesung moeglich. Das +- resultiert daraus, dass eine negative und eine positive <REMOVED_PERSON_ENTITY> gleichen Betrags ins Quadrat genommen dieselbe Zahl ergeben.
+Biquadratisch:
+Sei die Form:
+a * x^4 + b * x^2 + c = 0
+Dann:
+Ersetze (d. h. "substituiere") y=x^2 und loese die Gleichung anhand der pq-Formel oben. Das Ergebnis muss natuerlich rueckersetzt werden und dann hat man das Ergebnis (bis zu vier Zahlen). 
+TAGGED_CONTENT:

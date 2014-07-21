@@ -1,0 +1,21 @@
+ID: 1597
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: hier:
+```ruby
+str_output=bestMove.getCoord();
+		
+		strcpy(&buffer,str_output.c_str());
+		output ...
+PARENT_POSTING_ID: 1590
+POSTING_TYPE: answer
+CONTENT:
+hier:
+```ruby
+		str_output=bestMove. getCoord();
+		strcpy(&buffer, str_output. c_str());
+		output (buffer);
+```
+Fehler dabei: my_player. <LEARNED_PERSON_NAME_REPLACEMENT>:470:36: error: cannot convert ‘char (*)[39]’ to ‘char*’ for argument ‘1’ to ‘char* strcpy(char*, const char*)’
+wenn ich es ohne "&" mache, dann lässt geany mich das zwar compilieren, aber ich bekomme einen leeren buffer am ende heraus.
+TAGGED_CONTENT:

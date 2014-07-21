@@ -1,0 +1,17 @@
+ID: 25
+CREATION_DATETIME: 1286982060000
+MODIFICATION_DATETIME: 1286982060000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 24
+CONTENT:
+
+Hallo ,
+
+Modulo ist der ganzzahlige Rest und hat den Operator %.
+
+10 % 4 = 2 oder 10 % 3 = 1
+
+Gruß 
+  
+TAGGED_CONTENT:

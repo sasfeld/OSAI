@@ -1,0 +1,19 @@
+ID: 85
+CREATION_DATETIME: 1295303700000
+MODIFICATION_DATETIME: 1295303700000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 84
+CONTENT:
+ 
+Danke an  für die Anmerkungen.
+Ihre Tipps helfen mir gut, die Programme zu verbessern.
+
+Als Info für Mitstudenten möchte ich nun den Punkt 3 beantworten:
+
+JMenuItem mit setName() stammt aus der (komplizierteren) Version, die ich bei der Präsenz vorgestellt habe. Sie sind überflüssig.
+Da nun je JMenuItem ein ActionListener als innere Klasse implementiert ist, weiß das Programm schon, welcher Button gedrückt wurde und welches JPanel im CardLayout gezeigt werden soll.
+
+Auf Anfrage (bsw. Studenten) gebe ich die aktualisierte Version weiter.
+    
+TAGGED_CONTENT:

@@ -1,0 +1,4 @@
+ID: 4
+TITLE: Gründung einer Mailingliste
+LANGUAGE: GERMAN
+FIRST_POSTING_ID: 13

@@ -1,0 +1,48 @@
+ID: 23
+CREATION_DATETIME: 1304534640000
+MODIFICATION_DATETIME: 1304534640000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 22
+CONTENT:
+ 
+HILFEEE!
+
+Guten Tag liebe Leserunde,
+
+Aufgabe LE09-1(2 hab ich schon gelöst- nur das ihr nicht denkt ich bin völlig gaga :-) ) raubt mir den letzten Nerv. Ich komme nicht weiter und hoffe ihr könnt mir helfen.
+
+Ich habe bisher eine normale Klasse angelegt und eine Methode getWert angelegt.
+Dorthinein habe ich den Beispieltext kopiert und eine main-Methode angehängt und erstmal das Ganze getestet. Doch da geht es schon los.
+
+public double getWert(){
+double wert = Konsole.getInputDouble("Wert:");
+
+cannot find symbol
+symbol: variable Konsole
+location: class Messwertanalyse
+
+double wert = Konsole.getInputDouble("Wert");
+
+1 error
+
+Ich hatte damals die Entwicklungsumgebung gemäß LE04 eingerichtet.
+Mein Verzeichnis: c:\ java_bsp\vfh\prog1\bib
+
+
+Was kann ich tun?
+Irgendwie fehlt mir absolut der Ansatzpunkt diese Aufgabe anzugehen.
+
+Ich deklariere doch sicherlich eine Methode, wie oben genannt, in der ich eine Eingabe Einlese. Sicherlich fordere ich vorher per Bildschirmausgabe eine Eingabe an.
+Diese Eingabe "Wert" wird dann über die switch-Anweisung verglichen. Also
+Wert= Sollwert alles prima
+Wert<= Toleranz alles okay
+Wert>= Toleranz nicht okay
+
+Wo würde ich die Soll- und Toleranzwerte bestimmen.
+
+Seid ihr beruftätig? Also nach Feierabend solche Dinger zu wuppen fällt mir ehrlich gesagt recht schwer.
+
+Beste Grüße, 
+   
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 1393
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Mit Hilfe von grep kannst du in den Logs auch nach bestimmtem Text suchen.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1392
+POSTING_TYPE: comment
+CONTENT:
+Mit Hilfe <NAME_CORPUS_REPLACEMENT> grep kannst du in den Logs auch nach bestimmtem Text suchen.
+
+    man grep
+
+gibt dir eine gute Uebersicht ueber das was grep so kann.
+TAGGED_CONTENT:

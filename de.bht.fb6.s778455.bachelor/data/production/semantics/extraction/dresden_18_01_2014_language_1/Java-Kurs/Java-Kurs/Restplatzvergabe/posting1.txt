@@ -1,0 +1,28 @@
+ID: 2690
+CREATION_DATETIME: 1383260400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Es waren nicht alle zum Kick-off, darum sind noch Plätze zu besetzen.  
+
+## Regeln ##
+
+Restplatzaquise per Mail an [mich](mailto:fredo@ifsr. de).  
+
+Der Nachrang der Warteliste ist aufgehoben, es gilt der Zeitstempel der Mail.  
+
+Dieses Anouncement wird immer up-to-date gehalten, sobald ich Plätze vergebe.  
+
+Die Platzvergabe wird durch eine Mail <NAME_CORPUS_REPLACEMENT> mir bestätigt.
+
+## Freie Plätze ##
+
+* Mittwoch, 1. DS - 6 Plätze
+
+* Mittwoch, 3. DS - 5 Plätze
+
+* Donnerstag, 4. DS - 3 Plätze
+TAGGED_CONTENT:

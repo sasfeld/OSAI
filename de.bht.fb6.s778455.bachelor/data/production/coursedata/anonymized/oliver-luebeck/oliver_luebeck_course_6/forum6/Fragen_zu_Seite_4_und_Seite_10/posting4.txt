@@ -1,0 +1,26 @@
+ID: 15
+CREATION_DATETIME: 1286741700000
+MODIFICATION_DATETIME: 1286741700000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 14
+CONTENT:
+
+Hallo,
+
+Zur Exception: Das ist der Quellcode von Seite 4, den ich eingebe.
+Bekommt Ihr denn damit keine Exception?
+
+Frage 2 ist geklärt, habe verstanden.
+Dankeschön.
+ 
+Ursprungsbeitrag | Bearbeiten | Thema teilen | Löschen | Antwort
+Nutzerbild Student6
+Re: Fragen zu Seite 4 und Seite 10
+von Student6 - Sonntag, 10. Oktober 2010, 23:25
+ 
+Habe ich jetzt auch bemerkt - Ist schon spät |-.
+
+Mein Programm lässt sich mit exakt diesem Quellcode fehlerfrei ausführen :-/
+    
+TAGGED_CONTENT:

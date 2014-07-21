@@ -1,0 +1,12 @@
+ID: 176167
+CREATION_DATETIME: 1351687204
+MODIFICATION_DATETIME: 1351687204
+TITLE: Re: Gruppen für die Einsendeaufgaben
+TOPIC_ZOOM_TAG: value:Jahr 2012;weight:1.0;significance:5.92522431462997;degreegeneralization:11;uri:20891175
+POS_TAG: value:November;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abgabetermin;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 176143
+CONTENT:
+Letzter Abgabetermin für Gruppenaufgaben_1 ist der 08. November 2012.
+TAGGED_CONTENT:
+Letzter_ADJA Abgabetermin_NN für_APPR Gruppenaufgaben_1_NN ist_VAFIN der_ART 08_CARD ._$. November_NN 2012_CARD ._$. 

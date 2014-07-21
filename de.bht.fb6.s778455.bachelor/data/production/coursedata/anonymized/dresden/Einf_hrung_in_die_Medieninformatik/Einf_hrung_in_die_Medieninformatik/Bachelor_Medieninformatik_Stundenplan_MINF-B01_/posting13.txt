@@ -1,0 +1,12 @@
+ID: 221
+CREATION_DATETIME: 1349647200000
+MODIFICATION_DATETIME: 1349647200000
+TITLE: - [Einführung Mathema
+PARENT_POSTING_ID: 201
+POSTING_TYPE: comment
+CONTENT:
+- [Einführung Mathematik für Informatiker](http://www.math.tu-dresden. de/%7Enoack/DS/DSLA2012. html) - Übungen beginnen in der 2. Woche (steht rot auf der Seite ;)
+- [Algorithmen und Datenstrukturen](http://www.inf.tu-dresden. de/index. php?node_id=3228&ln=de) - 15. 10. 2012, <REMOVED_PERSON_ENTITY>
+- [Einführung in die Medieninformatik](http://www.inf.tu-dresden. de/index. php?node_id=2523&ln=de) - 12. 10. 2012, erste Vorlesung
+/edit: Aber stellt bitte die Fragen zu den jeweiligen Kursen in Zukunft bitte auf den jeweiligen Kursseiten hier auf auditorium :) Falls die Kurse noch nicht existieren, könnt ihr sie gern vorschlagen und anlegen.
+TAGGED_CONTENT:

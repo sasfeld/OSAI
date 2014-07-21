@@ -1,0 +1,11 @@
+ID: 80
+CREATION_DATETIME: 1194691440000
+MODIFICATION_DATETIME: 1194691440000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 79
+CONTENT:
+ 
+also ich habe nun von Eclipse eine serialVersionUID generieren lassen und als private static final long in den Source Code eingesetzt. 
+    
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 585
+CREATION_DATETIME: 1351465200000
+MODIFICATION_DATETIME: 1351551600000
+TITLE: Das $-Zeichen brauchst du nur wenn du `$.` oder `$(...)`, aber nicht für von dir definierte Variablen...
+PARENT_POSTING_ID: 568
+POSTING_TYPE: comment
+CONTENT:
+Das $-Zeichen brauchst du nur wenn du `$.` oder `$(...)`, aber nicht für <NAME_CORPUS_REPLACEMENT> dir definierte Variablen. Das ist ja kein PHP. Ich schau mir dein Problem gleich noch an.
+TAGGED_CONTENT:

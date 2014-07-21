@@ -1,0 +1,13 @@
+ID: 29
+CREATION_DATETIME: 1176801420000
+MODIFICATION_DATETIME: 1176801420000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 27
+CONTENT:
+
+   auf meinem mac kann man unter application/dienstprogramme/java das tool "Java-Einstellungen" starten und dann unter allgemein die java version einstellen die man benutzen will. in diesem fall j2se 5.0 (32bit).
+bisschen spät vil...
+
+    
+TAGGED_CONTENT:

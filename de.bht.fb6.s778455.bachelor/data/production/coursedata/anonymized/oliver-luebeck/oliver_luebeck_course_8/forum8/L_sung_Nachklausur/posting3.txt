@@ -1,0 +1,18 @@
+ID: 10
+CREATION_DATETIME: 1192193760000
+MODIFICATION_DATETIME: 1192193760000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 9
+CONTENT:
+ 
+Sehr geehrter ,
+
+ich habe mich an der einen und anderen Aufgabe probiert, manche Aufgaben habe ich gar nicht verstanden!
+ich wollte einfach sehen, ob meine Lösungen stimmen bzw anhand der Lösungen von den Aufgaben, die ich gar nicht verstanden habe, die Aufgabe erst mal verstehen.
+
+Ich kann meine Lösungen ja mal posten.
+
+MfG
+     
+TAGGED_CONTENT:

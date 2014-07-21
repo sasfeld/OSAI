@@ -1,0 +1,12 @@
+ID: 115382
+CREATION_DATETIME: 1319987386
+MODIFICATION_DATETIME: 1319987386
+TITLE: Re: Kapitel 2.4 - Aufgabe 2
+PARENT_POSTING_ID: 115381
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+meine Herangehensweise wäre hier nicht mit Wahrheitstafeln:
+Überlegen Sie sich die Konsequenzen, wenn eine Person die Wahrheit sagt (Teilfrage 1). Wer war es dann? Das kann man natürlich auch jeweils mit aussagenlogischen Symbolen und Junktoren darstellen. Dann kann man in einem zweiten Schritt überlegen, wie die 4 Konsequenzen zusammenpassen. Es ergibt sich dann, dass es nur eine Möglichkeit gibt, dass eine Person die Wahrheit sagt und entsprechend die anderen Personen gelogen haben. Bei den anderen drei Möglichkeiten ergibt sich ein Widerspruch. Teilfrage 2 ist analog zu lösen.
+Ich hoffe, das ist einigermaßen verständlich 
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 38
+CREATION_DATETIME: 1287580320000
+MODIFICATION_DATETIME: 1287580320000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo 
+Ich habe mir eben einen persönlichen Plan erstellt und da ist mir aufgefallen, dass die ESA LE12 am 15.11.2010 abgegeben werden soll, vor den den anderen LEs. Ist das richtig so? Sollen wir die LE12 tatsächlich vorziehen?
+
+Schöne Grüße
+	
+TAGGED_CONTENT:

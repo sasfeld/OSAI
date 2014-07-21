@@ -1,0 +1,12 @@
+ID: 117580
+CREATION_DATETIME: 1319654327
+MODIFICATION_DATETIME: 1319654327
+TITLE: Chat-Aufgabe
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=43913#117580
+POS_TAG: value:Anhang;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+s. Anhang.
+TAGGED_CONTENT:
+s._VVIMP Anhang_NN ._$. 

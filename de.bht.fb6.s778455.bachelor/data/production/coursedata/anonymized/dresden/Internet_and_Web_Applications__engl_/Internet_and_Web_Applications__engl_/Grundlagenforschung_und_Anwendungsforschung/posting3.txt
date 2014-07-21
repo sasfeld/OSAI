@@ -1,0 +1,11 @@
+ID: 1727
+CREATION_DATETIME: 1365976800000
+MODIFICATION_DATETIME: 1365976800000
+TITLE: Das Profilmodul "Forschungsprojekt Anwendung" INF-PM-FPA setzt die Absolvierung des Profilmoduls "Anw...
+PARENT_POSTING_ID: 1690
+POSTING_TYPE: answer
+CONTENT:
+Das Profilmodul "Forschungsprojekt Anwendung" INF-PM-FPA setzt die Absolvierung des Profilmoduls "Anwendungsforschung" INF-PM-ANW voraus. Daher kontaktieren Sie bei Interesse an Themen der Professur bitte den jeweiligen Mitarbeiter bzgl. einer <REMOVED_PERSON_ENTITY> der Projektarbeiten im Modul INF-PM-FPA, bevor Sie Entscheidungen zum Besuch <NAME_CORPUS_REPLACEMENT> Lehrveranstaltungen das Modul INF-PM-ANW treffen. Ihr jeweiliger Betreuer wird Sie gern beraten, welche Lehrveranstaltungen vorbereitend auf die Projektarbeiten im Modul INF-PM-FPA erforderlich sind.
+Eine Auswahl an Themen, die für dieses Modul angeboten bzw. die für dieses Modul angepasst werden können, finden Sie auch auf der Webseite der Professur unter STUDIUM/Studentische Arbeiten/Themenangebote.
+Die meisten Themenangebote gehören somit aber zur "Anwendungsforschung".
+TAGGED_CONTENT:

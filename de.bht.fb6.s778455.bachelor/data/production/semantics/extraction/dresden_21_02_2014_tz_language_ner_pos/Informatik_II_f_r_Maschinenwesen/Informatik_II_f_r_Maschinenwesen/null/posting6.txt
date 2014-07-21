@@ -1,0 +1,76 @@
+ID: 2496
+CREATION_DATETIME: 1375653600000
+MODIFICATION_DATETIME: 1375912800000
+TITLE: Da die andere Antwort einige Fehler enthaelt hier nochmal eine Richtigstellung:
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Vererbung;weight:1.0;significance:5.0718000788862;degreegeneralization:6;uri:20915604
+TOPIC_ZOOM_TAG: value:Schnittstellen;weight:1.0;significance:4.19553070084881;degreegeneralization:6;uri:20896088
+TOPIC_ZOOM_TAG: value:Kommunikationstechnik;weight:1.0;significance:2.85914650737003;degreegeneralization:5;uri:20897125
+TOPIC_ZOOM_TAG: value:Biologie;weight:1.0;significance:2.6497065356569;degreegeneralization:5;uri:21976625
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:2.23699226098339;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.83083484620539;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:1.75110858232764;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:1.16884339240287;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+NER_TAG: value:Java;weight:-1.0;uri:;classifierlabel:I-LOC
+POS_TAG: value:Antwort;weight:0.0;uri:;postag:NN
+POS_TAG: value:A;weight:0.0;uri:;postag:NN
+POS_TAG: value:Entwurfsklassendiagramm;weight:0.0;uri:;postag:NN
+POS_TAG: value:Map;weight:0.0;uri:;postag:NN
+POS_TAG: value:B;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klasse;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aggregation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klassen;weight:0.0;uri:;postag:NN
+POS_TAG: value:m;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Interface;weight:0.0;uri:;postag:NN
+POS_TAG: value:Komposition;weight:0.0;uri:;postag:NN
+POS_TAG: value:Assoziation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Richtigstellung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Set;weight:0.0;uri:;postag:NN
+POS_TAG: value:Attribut;weight:0.0;uri:;postag:NN
+POS_TAG: value:Liste;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vererbung;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2491
+POSTING_TYPE: answer
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> die andere Antwort einige Fehler enthaelt hier nochmal eine Richtigstellung:
+
+ * Vererbung: Wenn Klasse A <NAME_CORPUS_REPLACEMENT> Klasse B erbt:
+
+```java
+
+public class A extends B {
+
+    ...
+
+}
+
+```
+
+ * Wenn B ein *Interface* ist, Klasse A also ein Interface implementiert:
+
+```java
+
+public class A implements B {
+
+    ...
+
+}
+
+```
+
+ * Assoziation, bei 1:1 hast du ein Attribut des jeweils Anderen in der Klasse (ungerichtet). Bzw. nur der einen Klasse (bei gerichteter Assoziation)
+
+ * Assoziation bei 1:n hast du ein Set, eine Liste oder eine Map (das wird meist aus einem Entwurfsklassendiagramm klar, muss aber nicht) in einer der <REMOVED_PERSON_ENTITY> und ein einfaches Attribut in der Anderen
+
+ * Assoziation bei n:m hast du in beiden Klassen ein Set, eine Liste oder eine Map
+
+ * Aggregation, Komposition gibt es in Java so nicht direkt <NAME_CORPUS_REPLACEMENT> daher kannst du das genauso umsetzen, wie eine Assoziation.
+TAGGED_CONTENT:
+<_XY NAME_CORPUS_REPLACEMENT_NN >_VVFIN die_ART andere_ADJA Antwort_NN einige_PIAT Fehler_NN enthaelt_VVFIN hier_ADV nochmal_ADV eine_ART Richtigstellung_NN :_$. \*_CARD Vererbung_NN :_$. Wenn_KOUS Klasse_NN A_NN <_CARD NAME_CORPUS_REPLACEMENT_NN >_CARD Klasse_NN B_NN erbt_VVFIN :_$. ``_CARD `_XY java_FM public_FM class_FM A_FM extends_FM B_NN -LCB-_TRUNC ..._$( -RCB-_TRUNC ``_KON `_XY \*_CARD Wenn_KOUS B_NN ein_ART \*_ADJA Interface_NE \*_NE ist_VAFIN ,_$, Klasse_NN A_NN also_ADV ein_ART Interface_NN implementiert_VVPP :_$. ``_CARD `_XY java_FM public_FM class_FM A_NN implements_ADV B_NN -LCB-_TRUNC ..._$( -RCB-_TRUNC ``_KON `_XY \*_CARD Assoziation_NN ,_$, bei_APPR 1_CARD ,_$, 1_CARD hast_VAFIN du_PPER ein_ART Attribut_NN des_ART jeweils_ADV Anderen_PIS in_APPR der_ART Klasse_NN -LRB-_TRUNC ungerichtet_KON -RRB-_TRUNC ._$. Bzw_NE ._$. nur_ADV der_ART einen_ART Klasse_NN -LRB-_TRUNC bei_APPR gerichteter_ADJA Assoziation_NN -RRB-_TRUNC \*_CARD Assoziation_NN bei_APPR 1_CARD ,_$, n_XY hast_VAFIN du_PPER ein_ART Set_NN ,_$, eine_ART Liste_NN oder_KON eine_ART Map_NN -LRB-_TRUNC das_PDS wird_VAFIN meist_ADV aus_APPR einem_ART Entwurfsklassendiagramm_NN klar_ADJD ,_$, muss_VMFIN aber_ADV nicht_PTKNEG -RRB-_TRUNC in_APPR einer_PIS der_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN und_KON ein_ART einfaches_ADJA Attribut_NN in_APPR der_ART Anderen_PIS \*_VVFIN Assoziation_NN bei_APPR n_XY ,_$, m_NN hast_VAFIN du_PPER in_APPR beiden_PIDAT Klassen_NN ein_ART Set_NN ,_$, eine_ART Liste_NN oder_KON eine_ART Map_NN \*_CARD Aggregation_NN ,_$, Komposition_NN gibt_VVFIN es_PPER in_APPR Java_NE so_ADV nicht_PTKNEG direkt_ADJD <_VVFIN NAME_CORPUS_REPLACEMENT_NE >_NE daher_PROAV kannst_VMFIN du_PPER das_ART genauso_ADV umsetzen_VVINF ,_$, wie_PWAV eine_ART Assoziation_NN ._$. 

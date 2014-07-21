@@ -1,0 +1,15 @@
+ID: 116464
+CREATION_DATETIME: 1319116821
+MODIFICATION_DATETIME: 1319116854
+TITLE: Re: Fallunterscheidung bei Ungleichungen mit zwei Brüchen
+TOPIC_ZOOM_TAG: value:Ungleichungen;weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:20806277
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Jahr 2011;weight:1.0;significance:5.98953636084867;degreegeneralization:11;uri:20891192
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 116463
+CONTENT:
+ Vielen Dank für Eure Antworten. Insbesondere Deine, <REMOVED_PERSON_ENTITY>, finde ich sehr anschaulich. Wie ich mittlerweile festgestellt habe, rührte ein Teil meiner Verunsicherung aus dem unterschiedlichen Vorgehen bei der Fallunterscheidung im Rahmen von Betragsungleichungen (mit Beträgen im Zähler und/oder Nenner) und dem Vorgehen bei Ungleichungen, wie Sie uns beispielsweise mit der Gruppenaufgabe e) begegnet. Spätestens mit der Probeklausur werde ich feststellen, ob ich es nun wirklich anwenden kann. Nicht vorenthalten möchte ich Euch die Antwort, die mir Herr <REMOVED_PERSON_ENTITY> direkt zugesandt hat, da sie mich zumindest beruhigt hat:Am 19. 10. 2011 um 16:02 schrieb Herr <REMOVED_PERSON_ENTITY>:Hallo Herr <REMOVED_PERSON_ENTITY>, generell gibt keine weiteren besonderen Regeln über die in der Präsenz behandelten hinausgehend. In diesem Fall - Ungl. mit <REMOVED_PERSON_ENTITY> - ergibt sich <REMOVED_PERSON_ENTITY>, wenn bei einer Multiplikation mit einem Ausdruck dessen Vorzeichen unklar ist. D. h. wir müssen &quot;nur&quot; vier Fälle bzgl. der Multiplikation mit den Nennern unterscheiden. MfG <REMOVED_PERSON_ENTITY>  
+TAGGED_CONTENT:

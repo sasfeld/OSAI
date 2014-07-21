@@ -1,0 +1,9 @@
+ID: 1003
+CREATION_DATETIME: 1356044400000
+MODIFICATION_DATETIME: 1356044400000
+TITLE: Soweit ich weiß, gab es inzwischen einen Fakultätsrat. Da ich online überhaupt keine Informationen ge...
+PARENT_POSTING_ID: 728
+POSTING_TYPE: comment
+CONTENT:
+Soweit ich weiß, gab es inzwischen einen Fakultätsrat. <NAME_CORPUS_REPLACEMENT> ich online überhaupt keine Informationen gefunden habe, welche Themen dort besprochen wurden und zu welchen Erkenntnissen/Beschlüssen/Lösungen er gekommen ist, frage ich hier nochmal nach, was denn dabei nun rausgekommen ist bzw. wo das zu finden ist.
+TAGGED_CONTENT:

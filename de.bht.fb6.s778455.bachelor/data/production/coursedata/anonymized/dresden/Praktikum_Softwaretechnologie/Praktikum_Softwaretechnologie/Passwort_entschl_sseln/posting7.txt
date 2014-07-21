@@ -1,0 +1,15 @@
+ID: 3041
+CREATION_DATETIME: 1385593200000
+MODIFICATION_DATETIME: 1385593200000
+TITLE: Wie Paul meint:
+Hier liegt noch ein Problem: 
+`System.out.println("Passwortvergleich: " + Account.g...
+PARENT_POSTING_ID: 3036
+POSTING_TYPE: comment
+CONTENT:
+Wie <REMOVED_PERSON_ENTITY> meint, hier liegt noch ein Problem: 
+```java
+System. out. println("Passwortvergleich: " + Account. getPassword(). equals(new Password("123"))
+```
+Vor `new Password('123')` fehlt noch die Verschlüsselungsmethode, sonst wirst du immer `false` erhalten, <NAME_CORPUS_REPLACEMENT> du ja versuchst das unverschlüsselte mit dem verschlüsselten aus der Datenbank zu vergleichen. 
+TAGGED_CONTENT:

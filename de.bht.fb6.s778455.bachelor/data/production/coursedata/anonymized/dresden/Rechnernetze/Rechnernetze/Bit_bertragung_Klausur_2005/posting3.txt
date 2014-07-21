@@ -1,0 +1,16 @@
+ID: 2470
+CREATION_DATETIME: 1374703200000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: Das heißt
+5*2 ohne Sicherheitsabstand, aber wegen größer +1 also 11
+5.5*2 mit Sicherheitsabstand, a...
+PARENT_POSTING_ID: 2463
+POSTING_TYPE: comment
+CONTENT:
+Das heißt  
+5*2 ohne Sicherheitsabstand, aber wegen größer +1 also 11  
+5. 5*2 mit Sicherheitsabstand, aber wegen größer +1, also 12  
+Also hab ich 115/11 = 10 ohne Sicherheitsabstand und 115/12=9 mit?  
+b < 2*11*10 und b < 2*12*10?  
+wären es 220 Mbit pro <REMOVED_PERSON_ENTITY> und alles hätte 2 *115*ld(2) (falls Binärkanal)=230Mbit => 1 <REMOVED_PERSON_ENTITY>?
+TAGGED_CONTENT:

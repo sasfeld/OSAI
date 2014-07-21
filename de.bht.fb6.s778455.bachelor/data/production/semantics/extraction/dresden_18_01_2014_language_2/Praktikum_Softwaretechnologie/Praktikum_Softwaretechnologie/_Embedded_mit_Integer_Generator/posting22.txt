@@ -1,0 +1,10 @@
+ID: 3082
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: Ist dein ID Interface leer? Wieso brauchst du für alle Ids ein gemeinsames Interface? Vielleicht ist ...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 3071
+POSTING_TYPE: comment
+CONTENT:
+Ist dein ID Interface leer? Wieso brauchst du für alle Ids ein gemeinsames Interface? Vielleicht ist das schon der falsche Ansatz.
+TAGGED_CONTENT:

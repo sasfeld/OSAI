@@ -1,0 +1,21 @@
+ID: 168191
+CREATION_DATETIME: 1349699134
+MODIFICATION_DATETIME: 1349699134
+TITLE: Übungsaufgaben
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Internet;weight:3.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:3.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:3.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:3.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:Unterlagen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Probeaufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:rungsbedarf;weight:0.0;uri:;postag:NN
+POS_TAG: value:Meeting;weight:0.0;uri:;postag:NN
+POS_TAG: value:Detailfragen;weight:0.0;uri:;postag:NN
+POS_TAG: value:bungsaufgaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Ich denke mal, dass nach dem letzten Online-Meeting und den uns nun vorliegenden Übungsaufgaben, noch ausreichend Klärungsbedarf besteht. Irgendwie liegt zwischen der Probeaufgabe und den Übungsaufgaben eine <REMOVED_PERSON_ENTITY> die mir in den Online-Unterlagen und im Online-Meeting fehlt, soll heißen, da bestehen noch viele Detailfragen.
+TAGGED_CONTENT:
+Ich_PPER denke_VVFIN mal_ADV ,_$, dass_KOUS nach_APPR dem_ART letzten_ADJA Online-Meeting_NN und_KON den_ART uns_PPER nun_ADV vorliegenden_ADJA Übungsaufgaben_NN ,_$, noch_ADV ausreichend_ADJD Klärungsbedarf_NN besteht_VVFIN ._$. Irgendwie_ADV liegt_VVFIN zwischen_APPR der_ART Probeaufgabe_NN und_KON den_ART Übungsaufgaben_NN eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN die_ART mir_PPER in_APPR den_ART Online-Unterlagen_NN und_KON im_APPRART Online-Meeting_NN fehlt_VVFIN ,_$, soll_VMFIN heißen_VVINF ,_$, da_ADV bestehen_VVFIN noch_ADV viele_PIDAT Detailfragen_NN ._$. 

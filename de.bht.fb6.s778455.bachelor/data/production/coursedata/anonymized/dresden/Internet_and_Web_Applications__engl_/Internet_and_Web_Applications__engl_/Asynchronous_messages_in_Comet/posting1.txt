@@ -1,0 +1,9 @@
+ID: 1762
+CREATION_DATETIME: 1366927200000
+MODIFICATION_DATETIME: 1384729200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+There was a question how the transfer of asynchronous messages from the web server to the web client really works in detail via http.
+TAGGED_CONTENT:

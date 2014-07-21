@@ -1,0 +1,37 @@
+ID: 97794
+CREATION_DATETIME: 1288818037
+MODIFICATION_DATETIME: 1288818037
+TITLE: Ergaenzung: LO02 S. 27 Umwandlung sofortperiodischer Dezimalbruch...
+LANGUAGE: GERMAN
+POS_TAG: value:Zaehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bruchs;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nachkommastelle;weight:0.0;uri:;postag:NN
+POS_TAG: value:Probe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nachkommaanteil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gleichung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wertigkeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bruch;weight:0.0;uri:;postag:NN
+POS_TAG: value:Periode;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zahl;weight:0.0;uri:;postag:NN
+POS_TAG: value:B.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Term;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97793
+CONTENT:
+... in gemeiner Bruch:
+Wir nehmen z. B. die Zahl 1, 636363...
+Die Periode endet an der zweiten Nachkommastelle und wiederholt sich danach. Die zweite Nachkommastelle hat die Wertigkeit 10^-2. 
+(Gleichung 1) 10^2 * 1, 6363... = 163, 6363...
+Diese <REMOVED_PERSON_ENTITY> wird benutzt, um den Zaehler des gemeinen Bruchs zu bestimmen.
+Als naechstes wollen wir den periodischen Nachkommaanteil loswerden. Wir subtrahieren daher vom o. g. Term den Nachkommaanteil:
+-1 * 1, 6363... = -1, 6363...
+(aus Gleichung 1) 163, 6363... -1, 6363... = 162
+auf der linken <REMOVED_PERSON_ENTITY> entsteht dadurch:
+100 * 1, 6363... - 1 * 1, 6363... = 99 * 1, 6363...
+Wir setzen gleich:
+99 * 1, 6363... = 162
+und loesen zur linken <REMOVED_PERSON_ENTITY> auf:
+1, 6363... = 162 / 99
+Wir machen die Probe und 162 : 99 ergibt: 1, 6363...
+Fertig.
+TAGGED_CONTENT:
+..._$( in_APPR gemeiner_ADJA Bruch_NN :_$. Wir_PPER nehmen_VVFIN z._APPRART B._NN die_ART Zahl_NN 1_CARD ,_$, 636363_CARD ..._$( Die_ART Periode_NN endet_VVFIN an_APPR der_ART zweiten_ADJA Nachkommastelle_NN und_KON wiederholt_ADJD sich_PRF danach_PROAV ._$. Die_ART zweite_ADJA Nachkommastelle_NN hat_VAFIN die_ART Wertigkeit_NN 10_CARD ^_XY -2_CARD ._$. -LRB-_TRUNC Gleichung_NN 1_CARD -RRB-_TRUNC 10_CARD ^_XY 2_CARD \*_XY 1_CARD ,_$, 6363_CARD ..._$( =_XY 163_CARD ,_$, 6363_CARD ..._$( Diese_PDAT <_NN REMOVED_PERSON_ENTITY_NE >_NE wird_VAFIN benutzt_VVPP ,_$, um_KOUI den_ART Zaehler_NN des_ART gemeinen_ADJA Bruchs_NN zu_PTKZU bestimmen_VVINF ._$. Als_APPR naechstes_ADJA wollen_VMFIN wir_PPER den_ART periodischen_ADJA Nachkommaanteil_NN loswerden_VVINF ._$. Wir_PPER subtrahieren_VVFIN daher_PROAV vom_APPRART o._ADJA g._ADJA Term_NN den_ART Nachkommaanteil_NN :_$. -1_CARD \*_XY 1_CARD ,_$, 6363_CARD ..._$( =_XY -1_CARD ,_$, 6363_CARD ..._$( -LRB-_TRUNC aus_APPR Gleichung_NN 1_CARD -RRB-_TRUNC 163_CARD ,_$, 6363_CARD ..._$( -1_CARD ,_$, 6363_CARD ..._$( =_XY 162_CARD auf_APPR der_ART linken_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_CARD entsteht_VVFIN dadurch_PROAV :_$. 100_CARD \*_XY 1_CARD ,_$, 6363_CARD ..._$( -_$( 1_CARD \*_CARD 1_CARD ,_$, 6363_CARD ..._$( =_XY 99_CARD \*_XY 1_CARD ,_$, 6363_CARD ..._$( Wir_PPER setzen_VVFIN gleich_ADV :_$. 99_CARD \*_XY 1_CARD ,_$, 6363_CARD ..._$( =_XY 162_CARD und_KON loesen_VVFIN zur_APPRART linken_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_CARD auf_PTKVZ :_$. 1_CARD ,_$, 6363_CARD ..._$( =_XY 162_CARD \/_CARD 99_CARD Wir_PPER machen_VVFIN die_ART Probe_NN und_KON 162_CARD :_$. 99_CARD ergibt_VVFIN :_$. 1_CARD ,_$, 6363_CARD ..._$( Fertig_ADJD ._$. 

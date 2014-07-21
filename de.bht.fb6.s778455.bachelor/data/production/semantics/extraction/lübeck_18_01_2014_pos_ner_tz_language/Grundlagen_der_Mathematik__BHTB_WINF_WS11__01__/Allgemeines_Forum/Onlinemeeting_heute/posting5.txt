@@ -1,0 +1,14 @@
+ID: 116459
+CREATION_DATETIME: 1326903932
+MODIFICATION_DATETIME: 1326903932
+TITLE: Re: Onlinemeeting heute
+LANGUAGE: GERMAN
+NER_TAG: value:LG;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:LG;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:LG;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 116456
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>, also ich habe mir aufgeschrieben das erst am 25. 01. wieder <REMOVED_PERSON_ENTITY> ist. LG <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE ,_$, also_ADV ich_PPER habe_VAFIN mir_PPER aufgeschrieben_VVPP das_ART erst_ADV am_APPRART 25_CARD ._$. 01_CARD ._$. wieder_ADV <_CARD REMOVED_PERSON_ENTITY_NN >_ADJD ist_VAFIN ._$. LG_NN <_VVFIN REMOVED_PERSON_ENTITY_NE >_XY 

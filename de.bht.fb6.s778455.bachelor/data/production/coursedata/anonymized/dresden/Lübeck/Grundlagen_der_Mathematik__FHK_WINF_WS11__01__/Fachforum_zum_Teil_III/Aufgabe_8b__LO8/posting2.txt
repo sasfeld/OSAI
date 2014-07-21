@@ -1,0 +1,11 @@
+ID: 115385
+CREATION_DATETIME: 1323527693
+MODIFICATION_DATETIME: 1323527693
+TITLE: Re: Aufgabe 8b, LO8
+PARENT_POSTING_ID: 115384
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+ich habe leider nicht ganz verstanden was Sie meinen.... Zur Erklärung derAufgabe: Zunächst müssen Sie das Vektorprodukt d = |b x c| und den Betrag des Vektorprodukts (= wurzel(13)) berechnen. Der Vektor d, also das Vektorprodukt aus b und c steht (per Definition) senkrecht auf den Vektoren b und c. Jetzt muss nur noch die Konstante vor dem Vektor d ermittelt werden, so dass der Betrag des Vektors nicht wurzel(13), sondern 2 beträgt. Deshalb wird der Vektor mit +- 2/wurzel(13) multipliziert.
+Viele Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1629
+CREATION_DATETIME: 1364252400000
+MODIFICATION_DATETIME: 1364252400000
+TITLE: Also wenn die Studenten in den Genuss der s-Nummern-Anmeldung kommen, dann bitte auch Mitarbeiter-Log...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1625
+POSTING_TYPE: comment
+CONTENT:
+Also wenn die Studenten in den Genuss der s-Nummern-Anmeldung kommen, dann bitte auch Mitarbeiter-Logins zulassen. ;-)
+TAGGED_CONTENT:

@@ -1,0 +1,11 @@
+ID: 184373
+CREATION_DATETIME: 1354386089
+MODIFICATION_DATETIME: 1354386089
+TITLE: Re: @Prof. Sander: Mischkurs?
+PARENT_POSTING_ID: 184343
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+leider ist eine Freigabe des Forums außerhalb des Kurses im Moodle als Option nicht vorgesehen - auch wenn ich es gerne gemacht hätte. Nächstes Jahr werden wir einen echten Mischkurs anlegen, wo alle in einen Kurs gebucht werden. Dies ist aber nun nachträglich nicht mehr möglich. 
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

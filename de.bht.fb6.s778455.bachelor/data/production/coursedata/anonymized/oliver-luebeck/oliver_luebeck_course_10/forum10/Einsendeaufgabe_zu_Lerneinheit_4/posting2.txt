@@ -1,0 +1,11 @@
+ID: 8
+CREATION_DATETIME: 1192559520000
+MODIFICATION_DATETIME: 1192559520000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 7
+CONTENT:
+
+hab meine fehler schon gefunden, ich habe nämlich zur überprüfung eine auflstung gemacht und hab vergessen die neu als array (um sie auf dem bildschirm auszugeben) initialisieren zu lassen es wurde dauernd die alte liste ausgegeben
+  
+TAGGED_CONTENT:

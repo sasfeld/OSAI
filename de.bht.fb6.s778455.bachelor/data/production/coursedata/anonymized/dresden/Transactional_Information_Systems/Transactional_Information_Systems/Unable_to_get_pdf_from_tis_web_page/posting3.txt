@@ -1,0 +1,9 @@
+ID: 1048
+CREATION_DATETIME: 1358290800000
+MODIFICATION_DATETIME: 1358290800000
+TITLE: Thanks, it works. I'm in dormitory now and it worked for a long time before for me. 
+PARENT_POSTING_ID: 1047
+POSTING_TYPE: comment
+CONTENT:
+Thanks, it works. But I'm in dormitory now and it worked for a long time before for me without. 
+TAGGED_CONTENT:

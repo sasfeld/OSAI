@@ -1,0 +1,9 @@
+ID: 2034
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: Ich glaube ich habe jetzt verstanden was du meinst. Ich werde versuchen, das ganze bis Morgen noch zu...
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Ich glaube ich habe jetzt verstanden was du meinst. Ich werde versuchen, das ganze bis Morgen noch zu ändern.
+TAGGED_CONTENT:

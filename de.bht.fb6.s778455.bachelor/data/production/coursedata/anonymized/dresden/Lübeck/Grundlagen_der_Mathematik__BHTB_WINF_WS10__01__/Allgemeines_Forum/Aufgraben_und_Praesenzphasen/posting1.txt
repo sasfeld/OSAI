@@ -1,0 +1,8 @@
+ID: 101860
+CREATION_DATETIME: 1287221360
+MODIFICATION_DATETIME: 1287221360
+TITLE: Aufgraben und Praesenzphasen
+PARENT_POSTING_ID: 0
+CONTENT:
+Guten Tag, ich nehme an dem <REMOVED_PERSON_ENTITY> der Mathematik teil und konnte bei der Einfeuhrungsveranstaltung leider nicht dabei sein. Gibt es irgendwo eine <REMOVED_PERSON_ENTITY> mit Terminen zu den Praesenzveranstaltungen und Hausaufgaben?Vielen Dank. Mit freundlichen Gruessen, <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

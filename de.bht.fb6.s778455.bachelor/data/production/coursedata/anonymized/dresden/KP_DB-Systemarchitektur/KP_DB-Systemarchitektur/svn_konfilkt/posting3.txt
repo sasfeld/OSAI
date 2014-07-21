@@ -1,0 +1,10 @@
+ID: 1865
+CREATION_DATETIME: 1369778400000
+MODIFICATION_DATETIME: 1369778400000
+TITLE: Wie meinst du das mit "noch mal committen"? soll ich einfach deine Änderungen verwerfen und meinen al...
+PARENT_POSTING_ID: 1863
+POSTING_TYPE: comment
+CONTENT:
+Wie meinst du das mit "noch mal committen"? soll ich einfach deine Änderungen verwerfen und meinen alten Zustand darüber laufen lassen?
+Kannst du den Konflikt nicht selbst lösen? Du weißt doch hoffentlich, was du am Code geändert hast. Ich habe auch ein paar deiner Fehler korrigiert. Der Code mit popen konnte gar nicht funktionieren und tut es jetzt wahrscheinlich auch noch nicht, <NAME_CORPUS_REPLACEMENT> man erst auf die Werte warten muss.
+TAGGED_CONTENT:

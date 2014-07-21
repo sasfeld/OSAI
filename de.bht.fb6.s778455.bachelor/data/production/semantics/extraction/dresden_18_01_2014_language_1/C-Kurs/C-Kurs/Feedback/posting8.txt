@@ -1,0 +1,24 @@
+ID: 2919
+CREATION_DATETIME: 1384815600000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: Ok das leuchtet mir alles ein.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2914
+POSTING_TYPE: comment
+CONTENT:
+Ok das leuchtet mir alles ein.
+
+Ja so machen  wir es auch.  Jeder löst alleine und am ende wird eine Musterlösung gezeigt. finde ich eine gute Variante. 
+
+Die Lösungen weichen tatsächlich nicht groß ab, hat mich auch schon überrascht. 
+
+War halt nur ne idee aber jetzt im Nachhinein sehe ich <NAME_CORPUS_REPLACEMENT> auch keinen Sinn mehr drin. 
+
+Mir fällt <NAME_CORPUS_REPLACEMENT> grad eine Frage ein.
+
+Gibt es irgendwo eine Übersicht über die Formatierungszeichen für die printf und scanf anwendungen? Also eine richtige?
+
+Ich habe zwar einige Tabellen gefunden aber <NAME_CORPUS_REPLACEMENT> waren bisher immer mal Fehler drin.
+
+Z. b. stand für long double nur % f drin und nicht % Lf. (Hoffentlich vertue ich mich grad nicht mit dem Beispiel. Aber ich denke ihr wisst was ich meine.
+TAGGED_CONTENT:

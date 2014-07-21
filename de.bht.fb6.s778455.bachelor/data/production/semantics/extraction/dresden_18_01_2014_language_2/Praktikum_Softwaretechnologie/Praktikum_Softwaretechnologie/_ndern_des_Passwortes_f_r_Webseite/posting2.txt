@@ -1,0 +1,18 @@
+ID: 2569
+CREATION_DATETIME: 1381874400000
+MODIFICATION_DATETIME: 1381874400000
+TITLE: Was möchtest du genau machen? Das Erstpasswort ist auf https://idm-service.tu-dresden.de zu ändern.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2568
+POSTING_TYPE: answer
+CONTENT:
+Was möchtest du genau machen? Das Erstpasswort ist auf https://idm-service. tu-dresden. de zu ändern.
+
+Mit dem Passwort kannst du dann auch Dateien in public_html (über ssh/scp) ablegen.
+
+Die Webseite selbst hat kein Passwort. <NAME_CORPUS_REPLACEMENT> müsstest du eine . htaccess-Datei anlegen.
+
+Ansonsten ist alles  [auf den Seiten des ZIH](http://tu-dresden. de/die_tu_dresden/zentrale_einrichtungen/zih/dienste/datennetz_dienste/www/erstellen_persoenlicher_webseiten) beschrieben.
+
+Uh. BTW: die URL lautet [http://wwwpub.zih.tu-dresden. de/~snummer](http://wwwpub.zih.tu-dresden. de/~) !
+TAGGED_CONTENT:

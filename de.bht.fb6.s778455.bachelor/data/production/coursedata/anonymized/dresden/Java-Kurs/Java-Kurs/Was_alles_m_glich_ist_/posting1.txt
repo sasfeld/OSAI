@@ -1,0 +1,19 @@
+ID: 2940
+CREATION_DATETIME: 1384988400000
+MODIFICATION_DATETIME: 1385593200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hey Leute, wisst ihr, dass es prinzipiell möglich ist, 
+-> Fussballweltmeister ohne <REMOVED_PERSON_ENTITY> zu werden
+-> Deutschland sucht den Superstar zu gewinnen, obwohl man taubstumm ist
+-> man 100 Tage ohne Essen und Trinken überleben kann
+Man aber NIEMALS Informatiker wird, ohne das man eine objektorientierte Programmiersprache wie Java beherrscht? Deswegen : Es sind noch Plätze im Javakurs frei! Gerade Durchfaller in SWT sollten hier ihre Chance suchen! Es gibt einige, die mit Java so ihre Probleme hatten, und hier habt ihr die Möglichkeit, es nochmal richtig zu üben, in Vorbereitung auf SWT!
+Entweder schreibt ihr mich einfach direkt an (mein Kurs ist Di. 4, Mail: <NAME_CORPUS_REPLACEMENT>. heinrich2@mailbox. tu-dresden. de), oder geht auf 
+https://auditorium. inf. tu-dresden. de/courses/2154639
+und schaut Euch <NAME_CORPUS_REPLACEMENT> an, in welche Kurse ihr wollt.
+Beste Grüße,
+Martin﻿
+P. S. Wer in meinen Kurs kommt - ich behandle definitiv auch UML und Design Patterns, also eine optimale Vorbereitung auf Softwaretechnologie im 2. Semester oder für Wiederholer!
+TAGGED_CONTENT:

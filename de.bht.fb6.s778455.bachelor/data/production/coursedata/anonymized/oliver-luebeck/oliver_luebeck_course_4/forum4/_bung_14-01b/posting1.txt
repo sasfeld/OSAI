@@ -1,0 +1,14 @@
+ID: 60
+CREATION_DATETIME: 1181561820000
+MODIFICATION_DATETIME: 1181561820000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo, kann es sein dass in Zeile 15 "public" fehlt?
+Ohne bekomm ich nen Fehler beim Kompilieren.
+
+LG 
+    
+TAGGED_CONTENT:

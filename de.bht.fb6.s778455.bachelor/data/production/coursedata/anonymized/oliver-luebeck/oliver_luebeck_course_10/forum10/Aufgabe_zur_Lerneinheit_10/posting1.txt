@@ -1,0 +1,19 @@
+ID: 48
+CREATION_DATETIME: 1196958900000
+MODIFICATION_DATETIME: 1196958900000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Sooooo,
+
+ich wollte mal nachfragen wie man die lösen könnte.
+
+Ich bin mir da nicht ganz sicher wie ich die Aufgabe gestallten soll. Ich ahbe sonst immer ein bestimmtest ziel gehabt wie ein Adressbuch programmieren oder so etwas.
+
+Können sinnlose Daten in den Arrays gespeichert werden oder müssen sie irgednwie sinn ergeben?
+
+Ich hab leider keine gute idee in welcher weise ich die Arrays einsetzen könnte.
+   
+TAGGED_CONTENT:

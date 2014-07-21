@@ -1,0 +1,12 @@
+ID: 1276
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: du brauchst doch nur einen datentyp, der die eigentlichen daten enthaelt und einen zeiger je nachfolg...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1267
+POSTING_TYPE: comment
+CONTENT:
+du brauchst doch nur einen datentyp, der die eigentlichen daten enthaelt und einen zeiger je nachfolger. warum soll das jetzt umstaendlich sein?
+
+allgemeine hilfe, wie man das baut gibt's zum beispiel hier: http://www.cprogramming.com/tutorial/c/lesson18. html
+TAGGED_CONTENT:

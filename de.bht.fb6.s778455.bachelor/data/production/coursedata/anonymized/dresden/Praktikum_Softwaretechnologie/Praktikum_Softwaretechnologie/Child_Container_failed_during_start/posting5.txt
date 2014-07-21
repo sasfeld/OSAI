@@ -1,0 +1,11 @@
+ID: 3014
+CREATION_DATETIME: 1385334000000
+MODIFICATION_DATETIME: 1385334000000
+TITLE: Sry, bin an klassische Foren-Threads gewöhnt.
+Danke, die Id war das Problem denke ich. Das Problem i...
+PARENT_POSTING_ID: 2995
+POSTING_TYPE: comment
+CONTENT:
+Sry, bin an klassische Foren-Threads gewöhnt.
+Danke, die Id war das Problem denke ich. Das Problem ist also gelöst. JodaTime o.ä. wird wahrscheinlich benutzt werden, die Klasse ist erst mal nur Platzhalter.
+TAGGED_CONTENT:

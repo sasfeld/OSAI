@@ -1,0 +1,22 @@
+ID: 608
+CREATION_DATETIME: 1351551600000
+MODIFICATION_DATETIME: 1358982000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich werde aus den in den Bildern enthaltenen GPS Daten nicht schlau.
+
+Beispiel amsterdam. jpg
+
+Latitude: 52, 22, 20. 36110799596277	
+
+Longitude: 4, 53, 40. 12411199331383
+
+Komisches Format? Sucht man auf Google Maps zb nach "52. 36110799596277, 4. 12411199331383" (das geht am ehesten "in die richtige Richtung") landet man irgendwo mitten in der Nordsee: https://maps. google. com/maps?q=52. 36110799596277,+4. 12411199331383&hl=de&sll=52. 361108, 4. 124112&sspn=26. 178395, 67. 631836&t=v&z=5
+
+Mein automatisches Exif GPS Daten Ausleseskript hat schon einige Probleme gemacht und funktioniert jetzt immerhin auf relativ umständliche <REMOVED_PERSON_ENTITY>, aber jetzt weiß ich nichts mit den Daten anzufangen und stecke wieder fest.
+
+Mit anderen Worten hab ich schon relativ viel Zeit (die langsam knapp wird) in die Aufgabe gesteckt und hab mit dem Wesentlichen eigentlich noch gar nicht angefangen..
+TAGGED_CONTENT:

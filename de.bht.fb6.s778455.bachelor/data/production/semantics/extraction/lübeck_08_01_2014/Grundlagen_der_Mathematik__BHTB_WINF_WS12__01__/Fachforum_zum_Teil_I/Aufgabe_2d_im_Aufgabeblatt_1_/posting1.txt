@@ -1,0 +1,12 @@
+ID: 169567
+CREATION_DATETIME: 1349983523
+MODIFICATION_DATETIME: 1349983523
+TITLE: Aufgabe 2d im Aufgabeblatt 1 
+PARENT_POSTING_ID: 0
+CONTENT:
+Hi Leute,
+ich bin noch am durcharbeiten der Aufgaben in den beiden Aufgabenblättern.
+Kann mir einer auf die sprünge helfen wie ich die Aufgabe 2d im Aufgabeblatt 1 lösen kann ich komm einfach nicht auf 3/2.
+Aufgabe  $$\left|x-1\right| \ge \left|x-2\right|$$
+MfG
+TAGGED_CONTENT:

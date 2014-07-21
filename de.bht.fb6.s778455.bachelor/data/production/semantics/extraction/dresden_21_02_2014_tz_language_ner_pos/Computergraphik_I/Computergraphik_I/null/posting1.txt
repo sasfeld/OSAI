@@ -1,0 +1,48 @@
+ID: 655
+CREATION_DATETIME: 1351983600000
+MODIFICATION_DATETIME: 1352070000000
+TITLE: Hallo,
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Reden;weight:1.0;significance:6.56866496300767;degreegeneralization:7;uri:20911031
+TOPIC_ZOOM_TAG: value:Rhetorik;weight:1.0;significance:6.29837463326776;degreegeneralization:6;uri:20915944
+TOPIC_ZOOM_TAG: value:Sprache als Bereich der Kultur;weight:1.0;significance:5.7654270924145;degreegeneralization:5;uri:20896003
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:5.00870710783694;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Kunst, Kultur, Musik;weight:1.0;significance:3.04770693667486;degreegeneralization:2;uri:21999796
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+NER_TAG: value:CMake-Kompiliererei;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:ngigkeiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Grund;weight:0.0;uri:;postag:NN
+POS_TAG: value:Antwort;weight:0.0;uri:;postag:NN
+POS_TAG: value:Quellen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rede;weight:0.0;uri:;postag:NN
+POS_TAG: value:CMake;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bitte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Normalfall;weight:0.0;uri:;postag:NN
+POS_TAG: value:Framework;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sinn;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skript;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehlernachrichten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kompiliererei;weight:0.0;uri:;postag:NN
+POS_TAG: value:Testphase;weight:0.0;uri:;postag:NN
+POS_TAG: value:Paketen;weight:0.0;uri:;postag:NN
+POS_TAG: value:derweise;weight:0.0;uri:;postag:NN
+POS_TAG: value:FIXME;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehlerbehandlungsarbeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Version;weight:0.0;uri:;postag:NN
+POS_TAG: value:Liste;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 434
+POSTING_TYPE: answer
+CONTENT:
+Hallo,
+
+ein bisschen spät die Antwort: Dass fltk2 nicht in der Liste der Abhängigkeiten steht hat schon seinen Grund. Wir verwenden eine Version <NAME_CORPUS_REPLACEMENT> fltk2, in der wir selbst herumgedoktort haben. Blöderweise ist CMake mit seinen Fehlernachrichten nicht besonders aufschlussreich. Wenn das Skript nicht läuft, liegt das im Normalfall daran, dass entweder kein g++ installiert ist oder die Version <NAME_CORPUS_REPLACEMENT> CMake zu alt ist. 
+
+Die CMake-Kompiliererei vom Framework ist noch ziemlich neu und deutlich in der Testphase - daher hab ich auch die ganzen FIXME's noch nicht rausgenommen und es gibt allgemein noch viel Fehlerbehandlungsarbeit zu leisten.
+
+Langer Rede kurzer Sinn: Bitte NICHT fltk2 aus Paketen oder <NAME_CORPUS_REPLACEMENT> woanders installieren, <NAME_CORPUS_REPLACEMENT> CMake sonst diese Quellen bevorzugt.
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, ein_ART bisschen_ADJA spät_ADJD die_ART Antwort_NN :_$. Dass_KOUS fltk2_XY nicht_PTKNEG in_APPR der_ART Liste_NN der_ART Abhängigkeiten_NN steht_VVFIN hat_VAFIN schon_ADV seinen_PPOSAT Grund_NN ._$. Wir_PPER verwenden_VVINF eine_ART Version_NN <_CARD NAME_CORPUS_REPLACEMENT_NE >_NE fltk2_CARD ,_$, in_APPR der_PRELS wir_PPER selbst_ADV herumgedoktort_VVPP haben_VAFIN ._$. Blöderweise_NN ist_VAFIN CMake_NN mit_APPR seinen_PPOSAT Fehlernachrichten_NN nicht_PTKNEG besonders_ADV aufschlussreich_ADJD ._$. Wenn_KOUS das_ART Skript_NN nicht_PTKNEG läuft_VVFIN ,_$, liegt_VVFIN das_ART im_APPRART Normalfall_NN daran_PROAV ,_$, dass_KOUS entweder_KON kein_PIAT g_XY +_XY +_XY installiert_VVPP ist_VAFIN oder_KON die_ART Version_NN <_CARD NAME_CORPUS_REPLACEMENT_NE >_NE CMake_NE zu_PTKZU alt_ADJD ist_VAFIN ._$. Die_ART CMake-Kompiliererei_NN vom_APPRART Framework_NN ist_VAFIN noch_ADV ziemlich_ADV neu_ADJD und_KON deutlich_ADJD in_APPR der_ART Testphase_NN -_$( daher_PROAV hab_VAFIN ich_PPER auch_ADV die_ART ganzen_ADJA FIXME_NN 's_PPER noch_ADV nicht_PTKNEG rausgenommen_VVPP und_KON es_PPER gibt_VVFIN allgemein_ADJD noch_ADV viel_PIDAT Fehlerbehandlungsarbeit_NN zu_PTKZU leisten_VVINF ._$. Langer_ADJA Rede_NN kurzer_ADJA Sinn_NN :_$. Bitte_NN NICHT_NE fltk2_CARD aus_APPR Paketen_NN oder_KON <_CARD NAME_CORPUS_REPLACEMENT_NN >_CARD woanders_ADV installieren_VVINF ,_$, <_CARD NAME_CORPUS_REPLACEMENT_NE >_NE CMake_NE sonst_ADV diese_PDAT Quellen_NN bevorzugt_VVFIN ._$. <_XY REMOVED_PERSON_ENTITY_NE >_XY 

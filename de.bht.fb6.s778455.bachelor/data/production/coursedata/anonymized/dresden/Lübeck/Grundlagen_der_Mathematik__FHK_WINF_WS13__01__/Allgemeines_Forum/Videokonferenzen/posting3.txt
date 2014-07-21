@@ -1,0 +1,12 @@
+ID: 246075
+CREATION_DATETIME: 1382106213
+MODIFICATION_DATETIME: 1382106265
+TITLE: Re: Videokonferenzen
+PARENT_POSTING_ID: 246011
+CONTENT:
+Liebe Studierenden,
+<REMOVED_PERSON_ENTITY> sind keine Vorlesungen, sondern leben von der aktiven Teilnahme mehrerer (gerne vieler) Teilnehmer. Eine Aufnahme führt aber voraussichtlich zu einer sinkenden Anzahl Teilnehmer. Aus diesem <REMOVED_PERSON_ENTITY> und den datenschutzrechtlichen Problemen möchte ich keine Videokonferenzen aufzeichnen.
+Für einen erfolgreichen Abschluss des Moduls ist die Teilnahme an den Videokonferenzen auch nicht zwingend notwendig. Bei Fragen und zum Austausch untereinander kann (und soll) gerne das Forum genutzt werden.
+Viele Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

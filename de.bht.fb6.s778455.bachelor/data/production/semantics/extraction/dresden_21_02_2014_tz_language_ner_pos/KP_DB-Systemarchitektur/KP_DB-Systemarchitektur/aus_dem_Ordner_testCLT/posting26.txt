@@ -1,0 +1,38 @@
+ID: 1954
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Ich habe jetzt mit der aktuellen Version im SVN das Ganze erstellen wollen. Meine testCLT.cpp enthält...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:1.0;significance:4.95064330688218;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+NER_TAG: value:SVN;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:testCLT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Formatierung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Edit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ausgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Quatsch;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ohren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Test;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ordner;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ganze;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehlern;weight:0.0;uri:;postag:NN
+POS_TAG: value:Reihe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Variante;weight:0.0;uri:;postag:NN
+POS_TAG: value:Version;weight:0.0;uri:;postag:NN
+POS_TAG: value:SVN;weight:0.0;uri:;postag:NN
+POS_TAG: value:Datei;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Ich habe jetzt mit der aktuellen Version im SVN das Ganze erstellen wollen. Meine testCLT. cpp enthält nur noch couts. Und trotz alledem wird eine Reihe <NAME_CORPUS_REPLACEMENT> Fehlern angezeigt (mit der Ursprünglichen Test-"Dumb"-Variante auch)
+
+<REMOVED_PERSON_ENTITY> ist die Ausgabe, die mir um die Ohren springt:
+
+Edit: Was für ein Quatsch hier, die Formatierung funktioniert ja gar nicht - Ich habe deshalb das ganze als Datei ins SVN gelegt (im Ordner testCLT als errorlog. txt zu finden)
+TAGGED_CONTENT:
+Ich_PPER habe_VAFIN jetzt_ADV mit_APPR der_ART aktuellen_ADJA Version_NN im_APPRART SVN_NN das_ART Ganze_NN erstellen_VVINF wollen_VMFIN ._$. Meine_PPOSAT testCLT_NN ._$. cpp_NE enthält_VVFIN nur_ADV noch_ADV couts_ADV ._$. Und_KON trotz_APPR alledem_ADJD wird_VAFIN eine_ART Reihe_NN <_CARD NAME_CORPUS_REPLACEMENT_NN >_VVFIN Fehlern_NN angezeigt_VVPP -LRB-_TRUNC mit_APPR der_ART Ursprünglichen_ADJA Test_NN -_$( "_$( Dumb_FM "_$( -_$( Variante_NN auch_ADV -RRB-_TRUNC <_XY REMOVED_PERSON_ENTITY_NE >_NE ist_VAFIN die_ART Ausgabe_NN ,_$, die_PRELS mir_PPER um_APPR die_ART Ohren_NN springt_VVFIN :_$. Edit_NN :_$. Was_PWS für_APPR ein_ART Quatsch_NN hier_ADV ,_$, die_ART Formatierung_NN funktioniert_VVFIN ja_ADV gar_ADV nicht_PTKNEG -_$( Ich_PPER habe_VAFIN deshalb_PROAV das_ART ganze_ADJA als_APPR Datei_NN ins_APPRART SVN_NN gelegt_VVPP -LRB-_TRUNC im_APPRART Ordner_NN testCLT_NE als_APPR errorlog_ADJD ._$. txt_XY zu_PTKZU finden_VVINF -RRB-_TRUNC 

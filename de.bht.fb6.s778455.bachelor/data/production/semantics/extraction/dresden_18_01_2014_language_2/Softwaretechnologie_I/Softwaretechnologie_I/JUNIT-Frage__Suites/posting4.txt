@@ -1,0 +1,12 @@
+ID: 2063
+CREATION_DATETIME: 1371160800000
+MODIFICATION_DATETIME: 1371160800000
+TITLE: Die Tests hat er ebenfalls mit seiner Methode gegliedert. eben ohne von TestSuite zu erben, und dass ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2060
+POSTING_TYPE: comment
+CONTENT:
+Die Tests hat er ebenfalls mit seiner Methode gegliedert. eben ohne <NAME_CORPUS_REPLACEMENT> TestSuite zu erben, und dass man Tests gliedern sollte ist mir auch klar... Ich weiß auch das es sauberer ist Tests mit TestSuite zu gliedern <NAME_CORPUS_REPLACEMENT> dadurch für den TestRunner egal ist ob er einen TestCase oder eine TestSuite mit mehreren TestCases ist, dafür ist das Composite Pattern u. a. ja auch <NAME_CORPUS_REPLACEMENT>. Aber als großen Vorteil sehe ich eben nur das sowohl IDE als auch TestRunner diese Sammlung <NAME_CORPUS_REPLACEMENT> Tests als Test erkennt.
+
+Die Frage war ja auch nicht "Wie geht das?" sondern "Wo liegt der Unterschied?", <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

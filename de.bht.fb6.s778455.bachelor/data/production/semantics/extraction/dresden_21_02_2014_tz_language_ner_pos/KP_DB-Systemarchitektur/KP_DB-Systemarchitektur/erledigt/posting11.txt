@@ -1,0 +1,14 @@
+ID: 2023
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: Ich habe mir eine Funktionierende Vorlage organisiert. Ich würde das ganze auch mergen. In Welcher Re...
+LANGUAGE: GERMAN
+POS_TAG: value:Vorlage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vortragen;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+Ich habe mir eine Funktionierende Vorlage organisiert. Ich würde das ganze auch mergen. In <REMOVED_PERSON_ENTITY> wollen wir das ganze Vortragen?
+TAGGED_CONTENT:
+Ich_PPER habe_VAFIN mir_PPER eine_ART Funktionierende_ADJA Vorlage_NN organisiert_VVPP ._$. Ich_PPER würde_VAFIN das_ART ganze_ADJA auch_ADV mergen_VVINF ._$. In_APPR <_CARD REMOVED_PERSON_ENTITY_NN >_VVINF wollen_VMFIN wir_PPER das_ART ganze_ADJA Vortragen_NN ?_$. 

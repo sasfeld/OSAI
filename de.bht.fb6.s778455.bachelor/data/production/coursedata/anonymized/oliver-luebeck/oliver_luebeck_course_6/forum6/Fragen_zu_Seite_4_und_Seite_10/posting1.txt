@@ -1,0 +1,41 @@
+ID: 13
+CREATION_DATETIME: 1286734200000
+MODIFICATION_DATETIME: 1286734200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Seite 4:
+- Ich bekomme bei der Ausführung des Quelltextes eine Exception ausgegeben? (Siehe Screenshot)
+
+- Mir ist auch der Exception-Gebrauch nicht so ganz klar. Nachdem man mit throws eine Exception quasi deklariert, müsste doch dann, wo sie ausgegeben werden soll,
+diese ebenfalls mit "throw" eingegeben werden. Im Quelltext befindet sich aber nichts mit "throw"?
+
+
+Seite 10:
+Quellcode "BinaerDatenManipulieren":
+1. Die Länge vom Byte-Array: 14720. Ist damit 14720 Bytes gemeint?
+
+2. Ich bin nicht sicher, ob ich das Konzept der Parameterübergabe richtig verstanden habe:
+
+// Pruefen, ob zwei Uebergabeparameter bei Programmaufruf angegeben
+// wurden
+if (args.length != 2) {
+System.out
+.println("Fehler!\nAufruf des Programms ohne Dateiangaben.");
+System.exit(1);
+}
+
+// Dateinamen aus Uebergabeparametern lesen
+String bildDateiOriginal = args[0];
+String bildDateiGeand = args[1];
+
+
+Wieso ungleich 2? Weil es 2 Bilddateien gibt- einmal das orginal- und dann das manipulierte Bild?
+
+Wenn man demnach also "String bildDateiOriginal = args[0];" eingibt, liest das Programm die gesamte Bilddatei, ganz egal wieviel Byte oder mb?
+
+Grüsse
+    
+TAGGED_CONTENT:

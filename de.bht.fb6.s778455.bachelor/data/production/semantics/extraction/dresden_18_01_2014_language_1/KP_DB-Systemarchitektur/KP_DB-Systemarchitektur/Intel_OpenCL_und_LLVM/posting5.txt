@@ -1,0 +1,10 @@
+ID: 2214
+CREATION_DATETIME: 1373493600000
+MODIFICATION_DATETIME: 1373493600000
+TITLE: Das ist mein Laptop, deshalb ist es da eher schwierig, Zugang zu bekommen.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2206
+POSTING_TYPE: comment
+CONTENT:
+Das ist mein Laptop, deshalb ist es <NAME_CORPUS_REPLACEMENT> eher schwierig, Zugang zu bekommen.
+TAGGED_CONTENT:

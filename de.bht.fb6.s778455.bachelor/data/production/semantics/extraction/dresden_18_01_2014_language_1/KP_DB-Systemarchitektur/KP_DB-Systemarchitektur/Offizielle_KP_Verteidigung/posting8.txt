@@ -1,0 +1,14 @@
+ID: 2330
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Ich hab' Achsenbeschriftungen drangeschrieben!
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Ich hab' Achsenbeschriftungen drangeschrieben!
+
+auf der X-Achse z. B. Speicherbandbreite/bits und auf der Y-Achse SKET.
+
+Aber du kannst mir das gerne mal persönlich zeigen, was <NAME_CORPUS_REPLACEMENT> noch fehlt.
+TAGGED_CONTENT:

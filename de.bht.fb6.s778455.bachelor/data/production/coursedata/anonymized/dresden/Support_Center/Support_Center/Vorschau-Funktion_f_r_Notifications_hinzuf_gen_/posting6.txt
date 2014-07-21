@@ -1,0 +1,9 @@
+ID: 334
+CREATION_DATETIME: 1350165600000
+MODIFICATION_DATETIME: 1350165600000
+TITLE: Der Counter steht jet
+PARENT_POSTING_ID: 332
+POSTING_TYPE: comment
+CONTENT:
+Der Counter steht jetzt still. ;) Den anderen Button schreibe ich mal auf die [Issue Liste](https://github. com/auditorium/auditorium/issues).
+TAGGED_CONTENT:

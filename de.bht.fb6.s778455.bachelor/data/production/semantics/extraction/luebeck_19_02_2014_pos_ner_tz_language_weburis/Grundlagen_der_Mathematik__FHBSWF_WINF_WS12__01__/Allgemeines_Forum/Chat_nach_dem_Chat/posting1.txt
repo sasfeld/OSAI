@@ -1,0 +1,34 @@
+ID: 164443
+CREATION_DATETIME: 1348675974
+MODIFICATION_DATETIME: 1348675974
+TITLE: Chat nach dem Chat
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=61113#164443
+TOPIC_ZOOM_TAG: value:Chat;weight:3.0;significance:9.30735213357177;degreegeneralization:7;uri:20901477
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:3.0;significance:6.50399175266524;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Lifestyle und Internet;weight:3.0;significance:5.06890722737591;degreegeneralization:6;uri:21999575
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:3.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Lifestyle, Mode, Schönheit;weight:3.0;significance:4.37191942759678;degreegeneralization:3;uri:21999456
+TOPIC_ZOOM_TAG: value:Internet;weight:3.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:3.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:3.0;significance:3.4415452961402;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:3.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:3.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:Lerngruppe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Lust;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Raumpasswort;weight:0.0;uri:;postag:NN
+POS_TAG: value:Chat;weight:0.0;uri:;postag:NN
+POS_TAG: value:Realnamen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gast;weight:0.0;uri:;postag:NN
+POS_TAG: value:Interesse;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+wer Lust und Interesse hat ist herzlich eingeladen am Chat nach dem Chat teilzunehmen. Gedacht ist dieser um evtl. auch eine (oder mehrere) Lerngruppe(n) zu bilden.
+Erreichbar ist der Chat unter:
+https://webconf. vc. dfn. de/mathe/
+Als Gast eintreten, Realnamen eingeben und Raumpasswort:F34gh6xy
+Grüße, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, wer_PWS Lust_NN und_KON Interesse_NN hat_VAFIN ist_VAFIN herzlich_ADJD eingeladen_VVPP am_APPRART Chat_NE nach_APPR dem_ART Chat_NN teilzunehmen_VVIZU ._$. Gedacht_VVPP ist_VAFIN dieser_PDAT um_APPR evtl_ADJD ._$. auch_ADV eine_ART -LRB-_TRUNC oder_KON mehrere_PIAT -RRB-_TRUNC Lerngruppe_NN -LRB-_TRUNC n_XY -RRB-_TRUNC zu_PTKZU bilden_VVINF ._$. Erreichbar_ADJD ist_VAFIN der_ART Chat_NN unter_APPR :_$. https:\/\/webconf_VVINF ._$. vc_NE ._$. dfn_NE ._$. de\/mathe_PDS \/_VVFIN Als_APPR Gast_NN eintreten_VVINF ,_$, Realnamen_NN eingeben_VVINF und_KON Raumpasswort_NN :_$. F34gh6xy_NE Grüße_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

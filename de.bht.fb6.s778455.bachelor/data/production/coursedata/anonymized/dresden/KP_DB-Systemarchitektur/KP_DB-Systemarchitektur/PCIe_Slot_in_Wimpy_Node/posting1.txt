@@ -1,0 +1,12 @@
+ID: 2057
+CREATION_DATETIME: 1371160800000
+MODIFICATION_DATETIME: 1371679200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+die Wimpy nodes haben wirklich einen PCIe Slot, der auch noch frei ist 
+(https://dl. dropboxusercontent. com/u/321550/wimpy. jpg)
+Das Netzteil macht 180 <REMOVED_PERSON_ENTITY> mit und man müsste schauen, ob die GPU dann unter die Schiene im Gehäuse passt, aber theoretisch sollte es gehen. Können wir nächste Woche gerne probieren (von mir aus auch schon vor Freitag).
+TAGGED_CONTENT:

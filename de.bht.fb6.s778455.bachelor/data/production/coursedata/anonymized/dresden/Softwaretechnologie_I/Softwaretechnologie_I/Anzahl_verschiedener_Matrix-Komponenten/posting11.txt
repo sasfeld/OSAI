@@ -1,0 +1,9 @@
+ID: 2018
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Eigentlich müsste das y=0 immer ausgeführt werden, da es außerhalb der schließenden Klammern von inne...
+PARENT_POSTING_ID: 1987
+POSTING_TYPE: comment
+CONTENT:
+Eigentlich müsste das y=0 immer ausgeführt werden, <NAME_CORPUS_REPLACEMENT> es außerhalb der schließenden Klammern <NAME_CORPUS_REPLACEMENT> innerer Schleife und des if(m. containsKey(p))-Zweiges steht - das macht die Sache so seltsam. Trotz dieser Unklarheit - vielen Dank für deine Mühe!
+TAGGED_CONTENT:

@@ -1,0 +1,29 @@
+ID: 117516
+CREATION_DATETIME: 1318930729
+MODIFICATION_DATETIME: 1318930729
+TITLE: LON Capa Komplexe Zahlen
+TOPIC_ZOOM_TAG: value:Zahlen (Mathematik);weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:20807127
+TOPIC_ZOOM_TAG: value:Komplexe Zahlen;weight:1.0;significance:12.7085495152339;degreegeneralization:9;uri:20771614
+TOPIC_ZOOM_TAG: value:Zahlensysteme;weight:1.0;significance:12.7085495152339;degreegeneralization:8;uri:20807110
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Bücher;weight:1.0;significance:5.80279623892246;degreegeneralization:5;uri:21981657
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Presse, Druck und Verlagswesen;weight:1.0;significance:3.89973203213328;degreegeneralization:4;uri:21990174
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+NER_TAG: value:GrüßeFabian Sievers;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:GrüßeFabian Sievers;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Kapitel;weight:0.0;uri:;postag:NN
+POS_TAG: value:folderManip;weight:0.0;uri:;postag:NN
+POS_TAG: value:lligkeitsdatum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zahlen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo, unter Kapitel 0: Komplexe Zahlen ist kein Fälligkeitsdatum hinterlegt. Sind diese Aufgabe nur freiwillig oder liegt hier ein Fehler vor?Viele GrüßeFabian Sievers<a https://vita. ostfalia. de/adm/navmaps?&filter=&condition=0&hereType=&here=uploaded%2ffhwf%2f3710818b9fa5d4e41fhwfl1%2fdefault%2esequence___9___adm%2fnavmaps&jump=uploaded%2ffhwf%2f3710818b9fa5d4e41fhwfl1%2fdefault%2esequence___4___uploaded%2ffhwf%2f3710818b9fa5d4e41fhwfl1%2fdefault_1217837801%2esequence&folderManip=1"> 
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, unter_APPR Kapitel_NN 0_CARD :_$. Komplexe_ADJA Zahlen_NN ist_VAFIN kein_PIAT Fälligkeitsdatum_NN hinterlegt_VVPP ._$. Sind_VAFIN diese_PDAT Aufgabe_NN nur_ADV freiwillig_ADJD oder_KON liegt_VVFIN hier_ADV ein_ART Fehler_NN vor?Viele_NE GrüßeFabian_NE Sievers_NE <_CARD a_XY https:\/\/vita_VVINF ._$. ostfalia_NE ._$. de\/adm\/navmaps_PDS ?_$. &_KON filter_XY =_XY &_KON condition_XY =_XY 0_CARD &_KON hereType_XY =_XY &_KON here_XY =_XY uploaded_PDAT %_NN 2ffhwf_VVFIN %_NN 2f3710818b9fa5d4e41fhwfl1_ADJA %_NN 2fdefault_VVFIN %_NN 2esequence_ADJA ____NN 9_CARD ____CARD adm_APPRART %_NN 2fnavmaps_CARD &_KON jump_XY =_XY uploaded_PDAT %_NN 2ffhwf_VVFIN %_NN 2f3710818b9fa5d4e41fhwfl1_ADJA %_NN 2fdefault_VVFIN %_NN 2esequence_ADJA ____NN 4_CARD ____CARD uploaded_ADJA %_NN 2ffhwf_VVFIN %_NN 2f3710818b9fa5d4e41fhwfl1_ADJA %_NN 2fdefault_1217837801_ADJA %_NN 2esequence_ADJA &_KON folderManip_NN =_XY 1_CARD "_$( >_CARD 

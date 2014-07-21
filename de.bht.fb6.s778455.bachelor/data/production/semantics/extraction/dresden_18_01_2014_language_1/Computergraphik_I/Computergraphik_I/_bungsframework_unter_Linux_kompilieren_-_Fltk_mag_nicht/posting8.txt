@@ -1,0 +1,10 @@
+ID: 660
+CREATION_DATETIME: 1352070000000
+MODIFICATION_DATETIME: 1352070000000
+TITLE: Es sieht so aus, als fehlen die dev-libs für OpenGL. Hast Du auch alle Abhängigkeiten installiert, wi...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 655
+POSTING_TYPE: comment
+CONTENT:
+Es sieht so aus, als fehlen die dev-libs für OpenGL. Hast Du auch alle Abhängigkeiten installiert, wie sie in der Bauanleitung stehen? Eine davon ist libglew-dev, die wiederum als Abhängigkeit die OpenGL-headers installiert.
+TAGGED_CONTENT:

@@ -1,0 +1,7 @@
+ID: 2154357
+CREATION_DATETIME: 1362351600000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Distributed Operating Systems
+LANGUAGE: UNKNOWN
+INTRO: The Distributed Operating Systems lecture continues and consolidates the topics of the basic course Operating Systems and Security. It is particularly focused on presenting a balanced combination of distributed systems in-use as well as research projects and their underlying construction principles.
+TYPE: null

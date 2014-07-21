@@ -1,0 +1,16 @@
+ID: 164
+CREATION_DATETIME: 1348524000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Wir haben Neuigkeiten!
+
+auditorium hat eine neue Domain bekommen:
+
+Diese Webseite ist ab sofort unter http://auditorium.inf.tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT> zu erreichen. 
+
+Viel Spaß weiterhin beim Fragen stellen!
+TAGGED_CONTENT:

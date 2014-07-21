@@ -1,0 +1,10 @@
+ID: 1277
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Wenn ich einen Kommentar schreibe, erhalte ich selbst eine Benachrichtigungsmail oder nicht?
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1196
+POSTING_TYPE: comment
+CONTENT:
+Wenn ich einen Kommentar schreibe, erhalte ich selbst eine <REMOVED_PERSON_ENTITY> oder nicht?
+TAGGED_CONTENT:

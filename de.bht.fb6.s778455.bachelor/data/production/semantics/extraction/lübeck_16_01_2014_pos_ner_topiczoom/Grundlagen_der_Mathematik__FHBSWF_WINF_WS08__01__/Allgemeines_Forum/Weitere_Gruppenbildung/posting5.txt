@@ -1,0 +1,10 @@
+ID: 16583
+CREATION_DATETIME: 1225130339
+MODIFICATION_DATETIME: 1225130339
+TITLE: Re: Weitere Gruppenbildung
+POS_TAG: value:Ok;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 16581
+CONTENT:
+Ok, herzlich willkommen. :-)
+TAGGED_CONTENT:
+Ok_NN ,_$, herzlich_ADJD willkommen_ADJD ._$. :--RRB-_XY 

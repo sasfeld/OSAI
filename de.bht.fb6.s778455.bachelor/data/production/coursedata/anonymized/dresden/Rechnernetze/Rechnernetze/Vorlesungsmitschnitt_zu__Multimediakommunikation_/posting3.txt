@@ -1,0 +1,10 @@
+ID: 2438
+CREATION_DATETIME: 1374616800000
+MODIFICATION_DATETIME: 1374616800000
+TITLE: Hier geht es aber um das entsprechende Vorlesungsvideo aus der Vorlesung Rechnernetze. Da nützen die ...
+PARENT_POSTING_ID: 2435
+POSTING_TYPE: answer
+CONTENT:
+Hier geht es aber um das entsprechende Vorlesungsvideo aus der Vorlesung Rechnernetze. <NAME_CORPUS_REPLACEMENT> nützen die 25 Videos herzlich wenig. 
+Ich frage mal bei <REMOVED_PERSON_ENTITY> nach. <NAME_CORPUS_REPLACEMENT> wurde offensichtlich ein falsches Video hochgeladen.
+TAGGED_CONTENT:

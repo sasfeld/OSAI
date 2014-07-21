@@ -1,0 +1,27 @@
+ID: 41
+CREATION_DATETIME: 1304794620000
+MODIFICATION_DATETIME: 1304794620000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 40
+CONTENT:
+ 
+Hallo,
+
+eine Fehlerbehandlung ist hier nicht die Aufgabe. Soweit ich das verstanden habe. Du sollst nur verstehen was da passiert. Division durch 0 ergibt nun einmal eine Exception.
+
+Das auch eine Exception fliegt wenn du nur 4*= eingibst ist klar, da der zweite Wert bzw. dessen Variable die du ja definierst initial schon eine 0 bekommt.
+
+Bsp.:
+
+int i;
+
+System.out.println(i);
+
+Konsole: 0
+
+Hoffe das war verständlich.
+
+Gruß
+    
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 634
+CREATION_DATETIME: 1351724400000
+MODIFICATION_DATETIME: 1351724400000
+TITLE: Danke für die Antwort. Es geht speziell in meinem Fall darum, [RDF](http://www.w3.org/RDF/), [Sparql]...
+PARENT_POSTING_ID: 632
+POSTING_TYPE: comment
+CONTENT:
+Danke für die Antwort. Es geht speziell in meinem Fall darum, [RDF](http://www.w3. org/RDF/), [Sparql](http://www.w3. org/TR/rdf-sparql-query/),... an Beispielen zu erklären, in [Turtle Syntax](http://www.w3. org/TeamSubmission/turtle/). Ein Codeblock beträgt dann etwa 3-10 Zeilen. Also ist das noch akzeptabel?
+TAGGED_CONTENT:

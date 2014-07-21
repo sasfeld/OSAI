@@ -1,0 +1,12 @@
+ID: 1670
+CREATION_DATETIME: 1365112800000
+MODIFICATION_DATETIME: 1374789600000
+TITLE: Guten Abend,
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1668
+POSTING_TYPE: answer
+CONTENT:
+Guten Abend,
+
+die mündliche Prüfung kann wahlweise auf <REMOVED_PERSON_ENTITY> oder Englisch abgelegt werden - je nachdem, was Ihnen leichter fällt...
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 2806
+CREATION_DATETIME: 1384124400000
+MODIFICATION_DATETIME: 1384124400000
+TITLE: Gibt es einen guten Grund wieso die Frage private ist, bei anderen Studenten könnte das Problem siche...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2792
+POSTING_TYPE: comment
+CONTENT:
+Gibt es einen guten Grund wieso die Frage private ist, bei anderen Studenten könnte das Problem sicher auch auftreten und dann könnte ich einen Link setzen.
+TAGGED_CONTENT:

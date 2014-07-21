@@ -1,0 +1,8 @@
+ID: 97798
+CREATION_DATETIME: 1289140052
+MODIFICATION_DATETIME: 1289140052
+TITLE: (x-1)^3
+PARENT_POSTING_ID: 0
+CONTENT:
+Hi zusammen, ich stehe mal wieder auf dem <REMOVED_PERSON_ENTITY>... Es geht um die ESA Aufgabe: Ordner &quot;Relationen, Abbildungen und Funktionen&quot; Aufgabe: &quot;Umkehrfunktion einer Parabel ungeraden Grades bestimmen&quot;Meine Frage ist: Wie löse ich (x-1)^3 auf? Wolframalpha sagt, das Ergebnis lautet: x^3 - 3x^2 + 3x - 1Wie ist der Weg dort hin?@Herr <REMOVED_PERSON_ENTITY>:Ich würde Sie bitten das Thema Umkehrfunktionen anhand eines konkreten Beispiels (z. B. Lon-Capa: Umkehrfunktion einer Hyperbel bestimmen) nochmals in den Chat einzubauen. Das Skript ist hier irgendwie ziemlich dürftig, finde ich. Viele GrüßeDaniel 
+TAGGED_CONTENT:

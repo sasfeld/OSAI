@@ -1,0 +1,12 @@
+ID: 2694
+CREATION_DATETIME: 1383346800000
+MODIFICATION_DATETIME: 1383865200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Also es kann ja sein, dass ich es wieder nur nicht finde oder gibt es wirklich noch keinen Start-Termin und keine Räume für die am Freitag ausgesuchten Stunden?
+
+MfG :)
+TAGGED_CONTENT:

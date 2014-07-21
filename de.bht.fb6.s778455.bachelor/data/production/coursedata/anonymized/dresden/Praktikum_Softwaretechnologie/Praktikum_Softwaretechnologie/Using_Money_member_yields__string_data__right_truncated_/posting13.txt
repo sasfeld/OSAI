@@ -1,0 +1,10 @@
+ID: 2874
+CREATION_DATETIME: 1384642800000
+MODIFICATION_DATETIME: 1384642800000
+TITLE: The issue here is not so much related to the SQL level but the JPA persistence provider enforcing rul...
+PARENT_POSTING_ID: 2868
+POSTING_TYPE: comment
+CONTENT:
+The issue here is not so much related to the SQL level but the JPA persistence provider enforcing rules defined in the JPA specification. In the current version of Salespoint, `Money` is not declared as `@Embeddable`. JPA defines, that if a type is neither an `@Embeddable` nor an `@Entity` or `@MappedSuperclass`, non-primitive types cannot be persisted. Hibernate (the JPA persistence provider in use) is very explicit and strict about those rules.
+IMO, `Money` should become an `@Embeddable` for the next development iteration of Salespoint as it would also enable more direct querying. That change had been postponed from the refactorings we did prior to this years course as it would've required more changes an efforts than we were able to cover for this semester. It's definitely on the table for the upcoming revisions (probably not this semester though).
+TAGGED_CONTENT:

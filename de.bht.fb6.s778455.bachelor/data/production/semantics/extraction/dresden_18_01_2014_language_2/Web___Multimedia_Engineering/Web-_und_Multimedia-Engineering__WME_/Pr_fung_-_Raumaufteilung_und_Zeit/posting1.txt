@@ -1,0 +1,14 @@
+ID: 1100
+CREATION_DATETIME: 1359932400000
+MODIFICATION_DATETIME: 1374789600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+ich vermute die Infos zur Raumaufteilung bei der Prüfung morgen stehen im jExam. Als Wirtschaftsinformatiker konnten wir uns <NAME_CORPUS_REPLACEMENT> leider weder für die Übungen noch für die Prüfungen anmelden - ging nur übers Hisqis, <NAME_CORPUS_REPLACEMENT> stehen aber weder Uhrzeit noch Räume. Die Prüfungsamtseite gibt auch nur den Termin und nix weiteres her..
+
+Könnten die Infos bitte auf der Lehrstuhlseite oder hier geposted werden?
+TAGGED_CONTENT:

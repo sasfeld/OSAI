@@ -1,0 +1,23 @@
+ID: 172221
+CREATION_DATETIME: 1350586012
+MODIFICATION_DATETIME: 1350586012
+TITLE: Re: Online Präsenz vom 10.10.
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Jahr 2012;weight:1.0;significance:5.92522431462997;degreegeneralization:11;uri:20891175
+POS_TAG: value:Idee;weight:0.0;uri:;postag:NN
+POS_TAG: value:Posting;weight:0.0;uri:;postag:NN
+POS_TAG: value:senz;weight:0.0;uri:;postag:NN
+POS_TAG: value:bungsaufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Besten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:Oktober;weight:0.0;uri:;postag:NN
+POS_TAG: value:Samstag;weight:0.0;uri:;postag:NN
+POS_TAG: value:wurde?Siehe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 170785
+CONTENT:
+Hat schon jemand eine Idee bezüglich meiner Frage zu der Übungsaufgabe die in der Präsenz am 10. 10. angesprochen wurde?Siehe mein Posting vom "Samstag, 13. Oktober 2012, 18:36".
+Besten Dank!
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hat_VAFIN schon_ADV jemand_PIS eine_ART Idee_NN bezüglich_APPR meiner_PPOSAT Frage_NN zu_PTKZU der_ART Übungsaufgabe_NN die_ART in_APPR der_ART Präsenz_NN am_APPRART 10_CARD ._$. 10_CARD ._$. angesprochen_VVPP wurde?Siehe_NN mein_PPOSAT Posting_NN vom_APPRART "_$( Samstag_NN ,_$, 13_CARD ._$. Oktober_NN 2012_CARD ,_$, 18:36_CARD "_$( ._$. Besten_NN Dank_NN !_$. <_XY REMOVED_PERSON_ENTITY_NE >_XY 

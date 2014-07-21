@@ -1,0 +1,9 @@
+ID: 1626
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Eine Idee ist es die Anmeldung per Benutzername zu ermöglichen. Aber das Ergänzen der sNummer um den ...
+PARENT_POSTING_ID: 1625
+POSTING_TYPE: comment
+CONTENT:
+Eine Idee ist es die Anmeldung per Benutzername zu ermöglichen. Aber das Ergänzen der sNummer um den Rest ist auch eine Möglichkeit, wenn auch nicht die eleganteste. 
+TAGGED_CONTENT:

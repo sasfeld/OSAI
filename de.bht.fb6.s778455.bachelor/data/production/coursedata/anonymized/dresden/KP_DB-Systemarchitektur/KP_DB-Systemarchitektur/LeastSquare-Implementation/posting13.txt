@@ -1,0 +1,9 @@
+ID: 2294
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Ich bin im Labor (3044) bis ca 16 Uhr und habe nix gegen ein Treffen
+PARENT_POSTING_ID: 2246
+POSTING_TYPE: comment
+CONTENT:
+Ich bin im Labor (3044) bis ca 16 Uhr und habe nix gegen ein Treffen
+TAGGED_CONTENT:

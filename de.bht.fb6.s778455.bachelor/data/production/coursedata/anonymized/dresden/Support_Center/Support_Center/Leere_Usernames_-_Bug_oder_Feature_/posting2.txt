@@ -1,0 +1,9 @@
+ID: 705
+CREATION_DATETIME: 1352329200000
+MODIFICATION_DATETIME: 1352415600000
+TITLE: Guter Punkt, werden wir mal einbauen, dass nur Zahlen und Buchstaben und paar ausgewählte Sonderzeich...
+PARENT_POSTING_ID: 691
+POSTING_TYPE: answer
+CONTENT:
+Guter Punkt, werden wir mal einbauen, dass nur Zahlen und Buchstaben und paar ausgewählte Sonderzeichen erlaubt sind. Aber User #317 ist der einzige mit einem leeren Username... Das war bevor wir es eingebaut haben, dass ein Username erforderlich ist.
+TAGGED_CONTENT:

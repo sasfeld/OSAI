@@ -1,0 +1,9 @@
+ID: 1912
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: It varies in detail, I would say. The seL4 database has to keep track of more information.
+PARENT_POSTING_ID: 1910
+POSTING_TYPE: comment
+CONTENT:
+It varies in detail, I would say. The seL4 database has to keep track of more information.
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 117544
+CREATION_DATETIME: 1319619014
+MODIFICATION_DATETIME: 1319619014
+TITLE: Re: Gruppensuche
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=43906#117544
+POS_TAG: value:Frank;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117542
+CONTENT:
+ich würde auch mitmachenGrußFrank 
+TAGGED_CONTENT:
+ich_PPER würde_VAFIN auch_ADV mitmachenGrußFrank_NN 

@@ -1,0 +1,13 @@
+ID: 117500
+CREATION_DATETIME: 1319111129
+MODIFICATION_DATETIME: 1319111129
+TITLE: LON-CAPA
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=43886#117500
+POS_TAG: value:Serverumstellung;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Wegen Serverumstellung sind die <REMOVED_PERSON_ENTITY> z. Z. evtl. nicht erreichbar.
+TAGGED_CONTENT:
+Wegen_APPR Serverumstellung_NN sind_VAFIN die_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD z._APPRART Z._NE evtl_NE ._$. nicht_PTKNEG erreichbar_ADJD ._$. 

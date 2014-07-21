@@ -1,0 +1,16 @@
+ID: 166943
+CREATION_DATETIME: 1349358680
+MODIFICATION_DATETIME: 1349358680
+TITLE: Lerndiskussion nach den Webkonferenzen
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+ich habe mir überlegt  die Meetingsoftware zu nutzen um im Anschluss an die <REMOVED_PERSON_ENTITY>, eine <REMOVED_PERSON_ENTITY> für interessierte Studenten abzuhalten. Hierfür steht uns ja der Button"Discussion" bereit wie in der Einführungsveranstaltung vorgestellt.
+Meine Vorstellung ist, dass dort im gemeinsamen Austausch Fragen gestellt werden, Ideen gesammelt und Lösungen erarbeitet werden.
+Ich selbst bin schon lange aus dem <REMOVED_PERSON_ENTITY> raus und mir würde es leichter fallen wenn man vielleicht anhand von Beispielaufgaben die Lösungswege gemeinsam durchgeht. Mir fällt beim Durchgehen der LE oft auf, dass sich immer noch Lücken erschließen.
+Ich würde das ab der nächsten WebKonferenz organisieren und schlage aber schon mal abweichend davon den kommenden MIttwoch (10. 10. 2012) vor, wo keine Webkonferenz des Dozenten stattfindet.
+Uhrzeit dann 20:00 und die restlichen Tage im Anschluss an die Webkonferenz des Dozenten.
+ 
+VG Konrad
+ 
+TAGGED_CONTENT:

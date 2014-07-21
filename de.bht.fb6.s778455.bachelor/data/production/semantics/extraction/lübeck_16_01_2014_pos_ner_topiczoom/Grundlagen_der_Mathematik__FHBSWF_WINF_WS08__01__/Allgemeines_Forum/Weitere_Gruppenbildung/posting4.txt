@@ -1,0 +1,10 @@
+ID: 16581
+CREATION_DATETIME: 1225095472
+MODIFICATION_DATETIME: 1225095472
+TITLE: Re: Weitere Gruppenbildung
+POS_TAG: value:Platz;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 16577
+CONTENT:
+Moin, falls noch ein Platz über ist, wäre ich gern dabei. Gruß <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:
+Moin_NE ,_$, falls_KOUS noch_ADV ein_ART Platz_NN über_APPR ist_VAFIN ,_$, wäre_VAFIN ich_PPER gern_ADV dabei_PROAV ._$. Gruß_NE <_NE REMOVED_PERSON_ENTITY_NE >_XY 

@@ -1,0 +1,15 @@
+ID: 169073
+CREATION_DATETIME: 1349888121
+MODIFICATION_DATETIME: 1349888121
+TITLE: Re: Chat nach dem Chat
+POS_TAG: value:Individualchat;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teilnahme;weight:0.0;uri:;postag:NN
+POS_TAG: value:Absprache;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 169039
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+aufgrund mangelnder Teilnahme ist es zu einem Individualchat geworden, der nur nach Absprache statt findet.
+Grüße, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE ,_$, aufgrund_APPR mangelnder_ADJA Teilnahme_NN ist_VAFIN es_PPER zu_APPR einem_ART Individualchat_NN geworden_VAPP ,_$, der_PRELS nur_ADV nach_APPR Absprache_NN statt_APPR findet_VVFIN ._$. Grüße_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

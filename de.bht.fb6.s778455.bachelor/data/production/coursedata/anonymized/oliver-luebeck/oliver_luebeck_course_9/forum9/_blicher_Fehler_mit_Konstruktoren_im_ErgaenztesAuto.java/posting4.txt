@@ -1,0 +1,11 @@
+ID: 24
+CREATION_DATETIME: 1177492140000
+MODIFICATION_DATETIME: 1177492140000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 23
+CONTENT:
+  
+Es ist in Ordnung 2 Konstruktoren zu haben, den alten sozusagen -- die neue Attribute erhalten standard default-Werte --, und den neuen mit allen 8 Parametern. 
+    
+TAGGED_CONTENT:

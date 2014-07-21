@@ -1,0 +1,20 @@
+ID: 97807
+CREATION_DATETIME: 1292949072
+MODIFICATION_DATETIME: 1292949969
+TITLE: Re: Parallelogrammfläche
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:6.95597687640829;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Prof.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektorproduktes;weight:0.0;uri:;postag:NN
+POS_TAG: value:cheninhalt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Betrag;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anleitungen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97806
+CONTENT:
+ Hallo Prof. <REMOVED_PERSON_ENTITY>, sorry, aber ich blicke echt nicht mehr durch. Laut verschiedenen &quot;Anleitungen&quot; wird das so berechnet, da der Betrag des Vektorproduktes = dem Flächeninhalt sein soll: 
+TAGGED_CONTENT:
+Hallo_ITJ Prof._NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, sorry_VVFIN ,_$, aber_KON ich_PPER blicke_VVFIN echt_ADJD nicht_PTKNEG mehr_ADV durch_PTKVZ ._$. Laut_APPR verschiedenen_ADJA "_$( Anleitungen_NN "_$( wird_VAFIN das_ART so_ADV berechnet_VVPP ,_$, da_KOUS der_ART Betrag_NN des_ART Vektorproduktes_NN =_XY dem_ART Flächeninhalt_NN sein_VAINF soll_VMFIN :_$. 

@@ -1,0 +1,10 @@
+ID: 30837
+MODIFICATION_DATETIME: 1218800557
+TITLE: Fachforum zum Teil I
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/view.php?id=30837
+POS_TAG: value:Fachforum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fachfragen;weight:0.0;uri:;postag:NN
+INTRO:  Hier können Sie Fachfragen zum Teil I diskutieren.
+TYPE: general

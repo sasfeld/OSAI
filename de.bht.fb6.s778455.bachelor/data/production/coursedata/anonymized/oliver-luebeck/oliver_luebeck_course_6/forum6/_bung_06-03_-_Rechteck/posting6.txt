@@ -1,0 +1,29 @@
+ID: 51
+CREATION_DATETIME: 1288768800000
+MODIFICATION_DATETIME: 1288768800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 46
+CONTENT:
+ 
+Liebe , liebe Studierende,
+
+sehr gute Frage. Wenn man möchte, dass die Methode paint etwas zeichnen, dann muss man die Methode paint der Klasse java.awt.Component überschreiben. Das heisst die Klasse Rechteck muss eine Unterklasse von java.awt.Component sein. Es ist der Fall, wenn die Klasse eine unter Klasse von java.awt.Frame, java.applet.Applet oder javax.swing.JFrame ist. Von Applet nach JFrame (jetzt mehr benutzt als Frame) empfehle ich die folgende Übersetzung:
+
+import java.awt.Graphics; import java.applet.Applet; 
+
+public class Gruss extends Applet { public void paint(Graphics g) { g.drawString("Gruss an Fritz", 100, 50); } }
+ 
+import javax.swing.JFrame;
+import java.awt.Graphics;
+public class Gruss extends JFrame {
+public Gruss(){ setTitle("Gruesse"); setSize(200, 170);
+ setDefaultCloseOperation(EXIT_ON_CLOSE);
+ setVisible(true); }
+public void paint(Graphics g){ super.paint(g); g.drawString("Gruss an Fritz", 100, 50); }
+public static void main(String[] args) { new Gruss(); } } 
+
+Am Donnerstag werde ich darauf eingehen.
+Mit freundlichen Gruessen
+	
+TAGGED_CONTENT:

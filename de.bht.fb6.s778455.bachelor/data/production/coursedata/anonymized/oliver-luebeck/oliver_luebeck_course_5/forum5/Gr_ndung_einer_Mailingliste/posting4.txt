@@ -1,0 +1,14 @@
+ID: 16
+CREATION_DATETIME: 1191707520000
+MODIFICATION_DATETIME: 1191707520000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 14
+CONTENT:
+
+Also ich habe auch Interesse an einer Lerngruppe! Das ist sicher hilfreich, gerade beim Programmieren!
+Also ich bin dabei, wenn ich darf ;)
+
+Grz. 
+   
+TAGGED_CONTENT:

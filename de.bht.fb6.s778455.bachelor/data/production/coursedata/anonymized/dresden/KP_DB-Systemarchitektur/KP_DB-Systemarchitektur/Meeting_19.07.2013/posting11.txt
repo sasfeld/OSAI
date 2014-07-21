@@ -1,0 +1,9 @@
+ID: 2353
+CREATION_DATETIME: 1374184800000
+MODIFICATION_DATETIME: 1374184800000
+TITLE: Die Kernel haben ja nur einen Pointer als "Namen". Wir wollten ja theoretisch auch einen Hash-Wert de...
+PARENT_POSTING_ID: 2344
+POSTING_TYPE: comment
+CONTENT:
+Die Kernel haben ja nur einen Pointer als "Namen". Wir wollten ja theoretisch auch einen Hash-Wert des Kernel-Quellcodes bilden, um Ergebnisse persistent zwischenspeichern zu können. Ansonsten dürften die Kernel anhand der InstructionCount eindeutig erkennbar sein.
+TAGGED_CONTENT:

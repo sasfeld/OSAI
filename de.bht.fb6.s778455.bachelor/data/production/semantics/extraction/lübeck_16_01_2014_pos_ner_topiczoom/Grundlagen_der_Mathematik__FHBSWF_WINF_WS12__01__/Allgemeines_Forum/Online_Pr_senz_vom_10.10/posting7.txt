@@ -1,0 +1,55 @@
+ID: 170205
+CREATION_DATETIME: 1350213811
+MODIFICATION_DATETIME: 1350213811
+TITLE: Re: Online Präsenz vom 10.10.
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:5.18753055338448;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Ordnungsrelationen;weight:1.0;significance:4.005134111558;degreegeneralization:8;uri:20797488
+TOPIC_ZOOM_TAG: value:Ordnungstheorie;weight:1.0;significance:4.005134111558;degreegeneralization:6;uri:20797505
+TOPIC_ZOOM_TAG: value:Alphabete;weight:1.0;significance:4.005134111558;degreegeneralization:8;uri:20095405
+TOPIC_ZOOM_TAG: value:Relationen (Mathematik);weight:1.0;significance:4.005134111558;degreegeneralization:7;uri:20797471
+TOPIC_ZOOM_TAG: value:Schriftsprache;weight:1.0;significance:3.86997907552193;degreegeneralization:7;uri:20120599
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:2.98265634797786;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Mathematiker;weight:1.0;significance:2.85513826294746;degreegeneralization:8;uri:21966255
+TOPIC_ZOOM_TAG: value:Schrift;weight:1.0;significance:2.73624661496789;degreegeneralization:6;uri:20916998
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:3.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:2.33481144310352;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:2.0;significance:2.30164750105593;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Sprache, Zivilisation und Bevölkerung;weight:1.0;significance:2.22197222718385;degreegeneralization:5;uri:20895986
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:2.0;significance:1.93072090738998;degreegeneralization:3;uri:20758133
+TOPIC_ZOOM_TAG: value:Sprache als Bereich der Kultur;weight:1.0;significance:1.92180903080483;degreegeneralization:5;uri:20896003
+TOPIC_ZOOM_TAG: value:Forschung;weight:1.0;significance:1.68296885355641;degreegeneralization:4;uri:21471079
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:1.66956903594565;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Forschung und Entwicklung;weight:1.0;significance:1.64596809370158;degreegeneralization:3;uri:21603526
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:1.47917088314699;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:1.43255875749497;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Kunst, Kultur, Musik;weight:1.0;significance:1.01590231222495;degreegeneralization:2;uri:21999796
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:0.72709721863856;degreegeneralization:2;uri:21990259
+POS_TAG: value:cRz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Relation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mathematiker;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Elemente;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeichen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Problemen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Betrachtung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Stelle;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aussagen;weight:0.0;uri:;postag:NN
+POS_TAG: value:b.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Probleme;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ordnungsrelation;weight:0.0;uri:;postag:NN
+POS_TAG: value:R;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zahlen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:B.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Buchstaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:Relationen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Alphabet;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 170025
+CONTENT:
+Okay, habe ich verstanden. Hierzu habe ich aber auch noch eine allgemeine Frage. Wenn ich schreibe "aRb" oder auch "bRa"  oder auch "cRz", woher weiß man dann ich welcher Relation diese Elemente zu einander stehen. Ich hoffe ihr versteht was ich meine. Anders ausgedrückt, wenn ich "aRb" einzelnt betrachte heißt das nun "a&lt;b", oder "a&gt;b", oder "a=b" oder "a&lt;=b" oder "a=&gt;b"? Das kann man doch gar nicht wissen.
+Ja, genau. Man kann es nicht wissen. a R b steht eben nicht für eine konkrete Relation, sondern erst einmal für eine beliebige, nicht genau bestimmte Relation, ist also eine abstrakte Betrachtung. Mathematiker wollen ja meistens auch keine konkreten Probleme lösen sondern abstrakte Aussagen formulieren, die für ganze <REMOVED_PERSON_ENTITY> von Problemen gelten. Man kann für R nun beliebige Relationen einsetzen (a größer als b, a kleiner als b, a gleich b, a ungleich b ...) und dann prüfen, ob sie reflexiv, symmetrisch transitiv usw. sind.
+Ich frage aus diesem <REMOVED_PERSON_ENTITY> weil Du oben geschrieben hast "Eine größer-oder-gleich Relation". Was genau soll eine "Eine größer-oder-gleich Relation" sein?
+Eine größer-oder-gleich-Relation ist gegeben, wenn <REMOVED_PERSON_ENTITY>, die links vom Zeichen &gt;= steht, größer oder gleich der <REMOVED_PERSON_ENTITY> ist, die rechts davon steht. Das ist doch eigentlich trivial, oder?Natürlich funktioniert das nur für Elemente wie Zahlen, die man auch hinsichtlich der Größe vergleichen kann. Wenn man a, b, c als Buchstaben betrachtet, dann muss man halt eine analoge Ordnungsrelation verwenden, also z. B. a "steht im Alphabet an der gleichen Stelle oder weiter hinten" wie bzw. als b.
+TAGGED_CONTENT:
+Okay_NE ,_$, habe_VAFIN ich_PPER verstanden_VVPP ._$. Hierzu_PROAV habe_VAFIN ich_PPER aber_ADV auch_ADV noch_ADV eine_ART allgemeine_ADJA Frage_NN ._$. Wenn_KOUS ich_PPER schreibe_VVFIN "_$( aRb_NE "_$( oder_KON auch_ADV "_$( bRa_NE "_$( oder_KON auch_ADV "_$( cRz_NN "_$( ,_$, woher_PWAV weiß_VVFIN man_PIS dann_ADV ich_PPER welcher_PRELS Relation_NN diese_PDAT Elemente_NN zu_PTKZU einander_ADV stehen_VVINF ._$. Ich_PPER hoffe_VVFIN ihr_PPER versteht_VVFIN was_PWS ich_PPER meine_VVFIN ._$. Anders_ADV ausgedrückt_VVPP ,_$, wenn_KOUS ich_PPER "_$( aRb_NE "_$( einzelnt_ADJD betrachte_VVFIN heißt_VVFIN das_ART nun_ADV "_$( a_XY <_CARD b_XY "_$( ,_$, oder_KON "_$( a_XY >_CARD b_XY "_$( ,_$, oder_KON "_$( a_XY =_XY b_XY "_$( oder_KON "_$( a_XY <_XY =_XY b_XY "_$( oder_KON "_$( a_XY =_XY >_CARD b_XY "_$( ?_$. Das_PDS kann_VMFIN man_PIS doch_ADV gar_ADV nicht_PTKNEG wissen_VVINF ._$. Ja_PTKANT ,_$, genau_ADJD ._$. Man_PIS kann_VMFIN es_PPER nicht_PTKNEG wissen_VVINF ._$. a_XY R_XY b_XY steht_VVFIN eben_ADV nicht_PTKNEG für_APPR eine_ART konkrete_ADJA Relation_NN ,_$, sondern_KON erst_ADV einmal_ADV für_APPR eine_ART beliebige_ADJA ,_$, nicht_PTKNEG genau_ADJD bestimmte_ADJA Relation_NN ,_$, ist_VAFIN also_ADV eine_ART abstrakte_ADJA Betrachtung_NN ._$. Mathematiker_NN wollen_VMFIN ja_ADV meistens_ADV auch_ADV keine_PIAT konkreten_ADJA Probleme_NN lösen_VVFIN sondern_KON abstrakte_ADJA Aussagen_NN formulieren_VVINF ,_$, die_PRELS für_APPR ganze_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_CARD von_APPR Problemen_NN gelten_VVINF ._$. Man_PIS kann_VMFIN für_APPR R_NN nun_ADV beliebige_ADJA Relationen_NN einsetzen_VVINF -LRB-_TRUNC a_XY größer_ADJD als_KOKOM b_XY ,_$, a_XY kleiner_ADJA als_KOKOM b_XY ,_$, a_XY gleich_ADV b_XY ,_$, a_XY ungleich_ADJD b_XY ..._$( -RRB-_TRUNC und_KON dann_ADV prüfen_VVINF ,_$, ob_KOUS sie_PPER reflexiv_ADJD ,_$, symmetrisch_ADJD transitiv_ADJD usw_ADJD ._$. sind_VAFIN ._$. Ich_PPER frage_VVFIN aus_APPR diesem_PDAT <_NN REMOVED_PERSON_ENTITY_NE >_CARD weil_KOUS Du_PPER oben_ADV geschrieben_VVPP hast_VAFIN "_$( Eine_ART größer-oder-gleich_ADJA Relation_NN "_$( ._$. Was_PWS genau_ADV soll_VMFIN eine_ART "_$( Eine_ART größer-oder-gleich_ADJA Relation_NN "_$( sein_PPOSAT ?_$. Eine_ART größer-oder-gleich-Relation_NN ist_VAFIN gegeben_VVPP ,_$, wenn_KOUS <_XY REMOVED_PERSON_ENTITY_NN >_VVFIN ,_$, die_ART links_ADV vom_APPRART Zeichen_NN >_XY =_XY steht_VVFIN ,_$, größer_ADJD oder_KON gleich_ADV der_ART <_NN REMOVED_PERSON_ENTITY_NE >_NE ist_VAFIN ,_$, die_ART rechts_ADV davon_PROAV steht_VVFIN ._$. Das_PDS ist_VAFIN doch_ADV eigentlich_ADV trivial_ADJD ,_$, oder?Natürlich_ADJD funktioniert_VVFIN das_PDS nur_ADV für_APPR Elemente_NN wie_KOKOM Zahlen_NN ,_$, die_PRELS man_PIS auch_ADV hinsichtlich_APPR der_ART Größe_NN vergleichen_VVINF kann_VMFIN ._$. Wenn_KOUS man_PIS a_XY ,_$, b_XY ,_$, c_VVFIN als_APPR Buchstaben_NN betrachtet_VVPP ,_$, dann_ADV muss_VMFIN man_PIS halt_ADV eine_ART analoge_ADJA Ordnungsrelation_NN verwenden_VVINF ,_$, also_ADV z._APPRART B._NN a_ART "_$( steht_VVFIN im_APPRART Alphabet_NN an_APPR der_ART gleichen_ADJA Stelle_NN oder_KON weiter_ADV hinten_ADV "_$( wie_KOKOM bzw_NE ._$. als_APPR b._NN 

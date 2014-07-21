@@ -1,0 +1,10 @@
+ID: 2317
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Probier im zweifelsfall mal ein make clean in der Bibo und dem tester.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2315
+POSTING_TYPE: comment
+CONTENT:
+Probier im zweifelsfall mal ein make clean in der Bibo und dem tester.
+TAGGED_CONTENT:

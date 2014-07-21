@@ -1,0 +1,10 @@
+ID: 1124
+CREATION_DATETIME: 1361055600000
+MODIFICATION_DATETIME: 1361487600000
+TITLE: Good question. I'll be done with the code checking by Wednesday (Feb. 20th). If you don't receive by ...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1111
+POSTING_TYPE: answer
+CONTENT:
+Good question. I'll be done with the code checking by Wednesday (Feb. 20th). If you don't receive by then any negative message regarding the code check, you <NAME_CORPUS_REPLACEMENT> get your certificate at the end of the semester (end of <REMOVED_PERSON_ENTITY>) with the secretary (<REMOVED_PERSON_ENTITY>). 
+TAGGED_CONTENT:

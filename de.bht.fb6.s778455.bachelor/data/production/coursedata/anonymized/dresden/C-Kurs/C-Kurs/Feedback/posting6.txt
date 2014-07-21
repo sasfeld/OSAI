@@ -1,0 +1,13 @@
+ID: 2918
+CREATION_DATETIME: 1384815600000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: Also ich meinte schon direkt nachdem jede Aufgabe abgearbeitet ist. Am Anfang habe ich halt in "große...
+PARENT_POSTING_ID: 2914
+POSTING_TYPE: comment
+CONTENT:
+Also ich meinte schon direkt nachdem jede Aufgabe abgearbeitet ist. Am Anfang habe ich halt in "großer Gruppenarbeit" die Aufgaben lösen lassen (da muss der Tutor arbitrieren). Jetzt Lösen die Studenten die Aufgaben alleine und ich gehe herum und beantworte Fragen. Wenn die Aufgabe abgeschlossen ist, zeige ich meine Lösung.
+Gerade in den Einsteigerkursen driften die Lösungen aus verschiedenen Gründen (noch) nicht weit auseinander:
+* Die Aufgaben sind dafür gemacht (genau) ein Sprachkonstrukt zu üben
+* Die Aufgaben sind so einfach, dass es schwer fällt einen sinnvollen, aber doch grundlegend anderen Lösungsweg zu finden.
+Was du meinst ist Code Formatierung/Einrückung (Indentation). <NAME_CORPUS_REPLACEMENT> scheiden sich halt gerade die <REMOVED_PERSON_ENTITY> welcher Stil nun der Richtige ist. Die Hauptsache ist, dass du *genau einen* Stil verwendest und den durch ziehst. Ich sehe keine Sinn "Musterlösungen" zu zeigen, deren einziger Unterschied zum Studenten-Code die Einrückung ist -- eine Tab/Space-Taste hat jeder selbst und die Stile sind im Internet zur Genüge beschrieben. Mir würde es rein um den Code - die implementierten Algorithmen - gehen.
+TAGGED_CONTENT:

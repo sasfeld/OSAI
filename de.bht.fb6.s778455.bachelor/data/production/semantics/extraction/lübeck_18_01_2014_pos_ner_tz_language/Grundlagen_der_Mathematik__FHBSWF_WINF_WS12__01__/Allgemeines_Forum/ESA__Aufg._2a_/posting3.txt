@@ -1,0 +1,25 @@
+ID: 184463
+CREATION_DATETIME: 1354464063
+MODIFICATION_DATETIME: 1354464063
+TITLE: Re: ESA, Aufg. 2a)
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Vektoren;weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:ngigkeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:senz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einheitsvektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ansatz;weight:0.0;uri:;postag:NN
+POS_TAG: value:eLars;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 183799
+CONTENT:
+Moin <REMOVED_PERSON_ENTITY>, finde ich auch gut den Ansatz, vor allem, weil man die Vektoren, die man hier aufgestellt hat, in Aufgabe 2c) wieder benötigt, um die linare Unabhängigkeit zu zeigen. Jedenfalls ist <REMOVED_PERSON_ENTITY>, diese nebeneinander aufzuschreiben und zu schauen, ob l. u. vorliegt. Hatten wir ja in der Präsenz u. a. auch mit den Einheitsvektoren so gemacht...
+Oder?GrüßeLars
+TAGGED_CONTENT:
+Moin_NE <_VVFIN REMOVED_PERSON_ENTITY_NE >_NE ,_$, finde_VVFIN ich_PPER auch_ADV gut_ADJD den_ART Ansatz_NN ,_$, vor_APPR allem_PIS ,_$, weil_KOUS man_PIS die_ART Vektoren_NN ,_$, die_PRELS man_PIS hier_ADV aufgestellt_VVPP hat_VAFIN ,_$, in_APPR Aufgabe_NN 2c_CARD -RRB-_TRUNC wieder_ADV benötigt_VVPP ,_$, um_KOUI die_ART linare_ADJA Unabhängigkeit_NN zu_PTKZU zeigen_VVINF ._$. Jedenfalls_ADV ist_VAFIN <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN ,_$, diese_PDAT nebeneinander_ADV aufzuschreiben_VVIZU und_KON zu_PTKZU schauen_VVINF ,_$, ob_KOUS l._ADV u._KON vorliegt_VVFIN ._$. Hatten_VAFIN wir_PPER ja_ADV in_APPR der_ART Präsenz_NN u._APPR a._PIS auch_ADV mit_APPR den_ART Einheitsvektoren_NN so_ADV gemacht_VVPP ..._$( Oder?GrüßeLars_NN 

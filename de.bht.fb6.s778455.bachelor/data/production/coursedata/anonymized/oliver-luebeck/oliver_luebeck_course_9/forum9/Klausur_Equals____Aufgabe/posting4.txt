@@ -1,0 +1,13 @@
+ID: 68
+CREATION_DATETIME: 1182507480000
+MODIFICATION_DATETIME: 1182507480000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 67
+CONTENT:
+   
+Ich habe es mittlerweile verstanden und einfach komplett falsch gedacht. Der Vergleichsoperator zeigt nur false wenn Objekte mit gleichen Werten initialisiert werden und nicht wenn Variablen. Also primitive und referentielle Datentypen.
+
+Vielen Dank für deine Antwort
+    
+TAGGED_CONTENT:

@@ -1,0 +1,24 @@
+ID: 18
+CREATION_DATETIME: 1199784960000
+MODIFICATION_DATETIME: 1199784960000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+    
+    Hi Folks
+
+Hier ist was für die Graphik Liebhaber unter Euch. Eine Methode wwie man das Flackern vermeidet, daß bei einer dynamischen Anpassung von 2D oder 3D Elementen auftritt.
+
+Das Howto:
+http://www.developer.com/java/other/article.php/626541
+
+Das Beispiel:
+http://www.developer.com/repository/softwaredev/content/article/2000/06/20/SDtravisdblbuf/test1a.html
+
+
+Jo, dann noch viel Freude und bis Sonnabend
+
+    
+TAGGED_CONTENT:

@@ -1,0 +1,16 @@
+ID: 1168
+CREATION_DATETIME: 1362438000000
+MODIFICATION_DATETIME: 1382914800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi Leute,
+
+habe mal ne Frage bezüglich wer beginnt/wie der PC weiß, ob er 0 oder X ist? 
+
+Wo wird das durchgegeben? Muss <LEARNED_PERSON_NAME_REPLACEMENT> irgendwie kontrollieren, ob das <NAME_CORPUS_REPLACEMENT> mir oder dem Gegner gehört
+
+ Grüße, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

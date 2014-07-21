@@ -1,0 +1,9 @@
+ID: 444
+CREATION_DATETIME: 1350684000000
+MODIFICATION_DATETIME: 1350684000000
+TITLE: Wenn eine Lehrveranst
+PARENT_POSTING_ID: 442
+POSTING_TYPE: comment
+CONTENT:
+Wenn eine Lehrveranstaltung fehlt, kann man das unter https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/lectures/new eintragen.
+TAGGED_CONTENT:

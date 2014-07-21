@@ -1,0 +1,37 @@
+ID: 169255
+CREATION_DATETIME: 1349938053
+MODIFICATION_DATETIME: 1349938053
+TITLE: Re: Online Präsenz vom 10.10.
+PARENT_POSTING_ID: 169191
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+hier mein Versuch einer Antwort, Diskussion erwünscht.
+1. Frage {(a, b),(b, b),(c, b)} Was ist dieser Ausdruck? Reflexiv? Nein weil nicht alle Elemente mit sich selbst in Verbindung stehen. Um Reflexivität zu erfüllen, müsste die Paare (a, a) &amp; (c, c) auch noch in der Menge aufgelistet werden.
+korrekt.
+Symmetrisch? Nicht symentrisch weil nicht für jedes Paar eine "Umkehrung" aufgelistet ist. Um die Eigenschaft der der Symmetrie zu erfüllen musste noch folgende Paare in der Menge stehen: (b, a), (b, c)
+korrekt.
+Antisymmetrisch? Ja! Grund ist der Ausdruck ist das Element (c, b). !!!Kann man das noch einmal genauer erklären?
+Antisymmetrie liegt zwar vor, aber die Begründung (c, b) leuchtet mir nicht ein. Antisymmetrie liegt genau dann vor, wenn aus dem Vorhandensein von (a, b) UND (b, a) auch folgt, dass a gleich b ist. Da wir ja gesagt hatten, dass die drei Elemente unterschiedlich sind, darf also bei vorhandenem (a, b) kein (b, a) vorkommen und bei vorhandenem (c, b) kein (b, c). Das ist ja offensichtlich der Fall. (b, b) ist unproblematisch, weil es ja gleich sich selbst ist, und die o. g. Folgerung somit wahr.
+Transitiv? Eigentlich nicht weil a in Relation zu b, b in Releation zu b und c in Releation zu b steht. Da hier kein Fall abzuprüfen ist, sind hier die Eingeschaften der Transitivität erfüllt.
+Das habe ich auch nicht so genau verstanden.
+!!!Kann man das noch genauer erläutern? !!!Eigentlich müsste ja dann jeder Ausdruck transitiv sein weil entweder ist er es oder es ist kein Fall abzuprüfen, oder?
+Das ist so auf jeden Fall falsch, denn es gibt sehr wohl Relationen, die eindeutig nicht-transitiv sind. Sähe die <REMOVED_PERSON_ENTITY> z. B. so aus {(a, b), (b, c)} dann wäre sie eindeutig nicht transitiv, weil bei Tranistivität auch (a, c) enthalten sein müsste.
+Bleibt die Frage offen, wie man denn die Frage der Transitivität entscheidet, wenn keine solche Kette gegeben ist.
+Es gibt ja offensichtlich auch <REMOVED_PERSON_ENTITY>- und Ordnungsbeziehungen auf einer zweielementigen <REMOVED_PERSON_ENTITY>, wo solche Ketten von a &gt; b &gt; c oder ähnlich gar nicht vorkommen können. Und dennoch müsste dann ja Transitivität gegeben sein.
+2. Frage Wie kann man sagen, dass z. B. die Zeichen "&lt;" nicht reflexiv &amp; symmetrisch sind "&lt;=" reflexiv ist und das "=" symmetrisch ist ohne das diese Zeichen in Verbindung mit irgendwelchen Elementen gebracht werden?
+Eine größer-oder-gleich Relation ist reflexiv weil jedes Element größer ODER GLEICH(!) sich selbst ist Hier kommt es auf die Gleichheit an, das "größer" spielt dann bei Selbstbetrachtung eben keine <REMOVED_PERSON_ENTITY>. Es ist ja beides erlaubt, um die Relation zu erfüllen (Oder-Verknüpfung von größer und gleich)
+Bei einer &lt; oder &gt; Beziehung (ohne dass Gleichheit die Relation auch erfüllt) ist Reflexivität dann eben nicht gegeben, denn ein Element ist nicht kleiner (oder größer) als es selbst.
+Symmetrie ist genau dann gegeben, wenn aus aRb folgt, dass auch bRa
+Wenn a größer oder gleich b ist, dann folgt nicht in jedem Fall, dass b größer oder gleich a ist (sondern nur in dem einen <REMOVED_PERSON_ENTITY>, dass a gleich b ist). Aus aRb kann man also nicht bRa folgern, somit liegt keine Symmetrie vor.
+Bei Gleichheit liegt es ja auf der Hand, wenn man zwei gleiche Elemente auf je einer <REMOVED_PERSON_ENTITY> des Gleichheitszeichens hat, dann kann man die Seiten beliebig vertauschen, ohne dass sich etwas ändert. Aus a=b folgt also b=a.
+3 Frage
+Äquivalenzrelation grafisch. Bedingung: "Lässt beim Teilen durch 3 den gleichen Rest" Folgende Zahlen: 12, 3, 2, 5, 1, 4, 7 12:3 = Rest 0 5:3 = Rest 2 7:3 = Rest 1 4:3 = Rest 1 7 und 4 haben den gleichen Rest somit gehören Sie zusammen. Man kann sie also untereinander verbinden: 7-&gt;1 / 7-&gt;4 / 4-&gt;1 Die beiden anderen Zahlen kann man auch noch verbinden 5-&gt;2 &amp; 12-&gt;3 müsste hier dann nicht aber eine 0 stehen? Weil 12 : 3 den Rest 0 ergibt(?)
+Ja, bei 12 und 3 ist der Rest zu Modulo 3 jeweils gleich 0. ("12", "3") bilden also eine gemeinsame Restklasse hinischtlich Modulo 3. Deine genaue Frage habe ich jetzt leider nicht verstanden. Aber ich habe jetzt auch die Folie nicht mehr vor Augen.
+4 Frage: Was bedeutet folgender Ausdruck ausgesprochen: aRb:&lt;=&gt;a|b -&gt;&gt; a steht in Relation mit b wenn a teilt b, ist das richtig?
+Ja.
+5 Frage: Ist folgende Annahme von mir richtig: -{(a, b),(b, c),(a, c)} -&gt;&gt; Andere Ausdruckweise: aRb, bRc -&gt; aRc -&gt;&gt; Andere Ausdruckweise: Wenn a in Relation zu b und b in Relation zu C steht dann steht a auch in Relation zu c
+Ja, das ist Tranistivität.
+Sorry, dass meine Antwort so seltsam formatiert ist, ich wollte den Originaltext eigentlich einrücken mit "&gt; " aber er nimmt die Zeilenumbrüche nicht mit, man müsste wohl HTML-Tags einbauen, das ist mir jetzt zu aufwendig. Ich hoffe, man kann es trotzdem erkennen.
+Grüße
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

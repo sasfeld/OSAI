@@ -1,0 +1,14 @@
+ID: 193565
+CREATION_DATETIME: 1358196110
+MODIFICATION_DATETIME: 1358196110
+TITLE: Re: Gruppenübungen
+PARENT_POSTING_ID: 193485
+CONTENT:
+E)
+1  2 1/2  -1  1/2|3/2
+0  1    0    1    0|-2
+0   0   1   -2   -1|7
+0    0   0   0    0|2t.......... nur bei t=0 
+ 
+ 
+TAGGED_CONTENT:

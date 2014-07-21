@@ -1,0 +1,12 @@
+ID: 170213
+CREATION_DATETIME: 1350214476
+MODIFICATION_DATETIME: 1350214476
+TITLE: Re: Online Präsenz vom 10.10.
+PARENT_POSTING_ID: 170029
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+Du schreibst "Im wurde noch folgende Übungsaufgabe geannt."
+Da fehlt leider das entscheidende Wort. Im was? Skript? Kurs? Chat? LON CAPA? Ich würde gern mal die Aufgabe im Original lesen. 
+Grüße
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

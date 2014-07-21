@@ -1,0 +1,28 @@
+ID: 166597
+CREATION_DATETIME: 1349285241
+MODIFICATION_DATETIME: 1349285241
+TITLE: Re: Heutiges Online-Meeting
+TOPIC_ZOOM_TAG: value:Programmierung;weight:1.0;significance:3.58168603537718;degreegeneralization:7;uri:21461440
+TOPIC_ZOOM_TAG: value:Software;weight:1.0;significance:2.60511682223347;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:2.51211272377639;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:2.50390086036106;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:2.15506992990383;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:2.00351838218053;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.83083484620539;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:1.07441906812122;degreegeneralization:2;uri:21999813
+POS_TAG: value:hrung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Grundlagen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Meeting;weight:0.0;uri:;postag:NN
+POS_TAG: value:Programmierung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 166593
+CONTENT:
+Hi @ll,#
+so habe ich das auch verstanden heute ist Online - Meeting aber blöd nur das zeitgleich die Einführung für Grundlagen der Programmierung ist.
+Sehr seltsam
+TAGGED_CONTENT:
+Hi_NE @ll_VVFIN ,_$, #_VVFIN so_ADV habe_VAFIN ich_PPER das_PDS auch_ADV verstanden_VVPP heute_ADV ist_VAFIN Online_NE -_$( Meeting_NN aber_ADV blöd_ADJD nur_ADV das_ART zeitgleich_ADJD die_ART Einführung_NN für_APPR Grundlagen_NN der_ART Programmierung_NN ist_VAFIN ._$. Sehr_ADV seltsam_ADJD 

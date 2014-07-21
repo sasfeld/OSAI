@@ -1,0 +1,20 @@
+ID: 2321
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1379541600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Jetzt hat <REMOVED_PERSON_ENTITY> die ganze Korrelationsanalyse und KenrelMetrics entfernt. Er hat nur Durschnitts <NAME_CORPUS_REPLACEMENT> jede Kernelexecutiontime genutzt. Ich wird gern mit alle Leute daueber diskutiert.
+
+Ich glaube, dass es keine Loesung ist. Ich bin ganz dagegen. Nicht wegen dass ich arbeitlos bin, sondern die Resultaete sind fake. 
+
+Weil :
+
+1. Naeturlich sieht es mehr genau aus. Aber muessen wir jede neu Kernel auf jede Device trainieren. Die Trainingsphase wird ein Katastrphone sein, wenn ein ganze Datenbank unser Modul benutzt, und wenn neues Kernel kommt.
+
+2. Ich bin arbeitlos.
+
+3. Ich bin arbeitlos.
+TAGGED_CONTENT:

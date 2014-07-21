@@ -1,0 +1,12 @@
+ID: 2404
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: dito.
+Welche predictedTime soll ich für die Plots denn nun genau verwenden?
+
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+dito.
+Welche predictedTime soll ich für die Plots denn nun genau verwenden?
+TAGGED_CONTENT:

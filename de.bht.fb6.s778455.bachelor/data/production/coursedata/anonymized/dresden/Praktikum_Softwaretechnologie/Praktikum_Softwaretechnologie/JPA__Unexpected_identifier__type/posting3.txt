@@ -1,0 +1,12 @@
+ID: 3062
+CREATION_DATETIME: 1385679600000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: Darf man denn nicht ein BISSCHEN ehrgeizig sein? Und so komplex ist der Code jetzt auch nicht.... und...
+PARENT_POSTING_ID: 3054
+POSTING_TYPE: comment
+CONTENT:
+Darf man denn nicht ein BISSCHEN ehrgeizig sein? Und so komplex ist der Code jetzt auch nicht.... und wenn ich mit der Klasse User UserAccount wrappe sollte ich auch mit UserId UserAccountIdentifier wrappen, schon aus Benennungsgründen^^
+Das ganze soll ja einigermaßen konsistent bleiben. Dass der UserAccountManager in dem User ist, ist tatsächlich etwas unschön, aber ich will mit Sicherheit nicht im Controller anfangen mit den verschiensten Managern herumzuhantieren, nur weil die User selber das aus irgendwelchen Gründen, die dem Controller-Programmierer egal sein können, nicht können. Sowas wie changePassword ist außerdem im User selber imo sehr gut aufgehoben, und das geht dann halt nicht anders. Um sowas wie Password hashen kann (sollte) sich ja dann auch der User selber kümmern.
+"Dann benutzt die Funktionalität doch einfach nicht." Ähmmm jaaaa....
+Würdest du das in einem Team mit 50 Leuten, die alle keinen vollständigen Überblick über den Code haben, auch so sagen? Wo es dann verschiedene Methoden mehrfach gibt in unterschiedlichen Managern? Zustandsverändernde public static Methoden die eigentlich <NAME_CORPUS_REPLACEMENT> benutzten SOLL sind doch nicht ohne Grund unbeliebt (untertrieben ausgedrückt)... wir sind zwar nur 5, aber soweit ich weiß, sollen wir ja auch ausprobieren (und dabei lernen) in diesem Praktikum...
+TAGGED_CONTENT:

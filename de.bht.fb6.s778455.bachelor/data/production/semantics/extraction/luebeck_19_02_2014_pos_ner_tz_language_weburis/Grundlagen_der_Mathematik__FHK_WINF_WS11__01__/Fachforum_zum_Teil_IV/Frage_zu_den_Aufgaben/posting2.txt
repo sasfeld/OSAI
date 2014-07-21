@@ -1,0 +1,22 @@
+ID: 115389
+CREATION_DATETIME: 1327834496
+MODIFICATION_DATETIME: 1327834496
+TITLE: Re: Frage zu den Aufgaben
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=42912#115389
+NER_TAG: value:GrüßeMike Ellger;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:GrüßeMike Ellger;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:multiplizieren?hViele;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spaltenvektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Transponierte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:multiplizieren?Kann;weight:0.0;uri:;postag:NN
+POS_TAG: value:Matrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spaltenvektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 115388
+CONTENT:
+Wer lesen kann ... T ist also die Transponierte einer Matrix. ABer warum ist die Lösung zu Aufgabe 3b) nicht definiert? Kann ich die beiden Spaltenvektoren nicht multiplizieren?Kann ich nur <REMOVED_PERSON_ENTITY>- und Spaltenvektor multiplizieren?hViele GrüßeMike Ellger 
+TAGGED_CONTENT:
+Wer_PWS lesen_VVINF kann_VMFIN ..._$( T_NE ist_VAFIN also_ADV die_ART Transponierte_NN einer_ART Matrix_NN ._$. ABer_ADV warum_PWAV ist_VAFIN die_ART Lösung_NN zu_APPR Aufgabe_NN 3b_CARD -RRB-_TRUNC nicht_PTKNEG definiert_VVPP ?_$. Kann_VMFIN ich_PPER die_ART beiden_PIDAT Spaltenvektoren_NN nicht_PTKNEG multiplizieren?Kann_NN ich_PPER nur_ADV <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN -_$( und_KON Spaltenvektor_NN multiplizieren?hViele_NN GrüßeMike_NE Ellger_NE 

@@ -1,0 +1,16 @@
+ID: 625
+CREATION_DATETIME: 1351638000000
+MODIFICATION_DATETIME: 1382652000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+Schöne Plattform! Eins ist mir nur noch nicht klar: Was ist der Unterschied zwischen einem Maintainer und einem Editor? Bin für die Übung die ich leite Editor aber nicht Maintainer geworden, wovon hängt das ab und was sind die Funktionen dieser beiden Rollen?
+
+Viele Grüße,
+
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

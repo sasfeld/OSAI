@@ -1,0 +1,9 @@
+ID: 652
+CREATION_DATETIME: 1351810800000
+MODIFICATION_DATETIME: 1351810800000
+TITLE: Jupp, fände ich für nen Artikel oder so auch viel zu übergewichtig. Aber ist ein guter Ansatz, vorall...
+PARENT_POSTING_ID: 632
+POSTING_TYPE: comment
+CONTENT:
+Jupp, fände ich für nen Artikel oder so auch viel zu übergewichtig. Aber ist ein guter Ansatz, vorallem die zweite Antwort, die Syntax Highlighting beschreibt, finde ich ganz erhellend.
+TAGGED_CONTENT:

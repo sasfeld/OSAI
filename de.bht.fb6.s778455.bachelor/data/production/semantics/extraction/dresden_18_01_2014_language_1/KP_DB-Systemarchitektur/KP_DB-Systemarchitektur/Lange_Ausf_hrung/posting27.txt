@@ -1,0 +1,10 @@
+ID: 2308
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Wenn ich den BitonicSort-Kernel laufen lasse, meint er bei mir nach vielen Durchläufen auf einmal ein...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2189
+POSTING_TYPE: comment
+CONTENT:
+Wenn ich den BitonicSort-Kernel laufen <NAME_CORPUS_REPLACEMENT>, meint er bei mir nach vielen Durchläufen auf einmal ein Problem mit dem free()  (invalid next size (normal)); Speicherzugriffsfehler kamen bei mir eigentlich keine.
+TAGGED_CONTENT:

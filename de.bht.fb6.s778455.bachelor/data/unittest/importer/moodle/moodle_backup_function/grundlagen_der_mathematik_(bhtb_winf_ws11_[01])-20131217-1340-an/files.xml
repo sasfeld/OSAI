@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file id="397334">
+    <contenthash>b6e5d5be17fd1dab10b135485b3e4f015118a9f6</contenthash>
+    <contextid>95811</contextid>
+    <component>course</component>
+    <filearea>legacy</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>moodle_grafik_grundlagen_mathe_IR043.jpg</filename>
+    <userid>3</userid>
+    <filesize>33001</filesize>
+    <mimetype>image/jpeg</mimetype>
+    <status>0</status>
+    <timecreated>1342768033</timecreated>
+    <timemodified>1310720236</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="397335">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>95811</contextid>
+    <component>course</component>
+    <filearea>legacy</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>3</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1343058537</timecreated>
+    <timemodified>1343058537</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+</files>

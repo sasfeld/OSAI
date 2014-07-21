@@ -1,0 +1,12 @@
+ID: 2166
+CREATION_DATETIME: 1373061600000
+MODIFICATION_DATETIME: 1373234400000
+TITLE: Die Testfolgen sind ein eigenes Java-Programm. Du kannst in der Testfolge aus der Zwischenabgabe einf...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2164
+POSTING_TYPE: comment
+CONTENT:
+Die Testfolgen sind ein eigenes Java-Programm. Du kannst in der Testfolge aus der Zwischenabgabe einfach unsere Abteilung durch eure ersetzen und hast damit die 2. 5. 1 erledigt.
+
+Fuer die 2. 5. 2 musst du eure Abteilung in die Simulation laden und dort ein wenig herum klicken. <NAME_CORPUS_REPLACEMENT> bist du nicht auf eure Testfolge beschraenkt. Wenn du dabei noch Fehler in eurer Abteilung findest ist es natuerlich schoen, wenn ihr es noch schafft, die zu beheben. :)
+TAGGED_CONTENT:

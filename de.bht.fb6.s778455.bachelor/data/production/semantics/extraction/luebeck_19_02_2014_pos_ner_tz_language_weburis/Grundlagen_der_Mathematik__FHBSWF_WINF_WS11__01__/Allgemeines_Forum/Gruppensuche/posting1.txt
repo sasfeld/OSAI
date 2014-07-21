@@ -1,0 +1,13 @@
+ID: 117542
+CREATION_DATETIME: 1319563272
+MODIFICATION_DATETIME: 1319563272
+TITLE: Gruppensuche
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=43906#117542
+POS_TAG: value:Leo;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo, wer will mit mir eine Gruppe machen?GrußLeo 
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, wer_PWS will_VMFIN mit_APPR mir_PPER eine_ART Gruppe_NN machen?GrußLeo_NN 

@@ -1,0 +1,11 @@
+ID: 2254
+CREATION_DATETIME: 1373925600000
+MODIFICATION_DATETIME: 1379541600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+ich wollte fragen, ob mir einer die Entwurfsmuster+Teilnehmer aus der DesktopSearch-Aufgabe sagen kann. Ich bin mir mit meiner Lösung nicht wirklich sicher.
+MfG <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

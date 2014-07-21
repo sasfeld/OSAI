@@ -1,0 +1,10 @@
+ID: 2848
+CREATION_DATETIME: 1384470000000
+MODIFICATION_DATETIME: 1385420400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo, es gibt keine Möglichkeiten dass man so wie den Überschrift macht. Deswegen möchte ich hiermit fragen, wie könnte ähnliche Funktionen anderer lösungsweise verwirklicht werden?
+Unter wie zB @RequestMapping("/detail/{pid}") möchte ich auch ein anderen String zurückliefern, damit im HTML dieser String wieder aufrufbar ist.
+TAGGED_CONTENT:

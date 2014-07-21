@@ -1,0 +1,9 @@
+ID: 793
+CREATION_DATETIME: 1353106800000
+MODIFICATION_DATETIME: 1353106800000
+TITLE: Nein im PHP-Teil sind keine fremden Sachen erlaubt. Alles soll mit den PHP-eigenen Mitteln erledigt w...
+PARENT_POSTING_ID: 790
+POSTING_TYPE: comment
+CONTENT:
+Nein im PHP-Teil sind keine fremden Sachen erlaubt. Alles soll mit den PHP-eigenen Mitteln erledigt werden.
+TAGGED_CONTENT:

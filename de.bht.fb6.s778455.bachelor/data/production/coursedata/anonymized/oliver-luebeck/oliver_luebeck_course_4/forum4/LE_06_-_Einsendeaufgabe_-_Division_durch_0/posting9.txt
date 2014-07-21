@@ -1,0 +1,18 @@
+ID: 39
+CREATION_DATETIME: 1177423080000
+MODIFICATION_DATETIME: 1177423080000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 37
+CONTENT:
+
+Rein vom Überlegen würde ich sagen, dass eine negative Zahl keinen positiven Rest lassen kann, kann man aber auch einfach nachrechnen:
+
+-13/-5 = 2
+2 * -5 = -10
+-13-(-10) = -3
+
+Grüße
+
+    
+TAGGED_CONTENT:

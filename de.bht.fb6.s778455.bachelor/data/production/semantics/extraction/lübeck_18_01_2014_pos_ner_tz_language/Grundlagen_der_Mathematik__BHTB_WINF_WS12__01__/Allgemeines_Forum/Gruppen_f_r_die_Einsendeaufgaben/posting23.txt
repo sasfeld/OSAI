@@ -1,0 +1,14 @@
+ID: 173361
+CREATION_DATETIME: 1350922668
+MODIFICATION_DATETIME: 1350922668
+TITLE: Re: Gruppen für die Einsendeaufgaben
+LANGUAGE: GERMAN
+POS_TAG: value:Bin;weight:0.0;uri:;postag:NN
+POS_TAG: value:Suche;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 173163
+CONTENT:
+Nabend
+Bin auch noch auf der Suche.
+gruß
+TAGGED_CONTENT:
+Nabend_ADJD Bin_NN auch_ADV noch_ADV auf_APPR der_ART Suche_NN ._$. gruß_XY 

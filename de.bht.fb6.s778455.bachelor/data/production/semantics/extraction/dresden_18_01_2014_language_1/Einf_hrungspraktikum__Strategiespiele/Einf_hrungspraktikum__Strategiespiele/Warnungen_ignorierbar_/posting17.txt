@@ -1,0 +1,12 @@
+ID: 1206
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: Um zu bestehen muss der Code nicht warnungsfrei kompilieren. Das ist auch schwierig, weil unterschied...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1204
+POSTING_TYPE: answer
+CONTENT:
+Um zu bestehen muss der Code nicht warnungsfrei kompilieren. Das ist auch schwierig, weil unterschiedliche Compiler und Compiler-Versionen unterschiedliche Warnungen liefern werden.
+
+Trotzdem ist es immer zu empfehlen alle Warnungen <NAME_CORPUS_REPLACEMENT> zu nehmen und zu beheben. Denn der Compiler hat damit in fast allen Fällen Recht und ohne sie zu beheben sieht man irgendwann wirklich kritische Warnungen in der Warnungsflut nicht mehr ;)
+TAGGED_CONTENT:

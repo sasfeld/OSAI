@@ -1,0 +1,9 @@
+ID: 731
+CREATION_DATETIME: 1352674800000
+MODIFICATION_DATETIME: 1352674800000
+TITLE: Entspricht doch dem was ich geschrieben habe? Hatte meinen Post ein paar mal editiert, falls deine An...
+PARENT_POSTING_ID: 728
+POSTING_TYPE: comment
+CONTENT:
+Entspricht doch dem was ich geschrieben habe? Hatte meinen Post ein paar mal editiert, falls deine Antwort auf die vorherige Version zutreffen sollte?! 4/4/0 trifft nur zu wenn du 4SWS Vorlesung und 4 SWS bestehend aus Übungen und oder Seminaren. Es ist aber möglich z. B. auf 6/2/0 zu kommen, dann würde man mindestens 2SWS Übungen haben und 2 SWS Pflicht Vorlesungen + 4 SWS wahlobligatorische Vorlesungen. Dafür keine weiteren Übungen und oder Seminare...
+TAGGED_CONTENT:

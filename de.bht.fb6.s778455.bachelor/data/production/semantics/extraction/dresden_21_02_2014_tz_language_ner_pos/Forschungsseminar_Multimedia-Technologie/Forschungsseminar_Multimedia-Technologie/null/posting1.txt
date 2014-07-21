@@ -1,0 +1,20 @@
+ID: 1789
+CREATION_DATETIME: 1368136800000
+MODIFICATION_DATETIME: 1368136800000
+TITLE: null
+LANGUAGE: GERMAN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorlage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Poster;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beste;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teilnehmer;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wo kann ich die Vorlage für das Poster finden bzw. schickt ihr es per Mail an alle Teilnehmer?
+
+Beste Grüße
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Wo_PWAV kann_VMFIN ich_PPER die_ART Vorlage_NN für_APPR das_ART Poster_NN finden_VVFIN bzw_NE ._$. schickt_VVFIN ihr_PPOSAT es_PPER per_APPR Mail_NE an_APPR alle_PIDAT Teilnehmer_NN ?_$. Beste_NN Grüße_NN <_NE REMOVED_PERSON_ENTITY_NE >_XY 

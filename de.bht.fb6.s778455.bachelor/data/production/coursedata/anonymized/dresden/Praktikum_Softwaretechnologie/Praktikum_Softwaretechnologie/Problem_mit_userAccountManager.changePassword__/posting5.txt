@@ -1,0 +1,19 @@
+ID: 3079
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: Im `pom.xml` im `<dependencies />` Block folgendes hinzufügen:
+
+```xml
+<dependency>
+  <groupId>or...
+PARENT_POSTING_ID: 3075
+POSTING_TYPE: comment
+CONTENT:
+Im `pom. xml` im `` Block folgendes hinzufügen:
+```xml
+  org. springframework
+  spring-test
+  test
+```
+Das speichern. Maven sollte dann das JAR aus dem Repo holen und das Projekt entprechend aktualisieren (Falls nicht: Maven > Update project). Nun kannst du mit `CMD+SHIFT+O` "Organize imports" triggern, oder einfach mit `CMD+SPACE` hinter dem Klassennamen die Codecompletion anwerfen, die dir dann automatisch den Import vervollständigen sollte.
+TAGGED_CONTENT:

@@ -1,0 +1,11 @@
+ID: 1323
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Du darfst keinen Stein aus einer geschlossenen gegnerischen Mühle schmeißen.
+Ausnahme: wenn alle geg...
+PARENT_POSTING_ID: 1322
+POSTING_TYPE: answer
+CONTENT:
+Du darfst keinen <REMOVED_PERSON_ENTITY> aus einer geschlossenen gegnerischen Mühle schmeißen.
+Ausnahme: wenn alle gegnerischen Steine Teil einer geschlossenen Mühle sind.
+TAGGED_CONTENT:

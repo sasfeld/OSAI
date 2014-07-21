@@ -1,0 +1,10 @@
+ID: 1614
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Das Ändern meines Namens klappt nicht. Ich würde ihn gerne in "Julius Gonsior" ändern (so steht es au...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 369
+POSTING_TYPE: answer
+CONTENT:
+Das Ändern meines Namens klappt nicht. Ich würde ihn gerne in "<REMOVED_PERSON_ENTITY>" ändern (so steht es auch auf meinem Perso), aber <NAME_CORPUS_REPLACEMENT> erhalte ich die Fehlermeldung: "Username contains unsupported signs. Plese only use those signs: [A-Za-z0-9_-.]." Wieso darf ich auf einmal keine Leerzeichen mehr im Namen verwenden?
+TAGGED_CONTENT:

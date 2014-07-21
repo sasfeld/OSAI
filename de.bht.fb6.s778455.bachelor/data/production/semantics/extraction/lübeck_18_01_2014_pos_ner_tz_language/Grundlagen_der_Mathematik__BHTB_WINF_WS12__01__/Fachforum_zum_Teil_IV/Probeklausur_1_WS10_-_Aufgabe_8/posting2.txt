@@ -1,0 +1,11 @@
+ID: 198175
+CREATION_DATETIME: 1359993310
+MODIFICATION_DATETIME: 1359993310
+TITLE: Re: Probeklausur 1 WS10 - Aufgabe 8
+LANGUAGE: GERMAN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 197881
+CONTENT:
+ok. das war blödsinn. wenn 4b = c ist dann kommt genau die Matrix aus der Musterlösung bei raus.
+TAGGED_CONTENT:
+ok_NE ._$. das_PDS war_VAFIN blödsinn_ADJD ._$. wenn_KOUS 4b_XY =_XY c_XY ist_VAFIN dann_ADV kommt_VVFIN genau_ADJD die_ART Matrix_NE aus_APPR der_ART Musterlösung_NN bei_APPR raus_ADV ._$. 

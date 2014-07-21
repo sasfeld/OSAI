@@ -1,0 +1,46 @@
+ID: 74
+CREATION_DATETIME: 1294051020000
+MODIFICATION_DATETIME: 1294051020000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 73
+CONTENT:
+ 
+Lieber , liebe Studierende,
+
+zuerst bitte ich für diese späte Antwort um Entschuldigung (Grund: Urlaub!).
+Das Problem kommt daher, dass die Standard-Java Bibliothek, die wir benutzen, alle Zeichnen der Datei berücksichtigt einschliesslich die sogenannte "whitespace" wie Zwischenraum und neue Zeilen. Daher in:
+|--Name
+| |--Vorname
+| |--Nachname
+enthaelt die Nodelist des Elementes Name zuerst ein TEXT_NODE fuer neue Zeile nach Name, denn ein ELEMENT_NODE fuer Vorname usw.
+
+Hier ist eine methode, die diese Struktur erkundet, adressBuch ist das Dokument:
+
+private void showAllNames(){
+NodeList nl = adressBuch.getElementsByTagName("Name");
+for (int i=0; i<nl.getLength();i++){
+Node n = nl.item(i);
+System.out.println("Node.ELEMENT_NODE " + (n.getNodeType() == Node.ELEMENT_NODE));
+Element e = (Element) n;
+System.out.println("TagName " + e.getTagName());
+NodeList nln = n.getChildNodes();
+for (int j=0; j<nln.getLength(); j++){
+Node ni=nln.item(j);
+System.out.println("Node.ELEMENT_NODE " + (ni.getNodeType() == Node.ELEMENT_NODE));
+boolean isText = ni.getNodeType() == Node.TEXT_NODE;
+System.out.println("Node.TEXT_NODE " + (isText));
+if (isText){
+Text t = (Text) ni;
+System.out.println("Node.getTextContent " + t.getTextContent());
+System.out.println("t.isElementContentWhitespace " + t.isElementContentWhitespace());
+}
+}
+}
+}
+
+
+Ich wuensche Ihnen ein frohes neues Jahr!
+Mit freundlichen Gruessen
+    
+TAGGED_CONTENT:

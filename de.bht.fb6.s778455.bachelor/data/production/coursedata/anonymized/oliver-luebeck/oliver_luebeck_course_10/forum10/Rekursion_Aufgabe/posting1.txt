@@ -1,0 +1,11 @@
+ID: 28
+CREATION_DATETIME: 1195051620000
+MODIFICATION_DATETIME: 1195051620000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Ich habe mal das Thema Rekursion durchgearbeitet. Bei der Aufagbe verstehe ich allerdings nicht wie ich das Labyrinth machen soll, ist dass nur ein String?, den ich mir selber zusammen baue oder soll ich irgendwie das labyrinth dynamisch bauen lassen?
+   
+TAGGED_CONTENT:

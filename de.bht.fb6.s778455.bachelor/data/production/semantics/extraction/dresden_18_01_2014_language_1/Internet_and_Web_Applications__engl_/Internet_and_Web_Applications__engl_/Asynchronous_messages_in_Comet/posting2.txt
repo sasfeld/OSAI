@@ -1,0 +1,14 @@
+ID: 1763
+CREATION_DATETIME: 1366927200000
+MODIFICATION_DATETIME: 1366927200000
+TITLE: The client browser sends an initial GET- or POST-Request. The web server responds with a special HTTP...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1762
+POSTING_TYPE: answer
+CONTENT:
+The client browser sends an initial GET- or POST-Request. The web server responds with a special HTTP-Multipart-Response (Content-Type: multipart/mixed). Subsequent events on the server side then trigger the transmission of further "parts" of this multipart response message. Upon receiving such a message, a onreadystatechange-event is triggered in the client browser (with a status code unequal to "4", i. e. never reaching the "complete" state). 
+
+Altogether, this means that the client itself does NOT have to do any polling for further messages, so the mechanism is fully asynchronous. 
+
+(<REMOVED_PERSON_ENTITY> and <REMOVED_PERSON_ENTITY>)
+TAGGED_CONTENT:

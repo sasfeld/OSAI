@@ -1,0 +1,55 @@
+ID: 3029
+CREATION_DATETIME: 1385420400000
+MODIFICATION_DATETIME: 1385420400000
+TITLE: Hier sind die Spielregel/Zeitplan (Achtung: es hat sich etwas geändert!!!):
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Geometrie;weight:1.0;significance:10.9167900460059;degreegeneralization:6;uri:21635622
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:hrung;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeitplan;weight:0.0;uri:;postag:NN
+POS_TAG: value:Deadline;weight:0.0;uri:;postag:NN
+POS_TAG: value:Geometrien;weight:0.0;uri:;postag:NN
+POS_TAG: value:tung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Auflage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Filterung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Achtung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Punkt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Punktabzug;weight:0.0;uri:;postag:NN
+POS_TAG: value:Probleme;weight:0.0;uri:;postag:NN
+POS_TAG: value:Datum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Punkte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Blocks;weight:0.0;uri:;postag:NN
+POS_TAG: value:bungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ordnung;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 3019
+POSTING_TYPE: answer
+CONTENT:
+Hier sind die Spielregel/Zeitplan (Achtung: es hat sich etwas geändert!!!):
+
+Es gibt folgende Blocks:
+
+1. Einführung (max. 1P) -- abgelaufen
+
+2. Filterung (max. 4P) -- läuft gerade, Deadline am 2. 12. 2013
+
+3. Geometrien (max. 4P) -- Einführung am 3/4. 12. 2013
+
+4. Labelling Probleme (max. 4P) -- Einführung am 7/8. 01. 2014
+
+Die Übungen sind erfolgreich abgeschlossen, wenn:
+
+1. Insgesamt **9** Punkte aufgesammelt sind (nicht 10, wie vorher angekündigt) **und**
+
+2. Zu den 2., 3. und 4. jeweils mindestens ein Punkt anwesend ist.
+
+"Deadline" bedeutet, dass zum entsprechenden Datum die Lösungen abgegeben werden müssen (Verspätung = Punktabzug). Sollte bei der Lösung etwas nicht in Ordnung sein, kann auch nach dem Deadline eine Auflage erteilt werden.
+TAGGED_CONTENT:
+Hier_ADV sind_VAFIN die_ART Spielregel\/Zeitplan_NN -LRB-_TRUNC Achtung_NN :_$. es_PPER hat_VAFIN sich_PRF etwas_PIS geändert_VVPP !!!_VAFIN -RRB-_TRUNC :_$. Es_PPER gibt_VVFIN folgende_ADJA Blocks_NN :_$. 1_CARD ._$. Einführung_NN -LRB-_TRUNC max_NE ._$. 1P_CARD -RRB-_TRUNC --_-- abgelaufen_VVPP 2_CARD ._$. Filterung_NN -LRB-_TRUNC max_NE ._$. 4P_CARD -RRB-_TRUNC --_-- läuft_VVFIN gerade_ADV ,_$, Deadline_NN am_APPRART 2_CARD ._$. 12_CARD ._$. 2013_CARD 3_CARD ._$. Geometrien_NN -LRB-_TRUNC max_NE ._$. 4P_CARD -RRB-_TRUNC --_APPRART Einführung_NN am_APPRART 3\/4_CARD ._$. 12_CARD ._$. 2013_CARD 4_CARD ._$. Labelling_NE Probleme_NN -LRB-_TRUNC max_NE ._$. 4P_CARD -RRB-_TRUNC --_APPRART Einführung_NN am_APPRART 7\/8_CARD ._$. 01_CARD ._$. 2014_CARD Die_ART Übungen_NN sind_VAFIN erfolgreich_ADJD abgeschlossen_VVPP ,_$, wenn_KOUS :_$. 1_CARD ._$. Insgesamt_ADV \*\*_CARD 9_CARD \*\*_CARD Punkte_NN aufgesammelt_VVPP sind_VAFIN -LRB-_TRUNC nicht_PTKNEG 10_CARD ,_$, wie_PWAV vorher_ADV angekündigt_VVPP -RRB-_TRUNC \*\*_PTKVZ und_KON \*\*_VVFIN 2_CARD ._$. Zu_APPR den_ART 2._ADJA ,_$, 3_CARD ._$. und_KON 4_CARD ._$. jeweils_ADV mindestens_ADV ein_ART Punkt_NN anwesend_ADJD ist_VAFIN ._$. "_$( Deadline_NN "_$( bedeutet_VVFIN ,_$, dass_KOUS zum_APPRART entsprechenden_ADJA Datum_NN die_ART Lösungen_NN abgegeben_VVPP werden_VAINF müssen_VMFIN -LRB-_TRUNC Verspätung_NN =_XY Punktabzug_NN -RRB-_TRUNC ._$. Sollte_VMFIN bei_APPR der_ART Lösung_NN etwas_ADV nicht_PTKNEG in_APPR Ordnung_NN sein_VAINF ,_$, kann_VMFIN auch_ADV nach_APPR dem_ART Deadline_NN eine_ART Auflage_NN erteilt_VVPP werden_VAINF ._$. 

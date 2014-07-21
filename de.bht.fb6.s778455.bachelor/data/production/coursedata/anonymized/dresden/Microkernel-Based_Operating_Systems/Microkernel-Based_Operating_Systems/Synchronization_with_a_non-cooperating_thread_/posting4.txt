@@ -1,0 +1,9 @@
+ID: 489
+CREATION_DATETIME: 1351029600000
+MODIFICATION_DATETIME: 1351029600000
+TITLE: Using a different rin
+PARENT_POSTING_ID: 482
+POSTING_TYPE: comment
+CONTENT:
+Using a different ring does not solve the problem of memory access. If you have access to the memory where the shared data structure resides, you <NAME_CORPUS_REPLACEMENT> change it yourself without transitioning to the synchronization server. If you do not have access to the shared data, then you don't need synchronization and the consistency problem is trivially solved by an ordinary (i. e. ring 3) server managing the not-shared data.
+TAGGED_CONTENT:

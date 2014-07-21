@@ -1,0 +1,13 @@
+ID: 2996
+CREATION_DATETIME: 1385247600000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: Das hat nichts mit der eigentlichen Frage zu tun, wieso schreibst du eine Antwort als neue Frage?
+
+...
+PARENT_POSTING_ID: 2995
+POSTING_TYPE: comment
+CONTENT:
+Das hat nichts mit der eigentlichen Frage zu tun, wieso schreibst du eine Antwort als neue Frage?
+Wieso ist MyDate ein `@Embeddable`? Weißt du was ein Embedabble ist, wenn ja, warum hat es eine Id, wenn nein, warum benutzt du `@Embeddable`?
+Date im Sinne <NAME_CORPUS_REPLACEMENT> Datum? Wieso nicht java. util. Date oder joda DateTime?
+TAGGED_CONTENT:

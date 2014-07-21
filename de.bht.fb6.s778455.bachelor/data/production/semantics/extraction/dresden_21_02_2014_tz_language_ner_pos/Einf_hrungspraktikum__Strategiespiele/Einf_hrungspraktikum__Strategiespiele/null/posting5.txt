@@ -1,0 +1,10 @@
+ID: 1676
+CREATION_DATETIME: 1365285600000
+MODIFICATION_DATETIME: 1365285600000
+TITLE: Treffen im Foyer. Wir nehmen wahrscheinlich einen freien Seminarraum.
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 1655
+POSTING_TYPE: comment
+CONTENT:
+Treffen im Foyer. Wir nehmen wahrscheinlich einen freien Seminarraum.
+TAGGED_CONTENT:

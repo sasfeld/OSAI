@@ -1,0 +1,9 @@
+ID: 557
+CREATION_DATETIME: 1351375200000
+MODIFICATION_DATETIME: 1351375200000
+TITLE: ahh shit ... ok funktioniert danke!
+PARENT_POSTING_ID: 556
+POSTING_TYPE: comment
+CONTENT:
+ahh shit ... ok funktioniert danke!
+TAGGED_CONTENT:

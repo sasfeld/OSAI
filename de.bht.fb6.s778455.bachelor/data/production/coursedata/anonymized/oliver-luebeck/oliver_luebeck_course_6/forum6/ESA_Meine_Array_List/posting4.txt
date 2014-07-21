@@ -1,0 +1,17 @@
+ID: 44
+CREATION_DATETIME: 1288597320000
+MODIFICATION_DATETIME: 1288597320000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 41
+CONTENT:
+ 
+Ich habe in der Main Methode ein String Array erzeugt und Elemente mit Strings zur Liste hinzugefügt.
+In der Methode ausgebenAlleElem() ein Object Array erstellt und dieses an das String Array übergeben:
+Object[] neu = str.ausgebenAlleElem(); (str ist hier mein String Array)
+
+Und dann die for Schleife!
+
+Hoffe ich konnte dir helfen!
+ 	
+TAGGED_CONTENT:

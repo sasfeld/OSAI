@@ -1,0 +1,9 @@
+ID: 708
+CREATION_DATETIME: 1352329200000
+MODIFICATION_DATETIME: 1352329200000
+TITLE: Did you mean if requested to write bytes > bytes were written? fwrite() returns not the number of byt...
+PARENT_POSTING_ID: 682
+POSTING_TYPE: comment
+CONTENT:
+Did you mean if requested to write bytes > bytes were written? fwrite() returns not the number of bytes written but the number of elements, in case of implementing File::write() the way it was declared, element size is hidden. But this is not the main point, if something wrong happenes errno will be set to the corresponding value. Shouldn't one <NAME_CORPUS_REPLACEMENT> rely on default error mechanism instead of adding auxiliary checks? Personally, I cannot see how adding a check for return value <NAME_CORPUS_REPLACEMENT> be useful in this case.
+TAGGED_CONTENT:

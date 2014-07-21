@@ -1,0 +1,21 @@
+ID: 19
+CREATION_DATETIME: 1201000140000
+MODIFICATION_DATETIME: 1201000140000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+    
+    Hallo,
+wahrscheinlich ist die Antwort auf diese Frage nicht schwer, aber ich komme trotzdem nicht drauf! traurig
+Warum gibt es Applets die ich mit der Methode init(); aufrufen muss (z.B. dieses ganze Checkbox- und Radiobuttongedöns und dann wiederum die Grafiken wie Oval.java, Kreis.java etc. die ich einfach mit der Methode paint(); aufrufen kann.
+Das sind doch beides Applets. Eigentlich müsste ich das doch auch initialisieren, oder? Bitte um einfache Erklärung! zwinkernd
+
+Und dann noch eine Frage zu der allein abgehaltenen Webconf. zum Thema Rekursion? Hat jemand den Link gefunden?
+
+Danke schonmal im voraus.
+lg,
+    
+    
+TAGGED_CONTENT:

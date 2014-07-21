@@ -1,0 +1,9 @@
+ID: 1924
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: sehr schön, die headerfiles, welche in das testprojekt rüberkopiert werden müssen, liegen unter build...
+PARENT_POSTING_ID: 1920
+POSTING_TYPE: comment
+CONTENT:
+sehr schön, die headerfiles, welche in das testprojekt rüberkopiert werden müssen, liegen unter build/inc.
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 202
+CREATION_DATETIME: 1349560800000
+MODIFICATION_DATETIME: 1349560800000
+TITLE: Hi,
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 187
+POSTING_TYPE: answer
+CONTENT:
+Hi,
+
+kleiner Fehler noch: bei Links stehen im Plaintext &lt; und &gt; drumherum, wodurch man beim Draufklicken nicht den richtigen <REMOVED_PERSON_ENTITY>, sondern einen mit &gt dran bekommt.
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 2503
+CREATION_DATETIME: 1375826400000
+MODIFICATION_DATETIME: 1380146400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+die Homepage des Instituts Datenbanken scheint offline zu sein. Ich habe die Präsentationen und Übungen nicht gedownloaded und jetzt kann ich nicht lernen. Gibt es eine andere Möglichkeit, wie ich schnellstmöglich and die Sachen komme bzw. kann jemand die Dinge uploaden oder [mir senden]
+(mailto:s6260963@tu-dresden. de)?
+Vielen Dank!
+TAGGED_CONTENT:

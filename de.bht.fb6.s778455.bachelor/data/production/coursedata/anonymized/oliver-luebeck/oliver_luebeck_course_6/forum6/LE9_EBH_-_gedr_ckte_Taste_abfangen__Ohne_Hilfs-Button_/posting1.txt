@@ -1,0 +1,51 @@
+ID: 67
+CREATION_DATETIME: 1291581600000
+MODIFICATION_DATETIME: 1291581600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo an alle,
+
+beim Thema 3.4 KeyEvent in der LE9 werden 2 Buttons angezeigt und darunter ein Zeichenfeld mit einem kleinen Kreis. (Ich hänge ein Bild an)
+Der Kreis kann wandern, wenn die eine der Tasten l,r,u,o gedrückt wird.
+Nun habe ich "zum Wandern" die Pfeiltasten hinzugefügt und stoße auf folgendes Problem:
+
+Der KeyListener ist auf die Buttons gesetzt (siehe Quelltext Auzug).
+Wie kann ich die Tasteneingabe OHNE Hilfsbutton abfangen und den KeyListener auf das Fenster oder ähnliches setzen?
+* getContentPane().addKeyListener(this); //klappt nicht
+* this.addKeyListener(this); //klappt nicht
+
+
+3.4 KeyEvent und FokusEvent (Auszug)
+
+private Button a = new Button("Button A");
+private Button b = new Button("Button B");
+getContentPane().add(a);
+getContentPane().add(b);
+
+a.addKeyListener(this);
+b.addKeyListener(this);
+
+public void keyPressed(KeyEvent e) {
+if (e.getKeyChar() == 'r' || e.getKeyCode() == KeyEvent.VK_RIGHT) {
+xlinks = xlinks + schrittweite;
+}
+if (e.getKeyChar() == 'l' || e.getKeyCode() == KeyEvent.VK_LEFT) {
+xlinks = xlinks - schrittweite;
+}
+if (e.getKeyChar() == 'u' || e.getKeyCode() == KeyEvent.VK_DOWN) {
+yoben = yoben + schrittweite;
+}
+if (e.getKeyChar() == 'o' || e.getKeyCode() == KeyEvent.VK_UP) {
+yoben = yoben - schrittweite;
+}
+}
+
+URL http://moodle.oncampus.de/modules/ir019/onmod/GP2EBH/3systemnah/key.shtml?inhalt=true
+
+Ich danke im Voraus für eure Antworten.
+Gruß 
+	
+TAGGED_CONTENT:

@@ -1,0 +1,24 @@
+ID: 2369
+CREATION_DATETIME: 1374271200000
+MODIFICATION_DATETIME: 1381874400000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+I added kernelCopyTime measurements. So now scheduling and predictTime/saveFeedback use totalExecutionTime (executionTime + copyTime).
+
+New dump. csv:
+
+executionTime: kernelExecutionTime
+
+NEWpredictTime: predicted time after execution
+
+copyTime: kernelCopyTime (contains the copy time to and from the Device)
+
+totalpredictedTime: predicts time before execution
+
+totalExecutionTime: executionTime + copyTime
+
+Now we have proper predictions and good device scheduling decisions.
+TAGGED_CONTENT:

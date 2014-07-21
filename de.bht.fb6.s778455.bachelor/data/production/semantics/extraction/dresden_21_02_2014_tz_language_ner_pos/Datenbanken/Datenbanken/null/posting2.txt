@@ -1,0 +1,51 @@
+ID: 2521
+CREATION_DATETIME: 1376172000000
+MODIFICATION_DATETIME: 1381960800000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Vorlesungen;weight:1.0;significance:10.9167900460059;degreegeneralization:6;uri:20916641
+TOPIC_ZOOM_TAG: value:Ereignisse im Bereich Bildung, Erziehung und Ausbildung;weight:1.0;significance:9.2428136124342;degreegeneralization:3;uri:21872857
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:E;weight:0.0;uri:;postag:NN
+POS_TAG: value:ssel;weight:0.0;uri:;postag:NN
+POS_TAG: value:F;weight:0.0;uri:;postag:NN
+POS_TAG: value:ngigkeitserhaltung;weight:0.0;uri:;postag:NN
+POS_TAG: value:A;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zerlegung;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:B;weight:0.0;uri:;postag:NN
+POS_TAG: value:C;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zerlegen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Normalform;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ziel;weight:0.0;uri:;postag:NN
+POS_TAG: value:ngigkeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorlesung;weight:0.0;uri:;postag:NN
+POS_TAG: value:bung;weight:0.0;uri:;postag:NN
+POS_TAG: value:sselattributs;weight:0.0;uri:;postag:NN
+POS_TAG: value:Verlustfreiheit;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+
+das Ziel der 2. Normalform ist ja die volle funktionale Abhängigkeit jedes Nichtschlüsselattributs vom Primärschlüssel.
+
+Für mich ist aus 2a) ersichtlich, dass D und G nur <NAME_CORPUS_REPLACEMENT> A und B abhängig sind, sowie E und F nur <NAME_CORPUS_REPLACEMENT> A.
+
+Für mich ergibt sich intuitiv folgende Zerlegung:
+
+R1=(A, B, C)
+
+R2=(A, B, D, G)
+
+R3=(A, E, F)
+
+Jedoch ist in der Lösung R2 = (B, D, G). Ist meine Lösung ebenfalls korrekt, wenn nein, warum nicht?
+
+Und müsste man beim Zerlegen nicht auch Verlustfreiheit und Abhängigkeitserhaltung achten? Das wurde in der Vorlesung angesprochen, aber in der Übung wurde es nicht behandelt.
+TAGGED_CONTENT:
+Hi_NE ,_$, das_ART Ziel_NN der_ART 2_CARD ._$. Normalform_NN ist_VAFIN ja_ADV die_ART volle_ADJA funktionale_ADJA Abhängigkeit_NN jedes_PIDAT Nichtschlüsselattributs_NN vom_APPRART Primärschlüssel_NN ._$. Für_APPR mich_PPER ist_VAFIN aus_APPR 2a_CARD -RRB-_TRUNC ersichtlich_ADJD ,_$, dass_KOUS D_NE und_KON G_NE nur_ADV <_CARD NAME_CORPUS_REPLACEMENT_NN >_CARD A_NN und_KON B_NN abhängig_ADJD sind_VAFIN ,_$, sowie_KON E_NN und_KON F_NN nur_ADV <_CARD NAME_CORPUS_REPLACEMENT_NN >_NE A._NE Für_APPR mich_PPER ergibt_VVFIN sich_PRF intuitiv_ADJD folgende_ADJA Zerlegung_NN :_$. R1_XY =_XY -LRB-_TRUNC A_NN ,_$, B_NN ,_$, C_NN -RRB-_TRUNC R2_XY =_XY -LRB-_TRUNC A_NN ,_$, B_NN ,_$, D_NE ,_$, G_NE -RRB-_TRUNC R3_XY =_XY -LRB-_TRUNC A_NN ,_$, E_NN ,_$, F_NN -RRB-_TRUNC Jedoch_KON ist_VAFIN in_APPR der_ART Lösung_NN R2_XY =_XY -LRB-_TRUNC B_NN ,_$, D_NE ,_$, G_NE -RRB-_TRUNC ._$. Ist_VAFIN meine_PPOSAT Lösung_NN ebenfalls_ADV korrekt_ADJD ,_$, wenn_KOUS nein_PTKANT ,_$, warum_PWAV nicht_PTKNEG ?_$. Und_KON müsste_VVFIN man_PIS beim_APPRART Zerlegen_NN nicht_PTKNEG auch_ADV Verlustfreiheit_NN und_KON Abhängigkeitserhaltung_NN achten_VVINF ?_$. Das_PDS wurde_VAFIN in_APPR der_ART Vorlesung_NN angesprochen_VVPP ,_$, aber_KON in_APPR der_ART Übung_NN wurde_VAFIN es_PPER nicht_PTKNEG behandelt_VVPP ._$. 

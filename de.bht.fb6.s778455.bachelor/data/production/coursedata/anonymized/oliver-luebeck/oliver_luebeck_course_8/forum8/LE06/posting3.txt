@@ -1,0 +1,19 @@
+ID: 33
+CREATION_DATETIME: 1195674960000
+MODIFICATION_DATETIME: 1195674960000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 32
+CONTENT:
+
+Hallo,
+
+ich hab mir die NetBeans IDE mal genauer angeschaut und probiert, tolle Sache das mit der GUI so, kann man schön probieren. Nun kann man dort ja direkt ein neues Projekt als "Java Desktop Application" erstellen, dann bekommt man schon ein Grundgerüst geliefert und kann sich dort dann in der Designer-Ansicht probieren.
+
+Nun meine Frage: Wie kommt man denn in die Designer-Ansicht, ohne ein Projekt so zu erstellen bzw. das komplette Grundgerüst zu haben? Also ich habe nun z.B. schon ein bisschen was gebastelt und würde dann gerne mal über die Designer-Ansicht weitere sachen probieren. Irgendwie schaffe ich es aber nicht in diese Designer-Ansicht zu kommen (es geht nur, wenn ich ein neues Projekt als Java Desktop Application erstelle).
+
+Weiß da jemand mehr?
+
+mfg
+    
+TAGGED_CONTENT:

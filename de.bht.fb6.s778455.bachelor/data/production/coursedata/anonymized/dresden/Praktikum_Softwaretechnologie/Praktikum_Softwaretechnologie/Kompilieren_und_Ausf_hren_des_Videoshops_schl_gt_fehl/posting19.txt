@@ -1,0 +1,11 @@
+ID: 2676
+CREATION_DATETIME: 1383174000000
+MODIFICATION_DATETIME: 1383174000000
+TITLE: In der "Effective Pom" steht aber weiter unten dennoch die 5.0.1.Final. Daran liegt es also nicht, be...
+PARENT_POSTING_ID: 2662
+POSTING_TYPE: comment
+CONTENT:
+In der "Effective Pom" steht aber weiter unten dennoch die 5. 0. 1. Final. Daran liegt es also nicht, bei mir läuft auch die pom. xml so wie ich die ausgeliefert habe, ändern muss mal also nichts daran.
+Welche Annoationen? - Na diese hier natürlich "The import org. hibernate. validator. constraints. NotEmpty cannot be resolved".
+In ShopController. registerNew wird @Valid genutzt.
+TAGGED_CONTENT:

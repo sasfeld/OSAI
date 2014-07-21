@@ -1,0 +1,10 @@
+ID: 149
+CREATION_DATETIME: 1348351200000
+MODIFICATION_DATETIME: 1348351200000
+TITLE: Die Warnung solltest 
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 148
+POSTING_TYPE: answer
+CONTENT:
+Die Warnung solltest du <NAME_CORPUS_REPLACEMENT> nehmen, lokale Variablen werden meist auf dem Stack angelegt und sind nach Ende der Funktion ungueltig. Entweder gibt du den <REMOVED_PERSON_ENTITY> vom Aufrufer der Funktion mit oder allokierst ihn dir mittels malloc(), dann musst du aber aufpassen, dass es spaeter wieder freigegeben wird, sonst geht die frueher oder spaeter dein <REMOVED_PERSON_ENTITY> aus.
+TAGGED_CONTENT:

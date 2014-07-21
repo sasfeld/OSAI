@@ -1,0 +1,82 @@
+ID: 97802
+CREATION_DATETIME: 1290253328
+MODIFICATION_DATETIME: 1290253416
+TITLE: Binomialkoeffizienten
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=36374#97802
+TOPIC_ZOOM_TAG: value:Definitionen;weight:2.0;significance:9.57305529930478;degreegeneralization:3;uri:20913411
+TOPIC_ZOOM_TAG: value:Chat;weight:1.0;significance:4.65367606678589;degreegeneralization:7;uri:20901477
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:1.0;significance:3.25199587633262;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Lifestyle und Internet;weight:1.0;significance:2.53445361368796;degreegeneralization:6;uri:21999575
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Lifestyle, Mode, Schönheit;weight:1.0;significance:2.18595971379839;degreegeneralization:3;uri:21999456
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:1.7207726480701;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+POS_TAG: value:n.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fakultaeten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Werte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Binomialkoeffizienten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dreieck;weight:0.0;uri:;postag:NN
+POS_TAG: value:Summer;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skript;weight:0.0;uri:;postag:NN
+POS_TAG: value:Moodle;weight:0.0;uri:;postag:NN
+POS_TAG: value:Erinnerung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fakultaet;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorteil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beispiel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Methode;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gluecklicherweise;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ergebnis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bildungsgesetz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ausdruck;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Veranschaulichung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beispiele;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeilen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Seite;weight:0.0;uri:;postag:NN
+POS_TAG: value:Chat;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hand;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klammer;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anwendung;weight:0.0;uri:;postag:NN
+POS_TAG: value:k;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beobachtung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Lehrsatz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bildungsgesetzt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Binomialkoeffizient;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klammern;weight:0.0;uri:;postag:NN
+POS_TAG: value:B.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Definition;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Begleitend zum letzten Chat nochmals ein komplettes Beispiel zur Veranschaulichung:
+Der Binomialkoeffizient n ueber k (die Klammern muss ich wegen Moodle so seltsam setzen, eigentlich soll es eine grosse linke und eine grosse rechte Klammer sein):
+( n )
+( k )
+ist definiert als n! / ((n-k) ! k ! )
+(Erinnerung: Es gilt bereits 0! = 1, 1! = 1, ..., 3! = 3 * 2 * 1 usw.)
+Beispiele fuer Binomialkoeffizienten:
+( 3 )   ( 3 )   ( 3 )   ( 3 )
+( 0 )   ( 1 )   ( 2 )   ( 3 )
+Diese rechnet man mittels der Definition aus:
+1, 3, 3, 1
+Die <REMOVED_PERSON_ENTITY> ist 1+3+3+1=8=2^3
+Beobachtung: Wenn ich fuer beliebiges n die <REMOVED_PERSON_ENTITY> aller seiner Binomialkoeffizienten bilde erhalte ich immer 2^n als Ergebnis dieser <REMOVED_PERSON_ENTITY>.
+Die Binomialkoeffizienten sind nuetzlich, um z. B. (a+b)^n fuer beliebige n auszumultiplizieren (mit dem binomischen Lehrsatz, LO02 S. 63). Gluecklicherweise gibt es eine sehr schnelle Methode, die Binomialkoeffizienten fuer beliebige n auszurechnen ohne jedesmal die obige Definition mit den Fakultaeten auszurechnen. Denn es gilt das Pascal'sche Dreieck:
+n=0     1
+n=1   1  1
+n=2  1 2 1
+n=3 1 3 3 1
+usw.
+Das Bildungsgesetz ist sehr einfach und im Skript auf Seite 62 schoen erklaert. In jeder <REMOVED_PERSON_ENTITY> ergibt die Summer der Werte 2^n. Die Summer aller Werte in *allen* Zeilen ueber einer <REMOVED_PERSON_ENTITY> ergibt 2^n-1.
+Anwendung:
+Ich habe (a+b)^3, d. h. somit n=3.
+Dann ergibt sich:
+(a+b)^3 = 1*a^3 + 3*a^2b + 3*ab^2 + 1*b^3 
+Wenn ich (a+b)^2 rechne ergibt sich a^2 + 2ab + b^2.
+Vorteil: Ich muss weder Binomialkoeffizienten mittels Fakultaet errechnen noch den Ausdruck (a+b)^n von Hand ausmultiplizieren. Das obige Bildungsgesetzt gilt fuer alle n aus N.
+TAGGED_CONTENT:
+Begleitend_ADJD zum_APPRART letzten_ADJA Chat_NN nochmals_ADV ein_ART komplettes_ADJA Beispiel_NN zur_APPRART Veranschaulichung_NN :_$. Der_ART Binomialkoeffizient_NN n_XY ueber_ADJA k_NN -LRB-_TRUNC die_ART Klammern_NN muss_VVFIN ich_PPER wegen_APPR Moodle_NN so_ADV seltsam_ADJD setzen_VVINF ,_$, eigentlich_ADV soll_VMFIN es_PPER eine_ART grosse_ADJA linke_ADJA und_KON eine_ART grosse_ADJA rechte_ADJA Klammer_NN sein_PPOSAT -RRB-_TRUNC :_$. -LRB-_TRUNC n_XY -RRB-_TRUNC -LRB-_TRUNC k_XY -RRB-_TRUNC ist_VAFIN definiert_VVPP als_KOKOM n_XY !_$. \/_XY -LRB-_TRUNC -LRB-_TRUNC n-k_KON -RRB-_TRUNC !_$. k_XY !_$. -RRB-_TRUNC -LRB-_TRUNC Erinnerung_NN :_$. Es_PPER gilt_VVFIN bereits_ADV 0_CARD !_$. =_XY 1_CARD ,_$, 1_CARD !_$. =_XY 1_CARD ,_$, ..._$( ,_$, 3_CARD !_$. =_XY 3_CARD \*_CARD 2_CARD \*_CARD 1_CARD usw_NE ._$. -RRB-_TRUNC Beispiele_NN fuer_ADJA Binomialkoeffizienten_NN :_$. -LRB-_TRUNC 3_CARD -RRB-_TRUNC -LRB-_TRUNC 3_CARD -RRB-_TRUNC -LRB-_TRUNC 3_CARD -RRB-_TRUNC -LRB-_TRUNC 3_CARD -RRB-_TRUNC -LRB-_TRUNC 0_CARD -RRB-_TRUNC -LRB-_TRUNC 1_CARD -RRB-_TRUNC -LRB-_TRUNC 2_CARD -RRB-_TRUNC -LRB-_TRUNC 3_CARD -RRB-_TRUNC Diese_PDS rechnet_VVFIN man_PIS mittels_APPR der_ART Definition_NN aus_PTKVZ :_$. 1_CARD ,_$, 3_CARD ,_$, 3_CARD ,_$, 1_CARD Die_ART <_CARD REMOVED_PERSON_ENTITY_NN >_ADJD ist_VAFIN 1_CARD +3_CARD +3_CARD +1_XY =_XY 8_CARD =_XY 2_CARD ^_XY 3_CARD Beobachtung_NN :_$. Wenn_KOUS ich_PPER fuer_ADJD beliebiges_ADJA n_XY die_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD aller_PIS seiner_PPOSAT Binomialkoeffizienten_NN bilde_VVFIN erhalte_VVFIN ich_PPER immer_ADV 2_CARD ^_XY n_XY als_APPR Ergebnis_NN dieser_PDAT <_NN REMOVED_PERSON_ENTITY_NE >_NE ._$. Die_ART Binomialkoeffizienten_NN sind_VAFIN nuetzlich_ADJD ,_$, um_KOUI z._APPRART B._NN -LRB-_TRUNC a_XY +_XY b_XY -RRB-_TRUNC ^_XY n_XY fuer_PTKVZ beliebige_ADJA n_XY auszumultiplizieren_VVIZU -LRB-_TRUNC mit_APPR dem_ART binomischen_ADJA Lehrsatz_NN ,_$, LO02_CARD S._NE 63_CARD -RRB-_TRUNC ._$. Gluecklicherweise_NN gibt_VVFIN es_PPER eine_ART sehr_ADV schnelle_ADJA Methode_NN ,_$, die_ART Binomialkoeffizienten_NN fuer_ADJD beliebige_ADJA n_XY auszurechnen_VVIZU ohne_APPR jedesmal_ADV die_ART obige_ADJA Definition_NN mit_APPR den_ART Fakultaeten_NN auszurechnen_VVIZU ._$. Denn_KON es_PPER gilt_VVFIN das_ART Pascal_NE '_$( sche_ADJA Dreieck_NN :_$. n_XY =_XY 0_CARD 1_CARD n_XY =_XY 1_CARD 1_CARD 1_CARD n_XY =_XY 2_CARD 1_CARD 2_CARD 1_CARD n_XY =_XY 3_CARD 1_CARD 3_CARD 3_CARD 1_CARD usw_NE ._$. Das_ART Bildungsgesetz_NN ist_VAFIN sehr_ADV einfach_ADJD und_KON im_APPRART Skript_NN auf_APPR Seite_NN 62_CARD schoen_VVFIN erklaert_VVPP ._$. In_APPR jeder_PIDAT <_NN REMOVED_PERSON_ENTITY_NE >_CARD ergibt_VVFIN die_ART Summer_NN der_ART Werte_NN 2_CARD ^_XY n._NN Die_ART Summer_NN aller_PIDAT Werte_NN in_APPR \*_CARD allen_PIDAT \*_ADJA Zeilen_NN ueber_ADJD einer_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD ergibt_VVFIN 2_CARD ^_XY n-1_CARD ._$. Anwendung_NN :_$. Ich_PPER habe_VAFIN -LRB-_TRUNC a_XY +_XY b_XY -RRB-_TRUNC ^_XY 3_CARD ,_$, d._PDS h._VVFIN somit_ADV n_XY =_XY 3_CARD ._$. Dann_ADV ergibt_VVFIN sich_PRF :_$. -LRB-_TRUNC a_XY +_XY b_XY -RRB-_TRUNC ^_XY 3_CARD =_XY 1_CARD \*_CARD a_XY ^_CARD 3_CARD +_XY 3_CARD \*_CARD a_XY ^_CARD 2b_CARD +_XY 3_CARD \*_CARD ab_APPR ^_CARD 2_CARD +_XY 1_CARD \*_CARD b_XY ^_CARD 3_CARD Wenn_KOUS ich_PPER -LRB-_TRUNC a_XY +_XY b_XY -RRB-_TRUNC ^_XY 2_CARD rechne_VVFIN ergibt_VVFIN sich_PRF a_ART ^_NN 2_CARD +_XY 2ab_CARD +_XY b_XY ^_CARD 2_CARD ._$. Vorteil_NN :_$. Ich_PPER muss_VMFIN weder_KON Binomialkoeffizienten_NN mittels_APPR Fakultaet_NN errechnen_VVINF noch_ADV den_ART Ausdruck_NN -LRB-_TRUNC a_XY +_XY b_XY -RRB-_TRUNC ^_XY n_XY von_APPR Hand_NN ausmultiplizieren_VVINF ._$. Das_ART obige_ADJA Bildungsgesetzt_NN gilt_VVFIN fuer_ADJD alle_PIDAT n_XY aus_APPR N._NE 

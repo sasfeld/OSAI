@@ -1,0 +1,18 @@
+ID: 190701
+CREATION_DATETIME: 1357391080
+MODIFICATION_DATETIME: 1357391080
+TITLE: Re: LGS mit Gaußalgorithmus lösen
+TOPIC_ZOOM_TAG: value:Vektoren;weight:2.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 190381
+CONTENT:
+vielen Dank habe ich nun verstanden! :-)
+ 
+Kannst Du mir eventuell auch die Lösung der Aufgabe 52 im Script erklären. Ich komme dort auf folgendes Ergebnis:x1 = y-xx2 = -y+2xx3 = y+x+z/2
+Ich frage mich hier aber, ob ich richtig an die Aufgabe rangegangen bin. Als Koeffizientenmatrix habe ich die Vektoren gesetzt und als rechte <REMOVED_PERSON_ENTITY> habe ich den Vektor (x, y, z) genommen. Ich bezeifel aber, dass das Vorgehen korrekt ist.
+Schon einmal besten Dank und GrußPascal 
+TAGGED_CONTENT:

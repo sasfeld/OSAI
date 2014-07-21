@@ -1,0 +1,14 @@
+ID: 3055
+CREATION_DATETIME: 1385679600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi <REMOVED_PERSON_ENTITY>REMOVED_PERSON_ENTITY>,
+what is happening with the today' Systems Eng. I exercise "CAP theorem"?
+We were sitting in the class and the subject was from SE2.
+It would be helpful if we get next time a information that this lecture was canceled or changed.
+Best regards
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

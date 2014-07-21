@@ -1,0 +1,11 @@
+ID: 166975
+CREATION_DATETIME: 1349362315
+MODIFICATION_DATETIME: 1349362315
+TITLE: Re: Lerndiskussion nach den Webkonferenzen
+POS_TAG: value:Idee;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 166943
+CONTENT:
+Super  Idee! Mir geht es da genau wie dir...
+Gruß <PERSONAL_GREETING_REMOVEMENT>érome
+TAGGED_CONTENT:
+Super_ADJA Idee_NN !_$. Mir_PPER geht_VVFIN es_PPER da_ADV genau_ADJD wie_KOKOM dir_PPER ..._$( Gruß_NE <_NE PERSONAL_GREETING_REMOVEMENT_NE >_NE érome_VVFIN 

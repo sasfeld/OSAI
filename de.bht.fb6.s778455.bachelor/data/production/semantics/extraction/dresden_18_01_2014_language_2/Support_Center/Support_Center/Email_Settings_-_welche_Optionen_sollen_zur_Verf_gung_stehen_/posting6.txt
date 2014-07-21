@@ -1,0 +1,12 @@
+ID: 281
+CREATION_DATETIME: 1349906400000
+MODIFICATION_DATETIME: 1349906400000
+TITLE: Die bekommst du autom
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 100
+POSTING_TYPE: comment
+CONTENT:
+Die bekommst du automatisch. Denn sie werden mitgeliefert. Hier musst du einfach in deinem Programm einstellen, dass er Text bevorzugen soll. 
+
+Thunderbird: http://kb.mozillazine.org/Plain_text_e-mail_-_Thunderbird#Displaying_messages
+TAGGED_CONTENT:

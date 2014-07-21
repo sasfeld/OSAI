@@ -1,0 +1,9 @@
+ID: 1576
+CREATION_DATETIME: 1363993200000
+MODIFICATION_DATETIME: 1363993200000
+TITLE: Ich werde mir das die Tage näher anschauen. Danke für die ausführliche Erklärung!
+PARENT_POSTING_ID: 1462
+POSTING_TYPE: comment
+CONTENT:
+Ich werde mir das die Tage näher anschauen. Danke für die ausführliche Erklärung!
+TAGGED_CONTENT:

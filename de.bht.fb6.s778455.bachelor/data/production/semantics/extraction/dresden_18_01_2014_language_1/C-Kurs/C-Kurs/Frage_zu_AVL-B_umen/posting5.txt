@@ -1,0 +1,10 @@
+ID: 1042
+CREATION_DATETIME: 1358118000000
+MODIFICATION_DATETIME: 1358118000000
+TITLE: ich habe zw. Zeile 53 ein assert gesetzt, in Zeile 103 und in Zeile 134.Getan hat sich dabei nichts. ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1040
+POSTING_TYPE: comment
+CONTENT:
+ich habe zw. Zeile 53 ein assert gesetzt, in Zeile 103 und in Zeile 134. Getan hat sich dabei nichts. Muss ich eigentlich eine Schleife bauen, die den ganzen <REMOVED_PERSON_ENTITY> durchgeht? Assert prüft ja nur eine Stelle und wenn bei der rotation was schief läuft könnte das ja irgendwo passieren, oder?
+TAGGED_CONTENT:

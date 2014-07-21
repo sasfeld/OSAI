@@ -16,6 +16,7 @@ import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Course.LearnedWordTypes;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>
@@ -26,7 +27,7 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
  * @since 03.12.2013
  * 
  */
-public class LearnedNamesStrategyTest {
+public class LearnedNamesStrategyTest extends NoLoggingTest {
 	protected AAnomyzationStrategy anonymizationStrategy;
 
 	/*

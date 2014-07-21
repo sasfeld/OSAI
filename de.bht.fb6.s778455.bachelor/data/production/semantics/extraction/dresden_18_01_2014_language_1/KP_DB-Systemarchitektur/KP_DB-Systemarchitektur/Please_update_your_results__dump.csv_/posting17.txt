@@ -1,0 +1,12 @@
+ID: 2405
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: Folie 51 müsste doch auch noch die "Matrix" der einzelnen Kernel x Devices hinein. 
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2401
+POSTING_TYPE: comment
+CONTENT:
+Folie 51 müsste doch auch noch die "Matrix" der einzelnen Kernel x Devices hinein. 
+
+Soll ich mich gleich noch an die Änderungen setzen oder wollt ihr noch irgendetwas einpflegen, so dass ich lieber bis morgen früh warten soll?
+TAGGED_CONTENT:

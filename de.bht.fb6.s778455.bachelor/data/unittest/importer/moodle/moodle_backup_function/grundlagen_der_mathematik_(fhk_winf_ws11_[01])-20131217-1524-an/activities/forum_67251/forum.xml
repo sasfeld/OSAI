@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="13467" moduleid="67251" modulename="forum" contextid="94169">
+  <forum id="13467">
+    <type>general</type>
+    <name>Fachforum zum Teil II</name>
+    <intro>Hier können Sie Fachfragen zum Teil II diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1218802758</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="42910">
+        <name>Kapitel 2.4 - Aufgabe 2</name>
+        <firstpost>115381</firstpost>
+        <userid>769</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1320000751</timemodified>
+        <usermodified>769</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="115381">
+            <parent>0</parent>
+            <userid>769</userid>
+            <created>1319985828</created>
+            <modified>1319985828</modified>
+            <mailed>1</mailed>
+            <subject>Kapitel 2.4 - Aufgabe 2</subject>
+            <message>Hallo zusammen,&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;kann mir jemand die Herangehensweise für diese Aufgabe (Bausteine der Aussagenlogik) verraten:&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;-------------&lt;/div&gt;&lt;div&gt;&lt;div&gt;''Wer von euch Rabauken hat den Ball in mein Fenster geschossen?'' schreit der Mann wutschnaubend. Trotzig stehen die vier Kinder da.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Anette sagt: ''Ulf war es!'' Ulf sagt: ''Patrick hat es getan!'' Lena sagt: ''Ich war es nicht!'' Patrick sagt: ''Ulf hat gelogen!''&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Wenn nur eine(r) von den vieren gelogen hat, wer hat den Ball geschossen? Und wer wars, wenn nur eine(r) die Wahrheit gesagt hat? Wir gehen dabei davon aus, dass es sich um einen Einzeltäter (eine Einzeltäterin) handelt.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;-------------&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Irgendwie hab ich da keinen Ansatz bzw. ich vllt. etwas zu kompliziert.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Bisher hab ich versucht die Aussagen bzw. die Personen in einer Wahrheitstafel zu erfassen,  schaffe es aber nicht die Zusammenhänge in die Aussagenlogik zu übersetzten.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Danke &amp;amp; Gruß,&lt;/div&gt;&lt;div&gt; Jan&lt;/div&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="115382">
+            <parent>115381</parent>
+            <userid>665</userid>
+            <created>1319987386</created>
+            <modified>1319987386</modified>
+            <mailed>1</mailed>
+            <subject>Re: Kapitel 2.4 - Aufgabe 2</subject>
+            <message>&lt;p&gt;Hallo Herr Meiners,&lt;/p&gt;
+&lt;p&gt;meine Herangehensweise wäre hier nicht mit Wahrheitstafeln:&lt;/p&gt;
+&lt;p&gt;Überlegen Sie sich die Konsequenzen, wenn eine Person die Wahrheit sagt (Teilfrage 1). Wer war es dann? Das kann man natürlich auch jeweils mit aussagenlogischen Symbolen und Junktoren darstellen. Dann kann man in einem zweiten Schritt überlegen, wie die 4 Konsequenzen zusammenpassen. Es ergibt sich dann, dass es nur eine Möglichkeit gibt, dass eine Person die Wahrheit sagt und entsprechend die anderen Personen gelogen haben. Bei den anderen drei Möglichkeiten ergibt sich ein Widerspruch. Teilfrage 2 ist analog zu lösen.&lt;/p&gt;
+&lt;p&gt;Ich hoffe, das ist einigermaßen verständlich &lt;img title="zwinkernd" alt="zwinkernd" src="http://moodle.oncampus.de/pix/s/wink.gif" /&gt;&lt;/p&gt;
+&lt;p&gt;Ulrike Bähr&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="115383">
+            <parent>115382</parent>
+            <userid>769</userid>
+            <created>1320000751</created>
+            <modified>1320000751</modified>
+            <mailed>1</mailed>
+            <subject>Re: Kapitel 2.4 - Aufgabe 2</subject>
+            <message>Hallo Frau Bähr,&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;vielen Dank für die prompte Antwort. Das hat mir deutlich geholfen.&lt;/div&gt;&lt;div&gt;Ich hab wirklich zu kompliziert gedacht. Ich bin davon ausgegangen, dass man die Lösung in einem Schlag, also z.B. durch das Schreiben eine Wahrheitstabelle, ablesen kann. Durch die Einzelbetrachtung der Fälle und deren Konsequenzen ließ sich schnell die Aufgabe lösen.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Viele Grüße,&lt;/div&gt;&lt;div&gt;Jan Meiners&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="123170">
+        <userid>665</userid>
+      </subscription>
+      <subscription id="123171">
+        <userid>769</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

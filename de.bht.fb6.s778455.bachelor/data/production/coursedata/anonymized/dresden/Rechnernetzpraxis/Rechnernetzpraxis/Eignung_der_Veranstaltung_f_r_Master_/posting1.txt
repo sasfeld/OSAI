@@ -1,0 +1,12 @@
+ID: 1659
+CREATION_DATETIME: 1364940000000
+MODIFICATION_DATETIME: 1384988400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ist diese Veranstaltung für den Masterstudiengang Informatik (2010) geeignet? Ich möchte die Veranstaltung gern im nächsten Wintersemester in das Modul INF-VERT4 einbringen.
+**Problem:**
+Das Modul wird auf [rn. inf. tu-dresden. de](http://www.inf.tu-dresden. de/index. php?node_id=502&ln=de) nicht für den Master geführt. 
+Bei den [Vertiefungsmodulen für den Bachelor](http://web.inf.tu-dresden. de/Fak/w/13/inf_bachelor. html) und [Master](http://web.inf.tu-dresden. de/Fak/w/13/inf_master. html)  ist jedoch ein Kreuz bei der Eignung als Master. Das war vor allem ein Grund, warum ich die Veranstaltung eher auf den Master geschoben habe, statt sie im Bachelor zu besuchen. Nun fehlen mir genau diese 4 SWS, die ich durch keine andere Veranstaltung des Lehrstuhls Rechnernetze mehr einbringen kann.
+TAGGED_CONTENT:

@@ -1,0 +1,34 @@
+ID: 163851
+CREATION_DATETIME: 1348565570
+MODIFICATION_DATETIME: 1348565570
+TITLE: Re: Lerngruppe gesucht
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Fachhochschulen in Deutschland;weight:1.0;significance:6.007701167337;degreegeneralization:12;uri:21957551
+TOPIC_ZOOM_TAG: value:Fachhochschulen;weight:1.0;significance:5.8049686132829;degreegeneralization:5;uri:21881935
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:2.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:2.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Fakultäten;weight:1.0;significance:4.80875353093781;degreegeneralization:5;uri:20916947
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:2.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten in Deutschland;weight:1.0;significance:4.10436992245183;degreegeneralization:11;uri:21957585
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten in Europa;weight:1.0;significance:4.08262736648196;degreegeneralization:8;uri:20920126
+TOPIC_ZOOM_TAG: value:Studium und berufliche Ausbildung in Deutschland;weight:1.0;significance:4.08262736648196;degreegeneralization:10;uri:21881136
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung in Deutschland;weight:1.0;significance:3.81668785000005;degreegeneralization:9;uri:21998589
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung - Europa;weight:1.0;significance:3.79229276791534;degreegeneralization:7;uri:20742850
+TOPIC_ZOOM_TAG: value:Wissenschaft und Technik in Deutschland;weight:1.0;significance:2.72471669356842;degreegeneralization:9;uri:21946076
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Deutschland;weight:1.0;significance:1.01788212728215;degreegeneralization:8;uri:21996974
+TOPIC_ZOOM_TAG: value:Europa;weight:1.0;significance:0.777938407775155;degreegeneralization:6;uri:21972001
+NER_TAG: value:VFH;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:VFH;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:t;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kurse;weight:0.0;uri:;postag:NN
+POS_TAG: value:Katalog;weight:0.0;uri:;postag:NN
+POS_TAG: value:bersicht;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kurs;weight:0.0;uri:;postag:NN
+POS_TAG: value:vita;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 163799
+CONTENT:
+Ja, habe ich schon gemacht. Ich habe es allerdings auch nicht gleich gefunden.
+Du musst in der Kurs-Übersicht (<a https://vita. ostfalia. de/adm/coursecatalog?showdom=fhwf">https://vita. ostfalia. de/adm/coursecatalog?showdom=fhwf) den Katalog "Offizielle Kurse [...]" auswählen und dann bei Fakultät "VFH - [...]" nehmen. Dann sollte der Kurs angezeigt werden und du kannst dich eintragen.
+TAGGED_CONTENT:
+Ja_PTKANT ,_$, habe_VAFIN ich_PPER schon_ADV gemacht_VVPP ._$. Ich_PPER habe_VAFIN es_PPER allerdings_ADV auch_ADV nicht_PTKNEG gleich_ADV gefunden_VVPP ._$. Du_PPER musst_VMFIN in_APPR der_ART Kurs-Übersicht_NN -LRB-_TRUNC <_XY a_XY https:\/\/vita_VVINF ._$. ostfalia_NE ._$. de\/adm\/coursecatalog_PDS ?_$. showdom_XY =_XY fhwf_PTKVZ "_$( >_CARD https:\/\/vita_NN ._$. ostfalia_NE ._$. de\/adm\/coursecatalog_PDS ?_$. showdom_XY =_XY fhwf_APPR -RRB-_TRUNC den_ART Katalog_NN "_$( Offizielle_ADJA Kurse_NN -LSB-_TRUNC ..._$( -RSB-_TRUNC "_$( auswählen_VVINF und_KON dann_ADV bei_APPR Fakultät_NN "_$( VFH_NE -_$( -LSB-_TRUNC ..._$( -RSB-_TRUNC "_$( nehmen_VVINF ._$. Dann_ADV sollte_VMFIN der_ART Kurs_NN angezeigt_VVPP werden_VAINF und_KON du_PPER kannst_VMFIN dich_PRF eintragen_VVINF ._$. 

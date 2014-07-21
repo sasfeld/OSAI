@@ -1,0 +1,36 @@
+ID: 51
+CREATION_DATETIME: 1305211440000
+MODIFICATION_DATETIME: 1305211440000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 50
+CONTENT:
+  
+hab mir die differenzen mal ausgeben lassen und die waren nie genau.
+im anhang stehen die werte und so sah mein programm aus:
+import vfh.prog1.bib.Konsole;
+import java.lang.Math;
+
+public class Messwertanalyse {
+
+public static void main(String[] args) {
+
+double wert = Konsole.getInputDouble("Messwert:");
+double sollwert = Konsole.getInputDouble("Sollwert:");
+double abweichung = Math.abs(wert-sollwert);
+abweichung = Math.round(abweichung*100.)/100.;
+
+//Gibt Differenz aus und zeigt an ob Abweichung ok, brauchbar oder ausschuss ist
+if (wert == sollwert) {
+System.out.println("Differenz: " + abweichung + " (Messwert = Sollwert)");
+} else if (abweichung <= 0.1){
+System.out.print ("Differenz: " + abweichung + " (ok)");
+} else if (abweichung <= 0.5){
+System.out.print ("Differenz: " + abweichung + " (brauchbar)");
+} else {
+System.out.print ("Differenz: " + abweichung + " (Ausschuss)");
+}
+}
+}
+   
+TAGGED_CONTENT:

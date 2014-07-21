@@ -1,0 +1,9 @@
+ID: 1265
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Worauf bezieht sich das "Negativ"? Ich kann nichts falsches an Bens Aussage erkennen. Auch wenn du mi...
+PARENT_POSTING_ID: 1261
+POSTING_TYPE: comment
+CONTENT:
+Worauf bezieht sich das "Negativ"? Ich kann nichts falsches an Bens Aussage erkennen. Auch wenn du mit dem restlichen Recht hast, aber das war hier <LEARNED_PERSON_NAME_REPLACEMENT> gar nicht die Frage.
+TAGGED_CONTENT:

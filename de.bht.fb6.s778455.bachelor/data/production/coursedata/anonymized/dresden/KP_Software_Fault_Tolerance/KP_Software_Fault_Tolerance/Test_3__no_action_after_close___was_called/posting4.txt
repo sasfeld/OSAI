@@ -1,0 +1,9 @@
+ID: 670
+CREATION_DATETIME: 1352156400000
+MODIFICATION_DATETIME: 1352156400000
+TITLE: That's the typical implementation of a File class. Take a look for example [here](http://docs.python....
+PARENT_POSTING_ID: 667
+POSTING_TYPE: comment
+CONTENT:
+That's the typical implementation of a File class. Take a look for example [here](http://docs.python.org/2/library/stdtypes. html#file. close).
+TAGGED_CONTENT:

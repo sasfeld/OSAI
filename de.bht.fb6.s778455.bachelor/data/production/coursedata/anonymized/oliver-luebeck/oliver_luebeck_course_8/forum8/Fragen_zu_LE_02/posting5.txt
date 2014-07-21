@@ -1,0 +1,27 @@
+ID: 70
+CREATION_DATETIME: 1201341840000
+MODIFICATION_DATETIME: 1201341840000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 69
+CONTENT:
+
+Hallo,
+
+ja klar.
+Im Code steht ja schließlich:
+
+
+022 if (args.length != 2) { 023 System.out.println("\nAufruf des Programms:\n" 024 + "java DateiKopieren datei_1 datei_2"); 025 System.out.println("\ndatei_1: Datei aus der gelesen wird."); 026 System.out.println("datei_2: Datei in die geschrieben wird."); 027 System.exit(1); 028 }
+
+
+
+
+Also System.exit(1), beendet das Programm, wenn Parameter ungleich 2.
+Na sicher, so macht es auch Sinn.
+Alles klar.
+Vielen Dank.
+
+MfG
+    
+TAGGED_CONTENT:

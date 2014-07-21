@@ -1,0 +1,8 @@
+ID: 117586
+CREATION_DATETIME: 1324415058
+MODIFICATION_DATETIME: 1324415058
+TITLE: Probeklausur Aufgabe 5
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Mitstudenten, kann mir jemand einen <REMOVED_PERSON_ENTITY> geben, wie ich an die Aufgabe ran gehen soll?Ich habe an das Vektorprodukt nachgedacht. Könnt mir auch direkt an meine E-Mail schreiben, damit die Aufgabe für die anderen nicht leichter wird. GrüßeChristian
+TAGGED_CONTENT:

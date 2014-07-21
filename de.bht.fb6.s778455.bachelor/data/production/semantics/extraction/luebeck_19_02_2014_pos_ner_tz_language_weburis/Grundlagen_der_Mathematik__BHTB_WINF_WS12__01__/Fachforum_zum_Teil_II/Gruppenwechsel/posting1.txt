@@ -1,0 +1,14 @@
+ID: 186731
+CREATION_DATETIME: 1355231203
+MODIFICATION_DATETIME: 1355231203
+TITLE: Gruppenwechsel
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=69807#186731
+POS_TAG: value:Momentan;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Ich würde gerne diesmal in eine andere Gruppe wechseln.
+Ich bin Momentan in einer 4-er Gruppe. Gibt es noch eine andere 3-er Gruppe zu denen ich wechseln könnte?
+TAGGED_CONTENT:
+Ich_PPER würde_VAFIN gerne_ADV diesmal_ADV in_APPR eine_ART andere_ADJA Gruppe_NN wechseln_VVFIN ._$. Ich_PPER bin_VAFIN Momentan_NN in_APPR einer_ART 4-er_ADJA Gruppe_NN ._$. Gibt_VVFIN es_PPER noch_ADV eine_ART andere_ADJA 3-er_ADJA Gruppe_NN zu_APPR denen_PDS ich_PPER wechseln_VVINF könnte_VMFIN ?_$. 

@@ -1,0 +1,9 @@
+ID: 758
+CREATION_DATETIME: 1352761200000
+MODIFICATION_DATETIME: 1352761200000
+TITLE: Das ist natürlich immernoch Unsinn. Zunächst einmal ist ein Seminar nichtmal mit der Interpretation e...
+PARENT_POSTING_ID: 728
+POSTING_TYPE: comment
+CONTENT:
+Das ist natürlich immernoch Unsinn. Zunächst einmal ist ein Seminar nichtmal mit der Interpretation erforderlich, dass die frei wählbaren 4 SWS zusammen mit den jeweils 2 SWS Vorlesungen/Übungen eine Partition der 8 SWS bilden müssen — die frei wählbaren 4 SWS können ja schließlich auch ausschließlich Vorlesungen sein. Diese Interpretation ist aber sogar durch die Modulbeschreibung nicht gerechtfertigt, denn es steht explizit nicht dort, dass die frei wählbaren 4 SWS verschieden <NAME_CORPUS_REPLACEMENT> den 2+2 SWS sein müssen. Ganz im Gegenteil steht explizit „mindestens 2 SWS Übungen“ in der Modulbeschreibung. Wäre die Interpretation korrekt, wären mehr als 2 SWS Übungen nicht zulässig, und es gäbe also keinen <REMOVED_PERSON_ENTITY>, an dieser Stelle <NAME_CORPUS_REPLACEMENT> „mindestens“ zu sprechen. Das Vorhandensein dieser Qualifikation legt im Gegensatz aber nahe, dass explizit die Möglichkeit bedacht wurde, auch mehr als 2 SWS Übungen zu prüfen.
+TAGGED_CONTENT:

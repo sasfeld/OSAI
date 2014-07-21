@@ -1,0 +1,12 @@
+ID: 1646
+CREATION_DATETIME: 1364252400000
+MODIFICATION_DATETIME: 1364252400000
+TITLE: Okay, the satisfying answer I found (credits to Mr. Hähnel):  
+The softwares memory access to a virt...
+PARENT_POSTING_ID: 1634
+POSTING_TYPE: answer
+CONTENT:
+Okay, the satisfying answer I found (credits to Mr. <REMOVED_PERSON_ENTITY>):  
+The softwares memory access to a virtual address is translated normally by the MMU. The resulting physical address then is intercepted by the DMA-engine and forwarded to the device.  
+The IO-MMU is only involved if the device wants to use the RAM.
+TAGGED_CONTENT:

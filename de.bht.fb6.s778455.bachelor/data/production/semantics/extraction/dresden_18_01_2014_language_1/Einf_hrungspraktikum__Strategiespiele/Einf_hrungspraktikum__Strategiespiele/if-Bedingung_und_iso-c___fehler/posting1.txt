@@ -1,0 +1,20 @@
+ID: 1451
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi, wollte mal fragen ob jemand Antwort auf folgenden Fehler weiß:
+
+if (board[figur[0]-1][figur[1]-1] == " ") //wobei board vom typ char** ist.
+
+Die Fehlermeldung lautet dann:
+
+ISO-C++ verbietet Vergleich zwischen Zeiger und Ganzzahl [-fpermissve] 
+
+jetzt weiß ich nur nicht wie ich den Fehler beheben könnte - vieleicht weiß <LEARNED_PERSON_NAME_REPLACEMENT> einer weiter.
+
+Danke im vorraus.
+TAGGED_CONTENT:

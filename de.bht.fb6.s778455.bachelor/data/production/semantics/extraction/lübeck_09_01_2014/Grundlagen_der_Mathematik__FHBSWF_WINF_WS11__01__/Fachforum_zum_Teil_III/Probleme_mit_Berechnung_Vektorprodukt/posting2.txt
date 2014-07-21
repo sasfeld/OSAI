@@ -1,0 +1,8 @@
+ID: 117583
+CREATION_DATETIME: 1324415806
+MODIFICATION_DATETIME: 1324415806
+TITLE: Re: Probleme mit Berechnung Vektorprodukt
+PARENT_POSTING_ID: 117582
+CONTENT:
+Achte auf die Vorzeichen =) Lösung konnte nicht getestet werden, da ich die Aufgabe nicht gefunden habe in Lon <REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

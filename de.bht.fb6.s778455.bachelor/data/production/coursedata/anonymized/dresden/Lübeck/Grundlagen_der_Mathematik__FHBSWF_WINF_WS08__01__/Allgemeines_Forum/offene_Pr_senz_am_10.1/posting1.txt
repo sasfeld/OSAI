@@ -1,0 +1,8 @@
+ID: 16603
+CREATION_DATETIME: 1231534662
+MODIFICATION_DATETIME: 1231534662
+TITLE: offene Präsenz am 10.1.
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo, weiß jemand wo morgen die offene Präsenz der Medieninformatiker stattfindet?Danke. LG <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

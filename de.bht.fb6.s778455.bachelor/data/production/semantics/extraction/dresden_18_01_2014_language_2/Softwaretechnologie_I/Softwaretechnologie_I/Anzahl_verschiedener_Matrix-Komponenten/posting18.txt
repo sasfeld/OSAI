@@ -1,0 +1,10 @@
+ID: 2045
+CREATION_DATETIME: 1371074400000
+MODIFICATION_DATETIME: 1371074400000
+TITLE: Vielen Dank. Jetzt funktioniert es. In der Klausur war übrigens definiert: public E next() {return ne...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2044
+POSTING_TYPE: comment
+CONTENT:
+Vielen Dank. Jetzt funktioniert es. In der Klausur war übrigens definiert: public E next() {return next;}. So habe ich es jetzt auch implementiert. Außerdem heißt es "The idea behind this iterator is some kind of different. You need to call hasNext() between every next() to get the correct entry." Das sieht danach aus, als sollte dieser Iterator etwas anders funktionieren als typisch.
+TAGGED_CONTENT:

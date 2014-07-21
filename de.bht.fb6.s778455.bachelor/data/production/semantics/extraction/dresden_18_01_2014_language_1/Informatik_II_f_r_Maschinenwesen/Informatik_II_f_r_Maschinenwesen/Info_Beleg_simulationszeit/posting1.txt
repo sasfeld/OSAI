@@ -1,0 +1,30 @@
+ID: 2168
+CREATION_DATETIME: 1373061600000
+MODIFICATION_DATETIME: 1375221600000
+TITLE: null
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+wo liegt hier der Fehler bzw. was ist falsch? 
+
+// arbeiten für 60L simulationszeit
+
+				test. produktionsZyklus();
+
+				public abstract void arbeite(ZeitPunkt zeitstempel,  ZeitSpanne zeitZuArbeiten)
+
+				{
+
+					ZeitPunkt jetzt =zeitstempel;
+
+					ZeitPunkt ende = zeitstempel. nachZeitSpanne(zeitZuArbeiten);
+
+					jetzt = jetzt. nachZeitSpanne(new ZeitSpanne(60L));
+
+					if (jetzt. istNach(ende))
+
+					return;
+
+				}
+TAGGED_CONTENT:

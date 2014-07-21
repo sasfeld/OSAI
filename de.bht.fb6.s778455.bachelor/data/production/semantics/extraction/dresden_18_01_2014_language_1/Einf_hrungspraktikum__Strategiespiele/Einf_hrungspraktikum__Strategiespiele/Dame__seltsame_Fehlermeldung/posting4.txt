@@ -1,0 +1,14 @@
+ID: 1361
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Kannst du ausschließen, dass du *free()* auf einen Speicherbereich aufrufst, den du nicht mehr alloki...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 1357
+POSTING_TYPE: comment
+CONTENT:
+Kannst du ausschließen, dass du *free()* auf einen Speicherbereich aufrufst, den du nicht mehr allokiert hast?  
+
+Siehe `$ man 3 free`:
+
+> The free() function frees the memory space pointed to by ptr, which must have been returned by a previous call to malloc(), calloc() or realloc(). Otherwise, or if free(ptr) has already been called before, undefined behavior occurs.  If ptr is NULL, no operation is performed.
+TAGGED_CONTENT:

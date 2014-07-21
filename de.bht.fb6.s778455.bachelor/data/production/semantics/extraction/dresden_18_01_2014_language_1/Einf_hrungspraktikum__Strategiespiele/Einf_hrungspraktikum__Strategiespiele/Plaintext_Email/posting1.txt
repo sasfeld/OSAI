@@ -1,0 +1,16 @@
+ID: 187
+CREATION_DATETIME: 1349474400000
+MODIFICATION_DATETIME: 1349560800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+
+ich wollte euch nur mal fragen, ob diese plain text emails okay sind. Gibt es Verbesserungsvorschläge?
+
+Viele Grüße
+
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

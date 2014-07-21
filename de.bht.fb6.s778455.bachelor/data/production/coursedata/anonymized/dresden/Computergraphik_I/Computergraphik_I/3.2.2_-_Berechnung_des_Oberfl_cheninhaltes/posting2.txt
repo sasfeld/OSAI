@@ -1,0 +1,12 @@
+ID: 964
+CREATION_DATETIME: 1355180400000
+MODIFICATION_DATETIME: 1355266800000
+TITLE: Nein, Die Berechnung soll auch für nicht konvex Facetten funktionieren,.
+Die Berechnung unterscheide...
+PARENT_POSTING_ID: 961
+POSTING_TYPE: answer
+CONTENT:
+Nein, Die Berechnung soll auch für nicht konvex Facetten funktionieren,.
+Die Berechnung unterscheidet sich nicht wesentlich vom konvexen Fall. Man muss nur wissen, wie man einen Vorzeichenbehafteten Dreiecksflächeninhalt ausrechnet und die Animationsskizze aus der Vorlesung verstanden haben.
+Gruß <PERSONAL_GREETING_REMOVEMENT>ören
+TAGGED_CONTENT:

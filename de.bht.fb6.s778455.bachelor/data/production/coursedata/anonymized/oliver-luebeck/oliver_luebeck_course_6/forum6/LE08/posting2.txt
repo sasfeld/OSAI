@@ -1,0 +1,15 @@
+ID: 56
+CREATION_DATETIME: 1289850780000
+MODIFICATION_DATETIME: 1289850780000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 55
+CONTENT:
+
+Ich habe mir das in der Lektion angesprochene "data"-Verzeichnis in meinem neuen GUI-Projekt angelegt. Dahinein habe ich dann mit der Eclipse-Importfunktion das zuvor heruntergeladene Bild importiert.
+
+Danach kannst Du entweder vor den Dateinamen ein "data/" setzen oder Du setzt den Workspace wie in der Lektion angegeben auf das data-Verzeichnis. (Run - Run Configration...)
+
+Gruß
+	
+TAGGED_CONTENT:

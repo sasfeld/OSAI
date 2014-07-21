@@ -1,0 +1,15 @@
+ID: 168373
+CREATION_DATETIME: 1349721985
+MODIFICATION_DATETIME: 1349722306
+TITLE: Lektion1 Mächtigkeit & Vereinigungsmenge (?)
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+ich habe da noch einmal eine <REMOVED_PERSON_ENTITY> zur Mächtigkeit von Mengen. In der Lektion 1. 3. 1 taucht folgende <REMOVED_PERSON_ENTITY> auf:
+Die Erklärung dazu lautet"Die <REMOVED_PERSON_ENTITY> aller natürlichen Zahlen und die <REMOVED_PERSON_ENTITY> der geraden natürlichen Zahlen sind gleichmächtig, wie man durch folgende Zuordnung erkennt:"
+Warum diese Megen gleichmätig sind ist mir eigentlich bewusst. Ich komme mit der Syntax dieses Ausdruckes aber nicht so ganz zurecht. Das "2n |" irritiert mich etwas. Was genau soll dieser Ausdruck aussagen?
+Des Weiteren noch eine <REMOVED_PERSON_ENTITY> zur Vereinigungsmenge:Könnt ihr mir bitte erklären wie man folgende Aufgabenstellung löst.
+Die Vereinigungsmenge fasst zwei unterschiedliche Mengen zur einer neuen Menge zusamen. Aber leider verstehe ich nicht so ganz wie man diese Aufgabe lösen soll.
+Sorry wegen der vielen Nachfragen aber eventuell haben andere Mitstudenten ja ähnliche Fragen.
+Besten Dank und GrußPascal
+TAGGED_CONTENT:

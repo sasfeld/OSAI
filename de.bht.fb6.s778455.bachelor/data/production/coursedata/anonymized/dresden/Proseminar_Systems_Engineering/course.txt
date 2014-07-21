@@ -1,0 +1,8 @@
+ID: 110631010
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Proseminar Systems Engineering
+SUMMARY: 
+URL: http://tu-dresden.de/die_tu_dresden/fakultaeten/fakultaet_informatik/sysa/se/teaching/courses/ss/proseminar_systems_engineering

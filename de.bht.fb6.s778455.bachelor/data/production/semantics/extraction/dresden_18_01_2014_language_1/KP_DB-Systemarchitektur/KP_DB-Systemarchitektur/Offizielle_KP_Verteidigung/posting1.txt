@@ -1,0 +1,18 @@
+ID: 2089
+CREATION_DATETIME: 1371765600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> 22. Juli um 13 Uhr, im Oval (3105).
+
+Der ganze Lehrstuhl wird <NAME_CORPUS_REPLACEMENT> sein.
+
+Ich hätte gerne am 17. Juli die Präsentationsfolien, um nochmal drüber zu schauen.
+
+Danke,
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

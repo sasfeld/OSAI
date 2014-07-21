@@ -1,0 +1,15 @@
+ID: 2002
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Mergen. Ich geb' mir Mühe, heute Abend auch meine Folien fertig zu bekommen, dass ihr nicht alles auf...
+LANGUAGE: GERMAN
+POS_TAG: value:Folien;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abend;weight:0.0;uri:;postag:NN
+POS_TAG: value:cker;weight:0.0;uri:;postag:NN
+POS_TAG: value:he;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+Mergen. Ich geb' mir Mühe, heute Abend auch meine Folien fertig zu bekommen, dass ihr nicht alles auf den letzten Drücker mergen müsst.
+TAGGED_CONTENT:
+Mergen_NE ._$. Ich_PPER geb_VVFIN '_$( mir_PPER Mühe_NN ,_$, heute_ADV Abend_NN auch_ADV meine_PPOSAT Folien_NN fertig_ADJD zu_PTKZU bekommen_VVINF ,_$, dass_KOUS ihr_PPOSAT nicht_PTKNEG alles_PIS auf_APPR den_ART letzten_ADJA Drücker_NN mergen_VVFIN müsst_ADJD ._$. 

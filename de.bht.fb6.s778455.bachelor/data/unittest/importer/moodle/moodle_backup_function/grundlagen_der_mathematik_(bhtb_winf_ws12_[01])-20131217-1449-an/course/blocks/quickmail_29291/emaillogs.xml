@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block id="29291" blockname="quickmail" contextid="154201">
+  <emaillogs courseid="5701">
+    <log id="549">
+      <userid>10341</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>10349</mailto>
+      <subject>Heutiges Online Meeting Mathe </subject>
+      <message>&lt;p&gt;Hallo Thomas,&lt;/p&gt;
+&lt;p&gt;hast du eine Antwort von Herrn Mosner erhalten?&lt;/p&gt;
+&lt;p&gt;Findet Mathe nun statt oder nicht?&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;PS: Welche Programmiergruppe bist du?&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1349282845</time>
+    </log>
+    <log id="567">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3907,3881,10915,10921,3767,3769,3917,3781,10311,3885,10361,3933,3757,3785,10317,10319,10771,10321,10323,3897,3925,1905,10325,10327,10329,10331,3817,3759,10347,3941,10349,10355,3755,3931,10341,3805</mailto>
+      <subject>WINF_WS2012: Termin Online-Meeting</subject>
+      <message>&lt;p&gt;Liebe Studenten,&lt;/p&gt;
+&lt;p&gt;der Termin für "Grundlagen der Mathematik" jeweils am Mittwoch, 20 Uhr, wurde bereits vor Wochen geplant. Das Online-Labor trägt die Verantwortung, die Koordinierung der Webkonferenzen vorzunehmen.&lt;br /&gt;Dazu gibt es unter "Fachbereichskurs" die entsprechende Datei der Termine der Webkonferenzen.&lt;/p&gt;
+&lt;p&gt;Daher werden Sie verstehen, daß ich mich momentan ärgere, daß mein Standardtermin einfach und überraschend von einem anderen Fach belegt wurde.&lt;/p&gt;
+&lt;p&gt;Alle, die daher nicht teilgenommen haben, bitte den Mitschnitt ansehen.&lt;/p&gt;
+&lt;p&gt;Mit freundlichen Grüßen&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1349300377</time>
+    </log>
+    <log id="569">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3907,3881,10915,10921,3767,3769,3917,3781,10311,3885,10361,3933,3757,3785,10317,10319,10771,10321,10323,3897,3925,1905,10325,10327,10329,10331,3817,3759,10347,3941,10349,10355,3755,3931,10341,3805</mailto>
+      <subject>Aufgabenblatt Betragsungleichungen unter Kursmaterialien abgelegt</subject>
+      <message></message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1349302444</time>
+    </log>
+    <log id="621">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3907,3881,10915,10919,10921,3767,3769,3917,3781,10311,3885,10361,3933,11591,3757,3785,10317,10319,10771,10321,10323,3897,3925,1905,10325,10327,10329,10331,3817,3759,10347,10339,3941,10349,10353,10355,3755,3931,10341,3805</mailto>
+      <subject>Grundlagen der Mathematik (BHTB WINF WS12 [01]): Aufgabenblatt_2 zu Ungleichungen</subject>
+      <message>&lt;p&gt;Gute Idee von Konrad,&lt;/p&gt;
+&lt;p&gt;beiliegend noch etwas "Futter" für Ihre Web-Konferenz zum Thema Ungleichungen, Aufgaben aus einer alten Einsendeaufgabe gleich mit Lösungen.&lt;/p&gt;
+&lt;p&gt;Bei Aufgabe 2) könnte man den Lösungsweg noch etwas systematischer gestalten, indem man 4 Fäülle unterscheidet:&lt;br /&gt;1. Nenner &amp;gt; 0 und 2. Nenner .&amp;gt; 0&lt;br /&gt;:1. Nenner &amp;gt; 0 und 2. Nenner .&amp;lt; 0&lt;br /&gt;:1. Nenner &amp;lt; 0 und 2. Nenner .&amp;gt; 0&lt;br /&gt;:1. Nenner &amp;lt; 0 und 2. Nenner .&amp;lt; 0&lt;br /&gt;Natürlich fällt mindestens ein Fall sofort mit Widerspruch heraus, aber die Systematik könnte für diejenigen, die noch Schwierigkeiten haben, vorteilhaft sein.&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment>Aufgabenblatt_2_Ungleichungen_mit_Loesung_WS12.doc</attachment>
+      <format>1</format>
+      <time>1349431233</time>
+    </log>
+    <log id="1205">
+      <userid>3785</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>10323</mailto>
+      <subject>Gruppe für Einsendeaufgabe</subject>
+      <message>&lt;p&gt;Hallo Konrad,&lt;/p&gt;
+&lt;p&gt;hast du schon eine Gruppe für die Einsendeaufgabe? Falls nicht könnten wir ja ne Gruppe machen.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Grüße&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1350547404</time>
+    </log>
+    <log id="1213">
+      <userid>3785</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3757</mailto>
+      <subject>Gruppe für Einsendeaufgabe</subject>
+      <message>&lt;p&gt;Sag mal suchst du zufällig noch ne Gruppe für die Einsendeaufgabe?&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1350559742</time>
+    </log>
+    <log id="1249">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3907,3881,10915,10919,10921,3767,3769,3917,10307,3781,10311,3885,10361,3933,11591,3757,3785,10317,10319,10771,10321,10323,3897,3925,1905,10325,10327,10329,10331,3817,6071,3759,10347,10339,3941,10349,10353,10355,3755,3931,10341,3805</mailto>
+      <subject>Gruppenaufgaben_1</subject>
+      <message>&lt;p&gt;Liebe Studenten,&lt;br /&gt;&lt;br /&gt;beiliegend die Gruppenaufgaben_1, zusätzlich auch unter den Kursmaterialien abgelegt.&lt;br /&gt;&lt;br /&gt;Bitte bilden Sie wie besprochen Gruppen mit maximal 4 Studenten, bearbeiten die Aufgaben, einigen sich auf eine Lösung und schicken mir diese zu.&lt;br /&gt;&lt;br /&gt;Letzter Abgabetermin für Gruppenaufgaben_1 ist der 08. November 2012.&lt;br /&gt;&lt;br /&gt;Die erfolgreiche Bearbeitung der Gruppenaufgaben ist Voraussetzung für die Zulassung zur Klausur.&lt;/p&gt;
+&lt;p&gt;Geben Sie bitte in jeder email im Betreff "Grundlagen der Mathematik (BHTB WINF WS12 [01]):" an, falls dies nicht automatisch vom System hinzugefügt wird..&lt;br /&gt;&lt;br /&gt;Und bitte liefern Sie Ihre Arbeit in ansprechender Form ab, möglichst druckfähiges Format (doc, pdf).&lt;/p&gt;
+&lt;p&gt;Mit freundlichen Grüßen&lt;br /&gt;Lothar Moesner&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+      <attachment>Gruppenaufgabe1_LinAlg.doc,Gruppenaufgabe1_LinAlg.pdf</attachment>
+      <format>1</format>
+      <time>1350636912</time>
+    </log>
+    <log id="1251">
+      <userid>10341</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>10323,3769,10331</mailto>
+      <subject>Grupenaufgabe </subject>
+      <message>&lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;Herr Moesner hat die Aufgabe jetzt Online gestellt,  wie schon vorgeschlagen versuchen wir vielleicht erst mal jeder für sich die Aufgaben bis zum 1.11 zu lösen, ist vielleicht auch ein gutes Training.&lt;/p&gt;
+&lt;p&gt;In einem Online Meeting können wir die Lösungen dann vergleichen und senden Anschließend den besten Lösungsweg ein.&lt;/p&gt;
+&lt;p&gt;Wir können uns ja immer noch abstimmen wenn einer gar nicht voran kommt.  &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;MfG&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Peter&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1350638352</time>
+    </log>
+    <log id="1389">
+      <userid>10341</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>2647</mailto>
+      <subject>Frage zu boole´sche Algebra</subject>
+      <message>&lt;p&gt;Hallo Herr Moesner,&lt;/p&gt;
+&lt;p&gt;ich bearbeite derzeit Lernobjekt 4 und mir erschließt sich die Boolsche Algebra nicht wirklich, kennen Sie noch gut Links mit Erklärungen.&lt;/p&gt;
+&lt;p&gt;MfG&lt;/p&gt;
+&lt;p&gt;Peter W.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1350917606</time>
+    </log>
+    <log id="1517">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3907,3881,10915,10919,10921,3767,3769,3917,10307,3781,10311,3885,10361,3933,11591,3757,3785,10317,10319,10771,10321,10323,3897,3925,1905,10325,10327,10329,10331,3817,6071,3759,10347,10339,3941,10349,10353,10355,3755,3931,10341,10343,3805</mailto>
+      <subject>Gruppen anlegen und verwalten</subject>
+      <message>&lt;p&gt;Liebe Studenten,&lt;/p&gt;
+&lt;p&gt;ich habe nach Rückfrage beim Support mit deren Angaben, die Rechte so gesetzt, daß Sie nun selbst Gruppen anlegen können sollten (z.B. für die Bearbeitung Ihrer Einsendeaufgaben)..&lt;/p&gt;
+&lt;p&gt;Ich weiß nicht, ob es funktioniuert ;-)&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1351178195</time>
+    </log>
+    <log id="1729">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3907,3881,10915,10919,10921,3767,3769,3917,10307,3781,10311,3885,10361,3933,11591,3757,3785,10317,10319,10771,10321,10323,3897,3925,1905,10325,10327,10329,10331,3817,6071,3759,10347,10339,3941,10349,10353,10355,3755,3931,10341,10343,3805</mailto>
+      <subject>Kurs im Betreff angeben!</subject>
+      <message>&lt;p&gt;Ich erhalte immer noch emails ohne Kursangabe im Betreff.&lt;br /&gt;Demnächst werde ich auf solche emails nict antworten!&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1351588065</time>
+    </log>
+    <log id="1745">
+      <userid>3897</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>10311,10321,10349</mailto>
+      <subject>Einsendeaufgabe I</subject>
+      <message>Hi zusammen,
+
+habt Ihr denn schon einen Termin im Kopf damit wir mal die Aufgaben angehen?
+
+Grüße,
+
+Andreas</message>
+      <attachment></attachment>
+      <format>2</format>
+      <time>1351602225</time>
+    </log>
+    <log id="2135">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3881,10307,1905,10347</mailto>
+      <subject>Gruppenaufgaben_1</subject>
+      <message>&lt;p&gt;&lt;span style="color: navy; font-family: Arial; font-size: small;"&gt;Liebe Studenten,&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: navy; font-family: Arial; font-size: small;"&gt; die Prüfungsvorleistung Gruppenaufgabe_1 haben Sie erfolgreich erfüllt, &lt;br /&gt;fast fehlerfrei, nur in f) Fall 1 haben Sie das richtige -1/3 fehlerhaft in die Gesamtlösung übertragen.&lt;/span&gt;&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;span style="color: navy; font-family: Courier New; font-size: small;"&gt;Mit freundlichen Grüßen&lt;br /&gt;Lothar Moesner&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: black; font-family: Courier New; font-size: small;"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1352448906</time>
+    </log>
+    <log id="2137">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3759,10339,3755</mailto>
+      <subject>Gruppenaufgaben_1</subject>
+      <message>&lt;p&gt;&lt;span style="color: navy; font-family: Arial; font-size: small;"&gt;Liebe Studenten,&lt;br /&gt;die Prüfungsvorleistung Gruppenaufgabe_1 haben Sie erfolgreich erfüllt (fehlerfrei).&lt;/span&gt;&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;span style="color: navy; font-family: Courier New; font-size: small;"&gt;(In Aufg. f) dürfen Sie auch noch 8/24 auf 1/3 und 18/24 auf 3/4 kürzen. ;-)&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: navy; font-family: Courier New; font-size: small;"&gt;Mit freundlichen Grüßen&lt;br /&gt;Lothar Moesner&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: black; font-family: Courier New; font-size: small;"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1352449807</time>
+    </log>
+    <log id="2139">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>10915,10919,10921,10325</mailto>
+      <subject>Gruppenaufgaben_1</subject>
+      <message>&lt;p&gt;Gr_6:&lt;br /&gt; Nasser Ali&lt;br /&gt; Ragab El Sayed&lt;br /&gt; Ergün Aras&lt;br /&gt; Aline Maziewski&lt;/p&gt;
+&lt;p&gt;Liebe Studenten,&lt;br /&gt;&lt;br /&gt;in dieser Form in Schmierzettel-Gekrakel kann ich Ihre Einsendung NICHT akzeptieren!&lt;br /&gt;Die Leistung gilt damit nicht als erfüllt!&lt;br /&gt;&lt;br /&gt;Konsultieren Sie die anderen Gruppen! Lassen Sie sich beraten!&lt;br /&gt;Ich fordere von Ihnen eine Datei in irgendeinem Standard-Textverarbeitungsformat (z.B. doc oder pdf).&lt;br /&gt;&lt;br /&gt;Außerdem sind noch Fehler enthalten: d) -2/3 f; e) 1/3 eingeschlossen.&lt;br /&gt;&lt;br /&gt;Ich gebe Ihnen eine Chance zur Überarbeitung und Einsendung bis Mittwoch, 14.11.12!&lt;br /&gt; &lt;br /&gt;Mit freundlichen Grüßen&lt;br /&gt;Lothar Moesner&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1352451056</time>
+    </log>
+    <log id="2453">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3907,3881,10915,10919,10921,3767,3769,3917,10307,3781,10311,3885,10361,3933,11591,3757,3785,10317,10319,10771,10321,10323,3897,3925,1905,10325,10327,10329,10331,3817,6071,3759,10347,10339,3941,10349,10353,10351,10355,3755,3931,10341,10343,3805</mailto>
+      <subject>Tabelle Logische Identitäten</subject>
+      <message></message>
+      <attachment>lo5_Logische_Identitaeten.doc</attachment>
+      <format>1</format>
+      <time>1352923064</time>
+    </log>
+    <log id="2499">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>10915,10921,10919,10325</mailto>
+      <subject>Gruppenaufgaben_1</subject>
+      <message>&lt;p&gt;Hallo,&lt;/p&gt;
+&lt;p&gt;Sie haben nun im zweiten Anlauf die Leistung "Gruppenaufgaben_1" als Prüfungsvorleistung erfüllt.&lt;/p&gt;
+&lt;p&gt;Enthaltene Fehler:&lt;br /&gt;c) -1/2 ist auch lösung, daher eckige Klammer ] und nicht runde.&lt;br /&gt;d) Die Intervallklammern [( und )] sind unzulässig, nur [ und ] verwenden.&lt;br /&gt;e) Soll man sich hier eine Lösung L aussuchen? Die letzte Angabe ist falsch. Richtig ist nur: L=(-2/3;-1/3]u(1;unendl).&lt;br /&gt;f) Warum verwenden Sie hier eine andere Lösungsdarstellung als in den vorhergehenden Aufgaben? Außerdem ist in der Menge L ein  fehlerhaftes Zeichen ^.&lt;/p&gt;
+&lt;p&gt;Mit der Form bin ich auch noch nicht zufrieden.&lt;br /&gt;Lassen Sie sich beraten, z.B. von den Gruppen 1, 5 oder 7!&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1353047396</time>
+    </log>
+    <log id="2503">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3907,3881,10915,10919,10921,3767,3769,3917,10307,3781,10311,3885,10361,3933,11591,3757,3785,10317,10319,10771,10321,10323,3897,3925,1905,10325,10327,10329,10331,3817,6071,3759,10347,10339,3941,10349,10353,10351,10355,3755,3931,10341,10343,3805</mailto>
+      <subject>Gruppenaufgaben_1 Ergebnisse.</subject>
+      <message>&lt;p&gt;Liebe Studenten,&lt;/p&gt;
+&lt;p&gt;beiliegend die Liste der Ergebnisse der Prüfungsvorleistung  "Gruppenaufgaben_1".&lt;/p&gt;
+&lt;p&gt;Bei Unstimmigkeiten informieren Sie mich umgehend.&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment>Liste_Gruppenaufgaben_1_und_2_V1.doc</attachment>
+      <format>1</format>
+      <time>1353048472</time>
+    </log>
+    <log id="3379">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3907,3881,10915,10919,10921,3767,3769,3917,10307,3781,10311,3885,10361,3933,11591,3757,3785,10317,10319,10771,10321,10323,3897,3925,1905,10325,10327,10329,10331,3817,6071,3759,10347,10339,3941,10349,10353,10351,10355,3755,3931,10341,10343,3805</mailto>
+      <subject>Am Mittoch, 05.12.12, kein OM</subject>
+      <message>&lt;p&gt;Liebe Studenten,&lt;/p&gt;
+&lt;p&gt;wie besprochen biete ich zum Standard-Termin am Mittoch kein OM an, da wir am Freitag eine große Präsenz haben.&lt;/p&gt;
+&lt;p&gt;Anfragen sind aber jederzeit willkommen und werden zeitnah beantwortet.&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Mosner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1354626196</time>
+    </log>
+    <log id="3543">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3907,3881,10915,10919,10921,3767,3769,3917,10307,3781,10311,3885,10361,3933,11591,3757,3785,10317,10319,10771,10321,10323,3897,3925,1905,10325,10327,10329,10331,3817,6071,3759,10347,10339,3941,10349,10353,10351,10355,3755,3931,10341,10343,3805</mailto>
+      <subject>Probeklausur</subject>
+      <message>&lt;p&gt;Wie besprochen beiliegend eine Probeklausur.&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment>Klausur_LinAlg_WS10.pdf</attachment>
+      <format>1</format>
+      <time>1354877034</time>
+    </log>
+    <log id="3669">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3907,3881,10915,10919,10921,3767,3769,3917,10307,3781,10311,3885,10361,3933,11591,3757,3785,10317,10319,10771,10321,10323,3897,3925,1905,10325,10327,10329,10331,3817,6071,3759,10347,10339,3941,10349,10353,10351,10355,3755,3931,10341,10343,3805</mailto>
+      <subject>Probeklausur - Lösungen</subject>
+      <message>&lt;p&gt;Zur unlängst versandten Probeklausur beiliegend die Lösungen.&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment>Loesungen_LinAlg_WS1011.doc</attachment>
+      <format>1</format>
+      <time>1355212367</time>
+    </log>
+    <log id="3671">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3907,3881,10915,10919,10921,3767,3769,3917,10307,3781,10311,3885,10361,3933,11591,3757,3785,10317,10319,10771,10321,10323,3897,3925,1905,10325,10327,10329,10331,3817,6071,3759,10347,10339,3941,10349,10353,10351,10355,3755,3931,10341,10343,3805</mailto>
+      <subject>Gruppenaufgaben_2</subject>
+      <message>&lt;p&gt;Liebe Studenten,&lt;br /&gt;&lt;br /&gt;beiliegend die Gruppenaufgaben_2, zusätzlich auch unter den Kursmaterialien abgelegt.&lt;br /&gt;&lt;br /&gt;Bitte bilden Sie wie besprochen Gruppen mit maximal 4 Studenten (möglichst die bisherigen Gruppen beibehalten), bearbeiten die Aufgaben, einigen sich auf eine Lösung und schicken mir diese zu.&lt;br /&gt;&lt;br /&gt;Letzter Abgabetermin für Gruppenaufgaben_2 ist der 02. Januar 2013.&lt;br /&gt;&lt;br /&gt;Die erfolgreiche Bearbeitung der Gruppenaufgaben ist Voraussetzung für die Zulassung zur Klausur.&lt;/p&gt;
+&lt;p&gt;Geben Sie bitte in jeder email im Betreff "Grundlagen der Mathematik (BHTB WINF WS12 [01]):" an, falls dies nicht automatisch vom System hinzugefügt wird..&lt;br /&gt;&lt;br /&gt;Und bitte liefern Sie Ihre Arbeit in ansprechender Form ab, möglichst druckfähiges Format (doc, pdf).&lt;/p&gt;
+&lt;p&gt;Mit freundlichen Grüßen&lt;br /&gt;Lothar Moesner&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;</message>
+      <attachment>Gruppenaufgabe2_LinAlg.pdf,Gruppenaufgabe2_LinAlg.doc</attachment>
+      <format>1</format>
+      <time>1355213154</time>
+    </log>
+    <log id="4549">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>10915,10919,10921,10325</mailto>
+      <subject>Gruppenaufg._2</subject>
+      <message>&lt;p&gt;Hallo,&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: navy; font-family: Arial; font-size: small;"&gt;Schicken Sie bitte die Datei in einem Standardformat (doc/pdf oder komprimiert mit Winzip).&lt;br /&gt;Ich habe keinen passenden rar-Dearchiver.&lt;/span&gt;&lt;span style="color: navy; font-family: Courier New; font-size: small;"&gt; &lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: navy; font-family: Courier New; font-size: small;"&gt;Und erklären Sie bitte, wer Walled sein soll.&lt;br /&gt;Sie schrieben:&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: Tahoma; font-size: small;"&gt;"Leider habe ich den richtigen Nachnamen von meinem Gruppenteilnehmer Waleed vergessen. Es ist aber bei der alten Gruppe geblieben."&lt;/span&gt;&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;span style="color: navy; font-family: Courier New; font-size: small;"&gt;Mit freundlichen Grüßen&lt;br /&gt;Lothar Moesner&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;schicken Si&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1357218849</time>
+    </log>
+    <log id="4551">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>10339,3755,3759</mailto>
+      <subject>Gruppenaufgaben_2</subject>
+      <message>&lt;p&gt;Hallo,&lt;/p&gt;
+&lt;p&gt;ich vermisse Ihre Einsendung zu Gruppenaufgaben_2, gr_5: Schmalz, Tänzler, Pawellek.&lt;/p&gt;
+&lt;p&gt;Bitte umgehend antworten!&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1357219956</time>
+    </log>
+    <log id="4633">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3769,10341</mailto>
+      <subject>Gruppenaufgaben_2: Ergebnis</subject>
+      <message>&lt;p&gt;Liebe Studenten,&lt;/p&gt;
+&lt;p&gt;die Prüfungsvoraussetzung - erfolgreiche Bearbeitung der Gruppenaufgaben_2 - wurde von Ihnen erfüllt, wenn auch knapp und nicht ohne Fehler.&lt;/p&gt;
+&lt;p&gt;Sie haben damit alle Voraussetzungen zur Prüfungszulassung erreicht.&lt;/p&gt;
+&lt;p&gt;Teilaufg. 1:&lt;br /&gt;Ihr Ansatz ist in Ordnung, aber bereits in der 2. Zeile der Umformungen haben Sie den 4. Term falsch umgeformt: statt (N und V) ist (N oder V) richtig.&lt;br /&gt;Das Endergebnis ist dann fehlerhaft.&lt;/p&gt;
+&lt;p&gt;Teilaufg. 2:&lt;br /&gt;Ansatz OK, Aufstellen der Formeln auch.&lt;br /&gt;Beim Gaußschen Algorithmus haben Sie die Koeffizeinten von c und g vertauscht.&lt;br /&gt;Ergebnis damit falsch.&lt;/p&gt;
+&lt;p&gt;Außerdem fehlt die Bestimmung der singulären Matrizen.&lt;/p&gt;
+&lt;p&gt;Mit freundlichen Grüßen&lt;br /&gt;Lothar Moesner&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1357420485</time>
+    </log>
+    <log id="4635">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3881,10307,1905,10347</mailto>
+      <subject>Gruppenaufgaben_2 unvollständig?</subject>
+      <message>&lt;p&gt;Liebe StudentInnen,&lt;/p&gt;
+&lt;p&gt;der Lösungsweg zu Teilaufgabe 2 endet in Ihrer Zulieferung unvermittelt bevor eine endgültige Lösung angegeben wurde.&lt;br /&gt;&lt;br /&gt;Es fehlt auch der Teil zu singulären Matrizen.&lt;/p&gt;
+&lt;p&gt;Haben SIe etwas vergessen einzusenden?&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1357423444</time>
+    </log>
+    <log id="4637">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>10915,10921,10919,10325</mailto>
+      <subject>Gruppenaufgaben_2: Teil_2.pdf nicht OK</subject>
+      <message>&lt;p&gt;Hallo,&lt;/p&gt;
+&lt;p&gt;haben Sie die Datei Teil2.pdf vor dem Absenden nicht kontrolliert?&lt;br /&gt;Die Datei ist offensichtlich nicht korrekt konvertiert und damit nicht verwertbar!&lt;/p&gt;
+&lt;p&gt;Langsam reißt mir der Geduldsfaden!&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1357423759</time>
+    </log>
+    <log id="4779">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3907,3881,10915,10921,3767,3769,3917,10307,10919,3781,10311,3885,10361,3933,11591,3757,3785,10317,10319,10771,10321,10323,3897,3925,1905,10325,10327,10329,10331,3817,6071,3759,10347,10339,3941,10349,10353,10351,10355,3755,3931,10341,10343,3805</mailto>
+      <subject>OM heute, Inhalt</subject>
+      <message>&lt;p&gt;Auf die Frage, was denn heute im Online-Meeting behandelt wird, antwortet der Kursbetreuer:&lt;br /&gt;- Aussagenlogik werde ich nur dann behandeln, wenn ich keine Vektoralgebra mache.&lt;br /&gt;- Und ich werde entweder Lineare Gleichungssysteme oder Aussagenlogik anbieten.&lt;br /&gt;- Habe ich jedoch keine Linearen Gleichungssysteme auf dem Plan, so werde ich zumindest Vektoralgebra anbieten.&lt;br /&gt;- Immerhin: Wenn Sie Vektoralgebra erleben, so auch Aussagenlogik, aber keine Linearen Gleichungssysteme.&lt;br /&gt;&lt;br /&gt;Was kann der verwirrte Student nun heute abend erwarten?&lt;br /&gt;&lt;br /&gt;Gruß,&lt;br /&gt;Lothar Moesner&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1357724459</time>
+    </log>
+    <log id="4873">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3881,10307,1905,10347</mailto>
+      <subject>Gruppenaufgaben_2</subject>
+      <message>&lt;p&gt;Liebe Studenten,&lt;/p&gt;
+&lt;p&gt;Bitte senden Sie beide Teilaufgaben nochmals im pdf-Format oder doc-Format (Word-2003). Der Word2007-Konverter erzeugt eine Datei mit ? statt Konjunktion/Disjunktion-Symbol.&lt;/p&gt;
+&lt;p&gt;In der gestern eingesandte Teilaufg.2 ist die Einführung weiterer Parameter x,y,z unnötig. Dadurch wird die Übersicht nur erschwert.&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1357890266</time>
+    </log>
+    <log id="4881">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>10915,10921,10919,10325</mailto>
+      <subject>Gruppenaufgaben_2</subject>
+      <message>&lt;p&gt;Liebe Studenten,&lt;br /&gt;&lt;br /&gt;die Prüfungsvoraussetzung - erfolgreiche Bearbeitung der Gruppenaufgaben_2 - wurde von Ihnen erfüllt, wenn auch nicht ohne Fehler.&lt;br /&gt;Sie haben damit alle Voraussetzungen zur Prüfungszulassung erreicht.&lt;br /&gt;&lt;br /&gt;In Teilaufgabe2 ist der Ansatz korrekt aber beim Aufstellen der Gleichungen hat sich bereits bei 4.ein Übertragungsfehler eingeschlichen: 2a2=3a2+3a3 ist falsch; a8 statt a3, dadurch Endergebnis fehlerhaft.&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1357896657</time>
+    </log>
+    <log id="4923">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3907,3881,10915,10921,3767,3769,3917,10307,10919,3781,10311,3885,10361,3933,11591,3757,3785,10317,10319,10771,10321,10323,3897,3925,1905,10325,10327,10329,10331,3817,6071,3759,10347,10339,3941,10349,10353,10351,10355,3755,3931,10341,10343,3805</mailto>
+      <subject>Probeklausur_1; Aufg. 8</subject>
+      <message>&lt;p&gt;Hallo,&lt;/p&gt;
+&lt;p&gt;Peter Wachsmann hat einen Fehler im Lösungsangebot zur Probeklausur_1 entdeckt.&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: Times New Roman; font-size: medium;"&gt;Aufgabe 8&lt;br /&gt;Die Zeile:&lt;br /&gt;„Die obige Forderung AX – XA = A …“&lt;br /&gt;Hat sich fehlerhaft ins Lösungsangebot eingeschlichen.&lt;br /&gt;Die Rechnung darunter ist wieder OK.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: Times New Roman; font-size: medium;"&gt;MfG&lt;br /&gt;Lothar Moesner&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: Times New Roman; font-size: medium;"&gt; &lt;/span&gt;&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1357990797</time>
+    </log>
+    <log id="5049">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3881,10307,1905</mailto>
+      <subject>Gruppenaufgaben_2 und Prüfungszulassung</subject>
+      <message>&lt;p&gt;Liebe StudentInnen,&lt;/p&gt;
+&lt;p&gt;die Prüfungsvoraussetzung - erfolgreiche Bearbeitung der Gruppenaufgaben_2 - wurde von Ihnen erfüllt, wenn auch nicht ohne Fehler.&lt;br /&gt;Sie haben damit alle Voraussetzungen zur Prüfungszulassung erreicht.&lt;br /&gt;Herrn Alexander Rößner, der offensichtlich auch nicht mehr zu Ihrer Gruppe gehörte,  kann die Prüfungszulassung nicht erteilt werden.&lt;/p&gt;
+&lt;p&gt;Teilaufgabe 1:&lt;br /&gt;Schon in der ersten Aussage im Ansatz ein Fehler:&lt;br /&gt;statt der Disjunktion muß eine Konjunktion stehen; dadurch Endergebnis falsch.&lt;/p&gt;
+&lt;p&gt;Teilaufgabe 2:&lt;br /&gt;Bestimmung der möglichen Matrizen ist i.O.&lt;br /&gt;Sie brauchen aber keine weiteren Variablenbezeichnungen x,y,z einführen. Das verwirrt nur.&lt;br /&gt;Singuläre Matrizen: Die entstandene Gleichung hat unmittelbar eine Lösung z=0 und vereinfacht sich dadurch zu einer einfacheren quadr. Gl. it den Lösungen: y=x und y=-3x.&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1358159667</time>
+    </log>
+    <log id="5051">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>10347</mailto>
+      <subject>Gruppenaufgaben_2 und Prüfungszulassung</subject>
+      <message>&lt;p&gt;Hallo Herr Rößner,&lt;/p&gt;
+&lt;p&gt;ich kann Ihnen leider die Prüfungszulassung wegen fehlender Voraussetzungen nicht erteilen: keine Präsenzteilnahme, Gruppenaufgabe 2 fehlt.&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1358159866</time>
+    </log>
+    <log id="5327">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3907,3881,10915,10921,3767,3769,3917,10307,10919,3781,10311,3885,10361,3933,11591,3757,3785,10317,10319,10771,10321,10323,3897,3925,1905,10325,10327,10329,10331,3817,6071,3759,10347,10339,3941,10349,10353,10351,10355,3755,3931,10341,10343,3805</mailto>
+      <subject>Probeklausur_1 incl. Lösungen</subject>
+      <message>&lt;p&gt;Liebe Studenten,&lt;/p&gt;
+&lt;p&gt;beiliegend nochmals die Probeklausur_1 nun mit den Lösungen ergänzt.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment>Loesungen_LinAlg_WS10.pdf</attachment>
+      <format>1</format>
+      <time>1358594238</time>
+    </log>
+    <log id="5329">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3907,3881,10915,10921,3767,3769,3917,10307,10919,3781,10311,3885,10361,3933,11591,3757,3785,10317,10319,10771,10321,10323,3897,3925,1905,10325,10327,10329,10331,3817,6071,3759,10347,10339,3941,10349,10353,10351,10355,3755,3931,10341,10343,3805</mailto>
+      <subject>Probeklausur_3_incl_Loesungen</subject>
+      <message>&lt;p&gt;Eine weitere und letzte Probeklausur incl. Lösungen.&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment>Probeklausur_3_incl_Loesungen.doc</attachment>
+      <format>1</format>
+      <time>1358595124</time>
+    </log>
+    <log id="6367">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3907,3881,10915,10921,3767,3769,3917,10307,10919,3781,10311,3885,10361,3933,11591,3757,3785,10317,10319,10771,10321,10323,3897,3925,1905,10325,10327,10329,10331,3817,6071,3759,10347,10339,3941,10349,10353,10351,10355,3755,3931,10341,10343,3805</mailto>
+      <subject>Prüfungsergebnisse </subject>
+      <message>&lt;p&gt;Liebe Studenten,&lt;/p&gt;
+&lt;p&gt;die Prüfungsergebnisse zu "Grundlagen der Mathematik" liegen vor.&lt;br /&gt;Ich werde Ihnen die Ergebnisse individuell mitteilen und bitte um Nachsicht, daß die einzelnen emails wegen der Anzahl der emails recht knapp ausfallen werden.&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1360585627</time>
+    </log>
+    <log id="6369">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3881</mailto>
+      <subject>Prüfungsergebnis</subject>
+      <message>&lt;p&gt;Hallo Frau Aksoy,&lt;/p&gt;
+&lt;p&gt;ich freue mich Ihnen mitteilen zu können, daß Sie die Prüfung sicher mit 36 Punkten bestanden haben, Note: 3,0.&lt;/p&gt;
+&lt;p&gt;Mit gutem Gewissen kann ich sagen, daß man an Ihrer Arbeit sieht, daß Sie Vieles verstanden haben und anwenden können.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;Viel Erfolg weiterhin!&lt;/p&gt;
+&lt;p&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1360585838</time>
+    </log>
+    <log id="6371">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>10311</mailto>
+      <subject>Ihr Prüfungsergebnis</subject>
+      <message>&lt;p&gt;Punkte: 56,0&lt;/p&gt;
+&lt;p&gt;Note: 1,0&lt;/p&gt;
+&lt;p&gt;Glückwunsch und weiterhin viel Erfolg!&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1360586169</time>
+    </log>
+    <log id="6373">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>11591</mailto>
+      <subject>Ihr Prüfungsergebnis </subject>
+      <message>&lt;p&gt;Punkte: 28,0&lt;/p&gt;
+&lt;p&gt;Note: 4,0&lt;/p&gt;
+&lt;p&gt;Sehr knapp, aber geschafft!&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1360586292</time>
+    </log>
+    <log id="6375">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3785</mailto>
+      <subject>Ihr Prüfungsergebnis</subject>
+      <message>&lt;p&gt;Punkte: 54,0&lt;/p&gt;
+&lt;p&gt;Note: 1,0&lt;/p&gt;
+&lt;p&gt;Glückwunsch und weiterhin viel Erfolg!&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1360586411</time>
+    </log>
+    <log id="6377">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>10771</mailto>
+      <subject>Ihr Prüfungsergebnis</subject>
+      <message>&lt;p&gt;Punkte: 42,0&lt;/p&gt;
+&lt;p&gt;Note: 2,3&lt;/p&gt;
+&lt;p&gt;Viele (einfache) Fehler! &lt;br /&gt;Bei mehr Sorgfalt hätte es eine "1" werden können!&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1360586587</time>
+    </log>
+    <log id="6379">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>10327</mailto>
+      <subject>Ihr Prüfungsergebnis</subject>
+      <message>&lt;p&gt;Punkte: 45,0&lt;/p&gt;
+&lt;p&gt;Note: 2,0&lt;/p&gt;
+&lt;p&gt;Glückwunsch und weiterhin viel Erfolg!&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1360586663</time>
+    </log>
+    <log id="6381">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>10331</mailto>
+      <subject>Ihr Prüfungsergebnis</subject>
+      <message>&lt;p&gt;Punkte: 36,5&lt;/p&gt;
+&lt;p&gt;Note: 3,0&lt;/p&gt;
+&lt;p&gt;Weiterhin viel Erfolg!&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1360586912</time>
+    </log>
+    <log id="6383">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3759</mailto>
+      <subject>Ihr Prüfungsergebnis</subject>
+      <message>&lt;p&gt;Sie wissen es ja bereits, da Sie es selbt bestimmt haben:&lt;/p&gt;
+&lt;p&gt;Punkte: 0,0&lt;br /&gt;Note: 5,0&lt;/p&gt;
+&lt;p&gt;Ich weiß, daß Sie es schaffen können, also viel Erfolg beim zweiten Versuch!&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1360587163</time>
+    </log>
+    <log id="6385">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>10353</mailto>
+      <subject>Ihr Prüfungsergebnis</subject>
+      <message>&lt;p&gt;Punkte: 33,0&lt;/p&gt;
+&lt;p&gt;Note: 3,3&lt;/p&gt;
+&lt;p&gt;Weiterhin viel Erfolg!&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1360587238</time>
+    </log>
+    <log id="6387">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>10341</mailto>
+      <subject>Ihr Prüfungsergebnis</subject>
+      <message>&lt;p&gt;Punkte: 45,0&lt;/p&gt;
+&lt;p&gt;Note:  2,0&lt;/p&gt;
+&lt;p&gt;Glückwunsch und weiterhin viel Erfolg!&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1360587324</time>
+    </log>
+    <log id="6389">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3805</mailto>
+      <subject>Ihr Prüfungsergebnis</subject>
+      <message>&lt;p&gt;Punkte: 33,0&lt;/p&gt;
+&lt;p&gt;Note: 3,3&lt;/p&gt;
+&lt;p&gt;Weiterhin viel Erfolg!&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1360587386</time>
+    </log>
+    <log id="7083">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>10307</mailto>
+      <subject>Prüfungsergebnis</subject>
+      <message>&lt;p&gt;Hallo Herr Duckert,&lt;/p&gt;
+&lt;p&gt;Sie ahnten es ja bereits, &lt;br /&gt;Ergebnis: 11 Punkte&lt;br /&gt;Note: 5,0&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1363775022</time>
+    </log>
+    <log id="7085">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3933</mailto>
+      <subject>Prüfungsergebnis</subject>
+      <message>&lt;p&gt;Hallo Herr Hoffmann,&lt;/p&gt;
+&lt;p&gt;Sie wissen es ja bereits, &lt;br /&gt;Ergebnis: 1 Punkt&lt;br /&gt;Note: 5,0&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1363775132</time>
+    </log>
+    <log id="7087">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3897</mailto>
+      <subject>Prüfungsergebnis</subject>
+      <message>&lt;p&gt;Hallo Herr Ladendorf,&lt;/p&gt;
+&lt;p&gt;leider hat es nicht gereicht, keine Aufgabe richtig.&lt;br /&gt;Teilweise wirkt die Arbeit recht konfus.&lt;/p&gt;
+&lt;p&gt;Ergebnis:&lt;br /&gt;25 Punkte/ Note 5,0&lt;/p&gt;
+&lt;p&gt;Lassen Sie sich von Mitstudenten aus Ihrem Team helfen!&lt;/p&gt;
+&lt;p&gt;Viel Erfolg beim nächsten Versuch&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1363775368</time>
+    </log>
+    <log id="7089">
+      <userid>2647</userid>
+      <courseid>5701</courseid>
+      <alternateid>$@NULL@$</alternateid>
+      <mailto>3759</mailto>
+      <subject>Prüfungsergebnis</subject>
+      <message>&lt;p&gt;Hallo Herr Pawellek,&lt;/p&gt;
+&lt;p&gt;Ihr Ergebnis: 49 Punkte (von 60) / Note 1,7 &lt;/p&gt;
+&lt;p&gt;Trotz vieler Fehler (nur Aufgabe 7 - Vektoralgebra komplett richtig) ein gutes Ergebnis.&lt;/p&gt;
+&lt;p&gt;Viel Erfolg weiterhin!&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;</message>
+      <attachment></attachment>
+      <format>1</format>
+      <time>1363775619</time>
+    </log>
+  </emaillogs>
+</block>

@@ -1,0 +1,9 @@
+ID: 163851
+CREATION_DATETIME: 1348565570
+MODIFICATION_DATETIME: 1348565570
+TITLE: Re: Lerngruppe gesucht
+PARENT_POSTING_ID: 163799
+CONTENT:
+Ja, habe ich schon gemacht. Ich habe es allerdings auch nicht gleich gefunden.
+Du musst in der Kurs-Übersicht (<a https://vita. ostfalia. de/adm/coursecatalog?showdom=fhwf">https://vita. ostfalia. de/adm/coursecatalog?showdom=fhwf) den Katalog "Offizielle Kurse [...]" auswählen und dann bei Fakultät "VFH - [...]" nehmen. Dann sollte der Kurs angezeigt werden und du kannst dich eintragen.
+TAGGED_CONTENT:

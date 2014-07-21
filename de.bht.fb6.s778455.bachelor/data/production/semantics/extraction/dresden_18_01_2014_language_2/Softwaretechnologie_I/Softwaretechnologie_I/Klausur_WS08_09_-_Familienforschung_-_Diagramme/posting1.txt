@@ -1,0 +1,30 @@
+ID: 2249
+CREATION_DATETIME: 1373925600000
+MODIFICATION_DATETIME: 1381960800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo, folgende Frage zur <REMOVED_PERSON_ENTITY> - Klausur WS08/09:
+
+In Aufgabe 1a) soll das UML-Analyseklassendiagramm erstellt werden. Im Text steht: "Eine Person hat genau eine (leibliche) Mutter und einen (leiblichen) <NAME_CORPUS_REPLACEMENT>. Es kann allerdings sein, dass sowohl die Mutter als auch der <NAME_CORPUS_REPLACEMENT> nicht bekannt sind.". 
+
+Ich würde das wie im Bild
+
+http://img4. fotos-hochladen. net/uploads/pict1310fgcm9teyu7. jpg
+
+darstellen (in der Klasse Person ist nur die Methode meineMutter() beispielhaft, weil in 1b) genutzt, eingezeichnet), bin mir aber nicht sicher, ob man das "Nichtbekanntsein" an den Multiplizitäten durch die 0 ausdrückt, allerdings tendiere ich zu Variante I, <NAME_CORPUS_REPLACEMENT> es ja immer einen leibliche(n) <NAME_CORPUS_REPLACEMENT> / Mutter gibt.
+
+In Aufgabe 1b) soll das Sequenzdiagramm für die Ermittlung der Mutter mütterlicherseits (also der Großmutter) darstellen (Gegeben ist der <REMOVED_PERSON_ENTITY> ich sowie ich:Person); allerdings weiß ich nicht so richtig, wie ich das modellieren soll.
+
+In der Variante I wird die Methode "meineMutter()" des ich-Objektes aufgerufen, dieses gibt ein Mutter-Objekt zurück. Auf dem Mutter-Objekt wird wieder meineMutter() aufgerufen, dass das Großmutter-Objekt zurückgibt, <NAME_CORPUS_REPLACEMENT> ja "meineMutter() <NAME_CORPUS_REPLACEMENT> Mutter die Großmutter ist.
+
+In der Variante II wird sofort die Methode meineMutter() des Mutter-Objektes aufgerufen, die wiederum die Methode meineMutter() des Großmutter-Objektes aufruft und das Großmutter-Objekt zurückgibt. 
+
+Ich würde allerdings zu Variante I tendieren, dass meineMutter() des ich-Objektes aufgerufen wird, die wiederum meineMutter() <NAME_CORPUS_REPLACEMENT> Mutter aufruft.
+
+Kann mal einer sagen, was richtig und was falsch (an beiden Aufgaben) ist. Oder ist <NAME_CORPUS_REPLACEMENT> völliger Quark dabei?
+
+Danke.  
+TAGGED_CONTENT:

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="22725" moduleid="110827" modulename="forum" contextid="155529">
+  <forum id="22725">
+    <type>news</type>
+    <name>Wichtige Ankündigungen</name>
+    <intro>&lt;p&gt;General news and announcements&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>1</scale>
+    <maxbytes>0</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1348132280</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="60375">
+        <name>Start der Online-Betreuung</name>
+        <firstpost>162555</firstpost>
+        <userid>665</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1348297938</timemodified>
+        <usermodified>665</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="162555">
+            <parent>0</parent>
+            <userid>665</userid>
+            <created>1348297938</created>
+            <modified>1348297938</modified>
+            <mailed>1</mailed>
+            <subject>Start der Online-Betreuung</subject>
+            <message>&lt;p&gt;Liebe Studierenden,&lt;/p&gt;
+&lt;p&gt;schön, dass Sie sich schon so frühzeitig mit dem Ablauf Ihres Studiums befassen. Den Zeitplan und die Termine für die Videokonferenzen finden Sie jetzt (aktualisiert) unter Kursplan. In unserer ersten Videokonferenz am 2.10.12 (19 Uhr) werden wir alle organisatorischen Fragen klären.&lt;/p&gt;
+&lt;p&gt;Bis dann und einen erfolgreichen Start!&lt;/p&gt;
+&lt;p&gt;Ulrike Bähr&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="65007">
+        <name>Verlegung Video-Konferenz</name>
+        <firstpost>174733</firstpost>
+        <userid>665</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1351268563</timemodified>
+        <usermodified>665</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="174733">
+            <parent>0</parent>
+            <userid>665</userid>
+            <created>1351268563</created>
+            <modified>1351268563</modified>
+            <mailed>1</mailed>
+            <subject>Verlegung Video-Konferenz</subject>
+            <message>&lt;p&gt;Liebe Studierenden,&lt;/p&gt;
+&lt;p&gt;wie Sie vielleicht festgestellt haben, steht Ihnen die 2. Einsendeaufgabe bereits seit heute morgen zur Bearbeitung zur Verfügung. Aus organisatorischen Gründen wird der Abgabetermin auf den &lt;strong&gt;1. November (14 Uhr) &lt;/strong&gt; vorgezogen. Eine Besprechung der Aufgabe erfolgt in einer Video-Konferenz am Donnerstag, &lt;strong&gt;1. November um 19 Uhr&lt;/strong&gt;, gemäß meinem Plan nach Ihrer Video-Konferenz in BWL.&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Die Video-Konferenz am Dienstag, 6. November entfällt.&lt;/p&gt;
+&lt;p&gt;Eine zusätzliche Video-Konferenz findet deshalb in der folgenden Woche am &lt;strong&gt;Dienstag, 13. November&lt;/strong&gt; statt. Auf diese Weise können hoffentlich alle Fragen beantwortet werden.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Viele Grüße&lt;/p&gt;
+&lt;p&gt;Ulrike Bähr&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="67463">
+        <name>Lösung 2. Einsendeaufgabe</name>
+        <firstpost>181141</firstpost>
+        <userid>665</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1353251952</timemodified>
+        <usermodified>665</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="181141">
+            <parent>0</parent>
+            <userid>665</userid>
+            <created>1353251952</created>
+            <modified>1353251952</modified>
+            <mailed>1</mailed>
+            <subject>Lösung 2. Einsendeaufgabe</subject>
+            <message>&lt;p&gt;Liebe Studierenden,&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;die Lösung der 2. Einsendeaufgabe ist jetzt aktualisiert, d.h. mit einer ausführlichen Lösung für Teil b) versehen!&lt;/p&gt;
+&lt;p&gt;Viele Grüße&lt;/p&gt;
+&lt;p&gt;Ulrike Bähr&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="71841">
+        <name>Übungsklausur</name>
+        <firstpost>191795</firstpost>
+        <userid>665</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1357653656</timemodified>
+        <usermodified>665</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="191795">
+            <parent>0</parent>
+            <userid>665</userid>
+            <created>1357653603</created>
+            <modified>1357653656</modified>
+            <mailed>1</mailed>
+            <subject>Übungsklausur</subject>
+            <message>&lt;p&gt;Liebe Studierenden,&lt;/p&gt;
+&lt;p&gt;unter "Weitere Kursunterlagen" finden Sie nun auch eine Übungsklausur mit Lösung.&lt;/p&gt;
+&lt;p&gt;Viele Grüße&lt;/p&gt;
+&lt;p&gt;Ulrike Bähr&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

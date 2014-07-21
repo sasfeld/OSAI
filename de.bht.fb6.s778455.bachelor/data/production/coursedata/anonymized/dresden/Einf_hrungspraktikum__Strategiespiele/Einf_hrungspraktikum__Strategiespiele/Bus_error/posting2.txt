@@ -1,0 +1,9 @@
+ID: 1471
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Kannst du bitte deinen Quellcode nicht komplett auf eine Zeile tun? Das "Ruby" ist ein Placeholder fü...
+PARENT_POSTING_ID: 1467
+POSTING_TYPE: comment
+CONTENT:
+Kannst du bitte deinen Quellcode nicht komplett auf eine Zeile tun? Das "Ruby" ist ein Placeholder für die eigentliche Sprache...
+TAGGED_CONTENT:

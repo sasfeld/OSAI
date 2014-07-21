@@ -1,0 +1,15 @@
+ID: 2449
+CREATION_DATETIME: 1374616800000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: t_s = 0,54 * T   ;   2 * tau = 0,46 * T
+
+<=> t_s = 1,08/0,46 * tau
+
+u.s.w.u.s.f.
+PARENT_POSTING_ID: 2447
+POSTING_TYPE: answer
+CONTENT:
+t_s = 0, 54 * T   ;   2 * tau = 0, 46 * T
+ t_s = 1, 08/0, 46 * tau
+u. s. w. u. s. f.
+TAGGED_CONTENT:

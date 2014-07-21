@@ -1,0 +1,10 @@
+ID: 2992
+CREATION_DATETIME: 1385247600000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: Eine solche Kleinigkeit ist nicht ein Punkt wert :-) Also, kein Punktabzug dafür.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2977
+POSTING_TYPE: comment
+CONTENT:
+Eine solche Kleinigkeit ist nicht ein Punkt wert :-) Also, kein Punktabzug dafür.
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 165939
+CREATION_DATETIME: 1349105249
+MODIFICATION_DATETIME: 1349105249
+TITLE: Befehle
+LANGUAGE: GERMAN
+POS_TAG: value:Befehle;weight:0.0;uri:;postag:NN
+POS_TAG: value:Erfolg;weight:0.0;uri:;postag:NN
+POS_TAG: value:Links;weight:0.0;uri:;postag:NN
+POS_TAG: value:Taschenrechner;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hat jemand schon entdeckt, wo man die ganzen Befehle von den Maple-Links eingeben kann? Ich habe es bereits in Excel und auf meinem Taschenrechner versucht, jedoch ohne Erfolg.
+TAGGED_CONTENT:
+Hat_VAFIN jemand_PIS schon_ADV entdeckt_VVPP ,_$, wo_PWAV man_PIS die_ART ganzen_ADJA Befehle_NN von_APPR den_ART Maple-Links_NN eingeben_VVINF kann_VMFIN ?_$. Ich_PPER habe_VAFIN es_PPER bereits_ADV in_APPR Excel_NE und_KON auf_APPR meinem_PPOSAT Taschenrechner_NN versucht_VVFIN ,_$, jedoch_ADV ohne_APPR Erfolg_NN ._$. 

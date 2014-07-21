@@ -1,0 +1,50 @@
+ID: 180485
+CREATION_DATETIME: 1352910394
+MODIFICATION_DATETIME: 1352910394
+TITLE: ESA, Teil 1
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=67203#180485
+TOPIC_ZOOM_TAG: value:Primfaktoren;weight:1.0;significance:12.7085495152339;degreegeneralization:8;uri:19749455
+TOPIC_ZOOM_TAG: value:Primzahlen;weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:20841025
+TOPIC_ZOOM_TAG: value:Zahlentheorie;weight:1.0;significance:11.6099372265658;degreegeneralization:6;uri:20881383
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+NER_TAG: value:VPE;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:VPE;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Kisten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Pappschachtel;weight:0.0;uri:;postag:NN
+POS_TAG: value:ggT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teile;weight:0.0;uri:;postag:NN
+POS_TAG: value:Verpackungseinheiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:VPE;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kiste;weight:0.0;uri:;postag:NN
+POS_TAG: value:Produkte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rechnung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Exponenten;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teiler;weight:0.0;uri:;postag:NN
+POS_TAG: value:Primfaktoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Diskussion;weight:0.0;uri:;postag:NN
+POS_TAG: value:Pappschachteln;weight:0.0;uri:;postag:NN
+POS_TAG: value:Luft;weight:0.0;uri:;postag:NN
+POS_TAG: value:g.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anzahl;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zahlen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Primafaktoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vielfache;weight:0.0;uri:;postag:NN
+POS_TAG: value:Auswahl;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einsendeaufgabe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Da die Diskussion hier ja ausdrücklich erlaubt bzw. erwünscht ist, beginne ich mal mit dem Teil 1 der Einsendeaufgabe (beim zweiten Teil hänge ich - ehrlich gesagt - noch total in der Luft).
+Gesucht ist eine natürliche <REMOVED_PERSON_ENTITY> n, nämlich die Anzahl der jeweils in eine Pappschachtel zu füllenden Produkte. Die Pappschachteln sollen wiederum in Kisten verpackt werden und die Anzahl der Pappschachteln je Kiste soll möglichst klein gehalten werden (also soll n möglichst groß sein). Da die Anzahl der Pappschachteln ganzzahlig sein soll, muss n so gewählt werden, dass die Verpackungseinheiten (330, 600 und 1170) jeweils Vielfache von n sind. Oder anders herum gesagt: n ist  gemeinsamer Teiler der o. g. VPE.
+Gesucht ist letztlich also der größte gemeinsame Teile (ggT) der genannten Zahlen.
+Diesen findet man durch <REMOVED_PERSON_ENTITY> der VPE in Primfaktoren, Auswahl der gemeinsamen Primafaktoren und des jeweils kleinsten Exponenten.
+Die Rechnung und Lösung stelle ich nicht hier ein, das ginge wohl zu weit.
+TAGGED_CONTENT:
+Da_KOUS die_ART Diskussion_NN hier_ADV ja_ADV ausdrücklich_ADJD erlaubt_VVFIN bzw_NE ._$. erwünscht_VVPP ist_VAFIN ,_$, beginne_VVFIN ich_PPER mal_ADV mit_APPR dem_ART Teil_NN 1_CARD der_ART Einsendeaufgabe_NN -LRB-_TRUNC beim_APPRART zweiten_ADJA Teil_NN hänge_VVFIN ich_PPER -_$( ehrlich_ADJD gesagt_VVPP -_$( noch_ADV total_ADJD in_APPR der_ART Luft_NN -RRB-_TRUNC ._$. Gesucht_VVPP ist_VAFIN eine_ART natürliche_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_CARD n_XY ,_$, nämlich_ADV die_ART Anzahl_NN der_ART jeweils_ADV in_APPR eine_ART Pappschachtel_NN zu_PTKZU füllenden_ADJA Produkte_NN ._$. Die_ART Pappschachteln_NN sollen_VMFIN wiederum_ADV in_APPR Kisten_NN verpackt_VVPP werden_VAINF und_KON die_ART Anzahl_NN der_ART Pappschachteln_NN je_ADV Kiste_NN soll_VMFIN möglichst_ADV klein_ADJD gehalten_VVPP werden_VAINF -LRB-_TRUNC also_ADV soll_VMFIN n_XY möglichst_ADV groß_ADJD sein_VAINF -RRB-_TRUNC ._$. Da_KOUS die_ART Anzahl_NN der_ART Pappschachteln_NN ganzzahlig_ADJD sein_VAINF soll_VMFIN ,_$, muss_VMFIN n_XY so_ADV gewählt_VVPP werden_VAINF ,_$, dass_KOUS die_ART Verpackungseinheiten_NN -LRB-_TRUNC 330_CARD ,_$, 600_CARD und_KON 1170_CARD -RRB-_TRUNC jeweils_ADV Vielfache_NN von_APPR n_XY sind_VAFIN ._$. Oder_KON anders_ADV herum_APZR gesagt_VVPP :_$. n_XY ist_VAFIN gemeinsamer_ADJA Teiler_NN der_ART o._ADJA g._NN VPE_NN ._$. Gesucht_VVPP ist_VAFIN letztlich_ADV also_ADV der_ART größte_ADJA gemeinsame_ADJA Teile_NN -LRB-_TRUNC ggT_NN -RRB-_TRUNC der_ART genannten_ADJA Zahlen_NN ._$. Diesen_PDAT findet_VVFIN man_PIS durch_APPR <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN der_ART VPE_NN in_APPR Primfaktoren_NN ,_$, Auswahl_NN der_ART gemeinsamen_ADJA Primafaktoren_NN und_KON des_ART jeweils_ADV kleinsten_ADJA Exponenten_NN ._$. Die_ART Rechnung_NN und_KON Lösung_NN stelle_VVFIN ich_PPER nicht_PTKNEG hier_ADV ein_PTKVZ ,_$, das_PRELS ginge_VVFIN wohl_ADV zu_PTKA weit_ADJD ._$. 

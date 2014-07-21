@@ -1,0 +1,13 @@
+ID: 1158
+CREATION_DATETIME: 1362351600000
+MODIFICATION_DATETIME: 1362351600000
+TITLE: Error number `-34` is `L4_ERANGE` (see `l4sys/include/err.h`).  The dataspace server returns it if th...
+PARENT_POSTING_ID: 1143
+POSTING_TYPE: comment
+CONTENT:
+Error number `-34` is `L4_ERANGE` (see `l4sys/include/err. h`).  The dataspace server returns it if the offset passed in a `map()` operation is out of the underlying dataspace (see `l4re/util/libs/dataspace_svr. cc`). This is also what the Moe message tells you.
+`map()` is called by the region manager when it tries to resolve a page fault. In your case it seems, RM believes the region to be larger than the dataspace really is. So, check the following:
+* How large is the size you allocate using `mem_alloc()`?
+* How large is the returned DS actually?
+* Are you passing the proper size into the respective `L4Re::Rm::attach()` call?
+TAGGED_CONTENT:

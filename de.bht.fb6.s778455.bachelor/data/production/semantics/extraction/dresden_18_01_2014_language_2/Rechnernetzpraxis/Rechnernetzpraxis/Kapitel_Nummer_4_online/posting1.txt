@@ -1,0 +1,12 @@
+ID: 2836
+CREATION_DATETIME: 1384297200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Hier der Link zum auf 90 Minuten optimierten 4. Kapitel:
+
+http://www.rn.inf.tu-dresden. de/lectures/Rechnernetzpraxis/04_RNP_Transport-Schicht. pdf
+TAGGED_CONTENT:

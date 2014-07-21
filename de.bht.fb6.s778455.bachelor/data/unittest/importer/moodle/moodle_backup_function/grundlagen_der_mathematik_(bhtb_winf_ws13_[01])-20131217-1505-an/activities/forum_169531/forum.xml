@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="30057" moduleid="169531" modulename="forum" contextid="242515">
+  <forum id="30057">
+    <type>general</type>
+    <name>Fachforum zum Teil III</name>
+    <intro>Hier können Sie Fachfragen zum Teil III diskutieren. </intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1218802920</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="99837">
+        <name>Mitschrift Präsenz Vektoralgebra</name>
+        <firstpost>263845</firstpost>
+        <userid>14097</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1386709737</timemodified>
+        <usermodified>14097</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="263845">
+            <parent>0</parent>
+            <userid>14097</userid>
+            <created>1386709737</created>
+            <modified>1386709737</modified>
+            <mailed>1</mailed>
+            <subject>Mitschrift Präsenz Vektoralgebra</subject>
+            <message>&lt;p&gt;Da Arndt und ich leider die Einführung in die Vektoralgebra auslassen mussten, wäre es cool, wenn uns jemand seine Mitschrift geben könnte. Speziell würde mich interessieren, ob schon auf lineare Abhängigkeiten von Vektoren eingegangen wurde. Vielen Dank schon mal.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="379853">
+        <userid>14097</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

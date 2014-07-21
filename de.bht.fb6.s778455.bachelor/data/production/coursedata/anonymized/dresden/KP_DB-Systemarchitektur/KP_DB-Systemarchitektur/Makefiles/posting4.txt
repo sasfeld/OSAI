@@ -1,0 +1,20 @@
+ID: 1919
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: Ich hab jetzt das Makefile von der Lib und vom TestCLT so gebaut, dass man nicht ständig Copy&pasten ...
+PARENT_POSTING_ID: 1916
+POSTING_TYPE: comment
+CONTENT:
+Ich hab jetzt das Makefile <NAME_CORPUS_REPLACEMENT> der Lib und vom TestCLT so gebaut, dass man nicht ständig Copy&pasten muss, wenn man eine Datei hinzufügt. Static-Lib-Fähigkeit hab ich rausgenommen und das Script compileandrun dürfte jetzt auch kaputt sein. Bitte jetzt laut schreien oder ich lösche es auch noch.
+Folgende Meldung kommt, wenn ich testCLT ausführe:
+```text
+$ ./run. <LEARNED_PERSON_NAME_REPLACEMENT> 
+I am a dumb tester
+numPlatforms: 1 -- I take Platform 1
+numDevices: 2 -- I take Device 1
+Created device successfully with type: GPU
+numDevices: 2 -- I take Device 2
+Created device successfully with type: CPU
+Segmentation fault (core dumped)
+```
+TAGGED_CONTENT:

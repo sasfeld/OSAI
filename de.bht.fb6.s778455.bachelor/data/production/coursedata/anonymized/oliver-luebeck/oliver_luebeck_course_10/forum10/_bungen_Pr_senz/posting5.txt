@@ -1,0 +1,15 @@
+ID: 73
+CREATION_DATETIME: 1201300080000
+MODIFICATION_DATETIME: 1201300080000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 72
+CONTENT:
+
+Danke für den Hinweis Dominik, alles klar! Jetzt funktioniert es auch ohne das umständliche selecten/deselecten in der actionPerformed.
+
+Und nachdem ich mich auch noch belesen habe, dass ich so eine ButtonGroup nirgends "adden" muss, sondern es einfach nur eine fiktive, logische Gruppe ist... :)
+
+Beste Grüße
+    
+TAGGED_CONTENT:

@@ -21,7 +21,7 @@ import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
  */
 public class ConfigReader extends APropertiesConfigReader {
 
-	private static final String PATH_EXPORT_PROPERTIES = "./conf/exporter.properties";
+	private static final String PATH_EXPORT_PROPERTIES = PATH_CONFIG + "exporter.properties";
 	private AExportStrategy exportStrategy;
 
 	/**

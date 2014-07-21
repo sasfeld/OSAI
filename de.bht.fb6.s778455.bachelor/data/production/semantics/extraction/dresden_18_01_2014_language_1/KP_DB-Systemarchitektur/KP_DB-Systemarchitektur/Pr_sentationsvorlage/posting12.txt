@@ -1,0 +1,10 @@
+ID: 2024
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: Ich denke, das ergibt sich aus dem Inhalt. Zuerst das allgemeine "Was wollen wir erreichen" und dann ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+Ich denke, das ergibt sich aus dem Inhalt. Zuerst das allgemeine "Was wollen wir erreichen" und dann das Interface und zum Schluss "wie wollen wir das erreichen"
+TAGGED_CONTENT:

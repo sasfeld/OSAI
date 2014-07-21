@@ -1,0 +1,5 @@
+ID: 30051
+MODIFICATION_DATETIME: 1185448275
+TITLE: Allgemeines Forum
+INTRO: Hier können Sie übergeordnete und organisatorische Fragen diskutieren.
+TYPE: general

@@ -1,0 +1,15 @@
+ID: 32
+CREATION_DATETIME: 1287329940000
+MODIFICATION_DATETIME: 1287329940000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 31
+CONTENT:
+ 
+Hallo ,
+
+habe auch schon versucht, den try-catch-Block in den anderen zwei Methoden zu gebrauchen, hatte dort aber Probleme (Compilierfehler) mit dem Rückgabewert.
+
+Danke 
+	
+TAGGED_CONTENT:

@@ -1,0 +1,7 @@
+ID: 94315
+CREATION_DATETIME: 1382800724
+MODIFICATION_DATETIME: 1382880619
+TITLE: Format Einsendeaufgaben
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=94315
+FIRST_POSTING_ID: 249161

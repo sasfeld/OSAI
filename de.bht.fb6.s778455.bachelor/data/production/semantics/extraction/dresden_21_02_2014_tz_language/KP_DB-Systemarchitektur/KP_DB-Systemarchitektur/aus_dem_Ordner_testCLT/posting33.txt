@@ -1,0 +1,14 @@
+ID: 1965
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Die -lOpenCL sollte eigentlich schon durch das -lCLeverTrustee reingezogen werden (bis auf bei der st...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Die -lOpenCL sollte eigentlich schon durch das -lCLeverTrustee reingezogen werden (bis auf bei der statischen Lib, <NAME_CORPUS_REPLACEMENT> muss man es extra angeben)
+
+-
+
+Du musst den bin/-Pfad des LLVM-3. 2 Binary Releases (lade runter: http://llvm.org/releases/download. html#3. 2) in die PATH-Variable aufnehmen. Wie das geht, steht z. B. im setup_prefix im Wurzelordner des SVN. Auf der Wimpy-Node machst du vor dem Arbeiten einfach ". ./setup_prefix", beachte die Anzahl der Punkte und das Leerzeichen dazwischen. Damit sorgst du dafür, dass die envvar PATH auch in deiner Umgebung gesetzt wird. Wir könnten das aber auch in die . bashrc aufnehmen, dann vergisst es niemand, der sich auf der Wimpy-Node einloggt.
+TAGGED_CONTENT:

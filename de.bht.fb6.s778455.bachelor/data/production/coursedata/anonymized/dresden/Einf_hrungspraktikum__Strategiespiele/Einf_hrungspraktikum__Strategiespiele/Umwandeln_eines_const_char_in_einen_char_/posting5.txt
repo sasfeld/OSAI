@@ -1,0 +1,9 @@
+ID: 1596
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Zeig mal bitte ein paar Zeilen Code, damit wir verstehen können was du machen möchtest.
+PARENT_POSTING_ID: 1595
+POSTING_TYPE: comment
+CONTENT:
+Zeig mal bitte ein paar Zeilen Code, damit wir verstehen können was du machen möchtest.
+TAGGED_CONTENT:

@@ -1,0 +1,11 @@
+ID: 1432
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1362870000000
+TITLE: gut, das geht bei mir, sowiet gdb noch nicht gestartet war... jedoch ist die anzeige im terminal fast...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1428
+POSTING_TYPE: comment
+CONTENT:
+gut, das geht bei mir, sowiet gdb noch nicht gestartet war... jedoch ist die anzeige im terminal fast unlesbar, es sind lauter tabs dazwischen... wie bekommt man die weg?
+TAGGED_CONTENT:
+gut_ADJD ,_$, das_PDS geht_VVFIN bei_APPR mir_PPER ,_$, sowiet_VVFIN gdb_NE noch_ADV nicht_PTKNEG gestartet_VVPP war_VAFIN ..._$( jedoch_ADV ist_VAFIN die_ART anzeige_ADJA im_APPRART terminal_ADJD fast_ADV unlesbar_ADJD ,_$, es_PPER sind_VAFIN lauter_ADJD tabs_FM dazwischen_PROAV ..._$( wie_PWAV bekommt_VVFIN man_PIS die_ART weg_PTKVZ ?_$. 

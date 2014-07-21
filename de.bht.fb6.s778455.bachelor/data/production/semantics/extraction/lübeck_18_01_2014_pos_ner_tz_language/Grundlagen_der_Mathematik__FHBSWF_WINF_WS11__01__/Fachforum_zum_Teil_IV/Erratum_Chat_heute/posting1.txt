@@ -1,0 +1,18 @@
+ID: 117588
+CREATION_DATETIME: 1324497934
+MODIFICATION_DATETIME: 1324497976
+TITLE: Erratum Chat heute
+LANGUAGE: GERMAN
+POS_TAG: value:Operation;weight:0.0;uri:;postag:NN
+POS_TAG: value:ADDITION;weight:0.0;uri:;postag:NN
+POS_TAG: value:Elements;weight:0.0;uri:;postag:NN
+POS_TAG: value:Multiplikation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nullmatrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:REMOVEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Element;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Operation eines Elements k mit dem neutralen Element e ergibt immer das Element k, deshalb ist das Element e neutral (wirkungslos). Die Nullmatrix ist deshalb fuer die ADDITION das neutrale Element (nicht fuer die Multiplikation).
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Operation_NN eines_ART Elements_NN k_VVFIN mit_APPR dem_ART neutralen_ADJA Element_NN e_ART ergibt_VVFIN immer_ADV das_ART Element_NN k_VVFIN ,_$, deshalb_PROAV ist_VAFIN das_ART Element_NN e_ART neutral_ADJD -LRB-_TRUNC wirkungslos_ADJD -RRB-_TRUNC ._$. Die_ART Nullmatrix_NN ist_VAFIN deshalb_PROAV fuer_VAFIN die_ART ADDITION_NN das_ART neutrale_ADJA Element_NN -LRB-_TRUNC nicht_PTKNEG fuer_ADJD die_ART Multiplikation_NN -RRB-_TRUNC ._$. <_XY PERSONAL_GREETING_REMOVEMENT_NN >_XY 

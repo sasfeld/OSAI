@@ -1,0 +1,10 @@
+ID: 2507
+CREATION_DATETIME: 1375826400000
+MODIFICATION_DATETIME: 1375826400000
+TITLE: Und inwiefern spielen dann die Zahlen eine Rolle? Das hat mich nämlich am meisten verwirrt.
+PARENT_POSTING_ID: 2497
+POSTING_TYPE: answer
+CONTENT:
+Und inwiefern spielen dann die Zahlen eine <REMOVED_PERSON_ENTITY>? Das hat mich nämlich am meisten verwirrt.
+edit: also die abhängigkeiten an und für sich versteh ich, das ist ja nicht schwer wenn man sowas wie bundesland/stadt gegeben hat oder sowas wie <REMOVED_PERSON_ENTITY>, ISBN nummer etc. , aber bei den Zahlen erkenn ich keine logik ?!
+TAGGED_CONTENT:

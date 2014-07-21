@@ -1,0 +1,9 @@
+ID: 2372
+CREATION_DATETIME: 1374271200000
+MODIFICATION_DATETIME: 1374271200000
+TITLE: Wie dringend ist das Feedback? Am Tablet ist das nachschauen etwas umständlich Ich kann aber dafür so...
+PARENT_POSTING_ID: 2344
+POSTING_TYPE: comment
+CONTENT:
+Wie dringend ist das Feedback? Am Tablet ist das nachschauen etwas umständlich Ich kann aber dafür sorgen, dass ich So Nachmittag wieder in DD bin.
+TAGGED_CONTENT:

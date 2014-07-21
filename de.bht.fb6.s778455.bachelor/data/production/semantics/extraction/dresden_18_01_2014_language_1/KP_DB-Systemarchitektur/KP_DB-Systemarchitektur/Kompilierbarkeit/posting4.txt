@@ -1,0 +1,10 @@
+ID: 2118
+CREATION_DATETIME: 1372456800000
+MODIFICATION_DATETIME: 1372456800000
+TITLE: Gut, ich hab mal die ganzen Makefiles und den Buildprozess gefixt. (im testCLT war auch noch etwas.)
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2115
+POSTING_TYPE: comment
+CONTENT:
+Gut, ich hab mal die ganzen Makefiles und den Buildprozess gefixt. (im testCLT war auch noch etwas.)
+TAGGED_CONTENT:

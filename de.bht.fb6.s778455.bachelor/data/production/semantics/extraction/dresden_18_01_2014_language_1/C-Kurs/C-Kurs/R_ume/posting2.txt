@@ -1,0 +1,10 @@
+ID: 2711
+CREATION_DATETIME: 1383519600000
+MODIFICATION_DATETIME: 1383519600000
+TITLE: Ist es noch bekannt , in welche Räumen werden dann andere C-Kurse stattfinden?
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2698
+POSTING_TYPE: comment
+CONTENT:
+Ist es noch bekannt , in welche Räumen werden dann andere C-Kurse stattfinden?
+TAGGED_CONTENT:

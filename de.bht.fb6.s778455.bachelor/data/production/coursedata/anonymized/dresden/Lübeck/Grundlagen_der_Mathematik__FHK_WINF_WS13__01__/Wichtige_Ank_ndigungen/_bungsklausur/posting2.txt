@@ -1,0 +1,11 @@
+ID: 263249
+CREATION_DATETIME: 1386582395
+MODIFICATION_DATETIME: 1386582395
+TITLE: Weitere Übungsklausur
+PARENT_POSTING_ID: 260477
+CONTENT:
+Liebe Studierenden,
+eine zweite Übungsklausur steht für Sie unter Weitere Kursunterlagen bereit.
+Viele Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

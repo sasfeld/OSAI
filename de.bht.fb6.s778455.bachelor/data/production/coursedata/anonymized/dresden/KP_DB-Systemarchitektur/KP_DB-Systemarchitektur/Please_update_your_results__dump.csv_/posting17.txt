@@ -1,0 +1,9 @@
+ID: 2398
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: Ich werde Montag Vormittag ins Büro kommen, damit wir noch mal gemeinsam über alles drüberschauen kön...
+PARENT_POSTING_ID: 2382
+POSTING_TYPE: comment
+CONTENT:
+Ich werde <REMOVED_PERSON_ENTITY> ins Büro kommen, damit wir noch mal gemeinsam über alles drüberschauen können.
+TAGGED_CONTENT:

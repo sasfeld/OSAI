@@ -1,0 +1,21 @@
+ID: 48
+CREATION_DATETIME: 1304943960000
+MODIFICATION_DATETIME: 1304943960000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 47
+CONTENT:
+ 
+ danke für die Hilfe!
+
+Hab beide Wege mal versucht und sie funktionieren für die Tabelle auch prima.
+Vielleicht hab ich was vergessen denn bei Zahlen ab 16 funktionierts nicht mehr tadellos wenn die Abweichung genau 0.1 ist. Da landet er immer bei brauchbar.
+
+Bsp: ist=14.05 soll=14 > im Toleranzbereich
+ist=14.1 soll=14 > im Toleranzbereich
+ist=16.1 soll=16 > brauchbar
+ist=16.05 soll=16 > im Toleranzbereich
+
+Lieben Gruß
+   
+TAGGED_CONTENT:

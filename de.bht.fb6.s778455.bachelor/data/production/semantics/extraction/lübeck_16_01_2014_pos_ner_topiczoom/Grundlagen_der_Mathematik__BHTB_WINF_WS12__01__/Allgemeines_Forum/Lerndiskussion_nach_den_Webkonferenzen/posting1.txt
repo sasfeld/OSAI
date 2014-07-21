@@ -1,0 +1,53 @@
+ID: 166943
+CREATION_DATETIME: 1349358680
+MODIFICATION_DATETIME: 1349358680
+TITLE: Lerndiskussion nach den Webkonferenzen
+TOPIC_ZOOM_TAG: value:Dozenten;weight:2.0;significance:6.81576191029727;degreegeneralization:6;uri:20916250
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:3.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:3.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:2.0;significance:3.70314380910339;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studenten;weight:1.0;significance:2.22917538862813;degreegeneralization:5;uri:20994552
+TOPIC_ZOOM_TAG: value:Schüler, Studenten;weight:1.0;significance:2.14585369445854;degreegeneralization:4;uri:20920823
+TOPIC_ZOOM_TAG: value:Konferenzen, Kongresse und Symposien;weight:1.0;significance:2.08655337369569;degreegeneralization:3;uri:21956956
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:1.85709035932451;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:1.43255875749497;degreegeneralization:2;uri:21999813
+NER_TAG: value:VG Konrad;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:VG Konrad;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Webkonferenz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Uhrzeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beispielaufgaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:Discussion;weight:0.0;uri:;postag:NN
+POS_TAG: value:hrungsveranstaltung;weight:0.0;uri:;postag:NN
+POS_TAG: value:WebKonferenz;weight:0.0;uri:;postag:NN
+POS_TAG: value:MIttwoch;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungswege;weight:0.0;uri:;postag:NN
+POS_TAG: value:Meetingsoftware;weight:0.0;uri:;postag:NN
+POS_TAG: value:Durchgehen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fragen;weight:0.0;uri:;postag:NN
+POS_TAG: value:VG;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ideen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Studenten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Button;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorstellung;weight:0.0;uri:;postag:NN
+POS_TAG: value:r;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anschluss;weight:0.0;uri:;postag:NN
+POS_TAG: value:Austausch;weight:0.0;uri:;postag:NN
+POS_TAG: value:LE;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dozenten;weight:0.0;uri:;postag:NN
+POS_TAG: value:cken;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+ich habe mir überlegt  die Meetingsoftware zu nutzen um im Anschluss an die <REMOVED_PERSON_ENTITY>, eine <REMOVED_PERSON_ENTITY> für interessierte Studenten abzuhalten. Hierfür steht uns ja der Button"Discussion" bereit wie in der Einführungsveranstaltung vorgestellt.
+Meine Vorstellung ist, dass dort im gemeinsamen Austausch Fragen gestellt werden, Ideen gesammelt und Lösungen erarbeitet werden.
+Ich selbst bin schon lange aus dem <REMOVED_PERSON_ENTITY> raus und mir würde es leichter fallen wenn man vielleicht anhand von Beispielaufgaben die Lösungswege gemeinsam durchgeht. Mir fällt beim Durchgehen der LE oft auf, dass sich immer noch Lücken erschließen.
+Ich würde das ab der nächsten WebKonferenz organisieren und schlage aber schon mal abweichend davon den kommenden MIttwoch (10. 10. 2012) vor, wo keine Webkonferenz des Dozenten stattfindet.
+Uhrzeit dann 20:00 und die restlichen Tage im Anschluss an die Webkonferenz des Dozenten.
+ 
+VG Konrad
+ 
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, ich_PPER habe_VAFIN mir_PPER überlegt_VVFIN die_ART Meetingsoftware_NN zu_PTKZU nutzen_VVINF um_KOUI im_APPRART Anschluss_NN an_APPR die_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN ,_$, eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN für_APPR interessierte_ADJA Studenten_NN abzuhalten_VVIZU ._$. Hierfür_NN steht_VVFIN uns_PPER ja_ADV der_ART Button_NN "_$( Discussion_NN "_$( bereit_ADJD wie_KOKOM in_APPR der_ART Einführungsveranstaltung_NN vorgestellt_VVPP ._$. Meine_PPOSAT Vorstellung_NN ist_VAFIN ,_$, dass_KOUS dort_ADV im_APPRART gemeinsamen_ADJA Austausch_NN Fragen_NN gestellt_VVPP werden_VAINF ,_$, Ideen_NN gesammelt_VVPP und_KON Lösungen_NN erarbeitet_VVPP werden_VAINF ._$. Ich_PPER selbst_ADV bin_VAFIN schon_ADV lange_ADV aus_APPR dem_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD raus_ADV und_KON mir_PPER würde_VAFIN es_PPER leichter_ADJD fallen_VVFIN wenn_KOUS man_PIS vielleicht_ADV anhand_APPR von_APPR Beispielaufgaben_NN die_ART Lösungswege_NN gemeinsam_ADJD durchgeht_VVFIN ._$. Mir_PPER fällt_VVFIN beim_APPRART Durchgehen_NN der_ART LE_NN oft_ADV auf_PTKVZ ,_$, dass_KOUS sich_PRF immer_ADV noch_ADV Lücken_NN erschließen_VVINF ._$. Ich_PPER würde_VAFIN das_ART ab_APPR der_ART nächsten_ADJA WebKonferenz_NN organisieren_VVINF und_KON schlage_VVFIN aber_ADV schon_ADV mal_ADV abweichend_ADJD davon_PROAV den_ART kommenden_ADJA MIttwoch_NN -LRB-_TRUNC 10_CARD ._$. 10_CARD ._$. 2012_CARD -RRB-_TRUNC vor_PTKVZ ,_$, wo_PWAV keine_PIAT Webkonferenz_NN des_ART Dozenten_NN stattfindet_VVFIN ._$. Uhrzeit_NN dann_ADV 20:00_CARD und_KON die_ART restlichen_ADJA Tage_NN im_APPRART Anschluss_NN an_APPR die_ART Webkonferenz_NN des_ART Dozenten_NN ._$. VG_NN Konrad_NE 

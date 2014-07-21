@@ -1,0 +1,11 @@
+ID: 158
+CREATION_DATETIME: 1348437600000
+MODIFICATION_DATETIME: 1350424800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Die Übersichtsseite zu den Chairs finde ich nicht so gelungen, weil sie nicht sonderlich übersichtlich ist.
+Ich denke eine Liste der Professuren (ev. in Klammern die Anzahl der angebotenen Kurse) ist besser. Man könnte diese auch noch nach Instituten gliedern, so wie auf den Web-Seiten der Fakultät. Wenn man später mehrere Fakultäten aufnimmt, sollte diese Unterteilung auch vorgenommen werden.
+Erst wenn man einen Chair auswählt, sollte die Liste der Kurse aufklappen oder eine neue Seite geladen werden.
+TAGGED_CONTENT:

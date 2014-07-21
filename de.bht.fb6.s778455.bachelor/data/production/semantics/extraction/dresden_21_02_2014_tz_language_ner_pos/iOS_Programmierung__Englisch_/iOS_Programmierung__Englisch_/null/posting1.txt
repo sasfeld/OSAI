@@ -1,0 +1,12 @@
+ID: 2691
+CREATION_DATETIME: 1383260400000
+MODIFICATION_DATETIME: 1385334000000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+I've already got an student developer account and now i want to create a provisioning profile, but the plus button to add new ios devices disabled. where <NAME_CORPUS_REPLACEMENT> i add my devices?
+
+thanks for your help!
+TAGGED_CONTENT:

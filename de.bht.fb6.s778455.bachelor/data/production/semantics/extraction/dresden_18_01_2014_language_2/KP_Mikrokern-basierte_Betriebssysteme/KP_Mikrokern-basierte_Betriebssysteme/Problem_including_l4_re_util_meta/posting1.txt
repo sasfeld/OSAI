@@ -1,0 +1,32 @@
+ID: 1017
+CREATION_DATETIME: 1357599600000
+MODIFICATION_DATETIME: 1363561200000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+I got the following error compiling my code:  
+
+    ... Compiling server. o  
+
+    In file included from /home/fredo/complex_lab/trunk/obj/l4/x86/include/l4/sys/meta:28:0,  
+
+                   from /home/fredo/complex_lab/trunk/obj/l4/x86/include/l4/re/util/meta:5,  
+
+                   from /home/fredo/complex_lab/trunk/src/l4/pkg/multicli/server. h:6,  
+
+                   from /home/fredo/complex_lab/trunk/src/l4/pkg/multicli/server. cc:2:  
+
+    /home/fredo/complex_lab/trunk/obj/l4/x86/include/l4/sys/capability: In Funktion »L4::CapL4::cap_dynamic_cast(const L4::Cap&)«:  
+
+    /home/fredo/complex_lab/trunk/obj/l4/x86/include/l4/sys/capability:552:7: Fehler: »<REMOVED_PERSON_ENTITY>« wurde in diesem Gültigkeitsbereich nicht definiert  
+
+    /home/fredo/complex_lab/trunk/obj/l4/x86/include/l4/sys/capability:552:11: Fehler: Templateargument 1 ist ungültig  
+
+    /home/fredo/complex_lab/trunk/obj/l4/x86/include/l4/sys/capability:552:16: Fehler: invalid type in declaration before »=« token  
+
+    /home/fredo/complex_lab/trunk/obj/l4/x86/include/l4/sys/capability:554:32: Fehler: Basisoperand <NAME_CORPUS_REPLACEMENT> »->« ist kein <REMOVED_PERSON_ENTITY>  
+
+This looks to me like an error in the L4 sources or am I missing something?
+TAGGED_CONTENT:

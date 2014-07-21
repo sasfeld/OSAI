@@ -1,0 +1,10 @@
+ID: 2475
+CREATION_DATETIME: 1374703200000
+MODIFICATION_DATETIME: 1380837600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Auf Folie 2. 6 in http://www.rn.inf.tu-dresden. de/lectures/Rechnernetze/RN-02_Bituebertragung. pdf ist ein Beispiel für Manchester-Codierung gezeigt. Gehe ich richtig in der Annahme, dass die dort gezeigte Codierung die "differentielle Manchester-Codierung" ist? Wenn in der Klausur nach "Manchester-Codierung" gefragt wird, ist dann immer diese gemeint? (Es gibt ja auch noch die "einfache Manchester-Codierung")
+TAGGED_CONTENT:

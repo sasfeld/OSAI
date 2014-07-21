@@ -1,0 +1,12 @@
+ID: 2695
+CREATION_DATETIME: 1383346800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Zu finden hier:
+
+http://www.rn.inf.tu-dresden. de/lectures/Rechnernetzpraxis/02_RNP_Switching_uebung. pdf
+TAGGED_CONTENT:

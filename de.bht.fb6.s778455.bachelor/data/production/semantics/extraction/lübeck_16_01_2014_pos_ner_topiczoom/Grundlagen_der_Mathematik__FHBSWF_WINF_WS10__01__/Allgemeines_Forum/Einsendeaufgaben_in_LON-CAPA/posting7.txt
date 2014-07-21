@@ -1,0 +1,47 @@
+ID: 97750
+CREATION_DATETIME: 1288601590
+MODIFICATION_DATETIME: 1288601590
+TITLE: Re: Einsendeaufgaben in LON-CAPA
+TOPIC_ZOOM_TAG: value:Deutsches Institut für Normung;weight:1.0;significance:6.007701167337;degreegeneralization:11;uri:20901273
+TOPIC_ZOOM_TAG: value:Fachhochschulen in Deutschland;weight:1.0;significance:6.007701167337;degreegeneralization:12;uri:21957551
+TOPIC_ZOOM_TAG: value:Fachhochschulen;weight:1.0;significance:5.8049686132829;degreegeneralization:5;uri:21881935
+TOPIC_ZOOM_TAG: value:Wissenschaft und Technik in Deutschland;weight:2.0;significance:5.44943338713683;degreegeneralization:9;uri:21946076
+TOPIC_ZOOM_TAG: value:Normierungsorganisationen;weight:1.0;significance:5.31455398677705;degreegeneralization:5;uri:20901290
+TOPIC_ZOOM_TAG: value:Technische Normen;weight:1.0;significance:4.3883619412548;degreegeneralization:4;uri:20901307
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten in Deutschland;weight:1.0;significance:4.10436992245183;degreegeneralization:11;uri:21957585
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten in Europa;weight:1.0;significance:4.08262736648196;degreegeneralization:8;uri:20920126
+TOPIC_ZOOM_TAG: value:Studium und berufliche Ausbildung in Deutschland;weight:1.0;significance:4.08262736648196;degreegeneralization:10;uri:21881136
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung in Deutschland;weight:1.0;significance:3.81668785000005;degreegeneralization:9;uri:21998589
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung - Europa;weight:1.0;significance:3.79229276791534;degreegeneralization:7;uri:20742850
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:2.77735785682754;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:2.59037776375624;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:2.18452430611399;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Deutschland;weight:2.0;significance:2.0357642545643;degreegeneralization:8;uri:21996974
+TOPIC_ZOOM_TAG: value:Europa;weight:2.0;significance:1.55587681555031;degreegeneralization:6;uri:21972001
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+NER_TAG: value:VFH;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:VFH;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Seiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klausurbedingungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:VFH;weight:0.0;uri:;postag:NN
+POS_TAG: value:Konditionen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abgaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bleistift;weight:0.0;uri:;postag:NN
+POS_TAG: value:Notizen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klausur;weight:0.0;uri:;postag:NN
+POS_TAG: value:Schreibzeug;weight:0.0;uri:;postag:NN
+POS_TAG: value:Blaetter;weight:0.0;uri:;postag:NN
+POS_TAG: value:Taschenrechner;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgaben;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97749
+CONTENT:
+Die Konditionen lauten:
+1) ab 50% richtig ueber alle Aufgaben gilt als "bestanden"
+2) Die in der VFH ueblichen Klausurbedingungen werden mir noch vor der Klausur mitgeteilt, da die Klausur vorauss. zentral verfasst werden wird. Ich gehe davon aus, dass Sie folgendes nutzen duerfen:
+- <REMOVED_PERSON_ENTITY>
+- nichtprogrammierbarer Taschenrechner
+- leere Blaetter und Schreibzeug (kein Bleistift fuer Abgaben)
+- zwei DIN-A4-Blaetter Notizen (d. h. 4 Seiten)
+TAGGED_CONTENT:
+Die_ART Konditionen_NN lauten_VVINF :_$. 1_CARD -RRB-_TRUNC ab_APPR 50_CARD %_NN richtig_ADJD ueber_ADJD alle_PIDAT Aufgaben_NN gilt_VVFIN als_APPR "_$( bestanden_VVFIN "_$( 2_CARD -RRB-_TRUNC Die_ART in_APPR der_ART VFH_NN ueblichen_ADJA Klausurbedingungen_NN werden_VAFIN mir_PPER noch_ADV vor_APPR der_ART Klausur_NN mitgeteilt_VVPP ,_$, da_KOUS die_ART Klausur_NN vorauss_VVFIN ._$. zentral_ADJD verfasst_VVPP werden_VAINF wird_VAFIN ._$. Ich_PPER gehe_VVFIN davon_PROAV aus_PTKVZ ,_$, dass_KOUS Sie_PPER folgendes_ADJA nutzen_VVFIN duerfen_PROAV :_$. -_$( <_XY REMOVED_PERSON_ENTITY_NE >_NE -_$( nichtprogrammierbarer_ADJA Taschenrechner_NN -_$( leere_ADJA Blaetter_NN und_KON Schreibzeug_NN -LRB-_TRUNC kein_PIAT Bleistift_NN fuer_ADJA Abgaben_NN -RRB-_TRUNC -_$( zwei_CARD DIN-A4-Blaetter_ADJA Notizen_NN -LRB-_TRUNC d._PDS h._VVFIN 4_CARD Seiten_NN -RRB-_TRUNC 

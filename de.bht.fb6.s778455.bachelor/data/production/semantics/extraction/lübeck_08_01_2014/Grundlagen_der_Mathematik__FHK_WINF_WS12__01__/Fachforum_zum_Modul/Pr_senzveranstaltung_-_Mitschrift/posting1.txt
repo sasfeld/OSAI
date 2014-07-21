@@ -1,0 +1,14 @@
+ID: 182665
+CREATION_DATETIME: 1353669439
+MODIFICATION_DATETIME: 1353669439
+TITLE: Präsenzveranstaltung - Mitschrift
+TOPIC_ZOOM_TAG: value:Verfügungen;weight:1.0;significance:7.24896400108977;degreegeneralization:3;uri:19992589
+TOPIC_ZOOM_TAG: value:Krankheiten, Beschwerden und Leiden;weight:1.0;significance:4.55003327042709;degreegeneralization:3;uri:21985125
+TOPIC_ZOOM_TAG: value:Gesundheit;weight:1.0;significance:3.54697930762717;degreegeneralization:2;uri:21997569
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:2.65109701440329;degreegeneralization:2;uri:21999830
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+da ich krank zu <REMOVED_PERSON_ENTITY> bleiben muss, habe ich auch für diese Präsenzveranstaltung eine große Bitte an Euch. Kann mir einer nach der Präsenzveranstaltung seine Mitschrift zur Verfügung stellen? Wäre klasse!
+Vielen Dank und schöne GrüßeStefan
+TAGGED_CONTENT:

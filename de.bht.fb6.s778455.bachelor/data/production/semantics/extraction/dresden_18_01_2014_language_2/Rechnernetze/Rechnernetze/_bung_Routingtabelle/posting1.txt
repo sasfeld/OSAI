@@ -1,0 +1,38 @@
+ID: 2454
+CREATION_DATETIME: 1374703200000
+MODIFICATION_DATETIME: 1374789600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+http://sdrv.ms/19jCDIa
+
+Gegeben sei folgende Aufgabe:
+
+Gegeben sei die folgende Netzstruktur (Abb. 2). Die mit A bis H bezeichneten Router sind nur durch die eingezeichneten Kanten miteinander bidirektional verbunden. Die <REMOVED_PERSON_ENTITY> an der Kante zwischen zwei Routern entspricht der Pfadlänge. Verschiedene Rechner (<REMOVED_PERSON_ENTITY> bis R4) und Server (Si und S2) sind mit dem Netzwerk verbunden und jeweils durch eine IP-Adresse eindeutig gekennzeichnet.
+
+[...]
+
+c)
+
+Erstellen Sie Routing-Einträge in Router B, so dass R1 mit R4 über den Instant-Messaging-Server S2 kommunizieren kann. Markieren Sie dabei mit S, C und D statische, direkt verbundene (connected) und dynamische Routen. Hinweis: es müssen nur 2 Routen eingetragen werden. Alicenet hat die Subnetzmaske /22.
+
+Lösung
+
+```ruby
+
+Art |<REMOVED_PERSON_ENTITY>| Ziel
+
+-----------------------------
+
+ c  | 55. 3. 0. 0     |  60. 2. 2. 45
+
+ c  | 0. 0. 0. 0      | IP <NAME_CORPUS_REPLACEMENT> Router C
+
+```
+
+Frage1)Sendet der Router B jetzt alle Pakete, die in das Subnetz 55. 3. 0. 0 wollen, über D?
+
+Frage2) In meiner Lösung stellt der Router B niemals Pakete an das Subnet Alicenet durch, richtig? Müsste für eine richtige Lösung noch die Zeile `c | 110. 44. 40. 0 | 110. 44. 40. 3` noch hinzufügen?
+TAGGED_CONTENT:

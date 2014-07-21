@@ -1,0 +1,14 @@
+ID: 168475
+CREATION_DATETIME: 1349765600
+MODIFICATION_DATETIME: 1349765600
+TITLE: Re: Fragen zur Präsenz 1 
+LANGUAGE: GERMAN
+POS_TAG: value:Idee;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 167889
+CONTENT:
+Hallo zusammen,
+hat hier jemand schon eine Idee?
+Danke und Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, hat_VAFIN hier_ADV jemand_PIS schon_ADV eine_ART Idee_NN ?_$. Danke_NE und_KON Gruß_NE <_NE REMOVED_PERSON_ENTITY_NE >_XY 

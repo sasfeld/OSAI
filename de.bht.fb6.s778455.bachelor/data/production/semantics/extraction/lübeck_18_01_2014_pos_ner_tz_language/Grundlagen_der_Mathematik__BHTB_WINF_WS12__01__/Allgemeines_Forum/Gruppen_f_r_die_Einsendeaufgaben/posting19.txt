@@ -1,0 +1,17 @@
+ID: 172361
+CREATION_DATETIME: 1350634881
+MODIFICATION_DATETIME: 1350634881
+TITLE: Re: Gruppen für die Einsendeaufgaben
+LANGUAGE: GERMAN
+POS_TAG: value:Leute;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+POS_TAG: value:REMOVEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ragab;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 171815
+CONTENT:
+Hallo Zusammen, 
+Wir, Ragab El <REMOVED_PERSON_ENTITY> und <REMOVED_PERSON_ENTITY> sind jetzt in einer Gruppe und suchen noch zwei Leute. Wer möchte dabei sein?
+<PERSONAL_GREETING_REMOVEMENT>
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Hallo_ITJ Zusammen_ADV ,_$, Wir_PPER ,_$, Ragab_NN El_NE <_NE REMOVED_PERSON_ENTITY_NE >_NE und_KON <_NE REMOVED_PERSON_ENTITY_NE >_ADJD sind_VAFIN jetzt_ADV in_APPR einer_ART Gruppe_NN und_KON suchen_VVFIN noch_ADV zwei_CARD Leute_NN ._$. Wer_PWS möchte_VMFIN dabei_PROAV sein_VAINF ?_$. <_XY PERSONAL_GREETING_REMOVEMENT_NN >_CARD <_XY PERSONAL_GREETING_REMOVEMENT_NN >_XY 

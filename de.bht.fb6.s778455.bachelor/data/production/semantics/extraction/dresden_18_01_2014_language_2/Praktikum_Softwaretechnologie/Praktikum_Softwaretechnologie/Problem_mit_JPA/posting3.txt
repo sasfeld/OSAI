@@ -1,0 +1,26 @@
+ID: 2949
+CREATION_DATETIME: 1384988400000
+MODIFICATION_DATETIME: 1384988400000
+TITLE: Wie im Videoshop, nur das ich das Package anpassen musste.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2947
+POSTING_TYPE: comment
+CONTENT:
+Wie im Videoshop, nur das ich das Package anpassen musste.
+
+```java
+
+package personal;
+
+import org. salespointframework. core. useraccount. UserAccount;
+
+import org. springframework. data. repository. CrudRepository;
+
+public interface CustomerRepository extends CrudRepository {
+
+	Customer findByUserAccount(UserAccount userAccount);
+
+}
+
+```
+TAGGED_CONTENT:

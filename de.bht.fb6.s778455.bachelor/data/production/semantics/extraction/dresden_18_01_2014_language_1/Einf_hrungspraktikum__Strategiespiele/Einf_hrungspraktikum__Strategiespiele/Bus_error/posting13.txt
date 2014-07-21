@@ -1,0 +1,14 @@
+ID: 1490
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Danke dir sehr für deine Antwort!
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1480
+POSTING_TYPE: comment
+CONTENT:
+Danke dir sehr für deine Antwort!
+
+Valgrind ist auf meiner (frischen) Ubunut-Installation gleich mal abgeschmiert, aber ich werde es im Hintergrund behalten.
+
+Assertions werde ich mir jetzt auch mal ansehen, scheinen nützlich zu sein. Das Problem hast du übrigens gelöst, ich poste gleich etwas dazu.
+TAGGED_CONTENT:

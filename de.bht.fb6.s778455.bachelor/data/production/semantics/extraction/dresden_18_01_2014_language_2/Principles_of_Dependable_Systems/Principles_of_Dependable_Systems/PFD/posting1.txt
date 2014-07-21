@@ -1,0 +1,46 @@
+ID: 956
+CREATION_DATETIME: 1355007600000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+There are few doubts
+
+**1**  
+
+```
+
+time last_ping[N] = 0;
+
+bool suspected?(q) {
+
+if (last_ping[q] == 0) {
+
+send(“ping”) to q;
+
+last_ping[q] = Cp
+
+();
+
+return false;
+
+} if (last_ping[q] < Cp()-2δ-2σ) {
+
+return true;
+
+} else
+
+return false;
+
+}
+
+```
+
+In this case does it mean that if the last_ping[q] is less than the condition, then its value lies outside Cp()-2δ-2σ) then the overall time for ping and pong is more than 2δ+2σ?
+
+**2** 
+
+what does the graph in slide 130 of PFD show? it is not that clear to me/
+TAGGED_CONTENT:

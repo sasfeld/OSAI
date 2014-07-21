@@ -1,0 +1,11 @@
+ID: 1916
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1372370400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+welche Makefiles sind die richtigen?
+Könnt ihr mal bitte entweder die Makefile oder die CMakeList. txt löschen, sodass ich weiß, welches die korrekte Build-Library ist? Ich würde dann gerne daraus ein configure-Script machen, das mit pkg-config und mit llvm-config die korrekten Flags erzeugt.
+TAGGED_CONTENT:

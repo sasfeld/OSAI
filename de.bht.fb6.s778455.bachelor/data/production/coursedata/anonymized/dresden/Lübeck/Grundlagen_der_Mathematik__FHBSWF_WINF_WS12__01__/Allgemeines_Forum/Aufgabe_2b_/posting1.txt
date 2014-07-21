@@ -1,0 +1,19 @@
+ID: 184265
+CREATION_DATETIME: 1354294856
+MODIFICATION_DATETIME: 1354295204
+TITLE: Aufgabe 2b)
+PARENT_POSTING_ID: 0
+CONTENT:
+Eine echte Diskussion kommt hier ja hier bisher irgendwie nicht auf. Was ist los? Habt Ihr die Aufgaben alle schon fertig?Ich probiere es noch einmal mit meinen Gedanken zu 2b) und bitte um Kommentare.
+Hier ist laut Aufgabenstellung zu zeigen, dass die <REMOVED_PERSON_ENTITY> aller Knotenbewertungen eines (beliebigen) Graphen, die die Nullsummenregel erfüllen, einen Vektorraum bilden.
+Im Skript (zum Teil III, S. 66, <REMOVED_PERSON_ENTITY> 11) findet sich der <REMOVED_PERSON_ENTITY>
+"Die <REMOVED_PERSON_ENTITY> aller Lösungen x eines homogenen LGS Ax = 0 bildet einen Vektorraum."
+Das nehme ich mal genau so als gegeben und bewiesen hin.
+Wenn wir also ein lineares Gleichungssystem finden, dessen Lösungsmenge alle Nullsummenbewertungen sind, dann haben wir also auch gezeigt, dass diese einen Vektorraum bilden.
+Und wie kommen wir zu einem LGS, dessen Lösungen alle Nullsummenbewertungen sind?
+Wir können doch bei jedem beliebigen Graphen immer alle Knoten nacheinander "besuchen" und dann eine Gleichung aufstellen, die erfüllt sein muss, damit die <REMOVED_PERSON_ENTITY> seiner Nachbarknotenbewertungen 0 ergibt.
+Ich habe die Knoten unseres Beispielgraphen mal mit Variablen benannt, das sieht dann beispielsweise so aus:
+    (f)     (g)           |       | (a)-(b)-(c)-(d)-(e)           |         (h)
+Jetzt können wir doch bei (a) beginnen und stellen fest, dass b = 0 sein muss. Dies ist unsere erste Gleichung. Wir fahren mit (b) fort und sehen, dass a + f + h = 0 sein muss. Dies ist unsere zweite Gleichung usw. Da wir immer genauso viele Unbekannte haben, wie Gleichungen (eine je Knoten) und die rechte <REMOVED_PERSON_ENTITY> der Gleichungen immer 0 ist, erhalten wir hier immer ein homogenes LGS. Dieses LGS ist also für jeden Graphen immer lösbar (wie jedes homogene LGS). Entweder es gibt nur die triviale Lösung (alle Knotenwerte sind 0) oder es gibt unendlich viele Lösungen. Die Lösungen sind eben gerade die Knotenbewertungen, für die die Nullregel gilt. Und diese bilden (<REMOVED_PERSON_ENTITY> oben) einen Vektorraum. Damit wäre also gezeigt, dass die Knotenbewertungen mit geltender Nullregel einen Vektorraum bilden.
+Findet jemand einen Fehler in der Argumentation?
+TAGGED_CONTENT:

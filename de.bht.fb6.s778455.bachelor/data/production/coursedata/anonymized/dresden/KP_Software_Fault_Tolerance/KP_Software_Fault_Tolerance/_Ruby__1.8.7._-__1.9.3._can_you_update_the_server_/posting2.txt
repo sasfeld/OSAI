@@ -1,0 +1,17 @@
+ID: 960
+CREATION_DATETIME: 1355094000000
+MODIFICATION_DATETIME: 1355094000000
+TITLE: I upgraded ruby to 1.9: 
+```
+$ ruby --version
+ruby 1.9.3p0 (2011-10-30 revision 33570) [i686-linux...
+PARENT_POSTING_ID: 957
+POSTING_TYPE: answer
+CONTENT:
+I upgraded ruby to 1. 9:
+```console
+$ ruby --version
+ruby 1. 9. 3p0 (2011-10-30 revision 33570) [i686-linux]
+```
+Hopefully that solves your problem.
+TAGGED_CONTENT:

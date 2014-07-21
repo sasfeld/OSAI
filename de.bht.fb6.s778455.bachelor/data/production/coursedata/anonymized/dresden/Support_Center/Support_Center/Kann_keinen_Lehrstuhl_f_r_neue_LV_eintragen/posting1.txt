@@ -1,0 +1,10 @@
+ID: 1159
+CREATION_DATETIME: 1362351600000
+MODIFICATION_DATETIME: 1382047200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich versuche eine neue Lehrveranstaltung einzutragen. Dazu gehe ich über das [Formular](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/lectures/new).
+Dort kann ich alles eintragen, aber nach dem Submit ist die <REMOVED_PERSON_ENTITY> mit dem Lehrstuhl wieder leer und ich kriege die Fehlermeldung, dass das nicht so sein darf (klar). Wie geht das richtig?
+TAGGED_CONTENT:

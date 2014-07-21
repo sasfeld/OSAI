@@ -1,0 +1,15 @@
+ID: 2289
+CREATION_DATETIME: 1374012000000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: -2, denn neben der Broadcast-Adresse ist auch die Netzadresse reserviert.
+
+Beispiel: Aus der Adress...
+PARENT_POSTING_ID: 2286
+POSTING_TYPE: answer
+CONTENT:
+-2, denn neben der Broadcast-Adresse ist auch die Netzadresse reserviert.
+Beispiel: Aus der Adresse 192. 168. 52. 5 ergibt sich mit der Netzmaske 255. 255. 224. 0 (=„/19“):
+→ Netz-Adresse: 192. 168. 32. 0
+→ Broadcast-Adresse: 192. 168. 63. 255
+→ Geräte-ID: 5125 (von 8190 möglichen)
+TAGGED_CONTENT:

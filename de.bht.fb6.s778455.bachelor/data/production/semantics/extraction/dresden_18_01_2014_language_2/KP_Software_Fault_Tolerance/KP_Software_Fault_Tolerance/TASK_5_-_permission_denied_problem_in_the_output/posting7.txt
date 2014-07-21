@@ -1,0 +1,10 @@
+ID: 992
+CREATION_DATETIME: 1355958000000
+MODIFICATION_DATETIME: 1355958000000
+TITLE: Have you tested exactly this command: `./run.sh`?
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 991
+POSTING_TYPE: comment
+CONTENT:
+Have you tested exactly this command: `./run. sh`?
+TAGGED_CONTENT:

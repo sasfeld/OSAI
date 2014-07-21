@@ -1,0 +1,39 @@
+ID: 28
+CREATION_DATETIME: 1201184640000
+MODIFICATION_DATETIME: 1201184640000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 27
+CONTENT:
+
+    
+    Also unten steht mal mein Testcode von reku08. Ich denke ich habe bloß nicht ganz den Teil der Aufgabe verstanden wo es heißt: "Am Ende ist der Cursor
+am Anfang der nächsten Zeile." Da weiß icht nicht, wie ich es umsetzten soll!
+Ich hoffe die anderen Bedingungen sind gut und richig umgesetzt.
+Danke und liebe Grüße, Franzi
+
+public class reku08 {
+static public void reku08(final int N) {
+// Precondition: N positiv ist. Jede Ziffer von N
+// wird zwei mal nacheinander ausgegeben (erst die Einerziffer,
+// dann die Zehnerziffer etc.). Am Ende ist der Cursor
+// am Anfang der nächsten Zeile.
+//
+// Zum Beispiel reku07(123) ergibt:
+// 332211
+//
+ 
+if (N > 0){
+System.out.print(N % 10);
+System.out.print(N % 10);
+reku08(N/10);
+}
+}
+ 
+public static void main (String[] args){
+int testZahl = 123;
+reku08(testZahl);
+}
+}
+    
+TAGGED_CONTENT:

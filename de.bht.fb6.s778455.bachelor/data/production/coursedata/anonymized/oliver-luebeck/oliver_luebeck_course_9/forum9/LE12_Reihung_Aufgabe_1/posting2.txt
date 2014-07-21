@@ -1,0 +1,17 @@
+ID: 71
+CREATION_DATETIME: 1182764040000
+MODIFICATION_DATETIME: 1182764040000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 70
+CONTENT:
+   
+Auch von mir ein Hallo.
+
+Ich wurde gebeten Euch den 2ten Teil der Array Aufgaben zur Verfügung zu stellen.
+
+Also hänge ich mich mal hier an.
+
+Beste Grüße
+    
+TAGGED_CONTENT:

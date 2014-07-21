@@ -1,0 +1,17 @@
+ID: 115377
+CREATION_DATETIME: 1317638804
+MODIFICATION_DATETIME: 1317638804
+TITLE: Videokonferenzen 
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Studierenden,
+zur Besprechung von Fragen zu den Lernobjekten oder den Übungs- und Zusatzaufgaben werden wir regelmäßige Videokonferenzen durchführen. Diese finden mittwochs um 19 Uhr statt, mit Ausnahme der ersten, die ich leider auf Mittwoch, 20 Uhr verschieben muss. Die Termine sind:
+Mittwoch, 12. 10.
+Mittwoch, 26. 10.
+Mittwoch, 9. 11.
+Mittwoch, 23. 11.
+Mittwoch, 7. 12.
+Mittwoch, 18. 1.
+Bis dann!
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

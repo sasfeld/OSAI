@@ -1,0 +1,9 @@
+ID: 2345
+CREATION_DATETIME: 1374184800000
+MODIFICATION_DATETIME: 1374184800000
+TITLE: Interessante Daten und Testfälle (Documents/interessante_daten.csv) sind jetzt im Repos. Da sind genu...
+PARENT_POSTING_ID: 2344
+POSTING_TYPE: comment
+CONTENT:
+Interessante Daten und Testfälle (Documents/interessante_daten. csv) sind jetzt im Repos. <NAME_CORPUS_REPLACEMENT> sind genug interessante Testdaten drin. (auf der Wimpynode sind die in testCLT. cpp entkommentiert)
+TAGGED_CONTENT:

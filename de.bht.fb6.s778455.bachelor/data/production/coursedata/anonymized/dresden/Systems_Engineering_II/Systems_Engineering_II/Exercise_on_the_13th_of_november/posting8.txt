@@ -1,0 +1,9 @@
+ID: 2833
+CREATION_DATETIME: 1384297200000
+MODIFICATION_DATETIME: 1384297200000
+TITLE: Maybe, but the one or other student has another lecture/exercise in parallel and can't attend both. S...
+PARENT_POSTING_ID: 2813
+POSTING_TYPE: comment
+CONTENT:
+Maybe, but the one or other student has another lecture/exercise in parallel and can't attend both. So it would be great to not only have oral announcements.
+TAGGED_CONTENT:

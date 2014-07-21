@@ -1,0 +1,10 @@
+ID: 2530
+CREATION_DATETIME: 1376604000000
+MODIFICATION_DATETIME: 1376776800000
+TITLE: Well to me it is a broad description for techniques such as attentive/gaze-contingent displays. In th...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2529
+POSTING_TYPE: answer
+CONTENT:
+Well to me it is a broad description for techniques such as attentive/gaze-contingent displays. In the case of gaze-contingent displays the area which is inspected by the eye is treated specially or the rest of the display is blured out (see page 38). Hence, a mask is applied to the display which is mainly influenced by the eye.
+TAGGED_CONTENT:

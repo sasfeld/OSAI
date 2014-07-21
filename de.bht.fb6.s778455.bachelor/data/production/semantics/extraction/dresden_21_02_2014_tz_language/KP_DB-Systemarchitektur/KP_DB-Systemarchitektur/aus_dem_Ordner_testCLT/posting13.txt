@@ -1,0 +1,12 @@
+ID: 1929
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: Es wird jetzt mit "make" gebaut und anhand der run.sh kannst du in Erfahrung bringen, wie man das Pro...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Es wird jetzt mit "make" gebaut und anhand der run. <LEARNED_PERSON_NAME_REPLACEMENT> kannst du in Erfahrung bringen, wie man das Prog startet bzw. die Umgebung aufsetzt.
+
+(Ach, <NAME_CORPUS_REPLACEMENT> fällt mir noch ein, dass man die PATH-Variable auch zum Bauen auch auf das korrekte bin-Verzeichnis <NAME_CORPUS_REPLACEMENT> llvm zeigen lassen muss, wegen llvm-config)
+TAGGED_CONTENT:

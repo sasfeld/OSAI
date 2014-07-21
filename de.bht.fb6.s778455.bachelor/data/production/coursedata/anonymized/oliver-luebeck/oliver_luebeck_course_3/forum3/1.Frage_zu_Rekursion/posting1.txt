@@ -1,0 +1,44 @@
+ID: 8
+CREATION_DATETIME: 1198014540000
+MODIFICATION_DATETIME: 1198014540000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+    
+    Ich habe ein ganz einfaches rekursives Programm im Internet gefunden, wo ich die Ausgabe nicht verstehe.
+//------------------------------------------------------
+public class RekursionsDemo{
+public static void main(String[] args){
+rekursion(5);
+}
+private static void rekursion(int a){
+a--;
+System.out.println(a);
+if (a!=0) rekursion(a);
+System.out.println(a);
+}
+}
+//--------------------------------------------------
+Die Ausgabe sieht so aus:
+
+4
+3
+2
+1
+0
+0
+1
+2
+3
+4
+
+
+Ich verstehe nicht, warum er wieder hochzählt.
+Kann mir jemand das erklären?
+
+Gruss
+
+    
+TAGGED_CONTENT:

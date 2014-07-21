@@ -1,0 +1,23 @@
+ID: 18
+CREATION_DATETIME: 1194038640000
+MODIFICATION_DATETIME: 1194038640000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 17
+CONTENT:
+ 
+Liebe , liebe Studierende,
+
+Vielen Dank  für das Anfangen.
+
+Ich antworte mit noch einer Frage. Was bewirken beide Methode, wenn in der liste folgende Einträge sind:
+
+["richard", "35467654"]
+
+["michael", "35467343"]
+
+["richard", "22467343"]
+
+und die Methoden werden mit "richard" als Parameter aufgerufen?
+   
+TAGGED_CONTENT:

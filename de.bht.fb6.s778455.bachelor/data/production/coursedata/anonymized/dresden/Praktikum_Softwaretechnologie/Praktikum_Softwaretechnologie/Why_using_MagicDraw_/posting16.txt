@@ -1,0 +1,19 @@
+ID: 2958
+CREATION_DATETIME: 1385074800000
+MODIFICATION_DATETIME: 1385074800000
+TITLE: Mrs. Demuth, I need some help comprehending this.
+
+I understood the following: (1) You agree with m...
+PARENT_POSTING_ID: 2593
+POSTING_TYPE: comment
+CONTENT:
+<REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>, I need some help comprehending this.
+I understood the following: 
+1. You agree with me that it is bad practise that companies distribute free copies of their proprietary products in order to get students used to their products.
+2. Although NoMagic does exactly that, you argue it’s okay that they do it, because they included some of your chair’s work in their product, and they pay for that by providing free MagicDraw licenses.
+3. As pointed out by <REMOVED_PERSON_ENTITY>, there are standardized UML data formats that could be used if the chair would like to achieve comparable solutions, without enforcing the use of some proprietary software solution. This means there’s no technical reason to enforce the use of MagicDraw.
+It would be very helpful if you could correct me if I’m wrong in any of the three above points. If there’s no technical reason, then I wonder why you’re enforcing that strict policy to use MagicDraw. Is it for some other, maybe valid reason? Or has the chair simply not thought it through? Or has the chair entered some kind of contract with NoMagic to force students to use MagicDraw?
+I hope the latter is not the case, because in that case it would seem like the chair has abused their teaching responsibilities by having sold their students to NoMagic as marketing devices.
+Could you please enlighten us how exactly NoMagic’s “payment” that you’ve mentioned for including the chair’s OCL tool looks like? Is that a payment in money, or do you simply get the licenses in return? I hope NoMagic doesn’t force you to force the students to use their product.
+(Please note that I don’t intend to be disrespectful or insulting. Please let me know in which of the above points I’m mistaken.)
+TAGGED_CONTENT:

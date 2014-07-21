@@ -1,0 +1,16 @@
+ID: 3081
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: Danke für die Antwort : ]
+Wenn long oder int funktionieren würden, hätte ich dieses Proble nicht. Ab...
+PARENT_POSTING_ID: 3071
+POSTING_TYPE: comment
+CONTENT:
+Danke für die Antwort : ]
+Es funktioniert eben nicht, deswegen habe ich ja die manuellen Generatoren überhaupt erst ausprobiert:
+SIehe auch hier:
+http://stackoverflow.com/questions/4120414/how-can-i-use-generated-value-within-composite-keys
+Das die manuelle Lösung nur ein Quick-Fix ist, der eine persistente DB zerschießt ist mir klar. Ich wollte nur zeigen, dass der Fehler nicht in der grundlegenden Architektur bzw. im Rest des Codes liegen kann.
+Eine veränderte Klassenarchitektur ist keine Lösung. Ich brauche ein gemeinsames Interface für alle Id-Klassen.
+Edit: Iich habe Google vor dem Stellen dieser Frage durchforsted, ist also eher unwahrscheinlich das die Lösung in der ersten Stackoverflow Antowrt liegt^^
+TAGGED_CONTENT:

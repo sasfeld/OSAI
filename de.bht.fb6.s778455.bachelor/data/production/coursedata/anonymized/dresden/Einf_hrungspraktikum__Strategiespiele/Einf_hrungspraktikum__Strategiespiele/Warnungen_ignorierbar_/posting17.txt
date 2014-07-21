@@ -1,0 +1,10 @@
+ID: 1227
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: das klappt schon fuer den fall a=0, b=0, c=0 nicht. a==b ergibt dann 1; damit ist 1==c mit c=0 dann 0...
+PARENT_POSTING_ID: 1225
+POSTING_TYPE: comment
+CONTENT:
+das klappt schon fuer den fall a=0, b=0, c=0 nicht. a==b ergibt dann 1; damit ist 1==c mit c=0 dann 0.
+(a==b) && (b==c) liefert hingegen voellig korrekt 1
+TAGGED_CONTENT:

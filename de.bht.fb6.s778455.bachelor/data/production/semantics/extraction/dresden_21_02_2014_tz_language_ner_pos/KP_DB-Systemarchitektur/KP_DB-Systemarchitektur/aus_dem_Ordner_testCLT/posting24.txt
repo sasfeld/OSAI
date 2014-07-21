@@ -1,0 +1,15 @@
+ID: 1943
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: Die wird eben nicht gebaut, warum auch immer.
+LANGUAGE: GERMAN
+POS_TAG: value:CLeverTrustee;weight:0.0;uri:;postag:NN
+POS_TAG: value:Make;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Die wird eben nicht gebaut, warum auch immer.
+
+"make[1]: Nothing to be done for `../CLeverTrustee'."  sagt mir Make unter anderem. Obwohl die lib eben noch nicht vorhanden ist
+TAGGED_CONTENT:
+Die_PDS wird_VAFIN eben_ADV nicht_PTKNEG gebaut_VVPP ,_$, warum_PWAV auch_ADV immer_ADV ._$. "_$( make_FM -LSB-_TRUNC 1_CARD -RSB-_TRUNC :_$. Nothing_FM to_FM be_FM done_FM for_FM `_FM ._$. ._$. \/_XY CLeverTrustee_NN '_$( ._$. "_$( sagt_VVFIN mir_PPER Make_NN unter_APPR anderem_PIS ._$. Obwohl_KOUS die_ART lib_FM eben_ADV noch_ADV nicht_PTKNEG vorhanden_ADJD ist_VAFIN 

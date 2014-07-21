@@ -1,0 +1,19 @@
+ID: 1296
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Du möchtest &, nicht *.
+```c
+insert(i,&morejumps[i]);
+```
+PARENT_POSTING_ID: 1295
+POSTING_TYPE: answer
+CONTENT:
+Du möchtest &, nicht *.
+```c
+insert(i,&morejumps[i]);
+```
+`*` Dereferenziert, das heißt, es gibt dir das zurück auf was ein Pointer zeigt.
+`&` Referenziert, das heißt, es gibt dir einen Pointer auf das zurück, was nach dem `&` steht.
+Du möchtest ein `struct node **` haben, also einen Pointer auf einen Pointer auf ein `struct node`.
+Du hast schon ein Array <NAME_CORPUS_REPLACEMENT> Pointern auf `struct node`'s (also `struct node *`), um jetzt ein `struct node **` zu bekommen, musst du also ein Element aus dem Array Referenzieren.
+TAGGED_CONTENT:

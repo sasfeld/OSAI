@@ -1,0 +1,316 @@
+ID: 1329
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+das programm erreicht `printf("ende");` nicht
+aber sämtliche vorherigen printf werden ausgeführt
+```ruby
+int main() {
+// program complete, enter when ready
+//
+// TODO write your own player here, have a look at example_player. <PERSONAL_GREETING_REMOVEMENT>
+// TODO input() and output() to understand the protocol between
+// TODO MCP and your player (receive game state, send move back)
+// input/output buffer to communicate with Master Control Program
+	char buffer[BUFFERSIZE];
+	char outputbuffer[40];
+	srand (time(NULL));
+while(	1) {
+		// receive game state from MCP
+		input(buffer);
+		reset();
+		//zug
+		getpossibleturns(buffer);
+		printf("erster zug ");
+		if (haveJumps == 1) {
+			printf("jump");
+			jumping(buffer);
+		} else {
+			printf("move");
+			moving(buffer, outputbuffer);
+		}
+		// request user input, read move into buffer
+		//if (!fgets(buffer, BUFFERSIZE_OUT, stdin))
+		//	error("fgets() failed");
+		// send move back to MCP
+		output(outputbuffer);
+	}
+}
+```
+```ruby
+void getpossibleturns(char* buffer) {
+	char enemyking;
+	char enemy;
+	char mycolor;
+	char color = buffer[0];
+	if (color == 'B') {
+		enemy = 'w';
+		enemyking = 'W';
+		mycolor = 'b';
+	} else {
+		enemy = 'b';
+		enemyking = 'B';
+		mycolor = 'w';
+	}
+	int move; //bewegen <LEARNED_PERSON_NAME_REPLACEMENT>/nein
+	int jump; //springen <LEARNED_PERSON_NAME_REPLACEMENT>/nein
+	int jlefttop; //springen links
+	int jrighttop; //springen rechts
+	int mlefttop; //bewegen links
+	int mrighttop; //bewegen rechts
+	int jleftbot; //springen links
+	int jrightbot; //springen rechts
+	int mleftbot; //bewegen links
+	int mrightbot;
+	for (int i = 2; i < 34; i++) {
+		jump = 0;
+		move = 0;
+		mlefttop = 0;
+		mrighttop = 0;
+		jlefttop = 0;
+		jrighttop = 0;
+		mleftbot = 0;
+		mrightbot = 0;
+		jleftbot = 0;
+		jrightbot = 0;
+		if (buffer[i] == mycolor or buffer[i] == color) {
+			if (i == 7 or i == 8 or i == 9) {
+				if (buffer[i - 4] == '-') {
+					move = 1;
+					mrighttop = i - 4;
+				}
+				if (buffer[i - 5] == '-') {
+					move = 1;
+					mlefttop = i - 5;
+				}
+			} else if (i == 27 or i == 28 or i == 19 or i == 20 or i == 11
+					or i == 12) {
+				if (buffer[i - 4] == '-') {
+					move = 1;
+					mlefttop = i - 4;
+				}
+				if (buffer[i - 3] == '-') {
+					move = 1;
+					mrighttop = i - 3;
+				}
+				if ((buffer[i - 3] == enemyking or buffer[i - 3] == enemy)
+						and buffer[i - 7] == '-') {
+					jump = 1;
+					jrighttop = i - 7;
+				}
+				if ((buffer[i - 4] == enemyking or buffer[i - 4] == enemy)
+						and buffer[i - 9] == '-') {
+					jump = 1;
+					jlefttop = i - 9;
+				}
+			} else if (i == 23 or i == 24 or i == 31 or i == 32 or i == 15
+					or i == 16) {
+				if (buffer[i - 4] == '-') {
+					move = 1;
+					mrighttop = i - 4;
+				}
+				if (buffer[i - 5] == '-') {
+					move = 1;
+					mlefttop = i - 5;
+				}
+				if ((buffer[i - 4] == enemyking or buffer[i - 4] == enemy)
+						and buffer[i - 7] == '-') {
+					jump = 1;
+					jrighttop = i - 7;
+				}
+				if ((buffer[i - 5] == enemyking or buffer[i - 5] == enemy)
+						and buffer[i - 9] == '-') {
+					jump = 1;
+					jlefttop = i - 9;
+				}
+			} else if (i == 26 or i == 18 or i == 10) {
+				if (buffer[i - 4] == '-') {
+					move = 1;
+					mlefttop = i - 4;
+				}
+				if (buffer[i - 3] == '-') {
+					move = 1;
+					mrighttop = i - 3;
+				}
+				if ((buffer[i - 3] == enemyking or buffer[i - 3] == enemy)
+						and buffer[i - 7] == '-') {
+					jump = 1;
+					jrighttop = i - 7;
+				}
+			} else if (i == 33 or i == 25 or i == 17) {
+				if (buffer[i - 5] == '-') {
+					move = 1;
+					mlefttop = i - 5;
+				}
+				if (buffer[i - 4] == '-') {
+					move = 1;
+					mrighttop = i - 4;
+				}
+				if ((buffer[i - 5] == enemyking or buffer[i - 5] == enemy)
+						and buffer[i - 9] == '-') {
+					jump = 1;
+					jlefttop = i - 9;
+				}
+			} else if (i == 30 or i == 22 or i == 14) { //linker rand
+				if (buffer[i - 4] == '-') {
+					move = 1;
+					mrighttop = i - 4;
+				}
+				if ((buffer[i - 4] == enemyking or buffer[i - 4] == enemy)
+						and buffer[i - 7] == '-') {
+					jump = 1;
+					jrighttop = i - 7;
+				}
+			} else if (i == 29 or i == 21 or i == 13) { //rechter rand
+				if (buffer[i - 4] == '-') {
+					move = 1;
+					mlefttop = i - 4;
+				}
+				if ((buffer[i - 4] == enemyking or buffer[i - 4] == enemy)
+						and buffer[i - 9] == '-') {
+					jump = 1;
+					jlefttop = i - 9;
+				}
+			} else if (i == 6) {
+				if (buffer[i - 4] == '-') {
+					move = 1;
+					mrighttop = i - 4;
+				}
+			}
+		}
+		if (buffer[i] == mycolor or buffer[i] == color) {
+			if (i == 22 or i == 14 or i == 6) {
+				if (buffer[i + 4] == '-') {
+					move = 1;
+					mrightbot = i + 4;
+				}
+				if ((buffer[i + 4] == enemyking or buffer[i + 4] == enemy)
+						and buffer[i + 9] == '-') {
+					jump = 1;
+					jrightbot = i + 9;
+				}
+			} else if (i == 5 or i == 13 or i == 21) {
+				if (buffer[i + 4] == '-') {
+					move = 1;
+					mleftbot = i + 4;
+				}
+				if ((buffer[i + 4] == enemyking or buffer[i + 4] == enemy)
+						and buffer[i + 7] == '-') {
+					jump = 1;
+					jleftbot = i + 7;
+				}
+			} else if (i == 26 or i == 27 or i == 28) {
+				if (buffer[i + 4] == '-') {
+					move = 1;
+					mleftbot = i + 4;
+				}
+				if (buffer[i + 5] == '-') {
+					move = 1;
+					mrightbot = i + 5;
+				}
+			} else if (i == 29) {
+				if (buffer[i + 4] == '-') {
+					move = 1;
+					mleftbot = i + 4;
+				}
+			} else if (i == 2 or i == 18 or i == 10) {
+				if (buffer[i + 4] == '-') {
+					move = 1;
+					mleftbot = i + 4;
+				}
+				if (buffer[i + 5] == '-') {
+					move = 1;
+					mrightbot = i + 5;
+				}
+				if ((buffer[i + 5] == enemyking or buffer[i + 5] == enemy)
+						and buffer[i + 9] == '-') {
+					jump = 1;
+					jrightbot = i + 9;
+				}
+			} else if (i == 9 or i == 17 or i == 25) {
+				if (buffer[i + 4] == '-') {
+					move = 1;
+					mrightbot = i + 4;
+				}
+				if (buffer[i + 3] == '-') {
+					move = 1;
+					mleftbot = i + 3;
+				}
+				if ((buffer[i + 3] == enemyking or buffer[i + 3] == enemy)
+						and buffer[i + 7] == '-') {
+					jump = 1;
+					jleftbot = i + 7;
+				}
+			} else if (i == 3 or i == 4 or i == 11 or i == 12 or i == 19
+					or i == 20) {
+				if (buffer[i + 4] == '-') {
+					move = 1;
+					mleftbot = i + 4;
+				}
+				if (buffer[i + 5] == '-') {
+					move = 1;
+					mrightbot = i + 5;
+				}
+				if ((buffer[i + 4] == enemyking or buffer[i + 4] == enemy)
+						and buffer[i + 7] == '-') {
+					jump = 1;
+					jleftbot = i + 7;
+				}
+				if ((buffer[i + 5] == enemyking or buffer[i + 5] == enemy)
+						and buffer[i + 9] == '-') {
+					jump = 1;
+					jrightbot = i + 9;
+				}
+			} else if (i == 7 or i == 8 or i == 15 or i == 16 or i == 23
+					or i == 24) {
+				if (buffer[i + 3] == '-') {
+					move = 1;
+					mleftbot = i + 3;
+				}
+				if (buffer[i + 4] == '-') {
+					move = 1;
+					mrightbot = i + 4;
+				}
+				if ((buffer[i + 3] == enemyking or buffer[i + 3] == enemy)
+						and buffer[i + 7] == '-') {
+					jump = 1;
+					jleftbot = i + 7;
+				}
+				if ((buffer[i + 4] == enemyking or buffer[i + 4] == enemy)
+						and buffer[i + 9] == '-') {
+					jump = 1;
+					jrightbot = i + 9;
+				}
+			}
+		}
+		printf("%i: M: %i J: %i MLT: %i MRT: %i JLT: %i JRT: %i ", i - 1, move,
+				jump, mlefttop - 1, mrighttop - 1, jlefttop - 1, jrighttop - 1);
+		printf("%i: M: %i J: %i MLB: %i MRB: %i JLB: %i JRB: %i  ", i - 1,
+				move, jump, mleftbot - 1, mrightbot - 1, jleftbot - 1,
+				jrightbot - 1);
+		if (jump) {
+			haveJumps = 1;
+			jumps[i][0] = 1;
+			jumps[i][1] = jlefttop;
+			jumps[i][2] = jrighttop;
+			jumps[i][3] = jleftbot;
+			jumps[i][4] = jrightbot;
+			insert(i, &morejumps[i]);
+		}
+		if (move) {
+			moves[i][0] = 1;
+			moves[i][1] = mlefttop;
+			moves[i][2] = mrighttop;
+			moves[i][3] = mleftbot;
+			moves[i][4] = mrightbot;
+		}
+                printf("%i ", i);
+	}
+	printf("ende ");
+	return;
+}
+```
+TAGGED_CONTENT:

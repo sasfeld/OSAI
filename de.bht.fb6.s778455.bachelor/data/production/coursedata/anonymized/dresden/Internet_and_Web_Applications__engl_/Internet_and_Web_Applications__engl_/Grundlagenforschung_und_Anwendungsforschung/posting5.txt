@@ -1,0 +1,9 @@
+ID: 1729
+CREATION_DATETIME: 1365976800000
+MODIFICATION_DATETIME: 1365976800000
+TITLE: Nein, dies stellt kein Problem dar. Wir sind grundsätzlich für maximale Flexibilität, und die Idee be...
+PARENT_POSTING_ID: 1727
+POSTING_TYPE: comment
+CONTENT:
+Nein, dies stellt kein Problem dar. Wir sind grundsätzlich für maximale Flexibilität, und die Idee bei der Modularisierung ist es ja, <REMOVED_PERSON_ENTITY> (und damit breitere Themenbereiche) in den Vordergrund zu stellen, und nicht einzelne Lehrstühle. Eine Kombination über Professuren hinweg ist also bei gewissen vorhandenen fachlichen Bezügen durchaus möglich.
+TAGGED_CONTENT:

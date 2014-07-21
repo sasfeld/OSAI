@@ -1,0 +1,9 @@
+ID: 512
+CREATION_DATETIME: 1351116000000
+MODIFICATION_DATETIME: 1351116000000
+TITLE: Es gibt auch eine angenehme [Lösung direkt im Web](http://mudcu.be/labs/Thumbnail-Generator/): Bild h...
+PARENT_POSTING_ID: 476
+POSTING_TYPE: comment
+CONTENT:
+Es gibt auch eine angenehme [Lösung direkt im Web](http://mudcu.be/labs/Thumbnail-Generator/): Bild hochladen, festlegen, wie groß die Thumbnails sein sollen und das Ergebnis herunterladen und nutzen! 
+TAGGED_CONTENT:

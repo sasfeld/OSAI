@@ -1,0 +1,25 @@
+ID: 190
+CREATION_DATETIME: 1349560800000
+MODIFICATION_DATETIME: 1382306400000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:6.95597687640829;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Guten Abend Ladies und Gentlemen.
+
+Ich habe eine Frage bezüglich des Stundenplans MINF-B01.
+
+Der Mittwoch in diesem Stundenplan wurde ja schon überarbeitet. Die Übung am Ende bei Prof. <REMOVED_PERSON_ENTITY> wurde gestrichen wenn ich das richtig mitbekommen habe (wurde übrigens bei jExam noch nicht korrigiert). 
+
+Meine eigentliche Frage ist, wo die erste Übung am Mittwoch um 9. 20 stattfinden soll. Es steht kein Ort dabei. 
+
+Danke
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

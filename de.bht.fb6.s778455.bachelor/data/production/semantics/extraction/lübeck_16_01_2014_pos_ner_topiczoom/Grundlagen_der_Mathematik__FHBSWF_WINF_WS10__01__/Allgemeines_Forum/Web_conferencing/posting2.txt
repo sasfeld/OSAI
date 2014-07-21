@@ -1,0 +1,18 @@
+ID: 97755
+CREATION_DATETIME: 1285753183
+MODIFICATION_DATETIME: 1285753183
+TITLE: Re: Web conferencing
+TOPIC_ZOOM_TAG: value:World Wide Web;weight:1.0;significance:4.80310786617364;degreegeneralization:6;uri:20772430
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:Vorschlag;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spielraum?Mein;weight:0.0;uri:;postag:NN
+POS_TAG: value:Uhr;weight:0.0;uri:;postag:NN
+POS_TAG: value:Termine;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97754
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>, die für das Web conferencing festgesetzten Termine immer Mittwochs von 20:00 bis 21:00 Uhr überschneiden sich bei mir. Gibt es bei Ihnen einen Spielraum?Mein Vorschlag wäre Donnerstags von 20:00 bis 21:00. vg, tl 
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, die_PRELS für_APPR das_ART Web_FM conferencing_FM festgesetzten_ADJA Termine_NN immer_ADV Mittwochs_CARD von_APPR 20:00_CARD bis_APPR 21:00_CARD Uhr_NN überschneiden_VVFIN sich_PRF bei_APPR mir_PPER ._$. Gibt_VVFIN es_PPER bei_APPR Ihnen_PPER einen_ART Spielraum?Mein_NN Vorschlag_NN wäre_VAFIN Donnerstags_ADV von_APPR 20:00_CARD bis_APPR 21:00_CARD ._$. vg_NE ,_$, tl_FM 

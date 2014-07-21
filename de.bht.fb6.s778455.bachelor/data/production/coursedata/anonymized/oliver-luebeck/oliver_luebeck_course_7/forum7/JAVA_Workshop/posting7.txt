@@ -1,0 +1,17 @@
+ID: 63
+CREATION_DATETIME: 1305147540000
+MODIFICATION_DATETIME: 1305147540000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 62
+CONTENT:
+   
+Notfalls muss ich mal ein paar Termine in doodle angeben, wann ich Zeit dafür habe und dann können ja alle anderen angeben an welchen Terminen sie Zeit haben.
+
+Da wo die meisten Leute können, findet dann ein Treffen statt :).
+
+Notfalls kann man sowas auch als Webcast bereit stellen. Teamviewer wäre ja dafür geeignet.
+
+Gruß
+    
+TAGGED_CONTENT:

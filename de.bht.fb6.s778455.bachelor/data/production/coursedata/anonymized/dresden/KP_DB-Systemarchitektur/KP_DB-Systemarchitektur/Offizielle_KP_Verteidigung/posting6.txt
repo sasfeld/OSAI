@@ -1,0 +1,9 @@
+ID: 2306
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Aber ODT heißt "Open Document Type" - das ist das Format von Libreoffice.
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Aber ODT heißt "Open Document Type" - das ist das Format <NAME_CORPUS_REPLACEMENT> Libreoffice.
+TAGGED_CONTENT:

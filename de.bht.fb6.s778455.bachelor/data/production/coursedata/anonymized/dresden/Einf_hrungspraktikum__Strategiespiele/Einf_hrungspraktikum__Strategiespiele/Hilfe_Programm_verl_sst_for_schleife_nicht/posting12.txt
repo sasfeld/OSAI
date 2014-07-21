@@ -1,0 +1,9 @@
+ID: 1342
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: er geht aber trotzdem return nich aus der fkt raus
+PARENT_POSTING_ID: 1329
+POSTING_TYPE: comment
+CONTENT:
+er geht aber trotzdem return nich aus der fkt raus
+TAGGED_CONTENT:

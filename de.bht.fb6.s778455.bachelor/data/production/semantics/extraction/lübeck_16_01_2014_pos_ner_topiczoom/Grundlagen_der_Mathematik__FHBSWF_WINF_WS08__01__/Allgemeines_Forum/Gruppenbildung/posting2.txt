@@ -1,0 +1,12 @@
+ID: 16587
+CREATION_DATETIME: 1225285185
+MODIFICATION_DATETIME: 1225285185
+TITLE: Re: Gruppenbildung
+POS_TAG: value:Platz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 16585
+CONTENT:
+Hi,
+ich habe noch keine Gruppe. Ist bei euch noch ein Platz frei?
+TAGGED_CONTENT:
+Hi_NE ,_$, ich_PPER habe_VAFIN noch_ADV keine_PIAT Gruppe_NN ._$. Ist_VAFIN bei_APPR euch_PRF noch_ADV ein_ART Platz_NN frei_ADJD ?_$. 

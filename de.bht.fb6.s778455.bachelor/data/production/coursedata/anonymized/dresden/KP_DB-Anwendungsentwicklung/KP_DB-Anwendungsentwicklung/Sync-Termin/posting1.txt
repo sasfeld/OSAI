@@ -1,0 +1,9 @@
+ID: 2606
+CREATION_DATETIME: 1382392800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Der wöchentliche Sync liegt immer Donnerstags 14:40Uhr und findet im Raum 3044 statt.
+TAGGED_CONTENT:

@@ -1,0 +1,23 @@
+ID: 251281
+CREATION_DATETIME: 1383165601
+MODIFICATION_DATETIME: 1383165601
+TITLE: Re: Gruppen für potenzielle Einsendeaufgaben
+TOPIC_ZOOM_TAG: value:Stress;weight:1.0;significance:9.21204195376745;degreegeneralization:6;uri:20258928
+TOPIC_ZOOM_TAG: value:Gesundheitsgefahren;weight:1.0;significance:7.18309657610214;degreegeneralization:5;uri:20906968
+TOPIC_ZOOM_TAG: value:Konferenzen, Kongresse und Symposien;weight:1.0;significance:6.25966012108707;degreegeneralization:3;uri:21956956
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Gesundheit;weight:1.0;significance:3.54697930762717;degreegeneralization:2;uri:21997569
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 250835
+CONTENT:
+Klar ich würde <REMOVED_PERSON_ENTITY>, jeder schickt seine Lösungen einfach mal rum. Oder wir machen eine Online Konferenz um uns zu einigen,
+war ja alles doch ein bisschen stressig mit der Gruppenbildung.
+Die Hauptsache ist ja das wir nach der Überprüfung das Ding mal losschicken...
+Was haltet ihr von morgen 19 UHR oder Freitag 20 UHR???
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+ 
+TAGGED_CONTENT:

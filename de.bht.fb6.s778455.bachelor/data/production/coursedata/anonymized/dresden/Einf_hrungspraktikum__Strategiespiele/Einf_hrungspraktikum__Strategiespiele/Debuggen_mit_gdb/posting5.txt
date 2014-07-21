@@ -1,0 +1,9 @@
+ID: 1432
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1362870000000
+TITLE: gut, das geht bei mir, sowiet gdb noch nicht gestartet war... jedoch ist die anzeige im terminal fast...
+PARENT_POSTING_ID: 1428
+POSTING_TYPE: comment
+CONTENT:
+gut, das geht bei mir, sowiet gdb noch nicht gestartet war... jedoch ist die anzeige im terminal fast unlesbar, es sind lauter tabs dazwischen... wie bekommt man die weg?
+TAGGED_CONTENT:

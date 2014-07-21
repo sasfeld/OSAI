@@ -1,0 +1,46 @@
+ID: 170165
+CREATION_DATETIME: 1350208972
+MODIFICATION_DATETIME: 1350208972
+TITLE: Re: Online Präsenz vom 10.10.
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Alphabete;weight:1.0;significance:6.007701167337;degreegeneralization:8;uri:20095405
+TOPIC_ZOOM_TAG: value:Schriftsprache;weight:1.0;significance:5.8049686132829;degreegeneralization:7;uri:20120599
+TOPIC_ZOOM_TAG: value:Schrift;weight:1.0;significance:4.10436992245183;degreegeneralization:6;uri:20916998
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:3.89064791503836;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Sprache, Zivilisation und Bevölkerung;weight:1.0;significance:3.33295834077578;degreegeneralization:5;uri:20895986
+TOPIC_ZOOM_TAG: value:Sprache als Bereich der Kultur;weight:1.0;significance:2.88271354620725;degreegeneralization:5;uri:20896003
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:2.50435355391847;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:2.23699226098339;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:1.75110858232764;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Kunst, Kultur, Musik;weight:1.0;significance:1.52385346833743;degreegeneralization:2;uri:21999796
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:1.07441906812122;degreegeneralization:2;uri:21999813
+POS_TAG: value:Idee;weight:0.0;uri:;postag:NN
+POS_TAG: value:ndung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorhandensein;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fall;weight:0.0;uri:;postag:NN
+POS_TAG: value:Buchstabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Elemente;weight:0.0;uri:;postag:NN
+POS_TAG: value:Avriablen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Platzhalter;weight:0.0;uri:;postag:NN
+POS_TAG: value:Antworten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zahlen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mathematik;weight:0.0;uri:;postag:NN
+POS_TAG: value:Antisymmetrie;weight:0.0;uri:;postag:NN
+POS_TAG: value:B.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Element;weight:0.0;uri:;postag:NN
+POS_TAG: value:Buchstaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wert;weight:0.0;uri:;postag:NN
+POS_TAG: value:Folgerung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Alphabets;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 170025
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+ich mache mal einzelne Antworten daraus, ich denke, das ist übersichtlicher.
+Antisymmetrie liegt zwar vor, aber die Begründung (c, b) leuchtet mir nicht ein. Antisymmetrie liegt genau dann vor, wenn aus dem Vorhandensein von (a, b) UND (b, a) auch folgt, dass a gleich b ist. Da wir ja gesagt hatten, dass die drei Elemente unterschiedlich sind, darf also bei vorhandenem (a, b) kein (b, a) vorkommen und bei vorhandenem (c, b) kein (b, c). Das ist ja offensichtlich der Fall. (b, b) ist unproblematisch, weil es ja gleich sich selbst ist, und die o. g. Folgerung somit wahr.
+Ich verstehe aber wieso betonst Du, dass  Alle Elemente unterschieldich sind? Es ist dch offensichlich, dass alle Elemente a, b, c unterschiedlich sind weil ja für jedes Element ein andere Buchstabe genutzt wird.
+Ja, wenn man sich einigt, dass man unter a, b, c die ersten drei Buchstaben des Alphabets versteht, dass ist es klar, dass sie sich unterscheiden. Es ist aber in der Mathematik nicht unüblich, solche Buchstaben als Platzhalter (Avriablen) für beliebige Elemente (z. B. Zahlen) zu verwenden. Dann könnte man natürlich auf die Idee kommen, für a und b den gleichen Wert einzusetzen.
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE ,_$, ich_PPER mache_VVFIN mal_ADV einzelne_ADJA Antworten_NN daraus_PROAV ,_$, ich_PPER denke_VVFIN ,_$, das_PDS ist_VAFIN übersichtlicher_ADJD ._$. Antisymmetrie_NN liegt_VVFIN zwar_ADV vor_PTKVZ ,_$, aber_KON die_ART Begründung_NN -LRB-_TRUNC c_XY ,_$, b_XY -RRB-_TRUNC leuchtet_VVFIN mir_PPER nicht_PTKNEG ein_PTKVZ ._$. Antisymmetrie_NN liegt_VVFIN genau_ADJD dann_ADV vor_PTKVZ ,_$, wenn_KOUS aus_APPR dem_ART Vorhandensein_NN von_APPR -LRB-_TRUNC a_XY ,_$, b_XY -RRB-_TRUNC UND_KON -LRB-_TRUNC b_XY ,_$, a_XY -RRB-_TRUNC auch_ADV folgt_VVFIN ,_$, dass_KOUS a_ART gleich_ADV b_XY ist_VAFIN ._$. Da_KOUS wir_PPER ja_ADV gesagt_VVPP hatten_VAFIN ,_$, dass_KOUS die_ART drei_CARD Elemente_NN unterschiedlich_ADJD sind_VAFIN ,_$, darf_VMFIN also_ADV bei_APPR vorhandenem_ADJA -LRB-_TRUNC a_XY ,_$, b_XY -RRB-_TRUNC kein_PIAT -LRB-_TRUNC b_XY ,_$, a_XY -RRB-_TRUNC vorkommen_VVFIN und_KON bei_APPR vorhandenem_ADJA -LRB-_TRUNC c_XY ,_$, b_XY -RRB-_TRUNC kein_PIAT -LRB-_TRUNC b_XY ,_$, c_FM -RRB-_TRUNC ._$. Das_PDS ist_VAFIN ja_ADV offensichtlich_ADJD der_ART Fall_NN ._$. -LRB-_TRUNC b_XY ,_$, b_XY -RRB-_TRUNC ist_VAFIN unproblematisch_ADJD ,_$, weil_KOUS es_PPER ja_ADV gleich_ADV sich_PRF selbst_ADV ist_VAFIN ,_$, und_KON die_ART o._ADJA g._ADJA Folgerung_NN somit_ADV wahr_ADJD ._$. Ich_PPER verstehe_VVFIN aber_ADV wieso_PWAV betonst_VVFIN Du_PPER ,_$, dass_KOUS Alle_PIDAT Elemente_NN unterschieldich_ADJD sind_VAFIN ?_$. Es_PPER ist_VAFIN dch_ADJD offensichlich_ADJD ,_$, dass_KOUS alle_PIDAT Elemente_NN a_NE ,_$, b_XY ,_$, c_FM unterschiedlich_ADJD sind_VAFIN weil_KOUS ja_ADV für_APPR jedes_PIDAT Element_NN ein_ART andere_ADJA Buchstabe_NN genutzt_VVPP wird_VAFIN ._$. Ja_PTKANT ,_$, wenn_KOUS man_PIS sich_PRF einigt_VVFIN ,_$, dass_KOUS man_PIS unter_APPR a_NE ,_$, b_XY ,_$, c_VVFIN die_ART ersten_ADJA drei_CARD Buchstaben_NN des_ART Alphabets_NN versteht_VVFIN ,_$, dass_KOUS ist_VAFIN es_PPER klar_ADJD ,_$, dass_KOUS sie_PPER sich_PRF unterscheiden_VVINF ._$. Es_PPER ist_VAFIN aber_ADV in_APPR der_ART Mathematik_NN nicht_PTKNEG unüblich_ADJD ,_$, solche_PIDAT Buchstaben_NN als_APPR Platzhalter_NN -LRB-_TRUNC Avriablen_NN -RRB-_TRUNC für_APPR beliebige_ADJA Elemente_NN -LRB-_TRUNC z._APPRART B._NN Zahlen_NN -RRB-_TRUNC zu_PTKZU verwenden_VVINF ._$. Dann_ADV könnte_VMFIN man_PIS natürlich_ADV auf_APPR die_ART Idee_NN kommen_VVFIN ,_$, für_APPR a_NE und_KON b_XY den_ART gleichen_ADJA Wert_NN einzusetzen_VVIZU ._$. 

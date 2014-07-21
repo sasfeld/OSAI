@@ -1,0 +1,9 @@
+ID: 1771
+CREATION_DATETIME: 1367359200000
+MODIFICATION_DATETIME: 1367359200000
+TITLE: Bitte keine Fragen als "private" markieren. Dann bin ich nämlich der einzige, der die Frage lesen kan...
+PARENT_POSTING_ID: 1770
+POSTING_TYPE: comment
+CONTENT:
+Bitte keine Fragen als "private" markieren. Dann bin ich nämlich der einzige, der die Frage lesen kann.
+TAGGED_CONTENT:

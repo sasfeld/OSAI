@@ -12,6 +12,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.pos.PosParser;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>This class contains tests of the {@link PosParser}.</p>
@@ -20,7 +21,7 @@ import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.pos.PosParser;
  * @since 16.01.2014
  *
  */
-public class PosParserTest {
+public class PosParserTest extends NoLoggingTest {
     protected PosParser parser;
 
     /**
@@ -43,8 +44,6 @@ public class PosParserTest {
     public void testGetWords() {
        final String inputPosTagged = "Hallo_ITJ zusammen_PTKVZ ._$. Ich_PPER habe_VAFIN eine_ART Frage_NN zum_APPRART Thema_NN Variablen_NN in_APPR Java_NE ._$. Wie_PWAV deklariere_VVFIN ich_PPER eine_ART lokale_ADJA Variable_NN ?_$. Vielen_PIDAT Dank_NN !_$.";
        final Set< String > words = this.parser.getWords( "NN", inputPosTagged );
-       
-       System.out.println(words);
        
        assertEquals(5, words.size());       
     }

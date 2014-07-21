@@ -1,0 +1,15 @@
+ID: 97761
+CREATION_DATETIME: 1285339451
+MODIFICATION_DATETIME: 1285616524
+TITLE: Vorleistungen aus alten Semestern
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Studierende,
+[DELETED]
+mich erreichen oft Anfragen, ob ich alte Vorleistungen im selben Fach anrechne. Leider kann dies im Rahmen der von mir betreuten Fächer nicht angeboten werden.
+- Die Module werden überarbeitet, Vorleistungen werden dadurch lückenhaft.
+- <REMOVED_PERSON_ENTITY> werden nicht zentral gespeichert. Es gibt keine Möglichkeit, <REMOVED_PERSON_ENTITY> und Bewertungskriterien zwischen Mentoren standardisiert auszutauschen.
+Bitte erneuern Sie daher Ihre Vorleistungen und informieren Sie bei Wiederholungen stets zu Semesteranfang Ihre Mentoren.
+[/DELETED]
+Gruss Prof. <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

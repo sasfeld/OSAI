@@ -1,0 +1,10 @@
+ID: 1204
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1382306400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hab ma ne Frage bezüglich des bestehens. Der Code muss <LEARNED_PERSON_NAME_REPLACEMENT> Fehlerfrei kompilieren, darf er trotzdem noch warnungen enthalten? hab son "suggest parenthesis around && witin || " quark, der sich laut google nicht auf den code auswirkt/der compiler selber hinbiegt... ist sowas i. O. oder muss der unbedingt gefixt werden?
+TAGGED_CONTENT:

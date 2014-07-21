@@ -1,0 +1,10 @@
+ID: 2466
+CREATION_DATETIME: 1374703200000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: Sie können die Fragen in englischer oder deutscher Sprache beantworten.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1668
+POSTING_TYPE: comment
+CONTENT:
+Sie können die Fragen in englischer oder deutscher Sprache beantworten.
+TAGGED_CONTENT:

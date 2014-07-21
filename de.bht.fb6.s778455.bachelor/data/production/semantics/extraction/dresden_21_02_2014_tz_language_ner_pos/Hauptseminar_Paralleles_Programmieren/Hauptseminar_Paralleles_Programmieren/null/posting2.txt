@@ -1,0 +1,24 @@
+ID: 2579
+CREATION_DATETIME: 1381960800000
+MODIFICATION_DATETIME: 1381960800000
+TITLE: Ja. Bitte immer auch die Seiten der Fakultät im Blick haben.
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Fakultäten;weight:1.0;significance:9.61750706187561;degreegeneralization:5;uri:20916947
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Ja;weight:0.0;uri:;postag:NN
+POS_TAG: value:Seiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:t;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bitte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Blick;weight:0.0;uri:;postag:NN
+POS_TAG: value:st;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2565
+POSTING_TYPE: comment
+CONTENT:
+Ja. Bitte immer auch die Seiten der Fakultät im Blick haben.
+
+http://tu-dresden. de/die_tu_dresden/fakultaeten/fakultaet_informatik/smt/st/studium?subject=244&lang=de&leaf=1&head=4
+TAGGED_CONTENT:
+Ja_NN ._$. Bitte_NN immer_ADV auch_ADV die_ART Seiten_NN der_ART Fakultät_NN im_APPRART Blick_NN haben_VAFIN ._$. http:\/\/tu-dresden_VVIZU ._$. de\/die_PDS __VVFIN tu_dresden_ADJA \/_NN fakultaeten\/fakultaet_VVFIN __CARD informatik\/smt\/st_NN \/_VVFIN studium_ADV ,_$, subject_XY =_XY 244_CARD &_KON lang_ADV =_XY de_FM &_KON leaf_XY =_XY 1_CARD &_KON head_XY =_XY 4_CARD 

@@ -1,0 +1,15 @@
+ID: 60
+CREATION_DATETIME: 1290073140000
+MODIFICATION_DATETIME: 1290073140000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo,
+kurze Frage kurze Antwort:
+Findet heute abend planmäßig eine Webkonferenz statt?
+Wenn ja, um 19:00 Uhr oder 20:00?
+Gruß 
+	
+TAGGED_CONTENT:

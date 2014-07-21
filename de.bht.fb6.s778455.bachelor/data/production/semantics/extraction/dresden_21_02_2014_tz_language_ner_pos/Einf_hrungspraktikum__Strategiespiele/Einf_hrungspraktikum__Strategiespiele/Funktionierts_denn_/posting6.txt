@@ -1,0 +1,32 @@
+ID: 1497
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Teilweise mit dem originalen Problem zusammen hängend:
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 1481
+POSTING_TYPE: comment
+CONTENT:
+Teilweise mit dem originalen Problem zusammen hängend:
+
+apply_move kann ich aber aufrufen?
+
+```ruby
+
+game_move prophecyMove(validMoves[i]. row, validMoves[i]. column);
+
+bool success = apply_move(&stateOfBranch, &prophecyMove);
+
+```
+
+das ergibt folgende Fehler:
+
+```ruby
+
+players/my-player. o: In function `buildSearchTree(OthelloBoard const*, FieldType, int)':
+
+/home/tobias/workspace/othello/players/my-player. <LEARNED_PERSON_NAME_REPLACEMENT>:143: undefined reference to `apply_move(OthelloBoard*, OthelloMove const*)'
+
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+
+```
+TAGGED_CONTENT:

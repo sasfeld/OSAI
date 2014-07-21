@@ -1,0 +1,9 @@
+ID: 2408
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: Da ist auch noch ein inhaltlicher Fehler von wegen "dataSize auch als Metrik" - da müsste man an den ...
+PARENT_POSTING_ID: 2401
+POSTING_TYPE: comment
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> ist auch noch ein inhaltlicher Fehler <NAME_CORPUS_REPLACEMENT> wegen "dataSize auch als Metrik" - <NAME_CORPUS_REPLACEMENT> müsste man an den Defines herumspielen und den Code wieder aktivieren, der die negativen Werte errechnet hat. Die Folie könnte also raus. Aber wir können das morgen besprechen, wenn wir dann auch die Folien umsortieren.
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 1196
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: In die Benachrichtigungsmails ein passendes "In-Reply-To" im Header ergänzen. Damit sind die Mails ni...
+PARENT_POSTING_ID: 369
+POSTING_TYPE: answer
+CONTENT:
+In die Benachrichtigungsmails ein passendes "In-Reply-To" im Header ergänzen. Damit sind die Mails nicht länger unsortiert, sondern schön in einzelne Threads gegliedert. 
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 97739
+CREATION_DATETIME: 1291834697
+MODIFICATION_DATETIME: 1291834697
+TITLE: Naechster Praesenztermin diese Woche, Samstag
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Studierende,
+der naechste Termin ist diese Woche und bitte dem Kursplan zu entnehmen. Ich wuensche Ihnen eine sichere Anreise.
+Gruesse <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

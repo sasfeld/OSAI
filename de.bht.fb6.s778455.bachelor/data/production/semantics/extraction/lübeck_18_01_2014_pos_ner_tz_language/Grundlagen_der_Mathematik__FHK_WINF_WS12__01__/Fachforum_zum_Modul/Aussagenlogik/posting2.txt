@@ -1,0 +1,11 @@
+ID: 173769
+CREATION_DATETIME: 1351011908
+MODIFICATION_DATETIME: 1351011908
+TITLE: Re: Aussagenlogik
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 173385
+CONTENT:
+N'abend,
+das ganze wurde spontan auf 19:45 verschoben. Falls jemand noch teilnehmen will und um 19:30 allein da ist.
+TAGGED_CONTENT:
+N'abend_ADJD ,_$, das_ART ganze_ADJA wurde_VAFIN spontan_ADJD auf_APPR 19:45_CARD verschoben_VVPP ._$. Falls_KOUS jemand_PIS noch_ADV teilnehmen_VVINF will_VMFIN und_KON um_APPR 19:30_CARD allein_ADV da_ADV ist_VAFIN ._$. 

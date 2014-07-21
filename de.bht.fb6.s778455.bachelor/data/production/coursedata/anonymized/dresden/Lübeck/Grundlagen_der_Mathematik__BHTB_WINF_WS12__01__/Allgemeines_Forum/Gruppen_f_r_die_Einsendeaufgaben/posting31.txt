@@ -1,0 +1,8 @@
+ID: 176167
+CREATION_DATETIME: 1351687204
+MODIFICATION_DATETIME: 1351687204
+TITLE: Re: Gruppen für die Einsendeaufgaben
+PARENT_POSTING_ID: 176143
+CONTENT:
+Letzter Abgabetermin für Gruppenaufgaben_1 ist der 08. November 2012.
+TAGGED_CONTENT:

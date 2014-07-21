@@ -1,0 +1,10 @@
+ID: 3035
+CREATION_DATETIME: 1385506800000
+MODIFICATION_DATETIME: 1385593200000
+TITLE: Wieso brauchst du das im Klartext, welchen Usecase hast du?
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3033
+POSTING_TYPE: comment
+CONTENT:
+Wieso brauchst du das im Klartext, welchen Usecase hast du?
+TAGGED_CONTENT:

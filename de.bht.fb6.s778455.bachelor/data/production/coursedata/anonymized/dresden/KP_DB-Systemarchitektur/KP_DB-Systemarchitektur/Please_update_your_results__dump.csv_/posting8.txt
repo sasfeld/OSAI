@@ -1,0 +1,10 @@
+ID: 2384
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: Was soll ich dafür ausführen? immer noch die klassische testCLT?
+PARENT_POSTING_ID: 2382
+POSTING_TYPE: comment
+CONTENT:
+Was soll ich dafür ausführen? immer noch die klassische testCLT?
+Falls ja: es kommen Errors beim Make (auch nach Make clean)
+TAGGED_CONTENT:

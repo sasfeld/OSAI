@@ -1,0 +1,21 @@
+ID: 34
+CREATION_DATETIME: 1195487520000
+MODIFICATION_DATETIME: 1195487520000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Ich habe folgendes Probem beim Eventhandling, wenn ich eine Textarea habe, dann packe ich sie in ein ScrollPanel. Hier der COde dazu
+
+JTextArea newLabelFor    = new JTextArea();
+newLabelFor.setName( name );
+newLabel    = new JScrollPane( newLabelFor );
+
+
+newLabel wird zurückgegeben. Wenn ich nun mit dem zurückgegeben newLabel arbeiten will, wie komme ich dann an das Textfeld herand, dass dort drin ist? newLabel.getText() funktioniert nicht, aber ich habe auch noch nicht heraus gefunden, wie ich an den text komme. Und es wäre wichtig zu wissen, sagt jetzt bitte nicht, dass ich das Textfeld zurückgeben soll :D, das ist in meinem Beispiel nicht möglich und ich bin mir fast sicher, dass ich über den ScrollPane an das Textfeld rankomme um dann getText() auszuführen.
+
+
+Vielen Dank schon mal für eure Hilfe
+   
+TAGGED_CONTENT:

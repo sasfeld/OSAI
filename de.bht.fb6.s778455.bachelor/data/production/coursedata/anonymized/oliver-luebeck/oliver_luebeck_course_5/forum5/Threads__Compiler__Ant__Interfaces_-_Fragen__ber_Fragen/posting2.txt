@@ -1,0 +1,29 @@
+ID: 70
+CREATION_DATETIME: 1193679540000
+MODIFICATION_DATETIME: 1193679540000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 69
+CONTENT:
+ 
+Lieber ,
+
+
+Danke schoen fuer die vielen Fragen. Ich werde aber bei der Antwort eine Auswahl treffen, damit wir nicht unser Ziel verlieren: Grundkonzepte der ObjektOrientierung-Programmierung am Hand der Programmiersprache Java zu meistern. Tools wie ANT kommen in der Softwareentwicklung, Threads in Betriebssysteme. In diesem Sinne ist die wichtigste Frage: wann man Interfaces bzw. Abstrakte Klassen erzeugt.
+
+Kurze aber wichtige Bemerkung ueber Vokabular: In der OO-Sprache schreibt man oder entwickelt Interfaces, Klassen und man erzeugt Objekte (in Java mit dem Befehl new).
+
+Man entwickelt eine Interface, wenn man die Funktionalität beschreiben moechte, die eine Klasse haben soll, unabhängig von der Implementierung.
+
+
+Warum dieser Umweg? Um die Softwareentwicklung flexibler zu gestalten. Nehmen wir die Interface Rechner der Aufgabe der LE04. Man kann sich eine GUI (graphische Benutzer-Oberfläche) denken, die erlaubt Zahlen anzugeben, und dann das Ergebnis der Operationen zu zeigen. Eine GUI arbeitet nur mit Strings. Für die GUI ist es egal, ob es um int Zahlen oder float Zahlen geht. Also die GUI soll nur eine Variable vom Typ Rechner kennen. Erst wenn das Objekt Rechner in der main Methode erzeugt wird, wählt man zwischen IntRechner oder FloatRechner ganz unabhängig der GUI. So schafft man eine einzige GUI, die mit beidem IntRechner oder FloatRechner eingesetzt werden kann.
+
+
+In der LE 13 werden wir die Interface StackGen sehen, eine Interface die beschreibt welche Methoden ein Stack haben soll. Und wir werden zwei verschiedene Implementierungen dieser Interface sehen, eine mit Arrays und eine mit Verketteter Liste. Das Collection Framework der Java Bibliothek ist so aufgebaut: ganz oben in der Hierarchie steht die Interface Collection. Collection hat mehrere Subinterfaces darunter List. Die Interface List wird von mehreren Klassen implementiert darunter ArrayList und LinkedList. In weiteren Kursen werden Sie Design Patterns für OO-Softwareentwicklung sehen. Fast alle benutzen Interfaces.
+
+
+Ganz ähnlich geht es mit abstrakten Klassen. Nehmen wir das Beispiel einer Bank. Ein Kunde hat Kontos: Girokonto, Anlagekonto usw. Eine abstrakte Klasse ist nützlich, um zu bündeln, alles was die verschieden Konto-Arten gemeinsam haben. Diese Klasse bleibt abstrakt, erzeugt werden nur echte Kontos wie Girokonto usw. So ein Beispiel werden wir in der 1. Präsenz haben.
+
+Mit freundlichen Gruessen,
+	
+TAGGED_CONTENT:

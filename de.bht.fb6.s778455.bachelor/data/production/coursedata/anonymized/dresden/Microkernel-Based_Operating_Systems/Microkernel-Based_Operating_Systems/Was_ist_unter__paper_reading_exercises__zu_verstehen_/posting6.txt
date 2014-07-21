@@ -1,0 +1,9 @@
+ID: 245
+CREATION_DATETIME: 1349820000000
+MODIFICATION_DATETIME: 1349820000000
+TITLE: Schade eigentlich. Ic
+PARENT_POSTING_ID: 241
+POSTING_TYPE: comment
+CONTENT:
+Schade eigentlich. Ich dachte dass man <NAME_CORPUS_REPLACEMENT> Know How vermittelt bekommt, wie man Paper effektiv lesen sollte, um die besten Ergebnisse zu erhalten.
+TAGGED_CONTENT:

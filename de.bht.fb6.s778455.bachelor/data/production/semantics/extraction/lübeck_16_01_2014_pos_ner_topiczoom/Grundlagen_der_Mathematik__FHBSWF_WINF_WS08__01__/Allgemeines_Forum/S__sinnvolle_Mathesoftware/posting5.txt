@@ -1,0 +1,26 @@
+ID: 16539
+CREATION_DATETIME: 1223647760
+MODIFICATION_DATETIME: 1223647760
+TITLE: Re: S: sinnvolle Mathesoftware
+TOPIC_ZOOM_TAG: value:Lizensen und Lizenzrecht;weight:1.0;significance:7.89636515986151;degreegeneralization:6;uri:21126812
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:6.95597687640829;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Juristische Aspekte bei Waren und Produkten;weight:1.0;significance:6.93089719201127;degreegeneralization:5;uri:21112056
+TOPIC_ZOOM_TAG: value:Wirtschaftsrecht;weight:1.0;significance:6.08050813905439;degreegeneralization:4;uri:21988916
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Recht und Justiz im Bereich Wirtschaft;weight:1.0;significance:5.34844554224477;degreegeneralization:3;uri:21944053
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:2.65109701440329;degreegeneralization:2;uri:21999830
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:1.80459553725326;degreegeneralization:2;uri:21999847
+POS_TAG: value:Modul;weight:0.0;uri:;postag:NN
+POS_TAG: value:Lizenz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Prof.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hand;weight:0.0;uri:;postag:NN
+POS_TAG: value:MfG;weight:0.0;uri:;postag:NN
+POS_TAG: value:bungen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 16537
+CONTENT:
+Hallo, Prof. <REMOVED_PERSON_ENTITY> hatte mir <REMOVED_PERSON_ENTITY> als gut empfohlen und eine Lizenz für Maple in die Hand gedrückt (wegen der Maple-Übungen im Modul.)Nun muss ich es installieren. dann mal sehen. MfG, al.
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, Prof._NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE hatte_VAFIN mir_PPER <_ADV REMOVED_PERSON_ENTITY_NE >_NE als_APPR gut_ADJD empfohlen_VVPP und_KON eine_ART Lizenz_NN für_APPR Maple_NE in_APPR die_ART Hand_NN gedrückt_VVPP -LRB-_TRUNC wegen_APPR der_ART Maple-Übungen_NN im_APPRART Modul_NN ._$. -RRB-_TRUNC Nun_ADV muss_VVFIN ich_PPER es_PPER installieren_VVINF ._$. dann_ADV mal_ADV sehen_VVINF ._$. MfG_NN ,_$, al._ADV ._$. 

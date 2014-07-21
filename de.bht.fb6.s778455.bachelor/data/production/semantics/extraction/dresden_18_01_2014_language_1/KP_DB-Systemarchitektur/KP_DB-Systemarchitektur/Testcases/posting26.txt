@@ -1,0 +1,14 @@
+ID: 1954
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Ich habe jetzt mit der aktuellen Version im SVN das Ganze erstellen wollen. Meine testCLT.cpp enthält...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Ich habe jetzt mit der aktuellen Version im SVN das Ganze erstellen wollen. Meine testCLT. cpp enthält nur noch couts. Und trotz alledem wird eine Reihe <NAME_CORPUS_REPLACEMENT> Fehlern angezeigt (mit der Ursprünglichen Test-"Dumb"-Variante auch)
+
+<REMOVED_PERSON_ENTITY> ist die Ausgabe, die mir um die Ohren springt:
+
+Edit: Was für ein Quatsch hier, die Formatierung funktioniert ja gar nicht - Ich habe deshalb das ganze als Datei ins SVN gelegt (im Ordner testCLT als errorlog. txt zu finden)
+TAGGED_CONTENT:

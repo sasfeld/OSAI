@@ -1,0 +1,16 @@
+ID: 2145
+CREATION_DATETIME: 1372629600000
+MODIFICATION_DATETIME: 1372629600000
+TITLE: Beim Schreiben der Check-Funktion (für die Korrektheit der berechneten Ergebnisse) bin ich auf folgen...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2108
+POSTING_TYPE: answer
+CONTENT:
+Beim Schreiben der Check-Funktion (für die Korrektheit der berechneten Ergebnisse) bin ich auf folgendes Problem gestoßen:
+
+Offensichtlich werden die Ausgabeparameter auf der GPU nicht gesetzt. Zum Beispiel beim TestSum benötige ich aber einen mit 0 initialisierten Ausgabeparameter. 
+
+Was man jetzt beobachten kann, ist dass mit jedem Durchlauf des Programmes der Korrekte Wert auf einen vorhandenen (zufälligen) Wert (denjenigen, der vorher <NAME_CORPUS_REPLACEMENT> stand, bisher war es der Wert des vorherigen Durchlaufes, <NAME_CORPUS_REPLACEMENT> der selbe Speicher wieder alloziert wird) aufaddiert.
+
+Würdet ihr bitte Schauen, ob das Ganze behebbar ist , sonst gibt es doch einige Probleme mit den Kerneln, bzw mit der Korrektheit der Ergebnisse.
+TAGGED_CONTENT:

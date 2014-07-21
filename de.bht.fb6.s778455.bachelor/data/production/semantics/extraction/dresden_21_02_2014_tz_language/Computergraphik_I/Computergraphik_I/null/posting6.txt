@@ -1,0 +1,25 @@
+ID: 655
+CREATION_DATETIME: 1351983600000
+MODIFICATION_DATETIME: 1352070000000
+TITLE: Hallo,
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Reden;weight:1.0;significance:6.56866496300767;degreegeneralization:7;uri:20911031
+TOPIC_ZOOM_TAG: value:Rhetorik;weight:1.0;significance:6.29837463326776;degreegeneralization:6;uri:20915944
+TOPIC_ZOOM_TAG: value:Sprache als Bereich der Kultur;weight:1.0;significance:5.7654270924145;degreegeneralization:5;uri:20896003
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:5.00870710783694;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Kunst, Kultur, Musik;weight:1.0;significance:3.04770693667486;degreegeneralization:2;uri:21999796
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 434
+POSTING_TYPE: answer
+CONTENT:
+Hallo,
+
+ein bisschen spät die Antwort: Dass fltk2 nicht in der Liste der Abhängigkeiten steht hat schon seinen Grund. Wir verwenden eine Version <NAME_CORPUS_REPLACEMENT> fltk2, in der wir selbst herumgedoktort haben. Blöderweise ist CMake mit seinen Fehlernachrichten nicht besonders aufschlussreich. Wenn das Skript nicht läuft, liegt das im Normalfall daran, dass entweder kein g++ installiert ist oder die Version <NAME_CORPUS_REPLACEMENT> CMake zu alt ist. 
+
+Die CMake-Kompiliererei vom Framework ist noch ziemlich neu und deutlich in der Testphase - daher hab ich auch die ganzen FIXME's noch nicht rausgenommen und es gibt allgemein noch viel Fehlerbehandlungsarbeit zu leisten.
+
+Langer Rede kurzer Sinn: Bitte NICHT fltk2 aus Paketen oder <NAME_CORPUS_REPLACEMENT> woanders installieren, <NAME_CORPUS_REPLACEMENT> CMake sonst diese Quellen bevorzugt.
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

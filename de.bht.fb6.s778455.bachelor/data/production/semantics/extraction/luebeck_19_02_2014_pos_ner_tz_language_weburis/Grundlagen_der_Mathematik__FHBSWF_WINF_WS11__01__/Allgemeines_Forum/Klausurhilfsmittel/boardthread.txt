@@ -1,0 +1,7 @@
+ID: 43908
+CREATION_DATETIME: 1319737154
+MODIFICATION_DATETIME: 1320061297
+TITLE: Klausurhilfsmittel
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=43908
+FIRST_POSTING_ID: 117552

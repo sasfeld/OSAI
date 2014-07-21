@@ -1,0 +1,11 @@
+ID: 161035
+CREATION_DATETIME: 1347903222
+MODIFICATION_DATETIME: 1347903222
+TITLE: Re: Lerngruppe gesucht
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=59703#161035
+PARENT_POSTING_ID: 161011
+CONTENT:
+na so ein chat geht meistens 2h da haben wir es 21uhr bis max 22uhr würde ich machen .... warten wir den 1. chat ab und danach können wir alles besprechen...
+TAGGED_CONTENT:
+na_PWS so_ADV ein_ART chat_FM geht_VVFIN meistens_ADV 2h_CARD da_ADV haben_VAFIN wir_PPER es_PPER 21uhr_CARD bis_APPR max_NE 22uhr_CARD würde_VAFIN ich_PPER machen_VVFIN ..._$( warten_VVFIN wir_PPER den_ART 1_CARD ._$. chat_VVFIN ab_PTKVZ und_KON danach_PROAV können_VMFIN wir_PPER alles_PIS besprechen_VVFIN ..._$( 

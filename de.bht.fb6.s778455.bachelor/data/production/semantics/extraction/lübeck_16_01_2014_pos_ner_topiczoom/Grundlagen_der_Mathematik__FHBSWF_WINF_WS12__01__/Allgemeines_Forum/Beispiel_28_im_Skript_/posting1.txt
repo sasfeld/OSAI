@@ -1,0 +1,19 @@
+ID: 194617
+CREATION_DATETIME: 1358526336
+MODIFICATION_DATETIME: 1358526336
+TITLE: Beispiel 28 im Skript....
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+POS_TAG: value:T;weight:0.0;uri:;postag:NN
+POS_TAG: value:Script;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beispiel;weight:0.0;uri:;postag:NN
+POS_TAG: value:LGS;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen, es geht um Beispiel 28 im Script (s. 72). Dort kommt als Lösung des LGS eine Partikularlösung sowie linear unabhängige Lösungen heraus . Wie ich auf die Partikularlösung komme verstehe ich noch, nur wie komme ich auf die beiden linear unabhängigen Lösungen (-3, 0, 1, 0)T und (5, 2, 0, 1)T ??? Ich sehe es einfach nicht.....
+Ich hoffe ihr könnt mir helfen.
+Gruß
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, es_PPER geht_VVFIN um_APPR Beispiel_NN 28_CARD im_APPRART Script_NN -LRB-_TRUNC s._VVIMP 72_CARD -RRB-_TRUNC ._$. Dort_ADV kommt_VVFIN als_APPR Lösung_NN des_ART LGS_NN eine_ART Partikularlösung_NN sowie_KON linear_ADJD unabhängige_ADJA Lösungen_NN heraus_PTKVZ ._$. Wie_PWAV ich_PPER auf_APPR die_ART Partikularlösung_NN komme_VVFIN verstehe_VVFIN ich_PPER noch_ADV ,_$, nur_ADV wie_KOKOM komme_VVFIN ich_PPER auf_APPR die_ART beiden_PIDAT linear_ADJD unabhängigen_ADJA Lösungen_NN -LRB-_TRUNC -3_CARD ,_$, 0_CARD ,_$, 1_CARD ,_$, 0_CARD -RRB-_TRUNC T_NN und_KON -LRB-_TRUNC 5_CARD ,_$, 2_CARD ,_$, 0_CARD ,_$, 1_CARD -RRB-_TRUNC T_XY ???_CARD Ich_PPER sehe_VVFIN es_PPER einfach_ADV nicht_PTKNEG ..._$( Ich_PPER hoffe_VVFIN ihr_PPER könnt_VVFIN mir_PPER helfen_VVINF ._$. Gruß_XY 

@@ -1,0 +1,15 @@
+ID: 16599
+CREATION_DATETIME: 1230828552
+MODIFICATION_DATETIME: 1230828552
+TITLE: ESA
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=6519#16599
+POS_TAG: value:vorlesung;weight:0.0;uri:;postag:NN
+POS_TAG: value:addition;weight:0.0;uri:;postag:NN
+POS_TAG: value:vll;weight:0.0;uri:;postag:NN
+POS_TAG: value:idee;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+frohes neues alle zusammen. hat irgendwer eine idee, wie die aufgabe b funktioniert? wir kommen in unserer gruppe überhaupt nicht weiter. hat die aufgabe vll was mit dieser addition u. multiplikation der zwei- u. dreizeiligen matrizen, die wir in der vorlesung gemacht haben, zu tun? 
+TAGGED_CONTENT:
+frohes_ADJA neues_ADJA alle_PIDAT zusammen_PTKVZ ._$. hat_VAFIN irgendwer_PIAT eine_ART idee_NN ,_$, wie_PWAV die_ART aufgabe_ADJA b_XY funktioniert_VVFIN ?_$. wir_PPER kommen_VVFIN in_APPR unserer_PPOSAT gruppe_ADJA überhaupt_ADV nicht_PTKNEG weiter_PTKVZ ._$. hat_VAFIN die_ART aufgabe_ADJA vll_NN was_PWS mit_APPR dieser_PDAT addition_NN u._APPR multiplikation_PIS der_ART zwei_CARD -_$( u._KON dreizeiligen_PIS matrizen_VVINF ,_$, die_PRELS wir_PPER in_APPR der_ART vorlesung_NN gemacht_VVPP haben_VAFIN ,_$, zu_PTKZU tun_VVINF ?_$. 

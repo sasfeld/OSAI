@@ -1,0 +1,13 @@
+ID: 97763
+CREATION_DATETIME: 1285419835
+MODIFICATION_DATETIME: 1285419835
+TITLE: Re: Vorleistungen aus alten Semestern
+PARENT_POSTING_ID: 97762
+CONTENT:
+Alte Juristenweisheit: &quot;Ein Blick ins Gesetz erleichtert die Rechtsfindung.&quot;
+Prüfungsordnung für den Online-Studiengang „Wirtschaftsinformatik“ des Fachbereiches Informatik an der Fachhochschule Braunschweig/Wolfenbüttel:
+http://moodle.oncampus.de/file. php/1348/29-2009_BPO_WINF. pdf
+§ 13 Satz 5:&quot;Prüfungsvorleistungen (auch mehrteilige Prüfungsvorleistungen) sind innerhalb jeweils eines Studienhalbjahres zu erbringen. Die Wiederholung bereits bestandener Prüfungsvorleistungen ist nicht erforderlich. Prüfungsvorleistungen sind unbegrenzt oft wiederholbar.&quot;
+Grüße,
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

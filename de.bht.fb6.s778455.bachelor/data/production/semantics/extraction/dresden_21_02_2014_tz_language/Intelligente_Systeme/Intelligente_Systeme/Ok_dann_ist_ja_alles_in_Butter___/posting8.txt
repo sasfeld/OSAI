@@ -1,0 +1,61 @@
+ID: 778
+CREATION_DATETIME: 1352847600000
+MODIFICATION_DATETIME: 1352934000000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Kinder und Jugendliche;weight:3.0;significance:4.09824149972293;degreegeneralization:6;uri:21981759
+TOPIC_ZOOM_TAG: value:Gesellschaft und Bevölkerungsgruppen;weight:3.0;significance:3.0273044728649;degreegeneralization:5;uri:21976727
+TOPIC_ZOOM_TAG: value:Bevölkerung;weight:3.0;significance:2.91621986199571;degreegeneralization:4;uri:21634313
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:4.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Züge;weight:1.0;significance:1.9997548284804;degreegeneralization:8;uri:21308253
+TOPIC_ZOOM_TAG: value:Schienenverkehr;weight:1.0;significance:1.62549339712725;degreegeneralization:6;uri:21897745
+TOPIC_ZOOM_TAG: value:Fahrzeuge und Verkehrsmittel;weight:1.0;significance:1.13128803630887;degreegeneralization:6;uri:21881442
+TOPIC_ZOOM_TAG: value:Verkehr;weight:1.0;significance:1.01790491055384;degreegeneralization:5;uri:21897779
+TOPIC_ZOOM_TAG: value:Transport, Verkehr und Logistik;weight:1.0;significance:1.00477127571931;degreegeneralization:4;uri:21925982
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:0.663149604892832;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:0.537209534060612;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 721
+POSTING_TYPE: comment
+CONTENT:
+Hallo,
+
+ich denke du meinst genau das Richtige: wir sollen einmal die "Expandierten Knoten" ausgeben - das sind einfach alle Knoten in deinem Graphen -1 (da alle Knoten durch Expansion entstanden sind, außer dem Wurzelknoten) Und einmal den "Effektiven Branchingfaktor", zu dessen ganz simpler Berechnung man allerdings die "Parentnodes" oder "Expandierten Nodes" brauch, also alle die, die Kinder haben. Denn bei der Betrachtung geht es um die Frage: bei einem Programm welches alle Zustände berechnet und untersucht, wie schnell wächst die Zustandsmenge durch (durchschnittliche) Verzweigung ?
+
+Wie Anon666 habe ich es auch mit 2 globalen Zählern (parents, childs) gemacht und ich denke mal alles andere ist unnötig kompliziert:
+
+```java
+
+expandBestNode() {
+
+//besten Knoten holen und alle nützlichen Kinder berechnen
+
+parents++;
+
+childs += usefulChilds. size();
+
+...
+
+}
+
+```
+
+und ganz am Ende einfach: `(double)childs/parents` um Kinder pro Elternknoten zu bekommen.
+
+Beim simple15puzzle komme ich damit auf:
+
+```java
+
+ Zeitaufwand: 31ms
+
+ Gelöst in 25 Zügen
+
+ Expandierte Knoten: 12733
+
+ Effektiver Branchingfaktor: 1. 93
+
+```
+
+Läufts denn bei dir überhaupt erstmal ? Das ist denke ich mal das Wichtigste :)
+
+mfg
+TAGGED_CONTENT:

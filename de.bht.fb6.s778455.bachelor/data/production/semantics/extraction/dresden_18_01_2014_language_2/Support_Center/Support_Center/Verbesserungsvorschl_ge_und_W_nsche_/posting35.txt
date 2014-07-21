@@ -1,0 +1,10 @@
+ID: 803
+CREATION_DATETIME: 1353279600000
+MODIFICATION_DATETIME: 1353279600000
+TITLE: Mag sein, allerdings haben viele Kurse keinen Editor/Maintainer. Daher wäre es meines Erachtens gut, ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 797
+POSTING_TYPE: comment
+CONTENT:
+Mag sein, allerdings haben viele Kurse keinen Editor/Maintainer. Daher wäre es meines Erachtens gut, eine initiale URL einzutragen, die ein eventueller Editor/Maintainer dann später aktualisieren kann. Wäre pro Kurs ein einmaliger Rechercheaufwand, aber sehr lohnenswert. Zudem ein klares Abgrenzungskriterium zum jexam/Fakultätsseite, wo die Links regelmäßig falsch oder unvollständig gesetzt sind, was gerade für Studienanfänger sehr ärgerlich sein kann.
+TAGGED_CONTENT:

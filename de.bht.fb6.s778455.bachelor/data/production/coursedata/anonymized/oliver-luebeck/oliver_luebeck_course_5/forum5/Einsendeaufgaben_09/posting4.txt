@@ -1,0 +1,29 @@
+ID: 84
+CREATION_DATETIME: 1196168220000
+MODIFICATION_DATETIME: 1196168220000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 83
+CONTENT:
+ 
+Hallo Leute,
+danke schonmal für die Antwort Mathias. Habe das Problem soweit jetzt auch gelöst. Nun habe ich aber schon das nächste Problem.
+Undzwar mit dem Gridlayout.
+
+frm.setLayout(new GridLayout(1, 2));
+
+So müsste doch ein Gridlayout erzeugt werden, das 1 Zeile und zwei Spalten umfasst. Wenn ich das richtig verstande habe wird bei der "Bestückung" der Felder dann von links nach rechts und von oben nach unten gearbeitet, sodass meine zwei Scrollbars nebeneinander liegen müssten oder? Nun gut, das funktioniert auch, wenn ich nur eine Zeile einfüge, allerdings dehnen sich die Scrollbars dann auf die gesamte Fensterhöhe aus. Wenn ich dem Gridlayout nun also noch mehr Zeilen verpasse um in den unteren Zeilen weiterarbeiten zu können sind meine Scrollbars wieder untereinander.
+
+setLayout(new GridLayout(1, 2, 20, 20));
+add(barHinz = new Scrollbar(Scrollbar.HORIZONTAL, 10, 1, 0, 101));
+add(barKunz = new Scrollbar(Scrollbar.HORIZONTAL, 10, 1, 0, 101));
+barHinz.addAdjustmentListener(this);
+barKunz.addAdjustmentListener(this);
+
+Hat jemand ne Idee?
+
+Vielen Dank schonmal im Voraus.
+
+Grz. 
+	
+TAGGED_CONTENT:

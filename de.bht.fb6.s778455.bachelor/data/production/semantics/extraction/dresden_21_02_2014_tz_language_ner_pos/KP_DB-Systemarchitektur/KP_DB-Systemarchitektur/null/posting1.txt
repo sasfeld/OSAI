@@ -1,0 +1,15 @@
+ID: 2303
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Es ist wieder mit lineare abhaengige Spalten zu tun. a=0x0 wenn keine Inverse Matrix gefunden hat.
+LANGUAGE: GERMAN
+POS_TAG: value:Inverse;weight:0.0;uri:;postag:NN
+POS_TAG: value:Code;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2299
+POSTING_TYPE: comment
+CONTENT:
+Es ist wieder mit lineare abhaengige <REMOVED_PERSON_ENTITY> zu tun. a=0x0 wenn keine Inverse Matrix gefunden hat.
+
+Ich schreibe einfach ein Correlaiton2. cpp. Denn es wird die originale Code nicht beeinflussen.
+TAGGED_CONTENT:
+Es_PPER ist_VAFIN wieder_ADV mit_APPR lineare_ADJA abhaengige_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_CARD zu_PTKZU tun_VVINF ._$. a_XY =_XY 0x0_CARD wenn_KOUS keine_PIAT Inverse_NN Matrix_NE gefunden_VVPP hat_VAFIN ._$. Ich_PPER schreibe_VVFIN einfach_ADV ein_ART Correlaiton2_NN ._$. cpp_NE ._$. Denn_KON es_PPER wird_VAFIN die_ART originale_ADJA Code_NN nicht_PTKNEG beeinflussen_VVINF ._$. 

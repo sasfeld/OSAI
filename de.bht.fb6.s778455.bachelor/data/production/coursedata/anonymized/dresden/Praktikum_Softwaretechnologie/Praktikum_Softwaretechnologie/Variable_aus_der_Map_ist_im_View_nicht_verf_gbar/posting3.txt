@@ -1,0 +1,9 @@
+ID: 2798
+CREATION_DATETIME: 1384124400000
+MODIFICATION_DATETIME: 1384124400000
+TITLE: Director und Konsorten sind nur Unterklassen von Employee. Die Getter sind alle dort zu finden. Ich h...
+PARENT_POSTING_ID: 2791
+POSTING_TYPE: comment
+CONTENT:
+Director und Konsorten sind nur Unterklassen <NAME_CORPUS_REPLACEMENT> Employee. Die Getter sind alle dort zu finden. Ich hab den Ordner mal Zip gepackt. Es wäre vielleicht hilfreich wenn du dir das ganze Projekt mal anschaust. Ich bin mit meinem Latein leider am Ende. 
+TAGGED_CONTENT:

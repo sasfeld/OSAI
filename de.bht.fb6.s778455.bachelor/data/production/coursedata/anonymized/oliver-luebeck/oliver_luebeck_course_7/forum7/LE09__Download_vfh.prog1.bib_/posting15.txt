@@ -1,0 +1,15 @@
+ID: 34
+CREATION_DATETIME: 1304619840000
+MODIFICATION_DATETIME: 1304619840000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 33
+CONTENT:
+
+Genauso funktioniert es auch in Java. Einfach die Ordnerstruktur im Explorer kopieren und im Eclipse auf dem src Ordner einfügen.
+
+Da ich die Aufgaben für die Präsenz am Samstag schon so gut wie fertig habe kann ich durchaus mit Rat und Tat zur Seite stehen.
+
+Liebe Grüße
+   
+TAGGED_CONTENT:

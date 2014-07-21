@@ -1,0 +1,28 @@
+ID: 1761
+CREATION_DATETIME: 1366840800000
+MODIFICATION_DATETIME: 1366840800000
+TITLE: Auf dem uns zur Verfügung gestellten Server ist nur llvm-3.0 installiert.
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Server;weight:1.0;significance:7.26181214356762;degreegeneralization:7;uri:20185284
+TOPIC_ZOOM_TAG: value:Verfügungen;weight:1.0;significance:7.24896400108977;degreegeneralization:3;uri:19992589
+TOPIC_ZOOM_TAG: value:Computernetzwerke;weight:1.0;significance:6.53268224512817;degreegeneralization:6;uri:21307726
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:1.0;significance:4.95064330688218;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:4.31013985980766;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:2.65109701440329;degreegeneralization:2;uri:21999830
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:gung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kernel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Version;weight:0.0;uri:;postag:NN
+POS_TAG: value:Server;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: comment
+CONTENT:
+Auf dem uns zur Verfügung gestellten Server ist nur llvm-3. 0 installiert.
+
+Soll ich dort die 3. 2 draufmachen? Die 3. 0-er-Version hat den Kernel auch kompiliert.
+TAGGED_CONTENT:
+Auf_APPR dem_ART uns_PPER zur_APPRART Verfügung_NN gestellten_ADJA Server_NN ist_VAFIN nur_ADV llvm-3_CARD ._$. 0_CARD installiert_VVPP ._$. Soll_VMFIN ich_PPER dort_ADV die_ART 3_CARD ._$. 2_CARD draufmachen_PDS ?_$. Die_ART 3_CARD ._$. 0-er-Version_NN hat_VAFIN den_ART Kernel_NN auch_ADV kompiliert_VVPP ._$. 

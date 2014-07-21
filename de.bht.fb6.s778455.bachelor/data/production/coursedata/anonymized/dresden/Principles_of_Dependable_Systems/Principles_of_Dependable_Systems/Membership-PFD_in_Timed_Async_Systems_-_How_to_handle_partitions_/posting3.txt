@@ -1,0 +1,9 @@
+ID: 924
+CREATION_DATETIME: 1354143600000
+MODIFICATION_DATETIME: 1354143600000
+TITLE: Yes thanks for the hint! I should have had a look in the papers before.
+PARENT_POSTING_ID: 922
+POSTING_TYPE: comment
+CONTENT:
+Yes thanks for the hint! I should have had a look in the papers before.
+TAGGED_CONTENT:

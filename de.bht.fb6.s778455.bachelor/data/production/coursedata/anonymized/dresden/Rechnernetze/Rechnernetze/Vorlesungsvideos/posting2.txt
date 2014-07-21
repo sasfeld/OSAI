@@ -1,0 +1,9 @@
+ID: 1812
+CREATION_DATETIME: 1368568800000
+MODIFICATION_DATETIME: 1374444000000
+TITLE: Die Videos werden momentan noch bearbeitet. Voraussichtlich nächste Woche werden die ersten Videos vo...
+PARENT_POSTING_ID: 1811
+POSTING_TYPE: answer
+CONTENT:
+Die Videos werden momentan noch bearbeitet. Voraussichtlich nächste Woche werden die ersten Videos vom Sommersemester 2013 zur Verfügung stehen.
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 1914
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: Ich sehe, dass soeben jemand entdeckt hat, dass man einen Segfault bekommt, wenn man nix zurückgibt ;...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1900
+POSTING_TYPE: answer
+CONTENT:
+Ich sehe, dass soeben jemand entdeckt hat, dass man einen Segfault bekommt, wenn man nix zurückgibt ;)
+
+Nur Info anbei: Das project/Starter hat nichts mehr mit unserem aktuellen Projekt zu tun, das war nur die Anfangsmotivation. Also am besten weiter bei testCLT als Testumgebung bleiben, oder selbst ne kleine Klasse schreiben, wie jeder mag. Der Makefile vom CleverTrustee biete auch die Möglichkeit eine statische Bibliothek zu bauen, damit wird das Testen etwas einfacher
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 50
+CREATION_DATETIME: 1179513060000
+MODIFICATION_DATETIME: 1179513060000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 46
+CONTENT:
+  
+Hab jetzt mit André ausgemacht, dass wir es am Sonntag versuchen.
+Aber wenn ich die Aufgabe richtig verstehe, ist es garnicht so schwer. ;)
+   
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 1745
+CREATION_DATETIME: 1366322400000
+MODIFICATION_DATETIME: 1366322400000
+TITLE: @Julian: "That is why even on 64-bit systems most device memory is located between 3 and 4GB in the p...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1740
+POSTING_TYPE: answer
+CONTENT:
+@Julian: "That is why even on 64-bit systems most device memory is located between 3 and 4GB in the physical address range."
+
+Who arranges that and who knows about it? Is it convention, or somehow checked at runtime? If latter, how does it work?
+TAGGED_CONTENT:

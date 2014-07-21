@@ -1,0 +1,8 @@
+ID: 16525
+CREATION_DATETIME: 1236387914
+MODIFICATION_DATETIME: 1236387914
+TITLE: Benachrichtigungen zu Prüfungsvorleistungen
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Sie alle, Sie sollten fast alle eine Benachrichtigung über erfolgreiche oder nicht erfolgreiche Erbringung von Prüfungsvorleistungenerhalten haben oder beim nächsten Einloggen in Moodleerhalten. Sollte dies nicht der Fall sein, oder bei Rückfragen wenden Sie sich bitte per E-Mail oder telefonisch an mich. Mit freundlichen Grüßen, <PERSONAL_GREETING_REMOVEMENT>. <REMOVED_PERSON_ENTITY>. 
+TAGGED_CONTENT:

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="11742" moduleid="56954" modulename="forum" contextid="80612">
+  <forum id="11742">
+    <type>news</type>
+    <name>News forum</name>
+    <intro>General news and announcements</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>1</scale>
+    <maxbytes>0</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1185445767</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="37717">
+        <name>OnlineMeeting: Montag, 25.10.10, 20.15 - 12.15 Uhr</name>
+        <firstpost>101855</firstpost>
+        <userid>2647</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1287734903</timemodified>
+        <usermodified>2647</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="101855">
+            <parent>0</parent>
+            <userid>2647</userid>
+            <created>1287734903</created>
+            <modified>1287734903</modified>
+            <mailed>1</mailed>
+            <subject>OnlineMeeting: Montag, 25.10.10, 20.15 - 12.15 Uhr</subject>
+            <message>Das nächste OM biete ich am Montag, 25.10.10, 20.15 - 21.15 Uhr an.&lt;br /&gt;MfG&lt;br /&gt;Lothar Moesner&lt;br /&gt;&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="37718">
+        <name>Nächstes OM: Montag, 01.11.10, 20.15 - 21.15 Uhr</name>
+        <firstpost>101856</firstpost>
+        <userid>2647</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1288191851</timemodified>
+        <usermodified>2647</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="101856">
+            <parent>0</parent>
+            <userid>2647</userid>
+            <created>1288191851</created>
+            <modified>1288191851</modified>
+            <mailed>1</mailed>
+            <subject>Nächstes OM: Montag, 01.11.10, 20.15 - 21.15 Uhr</subject>
+            <message>Nächstes OM wie besprochen: Montag, 01.11.10, 20.15 - 21.15 Uhr.&lt;br /&gt;MfG&lt;br /&gt;Lothar Moesner&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="37719">
+        <name>OM - 02.12.10</name>
+        <firstpost>101857</firstpost>
+        <userid>2647</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1290515654</timemodified>
+        <usermodified>2647</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="101857">
+            <parent>0</parent>
+            <userid>2647</userid>
+            <created>1290515654</created>
+            <modified>1290515654</modified>
+            <mailed>1</mailed>
+            <subject>OM - 02.12.10</subject>
+            <message>&lt;div class="posting"&gt;Nächstes OM wie besprochen: Donnerstag, 02.12.10, 20.15 - 21.15 Uhr.&lt;br /&gt;MfG&lt;br /&gt;Lothar Moesner&lt;br /&gt; &lt;/div&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="37720">
+        <name>OM - 02.12.10</name>
+        <firstpost>101858</firstpost>
+        <userid>2647</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1291199436</timemodified>
+        <usermodified>2647</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="101858">
+            <parent>0</parent>
+            <userid>2647</userid>
+            <created>1291199436</created>
+            <modified>1291199436</modified>
+            <mailed>1</mailed>
+            <subject>OM - 02.12.10</subject>
+            <message>&lt;p&gt;Liebe Studenten,&lt;/p&gt;
+&lt;p&gt;leider kann ich momentan kein OM anbieten.&lt;br /&gt;Ich bin gestern umgezogen und Vodafone hat es nicht fertiggebracht den Tel./DSL-Anschluß zu schalten.&lt;/p&gt;
+&lt;p&gt;Sie können mich über Mobil: 0170-7945153 erreichen.&lt;/p&gt;
+&lt;p&gt;Sollte sich kurzfristig eine Änderung ergeben, melde ich mich.&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="37721">
+        <name>Probeklausur</name>
+        <firstpost>101859</firstpost>
+        <userid>2647</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1292336005</timemodified>
+        <usermodified>2647</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="101859">
+            <parent>0</parent>
+            <userid>2647</userid>
+            <created>1292336005</created>
+            <modified>1292336005</modified>
+            <mailed>1</mailed>
+            <subject>Probeklausur</subject>
+            <message>Liebe Studenten,&lt;br /&gt;&lt;br /&gt;Vodafone hat es immer noch nicht geschafft, mich mit DSL zu versorgen &lt;img height="15" width="15" src="../../pix/s/sad.gif" alt="traurig" /&gt;&lt;br /&gt;&lt;br /&gt;Unter Dateien habe ich eine &amp;quot;alte&amp;quot; Klausur zum Test eingestellt.&lt;br /&gt;&lt;br /&gt;MfG&lt;br /&gt;Lothar Moesner </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

@@ -1,0 +1,14 @@
+ID: 1297
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo!
+
+Wenn ich apply_move in meiner KI verwenden möchte, gibt der linker einen "undefined reference" fehler zurück. Nun steht im Makefile, dass die funktion auch gar nicht gelinkt werden darf.
+
+Ist das wirklch beabsichtigt? Ich mein apply_move ist <LEARNED_PERSON_NAME_REPLACEMENT> nur eine Hilfsfunktion...
+TAGGED_CONTENT:

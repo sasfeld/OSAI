@@ -1,0 +1,31 @@
+ID: 115385
+CREATION_DATETIME: 1323527693
+MODIFICATION_DATETIME: 1323527693
+TITLE: Re: Aufgabe 8b, LO8
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Vektoren;weight:5.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:5.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:5.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:5.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:5.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:5.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Vektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektorprodukts;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:derAufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektors;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektorprodukt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:rung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Konstante;weight:0.0;uri:;postag:NN
+POS_TAG: value:Betrag;weight:0.0;uri:;postag:NN
+POS_TAG: value:REMOVEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Definition;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 115384
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+ich habe leider nicht ganz verstanden was Sie meinen.... Zur Erklärung derAufgabe: Zunächst müssen Sie das Vektorprodukt d = |b x c| und den Betrag des Vektorprodukts (= wurzel(13)) berechnen. Der Vektor d, also das Vektorprodukt aus b und c steht (per Definition) senkrecht auf den Vektoren b und c. Jetzt muss nur noch die Konstante vor dem Vektor d ermittelt werden, so dass der Betrag des Vektors nicht wurzel(13), sondern 2 beträgt. Deshalb wird der Vektor mit +- 2/wurzel(13) multipliziert.
+Viele Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, ich_PPER habe_VAFIN leider_ADV nicht_PTKNEG ganz_ADV verstanden_VVPP was_PWS Sie_PPER meinen_VVFIN ..._$( Zur_APPRART Erklärung_NN derAufgabe_NN :_$. Zunächst_ADV müssen_VMFIN Sie_PPER das_ART Vektorprodukt_NN d_FM =_XY |_CARD b_XY x_XY c_XY |_CARD und_KON den_ART Betrag_NN des_ART Vektorprodukts_NN -LRB-_TRUNC =_XY wurzel_PWAV -LRB-_TRUNC 13_CARD -RRB-_TRUNC -RRB-_TRUNC berechnen_VVINF ._$. Der_ART Vektor_NN d_FM ,_$, also_ADV das_ART Vektorprodukt_NN aus_APPR b_XY und_KON c_FM steht_VVFIN -LRB-_TRUNC per_APPR Definition_NN -RRB-_TRUNC senkrecht_ADJD auf_APPR den_ART Vektoren_NN b_XY und_KON c._VVFIN Jetzt_ADV muss_PIDAT nur_ADV noch_ADV die_ART Konstante_NN vor_APPR dem_ART Vektor_NN d_FM ermittelt_VVPP werden_VAINF ,_$, so_ADV dass_KOUS der_ART Betrag_NN des_ART Vektors_NN nicht_PTKNEG wurzel_ADJD -LRB-_TRUNC 13_CARD -RRB-_TRUNC ,_$, sondern_KON 2_CARD beträgt_VVFIN ._$. Deshalb_PROAV wird_VAFIN der_ART Vektor_NN mit_APPR +_XY -_$( 2\/wurzel_CARD -LRB-_TRUNC 13_CARD -RRB-_TRUNC multipliziert_VVPP ._$. Viele_PIDAT Grüße_NN <_CARD PERSONAL_GREETING_REMOVEMENT_NN >_XY 

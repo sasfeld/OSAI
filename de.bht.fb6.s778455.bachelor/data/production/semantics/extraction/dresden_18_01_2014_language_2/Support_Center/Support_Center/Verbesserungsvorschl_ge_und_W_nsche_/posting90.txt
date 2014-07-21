@@ -1,0 +1,10 @@
+ID: 1666
+CREATION_DATETIME: 1365112800000
+MODIFICATION_DATETIME: 1365458400000
+TITLE: Ich fände es sinnvoller, wenn eine akzeptierte Antwort ganz oben steht und danach alle Antworten sort...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 369
+POSTING_TYPE: answer
+CONTENT:
+Ich fände es sinnvoller, wenn eine akzeptierte Antwort ganz oben steht und danach alle Antworten sortiert nach ihren Votes. Bei Stackoverflow ist es so, dort hat es durchaus Nachteile, wenn sich Antworten im Laufe der Zeit verändern und somit die akzeptierte Antwort nicht mehr funktioniert. Im Auditorium geht es aber <REMOVED_PERSON_ENTITY>, sodass dieses Problem nicht besteht.
+TAGGED_CONTENT:

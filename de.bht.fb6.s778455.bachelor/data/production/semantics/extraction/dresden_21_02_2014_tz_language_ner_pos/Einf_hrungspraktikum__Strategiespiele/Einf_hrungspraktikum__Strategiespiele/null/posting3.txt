@@ -1,0 +1,29 @@
+ID: 1572
+CREATION_DATETIME: 1363993200000
+MODIFICATION_DATETIME: 1363993200000
+TITLE: Wenn du schon C++ verwendest, kannst du ja auch die Möglichkeiten davon nutzen. Daher:
+LANGUAGE: GERMAN
+POS_TAG: value:Bedenke;weight:0.0;uri:;postag:NN
+POS_TAG: value:C;weight:0.0;uri:;postag:NN
+POS_TAG: value:Speicherverwaltung;weight:0.0;uri:;postag:NN
+POS_TAG: value:glichkeiten;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1563
+POSTING_TYPE: answer
+CONTENT:
+Wenn du schon C++ verwendest, kannst du <LEARNED_PERSON_NAME_REPLACEMENT> auch die Möglichkeiten davon nutzen. Daher:
+
+```c++
+
+std::stringstream ss;
+
+ss << 42;
+
+std::string str = ss. str();
+
+std::cout << str << std::endl;
+
+```
+
+So brauchst du dich nicht um die Speicherverwaltung kümmern und kannst ```str``` beliebig herumreichen. Falls du doch mal ein char* brauchst, kannst du ```str. c_str()``` verwenden. Bedenke aber, dass der char* nur gültig ist solange ```str``` existiert.
+TAGGED_CONTENT:
+Wenn_KOUS du_PPER schon_ADV C_NN +_XY +_XY verwendest_VVPP ,_$, kannst_VMFIN du_PPER <_PRF LEARNED_PERSON_NAME_REPLACEMENT_NE >_VVFIN auch_ADV die_ART Möglichkeiten_NN davon_PROAV nutzen_VVINF ._$. Daher_PROAV :_$. ``_CARD `_XY c_XY +_XY +_XY std_ITJ :_$. ,_$, stringstream_VVFIN ss_NE ;_$. ss_FM <<_FM 42_CARD ;_$. std_ITJ :_$. ,_$, string_VVFIN str_XY =_XY ss_FM ._$. str_KON -LRB-_TRUNC -RRB-_TRUNC ;_$. std_ITJ :_$. ,_$, cout_VVFIN <<_NE str_NE <<_NE std_NE :_$. ,_$, endl_NE ;_$. ``_CARD `_XY So_ADV brauchst_VVFIN du_PPER dich_PRF nicht_PTKNEG um_APPR die_ART Speicherverwaltung_NN kümmern_VVINF und_KON kannst_VMFIN ``_CARD `_XY str_VVIMP ``_CARD `_XY beliebig_ADJD herumreichen_VVINF ._$. Falls_KOUS du_PPER doch_ADV mal_ADV ein_ART char_ADJA \*_NN brauchst_VVFIN ,_$, kannst_VMFIN du_PPER ``_PRF `_XY str_PTKVZ ._$. c_str_KON -LRB-_TRUNC -RRB-_TRUNC ``_KON `_XY verwenden_VVINF ._$. Bedenke_NN aber_ADV ,_$, dass_KOUS der_ART char_NE \*_VVFIN nur_ADV gültig_ADJD ist_VAFIN solange_ADV ``_CARD `_CARD str_CARD ``_CARD `_CARD existiert_VVFIN ._$. 

@@ -1,0 +1,27 @@
+ID: 184407
+CREATION_DATETIME: 1354449815
+MODIFICATION_DATETIME: 1354449815
+TITLE: Re: Aufgabe 2b)
+TOPIC_ZOOM_TAG: value:Skalare;weight:2.0;significance:12.7085495152339;degreegeneralization:7;uri:19937424
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Chat;weight:1.0;significance:4.65367606678589;degreegeneralization:7;uri:20901477
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:1.0;significance:3.25199587633262;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Lifestyle und Internet;weight:1.0;significance:2.53445361368796;degreegeneralization:6;uri:21999575
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Lifestyle, Mode, Schönheit;weight:1.0;significance:2.18595971379839;degreegeneralization:3;uri:21999456
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:1.7207726480701;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+NER_TAG: value:LGS;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+NER_TAG: value:LGS;weight:-1.0;significance:uri:;classifierlabel:I-LOC
+PARENT_POSTING_ID: 184265
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+deinen Ansatz finde ich gut. Ich habe es mir ähnlich überlegt, allerdings habe ich mir das mit Spaltenvektoren und dazugehörigem Skalar gedacht, die dann den Nullvektor ergeben sollen. Was letztendlich ja nichts anderes als deinen Ansatz ebenfalls entspricht. Warum habe ich das so gemacht? Naja, da wir im Skript bzw. Chat noch gar nicht bei den LGS sind, dachte ich mir, es soll/kann eventuell auch auf diesen Weg hinausführen. MIt einem LGS ist es natürlich wesentlich einfacher, die jeweiligen Koeffizieten/Skalare zu finden, klar! Aber durch probieren (unendlich viele Lösungen gibt es ja, wie du schon richtig aufgeführt hast) kann man mit dem bisher gelernten, so denke ich, auch auf die Lösung kommen. Oder was meinst du?Unter deiner Abbildung des Graphen schriebst du, dass wir bei (b) --&gt; a+f+h=0 haben, hier fehlt mir noch das "c". Oder? Du hast bestimmt daran gedacht, eventuell nur vergessen es zu notieren :)GrüßeLars
+TAGGED_CONTENT:

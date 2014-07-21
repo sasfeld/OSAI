@@ -1,0 +1,9 @@
+ID: 110603017
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Datenbankadministration
+LANGUAGE: UNKNOWN
+SUMMARY: null
+URL: http://wwwdb.inf.tu-dresden.de/teaching/archives/2006/08/datenbankadmini.php

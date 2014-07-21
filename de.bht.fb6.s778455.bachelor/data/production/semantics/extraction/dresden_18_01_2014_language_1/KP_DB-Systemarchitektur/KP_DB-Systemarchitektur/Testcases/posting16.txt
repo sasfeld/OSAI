@@ -1,0 +1,10 @@
+ID: 1932
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: Bei mir segfaulten die Tests, aber das stört mich nicht, weil der Code für den ich zuständig bin, ehe...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Bei mir segfaulten die Tests, aber das stört mich nicht, weil der Code für den ich zuständig bin, eher aufgerufen wird :D
+TAGGED_CONTENT:

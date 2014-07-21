@@ -1,0 +1,10 @@
+ID: 1102
+CREATION_DATETIME: 1359932400000
+MODIFICATION_DATETIME: 1359932400000
+TITLE: Hm, wär ne Idee gewesen mal auf die Seite zu gehen. Vielen Dank!
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1101
+POSTING_TYPE: comment
+CONTENT:
+Hm, wär ne Idee gewesen mal auf die <REMOVED_PERSON_ENTITY> zu gehen. Vielen Dank!
+TAGGED_CONTENT:

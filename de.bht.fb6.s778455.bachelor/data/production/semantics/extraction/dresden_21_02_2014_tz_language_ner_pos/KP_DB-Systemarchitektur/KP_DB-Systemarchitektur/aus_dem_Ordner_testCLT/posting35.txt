@@ -1,0 +1,143 @@
+ID: 1967
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Ich habe die PATH-Variable gesetzt, aber make läuft immer noch nicht erfolgreich. es kommen diverse F...
+LANGUAGE: GERMAN
+NER_TAG: value:PATH-Variable;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:createKernel;weight:0.0;uri:;postag:NN
+POS_TAG: value:getDeviceType;weight:0.0;uri:;postag:NN
+POS_TAG: value:Edit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Variable;weight:0.0;uri:;postag:NN
+POS_TAG: value:initializeOpenCL;weight:0.0;uri:;postag:NN
+POS_TAG: value:B;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:C;weight:0.0;uri:;postag:NN
+POS_TAG: value:libCLeverTrustee;weight:0.0;uri:;postag:NN
+POS_TAG: value:CLevertrustee;weight:0.0;uri:;postag:NN
+POS_TAG: value:getOptimalDevice;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:debug;weight:0.0;uri:;postag:NN
+POS_TAG: value:Error;weight:0.0;uri:;postag:NN
+POS_TAG: value:id;weight:0.0;uri:;postag:NN
+POS_TAG: value:CLeverTrustee;weight:0.0;uri:;postag:NN
+POS_TAG: value:createclKernel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Uhr;weight:0.0;uri:;postag:NN
+POS_TAG: value:analyzeKernel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Documents;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kernel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Feedback;weight:0.0;uri:;postag:NN
+POS_TAG: value:ProgramAnalyzer;weight:0.0;uri:;postag:NN
+POS_TAG: value:ExecutionPriority;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Ich habe die PATH-Variable gesetzt, aber make läuft immer noch nicht erfolgreich. es kommen diverse Fehler aus CLevertrustee. 
+
+```ruby
+
+opencl@wimpy:~/Documents/TestStefanie/test4/testCLT$ make
+
+make -C ../CLeverTrustee
+
+make[1]: Entering directory `/home/opencl/Documents/TestStefanie/test4/CLeverTrustee'
+
+g++ -lOpenCL `llvm-config --libs` `llvm-config --ldflags`  obj/CLeverTrustee. o   -o obj/CLeverTrustee
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 0 has invalid symbol index 10
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 1 has invalid symbol index 11
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 2 has invalid symbol index 2
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 3 has invalid symbol index 2
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 4 has invalid symbol index 10
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 5 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 6 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 7 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 8 has invalid symbol index 2
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 9 has invalid symbol index 2
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 10 has invalid symbol index 11
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 11 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 12 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 13 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 14 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 15 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 16 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 17 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 18 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 19 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 20 has invalid symbol index 19
+
+/usr/lib/gcc/x86_64-linux-gnu/4. 6/../../../x86_64-linux-gnu/crt1. o: In function `_start':
+
+(. text+0x20): undefined reference to `main'
+
+obj/CLeverTrustee. o: In function `clt::CLeverTrustee::createKernel(std::basic_string, std::allocator >, std::basic_string, std::allocator >)':
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:33: undefined reference to `clt::Kernel::Kernel(std::basic_string, std::allocator >, clt::CLeverTrustee*)'
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:35: undefined reference to `clt::Program::Program(std::basic_string, std::allocator >)'
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:36: undefined reference to `clt::Feedback::analyzeKernel(std::basic_string, std::allocator >, std::basic_string, std::allocator >, clt::Kernel*)'
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:37: undefined reference to `clt::Device::createclKernel(clt::Kernel*, clt::Program*)'
+
+obj/CLeverTrustee. o: In function `clt::CLeverTrustee::execute(clt::Kernel&, std::vector >, std::vector >, clt::ExecutionPriority, int, int, int, int, int, int, unsigned long)':
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:46: undefined reference to `clt::Feedback::getOptimalDevice(clt::Kernel*, std::vector >, unsigned long)'
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:46: undefined reference to `clt::Device::execute(clt::Kernel&, std::vector >, std::vector >, clt::ExecutionPriority, int, int, int, int, int, int)'
+
+obj/CLeverTrustee. o: In function `clt::CLeverTrustee::initializeOpenCL()':
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:80: undefined reference to `clGetPlatformIDs'
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:82: undefined reference to `clGetPlatformIDs'
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:89: undefined reference to `clGetDeviceIDs'
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:91: undefined reference to `clGetDeviceIDs'
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:110: undefined reference to `clt::Device::Device(_cl_platform_id*&, _cl_device_id*&)'
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:115: undefined reference to `clt::Device::getDeviceType()'
+
+obj/CLeverTrustee. o: In function `CLeverTrustee':
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:65: undefined reference to `clt::Feedback::Feedback(clt::CLeverTrustee&, clt::ProgramAnalyzer&)'
+
+collect2: ld returned 1 exit status
+
+make[1]: *** [obj/CLeverTrustee] Error 1
+
+make[1]: Leaving directory `/home/opencl/Documents/TestStefanie/test4/CLeverTrustee'
+
+make: *** [lib/libCLeverTrustee. so] Error 2
+
+opencl@wimpy:~/Documents/TestStefanie/test4/testCLT$
+
+```
+
+Ich bin morgen vor 10 Uhr im Lab <NAME_CORPUS_REPLACEMENT>. Vielleicht hat einer <NAME_CORPUS_REPLACEMENT> euch vorher ein wenig Zeit und wir schauen nochmal.
+
+Edit: make -B bringt das gleiche. Wenn ich make im CLeverTrustee ausführe sieht es ähnlich aus.
+TAGGED_CONTENT:
+Ich_PPER habe_VAFIN die_ART PATH-Variable_NN gesetzt_VVPP ,_$, aber_KON make_FM läuft_VVFIN immer_ADV noch_ADV nicht_PTKNEG erfolgreich_ADJD ._$. es_PPER kommen_VVFIN diverse_ADJA Fehler_NN aus_APPR CLevertrustee_NN ._$. ``_XY `_XY ruby_NE opencl@wimpy:~/Documents/TestStefanie/test4/testCLT$_NE make_FM make_FM -_$( C_NN ._$. ._$. \/_XY CLeverTrustee_FM make_FM -LSB-_TRUNC 1_CARD -RSB-_TRUNC :_$. Entering_FM directory_FM `_FM \/_FM home\/opencl\/Documents_FM \/_FM TestStefanie\/test4\/CLeverTrustee_FM '_$( g_XY +_XY +_XY -_$( lOpenCL_NE `_NE llvm-config_ADJD --_-- libs_FM `_FM `_FM llvm-config_ADJD --_-- ldflags_ADV `_CARD obj\/CLeverTrustee_NN ._$. o_ADV -_$( o_ADV obj\/CLeverTrustee_NN \/_CARD usr\/bin\/ld_ADJD :_$. \/_CARD usr\/lib\/debug_NN \/_CARD usr\/lib\/x86_CARD __CARD 64-linux-gnu\/crt1_CARD ._$. o_ADV -LRB-_TRUNC ._$. debug_info_NE -RRB-_TRUNC :_$. relocation_ADJD 0_CARD has_XY invalid_FM symbol_FM index_FM 10_CARD \/_CARD usr\/bin\/ld_ADJD :_$. \/_CARD usr\/lib\/debug_NN \/_CARD usr\/lib\/x86_CARD __CARD 64-linux-gnu\/crt1_CARD ._$. o_ADV -LRB-_TRUNC ._$. debug_info_NE -RRB-_TRUNC :_$. relocation_XY 1_CARD has_XY invalid_FM symbol_FM index_FM 11_CARD \/_CARD usr\/bin\/ld_ADJD :_$. \/_CARD usr\/lib\/debug_NN \/_CARD usr\/lib\/x86_CARD __CARD 64-linux-gnu\/crt1_CARD ._$. o_ADV -LRB-_TRUNC ._$. debug_info_NE -RRB-_TRUNC :_$. relocation_ADJA 2_CARD has_XY invalid_FM symbol_FM index_FM 2_CARD \/_CARD usr\/bin\/ld_ADJD :_$. \/_CARD usr\/lib\/debug_NN \/_CARD usr\/lib\/x86_CARD __CARD 64-linux-gnu\/crt1_CARD ._$. o_ADV -LRB-_TRUNC ._$. debug_info_NE -RRB-_TRUNC :_$. relocation_ADJA 3_CARD has_XY invalid_FM symbol_FM index_FM 2_CARD \/_CARD usr\/bin\/ld_ADJD :_$. \/_CARD usr\/lib\/debug_NN \/_CARD usr\/lib\/x86_CARD __CARD 64-linux-gnu\/crt1_CARD ._$. o_ADV -LRB-_TRUNC ._$. debug_info_NE -RRB-_TRUNC :_$. relocation_ADJA 4_CARD has_XY invalid_FM symbol_FM index_FM 10_CARD \/_CARD usr\/bin\/ld_ADJD :_$. \/_CARD usr\/lib\/debug_NN \/_CARD usr\/lib\/x86_CARD __CARD 64-linux-gnu\/crt1_CARD ._$. o_ADV -LRB-_TRUNC ._$. debug_info_NE -RRB-_TRUNC :_$. relocation_ADJA 5_CARD has_XY invalid_FM symbol_FM index_FM 12_CARD \/_CARD usr\/bin\/ld_ADJD :_$. \/_CARD usr\/lib\/debug_NN \/_CARD usr\/lib\/x86_CARD __CARD 64-linux-gnu\/crt1_CARD ._$. o_ADV -LRB-_TRUNC ._$. debug_info_NE -RRB-_TRUNC :_$. relocation_ADJA 6_CARD has_XY invalid_FM symbol_FM index_FM 12_CARD \/_CARD usr\/bin\/ld_ADJD :_$. \/_CARD usr\/lib\/debug_NN \/_CARD usr\/lib\/x86_CARD __CARD 64-linux-gnu\/crt1_CARD ._$. o_ADV -LRB-_TRUNC ._$. debug_info_NE -RRB-_TRUNC :_$. relocation_ADJA 7_CARD has_XY invalid_FM symbol_FM index_FM 12_CARD \/_CARD usr\/bin\/ld_ADJD :_$. \/_CARD usr\/lib\/debug_NN \/_CARD usr\/lib\/x86_CARD __CARD 64-linux-gnu\/crt1_CARD ._$. o_ADV -LRB-_TRUNC ._$. debug_info_NE -RRB-_TRUNC :_$. relocation_ADJD 8_CARD has_XY invalid_FM symbol_FM index_FM 2_CARD \/_CARD usr\/bin\/ld_ADJD :_$. \/_CARD usr\/lib\/debug_NN \/_CARD usr\/lib\/x86_CARD __CARD 64-linux-gnu\/crt1_CARD ._$. o_ADV -LRB-_TRUNC ._$. debug_info_NE -RRB-_TRUNC :_$. relocation_ADJA 9_CARD has_XY invalid_FM symbol_FM index_FM 2_CARD \/_CARD usr\/bin\/ld_ADJD :_$. \/_CARD usr\/lib\/debug_NN \/_CARD usr\/lib\/x86_CARD __CARD 64-linux-gnu\/crt1_CARD ._$. o_ADV -LRB-_TRUNC ._$. debug_info_NE -RRB-_TRUNC :_$. relocation_ADJA 10_CARD has_XY invalid_FM symbol_FM index_FM 11_CARD \/_CARD usr\/bin\/ld_ADJD :_$. \/_CARD usr\/lib\/debug_NN \/_CARD usr\/lib\/x86_CARD __CARD 64-linux-gnu\/crt1_CARD ._$. o_ADV -LRB-_TRUNC ._$. debug_info_NE -RRB-_TRUNC :_$. relocation_ADJD 11_CARD has_XY invalid_FM symbol_FM index_FM 12_CARD \/_CARD usr\/bin\/ld_ADJD :_$. \/_CARD usr\/lib\/debug_NN \/_CARD usr\/lib\/x86_CARD __CARD 64-linux-gnu\/crt1_CARD ._$. o_ADV -LRB-_TRUNC ._$. debug_info_NE -RRB-_TRUNC :_$. relocation_ADJA 12_CARD has_XY invalid_FM symbol_FM index_FM 12_CARD \/_CARD usr\/bin\/ld_ADJD :_$. \/_CARD usr\/lib\/debug_NN \/_CARD usr\/lib\/x86_CARD __CARD 64-linux-gnu\/crt1_CARD ._$. o_ADV -LRB-_TRUNC ._$. debug_info_NE -RRB-_TRUNC :_$. relocation_ADJA 13_CARD has_XY invalid_FM symbol_FM index_FM 12_CARD \/_CARD usr\/bin\/ld_ADJD :_$. \/_CARD usr\/lib\/debug_NN \/_CARD usr\/lib\/x86_CARD __CARD 64-linux-gnu\/crt1_CARD ._$. o_ADV -LRB-_TRUNC ._$. debug_info_NE -RRB-_TRUNC :_$. relocation_ADJA 14_CARD has_XY invalid_FM symbol_FM index_FM 12_CARD \/_CARD usr\/bin\/ld_ADJD :_$. \/_CARD usr\/lib\/debug_NN \/_CARD usr\/lib\/x86_CARD __CARD 64-linux-gnu\/crt1_CARD ._$. o_ADV -LRB-_TRUNC ._$. debug_info_NE -RRB-_TRUNC :_$. relocation_ADJA 15_CARD has_XY invalid_FM symbol_FM index_FM 12_CARD \/_CARD usr\/bin\/ld_ADJD :_$. \/_CARD usr\/lib\/debug_NN \/_CARD usr\/lib\/x86_CARD __CARD 64-linux-gnu\/crt1_CARD ._$. o_ADV -LRB-_TRUNC ._$. debug_info_NE -RRB-_TRUNC :_$. relocation_ADJA 16_CARD has_XY invalid_FM symbol_FM index_FM 12_CARD \/_CARD usr\/bin\/ld_ADJD :_$. \/_CARD usr\/lib\/debug_NN \/_CARD usr\/lib\/x86_CARD __CARD 64-linux-gnu\/crt1_CARD ._$. o_ADV -LRB-_TRUNC ._$. debug_info_NE -RRB-_TRUNC :_$. relocation_ADV 17_CARD has_XY invalid_FM symbol_FM index_FM 12_CARD \/_CARD usr\/bin\/ld_ADJD :_$. \/_CARD usr\/lib\/debug_NN \/_CARD usr\/lib\/x86_CARD __CARD 64-linux-gnu\/crt1_CARD ._$. o_ADV -LRB-_TRUNC ._$. debug_info_NE -RRB-_TRUNC :_$. relocation_ADV 18_CARD has_XY invalid_FM symbol_FM index_FM 12_CARD \/_CARD usr\/bin\/ld_ADJD :_$. \/_CARD usr\/lib\/debug_NN \/_CARD usr\/lib\/x86_CARD __CARD 64-linux-gnu\/crt1_CARD ._$. o_ADV -LRB-_TRUNC ._$. debug_info_NE -RRB-_TRUNC :_$. relocation_ADV 19_CARD has_XY invalid_FM symbol_FM index_FM 12_CARD \/_CARD usr\/bin\/ld_ADJD :_$. \/_CARD usr\/lib\/debug_NN \/_CARD usr\/lib\/x86_CARD __CARD 64-linux-gnu\/crt1_CARD ._$. o_ADV -LRB-_TRUNC ._$. debug_info_NE -RRB-_TRUNC :_$. relocation_ADV 20_CARD has_XY invalid_FM symbol_FM index_FM 19_CARD \/_CARD usr\/lib\/gcc_CARD \/_CARD x86_64-linux-gnu_CARD \/_CARD 4_CARD ._$. 6_CARD \/_CARD ._$. ._$. \/_NE ._$. ._$. \/_NE ._$. ._$. \/_CARD x86_64-linux-gnu_CARD \/_CARD crt1_CARD ._$. o_ADV :_$. In_APPR function_FM `_FM __FM start_FM '_$( :_$. -LRB-_TRUNC ._$. text_VVFIN +0_CARD x20_CARD -RRB-_TRUNC :_$. undefined_ADJD reference_FM to_FM `_FM main_FM '_$( obj\/CLeverTrustee_NE ._$. o_ADV :_$. In_APPR function_FM `_FM clt_FM :_$. ,_$, CLeverTrustee_NN :_$. ,_$, createKernel_NN -LRB-_TRUNC std_ITJ :_$. ,_$, basic_string_VVFIN ,_$, std_ITJ :_$. ,_$, allocator_ADJD >_ADJD ,_$, std_ADJD :_$. ,_$, basic_string_VVFIN ,_$, std_ITJ :_$. ,_$, allocator_ADJA >_NN -RRB-_TRUNC '_$( :_$. \/_CARD home\/opencl\/Documents_NN \/_VVFIN TestStefanie\/test4\/CLeverTrustee_NN \/_NE src\/CLeverTrustee_NE ._$. cpp_NE ,_$, 33_CARD :_$. undefined_ADJD reference_FM to_FM `_FM clt_FM :_$. ,_$, Kernel_NN :_$. ,_$, Kernel_NN -LRB-_TRUNC std_ITJ :_$. ,_$, basic_string_VVFIN ,_$, std_ITJ :_$. ,_$, allocator_ADJA >_NN ,_$, clt_VVFIN :_$. ,_$, CLeverTrustee_NN \*_CARD -RRB-_TRUNC '_$( \/_CARD home\/opencl\/Documents_NN \/_VVFIN TestStefanie\/test4\/CLeverTrustee_NN \/_NE src\/CLeverTrustee_NE ._$. cpp_NE ,_$, 35_CARD :_$. undefined_ADJD reference_FM to_FM `_FM clt_FM :_$. ,_$, Program_NE :_$. ,_$, Program_NE -LRB-_TRUNC std_ITJ :_$. ,_$, basic_string_VVFIN ,_$, std_ITJ :_$. ,_$, allocator_ADJA >_NN -RRB-_TRUNC '_$( \/_CARD home\/opencl\/Documents_NN \/_VVFIN TestStefanie\/test4\/CLeverTrustee_NN \/_NE src\/CLeverTrustee_NE ._$. cpp_NE ,_$, 36_CARD :_$. undefined_ADJD reference_FM to_FM `_FM clt_FM :_$. ,_$, Feedback_NN :_$. ,_$, analyzeKernel_NN -LRB-_TRUNC std_ITJ :_$. ,_$, basic_string_VVFIN ,_$, std_ITJ :_$. ,_$, allocator_ADJD >_ADJD ,_$, std_ADJD :_$. ,_$, basic_string_VVFIN ,_$, std_ITJ :_$. ,_$, allocator_ADJA >_NN ,_$, clt_VVFIN :_$. ,_$, Kernel_NN \*_CARD -RRB-_TRUNC '_$( \/_CARD home\/opencl\/Documents_NN \/_VVFIN TestStefanie\/test4\/CLeverTrustee_NN \/_NE src\/CLeverTrustee_NE ._$. cpp_NE ,_$, 37_CARD :_$. undefined_ADJD reference_FM to_FM `_FM clt_FM :_$. ,_$, Device_NE :_$. ,_$, createclKernel_NN -LRB-_TRUNC clt_KON :_$. ,_$, Kernel_NN \*_CARD ,_$, clt_VVFIN :_$. ,_$, Program_NE \*_NE -RRB-_TRUNC '_$( obj\/CLeverTrustee_NN ._$. o_ADV :_$. In_APPR function_FM `_FM clt_FM :_$. ,_$, CLeverTrustee_NN :_$. ,_$, execute_VVFIN -LRB-_TRUNC clt_KON :_$. ,_$, Kernel_NN &_KON ,_$, std_ITJ :_$. ,_$, vector_FM >_FM ,_$, std_FM :_$. ,_$, vector_ADJA >_NN ,_$, clt_VVFIN :_$. ,_$, ExecutionPriority_NN ,_$, int_ADJD ,_$, int_ADJD ,_$, int_ADJD ,_$, int_ADJD ,_$, int_ADJD ,_$, int_ADJD ,_$, unsigned_ADJD long_ADJD -RRB-_TRUNC '_$( :_$. \/_CARD home\/opencl\/Documents_NN \/_VVFIN TestStefanie\/test4\/CLeverTrustee_NN \/_NE src\/CLeverTrustee_NE ._$. cpp_NE ,_$, 46_CARD :_$. undefined_ADJD reference_FM to_FM `_FM clt_FM :_$. ,_$, Feedback_NN :_$. ,_$, getOptimalDevice_NN -LRB-_TRUNC clt_KON :_$. ,_$, Kernel_NN \*_CARD ,_$, std_ITJ :_$. ,_$, vector_FM >_FM ,_$, unsigned_FM long_FM -RRB-_TRUNC '_$( \/_CARD home\/opencl\/Documents_NN \/_VVFIN TestStefanie\/test4\/CLeverTrustee_NN \/_NE src\/CLeverTrustee_NE ._$. cpp_NE ,_$, 46_CARD :_$. undefined_ADJD reference_FM to_FM `_FM clt_FM :_$. ,_$, Device_NE :_$. ,_$, execute_VVFIN -LRB-_TRUNC clt_KON :_$. ,_$, Kernel_NN &_KON ,_$, std_ITJ :_$. ,_$, vector_FM >_FM ,_$, std_FM :_$. ,_$, vector_ADJA >_NN ,_$, clt_VVFIN :_$. ,_$, ExecutionPriority_NN ,_$, int_ADJD ,_$, int_ADJD ,_$, int_ADJD ,_$, int_ADJD ,_$, int_ADJD ,_$, int_ADJD -RRB-_TRUNC '_$( obj\/CLeverTrustee_NN ._$. o_ADV :_$. In_APPR function_FM `_FM clt_FM :_$. ,_$, CLeverTrustee_NN :_$. ,_$, initializeOpenCL_NN -LRB-_TRUNC -RRB-_TRUNC '_$( :_$. \/_CARD home\/opencl\/Documents_NN \/_VVFIN TestStefanie\/test4\/CLeverTrustee_NN \/_NE src\/CLeverTrustee_NE ._$. cpp_NE ,_$, 80_CARD :_$. undefined_ADJD reference_FM to_FM `_FM clGetPlatformIDs_FM '_$( \/_CARD home\/opencl\/Documents_NN \/_VVFIN TestStefanie\/test4\/CLeverTrustee_NN \/_NE src\/CLeverTrustee_NE ._$. cpp_NE ,_$, 82_CARD :_$. undefined_ADJD reference_FM to_FM `_FM clGetPlatformIDs_FM '_$( \/_CARD home\/opencl\/Documents_NN \/_VVFIN TestStefanie\/test4\/CLeverTrustee_NN \/_NE src\/CLeverTrustee_NE ._$. cpp_NE ,_$, 89_CARD :_$. undefined_ADJD reference_FM to_FM `_FM clGetDeviceIDs_FM '_$( \/_CARD home\/opencl\/Documents_NN \/_VVFIN TestStefanie\/test4\/CLeverTrustee_NN \/_NE src\/CLeverTrustee_NE ._$. cpp_NE ,_$, 91_CARD :_$. undefined_ADJD reference_FM to_FM `_FM clGetDeviceIDs_FM '_$( \/_CARD home\/opencl\/Documents_NN \/_VVFIN TestStefanie\/test4\/CLeverTrustee_NN \/_NE src\/CLeverTrustee_NE ._$. cpp_NE ,_$, 110_CARD :_$. undefined_ADJD reference_FM to_FM `_FM clt_FM :_$. ,_$, Device_NE :_$. ,_$, Device_NE -LRB-_TRUNC __KON cl_platform_id_NN \*_CARD &_KON ,_$, __CARD cl_device_id_NE \*_NE &_KON -RRB-_TRUNC '_$( \/_CARD home\/opencl\/Documents_NN \/_VVFIN TestStefanie\/test4\/CLeverTrustee_NN \/_NE src\/CLeverTrustee_NE ._$. cpp_NE ,_$, 115_CARD :_$. undefined_ADJD reference_FM to_FM `_FM clt_FM :_$. ,_$, Device_NE :_$. ,_$, getDeviceType_NN -LRB-_TRUNC -RRB-_TRUNC '_$( obj\/CLeverTrustee_NN ._$. o_ADV :_$. In_APPR function_FM `_FM CLeverTrustee_FM '_$( :_$. \/_CARD home\/opencl\/Documents_NN \/_VVFIN TestStefanie\/test4\/CLeverTrustee_NN \/_NE src\/CLeverTrustee_NE ._$. cpp_NE ,_$, 65_CARD :_$. undefined_ADJD reference_FM to_FM `_FM clt_FM :_$. ,_$, Feedback_NN :_$. ,_$, Feedback_NN -LRB-_TRUNC clt_KON :_$. ,_$, CLeverTrustee_NN &_KON ,_$, clt_VVFIN :_$. ,_$, ProgramAnalyzer_NN &_KON -RRB-_TRUNC '_$( collect2_CARD :_$. ld_CARD returned_XY 1_CARD exit_ADJD status_FM make_FM -LSB-_TRUNC 1_CARD -RSB-_TRUNC :_$. \*\*\*_ADJD -LSB-_TRUNC obj\/CLeverTrustee_NN -RSB-_TRUNC Error_NN 1_CARD make_FM -LSB-_TRUNC 1_CARD -RSB-_TRUNC :_$. Leaving_FM directory_FM `_FM \/_FM home\/opencl\/Documents_FM \/_FM TestStefanie\/test4\/CLeverTrustee_FM '_$( make_FM :_$. \*\*\*_ADJD -LSB-_TRUNC lib\/libCLeverTrustee_NN ._$. so_ADV -RSB-_TRUNC Error_NN 2_CARD opencl@wimpy:~/Documents/TestStefanie/test4/testCLT$_NN ``_CARD `_XY Ich_PPER bin_VAFIN morgen_ADV vor_APPR 10_CARD Uhr_NN im_APPRART Lab_NE <_NE NAME_CORPUS_REPLACEMENT_NE >_NE ._$. Vielleicht_ADV hat_VAFIN einer_ART <_ADJA NAME_CORPUS_REPLACEMENT_NN >_CARD euch_PRF vorher_ADV ein_ART wenig_PIDAT Zeit_NN und_KON wir_PPER schauen_VVINF nochmal_ADV ._$. Edit_NN :_$. make_FM -_$( B_NN bringt_VVFIN das_ART gleiche_ADJA ._$. Wenn_KOUS ich_PPER make_FM im_APPRART CLeverTrustee_NN ausführe_VVFIN sieht_VVFIN es_PPER ähnlich_ADJD aus_PTKVZ ._$. 

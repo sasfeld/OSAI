@@ -1,0 +1,9 @@
+ID: 265
+CREATION_DATETIME: 1349906400000
+MODIFICATION_DATETIME: 1349906400000
+TITLE: Nein. Du hast sicher 
+PARENT_POSTING_ID: 260
+POSTING_TYPE: comment
+CONTENT:
+Nein. Du hast sicher an der richtigen Stelle geschaut. Der Button war kurzzeitig weg. Nun ist er aber für Maintainer eines Kurses sichtbar und funktional. 
+TAGGED_CONTENT:

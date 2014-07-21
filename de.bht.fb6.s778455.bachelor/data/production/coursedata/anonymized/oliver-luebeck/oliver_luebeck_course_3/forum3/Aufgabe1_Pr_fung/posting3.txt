@@ -1,0 +1,19 @@
+ID: 34
+CREATION_DATETIME: 1201201740000
+MODIFICATION_DATETIME: 1201201740000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 33
+CONTENT:
+
+    hallo ,
+
+noch ein kleines nachkommentar. ich hatte die 1.pruefungsaufgabe nicht so verstanden, dass eine konsoleneingabe gefordert wird.
+
+ich hattes es einfacher geloest, was hoffentlich auch richtig wäre.
+
+gruss
+    
+
+    
+TAGGED_CONTENT:

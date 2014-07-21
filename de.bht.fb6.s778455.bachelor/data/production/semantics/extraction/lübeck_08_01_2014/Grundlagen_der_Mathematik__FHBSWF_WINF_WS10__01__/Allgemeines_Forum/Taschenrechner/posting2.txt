@@ -1,0 +1,11 @@
+ID: 97782
+CREATION_DATETIME: 1292515626
+MODIFICATION_DATETIME: 1292515626
+TITLE: Re: Taschenrechner
+TOPIC_ZOOM_TAG: value:Schulen;weight:1.0;significance:5.87014431438658;degreegeneralization:5;uri:21882020
+TOPIC_ZOOM_TAG: value:Schulische Bildung und Erziehung;weight:1.0;significance:5.86693403875633;degreegeneralization:3;uri:21882122
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+PARENT_POSTING_ID: 97781
+CONTENT:
+Ja, der geht gerade noch. Ist in Schulen erlaubt.
+TAGGED_CONTENT:

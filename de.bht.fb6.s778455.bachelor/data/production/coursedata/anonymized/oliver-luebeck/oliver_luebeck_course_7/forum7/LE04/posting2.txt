@@ -1,0 +1,22 @@
+ID: 2
+CREATION_DATETIME: 1301994660000
+MODIFICATION_DATETIME: 1301994660000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1
+CONTENT:
+
+Hallo ,
+
+unter LE 4 unter der Datei MyMath.java findest du auch die Aufgabe.
+
+http://moodle.oncampus.de/mod/assignment/view.php?id=89502
+
+
+"Fuegen Sie eine weitere mathematische Funktion Ihrer Wahl mit
+Dokumentationskommentar in die Klasse MyMath und testen Sie sie in der main
+Methode. Erstellen Sie die Dokumentation dieser Klasse. Senden Sie mir die
+Datei MyMath.java verpackt in eine .zip Datei mit folgendem Namen:
+IhrNamenLE04.zip"
+    
+TAGGED_CONTENT:

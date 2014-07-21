@@ -1,0 +1,18 @@
+ID: 1872
+CREATION_DATETIME: 1369864800000
+MODIFICATION_DATETIME: 1384729200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich bin bei dieser Fragestellung überfragt. Ich verstehe nicht, inwiefern und vor allem auch warum man zwischen zwei Transformationsmatrizen interpolieren sollte. 
+
+Wie ist die Frage zu verstehen? Ist eine Mögliche Antwort die so genannte **Hintereinanderausführung** <NAME_CORPUS_REPLACEMENT> Matrizen, um sie zu einer zu verschmelzen? Ausgenommen dabei die Translationsmatrizen, die per Addition zusammengeführt werden?
+
+Ich würde mich sehr freuen, falls mir jemand bei dieser Frage helfen kann.
+
+Danke
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,32 @@
+ID: 5
+CREATION_DATETIME: 1191535740000
+MODIFICATION_DATETIME: 1191535740000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3
+CONTENT:
+ 
+Die Formulierung "...ein OutputStreamWriter um den FileOutputStream gepackt wird", oder wie es sogar im Text der Lerneinheit heisst "...wird um den OutputStreamWriter noch ein BufferedWriter gelegt..." macht mich stutzig.
+
+So wie ich es verstanden habe, werden Anschluss- und Verkettungsströme miteinander verkettet und nichts 'drumherumgelegt'.
+
+Noch was anderes: Im Code von Kapitel 4.3
+
+058 // Puffer (Zwischenspeicher) leeren 
+059 bWriter.flush(); 
+060 // Ausgabestrom wird geschlossen 
+061 bWriter.close();
+
+wird erst der Puffer geleert und dann der Strom geschlossen.
+So wird es auch im Text darunter erläutert.
+In der Doku heisst es aber zur Methode close() in Klasse Writer
+
+close() Closes the stream, flushing it first. 
+
+Demnach wäre hier dann die Methode
+
+flush()
+
+überflüssig, oder irre ich?
+     
+TAGGED_CONTENT:

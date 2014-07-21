@@ -1,0 +1,19 @@
+ID: 116461
+CREATION_DATETIME: 1319066208
+MODIFICATION_DATETIME: 1319066208
+TITLE: Re: Fallunterscheidung bei Ungleichungen mit zwei Brüchen
+TOPIC_ZOOM_TAG: value:Ungleichungen;weight:2.0;significance:8.47236634348927;degreegeneralization:7;uri:20806277
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:5.18753055338448;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Dozenten;weight:1.0;significance:3.40788095514863;degreegeneralization:6;uri:20916250
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:2.98265634797786;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:2.33481144310352;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:3.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:1.85157190455169;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:1.72691850917083;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:1.55845785653717;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:1.45634953740933;degreegeneralization:2;uri:21999779
+PARENT_POSTING_ID: 116460
+CONTENT:
+Hey <REMOVED_PERSON_ENTITY>,
+ich denke man soll nur die Nennner beachten! <REMOVED_PERSON_ENTITY> mit 16 Fällen wäre viel zu umfangreich.:-O Du kannst ja unseren Dozenten fragen, ob es Ungleichungen gibt mit mehr als 4 Fällen? Wir haben auch nur Ungleichungen mit höchstens 4 Fällen bearbeitet. 
+TAGGED_CONTENT:

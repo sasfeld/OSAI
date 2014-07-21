@@ -1,0 +1,11 @@
+ID: 2180
+CREATION_DATETIME: 1373320800000
+MODIFICATION_DATETIME: 1375653600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Kann man mir bitte die Aufgabe 2. 4 etwas genauer Erklärenen, in meiner Gruppe hat niemand so richtig ein plan.
+Ein Beispiel wäre sehr hilfreich.
+Danke
+TAGGED_CONTENT:

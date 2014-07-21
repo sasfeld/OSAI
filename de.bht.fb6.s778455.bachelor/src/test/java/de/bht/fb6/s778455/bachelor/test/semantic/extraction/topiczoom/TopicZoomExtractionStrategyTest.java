@@ -13,6 +13,7 @@ import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.semantic.extraction.topiczoom.TopicZoomExtractionStrategy;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>This class contains tests of the {@link TopicZoomExtractionStrategy}.</p>
@@ -21,7 +22,7 @@ import de.bht.fb6.s778455.bachelor.semantic.extraction.topiczoom.TopicZoomExtrac
  * @since 05.01.2014
  *
  */
-public class TopicZoomExtractionStrategyTest {
+public class TopicZoomExtractionStrategyTest extends NoLoggingTest {
 	private TopicZoomExtractionStrategy strategy;
 
 	/**

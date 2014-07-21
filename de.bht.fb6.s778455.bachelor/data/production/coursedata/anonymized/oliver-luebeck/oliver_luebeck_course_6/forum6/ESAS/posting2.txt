@@ -1,0 +1,15 @@
+ID: 39
+CREATION_DATETIME: 1287630960000
+MODIFICATION_DATETIME: 1287630960000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 38
+CONTENT:
+  
+Hallo ,
+
+JA! da die LEs 08 und 09 erst Ende Oktober zur Verfuegung stehen. Rekursion ist unabhaengig von graphischen Oberflaechen.
+
+Mit freundlichen Gruessen
+    
+TAGGED_CONTENT:

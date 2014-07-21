@@ -1,0 +1,10 @@
+ID: 2205
+CREATION_DATETIME: 1373493600000
+MODIFICATION_DATETIME: 1373839200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> und Cheng,
+ihr wolltet euch ja heute treffen und <REMOVED_PERSON_ENTITY> und ich wollten dazustoßen. Jetzt sind wir <NAME_CORPUS_REPLACEMENT>. Wo seid ihr denn?
+TAGGED_CONTENT:

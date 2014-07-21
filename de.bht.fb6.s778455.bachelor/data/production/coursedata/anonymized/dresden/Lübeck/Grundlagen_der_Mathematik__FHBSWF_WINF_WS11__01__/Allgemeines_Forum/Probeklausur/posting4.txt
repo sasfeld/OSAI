@@ -1,0 +1,8 @@
+ID: 117557
+CREATION_DATETIME: 1327322700
+MODIFICATION_DATETIME: 1327322700
+TITLE: Re: Probeklausur
+PARENT_POSTING_ID: 117556
+CONTENT:
+1 1 -41 -2 2 = 0a -3 2Da bin ich nuns elbst drauf gekommen, wie man hier auf a=2 kommt. Jeder Wert muss von 0 addiert oder subtrahiert werden... und dann ist alles 0 und a bleibt a = 2. Aber wie kommt man dann auf den 2. Teil? Das erschließt sich mir noch nicht. 
+TAGGED_CONTENT:

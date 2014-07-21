@@ -1,0 +1,9 @@
+ID: 252
+CREATION_DATETIME: 1349820000000
+MODIFICATION_DATETIME: 1349820000000
+TITLE: Ich hatte vorhin 5 od
+PARENT_POSTING_ID: 70
+POSTING_TYPE: answer
+CONTENT:
+Ich hatte vorhin 5 oder 6 Notifications für die selbe <REMOVED_PERSON_ENTITY>. Ich habe dort alles gelesen, aber die Notifications sind weiterhin <NAME_CORPUS_REPLACEMENT> geblieben. Es wäre schön, wenn die Notifications <NAME_CORPUS_REPLACEMENT> betrachteten Seiten automatisch entfernt werden würden.
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 173
+CREATION_DATETIME: 1348524000000
+MODIFICATION_DATETIME: 1348524000000
+TITLE: Kannst du mir bitte d
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 170
+POSTING_TYPE: comment
+CONTENT:
+Kannst du mir bitte deinen gesamten Code per Mail zuschicken, ich versuch's dann selber zu compilieren.
+TAGGED_CONTENT:

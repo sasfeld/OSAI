@@ -1,0 +1,10 @@
+ID: 2403
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: Jo, auf der foliennr. 50 auch noch. Die nehm ich dann nachher noch raus. Und die Seitenzahlen muss ic...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2401
+POSTING_TYPE: comment
+CONTENT:
+Jo, auf der foliennr. 50 auch noch. Die nehm ich dann nachher noch raus. Und die Seitenzahlen muss ich noch korrigieren.
+TAGGED_CONTENT:

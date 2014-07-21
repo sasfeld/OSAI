@@ -1,0 +1,9 @@
+ID: 2368
+CREATION_DATETIME: 1374271200000
+MODIFICATION_DATETIME: 1374271200000
+TITLE: Die Boxplots für die Memory Bandwidth Correlation sind eingecheckt. Bitte drüberschauen
+PARENT_POSTING_ID: 2344
+POSTING_TYPE: comment
+CONTENT:
+Die Boxplots für die Memory Bandwidth Correlation sind eingecheckt. Bitte drüberschauen
+TAGGED_CONTENT:

@@ -1,0 +1,24 @@
+ID: 185681
+CREATION_DATETIME: 1354787810
+MODIFICATION_DATETIME: 1354787810
+TITLE: Re: Aufgabe 2b)
+LANGUAGE: GERMAN
+POS_TAG: value:Woche;weight:0.0;uri:;postag:NN
+POS_TAG: value:Findung;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:vektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Leute;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klausur;weight:0.0;uri:;postag:NN
+POS_TAG: value:REMOVEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:muss;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 185665
+CONTENT:
+wie gesagt, ich finde das gut und werde meine lösung auch so abegeben. was besseres fällt mir auch nicht ein.
+somit wäre b eingetlicht schon fast gelöst, da man jetzt nur noch zwei vektoren addieren muss und einmal einen vektor mit einen skalar multiplizieren muss.
+... ich bin gespannt auf die Klausur, wenn hier schon mehrere Leute knapp eine Woche für die Findung der Lösung einer Aufgabe benötigen ;) 
+Viele Grüße<PERSONAL_GREETING_REMOVEMENT>
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+wie_KOKOM gesagt_VVPP ,_$, ich_PPER finde_VVFIN das_ART gut_ADJD und_KON werde_VAFIN meine_PPOSAT lösung_NN auch_ADV so_ADV abegeben_VVPP ._$. was_PIAT besseres_ADJA fällt_VVFIN mir_PPER auch_ADV nicht_PTKNEG ein_PTKVZ ._$. somit_ADV wäre_VAFIN b_XY eingetlicht_VVPP schon_ADV fast_ADV gelöst_VVPP ,_$, da_KOUS man_PIS jetzt_ADV nur_ADV noch_ADV zwei_CARD vektoren_NN addieren_VVFIN muss_NN und_KON einmal_ADV einen_ART vektor_ADJD mit_APPR einen_ART skalar_ADJA multiplizieren_ADJA muss_NN ._$. ..._$( ich_PPER bin_VAFIN gespannt_VVPP auf_APPR die_ART Klausur_NN ,_$, wenn_KOUS hier_ADV schon_ADV mehrere_PIAT Leute_NN knapp_ADJD eine_ART Woche_NN für_APPR die_ART Findung_NN der_ART Lösung_NN einer_ART Aufgabe_NN benötigen_VVFIN ;-RRB-_NE Viele_PIDAT Grüße_NN <_CARD PERSONAL_GREETING_REMOVEMENT_NN >_CARD <_XY PERSONAL_GREETING_REMOVEMENT_NN >_XY 

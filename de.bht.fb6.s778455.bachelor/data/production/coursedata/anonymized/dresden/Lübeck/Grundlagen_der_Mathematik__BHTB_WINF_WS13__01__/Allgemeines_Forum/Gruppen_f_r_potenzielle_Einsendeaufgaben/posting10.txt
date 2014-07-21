@@ -1,0 +1,8 @@
+ID: 237587
+CREATION_DATETIME: 1380617168
+MODIFICATION_DATETIME: 1380617168
+TITLE: Re: Gruppen für potenzielle Einsendeaufgaben
+PARENT_POSTING_ID: 237569
+CONTENT:
+Kein Problem, wir können ja nach der Präsenz zusammenzufassen was so besprochen wurde.
+TAGGED_CONTENT:

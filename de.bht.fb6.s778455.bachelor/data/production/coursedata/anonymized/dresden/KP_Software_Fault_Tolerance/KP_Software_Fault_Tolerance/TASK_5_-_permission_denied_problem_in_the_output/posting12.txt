@@ -1,0 +1,9 @@
+ID: 1000
+CREATION_DATETIME: 1355958000000
+MODIFICATION_DATETIME: 1355958000000
+TITLE: I think that all the wrappers and the fig.c file must be in the faultinjectors directory. The makefil...
+PARENT_POSTING_ID: 991
+POSTING_TYPE: comment
+CONTENT:
+I think that all the wrappers and the fig. c file must be in the faultinjectors directory. The makefile is inside this directory. And the run. sh must be configured to call the fig. c compiled version. It worked for me
+TAGGED_CONTENT:

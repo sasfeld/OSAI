@@ -1,0 +1,15 @@
+ID: 174159
+CREATION_DATETIME: 1351105590
+MODIFICATION_DATETIME: 1351105590
+TITLE: Re: Gruppen für die Einsendeaufgaben
+PARENT_POSTING_ID: 172291
+CONTENT:
+Aktualisierung:
+Derzeit haben sich folgende Gruppen gebildet:
+<REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, Ramon Hollenbach
+Maxim Schwarz, <REMOVED_PERSON_ENTITY>, Steven Pawellek
+Peter Wachsmann, <REMOVED_PERSON_ENTITY>, Tim Brockmann
+Christian Giehler, <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, Thomas Severin
+Martin Duckert, <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, Bettina Löwe
+Nasser Ali, Ragab El Sayed, Ergün Aras, <REMOVED_PERSON_ENTITY> (so richtig?)
+TAGGED_CONTENT:

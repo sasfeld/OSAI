@@ -1,0 +1,12 @@
+ID: 14
+CREATION_DATETIME: 1192546020000
+MODIFICATION_DATETIME: 1192546020000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 13
+CONTENT:
+
+Bevor die Dateien kopiert werden wird überprüft, ob denn dem Programm 2 Argumente übergeben wurden.
+Ich nehme mal an, dass das nicht geschehen ist und sich das Programm deswegen vorher beendet :-)
+     
+TAGGED_CONTENT:

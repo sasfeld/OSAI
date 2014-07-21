@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file id="1136437">
+    <contenthash>94666400ad7216c1a251f70213395e1447874d35</contenthash>
+    <contextid>155515</contextid>
+    <component>course</component>
+    <filearea>section</filearea>
+    <itemid>74443</itemid>
+    <filepath>/</filepath>
+    <filename>IR043_moodle_grafik_grundlagen_mathe.jpg</filename>
+    <userid>1937</userid>
+    <filesize>56412</filesize>
+    <mimetype>image/jpeg</mimetype>
+    <status>0</status>
+    <timecreated>1348734407</timecreated>
+    <timemodified>1348734407</timemodified>
+    <source>IR043_moodle_grafik_grundlagen_mathe.jpg</source>
+    <author>Juliane Marten</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="1136439">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>155515</contextid>
+    <component>course</component>
+    <filearea>section</filearea>
+    <itemid>74443</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>1937</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1348734421</timecreated>
+    <timemodified>1348734421</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="1255785">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>155545</contextid>
+    <component>mod_forum</component>
+    <filearea>attachment</filearea>
+    <itemid>183271</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>10889</userid>
+    <filesize>0</filesize>
+    <mimetype>document/unknown</mimetype>
+    <status>0</status>
+    <timecreated>1353929113</timecreated>
+    <timemodified>1353929418</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="1255783">
+    <contenthash>2242bba8c99863c145a40bd1a31eec0e1d7ca709</contenthash>
+    <contextid>155545</contextid>
+    <component>mod_forum</component>
+    <filearea>attachment</filearea>
+    <itemid>183271</itemid>
+    <filepath>/</filepath>
+    <filename>EA3- Stefan Brügmann.pdf</filename>
+    <userid>10889</userid>
+    <filesize>94161</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1353929082</timecreated>
+    <timemodified>1353929082</timemodified>
+    <source>Serverdateien: EA3- Stefan Brügmann.pdf</source>
+    <author>Stefan Brügmann</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+</files>

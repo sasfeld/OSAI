@@ -1,0 +1,33 @@
+ID: 16
+CREATION_DATETIME: 1176228540000
+MODIFICATION_DATETIME: 1176228540000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 13
+CONTENT:
+
+Kann mir jemand weiterhelfen, warum das Applet im Browser nicht richtig ausgeführt werden kann?
+
+Der Quelltext:
+
+<html>
+ <head>
+ <title>Mein Erstes Applet</title>
+ </head>
+ <body>
+ <applet .."
+ code="MeinZweitesApplet.class"
+ width=400
+ height=300>
+ </applet>
+ </body>
+</html>
+
+Die HTML Datei und die MeinZweitesApplet.class sind im gleichen Ordner
+im Verzeichnis der Übungsumgebung also C:\vfh\
+
+Als Fehlermeldung kommt, das die .class Datei nirgends gefunden werden kann.
+Die Path-Variablen habe ich richtig gesetzt, da ich alle vorherigen Übungen
+der Lektionen einwandfrei ausführen konnten.
+    
+TAGGED_CONTENT:

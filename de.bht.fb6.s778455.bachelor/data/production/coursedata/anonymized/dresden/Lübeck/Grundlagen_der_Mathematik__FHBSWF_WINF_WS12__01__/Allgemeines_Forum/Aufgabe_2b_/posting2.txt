@@ -1,0 +1,9 @@
+ID: 184407
+CREATION_DATETIME: 1354449815
+MODIFICATION_DATETIME: 1354449815
+TITLE: Re: Aufgabe 2b)
+PARENT_POSTING_ID: 184265
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+deinen Ansatz finde ich gut. Ich habe es mir ähnlich überlegt, allerdings habe ich mir das mit Spaltenvektoren und dazugehörigem Skalar gedacht, die dann den Nullvektor ergeben sollen. Was letztendlich ja nichts anderes als deinen Ansatz ebenfalls entspricht. Warum habe ich das so gemacht? Naja, da wir im Skript bzw. Chat noch gar nicht bei den LGS sind, dachte ich mir, es soll/kann eventuell auch auf diesen Weg hinausführen. MIt einem LGS ist es natürlich wesentlich einfacher, die jeweiligen Koeffizieten/Skalare zu finden, klar! Aber durch probieren (unendlich viele Lösungen gibt es ja, wie du schon richtig aufgeführt hast) kann man mit dem bisher gelernten, so denke ich, auch auf die Lösung kommen. Oder was meinst du?Unter deiner Abbildung des Graphen schriebst du, dass wir bei (b) --&gt; a+f+h=0 haben, hier fehlt mir noch das "c". Oder? Du hast bestimmt daran gedacht, eventuell nur vergessen es zu notieren :)GrüßeLars
+TAGGED_CONTENT:

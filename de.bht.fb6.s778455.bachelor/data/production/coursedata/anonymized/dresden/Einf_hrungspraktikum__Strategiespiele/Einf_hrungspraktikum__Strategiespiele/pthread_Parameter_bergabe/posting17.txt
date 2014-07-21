@@ -1,0 +1,9 @@
+ID: 1316
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Detail am Rande: Was versprichst du dir davon, in der while-Schleife die Variable `z`auf sich selbst ...
+PARENT_POSTING_ID: 1312
+POSTING_TYPE: comment
+CONTENT:
+Detail am Rande: Was versprichst du dir davon, in der while-Schleife die Variable `z`auf sich selbst zu setzen? Sollte nicht ein `while(…) ;` ausreichen? Was du tust, nennt sich FYI [busy-waiting](http://en.wikipedia.org/wiki/Busy_waiting).
+TAGGED_CONTENT:

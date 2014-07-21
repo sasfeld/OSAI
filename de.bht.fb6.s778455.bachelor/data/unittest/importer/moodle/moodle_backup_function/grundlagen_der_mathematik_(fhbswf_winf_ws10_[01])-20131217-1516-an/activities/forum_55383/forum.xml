@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="11447" moduleid="55383" modulename="forum" contextid="78612">
+  <forum id="11447">
+    <type>general</type>
+    <name>Allgemeines Forum</name>
+    <intro>Hier können Sie übergeordnete und organisatorische Fragen diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>2</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1185448275</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="36355">
+        <name>Einsendeaufgaben in LON-CAPA</name>
+        <firstpost>97744</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1289772852</timemodified>
+        <usermodified>3701</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97744">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1283862285</created>
+            <modified>1286872722</modified>
+            <mailed>1</mailed>
+            <subject>Einsendeaufgaben in LON-CAPA</subject>
+            <message>https://vita.sonia.de/adm/login?domain=fhwf
+
+Bitte nutzen Sie beim fehlerhaften Login ansonsten diesen Server:
+https://vita.ostfalia.de/adm/roles
+
+Domaene: fhwf
+
+Erstsemester erhalten Ihren Ostfalia-Account am 9.10. Die Zugangsdaten werden leider nicht vorher per Post verschickt.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97745">
+            <parent>97744</parent>
+            <userid>3671</userid>
+            <created>1285347932</created>
+            <modified>1285347932</modified>
+            <mailed>1</mailed>
+            <subject>Re: Einsendeaufgaben in LON-CAPA</subject>
+            <message>Hallo Herr Jensen,&lt;br /&gt;&lt;br /&gt;ich habe versucht mich so eben mit der mir bekannten Kennung einzuloggen. Allerdings ging das nicht! :( &lt;br /&gt;Also ich habe es mit der Kennung, die mir für Moodle zu geschickt wurden, versucht. Eine andere Kennung liegt mir derzeit noch nicht vor. &lt;br /&gt;Kann es sein, dass wir die Kennungen erst bei der Einführungsveranstaltung, am 09. Oktober erhalten? &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Viele Grüße &lt;br /&gt;&lt;br /&gt;Michaela Zblewski&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97746">
+            <parent>97745</parent>
+            <userid>3681</userid>
+            <created>1285351459</created>
+            <modified>1285351459</modified>
+            <mailed>1</mailed>
+            <subject>Re: Einsendeaufgaben in LON-CAPA</subject>
+            <message>Guten Abend an alle,
+
+das stimmt, es funktioniert nicht, wie man das gerne hätte, jedoch gibt es eine Lösung zu diesem "Problem":  https://vita.ostfalia.de/adm/login?domain=fhwf 
+
+Hiermit sollte es funktionieren! 
+
+Einen schönen Abend noch und schönes Wochenende!
+
+Oliver Sujecki</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97747">
+            <parent>97745</parent>
+            <userid>3603</userid>
+            <created>1285351955</created>
+            <modified>1285351955</modified>
+            <mailed>1</mailed>
+            <subject>Re: Einsendeaufgaben in LON-CAPA</subject>
+            <message>&lt;p&gt;Der Account für LON-CAPA ist offensichtlich der vom Rechenzentrum der Hochschule zur Verfügug gestellte, nicht der von Oncampus für Moodle.&lt;/p&gt;
+&lt;p&gt;Im letzten Jahr gab es die Zugänge für Studienanfänger tatsächlich bei der Einführungsveranstaltung. Allgemeine Informationen zum Account gibt es unter &lt;a href="http://www.ostfalia.de/cms/de/rz/zugang/account"&gt;http://www.ostfalia.de/cms/de/rz/zugang/account&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Grüße,&lt;/p&gt;
+&lt;p&gt;Matthias LIppmann&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97748">
+            <parent>97747</parent>
+            <userid>3671</userid>
+            <created>1285358198</created>
+            <modified>1285358198</modified>
+            <mailed>1</mailed>
+            <subject>Re: Einsendeaufgaben in LON-CAPA</subject>
+            <message>Hallo und danke für die schnellen Antworten :)!&lt;br /&gt;&lt;br /&gt;Ich habe die Woche schon mit Frau Meier-Maletz telefoniert und da erwähnte sie diesen Account und meinte das wir die Login-Daten bei der Einführungsveranstaltung erhalten würden. &lt;br /&gt;&lt;br /&gt;Viele Grüße&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97749">
+            <parent>97744</parent>
+            <userid>3603</userid>
+            <created>1288458385</created>
+            <modified>1288458385</modified>
+            <mailed>1</mailed>
+            <subject>Re: Einsendeaufgaben in LON-CAPA</subject>
+            <message>&lt;p&gt;Hallo Herr Prof. Jensen,&lt;/p&gt;
+&lt;p&gt;wie sind eigentlich die genauen Konditionen für die Einsendeaufgaben?&lt;br /&gt;Wieviele Punkte sind für ein &amp;quot;bestanden&amp;quot; erforderlich?&lt;br /&gt;&lt;br /&gt;Und wie sind die Klausurbedingungen? Sind Notizen erlaubt? In welchem Umfang?&lt;/p&gt;
+&lt;p&gt;Freundliche Grüße&lt;/p&gt;
+&lt;p&gt;Matthias Lippmann&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97750">
+            <parent>97749</parent>
+            <userid>3661</userid>
+            <created>1288601590</created>
+            <modified>1288601590</modified>
+            <mailed>1</mailed>
+            <subject>Re: Einsendeaufgaben in LON-CAPA</subject>
+            <message>Die Konditionen lauten:
+
+1) ab 50% richtig ueber alle Aufgaben gilt als "bestanden"
+
+2) Die in der VFH ueblichen Klausurbedingungen werden mir noch vor der Klausur mitgeteilt, da die Klausur vorauss. zentral verfasst werden wird. Ich gehe davon aus, dass Sie folgendes nutzen duerfen:
+
+- Formelsammlung
+- nichtprogrammierbarer Taschenrechner
+- leere Blaetter und Schreibzeug (kein Bleistift fuer Abgaben)
+- zwei DIN-A4-Blaetter Notizen (d.h. 4 Seiten)</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97751">
+            <parent>97744</parent>
+            <userid>3747</userid>
+            <created>1288722531</created>
+            <modified>1288722531</modified>
+            <mailed>1</mailed>
+            <subject>Re: Einsendeaufgaben in LON-CAPA</subject>
+            <message>Kurze Frage in den Raum...&lt;br /&gt;&lt;br /&gt;Wie weit müssten wir, laut bisheriger Chats, im LON-CAPA Aufgaben lösen können bzw. an welcher Stelle sind wir in etwa? Möchte gern ein Zwischenstand haben/wissen... muss auch gleich dazu sagen, das mir der Stoff bisher extrem schwer fällt.&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97752">
+            <parent>97751</parent>
+            <userid>3661</userid>
+            <created>1288800624</created>
+            <modified>1288800624</modified>
+            <mailed>1</mailed>
+            <subject>Re: Einsendeaufgaben in LON-CAPA</subject>
+            <message>Wir sind etwa in Kapitel 1 in LON-CAPA. Im Skript ist das LO02 Seite 21. Evtl. muessen wir fuer die Kapitel 2 und 4 die Termine nach hinten verschieben, wenn wir mehr Zeit brauchen.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97753">
+            <parent>97751</parent>
+            <userid>3701</userid>
+            <created>1289772852</created>
+            <modified>1289772852</modified>
+            <mailed>1</mailed>
+            <subject>Re: Einsendeaufgaben in LON-CAPA</subject>
+            <message>Wenn ich das eben in LonCapa richtig gesehen habe, wurde der Teil 2 (in LonCapa die 1 - Aussagenlogik und Boole'sche Algebra) auf den 02.12. verschoben.&lt;br /&gt;&lt;br /&gt;VG&lt;br /&gt;Daniel&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36356">
+        <name>Web conferencing</name>
+        <firstpost>97754</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1285933210</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97754">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1285329237</created>
+            <modified>1285329237</modified>
+            <mailed>1</mailed>
+            <subject>Web conferencing</subject>
+            <message>Liebe Studierende:
+
+Bitte beachten Sie die Hinweise zum Web conferencing, dessen Zugang links unten in Moodle angeklickt wird. Hilfe erhalten Sie vom technischen Support der virtuellen Fachhochschule.
+
+Sie brauchen ein Headset und idealerweise eine Webcam (optional) um mit Ihrem Tutor zu den Video-Chat-Zeiten zufriedenstellend kommunizieren zu koennen.
+
+Gruss Prof. Nils Jensen
+
+
+</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97755">
+            <parent>97754</parent>
+            <userid>2635</userid>
+            <created>1285753183</created>
+            <modified>1285753183</modified>
+            <mailed>1</mailed>
+            <subject>Re: Web conferencing</subject>
+            <message>Hallo Herr Jensen,&lt;br /&gt;&lt;br /&gt;die für das Web conferencing festgesetzten Termine immer Mittwochs von 20:00 bis 21:00 Uhr überschneiden sich bei mir. Gibt es bei Ihnen einen Spielraum?&lt;br /&gt;Mein Vorschlag wäre Donnerstags von 20:00 bis 21:00.&lt;br /&gt;&lt;br /&gt;vg, tl&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97756">
+            <parent>97755</parent>
+            <userid>3691</userid>
+            <created>1285783618</created>
+            <modified>1285783618</modified>
+            <mailed>1</mailed>
+            <subject>Re: Web conferencing</subject>
+            <message>Hallo,
+
+ich habe von einer Terminabsprache erst mit diesem Beitrag erfahren. Gilt diese Terminabsprache nun auch für mich?
+
+Gruß
+Michael Haaf</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97757">
+            <parent>97755</parent>
+            <userid>3661</userid>
+            <created>1285925916</created>
+            <modified>1285925933</modified>
+            <mailed>1</mailed>
+            <subject>Re: Web conferencing</subject>
+            <message>Hallo,
+
+wenn sich bei Ihnen zwei Kurse desselben Semesters ueberschneiden bitte ich Sie, sich an den VFH-Service zu wenden. Dann muessten wir etwas reparieren.
+
+Ueberschneidungen zwischen Kursen verschiedener Semester sind kein Fehler. Bitte haben Sie Verstaendnis, dass wir in solchen Faellen keine ueberschneidungsfreien Vorlesungen anbieten. Allerdings bieten wir Aufzeichnungen der Chats an, was Ihr Problem loesen kann.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97758">
+            <parent>97756</parent>
+            <userid>3661</userid>
+            <created>1285926026</created>
+            <modified>1285926026</modified>
+            <mailed>1</mailed>
+            <subject>Re: Web conferencing</subject>
+            <message>Online-Chats sind freiwillig. Ueblicherweise klaeren wir inhaltliche Fragen im Skript oder ich versuche, bestimmte Teile deutlicher zu machen.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97759">
+            <parent>97758</parent>
+            <userid>3671</userid>
+            <created>1285929138</created>
+            <modified>1285929138</modified>
+            <mailed>1</mailed>
+            <subject>Re: Web conferencing</subject>
+            <message>Hallo Herr Jensen,&lt;br /&gt;&lt;br /&gt;sind die Chats denn schon am laufen oder fangen diese erst nach der Präsenz am 9.10. an? Im Kursplan steht das unter dem Präsenztermin und ich bin nun etwas verwirrt? Wäre schade wenn ich schon Chats verpasst hätte.&lt;br /&gt;&lt;br /&gt;Viele Grüße&lt;br /&gt;&lt;br /&gt;Michaela Zblewski&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97760">
+            <parent>97759</parent>
+            <userid>3661</userid>
+            <created>1285933172</created>
+            <modified>1285933210</modified>
+            <mailed>1</mailed>
+            <subject>Re: Web conferencing</subject>
+            <message>Der erste Chat kommende Woche dient dazu, die Technik kennenzulernen (Mikrofontest, Aufzeichnung, dringende Fragen). Inhaltlich geht's nach der Einfuehrung in den Praesenzen und Chats los.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36357">
+        <name>Vorleistungen aus alten Semestern</name>
+        <firstpost>97761</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1285616524</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97761">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1285339451</created>
+            <modified>1285616524</modified>
+            <mailed>1</mailed>
+            <subject>Vorleistungen aus alten Semestern</subject>
+            <message>Liebe Studierende,
+
+[DELETED]
+mich erreichen oft Anfragen, ob ich alte Vorleistungen im selben Fach anrechne. Leider kann dies im Rahmen der von mir betreuten Fächer nicht angeboten werden.
+
+- Die Module werden überarbeitet, Vorleistungen werden dadurch lückenhaft.
+- Vorleistungen werden nicht zentral gespeichert. Es gibt keine Möglichkeit, Vorleistungen und Bewertungskriterien zwischen Mentoren standardisiert auszutauschen.
+
+Bitte erneuern Sie daher Ihre Vorleistungen und informieren Sie bei Wiederholungen stets zu Semesteranfang Ihre Mentoren.
+[/DELETED]
+
+Gruss Prof. Nils Jensen
+</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97762">
+            <parent>97761</parent>
+            <userid>3641</userid>
+            <created>1285406750</created>
+            <modified>1285406750</modified>
+            <mailed>1</mailed>
+            <subject>Re: Vorleistungen aus alten Semestern</subject>
+            <message>Hallo,&lt;br /&gt;&lt;br /&gt;das heißt, wen ich im letzten Wintersemester &amp;quot;Grundlagen Mathematik&amp;quot; belegt habe, die Vorlesung als bestanden im Prüfungssystem steht, muss ich trotzdem alle Aufgaben nochmals erledigen?&lt;br /&gt;&lt;br /&gt;Grüße&lt;br /&gt;Christian Häusler&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97763">
+            <parent>97762</parent>
+            <userid>3603</userid>
+            <created>1285419835</created>
+            <modified>1285419835</modified>
+            <mailed>1</mailed>
+            <subject>Re: Vorleistungen aus alten Semestern</subject>
+            <message>&lt;p&gt;Alte Juristenweisheit: &amp;quot;Ein Blick ins Gesetz erleichtert die Rechtsfindung.&amp;quot;&lt;/p&gt;
+&lt;p&gt;Prüfungsordnung für den Online-Studiengang „Wirtschaftsinformatik“ des Fachbereiches Informatik an der Fachhochschule Braunschweig/Wolfenbüttel:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://moodle.oncampus.de/file.php/1348/29-2009_BPO_WINF.pdf"&gt;http://moodle.oncampus.de/file.php/1348/29-2009_BPO_WINF.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;§ 13 Satz 5:&lt;br /&gt;&amp;quot;Prüfungsvorleistungen (auch mehrteilige Prüfungsvorleistungen) sind innerhalb jeweils eines Studienhalbjahres zu erbringen. &lt;strong&gt;&lt;u&gt;Die Wiederholung bereits bestandener Prüfungsvorleistungen ist nicht erforderlich.&lt;/u&gt;&lt;/strong&gt; Prüfungsvorleistungen sind unbegrenzt oft wiederholbar.&amp;quot;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Grüße,&lt;/p&gt;
+&lt;p&gt;Matthias Lippmann&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97764">
+            <parent>97763</parent>
+            <userid>3661</userid>
+            <created>1285576401</created>
+            <modified>1285576401</modified>
+            <mailed>1</mailed>
+            <subject>Re: Vorleistungen aus alten Semestern</subject>
+            <message>Danke fuer den Hinweis! 
+
+Die Definition der Pruefungsvorleistung (PV) ist nicht frei von Interpretations-Spielraum. Der von Ihnen zitierte Beitrag besagt mindestens, dass *genau dieselbe* PV nicht wiederholt werden muss. Es heisst in der PO (S. 9):
+
+"Die Prüfungsvorleistungen sind zu Beginn des Studienhalbjahrs von den Prüfungsberechtig- ten bekanntzugeben. Die Prüfungsvorleistun- gen sind erbracht, wenn die zugehörigen Lerneinheiten und Aufgaben mindestens mit ausreichendem Ergebnis bearbeitet worden sind."
+
+Ist die PV an ein Modul und einen Inhalt geknuepft oder nur an ein Modul? Das ist ein Unterschied, wie wir jetzt sehen.
+
+Allerdings habe ich nochmal beim VFH-Service rueckgefragt und der bestaetigt Ihre Sichtweise. 
+
+Ich aendere den Hinweis, danke!
+
+Gruss Nils Jensen 
+</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36358">
+        <name>Literatur</name>
+        <firstpost>97765</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1286380944</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97765">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1286380944</created>
+            <modified>1286380944</modified>
+            <mailed>1</mailed>
+            <subject>Literatur</subject>
+            <message>H.-J. Bartsch: "Mathematische Formeln". Buch und Zeit Verlagsgesellschaft.
+
+Böhme: "Algebra". Springer.
+
+Jänich: "Lineare Algebra". Springer.
+
+Papula: „Mathematik für Ingenieure und Naturwissenschaftler, Bd. 1“, Vieweg Winter: „Grundlagen der formalen Logik“, Verlag Harri Deutsch
+
+Stöcker, H. (Hrsg.): "Analysis für Ingenieurstudenten" (2 Bde.), Verlag Harri Deutsch
+
+Stöcker, H. (Hrsg.): "Lineare Algebra, Optimierung, Wahrscheinlichkeits- rechnung und Statistik" , Verlag Harri Deutsch
+
+
+</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36359">
+        <name>Technischer Hinweis zu Videoaufzeichnungen</name>
+        <firstpost>97766</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1286391800</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97766">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1286391800</created>
+            <modified>1286391800</modified>
+            <mailed>1</mailed>
+            <subject>Technischer Hinweis zu Videoaufzeichnungen</subject>
+            <message>Bitte schalten Sie Ihr Mikro in Sprachpausen aus damit Echo-Effekte vermieden werden.
+
+Danke fuer Ihre Mithilfe, Nils Jensen </message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36360">
+        <name>Zugang LON-CAPA</name>
+        <firstpost>97767</firstpost>
+        <userid>3687</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1286789710</timemodified>
+        <usermodified>3687</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97767">
+            <parent>0</parent>
+            <userid>3687</userid>
+            <created>1286729946</created>
+            <modified>1286729946</modified>
+            <mailed>1</mailed>
+            <subject>Zugang LON-CAPA</subject>
+            <message>Moin,&lt;br /&gt;&lt;br /&gt;beim Versuch mich in das LON-CAPA System einzuloggen, bekomme ich folgende Fehlermeldung, nachdem ich mich erfolgreich einloggen konnte und meinen Account dort erstellen wollte...&lt;br /&gt;&lt;br /&gt;
+&lt;h3&gt;Account-Erstellung nicht möglich&lt;/h3&gt;&lt;span class="LC_warning"&gt;Creation of a new user account using an e-mail address or an institutional log-in ID as username is not permitted at this institution (Lower Saxony Universities).&lt;br /&gt;&lt;br /&gt;Weiß jemand woran das liegen kann oder hat das selbe Problem?! Als Anmeldedomäne habe ich &amp;quot;fhwf&amp;quot; angegeben.&lt;br /&gt;&lt;br /&gt;Gruß&lt;br /&gt;&lt;/span&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97768">
+            <parent>97767</parent>
+            <userid>3747</userid>
+            <created>1286736085</created>
+            <modified>1286736085</modified>
+            <mailed>1</mailed>
+            <subject>Re: Zugang LON-CAPA</subject>
+            <message>Selbiges Problem... :-( </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97769">
+            <parent>97768</parent>
+            <userid>3713</userid>
+            <created>1286777472</created>
+            <modified>1286778261</modified>
+            <mailed>1</mailed>
+            <subject>Re: Zugang LON-CAPA</subject>
+            <message> Das Problem hatte ich auch.&lt;br /&gt;&lt;br /&gt;Über diesen Link, der sich im PWA fand, ging dann zumindest die Account erstellung: https://vita.ostfalia.de/&lt;br /&gt;&lt;br /&gt;Prof. Jensen hatte ja schon angekündigt, dass der die Kursinhalte noch freischalten wird.&lt;br /&gt;&lt;br /&gt;Tim&lt;br /&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97770">
+            <parent>97769</parent>
+            <userid>3687</userid>
+            <created>1286789710</created>
+            <modified>1286789710</modified>
+            <mailed>1</mailed>
+            <subject>Re: Zugang LON-CAPA</subject>
+            <message>Gut wenn ich über den PWA der Ostfalia Seite auf das LON-CAPA gehe, dann funktioniert es.&lt;br /&gt;Jetzt müssen nur noch die Inhalte freigeschaltet werden ...Danke ;-)&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36361">
+        <name>Einsendeaufgaben</name>
+        <firstpost>97771</firstpost>
+        <userid>3603</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1287219992</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97771">
+            <parent>0</parent>
+            <userid>3603</userid>
+            <created>1287132064</created>
+            <modified>1287132064</modified>
+            <mailed>1</mailed>
+            <subject>Einsendeaufgaben</subject>
+            <message>&lt;p&gt;Hallo Herr Prof. Jensen,&lt;/p&gt;
+&lt;p&gt;ich konnte an der Präsenz am letzen Samstag leider nicht teilnehmen. Daher meine Frage zu den Einsendeaufgaben:&lt;/p&gt;
+&lt;p&gt;Verstehe ich es richtig, dass es sich bei den Aufgaben in LON CAPA um die Einsendeaufgaben handelt? Im letzten Jahr waren die Aufgaben in LON CAPA freiwillige Übungen und die Einsendeaufgaben wurden unabhängig davon veröffentlicht.&lt;/p&gt;
+&lt;p&gt;Freundliche Grüße,&lt;/p&gt;
+&lt;p&gt;Mathias Lippmann &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97772">
+            <parent>97771</parent>
+            <userid>3661</userid>
+            <created>1287219992</created>
+            <modified>1287219992</modified>
+            <mailed>1</mailed>
+            <subject>Re: Einsendeaufgaben</subject>
+            <message>Wenn Sie die Pruefungsvorleistung erworben haben bleibt sie bestehen. Sie muss nicht wiederholt werden. Wenn Sie sie nicht haben sind es diesmal die LON-CAPA-Aufgaben die die Einsendung darstellen und somit Pflicht sind.
+
+Besten Gruss Jensen</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36362">
+        <name>OT: Job-Boerse</name>
+        <firstpost>97773</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1287567295</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97773">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1287567295</created>
+            <modified>1287567295</modified>
+            <mailed>1</mailed>
+            <subject>OT: Job-Boerse</subject>
+            <message>meet@ostfalia-campus-wolfsburg am 03. November 2010
+
+Liebes Kollegium,
+
+die hochschuleigene Firmenkontaktmesse meet@ostfalia-campus-wolfsburg hat sich am Studienort Wolfsburg fest etabliert und bietet engagierten Studierenden und Absolventen die Möglichkeit, regionale sowie überregionale Unternehmen kennen zu lernen.
+
+Von 10 bis 16 Uhr präsentieren sich am Campus Wolfsburg, direkt im Messezelt auf dem Robert-Koch-Platz, rund 20 Aussteller an ihren Messeständen und stehen für alle Fragen rund um die Karriere zur Verfügung. In persönlichen Gesprächen mit Fach- und Personalverantwortlichen können sich Interessierte direkt um Praktika, Abschlussarbeiten oder Festanstellungen bewerben.
+
+Online-Bewerbungs-Service:
+Zusätzlich steht ein Online-Bewerbungsservice zur Veranstaltung bereit. Der
+Vorteil: Bewerberinnen und Bewerber erhalten auf ein abgegebenes Bewerberprofil von allen den Bewerberpool nutzenden Unternehmen Feedback bzgl. deren Gesprächsinteresse am Veranstaltungstag. 
+
+Kick-Off-Event:
+Zur optimalen Vorbereitung des Besuchs der meet@ostfalia-campus-wolfsburg wird Interessierten zudem am 27. Oktober 2010 in der Zeit von 10 - 14 Uhr in Raum A-126, Kleiststraße 14-16 ein kostenfreies Bewerbungstraining angeboten. Hier werden wertvolle Tipps zum Thema "Richtig Kontakten auf Berufsmessen" erörtert und zur Klärung offener Fragen beigetragen.
+
+Detaillierte Informationen zur Veranstaltung, dem Bewerbungstraining und zu den Online-Services unter:
+
+www.ostfalia.de/meet
+
+Wir freuen uns, wenn Sie diese Informationen interessierten Studierenden und Absolventen/innen zugänglich machen würden bzw. Sie im Rahmen Ihrer Möglichkeiten eine kurze Messe-Exkursion mit Ihren Studierenden durchführen.
+
+Wir freuen uns auf Ihr Kommen.
+
+Freundliche Grüße sendet
+
+Sabine König
+
+
+________________________________________
+Dipl.-Kffr. (FH) Sabine König
+Career Service
+Ostfalia Hochschule für angewandte Wissenschaften
+- Hochschule Braunschweig/Wolfenbüttel - 
+Fakultät Fahrzeugtechnik 
+Kleiststr. 33 
+38440 Wolfsburg
+Tel.: (0 53 61) 8922-21020
+Fax.: (0 53 61) 8922-21022
+E-Mail: sa.koenig@ostfalia.de
+URL: http://www.ostfalia.de/cms/de/f/Career_Service/
+</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36363">
+        <name>Immer noch Probleme mit Maple</name>
+        <firstpost>97774</firstpost>
+        <userid>3701</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1287691221</timemodified>
+        <usermodified>3701</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97774">
+            <parent>0</parent>
+            <userid>3701</userid>
+            <created>1287602165</created>
+            <modified>1287602235</modified>
+            <mailed>1</mailed>
+            <subject>Immer noch Probleme mit Maple</subject>
+            <message> Hallo zusammen,&lt;br /&gt;&lt;br /&gt;ich habe die interaktiven Sachen (Maple) immer noch nicht zum laufen bekommen.&lt;br /&gt;&lt;br /&gt;Habe es mit Firefox 3.6.10, IE 8 und Opera 10.63 versucht. Anbei ein Screenshot wie es bei mir aussieht (auch wenn ich auf den Maple Link klicke).&lt;br /&gt;&lt;br /&gt;Hat irgendwer das selbe Problem oder eine Lösung.&lt;br /&gt;&lt;br /&gt;Ich weiß nicht mehr weiter :(&lt;br /&gt;&lt;br /&gt;Die interaktiven Sachen wo Applet dran steht funktionieren super.&lt;br /&gt;&lt;br /&gt;VG&lt;br /&gt;Daniel&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97775">
+            <parent>97774</parent>
+            <userid>3603</userid>
+            <created>1287637645</created>
+            <modified>1287637645</modified>
+            <mailed>1</mailed>
+            <subject>Re: Immer noch Probleme mit Maple</subject>
+            <message>Welches Verhalten hättest Du denn erwartet hinter dem Maple-Link? In der Kursbeschreibung steht folgendes:
+&lt;p&gt;&lt;em&gt;&amp;quot;[..] enthalten alle Lerneinheiten (über &amp;quot;Maple&amp;quot;-Buttons erreichbare) Verweise auf Seiten, die mittels der Computeralgebra-Software &lt;b&gt;&amp;quot;Maple&amp;quot;&lt;/b&gt; erzeugt wurden und der Vertiefung und Ergänzung des Lernstoffs dienen. Die Maple-Beiträge der Teile II und III sind allerdings in Englisch gehalten. Wer im Besitz der Maple-Software ist, kann mit den zugrunde liegenden Maple-Worksheets auch interaktiv arbeiten.&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Ich würde das so verstehen, dass es sich um statische HTML-Seiten handelt, die in Maple erzeugt wurden. Insofern ist die Bezeichnung &amp;quot;Interaktion&amp;quot; hier vielleicht etwas irreführend. Fraglich bleibt für mich allerdings, wo die o.g. Worksheets zu finden sind. Vielleicht ist damit auch nur gemeint, dass man die roten Maple-Befehle per Copy&amp;amp;Paste in Maple übernehmen kann?&lt;/p&gt;
+&lt;p&gt;Grüße,&lt;/p&gt;
+&lt;p&gt;Matthias Lippmann&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97776">
+            <parent>97775</parent>
+            <userid>3661</userid>
+            <created>1287678921</created>
+            <modified>1287678921</modified>
+            <mailed>1</mailed>
+            <subject>Re: Immer noch Probleme mit Maple</subject>
+            <message>Richtig erkannt Hr. Lippmann. Wer interaktiv im Web probieren moechte beachte bitte den Link nach http://www.wolframalpha.com/.
+
+Mit Maple koennen Sie nur etwas machen wenn Sie es bei sich lokal installieren.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97777">
+            <parent>97776</parent>
+            <userid>3701</userid>
+            <created>1287691206</created>
+            <modified>1287691221</modified>
+            <mailed>1</mailed>
+            <subject>Re: Immer noch Probleme mit Maple</subject>
+            <message> Ahhh... ok. Dann ist ja alles gut bei meinem System. Dann ist &amp;quot;Klick-Interaktion&amp;quot; wirklich etwas verwirrend.&lt;br /&gt;&lt;br /&gt;Danke für die Antworten.&lt;br /&gt;&lt;br /&gt;VG&lt;br /&gt;Daniel&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36364">
+        <name>Formelsammlung zur Klausur</name>
+        <firstpost>97778</firstpost>
+        <userid>3603</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1292516067</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97778">
+            <parent>0</parent>
+            <userid>3603</userid>
+            <created>1292432171</created>
+            <modified>1292432171</modified>
+            <mailed>1</mailed>
+            <subject>Formelsammlung zur Klausur</subject>
+            <message>&lt;p&gt;Hallo Herr Prof. Jensen,&lt;/p&gt;
+&lt;p&gt;Sie hatten in der Präsenzveranstaltung am Samstag gesagt, dass eine Formelsammlung zur Klausur erlaubt ist. Welche Kriterien muss denn eine erlaubte Formelsammlung erfüllen?&lt;br /&gt;Ist diese hier z.B. zulässig: &lt;a href="http://www.amazon.de/Mathematik-Formeln-Merks%C3%A4tze-Manfred-Hoffmann/dp/3817477228"&gt;http://www.amazon.de/Mathematik-Formeln-Merks%C3%A4tze-Manfred-Hoffmann/dp/3817477228&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Freundliche Grüße&lt;/p&gt;
+&lt;p&gt;Matthias Lippmann&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97779">
+            <parent>97778</parent>
+            <userid>3701</userid>
+            <created>1292434511</created>
+            <modified>1292434511</modified>
+            <mailed>1</mailed>
+            <subject>Re: Formelsammlung zur Klausur</subject>
+            <message>Ich würde gleich eine weiter gehende Sammlung vorziehen. Statistik kommt ja nun auch noch auf uns zu...&lt;a href="http://www.amazon.de/Formelsammlung-f%C3%BCr-Wirtschaftswissenschaftler-Mathematik-Statistik/dp/3827371600/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1292434327&amp;sr=1-1" target="_blank" title="Formelsammlung Amazon"&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href="http://www.amazon.de/Formelsammlung-f%C3%BCr-Wirtschaftswissenschaftler-Mathematik-Statistik/dp/3827371600/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1292434327&amp;sr=1-1" target="_blank" title="Formelsammlung"&gt;Formelsammlung bei Amazon&lt;/a&gt;&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97780">
+            <parent>97778</parent>
+            <userid>3661</userid>
+            <created>1292516067</created>
+            <modified>1292516067</modified>
+            <mailed>1</mailed>
+            <subject>Re: Formelsammlung zur Klausur</subject>
+            <message>Ja, weitere Empfehlungen sind: Bartsch, Bronstein, Stoecker.
+
+Nicht gehen wuerden komplette Lehrbuecher, diese muessten Sie waehrend der Klausur wegpacken. Mit den o.g. drei Buechern und Ihrer Empfehlung duerften Sie aber garantiert arbeiten.
+
+
+
+</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36365">
+        <name>Taschenrechner</name>
+        <firstpost>97781</firstpost>
+        <userid>3701</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1292515626</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97781">
+            <parent>0</parent>
+            <userid>3701</userid>
+            <created>1292502946</created>
+            <modified>1292502946</modified>
+            <mailed>1</mailed>
+            <subject>Taschenrechner</subject>
+            <message>Muss mal ganz genau nachfragen. An Taschenrechnern ist alles erlaubt, solange sie nicht programmierbar sind?&lt;br /&gt;&lt;br /&gt;Ich habe diesen hier ins Auge gefasst:&lt;br /&gt;&lt;a href="http://www.amazon.de/FX-991-ES-PLUS-Taschenrechner/dp/B003IDAW8Q/ref=sr_1_4?ie=UTF8&amp;qid=1292501978&amp;sr=8-4" title="FX991 ES Plus"&gt;CASIO FX 991 ES PLUS Taschenrechner - Neues Modell / 2010&lt;/a&gt;&lt;br /&gt;&lt;span class="nolink"&gt; &lt;br /&gt;VG Daniel&lt;/span&gt;&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97782">
+            <parent>97781</parent>
+            <userid>3661</userid>
+            <created>1292515626</created>
+            <modified>1292515626</modified>
+            <mailed>1</mailed>
+            <subject>Re: Taschenrechner</subject>
+            <message>Ja, der geht gerade noch. Ist in Schulen erlaubt.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36366">
+        <name>Klausur - Erlaubte Hilfsmittel</name>
+        <firstpost>97783</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1297328483</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97783">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1294130887</created>
+            <modified>1294130887</modified>
+            <mailed>1</mailed>
+            <subject>Klausur - Erlaubte Hilfsmittel</subject>
+            <message>2 Blaetter (4 Seiten) eigene Notizen, Schreibzeug, nichtprogrammierbarer Taschenrechner, Formelsammlung</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97784">
+            <parent>97783</parent>
+            <userid>3719</userid>
+            <created>1297012905</created>
+            <modified>1297012905</modified>
+            <mailed>1</mailed>
+            <subject>Re: Klausur - Erlaubte Hilfsmittel</subject>
+            <message>Hallo Herr Jensen,&lt;br /&gt;gibt es eine Musterklausur? &lt;br /&gt;Damit wir ungefähr wissen was auf uns zu kommt?&lt;br /&gt;Gerade Vektoralgebra fällt mir noch relativ schwer und leider ist das Skript da nicht soo hilfreich.&lt;br /&gt;Viele Grüße,&lt;br /&gt;Alexander Grote&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97785">
+            <parent>97784</parent>
+            <userid>3661</userid>
+            <created>1297110261</created>
+            <modified>1297110261</modified>
+            <mailed>1</mailed>
+            <subject>Re: Klausur - Erlaubte Hilfsmittel</subject>
+            <message>Bei der Probeklausur orientiere ich mich an Kollege Schiffer. Erlaubte Hilfsmittel sind wie gesagt mehr.
+
+
+
+</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97786">
+            <parent>97785</parent>
+            <userid>2563</userid>
+            <created>1297242506</created>
+            <modified>1297242506</modified>
+            <mailed>1</mailed>
+            <subject>Re: Klausur - Erlaubte Hilfsmittel</subject>
+            <message>Müssen die beiden Blätter eigene Notizen von Hand geschrieben sein, oder dürfen diese auch maschinell beschrieben sein?&lt;br /&gt;&lt;br /&gt;Grüße&lt;br /&gt;Horst Ruck&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97787">
+            <parent>97785</parent>
+            <userid>3727</userid>
+            <created>1297264667</created>
+            <modified>1297264667</modified>
+            <mailed>1</mailed>
+            <subject>Re: Klausur - Erlaubte Hilfsmittel</subject>
+            <message>&lt;p&gt;Hallo Herr Jensen,&lt;/p&gt;
+&lt;p&gt;gibt es gegebenfalls eine Lösung zu der Musterklausur. Ich würde gern meine Lösungen überprüfen!&lt;/p&gt;
+&lt;p&gt;Danke&lt;/p&gt;
+&lt;p&gt;Thomas Grundt&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97788">
+            <parent>97787</parent>
+            <userid>3661</userid>
+            <created>1297328483</created>
+            <modified>1297328483</modified>
+            <mailed>1</mailed>
+            <subject>Re: Klausur - Erlaubte Hilfsmittel</subject>
+            <message>Nein, Sie duerfen Sie aber mit anderen diskutieren oder mich einen Blick darauf werfen lassen.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="101072">
+        <userid>3703</userid>
+      </subscription>
+      <subscription id="101073">
+        <userid>2617</userid>
+      </subscription>
+      <subscription id="101074">
+        <userid>3697</userid>
+      </subscription>
+      <subscription id="101075">
+        <userid>3625</userid>
+      </subscription>
+      <subscription id="101076">
+        <userid>3603</userid>
+      </subscription>
+      <subscription id="101077">
+        <userid>3673</userid>
+      </subscription>
+      <subscription id="101078">
+        <userid>3705</userid>
+      </subscription>
+      <subscription id="101079">
+        <userid>3701</userid>
+      </subscription>
+      <subscription id="101080">
+        <userid>3691</userid>
+      </subscription>
+      <subscription id="101081">
+        <userid>3707</userid>
+      </subscription>
+      <subscription id="101082">
+        <userid>3633</userid>
+      </subscription>
+      <subscription id="101083">
+        <userid>3617</userid>
+      </subscription>
+      <subscription id="101084">
+        <userid>2635</userid>
+      </subscription>
+      <subscription id="101085">
+        <userid>3653</userid>
+      </subscription>
+      <subscription id="101086">
+        <userid>3641</userid>
+      </subscription>
+      <subscription id="101087">
+        <userid>3671</userid>
+      </subscription>
+      <subscription id="101088">
+        <userid>3681</userid>
+      </subscription>
+      <subscription id="101089">
+        <userid>3713</userid>
+      </subscription>
+      <subscription id="101090">
+        <userid>3721</userid>
+      </subscription>
+      <subscription id="101091">
+        <userid>3693</userid>
+      </subscription>
+      <subscription id="101092">
+        <userid>3649</userid>
+      </subscription>
+      <subscription id="101093">
+        <userid>3613</userid>
+      </subscription>
+      <subscription id="101094">
+        <userid>3661</userid>
+      </subscription>
+      <subscription id="101095">
+        <userid>3639</userid>
+      </subscription>
+      <subscription id="101096">
+        <userid>3727</userid>
+      </subscription>
+      <subscription id="101097">
+        <userid>3689</userid>
+      </subscription>
+      <subscription id="101098">
+        <userid>3687</userid>
+      </subscription>
+      <subscription id="101099">
+        <userid>3679</userid>
+      </subscription>
+      <subscription id="101100">
+        <userid>3643</userid>
+      </subscription>
+      <subscription id="101101">
+        <userid>3659</userid>
+      </subscription>
+      <subscription id="101102">
+        <userid>3695</userid>
+      </subscription>
+      <subscription id="101103">
+        <userid>3683</userid>
+      </subscription>
+      <subscription id="101104">
+        <userid>2563</userid>
+      </subscription>
+      <subscription id="101105">
+        <userid>3723</userid>
+      </subscription>
+      <subscription id="101106">
+        <userid>3725</userid>
+      </subscription>
+      <subscription id="101107">
+        <userid>3669</userid>
+      </subscription>
+      <subscription id="101108">
+        <userid>3677</userid>
+      </subscription>
+      <subscription id="101109">
+        <userid>3717</userid>
+      </subscription>
+      <subscription id="101110">
+        <userid>3719</userid>
+      </subscription>
+      <subscription id="101111">
+        <userid>3709</userid>
+      </subscription>
+      <subscription id="101112">
+        <userid>3675</userid>
+      </subscription>
+      <subscription id="101113">
+        <userid>3711</userid>
+      </subscription>
+      <subscription id="101114">
+        <userid>3657</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

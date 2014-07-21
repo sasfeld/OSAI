@@ -1,0 +1,12 @@
+ID: 117495
+CREATION_DATETIME: 1314782776
+MODIFICATION_DATETIME: 1314803037
+TITLE: Herzlich willkommen zum Fach "Grundlagen der Mathematik
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Studierende,
+ich begruesse Sie zu diesem Kurs. Hier werden Sie die mathematischen Grundlagen lernen, die man braucht, um z. B. zu programmieren oder in ingenieurswissenschaftlichen Anwendungsfeldern taetig zu sein. Im ersten Online-Chat (s. Kursplan) werde ich Ihnen einen vertiefenden Ueberblick ueber die Themen (lineare Algebra) und die Organisation geben. Ich hoffe, Sie dann zahlreich begruessen zu duerfen. Die Erfahrung aus den letzten Semestern zeigt, dass die regelmaessige Teilnahme an den Online-Chats Ihnen hilft, dieses Fach erfolgreich abzuschliessen.
+Bei Fragen und Anmerkungen bin ich fuer Sie gerne erreichbar.
+Mit besten Gruessen
+Prof. <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

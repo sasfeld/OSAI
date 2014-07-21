@@ -1,0 +1,12 @@
+ID: 1603
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Wie wird denn possiblemoves deklariert und was gibt evaluateMove zurück?
+LANGUAGE: GERMAN
+POS_TAG: value:evaluateMove;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1602
+POSTING_TYPE: comment
+CONTENT:
+Wie wird denn possiblemoves deklariert und was gibt evaluateMove zurück?
+TAGGED_CONTENT:
+Wie_PWAV wird_VAFIN denn_ADV possiblemoves_ADJA deklariert_VVPP und_KON was_PWS gibt_VVFIN evaluateMove_NN zurück_PTKVZ ?_$. 

@@ -1,0 +1,25 @@
+ID: 65
+CREATION_DATETIME: 1401299979318
+MODIFICATION_DATETIME: 1401299979318
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 64
+CONTENT:
+ 
+Liebe Studierende,
+
+in der Klasse Telefonliste soll das Attribut ArrayList<TelefonEintrag > phoneRegister kein Klasseattribut sein, also kein static. Es ist sinnvoll mit dieser Klasse mehrere Telefonliste-Objekte erzeugen zu wollen (die Tkom Telefonliste, die Vodaphone Telefonliste usw.). Entsprechen sind die Methoden in dieser Klasse Objekt-Methoden ohne static.
+
+Haben Sie in der Klasse TelefonEintrag eine toString Methode?
+
+Wenn ja, wird die Anweisung:
+
+System.out.println(phoneRegister);
+
+innerhalb der Klasse Telefonliste die Einträge korrekt zeigen. Für jeden Eintrag wird die toString Methode der Klasse TelefonEintrag aufgerufen. Wenn nicht wird für jeden Eintrag die toString Methode der Klasse Object aufgerufen. Dann werden die Referenzen der Einträge ausgegeben und so kommen diese « @addbf1 ».
+
+Hilft es diese Erklärung weiter?
+
+Mit freundlichen Gruessen,
+	
+TAGGED_CONTENT:

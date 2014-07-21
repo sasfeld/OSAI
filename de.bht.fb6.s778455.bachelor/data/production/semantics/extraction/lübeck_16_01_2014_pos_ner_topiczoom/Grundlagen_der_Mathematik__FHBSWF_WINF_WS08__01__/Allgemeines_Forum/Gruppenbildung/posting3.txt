@@ -1,0 +1,18 @@
+ID: 16589
+CREATION_DATETIME: 1225298860
+MODIFICATION_DATETIME: 1225298860
+TITLE: Re: Gruppenbildung
+NER_TAG: value:ESA;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:ESA;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Platz;weight:0.0;uri:;postag:NN
+POS_TAG: value:ESA;weight:0.0;uri:;postag:NN
+POS_TAG: value:REMOVEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 16587
+CONTENT:
+Moin,
+wir haben noch Platz. Wie ist <REMOVED_PERSON_ENTITY>? Hast Du Dir schon die ESA angeschaut?
+Gruß<PERSONAL_GREETING_REMOVEMENT>
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Moin_NE ,_$, wir_PPER haben_VAFIN noch_ADV Platz_NN ._$. Wie_PWAV ist_VAFIN <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN ?_$. Hast_VAFIN Du_PPER Dir_PPER schon_ADV die_ART ESA_NN angeschaut_VVPP ?_$. Gruß_NE <_NE PERSONAL_GREETING_REMOVEMENT_NE >_CARD <_XY PERSONAL_GREETING_REMOVEMENT_NN >_XY 

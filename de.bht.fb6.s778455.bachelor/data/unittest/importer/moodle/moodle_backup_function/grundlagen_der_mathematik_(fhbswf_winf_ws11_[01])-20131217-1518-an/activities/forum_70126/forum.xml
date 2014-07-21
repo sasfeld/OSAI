@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="13944" moduleid="70126" modulename="forum" contextid="97992">
+  <forum id="13944">
+    <type>news</type>
+    <name>News forum</name>
+    <intro>General news and announcements</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>1</scale>
+    <maxbytes>0</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1185445767</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="43880">
+        <name>Online-Chat 23.11.11</name>
+        <firstpost>117493</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1322066237</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117493">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1322066171</created>
+            <modified>1322066237</modified>
+            <mailed>1</mailed>
+            <subject>Online-Chat 23.11.11</subject>
+            <message>Geehrte Studierende,
+
+der Online-Chat am 23.11.11 entfaellt wegen meiner Teilnahme an einer Sitzung des Wahlausschusses der Hochschule (die Sitzung verzoegert sich). Bitte nutzen Sie die Zeit zum Loesen der Uebungsaufgaben im Skript, insb. LO 07-08. 
+
+Freundlichen Gruss Nils Jensen</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43881">
+        <name>Kursplan Update</name>
+        <firstpost>117494</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1321885574</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117494">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1321885574</created>
+            <modified>1321885574</modified>
+            <mailed>1</mailed>
+            <subject>Kursplan Update</subject>
+            <message>Bitte beachten Sie die Verschiebung der Pflichttermine im Kursplan. Es gilt der Praesenzstundenplan der VFH, an den ich den Kursplan (auf einer alten Fassung beruhend) nun angepasst habe.
+
+Weiterhin duerfen Sie sich den Januar-Termin als Pflichttermin nach (vorheriger) Absprache mit mir anrechnen lassen.
+
+Gruss Jensen
+
+</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43882">
+        <name>Herzlich willkommen zum Fach "Grundlagen der Mathematik"</name>
+        <firstpost>117495</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1314803037</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117495">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1314782776</created>
+            <modified>1314803037</modified>
+            <mailed>1</mailed>
+            <subject>Herzlich willkommen zum Fach "Grundlagen der Mathematik"</subject>
+            <message>Liebe Studierende,
+
+ich begruesse Sie zu diesem Kurs. Hier werden Sie die mathematischen Grundlagen lernen, die man braucht, um z. B. zu programmieren oder in ingenieurswissenschaftlichen Anwendungsfeldern taetig zu sein. Im ersten Online-Chat (s. Kursplan) werde ich Ihnen einen vertiefenden Ueberblick ueber die Themen (lineare Algebra) und die Organisation geben. Ich hoffe, Sie dann zahlreich begruessen zu duerfen. Die Erfahrung aus den letzten Semestern zeigt, dass die regelmaessige Teilnahme an den Online-Chats Ihnen hilft, dieses Fach erfolgreich abzuschliessen.
+
+Bei Fragen und Anmerkungen bin ich fuer Sie gerne erreichbar.
+
+Mit besten Gruessen
+
+Prof. Nils Jensen</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43883">
+        <name>LON-CAPA</name>
+        <firstpost>117496</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1317314293</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117496">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1317314293</created>
+            <modified>1317314293</modified>
+            <mailed>1</mailed>
+            <subject>LON-CAPA</subject>
+            <message>Die Selbstregistrierung laeuft bis Ende der Woche.
+
+Gruesse Nils Jensen</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43884">
+        <name>Praesenz am Samstag 8.10.11</name>
+        <firstpost>117497</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1317925057</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117497">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1317925057</created>
+            <modified>1317925057</modified>
+            <mailed>1</mailed>
+            <subject>Praesenz am Samstag 8.10.11</subject>
+            <message>Bitte Ankuendigung des VFH-Service beachten (Raum, Uhrzeit).
+
+Schoen Sie dann zu sehen!
+
+Nils Jensen
+</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43885">
+        <name>Registrierung in LON-CAPA</name>
+        <firstpost>117498</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1319015048</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117498">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1318320671</created>
+            <modified>1318320671</modified>
+            <mailed>1</mailed>
+            <subject>Registrierung in LON-CAPA</subject>
+            <message>Geehrte Studierende,
+
+die Registrierung der Nachzuegler in LON-CAPA soll nun abgeschlossen werden. Falls Sie den LON-CAPA-Kurs zum Loesen der Einsendeaufgaben noch nicht sehen, sind Sie nicht registriert. In diesem Fall:
+
+- Sehen Sie sich den ersten Chat im Archiv an, in dem ich LON-CAPA erklaere (ohne das geht es nicht)
+- Loggen sich einmal in LON-CAPA ein
+- Senden mir per Email Ihre Nutzerkennung aus dem PWA mit der Bitte, dass ich Sie nachmelde
+
+Haben Sie bitte Verstaendnis, dass ich bei der grossen Zahl an Teilnehmern diejenigen Nachrichten, die nicht bis kommenden Donnerstag eintreffen, nur gebuendelt und daher mit Verzug bearbeiten werde.
+
+Freundlichen Gruss und viel Erfolg beim Loesen
+
+Nils Jensen</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117499">
+            <parent>117498</parent>
+            <userid>3661</userid>
+            <created>1319015048</created>
+            <modified>1319015048</modified>
+            <mailed>1</mailed>
+            <subject>Re: Registrierung in LON-CAPA</subject>
+            <message>Die Aufnahme ist nun geschlossen. Offene Antraege wurden eben bearbeitet. Gruss Nils Jensen</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43886">
+        <name>LON-CAPA</name>
+        <firstpost>117500</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1319111129</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117500">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1319111129</created>
+            <modified>1319111129</modified>
+            <mailed>1</mailed>
+            <subject>LON-CAPA</subject>
+            <message>Wegen Serverumstellung sind die Seiten z. Z. evtl. nicht erreichbar.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43887">
+        <name>Gruppenaufgabe 1/2 ist online</name>
+        <firstpost>117501</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1319281339</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117501">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1319281339</created>
+            <modified>1319281339</modified>
+            <mailed>1</mailed>
+            <subject>Gruppenaufgabe 1/2 ist online</subject>
+            <message>$@FORUMDISCUSSIONVIEW*51344@$</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43888">
+        <name>Aufzeichnung zum letzten Chat des Semesters</name>
+        <firstpost>117502</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1325701346</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117502">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1325701346</created>
+            <modified>1325701346</modified>
+            <mailed>1</mailed>
+            <subject>Aufzeichnung zum letzten Chat des Semesters</subject>
+            <message>Der letzte Chat des Semesters wird heute aufgenommen und im Archiv liegen (Besprechung der Probeklausur exkl. Aufgabe 9). Auf der Praesenz Samstag in einer Woche werden wir das Gausssche Verfahren zum Loesen von LGS durchsprechen und ueben.
+
+Bis dahin, viel Erfolg in 2012
+
+Prof. Nils Jensen</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43889">
+        <name>Erinnerung / Friendly reminder</name>
+        <firstpost>117503</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1325715153</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117503">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1325715153</created>
+            <modified>1325715153</modified>
+            <mailed>1</mailed>
+            <subject>Erinnerung / Friendly reminder</subject>
+            <message>Bitte vergessen Sie nicht, den Kurs zu evaluieren und sich ab naechster Woche zur Pruefung anzumelden!
+
+Gruss Prof. Jensen</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43890">
+        <name>Loesungen zu ESAs verfuegbar</name>
+        <firstpost>117504</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1325741510</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117504">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1325741510</created>
+            <modified>1325741510</modified>
+            <mailed>1</mailed>
+            <subject>Loesungen zu ESAs verfuegbar</subject>
+            <message>Die Eingaben in LON-Capa sind wie im Dezember angekuendigt nun geschlossen.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43891">
+        <name>Vorleistungen</name>
+        <firstpost>117505</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1326374092</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117505">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1326374092</created>
+            <modified>1326374092</modified>
+            <mailed>1</mailed>
+            <subject>Vorleistungen</subject>
+            <message>... sind soweit als moeglich eingetragen. Betrachten Sie die Email als bedeutungslos, wenn Sie als Teilnehmer gelistet sind aber dieses Semester in diesem Kurs nicht aktiv waren.
+
+Kommenden Samstag ist Praesenz! Thema: Gausssche Elimination, Uebungen.
+
+Gruss N. Jensen</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43892">
+        <name>Klausureinsicht</name>
+        <firstpost>117506</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1329296426</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117506">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1329296426</created>
+            <modified>1329296426</modified>
+            <mailed>2</mailed>
+            <subject>Klausureinsicht</subject>
+            <message>Sehr geehrte Damen und Herren,
+
+der Termin zur Klausureinsicht steht auf http://www.ostfalia.de/cms/de/pws/jensenn/index.html
+
+Mit freundlichem Gruss Nils Jensen</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43893">
+        <name>Evaluation WS 11/12</name>
+        <firstpost>117507</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1330958204</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117507">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1330958204</created>
+            <modified>1330958204</modified>
+            <mailed>1</mailed>
+            <subject>Evaluation WS 11/12</subject>
+            <message>Sehr geehrte Damen und Herren,
+
+ich moechte mich fuer die Evaluation bedanken und auf Anfrage werde ich gerne diese in einem Chat besprechen. Bitte melden Sie sich, falls Sie Bedarf sehen.
+
+Ansonsten wuensche ich Ihnen ein gutes, neues und erfolgreiches Semester.
+
+Prof. Nils Jensen
+</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

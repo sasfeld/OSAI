@@ -1,0 +1,10 @@
+ID: 577
+CREATION_DATETIME: 1351465200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Kursfolien findet ihr ab sofort [hier](http://users.ifsr.de/~fredo/C-Kurs/).
+TAGGED_CONTENT:

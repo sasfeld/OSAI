@@ -1,0 +1,11 @@
+ID: 167959
+CREATION_DATETIME: 1349638053
+MODIFICATION_DATETIME: 1349638053
+TITLE: Re: Hilfe für Aufgabe 2d
+PARENT_POSTING_ID: 167823
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+danke für deine Antwort. Prof. <REMOVED_PERSON_ENTITY> hat mir geschrieben, mein Lösungsweg ist soweit richtig - nur das 0&gt;=-1 ist natürlich richtig und nicht, wie von mir aus Blindheit angenommen, falsch... Daher gilt das x&gt;=2 aus der Voraussetzung und vereinigt mit 3/2 &lt;= x &lt; 2 ergibt sich L = {3/2 &lt;= x &lt; oo}.
+Schönen Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

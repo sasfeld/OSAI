@@ -1,0 +1,5 @@
+ID: 1802
+CREATION_DATETIME: 1368482400000
+MODIFICATION_DATETIME: 1369087200000
+TITLE: Gewichtung von Branches, Schleifen, Unterprozeduren etc. im Kostenmodell
+FIRST_POSTING_ID: 1802

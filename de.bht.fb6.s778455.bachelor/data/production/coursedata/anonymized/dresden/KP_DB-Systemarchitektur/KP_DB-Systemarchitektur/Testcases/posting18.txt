@@ -1,0 +1,9 @@
+ID: 1934
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: Aus welchem Ordner machst du denn make?
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Aus welchem Ordner machst du denn make?
+TAGGED_CONTENT:

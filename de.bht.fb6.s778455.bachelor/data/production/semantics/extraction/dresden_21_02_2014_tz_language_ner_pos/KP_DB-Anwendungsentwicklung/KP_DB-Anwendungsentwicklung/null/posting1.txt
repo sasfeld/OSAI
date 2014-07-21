@@ -1,0 +1,15 @@
+ID: 2606
+CREATION_DATETIME: 1382392800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+POS_TAG: value:Uhr;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sync;weight:0.0;uri:;postag:NN
+POS_TAG: value:Raum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Donnerstags;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Der wöchentliche Sync liegt immer Donnerstags 14:40Uhr und findet im Raum 3044 statt.
+TAGGED_CONTENT:
+Der_ART wöchentliche_ADJA Sync_NN liegt_VVFIN immer_ADV Donnerstags_NN 14_CARD ,_$, 40Uhr_NN und_KON findet_VVFIN im_APPRART Raum_NN 3044_CARD statt_PTKVZ ._$. 

@@ -1,0 +1,9 @@
+ID: 2220
+CREATION_DATETIME: 1373493600000
+MODIFICATION_DATETIME: 1373493600000
+TITLE: Das ist jetz sowieso eher ein schneller Workaround. Später sollte da natürlich ein richtiger Logger r...
+PARENT_POSTING_ID: 2218
+POSTING_TYPE: comment
+CONTENT:
+Das ist jetz sowieso eher ein schneller Workaround. Später sollte <NAME_CORPUS_REPLACEMENT> natürlich ein richtiger Logger rein. Am besten sowas wie log4cxx, wobei der Client dann dem Trutee seine eigene log4cxx Instance übergeben kann, damit er unsere Logausgaben ggf. in seine eigenen einbauen kann.
+TAGGED_CONTENT:

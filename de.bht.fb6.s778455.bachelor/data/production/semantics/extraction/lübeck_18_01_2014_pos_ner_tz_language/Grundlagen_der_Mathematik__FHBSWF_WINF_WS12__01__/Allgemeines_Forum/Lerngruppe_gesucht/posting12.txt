@@ -1,0 +1,83 @@
+ID: 163059
+CREATION_DATETIME: 1348466567
+MODIFICATION_DATETIME: 1348466567
+TITLE: Re: Lerngruppe gesucht
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:8.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:4.0;significance:2.77735785682754;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Mathematikunterricht;weight:2.0;significance:2.72919751150148;degreegeneralization:7;uri:20897533
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:4.0;significance:2.59037776375624;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Schulunterricht;weight:2.0;significance:2.4043767654689;degreegeneralization:6;uri:20897550
+TOPIC_ZOOM_TAG: value:Schulen;weight:3.0;significance:2.20130411789497;degreegeneralization:5;uri:21882020
+TOPIC_ZOOM_TAG: value:Schulische Bildung und Erziehung;weight:3.0;significance:2.20010026453362;degreegeneralization:3;uri:21882122
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:3.0;significance:2.08922665424008;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Unterricht;weight:2.0;significance:2.03089550914084;degreegeneralization:4;uri:20916930
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:1.94532395751918;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:6.0;significance:1.61162860218184;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Bildungsurlaub;weight:1.0;significance:1.58856868940424;degreegeneralization:6;uri:20714783
+TOPIC_ZOOM_TAG: value:Bildungstourismus;weight:1.0;significance:1.50192529183425;degreegeneralization:5;uri:20759357
+TOPIC_ZOOM_TAG: value:Vorlesungen;weight:1.0;significance:1.36459875575074;degreegeneralization:6;uri:20916641
+TOPIC_ZOOM_TAG: value:Berufstätige;weight:1.0;significance:1.36459875575074;degreegeneralization:6;uri:20210478
+TOPIC_ZOOM_TAG: value:Organisationen und Einrichtungen im Bereich schulische Bildung und Erziehung in Deutschland;weight:1.0;significance:1.18130662215155;degreegeneralization:11;uri:21974721
+TOPIC_ZOOM_TAG: value:Abitur;weight:1.0;significance:1.18130662215155;degreegeneralization:13;uri:20999159
+TOPIC_ZOOM_TAG: value:Persönliche Abschlüsse und Zertifikate in Deutschland;weight:1.0;significance:1.18130662215155;degreegeneralization:10;uri:21960662
+TOPIC_ZOOM_TAG: value:Schulen in Deutschland;weight:1.0;significance:1.18130662215155;degreegeneralization:12;uri:21958265
+TOPIC_ZOOM_TAG: value:Schulische Bildung und Erziehung in Deutschland;weight:1.0;significance:1.18130662215155;degreegeneralization:10;uri:21924673
+TOPIC_ZOOM_TAG: value:Berufstätigkeit;weight:1.0;significance:1.17204312563234;degreegeneralization:5;uri:20733993
+TOPIC_ZOOM_TAG: value:Ereignisse im Bereich Bildung, Erziehung und Ausbildung;weight:1.0;significance:1.15535170155427;degreegeneralization:3;uri:21872857
+TOPIC_ZOOM_TAG: value:Abschlüsse bei Schulen;weight:1.0;significance:1.14062882209723;degreegeneralization:6;uri:20920704
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:1.1184961304917;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Gymnasien;weight:1.0;significance:1.09956581372572;degreegeneralization:7;uri:21305992
+TOPIC_ZOOM_TAG: value:Schularten;weight:1.0;significance:0.987045644982689;degreegeneralization:6;uri:20759102
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung in Deutschland;weight:1.0;significance:0.954171962500012;degreegeneralization:9;uri:21998589
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung - Europa;weight:1.0;significance:0.948073191978834;degreegeneralization:7;uri:20742850
+TOPIC_ZOOM_TAG: value:Urlaub und Ferien;weight:1.0;significance:0.93602421126945;degreegeneralization:3;uri:20990115
+TOPIC_ZOOM_TAG: value:Prüfungen, Abschlüsse und Zertifikate;weight:1.0;significance:0.910449937219065;degreegeneralization:4;uri:21974670
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:0.87555429116382;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:0.869497109551036;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Hannover;weight:1.0;significance:0.861802372926108;degreegeneralization:13;uri:21464602
+TOPIC_ZOOM_TAG: value:Allgemeine (nicht fachgebundene) Universitäten;weight:1.0;significance:0.789788606021072;degreegeneralization:5;uri:21881952
+TOPIC_ZOOM_TAG: value:Videos;weight:1.0;significance:0.740088066615544;degreegeneralization:5;uri:20925532
+TOPIC_ZOOM_TAG: value:Reisen, Ausflüge, Tourismus, Abenteuer;weight:1.0;significance:0.694535082400174;degreegeneralization:3;uri:21999592
+TOPIC_ZOOM_TAG: value:Niedersachsen;weight:1.0;significance:0.676941479432642;degreegeneralization:10;uri:21996770
+TOPIC_ZOOM_TAG: value:Filme;weight:1.0;significance:0.633974675349769;degreegeneralization:4;uri:21995223
+TOPIC_ZOOM_TAG: value:Film & Kino;weight:1.0;significance:0.606577164439414;degreegeneralization:3;uri:21998164
+TOPIC_ZOOM_TAG: value:Beruf und Karriere;weight:1.0;significance:0.589281816102244;degreegeneralization:4;uri:20990557
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:0.584421696201437;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Kunstwerke;weight:1.0;significance:0.580292743403457;degreegeneralization:3;uri:21981623
+TOPIC_ZOOM_TAG: value:Deutschland;weight:2.0;significance:0.508941063641075;degreegeneralization:8;uri:21996974
+TOPIC_ZOOM_TAG: value:Arbeit und Beruf;weight:1.0;significance:0.442626533197881;degreegeneralization:3;uri:21924095
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:0.430193162017525;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Europa;weight:2.0;significance:0.388969203887577;degreegeneralization:6;uri:21972001
+TOPIC_ZOOM_TAG: value:Kunst, Kultur, Musik;weight:1.0;significance:0.380963367084358;degreegeneralization:2;uri:21999796
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:0.225574442156658;degreegeneralization:2;uri:21999847
+NER_TAG: value:Ostfalia-Hochschule;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:Uni Hannover;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:Ostfalia-Hochschule;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:Uni Hannover;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:hannover;weight:0.0;uri:;postag:NN
+POS_TAG: value:Jahren;weight:0.0;uri:;postag:NN
+POS_TAG: value:tige;weight:0.0;uri:;postag:NN
+POS_TAG: value:Modul;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorkurs;weight:0.0;uri:;postag:NN
+POS_TAG: value:Jahr;weight:0.0;uri:;postag:NN
+POS_TAG: value:Prof.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abitur;weight:0.0;uri:;postag:NN
+POS_TAG: value:Angebot;weight:0.0;uri:;postag:NN
+POS_TAG: value:h;weight:0.0;uri:;postag:NN
+POS_TAG: value:TWW;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hochschule;weight:0.0;uri:;postag:NN
+POS_TAG: value:Uni;weight:0.0;uri:;postag:NN
+POS_TAG: value:ck;weight:0.0;uri:;postag:NN
+POS_TAG: value:Distanz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorlesungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klausur;weight:0.0;uri:;postag:NN
+POS_TAG: value:Themen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bildungsurlaub;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorkurse;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 163007
+CONTENT:
+Ja, einen Mathe-Vorkurs kann ich auch nur empfehlen. (Ich habe vor 20 Jahren Abitur gemacht, da hat man schon eine gewisse Distanz.)Leider gibt es ja an der Ostfalia-Hochschule (TWW) keine Vorkurse, die auch für Berufstätige geeignet sind. Ich hatte dieses Jahr das Glück, dass die Uni Hannover ein Angebot hatte, für das man sogar Bildungsurlaub nehmen konnte (http://www.unikik.uni-hannover. de/unifit. html). Nach 2 <REMOVED_PERSON_ENTITY> von morgens bis abends fühle ich mich jetzt ganz gut vorbereitet. Wird aber auch Zeit, ich hatte das Mathe-Modul schon mehrmals belegt, hatte mich aber letztlich nie getraut, mich zur Klausur anzumelden. Was mir auch sehr geholfen hat: Die Video-Vorlesungen von Prof. <REMOVED_PERSON_ENTITY> (http://www.j3l7h. de/). Wirklich empfehlenswert, da kann man sich einzelne Themen noch einmal gezielt ansehen.
+TAGGED_CONTENT:
+Ja_PTKANT ,_$, einen_ART Mathe-Vorkurs_NN kann_VMFIN ich_PPER auch_ADV nur_ADV empfehlen_VVINF ._$. -LRB-_TRUNC Ich_PPER habe_VAFIN vor_APPR 20_CARD Jahren_NN Abitur_NN gemacht_VVPP ,_$, da_ADV hat_VAFIN man_PIS schon_ADV eine_ART gewisse_ADJA Distanz_NN ._$. -RRB-_TRUNC Leider_ADV gibt_VVFIN es_PPER ja_ADV an_APPR der_ART Ostfalia-Hochschule_NN -LRB-_TRUNC TWW_NN -RRB-_TRUNC keine_PIAT Vorkurse_NN ,_$, die_PRELS auch_ADV für_APPR Berufstätige_NN geeignet_VVPP sind_VAFIN ._$. Ich_PPER hatte_VAFIN dieses_PDAT Jahr_NN das_ART Glück_NN ,_$, dass_KOUS die_ART Uni_NN Hannover_NE ein_ART Angebot_NN hatte_VAFIN ,_$, für_APPR das_PRELS man_PIS sogar_ADV Bildungsurlaub_NN nehmen_VVINF konnte_VMFIN -LRB-_TRUNC http:\/\/www.unikik.uni-hannover_NN ._$. de\/unifit_ADJD ._$. html_ADJD -RRB-_TRUNC ._$. Nach_APPR 2_CARD <_XY REMOVED_PERSON_ENTITY_NE >_XY von_APPR morgens_ADV bis_APPR abends_ADV fühle_VVFIN ich_PPER mich_PRF jetzt_ADV ganz_ADV gut_ADJD vorbereitet_VVPP ._$. Wird_VAFIN aber_ADV auch_ADV Zeit_NN ,_$, ich_PPER hatte_VAFIN das_ART Mathe-Modul_NN schon_ADV mehrmals_ADV belegt_VVPP ,_$, hatte_VAFIN mich_PPER aber_ADV letztlich_ADV nie_ADV getraut_VVPP ,_$, mich_PRF zur_APPRART Klausur_NN anzumelden_VVIZU ._$. Was_PWS mir_PPER auch_ADV sehr_ADV geholfen_VVPP hat_VAFIN :_$. Die_ART Video-Vorlesungen_NN von_APPR Prof._NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE -LRB-_TRUNC http:\/\/www.j3l7h_NN ._$. de_NE \/_NE -RRB-_TRUNC ._$. Wirklich_ADJD empfehlenswert_ADJD ,_$, da_ADV kann_VMFIN man_PIS sich_PRF einzelne_ADJA Themen_NN noch_ADV einmal_ADV gezielt_ADJD ansehen_VVINF ._$. 

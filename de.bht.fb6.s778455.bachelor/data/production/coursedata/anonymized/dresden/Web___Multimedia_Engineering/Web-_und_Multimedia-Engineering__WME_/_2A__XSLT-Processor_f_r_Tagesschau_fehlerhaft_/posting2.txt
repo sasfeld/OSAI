@@ -1,0 +1,9 @@
+ID: 825
+CREATION_DATETIME: 1353538800000
+MODIFICATION_DATETIME: 1353538800000
+TITLE: achja, vergessen noch zu erwähnen: ich habe kein <xsl:template match="/"> verwendet, weil ich irgendw...
+PARENT_POSTING_ID: 823
+POSTING_TYPE: comment
+CONTENT:
+achja, vergessen noch zu erwähnen: ich habe kein `````` verwendet, weil ich irgendwie nicht mit `````` durchtraversieren kann, daher schien mir die einzige Möglichkeit daher `````` zu nutzen. Bei dem MDR Teil gingen beide Varianten gleichermaßen gut. Nur bei der Tagesschau funktioniert keines der beiden Varianten :-/
+TAGGED_CONTENT:

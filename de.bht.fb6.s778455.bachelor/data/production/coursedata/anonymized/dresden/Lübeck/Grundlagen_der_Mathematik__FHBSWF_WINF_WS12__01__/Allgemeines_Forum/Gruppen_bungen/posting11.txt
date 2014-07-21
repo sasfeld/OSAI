@@ -1,0 +1,21 @@
+ID: 194729
+CREATION_DATETIME: 1358595499
+MODIFICATION_DATETIME: 1358595645
+TITLE: Re: Gruppenübungen
+PARENT_POSTING_ID: 194457
+CONTENT:
+Hallo zusammen,
+evenutell kann mir jemand von euch bei Gruppenübung D weiterhelfen.
+Ich bin hier erstmal so vorgegangen, dass ich mir eine Matrix wegedacht habe. Also ich habe versucht die Matrixgleichung M*Q=R zu lösen.
+Ich weiß, dass das Lösen einens LGS auch als das Suchen einer LK (von Skalaren) dargestellt werden kann.
+Das heißt die oben geannte Gleichung könnte man auch so darstellen:
+M=Gebene Vektoren bzw. Matrix (m1-mn)R=Gegebene Vektoren bzw Matrix (r1-rn)Q= Gesuchte Skalare (q1-qn)
+q1*(m1)+q2*(m2)... qn*(mn)=r1, r2, rn
+Wenn ich die gesuchte Matrix P noch hinzufügen würde, würde es so aussehen:p1*q1*(m1)+p2*q2*(m2)... pn*qn*(mn)=b1, b2, bnDas spielt aber erstmal keine <REMOVED_PERSON_ENTITY>..
+So, um an die gesuchten Skalare Q ranzukommen, muss also folgendes LGS (simultan) gelöst werden:
+2 4 -2 | 1 0 00 1 1 | 0 1 0-3 -4 5 | 0 0 0
+Leider geht dieses LGS für die Vektoren (1, 0, 0)^T und (0, 1, 0)^T nicht auf, da A ungleich A|b ist. Somit kann ich aus den gegebenen Vektoren eigentlich keine LK zu den geuschten Vektoren bilden. Wenn dieses LGS aufgegangen wäre, hätte ich diesen Vektor\Matrix für Q genutzt und für P einfach die Einheitsmatrix 3x3 gewählt.
+Leider geht das aber. Vermutlich muss die Matrix M noch mit irgend einer anderen Matrix mutlipliziert werden damit anschließende R aus ihr erstellt werden kann. Aber wie komme ich an diese Matrix dran?
+Schon einmal besten Dank und Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

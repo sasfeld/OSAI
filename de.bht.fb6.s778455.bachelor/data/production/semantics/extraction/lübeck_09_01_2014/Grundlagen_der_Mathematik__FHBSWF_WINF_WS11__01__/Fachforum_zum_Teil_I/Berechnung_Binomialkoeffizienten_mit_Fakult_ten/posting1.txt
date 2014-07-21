@@ -1,0 +1,8 @@
+ID: 117577
+CREATION_DATETIME: 1318235407
+MODIFICATION_DATETIME: 1318235646
+TITLE: Berechnung Binomialkoeffizienten mit Fakultäten
+PARENT_POSTING_ID: 0
+CONTENT:
+ Hallo, ich möchte bitte wissen, wie man folgendes Rechnen kann, vllt. vereinfacht? Mein Taschenrechner kann es nicht mit so hohen Zahlen und auch im <REMOVED_PERSON_ENTITY> ist es sehr unwahrscheinlich. Da muss es doch einen Trick geben. Danke 
+TAGGED_CONTENT:

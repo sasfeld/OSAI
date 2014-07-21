@@ -1,0 +1,12 @@
+ID: 54
+CREATION_DATETIME: 1178394600000
+MODIFICATION_DATETIME: 1178394600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 53
+CONTENT:
+ 
+super, vielen Dank. Es klappt jetzt. Man muss die Gui.class in den selben Ordner bringen. Dachte nur sie sei bereits irgendwo in der Übungsumgebung gespeichert und gleich ausführbar.
+
+	
+TAGGED_CONTENT:

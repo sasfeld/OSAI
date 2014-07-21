@@ -1,0 +1,10 @@
+ID: 938
+CREATION_DATETIME: 1354575600000
+MODIFICATION_DATETIME: 1354575600000
+TITLE: Grundlegendes: die Nutzung von jQuery oder ähnlichen Frameworks war in keiner der Aufgaben gefordert....
+PARENT_POSTING_ID: 937
+POSTING_TYPE: answer
+CONTENT:
+Grundlegendes: die Nutzung <NAME_CORPUS_REPLACEMENT> jQuery oder ähnlichen Frameworks war in <NAME_CORPUS_REPLACEMENT> der Aufgaben gefordert. 
+Wie in der Aufgabenstellung beschrieben gibts die Punkte für valide Seiten.. (und damit auch nicht für die Nutzung <NAME_CORPUS_REPLACEMENT> jQuery)
+TAGGED_CONTENT:

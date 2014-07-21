@@ -1,0 +1,21 @@
+ID: 2492
+CREATION_DATETIME: 1375653600000
+MODIFICATION_DATETIME: 1375653600000
+TITLE: Das war in den Vorlesungen Nr. 6 und 7 dran. Mal in die Mitschriften, vor allem in die Schreibfolien,...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Vorlesungen;weight:1.0;significance:10.9167900460059;degreegeneralization:6;uri:20916641
+TOPIC_ZOOM_TAG: value:Ereignisse im Bereich Bildung, Erziehung und Ausbildung;weight:1.0;significance:9.2428136124342;degreegeneralization:3;uri:21872857
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Mal;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorlesungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Schreibfolien;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mitschriften;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2491
+POSTING_TYPE: answer
+CONTENT:
+Das war in den Vorlesungen Nr. 6 und 7 dran. Mal in die Mitschriften, vor allem in die Schreibfolien, kucken.
+TAGGED_CONTENT:
+Das_PDS war_VAFIN in_APPR den_ART Vorlesungen_NN Nr_NE ._$. 6_CARD und_KON 7_CARD dran_PROAV ._$. Mal_NN in_APPR die_ART Mitschriften_NN ,_$, vor_APPR allem_PIS in_APPR die_ART Schreibfolien_NN ,_$, kucken_VVINF ._$. 

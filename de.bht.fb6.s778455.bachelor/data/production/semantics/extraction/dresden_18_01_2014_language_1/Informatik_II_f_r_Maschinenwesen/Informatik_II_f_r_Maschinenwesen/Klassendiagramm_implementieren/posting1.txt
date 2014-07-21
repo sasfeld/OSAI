@@ -1,0 +1,10 @@
+ID: 2491
+CREATION_DATETIME: 1375653600000
+MODIFICATION_DATETIME: 1384297200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Kann mir Jemand sagen, wie man die Beziehungen zwischen <REMOVED_PERSON_ENTITY> (Vererbung, Assoziation, Aggregation, etc.) in Java-Quellcode umsetzt? Danke.
+TAGGED_CONTENT:

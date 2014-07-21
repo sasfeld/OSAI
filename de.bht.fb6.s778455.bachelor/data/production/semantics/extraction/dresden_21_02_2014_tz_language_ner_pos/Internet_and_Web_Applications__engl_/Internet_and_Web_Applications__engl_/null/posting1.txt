@@ -1,0 +1,57 @@
+ID: 1728
+CREATION_DATETIME: 1365976800000
+MODIFICATION_DATETIME: 1365976800000
+TITLE: Verpflichtet mich die Wahl einer Lehrveranstaltung im Grundlagenforschung-/Anwendungsforschungs-Modus...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Forschungsprojekte;weight:4.0;significance:3.46563479450399;degreegeneralization:5;uri:20020486
+TOPIC_ZOOM_TAG: value:Vorlesungen;weight:3.0;significance:2.97730637618343;degreegeneralization:6;uri:20916641
+TOPIC_ZOOM_TAG: value:Projekte und Programme;weight:4.0;significance:2.80907014310021;degreegeneralization:2;uri:20020928
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:5.0;significance:2.52487077893413;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Ereignisse im Bereich Bildung, Erziehung und Ausbildung;weight:3.0;significance:2.52076734884569;degreegeneralization:3;uri:21872857
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:5.0;significance:2.35488887614204;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Forschung;weight:5.0;significance:2.29495752757693;degreegeneralization:4;uri:21471079
+TOPIC_ZOOM_TAG: value:Forschung und Entwicklung;weight:5.0;significance:2.2445019459567;degreegeneralization:3;uri:21603526
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:11.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:5.0;significance:1.98593118737635;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Lehrstühle;weight:2.0;significance:1.83081676102158;degreegeneralization:6;uri:20911082
+TOPIC_ZOOM_TAG: value:Fakultäten;weight:2.0;significance:1.74863764761375;degreegeneralization:5;uri:20916947
+TOPIC_ZOOM_TAG: value:Grundlagenforschung;weight:1.0;significance:1.09230930315218;degreegeneralization:5;uri:20922812
+TOPIC_ZOOM_TAG: value:Datenbanken;weight:1.0;significance:0.717851378169228;degreegeneralization:7;uri:20901511
+TOPIC_ZOOM_TAG: value:Praktische Informatik;weight:1.0;significance:0.668790125614351;degreegeneralization:5;uri:20899199
+TOPIC_ZOOM_TAG: value:Datenspeicherung;weight:1.0;significance:0.648763225732378;degreegeneralization:6;uri:20901528
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:0.456747767959343;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:0.45525470188383;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:1.0;significance:0.450058482443835;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:0.39659848289376;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:0.364276069487369;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:0.349848559666613;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:0.348618307916321;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:0.332879062946435;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:0.313861022871263;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:0.263280123734997;degreegeneralization:3;uri:20758133
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:0.24426576678916;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:0.241145310870121;degreegeneralization:3;uri:21925999
+POS_TAG: value:Modul;weight:0.0;uri:;postag:NN
+POS_TAG: value:Modus;weight:0.0;uri:;postag:NN
+POS_TAG: value:Datenbanken;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:hlen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kenntnisse;weight:0.0;uri:;postag:NN
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+POS_TAG: value:Lehrveranstaltung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Forschungsprojekt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorlesung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Weg;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anwendungsforschung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Lehrstuhl;weight:0.0;uri:;postag:NN
+POS_TAG: value:Grundlagenforschung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Thema;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1727
+POSTING_TYPE: comment
+CONTENT:
+Verpflichtet mich die <REMOVED_PERSON_ENTITY> einer Lehrveranstaltung im Grundlagenforschung-/Anwendungsforschungs-Modus zu etwas im entsprechenden Forschungsprojekt-Modul? D. h. kann ich nicht, wenn ich nun Internet and Web Applications bspw. als Anwendungsforschung wähle, im Forschungsprojekt nicht auch etwas an anderen Lehrstühlen, etwa Datenbanken, wählen (natürlich setzt das Forschungsprojekt gewisse Kenntnisse voraus, die ich ja aber auch bereits unabhängig vom <REMOVED_PERSON_ENTITY>-/Anwendungsforschungs-Modul besitzen kann)? 
+
+<NAME_CORPUS_REPLACEMENT> mir aber diese Vorlesung am meisten zusagt, würde ich auch, sofern ich an Ihrem Lehrstuhl das Forschungsprojekt mache, ein entsprechendes Thema bearbeiten wollen. Darum würde ich gern den umgekehrten Weg wählen: abhängig <NAME_CORPUS_REPLACEMENT> der besuchten Vorlesung ein entsprechendes Thema wählen, statt die Vorlesung abhängig vom späteren Thema. Stellt das ein Problem dar?
+TAGGED_CONTENT:
+Verpflichtet_VVPP mich_PRF die_ART <_CARD REMOVED_PERSON_ENTITY_NN >_APPR einer_ART Lehrveranstaltung_NN im_APPRART Grundlagenforschung_NN -_$( \/_ADJA Anwendungsforschungs-Modus_NN zu_PTKZU etwas_PIS im_APPRART entsprechenden_ADJA Forschungsprojekt-Modul_NN ?_$. D._NE h._VVFIN kann_VMFIN ich_PPER nicht_PTKNEG ,_$, wenn_KOUS ich_PPER nun_ADV Internet_FM and_FM Web_FM Applications_FM bspw_FM ._$. als_APPR Anwendungsforschung_NN wähle_VVFIN ,_$, im_APPRART Forschungsprojekt_NN nicht_PTKNEG auch_ADV etwas_PIS an_APPR anderen_ADJA Lehrstühlen_NN ,_$, etwa_ADV Datenbanken_NN ,_$, wählen_VVINF -LRB-_TRUNC natürlich_ADV setzt_VVFIN das_ART Forschungsprojekt_NN gewisse_ADJA Kenntnisse_NN voraus_PTKVZ ,_$, die_PRELS ich_PPER ja_ADV aber_ADV auch_ADV bereits_ADV unabhängig_ADJD vom_APPRART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD -_$( \/_CARD Anwendungsforschungs-Modul_NN besitzen_VVINF kann_VMFIN -RRB-_TRUNC ?_$. <_XY NAME_CORPUS_REPLACEMENT_NN >_VVFIN mir_PPER aber_ADV diese_PDAT Vorlesung_NN am_PTKA meisten_ADJD zusagt_VVFIN ,_$, würde_VAFIN ich_PPER auch_ADV ,_$, sofern_KOUS ich_PPER an_APPR Ihrem_PPOSAT Lehrstuhl_NN das_ART Forschungsprojekt_NN mache_VVFIN ,_$, ein_ART entsprechendes_ADJA Thema_NN bearbeiten_VVINF wollen_VMFIN ._$. Darum_PROAV würde_VAFIN ich_PPER gern_ADV den_ART umgekehrten_ADJA Weg_NN wählen_VVINF :_$. abhängig_ADJD <_XY NAME_CORPUS_REPLACEMENT_NN >_VVFIN der_PDS besuchten_VVFIN Vorlesung_NN ein_ART entsprechendes_ADJA Thema_NN wählen_VVINF ,_$, statt_KOUI die_ART Vorlesung_NN abhängig_ADJD vom_APPRART späteren_ADJA Thema_NN ._$. Stellt_VVFIN das_PDS ein_ART Problem_NN dar_PTKVZ ?_$. 

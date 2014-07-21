@@ -1,0 +1,12 @@
+ID: 1543
+CREATION_DATETIME: 1363734000000
+MODIFICATION_DATETIME: 1374616800000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+In last presentation on slide 6 it is said: No I/O manager involved – no security / management.
+
+So, we are not required to use io server to get irqs, but why? Isn't it implemented yet?
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1736
+CREATION_DATETIME: 1366063200000
+MODIFICATION_DATETIME: 1366149600000
+TITLE: Ja, morgen findet die erste Übung statt und es gibt nichts extra vorzubereiten ausser den Wecker zu s...
+PARENT_POSTING_ID: 1734
+POSTING_TYPE: answer
+CONTENT:
+Ja, morgen findet die erste Übung statt und es gibt nichts extra vorzubereiten ausser den Wecker zu stellen.
+Natürlich ist es sehr hilfreich die VL nachzubereiten.
+TAGGED_CONTENT:

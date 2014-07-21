@@ -1,0 +1,12 @@
+ID: 2566
+CREATION_DATETIME: 1381874400000
+MODIFICATION_DATETIME: 1381874400000
+TITLE: Additionally to a face-to-face course I recommend to use our elearning system "Praktomat":
+https://p...
+PARENT_POSTING_ID: 2558
+POSTING_TYPE: comment
+CONTENT:
+Additionally to a face-to-face course I recommend to use our elearning system "Praktomat":
+https://praktomat. inf. tu-dresden. de/
+All Java tasks are written in English.
+TAGGED_CONTENT:

@@ -1,0 +1,29 @@
+ID: 163799
+CREATION_DATETIME: 1348559736
+MODIFICATION_DATETIME: 1348559736
+TITLE: Re: Lerngruppe gesucht
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:5.18753055338448;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Lineare Algebra;weight:1.0;significance:4.23618317174463;degreegeneralization:7;uri:20881366
+TOPIC_ZOOM_TAG: value:Algebra;weight:1.0;significance:4.23618317174463;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Fachhochschulen in Deutschland;weight:1.0;significance:4.005134111558;degreegeneralization:12;uri:21957551
+TOPIC_ZOOM_TAG: value:Fachhochschulen;weight:1.0;significance:3.86997907552193;degreegeneralization:5;uri:21881935
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:2.98265634797786;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten in Deutschland;weight:1.0;significance:2.73624661496789;degreegeneralization:11;uri:21957585
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten in Europa;weight:1.0;significance:2.72175157765464;degreegeneralization:8;uri:20920126
+TOPIC_ZOOM_TAG: value:Studium und berufliche Ausbildung in Deutschland;weight:1.0;significance:2.72175157765464;degreegeneralization:10;uri:21881136
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung in Deutschland;weight:1.0;significance:2.5444585666667;degreegeneralization:9;uri:21998589
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung - Europa;weight:1.0;significance:2.52819517861022;degreegeneralization:7;uri:20742850
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:2.33481144310352;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:3.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:1.85157190455169;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Wissenschaft und Technik in Deutschland;weight:1.0;significance:1.81647779571228;degreegeneralization:9;uri:21946076
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:1.72691850917083;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:1.55845785653717;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:1.45634953740933;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Deutschland;weight:1.0;significance:0.678588084854767;degreegeneralization:8;uri:21996974
+TOPIC_ZOOM_TAG: value:Europa;weight:1.0;significance:0.518625605183437;degreegeneralization:6;uri:21972001
+PARENT_POSTING_ID: 163059
+CONTENT:
+Hallo Zusammen,
+hat sich schon jemand für die Übungsaufgaben im Lon <REMOVED_PERSON_ENTITY> angemeldet? Wenn ja wie finde ich unseren Kurs: "VFH - Lineare Algebra / Grundlagen der Mathematik WS2012/2013"
+TAGGED_CONTENT:

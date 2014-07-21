@@ -1,0 +1,12 @@
+ID: 2022
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: Wenn man falsche Dimensionen angibt, werden ungültige IDs ausgelassen.
+LANGUAGE: GERMAN
+POS_TAG: value:Dimensionen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Wenn man falsche Dimensionen angibt, werden ungültige IDs ausgelassen.
+TAGGED_CONTENT:
+Wenn_KOUS man_PIS falsche_ADJA Dimensionen_NN angibt_VVFIN ,_$, werden_VAFIN ungültige_ADJA IDs_NE ausgelassen_ADJD ._$. 

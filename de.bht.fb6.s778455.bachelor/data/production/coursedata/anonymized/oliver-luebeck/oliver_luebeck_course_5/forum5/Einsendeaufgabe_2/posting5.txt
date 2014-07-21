@@ -1,0 +1,15 @@
+ID: 35
+CREATION_DATETIME: 1191959100000
+MODIFICATION_DATETIME: 1191959100000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 34
+CONTENT:
+ 
+Hmm, war doch keine Pflicht das mit read() zu lösen?
+Habs damit hingekriegt:
+http://java.sun.com/j2se/1.4.2/docs/api/java/lang/String.html#replaceAll%28java.lang.String,%20java.lang.String%29
+
+Gruß 
+    
+TAGGED_CONTENT:

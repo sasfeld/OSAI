@@ -1,0 +1,23 @@
+ID: 2915
+CREATION_DATETIME: 1384815600000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: Wenn man Musterlösungen bereit stellt, neigen Studenten leider dazu, sie einfach abzuschreiben, ohne ...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Studenten;weight:1.0;significance:6.6875261658844;degreegeneralization:5;uri:20994552
+TOPIC_ZOOM_TAG: value:Schüler, Studenten;weight:1.0;significance:6.43756108337563;degreegeneralization:4;uri:20920823
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:5.57127107797354;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+POS_TAG: value:Kommentar;weight:0.0;uri:;postag:NN
+POS_TAG: value:Erkenntnisgewinn;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gelegenheit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Studenten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Diskussion;weight:0.0;uri:;postag:NN
+POS_TAG: value:ge;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2914
+POSTING_TYPE: comment
+CONTENT:
+Wenn man Musterlösungen bereit stellt, neigen Studenten leider dazu, sie einfach abzuschreiben, ohne einen Erkenntnisgewinn zu haben. Ich ermutige dich aber gerne dazu, deine <REMOVED_PERSON_ENTITY> hier zur Diskussion zu stellen, dann haben alle die Gelegenheit, ihren Kommentar dazu zu geben oder Gegenvorschläge zu posten.
+TAGGED_CONTENT:
+Wenn_KOUS man_PIS Musterlösungen_NN bereit_ADJD stellt_VVFIN ,_$, neigen_VVFIN Studenten_NN leider_ADV dazu_PROAV ,_$, sie_PPER einfach_ADV abzuschreiben_VVIZU ,_$, ohne_KOUI einen_ART Erkenntnisgewinn_NN zu_PTKZU haben_VAINF ._$. Ich_PPER ermutige_VVFIN dich_PRF aber_ADV gerne_ADV dazu_PROAV ,_$, deine_PPOSAT <_NN REMOVED_PERSON_ENTITY_NE >_CARD hier_ADV zur_APPRART Diskussion_NN zu_PTKZU stellen_VVINF ,_$, dann_ADV haben_VAFIN alle_PIS die_ART Gelegenheit_NN ,_$, ihren_PPOSAT Kommentar_NN dazu_PROAV zu_PTKZU geben_VVINF oder_KON Gegenvorschläge_NN zu_PTKZU posten_VVINF ._$. 

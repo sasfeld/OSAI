@@ -1,0 +1,9 @@
+ID: 804
+CREATION_DATETIME: 1353279600000
+MODIFICATION_DATETIME: 1353279600000
+TITLE: Manche Kurse haben initial URLs gehabt, wenn sie bei jexam eingetragen wurden. Aber du hast schon rec...
+PARENT_POSTING_ID: 797
+POSTING_TYPE: comment
+CONTENT:
+Manche Kurse haben initial URLs gehabt, wenn sie bei jexam eingetragen wurden. Aber du hast schon recht, ist natürlich sinnvoll, wenn die jeweilige URL eingetragen steht. Aber hier ist es auch wünschenswert, wenn die Kurse einen Editor oder Maintainer haben, also ist es auch notwendig, sie dazu zu bringen, ihren Kurs hier mit zu verwalten. Aber ich werde wenn ich mal Zeit habe, einige URLs eintragen.
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 2074
+CREATION_DATETIME: 1371420000000
+MODIFICATION_DATETIME: 1371420000000
+TITLE: Wir bestellen wahrscheinlich doch die große (GT 640). Wehe die passt nicht rein :-)
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2057
+POSTING_TYPE: answer
+CONTENT:
+Wir bestellen wahrscheinlich doch die große (GT 640). Wehe die passt nicht rein :-)
+TAGGED_CONTENT:

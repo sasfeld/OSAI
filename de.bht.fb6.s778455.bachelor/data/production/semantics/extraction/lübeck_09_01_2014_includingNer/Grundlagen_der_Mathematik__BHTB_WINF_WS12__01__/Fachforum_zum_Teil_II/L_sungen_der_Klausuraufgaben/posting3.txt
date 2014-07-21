@@ -1,0 +1,8 @@
+ID: 200467
+CREATION_DATETIME: 1363084432
+MODIFICATION_DATETIME: 1363084432
+TITLE: Re: Lösungen der Klausuraufgaben
+PARENT_POSTING_ID: 200429
+CONTENT:
+Eigentlich geht es bei dieser Aufgabe wirklich schnell wenn man sieht das die --A gestrichen werden können. Ich hab mal meinen Weg angehangen
+TAGGED_CONTENT:

@@ -18,6 +18,7 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.semantic.extraction.AExtractionStrategy;
 import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.ner.EnglishNerExtractionStrategy;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>
@@ -28,49 +29,50 @@ import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.ner.EnglishNerExtract
  * @since 15.01.2014
  * 
  */
-public class EnglishNerExtractionStrategyTest {
-	protected AExtractionStrategy strategy;
+public class EnglishNerExtractionStrategyTest extends NoLoggingTest {
+    protected static final File ENGLISH_CORPUS_FILE = new File(
+            PATH_UNITTEST_DATA_FOLDER
+                    + "/organization/ner/stanford-ner-2013-06-20-english/english.muc.7class.distsim.crf.ser.gz");
 
-	/**
-	 * @throws java.lang.Exception
-	 */
-	@Before
-	public void setUp() throws Exception {
-		this.strategy = new EnglishNerExtractionStrategy( new File(
-				ServiceFactory.getConfigReader().fetchValue(
-						IConfigKeys.ANONYM_NER_ENGLISH_7CLASS_FILE ) ) );
-	}
+    protected AExtractionStrategy strategy;
 
-	/**
-	 * @throws java.lang.Exception
-	 */
-	@After
-	public void tearDown() throws Exception {
-		this.strategy = null;
-	}
-	
-	@Test( expected = IllegalArgumentException.class )
-	public void testWrongClassifier() {
-		File englishCorpusFile = new File( ServiceFactory.getConfigReader()
-				.fetchValue( IConfigKeys.ANONYM_NER_GERMAN_HGC_FILE ) );
-		new EnglishNerExtractionStrategy( englishCorpusFile );
-	}
+    /**
+     * @throws java.lang.Exception
+     */
+    @Before
+    public void setUp() throws Exception {
+        this.strategy = new EnglishNerExtractionStrategy(ENGLISH_CORPUS_FILE);
+    }
 
+    /**
+     * @throws java.lang.Exception
+     */
+    @After
+    public void tearDown() throws Exception {
+        this.strategy = null;
+    }
 
-	@Test
-	public void testExtractSemantics() throws GeneralLoggingException {
-		// create sample posting
-		Posting samplePosting = new Posting();
-		samplePosting
-				.setContent( "The fate of Lehman Brothers, the beleaguered investment bank, hung in the balance on Sunday as Federal Reserve officials and the leaders of major financial institutions continued to gather in emergency meetings trying to complete a plan to rescue the stricken bank.  Several possible plans emerged from the talks, held at the Federal Reserve Bank of New York and led by Timothy R. Geithner, the president of the New York Fed, and Treasury Secretary Henry M. Paulson Jr." );
+    @Test(expected = IllegalArgumentException.class)
+    public void testWrongClassifier() {
+        File englishCorpusFile = new File(ServiceFactory.getConfigReader()
+                .fetchValue(IConfigKeys.ANONYM_NER_GERMAN_HGC_FILE));
+        new EnglishNerExtractionStrategy(englishCorpusFile);
+    }
 
-		this.strategy.extractSemantics( samplePosting );
+    @Test
+    public void testExtractSemantics() throws GeneralLoggingException {
+        // create sample posting
+        Posting samplePosting = new Posting();
+        samplePosting
+                .setContent("The fate of Lehman Brothers, the beleaguered investment bank, hung in the balance on Sunday as Federal Reserve officials and the leaders of major financial institutions continued to gather in emergency meetings trying to complete a plan to rescue the stricken bank.  Several possible plans emerged from the talks, held at the Federal Reserve Bank of New York and led by Timothy R. Geithner, the president of the New York Fed, and Treasury Secretary Henry M. Paulson Jr.");
 
-		System.out.println( samplePosting.getTags( TagType.NER_TAG ) );
+        this.strategy.extractSemantics(samplePosting);
 
-		assertTrue( null != samplePosting.getTags( TagType.NER_TAG ) );
-		assertTrue( samplePosting.getTags( TagType.NER_TAG ).size() > 0 );
+        System.out.println(samplePosting.getTags(TagType.NER_TAG));
 
-	}
+        assertTrue(null != samplePosting.getTags(TagType.NER_TAG));
+        assertTrue(samplePosting.getTags(TagType.NER_TAG).size() > 0);
+
+    }
 
 }

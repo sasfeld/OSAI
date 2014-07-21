@@ -1,0 +1,11 @@
+ID: 237609
+CREATION_DATETIME: 1380619931
+MODIFICATION_DATETIME: 1380619931
+TITLE: Re: Fehler bei der Grafikdarstellung in den Lektionen
+PARENT_POSTING_ID: 237303
+CONTENT:
+Danke <REMOVED_PERSON_ENTITY>, hat mir auch geholfen. Hätte ich echt auch selber drauf kommen können.....
+https://adblockplus. org/de/filters
+@@|http://moodle.oncampus.de
+@@|https://moodle. oncampus. <PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

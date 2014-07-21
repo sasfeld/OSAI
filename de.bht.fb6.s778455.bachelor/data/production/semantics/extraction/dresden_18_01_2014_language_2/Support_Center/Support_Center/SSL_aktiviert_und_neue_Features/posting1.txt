@@ -1,0 +1,16 @@
+ID: 105
+CREATION_DATETIME: 1347832800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Ein wichtiger Part, wir haben SSL aktiviert. Das Zertifikat ist derzeit ein privates (aktualisiert). Das wird aber geändert, sobald uns eines vom ZIH zur Verfügung gestellt werden kann. 
+
+Außerdem hat sich am Design wieder etwas getan. Der Auswahlknopf für private und öffentliche Fragen wurde in eine Checkbox ausgegliedert. Antworten besitzen nun, wie auch Fragen "Banner" diese Unterscheiden sich in der Farbe zwischen privat und öffentlich (orange vs. blau), sodass sie im Stream besser zu unterscheiden sind.
+
+Desweiteren wurden Emailnotifications eingeführt. Diese gehen bei jeder neuen Frage, Antwort, <REMOVED_PERSON_ENTITY> oder Announcement an die Empfänger. Die Empfänger sind alle, die den jeweiligen Kurs abonniert haben. In den [Benutzereinstellungen](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/users/edit) können diese Email-Notifications deaktiviert oder aktiviert werden. Hier werden weitere Funktionen hinzugefügt.
+
+// <REMOVED_PERSON_ENTITY> angepasst.
+TAGGED_CONTENT:

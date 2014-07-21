@@ -1,0 +1,9 @@
+ID: 1940
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: Ebenfalls wichtig: Die Datei setup_prefix, die mit ". ./" ausgeführt werden muss (bzw. eine eigene Ve...
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Ebenfalls wichtig: Die Datei setup_prefix, die mit ". ./" ausgeführt werden muss (bzw. eine eigene Version davon schreiben, die einem den Pfad zu LLVM 3. 2 zeigt) - ich habe einfach mal die Readme aktualisiert.
+TAGGED_CONTENT:

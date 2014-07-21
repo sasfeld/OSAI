@@ -1,0 +1,9 @@
+ID: 889
+CREATION_DATETIME: 1354057200000
+MODIFICATION_DATETIME: 1354143600000
+TITLE: Die "My courses" - Seite nicht in so einem ungleichmäßigen Kachellayout, sondern zum durchblättern (A...
+PARENT_POSTING_ID: 369
+POSTING_TYPE: answer
+CONTENT:
+Die "My courses" - <REMOVED_PERSON_ENTITY> nicht in so einem ungleichmäßigen Kachellayout, sondern zum durchblättern (Apfellisten kennen das als [Cover Flow Layout](http://wiki.team-mediaportal. com/1_MEDIAPORTAL_1/14_Using_MediaPortal/01_Basics/1_Layouts/Cover_Flow) ). Extra Kudos, wenn ich per Hotkey durchblättern und auswählen kann.
+TAGGED_CONTENT:

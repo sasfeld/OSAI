@@ -1,0 +1,17 @@
+ID: 25
+CREATION_DATETIME: 1201112220000
+MODIFICATION_DATETIME: 1201112220000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+    
+    Hallo Ihr Lieben,
+kommt Ihr gut voran? Ich habe ganz schönen bammel vor Montag! in Gedanken Ich habe gerade die Testaufgabe 3C programmiert, was ich im westentlichen auch ganz gut gepackt habe. Aber wie bekommt man denn den Cursor bei der Ausgabe in die nächste Zeile? Das habe ich nicht rausfinden können. Vielleicht kann mir ja jemand weiterhelfen!? Würde mich freuen!
+ Danke für die Antwort auf meine letzte Frage!!!
+
+Liebe Grüße,
+    
+    
+TAGGED_CONTENT:

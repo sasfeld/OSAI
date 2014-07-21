@@ -1,0 +1,26 @@
+ID: 32
+CREATION_DATETIME: 1177170780000
+MODIFICATION_DATETIME: 1177170780000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 31
+CONTENT:
+
+Hallo,
+
+das hat mich auch verwundert. Nach etwas Suchen hab ich jedoch folgendes gefunden:
+
+"Mathematische Fehler
+
+Division durch Null und andere "verbotene" mathematische Berechnungen bewirken nur bei ganzzahligen Typen wie int, long etc. eine entsprechende Exception.
+
+Bei float- und double-Zahlen bewirken Division durch Null, Logarithmus einer negativen Zahl und ähnliche "falsche" Operationen hingegen keine Exception sondern liefern als Ergebnis die speziellen Werte "unendlich" (infinite) bzw. "unbestimmt" (keine Zahl, not a number). Für die Abfrage dieser Werte und Bedingungen gibt es eigene Konstanten und Methoden in den Klassen Float und Double."
+Quelle: http://www.boku.ac.at/javaeinf/jein1.html
+
+Die Division unendlich/null ist als unendlich definiert. (http://de.answers.yahoo.com/question/index?qid=20080520054937AAgXRko, hier kannst du kurz nachlesen warum das so ist, ich denke mal wir machen das in Mathe auch noch)
+Unendlich/unendlich ist allerdings nicht definiert, da müsste man mal ausprobieren was Java da ausgibt.
+
+Grüße 
+
+    
+TAGGED_CONTENT:

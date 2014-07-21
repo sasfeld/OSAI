@@ -1,0 +1,10 @@
+ID: 997
+CREATION_DATETIME: 1355958000000
+MODIFICATION_DATETIME: 1355958000000
+TITLE: the file compiles fine, but have the same problem : Permission denied
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 991
+POSTING_TYPE: comment
+CONTENT:
+the file compiles fine, but have the same problem : Permission denied
+TAGGED_CONTENT:

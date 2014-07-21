@@ -1,0 +1,26 @@
+ID: 623
+CREATION_DATETIME: 1351638000000
+MODIFICATION_DATETIME: 1351638000000
+TITLE: Genauso hatte ich mir das vorgestellt, da kann ich gleich hier was für alle schreiben: Das ist tatsäc...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 606
+POSTING_TYPE: comment
+CONTENT:
+Genauso hatte ich mir das vorgestellt, <NAME_CORPUS_REPLACEMENT> kann ich gleich hier was für alle schreiben: Das ist tatsächlich ein Fehler in den Folien. Python ist zwar nicht der eigentliche Inhalt des Kurses, aber kann ja nicht schaden: Entweder 
+
+```
+
+python 
+
+```
+
+oder 
+
+```
+
+python -m 
+
+```
+
+Üblicherweise lässt man das -m weg und schreibt . py aus (Der Fehler ist in den Folien schon korriert).
+TAGGED_CONTENT:

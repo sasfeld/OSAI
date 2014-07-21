@@ -1,0 +1,31 @@
+ID: 116466
+CREATION_DATETIME: 1327239711
+MODIFICATION_DATETIME: 1327239819
+TITLE: Re: Aufgabe 9 BeispielklausurSS2011
+TOPIC_ZOOM_TAG: value:Algorithmen;weight:1.0;significance:9.45045297721244;degreegeneralization:5;uri:20898553
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:5.02422544755277;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:5.00780172072213;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+NER_TAG: value:Gaußchen Algorithmus;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:Gaußchen Algorithmus;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:A;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nullsetzen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Variablen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Determinate;weight:0.0;uri:;postag:NN
+POS_TAG: value:Algorithmus;weight:0.0;uri:;postag:NN
+POS_TAG: value:chen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Formel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zahlenz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klammern;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Element;weight:0.0;uri:;postag:NN
+POS_TAG: value:Determinanten;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wert;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 116465
+CONTENT:
+Hier noch eine weiterführende Frage, kann jemand bitte erklären wie man das Nullsetzen von Determinanten durchführt? Leider ist mir das für mich nicht schlüssig. Danke!@Andrea: sofern du durch <REMOVED_PERSON_ENTITY> der Determinate den Wert für a erhalten hast rechnest du wie folgt mit dem Gaußchen Algorithmus:I. 	x+y-z  = 0II. 	x-y-5z = 0III.	2x+y-4z=01	1	-1	|01	-1	-5	|0 |+(-1)*I. 2	1	-4	|01	1	-1	|00	-2	-4	|02	1	-4	|0 |+(-2)*I. 1	1	-1	|00	-2	-4	|00	-1	-2	|0 |+(-0, 5)*II. 1	1	-1	|00	-2	-4	|00	0	0	|0 --&gt; r(A) = 2--&gt; Formelnx+y-z = 0-2y-4z =0n = 3 Variablen --&gt; n-r = 1 --&gt; Rangabfallz=t Element der reelen Zahlenz=t einsetzen-2y-4t=0	|+4t-2y =4t 	|: (-2)y=-2t--&gt;y und z in erste Formel einsetzenx+(-2t)-t=0 |+3tx=3tx  	         3y	=	-2	*tz  	         1hier müssten eigentlich die Klammern wie in der Lösung rum, aber ich weiß leider nicht wie ich die rumbekomme. Hoffe das hat dir geholfen. Jetzt fehlt nur jemand der das Nullsetzen von Determinanten erklärt. 	
+TAGGED_CONTENT:
+Hier_ADV noch_ADV eine_ART weiterführende_ADJA Frage_NN ,_$, kann_VMFIN jemand_PIS bitte_PTKANT erklären_VVINF wie_KOKOM man_PIS das_ART Nullsetzen_NN von_APPR Determinanten_NN durchführt_VVPP ?_$. Leider_ADV ist_VAFIN mir_PPER das_ART für_APPR mich_PPER nicht_PTKNEG schlüssig_ADJD ._$. Danke!@Andrea:_PROAV sofern_KOUS du_PPER durch_APPR <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN der_ART Determinate_NN den_ART Wert_NN für_APPR a_NE erhalten_VVFIN hast_VAFIN rechnest_ADV du_PPER wie_PWAV folgt_VVFIN mit_APPR dem_ART Gaußchen_NN Algorithmus_NN :_$. I._ADJD x_XY +_XY y-z_XY =_XY 0II_CARD ._$. x-y-5z_XY =_XY 0III_CARD ._$. 2x_XY +_XY y-4z_XY =_XY 01_CARD 1_CARD -1_CARD |_CARD 01_CARD -1_CARD -5_CARD |_CARD 0_CARD |_CARD +_XY -LRB-_TRUNC -1_CARD -RRB-_TRUNC \*_PPER I._ADJD 2_CARD 1_CARD -4_CARD |_CARD 01_CARD 1_CARD -1_CARD |_CARD 00_CARD -2_CARD -4_CARD |_CARD 02_CARD 1_CARD -4_CARD |_CARD 0_CARD |_CARD +_XY -LRB-_TRUNC -2_XY -RRB-_TRUNC \*_PPER I._ADJD 1_CARD 1_CARD -1_CARD |_CARD 00_CARD -2_CARD -4_CARD |_CARD 00_CARD -1_CARD -2_CARD |_CARD 0_CARD |_CARD +_XY -LRB-_TRUNC -0_TRUNC ,_$, 5_CARD -RRB-_TRUNC \*_KON II_CARD ._$. 1_CARD 1_CARD -1_CARD |_CARD 00_CARD -2_CARD -4_CARD |_CARD 00_CARD 0_CARD 0_CARD |_CARD 0_CARD --_-- >_XY r_XY -LRB-_TRUNC A_NN -RRB-_TRUNC =_XY 2_CARD --_-- >_XY Formelnx_NE +_XY y-z_XY =_XY 0-2y-4z_XY =_XY 0n_XY =_XY 3_CARD Variablen_NN --_-- >_XY n-r_XY =_XY 1_CARD --_-- >_XY Rangabfallz_XY =_XY t_XY Element_NN der_ART reelen_ADJA Zahlenz_NN =_XY t_XY einsetzen-2y-4t_XY =_XY 0_CARD |_XY +4_CARD t-2y_XY =_XY 4t_CARD |_CARD :_$. -LRB-_TRUNC -2_XY -RRB-_TRUNC y_NE =_XY -2_CARD t_XY --_-- >_XY y_NE und_KON z_NE in_APPR erste_ADJA Formel_NN einsetzenx_ADJD +_KON -LRB-_TRUNC -2_XY t_XY -RRB-_TRUNC -_$( t_XY =_XY 0_CARD |_XY +3_CARD tx_XY =_XY 3tx_CARD 3y_XY =_XY -2_CARD \*_CARD tz_CARD 1hier_CARD müssten_VVFIN eigentlich_ADV die_ART Klammern_NN wie_KOKOM in_APPR der_ART Lösung_NN rum_PTKVZ ,_$, aber_KON ich_PPER weiß_VVFIN leider_ADV nicht_PTKNEG wie_KOKOM ich_PPER die_ART rumbekomme_ADJA ._$. Hoffe_VVFIN das_PDS hat_VAFIN dir_PPER geholfen_VVPP ._$. Jetzt_ADV fehlt_VVFIN nur_ADV jemand_PIS der_ART das_ART Nullsetzen_NN von_APPR Determinanten_NN erklärt_VVPP ._$. 

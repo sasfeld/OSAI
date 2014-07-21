@@ -1,0 +1,12 @@
+ID: 177483
+CREATION_DATETIME: 1352052479
+MODIFICATION_DATETIME: 1352052479
+TITLE: Re: Online Präsenz 31.10. Konjunktive Normalform
+PARENT_POSTING_ID: 177437
+CONTENT:
+das leuchtet mir nicht ganz ein.
+Wenn ich die rote Zeile 1 betrachte , kann ich daraus folgende Formel ableiteiten.
+(NICHT A UND B UND NICHT C)
+Wenn ich diese nun negiere erhalte ich folgendes:
+NICHT (NICHT A UND B UND NICHT C) Wenn diese Zustand eintriffst ist X doch wahr, oder nicht?
+TAGGED_CONTENT:

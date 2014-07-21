@@ -1,0 +1,19 @@
+ID: 34
+CREATION_DATETIME: 1178020740000
+MODIFICATION_DATETIME: 1178020740000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 33
+CONTENT:
+  
+Hallöle zusammen,
+
+den CLASSPATH habe ich so im System und mit der entsprechenden Reihenfolge eingetragen. Ich arbeite mit Eclipse und nun wirft Eclpise folgenden Fehler aus : Exception in thread "main" java.lang.Error: Unresolved compilation problems: Cannot make a static reference to the non-static method getInputDouble(String) from the type Konsole
+
+Ich habe schon in Eclipse unter "JAVA BUILD PATH" - "LIBARIES" den Pfad zur Konsole angeben, aber irgendwie wirft er immer noch diesen Fehler aus.
+
+Weiß langsam nicht mehr weiter. Kann mir jemand weiterhelfen?
+
+Viele Grüße,
+    
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 189205
+CREATION_DATETIME: 1356557046
+MODIFICATION_DATETIME: 1356557046
+TITLE: Re: 2. Gruppenaufgabe
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 189203
+CONTENT:
+ok hat sich erledigt. Bin selbst drauf gekommen
+TAGGED_CONTENT:
+ok_NE hat_VAFIN sich_PRF erledigt_VVPP ._$. Bin_VAFIN selbst_ADV drauf_PROAV gekommen_VVPP 

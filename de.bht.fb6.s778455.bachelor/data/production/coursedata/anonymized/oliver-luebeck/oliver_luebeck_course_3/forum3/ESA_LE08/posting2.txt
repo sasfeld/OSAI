@@ -1,0 +1,29 @@
+ID: 5
+CREATION_DATETIME: 1195044180000
+MODIFICATION_DATETIME: 1195044180000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 4
+CONTENT:
+
+    Hallo ,
+
+ich bin sogar noch weiter im Rückstand als Du, da ich hier mitten in einem dreiwöchigen Audit festhänge, also keine Panik.
+
+Die Frage mit der Schleife kann ich Dir daher nicht beantworten, aber natürlich kannst Du eine Benutzereingabe an ein Array oder Vektor übergeben.
+
+Wenn es sich um einen neuen - zusätzlichen - Wert handelt, mußt Du nur prüfen
+
+- ob im Array oder im Vektor noch Platz für einen weiteren Eintrag ist (ausser bei der generischen Klasse Vektor(T), der verwaltet sich von alleine und da kann man "stumpf" hinzufügen)
+- wenn kein Platz mehr ist, diesen erst vergrößern (quasi eine Neuanlage mit kopieren der bestehenden Inhalte)
+- wenn Platz ist, feststellen, an welcher Stelle der letzte Eintrag ist und dann die Benutzereingabe an letzteStelle+1 speichern.
+
+Was Dir passieren kann ist, dass Du die Eingabe entweder in das vom Array/Vektor erwartete Format konvertierst (bswp. String -> Integer, oder in ein Objekt mit passender Struktur) ODER Du legst das Array bzw. den Vektor bereits typ-konform an.
+
+Leider hab ich gerade nicht die Zeit, mir die Aufgabe im Detail anzuschauen, aber ich versuche heute oder morgen Dir zu obigem Beispiele rauszusuchen und zu posten.
+
+^^^^ Alles nur nach meinem Wissensstand. Sollte ich irgendwo etwas falsches geschrieben haben, korrigiert mich bitte, damit ich dazulernen kann. Thx ;) ^^^^
+Liebe Grüße,
+
+    
+TAGGED_CONTENT:

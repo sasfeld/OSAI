@@ -1,0 +1,56 @@
+ID: 170027
+CREATION_DATETIME: 1350145144
+MODIFICATION_DATETIME: 1350145144
+TITLE: Re: Fragen zur Präsenz 1 
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Primzahlen;weight:11.0;significance:12.7085495152339;degreegeneralization:7;uri:20841025
+TOPIC_ZOOM_TAG: value:Zahlentheorie;weight:11.0;significance:11.6099372265658;degreegeneralization:6;uri:20881383
+TOPIC_ZOOM_TAG: value:Mathematik;weight:11.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:11.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:11.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:11.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Primfaktoren;weight:2.0;significance:2.31064536640616;degreegeneralization:8;uri:19749455
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:11.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Poker;weight:1.0;significance:1.02929592310127;degreegeneralization:7;uri:20124220
+TOPIC_ZOOM_TAG: value:Kartenspiele;weight:1.0;significance:0.937332203857782;degreegeneralization:6;uri:21880694
+TOPIC_ZOOM_TAG: value:Glückspiel und Lotterie;weight:1.0;significance:0.654469198055086;degreegeneralization:3;uri:21868335
+TOPIC_ZOOM_TAG: value:Tipps;weight:1.0;significance:0.542979045544691;degreegeneralization:4;uri:20291636
+TOPIC_ZOOM_TAG: value:Spiele;weight:1.0;significance:0.454844276397055;degreegeneralization:5;uri:20990217
+TOPIC_ZOOM_TAG: value:Spiele und Spielwaren;weight:1.0;significance:0.452899622762389;degreegeneralization:4;uri:21976965
+TOPIC_ZOOM_TAG: value:Hobby;weight:1.0;significance:0.450019640703911;degreegeneralization:3;uri:21999660
+TOPIC_ZOOM_TAG: value:Unterhaltung;weight:1.0;significance:0.408774882782772;degreegeneralization:3;uri:21999643
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:0.312867754194564;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:0.19829924144688;degreegeneralization:2;uri:21990259
+POS_TAG: value:Poker;weight:0.0;uri:;postag:NN
+POS_TAG: value:Primfaktor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beweise;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gegenteil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Schreiben;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fall;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skeptiker;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beste;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zahl;weight:0.0;uri:;postag:NN
+POS_TAG: value:Akte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorgehen;weight:0.0;uri:;postag:NN
+POS_TAG: value:berzeugung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gedankengang;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zahlen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Annahme;weight:0.0;uri:;postag:NN
+POS_TAG: value:Primzahlen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Primzahl;weight:0.0;uri:;postag:NN
+POS_TAG: value:Punkte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Widerspruch;weight:0.0;uri:;postag:NN
+POS_TAG: value:Produkt;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 167889
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+da spiele ich jetzt einmal den kritischen Skeptiker, den es zu überzeugen gilt (ich sagte ja, Beweise sind Akte der Überzeugung):
+Sie schreiben M={3, 5, 7, 11, 13, 17, 19,...}. Hier nehmen Sie zuerst an, es gebe nur endlich viele Primzahlen. Danach schreiben Sie sieben Ihnen bekannte Primzahlen in eine <REMOVED_PERSON_ENTITY> M und notieren drei Punkte "..." dahinter. Wofür stehen die drei Punkte? Für die restlichen der - nur als endlich viele angenommenen - Primzahlen? Dann ergäbe sich kein Widerspruch. Wenn sie für die unendlich vielen weiteren Primzahlen stehen (wo Sie ja gerade das Gegenteil angenommen haben), zeige ich mich demonstrativ skeptisch und mache ich es wie beim Poker: Ich will sehen! Schreiben Sie bitte ausführlich aus, was die drei Punkte abkürzen, d. h. ich will ALLE weiteren Primzahlen wissen, so dass ich einsehe, dass es tatsächlich unendlich viele sind....
+Im zweiten Fall sieht es ähnlich aus: "die darauf folgende Primzahl" - heißt was? Sie haben gerade angenommen, dass es nur endlich viele gibt und z die größte ist. Was genau soll dann "die darauf folgende Primzahl" sein, wenn es sie doch nach Annahme nicht gibt? Zudem hakt es in Ihrem Produkt: Es kann z*(irgendwas) keine Primzahl sein, denn sie ist ersichtlich Produkt zweier Zahlen ungleich eins.
+Tipp zum weiteren Vorgehen: Nehmen Sie an, 3 und 5 und 7 wären die einzigen Primzahlen. Könnten Sie abhängig von diesen Zahlen eine weitere Zahl konstruieren, die wohl selber entweder eine Primzahl ist oder einen Primfaktor ungleich 3, 5, 7 hat? Gemeint ist hier, nicht einfach 11 anzugeben, sondern sich zu überlegen, wie eine <REMOVED_PERSON_ENTITY> gewonnen werden kann, die weder durch 3 noch durch 5 noch durch 7 teilbar ist. Diese ist dann entweder Primzahl (dann aber größer als 7) oder enthält einen noch unbekannten Primfaktor (wo doch 3, 5, 7 alle möglichen sein sollten). Da würde den Widerspruch bringen. Diesen Gedankengang müssen Sie sodann etwas abstrakter fassen: Angenommen p_1,..., p_n wären die einzigen Primzahlen. Sie würden aus diesen eine <REMOVED_PERSON_ENTITY> konstruieren, die durch keine dieser Zahlen teilbar ist usw.
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, da_ADV spiele_VVFIN ich_PPER jetzt_ADV einmal_ADV den_ART kritischen_ADJA Skeptiker_NN ,_$, den_PRELS es_PPER zu_PTKZU überzeugen_VVINF gilt_VVFIN -LRB-_TRUNC ich_PPER sagte_VVFIN ja_ADV ,_$, Beweise_NN sind_VAFIN Akte_NN der_ART Überzeugung_NN -RRB-_TRUNC :_$. Sie_PPER schreiben_VVFIN M_NE ={_CARD 3_CARD ,_$, 5_CARD ,_$, 7_CARD ,_$, 11_CARD ,_$, 13_CARD ,_$, 17_CARD ,_$, 19_CARD ,_$, ..._$( -RCB-_TRUNC ._$. Hier_ADV nehmen_VVFIN Sie_PPER zuerst_ADV an_PTKVZ ,_$, es_PPER gebe_VVFIN nur_ADV endlich_ADV viele_PIDAT Primzahlen_NN ._$. Danach_PROAV schreiben_VVFIN Sie_PPER sieben_CARD Ihnen_PPER bekannte_ADJA Primzahlen_NN in_APPR eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN M_NE und_KON notieren_VVFIN drei_CARD Punkte_NN "_$( ..._$( "_$( dahinter_PROAV ._$. Wofür_PWAV stehen_VVFIN die_ART drei_CARD Punkte_NN ?_$. Für_APPR die_ART restlichen_ADJA der_ART -_$( nur_ADV als_APPR endlich_ADV viele_PIDAT angenommenen_ADJA -_$( Primzahlen_NN ?_$. Dann_ADV ergäbe_VVFIN sich_PRF kein_PIAT Widerspruch_NN ._$. Wenn_KOUS sie_PPER für_APPR die_ART unendlich_ADJD vielen_PIDAT weiteren_ADJA Primzahlen_NN stehen_VVFIN -LRB-_TRUNC wo_PWAV Sie_PPER ja_ADV gerade_ADV das_ART Gegenteil_NN angenommen_VVPP haben_VAFIN -RRB-_TRUNC ,_$, zeige_VVFIN ich_PPER mich_PRF demonstrativ_ADJD skeptisch_ADJD und_KON mache_VVFIN ich_PPER es_PPER wie_KOKOM beim_APPRART Poker_NN :_$. Ich_PPER will_VMFIN sehen_VVINF !_$. Schreiben_NN Sie_PPER bitte_VVFIN ausführlich_ADJD aus_PTKVZ ,_$, was_PWS die_ART drei_CARD Punkte_NN abkürzen_VVINF ,_$, d._PDS h._VVFIN ich_PPER will_VMFIN ALLE_NE weiteren_ADJA Primzahlen_NN wissen_VVINF ,_$, so_ADV dass_KOUS ich_PPER einsehe_VVFIN ,_$, dass_KOUS es_PPER tatsächlich_ADJD unendlich_ADJD viele_PIS sind_VAFIN ..._$( Im_APPRART zweiten_ADJA Fall_NN sieht_VVFIN es_PPER ähnlich_ADJD aus_PTKVZ :_$. "_$( die_ART darauf_PROAV folgende_ADJA Primzahl_NN "_$( -_$( heißt_VVFIN was_PWS ?_$. Sie_PPER haben_VAFIN gerade_ADV angenommen_VVPP ,_$, dass_KOUS es_PPER nur_ADV endlich_ADV viele_PIS gibt_VVFIN und_KON z_VVFIN die_ART größte_ADJA ist_VAFIN ._$. Was_PWS genau_ADV soll_VMFIN dann_ADV "_$( die_ART darauf_PROAV folgende_ADJA Primzahl_NN "_$( sein_VAINF ,_$, wenn_KOUS es_PPER sie_PPER doch_ADV nach_APPR Annahme_NN nicht_PTKNEG gibt_VVFIN ?_$. Zudem_PROAV hakt_VVFIN es_PPER in_APPR Ihrem_PPOSAT Produkt_NN :_$. Es_PPER kann_VMFIN z_XY \*_CARD -LRB-_TRUNC irgendwas_PIAT -RRB-_TRUNC keine_PIAT Primzahl_NN sein_VAINF ,_$, denn_KON sie_PPER ist_VAFIN ersichtlich_ADJD Produkt_NN zweier_ADJA Zahlen_NN ungleich_ADJD eins_PIS ._$. Tipp_NE zum_APPRART weiteren_ADJA Vorgehen_NN :_$. Nehmen_VVFIN Sie_PPER an_PTKVZ ,_$, 3_CARD und_KON 5_CARD und_KON 7_CARD wären_VAFIN die_ART einzigen_ADJA Primzahlen_NN ._$. Könnten_VMFIN Sie_PPER abhängig_ADJD von_APPR diesen_PDAT Zahlen_NN eine_ART weitere_ADJA Zahl_NN konstruieren_VVFIN ,_$, die_ART wohl_ADV selber_ADV entweder_KON eine_ART Primzahl_NN ist_VAFIN oder_KON einen_ART Primfaktor_NN ungleich_ADJD 3_CARD ,_$, 5_CARD ,_$, 7_CARD hat_VAFIN ?_$. Gemeint_VVPP ist_VAFIN hier_ADV ,_$, nicht_PTKNEG einfach_ADJD 11_CARD anzugeben_VVIZU ,_$, sondern_KON sich_PRF zu_PTKZU überlegen_VVINF ,_$, wie_PWAV eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD gewonnen_VVPP werden_VAINF kann_VMFIN ,_$, die_PRELS weder_KON durch_APPR 3_CARD noch_ADV durch_APPR 5_CARD noch_ADV durch_APPR 7_CARD teilbar_ADJD ist_VAFIN ._$. Diese_PDS ist_VAFIN dann_ADV entweder_KON Primzahl_NN -LRB-_TRUNC dann_ADV aber_ADV größer_ADJD als_APPR 7_CARD -RRB-_TRUNC oder_KON enthält_VVFIN einen_ART noch_ADV unbekannten_ADJA Primfaktor_NN -LRB-_TRUNC wo_PWAV doch_ADV 3_CARD ,_$, 5_CARD ,_$, 7_CARD alle_PIDAT möglichen_ADJA sein_VAINF sollten_VMFIN -RRB-_TRUNC ._$. Da_ADV würde_VAFIN den_ART Widerspruch_NN bringen_VVINF ._$. Diesen_PDAT Gedankengang_NN müssen_VMFIN Sie_PPER sodann_ADV etwas_PIS abstrakter_ADJD fassen_VVINF :_$. Angenommen_VVPP p_1_CARD ,_$, ..._$( ,_$, p_n_VVFIN wären_VAFIN die_ART einzigen_ADJA Primzahlen_NN ._$. Sie_PPER würden_VAFIN aus_APPR diesen_PDAT eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD konstruieren_VVFIN ,_$, die_PRELS durch_APPR keine_PIAT dieser_PDAT Zahlen_NN teilbar_ADJD ist_VAFIN usw_ADJD ._$. Beste_NN Grüße_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ._$. 

@@ -1,0 +1,14 @@
+ID: 168057
+CREATION_DATETIME: 1349682307
+MODIFICATION_DATETIME: 1349682307
+TITLE: Re: Frage zu Präsenz 1 
+PARENT_POSTING_ID: 167859
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+Ihre Negation ist formal schon einmal korrekt.
+Was wir in der Präsenz noch gemacht haben, ist die Umformung zwischen "für alle" und "es gibt". Wenn Sie eine "es gibt"-Aussage negieren, dann können Sie das immer statt mit "es gibt nicht" auch in der Form "für alle" notieren. 
+Ansatz: Wenn es ein Ding mit einer Eigenschaft nicht gibt, dann haben halt alle Dinge diese Eigenschaft nicht. Umgekehrt, wenn eine Eigenschaft nicht für alle gilt, dann gibt es mindestens eine Ausnahme.
+Wenn es also keine natürliche Zahl gäbe, die größer als 7 ist, dann müssten alle natürlichen Zahlen kleiner oder gleich 6 sein.
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

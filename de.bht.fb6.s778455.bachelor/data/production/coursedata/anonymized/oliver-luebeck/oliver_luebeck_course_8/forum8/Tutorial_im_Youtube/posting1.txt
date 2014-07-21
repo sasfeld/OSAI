@@ -1,0 +1,18 @@
+ID: 57
+CREATION_DATETIME: 1199887200000
+MODIFICATION_DATETIME: 1199887200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo Leute,
+
+Ich habe im Youtube einen guten Java-Tutorial Channel gefunden.
+Für alle Interessierte der Link:
+http://www.youtube.com/user/F4bisTutorials#p/c/1C04C2581BDA4E1D/0/bYrwnH23-SA
+
+LG
+
+    
+TAGGED_CONTENT:

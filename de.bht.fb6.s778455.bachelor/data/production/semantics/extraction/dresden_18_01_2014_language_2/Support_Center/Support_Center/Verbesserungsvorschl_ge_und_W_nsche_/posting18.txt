@@ -1,0 +1,10 @@
+ID: 515
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1351202400000
+TITLE: Leider kommt man damit immer auf der Startseite raus, auch wenn man einen Link zu einem Post/Course g...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 392
+POSTING_TYPE: comment
+CONTENT:
+Leider kommt man damit immer auf der Startseite raus, auch wenn man einen Link zu einem Post/Course gefolgt ist.
+TAGGED_CONTENT:

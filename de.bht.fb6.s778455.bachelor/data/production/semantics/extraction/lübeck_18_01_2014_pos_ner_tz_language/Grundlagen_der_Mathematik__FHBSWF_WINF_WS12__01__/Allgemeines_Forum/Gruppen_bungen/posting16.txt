@@ -1,0 +1,16 @@
+ID: 195701
+CREATION_DATETIME: 1358950572
+MODIFICATION_DATETIME: 1358950572
+TITLE: Re: Gruppenübungen
+LANGUAGE: GERMAN
+POS_TAG: value:Herr;weight:0.0;uri:;postag:NN
+POS_TAG: value:Verstanden;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 195189
+CONTENT:
+Vielen Dank Herr <REMOVED_PERSON_ENTITY>.
+Ich hab es Verstanden! 
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Vielen_PIDAT Dank_NN Herr_NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE ._$. Ich_PPER hab_VAFIN es_PPER Verstanden_NN !_$. Gruß_NE <_NE PERSONAL_GREETING_REMOVEMENT_NE >_XY 

@@ -1,0 +1,10 @@
+ID: 1650
+CREATION_DATETIME: 1364252400000
+MODIFICATION_DATETIME: 1364252400000
+TITLE: Your answer still sounds a bit confused. If you want, just come by my office and I'll draw you a pict...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1646
+POSTING_TYPE: comment
+CONTENT:
+Your answer still sounds a bit confused. If you want, <NAME_CORPUS_REPLACEMENT> come by my office and I'll draw you a picture. The statement from the lecture doesn't sound very convincing either.
+TAGGED_CONTENT:

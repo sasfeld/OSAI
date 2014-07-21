@@ -1,0 +1,24 @@
+ID: 2072200
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: KP Linux Cluster in Theorie und Praxis
+LANGUAGE: GERMAN
+SUMMARY: null
+TOPIC_ZOOM_TAG: value:Linux;weight:1.0;significance:4.25944738660375;degreegeneralization:9;uri:20901579
+TOPIC_ZOOM_TAG: value:Unix;weight:1.0;significance:4.19553070084881;degreegeneralization:8;uri:20901086
+TOPIC_ZOOM_TAG: value:Wissenschaftliche Theorie und Theorien;weight:1.0;significance:3.62448200054489;degreegeneralization:3;uri:20916437
+TOPIC_ZOOM_TAG: value:Betriebssysteme;weight:1.0;significance:3.38682765980717;degreegeneralization:7;uri:20921095
+TOPIC_ZOOM_TAG: value:Software;weight:1.0;significance:2.60511682223347;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:2.51211272377639;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:2.50390086036106;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:2.15506992990383;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:2.00351838218053;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.83083484620539;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+NER_TAG: value:KP Linux Cluster;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Theorie;weight:0.0;uri:;postag:NN
+POS_TAG: value:Praxis;weight:0.0;uri:;postag:NN

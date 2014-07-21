@@ -1,0 +1,10 @@
+ID: 760
+CREATION_DATETIME: 1352761200000
+MODIFICATION_DATETIME: 1352761200000
+TITLE: >Laut Rücksprache mit Sascha aus dem FSR, sollte dort Übung stehen und nicht Seminar, da das Hauptsem...
+PARENT_POSTING_ID: 728
+POSTING_TYPE: comment
+CONTENT:
+>Laut Rücksprache mit <REMOVED_PERSON_ENTITY> aus dem FSR, sollte dort Übung stehen und nicht Seminar, <NAME_CORPUS_REPLACEMENT> das Hauptseminar anders angerechnet wird. Also ist es wie in den anderen Modulen korrekt wenn z. B. 2x 2/2/0 genommen wird, also V+Ü.
+Warum/Wie kommt Sascha/der FSR zu einer anderen Ansicht? Bei einer so klaren Aussage muss es doch schon vorher entweder eine entsprechende Aussage <NAME_CORPUS_REPLACEMENT> "offizieller" Seite gegeben haben oder einen Fall, bei dem 4 SWS Vorlesung und 4 SWS Übung erfolgreich eingereicht werden konnten.
+TAGGED_CONTENT:

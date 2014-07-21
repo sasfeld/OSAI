@@ -1,0 +1,11 @@
+ID: 1415
+CREATION_DATETIME: 1362783600000
+MODIFICATION_DATETIME: 1362783600000
+TITLE: If by hardware addresses you mean physical addresses: no, not necessarily. Swapping would be implemen...
+PARENT_POSTING_ID: 1412
+POSTING_TYPE: answer
+CONTENT:
+If by hardware addresses you mean physical addresses: no, not necessarily. Swapping would be implemented by a dataspace manager. The manager knows which chunks of memory have been handed out and <NAME_CORPUS_REPLACEMENT> revoke the mappings  using the `l4_fpage_unmap()` system call. This will remove all references to the dataspace's pages from all other tasks (e. g., <NAME_CORPUS_REPLACEMENT> the entries as non-present in the tasks' page tables).
+Once this is done the DS manager copies the data to disk and releases it from its local address space. If you later want to resume the task, the DS manager gets the data back from disk and puts it somewhere into its virtual address space. (not necessarily to the same place as before). Then the resumed task executes and starts touching its memory. At this point, the RM will get involved, find out that which dataspace the page faults come from and obtain new mappings (to the same *virtual* adress as before) from the DS manager.
+You might want to look up the details in <REMOVED_PERSON_ENTITY>'s [Belegarbeit](http://os.inf.tu-dresden. de/papers_ps/sumpf-beleg. pdf). His [Diploma thesis](http://os.inf.tu-dresden. de/papers_ps/sumpf-diplom. pdf) has a cool use case for that stuff.
+TAGGED_CONTENT:

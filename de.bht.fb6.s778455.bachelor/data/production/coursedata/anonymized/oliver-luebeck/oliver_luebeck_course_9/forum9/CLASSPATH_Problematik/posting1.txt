@@ -1,0 +1,23 @@
+ID: 27
+CREATION_DATETIME: 1177437480000
+MODIFICATION_DATETIME: 1177437480000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo an alle,
+
+ich bin gerade dabei LE07 zu machen. Soweit hat alles funktioniert, bis ich für das Import Package de. ... einen neuen Classpath gesetzt habe.
+
+Meine Dateien liegen im Ordner Studium/M2_Programmierung/
+
+dort habe ich auch das package de.vfh.... und so weiter reingelegt.
+
+Dann habe ich per Terminal set CLASSPATH=e:\Studium\M2_Programmierung\ gesetzt.
+
+Seit dem ich dass gemacht habe, funktioniert kein einziges Javaprogramm mehr. Habe schon gegoogelt und rumprobiert.
+
+Würde mich sehr über Hilfe freuen
+     
+TAGGED_CONTENT:

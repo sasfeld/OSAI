@@ -1,0 +1,12 @@
+ID: 2159
+CREATION_DATETIME: 1372802400000
+MODIFICATION_DATETIME: 1372802400000
+TITLE: Nach meinem jetzigen Commit funktioniert der TestMax Kernel und es wird gezeigt, dass das Ergebnis ri...
+PARENT_POSTING_ID: 2108
+POSTING_TYPE: answer
+CONTENT:
+Nach meinem jetzigen Commit funktioniert der TestMax Kernel und es wird gezeigt, dass das Ergebnis richtig ist.
+Ich habe in dem Zug auch die Basisklasse TestCase angepasst, damit diese die notwendigen Members aufnimmt.
+Wir haben mit unserem derzeitigen Benutzerinterface auch ein Problem, wenn man einen Kernel mehrmals und zeitgleich ausführen möchte. Das geht nämlich nicht, weil man sich immer nur die Ergebnisse des letzten Runs holen kann. Deshalb führe ich jetzt die ExecutionInstance wieder ein und entferne die getResults-Methode aus der Kernelklasse, damit es <NAME_CORPUS_REPLACEMENT> nicht zu Unklarheiten kommt.
+Ich werde ich gleichen Zug die Testcases dahingegend anpassen, dass die bisher implementierte Funktionalität nicht in Mitleidenschaft gezogen wird. Es sind quasi keine größeren Änderungen.
+TAGGED_CONTENT:

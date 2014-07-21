@@ -1,0 +1,9 @@
+ID: 1620
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Wenn ich dort meinen Namen eintragen will erhalte ich dieselbe Fehlermeldung wie oben, da anscheinend...
+PARENT_POSTING_ID: 1614
+POSTING_TYPE: comment
+CONTENT:
+Wenn ich dort meinen Namen eintragen will erhalte ich dieselbe Fehlermeldung wie oben, <NAME_CORPUS_REPLACEMENT> anscheinend früher Leerzeichen erlaubt waren, jetzt aber nicht mehr. 
+TAGGED_CONTENT:

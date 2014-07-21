@@ -1,0 +1,29 @@
+ID: 1987
+CREATION_DATETIME: 1370642400000
+MODIFICATION_DATETIME: 1370642400000
+TITLE: Ein Problem besteht jedoch immer noch, jetzt beim Iterator. Da bekomme ich die Fehlermeldung: 'next()...
+PARENT_POSTING_ID: 1976
+POSTING_TYPE: answer
+CONTENT:
+Ein Problem besteht jedoch immer noch, jetzt beim Iterator. <NAME_CORPUS_REPLACEMENT> bekomme ich die Fehlermeldung: 'next()' in your 'DepthFirstIterator' should return the next element if 'hasNext()' was executed and returned 'true'. expected: but was:
+Das komische ist, dass nicht angezeigt wird, was zurückgeliefert wurde bzw. was erwartet wurde.
+```ruby
+  public boolean hasNext() {
+    if(x>= numberColumns){return false;}
+    for(int i=x; i < numberColumns; i++){
+      for(int j=y; j < numberRows; j++){
+        Point p = new Point(i, j);
+        if(m. containsKey(p)){
+          next=m. get(p); x=i; y=j;
+          if(y < numberRows-1){ y++;}
+          else{ x++; y=0;} // Weitersetzen
+          return true;
+        }
+      }
+      y=0;
+    }
+    return false;
+  }
+```
+Ich geh in 2 Schleifen durch die Matrix, setze im Erfolgsfall x, y und next. Damit im nächsten Durchlauf nicht wieder das nächste Element gefunden wird, setze ich x/ y weiter, also in die nächste Zeile, sofern wir nicht in der letzten sind, und ansonsten in die nächste Spalte. Falls wir vorher schon unten rechts sind, würden wir dann die Matrix verlassen, was am Anfang des Iterators überprüft wird.
+TAGGED_CONTENT:

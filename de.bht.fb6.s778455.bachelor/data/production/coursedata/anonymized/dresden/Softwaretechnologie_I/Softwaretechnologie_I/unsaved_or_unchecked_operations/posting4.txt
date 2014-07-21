@@ -1,0 +1,9 @@
+ID: 2128
+CREATION_DATETIME: 1372456800000
+MODIFICATION_DATETIME: 1372456800000
+TITLE: Beim lokal kompilieren (BlueJ) wird mir nicht gesagt, wo der Fehler ist, nicht mal in welcher Datei. ...
+PARENT_POSTING_ID: 2112
+POSTING_TYPE: comment
+CONTENT:
+Beim lokal kompilieren (BlueJ) wird mir nicht gesagt, wo der Fehler ist, nicht mal in welcher Datei. Die Fehlermeldung ist 1:1 identisch wie im Praktomat.
+TAGGED_CONTENT:

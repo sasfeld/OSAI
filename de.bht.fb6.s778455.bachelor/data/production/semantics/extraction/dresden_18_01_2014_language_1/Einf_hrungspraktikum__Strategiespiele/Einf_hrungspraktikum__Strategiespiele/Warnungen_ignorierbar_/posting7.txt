@@ -1,0 +1,10 @@
+ID: 1225
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1382306400000
+TITLE: was ist denn das für ein müll... mehrfachvergleiche sind zwar syntaktisch richtig, aber er macht dara...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1204
+POSTING_TYPE: question
+CONTENT:
+was ist denn das für ein müll... mehrfachvergleiche sind zwar syntaktisch richtig, aber er macht daraus keine logisxch richtigen schlüsse bei mir... ((a==b)==c) klappt bei mir nur wenn ich schreibe (a==b) && (b==c)... darf ich ernsthaft jetzt 200 zeilen code deswegen umschreiben?
+TAGGED_CONTENT:

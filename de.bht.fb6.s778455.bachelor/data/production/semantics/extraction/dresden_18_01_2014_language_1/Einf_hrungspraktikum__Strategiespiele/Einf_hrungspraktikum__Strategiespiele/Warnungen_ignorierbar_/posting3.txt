@@ -1,0 +1,10 @@
+ID: 1217
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: kannst du mir da einen empfehlen? benutze bis jetzt diesen standard gedit
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1210
+POSTING_TYPE: comment
+CONTENT:
+kannst du mir <NAME_CORPUS_REPLACEMENT> einen empfehlen? benutze bis jetzt diesen standard gedit
+TAGGED_CONTENT:

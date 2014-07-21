@@ -1,0 +1,12 @@
+ID: 1322
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1364079600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+ich hab gerade gegen meinen Player gespielt, hab eine Mühle aufgebaut und wollte dann einen <REMOVED_PERSON_ENTITY> löschen, sollte <LEARNED_PERSON_NAME_REPLACEMENT> eigentlich möglich sein. Der MCP gibt das aber als Invalid. 
+<NAME_CORPUS_REPLACEMENT> das sicher auch meinem Programm passieren kann, würde ich <LEARNED_PERSON_NAME_REPLACEMENT> eine Ausnahme hinzufügen, aber ich weiß nicht was das Problem war.
+http://imageshack.us/photo/my-images/811/mcperror. jpg/
+TAGGED_CONTENT:

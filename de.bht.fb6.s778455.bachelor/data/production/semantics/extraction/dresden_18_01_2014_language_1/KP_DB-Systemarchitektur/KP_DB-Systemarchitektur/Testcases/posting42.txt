@@ -1,0 +1,14 @@
+ID: 2005
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Beim ausführen des execute kommen OpenCL-Fehler. Einerseits:  CL_INVALID_ARG_INDEX, sowie CL_INVALID_...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Beim ausführen des execute kommen OpenCL-Fehler. Einerseits:  <LEARNED_PERSON_NAME_REPLACEMENT>_INVALID_ARG_INDEX, sowie <LEARNED_PERSON_NAME_REPLACEMENT>_INVALID_WORK_GROUP_SIZE. Ist euch bekannt dass diese Fehler auftreten? Habe ich einen Fehler beim aufruf der Kernel?
+
+Edit: Beim aktuellen Durchlauf kamen keine Fehler.
+
+Die ParameterIndizes der KernelParameter beginnen bei 0 oder 1?
+TAGGED_CONTENT:

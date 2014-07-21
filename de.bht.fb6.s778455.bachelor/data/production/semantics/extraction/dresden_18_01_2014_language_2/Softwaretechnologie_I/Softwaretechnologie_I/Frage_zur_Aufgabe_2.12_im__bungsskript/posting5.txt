@@ -1,0 +1,10 @@
+ID: 2093
+CREATION_DATETIME: 1371938400000
+MODIFICATION_DATETIME: 1371938400000
+TITLE: Eigtl sollte man ja gar nichts weiter Inhaltliches spinnen. Und selbst wenn würde ich dennoch 0..1 ne...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2073
+POSTING_TYPE: comment
+CONTENT:
+Eigtl sollte man ja gar nichts weiter Inhaltliches spinnen. Und selbst wenn würde ich dennoch 0.. 1 nehmen, <NAME_CORPUS_REPLACEMENT> ich unter Mietwohnung vermietbare Wohnungen verstehe. Dies schließt ebenfalls mehrere Mieter pro Wohnung aus.
+TAGGED_CONTENT:

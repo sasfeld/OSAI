@@ -1,0 +1,53 @@
+ID: 90
+CREATION_DATETIME: 1295979720000
+MODIFICATION_DATETIME: 1295979720000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Liebe Studierende,
+
+die folgenden Fragen sind moeglicherweise fuer viele interessant. Daher die Antwort im Forum unten.
+Mit freundlichen Gruessen
+
+Frage 1: Aufgabenstellung
+Bei Aufgabe bin ich 1 nicht sicher, wie die Lösung aussehen soll.
+"1. I/O Programmierung und ArrayList<E> mit Java (25 Punkte)
+Schreiben Sie ein Methode public static <E> void schreibeInDatei(String
+dateiName, ArrayList<E> ar), die folgendes leistet. Alle Objekte, die das Arralist<E>-
+Objekt ar enthaltet, werden als Text in die Datei Namens dateiName geschrieben, ein Objekt pro Zeile."
+
+"Als Text speichern" heißt für mich Unicode, also: FileOutputStream--> OutputStreamWriter--> BuffereWriter--> bw.wirte(String s)
+
+Das ArrayList<E> kann jedoch verschiedene Objekte enthalten, nicht nur String und int.
+"ein Objekt pro Zeile" passt eher und ich kann
+FileOutputStream--> ObjectOutputStream--> oos.writeObject(Object o) nutzen
+
+Frage: Welcher Weg ist gefordert?
+Antwort: Mit jedem Objekt kann man eine toString-Methode aufrufen, die entweder aus der Klasse selbst kommt, oder aus einer Oberklasse, vielleicht sogar aus der Object-Klasse. Also ist hier der erste Weg erwartet.
+
+Frage 2: Bewertung
+Wie wird die Aufgabe SimpleGUI ebenfalls im WS2009/2010 bewertet?
+Für 25 Punkte muss hier wohl nicht viel geschrieben werden.
+Meine Lösung auf dem Papier hatte einen Fehler in der anonymen Klasse:
+
+tf.addActionListener(new ActionListener() {
+@Override
+public void actionPerformed(ActionEvent e) {
+System.out.println(tf.getText()); <-- nicht zulässig
+}
+});
+Mit Eclipse habe ich getestet und folgende Lösung erreicht:
+tf.addActionListener(new ActionListener() {
+@Override
+public void actionPerformed(ActionEvent e) {
+String text = ((JTextField)(e.getSource())).getText();
+System.out.println(text);
+}
+});
+Frage: Wieviele Punkte würde ich dadurch verlieren?
+Antwort: Zuerst gab es einen Fehler in der Klausur in Moodle. Ich habe die richtige Version hochgeladen. Der Fehler hat moeglicherweise zur Verwirrung bei Erstellung der Loesung gebracht. VIELEN DANK fuer diese Frage.
+Mit diesem Fehler verlieren Sie knapp die Haelfte der Punkten. Man muss hier auch zeigen, dass man Erreichbarkeit mit inneren Klassen beherrscht. Eine Alternative ist einfach tf als Attribut in der Klasse zu deklarieren, und nicht mehr lokal im Konstruktor. Dann geht der erste Ansatz.
+    
+TAGGED_CONTENT:

@@ -1,0 +1,28 @@
+ID: 1480
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Das kann Memory Corruption sein (also du schreibst über die Grenzen eines Arrays hinaus) oder Use-aft...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+POS_TAG: value:Speicherallokation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beispiel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Grenzen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+POS_TAG: value:free;weight:0.0;uri:;postag:NN
+POS_TAG: value:Programm;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:nge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufrufe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Weile;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tools;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vector;weight:0.0;uri:;postag:NN
+POS_TAG: value:Arrays;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1467
+POSTING_TYPE: answer
+CONTENT:
+Das kann Memory Corruption sein (also du schreibst über die Grenzen eines Arrays hinaus) oder Use-after-free. Um grob das Problem einzugrenzen, kann es manchmal hilfreich sein, ein paar assert Aufrufe zu plazieren, die schauen, dass zum Beispiel dein Vector keine unglaubwürdige Länge hat. Dann schmiert dein Programm eher ab und rechnet nicht noch eine ganze Weile weiter.
+
+Tools wie valgrind können dir auch direkt zeigen, wo du bei der Speicherallokation einen Fehler machst.
+TAGGED_CONTENT:
+Das_PDS kann_VMFIN Memory_NE Corruption_NE sein_PPOSAT -LRB-_TRUNC also_ADV du_PPER schreibst_ADV über_APPR die_ART Grenzen_NN eines_ART Arrays_NN hinaus_APZR -RRB-_TRUNC oder_KON Use-after-free_NN ._$. Um_KOUI grob_ADJD das_ART Problem_NN einzugrenzen_VVIZU ,_$, kann_VMFIN es_PPER manchmal_ADV hilfreich_ADJD sein_VAINF ,_$, ein_ART paar_PIDAT assert_ADJA Aufrufe_NN zu_PTKZU plazieren_VVINF ,_$, die_PRELS schauen_VVINF ,_$, dass_KOUS zum_APPRART Beispiel_NN dein_PPOSAT Vector_NN keine_PIAT unglaubwürdige_ADJA Länge_NN hat_VAFIN ._$. Dann_ADV schmiert_VVFIN dein_PPOSAT Programm_NN eher_ADV ab_PTKVZ und_KON rechnet_VVFIN nicht_PTKNEG noch_ADV eine_ART ganze_ADJA Weile_NN weiter_PTKVZ ._$. Tools_NN wie_KOKOM valgrind_ADJD können_VMFIN dir_PPER auch_ADV direkt_ADJD zeigen_VVFIN ,_$, wo_PWAV du_PPER bei_APPR der_ART Speicherallokation_NN einen_ART Fehler_NN machst_VVFIN ._$. 

@@ -1,0 +1,14 @@
+ID: 2269
+CREATION_DATETIME: 1373925600000
+MODIFICATION_DATETIME: 1373925600000
+TITLE: Ist jetzt implementiert mit dem InOut Flag.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2189
+POSTING_TYPE: comment
+CONTENT:
+Ist jetzt implementiert mit dem InOut Flag.
+
+Allerdings läuft der BitonicSort Kernel immer noch nicht richtig. Wenn er auf der CPU ausgeführt wird, crasht er mit ne Speicherzugriffsfehler.
+
+@Stefanie: Kannst du <NAME_CORPUS_REPLACEMENT> mal gucken, ob in dem Kernel wirklich alle Pointer stimmen und die Zugriffe alle im gültigen Bereich liegen? Gerade bei Zugriffen in den Global Mem (in dem Falle das zu sortierende Array), schlucken die GPUs manche Unsauberheit einfach runter, was auf der CPU dann erst auffällt.
+TAGGED_CONTENT:

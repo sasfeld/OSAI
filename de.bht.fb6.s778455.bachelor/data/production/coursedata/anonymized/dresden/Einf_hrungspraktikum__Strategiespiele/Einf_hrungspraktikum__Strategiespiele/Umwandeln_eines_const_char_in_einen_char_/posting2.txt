@@ -1,0 +1,9 @@
+ID: 1591
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: const_cast<> kann const "hinzu-" oder "wegcasten", aber ueberleg dir, ob du das wirklich brauchst.
+PARENT_POSTING_ID: 1590
+POSTING_TYPE: answer
+CONTENT:
+const_cast kann const "hinzu-" oder "wegcasten", aber ueberleg dir, ob du das wirklich brauchst. Wenn ein Ausdruck 'const' ist, so hat das meist seine guten Gruende.
+TAGGED_CONTENT:

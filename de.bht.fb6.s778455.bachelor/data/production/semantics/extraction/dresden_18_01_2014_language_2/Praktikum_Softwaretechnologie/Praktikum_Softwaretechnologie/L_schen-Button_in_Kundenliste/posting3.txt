@@ -1,0 +1,92 @@
+ID: 2956
+CREATION_DATETIME: 1384988400000
+MODIFICATION_DATETIME: 1384988400000
+TITLE: Ich hatte leider bei eurer Präsentation noch nicht wirklich viel Ahnung von der Materie und hab demen...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2935
+POSTING_TYPE: comment
+CONTENT:
+Ich hatte leider bei eurer Präsentation noch nicht wirklich viel Ahnung <NAME_CORPUS_REPLACEMENT> der Materie und hab dementsprechend viel verstanden (;
+
+Also ich hab jetzt immerhin den Button in der Tabelle.
+
+Ich hab mir gedacht, dass ich die Funktion des Buttons in meinen ChiefController (von eurem BossController abgekupfert) reinstecke, <NAME_CORPUS_REPLACEMENT> ja nur der Chef Nutzer löschen darf. Ich hab aber nicht mal nen Ansatz wie ich der "Löschen-Button Funktion" den Nutzer übergeben soll, der in der aktuellen Tabellenzeile steht.
+
+Hier erstmal mein aktueller HTML-Code:
+
+		<title th:text="#{customers. title}">Kundenliste
+
+			<h1 th:text="#{customers. title}">Kundenliste
+
+				<caption th:text="#{customers. title}">Kundenliste
+
+						<th th:text="#{customers. name}">Name
+
+						<th th:text="#{customers. eMail}">E-Mail
+
+						<th th:text="#{customers. address}">Anschrift
+
+						<th th:text="#{customers. age}">Alter
+
+						<th th:text="#{customers. delete}">Löschen?
+
+						<tr th:each=" customer : ${customerList}">
+
+							<td th:text="${customer. userAccount. identifier}">
+
+							<td th:text="${customer. eMail}">
+
+							<td th:text="${customer. address}">
+
+							<td th:text="${customer. age}">
+
+							<td <div class="salespoint" sec:authorize="hasRole('ROLE_CHIEF')">
+
+										<input type="submit" th:value="#{customer. delete}" value="X" />
+
+und dann noch den Code meine ChiefControllers, unten steht sozusagen der <REMOVED_PERSON_ENTITY> für die Button-Funktion, aber nix drin, weil ich halt echt nicht weiß, wie ich <NAME_CORPUS_REPLACEMENT> rangehen soll.
+
+```
+
+@Controller
+
+@PreAuthorize("hasRole('ROLE_CHIEF')")
+
+class ChiefController {
+
+	private final CustomerRepository customerRepository;
+
+	@Autowired
+
+	public ChiefController(CustomerRepository customerRepository) {
+
+		this. customerRepository = customerRepository;
+
+	}
+
+	@RequestMapping("/customers")
+
+	public String customers(ModelMap modelMap) 
+
+	{
+
+		Iterable customerList = customerRepository. findAll();
+
+		modelMap. addAttribute("customerList", customerList);
+
+		return "customers";
+
+	}
+
+	@RequestMapping("/deleteUser")
+
+	public String deleteUser() {
+
+	}
+
+}
+
+```
+
+Besten Dank schonmal fürs Helfen!
+TAGGED_CONTENT:

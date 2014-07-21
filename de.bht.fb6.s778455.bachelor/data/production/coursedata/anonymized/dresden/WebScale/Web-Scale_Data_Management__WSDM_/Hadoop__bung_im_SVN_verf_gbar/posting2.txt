@@ -1,0 +1,14 @@
+ID: 1001
+CREATION_DATETIME: 1356044400000
+MODIFICATION_DATETIME: 1356044400000
+TITLE: Meine Anmerkungen dazu:
+Ich musste "source conf/<config>/hadoop-env.sh" ausführen, damit der hadoop-...
+PARENT_POSTING_ID: 983
+POSTING_TYPE: comment
+CONTENT:
+Meine Anmerkungen dazu:
+Ich musste "source conf/pseudoDistributed/hadoop-env. sh" ausführen, damit der hadoop-Befehl überhaupt funktioniert (da dieser auch JAVA_HOME braucht).
+Weiterhin musste ich noch:
+"hadoop namenode -format"
+ausführen, bevor die Dienste starten konnten, ansonsten gab es Fehlermeldungen mit falsch formatierten namenodes im Log.
+TAGGED_CONTENT:

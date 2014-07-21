@@ -1,0 +1,15 @@
+ID: 2452
+CREATION_DATETIME: 1374703200000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: Wenn die Effizienz bei 54% liegt, ist man 54% wirklich am Senden. Das bedeutet im Umkehrschluss, dass...
+PARENT_POSTING_ID: 2447
+POSTING_TYPE: answer
+CONTENT:
+Wenn die Effizienz bei 54% liegt, ist man 54% wirklich am Senden. Das bedeutet im Umkehrschluss, dass man 46% der Zeit mit Warten verbringen muss. Und eben dieses Warten besteht aus „letztes Bit bis zum Empfängerübertragen“ und „Bestätigung vom Empfänger erhalten“. Bei einem symmetrischen Übertragungskanal (den wir implizit annehmen), ergibt sich daraus, dass 46% der Zeit aus zwei tau-Einheiten bestehen. Ergo a) t_s = 0, 54 * T und b) 2 * tau = 0, 46 * T.
+Beides kann man nach T umformen: a) T = t_s / 0, 54 und b) T = 2/0, 46 * tau.
+<NAME_CORPUS_REPLACEMENT> bei beiden links „T“ steht, kann man a) und b) gleichsetzen und erhält: t_s / 0, 54 = 2/0, 46 * tau.
+Das kann man äquivalenzumformen („“) zu t_s = (2 * 0, 54) / 0, 46 * tau = 1, 08 / 0, 46 * tau.
+Aus der Aufgabenstellung wissen wir, dass tau = 10km / 200000 km/s = 50mys. - Es ergibt sich also, dass t_s = 1, 08 / 0, 46 * 50mys = 174mys.
+Bei 10 MBit/s ergibt sich daraus eine <REMOVED_PERSON_ENTITY> <NAME_CORPUS_REPLACEMENT> 1174 Bit.
+Disclaimer: Ob die Zahlen richtig sind müsste ich in einer ruhigen Minute mal nachrechnen. Das war jetzt quick&dirty im <REMOVED_PERSON_ENTITY> gerechnet.
+TAGGED_CONTENT:

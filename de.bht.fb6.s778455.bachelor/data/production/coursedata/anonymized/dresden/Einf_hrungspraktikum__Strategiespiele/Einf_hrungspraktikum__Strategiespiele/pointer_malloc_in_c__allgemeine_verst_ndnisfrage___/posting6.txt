@@ -1,0 +1,9 @@
+ID: 1406
+CREATION_DATETIME: 1362783600000
+MODIFICATION_DATETIME: 1362783600000
+TITLE: ja das problem war mir bekannt, aber trotzdem vielen vielen dank für eure hilfe  :)
+PARENT_POSTING_ID: 1404
+POSTING_TYPE: comment
+CONTENT:
+ja das problem war mir bekannt, aber trotzdem vielen vielen dank für eure hilfe  :)
+TAGGED_CONTENT:

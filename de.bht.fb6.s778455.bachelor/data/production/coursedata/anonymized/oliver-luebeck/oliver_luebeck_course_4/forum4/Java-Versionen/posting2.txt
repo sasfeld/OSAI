@@ -1,0 +1,17 @@
+ID: 28
+CREATION_DATETIME: 1176726180000
+MODIFICATION_DATETIME: 1176726180000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 27
+CONTENT:
+
+    hallo,
+auf einem 64 bit system, auf dem 32 bit browser installiert sind, benötigst du zum ausführen von applets im browser das JRE 32 bit - also zusätzlich zum wahrscheinlich vorhandenen JDK 64 bit.
+bei mir wird so im browser (opera) das java-plugin erkannt, habe allerdings windows 64 bit system.
+wie es bei mac aussieht kann ich nich sagen.
+
+mfg
+   
+    
+TAGGED_CONTENT:

@@ -1,0 +1,18 @@
+ID: 16607
+CREATION_DATETIME: 1232053608
+MODIFICATION_DATETIME: 1232053608
+TITLE: Bewertung der ESAs
+TOPIC_ZOOM_TAG: value:Urlaub und Ferien;weight:1.0;significance:7.4881936901556;degreegeneralization:3;uri:20990115
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:3.4415452961402;degreegeneralization:2;uri:21999745
+NER_TAG: value:ESA;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:ESA;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Ferien;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ende;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bewertung;weight:0.0;uri:;postag:NN
+POS_TAG: value:ESA;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+hat schon jemand eine Bewertung mindestens zur ersten ESA erhalten? Mir war so, als ob <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY> sie zum Ende der Ferien fertig haben wollte...
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, hat_VAFIN schon_ADV jemand_PIS eine_ART Bewertung_NN mindestens_ADV zur_APPRART ersten_ADJA ESA_NN erhalten_VVINF ?_$. Mir_PPER war_VAFIN so_ADV ,_$, als_KOUS ob_KOUS <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN sie_PPER zum_APPRART Ende_NN der_ART Ferien_NN fertig_ADJD haben_VAFIN wollte_VMFIN ..._$( 

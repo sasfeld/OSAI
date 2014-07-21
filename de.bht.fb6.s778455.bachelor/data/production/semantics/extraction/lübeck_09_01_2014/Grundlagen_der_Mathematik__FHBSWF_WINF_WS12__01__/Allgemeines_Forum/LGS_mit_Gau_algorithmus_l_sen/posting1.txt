@@ -1,0 +1,13 @@
+ID: 190353
+CREATION_DATETIME: 1357244029
+MODIFICATION_DATETIME: 1357244029
+TITLE: LGS mit Gaußalgorithmus lösen
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+kann mir jemand zufälligerweise erklären wie man im Script (VektorenMatrixLGS. pdf) auf Seite 72. in der Beispielaufgabe auf die beiden unabhängige Lösungen des homogenen Systems kommt:Die beiden unabhänigen Lösungen lauten:x^(1) = (-3, 0, 1, 0)^Tx^(1) = (5, 2, 0, 1)^T
+Ich sehe derzeit leider nur fogende Lösung x^(0) mit (-3,-3, 0, 0)^T
+Außerdem würde ich gerne wissen wollen was die Werte (0) - (2) angeben sollen. Handelt es sich hierbei um eine <REMOVED_PERSON_ENTITY> der Vekotren?
+Besten Dank und Gruß
+<REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

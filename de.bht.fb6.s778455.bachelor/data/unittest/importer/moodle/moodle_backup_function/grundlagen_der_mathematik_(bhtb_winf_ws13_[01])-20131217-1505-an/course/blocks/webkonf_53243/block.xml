@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block id="53243" contextid="242491" version="2013071800">
+  <blockname>webkonf</blockname>
+  <parentcontextid>242479</parentcontextid>
+  <showinsubcontexts>0</showinsubcontexts>
+  <pagetypepattern>course-view-*</pagetypepattern>
+  <subpagepattern>$@NULL@$</subpagepattern>
+  <defaultregion>side-pre</defaultregion>
+  <defaultweight>3</defaultweight>
+  <configdata></configdata>
+  <block_positions>
+    <block_position id="9599">
+      <contextid>242479</contextid>
+      <pagetype>course-view-topics</pagetype>
+      <subpage></subpage>
+      <visible>1</visible>
+      <region>side-post</region>
+      <weight>5</weight>
+    </block_position>
+  </block_positions>
+</block>

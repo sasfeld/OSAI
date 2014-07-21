@@ -1,0 +1,12 @@
+ID: 1869
+CREATION_DATETIME: 1369778400000
+MODIFICATION_DATETIME: 1369778400000
+TITLE: Nein, das pclose habe ich hochgezogen zum popen.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1863
+POSTING_TYPE: comment
+CONTENT:
+Nein, das pclose habe ich hochgezogen zum popen.
+
+In deiner Version wurde pclose zum Schluss aufgerufen.
+TAGGED_CONTENT:

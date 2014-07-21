@@ -1,0 +1,16 @@
+ID: 69
+CREATION_DATETIME: 1201204080000
+MODIFICATION_DATETIME: 1201204080000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 68
+CONTENT:
+
+Hallo ,
+
+args.length != 2 ist richtig.
+Es werden 2 Namen erwartet. Wenn die 2 Namen nicht da sind, also args.length != 2, wird eine Fehlermeldung ausgegeben.
+Ist es klarer?
+Mit freundlichen Grüßen
+  
+TAGGED_CONTENT:

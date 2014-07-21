@@ -1,0 +1,8 @@
+ID: 115388
+CREATION_DATETIME: 1327783349
+MODIFICATION_DATETIME: 1327783349
+TITLE: Frage zu den Aufgaben
+PARENT_POSTING_ID: 0
+CONTENT:
+'n Abend zusammen, <REMOVED_PERSON_ENTITY> mir vielleicht jemand mit den Zusatzaufgaben des Aufgabenblock 4 zur Linearen Algebra weiterhelfen?Was ist der Unterschied bei 3a und b und bei 3c und d? Was sagt das T aus? Viele Dank und viele GrüßeMike Ellger
+TAGGED_CONTENT:

@@ -1,0 +1,19 @@
+ID: 43
+CREATION_DATETIME: 1193309880000
+MODIFICATION_DATETIME: 1193309880000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Irgendwie lassen sich bei mir die abstrakten Klassen bezüglich dem Beispiel Firma nicht kompilieren. Fehlermeldung:
+
+Exception in thread "main" java.lang.Error: Unresolved compilation problem:
+
+at abtrakteKlassen.Firma.main(Firma.java:94)
+
+Verstehe ich nicht. Habe Copy and Paste verwendet. Eigentlich müsste das funktionieren, wenn im Skript kein Fehler ist. Ich erkenne keinen.
+
+Grüße
+	
+TAGGED_CONTENT:

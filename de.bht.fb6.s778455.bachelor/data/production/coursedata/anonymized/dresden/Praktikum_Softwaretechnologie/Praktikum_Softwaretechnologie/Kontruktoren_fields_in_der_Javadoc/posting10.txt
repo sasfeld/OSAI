@@ -1,0 +1,9 @@
+ID: 2759
+CREATION_DATETIME: 1383951600000
+MODIFICATION_DATETIME: 1383951600000
+TITLE: Ich verstehe den zweiten Teil deines Satzes nicht ganz, aber ich sehe kein Problem wieso das nicht fu...
+PARENT_POSTING_ID: 2749
+POSTING_TYPE: comment
+CONTENT:
+Ich verstehe den zweiten Teil deines Satzes nicht ganz, aber ich sehe kein Problem wieso das nicht funktionieren sollte. Siehst du eins?
+TAGGED_CONTENT:

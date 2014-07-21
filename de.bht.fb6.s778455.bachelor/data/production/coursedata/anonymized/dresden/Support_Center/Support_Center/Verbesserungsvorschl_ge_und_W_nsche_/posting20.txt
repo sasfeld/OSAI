@@ -1,0 +1,10 @@
+ID: 519
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1351202400000
+TITLE: Wenn ich einem Deeplink folge und nicht eingelogt bin, dann werde ich nach https://auditorium.inf.tu-...
+PARENT_POSTING_ID: 392
+POSTING_TYPE: comment
+CONTENT:
+Wenn ich einem Deeplink folge und nicht eingelogt bin, dann werde ich nach https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/users/sign_in weitergeleitet. Dort sind dann gleich 2 Loginformulare (eins oben um Menü und ein großes in der Mitte). Egal welches <NAME_CORPUS_REPLACEMENT> beiden ich ausfülle, am Ende komme ich auf https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/home raus und nicht auf der <REMOVED_PERSON_ENTITY> des Deeplinks.
+Also: 1. Es sollte nur ein Loginformular erscheinen und 2. nach dem Login sollte sich der Deeplink öffnen.
+TAGGED_CONTENT:

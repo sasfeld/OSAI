@@ -1,0 +1,14 @@
+ID: 447
+CREATION_DATETIME: 1350856800000
+MODIFICATION_DATETIME: 1383346800000
+TITLE: null
+LANGUAGE: GERMAN
+POS_TAG: value:r;weight:0.0;uri:;postag:NN
+POS_TAG: value:q;weight:0.0;uri:;postag:NN
+POS_TAG: value:land;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Kann man $(p \rightarrow q) \land (q \rightarrow r)$ zu $p \rightarrow r$ verkürzen?
+TAGGED_CONTENT:
+Kann_VMFIN man_PIS $_XY -LRB-_TRUNC p_XY \_CARD rightarrow_ADJA q_NN -RRB-_TRUNC \_XY land_NN -LRB-_TRUNC q_XY \_CARD rightarrow_ADJA r_NN -RRB-_TRUNC $_XY zu_PTKZU $_XY p_XY \_CARD rightarrow_ADJA r_NN $_CARD verkürzen_VVINF ?_$. 

@@ -1,0 +1,20 @@
+ID: 38
+CREATION_DATETIME: 1196944080000
+MODIFICATION_DATETIME: 1196944080000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Anonyme Klasse
+von Student1 - Dienstag, 6. Dezember 2007, 13:28
+ 
+Hallo,
+
+kann mir jemand das Beispiel auf Seite 7, die Listener Implementierung durch anonyme Klasse erklären?
+Irgendwie ist es nicht so ganz nachvollziehbar für mich.
+Dieses "k" ist doch eine Instanz irgendeiner Klasse?(Komponentenklasse). Über den Punktoperator rufe ich doch eine Methode auf: k.addActionListener(new ActionListener)..
+Wo ist denn hier eine anonyme Klasse?
+LG
+    
+TAGGED_CONTENT:

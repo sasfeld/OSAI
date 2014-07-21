@@ -1,0 +1,17 @@
+ID: 1885
+CREATION_DATETIME: 1370210400000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo zusammen,
+ich habe eben einen aktuellen Stand ins SVN eingecheckt.
+Als erstes habe ich die ProgramAnalyzer Klasse angepasst und die KernelMetrics eingebunden. Hier gibt es jetzt eine analyze(programSrc, kernelName) Methode, <NAME_CORPUS_REPLACEMENT> der ausgehend die Codeanalyse aufgerufen werden soll. (Das wäre dann quasi <REMOVED_PERSON_ENTITY> Aufgabe, die Codeanalyse ins Projekt zu integrieren und über die Methode einzubinden. Ich habe, wie in dem anderen Thread geschrieben, bisher bei den KernelMetrics auch die LLVM Teile auskommentiert, <NAME_CORPUS_REPLACEMENT> es sonst bei mir nicht funktioniert hat)
+<NAME_CORPUS_REPLACEMENT> ich davon ausgehe, dass die Ergebnisse der Codeanalyse in der Feedbackklasse verwendet werden, muss die Methode wohl auch daraus aufgerufen werden. Das habe ich gleich in analyzeKernel() implementiert.
+Die Feedbackklasse ist jetzt Chengs Baustelle. Das heißt, hier müsstest du sehen, wie die mit den KernelMetrics umgehst und daraus sinnvoll Nutzen ziehst.
+Bisher sind in der Klasse 3 Methoden zu finden. Die analyzeKernel-Methode ist soweit denke vollständig, <NAME_CORPUS_REPLACEMENT> muss nicht viel passieren.
+Interessanter sind die beiden anderen. saveFeedback() musst du selbst implementieren und dafür auch in der Klasse noch weitere Data Member anlegen, um die Ergebnisse zu speichern und später eventuell zum lernen zu nutzen.
+die getOptimalDevice() Methode habe ich jetzt mit einer dummy-Implementierung versehen. Diese sollte vorerst funktionieren, benutzt aber (wie ich es auch in die Kommentare geschrieben habe) noch nicht die KernelMetrics, um das optimal Device zu bestimmen.
+Sollte irgendwas an den Typen der bisherigen Methoden nicht stimmen, oder ihr wollt es ganz anders machen, dann ändert ruhig den Code und schreibt hier am besten kurz was dazu. Das ist jetzt nur ein Vorschlag <NAME_CORPUS_REPLACEMENT> mir um in die richtige Richtung zu kommen.
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 2893
+CREATION_DATETIME: 1384642800000
+MODIFICATION_DATETIME: 1384642800000
+TITLE: Ah ja okay. Jetzt sehe ich das auch. okay danke.
+PARENT_POSTING_ID: 2886
+POSTING_TYPE: comment
+CONTENT:
+Ah ja okay. Jetzt sehe ich das auch. okay danke.
+TAGGED_CONTENT:

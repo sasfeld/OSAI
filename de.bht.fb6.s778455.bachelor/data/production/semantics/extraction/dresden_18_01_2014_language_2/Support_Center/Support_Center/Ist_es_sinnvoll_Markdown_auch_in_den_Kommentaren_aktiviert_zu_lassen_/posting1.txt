@@ -1,0 +1,16 @@
+ID: 67
+CREATION_DATETIME: 1342476000000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Was meint ihr? Heute haben wir **Markdown** implementiert, sodass Posts ausgezeichnet werden können. Oder `Code Snippets` attraktiv in den Post gestellt werden können. 
+
+Aber wie schaut es mit den Kommentaren aus? Ist es sinnvoll, es auch dort zu belassen? 
+
+Ich finde es ja sinnvoll, dass Quellcode auch im Kommentar `inline` ausgezeichnet werden kann.
+
+Aber wie ist es mit Headlines?
+TAGGED_CONTENT:

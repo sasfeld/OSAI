@@ -1,0 +1,16 @@
+ID: 1
+CREATION_DATETIME: 1175412780000
+MODIFICATION_DATETIME: 1175412780000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+    Hallo Leute,
+
+ich wurschtel mich hier gerade durch die im Betreff genannte LE04 und bin gerade beim experimentieren mit der Schablone. Soweit so gut.
+Nun soll ich aber die Importanweisung auch auskommentieren, wenn ich diese Anweisung nun drin stehen lasse, muss dann ja auch etwas folgen was importiert werden soll, da ich ansonsten beim Kompilieren eine Fehlermeldung bekomme. Soll ich dort dann einfach die Importanweisung der UebClockman stehen lassen aus der ja die Schablone hervorgeht?
+
+Grüße
+    
+TAGGED_CONTENT:

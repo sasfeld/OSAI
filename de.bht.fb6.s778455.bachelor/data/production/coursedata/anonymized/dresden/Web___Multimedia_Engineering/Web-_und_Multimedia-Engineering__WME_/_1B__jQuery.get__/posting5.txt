@@ -1,0 +1,10 @@
+ID: 581
+CREATION_DATETIME: 1351465200000
+MODIFICATION_DATETIME: 1351465200000
+TITLE: Wenn ich anstatt der 2 alerts das Programm für 20sekunden warten lasse wird das ergebnis wieder undef...
+PARENT_POSTING_ID: 568
+POSTING_TYPE: comment
+CONTENT:
+Wenn ich anstatt der 2 alerts das Programm für 20sekunden warten <NAME_CORPUS_REPLACEMENT> wird das ergebnis wieder undefined.
+Nur wenn ich 2 alerts reinhaue, funktioniert der Spaß - Ich verstehe gar nix mehr
+TAGGED_CONTENT:

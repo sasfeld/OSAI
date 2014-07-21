@@ -1,0 +1,9 @@
+ID: 543
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1351202400000
+TITLE: Yes, I saw it. I have already finished the head files which wrapper the class(just the file shown in ...
+PARENT_POSTING_ID: 541
+POSTING_TYPE: comment
+CONTENT:
+Yes, I saw it. I have already finished the head files which wrapper the class(just the file shown in the middle in slide 12). Of course the head files should be implemented by C++. Now my puzzle is that what's the type of rcopy file(the file on the left in slide), C or C++? You <NAME_CORPUS_REPLACEMENT> have a look at the Task2. pdf in svn and turn to page 4. The first paragraph under the section-title "TASK 1 – EXCEPTIONS IN rcopy (C/C++)": <NAME_CORPUS_REPLACEMENT> this paragraph puzzles me. But I think it ls not a big problem. I have done the rcopy file using C++.
+TAGGED_CONTENT:

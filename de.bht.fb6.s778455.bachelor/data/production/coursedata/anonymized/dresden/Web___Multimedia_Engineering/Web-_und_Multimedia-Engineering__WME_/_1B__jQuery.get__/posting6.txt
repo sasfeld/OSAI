@@ -1,0 +1,9 @@
+ID: 584
+CREATION_DATETIME: 1351465200000
+MODIFICATION_DATETIME: 1351465200000
+TITLE: Bitte nutze die Kommentarfunktion, wenn du keine Antwort hast. Ich habe das hier mal als Kommentar mi...
+PARENT_POSTING_ID: 568
+POSTING_TYPE: comment
+CONTENT:
+Bitte nutze die Kommentarfunktion, wenn du keine Antwort hast. Ich habe das hier mal als Kommentar migriert.
+TAGGED_CONTENT:

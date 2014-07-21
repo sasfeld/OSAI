@@ -1,0 +1,30 @@
+ID: 828
+CREATION_DATETIME: 1353538800000
+MODIFICATION_DATETIME: 1353538800000
+TITLE: Problem gelöst:
+
+Das Programm war nicht erfolgreich gelinkt, da ich aus Versehen einen leeren Puffe...
+PARENT_POSTING_ID: 826
+POSTING_TYPE: answer
+CONTENT:
+Problem gelöst:
+Das Programm war nicht erfolgreich gelinkt, <NAME_CORPUS_REPLACEMENT> ich aus Versehen einen leeren Puffer als Code für den Fragmentshader übergeben habe.
+`check_error` funktioniert nach `glLinkProgram` komischerweise nicht richtig, deshalb dachte ich das Programm wäre korrekt gelinkt. Der folgende Code, abgeschrieben [hier](http://duriansoftware.com/joe/An-intro-to-modern-OpenGL.-Chapter-2. 2:-Shaders. html), gibt ein relativ hilfreiches Fehlerlog aus:
+```
+glLinkProgram(program_id); 
+GLint program_ok;
+glGetProgramiv(program_id, GL_LINK_STATUS, &program_ok);
+if (!program_ok) {
+    std::cerr<< "Failed to link shader program: ";
+    char *log;
+    GLint log_length;
+    glGetProgramiv(program_id,  GL_INFO_LOG_LENGTH, &log_length);
+    log = (char*)malloc(log_length);
+    glGetProgramInfoLog(program_id, log_length, NULL, log);
+    std::cerr<< log <<" ";
+    std::cerr. flush();
+    free(log);
+}
+```
+(ja ja, kein reines C++, ich weiss)
+TAGGED_CONTENT:

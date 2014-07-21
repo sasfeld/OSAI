@@ -1,0 +1,44 @@
+ID: 167417
+CREATION_DATETIME: 1349469205
+MODIFICATION_DATETIME: 1349469205
+TITLE: Hilfe für Aufgabe 2d
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+ich habe ein Problem mit Aufgabe 2d ( |x-1| &gt;= |x-2| ), ich komme hier auf die Lösungsmenge
+L = {x | 3/2 &lt;= x &lt; 2}
+Anstelle der 2 müsste laut Lösung UNENDLICH stehen...
+Hier mein Lösungsweg:
+Untersuchung für x-1 &gt;= 0 , also x&gt;=1:
+x-1 &gt;= |x-2|
+Fall 1 (x-2 &gt;= 0, also x&gt;=2):
+x-1 &gt;= x-2
+0 &gt;= -1 (falsch)
+ 
+Fall 2 (x&lt;2):
+x-1 &gt;= -(x-2)
+x-1 &gt;= -x+2
+2x &gt;= 3
+x &gt;= 3/2
+L1 = {x | 3/2 &lt;= x &lt; 2}
+ 
+Untersuchung für x &lt; 1:
+-(x-1) &gt;= |x-2|
+Fall 1 (x &gt;= 2):
+-x+1 &gt;= x-2
+3 &gt;= 2x
+x &lt;= 3/2
+L2 = {}
+ 
+Fall 2 (x&lt;2):
+-x+1 &gt;= -x+2
+0 &gt;= 1 (falsch)
+ 
+L = L1 VEREINIGT L2 = {x | 3/2 &lt;= x &lt; 2}
+ 
+Sieht jemand den Fehler? Ich komme einfach nicht drauf. Danke für jeden Hinweis.
+Hier ein guter Link zum Thema:
+http://members.dokom.net/w. kippels/aufgaben/betrag. pdf
+Schönen Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,13 @@
+ID: 172
+CREATION_DATETIME: 1348524000000
+MODIFICATION_DATETIME: 1348524000000
+TITLE: Das erzeugt bei mir d
+LANGUAGE: GERMAN
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:Workaround;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 170
+POSTING_TYPE: comment
+CONTENT:
+Das erzeugt bei mir den selben Fehler, deshalb der (vermeintliche) Workaround mit temp. 
+TAGGED_CONTENT:
+Das_PDS erzeugt_VVPP bei_APPR mir_PPER den_ART selben_ADJA Fehler_NN ,_$, deshalb_PROAV der_ART -LRB-_TRUNC vermeintliche_ADJA -RRB-_TRUNC Workaround_NN mit_APPR temp_ADJD ._$. 

@@ -1,0 +1,14 @@
+ID: 1153
+CREATION_DATETIME: 1361919600000
+MODIFICATION_DATETIME: 1378936800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Durch die Folien und durch googeln ist mir nicht klar geworden, worin der Unterschied zwischen 2PC, 1PC und 3PC ist, obwohl ich verstanden habe, wie 2PC abläuft und was die Probleme sind.
+
+2PC und 1PC: Durch die Einführung <NAME_CORPUS_REPLACEMENT> "Work" und "Done" durchläuft 2PC drei Phasen, 1PC mit der ersten Phase "Work&Prepare/Done&Ready" und der zweiten Phase "Commit/Ack" zwei Phasen, warum spricht man trotzdem <NAME_CORPUS_REPLACEMENT> einer Phase? Und was ist dabei der Unterschied zu 2PC, wenn es also ebenfalls zwei Phasen gibt?
+
+2PC und 3PC: Mir ist klar, warum nach einem PreCommit und dem Ausfall des Koordinators korrekt entschieden werden kann, ob ein Abort oder ein Commit durchgeführt werden soll. Wenn aber vorher ein Teilnehmer ausfällt, erschließt sich mir nicht, warum durch 3PC die dadurch entstehende Blockierung verhindert werden kann. Wenn der Koordinator ein Prepare sendet, ein Teilnehmer aber ausfällt und deshalb gar nichts antwortet, werden alle anderen blockiert, weil der Koordinator keinen PreCommit senden kann, solange nicht alle Readys eingetroffen sind und kein Abort senden kann, solange der Timeout noch nicht erreicht wurde. <NAME_CORPUS_REPLACEMENT> die erste Phase <NAME_CORPUS_REPLACEMENT> 3PC identisch mit der <NAME_CORPUS_REPLACEMENT> 2PC ist, verstehe ich nicht, warum hier diese Blockierung verhindert wird.
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 2685
+CREATION_DATETIME: 1383260400000
+MODIFICATION_DATETIME: 1383260400000
+TITLE: Zu der Problematik, dass mehrere Versionen im Effective POM auftauchen: das eine ist die vom Parent P...
+PARENT_POSTING_ID: 2662
+POSTING_TYPE: comment
+CONTENT:
+Zu der Problematik, dass mehrere Versionen im Effective POM auftauchen: das eine ist die vom Parent POM gemanagte version (innerhalb eines `` Block - das ist auch der Ausschnitt den du in Bild 2 zeigst). Diese wird allerdings <NAME_CORPUS_REPLACEMENT> der lokal höheren Version überschrieben, so dass nur die 5. 0. 1 im Classpath landet. Das sagt ja auch dein Output den du <NAME_CORPUS_REPLACEMENT> oben gepostet hast. Eine Dependency kann per Definition nicht in mehreren Versionen in einem Maven Build auftauchen, d. h. final im Classpath eines Scopes landen.
+Wie gesagt, das Projekt tut hier OOTB. Versuchst du noch mal folgendes? Entferne die lokale Dependency-Deklaration für javax. validation (das in Version 1. 1. 0) und ändere die Hibernate Validator Deklaration dahingehend ab, dass du das `` element komplett entfernst.
+Das ist der Ansatz den ich oben in meiner Antwort unter 2. dokumentiert habe. Es kann eigentlich nur sein, dass du als du das ausprobiert hast, vergessen hast die javax-validation Dependency zu löschen. Damit wären wir dann bei der Kombination <NAME_CORPUS_REPLACEMENT> Validation API 1. 0 und Hibernate Validator 4. 3. 1. Die sollte ebenso tun wie die <NAME_CORPUS_REPLACEMENT> <REMOVED_PERSON_ENTITY> konfigurierte API 1. 1. 0 / Hibernate Validator 5. 0. 1.
+Wenn auch das nicht tut, dann bitte folgendes: Projekt löschen, komplett, also auch <NAME_CORPUS_REPLACEMENT> der Platte. Zip <NAME_CORPUS_REPLACEMENT> der Lehrstuhlseite laden, auspacken. Ins Eclipse importieren. Sobald das fertig ist hätte ich gern einen Screenshot vom aufgeklappten Maven Dependencies Knoten im (Package|Project)Explorer, sowie einen des Teils des POMs, was den Hibernate Validator deklariert.
+TAGGED_CONTENT:

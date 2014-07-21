@@ -1,0 +1,8 @@
+ID: 97791
+CREATION_DATETIME: 1287000346
+MODIFICATION_DATETIME: 1287000346
+TITLE: Re: Wurzelgesetze für gleiche Radikanden
+PARENT_POSTING_ID: 97790
+CONTENT:
+OK, ich hab es jetzt. Zunächst wird der Wurzelexponent erweitert. Danach kann man kürzen:(1) $$ \sqrt[m \cdot n]{a^{n+m}} $$ (2) $$ \sqrt[ \frac{m \cdot n \cdot \left(n+m\right)}{n+m} ]{a^{n+m}} $$(3) $$ \sqrt[ \frac{m \cdot n}{n+m} ]{a} $$
+TAGGED_CONTENT:

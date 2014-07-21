@@ -1,0 +1,66 @@
+ID: 2817
+CREATION_DATETIME: 1384210800000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+beim Importieren <NAME_CORPUS_REPLACEMENT> Blankweb, Guestbook oder Videoshop kommt immer derselbe Fehler:
+http://www1. inf. tu-dresden. de/~swt13w32/files/MavenError. png
+Wenn ich trotzdem auf Finish klicke und Run As -> Maven Install ausführe, dann wird das hier ausgegeben:
+```
+SLF4J: Failed to load class "org. slf4j. impl. StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j. org/codes. html#StaticLoggerBinder for further details.
+[INFO] Scanning for projects...
+[INFO]                                                                          
+[INFO] ------------------------------------------------------------------------ 
+[INFO] Building blank-web 1. 0. 0-SNAPSHOT 
+[INFO] ------------------------------------------------------------------------ 
+Downloading: http://repo.springsource.org/libs-milestone/org/springframework/boot/spring-boot-autoconfigure/0. 5. 0. M5/spring-boot-autoconfigure-0. 5. 0. M5. jar 
+Downloading: http://repo.springsource.org/libs-milestone/org/springframework/boot/spring-boot-starter-tomcat/0. 5. 0. M5/spring-boot-starter-tomcat-0. 5. 0. M5. jar 
+Downloading: http://repo.springsource.org/libs-milestone/org/springframework/spring-aop/4. 0. 0. RC1/spring-aop-4. 0. 0. RC1. jar
+Downloading: http://repo.springsource.org/libs-milestone/org/springframework/spring-beans/4. 0. 0. RC1/spring-beans-4. 0. 0. RC1. jar
+Downloading: http://repo.springsource.org/libs-milestone/org/springframework/spring-context/4. 0. 0. RC1/spring-context-4. 0. 0. RC1. jar 
+Downloading: http://repo.springsource.org/libs-milestone/org/springframework/spring-core/4. 0. 0. RC1/spring-core-4. 0. 0. RC1. jar 
+Downloading: http://repo.springsource.org/libs-milestone/org/springframework/security/spring-security-config/3. 2. 0. RC1/spring-security-config-3. 2. 0. RC1. jar 
+Downloading: http://repo.springsource.org/libs-milestone/org/springframework/security/spring-security-web/3. 2. 0. RC1/spring-security-web-3. 2. 0. RC1. jar 
+Downloading: http://repo.springsource.org/libs-milestone/org/hibernate/hibernate-validator/5. 0. 1. Final/hibernate-validator-5. 0. 1. Final. jar 
+Downloading: http://repo.springsource.org/libs-milestone/javax/validation/validation-api/1. 1. 0. Final/validation-api-1. 1. 0. Final. jar 
+Downloading: http://repo.springsource.org/libs-milestone/org/hibernate/hibernate-core/4. 2. 1. Final/hibernate-core-4. 2. 1. Final. jar 
+Downloading: http://repo.springsource.org/libs-milestone/org/springframework/spring-orm/4. 0. 0. RC1/spring-orm-4. 0. 0. RC1. jar 
+Downloading: http://repo.springsource.org/libs-milestone/joda-time/joda-time-jsptags/1. 1/joda-time-jsptags-1. 1. jar Downloading: http://repo.springsource.org/libs-milestone/org/thymeleaf/thymeleaf/2. 1. 0. RELEASE/thymeleaf-2. 1. 0. RELEASE. jar 
+Downloading: http://repo.springsource.org/libs-milestone/org/thymeleaf/thymeleaf-spring3/2. 1. 0. RELEASE/thymeleaf-spring3-2. 1. 0. RELEASE. jar 
+Downloading: http://repo.springsource.org/libs-milestone/org/thymeleaf/extras/thymeleaf-extras-springsecurity3/2. 1. 0. RELEASE/thymeleaf-extras-springsecurity3-2. 1. 0. RELEASE. jar
+Downloaded: http://repo.springsource.org/libs-milestone/org/springframework/security/spring-security-web/3. 2. 0. RC1/spring-security-web-3. 2. 0. RC1. jar (337 KB at 4. 1 KB/sec) 
+Downloading: http://repo.maven.apache.org/maven2/org/springframework/spring-aop/4. 0. 0. RC1/spring-aop-4. 0. 0. RC1. jar 
+Downloading: http://repo.maven.apache.org/maven2/org/springframework/spring-beans/4. 0. 0. RC1/spring-beans-4. 0. 0. RC1. jar 
+Downloading: http://repo.maven.apache.org/maven2/org/springframework/spring-context/4. 0. 0. RC1/spring-context-4. 0. 0. RC1. jar 
+Downloading: http://repo.maven.apache.org/maven2/org/springframework/spring-core/4. 0. 0. RC1/spring-core-4. 0. 0. RC1. jar
+Downloading: http://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/3. 2. 0. RC1/spring-security-config-3. 2. 0. RC1. jar 
+Downloading: http://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator/5. 0. 1. Final/hibernate-validator-5. 0. 1. Final. jar 
+Downloading: http://repo.maven.apache.org/maven2/javax/validation/validation-api/1. 1. 0. Final/validation-api-1. 1. 0. Final. jar 
+Downloading: http://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/4. 2. 1. Final/hibernate-core-4. 2. 1. Final. jar 
+Downloading: http://repo.maven.apache.org/maven2/org/springframework/spring-orm/4. 0. 0. RC1/spring-orm-4. 0. 0. RC1. jar 
+Downloading: http://repo.maven.apache.org/maven2/joda-time/joda-time-jsptags/1. 1/joda-time-jsptags-1. 1. jar 
+Downloading: http://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/2. 1. 0. RELEASE/thymeleaf-2. 1. 0. RELEASE. jar 
+Downloading: http://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring3/2. 1. 0. RELEASE/thymeleaf-spring3-2. 1. 0. RELEASE. jar 
+Downloading: http://repo.maven.apache.org/maven2/org/thymeleaf/extras/thymeleaf-extras-springsecurity3/2. 1. 0. RELEASE/thymeleaf-extras-springsecurity3-2. 1. 0. RELEASE. jar
+Downloaded: http://repo.maven.apache.org/maven2/org/thymeleaf/extras/thymeleaf-extras-springsecurity3/2. 1. 0. RELEASE/thymeleaf-extras-springsecurity3-2. 1. 0. RELEASE. jar (29 KB at 182. 5 KB/sec) 
+Downloaded: http://repo.maven.apache.org/maven2/javax/validation/validation-api/1. 1. 0. Final/validation-api-1. 1. 0. Final. jar (63 KB at 364. 2 KB/sec)
+Downloaded: http://repo.maven.apache.org/maven2/joda-time/joda-time-jsptags/1. 1/joda-time-jsptags-1. 1. jar (34 KB at 180. 1 KB/sec) 
+Downloaded: http://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring3/2. 1. 0. RELEASE/thymeleaf-spring3-2. 1. 0. RELEASE. jar (213 KB at 426. 0 KB/sec) 
+Downloaded: http://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator/5. 0. 1. Final/hibernate-validator-5. 0. 1. Final. jar (560 KB at 716. 4 KB/sec) 
+Downloaded: http://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/2. 1. 0. RELEASE/thymeleaf-2. 1. 0. RELEASE. jar (767 KB at 818. 6 KB/sec) 
+Downloaded: http://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/4. 2. 1. Final/hibernate-core-4. 2. 1. Final. jar (4506 KB at 1871. 7 KB/sec) 
+[INFO] ------------------------------------------------------------------------ 
+[INFO] BUILD FAILURE 
+[INFO] ------------------------------------------------------------------------ 
+[INFO] Total time: 2:04. 605s
+[INFO] Finished at: Tue Nov 12 16:19:06 CET 2013 
+[INFO] Final Memory: 8M/111M 
+[INFO] ------------------------------------------------------------------------ 
+[ERROR] Failed to execute goal on project blank-web: Could not resolve dependencies for project de. tudresden. inf. st:blank-web:war:1. 0. 0-SNAPSHOT: The following artifacts could not be resolved: org. springframework. boot:spring-boot-autoconfigure:jar:0. 5. 0. M5, org. springframework. boot:spring-boot-starter-tomcat:jar:0. 5. 0. M5, org. springframework:spring-aop:jar:4. 0. 0. RC1, org. springframework:spring-beans:jar:4. 0. 0. RC1, org. springframework:spring-context:jar:4. 0. 0. RC1, org. springframework:spring-core:jar:4. 0. 0. RC1, org. springframework. security:spring-security-config:jar:3. 2. 0. RC1, org. springframework:spring-orm:jar:4. 0. 0. RC1: Could not transfer artifact org. springframework. boot:spring-boot-autoconfigure:jar:0. 5. 0. M5 from/to spring-milestones ( http://repo.springsource.org/libs-milestone): No response received after 60000 -> [Help 1] [ERROR] [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch. [ERROR] Re-run Maven using the -X switch to enable full debug logging. [ERROR] [ERROR] For more information about the errors and possible solutions, please read the following articles: [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+```
+TAGGED_CONTENT:

@@ -1,0 +1,15 @@
+ID: 3091
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: Jetzt habe ich so eine schöne Antwort für 1,2,3 geschrieben und der Post ist weg >_<
+Auf ein neues:...
+PARENT_POSTING_ID: 3071
+POSTING_TYPE: comment
+CONTENT:
+Jetzt habe ich so eine schöne Antwort für 1, 2, 3 geschrieben und der Post ist weg >_<
+Auf ein neues:
+1. Danke, Unser Identifier sind Strings, die mit `UUID. randomUUID(). toString()` initialisiert werden. Wir hätten aber auch <REMOVED_PERSON_ENTITY> nehmen sollen, hätte uns viel Zeit erspart.
+2. JPA und Entity Vererbung läuft doch, aber dass man Id-Typen auch vererbt ist IMO kein sinnvoller UseCase.
+Wer soll deinen Code am Ende verstehen, dein Team? Eher nicht, denen traust du ja offensichtlich nicht mal zu, dass sie enable/disable an den richtigen Stellen verwenden. Aber Glückwunsch, du kannst nicht gefeuert werden, deinen Code versteht außer dir niemand und er kann auch nur <NAME_CORPUS_REPLACEMENT> dir gewartet werden. :D
+Dein Nachfolger darf dann lustige Workarounds bauen http://stackoverflow.com/a/184673
+TAGGED_CONTENT:

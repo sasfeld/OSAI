@@ -1,0 +1,18 @@
+ID: 83
+CREATION_DATETIME: 1306688040000
+MODIFICATION_DATETIME: 1306688040000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 82
+CONTENT:
+   
+bei mir gibt der ShapeTester jetzt auch das aus was er soll :) allerdings über umwege.
+hast du in deiner Reporter-Klasse etwas in der art stehen:
+System.out.print(" xDelta: " + reg1.xDelta +......) ?
+
+bei mir geht das nicht, ach nicht mit s.xDelta, der Reporter darf da irgendwie nicht drauf zugreifen, weil er static ist (sagt die fehlermeldung)
+
+ich erzeuge jetzt in meiner ShapeTester erst ein objekt, gebe dann die toString-methode aus, danach die xDelta/yDelta/radius-werte (je nachdem welches objekt ich hab) und rufe erst dann den reporter auf. über den werden dann fläche und umfang berechnet.
+sicher nicht so ganz richtig, weil deutlich zu viel "doppelter" text, aber ich hab ect keine ahnung wie ich das sonst machen kann in Gedanken
+    
+TAGGED_CONTENT:

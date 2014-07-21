@@ -1,0 +1,41 @@
+ID: 21
+CREATION_DATETIME: 1177346340000
+MODIFICATION_DATETIME: 1177346340000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+ 
+Liebe Studierende,
+
+mehrere von Ihnen haben Schwierigkeiten mit den Konstruktoren der Klasse ErgaenztesAuto.java. Ich möchte versuchen, diese Schwierigkeiten hier weg zu räumen.
+Text der Aufgabe: "Erweitern Sie den Quellcode Ihrer Klasse EinfachesAuto.java um folgende Attribute:
+private String standort;
+private long fahrgestellnummer;"
+
+Also hat die Klasse jetzt folgende Attribute, und nur diese:
+private String besitzer;
+private String autotyp;
+private String farbe;
+private String standort;
+private int erstzulassung;
+private int leistung;
+private int kmStand;
+private String standort;
+private long fahrgestellnummer;
+
+Seite 11 "In einem Konstruktor werden den Attributen eines Objektes Anfangswerte zugewiesen."
+Also wird jetzt ein Konstruktor gebraucht, der ALLEN Attributen Werten zuweist:
+public ErgaenztesAuto(String besitzer, String autotyp, String farbe,
+int erstzulassung, int leistung, int kmStand, String standort,
+long fahrgestellnummer) {
+---}
+Was passiert wenn ein Konstruktor weniger Parameter als Attribute hat?
+Die Attribute, die im Konstruktor nicht initialisiert werden, bekommen default-Werte wie 0 für Attribute vom Typ int, null für referenzielle Typen usw.
+
+Alles klar?
+Mit freundlichen Grüßen
+
+PS: Bitte benutzen Sie das Forum mehr, um effizienter zu lernen. Man kann nicht lernen und schon wissen.
+     
+TAGGED_CONTENT:

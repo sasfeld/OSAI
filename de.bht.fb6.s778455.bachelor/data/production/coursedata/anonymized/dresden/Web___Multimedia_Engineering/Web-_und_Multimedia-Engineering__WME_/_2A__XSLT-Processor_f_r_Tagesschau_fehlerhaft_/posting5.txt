@@ -1,0 +1,9 @@
+ID: 830
+CREATION_DATETIME: 1353538800000
+MODIFICATION_DATETIME: 1353538800000
+TITLE: Also für mich sieht das einfach nach unformatiertem Markup aus.. ganz normal wenn der Browser für die...
+PARENT_POSTING_ID: 823
+POSTING_TYPE: answer
+CONTENT:
+Also für mich sieht das einfach nach unformatiertem Markup aus.. ganz normal wenn der Browser für diese Art <NAME_CORPUS_REPLACEMENT> Feed keine Formatierung anbietet. 
+TAGGED_CONTENT:

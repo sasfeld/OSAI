@@ -1,0 +1,11 @@
+ID: 537
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1351288800000
+TITLE: Manual says that `Buf_in `  provides a possibility to extract an array from an Ipc::Istream, without ...
+PARENT_POSTING_ID: 536
+POSTING_TYPE: answer
+CONTENT:
+Manual says that `Buf_in `  provides a possibility to extract an array from an `Ipc::Istream`, without extra copy overhead. In contrast to `Buf_cp_in` the data is not copied to a buffer, but a pointer to the array is returned. So, in contrast to `Buf_cp_in`, using `Buf_in` you <NAME_CORPUS_REPLACEMENT> get data without additional overhead, but you <NAME_CORPUS_REPLACEMENT> spoil these data writing something into the stream.
+And the `Buf_cp_out` is used to write data to output stream. You don't need to convert your string to `Buf_cp_out` as IPC stream interface supports zero-terminated strings.
+So, for your goal both `Buf_in` and `Buf_cp_in` <NAME_CORPUS_REPLACEMENT> be used, but first one is better.
+TAGGED_CONTENT:

@@ -1,0 +1,28 @@
+ID: 977
+CREATION_DATETIME: 1355785200000
+MODIFICATION_DATETIME: 1366927200000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hello,
+
+I got the following output of the test system: 
+
+> Died at parseOutput. pl <NAME_CORPUS_REPLACEMENT> 22,  <NAME_CORPUS_REPLACEMENT> 43.
+
+Expected injection "read_EIO" was "Injected:  faultinjectors/fi_read_EIO. so"subtask failed
+
+FAILED
+
+I read_EIO fails and the contents of the tar differ. So, my script prints 
+
+> Injected:  faultinjectors/fi_read_EIO. <PERSONAL_GREETING_REMOVEMENT>
+
+ProcessState:  exited
+
+TarState:  corrupted
+
+What is the reason for the error message? Thanks
+TAGGED_CONTENT:

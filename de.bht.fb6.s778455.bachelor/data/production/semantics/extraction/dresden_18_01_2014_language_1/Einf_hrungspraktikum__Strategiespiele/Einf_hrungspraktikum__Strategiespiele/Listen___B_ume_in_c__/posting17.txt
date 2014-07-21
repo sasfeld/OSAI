@@ -1,0 +1,10 @@
+ID: 1273
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Für Sets, die mitzählen, wie oft Elemente enthalten sind, gibt es multisets: http://www.cplusplus.com...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1261
+POSTING_TYPE: comment
+CONTENT:
+Für Sets, die mitzählen, wie oft Elemente enthalten sind, gibt es multisets: http://www.cplusplus.com/reference/set/multiset/
+TAGGED_CONTENT:

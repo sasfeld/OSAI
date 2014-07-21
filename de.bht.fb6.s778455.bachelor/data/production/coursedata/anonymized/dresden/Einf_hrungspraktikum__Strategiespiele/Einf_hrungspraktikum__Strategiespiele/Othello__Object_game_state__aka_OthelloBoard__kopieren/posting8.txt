@@ -1,0 +1,24 @@
+ID: 1494
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Der Copy-Constructor an sich ja nur mit dem kompiliert es
+
+aber wie genau muss ich jetzt das kopier...
+PARENT_POSTING_ID: 1483
+POSTING_TYPE: comment
+CONTENT:
+Der Copy-Constructor an sich <LEARNED_PERSON_NAME_REPLACEMENT>, nur mit diesem kompiliert es
+aber wie genau muss ich jetzt das kopieren durchführen
+```ruby
+game_state* stateOfBranch = new game_state(old_state);
+game_state stateOfBranch(old_state);
+```
+weder statisch noch dynamisch funktioniert
+Fehlermeldung:
+```ruby
+players/my-player. <LEARNED_PERSON_NAME_REPLACEMENT>:138:34: Fehler: ungültige Umwandlung <NAME_CORPUS_REPLACEMENT> »const game_state* {aka const OthelloBoard*}« in »unsigned int« [-fpermissive]
+In file included from players/my-player. <LEARNED_PERSON_NAME_REPLACEMENT>:2:0:
+./board. h:113:3: Fehler:   Argument 1 <NAME_CORPUS_REPLACEMENT> »OthelloBoard::OthelloBoard(unsigned int, unsigned int)« wird initialisiert [-fpermissive]
+```
+<NAME_CORPUS_REPLACEMENT> scheine ich noch woanders einen Fehler zu haben
+TAGGED_CONTENT:

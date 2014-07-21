@@ -1,0 +1,19 @@
+ID: 67
+CREATION_DATETIME: 1194094980000
+MODIFICATION_DATETIME: 1194094980000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo,
+
+ich schau mir gerade die Aufzeichnung von letzter Woche an und frage mich wie man Elemente einer ArrayList<Integer> entfernen kann.
+
+remove() erwaret ja einen Index. Das ist eine Zahl. Was jedoch wenn man eine bestimmte Zahl enfernen möchte?
+
+arrayInteger.remove(123);
+
+Schönen Grüß
+	
+TAGGED_CONTENT:

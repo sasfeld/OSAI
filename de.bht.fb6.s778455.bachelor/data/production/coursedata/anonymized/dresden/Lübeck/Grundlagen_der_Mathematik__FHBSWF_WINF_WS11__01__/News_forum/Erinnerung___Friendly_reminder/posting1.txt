@@ -1,0 +1,9 @@
+ID: 117503
+CREATION_DATETIME: 1325715153
+MODIFICATION_DATETIME: 1325715153
+TITLE: Erinnerung / Friendly reminder
+PARENT_POSTING_ID: 0
+CONTENT:
+Bitte vergessen Sie nicht, den Kurs zu evaluieren und sich ab naechster Woche zur Pruefung anzumelden!
+<REMOVED_PERSON_ENTITY> Prof. <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

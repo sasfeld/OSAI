@@ -1,0 +1,13 @@
+ID: 86
+CREATION_DATETIME: 1306694400000
+MODIFICATION_DATETIME: 1306694400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 85
+CONTENT:
+   
+Kann man noch irgendwie behilflich sein?
+
+Gerne auch per Skype oder TeamViewer Session :)
+    
+TAGGED_CONTENT:

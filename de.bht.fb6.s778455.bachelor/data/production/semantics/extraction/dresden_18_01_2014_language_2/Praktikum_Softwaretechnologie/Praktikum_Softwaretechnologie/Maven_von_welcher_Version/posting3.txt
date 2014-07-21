@@ -1,0 +1,12 @@
+ID: 2747
+CREATION_DATETIME: 1383951600000
+MODIFICATION_DATETIME: 1383951600000
+TITLE: danke sehr, jetzt funktioniert es als auch die Website :)
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2744
+POSTING_TYPE: comment
+CONTENT:
+danke sehr, jetzt funktioniert es als auch die Website :)
+
+Eclipse habe ich neueste Version <NAME_CORPUS_REPLACEMENT> 64-bit und dazu braucht man nämlich noch Maven einzustellen. Es scheint, dass meine gewählte Version <NAME_CORPUS_REPLACEMENT> Maven richtig ist, nicht aber die Versionen, bei deren Installierung Popfenster ausgeworfen wird wie'The authenticity or validity of this Software cannot be established'.
+TAGGED_CONTENT:

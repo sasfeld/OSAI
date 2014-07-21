@@ -1,0 +1,20 @@
+ID: 97752
+CREATION_DATETIME: 1288800624
+MODIFICATION_DATETIME: 1288800624
+TITLE: Re: Einsendeaufgaben in LON-CAPA
+TOPIC_ZOOM_TAG: value:Bücher;weight:2.0;significance:5.80279623892246;degreegeneralization:5;uri:21981657
+TOPIC_ZOOM_TAG: value:Presse, Druck und Verlagswesen;weight:2.0;significance:3.89973203213328;degreegeneralization:4;uri:21990174
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:2.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+NER_TAG: value:LON-CAPA;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LON-CAPA;weight:-1.0;uri:;classifierlabel:I-LOC
+POS_TAG: value:Kapitel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Seite;weight:0.0;uri:;postag:NN
+POS_TAG: value:Termine;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skript;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97751
+CONTENT:
+Wir sind etwa in Kapitel 1 in LON-CAPA. Im Skript ist das LO02 Seite 21. Evtl. muessen wir fuer die Kapitel 2 und 4 die Termine nach hinten verschieben, wenn wir mehr Zeit brauchen.
+TAGGED_CONTENT:
+Wir_PPER sind_VAFIN etwa_ADV in_APPR Kapitel_NN 1_CARD in_APPR LON-CAPA_NE ._$. Im_APPRART Skript_NN ist_VAFIN das_ART LO02_CARD Seite_NN 21_CARD ._$. Evtl_NE ._$. muessen_VVFIN wir_PPER fuer_ADJD die_ART Kapitel_NN 2_CARD und_KON 4_CARD die_ART Termine_NN nach_APPR hinten_ADV verschieben_VVINF ,_$, wenn_KOUS wir_PPER mehr_PIAT Zeit_NN brauchen_VVFIN ._$. 

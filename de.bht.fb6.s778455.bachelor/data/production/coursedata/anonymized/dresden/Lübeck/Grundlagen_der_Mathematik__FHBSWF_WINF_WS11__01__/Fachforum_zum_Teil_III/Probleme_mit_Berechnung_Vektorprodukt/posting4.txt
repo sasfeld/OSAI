@@ -1,0 +1,8 @@
+ID: 117585
+CREATION_DATETIME: 1324986951
+MODIFICATION_DATETIME: 1324986951
+TITLE: Re: Probleme mit Berechnung Vektorprodukt
+PARENT_POSTING_ID: 117584
+CONTENT:
+Vielen Dank, manchmal verliert man einfach den Überblick... Grüße, <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

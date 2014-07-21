@@ -1,0 +1,201 @@
+ID: 166
+CREATION_DATETIME: 1348524000000
+MODIFICATION_DATETIME: 1348610400000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Züge;weight:20.0;significance:7.27183573992872;degreegeneralization:8;uri:21308253
+TOPIC_ZOOM_TAG: value:Schienenverkehr;weight:20.0;significance:5.91088508046273;degreegeneralization:6;uri:21897745
+TOPIC_ZOOM_TAG: value:Fahrzeuge und Verkehrsmittel;weight:20.0;significance:4.11377467748681;degreegeneralization:6;uri:21881442
+TOPIC_ZOOM_TAG: value:Verkehr;weight:20.0;significance:3.70147240201396;degreegeneralization:5;uri:21897779
+TOPIC_ZOOM_TAG: value:Transport, Verkehr und Logistik;weight:20.0;significance:3.6537137298884;degreegeneralization:4;uri:21925982
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:22.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:22.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:20.0;significance:2.12516980436886;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Compiler;weight:2.0;significance:1.05544883877871;degreegeneralization:9;uri:20195178
+TOPIC_ZOOM_TAG: value:Technische Informatik;weight:2.0;significance:0.937332203857782;degreegeneralization:5;uri:20889033
+TOPIC_ZOOM_TAG: value:Programmiersprachen;weight:2.0;significance:0.714229022846755;degreegeneralization:8;uri:20901749
+TOPIC_ZOOM_TAG: value:Programmierung;weight:2.0;significance:0.651215642795851;degreegeneralization:7;uri:21461440
+TOPIC_ZOOM_TAG: value:Formale Sprachen;weight:2.0;significance:0.639254155724149;degreegeneralization:6;uri:21978155
+TOPIC_ZOOM_TAG: value:Computersprachen;weight:2.0;significance:0.638943355110624;degreegeneralization:6;uri:19949137
+TOPIC_ZOOM_TAG: value:Wahlen;weight:2.0;significance:0.479052538439824;degreegeneralization:4;uri:21471691
+TOPIC_ZOOM_TAG: value:Software;weight:2.0;significance:0.47365760404245;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:2.0;significance:0.456747767959343;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Sprache;weight:2.0;significance:0.455337009803358;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:2.0;significance:0.45525470188383;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:2.0;significance:0.40341024085827;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Computer;weight:2.0;significance:0.391830896346151;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:2.0;significance:0.364276069487369;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Politische Ereignisse;weight:2.0;significance:0.355518078754806;degreegeneralization:3;uri:21997144
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:2.0;significance:0.332879062946435;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:0.19829924144688;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Politik;weight:2.0;significance:0.16806406560096;degreegeneralization:2;uri:21999932
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:0.131640061867499;degreegeneralization:3;uri:20758133
+NER_TAG: value:MCP;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:positionArray;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kompilierung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anmerkung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kandidat;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klasse;weight:0.0;uri:;postag:NN
+POS_TAG: value:Output;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehlermeldung;weight:0.0;uri:;postag:NN
+POS_TAG: value:function;weight:0.0;uri:;postag:NN
+POS_TAG: value:encodedMove;weight:0.0;uri:;postag:NN
+POS_TAG: value:muss;weight:0.0;uri:;postag:NN
+POS_TAG: value:Compiler;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufruf;weight:0.0;uri:;postag:NN
+POS_TAG: value:ltigkeitsbereich;weight:0.0;uri:;postag:NN
+POS_TAG: value:buildArray;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zuges;weight:0.0;uri:;postag:NN
+POS_TAG: value:Integerzahlen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Objekt;weight:0.0;uri:;postag:NN
+POS_TAG: value:moveRating;weight:0.0;uri:;postag:NN
+POS_TAG: value:Parameter;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Formatierung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Konstruktor;weight:0.0;uri:;postag:NN
+POS_TAG: value:addZug;weight:0.0;uri:;postag:NN
+POS_TAG: value:Warnung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Verlangten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:zugObject;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zugattribut;weight:0.0;uri:;postag:NN
+POS_TAG: value:Verzeichnis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Konstruktors;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Codezeile;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spielstein;weight:0.0;uri:;postag:NN
+POS_TAG: value:Argument;weight:0.0;uri:;postag:NN
+POS_TAG: value:Arbeitsfl;weight:0.0;uri:;postag:NN
+POS_TAG: value:zugArray;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehlermeldungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Move;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bewertung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zahlen;weight:0.0;uri:;postag:NN
+POS_TAG: value:zugAnzahl;weight:0.0;uri:;postag:NN
+POS_TAG: value:Argumente;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zug;weight:0.0;uri:;postag:NN
+POS_TAG: value:Funktion;weight:0.0;uri:;postag:NN
+POS_TAG: value:B.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kandidaten;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich habe mir eine Zug-Klasse erstellt, in der ich den besten Zug für einen Spielstein bestimmen kann.
+
+Nun habe ich eine Klasse Move, in der ich den besten Zug pro <REMOVED_PERSON_ENTITY> speichern will, die Bewertung dieses Zuges und den Output, den ich an das MCP schicken muss.
+
+Doch, wenn ich in dem Konstruktor meiner Move Klasse den Zug instanziieren will, gibt mir der Compiler eine Fehlermeldung, dass die angegebenen Parameter des Zug Konstruktors (2 Integerzahlen) nicht mit dem Konstruktor der Klasse Zug übereinstimmen. Er erkennt, also die beiden <NAME_CORPUS_REPLACEMENT> mir übergebenen Integerzahlen nicht als solche und selbst wenn ich die betreffende Codezeile herausnehme, gibt er mir weiterhin diese Fehlermeldung, solange bis ich auch das Zugattribut in Move herausnehme.
+
+Ich habe in einer statischen Funktion erfolgreich den Konstruktor <NAME_CORPUS_REPLACEMENT> Zug angewendet, also scheint es etwas mit der Klasse Move zu tun zu haben.
+
+Außerdem mosert er rum, wenn ich ein Zug-Objekt mit festen Zahlen instanziieren will (z. B. Zug temp(0, 0) ).
+
+Woran liegt das, dass der Compiler die Parameter nicht als die Verlangten erkennt?
+
+Zug Klasse
+
+```c
+
+class Zug
+
+{
+
+	public:
+
+		int loc;
+
+		int zugAnzahl;
+
+		int rating;
+
+		Zug* zugArray;
+
+		Zug (int pos, int rate) 
+
+		{
+
+			zugAnzahl = 0;
+
+			loc = pos;
+
+			rating = rate;
+
+		}
+
+		void addZug(Zug toAdd)
+
+		{
+
+			zugArray[zugAnzahl] = toAdd;
+
+			zugAnzahl++;
+
+		}
+
+};
+
+```
+
+Move Klasse
+
+```c
+
+class Move
+
+{
+
+	public:
+
+		Zug zugObject;
+
+		int moveRating;
+
+		int* positionArray;
+
+		char* encodedMove;
+
+		Move(int position)
+
+		{
+
+			Zug temp(position, 0);
+
+			zugObject = temp;
+
+		}
+
+};
+
+```
+
+Fehlermeldungen
+
+```c
+
+g++ -Wall -o "example_player3" "example_player3. <LEARNED_PERSON_NAME_REPLACEMENT>" (im Verzeichnis: /home/michael/Arbeitsfläche)
+
+Kompilierung fehlgeschlagen.
+
+example_player3. <LEARNED_PERSON_NAME_REPLACEMENT>: In Konstruktor »Move::Move(int)«:
+
+example_player3. <LEARNED_PERSON_NAME_REPLACEMENT>:268:3: Fehler: keine passende Funktion für Aufruf <NAME_CORPUS_REPLACEMENT> »Zug::Zug()«
+
+example_player3. <LEARNED_PERSON_NAME_REPLACEMENT>:268:3: Anmerkung: Kandidaten sind:
+
+example_player3. <LEARNED_PERSON_NAME_REPLACEMENT>:44:3: Anmerkung: Zug::Zug(int, int)
+
+example_player3. <LEARNED_PERSON_NAME_REPLACEMENT>:44:3: Anmerkung:   Kandidat erwartet 2 Argumente, 0 angegeben
+
+example_player3. <LEARNED_PERSON_NAME_REPLACEMENT>:36:7: Anmerkung: Zug::Zug(const Zug&)
+
+example_player3. <LEARNED_PERSON_NAME_REPLACEMENT>:36:7: Anmerkung:   Kandidat erwartet 1 Argument, 0 angegeben
+
+example_player3. <LEARNED_PERSON_NAME_REPLACEMENT>: Im globalen Gültigkeitsbereich:
+
+example_player3. <LEARNED_PERSON_NAME_REPLACEMENT>:229:13: Warnung: »int* buildArray(Zug, int*)« definiert, aber nicht verwendet [-Wunused-function]
+
+```
+
+// Formatierung angepasst -- <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Ich_PPER habe_VAFIN mir_PPER eine_ART Zug-Klasse_NN erstellt_VVPP ,_$, in_APPR der_PRELS ich_PPER den_ART besten_ADJA Zug_NN für_APPR einen_ART Spielstein_NN bestimmen_VVINF kann_VMFIN ._$. Nun_ADV habe_VAFIN ich_PPER eine_ART Klasse_NN Move_NE ,_$, in_APPR der_PRELS ich_PPER den_ART besten_ADJA Zug_NN pro_APPR <_CARD REMOVED_PERSON_ENTITY_NN >_CARD speichern_VVINF will_VMFIN ,_$, die_ART Bewertung_NN dieses_PDAT Zuges_NN und_KON den_ART Output_NN ,_$, den_PRELS ich_PPER an_APPR das_ART MCP_NE schicken_VVFIN muss_NN ._$. Doch_KON ,_$, wenn_KOUS ich_PPER in_APPR dem_ART Konstruktor_NN meiner_PPOSAT Move_ADJA Klasse_NN den_ART Zug_NN instanziieren_VVINF will_VMFIN ,_$, gibt_VVFIN mir_PPER der_ART Compiler_NN eine_ART Fehlermeldung_NN ,_$, dass_KOUS die_ART angegebenen_ADJA Parameter_NN des_ART Zug_NN Konstruktors_NN -LRB-_TRUNC 2_CARD Integerzahlen_NN -RRB-_TRUNC nicht_PTKNEG mit_APPR dem_ART Konstruktor_NN der_ART Klasse_NN Zug_NN übereinstimmen_VVFIN ._$. Er_PPER erkennt_VVFIN ,_$, also_ADV die_ART beiden_PIDAT <_CARD NAME_CORPUS_REPLACEMENT_NN >_VVFIN mir_PPER übergebenen_ADJA Integerzahlen_NN nicht_PTKNEG als_APPR solche_PIS und_KON selbst_ADV wenn_KOUS ich_PPER die_ART betreffende_ADJA Codezeile_NN herausnehme_VVFIN ,_$, gibt_VVFIN er_PPER mir_PPER weiterhin_ADV diese_PDAT Fehlermeldung_NN ,_$, solange_KOUS bis_APPR ich_PPER auch_ADV das_ART Zugattribut_NN in_APPR Move_NE herausnehme_VVFIN ._$. Ich_PPER habe_VAFIN in_APPR einer_ART statischen_ADJA Funktion_NN erfolgreich_ADJD den_ART Konstruktor_NN <_NE NAME_CORPUS_REPLACEMENT_NE >_CARD Zug_NN angewendet_VVPP ,_$, also_ADV scheint_VVFIN es_PPER etwas_PIS mit_APPR der_ART Klasse_NN Move_NE zu_PTKZU tun_VVINF zu_PTKZU haben_VAINF ._$. Außerdem_PROAV mosert_VVFIN er_PPER rum_PTKVZ ,_$, wenn_KOUS ich_PPER ein_ART Zug-Objekt_NN mit_APPR festen_ADJA Zahlen_NN instanziieren_VVINF will_VMFIN -LRB-_TRUNC z._APPRART B._NN Zug_NN temp_ADJD -LRB-_TRUNC 0_CARD ,_$, 0_CARD -RRB-_TRUNC -RRB-_TRUNC ._$. Woran_PWAV liegt_VVFIN das_PDS ,_$, dass_KOUS der_ART Compiler_NN die_ART Parameter_NN nicht_PTKNEG als_APPR die_ART Verlangten_NN erkennt_VVFIN ?_$. Zug_NN Klasse_NN ``_CARD `_XY c_FM class_FM Zug_NN -LCB-_TRUNC public_FM :_$. int_ADJD loc_FM ;_$. int_ITJ zugAnzahl_NN ;_$. int_ADJD rating_VVFIN ;_$. Zug_NN \*_CARD zugArray_NE ;_$. Zug_NN -LRB-_TRUNC int_FM pos_FM ,_$, int_FM rate_FM -RRB-_TRUNC -LCB-_TRUNC zugAnzahl_XY =_XY 0_CARD ;_$. loc_XY =_XY pos_FM ;_$. rating_XY =_XY rate_VVFIN ;_$. -RCB-_TRUNC void_KON addZug_NN -LRB-_TRUNC Zug_NN toAdd_NE -RRB-_TRUNC -LCB-_TRUNC zugArray_NN -LSB-_TRUNC zugAnzahl_NN -RSB-_TRUNC =_XY toAdd_NE ;_$. zugAnzahl_NN +_XY +_XY ;_$. -RCB-_TRUNC -RCB-_TRUNC ;_$. ``_CARD `_XY Move_NE Klasse_NN ``_CARD `_XY c_FM class_FM Move_FM -LCB-_TRUNC public_FM :_$. Zug_NN zugObject_NN ;_$. int_ITJ moveRating_NN ;_$. int_APPR \*_CARD positionArray_NN ;_$. char_NE \*_CARD encodedMove_NN ;_$. Move_NN -LRB-_TRUNC int_XY position_FM -RRB-_TRUNC -LCB-_TRUNC Zug_NN temp_ADJD -LRB-_TRUNC position_VVINF ,_$, 0_CARD -RRB-_TRUNC ;_$. zugObject_XY =_XY temp_PTKVZ ;_$. -RCB-_TRUNC -RCB-_TRUNC ;_$. ``_CARD `_XY Fehlermeldungen_NN ``_CARD `_XY c_XY g_XY +_XY +_KON -_$( Wall_NE -_$( o_ADV "_$( example_player3_CARD "_$( "_$( example_player3_CARD ._$. <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_CARD "_$( -LRB-_TRUNC im_APPRART Verzeichnis_NN :_$. \/_CARD home\/michael\/Arbeitsfl_NN äche_VVFIN -RRB-_TRUNC Kompilierung_NN fehlgeschlagen_ADJD ._$. example_player3_CARD ._$. <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_CARD :_$. In_APPR Konstruktor_NN "_$( Move_NE :_$. ,_$, Move_NN -LRB-_TRUNC int_XY -RRB-_TRUNC "_$( :_$. example_player3_CARD ._$. <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_VVFIN ,_$, 268_CARD ,_$, 3_CARD :_$. Fehler_NN :_$. keine_PIAT passende_ADJA Funktion_NN für_APPR Aufruf_NN <_CARD NAME_CORPUS_REPLACEMENT_NE >_NE "_$( Zug_NN :_$. ,_$, Zug_NN -LRB-_TRUNC -RRB-_TRUNC "_$( example_player3_CARD ._$. <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_VVFIN ,_$, 268_CARD ,_$, 3_CARD :_$. Anmerkung_NN :_$. Kandidaten_NN sind_VAFIN :_$. example_player3_CARD ._$. <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_VVFIN ,_$, 44_CARD ,_$, 3_CARD :_$. Anmerkung_NN :_$. Zug_NN :_$. ,_$, Zug_NN -LRB-_TRUNC int_ITJ ,_$, int_ADJD -RRB-_TRUNC example_player3_NN ._$. <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_VVFIN ,_$, 44_CARD ,_$, 3_CARD :_$. Anmerkung_NN :_$. Kandidat_NN erwartet_VVFIN 2_CARD Argumente_NN ,_$, 0_CARD angegeben_VVPP example_player3_CARD ._$. <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_VVFIN ,_$, 36_CARD ,_$, 7_CARD :_$. Anmerkung_NN :_$. Zug_NN :_$. ,_$, Zug_NN -LRB-_TRUNC const_VAFIN Zug_NN &_KON -RRB-_TRUNC example_player3_NN ._$. <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_VVFIN ,_$, 36_CARD ,_$, 7_CARD :_$. Anmerkung_NN :_$. Kandidat_NN erwartet_VVFIN 1_CARD Argument_NN ,_$, 0_CARD angegeben_VVPP example_player3_CARD ._$. <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_CARD :_$. Im_APPRART globalen_ADJA Gültigkeitsbereich_NN :_$. example_player3_CARD ._$. <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_VVFIN ,_$, 229_CARD ,_$, 13_CARD :_$. Warnung_NN :_$. "_$( int_ADJD \*_CARD buildArray_NN -LRB-_TRUNC Zug_NN ,_$, int_ADJD \*_CARD -RRB-_TRUNC "_$( definiert_VVPP ,_$, aber_KON nicht_PTKNEG verwendet_VVPP -LSB-_TRUNC -_$( Wunused-function_NN -RSB-_TRUNC ``_KON `_XY \/_CARD \/_CARD Formatierung_NN angepasst_VVPP --_-- <_XY REMOVED_PERSON_ENTITY_NE >_XY 

@@ -1,0 +1,7 @@
+ID: 43320
+CREATION_DATETIME: 1324053504
+MODIFICATION_DATETIME: 1324058605
+TITLE: Welche Formelsammlung?
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=43320
+FIRST_POSTING_ID: 116453

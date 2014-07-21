@@ -1,0 +1,9 @@
+ID: 817
+CREATION_DATETIME: 1353279600000
+MODIFICATION_DATETIME: 1353279600000
+TITLE: Yes, as announced in the last meeting, we will have a complex meeting tomorrow at 2.50 PM.
+PARENT_POSTING_ID: 816
+POSTING_TYPE: answer
+CONTENT:
+Yes, as announced in the last meeting, we will have a complex meeting tomorrow at 2. 50 PM.
+TAGGED_CONTENT:

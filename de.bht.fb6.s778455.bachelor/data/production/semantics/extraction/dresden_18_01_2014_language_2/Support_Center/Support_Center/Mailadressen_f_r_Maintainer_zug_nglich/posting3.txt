@@ -1,0 +1,10 @@
+ID: 456
+CREATION_DATETIME: 1350856800000
+MODIFICATION_DATETIME: 1350856800000
+TITLE: Wurde bearbeitet und 
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 451
+POSTING_TYPE: answer
+CONTENT:
+Wurde bearbeitet und bietet nun auch besseren <REMOVED_PERSON_ENTITY> und mehr Informationen für den Nutzer. Außerdem ist es jetzt viel schneller ;)
+TAGGED_CONTENT:

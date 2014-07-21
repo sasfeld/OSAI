@@ -1,0 +1,9 @@
+ID: 2440
+CREATION_DATETIME: 1374616800000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: Ich konnte auch nur Klausuren von 2001, 2003, 2007, 2007 und eine Musterklausur finden. Es wäre aber ...
+PARENT_POSTING_ID: 2419
+POSTING_TYPE: comment
+CONTENT:
+Ich konnte auch nur <REMOVED_PERSON_ENTITY> <NAME_CORPUS_REPLACEMENT> 2001, 2003, 2007, 2007 und eine Musterklausur finden. Es wäre aber  schön neuere Klausuren durchsehen zu können...
+TAGGED_CONTENT:

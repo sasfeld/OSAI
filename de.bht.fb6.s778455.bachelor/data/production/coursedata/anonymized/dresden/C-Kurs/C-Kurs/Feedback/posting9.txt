@@ -1,0 +1,13 @@
+ID: 2922
+CREATION_DATETIME: 1384815600000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: Echt jetzt? Einen Link für Sachen die lokal auf jedem Computer zu finden sind? 
+[code]
+$man 3 print...
+PARENT_POSTING_ID: 2914
+POSTING_TYPE: comment
+CONTENT:
+Echt jetzt? Einen <REMOVED_PERSON_ENTITY> für Sachen die lokal auf jedem Computer zu finden sind? 
+    $man 3 printf
+Eine echte (zitierbare/belastbare) Referenz wäre [die Single Unix Specification/IEEE 1003](http://pubs.opengroup.org/onlinepubs/000095399/functions/printf. html). 
+TAGGED_CONTENT:

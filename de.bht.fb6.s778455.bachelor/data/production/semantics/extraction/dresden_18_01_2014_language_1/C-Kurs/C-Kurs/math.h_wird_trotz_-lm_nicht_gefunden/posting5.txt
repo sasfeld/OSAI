@@ -1,0 +1,14 @@
+ID: 3027
+CREATION_DATETIME: 1385420400000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: Nenn' das nicht Header, weil sonst jeder denkt, du meintest eine extra Header-File.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3020
+POSTING_TYPE: comment
+CONTENT:
+<REMOVED_PERSON_ENTITY>' das nicht Header, weil sonst jeder denkt, du meintest eine extra Header-File.
+
+Ach <NAME_CORPUS_REPLACEMENT> war die Fehlermeldung … wer lesen kann ist klar im Vorteil.
+
+Was euch gesagt wurde ist schlichtweg falsch. Die Reihenfolge ist sehr wohl   wichtig. Einfach erklärt: wenn der <REMOVED_PERSON_ENTITY> die Symbole der libmath zuerst liest, weiß er ja noch gar nicht, dass später die Symbole `sqrt`und `pow` benötigt, also merkt er sich diese nicht. Wenn er deinen Code zuerst durch geht, merkt der <REMOVED_PERSON_ENTITY>, dass die Funktionen (richtig: Symbole) `sqrt` und `pow` verwendet werden. Wenn er nun als nächstes die Symbole der libmath liest, kann er diese "undefined references" auflösen.
+TAGGED_CONTENT:

@@ -1,0 +1,21 @@
+ID: 97742
+CREATION_DATETIME: 1294504559
+MODIFICATION_DATETIME: 1294504559
+TITLE: Pruefungsvorleistungsergebnisse...
+LANGUAGE: UNKNOWN
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:6.95597687640829;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:EPV;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rueckfragen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Email;weight:0.0;uri:;postag:NN
+POS_TAG: value:Prof.;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+... sind im EPV ab heute einsehbar. Bei Rueckfragen bitte kurze Email!
+<REMOVED_PERSON_ENTITY> Prof. <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+..._$( sind_VAFIN im_APPRART EPV_NN ab_APPR heute_ADV einsehbar_ADJD ._$. Bei_APPR Rueckfragen_NN bitte_VVFIN kurze_ADJA Email_NN !_$. <_XY REMOVED_PERSON_ENTITY_NN >_CARD Prof._NN <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

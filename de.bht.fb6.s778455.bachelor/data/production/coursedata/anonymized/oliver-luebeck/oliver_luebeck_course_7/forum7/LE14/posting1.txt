@@ -1,0 +1,28 @@
+ID: 74
+CREATION_DATETIME: 1306616580000
+MODIFICATION_DATETIME: 1306616580000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+hallo ihrs lächelnd
+
+ich habe anscheinend mehrere (extrem große) bretter vor dem kopf. komme mit der einsendeaufgabe gar nicht klar! irgendwie hab ich das gefühl, nichts verstanden zu haben und bekomme eine fehlermeldung nach der anderen.... unschön!
+
+ja, wo fang ich an?!
+ich hab erstmal die datei Shape.java gespeichert. ist das richtig, oder sollen wir das importieren? eigentlich ja nicht, oder?
+wenn ich jedenfalls meine klasse Shape.java und Circle.java (im gleichen Ordner) habe bekomme ich folgende fehlermeldung:
+Circle.java:19: cannot find symbol
+symbol: constructor Shape()
+location: class Shape
+super();
+
+egal was ich hin und her ändere, ich bekomme immer einen ähnlichen fehler, nämlich dass Shape nicht gefunden wird.
+Shape wird in meinem code auch dunkelblau geschrieben, als würde er das vielleicht doch "heimlich" importien und nicht meine datei nutzen.... die dateil umzubenennen funktioniert aber auch nicht.
+
+hat irgendjemand ne ahnung was ich falsch mache??? ich bin langsam am verzweifeln....traurig
+
+alles liebe,
+    
+TAGGED_CONTENT:

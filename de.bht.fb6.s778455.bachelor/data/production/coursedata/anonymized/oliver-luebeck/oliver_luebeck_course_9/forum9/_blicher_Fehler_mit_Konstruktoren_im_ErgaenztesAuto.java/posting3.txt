@@ -1,0 +1,11 @@
+ID: 23
+CREATION_DATETIME: 1177441140000
+MODIFICATION_DATETIME: 1177441140000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 22
+CONTENT:
+ 
+So ging es mir auch. Wenn ich alle Attribute in einen Konstruktor hauen darf, ist es ja einfach.
+     
+TAGGED_CONTENT:

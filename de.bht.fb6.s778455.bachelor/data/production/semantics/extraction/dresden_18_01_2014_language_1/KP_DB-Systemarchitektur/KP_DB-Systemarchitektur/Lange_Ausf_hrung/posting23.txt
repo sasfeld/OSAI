@@ -1,0 +1,10 @@
+ID: 2271
+CREATION_DATETIME: 1374012000000
+MODIFICATION_DATETIME: 1374012000000
+TITLE: Aber ich finde die Idee mit 2 Arrays von In- oder Out-Parametern etwas doof. Am Ende will ich ja einf...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2189
+POSTING_TYPE: comment
+CONTENT:
+Aber ich finde die Idee mit 2 Arrays <NAME_CORPUS_REPLACEMENT> In- oder Out-Parametern etwas doof. Am Ende will ich ja einfach nur die Liste der Parameter in der Reihenfolge haben.
+TAGGED_CONTENT:

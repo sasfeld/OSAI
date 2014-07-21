@@ -1,0 +1,15 @@
+ID: 76
+CREATION_DATETIME: 1294500480000
+MODIFICATION_DATETIME: 1294500480000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+ 
+Im Text der Aufgabe fehlt in der Zeile
+System.out.println(cI.removeAll(new LinkedList<String>()));
+das d bei LinkedList. Es gibt einen Compilerfehler.
+
+Gruß
+    
+TAGGED_CONTENT:

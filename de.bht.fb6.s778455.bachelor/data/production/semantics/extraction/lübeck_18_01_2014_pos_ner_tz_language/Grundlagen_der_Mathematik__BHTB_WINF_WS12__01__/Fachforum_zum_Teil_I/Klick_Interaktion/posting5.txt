@@ -1,0 +1,36 @@
+ID: 168189
+CREATION_DATETIME: 1349698319
+MODIFICATION_DATETIME: 1349698319
+TITLE: Re: Klick Interaktion
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:3.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:3.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:2.0;significance:3.33853448048142;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:HTML;weight:1.0;significance:3.10245071119059;degreegeneralization:8;uri:20901715
+TOPIC_ZOOM_TAG: value:Computer;weight:2.0;significance:2.87342657320511;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:3.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Beschreibungssprachen;weight:1.0;significance:2.53420134711112;degreegeneralization:7;uri:20900644
+TOPIC_ZOOM_TAG: value:Formale Sprachen;weight:1.0;significance:2.34393190432188;degreegeneralization:6;uri:21978155
+TOPIC_ZOOM_TAG: value:Computersprachen;weight:1.0;significance:2.34279230207229;degreegeneralization:6;uri:19949137
+TOPIC_ZOOM_TAG: value:Betriebssysteme;weight:1.0;significance:2.25788510653811;degreegeneralization:7;uri:20921095
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:3.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:3.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Software;weight:1.0;significance:1.73674454815565;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:1.67474181585092;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:1.66956903594565;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:1.0;significance:1.65021443562739;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:1.47917088314699;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.28277805211091;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.27826712902651;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:0.895641144893587;degreegeneralization:3;uri:20922149
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Betriebssystem;weight:0.0;uri:;postag:NN
+POS_TAG: value:Datei;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 168119
+CONTENT:
+Hi <REMOVED_PERSON_ENTITY>,
+je nach Betriebssystem die entsprechende Datei runterladen und installieren
+http://www.oracle.com/technetwork/java/javase/downloads/jre7u7-downloads-1836441. html
+Grüße <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hi_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, je_ADV nach_APPR Betriebssystem_NN die_ART entsprechende_ADJA Datei_NN runterladen_ADJA und_KON installieren_ADJA http:\/\/www.oracle.com\/technetwork\/java\/javase\/downloads\/jre7u7-downloads-1836441_NN ._$. html_PIDAT Grüße_NN <_VVFIN REMOVED_PERSON_ENTITY_NE >_XY 

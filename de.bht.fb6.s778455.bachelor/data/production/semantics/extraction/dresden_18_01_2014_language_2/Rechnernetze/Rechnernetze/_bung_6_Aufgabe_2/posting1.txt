@@ -1,0 +1,46 @@
+ID: 2278
+CREATION_DATETIME: 1374012000000
+MODIFICATION_DATETIME: 1382047200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+leider habe ich an Übung 6 nicht teilgenommen und finde zu 2. auf keine Lösung. Vielleicht könnt ihr mir sagen, ob das so stimmt.
+
+a)
+
+Protokoll im Payload: ICMP
+
+Typ der Nachricht: Typ 8 - Echo request. Ein einfacher Ping.
+
+b)
+
+Sender: 192. 168. 1. 102
+
+Empfänger: 128. 59. 23. 100
+
+Frage2: Gibt es ein Szenario, bei dem "Src" (Zeile 4 im Code) und "Source" (Zeile 22 im Code) bzw. entsprechend "Dst" und "Destination" sich unterscheiden?
+
+Frage3: Warum wird in Klammern die Adresse <NAME_CORPUS_REPLACEMENT> Sender und Empfänger wiederholt?
+
+c)
+
+?
+
+(Nein?)
+
+d)
+
+nein. Ein Fragmentiertes Paket müsste die(?) More Fragments Flag auf 1 gesetzt haben und ein entsprechendes Fragment offset. Beim letzten Fragment müsste die mf Flag 0 gesetzt werden. 
+
+e)
+
+Src + Dst müssten vertauscht sein, 
+
+ICMP muss Type 0 gesetzt werden (Echo Reply) 
+
+(Time To Life muss zurück gesetzt werden?)
+TAGGED_CONTENT:

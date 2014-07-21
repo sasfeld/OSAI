@@ -1,0 +1,13 @@
+ID: 198
+CREATION_DATETIME: 1349560800000
+MODIFICATION_DATETIME: 1349560800000
+TITLE: Also findet keine der
+LANGUAGE: GERMAN
+POS_TAG: value:Woche;weight:0.0;uri:;postag:NN
+POS_TAG: value:bungen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 193
+POSTING_TYPE: comment
+CONTENT:
+Also findet keine der Übungen in der nächsten Woche statt?
+TAGGED_CONTENT:
+Also_ADV findet_VVFIN keine_PIAT der_ART Übungen_NN in_APPR der_ART nächsten_ADJA Woche_NN statt_APPR ?_$. 

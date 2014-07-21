@@ -1,0 +1,9 @@
+ID: 1122
+CREATION_DATETIME: 1360969200000
+MODIFICATION_DATETIME: 1361142000000
+TITLE: Nein, da wir keine Möglichkeit haben, bei allen Teilnehmern zu prüfen, ob der Speicher wirklich gelös...
+PARENT_POSTING_ID: 1121
+POSTING_TYPE: answer
+CONTENT:
+Nein, <NAME_CORPUS_REPLACEMENT> wir keine Möglichkeit haben, bei allen Teilnehmern zu prüfen, ob der <REMOVED_PERSON_ENTITY> wirklich gelöscht ist.
+TAGGED_CONTENT:

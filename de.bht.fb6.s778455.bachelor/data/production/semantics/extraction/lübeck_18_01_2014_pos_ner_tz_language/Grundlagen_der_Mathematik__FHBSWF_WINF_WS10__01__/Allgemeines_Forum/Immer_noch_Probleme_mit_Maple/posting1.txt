@@ -1,0 +1,54 @@
+ID: 97774
+CREATION_DATETIME: 1287602165
+MODIFICATION_DATETIME: 1287602235
+TITLE: Immer noch Probleme mit Maple
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Opera;weight:1.0;significance:12.7085495152339;degreegeneralization:3;uri:19628959
+TOPIC_ZOOM_TAG: value:Mozilla Firefox;weight:1.0;significance:9.27456231074878;degreegeneralization:11;uri:20042008
+TOPIC_ZOOM_TAG: value:Mozilla;weight:1.0;significance:8.79652650980578;degreegeneralization:10;uri:20898689
+TOPIC_ZOOM_TAG: value:Webbranche;weight:1.0;significance:8.44586963819261;degreegeneralization:7;uri:20277050
+TOPIC_ZOOM_TAG: value:Freie Software;weight:1.0;significance:8.31410036056149;degreegeneralization:7;uri:20898706
+TOPIC_ZOOM_TAG: value:Browser;weight:1.0;significance:7.88023577793163;degreegeneralization:8;uri:20901630
+TOPIC_ZOOM_TAG: value:Webtechnologie;weight:1.0;significance:7.79589462949787;degreegeneralization:7;uri:20990880
+TOPIC_ZOOM_TAG: value:Internetfirmen;weight:1.0;significance:7.1791204277225;degreegeneralization:8;uri:20201281
+TOPIC_ZOOM_TAG: value:Internetsoftware;weight:1.0;significance:7.11756253472307;degreegeneralization:7;uri:20808623
+TOPIC_ZOOM_TAG: value:Internetbranche;weight:1.0;significance:6.90643113985686;degreegeneralization:6;uri:20765664
+TOPIC_ZOOM_TAG: value:Softwareunternehmen;weight:1.0;significance:6.4451512526423;degreegeneralization:9;uri:20921078
+TOPIC_ZOOM_TAG: value:IT-Unternehmen;weight:1.0;significance:6.41144019529999;degreegeneralization:7;uri:20030941
+TOPIC_ZOOM_TAG: value:Softwarebranche;weight:1.0;significance:6.36642809651278;degreegeneralization:8;uri:21868879
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Informationstechnologie;weight:1.0;significance:6.25177985966176;degreegeneralization:6;uri:21305822
+TOPIC_ZOOM_TAG: value:Computerunternehmen;weight:1.0;significance:6.07523108195355;degreegeneralization:8;uri:20002789
+TOPIC_ZOOM_TAG: value:Computerbranche;weight:1.0;significance:6.00658914923139;degreegeneralization:7;uri:20766616
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Bürotechnik, Computer und Datenverarbeitung;weight:1.0;significance:6.00658914923139;degreegeneralization:6;uri:21958469
+TOPIC_ZOOM_TAG: value:Medienunternehmen;weight:1.0;significance:5.89730513663263;degreegeneralization:7;uri:20888812
+TOPIC_ZOOM_TAG: value:Software;weight:1.0;significance:5.21023364446695;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:5.02422544755277;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:5.00780172072213;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:World Wide Web;weight:1.0;significance:4.80310786617364;degreegeneralization:6;uri:20772430
+TOPIC_ZOOM_TAG: value:Technologieunternehmen;weight:1.0;significance:4.75382618073602;degreegeneralization:6;uri:20761754
+TOPIC_ZOOM_TAG: value:Medienbranche;weight:1.0;significance:4.33545766779195;degreegeneralization:6;uri:20771019
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:4.31013985980766;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Medien, Internet, Information und Kommunikation;weight:1.0;significance:4.04829548097704;degreegeneralization:5;uri:21993370
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Unternehmen, Firmen und Firmengruppen;weight:1.0;significance:2.91081144288141;degreegeneralization:4;uri:21973565
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:1.80459553725326;degreegeneralization:2;uri:21999847
+POS_TAG: value:Maple;weight:0.0;uri:;postag:NN
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+POS_TAG: value:Screenshot;weight:0.0;uri:;postag:NN
+POS_TAG: value:Firefox;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sachen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+ Hallo zusammen, ich habe die interaktiven Sachen (Maple) immer noch nicht zum laufen bekommen. Habe es mit Firefox 3. 6. 10, IE 8 und Opera 10. 63 versucht. Anbei ein Screenshot wie es bei mir aussieht (auch wenn ich auf den Maple Link klicke). Hat irgendwer das selbe Problem oder eine Lösung. Ich weiß nicht mehr weiter :(Die interaktiven Sachen wo Applet dran steht funktionieren super. VGDaniel 
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, ich_PPER habe_VAFIN die_ART interaktiven_ADJA Sachen_NN -LRB-_TRUNC Maple_NN -RRB-_TRUNC immer_ADV noch_ADV nicht_PTKNEG zum_APPRART laufen_VVINF bekommen_VVINF ._$. Habe_VAFIN es_PPER mit_APPR Firefox_NN 3_CARD ._$. 6_CARD ._$. 10_CARD ,_$, IE_CARD 8_CARD und_KON Opera_NE 10_CARD ._$. 63_CARD versucht_VVPP ._$. Anbei_ADV ein_ART Screenshot_NN wie_KOKOM es_PPER bei_APPR mir_PPER aussieht_VVFIN -LRB-_TRUNC auch_ADV wenn_KOUS ich_PPER auf_APPR den_ART Maple_NE Link_NE klicke_ADJA -RRB-_TRUNC ._$. Hat_VAFIN irgendwer_PIAT das_ART selbe_ADJA Problem_NN oder_KON eine_ART Lösung_NN ._$. Ich_PPER weiß_VVFIN nicht_PTKNEG mehr_ADV weiter_PTKVZ :_$. -LRB-_TRUNC Die_ART interaktiven_ADJA Sachen_NN wo_PWAV Applet_NE dran_PROAV steht_VVFIN funktionieren_VVFIN super_ADJD ._$. VGDaniel_NE 

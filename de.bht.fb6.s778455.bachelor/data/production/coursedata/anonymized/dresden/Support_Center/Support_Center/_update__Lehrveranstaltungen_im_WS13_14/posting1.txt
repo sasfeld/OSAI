@@ -1,0 +1,14 @@
+ID: 2532
+CREATION_DATETIME: 1380060000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+**~update~**
+**Die [Lehrveranstaltungen für das Wintersemester 2013/2014](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/courses?term_id=2068361) sind nun eingetragen und verfügbar.**
+~ursprüngliche Nachricht~
+Der Abgleich der Lehrveranstaltungen für das WS13/14 verzögert sich, <NAME_CORPUS_REPLACEMENT> es im Datenbestand <NAME_CORPUS_REPLACEMENT> jexam noch Verknüpfungsprobleme zu geben scheint. Winter- und Sommersemesterkurse sind alle mit dem Wintersemester verknüpft. <NAME_CORPUS_REPLACEMENT> bringt die Synchronisation nat. nichts.
+Einen [vorläufigen Stundenplan](http://web.inf.tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/Fak/w/14/stundenplan/stundenplan. html) könnt ihr aber bereits auf den Seiten der Fakultät abrufen.
+Alternativ kann natürlich auch per Hand ein neues Semester angelegt werden, indem man als Maintainer auf der jeweiligen Kursseite auf "Add new semester" klickt. Daraufhin wird einem das Formular zur Erstellung eines neuen Semester angezeigt und man kann die Daten bearbeiten und das neue Semester auswählen. Standardmäßig werden die Daten vom aktuellen Kurs übernommen und das neuste Semester aus der Datenbank ausgewählt. Die Tutoren und Maintainer müssen aber neu verwaltet werden. Derjenige der einen neuen Kurs erstellt, wird neuer Maintainer des Kurses und kann somit Mitglieder verwalten.
+TAGGED_CONTENT:

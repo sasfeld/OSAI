@@ -1,0 +1,14 @@
+ID: 75
+CREATION_DATETIME: 1182096840000
+MODIFICATION_DATETIME: 1182096840000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 73
+CONTENT:
+
+Liebe Studierende,
+Sie können 4 A-4 Blätter, egal wie beschrieben, eigener Notizen in die Klausur mitnehmen. Die Klausur wird offline geschrieben.
+
+Mit freundlichen Grüßen,
+	
+TAGGED_CONTENT:

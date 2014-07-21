@@ -1,0 +1,10 @@
+ID: 2409
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: Ich habe die Plots anhand der neuesten CSV-Datei neu erstellt. Sind ins SVN geladen. In die Präsentat...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2401
+POSTING_TYPE: comment
+CONTENT:
+Ich habe die Plots anhand der neuesten CSV-Datei neu erstellt. Sind ins SVN geladen. In die Präsentation einpflegen würde ich morgen, auch wenn noch unstimmigkeiten sind.
+TAGGED_CONTENT:

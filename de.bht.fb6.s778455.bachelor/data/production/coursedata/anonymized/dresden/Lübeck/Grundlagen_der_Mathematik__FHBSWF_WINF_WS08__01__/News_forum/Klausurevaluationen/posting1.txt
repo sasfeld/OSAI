@@ -1,0 +1,8 @@
+ID: 16497
+CREATION_DATETIME: 1235684792
+MODIFICATION_DATETIME: 1235684792
+TITLE: Klausurevaluationen
+PARENT_POSTING_ID: 0
+CONTENT:
+ Hallo Sie alle,  ich habe inzwischen 3 Klausuren evaluiert, benotet und eingetragen.  Die nächsten 2 die jetzt anstehen sind:  Wirtschaftsinformatik-Online: Grundlagen der Mathematik Medieninformatik-Online: Betriebssysteme 1  <REMOVED_PERSON_ENTITY> wird möglich sein.  Mit freundlichen Grüßen, <PERSONAL_GREETING_REMOVEMENT>. <REMOVED_PERSON_ENTITY>. 
+TAGGED_CONTENT:

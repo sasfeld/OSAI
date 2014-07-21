@@ -1,0 +1,17 @@
+ID: 2553
+CREATION_DATETIME: 1381701600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+POS_TAG: value:Vergabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Uhr;weight:0.0;uri:;postag:NN
+POS_TAG: value:hrungsveranstaltung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Raum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Themen;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Einführungsveranstaltung findet am <REMOVED_PERSON_ENTITY> 14. 10. 2013 um 14 Uhr im Raum INF 3105 statt. Dort erfolgt die Vergabe der Themen.
+TAGGED_CONTENT:
+Die_ART Einführungsveranstaltung_NN findet_VVFIN am_APPRART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD 14_CARD ._$. 10_CARD ._$. 2013_CARD um_APPR 14_CARD Uhr_NN im_APPRART Raum_NN INF_NE 3105_CARD statt_PTKVZ ._$. Dort_ADV erfolgt_VVFIN die_ART Vergabe_NN der_ART Themen_NN ._$. 

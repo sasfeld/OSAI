@@ -1,0 +1,12 @@
+ID: 12
+CREATION_DATETIME: 1176465180000
+MODIFICATION_DATETIME: 1176465180000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 11
+CONTENT:
+
+    Ist mir auch gerade aufgefallen, bin gerade drüber gestolpert. Unter dem "Quellcode" in der LE05 Seite 07 gibt es einen Link zur Textversion, dort steht der richtige Code. Wie schon richtig geschrieben muss es heißen public void init() {...} 
+
+    
+TAGGED_CONTENT:

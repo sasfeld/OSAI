@@ -1,0 +1,15 @@
+ID: 2009
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Nein. Es kann aber sein, dass es wieder an den Zeilenende-Zeichen liegt (kann es sein, dass SVN ein \...
+LANGUAGE: GERMAN
+NER_TAG: value:SVN;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Zeichen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Code;weight:0.0;uri:;postag:NN
+POS_TAG: value:SVN;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2006
+POSTING_TYPE: comment
+CONTENT:
+Nein. Es kann aber sein, dass es wieder an den Zeilenende-Zeichen liegt (kann es sein, dass SVN ein \  im Code einfach schluckt?
+TAGGED_CONTENT:
+Nein_PTKANT ._$. Es_PPER kann_VMFIN aber_ADV sein_VAINF ,_$, dass_KOUS es_PPER wieder_ADV an_APPR den_ART Zeilenende-Zeichen_NN liegt_VVFIN -LRB-_TRUNC kann_VMFIN es_PPER sein_VAINF ,_$, dass_KOUS SVN_NN ein_ART \_NN im_APPRART Code_NN einfach_ADV schluckt_VVFIN ?_$. 

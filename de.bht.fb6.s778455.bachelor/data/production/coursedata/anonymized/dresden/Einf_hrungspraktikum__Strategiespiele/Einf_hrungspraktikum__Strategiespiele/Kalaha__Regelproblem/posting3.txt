@@ -1,0 +1,50 @@
+ID: 1472
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE:  make fight
+./mcp -t 60 -T 61 -m 1024 -M 1024 my-player my-player
+Master Control Program
+
+== Ply ...
+PARENT_POSTING_ID: 1468
+POSTING_TYPE: comment
+CONTENT:
+>make fight
+> ./mcp -t 60 -T 61 -m 1024 -M 1024 my-player my-player
+> Master Control Program
+>
+> == Ply  1: P1 'my-player' ==
+> Player 1's turn.
+>  00 06 06 06 06 06 06    (Houses 13 to 7)
+> ->    06 06 06 06 06 06 00 (Houses  0 to 6)
+>
+> Inserting move 0 with value 20 for slot 0
+> Inserting move 1 with value 1 for slot 1
+> Inserting move 2 with value 1 for slot 2
+> Inserting move 3 with value 1 for slot 3
+> Inserting move 4 with value 1 for slot 4
+> Inserting move 5 with value 1 for slot 5
+> Move: 1
+> Move: 20
+> Chose move 0 with value 20
+> P1 moves.
+>
+> == Ply  2: P1 'my-player' ==
+> Player 1's turn.
+>   00 06 06 06 06 06 06    (Houses 13 to 7)
+> ->    00 07 07 07 07 07 01 (Houses  0 to 6)
+>
+> Inserting move with value -500 for slot 0
+> Inserting move 1 with value 1 for slot 1
+> Inserting move 2 with value 1 for slot 2
+> Inserting move 3 with value 1 for slot 3
+> Inserting move 4 with value 1 for slot 4
+> Inserting move 5 with value 1 for slot 5
+> Move: -500
+> Move: 1
+> Chose move 1 with value 1
+> Invalid move from player 1.
+> make: *** [fight] Fehler 1
+Die anderen Ausgaben stammen <NAME_CORPUS_REPLACEMENT> mir, value bezeichnet die interne Bewertung jedes Spielzuges.
+Edit: Die Formatierung hier bringt mich um. Einen Moment bitte...
+TAGGED_CONTENT:

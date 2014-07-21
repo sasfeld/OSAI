@@ -1,0 +1,9 @@
+ID: 162405
+CREATION_DATETIME: 1348236427
+MODIFICATION_DATETIME: 1348236427
+TITLE: Re: Praxisveranstaltung
+PARENT_POSTING_ID: 162401
+CONTENT:
+Der Kursplan ist hier unter Allgemeines verlinkt, einfach mal (bei mir jedenfalls) links die Navigation durchgucken.
+Ich bin grad mal am gucken was so in Mathe ansteht, ansonsten dürfte sequentiell ein Modul nach'm anderen bearbeiten nicht wirklich helfen. Ich werd wohl eher alle parallel bearbeiten so wie es die Videokonferenzen erfordern.
+TAGGED_CONTENT:

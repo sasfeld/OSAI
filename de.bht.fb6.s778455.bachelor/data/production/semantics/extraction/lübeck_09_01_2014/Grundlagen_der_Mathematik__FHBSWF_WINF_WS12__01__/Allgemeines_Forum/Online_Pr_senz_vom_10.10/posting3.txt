@@ -1,0 +1,51 @@
+ID: 170025
+CREATION_DATETIME: 1350145053
+MODIFICATION_DATETIME: 1350145053
+TITLE: Re: Online Präsenz vom 10.10.
+TOPIC_ZOOM_TAG: value:Chat;weight:1.0;significance:3.10245071119059;degreegeneralization:7;uri:20901477
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:2.0;significance:2.95834176629398;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Lesen;weight:1.0;significance:2.69780966613089;degreegeneralization:5;uri:20109991
+TOPIC_ZOOM_TAG: value:Not, Elend und Leid;weight:1.0;significance:2.68486305502547;degreegeneralization:4;uri:20876657
+TOPIC_ZOOM_TAG: value:Internet;weight:2.0;significance:2.56555610422183;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:2.0;significance:2.55653425805302;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:3.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:1.0;significance:2.16799725088841;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:2.0;significance:1.79128228978717;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Lifestyle und Internet;weight:1.0;significance:1.68963574245864;degreegeneralization:6;uri:21999575
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:1.66956903594565;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Lifestyle, Mode, Schönheit;weight:1.0;significance:1.45730647586559;degreegeneralization:3;uri:21999456
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:1.14718176538007;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:0.96536045369499;degreegeneralization:3;uri:20758133
+PARENT_POSTING_ID: 169255
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+super, vielen Dank für deine ausführliche Antwort. :-)Sorry, dass ich erst jetzt auf deine Antwort antworten kann. Beim Lesen meinen ursprünglichen Beitrages fällt mir auf, dass sich dort anscheinend jede Menge Ausdrucksfehler eingeschlichen haben, tut mir Leid war schon sehr spät als ich diesen Beitrag geschrieben hatte. Trotzdem habe ich noch ein paar Fragen:
+Antisymmetrisch? Ja! Grund ist der Ausdruck ist das Element (c, b). !!!Kann man das noch einmal genauer erklären?
+Antisymmetrie liegt zwar vor, aber die Begründung (c, b) leuchtet mir nicht ein. Antisymmetrie liegt genau dann vor, wenn aus dem Vorhandensein von (a, b) UND (b, a) auch folgt, dass a gleich b ist. Da wir ja gesagt hatten, dass die drei Elemente unterschiedlich sind, darf also bei vorhandenem (a, b) kein (b, a) vorkommen und bei vorhandenem (c, b) kein (b, c). Das ist ja offensichtlich der Fall. (b, b) ist unproblematisch, weil es ja gleich sich selbst ist, und die o. g. Folgerung somit wahr.
+Ich verstehe aber wieso betonst Du, dass  Alle Elemente unterschieldich sind? Es ist dch offensichlich, dass alle Elemente a, b, c unterschiedlich sind weil ja für jedes Element ein andere Buchstabe genutzt wird.
+ 
+ 
+Transitiv? Eigentlich nicht weil a in Relation zu b, b in Releation zu b und c in Releation zu b steht. Da hier kein Fall abzuprüfen ist, sind hier die Eingeschaften der Transitivität erfüllt.
+Das habe ich auch nicht so genau verstanden.
+!!!Kann man das noch genauer erläutern? !!!Eigentlich müsste ja dann jeder Ausdruck transitiv sein weil entweder ist er es oder es ist kein Fall abzuprüfen, oder?
+Das ist so auf jeden Fall falsch, denn es gibt sehr wohl Relationen, die eindeutig nicht-transitiv sind. Sähe die <REMOVED_PERSON_ENTITY> z. B. so aus {(a, b), (b, c)} dann wäre sie eindeutig nicht transitiv, weil bei Tranistivität auch (a, c) enthalten sein müsste.
+Bleibt die Frage offen, wie man denn die Frage der Transitivität entscheidet, wenn keine solche Kette gegeben ist.
+Erstmal eine allgemeine Aussage zur Transitivität von mir:-&gt;Transitivität liegt dann vor, wenn man z. B. sagen kann, dass aus a c folgt wenn aus a b folgt und aus b c folgt.&lt;- "{(a, b), (b, c), (a, c)}"Stimmt das?Das verstehe ich nicht so ganz. Bei deinem Beispiel {(a, b), (b, c)}, kann ich auch behaupten, dass Transitivität vorliegt, weil kein Fall abzuprüfen ist. So haben wir es, zumindest im Online-Chat, auch gesagt... oder?
+ 
+ 
+ 
+2. Frage Wie kann man sagen, dass z. B. die Zeichen "&lt;" nicht reflexiv &amp; symmetrisch sind "&lt;=" reflexiv ist und das "=" symmetrisch ist ohne das diese Zeichen in Verbindung mit irgendwelchen Elementen gebracht werden?
+ 
+Eine größer-oder-gleich Relation ist reflexiv weil jedes Element größer ODER GLEICH(!) sich selbst ist Hier kommt es auf die Gleichheit an, das "größer" spielt dann bei Selbstbetrachtung eben keine <REMOVED_PERSON_ENTITY>. Es ist ja beides erlaubt, um die Relation zu erfüllen (Oder-Verknüpfung von größer und gleich)
+ 
+Bei einer &lt; oder &gt; Beziehung (ohne dass Gleichheit die Relation auch erfüllt) ist Reflexivität dann eben nicht gegeben, denn ein Element ist nicht kleiner (oder größer) als es selbst.
+ 
+Symmetrie ist genau dann gegeben, wenn aus aRb folgt, dass auch bRa
+ 
+Wenn a größer oder gleich b ist, dann folgt nicht in jedem Fall, dass b größer oder gleich a ist (sondern nur in dem einen <REMOVED_PERSON_ENTITY>, dass a gleich b ist). Aus aRb kann man also nicht bRa folgern, somit liegt keine Symmetrie vor.
+ 
+Bei Gleichheit liegt es ja auf der Hand, wenn man zwei gleiche Elemente auf je einer <REMOVED_PERSON_ENTITY> des Gleichheitszeichens hat, dann kann man die Seiten beliebig vertauschen, ohne dass sich etwas ändert. Aus a=b folgt also b=a.
+Okay, habe ich verstanden. Hierzu habe ich aber auch noch eine allgemeine Frage. Wenn ich schreibe "aRb" oder auch "bRa"  oder auch "cRz", woher weiß man dann ich welcher Relation diese Elemente zu einander stehen. Ich hoffe ihr versteht was ich meine. Anders ausgedrückt, wenn ich "aRb" einzelnt betrachte heißt das nun "a&lt;b", oder "a&gt;b", oder "a=b" oder "a&lt;=b" oder "a=&gt;b"? Das kann man doch gar nicht wissen. Ich frage aus diesem <REMOVED_PERSON_ENTITY> weil Du oben geschrieben hast "Eine größer-oder-gleich Relation". Was genau soll eine "Eine größer-oder-gleich Relation" sein?
+Mal wieder besten Dank und Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

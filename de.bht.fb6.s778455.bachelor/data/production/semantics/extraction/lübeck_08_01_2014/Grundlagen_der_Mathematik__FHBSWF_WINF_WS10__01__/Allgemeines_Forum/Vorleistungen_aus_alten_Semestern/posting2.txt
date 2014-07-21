@@ -1,0 +1,16 @@
+ID: 97762
+CREATION_DATETIME: 1285406750
+MODIFICATION_DATETIME: 1285406750
+TITLE: Re: Vorleistungen aus alten Semestern
+TOPIC_ZOOM_TAG: value:Wintersemester;weight:1.0;significance:6.007701167337;degreegeneralization:5;uri:20914346
+TOPIC_ZOOM_TAG: value:Vorlesungen;weight:1.0;significance:5.45839502300295;degreegeneralization:6;uri:20916641
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:2.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Semester;weight:1.0;significance:4.83201353875525;degreegeneralization:4;uri:20914363
+TOPIC_ZOOM_TAG: value:Ereignisse im Bereich Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.6214068062171;degreegeneralization:3;uri:21872857
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:2.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:2.77735785682754;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:1.07441906812122;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 97761
+CONTENT:
+Hallo, das heißt, wen ich im letzten Wintersemester &quot;Grundlagen Mathematik&quot; belegt habe, die Vorlesung als bestanden im Prüfungssystem steht, muss ich trotzdem alle Aufgaben nochmals erledigen?GrüßeChristian Häusler 
+TAGGED_CONTENT:

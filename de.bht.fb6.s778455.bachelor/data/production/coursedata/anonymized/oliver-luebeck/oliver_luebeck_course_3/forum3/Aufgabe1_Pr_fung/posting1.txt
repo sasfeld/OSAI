@@ -1,0 +1,88 @@
+ID: 32
+CREATION_DATETIME: 1201196580000
+MODIFICATION_DATETIME: 1201196580000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+    Hallo Forum
+
+Kann mir bitte jemand sagen, was ich richtigerweise ändern muß, damit ich die Aufgabe zum Laufen bekomme? Ich bekomme nicht die Konsoleneingabe so hin, daß man fünf Texte eingeben kann, die jeweils durch ein <Return> getrennt sind.
+
+Wie weise ich denn nun meine schicke Methode der Variable zu, damit die mit Text gefüllt werden kann?
+
+Anbei ist mein Code:
+
+package laborteststand;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.Serializable;
+import java.util.ArrayList;
+/**
+*
+* @author 
+* @version 0.0.1
+* @since 24.01.2009
+*/
+
+
+public class ArrayList_A1 implements Serializable {
+
+ArrayList<String> ars = new ArrayList<String>();
+
+public void ReaderTool() throws IOException {
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+br.readLine();
+}
+
+
+public void fillArrList() throws FileNotFoundException, IOException {
+
+BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("C:\temp\text.txt")));
+int counter = 4;
+
+for (int i = 0; i <= ars.size(); i++) {
+String s = "";
+System.out.println("Sie haben noch " + (counter+1) + " Eingaben.");
+System.out.println("Wie lautet Ihre Eingabe?: ");
+//###########Problem#################
+String buff = ReaderTool();
+//###################################
+ars.add(i, buff);
+s = ars.get(i);
+bw.write(s + "\n");
+counter--;
+}
+bw.flush();
+bw.close();
+}
+
+
+/**
+* @param args the command line arguments
+*/
+public static void main(String[] args)throws IOException {
+
+System.out.println("Fuellen Sie die Liste nacheinander mit RETURN Zwischenschritten:");
+
+ArrayList_A1 TuWasIchSageUnd = new ArrayList_A1();
+TuWasIchSageUnd.fillArrList();
+
+}
+}
+
+Vielen Dank für Eure Hilfe.
+
+Grüße
+
+P.S. Sorry das das so beschissen formatiert ist, aber dieses Nudel schmeißt alle meine Text-Anpassungen über Bord... 
+    
+    
+TAGGED_CONTENT:

@@ -1,0 +1,17 @@
+ID: 110604013
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Informations- und Kodierungstheorie
+LANGUAGE: GERMAN
+SUMMARY: null
+TOPIC_ZOOM_TAG: value:Kodierungstheorie;weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:20798270
+TOPIC_ZOOM_TAG: value:Diskrete Mathematik;weight:1.0;significance:12.7085495152339;degreegeneralization:6;uri:20848828
+TOPIC_ZOOM_TAG: value:Kodierung;weight:1.0;significance:11.0991116027998;degreegeneralization:5;uri:20798389
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813

@@ -1,0 +1,7 @@
+ID: 72949
+CREATION_DATETIME: 1358526336
+MODIFICATION_DATETIME: 1358612558
+TITLE: Beispiel 28 im Skript....
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=72949
+FIRST_POSTING_ID: 194617

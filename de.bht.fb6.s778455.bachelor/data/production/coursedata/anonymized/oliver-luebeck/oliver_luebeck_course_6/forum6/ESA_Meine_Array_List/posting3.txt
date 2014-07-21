@@ -1,0 +1,11 @@
+ID: 43
+CREATION_DATETIME: 1288563240000
+MODIFICATION_DATETIME: 1288563240000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 42
+CONTENT:
+ 
+ Ich seh gerade, ich hab auf den falschen Teil der Einsendeaufgaben geantwortet. Ich schau es mir aber trotzdem an :D
+ 	
+TAGGED_CONTENT:

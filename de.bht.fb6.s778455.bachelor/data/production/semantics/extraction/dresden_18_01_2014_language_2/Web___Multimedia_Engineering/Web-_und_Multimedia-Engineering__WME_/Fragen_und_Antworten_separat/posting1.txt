@@ -1,0 +1,24 @@
+ID: 473
+CREATION_DATETIME: 1351029600000
+MODIFICATION_DATETIME: 1351029600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+bevor ich es unter jede Frage schreibe: können Sie ihre Fragen, die Sie direkt beantworten bitte in Frage und Antwort auslagern? Denn so war auditorium gedacht. Und es ist durchaus legitim seine Fragen selbst zu beantworten.
+
+Betrifft diese Fragen:
+
+* https://auditorium. inf. tu-dresden. de/posts/470
+
+* https://auditorium. inf. tu-dresden. de/posts/471
+
+* https://auditorium. inf. tu-dresden. de/posts/472
+
+Danke :)
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

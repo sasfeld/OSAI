@@ -1,0 +1,19 @@
+ID: 97772
+CREATION_DATETIME: 1287219992
+MODIFICATION_DATETIME: 1287219992
+TITLE: Re: Einsendeaufgaben
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=36361#97772
+NER_TAG: value:LON-CAPA-Aufgaben;weight:-1.0;uri:;classifierlabel:I-MISC
+NER_TAG: value:LON-CAPA-Aufgaben;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:Pflicht;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einsendung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Besten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Pruefungsvorleistung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgaben;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97771
+CONTENT:
+Wenn Sie die Pruefungsvorleistung erworben haben bleibt sie bestehen. Sie muss nicht wiederholt werden. Wenn Sie sie nicht haben sind es diesmal die LON-CAPA-Aufgaben die die Einsendung darstellen und somit Pflicht sind.
+Besten <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Wenn_KOUS Sie_PPER die_ART Pruefungsvorleistung_NN erworben_VVPP haben_VAFIN bleibt_VVFIN sie_PPER bestehen_VVFIN ._$. Sie_PPER muss_VVFIN nicht_PTKNEG wiederholt_ADJD werden_VAINF ._$. Wenn_KOUS Sie_PPER sie_PPER nicht_PTKNEG haben_VAFIN sind_VAFIN es_PPER diesmal_ADV die_ART LON-CAPA-Aufgaben_NN die_ART die_ART Einsendung_NN darstellen_VVFIN und_KON somit_ADV Pflicht_NN sind_VAFIN ._$. Besten_NN <_VVFIN REMOVED_PERSON_ENTITY_NE >_XY 

@@ -1,0 +1,12 @@
+ID: 1881
+CREATION_DATETIME: 1370210400000
+MODIFICATION_DATETIME: 1370210400000
+TITLE: mit den aktuellen Fedora 18 Packages bekommt man die LLVM 3.3 und dort scheinen die Include-Strutkure...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: comment
+CONTENT:
+mit den aktuellen Fedora 18 Packages bekommt man die LLVM 3. 3 und dort scheinen die Include-Strutkuren anders zu sein, die Function. h ist nicht <NAME_CORPUS_REPLACEMENT>. unter /IR/Function. h gibt es was.
+
+Sollte man darüber nachdenken zwecks Zukunftstauglichkeit?
+TAGGED_CONTENT:

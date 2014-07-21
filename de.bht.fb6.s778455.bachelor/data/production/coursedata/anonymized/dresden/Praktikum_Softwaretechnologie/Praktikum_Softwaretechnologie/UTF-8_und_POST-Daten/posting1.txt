@@ -1,0 +1,12 @@
+ID: 2853
+CREATION_DATETIME: 1384470000000
+MODIFICATION_DATETIME: 1385334000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo, beim Übertragen <NAME_CORPUS_REPLACEMENT> POST-Daten werden diese verunstaltet was die Verarbeitung erschwert, z. B.:
+Südhöhe == SÃ¼dhÃ¶he -> false
+Industriegelände == IndustriegelÃ¤nde -> false
+Auch der HTML5 tag `` und  `` (sowie `` bringen nix). Bei Eclipse ist auch UTF-8 eingestellt (wie im Wiki beschrieben). Was kann ich tun?
+TAGGED_CONTENT:

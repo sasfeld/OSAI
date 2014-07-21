@@ -1,0 +1,15 @@
+ID: 21
+CREATION_DATETIME: 1176555900000
+MODIFICATION_DATETIME: 1176555900000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 13
+CONTENT:
+
+    Hallo alle zusammen!
+Irgendwie bin ich gerade etwas unsicher, wie genau ich die Aufgabe machen soll. Soll ich einen String ausgeben, in dem steht welche Version ich benutze, oder soll ich via Befehl die Version automatsich ausgeben lassen?
+Danke schonmal, für die Nachhilfe ;)
+
+Grüße
+    
+TAGGED_CONTENT:

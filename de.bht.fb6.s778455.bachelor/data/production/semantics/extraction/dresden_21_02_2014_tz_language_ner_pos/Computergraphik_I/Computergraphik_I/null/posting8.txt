@@ -1,0 +1,36 @@
+ID: 1951
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Hier noch ein Hinweis: Falls man Transparenz unterstützen will (vor allem, wenn sich halbtransparente...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Peeling;weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:20279991
+TOPIC_ZOOM_TAG: value:Hautpflege;weight:1.0;significance:11.322255154114;degreegeneralization:6;uri:20263841
+TOPIC_ZOOM_TAG: value:Wellness;weight:1.0;significance:9.21204195376745;degreegeneralization:5;uri:21993761
+TOPIC_ZOOM_TAG: value:Kosmetik;weight:1.0;significance:8.83734850432604;degreegeneralization:6;uri:21113433
+TOPIC_ZOOM_TAG: value:Wellness und Fitness;weight:1.0;significance:8.20873984490366;degreegeneralization:4;uri:21999626
+TOPIC_ZOOM_TAG: value:Körperpflege, Frisur und Kosmetik;weight:1.0;significance:7.6715969128203;degreegeneralization:5;uri:21865224
+TOPIC_ZOOM_TAG: value:Mode und Schönheit;weight:1.0;significance:5.33392050001498;degreegeneralization:4;uri:21999609
+TOPIC_ZOOM_TAG: value:Lifestyle, Mode, Schönheit;weight:1.0;significance:4.37191942759678;degreegeneralization:3;uri:21999456
+TOPIC_ZOOM_TAG: value:Gesundheit;weight:1.0;significance:3.54697930762717;degreegeneralization:2;uri:21997569
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:3.4415452961402;degreegeneralization:2;uri:21999745
+POS_TAG: value:Basis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hinweis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fall;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorsortierung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Peeling;weight:0.0;uri:;postag:NN
+POS_TAG: value:Objekten;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Polygone;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wikipedia;weight:0.0;uri:;postag:NN
+POS_TAG: value:Folgefrage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Transparent;weight:0.0;uri:;postag:NN
+POS_TAG: value:Farben;weight:0.0;uri:;postag:NN
+POS_TAG: value:Transparenz;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1947
+POSTING_TYPE: answer
+CONTENT:
+Hier noch ein Hinweis: Falls man Transparenz unterstützen will (vor allem, wenn sich halbtransparente Polygone mit verschiedenen Farben überdecken) mach man meistens eine Vorsortierung. Im gröbsten Fall auf Basis <NAME_CORPUS_REPLACEMENT> 3D-Objekten und im feineren Fall auf Basis der Polygone. Wenn man es aber richtig machen will mit der Transparent nutzt man Depth-Peeling (siehe Wikipedia). Das nur, falls noch eine Folgefrage zur Transparenz kommt.
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hier_ADV noch_ADV ein_ART Hinweis_NN :_$. Falls_KOUS man_PIS Transparenz_NN unterstützen_VVINF will_VMFIN -LRB-_TRUNC vor_APPR allem_PIS ,_$, wenn_KOUS sich_PRF halbtransparente_ADJA Polygone_NN mit_APPR verschiedenen_ADJA Farben_NN überdecken_VVFIN -RRB-_TRUNC mach_VVFIN man_PIS meistens_ADV eine_ART Vorsortierung_NN ._$. Im_APPRART gröbsten_ADJA Fall_NN auf_APPR Basis_NN <_CARD NAME_CORPUS_REPLACEMENT_NN >_CARD 3D-Objekten_NN und_KON im_APPRART feineren_ADJA Fall_NN auf_APPR Basis_NN der_ART Polygone_NN ._$. Wenn_KOUS man_PIS es_PPER aber_ADV richtig_ADJD machen_VVINF will_VMFIN mit_APPR der_ART Transparent_NN nutzt_VVFIN man_PIS Depth-Peeling_NN -LRB-_TRUNC siehe_VVIMP Wikipedia_NN -RRB-_TRUNC ._$. Das_PDS nur_ADV ,_$, falls_KOUS noch_ADV eine_ART Folgefrage_NN zur_APPRART Transparenz_NN kommt_VVFIN ._$. <_XY REMOVED_PERSON_ENTITY_NE >_XY 

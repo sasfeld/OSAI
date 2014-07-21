@@ -1,0 +1,8 @@
+ID: 16529
+CREATION_DATETIME: 1236218983
+MODIFICATION_DATETIME: 1236218983
+TITLE: Noten sind festgelegt.
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Sie alle, <REMOVED_PERSON_ENTITY> sind weitgehend fertig, aber die EPV hat mich heute rausgeschmissen. Morgen mehr. MfG, al.
+TAGGED_CONTENT:

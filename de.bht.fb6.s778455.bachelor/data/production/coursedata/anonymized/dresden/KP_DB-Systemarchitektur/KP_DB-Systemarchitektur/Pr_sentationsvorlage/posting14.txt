@@ -1,0 +1,11 @@
+ID: 2037
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: Ich hab jetzt noch meine Folien hinzugefügt und beim Ausblick was hingeschrieben.
+Da mein Office all...
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+Ich hab jetzt noch meine Folien hinzugefügt und beim Ausblick was hingeschrieben.
+<NAME_CORPUS_REPLACEMENT> mein Office allerdings die Formatierung in der Präsi nach eigenen Aussagen "repariert" hat ;-) hab ich das ganze mal als zwischenpraesi2 hochgeladen.
+TAGGED_CONTENT:

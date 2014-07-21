@@ -1,0 +1,10 @@
+ID: 1635
+CREATION_DATETIME: 1364252400000
+MODIFICATION_DATETIME: 1364252400000
+TITLE: Das wäre dann ja nächste Woche, und da passt mir gar kein Termin :-) Außer Sonntag abend vielleicht.....
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1633
+POSTING_TYPE: comment
+CONTENT:
+Das wäre dann <LEARNED_PERSON_NAME_REPLACEMENT> nächste Woche, und <NAME_CORPUS_REPLACEMENT> passt mir gar kein Termin :-) Außer Sonntag abend vielleicht....
+TAGGED_CONTENT:

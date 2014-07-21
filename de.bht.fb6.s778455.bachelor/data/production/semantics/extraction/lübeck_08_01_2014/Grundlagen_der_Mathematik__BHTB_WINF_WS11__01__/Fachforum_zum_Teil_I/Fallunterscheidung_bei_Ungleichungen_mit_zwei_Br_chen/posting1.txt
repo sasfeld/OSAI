@@ -1,0 +1,35 @@
+ID: 116460
+CREATION_DATETIME: 1319009638
+MODIFICATION_DATETIME: 1319009916
+TITLE: Fallunterscheidung bei Ungleichungen mit zwei Brüchen
+TOPIC_ZOOM_TAG: value:Zeichenkodierung;weight:1.0;significance:6.35427475761695;degreegeneralization:7;uri:20126702
+TOPIC_ZOOM_TAG: value:ASCII;weight:1.0;significance:6.35427475761695;degreegeneralization:8;uri:20126685
+TOPIC_ZOOM_TAG: value:Datenformate;weight:1.0;significance:5.25566246894885;degreegeneralization:6;uri:20808147
+TOPIC_ZOOM_TAG: value:Wissenschaftliche und technologische Standards;weight:1.0;significance:4.65367606678589;degreegeneralization:3;uri:20914176
+TOPIC_ZOOM_TAG: value:Technische Normen;weight:1.0;significance:4.3883619412548;degreegeneralization:4;uri:20901307
+TOPIC_ZOOM_TAG: value:Schrift;weight:1.0;significance:4.10436992245183;degreegeneralization:6;uri:20916998
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:3.89064791503836;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Praktische Informatik;weight:1.0;significance:3.67834569087893;degreegeneralization:5;uri:20899199
+TOPIC_ZOOM_TAG: value:Sprache, Zivilisation und Bevölkerung;weight:1.0;significance:3.33295834077578;degreegeneralization:5;uri:20895986
+TOPIC_ZOOM_TAG: value:Sprache als Bereich der Kultur;weight:1.0;significance:2.88271354620725;degreegeneralization:5;uri:20896003
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:2.51211272377639;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:2.50435355391847;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:2.50390086036106;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:1.0;significance:2.47532165344109;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:2.23699226098339;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:2.00351838218053;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.83083484620539;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:1.75110858232764;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Kunst, Kultur, Musik;weight:1.0;significance:1.52385346833743;degreegeneralization:2;uri:21999796
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 0
+CONTENT:
+ Aus aktuellem Anlass habe ich eine kleine Anfrage bezüglich der Fallunterscheidungen. Wenn ich eine <REMOVED_PERSON_ENTITY> der Form$$ \frac{\left(ax+b\right)}{\left(cx+d\right)}\le\frac{\left(ex+f\right)}{\left(gx+h\right)} $$ [EDIT] Das Ergebnis des Java-Plugins wird bei mir nicht korrekt angezeigt, deshalb nochmal in ASCII:( (ax+b) / (cx+d) ) &lt;= ( (ex+f) / (gx+h) )[/EDIT]habe, wie viele Fallunterscheidungen sind dann notwendig?Ich sehe zwei Möglichkeiten: 
+  Es müssen nur die Nenner betrachtet werden. Daraus ergäben sich dann vier Fälle. 
+  Es müssen auch die Zähler beachtet werden. Dann würde jeder Fall der Unterscheidung aus vier Einzelgleichungen bestehen und ich hätte insgesamt 16 Fälle. 
+Gibt es hierzu allgemeine Ansätze, Regeln, mathematische Sätze oder weiterführende Weblinks? 
+TAGGED_CONTENT:

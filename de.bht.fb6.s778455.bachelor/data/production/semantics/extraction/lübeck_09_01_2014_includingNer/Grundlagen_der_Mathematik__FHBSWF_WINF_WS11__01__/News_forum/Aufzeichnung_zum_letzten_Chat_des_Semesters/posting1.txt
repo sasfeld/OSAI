@@ -1,0 +1,24 @@
+ID: 117502
+CREATION_DATETIME: 1325701346
+MODIFICATION_DATETIME: 1325701346
+TITLE: Aufzeichnung zum letzten Chat des Semesters
+TOPIC_ZOOM_TAG: value:Chat;weight:1.0;significance:4.65367606678589;degreegeneralization:7;uri:20901477
+TOPIC_ZOOM_TAG: value:Archive;weight:1.0;significance:4.03691026350215;degreegeneralization:4;uri:20913530
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:1.0;significance:3.25199587633262;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Informationssuche und Informationsbeschaffung;weight:1.0;significance:2.55809169335707;degreegeneralization:3;uri:20989503
+TOPIC_ZOOM_TAG: value:Lifestyle und Internet;weight:1.0;significance:2.53445361368796;degreegeneralization:6;uri:21999575
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Lifestyle, Mode, Schönheit;weight:1.0;significance:2.18595971379839;degreegeneralization:3;uri:21999456
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:1.7207726480701;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:1.07441906812122;degreegeneralization:2;uri:21999813
+NER_TAG: value:LGS;weight:-1.0;significance:uri:;classifierlabel:I-LOC
+PARENT_POSTING_ID: 0
+CONTENT:
+Der letzte Chat des Semesters wird heute aufgenommen und im Archiv liegen (Besprechung der Probeklausur exkl. Aufgabe 9). Auf der Praesenz Samstag in einer Woche werden wir das Gausssche Verfahren zum Loesen von LGS durchsprechen und ueben.
+Bis dahin, viel Erfolg <PERSONAL_GREETING_REMOVEMENT>
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 124
+CREATION_DATETIME: 1348092000000
+MODIFICATION_DATETIME: 1348092000000
+TITLE: Dass du die privaten 
+PARENT_POSTING_ID: 123
+POSTING_TYPE: comment
+CONTENT:
+Dass du die privaten Mails nicht sehen sollst, ist korrekt, <NAME_CORPUS_REPLACEMENT> sie nur für Moderatoren sichtbar sein sollen. Dass du diese Mail bekommst, irritiert mich. Ich schaus mir an.
+TAGGED_CONTENT:

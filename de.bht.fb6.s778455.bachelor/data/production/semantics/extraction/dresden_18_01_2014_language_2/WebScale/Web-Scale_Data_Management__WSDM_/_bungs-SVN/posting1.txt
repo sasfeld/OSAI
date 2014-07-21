@@ -1,0 +1,16 @@
+ID: 606
+CREATION_DATETIME: 1351551600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die URL des SVN-Repositories ist:
+
+https://db4701. inf. tu-dresden. de/svnwsdm
+
+Nutzer: student
+
+Passwort: In der Übung
+TAGGED_CONTENT:

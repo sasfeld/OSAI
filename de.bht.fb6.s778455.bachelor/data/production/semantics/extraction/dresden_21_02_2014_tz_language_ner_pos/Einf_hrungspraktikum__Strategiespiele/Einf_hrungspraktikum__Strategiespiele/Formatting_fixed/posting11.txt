@@ -1,0 +1,21 @@
+ID: 1490
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Danke dir sehr für deine Antwort!
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+POS_TAG: value:Antwort;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hintergrund;weight:0.0;uri:;postag:NN
+POS_TAG: value:Installation;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1480
+POSTING_TYPE: comment
+CONTENT:
+Danke dir sehr für deine Antwort!
+
+Valgrind ist auf meiner (frischen) Ubunut-Installation gleich mal abgeschmiert, aber ich werde es im Hintergrund behalten.
+
+Assertions werde ich mir jetzt auch mal ansehen, scheinen nützlich zu sein. Das Problem hast du übrigens gelöst, ich poste gleich etwas dazu.
+TAGGED_CONTENT:
+Danke_PROAV dir_PPER sehr_ADV für_APPR deine_PPOSAT Antwort_NN !_$. Valgrind_ADJD ist_VAFIN auf_APPR meiner_PPOSAT -LRB-_TRUNC frischen_ADJA -RRB-_TRUNC Ubunut-Installation_NN gleich_ADV mal_ADV abgeschmiert_VVPP ,_$, aber_KON ich_PPER werde_VAFIN es_PPER im_APPRART Hintergrund_NN behalten_VVINF ._$. Assertions_NE werde_VAFIN ich_PPER mir_PPER jetzt_ADV auch_ADV mal_ADV ansehen_VVINF ,_$, scheinen_VVFIN nützlich_ADJD zu_PTKZU sein_VAINF ._$. Das_ART Problem_NN hast_VAFIN du_PPER übrigens_ADV gelöst_VVPP ,_$, ich_PPER poste_VVFIN gleich_ADV etwas_PIS dazu_PROAV ._$. 

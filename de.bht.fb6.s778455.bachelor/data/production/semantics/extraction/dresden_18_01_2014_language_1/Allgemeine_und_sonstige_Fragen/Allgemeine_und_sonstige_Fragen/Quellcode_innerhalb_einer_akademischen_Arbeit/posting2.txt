@@ -1,0 +1,14 @@
+ID: 632
+CREATION_DATETIME: 1351724400000
+MODIFICATION_DATETIME: 1351724400000
+TITLE: In den Papern die ich bisher gelesen habe, wurde Quellcode im Fließtext minimiert, d.h. auf so 10-20 ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 592
+POSTING_TYPE: answer
+CONTENT:
+In den Papern die ich bisher gelesen habe, wurde Quellcode im Fließtext minimiert, d. h. auf so 10-20 Zeilen pro Block gehalten und diese Blöcke auch eher selten. Ein ganzes Programm würde ich nicht listen. Auch eine gute Alternative wenn es nur um die Algorithmik geht, ist sicher eine mathematische Pseudo-Code Formulierung (wie z. B. im [mpOTR-Paper][1]) ganz hilfreich.
+
+Hängt sicher auch vom spezifischen Thema ab (eine vergleichende Arbeit über die Syntax <NAME_CORPUS_REPLACEMENT> Programmiersprachen und die Effizienz der sie verwendenden Entwickler wird sicher mehr Quellcode enthalten als eine Arbeit über eine schnellere Variante des Hirschberg-Algorithmus').
+
+   [1]: http://matt.singlethink.net/pubs/mpotr-ccs09/mpotr-ccs09. pdf
+TAGGED_CONTENT:

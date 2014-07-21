@@ -1,0 +1,5 @@
+ID: 918
+CREATION_DATETIME: 1354143600000
+MODIFICATION_DATETIME: 1383260400000
+TITLE: Ist es Pflicht, seine Abschlussarbeit im Hochformat zu schreiben?
+FIRST_POSTING_ID: 918

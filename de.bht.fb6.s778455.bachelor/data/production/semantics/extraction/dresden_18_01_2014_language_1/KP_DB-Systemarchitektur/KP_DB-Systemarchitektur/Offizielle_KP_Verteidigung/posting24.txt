@@ -1,0 +1,10 @@
+ID: 2307
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: schade dass Microsoft es nicht auf die Reihe bekommt, auch "solche" Dateien zu öffnen ... (ich bekomm...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+schade dass Microsoft es nicht auf die Reihe bekommt, auch "solche" Dateien problemlos zu verarbeiten ... (ich bekomme sie geöffnet, aber ich weiß nicht, ob <NAME_CORPUS_REPLACEMENT> irgendetwas fehlt oder zerhauen wurde)
+TAGGED_CONTENT:

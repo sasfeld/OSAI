@@ -1,0 +1,14 @@
+ID: 8
+CREATION_DATETIME: 1175690400000
+MODIFICATION_DATETIME: 1175690400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo,
+hab Eclips unter osx 10.5 zum laufen bekommen und -aber wie macht man die Einsendeaufgaben am Mac da sich die Aufgaben ja auf die Verzeichnisstrukturen unter Windows beziehen...und es exe-Datein sind ...
+
+ciao 
+    
+TAGGED_CONTENT:

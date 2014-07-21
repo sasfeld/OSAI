@@ -1,0 +1,14 @@
+ID: 77
+CREATION_DATETIME: 1182182820000
+MODIFICATION_DATETIME: 1182182820000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+ich habe eine kleine frage zur berechnung der summe.
+
+soll die berechnung per array/reihung erfolgen oder reicht es, wenn eine variable deklariert
+und der eingegebene korrekte wert immer hinzuaddiert wird - in etwa so 'summe += eingabe' ?   
+    
+TAGGED_CONTENT:

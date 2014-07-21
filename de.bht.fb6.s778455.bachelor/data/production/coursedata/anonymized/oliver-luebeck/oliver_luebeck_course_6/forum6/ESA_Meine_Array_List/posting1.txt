@@ -1,0 +1,27 @@
+ID: 41
+CREATION_DATETIME: 1288548000000
+MODIFICATION_DATETIME: 1288548000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo Zusammen
+
+Ich habe ein Problem mit der 2. Aufgabe, Meine Array List
+Wenn ich mein Array fülle und dann eine for-Schleife zum ausgeben mache bekomme ich auf der Konsole "MeineArrayList2@1ad086a" angezeigt.
+
+for (String s : ms) {
+System.out.println(s);
+}
+
+Das "ms" wird mit der Meldung "can only iterate over an array or an instance of java.lang.Iterable" markiert.
+
+Ich habe dann noch die Methode iterator() und alles was dazugehört eingefügt, dann funktioniert die Methode .add aber nicht mehr.
+(Ich denke auch, dass ist in der Aufgabe nicht wirklich gefragt)
+
+Wie habt Ihr das denn gelöst?
+
+Danke und Gruss
+	
+TAGGED_CONTENT:

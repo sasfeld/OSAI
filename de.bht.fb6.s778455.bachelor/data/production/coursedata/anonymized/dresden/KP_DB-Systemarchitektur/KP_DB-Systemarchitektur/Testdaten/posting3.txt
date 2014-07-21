@@ -1,0 +1,10 @@
+ID: 1769
+CREATION_DATETIME: 1367272800000
+MODIFICATION_DATETIME: 1367272800000
+TITLE: Ich bin intuitiv erstmal für Randomdaten. Das Auslesen würde wahrscheinlich länger dauern als das Gen...
+PARENT_POSTING_ID: 1767
+POSTING_TYPE: answer
+CONTENT:
+Ich bin intuitiv erstmal für Randomdaten. Das Auslesen würde wahrscheinlich länger dauern als das Generieren der Daten. Wenn der Zufall allerdings zu starke Einflüsse auf die Testergebnisse hat, ist evtl ein Auslesen gespeicherter Testdaten sinnvoll (das ist vorallem im Bezug auf Trainingsdaten für Devices zu bedenken).
+Aber fürs erste passen randomisierte Einträge völlig.
+TAGGED_CONTENT:

@@ -1,0 +1,19 @@
+ID: 726
+CREATION_DATETIME: 1352502000000
+MODIFICATION_DATETIME: 1380578400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+ich wollte mal in die Runde fragen, bei wem es zu Probleme mit der LaTeX Darstellung innerhalb <NAME_CORPUS_REPLACEMENT> auditorium kommt? Gibt es nennenswerte Probleme?
+Wie schaut es bspw. mit dieser Variable aus? Wird sie korrekt dargestellt? $X_{k-1}$
+Nochmal zum Verständnis:
+```
+LEERZEILE
+$$...$$
+LEERZEILE
+``` 
+bedeutet Block LaTeX, also alleinstehend. Immer eine Leerzeile vorher und nachher einfügen!
+`$ ... $` bedeutet Inline LaTeX, also innerhalb einer <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

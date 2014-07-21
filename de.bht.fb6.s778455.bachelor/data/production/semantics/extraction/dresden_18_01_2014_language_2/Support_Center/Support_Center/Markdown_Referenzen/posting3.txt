@@ -1,0 +1,10 @@
+ID: 200
+CREATION_DATETIME: 1349560800000
+MODIFICATION_DATETIME: 1349560800000
+TITLE: Es geht leider nicht 
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 61
+POSTING_TYPE: comment
+CONTENT:
+Es geht leider nicht alles was in dem alten Cheat Sheet stand. Weshalb ich ein andres verlinkt habe. Aber es soll ja auch keine Diplomarbeit damit verfasst werden ;) 
+TAGGED_CONTENT:

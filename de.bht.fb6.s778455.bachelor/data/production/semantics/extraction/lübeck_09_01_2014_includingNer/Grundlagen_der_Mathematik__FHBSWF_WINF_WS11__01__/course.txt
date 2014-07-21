@@ -1,0 +1,12 @@
+ID: 3411
+CREATION_DATETIME: 1310734271
+MODIFICATION_DATETIME: 1310734876
+LANG: null
+SHORT_NAME: Grundlagen der Mathematik (FHBSWF WINF WS11 [01])
+TITLE: Grundlagen der Mathematik (FHBSWF WINF WS11 [01])
+SUMMARY:  FHBSWF-S-WINF-1100-11W-01 
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813

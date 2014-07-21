@@ -1,0 +1,12 @@
+ID: 200467
+CREATION_DATETIME: 1363084432
+MODIFICATION_DATETIME: 1363084432
+TITLE: Re: Lösungen der Klausuraufgaben
+POS_TAG: value:A;weight:0.0;uri:;postag:NN
+POS_TAG: value:Weg;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 200429
+CONTENT:
+Eigentlich geht es bei dieser Aufgabe wirklich schnell wenn man sieht das die --A gestrichen werden können. Ich hab mal meinen Weg angehangen
+TAGGED_CONTENT:
+Eigentlich_ADV geht_VVFIN es_PPER bei_APPR dieser_PDAT Aufgabe_NN wirklich_ADJD schnell_ADJD wenn_KOUS man_PIS sieht_VVFIN das_PDS die_ART --_APPR A_NN gestrichen_VVPP werden_VAINF können_VMFIN ._$. Ich_PPER hab_VAFIN mal_ADV meinen_PPOSAT Weg_NN angehangen_VVPP 

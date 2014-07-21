@@ -1,0 +1,12 @@
+ID: 2117
+CREATION_DATETIME: 1372456800000
+MODIFICATION_DATETIME: 1372456800000
+TITLE: Okay, es ist "nur" ein Typo beim #include.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2115
+POSTING_TYPE: comment
+CONTENT:
+Okay, es ist "nur" ein Typo beim #include.
+
+Trotzdem unkompilierbar.
+TAGGED_CONTENT:

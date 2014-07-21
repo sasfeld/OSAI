@@ -1,0 +1,10 @@
+ID: 432
+CREATION_DATETIME: 1350597600000
+MODIFICATION_DATETIME: 1350597600000
+TITLE: In dem konkreten Fall
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 430
+POSTING_TYPE: comment
+CONTENT:
+In dem konkreten Fall, ja. Dachte aber, dass könnte auch generell ein Feature werden, damit Ihr das nicht selbst machen müsst.
+TAGGED_CONTENT:

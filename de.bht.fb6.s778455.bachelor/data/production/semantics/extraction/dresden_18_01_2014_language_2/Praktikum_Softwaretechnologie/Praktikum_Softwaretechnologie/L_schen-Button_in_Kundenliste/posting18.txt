@@ -1,0 +1,32 @@
+ID: 2975
+CREATION_DATETIME: 1385161200000
+MODIFICATION_DATETIME: 1385161200000
+TITLE: Also vielen Dank schonmal für die echt schnelle Hilfe immer, leider funktionierts noch nicht ganz.
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2935
+POSTING_TYPE: comment
+CONTENT:
+Also vielen Dank schonmal für die echt schnelle Hilfe immer, leider funktionierts noch nicht ganz.
+
+Hier nochmal meine Methode:
+
+```ruby
+
+@RequestMapping(value="deleteUser", method=RequestMethod. POST)
+
+	public String deleteUser(@RequestParam("id") UserAccount userAccount) {
+
+		userAccountManager. disable(userAccount. getIdentifier());
+
+	}
+
+```
+
+eclipse zeigt mir links davon diese Glühlame und sagt:
+
+- The attribute value is undefined fpr the annotation type RequestParam
+
+- RequestParam cannot be resolved to a type
+
+Ich versteh zwar, was mir eclipse sagen will, aber weiß nicht, wie ichs ändern soll.
+TAGGED_CONTENT:

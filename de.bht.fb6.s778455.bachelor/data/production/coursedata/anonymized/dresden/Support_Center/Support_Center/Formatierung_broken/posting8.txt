@@ -1,0 +1,9 @@
+ID: 1381
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Der Text wird nicht umgebrochen und geht über den linken Rand hinaus. Kein Scrollbalken, scrollen übe...
+PARENT_POSTING_ID: 1367
+POSTING_TYPE: comment
+CONTENT:
+Der Text wird nicht umgebrochen und geht über den linken Rand hinaus. Kein Scrollbalken, scrollen über Tasten geht auch nicht.
+TAGGED_CONTENT:

@@ -1,0 +1,13 @@
+ID: 2154328
+CREATION_DATETIME: 1349820000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Allgemeine und sonstige Fragen
+INTRO: Hier können alle allgemeinen oder sonstigen Fragen und Angelegenheiten gestellt werden. 
+
+Themen wie diese und weitere haben hier ihren Anlaufpunkt:
+
+* Prüfungsordnung
+* Aktuelles an der Uni
+* Lerngruppen
+* ...
+TYPE: null

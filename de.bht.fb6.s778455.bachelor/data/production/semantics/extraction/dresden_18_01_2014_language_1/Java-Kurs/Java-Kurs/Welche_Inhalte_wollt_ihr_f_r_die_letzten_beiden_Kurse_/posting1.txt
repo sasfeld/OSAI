@@ -1,0 +1,16 @@
+ID: 1007
+CREATION_DATETIME: 1356649200000
+MODIFICATION_DATETIME: 1381960800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo zusammen,
+
+das Semester nähert sich dem Ende und so auch unser Programmierkurs. Ich denke, dass es wichtiger ist, Wissen zu festigen, als euch einfach mit noch mehr neuen Inhalten einzudecken. Die Basis ist gelegt. Darum die Frage an euch:  
+
+Was soll nochmal wiederholt werden?  
+
+Wo seht ihr Probleme oder welches Thema sollte nochmal (vielleicht etwas ausführlicher) behandelt werden?
+TAGGED_CONTENT:

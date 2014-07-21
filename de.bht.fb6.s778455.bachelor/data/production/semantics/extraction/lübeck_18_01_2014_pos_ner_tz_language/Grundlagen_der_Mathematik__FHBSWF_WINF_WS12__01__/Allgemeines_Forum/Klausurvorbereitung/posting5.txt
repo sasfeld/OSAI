@@ -1,0 +1,19 @@
+ID: 188821
+CREATION_DATETIME: 1356088780
+MODIFICATION_DATETIME: 1356088780
+TITLE: Re: Klausurvorbereitung
+LANGUAGE: UNKNOWN
+NER_TAG: value:Frohe;weight:-1.0;uri:;classifierlabel:I-MISC
+NER_TAG: value:Frohe;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Festtage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frohe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:REMOVEMENT;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 188807
+CONTENT:
+Vielen Dank und Frohe Festtage!
+Freundliche Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Vielen_PIDAT Dank_NN und_KON Frohe_NN Festtage_NN !_$. Freundliche_ADJA Grüße_NN <_CARD PERSONAL_GREETING_REMOVEMENT_NN >_XY 

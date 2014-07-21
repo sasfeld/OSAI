@@ -21,27 +21,34 @@ import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
  * 
  */
 public class JenaFrameworkTest {
+    protected static final File ONTOLOGY_FILE = new File(
+            NoLoggingTest.PATH_UNITTEST_DATA_FOLDER
+                    + "/semantics/creation/ontology/bachelor_0_6_3.owl");
     /**
      * Path to the dataset for unit testing.
      */
-    private static final String LOCATION_UNIT_TEST_DS = "C:/jena/unittest";
-    protected static RdfTripleStoreAdapter adapter; 
+    private static final String LOCATION_UNIT_TEST_DS = NoLoggingTest.PATH_UNITTEST_DATA_FOLDER
+            + "/semantics/creation/testdataset";
+
+    protected static RdfTripleStoreAdapter adapter;
+
     /**
      * Get the RdfTripleStoreAdapter for unit testing.
+     * 
      * @return
      */
     public static RdfTripleStoreAdapter getRdfTripleStoreAdapter() {
-        if( null == adapter ) {
-            final Dataset jenaStore = TDBFactory.createDataset( LOCATION_UNIT_TEST_DS );
-            final File ontologyFile = ServiceFactory.getOntologyFile();
+        if (null == adapter) {
+            final Dataset jenaStore = TDBFactory
+                    .createDataset(LOCATION_UNIT_TEST_DS);
+            final File ontologyFile = ONTOLOGY_FILE;
             final String ontologyBaseUri = ServiceFactory.getOntologyBaseUri();
             final Boolean forceOntUpdate = ServiceFactory.getForceOntUpdate();
-            adapter = new RdfTripleStoreAdapter( jenaStore, ontologyFile,
-                    ontologyBaseUri, forceOntUpdate );                      
+            adapter = new RdfTripleStoreAdapter(jenaStore, ontologyFile,
+                    ontologyBaseUri, forceOntUpdate);
         }
-        
+
         return adapter;
     }
-    
-   
+
 }

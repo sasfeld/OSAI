@@ -1,0 +1,37 @@
+ID: 195189
+CREATION_DATETIME: 1358759756
+MODIFICATION_DATETIME: 1358759756
+TITLE: Re: Gruppenübungen
+LANGUAGE: GERMAN
+NER_TAG: value:Matrix P.;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:Matrix Q.;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:Matrix P.;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:Matrix Q.;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Rang;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spaltenoperationen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Elementarmatrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeilen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Elementarmatrizen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fall;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beste;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anwendung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Umformung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Q;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abbild;weight:0.0;uri:;postag:NN
+POS_TAG: value:P;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeilenumformungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Reihenfolge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Matrizen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Multiplikation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spaltenumformungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Verfahrensverlaufes;weight:0.0;uri:;postag:NN
+POS_TAG: value:Produkt;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 194913
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+es gilt, die Matrix M mittels geeigneter Zeilen- und Spaltenoperationen zur Matrix R umzuformen. Dies ist immer möglich, solange beide Matrizen den gleichen Rang haben (in diesem Fall haben beide Rang 2). Es ist nur ein wenig Augenmaß gefragt, um zielgerichtet vorzugehen. Zu jeder Umformung merken Sie sich dabei die zugehörige Elementarmatrix. Das Produkt aller benötigten Elementarmatrizen der Zeilenumformungen (in entgegengesetzter Reihenfolge der Anwendung) ergibt die Matrix P. Das Produkt aller benötigten Elementarmatrizen der Spaltenumformungen (in Reihenfolge der Anwendung) ergibt die Matrix Q. Es beschreibt die Multiplikation mit P von links die Gesamt-Anwendung aller benötigten Zeilenumformungen; analog beschreibt Q die Spaltenumformungen. Entsprechend ergibt sich P*M*Q=R als Abbild des Verfahrensverlaufes.
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, es_PPER gilt_VVFIN ,_$, die_ART Matrix_NE M_NE mittels_APPR geeigneter_ADJA Zeilen_NN -_$( und_KON Spaltenoperationen_NN zur_APPRART Matrix_NE R_NE umzuformen_VVIZU ._$. Dies_PDS ist_VAFIN immer_ADV möglich_ADJD ,_$, solange_KOUS beide_PIS Matrizen_NN den_ART gleichen_ADJA Rang_NN haben_VAFIN -LRB-_TRUNC in_APPR diesem_PDAT Fall_NN haben_VAFIN beide_PIS Rang_NN 2_CARD -RRB-_TRUNC ._$. Es_PPER ist_VAFIN nur_ADV ein_ART wenig_PIDAT Augenmaß_NN gefragt_VVPP ,_$, um_KOUI zielgerichtet_ADJD vorzugehen_VVIZU ._$. Zu_APPR jeder_PIDAT Umformung_NN merken_VVFIN Sie_PPER sich_PRF dabei_PROAV die_ART zugehörige_ADJA Elementarmatrix_NN ._$. Das_ART Produkt_NN aller_PIDAT benötigten_ADJA Elementarmatrizen_NN der_ART Zeilenumformungen_NN -LRB-_TRUNC in_APPR entgegengesetzter_ADJA Reihenfolge_NN der_ART Anwendung_NN -RRB-_TRUNC ergibt_VVFIN die_ART Matrix_NE P._NE Das_ART Produkt_NN aller_PIDAT benötigten_ADJA Elementarmatrizen_NN der_ART Spaltenumformungen_NN -LRB-_TRUNC in_APPR Reihenfolge_NN der_ART Anwendung_NN -RRB-_TRUNC ergibt_VVFIN die_ART Matrix_NE Q._NE Es_PPER beschreibt_VVFIN die_ART Multiplikation_NN mit_APPR P_NN von_APPR links_ADV die_ART Gesamt-Anwendung_NN aller_PIDAT benötigten_ADJA Zeilenumformungen_NN ;_$. analog_ADJD beschreibt_VVFIN Q_NN die_ART Spaltenumformungen_NN ._$. Entsprechend_ADJD ergibt_VVFIN sich_PRF P_NE \*_VVFIN M_NE \*_CARD Q_XY =_XY R_XY als_APPR Abbild_NN des_ART Verfahrensverlaufes_NN ._$. Beste_NN Grüße_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ._$. 

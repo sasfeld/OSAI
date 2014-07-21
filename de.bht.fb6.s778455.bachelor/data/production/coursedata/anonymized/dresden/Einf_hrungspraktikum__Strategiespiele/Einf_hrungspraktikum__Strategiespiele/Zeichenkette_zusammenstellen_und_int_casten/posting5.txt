@@ -1,0 +1,12 @@
+ID: 133
+CREATION_DATETIME: 1348178400000
+MODIFICATION_DATETIME: 1348178400000
+TITLE: Mir ist klar, dass es
+PARENT_POSTING_ID: 129
+POSTING_TYPE: answer
+CONTENT:
+Mir ist klar, dass es nicht nur einen Zug gibt.
+Geeignete Darstellung würde für mich bedeuten, struct zu verwenden. Das betrachte ich für mich als zu aufwendig und kompliziert.
+Beim rekursiven abklappern möglicher Zugfelder soll das nächste Zugfeld per Zufall gewählt werden, falls ein <NAME_CORPUS_REPLACEMENT> nicht nachteiliger als das andere ist. Das führt dann dazu, dass also pro <REMOVED_PERSON_ENTITY> ein Zug ermittelt wird.
+Mein Problem ist auch nicht so sehr das Konzept, sondern die technischen Details <NAME_CORPUS_REPLACEMENT> <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

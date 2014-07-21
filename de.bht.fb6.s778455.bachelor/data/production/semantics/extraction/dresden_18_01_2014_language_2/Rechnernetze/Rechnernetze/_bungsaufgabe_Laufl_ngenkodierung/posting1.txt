@@ -1,0 +1,22 @@
+ID: 2469
+CREATION_DATETIME: 1374703200000
+MODIFICATION_DATETIME: 1382047200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Gegeben sei ein Bild mit 640x480 Punkten, jeder Punkt 8-bit-farbkodiert. 
+
+Wie groß ist ein gleichförmig weißes Bild nach <REMOVED_PERSON_ENTITY> (Kodierung weiß x00, Schwellwert S=4, <REMOVED_PERSON_ENTITY> xFF).
+
+Lösung
+
+Ich komme nicht recht weiter:
+
+640 * 480 * 8 BIt Farbtiefe = 307200 Byte
+
+"x00 xFF 255" kann immer nur 255+4 Pixel kodieren, also (307200//259) * 3Byte?
+
+ich glaube, ich liege ganz falsch.
+TAGGED_CONTENT:

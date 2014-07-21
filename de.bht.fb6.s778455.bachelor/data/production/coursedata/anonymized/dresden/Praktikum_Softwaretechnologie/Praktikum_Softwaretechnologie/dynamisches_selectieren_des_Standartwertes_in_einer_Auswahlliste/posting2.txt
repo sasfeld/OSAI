@@ -1,0 +1,9 @@
+ID: 3006
+CREATION_DATETIME: 1385247600000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: Kannst du noch deinen relevanten Html/Thymleaf Code ergänzen?
+PARENT_POSTING_ID: 3005
+POSTING_TYPE: comment
+CONTENT:
+Kannst du noch deinen relevanten Html/Thymleaf Code ergänzen?
+TAGGED_CONTENT:

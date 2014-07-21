@@ -1,0 +1,26 @@
+ID: 242573
+CREATION_DATETIME: 1381436555
+MODIFICATION_DATETIME: 1381436555
+TITLE: Re: Fehler bei der Grafikdarstellung in den Lektionen
+TOPIC_ZOOM_TAG: value:Drahtlose Technologie;weight:1.0;significance:8.61420495301182;degreegeneralization:6;uri:21307590
+TOPIC_ZOOM_TAG: value:Drahtloses Netz;weight:1.0;significance:8.61420495301182;degreegeneralization:10;uri:20919803
+TOPIC_ZOOM_TAG: value:Lokale Telekommunikationsnetzwerke;weight:1.0;significance:8.5188947732075;degreegeneralization:8;uri:20889492
+TOPIC_ZOOM_TAG: value:Funknetze;weight:1.0;significance:8.47444301063667;degreegeneralization:9;uri:20889458
+TOPIC_ZOOM_TAG: value:Telekommunikationsnetzwerke;weight:1.0;significance:8.17595002208067;degreegeneralization:7;uri:20889526
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:1.0;significance:6.50399175266524;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Kommunikationstechnik;weight:1.0;significance:5.71829301474005;degreegeneralization:5;uri:20897125
+TOPIC_ZOOM_TAG: value:Funktechnik;weight:1.0;significance:5.54151163832171;degreegeneralization:4;uri:20897975
+TOPIC_ZOOM_TAG: value:Telekommunikation;weight:1.0;significance:5.40067673447022;degreegeneralization:5;uri:21990157
+TOPIC_ZOOM_TAG: value:World Wide Web;weight:1.0;significance:4.80310786617364;degreegeneralization:6;uri:20772430
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 240837
+CONTENT:
+Jep, das habe ich auch festgestellt und mir vom Support bestätigen lassen. Da hilft wohl nur über's WLAN reinzugehen und downzuloaden!
+TAGGED_CONTENT:

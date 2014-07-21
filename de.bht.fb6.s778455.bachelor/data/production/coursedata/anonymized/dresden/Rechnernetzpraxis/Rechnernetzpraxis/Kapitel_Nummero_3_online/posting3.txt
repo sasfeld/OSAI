@@ -1,0 +1,9 @@
+ID: 2776
+CREATION_DATETIME: 1384038000000
+MODIFICATION_DATETIME: 1384038000000
+TITLE: Das Kapitel sollte nun wieder online sein. Da das CMS alle Dateien in einem Ordner speichert, habe ic...
+PARENT_POSTING_ID: 2645
+POSTING_TYPE: comment
+CONTENT:
+Das Kapitel sollte nun wieder online sein. <NAME_CORPUS_REPLACEMENT> das CMS alle Dateien in einem Ordner speichert, habe ich das Kapitel gerade aufgrund eines identischen Namens mit der hochgeladenen Übung überschrieben - diese habe ich nun umbenannt und das Kapitel nochmal hochgeladen...
+TAGGED_CONTENT:

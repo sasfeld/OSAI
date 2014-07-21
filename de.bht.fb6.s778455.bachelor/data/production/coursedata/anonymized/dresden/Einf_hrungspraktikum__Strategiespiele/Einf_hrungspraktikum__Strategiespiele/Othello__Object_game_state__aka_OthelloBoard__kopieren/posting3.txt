@@ -1,0 +1,9 @@
+ID: 1484
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: ah gut, ja denn hab ich schon gefunden kann damit nur noch nich ganz viel anfangen
+PARENT_POSTING_ID: 1483
+POSTING_TYPE: comment
+CONTENT:
+ah gut, <LEARNED_PERSON_NAME_REPLACEMENT> denn hab ich schon gefunden kann damit nur noch nich ganz viel anfangen
+TAGGED_CONTENT:

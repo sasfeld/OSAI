@@ -1,0 +1,8 @@
+ID: 16521
+CREATION_DATETIME: 1233175872
+MODIFICATION_DATETIME: 1233175872
+TITLE: E-Mail-Server Auszeit
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Sie alle,  beachten Sie bitte folgende Information unseres Rechenzentrums:  &quot;Achtung: Der Mailserver der Hochschule ist wegen Umstellungsarbeiten  vom 30. 1. 2009 ab 14. 00 <REMOVED_PERSON_ENTITY> bis 02. 02. 2009 um ca. 7. 00 Uhr nicht erreichbar.&quot;   Das heißt, dass Sie mich im fraglichen Zeitraum höchstens über Forum,  Acrobat-Connect oder Telefon erreichen können.  Mit freundlichen Grüßen, <PERSONAL_GREETING_REMOVEMENT>. <REMOVED_PERSON_ENTITY>. 
+TAGGED_CONTENT:

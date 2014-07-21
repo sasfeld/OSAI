@@ -1,0 +1,6 @@
+ID: 2154608
+CREATION_DATETIME: 1380492000000
+MODIFICATION_DATETIME: 1380492000000
+TITLE: Systemorientierte Informatik / Hardware-Software-Codesign
+INTRO: null
+TYPE: null

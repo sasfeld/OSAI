@@ -1,0 +1,13 @@
+ID: 2104
+CREATION_DATETIME: 1372197600000
+MODIFICATION_DATETIME: 1372197600000
+TITLE: Das war schon gewollt, dass die Header aus build/inc rüberkopiert werden.
+Im build/inc Ordner liegen...
+PARENT_POSTING_ID: 2082
+POSTING_TYPE: comment
+CONTENT:
+Das war schon gewollt, dass die Header aus build/inc rüberkopiert werden.
+Im build/inc Ordner liegen die öffentlichen Header, die die Client Anwendung dann nutzt, damit der Client nicht alle privaten und unnötigen Eigenschaften der Klassen sieht.
+Deshalb muss man die Header immer manuell anpassen, wenn sich was am öffentlichen Interface geändert hat.
+Kann sein, dass das einer <NAME_CORPUS_REPLACEMENT> uns mal vergessen hat und die Header in build/inc deshalb nicht ganz aktuell waren.
+TAGGED_CONTENT:

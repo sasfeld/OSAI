@@ -1,0 +1,39 @@
+ID: 97747
+CREATION_DATETIME: 1285351955
+MODIFICATION_DATETIME: 1285351955
+TITLE: Re: Einsendeaufgaben in LON-CAPA
+TOPIC_ZOOM_TAG: value:Studienanfänger;weight:1.0;significance:5.45839502300295;degreegeneralization:6;uri:20920432
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:2.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Rechenzentren;weight:1.0;significance:4.78652764965239;degreegeneralization:7;uri:20900338
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:2.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Datenverarbeitung;weight:1.0;significance:4.23722150531833;degreegeneralization:6;uri:21127016
+TOPIC_ZOOM_TAG: value:Studenten;weight:1.0;significance:3.3437630829422;degreegeneralization:5;uri:20994552
+TOPIC_ZOOM_TAG: value:Schüler, Studenten;weight:1.0;significance:3.21878054168781;degreegeneralization:4;uri:20920823
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:2.78563553898677;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:2.77735785682754;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:1.0;significance:2.47532165344109;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:2.00351838218053;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.83083484620539;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+POS_TAG: value:gug;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hochschule;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Informationen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rechenzentrum;weight:0.0;uri:;postag:NN
+POS_TAG: value:hrungsveranstaltung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Jahr;weight:0.0;uri:;postag:NN
+POS_TAG: value:nge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Account;weight:0.0;uri:;postag:NN
+POS_TAG: value:nger;weight:0.0;uri:;postag:NN
+POS_TAG: value:Oncampus;weight:0.0;uri:;postag:NN
+POS_TAG: value:Moodle;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97745
+CONTENT:
+Der Account für LON-CAPA ist offensichtlich der vom Rechenzentrum der Hochschule zur Verfügug gestellte, nicht der von Oncampus für Moodle.
+Im letzten Jahr gab es die Zugänge für Studienanfänger tatsächlich bei der Einführungsveranstaltung. Allgemeine Informationen zum Account gibt es unter http://www.ostfalia.de/cms/de/rz/zugang/account
+Grüße,
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Der_ART Account_NN für_APPR LON-CAPA_NE ist_VAFIN offensichtlich_ADJD der_ART vom_APPRART Rechenzentrum_NN der_ART Hochschule_NN zur_APPRART Verfügug_NN gestellte_VVFIN ,_$, nicht_PTKNEG der_ART von_APPR Oncampus_NN für_APPR Moodle_NN ._$. Im_APPRART letzten_ADJA Jahr_NN gab_VVFIN es_PPER die_ART Zugänge_NN für_APPR Studienanfänger_NN tatsächlich_ADJD bei_APPR der_ART Einführungsveranstaltung_NN ._$. Allgemeine_ADJA Informationen_NN zum_APPRART Account_NN gibt_VVFIN es_PPER unter_APPR http:\/\/www.ostfalia.de\/cms\/de\/rz\/zugang\/account_ADJA Grüße_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

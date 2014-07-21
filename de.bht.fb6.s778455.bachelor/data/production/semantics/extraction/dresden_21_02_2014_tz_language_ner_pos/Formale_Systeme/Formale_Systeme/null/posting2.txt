@@ -1,0 +1,14 @@
+ID: 453
+CREATION_DATETIME: 1350856800000
+MODIFICATION_DATETIME: 1351116000000
+TITLE: Eigentlich schon. Das
+LANGUAGE: GERMAN
+POS_TAG: value:Induktionsbeweis;weight:0.0;uri:;postag:NN
+POS_TAG: value:t;weight:0.0;uri:;postag:NN
+POS_TAG: value:Versuchs;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 447
+POSTING_TYPE: comment
+CONTENT:
+Eigentlich schon. Das nennt sich die Transitivität. Versuchs mal mit einem Induktionsbeweis.
+TAGGED_CONTENT:
+Eigentlich_ADV schon_ADV ._$. Das_ART nennt_VVFIN sich_PRF die_ART Transitivität_NN ._$. Versuchs_NN mal_ADV mit_APPR einem_ART Induktionsbeweis_NN ._$. 

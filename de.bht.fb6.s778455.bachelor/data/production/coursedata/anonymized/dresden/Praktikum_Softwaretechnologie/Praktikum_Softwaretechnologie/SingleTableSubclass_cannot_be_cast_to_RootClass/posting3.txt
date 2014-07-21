@@ -1,0 +1,14 @@
+ID: 3048
+CREATION_DATETIME: 1385593200000
+MODIFICATION_DATETIME: 1385593200000
+TITLE: Gegoogelt habe ich auch :D
+
+Wenn ich das richtig verstehe muss die Oberste Klasse in einer Hierarch...
+PARENT_POSTING_ID: 3045
+POSTING_TYPE: comment
+CONTENT:
+Gegoogelt habe ich auch :D
+Wenn ich das richtig verstehe muss die Oberste Klasse in einer Hierarchie mit @Entity ein Atribut mit @Id haben oder?
+Das ist in meinem Code so. Ich habe auch ausprobiert Subklassen eigene ids zuzuweisen, das funktioniert leider auch nicht. Dann habe ich noch ausprobiert die Vererbung ganz rauszunehmen, was immernoch den selben Fehler produziert.
+Kann man irgendwo rausfinden wo genau der Fehler verursacht wird? Ich finde diese Fehlermeldung nicht besonders hilfreich^^
+TAGGED_CONTENT:

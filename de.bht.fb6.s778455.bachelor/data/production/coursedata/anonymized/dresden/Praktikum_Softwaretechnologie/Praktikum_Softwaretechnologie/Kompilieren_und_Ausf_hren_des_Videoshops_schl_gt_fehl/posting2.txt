@@ -1,0 +1,14 @@
+ID: 2659
+CREATION_DATETIME: 1383174000000
+MODIFICATION_DATETIME: 1383174000000
+TITLE: Hast du das Projekt richtig importiert? Gab es Fehler beim Import?
+Ggf. das Projekt löschen und noch...
+PARENT_POSTING_ID: 2658
+POSTING_TYPE: comment
+CONTENT:
+Hast du das Projekt richtig importiert? Gab es Fehler beim Import?
+Ggf. das Projekt löschen und nochmals installieren.
+Ohne das selbst zu sehen kann ich nur noch vorschlagen:
+* Rechtsklick aufs Projekt -> Maven -> Update Project…
+* Eclipse neu starten
+TAGGED_CONTENT:

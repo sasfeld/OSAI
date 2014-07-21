@@ -1,0 +1,10 @@
+ID: 1356
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: As it seems I could also use the `-std=C++03`flag, but either way requires to get rid of all the `nul...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1325
+POSTING_TYPE: comment
+CONTENT:
+As it seems I could also use the `-std=C++03` flag, but either way requires to get rid of all the `nullptr`s...
+TAGGED_CONTENT:

@@ -1,0 +1,6 @@
+ID: 2154358
+CREATION_DATETIME: 1363561200000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Rechnernetze
+INTRO: Die Lehrveranstaltung führt die Hörer in die Grundlagen der Rechnernetze ein und ermöglicht ihnen, Rechnernetz-Technologien zu verstehen, zu bewerten und schließlich auch praktisch einzusetzen. Dabei werden zunächst übertragungstechnische Grundprinzipien behandelt, um dann auf die verschiedenen Technologiebereiche sowie auf Kommunikationsdienste im Detail einzugehen. Im Mittelpunkt stehen Architekturkonzepte und Beispielprotokolle aus dem Internet-Bereich. Schließlich werden auch Prinzipien und Systeme für Rechnernetz-Anwendungen diskutiert, insbesondere zu verteilten Systemen, Multimedia und Mobile Computing.
+TYPE: null

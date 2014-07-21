@@ -1,0 +1,16 @@
+ID: 74
+CREATION_DATETIME: 1182093480000
+MODIFICATION_DATETIME: 1182093480000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 73
+CONTENT:
+
+Hallo,
+
+auch eine Frage von mir
+Die Klausur wird offline geschrieben, oder?
+
+Danke und viele Grüße
+	
+TAGGED_CONTENT:

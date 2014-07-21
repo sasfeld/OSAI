@@ -1,0 +1,20 @@
+ID: 1938
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: Ja, da kommt "I am a dumb tester" bei mir. Auf dem SSH läuft es jedenfalls.
+LANGUAGE: GERMAN
+NER_TAG: value:SSH;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:SSH;weight:0.0;uri:;postag:NN
+POS_TAG: value:Baue;weight:0.0;uri:;postag:NN
+POS_TAG: value:B;weight:0.0;uri:;postag:NN
+POS_TAG: value:PATH;weight:0.0;uri:;postag:NN
+POS_TAG: value:hrungszeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:libCLeverTrustee;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Ja, <NAME_CORPUS_REPLACEMENT> kommt "I am a dumb tester" bei mir. Auf dem SSH läuft es jedenfalls.
+
+Baue mal mit "make -B", um sicherzugehen, dass die lib/libCLeverTrustee. so auch erstellt wird. Ansonsten sollte zur Ausführungszeit der LD_LIBRARY_PATH gesetzt sein.
+TAGGED_CONTENT:
+Ja_PTKANT ,_$, <_CARD NAME_CORPUS_REPLACEMENT_NE >_NE kommt_VVFIN "_$( I_FM am_APPRART a_XY dumb_FM tester_FM "_$( bei_APPR mir_PPER ._$. Auf_APPR dem_ART SSH_NN läuft_VVFIN es_PPER jedenfalls_ADV ._$. Baue_NN mal_ADV mit_APPR "_$( make_FM -_$( B_NN "_$( ,_$, um_KOUI sicherzugehen_VVIZU ,_$, dass_KOUS die_ART lib\/libCLeverTrustee_NN ._$. so_ADV auch_ADV erstellt_VVPP wird_VAFIN ._$. Ansonsten_ADV sollte_VMFIN zur_APPRART Ausführungszeit_NN der_ART LD_LIBRARY_PATH_NN gesetzt_VVPP sein_VAINF ._$. 

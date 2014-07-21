@@ -1,0 +1,5 @@
+ID: 1947
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1376604000000
+TITLE: Warum kann die Tiefensortierung nicht auf Basis von Polygonen durchgeführt werden?
+FIRST_POSTING_ID: 1947

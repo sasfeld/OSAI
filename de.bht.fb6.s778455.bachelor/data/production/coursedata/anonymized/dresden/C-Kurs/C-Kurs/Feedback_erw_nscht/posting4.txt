@@ -1,0 +1,10 @@
+ID: 576
+CREATION_DATETIME: 1351465200000
+MODIFICATION_DATETIME: 1351465200000
+TITLE: Ja, Dreistigkeit siegt… Auch wenn ich das eigentlich nicht haben wil, weil es den Sinn der Einschreib...
+PARENT_POSTING_ID: 553
+POSTING_TYPE: comment
+CONTENT:
+Ja, Dreistigkeit siegt… Auch wenn ich das eigentlich nicht haben wil, weil es den Sinn der Einschreibelisten ad absurdum führt. Auf der anderen Seite haben sich ja auch nicht alle angemeldeten Personen eingefunden, sodass eine Person durchaus mehr zu verkraften war :)
+Ich grüble noch über eine Alternative zu diesem bescheidenen Whiteboard nach. Vielleicht probier ich das nächste mal Folien :)
+TAGGED_CONTENT:

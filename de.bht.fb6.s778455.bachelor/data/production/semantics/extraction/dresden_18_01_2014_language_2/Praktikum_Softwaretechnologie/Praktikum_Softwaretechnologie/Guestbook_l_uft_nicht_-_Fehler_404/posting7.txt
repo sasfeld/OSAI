@@ -1,0 +1,10 @@
+ID: 2736
+CREATION_DATETIME: 1383778800000
+MODIFICATION_DATETIME: 1383778800000
+TITLE: Javas Wege sind unergründlich, ich habe keine Ahnung.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2728
+POSTING_TYPE: comment
+CONTENT:
+Javas Wege sind unergründlich, ich habe keine Ahnung.
+TAGGED_CONTENT:

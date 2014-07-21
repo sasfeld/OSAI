@@ -1,0 +1,13 @@
+ID: 664
+CREATION_DATETIME: 1352070000000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+If the file is already closed and I <NAME_CORPUS_REPLACEMENT> return from close(), test 3 complains:
+> *** No action after File::close() was called! ***
+If I throw an exception:
+> terminate called after throwing an instance of 'Exception'
+It is intended, that the destructor will close the file, isn't it?
+TAGGED_CONTENT:

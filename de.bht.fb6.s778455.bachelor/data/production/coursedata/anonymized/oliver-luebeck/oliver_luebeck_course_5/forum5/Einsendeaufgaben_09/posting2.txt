@@ -1,0 +1,13 @@
+ID: 82
+CREATION_DATETIME: 1195748220000
+MODIFICATION_DATETIME: 1195748220000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 81
+CONTENT:
+ 
+Lieber ,
+ich habe Fragen zu Ihrer Frage: ist Ihre Klasse eine Unterklasse von Frame? Wo benutzen Sie die Methode repaint() und wo die Methode paint(Graphics g)? Etwas Code wäre gut, um Ihr Problem besser zu verstehen.
+Mit freundlichen Gruessen,
+	
+TAGGED_CONTENT:

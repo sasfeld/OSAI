@@ -1,0 +1,8 @@
+ID: 16667
+CREATION_DATETIME: 1224704051
+MODIFICATION_DATETIME: 1224704051
+TITLE: Re: Frage zur Aufgabe
+PARENT_POSTING_ID: 16663
+CONTENT:
+Wenn du folgende Aufgabe meinst:Bestimmen Sie die Konstante c so, dass die Gleichung 2x^2 + 3x = cgenau eine (doppelte) Lösung besitzt. Ich habe die Aufgabe folgendermaßen gelöst:Ausgangsüberlegung:Eine quadratische Gleichung hat genau eine (doppelte) Lösung, wenn die Diskriminante = 0 ist. Um die Diskriminante zu ermitteln muss die Gleichung zunächst so umgeformt werden, dass sie der pq-Formel entspricht. 2x^2 + 3x =c &lt;=&gt; x^2 + 3/2x - c/2 = 0Die Diskriminante entspricht (p/2)^2 - q . Also: (3/4)^2 - (-c/2) = 0 =&gt; 9/16 + c/2 = 0Nun musst du die Gleichung noch nach c auflösen. c = -9/8Somit muss c = -9/8 sein, damit die Gleichung nur eine Lösung besitzt. Sollte ich mich irren und nur zufällig auf das richtige Ergebnis gekommen sein, korregiert mich bitte! 
+TAGGED_CONTENT:

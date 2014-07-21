@@ -1,0 +1,9 @@
+ID: 16505
+CREATION_DATETIME: 1224624907
+MODIFICATION_DATETIME: 1224624907
+TITLE: Kursplanupdate und 1. Einsendeaufgabe
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Sie alle, der Kursplan wurde leicht aktualisiert und Informationen zur Abwicklung der Einsendeaufgaben und die erste Einsendeaufgabe wurden veröffentlicht. MfG, al.
+TAGGED_CONTENT:

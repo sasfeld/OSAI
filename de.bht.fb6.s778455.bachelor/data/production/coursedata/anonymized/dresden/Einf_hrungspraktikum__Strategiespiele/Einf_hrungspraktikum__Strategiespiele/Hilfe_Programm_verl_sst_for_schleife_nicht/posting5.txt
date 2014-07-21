@@ -1,0 +1,9 @@
+ID: 1334
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: wie weit kommt denn das programm? werden die beiden printf() statements in der schleife noch ausgegeb...
+PARENT_POSTING_ID: 1329
+POSTING_TYPE: comment
+CONTENT:
+wie weit kommt denn das programm? werden die beiden printf() statements in der schleife noch ausgegeben? wenn <LEARNED_PERSON_NAME_REPLACEMENT>, wie oft? was macht deine insert-funktion?
+TAGGED_CONTENT:

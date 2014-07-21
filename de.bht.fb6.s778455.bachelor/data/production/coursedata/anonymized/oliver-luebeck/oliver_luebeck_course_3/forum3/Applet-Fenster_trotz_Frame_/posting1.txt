@@ -1,0 +1,75 @@
+ID: 22
+CREATION_DATETIME: 1201026000000
+MODIFICATION_DATETIME: 1201026000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+    
+    Hallo,
+
+zum gleichen Thema wie Franzi habe ich folgende Frage:
+
+Ich habe das Applet aus LE09 Tagesmenue in eine Applikation umschreiben wollen, und habe nur wenige Zeilen verändert.
+Was ich nicht verstehe ist, ich leite meine Applikation nicht von der Klasse Applet ab und deklariere auch im Konstruktor ein JFrame, aber die Ausgabe erfolgt als Applet-Fenster. Passiert das, weil ich die Methode paint bzw. paintComponent benutze ohne sie in einer separaten Klasse zu definieren um es als Objekt dann in mein Fenster einzufügen? Ich füge das Beispiel mal bei. Würde dann auch nur das Sandboxprinzip greifen oder kann ich das damit umgehen und trotzdem die Vorteile einer Applikation nutzen?
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+public class TagesmenueApplikation implements ItemListener {
+
+Checkbox c1, c2, c3;
+boolean nichts;
+boolean c1wunsch = false;
+boolean c2wunsch = false;
+boolean c3wunsch = false;
+JFrame f = new JFrame();
+
+public TagesmenueApplikation() {
+
+c1 = new Checkbox(" Tagessuppe ");
+c2 = new Checkbox(" Eisbein ");
+c3 = new Checkbox(" Dessert ");
+f.add( c1 );
+f.add( c2 );
+f.add( c3 );
+c1.addItemListener( this );
+c2.addItemListener( this );
+c3.addItemListener( this );
+}
+public void paint ( Graphics g ) {
+final String zeileA =
+"Waehlen Sie a la carte - aus unserem Angebot ";
+final String zeileB =
+"Bisher haben Sie sich noch nicht entschieden !";
+final String zeileC =
+"Sie haben aus unserem Angebot bestellt: ";
+final String zeile1 = " Tagessuppe ";
+final String zeile2 = " Eisbein ";
+final String zeile3 = " Dessert ";
+g.drawString( zeileA, 50, 70);
+nichts = !( c1wunsch || c2wunsch || c3wunsch );
+if ( nichts )
+g.drawString( zeileB ,50, 100);
+else {
+g.drawString( zeileC, 50, 100 );
+if ( c1wunsch ) g.drawString( zeile1 ,80, 130);
+if ( c2wunsch ) g.drawString( zeile2 ,80, 150);
+if ( c3wunsch ) g.drawString( zeile3 ,80, 170);
+};
+}
+public void itemStateChanged( ItemEvent iE ) {
+if ( iE.getSource() == c1 ) c1wunsch = c1.getState();
+if ( iE.getSource() == c2 ) c2wunsch = c2.getState();
+if ( iE.getSource() == c3 ) c3wunsch = c3.getState();
+f.repaint();
+}
+}
+
+
+Gruss 
+    
+    
+TAGGED_CONTENT:

@@ -1,0 +1,18 @@
+ID: 1012
+CREATION_DATETIME: 1357167600000
+MODIFICATION_DATETIME: 1361919600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo zusammen,
+ich selber bin Medieninformatikstudent im 8. Fachsemester und nähere mich dem Ende meines 6 monatlichem Praktikums bei Apptastic in <NAME_CORPUS_REPLACEMENT> und bin nun auf der Suche nach einem Nachfolger.
+Die Themenschwerpunkte des Praktikums sind die App-Entwicklung für Android und iOS sowie Web Back- und Frontend-Entwicklung  mit Ruby und Javascript. 
+Idealerweise habt ihr schon Programmiererfahrungen in einem oder mehreren dieser Bereiche.
+Ihr seid dabei teil eines jungen dynamischen Teams mit einigen anderen gleichgesinnten Praktikanten. 
+Das Praktikum wird vergütet!
+Solltet ihr Interesse an den Themen haben, möchtet zudem eure Englischkenntnisse verbessern und schon immer mal nach Australien reisen, dann ist das die perfekte Gelegenheit.
+Meldet euch doch einfach bei <NAME_CORPUS_REPLACEMENT>@apptastic. com. <PERSONAL_GREETING_REMOVEMENT>
+Viele Grüsse,
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

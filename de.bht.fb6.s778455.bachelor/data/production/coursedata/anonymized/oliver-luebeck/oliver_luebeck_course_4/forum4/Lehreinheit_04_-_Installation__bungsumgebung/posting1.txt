@@ -1,0 +1,24 @@
+ID: 5
+CREATION_DATETIME: 1175895540000
+MODIFICATION_DATETIME: 1175895540000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+    Hallo,
+
+ich glaube bei der Installation der Übungsumgebung ist ein Fehler. Wenn man die Datei prog01.exe wie auf Chart 7 nach C:\ entpackt/installiert, dann bekomme ich nicht die auf Chart 8 genannte Ordnerstruktur C:\vfh\prog1\... sondern es wird noch ein Ordner \prog01\ erstellt, in dem die Ordnerstruktur angelegt wird, also C:\prog01\vfh\prog1\...
+
+Dies habe ich zunächst nicht bemerkt, wenn man dann wie auf Chart 15 beschrieben kompilieren möchte, dann erscheint die Fehlermeldung, dass import vfh.prog1.bib.clockman.*; nicht durchgeführt werden kann (weil der Pfad falsch ist).
+Korrekt muss der Befehl zum Kompilieren dann
+javac -classpath c:\prog01\ UebClockman.java
+heißen und nicht wie in der Dokumentation beschrieben
+javac -classpath c:\ UebClockman.java
+
+Also entweder ist die hinterlegte Datei prog01.exe falsch "vepackt" oder der genannte Pfad beim Kompilieren ist nicht richtig.
+
+Seh ich das richtig?
+   
+    
+TAGGED_CONTENT:

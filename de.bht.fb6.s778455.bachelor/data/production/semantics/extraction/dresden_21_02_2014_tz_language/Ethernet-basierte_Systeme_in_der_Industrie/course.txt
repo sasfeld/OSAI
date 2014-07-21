@@ -1,0 +1,20 @@
+ID: 110804005
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Ethernet-basierte Systeme in der Industrie
+LANGUAGE: GERMAN
+SUMMARY: null
+TOPIC_ZOOM_TAG: value:Ethernet;weight:1.0;significance:11.6099372265658;degreegeneralization:8;uri:20898774
+TOPIC_ZOOM_TAG: value:Netzwerkprotokolle;weight:1.0;significance:7.33327110754976;degreegeneralization:7;uri:20901256
+TOPIC_ZOOM_TAG: value:Datenübertragung;weight:1.0;significance:7.30137774377381;degreegeneralization:6;uri:20897941
+TOPIC_ZOOM_TAG: value:Computernetzwerke;weight:1.0;significance:6.53268224512817;degreegeneralization:6;uri:21307726
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:1.0;significance:4.95064330688218;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:4.31013985980766;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:1.80459553725326;degreegeneralization:2;uri:21999847

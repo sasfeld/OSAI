@@ -1,0 +1,19 @@
+ID: 22
+CREATION_DATETIME: 1176560820000
+MODIFICATION_DATETIME: 1176560820000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 21
+CONTENT:
+
+Hi ,
+
+vor der selben Frage stand ich auch.
+Nach etwas java api lesen habe ich rausgefunden, das es ein Sytem.getProperties gibt, das auch die java version beinhaltet.
+Allerdings bekommt man damit ja die JRE version, des Systems auf dem das Applet läuft. Gefragt war ja aber die bei der Programmierung verwendete Java version. Also kann hier nur ein statischer String mit deiner version in Frage kommen.
+Dafür habe ich mich dann auch entschieden.
+
+Gruss
+
+    
+TAGGED_CONTENT:

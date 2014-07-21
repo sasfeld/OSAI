@@ -1,0 +1,14 @@
+ID: 2523
+CREATION_DATETIME: 1376172000000
+MODIFICATION_DATETIME: 1376258400000
+TITLE: Ja, mit D, aber es geht um die Abhängigkeiten von C, und C alleine bestimmt gar kein anderes Attribut...
+LANGUAGE: GERMAN
+POS_TAG: value:ngigkeiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:C;weight:0.0;uri:;postag:NN
+POS_TAG: value:Attribut;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2512
+POSTING_TYPE: comment
+CONTENT:
+Ja, mit D, aber es geht um die Abhängigkeiten <NAME_CORPUS_REPLACEMENT> C, und C alleine bestimmt gar kein anderes Attribut.
+TAGGED_CONTENT:
+Ja_PTKANT ,_$, mit_APPR D_NE ,_$, aber_KON es_PPER geht_VVFIN um_APPR die_ART Abhängigkeiten_NN <_NE NAME_CORPUS_REPLACEMENT_NE >_CARD C_NN ,_$, und_KON C_NN alleine_ADV bestimmt_VVPP gar_ADV kein_PIAT anderes_ADJA Attribut_NN ._$. 

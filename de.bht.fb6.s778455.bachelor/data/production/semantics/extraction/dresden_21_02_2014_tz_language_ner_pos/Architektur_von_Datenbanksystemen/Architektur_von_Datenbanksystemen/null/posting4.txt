@@ -1,0 +1,17 @@
+ID: 1810
+CREATION_DATETIME: 1368568800000
+MODIFICATION_DATETIME: 1368568800000
+TITLE: Die Folien, die auf der Homepage verlinkt sind, sind soweit durchgesprochen. Was (wahrscheinlich) noc...
+LANGUAGE: GERMAN
+NER_TAG: value:WS;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Homepage;weight:0.0;uri:;postag:NN
+POS_TAG: value:WS;weight:0.0;uri:;postag:NN
+POS_TAG: value:Navigationsbar;weight:0.0;uri:;postag:NN
+POS_TAG: value:Folien;weight:0.0;uri:;postag:NN
+POS_TAG: value:B.;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1807
+POSTING_TYPE: answer
+CONTENT:
+Die Folien, die auf der Homepage verlinkt sind, sind soweit durchgesprochen. Was (wahrscheinlich) noch kommt kannst du sehen, wenn du die alte <REMOVED_PERSON_ENTITY> z. B. vom WS 2011/2012 aufrufst (ist in der linken Navigationsbar verlinkt).
+TAGGED_CONTENT:
+Die_ART Folien_NN ,_$, die_PRELS auf_APPR der_ART Homepage_NN verlinkt_VVPP sind_VAFIN ,_$, sind_VAFIN soweit_ADV durchgesprochen_VVPP ._$. Was_PWS -LRB-_TRUNC wahrscheinlich_ADJD -RRB-_TRUNC noch_ADV kommt_VVFIN kannst_VMFIN du_PPER sehen_VVINF ,_$, wenn_KOUS du_PPER die_ART alte_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_CARD z._APPRART B._NN vom_APPRART WS_NN 2011\/2012_CARD aufrufst_VVFIN -LRB-_TRUNC ist_VAFIN in_APPR der_ART linken_ADJA Navigationsbar_NN verlinkt_VVFIN -RRB-_TRUNC ._$. 

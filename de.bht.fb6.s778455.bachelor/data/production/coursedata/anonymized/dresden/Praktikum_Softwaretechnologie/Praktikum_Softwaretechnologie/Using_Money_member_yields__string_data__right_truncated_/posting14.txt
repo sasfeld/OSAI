@@ -1,0 +1,9 @@
+ID: 2878
+CREATION_DATETIME: 1384642800000
+MODIFICATION_DATETIME: 1384642800000
+TITLE: I fixed the formatting by inserting a line between The table .... and ''' 
+PARENT_POSTING_ID: 2864
+POSTING_TYPE: comment
+CONTENT:
+I fixed the formatting by inserting a <NAME_CORPUS_REPLACEMENT> between The table .... and ''' 
+TAGGED_CONTENT:

@@ -1,0 +1,104 @@
+ID: 1973
+CREATION_DATETIME: 1370556000000
+MODIFICATION_DATETIME: 1370556000000
+TITLE: Ich habe jetzt auf dem wimpy node die llvm-2.9 deinstalliert und die llvm3.2 nochmal neu kompiliert u...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: answer
+CONTENT:
+Ich habe jetzt auf dem wimpy node die llvm-2. 9 deinstalliert und die llvm3. 2 nochmal neu kompiliert und mit "make install" installiert (aus ~/llvm3. 2_clang/build/), sodass es jetzt die standard llvm-Installation ist. Allerdings bekomme ich damit trotzdem noch Fehler, wenn ich das Programm ausführe (ohne die setup_prefix vorher auszuführen).
+
+Und zwar ist das folgender Fehler:
+
+```ruby
+
+clang: /home/opencl/llvm3. 2_clang/llvm-3. 2/tools/clang/lib/AST/RawCommentList. cpp:126: llvm::StringRef clang::RawComment::getRawTextSlow(const clang::SourceManager &) const: Assertion `BeginFileID == EndFileID' failed.
+
+0  libLLVM-3. 2svn. so 0x00007f99902c9bff
+
+1  libLLVM-3. 2svn. so 0x00007f99902ca118
+
+2  libpthread. so. 0   0x00007f998f347cb0
+
+3  libc. so. 6         0x00007f998ecaf425 gsignal + 53
+
+4  libc. so. 6         0x00007f998ecb2b8b abort + 379
+
+5  libc. so. 6         0x00007f998eca80ee
+
+6  libc. so. 6         0x00007f998eca8192
+
+7  clang             0x0000000000fcb8b7 clang::RawComment::getRawTextSlow(clang::SourceManager const&) const + 183
+
+8  clang             0x0000000000fcb59a clang::RawComment::RawComment(clang::SourceManager const&, clang::SourceRange, bool) + 74
+
+9  clang             0x00000000008655e5 clang::Sema::ActOnComment(clang::SourceRange) + 69
+
+10 clang             0x00000000007e7ced
+
+11 clang             0x0000000001071eaf clang::Preprocessor::HandleComment(clang::Token&, clang::SourceRange) + 63
+
+12 clang             0x0000000001033a7b clang::<REMOVED_PERSON_ENTITY>::SkipLineComment(clang::Token&, char const*) + 795
+
+13 clang             0x0000000001034cfa clang::<REMOVED_PERSON_ENTITY>::LexTokenInternal(clang::Token&) + 618
+
+14 clang             0x0000000001035654 clang::<REMOVED_PERSON_ENTITY>::LexTokenInternal(clang::Token&) + 3012
+
+15 clang             0x00000000007def0a clang::ParseAST(clang::Sema&, bool, bool) + 218
+
+16 clang             0x00000000006b296c clang::CodeGenAction::ExecuteAction() + 1164
+
+17 clang             0x000000000055d13a clang::FrontendAction::Execute() + 106
+
+18 clang             0x000000000054213d clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 1021
+
+19 clang             0x0000000000528fe3 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 3555
+
+20 clang             0x0000000000520522 cc1_main(char const**, char const**, char const*, void*) + 834
+
+21 clang             0x0000000000524c71 main + 737
+
+22 libc. so. 6         0x00007f998ec9a76d __libc_start_main + 237
+
+23 clang             0x0000000000520119
+
+Stack dump:
+
+0.      Program arguments: /usr/local/bin/clang -cc1 -triple x86_64-unknown-linux-gnu -emit-llvm -disable-free -main-file-name stdin -mrelocation-model static -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -target-linker-version 2. 22 -momit-leaf-frame-pointer -coverage-file /home/opencl/. netbeans/remote/141. 76. 47. 246/maxcellnetbookunix-Linux-x86/home/maxcell/kpdb/svn/src/testCLT/kernel. <LEARNED_PERSON_NAME_REPLACEMENT> -resource-dir /usr/local/bin/../lib/clang/3. 2 -fmodule-cache-path /var/tmp/clang-module-cache -internal-isystem /usr/local/include -internal-isystem /usr/local/bin/../lib/clang/3. 2/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/opencl/. netbeans/remote/141. 76. 47. 246/maxcellnetbookunix-Linux-x86/home/maxcell/kpdb/svn/src/testCLT -ferror-limit 19 -fmessage-length 0 -mstackrealign -fobjc-runtime=gcc -fdiagnostics-show-option -fcolor-diagnostics -o kernel. <LEARNED_PERSON_NAME_REPLACEMENT> -x <LEARNED_PERSON_NAME_REPLACEMENT> /dev/stdin 
+
+1.       parser at unknown location
+
+clang: error: unable to execute command: Aborted (core dumped)
+
+clang: error: clang frontend command failed due to signal (use -v to see invocation)
+
+clang version 3. 2 (tags/RELEASE_32/final)
+
+Target: x86_64-unknown-linux-gnu
+
+Thread model: posix
+
+clang: note: diagnostic msg: PLEASE submit a bug report to http://llvm.org/bugs/ and include the crash backtrace, preprocessed source, and associated run script.
+
+clang: note: diagnostic msg: 
+
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+
+Preprocessed source(s) and associated run script(s) are located at:
+
+clang: note: diagnostic msg: /tmp/stdin-eKLo4C. <PERSONAL_GREETING_REMOVEMENT>
+
+clang: note: diagnostic msg: /tmp/stdin-eKLo4C. <PERSONAL_GREETING_REMOVEMENT>
+
+clang: note: diagnostic msg: 
+
+********************
+
+Assembly File not parsed
+
+```
+
+Gibt es noch irgendwelche features, die man bei der llvm Kompilation beachten muss, oder läuft <NAME_CORPUS_REPLACEMENT> was anders falsch?
+TAGGED_CONTENT:

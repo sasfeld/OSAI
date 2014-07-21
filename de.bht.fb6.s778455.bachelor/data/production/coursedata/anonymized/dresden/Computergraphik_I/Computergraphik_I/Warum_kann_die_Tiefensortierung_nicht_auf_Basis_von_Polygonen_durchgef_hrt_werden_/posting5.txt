@@ -1,0 +1,9 @@
+ID: 1953
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Zur Transparenz gab es auch Fragen. Aber die konnte ich mir beantworten. Aber auch hierfür Danke :)
+PARENT_POSTING_ID: 1951
+POSTING_TYPE: comment
+CONTENT:
+Zur Transparenz gab es auch Fragen. Aber die konnte ich mir beantworten. Aber auch hierfür Danke :)
+TAGGED_CONTENT:

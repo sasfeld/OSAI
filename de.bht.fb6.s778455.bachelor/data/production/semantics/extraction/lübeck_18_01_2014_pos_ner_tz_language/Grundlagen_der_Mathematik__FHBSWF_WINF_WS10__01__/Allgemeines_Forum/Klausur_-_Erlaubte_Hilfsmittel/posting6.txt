@@ -1,0 +1,11 @@
+ID: 97788
+CREATION_DATETIME: 1297328483
+MODIFICATION_DATETIME: 1297328483
+TITLE: Re: Klausur - Erlaubte Hilfsmittel
+LANGUAGE: GERMAN
+POS_TAG: value:Blick;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97787
+CONTENT:
+Nein, Sie duerfen Sie aber mit anderen diskutieren oder mich einen Blick darauf werfen lassen.
+TAGGED_CONTENT:
+Nein_PTKANT ,_$, Sie_PPER duerfen_VVFIN Sie_PPER aber_ADV mit_APPR anderen_PIS diskutieren_VVINF oder_KON mich_PPER einen_ART Blick_NN darauf_PROAV werfen_VVINF lassen_VVINF ._$. 

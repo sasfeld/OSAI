@@ -1,0 +1,11 @@
+ID: 70
+CREATION_DATETIME: 1181596140000
+MODIFICATION_DATETIME: 1181596140000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 69
+CONTENT:
+
+Ich habe meinen Fehler bereits erkannt und behoben. Dennoch danke für die schnelle Antwort. 
+	
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 457
+CREATION_DATETIME: 1350856800000
+MODIFICATION_DATETIME: 1350856800000
+TITLE: Mehr Informationen se
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 456
+POSTING_TYPE: comment
+CONTENT:
+Mehr Informationen seh ich zwar spontan nicht, aber schneller wirkt es und datensparsamer auch, danke :)
+TAGGED_CONTENT:

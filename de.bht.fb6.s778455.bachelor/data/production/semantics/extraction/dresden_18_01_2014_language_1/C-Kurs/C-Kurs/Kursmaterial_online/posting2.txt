@@ -1,0 +1,10 @@
+ID: 582
+CREATION_DATETIME: 1351465200000
+MODIFICATION_DATETIME: 1351465200000
+TITLE: Es wäre sinnvoll, wenn du die Materialien innerhalb der Beschreibung zum Kurs hinzufügst, genau wie a...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 577
+POSTING_TYPE: comment
+CONTENT:
+Es wäre sinnvoll, wenn du die Materialien innerhalb der Beschreibung zum Kurs hinzufügst, genau wie auch die Termine, um die Übersicht direkt zu haben.
+TAGGED_CONTENT:

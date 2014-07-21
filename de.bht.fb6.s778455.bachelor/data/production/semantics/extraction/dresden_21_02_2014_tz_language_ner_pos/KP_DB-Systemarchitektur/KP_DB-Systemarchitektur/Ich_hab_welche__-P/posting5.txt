@@ -1,0 +1,22 @@
+ID: 1882
+CREATION_DATETIME: 1370210400000
+MODIFICATION_DATETIME: 1370210400000
+TITLE: Die LLVM-Leute ändern gerne die Interfaces. Bei jeder Version.
+LANGUAGE: GERMAN
+NER_TAG: value:LLVM-Leute;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:Projekten;weight:0.0;uri:;postag:NN
+POS_TAG: value:VERSION;weight:0.0;uri:;postag:NN
+POS_TAG: value:Interfaces;weight:0.0;uri:;postag:NN
+POS_TAG: value:Leute;weight:0.0;uri:;postag:NN
+POS_TAG: value:prozessorbefehlen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Laufen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Version;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: comment
+CONTENT:
+Die LLVM-Leute ändern gerne die Interfaces. Bei jeder Version.
+
+In größeren Projekten wie <REMOVED_PERSON_ENTITY> kann man mit #ifdef das LLVM_VERSION abfragen. Wenn du es mit LLVM 3. 3 zum Laufen bekommen willst, kannst du ja eine Funktionierende Version mit Präprozessorbefehlen bauen.
+TAGGED_CONTENT:
+Die_ART LLVM-Leute_NN ändern_VVINF gerne_ADV die_ART Interfaces_NN ._$. Bei_APPR jeder_PIDAT Version_NN ._$. In_APPR größeren_ADJA Projekten_NN wie_KOKOM <_CARD REMOVED_PERSON_ENTITY_NN >_VVINF kann_VMFIN man_PIS mit_APPR #ifdef_VVFIN das_ART LLVM_VERSION_NN abfragen_VVINF ._$. Wenn_KOUS du_PPER es_PPER mit_APPR LLVM_NE 3_CARD ._$. 3_CARD zum_APPRART Laufen_NN bekommen_VVFIN willst_VMFIN ,_$, kannst_VMFIN du_PPER ja_ADV eine_ART Funktionierende_ADJA Version_NN mit_APPR Präprozessorbefehlen_NN bauen_VVINF ._$. 

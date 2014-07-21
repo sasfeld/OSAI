@@ -1,0 +1,9 @@
+ID: 1823
+CREATION_DATETIME: 1368741600000
+MODIFICATION_DATETIME: 1368741600000
+TITLE: Wie gesagt, wir wollen ja opt gar nicht extern aufrufen, sondern einen llvm::PassManager benutzen.
+PARENT_POSTING_ID: 1820
+POSTING_TYPE: comment
+CONTENT:
+Wie gesagt, wir wollen ja opt gar nicht extern aufrufen, sondern einen llvm::PassManager benutzen.
+TAGGED_CONTENT:

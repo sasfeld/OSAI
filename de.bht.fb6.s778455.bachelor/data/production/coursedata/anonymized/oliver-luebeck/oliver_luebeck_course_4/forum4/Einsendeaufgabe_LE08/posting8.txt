@@ -1,0 +1,19 @@
+ID: 47
+CREATION_DATETIME: 1177865340000
+MODIFICATION_DATETIME: 1177865340000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 46
+CONTENT:
+
+Hallo zusammen,
+
+ich habe mich gerade mal in die Fragen und Probleme eingelesen und frage mich (ebenso) wieso bei den int Methoden kein Wert ausgegeben wird. Wie hast du denn den Fehler behoben?!
+Ich komme da irgendwie auf keine Lösung.
+
+Vielen Dank im Voraus.
+
+Gruß
+
+    
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 908
+CREATION_DATETIME: 1354143600000
+MODIFICATION_DATETIME: 1354143600000
+TITLE: Well, no. I just realized, that I could do things like:
+* aquire a new dataspace of size **s**
+* at...
+PARENT_POSTING_ID: 906
+POSTING_TYPE: comment
+CONTENT:
+Well, no. I <NAME_CORPUS_REPLACEMENT> realized, that I could do things like:  
+ * aquire a new dataspace of size **s**  
+ * attach only a part **0 < p < s** to a region  
+Though I am not sure, why one wants to do this, the return values make sense now.
+TAGGED_CONTENT:

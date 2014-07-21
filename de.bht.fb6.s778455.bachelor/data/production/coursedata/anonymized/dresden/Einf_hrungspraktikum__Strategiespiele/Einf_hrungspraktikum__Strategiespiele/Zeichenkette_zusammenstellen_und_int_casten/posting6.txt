@@ -1,0 +1,16 @@
+ID: 134
+CREATION_DATETIME: 1348178400000
+MODIFICATION_DATETIME: 1348178400000
+TITLE: Wie der Ben schon sag
+PARENT_POSTING_ID: 133
+POSTING_TYPE: comment
+CONTENT:
+Wie der <REMOVED_PERSON_ENTITY> schon sagte, kannst Du Dir einen String aus Zeichen und Zahlen mittels snprintf() zusammen bauen:
+char buf[20];
+char c = 'x';
+int number = 20;
+snprintf(buf, "%c%d", 20, c, number);
+-> hinterher steht in buf der string 'x20' (sowie etwa 17 Nullen).
+Die Frage hierbei ist halt, wo der <REMOVED_PERSON_ENTITY> ist, in den Du rein-snprintf()'st.
+Das ist genau die selbe Frage, die Du Dir für eine struct stellen musst. Deshalb denke ich, dass dieser Weg genauso aufwändig ist wie der andere.
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 38
+CREATION_DATETIME: 1178293380000
+MODIFICATION_DATETIME: 1178293380000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 37
+CONTENT:
+  
+Liebe Studierende,
+
+wenn Sie Probleme mit Konsole.java und CLASSPATH haben, kopieren Sie die Klasse Konsole.java ins aktuelle Verzeichnis und ENTFERNEN Sie die package Anweisung ganz oben im Quellcode. Das Kompilieren sollte dann problemlos gehen.
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

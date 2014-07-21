@@ -1,0 +1,10 @@
+ID: 11451
+MODIFICATION_DATETIME: 1218803060
+TITLE: Fachforum zum Teil IV
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/view.php?id=11451
+POS_TAG: value:Fachforum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fachfragen;weight:0.0;uri:;postag:NN
+INTRO: Hier können Sie Fachfragen zum Teil IV diskutieren.
+TYPE: general

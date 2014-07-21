@@ -1,0 +1,32 @@
+ID: 661
+CREATION_DATETIME: 1352070000000
+MODIFICATION_DATETIME: 1352070000000
+TITLE: Ein bisschen Google und ein Paket später baut es immerhin...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Google;weight:1.0;significance:3.24199554297928;degreegeneralization:10;uri:20989452
+TOPIC_ZOOM_TAG: value:Websuchmaschinen;weight:1.0;significance:3.11195713979934;degreegeneralization:9;uri:20989469
+TOPIC_ZOOM_TAG: value:Websuchmaschinen und Internetportale;weight:1.0;significance:2.62778359288424;degreegeneralization:8;uri:20989486
+TOPIC_ZOOM_TAG: value:Websuche;weight:1.0;significance:2.62604748002886;degreegeneralization:7;uri:20990897
+TOPIC_ZOOM_TAG: value:Webservices;weight:1.0;significance:2.60262994227942;degreegeneralization:7;uri:20921741
+TOPIC_ZOOM_TAG: value:Informationssuche und Informationsbeschaffung;weight:1.0;significance:2.55809169335707;degreegeneralization:3;uri:20989503
+TOPIC_ZOOM_TAG: value:Internetdienste;weight:1.0;significance:2.50503336367649;degreegeneralization:6;uri:20772413
+TOPIC_ZOOM_TAG: value:World Wide Web;weight:1.0;significance:2.40155393308682;degreegeneralization:6;uri:20772430
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Services und Dienstleistungen;weight:1.0;significance:2.37184931389331;degreegeneralization:5;uri:20197813
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:2.15506992990383;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Services und Dienstleistungen;weight:1.0;significance:2.11473682296541;degreegeneralization:4;uri:21993506
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:2.00351838218053;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.83083484620539;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:1.07441906812122;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:0.90229776862663;degreegeneralization:2;uri:21999847
+PARENT_POSTING_ID: 655
+POSTING_TYPE: comment
+CONTENT:
+Ein bisschen Google und ein Paket später baut es immerhin...
+
+Ich probier das nachher mal auf einem Rechner, der auch die Grafikpower hat, 3D darzustellen ^^
+TAGGED_CONTENT:

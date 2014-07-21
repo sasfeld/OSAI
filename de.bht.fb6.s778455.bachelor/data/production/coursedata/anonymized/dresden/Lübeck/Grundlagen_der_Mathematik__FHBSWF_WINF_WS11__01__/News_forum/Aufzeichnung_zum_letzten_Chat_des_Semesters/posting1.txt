@@ -1,0 +1,10 @@
+ID: 117502
+CREATION_DATETIME: 1325701346
+MODIFICATION_DATETIME: 1325701346
+TITLE: Aufzeichnung zum letzten Chat des Semesters
+PARENT_POSTING_ID: 0
+CONTENT:
+Der letzte Chat des Semesters wird heute aufgenommen und im Archiv liegen (Besprechung der Probeklausur exkl. Aufgabe 9). Auf der Praesenz Samstag in einer Woche werden wir das Gausssche Verfahren zum Loesen von LGS durchsprechen und ueben.
+Bis dahin, viel Erfolg <PERSONAL_GREETING_REMOVEMENT>
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

@@ -1,0 +1,21 @@
+ID: 16
+CREATION_DATETIME: 1180293060000
+MODIFICATION_DATETIME: 1180293060000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+ist unter:
+http://breeze.tfh-berlin.de/p91326221/
+Wie versprochen das letzte Beispiel mit 2 Variablen in der Schleife:
+
+for (int i=0, j=100; i<=10 ; i++, j=j+2)‏{
+
+  System.out.println(i+ " " + j);
+
+}
+
+Mit freundlichen Grüssen
+    
+TAGGED_CONTENT:

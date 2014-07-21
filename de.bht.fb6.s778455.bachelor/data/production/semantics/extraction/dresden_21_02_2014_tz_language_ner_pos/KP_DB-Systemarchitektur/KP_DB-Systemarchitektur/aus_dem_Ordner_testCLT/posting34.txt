@@ -1,0 +1,26 @@
+ID: 1966
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Ja bei mir aufm Rechner läufts.
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Baustellen;weight:1.0;significance:6.35427475761695;degreegeneralization:7;uri:19907147
+TOPIC_ZOOM_TAG: value:Baugewerbe, Hoch- und Tiefbau;weight:1.0;significance:3.79527785140858;degreegeneralization:6;uri:21872619
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:2.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:2.15506992990383;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:2.00351838218053;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.83083484620539;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:0.90229776862663;degreegeneralization:2;uri:21999847
+POS_TAG: value:Baustelle;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rechner;weight:0.0;uri:;postag:NN
+POS_TAG: value:Memoryobjects;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Ja bei mir aufm Rechner läufts.
+
+Mit dem setup hab ichs jetz auch aufm wimpy hinbekommen. <NAME_CORPUS_REPLACEMENT> geht nur noch irgendwas mit den Memoryobjects nich, aber das is ne andere Baustelle.
+TAGGED_CONTENT:
+Ja_PTKANT bei_APPR mir_PPER aufm_APPR Rechner_NN läufts_VVINF ._$. Mit_APPR dem_ART setup_FM hab_VAFIN ichs_FM jetz_FM auch_ADV aufm_ADJD wimpy_ADJD hinbekommen_VVPP ._$. <_XY NAME_CORPUS_REPLACEMENT_NN >_CARD geht_VVFIN nur_ADV noch_ADV irgendwas_PIAT mit_APPR den_ART Memoryobjects_NN nich_PTKNEG ,_$, aber_KON das_PDS is_VAFIN ne_ADV andere_ADJA Baustelle_NN ._$. 

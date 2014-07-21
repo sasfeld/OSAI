@@ -1,0 +1,10 @@
+ID: 1268
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: *Negativ* soll hier bedeuten: *evtl. nicht gut für den Anwendungsfall geeignet*. Wenn seine Liste ein...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1261
+POSTING_TYPE: comment
+CONTENT:
+*Negativ* soll hier bedeuten: *evtl. nicht gut für den Anwendungsfall geeignet*. Wenn seine Liste ein bestimmtes Element doppelt enthält, will man womöglich alle Duplikate finden. Es sei denn es ist garantiert, dass keine Duplikate auftauchen oder diese uninteressant sind (was nicht aus der Fragestellung hervorgeht). Das Selbe auch mit der Ordnung der Elemente. <NAME_CORPUS_REPLACEMENT> muss  [gecko](https://auditorium. inf. tu-dresden. de/users/720) dann für sich entscheiden, ob es wichtig ist und was auf seinen Anwendungsfall passt.
+TAGGED_CONTENT:

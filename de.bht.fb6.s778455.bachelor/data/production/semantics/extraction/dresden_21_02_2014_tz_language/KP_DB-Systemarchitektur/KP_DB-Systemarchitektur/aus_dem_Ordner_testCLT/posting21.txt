@@ -1,0 +1,16 @@
+ID: 1940
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: Ebenfalls wichtig: Die Datei setup_prefix, die mit ". ./" ausgeführt werden muss (bzw. eine eigene Ve...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:1.0;significance:4.95064330688218;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Ebenfalls wichtig: Die Datei setup_prefix, die mit ". ./" ausgeführt werden muss (bzw. eine eigene Version davon schreiben, die einem den Pfad zu LLVM 3. 2 zeigt) - ich habe einfach mal die Readme aktualisiert.
+TAGGED_CONTENT:

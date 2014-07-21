@@ -1,0 +1,12 @@
+ID: 200431
+CREATION_DATETIME: 1363072463
+MODIFICATION_DATETIME: 1363072463
+TITLE: Re: Lösungen der Klausuraufgaben
+PARENT_POSTING_ID: 200429
+CONTENT:
+Hi <REMOVED_PERSON_ENTITY>,
+die Lösungswege sind wohl leider nur gekürzt dargestellt, auch ich bräuchte etwas mehr an Schreibarbeit um diese Aufgabe zu lösen. 
+Zum Thema Aussagenlogik hab ich noch ein Skript gefunden das mir etwas mehr zusätzliche "Erleuchtung" brachte.
+Wenn weitere Fragen sind meld dich gerne, falls nein dann sehen wir uns kommende Woche zur Klausur und viel Erfolg <PERSONAL_GREETING_REMOVEMENT>
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

@@ -1,0 +1,15 @@
+ID: 4
+CREATION_DATETIME: 1190994480000
+MODIFICATION_DATETIME: 1190994480000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3
+CONTENT:
+
+Lieber , liebe Studierende,
+
+Sie können alle Klassen der LE02 und der Java-Bibliothek wiederverwenden. Das ist ein schöner Aspekt der OO-Programmierung: sie macht das Wiederverwenden von bereit entwickelten Methoden und Klassen leichter.
+
+Viel Erfolg!
+    
+TAGGED_CONTENT:

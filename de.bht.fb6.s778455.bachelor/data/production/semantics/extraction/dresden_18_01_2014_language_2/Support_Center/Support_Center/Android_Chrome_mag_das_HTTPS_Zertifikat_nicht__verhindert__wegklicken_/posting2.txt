@@ -1,0 +1,10 @@
+ID: 1463
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Mit `wget -S` lässt sich verifizieren, dass der Server  `Strict-Transport-Security: max-age=31536000`...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1462
+POSTING_TYPE: comment
+CONTENT:
+Mit `wget -S` lässt sich verifizieren, dass der Server  `Strict-Transport-Security: max-age=31536000` zurücksendet. Das ist unpassend, solange es Browser gibt, die das Zertifikat der TU nicht verifizieren können.
+TAGGED_CONTENT:

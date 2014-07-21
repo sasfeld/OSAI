@@ -1,0 +1,41 @@
+ID: 1944
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: Sicher, dass du auf der aktuellen SVN bist?
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:1.0;significance:4.95064330688218;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Bauvorgang;weight:0.0;uri:;postag:NN
+POS_TAG: value:B;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fall;weight:0.0;uri:;postag:NN
+POS_TAG: value:Solltest;weight:0.0;uri:;postag:NN
+POS_TAG: value:C;weight:0.0;uri:;postag:NN
+POS_TAG: value:OLDPATHTOLIB;weight:0.0;uri:;postag:NN
+POS_TAG: value:Schau;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dateien;weight:0.0;uri:;postag:NN
+POS_TAG: value:Version;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehlermeldung;weight:0.0;uri:;postag:NN
+POS_TAG: value:SVN;weight:0.0;uri:;postag:NN
+POS_TAG: value:Makefile;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Sicher, dass du auf der aktuellen SVN bist?
+
+Die Korrekte Fehlermeldung für den Fall wäre nämlich
+
+make: Entering directory `/home/opencl/svnkpopencl/src/CLeverTrustee'
+
+make: Nothing to be done for `all'.
+
+make: Leaving directory `/home/opencl/svnkpopencl/src/CLeverTrustee'
+
+Schau mal, ob in der Makefile `make -B $(OLDPATHTOLIB)` oder `make -C $(OLDPATHTOLIB)` steht. Wenn `-B` steht, ist es die alte Version.
+
+Solltest du auf der aktuellen Version sein, kannst du die Makefile mal so reparieren, dass sie, auch wenn der Bauvorgang nicht ausgelöst wird, trotzdem die Dateien kopiert werden?
+TAGGED_CONTENT:
+Sicher_ADV ,_$, dass_KOUS du_PPER auf_APPR der_ART aktuellen_ADJA SVN_NN bist_VAFIN ?_$. Die_ART Korrekte_ADJA Fehlermeldung_NN für_APPR den_ART Fall_NN wäre_VAFIN nämlich_ADV make_FM :_$. Entering_FM directory_FM `_FM \/_FM home\/opencl\/svnkpopencl_FM \/_FM src\/CLeverTrustee_FM '_$( make_FM :_$. Nothing_FM to_FM be_FM done_FM for_FM `_FM all_FM '_$( ._$. make_FM :_$. Leaving_FM directory_FM `_FM \/_FM home\/opencl\/svnkpopencl_FM \/_FM src\/CLeverTrustee_FM '_$( Schau_NN mal_ADV ,_$, ob_KOUS in_APPR der_ART Makefile_NN `_CARD make_FM -_$( B_NN $_CARD -LRB-_TRUNC OLDPATHTOLIB_NN -RRB-_TRUNC `_XY oder_KON `_XY make_FM -_$( C_NN $_CARD -LRB-_TRUNC OLDPATHTOLIB_NN -RRB-_TRUNC `_XY steht_VVFIN ._$. Wenn_KOUS `_XY -_$( B_NN `_CARD steht_VVFIN ,_$, ist_VAFIN es_PPER die_ART alte_ADJA Version_NN ._$. Solltest_NN du_PPER auf_APPR der_ART aktuellen_ADJA Version_NN sein_VAINF ,_$, kannst_VMFIN du_PPER die_ART Makefile_NN mal_ADV so_ADV reparieren_VVFIN ,_$, dass_KOUS sie_PPER ,_$, auch_ADV wenn_KOUS der_ART Bauvorgang_NN nicht_PTKNEG ausgelöst_VVPP wird_VAFIN ,_$, trotzdem_PROAV die_ART Dateien_NN kopiert_VVPP werden_VAINF ?_$. 

@@ -1,0 +1,10 @@
+ID: 168219
+CREATION_DATETIME: 1349701813
+MODIFICATION_DATETIME: 1349701813
+TITLE: Re: Kursmaterialien
+PARENT_POSTING_ID: 168215
+CONTENT:
+Hi,
+damit ist sicher die Aufgabe 9 im Lernobjekt 1 (Mengen, Relationen und Funktionen) auf <REMOVED_PERSON_ENTITY> 20 gemeint :)
+Grüße <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

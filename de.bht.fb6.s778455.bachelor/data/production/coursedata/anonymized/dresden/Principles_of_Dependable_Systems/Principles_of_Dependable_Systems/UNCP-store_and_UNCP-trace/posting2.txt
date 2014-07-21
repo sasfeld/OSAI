@@ -1,0 +1,18 @@
+ID: 510
+CREATION_DATETIME: 1351116000000
+MODIFICATION_DATETIME: 1351202400000
+TITLE: Correct me if I'm wrong, please. I'll try to explain how I understood it.
+A good explanation can be ...
+PARENT_POSTING_ID: 509
+POSTING_TYPE: answer
+CONTENT:
+Correct me if I'm wrong, please. I'll try to explain how I understood it.
+A good explanation <NAME_CORPUS_REPLACEMENT> be found in the paper "NonStop Advanced Architecture" by <REMOVED_PERSON_ENTITY> et al.
+The rendezvous-protocol and UNCP are two different stories with the same goal: execute interrupt requests at the same point in the instruction stream, otherwise the PEs will be non-deterministic.
+The rendezvous protocol uses code instrumentation, i. e. small pieces of code that will process the irq, that are inserted in the code throughout the OS and user programs. When an irq arrives, each PE suggests a VRO-number to process that irq. The voter then choses the highest VRO-number.
+Now the story with UNCP. This is the approach for synchronizing PEs when uncooperative processes are running. These are processes not instrumentalized with the VRO code or the VRO points are too far apart. Detecting uncooperative processes is done by the interval timer interrupt. After detecting it and synchronizing the PEs, a VRO is inserted in the code so the next time this code runs, the problem disappears. The idea is basically to use the instruction counter to resynchronize the PEs. The problem now is, this instruction counter is not very precise (it's usually used for performance measuring), but we know that its impreciseness is bounded by N.
+Now there are two approaches:
+UNCP-Store: when the uncooperative process is identified, each PE is executed for N more instructions, but each STORE-command is trapped and its target address is saved somewhere else too. After the N instructions, all store-addresses of all PEs are collected into a set. We know now, that for the last N instructions, all possible modified addresses are in this set. One PE is now chosen (the paper doesn't say how) and the memory values for all these addresses are copied to the other ones. The registers are copied too. Now all PEs are at the same point in the IS (since the program counter is copied too) and have the same memory, so are synchronized. The problem is that the one PE where the memory values are copied from could be faulty. The chance is considered negligible, but UNCP-Trace solves this problem anyway.
+UNCP-Trace: This one is not described in such detail in the paper. It <NAME_CORPUS_REPLACEMENT> says, the PEs are run by N to 3N instructions after detecting being uncooperative (how many is probably determined by the matching algorithm). For these instructions, each PE collects the Instruction Pointer values along with the inputs for each instruction. The matching algorithm then determines which one is ahead and executes the other ones until they're synchronized.
+Hope this helps and it isn't completely wrong :).
+TAGGED_CONTENT:

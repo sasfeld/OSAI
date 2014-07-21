@@ -1,0 +1,18 @@
+ID: 97758
+CREATION_DATETIME: 1285926026
+MODIFICATION_DATETIME: 1285926026
+TITLE: Re: Web conferencing
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:Chats;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teile;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skript;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ueblicherweise;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fragen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97756
+CONTENT:
+Online-Chats sind freiwillig. Ueblicherweise klaeren wir inhaltliche Fragen im Skript oder ich versuche, bestimmte Teile deutlicher zu machen.
+TAGGED_CONTENT:
+Online-Chats_NN sind_VAFIN freiwillig_ADJD ._$. Ueblicherweise_NN klaeren_VVFIN wir_PPER inhaltliche_ADJA Fragen_NN im_APPRART Skript_NN oder_KON ich_PPER versuche_VVFIN ,_$, bestimmte_VVFIN Teile_NN deutlicher_ADJD zu_PTKZU machen_VVINF ._$. 

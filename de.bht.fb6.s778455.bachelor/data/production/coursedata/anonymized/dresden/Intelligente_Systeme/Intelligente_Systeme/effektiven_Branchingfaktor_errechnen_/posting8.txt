@@ -1,0 +1,10 @@
+ID: 779
+CREATION_DATETIME: 1352847600000
+MODIFICATION_DATETIME: 1352847600000
+TITLE: Ja, laufen tut es erstmal. Ich habe zwar 15 Puzzle "nicht implementiert", also bei mir läuft noch die...
+PARENT_POSTING_ID: 721
+POSTING_TYPE: comment
+CONTENT:
+Ja, laufen tut es erstmal. Ich habe zwar 15 Puzzle "nicht implementiert", also bei mir läuft noch die normale A* Suche. Aber Simple15Puzzle ist ja noch machbar.
+<NAME_CORPUS_REPLACEMENT> komme ich jedoch (mit H3) auf 17917 Knoten und einem Branching-Faktor <NAME_CORPUS_REPLACEMENT> 1, 430. Das dürfte aber implementierungsabhängig sein. Den Branchingfaktor berechne ich halt mit dem Lösen <NAME_CORPUS_REPLACEMENT> N = 1 + b + ... Das ist auch das was Prof. <REMOVED_PERSON_ENTITY> mir auf Nachfrage sagte. Daher halte ich mich eher daran, als an "Alle Knoten / Expandiere Knoten".
+TAGGED_CONTENT:

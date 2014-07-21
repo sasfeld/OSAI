@@ -1,0 +1,12 @@
+ID: 917
+CREATION_DATETIME: 1354143600000
+MODIFICATION_DATETIME: 1354143600000
+TITLE: zum Beispiel Entwicklungswerkzeuge:
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 889
+POSTING_TYPE: comment
+CONTENT:
+zum Beispiel Entwicklungswerkzeuge:
+
+http://postimage.org/image/mun00p2d1/
+TAGGED_CONTENT:

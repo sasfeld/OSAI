@@ -1,0 +1,9 @@
+ID: 1609
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: ja genau, habe #include <vector> benutzt. gibt es mehrere vectoren?
+PARENT_POSTING_ID: 1602
+POSTING_TYPE: comment
+CONTENT:
+ja genau, habe `#include ` benutzt. gibt es mehrere vectoren?
+TAGGED_CONTENT:

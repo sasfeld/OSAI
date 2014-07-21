@@ -1,0 +1,71 @@
+ID: 1535
+CREATION_DATETIME: 1363734000000
+MODIFICATION_DATETIME: 1363734000000
+TITLE: Hey,
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Fortpflanzungsmedizinische Dienstleistungen;weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:21997620
+TOPIC_ZOOM_TAG: value:In-Vitro-Fertilisation;weight:1.0;significance:12.7085495152339;degreegeneralization:8;uri:20738906
+TOPIC_ZOOM_TAG: value:Präimplantationsdiagnostik;weight:1.0;significance:12.7085495152339;degreegeneralization:9;uri:20073475
+TOPIC_ZOOM_TAG: value:Medizinethik;weight:1.0;significance:10.4059644222399;degreegeneralization:4;uri:20884120
+TOPIC_ZOOM_TAG: value:Wissenschaftsethik;weight:1.0;significance:10.3106542424356;degreegeneralization:4;uri:20079340
+TOPIC_ZOOM_TAG: value:Medizinrecht;weight:1.0;significance:10.2236428654459;degreegeneralization:4;uri:20806753
+TOPIC_ZOOM_TAG: value:Reproduktionsmedizin;weight:1.0;significance:9.4127126492296;degreegeneralization:6;uri:20991679
+TOPIC_ZOOM_TAG: value:Rechtsethik;weight:1.0;significance:8.99497744852962;degreegeneralization:4;uri:20111640
+TOPIC_ZOOM_TAG: value:Medizinische Dienstleistungen und Services;weight:1.0;significance:7.36144198451646;degreegeneralization:6;uri:20991577
+TOPIC_ZOOM_TAG: value:Gesundheitsfürsorge;weight:1.0;significance:6.8336187843819;degreegeneralization:6;uri:21997756
+TOPIC_ZOOM_TAG: value:Ethik und Moral;weight:1.0;significance:6.71708496812594;degreegeneralization:3;uri:21310820
+TOPIC_ZOOM_TAG: value:Services und Dienstleistungen im Bereich Gesundheit;weight:1.0;significance:6.65881606000197;degreegeneralization:5;uri:20991594
+TOPIC_ZOOM_TAG: value:Heilung und Therapie;weight:1.0;significance:5.70185428839689;degreegeneralization:3;uri:20911354
+TOPIC_ZOOM_TAG: value:Recht und Justiz im Bereich Wirtschaft;weight:1.0;significance:5.34844554224477;degreegeneralization:3;uri:21944053
+TOPIC_ZOOM_TAG: value:Spiele;weight:1.0;significance:5.0032870403676;degreegeneralization:5;uri:20990217
+TOPIC_ZOOM_TAG: value:Spiele und Spielwaren;weight:1.0;significance:4.98189585038628;degreegeneralization:4;uri:21976965
+TOPIC_ZOOM_TAG: value:Hobby;weight:1.0;significance:4.95021604774302;degreegeneralization:3;uri:21999660
+TOPIC_ZOOM_TAG: value:Medizinische Wissenschaften;weight:1.0;significance:4.5121127039989;degreegeneralization:4;uri:21997586
+TOPIC_ZOOM_TAG: value:Unterhaltung;weight:1.0;significance:4.49652371061049;degreegeneralization:3;uri:21999643
+TOPIC_ZOOM_TAG: value:Humanmedizin;weight:1.0;significance:4.30766544621807;degreegeneralization:4;uri:21994033
+TOPIC_ZOOM_TAG: value:Religion und Weltanschauung;weight:1.0;significance:4.27061600480332;degreegeneralization:2;uri:21310871
+TOPIC_ZOOM_TAG: value:Services und Dienstleistungen;weight:1.0;significance:4.22947364593082;degreegeneralization:4;uri:21993506
+TOPIC_ZOOM_TAG: value:Medizin;weight:1.0;significance:4.11792000574451;degreegeneralization:3;uri:21981606
+TOPIC_ZOOM_TAG: value:Gesundheit;weight:1.0;significance:3.54697930762717;degreegeneralization:2;uri:21997569
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:3.4415452961402;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:2.65109701440329;degreegeneralization:2;uri:21999830
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:1.80459553725326;degreegeneralization:2;uri:21999847
+NER_TAG: value:README;weight:-1.0;uri:;classifierlabel:I-LOC
+POS_TAG: value:NUMMER;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spielern;weight:0.0;uri:;postag:NN
+POS_TAG: value:Probleme;weight:0.0;uri:;postag:NN
+POS_TAG: value:erfahrung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spiel;weight:0.0;uri:;postag:NN
+POS_TAG: value:README;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungsvorschlag;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hilfestellung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Prozess;weight:0.0;uri:;postag:NN
+POS_TAG: value:Makefile;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1427
+POSTING_TYPE: answer
+CONTENT:
+Hey,
+
+ich hatte eben auch Probleme mit gdb; hier mal mein Lösungsvorschlag:
+
+1. In das Makefile noch -d rein hauen. (bei "CXXFLAGS_common =")
+
+2. Das Spiel mit "./mcp -d -p1 my-player -p-1 example-player" starten.
+
+hier bekommt man gleich PID <NAME_CORPUS_REPLACEMENT> beiden Spielern geliefert. 
+
+3. mit gdb my-player "NUMMER" auf den Prozess zugreifen und debuggen. 
+
+Eine Hilfestellung steht auch im README.
+
+Wenn das absoluter Mist ist bitte sagen, ich hab auch noch nicht so viel erfahrung mit gdb.
+
+Bei mir geht das so :)
+
+Tschüss.
+TAGGED_CONTENT:
+Hey_NE ,_$, ich_PPER hatte_VAFIN eben_ADV auch_ADV Probleme_NN mit_APPR gdb_NE ;_$. hier_ADV mal_ADV mein_PPOSAT Lösungsvorschlag_NN :_$. 1_CARD ._$. In_APPR das_ART Makefile_NN noch_ADV -_$( d_FM rein_PTKVZ hauen_VVFIN ._$. -LRB-_TRUNC bei_APPR "_$( CXXFLAGS_common_NE =_XY "_$( -RRB-_TRUNC 2_CARD ._$. Das_ART Spiel_NN mit_APPR "_$( ._$. \/_XY mcp_XY -_$( d_FM -_$( p1_XY my-player_PTKVZ -_$( p-1_XY example-player_ADJA "_$( starten_VVINF ._$. hier_ADV bekommt_VVFIN man_PIS gleich_ADV PID_NE <_CARD NAME_CORPUS_REPLACEMENT_NN >_CARD beiden_PIDAT Spielern_NN geliefert_VVPP ._$. 3_CARD ._$. mit_APPR gdb_NE my-player_ADJA "_$( NUMMER_NN "_$( auf_APPR den_ART Prozess_NN zugreifen_VVINF und_KON debuggen_VVINF ._$. Eine_ART Hilfestellung_NN steht_VVFIN auch_ADV im_APPRART README_NN ._$. Wenn_KOUS das_ART absoluter_ADJA Mist_NE ist_VAFIN bitte_ADV sagen_VVINF ,_$, ich_PPER hab_VAFIN auch_ADV noch_ADV nicht_PTKNEG so_ADV viel_PIDAT erfahrung_NN mit_APPR gdb_NE ._$. Bei_APPR mir_PPER geht_VVFIN das_PDS so_ADV :-RRB-_NE Tschüss_NE ._$. 

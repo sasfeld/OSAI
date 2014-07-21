@@ -1,0 +1,10 @@
+ID: 2462
+CREATION_DATETIME: 1374703200000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: Bloß als Bestätigung für andere, die Interesse haben: Der Mitschnitt ist jetzt abrufbar.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2441
+POSTING_TYPE: comment
+CONTENT:
+Bloß als Bestätigung für andere, die Interesse haben: Der Mitschnitt ist jetzt abrufbar.
+TAGGED_CONTENT:

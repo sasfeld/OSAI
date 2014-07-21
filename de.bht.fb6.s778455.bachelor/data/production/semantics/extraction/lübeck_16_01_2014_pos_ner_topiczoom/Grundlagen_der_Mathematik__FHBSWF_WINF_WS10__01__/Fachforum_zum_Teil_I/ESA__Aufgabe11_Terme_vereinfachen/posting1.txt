@@ -1,0 +1,17 @@
+ID: 97795
+CREATION_DATETIME: 1287829720
+MODIFICATION_DATETIME: 1287829751
+TITLE: ESA  Aufgabe11 Terme vereinfachen
+NER_TAG: value:LonCapa;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LonCapa;weight:-1.0;uri:;classifierlabel:I-LOC
+POS_TAG: value:Eingabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ergebnis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Versuch;weight:0.0;uri:;postag:NN
+POS_TAG: value:Daniel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Danke;weight:0.0;uri:;postag:NN
+POS_TAG: value:weit?Aufgabe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+ Hallo zusammen, bin ich zu blöd oder gebe ich es einfach falsch ein. Oder gehe ich sogar zu weit?Aufgabe:$$a^{4}- \frac{81}{a^{2}+9} \cdot \left(a-3\right)$$Mein Ergebnis ist:$$a+ \frac{3}{-\left(3\right)} \cdot a^{2}+9 \cdot a$$und die Eingabe in LonCapa habe ich wie folgt:(a+3)/(-3*a^2+9*a)Ich habe noch ein Versuch :-)Danke und GrußDaniel 
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, bin_VAFIN ich_PPER zu_APPR blöd_ADJD oder_KON gebe_VVFIN ich_PPER es_PPER einfach_ADV falsch_ADJD ein_PTKVZ ._$. Oder_KON gehe_VVFIN ich_PPER sogar_ADV zu_APPR weit?Aufgabe_NN :_$. $_CARD $_XY a_XY ^_CARD -LCB-_TRUNC 4_CARD -RCB-_TRUNC -_$( \_XY frac_FM -LCB-_TRUNC 81_CARD -RCB-_TRUNC -LCB-_TRUNC a_XY ^_CARD -LCB-_TRUNC 2_CARD -RCB-_TRUNC +9_CARD -RCB-_TRUNC \_KON cdot_ADJD \_KON left_ADJD -LRB-_TRUNC a-3_XY \_CARD right_VVFIN -RRB-_TRUNC $_XY $_CARD Mein_PPOSAT Ergebnis_NN ist_VAFIN :_$. $_CARD $_XY a_XY +_XY \_CARD frac_FM -LCB-_TRUNC 3_CARD -RCB-_TRUNC -LCB-_TRUNC -_$( \_CARD left_VVFIN -LRB-_TRUNC 3_CARD \_XY right_VVFIN -RRB-_TRUNC -RCB-_TRUNC \_KON cdot_ADJD a_XY ^_CARD -LCB-_TRUNC 2_CARD -RCB-_TRUNC +9_CARD \_XY cdot_ADJD a_XY $_CARD $_XY und_KON die_ART Eingabe_NN in_APPR LonCapa_NE habe_VAFIN ich_PPER wie_PWAV folgt_VVFIN :_$. -LRB-_TRUNC a_XY +3_CARD -RRB-_TRUNC \/_KON -LRB-_TRUNC -3_CARD \*_CARD a_XY ^_CARD 2_CARD +9_CARD \*_CARD a_XY -RRB-_TRUNC Ich_PPER habe_VAFIN noch_ADV ein_ART Versuch_NN :_$. -_$( -RRB-_TRUNC Danke_NN und_KON GrußDaniel_NN 

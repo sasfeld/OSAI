@@ -1,0 +1,16 @@
+ID: 97756
+CREATION_DATETIME: 1285783618
+MODIFICATION_DATETIME: 1285783618
+TITLE: Re: Web conferencing
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=36356#97756
+POS_TAG: value:Beitrag;weight:0.0;uri:;postag:NN
+POS_TAG: value:Terminabsprache;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97755
+CONTENT:
+Hallo,
+ich habe von einer Terminabsprache erst mit diesem Beitrag erfahren. Gilt diese Terminabsprache nun auch für mich?
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, ich_PPER habe_VAFIN von_APPR einer_ART Terminabsprache_NN erst_ADV mit_APPR diesem_PDAT Beitrag_NN erfahren_VVINF ._$. Gilt_VVFIN diese_PDAT Terminabsprache_NN nun_ADV auch_ADV für_APPR mich_PPER ?_$. Gruß_NE <_NE PERSONAL_GREETING_REMOVEMENT_NE >_XY 

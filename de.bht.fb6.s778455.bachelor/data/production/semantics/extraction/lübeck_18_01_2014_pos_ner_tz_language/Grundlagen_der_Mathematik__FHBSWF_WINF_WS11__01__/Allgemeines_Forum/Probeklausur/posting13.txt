@@ -1,0 +1,12 @@
+ID: 117566
+CREATION_DATETIME: 1327600574
+MODIFICATION_DATETIME: 1327600574
+TITLE: Re: Probeklausur
+LANGUAGE: GERMAN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klausur;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117563
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>, Wolframalpha liefert hier aber auch scheinbar die erste Lösung ausder Klausur oder irre ich mich da jetzt?<a http://www.wolframalpha.com/input/?i=%28x%2By-4z%3D-2%29%2C%28x-2y%2B2z%3D1%29%2C%28ax-3y%2B2z%3D1%29">Lösung gem. WolframGrüßeDaniel Preuße 
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_NE ,_$, Wolframalpha_NE liefert_VVFIN hier_ADV aber_ADV auch_ADV scheinbar_ADJD die_ART erste_ADJA Lösung_NN ausder_ADJA Klausur_NN oder_KON irre_VVFIN ich_PPER mich_PRF da_ADV jetzt_ADV ?_$. <_XY a_XY http:\/\/www.wolframalpha.com\/input\/?i=%28x%2By-4z%3D-2%29%2C%28x-2y%2B2z%3D1%29%2C%28ax-3y%2B2z%3D1%29_NN "_$( >_ADJA Lösung_NN gem_VVPP ._$. WolframGrüßeDaniel_NE Preuße_NE 

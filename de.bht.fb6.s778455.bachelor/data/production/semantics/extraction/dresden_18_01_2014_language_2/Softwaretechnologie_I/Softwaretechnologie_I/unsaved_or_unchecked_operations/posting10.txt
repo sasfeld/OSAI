@@ -1,0 +1,46 @@
+ID: 2234
+CREATION_DATETIME: 1373839200000
+MODIFICATION_DATETIME: 1374012000000
+TITLE: Deine Köpfe sollten so aussehen:
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2112
+POSTING_TYPE: answer
+CONTENT:
+Deine Köpfe sollten so aussehen:
+
+```java
+
+public class QueueImpl implements Queue
+
+public class OrderedSetImpl extends ArrayList implements OrderedSet
+
+```
+
+Entsprechend die Methoden:
+
+```java
+
+public boolean add(E o)
+
+```
+
+Was an der falschen Definition Deiner Interfaces liegt. (Schaue Dir mal das Entwurfsdiagramm an und erweitere es um generische Typen und zwar gänzlich!)
+
+Die addAll-Methoden werfen immer eine Exception und sind falsch definiert:
+
+```java
+
+public boolean addAll(Collection<? collection)
+
+```
+
+Was ebenfalls an falschen Definitionen liegt.
+
+Kurz um, Du hast Generics nicht verstanden. Daher empfehle ich:
+
+http://openbook.galileocomputing.de/javainsel9/javainsel_07_001. htm
+
+http://openbook.galileocomputing.de/javainsel/javainsel_09_001. html
+
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

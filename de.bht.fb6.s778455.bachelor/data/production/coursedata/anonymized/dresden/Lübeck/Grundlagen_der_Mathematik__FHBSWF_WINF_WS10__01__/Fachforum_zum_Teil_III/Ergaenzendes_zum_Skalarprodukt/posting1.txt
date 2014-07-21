@@ -1,0 +1,14 @@
+ID: 97811
+CREATION_DATETIME: 1296067180
+MODIFICATION_DATETIME: 1296067300
+TITLE: Ergaenzendes zum Skalarprodukt
+PARENT_POSTING_ID: 0
+CONTENT:
+Ergaenzend aus http://www.mathemator.org/Media/Themen/SkalProd0. html:
+Allgemein heißt eine [...] Verknüpfung in einem Vektorraum ein Skalarprodukt, wenn die folgenden Eigenschaften vorliegen:
+- Die Verknüpfung zweier Vektoren ergibt stets eine reelle <REMOVED_PERSON_ENTITY>.
+- Das Skalarprodukt eines Vektors mit sich selber ist nie negativ; es hat genau dann den Wert null, wenn es sich bei dem Vektor um den Nullvektor handelt.
+- Die Verknüpfung ist kommutativ.
+- Hinsichtlich der Addition im Vektorraum gilt ein distributivartiges Rechengesetz. Es handelt sich hierbei nicht exakt um das Distributivgesetz, weil - trotz gleicher Notation mit <REMOVED_PERSON_ENTITY> - die Addition in einem Fall im Vektorraum, im anderen Fall in den reellen Zahlen erfolgt. (s. LON-CAPA-Aufgaben)
+- Hinsichtlich der Multiplikation mit reellen Zahlen im Vektorraum gilt eine Art Assoziativgesetz. Auch dieses Rechengesetz ist nur "assoziativartig", weil die reelle <REMOVED_PERSON_ENTITY> r auf der einen <REMOVED_PERSON_ENTITY> mit einem Vektor, auf der anderen mit einer reellen Zahl multipliziert wird.
+TAGGED_CONTENT:

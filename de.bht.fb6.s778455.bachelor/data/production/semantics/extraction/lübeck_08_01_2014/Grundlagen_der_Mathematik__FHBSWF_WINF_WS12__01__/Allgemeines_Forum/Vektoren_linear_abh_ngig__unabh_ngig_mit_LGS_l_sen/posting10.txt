@@ -1,0 +1,22 @@
+ID: 191825
+CREATION_DATETIME: 1357659887
+MODIFICATION_DATETIME: 1357659887
+TITLE: Re: Vektoren linear abhängig/ unabhängig mit LGS lösen
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:3.89064791503836;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Natur;weight:4.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Vektoren;weight:1.0;significance:3.17713737880847;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Gleichungen;weight:1.0;significance:2.5776635606089;degreegeneralization:7;uri:20115499
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:4.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Bäume;weight:1.0;significance:2.30301048844186;degreegeneralization:7;uri:20042824
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:2.23699226098339;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Waldgebiete;weight:1.0;significance:2.04398750552017;degreegeneralization:5;uri:21873639
+TOPIC_ZOOM_TAG: value:Pflanzen und Pflanzenwelt;weight:1.0;significance:1.63421222945575;degreegeneralization:5;uri:21981844
+TOPIC_ZOOM_TAG: value:Leben und Lebewesen;weight:1.0;significance:1.34047358801435;degreegeneralization:4;uri:21310140
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:1.07441906812122;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 191807
+CONTENT:
+Hallo,
+hier habe ich auch mal eine Frage:Das die LK (x1,..., x5)=r*(2,-1, 0, 1, 1) eingesetzt in die Gleichungen (x1 bis x5) Null ergeben ist ersichtlich.
+Wenn ich jetzt aber r=2 nehme, bekomme ich doch (4,-2, 0, 2, 2) als Vektor. Woran erkenne ich jetzt, ob dies auch eine LK zum Nullvektor ist? Wie sieht die Probe hierfür aus? Bzw. wie sieht sie generell aus?Pascal, da du es ja offensichtlich jetzt hast, kannst du vielleicht etwas dazu sagen? :)Sehe gerade den Wald vor lauter Bäumen nicht, habe ich das Gefühl.
+Danke und GrüßeLars
+TAGGED_CONTENT:

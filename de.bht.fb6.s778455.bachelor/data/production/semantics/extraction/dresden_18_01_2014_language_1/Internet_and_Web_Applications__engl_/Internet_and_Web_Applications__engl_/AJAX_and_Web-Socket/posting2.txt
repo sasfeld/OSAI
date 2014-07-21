@@ -1,0 +1,16 @@
+ID: 2481
+CREATION_DATETIME: 1374789600000
+MODIFICATION_DATETIME: 1374789600000
+TITLE: AJAX is an asynchronous communication model. It is not full-duplex like websockets. *AJAX means **Asy...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2479
+POSTING_TYPE: answer
+CONTENT:
+AJAX is an asynchronous communication model. It is not full-duplex like Web Sockets. AJAX means **Asynchronous** Javascript and XML. 
+
+<REMOVED_PERSON_ENTITY> AJAX sends a single request to the server and waits for a response. AJAX is a non blocking communication model, that means you <NAME_CORPUS_REPLACEMENT> use the website while AJAX is waiting for the response. If AJAX receives the response it will update the corresponding part of the webpage.
+
+Web Sockets is a so called full duplex communication model. That means it opens a channel between the server and the clients. That means clients and the server <NAME_CORPUS_REPLACEMENT> send from both sides requests. The server <NAME_CORPUS_REPLACEMENT> broadcast changes to every client. For the full understanding of Web Sockets in HTML5 I recommend reading the [HTML5Rocks article about this topic](http://www.html5rocks. com/en/tutorials/websockets/basics/).
+
+[There is a nice explanation on Stackoverflow for this topic.](http://stackoverflow.com/questions/11077857/what-are-long-polling-websockets-server-sent-events-sse-and-comet).
+TAGGED_CONTENT:

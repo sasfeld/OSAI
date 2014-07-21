@@ -1,0 +1,24 @@
+ID: 114
+CREATION_DATETIME: 1348005600000
+MODIFICATION_DATETIME: 1382047200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo allerseits,
+soeben wollte ich make run nutzen. Leider spuckt mir der Compiler jedesmal folgende Fehlermeldung aus:
+```c
+<LEARNED_PERSON_NAME_REPLACEMENT> -MMD -MF . mcp. d -g -O3 -std=c99 -Wall -D_POSIX_C_SOURCE=200112L -D_XOPEN_SOURCE=600    -c -o mcp. o mcp. c
+<LEARNED_PERSON_NAME_REPLACEMENT> -c -o mcp_state. o mcp_state. S
+<LEARNED_PERSON_NAME_REPLACEMENT> -g -o mcp mcp. o mcp_state. o
+<LEARNED_PERSON_NAME_REPLACEMENT> -MMD -MF . example_player. d -g -O3 -std=c99 -Wall -D_POSIX_C_SOURCE=200112L -D_XOPEN_SOURCE=600    -c -o example_player. o example_player. c
+<LEARNED_PERSON_NAME_REPLACEMENT> -g -o example_player example_player. o
+g++ -MMD -MF . my_player. d -g -O3 -std=c++98 -Wall -D_POSIX_C_SOURCE=200112L -D_XOPEN_SOURCE=600    -c -o my_player. o my_player. <PERSONAL_GREETING_REMOVEMENT>
+make: g++: Kommando nicht gefunden
+make: *** [my_player. o] Fehler 127
+````
+Make demo (2 Tastaturspieler) und make clean funktioniert, alles andere nicht. Liegt das an mir, oder ist <NAME_CORPUS_REPLACEMENT> was im makefile falsch? Habe das Archiv schon diverse Male neu entpackt und den Rechner neugestartet.
+my_player. <LEARNED_PERSON_NAME_REPLACEMENT> wurde (noch) nicht verändert - damit sollte es aber nicht zusammehängen, oder?
+Vielen Dank im Voraus
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

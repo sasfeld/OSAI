@@ -1,0 +1,20 @@
+ID: 64
+CREATION_DATETIME: 1201273860000
+MODIFICATION_DATETIME: 1201273860000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo,
+
+eine Frage zu WS2010, Aufgabe 4:
+zur Anweisung s.substring(0,l) aus der Musterlösung
+(return s.charAt(l) + spiegel(s.substring (0,l)); .
+0 ist ja normalerweise der erste Buchstabe eines Wortes (eines String).
+Aber hier faßt das Programm 0 als den letzten Buchstaben auf, wie es sein soll.
+Mir ist nicht ganz klar, wie das erreicht wurde?
+
+MfG
+  
+TAGGED_CONTENT:

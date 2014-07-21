@@ -15,6 +15,7 @@ import org.junit.Test;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.model.Tag.TagType;
 import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.pos.PosTagMapper;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * 
@@ -24,7 +25,7 @@ import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.pos.PosTagMapper;
  * @since 16.01.2014
  *
  */
-public class PosTagMapperTest {
+public class PosTagMapperTest extends NoLoggingTest {
     protected PosTagMapper mapper;
 
     @Before
@@ -46,8 +47,6 @@ public class PosTagMapperTest {
        final Posting sampleP = new Posting();
       
        this.mapper.mapToContribution( "Hallo_ITJ zusammen_PTKVZ ._$. Ich_PPER habe_VAFIN eine_ART Frage_NN zum_APPRART Thema_NN Variablen_NN in_APPR Java_NE ._$. Wie_PWAV deklariere_VVFIN ich_PPER eine_ART lokale_ADJA Variable_NN ?_$. Vielen_PIDAT Dank_NN !_$.", sampleP );
-       
-       System.out.println(sampleP.getTags( TagType.POS_TAG ));
        
        assertTrue( null != sampleP.getTags( TagType.POS_TAG ));
        assertTrue( 5 == sampleP.getTags( TagType.POS_TAG ).size());       

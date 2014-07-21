@@ -1,0 +1,7 @@
+ID: 2154578
+CREATION_DATETIME: 1380492000000
+MODIFICATION_DATETIME: 1381788000000
+TITLE: Praktikum Softwaretechnologie
+LANGUAGE: UNKNOWN
+INTRO: Das Softwaretechnologie-Praktikum im WS 2013/14 wird für Studierende der Bachelor- und Diplomstudiengänge Informatik, Medieninformatik, Informationssystemtechnik und des Ergänzungsstudiengangs Softwaretechnologie durchgeführt. Im Vordergrund steht die "Softwareentwicklung im Grossen" anhand eines durchgängigen Projektes. Das schließt sowohl die Erprobung eines systematischen Vorgehens bei der Softwareentwicklung als auch das Arbeiten im Team ein.
+TYPE: null

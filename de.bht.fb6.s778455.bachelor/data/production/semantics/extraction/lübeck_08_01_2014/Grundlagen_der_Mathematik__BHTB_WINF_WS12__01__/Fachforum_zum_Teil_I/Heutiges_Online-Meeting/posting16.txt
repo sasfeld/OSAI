@@ -1,0 +1,11 @@
+ID: 166735
+CREATION_DATETIME: 1349335080
+MODIFICATION_DATETIME: 1349335080
+TITLE: Re: Heutiges Online-Meeting
+TOPIC_ZOOM_TAG: value:Nachrichten;weight:1.0;significance:4.45402063329418;degreegeneralization:5;uri:21872483
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 166721
+CONTENT:
+Vielen Dank <REMOVED_PERSON_ENTITY> für die Antwort. Dort ist bei mir auch keine Nachricht zu finden. Dann werde ich mich wohl mal an Herrn <REMOVED_PERSON_ENTITY> wenden müssen.
+TAGGED_CONTENT:

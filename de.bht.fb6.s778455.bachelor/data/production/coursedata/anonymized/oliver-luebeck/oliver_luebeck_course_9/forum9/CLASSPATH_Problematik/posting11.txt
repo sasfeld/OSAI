@@ -1,0 +1,19 @@
+ID: 37
+CREATION_DATETIME: 1178272080000
+MODIFICATION_DATETIME: 1178272080000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 36
+CONTENT:
+  
+Ich komme an dem Classpath-Problemen auch nicht weiter.
+Ich bekomme immer die Fehlermeldung "package de.vfh.gp1.bib.Konsole does not exist. Oder passend dazu "Class should be declared in a file Konsole.java", wenn ich die Klasse Konsole versuch anzusprechen. Dabei ist die da und der Pfad stimmt auch (hab verschieden Orte und Pfade versucht, verschieden Classpath Angaben gesetzt, ect)
+
+
+Ich denk, ich hab alle Tipps hier im Thread ausprobiert, google seit 3 Tagen wie ein Weltmeister und komme da einfach nicht weiter. :(
+
+Ich glaube, ich steige auch auf Eclipse um, da scheint man mehr/verständlichere Hilfe vom Programm zu bekommen?!
+
+Frustige Grüß,
+    
+TAGGED_CONTENT:

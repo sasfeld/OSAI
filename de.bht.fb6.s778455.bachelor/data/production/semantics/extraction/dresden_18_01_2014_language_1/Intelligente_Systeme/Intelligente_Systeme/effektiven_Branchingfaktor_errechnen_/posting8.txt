@@ -1,0 +1,10 @@
+ID: 765
+CREATION_DATETIME: 1352847600000
+MODIFICATION_DATETIME: 1352847600000
+TITLE: Aber das ist doch auch nicht wirklich korrekt. `Anzahl expandierter Knoten` steht doch für alle Knote...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 718
+POSTING_TYPE: comment
+CONTENT:
+Aber das ist doch auch nicht wirklich korrekt. `Anzahl expandierter Knoten` steht doch für alle Knoten, die <NAME_CORPUS_REPLACEMENT> deinem Algorithmus besucht worden. Oder meintest du genau das mit `Anzahl aller Knoten im Graph`?
+TAGGED_CONTENT:

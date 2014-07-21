@@ -1,0 +1,19 @@
+ID: 44
+CREATION_DATETIME: 1198757340000
+MODIFICATION_DATETIME: 1198757340000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo,
+
+ich kann bei mir in Eclipse nicht die Option finden, eine XML-Datei anzulegen.
+Ich wähle File-new-other (siehe Screenshot)..
+habe aber keine Option, eine XML-Datei anzulegen.
+Gibt es da noch eine weitere Option, mache ich was falsch?
+
+
+MfG
+   
+TAGGED_CONTENT:

@@ -1,0 +1,532 @@
+ID: 3044
+CREATION_DATETIME: 1385593200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Leider lässt sich unser Projekt nicht mehr starten, wir bekommen folgenden stacktrace:
+
+```
+
+   ____          _            __ _ _
+
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::             (v0. 5. 0. M5)
+
+2013-11-28 13:14:10, 026 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [class path resource [application. properties]] PropertySource with lowest search precedence
+
+2013-11-28 13:14:12, 572 DEBUG pringframework. web. context. ContextLoader: 320 - Published root WebApplicationContext as ServletContext attribute with name [org. springframework. web. context. WebApplicationContext. ROOT]
+
+2013-11-28 13:14:12, 572  INFO pringframework. web. context. ContextLoader: 327 - Root WebApplicationContext: initialization completed in 2477 ms
+
+2013-11-28 13:14:12, 621 DEBUG gframework. web. servlet. DispatcherServlet:1086 - Using existing application context for DispatcherServlet
+
+2013-11-28 13:14:13, 457 ERROR   org. apache. catalina. core. ContainerBase: 185 - A child container failed during start
+
+java. util. concurrent. ExecutionException: org. apache. catalina. LifecycleException: Failed to start component [StandardEngine[Tomcat]. StandardHost[localhost]. StandardContext[]]
+
+	at java. util. concurrent. FutureTask. report(FutureTask. java:122) [na:1. 7. 0_45]
+
+	at java. util. concurrent. FutureTask. get(FutureTask. java:188) [na:1. 7. 0_45]
+
+	at org. apache. catalina. core. ContainerBase. startInternal(ContainerBase. java:1123) ~[tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. core. StandardHost. startInternal(StandardHost. java:800) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. util. LifecycleBase. start(LifecycleBase. java:150) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. core. ContainerBase$StartChild. call(ContainerBase. java:1559) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. core. ContainerBase$StartChild. call(ContainerBase. java:1549) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at java. util. concurrent. FutureTask. run(FutureTask. java:262) [na:1. 7. 0_45]
+
+	at java. util. concurrent. ThreadPoolExecutor. runWorker(ThreadPoolExecutor. java:1145) [na:1. 7. 0_45]
+
+	at java. util. concurrent. ThreadPoolExecutor$Worker. run(ThreadPoolExecutor. java:615) [na:1. 7. 0_45]
+
+	at java. lang. Thread. run(Thread. java:744) [na:1. 7. 0_45]
+
+Caused by: org. apache. catalina. LifecycleException: Failed to start component [StandardEngine[Tomcat]. StandardHost[localhost]. StandardContext[]]
+
+	at org. apache. catalina. util. LifecycleBase. start(LifecycleBase. java:154) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	... 6 common frames omitted
+
+Caused by: org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'org. springframework. security. config. annotation. web. configuration. WebSecurityConfiguration': Injection of autowired dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Could not autowire method: public void org. springframework. security. config. annotation. web. configuration. WebSecurityConfiguration. setFilterChainProxySecurityConfigurer(java. util. List) throws java. lang. Exception; nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'myLittleGarden. WebSecurityConfiguration': Injection of autowired dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Could not autowire method: public void org. springframework. security. config. annotation. web. configuration. WebSecurityConfigurerAdapter. setContentNegotationStrategy(org. springframework. web. accept. ContentNegotiationStrategy); nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'org. springframework. web. servlet. config. annotation. DelegatingWebMvcConfiguration': Injection of autowired dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Could not autowire method: public void org. springframework. web. servlet. config. annotation. DelegatingWebMvcConfiguration. setConfigurers(java. util. List); nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'myLittleGarden. WebConfiguration': Injection of autowired dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Could not autowire field: private org. salespointframework. spring. converter. JpaEntityConverter mlg. MyLittleGarden$WebConfiguration. entityConverter; nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'jpaEntityConverter': Injection of persistence dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration. class]: Invocation of init method failed; nested exception is java. lang. ClassCastException: org. hibernate. mapping. SingleTableSubclass cannot be cast to org. hibernate. mapping. RootClass
+
+	at org. springframework. beans. factory. annotation. AutowiredAnnotationBeanPostProcessor. postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor. java:292) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. populateBean(AbstractAutowireCapableBeanFactory. java:1139) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. doCreateBean(AbstractAutowireCapableBeanFactory. java:537) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. createBean(AbstractAutowireCapableBeanFactory. java:475) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory$1. getObject(AbstractBeanFactory. java:299) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. DefaultSingletonBeanRegistry. getSingleton(DefaultSingletonBeanRegistry. java:228) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory. doGetBean(AbstractBeanFactory. java:295) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory. getBean(AbstractBeanFactory. java:195) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. ConstructorResolver. instantiateUsingFactoryMethod(ConstructorResolver. java:354) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory. java:1048) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. createBeanInstance(AbstractAutowireCapableBeanFactory. java:943) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. doCreateBean(AbstractAutowireCapableBeanFactory. java:504) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. createBean(AbstractAutowireCapableBeanFactory. java:475) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory$1. getObject(AbstractBeanFactory. java:299) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. DefaultSingletonBeanRegistry. getSingleton(DefaultSingletonBeanRegistry. java:228) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory. doGetBean(AbstractBeanFactory. java:295) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory. getBean(AbstractBeanFactory. java:200) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. DefaultListableBeanFactory. getBeansOfType(DefaultListableBeanFactory. java:467) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. boot. context. embedded. EmbeddedWebApplicationContext. getOrderedBeansOfType(EmbeddedWebApplicationContext. java:354) ~[spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. context. embedded. EmbeddedWebApplicationContext. getServletContextInitializerBeans(EmbeddedWebApplicationContext. java:261) ~[spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. context. embedded. EmbeddedWebApplicationContext$1. onStartup(EmbeddedWebApplicationContext. java:206) ~[spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. context. embedded. tomcat. ServletContextInitializerLifecycleListener. lifecycleEvent(ServletContextInitializerLifecycleListener. java:54) ~[spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. apache. catalina. util. LifecycleSupport. fireLifecycleEvent(LifecycleSupport. java:119) ~[tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. util. LifecycleBase. fireLifecycleEvent(LifecycleBase. java:90) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. core. StandardContext. startInternal(StandardContext. java:5322) ~[tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. util. LifecycleBase. start(LifecycleBase. java:150) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	... 6 common frames omitted
+
+Caused by: org. springframework. beans. factory. BeanCreationException: Could not autowire method: public void org. springframework. security. config. annotation. web. configuration. WebSecurityConfiguration. setFilterChainProxySecurityConfigurer(java. util. List) throws java. lang. Exception; nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'myLittleGarden. WebSecurityConfiguration': Injection of autowired dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Could not autowire method: public void org. springframework. security. config. annotation. web. configuration. WebSecurityConfigurerAdapter. setContentNegotationStrategy(org. springframework. web. accept. ContentNegotiationStrategy); nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'org. springframework. web. servlet. config. annotation. DelegatingWebMvcConfiguration': Injection of autowired dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Could not autowire method: public void org. springframework. web. servlet. config. annotation. DelegatingWebMvcConfiguration. setConfigurers(java. util. List); nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'myLittleGarden. WebConfiguration': Injection of autowired dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Could not autowire field: private org. salespointframework. spring. converter. JpaEntityConverter mlg. MyLittleGarden$WebConfiguration. entityConverter; nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'jpaEntityConverter': Injection of persistence dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration. class]: Invocation of init method failed; nested exception is java. lang. ClassCastException: org. hibernate. mapping. SingleTableSubclass cannot be cast to org. hibernate. mapping. RootClass
+
+	at org. springframework. beans. factory. annotation. AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement. inject(AutowiredAnnotationBeanPostProcessor. java:593) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. annotation. InjectionMetadata. inject(InjectionMetadata. java:87) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. annotation. AutowiredAnnotationBeanPostProcessor. postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor. java:289) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	... 31 common frames omitted
+
+Caused by: org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'myLittleGarden. WebSecurityConfiguration': Injection of autowired dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Could not autowire method: public void org. springframework. security. config. annotation. web. configuration. WebSecurityConfigurerAdapter. setContentNegotationStrategy(org. springframework. web. accept. ContentNegotiationStrategy); nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'org. springframework. web. servlet. config. annotation. DelegatingWebMvcConfiguration': Injection of autowired dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Could not autowire method: public void org. springframework. web. servlet. config. annotation. DelegatingWebMvcConfiguration. setConfigurers(java. util. List); nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'myLittleGarden. WebConfiguration': Injection of autowired dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Could not autowire field: private org. salespointframework. spring. converter. JpaEntityConverter mlg. MyLittleGarden$WebConfiguration. entityConverter; nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'jpaEntityConverter': Injection of persistence dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration. class]: Invocation of init method failed; nested exception is java. lang. ClassCastException: org. hibernate. mapping. SingleTableSubclass cannot be cast to org. hibernate. mapping. RootClass
+
+	at org. springframework. beans. factory. annotation. AutowiredAnnotationBeanPostProcessor. postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor. java:292) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. populateBean(AbstractAutowireCapableBeanFactory. java:1139) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. doCreateBean(AbstractAutowireCapableBeanFactory. java:537) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. createBean(AbstractAutowireCapableBeanFactory. java:475) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory$1. getObject(AbstractBeanFactory. java:299) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. DefaultSingletonBeanRegistry. getSingleton(DefaultSingletonBeanRegistry. java:228) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory. doGetBean(AbstractBeanFactory. java:295) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory. getBean(AbstractBeanFactory. java:195) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. DefaultListableBeanFactory. findAutowireCandidates(DefaultListableBeanFactory. java:973) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. DefaultListableBeanFactory. doResolveDependency(DefaultListableBeanFactory. java:870) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. DefaultListableBeanFactory. resolveDependency(DefaultListableBeanFactory. java:820) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. annotation. AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement. inject(AutowiredAnnotationBeanPostProcessor. java:549) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	... 33 common frames omitted
+
+Caused by: org. springframework. beans. factory. BeanCreationException: Could not autowire method: public void org. springframework. security. config. annotation. web. configuration. WebSecurityConfigurerAdapter. setContentNegotationStrategy(org. springframework. web. accept. ContentNegotiationStrategy); nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'org. springframework. web. servlet. config. annotation. DelegatingWebMvcConfiguration': Injection of autowired dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Could not autowire method: public void org. springframework. web. servlet. config. annotation. DelegatingWebMvcConfiguration. setConfigurers(java. util. List); nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'myLittleGarden. WebConfiguration': Injection of autowired dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Could not autowire field: private org. salespointframework. spring. converter. JpaEntityConverter mlg. MyLittleGarden$WebConfiguration. entityConverter; nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'jpaEntityConverter': Injection of persistence dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration. class]: Invocation of init method failed; nested exception is java. lang. ClassCastException: org. hibernate. mapping. SingleTableSubclass cannot be cast to org. hibernate. mapping. RootClass
+
+	at org. springframework. beans. factory. annotation. AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement. inject(AutowiredAnnotationBeanPostProcessor. java:593) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. annotation. InjectionMetadata. inject(InjectionMetadata. java:87) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. annotation. AutowiredAnnotationBeanPostProcessor. postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor. java:289) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	... 44 common frames omitted
+
+Caused by: org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'org. springframework. web. servlet. config. annotation. DelegatingWebMvcConfiguration': Injection of autowired dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Could not autowire method: public void org. springframework. web. servlet. config. annotation. DelegatingWebMvcConfiguration. setConfigurers(java. util. List); nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'myLittleGarden. WebConfiguration': Injection of autowired dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Could not autowire field: private org. salespointframework. spring. converter. JpaEntityConverter mlg. MyLittleGarden$WebConfiguration. entityConverter; nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'jpaEntityConverter': Injection of persistence dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration. class]: Invocation of init method failed; nested exception is java. lang. ClassCastException: org. hibernate. mapping. SingleTableSubclass cannot be cast to org. hibernate. mapping. RootClass
+
+	at org. springframework. beans. factory. annotation. AutowiredAnnotationBeanPostProcessor. postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor. java:292) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. populateBean(AbstractAutowireCapableBeanFactory. java:1139) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. doCreateBean(AbstractAutowireCapableBeanFactory. java:537) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. createBean(AbstractAutowireCapableBeanFactory. java:475) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory$1. getObject(AbstractBeanFactory. java:299) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. DefaultSingletonBeanRegistry. getSingleton(DefaultSingletonBeanRegistry. java:228) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory. doGetBean(AbstractBeanFactory. java:295) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory. getBean(AbstractBeanFactory. java:195) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. ConstructorResolver. instantiateUsingFactoryMethod(ConstructorResolver. java:354) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory. java:1048) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. createBeanInstance(AbstractAutowireCapableBeanFactory. java:943) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. doCreateBean(AbstractAutowireCapableBeanFactory. java:504) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. createBean(AbstractAutowireCapableBeanFactory. java:475) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory$1. getObject(AbstractBeanFactory. java:299) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. DefaultSingletonBeanRegistry. getSingleton(DefaultSingletonBeanRegistry. java:228) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory. doGetBean(AbstractBeanFactory. java:295) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory. getBean(AbstractBeanFactory. java:195) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. DefaultListableBeanFactory. findAutowireCandidates(DefaultListableBeanFactory. java:973) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. DefaultListableBeanFactory. doResolveDependency(DefaultListableBeanFactory. java:916) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. DefaultListableBeanFactory. resolveDependency(DefaultListableBeanFactory. java:820) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. annotation. AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement. inject(AutowiredAnnotationBeanPostProcessor. java:549) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	... 46 common frames omitted
+
+Caused by: org. springframework. beans. factory. BeanCreationException: Could not autowire method: public void org. springframework. web. servlet. config. annotation. DelegatingWebMvcConfiguration. setConfigurers(java. util. List); nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'myLittleGarden. WebConfiguration': Injection of autowired dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Could not autowire field: private org. salespointframework. spring. converter. JpaEntityConverter mlg. MyLittleGarden$WebConfiguration. entityConverter; nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'jpaEntityConverter': Injection of persistence dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration. class]: Invocation of init method failed; nested exception is java. lang. ClassCastException: org. hibernate. mapping. SingleTableSubclass cannot be cast to org. hibernate. mapping. RootClass
+
+	at org. springframework. beans. factory. annotation. AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement. inject(AutowiredAnnotationBeanPostProcessor. java:593) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. annotation. InjectionMetadata. inject(InjectionMetadata. java:87) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. annotation. AutowiredAnnotationBeanPostProcessor. postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor. java:289) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	... 66 common frames omitted
+
+Caused by: org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'myLittleGarden. WebConfiguration': Injection of autowired dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Could not autowire field: private org. salespointframework. spring. converter. JpaEntityConverter mlg. MyLittleGarden$WebConfiguration. entityConverter; nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'jpaEntityConverter': Injection of persistence dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration. class]: Invocation of init method failed; nested exception is java. lang. ClassCastException: org. hibernate. mapping. SingleTableSubclass cannot be cast to org. hibernate. mapping. RootClass
+
+	at org. springframework. beans. factory. annotation. AutowiredAnnotationBeanPostProcessor. postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor. java:292) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. populateBean(AbstractAutowireCapableBeanFactory. java:1139) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. doCreateBean(AbstractAutowireCapableBeanFactory. java:537) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. createBean(AbstractAutowireCapableBeanFactory. java:475) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory$1. getObject(AbstractBeanFactory. java:299) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. DefaultSingletonBeanRegistry. getSingleton(DefaultSingletonBeanRegistry. java:228) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory. doGetBean(AbstractBeanFactory. java:295) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory. getBean(AbstractBeanFactory. java:195) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. DefaultListableBeanFactory. findAutowireCandidates(DefaultListableBeanFactory. java:973) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. DefaultListableBeanFactory. doResolveDependency(DefaultListableBeanFactory. java:870) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. DefaultListableBeanFactory. resolveDependency(DefaultListableBeanFactory. java:820) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. annotation. AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement. inject(AutowiredAnnotationBeanPostProcessor. java:549) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	... 68 common frames omitted
+
+Caused by: org. springframework. beans. factory. BeanCreationException: Could not autowire field: private org. salespointframework. spring. converter. JpaEntityConverter mlg. MyLittleGarden$WebConfiguration. entityConverter; nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'jpaEntityConverter': Injection of persistence dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration. class]: Invocation of init method failed; nested exception is java. lang. ClassCastException: org. hibernate. mapping. SingleTableSubclass cannot be cast to org. hibernate. mapping. RootClass
+
+	at org. springframework. beans. factory. annotation. AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement. inject(AutowiredAnnotationBeanPostProcessor. java:505) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. annotation. InjectionMetadata. inject(InjectionMetadata. java:87) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. annotation. AutowiredAnnotationBeanPostProcessor. postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor. java:289) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	... 79 common frames omitted
+
+Caused by: org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'jpaEntityConverter': Injection of persistence dependencies failed; nested exception is org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration. class]: Invocation of init method failed; nested exception is java. lang. ClassCastException: org. hibernate. mapping. SingleTableSubclass cannot be cast to org. hibernate. mapping. RootClass
+
+	at org. springframework. orm. jpa. support. PersistenceAnnotationBeanPostProcessor. postProcessPropertyValues(PersistenceAnnotationBeanPostProcessor. java:355) ~[spring-orm-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. populateBean(AbstractAutowireCapableBeanFactory. java:1139) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. doCreateBean(AbstractAutowireCapableBeanFactory. java:537) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. createBean(AbstractAutowireCapableBeanFactory. java:475) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory$1. getObject(AbstractBeanFactory. java:299) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. DefaultSingletonBeanRegistry. getSingleton(DefaultSingletonBeanRegistry. java:228) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory. doGetBean(AbstractBeanFactory. java:295) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory. getBean(AbstractBeanFactory. java:195) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. DefaultListableBeanFactory. findAutowireCandidates(DefaultListableBeanFactory. java:973) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. DefaultListableBeanFactory. doResolveDependency(DefaultListableBeanFactory. java:916) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. DefaultListableBeanFactory. resolveDependency(DefaultListableBeanFactory. java:820) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. annotation. AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement. inject(AutowiredAnnotationBeanPostProcessor. java:477) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	... 81 common frames omitted
+
+Caused by: org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration. class]: Invocation of init method failed; nested exception is java. lang. ClassCastException: org. hibernate. mapping. SingleTableSubclass cannot be cast to org. hibernate. mapping. RootClass
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. initializeBean(AbstractAutowireCapableBeanFactory. java:1507) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. doCreateBean(AbstractAutowireCapableBeanFactory. java:539) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. createBean(AbstractAutowireCapableBeanFactory. java:475) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory$1. getObject(AbstractBeanFactory. java:299) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. DefaultSingletonBeanRegistry. getSingleton(DefaultSingletonBeanRegistry. java:228) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory. doGetBean(AbstractBeanFactory. java:295) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractBeanFactory. getBean(AbstractBeanFactory. java:195) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. orm. jpa. support. PersistenceAnnotationBeanPostProcessor. findDefaultEntityManagerFactory(PersistenceAnnotationBeanPostProcessor. java:546) ~[spring-orm-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. orm. jpa. support. PersistenceAnnotationBeanPostProcessor. findEntityManagerFactory(PersistenceAnnotationBeanPostProcessor. java:512) ~[spring-orm-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. orm. jpa. support. PersistenceAnnotationBeanPostProcessor$PersistenceElement. resolveEntityManager(PersistenceAnnotationBeanPostProcessor. java:679) ~[spring-orm-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. orm. jpa. support. PersistenceAnnotationBeanPostProcessor$PersistenceElement. getResourceToInject(PersistenceAnnotationBeanPostProcessor. java:652) ~[spring-orm-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. annotation. InjectionMetadata$InjectedElement. inject(InjectionMetadata. java:150) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. annotation. InjectionMetadata. inject(InjectionMetadata. java:87) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. orm. jpa. support. PersistenceAnnotationBeanPostProcessor. postProcessPropertyValues(PersistenceAnnotationBeanPostProcessor. java:352) ~[spring-orm-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	... 92 common frames omitted
+
+Caused by: java. lang. ClassCastException: org. hibernate. mapping. SingleTableSubclass cannot be cast to org. hibernate. mapping. RootClass
+
+	at org. hibernate. cfg. annotations. PropertyBinder. bind(PropertyBinder. java:214) ~[hibernate-core-4. 2. 1. Final. jar:4. 2. 1. Final]
+
+	at org. hibernate. cfg. annotations. PropertyBinder. makePropertyValueAndBind(PropertyBinder. java:205) ~[hibernate-core-4. 2. 1. Final. jar:4. 2. 1. Final]
+
+	at org. hibernate. cfg. AnnotationBinder. processElementAnnotations(AnnotationBinder. java:2038) ~[hibernate-core-4. 2. 1. Final. jar:4. 2. 1. Final]
+
+	at org. hibernate. cfg. AnnotationBinder. processIdPropertiesIfNotAlready(AnnotationBinder. java:767) ~[hibernate-core-4. 2. 1. Final. jar:4. 2. 1. Final]
+
+	at org. hibernate. cfg. AnnotationBinder. bindClass(AnnotationBinder. java:686) ~[hibernate-core-4. 2. 1. Final. jar:4. 2. 1. Final]
+
+	at org. hibernate. cfg. Configuration$MetadataSourceQueue. processAnnotatedClassesQueue(Configuration. java:3466) ~[hibernate-core-4. 2. 1. Final. jar:4. 2. 1. Final]
+
+	at org. hibernate. cfg. Configuration$MetadataSourceQueue. processMetadata(Configuration. java:3420) ~[hibernate-core-4. 2. 1. Final. jar:4. 2. 1. Final]
+
+	at org. hibernate. cfg. Configuration. secondPassCompile(Configuration. java:1348) ~[hibernate-core-4. 2. 1. Final. jar:4. 2. 1. Final]
+
+	at org. hibernate. cfg. Configuration. buildSessionFactory(Configuration. java:1747) ~[hibernate-core-4. 2. 1. Final. jar:4. 2. 1. Final]
+
+	at org. hibernate. ejb. EntityManagerFactoryImpl.(EntityManagerFactoryImpl. java:96) ~[hibernate-entitymanager-4. 2. 1. Final. jar:4. 2. 1. Final]
+
+	at org. hibernate. ejb. Ejb3Configuration. buildEntityManagerFactory(Ejb3Configuration. java:913) ~[hibernate-entitymanager-4. 2. 1. Final. jar:4. 2. 1. Final]
+
+	at org. hibernate. ejb. Ejb3Configuration. buildEntityManagerFactory(Ejb3Configuration. java:898) ~[hibernate-entitymanager-4. 2. 1. Final. jar:4. 2. 1. Final]
+
+	at org. hibernate. ejb. HibernatePersistence. createContainerEntityManagerFactory(HibernatePersistence. java:76) ~[hibernate-entitymanager-4. 2. 1. Final. jar:4. 2. 1. Final]
+
+	at org. springframework. orm. jpa. LocalContainerEntityManagerFactoryBean. createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean. java:318) ~[spring-orm-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. orm. jpa. AbstractEntityManagerFactoryBean. afterPropertiesSet(AbstractEntityManagerFactoryBean. java:317) ~[spring-orm-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. invokeInitMethods(AbstractAutowireCapableBeanFactory. java:1566) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. initializeBean(AbstractAutowireCapableBeanFactory. java:1503) ~[spring-beans-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	... 105 common frames omitted
+
+2013-11-28 13:14:13, 462 ERROR   org. apache. catalina. core. ContainerBase: 185 - A child container failed during start
+
+java. util. concurrent. ExecutionException: org. apache. catalina. LifecycleException: Failed to start component [StandardEngine[Tomcat]. StandardHost[localhost]]
+
+	at java. util. concurrent. FutureTask. report(FutureTask. java:122) ~[na:1. 7. 0_45]
+
+	at java. util. concurrent. FutureTask. get(FutureTask. java:188) ~[na:1. 7. 0_45]
+
+	at org. apache. catalina. core. ContainerBase. startInternal(ContainerBase. java:1123) ~[tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. core. StandardEngine. startInternal(StandardEngine. java:302) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. util. LifecycleBase. start(LifecycleBase. java:150) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. core. StandardService. startInternal(StandardService. java:443) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. util. LifecycleBase. start(LifecycleBase. java:150) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. core. StandardServer. startInternal(StandardServer. java:732) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. util. LifecycleBase. start(LifecycleBase. java:150) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. startup. Tomcat. start(Tomcat. java:335) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. springframework. boot. context. embedded. tomcat. TomcatEmbeddedServletContainer. initialize(TomcatEmbeddedServletContainer. java:57) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. context. embedded. tomcat. TomcatEmbeddedServletContainer.(TomcatEmbeddedServletContainer. java:52) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. context. embedded. tomcat. TomcatEmbeddedServletContainerFactory. getTomcatEmbeddedServletContainer(TomcatEmbeddedServletContainerFactory. java:259) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. context. embedded. tomcat. TomcatEmbeddedServletContainerFactory. getEmbeddedServletContainer(TomcatEmbeddedServletContainerFactory. java:140) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. context. embedded. EmbeddedWebApplicationContext. createEmbeddedServletContainer(EmbeddedWebApplicationContext. java:152) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. context. embedded. EmbeddedWebApplicationContext. onRefresh(EmbeddedWebApplicationContext. java:134) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. context. support. AbstractApplicationContext. refresh(AbstractApplicationContext. java:476) [spring-context-4. 0. 0. M3. jar:4. 0. 0. M3]
+
+	at org. springframework. boot. context. embedded. EmbeddedWebApplicationContext. refresh(EmbeddedWebApplicationContext. java:122) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. SpringApplication. refresh(SpringApplication. java:509) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. SpringApplication. run(SpringApplication. java:278) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. SpringApplication. run(SpringApplication. java:687) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. SpringApplication. run(SpringApplication. java:676) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at mlg. MyLittleGarden. main(MyLittleGarden. java:37) [classes/:na]
+
+	at sun. reflect. NativeMethodAccessorImpl. invoke0(Native Method) ~[na:1. 7. 0_45]
+
+	at sun. reflect. NativeMethodAccessorImpl. invoke(NativeMethodAccessorImpl. java:57) ~[na:1. 7. 0_45]
+
+	at sun. reflect. DelegatingMethodAccessorImpl. invoke(DelegatingMethodAccessorImpl. java:43) ~[na:1. 7. 0_45]
+
+	at java. lang. reflect. Method. invoke(Method. java:606) ~[na:1. 7. 0_45]
+
+	at com. intellij. rt. execution. application. AppMain. main(AppMain. java:120) [idea_rt. jar:na]
+
+org. apache. catalina. LifecycleException: Failed to start component [StandardEngine[Tomcat]. StandardHost[localhost]]
+
+	at org. apache. catalina. util. LifecycleBase. start(LifecycleBase. java:154) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. core. ContainerBase$StartChild. call(ContainerBase. java:1559) ~[tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. core. ContainerBase$StartChild. call(ContainerBase. java:1549) ~[tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at java. util. concurrent. FutureTask. run(FutureTask. java:262) ~[na:1. 7. 0_45]
+
+	at java. util. concurrent. ThreadPoolExecutor. runWorker(ThreadPoolExecutor. java:1145) ~[na:1. 7. 0_45]
+
+	at java. util. concurrent. ThreadPoolExecutor$Worker. run(ThreadPoolExecutor. java:615) ~[na:1. 7. 0_45]
+
+	at java. lang. Thread. run(Thread. java:744) ~[na:1. 7. 0_45]
+
+Caused by: org. apache. catalina. LifecycleException: A child container failed during start
+
+	at org. apache. catalina. core. ContainerBase. startInternal(ContainerBase. java:1131) ~[tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. core. StandardHost. startInternal(StandardHost. java:800) ~[tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. util. LifecycleBase. start(LifecycleBase. java:150) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	... 6 common frames omitted
+
+Exception in thread "main" org. springframework. boot. context. embedded. EmbeddedServletContainerException: Unable to start embdedded Tomcat
+
+	at org. springframework. boot. context. embedded. tomcat. TomcatEmbeddedServletContainer. initialize(TomcatEmbeddedServletContainer. java:80)
+
+	at org. springframework. boot. context. embedded. tomcat. TomcatEmbeddedServletContainer.(TomcatEmbeddedServletContainer. java:52)
+
+	at org. springframework. boot. context. embedded. tomcat. TomcatEmbeddedServletContainerFactory. getTomcatEmbeddedServletContainer(TomcatEmbeddedServletContainerFactory. java:259)
+
+	at org. springframework. boot. context. embedded. tomcat. TomcatEmbeddedServletContainerFactory. getEmbeddedServletContainer(TomcatEmbeddedServletContainerFactory. java:140)
+
+	at org. springframework. boot. context. embedded. EmbeddedWebApplicationContext. createEmbeddedServletContainer(EmbeddedWebApplicationContext. java:152)
+
+	at org. springframework. boot. context. embedded. EmbeddedWebApplicationContext. onRefresh(EmbeddedWebApplicationContext. java:134)
+
+	at org. springframework. context. support. AbstractApplicationContext. refresh(AbstractApplicationContext. java:476)
+
+	at org. springframework. boot. context. embedded. EmbeddedWebApplicationContext. refresh(EmbeddedWebApplicationContext. java:122)
+
+	at org. springframework. boot. SpringApplication. refresh(SpringApplication. java:509)
+
+	at org. springframework. boot. SpringApplication. run(SpringApplication. java:278)
+
+	at org. springframework. boot. SpringApplication. run(SpringApplication. java:687)
+
+	at org. springframework. boot. SpringApplication. run(SpringApplication. java:676)
+
+	at mlg. MyLittleGarden. main(MyLittleGarden. java:37)
+
+	at sun. reflect. NativeMethodAccessorImpl. invoke0(Native Method)
+
+	at sun. reflect. NativeMethodAccessorImpl. invoke(NativeMethodAccessorImpl. java:57)
+
+	at sun. reflect. DelegatingMethodAccessorImpl. invoke(DelegatingMethodAccessorImpl. java:43)
+
+	at java. lang. reflect. Method. invoke(Method. java:606)
+
+	at com. intellij. rt. execution. application. AppMain. main(AppMain. java:120)
+
+Caused by: org. apache. catalina. LifecycleException: Failed to start component [StandardServer[-1]]
+
+	at org. apache. catalina. util. LifecycleBase. start(LifecycleBase. java:154)
+
+	at org. apache. catalina. startup. Tomcat. start(Tomcat. java:335)
+
+	at org. springframework. boot. context. embedded. tomcat. TomcatEmbeddedServletContainer. initialize(TomcatEmbeddedServletContainer. java:57)
+
+	... 17 more
+
+Caused by: org. apache. catalina. LifecycleException: Failed to start component [StandardService[Tomcat]]
+
+	at org. apache. catalina. util. LifecycleBase. start(LifecycleBase. java:154)
+
+	at org. apache. catalina. core. StandardServer. startInternal(StandardServer. java:732)
+
+	at org. apache. catalina. util. LifecycleBase. start(LifecycleBase. java:150)
+
+	... 19 more
+
+Caused by: org. apache. catalina. LifecycleException: Failed to start component [StandardEngine[Tomcat]]
+
+	at org. apache. catalina. util. LifecycleBase. start(LifecycleBase. java:154)
+
+	at org. apache. catalina. core. StandardService. startInternal(StandardService. java:443)
+
+	at org. apache. catalina. util. LifecycleBase. start(LifecycleBase. java:150)
+
+	... 21 more
+
+Caused by: org. apache. catalina. LifecycleException: A child container failed during start
+
+	at org. apache. catalina. core. ContainerBase. startInternal(ContainerBase. java:1131)
+
+	at org. apache. catalina. core. StandardEngine. startInternal(StandardEngine. java:302)
+
+	at org. apache. catalina. util. LifecycleBase. start(LifecycleBase. java:150)
+
+	... 23 more
+
+Process finished with exit code 1
+
+```
+
+Ich habe versucht alle Vererbungen die in Frage kommen zu entfernen um das Problem zu umgehen, aber der Fehler bleibt der selbe. Woran kann das liegen?
+TAGGED_CONTENT:

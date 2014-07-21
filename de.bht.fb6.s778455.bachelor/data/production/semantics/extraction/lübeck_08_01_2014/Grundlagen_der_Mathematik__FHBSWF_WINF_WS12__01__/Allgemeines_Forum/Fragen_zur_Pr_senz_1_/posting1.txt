@@ -1,0 +1,53 @@
+ID: 167889
+CREATION_DATETIME: 1349629418
+MODIFICATION_DATETIME: 1349629418
+TITLE: Fragen zur Präsenz 1 
+TOPIC_ZOOM_TAG: value:Primzahlen;weight:5.0;significance:9.07753536802421;degreegeneralization:7;uri:20841025
+TOPIC_ZOOM_TAG: value:Zahlentheorie;weight:5.0;significance:8.29281230468986;degreegeneralization:6;uri:20881383
+TOPIC_ZOOM_TAG: value:Mathematik;weight:6.0;significance:6.66968214006576;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:6.0;significance:3.83484387597153;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:6.0;significance:3.00190042684738;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:7.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:6.0;significance:2.0037315298335;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Mathematische Logik;weight:1.0;significance:1.58558737182854;degreegeneralization:6;uri:20881349
+TOPIC_ZOOM_TAG: value:Logik;weight:1.0;significance:1.18950326865144;degreegeneralization:4;uri:21472524
+TOPIC_ZOOM_TAG: value:Seitenbeschreibungssprachen;weight:1.0;significance:1.11475353382793;degreegeneralization:8;uri:19947182
+TOPIC_ZOOM_TAG: value:Drucksysteme;weight:1.0;significance:1.11475353382793;degreegeneralization:7;uri:20900661
+TOPIC_ZOOM_TAG: value:PDF;weight:1.0;significance:1.11475353382793;degreegeneralization:9;uri:20900627
+TOPIC_ZOOM_TAG: value:Drucktechnik;weight:1.0;significance:1.10065760132692;degreegeneralization:5;uri:20900695
+TOPIC_ZOOM_TAG: value:Beschreibungssprachen;weight:1.0;significance:1.08608629161905;degreegeneralization:7;uri:20900644
+TOPIC_ZOOM_TAG: value:Formale Sprachen;weight:1.0;significance:1.00454224470938;degreegeneralization:6;uri:21978155
+TOPIC_ZOOM_TAG: value:Computersprachen;weight:1.0;significance:1.00405384374527;degreegeneralization:6;uri:19949137
+TOPIC_ZOOM_TAG: value:Verbrecher und Kriminelle;weight:1.0;significance:0.865098069411511;degreegeneralization:5;uri:21991007
+TOPIC_ZOOM_TAG: value:Software;weight:1.0;significance:0.744319092066707;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:0.717746492507539;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:0.715529586833848;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:0.715400245817447;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Geisteswissenschaften;weight:1.0;significance:0.664906374024217;degreegeneralization:3;uri:21978240
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:0.633930378491567;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:0.615734265686809;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:0.572433823480151;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Presse, Druck und Verlagswesen;weight:1.0;significance:0.55710457601904;degreegeneralization:4;uri:21990174
+TOPIC_ZOOM_TAG: value:Verbrechen und Kriminalität;weight:1.0;significance:0.534071264772417;degreegeneralization:4;uri:21982303
+TOPIC_ZOOM_TAG: value:Rechtsverstöße, Straftaten, Kriminalität;weight:1.0;significance:0.5290907962524;degreegeneralization:3;uri:20801755
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:0.523095670344397;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:0.383846204954394;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:0.378942631367333;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:0.378728144914756;degreegeneralization:2;uri:21999830
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:0.31161309370224;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+damit wir bezüglich der Fragen zur ersten Präsenz etwas den Überblick behalten können, mach ich nun ein zweites Thema auf.
+Jetzt geht es um die Folie 23 im PDF-Dokument mit der Bezeichnung: "Präsenz 1 - Mathematische Logik, Argumentieren und Beweisen. v1. pdf"  Als Lösung kann ich hier folgendes präsentieren:Klassischer Widerspruchsbeweis:
+Angenommen, es gibt nur endlich viele Primzahlen
+Betrachtet die <REMOVED_PERSON_ENTITY> M = {3, 5, 7, 11, 13, 17, 19, …}
+M ist unendlich groß und besteht nur aus Primzahlen
+Die unendlich große <REMOVED_PERSON_ENTITY> M ist Teilmenge der endlichen <REMOVED_PERSON_ENTITY> aller Primzahlen, Wiederspruch!
+Prinzip des kleinsten Verbrechers:
+Angenommen, es gibt nur endlich viele Primzahlen
+Dann gibt es eine größte Primzahl z.
+Es ist aber z*(die darauf folgende Primzahl) auch eine <REMOVED_PERSON_ENTITY> und größer als z, Wiederspruch!
+Ich vermute mal, dass diese Lösung nicht ganz richtig ist. Was habe ich den falsch gemacht?Besten Dank und Gruß
+<REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

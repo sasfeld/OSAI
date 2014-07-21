@@ -1,0 +1,12 @@
+ID: 117517
+CREATION_DATETIME: 1319013967
+MODIFICATION_DATETIME: 1319013967
+TITLE: Re: LON Capa Komplexe Zahlen
+LANGUAGE: GERMAN
+POS_TAG: value:Zahlen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skript;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117516
+CONTENT:
+Wie dem Skript zu entnehmen ist ist komplexe Zahlen nicht klausurrelevant.
+TAGGED_CONTENT:
+Wie_PWAV dem_ART Skript_NN zu_PTKZU entnehmen_VVINF ist_VAFIN ist_VAFIN komplexe_ADJA Zahlen_NN nicht_PTKNEG klausurrelevant_ADJD ._$. 

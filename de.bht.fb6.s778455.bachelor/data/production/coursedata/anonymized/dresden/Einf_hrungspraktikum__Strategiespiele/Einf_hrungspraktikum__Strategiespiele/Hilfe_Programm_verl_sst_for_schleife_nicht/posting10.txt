@@ -1,0 +1,21 @@
+ID: 1340
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: selbst wenn ich: 
+
+```ruby
+		if(i==33){
+			return;
+		}
+```
+PARENT_POSTING_ID: 1329
+POSTING_TYPE: comment
+CONTENT:
+selbst wenn ich: 
+```ruby
+		if(i==33){
+			return;
+		}
+```
+mache geht er nicht raus
+TAGGED_CONTENT:

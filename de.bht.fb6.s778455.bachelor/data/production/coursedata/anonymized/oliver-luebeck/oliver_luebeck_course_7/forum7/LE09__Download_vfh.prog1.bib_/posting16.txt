@@ -1,0 +1,16 @@
+ID: 36
+CREATION_DATETIME: 1304623260000
+MODIFICATION_DATETIME: 1304623260000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 27
+CONTENT:
+ 
+Hallo alle zusammen,
+
+also ich hatte auch die Probleme mit dem import vhf.prog1.bib.Konsole und den CLASSPATH-Umgebungsvariablen. Das Symbol wurde nicht gefunden.
+Ich hab dann einfach "Konsole" weggelassen und das Programm lief.
+
+Schöne Grüße
+   
+TAGGED_CONTENT:

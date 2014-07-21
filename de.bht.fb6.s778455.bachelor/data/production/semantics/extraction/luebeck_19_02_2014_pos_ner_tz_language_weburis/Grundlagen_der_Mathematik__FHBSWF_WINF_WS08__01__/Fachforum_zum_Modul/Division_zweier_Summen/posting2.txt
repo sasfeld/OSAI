@@ -1,0 +1,23 @@
+ID: 16661
+CREATION_DATETIME: 1224604964
+MODIFICATION_DATETIME: 1224604964
+TITLE: Re: Division zweier Summen
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=6535#16661
+TOPIC_ZOOM_TAG: value:Grundschulen;weight:1.0;significance:9.93596079299414;degreegeneralization:7;uri:21306043
+TOPIC_ZOOM_TAG: value:Schularten;weight:1.0;significance:7.89636515986151;degreegeneralization:6;uri:20759102
+TOPIC_ZOOM_TAG: value:Schulen;weight:1.0;significance:5.87014431438658;degreegeneralization:5;uri:21882020
+TOPIC_ZOOM_TAG: value:Schulische Bildung und Erziehung;weight:1.0;significance:5.86693403875633;degreegeneralization:3;uri:21882122
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+POS_TAG: value:Anhang;weight:0.0;uri:;postag:NN
+POS_TAG: value:Grundschule;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bitte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Trick;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teilen;weight:0.0;uri:;postag:NN
+POS_TAG: value:MfG;weight:0.0;uri:;postag:NN
+POS_TAG: value:Erinnerung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 16659
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>, danke für die Erinnerung. Der Trick ist schriftliches Teilen, wie in der Grundschule (naja so ähnlich zumindest). Bitte in den Anhang schauen. MfG, al.
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, danke_VVFIN für_APPR die_ART Erinnerung_NN ._$. Der_ART Trick_NN ist_VAFIN schriftliches_ADJA Teilen_NN ,_$, wie_KOKOM in_APPR der_ART Grundschule_NN -LRB-_TRUNC naja_PWS so_ADV ähnlich_ADJD zumindest_ADV -RRB-_TRUNC ._$. Bitte_NN in_APPR den_ART Anhang_NN schauen_VVINF ._$. MfG_NN ,_$, al._ADV ._$. 

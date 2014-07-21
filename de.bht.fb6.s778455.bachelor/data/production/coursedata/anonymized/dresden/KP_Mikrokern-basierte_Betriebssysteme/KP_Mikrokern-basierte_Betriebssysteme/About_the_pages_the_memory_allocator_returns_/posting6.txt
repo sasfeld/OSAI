@@ -1,0 +1,9 @@
+ID: 777
+CREATION_DATETIME: 1352847600000
+MODIFICATION_DATETIME: 1352847600000
+TITLE: The flow is that you a) allocate a dataspace from some memory allocator and b) attach this dataspace ...
+PARENT_POSTING_ID: 774
+POSTING_TYPE: comment
+CONTENT:
+The flow is that you a) allocate a dataspace from some memory allocator and b) attach this dataspace to your address space using the region manager interface. The latter call will give you an address you <NAME_CORPUS_REPLACEMENT> work with.
+TAGGED_CONTENT:

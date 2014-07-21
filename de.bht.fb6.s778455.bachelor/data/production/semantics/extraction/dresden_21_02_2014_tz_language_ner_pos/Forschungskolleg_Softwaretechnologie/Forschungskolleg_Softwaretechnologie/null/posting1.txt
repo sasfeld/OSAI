@@ -1,0 +1,31 @@
+ID: 781
+CREATION_DATETIME: 1352847600000
+MODIFICATION_DATETIME: 1353279600000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Wintersemester;weight:1.0;significance:6.007701167337;degreegeneralization:5;uri:20914346
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:2.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Semester;weight:1.0;significance:4.83201353875525;degreegeneralization:4;uri:20914363
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:2.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:3.47798843820414;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:2.77735785682754;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:1.07441906812122;degreegeneralization:2;uri:21999813
+POS_TAG: value:Paper;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Prozesse;weight:0.0;uri:;postag:NN
+POS_TAG: value:Prof.;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kurs;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wintersemester;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+
+mir wurde heute <NAME_CORPUS_REPLACEMENT> diesem Kurs erzählt und klang richtig interessant, was Prof. <REMOVED_PERSON_ENTITY> hier vorstellt und lehrt. Ich hab bisher keine Zeit gehabt dem Kurs beizuwohnen, aber dennoch würde es mich interessieren, ob diese Prozesse sinnvoll sind zu lernen?
+
+Wird das ab jetzt jedes Wintersemester angeboten? 
+
+Aber was ich bisher gehört habe, find ich's schon klasse, dass es einen Kurs gibt, in dem uns mal beigebracht wird, wie wir eigentlich Paper lesen und bearbeiten können, sodass wir diese verstehen. 
+TAGGED_CONTENT:
+Hi_NE ,_$, mir_PPER wurde_VAFIN heute_ADV <_CARD NAME_CORPUS_REPLACEMENT_NN >_APPR diesem_PDAT Kurs_NN erzählt_VVFIN und_KON klang_VVFIN richtig_ADJD interessant_ADJD ,_$, was_PWS Prof._NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE hier_ADV vorstellt_VVFIN und_KON lehrt_VVFIN ._$. Ich_PPER hab_VAFIN bisher_ADV keine_PIAT Zeit_NN gehabt_VAPP dem_ART Kurs_NN beizuwohnen_VVIZU ,_$, aber_KON dennoch_ADV würde_VAFIN es_PPER mich_PPER interessieren_VVINF ,_$, ob_KOUS diese_PDAT Prozesse_NN sinnvoll_ADJD sind_VAFIN zu_PTKZU lernen_VVINF ?_$. Wird_VAFIN das_PDS ab_APPR jetzt_ADV jedes_PIDAT Wintersemester_NN angeboten_VVPP ?_$. Aber_KON was_PWS ich_PPER bisher_ADV gehört_VVFIN habe_VAFIN ,_$, find_VVFIN ich_PPER 's_PPER schon_ADV klasse_VVINF ,_$, dass_KOUS es_PPER einen_ART Kurs_NN gibt_VVFIN ,_$, in_APPR dem_PRELS uns_PPER mal_ADV beigebracht_VVPP wird_VAFIN ,_$, wie_PWAV wir_PPER eigentlich_ADV Paper_NN lesen_VVINF und_KON bearbeiten_VVINF können_VMFIN ,_$, sodass_KOUS wir_PPER diese_PDAT verstehen_VVINF ._$. 

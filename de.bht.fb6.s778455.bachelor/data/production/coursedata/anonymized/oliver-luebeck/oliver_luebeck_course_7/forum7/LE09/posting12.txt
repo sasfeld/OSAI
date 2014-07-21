@@ -1,0 +1,35 @@
+ID: 55
+CREATION_DATETIME: 1305037560000
+MODIFICATION_DATETIME: 1305037560000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 54
+CONTENT:
+  
+Dann müsste die if Bedingung aber so sein sonst ist das Ergebnis immer b oder u.
+if(a == 0.0) ret = 'e';
+else if(a <= 0.1) ret = 't';
+else if(a <= 0.5) ret = 'b';
+
+Ich hatte es so gelöst:
+
+public static String validateValuePair(double istwert, double sollwert)
+{
+double vergleich = Math.abs(istwert -sollwert);
+ 
+if(vergleich == 0)
+return "Exakt";
+else if(vergleich <= 0.1)
+return "In Toleranz";
+else if(vergleich <= 0.5)
+return "Brauchbar";
+ 
+return "Ausschuß";
+}
+
+...
+
+System.out.println("Messwert ist " + validateValuePair(istwert, sollwert));
+
+   
+TAGGED_CONTENT:

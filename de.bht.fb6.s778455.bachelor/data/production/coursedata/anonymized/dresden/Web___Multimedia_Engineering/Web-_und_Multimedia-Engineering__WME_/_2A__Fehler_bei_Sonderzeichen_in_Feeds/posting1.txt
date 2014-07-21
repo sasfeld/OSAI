@@ -1,0 +1,10 @@
+ID: 943
+CREATION_DATETIME: 1354748400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wenn in den Nachrichten Sonderzeichen verwendet werden (wie aktuel "H&M" im TItel), wirft unsere <REMOVED_PERSON_ENTITY> einen Fehler.
+Müssen wir für solche Fälle eine Lösung implementieren oder können wir das ignorieren?
+TAGGED_CONTENT:

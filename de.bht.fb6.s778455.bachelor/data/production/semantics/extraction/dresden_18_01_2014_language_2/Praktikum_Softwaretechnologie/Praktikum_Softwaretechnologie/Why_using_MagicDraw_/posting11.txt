@@ -1,0 +1,12 @@
+ID: 2601
+CREATION_DATETIME: 1382306400000
+MODIFICATION_DATETIME: 1382392800000
+TITLE: Now we have the explanation why you so extremly want MagicDraw - the institut profits from the succes...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2593
+POSTING_TYPE: comment
+CONTENT:
+What I'm reading is that there are other tools, that supports Dresden OCL:
+
+http://www.dresden-ocl. org/index. php/DresdenOCL:SuccessStories
+TAGGED_CONTENT:

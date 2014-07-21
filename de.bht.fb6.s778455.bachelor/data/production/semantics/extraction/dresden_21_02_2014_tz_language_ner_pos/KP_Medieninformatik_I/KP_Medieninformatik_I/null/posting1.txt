@@ -1,0 +1,12 @@
+ID: 182
+CREATION_DATETIME: 1349128800000
+MODIFICATION_DATETIME: 1374012000000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+How do I delete the account of this page? Isn't realy helpful and it doesn't seem to be structured for a usage of hundrets of topics.
+
+I want to delete my account!
+TAGGED_CONTENT:

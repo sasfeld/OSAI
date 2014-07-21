@@ -1,0 +1,12 @@
+ID: 3087
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: 1. SalesPoint war für das Design mit seinen schönen Identifer-Klassen für viele Dinge (Order, Product...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3069
+POSTING_TYPE: comment
+CONTENT:
+1. SalesPoint war für das Design mit seinen schönen Identifer-Klassen für viele Dinge (Order, Product, UserAccount) ein Vorbild. <NAME_CORPUS_REPLACEMENT> muss es ja auch funktioniert haben.
+
+2. Wenn ich, um JPA benutzen zu können, Vererbung streichen muss, dann brauche ich gar kein Design erstellen sonder kann das gleich alles sein lassen.
+TAGGED_CONTENT:

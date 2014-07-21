@@ -1,0 +1,24 @@
+ID: 2734
+CREATION_DATETIME: 1383778800000
+MODIFICATION_DATETIME: 1383778800000
+TITLE: Welcher Thymeleaffehler? Der View sollte von Thymeleaf gerendert werden, das passiert bei dir nicht, ...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2728
+POSTING_TYPE: comment
+CONTENT:
+Welcher Thymeleaffehler? Der View sollte <NAME_CORPUS_REPLACEMENT> Thymeleaf gerendert werden, das passiert bei dir nicht, sonst würde sowas im Log stehen:
+
+```
+
+Looking up handler method for path /
+
+Returning handler method [public java. lang. String guestbook. controller. WelcomeController. index()]
+
+Last-Modified value for [/] is: -1
+
+Rendering view [org. thymeleaf. spring3. view. ThymeleafView@19256ca7] in DispatcherServlet with name 'dispatcherServlet'
+
+```
+
+Wie siehts im Blankweb bzw im Videoshop aus?
+TAGGED_CONTENT:

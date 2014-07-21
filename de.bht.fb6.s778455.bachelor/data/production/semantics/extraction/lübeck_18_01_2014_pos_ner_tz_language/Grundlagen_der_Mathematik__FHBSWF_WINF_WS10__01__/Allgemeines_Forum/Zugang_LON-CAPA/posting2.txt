@@ -1,0 +1,13 @@
+ID: 97768
+CREATION_DATETIME: 1286736085
+MODIFICATION_DATETIME: 1286736085
+TITLE: Re: Zugang LON-CAPA
+LANGUAGE: UNKNOWN
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97767
+CONTENT:
+Selbiges Problem... :-( 
+TAGGED_CONTENT:
+Selbiges_ADJA Problem_NN ..._$( :--LRB-_XY 

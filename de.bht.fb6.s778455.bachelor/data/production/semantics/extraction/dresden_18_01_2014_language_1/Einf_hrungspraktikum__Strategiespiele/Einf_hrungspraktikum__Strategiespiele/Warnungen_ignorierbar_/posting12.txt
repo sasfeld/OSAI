@@ -1,0 +1,12 @@
+ID: 1205
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: Du solltest Warnungen generell nicht auf die leichte Schulter nehmen und gerade bei den Parenthesis-W...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1204
+POSTING_TYPE: comment
+CONTENT:
+Du solltest Warnungen generell nicht auf die leichte <REMOVED_PERSON_ENTITY> nehmen und gerade bei den Parenthesis-Warnungen vlt. lieber die Klammern setzen, damit der Compiler auch wirklich tut, was Du willst und nicht, was die Dir vlt. doch nicht komplett geläufige Operator-Präzedenz ihm sagt.
+
+Bei meinem Spiel (othello) werde ich zumindest Erklärungen für die Warnungen und warum die ignorierbar sind verlangen.
+TAGGED_CONTENT:

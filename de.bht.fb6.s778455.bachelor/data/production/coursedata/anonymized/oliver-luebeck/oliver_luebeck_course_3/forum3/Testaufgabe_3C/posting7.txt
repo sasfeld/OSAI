@@ -1,0 +1,17 @@
+ID: 31
+CREATION_DATETIME: 1201198920000
+MODIFICATION_DATETIME: 1201198920000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 30
+CONTENT:
+
+    Hallo 
+
+Da haben Sie sehr recht... ^_^
+
+Ich ging in diesem Fall von einem Formfield aus, wo man was eintragen kann und nicht von einem Linefeed... :D
+
+Viele Grüße
+    
+TAGGED_CONTENT:

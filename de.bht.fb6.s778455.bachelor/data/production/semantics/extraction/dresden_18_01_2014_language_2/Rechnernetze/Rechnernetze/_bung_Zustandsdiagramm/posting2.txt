@@ -1,0 +1,10 @@
+ID: 2457
+CREATION_DATETIME: 1374703200000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: Irgendwie sind zu viele DatReq und DatInd drin, und ConRsp und ConCnf fehlen völlig.
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2456
+POSTING_TYPE: answer
+CONTENT:
+Irgendwie sind zu viele DatReq und DatInd drin, und ConRsp und ConCnf fehlen völlig.
+TAGGED_CONTENT:

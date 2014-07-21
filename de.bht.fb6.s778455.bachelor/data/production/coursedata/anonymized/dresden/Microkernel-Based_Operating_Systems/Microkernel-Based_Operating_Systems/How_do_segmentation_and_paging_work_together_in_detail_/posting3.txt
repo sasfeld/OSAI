@@ -1,0 +1,12 @@
+ID: 1516
+CREATION_DATETIME: 1363042800000
+MODIFICATION_DATETIME: 1363042800000
+TITLE: As Julian said his comments only apply to x86, so just a hint from amd64 land:
+You can only disable ...
+PARENT_POSTING_ID: 1515
+POSTING_TYPE: comment
+CONTENT:
+As <REMOVED_PERSON_ENTITY> said his comments only apply to x86, so <NAME_CORPUS_REPLACEMENT> a hint from amd64 land:
+You <NAME_CORPUS_REPLACEMENT> only disable paging in 32bit mode, not in 64 bit mode.
+Segmentation IS available in 64bit (and must be on), but the limits are not enforced (the base, however, is used, but only for FS and GS. CS, DS, ES and SS are ignored).
+TAGGED_CONTENT:

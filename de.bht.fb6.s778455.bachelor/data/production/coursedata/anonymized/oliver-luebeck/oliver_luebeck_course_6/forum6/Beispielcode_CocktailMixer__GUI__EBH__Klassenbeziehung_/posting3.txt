@@ -1,0 +1,32 @@
+ID: 84
+CREATION_DATETIME: 1295119980000
+MODIFICATION_DATETIME: 1295119980000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 83
+CONTENT:
+ 
+Liebe , lieber ,
+
+Danke fuer diese Loesung, die zeigt, dass Sie die Grundkonzepten der GUI sehr gut meistern. Prima! 5 Beobachtungen:
+
+1- GUIMeinCocktailMixer Methode initGUI
+die Zeile cockFenster = new Container(); ist ueberfluessig sogar irrefuehrend. Die naechste Zuweisung ist notwendig, sie macht die Verbindung mit dem JFrame-Objekt:
+cockFenster = getContentPane();
+Als Erinnerung hat das Content Pane eines JFrame-Objektes ein BorderLayout per default. Die Kombination der Methoden getContentPane() dann setLayout(), wie Sie machen, erlaubt das default Layout durch ein anderes zu ersetzen.
+
+2- Sie haben das Attribut CocktailBar cbar mit der Erreichbarkeit public deklariert. Warum?
+
+3- Warum finden Sie nuetzlich die JMenuItem-Objekte einen Namen durch den Aufruf der Methode setName() zu geben?
+
+4- Die Klasse GUICocktailMixerNeu ist hier wenig nuetzlich. Es ist besser nur die Klasse GUICocktailNeuPanel zu benutzen.
+
+5- Die Klasse CocktailBar braucht keine neue Methode neuerMixer(). Im Prinzip ist die Logik durch GUIs nicht betroffen. Die Zuweisung
+cbar = new CocktailBar(); in der Klasse GUIMeinCocktailMixer ist genug.
+
+Herr Suess Sie haben Recht: den Titel des Fensters zu aendern von der Klasse GUICocktailNeuPanel ist nicht mehr so leicht moeglich, wenn nur das CocktailBar-Objekt gereicht wird. Das Pop-Up aber geht leicht, das ParentComponent kann das JPanel sein:
+JOptionPane.showMessageDialog(this, "Cocktail gespeichert");
+
+Mit freundlichen Gruessen
+	
+TAGGED_CONTENT:

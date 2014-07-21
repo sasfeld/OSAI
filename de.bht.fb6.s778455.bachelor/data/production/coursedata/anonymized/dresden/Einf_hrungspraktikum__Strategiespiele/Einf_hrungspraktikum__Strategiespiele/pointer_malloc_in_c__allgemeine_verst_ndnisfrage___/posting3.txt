@@ -1,0 +1,11 @@
+ID: 1405
+CREATION_DATETIME: 1362783600000
+MODIFICATION_DATETIME: 1362783600000
+TITLE: ja natürlich kopiere ich das objekt, bevor ich p=NULL;
+wie ist der befehl dafür, ein objekt freizuge...
+PARENT_POSTING_ID: 1403
+POSTING_TYPE: comment
+CONTENT:
+ja natürlich kopiere ich das objekt, bevor ich p=NULL;
+wie ist der befehl dafür, ein objekt freizugeben, also zu löschen`? war das free(p); ?
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 2338
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Okay, ich hab' jetzt eine PPTX-Datei hochgeladen und alle Bilder der Präsentation als PNGs extrahiert...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Okay, ich hab' jetzt eine PPTX-Datei hochgeladen und alle <REMOVED_PERSON_ENTITY> der Präsentation als PNGs extrahiert.
+TAGGED_CONTENT:

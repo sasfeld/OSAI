@@ -1,0 +1,11 @@
+ID: 97792
+CREATION_DATETIME: 1287004182
+MODIFICATION_DATETIME: 1287004182
+TITLE: Beispiele von heute, Whiteboard bei 0:44:47
+PARENT_POSTING_ID: 0
+CONTENT:
+Wen es interessiert:
+oben : bijektiv
+mittig : nicht surjektiv weil nicht funktional; injektiv (a und b max. einmal zugeordnet)
+unten : funktional aber weder surjektiv (b nicht zugeordnet) noch injektiv (a mehrfach zugeordnet). Fehlende Injektivitaet verhindert Bildung der Umkehrfunktion auf zugeordneten Elementen. Fehlende Surjektivitaet verhindert Bildung der Umkehrfunktion auf nicht zugeordneten Elementen.
+TAGGED_CONTENT:

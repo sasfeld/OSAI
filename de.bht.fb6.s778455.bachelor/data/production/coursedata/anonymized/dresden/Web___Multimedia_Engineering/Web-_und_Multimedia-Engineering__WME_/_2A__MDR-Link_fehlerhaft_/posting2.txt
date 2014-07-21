@@ -1,0 +1,11 @@
+ID: 860
+CREATION_DATETIME: 1353884400000
+MODIFICATION_DATETIME: 1353884400000
+TITLE: http://www.mdr.de/mdr-info/news/nachrichten100-rss.xml funktioiert 1a
+Viel Erfolg :-)
+PARENT_POSTING_ID: 859
+POSTING_TYPE: answer
+CONTENT:
+http://www.mdr.de/mdr-info/news/nachrichten100-rss. xml funktioiert 1a
+Viel Erfolg :-)
+TAGGED_CONTENT:

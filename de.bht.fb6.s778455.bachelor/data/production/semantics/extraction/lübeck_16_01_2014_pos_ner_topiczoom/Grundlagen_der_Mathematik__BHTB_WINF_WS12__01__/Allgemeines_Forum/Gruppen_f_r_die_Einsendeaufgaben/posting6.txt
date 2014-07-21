@@ -1,0 +1,16 @@
+ID: 172109
+CREATION_DATETIME: 1350570207
+MODIFICATION_DATETIME: 1350570207
+TITLE: Re: Gruppen für die Einsendeaufgaben
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+POS_TAG: value:tze;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einsendeaufgabe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 171815
+CONTENT:
+Hallo,
+ich habe auch noch keine Gruppe für die Einsendeaufgabe. Sind noch Plätze frei?
+Grüße
+Necla
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, ich_PPER habe_VAFIN auch_ADV noch_ADV keine_PIAT Gruppe_NN für_APPR die_ART Einsendeaufgabe_NN ._$. Sind_VAFIN noch_ADV Plätze_NN frei_ADJD ?_$. Grüße_NN Necla_NE 

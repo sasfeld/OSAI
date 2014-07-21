@@ -1,0 +1,16 @@
+ID: 11
+CREATION_DATETIME: 1304083800000
+MODIFICATION_DATETIME: 1304083800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 10
+CONTENT:
+ 
+@(oder wer es weiß):
+
+Wenn ich einen zweiten Konstruktor(standort und fahrgestellnummer) erstelle, kann ich ja die bisherigen Objekte(auto 1 bis 3) nicht nochmal definieren. Diese habe ich ja bereits mit den ersten Konstruktor definiert. Ich erhalte die Ausgabe Objekte sind schon definiert.
+Erstellst du drei weitere Objekte, obwohl es sich noch um die gleichen Autos handelt?
+
+Viele Grüße, 
+   
+TAGGED_CONTENT:

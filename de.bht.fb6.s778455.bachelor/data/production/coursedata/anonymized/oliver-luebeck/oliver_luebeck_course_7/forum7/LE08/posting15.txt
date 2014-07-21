@@ -1,0 +1,18 @@
+ID: 18
+CREATION_DATETIME: 1304610120000
+MODIFICATION_DATETIME: 1304610120000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 5
+CONTENT:
+ 
+Hallo , hallo auch an alle Anderen
+
+ich habe ebenso wie Knut Probleme mit dem Zugriff auf EinfachesAuto aus AutoTest. Allerdings liegt mein Problem woanders. Wenn ich in der Klasse AutoTest auf EinfachesAuto auto1.farbe ... zugreifen will, erhalte ich die Fehlermeldung farbe has private accsess in EinfachesAuto.
+Ich habe noch nie in meinem Leben programmiert, bin absolute Anfängerin und weiß an dieser Stelle nicht weiter. Mein Programm EinfachesAuto läuft.
+
+Für Tipps wäre ich wirklich dankbar!
+
+Schöne Grüße, 
+   
+TAGGED_CONTENT:

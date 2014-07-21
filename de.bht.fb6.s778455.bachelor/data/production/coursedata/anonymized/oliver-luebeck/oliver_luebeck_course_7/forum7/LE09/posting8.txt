@@ -1,0 +1,13 @@
+ID: 49
+CREATION_DATETIME: 1304945580000
+MODIFICATION_DATETIME: 1304945580000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 48
+CONTENT:
+ 
+Hab die Abweichung noch auf zwei stellen runden lassen, dann klappt es auch über 15 mit der richtigen Ausgabe.
+
+lg
+   
+TAGGED_CONTENT:

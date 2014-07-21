@@ -1,0 +1,15 @@
+ID: 11
+CREATION_DATETIME: 1191423420000
+MODIFICATION_DATETIME: 1191423420000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 10
+CONTENT:
+
+hab selbst eine Antwort auf das Problem gefunden. Also falls jemand das gleiche Problem hat:
+
+File --> Properties --> und dort die Default-Einstellung "Cp1252" auf UTF-8 umstellen.
+
+Grüße
+    
+TAGGED_CONTENT:

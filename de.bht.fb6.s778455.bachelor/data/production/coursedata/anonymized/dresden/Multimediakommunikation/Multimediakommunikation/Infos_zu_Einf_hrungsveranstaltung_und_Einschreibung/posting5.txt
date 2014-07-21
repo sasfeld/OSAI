@@ -1,0 +1,9 @@
+ID: 1685
+CREATION_DATETIME: 1365458400000
+MODIFICATION_DATETIME: 1365458400000
+TITLE: Ich bin eben pünktlich wieder zurück von der Tagung, also findet alles natürlich wie geplant statt. :...
+PARENT_POSTING_ID: 1657
+POSTING_TYPE: comment
+CONTENT:
+Ich bin eben pünktlich wieder zurück <NAME_CORPUS_REPLACEMENT> der Tagung, also findet alles natürlich wie geplant statt. :-) 
+TAGGED_CONTENT:

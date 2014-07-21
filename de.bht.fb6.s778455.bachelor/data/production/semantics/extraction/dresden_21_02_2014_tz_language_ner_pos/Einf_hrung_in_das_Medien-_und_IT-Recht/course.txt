@@ -1,0 +1,15 @@
+ID: 110408003
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Einführung in das Medien- und IT-Recht
+LANGUAGE: GERMAN
+SUMMARY: null
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:2.65109701440329;degreegeneralization:2;uri:21999830
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+NER_TAG: value:IT-Recht;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:hrung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Medien;weight:0.0;uri:;postag:NN
+POS_TAG: value:Recht;weight:0.0;uri:;postag:NN

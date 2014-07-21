@@ -1,0 +1,22 @@
+ID: 25
+CREATION_DATETIME: 1194014940000
+MODIFICATION_DATETIME: 1194014940000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 23
+CONTENT:
+   
+Liebe , liebe Studierende,
+
+Ziel der Seite 13 ist einfach zu zeigen, dass die Java Bibliothek in Graphics noch viel mehr zu bieten hat. Wir werden in diesem Kurs die Möglichkeiten von Graphics2D nicht vertiefen.
+Die main Methode hat mit Graphics oder Graphics2D nichts zu tun, sondern mit der Tatsache, dass Rechteck2D eine Anwendung und kein Applet ist. Die Anwendung wird üblich mit Hilfe der main Methode ausgeführt.
+
+In diesem Beispiel möchte man der Benutzerin der Klasse die Möglichkeit geben, flexibel Titel, Breite und Hoehe der Grafik zu wählen. Daher diese 3 Parameter im Konstruktor. Wenn ein Objekt mit new erzeugt wird, wie in der main Methode, kann man dann frei die Werte für diese Parameter wählen.
+Dieses hier im Allgemeinen sich gut merken: es gibt 2 Hauptmöglichkeiten Software flexibel zu entwickeln. Die erste Möglichkeit ist durch die Benutzung von Parameter in Konstruktoren und Methoden. Die zweite Möglichkeit ist durch Interface und Vererbung.
+
+Die paint Methode der Oberklasse hier java.awt.Window wird überschrieben. Jenach Betriebsystem kann der Aufruf der Methode der Oberklasse (super.paint(g); ) für ein besseres Bild sorgen.
+Die cast Anweisung funktionniert, weil Graphics2D eine Unterklasse von Graphics ist. So wird die draw Methode der Klasse Graphics2D aufgerufen.
+
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

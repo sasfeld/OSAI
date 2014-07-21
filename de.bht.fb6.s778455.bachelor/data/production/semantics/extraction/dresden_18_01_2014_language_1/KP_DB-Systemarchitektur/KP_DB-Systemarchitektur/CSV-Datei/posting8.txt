@@ -1,0 +1,14 @@
+ID: 2209
+CREATION_DATETIME: 1373493600000
+MODIFICATION_DATETIME: 1373493600000
+TITLE: Aus den Diagrammen kann man sich so nicht wirklich viel rauslesen. Es fehlen die Achsenbezeichnungen ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2184
+POSTING_TYPE: answer
+CONTENT:
+Aus den Diagrammen kann man sich so nicht wirklich viel rauslesen. Es fehlen die Achsenbezeichnungen und die Namen der Messreihen sind auch nicht aussagekräftig (sowas wie "Spalte k" oder "kernel_5" sagen nichts aus).
+
+Außerdem dürfen die Linien der Diagramme keine 30 Pixel breit sein.
+
+In manchen <REMOVED_PERSON_ENTITY> kann ich auch nicht erkennen, warum <NAME_CORPUS_REPLACEMENT> teilweiese <REMOVED_PERSON_ENTITY> und teilweise Punkte drin sind.
+TAGGED_CONTENT:

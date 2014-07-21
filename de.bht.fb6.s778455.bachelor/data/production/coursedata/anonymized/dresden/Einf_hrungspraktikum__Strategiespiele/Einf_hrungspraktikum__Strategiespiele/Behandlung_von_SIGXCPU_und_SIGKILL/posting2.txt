@@ -1,0 +1,10 @@
+ID: 1437
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: SIGKILL kann man nicht abfangen, sondern dieses Signal führt immer zur sofortigen Beendung des Prozes...
+PARENT_POSTING_ID: 1436
+POSTING_TYPE: answer
+CONTENT:
+SIGKILL kann man nicht abfangen, sondern dieses Signal führt immer zur sofortigen Beendung des Prozesses.
+Ansonsten funktioniert es so wie im deinem Beispiel. Beachten solltest du, dass Signale zu beliebigen Zeitpunkten eintreffen können. D. h. du wirst an beliebiger Stelle unterbrochen, so dass man sehr vorsichtig sein muss was man in einem Signal-Handler macht (Beispiel: Du wirst in einer Funktion unterbrochen, die einen Lock hält. Diese Funktion darfst du im Signal-Handler daher nicht nochmal aufrufen, sonst verursachst du einen Deadlock). Siehe dafür auch ```man 7 signal```. <NAME_CORPUS_REPLACEMENT> ist eine Liste mit Funktionen, die man aufrufen darf. Generell ist es daher gut nur zu notieren, dass das Signal eingetroffen ist und die Reaktion darauf woanders durchzuführen.
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 896
+CREATION_DATETIME: 1354057200000
+MODIFICATION_DATETIME: 1354057200000
+TITLE: mit dem atom namespace eingebunden(<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XS...
+PARENT_POSTING_ID: 869
+POSTING_TYPE: comment
+CONTENT:
+mit dem atom namespace eingebunden(^xsl:stylesheet version="1. 0" xmlns:xsl="http://www.w3. org/1999/XSL/Transform" xmlns:atom="http://www.w3. org/2005/Atom"^) erzeugt der output bei mir immer ein (...)^html xmlns:atom="http://www.w3. org/2005/Atom"^^head^(...). das schmeckt dem validator nicht und ich versteh auch nicht warum es <NAME_CORPUS_REPLACEMENT> eingefügt wird.. mach ich was falsch oder gibts ne möglichkeit das zu unterbinden? (die ^ sind natürlich nur damit der code nicht ausgefiltert wird)
+TAGGED_CONTENT:

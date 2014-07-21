@@ -1,0 +1,15 @@
+ID: 9
+CREATION_DATETIME: 1192610700000
+MODIFICATION_DATETIME: 1192610700000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Ich habe gerade die Lektion Abstrakte Klassen und Interfaces durchgearbeitet und mir ist alles klar von der Programmierung her, allerdings erschließt sich mir der Sinn von inneren Klassen nicht. Also klar ich kann in der Methode auf die Klasse zugreifen, doch wozu?
+
+ 
+
+Kennt jemand ein sinnvolles Beispiel wo es wirklich Sinn macht, eine innere Klasse zu verwenden?
+  
+TAGGED_CONTENT:

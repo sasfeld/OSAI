@@ -1,0 +1,9 @@
+ID: 2301
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Powerpoint meldet bei mir, dass die Dateien (im SVN; pres_diagramme und Abschluss_Scheduling_Evaluati...
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Powerpoint meldet bei mir, dass die Dateien (im SVN; pres_diagramme und Abschluss_Scheduling_Evaluation) irgendwie kaputt sind. Wollen wir dann nochmal über die Folien sprechen, wie bereits vorgeschlagen wurde?
+TAGGED_CONTENT:

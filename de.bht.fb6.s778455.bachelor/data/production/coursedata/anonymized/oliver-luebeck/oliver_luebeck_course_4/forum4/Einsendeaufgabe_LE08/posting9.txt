@@ -1,0 +1,21 @@
+ID: 48
+CREATION_DATETIME: 1177867140000
+MODIFICATION_DATETIME: 1177867140000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 47
+CONTENT:
+
+ Liebe Studierende,
+
+wie waere es mit:
+System.out.println(auto1.alter());
+?
+Siehe LE08 S.10 wie, Methoden der Klasse Math mit einem Rückgabewert (solche Methoden werden auch Funktionen genannt) benutzt werden.
+
+Mit freundlichen Gruessen
+
+PS: Packages oder Pakete sind fuer diese Aufgabe nicht notwendig. Es reicht, dass alle Klassen im gleichen Verzeichnis sind. 
+
+    
+TAGGED_CONTENT:

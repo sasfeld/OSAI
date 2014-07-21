@@ -1,0 +1,18 @@
+ID: 58
+CREATION_DATETIME: 1180898220000
+MODIFICATION_DATETIME: 1180898220000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Ist es mir freigestellt, ob ich die Ausnahme mit der Ausgabe eines Maximal- oder eines Minimalwertes für den Typ Integer behandle oder ist es an eine Bedingung geknüpft, ob maximaler oder minimaler Zahlwert ausgegeben werden?
+
+Grund meiner Frage:
+Bei einer vorangestellten Bedingung wird es für mich schwierig eine Prüfung aufzustellen, da wir im Rechenwerk nur mit positiven Zahlen rechnen und die Division durch "Null" hier nur auf die positive Zahl angewendet werden kann. Bei der Division einer negativen Zahl durch "Null" gibt es auch einen mathematischen Fehler.
+
+Ich würde mich daher jetzt an der Stelle für die Ausgabe des größtmöglichen Integerwertes entscheiden, wenn eine Ausnahme geworfen wird.
+
+Viele Grüße
+    
+TAGGED_CONTENT:

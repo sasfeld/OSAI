@@ -1,0 +1,50 @@
+ID: 778
+CREATION_DATETIME: 1352847600000
+MODIFICATION_DATETIME: 1352934000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 721
+POSTING_TYPE: comment
+CONTENT:
+Hallo,
+
+ich denke du meinst genau das Richtige: wir sollen einmal die "Expandierten Knoten" ausgeben - das sind einfach alle Knoten in deinem Graphen -1 (da alle Knoten durch Expansion entstanden sind, außer dem Wurzelknoten) Und einmal den "Effektiven Branchingfaktor", zu dessen ganz simpler Berechnung man allerdings die "Parentnodes" oder "Expandierten Nodes" brauch, also alle die, die Kinder haben. Denn bei der Betrachtung geht es um die Frage: bei einem Programm welches alle Zustände berechnet und untersucht, wie schnell wächst die Zustandsmenge durch (durchschnittliche) Verzweigung ?
+
+Wie Anon666 habe ich es auch mit 2 globalen Zählern (parents, childs) gemacht und ich denke mal alles andere ist unnötig kompliziert:
+
+```java
+
+expandBestNode() {
+
+//besten Knoten holen und alle nützlichen Kinder berechnen
+
+parents++;
+
+childs += usefulChilds. size();
+
+...
+
+}
+
+```
+
+und ganz am Ende einfach: `(double)childs/parents` um Kinder pro Elternknoten zu bekommen.
+
+Beim simple15puzzle komme ich damit auf:
+
+```java
+
+ Zeitaufwand: 31ms
+
+ Gelöst in 25 Zügen
+
+ Expandierte Knoten: 12733
+
+ Effektiver Branchingfaktor: 1. 93
+
+```
+
+Läufts denn bei dir überhaupt erstmal ? Das ist denke ich mal das Wichtigste :)
+
+mfg
+TAGGED_CONTENT:

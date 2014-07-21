@@ -1,0 +1,24 @@
+ID: 32
+CREATION_DATETIME: 1304609700000
+MODIFICATION_DATETIME: 1304609700000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 31
+CONTENT:
+
+Ich danke euch allen für das zahlreiche Feedback !
+
+Ich verwende auch Eclipse aber ich habe es da auch nicht zu laufen gebracht !
+Ich bin jetzt dazu übergegangen die Methode die ich brauche in meine Klasse zu übernehmen und sie direkt anzusprechen!
+
+Weiß jemand wie man es bei Eclipse einstellen muss das er den Import:
+"vfh.prog1.bib.Konsole" erkennt ??
+Ich habe das ganze über EXTERNAL CLASS FOLDER in den Project Settings versucht einzubinden....
+Dann wollte er aber immer den Import
+auf "prog1.bib.Konsole" ändern (über Fix Import) hat dann aber beim Compilieren eine ClassNotFound Exception geworfen ...
+
+Naja ich habe es jetzt anders gelöst ... und werde noch weiter rumprobieren !!
+
+Schönen Abend noch !!
+   
+TAGGED_CONTENT:

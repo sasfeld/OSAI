@@ -1,0 +1,10 @@
+ID: 2210
+CREATION_DATETIME: 1373493600000
+MODIFICATION_DATETIME: 1373493600000
+TITLE: Es wäre schön, wenn ihr morgen schon ein paar Performance Results für die Testcases mit der Korrelati...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2165
+POSTING_TYPE: comment
+CONTENT:
+Es wäre schön, wenn ihr morgen schon ein paar Performance Results für die Testcases mit der Korrelationsanalyse zeigen könnt.
+TAGGED_CONTENT:

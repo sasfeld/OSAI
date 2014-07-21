@@ -1,0 +1,9 @@
+ID: 1285
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: I would not rule that out. ;) Let me think about it for some time.
+PARENT_POSTING_ID: 1143
+POSTING_TYPE: comment
+CONTENT:
+I would not rule that out. ;) Let me think about it for some time.
+TAGGED_CONTENT:

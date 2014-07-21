@@ -1,0 +1,10 @@
+ID: 2558
+CREATION_DATETIME: 1381701600000
+MODIFICATION_DATETIME: 1381960800000
+TITLE: An english course - so far - is not planned. If, however there are a certain number of students (appr...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2550
+POSTING_TYPE: answer
+CONTENT:
+An english course - so far - is not planned. If, however there are a certain number of students (approx. 10) who would attend to an english course one might talk about it.
+TAGGED_CONTENT:

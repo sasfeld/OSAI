@@ -1,0 +1,10 @@
+ID: 2693
+CREATION_DATETIME: 1383260400000
+MODIFICATION_DATETIME: 1384038000000
+TITLE: In Xcode go to the Organizer. (Either cmd+2 or in the Menubar Window>Organizer). Connect your device ...
+PARENT_POSTING_ID: 2691
+POSTING_TYPE: answer
+CONTENT:
+In Xcode go to the Organizer. (Either cmd+2 or in the Menubar Window>Organizer). Connect your device with your Mac and select it in the "Device" tap (should be active by default). At the bottom of the window you'll find a button which's called "Add to Member Center". Click it and follow the instructions. That should work.
+<REMOVED_PERSON_ENTITY>, you <NAME_CORPUS_REPLACEMENT> send me your devices identifier and your name via eMail (martin. weissbach2@mailbox. tu-dresden. de) and I'll add it manually. The devices identifier <NAME_CORPUS_REPLACEMENT> be found in Xcode as well when your device is selected. The point "Identifier" in the summary section.
+TAGGED_CONTENT:

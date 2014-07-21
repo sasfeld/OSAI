@@ -1,0 +1,116 @@
+ID: 1967
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Ich habe die PATH-Variable gesetzt, aber make läuft immer noch nicht erfolgreich. es kommen diverse F...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Ich habe die PATH-Variable gesetzt, aber make läuft immer noch nicht erfolgreich. es kommen diverse Fehler aus CLevertrustee. 
+
+```ruby
+
+opencl@wimpy:~/Documents/TestStefanie/test4/testCLT$ make
+
+make -C ../CLeverTrustee
+
+make[1]: Entering directory `/home/opencl/Documents/TestStefanie/test4/CLeverTrustee'
+
+g++ -lOpenCL `llvm-config --libs` `llvm-config --ldflags`  obj/CLeverTrustee. o   -o obj/CLeverTrustee
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 0 has invalid symbol index 10
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 1 has invalid symbol index 11
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 2 has invalid symbol index 2
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 3 has invalid symbol index 2
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 4 has invalid symbol index 10
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 5 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 6 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 7 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 8 has invalid symbol index 2
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 9 has invalid symbol index 2
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 10 has invalid symbol index 11
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 11 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 12 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 13 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 14 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 15 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 16 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 17 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 18 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 19 has invalid symbol index 12
+
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1. o(. debug_info): relocation 20 has invalid symbol index 19
+
+/usr/lib/gcc/x86_64-linux-gnu/4. 6/../../../x86_64-linux-gnu/crt1. o: In function `_start':
+
+(. text+0x20): undefined reference to `main'
+
+obj/CLeverTrustee. o: In function `clt::CLeverTrustee::createKernel(std::basic_string, std::allocator >, std::basic_string, std::allocator >)':
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:33: undefined reference to `clt::Kernel::Kernel(std::basic_string, std::allocator >, clt::CLeverTrustee*)'
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:35: undefined reference to `clt::Program::Program(std::basic_string, std::allocator >)'
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:36: undefined reference to `clt::Feedback::analyzeKernel(std::basic_string, std::allocator >, std::basic_string, std::allocator >, clt::Kernel*)'
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:37: undefined reference to `clt::Device::createclKernel(clt::Kernel*, clt::Program*)'
+
+obj/CLeverTrustee. o: In function `clt::CLeverTrustee::execute(clt::Kernel&, std::vector >, std::vector >, clt::ExecutionPriority, int, int, int, int, int, int, unsigned long)':
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:46: undefined reference to `clt::Feedback::getOptimalDevice(clt::Kernel*, std::vector >, unsigned long)'
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:46: undefined reference to `clt::Device::execute(clt::Kernel&, std::vector >, std::vector >, clt::ExecutionPriority, int, int, int, int, int, int)'
+
+obj/CLeverTrustee. o: In function `clt::CLeverTrustee::initializeOpenCL()':
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:80: undefined reference to `clGetPlatformIDs'
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:82: undefined reference to `clGetPlatformIDs'
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:89: undefined reference to `clGetDeviceIDs'
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:91: undefined reference to `clGetDeviceIDs'
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:110: undefined reference to `clt::Device::Device(_cl_platform_id*&, _cl_device_id*&)'
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:115: undefined reference to `clt::Device::getDeviceType()'
+
+obj/CLeverTrustee. o: In function `CLeverTrustee':
+
+/home/opencl/Documents/TestStefanie/test4/CLeverTrustee/src/CLeverTrustee. cpp:65: undefined reference to `clt::Feedback::Feedback(clt::CLeverTrustee&, clt::ProgramAnalyzer&)'
+
+collect2: ld returned 1 exit status
+
+make[1]: *** [obj/CLeverTrustee] Error 1
+
+make[1]: Leaving directory `/home/opencl/Documents/TestStefanie/test4/CLeverTrustee'
+
+make: *** [lib/libCLeverTrustee. so] Error 2
+
+opencl@wimpy:~/Documents/TestStefanie/test4/testCLT$
+
+```
+
+Ich bin morgen vor 10 Uhr im Lab <NAME_CORPUS_REPLACEMENT>. Vielleicht hat einer <NAME_CORPUS_REPLACEMENT> euch vorher ein wenig Zeit und wir schauen nochmal.
+
+Edit: make -B bringt das gleiche. Wenn ich make im CLeverTrustee ausführe sieht es ähnlich aus.
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 1845
+CREATION_DATETIME: 1369087200000
+MODIFICATION_DATETIME: 1369087200000
+TITLE: Gut, dann werde ich es so weiter handhaben. 
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Gut, dann werde ich es so weiter handhaben. 
+
+Eine weitere Frage: 
+
+In der Funktion createKernel in der CLeverTrustee-Klasse, wofür sind die beiden Parameter genau gedacht? So richtig werde ich daraus noch nicht schlau. 
+TAGGED_CONTENT:

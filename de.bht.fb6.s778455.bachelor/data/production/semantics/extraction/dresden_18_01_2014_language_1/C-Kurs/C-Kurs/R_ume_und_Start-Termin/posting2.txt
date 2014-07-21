@@ -1,0 +1,10 @@
+ID: 2697
+CREATION_DATETIME: 1383433200000
+MODIFICATION_DATETIME: 1383433200000
+TITLE: Die Dame von der Raumplanung ist erst Donnerstag gegen 1400 Uhr wieder anwesend. Sobald ich genaues w...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2694
+POSTING_TYPE: answer
+CONTENT:
+Die Dame <NAME_CORPUS_REPLACEMENT> der Raumplanung ist erst <REMOVED_PERSON_ENTITY> gegen 1400 Uhr wieder anwesend. Sobald ich genaues weiß, gibt es ein Anouncement.
+TAGGED_CONTENT:

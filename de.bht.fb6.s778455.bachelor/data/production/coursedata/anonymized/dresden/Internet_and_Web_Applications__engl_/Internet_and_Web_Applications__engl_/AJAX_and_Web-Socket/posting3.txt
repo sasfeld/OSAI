@@ -1,0 +1,11 @@
+ID: 2531
+CREATION_DATETIME: 1377727200000
+MODIFICATION_DATETIME: 1377727200000
+TITLE: Since I think Adai is refering to the communication model taxonomy of Prof. Schill, which counts AJAX...
+PARENT_POSTING_ID: 2479
+POSTING_TYPE: answer
+CONTENT:
+Since I think Adai is refering to the communication model taxonomy of Prof. <REMOVED_PERSON_ENTITY>, which counts AJAX as a non blocking technique where WebSocket is regarded as fully asynchronous, I wanted to add the following: 
+According to the script (page 34), the main feature of AJAX is wiping off the "click, wait, and refresh" paradigm, leading to a non blocking approach. Still, there is a high dependance between HTTP requests/response involved. For every serverside update there is HTTP communication going between the AJAX engine and the server itself.
+In contrast to that, WebSocket is using HTTP for establishing the websocket stream. As <REMOVED_PERSON_ENTITY> already mentioned, it uses full-duplex communication, so there aren't any drawbacks of long-polling.
+TAGGED_CONTENT:

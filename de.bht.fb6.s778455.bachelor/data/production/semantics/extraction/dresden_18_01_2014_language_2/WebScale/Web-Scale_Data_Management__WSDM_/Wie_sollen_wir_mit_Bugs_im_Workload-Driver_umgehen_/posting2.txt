@@ -1,0 +1,10 @@
+ID: 749
+CREATION_DATETIME: 1352761200000
+MODIFICATION_DATETIME: 1352934000000
+TITLE: Am besten ihr postet hier, dann werden die von mir korrigiert. Den Bug hab ich am Freitag gleich im S...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 710
+POSTING_TYPE: answer
+CONTENT:
+Am besten ihr postet hier, dann werden die <NAME_CORPUS_REPLACEMENT> mir korrigiert. Den Bug hab ich am <REMOVED_PERSON_ENTITY> gleich im SVN gefixt. Es lag wie <NAME_CORPUS_REPLACEMENT> dir vermutet an unterschiedlichen Wertebereichen der range und randint Funktionen die benutzt wurden.
+TAGGED_CONTENT:

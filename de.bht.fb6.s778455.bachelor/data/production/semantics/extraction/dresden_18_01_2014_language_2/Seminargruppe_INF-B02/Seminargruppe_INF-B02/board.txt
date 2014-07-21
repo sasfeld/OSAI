@@ -1,0 +1,7 @@
+ID: 2154338
+CREATION_DATETIME: 1350424800000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Seminargruppe INF-B02
+LANGUAGE: UNKNOWN
+INTRO: Die Seminargruppe INF-B02 betreffende, allgemeine Fragen und Anliegen können hier eingetragen werden.
+TYPE: null

@@ -1,0 +1,11 @@
+ID: 278
+CREATION_DATETIME: 1349906400000
+MODIFICATION_DATETIME: 1349992800000
+TITLE: Ich fände folgende Op
+PARENT_POSTING_ID: 99
+POSTING_TYPE: answer
+CONTENT:
+Ich fände folgende Optionen sinnvoll:
+* tägliche Emails mit Updates des Tages für abonnierte Kurse
+* wöchentliche Emails mit Updates für abonnierte Kurse
+TAGGED_CONTENT:

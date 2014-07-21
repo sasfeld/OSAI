@@ -1,0 +1,16 @@
+ID: 1033
+CREATION_DATETIME: 1357858800000
+MODIFICATION_DATETIME: 1357858800000
+TITLE: Das Problem ist jetzt gelöst!
+Ich habe soeben folgende verbindliche Auskunft von der Prüfungsausschu...
+PARENT_POSTING_ID: 727
+POSTING_TYPE: answer
+CONTENT:
+Das Problem ist jetzt gelöst!
+Ich habe soeben folgende verbindliche Auskunft <NAME_CORPUS_REPLACEMENT> der Prüfungsausschussvorsitzenden erhalten:
+> Statt "Vorlesungen und/oder Seminare" soll es bei dem Kuerteil in INF-BAS3
+>   Vorlesung mit Uebungen und/oder Vorlesung ohne Uebungen und/oder Seminare
+> heissen.  Diese Regelung gilt ab sofort. Dem Pruefungsamt habe ich bescheid gesagt,
+> dass diese Regelung auf den Webseiten bekanntgegeben wird.
+Hoffe, dass diese Regelung allen gefällt :-)
+TAGGED_CONTENT:

@@ -1,0 +1,18 @@
+ID: 1611
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Interessant wäre auch noch ob die Funktion ein Move zurückgibt oder eine Referenz &Move, letzteres wü...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+POS_TAG: value:Move;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Referenz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Funktion;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1602
+POSTING_TYPE: comment
+CONTENT:
+Interessant wäre auch noch ob die Funktion ein Move zurückgibt oder eine Referenz &Move, letzteres würde das Problem erklären, <NAME_CORPUS_REPLACEMENT> der lokale Move nach verlassen der Funktion <LEARNED_PERSON_NAME_REPLACEMENT> nicht mehr existiert.
+TAGGED_CONTENT:
+Interessant_ADJD wäre_VAFIN auch_ADV noch_ADV ob_KOUS die_ART Funktion_NN ein_ART Move_NN zurückgibt_VVFIN oder_KON eine_ART Referenz_NN &_KON Move_NN ,_$, letzteres_PIS würde_VAFIN das_ART Problem_NN erklären_VVINF ,_$, <_KON NAME_CORPUS_REPLACEMENT_NE >_VVFIN der_ART lokale_ADJA Move_NN nach_APPO verlassen_VVFIN der_ART Funktion_NN <_CARD LEARNED_PERSON_NAME_REPLACEMENT_NN >_VVFIN nicht_PTKNEG mehr_ADV existiert_VVFIN ._$. 

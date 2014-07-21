@@ -1,0 +1,9 @@
+ID: 182623
+CREATION_DATETIME: 1353664510
+MODIFICATION_DATETIME: 1353664510
+TITLE: Praxisveranstaltung
+PARENT_POSTING_ID: 0
+CONTENT:
+<REMOVED_PERSON_ENTITY> jemand wann genau jetzt die Praxisveranstaltung beginnt? Im Skript steht heute allerdings keine Uhrzeit.
+<REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

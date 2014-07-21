@@ -1,0 +1,12 @@
+ID: 69
+CREATION_DATETIME: 1291653780000
+MODIFICATION_DATETIME: 1291653780000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 68
+CONTENT:
+ 
+Danke schön - es funktioniert.
+Manchmal sind es nur (wichtige) Kleinigkeiten, die es zum Leben erwecken :-)
+    
+TAGGED_CONTENT:

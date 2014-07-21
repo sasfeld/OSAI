@@ -1,0 +1,9 @@
+ID: 565
+CREATION_DATETIME: 1351375200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+... dann könnt ihr diese gern im [allgemeinen Kurs](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/courses/2154328) stellen. Dieser ist extra dafür angelegt. Scheut euch nicht Fragen zum allgemeinen Studienverlauf, zur Prüfungsordnung, zum Mensaessen, ... oder was euch gerade beschäftigt, zu stellen. 
+TAGGED_CONTENT:

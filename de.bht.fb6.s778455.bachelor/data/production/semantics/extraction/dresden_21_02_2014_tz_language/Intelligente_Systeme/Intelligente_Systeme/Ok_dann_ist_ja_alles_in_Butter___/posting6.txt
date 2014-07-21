@@ -1,0 +1,27 @@
+ID: 724
+CREATION_DATETIME: 1352502000000
+MODIFICATION_DATETIME: 1352934000000
+TITLE: Ich denke nicht, dass der Effektive Branching Faktor und die Anzahl der durchschnittlich expandierten...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Suchbäume;weight:1.0;significance:6.35427475761695;degreegeneralization:7;uri:20808062
+TOPIC_ZOOM_TAG: value:Datenstrukturen;weight:1.0;significance:6.35427475761695;degreegeneralization:6;uri:20808079
+TOPIC_ZOOM_TAG: value:Praktische Informatik;weight:1.0;significance:3.67834569087893;degreegeneralization:5;uri:20899199
+TOPIC_ZOOM_TAG: value:Forschung;weight:1.0;significance:2.52445328033462;degreegeneralization:4;uri:21471079
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:2.51211272377639;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:2.50435355391847;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:2.50390086036106;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:1.0;significance:2.47532165344109;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:Forschung und Entwicklung;weight:1.0;significance:2.46895214055237;degreegeneralization:3;uri:21603526
+TOPIC_ZOOM_TAG: value:Literatur;weight:1.0;significance:2.45975455678823;degreegeneralization:3;uri:21998198
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:2.00351838218053;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.83083484620539;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Kunst, Kultur, Musik;weight:1.0;significance:1.52385346833743;degreegeneralization:2;uri:21999796
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+PARENT_POSTING_ID: 718
+POSTING_TYPE: answer
+CONTENT:
+Ich denke nicht, dass der Effektive Branching Faktor und die Anzahl der durchschnittlich expandierten Knoten das gleiche sind. Ersterer soll m. E. ein möglichst konstantes Maß der Heuristik für alle Probleminstanzen sein, letzteres ist ein Durchschnittswert für eine konkrete Instanz, die scheinbar stärker schwanken kann, sonst hätten sich die KI-Forscher (<REMOVED_PERSON_ENTITY> 1971) nicht diese Formel überlegt. (Leider habe ich keine Literatur gefunden, welche die Begriffe konkret abgrenzt.) Ansonsten hat Herr <REMOVED_PERSON_ENTITY> in meiner Übung folgende Formel genutzt $N = 1 + b + b^2 + \dots + b^{d-1} +\frac{b^d}{2}$, weil auf der untersten Ebene des Suchbaums durchschnittlich nur die Hälfte der Knoten expandiert werden.
+TAGGED_CONTENT:

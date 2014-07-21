@@ -1,0 +1,14 @@
+ID: 45
+CREATION_DATETIME: 1193316600000
+MODIFICATION_DATETIME: 1193316600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 43
+CONTENT:
+ 
+ja. Habe aber den Fehler gefunden.
+
+Habe aus Versehen die package-Anweisung in der ersten Zeile vorm Kopieren gelöscht, dadurch waren die einzelnen Klassen nicht mehr zusammengehörig.
+
+    
+TAGGED_CONTENT:

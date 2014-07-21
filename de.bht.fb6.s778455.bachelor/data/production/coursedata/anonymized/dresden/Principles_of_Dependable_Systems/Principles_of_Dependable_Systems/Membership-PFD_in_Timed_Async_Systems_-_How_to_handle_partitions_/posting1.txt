@@ -1,0 +1,15 @@
+ID: 921
+CREATION_DATETIME: 1354143600000
+MODIFICATION_DATETIME: 1383865200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+A perfect failure detector cannot be implemented in a completely asynchronous system. In a timed async. system, however, one <NAME_CORPUS_REPLACEMENT> simulate a PFD, e. g. using the membership approach.
+When using exclusive resources, problem arises when nodes that seemed to be dead wake up again. In that case two nodes would access the resource, which should not happen. The solution is to kill those zombie-nodes either by SONITH or by watchdogs/timers. The slides explain these concepts pretty well.
+My question is: what happens in case of partitioning of the system into to parts A and B? 
+The membership-views will be disjunctive and the nodes from partition A will think all nodes from B are dead and vice versa. 
+In case of SONITH will they start fighting against each other killing their power supplies etc?
+Or is the scenario not possible within timed-async system?
+Thanks!
+TAGGED_CONTENT:

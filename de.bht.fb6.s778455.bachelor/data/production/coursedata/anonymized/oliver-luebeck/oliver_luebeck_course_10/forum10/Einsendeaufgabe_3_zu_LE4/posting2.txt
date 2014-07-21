@@ -1,0 +1,19 @@
+ID: 6
+CREATION_DATETIME: 1192556220000
+MODIFICATION_DATETIME: 1192556220000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 5
+CONTENT:
+
+Lieber , liebe Studierende,
+
+ 
+
+ich bin enttäuscht, dass keiner/keine soweit geantwortet hat. Weiss es wirklich keine/keiner?
+
+Wie in der LE02 und in der 1. Web-Konferenz erklärt, benutzt man die Schnittstelle Serialzable nur für Klassen, für denen man die erzeugte Objekte als Objekt in eine Datei speichern möchte.
+
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="11449" moduleid="55389" modulename="forum" contextid="78618">
+  <forum id="11449">
+    <type>general</type>
+    <name>Fachforum zum Teil II</name>
+    <intro>Hier können Sie Fachfragen zum Teil II diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1218802758</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="36376">
+        <name>Tarski's world</name>
+        <firstpost>97804</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1284023082</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97804">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1284023082</created>
+            <modified>1284023082</modified>
+            <mailed>1</mailed>
+            <subject>Tarski's world</subject>
+            <message>Beispiel zum Ueben (Anleitung im Online-Chat). Start mit java -jar tarski.jar
+</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36377">
+        <name>Parallelogrammfläche</name>
+        <firstpost>97805</firstpost>
+        <userid>3707</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1293043631</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97805">
+            <parent>0</parent>
+            <userid>3707</userid>
+            <created>1292760174</created>
+            <modified>1292760174</modified>
+            <mailed>1</mailed>
+            <subject>Parallelogrammfläche</subject>
+            <message>Hallo,&lt;br /&gt;&lt;br /&gt;kann mir mal bitte Jemand auf die Sprünge helfen, wo hier der Fehler sein soll? Ist doch genau das, was wir bei der letzten Präsenz durchgenommen haben.&lt;br /&gt;&lt;br /&gt;&lt;img vspace="0" hspace="0" border="0" align="baseline" src="http://www.schigel.de/mathe.JPG" /&gt;&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97806">
+            <parent>97805</parent>
+            <userid>3661</userid>
+            <created>1292840822</created>
+            <modified>1292840822</modified>
+            <mailed>1</mailed>
+            <subject>Re: Parallelogrammfläche</subject>
+            <message>Versuchen Sie es mal mit dem Spatprodukt statt mit dem Kreuzprodukt. Das was Sie ausrechnen auf dem Zettel ist die Laenge des orthogonalen Vektors von a und b, also etwas komplett anderes.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97807">
+            <parent>97806</parent>
+            <userid>3707</userid>
+            <created>1292949072</created>
+            <modified>1292949969</modified>
+            <mailed>1</mailed>
+            <subject>Re: Parallelogrammfläche</subject>
+            <message> Hallo Prof. Jensen,&lt;br /&gt;&lt;br /&gt;sorry, aber ich blicke echt nicht mehr durch. Laut verschiedenen &amp;quot;Anleitungen&amp;quot; wird das so berechnet, da der Betrag des Vektorproduktes = dem Flächeninhalt sein soll:&lt;br /&gt;&lt;br /&gt;&lt;img vspace="0" hspace="0" border="0" align="baseline" src="http://www.schigel.de/parallelogramm.jpg" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97808">
+            <parent>97807</parent>
+            <userid>3661</userid>
+            <created>1293038718</created>
+            <modified>1293038982</modified>
+            <mailed>1</mailed>
+            <subject>Re: Parallelogrammfläche</subject>
+            <message>Senden Sie mir bitte mal auf Loncapa die Referenz auf die Aufgabe. Ich seh's mir an. Ihre Frage bezieht sich auf LO07: Seite 16-17. Da ist in der Tat etwas mit dem Flaecheninhalt zu finden. Ich dachte zuerst, Sie meinen eigentlich das Volumen. Die Frage ist, ob die Berechnung der Aufgabenstellung entspricht, oder ob noch etwas anderes beachtet werden muss.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97809">
+            <parent>97808</parent>
+            <userid>3661</userid>
+            <created>1293039823</created>
+            <modified>1293039823</modified>
+            <mailed>1</mailed>
+            <subject>Re: Parallelogrammfläche</subject>
+            <message>Ich glaube die Aufgabe gefunden zu haben. Der Rechenweg wie Sie ihn meinen geht auch in meiner Aufgabenvariante nicht. Ich muss das nach den heutigen Chats probieren, woran es liegt.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97810">
+            <parent>97807</parent>
+            <userid>3661</userid>
+            <created>1293043631</created>
+            <modified>1293043631</modified>
+            <mailed>1</mailed>
+            <subject>Re: Parallelogrammfläche</subject>
+            <message>Geben Sie bitte das Ergebnis in der Form sqrt(...) ein und dann passt es. Das System nimmt die (evtl. gerundete) Ergebnisform nicht an, aber die Norm des Vektors als Term innerhalb einer Quadratwurzel. Daher: sqrt(a^2+b^2+c^2) mit a, b und c den passenden Zahlen. Das ist in der Aufgabe nicht gut erklaert, dass das so erwartet wird.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="101158">
+        <userid>3661</userid>
+      </subscription>
+      <subscription id="101159">
+        <userid>3707</userid>
+      </subscription>
+      <subscription id="101160">
+        <userid>3701</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

@@ -1,0 +1,16 @@
+ID: 47
+CREATION_DATETIME: 1288713780000
+MODIFICATION_DATETIME: 1288713780000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 46
+CONTENT:
+ 
+Hi ,
+
+soweit ich das überblicken kann, musst du noch "extends Frame" machen.
+Dann sollte es gehen.
+
+Grüße
+	
+TAGGED_CONTENT:

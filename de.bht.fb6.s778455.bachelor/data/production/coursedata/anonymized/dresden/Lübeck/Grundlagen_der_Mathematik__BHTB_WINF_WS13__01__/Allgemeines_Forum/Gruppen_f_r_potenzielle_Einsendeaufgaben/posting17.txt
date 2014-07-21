@@ -1,0 +1,11 @@
+ID: 237719
+CREATION_DATETIME: 1380631623
+MODIFICATION_DATETIME: 1380631623
+TITLE: Re: Gruppen für potenzielle Einsendeaufgaben
+PARENT_POSTING_ID: 237605
+CONTENT:
+Hallo,
+ich möchte mich gerne eurer Gruppe anschließen. Mathe-Unterricht ist bei mir zwar schon eine <REMOVED_PERSON_ENTITY> her, ich hatte zum Thema aber immer einen sehr guten Draht.
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

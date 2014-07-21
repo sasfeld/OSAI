@@ -1,0 +1,9 @@
+ID: 2565
+CREATION_DATETIME: 1381874400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+*Morgen (17. 10. 2013)* findet die Einführungsveranstaltung des Hauptseminars **Paralleles Programmieren** in der *3. DS (11:10-12:40 Uhr)* im <REMOVED_PERSON_ENTITY> *INF/E001* statt.
+TAGGED_CONTENT:

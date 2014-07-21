@@ -1,0 +1,25 @@
+ID: 1
+CREATION_DATETIME: 1190292300000
+MODIFICATION_DATETIME: 1190292300000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo
+
+Zu Eurer Information, unter Eclipse funktioniert die Anweisung "java.io.Console" nicht.
+Hier ein Link: https://bugs.eclipse.org/bugs/show_bug.cgi?id=122429
+
+Wenn man
+java.io.Console konsole = System.console();
+
+durch diese Zeile ersetzt:
+
+java.io.BufferedReader konsole = new BufferedReader(new InputStreamReader(System.in));
+
+funktioniert das Programm auch unter Eclipse wie erwartet.
+
+Grüsse
+    
+TAGGED_CONTENT:

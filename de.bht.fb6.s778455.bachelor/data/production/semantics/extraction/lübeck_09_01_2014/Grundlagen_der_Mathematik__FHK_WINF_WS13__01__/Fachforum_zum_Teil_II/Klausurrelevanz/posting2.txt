@@ -1,0 +1,10 @@
+ID: 246073
+CREATION_DATETIME: 1382106001
+MODIFICATION_DATETIME: 1382106001
+TITLE: Re: Klausurrelevanz
+TOPIC_ZOOM_TAG: value:Schäden und Verluste;weight:1.0;significance:6.42069095507214;degreegeneralization:4;uri:20906934
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+PARENT_POSTING_ID: 245933
+CONTENT:
+Es ist  nicht Klausurrelevant. Schaden dürfte es aber nicht, es zumindest inhaltlich zu überfliegen ;-)
+TAGGED_CONTENT:

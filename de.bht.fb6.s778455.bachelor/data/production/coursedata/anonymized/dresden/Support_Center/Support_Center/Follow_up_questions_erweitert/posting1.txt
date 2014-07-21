@@ -1,0 +1,11 @@
+ID: 501
+CREATION_DATETIME: 1351116000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Das [gestern implementierte Feature der **follow up questions**](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/posts/496) wurde erweitert.
+- Es wird in der extrahierten Frage ein Hinweis angezeigt, dass es sich um einen Follow up handelt.
+- Innerhalb des Posts <NAME_CORPUS_REPLACEMENT> dem die Frage extrahiert wurde wird Tabelle aller Follow ups gezeigt, um eine Verknüpfung zu realisieren und den Überblick behalten zu können.
+TAGGED_CONTENT:

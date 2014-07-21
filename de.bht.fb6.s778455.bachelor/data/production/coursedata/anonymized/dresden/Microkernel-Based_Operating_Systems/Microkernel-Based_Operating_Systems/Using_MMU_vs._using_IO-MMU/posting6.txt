@@ -1,0 +1,9 @@
+ID: 1640
+CREATION_DATETIME: 1364252400000
+MODIFICATION_DATETIME: 1364252400000
+TITLE: When you (the driver) access device memory, you do write to mapped areas in your virtual address spac...
+PARENT_POSTING_ID: 1636
+POSTING_TYPE: comment
+CONTENT:
+When you (the driver) access device memory, you do write to mapped areas in your virtual address space, but you do not write to ordinary RAM. You write to the actual device memory. Think of the device memory as some part of the **physical** address space that <NAME_CORPUS_REPLACEMENT> be mapped by page tables to a virtual address space. This part of **physical** address space that is reserved for devices was the reason why 32-bit systems could only use 3 out of 4GB of <REMOVED_PERSON_ENTITY>. Because there was 1GB taken aside for devices.
+TAGGED_CONTENT:

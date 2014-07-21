@@ -1,0 +1,12 @@
+ID: 2071923
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Hochparallele Simulationsrechnungnen mit CUDA und OpenCL
+LANGUAGE: GERMAN
+SUMMARY: null
+NER_TAG: value:CUDA;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:CUDA;weight:0.0;uri:;postag:NN
+POS_TAG: value:Simulationsrechnungnen;weight:0.0;uri:;postag:NN
+POS_TAG: value:OpenCL;weight:0.0;uri:;postag:NN

@@ -1,0 +1,10 @@
+ID: 2682
+CREATION_DATETIME: 1383260400000
+MODIFICATION_DATETIME: 1383260400000
+TITLE: I don't think the slides are on the website...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2681
+POSTING_TYPE: comment
+CONTENT:
+I don't think the slides are on the website...
+TAGGED_CONTENT:

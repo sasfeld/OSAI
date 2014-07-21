@@ -1,0 +1,62 @@
+ID: 79
+CREATION_DATETIME: 1201441680000
+MODIFICATION_DATETIME: 1201441680000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 70
+CONTENT:
+
+Zu Aufgabe 5, 2. Präsenz:
+ Geht es vielleicht in der Tat mehr darum, dass wir die Anwendung von retainAll (Schnittmenge, wobei in unserem HashSet alle möglichen Datentypen stehen können) und removeAll verstehen sollen? Also wie Du schon erwähntest ein HashSet und auch eine LinkedList anlegen.
+
+Wobei bei removeAll erst einmal nichts gelöscht werden kann, weil in der LinkedList nur String-Elemente enthalten sind, die in der Integer-Collection nicht enthalten sein können bzw. String ist keine Untertyp von Integer?? Wenn ich alle Elemente in cI gelöscht haben möchte, die in LinkedList vorhanden sind, benötige ich eine LinkedList<Integer>.
+
+Oder sollen wir die LinkedList<String> zu einer LinkedList<Integer> konvertieren. Ich habe es einmal testweise ausprobiert, weiß aber nicht, ob dies so wirklich gemeint bzw. richtig ist. Erscheint mir sehr umständlich. Falls es darum geht, den Inhalt von cI komplett zu löschen, benötige ich die Methode clear();
+
+
+...         
+
+    HashSet hs = new HashSet();        
+    hs.add( 123 );       
+    hs.add( 4 ); 
+    hs.add( 3 );  
+    hs.add( "test" );   
+    System.out.println(lN.retainAll(hs));  
+    System.out.println(lN); // Konsole: [123, 3]   
+
+    LinkedList<String> ll1 = new LinkedList<>();
+    ll1.addLast("3");
+    ll1.addFirst("test");
+    ll1.addFirst("1");
+    LinkedList<Integer> ll2 = new LinkedList<>();
+    boolean parse = true;
+    for (String str : ll1) {
+        try{
+            ll2.add(Integer.parseInt(str));
+        } catch (NumberFormatException e){
+            parse = false;
+        }
+    }
+    System.out.println(cI.removeAll(ll2));
+    System.out.println(cI); // Konsole: [2]
+
+    cI.add(3);     
+    cI.add(2);     
+    cI.add(3);   
+    cI.add(3);     
+    cI.add(1);     
+    System.out.println(cI); // Konsole: [3, 2, 3, 2, 3, 3, 1]     
+
+    LinkedList<Integer> ll3 = new LinkedList<>();     
+    ll3.addLast(3);     
+    ll3.addFirst(1);     
+    System.out.println(cI.removeAll(ll3)); // Konsole: true     
+    System.out.println(cI); // Konsole: [2, 2]              
+
+    cI.clear();     
+    System.out.println(cI); // Konsole: []
+…
+
+So verstehe ich bisher die Aufgabe.
+    
+TAGGED_CONTENT:

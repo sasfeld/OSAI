@@ -1,0 +1,13 @@
+ID: 57
+CREATION_DATETIME: 1178561160000
+MODIFICATION_DATETIME: 1178561160000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 56
+CONTENT:
+  
+Ja danke, funktioniert soweit. Nur kommt bei mir immer das gleiche Ergebnis raus. Liegt vielleicht noch am case-Literal. In der Tat schlecht ohne Dokumentation der GUI Klasse.
+
+Schönen Abend noch!
+    
+TAGGED_CONTENT:

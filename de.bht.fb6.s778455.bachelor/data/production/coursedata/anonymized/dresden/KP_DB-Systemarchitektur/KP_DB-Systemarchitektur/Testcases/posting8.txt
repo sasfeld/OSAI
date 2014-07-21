@@ -1,0 +1,9 @@
+ID: 1850
+CREATION_DATETIME: 1369260000000
+MODIFICATION_DATETIME: 1369260000000
+TITLE: Alles klar. weitere Frage: Wenn ich Parameter habe, die ich sowohl für Input als auch für Output benö...
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Alles klar. weitere Frage: Wenn ich Parameter habe, die ich sowohl für Input als auch für Output benötige, sollen die in beiden Listen vorkommen?
+TAGGED_CONTENT:

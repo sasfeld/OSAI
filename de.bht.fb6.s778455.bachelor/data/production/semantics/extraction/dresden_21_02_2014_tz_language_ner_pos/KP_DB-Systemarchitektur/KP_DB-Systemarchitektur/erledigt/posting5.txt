@@ -1,0 +1,16 @@
+ID: 2012
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Die Vorlage finde ich nicht gerade umwerfend, weil die Masterfolien unbrauchbar sind. Die Masterfolie...
+LANGUAGE: GERMAN
+POS_TAG: value:Inhalt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Folien;weight:0.0;uri:;postag:NN
+POS_TAG: value:Masterfolien;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorlage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Eingabefelder;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+Die Vorlage finde ich nicht gerade umwerfend, weil die Masterfolien unbrauchbar sind. Die Masterfolien bieten keine Eingabefelder, ich muss also vorhandene Folien kopieren und den alten Inhalt löschen ... SCHEI? WORD
+TAGGED_CONTENT:
+Die_ART Vorlage_NN finde_VVFIN ich_PPER nicht_PTKNEG gerade_ADV umwerfend_ADJD ,_$, weil_KOUS die_ART Masterfolien_NN unbrauchbar_ADJD sind_VAFIN ._$. Die_ART Masterfolien_NN bieten_VVFIN keine_PIAT Eingabefelder_NN ,_$, ich_PPER muss_VVFIN also_ADV vorhandene_ADJA Folien_NN kopieren_VVINF und_KON den_ART alten_ADJA Inhalt_NN löschen_VVINF ..._$( SCHEI_NE ?_$. WORD_NE 

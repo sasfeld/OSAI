@@ -1,0 +1,11 @@
+ID: 10
+CREATION_DATETIME: 1192615020000
+MODIFICATION_DATETIME: 1192615020000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 9
+CONTENT:
+
+Hallo , das gleiche hatte ich mich auch gefragt. Beim Meeting gestern hat mir xxxx als Beispiel die GUI-Programmierung genannt, da werden sie eingesetzt. Gruß 
+    
+TAGGED_CONTENT:

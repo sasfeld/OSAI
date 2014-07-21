@@ -1,0 +1,12 @@
+ID: 2928
+CREATION_DATETIME: 1384815600000
+MODIFICATION_DATETIME: 1385593200000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Here, I found how the correct output of the tests should look like: https://groups. google. com/forum/#!searchin/Dresden-Systems-Engineering/255$20robust/dresden-systems-engineering/eDlVeY4S8dY/MwmK1Aq4AuAJ
+
+Could you tell me what makes the overall statistics of the two tests be so different (number of crashed, timed out and tests that behaved robust) although the same input combinations are tested? Besides the randomized order of the test cases in Test 2, is the wait_time decreased (judging by the timed out tests)? <REMOVED_PERSON_ENTITY>, I am testing all combinations for several times, forming the loops differently and executing them sequentially, and I am always getting the same statistics. According to the testing system, I  am passing the Test 1 and failing Test 2 with many unexpected results. I don't see what <NAME_CORPUS_REPLACEMENT> cause a different behaviour of a same test case in Test 1 and Test 2.
+TAGGED_CONTENT:

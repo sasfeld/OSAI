@@ -1,0 +1,8 @@
+ID: 16501
+CREATION_DATETIME: 1222086081
+MODIFICATION_DATETIME: 1222086081
+TITLE: Kursplanbaustelle und Videochats
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Sie alle, die &quot;Kursplanbaustelle&quot; ist jetzt online. Darin finden Sie unter anderem die Ankündigung für regelmäßige Videochats ab morgen. Mit freundlichen Gruessen, A. <REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

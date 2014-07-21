@@ -1,0 +1,12 @@
+ID: 2522
+CREATION_DATETIME: 1376172000000
+MODIFICATION_DATETIME: 1376172000000
+TITLE: Sehe ich genauso, so ist es auch auf den Folien beschrieben.
+LANGUAGE: GERMAN
+POS_TAG: value:Folien;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2516
+POSTING_TYPE: comment
+CONTENT:
+Sehe ich genauso, so ist es auch auf den Folien beschrieben.
+TAGGED_CONTENT:
+Sehe_VVFIN ich_PPER genauso_ADV ,_$, so_ADV ist_VAFIN es_PPER auch_ADV auf_APPR den_ART Folien_NN beschrieben_VVPP ._$. 

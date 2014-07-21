@@ -1,0 +1,10 @@
+ID: 2313
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: @Carl: Kannst du die Excelsheets noch mit ins SVN laden, aus denen du die Diagramme erstellt hast? Da...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+@Carl: Kannst du die Excelsheets noch mit ins SVN laden, aus denen du die Diagramme erstellt hast? Danke
+TAGGED_CONTENT:

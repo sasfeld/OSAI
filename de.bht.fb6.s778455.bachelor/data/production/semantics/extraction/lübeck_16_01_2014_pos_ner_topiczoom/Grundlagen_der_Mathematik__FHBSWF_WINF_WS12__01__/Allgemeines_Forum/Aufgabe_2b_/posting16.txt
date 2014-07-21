@@ -1,0 +1,44 @@
+ID: 185773
+CREATION_DATETIME: 1354807434
+MODIFICATION_DATETIME: 1354807434
+TITLE: Re: Aufgabe 2b)
+TOPIC_ZOOM_TAG: value:Algebraische Begriffe;weight:5.0;significance:10.5904579293616;degreegeneralization:7;uri:20767840
+TOPIC_ZOOM_TAG: value:Vektorräume;weight:5.0;significance:10.5904579293616;degreegeneralization:8;uri:20146881
+TOPIC_ZOOM_TAG: value:Algebra;weight:5.0;significance:10.5904579293616;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Lineare Algebra;weight:5.0;significance:10.5904579293616;degreegeneralization:7;uri:20881366
+TOPIC_ZOOM_TAG: value:Mathematik;weight:6.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:6.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:6.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:6.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:6.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Vektoren;weight:1.0;significance:2.11809158587232;degreegeneralization:7;uri:19937441
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+POS_TAG: value:Vektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektorraum;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:LGS;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fall;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabenstellung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Knotenbewertungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ansatz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektorraums;weight:0.0;uri:;postag:NN
+POS_TAG: value:Untervektorraum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektorraumes;weight:0.0;uri:;postag:NN
+POS_TAG: value:Graphen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Knotenbewertung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nullregel;weight:0.0;uri:;postag:NN
+POS_TAG: value:sentanten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nullvektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 185647
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+Du schreibst "Letztendlich sind hier eine <REMOVED_PERSON_ENTITY> von Vektoren gegeben (v1, v2, v3, v4) die laut Aufgabenstellung einen Untervektorraum (W) des reellen Vektorraums (V) bilden, den wir bereits in der Aufgabenstellung a) kennen gelernt haben. Jetzt soll bewiesen werden wieso dieser Vektorraum W ein Untervektorraum des Vektorraum V ist."
+Das ist so nicht korrekt. Laut Aufgabenstellung bilden alle Knotenbewertungen eines beliebigen Graphen, für die jeweils die Nullregel erfüllt ist, einen Vektorraum. Und für beliebige Graphen soll dies ja auch gezeigt werden.
+V1 bis V4 sind auch bei dem konkret vorliegenden Graphen ja nur irgendwelche Repräsentanten des so definierten Vektorraumes W. Es gibt ja in diesem Fall unendlich viele Knotenbewertungen, die die Nullregel erfüllen. Man hätte also auch irgendwelche
+Allgemein gilt offensichtlich (siehe den Ansatz über ein LGS), dass es für einen beliebigen Graphen G entweder genau eine Nullsummen-Knotenbewertung gibt (den Nullvektor) oder unendlich viele.
+Grüße
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NN >_VVFIN ,_$, Du_PPER schreibst_VVFIN "_$( Letztendlich_ADJD sind_VAFIN hier_ADV eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD von_APPR Vektoren_NN gegeben_VVPP -LRB-_TRUNC v1_CARD ,_$, v2_CARD ,_$, v3_CARD ,_$, v4_CARD -RRB-_TRUNC die_ART laut_APPR Aufgabenstellung_NN einen_ART Untervektorraum_NN -LRB-_TRUNC W_XY -RRB-_TRUNC des_ART reellen_ADJA Vektorraums_NN -LRB-_TRUNC V_CARD -RRB-_TRUNC bilden_VVINF ,_$, den_PRELS wir_PPER bereits_ADV in_APPR der_ART Aufgabenstellung_NN a_ART -RRB-_TRUNC kennen_PTKVZ gelernt_VVPP haben_VAFIN ._$. Jetzt_ADV soll_VMFIN bewiesen_VVPP werden_VAINF wieso_PWAV dieser_PDAT Vektorraum_NN W_XY ein_ART Untervektorraum_NN des_ART Vektorraum_NN V_CARD ist_VAFIN ._$. "_$( Das_PDS ist_VAFIN so_ADV nicht_PTKNEG korrekt_ADJD ._$. Laut_APPR Aufgabenstellung_NN bilden_VVFIN alle_PIDAT Knotenbewertungen_NN eines_ART beliebigen_ADJA Graphen_NN ,_$, für_APPR die_ART jeweils_ADV die_ART Nullregel_NN erfüllt_VVPP ist_VAFIN ,_$, einen_ART Vektorraum_NN ._$. Und_KON für_APPR beliebige_ADJA Graphen_NN soll_VMFIN dies_PDS ja_ADV auch_ADV gezeigt_VVPP werden_VAINF ._$. V1_CARD bis_APPR V4_CARD sind_VAFIN auch_ADV bei_APPR dem_ART konkret_ADJD vorliegenden_ADJA Graphen_NN ja_ADV nur_ADV irgendwelche_PIAT Repräsentanten_NN des_ART so_ADV definierten_ADJA Vektorraumes_NN W._NE Es_PPER gibt_VVFIN ja_ADV in_APPR diesem_PDAT Fall_NN unendlich_ADJD viele_PIDAT Knotenbewertungen_NN ,_$, die_PRELS die_ART Nullregel_NN erfüllen_VVINF ._$. Man_PIS hätte_VAFIN also_ADV auch_ADV irgendwelche_PIAT Allgemein_ADJD gilt_VVFIN offensichtlich_ADJD -LRB-_TRUNC siehe_VVIMP den_ART Ansatz_NN über_APPR ein_ART LGS_NN -RRB-_TRUNC ,_$, dass_KOUS es_PPER für_APPR einen_ART beliebigen_ADJA Graphen_NN G_NE entweder_KON genau_ADJD eine_ART Nullsummen-Knotenbewertung_NN gibt_VVFIN -LRB-_TRUNC den_ART Nullvektor_NN -RRB-_TRUNC oder_KON unendlich_ADJD viele_PIS ._$. Grüße_NN <_NE REMOVED_PERSON_ENTITY_NE >_XY 

@@ -1,0 +1,14 @@
+ID: 80
+CREATION_DATETIME: 1295255400000
+MODIFICATION_DATETIME: 1295255400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+
+Gleich noch eine Frage: Wissen Sie schon wieviele Seiten wir mit zur Klausur nehmen dürfen?
+
+Schöne Grüße
+	
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 3051
+CREATION_DATETIME: 1385593200000
+MODIFICATION_DATETIME: 1385593200000
+TITLE: We are one exercise behind schedule. So will delay the practical Hadoop exercise to the end of the se...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 3022
+POSTING_TYPE: comment
+CONTENT:
+We are one exercise behind schedule. So will delay the practical Hadoop exercise to the end of the semester. However, it is still ok with me if you want to bring your laptop along and do some MR while we are discussing BigTable. ;)
+
+- <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

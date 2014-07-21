@@ -1,0 +1,9 @@
+ID: 1698
+CREATION_DATETIME: 1365717600000
+MODIFICATION_DATETIME: 1365804000000
+TITLE: Die Information im Lehrveranstaltungsplan ist korrekt - die Lehrveranstaltung kann also entsprechend ...
+PARENT_POSTING_ID: 1690
+POSTING_TYPE: answer
+CONTENT:
+Die Information im Lehrveranstaltungsplan ist korrekt - die Lehrveranstaltung kann also entsprechend in INF-PM-FOR und INF-PM-ANW eingebracht werden.
+TAGGED_CONTENT:

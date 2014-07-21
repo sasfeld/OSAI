@@ -1,0 +1,9 @@
+ID: 1575
+CREATION_DATETIME: 1363993200000
+MODIFICATION_DATETIME: 1364079600000
+TITLE: Danke für die Information. Ich habe dem Server nun ein Rating A verpasst dank dieser Anleitung, die g...
+PARENT_POSTING_ID: 1566
+POSTING_TYPE: answer
+CONTENT:
+Danke für die Information. Ich habe dem Server nun ein Rating A verpasst. [Dank dieser Anleitung, die genau das Problem mit BEAST anspricht.](http://nginx.org/en/docs/http/configuring_https_servers. html) =)
+TAGGED_CONTENT:

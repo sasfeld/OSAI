@@ -1,0 +1,24 @@
+ID: 60
+CREATION_DATETIME: 1200946380000
+MODIFICATION_DATETIME: 1200946380000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo,
+ich habe eine Frage zu der Methode sort (von der Klasse Comparators) Seite 10, LE 03, StringComparatorTest.java:
+Irgendwie verstehe ich die Ausgabe der ArrayList nicht.
+In der API steht zu der Methode sort:
+
+sort(List<T> list, Comparator<? super T> c)
+Sorts the specified list according to the order induced by the specified comparator.
+
+Unter StringComparator steht ja nur, dass das eine Object mit dem anderen verglichen
+wird. Nur das wie verstehe ich nicht. Ich meine nach welchem Sortiertalgorithmus kann denn die
+Ausgabe "Das Satz ein ist" zustande kommen? Alphabetisch sortiert ist es nicht, Nach der Länge der
+Wörter auch nicht, wonach denn?
+
+MfG
+  
+TAGGED_CONTENT:

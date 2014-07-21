@@ -1,0 +1,60 @@
+ID: 237303
+CREATION_DATETIME: 1380560004
+MODIFICATION_DATETIME: 1380560039
+TITLE: Re: Fehler bei der Grafikdarstellung in den Lektionen
+TOPIC_ZOOM_TAG: value:Fachhochschulen in Deutschland;weight:1.0;significance:6.007701167337;degreegeneralization:12;uri:21957551
+TOPIC_ZOOM_TAG: value:Fachhochschulen;weight:1.0;significance:5.8049686132829;degreegeneralization:5;uri:21881935
+TOPIC_ZOOM_TAG: value:BP;weight:1.0;significance:4.90908887866888;degreegeneralization:13;uri:20875042
+TOPIC_ZOOM_TAG: value:Britisches Erdöl;weight:1.0;significance:4.76524784244299;degreegeneralization:8;uri:19726097
+TOPIC_ZOOM_TAG: value:Britische Konzerne;weight:1.0;significance:4.74483684518287;degreegeneralization:12;uri:19797276
+TOPIC_ZOOM_TAG: value:Firmen und Firmengruppen in Großbritannien;weight:1.0;significance:4.3155060356641;degreegeneralization:11;uri:21955103
+TOPIC_ZOOM_TAG: value:Mineralölkonzerne;weight:1.0;significance:4.2229348190963;degreegeneralization:10;uri:20899386
+TOPIC_ZOOM_TAG: value:Industriegüterkonzerne;weight:1.0;significance:4.17592034427217;degreegeneralization:9;uri:20074818
+TOPIC_ZOOM_TAG: value:Mineralölunternehmen;weight:1.0;significance:4.15705018028074;degreegeneralization:9;uri:20899403
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten in Deutschland;weight:1.0;significance:4.10436992245183;degreegeneralization:11;uri:21957585
+TOPIC_ZOOM_TAG: value:Studium und berufliche Ausbildung in Deutschland;weight:1.0;significance:4.08262736648196;degreegeneralization:10;uri:21881136
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten in Europa;weight:1.0;significance:4.08262736648196;degreegeneralization:8;uri:20920126
+TOPIC_ZOOM_TAG: value:Erdölbranche;weight:1.0;significance:4.07733631181669;degreegeneralization:8;uri:21305941
+TOPIC_ZOOM_TAG: value:Browser;weight:1.0;significance:3.94011788896582;degreegeneralization:8;uri:20901630
+TOPIC_ZOOM_TAG: value:Webtechnologie;weight:1.0;significance:3.89794731474894;degreegeneralization:7;uri:20990880
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung in Deutschland;weight:1.0;significance:3.81668785000005;degreegeneralization:9;uri:21998589
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung - Europa;weight:1.0;significance:3.79229276791534;degreegeneralization:7;uri:20742850
+TOPIC_ZOOM_TAG: value:Wirtschaftsgut Erdöl;weight:1.0;significance:3.69767176809607;degreegeneralization:7;uri:21924826
+TOPIC_ZOOM_TAG: value:Internetsoftware;weight:1.0;significance:3.55878126736153;degreegeneralization:7;uri:20808623
+TOPIC_ZOOM_TAG: value:Rohstoffmarkt;weight:1.0;significance:3.49906124892953;degreegeneralization:6;uri:21292001
+TOPIC_ZOOM_TAG: value:Britische Industrie;weight:1.0;significance:3.48117316234688;degreegeneralization:10;uri:19725638
+TOPIC_ZOOM_TAG: value:Britische Wirtschaft;weight:1.0;significance:3.46855419605195;degreegeneralization:9;uri:21959506
+TOPIC_ZOOM_TAG: value:Erdöl;weight:1.0;significance:3.38682765980717;degreegeneralization:5;uri:21925064
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:2.77735785682754;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Wissenschaft und Technik in Deutschland;weight:1.0;significance:2.72471669356842;degreegeneralization:9;uri:21946076
+TOPIC_ZOOM_TAG: value:Software;weight:1.0;significance:2.60511682223347;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:2.59037776375624;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Konzerne;weight:1.0;significance:2.52823938455872;degreegeneralization:8;uri:20925566
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:2.51211272377639;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:2.50390086036106;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:World Wide Web;weight:1.0;significance:2.40155393308682;degreegeneralization:6;uri:20772430
+TOPIC_ZOOM_TAG: value:Wirtschaftlicher Markt;weight:1.0;significance:2.21786175579176;degreegeneralization:3;uri:21308831
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:2.18452430611399;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Großbritannien;weight:1.0;significance:2.16130230521382;degreegeneralization:8;uri:21996583
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:2.15506992990383;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Europäische Wirtschaft;weight:1.0;significance:2.11039256725425;degreegeneralization:7;uri:21994832
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:2.00351838218053;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.83083484620539;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:1.75110858232764;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Europa;weight:2.0;significance:1.55587681555031;degreegeneralization:6;uri:21972001
+TOPIC_ZOOM_TAG: value:Unternehmen, Firmen und Firmengruppen;weight:1.0;significance:1.45540572144071;degreegeneralization:4;uri:21973565
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:1.16884339240287;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Deutschland;weight:1.0;significance:1.01788212728215;degreegeneralization:8;uri:21996974
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:0.90229776862663;degreegeneralization:2;uri:21999847
+PARENT_POSTING_ID: 237069
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+ich sehe gerade, dass du ABP auf den Seiten der VFH aktiv hast. Im Browser-Check auf der <REMOVED_PERSON_ENTITY> wird angegeben, dass <REMOVED_PERSON_ENTITY> u. U. Inhalte wegfiltern.
+Probier doch mal, den Blocker für oncampus. de zu deaktivieren
+TAGGED_CONTENT:

@@ -1,0 +1,15 @@
+ID: 49
+CREATION_DATETIME: 1288714680000
+MODIFICATION_DATETIME: 1288714680000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 46
+CONTENT:
+ 
+So, jetzt habe ich noch mal bei mir geschaut!
+Da dies kein Applet ist musst du in der paint Methode den super Konstruktur aufrufen super.paint(g); und auch die Frame Klasse implementieren, so wie ich schon geschrieben habe.
+Was du mit recht.paint(null); sagen möchtest weiß ich nicht. Aber meiner Ansicht nach ist das nicht nötig.
+Alles natürlich ohne Gewähr! :-)
+Schöne Grüße
+	
+TAGGED_CONTENT:

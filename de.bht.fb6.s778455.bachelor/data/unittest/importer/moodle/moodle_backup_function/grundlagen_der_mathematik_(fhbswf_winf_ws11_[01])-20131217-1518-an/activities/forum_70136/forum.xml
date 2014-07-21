@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="13946" moduleid="70136" modulename="forum" contextid="98002">
+  <forum id="13946">
+    <type>general</type>
+    <name>Fachforum zum Teil I</name>
+    <intro>Hier können Sie Fachfragen zum Teil I diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>2</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1218800557</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="43911">
+        <name>Beispiel fuer Division mehrgliedriger Ausdruecke</name>
+        <firstpost>117573</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1318187271</timemodified>
+        <usermodified>3523</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117573">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1317839921</created>
+            <modified>1317840085</modified>
+            <mailed>1</mailed>
+            <subject>Beispiel fuer Division mehrgliedriger Ausdruecke</subject>
+            <message>Gegeben: Dividend und Divisor
+
+(2a - ay - axy + 2ax) / (1 + x)
+
+Gesucht: Quotient
+
+Ansatz: Erstes Glied des Dividenden durch erstes Glied des Divisors teilen, Ergebnis ist erstes Glied des Quotienten. Dann Quotient mit Divisor multiplizieren und Ergebnis unter Dividenden schreiben und von diesem abziehen. Ergebnis ist (einfacherer) mehrgliedriger Ausdruck. Diesen Ausdruck wieder nach o.g. Ansatz teilen und dadurch das zweite Glied des Divisors ermitteln usw.
+
+Beispiel: 
+
+(2a - ay - axy + 2ax) : (1 + x) = 2a - ay
+-2a                  - 2ax
+____________________
+      - ay - axy        
+    -(- ay - axy)
+____________________
+                        0
+
+
+Kontrolle:
+
+(1 + x) (2a - ay) = 2a - ay + 2ax - axy
+
+ok.
+
+Fertig.</message>
+            <messageformat>2</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117574">
+            <parent>117573</parent>
+            <userid>3523</userid>
+            <created>1317849329</created>
+            <modified>1317849329</modified>
+            <mailed>1</mailed>
+            <subject>Re: Beispiel fuer Division mehrgliedriger Ausdruecke</subject>
+            <message>Hallo Herr Jensen,&lt;br /&gt;&lt;br /&gt;das ist der zweite Teil der Aufgabe, der sicher in zweiter Konsequenz sehr interessant ist.&lt;br /&gt;Um diesen zu verstehen, sollte m.E. der erste Teil, also die Aufgabe 372:31 behandelt werden.&lt;br /&gt;Bitte detailliert mit einer verständlichen Erklärung. (nicht wie im Skript auf S. 38). &lt;br /&gt;Sorry, aber mir fehlen eben die Klassen 11-13 Mathematik. Dafür bringe ich Interesse an Mathematik mit. Ich muss Mathe nur einmal richtig verstanden haben, dann wird es schon ...&lt;br /&gt;&lt;br /&gt;M.f.G.&lt;br /&gt;M. Bergien&lt;br /&gt;&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117575">
+            <parent>117574</parent>
+            <userid>3661</userid>
+            <created>1317924336</created>
+            <modified>1317924411</modified>
+            <mailed>1</mailed>
+            <subject>Re: Beispiel fuer Division mehrgliedriger Ausdruecke</subject>
+            <message>ja, das geht so:
+
+  372 / 31 = 1
+-31
+  --
+   6
+
+
+  372 / 31 = 1
+-31
+  --
+   62
+
+
+  372 / 31 = 12
+-31
+  --
+   62
+ -62
+
+
+  372 / 31 = 12
+-31
+  --
+   62
+ -62
+   --
+     0 d.h. Rest 0 - fertig.
+
+Konnte ich Ihre Frage beantworten?
+
+
+
+</message>
+            <messageformat>2</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117576">
+            <parent>117575</parent>
+            <userid>3523</userid>
+            <created>1318187271</created>
+            <modified>1318187271</modified>
+            <mailed>1</mailed>
+            <subject>Re: Beispiel fuer Division mehrgliedriger Ausdruecke</subject>
+            <message>Hallo Herr Jensen,&lt;br /&gt;&lt;br /&gt;ich habe mir das alles noch einmal von einer studentischen Hilfskraft erklären lassen.&lt;br /&gt;Das was ich meine, ist die Zerlegung von 372 in 300 und 70 und 2 geteilt durch 30 und 1.&lt;br /&gt;&lt;br /&gt;Die Rechnung finden Sie im Anhang.&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43912">
+        <name>Berechnung Binomialkoeffizienten mit Fakultäten</name>
+        <firstpost>117577</firstpost>
+        <userid>3699</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1318254807</timemodified>
+        <usermodified>3699</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117577">
+            <parent>0</parent>
+            <userid>3699</userid>
+            <created>1318235407</created>
+            <modified>1318235646</modified>
+            <mailed>1</mailed>
+            <subject>Berechnung Binomialkoeffizienten mit Fakultäten</subject>
+            <message> Hallo, ich möchte bitte wissen, wie man folgendes Rechnen kann, vllt. vereinfacht? Mein Taschenrechner kann es nicht mit so hohen Zahlen und auch im Kopf ist es sehr unwahrscheinlich. Da muss es doch einen Trick geben. Danke&lt;br /&gt;&lt;br /&gt;&lt;img vspace="0" border="0" align="bottom" hspace="0" src="http://www.image-load.net/users/wmilsae/Studium/bke_mathe.jpg" /&gt;&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117578">
+            <parent>117577</parent>
+            <userid>3643</userid>
+            <created>1318250985</created>
+            <modified>1318250985</modified>
+            <mailed>1</mailed>
+            <subject>Re: Berechnung Binomialkoeffizienten mit Fakultäten</subject>
+            <message>Hi Mirke,&lt;br /&gt;&lt;br /&gt;das kürzt sich alles weg bis auf (120*119) / (2*1) und damit hast du dann:&lt;br /&gt;14280 / 2 = 7140.&lt;br /&gt;&lt;br /&gt;Schau dir nochmal an, wie die Fakultät berechnet wird....ansonsten gerne per Mail!&lt;br /&gt;&lt;br /&gt;Grüße,&lt;br /&gt;Bianca&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117579">
+            <parent>117578</parent>
+            <userid>3699</userid>
+            <created>1318254775</created>
+            <modified>1318254807</modified>
+            <mailed>1</mailed>
+            <subject>Re: Berechnung Binomialkoeffizienten mit Fakultäten</subject>
+            <message> Ja danke ich hab es....&lt;br /&gt;abbildung &amp;quot;Tab. 6: Beispiel - n!&amp;quot; in LO2 war genau das was mir fehlte...&lt;br /&gt;oben war klar, nur unten nicht...&lt;br /&gt;aber dank der tabelle ist mir das nu auch klar... ;) &lt;br /&gt;Danke bianca... </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="128457">
+        <userid>3559</userid>
+      </subscription>
+      <subscription id="128458">
+        <userid>3725</userid>
+      </subscription>
+      <subscription id="128459">
+        <userid>3717</userid>
+      </subscription>
+      <subscription id="128460">
+        <userid>3661</userid>
+      </subscription>
+      <subscription id="128461">
+        <userid>3603</userid>
+      </subscription>
+      <subscription id="128462">
+        <userid>3507</userid>
+      </subscription>
+      <subscription id="128463">
+        <userid>3713</userid>
+      </subscription>
+      <subscription id="128464">
+        <userid>3489</userid>
+      </subscription>
+      <subscription id="128465">
+        <userid>3519</userid>
+      </subscription>
+      <subscription id="128466">
+        <userid>3675</userid>
+      </subscription>
+      <subscription id="128467">
+        <userid>3643</userid>
+      </subscription>
+      <subscription id="128468">
+        <userid>3631</userid>
+      </subscription>
+      <subscription id="128469">
+        <userid>3645</userid>
+      </subscription>
+      <subscription id="128470">
+        <userid>2617</userid>
+      </subscription>
+      <subscription id="128471">
+        <userid>3523</userid>
+      </subscription>
+      <subscription id="128472">
+        <userid>3653</userid>
+      </subscription>
+      <subscription id="128473">
+        <userid>3703</userid>
+      </subscription>
+      <subscription id="128474">
+        <userid>3685</userid>
+      </subscription>
+      <subscription id="128475">
+        <userid>3699</userid>
+      </subscription>
+      <subscription id="128476">
+        <userid>3613</userid>
+      </subscription>
+      <subscription id="128477">
+        <userid>3687</userid>
+      </subscription>
+      <subscription id="128478">
+        <userid>3495</userid>
+      </subscription>
+      <subscription id="128479">
+        <userid>3633</userid>
+      </subscription>
+      <subscription id="128480">
+        <userid>3493</userid>
+      </subscription>
+      <subscription id="128481">
+        <userid>3689</userid>
+      </subscription>
+      <subscription id="128482">
+        <userid>3513</userid>
+      </subscription>
+      <subscription id="128483">
+        <userid>3517</userid>
+      </subscription>
+      <subscription id="128484">
+        <userid>3711</userid>
+      </subscription>
+      <subscription id="128485">
+        <userid>3521</userid>
+      </subscription>
+      <subscription id="128486">
+        <userid>3695</userid>
+      </subscription>
+      <subscription id="128487">
+        <userid>3537</userid>
+      </subscription>
+      <subscription id="128488">
+        <userid>3649</userid>
+      </subscription>
+      <subscription id="128489">
+        <userid>3503</userid>
+      </subscription>
+      <subscription id="128490">
+        <userid>3505</userid>
+      </subscription>
+      <subscription id="128491">
+        <userid>3515</userid>
+      </subscription>
+      <subscription id="128492">
+        <userid>3693</userid>
+      </subscription>
+      <subscription id="128493">
+        <userid>3499</userid>
+      </subscription>
+      <subscription id="128494">
+        <userid>3591</userid>
+      </subscription>
+      <subscription id="128495">
+        <userid>3509</userid>
+      </subscription>
+      <subscription id="128496">
+        <userid>3647</userid>
+      </subscription>
+      <subscription id="128497">
+        <userid>3501</userid>
+      </subscription>
+      <subscription id="128498">
+        <userid>3487</userid>
+      </subscription>
+      <subscription id="128499">
+        <userid>3627</userid>
+      </subscription>
+      <subscription id="128500">
+        <userid>3639</userid>
+      </subscription>
+      <subscription id="128501">
+        <userid>3545</userid>
+      </subscription>
+      <subscription id="128503">
+        <userid>3531</userid>
+      </subscription>
+      <subscription id="128504">
+        <userid>3669</userid>
+      </subscription>
+      <subscription id="128505">
+        <userid>3533</userid>
+      </subscription>
+      <subscription id="128506">
+        <userid>3551</userid>
+      </subscription>
+      <subscription id="128507">
+        <userid>3637</userid>
+      </subscription>
+      <subscription id="128508">
+        <userid>3557</userid>
+      </subscription>
+      <subscription id="128509">
+        <userid>3549</userid>
+      </subscription>
+      <subscription id="128510">
+        <userid>3657</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

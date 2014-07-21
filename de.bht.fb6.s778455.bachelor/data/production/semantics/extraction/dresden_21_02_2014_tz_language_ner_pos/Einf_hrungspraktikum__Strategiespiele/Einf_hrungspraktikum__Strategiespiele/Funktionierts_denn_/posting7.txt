@@ -1,0 +1,16 @@
+ID: 1498
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Auch diese Funktion musst Du selbst implementieren. (Bzw. die Implementierung aus othello.cc klauen. ...
+LANGUAGE: GERMAN
+POS_TAG: value:Implementierung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hierarchie;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bzw;weight:0.0;uri:;postag:NN
+POS_TAG: value:Funktion;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1481
+POSTING_TYPE: comment
+CONTENT:
+Auch diese Funktion musst Du selbst implementieren. (Bzw. die Implementierung aus othello. <LEARNED_PERSON_NAME_REPLACEMENT> klauen. Aber die ruft irgendwann weiter unten in der Hierarchie die Funktion `validate()` auf - und die darfst Du nicht übernhmen.)
+TAGGED_CONTENT:
+Auch_ADV diese_PDAT Funktion_NN musst_VVFIN Du_PPER selbst_ADV implementieren_VVFIN ._$. -LRB-_TRUNC Bzw_NN ._$. die_ART Implementierung_NN aus_APPR othello_NE ._$. <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_CARD klauen_VVINF ._$. Aber_KON die_ART ruft_VVFIN irgendwann_ADV weiter_ADV unten_ADV in_APPR der_ART Hierarchie_NN die_ART Funktion_NN `_CARD validate_VVFIN -LRB-_TRUNC -RRB-_TRUNC `_XY auf_PTKVZ -_$( und_KON die_ART darfst_VAFIN Du_PPER nicht_PTKNEG übernhmen_VVINF ._$. -RRB-_TRUNC 

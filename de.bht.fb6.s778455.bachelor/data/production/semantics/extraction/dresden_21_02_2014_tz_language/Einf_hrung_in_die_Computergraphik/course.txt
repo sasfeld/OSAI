@@ -1,0 +1,19 @@
+ID: 2023314
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Einführung in die Computergraphik
+LANGUAGE: GERMAN
+SUMMARY: null
+TOPIC_ZOOM_TAG: value:Computergrafik;weight:1.0;significance:8.24264139657934;degreegeneralization:6;uri:20897890
+TOPIC_ZOOM_TAG: value:Praktische Informatik;weight:1.0;significance:7.35669138175786;degreegeneralization:5;uri:20899199
+TOPIC_ZOOM_TAG: value:Multimedia;weight:1.0;significance:6.91249176446855;degreegeneralization:5;uri:20901443
+TOPIC_ZOOM_TAG: value:Medientechnik;weight:1.0;significance:6.20426134169728;degreegeneralization:4;uri:20901460
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:5.02422544755277;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:5.00780172072213;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813

@@ -1,0 +1,9 @@
+ID: 2683
+CREATION_DATETIME: 1383260400000
+MODIFICATION_DATETIME: 1383260400000
+TITLE: Yes, sorry for that. This morning the content management system of the university website returned me...
+PARENT_POSTING_ID: 2681
+POSTING_TYPE: comment
+CONTENT:
+Yes, sorry for that. This morning the content management system of the university website returned me errors when I tried to upload the slides. It's working again now. The slides are online.
+TAGGED_CONTENT:

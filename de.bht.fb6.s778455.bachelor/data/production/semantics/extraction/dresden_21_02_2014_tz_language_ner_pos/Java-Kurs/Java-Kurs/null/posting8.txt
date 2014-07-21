@@ -1,0 +1,12 @@
+ID: 2713
+CREATION_DATETIME: 1383519600000
+MODIFICATION_DATETIME: 1383519600000
+TITLE: Räume wurden geupdated.
+LANGUAGE: GERMAN
+POS_TAG: value:ume;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2699
+POSTING_TYPE: comment
+CONTENT:
+Räume wurden geupdated.
+TAGGED_CONTENT:
+Räume_NN wurden_VAFIN geupdated_VVPP ._$. 

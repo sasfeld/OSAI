@@ -1,0 +1,12 @@
+ID: 937
+CREATION_DATETIME: 1354575600000
+MODIFICATION_DATETIME: 1365112800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Also,
+
+wir benutzen für die Formatierung jQuery und deshalb wirft der W3C validator viele Fehler. Die Frage nun: <NAME_CORPUS_REPLACEMENT> wir das nur beeinflussen können indem wir jQuery weglassen, wird es deshalb Punktabzug geben?
+TAGGED_CONTENT:

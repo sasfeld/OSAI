@@ -1,0 +1,10 @@
+ID: 237119
+CREATION_DATETIME: 1380540694
+MODIFICATION_DATETIME: 1380540694
+TITLE: Re: Fehler bei der Grafikdarstellung in den Lektionen
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+PARENT_POSTING_ID: 237069
+CONTENT:
+Selbiges Problem habe ich ebenfalls :/
+TAGGED_CONTENT:

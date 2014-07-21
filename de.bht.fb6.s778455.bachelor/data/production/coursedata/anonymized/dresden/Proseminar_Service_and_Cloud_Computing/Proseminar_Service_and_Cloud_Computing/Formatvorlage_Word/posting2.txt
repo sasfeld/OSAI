@@ -1,0 +1,11 @@
+ID: 1814
+CREATION_DATETIME: 1368568800000
+MODIFICATION_DATETIME: 1368568800000
+TITLE: Hallo, es fehlte nur ein Doppelpunkt nach dem FTP.
+ftp://ftp.springer.de/pub/tex/latex/llncs/word/LN...
+PARENT_POSTING_ID: 1806
+POSTING_TYPE: answer
+CONTENT:
+Hallo, es fehlte nur ein Doppelpunkt nach dem FTP.
+ftp://ftp. springer. de/pub/tex/latex/llncs/word/LNCS-Office2007. zip
+TAGGED_CONTENT:

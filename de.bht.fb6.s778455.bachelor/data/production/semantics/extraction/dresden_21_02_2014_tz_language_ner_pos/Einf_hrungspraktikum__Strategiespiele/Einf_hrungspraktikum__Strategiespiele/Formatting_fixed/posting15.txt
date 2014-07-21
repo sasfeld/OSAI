@@ -1,0 +1,22 @@
+ID: 1491
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Das Problem ist gelöst. Julian hat vorgeschlagen, statt malloc new myBoardState zu verwenden (siehe S...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+POS_TAG: value:Antworten;weight:0.0;uri:;postag:NN
+POS_TAG: value:myBoardState;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:Struct;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1467
+POSTING_TYPE: answer
+CONTENT:
+Das Problem ist gelöst. <REMOVED_PERSON_ENTITY> hat vorgeschlagen, statt malloc new myBoardState zu verwenden (siehe Struct).
+
+Das hat den Fehler beseitigt - wieso auch immer.
+
+Danke euch beiden für die Antworten.
+TAGGED_CONTENT:
+Das_ART Problem_NN ist_VAFIN gelöst_VVPP ._$. <_XY REMOVED_PERSON_ENTITY_NE >_NE hat_VAFIN vorgeschlagen_VVPP ,_$, statt_APPR malloc_ADJD new_ADJD myBoardState_NN zu_PTKZU verwenden_VVINF -LRB-_TRUNC siehe_VVIMP Struct_NN -RRB-_TRUNC ._$. Das_PDS hat_VAFIN den_ART Fehler_NN beseitigt_VVPP -_$( wieso_PWAV auch_ADV immer_ADV ._$. Danke_VVIMP euch_PRF beiden_PIDAT für_APPR die_ART Antworten_NN ._$. 

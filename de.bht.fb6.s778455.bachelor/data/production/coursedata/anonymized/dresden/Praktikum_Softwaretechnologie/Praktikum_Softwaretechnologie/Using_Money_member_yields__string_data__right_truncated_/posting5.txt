@@ -1,0 +1,11 @@
+ID: 2872
+CREATION_DATETIME: 1384642800000
+MODIFICATION_DATETIME: 1384642800000
+TITLE: I guess it would. Not only huge and red, but also with <marquee />
+
+
+PARENT_POSTING_ID: 2867
+POSTING_TYPE: comment
+CONTENT:
+I guess it would. Not only huge and red, but also with ``
+TAGGED_CONTENT:

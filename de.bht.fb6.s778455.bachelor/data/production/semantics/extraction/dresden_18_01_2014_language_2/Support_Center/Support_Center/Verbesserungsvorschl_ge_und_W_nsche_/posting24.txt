@@ -1,0 +1,10 @@
+ID: 524
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1365372000000
+TITLE: Es wäre auch schön, wenn man direkt per E-Mail antworten könnte.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 369
+POSTING_TYPE: answer
+CONTENT:
+Es wäre auch schön, wenn man direkt per E-Mail antworten könnte.
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 1390
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Du kannst zum einen den Puffer deiner Konsole auf eine größere Zahl hochschrauben und zum anderen mit...
+PARENT_POSTING_ID: 1387
+POSTING_TYPE: answer
+CONTENT:
+Du kannst zum einen den Puffer deiner Konsole auf eine größere Zahl hochschrauben und zum anderen mit strg c / crtl c das Programm und damit die Ausgabe abbrechen. 
+TAGGED_CONTENT:

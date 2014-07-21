@@ -1,0 +1,10 @@
+ID: 2098
+CREATION_DATETIME: 1372024800000
+MODIFICATION_DATETIME: 1372024800000
+TITLE: habs grade getestet (~/tomas/a.out). Sieht sehr gut aus.
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2088
+POSTING_TYPE: comment
+CONTENT:
+habs grade getestet (~/tomas/a. out). Sieht sehr gut aus.
+TAGGED_CONTENT:

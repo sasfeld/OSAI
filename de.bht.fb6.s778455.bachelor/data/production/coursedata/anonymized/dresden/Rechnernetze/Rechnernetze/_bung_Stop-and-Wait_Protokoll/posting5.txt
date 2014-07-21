@@ -1,0 +1,13 @@
+ID: 2453
+CREATION_DATETIME: 1374703200000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: Super, vielen dank!!!
+
+ich habe jetzt noch versucht nachzuvollziehen, warum bei  μ =  ts / 2tau+ts ...
+PARENT_POSTING_ID: 2452
+POSTING_TYPE: comment
+CONTENT:
+Super, vielen dank!!!
+ich habe jetzt noch versucht nachzuvollziehen, warum bei  μ =  ts / 2tau+ts  bei mir was falsches raus kam. Rein logisch habe ich keinen Fehler feststellen können, und tatsächlich: ich hatte vergessen,  2tau+ts zu klammern.
+Vielen dank für die ausführliche Erklärung
+TAGGED_CONTENT:

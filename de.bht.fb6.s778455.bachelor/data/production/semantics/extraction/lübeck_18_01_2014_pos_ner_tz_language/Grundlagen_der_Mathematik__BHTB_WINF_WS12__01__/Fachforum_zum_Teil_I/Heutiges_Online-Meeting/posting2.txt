@@ -1,0 +1,16 @@
+ID: 166535
+CREATION_DATETIME: 1349276542
+MODIFICATION_DATETIME: 1349276542
+TITLE: Re: Heutiges Online-Meeting
+LANGUAGE: GERMAN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Antwort;weight:0.0;uri:;postag:NN
+POS_TAG: value:Herrn;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 166463
+CONTENT:
+Hallo,
+ich habe Herrn <REMOVED_PERSON_ENTITY> darauf hin gewiesen aber keine Antwort bekommen. Ich wäre auch für eine <REMOVED_PERSON_ENTITY> des heutigen <REMOVED_PERSON_ENTITY>. Hat jemand schon eine Antwort bekommen?
+Viele Grüße <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, ich_PPER habe_VAFIN Herrn_NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE darauf_PROAV hin_APZR gewiesen_VVPP aber_KON keine_PIAT Antwort_NN bekommen_VVINF ._$. Ich_PPER wäre_VAFIN auch_ADV für_APPR eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_APPR des_ART heutigen_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_NE ._$. Hat_VAFIN jemand_PIS schon_ADV eine_ART Antwort_NN bekommen_VVINF ?_$. Viele_PIDAT Grüße_NN <_VVFIN REMOVED_PERSON_ENTITY_NE >_XY 

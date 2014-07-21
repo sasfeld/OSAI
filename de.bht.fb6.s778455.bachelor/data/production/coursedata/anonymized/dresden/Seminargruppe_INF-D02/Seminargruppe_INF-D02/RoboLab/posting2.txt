@@ -1,0 +1,11 @@
+ID: 684
+CREATION_DATETIME: 1352242800000
+MODIFICATION_DATETIME: 1352242800000
+TITLE: Ihr könnt euch generell bei etwas eintragen, sobald es in jExam angezeigt wird. Da es für Einschreibu...
+PARENT_POSTING_ID: 681
+POSTING_TYPE: answer
+CONTENT:
+Ihr könnt euch generell bei etwas eintragen, sobald es in jExam angezeigt wird. <NAME_CORPUS_REPLACEMENT> es für Einschreibungen und Prüfungsanmeldungen meistens Fristen gibt, ist es sogar sinnvoll, sich gleich einzutragen, bevor man es wieder vergisst. Sich auszutragen geht dann immer noch problemlos. 
+Also ja, ihr könnt euch gerne schon eintragen.
+Ich gehe sehr stark davon aus, dass das Strategiespiel-Praktikum auch in den Semesterferien stattfindet und es ebenfalls zwei Termine gibt: achtet beim Eintragen darauf, dass ihr Robolab und Strategiespiel nicht gerade in der selben Woche machen müsst.
+TAGGED_CONTENT:

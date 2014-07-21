@@ -1,0 +1,11 @@
+ID: 115380
+CREATION_DATETIME: 1317826487
+MODIFICATION_DATETIME: 1317826487
+TITLE: Lösungen zu den Zusatzaufgaben
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Studierenden,
+ich habe Ihnen gerade die Lösungen für die zusätzlichen Aufgaben bereitgestellt. Versuchen Sie bitte trotzdem, die Aufgaben zunächst ohne die Lösungen zu bearbeiten! Das gilt auch für die nächsten Aufgabenblöcke. 
+Viel Spaß!
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

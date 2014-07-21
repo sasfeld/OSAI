@@ -1,0 +1,9 @@
+ID: 2597
+CREATION_DATETIME: 1382306400000
+MODIFICATION_DATETIME: 1382392800000
+TITLE: You even has to register yourself at MagicDraw to view the prices of the product. Why do i want to kn...
+PARENT_POSTING_ID: 2593
+POSTING_TYPE: comment
+CONTENT:
+You even have to register yourself at MagicDraw to view the prices of the product. Why do i want to know the price? Because i'd like to use the tools i've been working with during the internship later and therefore would like to know how much they cost. But a company that didn't even want to tell me the price of their product is unacceptable to me. Therefore i wouldn't agree that we <NAME_CORPUS_REPLACEMENT> be lucky to get the "professional version' for free. When we don't have to pay with money we pay with other things like information about ourself during the registrtation process for it or the "getting used to MagicDraw".
+TAGGED_CONTENT:

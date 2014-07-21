@@ -1,0 +1,10 @@
+ID: 2229
+CREATION_DATETIME: 1373666400000
+MODIFICATION_DATETIME: 1373666400000
+TITLE: Ich will aber wissen, wie viel Genauigkeit durch die Linearisierung verloren gegangen ist. Am besten ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2226
+POSTING_TYPE: comment
+CONTENT:
+Ich will aber wissen, wie viel Genauigkeit durch die Linearisierung verloren gegangen ist. Am besten bauen wir einfach beide Sachen ein: das, was zum damaligen Kenntnisstand vorausgesagt wurde und das, was man nach Durchlauf aller Testcases voraussagen würde. Mit der jetzigen Version nach dem Rollback kann ich leben, wenn du willst, kannst du aber die Prediction zum damaligen Zeitpunkt als zusätzliche Spalte aufnehmen (aber vergiss nicht, die Spaltenbeschriftung ebenfalls anzupassen)
+TAGGED_CONTENT:

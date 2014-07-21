@@ -1,0 +1,15 @@
+ID: 89
+CREATION_DATETIME: 1295706060000
+MODIFICATION_DATETIME: 1295706060000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 88
+CONTENT:
+ 
+Ich stelle auch mal meine Antworten ein.
+
+Schönes Wochenende und viel Erfolg beim Lernen.
+
+Liebe Grüße,
+    
+TAGGED_CONTENT:

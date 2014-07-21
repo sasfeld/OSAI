@@ -1,0 +1,10 @@
+ID: 1776
+CREATION_DATETIME: 1367445600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Folien für Kapitel 5 (Internettelefonie) sind online. Die entsprechende Vorlesung findet am 7. 5. statt.
+TAGGED_CONTENT:

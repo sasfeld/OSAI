@@ -1,0 +1,30 @@
+ID: 1752
+CREATION_DATETIME: 1366668000000
+MODIFICATION_DATETIME: 1366840800000
+TITLE: Auf der Webseite ist eine Datei zum Herunterladen. Und die soll in das korrekte Paket eingefügt werde...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1751
+POSTING_TYPE: answer
+CONTENT:
+Auf der Webseite ist eine Datei zum Herunterladen. Und die soll in das korrekte Paket eingefügt werden.
+
+* Datei herunterladen
+
+* Datei kopieren
+
+* im Eclipse im src-Ordner des Projektes einfügen (sollte rot werden)
+
+* Datei im Eclipse öffen
+
+<REMOVED_PERSON_ENTITY> oben in der Datei ist die Paketdeklaration. Die sollte jetzt inkonsistent zu dem Speicherort, wo sie eingefügt wurde, sein (auf den Fehler vorm Text zeigen, um die Fehlermeldung zu sehen). Dann darauf klicken und sagen, dass er die Datei in das richtige Paket verschieben soll.
+
+Ganz einfaches interaktives Programm:
+
+Wie ist dein Name:
+
+<REMOVED_PERSON_ENTITY>               (<- das soll vom Nutzer in die Konsole getippt werden)
+
+Du heißt <REMOVED_PERSON_ENTITY>            (<- das soll das Programm daraufhin schlussfolgern ;) )
+
+Das war es dann eigentlich schon.
+TAGGED_CONTENT:

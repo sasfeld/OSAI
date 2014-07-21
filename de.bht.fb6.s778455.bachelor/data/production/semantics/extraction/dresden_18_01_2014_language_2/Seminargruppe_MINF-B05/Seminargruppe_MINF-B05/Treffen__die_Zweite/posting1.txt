@@ -1,0 +1,40 @@
+ID: 480
+CREATION_DATETIME: 1351029600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> Ersties,
+
+leider waren zu unserem ersten Treffen gestern nicht allzuviele
+
+anwesend. Damit sich das ändert, stimmen wir den Termin fürs
+
+nächste mal jetzt schon ab (am besten bis Ende der Woche).
+
+Zur Abstimmung:
+
+https://dudle. inf. tu-dresden. de/privacy/minf_b05/
+
+Außerdem dürft ihr bestimmen, was wir machen. <NAME_CORPUS_REPLACEMENT> Spielen
+
+(altmodisch als Brettspiel oder Konsole oder...),
+
+Film schaun, Pizza bestellen über selbsthilfegruppenartiges Rumsitzen
+
+bis hin zu Matheaufgaben machen ist alles möglich, <REMOVED_PERSON_ENTITY>, Technik
+
+und Räume kann ich organisieren.
+
+Vorschläge bitte hier entlang:
+
+https://quadpad. lqdn. fr/zGjToVZtdj
+
+So, das wars <NAME_CORPUS_REPLACEMENT> mir. Ich hoffe bald mehr <NAME_CORPUS_REPLACEMENT> euch kennenzulernen.
+
+Schöne Grüße,
+
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

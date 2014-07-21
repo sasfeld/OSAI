@@ -1,0 +1,8 @@
+ID: 16505
+CREATION_DATETIME: 1224624907
+MODIFICATION_DATETIME: 1224624907
+TITLE: Kursplanupdate und 1. Einsendeaufgabe
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Sie alle, der Kursplan wurde leicht aktualisiert und Informationen zur Abwicklung der Einsendeaufgaben und die erste Einsendeaufgabe wurden veröffentlicht. MfG, al.
+TAGGED_CONTENT:

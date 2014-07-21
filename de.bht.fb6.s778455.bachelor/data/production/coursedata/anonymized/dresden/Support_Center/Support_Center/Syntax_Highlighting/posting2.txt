@@ -1,0 +1,22 @@
+ID: 79
+CREATION_DATETIME: 1343858400000
+MODIFICATION_DATETIME: 1343858400000
+TITLE: ```javascript
+  // G
+PARENT_POSTING_ID: 78
+POSTING_TYPE: comment
+CONTENT:
+```javascript
+  // Groups the object's values by a criterion. Pass either a string attribute
+  // to group by, or a function that returns the criterion.
+  _. groupBy = function(obj, val) {
+    var result = {};
+    var iterator = _. isFunction(val) ? val : function(obj) { return obj[val]; };
+    each(obj, function(value, index) {
+      var key = iterator(value, index);
+      (result[key] || (result[key] = [])). push(value);
+    });
+    return result;
+  };
+```
+TAGGED_CONTENT:

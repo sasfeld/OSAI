@@ -1,0 +1,23 @@
+ID: 96
+CREATION_DATETIME: 1296203520000
+MODIFICATION_DATETIME: 1296203520000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 95
+CONTENT:
+ 
+Lieber
+
+Vielen dank für Ihre ausführlichen Antworten.
+Hier noch mal die Methode remove(). Jetzt wird sich zeigen, ob ich es verstanden habe! :-)
+
+public boolean remove(E e){
+Knoten vor = sucheVor(e);
+Knoten k = vor.next;
+k = k.next;
+return true;
+}
+
+Schöne Grüße
+	
+TAGGED_CONTENT:

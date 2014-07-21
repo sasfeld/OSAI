@@ -1,0 +1,36 @@
+ID: 201
+CREATION_DATETIME: 1349560800000
+MODIFICATION_DATETIME: 1349647200000
+TITLE: Also auf der ESE Seit
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:2.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bachelor;weight:1.0;significance:5.00024965706585;degreegeneralization:7;uri:20920636
+TOPIC_ZOOM_TAG: value:Semester;weight:1.0;significance:4.83201353875525;degreegeneralization:4;uri:20914363
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:2.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Prüfungen und Abschlüsse an Hochschulen;weight:1.0;significance:3.92050753238917;degreegeneralization:5;uri:20293489
+TOPIC_ZOOM_TAG: value:Hochschulabschlüsse;weight:1.0;significance:3.92050753238917;degreegeneralization:6;uri:20293472
+TOPIC_ZOOM_TAG: value:Prüfungen, Abschlüsse und Zertifikate;weight:1.0;significance:3.64179974887626;degreegeneralization:4;uri:21974670
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:2.78563553898677;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:2.77735785682754;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:1.07441906812122;degreegeneralization:2;uri:21999813
+NER_TAG: value:ESE;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:IFSR;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Diplomer;weight:0.0;uri:;postag:NN
+POS_TAG: value:Woche;weight:0.0;uri:;postag:NN
+POS_TAG: value:Semester;weight:0.0;uri:;postag:NN
+POS_TAG: value:Seite;weight:0.0;uri:;postag:NN
+POS_TAG: value:Grundlagen;weight:0.0;uri:;postag:NN
+POS_TAG: value:ESE;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rechnerarchitektur;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bachelor;weight:0.0;uri:;postag:NN
+POS_TAG: value:bungen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 190
+POSTING_TYPE: answer
+CONTENT:
+Also auf der ESE Seite vom IFSR wurde noch einmal reingeschrieben das "Technische Grundlagen" und "Rechnerarchitektur" Übungen schon in der ersten Woche stattfinden. Aber das haben ja nur die Diplomer im ersten Semester. 
+
+Ich als Bachelor Medieninformatiker verstehe das also so das unsere Übungen diese Woche nicht stattfinden.
+
+Korrekt?
+TAGGED_CONTENT:
+Also_ADV auf_APPR der_ART ESE_NN Seite_NN vom_APPRART IFSR_NE wurde_VAFIN noch_ADV einmal_ADV reingeschrieben_VVPP das_ART "_$( Technische_ADJA Grundlagen_NN "_$( und_KON "_$( Rechnerarchitektur_NN "_$( Übungen_NN schon_ADV in_APPR der_ART ersten_ADJA Woche_NN stattfinden_VVINF ._$. Aber_KON das_PDS haben_VAFIN ja_ADV nur_ADV die_ART Diplomer_NN im_APPRART ersten_ADJA Semester_NN ._$. Ich_PPER als_APPR Bachelor_NN Medieninformatiker_NE verstehe_VVFIN das_ART also_ADV so_ADV das_ART unsere_PPOSAT Übungen_NN diese_PDAT Woche_NN nicht_PTKNEG stattfinden_VVINF ._$. Korrekt_ADJD ?_$. 

@@ -1,0 +1,12 @@
+ID: 236867
+CREATION_DATETIME: 1380474481
+MODIFICATION_DATETIME: 1380474481
+TITLE: Fehler bei der Grafikdarstellung in den Lektionen
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo allerseits, 
+die einzelnen Grafiken werden bei mir nicht korrekt dargestellt, weder in Chrome noch in Firefox. Javascript ist aktiviert, Cache bereits gelöscht. 
+Bin ich die Einzige, mit diesem Problem?
+<PERSONAL_GREETING_REMOVEMENT>
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

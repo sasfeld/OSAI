@@ -1,0 +1,12 @@
+ID: 3033
+CREATION_DATETIME: 1385506800000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+kann mir jemand sagen, wie man aus dem Objekt `Password`, welches man durch `Useraccount. getPasswort()` erhält, das dekordiert Passwort als `String` bekommt?
+TAGGED_CONTENT:

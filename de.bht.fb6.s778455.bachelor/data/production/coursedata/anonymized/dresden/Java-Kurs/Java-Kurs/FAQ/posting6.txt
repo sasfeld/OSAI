@@ -1,0 +1,11 @@
+ID: 2700
+CREATION_DATETIME: 1383433200000
+MODIFICATION_DATETIME: 1383433200000
+TITLE: If you are still interested in an english java course, you can come to my course in Tuesday, 4th doub...
+PARENT_POSTING_ID: 2550
+POSTING_TYPE: answer
+CONTENT:
+If you are still interested in an english java course, you <NAME_CORPUS_REPLACEMENT> come to my course in Tuesday, 4th double lesson. I will try to answer your questions in english.
+Best Regards,
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

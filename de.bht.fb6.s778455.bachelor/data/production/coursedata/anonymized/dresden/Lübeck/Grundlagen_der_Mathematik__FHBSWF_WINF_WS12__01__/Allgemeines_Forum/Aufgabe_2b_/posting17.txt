@@ -1,0 +1,9 @@
+ID: 185807
+CREATION_DATETIME: 1354813010
+MODIFICATION_DATETIME: 1354813010
+TITLE: Re: Aufgabe 2b)
+PARENT_POSTING_ID: 185773
+CONTENT:
+Moin :)
+Würde ich ähnlich sehen. Es geht halt nur um die Abstraktion auf den Graphen, der als Vektorraum gesehen werden kann. Wir sprechen einfach nur über Vektoren, die eine Eigenschaft X (hier die Nullsummenregel) erfüllen und somit in ihrer eigenen Welt, also einem Untervektorraum, existieren. V1 ... v4 kann man hier als Beispiele nehmen, um eine Formel aufzustellen, falls man dies für die Beantwortung der Aufgabe machen möchte. Er schreibt aber ja auch, dass wir dies unabhängig von den Graphen tun sollen. GrüßeLars 
+TAGGED_CONTENT:

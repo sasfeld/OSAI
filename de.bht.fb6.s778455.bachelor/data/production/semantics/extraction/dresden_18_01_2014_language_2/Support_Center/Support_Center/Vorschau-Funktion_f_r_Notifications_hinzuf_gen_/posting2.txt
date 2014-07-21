@@ -1,0 +1,10 @@
+ID: 330
+CREATION_DATETIME: 1350165600000
+MODIFICATION_DATETIME: 1350165600000
+TITLE: Verstehe ich gerade n
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 329
+POSTING_TYPE: comment
+CONTENT:
+Verstehe ich gerade nicht so ganz. Wo soll die Vorschau eingeblendet werden? Meinst du, den ganzen Thread in der Mail abbilden? Oder im Notification Bereich? Im Notificationsbereich die Vorschau wollte ich wirklich mal vollständig darstellen. 
+TAGGED_CONTENT:

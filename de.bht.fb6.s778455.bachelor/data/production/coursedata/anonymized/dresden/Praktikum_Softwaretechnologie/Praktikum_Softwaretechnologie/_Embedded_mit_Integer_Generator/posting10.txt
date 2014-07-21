@@ -1,0 +1,11 @@
+ID: 3093
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: Disclaimer: Ich habe NIRGENDWO ggeschrieben, dass meine Team disable/enable nicht versteht.
+PARENT_POSTING_ID: 3071
+POSTING_TYPE: comment
+CONTENT:
+Disclaimer: Ich habe NIRGENDWO ggeschrieben, dass mein Team die Verwendung <NAME_CORPUS_REPLACEMENT> disable/enable an der richtigen STelle nicht versteht. Das enspringt DEINEN VOrstellungen über unser Team....
+Davon abgesehen: Richtig dokumentiert kann man fast alles verstehen.
+Edit: Thats gold right here  http://stackoverflow.com/a/184673 thanks : D
+TAGGED_CONTENT:

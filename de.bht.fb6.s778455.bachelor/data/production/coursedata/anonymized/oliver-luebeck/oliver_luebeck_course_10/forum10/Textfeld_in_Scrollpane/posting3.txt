@@ -1,0 +1,18 @@
+ID: 36
+CREATION_DATETIME: 1195547220000
+MODIFICATION_DATETIME: 1195547220000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 35
+CONTENT:
+
+Das funktioniert so nicht, da ich dass in einer Forschleife abhandle und das newLabelFor nur kurzfristig als diese Variable habe und sie damit nicht direkt über newLabelFor ansprechen kann.
+
+
+newLabel ist eine Variable wo alle Datentypen vom Button bis zum Textfield darüber deklariert und auch initialisiert werden. Zum Schluss gehe ich mit einer Schleife alle Textfelder durch, um nach dem Namen zu suchen, den ich dort setze und mir dann per getText() den Text auszulesen, das Problem ist bloss, dass das Textfeld in einem ScrollPane ist. Ich habe praktisch einen objekt in einem objekt und möchte nun child objekt ansprechen.
+
+Also mir ist es wichtig, dass ich das Textfeld über dem Scrollpane auslesen kann. Allerdings weiß ich nicht, wie ich mir alle Elemente aus dem Scroll Pane anzeigen lassen kann oder wie ich darauf zugreifen kann.
+
+Okay ich hoffe es ist nicht zu chaotisch geschrieben.
+   
+TAGGED_CONTENT:

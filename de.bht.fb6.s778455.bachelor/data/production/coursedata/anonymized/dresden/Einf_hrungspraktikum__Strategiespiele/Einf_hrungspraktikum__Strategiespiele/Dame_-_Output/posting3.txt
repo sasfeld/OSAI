@@ -1,0 +1,11 @@
+ID: 1173
+CREATION_DATETIME: 1362438000000
+MODIFICATION_DATETIME: 1362438000000
+TITLE: Jawoll!
+Wenn man die 0er ab dem 5. Index weglässt "funktionierts" unter Fehlern, aber ich muss den B...
+PARENT_POSTING_ID: 1171
+POSTING_TYPE: comment
+CONTENT:
+Jawoll!
+Wenn man die 0er ab dem 5. Index weglässt "funktionierts" unter Fehlern, aber ich muss den Buffer <LEARNED_PERSON_NAME_REPLACEMENT> löschen sonst hab ich noch Zeug <NAME_CORPUS_REPLACEMENT> vorhin drin stehen. Alles zu 0en geht nicht, memset(buffer, 0, sizeof buffer); genausowenig (gibt obige Fehlermeldung aus).
+TAGGED_CONTENT:

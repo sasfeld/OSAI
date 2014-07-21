@@ -1,0 +1,13 @@
+ID: 249447
+CREATION_DATETIME: 1382880619
+MODIFICATION_DATETIME: 1382880619
+TITLE: Re: Format Einsendeaufgaben
+PARENT_POSTING_ID: 249161
+CONTENT:
+Hi !
+Generell sollen die Einsendeaufgaben in digitaler Form vorliegen. Also keine eingescannten Aufgaben. Ich arbeite hauptsächlich mit Word und/oder Mathtype ( als Standalone oder Integration in Office).
+Meist reichen die von Word gegebenen Sachen schon aus für die Ungleichungen.
+ 
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

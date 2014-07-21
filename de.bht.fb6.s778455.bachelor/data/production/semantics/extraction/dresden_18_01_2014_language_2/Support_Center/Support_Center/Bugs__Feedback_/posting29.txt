@@ -1,0 +1,12 @@
+ID: 275
+CREATION_DATETIME: 1349906400000
+MODIFICATION_DATETIME: 1349906400000
+TITLE: Ok, schlagt bitte mal
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 215
+POSTING_TYPE: comment
+CONTENT:
+Ok, schlagt bitte mal vor, welche Optionen sinnvoll sind: https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/posts/99
+
+Ich denke @daily, @weekly wären sinnvoll oder?
+TAGGED_CONTENT:

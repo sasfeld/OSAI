@@ -1,0 +1,14 @@
+ID: 79
+CREATION_DATETIME: 1183532940000
+MODIFICATION_DATETIME: 1183532940000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 78
+CONTENT:
+  
+Hi Leute,
+nicht wundern, wenn ihr euch fürs Treffen eintragen wolltet und der Link nicht direkt geklappt habt, dann kopiert den Link und setzt ihn in einem neuen Bowserfenster rein, dann funktionierts. (ein paar Leute hatten ja schon Erfolg lächelnd)
+
+Gruß
+    
+TAGGED_CONTENT:

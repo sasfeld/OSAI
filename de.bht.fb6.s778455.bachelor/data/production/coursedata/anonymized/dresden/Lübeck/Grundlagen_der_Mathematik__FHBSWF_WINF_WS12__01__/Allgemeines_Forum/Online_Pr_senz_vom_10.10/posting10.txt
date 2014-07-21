@@ -1,0 +1,15 @@
+ID: 170497
+CREATION_DATETIME: 1350286224
+MODIFICATION_DATETIME: 1350286224
+TITLE: Re: Online Präsenz vom 10.10.
+PARENT_POSTING_ID: 170189
+CONTENT:
+Zum Problem der "Transitivität ohne abzuprüfenden Fall":
+Betrachten Sie als einfachstes Beispiel einmal die leere Relation M={}. Diese ist reflexiv, symmetrisch, antisymmetrisch und transitiv. Warum? Für Reflexivität muss beispielsweise gelten, dass für jedes Element x, das in einem Paar in M vorkommt, auch das Paar (x, x) in M sein muss. Da es keine Paare in M gibt, ist hier der Prüfaufwand gleich Null, d. h. Reflexivität erhält man geschenkt. Das Gleiche gilt für die anderen Eigenschaften. 
+Wichtig ist aber nicht, ob die Relation leer ist, sondern ob die Bedingung für die zu prüfende Eigenschaft "ins Leere läuft". Wenn man also für Transitivität zu jeder Kette (a, b), (b, c) aus M prüfen muss, ob dann auch (a, c) in M ist, aber in M überhaupt keine Kette dieser Art enthalten ist, dann hat man ohne einen Finger zu rühren alle zu prüfenden Fälle (null Stück!) abgearbeitet und die Transititivät nachgewiesen.
+Auch folgende Aussagen sind trivial wahr, weil sie über eine leere notwendige Bedingung laufen: "Jedes Element der leeren Menge heißt <REMOVED_PERSON_ENTITY>.". "Alle Elemente der leeren <REMOVED_PERSON_ENTITY> sind gerade Zahlen.". "Jede gerade <REMOVED_PERSON_ENTITY> in der <REMOVED_PERSON_ENTITY> {1, 3, 5, 7, 9} ist größer als 12."
+Fällt Ihnen ein Strickmuster auf? Die Aussagen sind immer in "für alle"-<REMOVED_PERSON_ENTITY> formuliert. Dies liefert uns auch einen Hinweis darauf, dass es in der Negation einer solchen Aussage dann nicht mehr so einfach klappt. Es ist M={} zwar reflexiv, aber nicht nichtreflexiv (oha!). Es ist eine Relation nichtreflexiv, wenn zu mindestens einem in der Relation vorkommendem Element x das Paar (x, x) in der Relation fehlt. Ein solches "Ausnahmeelement" finden Sie nun garantiert nicht in der leeren <REMOVED_PERSON_ENTITY>.
+Ich hoffe, es ist ein wenig klarer geworden. Dies ist wahrscheinlich die verwirrendste Eigenschaft der leeren <REMOVED_PERSON_ENTITY>, aber eine ganz zentrale für Argumentationen.
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 1483
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Doch, das geht. Du musst dazu nur den fehlenden Copy-Konstruktor implementieren. Steht auch so in `bo...
+LANGUAGE: GERMAN
+POS_TAG: value:Konstruktor;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1481
+POSTING_TYPE: answer
+CONTENT:
+Doch, das geht. Du musst dazu nur den fehlenden Copy-Konstruktor implementieren. Steht auch so in `board. h`.
+TAGGED_CONTENT:
+Doch_KON ,_$, das_PDS geht_VVFIN ._$. Du_PPER musst_VMFIN dazu_PROAV nur_ADV den_ART fehlenden_ADJA Copy-Konstruktor_NN implementieren_VVINF ._$. Steht_VVFIN auch_ADV so_ADV in_APPR `_NE board_VVFIN ._$. h_FM `_FM ._$. 

@@ -1,0 +1,19 @@
+ID: 30
+CREATION_DATETIME: 1304610060000
+MODIFICATION_DATETIME: 1304610060000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 28
+CONTENT:
+ 
+Hi,
+
+mein absoluter Favorit in Sachen Selbstlernlektüre für Programmierspachen u. ä. ist die Reihe "Von Kopf bis Fuß" vom O'Reilly Verlag.
+Für Java wäre es das Buch "Java - Von Kopf bis Fuß".
+Ist kein langweilig geschriebenes Nachschlagewerk, sondern visuell und inhaltlich total aussergewöhnlich konzipiert, man behält das Gelernte wirklich im Kopf!
+http://www.amazon.de/Java-von-Kopf-bis-Fu%C3%9F/dp/3897214482
+
+Bis Samstag!
+Gruß,
+   
+TAGGED_CONTENT:

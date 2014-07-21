@@ -1,0 +1,12 @@
+ID: 647
+CREATION_DATETIME: 1351810800000
+MODIFICATION_DATETIME: 1354834800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+ich wollte fragen, ob es (ausnahmsweise) erlaubt ist, bei Buttons zum Verlinken JS zu benutzen, also bloß im 
+button tag selbst:
+``
+TAGGED_CONTENT:

@@ -1,0 +1,28 @@
+ID: 1963
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Jo, hab jetz alles ausgecheckt und kompiliert. (Beim ersten mal hab ich natürlich vergessen clang auc...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:4.31013985980766;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:testCLT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Commit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rechner;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hab;weight:0.0;uri:;postag:NN
+POS_TAG: value:Makefile;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Jo, hab jetz alles ausgecheckt und kompiliert. (Beim ersten mal hab ich natürlich vergessen clang auch auszucheken... woraufhin sich mein Rechner nochmal totkompiliert hat, aber jetzt läuft es)
+
+Hab eben auch nochmal einen Commit hochgeschickt. Das sollte jetzt alles gehen.
+
+Ich hab im Makefile vom testCLT noch ein -lOpenCL hinzugefügt, das funktionierte sonst bei mir nicht.
+
+Jetz läuft es (zumindest bei mir ;-) ), hoffe, dass es bei euch auch geht
+TAGGED_CONTENT:
+Jo_NE ,_$, hab_VAFIN jetz_PIDAT alles_PIS ausgecheckt_VVPP und_KON kompiliert_VVPP ._$. -LRB-_TRUNC Beim_APPRART ersten_ADJA mal_ADV hab_VAFIN ich_PPER natürlich_ADV vergessen_VVINF clang_VVFIN auch_ADV auszucheken_VVIZU ..._$( woraufhin_PWAV sich_PRF mein_PPOSAT Rechner_NN nochmal_ADV totkompiliert_VVPP hat_VAFIN ,_$, aber_KON jetzt_ADV läuft_VVFIN es_PPER -RRB-_TRUNC Hab_NN eben_ADV auch_ADV nochmal_ADV einen_ART Commit_NN hochgeschickt_VVFIN ._$. Das_ART sollte_VMFIN jetzt_ADV alles_PIS gehen_VVINF ._$. Ich_PPER hab_VAFIN im_APPRART Makefile_NN vom_APPRART testCLT_NN noch_ADV ein_PTKVZ -_$( lOpenCL_NE hinzugefügt_VVPP ,_$, das_ART funktionierte_VVFIN sonst_ADV bei_APPR mir_PPER nicht_PTKNEG ._$. Jetz_NE läuft_VVFIN es_PPER -LRB-_TRUNC zumindest_ADV bei_APPR mir_PPER ;--RRB-_TRUNC -RRB-_TRUNC ,_$, hoffe_VVFIN ,_$, dass_KOUS es_PPER bei_APPR euch_PRF auch_ADV geht_VVFIN 

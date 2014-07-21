@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="33279" moduleid="183647" modulename="forum" contextid="263409">
+  <forum id="33279">
+    <type>news</type>
+    <name>Wichtige Ankündigungen</name>
+    <intro>&lt;p&gt;General news and announcements&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>1</scale>
+    <maxbytes>0</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1348132280</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="98511">
+        <name>Übungsklausur</name>
+        <firstpost>260477</firstpost>
+        <userid>665</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1386582395</timemodified>
+        <usermodified>665</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="260477">
+            <parent>0</parent>
+            <userid>665</userid>
+            <created>1385746177</created>
+            <modified>1385746177</modified>
+            <mailed>1</mailed>
+            <subject>Übungsklausur</subject>
+            <message>&lt;p&gt;Liebe Studierenden,&lt;/p&gt;
+&lt;p&gt;im unteren Abschnitt finden Sie eine erste Übungsklausur.&lt;/p&gt;
+&lt;p&gt;Viele Grüße&lt;/p&gt;
+&lt;p&gt;Ulrike Bähr&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="263249">
+            <parent>260477</parent>
+            <userid>665</userid>
+            <created>1386582395</created>
+            <modified>1386582395</modified>
+            <mailed>1</mailed>
+            <subject>Weitere Übungsklausur</subject>
+            <message>&lt;p&gt;Liebe Studierenden,&lt;/p&gt;
+&lt;p&gt;eine zweite Übungsklausur steht für Sie unter Weitere Kursunterlagen bereit.&lt;/p&gt;
+&lt;p&gt;Viele Grüße&lt;/p&gt;
+&lt;p&gt;Ulrike Bähr&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+    </subscriptions>
+    <readposts>
+      <read id="745351">
+        <userid>665</userid>
+        <discussionid>98511</discussionid>
+        <postid>263249</postid>
+        <firstread>1386582395</firstread>
+        <lastread>1386582395</lastread>
+      </read>
+      <read id="745375">
+        <userid>643</userid>
+        <discussionid>98511</discussionid>
+        <postid>263249</postid>
+        <firstread>1386584479</firstread>
+        <lastread>1386584479</lastread>
+      </read>
+      <read id="746363">
+        <userid>665</userid>
+        <discussionid>98511</discussionid>
+        <postid>263249</postid>
+        <firstread>1386604903</firstread>
+        <lastread>1386604903</lastread>
+      </read>
+      <read id="746367">
+        <userid>3589</userid>
+        <discussionid>98511</discussionid>
+        <postid>263249</postid>
+        <firstread>1386604903</firstread>
+        <lastread>1386604903</lastread>
+      </read>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

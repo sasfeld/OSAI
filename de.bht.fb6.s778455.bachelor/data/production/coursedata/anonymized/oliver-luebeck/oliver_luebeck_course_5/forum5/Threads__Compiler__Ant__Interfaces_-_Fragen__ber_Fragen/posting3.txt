@@ -1,0 +1,15 @@
+ID: 71
+CREATION_DATETIME: 1194094080000
+MODIFICATION_DATETIME: 1194094080000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 70
+CONTENT:
+ 
+sehr geehrter ,
+
+vielen Dank für die ausführliche Erläuterung. Ich würde mich freuen wenn wir heut Abend noch einmal über dieses Thema im Zusammenhang mit UML Diagrammen sprechen könnten.
+
+Mit freundlichen Grüßen
+	
+TAGGED_CONTENT:

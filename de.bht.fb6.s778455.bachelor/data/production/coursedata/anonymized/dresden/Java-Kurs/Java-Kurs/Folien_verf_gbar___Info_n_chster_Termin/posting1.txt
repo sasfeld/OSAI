@@ -1,0 +1,11 @@
+ID: 952
+CREATION_DATETIME: 1354834800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Hallo zusammen,
+Zunächst sind die Folien für den 4. Kurs jetzt auch am gewohnten Ort zu finden.
+<NAME_CORPUS_REPLACEMENT> es scheinbar noch einige Probleme mit der Thematik gab, wird es beim nächsten Termin noch einmal in aller Ausführlichkeit um Listen, Sets, Collections und Maps gehen. Wir werden viel üben und uns, wenn Zeit ist, auch ein bisschen mit Bäumen beschäftigen.
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1755
+CREATION_DATETIME: 1366754400000
+MODIFICATION_DATETIME: 1366840800000
+TITLE: Die anderen Werte sollen vom Programm vorgegeben sein. Die Farbe wäre zum Beispiel gelb. 
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1754
+POSTING_TYPE: answer
+CONTENT:
+Die anderen Werte sollen vom Programm vorgegeben sein. Die Farbe wäre zum Beispiel gelb. 
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1828
+CREATION_DATETIME: 1368741600000
+MODIFICATION_DATETIME: 1368741600000
+TITLE: Entschuldigung, ich habe meine Frage korrigiert, sodass sie jetzt ordentlich angezeigt wird. Vorhin h...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1818
+POSTING_TYPE: answer
+CONTENT:
+Entschuldigung, ich habe meine Frage korrigiert, sodass sie jetzt ordentlich angezeigt wird. Vorhin hatte <NAME_CORPUS_REPLACEMENT> wesentlicher Inhalt gefehlt, einiges hinter spitzen Klammern wurde nicht angezeigt. Hat sich jetzt etwas gebessert? Anhand der Definition der Map müsste für den Compiler sichtbar sein, dass get(b. getAutor()) ein Set liefert, oder?
+TAGGED_CONTENT:

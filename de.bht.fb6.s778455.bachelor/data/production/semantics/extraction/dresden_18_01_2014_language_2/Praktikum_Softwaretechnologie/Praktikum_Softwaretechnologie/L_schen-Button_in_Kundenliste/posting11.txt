@@ -1,0 +1,10 @@
+ID: 2981
+CREATION_DATETIME: 1385161200000
+MODIFICATION_DATETIME: 1385161200000
+TITLE: ich hab jetzt als th:value sowohl customer.userAccount.identifer als auch customer.userAccount probie...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2935
+POSTING_TYPE: comment
+CONTENT:
+ich hab jetzt als th:value sowohl customer. userAccount. identifer als auch customer. userAccount probiert, wobei letzteres doch eigenltich richtig sein sollte, ich übergebe doch den userAccount, oder?
+TAGGED_CONTENT:

@@ -1,0 +1,36 @@
+ID: 2538
+CREATION_DATETIME: 1380319200000
+MODIFICATION_DATETIME: 1381960800000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hello,
+
+we learned in the lesson how to restart a service by a parent process à la
+
+```ruby
+
+while(1){
+
+  pid = fork();
+
+  if (!pid){
+
+    break;
+
+  }
+
+  waitpid(pid);
+
+}
+
+```
+
+Is there an equal solution to restart one service out of multiple services by only one parent like a proxy? Or is it easier to use an infinite loop on parent's side where we have to check if every service is running and restarting it when not?
+
+Greetings
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

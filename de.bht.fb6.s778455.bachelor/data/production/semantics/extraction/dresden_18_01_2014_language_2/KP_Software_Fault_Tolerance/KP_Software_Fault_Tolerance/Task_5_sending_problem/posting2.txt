@@ -1,0 +1,10 @@
+ID: 985
+CREATION_DATETIME: 1355958000000
+MODIFICATION_DATETIME: 1355958000000
+TITLE: Did you add files you want to commit to the repository with `svn add`?
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 984
+POSTING_TYPE: comment
+CONTENT:
+Did you add files you want to commit to the repository with `svn add`?
+TAGGED_CONTENT:

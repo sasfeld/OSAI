@@ -1,0 +1,24 @@
+ID: 115387
+CREATION_DATETIME: 1323610395
+MODIFICATION_DATETIME: 1323610395
+TITLE: Re: Aufgabe 8b, LO8
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=42911#115387
+TOPIC_ZOOM_TAG: value:Vektoren;weight:2.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Betrag;weight:0.0;uri:;postag:NN
+POS_TAG: value:REMOVEMENT;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 115386
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+wenn der Vektor den Betrag wurzel(13) hat, dann muss ich ihn (den Vektor bzw. den Betrag) durch wurzel(13) teilen, um den Betrag von 1 zu erhalten. Dann mit 2 multiplizieren, um den Betrag von 2 zu erhalten....
+Viele Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, wenn_KOUS der_ART Vektor_NN den_ART Betrag_NN wurzel_ADJD -LRB-_TRUNC 13_CARD -RRB-_TRUNC hat_VAFIN ,_$, dann_ADV muss_VVFIN ich_PPER ihn_PPER -LRB-_TRUNC den_ART Vektor_NN bzw_NE ._$. den_ART Betrag_NN -RRB-_TRUNC durch_APPR wurzel_ADJD -LRB-_TRUNC 13_CARD -RRB-_TRUNC teilen_VVINF ,_$, um_KOUI den_ART Betrag_NN von_APPR 1_CARD zu_PTKZU erhalten_VVINF ._$. Dann_ADV mit_APPR 2_CARD multiplizieren_VVINF ,_$, um_KOUI den_ART Betrag_NN von_APPR 2_CARD zu_PTKZU erhalten_VVINF ..._$( Viele_PIDAT Grüße_NN <_CARD PERSONAL_GREETING_REMOVEMENT_NN >_XY 

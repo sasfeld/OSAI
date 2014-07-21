@@ -1,0 +1,12 @@
+ID: 155
+CREATION_DATETIME: 1348351200000
+MODIFICATION_DATETIME: 1348351200000
+TITLE: mcp -i <state> player
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 153
+POSTING_TYPE: comment
+CONTENT:
+mcp -i  player1 player2
+
+d. h. einfach den String einfuegen, den du als Spielfeld haben moechtest, in deinem Fall z. B. ./mcp -i "W:---------W---W--bb---B--Bb------" example_player <NAME_CORPUS_REPLACEMENT>
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 2508
+CREATION_DATETIME: 1375826400000
+MODIFICATION_DATETIME: 1375826400000
+TITLE: Ich glaube es ist wirklich nur von den Werten auszugehen. Dann wäre es ja egal, ob Namen oder Zahlen....
+PARENT_POSTING_ID: 2507
+POSTING_TYPE: comment
+CONTENT:
+Ich glaube es ist wirklich nur <NAME_CORPUS_REPLACEMENT> den Werten auszugehen. Dann wäre es ja egal, ob Namen oder Zahlen. Das Beispiel mit Städten & Bundesländern sollte nur anschaulich sein, die Abhängigkeiten sollten auch <NAME_CORPUS_REPLACEMENT> nicht aufgrund der Semantik bestehen. Also sehe das gleiche wie oben in Zahlen so aus:
+    1 | 2
+    3 | 4
+und
+    1 | 2
+    3 | 2
+TAGGED_CONTENT:

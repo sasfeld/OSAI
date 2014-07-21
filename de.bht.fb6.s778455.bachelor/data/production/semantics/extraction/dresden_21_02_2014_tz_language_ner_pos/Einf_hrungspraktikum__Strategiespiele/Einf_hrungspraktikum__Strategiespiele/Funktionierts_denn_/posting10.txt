@@ -1,0 +1,13 @@
+ID: 1485
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Falls es Dir an C++-Kenntnissen mangelt, schau mal hier: http://www.cplusplus.com/articles/y8hv0pDG/
+LANGUAGE: GERMAN
+POS_TAG: value:C;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kenntnissen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1483
+POSTING_TYPE: comment
+CONTENT:
+Falls es Dir an C++-Kenntnissen mangelt, schau mal hier: http://www.cplusplus.com/articles/y8hv0pDG/
+TAGGED_CONTENT:
+Falls_KOUS es_PPER Dir_PPER an_APPR C_NN +_XY +_XY -_$( Kenntnissen_NN mangelt_VVFIN ,_$, schau_VVFIN mal_ADV hier_ADV :_$. http:\/\/www.cplusplus.com\/articles\/y8hv0pDG\/_NN 

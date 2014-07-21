@@ -1,0 +1,14 @@
+ID: 45
+CREATION_DATETIME: 1195573080000
+MODIFICATION_DATETIME: 1195573080000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 44
+CONTENT:
+
+xxxx hatte im letzten online meeting gesagt, dass man es wohl auch alleine machen kann, wenn man uuuuuunbedingt will. die aufzeichnung ist noch im "video archive".
+
+für mich klang das vernünftig, weil ich so eben mehr übung bekomme. für die abgabe hat man ja auch noch ne ganze weile zeit.
+aber man könnte ja trotzdem vergleichen und als gruppe abgeben.
+   
+TAGGED_CONTENT:

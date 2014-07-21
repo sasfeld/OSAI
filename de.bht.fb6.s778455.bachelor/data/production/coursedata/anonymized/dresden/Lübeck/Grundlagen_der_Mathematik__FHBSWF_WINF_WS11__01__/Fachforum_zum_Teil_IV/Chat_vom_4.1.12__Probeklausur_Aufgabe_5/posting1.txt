@@ -1,0 +1,29 @@
+ID: 117589
+CREATION_DATETIME: 1325710968
+MODIFICATION_DATETIME: 1325711293
+TITLE: Chat vom 4.1.12, Probeklausur Aufgabe 5
+PARENT_POSTING_ID: 0
+CONTENT:
+Eine alternativer Loesungsweg ist in der Tat (a x b) x c (Klammern vernachlaessigbar)!
+Wenn Sie somit im R3 sind und das Kreuzprodukt zur Verfuegung steht, ist o. g. Loesungsweg etwas einfacher.
+Mein Vorschlag lautete:
+a = u * (1, 1, 0), b = v * (0, 1, 1), c = w * (-1, 2, -3)
+(a + b) * c = 0 wenn
+u * -1 + 2u + 2v + -3v = 0
+u = +v = lambda, d. h.
+x = lambda * (1, 2, 1)
+Der 2. Vorschlag aus einer Klausur im WS 03/04 lautete:
+(a x b) x c ist (1, 2, 1)
+Der Student hat nun bemerkt, dass man die volle Loesungsmenge erhaelt, wenn man (1, 2, 1) mit w skaliert. Ich war zuerst skeptisch, dass beides auf dieselbe Loesungsmenge hinauslaeuft, da ich damit rechnete, dass Teile der 2. Loesung ausserhalb der Ebene von a x b liegen wuerden. Beim <REMOVED_PERSON_ENTITY> kann das aber ausgeschlossen werden. Es bleibt uebrig, dass es andere Vektoren geben koennte, die ich laut erstem Vorschlag finde, aber nicht laut 2. Vorschlag.
+Beide Vorschlaege fuehren aber zur gleichen Loesungsmenge. Ich zeige, dass beide Loesungswege aequivalent sind!
+Zu zeigen:
+lambda * (1, 2, 1) = (a x b) xc
+fuer lambda = 1 ok (einfach Kreuzprodukte mit o. g. Vektoren und Skalierung 1 ausrechnen).
+fuer lambda  1 sei die rechte Seite:
+(g * (1, 1, 0) x h * (0, 1, 1)) x m * (-1, 2, -3)
+= (g, g, 0) x (0, h, h) x (-m, 2m, -3m)
+= (gh, -gh, gh) x (-m, 2m, -3m)
+= (ghm, 2 * ghm, ghm)
+= (ghm) * (1, 2, 1)
+sei lambda = ghm, q. e. d.
+TAGGED_CONTENT:

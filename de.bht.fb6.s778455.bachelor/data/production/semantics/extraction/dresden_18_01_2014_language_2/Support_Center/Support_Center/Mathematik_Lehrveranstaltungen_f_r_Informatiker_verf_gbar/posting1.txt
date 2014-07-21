@@ -1,0 +1,16 @@
+ID: 397
+CREATION_DATETIME: 1350511200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Lehrveranstaltungen Mathematik für Informatiker sind nun verfügbar:
+
+Zu finden sind sie in der Fakultät für Mathematik und Naturwissenschaften im [Institut für Algebra](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/chairs?institute_id=30021) unter [Mathematik für Informatiker](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/chairs/2045573). 
+
+(Falls jemand weiß, wie die Lehrstühle heißen, wäre es schön, das hier als Kommentar mitzuteilen, <NAME_CORPUS_REPLACEMENT> auf den Seiten des Instituts keinerlei Informationen zu den Lehrstühlen gegeben sind.)
+
+*INF-B-120 wurde auf WS12/13 geändert*
+TAGGED_CONTENT:

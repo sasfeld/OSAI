@@ -1,0 +1,72 @@
+ID: 74
+CREATION_DATETIME: 1201423860000
+MODIFICATION_DATETIME: 1201423860000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 69
+CONTENT:
+
+
+Eine Frage hab ich noch...
+
+Bei Übung 5 heißt es: "Schreiben Sie die folgende Befehle in eine main Methode, und aendern Sie sie, damit das Programm kompiliert"
+
+Sieht bei mir so aus, dass ich im Grunde nur die <>-Operatoren um den Datentyp ergänzt habe. Der Rest funktioniert aber in Eclipse, auch wenn ich selbst vorher gedacht hätte, dass Collection <Integer>... ein Problem sein könnte. Aber nee, er kompiliert alles, so wie es ist.
+
+Vielleicht hat Frau Merceron in der Präsenz noch etwas zu der Aufgabe gesagt, wovon ich nichts weiß, wäre dankbar für Hinweise!
+
+Viele Grüße
+
+ 
+
+import java.util.ArrayList;
+
+import java.util.Collection;
+
+import java.util.HashSet;
+
+import java.util.LinkedList;
+
+import java.util.List;
+
+ 
+
+public class Uebung5Praesenz {
+
+public static void main(String[] args) {
+
+List<Number> lN = new ArrayList<Number>();
+
+System.out.println(lN.add(new Double(123)));
+
+System.out.println(lN.add(123));
+
+System.out.println(lN.add(123.0));
+
+System.out.println(lN);
+
+Collection<Integer> cI = new ArrayList<Integer>();
+
+System.out.println(cI.add(3));
+
+System.out.println(cI.add(2));
+
+System.out.println(lN.addAll(cI));
+
+System.out.println(lN);
+
+System.out.println(lN.retainAll(new HashSet<Object>()));
+
+System.out.println(lN);
+
+System.out.println(cI.removeAll(new LinkedList<String>()));
+
+System.out.println(cI);
+
+}
+
+}
+
+Ich hab auch selbst dann noch ein HashSet angelegt, dann bleiben auch die Einträge des HashSets in lN erhalten (retained), das versteh ich schon. Aber so löscht er alle Einträge aus lN, versteh ich auch. Aber wie gesagt, kompilieren tut er so oder so. Danke!
+    
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1969
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Ich bin ab um 9 da. Will lediglich zwischen halb 10 und um 10 nochmal woanders hin, aber wir bekommen...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Ich bin ab um 9 <NAME_CORPUS_REPLACEMENT>. Will lediglich zwischen halb 10 und um 10 nochmal woanders hin, aber wir bekommen das schon hingebogen
+TAGGED_CONTENT:

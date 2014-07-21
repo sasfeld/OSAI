@@ -1,0 +1,13 @@
+ID: 3009
+CREATION_DATETIME: 1385247600000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: Du musst unbedingt noch lernen, dass man Auditorium nicht wie ein Forum nutzt.
+Mit ergänzen meinte i...
+PARENT_POSTING_ID: 3005
+POSTING_TYPE: comment
+CONTENT:
+Du musst unbedingt noch lernen, dass man Auditorium nicht wie ein Forum nutzt.
+Mit ergänzen meinte ich, dass du deine Frage ergänzt, durch Edit und so, das werde ich jetzt machen.
+Wenn dir die Antwort hilft, reicht es wenn du ein Danke als Kommentar drunter schreibst, ein Danke als eigene Antwort ist nämlich merkwürdig.
+Zusätzlich gibt es noch das grüne Häkchen neben einer Antwort, falls die Antwort genau deine Frage beantwortet hat, solltest du es klicken.
+TAGGED_CONTENT:

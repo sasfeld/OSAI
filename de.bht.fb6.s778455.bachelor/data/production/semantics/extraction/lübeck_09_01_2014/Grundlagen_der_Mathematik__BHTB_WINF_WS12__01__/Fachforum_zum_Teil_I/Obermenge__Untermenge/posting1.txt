@@ -1,0 +1,12 @@
+ID: 168133
+CREATION_DATETIME: 1349692833
+MODIFICATION_DATETIME: 1349692833
+TITLE: Obermenge/ Untermenge
+PARENT_POSTING_ID: 0
+CONTENT:
+<REMOVED_PERSON_ENTITY> oder Untermenge einer <REMOVED_PERSON_ENTITY> Y ist eine <REMOVED_PERSON_ENTITY> X, in Zeichen X ≤ Y oder Y ≥ X , wenn jedes x Element von X und auch von Y ist.  (bis hierhin  noch alles verständlich)
+Umgekehrt ist Y Obermenge von X(Y≥X). Ich verstehe nicht, was das mit der Klammer soll. wieso steht das überhaupt in Klammern? 
+und heißt es dann Y≥X(Y≥X)?
+ 
+PS. die zeichen ≤≥ habe ich jetzt als Obermenge und Untermenge benutzt, weil hier keine runden sind.
+TAGGED_CONTENT:

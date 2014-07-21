@@ -1,0 +1,10 @@
+ID: 2101
+CREATION_DATETIME: 1372197600000
+MODIFICATION_DATETIME: 1372197600000
+TITLE: Wenn du im execute die gleichen Methoden zur Datengenerierung nutzen willst, dann musst du mal im CLe...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2082
+POSTING_TYPE: comment
+CONTENT:
+Wenn du im execute die gleichen Methoden zur Datengenerierung nutzen willst, dann musst du mal im CLeverTrustee in der training() Methode nachsehen. Dort werden die Daten für die Trainingsphase erzeugt, das könntest du dann bei dir genauso machen.
+TAGGED_CONTENT:

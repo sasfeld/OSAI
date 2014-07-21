@@ -1,0 +1,13 @@
+ID: 18
+CREATION_DATETIME: 1286780280000
+MODIFICATION_DATETIME: 1286780280000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 17
+CONTENT:
+
+Liebe Studierende,
+in der Tat hat Eclipse Probleme mit der Klasse Console. Man kann damit nicht richtig von der Tastatur einlesen. Die String Variable hat dann kein Objekt also ist mit null initialisiert und daher die NullPointerException, die waehrend der Ausfuehrung von der Java Virtuell Maschine geworfen wird. Also Programme mit der Klasse Console "von Hand" mit java ausfuehren.
+Mit freundlichen Gruessen
+    
+TAGGED_CONTENT:

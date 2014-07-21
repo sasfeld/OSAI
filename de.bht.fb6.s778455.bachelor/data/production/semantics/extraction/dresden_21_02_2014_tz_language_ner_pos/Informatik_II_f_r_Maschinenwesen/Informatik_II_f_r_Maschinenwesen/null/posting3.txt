@@ -1,0 +1,11 @@
+ID: 2185
+CREATION_DATETIME: 1373320800000
+MODIFICATION_DATETIME: 1373320800000
+TITLE: ich wuerde die haendische variante empfehlen. bouml so einzustellen, dass die klassen korrekt automat...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2181
+POSTING_TYPE: comment
+CONTENT:
+ich wuerde die haendische variante empfehlen. bouml so einzustellen, dass die klassen korrekt automatisch generiert werden ist nicht ganz trivial und kostet am ende mehr zeit als die klassen schnell selbst zu bauen. ausserdem lernt ihr dabei auch gleich noch ein bisschen was fuer die pruefung. :)
+TAGGED_CONTENT:
+ich_PPER wuerde_VVFIN die_ART haendische_ADJA variante_ADJA empfehlen_VVINF ._$. bouml_ADJD so_ADV einzustellen_VVIZU ,_$, dass_KOUS die_ART klassen_ADJD korrekt_ADJD automatisch_ADJD generiert_VVPP werden_VAINF ist_VAFIN nicht_PTKNEG ganz_ADV trivial_ADJD und_KON kostet_VVFIN am_APPRART ende_ADJA mehr_ADV zeit_ADV als_APPR die_ART klassen_ADJD schnell_ADJD selbst_ADV zu_PTKZU bauen_VVINF ._$. ausserdem_ADJD lernt_VVFIN ihr_PPER dabei_PROAV auch_ADV gleich_ADV noch_ADV ein_ART bisschen_ADJA was_PWS fuer_VVFIN die_ART pruefung_FM ._$. :-RRB-_XY 

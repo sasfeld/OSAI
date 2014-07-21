@@ -1,0 +1,16 @@
+ID: 6
+CREATION_DATETIME: 1175923260000
+MODIFICATION_DATETIME: 1175923260000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 5
+CONTENT:
+
+    Hallo ,
+
+das war erst auch mein Problem, liegt an der Datei, aber wenn Du in Kapitel 2.2 auf das Bild schaust siehst du wie es sein sollte. Also c:/vfh/.....
+
+Grüße
+
+    
+TAGGED_CONTENT:

@@ -1,0 +1,8 @@
+ID: 117576
+CREATION_DATETIME: 1318187271
+MODIFICATION_DATETIME: 1318187271
+TITLE: Re: Beispiel fuer Division mehrgliedriger Ausdruecke
+PARENT_POSTING_ID: 117575
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>, ich habe mir das alles noch einmal von einer studentischen Hilfskraft erklären lassen. Das was ich meine, ist die Zerlegung von 372 in 300 und 70 und 2 geteilt durch 30 und 1. Die Rechnung finden Sie im Anhang. 
+TAGGED_CONTENT:

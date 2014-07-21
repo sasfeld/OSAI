@@ -1,0 +1,26 @@
+ID: 1127
+CREATION_DATETIME: 1361142000000
+MODIFICATION_DATETIME: 1361142000000
+TITLE: Meiner Meinung nach: nein, Du brauchst keinen Taschenrechner.
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+NER_TAG: value:RSA;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Quantitative;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beispiele;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sicherheit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Meinung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Echtzeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Probeaufgaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:RSA;weight:0.0;uri:;postag:NN
+POS_TAG: value:Taschenrechner;weight:0.0;uri:;postag:NN
+POS_TAG: value:Methoden;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kandidaten;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1126
+POSTING_TYPE: comment
+CONTENT:
+Meiner Meinung nach: nein, Du brauchst keinen Taschenrechner.
+
+Um das zu prüfen, schau Dir mal die Probeaufgaben zu Sicherheit (RSA) und Quantitative Methoden (Echtzeit) an. Das wären die potenziellen Kandidaten für einen Taschenrechner. Üblicherweise wählen wir aber die Beispiele dort so, dass man das auch im <NAME_CORPUS_REPLACEMENT> rechnen kann.
+TAGGED_CONTENT:
+Meiner_PPOSAT Meinung_NN nach_APPO :_$. nein_PTKANT ,_$, Du_PPER brauchst_ADV keinen_PIAT Taschenrechner_NN ._$. Um_KOUI das_PDS zu_PTKZU prüfen_VVINF ,_$, schau_VVIMP Dir_PPER mal_ADV die_ART Probeaufgaben_NN zu_APPR Sicherheit_NN -LRB-_TRUNC RSA_NN -RRB-_TRUNC und_KON Quantitative_NN Methoden_NN -LRB-_TRUNC Echtzeit_NN -RRB-_TRUNC an_PTKVZ ._$. Das_ART wären_VAFIN die_ART potenziellen_ADJA Kandidaten_NN für_APPR einen_ART Taschenrechner_NN ._$. Üblicherweise_ADJD wählen_VVINF wir_PPER aber_ADV die_ART Beispiele_NN dort_ADV so_ADV ,_$, dass_KOUS man_PIS das_PDS auch_ADV im_APPRART <_ADJA NAME_CORPUS_REPLACEMENT_NN >_CARD rechnen_VVINF kann_VMFIN ._$. 

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="13948" moduleid="70140" modulename="forum" contextid="98006">
+  <forum id="13948">
+    <type>general</type>
+    <name>Fachforum zum Teil III</name>
+    <intro>Hier können Sie Fachfragen zum Teil III diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1218802920</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="43915">
+        <name>Probleme mit Berechnung Vektorprodukt</name>
+        <firstpost>117582</firstpost>
+        <userid>3643</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1324986951</timemodified>
+        <usermodified>3643</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117582">
+            <parent>0</parent>
+            <userid>3643</userid>
+            <created>1323695907</created>
+            <modified>1323695907</modified>
+            <mailed>1</mailed>
+            <subject>Probleme mit Berechnung Vektorprodukt</subject>
+            <message>&lt;p&gt;Hallo zusammen,&lt;/p&gt;
+&lt;p&gt;ich habe leider irgendwie Probleme beim Lösen der Aufgaben zum Vektorprodukt und bitte hier um Rat, da ich meinen Fehler nicht sehen kann:&lt;/p&gt;
+&lt;p&gt;Vektor a = 1,-4,-1&lt;/p&gt;
+&lt;p&gt;Vektor b = 5,5,2&lt;/p&gt;
+&lt;p&gt;Meine Rechnung:&lt;/p&gt;
+&lt;p&gt;(-4*2) -(5*-4) = -3&lt;/p&gt;
+&lt;p&gt;(1*2) - (5*-1) = 7&lt;/p&gt;
+&lt;p&gt;(1*5)- (5*-4) = 25&lt;/p&gt;
+&lt;p&gt;Mein Ergebnis demnach Vektor a x Vektor b = (-3, 7, 25). Ist aber falsch (laut LONCAPA). &lt;img title="traurig" alt="traurig" src="http://moodle.oncampus.de/pix/s/sad.gif" complete="true" /&gt;&lt;/p&gt;
+&lt;p&gt;Würde mich sehr freuen, wenn mir hier jemand auf die Sprünge helfen könnte. DANKE!&lt;/p&gt;
+&lt;p&gt;Grüße,&lt;/p&gt;
+&lt;p&gt;Bianca&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117583">
+            <parent>117582</parent>
+            <userid>3537</userid>
+            <created>1324415806</created>
+            <modified>1324415806</modified>
+            <mailed>1</mailed>
+            <subject>Re: Probleme mit Berechnung Vektorprodukt</subject>
+            <message>&lt;div&gt;Achte auf die &lt;b&gt;Vorzeichen&lt;/b&gt; =) Lösung konnte nicht getestet werden, da ich die Aufgabe nicht gefunden habe in Lon Capa.&lt;/div&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117584">
+            <parent>117582</parent>
+            <userid>3519</userid>
+            <created>1324666617</created>
+            <modified>1324666617</modified>
+            <mailed>1</mailed>
+            <subject>Re: Probleme mit Berechnung Vektorprodukt</subject>
+            <message>Christian hat Recht. Du muss auf das Vorzeichen im zweiten Komponent achten und die Aufgabe ist gelöst. </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117585">
+            <parent>117584</parent>
+            <userid>3643</userid>
+            <created>1324986951</created>
+            <modified>1324986951</modified>
+            <mailed>1</mailed>
+            <subject>Re: Probleme mit Berechnung Vektorprodukt</subject>
+            <message>Vielen Dank,&lt;br /&gt;manchmal verliert man einfach den Überblick...&lt;br /&gt;&lt;br /&gt;Grüße,&lt;br /&gt;Bianca&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43916">
+        <name>Probeklausur Aufgabe 5</name>
+        <firstpost>117586</firstpost>
+        <userid>3537</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1324717362</timemodified>
+        <usermodified>3537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="117586">
+            <parent>0</parent>
+            <userid>3537</userid>
+            <created>1324415058</created>
+            <modified>1324415058</modified>
+            <mailed>1</mailed>
+            <subject>Probeklausur Aufgabe 5</subject>
+            <message>Hallo Mitstudenten,&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;kann mir jemand einen Tipps geben, wie ich an die Aufgabe ran gehen soll?&lt;/div&gt;&lt;div&gt;Ich habe an das Vektorprodukt nachgedacht.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Könnt mir auch direkt an meine E-Mail schreiben, damit die Aufgabe für die anderen nicht leichter wird.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Grüße&lt;/div&gt;&lt;div&gt;Christian&lt;/div&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="117587">
+            <parent>117586</parent>
+            <userid>3537</userid>
+            <created>1324717362</created>
+            <modified>1324717362</modified>
+            <mailed>1</mailed>
+            <subject>Re: Probeklausur Aufgabe 5</subject>
+            <message>&lt;i&gt;Da keiner sich gemeldet hat, werde ich mal meine eigene Frage beantworten.&lt;/i&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Die Ebenengleichung (ohne Stützvektor) von 2 Vektoren ist:&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;eV = rS * aV + sS * bV&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Die gesuchten Vektoren xV sollen senkrecht auf cV sein. (Skalarprodukt)&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;cV * xV = 0&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Damit kann man die Aufgabe lösen!&lt;/div&gt;&lt;div&gt;&lt;hr /&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Legende:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;xV = Vektor x&lt;/div&gt;&lt;div&gt;rS = Skalar r&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="128512">
+        <userid>3519</userid>
+      </subscription>
+      <subscription id="128513">
+        <userid>3643</userid>
+      </subscription>
+      <subscription id="128514">
+        <userid>3537</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

@@ -1,0 +1,20 @@
+ID: 77
+CREATION_DATETIME: 1306679160000
+MODIFICATION_DATETIME: 1306679160000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 75
+CONTENT:
+  
+hey !
+
+ich bin wieder daheim und hab jetzt (fast) alles ans laufen gebracht. lag wohl wirklich irgendwie an einem fehler beim abspeichern. habs nämlich 1:1 von meiner ersten version abgetippt, nun läufts. warum auch immer. in Gedanken
+
+das mit der reporter-klasse hab ich so gemacht (bzw bin noch dran):
+dort gibt es eine report-methode in der sich die ganzen System.out.print-befehle (s.toString(), s.area() usw) befinden. soweit ich weiß musst du dort keine parameter übergeben.
+die report-methode rufe ich dann aus ShapeTester auf (z.b: Reporter.report(circle1);) und bekomme dann am monitor die entsprechenden daten ausgegeben.
+im moment ärgere ich mich noch damit rum, dass im weiten textblock je nach typ unterschiedliche texte und variablennamen angezeigt werden müssen...
+
+alles liebe,
+    
+TAGGED_CONTENT:

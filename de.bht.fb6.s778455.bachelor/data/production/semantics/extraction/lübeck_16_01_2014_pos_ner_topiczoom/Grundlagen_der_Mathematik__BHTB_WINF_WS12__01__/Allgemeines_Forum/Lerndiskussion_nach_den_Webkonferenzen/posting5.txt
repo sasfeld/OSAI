@@ -1,0 +1,12 @@
+ID: 167165
+CREATION_DATETIME: 1349385447
+MODIFICATION_DATETIME: 1349385447
+TITLE: Re: Lerndiskussion nach den Webkonferenzen
+POS_TAG: value:Mittwoch;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skript;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 166943
+CONTENT:
+Hört sich gut an. Ich hoffe ich bin bis dahin schon etwas weiter im Skript.
+Dann bis Mittwoch.
+TAGGED_CONTENT:
+Hört_VVFIN sich_PRF gut_ADJD an_PTKVZ ._$. Ich_PPER hoffe_VVFIN ich_PPER bin_VAFIN bis_APPR dahin_PROAV schon_ADV etwas_ADV weiter_ADV im_APPRART Skript_NN ._$. Dann_ADV bis_APPR Mittwoch_NN ._$. 

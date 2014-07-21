@@ -1,0 +1,13 @@
+ID: 52
+CREATION_DATETIME: 1288779120000
+MODIFICATION_DATETIME: 1288779120000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 51
+CONTENT:
+
+Danke für die Antworten.
+
+Dies würde auch als Applikation funktionieren, oder?
+	
+TAGGED_CONTENT:

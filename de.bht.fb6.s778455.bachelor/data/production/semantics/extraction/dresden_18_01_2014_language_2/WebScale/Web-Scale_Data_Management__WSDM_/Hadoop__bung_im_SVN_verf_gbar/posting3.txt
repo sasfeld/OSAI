@@ -1,0 +1,16 @@
+ID: 1002
+CREATION_DATETIME: 1356044400000
+MODIFICATION_DATETIME: 1356044400000
+TITLE: Stimmt, das Formatieren des HDFS wurde in meinem kleinen Tutorial bisher nicht erwähnt. Habe ich ergä...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 983
+POSTING_TYPE: comment
+CONTENT:
+Stimmt, das Formatieren des HDFS wurde in meinem kleinen Tutorial bisher nicht erwähnt. Habe ich ergänzt. 
+
+Was das andere Problem angeht: merkwürdig! Bei mir muss JAVA_HOME nicht vorher gesetzt sein, <NAME_CORPUS_REPLACEMENT> das "hadoop"-Skript als Erstes das hadoop-config- und dieses dann das hadoop-env-Skript sourced... Sollte also eigentlich nicht nötig sein, solange JAVA_HOME in dem hadoop-env-Skript gesetzt ist. 
+
+Viele Grüße,
+
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

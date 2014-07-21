@@ -1,0 +1,13 @@
+ID: 310
+CREATION_DATETIME: 1349992800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Jeder Nutzer <NAME_CORPUS_REPLACEMENT> auditorium hat die Möglichkeit einen Username und seinen Klarnamen anzugeben. Neu ist jetzt, dass auch der Titel gewählt werden kann [Prof., Dr., Doz.]. 
+Einfach mal die [Einstellungen besuchen](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/users/edit) und entsprechende Felder ausfüllen.
+Außerdem ist kein Passwort mehr notwendig, um Änderungen vorzunehmen.
+Viele Grüße<PERSONAL_GREETING_REMOVEMENT>
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1741
+CREATION_DATETIME: 1366236000000
+MODIFICATION_DATETIME: 1366236000000
+TITLE: additionally: the kernel is supposidly mapped into the upper 1GB of each task. of the remaining 3gig ...
+PARENT_POSTING_ID: 1740
+POSTING_TYPE: comment
+CONTENT:
+additionally: the kernel is supposidly mapped into the upper 1GB of each task. of the remaining 3gig addressable memory another region is backed not by memory but by device memory (let say another 1GB)  does that mean each task is left with only 2GB addressable memory?
+Or is device memory part of the kernel address space?
+TAGGED_CONTENT:

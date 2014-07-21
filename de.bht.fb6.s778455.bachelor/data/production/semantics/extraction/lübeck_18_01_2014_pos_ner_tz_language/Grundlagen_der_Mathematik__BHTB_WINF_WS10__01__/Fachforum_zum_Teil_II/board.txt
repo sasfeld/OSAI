@@ -1,0 +1,9 @@
+ID: 11745
+MODIFICATION_DATETIME: 1218802758
+TITLE: Fachforum zum Teil II
+LANGUAGE: UNKNOWN
+POS_TAG: value:Fachforum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fachfragen;weight:0.0;uri:;postag:NN
+INTRO: Hier können Sie Fachfragen zum Teil II diskutieren.
+TYPE: general

@@ -1,0 +1,10 @@
+ID: 184449
+CREATION_DATETIME: 1354461624
+MODIFICATION_DATETIME: 1354461624
+TITLE: Re: Aufgabe 2b)
+PARENT_POSTING_ID: 184435
+CONTENT:
+Hi <REMOVED_PERSON_ENTITY>,
+aufgrund der Vorraussetzung, dass die Spaltenvektoren in Summe 0 ergeben sollen, also einen Nullvektor (habe ich mir gedacht) bilden, kann ich die Spaltenvektoren, hier eben eindimensionale durch die Knoten von v1, v2,..., so mit Skalaren multiplizieren, dass sie gemeinsam den Nullvektor ergeben. Hieraus folgt ja wieder, dass entweder die triviale Lösung oder eben unendlich viele Lösungen möglich ist/sind. Oder? :/
+Andere Idee, ähnliches Prinzip: Bei einem Untervektorraum von V müssen wir für W doch eigentlich "nur" zeigen, dass er abgeschlossen ist, wenn man die Addition und die skalare Multiplikation durchführt. Da wir hier ja komplett R zur Verfügung haben (V(G)--&gt;R), kommen wir doch mit diesen beiden Rechenregeln nie aus dem vorgegeben Vektorraum heraus oder? Können wir hier nicht eindimensionale Spaltenvektoren als Grundlage nutzen?  Wenn wir dies tun, würde auch meine Idee bzgl. des Nullvektors wieder greifen, so denke ich zumindest.... Ich bin etwas verwirrt jetzt. Dein Ansatz gefällt mir doch immer mehr :)Sorry, wenn ich etwas verwirrend schreibe, aber es ist gar nicht so trivial, seine mathematischen Gedanken niederzuschreiben :DGrüßeLars
+TAGGED_CONTENT:

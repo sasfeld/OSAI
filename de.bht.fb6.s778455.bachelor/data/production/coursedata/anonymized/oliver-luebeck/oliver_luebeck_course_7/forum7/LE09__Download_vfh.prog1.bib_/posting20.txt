@@ -1,0 +1,19 @@
+ID: 39
+CREATION_DATETIME: 1304628780000
+MODIFICATION_DATETIME: 1304628780000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 38
+CONTENT:
+ 
+Nein wir sollten die Aufgaben nicht vorher lösen :).
+
+Ich wollte das eigentlich nur machen um damit vielleicht nicht zur Präsenz zu kommen. Ein Kommilitone besucht diesen Kurs dieses Semester nicht und mit dem wollte ich dann die Zeit verbringen ^^.
+
+Ich programmiere täglich auf Arbeit. Das reicht von Visual Basic über C++, C#, WPF bis hin zu JAVA. Obwohl letzteres eher selten. ABER: Kennt man eine Programmiersprache sind die anderen nicht sehr schwer. Oft gibt es nur Syntax Unterschiede, bzw. jede Programmiersprache hat ein paar Sachen mehr oder weniger.
+
+Dafür bin ich in kreativer Arbeit ne absolute Niete :)
+
+LG
+    
+TAGGED_CONTENT:

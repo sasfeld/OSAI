@@ -1,0 +1,9 @@
+ID: 1208
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: Ich weiß nicht was "variablen outsourcen" mit dem oben geschriebenen zu tun hat, aber die Länge des C...
+PARENT_POSTING_ID: 1206
+POSTING_TYPE: comment
+CONTENT:
+Ich weiß nicht was "variablen outsourcen" mit dem oben geschriebenen zu tun hat, aber die Länge des Codes ist nicht entscheident. Wobei, wie in der Einführung gestern gesagt, Code Qualität durchaus Pluspunkte bringen kann und natürlich generell erwünscht ist :)
+TAGGED_CONTENT:

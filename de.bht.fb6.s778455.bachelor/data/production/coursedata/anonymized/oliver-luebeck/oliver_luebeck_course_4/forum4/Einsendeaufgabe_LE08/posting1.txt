@@ -1,0 +1,20 @@
+ID: 40
+CREATION_DATETIME: 1177846260000
+MODIFICATION_DATETIME: 1177846260000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+    Hallo allerseits!
+Morgen ist die Aufgabe fällig und irgendwie komme ich gerade absolut nicht weiter.
+Wir sollen neue Objekte erzeugen und deren Methoden aktivieren. Das heißt, dass wir neue objekte etwa in dieser form erzeugen sollen
+
+EinfachesAuto test = new EinfachesAuto();
+
+damit die EinfachesAuto.class dafür genutzt wird oder? Bei mir funktioniert das nur leider nicht. Da kommt bei mir beim compilen eine Fehlermeldung.
+Ich hänge gerade fest und weiß nicht weiter, kann mir da einer einen Denkanstoß geben?
+
+Grüße
+    
+TAGGED_CONTENT:

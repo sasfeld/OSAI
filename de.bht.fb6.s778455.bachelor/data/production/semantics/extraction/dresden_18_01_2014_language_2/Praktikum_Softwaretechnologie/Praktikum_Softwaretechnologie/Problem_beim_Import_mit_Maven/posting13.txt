@@ -1,0 +1,10 @@
+ID: 2904
+CREATION_DATETIME: 1384729200000
+MODIFICATION_DATETIME: 1384729200000
+TITLE: Bei mir ist es definitiv nicht so. Auf meinem Laptop (win xp, ansonsten alles gleich wie desktop rech...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2897
+POSTING_TYPE: comment
+CONTENT:
+Bei mir ist es definitiv nicht so. Auf meinem Laptop (win xp, ansonsten alles gleich wie desktop rechner) klappt es. Bei meinem Desktop Rechner (win 7) kommt beim Import... Maven projekt. Direkt der Fehler aus dem Screenshot. Beim tippen nochmal versucht und kein Fehler. Wurde die videoshop. zip geändert?!
+TAGGED_CONTENT:

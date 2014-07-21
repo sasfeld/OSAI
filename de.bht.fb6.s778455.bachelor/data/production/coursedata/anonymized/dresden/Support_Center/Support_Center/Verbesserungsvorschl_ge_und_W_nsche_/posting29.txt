@@ -1,0 +1,11 @@
+ID: 579
+CREATION_DATETIME: 1351465200000
+MODIFICATION_DATETIME: 1351465200000
+TITLE: Es gibt da noch ein Problem: Ich habe einen Deeplink nach 
+https://auditorium.inf.tu-dresden.de/my_c...
+PARENT_POSTING_ID: 392
+POSTING_TYPE: comment
+CONTENT:
+Es gibt <NAME_CORPUS_REPLACEMENT> noch ein Problem: Ich habe einen Deeplink nach 
+https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/my_courses und komme auf die Login-Seite weil ich noch nicht angemeldet bin. Danach erfolgt eine <REMOVED_PERSON_ENTITY> nach https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/my_courses%7B:value=%3E%22%22%7D mit einem 404 Fehler.
+TAGGED_CONTENT:

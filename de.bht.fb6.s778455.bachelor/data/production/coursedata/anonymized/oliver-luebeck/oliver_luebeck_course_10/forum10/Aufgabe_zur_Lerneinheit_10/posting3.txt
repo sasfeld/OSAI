@@ -1,0 +1,12 @@
+ID: 50
+CREATION_DATETIME: 1197200460000
+MODIFICATION_DATETIME: 1197200460000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 48
+CONTENT:
+
+Ähm ich bin gerade verwirrt. Soll jedes Objekt einen anderen Parameter haben oder soll in jedem Objekt zwei Parameter enthalten sein?
+
+   
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 1643
+CREATION_DATETIME: 1364252400000
+MODIFICATION_DATETIME: 1364252400000
+TITLE: Okay, that was how I understood it. And now to the point of my question: How does my system know that...
+PARENT_POSTING_ID: 1636
+POSTING_TYPE: comment
+CONTENT:
+Okay, that was how I understood it. And now to the point of my question: How does my system know that - if I access a certain virtual address - it is either in the RAM and therefor to be translated by the MMU or on a device an hence to be translated by the IO-MMU?
+TAGGED_CONTENT:

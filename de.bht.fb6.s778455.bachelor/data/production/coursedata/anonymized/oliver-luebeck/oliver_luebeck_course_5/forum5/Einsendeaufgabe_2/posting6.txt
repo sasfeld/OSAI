@@ -1,0 +1,16 @@
+ID: 36
+CREATION_DATETIME: 1191965160000
+MODIFICATION_DATETIME: 1191965160000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 34
+CONTENT:
+  
+Versuchs mal mit ner Schleife und der Methode charAt(i);
+Und zum austauschen dann mit z.B.:
+'ä': filtered.append("&auml;");
+
+Beste Grüße
+André
+    
+TAGGED_CONTENT:

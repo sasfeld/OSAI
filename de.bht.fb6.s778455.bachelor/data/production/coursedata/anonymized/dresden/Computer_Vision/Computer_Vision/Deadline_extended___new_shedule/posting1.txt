@@ -1,0 +1,9 @@
+ID: 2993
+CREATION_DATETIME: 1385247600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+The second exercise block "<REMOVED_PERSON_ENTITY>" starts one week later as initially scheduled, i. e. on 3. 12. Attention!!! No "introductory lecture" on 26/27. 11 – the first exercise block continues instead. The deadline for the first exercise is extended to 2. 12. 
+TAGGED_CONTENT:

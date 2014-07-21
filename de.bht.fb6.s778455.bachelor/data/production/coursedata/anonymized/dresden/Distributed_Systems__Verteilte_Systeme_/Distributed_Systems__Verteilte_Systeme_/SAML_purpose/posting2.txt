@@ -1,0 +1,12 @@
+ID: 1139
+CREATION_DATETIME: 1361314800000
+MODIFICATION_DATETIME: 1361314800000
+TITLE: Yes, you are right. SAML handles both authentication and authorization (within separate description m...
+PARENT_POSTING_ID: 1138
+POSTING_TYPE: answer
+CONTENT:
+Yes, you are right. SAML handles both authentication and authorization (within separate description mechanisms).
+Redirection to some kind of identity provider is also possible.
+The main advantage of SAML is that all descriptions are in a universal formal, supporting interoperability of
+different providers.
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 427
+CREATION_DATETIME: 1350597600000
+MODIFICATION_DATETIME: 1350597600000
+TITLE: Derzeit ist auditoriu
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 396
+POSTING_TYPE: comment
+CONTENT:
+Derzeit ist auditorium auf die TU Dresden begrenzt. Ob wir weitere Log in Möglichkeiten einbauen werden wir diskutieren. Eine Möglichkeit wäre es natürlich, dass wir alle Dienste per OAuth zulassen aber eine TU Adresse zur Validierung angegeben werden muss. Wäre das denn auch in deinem Interesse? Dann könnte man sich per Twitter, Facebook etc. anmelden insofern eine TUD Adresse hinterlegt ist. (Nur eine Idee)
+TAGGED_CONTENT:

@@ -1,0 +1,13 @@
+ID: 174279
+CREATION_DATETIME: 1351153790
+MODIFICATION_DATETIME: 1351153790
+TITLE: Re: Gruppen für die Einsendeaufgaben
+LANGUAGE: GERMAN
+POS_TAG: value:OK;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 174225
+CONTENT:
+da ich noch keine Gruppe habe, würde ich dann in die von <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY> springen, wenn das OK ist?!MfG
+TAGGED_CONTENT:
+da_ADV ich_PPER noch_ADV keine_PIAT Gruppe_NN habe_VAFIN ,_$, würde_VAFIN ich_PPER dann_ADV in_APPR die_ART von_APPR <_CARD REMOVED_PERSON_ENTITY_NN >_CARD ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE springen_VVINF ,_$, wenn_KOUS das_ART OK_NN ist_VAFIN ?!_CARD MfG_XY 

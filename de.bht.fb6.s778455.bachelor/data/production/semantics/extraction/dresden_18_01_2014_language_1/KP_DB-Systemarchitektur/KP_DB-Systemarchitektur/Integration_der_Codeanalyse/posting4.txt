@@ -1,0 +1,10 @@
+ID: 1921
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: Das Resultät von Korrelationsanalyze muss ich an irgendwo ein Datei schreiben in Training Phases, dam...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1885
+POSTING_TYPE: comment
+CONTENT:
+Das Resultät <NAME_CORPUS_REPLACEMENT> Korrelationsanalyze muss ich an irgendwo ein Datei schreiben in Training Phases, damit das Program weiter benutzten kann.  Aber welches Format soll ich das Resultät speichern?
+TAGGED_CONTENT:

@@ -1,0 +1,26 @@
+ID: 117586
+CREATION_DATETIME: 1324415058
+MODIFICATION_DATETIME: 1324415058
+TITLE: Probeklausur Aufgabe 5
+TOPIC_ZOOM_TAG: value:E-Mail;weight:1.0;significance:7.02837690621686;degreegeneralization:7;uri:20901800
+TOPIC_ZOOM_TAG: value:Kommunikationsdienste;weight:1.0;significance:6.8534775930315;degreegeneralization:4;uri:20034732
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:1.0;significance:6.50399175266524;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Internetdienste;weight:1.0;significance:5.01006672735298;degreegeneralization:6;uri:20772413
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Services und Dienstleistungen;weight:1.0;significance:4.22947364593082;degreegeneralization:4;uri:21993506
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:1.80459553725326;degreegeneralization:2;uri:21999847
+POS_TAG: value:Vektorprodukt;weight:0.0;uri:;postag:NN
+POS_TAG: value:soll?Ich;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mail;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mitstudenten;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Mitstudenten, kann mir jemand einen <REMOVED_PERSON_ENTITY> geben, wie ich an die Aufgabe ran gehen soll?Ich habe an das Vektorprodukt nachgedacht. Könnt mir auch direkt an meine E-Mail schreiben, damit die Aufgabe für die anderen nicht leichter wird. GrüßeChristian
+TAGGED_CONTENT:
+Hallo_ITJ Mitstudenten_NN ,_$, kann_VMFIN mir_PPER jemand_PIS einen_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_ADJD geben_VVINF ,_$, wie_PWAV ich_PPER an_APPR die_ART Aufgabe_NN ran_ADV gehen_VVFIN soll?Ich_NN habe_VAFIN an_APPR das_ART Vektorprodukt_NN nachgedacht_VVPP ._$. Könnt_VVFIN mir_PPER auch_ADV direkt_ADJD an_APPR meine_PPOSAT E-Mail_NN schreiben_VVINF ,_$, damit_KOUS die_ART Aufgabe_NN für_APPR die_ART anderen_ADJA nicht_PTKNEG leichter_ADJD wird_VAFIN ._$. GrüßeChristian_NE 

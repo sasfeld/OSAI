@@ -1,0 +1,22 @@
+ID: 2088
+CREATION_DATETIME: 1371765600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Info:
+- GPU kommt heute Nachmittag, ich kann sie einbauen, kümmert ihr euch um die <REMOVED_PERSON_ENTITY>?
+Infrastruktur:
+- Evaluieren ob die Tests + Korrelation richtig waren
+- Normale Nutzung simulieren --> für finale Evaluation
+- Tesen ob Scheduling auf mehrere Devices geht (+einbauen, dass man wartet oder ein anderes device nimmt)
+- Abfrage für supported functions
+Entscheider:
+- Korrelationsanalyse einbauen und testen !!!
+Tests:
+- mehr rechenintensive Tests (z. B. Matrix Mmultiplikation)
+- test daten generierung (man kann auch mit srand(...) einen Seed setzen, dann kommt <NAME_CORPUS_REPLACEMENT> immer das gleiche bei rand() raus (zumindest auf der selben Maschine) ... damit braucht ihr die Daten nicht speichern.
+<REMOVED_PERSON_ENTITY>:
+- bitonic sort kernel <NAME_CORPUS_REPLACEMENT> Studenten
+TAGGED_CONTENT:

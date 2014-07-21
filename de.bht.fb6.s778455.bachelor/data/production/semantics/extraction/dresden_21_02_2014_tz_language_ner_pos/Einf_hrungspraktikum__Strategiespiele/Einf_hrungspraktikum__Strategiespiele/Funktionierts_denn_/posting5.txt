@@ -1,0 +1,16 @@
+ID: 1495
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Update: scheint zu funktionieren, old_state war ein zeiger also muss es
+LANGUAGE: GERMAN
+POS_TAG: value:Update;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1483
+POSTING_TYPE: comment
+CONTENT:
+Update: scheint zu funktionieren, old_state war ein zeiger also muss es
+
+game_state* stateOfBranch = new game_state(*old_state);
+
+heißen
+TAGGED_CONTENT:
+Update_NN :_$. scheint_VVFIN zu_PTKZU funktionieren_VVINF ,_$, old_state_VVFIN war_VAFIN ein_ART zeiger_ADJA also_ADV muss_VMFIN es_PPER game_state_VVFIN \*_PRF stateOfBranch_XY =_XY new_ITJ game_state_ADJA -LRB-_TRUNC \*_KON old_state_ADJA -RRB-_TRUNC ;_$. heißen_VVINF 

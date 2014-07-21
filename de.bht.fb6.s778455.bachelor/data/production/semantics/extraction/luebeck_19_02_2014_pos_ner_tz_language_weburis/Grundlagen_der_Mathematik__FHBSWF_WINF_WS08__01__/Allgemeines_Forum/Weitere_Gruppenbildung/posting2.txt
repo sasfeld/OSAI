@@ -1,0 +1,13 @@
+ID: 16577
+CREATION_DATETIME: 1225026876
+MODIFICATION_DATETIME: 1225026909
+TITLE: Re: Weitere Gruppenbildung
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=6513#16577
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 16575
+CONTENT:
+Hi Melanie
+Ich und <REMOVED_PERSON_ENTITY> haben bereits eine Gruppe gebildet ich weiß jetzt nicht wie viele vorgesehen sind aber 3-4 denke ich mal. Also würden wir noch 1-2 suchen. Wer mag kann sich gerne melden. 
+TAGGED_CONTENT:
+Hi_NE Melanie_NE Ich_PPER und_KON <_VVFIN REMOVED_PERSON_ENTITY_NE >_NE haben_VAFIN bereits_ADV eine_ART Gruppe_NN gebildet_VVPP ich_PPER weiß_VVFIN jetzt_ADV nicht_PTKNEG wie_KOKOM viele_PIDAT vorgesehen_VVPP sind_VAFIN aber_ADV 3-4_CARD denke_VVFIN ich_PPER mal_ADV ._$. Also_ADV würden_VAFIN wir_PPER noch_ADV 1-2_CARD suchen_VVFIN ._$. Wer_PWS mag_VMFIN kann_VMFIN sich_PRF gerne_ADV melden_VVINF ._$. 

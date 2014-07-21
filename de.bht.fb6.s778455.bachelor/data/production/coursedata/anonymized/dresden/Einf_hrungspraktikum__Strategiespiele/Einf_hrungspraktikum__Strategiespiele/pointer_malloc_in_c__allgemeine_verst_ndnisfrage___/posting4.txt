@@ -1,0 +1,13 @@
+ID: 1407
+CREATION_DATETIME: 1362783600000
+MODIFICATION_DATETIME: 1362783600000
+TITLE: malloc <-> free
+new <-> deltete
+new[] <-> delete[]
+PARENT_POSTING_ID: 1403
+POSTING_TYPE: comment
+CONTENT:
+malloc  free
+new  delete
+new[]  delete[]
+TAGGED_CONTENT:

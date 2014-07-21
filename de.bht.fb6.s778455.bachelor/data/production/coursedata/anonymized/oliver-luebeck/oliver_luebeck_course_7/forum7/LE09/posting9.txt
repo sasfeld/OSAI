@@ -1,0 +1,12 @@
+ID: 50
+CREATION_DATETIME: 1305015600000
+MODIFICATION_DATETIME: 1305015600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 48
+CONTENT:
+ 
+Wie sieht denn deine Überprüfung aus?
+Kann mir absolut nicht vorstellen warum das gerade ab 16 nicht mehr funktionieren soll
+   
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 1231
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: Was mich an C/C++ stoert, ist, dass bools eine besondere Art von int sind und da stillschweigend konv...
+PARENT_POSTING_ID: 1225
+POSTING_TYPE: comment
+CONTENT:
+Was mich an C/C++ stoert, ist, dass bools eine besondere Art <NAME_CORPUS_REPLACEMENT> int sind und <NAME_CORPUS_REPLACEMENT> stillschweigend konvertiert wird. In typsichereren Programmiersprachen haette dein Beispiel einen Typfehler provoziert.
+TAGGED_CONTENT:

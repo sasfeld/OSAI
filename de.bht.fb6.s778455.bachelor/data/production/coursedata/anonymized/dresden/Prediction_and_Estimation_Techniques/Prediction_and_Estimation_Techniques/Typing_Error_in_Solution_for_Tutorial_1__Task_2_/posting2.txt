@@ -1,0 +1,12 @@
+ID: 717
+CREATION_DATETIME: 1352415600000
+MODIFICATION_DATETIME: 1352761200000
+TITLE: You are absolutely right. I will post an updated version on Monday or Tuesday. Thanks.
+
+Waltenegus
+PARENT_POSTING_ID: 713
+POSTING_TYPE: answer
+CONTENT:
+You are absolutely right. I will post an updated version on Monday or <REMOVED_PERSON_ENTITY>. Thanks.
+Waltenegus
+TAGGED_CONTENT:

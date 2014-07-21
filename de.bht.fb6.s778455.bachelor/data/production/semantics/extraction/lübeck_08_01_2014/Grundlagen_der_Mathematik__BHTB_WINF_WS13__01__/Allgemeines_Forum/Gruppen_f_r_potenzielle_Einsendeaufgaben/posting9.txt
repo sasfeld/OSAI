@@ -1,0 +1,12 @@
+ID: 237569
+CREATION_DATETIME: 1380615012
+MODIFICATION_DATETIME: 1380615012
+TITLE: Re: Gruppen für potenzielle Einsendeaufgaben
+TOPIC_ZOOM_TAG: value:Veranstaltungen;weight:1.0;significance:3.37051978211685;degreegeneralization:3;uri:20901494
+PARENT_POSTING_ID: 237557
+CONTENT:
+Hallo zusammen,
+ich möchte mich dann gerne hinzugesellen und mitwirken. Ich werde an der 1. Präsenz nicht teilnehmen können, da die Veranstaltung mit der eines anderen Moduls von mir sich nicht verträgt. 
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

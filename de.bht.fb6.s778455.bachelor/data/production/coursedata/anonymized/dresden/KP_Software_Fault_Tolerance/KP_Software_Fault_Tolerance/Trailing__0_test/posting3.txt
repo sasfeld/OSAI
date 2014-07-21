@@ -1,0 +1,10 @@
+ID: 854
+CREATION_DATETIME: 1353798000000
+MODIFICATION_DATETIME: 1353798000000
+TITLE: strlen just checks if there is anywhere a \0, as c strings end with this symbol by definition. If my ...
+PARENT_POSTING_ID: 851
+POSTING_TYPE: comment
+CONTENT:
+strlen <NAME_CORPUS_REPLACEMENT> checks if there is anywhere a \0, as c strings end with this symbol by definition. If my string violates this definition, strlen stops counting, when it finds a \0 anywhere behind the string in the memory. 
+I don't consider this a safe way to check for strlen, but I don't know about any other way either. My question is more about, is there any way to do this right and not <NAME_CORPUS_REPLACEMENT> 'working'?
+TAGGED_CONTENT:

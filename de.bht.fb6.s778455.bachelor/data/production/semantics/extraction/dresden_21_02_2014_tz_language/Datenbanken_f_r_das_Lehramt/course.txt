@@ -1,0 +1,23 @@
+ID: 110804160
+CREATION_DATETIME: 1380492000000
+MODIFICATION_DATETIME: 1380492000000
+LANG: null
+SHORT_NAME: null
+TITLE: Datenbanken für das Lehramt
+LANGUAGE: GERMAN
+SUMMARY: null
+TOPIC_ZOOM_TAG: value:Lehramt;weight:1.0;significance:12.015402334674;degreegeneralization:5;uri:19997706
+TOPIC_ZOOM_TAG: value:Datenbanken;weight:1.0;significance:7.89636515986151;degreegeneralization:7;uri:20901511
+TOPIC_ZOOM_TAG: value:Praktische Informatik;weight:1.0;significance:7.35669138175786;degreegeneralization:5;uri:20899199
+TOPIC_ZOOM_TAG: value:Lehrer;weight:1.0;significance:7.33327110754976;degreegeneralization:4;uri:21627241
+TOPIC_ZOOM_TAG: value:Datenspeicherung;weight:1.0;significance:7.13639548305616;degreegeneralization:6;uri:20901528
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:5.57127107797354;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:5.02422544755277;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:5.00780172072213;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:1.0;significance:4.95064330688218;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813

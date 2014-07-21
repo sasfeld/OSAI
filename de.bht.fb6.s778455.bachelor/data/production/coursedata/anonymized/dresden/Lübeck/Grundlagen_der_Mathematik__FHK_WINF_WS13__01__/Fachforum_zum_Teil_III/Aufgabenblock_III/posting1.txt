@@ -1,0 +1,9 @@
+ID: 255747
+CREATION_DATETIME: 1384424790
+MODIFICATION_DATETIME: 1384425265
+TITLE: Aufgabenblock III
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+hier eine Frage zum Aufgabenblock III, Aufgabe 5. Ich hatte den Normalenvektor aus ABxAC bestimmt und das ist natürlich ein anderer Vektor als aus ACxAB. Mein Normalenvektor hat den gleichen Betrag und ergibt mit dem Skalar -1 multipliziert ACxAB. Wäre das in der Klausur ok oder ist es besser immer im Zweifel beide Normalenvektoren anzugeben? 
+TAGGED_CONTENT:

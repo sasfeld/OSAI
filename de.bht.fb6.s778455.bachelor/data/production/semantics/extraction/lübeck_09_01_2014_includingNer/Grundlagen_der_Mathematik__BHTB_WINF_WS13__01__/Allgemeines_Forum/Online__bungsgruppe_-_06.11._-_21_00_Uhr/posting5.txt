@@ -1,0 +1,16 @@
+ID: 252481
+CREATION_DATETIME: 1383514121
+MODIFICATION_DATETIME: 1383514121
+TITLE: Re: Online Übungsgruppe - 06.11. - 21:00 Uhr
+TOPIC_ZOOM_TAG: value:Auto;weight:1.0;significance:5.24748400087964;degreegeneralization:8;uri:21999541
+TOPIC_ZOOM_TAG: value:Auto und Motorrad;weight:1.0;significance:5.19757176321983;degreegeneralization:7;uri:20247419
+TOPIC_ZOOM_TAG: value:Fahrzeuge und Verkehrsmittel;weight:1.0;significance:4.52515214523549;degreegeneralization:6;uri:21881442
+TOPIC_ZOOM_TAG: value:Verkehr;weight:1.0;significance:4.07161964221536;degreegeneralization:5;uri:21897779
+TOPIC_ZOOM_TAG: value:Transport, Verkehr und Logistik;weight:1.0;significance:4.01908510287724;degreegeneralization:4;uri:21925982
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 251275
+CONTENT:
+Ich versuche es. Aber ich glaube da bin ich im Auto unterwegs :(
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 2560
+CREATION_DATETIME: 1381701600000
+MODIFICATION_DATETIME: 1384988400000
+TITLE: In welcher Sprache findet der Kurs statt?
+PARENT_POSTING_ID: 2548
+POSTING_TYPE: question
+CONTENT:
+In welcher Sprache findet der Kurs statt?
+TAGGED_CONTENT:

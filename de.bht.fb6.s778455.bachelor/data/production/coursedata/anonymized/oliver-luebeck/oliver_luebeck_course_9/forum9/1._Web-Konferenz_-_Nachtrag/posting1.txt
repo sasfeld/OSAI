@@ -1,0 +1,29 @@
+ID: 3
+CREATION_DATETIME: 1175670780000
+MODIFICATION_DATETIME: 1175670780000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Liebe Studierende,
+
+die letzte Folie gestern zeigte eine Methode, die in der Klasse MyMath deklariert sein könnte, siehe unten. Können Sie einen Vorschlag machen, um diese Methode in der Klasse MyMathTest aufzurufen? Ich freue mich auf Ihre Vorschläge.
+
+Mit freundlichen Grüßen
+
+PS: für die Einsendeaufgabe denken Sie sich bitte etwas anderes ;-).
+/**
+* Hiermit wird die Differenz z1 - z2 berechnet und
+* zum Bildschirm ausgegeben.
+*
+* @param z1 erste Zahl
+* @param z2 zweite Zahl
+*/
+
+public static void differenziere2Zahlen(int z1, int z2) {
+System-out.println( z1 - z2);
+}
+
+    
+TAGGED_CONTENT:

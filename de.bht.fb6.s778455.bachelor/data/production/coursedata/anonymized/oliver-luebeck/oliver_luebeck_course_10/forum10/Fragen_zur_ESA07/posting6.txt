@@ -1,0 +1,13 @@
+ID: 59
+CREATION_DATETIME: 1197612840000
+MODIFICATION_DATETIME: 1197612840000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 58
+CONTENT:
+
+JA. So behandenl alle Klassen das gleiche CocktailBar-Objekt dank Referenz-Typ.
+
+Viel Erfolg und einen schönen 3. Advent
+  
+TAGGED_CONTENT:

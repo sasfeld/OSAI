@@ -1,0 +1,28 @@
+ID: 2813
+CREATION_DATETIME: 1384210800000
+MODIFICATION_DATETIME: 1384297200000
+TITLE: Hi,
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2812
+POSTING_TYPE: answer
+CONTENT:
+Hi,
+
+```python
+
+if me. say("No exercise next week!") or 
+
+   me. announce([auditorium, se-website], "No exercise on ..."):
+
+  exercise. happens = False
+
+else:
+
+  exercise. happens = True
+
+```
+
+Hope this makes it clear,
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

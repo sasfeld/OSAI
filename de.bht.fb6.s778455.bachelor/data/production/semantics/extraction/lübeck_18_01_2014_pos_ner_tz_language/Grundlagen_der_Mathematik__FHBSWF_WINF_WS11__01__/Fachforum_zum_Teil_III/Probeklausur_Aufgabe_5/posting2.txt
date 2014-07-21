@@ -1,0 +1,30 @@
+ID: 117587
+CREATION_DATETIME: 1324717362
+MODIFICATION_DATETIME: 1324717362
+TITLE: Re: Probeklausur Aufgabe 5
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Vektoren;weight:3.0;significance:9.53141213642543;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:4.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:4.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:4.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Skalare;weight:1.0;significance:3.17713737880847;degreegeneralization:7;uri:19937424
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:4.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:4.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Vektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:sen!Legende;weight:0.0;uri:;postag:NN
+POS_TAG: value:bVDie;weight:0.0;uri:;postag:NN
+POS_TAG: value:tzvektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skalar;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:sS;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skalarprodukt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:aV;weight:0.0;uri:;postag:NN
+POS_TAG: value:cV;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ebenengleichung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117586
+CONTENT:
+Da keiner sich gemeldet hat, werde ich mal meine eigene Frage beantworten. Die Ebenengleichung (ohne Stützvektor) von 2 Vektoren ist:eV = rS * aV + sS * bVDie gesuchten Vektoren xV sollen senkrecht auf cV sein. (Skalarprodukt)cV * xV = 0Damit kann man die Aufgabe lösen!Legende:xV = Vektor xrS = Skalar r
+TAGGED_CONTENT:
+Da_KOUS keiner_PIS sich_PRF gemeldet_VVPP hat_VAFIN ,_$, werde_VAFIN ich_PPER mal_ADV meine_PPOSAT eigene_ADJA Frage_NN beantworten_VVINF ._$. Die_ART Ebenengleichung_NN -LRB-_TRUNC ohne_APPR Stützvektor_NN -RRB-_TRUNC von_APPR 2_CARD Vektoren_NN ist_VAFIN :_$. eV_XY =_XY rS_XY \*_CARD aV_NN +_KON sS_NN \*_CARD bVDie_NN gesuchten_ADJA Vektoren_NN xV_NE sollen_VMFIN senkrecht_ADJD auf_APPR cV_NN sein_VAINF ._$. -LRB-_TRUNC Skalarprodukt_NN -RRB-_TRUNC cV_NN \*_CARD xV_XY =_XY 0Damit_XY kann_VMFIN man_PIS die_ART Aufgabe_NN lösen!Legende_NN :_$. xV_XY =_XY Vektor_NN xrS_XY =_XY Skalar_NN r_XY 

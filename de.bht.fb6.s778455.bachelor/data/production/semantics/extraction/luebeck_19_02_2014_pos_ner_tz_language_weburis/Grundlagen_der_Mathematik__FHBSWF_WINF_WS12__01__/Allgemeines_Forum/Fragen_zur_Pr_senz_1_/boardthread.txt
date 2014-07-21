@@ -1,0 +1,7 @@
+ID: 62323
+CREATION_DATETIME: 1349629418
+MODIFICATION_DATETIME: 1350145144
+TITLE: Fragen zur Präsenz 1 
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=62323
+FIRST_POSTING_ID: 167889

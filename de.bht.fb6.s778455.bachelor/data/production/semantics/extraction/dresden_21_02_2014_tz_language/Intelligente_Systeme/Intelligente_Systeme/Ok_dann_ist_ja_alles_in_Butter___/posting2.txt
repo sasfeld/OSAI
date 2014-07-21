@@ -1,0 +1,13 @@
+ID: 719
+CREATION_DATETIME: 1352502000000
+MODIFICATION_DATETIME: 1352674800000
+TITLE: Eine sinnvolle Berechnung ist es, das [Hornerschema](http://de.wikipedia.org/wiki/Horner-Schema#Nulls...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Geschichte;weight:1.0;significance:4.39936498754763;degreegeneralization:3;uri:20258639
+PARENT_POSTING_ID: 718
+POSTING_TYPE: answer
+CONTENT:
+Ein sinnvoller Ansatz ist es, das [Hornerschema](http://de.wikipedia.org/wiki/Horner-Schema#Nullstellenbestimmung) in Kombination mit der [Nullstellenberechnung nach <REMOVED_PERSON_ENTITY>](http://de.wikipedia.org/wiki/Newton-Verfahren) zu implementieren. So habe zumindest ich es damals gemacht und es hatte das richtige Ergebnis geliefert.
+
+Und wenn ich mich noch richtig erinnere stimmt N und d, wie du es angenommen hast. Nun musst du damit b berechnen.
+TAGGED_CONTENT:

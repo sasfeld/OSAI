@@ -1,0 +1,11 @@
+ID: 1789
+CREATION_DATETIME: 1368136800000
+MODIFICATION_DATETIME: 1368136800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wo kann ich die Vorlage für das Poster finden bzw. schickt ihr es per Mail an alle Teilnehmer?
+Beste Grüße
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

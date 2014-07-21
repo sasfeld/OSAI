@@ -1,0 +1,10 @@
+ID: 482
+CREATION_DATETIME: 1351029600000
+MODIFICATION_DATETIME: 1351116000000
+TITLE: What I think, mroi tr
+PARENT_POSTING_ID: 479
+POSTING_TYPE: answer
+CONTENT:
+What I think, mroi tried to convey in the lecture is that any application is free to misuse synchronization facilities. If multiple applications need to synchronize they inherently trust each other to adhere to the synchronization protocol. If one app then only does `while (1) semaphore->down()`, there is no good way to recover from that.
+What you propose is essentially putting all code that needs to be synchronized in the kernel and forcing applications to use only that code. AFAICS this is the same as having a separate trusted server to whom apps communicate what code they want to execute serialized, with the exception that this server does not need to run in any privileged mode.
+TAGGED_CONTENT:

@@ -1,0 +1,17 @@
+ID: 18
+CREATION_DATETIME: 1191744240000
+MODIFICATION_DATETIME: 1191744240000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo 
+
+Ich habe mich intensiver mit Eclipse beschäftigt und habe nun einige Fragen zur Benutzung. Könnten Sie bitte einmal einen Screencast zur Verwendung von Breakpoints und zum Auslesen der Variableninhalte zur Laufzeit von Programmen machen.
+
+Es wäre auch wunderbar, wenn Sie uns die Verwendung des Debug Modus erklären. Das wäre sicherlich sehr hilfreich, wenn wir künftig Programme entwickeln.
+
+Vielen Dank im Voraus,
+   
+TAGGED_CONTENT:

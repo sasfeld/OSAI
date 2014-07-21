@@ -1,0 +1,17 @@
+ID: 116454
+CREATION_DATETIME: 1324058542
+MODIFICATION_DATETIME: 1324058605
+TITLE: Re: Welche Formelsammlung?
+TOPIC_ZOOM_TAG: value:Algebra;weight:1.0;significance:12.7085495152339;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Deutschland;weight:1.0;significance:2.0357642545643;degreegeneralization:8;uri:21996974
+TOPIC_ZOOM_TAG: value:Europa;weight:1.0;significance:1.55587681555031;degreegeneralization:6;uri:21972001
+NER_TAG: value:deutsch;weight:-1.0;significance:uri:;classifierlabel:I-MISC
+PARENT_POSTING_ID: 116453
+CONTENT:
+ Hallo <REMOVED_PERSON_ENTITY>, eine ältere Ausgabe dieses Tafelwerkes habe ich in meinem Besitz und bin damit relativ zufrieden. <REMOVED_PERSON_ENTITY> dürfte die verlinkte oder ähnlich aktuelle Ausgabe haben. Zumindest die Themen <REMOVED_PERSON_ENTITY>'sche Algebra und Vektorrechnung - soweit bisher behandelt - sind weitestgehend enthalten (der Teil deutsch-&gt;boolescher Ausdruck fehlt leider). Zum Rechnen mit Matrizen habe ich jetzt nichts gefunden. In der Hoffnung, Dir zumindest ein wenig geholfen zu haben, verbleibe ich mit freundlichen Grüßen, <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

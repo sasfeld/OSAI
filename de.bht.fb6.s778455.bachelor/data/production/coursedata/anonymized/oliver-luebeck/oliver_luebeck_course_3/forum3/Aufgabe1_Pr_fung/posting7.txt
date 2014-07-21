@@ -1,0 +1,14 @@
+ID: 38
+CREATION_DATETIME: 1201206240000
+MODIFICATION_DATETIME: 1201206240000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 37
+CONTENT:
+
+    so jetzt wie immer meine zweite antwort, das faellt mir meist im nachhinein ein. du koenntest auch auf deine methode readerTool verzichten, wenn du direkt hinter String buff = br.readLine(); schreibst. das passt vielleicht zu deinem interesse nach kurzen programmen mehr.
+
+gruss 
+
+    
+TAGGED_CONTENT:

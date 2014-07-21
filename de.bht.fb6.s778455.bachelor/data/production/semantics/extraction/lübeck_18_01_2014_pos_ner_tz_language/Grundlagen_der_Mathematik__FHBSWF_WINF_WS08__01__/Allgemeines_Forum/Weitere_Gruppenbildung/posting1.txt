@@ -1,0 +1,14 @@
+ID: 16575
+CREATION_DATETIME: 1224870274
+MODIFICATION_DATETIME: 1224870274
+TITLE: Weitere Gruppenbildung
+LANGUAGE: GERMAN
+POS_TAG: value:Leute;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tagen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einsendeaufgabe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+N'Abend allerseits, ich suche noch Leute die in den nächsten Tagen mit der Einsendeaufgabe beginnen wollen. Also: Wer hat noch keine Gruppe? 
+TAGGED_CONTENT:
+N'Abend_ADJD allerseits_ADV ,_$, ich_PPER suche_VVFIN noch_ADV Leute_NN die_ART in_APPR den_ART nächsten_ADJA Tagen_NN mit_APPR der_ART Einsendeaufgabe_NN beginnen_VVINF wollen_VMFIN ._$. Also_ADV :_$. Wer_PWS hat_VAFIN noch_ADV keine_PIAT Gruppe_NN ?_$. 

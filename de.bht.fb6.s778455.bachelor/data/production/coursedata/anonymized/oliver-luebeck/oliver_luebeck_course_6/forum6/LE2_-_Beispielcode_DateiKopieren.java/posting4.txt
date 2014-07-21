@@ -1,0 +1,16 @@
+ID: 8
+CREATION_DATETIME: 1286349060000
+MODIFICATION_DATETIME: 1286349060000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 7
+CONTENT:
+
+Ja, die Anweisung in.read(b) ist in der while Schleife. So lange es Daten zum lesen gibt, wird sie ausgeführt. Die Anweisung;
+
+ byte[] b = new byte[(int) dateiLaenge]; 
+
+hat den folgenden Vorteil: ist die Datei-Länge von in kleiner als Integer.MAX_VALUE, dann passt die ganze Datei in b.
+Mit freundlichen Gruessen,
+    
+TAGGED_CONTENT:

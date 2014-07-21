@@ -1,0 +1,9 @@
+ID: 704
+CREATION_DATETIME: 1352329200000
+MODIFICATION_DATETIME: 1352329200000
+TITLE: Link geht. Aber bitte nutze folgende Syntax für Links: `[Text für den Link](http://...)` dann wird da...
+PARENT_POSTING_ID: 697
+POSTING_TYPE: comment
+CONTENT:
+Link geht. Aber bitte nutze folgende Syntax für Links: `[Text für den <REMOVED_PERSON_ENTITY>](http://...)` dann wird das ganze http Zeug schöner dargestellt :)
+TAGGED_CONTENT:

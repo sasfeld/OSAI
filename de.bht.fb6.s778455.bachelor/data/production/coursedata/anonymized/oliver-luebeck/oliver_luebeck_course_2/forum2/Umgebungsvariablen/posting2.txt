@@ -1,0 +1,13 @@
+ID: 6
+CREATION_DATETIME: 1175840040000
+MODIFICATION_DATETIME: 1175840040000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 5
+CONTENT:
+
+Hallo,
+ich für meinen Teil kann dir sagen, daß ich unter XP meine Umgebungsvariablen von dem JDK hinzugefügt habe.
+MfG
+    
+TAGGED_CONTENT:

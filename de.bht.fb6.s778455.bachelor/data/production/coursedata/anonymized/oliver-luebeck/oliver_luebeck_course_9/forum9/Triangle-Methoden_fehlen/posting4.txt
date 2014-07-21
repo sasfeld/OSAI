@@ -1,0 +1,16 @@
+ID: 17
+CREATION_DATETIME: 1176643080000
+MODIFICATION_DATETIME: 1176643080000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 16
+CONTENT:
+
+Ich hab die "circum...." gelöscht und neu geschrieben. die methode zur prüfung der gleichseitigkeitigkeit einfach unverändert benutzt.
+
+hätte nur fast vergessen ein dreieck ohne rechten winkel zu prüfen.
+
+viel erfolg :)
+
+    
+TAGGED_CONTENT:

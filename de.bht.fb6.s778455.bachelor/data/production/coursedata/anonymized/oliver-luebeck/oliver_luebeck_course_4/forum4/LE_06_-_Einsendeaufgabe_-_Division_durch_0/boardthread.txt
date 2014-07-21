@@ -1,0 +1,4 @@
+ID: 8
+TITLE: LE 06 - Einsendeaufgabe - Division durch 0
+LANGUAGE: GERMAN
+FIRST_POSTING_ID: 31

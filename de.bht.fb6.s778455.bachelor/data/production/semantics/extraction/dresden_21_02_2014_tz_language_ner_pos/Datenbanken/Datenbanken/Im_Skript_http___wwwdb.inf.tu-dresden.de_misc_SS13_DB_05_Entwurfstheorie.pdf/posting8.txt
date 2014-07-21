@@ -1,0 +1,27 @@
+ID: 2526
+CREATION_DATETIME: 1376344800000
+MODIFICATION_DATETIME: 1376344800000
+TITLE: Im Skript http://wwwdb.inf.tu-dresden.de/misc/SS13/DB/05_Entwurfstheorie.pdf
+LANGUAGE: GERMAN
+POS_TAG: value:Script;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beispiel;weight:0.0;uri:;postag:NN
+POS_TAG: value:lle;weight:0.0;uri:;postag:NN
+POS_TAG: value:A;weight:0.0;uri:;postag:NN
+POS_TAG: value:B;weight:0.0;uri:;postag:NN
+POS_TAG: value:Entwurfstheorie;weight:0.0;uri:;postag:NN
+POS_TAG: value:C;weight:0.0;uri:;postag:NN
+POS_TAG: value:Folie;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skript;weight:0.0;uri:;postag:NN
+POS_TAG: value:AuB;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2512
+POSTING_TYPE: comment
+CONTENT:
+Im Skript http://wwwdb.inf.tu-dresden. de/misc/SS13/DB/05_Entwurfstheorie. pdf
+
+Auf Folie 17 wird im Beispiel das A bei AuB->C weggekürzt,
+
+Jetzt kann ich mit der Hülle <NAME_CORPUS_REPLACEMENT> B allerdings nur auf C kommen.
+
+Ist das Script fehlerhaft, oder überseh ich was?
+TAGGED_CONTENT:
+Im_APPRART Skript_NN http:\/\/wwwdb.inf.tu-dresden_VVINF ._$. de\/misc\/SS13_CARD \/_CARD DB\/05_CARD __CARD Entwurfstheorie_NN ._$. pdf_XY Auf_APPR Folie_NN 17_CARD wird_VAFIN im_APPRART Beispiel_NN das_ART A_NN bei_APPR AuB_NN -_$( >_CARD C_NN weggekürzt_VVFIN ,_$, Jetzt_ADV kann_VMFIN ich_PPER mit_APPR der_ART Hülle_NN <_NE NAME_CORPUS_REPLACEMENT_NE >_CARD B_NN allerdings_ADV nur_ADV auf_APPR C_NN kommen_VVINF ._$. Ist_VAFIN das_ART Script_NN fehlerhaft_ADJD ,_$, oder_KON überseh_VVFIN ich_PPER was_PWS ?_$. 

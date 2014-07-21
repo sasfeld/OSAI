@@ -1,0 +1,10 @@
+ID: 108
+CREATION_DATETIME: 1347919200000
+MODIFICATION_DATETIME: 1348092000000
+TITLE: Die Notification Box 
+PARENT_POSTING_ID: 70
+POSTING_TYPE: answer
+CONTENT:
+Die Notification Box zeigte ne rote 3, meine _EINE_ notification gelesen, danach wars ne rote 2.
+'Mark all read' setzt das auf null. Aber wieso zeigt es mir ne Zwei wenn ich nur eine gelesene notification hab?
+TAGGED_CONTENT:

@@ -1,0 +1,26 @@
+ID: 186955
+CREATION_DATETIME: 1355268080
+MODIFICATION_DATETIME: 1355268080
+TITLE: 2. Gruppenaufgabe
+TOPIC_ZOOM_TAG: value:Mütter;weight:3.0;significance:7.12130085683368;degreegeneralization:8;uri:20914567
+TOPIC_ZOOM_TAG: value:Eltern;weight:3.0;significance:5.81794039508676;degreegeneralization:7;uri:21000757
+TOPIC_ZOOM_TAG: value:Vorfahren;weight:3.0;significance:5.75677735083501;degreegeneralization:6;uri:20912884
+TOPIC_ZOOM_TAG: value:Frauen;weight:3.0;significance:4.56619523838409;degreegeneralization:5;uri:20929187
+TOPIC_ZOOM_TAG: value:Familien;weight:3.0;significance:4.43546818156809;degreegeneralization:5;uri:21976608
+TOPIC_ZOOM_TAG: value:Verwandte;weight:3.0;significance:4.38348582160273;degreegeneralization:4;uri:20909042
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:3.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+POS_TAG: value:Zuhause;weight:0.0;uri:;postag:NN
+POS_TAG: value:Herr;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klammer;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mutter;weight:0.0;uri:;postag:NN
+POS_TAG: value:Satz;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Ich verstehe nicht ganz was Herr <REMOVED_PERSON_ENTITY> in der 1. Teilaufgabe it dem 1. Satz meint.
+Also <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY> bleibt Zuhause, wenn <REMOVED_PERSON_ENTITY> und Mutter nicht kommen.
+oder
+<REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY> bleibt zuhause wenn, <REMOVED_PERSON_ENTITY> kommt aber Mutter nicht. oder Mutter kommt, aber Louise nicht.
+Der <REMOVED_PERSON_ENTITY> in der Klammer bringt mich irgendwie durcheinander.
+TAGGED_CONTENT:
+Ich_PPER verstehe_VVFIN nicht_PTKNEG ganz_ADV was_PWS Herr_NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE in_APPR der_ART 1_CARD ._$. Teilaufgabe_FM it_FM dem_ART 1_CARD ._$. Satz_NN meint_VVFIN ._$. Also_ADV <_CARD REMOVED_PERSON_ENTITY_NN >_CARD <_XY REMOVED_PERSON_ENTITY_NN >_CARD bleibt_VVFIN Zuhause_NN ,_$, wenn_KOUS <_XY REMOVED_PERSON_ENTITY_NE >_NE und_KON Mutter_NN nicht_PTKNEG kommen_VVINF ._$. oder_KON <_CARD REMOVED_PERSON_ENTITY_NN >_CARD <_XY REMOVED_PERSON_ENTITY_NN >_CARD bleibt_VVFIN zuhause_ADV wenn_KOUS ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE kommt_VVFIN aber_ADV Mutter_NN nicht_PTKNEG ._$. oder_KON Mutter_NN kommt_VVFIN ,_$, aber_KON Louise_NE nicht_PTKNEG ._$. Der_ART <_NN REMOVED_PERSON_ENTITY_NE >_NE in_APPR der_ART Klammer_NN bringt_VVFIN mich_PPER irgendwie_ADV durcheinander_ADV ._$. 

@@ -1,0 +1,10 @@
+ID: 385
+CREATION_DATETIME: 1350424800000
+MODIFICATION_DATETIME: 1350424800000
+TITLE: Kannst du es als Antw
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 369
+POSTING_TYPE: comment
+CONTENT:
+Kannst du es als Antwort posten, damit die Mitleser in der Lage sind, es zu bewerten? :) 
+TAGGED_CONTENT:

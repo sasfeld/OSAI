@@ -1,0 +1,12 @@
+ID: 1927
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: Okay, ich hab die src angepasst.
+
+Ihr habt vergessen, ein \n vor das Zeilenende zu packen.
+PARENT_POSTING_ID: 1926
+POSTING_TYPE: comment
+CONTENT:
+Okay, ich hab die src angepasst.
+Ihr habt vergessen, ein   vor das Zeilenende zu packen.
+TAGGED_CONTENT:

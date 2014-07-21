@@ -1,0 +1,12 @@
+ID: 555
+CREATION_DATETIME: 1351288800000
+MODIFICATION_DATETIME: 1356130800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+bei make qemu wird anstatt der auswahl der module ein fehler geliefert: "Error: dialog aborted!" sonst nichts 
+
+habe das obligatorische make setup und make vorher augeführt, sonst noch was was ich hätte tun sollen?
+TAGGED_CONTENT:

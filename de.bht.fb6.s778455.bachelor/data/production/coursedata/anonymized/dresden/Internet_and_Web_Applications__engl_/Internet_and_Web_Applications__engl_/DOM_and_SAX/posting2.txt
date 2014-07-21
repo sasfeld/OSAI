@@ -1,0 +1,13 @@
+ID: 2263
+CREATION_DATETIME: 1373925600000
+MODIFICATION_DATETIME: 1376863200000
+TITLE: This is very unspecific question.
+
+Let’s start with basic similarities: Both are used to describe a...
+PARENT_POSTING_ID: 2260
+POSTING_TYPE: answer
+CONTENT:
+This is a very unspecific question.
+Let’s start with basic similarities: <REMOVED_PERSON_ENTITY> are used to describe and access parts of a given document (i. e. XML or a derivate such as HTML), and both use a hierarchical organisation of the contents. However, they differ in the way these parts (or children in the hierarchy) are accessed. SAX uses a stream-based, event-driven approach and utilises functions, while DOM allows parsing access of the entire document structure. Advantages could then be considered that SAX allows immediate beginning of processing and minimisation of required memory as only the current element is stream-parsed, while DOM allows immediate access to all children of similar type, etc., of course consuming more memory.
+Please ask a more specific question if you had more detailed aspects in mind.
+TAGGED_CONTENT:

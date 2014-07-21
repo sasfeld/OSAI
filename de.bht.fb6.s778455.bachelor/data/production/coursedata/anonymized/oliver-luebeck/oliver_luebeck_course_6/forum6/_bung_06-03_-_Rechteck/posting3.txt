@@ -1,0 +1,12 @@
+ID: 48
+CREATION_DATETIME: 1288713960000
+MODIFICATION_DATETIME: 1288713960000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 46
+CONTENT:
+ 
+Ich war glaube ich zu schnell mit meiner Antwort! Dein Fenster öffnet sich ja!
+Ich melde mich gleich noch mal!
+	
+TAGGED_CONTENT:

@@ -1,0 +1,34 @@
+ID: 1492
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: So richtig ?
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 1483
+POSTING_TYPE: comment
+CONTENT:
+So richtig ?
+
+```ruby
+
+OthelloBoard::OthelloBoard(const OthelloBoard& copy)
+
+	: _rows(copy._rows),
+
+	  _cols(copy._cols),
+
+	  _last_player_skipped(false),
+
+	  _both_skipped(false),
+
+	  _field(0),
+
+	  _player(copy._player)
+
+{
+
+	std::copy(&copy._field[0], &copy._field[(_rows * _cols)], this->_field);
+
+}
+
+```
+TAGGED_CONTENT:

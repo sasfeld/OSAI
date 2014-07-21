@@ -1,0 +1,27 @@
+ID: 14
+CREATION_DATETIME: 1177775040000
+MODIFICATION_DATETIME: 1177775040000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 13
+CONTENT:
+
+Hallo Freunde
+
+Also... So ein blöder falscher Fehler... Ich habe schlichtweg diesen Anfängerfehler gemacht:
+
+javac -verbose Quadrat.java
+
+schnippschnapp---Compiler fertsch... Dann habe ich versucht die Datei zu starten und habe eingegeben:
+
+java Quadrat.java
+
+Dann kommt die ellenlange Fehlermeldung, die ich zuvor gepostet habe. Ende des Lieds ist, um das Proggy zum Laufen zu bekommen, braucht man einfach nur den Suffix nach der Compilierung weglassen:
+
+Also statt
+falsch: java Quadrat.java
+richtig: java Quadrat
+
+Macht's gut 
+    
+TAGGED_CONTENT:

@@ -1,0 +1,22 @@
+ID: 2
+CREATION_DATETIME: 1191323040000
+MODIFICATION_DATETIME: 1191323040000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+ 
+Eine Frage zum Herangehen an die Klasse Writer:
+
+Kapitel 4.1 Quellcodebeispiel Zeile 044 - 046
+
+werden FileOutputStream und OutputStreamWriter benutzt.
+
+in Kapitel 4.3 hingegen wird der BufferedWriter einfach um FileWriter gelegt.
+(Zeile 049)
+
+Worin liegt der Unterschied, beide schreiben in ein File?
+
+Grüsse, 
+    
+TAGGED_CONTENT:

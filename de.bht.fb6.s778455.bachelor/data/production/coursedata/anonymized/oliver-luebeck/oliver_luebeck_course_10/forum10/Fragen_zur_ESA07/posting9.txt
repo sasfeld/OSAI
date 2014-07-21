@@ -1,0 +1,15 @@
+ID: 62
+CREATION_DATETIME: 1197830640000
+MODIFICATION_DATETIME: 1197830640000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 60
+CONTENT:
+
+Ich habe den Fehler leider immer noch nciht gefunden. Hat vielleicht noch jemand einen Tipp wie ich die JComboBox mit den aktuellen Cocktailnamen füllen kann?
+
+In MeinCocktailMIxerGUI habe ich nun eine Methode setComboBox(), diese füllt eine JComboBox und gibt sie zurück, allerdings werden auch dort nur die Namen eingetragen die ich zum Test als Strings angebe, keine aus der aktuellen Bar.
+
+Ich hab echt keine Ahnung mehr was ich noch probieren soll. Vielleicht könnt Ihr ja weiterhelfen :)
+   
+TAGGED_CONTENT:

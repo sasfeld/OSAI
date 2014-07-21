@@ -1,0 +1,10 @@
+ID: 1279
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Leider gibt es eben keine Bäume in der C++ STL. Und es ist deutlich einfacher, sich einen grundlegend...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1267
+POSTING_TYPE: comment
+CONTENT:
+Leider gibt es eben keine Bäume in der C++ STL. Und es ist deutlich einfacher, sich einen grundlegenden Baum zu basteln, als sich in eine der krassen Implementierungen einzuarbeiten, die in freier Wildbahn verfügbar sind.
+TAGGED_CONTENT:

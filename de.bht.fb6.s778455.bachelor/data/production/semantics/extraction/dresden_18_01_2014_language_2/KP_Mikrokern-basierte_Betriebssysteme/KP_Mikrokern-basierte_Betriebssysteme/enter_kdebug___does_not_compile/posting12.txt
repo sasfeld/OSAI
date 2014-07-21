@@ -1,0 +1,10 @@
+ID: 1360
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: The keyword *nullptr* is only defined since C++11. 
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 1325
+POSTING_TYPE: comment
+CONTENT:
+The keyword *nullptr* is only defined since C++11. 
+TAGGED_CONTENT:

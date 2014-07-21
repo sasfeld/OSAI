@@ -1,0 +1,10 @@
+ID: 648
+CREATION_DATETIME: 1351810800000
+MODIFICATION_DATETIME: 1351810800000
+TITLE: Ich werde nochmal bei Ricardo nachfragen ob wir da mal eine Ausnahme machen.. 
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 647
+POSTING_TYPE: comment
+CONTENT:
+Ich werde nochmal bei <REMOVED_PERSON_ENTITY> nachfragen ob wir <NAME_CORPUS_REPLACEMENT> mal eine Ausnahme machen.. 
+TAGGED_CONTENT:

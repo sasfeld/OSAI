@@ -1,0 +1,24 @@
+ID: 531
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1351202400000
+TITLE: oops.. someone was faster :).
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 514
+POSTING_TYPE: answer
+CONTENT:
+oops.. someone was faster :).
+
+I suggest you have a look in the paper about the NSAA. It explains the concepts pretty well and the degree of detail should be enough for the exam (I shall hope). You <NAME_CORPUS_REPLACEMENT> always dig deeper with further literature though.
+
+For the questions:
+
+1. When the interrupt arrives, all PEs run a rendezvous-operation that writes the proposed VRO-number into the voter logic. After all PEs are finished proposing the number, they all chose the highest one (implicit concensus). I think they wait until all PEs have proposed but the paper doesn't go into detail about the implementation of the rendezvous-operation. Then they continue normal operation until they reach the VRO they agreed on. Then they probably wait for each other and schedule the interrupt service routine handling the irq. It is not that the fastest PE <NAME_CORPUS_REPLACEMENT> process the irq first, they all have to process it at the same time so the faster PEs will have to wait for the slower ones.
+
+2. First google match on 'retired instruction' http://software.intel.com/en-us/forums/topic/311170 explains it pretty well. The NSAA paper has some notes about it too, but isn't going into details.
+
+I haven't heard of it before either. The main point I think is that this counter counts the userlevel commands run on a processor with limited precision and <NAME_CORPUS_REPLACEMENT> be used to approximate the progress of a PE.
+
+3. The UNCP-Store algorithm is used when VRO-points are NOT available, so I don't quite understand your example. Assume you have some PEs. At some point, the interrupt timer notices the process they're running, is uncooperative. The PEs then continue to execute for N more instructions, each saving the STORE-addresses it uses during the N steps in a common set. 
+
+When you now take one of the PEs and copy the memory values from all the addresses in the set and the register values to the other PEs, all PEs are logically in the same state. Some are set back and others are set forward. I couldn't prove it but this makes sense to me.
+TAGGED_CONTENT:

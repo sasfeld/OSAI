@@ -1,0 +1,9 @@
+ID: 97740
+CREATION_DATETIME: 1293098632
+MODIFICATION_DATETIME: 1293098632
+TITLE: Naechster Chat im neuen Jahr
+PARENT_POSTING_ID: 0
+CONTENT:
+Frohe Festtage Ihnen und Ihren Familien. Fuer die Chat-freie Zeit liegen seit gestern Uebungen fuer Sie im Forum bereit. Diese koennen Sie gerne zusammen bearbeiten.
+Prof. <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1601
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: okay hab die output-funktion geändert, damit fällt eben eine sicherheitsebene weg (hat überprüft ob d...
+PARENT_POSTING_ID: 1590
+POSTING_TYPE: answer
+CONTENT:
+okay hab die output-funktion geändert, damit fällt eben eine sicherheitsebene weg (hat überprüft ob die ausgabe zu lang war)
+aber leider bekomme ich immernoch einen leeren output, womit ich keinen zug mache und verliere.
+TAGGED_CONTENT:

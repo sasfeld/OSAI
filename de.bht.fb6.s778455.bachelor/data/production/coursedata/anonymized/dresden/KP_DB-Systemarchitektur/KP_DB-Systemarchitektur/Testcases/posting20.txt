@@ -1,0 +1,12 @@
+ID: 1938
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: Ja, da kommt "I am a dumb tester" bei mir. Auf dem SSH läuft es jedenfalls.
+
+Baue mal mit "make -B"...
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Ja, <NAME_CORPUS_REPLACEMENT> kommt "I am a dumb tester" bei mir. Auf dem SSH läuft es jedenfalls.
+Baue mal mit "make -B", um sicherzugehen, dass die lib/libCLeverTrustee. so auch erstellt wird. Ansonsten sollte zur Ausführungszeit der LD_LIBRARY_PATH gesetzt sein.
+TAGGED_CONTENT:

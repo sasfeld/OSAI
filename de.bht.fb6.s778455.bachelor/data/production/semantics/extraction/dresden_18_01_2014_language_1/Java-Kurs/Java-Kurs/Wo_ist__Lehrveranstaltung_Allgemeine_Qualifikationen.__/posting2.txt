@@ -1,0 +1,16 @@
+ID: 2607
+CREATION_DATETIME: 1382392800000
+MODIFICATION_DATETIME: 1382652000000
+TITLE: 1. Gehe auf **Lehrveranstaltungen: Ein- und Austragen**.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2605
+POSTING_TYPE: answer
+CONTENT:
+1. Gehe auf **Lehrveranstaltungen: Ein- und Austragen**.
+
+2. Links siehst du eine Liste mit verfügbaren Lehrfächern. Wähle dort **Allgemeine Qualifikationen**. (Oder tippe _allgemein_ in die Suchbox darüber ein und die Veranstaltung sollte erscheinen.
+
+3. Wähle **Allgemeine Qualifikationen**. Du solltest jetzt in der Mitte den Eintrag **Programmieren in Java** sehen. Dort kannst du dich eintragen.
+
+Solltest du den Eintrag nicht finden, kann dir entweder jemand vom FSR sicher helfen oder du schickst mal eine [Mail an mich](mailto:fredo@ifsr. de). Bitte gib deine s-Nummer und deinen Studiengang an und ich kann schauen, ob eventuell dein Studiengang bei der Zulassung der Einschreibung vergessen wurde.
+TAGGED_CONTENT:

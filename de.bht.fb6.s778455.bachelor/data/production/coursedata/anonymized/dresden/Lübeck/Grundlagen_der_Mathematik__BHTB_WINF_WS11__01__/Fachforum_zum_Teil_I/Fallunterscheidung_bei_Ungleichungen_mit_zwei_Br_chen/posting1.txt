@@ -1,0 +1,11 @@
+ID: 116460
+CREATION_DATETIME: 1319009638
+MODIFICATION_DATETIME: 1319009916
+TITLE: Fallunterscheidung bei Ungleichungen mit zwei Brüchen
+PARENT_POSTING_ID: 0
+CONTENT:
+ Aus aktuellem Anlass habe ich eine kleine Anfrage bezüglich der Fallunterscheidungen. Wenn ich eine <REMOVED_PERSON_ENTITY> der Form$$ \frac{\left(ax+b\right)}{\left(cx+d\right)}\le\frac{\left(ex+f\right)}{\left(gx+h\right)} $$ [EDIT] Das Ergebnis des Java-Plugins wird bei mir nicht korrekt angezeigt, deshalb nochmal in ASCII:( (ax+b) / (cx+d) ) &lt;= ( (ex+f) / (gx+h) )[/EDIT]habe, wie viele Fallunterscheidungen sind dann notwendig?Ich sehe zwei Möglichkeiten: 
+  Es müssen nur die Nenner betrachtet werden. Daraus ergäben sich dann vier Fälle. 
+  Es müssen auch die Zähler beachtet werden. Dann würde jeder Fall der Unterscheidung aus vier Einzelgleichungen bestehen und ich hätte insgesamt 16 Fälle. 
+Gibt es hierzu allgemeine Ansätze, Regeln, mathematische Sätze oder weiterführende Weblinks? 
+TAGGED_CONTENT:

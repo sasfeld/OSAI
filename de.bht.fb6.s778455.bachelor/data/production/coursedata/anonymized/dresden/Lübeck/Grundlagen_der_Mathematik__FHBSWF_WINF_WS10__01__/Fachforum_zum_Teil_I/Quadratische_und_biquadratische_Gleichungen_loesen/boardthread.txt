@@ -1,0 +1,4 @@
+ID: 36373
+MODIFICATION_DATETIME: 1290076105
+TITLE: Quadratische und biquadratische Gleichungen loesen
+FIRST_POSTING_ID: 97801

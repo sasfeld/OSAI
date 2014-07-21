@@ -1,0 +1,9 @@
+ID: 635
+CREATION_DATETIME: 1351724400000
+MODIFICATION_DATETIME: 1351724400000
+TITLE: Git-svn scheint aber auch nicht gerade ideal zu sein. Aber immerhin eine Möglichkeit einige Stärken v...
+PARENT_POSTING_ID: 607
+POSTING_TYPE: comment
+CONTENT:
+Git-svn scheint aber auch nicht gerade ideal zu sein. Aber immerhin eine Möglichkeit einige Stärken <NAME_CORPUS_REPLACEMENT> Git einzusetzen. 
+TAGGED_CONTENT:

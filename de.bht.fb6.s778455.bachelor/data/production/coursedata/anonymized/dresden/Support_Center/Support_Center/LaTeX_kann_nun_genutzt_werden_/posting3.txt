@@ -1,0 +1,10 @@
+ID: 180
+CREATION_DATETIME: 1348696800000
+MODIFICATION_DATETIME: 1348696800000
+TITLE: Für die, die es genau
+PARENT_POSTING_ID: 178
+POSTING_TYPE: comment
+CONTENT:
+Für die, die es genauer wissen wollen, empfehle ich, die Dokumentation zu lesen: http://www.mathjax.org/docs/2. 0/tex. html
+Am Besten einfach mal probieren! 
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 2274
+CREATION_DATETIME: 1374012000000
+MODIFICATION_DATETIME: 1374012000000
+TITLE: Von der Seite der Vorhersage ist es absolut kein Problem, das wäre sogar eine Vereinfachung.
+PARENT_POSTING_ID: 2189
+POSTING_TYPE: comment
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> der Seite der Vorhersage ist es absolut kein Problem, das wäre sogar eine Vereinfachung.
+TAGGED_CONTENT:

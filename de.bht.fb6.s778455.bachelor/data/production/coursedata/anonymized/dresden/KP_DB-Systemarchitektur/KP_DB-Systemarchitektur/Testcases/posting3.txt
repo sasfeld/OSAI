@@ -1,0 +1,11 @@
+ID: 1844
+CREATION_DATETIME: 1369087200000
+MODIFICATION_DATETIME: 1369087200000
+TITLE: Wenn ich dich richtig verstehe, dann ist das genau das was ich meine.
+Ich wollte auch bloß sagen, da...
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Wenn ich dich richtig verstehe, dann ist das genau das was ich meine.
+Ich wollte auch bloß sagen, dass es schön wäe wenn das alles geordnet über ein interface/abstract class funtkioniert.
+TAGGED_CONTENT:

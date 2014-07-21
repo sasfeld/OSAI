@@ -1,0 +1,24 @@
+ID: 26
+CREATION_DATETIME: 1201164600000
+MODIFICATION_DATETIME: 1201164600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 25
+CONTENT:
+
+    Hi 
+
+Hab was unter Google gefunden... Du willst den Focus setzen? Probier' mal das folgende:
+
+http://www.tutorials.de/forum/java/237827-cursor-textfeld-setzen.html
+
+Ansonsten unter den Java Tuts ist hier noch Code + Erklärung, wie man seinen eigenen Focuspfad legt:
+
+http://java.sun.com/docs/books/tutorial/uiswing/misc/focus.html#customFocusTraversal
+
+Hast Du ansonsten mal ein kurzes kompilierbares ausführbares Beispiel Deines Problems? Hoffe das hilft weiter...
+
+Liebe Grüße
+    
+    
+TAGGED_CONTENT:

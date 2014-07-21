@@ -1,0 +1,11 @@
+ID: 172257
+CREATION_DATETIME: 1350590828
+MODIFICATION_DATETIME: 1350590828
+TITLE: Re: Gruppen für die Einsendeaufgaben
+POS_TAG: value:Leute;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 172243
+CONTENT:
+Die Aufgabe kommt erst noch und es sollen 3-4 Leute sein.
+TAGGED_CONTENT:
+Die_ART Aufgabe_NN kommt_VVFIN erst_ADV noch_ADV und_KON es_PPER sollen_VMFIN 3-4_CARD Leute_NN sein_VAINF ._$. 

@@ -1,0 +1,18 @@
+ID: 1178
+CREATION_DATETIME: 1362438000000
+MODIFICATION_DATETIME: 1383174000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo zusammen. <REMOVED_PERSON_ENTITY> und dem kompilieren habe ich eine Frage:
+Wenn ich versuche, mit make "..." das programm testweise kompilieren will, kommt bei mit immer folgender Fehler:
+g++ -o mcp mcp. S
+make: g++: Command not found
+make: *** [mcp] Error 127
+System: Ubuntu 12. 10
+was bedeutet das und wie kann ich das beheben?
+Kurze Vermutung: ist vielleicht kein Compiler installiert?
+Danke für eure Hilfe
+uhrkunde
+TAGGED_CONTENT:

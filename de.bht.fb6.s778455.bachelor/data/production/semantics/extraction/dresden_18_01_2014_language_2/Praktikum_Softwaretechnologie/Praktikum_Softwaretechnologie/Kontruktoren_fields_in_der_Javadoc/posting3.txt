@@ -1,0 +1,10 @@
+ID: 2760
+CREATION_DATETIME: 1383951600000
+MODIFICATION_DATETIME: 1383951600000
+TITLE: Also ich will von Product erben und von Catalog. Von Product erben ist anscheinend vorgesehen, aber f...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2749
+POSTING_TYPE: comment
+CONTENT:
+Also ich will <NAME_CORPUS_REPLACEMENT> Product erben und <NAME_CORPUS_REPLACEMENT> Catalog. <NAME_CORPUS_REPLACEMENT> Product erben ist anscheinend vorgesehen, aber für Catalog nicht. Ich wollte in den Catalog noch eigenene Methoden reinpacken, aber <NAME_CORPUS_REPLACEMENT> dem soll man ja nicht erben anscheinend.
+TAGGED_CONTENT:

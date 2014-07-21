@@ -1,0 +1,14 @@
+ID: 175795
+CREATION_DATETIME: 1351585692
+MODIFICATION_DATETIME: 1351585692
+TITLE: Re: Präsenz vom 17.10.
+POS_TAG: value:Ideen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fragen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 172215
+CONTENT:
+Hallo zusammen,
+ich wollte einmal vorsichtig nachfragen, ob ihr zu meinen Fragen schon ein paar Ideen habt?
+Danke und Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, ich_PPER wollte_VMFIN einmal_ADV vorsichtig_ADJD nachfragen_VVINF ,_$, ob_KOUS ihr_PPOSAT zu_PTKZU meinen_PPOSAT Fragen_NN schon_ADV ein_ART paar_PIDAT Ideen_NN habt_VAFIN ?_$. Danke_NE und_KON Gruß_NE <_NE REMOVED_PERSON_ENTITY_NE >_XY 

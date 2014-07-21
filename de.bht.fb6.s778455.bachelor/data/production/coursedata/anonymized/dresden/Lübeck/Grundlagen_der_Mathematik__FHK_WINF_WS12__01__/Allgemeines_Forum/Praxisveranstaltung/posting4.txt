@@ -1,0 +1,9 @@
+ID: 162401
+CREATION_DATETIME: 1348235526
+MODIFICATION_DATETIME: 1348235526
+TITLE: Re: Praxisveranstaltung
+PARENT_POSTING_ID: 162391
+CONTENT:
+Wo finde ich den den Kurzpplan? Und habt ihr euch schon mit <REMOVED_PERSON_ENTITY> beschäftigt?
+Ich bin gerade bei Kommunikation, Führung und Selbstmanagment, da ich dachte das kommt am ersten Präzenstag.
+TAGGED_CONTENT:

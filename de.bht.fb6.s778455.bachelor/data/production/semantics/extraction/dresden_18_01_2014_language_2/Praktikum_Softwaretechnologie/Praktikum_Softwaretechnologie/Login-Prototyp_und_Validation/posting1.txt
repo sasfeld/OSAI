@@ -1,0 +1,112 @@
+ID: 2863
+CREATION_DATETIME: 1384642800000
+MODIFICATION_DATETIME: 1385593200000
+TITLE: null
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo.
+
+Ich habe veruscht einen Login-Prototypen zu bauen. Dazu habe ich erstmal eine einfache Seite erstellt wo zwei Knöpfe drin sind. Einmal zum Login und einmal zum Registrieren. Aber irgendwie funktioniert irgendwas mit der Registrierung und der Validation nicht.
+
+Also meine register. html sieht folgendermaßen aus:
+
+```ruby
+
+# 
+
+		<title th:text="#{register. title}">Registrieren
+
+		Registrierung
+
+		<form method="post" action="/registerNew" th:object="${registrationForm}">
+
+		<div th:if="${#fields. hasErrors('*')}">
+
+				<p th:text="#{register. name}">Nutzername
+
+				<input id="name" th:field="*{name}" th:class="${#fields. hasErrors('name')}? 'fieldError'" type="text" name="name" />
+
+				<td th:if="${#fields. hasErrors('name')}" th:errors="*{name}">Name zu kurz
+
+				<p th:text="#{register. password}">Passwort
+
+				<input id="password" th:field="*{password}" th:class="${#fields. hasErrors('password')}? 'fieldError'" type="text" name="password" />
+
+				<td th:if="${#fields. hasErrors('password')}" th:errors="*{password}">Passwort zu kurz
+
+				<p th:text="#{register. address}">Adresse
+
+				<input id="adress" th:field="*{address}" th:class="${#fields. hasErrors('address')}? 'fieldError'" type="text" name="adress" />
+
+				<td th:if="${#fields. hasErrors('address')}" th:errors="*{address}">Addresse zu kurz
+
+		<input type="submit" th:value="#{register. submit}" value="Registrieren" />
+
+```
+
+Un in meinem Controller sieht es so aus:
+
+```ruby
+
+# package blankweb. controller;
+
+import javax. validation. Valid;
+
+import org. springframework. stereotype. Controller;
+
+import org. springframework. web. bind. annotation. RequestMapping;
+
+import org. springframework. validation. BindingResult;
+
+import org. springframework. web. bind. annotation. ModelAttribute;
+
+import blankweb. model. validation. RegistrationForm;
+
+@Controller
+
+public class WelcomeController {
+
+	@RequestMapping({"/", "index"})
+
+    public String index() {
+
+		return "start";
+
+    }
+
+	@RequestMapping("/register")
+
+	public String register(){
+
+		return "register";
+
+	}
+
+	@RequestMapping("/registerNew")
+
+	public String registerNew(@ModelAttribute("registrationForm") @Valid RegistrationForm registrationform, BindingResult result){
+
+		if(result. hasErrors()){
+
+		return "register";
+
+		}
+
+		return "start";
+
+	}
+
+}
+
+```
+
+Und wenn ich dann beim ausführen auf den Registrien-Button klicke kommt folgende Fehlermeldung:
+
+"HTTP Status 500 - Request processing failed; nested exception is org. thymeleaf. exceptions. TemplateProcessingException: Exception evaluating SpringEL expression: "#fields. hasErrors('*')" (register:15)"
+
+Das kommt also offensichtlich mit der fields. hasErrors nicht klar. Aber warum weiß ich auch nicht so genau. Ich habe eigentlich alles sehr analog zum VideoShop gemacht.
+
+Vielleicht kann mir <NAME_CORPUS_REPLACEMENT> ja jemand helfen.
+TAGGED_CONTENT:

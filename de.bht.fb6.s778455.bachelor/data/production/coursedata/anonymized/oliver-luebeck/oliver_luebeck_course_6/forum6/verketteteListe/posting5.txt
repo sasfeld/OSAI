@@ -1,0 +1,34 @@
+ID: 95
+CREATION_DATETIME: 1296159000000
+MODIFICATION_DATETIME: 1296159000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 94
+CONTENT:
+ 
+Liebe , liebe Studierende,
+
+ich habe mich nicht genau genug ausgedrueckt.
+end.e = e; speichert e am Ende der Liste, in den dummy Knoten. Wenn e nur hier in diesem dummy-Knoten gefunden wird und nicht vorher, dann weiss man dass e nicht echt in der Liste gespeichert ist, nur am Ende als Falle so zu sagen.
+Wir nehmen wieder Abbildung 1 der Seite 16 LE13, und denken es gaebe end als dummy Knoten statt null am Ende der Abbildung. Wir suchen O2. Als erstes weist die Methode sucheVor das Element O2 in das Attribut e von end, also in den dummy-Knoten. O2 ist aber echt gespeichert. Daher bricht die while Schleife so bald O2 gefunden wird, und gibt den Knoten mit Element O1 zurueck.
+Jetzt suchen wir O5. Als erstes weist die Methode sucheVor das Element O5 in das Attribut e von end, also in den dummy-Knoten. O5 ist nicht echt gespeichert.
+Die while Schleife bricht ab, wenn die ganze Liste durch ist und gibt den Knoten mit dem Wert O4 zurueck.
+
+Ist es klarer?
+
+Ihre Methode contains ist korrekt. Sehr gut. Hier eine bessere Programmierung:
+//Liefert true, wenn e in dieser Sammlung vorkommt
+public boolean contains(E e){
+Knoten vor = sucheVor(e);
+return k.next != end;
+}
+
+Die Methode remove braucht keine while Schleife. Sie ist einfacher.
+Wir nehmen wieder Abbildung 1 der Seite 16 LE13. Wir wollen O3 entfernen.
+Die Methode sucheVor wird uns den Knoten k mit Element O2 liefern. Welcher Knoten ist der naechste Knoten von k, wenn Knoten mit O3 weg ist?
+
+Versuchen Sie es.
+
+Mit freundlichen Gruessen
+	
+TAGGED_CONTENT:

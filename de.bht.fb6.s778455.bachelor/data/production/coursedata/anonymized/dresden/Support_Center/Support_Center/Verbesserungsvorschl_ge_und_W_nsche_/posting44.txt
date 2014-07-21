@@ -1,0 +1,9 @@
+ID: 916
+CREATION_DATETIME: 1354143600000
+MODIFICATION_DATETIME: 1354143600000
+TITLE: Man sollte die Kacheln auch verschieben können, damit man Kurse, die etwa gleich viel Platz vertikal ...
+PARENT_POSTING_ID: 889
+POSTING_TYPE: comment
+CONTENT:
+Man sollte die Kacheln auch verschieben können, damit man Kurse, die etwa gleich viel Platz vertikal brauchen in einer <REMOVED_PERSON_ENTITY> stehen. Momentan wird dadurch unnötig Platz bei mir verschenkt und es ist auch nicht so schön anzusehen.
+TAGGED_CONTENT:

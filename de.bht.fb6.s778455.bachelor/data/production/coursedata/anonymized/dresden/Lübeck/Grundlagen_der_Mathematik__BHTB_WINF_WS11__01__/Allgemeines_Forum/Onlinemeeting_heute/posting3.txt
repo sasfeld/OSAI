@@ -1,0 +1,11 @@
+ID: 116457
+CREATION_DATETIME: 1326887955
+MODIFICATION_DATETIME: 1326887955
+TITLE: Re: Onlinemeeting heute
+PARENT_POSTING_ID: 116456
+CONTENT:
+Hi <REMOVED_PERSON_ENTITY>,
+ich denke das erst nächste Woche wieder ist. Herr <REMOVED_PERSON_ENTITY> war diese und die letzte Woche nicht verfügbar.
+Sollte jemand andere oder bessere Informationen haben dann her damit ;-)
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 2020
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Hallo Christoph. Schaue mal bitte auf die Uhr. Ich werde mir das morgen mal anschauen und entsprechen...
+PARENT_POSTING_ID: 2019
+POSTING_TYPE: comment
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>. Schaue mal bitte auf die Uhr. Ich werde mir das morgen mal anschauen und entsprechend antworten. Gute n8
+TAGGED_CONTENT:

@@ -1,0 +1,17 @@
+ID: 191537
+CREATION_DATETIME: 1357581842
+MODIFICATION_DATETIME: 1357581842
+TITLE: Re: Vektoren linear abhängig/ unabhängig mit LGS lösen
+PARENT_POSTING_ID: 191297
+CONTENT:
+Hallo Herr Prof. Dr. <REMOVED_PERSON_ENTITY>.
+Wenn ich z. B. für r=6 und für s=5 wähle komme ich letzentlich auf folgenden Vektor:
+(0, 0, 0,-3) leider ensteht also nicht der Nullvektor.
+Habe ich mich jetzt nur verrechnet oder habe ich einen Denkfehler gemacht?
+Die Matrix die ich aufgestellt und umgeformt habe sieht am Ende, d. h. wenn ich alle Regieanweisungen durchgeführt habe folgendermaßen aus:
+0 0 1   0 0  | 00 1 0   1 0  | 01 0 0  -3 1  | 00 0 0   0 0  | 0
+Da in der Endmatrix nur 3 Einheitsvektoren auftauchen, es in der Aufgabe aber 5 gibt. Bin ich der Meinung, dass 2 Freiheitsgrade bestimmt werden müssen.... anscheind liegt hier ein Fehler vor?
+Schon einmal vielen Dank und Gruß
+<REMOVED_PERSON_ENTITY>
+ 
+TAGGED_CONTENT:

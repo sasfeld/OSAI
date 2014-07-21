@@ -1,0 +1,23 @@
+ID: 3
+CREATION_DATETIME: 1190749260000
+MODIFICATION_DATETIME: 1190749260000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2
+CONTENT:
+
+Hallo ,
+
+also ich finde dein vorhaben gewagt, weiss auch nicht wie die aktuelle Lizenz-Situation der java VM ist, aber vor einer weile durfte die glaube ich nicht durch drittanbieter verteilt werden.
+
+Ich denke der User sollte auf jeden fall informiert werden wenn eine javaVM installiert wird.
+
+Ich würde ihm, glaube ich eine readme.html erzeugen, mit einem link auf die Seiten von SUN, und weiteren Erklärungen.
+
+der Start-menue Eintrag sollte mit einer Verknüpfung ja kein Problem sein, sollte sich mit einer .bat (.cmd) leicht realisieren lassen
+
+vielleicht kennt ja jemand andere noch eine bessere Methode?
+
+gruss 
+    
+TAGGED_CONTENT:

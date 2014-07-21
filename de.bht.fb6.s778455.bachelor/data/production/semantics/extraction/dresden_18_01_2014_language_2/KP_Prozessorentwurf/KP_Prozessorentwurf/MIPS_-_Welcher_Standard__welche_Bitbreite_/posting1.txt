@@ -1,0 +1,12 @@
+ID: 2559
+CREATION_DATETIME: 1381701600000
+MODIFICATION_DATETIME: 1381701600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ein fixes googlen fördert diverse MIPS-Implementationen zutage, deren Befehlssätze und Architektur sich doch unterscheiden. Gibt es einen Standard, oder <REMOVED_PERSON_ENTITY>, an der wir uns orientieren können?
+
+Die meisten MIPS haben scheinbar 32 Bit als Architekturbreite. Soll das bei unseren Implementierungen auch so sein?
+TAGGED_CONTENT:

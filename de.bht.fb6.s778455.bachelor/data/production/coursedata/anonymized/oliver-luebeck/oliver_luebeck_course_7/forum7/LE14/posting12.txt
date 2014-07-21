@@ -1,0 +1,19 @@
+ID: 85
+CREATION_DATETIME: 1306692420000
+MODIFICATION_DATETIME: 1306692420000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 84
+CONTENT:
+   
+Hi,
+
+mein Reporter schaut so aus:
+static public void report(Shape s)
+{
+System.out.printf("%1$s / area=%2$.1f / circumference=%3$.1f\n", s.toString(),s.area(), s.circumference());
+}
+
+Bei den Area und Circumference Methoden sollten warscheinlich keine Parameter angegeben werden, die beiden Funktionen sollten beide auf die Attribute des jeweiligen Objektes zugreifen (z.B. über this.xDelta oder einfach nur xDelta). Sonst schaut meins aber dann auch ähnlich aus, ich denke wichtig ist nur das man über super den Ursprungskonstruktor aufruft als erstes und alle Attribute protected definiert damit die abgeleiteten Klassen auf Sie zugreifen können.
+    
+TAGGED_CONTENT:

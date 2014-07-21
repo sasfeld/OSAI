@@ -1,0 +1,8 @@
+ID: 2071648
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Forschungsseminar - Rechnernetze
+INTRO: Das Forschungsseminar Rechnernetze richtet sich an Diplomanden, Master- und Bachelorstudenten des Lehrstuhls Rechnernetze. Außerdem sind alle weiteren Interessenten herzlich eingeladen, sich über die laufenden Arbeiten und aktuellen Themenangebote am Lehrstuhl zu informieren.
+In wöchentlichen Vorträgen werden die Zwischenstände einzelner Diplom-, Master- und Bachelorarbeiten vorgestellt und mit den Mitarbeitern des Lehrstuhls diskutiert.
+Jeder Diplomand/Master-/Bachelorstudent sollte nach ca. der Hälfte der Bearbeitungszeit diese Zwischenpräsentation durchführen. Diese dient auch zur Vorbereitung der Verteidigung.
+TYPE: null

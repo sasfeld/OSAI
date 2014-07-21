@@ -1,0 +1,29 @@
+ID: 115381
+CREATION_DATETIME: 1319985828
+MODIFICATION_DATETIME: 1319985828
+TITLE: Kapitel 2.4 - Aufgabe 2
+TOPIC_ZOOM_TAG: value:Mathematische Logik;weight:1.0;significance:3.69970386759993;degreegeneralization:6;uri:20881349
+TOPIC_ZOOM_TAG: value:Symbolische Logik;weight:1.0;significance:3.69970386759993;degreegeneralization:7;uri:20782698
+TOPIC_ZOOM_TAG: value:Aussagenlogik;weight:1.0;significance:3.69970386759993;degreegeneralization:8;uri:20847655
+TOPIC_ZOOM_TAG: value:Übersetzung;weight:1.0;significance:2.81528987939754;degreegeneralization:7;uri:20914720
+TOPIC_ZOOM_TAG: value:Logik;weight:1.0;significance:2.77550762685335;degreegeneralization:4;uri:21472524
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:2.59376527669224;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Sprachen der Erde;weight:1.0;significance:2.35911257780419;degreegeneralization:6;uri:21978223
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:3.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Sprache, Zivilisation und Bevölkerung;weight:1.0;significance:2.22197222718385;degreegeneralization:5;uri:20895986
+TOPIC_ZOOM_TAG: value:Sprache als Bereich der Kultur;weight:1.0;significance:1.92180903080483;degreegeneralization:5;uri:20896003
+TOPIC_ZOOM_TAG: value:Kinder und Jugendliche;weight:1.0;significance:1.82144066654353;degreegeneralization:6;uri:21981759
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:1.66956903594565;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Geisteswissenschaften;weight:1.0;significance:1.55144820605651;degreegeneralization:3;uri:21978240
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:1.49132817398893;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:1.47917088314699;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Gesellschaft und Bevölkerungsgruppen;weight:1.0;significance:1.34546865460662;degreegeneralization:5;uri:21976727
+TOPIC_ZOOM_TAG: value:Bevölkerung;weight:1.0;significance:1.29609771644254;degreegeneralization:4;uri:21634313
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:1.16740572155176;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Kunst, Kultur, Musik;weight:1.0;significance:1.01590231222495;degreegeneralization:2;uri:21999796
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:0.72709721863856;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:0.716279378747483;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen, kann mir jemand die Herangehensweise für diese Aufgabe (Bausteine der Aussagenlogik) verraten:-------------''Wer von euch Rabauken hat den Ball in mein Fenster geschossen?'' schreit der <REMOVED_PERSON_ENTITY> wutschnaubend. Trotzig stehen die vier Kinder da. <REMOVED_PERSON_ENTITY> sagt: ''<REMOVED_PERSON_ENTITY> war es!'' <REMOVED_PERSON_ENTITY> sagt: ''<REMOVED_PERSON_ENTITY> hat es getan!'' <REMOVED_PERSON_ENTITY> sagt: ''Ich war es nicht!'' <REMOVED_PERSON_ENTITY> sagt: ''<REMOVED_PERSON_ENTITY> hat gelogen!''Wenn nur eine(r) von den vieren gelogen hat, wer hat den Ball geschossen? Und wer wars, wenn nur eine(r) die Wahrheit gesagt hat? Wir gehen dabei davon aus, dass es sich um einen Einzeltäter (eine Einzeltäterin) handelt.-------------Irgendwie hab ich da keinen Ansatz bzw. ich vllt. etwas zu kompliziert. Bisher hab ich versucht die Aussagen bzw. die Personen in einer Wahrheitstafel zu erfassen,  schaffe es aber nicht die Zusammenhänge in die Aussagenlogik zu übersetzten. Danke &amp; Gruß, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

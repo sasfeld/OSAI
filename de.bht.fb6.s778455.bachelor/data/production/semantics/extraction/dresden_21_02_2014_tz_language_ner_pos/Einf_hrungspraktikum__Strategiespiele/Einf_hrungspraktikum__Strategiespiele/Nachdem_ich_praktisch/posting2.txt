@@ -1,0 +1,15 @@
+ID: 168
+CREATION_DATETIME: 1348524000000
+MODIFICATION_DATETIME: 1348524000000
+TITLE: Formatierung haut irg
+LANGUAGE: GERMAN
+POS_TAG: value:Formatierung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hoffe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 166
+POSTING_TYPE: comment
+CONTENT:
+Formatierung haut irgendwie nicht hin :/
+
+Hoffe es ist trotzdem verständlich.
+TAGGED_CONTENT:
+Formatierung_NN haut_VVFIN irgendwie_ADV nicht_PTKNEG hin_PTKVZ :_$. \/_CARD Hoffe_NN es_PPER ist_VAFIN trotzdem_PROAV verständlich_ADJD ._$. 

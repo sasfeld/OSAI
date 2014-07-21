@@ -1,0 +1,14 @@
+ID: 167213
+CREATION_DATETIME: 1349423327
+MODIFICATION_DATETIME: 1349423327
+TITLE: Re: Lerndiskussion nach den Webkonferenzen
+POS_TAG: value:Bin;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mittwoch;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 167165
+CONTENT:
+Hallo,
+Bin auch dabei! Bis Mittwoch.
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, Bin_NN auch_ADV dabei_PROAV !_$. Bis_APPR Mittwoch_NN ._$. Gruß_NE <_NE PERSONAL_GREETING_REMOVEMENT_NE >_XY 

@@ -1,0 +1,9 @@
+ID: 572
+CREATION_DATETIME: 1351465200000
+MODIFICATION_DATETIME: 1351465200000
+TITLE: Das gilt übrigens auch für Aufgabe 1B. Sprich für beide Aufgaben dürfen extra Thumbnails erstellt wer...
+PARENT_POSTING_ID: 471
+POSTING_TYPE: answer
+CONTENT:
+Das gilt übrigens auch für Aufgabe 1B. Sprich für beide Aufgaben dürfen extra Thumbnails erstellt werden.
+TAGGED_CONTENT:

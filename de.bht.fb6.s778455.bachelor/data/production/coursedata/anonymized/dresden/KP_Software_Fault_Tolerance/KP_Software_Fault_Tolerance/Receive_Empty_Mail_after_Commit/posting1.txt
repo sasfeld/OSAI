@@ -1,0 +1,9 @@
+ID: 679
+CREATION_DATETIME: 1352156400000
+MODIFICATION_DATETIME: 1384124400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Why do I receive an empty email after I commit? Moreover, I do not find the file "DoNotTest" on svn.
+TAGGED_CONTENT:

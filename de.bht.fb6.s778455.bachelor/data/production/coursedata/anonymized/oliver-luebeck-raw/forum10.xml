@@ -1,0 +1,1079 @@
+<forum>
+  <thread title="Einsendeaufgaben DUD">
+    <post id="1" author="Student1" time="Samstag, 22. September 2007, 19:50"><![CDATA[
+Tach auch,
+
+ich wollte fragen was es mit den Einsendeaufgaben dort auf sich hat. In der zusätzlichen PDF steht nämlich dass sie mit Math.java usw sind. Also sollen sie keine Main-Methode haben?
+
+Und wenn nicht, soll dafür dann eine Extradatei geschrieben werden?
+
+Und muss ich diese dann auch mitschicken in der Mail?
+    ]]></post>
+    <post id="2" reply="1" author="Mentor1" time="Montag, 24. September 2007, 20:00"><![CDATA[
+Lieber , liebe Studierende,
+
+ich freue mich, dass Sie schon bei der Einsendeaufgabe der 2. LE sind. Sie ist erst am 13.10. fällig, Vorsprung ist aber besser als Verspätung. Die main Methode wird in der Klasse VerzDatTest.java sein. Die Klasse Math ist nicht wichtig, um die Aufgabe zu lösen. Sie ist nur als Beispiel gegeben, für eine Klasse, die nur Klassen-Methoden (mit static deklariert) enthält.
+
+Alle Klassen der Einsendeaufgabe bitte in eine .zip Datei packen, die Sie mir per Email schicken. Der Namen der .zip Datei muss Ihren Namen enthalten, z.B. DavidKliemLE02.zip.
+
+Ist die Aufgabe klarer?
+
+Frohes Schaffen!
+
+Mit freundlichen Grüßen
+
+
+PS: Ich werde am Ende der Woche eine Willkommen-Nachricht schicken. Die Erfahrung zeigt, dass es immer Studierende gibt, die später in den Kurs frei geschaltet werden. Aus diesem Grund warte ich noch ein wenig ab.
+
+   ]]></post>
+    <post id="3" reply="2" author="Student1" time="Donnerstag, 27. September 2007, 19:20"><![CDATA[ 
+Vielen Dank für die Antwort, hat sehr geholfen, aber leider sind weitere aufgekommen.
+
+
+Sollen wir eigene Methoden schreiben zum kopieren oder anzeigen der Dateinformationen und zum erstellen von Verzeichnissen? Oder dürfen wir die von Java vorgegeben Klassen benutzen und diese in die Methoden implementieren?
+   ]]></post>
+    <post id="4" reply="3" author="Mentor1" time="Freitag, 28. September 2007, 17:48"><![CDATA[
+Lieber , liebe Studierende,
+
+Sie können alle Klassen der LE02 und der Java-Bibliothek wiederverwenden. Das ist ein schöner Aspekt der OO-Programmierung: sie macht das Wiederverwenden von bereit entwickelten Methoden und Klassen leichter.
+
+Viel Erfolg!
+    ]]></post>
+  </thread>
+  
+    <thread title="Einsendeaufgabe 3 zu LE4">
+    <post id="5" author="Student1" time="Samstag, 6. Oktober 2007, 13:44"><![CDATA[
+Hallo,
+
+ich verstehe nicht wozu der Teil "serializable" in der Klassenbezeichnung notwendig ist. Bzw warum er bei den einen benötigt wird und bei anderen nicht wie im Beispiel des Cocktailmixers.
+
+Kann mir das bitte jemand erklären?
+  ]]></post>
+    <post id="6" reply="5" author="Mentor1" time="Dienstag, 16. Oktober 2007, 19:37"><![CDATA[
+Lieber , liebe Studierende,
+
+ 
+
+ich bin enttäuscht, dass keiner/keine soweit geantwortet hat. Weiss es wirklich keine/keiner?
+
+Wie in der LE02 und in der 1. Web-Konferenz erklärt, benutzt man die Schnittstelle Serialzable nur für Klassen, für denen man die erzeugte Objekte als Objekt in eine Datei speichern möchte.
+
+Mit freundlichen Grüßen
+    ]]></post>
+  </thread>
+  
+  <thread title="Einsendeaufgabe zu Lerneinheit 4">
+    <post id="7" author="Student1" time="Dienstag, 16. Oktober 2007, 18:17"><![CDATA[
+Ich habe ein problem mit dem Löschen.
+
+Egal was ich versuche ich kann keine Elemente aus der Arraylist löschen. Mache ich einen Fehler bei
+
+public void deleteEintrag (in i){
+
+eintraege.remove(i);
+
+}
+
+
+????????
+
+auch der befehl "clear" bewirkt nichts
+  ]]></post>
+    <post id="8" reply="7" author="Student1" time="Dienstag, 16. Oktober 2007, 20:32"><![CDATA[
+hab meine fehler schon gefunden, ich habe nämlich zur überprüfung eine auflstung gemacht und hab vergessen die neu als array (um sie auf dem bildschirm auszugeben) initialisieren zu lassen es wurde dauernd die alte liste ausgegeben
+  ]]></post>
+  </thread>
+  
+    <thread title="Innere Klassen">
+    <post id="9" author="Student2" time="Mittwoch, 17. Oktober 2007, 10:45"><![CDATA[
+Ich habe gerade die Lektion Abstrakte Klassen und Interfaces durchgearbeitet und mir ist alles klar von der Programmierung her, allerdings erschließt sich mir der Sinn von inneren Klassen nicht. Also klar ich kann in der Methode auf die Klasse zugreifen, doch wozu?
+
+ 
+
+Kennt jemand ein sinnvolles Beispiel wo es wirklich Sinn macht, eine innere Klasse zu verwenden?
+  ]]></post>
+    <post id="10" reply="9" author="Student3" time="Mittwoch, 17. Oktober 2007, 11:57"><![CDATA[
+Hallo , das gleiche hatte ich mich auch gefragt. Beim Meeting gestern hat mir xxxx als Beispiel die GUI-Programmierung genannt, da werden sie eingesetzt. Gruß 
+    ]]></post>
+  </thread>
+  
+      <thread title="Folien der letzten Webkonferenz">
+    <post id="11" author="Student10" time="Mittwoch, 17. Oktober 2007, 18:55"><![CDATA[
+xxxx hat geschrieben, dass sie die Texte der Folien in moodle eingestellt hat. Weiß jemand wo ich die finde?
+
+
+LG und vielen Dank!
+    ]]></post>
+    <post id="12" reply="11" author="Mentor1" time="Donnerstag, 18. Oktober 2007, 14:28"><![CDATA[
+Liebe Frau , liebe Studierende,
+
+der  Text ist im Abschnitt Thema 3 LE03.
+
+Mit freundlichen Grüßen
+    ]]></post>
+  </thread>
+  
+  <thread title="Einsendeaufgabe 2">
+    <post id="13" author="Student4" time="Mittwoch, 24. Oktober 2007, 14:35"><![CDATA[
+Ich habe nen Knoten im Hirn und hoffe, dass ihr mir helfen könnt.
+
+Es geht um die RechnerTest.java, ich habe verstanden das ich ein Objekt erzeugen muss, um auf dieses dann die Methode "rechnen" anzuwenden.
+
+
+...besitzt dieses Objekt nun 2 Strings oder ein array für die resultate?
+
+
+ich bin für jede hilfe dankbar, denn irgendwie häng ich fest.
+    ]]></post>
+    <post id="14" reply="13" author="Student4" time="Mittwoch, 24. Oktober 2007, 23:12"><![CDATA[
+hat sich erledigt...
+    ]]></post>
+    <post id="15" reply="14" author="Mentor1" time="Donnerstag, 25. Oktober 2007, 17:04"><![CDATA[
+Lieber , liebe Studierende,
+
+auch wenn die Frage sich erledigt hat: die Klassen IntRechner und FloatRechner implementieren lediglich eine einzige Methode. Man braucht dafür keine Attribute in diesen Klassen zu deklarieren. Es bedeutet: ein IntRechner-Objekt oder ein FloatRechner-Objekt hat keine Attribute, also kann weder 2 Strings noch ein Array besitzen. Die Methode rechnen hat 2 Parameter vom Typ String und eine Rückgabe vom Typ String[ ].
+
+Mit freundlichen Grüßen
+    ]]></post>
+  </thread>
+  
+  <thread title="Methoden in der KLasse TelefonListe">
+    <post id="16" author="Mentor1" time="Dienstag, 30. Oktober 2007, 21:32"><![CDATA[
+iebe Studierende,
+
+
+unten sind 2 Methoden der Klasse Telefonliste, wobei liste das Attribut der Klasse vom Typ ArrayList<TelefonEintrag> ist. Was schlagen Sie als javadoc-Kommentar für jede Methode vor?
+
+Mit freundlichen Grüßen
+
+
+ public void methode1(String namen){
+        int i =0;
+        while (i< liste.size() && ( ! (liste.get(i).getName().equals(namen)))) {
+            i++;
+            }
+        if (i < liste.size()){
+            System.out.println ("Eintrag: " + liste.get(i).toString());
+        }
+        
+    }
+
+ 
+
+ public void methode2(String namen){
+      for (TelefonEintrag t: liste){
+            if(t.getName().equals(namen)){
+                 System.out.println ("Eintrag: " + t.toString());
+            }
+        }
+
+}
+
+   ]]></post>
+    <post id="17" reply="16" author="Student5" time="Freitag, 2. November 2007, 15:48"><![CDATA[
+Ich fang einfach einmal an. Der Unterschied der Methode liegt in der Art und Weise wie die ArrayList<TelefonEintrag> durchsucht wird. Das Ergebnis ist bei beiden aber das gleiche.
+
+ 
+
+/** Methode 1 ueberprueft mittels vorgelagerter Bedingung (while-Schleife), ob namen nicht in der ArrayList liste enthalten ist. Dabei wird mit der Methode get(i) der entsprechende Eintrag und mit der Methode getName() aus diesem Eintrag der Name geholt. Solange namen nicht ist und der Index i kleiner der Anzahl Elemente in liste ist, wird der Index i hochgezählt. Ist die Bedingung nicht erfüllt, gibt die Methode den Telefoneintrag des Index i, der kleiner der Anzahl Elemente in liste sein muss, aus liste als String aus. **/
+
+public void methode1(String namen){
+        int i =0;
+        while (i< liste.size() && ( ! (liste.get(i).getName().equals(namen)))) {
+            i++;
+            }
+        if (i < liste.size()){
+            System.out.println ("Eintrag: " + liste.get(i).toString());
+        }
+    }
+
+ 
+
+ /** Methode durchläuft die ArrayList liste des Objekts Telefoneintrag (ArrayList<Telefoneintrag>) mittels erweiterter for-Schleife bzw. Iterator (auch Zeiger oder Cursor). Hierbei wird die Methode iterator() der Schnittestelle Iterable aufgerufen, die den Iterator zurückgibt. Wenn die Bedingung erfüllt ist, dass namen im Element an der "Position" des Iterator enthalten ist, wird der Eintrag an dieser Stelle als String ausgegeben. Der Name an der Position des Iterator wird mittels Methode getName() aus der ArrayList liste geholt. **/
+
+ public void methode2(String namen){
+      for (TelefonEintrag t: liste){
+            if(t.getName().equals(namen)){
+                 System.out.println ("Eintrag: " + t.toString());
+            }
+        }
+}
+ 
+   ]]></post>
+    <post id="18" reply="17" author="Mentor1" time="Freitag, 2. November 2007, 22:24"><![CDATA[ 
+Liebe , liebe Studierende,
+
+Vielen Dank  für das Anfangen.
+
+Ich antworte mit noch einer Frage. Was bewirken beide Methode, wenn in der liste folgende Einträge sind:
+
+["richard", "35467654"]
+
+["michael", "35467343"]
+
+["richard", "22467343"]
+
+und die Methoden werden mit "richard" als Parameter aufgerufen?
+   ]]></post>
+    <post id="19" reply="18" author="Student5" time="Samstag, 3. November 2007, 00:29"><![CDATA[ 
+Ah, ich habe etwas übersehen.
+
+Bei der ersten Methode wird nur "richard", "35467654" ausgeben, bei der zweiten "richard", "35467654" sowie "richard", "22467343".
+
+Bei der ersten Methode kann der zweite "richard" gar nicht ausgegeben werden, da wir uns in keiner Schleife mehr befinden und somit die liste gar nicht mehr durchsucht werden kann. Die Methode wird verlassen.
+   ]]></post>
+    <post id="20" reply="19" author="Mentor1" time="Sonntag, 4. November 2007, 13:26"><![CDATA[ 
+Liebe , liebe Studierende,
+
+Sehr gute Antwort, DANKE. Können Sie jetzt gute Javadoc-Kommentare für diese 2 Methoden geben? Als Erinnerung, ein Javadoc-Kommentar sagt nur, was die Methode macht, nicht wie sie programmiert ist. Danke im Voraus für das Mitmachen.
+
+Viele Grüße
+
+   ]]></post>
+    <post id="21" reply="20" author="Student3" time="Sonntag, 4. November 2007, 18:36"><![CDATA[ 
+Hallo zusammen, wenn ich auch noch mitmachen darf :) hier meine Kommentare:
+
+Methode 1 vergleicht die Listeneinträge mit dem übergebenen Namen und gibt den ersten übereinstimmenden Eintrag aus.
+
+Methode 2 vergleicht die Listeneinträge mit dem übergebenen Namen und gibt ALLE übereinstimmenden Einträge aus.
+
+Viele Grüße
+   ]]></post>
+    <post id="22" reply="21" author="Student5" time="Sonntag, 4. November 2007, 18:49"><![CDATA[ 
+Dem schließe ich mich an :)
+
+Schöne Grüße
+    ]]></post>
+  </thread>
+  
+  <thread title="Die paint Methode">
+    <post id="23" author="Mentor1" time="Montag, 12. November 2007, 18:11"><![CDATA[
+Liebe Studierende,
+
+ 
+
+die paint Methode ist in der Klasse java.awt.Component deklariert. Im Kommentar kann man lesen:
+
+This method is called when the contents of the component should be painted; such as when the component is first being shown or is damaged and in need of repair.
+
+In den Übungen der LE05 überschreiben Sie diese paint Methode.
+
+Als Experiment versuchen Sie das Folgende. Führen Sie eine Ausgabe in Ihrer paint Methode, etwa wie:
+
+System.out.println("die paint Methode wurde ausgerufen");
+
+und führen Sie Ihr Programm aus. Vergroessern Sie, verkleinern Sie, verdecken Sie Ihr Bild, und merken Sie dabei in der Konsole wie oft die paint Methode aufgerufen wird.
+
+Mit freundlichen Grüßen
+    ]]></post>
+  </thread>
+  
+  <thread title="Eclipse - komfortablere Übersicht">
+    <post id="24" author="Student6" time="Sonntag, 11. November 2007, 10:35"><![CDATA[
+Hallo zusammen,
+
+ist es möglich in Eclipse:
+
+- 2,3 Fenster nebeneinander anzeigen zu lassen wie in Textpad? 
+  (Hab bisher nur festgestellt, dass man Fenster untereinander schieben kann, was ich nicht so komfortabel finde)
+
+- Kann man Quellcode auch einklappen lassen, wenn man ihn in einen Kommentar setzt?
+
+Hoffe, das geht und jemand von Euch weiß das? 
+
+Danke und Ciao 
+   ]]></post>
+    <post id="25" reply="24" author="Student5" time="Sonntag, 11. November 2007, 12:45"><![CDATA[ 
+Hallo ,
+
+alle Fenster in Eclipse sind Reiter, die Du anfassen und an beliebige Positionen verschieben kannst. Somit könntest Du Dir auch den Quellcode von zwei Klassen nebeneinanderstellen. Generell kannst Du Dir das Eclipse komplett so einrichten, wie Du es magst, und als Deine Perspektive abspeichern (Menüpunkt Window).
+
+Beim auskommentierten Quellcode einklappen weiß ich nicht so recht, was Du damit meinst. Eclipse erkennt jede Methode (auch auskommentierte) und jedes Kommentar, was Du mit dem -/+ ganz links vom Quelltext jeweils ein- oder ausklappen kannst. Meinst Du das eventuell?
+
+Hoffe, ich konnte ein wenig helfen.
+
+
+Schöne Grüße
+   ]]></post>
+    <post id="26" reply="25" author="Student6" time="Dienstag, 13. November 2007, 19:29"><![CDATA[ 
+Hallo Jenny, hat geklappt. Super. Danke
+    ]]></post>
+  </thread>
+  
+  <thread title="Türem von Hanoi: Rekursionsbaum richtig">
+    <post id="27" author="Mentor1" time="Dienstag, 13. November 2007, 21:42"><![CDATA[
+Liebe Studierende,
+
+der Text der Webkonferenz von heute 13.11.12 mit dem richtigen Rekursionsbaum für die Türme von Hanoi ist im Abschnitt LE09.
+
+Mit freundlichen Grüßen
+    ]]></post>
+  </thread>
+  
+  <thread title="Rekursion Aufgabe">
+    <post id="28" author="Student2" time="Mittwoch, 14. November 2007, 15:47"><![CDATA[
+Ich habe mal das Thema Rekursion durchgearbeitet. Bei der Aufagbe verstehe ich allerdings nicht wie ich das Labyrinth machen soll, ist dass nur ein String?, den ich mir selber zusammen baue oder soll ich irgendwie das labyrinth dynamisch bauen lassen?
+   ]]></post>
+    <post id="29" reply="28" author="Mentor1" time="Donnerstag, 15. November 2007, 15:36"><![CDATA[
+Lieber ,
+
+haben Sie meine Tipps im Moodle-Kurs LE09 "Einsendeaufgabe bitte klicken" gesehen? Am einfachsten ist es, das Labyrinth hat den Typ char [ ], nicht String.
+
+Mit freundlichen Grüßen
+  ]]></post>
+    <post id="30" reply="29" author="Student2" time="Donnerstag, 15. November 2007, 16:18"><![CDATA[
+Ups, da habe ich gar nicht hingeschaut, das werde ich mir mal anschauen, vielen Dank auf jeden Fall schon mal für den Hinweis :D
+    ]]></post>
+  </thread>
+  
+  <thread title="Frage zu Einsendeaufgabe 7">
+    <post id="31" author="Student1" time="Donnerstag, 15. November 2007, 18:47"><![CDATA[
+Diese Aufgabe ist wieder zur 2 zu lösen. Ein Mitglied der Gruppe schreibt die Ereignis-Behandlung fuer die AusgabePanel.java Klasse, der andere für die NeuPanel.java Klasse.Sie teilen sich die Arbeit fuer die CocktailMixer Klasse.
+
+
+Das steht als zusatz im Moodle und ich verstehe nicht ganz was genau mit den beiden .java dateien gemeint ist die in dem obigen text stehen.
+
+Mit was ist genau mit AusgabePanel.java gemeint und ebenso was ist genau mit NeuPanel.java gemeint?
+
+CocktailNeuPanel.java ist die Datei die ich bei mir in der vorherigen Einsendeaufagbe stehen habe, also in meinem Projektordner für die GUI.
+
+Sind CocktailNeuPanel.java und NeuPanel.java hier das Gleiche oder verstehe ich das falsch? Und wenn sie es sind, auf was bezieht sich dann die Datei AusgabePanel.java?
+   ]]></post>
+    <post id="32" reply="31" author="Mentor1" time="Freitag, 16. November 2007, 15:36"><![CDATA[
+Lieber , liebe Studierende,
+
+mit NeuPanel.java ist CocktailNeuPanel.java der LE06 gemeint. Und mit der CocktailMixer Klasse ist MeinCocktailMixerGUI der LE06 gemeint.
+ Ich habe in der Einsendeaufgabe korrigiert. In der LE07 geht es darum, die Klassen der LE06 anzupassen, und die Ereignisbehandlung zu programmieren. Ist es klarer so?
+
+Mit freundlichen Grüßen
+   ]]></post>
+    <post id="33" reply="32" author="Student1" time="Freitag, 16. November 2007, 17:52"><![CDATA[
+Ja, jetzt habe ich es verstanden. Danke.
+    ]]></post>
+  </thread>
+  
+  <thread title="Textfeld in Scrollpane">
+    <post id="34" author="Student2" time="Montag, 19. November 2007, 16:52"><![CDATA[
+Ich habe folgendes Probem beim Eventhandling, wenn ich eine Textarea habe, dann packe ich sie in ein ScrollPanel. Hier der COde dazu
+
+JTextArea newLabelFor    = new JTextArea();
+newLabelFor.setName( name );
+newLabel    = new JScrollPane( newLabelFor );
+
+
+newLabel wird zurückgegeben. Wenn ich nun mit dem zurückgegeben newLabel arbeiten will, wie komme ich dann an das Textfeld herand, dass dort drin ist? newLabel.getText() funktioniert nicht, aber ich habe auch noch nicht heraus gefunden, wie ich an den text komme. Und es wäre wichtig zu wissen, sagt jetzt bitte nicht, dass ich das Textfeld zurückgeben soll :D, das ist in meinem Beispiel nicht möglich und ich bin mir fast sicher, dass ich über den ScrollPane an das Textfeld rankomme um dann getText() auszuführen.
+
+
+Vielen Dank schon mal für eure Hilfe
+   ]]></post>
+    <post id="35" reply="34" author="Student1" time="Montag, 19. November 2007, 20:15"><![CDATA[
+So fuktiniert es glaube ich bei mir
+
+private TextArea newLabelFor ; muss am anfang der klasse stehen
+
+ 
+
+das steht dann weiter unten:
+
+newLabelFor    = new JTextArea();
+newLabelFor.setName( name );
+newLabel    = new JScrollPane( newLabelFor );
+
+und auf newLabelFor kannst du dann getText anwenden
+
+bitte korrigiert mich wenn ich flasch liege
+   ]]></post>
+    <post id="36" reply="35" author="Student2" time="Dienstag, 20. November 2007, 09:27"><![CDATA[
+Das funktioniert so nicht, da ich dass in einer Forschleife abhandle und das newLabelFor nur kurzfristig als diese Variable habe und sie damit nicht direkt über newLabelFor ansprechen kann.
+
+
+newLabel ist eine Variable wo alle Datentypen vom Button bis zum Textfield darüber deklariert und auch initialisiert werden. Zum Schluss gehe ich mit einer Schleife alle Textfelder durch, um nach dem Namen zu suchen, den ich dort setze und mir dann per getText() den Text auszulesen, das Problem ist bloss, dass das Textfeld in einem ScrollPane ist. Ich habe praktisch einen objekt in einem objekt und möchte nun child objekt ansprechen.
+
+Also mir ist es wichtig, dass ich das Textfeld über dem Scrollpane auslesen kann. Allerdings weiß ich nicht, wie ich mir alle Elemente aus dem Scroll Pane anzeigen lassen kann oder wie ich darauf zugreifen kann.
+
+Okay ich hoffe es ist nicht zu chaotisch geschrieben.
+   ]]></post>
+    <post id="37" reply="36" author="Mentor1" time="Dienstag, 20. November 2007, 11:32"><![CDATA[
+Lieber , liebe Studierende,
+
+es geht mit Umwegen durch die Methode getViewport() der Klasse JScrollPane. Man muss noch das Component-Objekt des JViewport-Objektes holen, und es in ein JTextArea-Objekt casten, weil das JScrollPane ein JTextArea-Objekt zeigt, etwa so:
+
+((JTextArea) js.getViewport().getView()).getText()
+
+js ist das JScrolPane Objekt.
+
+Mit freundlichen Grüßen
+   ]]></post>
+    <post id="38" reply="37" author="Student2" time="Dienstag, 20. November 2007, 11:44"><![CDATA[
+Diese Lösung hatte ich auch schon gefunden, allerdings bekomme ich eine Fehlermeldung, dass die Funktion getViewport nicht zur Verfügung steht, wenn ich allerdings mit getClass checke um was es sich handelt, habe ich definitiv eine JscrollPane und auch ein Cast verändert leider an dieser Situation nichts.
+   ]]></post>
+    <post id="39" reply="34" author="Student7" time="Dienstag, 20. November 2007, 10:31"><![CDATA[
+Hallo,
+
+ 
+
+newLabel ist ein JScrollPane (Container) und hat daher nicht die Methode getText().
+
+Was du machen willst ist erst einmal die Componenten auslesen und dann getText(). Etwa so:
+
+ 
+
+newLabel.getComponents()[0].getText();
+
+ 
+
+Ich habs selber noch nicht ausprobiert aber sofern die JTextArea die einzige Componente in dem Container ist sollte es gehen.
+    ]]></post>
+  </thread>
+  
+  <thread title="Gruppen für Aufgaben zu Le6 und 7">
+    <post id="40" author="Student1" time="Dienstag, 13. November 2007, 18:17"><![CDATA[
+Also, wie viele bestimmt schon gelesen haben sollen wir die Einsendeaufgaben zu lernheiten 6 und 7 in zweiergruppen machen.
+
+Also wie teilen wir uns auf?
+
+Bzw. wer geht mit wem in eine gruppe?
+   ]]></post>
+    <post id="41" reply="40" author="Student1" time="Dienstag, 13. November 2007, 21:19"><![CDATA[
+Jut, also wer bildet mit mir dafür ne gruppe?
+   ]]></post>
+    <post id="42" reply="41" author="Student1" time="Montag, 19. November 2007, 23:57"><![CDATA[
+keiner?
+
+   ]]></post>
+    <post id="43" reply="42" author="Student8" time="Dienstag, 20. November 2007, 13:56"><![CDATA[
+hallo david!
+
+eigentlich wollte ich die aufgaben allein machen um mehr übung zu bekommen (kann ja nicht schaden ;)), aber wenn du willst können wir gern vergleichen und zusammen arbeiten. habe gerade allerdings erst bei le07 angefangen. du bist schon weiter, oder?
+
+grüße,
+   ]]></post>
+    <post id="44" reply="43" author="Student1" time="Dienstag, 20. November 2007, 15:29"><![CDATA[
+ich weiß nicht ob ich wetas flasch verstanden habe, aber laut text der im moodle sthet sollen wir es zu wweit machern, das heißt doch das wir in gruppena rbeiten müssen, oder irre ich mich?
+
+Diese Aufgabe ist wieder zur 2 zu lösen.
+
+Das steht da und das heißt für mich, wir müssen die Aufgabe in zwiergruppen machen. Darum suche uich die ganze Zeit nache jemanden und wundere mich das keiner antwortet.
+   ]]></post>
+    <post id="45" reply="44" author="Student8" time="Dienstag, 20. November 2007, 16:38"><![CDATA[
+xxxx hatte im letzten online meeting gesagt, dass man es wohl auch alleine machen kann, wenn man uuuuuunbedingt will. die aufzeichnung ist noch im "video archive".
+
+für mich klang das vernünftig, weil ich so eben mehr übung bekomme. für die abgabe hat man ja auch noch ne ganze weile zeit.
+aber man könnte ja trotzdem vergleichen und als gruppe abgeben.
+   ]]></post>
+    <post id="46" reply="45" author="Student1" time="Dienstag, 20. November 2007, 17:22"><![CDATA[
+AHhhhhhhhhhhhhhhhhhhh
+
+
+Das hatte ich ganz vergessen.
+
+Danke für den Hinweis.
+
+Wir können ja gerne Tauschen. Ich bion aber noch nicht mit dem Suchpanel fertig.
+   ]]></post>
+    <post id="47" reply="46" author="Student8" time="Dienstag, 20. November 2007, 16:38"><![CDATA[
+kein problem :)
+
+ich bin mit den panels auch noch nicht ganz fertig, wollte erstmal die le07 anschauen. 
+
+wenn ich wieder daheim bin kann ich mal was schicken. 
+    ]]></post>
+  </thread>
+  
+<thread title="Aufgabe zur Lerneinheit 10">
+    <post id="48" author="Student1" time="Donnerstag, 6. Dezember 2007, 17:35"><![CDATA[
+Sooooo,
+
+ich wollte mal nachfragen wie man die lösen könnte.
+
+Ich bin mir da nicht ganz sicher wie ich die Aufgabe gestallten soll. Ich ahbe sonst immer ein bestimmtest ziel gehabt wie ein Adressbuch programmieren oder so etwas.
+
+Können sinnlose Daten in den Arrays gespeichert werden oder müssen sie irgednwie sinn ergeben?
+
+Ich hab leider keine gute idee in welcher weise ich die Arrays einsetzen könnte.
+   ]]></post>
+    <post id="49" reply="48" author="Student2" time="Freitag, 7. Dezember 2007, 11:55"><![CDATA[
+Mir erschließt sich der Sinn dieser Aufgabe auch noch nicht so ganz, aber ich würde ganz simpel einfach nen paar sachen einfügen, löschen, etc. ohne größeren Sinn dahinter.
+
+
+Mehr würde ich warscheinlich gar nicht machen, also eine extrem simple Aufgabe, wenn ich sie richtig verstehe. Also ohne Ziel einfach ein paar Sachen einfügen, löschen und das wars.
+   ]]></post>
+    <post id="50" reply="48" author="Student1" time="Sonntag, 9. Dezember 2007, 12:41"><![CDATA[
+Ähm ich bin gerade verwirrt. Soll jedes Objekt einen anderen Parameter haben oder soll in jedem Objekt zwei Parameter enthalten sein?
+
+   ]]></post>
+    <post id="51" reply="50" author="Mentor1" time="Sonntag, 9. Dezember 2007, 19:45"><![CDATA[
+Lieber , liebe Studierende,
+
+Zweck dieser Aufgabe ist "nur" die erwähnten Klassen zu testen, etwa wie Sie Ihre Klasse MeineArrayList getestet haben. Ist die Aufgabe klarer Herr Kliem?
+
+Merken Sie, dass die Klasse ArrayStackGen<E>  mit push Ausnahmen werfen kann, was in der Klasse ListStackGen<E> nicht passiert. Die Implementierung eines Stapels mit einer verketteten Liste ist sehr dynamisch. Dagegen bei der Implementierung mit einem Array muss die Größe des Arrays fest gelegt werden.
+
+Mit freundlichen Grüßen
+   ]]></post>
+    <post id="52" reply="51" author="Student2" time="Dienstag, 11. Dezember 2007, 10:51"><![CDATA[
+Wir können doch auch nur die Klassen ArrayStackGen und ListStackGen testen, da StackGen ein Interface ist, oder habe ich die falsche StackGen Klasse mir heruntergeladen?
+   ]]></post>
+    <post id="53" reply="52" author="Mentor1" time="Dienstag, 11. Dezember 2007, 15:11"><![CDATA[
+Lieber ,
+
+
+ja, man kann aber StackGen als Typ benutzen. Daher ist die Schnittstelle gelistet.
+
+Viele grüße
+    ]]></post>
+  </thread>
+  
+  <thread title="Fragen zur ESA07">
+    <post id="54" author="Student8" time="Donnerstag, 13. Dezember 2007, 14:13"><![CDATA[
+hallo! :)
+
+ich stehe bei dieser einsendeaufgabe total auf dem schlauch... trotz tagelangem überlegen/probieren/suchen komme ich einfach nicht voran. ich sitz davor und weiß gar nicht recht wo ich anfangen soll.
+
+mein plan sah bis jetzt so aus: erstmal nach dem start eine leere cocktailbar anlegen und dann entsprechend füllen. in der aufgabenstellung steht ja auch, dass ein private attribut CocktailBar angelegt und in der Panel-Instanz gesetzt werden muss. doch: wie mach ich das?!
+
+hab mehrere riesige bretter vor dem kopf! kann jemand helfen?! :) dann käme ich vielleicht mal ein bißchen voran ;)
+
+alles liebe,
+   ]]></post>
+    <post id="55" reply="54" author="Student5" time="Donnerstag, 13. Dezember 2007, 18:46"><![CDATA[
+Hallo ,
+
+also Dein Ansatz klingt in meinen Augen schon einmal ganz gut. Mein Ansatz ist ganz ähnlich: nach Start des Programms kann eine neue Cocktailbar angelegt oder eine bereits existierende geladen werden.
+
+Hast Du aus dem Modul die Quellen zum Cocktailmixer in Deinem Projekt integriert? Du benötigst die darin enthaltenen Klassen um ein Objekt der Klasse CocktailBar zu erzeugen.
+
+Bei Klick auf Cocktailmixer > Neu wird bei mir über den Actionlistener eine Methode aufgerufen, die ein Objekt dieser Klasse erzeugt, falls nicht bereits eines existiert. Hilft Dir das weiter?
+
+Schöne Grüße
+   ]]></post>
+    <post id="56" reply="55" author="Student8" time="Donnerstag, 13. Dezember 2007, 21:40"><![CDATA[
+hi 
+
+ja, das hilft schon. hatte (unter anderem) versucht das objekt direkt zu erzeugen, jetzt werde ich es mal so versuchen wie du gesagt hast. danke!!! :)
+
+die ganzen klassen habe ich schon im projekt, hab allerdings tausendfach was drin geändert und jetzt nur noch wirres zeug, ich glaub ich fang nochmal neu an :D
+
+wie machst du das denn mit dem setzen in der panel-instanz? vielleicht verstehe ich auch den ganzen satz nicht richtig:
+
+Die einzelnen Panelklassen müssen die aktuelle CocktailBar-Instanz ebenfalls kennen, von daher sollte diese beim Erzeugen des Panels im Konstruktor entsprechend in der Panel-Instanz gesetzt werden.
+
+muss man beim "umschalten" auf ein anderes panel irgendwas übergeben?
+
+puh, die aufgabe ist echt bis jetzt die schwierigste... find ich.
+
+auf jeden fall danke für deine hilfe! :)
+  ]]></post>
+    <post id="57" reply="56" author="Mentor1" time="Donnerstag, 13. Dezember 2007, 23:07"><![CDATA[
+Liebe , liebe Studierende,
+
+das Klassendiagram der LE06 nochmal anschauen: die Klassen der GUI sollen die Logik, also das Cocktailbar-Objekt kennen. Es ist möglich durch die Konstruktoren ein Cocktailbar-Objekt weiter zureichen. Bis auf alkoholfrei bleiben die Logik-Klassen, also alle Klassen der LE04 unverändert.
+
+Ich hoffe es hilft!
+
+Viele Grüße
+   ]]></post>
+    <post id="58" reply="57" author="Student8" time="Donnerstag, 13. Dezember 2007, 23:40"><![CDATA[
+Hallo ,
+
+ich habe den Konstruktor jetzt so verändert:
+public CocktailNeuPanel(CocktailBar aktuelleBar){
+this.cBar = aktuelleBar;
+....
+}
+
+in MeinCocktailMixerGUI steht:
+neuerCocktailPanel = new CocktailNeuPanel(cBar);
+ 
+cBar ist die jeweils aktuelle CocktailBar (ändert sich durch Menü Cocktailmixer - Neu). Die Übergabe scheint auch zu funktionieren. War es so gemeint?
+  ]]></post>
+	<post id="59" reply="58" author="Mentor1" time="Freitag, 14. Dezember 2007, 07:14"><![CDATA[
+JA. So behandenl alle Klassen das gleiche CocktailBar-Objekt dank Referenz-Typ.
+
+Viel Erfolg und einen schönen 3. Advent
+  ]]></post>
+    <post id="60" reply="54" author="Student8" time="Freitag, 14. Dezember 2007, 17:15"><![CDATA[
+den ersten Teil hab ich (einigermaßen) ans laufen gebracht, nun komme ich beim asugabepanel nicht weiter :/
+
+als erstes will ich die combobox mit den cocktailnamen befüllen. hier ist ein teil des codes:
+
+        nameCombo.addItem("test285");                                   // wird in combobox angezeigt
+        cList = cBar.getCocktails();
+        String test2 = "bla bla";
+        for(int i=0; i<cList.length; i++){
+            nameCombo.addItem(cList[i].getCName());                                             // wird nicht angezeigt
+            nameCombo.addItem("test");                                                                         // wird nicht angezeigt
+            nameCombo.addItem(test2);                                                                       // wird nicht angezeigt
+            System.out.println("geklappt: " + cList[i].getCName());                             // wird in konsole angezeigt.
+            //this.repaint();
+        }
+        nameComboBox.add(nameCombo);
+        .....
+
+hat jemand eine ahnung warum das addItem in der for-schleife nicht funktioniert?
+
+  ]]></post>
+    <post id="61" reply="60" author="Mentor1" time="Freitag, 14. Dezember 2007, 22:53" attachment="TryComboBox.java"><![CDATA[
+Liebe , liebe Studierende,
+
+es fehlt mir etwas mehr Code, um besser zu verstehen. Als Hilfe oder Anregung tue ich unten 2 kleine Programme: Ein Klick auf dem Knopf fügt ein Item in das ComboBox-Objekt hinzu. Die 2 Programme unterscheiden sich im Konstruktor für das ComboBox-Objekt.
+
+Ich wünsche Ihnen viel Erfolg.
+
+Agathe Merceron
+
+import java.awt.Container;
+import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+
+public class TryComboBox1 extends JFrame {
+    
+    public TryComboBox1(){
+        Container c = getContentPane();
+        c.setLayout(new FlowLayout());
+        final JComboBox jcb = new JComboBox();
+        c.add(jcb);
+        JButton jb = new JButton("addItem");
+        jb.addActionListener(new ActionListener() {
+            private int i=0;
+            public void actionPerformed(ActionEvent e){
+                i++;
+                jcb.addItem("Item "+i);
+            }
+        });
+        c.add(jb);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setSize(400, 400);
+        setVisible(true);
+    }
+
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
+        new TryComboBox1();
+
+    }
+
+}
+ 
+   ]]></post>
+    <post id="62" reply="60" author="Student8" time="Sonntag, 16. Dezember 2007, 19:44"><![CDATA[
+Ich habe den Fehler leider immer noch nciht gefunden. Hat vielleicht noch jemand einen Tipp wie ich die JComboBox mit den aktuellen Cocktailnamen füllen kann?
+
+In MeinCocktailMIxerGUI habe ich nun eine Methode setComboBox(), diese füllt eine JComboBox und gibt sie zurück, allerdings werden auch dort nur die Namen eingetragen die ich zum Test als Strings angebe, keine aus der aktuellen Bar.
+
+Ich hab echt keine Ahnung mehr was ich noch probieren soll. Vielleicht könnt Ihr ja weiterhelfen :)
+   ]]></post>
+    <post id="63" reply="62" author="Student1" time="Sonntag, 16. Dezember 2007, 22:05"><![CDATA[
+Ich würde empfehlen ein Model zu verwenden
+
+private DefaultComboBoxModel<Object> combomodel = new DefaultComboBoxModel<Object>();
+
+combomodel.addElement() ist zum hinzufügenvon elementen
+
+removeAllElements() zum entfernen aller elemente
+
+JComboBox<Object> combobox = new JComboBox<Object>(combomodel);
+
+da hats du nochmal eine dokumentation: http://docs.oracle.com/javase/1.4.2/docs/api/javax/swing/DefaultComboBoxModel.html
+
+
+das sollte funktionieren
+   ]]></post>
+    <post id="64" reply="63" author="Student8" time="Montag, 17. Dezember 2007, 15:20"><![CDATA[
+
+vielen dank! :)
+
+werde ich gleich mal probieren. mal gucken ob der rest dann auch noch klappt....
+   ]]></post>
+    <post id="65" reply="64" author="Student8" time="Montag, 17. Dezember 2007, 18:05"><![CDATA[
+ es geht immer noch nicht. gleiches problem wie vorher: was ich manuell als string eintrage wird angezeigt, ebenso die ausgabe zu konsole. was ich per for-schleife aus der cBar eintrage wird nicht angezeigt. der fehler wird wohl an einer ganz anderen stelle des programms liegen. hab nur leider keine ahnung wo....
+
+ich hab xxx meine sachen geschickt, vielleicht findet sie den fehler. trotzdem danke für die hilfe! :)
+    ]]></post>
+  </thread>
+  
+   <thread title="Rekursion-Rätsel für die Feiertage">
+    <post id="66" author="Mentor1" time="Samstag, 22. Dezember 2007, 09:29"><![CDATA[
+Liebe Studierende,
+
+was bewirkt die rekursive Methode met unten? Ergänzen Sie das Javadoc-Kommentar. Ich freue mich auf zahlreiche Antworten.
+
+Ich wünsche Ihnen schön Feiertage
+
+
+    /**
+     *
+     * @param n, a positive integer number
+     * @param z, a positive digit from 1 to 9
+     */
+    public static void met(int n, int z){
+        if (n<10){
+            if (n==z){
+            System.out.print(n);
+            }
+            System.out.println();
+        } else {
+            if (n%10 == z) {
+                System.out.print(z);
+            }
+            met(n/10, z);
+        }
+    }
+    
+       ]]></post>
+    <post id="67" reply="66" author="Student5" time="Mittwoch, 2. Januar 2008, 14:30"><![CDATA[
+allo alle zusammen,
+
+hier ist mein Versuch für das Javadoc-Kommentar und für die Beschreibung der Methode.
+
+/**
+ * Rekursive Methode zum Vergleich und zur Ausgabe von zwei positiven Zahlen n und z des Typs integer.
+ * Zahl n wird darauf untersucht, ob kleiner 10 oder nicht.
+ * @param n, a positive integer number
+ * @param z, a positive digit from 1 to 9
+ **/
+
+Was die rekursive Methode met bewirkt:
+Ist n < 10, wird verglichen, ob n identisch z und im erfolgreichem Falle n ausgegeben. Wenn n < 10 wird die Methode in jedem Falle beendet.
+Ist n ≥ 10, wird verglichen, ob der Rest von n%10 identisch mit z ist. Im erfolgreichen Falle wird z ausgegeben. Wenn n ≥ 10 wird die Methode met in jedem Falle mit den neuen Parameter n=n/10 und z=z erneut aufgerufen. Der rekursive Aufruf erfolgt solange, bis n<10.
+Die Methode met wird insgesamt (10i−1)-mal erneut aufgerufen. Wobei i die Anzahl der Stellen (Einer, Zehner, Hunderter usw.) der Zahl n ist.
+       ]]></post>
+    <post id="68" reply="66" author="Student7" time="Samstag, 5. Januar 2008, 12:57"><![CDATA[
+/**
+ * Die Methode gibt jedesmal z zur Konsole aus, wenn ein z in n gefunden wird.
+
+ *
+ * @param n, a positive integer number
+ * @param z, a positive digit from 1 to 9
+ */
+    ]]></post>
+  </thread>
+  
+ <thread title="Übungen Präsenz">
+    <post id="69" author="Student3" time="Freitag, 25. Januar 2008, 08:48"><![CDATA[
+Hallo zusammen,
+
+ich hab mal eine Frage zu der CheckApp aus der 2. Präsenz. Ich habs soweit hingekriegt, dass sich die Farben ändern usw. Allerdings nicht unter Verwendung von einer "Buttongroup" (müsste es dann nicht viel mehr eine Checkboxgroup sein??). Sodass meine Implementierung der Anforderung "Immer nur eine Checkbox darf aktiv sein" vielleicht etwas umständlich ist!? Aber eine CheckBoxGroup sind dann eigentlich runde RadioButtons, aber in dem Bild in der Übung sind es quadratische CheckBoxen, deswegen hab ich es erstmal sein lassen.
+
+Und ich benutze nun zwar das JPanel, allerdings funktioniert das dann mit dem FlowLayout nicht. Also wenn man der Benutzer zB 10 Boxen haben möchte, dann sind nur die ersten 8 zu sehen, weil das Fenster nicht breit genug ist. Wenn ich mit Container und getContentPane arbeite, dann funktionierts (muss nur die eine Zeile mit "add (oben, BorderLayout.North)" rauskommentieren).
+
+Wie habt ihr das hinbekommen mit diesen Anforderungen JPanel und Buttongroup?
+
+Danke für eure/Ihre Tipps und Hinweise!
+
+ 
+
+import javax.swing.*;
+
+import java.awt.*;
+
+import java.awt.event.*;
+
+import java.io.*;
+
+import java.util.Random;
+
+public class CheckApp extends JFrame {
+
+private JCheckBox[] jcb;
+
+privateintsize;
+
+public CheckApp(int size) {
+
+JPanel oben = new JPanel();
+
+// Container oben = getContentPane();
+
+// oben.setLayout(new FlowLayout());
+
+jcb = new JCheckBox[size];
+
+this.size = size;
+
+for (int i = 0; i < size; i++) {
+
+jcb[i] = new JCheckBox(Integer.toString(i + 1));
+
+Random r = new Random();
+
+jcb[i].setOpaque(true);
+
+jcb[i].setBackground(new Color(r.nextInt(256), r.nextInt(256), r
+
+.nextInt(256)));
+
+oben.add(jcb[i]);
+
+jcb[i].addActionListener(new MyListener());
+
+}
+
+Random rCheck = new Random();
+
+int j = rCheck.nextInt(size);
+
+jcb[j].setSelected(true);
+
+add(oben, BorderLayout.NORTH);
+
+setTitle("CheckApp");
+
+setSize(400, 300);
+
+setLocationRelativeTo(null);
+
+setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+setVisible(true);
+
+this.setAlwaysOnTop(true);
+
+}
+
+class MyListener implements ActionListener {
+
+public void actionPerformed(ActionEvent e) {
+
+for (int i = 0; i < size; i++) {
+
+jcb[i].setSelected(false);
+
+}
+
+Random r = new Random();
+
+((JCheckBox) e.getSource()).setBackground(new Color(r.nextInt(256),
+
+r.nextInt(256), r.nextInt(256)));
+
+((JCheckBox) e.getSource()).setSelected(true);
+
+}
+
+}
+
+public static void main(String[] args) throws NumberFormatException,
+
+IOException {
+
+int anzahl;
+
+System.out.print("Wie viele Checkboxen? ");
+
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+anzahl = Integer.parseInt(br.readLine());
+
+new CheckApp(anzahl);
+
+}
+
+}
+      ]]></post>
+    <post id="70" reply="69" author="Student7" time="Freitag, 25. Januar 2008, 09:39"><![CDATA[
+xxxx und ich haben an dem Samstag auch drüber geredet.
+
+Beides geht natürlich und funktioniert auch, aber Checkboxgroup ist java.awt und ButtonGroup ist javax.swing.
+
+Normalerweise nimmst du wenn du ein JFrame einsetzt möglichst viel aus dieser Bibliothek. 
+
+zur größe des Fensters: setz einfach in den Konstruktor vor "this.visible(true);" folgendes: "this.pack();"
+      ]]></post>
+    <post id="71" reply="70" author="Student3" time="Freitag, 25. Januar 2008, 09:51"><![CDATA[
+Danke ,
+
+der Hinweis mit pack() ist super, funktioniert passgenau :)
+
+Aber ButtonGroup versteh ich ich immer noch nicht. ButtonGroup.add erwartet als Parameter "AbstractButtons", aber wir haben doch gar keine Buttons, sondern CheckBoxen?
+
+Und bei mir siehts mit der CheckBoxGroup eben aus wie runde RadioButtons und nicht mehr wie quadratische CheckBoxen. Hast du vielleicht mal einen Code-Ausschnitt? Danke.
+
+    ]]></post>
+    <post id="72" reply="71" author="Student7" time="Freitag, 25. Januar 2008, 10:41"><![CDATA[
+Schau dir mal bitte in der JavaAPI die Klasse JCheckBox an, insbesondere die Klassenhierarchie.
+
+Denke das sollte dir helfen.
+      ]]></post>
+    <post id="73" reply="72" author="Student3" time="Freitag, 25. Januar 2008, 23:28"><![CDATA[
+Danke für den Hinweis Dominik, alles klar! Jetzt funktioniert es auch ohne das umständliche selecten/deselecten in der actionPerformed.
+
+Und nachdem ich mich auch noch belesen habe, dass ich so eine ButtonGroup nirgends "adden" muss, sondern es einfach nur eine fiktive, logische Gruppe ist... :)
+
+Beste Grüße
+    ]]></post>
+    <post id="74" reply="69" author="Student3" time="Sonntag, 27. Januar 2008, 09:51"><![CDATA[
+
+Eine Frage hab ich noch...
+
+Bei Übung 5 heißt es: "Schreiben Sie die folgende Befehle in eine main Methode, und aendern Sie sie, damit das Programm kompiliert"
+
+Sieht bei mir so aus, dass ich im Grunde nur die <>-Operatoren um den Datentyp ergänzt habe. Der Rest funktioniert aber in Eclipse, auch wenn ich selbst vorher gedacht hätte, dass Collection <Integer>... ein Problem sein könnte. Aber nee, er kompiliert alles, so wie es ist.
+
+Vielleicht hat Frau Merceron in der Präsenz noch etwas zu der Aufgabe gesagt, wovon ich nichts weiß, wäre dankbar für Hinweise!
+
+Viele Grüße
+
+ 
+
+import java.util.ArrayList;
+
+import java.util.Collection;
+
+import java.util.HashSet;
+
+import java.util.LinkedList;
+
+import java.util.List;
+
+ 
+
+public class Uebung5Praesenz {
+
+public static void main(String[] args) {
+
+List<Number> lN = new ArrayList<Number>();
+
+System.out.println(lN.add(new Double(123)));
+
+System.out.println(lN.add(123));
+
+System.out.println(lN.add(123.0));
+
+System.out.println(lN);
+
+Collection<Integer> cI = new ArrayList<Integer>();
+
+System.out.println(cI.add(3));
+
+System.out.println(cI.add(2));
+
+System.out.println(lN.addAll(cI));
+
+System.out.println(lN);
+
+System.out.println(lN.retainAll(new HashSet<Object>()));
+
+System.out.println(lN);
+
+System.out.println(cI.removeAll(new LinkedList<String>()));
+
+System.out.println(cI);
+
+}
+
+}
+
+Ich hab auch selbst dann noch ein HashSet angelegt, dann bleiben auch die Einträge des HashSets in lN erhalten (retained), das versteh ich schon. Aber so löscht er alle Einträge aus lN, versteh ich auch. Aber wie gesagt, kompilieren tut er so oder so. Danke!
+    ]]></post>
+    <post id="75" reply="74" author="Student9" time="Sonntag, 27. Januar 2008, 10:54"><![CDATA[
+Hi, ich häng auch grad noch an der Aufgabe. Hab aber im Prinzip das gleiche wie du (nur das HashSet hab ich nicht).
+
+Wo wir grad bei Übungen Präsenz sind, hat einer nen Lösungsweg für die Erste Aufgabe? Irgendwie tu ich mich schwer oder der Groschen ist noch nicht gefallen.
+
+Danke voab und viele Grüße
+   ]]></post>
+    <post id="76" reply="75" author="Student5" time="Sonntag, 27. Januar 2008, 11:40"><![CDATA[
+Zu Aufgabe 1, zweite Präsenz:
+Helfen Dir die Hinweise, dass die Einerstelle modulo 10 ist und Du die übergebene Integer-Zahl quasi "kürzen" kannst, wenn Du sie durch 10 teilst?
+    ]]></post>
+    <post id="77" reply="76" author="Student9" time="Sonntag, 27. Januar 2008, 21:40"><![CDATA[
+Hallo,
+
+ja hat mir zumindest für die berechnung der Stellen definitiv weitergeholfen, nur an welcher stelle muss die Rekursion ist mir noch nicht ganz so klar...
+
+ 
+
+Danke erstmal.
+    ]]></post>
+    <post id="78" reply="77" author="Student9" time="Sonntag, 27. Januar 2008, 22:21"><![CDATA[
+Ich habs ;) danke. War dann doch irgendwie einfach. ;)
+ 
+     ]]></post>
+    <post id="79" reply="70" author="Student5" time="Sonntag, 27. Januar 2008, 14:48"><![CDATA[
+Zu Aufgabe 5, 2. Präsenz:
+ Geht es vielleicht in der Tat mehr darum, dass wir die Anwendung von retainAll (Schnittmenge, wobei in unserem HashSet alle möglichen Datentypen stehen können) und removeAll verstehen sollen? Also wie Du schon erwähntest ein HashSet und auch eine LinkedList anlegen.
+
+Wobei bei removeAll erst einmal nichts gelöscht werden kann, weil in der LinkedList nur String-Elemente enthalten sind, die in der Integer-Collection nicht enthalten sein können bzw. String ist keine Untertyp von Integer?? Wenn ich alle Elemente in cI gelöscht haben möchte, die in LinkedList vorhanden sind, benötige ich eine LinkedList<Integer>.
+
+Oder sollen wir die LinkedList<String> zu einer LinkedList<Integer> konvertieren. Ich habe es einmal testweise ausprobiert, weiß aber nicht, ob dies so wirklich gemeint bzw. richtig ist. Erscheint mir sehr umständlich. Falls es darum geht, den Inhalt von cI komplett zu löschen, benötige ich die Methode clear();
+
+
+...         
+
+    HashSet hs = new HashSet();        
+    hs.add( 123 );       
+    hs.add( 4 ); 
+    hs.add( 3 );  
+    hs.add( "test" );   
+    System.out.println(lN.retainAll(hs));  
+    System.out.println(lN); // Konsole: [123, 3]   
+
+    LinkedList<String> ll1 = new LinkedList<>();
+    ll1.addLast("3");
+    ll1.addFirst("test");
+    ll1.addFirst("1");
+    LinkedList<Integer> ll2 = new LinkedList<>();
+    boolean parse = true;
+    for (String str : ll1) {
+        try{
+            ll2.add(Integer.parseInt(str));
+        } catch (NumberFormatException e){
+            parse = false;
+        }
+    }
+    System.out.println(cI.removeAll(ll2));
+    System.out.println(cI); // Konsole: [2]
+
+    cI.add(3);     
+    cI.add(2);     
+    cI.add(3);   
+    cI.add(3);     
+    cI.add(1);     
+    System.out.println(cI); // Konsole: [3, 2, 3, 2, 3, 3, 1]     
+
+    LinkedList<Integer> ll3 = new LinkedList<>();     
+    ll3.addLast(3);     
+    ll3.addFirst(1);     
+    System.out.println(cI.removeAll(ll3)); // Konsole: true     
+    System.out.println(cI); // Konsole: [2, 2]              
+
+    cI.clear();     
+    System.out.println(cI); // Konsole: []
+…
+
+So verstehe ich bisher die Aufgabe.
+    ]]></post>
+    <post id="80" reply="79" author="Mentor1" time="Montag, 28. Januar 2008, 15:17"><![CDATA[
+Liebe , liebe Studierende,
+
+seit Java 7 ist die Syntax mit generischen Typen einfacher als vorher. Der Kurs in Moodle ist nicht überall angepasst. Die Syntax ist wie in der Übung 5 und wie Sie Frau Pilz hier haben:
+
+LinkedList<String> ll1 = new LinkedList<>();
+
+In ll1 kann man nur String-Objekte hinzufügen. Zweck der Übung 5 ist einfach mehrere Methoden kennen lernen und verstehen.
+
+Aufgepasst:
+
+HashSet hs = new HashSet();    
+
+ist zu vermeiden. Es gibt keinen Wert für den generischen Parameter E. Es funktioniert zwar, der Typ Hashset heisst "raw type" und ist kompatibel mit älteren Versionen des Paketes java.util.
+
+Besser hier wäre es den Typ HashSet <Object> zu benutzen:
+
+HashSet <Object> hs = new HashSet<>();  
+
+So ist es klar, dass Object-Objekte hinzugefügt sein können, also Zahlen wie Zeichenkette oder alles mögliche, weil sie alle von Object erben. 
+
+Viel Erfolg morgen!
+    ]]></post>
+  </thread>
+</forum>

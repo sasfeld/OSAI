@@ -1,0 +1,12 @@
+ID: 170003
+CREATION_DATETIME: 1350141021
+MODIFICATION_DATETIME: 1350141021
+TITLE: Re: Fragen zur Präsenz 1 
+PARENT_POSTING_ID: 168475
+CONTENT:
+Hallo Herr Prof. Dr. <REMOVED_PERSON_ENTITY>,
+können Sie eventuell etwas zu meiner Fragen sagen.
+Ist meine Lösung korrekt?
+Schon einmal vielen Dank und Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

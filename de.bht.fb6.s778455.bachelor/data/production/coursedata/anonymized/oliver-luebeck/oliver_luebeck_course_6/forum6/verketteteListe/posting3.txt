@@ -1,0 +1,15 @@
+ID: 93
+CREATION_DATETIME: 1296137700000
+MODIFICATION_DATETIME: 1296137700000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 92
+CONTENT:
+ 
+Vielen Dank 
+
+Dann probiere ich mich noch mal an der Aufgabe. Ich denke, es ist jetzt klarer!
+
+Gruß
+	
+TAGGED_CONTENT:

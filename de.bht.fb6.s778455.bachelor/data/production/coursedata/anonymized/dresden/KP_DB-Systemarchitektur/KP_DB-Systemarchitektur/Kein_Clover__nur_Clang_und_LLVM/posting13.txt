@@ -1,0 +1,9 @@
+ID: 1991
+CREATION_DATETIME: 1370728800000
+MODIFICATION_DATETIME: 1370728800000
+TITLE: Kannst du mal mit strace schauen, welche Executables alle gestartet werden?
+PARENT_POSTING_ID: 1973
+POSTING_TYPE: comment
+CONTENT:
+Kannst du mal mit strace schauen, welche Executables alle gestartet werden?
+TAGGED_CONTENT:

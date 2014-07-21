@@ -1,0 +1,9 @@
+ID: 1665
+CREATION_DATETIME: 1365112800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Liste der Übungsaufgaben ist online. Am Dienstag (9. 4.) erfolgt dann die Vergabe der Themen direkt nach der Einführungs-Vorlesung.
+TAGGED_CONTENT:

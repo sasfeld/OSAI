@@ -1,0 +1,9 @@
+ID: 1671
+CREATION_DATETIME: 1365112800000
+MODIFICATION_DATETIME: 1365112800000
+TITLE: Siehe Antwort zu: https://auditorium.inf.tu-dresden.de/posts/1668
+PARENT_POSTING_ID: 1667
+POSTING_TYPE: answer
+CONTENT:
+Siehe Antwort zu: https://auditorium. inf. tu-dresden. de/posts/1668
+TAGGED_CONTENT:

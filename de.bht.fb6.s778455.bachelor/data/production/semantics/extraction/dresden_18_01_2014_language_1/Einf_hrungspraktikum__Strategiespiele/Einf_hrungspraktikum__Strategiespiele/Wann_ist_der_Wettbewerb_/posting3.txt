@@ -1,0 +1,10 @@
+ID: 1194
+CREATION_DATETIME: 1362438000000
+MODIFICATION_DATETIME: 1362438000000
+TITLE: Irgendwann nach der zweiten Runde des Praktikums werden wir die Turnierspiele durchrechnen. Dann wird...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1191
+POSTING_TYPE: answer
+CONTENT:
+Irgendwann nach der zweiten <REMOVED_PERSON_ENTITY> des Praktikums werden wir die Turnierspiele durchrechnen. Dann wird es eine Abschlussveranstaltung geben, deren Termin aber noch nicht feststeht. Die beiden besten <REMOVED_PERSON_ENTITY> aus jedem Spiel treten dann live vor Publikum gegeneinander an.
+TAGGED_CONTENT:

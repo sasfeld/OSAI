@@ -1,0 +1,14 @@
+ID: 1612
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: wie oben geschrieben: es gibt den Move an sich zurück (der code dazu ist im eigentlichen Post)
+LANGUAGE: GERMAN
+POS_TAG: value:Post;weight:0.0;uri:;postag:NN
+POS_TAG: value:Move;weight:0.0;uri:;postag:NN
+POS_TAG: value:code;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1602
+POSTING_TYPE: comment
+CONTENT:
+wie oben geschrieben: es gibt den Move an sich zurück (der code dazu ist im eigentlichen Post)
+TAGGED_CONTENT:
+wie_KOKOM oben_ADV geschrieben_VVPP :_$. es_PPER gibt_VVFIN den_ART Move_NN an_APPR sich_PRF zurück_ADV -LRB-_TRUNC der_ART code_NN dazu_PROAV ist_VAFIN im_APPRART eigentlichen_ADJA Post_NN -RRB-_TRUNC 

@@ -1,0 +1,24 @@
+ID: 191297
+CREATION_DATETIME: 1357543253
+MODIFICATION_DATETIME: 1357543253
+TITLE: Re: Vektoren linear abhängig/ unabhängig mit LGS lösen
+TOPIC_ZOOM_TAG: value:Vektoren;weight:4.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:4.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:4.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:4.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:4.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:4.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Tipps;weight:1.0;significance:1.4931923752479;degreegeneralization:4;uri:20291636
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:0.863117812895972;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:0.724020340271243;degreegeneralization:3;uri:20758133
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:0.54532291397892;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 191031
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+Ihr Ansatz war doch: x1 mal 1. Vektor plus x2 mal 2. Vektor usw. gleich Nullvektor. 
+Folglich ergibt sich für JEDE Belegung Ihrer freien Parameter r, s ein Koeffizientensatz x1,..., x5 für eine LK zum Nullvektor. 
+Einziges Problem ist die Probe: Wählen Sie einmal irgendwelche Werte für r und s, errechnen Sie die Koeffizienten x1,..., x5 und bilden Sie die LK aus den in der Aufgabe gegebenen Vektoren. Kommt da der Nullvektor heraus? 
+Kleiner Tipp: Die Vektoren haben Rang 4 (nein, das sieht man nicht einfach so). Aus dieser Info können Sie erschließen, wie viele freie Parameter es geben wird.
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

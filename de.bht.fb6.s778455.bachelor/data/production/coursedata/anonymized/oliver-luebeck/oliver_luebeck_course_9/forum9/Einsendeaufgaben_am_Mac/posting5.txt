@@ -1,0 +1,16 @@
+ID: 12
+CREATION_DATETIME: 1175761980000
+MODIFICATION_DATETIME: 1175761980000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 11
+CONTENT:
+
+Lieber , liebe Studierende,
+
+verbringen Sie nicht zu viel Energie mit UebClockman. Wenn das Programm in dieser Woche nicht läuft, ist es gar nicht tragisch. Wir werden es bei der LE über "packages" wieder behandeln.
+SEHR wichtig dagegen ist es Hello und MyMathTest zu kompilieren und auszuführen.
+
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

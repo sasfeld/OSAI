@@ -1,0 +1,33 @@
+ID: 166463
+CREATION_DATETIME: 1349264113
+MODIFICATION_DATETIME: 1349264113
+TITLE: Heutiges Online-Meeting
+TOPIC_ZOOM_TAG: value:Programmierung;weight:1.0;significance:3.58168603537718;degreegeneralization:7;uri:21461440
+TOPIC_ZOOM_TAG: value:Jahr 2012;weight:1.0;significance:2.96261215731499;degreegeneralization:11;uri:20891175
+TOPIC_ZOOM_TAG: value:Software;weight:1.0;significance:2.60511682223347;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:2.51211272377639;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:2.50390086036106;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:2.15506992990383;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:2.00351838218053;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.83083484620539;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:1.07441906812122;degreegeneralization:2;uri:21999813
+POS_TAG: value:Mark;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Meeting;weight:0.0;uri:;postag:NN
+POS_TAG: value:Programmierung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Termin;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+da wir am 03. 10. 2012 zur selben Zeit auch ein Online-Meeting für Programmierung haben, würde ich doch einen anderen Termin vorschlagen.
+ 
+Grüße
+Mark
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, da_KOUS wir_PPER am_APPRART 03_CARD ._$. 10_CARD ._$. 2012_CARD zur_APPRART selben_ADJA Zeit_NN auch_ADV ein_ART Online-Meeting_NN für_APPR Programmierung_NN haben_VAFIN ,_$, würde_VAFIN ich_PPER doch_ADV einen_ART anderen_ADJA Termin_NN vorschlagen_VVINF ._$. Grüße_NN Mark_NN 

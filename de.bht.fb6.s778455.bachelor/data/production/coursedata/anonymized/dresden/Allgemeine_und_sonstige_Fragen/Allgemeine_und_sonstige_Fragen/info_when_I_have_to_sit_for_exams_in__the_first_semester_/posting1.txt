@@ -1,0 +1,10 @@
+ID: 787
+CREATION_DATETIME: 1352934000000
+MODIFICATION_DATETIME: 1383260400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+when there will be the examination for the first semester?
+Is there a specific place where I will do it?
+TAGGED_CONTENT:

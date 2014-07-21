@@ -1,0 +1,10 @@
+ID: 948
+CREATION_DATETIME: 1354748400000
+MODIFICATION_DATETIME: 1354748400000
+TITLE: Bei welcher Aufgabe tritt dieser Fehler auf? Für die erste Aufgabe mit dem XSLT-Processor oder mit de...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 945
+POSTING_TYPE: comment
+CONTENT:
+Bei welcher Aufgabe tritt dieser Fehler auf? Für die erste Aufgabe mit dem XSLT-Processor oder mit der 2. Aufgabe mit der NewsObject-Klasse?
+TAGGED_CONTENT:

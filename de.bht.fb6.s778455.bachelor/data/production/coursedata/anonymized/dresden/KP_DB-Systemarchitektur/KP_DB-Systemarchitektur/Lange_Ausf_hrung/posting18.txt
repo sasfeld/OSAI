@@ -1,0 +1,10 @@
+ID: 2253
+CREATION_DATETIME: 1373925600000
+MODIFICATION_DATETIME: 1373925600000
+TITLE: ja, es scheint zu terminieren. Ich habe jetzt das Average mal testweise laufen lassen, da geht es "re...
+PARENT_POSTING_ID: 2251
+POSTING_TYPE: comment
+CONTENT:
+ja, es scheint zu terminieren. Ich habe jetzt das Average mal testweise laufen lassen, <NAME_CORPUS_REPLACEMENT> geht es "relativ" fix. Mit der Diagonalmatrix der längsten Spaltengröße <NAME_CORPUS_REPLACEMENT> 256 (workgroupsize=256, scale=1) dauert es allein ca. 4 Minuten, bis der erste Fehler kommt je mehr Daten später, desto größer werden dann auch die Abstände der einzelnen Durchläufe, was ja klar ist. 
+Ich probieremal, ob ich lokalisieren kann, woran es liegen könnte.
+TAGGED_CONTENT:

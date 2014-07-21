@@ -1,0 +1,9 @@
+ID: 97772
+CREATION_DATETIME: 1287219992
+MODIFICATION_DATETIME: 1287219992
+TITLE: Re: Einsendeaufgaben
+PARENT_POSTING_ID: 97771
+CONTENT:
+Wenn Sie die Pruefungsvorleistung erworben haben bleibt sie bestehen. Sie muss nicht wiederholt werden. Wenn Sie sie nicht haben sind es diesmal die LON-CAPA-Aufgaben die die Einsendung darstellen und somit Pflicht sind.
+Besten <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

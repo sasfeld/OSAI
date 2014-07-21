@@ -1,0 +1,31 @@
+ID: 16533
+CREATION_DATETIME: 1223402105
+MODIFICATION_DATETIME: 1223402105
+TITLE: Re: S: sinnvolle Mathesoftware
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Computer;weight:3.0;significance:4.31013985980766;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computeralgebra;weight:1.0;significance:4.23618317174463;degreegeneralization:7;uri:20801262
+TOPIC_ZOOM_TAG: value:Standardsoftware;weight:1.0;significance:4.23618317174463;degreegeneralization:7;uri:20278087
+TOPIC_ZOOM_TAG: value:Algebra;weight:1.0;significance:4.23618317174463;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:3.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:3.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Software;weight:2.0;significance:3.4734890963113;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:2.0;significance:3.34948363170185;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:2.0;significance:3.33853448048142;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:3.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:2.59376527669224;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:3.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:3.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:1.49132817398893;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:1.16740572155176;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:0.779228928268583;degreegeneralization:2;uri:21999711
+POS_TAG: value:Woche;weight:0.0;uri:;postag:NN
+POS_TAG: value:Software;weight:0.0;uri:;postag:NN
+POS_TAG: value:Standardsoftware;weight:0.0;uri:;postag:NN
+POS_TAG: value:Erfahrungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Taschenrechner;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 16531
+CONTENT:
+Maple ist die Standardsoftware. Ansonsten habe ich mir das hier gekauft, aber bislang noch nicht erhalten - ich finde ganz reizvoll, daß die Computeralgebra-Software genauso funktioniert und bedient wird die der (an sich auch tolle) Taschenrechner. Nach Erfahrungen kannst Du mich dann ab übernächster Woche fragen... ;) 
+TAGGED_CONTENT:
+Maple_NE ist_VAFIN die_ART Standardsoftware_NN ._$. Ansonsten_ADV habe_VAFIN ich_PPER mir_PPER das_ART hier_ADV gekauft_VVPP ,_$, aber_KON bislang_ADV noch_ADV nicht_PTKNEG erhalten_VVINF -_$( ich_PPER finde_VVFIN ganz_ADV reizvoll_ADJD ,_$, daß_KOUS die_ART Computeralgebra-Software_NN genauso_ADV funktioniert_VVFIN und_KON bedient_VVFIN wird_VAFIN die_PDS der_ART -LRB-_TRUNC an_APPR sich_PRF auch_ADV tolle_ADJA -RRB-_TRUNC Taschenrechner_NN ._$. Nach_APPR Erfahrungen_NN kannst_VMFIN Du_PPER mich_PRF dann_ADV ab_APPR übernächster_ADJA Woche_NN fragen_VVFIN ..._$( ;-RRB-_XY 

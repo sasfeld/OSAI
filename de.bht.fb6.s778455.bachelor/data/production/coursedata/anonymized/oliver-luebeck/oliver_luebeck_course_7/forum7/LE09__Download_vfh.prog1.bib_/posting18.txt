@@ -1,0 +1,18 @@
+ID: 35
+CREATION_DATETIME: 1304625120000
+MODIFICATION_DATETIME: 1304625120000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 34
+CONTENT:
+ 
+hallo !
+
+"kleine" frage am rande: sollten wir die Aufgaben schon vorher bearbeiten? :O ich meine, ich bereite da auch was vor, aber fertig bekomme ich das auf keinen fall!! hab doch bei einigen aufgaben noch meine probleme....
+
+ich habe eben auch mal eclipse installiert, aber irgendwie war mir das noch zu unübersichtlich, also gehts erstmal weiter mit textpad :D
+wäre super, wenn du oder jemand anders am samstag vielleicht kurz das programm erklären könnte.
+
+alles liebe,
+   
+TAGGED_CONTENT:

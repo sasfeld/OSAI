@@ -1,0 +1,10 @@
+ID: 194
+CREATION_DATETIME: 1349560800000
+MODIFICATION_DATETIME: 1349560800000
+TITLE: Ich werde es mir mal 
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 191
+POSTING_TYPE: comment
+CONTENT:
+Ich werde es mir mal mit anschauen. Aber so bekommt ihr erstmal eure gewünschten HTML Mails :)
+TAGGED_CONTENT:

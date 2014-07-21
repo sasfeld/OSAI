@@ -1,0 +1,29 @@
+ID: 168057
+CREATION_DATETIME: 1349682307
+MODIFICATION_DATETIME: 1349682307
+TITLE: Re: Frage zu Präsenz 1 
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ding;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dinge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Eigenschaft;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ansatz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beste;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zahl;weight:0.0;uri:;postag:NN
+POS_TAG: value:Umformung;weight:0.0;uri:;postag:NN
+POS_TAG: value:senz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aussage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Form;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zahlen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Negation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ausnahme;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 167859
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+Ihre Negation ist formal schon einmal korrekt.
+Was wir in der Präsenz noch gemacht haben, ist die Umformung zwischen "für alle" und "es gibt". Wenn Sie eine "es gibt"-Aussage negieren, dann können Sie das immer statt mit "es gibt nicht" auch in der Form "für alle" notieren. 
+Ansatz: Wenn es ein Ding mit einer Eigenschaft nicht gibt, dann haben halt alle Dinge diese Eigenschaft nicht. Umgekehrt, wenn eine Eigenschaft nicht für alle gilt, dann gibt es mindestens eine Ausnahme.
+Wenn es also keine natürliche Zahl gäbe, die größer als 7 ist, dann müssten alle natürlichen Zahlen kleiner oder gleich 6 sein.
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, Ihre_PPOSAT Negation_NN ist_VAFIN formal_ADJD schon_ADV einmal_ADV korrekt_ADJD ._$. Was_PWS wir_PPER in_APPR der_ART Präsenz_NN noch_ADV gemacht_VVPP haben_VAFIN ,_$, ist_VAFIN die_ART Umformung_NN zwischen_APPR "_$( für_APPR alle_PIDAT "_$( und_KON "_$( es_PPER gibt_VVFIN "_$( ._$. Wenn_KOUS Sie_PPER eine_ART "_$( es_PPER gibt_VVFIN "_$( -_$( Aussage_NN negieren_VVINF ,_$, dann_ADV können_VMFIN Sie_PPER das_PDS immer_ADV statt_APPR mit_APPR "_$( es_PPER gibt_VVFIN nicht_PTKNEG "_$( auch_ADV in_APPR der_ART Form_NN "_$( für_APPR alle_PIDAT "_$( notieren_VVINF ._$. Ansatz_NN :_$. Wenn_KOUS es_PPER ein_ART Ding_NN mit_APPR einer_ART Eigenschaft_NN nicht_PTKNEG gibt_VVFIN ,_$, dann_ADV haben_VAFIN halt_ADV alle_PIDAT Dinge_NN diese_PDAT Eigenschaft_NN nicht_PTKNEG ._$. Umgekehrt_ADJD ,_$, wenn_KOUS eine_ART Eigenschaft_NN nicht_PTKNEG für_APPR alle_PIS gilt_VVFIN ,_$, dann_ADV gibt_VVFIN es_PPER mindestens_ADV eine_ART Ausnahme_NN ._$. Wenn_KOUS es_PPER also_ADV keine_PIAT natürliche_ADJA Zahl_NN gäbe_VVFIN ,_$, die_ART größer_ADJD als_APPR 7_CARD ist_VAFIN ,_$, dann_ADV müssten_VVFIN alle_PIDAT natürlichen_ADJA Zahlen_NN kleiner_ADJA oder_KON gleich_ADV 6_CARD sein_VAINF ._$. Beste_NN Grüße_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ._$. 

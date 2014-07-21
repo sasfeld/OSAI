@@ -1,0 +1,19 @@
+ID: 55
+CREATION_DATETIME: 1197567960000
+MODIFICATION_DATETIME: 1197567960000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 54
+CONTENT:
+
+Hallo ,
+
+also Dein Ansatz klingt in meinen Augen schon einmal ganz gut. Mein Ansatz ist ganz ähnlich: nach Start des Programms kann eine neue Cocktailbar angelegt oder eine bereits existierende geladen werden.
+
+Hast Du aus dem Modul die Quellen zum Cocktailmixer in Deinem Projekt integriert? Du benötigst die darin enthaltenen Klassen um ein Objekt der Klasse CocktailBar zu erzeugen.
+
+Bei Klick auf Cocktailmixer > Neu wird bei mir über den Actionlistener eine Methode aufgerufen, die ein Objekt dieser Klasse erzeugt, falls nicht bereits eines existiert. Hilft Dir das weiter?
+
+Schöne Grüße
+   
+TAGGED_CONTENT:

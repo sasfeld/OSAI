@@ -1,0 +1,9 @@
+ID: 1972
+CREATION_DATETIME: 1370556000000
+MODIFICATION_DATETIME: 1370556000000
+TITLE: Wir haben noch eine ähnliche LaTeX Vorlage und nein, bei der Zwischenpräsentation müsst ihr diese Vor...
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+Wir haben noch eine ähnliche LaTeX Vorlage und nein, bei der Zwischenpräsentation müsst ihr diese Vorlage nicht nehmen, bei der finalen Präsentation dann aber schon.
+TAGGED_CONTENT:

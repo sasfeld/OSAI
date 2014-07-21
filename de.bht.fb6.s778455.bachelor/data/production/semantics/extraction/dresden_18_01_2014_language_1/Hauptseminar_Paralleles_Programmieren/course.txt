@@ -1,0 +1,9 @@
+ID: 110804186
+CREATION_DATETIME: 1381874400000
+MODIFICATION_DATETIME: 1381874400000
+LANG: null
+SHORT_NAME: null
+TITLE: Hauptseminar Paralleles Programmieren
+LANGUAGE: UNKNOWN
+SUMMARY: # Überblick
+URL: http://tu-dresden.de/die_tu_dresden/fakultaeten/fakultaet_informatik/smt/st/studium?leaf=1&lang=de&subject=244

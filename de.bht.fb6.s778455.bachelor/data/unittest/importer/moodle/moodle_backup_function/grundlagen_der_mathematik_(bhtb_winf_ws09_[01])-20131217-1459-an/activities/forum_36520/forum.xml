@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="7692" moduleid="36520" modulename="forum" contextid="54888">
+  <forum id="7692">
+    <type>general</type>
+    <name>Allgemeines Forum</name>
+    <intro>Hier können Sie übergeordnete und organisatorische Fragen diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>2</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1185448275</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="25621">
+        <name>Lerngruppe I</name>
+        <firstpost>68269</firstpost>
+        <userid>3897</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1255789755</timemodified>
+        <usermodified>3897</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="68269">
+            <parent>0</parent>
+            <userid>3897</userid>
+            <created>1255789604</created>
+            <modified>1255789755</modified>
+            <mailed>1</mailed>
+            <subject>Lerngruppe I</subject>
+            <message>&lt;p&gt;Jonas Jünke&lt;/p&gt;
+&lt;p&gt;Mark Erik Jones&lt;/p&gt;
+&lt;p&gt;Andreas Ladendorf&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="25622">
+        <name>Lerngruppe 2</name>
+        <firstpost>68270</firstpost>
+        <userid>3899</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1256681349</timemodified>
+        <usermodified>3899</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="68270">
+            <parent>0</parent>
+            <userid>3899</userid>
+            <created>1256589980</created>
+            <modified>1256590042</modified>
+            <mailed>1</mailed>
+            <subject>Lerngruppe 2</subject>
+            <message>&lt;p&gt;Andrea Mikosek &lt;/p&gt;
+&lt;p&gt;Isabelle Schenk&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="68271">
+            <parent>68270</parent>
+            <userid>3899</userid>
+            <created>1256681349</created>
+            <modified>1256681349</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lerngruppe 2</subject>
+            <message>Susanne Voss</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="25623">
+        <name>Lerngruppe 3</name>
+        <firstpost>68272</firstpost>
+        <userid>8107</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1256668716</timemodified>
+        <usermodified>3757</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="68272">
+            <parent>0</parent>
+            <userid>8107</userid>
+            <created>1256666397</created>
+            <modified>1256666397</modified>
+            <mailed>1</mailed>
+            <subject>Lerngruppe 3</subject>
+            <message>Christian Schmidt,
+Florian Rosenbauer und
+Florian Schwarzer</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="68273">
+            <parent>68272</parent>
+            <userid>3757</userid>
+            <created>1256668716</created>
+            <modified>1256668716</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lerngruppe 3</subject>
+            <message>lach, nö, gefällt mir nicht :-P </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="25624">
+        <name>Lerngruppe 4</name>
+        <firstpost>68274</firstpost>
+        <userid>3885</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1256732328</timemodified>
+        <usermodified>3885</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="68274">
+            <parent>0</parent>
+            <userid>3885</userid>
+            <created>1256678039</created>
+            <modified>1256678039</modified>
+            <mailed>1</mailed>
+            <subject>Lerngruppe 4</subject>
+            <message>Patrick Poglitsch&lt;br /&gt;Heiko Wegehaupt&lt;br /&gt;Roberto Garcia Villarino&lt;br /&gt;können ja max. vier sein, kann sich also gerne noch jemand anschließen&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="68275">
+            <parent>68274</parent>
+            <userid>3881</userid>
+            <created>1256725673</created>
+            <modified>1256725673</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lerngruppe 4</subject>
+            <message>&lt;p&gt;Hallo Roberto,&lt;/p&gt;
+&lt;p&gt;ich würde gern bei Euch mitmachen, wenn Ihr noch einen Platz für mich habt.&lt;/p&gt;
+&lt;p&gt;Gruß&lt;/p&gt;
+&lt;p&gt;Necla Aksoy&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="68276">
+            <parent>68275</parent>
+            <userid>3885</userid>
+            <created>1256732328</created>
+            <modified>1256732328</modified>
+            <mailed>1</mailed>
+            <subject>Re: Lerngruppe 4</subject>
+            <message>Super, dann sind wir mit dir jetzt komplett. </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="25625">
+        <name>Lerngruppe 5</name>
+        <firstpost>68277</firstpost>
+        <userid>3883</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1256841305</timemodified>
+        <usermodified>3883</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="68277">
+            <parent>0</parent>
+            <userid>3883</userid>
+            <created>1256841305</created>
+            <modified>1256841305</modified>
+            <mailed>1</mailed>
+            <subject>Lerngruppe 5</subject>
+            <message>&lt;meta content="text/html; charset=utf-8" http-equiv="Content-Type" /&gt;&lt;meta content="Word.Document" name="ProgId" /&gt;&lt;meta content="Microsoft Word 10" name="Generator" /&gt;&lt;meta content="Microsoft Word 10" name="Originator" /&gt;&lt;link href="file:///C:\Users\shion\AppData\Local\Temp\msohtml1\01\clip_filelist.xml" rel="File-List" /&gt;&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+ &lt;w:WordDocument&gt;
+  &lt;w:View&gt;Normal&lt;/w:View&gt;
+  &lt;w:Zoom&gt;0&lt;/w:Zoom&gt;
+  &lt;w:HyphenationZone&gt;21&lt;/w:HyphenationZone&gt;
+  &lt;w:Compatibility&gt;
+   &lt;w:BreakWrappedTables/&gt;
+   &lt;w:SnapToGridInCell/&gt;
+   &lt;w:ApplyBreakingRules/&gt;
+   &lt;w:WrapTextWithPunct/&gt;
+   &lt;w:UseAsianBreakRules/&gt;
+   &lt;w:UseFELayout/&gt;
+  &lt;/w:Compatibility&gt;
+  &lt;w:BrowserLevel&gt;MicrosoftInternetExplorer4&lt;/w:BrowserLevel&gt;
+ &lt;/w:WordDocument&gt;
+&lt;/xml&gt;&lt;![endif]--&gt;&lt;style&gt; &amp;lt;!-- /* Font Definitions */ @font-face {font-family:SimSun; panose-1:2 1 6 0 3 1 1 1 1 1; mso-font-alt:宋体; mso-font-charset:134; mso-generic-font-family:auto; mso-font-pitch:variable; mso-font-signature:3 680460288 22 0 262145 0;} @font-face {font-family:&amp;quot;\@SimSun&amp;quot;; panose-1:2 1 6 0 3 1 1 1 1 1; mso-font-charset:134; mso-generic-font-family:auto; mso-font-pitch:variable; mso-font-signature:3 680460288 22 0 262145 0;} /* Style Definitions */ p.MsoNormal, li.MsoNormal, div.MsoNormal {mso-style-parent:&amp;quot;&amp;quot;; margin:0cm; margin-bottom:.0001pt; mso-pagination:widow-orphan; font-size:12.0pt; font-family:&amp;quot;Times New Roman&amp;quot;; mso-fareast-font-family:SimSun;} @page Section1 {size:595.3pt 841.9pt; margin:70.85pt 70.85pt 2.0cm 70.85pt; mso-header-margin:35.4pt; mso-footer-margin:35.4pt; mso-paper-source:0;} div.Section1 {page:Section1;} --&amp;gt; &lt;/style&gt;&lt;!--[if gte mso 10]&gt;
+&lt;style&gt;
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Normale Tabelle";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+&lt;/style&gt;
+&lt;![endif]--&gt;&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+ &lt;o:shapedefaults v:ext="edit" spidmax="1026"/&gt;
+&lt;/xml&gt;&lt;![endif]--&gt;&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+ &lt;o:shapelayout v:ext="edit"&gt;
+  &lt;o:idmap v:ext="edit" data="1"/&gt;
+ &lt;/o:shapelayout&gt;&lt;/xml&gt;&lt;![endif]--&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-family: arial;"&gt;Björn Kießling&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-family: arial;"&gt;Martin Brieger&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-family: arial;"&gt;Sven Broeske&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="72174">
+        <userid>3757</userid>
+      </subscription>
+      <subscription id="72175">
+        <userid>2647</userid>
+      </subscription>
+      <subscription id="72176">
+        <userid>3869</userid>
+      </subscription>
+      <subscription id="72177">
+        <userid>3871</userid>
+      </subscription>
+      <subscription id="72178">
+        <userid>3885</userid>
+      </subscription>
+      <subscription id="72179">
+        <userid>3863</userid>
+      </subscription>
+      <subscription id="72180">
+        <userid>3889</userid>
+      </subscription>
+      <subscription id="72181">
+        <userid>3883</userid>
+      </subscription>
+      <subscription id="72182">
+        <userid>3881</userid>
+      </subscription>
+      <subscription id="72183">
+        <userid>3893</userid>
+      </subscription>
+      <subscription id="72184">
+        <userid>3887</userid>
+      </subscription>
+      <subscription id="72185">
+        <userid>3895</userid>
+      </subscription>
+      <subscription id="72186">
+        <userid>3899</userid>
+      </subscription>
+      <subscription id="72187">
+        <userid>3897</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

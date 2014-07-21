@@ -1,0 +1,13 @@
+ID: 2834
+CREATION_DATETIME: 1384297200000
+MODIFICATION_DATETIME: 1385334000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+ich ein Problem dabei den Videoshop zu exportieren. Ich habe ihn wie gefordert erweitert. Das hab ich auf meinem Desktop Rechner erledigt. Nun will ich ihn aber auf meinen Laptop kopieren bzw. per SVN hoch laden, um ihn zu präsentieren. 
+Ich hab alle Projektdaten (Workspace und die heruntergeladenen Videoshopdaten) in ein Verzeichnis gepackt und kopiert. Auf meinen Latop kommt nur bei auswählen des Projekts in Eclipse der Fehler "The project
+description file is missing". Es wurde auf einen Ubuntu 12. 10 x64 programmiert und ich habe es einmal auf Ubuntu 12. 10 x64 und einmal auf <REMOVED_PERSON_ENTITY> 7 SP1 x64 probiert zu kopieren.
+Ich hoffe, es kann mir jemand helfen.
+TAGGED_CONTENT:

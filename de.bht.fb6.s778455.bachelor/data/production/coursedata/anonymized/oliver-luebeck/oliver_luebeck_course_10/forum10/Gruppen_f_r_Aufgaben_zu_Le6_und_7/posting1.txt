@@ -1,0 +1,15 @@
+ID: 40
+CREATION_DATETIME: 1194974220000
+MODIFICATION_DATETIME: 1194974220000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Also, wie viele bestimmt schon gelesen haben sollen wir die Einsendeaufgaben zu lernheiten 6 und 7 in zweiergruppen machen.
+
+Also wie teilen wir uns auf?
+
+Bzw. wer geht mit wem in eine gruppe?
+   
+TAGGED_CONTENT:

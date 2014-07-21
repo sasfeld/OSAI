@@ -1,0 +1,9 @@
+ID: 63
+CREATION_DATETIME: 1342476000000
+MODIFICATION_DATETIME: 1342476000000
+TITLE: # ich finde wir sollt
+PARENT_POSTING_ID: 47
+POSTING_TYPE: comment
+CONTENT:
+# ich finde wir sollten markdown nicht nur in Fragen und Antwort zulassen
+TAGGED_CONTENT:

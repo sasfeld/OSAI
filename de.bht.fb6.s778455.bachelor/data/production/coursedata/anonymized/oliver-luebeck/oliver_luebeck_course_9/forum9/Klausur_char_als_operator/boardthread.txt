@@ -1,0 +1,4 @@
+ID: 15
+TITLE: Klausur char als operator
+LANGUAGE: GERMAN
+FIRST_POSTING_ID: 64

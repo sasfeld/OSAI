@@ -1,0 +1,16 @@
+ID: 97751
+CREATION_DATETIME: 1288722531
+MODIFICATION_DATETIME: 1288722531
+TITLE: Re: Einsendeaufgaben in LON-CAPA
+POS_TAG: value:Chats;weight:0.0;uri:;postag:NN
+POS_TAG: value:Stelle;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Raum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zwischenstand;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgaben;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97744
+CONTENT:
+Kurze Frage in den Raum... Wie weit müssten wir, laut bisheriger Chats, im LON-CAPA Aufgaben lösen können bzw. an welcher Stelle sind wir in etwa? Möchte gern ein Zwischenstand haben/wissen... muss auch gleich dazu sagen, das mir der <REMOVED_PERSON_ENTITY> bisher extrem schwer fällt. 
+TAGGED_CONTENT:
+Kurze_ADJA Frage_NN in_APPR den_ART Raum_NN ..._$( Wie_PWAV weit_ADJD müssten_VVFIN wir_PPER ,_$, laut_APPR bisheriger_ADJA Chats_NN ,_$, im_APPRART LON-CAPA_ADJA Aufgaben_NN lösen_VVINF können_VMFIN bzw_NE ._$. an_APPR welcher_PRELS Stelle_NN sind_VAFIN wir_PPER in_APPR etwa_ADV ?_$. Möchte_VMFIN gern_ADV ein_ART Zwischenstand_NN haben\/wissen_VVIZU ..._$( muss_VMFIN auch_ADV gleich_ADV dazu_PROAV sagen_VVINF ,_$, das_PRELS mir_PPER der_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD bisher_ADV extrem_ADJD schwer_ADJD fällt_VVFIN ._$. 

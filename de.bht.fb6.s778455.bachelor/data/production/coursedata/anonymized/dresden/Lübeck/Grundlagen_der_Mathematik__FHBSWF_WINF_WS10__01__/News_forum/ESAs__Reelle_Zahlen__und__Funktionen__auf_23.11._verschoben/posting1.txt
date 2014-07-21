@@ -1,0 +1,10 @@
+ID: 97737
+CREATION_DATETIME: 1289823855
+MODIFICATION_DATETIME: 1289823855
+TITLE: ESAs "Reelle Zahlen" und "Funktionen" auf 23.11. verschoben
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Studierende,
+fuer o. g. ESAs gebe ich eine Woche extra, damit wir die gesamte LO 02 vorher fertig bekommen.
+<REMOVED_PERSON_ENTITY> Prof. <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 493
+CREATION_DATETIME: 1351029600000
+MODIFICATION_DATETIME: 1351029600000
+TITLE: Usually, applications
+PARENT_POSTING_ID: 490
+POSTING_TYPE: comment
+CONTENT:
+Usually, applications that do not trust each other have no access to each other's memory. So I would say: No.
+TAGGED_CONTENT:

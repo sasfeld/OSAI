@@ -1,0 +1,10 @@
+ID: 2323
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Sollte dies der Fall sein, wären wir schon vorher auf diesem Stand gewesen, den ich mit Durchschnitte...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2321
+POSTING_TYPE: comment
+CONTENT:
+Sollte dies der Fall sein, wären wir schon vorher auf diesem Stand gewesen, den ich mit Durchschnitten geschrieben hatte. Des Weiteren wäre die Arbeit <NAME_CORPUS_REPLACEMENT> Korrelationsanalyse und KernelMetrics umsonst gewesen, also zwei <REMOVED_PERSON_ENTITY> <NAME_CORPUS_REPLACEMENT> zwei Personen. Ich denke auch wir sollten dies gemeinsam überlegen und auf alle Fälle morgen zusammen besprechen. Andererseits hätten solche Überlegungen viel früher kommen müssen und nicht erst kurz vor Schluss.
+TAGGED_CONTENT:

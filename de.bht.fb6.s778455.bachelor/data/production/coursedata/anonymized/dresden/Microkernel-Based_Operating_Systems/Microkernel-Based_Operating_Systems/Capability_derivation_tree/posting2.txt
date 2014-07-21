@@ -1,0 +1,9 @@
+ID: 1909
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: When you revoke an untyped root capability, ther kernel automatically destroys all capabilities deriv...
+PARENT_POSTING_ID: 1907
+POSTING_TYPE: answer
+CONTENT:
+When you revoke an untyped root capability, ther kernel automatically destroys all capabilities derived from it. In this sense, th CDT is serves a similar purpose as the mapping database: allow recursive revocation. But other than the typical L4 mapping database, the CDT lives in the capability table and thus in user-provided memory.
+TAGGED_CONTENT:

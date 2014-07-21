@@ -1,0 +1,12 @@
+ID: 2463
+CREATION_DATETIME: 1374703200000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: Digitalisierung bedeutet erst einmal Abtasten. f_A > 2 * f_G. Wenn man die Kanäle _ohne_ Sicherheitsa...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2460
+POSTING_TYPE: answer
+CONTENT:
+Digitalisierung bedeutet erst einmal Abtasten. f_A > 2 * f_G. Wenn man die Kanäle _ohne_ Sicherheitsabstand betrachtet, ergibt sich somit f_A > 2 * 5 MHz. Man muss die minimale ganzzahlige Frequenz nehmen... <NAME_CORPUS_REPLACEMENT> 10 MHz nicht erlaubt ist (Größer-als-Zeichen („>“)!), nimmt man also 11 Mhz. (Für eine Betrachtung _mit_ den Sicherheitsabständen (warum auch immer?) ergeben sich 12 MHz)
+
+Damit mal bitte weiter rechnen.
+TAGGED_CONTENT:

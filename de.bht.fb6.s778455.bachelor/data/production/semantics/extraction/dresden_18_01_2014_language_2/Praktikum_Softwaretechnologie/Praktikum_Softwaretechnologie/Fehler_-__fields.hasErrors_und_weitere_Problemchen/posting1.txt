@@ -1,0 +1,26 @@
+ID: 2768
+CREATION_DATETIME: 1384038000000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+Ich erstelle gerade für meinen Prototypen ein Teilsystem für ein Theater. Dort kann man Requisiten über eine Form, ähnlich wie die Registration Form aus dem Videoshop, ins System einfügt. <NAME_CORPUS_REPLACEMENT> habe ich natürlich auch eine Klasse Requisite erstellt, die ich im Entferntesten Sinne <NAME_CORPUS_REPLACEMENT> Disc. java abgeleitet habe. Die spielt hier aber nur eine nebensächliche <REMOVED_PERSON_ENTITY>.
+
+Zurzeit habe ich leider ein Problem mit der Form. Immer wenn ich die html <REMOVED_PERSON_ENTITY>, auf der die Form ist, aufrufen möchte, kommt die Fehlermeldung:
+
+```
+
+Request processing failed; nested exception is org. thymeleaf. exceptions. TemplateProcessingException: Exception evaluating SpringEL expression: "#fields. hasErrors('*')" (manage:28)
+
+```
+
+Ich habe schon viel hin und her probiert aber nichts konnte das Problem lösen (bis auf auskommentieren der Form). Daher wollte ich mir hier mal einen Rat einholen.
+
+Damit ihr einen Einblick in meine bisherige Arbeit habt, habe ich hier mal mein Projekt als Dropbox-Ordner freigegeben (wenn das OK ist). Die Form befindet sich in der „manage. html“. Die ganzen Catalog Geschichten im Projekt sind noch nicht wirklich ausgereift, <NAME_CORPUS_REPLACEMENT> ich sie ja aufgrund der nichtfunktionierenden Form nicht testen konnte, also nicht wundern ;)
+
+-> https://www. dropbox. com/sh/8326zt5k8ceup05/WLYJxUgdnO
+TAGGED_CONTENT:

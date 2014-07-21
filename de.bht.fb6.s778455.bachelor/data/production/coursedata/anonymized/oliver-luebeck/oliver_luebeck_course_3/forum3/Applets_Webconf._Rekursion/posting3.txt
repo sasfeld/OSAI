@@ -1,0 +1,17 @@
+ID: 21
+CREATION_DATETIME: 1201077420000
+MODIFICATION_DATETIME: 1201077420000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 20
+CONTENT:
+
+       
+       Hallo , hallo , hallo alle,
+
+Gute Frage und gute Antwort!Noch eine Ergänzung: die Methoden init und paint sind beide Methoden, die man ueberschreiben kann (siehe java Dokumentation der Klasse Applet und auch LE 5 Programmieren 1). Die Methode init ist in der Klasse Applet deklariert. Wie Sie schreiben Frau Blum: Man kann sie als eine Art Ersatz fuer einen Konstruktor sehen. Sie wird nur ein mal aufgerufen, wenn das Applet geladen wird. In dieser Methode sollte man alles initialisieren, was fuer das Funktionieren des Applets noetig ist. Die Methode paint dagegen ist in der Container Klasse deklariert. Sie wird vom Betriebsystem aufgerufen, jedesmal das die graphische Komponente neu am Schirm gezeichnet sein soll.
+
+Viele Gruesse
+
+    
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 1600
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Wieso musst du noch eine Kopie machen? ```output``` wird doch vermutlich nichts an dem String ändern,...
+PARENT_POSTING_ID: 1597
+POSTING_TYPE: comment
+CONTENT:
+Wieso musst du noch eine Kopie machen? ```output``` wird doch vermutlich nichts an dem String ändern, sondern ihn nur rausschreiben. Daher sollte es einen ```const char*``` nehmen, so dass du einfach ```output(str_output. c_str())``` machen kannst.
+TAGGED_CONTENT:

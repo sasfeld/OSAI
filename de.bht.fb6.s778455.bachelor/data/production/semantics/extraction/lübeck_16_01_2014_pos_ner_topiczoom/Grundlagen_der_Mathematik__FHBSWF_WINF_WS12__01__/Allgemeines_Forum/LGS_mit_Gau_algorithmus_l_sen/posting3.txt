@@ -1,0 +1,29 @@
+ID: 190701
+CREATION_DATETIME: 1357391080
+MODIFICATION_DATETIME: 1357391080
+TITLE: Re: LGS mit Gaußalgorithmus lösen
+TOPIC_ZOOM_TAG: value:Vektoren;weight:2.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Vorgehen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Script;weight:0.0;uri:;postag:NN
+POS_TAG: value:Pascal;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ergebnis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Koeffizientenmatrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 190381
+CONTENT:
+vielen Dank habe ich nun verstanden! :-)
+ 
+Kannst Du mir eventuell auch die Lösung der Aufgabe 52 im Script erklären. Ich komme dort auf folgendes Ergebnis:x1 = y-xx2 = -y+2xx3 = y+x+z/2
+Ich frage mich hier aber, ob ich richtig an die Aufgabe rangegangen bin. Als Koeffizientenmatrix habe ich die Vektoren gesetzt und als rechte <REMOVED_PERSON_ENTITY> habe ich den Vektor (x, y, z) genommen. Ich bezeifel aber, dass das Vorgehen korrekt ist.
+Schon einmal besten Dank und GrußPascal 
+TAGGED_CONTENT:
+vielen_PIDAT Dank_NN habe_VAFIN ich_PPER nun_ADV verstanden_VVPP !_$. :--RRB-_NE Kannst_NE Du_PPER mir_PPER eventuell_ADJD auch_ADV die_ART Lösung_NN der_ART Aufgabe_NN 52_CARD im_APPRART Script_NN erklären_VVINF ._$. Ich_PPER komme_VVFIN dort_ADV auf_APPR folgendes_ADJA Ergebnis_NN :_$. x1_XY =_XY y-xx2_XY =_XY -_$( y_NE +2_CARD xx3_XY =_XY y_NE +_XY x_XY +_XY z\/2_CARD Ich_PPER frage_VVFIN mich_PRF hier_ADV aber_ADV ,_$, ob_KOUS ich_PPER richtig_ADJD an_APPR die_ART Aufgabe_NN rangegangen_VVPP bin_VAFIN ._$. Als_APPR Koeffizientenmatrix_NN habe_VAFIN ich_PPER die_ART Vektoren_NN gesetzt_VVPP und_KON als_APPR rechte_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_CARD habe_VAFIN ich_PPER den_ART Vektor_NN -LRB-_TRUNC x_XY ,_$, y_NE ,_$, z_KON -RRB-_TRUNC genommen_VVPP ._$. Ich_PPER bezeifel_VVFIN aber_ADV ,_$, dass_KOUS das_ART Vorgehen_NN korrekt_ADJD ist_VAFIN ._$. Schon_ADV einmal_ADV besten_ADJA Dank_NN und_KON GrußPascal_NN 

@@ -1,0 +1,8 @@
+ID: 16599
+CREATION_DATETIME: 1230828552
+MODIFICATION_DATETIME: 1230828552
+TITLE: ESA
+PARENT_POSTING_ID: 0
+CONTENT:
+frohes neues alle zusammen. hat irgendwer eine idee, wie die aufgabe b funktioniert? wir kommen in unserer gruppe überhaupt nicht weiter. hat die aufgabe vll was mit dieser addition u. multiplikation der zwei- u. dreizeiligen matrizen, die wir in der vorlesung gemacht haben, zu tun? 
+TAGGED_CONTENT:

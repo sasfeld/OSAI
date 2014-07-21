@@ -1,0 +1,14 @@
+ID: 81
+CREATION_DATETIME: 1183746720000
+MODIFICATION_DATETIME: 1183746720000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 80
+CONTENT:
+   
+Liebe , liebe Studierende,
+
+ich werde nicht kommen können, wünsche Ihnen aber viel Spaß und einen entspannten Abend nach dem Stress der Klausuren!
+Viele Grüße
+    
+TAGGED_CONTENT:

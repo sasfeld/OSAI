@@ -1,0 +1,13 @@
+ID: 168119
+CREATION_DATETIME: 1349690741
+MODIFICATION_DATETIME: 1349690741
+TITLE: Klick Interaktion
+POS_TAG: value:Leute;weight:0.0;uri:;postag:NN
+POS_TAG: value:Lerneinheiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Interaktionen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Leute,
+gehen bei euch die Klick-Interaktionen in den Lerneinheiten auch nicht oder ist das nur bei mir so?
+TAGGED_CONTENT:
+Hallo_ITJ Leute_NN ,_$, gehen_VVFIN bei_APPR euch_PRF die_ART Klick-Interaktionen_NN in_APPR den_ART Lerneinheiten_NN auch_ADV nicht_PTKNEG oder_KON ist_VAFIN das_PDS nur_ADV bei_APPR mir_PPER so_ADV ?_$. 

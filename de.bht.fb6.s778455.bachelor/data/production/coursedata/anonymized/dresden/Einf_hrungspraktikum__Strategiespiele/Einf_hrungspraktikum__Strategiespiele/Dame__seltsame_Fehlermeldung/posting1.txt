@@ -1,0 +1,48 @@
+ID: 1357
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1385593200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+2 mal in folge
+```ruby
+[mcp] valid jump 10x19
+[mcp] turn 7 > W:bbbbbbbb--b-b-----bwwww-ww-wwwww
+*** glibc detected *** my_player: double free or corruption (fasttop): 0x085a8008 ***
+======= Backtrace: =========
+/lib/i386-linux-gnu/libc. so. 6(+0x75ee2)[0x400c6ee2]
+my_player[0x804897c]
+my_player[0x8048624]
+/lib/i386-linux-gnu/libc. so. 6(__libc_start_main+0xf3)[0x4006a4d3]
+my_player[0x80486dd]
+======= Memory map: ========
+08048000-0804a000 r-xp 00000000 08:01 262434     /home/gecko/checkers/my_player
+0804a000-0804b000 r--p 00001000 08:01 262434     /home/gecko/checkers/my_player
+0804b000-0804c000 rw-p 00002000 08:01 262434     /home/gecko/checkers/my_player
+085a8000-085c9000 rw-p 00000000 00:00 0          [heap]
+40000000-40020000 r-xp 00000000 08:01 1056281    /lib/i386-linux-gnu/ld-2. 15. <PERSONAL_GREETING_REMOVEMENT>
+40020000-40021000 r--p 0001f000 08:01 1056281    /lib/i386-linux-gnu/ld-2. 15. <PERSONAL_GREETING_REMOVEMENT>
+40021000-40022000 rw-p 00020000 08:01 1056281    /lib/i386-linux-gnu/ld-2. 15. <PERSONAL_GREETING_REMOVEMENT>
+40022000-40023000 r-xp 00000000 00:00 0          [vdso]
+40023000-40027000 rw-p 00000000 00:00 0 
+40036000-4004d000 r-xp 00000000 08:01 1056278    /lib/i386-linux-gnu/libpthread-2. 15. <PERSONAL_GREETING_REMOVEMENT>
+4004d000-4004e000 r--p 00016000 08:01 1056278    /lib/i386-linux-gnu/libpthread-2. 15. <PERSONAL_GREETING_REMOVEMENT>
+4004e000-4004f000 rw-p 00017000 08:01 1056278    /lib/i386-linux-gnu/libpthread-2. 15. <PERSONAL_GREETING_REMOVEMENT>
+4004f000-40051000 rw-p 00000000 00:00 0 
+40051000-401f4000 r-xp 00000000 08:01 1056269    /lib/i386-linux-gnu/libc-2. 15. <PERSONAL_GREETING_REMOVEMENT>
+401f4000-401f5000 ---p 001a3000 08:01 1056269    /lib/i386-linux-gnu/libc-2. 15. <PERSONAL_GREETING_REMOVEMENT>
+401f5000-401f7000 r--p 001a3000 08:01 1056269    /lib/i386-linux-gnu/libc-2. 15. <PERSONAL_GREETING_REMOVEMENT>
+401f7000-401f8000 rw-p 001a5000 08:01 1056269    /lib/i386-linux-gnu/libc-2. 15. <PERSONAL_GREETING_REMOVEMENT>
+401f8000-401fd000 rw-p 00000000 00:00 0 
+4020e000-4022a000 r-xp 00000000 08:01 1049524    /lib/i386-linux-gnu/libgcc_s. so. 1
+4022a000-4022b000 r--p 0001b000 08:01 1049524    /lib/i386-linux-gnu/libgcc_s. so. 1
+4022b000-4022c000 rw-p 0001c000 08:01 1049524    /lib/i386-linux-gnu/libgcc_s. so. 1
+bfa8f000-bfab0000 rw-p 00000000 00:00 0          [stack]
+[mcp] turn 7 < ''
+[mcp] no move ''
+[mcp] BLACK wins.
+End of <NAME_CORPUS_REPLACEMENT>.
+gecko@ubuntu:~/checkers$ 
+```
+TAGGED_CONTENT:

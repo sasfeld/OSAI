@@ -1,0 +1,10 @@
+ID: 2573
+CREATION_DATETIME: 1381874400000
+MODIFICATION_DATETIME: 1381874400000
+TITLE: Ja, hätte ich wahrscheinlich verständlicher ausdrücken sollen, ich dachte nur, dass es offensichtlich...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2569
+POSTING_TYPE: comment
+CONTENT:
+Ja, hätte ich wahrscheinlich verständlicher ausdrücken sollen, ich dachte nur, dass es offensichtlich ist was ich meine, <NAME_CORPUS_REPLACEMENT> ich im Auditorium Kurs zum SWT Praktikum gefragt habe.
+TAGGED_CONTENT:

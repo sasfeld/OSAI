@@ -1,0 +1,12 @@
+ID: 166463
+CREATION_DATETIME: 1349264113
+MODIFICATION_DATETIME: 1349264113
+TITLE: Heutiges Online-Meeting
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+da wir am 03. 10. 2012 zur selben Zeit auch ein Online-Meeting für Programmierung haben, würde ich doch einen anderen Termin vorschlagen.
+ 
+Grüße
+Mark
+TAGGED_CONTENT:

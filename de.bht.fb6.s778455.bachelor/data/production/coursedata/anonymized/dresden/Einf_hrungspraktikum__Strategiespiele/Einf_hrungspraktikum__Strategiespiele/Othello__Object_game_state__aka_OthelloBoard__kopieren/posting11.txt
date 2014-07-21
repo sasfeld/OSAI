@@ -1,0 +1,9 @@
+ID: 1498
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Auch diese Funktion musst Du selbst implementieren. (Bzw. die Implementierung aus othello.cc klauen. ...
+PARENT_POSTING_ID: 1481
+POSTING_TYPE: comment
+CONTENT:
+Auch diese Funktion musst Du selbst implementieren. (Bzw. die Implementierung aus othello. <LEARNED_PERSON_NAME_REPLACEMENT> klauen. Aber die ruft irgendwann weiter unten in der Hierarchie die Funktion `validate()` auf - und die darfst Du nicht übernhmen.)
+TAGGED_CONTENT:

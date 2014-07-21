@@ -1,0 +1,36 @@
+ID: 789
+CREATION_DATETIME: 1353020400000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+When I commit my codes, the result shows:
+
+```ruby
+
+96 out of 96 expected tests run (100. 00%)
+
+15 out of 96 tests return unexpected result (15. 62%)
+
+95 expected tests are untested (11945302443632432200549030327740015590695911560848032952424821457274910021501684307757466079648660062208. 00%)
+
+*** Output from our 'stats' library ***
+
+failed: 15
+
+tested: 96
+
+expected: 96
+
+untested: 95
+
+```
+
+I cannot understand the result. First it shows "96 out of 96 expected tests run". However, in the third <NAME_CORPUS_REPLACEMENT>, it shows "95 expected tests are untested".
+
+Are there 96 + 95 = 191 tests altogether? But I <NAME_CORPUS_REPLACEMENT> only find 96 tests.(12 file test cases combined with 8 string test cases).
+
+Who understands it and <NAME_CORPUS_REPLACEMENT> explain for me?
+TAGGED_CONTENT:

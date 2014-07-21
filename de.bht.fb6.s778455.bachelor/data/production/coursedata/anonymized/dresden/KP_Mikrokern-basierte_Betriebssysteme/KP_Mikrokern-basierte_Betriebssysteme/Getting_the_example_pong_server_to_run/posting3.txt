@@ -1,0 +1,16 @@
+ID: 1130
+CREATION_DATETIME: 1361142000000
+MODIFICATION_DATETIME: 1361142000000
+TITLE: Okay, I changed the name of the *vbus* cap to *fbdrv* and the framebuffer server starts fine. (Is the...
+PARENT_POSTING_ID: 1116
+POSTING_TYPE: comment
+CONTENT:
+Okay, I changed the name of the *vbus* cap to *fbdrv* and the framebuffer server starts fine. (Is there someplace to look theese magic names up?)   
+I run into a fault when starting the pong server though:
+****
+The field boundary gets drawn but then nothing happens and the output is:
+server  | PS Hello here am I  
+server  | KIP @ 0xaffff000: 4be6344c  
+server  | L4Re[rm]: unhandled write page fault @7000 pc=1029ad0  
+server  | L4Re: unhandled exception: pc=0x1029ad0  
+TAGGED_CONTENT:

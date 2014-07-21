@@ -1,0 +1,16 @@
+ID: 2788
+CREATION_DATETIME: 1384124400000
+MODIFICATION_DATETIME: 1385334000000
+TITLE: ```
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2784
+POSTING_TYPE: answer
+CONTENT:
+```
+
+*** glibc detected *** ./t3: corrupted double-linked list: 0x09bfe010 ***
+
+```
+
+says that you are corrupting memory. Are your buffers being correctly allocated? Do you have out-of-bound accesses? Check your buffer boundaries. Check whether it has been allocated when it is accessed and what indexes are being accessed. 
+TAGGED_CONTENT:

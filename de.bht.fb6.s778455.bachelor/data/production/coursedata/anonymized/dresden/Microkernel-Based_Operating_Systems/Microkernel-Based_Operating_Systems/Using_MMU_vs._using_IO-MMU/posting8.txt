@@ -1,0 +1,9 @@
+ID: 1644
+CREATION_DATETIME: 1364252400000
+MODIFICATION_DATETIME: 1364252400000
+TITLE: It doesn't matter _where_ memory is. It matters _who_ issues the read/write operation. If the CPU acc...
+PARENT_POSTING_ID: 1636
+POSTING_TYPE: comment
+CONTENT:
+It doesn't matter _where_ memory is. It matters _who_ issues the read/write operation. If the CPU accesses memory the MMU is used. If a device accesses memory, the IOMMU is used. Think of the IOMMU being implemented between PCI bus and memory controller translating every transaction coming from the PCI bus (this is a bit simplified) and the MMU sitting between CPU and memory controller.
+TAGGED_CONTENT:

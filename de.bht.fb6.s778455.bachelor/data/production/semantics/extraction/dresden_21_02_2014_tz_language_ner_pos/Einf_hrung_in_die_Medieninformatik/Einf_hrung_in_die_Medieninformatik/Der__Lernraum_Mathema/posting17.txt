@@ -1,0 +1,18 @@
+ID: 253
+CREATION_DATETIME: 1349820000000
+MODIFICATION_DATETIME: 1349820000000
+TITLE: Der [Lernraum Mathema
+LANGUAGE: GERMAN
+POS_TAG: value:mathematik;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wochen;weight:0.0;uri:;postag:NN
+POS_TAG: value:naturwissenschaften;weight:0.0;uri:;postag:NN
+POS_TAG: value:Lernraum;weight:0.0;uri:;postag:NN
+POS_TAG: value:ren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mathematik;weight:0.0;uri:;postag:NN
+POS_TAG: value:lernraum;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 192
+POSTING_TYPE: comment
+CONTENT:
+Der [Lernraum Mathematik](http://tu-dresden. de/die_tu_dresden/fakultaeten/fakultaet_mathematik_und_naturwissenschaften/fachrichtung_mathematik/veranstaltungen/lernraum) öffnet erst in knapp 2 Wochen seine Türen, vorher gibt es ja auch noch nicht so viel zu besprechen.
+TAGGED_CONTENT:
+Der_ART -LSB-_TRUNC Lernraum_NN Mathematik_NN -RSB-_TRUNC -LRB-_TRUNC http:\/\/tu-dresden_VVINF ._$. de\/die_PDS __VVFIN tu_dresden_ADJA \/_NN fakultaeten\/fakultaet_VVFIN __CARD mathematik_und_naturwissenschaften_NN \/_CARD fachrichtung_mathematik_NN \/_CARD veranstaltungen\/lernraum_NN -RRB-_TRUNC öffnet_VVFIN erst_ADV in_APPR knapp_ADJD 2_CARD Wochen_NN seine_PPOSAT Türen_NN ,_$, vorher_ADV gibt_VVFIN es_PPER ja_ADV auch_ADV noch_ADV nicht_PTKNEG so_ADV viel_ADV zu_PTKA besprechen_VVFIN ._$. 

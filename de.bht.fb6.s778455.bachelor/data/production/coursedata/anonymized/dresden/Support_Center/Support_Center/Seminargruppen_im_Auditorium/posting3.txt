@@ -1,0 +1,9 @@
+ID: 375
+CREATION_DATETIME: 1350424800000
+MODIFICATION_DATETIME: 1350424800000
+TITLE: Habe dich ausversehen
+PARENT_POSTING_ID: 372
+POSTING_TYPE: comment
+CONTENT:
+Habe dich ausversehen in INF-B01 und 02 eingetragen statt MINF. Habe ich nachgeholt.
+TAGGED_CONTENT:

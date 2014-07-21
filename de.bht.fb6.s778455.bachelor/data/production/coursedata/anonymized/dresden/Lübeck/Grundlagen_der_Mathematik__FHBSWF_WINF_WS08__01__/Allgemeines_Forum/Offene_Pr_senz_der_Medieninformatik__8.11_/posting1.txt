@@ -1,0 +1,8 @@
+ID: 16595
+CREATION_DATETIME: 1226040372
+MODIFICATION_DATETIME: 1226040372
+TITLE: Offene Präsenz der Medieninformatik (8.11)
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>, ist denn schon bekannt in welchem <REMOVED_PERSON_ENTITY> / Gebäude die Präsenz morgen stattfinden wird? Konnte bisher nirgends eine Info dazu finden. Viele Grüße, <REMOVED_PERSON_ENTITY>  
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 1183
+CREATION_DATETIME: 1362438000000
+MODIFICATION_DATETIME: 1362438000000
+TITLE: ok, das war also nur zum verständnis des exampleplayers, aber ist irrelevant für die KI, oder?
+PARENT_POSTING_ID: 1175
+POSTING_TYPE: comment
+CONTENT:
+ok, das war also nur zum verständnis des exampleplayers, aber ist irrelevant für die KI, oder?
+TAGGED_CONTENT:

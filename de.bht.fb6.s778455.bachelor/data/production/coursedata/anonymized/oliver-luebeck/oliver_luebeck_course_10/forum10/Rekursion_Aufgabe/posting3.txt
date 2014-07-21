@@ -1,0 +1,11 @@
+ID: 30
+CREATION_DATETIME: 1195139880000
+MODIFICATION_DATETIME: 1195139880000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 29
+CONTENT:
+
+Ups, da habe ich gar nicht hingeschaut, das werde ich mir mal anschauen, vielen Dank auf jeden Fall schon mal für den Hinweis :D
+    
+TAGGED_CONTENT:

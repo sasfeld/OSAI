@@ -1,0 +1,9 @@
+ID: 2196
+CREATION_DATETIME: 1373407200000
+MODIFICATION_DATETIME: 1373407200000
+TITLE: OK, dann schreibt ich noch die Funktion, die linear-abhaengige Zeilen und Spalten rausfinden wird.
+PARENT_POSTING_ID: 2193
+POSTING_TYPE: comment
+CONTENT:
+OK, dann schreibt ich noch die Funktion, die linear-abhaengige Zeilen und <REMOVED_PERSON_ENTITY> rausfinden wird.
+TAGGED_CONTENT:

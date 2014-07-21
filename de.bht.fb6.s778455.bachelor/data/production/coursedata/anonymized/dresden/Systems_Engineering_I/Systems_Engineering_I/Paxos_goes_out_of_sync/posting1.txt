@@ -1,0 +1,14 @@
+ID: 2483
+CREATION_DATETIME: 1375135200000
+MODIFICATION_DATETIME: 1383951600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hello,
+if we assume that Paxos allows arbitrary long delays in message delivery than I see a scenario when minority of acceptors <NAME_CORPUS_REPLACEMENT> accept a value that differs from one chosen by majority. I provide diagram that shows such scenario.
+![http://imageshack.us/photo/my-images/13/qnkk. png/](http://imageshack.us/download/13/qnkk. png "Sequential diagram")
+Although acceptors saved different values and one acceptor from majority set failed (red cross), learner still is able to find out the value that was actually accepted by taking value with maximal sequential number.
+My question is: Is scenario that I have shown normal and is state correct? Or do I misunderstand algorithm and this state is impossible to reach?
+<REMOVED_PERSON_ENTITY> horizontal lines mean that message was delivered with great delay.
+TAGGED_CONTENT:

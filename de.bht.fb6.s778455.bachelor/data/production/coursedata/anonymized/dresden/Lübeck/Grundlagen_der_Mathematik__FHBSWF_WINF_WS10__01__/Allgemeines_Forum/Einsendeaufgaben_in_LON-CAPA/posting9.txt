@@ -1,0 +1,8 @@
+ID: 97752
+CREATION_DATETIME: 1288800624
+MODIFICATION_DATETIME: 1288800624
+TITLE: Re: Einsendeaufgaben in LON-CAPA
+PARENT_POSTING_ID: 97751
+CONTENT:
+Wir sind etwa in Kapitel 1 in LON-CAPA. Im Skript ist das LO02 Seite 21. Evtl. muessen wir fuer die Kapitel 2 und 4 die Termine nach hinten verschieben, wenn wir mehr Zeit brauchen.
+TAGGED_CONTENT:

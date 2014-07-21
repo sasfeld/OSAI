@@ -1,0 +1,9 @@
+ID: 1806
+CREATION_DATETIME: 1368482400000
+MODIFICATION_DATETIME: 1368655200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Der <REMOVED_PERSON_ENTITY> zur Formatvorlage für Word funktioniert bei mir nicht. Könnten Sie den korrigieren?
+TAGGED_CONTENT:

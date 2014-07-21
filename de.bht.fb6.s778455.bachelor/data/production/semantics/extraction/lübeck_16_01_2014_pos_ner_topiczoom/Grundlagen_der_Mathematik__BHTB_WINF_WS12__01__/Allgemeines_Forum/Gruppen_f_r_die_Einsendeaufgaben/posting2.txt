@@ -1,0 +1,22 @@
+ID: 171909
+CREATION_DATETIME: 1350542521
+MODIFICATION_DATETIME: 1350542521
+TITLE: Re: Gruppen für die Einsendeaufgaben
+NER_TAG: value:VG;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:VG;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Euch;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einsendeaufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:VG;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 171815
+CONTENT:
+ 
+ 
+ 
+Hallo zusammen,
+ich suche noch eine Gruppe für die Einsendeaufgabe.
+Kann ich bei Euch mitmachen <REMOVED_PERSON_ENTITY>
+ 
+VG <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, ich_PPER suche_VVFIN noch_ADV eine_ART Gruppe_NN für_APPR die_ART Einsendeaufgabe_NN ._$. Kann_VMFIN ich_PPER bei_APPR Euch_NN mitmachen_VVINF <_VAFIN REMOVED_PERSON_ENTITY_NE >_CARD VG_NN <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

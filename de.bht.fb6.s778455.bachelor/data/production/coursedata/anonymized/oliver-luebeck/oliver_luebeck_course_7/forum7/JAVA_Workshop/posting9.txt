@@ -1,0 +1,13 @@
+ID: 65
+CREATION_DATETIME: 1305191580000
+MODIFICATION_DATETIME: 1305191580000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 64
+CONTENT:
+  
+Ja, falls sich sich jemand mit Eclipse gut auskennt würde mich das sehr interessieren.
+
+Gruß 
+    
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 187531
+CREATION_DATETIME: 1355563424
+MODIFICATION_DATETIME: 1355563424
+TITLE: Re: 2. Gruppenaufgabe
+PARENT_POSTING_ID: 186955
+CONTENT:
+Hi,
+also ich versteh es so$$(  eg (L \wedge M) \rightarrow (  eg V))$$ , was meint Ihr.
+TAGGED_CONTENT:

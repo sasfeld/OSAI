@@ -1,0 +1,17 @@
+ID: 2036
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: sehr schön, dann guck ich mir das später nochmal an und wir quatschen morgen nochmal kurz drüber.
+LANGUAGE: GERMAN
+POS_TAG: value:Folien;weight:0.0;uri:;postag:NN
+POS_TAG: value:si;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+sehr schön, dann guck ich mir das später nochmal an und wir quatschen morgen nochmal kurz drüber.
+
+Ich werd jetzt noch so schnell wie möglich die übrigen Folien erstellen.
+
+Ich denke, wir sollten morgen alle nicht zu spät bei der Präsi sein, damit wir nochmal absprechen können, wer was vorstellt etc.
+TAGGED_CONTENT:
+sehr_ADV schön_ADJD ,_$, dann_ADV guck_VVFIN ich_PPER mir_PPER das_ART später_ADJD nochmal_ADV an_PTKVZ und_KON wir_PPER quatschen_VVFIN morgen_ADV nochmal_ADV kurz_ADJD drüber_PTKVZ ._$. Ich_PPER werd_VVFIN jetzt_ADV noch_ADV so_ADV schnell_ADJD wie_KOKOM möglich_ADJD die_ART übrigen_ADJA Folien_NN erstellen_VVINF ._$. Ich_PPER denke_VVFIN ,_$, wir_PPER sollten_VMFIN morgen_ADV alle_PIS nicht_PTKNEG zu_PTKA spät_ADJD bei_APPR der_ART Präsi_NN sein_VAINF ,_$, damit_KOUS wir_PPER nochmal_ADV absprechen_VVINF können_VMFIN ,_$, wer_PWS was_PWS vorstellt_VVFIN etc._ADV ._$. 

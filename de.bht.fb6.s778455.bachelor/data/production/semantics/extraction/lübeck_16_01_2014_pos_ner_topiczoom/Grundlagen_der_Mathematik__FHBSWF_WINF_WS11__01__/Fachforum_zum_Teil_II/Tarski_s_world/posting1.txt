@@ -1,0 +1,11 @@
+ID: 117581
+CREATION_DATETIME: 1323556732
+MODIFICATION_DATETIME: 1323556732
+TITLE: Tarski's world
+POS_TAG: value:Anhang;weight:0.0;uri:;postag:NN
+POS_TAG: value:Start;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+s. Anhang. Start mit java -jar tarski. jar
+TAGGED_CONTENT:
+s._VVIMP Anhang_NN ._$. Start_NN mit_APPR java_NE -_$( jar_ADV tarski_VVFIN ._$. jar_XY 

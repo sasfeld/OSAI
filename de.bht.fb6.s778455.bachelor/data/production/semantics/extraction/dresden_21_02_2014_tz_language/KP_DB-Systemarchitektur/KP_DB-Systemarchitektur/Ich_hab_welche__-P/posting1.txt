@@ -1,0 +1,45 @@
+ID: 1750
+CREATION_DATETIME: 1366408800000
+MODIFICATION_DATETIME: 1373839200000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:CL Compiler;weight:1.0;significance:4.23618317174463;degreegeneralization:11;uri:20150434
+TOPIC_ZOOM_TAG: value:Programmieren in CL;weight:1.0;significance:4.23618317174463;degreegeneralization:10;uri:20176529
+TOPIC_ZOOM_TAG: value:CL Programmiersprache;weight:1.0;significance:4.23618317174463;degreegeneralization:9;uri:20176461
+TOPIC_ZOOM_TAG: value:Compiler;weight:1.0;significance:3.86997907552193;degreegeneralization:9;uri:20195178
+TOPIC_ZOOM_TAG: value:Technische Informatik;weight:1.0;significance:3.43688474747853;degreegeneralization:5;uri:20889033
+TOPIC_ZOOM_TAG: value:Sprache;weight:2.0;significance:3.33913807189129;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:2.0;significance:2.95834176629398;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Übersetzung;weight:1.0;significance:2.81528987939754;degreegeneralization:7;uri:20914720
+TOPIC_ZOOM_TAG: value:Programmiersprachen;weight:1.0;significance:2.6188397504381;degreegeneralization:8;uri:20901749
+TOPIC_ZOOM_TAG: value:Programmierung;weight:1.0;significance:2.38779069025145;degreegeneralization:7;uri:21461440
+TOPIC_ZOOM_TAG: value:Sprachen der Erde;weight:1.0;significance:2.35911257780419;degreegeneralization:6;uri:21978223
+TOPIC_ZOOM_TAG: value:Formale Sprachen;weight:1.0;significance:2.34393190432188;degreegeneralization:6;uri:21978155
+TOPIC_ZOOM_TAG: value:Computersprachen;weight:1.0;significance:2.34279230207229;degreegeneralization:6;uri:19949137
+TOPIC_ZOOM_TAG: value:Sprache, Zivilisation und Bevölkerung;weight:1.0;significance:2.22197222718385;degreegeneralization:5;uri:20895986
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:3.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Sprache als Bereich der Kultur;weight:1.0;significance:1.92180903080483;degreegeneralization:5;uri:20896003
+TOPIC_ZOOM_TAG: value:Software;weight:1.0;significance:1.73674454815565;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:1.67474181585092;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:1.66926724024071;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Forschung und Entwicklung;weight:1.0;significance:1.64596809370158;degreegeneralization:3;uri:21603526
+TOPIC_ZOOM_TAG: value:Nachrichten;weight:1.0;significance:1.48467354443139;degreegeneralization:5;uri:21872483
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:1.43671328660255;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:1.43255875749497;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:1.33567892145369;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.22055656413693;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Kunst, Kultur, Musik;weight:1.0;significance:1.01590231222495;degreegeneralization:2;uri:21999796
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:0.895641144893587;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:0.884199473190443;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:0.779228928268583;degreegeneralization:2;uri:21999711
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Die Gute Nachricht: Wir brauchen gar nicht <REMOVED_PERSON_ENTITY>, sondern der OpenCL-Compiler ist in Clang enthalten.
+
+Ich habe derweil ein kleines Script in den einen example-Ordner hinzugefügt, mit dem kernel. <LEARNED_PERSON_NAME_REPLACEMENT> mittels clang in kernel. <LEARNED_PERSON_NAME_REPLACEMENT> übersetzt wird. Über diesen Zwischencode kann man mit dem LLVM-Framework die Code-Analysen laufen lassen und z. B. die Anzahl und Anordnung der Store-Anweisungen zählen.
+
+Es müsste also jeder in der Lage sein, LLVM bzw Clang zu kompilieren oder binary Releases finden.
+
+Wir sollten uns vielleicht auch auch auf eine LLVM-Version einigen, denn die Entwickler haben die Eigenart, Bezeichner umzubenennen, wodurch die unterschiedlichen Versionen alle miteinander inkompatibel sind.
+TAGGED_CONTENT:

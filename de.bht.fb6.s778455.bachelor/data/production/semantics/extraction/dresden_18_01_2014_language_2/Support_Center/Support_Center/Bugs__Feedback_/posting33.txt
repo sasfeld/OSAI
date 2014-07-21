@@ -1,0 +1,10 @@
+ID: 264
+CREATION_DATETIME: 1349906400000
+MODIFICATION_DATETIME: 1349906400000
+TITLE: Ich seh immer noch ni
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 260
+POSTING_TYPE: comment
+CONTENT:
+Ich seh immer noch nix. Vlt. schau ich auch nur an der falschen Stelle?
+TAGGED_CONTENT:

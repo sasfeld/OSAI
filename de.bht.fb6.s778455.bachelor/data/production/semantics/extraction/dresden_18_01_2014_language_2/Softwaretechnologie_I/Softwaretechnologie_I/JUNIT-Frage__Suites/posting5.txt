@@ -1,0 +1,10 @@
+ID: 2064
+CREATION_DATETIME: 1371160800000
+MODIFICATION_DATETIME: 1371160800000
+TITLE: Und seine Frage habe ich ihm auch unten beantwortet. Aber trotzdem hast du was Falsches erzählt was i...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2060
+POSTING_TYPE: comment
+CONTENT:
+Und seine Frage habe ich ihm auch unten beantwortet. Aber trotzdem hast du was Falsches erzählt was ich korrigieren musste. TestSuites haben absolut NICHTS mit GUI Tools zu tun. Und wie ich schon angedeutet habe, kann man in Eclipse auch einfach Testklassen (ohne eine TestSuite) über die GUI ausführen.
+TAGGED_CONTENT:

@@ -1,0 +1,17 @@
+ID: 4
+CREATION_DATETIME: 1286308200000
+MODIFICATION_DATETIME: 1286308200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Liebe Studierende,
+
+eine Ergänzung zur Web Konferenz:
+An OutputStreamWriter is a bridge from character streams to byte streams.
+A BufferedWriter writes text to a character-output stream, buffering characters so as to provide for the efficient writing.
+Also die Zeichen werden zuerst mit dem BufferedWriter-Objekt in ein Puffer geschrieben, dann das OutputStreamWriter-Objekt reicht sie weiter an das FileOutputStream-Objekt, das verantwortlich ist, um Bytes in die Datei zu schreiben.
+Mit freundlichen Gruessen,
+    
+TAGGED_CONTENT:

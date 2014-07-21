@@ -1,0 +1,15 @@
+ID: 448
+CREATION_DATETIME: 1350856800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Hallo,
+nach einigen kleineren organisatorischen Herausforderungen möchte ich euch in der Seminargruppe MINF-B01 willkommen heißen. Ich hoffe, dass ihr euch in den ersten Wochen nach der ESE gut zurecht gefunden habt. Ich bin <REMOVED_PERSON_ENTITY>, euer Seminargruppen-Mentor für das erste Studienjahr.
+Um ein bisschen Feedback zu sammeln, die Gruppe kennenzulernen und weitere Treffen planen zu können, würde ich mich gern schon in dieser Woche einmal mit euch treffen.
+Nach Betrachtung eures Stundenplans (hey, ihr habt Donnerstags quasi frei!) habe ich für uns den kleinen Ratssaal der Fakultät Informatik (INF/1005) am Mittwoch 13:30 Uhr gebucht. Dann könnt ihr euch nach der Mathevorlesung noch in der Mensa stärken und dann einfach kurz vorbeikommen.
+Ich denke, dass wir alles innerhalb einer halben Stunde klären können, was für den Anfang wichtig ist. Zusätzlich habe ich euch alle in eine Mailingliste eingetragen. Fragen innerhalb der Gruppe könnt ihr also über minf-b01-12@ifsr. de oder hier im Auditorium klären, Fragen nur an mich könnt ihr an dirk@ifsr. de stellen.
+Beste Grüße und bis Mittwoch,
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

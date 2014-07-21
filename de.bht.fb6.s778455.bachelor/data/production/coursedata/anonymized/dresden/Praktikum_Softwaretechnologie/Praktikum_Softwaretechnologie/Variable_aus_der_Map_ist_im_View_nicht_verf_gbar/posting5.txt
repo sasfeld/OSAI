@@ -1,0 +1,13 @@
+ID: 2800
+CREATION_DATETIME: 1384124400000
+MODIFICATION_DATETIME: 1384124400000
+TITLE: 
+Vielen, vielen Dank für die schnelle Hilfe!
+
+Ich dachte mir schon, dass es eine triviale Ursache ...
+PARENT_POSTING_ID: 2799
+POSTING_TYPE: comment
+CONTENT:
+Vielen, vielen Dank für die schnelle Hilfe!
+Ich dachte mir schon, dass es eine triviale Ursache ist, aber woher soll man wissen, dass ThymeLeaf case-sensitive ist?
+TAGGED_CONTENT:

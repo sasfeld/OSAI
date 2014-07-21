@@ -1,0 +1,9 @@
+ID: 890
+CREATION_DATETIME: 1354057200000
+MODIFICATION_DATETIME: 1354057200000
+TITLE: That kind of makes sense. However, you don't need any knowledge about structure sizes then, because t...
+PARENT_POSTING_ID: 884
+POSTING_TYPE: comment
+CONTENT:
+That kind of makes sense. However, you don't need any knowledge about structure sizes then, because the user will always call malloc with the exact amount of bytes that are required. You are free to hand out more than this amount, though.
+TAGGED_CONTENT:

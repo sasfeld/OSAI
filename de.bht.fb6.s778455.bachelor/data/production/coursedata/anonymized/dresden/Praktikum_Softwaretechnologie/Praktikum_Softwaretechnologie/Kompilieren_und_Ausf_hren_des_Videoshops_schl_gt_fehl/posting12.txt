@@ -1,0 +1,11 @@
+ID: 2669
+CREATION_DATETIME: 1383174000000
+MODIFICATION_DATETIME: 1383174000000
+TITLE: Ok. Probiere ich aus - lösche alles komplett von der Festplatte inklusive .zip datei, ziehe es nochma...
+PARENT_POSTING_ID: 2662
+POSTING_TYPE: comment
+CONTENT:
+Ok. Probiere ich aus - lösche alles komplett <NAME_CORPUS_REPLACEMENT> der Festplatte inklusive . zip datei, ziehe es nochmal neu und importiere es ein weiteres mal. Mal sehen, was rauskommt.
+Frage: Hat es irgendwelche Auswirkungen, wenn das guestbook nebenbei auch in Eclipse importiert ist?
+und am POM habe ich gar nichts gemacht - zumindest nicht wissentlich.
+TAGGED_CONTENT:

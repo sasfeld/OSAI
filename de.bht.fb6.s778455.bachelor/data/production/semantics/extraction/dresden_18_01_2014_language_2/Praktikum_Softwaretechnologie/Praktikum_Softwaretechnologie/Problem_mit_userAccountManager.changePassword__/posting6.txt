@@ -1,0 +1,12 @@
+ID: 3080
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: Erstmal tschuldigung, dass der Comment verschwunden ist. Ich wollte eigentlich eine Antwort schreiben...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3075
+POSTING_TYPE: comment
+CONTENT:
+Erstmal tschuldigung, dass der Comment verschwunden ist. Ich wollte eigentlich eine Antwort schreiben. Gerade als ich es ändern wollte, hast du geantwortet.
+
+Zum Test: Das mit dem Importieren hat funktioniert, allerdings streicht er mir bei `@Configuration` das `classes` und das `initializers` an. Zudem streicht er auch in den letzten beiden Zeilen `is(true)` an. Und ich kann nicht run as -> Junit oder so was ähnliches machen. Nur run on Server.
+TAGGED_CONTENT:

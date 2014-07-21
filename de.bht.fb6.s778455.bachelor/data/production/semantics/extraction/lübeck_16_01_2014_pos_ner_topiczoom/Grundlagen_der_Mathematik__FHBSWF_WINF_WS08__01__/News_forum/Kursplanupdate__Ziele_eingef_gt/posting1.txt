@@ -1,0 +1,13 @@
+ID: 16503
+CREATION_DATETIME: 1222183561
+MODIFICATION_DATETIME: 1222183561
+TITLE: Kursplanupdate: Ziele eingefügt
+POS_TAG: value:Ziele;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kursplan;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abschnitt;weight:0.0;uri:;postag:NN
+POS_TAG: value:MfG;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Sie alle, im Kursplan wurde der Abschnitt Ziele eingefügt. MfG, al.
+TAGGED_CONTENT:
+Hallo_ITJ Sie_PPER alle_PIS ,_$, im_APPRART Kursplan_NN wurde_VAFIN der_ART Abschnitt_NN Ziele_NN eingefügt_VVPP ._$. MfG_NN ,_$, al._ADV ._$. 

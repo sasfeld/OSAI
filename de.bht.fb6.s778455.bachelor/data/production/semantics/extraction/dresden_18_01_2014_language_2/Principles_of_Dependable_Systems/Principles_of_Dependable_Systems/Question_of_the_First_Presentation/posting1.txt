@@ -1,0 +1,16 @@
+ID: 2862
+CREATION_DATETIME: 1384556400000
+MODIFICATION_DATETIME: 1385593200000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi, i have some question related of the first Presentation, so...
+
+1. In the example of the Switches, Is not clear (for me) the Concept of "Redundancy or Redundant Switches". <NAME_CORPUS_REPLACEMENT> you explain to me?
+
+2. I dont stand the concept or the example of "reconfiguration"? <NAME_CORPUS_REPLACEMENT> you explain to me with another term or example, please?
+
+3. What does it mean the term “FACTOR"  in the example of the "Top level approach and Variation issues"?.
+TAGGED_CONTENT:

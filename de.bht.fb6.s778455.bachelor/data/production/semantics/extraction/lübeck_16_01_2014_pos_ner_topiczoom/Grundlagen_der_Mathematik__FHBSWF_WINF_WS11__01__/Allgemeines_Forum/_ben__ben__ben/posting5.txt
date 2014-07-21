@@ -1,0 +1,14 @@
+ID: 117551
+CREATION_DATETIME: 1325091933
+MODIFICATION_DATETIME: 1325091933
+TITLE: Re: Üben Üben Üben
+POS_TAG: value:Etage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Exer;weight:0.0;uri:;postag:NN
+POS_TAG: value:Uhr;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+POS_TAG: value:eDie;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117550
+CONTENT:
+Moin Moin!Wir sind morgen um 15:00 Uhr am Exer sein. Irgendwo in der ersten Etage. ;-)GrüßeDie Gruppe! 
+TAGGED_CONTENT:
+Moin_NE Moin!Wir_NE sind_VAFIN morgen_ADV um_APPR 15:00_CARD Uhr_NN am_APPRART Exer_NN sein_VAINF ._$. Irgendwo_ADV in_APPR der_ART ersten_ADJA Etage_NN ._$. ;_$. -_$( -RRB-_TRUNC GrüßeDie_NN Gruppe_NN !_$. 

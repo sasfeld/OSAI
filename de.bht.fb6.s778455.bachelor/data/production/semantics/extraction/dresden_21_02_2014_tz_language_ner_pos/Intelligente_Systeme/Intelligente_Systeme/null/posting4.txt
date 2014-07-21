@@ -1,0 +1,20 @@
+ID: 871
+CREATION_DATETIME: 1353970800000
+MODIFICATION_DATETIME: 1353970800000
+TITLE: Die [Veranstaltung kannst du gern hier anlegen](https://auditorium.inf.tu-dresden.de/lectures/new). u...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ausgangsfrage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Veranstaltung;weight:0.0;uri:;postag:NN
+POS_TAG: value:IS;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kurs;weight:0.0;uri:;postag:NN
+POS_TAG: value:auditorium;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 868
+POSTING_TYPE: comment
+CONTENT:
+Die [Veranstaltung kannst du gern hier anlegen](https://auditorium. inf. tu-dresden. de/lectures/new). und dann kann deine Frage dorthin verschoben werden, indem du deine Ausgangsfrage einfach bearbeitest und den neuen Kurs auswählst. Aber es ist besser deine Frage nochmal zu stellen, denn vllt. hat jemand anderes genau das gleiche Problem bei IS. 
+TAGGED_CONTENT:
+Die_ART -LSB-_TRUNC Veranstaltung_NN kannst_VMFIN du_PPER gern_ADV hier_ADV anlegen_VVINF -RSB-_TRUNC -LRB-_TRUNC https:\/\/auditorium_NN ._$. inf_NE ._$. tu-dresden_VVIZU ._$. de\/lectures\/new_NE -RRB-_TRUNC ._$. und_KON dann_ADV kann_VMFIN deine_PPOSAT Frage_NN dorthin_ADV verschoben_VVPP werden_VAINF ,_$, indem_KOUS du_PPER deine_PPOSAT Ausgangsfrage_NN einfach_ADJD bearbeitest_VVPP und_KON den_ART neuen_ADJA Kurs_NN auswählst_VVFIN ._$. Aber_KON es_PPER ist_VAFIN besser_ADJD deine_PPOSAT Frage_NN nochmal_ADV zu_PTKZU stellen_VVINF ,_$, denn_KON vllt_VVFIN ._$. hat_VAFIN jemand_PIS anderes_PIS genau_ADJD das_ART gleiche_ADJA Problem_NN bei_APPR IS_NN ._$. 

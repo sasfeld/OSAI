@@ -1,0 +1,12 @@
+ID: 430
+CREATION_DATETIME: 1350597600000
+MODIFICATION_DATETIME: 1351116000000
+TITLE: Bisher nicht. Ist abe
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 429
+POSTING_TYPE: answer
+CONTENT:
+Bisher nicht. Ist aber ein guter Punkt. Werde ich mal mit auf die todo Liste setzen. 
+
+Um dich richtig zu verstehen willst du das als neue Frage ausgliedern?
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 563
+CREATION_DATETIME: 1351375200000
+MODIFICATION_DATETIME: 1351375200000
+TITLE: Dankeschön für deine Antwort. Ich würds ja gern mit Javaskript oder PHP machen, aber das dürfen wir l...
+PARENT_POSTING_ID: 554
+POSTING_TYPE: answer
+CONTENT:
+Dankeschön für deine Antwort. Ich würds ja gern mit Javaskript oder PHP machen, aber das dürfen wir laut Aufgabenstellung ja leider nicht^^ Also werd ich wohl die iframes nehmen müssen, als einzige Möglichkeit html Bestandteil. 
+TAGGED_CONTENT:

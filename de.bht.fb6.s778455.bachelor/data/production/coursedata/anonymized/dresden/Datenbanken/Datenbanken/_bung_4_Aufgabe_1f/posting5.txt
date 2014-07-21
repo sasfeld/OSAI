@@ -1,0 +1,9 @@
+ID: 2522
+CREATION_DATETIME: 1376172000000
+MODIFICATION_DATETIME: 1376172000000
+TITLE: Sehe ich genauso, so ist es auch auf den Folien beschrieben.
+PARENT_POSTING_ID: 2516
+POSTING_TYPE: comment
+CONTENT:
+Sehe ich genauso, so ist es auch auf den Folien beschrieben.
+TAGGED_CONTENT:

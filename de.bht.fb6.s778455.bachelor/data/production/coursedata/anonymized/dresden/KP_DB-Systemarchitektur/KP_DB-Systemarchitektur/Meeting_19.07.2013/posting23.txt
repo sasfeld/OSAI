@@ -1,0 +1,11 @@
+ID: 2380
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: Welche meinst du konkret? Am besten mal die Foliennummer der pdf-Datei nennen. 
+Zu Box-Whisker-Plots...
+PARENT_POSTING_ID: 2350
+POSTING_TYPE: comment
+CONTENT:
+Welche meinst du konkret? Am besten mal die Foliennummer der pdf-Datei nennen. 
+Zu Box-Whisker-Plots hat Wikipedia ganz passable Erklärungen.
+TAGGED_CONTENT:

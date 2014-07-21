@@ -1,0 +1,13 @@
+ID: 117546
+CREATION_DATETIME: 1319749800
+MODIFICATION_DATETIME: 1319749800
+TITLE: Re: Gruppensuche
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=43906#117546
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117545
+CONTENT:
+Ist ja freiwillig also denke ich mal 3 reichen. Die anderen Gruppen sind auch nicht größer. Und wenn sich einer findet können wir den auch noch hinzunehmen. Welche Gruppe wollen wir nehmen? 1 - 4 ist noch frei.
+TAGGED_CONTENT:
+Ist_VAFIN ja_ADV freiwillig_ADJD also_ADV denke_VVFIN ich_PPER mal_ADV 3_CARD reichen_VVFIN ._$. Die_ART anderen_ADJA Gruppen_NN sind_VAFIN auch_ADV nicht_PTKNEG größer_ADJD ._$. Und_KON wenn_KOUS sich_PRF einer_ART findet_VVFIN können_VMFIN wir_PPER den_ART auch_ADV noch_ADV hinzunehmen_VVIZU ._$. Welche_PWAT Gruppe_NN wollen_VMFIN wir_PPER nehmen_VVINF ?_$. 1_CARD -_$( 4_CARD ist_VAFIN noch_ADV frei_ADJD ._$. 

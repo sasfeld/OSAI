@@ -1,0 +1,59 @@
+ID: 61
+CREATION_DATETIME: 1197669180000
+MODIFICATION_DATETIME: 1197669180000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 60
+CONTENT:
+
+Liebe , liebe Studierende,
+
+es fehlt mir etwas mehr Code, um besser zu verstehen. Als Hilfe oder Anregung tue ich unten 2 kleine Programme: Ein Klick auf dem Knopf fügt ein Item in das ComboBox-Objekt hinzu. Die 2 Programme unterscheiden sich im Konstruktor für das ComboBox-Objekt.
+
+Ich wünsche Ihnen viel Erfolg.
+
+Agathe Merceron
+
+import java.awt.Container;
+import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+
+public class TryComboBox1 extends JFrame {
+    
+    public TryComboBox1(){
+        Container c = getContentPane();
+        c.setLayout(new FlowLayout());
+        final JComboBox jcb = new JComboBox();
+        c.add(jcb);
+        JButton jb = new JButton("addItem");
+        jb.addActionListener(new ActionListener() {
+            private int i=0;
+            public void actionPerformed(ActionEvent e){
+                i++;
+                jcb.addItem("Item "+i);
+            }
+        });
+        c.add(jb);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setSize(400, 400);
+        setVisible(true);
+    }
+
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
+        new TryComboBox1();
+
+    }
+
+}
+ 
+   
+TAGGED_CONTENT:

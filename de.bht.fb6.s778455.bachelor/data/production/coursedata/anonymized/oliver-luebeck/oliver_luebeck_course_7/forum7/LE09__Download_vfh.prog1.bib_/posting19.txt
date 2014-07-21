@@ -1,0 +1,13 @@
+ID: 38
+CREATION_DATETIME: 1304625480000
+MODIFICATION_DATETIME: 1304625480000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 37
+CONTENT:
+  
+Math.abs( messwert ) sollte dir eigentlich den absoluten Wert von messwert liefern. Also einfach so aufrufen reicht schon.
+
+Ich mach das jeden Tag auf Arbeit ;-)
+   
+TAGGED_CONTENT:

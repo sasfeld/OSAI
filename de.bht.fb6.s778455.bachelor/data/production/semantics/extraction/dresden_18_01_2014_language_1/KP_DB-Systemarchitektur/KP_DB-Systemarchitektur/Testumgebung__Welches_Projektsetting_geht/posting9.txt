@@ -1,0 +1,14 @@
+ID: 1915
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: Kannst du mal nicht benutzte Sachen aufräumen?
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1914
+POSTING_TYPE: comment
+CONTENT:
+Kannst du mal nicht benutzte Sachen aufräumen?
+
+Ich schmeiß' den modul_loader auch raus, sobald der Code im Hauptprojekt drin ist.
+
+Achja und bau mal bei den Testfällen in die Makefile noch ein, dass die Bibliothek vorher gebaut wird und reinkopiert wird.
+TAGGED_CONTENT:

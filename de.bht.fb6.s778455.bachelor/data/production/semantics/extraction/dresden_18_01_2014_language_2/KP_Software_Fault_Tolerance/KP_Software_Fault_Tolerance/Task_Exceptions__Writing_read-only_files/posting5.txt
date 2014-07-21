@@ -1,0 +1,10 @@
+ID: 614
+CREATION_DATETIME: 1351551600000
+MODIFICATION_DATETIME: 1351551600000
+TITLE: I both passed the Test 2 and Test 7 without facing your problem. Just like Diogo says, if fwrite() do...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 566
+POSTING_TYPE: comment
+CONTENT:
+I both passed the Test 2 and Test 7 without facing your problem. <NAME_CORPUS_REPLACEMENT> like <REMOVED_PERSON_ENTITY> says, if fwrite() does not return an error with read-only file then do not throw an exception. you <NAME_CORPUS_REPLACEMENT> compare the return value of fwrite().
+TAGGED_CONTENT:

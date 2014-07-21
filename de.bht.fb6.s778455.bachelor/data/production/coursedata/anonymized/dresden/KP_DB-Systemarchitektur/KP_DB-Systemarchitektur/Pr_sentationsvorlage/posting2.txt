@@ -1,0 +1,9 @@
+ID: 1971
+CREATION_DATETIME: 1370556000000
+MODIFICATION_DATETIME: 1371074400000
+TITLE: Gibts die auch in einem freien Format? Und gibts schon nen konkreten Anlass, die zu benutzen?
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+Gibts die auch in einem freien Format? Und gibts schon nen konkreten Anlass, die zu benutzen?
+TAGGED_CONTENT:

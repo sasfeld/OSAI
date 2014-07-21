@@ -1,0 +1,12 @@
+ID: 1389
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Du kannst sowas machen:
+
+`$ make fight | tee fight.log` und dann das neu geschriebene logfile in Ru...
+PARENT_POSTING_ID: 1387
+POSTING_TYPE: answer
+CONTENT:
+Du kannst sowas machen:
+`$ make fight | tee fight. log` und dann das neu geschriebene logfile in Ruhe mit einem Texteditor angucken. Ansonsten musst du wohl einen Debugger bemühen.
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 2314
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: @All: Gerade ne Info von Stefanie bekommen, dass Tomas gefragt hat, ob wir die Abschlusspräsi auf Eng...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+@All: Gerade ne Info <NAME_CORPUS_REPLACEMENT> <REMOVED_PERSON_ENTITY> bekommen, dass <REMOVED_PERSON_ENTITY> gefragt hat, ob wir die Abschlusspräsi auf Englisch halten können, <NAME_CORPUS_REPLACEMENT> ein <NAME_CORPUS_REPLACEMENT> aus <REMOVED_PERSON_ENTITY> sich das ganze gerne ansehen würde.
+
+Also ich hab prinzipiell kein Problem damit, die Folien sind ja sowieso schon englisch.
+TAGGED_CONTENT:

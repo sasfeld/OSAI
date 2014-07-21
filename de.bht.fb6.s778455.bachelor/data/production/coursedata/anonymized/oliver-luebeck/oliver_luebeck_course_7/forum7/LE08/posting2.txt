@@ -1,0 +1,32 @@
+ID: 5
+CREATION_DATETIME: 1303937100000
+MODIFICATION_DATETIME: 1303937100000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 4
+CONTENT:
+ 
+hallo!
+
+ich versuche mal dir zu helfen. ob das alles so richtig ist, weiß ich nicht, aber bei mir funktioniert es *g*
+
+>> Man schreibt also eine Klasse AutoTest. - public class AutoTest
+genau
+
+>> Wie geht es weiter?
+weil die klasse etwas ausgeben soll setzt du dort die main-methode rein.
+dort greifst du dann auf EinfachesAuto genau so zu wie du es geschrieben hast:
+
+EinfachesAuto auto1 = new EinfachesAuto ()
+EinfachesAuto auto2 = new EinfachesAuto ()
+EinfachesAuto auto3 = new EinfachesAuto ()
+
+in die klammern kommen dann die jeweiligen einträge die du brauchst, also name, marke, baujahr usw.. dabei musst du nur darauf achten, dass du sie in der richtigen form schreibst. wenn EinfachesAuto einen string an einer bestimmten stelle erwartet, musst du das auch so übergeben. also in "".
+
+deine methoden kannst du dann direkt danach (auch in der main-methode) aufrufen wie du es oben schon geschrieben hast (auto1.alter();)
+
+ich hoffe, das war einigermaßen verständlich. ist n bißchen schwierig zu erklären... ;) ansonsten frag einfach nochmal, dann versuche ich mich irgendwie anders auszudrücken.
+
+viel erfolg,
+    
+TAGGED_CONTENT:

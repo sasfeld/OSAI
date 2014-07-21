@@ -1,0 +1,10 @@
+ID: 3092
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: @Vererbung: Mit anderen Worten... Composite Ids sind total unausgereift in JPA?^^ Gut, ich denke das ...
+PARENT_POSTING_ID: 3069
+POSTING_TYPE: comment
+CONTENT:
+@Vererbung: Mit anderen Worten... Composite Ids sind total unausgereift in JPA?^^ Gut, ich denke das ist eine nützliche Warnung für die Zukunft...
+@AbstractPersistable: Das sieht wirklich gut aus, danke dafür. Kannst du mir auch sagen, ob als ID auch String funktioniert, ohne dass der Genrator Fehermeldungen wirft? Denn ich bräuchte immernoch String Ids, die dann manuell gesetzt werden...
+TAGGED_CONTENT:

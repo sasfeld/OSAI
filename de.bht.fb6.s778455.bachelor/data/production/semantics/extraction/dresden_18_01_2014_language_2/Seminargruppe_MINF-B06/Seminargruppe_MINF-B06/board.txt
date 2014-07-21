@@ -1,0 +1,7 @@
+ID: 2154346
+CREATION_DATETIME: 1350424800000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Seminargruppe MINF-B06
+LANGUAGE: UNKNOWN
+INTRO: Die Seminargruppe MINF-B06 betreffende, allgemeine Fragen und Anliegen können hier eingetragen werden.
+TYPE: null

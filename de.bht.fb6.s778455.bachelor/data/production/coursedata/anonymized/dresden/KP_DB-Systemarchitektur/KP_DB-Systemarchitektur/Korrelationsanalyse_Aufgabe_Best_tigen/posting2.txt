@@ -1,0 +1,9 @@
+ID: 2059
+CREATION_DATETIME: 1371160800000
+MODIFICATION_DATETIME: 1371679200000
+TITLE: 5. pro Device
+PARENT_POSTING_ID: 2058
+POSTING_TYPE: comment
+CONTENT:
+fünftens. pro Device (iiieh, wieso wandelt der eine 5. in eine 1. um? fucking auditorium)
+TAGGED_CONTENT:

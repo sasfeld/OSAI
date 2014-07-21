@@ -1,0 +1,36 @@
+ID: 245393
+CREATION_DATETIME: 1381946023
+MODIFICATION_DATETIME: 1381946023
+TITLE: Re: Mathematik-Gruppenübersicht für das Wintersemester 2013
+TOPIC_ZOOM_TAG: value:Kommilitonen;weight:1.0;significance:5.3813196830893;degreegeneralization:6;uri:20148190
+TOPIC_ZOOM_TAG: value:Studenten;weight:1.0;significance:3.3437630829422;degreegeneralization:5;uri:20994552
+TOPIC_ZOOM_TAG: value:Schüler, Studenten;weight:1.0;significance:3.21878054168781;degreegeneralization:4;uri:20920823
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:2.78563553898677;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:2.59037776375624;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:2.18452430611399;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 243737
+CONTENT:
+Hallo,
+anbei die aktualisierte Gruppenansicht nach meinen aktuellen Informationen:
+Gruppe 1:
+<REMOVED_PERSON_ENTITY>
+Gruppe 2:
+<REMOVED_PERSON_ENTITY>
+Gruppe 3:
+<REMOVED_PERSON_ENTITY> KontekStephanie Arm
+Gruppe 4 (reine Onlinegruppe) -  O_o 5 Leute?
+<REMOVED_PERSON_ENTITY>
+Gruppe 5
+Michél DuckwitzTobias WächterStephanie RexGruppe 6
+<REMOVED_PERSON_ENTITY>
+Gruppe 7 (Onlinelerngruppe)
+<REMOVED_PERSON_ENTITY>
+Gruppe 8:
+<REMOVED_PERSON_ENTITY>
+Kommilitonen, die sich bisher nicht für eine Gruppe gemeldet haben:
+<REMOVED_PERSON_ENTITY>
+Falls Ihr weitere Gruppen gründen wollt benutzt bitte den alten Thread, so dass der hier schön aufgeräumt bleibt und ich (für eine Aktualisierung der Liste) die Informationen dazu gesammelt an einem Ort finden kann.
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

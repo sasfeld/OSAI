@@ -1,0 +1,27 @@
+ID: 16537
+CREATION_DATETIME: 1223492929
+MODIFICATION_DATETIME: 1223492929
+TITLE: Re: S: sinnvolle Mathesoftware
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:OpenOffice;weight:1.0;significance:10.5113249378977;degreegeneralization:8;uri:19967871
+TOPIC_ZOOM_TAG: value:Textverarbeitung;weight:1.0;significance:10.2236428654459;degreegeneralization:7;uri:20898740
+TOPIC_ZOOM_TAG: value:Bürosoftware;weight:1.0;significance:10.0694921856187;degreegeneralization:7;uri:20193767
+TOPIC_ZOOM_TAG: value:Anwendungssoftware;weight:1.0;significance:8.97087989695056;degreegeneralization:7;uri:19968058
+TOPIC_ZOOM_TAG: value:Freie Software;weight:1.0;significance:8.31410036056149;degreegeneralization:7;uri:20898706
+TOPIC_ZOOM_TAG: value:Praktische Informatik;weight:1.0;significance:7.35669138175786;degreegeneralization:5;uri:20899199
+TOPIC_ZOOM_TAG: value:Software;weight:1.0;significance:5.21023364446695;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:5.02422544755277;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:5.00780172072213;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:4.31013985980766;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Zusatz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dinge;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 16535
+CONTENT:
+Hier noch ein kleiner Zusatz: die meisten Dinge lassen sich mit OpenOffice Math erledigen.
+TAGGED_CONTENT:
+Hier_ADV noch_ADV ein_ART kleiner_ADJA Zusatz_NN :_$. die_ART meisten_PIDAT Dinge_NN lassen_VVFIN sich_PRF mit_APPR OpenOffice_NE Math_NE erledigen_VVINF ._$. 

@@ -1,0 +1,13 @@
+ID: 60
+CREATION_DATETIME: 1305111900000
+MODIFICATION_DATETIME: 1305111900000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 59
+CONTENT:
+ 
+Die Frage ist dann, was interessiert dich? JAVA oder Photoshop / InDesign / Illustrator. Je nachdem würde man das dann einfach tauschen.
+
+Zum Beispiel: Photoshop / InDesign / Illustrator zuerst und dann JAVA, so dass du doch etwas länger zuschauen kannst.
+    
+TAGGED_CONTENT:

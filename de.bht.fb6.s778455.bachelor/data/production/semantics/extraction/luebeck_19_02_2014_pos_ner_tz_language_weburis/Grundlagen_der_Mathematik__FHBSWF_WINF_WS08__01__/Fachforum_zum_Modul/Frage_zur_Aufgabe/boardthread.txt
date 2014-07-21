@@ -1,0 +1,7 @@
+ID: 6537
+CREATION_DATETIME: 1224693513
+MODIFICATION_DATETIME: 1232044755
+TITLE: Frage zur Aufgabe
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=6537
+FIRST_POSTING_ID: 16663

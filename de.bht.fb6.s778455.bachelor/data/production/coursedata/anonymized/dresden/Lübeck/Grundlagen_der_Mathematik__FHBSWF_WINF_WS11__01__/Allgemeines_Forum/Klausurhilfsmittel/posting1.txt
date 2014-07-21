@@ -1,0 +1,13 @@
+ID: 117552
+CREATION_DATETIME: 1319737154
+MODIFICATION_DATETIME: 1319737154
+TITLE: Klausurhilfsmittel
+PARENT_POSTING_ID: 0
+CONTENT:
+ Hallo <REMOVED_PERSON_ENTITY> Prof. <REMOVED_PERSON_ENTITY>,
+beim letzten Mal waren die zugelassenen Hilfsmittel folgende:
+&quot;2 Blaetter (4 Seiten) eigene Notizen, Schreibzeug, nichtprogrammierbarer Taschenrechner, Formelsammlung&quot;
+Gilt das noch unverändert?
+Freundliche Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

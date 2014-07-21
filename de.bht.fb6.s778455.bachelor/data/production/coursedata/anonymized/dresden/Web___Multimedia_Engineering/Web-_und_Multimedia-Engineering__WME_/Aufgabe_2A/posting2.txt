@@ -1,0 +1,14 @@
+ID: 808
+CREATION_DATETIME: 1353279600000
+MODIFICATION_DATETIME: 1353279600000
+TITLE: Hallo,
+nein Beispiele gibt es keine, da die Aufgabe komplett neu ist.
+Als Ausgabe soll es am Ende z...
+PARENT_POSTING_ID: 802
+POSTING_TYPE: answer
+CONTENT:
+Hallo,
+nein Beispiele gibt es keine, <NAME_CORPUS_REPLACEMENT> die Aufgabe komplett neu ist.
+Als Ausgabe soll es am Ende zwei Seiten geben: einmal das Ergebnis der XSL-Transformation und als zweites die Ausgabe der PHP-Objekte, welche aus den Feeds extrahiert wurden.
+Soweit alles klar?
+TAGGED_CONTENT:

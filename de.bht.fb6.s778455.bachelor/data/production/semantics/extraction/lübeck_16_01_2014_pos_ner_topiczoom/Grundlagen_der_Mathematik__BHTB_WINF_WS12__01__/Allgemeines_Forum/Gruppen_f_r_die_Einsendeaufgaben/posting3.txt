@@ -1,0 +1,14 @@
+ID: 171917
+CREATION_DATETIME: 1350545108
+MODIFICATION_DATETIME: 1350545176
+TITLE: Re: Gruppen für die Einsendeaufgaben
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 171815
+CONTENT:
+Hey,
+ich suche auch noch eine Gruppe, also bei wem ist noch was frei?
+ 
+Gruß 
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Hey_NE ,_$, ich_PPER suche_VVFIN auch_ADV noch_ADV eine_ART Gruppe_NN ,_$, also_ADV bei_APPR wem_PWS ist_VAFIN noch_ADV was_PWS frei_PTKVZ ?_$. Gruß_NE <_NE PERSONAL_GREETING_REMOVEMENT_NE >_XY 

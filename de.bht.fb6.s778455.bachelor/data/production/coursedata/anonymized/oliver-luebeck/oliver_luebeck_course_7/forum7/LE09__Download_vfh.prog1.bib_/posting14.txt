@@ -1,0 +1,24 @@
+ID: 33
+CREATION_DATETIME: 1304616360000
+MODIFICATION_DATETIME: 1304616360000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 32
+CONTENT:
+
+Ich weiß zwar nicht wie es bei Eclipse ist, aber bei IDEA reicht es aus den vfh Ordner in den Source Ordner zu kopieren.
+
+Sollte dann so aussehen:
+
+LE09
+|-vfh
+| |-prog1...
+|-Messwertanalyse.java
+
+Ich kann IntelliJ IDEA übrigens nur empfehlen, mag Eclipse irgendwie nicht :-)
+Kostet nix, gibts aber leider nur auf Englisch.
+Wenn es jemand probieren möchte und Hilfe beim Einrichten brauch kann er sich ja melden.
+
+Gruß, 
+   
+TAGGED_CONTENT:

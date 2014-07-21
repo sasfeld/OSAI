@@ -1,0 +1,10 @@
+ID: 2595
+CREATION_DATETIME: 1382306400000
+MODIFICATION_DATETIME: 1382479200000
+TITLE: Still students are forced to accept the license agreement of MagicDraw. If someone is at least a bit ...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2593
+POSTING_TYPE: comment
+CONTENT:
+Still students are forced to accept the license agreement of MagicDraw. If someone is at least a bit concerned about who collects which data about him (and we all should be VERY concerned about this topic), this someone will find himself unable to accept such a restraining agreement. I think it sends the wrong signals to push students toward using tools (even if they offer certain benefits) no matter what.
+TAGGED_CONTENT:

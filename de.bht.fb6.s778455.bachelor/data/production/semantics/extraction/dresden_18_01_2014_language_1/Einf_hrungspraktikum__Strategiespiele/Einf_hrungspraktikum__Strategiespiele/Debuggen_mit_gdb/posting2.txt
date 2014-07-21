@@ -1,0 +1,22 @@
+ID: 1428
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1362870000000
+TITLE: Hier mal ein Beispiel wie du dein Spieler mit einer bestimmten Eingabe füttern kannst und mit GDB dur...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1427
+POSTING_TYPE: answer
+CONTENT:
+Hier mal ein Beispiel:
+
+    $ gdb my_player
+
+    (gdb) b my_player. <LEARNED_PERSON_NAME_REPLACEMENT>:55
+
+    (gdb) run 3output. txt
+
+    ...
+
+In die input. txt musst du also die gewünschte Spielsituation im entsprechenden Format legen. GDB hält dein <REMOVED_PERSON_ENTITY> dann an, sobald Zeile 55 der my_player. <LEARNED_PERSON_NAME_REPLACEMENT> erreicht wird und du kannst dann gucken was genau passiert. Mit "s" führst du eine <REMOVED_PERSON_ENTITY> aus und gehst in Funktionen rein, mit "n" führst du eine <REMOVED_PERSON_ENTITY> aus und überspringst Funktionen und mit "p" kannst du dir Werte <NAME_CORPUS_REPLACEMENT> Variablen und ähnlichem anschauen.
+
+Was auch sehr hilfreich ist ist GDB mit "--tui" zu starten. Dann siehst du gleichzeitig deinen Code.
+TAGGED_CONTENT:

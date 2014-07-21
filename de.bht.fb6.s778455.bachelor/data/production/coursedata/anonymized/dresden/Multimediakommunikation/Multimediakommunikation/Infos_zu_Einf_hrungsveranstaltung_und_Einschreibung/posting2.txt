@@ -1,0 +1,9 @@
+ID: 1658
+CREATION_DATETIME: 1364940000000
+MODIFICATION_DATETIME: 1364940000000
+TITLE: Hallo Daniel, bleibt die Veranstaltung dann auch für die Master-INF Studenten eine 2/2/0 Veranstaltun...
+PARENT_POSTING_ID: 1657
+POSTING_TYPE: comment
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>, bleibt die Veranstaltung dann auch für die Master-INF Studenten eine 2/2/0 Veranstaltung?
+TAGGED_CONTENT:

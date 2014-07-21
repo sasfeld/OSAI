@@ -1,0 +1,13 @@
+ID: 4
+CREATION_DATETIME: 1191393300000
+MODIFICATION_DATETIME: 1191393300000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3
+CONTENT:
+ 
+Aha, vielen Dank, kam diesmal gar nicht auf die Idee, in die Doku zu schauen.
+
+Grüsse, 
+     
+TAGGED_CONTENT:

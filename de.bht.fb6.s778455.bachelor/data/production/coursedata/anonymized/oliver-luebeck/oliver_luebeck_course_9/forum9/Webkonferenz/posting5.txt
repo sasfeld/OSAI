@@ -1,0 +1,12 @@
+ID: 43
+CREATION_DATETIME: 1178646600000
+MODIFICATION_DATETIME: 1178646600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 39
+CONTENT:
+ 
+Ich hab mal wieder Probleme. Von den Einstellungen her ist bei mir alles gleich geblieben, sollte also funktionieren.
+Ich komm trotzdem nicht rein und falls ich es bis zum Start nicht hinbekomme, wäre die Aufzeichnung der Konferenz sehr nett. :)
+    
+TAGGED_CONTENT:

@@ -1,0 +1,4 @@
+ID: 62245
+MODIFICATION_DATETIME: 1349618333
+TITLE: Wurzel x vs. x hoch 1/2 und quadratische Gleichungen
+FIRST_POSTING_ID: 167629

@@ -1,0 +1,24 @@
+ID: 110604001
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Datensicherheit in und durch verteilte Systeme
+LANGUAGE: GERMAN
+SUMMARY: null
+TOPIC_ZOOM_TAG: value:Datensicherheit;weight:1.0;significance:7.57275107818367;degreegeneralization:7;uri:21309987
+TOPIC_ZOOM_TAG: value:Computer-Sicherheit;weight:1.0;significance:6.79504650959566;degreegeneralization:6;uri:21307607
+TOPIC_ZOOM_TAG: value:IT-Sicherheit;weight:1.0;significance:6.74754417561065;degreegeneralization:5;uri:20850035
+TOPIC_ZOOM_TAG: value:Sicherheitstechnologie;weight:1.0;significance:6.60599092062036;degreegeneralization:5;uri:21307624
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:1.0;significance:4.95064330688218;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:4.31013985980766;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Verbrechen und Kriminalität;weight:1.0;significance:3.73849885340692;degreegeneralization:4;uri:21982303
+TOPIC_ZOOM_TAG: value:Rechtsverstöße, Straftaten, Kriminalität;weight:1.0;significance:3.7036355737668;degreegeneralization:3;uri:20801755
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:2.65109701440329;degreegeneralization:2;uri:21999830
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Systeme;weight:0.0;uri:;postag:NN
+POS_TAG: value:Datensicherheit;weight:0.0;uri:;postag:NN

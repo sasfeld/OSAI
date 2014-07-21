@@ -1,0 +1,10 @@
+ID: 1618
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Für den Namen sind die Felder "First name" und "Last name" vorgesehen. Aber dennoch werde ich es auf ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1614
+POSTING_TYPE: comment
+CONTENT:
+Für den Namen sind die Felder "First name" und "Last name" vorgesehen. Aber dennoch werde ich es auf die Liste setzen, dass <REMOVED_PERSON_ENTITY> bei Benutzernamen erlaubt sind.
+TAGGED_CONTENT:

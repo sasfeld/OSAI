@@ -1,0 +1,9 @@
+ID: 2332
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Okay, sorry. Ich hab' noch mal nachgebessert und die X-Achse überall gut eingeteilt und an jede Achse...
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Okay, sorry. Ich hab' noch mal nachgebessert und die X-Achse überall gut eingeteilt und an jede Achse jetzt Bedeutung und Einheit drangeschrieben. Sollte ich es bei einem Diagramm trotzdem noch übersehen haben, schreib's hier rein.
+TAGGED_CONTENT:

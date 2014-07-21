@@ -1,0 +1,56 @@
+ID: 1482
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Allozieren:
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+POS_TAG: value:Command;weight:0.0;uri:;postag:NN
+POS_TAG: value:farbe;weight:0.0;uri:;postag:NN
+POS_TAG: value:BUFFERSIZE;weight:0.0;uri:;postag:NN
+POS_TAG: value:myBoardState;weight:0.0;uri:;postag:NN
+POS_TAG: value:statePtr;weight:0.0;uri:;postag:NN
+POS_TAG: value:C;weight:0.0;uri:;postag:NN
+POS_TAG: value:calculateWeight;weight:0.0;uri:;postag:NN
+POS_TAG: value:Code;weight:0.0;uri:;postag:NN
+POS_TAG: value:getEnemyColor;weight:0.0;uri:;postag:NN
+POS_TAG: value:currState;weight:0.0;uri:;postag:NN
+POS_TAG: value:Probleme;weight:0.0;uri:;postag:NN
+POS_TAG: value:newColor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Element;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1467
+POSTING_TYPE: comment
+CONTENT:
+Allozieren:
+
+```C++
+
+statePtr currState = (statePtr) malloc(sizeof(myBoardState));
+
+memset(currState->command, 0, BUFFERSIZE);
+
+char newColor = getEnemyColor(piece); // gibt gegnerische farbe aus
+
+currState->turn = newColor;
+
+strcpy(currState->board, board);
+
+currState->weight = calculateWeight(board, piece, depth);
+
+state->children. push_back( currState ); // state ist das übergeordnete Element
+
+// .. viel Code, um den Command zu erzeugen
+
+// ich kann den auch posten, allerdings ist es wirklich recht viel,
+
+// und wenn ich danach
+
+cout comand << endl;
+
+// ausgebe, sind alle commands korrekt
+
+```
+
+Frei geben tu ich noch nicht. Das hat mir nur mehr Probleme gemacht...
+TAGGED_CONTENT:
+Allozieren_VVINF :_$. ``_CARD `_CARD C_NN +_XY +_XY statePtr_NN currState_XY =_XY -LRB-_TRUNC statePtr_NN -RRB-_TRUNC malloc_XY -LRB-_TRUNC sizeof_VVIMP -LRB-_TRUNC myBoardState_NN -RRB-_TRUNC -RRB-_TRUNC ;_$. memset_ADJD -LRB-_TRUNC currState_NN -_$( >_CARD command_CARD ,_$, 0_CARD ,_$, BUFFERSIZE_NN -RRB-_TRUNC ;_$. char_NE newColor_XY =_XY getEnemyColor_NN -LRB-_TRUNC piece_FM -RRB-_TRUNC ;_$. \/_CARD \/_CARD gibt_VVFIN gegnerische_ADJA farbe_NN aus_APPR currState_NN -_$( >_CARD turn_XY =_XY newColor_NN ;_$. strcpy_VVIMP -LRB-_TRUNC currState_NN -_$( >_FM board_FM ,_$, board_FM -RRB-_TRUNC ;_$. currState_NN -_$( >_CARD weight_XY =_XY calculateWeight_NN -LRB-_TRUNC board_FM ,_$, piece_FM ,_$, depth_FM -RRB-_TRUNC ;_$. state_VVFIN -_$( >_XY children_VVINF ._$. push_back_ADJD -LRB-_TRUNC currState_NN -RRB-_TRUNC ;_$. \/_CARD \/_CARD state_VVFIN ist_VAFIN das_ART übergeordnete_ADJA Element_NN \/_CARD \/_CARD ._$. ._$. viel_PIDAT Code_NN ,_$, um_KOUI den_ART Command_NN zu_PTKZU erzeugen_VVINF \/_VVFIN \/_PPER ich_PPER kann_VMFIN den_PDS auch_ADV posten_VVINF ,_$, allerdings_ADV ist_VAFIN es_PPER wirklich_ADJD recht_ADJD viel_PIS ,_$, \/_CARD \/_NE und_KON wenn_KOUS ich_PPER danach_PROAV cout_ADJD comand_ADJD <<_VVFIN endl_NE ;_$. \/_CARD \/_CARD ausgebe_VVFIN ,_$, sind_VAFIN alle_PIDAT commands_FM korrekt_ADJD ``_CARD `_XY Frei_ADJD geben_VVINF tu_VVFIN ich_PPER noch_ADV nicht_PTKNEG ._$. Das_PDS hat_VAFIN mir_PPER nur_ADV mehr_PIAT Probleme_NN gemacht_VVPP ..._$( 

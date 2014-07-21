@@ -1,0 +1,8 @@
+ID: 110804110
+CREATION_DATETIME: 1349820000000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Allgemeine und sonstige Fragen
+SUMMARY: Hier werden alle organisatorischen Fragen beantwortet.
+URL: 

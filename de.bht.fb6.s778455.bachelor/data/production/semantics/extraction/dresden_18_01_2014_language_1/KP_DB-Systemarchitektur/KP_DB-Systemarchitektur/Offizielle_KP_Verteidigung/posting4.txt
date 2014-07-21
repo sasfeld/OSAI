@@ -1,0 +1,10 @@
+ID: 2319
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Ich habe jetzt für das neueste Diagramm das Excelsheet mit drin, ansonsten leider nicht.
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Ich habe jetzt für das neueste Diagramm das Excelsheet mit drin, ansonsten leider nicht.
+TAGGED_CONTENT:

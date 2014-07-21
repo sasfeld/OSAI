@@ -1,0 +1,12 @@
+ID: 3105
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: Nö, ich meine eine `@Id @GeneratedValue private long id`. Das funktioniert auf jeden Fall. 
+
+Ich ha...
+PARENT_POSTING_ID: 3069
+POSTING_TYPE: comment
+CONTENT:
+Nö, ich meine eine `@Id @GeneratedValue private long id`. Das funktioniert auf jeden Fall. 
+Ich habe keine Ahnung, AbstractPersistable benutzen wir nicht. Nicht weil ich es nicht mag, ich kannte es nicht als wir SP5 geschrieben haben.
+TAGGED_CONTENT:

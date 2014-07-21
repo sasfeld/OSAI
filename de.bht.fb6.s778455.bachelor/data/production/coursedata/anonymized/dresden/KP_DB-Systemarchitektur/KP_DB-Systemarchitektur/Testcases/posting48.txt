@@ -1,0 +1,19 @@
+ID: 2032
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: OK, bei OpenCL is es so, dass nichts ausgeführt wird, wenn Anzahl der global workitems nicht mind. so...
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+OK, bei OpenCL is es so, dass nichts ausgeführt wird, wenn Anzahl der global workitems nicht mind. so groß ist, wie die der local workitems (das is quasi die Dimension eines Threadblocks in Cuda).
+Jetzt zum erfreulichen Teil. Meine Vermutung, dass der CLT nicht funktioniert war falsch, ich war nur zu blöd beim <REMOVED_PERSON_ENTITY> und hab mich selbst mit Pointercasts ausgetrickst...
+Also es läuft jetzt immer noch alles. Ich habe nochmal ein Update ins SVN geladen und dabei auch den testCLT angepasst mit den Testfällen.
+Dazu folgendes:
+Die Kernel Maximum und select funktionierten schon erstmal nicht, weil der Testcase nich "maxim" sondern "max" hieß, deshalb wurde der Kernel nicht gefunden. 
+Ein anderes Problem war der select Kernel "select" ist eine built-in Funktion <NAME_CORPUS_REPLACEMENT> openCL, deshalb hab ich den Kernel, wie wahrscheinlich auch mal gedacht war, in "selectit" umbenannt.
+Bei den Kernelargs nun folgendes: <NAME_CORPUS_REPLACEMENT> ist bei den KernelParametern ein Attribut hinzugekommen und zwar heißt das "isMemoryObject". Das muss auf true gesetzt werden, wenn der angegeben Parameter auf einen Speicherbereich auf dem Host zeigt und dieser Speicherbereich auf das Device kopiert werden soll.
+Möchte man Parameter in Form <NAME_CORPUS_REPLACEMENT> Basisdatentypen (int, float...) übertragen, so setzt man dieses <NAME_CORPUS_REPLACEMENT> auf false. Das ist nötig, damit der CLT weiß, wann er auf der GPU einen memory buffer anlegen muss und wann das ganze nur ein einfaches Funktionsargument ist.
+Was ich allerdings jetzt in meinem Commit noch nicht behoben hab, is die Funktionalität der Kernel "avg" und "distinct"
+Bei diesen werden andere Parameter als angegeben verwendet, deshalb meckert der OpenCL <REMOVED_PERSON_ENTITY> bei der Ausführung.
+Und nun mein letztes Anliegen: Das mit den Testfällen hatte ich mir eigentlich anders vorgestellt. Um diesen Codewust zu verhindern, wäre es schön gewesen, wenn man eine TestSuite angelegt hätte, der man dann im testCLT unterschiedliche TestCases hinzufügen kann. Diese TestCases sollten ihren "Kram" allerdings intern erledigen. "Kram" meint hier: erzeugen <NAME_CORPUS_REPLACEMENT> Inputdaten, Execute-Aufruf, lesen der Outputdaten, evtl. testen ob das Ergebnis stimmt. Das ist ja eigentlich das schöne an Testcases, dass man das ganze etwas übersichtlicher gestaltet...
+TAGGED_CONTENT:

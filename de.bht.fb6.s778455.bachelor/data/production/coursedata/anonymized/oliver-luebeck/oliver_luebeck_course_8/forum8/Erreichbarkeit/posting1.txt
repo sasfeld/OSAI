@@ -1,0 +1,16 @@
+ID: 26
+CREATION_DATETIME: 1193918160000
+MODIFICATION_DATETIME: 1193918160000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Liebe Studierende,
+
+ich merke immer wieder Probleme mit der Wahl der Erreichbarkeit.
+Wie soll man die Erreichbarkeit von Attributen im Allgemeinen wählen und warum? der Konstruktoren? der Methoden?
+Ich freue mich um die Diskussion.
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

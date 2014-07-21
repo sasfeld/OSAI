@@ -1,0 +1,10 @@
+ID: 1303
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Was meinst du mit "wird kein Wert zugewiesen"? Die Zuweisung steht doch da. Vielleicht hast du Typen/...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1300
+POSTING_TYPE: comment
+CONTENT:
+Was meinst du mit "wird kein Wert zugewiesen"? Die Zuweisung steht doch <NAME_CORPUS_REPLACEMENT>. Vielleicht hast du Typen/Pointer vermurkst. Etwas mehr Kontext wäre nicht schlecht, meine <REMOVED_PERSON_ENTITY> ist beschlagen.
+TAGGED_CONTENT:

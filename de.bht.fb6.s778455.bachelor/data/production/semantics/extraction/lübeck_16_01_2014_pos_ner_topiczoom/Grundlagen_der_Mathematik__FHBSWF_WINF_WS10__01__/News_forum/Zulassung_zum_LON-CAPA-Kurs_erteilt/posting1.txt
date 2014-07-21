@@ -1,0 +1,14 @@
+ID: 97736
+CREATION_DATETIME: 1287567939
+MODIFICATION_DATETIME: 1287567939
+TITLE: Zulassung zum LON-CAPA-Kurs erteilt
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+POS_TAG: value:Email;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anfragen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Problemen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Alle Anfragen bis heute wurden bearbeitet. Bei weiteren Problemen bitte Email!
+TAGGED_CONTENT:
+Alle_PIDAT Anfragen_NN bis_APPR heute_ADV wurden_VAFIN bearbeitet_VVPP ._$. Bei_APPR weiteren_ADJA Problemen_NN bitte_VVFIN Email_NN !_$. 

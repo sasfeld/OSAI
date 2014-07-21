@@ -1,0 +1,14 @@
+ID: 2924
+CREATION_DATETIME: 1384815600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+ich hab <NAME_CORPUS_REPLACEMENT> mal eine Frage zum Thema input validation. Wie kann ich bei der Registrierung ein <NAME_CORPUS_REPLACEMENT> namens "Alter" auf Volljährigkeit überprüfen? Also dass die Registrierung nur durchgeführt wird, wenn im <NAME_CORPUS_REPLACEMENT> "Alter" eine 18 oder größer steht? Das Input-Feld in der HTML ist schon erledigt, es geht mir nur um den Java-Code. Mit "@NotEmpty" kann ich ja ein <REMOVED_PERSON_ENTITY> auf überhaupt existenten Inhalt überprüfen, gibt es sowas oder sowas ähnliches auch für das Alter?
+
+Vielen Dank!
+TAGGED_CONTENT:

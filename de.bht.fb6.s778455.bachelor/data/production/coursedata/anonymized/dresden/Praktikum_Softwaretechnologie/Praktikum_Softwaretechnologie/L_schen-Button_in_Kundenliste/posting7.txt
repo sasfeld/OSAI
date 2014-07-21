@@ -1,0 +1,37 @@
+ID: 2973
+CREATION_DATETIME: 1385074800000
+MODIFICATION_DATETIME: 1385074800000
+TITLE: Danke für die Erklärung mit dem UserAccount, ist eigentlich logisch, dass man den nicht löschen kann!...
+PARENT_POSTING_ID: 2935
+POSTING_TYPE: comment
+CONTENT:
+Danke für die Erklärung mit dem UserAccount, ist eigentlich logisch, dass man den nicht löschen kann!
+ich hab mal den namen des hidden input feldes angepasst auf name="id"
+und so sieht jetzt mein code aus:
+```ruby
+@Controller
+@PreAuthorize("hasRole('ROLE_CHIEF')")
+class ChiefController {
+	private final CustomerRepository customerRepository;
+	private UserAccountManager userAccountManager;
+	@Autowired
+	public ChiefController(CustomerRepository customerRepository, UserAccountManager userAccountManager) {
+		this. customerRepository = customerRepository;
+		this. userAccountManager = userAccountManager;
+	}
+	@RequestMapping("/customers")
+	public String customers(ModelMap modelMap) 
+	{
+		Iterable customerList = customerRepository. findAll();
+		modelMap. addAttribute("customerList", customerList);
+		return "customers";
+	}
+	@RequestMapping(value="/deleteUser", method=RequestMethod. POST)
+	public String deleteUser(@RequestParam("id") UserAccountIdentifier userAccountIdentifier) {
+		userAccountManager. disable(userAccountIdentifier);
+	}
+}
+```
+In der <REMOVED_PERSON_ENTITY> der Methode deleteUser bekomm ich den Fehler, dass RequestParam nicht mit dem Identifier umgehen kann und dann muss ich ja meine tabelle noch iwie updaten, sodass der nutzer dann entweder als disbaled markiert ist oder garnicht mehr erscheint, könnt ich <NAME_CORPUS_REPLACEMENT> noch nen tipp bekommen?
+Dankeschön! (:
+TAGGED_CONTENT:

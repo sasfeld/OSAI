@@ -1,0 +1,9 @@
+ID: 1163
+CREATION_DATETIME: 1362351600000
+MODIFICATION_DATETIME: 1362351600000
+TITLE: Mein Fehler. Die Namen sind Deutsch, ich hatte den englischen probiert. Klappt.
+PARENT_POSTING_ID: 1160
+POSTING_TYPE: comment
+CONTENT:
+Mein Fehler. Die <REMOVED_PERSON_ENTITY> sind <REMOVED_PERSON_ENTITY>, ich hatte den englischen probiert. Klappt.
+TAGGED_CONTENT:

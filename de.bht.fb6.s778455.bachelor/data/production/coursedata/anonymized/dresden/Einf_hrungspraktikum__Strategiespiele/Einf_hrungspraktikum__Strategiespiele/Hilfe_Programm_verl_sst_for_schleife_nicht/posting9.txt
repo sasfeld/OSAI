@@ -1,0 +1,9 @@
+ID: 1339
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: die beiden ersten printfs werden bei jedem durchlauf ausgespuckt
+PARENT_POSTING_ID: 1329
+POSTING_TYPE: comment
+CONTENT:
+die beiden ersten printfs werden bei jedem durchlauf ausgespuckt er verlässt halt die shcleife nich nach dem 33. durchlauf
+TAGGED_CONTENT:

@@ -1,0 +1,19 @@
+ID: 88
+CREATION_DATETIME: 1183653360000
+MODIFICATION_DATETIME: 1183653360000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 87
+CONTENT:
+
+Lieber Herr ,
+
+die Methode println ruft automatisch die Methode toString() auf, um eine Zeichenkette-Darstellung des Objektes zu erhalten, das zur Konsole ausgegeben wird. In diesem Fall wird die Methode toString() der Klasse Object benutzt, und sie liefert die Referenz des Arrays statt die Komponenten des Arrays.
+Entweder Sie Schreiben selbst eine Schleife, um jede Komponente auszugeben, oder Sie benutzen die Methode toString() der Klasse java.util.Arrays, die das macht:
+Sysstem.out.println(java.util.Arrays.toString(anzahl(ir1)));
+
+Am besten Sie üben sogar beides zwinkernd !
+
+Mit freundlichen Grüßen,
+ 	
+TAGGED_CONTENT:

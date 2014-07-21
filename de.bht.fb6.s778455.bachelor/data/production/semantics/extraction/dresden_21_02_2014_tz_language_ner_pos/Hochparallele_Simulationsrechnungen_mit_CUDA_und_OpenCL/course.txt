@@ -1,0 +1,12 @@
+ID: 110804185
+CREATION_DATETIME: 1380492000000
+MODIFICATION_DATETIME: 1380492000000
+LANG: null
+SHORT_NAME: null
+TITLE: Hochparallele Simulationsrechnungen mit CUDA und OpenCL
+LANGUAGE: GERMAN
+SUMMARY: null
+NER_TAG: value:CUDA;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Simulationsrechnungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:CUDA;weight:0.0;uri:;postag:NN
+POS_TAG: value:OpenCL;weight:0.0;uri:;postag:NN

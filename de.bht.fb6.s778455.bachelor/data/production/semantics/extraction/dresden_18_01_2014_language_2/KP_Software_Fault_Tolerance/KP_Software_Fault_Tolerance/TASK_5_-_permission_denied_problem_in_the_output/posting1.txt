@@ -1,0 +1,34 @@
+ID: 989
+CREATION_DATETIME: 1355958000000
+MODIFICATION_DATETIME: 1366927200000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi. I have problems regarding TASK 5. The output of the server is :
+
+========= RUNNING TESTS ==========
+
+subtask failed
+
+Your output
+
+./run. sh: 3: ./run. sh: ./fig. c: Permission denied
+
+./run. sh: 4: ./run. sh: ./fig. c: Permission denied
+
+./run. sh: 5: ./run. sh: ./fig. c: Permission denied
+
+./run. sh: 6: ./run. sh: ./fig. c: Permission denied
+
+./run. sh: 7: ./run. sh: ./fig. c: Permission denied
+
+./run. sh: 8: ./run. sh: ./fig. c: Permission denied
+
+Died at parseOutput. pl <NAME_CORPUS_REPLACEMENT> 22,  <NAME_CORPUS_REPLACEMENT> 6.
+
+Expected injection "read_EIO" was ""subtask failed
+
+Please, help me to understand the problem. 
+TAGGED_CONTENT:

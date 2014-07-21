@@ -1,0 +1,15 @@
+ID: 43
+CREATION_DATETIME: 1195563360000
+MODIFICATION_DATETIME: 1195563360000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 42
+CONTENT:
+
+hallo david!
+
+eigentlich wollte ich die aufgaben allein machen um mehr übung zu bekommen (kann ja nicht schaden ;)), aber wenn du willst können wir gern vergleichen und zusammen arbeiten. habe gerade allerdings erst bei le07 angefangen. du bist schon weiter, oder?
+
+grüße,
+   
+TAGGED_CONTENT:

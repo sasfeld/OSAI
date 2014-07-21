@@ -1,0 +1,9 @@
+ID: 3001
+CREATION_DATETIME: 1385247600000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: in der zweiten Zeile fehlt bei "... mit am anfang..." das anfangsformtag und das endformtag und den s...
+PARENT_POSTING_ID: 2935
+POSTING_TYPE: comment
+CONTENT:
+in der zweiten Zeile fehlt bei "... mit am anfang..." das anfangsformtag und das endformtag und den submit-button mit dem entsprechenden input-tag gekennzeichnet hatte...
+TAGGED_CONTENT:

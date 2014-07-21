@@ -1,0 +1,16 @@
+ID: 626
+CREATION_DATETIME: 1351638000000
+MODIFICATION_DATETIME: 1382652000000
+TITLE: Ein Editor sind Tutoren, die also nur die Übungen betreuen, aber nicht für die gesamte Lehrveranstalt...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 625
+POSTING_TYPE: answer
+CONTENT:
+Editoren sind <REMOVED_PERSON_ENTITY>, die also nur die Übungen betreuen, aber nicht für die gesamte Lehrveranstaltung verantwortlich sind. Der Editor kann Ankündigungen schreiben. Private Fragen beantworten, Post innerhalb des Kurses konvertieren. Er kann die Kursbeschreibung ändern, aber keine Benutzer verwalten oder den Kurs löschen.
+
+Ein Maintainer ist der Verantwortliche der jeweiligen Lehrveranstaltung, als für gewöhnlich der Prof. oder Dr. oder Mitarbeiter. Der Maintainer kann zusätzlich zum Editor Mitglieder des Kurses verwalten und ein neues Semester für die Lehrveranstaltung eintragen und den jeweiligen Kurs löschen. 
+
+Falls jemand als Vertreter des Lehrverantwortlichen als Maintainer eingetragen werden soll, so ist es am besten eine Private Frage in dem jeweiligen Kurs zu stellen oder uns eine entsprechende [Mail](mailto:auditorium@inftex. net) zu schreiben.
+
+Ich hoffe, ich konnte Unklarheiten auflösen?
+TAGGED_CONTENT:

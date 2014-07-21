@@ -1,0 +1,22 @@
+ID: 117519
+CREATION_DATETIME: 1319129564
+MODIFICATION_DATETIME: 1319129582
+TITLE: Re: LON-CAPA Belegung
+TOPIC_ZOOM_TAG: value:E-Mail;weight:1.0;significance:7.02837690621686;degreegeneralization:7;uri:20901800
+TOPIC_ZOOM_TAG: value:Kommunikationsdienste;weight:1.0;significance:6.8534775930315;degreegeneralization:4;uri:20034732
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:1.0;significance:6.50399175266524;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Internetdienste;weight:1.0;significance:5.01006672735298;degreegeneralization:6;uri:20772413
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Services und Dienstleistungen;weight:1.0;significance:4.22947364593082;degreegeneralization:4;uri:21993506
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:1.80459553725326;degreegeneralization:2;uri:21999847
+POS_TAG: value:Emails;weight:0.0;uri:;postag:NN
+POS_TAG: value:t;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117518
+CONTENT:
+ Ach hab gerade meine Emails geprüft bin zu Spät schade...
+TAGGED_CONTENT:
+Ach_ITJ hab_VAFIN gerade_ADV meine_PPOSAT Emails_NN geprüft_VVPP bin_VAFIN zu_APPR Spät_NN schade_ADJD ..._$( 

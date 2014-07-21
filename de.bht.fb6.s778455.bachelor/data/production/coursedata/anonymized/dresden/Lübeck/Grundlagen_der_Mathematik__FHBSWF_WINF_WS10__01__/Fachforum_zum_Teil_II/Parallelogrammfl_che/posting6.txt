@@ -1,0 +1,8 @@
+ID: 97810
+CREATION_DATETIME: 1293043631
+MODIFICATION_DATETIME: 1293043631
+TITLE: Re: Parallelogrammfläche
+PARENT_POSTING_ID: 97807
+CONTENT:
+Geben Sie bitte das Ergebnis in der Form sqrt(...) ein und dann passt es. Das System nimmt die (evtl. gerundete) Ergebnisform nicht an, aber die Norm des Vektors als Term innerhalb einer Quadratwurzel. Daher: sqrt(a^2+b^2+c^2) mit a, b und c den passenden Zahlen. Das ist in der Aufgabe nicht gut erklaert, dass das so erwartet wird.
+TAGGED_CONTENT:

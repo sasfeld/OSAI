@@ -1,0 +1,27 @@
+ID: 2661
+CREATION_DATETIME: 1383174000000
+MODIFICATION_DATETIME: 1383174000000
+TITLE: Grundsätzlich deuten solche MethodNotFound bzw. AbstractMethodError Exceptions immer darauf hin, dass...
+PARENT_POSTING_ID: 2658
+POSTING_TYPE: answer
+CONTENT:
+Grundsätzlich deuten solche MethodNotFound bzw. AbstractMethodError Exceptions immer darauf hin, dass irgendwelche Abhängigkeiten nicht in den passenden Versionen im Classpath liegen. Ich finde hier aktuell im pom 1. 1. 0 für das Validation API und 5. 0. 1. Final für Hibernate Validator. Die passen beide zusammen und ich kann das hier auch lokal so starten.
+Kannst du mal bitte folgendes tun, damit wir herausbekommen, was bei dir genau läuft:
+Entweder im Eclipse rechts auf's Projekt klicken: Run As > Maven Build..., im kommenden <REMOVED_PERSON_ENTITY> bei "Goals:" `dependency:tree` eingeben und dann hier deiner Frage den Konsolenoutput hinzufügen? Alternativ - falls du Maven auf der Kommandozeile installiert hast, im Projektordner einfach `mvn dependency:tree`. Das sollte dir auch alle Abhängigen Bibliotheken listen und in welcher Version die gezogen werden. Dann können wir weiter schauen.
+EDIT: Ich seh' gerade: ich laufe in exakt deinen Fehler, wenn ich für Hibernate Validator, wie vorgeschlagen, die Versionsnummer entfernte und für javvax. validation die Abhängigkeit in 1. 1. 0 definiert <NAME_CORPUS_REPLACEMENT>. Hast du das evtl. vorab schon angepasst und dann die `pom. xml` nicht gespeichert? Sowas passiert fix mal. Hier nochmal eine zusammenfassung welche Kombinationen tun sollten:
+1. Wie im ZIP ausgeliefert
+```xml
+	javax. validation
+	validation-api
+	1. 1. 0. Final
+	org. hibernate
+	hibernate-validator
+	5. 0. 1. Final
+```
+2. Hibernate Validator only 
+(wichtig, bei diesem Ansatz javax. validation nicht (in 1. 1. 0) deklarieren, die gemanagte Hibernate Validator version 4. 3. x zieht dann transparent eine kompatible 1. 0 <NAME_CORPUS_REPLACEMENT> java. validation):
+```xml
+	org. hibernate
+	hibernate-validator
+```
+TAGGED_CONTENT:

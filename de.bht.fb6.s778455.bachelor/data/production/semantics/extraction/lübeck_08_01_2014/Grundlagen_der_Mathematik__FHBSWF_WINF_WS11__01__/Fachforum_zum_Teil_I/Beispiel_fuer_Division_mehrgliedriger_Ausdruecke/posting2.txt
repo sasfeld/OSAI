@@ -1,0 +1,13 @@
+ID: 117574
+CREATION_DATETIME: 1317849329
+MODIFICATION_DATETIME: 1317849329
+TITLE: Re: Beispiel fuer Division mehrgliedriger Ausdruecke
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 117573
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>, das ist der zweite Teil der Aufgabe, der sicher in zweiter Konsequenz sehr interessant ist. Um diesen zu verstehen, sollte m. E. der erste Teil, also die Aufgabe 372:31 behandelt werden. Bitte detailliert mit einer verständlichen Erklärung. (nicht wie im Skript auf S. 38). Sorry, aber mir fehlen eben die <REMOVED_PERSON_ENTITY> 11-13 Mathematik. Dafür bringe ich Interesse an Mathematik mit. Ich muss <REMOVED_PERSON_ENTITY> nur einmal richtig verstanden haben, dann wird es schon ... M. f. G. <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

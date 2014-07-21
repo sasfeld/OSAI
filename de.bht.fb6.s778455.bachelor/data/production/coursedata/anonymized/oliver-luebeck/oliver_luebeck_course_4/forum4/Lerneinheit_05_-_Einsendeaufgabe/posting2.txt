@@ -1,0 +1,18 @@
+ID: 10
+CREATION_DATETIME: 1176110340000
+MODIFICATION_DATETIME: 1176110340000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 9
+CONTENT:
+
+    Liebe ,
+
+Danke für diese gute Frage.
+Das Attribut alt funktioniert nur mit <Object> Tag nicht, nur mit dem <applet> Tag.
+<noembed> ersetzt das Attribut alt nicht. <noembed> wird nur berücksichtig, wenn der Tag <embed> nicht verstanden wird.
+Der Text dieser Seite wurde neulich ergänzt. Ich merke, dass er nicht genau genug ist, und werde vorschlagen, dass er überarbeitet wird.
+
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

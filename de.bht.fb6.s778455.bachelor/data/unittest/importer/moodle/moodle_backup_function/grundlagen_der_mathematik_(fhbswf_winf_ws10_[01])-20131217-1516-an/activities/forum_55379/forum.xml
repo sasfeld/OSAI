@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="11446" moduleid="55379" modulename="forum" contextid="78608">
+  <forum id="11446">
+    <type>news</type>
+    <name>News forum</name>
+    <intro>General news and announcements</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>1</scale>
+    <maxbytes>0</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1185445767</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="36346">
+        <name>LON-CAPA</name>
+        <firstpost>97735</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1285338473</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97735">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1285329082</created>
+            <modified>1285338473</modified>
+            <mailed>1</mailed>
+            <subject>LON-CAPA</subject>
+            <message>Liebe Studierende,
+
+bitte loggen Sie sich bis zum 30.9. (sofern Account vorliegt) in LON-CAPA erstmalig ein. Der Link ist im Allgemeinen Forum dieses Moduls zu finden, zur Erinnerung:
+
+https://vita.sonia.de/adm/login?username=&amp;domain=fhwf
+
+Benutzerkennung und Passwort sind dasselbe, das Sie vom Rechenzentrum fuer andere Accounts bekommen haben.
+
+Hintergrund: Bei Ihrer ersten Anmeldung registriert Sie LON-CAPA automatisch. Danach kann ich Ihren Namen dem Kurs hinzufuegen. Sobald das geschehen ist, bietet Ihnen LON-CAPA diesen Kurs an und sie koennen darin die Einsendeaufgaben bearbeiten.
+
+Gruss Prof. Nils Jensen
+</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36347">
+        <name>Zulassung zum LON-CAPA-Kurs erteilt</name>
+        <firstpost>97736</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1287567939</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97736">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1287567939</created>
+            <modified>1287567939</modified>
+            <mailed>1</mailed>
+            <subject>Zulassung zum LON-CAPA-Kurs erteilt</subject>
+            <message>Alle Anfragen bis heute wurden bearbeitet. Bei weiteren Problemen bitte Email!</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36348">
+        <name>ESAs "Reelle Zahlen" und "Funktionen" auf 23.11. verschoben</name>
+        <firstpost>97737</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1289823855</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97737">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1289823855</created>
+            <modified>1289823855</modified>
+            <mailed>1</mailed>
+            <subject>ESAs "Reelle Zahlen" und "Funktionen" auf 23.11. verschoben</subject>
+            <message>Liebe Studierende,
+
+fuer o.g. ESAs gebe ich eine Woche extra, damit wir die gesamte LO 02 vorher fertig bekommen.
+
+Gruss Prof. Nils Jensen</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36349">
+        <name>Einsendung "Aussagenlogik" bis heute, Donnerstag, 23:00 faellig.</name>
+        <firstpost>97738</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1291279769</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97738">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1291275907</created>
+            <modified>1291279769</modified>
+            <mailed>1</mailed>
+            <subject>Einsendung "Aussagenlogik" bis heute, Donnerstag, 23:00 faellig.</subject>
+            <message>Der gestrige Chat hat alles behandelt. Heute verlaengere ich ausnahmsweise den Termin um 23 Stunden, weil erst gestern der letzte Chat war.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36350">
+        <name>Naechster Praesenztermin diese Woche, Samstag</name>
+        <firstpost>97739</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1291834697</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97739">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1291834697</created>
+            <modified>1291834697</modified>
+            <mailed>1</mailed>
+            <subject>Naechster Praesenztermin diese Woche, Samstag</subject>
+            <message>Liebe Studierende,
+
+der naechste Termin ist diese Woche und bitte dem Kursplan zu entnehmen. Ich wuensche Ihnen eine sichere Anreise.
+
+Gruesse Nils Jensen</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36351">
+        <name>Naechster Chat im neuen Jahr</name>
+        <firstpost>97740</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1293098632</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97740">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1293098632</created>
+            <modified>1293098632</modified>
+            <mailed>1</mailed>
+            <subject>Naechster Chat im neuen Jahr</subject>
+            <message>Frohe Festtage Ihnen und Ihren Familien. Fuer die Chat-freie Zeit liegen seit gestern Uebungen fuer Sie im Forum bereit. Diese koennen Sie gerne zusammen bearbeiten.
+
+Prof. Nils Jensen
+</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36352">
+        <name>ESAs heute endfaellig</name>
+        <firstpost>97741</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1294345513</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97741">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1294345513</created>
+            <modified>1294345513</modified>
+            <mailed>1</mailed>
+            <subject>ESAs heute endfaellig</subject>
+            <message>Erinnerungsemail. s. bitte Eintragungen in LON-CAPA vom letzten Jahr.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36353">
+        <name>Pruefungsvorleistungsergebnisse...</name>
+        <firstpost>97742</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1294504559</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97742">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1294504559</created>
+            <modified>1294504559</modified>
+            <mailed>1</mailed>
+            <subject>Pruefungsvorleistungsergebnisse...</subject>
+            <message>...sind im EPV ab heute einsehbar. Bei Rueckfragen bitte kurze Email!
+
+Gruss Prof. Jensen</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36354">
+        <name>Klausureinsicht Freitag 11:00-12:00 R10 nt</name>
+        <firstpost>97743</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1297872055</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97743">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1297872055</created>
+            <modified>1297872055</modified>
+            <mailed>1</mailed>
+            <subject>Klausureinsicht Freitag 11:00-12:00 R10 nt</subject>
+            <message>no text</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

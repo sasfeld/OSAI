@@ -1,0 +1,9 @@
+ID: 2490
+CREATION_DATETIME: 1375480800000
+MODIFICATION_DATETIME: 1375480800000
+TITLE: Wenn du dir sicher bist, den Beleg nicht bestanden zu haben, solltest du allerdings seit der Belegabg...
+PARENT_POSTING_ID: 2488
+POSTING_TYPE: comment
+CONTENT:
+Wenn du dir sicher bist, den Beleg nicht bestanden zu haben, solltest du allerdings seit der Belegabgabe *deutliche* Fortschritte in UML und Java gemacht haben, sonst wird das mit hoher Wahrscheinlichkeit auch mit der Klausur nix!
+TAGGED_CONTENT:

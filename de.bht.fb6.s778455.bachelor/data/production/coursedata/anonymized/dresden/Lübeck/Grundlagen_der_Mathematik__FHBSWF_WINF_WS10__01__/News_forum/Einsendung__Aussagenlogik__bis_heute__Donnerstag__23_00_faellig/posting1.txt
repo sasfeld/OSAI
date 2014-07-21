@@ -1,0 +1,8 @@
+ID: 97738
+CREATION_DATETIME: 1291275907
+MODIFICATION_DATETIME: 1291279769
+TITLE: Einsendung "Aussagenlogik" bis heute, Donnerstag, 23:00 faellig.
+PARENT_POSTING_ID: 0
+CONTENT:
+Der gestrige Chat hat alles behandelt. Heute verlaengere ich ausnahmsweise den Termin um 23 Stunden, weil erst gestern der letzte Chat war.
+TAGGED_CONTENT:

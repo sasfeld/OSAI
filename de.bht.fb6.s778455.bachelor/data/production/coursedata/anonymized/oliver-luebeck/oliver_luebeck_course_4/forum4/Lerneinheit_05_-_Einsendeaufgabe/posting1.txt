@@ -1,0 +1,26 @@
+ID: 9
+CREATION_DATETIME: 1175964960000
+MODIFICATION_DATETIME: 1175964960000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+    Hallo,
+ich habe ein Frage zur Einsendeaufgabe LE05:
+Auf der HTML-Seite soll ein Alt-Text eingegeben werden.
+Ich habe das Applet nach der unabhängigen Variante eingebettet und wie beim Beispiel aus der Lerneinheit ClockUnabh.html gearbeitet.
+
+<noembed>
+Ihr Browser kann das Applet nicht ausführen!
+</noembed>
+
+Bei beiden Dateien wird der Alternativ-Text bei deaktiviertem Java im Mozilla Browser jedoch nicht angezeigt.
+
+Dagegen wird der Text bei dem Standardverfahren mit <applet> Tag angezeigt.
+Wie muß der Alt-Text bei der unabhängigen Variante eingebaut werden, damit er angezeigt wird?
+
+Danke & viele Grüße,
+    
+    
+TAGGED_CONTENT:

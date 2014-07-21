@@ -1,0 +1,6 @@
+ID: 2154522
+CREATION_DATETIME: 1380492000000
+MODIFICATION_DATETIME: 1380492000000
+TITLE: Engineering industrieller Kommunikationssysteme
+INTRO: null
+TYPE: null

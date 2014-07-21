@@ -1,0 +1,7 @@
+ID: 2072947
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Web- und Multimedia-Engineering [WME]
+LANGUAGE: UNKNOWN
+INTRO: Die Vorlesung gibt einen Überblick über die wichtigsten aktuellen Methoden und Entwicklungswerkzeuge zum Entwurf und zur Realisierung multimedialer verteilte Web-Anwendungen. Sie soll damit Studierende befähigen, für das jeweilige Anwendungsproblem die geeigneten Techniken und Werkzeuge zu wählen und eine Vorstellung zu entwickeln, welche Möglichkeiten diese bieten, wie sie methodisch vorgehen müssen und welche Schwierigkeiten damit verbunden sind. 
+TYPE: null

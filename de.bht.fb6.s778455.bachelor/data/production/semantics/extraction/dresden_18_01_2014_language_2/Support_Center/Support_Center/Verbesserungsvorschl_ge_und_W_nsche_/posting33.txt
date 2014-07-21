@@ -1,0 +1,10 @@
+ID: 798
+CREATION_DATETIME: 1353279600000
+MODIFICATION_DATETIME: 1353279600000
+TITLE: Falls du mit der externen Kursseite die Seite beim jeweiligen Lehrstuhl meinst, dann gibt es diese Fu...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 797
+POSTING_TYPE: comment
+CONTENT:
+Falls du mit der externen Kursseite die <REMOVED_PERSON_ENTITY> beim jeweiligen Lehrstuhl meinst, dann gibt es diese Funktion schon. Der Maintainer des Kurses muss die URL nur auf der <REMOVED_PERSON_ENTITY> des Kurses eintragen und dann erscheint der Link oben unter Further information.
+TAGGED_CONTENT:

@@ -1,4 +1,0 @@
-CREATION_DATETIME: 1369933919
-CONTENT: 
-
-OK stimmt, jetzt gibt der Compiler Ruhe, danke!

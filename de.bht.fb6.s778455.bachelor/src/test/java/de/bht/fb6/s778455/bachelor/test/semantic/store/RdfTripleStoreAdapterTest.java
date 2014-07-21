@@ -28,7 +28,7 @@ import com.hp.hpl.jena.rdf.model.impl.StatementImpl;
 
 import de.bht.fb6.s778455.bachelor.semantic.store.RdfTripleStoreAdapter;
 import de.bht.fb6.s778455.bachelor.test.framework.JenaFrameworkTest;
-import de.bht.fb6.s778455.bachelor.test.framework.LoggingAwareTest;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>
@@ -48,7 +48,7 @@ import de.bht.fb6.s778455.bachelor.test.framework.LoggingAwareTest;
  * @since 30.01.2014
  * 
  */
-public class RdfTripleStoreAdapterTest extends LoggingAwareTest {
+public class RdfTripleStoreAdapterTest extends NoLoggingTest {
     protected RdfTripleStoreAdapter adapter;
 
     /**

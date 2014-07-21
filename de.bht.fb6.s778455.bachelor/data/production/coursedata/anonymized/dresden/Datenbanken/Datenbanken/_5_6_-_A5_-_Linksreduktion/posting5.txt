@@ -1,0 +1,9 @@
+ID: 2513
+CREATION_DATETIME: 1375999200000
+MODIFICATION_DATETIME: 1376085600000
+TITLE: Hab meinen Beitrag geändert. Wenn man sich die formale Definition genau anguckt, sieht man, dass man ...
+PARENT_POSTING_ID: 2509
+POSTING_TYPE: comment
+CONTENT:
+Hab meinen Beitrag geändert. Wenn man sich die formale Definition genau anguckt, sieht man, dass man die Hülle <NAME_CORPUS_REPLACEMENT> D bilden muss, wobei die <REMOVED_PERSON_ENTITY> der funktion. Abhängigkeiten unverändert gelassen wird! Und nach "D bestimmt C und F" können wir die Regel "C und D bestimmt A, B und E" anwenden und kommen auf das gewünschte Ergebnis.
+TAGGED_CONTENT:

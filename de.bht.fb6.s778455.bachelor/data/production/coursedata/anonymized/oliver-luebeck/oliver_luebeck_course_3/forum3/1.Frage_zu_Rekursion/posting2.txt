@@ -1,0 +1,12 @@
+ID: 9
+CREATION_DATETIME: 1198021440000
+MODIFICATION_DATETIME: 1198021440000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 8
+CONTENT:
+
+    Das bewirkt die if-abfrage. Zunächst wird das 4,3,2,1,0 durch das 1-ste println(a) gebildet und da a!=0, geht man immer einen schritt weiter in die rekursion hinein. Nach dem man bei a=0 angelangt ist geht man wieder die einzelnen Schritte raus aus der rekursion und das 2-te println(a) kommt zum züge (das programm wird ja weiter abgearbeitet). das 2-te println(a) gibt nun nacheinander den wert von a aus, der vor dem rekursionsschritt a zugewiesen wurde... also quasi rückwärts wieder nach oben zählen. Ich hoffe das richtig verstanden und erklärt zu haben. lg
+
+    
+TAGGED_CONTENT:

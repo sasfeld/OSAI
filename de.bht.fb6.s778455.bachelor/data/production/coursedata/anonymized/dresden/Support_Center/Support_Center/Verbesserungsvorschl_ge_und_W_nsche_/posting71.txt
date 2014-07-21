@@ -1,0 +1,9 @@
+ID: 1258
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: in der notification-uebersicht nicht nur die lehrveranstaltung, sondern auch den titel des topics anz...
+PARENT_POSTING_ID: 369
+POSTING_TYPE: answer
+CONTENT:
+in der notification-uebersicht nicht nur die lehrveranstaltung, sondern auch den titel des topics anzeigen
+TAGGED_CONTENT:

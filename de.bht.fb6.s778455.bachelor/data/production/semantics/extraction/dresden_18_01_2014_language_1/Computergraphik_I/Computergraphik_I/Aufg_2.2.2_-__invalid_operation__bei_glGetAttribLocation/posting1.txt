@@ -1,0 +1,20 @@
+ID: 826
+CREATION_DATETIME: 1353538800000
+MODIFICATION_DATETIME: 1355094000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+in `exercise2::create_vertex_buffers` bekomme ich einen "invalid operation" Fehler nach der Anweisung `glGetAttribLocation(program_id, "in_position");`.
+
+Der [Doku](http://www.opengl.org/sdk/docs/man/xhtml/glGetAttribLocation. xml) zufolge gibts das nur wenn
+
+* program_id nicht <NAME_CORPUS_REPLACEMENT> OpenGL gesetzt wurde - trifft nicht zu
+
+* program_id kein Programm bezeichnet - [`glIsProgram(program_id)`](http://www.opengl.org/sdk/docs/man/xhtml/glIsProgram. xml) gibt aber 1 zurück, also trifft das wohl auch nicht zu
+
+* das Programm nicht erfolgreich gelinkt wurde - nach `glLinkProgram(program_id)` bekomme ich aber keinen Fehler
+
+kann mir <NAME_CORPUS_REPLACEMENT> einer weiterhelfen?
+TAGGED_CONTENT:

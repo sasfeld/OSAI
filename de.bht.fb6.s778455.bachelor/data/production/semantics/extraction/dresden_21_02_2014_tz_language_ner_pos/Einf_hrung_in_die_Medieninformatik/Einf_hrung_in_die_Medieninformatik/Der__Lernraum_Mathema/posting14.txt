@@ -1,0 +1,11 @@
+ID: 222
+CREATION_DATETIME: 1349647200000
+MODIFICATION_DATETIME: 1349647200000
+TITLE: Gut, dann hätte sich 
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 201
+POSTING_TYPE: comment
+CONTENT:
+Gut, dann hätte sich das wohl soweit erledigt. Danke!
+TAGGED_CONTENT:
+Gut_ADJD ,_$, dann_ADV hätte_VAFIN sich_PRF das_ART wohl_ADV soweit_ADV erledigt_VVPP ._$. Danke_PROAV !_$. 

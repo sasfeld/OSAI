@@ -1,0 +1,10 @@
+ID: 532
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1351202400000
+TITLE: Question 2: The retired instructions is a performance counter that counts the instructions that were ...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 514
+POSTING_TYPE: answer
+CONTENT:
+Question 2: The retired instructions is a performance counter that counts the instructions that were completed (not the speculative ones, see http://software.intel.com/en-us/forums/topic/311170). Each replica executes R instructions in one round, but R is imprecise by max N instructions. 
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 110406008
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Design Patterns and Frameworks
+LANGUAGE: ENGLISH
+SUMMARY: null
+URL: http://st.inf.tu-dresden.de/teaching/dpf

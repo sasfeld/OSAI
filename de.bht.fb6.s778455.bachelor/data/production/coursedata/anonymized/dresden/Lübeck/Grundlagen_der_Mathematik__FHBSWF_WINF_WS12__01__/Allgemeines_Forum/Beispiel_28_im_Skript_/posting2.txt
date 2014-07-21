@@ -1,0 +1,14 @@
+ID: 194659
+CREATION_DATETIME: 1358533739
+MODIFICATION_DATETIME: 1358533739
+TITLE: Re: Beispiel 28 im Skript....
+PARENT_POSTING_ID: 194617
+CONTENT:
+Hi <REMOVED_PERSON_ENTITY>,
+die Lösung die im Script angegeben ist, ist als affine Menge angegeben. Hierbei wurde aber erst die Lösung angegeben und später der Spaltentausch rückgängig gemacht. Ich bevorzuge es, auf Spaltentausch zu verzichten bzw. den Spaltentausch bereits vor Angabe der Lösung rückgängig zu machen.
+Letzentlich wurde folgendes gemacht. Wenn man den Spaltentausch nicht rückkängig ergeben sich für x1-x4 folgende Lösungen. Die kann man aus den LGS ablesen muss dann aber die Gleichung noch nach x1, x2 x3 etc. umstellen. x1=-3-3x3+5x4x2=-3+2x4x3=rx4=sFür x3 und x4 müssen freie Parameter vergeben werden, da diese über das LGS nicht ausreichend bestimmt wurden sind oder anders ausgedrückt unendliche viele Lösungen haben. (Ich hoffe man darf das so sagen?)Wenn ich jetzt für x3 und x4 jeweils r und s einsetze(das sind die freien Paramter), erhalte ich folgendes:x1=-3-3r+5sx2=-3+2sx3=rx4=sDiese Lösung kann ich auch als Vektordarstellung (affine <REMOVED_PERSON_ENTITY>) angeben und zwar.
+(x1, x2, x3, x4)^T=(-3, -3, 0, 0)^T+r*(-3, 0, 1, 0)+s(5, 2, 0, 1)
+Ich gebe also in den jeweilgen Vektoren die Anzahl von r und s an. Ich hoffe das hilft weiter?
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

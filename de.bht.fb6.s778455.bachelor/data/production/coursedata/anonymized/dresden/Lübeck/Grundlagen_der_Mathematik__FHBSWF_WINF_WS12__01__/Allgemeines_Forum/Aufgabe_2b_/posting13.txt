@@ -1,0 +1,10 @@
+ID: 185665
+CREATION_DATETIME: 1354785250
+MODIFICATION_DATETIME: 1354785250
+TITLE: Re: Aufgabe 2b)
+PARENT_POSTING_ID: 185647
+CONTENT:
+Moin,
+genau das, was <REMOVED_PERSON_ENTITY> geschrieben hat, ist mir dann auch gestern in den Sinn gekommen. Es geht laut Aufgabenstellung nämlich nur darum, ob W ein UVR von V ist, nicht um das Beweisen, dass die Nullregel in allen Fällen erfüllt ist. Hinweis aus der Aufgabe: "nur für sich selber, nicht für die Aufgabenlösung"... somit denke ich, dass wir wirklich nur die Kriterien für den UVR prüfen müssen. Heißt, dass wir uns die Knotenbewertungen (gesamt v1, v2, v3, v4, nicht die einzelnen reellen Zahlen an den Knoten) als <REMOVED_PERSON_ENTITY> (wie in Aufgabe 2a schon beschrieben) denken/notieren und diese dann als <REMOVED_PERSON_ENTITY> definieren, da wir ja aus Aufgabe 2c schon wissen, dass diese linear unabhängig sind. Hieraus ergibt sich also ein <REMOVED_PERSON_ENTITY> mit der Dimension 4 (ein <REMOVED_PERSON_ENTITY> kann als Vektorraum gesehen werden). Da wir ganz IR zu Verfügung haben, können wir hier beliebige Skalare nutzen, um die skalare Multiplikation mit den Vektoren durchzuführen. Und die "neuen" Vektoren führen (da gesamt IR) nicht aus dem UVR W heraus. Genauso die Addition der Vektoren. Es sind dann halt immernoch Vektoren aus W. Da kann man machen, was man will. Die üblichen LK's, die die restlichen Vektoren aus W beschreiben, sind natürlich, wie <REMOVED_PERSON_ENTITY> auch schon geschrieben hat, enthalten.
+<REMOVED_PERSON_ENTITY>{a*v1, b*v2, c*v3, d*v4 | a, b, c, d € IR}Irgendwie so hätte ich das dann aufgeschrieben. Was meint ihr dazu?GrüßeLars
+TAGGED_CONTENT:

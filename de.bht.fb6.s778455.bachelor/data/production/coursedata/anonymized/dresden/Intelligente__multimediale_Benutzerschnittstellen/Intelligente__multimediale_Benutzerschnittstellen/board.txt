@@ -1,0 +1,6 @@
+ID: 2071996
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Intelligente, multimediale Benutzerschnittstellen
+INTRO: null
+TYPE: null

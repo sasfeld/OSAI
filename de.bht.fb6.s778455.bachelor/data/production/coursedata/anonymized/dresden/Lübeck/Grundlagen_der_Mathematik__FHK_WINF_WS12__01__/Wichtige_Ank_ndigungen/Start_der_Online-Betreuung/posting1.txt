@@ -1,0 +1,11 @@
+ID: 162555
+CREATION_DATETIME: 1348297938
+MODIFICATION_DATETIME: 1348297938
+TITLE: Start der Online-Betreuung
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Studierenden,
+schön, dass Sie sich schon so frühzeitig mit dem Ablauf Ihres Studiums befassen. Den Zeitplan und die Termine für die Videokonferenzen finden Sie jetzt (aktualisiert) unter Kursplan. In unserer ersten Videokonferenz am 2. 10. 12 (19 Uhr) werden wir alle organisatorischen Fragen klären.
+Bis dann und einen erfolgreichen Start!
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

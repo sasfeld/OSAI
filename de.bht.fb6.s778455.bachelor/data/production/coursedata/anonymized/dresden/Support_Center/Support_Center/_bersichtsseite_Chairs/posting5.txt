@@ -1,0 +1,9 @@
+ID: 370
+CREATION_DATETIME: 1350424800000
+MODIFICATION_DATETIME: 1350424800000
+TITLE: Die Seite dürfte ja j
+PARENT_POSTING_ID: 158
+POSTING_TYPE: answer
+CONTENT:
+Die <REMOVED_PERSON_ENTITY> dürfte ja jetzt übersichtlicher geworden sein. Entsprechend können wir diese Frage ja als beantwortet markieren. Falls dem so ist, einfach mal auf den Haken drücken :)
+TAGGED_CONTENT:

@@ -1,0 +1,46 @@
+ID: 54
+CREATION_DATETIME: 1305034680000
+MODIFICATION_DATETIME: 1305034680000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 53
+CONTENT:
+  
+Na das sieht doch sehr sauber aus :).
+
+Du könntest allerdings die switch case nun auch noch in deine pruefeMesswer einbauen :). Dann sparst du dir das in der Main Methode und deine pruefeMesswert braucht dann keinen Rückgabewert, kann jedoch zur Weiterverarbeitung dennoch den Wert zurück geben.
+
+Beispiel:
+
+public static char pruefeMesswert(double a) {
+
+char ret = 'u';
+
+if(a == 0.0) ret = 'e';
+if(a <= 0.1) ret = 't';
+if(a <= 0.5) ret = 'b';
+
+switch(ret) {
+case 'e':
+System.out.println("Der Messwert entspricht exakt dem Sollwert.");
+break;
+case 't':
+System.out.println("Der Messwert ist in Toleranz.");
+break;
+case 'b':
+System.out.println("Der Messwert ist brauchbar.");
+break;
+case 'u':
+System.out.println("Der Messwert ist unbrauchbar!");
+break;
+
+return ret;
+}
+
+}
+
+Somit hat derjenige der deine Methode aufruft nicht das Interpretationsproblem was nun u,e,t,b ist :). Ausser du hast eine schönen JAVA DOC Anweisung über dem Methodenkopf :).
+
+LG
+   
+TAGGED_CONTENT:

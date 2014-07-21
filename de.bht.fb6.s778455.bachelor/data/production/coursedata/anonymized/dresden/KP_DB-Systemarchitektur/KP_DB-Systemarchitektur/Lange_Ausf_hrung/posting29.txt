@@ -1,0 +1,21 @@
+ID: 2311
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Das sind die letzten Zeilen (ParameterIndex ist ein testweises printf):
+
+```ruby
+
+[==============...
+PARENT_POSTING_ID: 2189
+POSTING_TYPE: comment
+CONTENT:
+Das sind die letzten Zeilen (ParameterIndex ist ein testweises printf):
+```ruby
+[==================================================] 100%     ParameterIndex: 0
+Training for kernel bitonicSort is running on device AMD E-350 Processor
+[>                                                 ]   1%     *** glibc detected *** ./build/testCLT: free(): invalid next size (normal): 0x0000000001adf000 ***
+======= Backtrace: =========
+... (weggelassen)
+./run. <LEARNED_PERSON_NAME_REPLACEMENT>: <NAME_CORPUS_REPLACEMENT> 11:  5066 Aborted                 (core dumped) LD_LIBRARY_PATH=../CLeverTrustee/build $CMD ./build/testCLT
+```
+TAGGED_CONTENT:

@@ -1,0 +1,11 @@
+ID: 2579
+CREATION_DATETIME: 1381960800000
+MODIFICATION_DATETIME: 1381960800000
+TITLE: Ja. Bitte immer auch die Seiten der Fakultät im Blick haben.
+http://tu-dresden.de/die_tu_dresden/fak...
+PARENT_POSTING_ID: 2565
+POSTING_TYPE: comment
+CONTENT:
+Ja. Bitte immer auch die Seiten der Fakultät im Blick haben.
+http://tu-dresden. de/die_tu_dresden/fakultaeten/fakultaet_informatik/smt/st/studium?subject=244&lang=de&leaf=1&head=4
+TAGGED_CONTENT:

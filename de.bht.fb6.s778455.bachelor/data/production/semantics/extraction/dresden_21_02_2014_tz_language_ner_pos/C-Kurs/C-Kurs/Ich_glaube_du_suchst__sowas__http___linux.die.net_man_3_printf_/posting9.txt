@@ -1,0 +1,62 @@
+ID: 2918
+CREATION_DATETIME: 1384815600000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: Also ich meinte schon direkt nachdem jede Aufgabe abgearbeitet ist. Am Anfang habe ich halt in "große...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Studenten;weight:2.0;significance:6.6875261658844;degreegeneralization:5;uri:20994552
+TOPIC_ZOOM_TAG: value:Schüler, Studenten;weight:2.0;significance:6.43756108337563;degreegeneralization:4;uri:20920823
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:2.0;significance:5.57127107797354;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:2.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Algorithmen;weight:1.0;significance:4.72522648860622;degreegeneralization:5;uri:20898553
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:2.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:2.51211272377639;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:2.50390086036106;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:1.07441906812122;degreegeneralization:2;uri:21999813
+POS_TAG: value:Tutor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:ge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Code;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hauptsache;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anfang;weight:0.0;uri:;postag:NN
+POS_TAG: value:Stile;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungsweg;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einr;weight:0.0;uri:;postag:NN
+POS_TAG: value:nden;weight:0.0;uri:;postag:NN
+POS_TAG: value:ckung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Unterschied;weight:0.0;uri:;postag:NN
+POS_TAG: value:Richtige;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Algorithmen;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppenarbeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Taste;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sinn;weight:0.0;uri:;postag:NN
+POS_TAG: value:Indentation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fragen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:Studenten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Stil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einsteigerkursen;weight:0.0;uri:;postag:NN
+POS_TAG: value:sen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Internet;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sprachkonstrukt;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2914
+POSTING_TYPE: comment
+CONTENT:
+Also ich meinte schon direkt nachdem jede Aufgabe abgearbeitet ist. Am Anfang habe ich halt in "großer Gruppenarbeit" die Aufgaben lösen lassen (da muss der Tutor arbitrieren). Jetzt Lösen die Studenten die Aufgaben alleine und ich gehe herum und beantworte Fragen. Wenn die Aufgabe abgeschlossen ist, zeige ich meine Lösung.
+
+Gerade in den Einsteigerkursen driften die Lösungen aus verschiedenen Gründen (noch) nicht weit auseinander:
+
+* Die Aufgaben sind dafür gemacht (genau) ein Sprachkonstrukt zu üben
+
+* Die Aufgaben sind so einfach, dass es schwer fällt einen sinnvollen, aber doch grundlegend anderen Lösungsweg zu finden.
+
+Was du meinst ist Code Formatierung/Einrückung (Indentation). <NAME_CORPUS_REPLACEMENT> scheiden sich halt gerade die <REMOVED_PERSON_ENTITY> welcher Stil nun der Richtige ist. Die Hauptsache ist, dass du *genau einen* Stil verwendest und den durch ziehst. Ich sehe keine Sinn "Musterlösungen" zu zeigen, deren einziger Unterschied zum Studenten-Code die Einrückung ist -- eine Tab/Space-Taste hat jeder selbst und die Stile sind im Internet zur Genüge beschrieben. Mir würde es rein um den Code - die implementierten Algorithmen - gehen.
+TAGGED_CONTENT:
+Also_ADV ich_PPER meinte_VVFIN schon_ADV direkt_ADJD nachdem_KOUS jede_PIDAT Aufgabe_NN abgearbeitet_VVPP ist_VAFIN ._$. Am_APPRART Anfang_NN habe_VAFIN ich_PPER halt_ADV in_APPR "_$( großer_ADJA Gruppenarbeit_NN "_$( die_ART Aufgaben_NN lösen_VVINF lassen_VVINF -LRB-_TRUNC da_ADV muss_APPR der_ART Tutor_NN arbitrieren_ADJA -RRB-_TRUNC ._$. Jetzt_ADV Lösen_NN die_ART Studenten_NN die_ART Aufgaben_NN alleine_ADV und_KON ich_PPER gehe_VVFIN herum_PTKVZ und_KON beantworte_VVFIN Fragen_NN ._$. Wenn_KOUS die_ART Aufgabe_NN abgeschlossen_VVPP ist_VAFIN ,_$, zeige_VVFIN ich_PPER meine_PPOSAT Lösung_NN ._$. Gerade_ADV in_APPR den_ART Einsteigerkursen_NN driften_VVFIN die_ART Lösungen_NN aus_APPR verschiedenen_ADJA Gründen_NN -LRB-_TRUNC noch_KON -RRB-_TRUNC nicht_PTKNEG weit_ADJD auseinander_PTKVZ :_$. \*_ADJD Die_ART Aufgaben_NN sind_VAFIN dafür_PROAV gemacht_VVPP -LRB-_TRUNC genau_ADJD -RRB-_TRUNC ein_ART Sprachkonstrukt_NN zu_PTKZU üben_VVINF \*_VVFIN Die_ART Aufgaben_NN sind_VAFIN so_ADV einfach_ADJD ,_$, dass_KOUS es_PPER schwer_ADJD fällt_VVFIN einen_ART sinnvollen_ADJA ,_$, aber_KON doch_ADV grundlegend_ADJD anderen_ADJA Lösungsweg_NN zu_PTKZU finden_VVINF ._$. Was_PWS du_PPER meinst_VVFIN ist_VAFIN Code_NN Formatierung\/Einr_NN ückung_VVFIN -LRB-_TRUNC Indentation_NN -RRB-_TRUNC ._$. <_XY NAME_CORPUS_REPLACEMENT_NN >_CARD scheiden_VVFIN sich_PRF halt_ADV gerade_ADV die_ART <_CARD REMOVED_PERSON_ENTITY_NN >_XY welcher_PRELS Stil_NN nun_ADV der_ART Richtige_NN ist_VAFIN ._$. Die_ART Hauptsache_NN ist_VAFIN ,_$, dass_KOUS du_PPER \*_ADJD genau_ADJD einen_ART \*_ADJA Stil_NN verwendest_VVPP und_KON den_ART durch_APPR ziehst_VVFIN ._$. Ich_PPER sehe_VVFIN keine_PIAT Sinn_NN "_$( Musterlösungen_NN "_$( zu_PTKZU zeigen_VVINF ,_$, deren_PRELAT einziger_ADJA Unterschied_NN zum_APPRART Studenten-Code_NN die_ART Einrückung_NN ist_VAFIN --_-- eine_ART Tab\/Space-Taste_NN hat_VAFIN jeder_PIDAT selbst_ADV und_KON die_ART Stile_NN sind_VAFIN im_APPRART Internet_NN zur_APPRART Genüge_NN beschrieben_VVPP ._$. Mir_PPER würde_VAFIN es_PPER rein_ADV um_APPR den_ART Code_NN -_$( die_ART implementierten_ADJA Algorithmen_NN -_$( gehen_VVINF ._$. 

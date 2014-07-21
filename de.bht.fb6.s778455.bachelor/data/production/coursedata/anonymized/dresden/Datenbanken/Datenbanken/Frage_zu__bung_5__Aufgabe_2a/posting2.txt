@@ -1,0 +1,19 @@
+ID: 2499
+CREATION_DATETIME: 1375826400000
+MODIFICATION_DATETIME: 1375826400000
+TITLE: Wir haben das gestern im Lernraum gefragt, daher versuche ich es mal: Im Prinzip gehst du von einer F...
+PARENT_POSTING_ID: 2497
+POSTING_TYPE: answer
+CONTENT:
+Wir haben das gestern im Lernraum gefragt, daher versuche ich es mal: Im Prinzip gehst du <NAME_CORPUS_REPLACEMENT> einer Fkt. Abh. aus, solange nichts dagegen spricht. Bei den Tupeln
+    Bundesland | Stadt
+    -------|-------
+    Hessen | Frankfurt
+    <NAME_CORPUS_REPLACEMENT> | Cottbus
+kann man <NAME_CORPUS_REPLACEMENT> B->S und S->B ausgehen. Hingegen bei
+    Bundesland | Stadt
+    ----- | -----
+    Hessen | Frankfurt
+    <NAME_CORPUS_REPLACEMENT> | Frankfurt
+Nur <NAME_CORPUS_REPLACEMENT> B-<REMOVED_PERSON_ENTITY> nicht Eindeutig <NAME_CORPUS_REPLACEMENT> S auf B abgebildet werden kann.
+TAGGED_CONTENT:

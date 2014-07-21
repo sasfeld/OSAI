@@ -1,0 +1,17 @@
+ID: 261361
+CREATION_DATETIME: 1386099570
+MODIFICATION_DATETIME: 1386099570
+TITLE: Re: Musterlösung
+LANGUAGE: GERMAN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:REMOVEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mathearbeiten;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 261337
+CONTENT:
+Hi <REMOVED_PERSON_ENTITY>,
+ich hab sie mit Latex geschrieben. Ich bin selber dabei es zu lernen und ich finde, dass es besser für Mathearbeiten passt.
+Viele Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+ 
+TAGGED_CONTENT:
+Hi_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, ich_PPER hab_VAFIN sie_PPER mit_APPR Latex_NE geschrieben_VVPP ._$. Ich_PPER bin_VAFIN selber_ADV dabei_PROAV es_PPER zu_PTKZU lernen_VVINF und_KON ich_PPER finde_VVFIN ,_$, dass_KOUS es_PPER besser_ADJD für_APPR Mathearbeiten_NN passt_VVFIN ._$. Viele_PIDAT Grüße_NN <_CARD PERSONAL_GREETING_REMOVEMENT_NN >_XY 

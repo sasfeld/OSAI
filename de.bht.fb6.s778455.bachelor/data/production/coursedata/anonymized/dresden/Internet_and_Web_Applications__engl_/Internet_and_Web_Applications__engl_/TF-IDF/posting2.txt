@@ -1,0 +1,10 @@
+ID: 2482
+CREATION_DATETIME: 1374876000000
+MODIFICATION_DATETIME: 1375221600000
+TITLE: TD-IDF only takes the content of Web pages into account. This results in many problems. E.g. it is po...
+PARENT_POSTING_ID: 2480
+POSTING_TYPE: answer
+CONTENT:
+TD-IDF only takes the content of Web pages into account. This results in many problems. E. g. it is possible to publish a huge set of documents containing <NAME_CORPUS_REPLACEMENT> arbitrary terms. Assuming queries for any of these arbitrary terms <NAME_CORPUS_REPLACEMENT> result in a high ranking position of these documents if the basic TF-IDF algorithm is applied. 
+Please have a look at slide 22 of chapter 8. Further drawbacks are mentioned on this slide. Furthermore, it is pointed out, that practically useful algorithms should take the linkage structure of the Web into account (as it is done e. g. by PageRank).
+TAGGED_CONTENT:

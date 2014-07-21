@@ -1,0 +1,9 @@
+ID: 198
+CREATION_DATETIME: 1349560800000
+MODIFICATION_DATETIME: 1349560800000
+TITLE: Also findet keine der
+PARENT_POSTING_ID: 193
+POSTING_TYPE: comment
+CONTENT:
+Also findet keine der Übungen in der nächsten Woche statt?
+TAGGED_CONTENT:

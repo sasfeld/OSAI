@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="13670" moduleid="68507" modulename="forum" contextid="95826">
+  <forum id="13670">
+    <type>general</type>
+    <name>Fachforum zum Teil I</name>
+    <intro>Hier können Sie Fachfragen zum Teil I diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>2</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1218800557</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="43322">
+        <name>Fallunterscheidung bei Ungleichungen mit zwei Brüchen</name>
+        <firstpost>116460</firstpost>
+        <userid>3773</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1319116854</timemodified>
+        <usermodified>3773</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="116460">
+            <parent>0</parent>
+            <userid>3773</userid>
+            <created>1319009638</created>
+            <modified>1319009916</modified>
+            <mailed>1</mailed>
+            <subject>Fallunterscheidung bei Ungleichungen mit zwei Brüchen</subject>
+            <message> Aus aktuellem Anlass habe ich eine kleine Anfrage bezüglich der Fallunterscheidungen. Wenn ich eine Ungleichung der Form&lt;br /&gt;&lt;br /&gt;$$ \frac{\left(ax+b\right)}{\left(cx+d\right)}\le\frac{\left(ex+f\right)}{\left(gx+h\right)} $$ &lt;br /&gt;[EDIT] &lt;br /&gt;Das Ergebnis des Java-Plugins wird bei mir nicht korrekt angezeigt, deshalb nochmal in ASCII:&lt;br /&gt;( (ax+b) / (cx+d) ) &amp;lt;= ( (ex+f) / (gx+h) )&lt;br /&gt;[/EDIT]&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;habe, wie viele Fallunterscheidungen sind dann notwendig?&lt;br /&gt;&lt;br /&gt;Ich sehe zwei Möglichkeiten: &lt;br /&gt;
+&lt;ol&gt;
+  &lt;li&gt;Es müssen nur die Nenner betrachtet werden. Daraus ergäben sich dann vier Fälle. &lt;/li&gt;
+  &lt;li&gt;Es müssen auch die Zähler beachtet werden. Dann würde jeder Fall der Unterscheidung aus vier Einzelgleichungen bestehen und ich hätte insgesamt 16 Fälle. &lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;Gibt es hierzu allgemeine Ansätze, Regeln, mathematische Sätze oder weiterführende Weblinks?&lt;br /&gt;&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="116461">
+            <parent>116460</parent>
+            <userid>3777</userid>
+            <created>1319066208</created>
+            <modified>1319066208</modified>
+            <mailed>1</mailed>
+            <subject>Re: Fallunterscheidung bei Ungleichungen mit zwei Brüchen</subject>
+            <message>&lt;p&gt;Hey Holger,&lt;/p&gt;
+&lt;p&gt;ich denke man soll nur die Nennner beachten! Eine Ungleichung mit 16 Fällen wäre viel zu umfangreich.:-O Du kannst ja unseren Dozenten fragen, ob es Ungleichungen gibt mit mehr als 4 Fällen? Wir haben auch nur Ungleichungen mit höchstens 4 Fällen bearbeitet. &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="116462">
+            <parent>116461</parent>
+            <userid>3783</userid>
+            <created>1319090636</created>
+            <modified>1319090636</modified>
+            <mailed>1</mailed>
+            <subject>Re: Fallunterscheidung bei Ungleichungen mit zwei Brüchen</subject>
+            <message>Das könnte natürlich Absicht sein von ihm, damit wir als &amp;quot;Transferleistung&amp;quot; unser Wissen bei umfangreicheren Fällen anwenden - zu Übungszwecken. :-) </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="116463">
+            <parent>116460</parent>
+            <userid>3771</userid>
+            <created>1319097134</created>
+            <modified>1319097134</modified>
+            <mailed>1</mailed>
+            <subject>Re: Fallunterscheidung bei Ungleichungen mit zwei Brüchen</subject>
+            <message>Hallo Holger,&lt;br /&gt;&lt;br /&gt;um eine &amp;quot;Bruchgleichung&amp;quot; umzuformen, müssen bekanntermassen beide Seiten einer (Un)Gleichung im ersten Schritt mit dem Nenner multipliziert werden.&lt;br /&gt;&lt;br /&gt;Im &amp;quot;zweiten Schritt&amp;quot; wird man (nach Ausmultiplizieren der nun &amp;quot;nennerlosen&amp;quot; Gleichung&amp;quot;) versuchen, durch Subtraktion und Addition die entstandenen &amp;quot;Nur-Zähler(un)gleichung)&amp;quot; entgültig auflösen.&lt;br /&gt;&lt;br /&gt;Auschließlich bei der MULTIPLIKATION und DIVISION kommt es zum Wechsel (&amp;lt; zu &amp;gt; und &amp;gt; zu &amp;lt;), wenn der Nenner &amp;lt; 0 (wird multipliziert s.o) oder der Faktor &amp;lt; 0 (wird dividiert s.o.) ist.&lt;br /&gt;&lt;br /&gt;Konkrete Beispiele:&lt;br /&gt;&lt;br /&gt;Divsion: 6 &amp;gt; (-2)*2 wird zu -3 &amp;lt; 2&lt;br /&gt;Multiplikation: 8/(-2) &amp;lt; 10 wird zu 8 &amp;gt; -20&lt;br /&gt;&lt;br /&gt;Addition: 6 - (-3) &amp;lt; 11 wird zu 6 &amp;lt; 9&lt;br /&gt;Subtraktion: 7 + (-2) &amp;gt; 3 wird zu 7 &amp;gt; 5&lt;br /&gt;&lt;br /&gt;Dies ist zwar keine wissenschaftliche Herleitung, aber soll vedeutlichen, dass nur Divisionen und Multiplikationen mit negativen Zahlen den &amp;quot;&amp;lt;&amp;gt;-Zeichenwechsel&amp;quot; zur Folge haben.&lt;br /&gt;&lt;br /&gt;Somit gibt es konkret pro &amp;quot;Nenner&amp;quot; jeweils 2 Fälle (kleiner 0 und größer gleich 0) zu unterscheiden, das heißt bei zwei &amp;quot;Nennern&amp;quot; bereits 2*2 Fälle.&lt;br /&gt;&lt;br /&gt;Dabei ist zu beachten, dass z.B. ein Ausdruck wie (x-2)*(x+5), wenn dieser denn ein mathematisch echter Nenner (ohne meine o.g. Anführungszeichen) ist, eigentlich 2 &amp;quot;Nenner&amp;quot;, nämlich 2 Faktoren beinhaltet. Beide im echten Nenner stehende Faktoren (beide Faktoren können &amp;gt;&amp;lt;= 0 werden) ergeben zusammen genommen bereits 2*2 Fallunterscheidungen.&lt;br /&gt;&lt;br /&gt;Die konkrete Gleichung: (x+1)/[(2-x)*(3+2*x)] = x/(x+2) hätte demzufolge 2*2*2 Fallbetrachtungen zur Folge. Da dieses Beispiel bereits ein extremes ist, wird es wahrscheinlich nicht klausurrelevant sein. &lt;br /&gt;&lt;br /&gt;Ein echter Nenner wird in der Prüfung wahrscheinlich nur 1 Faktor, also 2 Fallunterscheidungen zur Folge haben. Eine Ungleichung hat dann natürlich 2*2 Fallunterscheidungen zur Folge, sofern auf beiden Seiten dieser Ungleichung ein Nenner mit jeweils einem Faktor exisitiert.&lt;br /&gt;&lt;br /&gt;Ich hoffe, dass dies alles etwas deutlicher für dich (euch) macht.&lt;br /&gt;&lt;br /&gt;Gruß, Andreas&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="116464">
+            <parent>116463</parent>
+            <userid>3773</userid>
+            <created>1319116821</created>
+            <modified>1319116854</modified>
+            <mailed>1</mailed>
+            <subject>Re: Fallunterscheidung bei Ungleichungen mit zwei Brüchen</subject>
+            <message> &lt;span style="font-family: georgia,times new roman,times,serif;"&gt;&lt;font size="3"&gt;&lt;span style="font-family: trebuchet ms,verdana,arial,helvetica,sans-serif;"&gt;Vielen Dank für Eure Antworten. &lt;br /&gt;&lt;br /&gt;Insbesondere Deine, Andreas, finde ich sehr anschaulich. Wie ich mittlerweile festgestellt habe, rührte ein Teil meiner Verunsicherung aus dem unterschiedlichen Vorgehen bei der Fallunterscheidung im Rahmen von Betragsungleichungen (mit Beträgen im Zähler und/oder Nenner) und dem Vorgehen bei Ungleichungen, wie Sie uns beispielsweise mit der Gruppenaufgabe e) begegnet. &lt;br /&gt;&lt;br /&gt;Spätestens mit der Probeklausur werde ich feststellen, ob ich es nun wirklich anwenden kann. &lt;br /&gt;&lt;br /&gt;Nicht vorenthalten möchte ich Euch die Antwort, die mir Herr Moesner direkt zugesandt hat, da sie mich zumindest beruhigt hat:&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;Am 19.10.2011 um 16:02 schrieb Herr Moesner:&lt;/font&gt;&lt;br /&gt;&lt;/span&gt;&lt;pre&gt;&lt;span style="font-family: georgia,times new roman,times,serif;"&gt;Hallo Herr Deutschmann,&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;br style="font-family: georgia,times new roman,times,serif;" /&gt;&lt;span style="font-family: georgia,times new roman,times,serif;"&gt;generell gibt keine weiteren besonderen Regeln über die in der Präsenz behandelten hinausgehend.&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;span style="font-family: georgia,times new roman,times,serif;"&gt;In diesem Fall - Ungl. mit Brüchen - ergibt sich eine Fallunterscheidung, wenn bei einer Multiplikation mit einem Ausdruck dessen Vorzeichen unklar ist.&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;span style="font-family: georgia,times new roman,times,serif;"&gt;D.h. wir müssen &amp;quot;nur&amp;quot; vier Fälle bzgl. der Multiplikation mit den Nennern unterscheiden.&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;br style="font-family: georgia,times new roman,times,serif;" /&gt;&lt;span style="font-family: georgia,times new roman,times,serif;"&gt;MfG Lothar Moesner &lt;/span&gt;&lt;/pre&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="125037">
+        <userid>3817</userid>
+      </subscription>
+      <subscription id="125038">
+        <userid>3815</userid>
+      </subscription>
+      <subscription id="125039">
+        <userid>2647</userid>
+      </subscription>
+      <subscription id="125040">
+        <userid>3917</userid>
+      </subscription>
+      <subscription id="125041">
+        <userid>3933</userid>
+      </subscription>
+      <subscription id="125042">
+        <userid>3783</userid>
+      </subscription>
+      <subscription id="125043">
+        <userid>3885</userid>
+      </subscription>
+      <subscription id="125044">
+        <userid>3801</userid>
+      </subscription>
+      <subscription id="125045">
+        <userid>3773</userid>
+      </subscription>
+      <subscription id="125046">
+        <userid>3925</userid>
+      </subscription>
+      <subscription id="125047">
+        <userid>3931</userid>
+      </subscription>
+      <subscription id="125048">
+        <userid>3807</userid>
+      </subscription>
+      <subscription id="125049">
+        <userid>3809</userid>
+      </subscription>
+      <subscription id="125050">
+        <userid>3803</userid>
+      </subscription>
+      <subscription id="125051">
+        <userid>3781</userid>
+      </subscription>
+      <subscription id="125052">
+        <userid>3775</userid>
+      </subscription>
+      <subscription id="125053">
+        <userid>3789</userid>
+      </subscription>
+      <subscription id="125054">
+        <userid>3799</userid>
+      </subscription>
+      <subscription id="125055">
+        <userid>3869</userid>
+      </subscription>
+      <subscription id="125056">
+        <userid>3771</userid>
+      </subscription>
+      <subscription id="125057">
+        <userid>3881</userid>
+      </subscription>
+      <subscription id="125058">
+        <userid>3779</userid>
+      </subscription>
+      <subscription id="125059">
+        <userid>3941</userid>
+      </subscription>
+      <subscription id="125060">
+        <userid>3755</userid>
+      </subscription>
+      <subscription id="125061">
+        <userid>3935</userid>
+      </subscription>
+      <subscription id="125062">
+        <userid>3777</userid>
+      </subscription>
+      <subscription id="125063">
+        <userid>3795</userid>
+      </subscription>
+      <subscription id="125064">
+        <userid>3811</userid>
+      </subscription>
+      <subscription id="125065">
+        <userid>1905</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

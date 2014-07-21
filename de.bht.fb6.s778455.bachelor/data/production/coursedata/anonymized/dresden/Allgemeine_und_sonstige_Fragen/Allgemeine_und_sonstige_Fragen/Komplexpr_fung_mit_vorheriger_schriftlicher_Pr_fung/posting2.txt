@@ -1,0 +1,13 @@
+ID: 1532
+CREATION_DATETIME: 1363388400000
+MODIFICATION_DATETIME: 1363388400000
+TITLE: 1.) Zum Zeitpunkt deiner Komplexprüfung muss deine schriftliche Note eigentlich nicht unbedingt vorli...
+PARENT_POSTING_ID: 1531
+POSTING_TYPE: answer
+CONTENT:
+1.) Zum Zeitpunkt deiner Komplexprüfung muss deine schriftliche Note eigentlich nicht unbedingt vorliegen, denke ich. Hauptsache ist, du reichst den <REMOVED_PERSON_ENTITY> dafür zusammen mit dem Komplexprüfungsformular (das Ding, auf dem die mündliche Note dann u. a. steht)  beim Prüfungsamt ein.
+Prinzipiell ist das genannte vorgehen möglich, allerdings nur dann, wenn die schriftliche Leistung explizit vom Prüfungsausschuss so gebilligt wurde. Ich vermute du oder dein Dozent haben sich <NAME_CORPUS_REPLACEMENT> vorher informiert, oder? Ansonsten tu es jetzt.
+2.) Nein, du hast dann nur noch eine Prüfung über das eine <REMOVED_PERSON_ENTITY>. Es wird niemand anderes <NAME_CORPUS_REPLACEMENT> einem schriftlichen Teil zu gegen sein. Woher sollen sie es auch wissen (außer es ist am gleichen Lehrstuhl)? Du "beantragst" eine Komplexprüfung ja in dem du einen Termin mit einem Prof ausmachst. Das ist alles. Zum Prüfungsamt rennst du erst am Ende. 
+Die Prüfung sollte dann nur 15min gehen, ja. 
+Hint: Für solche Fragen gibt es Studienberater, für rechtlich verbindliche Auskünfte den Prüfungsausschuss.
+TAGGED_CONTENT:

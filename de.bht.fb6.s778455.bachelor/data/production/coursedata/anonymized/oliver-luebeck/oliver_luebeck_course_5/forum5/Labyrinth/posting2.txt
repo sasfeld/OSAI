@@ -1,0 +1,17 @@
+ID: 90
+CREATION_DATETIME: 1197629520000
+MODIFICATION_DATETIME: 1197629520000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 89
+CONTENT:
+ 
+Hallo,
+
+eine Frage zu den Tipps hätte ich noch:
+
+Soll ein bereits besuchtes Feld auch ausgeschlossen werden?
+
+Meine bisherige Lösung ist ähnlich wie oben, aber wenn es keinen Ausweg gibt, gerät das Programm in eine Endlosschleife, da immer wieder die gleichen Felder besucht werden.
+	
+TAGGED_CONTENT:

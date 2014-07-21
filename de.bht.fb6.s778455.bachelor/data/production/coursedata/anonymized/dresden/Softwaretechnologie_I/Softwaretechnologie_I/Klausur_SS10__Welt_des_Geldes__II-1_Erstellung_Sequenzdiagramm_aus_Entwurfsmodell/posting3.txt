@@ -1,0 +1,12 @@
+ID: 2090
+CREATION_DATETIME: 1371765600000
+MODIFICATION_DATETIME: 1371765600000
+TITLE: Hallo Uwe, diese Aufgabe ist direkt aus der Klausur SS10 (S. 6 und 7) und ist nicht im Skript enthalt...
+PARENT_POSTING_ID: 2067
+POSTING_TYPE: answer
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>, diese Aufgabe ist direkt aus der Klausur SS10 (S. 6 und 7) und ist nicht im Skript enthalten. Gegeben waren die oben angegebenen Klassen und das Sequenzdiagramm sollte mit Hilfe / aus diesen Klassen erstellt werden, wobei der <REMOVED_PERSON_ENTITY> "Client" und "converter:CurrencyConverter" mit dem <REMOVED_PERSON_ENTITY> (und der Methode exchange(...)) gegeben waren. Verwirrend ist nur, dass man die Parameter der Methoden nicht beachten sollte (diese irgendwie auch gar nicht hineinpassten) - ansonsten hätte man sich anhand dieser wahrscheinlich das Diagramm ableiten können.
+Was Du geschrieben hast, das muss ich mir dann noch mal genau angucken (und ich hoffe, ich habe jetzt keinen Mist erzählt - es ist schon etwas her, dass ich mich an der Aufgabe versucht habe). 
+Vielen Dank erstmal. (Und wenn noch Fragen sind, würde ich die dann noch mal stellen.)
+Danke.  
+TAGGED_CONTENT:

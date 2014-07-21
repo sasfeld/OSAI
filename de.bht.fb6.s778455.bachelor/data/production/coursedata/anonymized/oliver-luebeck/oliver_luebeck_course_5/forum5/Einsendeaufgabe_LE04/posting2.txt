@@ -1,0 +1,15 @@
+ID: 47
+CREATION_DATETIME: 1193136420000
+MODIFICATION_DATETIME: 1193136420000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 46
+CONTENT:
+ 
+Hi ,
+
+versuch´s doch mal mit String.valueOf(). Bei mir funktioniert´s, so dass ich ein String-Array zurück geben kann.
+
+Grüße,
+	
+TAGGED_CONTENT:

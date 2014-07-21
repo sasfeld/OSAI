@@ -1,0 +1,12 @@
+ID: 194209
+CREATION_DATETIME: 1358425533
+MODIFICATION_DATETIME: 1358425533
+TITLE: Re: Gruppenübungen
+PARENT_POSTING_ID: 194163
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+mit Kommutativität hat das nichts zu tun, denn es gilt im Allgemeinen weder A*X=X*A noch A^T * X^T=X^T  *A^T. Die Formel (X*A)^T=A^T * X^T steht vielmehr für sich alleine. Sie ist eine direkte Konsequenz der Art und <REMOVED_PERSON_ENTITY>, wie die Matrixmultiplikation funktioniert: Berechne ich den Eintrag an Position (i, j) der Matrix X*A, so muss ich die <REMOVED_PERSON_ENTITY> i aus X mit der Spalte j aus A multiplizieren. In (X*A)^T findet man diesen Eintrag an Position (j, i). Die Formel behauptet nun, dass man den gleichen Wert an dieser Position erhält, wenn man sich das Produkt A^T * X^T anschaut. Den Eintrag an Position (j, i) dieses Produktes erhält man, indem man die j-te <REMOVED_PERSON_ENTITY> von A^T (das ist aber gleich der j-ten <REMOVED_PERSON_ENTITY> von A) mit der i-ten Spalte von (X*A)^T (das ist aber gleich der i-ten Spalte von X) multipliziert. Wie Sie sehen, läuft die Berechnung der Stelle (j, i) in (X*A)^T mit den gleichen Zahlenwerten ab.
+Letztlich macht Transposition Zeilen zu Spalten und umgekehrt. Beim Matrixprodukt werden aus der linken Matrix die Zeilen verwendet und aus der rechten die <REMOVED_PERSON_ENTITY>. Insofern macht der Positionswechsel von A*X zu X^T * A^T auch intuitiv Sinn (das beweist natürlich noch gar nichts, aber so kann man es sich vielleicht besser merken).
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

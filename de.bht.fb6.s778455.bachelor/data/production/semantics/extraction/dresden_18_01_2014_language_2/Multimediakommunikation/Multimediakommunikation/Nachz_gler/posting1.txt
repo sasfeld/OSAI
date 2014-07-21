@@ -1,0 +1,14 @@
+ID: 1688
+CREATION_DATETIME: 1365631200000
+MODIFICATION_DATETIME: 1366063200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+leider konnte ich an der Einführungsveranstaltung gestern nicht teilnehmen. Mit der Gruppe "XMPP und Social Networking" habe ich bereits gesprochen und würde mich als 3er Teilnehmer gerne anschließen.
+
+Ich hoffe das ist ok?
+TAGGED_CONTENT:

@@ -1,0 +1,40 @@
+ID: 193785
+CREATION_DATETIME: 1358270943
+MODIFICATION_DATETIME: 1358270943
+TITLE: Re: Gruppenübungen
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=72341#193785
+TOPIC_ZOOM_TAG: value:Vektoren;weight:2.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Gedanken;weight:0.0;uri:;postag:NN
+POS_TAG: value:Basis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spaltenoperationen;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Matrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bild;weight:0.0;uri:;postag:NN
+POS_TAG: value:re;weight:0.0;uri:;postag:NN
+POS_TAG: value:Habe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Danke;weight:0.0;uri:;postag:NN
+POS_TAG: value:Umformung;weight:0.0;uri:;postag:NN
+POS_TAG: value:gekommen?Eine;weight:0.0;uri:;postag:NN
+POS_TAG: value:Endmatrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spanteloperationen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bildes;weight:0.0;uri:;postag:NN
+POS_TAG: value:Stufenform;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ausgangsmatrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 193565
+CONTENT:
+M)Habe mir zum M noch einmal Gedanken gemacht. Basis des Bildes = <REMOVED_PERSON_ENTITY> die linear unabhängig sind. D. h. ich muss einfach die Matrix nehmen und auf Stufenform bringen, dann sehe ich welche Vektoren linear unabhängig sind und kann diese aus der Ausgangsmatrix übernehmen.
+Bei der Umformung auf Stufenform, dürfen aber nur Spaltenoperationen angewendet werden, da sonst das Bild verändert wird.
+<REMOVED_PERSON_ENTITY> nur mit Spanteloperationen sieht meine Endmatrix folgendermaßen aus:
+1 0 0 0 0 0 00 1 0 0 0 0 00 0 1 0 0 0 00 0 0 1 0 0 0Die Vektoren 4 und 6 habe ich getauscht. Diese tausche ich wieder zurück:1 0 0 0 0 0 00 1 0 0 0 0 00 0 1 0 0 0 00 0 0 0 0 1 0D. h. das Bild sieht folgendermaßen aus: 2  4  1  3 0  1  0 -2-3 -4 -1 -5 1  0  0  3 Stimmt diese Lösung?Wäre man auch irgendwie anders auf diese Lösung gekommen?Eine 4x7 Matrix auf Stufenform zu bringen dauert nämlich relativ lange...
+Danke und Gruß
+<REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:
+M_NE -RRB-_TRUNC Habe_NN mir_PPER zum_APPRART M_NE noch_ADV einmal_ADV Gedanken_NN gemacht_VVPP ._$. Basis_NN des_ART Bildes_NN =_XY <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN die_ART linear_ADJD unabhängig_ADJD sind_VAFIN ._$. D._NE h._VVFIN ich_PPER muss_PRF einfach_ADV die_ART Matrix_NN nehmen_VVINF und_KON auf_APPR Stufenform_NN bringen_VVINF ,_$, dann_ADV sehe_VVFIN ich_PPER welche_PWAT Vektoren_NN linear_ADJD unabhängig_ADJD sind_VAFIN und_KON kann_VMFIN diese_PDAT aus_APPR der_ART Ausgangsmatrix_NN übernehmen_VVINF ._$. Bei_APPR der_ART Umformung_NN auf_APPR Stufenform_NN ,_$, dürfen_VMFIN aber_ADV nur_ADV Spaltenoperationen_NN angewendet_VVPP werden_VAINF ,_$, da_ADV sonst_ADV das_ART Bild_NN verändert_VVPP wird_VAFIN ._$. <_XY REMOVED_PERSON_ENTITY_NN >_VVFIN nur_ADV mit_APPR Spanteloperationen_NN sieht_VVFIN meine_PPOSAT Endmatrix_NN folgendermaßen_ADV aus_PTKVZ :_$. 1_CARD 0_CARD 0_CARD 0_CARD 0_CARD 0_CARD 00_CARD 1_CARD 0_CARD 0_CARD 0_CARD 0_CARD 00_CARD 0_CARD 1_CARD 0_CARD 0_CARD 0_CARD 00_CARD 0_CARD 0_CARD 1_CARD 0_CARD 0_CARD 0Die_CARD Vektoren_NN 4_CARD und_KON 6_CARD habe_VAFIN ich_PPER getauscht_VVPP ._$. Diese_PDAT tausche_ADJA ich_PPER wieder_ADV zurück_ADV :1_CARD 0_CARD 0_CARD 0_CARD 0_CARD 0_CARD 00_CARD 1_CARD 0_CARD 0_CARD 0_CARD 0_CARD 00_CARD 0_CARD 1_CARD 0_CARD 0_CARD 0_CARD 00_CARD 0_CARD 0_CARD 0_CARD 0_CARD 1_CARD 0D_CARD ._$. h._VVFIN das_ART Bild_NN sieht_VVFIN folgendermaßen_ADV aus_PTKVZ :_$. 2_CARD 4_CARD 1_CARD 3_CARD 0_CARD 1_CARD 0_CARD -2_CARD -3_CARD -4_CARD -1_CARD -5_CARD 1_CARD 0_CARD 0_CARD 3_CARD Stimmt_VVFIN diese_PDAT Lösung?Wäre_NN man_PIS auch_ADV irgendwie_ADV anders_ADV auf_APPR diese_PDAT Lösung_NN gekommen?Eine_NN 4x7_CARD Matrix_NE auf_APPR Stufenform_NN zu_PTKZU bringen_VVINF dauert_VVFIN nämlich_ADV relativ_ADJD lange_ADJA ..._$( Danke_NN und_KON Gruß_NN <_VVFIN REMOVED_PERSON_ENTITY_NE >_XY 

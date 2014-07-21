@@ -1,0 +1,13 @@
+ID: 164443
+CREATION_DATETIME: 1348675974
+MODIFICATION_DATETIME: 1348675974
+TITLE: Chat nach dem Chat
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+wer Lust und Interesse hat ist herzlich eingeladen am Chat nach dem Chat teilzunehmen. Gedacht ist dieser um evtl. auch eine (oder mehrere) Lerngruppe(n) zu bilden.
+Erreichbar ist der Chat unter:
+https://webconf. vc. dfn. de/mathe/
+Als Gast eintreten, Realnamen eingeben und Raumpasswort:F34gh6xy
+Grüße, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

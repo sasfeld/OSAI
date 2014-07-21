@@ -1,0 +1,14 @@
+ID: 97741
+CREATION_DATETIME: 1294345513
+MODIFICATION_DATETIME: 1294345513
+TITLE: ESAs heute endfaellig
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=36352#97741
+POS_TAG: value:Eintragungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Jahr;weight:0.0;uri:;postag:NN
+POS_TAG: value:Erinnerungsemail;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Erinnerungsemail. s. bitte Eintragungen in LON-CAPA vom letzten Jahr.
+TAGGED_CONTENT:
+Erinnerungsemail_NN ._$. s._VVIMP bitte_PTKANT Eintragungen_NN in_APPR LON-CAPA_NE vom_APPRART letzten_ADJA Jahr_NN ._$. 

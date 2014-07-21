@@ -1,0 +1,11 @@
+ID: 117556
+CREATION_DATETIME: 1327318250
+MODIFICATION_DATETIME: 1327318250
+TITLE: Re: Probeklausur
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117554
+CONTENT:
+Danke. So kann man sich gut selbst kontrollieren. Allerdings komme ich mit Aufgabe 9nicht klar, auch die Lösung kann ich nicht nachvollziehen. Kann da sjemand nochmal aufschlüsseln?
+TAGGED_CONTENT:
+Danke_NE ._$. So_ADV kann_VMFIN man_PIS sich_PRF gut_ADJD selbst_ADV kontrollieren_VVINF ._$. Allerdings_ADV komme_VVFIN ich_PPER mit_APPR Aufgabe_NN 9nicht_VVFIN klar_ADJD ,_$, auch_ADV die_ART Lösung_NN kann_VMFIN ich_PPER nicht_PTKNEG nachvollziehen_VVINF ._$. Kann_VMFIN da_ADV sjemand_VVFIN nochmal_ADV aufschlüsseln_VVINF ?_$. 

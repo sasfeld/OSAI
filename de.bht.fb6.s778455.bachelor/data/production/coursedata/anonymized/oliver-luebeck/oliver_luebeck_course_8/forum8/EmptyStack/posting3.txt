@@ -1,0 +1,33 @@
+ID: 55
+CREATION_DATETIME: 1199472720000
+MODIFICATION_DATETIME: 1199472720000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 54
+CONTENT:
+
+Hallo , wie wäre es so:
+
+// Eigene Ausnahmeklasse
+static class MyEx extends Exception {
+public MyEx(String S) {
+super(S);
+}
+} // eo eigene Klasse
+
+
+// ... code
+try{
+if!(// Löschen eines Elementes, schlägt fehl){
+throw MyEx("is wohl leer ... ");
+}
+}catch(MyEx e){
+System.out.println("Meldung: " + e.getMessage());
+}
+// code...
+
+Das müsste doch gehen, oder?
+
+Viele Grüße, 
+   
+TAGGED_CONTENT:

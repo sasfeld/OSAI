@@ -1,0 +1,8 @@
+ID: 250835
+CREATION_DATETIME: 1383083185
+MODIFICATION_DATETIME: 1383083185
+TITLE: Re: Gruppen für potenzielle Einsendeaufgaben
+PARENT_POSTING_ID: 250235
+CONTENT:
+So nachdem ich jetzt nur von <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY> und <REMOVED_PERSON_ENTITY> eine Reaktion erhalten habe würde ich damit die Gruppe als vollzählig benennen. Von <REMOVED_PERSON_ENTITY> habe ich eben seine Lösung erhalten. Ich werde morgen im Laufe des Tages meine Lösung mal gegenprüfen (ich hab grad schon mindestens einen Fehler bei mir gefunden)Wäre schön, wenn <REMOVED_PERSON_ENTITY> und <REMOVED_PERSON_ENTITY> zu morgen die Aufgaben auch schon gerechnet haben (oder zumindest mal nen Blick reingeworfen)Wenn wir uns über Lösung und Lösungsweg einig sind, erkläre ich mich gern bereit das mittels LaTeX in ein halbwegs ansehnliches Format zu bringen. LG <PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

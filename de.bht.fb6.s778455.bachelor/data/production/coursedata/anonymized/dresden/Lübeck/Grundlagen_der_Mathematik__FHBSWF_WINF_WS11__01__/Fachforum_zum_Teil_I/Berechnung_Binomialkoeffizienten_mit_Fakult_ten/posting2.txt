@@ -1,0 +1,8 @@
+ID: 117578
+CREATION_DATETIME: 1318250985
+MODIFICATION_DATETIME: 1318250985
+TITLE: Re: Berechnung Binomialkoeffizienten mit Fakultäten
+PARENT_POSTING_ID: 117577
+CONTENT:
+Hi Mirke, das kürzt sich alles weg bis auf (120*119) / (2*1) und damit hast du dann:14280 / 2 = 7140. Schau dir nochmal an, wie die Fakultät berechnet wird.... ansonsten gerne per Mail!Grüße, <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

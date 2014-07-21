@@ -1,0 +1,12 @@
+ID: 16565
+CREATION_DATETIME: 1224770756
+MODIFICATION_DATETIME: 1224770756
+TITLE: Re: gruppenmitglieder gesucht
+POS_TAG: value:eMiriam;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+POS_TAG: value:System;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 16561
+CONTENT:
+Hallo, ich bin seit heute erst im System freigeschaltet und würde mich sehr gern eurer Gruppe anschließen, wenn das noch möglich ist. Viele GrüßeMiriam 
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, ich_PPER bin_VAFIN seit_APPR heute_ADV erst_ADV im_APPRART System_NN freigeschaltet_VVPP und_KON würde_VAFIN mich_PPER sehr_ADV gern_ADV eurer_ADJA Gruppe_NN anschließen_VVINF ,_$, wenn_KOUS das_ART noch_ADV möglich_ADJD ist_VAFIN ._$. Viele_PIDAT GrüßeMiriam_NN 

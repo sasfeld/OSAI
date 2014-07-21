@@ -1,0 +1,9 @@
+ID: 1546
+CREATION_DATETIME: 1363734000000
+MODIFICATION_DATETIME: 1363734000000
+TITLE: I used libio-io, and it seems to work. Also make sure to set up the .cfg file the right way, this is ...
+PARENT_POSTING_ID: 1543
+POSTING_TYPE: answer
+CONTENT:
+I used libio-io, and it seems to work. Also make sure to set up the *. cfg* file the right way, this is a source of confusing *does-not-work*-errors I sometimes have.
+TAGGED_CONTENT:

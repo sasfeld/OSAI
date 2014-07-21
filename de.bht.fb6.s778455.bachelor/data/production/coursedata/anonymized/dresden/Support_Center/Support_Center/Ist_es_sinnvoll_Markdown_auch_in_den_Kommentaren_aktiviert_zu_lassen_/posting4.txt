@@ -1,0 +1,9 @@
+ID: 208
+CREATION_DATETIME: 1349647200000
+MODIFICATION_DATETIME: 1349647200000
+TITLE: Nein, ich würde es in
+PARENT_POSTING_ID: 67
+POSTING_TYPE: answer
+CONTENT:
+Nein, ich würde es in den Kommentaren deaktivieren. Auch wenn jetzt zu Beginn noch wenig genutzt, wird es mit steigender Nutzerzahl bald sehr unübersichtlich werden. Desweiteren sollen Kommentare doch "nur" eine kurze Bemerkung zur Antwort sein, oder?
+TAGGED_CONTENT:

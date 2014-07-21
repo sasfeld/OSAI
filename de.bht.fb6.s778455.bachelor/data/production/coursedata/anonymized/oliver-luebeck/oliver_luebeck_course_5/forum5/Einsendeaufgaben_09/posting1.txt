@@ -1,0 +1,14 @@
+ID: 81
+CREATION_DATETIME: 1195573500000
+MODIFICATION_DATETIME: 1195573500000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Ich hab mal wieder eine Frage.
+Wir sollen ja in der LE09 kein Applet sondern eine Applikation erstellen. Habe mir also eine Scrollbar erstellt und angepasst, alles wunderbar. Die aktuelle Position kann ich mir zwar ausgeben lassen, aber mit der Methode Repaint() überschreibt das Programm den alten Wert nur. Soll heißen, dass man es nach dem Bewegen des Balkens in der Bar nicht mehr lesen kann, weil mehere Zeichen übereinander stehen. Womit genau hat das zu tun? Ist Repaint() für eine Applikation der falsche Befehl? Wäre euch wie immer sehr für Tipps verbunden ;)
+
+Grz. 
+	
+TAGGED_CONTENT:

@@ -1,0 +1,109 @@
+ID: 193485
+CREATION_DATETIME: 1358181824
+MODIFICATION_DATETIME: 1358181824
+TITLE: Re: Gruppenübungen
+LANGUAGE: UNKNOWN
+TOPIC_ZOOM_TAG: value:Vektoren;weight:5.0;significance:9.07753536802421;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:7.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:7.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Skalare;weight:2.0;significance:3.63101414720969;degreegeneralization:7;uri:19937424
+TOPIC_ZOOM_TAG: value:Natur;weight:7.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:7.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:7.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Rechte;weight:2.0;significance:1.89258574347393;degreegeneralization:3;uri:20917100
+TOPIC_ZOOM_TAG: value:Wohltätigkeit, Gemeinnützigkeit, Spenden, Hilfe, Engagement;weight:2.0;significance:1.71095124574247;degreegeneralization:3;uri:20919497
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:2.0;significance:0.825083317227654;degreegeneralization:2;uri:21306723
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:2.0;significance:0.757456289829511;degreegeneralization:2;uri:21999830
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:0.715529586833848;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:0.633930378491567;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:0.62322618740448;degreegeneralization:2;uri:21990259
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+POS_TAG: value:Rang;weight:0.0;uri:;postag:NN
+POS_TAG: value:LGS;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fall;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Matrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:gen?E;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ausgansmatrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:muss;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spann;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hauptdiagonalen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hilfe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skalare;weight:0.0;uri:;postag:NN
+POS_TAG: value:Stufenform;weight:0.0;uri:;postag:NN
+POS_TAG: value:ablesen?Ist;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anliegen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe?L;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einheitsmatrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spaltenoperationen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Koeffizienten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Seite;weight:0.0;uri:;postag:NN
+POS_TAG: value:bungsaufgaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeilenoperationen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorgehen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorgehen?F;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorgehen?G;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ausgangsmatrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:B.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Grund;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wort;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spaltenspanns;weight:0.0;uri:;postag:NN
+POS_TAG: value:Idee;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ende;weight:0.0;uri:;postag:NN
+POS_TAG: value:A;weight:0.0;uri:;postag:NN
+POS_TAG: value:B;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rechte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Werte;weight:0.0;uri:;postag:NN
+POS_TAG: value:N;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektoeren;weight:0.0;uri:;postag:NN
+POS_TAG: value:ssten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Untermatrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nullen;weight:0.0;uri:;postag:NN
+POS_TAG: value:P;weight:0.0;uri:;postag:NN
+POS_TAG: value:Durchschnitt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dreiecksmatrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:Besten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Koeffizientenmatrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:Samstag;weight:0.0;uri:;postag:NN
+POS_TAG: value:Basis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Endform;weight:0.0;uri:;postag:NN
+POS_TAG: value:Pascal;weight:0.0;uri:;postag:NN
+POS_TAG: value:Diskussion;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Matrixmultiplikation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Systemen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ansatz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anwendung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:Information;weight:0.0;uri:;postag:NN
+POS_TAG: value:Endmatrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:algo;weight:0.0;uri:;postag:NN
+POS_TAG: value:Schnittmenge;weight:0.0;uri:;postag:NN
+POS_TAG: value:r;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ausgangsmtrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:LK;weight:0.0;uri:;postag:NN
+POS_TAG: value:sen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nullvektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einheitsvektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:RWie;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektorendie;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spaltenspann;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wert;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 193259
+CONTENT:
+Hallo zusammen,
+ich habe da auch noch ein Anliegen.
+Und zwar würde ich gerne jeweils den Ansatz der Übungsaufgaben die wir am Samstag bekommen haben verstehen.
+Dafür habe ich mich mal hingesetzt und versucht zu jeder Aufgabe den Ansatz zu finden. Wäre super wenn ihr etwas dazu sagen könntet.
+A)Da hier der Spaltenspann erhalten bleiben soll, würde ich nur Zeilenoperationen durchführen. D. h. ich wurde folgende homogene Matrix aufstellen und diese einfach auf Stufenform bringen. 2  4  1 -2  1 0  1  0  1  0-3 -4 -1  4 -2 1   0  0 -2  1Sobald ich die Matrix auf Stufenform gebracht habe, kann ich schnell bestimmen  (durch draufgucken) ob p und q im Spann liegen bzw. linear abhängig sind. Ist dieses Vorgehen korrekt?B)Hier würde ich die gegebene Matrix M auf Stufenform bringen. Dies mache ich indem ich nur Spaltenoperationen anwende, da diese den Spaltenspann nicht verändern. Sobald die Matrix in Stufenform ist, übernehme ich die Vektoren aus M, die in der Endmatrix zu Einheitsvektoren geworden sind. Ist dieses Vorgehen korrekt?C)Hier würde ich Spaltenoperationen auf die Matrix M anwenden und eine Basis des Spaltenspanns erzeugen. D. h. mit Spaltenoperationen versuche ich die Matrix auf Stufenform zu bringen. Sobald die Matrix ihre Endform erreicht hat, übernehme ich die Vektoren aus der Ausgangsmtrix die in der Endmatrix zu Einheitsvektoren geworden sind. Ist dieses Vorgehen korrekt?D)<REMOVED_PERSON_ENTITY> habe ich leider keine Idee. Ich habe erst gedacht, dass ich die inverse zu M bestimmen soll indem ich folgendes LGS löse:2   4 -2 | 1 0 00   1  1 | 0 1 0-3 -4  5 | 0 0 1Wenn ich dies tue habe ich aber nur die Lösung für M*Q=RWie kann ich P da noch hinzufügen?E)Hier würde ich folgendes LGS lösen: 2  4  1  -2  1 |  3   7 0  1  0   1  0 | -2  -1-3 -4 -1   4 -2 | -5  -12 1  0  0  -2  1 |  2+t 5Sobald die Koeffizientenmatrix auf Stufenform ist kann ich hoffentlich ablesen und erkennen welche Werte t annehmen darf damit das LGS zu einer Lösung führt. Stimmt dieses Vorgehen?F)Aus den gegebenen Vektoren würde ich eine Matrix bauen. Aschließend bringe ich die Matrix mit der Hilfe des Gaußalgo. auf Stufenform. Sobald ich die Endmatrix erreicht habe, übernehme ich die Vektorendie in der Ausgansmatrix zu Einheitsvektoren geworden sind. Diese müssten linear unabhängig sein. Stimmt dieses Vorgehen?G)In diesem Fall würde ich aus den gegebenen Vektoren eine Matrix formen. Die Rechte <REMOVED_PERSON_ENTITY> setzt ich aber nicht null sondern ich wähle für den letzen Wert eine 1. D. h. die rechte <REMOVED_PERSON_ENTITY> würde folgendermaßen aussehen.|0|0|0|1Ich setze die Matrix also nicht gleich den Nullvektor, sondern einen Einheitsvektor. Grund, die rechte <REMOVED_PERSON_ENTITY> stellt die Skalare bzw. Koeffizienten einer LK da. Durch Anwendung des Gaußalgo. kann ich dann am Ende die entsprechenden Skalare ablesen?Ist dieses Vorgehen korrekt? H)Hier würde ich für die Koeffizienten-Matrix = A setzen und für die Rechte Seite = B setzen. Auf der linken (Koeffizienten Matrix) <REMOVED_PERSON_ENTITY> müsste dann eine Matrix X enstehen die X*A=B erfüllt. Kann man das so machen?I)Bei dieser Aufgabe würde ich jeweils aus beiden Systemen eine Matrix formen und auf Stufenform bringen. Anschließend kann die Lösung abgelesen werden. So in Ordnung?J)Der Durchschnitt von Megen bzw. die Schnittmenge ist so definiert, dass es eine <REMOVED_PERSON_ENTITY> A und eine <REMOVED_PERSON_ENTITY> B gibt. Alle Werte die gleichzeitg in A und B auftauschen sind <REMOVED_PERSON_ENTITY> von A &amp; B. Ich bin mir nicht ganz sicher, aber sehe ich es richtig, dass die Schnittmenge von M1 und M2 die Vektoeren sind, die linear abhängig sind?.... wie ich diese Aufgabe lösen muss weiß ich nicht so genau. Würde mich über Hilfe freuen. K)<REMOVED_PERSON_ENTITY> wird eine Untermatrix mit gleichen Rang benötigt. Aus diesem Grund würde ich diese Matrix mittels Gaußalgo. auf Stufenform bringen und aus der Ausgangsmatrix die Vektoren übernehmen die in der Endmatrix zu Einheitsvektoren geworden sind. Was mich etwas irritiert ist das Wort "regulär"?Regulär heißt eigentlich, dass eine Matrix invertierbar ist. D. h. es gibt eine Matrix mit der man mittels Matrixmultiplikation auf die Einheitsmatrix kommen muss. Ist diese Information überflüssig für das Lösen der Aufgabe?L)Eine untere Dreiecksmatrix hat oberhalb der Hauptdiagonalen nur Nullen stehen. Eigentlich würde ich in diesem Fall die Matrix mittels Gaußalgo. auf Stufenform bringen. Dabei ensteht dann automatisch eine obere Dreiecksmatrix. Diese würde ich dann transponieren und hoffen dann, dass eine untere Dreiecksmatrix ensteht. Ist dieses Vorgehen so in Ordnung?M)<REMOVED_PERSON_ENTITY> habe ich keine Idee. N)<REMOVED_PERSON_ENTITY> hier hätte ich keine Idee.
+Wäre toll wenn wir über diese Aufgaben eventuell eine Diskussion führen könnten. Ich denke mal davon profitieren wir alle. Besten Dank und GrußPascal
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, ich_PPER habe_VAFIN da_ADV auch_ADV noch_ADV ein_ART Anliegen_NN ._$. Und_KON zwar_ADV würde_VAFIN ich_PPER gerne_ADV jeweils_ADV den_ART Ansatz_NN der_ART Übungsaufgaben_NN die_ART wir_PPER am_APPRART Samstag_NN bekommen_VVPP haben_VAFIN verstehen_VVINF ._$. Dafür_PROAV habe_VAFIN ich_PPER mich_PRF mal_ADV hingesetzt_VVPP und_KON versucht_VVPP zu_PTKZU jeder_PIDAT Aufgabe_NN den_ART Ansatz_NN zu_PTKZU finden_VVINF ._$. Wäre_VAFIN super_ADJD wenn_KOUS ihr_PPOSAT etwas_PIS dazu_PROAV sagen_VVINF könntet_VVFIN ._$. A_NN -RRB-_TRUNC Da_KOUS hier_ADV der_ART Spaltenspann_NN erhalten_VVPP bleiben_VVINF soll_VMFIN ,_$, würde_VAFIN ich_PPER nur_ADV Zeilenoperationen_NN durchführen_VVINF ._$. D._NE h._VVFIN ich_PPER wurde_VAFIN folgende_ADJA homogene_ADJA Matrix_NN aufstellen_VVINF und_KON diese_PDAT einfach_ADV auf_APPR Stufenform_NN bringen_VVINF ._$. 2_CARD 4_CARD 1_CARD -2_CARD 1_CARD 0_CARD 1_CARD 0_CARD 1_CARD 0-3_CARD -4_CARD -1_CARD 4_CARD -2_CARD 1_CARD 0_CARD 0_CARD -2_CARD 1Sobald_CARD ich_PPER die_ART Matrix_NE auf_APPR Stufenform_NN gebracht_VVPP habe_VAFIN ,_$, kann_VMFIN ich_PPER schnell_ADJD bestimmen_VVFIN -LRB-_TRUNC durch_APPR draufgucken_ADJA -RRB-_TRUNC ob_KOUS p_XY und_KON q_VVFIN im_APPRART Spann_NN liegen_VVFIN bzw_NE ._$. linear_ADJD abhängig_ADJD sind_VAFIN ._$. Ist_VAFIN dieses_PDAT Vorgehen_NN korrekt?B_NE -RRB-_TRUNC Hier_ADV würde_VAFIN ich_PPER die_ART gegebene_ADJA Matrix_NE M_NE auf_APPR Stufenform_NN bringen_VVINF ._$. Dies_PDS mache_VVFIN ich_PPER indem_KOUS ich_PPER nur_ADV Spaltenoperationen_NN anwende_VVFIN ,_$, da_ADV diese_PDAT den_ART Spaltenspann_NN nicht_PTKNEG verändern_VVINF ._$. Sobald_KOUS die_ART Matrix_NN in_APPR Stufenform_NN ist_VAFIN ,_$, übernehme_VVFIN ich_PPER die_ART Vektoren_NN aus_APPR M_NE ,_$, die_PRELS in_APPR der_ART Endmatrix_NN zu_PTKZU Einheitsvektoren_VVINF geworden_VAPP sind_VAFIN ._$. Ist_VAFIN dieses_PDAT Vorgehen_NN korrekt?C_NE -RRB-_TRUNC Hier_ADV würde_VAFIN ich_PPER Spaltenoperationen_NN auf_APPR die_ART Matrix_NE M_NE anwenden_VVINF und_KON eine_ART Basis_NN des_ART Spaltenspanns_NN erzeugen_VVINF ._$. D._NE h._VVFIN mit_APPR Spaltenoperationen_NN versuche_VVFIN ich_PPER die_ART Matrix_NE auf_APPR Stufenform_NN zu_PTKZU bringen_VVINF ._$. Sobald_KOUS die_ART Matrix_NE ihre_PPOSAT Endform_NN erreicht_VVPP hat_VAFIN ,_$, übernehme_VVFIN ich_PPER die_ART Vektoren_NN aus_APPR der_ART Ausgangsmtrix_NN die_ART in_APPR der_ART Endmatrix_NN zu_PTKZU Einheitsvektoren_VVINF geworden_VAPP sind_VAFIN ._$. Ist_VAFIN dieses_PDAT Vorgehen_NN korrekt?D_NE -RRB-_TRUNC <_XY REMOVED_PERSON_ENTITY_NE >_CARD habe_VAFIN ich_PPER leider_ADV keine_PIAT Idee_NN ._$. Ich_PPER habe_VAFIN erst_ADV gedacht_VVPP ,_$, dass_KOUS ich_PPER die_ART inverse_FM zu_APPR M_NE bestimmen_VVINF soll_VMFIN indem_KOUS ich_PPER folgendes_ADJA LGS_NN löse_VVFIN :2_CARD 4_CARD -2_CARD |_XY 1_CARD 0_CARD 00_CARD 1_CARD 1_CARD |_CARD 0_CARD 1_CARD 0-3_CARD -4_CARD 5_CARD |_CARD 0_CARD 0_CARD 1Wenn_CARD ich_PPER dies_PDS tue_VVFIN habe_VAFIN ich_PPER aber_ADV nur_ADV die_ART Lösung_NN für_APPR M_NE \*_CARD Q_XY =_XY RWie_NN kann_VMFIN ich_PPER P_NN da_ADV noch_ADV hinzufügen?E_NN -RRB-_TRUNC Hier_ADV würde_VAFIN ich_PPER folgendes_ADJA LGS_NN lösen_VVINF :_$. 2_CARD 4_CARD 1_CARD -2_XY 1_CARD |_XY 3_CARD 7_CARD 0_CARD 1_CARD 0_CARD 1_CARD 0_CARD |_CARD -2_CARD -1_CARD -3_CARD -4_CARD -1_CARD 4_CARD -2_CARD |_CARD -5_CARD -12_CARD 1_CARD 0_CARD 0_CARD -2_XY 1_CARD |_XY 2_CARD +_XY t_XY 5Sobald_XY die_ART Koeffizientenmatrix_NN auf_APPR Stufenform_NN ist_VAFIN kann_VMFIN ich_PPER hoffentlich_ADV ablesen_VVINF und_KON erkennen_VVINF welche_PWAT Werte_NN t_XY annehmen_VVINF darf_VMFIN damit_PROAV das_ART LGS_NN zu_APPR einer_ART Lösung_NN führt_VVFIN ._$. Stimmt_VVFIN dieses_PDAT Vorgehen?F_NN -RRB-_TRUNC Aus_APPR den_ART gegebenen_ADJA Vektoren_NN würde_VAFIN ich_PPER eine_ART Matrix_NN bauen_VVINF ._$. Aschließend_ADJD bringe_VVFIN ich_PPER die_ART Matrix_NE mit_APPR der_ART Hilfe_NN des_ART Gaußalgo_NN ._$. auf_APPR Stufenform_NN ._$. Sobald_KOUS ich_PPER die_ART Endmatrix_NN erreicht_VVPP habe_VAFIN ,_$, übernehme_VVFIN ich_PPER die_ART Vektorendie_NN in_APPR der_ART Ausgansmatrix_NN zu_PTKZU Einheitsvektoren_VVINF geworden_VAPP sind_VAFIN ._$. Diese_PDAT müssten_NN linear_ADJD unabhängig_ADJD sein_VAINF ._$. Stimmt_VVFIN dieses_PDAT Vorgehen?G_NN -RRB-_TRUNC In_APPR diesem_PDAT Fall_NN würde_VAFIN ich_PPER aus_APPR den_ART gegebenen_ADJA Vektoren_NN eine_ART Matrix_NN formen_VVFIN ._$. Die_ART Rechte_NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE setzt_VVFIN ich_PPER aber_ADV nicht_PTKNEG null_ADJD sondern_KON ich_PPER wähle_VVFIN für_APPR den_ART letzen_ADJA Wert_NN eine_ART 1_CARD ._$. D._NE h._VVFIN die_ART rechte_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_NE würde_VAFIN folgendermaßen_ADV aussehen_VVINF ._$. |_XY 0_CARD |_CARD 0_CARD |_CARD 0_CARD |_CARD 1Ich_XY setze_VVFIN die_ART Matrix_NE also_ADV nicht_PTKNEG gleich_ADV den_ART Nullvektor_NN ,_$, sondern_KON einen_ART Einheitsvektor_NN ._$. Grund_NN ,_$, die_ART rechte_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_CARD stellt_VVFIN die_ART Skalare_NN bzw_NE ._$. Koeffizienten_NN einer_ART LK_NN da_ADV ._$. Durch_APPR Anwendung_NN des_ART Gaußalgo_NN ._$. kann_VMFIN ich_PPER dann_ADV am_APPRART Ende_NN die_ART entsprechenden_ADJA Skalare_NN ablesen?Ist_NN dieses_PDAT Vorgehen_NN korrekt_ADJD ?_$. H_XY -RRB-_TRUNC Hier_ADV würde_VAFIN ich_PPER für_APPR die_ART Koeffizienten-Matrix_NN =_XY A_NN setzen_VVINF und_KON für_APPR die_ART Rechte_NN Seite_NN =_XY B_NN setzen_VVINF ._$. Auf_APPR der_ART linken_ADJA -LRB-_TRUNC Koeffizienten_NN Matrix_NE -RRB-_TRUNC <_XY REMOVED_PERSON_ENTITY_NE >_NE müsste_VVFIN dann_ADV eine_ART Matrix_NN X_XY enstehen_VVINF die_ART X_XY \*_CARD A_NN =_XY B_NN erfüllt_VVPP ._$. Kann_VMFIN man_PIS das_ART so_ADV machen?I_NE -RRB-_TRUNC Bei_APPR dieser_PDAT Aufgabe_NN würde_VAFIN ich_PPER jeweils_ADV aus_APPR beiden_PIDAT Systemen_NN eine_ART Matrix_NN formen_VVFIN und_KON auf_APPR Stufenform_NN bringen_VVINF ._$. Anschließend_ADJD kann_VMFIN die_ART Lösung_NN abgelesen_VVPP werden_VAINF ._$. So_ADV in_APPR Ordnung?J_NE -RRB-_TRUNC Der_ART Durchschnitt_NN von_APPR Megen_NE bzw_NE ._$. die_ART Schnittmenge_NN ist_VAFIN so_ADV definiert_VVPP ,_$, dass_KOUS es_PPER eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD A_NN und_KON eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD B_NN gibt_VVFIN ._$. Alle_PIDAT Werte_NN die_ART gleichzeitg_ADV in_APPR A_NN und_KON B_NN auftauschen_VVINF sind_VAFIN <_CARD REMOVED_PERSON_ENTITY_NN >_CARD von_APPR A_NN &_KON B._NN Ich_PPER bin_VAFIN mir_PPER nicht_PTKNEG ganz_ADV sicher_ADJD ,_$, aber_KON sehe_VVFIN ich_PPER es_PPER richtig_ADJD ,_$, dass_KOUS die_ART Schnittmenge_NN von_APPR M1_CARD und_KON M2_CARD die_ART Vektoeren_NN sind_VAFIN ,_$, die_ART linear_ADJD abhängig_ADJD sind_VAFIN ?_$. ..._$( wie_KOKOM ich_PPER diese_PDAT Aufgabe_NN lösen_VVFIN muss_PPER weiß_VVFIN ich_PPER nicht_PTKNEG so_ADV genau_ADJD ._$. Würde_VAFIN mich_PRF über_APPR Hilfe_NN freuen_VVINF ._$. K_XY -RRB-_TRUNC <_XY REMOVED_PERSON_ENTITY_NN >_VVINF wird_VAFIN eine_ART Untermatrix_NN mit_APPR gleichen_ADJA Rang_NN benötigt_VVPP ._$. Aus_APPR diesem_PDAT Grund_NN würde_VAFIN ich_PPER diese_PDAT Matrix_NN mittels_APPR Gaußalgo_NN ._$. auf_APPR Stufenform_NN bringen_VVINF und_KON aus_APPR der_ART Ausgangsmatrix_NN die_ART Vektoren_NN übernehmen_VVFIN die_ART in_APPR der_ART Endmatrix_NN zu_PTKZU Einheitsvektoren_VVINF geworden_VAPP sind_VAFIN ._$. Was_PWS mich_PRF etwas_PIS irritiert_VVPP ist_VAFIN das_ART Wort_NN "_$( regulär_ADJD "_$( ?_$. Regulär_NN heißt_VVFIN eigentlich_ADV ,_$, dass_KOUS eine_ART Matrix_NN invertierbar_ADJD ist_VAFIN ._$. D._NE h._VVFIN es_PPER gibt_VVFIN eine_ART Matrix_NN mit_APPR der_ART man_PIS mittels_APPR Matrixmultiplikation_NN auf_APPR die_ART Einheitsmatrix_NN kommen_VVFIN muss_NN ._$. Ist_VAFIN diese_PDAT Information_NN überflüssig_ADJD für_APPR das_ART Lösen_NN der_ART Aufgabe?L_NN -RRB-_TRUNC Eine_ART untere_ADJA Dreiecksmatrix_NN hat_VAFIN oberhalb_APPR der_ART Hauptdiagonalen_NN nur_ADV Nullen_NN stehen_VVFIN ._$. Eigentlich_ADV würde_VAFIN ich_PPER in_APPR diesem_PDAT Fall_NN die_ART Matrix_NE mittels_APPR Gaußalgo_NE ._$. auf_APPR Stufenform_NN bringen_VVINF ._$. Dabei_PROAV ensteht_VVFIN dann_ADV automatisch_ADJD eine_ART obere_ADJA Dreiecksmatrix_NN ._$. Diese_PDAT würde_VAFIN ich_PPER dann_ADV transponieren_VVINF und_KON hoffen_VVFIN dann_ADV ,_$, dass_KOUS eine_ART untere_ADJA Dreiecksmatrix_NN ensteht_VVFIN ._$. Ist_VAFIN dieses_PDAT Vorgehen_NN so_ADV in_APPR Ordnung?M_NE -RRB-_TRUNC <_XY REMOVED_PERSON_ENTITY_NE >_CARD habe_VAFIN ich_PPER keine_PIAT Idee_NN ._$. N_NN -RRB-_TRUNC <_XY REMOVED_PERSON_ENTITY_NE >_CARD hier_ADV hätte_VAFIN ich_PPER keine_PIAT Idee_NN ._$. Wäre_VAFIN toll_ADJD wenn_KOUS wir_PPER über_APPR diese_PDAT Aufgaben_NN eventuell_ADJD eine_ART Diskussion_NN führen_VVINF könnten_VMFIN ._$. Ich_PPER denke_VVFIN mal_ADV davon_PROAV profitieren_VVFIN wir_PPER alle_PIS ._$. Besten_NN Dank_NN und_KON GrußPascal_NN 

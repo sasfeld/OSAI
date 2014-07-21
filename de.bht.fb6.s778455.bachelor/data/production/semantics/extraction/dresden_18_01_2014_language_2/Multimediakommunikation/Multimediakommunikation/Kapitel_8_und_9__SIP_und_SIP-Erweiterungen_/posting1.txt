@@ -1,0 +1,16 @@
+ID: 1898
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Das Kapitel 8 (SIP) wird heute (4. 6. 2013) in der Vorlesung behandelt. Das Kapitel 9 steht als Online-Vorlesung hier in Auditorium ab sofort zur Verfügung:
+
+https://auditorium. inf. tu-dresden. de/courses/2154446/recordings
+
+Die entsprechenden Folien sind wie immer auf der Webseite der Lehrveranstaltung zu finden:
+
+http://www.inf.tu-dresden. de/index. php?node_id=2568&ln=de&lv_id=52
+TAGGED_CONTENT:

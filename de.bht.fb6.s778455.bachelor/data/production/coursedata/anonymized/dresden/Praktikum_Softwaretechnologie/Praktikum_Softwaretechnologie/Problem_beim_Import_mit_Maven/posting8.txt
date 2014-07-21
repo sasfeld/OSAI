@@ -1,0 +1,15 @@
+ID: 2831
+CREATION_DATETIME: 1384210800000
+MODIFICATION_DATETIME: 1384210800000
+TITLE: Okay, habe sie angemailt.
+Habe es nochmal alles frisch auf einem anderen Account auf dem selben PC i...
+PARENT_POSTING_ID: 2818
+POSTING_TYPE: comment
+CONTENT:
+Okay, habe sie angemailt.
+Habe es nochmal alles <NAME_CORPUS_REPLACEMENT> auf einem anderen Account auf dem selben PC installiert:
+Nach dem Import <NAME_CORPUS_REPLACEMENT> Blankweb kommt dieses Popup:
+http://www1. inf. tu-dresden. de/~swt13w32/files/Error1. png
+http://www1. inf. tu-dresden. de/~swt13w32/files/Error2. png
+Das Problem raubt mir so langsam echt die Nerven :(.
+TAGGED_CONTENT:

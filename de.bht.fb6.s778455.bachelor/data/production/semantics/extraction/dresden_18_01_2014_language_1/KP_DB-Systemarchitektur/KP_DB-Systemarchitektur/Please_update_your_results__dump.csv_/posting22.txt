@@ -1,0 +1,10 @@
+ID: 2382
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: Ich habe mit Revision 309 diese Änderungen (neue predictTime -> neue dump.csv) eingecheckt, jedoch si...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2369
+POSTING_TYPE: answer
+CONTENT:
+Ich habe mit Revision 309 diese Änderungen (neue predictTime -> neue dump. csv) eingecheckt, jedoch sind die Dateien unter Documents/plots immernoch <NAME_CORPUS_REPLACEMENT> Revision 308 und eher, wodurch diese nicht mehr gültig sind und immernoch erneuert werden müssen.
+TAGGED_CONTENT:

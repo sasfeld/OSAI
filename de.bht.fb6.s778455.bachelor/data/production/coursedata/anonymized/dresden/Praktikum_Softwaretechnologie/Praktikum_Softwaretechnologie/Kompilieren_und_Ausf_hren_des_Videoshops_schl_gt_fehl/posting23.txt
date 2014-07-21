@@ -1,0 +1,10 @@
+ID: 2686
+CREATION_DATETIME: 1383260400000
+MODIFICATION_DATETIME: 1383260400000
+TITLE: Das ergibt folgende Ausgabe: (btw: kann man den Post/Comment auch irgendwie so formatieren, dass man ...
+PARENT_POSTING_ID: 2662
+POSTING_TYPE: comment
+CONTENT:
+Das ergibt folgende Ausgabe:
+edit: ausgabe entfernt wegen Formatierungsproblemen.
+TAGGED_CONTENT:

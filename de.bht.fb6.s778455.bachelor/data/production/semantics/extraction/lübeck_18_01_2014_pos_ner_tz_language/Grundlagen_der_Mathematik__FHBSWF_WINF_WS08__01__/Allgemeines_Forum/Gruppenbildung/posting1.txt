@@ -1,0 +1,12 @@
+ID: 16585
+CREATION_DATETIME: 1225113734
+MODIFICATION_DATETIME: 1225113734
+TITLE: Gruppenbildung
+LANGUAGE: GERMAN
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo, wer will sich noch unserer Gruppe (<REMOVED_PERSON_ENTITY> und ich) anschließen.
+ 
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, wer_PWS will_VMFIN sich_PRF noch_ADV unserer_PPOSAT Gruppe_NN -LRB-_TRUNC <_XY REMOVED_PERSON_ENTITY_NE >_NE und_KON ich_PPER -RRB-_TRUNC anschließen_VVINF ._$. 

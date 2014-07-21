@@ -1,0 +1,9 @@
+ID: 1523
+CREATION_DATETIME: 1363042800000
+MODIFICATION_DATETIME: 1363042800000
+TITLE: Does the term *virtual address* then include linear and logical addresses or is this used only for ad...
+PARENT_POSTING_ID: 1515
+POSTING_TYPE: comment
+CONTENT:
+Does the term *virtual address* then include linear and logical addresses or is this used only for addresses from the view of an userland application?
+TAGGED_CONTENT:

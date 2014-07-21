@@ -1,0 +1,10 @@
+ID: 2477
+CREATION_DATETIME: 1374703200000
+MODIFICATION_DATETIME: 1374789600000
+TITLE: Zur Lösung von a) sollte die Formel f_a = b/(ld(QS)) die richtige sein. ld(QS) sind die 12 bit, f_a d...
+PARENT_POSTING_ID: 2476
+POSTING_TYPE: answer
+CONTENT:
+Zur Lösung <NAME_CORPUS_REPLACEMENT> a) sollte die Formel $f_a = \frac{b}{(ld(QS))}$ die richtige sein. $ld(QS)$ sind die 12 bit, $f_a$ die 44kHz Abtastfrequenz. Also quasi ganz intuitiv Abtastfrequenz mit Amplitudenstufen multiplizieren, um auf die Datenrate für einen <REMOVED_PERSON_ENTITY> zu kommen.
+S sind die Signalstufen, die sind immer 2 beim binären. QS sind Quantisierungsstufen, oder eben Amplitudenstufen. Also z. B. 256 bei 8 bit oder 1024 bei 10 bit. (alle Angaben ohne Gewähr :D)
+TAGGED_CONTENT:

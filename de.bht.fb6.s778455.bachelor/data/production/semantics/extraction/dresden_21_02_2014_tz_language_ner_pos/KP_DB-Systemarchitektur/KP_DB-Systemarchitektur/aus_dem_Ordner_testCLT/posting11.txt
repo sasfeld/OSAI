@@ -1,0 +1,16 @@
+ID: 1862
+CREATION_DATETIME: 1369692000000
+MODIFICATION_DATETIME: 1369692000000
+TITLE: C++ ist nicht Java. Singletons in C++ sind statische Methoden in einem Namespace und die Felder in ei...
+LANGUAGE: GERMAN
+POS_TAG: value:Felder;weight:0.0;uri:;postag:NN
+POS_TAG: value:C;weight:0.0;uri:;postag:NN
+POS_TAG: value:Namespace;weight:0.0;uri:;postag:NN
+POS_TAG: value:Methoden;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+C++ ist nicht Java. <REMOVED_PERSON_ENTITY> in C++ sind statische Methoden in einem Namespace und die Felder in einem anonymen Namespace.
+TAGGED_CONTENT:
+C_NN +_XY +_XY ist_VAFIN nicht_PTKNEG Java_NE ._$. <_XY REMOVED_PERSON_ENTITY_NN >_CARD in_APPR C_NN +_XY +_XY sind_VAFIN statische_ADJA Methoden_NN in_APPR einem_ART Namespace_NN und_KON die_ART Felder_NN in_APPR einem_ART anonymen_ADJA Namespace_NN ._$. 

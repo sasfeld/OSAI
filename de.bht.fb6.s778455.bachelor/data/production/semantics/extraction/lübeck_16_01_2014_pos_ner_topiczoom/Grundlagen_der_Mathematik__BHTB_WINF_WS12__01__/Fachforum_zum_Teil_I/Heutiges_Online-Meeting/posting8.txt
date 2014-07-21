@@ -1,0 +1,21 @@
+ID: 166589
+CREATION_DATETIME: 1349284603
+MODIFICATION_DATETIME: 1349284747
+TITLE: Re: Heutiges Online-Meeting
+TOPIC_ZOOM_TAG: value:Feiertage;weight:2.0;significance:6.76051452605328;degreegeneralization:5;uri:20718404
+TOPIC_ZOOM_TAG: value:Feiern, Feste und Festakte;weight:2.0;significance:5.9680301556277;degreegeneralization:4;uri:20919667
+TOPIC_ZOOM_TAG: value:Veranstaltungen;weight:2.0;significance:3.37051978211685;degreegeneralization:3;uri:20901494
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+POS_TAG: value:Woche;weight:0.0;uri:;postag:NN
+POS_TAG: value:hrungsveranstaltung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Feiertag;weight:0.0;uri:;postag:NN
+POS_TAG: value:Meeting;weight:0.0;uri:;postag:NN
+POS_TAG: value:Informationsstand;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 166463
+CONTENT:
+Das hat er bei der Einführungsveranstaltung gesagt... Er meinte da Feiertag ist begnnen wir erst nächste Woche mit dem online Meeting. Das trotz Feiertag ein Meeting stattfindet ist richtig allerdings nicht hier sondern bei programmieren I. Das ist jedenfalls mein Informationsstand
+TAGGED_CONTENT:
+Das_PDS hat_VAFIN er_PPER bei_APPR der_ART Einführungsveranstaltung_NN gesagt_VVPP ..._$( Er_PPER meinte_VVFIN da_ADV Feiertag_NN ist_VAFIN begnnen_VVFIN wir_PPER erst_ADV nächste_ADJA Woche_NN mit_APPR dem_ART online_ADJA Meeting_NN ._$. Das_ART trotz_APPR Feiertag_NN ein_ART Meeting_NN stattfindet_VVFIN ist_VAFIN richtig_ADJD allerdings_ADV nicht_PTKNEG hier_ADV sondern_KON bei_APPR programmieren_VVINF I._ADJD Das_PDS ist_VAFIN jedenfalls_ADV mein_PPOSAT Informationsstand_NN 

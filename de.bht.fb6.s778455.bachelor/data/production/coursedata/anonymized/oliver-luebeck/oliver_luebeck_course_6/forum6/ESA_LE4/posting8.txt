@@ -1,0 +1,27 @@
+ID: 37
+CREATION_DATETIME: 1287424740000
+MODIFICATION_DATETIME: 1287424740000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 30
+CONTENT:
+ 
+Ich habe die Exceptions, die ich nicht fangen konnte jetzt selbst definiert, z. B. so:
+
+class MyException extends Exception {
+public MyException() {
+}
+public MyException(String s) {
+super(s);
+}
+}
+...
+if ((n1 > 1410065407) || (n2 > 1410065407) || (n1 + n2 > 1410065407) || (n1 * n2 > 1410065407))
+throw new MyException("Zahl ausserhalb des Wertebereichs von Integer! ");
+...
+} catch(MyException me) {
+System.out.print(me.getMessage()); //Ueberlauf
+
+Gruß
+    
+TAGGED_CONTENT:

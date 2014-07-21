@@ -1,0 +1,15 @@
+ID: 172219
+CREATION_DATETIME: 1350585964
+MODIFICATION_DATETIME: 1350585964
+TITLE: Re: Gruppen für die Einsendeaufgaben
+NER_TAG: value:Necla;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:Necla;weight:-1.0;uri:;classifierlabel:I-LOC
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 172195
+CONTENT:
+Hey <REMOVED_PERSON_ENTITY>,
+<REMOVED_PERSON_ENTITY>, Necla und ich würden eine Gruppe bilden, bist du mit dabei?
+Schönen Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hey_NE <_NE REMOVED_PERSON_ENTITY_NE >_CARD ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, Necla_NE und_KON ich_PPER würden_VAFIN eine_ART Gruppe_NN bilden_VVINF ,_$, bist_VAFIN du_PPER mit_APPR dabei_PROAV ?_$. Schönen_ADJA Gruß_NN <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

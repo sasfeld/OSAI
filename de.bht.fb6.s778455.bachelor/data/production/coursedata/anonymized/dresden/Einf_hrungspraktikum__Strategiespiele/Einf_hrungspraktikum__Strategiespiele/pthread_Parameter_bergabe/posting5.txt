@@ -1,0 +1,9 @@
+ID: 1304
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Er will doch in main zuweisen, nicht überprüfen.
+PARENT_POSTING_ID: 1300
+POSTING_TYPE: comment
+CONTENT:
+Er will doch in main zuweisen, nicht überprüfen.
+TAGGED_CONTENT:

@@ -1,0 +1,20 @@
+ID: 6
+CREATION_DATETIME: 1303972260000
+MODIFICATION_DATETIME: 1303972260000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 5
+CONTENT:
+ 
+Hallo ,
+
+vielen Dank für deine rasche Hilfe!
+Das war das fehlende Puzzle-Teil.
+Vielen, vielen Dank!
+Die Klasse AutoTest funktioniert und heute Abend mache ich mich an AutoTest2.
+
+Super, super, super....
+
+Viele Grüße, 
+    
+TAGGED_CONTENT:

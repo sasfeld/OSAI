@@ -1,0 +1,8 @@
+ID: 101862
+CREATION_DATETIME: 1287940559
+MODIFICATION_DATETIME: 1287940559
+TITLE: Gruppe für die 1. Einsendeaufgabe
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo!Wer hat noch keine Gruppe für die erste Einsendeaufgabe? Ich bin im Moment nämlich noch alleine!LG, <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

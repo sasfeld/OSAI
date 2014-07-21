@@ -1,0 +1,8 @@
+ID: 166785
+CREATION_DATETIME: 1349339886
+MODIFICATION_DATETIME: 1349339886
+TITLE: Re: Heutiges Online-Meeting
+PARENT_POSTING_ID: 166643
+CONTENT:
+Ich bekomme alles was hier gepostet wird auch an den mailaccount weitergeleitet der für mich in moodle hinterlegt ist. Evtl. ist diese Option bei einigen von euch nicht aktiviert!?
+TAGGED_CONTENT:

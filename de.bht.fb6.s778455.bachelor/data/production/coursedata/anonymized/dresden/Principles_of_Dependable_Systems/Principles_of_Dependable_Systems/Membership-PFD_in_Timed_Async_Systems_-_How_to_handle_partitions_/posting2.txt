@@ -1,0 +1,9 @@
+ID: 922
+CREATION_DATETIME: 1354143600000
+MODIFICATION_DATETIME: 1354143600000
+TITLE: We haven't dealt with PFD-TAS in the lecture yet. Does section 8.4.2 on the paper answer your questio...
+PARENT_POSTING_ID: 921
+POSTING_TYPE: answer
+CONTENT:
+We haven't dealt with PFD-TAS in the lecture yet. Does section 8. 4. 2 on the paper answer your question?
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 2293
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1382914800000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+I am reviewing parallel computing, reading the lecture pdf, but I don't know which points are very important. By saying that I mean I don't know how to review parallel computing, <NAME_CORPUS_REPLACEMENT> you tell me some notes? Thank you.
+TAGGED_CONTENT:

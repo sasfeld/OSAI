@@ -1,0 +1,15 @@
+ID: 617
+CREATION_DATETIME: 1351551600000
+MODIFICATION_DATETIME: 1384988400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo Zusammen,
+<NAME_CORPUS_REPLACEMENT> ich nur Fragen erstellen kann und keine Info, hab ich es mal als Frage formuliert.
+Ich habe im Netz Folien und vor allem Turtorials gefunden, die <NAME_CORPUS_REPLACEMENT> der AuD-Vorlesung <NAME_CORPUS_REPLACEMENT> vor ein paar <REMOVED_PERSON_ENTITY> sind. Dort ist sehr übersichtlich erklärt, was in unserem Script etwas schwer zu verstehen ist.
+Zu finden:
+<a href="http://aud.rextech.de/index. php?page=3">hier
+Beste Grüße
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

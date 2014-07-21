@@ -1,0 +1,20 @@
+ID: 1179
+CREATION_DATETIME: 1362438000000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: Du musst g++ installieren, das Problem hatte ich auch:
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1178
+POSTING_TYPE: answer
+CONTENT:
+Du musst g++ installieren, das Problem hatte ich auch:
+
+In der Kommandozeile:
+
+```ruby
+
+sudo apt-get install g++
+
+```
+
+EDIT: Und gcc vielleicht auch? Ich hab mir auf jeden Fall gleich beides geholt.
+TAGGED_CONTENT:

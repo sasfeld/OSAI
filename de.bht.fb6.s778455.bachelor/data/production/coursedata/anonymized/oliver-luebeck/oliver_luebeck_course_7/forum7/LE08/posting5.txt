@@ -1,0 +1,19 @@
+ID: 8
+CREATION_DATETIME: 1304023320000
+MODIFICATION_DATETIME: 1304023320000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 7
+CONTENT:
+ 
+Hallo ,
+
+ich habe für Standort und Fahrgestellnummer einen neuen Konstruktor ErweitertesAuto aufgemacht.
+
+Bei faehrtNach müsstest Du dem vorherigen Standort das jetzige Ziel zu weisen, das ja das neue Ziel ist. Außerdem habe ich kmStand die Summe aus kmStand und Entfernung zugewiesen. Ich glaube, hier wird das "this." nicht benötigt.
+
+Ich hoffe, das hilft Dir weiter. Ansonsten frag einfach noch mal nach.
+
+Viele Grüße
+    
+TAGGED_CONTENT:

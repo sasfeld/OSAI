@@ -1,0 +1,13 @@
+ID: 184331
+CREATION_DATETIME: 1354365655
+MODIFICATION_DATETIME: 1354365655
+TITLE: Re: ESA, Aufg. 2a)
+LANGUAGE: GERMAN
+POS_TAG: value:Ansatz;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 183799
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+es muss jetzt nichts heißen, aber genau das wäre auch mein Ansatz gewesen.
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE ,_$, es_PPER muss_PPER jetzt_ADV nichts_PIS heißen_VVINF ,_$, aber_KON genau_ADJD das_ART wäre_VAFIN auch_ADV mein_PPOSAT Ansatz_NN gewesen_VAPP ._$. <_XY REMOVED_PERSON_ENTITY_NE >_XY 

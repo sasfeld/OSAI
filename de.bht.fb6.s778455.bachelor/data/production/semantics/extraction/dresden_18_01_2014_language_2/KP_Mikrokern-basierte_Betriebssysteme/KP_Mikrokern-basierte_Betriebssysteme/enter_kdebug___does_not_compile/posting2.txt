@@ -1,0 +1,10 @@
+ID: 1382
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Okay. Then back to manually editing kdebug.h. Which file did you modify?
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1325
+POSTING_TYPE: comment
+CONTENT:
+Okay. Then back to manually editing kdebug. h. Which file did you modify?
+TAGGED_CONTENT:

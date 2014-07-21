@@ -1,0 +1,9 @@
+ID: 2870
+CREATION_DATETIME: 1384642800000
+MODIFICATION_DATETIME: 1384642800000
+TITLE: wouldn't the documentation of the Money class make a great place for this hint? In \huge\color{red} i...
+PARENT_POSTING_ID: 2867
+POSTING_TYPE: comment
+CONTENT:
+wouldn't the documentation of the Money class make a great place for this hint? In \huge\color{red} if it's possible? :)
+TAGGED_CONTENT:

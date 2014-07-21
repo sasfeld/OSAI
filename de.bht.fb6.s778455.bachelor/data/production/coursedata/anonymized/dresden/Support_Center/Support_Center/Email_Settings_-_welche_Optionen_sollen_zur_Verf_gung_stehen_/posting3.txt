@@ -1,0 +1,9 @@
+ID: 106
+CREATION_DATETIME: 1347832800000
+MODIFICATION_DATETIME: 1347832800000
+TITLE: Das kommt noch. Bishe
+PARENT_POSTING_ID: 100
+POSTING_TYPE: comment
+CONTENT:
+Das kommt noch. Bisher können Email-Notifications aktiviert und deaktiviert werden für abonnierte Kurse. Das wird aber noch erweitert.
+TAGGED_CONTENT:

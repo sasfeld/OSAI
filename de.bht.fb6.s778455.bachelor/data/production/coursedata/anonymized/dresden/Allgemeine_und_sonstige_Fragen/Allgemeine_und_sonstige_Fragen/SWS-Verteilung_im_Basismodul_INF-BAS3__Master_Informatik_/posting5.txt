@@ -1,0 +1,10 @@
+ID: 732
+CREATION_DATETIME: 1352674800000
+MODIFICATION_DATETIME: 1352674800000
+TITLE: In wiefern entspricht denn «4 SWS Vorlesung und 4 SWS Übung erfüllen alle Andorferungen, die die Modu...
+PARENT_POSTING_ID: 728
+POSTING_TYPE: comment
+CONTENT:
+In wiefern entspricht denn «4 SWS Vorlesung und 4 SWS Übung erfüllen alle Andorferungen, die die Modulbeschreibung stellt» deinem „ja du musst entsprechend der Modulbeschreibung ein Seminar wählen“?
+Edit: … und jetzt editierst du den Kommentar so, dass du dich nicht mehr nur auf 4/4/0 beziehst. Das ist aber gerade der interessante Fall, den genau darum (nämlich zwei 2+2-<REMOVED_PERSON_ENTITY>) ging es in der Ausgangsfrage.
+TAGGED_CONTENT:

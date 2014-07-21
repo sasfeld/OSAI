@@ -1,0 +1,9 @@
+ID: 1160
+CREATION_DATETIME: 1362351600000
+MODIFICATION_DATETIME: 1362351600000
+TITLE: Hast du auf den Eintrag geklickt der erscheint, sobald du den Lehrstuhl eintippst? Denn wenn nicht, w...
+PARENT_POSTING_ID: 1159
+POSTING_TYPE: answer
+CONTENT:
+Hast du auf den Eintrag geklickt der erscheint, sobald du den Lehrstuhl eintippst? Denn wenn nicht, wurde keine ID erkannt und der entsprechende Fehler tritt auf.
+TAGGED_CONTENT:

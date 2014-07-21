@@ -1,0 +1,9 @@
+ID: 455
+CREATION_DATETIME: 1350856800000
+MODIFICATION_DATETIME: 1351029600000
+TITLE: Es gilt zumindest $(p
+PARENT_POSTING_ID: 447
+POSTING_TYPE: comment
+CONTENT:
+Es gilt zumindest $((p \rightarrow q) \land (q \rightarrow r)) \rightarrow (p \rightarrow r)$
+TAGGED_CONTENT:

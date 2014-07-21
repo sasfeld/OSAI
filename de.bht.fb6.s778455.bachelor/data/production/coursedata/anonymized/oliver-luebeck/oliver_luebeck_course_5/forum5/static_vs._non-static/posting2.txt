@@ -1,0 +1,58 @@
+ID: 56
+CREATION_DATETIME: 1193576760000
+MODIFICATION_DATETIME: 1193576760000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 55
+CONTENT:
+ 
+Sehr gute und wichtige Frage .
+
+Man benutzt static fuer Attribute und Methoden, wenn man keine Objekte erzeugen möchte, und wenn man es darf. In einer Interface darf man keine static Methoden deklarieren.
+
+Eine static Methode darf nur andere static Methoden aufrufen oder auf static Attribute zugreifen.
+
+Beispiel:
+
+Diese methode ist mit static deklariert, weil sie keine Attribute braucht.
+
+public static void getFile_size (String source) throws IOException {
+
+File quelle = new File(source);
+
+long size = quelle.length();
+
+System.out.println("Die Datei ist " + size + " Byte(s) gross.");
+
+}
+
+Sie wird von einer anderen Klasse so aufgerufen:
+
+VerzDat. getFile_size(« datei.txt »);
+
+
+Anderes Beispiel:
+
+Diese methode ist mit static deklariert, weil das Attribut, das sie braucht, selbst mit static deklariert wurde.
+
+private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+
+public static String eingeben(String s){
+
+System.out.print(s);
+
+return br.readLine();
+
+}
+
+Aufruf:
+
+String name = VerzDat. Eingeben(«Bitte Name der Datei eingeben »);
+
+
+Hilft Ihnen diese Antwort?
+
+Mit freundlichen Gruessen,
+	
+TAGGED_CONTENT:

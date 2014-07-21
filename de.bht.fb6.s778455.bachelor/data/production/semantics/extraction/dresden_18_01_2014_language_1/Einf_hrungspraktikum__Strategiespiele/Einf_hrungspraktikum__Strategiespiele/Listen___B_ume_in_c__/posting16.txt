@@ -1,0 +1,10 @@
+ID: 1271
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: ich brauch keine duplikate ich muss nur schaun das ich nich 2 mal den selben sprung mache
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1261
+POSTING_TYPE: comment
+CONTENT:
+ich brauch keine duplikate ich muss nur schaun das ich nich 2 mal den selben sprung mache
+TAGGED_CONTENT:

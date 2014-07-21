@@ -1,0 +1,10 @@
+ID: 242397
+CREATION_DATETIME: 1381420826
+MODIFICATION_DATETIME: 1381420826
+TITLE: Re: Gruppen für potenzielle Einsendeaufgaben
+PARENT_POSTING_ID: 238269
+CONTENT:
+Hallo nochmal,
+nochmal als kurze Erinnerung: Wie angekündigt werde ich an der ersten Präsenz morgen nicht dabei sein, da es eine <REMOVED_PERSON_ENTITY> mit dem Modul "Algorithmen und Datenstrukturen" aus einem späteren Semester gibt. Bei der Gruppe bin ich trotzdem dabei, kenne mich mit dem ersten Thema auch schon etwas aus. DIe Einsendeaufgabe dazu kriegen wir also auf jeden Fall hin :).
+VG, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

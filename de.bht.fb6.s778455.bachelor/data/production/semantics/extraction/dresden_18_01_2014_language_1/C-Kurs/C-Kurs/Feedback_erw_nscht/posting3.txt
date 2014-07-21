@@ -1,0 +1,12 @@
+ID: 553
+CREATION_DATETIME: 1351288800000
+MODIFICATION_DATETIME: 1358031600000
+TITLE: Der C Kurs heut war echt gut, kann ich nur loben! Ich bin auch froh, dass ich von der Warteliste nach...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 549
+POSTING_TYPE: answer
+CONTENT:
+Der C Kurs heut war echt gut, kann ich nur loben! Ich bin auch froh, dass ich <NAME_CORPUS_REPLACEMENT> der Warteliste nachrücken konnte (hab ja eigentlich nur auf gut Glück mal vorbeigeschaut). Auch die Erklärungen und die Betreuung sind richtig gut. Ich konnte so gut wie alles nachvollziehen, auch wenn ich zuvor noch nie programmiert hab. Nur mit der Anwendung hab ich noch große Probleme, aber <NAME_CORPUS_REPLACEMENT> konnte man sich ja immer wen zu sich rufen :) Ein kleiner Kritikpunkt kommt trotzdem noch: Wäre toll, wenn an der <REMOVED_PERSON_ENTITY> ein bisschen größer geschrieben werden könnte. Haben in den letzten Reihen nicht alles lesen können. 
+
+Hab hier im auditorium auch schon gelesen, dass die Präsentation womöglich noch online gestellt wird. Dies würde ich mir sehr wünschen, weil meine Aufzeichnungen nicht halb so übersichtlich geworden sind und ich die Präsentation so wie sie war ganz gut fand, war nicht zu knapp und nicht zu ausführlich.
+TAGGED_CONTENT:

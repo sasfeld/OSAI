@@ -1,0 +1,10 @@
+ID: 1610
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Ich klicke gerne mit der mittleren Maustaste auf Links um sie somit in einen neuen Tab zu öffnen. Wen...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 369
+POSTING_TYPE: answer
+CONTENT:
+Ich klicke gerne mit der mittleren Maustaste auf Links um sie somit in einen neuen Tab zu öffnen. Wenn ich die Auditorium Seite mit Chromium/Chrome oder Opera öffne funktioniert das auch mit den verschiedenen Links auf dieser Seite. Allerdings klappt es nicht in Firefox. Auf allen anderen Webseiten funtkioniert das bei mir einwandfrei, drum schätze ich mal, dass es am Auditorium und nicht an mir liegt.
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 1291
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Ja, den Gnu Debugger, gdb (sudo apt get install gdb).
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1288
+POSTING_TYPE: answer
+CONTENT:
+Ja, den Gnu Debugger, gdb (sudo apt get install gdb).
+
+Damit man vom mcp in den player kommt muss man im gdb-prompt noch "set follow-fork-mode child" eingeben, wenn der erste <REMOVED_PERSON_ENTITY> dein Player ist oder einen Breakpoint auf fork() setzen, mit "run" das Programm laufen lassen, und vor dem zweiten fork() den follow-fork-mode auf "child" setzen.
+
+gdb cheat sheets zur Bedienung finden sich zu <REMOVED_PERSON_ENTITY> mit Google.
+TAGGED_CONTENT:

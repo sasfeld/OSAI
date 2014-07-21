@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="13465" moduleid="67240" modulename="forum" contextid="94158">
+  <forum id="13465">
+    <type>general</type>
+    <name>Allgemeines Forum</name>
+    <intro>Hier können Sie übergeordnete und organisatorische Fragen diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>2</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1185448275</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="42909">
+        <name>Lösungen zu den Zusatzaufgaben</name>
+        <firstpost>115380</firstpost>
+        <userid>665</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1317826487</timemodified>
+        <usermodified>665</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="115380">
+            <parent>0</parent>
+            <userid>665</userid>
+            <created>1317826487</created>
+            <modified>1317826487</modified>
+            <mailed>1</mailed>
+            <subject>Lösungen zu den Zusatzaufgaben</subject>
+            <message>&lt;p&gt;Liebe Studierenden,&lt;/p&gt;
+&lt;p&gt;ich habe Ihnen gerade die Lösungen für die zusätzlichen Aufgaben bereitgestellt. Versuchen Sie bitte trotzdem, die Aufgaben zunächst &lt;strong&gt;ohne&lt;/strong&gt; die Lösungen zu bearbeiten! Das gilt auch für die nächsten Aufgabenblöcke. &lt;/p&gt;
+&lt;p&gt;Viel Spaß!&lt;/p&gt;
+&lt;p&gt;Ulrike Bähr&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="123128">
+        <userid>741</userid>
+      </subscription>
+      <subscription id="123129">
+        <userid>643</userid>
+      </subscription>
+      <subscription id="123130">
+        <userid>321</userid>
+      </subscription>
+      <subscription id="123131">
+        <userid>751</userid>
+      </subscription>
+      <subscription id="123132">
+        <userid>743</userid>
+      </subscription>
+      <subscription id="123133">
+        <userid>665</userid>
+      </subscription>
+      <subscription id="123134">
+        <userid>7812</userid>
+      </subscription>
+      <subscription id="123135">
+        <userid>725</userid>
+      </subscription>
+      <subscription id="123136">
+        <userid>723</userid>
+      </subscription>
+      <subscription id="123137">
+        <userid>727</userid>
+      </subscription>
+      <subscription id="123138">
+        <userid>769</userid>
+      </subscription>
+      <subscription id="123139">
+        <userid>761</userid>
+      </subscription>
+      <subscription id="123140">
+        <userid>745</userid>
+      </subscription>
+      <subscription id="123141">
+        <userid>747</userid>
+      </subscription>
+      <subscription id="123142">
+        <userid>729</userid>
+      </subscription>
+      <subscription id="123143">
+        <userid>739</userid>
+      </subscription>
+      <subscription id="123144">
+        <userid>759</userid>
+      </subscription>
+      <subscription id="123145">
+        <userid>767</userid>
+      </subscription>
+      <subscription id="123146">
+        <userid>755</userid>
+      </subscription>
+      <subscription id="123147">
+        <userid>757</userid>
+      </subscription>
+      <subscription id="123148">
+        <userid>749</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

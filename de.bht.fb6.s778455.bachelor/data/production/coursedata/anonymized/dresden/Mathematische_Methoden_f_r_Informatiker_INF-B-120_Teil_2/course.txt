@@ -1,0 +1,8 @@
+ID: 110804128
+CREATION_DATETIME: 1350511200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Mathematische Methoden für Informatiker INF-B-120 Teil 2
+SUMMARY: 
+URL: http://www.math.tu-dresden.de/%7Enoack/INFO3/Info-3-2012.html

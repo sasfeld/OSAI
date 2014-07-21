@@ -1,0 +1,9 @@
+ID: 1547
+CREATION_DATETIME: 1363734000000
+MODIFICATION_DATETIME: 1363734000000
+TITLE: Generally speaking, I dont see a systematics in all the headers and where they all are located. I tho...
+PARENT_POSTING_ID: 1546
+POSTING_TYPE: comment
+CONTENT:
+Generally speaking, I dont see a systematics in all the headers and where they all are located. I thought about creating a *Just-include-everything*-header…
+TAGGED_CONTENT:

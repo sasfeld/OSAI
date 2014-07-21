@@ -1,0 +1,12 @@
+ID: 3066
+CREATION_DATETIME: 1385679600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Hi everyone,
+when you work on task 2 please don't add a package path/declaration to your java files! This would cause problems with the automatic testing on our computer.
+Thanks,
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,21 @@
+ID: 20
+CREATION_DATETIME: 1304442420000
+MODIFICATION_DATETIME: 1304442420000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo!
+
+In der LE09 steht das man den Pfad der "vfh.prog1.bib" richtig angeben muss
+damit man bei der LE09 diesen richtig importieren kann!
+
+Ich habe aber diese Bibiliothek gar nicht !
+
+Hat jemand eine Idee wo ich diese downloaden kann ??
+
+Vielen Dank !
+
+   
+TAGGED_CONTENT:

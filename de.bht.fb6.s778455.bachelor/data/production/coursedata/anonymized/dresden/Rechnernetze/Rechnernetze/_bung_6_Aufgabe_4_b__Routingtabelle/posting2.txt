@@ -1,0 +1,13 @@
+ID: 2420
+CREATION_DATETIME: 1374444000000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: Die Maske ist die Netzmaske für die der Treffer gelten soll. Am Beispiel des Eintrags mti der Firewal...
+PARENT_POSTING_ID: 2418
+POSTING_TYPE: answer
+CONTENT:
+Die <REMOVED_PERSON_ENTITY> ist die Netzmaske für die der Treffer gelten soll. Am Beispiel des Eintrags mti der Firewall sieht man schön, dass das Ziel „außerhalb“ des Zielnetzes liegt (Zielnetz ist Sya, Ziel ist FW).
+In salopper Kürze:
+C → Kabel eingesteckt und erkannt
+S → <REMOVED_PERSON_ENTITY> <NAME_CORPUS_REPLACEMENT> Hand eingetragen
+D → Dynamisch ermittelt
+TAGGED_CONTENT:

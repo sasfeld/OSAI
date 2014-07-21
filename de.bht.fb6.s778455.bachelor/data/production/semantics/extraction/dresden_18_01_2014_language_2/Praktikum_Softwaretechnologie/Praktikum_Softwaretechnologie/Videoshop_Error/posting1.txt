@@ -1,0 +1,14 @@
+ID: 2772
+CREATION_DATETIME: 1384038000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo, immer wenn ich im Videoshop etwas als User etwas kaufe und danach die Bestellungen einsehe: kommt folgende Exception: 
+
+"Field or property 'userIdentifier' cannot be found on object of type 'org. salespointframework. core. order. Order' "
+
+So wie es aussieht, liegt das an Zeile 29 in der Orders. html.
+TAGGED_CONTENT:

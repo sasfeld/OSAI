@@ -1,0 +1,80 @@
+ID: 2032
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: OK, bei OpenCL is es so, dass nichts ausgeführt wird, wenn Anzahl der global workitems nicht mind. so...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+NER_TAG: value:SVN;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:GPU;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:KernelParametern;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:testCLT;weight:0.0;uri:;postag:NN
+POS_TAG: value:CLT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Testcases;weight:0.0;uri:;postag:NN
+POS_TAG: value:TestSuite;weight:0.0;uri:;postag:NN
+POS_TAG: value:Host;weight:0.0;uri:;postag:NN
+POS_TAG: value:Update;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kram;weight:0.0;uri:;postag:NN
+POS_TAG: value:muss;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kernelargs;weight:0.0;uri:;postag:NN
+POS_TAG: value:OK;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufruf;weight:0.0;uri:;postag:NN
+POS_TAG: value:Inputdaten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Funktionsargument;weight:0.0;uri:;postag:NN
+POS_TAG: value:Form;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ergebnis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Testcase;weight:0.0;uri:;postag:NN
+POS_TAG: value:Basisdatentypen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Pointercasts;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kernel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vermutung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Parameter;weight:0.0;uri:;postag:NN
+POS_TAG: value:Attribut;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anliegen;weight:0.0;uri:;postag:NN
+POS_TAG: value:hrung;weight:0.0;uri:;postag:NN
+POS_TAG: value:llen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Commit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Maximum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dimension;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Speicherbereich;weight:0.0;uri:;postag:NN
+POS_TAG: value:TestCases;weight:0.0;uri:;postag:NN
+POS_TAG: value:Threadblocks;weight:0.0;uri:;postag:NN
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+POS_TAG: value:Outputdaten;weight:0.0;uri:;postag:NN
+POS_TAG: value:t;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anzahl;weight:0.0;uri:;postag:NN
+POS_TAG: value:isMemoryObject;weight:0.0;uri:;postag:NN
+POS_TAG: value:Codewust;weight:0.0;uri:;postag:NN
+POS_TAG: value:KernelParametern;weight:0.0;uri:;postag:NN
+POS_TAG: value:Funktion;weight:0.0;uri:;postag:NN
+POS_TAG: value:OpenCL;weight:0.0;uri:;postag:NN
+POS_TAG: value:SVN;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+OK, bei OpenCL is es so, dass nichts ausgeführt wird, wenn Anzahl der global workitems nicht mind. so groß ist, wie die der local workitems (das is quasi die Dimension eines Threadblocks in Cuda).
+
+Jetzt zum erfreulichen Teil. Meine Vermutung, dass der CLT nicht funktioniert war falsch, ich war nur zu blöd beim <REMOVED_PERSON_ENTITY> und hab mich selbst mit Pointercasts ausgetrickst...
+
+Also es läuft jetzt immer noch alles. Ich habe nochmal ein Update ins SVN geladen und dabei auch den testCLT angepasst mit den Testfällen.
+
+Dazu folgendes:
+
+Die Kernel Maximum und select funktionierten schon erstmal nicht, weil der Testcase nich "maxim" sondern "max" hieß, deshalb wurde der Kernel nicht gefunden. 
+
+Ein anderes Problem war der select Kernel "select" ist eine built-in Funktion <NAME_CORPUS_REPLACEMENT> openCL, deshalb hab ich den Kernel, wie wahrscheinlich auch mal gedacht war, in "selectit" umbenannt.
+
+Bei den Kernelargs nun folgendes: <NAME_CORPUS_REPLACEMENT> ist bei den KernelParametern ein Attribut hinzugekommen und zwar heißt das "isMemoryObject". Das muss auf true gesetzt werden, wenn der angegeben Parameter auf einen Speicherbereich auf dem Host zeigt und dieser Speicherbereich auf das Device kopiert werden soll.
+
+Möchte man Parameter in Form <NAME_CORPUS_REPLACEMENT> Basisdatentypen (int, float...) übertragen, so setzt man dieses <NAME_CORPUS_REPLACEMENT> auf false. Das ist nötig, damit der CLT weiß, wann er auf der GPU einen memory buffer anlegen muss und wann das ganze nur ein einfaches Funktionsargument ist.
+
+Was ich allerdings jetzt in meinem Commit noch nicht behoben hab, is die Funktionalität der Kernel "avg" und "distinct"
+
+Bei diesen werden andere Parameter als angegeben verwendet, deshalb meckert der OpenCL <REMOVED_PERSON_ENTITY> bei der Ausführung.
+
+Und nun mein letztes Anliegen: Das mit den Testfällen hatte ich mir eigentlich anders vorgestellt. Um diesen Codewust zu verhindern, wäre es schön gewesen, wenn man eine TestSuite angelegt hätte, der man dann im testCLT unterschiedliche TestCases hinzufügen kann. Diese TestCases sollten ihren "Kram" allerdings intern erledigen. "Kram" meint hier: erzeugen <NAME_CORPUS_REPLACEMENT> Inputdaten, Execute-Aufruf, lesen der Outputdaten, evtl. testen ob das Ergebnis stimmt. Das ist ja eigentlich das schöne an Testcases, dass man das ganze etwas übersichtlicher gestaltet...
+TAGGED_CONTENT:
+OK_NN ,_$, bei_APPR OpenCL_NE is_VAFIN es_PPER so_ADV ,_$, dass_KOUS nichts_PIS ausgeführt_VVPP wird_VAFIN ,_$, wenn_KOUS Anzahl_NN der_ART global_ADJD workitems_PWAV nicht_PTKNEG mind_ADJD ._$. so_ADV groß_ADJD ist_VAFIN ,_$, wie_PWAV die_PDS der_ART local_ADJD workitems_PWAV -LRB-_TRUNC das_PDS is_VAFIN quasi_ADV die_ART Dimension_NN eines_ART Threadblocks_NN in_APPR Cuda_NE -RRB-_TRUNC ._$. Jetzt_ADV zum_APPRART erfreulichen_ADJA Teil_NN ._$. Meine_PPOSAT Vermutung_NN ,_$, dass_KOUS der_ART CLT_NN nicht_PTKNEG funktioniert_VVFIN war_VAFIN falsch_ADJD ,_$, ich_PPER war_VAFIN nur_ADV zu_APPR blöd_ADJD beim_APPRART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN und_KON hab_VAFIN mich_PPER selbst_ADV mit_APPR Pointercasts_NN ausgetrickst_VVPP ..._$( Also_ADV es_PPER läuft_VVFIN jetzt_ADV immer_ADV noch_ADV alles_PIS ._$. Ich_PPER habe_VAFIN nochmal_ADV ein_ART Update_NN ins_APPRART SVN_NN geladen_VVPP und_KON dabei_PROAV auch_ADV den_ART testCLT_NN angepasst_VVPP mit_APPR den_ART Testfällen_NN ._$. Dazu_PROAV folgendes_ADJA :_$. Die_ART Kernel_NN Maximum_NN und_KON select_VVFIN funktionierten_VVFIN schon_ADV erstmal_ADV nicht_PTKNEG ,_$, weil_KOUS der_ART Testcase_NN nich_PTKNEG "_$( maxim_ADJD "_$( sondern_KON "_$( max_NE "_$( hieß_VVFIN ,_$, deshalb_PROAV wurde_VAFIN der_ART Kernel_NN nicht_PTKNEG gefunden_VVPP ._$. Ein_ART anderes_ADJA Problem_NN war_VAFIN der_ART select_ADJA Kernel_NN "_$( select_VVFIN "_$( ist_VAFIN eine_ART built-in_ADJA Funktion_NN <_CARD NAME_CORPUS_REPLACEMENT_NE >_NE openCL_NE ,_$, deshalb_PROAV hab_VAFIN ich_PPER den_ART Kernel_NN ,_$, wie_PWAV wahrscheinlich_ADJD auch_ADV mal_ADV gedacht_VVPP war_VAFIN ,_$, in_APPR "_$( selectit_ADJD "_$( umbenannt_VVPP ._$. Bei_APPR den_ART Kernelargs_NN nun_ADV folgendes_ADJA :_$. <_CARD NAME_CORPUS_REPLACEMENT_NN >_ADJD ist_VAFIN bei_APPR den_ART KernelParametern_NN ein_ART Attribut_NN hinzugekommen_VVPP und_KON zwar_ADV heißt_VVFIN das_ART "_$( isMemoryObject_NN "_$( ._$. Das_ART muss_NN auf_APPR true_FM gesetzt_VVPP werden_VAINF ,_$, wenn_KOUS der_ART angegeben_VVPP Parameter_NN auf_APPR einen_ART Speicherbereich_NN auf_APPR dem_ART Host_NN zeigt_VVFIN und_KON dieser_PDAT Speicherbereich_NN auf_APPR das_ART Device_NE kopiert_VVPP werden_VAINF soll_VMFIN ._$. Möchte_VMFIN man_PIS Parameter_NN in_APPR Form_NN <_CARD NAME_CORPUS_REPLACEMENT_NN >_ADJA Basisdatentypen_NN -LRB-_TRUNC int_ITJ ,_$, float_VVFIN ..._$( -RRB-_TRUNC übertragen_VVPP ,_$, so_ADV setzt_VVFIN man_PIS dieses_PDAT <_NN NAME_CORPUS_REPLACEMENT_NE >_CARD auf_APPR false_FM ._$. Das_PDS ist_VAFIN nötig_ADJD ,_$, damit_KOUS der_ART CLT_NE weiß_VVFIN ,_$, wann_PWAV er_PPER auf_APPR der_ART GPU_NE einen_ART memory_FM buffer_FM anlegen_VVINF muss_VMFIN und_KON wann_PWAV das_ART ganze_ADJA nur_ADV ein_ART einfaches_ADJA Funktionsargument_NN ist_VAFIN ._$. Was_PWS ich_PPER allerdings_ADV jetzt_ADV in_APPR meinem_PPOSAT Commit_NN noch_ADV nicht_PTKNEG behoben_VVPP hab_VAFIN ,_$, is_VAFIN die_ART Funktionalität_NN der_ART Kernel_NN "_$( avg_NE "_$( und_KON "_$( distinct_VVFIN "_$( Bei_APPR diesen_PDAT werden_VAFIN andere_ADJA Parameter_NN als_APPR angegeben_VVPP verwendet_VVPP ,_$, deshalb_PROAV meckert_VVFIN der_ART OpenCL_NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE bei_APPR der_ART Ausführung_NN ._$. Und_KON nun_ADV mein_PPOSAT letztes_ADJA Anliegen_NN :_$. Das_ART mit_APPR den_ART Testfällen_NN hatte_VAFIN ich_PPER mir_PPER eigentlich_ADV anders_ADV vorgestellt_VVPP ._$. Um_APPR diesen_PDAT Codewust_NN zu_PTKZU verhindern_VVINF ,_$, wäre_VAFIN es_PPER schön_ADJD gewesen_VAPP ,_$, wenn_KOUS man_PIS eine_ART TestSuite_NN angelegt_VVPP hätte_VAFIN ,_$, der_PRELS man_PIS dann_ADV im_APPRART testCLT_NN unterschiedliche_ADJA TestCases_NN hinzufügen_VVINF kann_VMFIN ._$. Diese_PDAT TestCases_NN sollten_VMFIN ihren_PPOSAT "_$( Kram_NN "_$( allerdings_ADV intern_ADJD erledigen_VVINF ._$. "_$( Kram_NN "_$( meint_VVFIN hier_ADV :_$. erzeugen_VVINF <_XY NAME_CORPUS_REPLACEMENT_NN >_CARD Inputdaten_NN ,_$, Execute-Aufruf_NN ,_$, lesen_VVFIN der_ART Outputdaten_NN ,_$, evtl_ADJD ._$. testen_VVINF ob_KOUS das_ART Ergebnis_NN stimmt_VVFIN ._$. Das_PDS ist_VAFIN ja_ADV eigentlich_ADV das_ART schöne_ADJA an_APPR Testcases_NN ,_$, dass_KOUS man_PIS das_ART ganze_ADJA etwas_ADV übersichtlicher_ADJD gestaltet_VVPP ..._$( 

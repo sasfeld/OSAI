@@ -1,0 +1,27 @@
+ID: 61
+CREATION_DATETIME: 1194000120000
+MODIFICATION_DATETIME: 1194000120000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 59
+CONTENT:
+ 
+Ich bräuchte auch etwas Hilfe bei dieser Einsendeaufgabe. Habs aus Zeitgründen erst sehr spät geschafft mich mit dem Thema auseinanderzusetzen und verstehe irgendwie nur Bahnhof.
+Ich hänge sogar noch bei der Einsendeaufgabe 1 fest.
+
+Mein Problem ist das folgende. Ich habe in der TelefonEintrag.java die Methoden zum hinzufügen und löschen und in der Telefonliste.java greift man darauf zu.
+Wenn ich nun meine Methode addItem() aufrufe
+
+static void addItem(TelefonEintrag aItem) {
+phoneRegister.add(aItem);
+}
+
+und mir die Liste ausgeben lassen will steht in der Konsole nur
+
+[Telefon.TelefonEintrag@addbf1]
+
+Ich bin ziemlich ratlos im Moment, wäre schön wenn jemand einen Denkanstoß für mich hätte.
+
+Grüße
+	
+TAGGED_CONTENT:

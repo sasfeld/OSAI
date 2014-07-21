@@ -1,0 +1,12 @@
+ID: 376
+CREATION_DATETIME: 1350424800000
+MODIFICATION_DATETIME: 1350424800000
+TITLE: Es wäre besser gewese
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 371
+POSTING_TYPE: comment
+CONTENT:
+Es wäre besser gewesen sowas als Kommentar unter meine Antwort zu schreiben, <NAME_CORPUS_REPLACEMENT> das ja eher ein Kommentar als eine <REMOVED_PERSON_ENTITY> auf die Frage ist ;) 
+
+Wie besprochen bekommt die Chairs Übersicht und <REMOVED_PERSON_ENTITY> eine Überarbeitung.
+TAGGED_CONTENT:

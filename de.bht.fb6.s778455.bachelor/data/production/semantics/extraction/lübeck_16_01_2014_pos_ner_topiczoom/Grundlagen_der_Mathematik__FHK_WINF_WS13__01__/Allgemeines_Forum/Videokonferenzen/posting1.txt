@@ -1,0 +1,30 @@
+ID: 246011
+CREATION_DATETIME: 1382096207
+MODIFICATION_DATETIME: 1382096207
+TITLE: Videokonferenzen
+TOPIC_ZOOM_TAG: value:Videokonferenzen;weight:1.0;significance:5.8049686132829;degreegeneralization:7;uri:20137786
+TOPIC_ZOOM_TAG: value:Videotechnik;weight:1.0;significance:5.5495558013999;degreegeneralization:6;uri:20897414
+TOPIC_ZOOM_TAG: value:Medientechnik;weight:1.0;significance:3.10213067084864;degreegeneralization:4;uri:20901460
+TOPIC_ZOOM_TAG: value:Videos;weight:1.0;significance:2.96035226646217;degreegeneralization:5;uri:20925532
+TOPIC_ZOOM_TAG: value:Kommunikationstechnik;weight:1.0;significance:2.85914650737003;degreegeneralization:5;uri:20897125
+TOPIC_ZOOM_TAG: value:Telekommunikation;weight:1.0;significance:2.70033836723511;degreegeneralization:5;uri:21990157
+TOPIC_ZOOM_TAG: value:Filme;weight:1.0;significance:2.53589870139907;degreegeneralization:4;uri:21995223
+TOPIC_ZOOM_TAG: value:Film & Kino;weight:1.0;significance:2.42630865775766;degreegeneralization:3;uri:21998164
+TOPIC_ZOOM_TAG: value:Kunstwerke;weight:1.0;significance:2.32117097361383;degreegeneralization:3;uri:21981623
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.83083484620539;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Kunst, Kultur, Musik;weight:1.0;significance:1.52385346833743;degreegeneralization:2;uri:21999796
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:1.07441906812122;degreegeneralization:2;uri:21999813
+POS_TAG: value:Informationen;weight:0.0;uri:;postag:NN
+POS_TAG: value:nnen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Terminen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Videokonferenzen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teilnehmer;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Können die Videokonferenzen aufgezeichnet werden? Es gibt bestimmt einige Teilnehmer die es nicht immer zu den Terminen schaffen. Wäre toll damit man keine Informationen verpasst.
+TAGGED_CONTENT:
+Können_NN die_ART Videokonferenzen_NN aufgezeichnet_VVPP werden_VAINF ?_$. Es_PPER gibt_VVFIN bestimmt_ADJD einige_PIAT Teilnehmer_NN die_ART es_PPER nicht_PTKNEG immer_ADV zu_APPR den_ART Terminen_NN schaffen_VVINF ._$. Wäre_VAFIN toll_ADJD damit_PROAV man_PIS keine_PIAT Informationen_NN verpasst_VVPP ._$. 

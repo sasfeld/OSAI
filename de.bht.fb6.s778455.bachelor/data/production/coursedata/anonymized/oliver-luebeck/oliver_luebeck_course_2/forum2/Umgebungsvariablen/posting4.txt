@@ -1,0 +1,15 @@
+ID: 8
+CREATION_DATETIME: 1175890380000
+MODIFICATION_DATETIME: 1175890380000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 7
+CONTENT:
+
+Dankeschön. Ich werde es austesten. =)
+
+Ich habe inzwischen zwei Stunden lang verschiedene Kombinationen probiert und diverse Hinweise im Netz gelesen. Jetzt läuft die Kompiliererei von jedem Ort aus.
+
+Viele Grüße
+    
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 1980
+CREATION_DATETIME: 1370556000000
+MODIFICATION_DATETIME: 1370556000000
+TITLE: Kein Ding :3 ich hoffe du hasts verstanden und nicht nur kopiert :P
+PARENT_POSTING_ID: 1979
+POSTING_TYPE: comment
+CONTENT:
+Kein Ding :3 ich hoffe du hasts verstanden und nicht nur kopiert :P
+TAGGED_CONTENT:

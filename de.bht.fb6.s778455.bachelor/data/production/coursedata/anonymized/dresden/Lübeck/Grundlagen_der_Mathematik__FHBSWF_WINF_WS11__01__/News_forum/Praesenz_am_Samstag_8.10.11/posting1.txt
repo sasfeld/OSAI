@@ -1,0 +1,10 @@
+ID: 117497
+CREATION_DATETIME: 1317925057
+MODIFICATION_DATETIME: 1317925057
+TITLE: Praesenz am Samstag 8.10.11
+PARENT_POSTING_ID: 0
+CONTENT:
+Bitte Ankuendigung des VFH-Service beachten (Raum, Uhrzeit).
+Schoen Sie dann zu sehen!
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

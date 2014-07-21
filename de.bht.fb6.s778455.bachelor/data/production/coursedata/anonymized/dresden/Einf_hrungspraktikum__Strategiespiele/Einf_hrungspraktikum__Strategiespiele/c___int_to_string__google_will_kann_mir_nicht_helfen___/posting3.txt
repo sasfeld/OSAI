@@ -1,0 +1,18 @@
+ID: 1569
+CREATION_DATETIME: 1363993200000
+MODIFICATION_DATETIME: 1363993200000
+TITLE: ja tut mir leid, dass ich keine genaue angabe gemacht habe
+
+ich weiß nicht, wie ich eine integer va...
+PARENT_POSTING_ID: 1563
+POSTING_TYPE: comment
+CONTENT:
+ja tut mir leid, dass ich keine genaue angabe gemacht habe
+ich weiß nicht, wie ich eine integer variable nehme und in eine char* variable umwandle
+ein anderer tutor hat mir snprintf empfohlen, ich weiß auch <NAME_CORPUS_REPLACEMENT> nicht, wie ich das richtig verwenden soll
+    char* str;
+    int a = 10;
+    snprintf(str, 100, "%d", a);
+    printf("%s", str);
+macht das hier sinn? auf jeden fall gibt mir der compiler den fehler aus, dass ich str nicht initialisiere
+TAGGED_CONTENT:

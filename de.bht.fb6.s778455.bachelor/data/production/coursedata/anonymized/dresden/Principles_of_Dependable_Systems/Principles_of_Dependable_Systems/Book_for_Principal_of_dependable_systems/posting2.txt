@@ -1,0 +1,9 @@
+ID: 1534
+CREATION_DATETIME: 1363474800000
+MODIFICATION_DATETIME: 1363474800000
+TITLE: No, there is no book covering all the topics studied in the lecture. For basic references, see "liter...
+PARENT_POSTING_ID: 1533
+POSTING_TYPE: answer
+CONTENT:
+No, there is no book covering all the topics studied in the lecture. For basic references, see "literature" announcement in this forum. Many slides contain pointers to further papers. Let me know what lecture you have problems with, then I <NAME_CORPUS_REPLACEMENT> look for further references.
+TAGGED_CONTENT:

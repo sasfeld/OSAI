@@ -1,0 +1,9 @@
+ID: 2138
+CREATION_DATETIME: 1372543200000
+MODIFICATION_DATETIME: 1372543200000
+TITLE: Ich hatte auch erst mehr Generics drin als jetzt, aber da gab es immer NameClashes, Martin Fischer me...
+PARENT_POSTING_ID: 2129
+POSTING_TYPE: comment
+CONTENT:
+Ich hatte auch erst mehr Generics drin als jetzt, aber <NAME_CORPUS_REPLACEMENT> gab es immer NameClashes. Wenn ich die Hints lese, denke ich jetzt, dass "Object" durch etwas anderes ersetzt werden muss. JUnit verwendet z. B. Strings. Der Konstruktor <NAME_CORPUS_REPLACEMENT> QueueImpl ist jetzt `if(withDuplicates){myObjects = new LinkedList();} else{ myObjects = new OrderedSetImpl(); }` und die Klasse OrderedSetImpl `OrderedSetImpl`. Ich sehe gerade: jetzt muss ich noch QueueImpl generisch machen
+TAGGED_CONTENT:

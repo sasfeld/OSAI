@@ -1,0 +1,11 @@
+ID: 1531
+CREATION_DATETIME: 1363215600000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich möchte eine Komplexprüfung beantragen (Master Informatik Basismodul), die zwei 2/2/0-Vorlesungen umfasst. Eine der Vorlesungen ist bereits über eine schriftliche Prüfung abgedeckt, <NAME_CORPUS_REPLACEMENT> der die Ergebnisse aber noch nicht vorliegen. Dazu zwei Fragen:
+1.) Kann ich trotzdem bereits jetzt die Komplexprüfung beantragen oder muss ich abwarten, bis die schriftliche Note vorliegt?
+2.) Dadurch, dass die eine Prüfung ja bereits durch die schriftliche Note abgedeckt ist, habe ich ja praktisch nur eine halbe Komplexprüfung. Wird dann nur der <REMOVED_PERSON_ENTITY> der anderen Vorlesung abgefragt? Ist jemand vom anderen Lehrstuhl dann überhaupt anwesend? <NAME_CORPUS_REPLACEMENT> eine normale Komplexprüfung ja 30 Minuten dauert (also 15 Minuten pro Vorlesung in diesem Falle), geht diese dann nur 15 Minuten? Oder wird der <REMOVED_PERSON_ENTITY> der anderen Vorlesung dann 30 Minuten lang abgefragt?
+TAGGED_CONTENT:

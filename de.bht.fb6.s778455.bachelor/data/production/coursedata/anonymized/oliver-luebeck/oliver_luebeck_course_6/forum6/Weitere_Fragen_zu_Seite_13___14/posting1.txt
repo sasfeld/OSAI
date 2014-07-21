@@ -1,0 +1,32 @@
+ID: 22
+CREATION_DATETIME: 1286741880000
+MODIFICATION_DATETIME: 1286741880000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo,
+ich hätte noch folgende Fragen:
+
+Seite 13:
+Frage zu CharacterAusgabeStrom
+
+FileOutputStream foStream = new FileOutputStream(dateiName);
+OutputStreamWriter osWriter = new OutputStreamWriter(foStream);
+BufferedWriter bWriter = new BufferedWriter(osWriter);
+// Datenfluss: Programm --> bWriter --> osWriter --> foStream --> Datei
+Wenn der Datenfluss Programm --> bWriter --> osWriter --> foStream --> Datei ist, wieso wird es dann in dieser Reihenfolge eingegeben?
+Also erst foStream, dann osWriter, dann bWriter, somit genau umgekehrt? Der Compiler arbeitet sich doch von oben nach unten durch?
+
+
+Seite 14:
+-mark(int readAheadLimit) setzt eine Markierung in den Datenstrom: Was markiert man denn üblicherweise?
+
+- Ich habe in die TestDatei.txt einen türkischen Text schreiben wollen, aber die türkischen Zeichensätze werden als ? dargestellt.
+Ich weiß nicht genau, ob es damit zusammenhängt, aber wenn man die türk. Zeichensätze korrekt angezeigt bekommen möchte, sollte der in türkisch verfasste Texte
+nicht in Unicode, sondern als UTF-8 abgespreichert werden. Wie realisiere ich das in meinem Programm?
+
+Viele Grüsse
+    
+TAGGED_CONTENT:

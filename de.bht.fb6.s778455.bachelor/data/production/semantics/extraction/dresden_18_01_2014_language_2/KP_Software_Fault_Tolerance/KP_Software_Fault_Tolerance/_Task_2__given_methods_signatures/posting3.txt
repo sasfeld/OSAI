@@ -1,0 +1,12 @@
+ID: 2787
+CREATION_DATETIME: 1384124400000
+MODIFICATION_DATETIME: 1384124400000
+TITLE: >I don't think you need to make assumptions on the ctor/dtor. What behaviour made you think that?
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2784
+POSTING_TYPE: answer
+CONTENT:
+>I don't think you need to make assumptions on the ctor/dtor. What behaviour made you think that?
+
+Because I have no more ideas why testing system tells me that: http://paste.debian.net/65145/ :)
+TAGGED_CONTENT:

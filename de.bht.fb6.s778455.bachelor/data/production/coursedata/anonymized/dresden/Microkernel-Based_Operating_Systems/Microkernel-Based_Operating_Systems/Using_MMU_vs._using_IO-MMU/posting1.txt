@@ -1,0 +1,9 @@
+ID: 1634
+CREATION_DATETIME: 1364252400000
+MODIFICATION_DATETIME: 1382392800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+How do I determine when a virtual address is to be resolved by a MMU and when by an IO-MMU? <NAME_CORPUS_REPLACEMENT> the MMU decide if a virtual address is to be resolved by an IO-MMU and forward to it, or is this decided earlier on?
+TAGGED_CONTENT:

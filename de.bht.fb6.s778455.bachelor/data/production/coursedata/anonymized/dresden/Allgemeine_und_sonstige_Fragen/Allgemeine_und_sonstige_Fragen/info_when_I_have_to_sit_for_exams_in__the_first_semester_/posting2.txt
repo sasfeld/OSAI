@@ -1,0 +1,10 @@
+ID: 788
+CREATION_DATETIME: 1352934000000
+MODIFICATION_DATETIME: 1353193200000
+TITLE: Typically in February or March of 2013. And in a couple of weeks the examination schedule should be a...
+PARENT_POSTING_ID: 787
+POSTING_TYPE: answer
+CONTENT:
+Typically in February or March of 2013. And in a couple of weeks the examination schedule should be available. You <NAME_CORPUS_REPLACEMENT> find it later at the homepage of our faculty in the right sidebar. But it depends on your courses.
+*~~Can you please create a descriptive title for your question?~~ Thanks.*
+TAGGED_CONTENT:

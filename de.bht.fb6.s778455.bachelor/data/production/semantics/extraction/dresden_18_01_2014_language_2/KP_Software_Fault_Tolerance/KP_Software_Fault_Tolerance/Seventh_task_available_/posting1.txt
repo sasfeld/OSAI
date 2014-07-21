@@ -1,0 +1,26 @@
+ID: 1083
+CREATION_DATETIME: 1359068400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Dear students! The seventh and last task ("process_pairs") of SFTLab 12/13 is available. Please download the slides from our website and update your subversion repository. You'll find a task description in the task directory.
+
+```
+
+$ cd mtrkl_nb
+
+$ svn up
+
+```
+
+Please remember that your commits should be called in the task directory otherwise the testing system is not fired.
+
+Deadline is February 7th, 2013.
+
+Happy coding,
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

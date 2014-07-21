@@ -1,0 +1,7 @@
+ID: 2154642
+CREATION_DATETIME: 1381701600000
+MODIFICATION_DATETIME: 1381701600000
+TITLE: KP Prozessorentwurf
+LANGUAGE: UNKNOWN
+INTRO: Es erfolgt die Vertiefung bereits erworbener Kenntnisse auf dem Gebiet der Rechnerarchitektur und des Systementwurfs. Ziel ist der Entwurf und die Implementierung von Prozessorkernen unter Einsatz eines Xilinx Spartan-3 oder Virtex-5 FPGA und den dort zur Verfügung stehenden FPGA-Architekturelemente wie z.B. DCM (Digital Clock Manager), HW-Multiplizierer, Block-RAM und SRAM. Der Prozessorentwurf wird mit Xilinx-spezifischen Entwurfswerkzeugen durchgeführt. Die Validation der implementierten Komponente erfolgt auf Grundlage selbst erstellter C-Programme.
+TYPE: null

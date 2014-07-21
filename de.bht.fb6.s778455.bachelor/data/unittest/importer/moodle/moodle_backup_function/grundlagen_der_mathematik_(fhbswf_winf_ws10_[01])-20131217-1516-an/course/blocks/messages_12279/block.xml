@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block id="12279" contextid="78605" version="2013050100">
+  <blockname>messages</blockname>
+  <parentcontextid>78603</parentcontextid>
+  <showinsubcontexts>0</showinsubcontexts>
+  <pagetypepattern>course-view-*</pagetypepattern>
+  <subpagepattern>$@NULL@$</subpagepattern>
+  <defaultregion>side-pre</defaultregion>
+  <defaultweight>1</defaultweight>
+  <configdata>Tjs=</configdata>
+  <block_positions>
+  </block_positions>
+</block>

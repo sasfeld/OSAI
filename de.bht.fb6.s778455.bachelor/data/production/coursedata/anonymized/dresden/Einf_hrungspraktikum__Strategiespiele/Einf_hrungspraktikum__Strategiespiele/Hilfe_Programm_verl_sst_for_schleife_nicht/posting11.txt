@@ -1,0 +1,10 @@
+ID: 1341
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: schau mal in die antwort von hannes, das sollte helfen!
+PARENT_POSTING_ID: 1329
+POSTING_TYPE: comment
+CONTENT:
+schau mal in die antwort <NAME_CORPUS_REPLACEMENT> <NAME_CORPUS_REPLACEMENT>, das sollte helfen!
+wenn du <NAME_CORPUS_REPLACEMENT> return machst, kommt er auch an deinem printf("ende") gar nicht mehr vorbei..
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1504
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Achso! Und wieder was dazugelernt. Danke! Es funktioniert so wirklich perfekt. Wusste nicht, dass str...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1491
+POSTING_TYPE: comment
+CONTENT:
+Achso! Und wieder was dazugelernt. Danke! Es funktioniert so wirklich perfekt. Wusste nicht, dass structs in C++ auch Objekte sind.
+TAGGED_CONTENT:

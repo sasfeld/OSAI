@@ -1,0 +1,9 @@
+ID: 3059
+CREATION_DATETIME: 1385679600000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: Today was Systems Engineering II Exercise. Both the exercise got swapped . It was posted on the audit...
+PARENT_POSTING_ID: 3057
+POSTING_TYPE: comment
+CONTENT:
+Today was Systems Engineering II Exercise. Both the exercise got swapped . It was posted on the auditorium.
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 2239
+CREATION_DATETIME: 1373839200000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: Die Anzahl der Teilnehmer ist noch nicht bekannt (Prüfungsrücktiritt ist bis 3 Tage vor Prüfung mögli...
+PARENT_POSTING_ID: 2238
+POSTING_TYPE: answer
+CONTENT:
+Die Anzahl der Teilnehmer ist noch nicht bekannt (Prüfungsrücktiritt ist bis 3 Tage vor Prüfung möglich), daher macht die Einteilung der Studierenden auf die reservierten Räume derzeit keinen Sinn. → Die Einteilung wird aber rechtzeitig dem tatsächlichen Bedarf gerecht auf der Lehrveranstaltungswebseite bekannt gegeben.
+TAGGED_CONTENT:

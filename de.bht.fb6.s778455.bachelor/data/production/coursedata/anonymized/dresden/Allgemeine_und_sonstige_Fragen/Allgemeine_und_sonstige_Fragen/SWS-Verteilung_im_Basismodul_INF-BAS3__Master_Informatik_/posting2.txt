@@ -1,0 +1,16 @@
+ID: 728
+CREATION_DATETIME: 1352674800000
+MODIFICATION_DATETIME: 1352847600000
+TITLE: Es ist keine Obergrenze gesetzt. In der Modulbeschreibung steht "mindestens 2 SWS Vorlesungen und min...
+PARENT_POSTING_ID: 727
+POSTING_TYPE: answer
+CONTENT:
+**Update - es herrscht Uneinigkeit [siehe hier](https://auditorium. inf. tu-dresden. de/posts/727#post-761).**
+Entsprechend der [Modulbeschreibung](http://www.inf.tu-dresden. de/content/study/regulations/download/ma-inf/2010/study. app. 1. de. pdf), die <NAME_CORPUS_REPLACEMENT> dir nur halb zitiert wurde und den Hauptteil <LEARNED_PERSON_NAME_REPLACEMENT>ßen vor gelassen hat, hier meine korrektur:
+> Das Modul umfasst Lehrveranstaltungen im  Umfang <NAME_CORPUS_REPLACEMENT> insgesamt 8 SWS sowie Selbststudium. Es sind mindestens 2 SWS Vorlesungen und mindestens 2 SWS Übungen aus dem Katalog „Basismodul Software- und Web-Engineering“ der Fakultät zu wählen. 4 SWS sind frei aus im Katalog angegebenen Vorlesungen und/oder Seminaren zu wählen. Einige Lehrveranstaltungen in diesem Modul können in englischer Sprache angeboten werden. Der Katalog wird inklusive der Lehrveranstaltungssprache zu Semesterbeginn fakultätsüblich bekannt gegeben.
+Du benötigst:
+* min. 2 SWS Übungen,
+* min. 2 SWS Vorlesung,
+* 4 SWS die frei aus Vorlesung und oder **Seminaren** ([widerspricht aber der Stundentafel](http://www.inf.tu-dresden. de/content/study/regulations/download/inf/2010/study. app. 1. de. pdf), weshalb anzunehmen ist, dass **Übungen** logischer wäre)...
+Warum das so ist, das kann ich leider nicht sagen. 
+TAGGED_CONTENT:

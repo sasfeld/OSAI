@@ -1,0 +1,13 @@
+ID: 3
+CREATION_DATETIME: 1302006300000
+MODIFICATION_DATETIME: 1302006300000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2
+CONTENT:
+ 
+Ah! Dankeschön!
+
+Da hab ich den Wald vor lauter Bäumen nicht mehr gesehen ;)
+    
+TAGGED_CONTENT:

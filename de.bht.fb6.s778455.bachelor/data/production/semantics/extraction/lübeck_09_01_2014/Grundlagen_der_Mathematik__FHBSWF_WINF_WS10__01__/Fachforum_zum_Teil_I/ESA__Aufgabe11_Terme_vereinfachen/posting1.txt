@@ -1,0 +1,8 @@
+ID: 97795
+CREATION_DATETIME: 1287829720
+MODIFICATION_DATETIME: 1287829751
+TITLE: ESA  Aufgabe11 Terme vereinfachen
+PARENT_POSTING_ID: 0
+CONTENT:
+ Hallo zusammen, bin ich zu blöd oder gebe ich es einfach falsch ein. Oder gehe ich sogar zu weit?Aufgabe:$$a^{4}- \frac{81}{a^{2}+9} \cdot \left(a-3\right)$$Mein Ergebnis ist:$$a+ \frac{3}{-\left(3\right)} \cdot a^{2}+9 \cdot a$$und die Eingabe in LonCapa habe ich wie folgt:(a+3)/(-3*a^2+9*a)Ich habe noch ein Versuch :-)Danke und GrußDaniel 
+TAGGED_CONTENT:

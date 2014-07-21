@@ -1,0 +1,13 @@
+ID: 2677
+CREATION_DATETIME: 1383174000000
+MODIFICATION_DATETIME: 1383260400000
+TITLE: In "Effective POM" steht bei mir weiter unten auch, dass die version 4.3.1.final genutzt werden soll....
+PARENT_POSTING_ID: 2662
+POSTING_TYPE: comment
+CONTENT:
+In "Effective POM" steht bei mir weiter unten auch, dass die version 4. 3. 1. final genutzt werden soll... und ich habe <NAME_CORPUS_REPLACEMENT> drin nicht das geringste herumgespielt...
+Das mit dem @valid probiere ich mal, dann kann ich zumindest <NAME_CORPUS_REPLACEMENT> ein wenig herumbasteln...
+hier liegen die die betreffenden dateien: https://www. dropbox. com/sh/3q8kg52j4bnel07/ykIVS4bRZY
+Edit: Update: auch das mit dem @valid half nichts, beim Kompilieren hatte er immer noch den gleichen Fehler wie ganz oben am Anfang dieses Threads.
+edit2: Laut eclipse wird in RegistrationForm. java org. hibernate. validator. constraints. NotEmpty nicht gefunden...
+TAGGED_CONTENT:

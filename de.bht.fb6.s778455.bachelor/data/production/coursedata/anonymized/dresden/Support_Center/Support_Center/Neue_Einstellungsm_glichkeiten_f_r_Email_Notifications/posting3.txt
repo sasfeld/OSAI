@@ -1,0 +1,9 @@
+ID: 600
+CREATION_DATETIME: 1351551600000
+MODIFICATION_DATETIME: 1351551600000
+TITLE: Merkwürdig. Ich schaue es mir mal an. 
+PARENT_POSTING_ID: 558
+POSTING_TYPE: comment
+CONTENT:
+Merkwürdig. Ich schaue es mir mal an. 
+TAGGED_CONTENT:

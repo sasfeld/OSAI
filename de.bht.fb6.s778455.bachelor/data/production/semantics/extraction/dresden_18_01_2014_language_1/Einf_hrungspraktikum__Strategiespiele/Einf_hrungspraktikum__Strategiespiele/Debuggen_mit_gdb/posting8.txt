@@ -1,0 +1,10 @@
+ID: 1441
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1362870000000
+TITLE: habs auf nils art gemacht, aber dank dir wieder was neues gelernt, dafür ein Daumen hoch ;)
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1429
+POSTING_TYPE: comment
+CONTENT:
+habs auf <NAME_CORPUS_REPLACEMENT> art gemacht, aber dank dir wieder was neues gelernt, dafür ein Daumen hoch ;)
+TAGGED_CONTENT:

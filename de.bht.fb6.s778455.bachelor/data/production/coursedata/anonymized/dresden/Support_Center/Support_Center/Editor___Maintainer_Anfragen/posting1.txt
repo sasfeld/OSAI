@@ -1,0 +1,9 @@
+ID: 805
+CREATION_DATETIME: 1353279600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Es gibt zahlreiche Anfragen <NAME_CORPUS_REPLACEMENT> Mitgliedern dieser Seite, sich als Editor oder Maintainer in einen Kurs eintragen zu lassen. Damit die jeweiligen Maintainer der Kurse bzw. wir Admins sehen können, um welche Person es sich handelt, ist es hilfreich, wenn der Anfragende seinen [Vor- und Nachnamen einträgt](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/users/edit). 
+TAGGED_CONTENT:

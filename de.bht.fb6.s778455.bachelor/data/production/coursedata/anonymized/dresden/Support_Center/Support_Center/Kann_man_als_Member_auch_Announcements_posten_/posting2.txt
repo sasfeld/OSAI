@@ -1,0 +1,9 @@
+ID: 849
+CREATION_DATETIME: 1353798000000
+MODIFICATION_DATETIME: 1353798000000
+TITLE: Nein derzeit können normale Member keine Announcements posten. Das können nur Editor und Maintainer. ...
+PARENT_POSTING_ID: 846
+POSTING_TYPE: answer
+CONTENT:
+Nein derzeit können normale Member keine Announcements posten. Das können nur Editor und Maintainer. 
+TAGGED_CONTENT:

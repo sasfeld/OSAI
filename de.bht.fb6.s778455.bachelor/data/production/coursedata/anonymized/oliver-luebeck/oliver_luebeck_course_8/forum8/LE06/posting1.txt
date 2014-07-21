@@ -1,0 +1,13 @@
+ID: 31
+CREATION_DATETIME: 1195065780000
+MODIFICATION_DATETIME: 1195065780000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo, wer hat Lust mit mir die ESA für LE06 anzugehen? Hab zwar den Stoff noch vor mir, aber bis Samstag/Sonntag sollte das erledigt sein.
+
+Grüsse, 
+    
+TAGGED_CONTENT:

@@ -1,0 +1,17 @@
+ID: 90
+CREATION_DATETIME: 1307203020000
+MODIFICATION_DATETIME: 1307203020000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 89
+CONTENT:
+ 
+Hallo,
+
+ich habe die Aufgabe zwar schon mit jemand anderen gelöst, stehe aber bei offenen Fragen gerne zur Verfügung. Am schnellsten geht es, wenn ich dir per Skype und Teamviewer helfe.
+
+Schreib mich einfach in Skype an. Kontaktdaten findest du auf meinem Profil.
+
+Gruß
+    
+TAGGED_CONTENT:

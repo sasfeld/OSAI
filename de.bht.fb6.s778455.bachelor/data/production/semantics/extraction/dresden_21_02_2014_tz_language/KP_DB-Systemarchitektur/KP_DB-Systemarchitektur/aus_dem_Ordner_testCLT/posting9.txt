@@ -1,0 +1,18 @@
+ID: 1851
+CREATION_DATETIME: 1369260000000
+MODIFICATION_DATETIME: 1369260000000
+TITLE: Daran hab ich bisher noch gar nicht gedacht, aber klar, das macht man ja häufig.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Daran hab ich bisher noch gar nicht gedacht, aber klar, das macht man ja häufig.
+
+Also meine Idee wäre, den Parameter in beide Listen zu schreiben. Allerdings würde ich dafür die KernelParameter Klasse noch um ein Member erweitern und zwar den parameterIndex.
+
+In der OpenCL API heißt das ArgIndex und gibt die Position an, an der das Argument in der Kernelsignatur steht.
+
+Über diesen Index fällt es uns dann sehr leicht zu erkennen, welche Parameter quasi InOut Parameter sind.
+
+Ich lade in ein paar Minuten die angepasste Klasse hoch.
+TAGGED_CONTENT:

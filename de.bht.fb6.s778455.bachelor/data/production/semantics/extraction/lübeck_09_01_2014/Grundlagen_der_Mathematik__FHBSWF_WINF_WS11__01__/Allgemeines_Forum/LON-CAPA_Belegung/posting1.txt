@@ -1,0 +1,8 @@
+ID: 117518
+CREATION_DATETIME: 1319129297
+MODIFICATION_DATETIME: 1319129297
+TITLE: LON-CAPA Belegung
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo, ich bin etwas Spät würde aber gern in LON-CAPA den Kurs ws20112012_VFH_linalgmathegrundl belegen, kann mich aber nicht selbst eintragen (Funkt. nicht zugelassen)Bin ich jetzt zu Spät oder kann man da noch was machen?Gruß 
+TAGGED_CONTENT:

@@ -1,0 +1,11 @@
+ID: 115378
+CREATION_DATETIME: 1323283155
+MODIFICATION_DATETIME: 1323283155
+TITLE: Zusätzliche Video-Konferenz am 21.12. 19 Uhr
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Studierenden,
+wie besprochen, findet eine weitere Video-Konferenz zum Thema Vektorrechnung am Mittwoch, 21. 12. um 19 Uhr statt.
+Viele Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

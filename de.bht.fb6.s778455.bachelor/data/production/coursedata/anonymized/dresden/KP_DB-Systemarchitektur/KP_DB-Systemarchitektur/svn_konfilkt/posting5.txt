@@ -1,0 +1,9 @@
+ID: 1867
+CREATION_DATETIME: 1369778400000
+MODIFICATION_DATETIME: 1369778400000
+TITLE: Nein, es geht darum, dass du mit popen den Prozess zwar startest, aber nicht auf das Ergebnis wartest...
+PARENT_POSTING_ID: 1863
+POSTING_TYPE: comment
+CONTENT:
+Nein, es geht darum, dass du mit popen den Prozess zwar startest, aber nicht auf das Ergebnis wartest, sondern die veraltete Datei einliest. Das ist eine Race Condition, die du fast nie gewinnen kannst. Die Daten müssen ERST erzeugt und DANN verarbeitet werden. Lösche mal die kernel. <LEARNED_PERSON_NAME_REPLACEMENT>-Datei und teste, ob dein Programm dann immer noch funktioniert ...
+TAGGED_CONTENT:

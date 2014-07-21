@@ -1,0 +1,9 @@
+ID: 738
+CREATION_DATETIME: 1352674800000
+MODIFICATION_DATETIME: 1352674800000
+TITLE: Da es sich offenbar um einen Fehler handelt, wird die Modulbeschreibung hoffentlich schnellstmöglich ...
+PARENT_POSTING_ID: 728
+POSTING_TYPE: comment
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> es sich offenbar um einen Fehler handelt, wird die Modulbeschreibung hoffentlich schnellstmöglich korrigiert. Wann kann man mit der korrekten Version rechnen, damit man etwas offizielles in der Hand hat?
+TAGGED_CONTENT:

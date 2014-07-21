@@ -1,0 +1,12 @@
+ID: 2358
+CREATION_DATETIME: 1374184800000
+MODIFICATION_DATETIME: 1374184800000
+TITLE: Zu Aufgabe 1a): Die Variante II ist richtig: Wenn der Vater oder die Mutter nicht bekannt sind, ist d...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2249
+POSTING_TYPE: comment
+CONTENT:
+Zu Aufgabe 1a): Die Variante II ist richtig: Wenn der <NAME_CORPUS_REPLACEMENT> oder die Mutter nicht bekannt sind, ist die Multiplizität null. Aber Achtung: In der Aufgabe hängt an der Mutter/Vater-Beziehung die Partnerschafts-Assoziationsklasse dran. Und die Richtung (Navigation in Form <NAME_CORPUS_REPLACEMENT> Pfeilen ) haben im Analyse-Diagramm nichts zu suchen.
+
+zu Aufgabe 1b): Die Variante I ist richtig! 
+TAGGED_CONTENT:

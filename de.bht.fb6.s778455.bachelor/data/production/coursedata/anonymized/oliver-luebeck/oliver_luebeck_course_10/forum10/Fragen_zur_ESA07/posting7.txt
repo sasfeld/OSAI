@@ -1,0 +1,29 @@
+ID: 60
+CREATION_DATETIME: 1197648900000
+MODIFICATION_DATETIME: 1197648900000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 54
+CONTENT:
+
+den ersten Teil hab ich (einigermaßen) ans laufen gebracht, nun komme ich beim asugabepanel nicht weiter :/
+
+als erstes will ich die combobox mit den cocktailnamen befüllen. hier ist ein teil des codes:
+
+        nameCombo.addItem("test285");                                   // wird in combobox angezeigt
+        cList = cBar.getCocktails();
+        String test2 = "bla bla";
+        for(int i=0; i<cList.length; i++){
+            nameCombo.addItem(cList[i].getCName());                                             // wird nicht angezeigt
+            nameCombo.addItem("test");                                                                         // wird nicht angezeigt
+            nameCombo.addItem(test2);                                                                       // wird nicht angezeigt
+            System.out.println("geklappt: " + cList[i].getCName());                             // wird in konsole angezeigt.
+            //this.repaint();
+        }
+        nameComboBox.add(nameCombo);
+        .....
+
+hat jemand eine ahnung warum das addItem in der for-schleife nicht funktioniert?
+
+  
+TAGGED_CONTENT:

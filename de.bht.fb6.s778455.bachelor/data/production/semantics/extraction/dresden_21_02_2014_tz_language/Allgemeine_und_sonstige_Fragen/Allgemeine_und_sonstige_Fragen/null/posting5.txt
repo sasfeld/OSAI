@@ -1,0 +1,10 @@
+ID: 658
+CREATION_DATETIME: 1352070000000
+MODIFICATION_DATETIME: 1352070000000
+TITLE: ausser natuerlich, das SVN Repo nutzt SVN externals, dann kannst du's gar nicht nutzen, da git-svn SV...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 607
+POSTING_TYPE: comment
+CONTENT:
+ausser natuerlich, das SVN Repo nutzt SVN externals, dann kannst du's gar nicht nutzen, <NAME_CORPUS_REPLACEMENT> git-svn SVN externals nicht richtig unterstuetzt.
+TAGGED_CONTENT:

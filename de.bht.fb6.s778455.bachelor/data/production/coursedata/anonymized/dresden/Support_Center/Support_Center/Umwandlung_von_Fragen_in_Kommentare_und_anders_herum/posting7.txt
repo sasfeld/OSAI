@@ -1,0 +1,9 @@
+ID: 507
+CREATION_DATETIME: 1351116000000
+MODIFICATION_DATETIME: 1351116000000
+TITLE: Kommentare einer Antwort werden in der aus dieser Antwort konvertierten Frage übernommen. Aber du mei...
+PARENT_POSTING_ID: 499
+POSTING_TYPE: comment
+CONTENT:
+Kommentare einer <REMOVED_PERSON_ENTITY> werden in der aus dieser Antwort konvertierten Frage übernommen. Aber du meinst jetzt sicherlich: Kommentare zu einer follow up Fragen hinzufügen?
+TAGGED_CONTENT:

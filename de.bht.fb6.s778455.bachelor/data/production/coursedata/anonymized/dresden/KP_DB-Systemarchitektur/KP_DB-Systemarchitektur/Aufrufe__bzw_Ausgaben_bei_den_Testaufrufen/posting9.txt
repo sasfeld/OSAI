@@ -1,0 +1,14 @@
+ID: 2160
+CREATION_DATETIME: 1372802400000
+MODIFICATION_DATETIME: 1372802400000
+TITLE: Habe es jetzt wieder so umgestellt, dass die Ergebnisse nur noch über die ExecutionInstance abgerufen...
+PARENT_POSTING_ID: 2159
+POSTING_TYPE: comment
+CONTENT:
+Habe es jetzt wieder so umgestellt, dass die Ergebnisse nur noch über die ExecutionInstance abgerufen werden können.
+Führt man also jetzt einen Kernel mit execute(...) auf, sollte man sich den zurückkommenden Pointer auf die ExecutionInstance irgendwo merken, um später die Ergebnisse abrufen zu  können.
+In den bestehenden Testcases habe ich die entsprechende Zeile geändert. (Das waren nur TestAvg und TestMin, das sind die einzigen Testcases, die bisher das Ergebnis nach der Berechnung zurückkopieren.)
+Außerdem ist die TestSumklasse <NAME_CORPUS_REPLACEMENT> <REMOVED_PERSON_ENTITY> angepasst wurde zum Testen der Evaluationsphase.
+Und wie gesagt, die TestMaxklasse hab ich ein bisschen refactored.
+Jetzt hast du wieder freie Bahn für die Testcases.
+TAGGED_CONTENT:

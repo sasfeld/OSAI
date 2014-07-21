@@ -1,0 +1,12 @@
+ID: 1563
+CREATION_DATETIME: 1363993200000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+ja frage sagt alles, ein tutor wollte mir schon helfen und hat mir das geschickt
+http://stackoverflow.com/questions/5590381/easiest-way-to-convert-int-to-string-in-c
+beide varianten gehen irgendwie nicht
+ich bin wohl zu blöd für c++
+TAGGED_CONTENT:

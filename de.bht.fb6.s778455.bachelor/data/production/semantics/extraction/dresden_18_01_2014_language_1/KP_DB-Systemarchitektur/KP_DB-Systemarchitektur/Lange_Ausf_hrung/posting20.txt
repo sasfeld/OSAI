@@ -1,0 +1,10 @@
+ID: 2257
+CREATION_DATETIME: 1373925600000
+MODIFICATION_DATETIME: 1373925600000
+TITLE: den Aufruf von flushResults() in der Feedback-Klasse hatte ich ebenfalls auskommentiert in dem Zuge. ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2251
+POSTING_TYPE: comment
+CONTENT:
+den Aufruf <NAME_CORPUS_REPLACEMENT> flushResults() in der Feedback-Klasse hatte ich ebenfalls auskommentiert in dem Zuge. Andere Vorkommen habe ich jetzt nicht gesehen.
+TAGGED_CONTENT:

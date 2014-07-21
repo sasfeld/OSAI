@@ -1,0 +1,9 @@
+ID: 1385
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Der Browser gibt mir 'nen Scrollbalken und der funktioniert auch. Umgebrochen sollte es trotzdem werd...
+PARENT_POSTING_ID: 1367
+POSTING_TYPE: comment
+CONTENT:
+Der Browser gibt mir 'nen Scrollbalken und der funktioniert auch. Umgebrochen sollte es trotzdem werden. Ansonsten wird man ja auch bevormundet, was das Layout eines Posts angeht.
+TAGGED_CONTENT:

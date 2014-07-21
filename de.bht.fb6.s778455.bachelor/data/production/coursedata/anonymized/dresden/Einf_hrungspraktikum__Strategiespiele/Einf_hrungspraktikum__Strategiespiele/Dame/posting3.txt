@@ -1,0 +1,10 @@
+ID: 150
+CREATION_DATETIME: 1348351200000
+MODIFICATION_DATETIME: 1348351200000
+TITLE: Ich hatte mich auch g
+PARENT_POSTING_ID: 149
+POSTING_TYPE: comment
+CONTENT:
+Ich hatte mich auch gewundert, dass es vorher funktioniert hat.
+Das bedeutet also, es gibt in reinem C keine Möglichkeit eine Zeichenkette zurückzugeben, außer man verwendet malloc?
+TAGGED_CONTENT:

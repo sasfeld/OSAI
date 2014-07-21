@@ -1,0 +1,9 @@
+ID: 2084
+CREATION_DATETIME: 1371679200000
+MODIFICATION_DATETIME: 1371679200000
+TITLE: Schlecht, dass grad keine Mails verschickt werden - hab auch heute erst hier reingeschaut. Ich werfe ...
+PARENT_POSTING_ID: 2082
+POSTING_TYPE: comment
+CONTENT:
+Schlecht, dass grad keine Mails verschickt werden - hab auch heute erst hier reingeschaut. Ich werfe mich heute den ganzen Tag ans KP-Zeug. Gehe jetzt das ganze in TestSum durch und werfe mich an die restlichen Klassen. Bei Fragen schicke ich dir <NAME_CORPUS_REPLACEMENT> lieber direkt ne Mail.
+TAGGED_CONTENT:

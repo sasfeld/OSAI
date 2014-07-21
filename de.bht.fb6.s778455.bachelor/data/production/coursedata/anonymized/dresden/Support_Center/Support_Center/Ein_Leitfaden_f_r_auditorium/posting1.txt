@@ -1,0 +1,26 @@
+ID: 866
+CREATION_DATETIME: 1353884400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Hallo,
+es freut uns, dass sich bereits sehr viele Studenten und Mitarbeiter unserer Fakultät bei auditorium angemeldet haben. Das zeigt uns, dass diese Plattform ein sinnvoller Schritt in die richtige Richtung ist.
+Damit auch die neuen Mitglieder verstehen, wofür auditorium eigentlich steht, bevor die neue Startseite verfügbar ist, hier ein kleiner Leitfaden.
+Auditorium ist eine Frage-Antwort-Plattform. Auf ihr können angemeldete Mitglieder Fragen stellen, die <NAME_CORPUS_REPLACEMENT> anderen Studenten oder Dozenten beantwortet oder kommentiert werden können. Viele kennen dieses Prinzip bereits durch die Webseite [Stackoverflow](http://stackoverflow.com).
+####Wozu auditorium?####
+1. Fragen stellen,
+2. Antworten geben,
+3. Kommentieren und
+4. Informationen schreiben.
+Jeder angemeldete Nutzer hat die Berechtigung eigene Fragen zu einem bestimmten [Kurs](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/courses) oder [allgemeine Fragen](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/courses/2154328) zu stellen. Diese Fragen können nun beantwortet oder kommentiert werden. Der entscheidende Unterschied zu einem Forum ist der, dass keine Diskussionen geführt werden, sondern konstruktive Kommentare und Antworten gegeben werden sollen, die dem Nutzer weiterhelfen. 
+####<REMOVED_PERSON_ENTITY> schreibt man einen Kommentar oder eine Antwort?####
+Eine **Antwort** sollte **nur genau dann** geschrieben werden, **wenn sie die Frage beantwortet.** Diese kann <NAME_CORPUS_REPLACEMENT> jedem angemeldeten Benutzer positiv oder negativ bewertet werden. Zudem bietet auditorium auch die Möglichkeit eine Antwort als *"beantwortet die Frage"* zu markieren, indem auf das *Haken-Symbol* gedrückt wird.
+Im Gegensatz dazu sollten **Kommentare** immer dann den Antworten bevorzugt werden, **wenn sie nicht die Frage beantworten**. Auch diese können positiv oder negativ bewertet werden. 
+####Reputation####
+Die jeweiligen Bewertungen gehen auf das Konto des entsprechenden Autors. Dieser kann über die Zeit Punkte sammeln und somit seine Reputation erhöhen. Diese Bewertung wird demnächst hinter dem Benutzernamen auftauchen.
+Falls das Eine oder Andere noch unklar ist, einfach die Kommentarfunktion nutzen.
+Viel Spaß weiterhin beim Fragen stellen! :)
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

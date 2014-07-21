@@ -1,0 +1,10 @@
+ID: 2414
+CREATION_DATETIME: 1374444000000
+MODIFICATION_DATETIME: 1374444000000
+TITLE: Um es noch mal zusammenzufassen: Ich würde gerne mit jemandem, der MS Office hat, die PPTX-Folien der...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Um es noch mal zusammenzufassen: Ich würde gerne mit jemandem, der MS Office hat, die PPTX-Folien der Abschlusspräsentation anpassen und die Kritikpunkte, die <REMOVED_PERSON_ENTITY> noch genannt hat, ausbügeln.
+TAGGED_CONTENT:

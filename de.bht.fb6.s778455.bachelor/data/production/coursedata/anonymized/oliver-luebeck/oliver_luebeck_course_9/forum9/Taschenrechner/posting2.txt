@@ -1,0 +1,15 @@
+ID: 26
+CREATION_DATETIME: 1178068020000
+MODIFICATION_DATETIME: 1178068020000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 25
+CONTENT:
+  
+Liebe, liebe Studierende,
+
+Ja! Ihre Aufgabe ist lediglich die Implementierung der Methode rechnen.
+Ich wünsche Ihnen ein gutes Gelingen.
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

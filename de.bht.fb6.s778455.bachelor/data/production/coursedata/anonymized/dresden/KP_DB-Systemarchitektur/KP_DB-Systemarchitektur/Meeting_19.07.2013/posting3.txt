@@ -1,0 +1,19 @@
+ID: 2346
+CREATION_DATETIME: 1374184800000
+MODIFICATION_DATETIME: 1374184800000
+TITLE: Kurze Frage: zu den Daten: Was hat es mit Zeile 102 z.B. auf sich? 
+
+
+```ruby
+GeForce GT 640;1;0;...
+PARENT_POSTING_ID: 2344
+POSTING_TYPE: comment
+CONTENT:
+Kurze Frage: zu den Daten: Was hat es mit Zeile 102 z. B. auf sich? 
+```ruby
+(GeForce GT 640;1;0;0;0;6;0;0;1;0;0;0;0;0;0;0;1;101380;25344;55;160. 738)
+(GeForce GT 640;1;0;0;0;6;0;0;1;0;0;0;0;0;0;0;1;102404;25600;55;162. 362)
+GeForce GT 640;1;0;0;0;6;0;0;1;0;0;0;0;0;0;0;1;32772;8192;16;51. 96
+```
+Das scheint der letzte Wert des ersten durchlaufes zu sein, aber warum ist <NAME_CORPUS_REPLACEMENT> auf einmal alles wieder kleiner? ist das ein average-wert oder so?
+TAGGED_CONTENT:

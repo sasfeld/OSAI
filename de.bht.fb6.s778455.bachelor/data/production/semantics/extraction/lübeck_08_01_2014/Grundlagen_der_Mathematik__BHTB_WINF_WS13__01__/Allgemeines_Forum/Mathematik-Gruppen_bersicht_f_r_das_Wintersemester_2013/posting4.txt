@@ -1,0 +1,9 @@
+ID: 243969
+CREATION_DATETIME: 1381744999
+MODIFICATION_DATETIME: 1381744999
+TITLE: Re: Mathematik-Gruppenübersicht für das Wintersemester 2013
+PARENT_POSTING_ID: 243737
+CONTENT:
+Gruppe 8:
+Jérome MorinStefan AßmußThomas Schmieglitz
+TAGGED_CONTENT:

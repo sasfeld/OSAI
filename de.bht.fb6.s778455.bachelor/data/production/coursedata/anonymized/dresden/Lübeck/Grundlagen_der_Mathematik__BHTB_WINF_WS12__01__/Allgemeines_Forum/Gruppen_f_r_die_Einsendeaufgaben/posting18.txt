@@ -1,0 +1,10 @@
+ID: 172307
+CREATION_DATETIME: 1350623210
+MODIFICATION_DATETIME: 1350623210
+TITLE: Re: Gruppen für die Einsendeaufgaben
+PARENT_POSTING_ID: 172291
+CONTENT:
+Meine Gruppe hat sich verändert, <REMOVED_PERSON_ENTITY> schrieb mir sie hat anderswo bereits zugesagt.
+ 
+Gruppe besteht also aus: <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

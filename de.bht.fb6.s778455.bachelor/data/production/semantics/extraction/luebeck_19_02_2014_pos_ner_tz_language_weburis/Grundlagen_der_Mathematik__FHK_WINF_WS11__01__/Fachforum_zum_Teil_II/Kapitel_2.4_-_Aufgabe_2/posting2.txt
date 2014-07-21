@@ -1,0 +1,29 @@
+ID: 115382
+CREATION_DATETIME: 1319987386
+MODIFICATION_DATETIME: 1319987386
+TITLE: Re: Kapitel 2.4 - Aufgabe 2
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=42910#115382
+POS_TAG: value:Herangehensweise;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wahrheitstafeln;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wahrheit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Symbolen;weight:0.0;uri:;postag:NN
+POS_TAG: value:glichkeiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teilfrage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Konsequenzen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Junktoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:glichkeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Personen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Widerspruch;weight:0.0;uri:;postag:NN
+POS_TAG: value:Person;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Schritt;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 115381
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+meine Herangehensweise wäre hier nicht mit Wahrheitstafeln:
+Überlegen Sie sich die Konsequenzen, wenn eine Person die Wahrheit sagt (Teilfrage 1). Wer war es dann? Das kann man natürlich auch jeweils mit aussagenlogischen Symbolen und Junktoren darstellen. Dann kann man in einem zweiten Schritt überlegen, wie die 4 Konsequenzen zusammenpassen. Es ergibt sich dann, dass es nur eine Möglichkeit gibt, dass eine Person die Wahrheit sagt und entsprechend die anderen Personen gelogen haben. Bei den anderen drei Möglichkeiten ergibt sich ein Widerspruch. Teilfrage 2 ist analog zu lösen.
+Ich hoffe, das ist einigermaßen verständlich 
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, meine_PPOSAT Herangehensweise_NN wäre_VAFIN hier_ADV nicht_PTKNEG mit_APPR Wahrheitstafeln_NN :_$. Überlegen_VVIMP Sie_PPER sich_PRF die_ART Konsequenzen_NN ,_$, wenn_KOUS eine_ART Person_NN die_ART Wahrheit_NN sagt_VVFIN -LRB-_TRUNC Teilfrage_NN 1_CARD -RRB-_TRUNC ._$. Wer_PWS war_VAFIN es_PPER dann_ADV ?_$. Das_PDS kann_VMFIN man_PIS natürlich_ADV auch_ADV jeweils_ADV mit_APPR aussagenlogischen_ADJA Symbolen_NN und_KON Junktoren_NN darstellen_VVINF ._$. Dann_ADV kann_VMFIN man_PIS in_APPR einem_ART zweiten_ADJA Schritt_NN überlegen_VVINF ,_$, wie_PWAV die_ART 4_CARD Konsequenzen_NN zusammenpassen_VVFIN ._$. Es_PPER ergibt_VVFIN sich_PRF dann_ADV ,_$, dass_KOUS es_PPER nur_ADV eine_ART Möglichkeit_NN gibt_VVFIN ,_$, dass_KOUS eine_ART Person_NN die_ART Wahrheit_NN sagt_VVFIN und_KON entsprechend_ADJD die_ART anderen_ADJA Personen_NN gelogen_VVPP haben_VAFIN ._$. Bei_APPR den_ART anderen_ADJA drei_CARD Möglichkeiten_NN ergibt_VVFIN sich_PRF ein_ART Widerspruch_NN ._$. Teilfrage_NN 2_CARD ist_VAFIN analog_ADJD zu_PTKZU lösen_VVINF ._$. Ich_PPER hoffe_VVFIN ,_$, das_PDS ist_VAFIN einigermaßen_ADV verständlich_ADJD <_CARD REMOVED_PERSON_ENTITY_NN >_XY 

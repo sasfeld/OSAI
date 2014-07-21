@@ -1,0 +1,10 @@
+ID: 1074
+CREATION_DATETIME: 1358895600000
+MODIFICATION_DATETIME: 1358895600000
+TITLE: Eine direkte Musterlösung für das Tamagochi gibt es nicht. Jeder baut sein eigenes - hat eigene Ideen...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1069
+POSTING_TYPE: comment
+CONTENT:
+Eine direkte Musterlösung für das Tamagochi gibt es nicht. Jeder baut sein eigenes - hat eigene Ideen und Vorstellungen davon, was es können soll. Aber du kannst gerne deine "Lösung" online stellen und wir werden dir gerne Hinweise geben, was gut ist und wo man noch nachfeilen kann. Wenn du Fragen hast oder etwas implementieren willst, aber nicht weißt, wie das gehen soll, bist du im Auditorium natürlich an der richtigen Stelle :)
+TAGGED_CONTENT:

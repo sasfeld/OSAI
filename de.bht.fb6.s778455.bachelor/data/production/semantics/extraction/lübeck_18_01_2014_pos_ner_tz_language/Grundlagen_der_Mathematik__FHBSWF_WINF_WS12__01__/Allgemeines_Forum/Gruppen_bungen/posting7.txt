@@ -1,0 +1,76 @@
+ID: 194143
+CREATION_DATETIME: 1358412880
+MODIFICATION_DATETIME: 1358412880
+TITLE: Re: Gruppenübungen
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Vektoren;weight:8.0;significance:11.2964884579857;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:8.0;significance:6.91670740451264;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:8.0;significance:3.97687513063715;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:8.0;significance:3.11308192413803;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:9.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:8.0;significance:2.07794380871622;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaftliche Theorie und Theorien;weight:1.0;significance:0.80544044456553;degreegeneralization:3;uri:20916437
+TOPIC_ZOOM_TAG: value:Bücher;weight:1.0;significance:0.644755137658051;degreegeneralization:5;uri:21981657
+TOPIC_ZOOM_TAG: value:Presse, Druck und Verlagswesen;weight:1.0;significance:0.43330355912592;degreegeneralization:4;uri:21990174
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:0.298547048297862;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:0.242365739546187;degreegeneralization:2;uri:21990259
+NER_TAG: value:LK;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LK;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+POS_TAG: value:Spaltenvektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ende;weight:0.0;uri:;postag:NN
+POS_TAG: value:LGS;weight:0.0;uri:;postag:NN
+POS_TAG: value:A;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ausgangslinearkombinaton;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Werte;weight:0.0;uri:;postag:NN
+POS_TAG: value:H;weight:0.0;uri:;postag:NN
+POS_TAG: value:Durchschnitt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Komponenten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Parameter;weight:0.0;uri:;postag:NN
+POS_TAG: value:sbarkeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kapitel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:umen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skriptes;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Koeffizienten;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bedingungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gleichung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nullzeilen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beste;weight:0.0;uri:;postag:NN
+POS_TAG: value:bungsaufgaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nullzeile;weight:0.0;uri:;postag:NN
+POS_TAG: value:Theorie;weight:0.0;uri:;postag:NN
+POS_TAG: value:Darstellung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vielfachen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Unterproblem;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektors;weight:0.0;uri:;postag:NN
+POS_TAG: value:Werkzeugkasten;weight:0.0;uri:;postag:NN
+POS_TAG: value:LK;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 193181
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+zur Aufgabe H werden Sie im Kapitel 9. 6 des Skriptes fündig.
+Aufgabe J ist sicherlich die anspruchsvollste der Übungsaufgaben. Sie lässt sich aber bereits mit unserem Werkzeugkasten lösen (mit etwas mehr Theorie bloß noch ein wenig eleganter):
+Ein Vektor liegt in BEIDEN Unterräumen, wenn er gleichzeitig eine LK sowohl der Vektoren aus M1 und der aus M2 ist: x1*u1+...+xr*ur=y1*v1+...+ys*vs (mit M1={u1,..., ur}, M2={v1,..., vs}). Konzentrieren wir uns auf den linken Teil der Gleichung: Dort steht eine LK von Spaltenvektoren mit unbekannten Koeffizienten x1,..., xr. Herauskommen soll der Vektor auf der rechten <REMOVED_PERSON_ENTITY>. Damit haben wir ein LGS: A*x=b. In A stehen spaltenweise die Vektoren u1,..., ur. In x stehen wie unbekannten Koeffizienten der ersten LK. In b stehen die Komponenten des Vektors y1*v1+...+ys*vs. Letztere können wir ausrechnen, allerdings bleiben die y1,..., ys als Parameter ohne konkrete Werte. 
+Es ergibt sich:
+ 2  4  1 -2  1 | 3y1+7y2 0  1  0  1  0 | -2y1-y2
+-3 -4 -1  4 -2 | -5y1-12y2
+ 1  0  0 -2  1 | 3y1+5y2
+Dieses LGS rechnen Sie wie üblich durch, trotz der seltsamen rechten <REMOVED_PERSON_ENTITY>. Am Ende müssen Sie die Nullzeilen interpretieren, um Bedingungen an die y1,..., ys abzuleiten. Ergäbe sich etwa
+ 0  0  0  0  0 | y1
+so hieße das notwendig y1=0 für einen Vektor im Durchschnitt. Wäre das die einzige Nullzeile, so könnte man y2 beliebig wählen und erhielte immer eine Lösung für die x1,..., xr. Damit wären aus dem <REMOVED_PERSON_ENTITY> von M2 genau die Vielfachen des zweiten Vektors in M2 jeweils auch LK der Vektoren aus M1, also aus dem Durchschnitt. 
+Prinzipiell können natürlich auch kompliziertere Bedingungen an die Lösbarkeit aus den Nullzeilen entstehen. Letztlich müsste man dann als Unterproblem ein homogenes LGS für die y1,..., ys lösen. Es ergäbe sich eine allgemeine Darstellung der Lösung, und diese würde man dann in die Ausgangslinearkombinaton mit den y1,..., ys einsetzen.
+Probieren Sie es ruhig einmal aus!
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, zur_APPRART Aufgabe_NN H_NN werden_VAFIN Sie_PPER im_APPRART Kapitel_NN 9_CARD ._$. 6_CARD des_ART Skriptes_NN fündig_ADJD ._$. Aufgabe_NN J_NE ist_VAFIN sicherlich_ADV die_ART anspruchsvollste_ADJA der_ART Übungsaufgaben_NN ._$. Sie_PPER lässt_VVFIN sich_PRF aber_ADV bereits_ADV mit_APPR unserem_PPOSAT Werkzeugkasten_NN lösen_VVFIN -LRB-_TRUNC mit_APPR etwas_ADV mehr_PIAT Theorie_NN bloß_ADV noch_ADV ein_ART wenig_PIDAT eleganter_ADJA -RRB-_TRUNC :_$. Ein_ART Vektor_NN liegt_VVFIN in_APPR BEIDEN_NE Unterräumen_NN ,_$, wenn_KOUS er_PPER gleichzeitig_ADJD eine_ART LK_NN sowohl_KON der_ART Vektoren_NN aus_APPR M1_CARD und_KON der_ART aus_APPR M2_NN ist_VAFIN :_$. x1_CARD \*_CARD u1_CARD +_XY ..._$( +_XY xr_XY \*_CARD ur_XY =_XY y1_CARD \*_CARD v1_CARD +_XY ..._$( +_XY ys_FM \*_FM vs_FM -LRB-_TRUNC mit_APPR M1_XY =_XY -LCB-_TRUNC u1_CARD ,_$, ..._$( ,_$, ur_KON -RCB-_TRUNC ,_$, M2_XY =_XY -LCB-_TRUNC v1_CARD ,_$, ..._$( ,_$, vs_NE -RCB-_TRUNC -RRB-_TRUNC ._$. Konzentrieren_VVFIN wir_PPER uns_PRF auf_APPR den_ART linken_ADJA Teil_NN der_ART Gleichung_NN :_$. Dort_ADV steht_VVFIN eine_ART LK_NN von_APPR Spaltenvektoren_NN mit_APPR unbekannten_ADJA Koeffizienten_NN x1_CARD ,_$, ..._$( ,_$, xr_VVFIN ._$. Herauskommen_VVINF soll_VMFIN der_ART Vektor_NN auf_APPR der_ART rechten_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_NE ._$. Damit_PROAV haben_VAFIN wir_PPER ein_ART LGS_NN :_$. A_NN \*_CARD x_XY =_XY b._PRF In_APPR A_NN stehen_VVFIN spaltenweise_ADJD die_ART Vektoren_NN u1_CARD ,_$, ..._$( ,_$, ur_ADJD ._$. In_APPR x_XY stehen_VVFIN wie_KOKOM unbekannten_ADJA Koeffizienten_NN der_ART ersten_ADJA LK_NN ._$. In_APPR b_XY stehen_VVFIN die_ART Komponenten_NN des_ART Vektors_NN y1_CARD \*_CARD v1_CARD +_XY ..._$( +_KON ys_PPER \*_VVFIN vs._PRF Letztere_PIS können_VMFIN wir_PPER ausrechnen_VVINF ,_$, allerdings_ADV bleiben_VVFIN die_ART y1_CARD ,_$, ..._$( ,_$, ys_FM als_APPR Parameter_NN ohne_APPR konkrete_ADJA Werte_NN ._$. Es_PPER ergibt_VVFIN sich_PRF :_$. 2_CARD 4_CARD 1_CARD -2_XY 1_CARD |_XY 3y1_CARD +7_CARD y2_CARD 0_CARD 1_CARD 0_CARD 1_CARD 0_CARD |_CARD -2_CARD y1-y2_CARD -3_CARD -4_CARD -1_CARD 4_CARD -2_CARD |_CARD -5_CARD y1-12y2_XY 1_CARD 0_CARD 0_CARD -2_XY 1_CARD |_XY 3y1_CARD +5_CARD y2_CARD Dieses_PDAT LGS_NN rechnen_VVFIN Sie_PPER wie_KOKOM üblich_ADJD durch_PTKVZ ,_$, trotz_APPR der_ART seltsamen_ADJA rechten_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_NE ._$. Am_APPRART Ende_NN müssen_VMFIN Sie_PPER die_ART Nullzeilen_NN interpretieren_VVFIN ,_$, um_KOUI Bedingungen_NN an_APPR die_ART y1_CARD ,_$, ..._$( ,_$, ys_FM abzuleiten_VVIZU ._$. Ergäbe_VVFIN sich_PRF etwa_ADV 0_CARD 0_CARD 0_CARD 0_CARD 0_CARD |_CARD y1_CARD so_ADV hieße_VVFIN das_ART notwendig_ADJD y1_XY =_XY 0_CARD für_APPR einen_ART Vektor_NN im_APPRART Durchschnitt_NN ._$. Wäre_VAFIN das_PDS die_ART einzige_ADJA Nullzeile_NN ,_$, so_ADV könnte_VMFIN man_PIS y2_XY beliebig_ADJD wählen_VVINF und_KON erhielte_VVFIN immer_ADV eine_ART Lösung_NN für_APPR die_ART x1_CARD ,_$, ..._$( ,_$, xr_VVFIN ._$. Damit_PROAV wären_VAFIN aus_APPR dem_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD von_APPR M2_CARD genau_ADJD die_ART Vielfachen_NN des_ART zweiten_ADJA Vektors_NN in_APPR M2_CARD jeweils_ADV auch_ADV LK_NN der_ART Vektoren_NN aus_APPR M1_CARD ,_$, also_ADV aus_APPR dem_ART Durchschnitt_NN ._$. Prinzipiell_ADJD können_VMFIN natürlich_ADV auch_ADV kompliziertere_ADJA Bedingungen_NN an_APPR die_ART Lösbarkeit_NN aus_APPR den_ART Nullzeilen_NN entstehen_VVINF ._$. Letztlich_ADV müsste_VVFIN man_PIS dann_ADV als_APPR Unterproblem_NN ein_ART homogenes_ADJA LGS_NN für_APPR die_ART y1_CARD ,_$, ..._$( ,_$, ys_NE lösen_VVINF ._$. Es_PPER ergäbe_VVFIN sich_PRF eine_ART allgemeine_ADJA Darstellung_NN der_ART Lösung_NN ,_$, und_KON diese_PDAT würde_VAFIN man_PIS dann_ADV in_APPR die_ART Ausgangslinearkombinaton_NN mit_APPR den_ART y1_NN ,_$, ..._$( ,_$, ys_FM einsetzen_VVINF ._$. Probieren_VVFIN Sie_PPER es_PPER ruhig_ADJD einmal_ADV aus_APPR !_$. Beste_NN Grüße_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ._$. 

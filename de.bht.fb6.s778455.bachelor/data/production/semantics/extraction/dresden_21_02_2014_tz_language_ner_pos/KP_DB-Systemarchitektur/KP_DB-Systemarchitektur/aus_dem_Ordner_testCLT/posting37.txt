@@ -1,0 +1,12 @@
+ID: 1969
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Ich bin ab um 9 da. Will lediglich zwischen halb 10 und um 10 nochmal woanders hin, aber wir bekommen...
+LANGUAGE: GERMAN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Ich bin ab um 9 <NAME_CORPUS_REPLACEMENT>. Will lediglich zwischen halb 10 und um 10 nochmal woanders hin, aber wir bekommen das schon hingebogen
+TAGGED_CONTENT:
+Ich_PPER bin_VAFIN ab_APPR um_APPR 9_CARD <_XY NAME_CORPUS_REPLACEMENT_NN >_VVFIN ._$. Will_VMFIN lediglich_ADV zwischen_APPR halb_ADJD 10_CARD und_KON um_APPR 10_CARD nochmal_ADV woanders_ADV hin_PTKVZ ,_$, aber_KON wir_PPER bekommen_VVFIN das_ART schon_ADV hingebogen_VVPP 

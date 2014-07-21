@@ -1,0 +1,11 @@
+ID: 2143
+CREATION_DATETIME: 1372543200000
+MODIFICATION_DATETIME: 1372543200000
+TITLE: Hab die Matmul hochgeladen, damit sie ohne Segfault durch das Training kommt. Das Problem war, dass i...
+PARENT_POSTING_ID: 2136
+POSTING_TYPE: answer
+CONTENT:
+Hab die Matmul hochgeladen, damit sie ohne Segfault durch das Training kommt. Das Problem war, dass in der delete Methode die zwei Int Pointer gelöscht wurden, in denen die Dimensionen der Matrizen standen. Diese Ints sind aber Stackvariablen gewesen, weshalb man diese nicht mit free löschen darf.
+Für solche Kernelparameter ist eigentlich die Option "isMemoryObject = false" vorgesehen. Allerdings nehm ich das auf meine <REMOVED_PERSON_ENTITY>, <NAME_CORPUS_REPLACEMENT> ist die Dokumentation noch etwas löchrig ;-)
+Das ändern wir später nochmal auf die richtige Lösung.
+TAGGED_CONTENT:

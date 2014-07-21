@@ -1,0 +1,34 @@
+ID: 61
+CREATION_DATETIME: 1181390520000
+MODIFICATION_DATETIME: 1181390520000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo zusammen!
+Ich wollte mal fragen, ob mir vielleicht jemand einen Tipp geben kann zur zweiten Aufgabe. Ich habe eine Klasse Quadrat geschrieben doch wenn ich eine Testklasse schreibe passiert einfach gar nichts. Fehler beim kompilieren bekomme ich keine. Wie habt ihr das gelöst? Ich denke mein Ansatz ist auch schon falsch.
+
+public class Quadrat extends Punkt
+{
+protected double deltaX;
+protected double umfang;
+
+public Quadrat(double x, double y, double deltaX)
+{
+super(x,y);
+this.deltaX = deltaX;
+}
+
+public String getUmfang()
+{
+umfang = (deltaX*2)*4;
+return new String("Umfang: " + umfang);
+}
+}
+
+Wäre über ein paar hilfreiche Tipps sehr dankbar!
+
+Grüße
+    
+TAGGED_CONTENT:

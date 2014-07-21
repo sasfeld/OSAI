@@ -1,0 +1,15 @@
+ID: 62
+CREATION_DATETIME: 1194005880000
+MODIFICATION_DATETIME: 1194005880000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 61
+CONTENT:
+ 
+Hi 
+
+Welche ESA 1 denn? Bzw. Aus welcher Lektion? Ich bin übrigens erst am Anfang der ESA aus der LE04... ;-)
+
+lg,
+	
+TAGGED_CONTENT:

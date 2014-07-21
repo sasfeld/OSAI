@@ -1,0 +1,46 @@
+ID: 65
+CREATION_DATETIME: 1182439560000
+MODIFICATION_DATETIME: 1182439560000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+ 
+So bei den Probeklausuren bin ich wieder auf eine Unverständlichkeit gestoßen.
+
+Aufgabe Interpretieren sie die Aufgabe
+
+char c1 = 'A';
+char c2 = 'A';
+char c3 = c1;
+String s1 = new String("zeichenkette");
+String s2 = new String("zeichenkette");
+String s3 = s1;
+System.out.println(c1==c2);
+System.out.println(c1==c3);
+System.out.println(s1==s2);
+System.out.println(s1==s3);
+System.out.println(s1.equals(s2));
+System.out.println(s1.equals(s3));
+
+Nach dem was wir gelernt haben müsste raus kommen
+
+false
+true
+false
+true
+true
+true
+
+allerdings wenn ich die Funktion durch den Compiler laufen lasse dann wird das erste Ergebnis als true ausgegeben. Hier das Compiler Ergebnis
+
+true
+true
+false
+true
+true
+true
+
+Kann mir das einer erklären??
+    
+TAGGED_CONTENT:

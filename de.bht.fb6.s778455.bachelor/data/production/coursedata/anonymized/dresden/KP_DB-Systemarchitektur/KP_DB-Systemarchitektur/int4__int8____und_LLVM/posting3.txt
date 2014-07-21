@@ -1,0 +1,9 @@
+ID: 2172
+CREATION_DATETIME: 1373148000000
+MODIFICATION_DATETIME: 1373148000000
+TITLE: Wo soll ich den Befehl denn einbinden, damit LLVM das im OpenCL-Code erkennt? 
+PARENT_POSTING_ID: 2170
+POSTING_TYPE: comment
+CONTENT:
+Wo soll ich den Befehl denn einbinden, damit LLVM das im OpenCL-Code erkennt? 
+TAGGED_CONTENT:

@@ -1,0 +1,30 @@
+ID: 2542
+CREATION_DATETIME: 1381096800000
+MODIFICATION_DATETIME: 1381096800000
+TITLE: meine Frage wurde per Mail beantwortet.
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+POS_TAG: value:Operation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+POS_TAG: value:Struktur;weight:0.0;uri:;postag:NN
+POS_TAG: value:Pointer;weight:0.0;uri:;postag:NN
+POS_TAG: value:state;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zustand;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2541
+POSTING_TYPE: answer
+CONTENT:
+meine Frage wurde per Mail beantwortet.
+
+Falls jemand das gleiche Problem hat:
+
+"`(de)serialize_state` gibt zurück, ob die Operation geklappt hat `true`.
+
+Der Zustand wird i. A. als `game_state` Struktur oder als Pointer auf eine
+
+`game_state` Struktur übergeben. Wie die Struktur definiert ist, siehst du
+
+in `include/state. h`."
+TAGGED_CONTENT:
+meine_PPOSAT Frage_NN wurde_VAFIN per_APPR Mail_NE beantwortet_VVPP ._$. Falls_KOUS jemand_PIS das_ART gleiche_ADJA Problem_NN hat_VAFIN :_$. "_$( `_VVIMP -LRB-_TRUNC de_FM -RRB-_TRUNC serialize_state_NN `_CARD gibt_VVFIN zurück_PTKVZ ,_$, ob_KOUS die_ART Operation_NN geklappt_VVPP hat_VAFIN `_XY true_FM `_FM ._$. Der_ART Zustand_NN wird_VAFIN i._NE A._NE als_APPR `_CARD game_state_ADJA `_ADJA Struktur_NN oder_KON als_APPR Pointer_NN auf_APPR eine_ART `_ADJA game_state_ADJA `_ADJA Struktur_NN übergeben_VVINF ._$. Wie_PWAV die_ART Struktur_NN definiert_VVPP ist_VAFIN ,_$, siehst_VVFIN du_PPER in_APPR `_CARD include\/state_NN ._$. h_FM `_FM ._$. "_$( 

@@ -1,0 +1,13 @@
+ID: 1983
+CREATION_DATETIME: 1370642400000
+MODIFICATION_DATETIME: 1370642400000
+TITLE: Oder die Lib nach /usr/lib installieren, aber das wollen wir ja nicht, das macht man nur zum Release....
+LANGUAGE: GERMAN
+POS_TAG: value:Release;weight:0.0;uri:;postag:NN
+POS_TAG: value:Lib;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Oder die Lib nach /usr/lib installieren, aber das wollen wir ja nicht, das macht man nur zum Release.
+TAGGED_CONTENT:
+Oder_KON die_ART Lib_NN nach_APPR \/_CARD usr\/lib_ADJD installieren_VVINF ,_$, aber_KON das_PDS wollen_VMFIN wir_PPER ja_ADV nicht_PTKNEG ,_$, das_PDS macht_VVFIN man_PIS nur_ADV zum_APPRART Release_NN ._$. 

@@ -1,0 +1,9 @@
+ID: 283
+CREATION_DATETIME: 1349906400000
+MODIFICATION_DATETIME: 1351029600000
+TITLE: Ja wird es. Wenn es s
+PARENT_POSTING_ID: 282
+POSTING_TYPE: answer
+CONTENT:
+Ja wird es. Wenn es soweit ist, gibt es eine entsprechende Ankündigung :)
+TAGGED_CONTENT:

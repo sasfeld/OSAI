@@ -1,0 +1,14 @@
+ID: 69
+CREATION_DATETIME: 1305537480000
+MODIFICATION_DATETIME: 1305537480000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 65
+CONTENT:
+ 
+Liebe Studierende,
+
+Eclipse wird in der LE01 Programmieren II (Semester II) eingeführt.
+Viele Grüße
+    
+TAGGED_CONTENT:

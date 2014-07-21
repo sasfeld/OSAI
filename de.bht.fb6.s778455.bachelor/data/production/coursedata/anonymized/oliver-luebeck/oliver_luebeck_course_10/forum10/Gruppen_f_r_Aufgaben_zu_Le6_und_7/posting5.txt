@@ -1,0 +1,15 @@
+ID: 44
+CREATION_DATETIME: 1195568940000
+MODIFICATION_DATETIME: 1195568940000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 43
+CONTENT:
+
+ich weiß nicht ob ich wetas flasch verstanden habe, aber laut text der im moodle sthet sollen wir es zu wweit machern, das heißt doch das wir in gruppena rbeiten müssen, oder irre ich mich?
+
+Diese Aufgabe ist wieder zur 2 zu lösen.
+
+Das steht da und das heißt für mich, wir müssen die Aufgabe in zwiergruppen machen. Darum suche uich die ganze Zeit nache jemanden und wundere mich das keiner antwortet.
+   
+TAGGED_CONTENT:

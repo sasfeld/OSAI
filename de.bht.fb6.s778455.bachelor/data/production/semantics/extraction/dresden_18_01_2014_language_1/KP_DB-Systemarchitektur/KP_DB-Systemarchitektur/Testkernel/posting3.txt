@@ -1,0 +1,12 @@
+ID: 1797
+CREATION_DATETIME: 1368396000000
+MODIFICATION_DATETIME: 1368396000000
+TITLE: Die OpenCL-API verlangt explizit, dass man einen Kernel angibt, den man ausführt und von der LLVM bek...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1794
+POSTING_TYPE: answer
+CONTENT:
+Die OpenCL-API verlangt explizit, dass man einen Kernel angibt, den man ausführt und <NAME_CORPUS_REPLACEMENT> der LLVM bekommt man auch eine Liste <NAME_CORPUS_REPLACEMENT> Kerneln angegeben.
+
+Sorry, aber das Feature der mehrere-Kernel-Unterstützung ist schon längst drin.
+TAGGED_CONTENT:

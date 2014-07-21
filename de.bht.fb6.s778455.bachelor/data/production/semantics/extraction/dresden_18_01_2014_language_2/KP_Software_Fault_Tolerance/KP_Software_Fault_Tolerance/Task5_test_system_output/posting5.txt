@@ -1,0 +1,18 @@
+ID: 981
+CREATION_DATETIME: 1355785200000
+MODIFICATION_DATETIME: 1355785200000
+TITLE: I committed on Sunday and the solution passed, although it had whitespaces.
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 980
+POSTING_TYPE: comment
+CONTENT:
+I committed on Sunday and the solution passed, although it had whitespaces.
+
+Injected: read_EIO
+
+ProcessState: exited
+
+TarState: corrupted
+
+shoud I change something?
+TAGGED_CONTENT:

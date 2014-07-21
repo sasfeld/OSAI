@@ -1,0 +1,23 @@
+ID: 161057
+CREATION_DATETIME: 1347906141
+MODIFICATION_DATETIME: 1347906141
+TITLE: Re: Lerngruppe gesucht
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=59703#161057
+TOPIC_ZOOM_TAG: value:Chat;weight:1.0;significance:9.30735213357177;degreegeneralization:7;uri:20901477
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:1.0;significance:6.50399175266524;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Lifestyle und Internet;weight:1.0;significance:5.06890722737591;degreegeneralization:6;uri:21999575
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Lifestyle, Mode, Schönheit;weight:1.0;significance:4.37191942759678;degreegeneralization:3;uri:21999456
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:3.4415452961402;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:OK;weight:0.0;uri:;postag:NN
+POS_TAG: value:Chat;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 161035
+CONTENT:
+OK, dann sehen wir weiter nach dem 1. offizellen Chat....
+TAGGED_CONTENT:
+OK_NN ,_$, dann_ADV sehen_VVFIN wir_PPER weiter_ADV nach_APPR dem_ART 1_CARD ._$. offizellen_ADJA Chat_NN ..._$( 

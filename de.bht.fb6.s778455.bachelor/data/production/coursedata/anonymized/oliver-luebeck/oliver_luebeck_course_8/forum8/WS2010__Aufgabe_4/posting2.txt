@@ -1,0 +1,26 @@
+ID: 65
+CREATION_DATETIME: 1201291920000
+MODIFICATION_DATETIME: 1201291920000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 64
+CONTENT:
+
+Hallo ,
+
+schau Dir einfach das return Statement nochmal genau an.
+
+Der letzte Buchstabe von s wird mit s.charAt(l) geliefert.
+Dieser Buchstabe wird mit dem Ergebnis des erneuten Aufrufs von spiegel() verknüpft.
+Es wird allerdings nicht wieder s an spiegel() übergeben, sondern ein Teil des Wortes, nämlich s.substring(0, l). Was das bedeutet lässt sich leicht im JavaDoc von substring nachlesen:
+
+Returns a new string that is a substring of this string. The substring begins at the specified beginIndex and extends to the character at index endIndex - 1. Thus the length of the substring is endIndex-beginIndex.
+
+Es wird also s ohne den letzten Buchstaben übergeben.
+Dadurch das sich die Methode spiegel() immer wieder selbst aufruft erreichst Du die geforderte Rekursion und es entsteht nach und nach eine Zeichenkette die das ursprünglich übergebene Wort umdreht..
+
+Ich hoffe ich konnte mich verständlich ausdrücken, falls noch Fragen offen sind... Einfach fragen :)
+
+Grüße und viel Erfolg bei der Klausur
+    
+TAGGED_CONTENT:

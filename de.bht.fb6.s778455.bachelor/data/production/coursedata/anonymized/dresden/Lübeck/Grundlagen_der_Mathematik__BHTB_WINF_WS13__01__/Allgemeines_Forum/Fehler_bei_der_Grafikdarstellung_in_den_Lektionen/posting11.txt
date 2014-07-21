@@ -1,0 +1,8 @@
+ID: 242573
+CREATION_DATETIME: 1381436555
+MODIFICATION_DATETIME: 1381436555
+TITLE: Re: Fehler bei der Grafikdarstellung in den Lektionen
+PARENT_POSTING_ID: 240837
+CONTENT:
+Jep, das habe ich auch festgestellt und mir vom Support bestätigen lassen. Da hilft wohl nur über's WLAN reinzugehen und downzuloaden!
+TAGGED_CONTENT:

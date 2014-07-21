@@ -1,0 +1,11 @@
+ID: 1782
+CREATION_DATETIME: 1367704800000
+MODIFICATION_DATETIME: 1382914800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo, findet die Übung morgen statt.
+Wenn ja, wäre interessant auf was man sich vorbereiten soll, <NAME_CORPUS_REPLACEMENT> die Vorlesung am 1. <NAME_CORPUS_REPLACEMENT> nicht stattfand.
+Danke :)
+TAGGED_CONTENT:

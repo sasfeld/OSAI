@@ -1,0 +1,9 @@
+ID: 1724
+CREATION_DATETIME: 1365976800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Sonst kann sie niemand einsehen, der sie vielleicht auch hat.
+TAGGED_CONTENT:

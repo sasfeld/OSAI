@@ -1,0 +1,9 @@
+ID: 1603
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Wie wird denn possiblemoves deklariert und was gibt evaluateMove zurück?
+PARENT_POSTING_ID: 1602
+POSTING_TYPE: comment
+CONTENT:
+Wie wird denn possiblemoves deklariert und was gibt evaluateMove zurück?
+TAGGED_CONTENT:

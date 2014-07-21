@@ -1,0 +1,10 @@
+ID: 1679
+CREATION_DATETIME: 1365372000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Übungen finden bereits ab der ersten Vorlesungswoche statt. Das Übungsblatt Übung 1 (siehe Webseite) bitte ausgedruckt mitbringen.
+Das Praktikum (PO) findet erst ab der zweiten Vorlesungswoche statt.
+TAGGED_CONTENT:

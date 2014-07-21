@@ -1,0 +1,9 @@
+ID: 1292
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Pluspunkte für's nach einem Debugger fragen :)
+PARENT_POSTING_ID: 1288
+POSTING_TYPE: comment
+CONTENT:
+Pluspunkte für's nach einem Debugger fragen :)
+TAGGED_CONTENT:

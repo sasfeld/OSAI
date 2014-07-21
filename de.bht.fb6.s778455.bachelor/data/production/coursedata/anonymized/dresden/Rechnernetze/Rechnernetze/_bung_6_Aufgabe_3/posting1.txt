@@ -1,0 +1,18 @@
+ID: 2286
+CREATION_DATETIME: 1374012000000
+MODIFICATION_DATETIME: 1382047200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Auch für Aufgabe 3 habe ich keine richtige Lösung, ich hoffe, es ist ok, wenn ich euch hier damit nerve:
+3. b1)
+Subnetzadresse: 129. 44. 0. 0 /15
+Anzahl möglicher Hosts: 65 534
+b2)
+Subnetzadresse: 129. 44. 224. 0 /19
+Anzahl möglicher Hosts: 8190
+Subnetzadresse = Adresse eines Hosts mit Hostteil komplett 0; plus "/BIt_Hostteil"
+Anzahl möglicher Hosts: Hostteil komplett auf 1 setzen, Dezimalzahl ausrechnen, - 1 für Broadcast.
+Stimmt das so?
+TAGGED_CONTENT:

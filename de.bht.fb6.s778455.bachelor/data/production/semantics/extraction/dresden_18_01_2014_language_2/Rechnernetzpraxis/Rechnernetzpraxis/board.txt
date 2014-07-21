@@ -1,0 +1,7 @@
+ID: 2154594
+CREATION_DATETIME: 1380492000000
+MODIFICATION_DATETIME: 1381096800000
+TITLE: Rechnernetzpraxis
+LANGUAGE: UNKNOWN
+INTRO: Die Lehrveranstaltung gibt einen fundierten Einblick in verschiedene Rechnernetzprotokolle und -techniken. Die Hörer werden durch die Veranstaltung in die Lage versetzt, vor allem die aktuellen Fundamente des Internets zu verstehen und gegenwärtige Entwicklungstendenzen im Bereich von Rechnernetzen einzuschätzen.
+TYPE: null

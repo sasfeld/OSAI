@@ -1,0 +1,23 @@
+ID: 24
+CREATION_DATETIME: 1304537100000
+MODIFICATION_DATETIME: 1304537100000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 23
+CONTENT:
+ 
+Hi,
+
+versuch doch mal die Datei in das gleiche Package zu bringen
+
+package vfh.prog1.bi;
+
+ganz oben in der Datei, also ich musste auch schon bei Le08 bissel rumtesten bis er die Symbole gefunden hatte.
+
+Installiere doch mal Eclipse dann siehst du wenigstens direkt ob er das Symbol jetzt gefunden hat oder nicht.
+
+Le09 hab ich leider noch nicht angefangen...
+
+Gruß 
+   
+TAGGED_CONTENT:

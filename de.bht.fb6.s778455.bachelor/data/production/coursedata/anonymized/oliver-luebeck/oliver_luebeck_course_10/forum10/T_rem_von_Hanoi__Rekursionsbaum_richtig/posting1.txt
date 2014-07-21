@@ -1,0 +1,15 @@
+ID: 27
+CREATION_DATETIME: 1194986520000
+MODIFICATION_DATETIME: 1194986520000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Liebe Studierende,
+
+der Text der Webkonferenz von heute 13.11.12 mit dem richtigen Rekursionsbaum für die Türme von Hanoi ist im Abschnitt LE09.
+
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

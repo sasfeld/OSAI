@@ -1,0 +1,9 @@
+ID: 2504
+CREATION_DATETIME: 1375826400000
+MODIFICATION_DATETIME: 1375826400000
+TITLE: *Tipp: Es kann auch LaTeX genutzt werden, um Formeln abzubilden.*
+PARENT_POSTING_ID: 2500
+POSTING_TYPE: comment
+CONTENT:
+*Tipp: Es kann auch LaTeX genutzt werden, um Formeln abzubilden.*
+TAGGED_CONTENT:

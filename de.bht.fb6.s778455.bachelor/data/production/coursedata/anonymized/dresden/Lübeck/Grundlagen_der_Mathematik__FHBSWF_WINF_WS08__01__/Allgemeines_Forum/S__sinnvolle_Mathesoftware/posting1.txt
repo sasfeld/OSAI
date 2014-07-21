@@ -1,0 +1,8 @@
+ID: 16531
+CREATION_DATETIME: 1223401377
+MODIFICATION_DATETIME: 1223401377
+TITLE: S: sinnvolle Mathesoftware
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo, kann mir jemand von Euch eine &quot;sinnvolle&quot; Software nennen um Matheformeln zu erstellen? Wir dürften ja eigentlich alle auf der Suche danach sein bzw. etwas passendes gefunden haben. MS Office Formeleditor und OO Formeleditor sind nicht so das wahre. Latex ist mir ein wenig over sized. Danke für Eure Tipps. LG <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

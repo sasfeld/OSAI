@@ -1,0 +1,12 @@
+ID: 1692
+CREATION_DATETIME: 1365717600000
+MODIFICATION_DATETIME: 1374876000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Geht es hier nur um Gesellschaftsspiele (<REMOVED_PERSON_ENTITY>-/Brettspiele) oder auch um selbstprogrammierte Spiele, die man am Beamer vorführen kann?
+
+a la indie-game party (Contest / Multiplayer)
+TAGGED_CONTENT:

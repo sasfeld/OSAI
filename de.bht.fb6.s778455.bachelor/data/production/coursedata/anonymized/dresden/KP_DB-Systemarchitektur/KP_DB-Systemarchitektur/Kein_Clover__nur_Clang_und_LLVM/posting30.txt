@@ -1,0 +1,11 @@
+ID: 2031
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: Wir haben nur mit 3.2 gearbeitet.
+Wir waren nur am Überlegen, ob wir es vielleicht auch für 3.3 komp...
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: comment
+CONTENT:
+Wir haben nur mit 3. 2 gearbeitet.
+Wir waren nur am Überlegen, ob wir es vielleicht auch für 3. 3 kompatibel machen.
+TAGGED_CONTENT:

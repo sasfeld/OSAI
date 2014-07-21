@@ -1,0 +1,10 @@
+ID: 2422
+CREATION_DATETIME: 1374444000000
+MODIFICATION_DATETIME: 1374444000000
+TITLE: Es ist schon eine bewußte Entscheidung eines Administrators notwendig, damit Pakete einen Umweg durch...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2420
+POSTING_TYPE: comment
+CONTENT:
+Es ist schon eine bewußte Entscheidung eines Administrators notwendig, damit Pakete einen Umweg durch eine Firewall nehmen. ;-)
+TAGGED_CONTENT:

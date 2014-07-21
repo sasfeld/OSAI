@@ -1,0 +1,12 @@
+ID: 184471
+CREATION_DATETIME: 1354467004
+MODIFICATION_DATETIME: 1354467004
+TITLE: Re: Aufgabe 2b)
+LANGUAGE: GERMAN
+POS_TAG: value:Knotens;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 184459
+CONTENT:
+Ja, stimmt, schon wieder falsch. Jetzt gebe ich es auf. Aber ich hoffe, es ist klar was gemeint ist. Eben alle <REMOVED_PERSON_ENTITY> des aktuellen Knotens aufschreiben und die <REMOVED_PERSON_ENTITY> muss 0 sein.
+TAGGED_CONTENT:
+Ja_PTKANT ,_$, stimmt_VVFIN ,_$, schon_ADV wieder_ADV falsch_ADJD ._$. Jetzt_ADV gebe_VVFIN ich_PPER es_PPER auf_PTKVZ ._$. Aber_KON ich_PPER hoffe_VVFIN ,_$, es_PPER ist_VAFIN klar_ADJD was_PWS gemeint_VVPP ist_VAFIN ._$. Eben_ADV alle_PIDAT <_CARD REMOVED_PERSON_ENTITY_NN >_APPR des_ART aktuellen_ADJA Knotens_NN aufschreiben_VVINF und_KON die_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD muss_APPR 0_CARD sein_VAINF ._$. 

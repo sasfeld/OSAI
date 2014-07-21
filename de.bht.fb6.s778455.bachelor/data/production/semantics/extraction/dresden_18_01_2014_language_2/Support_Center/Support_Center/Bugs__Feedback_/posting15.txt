@@ -1,0 +1,10 @@
+ID: 141
+CREATION_DATETIME: 1348264800000
+MODIFICATION_DATETIME: 1348264800000
+TITLE: Bei privat gestellten
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 70
+POSTING_TYPE: answer
+CONTENT:
+Bei privat gestellten Fragen, sollte per default das Privat-Häckchen gesetzt sein, wenn man die Frage als Mod editiert. Ansonsten veröffentlicht man die ungewollt.
+TAGGED_CONTENT:
