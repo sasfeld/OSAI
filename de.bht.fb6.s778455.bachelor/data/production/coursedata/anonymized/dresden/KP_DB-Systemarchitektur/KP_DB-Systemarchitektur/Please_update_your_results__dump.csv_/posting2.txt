@@ -1,0 +1,9 @@
+ID: 2370
+CREATION_DATETIME: 1374271200000
+MODIFICATION_DATETIME: 1374271200000
+TITLE: Carl, würdest du nochmal die predictTime (Simple Methode) Funktion anschauen? Ich habe die kernelExec...
+PARENT_POSTING_ID: 2369
+POSTING_TYPE: comment
+CONTENT:
+<REMOVED_PERSON_ENTITY>, würdest du nochmal die predictTime (Simple Methode) Funktion anschauen? Ich habe die kernelExecutionTime mit der totalExecutionTime ersetzt und bin mir nicht sicher, ob deine Vorerhersage damit nicht noch weiter zu optimieren geht. (Zusammenhang zwischen executionTime, copyTime und dataSize)
+TAGGED_CONTENT:

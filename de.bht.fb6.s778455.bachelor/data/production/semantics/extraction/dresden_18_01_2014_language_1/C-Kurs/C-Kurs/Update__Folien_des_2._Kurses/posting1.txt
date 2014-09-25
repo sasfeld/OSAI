@@ -1,0 +1,12 @@
+ID: 733
+CREATION_DATETIME: 1352674800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Endlich sind sie da: die Folien, des letzten C-Kurses :) Ihr findet sie am üblichen Ort.
+
+Die Aufgabensammlung ist auch nochmal überarbeitet worden, es lohnt sich also, einen Blick darauf zu werfen.
+TAGGED_CONTENT:

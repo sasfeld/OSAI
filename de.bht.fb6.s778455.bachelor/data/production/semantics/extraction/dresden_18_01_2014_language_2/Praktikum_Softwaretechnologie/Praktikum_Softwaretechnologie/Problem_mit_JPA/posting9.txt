@@ -1,0 +1,18 @@
+ID: 2955
+CREATION_DATETIME: 1384988400000
+MODIFICATION_DATETIME: 1384988400000
+TITLE: DAS GEHT!!!
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2947
+POSTING_TYPE: answer
+CONTENT:
+DAS GEHT!!!
+
+Es gab noch einen zweiten Fehler. Es war noch ein alter Aufruf <NAME_CORPUS_REPLACEMENT> meiner selbst erstellten Klasse.
+
+Aber ohne deinen Tipp hätte ich wohl noch ewig gesucht.
+
+Vielen Dank.
+
+Ps.: es war nur ein Rechtschreibfehler ;-)
+TAGGED_CONTENT:

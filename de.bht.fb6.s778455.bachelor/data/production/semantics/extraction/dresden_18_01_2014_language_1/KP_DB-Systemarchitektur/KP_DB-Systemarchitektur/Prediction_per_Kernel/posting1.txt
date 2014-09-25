@@ -1,0 +1,10 @@
+ID: 2230
+CREATION_DATETIME: 1373666400000
+MODIFICATION_DATETIME: 1373925600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich hab' mal die Korrelationsanalyse <NAME_CORPUS_REPLACEMENT> einem Kernel gegen die <NAME_CORPUS_REPLACEMENT> mehreren Kerneln getestet und wenn jeder Kernel einzeln vorausberechnet wird, ist das Ergebnis SEHR exakt. Allerdings ist auch momentan noch ein Problem bei der Bestimmung der linearen Gleichung mit Least Square (es werden sehr kleine Werte ausgegeben). Ich werd mir das am <REMOVED_PERSON_ENTITY> mal anschauen, ob wir beim Aufbau der Matrix vielleicht einen Denkfehler haben.
+TAGGED_CONTENT:

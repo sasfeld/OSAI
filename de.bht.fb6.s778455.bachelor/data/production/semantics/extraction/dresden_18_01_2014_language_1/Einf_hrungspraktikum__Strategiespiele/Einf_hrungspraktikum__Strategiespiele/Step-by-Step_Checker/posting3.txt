@@ -1,0 +1,12 @@
+ID: 1290
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Natürlich. Lies dir mal die FAQ durch:
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 1288
+POSTING_TYPE: answer
+CONTENT:
+Natürlich. Lies dir mal die FAQ durch:
+
+http://www.inf.tu-dresden. de/index. php?node_id=1945
+TAGGED_CONTENT:

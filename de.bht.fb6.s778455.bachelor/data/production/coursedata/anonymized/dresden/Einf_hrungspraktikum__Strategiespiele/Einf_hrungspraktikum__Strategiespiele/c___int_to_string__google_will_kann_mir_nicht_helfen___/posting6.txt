@@ -1,0 +1,9 @@
+ID: 1573
+CREATION_DATETIME: 1363993200000
+MODIFICATION_DATETIME: 1363993200000
+TITLE: Vorsicht: ```asprintf``` ist nicht standardkonform (GNU extension). Daher lieber nicht verwenden, sof...
+PARENT_POSTING_ID: 1571
+POSTING_TYPE: comment
+CONTENT:
+Vorsicht: ```asprintf``` ist nicht standardkonform (GNU extension). Daher lieber nicht verwenden, sofern man das vermeiden kann.
+TAGGED_CONTENT:

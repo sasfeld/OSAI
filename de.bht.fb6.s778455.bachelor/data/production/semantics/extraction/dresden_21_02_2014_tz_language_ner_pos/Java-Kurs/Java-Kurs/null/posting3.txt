@@ -1,0 +1,14 @@
+ID: 547
+CREATION_DATETIME: 1351288800000
+MODIFICATION_DATETIME: 1351288800000
+TITLE: Ich sollte Leuten nicht erlauben mit Adminpower meine Posts zu editieren und es dann nicht querlesen....
+LANGUAGE: GERMAN
+POS_TAG: value:Adminpower;weight:0.0;uri:;postag:NN
+POS_TAG: value:Posts;weight:0.0;uri:;postag:NN
+POS_TAG: value:Leuten;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 236
+POSTING_TYPE: comment
+CONTENT:
+Ich sollte Leuten nicht erlauben mit Adminpower meine Posts zu editieren und es dann nicht querlesen...
+TAGGED_CONTENT:
+Ich_PPER sollte_VMFIN Leuten_NN nicht_PTKNEG erlauben_VVFIN mit_APPR Adminpower_NN meine_PPOSAT Posts_NN zu_PTKZU editieren_VVINF und_KON es_PPER dann_ADV nicht_PTKNEG querlesen_VVINF ..._$( 

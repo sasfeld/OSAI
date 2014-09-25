@@ -1,0 +1,14 @@
+ID: 241
+CREATION_DATETIME: 1349820000000
+MODIFICATION_DATETIME: 1349820000000
+TITLE: und in der Präsentati
+PARENT_POSTING_ID: 235
+POSTING_TYPE: answer
+CONTENT:
+und in den Slides der ersten Vorlesung: 
+Paper reading exercises
+– Read a paper beforehand.
+– Sum it up and prepare 3 questions.
+– We expect you to actively participate in
+discussion.
+TAGGED_CONTENT:

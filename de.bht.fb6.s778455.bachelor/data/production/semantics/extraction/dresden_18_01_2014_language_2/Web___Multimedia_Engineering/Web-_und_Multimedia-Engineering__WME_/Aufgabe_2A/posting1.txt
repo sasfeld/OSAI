@@ -1,0 +1,14 @@
+ID: 802
+CREATION_DATETIME: 1353279600000
+MODIFICATION_DATETIME: 1385506800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Sollen wir einmal eine <REMOVED_PERSON_ENTITY> mit XSLT und dann eine mit php erstellen? (also 2 verschiedene)
+
+Ich verstehe nicht wie das Endergebnis in einer einzelnen index. php aussehen soll. Gibt es vllt wie bei Aufgabe 1A noch Beispiele aus dem letzten Semester?
+
+Grüße
+TAGGED_CONTENT:

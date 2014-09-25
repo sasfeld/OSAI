@@ -1,0 +1,17 @@
+ID: 97803
+CREATION_DATETIME: 1290420302
+MODIFICATION_DATETIME: 1290420302
+TITLE: Umkehrfunktionen bilden
+PARENT_POSTING_ID: 0
+CONTENT:
+Die Loesung ergibt sich aus LO 01 und LO 02. Wir wissen z. B., dass die Umkehrfunktion von + - ist und von / * usw.
+Beispiel:
+f(x) = x + 1
+f^-1(x) = x - 1
+Weiterhin werden Funktionen "von innen nach aussen" evaluiert, d. h. erst die inneren Klammern, dann z. B. Potenzen usw.
+Bei der Umkehrfunktion gehen Sie in umgekehrter Reihenfolge vor und kehren jede der algebraischen Operationen mit ihrem Gegenteil um.
+Beispiel:
+f(x) = 3(x+1)^2
+gaebe:
+f^-1(x) = 1 +- sqrt(x/3)
+TAGGED_CONTENT:

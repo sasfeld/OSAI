@@ -1,0 +1,13 @@
+ID: 990
+CREATION_DATETIME: 1355958000000
+MODIFICATION_DATETIME: 1355958000000
+TITLE: * Is `fig.c` the source code? 
+* Is it written in C?
+* Have you tested `./run.sh` on your local mac...
+PARENT_POSTING_ID: 989
+POSTING_TYPE: answer
+CONTENT:
+* Is `fig. c` the source code? 
+* Is it written in C?
+* Have you tested `./run. sh` on your local machine?
+TAGGED_CONTENT:

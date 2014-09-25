@@ -1,0 +1,9 @@
+ID: 1220
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: ungelesene notifications in der uebersicht nach oben sortieren. bei vielen notifications wird's naeml...
+PARENT_POSTING_ID: 369
+POSTING_TYPE: answer
+CONTENT:
+ungelesene notifications in der uebersicht nach oben sortieren. bei vielen notifications wird's naemlich sonst leicht unuebersichtlich
+TAGGED_CONTENT:

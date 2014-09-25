@@ -1,0 +1,18 @@
+ID: 42
+CREATION_DATETIME: 1175538660000
+MODIFICATION_DATETIME: 1175538660000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 40
+CONTENT:
+ 
+Okay, jetzt geht es.
+Immer diese Zickereien bei den verschiedenen Paketen.
+
+Falls noch wer das Problem unter einer aktuellen Linux-Distribution hat, der öffne die Konsole und gebe
+sudo apt-get install flashplugin-installer
+ein.
+
+Mit dem Adobe Flash Plugin geht es nämlich. Mit dem anderen Flash Plugin nicht.
+   
+TAGGED_CONTENT:

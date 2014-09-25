@@ -1,0 +1,12 @@
+ID: 97775
+CREATION_DATETIME: 1287637645
+MODIFICATION_DATETIME: 1287637645
+TITLE: Re: Immer noch Probleme mit Maple
+PARENT_POSTING_ID: 97774
+CONTENT:
+Welches Verhalten hättest Du denn erwartet hinter dem Maple-Link? In der Kursbeschreibung steht folgendes:
+&quot;[..] enthalten alle <REMOVED_PERSON_ENTITY> (über &quot;Maple&quot;-Buttons erreichbare) <REMOVED_PERSON_ENTITY> auf Seiten, die mittels der Computeralgebra-Software &quot;Maple&quot; erzeugt wurden und der Vertiefung und Ergänzung des Lernstoffs dienen. Die Maple-Beiträge der Teile II und III sind allerdings in Englisch gehalten. Wer im Besitz der Maple-Software ist, kann mit den zugrunde liegenden Maple-Worksheets auch interaktiv arbeiten.&quot;
+Ich würde das so verstehen, dass es sich um statische HTML-Seiten handelt, die in Maple erzeugt wurden. Insofern ist die Bezeichnung &quot;Interaktion&quot; hier vielleicht etwas irreführend. Fraglich bleibt für mich allerdings, wo die o. g. Worksheets zu finden sind. Vielleicht ist damit auch nur gemeint, dass man die roten Maple-Befehle per Copy&amp;Paste in Maple übernehmen kann?
+Grüße,
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

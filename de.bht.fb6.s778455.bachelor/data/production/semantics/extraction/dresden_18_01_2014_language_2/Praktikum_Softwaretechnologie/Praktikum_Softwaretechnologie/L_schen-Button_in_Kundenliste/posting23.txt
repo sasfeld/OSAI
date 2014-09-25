@@ -1,0 +1,12 @@
+ID: 3002
+CREATION_DATETIME: 1385247600000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: Weil du td vermutlich (ab)geschlossen hast. Probier es noch einmal, achte darauf dass du Tags ordentl...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2935
+POSTING_TYPE: comment
+CONTENT:
+Weil du td vermutlich nicht (ab)geschlossen hast. Probier es noch einmal, achte darauf dass du Tags ordentlich öffnest und schließt.
+
+`` <NAME_CORPUS_REPLACEMENT> weiter oben ist nicht ordentlich.
+TAGGED_CONTENT:

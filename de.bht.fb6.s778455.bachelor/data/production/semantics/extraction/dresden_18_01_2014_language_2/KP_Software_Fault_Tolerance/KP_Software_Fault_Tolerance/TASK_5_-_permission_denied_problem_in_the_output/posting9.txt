@@ -1,0 +1,12 @@
+ID: 994
+CREATION_DATETIME: 1355958000000
+MODIFICATION_DATETIME: 1355958000000
+TITLE: yes, exactly the same ./run.sh 
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 991
+POSTING_TYPE: comment
+CONTENT:
+yes, exactly the same ./run. sh 
+
+Results of my local machine and server are the same.
+TAGGED_CONTENT:

@@ -1,0 +1,48 @@
+ID: 97744
+CREATION_DATETIME: 1283862285
+MODIFICATION_DATETIME: 1286872722
+TITLE: Einsendeaufgaben in LON-CAPA
+TOPIC_ZOOM_TAG: value:Studienanfänger;weight:1.0;significance:5.45839502300295;degreegeneralization:6;uri:20920432
+TOPIC_ZOOM_TAG: value:Post und Kurierdienste;weight:1.0;significance:3.74953168119626;degreegeneralization:9;uri:21290862
+TOPIC_ZOOM_TAG: value:Server;weight:1.0;significance:3.63090607178381;degreegeneralization:7;uri:20185284
+TOPIC_ZOOM_TAG: value:Transportbranche;weight:1.0;significance:3.54407432475839;degreegeneralization:8;uri:20765715
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Transport und Logistik;weight:1.0;significance:3.53155130879535;degreegeneralization:7;uri:21872075
+TOPIC_ZOOM_TAG: value:Transport;weight:1.0;significance:3.42673879651575;degreegeneralization:6;uri:20765749
+TOPIC_ZOOM_TAG: value:Studenten;weight:1.0;significance:3.3437630829422;degreegeneralization:5;uri:20994552
+TOPIC_ZOOM_TAG: value:Transport und Logistik;weight:1.0;significance:3.33533929765589;degreegeneralization:5;uri:21880507
+TOPIC_ZOOM_TAG: value:Computernetzwerke;weight:1.0;significance:3.26634112256408;degreegeneralization:6;uri:21307726
+TOPIC_ZOOM_TAG: value:Technische Dienstleistungen;weight:1.0;significance:3.23511244509721;degreegeneralization:5;uri:20197320
+TOPIC_ZOOM_TAG: value:Schüler, Studenten;weight:1.0;significance:3.21878054168781;degreegeneralization:4;uri:20920823
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:2.78563553898677;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Transport, Verkehr, Logistik;weight:1.0;significance:2.66445868131219;degreegeneralization:6;uri:21881357
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:2.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:2.59037776375624;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:1.0;significance:2.47532165344109;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Services und Dienstleistungen;weight:1.0;significance:2.37184931389331;degreegeneralization:5;uri:20197813
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:2.18452430611399;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:2.15506992990383;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Services und Dienstleistungen;weight:1.0;significance:2.11473682296541;degreegeneralization:4;uri:21993506
+TOPIC_ZOOM_TAG: value:Transport, Verkehr und Logistik;weight:1.0;significance:2.00954255143862;degreegeneralization:4;uri:21925982
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:2.00351838218053;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.83083484620539;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:1.16884339240287;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:0.90229776862663;degreegeneralization:2;uri:21999847
+POS_TAG: value:Login;weight:0.0;uri:;postag:NN
+POS_TAG: value:Erstsemester;weight:0.0;uri:;postag:NN
+POS_TAG: value:Post;weight:0.0;uri:;postag:NN
+POS_TAG: value:Domaene;weight:0.0;uri:;postag:NN
+POS_TAG: value:Account;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bitte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zugangsdaten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Server;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+https://vita. sonia. de/adm/login?domain=fhwf
+Bitte nutzen Sie beim fehlerhaften Login ansonsten diesen Server:
+https://vita. ostfalia. de/adm/roles
+Domaene: fhwf
+Erstsemester erhalten Ihren Ostfalia-Account am 9. 10. Die Zugangsdaten werden leider nicht vorher per Post verschickt.
+TAGGED_CONTENT:
+https:\/\/vita_NE ._$. sonia_NE ._$. de\/adm\/login_PDS ?_$. domain_XY =_XY fhwf_APPR Bitte_NN nutzen_VVFIN Sie_PPER beim_APPRART fehlerhaften_ADJA Login_NN ansonsten_ADV diesen_PDAT Server_NN :_$. https:\/\/vita_VVINF ._$. ostfalia_NE ._$. de\/adm\/roles_ADJA Domaene_NN :_$. fhwf_APPR Erstsemester_NN erhalten_VVFIN Ihren_PPOSAT Ostfalia-Account_NN am_APPRART 9_CARD ._$. 10_CARD ._$. Die_ART Zugangsdaten_NN werden_VAFIN leider_ADV nicht_PTKNEG vorher_ADV per_APPR Post_NN verschickt_VVPP ._$. 

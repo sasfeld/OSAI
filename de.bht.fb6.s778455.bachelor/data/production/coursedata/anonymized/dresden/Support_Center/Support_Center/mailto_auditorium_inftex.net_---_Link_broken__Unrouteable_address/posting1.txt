@@ -1,0 +1,11 @@
+ID: 2533
+CREATION_DATETIME: 1380060000000
+MODIFICATION_DATETIME: 1384210800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+hier https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/posts/1090 wird auf auditorium@inftex. net verlinkt,
+was jedoch einen Fehler liefert. An wen kann man sich wenden, um Kurse des vergangnen Semesters ins aktuelle einzufuegen?
+TAGGED_CONTENT:

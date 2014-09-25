@@ -1,0 +1,15 @@
+ID: 2518
+CREATION_DATETIME: 1376172000000
+MODIFICATION_DATETIME: 1376172000000
+TITLE: Danke für die Antwort.
+LANGUAGE: GERMAN
+POS_TAG: value:Wertebereich;weight:0.0;uri:;postag:NN
+POS_TAG: value:Antwort;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2516
+POSTING_TYPE: comment
+CONTENT:
+Danke für die Antwort.
+
+Aber was ist genau mit Wertebereich gemeint?
+TAGGED_CONTENT:
+Danke_PROAV für_APPR die_ART Antwort_NN ._$. Aber_KON was_PWS ist_VAFIN genau_ADJD mit_APPR Wertebereich_NN gemeint_VVPP ?_$. 

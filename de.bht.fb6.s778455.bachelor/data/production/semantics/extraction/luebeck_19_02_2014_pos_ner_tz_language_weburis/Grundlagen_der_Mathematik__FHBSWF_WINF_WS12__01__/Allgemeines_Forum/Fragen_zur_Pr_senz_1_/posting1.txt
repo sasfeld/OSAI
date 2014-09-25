@@ -1,0 +1,78 @@
+ID: 167889
+CREATION_DATETIME: 1349629418
+MODIFICATION_DATETIME: 1349629418
+TITLE: Fragen zur Präsenz 1 
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=62323#167889
+TOPIC_ZOOM_TAG: value:Primzahlen;weight:5.0;significance:9.07753536802421;degreegeneralization:7;uri:20841025
+TOPIC_ZOOM_TAG: value:Zahlentheorie;weight:5.0;significance:8.29281230468986;degreegeneralization:6;uri:20881383
+TOPIC_ZOOM_TAG: value:Mathematik;weight:6.0;significance:6.66968214006576;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:6.0;significance:3.83484387597153;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:6.0;significance:3.00190042684738;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:7.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:6.0;significance:2.0037315298335;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Mathematische Logik;weight:1.0;significance:1.58558737182854;degreegeneralization:6;uri:20881349
+TOPIC_ZOOM_TAG: value:Logik;weight:1.0;significance:1.18950326865144;degreegeneralization:4;uri:21472524
+TOPIC_ZOOM_TAG: value:Seitenbeschreibungssprachen;weight:1.0;significance:1.11475353382793;degreegeneralization:8;uri:19947182
+TOPIC_ZOOM_TAG: value:Drucksysteme;weight:1.0;significance:1.11475353382793;degreegeneralization:7;uri:20900661
+TOPIC_ZOOM_TAG: value:PDF;weight:1.0;significance:1.11475353382793;degreegeneralization:9;uri:20900627
+TOPIC_ZOOM_TAG: value:Drucktechnik;weight:1.0;significance:1.10065760132692;degreegeneralization:5;uri:20900695
+TOPIC_ZOOM_TAG: value:Beschreibungssprachen;weight:1.0;significance:1.08608629161905;degreegeneralization:7;uri:20900644
+TOPIC_ZOOM_TAG: value:Formale Sprachen;weight:1.0;significance:1.00454224470938;degreegeneralization:6;uri:21978155
+TOPIC_ZOOM_TAG: value:Computersprachen;weight:1.0;significance:1.00405384374527;degreegeneralization:6;uri:19949137
+TOPIC_ZOOM_TAG: value:Verbrecher und Kriminelle;weight:1.0;significance:0.865098069411511;degreegeneralization:5;uri:21991007
+TOPIC_ZOOM_TAG: value:Software;weight:1.0;significance:0.744319092066707;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:0.717746492507539;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:0.715529586833848;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:0.715400245817447;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Geisteswissenschaften;weight:1.0;significance:0.664906374024217;degreegeneralization:3;uri:21978240
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:0.633930378491567;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:0.615734265686809;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:0.572433823480151;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Presse, Druck und Verlagswesen;weight:1.0;significance:0.55710457601904;degreegeneralization:4;uri:21990174
+TOPIC_ZOOM_TAG: value:Verbrechen und Kriminalität;weight:1.0;significance:0.534071264772417;degreegeneralization:4;uri:21982303
+TOPIC_ZOOM_TAG: value:Rechtsverstöße, Straftaten, Kriminalität;weight:1.0;significance:0.5290907962524;degreegeneralization:3;uri:20801755
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:0.523095670344397;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:0.383846204954394;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:0.378942631367333;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:0.378728144914756;degreegeneralization:2;uri:21999830
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:0.31161309370224;degreegeneralization:2;uri:21990259
+POS_TAG: value:berblick;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wiederspruch;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Argumentieren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:Verbrechers;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fragen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Logik;weight:0.0;uri:;postag:NN
+POS_TAG: value:senz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beweisen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Primzahlen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Prinzip;weight:0.0;uri:;postag:NN
+POS_TAG: value:Betrachtet;weight:0.0;uri:;postag:NN
+POS_TAG: value:Folie;weight:0.0;uri:;postag:NN
+POS_TAG: value:Primzahl;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bezeichnung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dokument;weight:0.0;uri:;postag:NN
+POS_TAG: value:z;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teilmenge;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Thema;weight:0.0;uri:;postag:NN
+POS_TAG: value:Widerspruchsbeweis;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+damit wir bezüglich der Fragen zur ersten Präsenz etwas den Überblick behalten können, mach ich nun ein zweites Thema auf.
+Jetzt geht es um die Folie 23 im PDF-Dokument mit der Bezeichnung: "Präsenz 1 - Mathematische Logik, Argumentieren und Beweisen. v1. pdf"  Als Lösung kann ich hier folgendes präsentieren:Klassischer Widerspruchsbeweis:
+Angenommen, es gibt nur endlich viele Primzahlen
+Betrachtet die <REMOVED_PERSON_ENTITY> M = {3, 5, 7, 11, 13, 17, 19, …}
+M ist unendlich groß und besteht nur aus Primzahlen
+Die unendlich große <REMOVED_PERSON_ENTITY> M ist Teilmenge der endlichen <REMOVED_PERSON_ENTITY> aller Primzahlen, Wiederspruch!
+Prinzip des kleinsten Verbrechers:
+Angenommen, es gibt nur endlich viele Primzahlen
+Dann gibt es eine größte Primzahl z.
+Es ist aber z*(die darauf folgende Primzahl) auch eine <REMOVED_PERSON_ENTITY> und größer als z, Wiederspruch!
+Ich vermute mal, dass diese Lösung nicht ganz richtig ist. Was habe ich den falsch gemacht?Besten Dank und Gruß
+<REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, damit_KOUS wir_PPER bezüglich_APPR der_ART Fragen_NN zur_APPRART ersten_ADJA Präsenz_NN etwas_PIS den_ART Überblick_NN behalten_VVINF können_VMFIN ,_$, mach_VVFIN ich_PPER nun_ADV ein_ART zweites_ADJA Thema_NN auf_PTKVZ ._$. Jetzt_ADV geht_VVFIN es_PPER um_APPR die_ART Folie_NN 23_CARD im_APPRART PDF-Dokument_NN mit_APPR der_ART Bezeichnung_NN :_$. "_$( Präsenz_NN 1_CARD -_$( Mathematische_ADJA Logik_NN ,_$, Argumentieren_NN und_KON Beweisen_NN ._$. v1_XY ._$. pdf_XY "_$( Als_APPR Lösung_NN kann_VMFIN ich_PPER hier_ADV folgendes_ADJA präsentieren_VVINF :_$. Klassischer_ADJA Widerspruchsbeweis_NN :_$. Angenommen_VVPP ,_$, es_PPER gibt_VVFIN nur_ADV endlich_ADV viele_PIDAT Primzahlen_NN Betrachtet_NN die_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN M_NE =_XY -LCB-_TRUNC 3_CARD ,_$, 5_CARD ,_$, 7_CARD ,_$, 11_CARD ,_$, 13_CARD ,_$, 17_CARD ,_$, 19_CARD ,_$, ..._$( -RCB-_TRUNC M_NE ist_VAFIN unendlich_ADJD groß_ADJD und_KON besteht_VVFIN nur_ADV aus_APPR Primzahlen_NN Die_ART unendlich_ADJD große_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_NE M_NE ist_VAFIN Teilmenge_NN der_ART endlichen_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_CARD aller_PIDAT Primzahlen_NN ,_$, Wiederspruch_NN !_$. Prinzip_NN des_ART kleinsten_ADJA Verbrechers_NN :_$. Angenommen_VVPP ,_$, es_PPER gibt_VVFIN nur_ADV endlich_ADV viele_PIDAT Primzahlen_NN Dann_ADV gibt_VVFIN es_PPER eine_ART größte_ADJA Primzahl_NN z._APPRART Es_PPER ist_VAFIN aber_ADV z_XY \*_CARD -LRB-_TRUNC die_ART darauf_PROAV folgende_ADJA Primzahl_NN -RRB-_TRUNC auch_ADV eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN und_KON größer_ADJD als_APPR z_NN ,_$, Wiederspruch_NN !_$. Ich_PPER vermute_VVFIN mal_ADV ,_$, dass_KOUS diese_PDAT Lösung_NN nicht_PTKNEG ganz_ADV richtig_ADJD ist_VAFIN ._$. Was_PWS habe_VAFIN ich_PPER den_ART falsch_ADJD gemacht?Besten_ADJA Dank_NN und_KON Gruß_NN <_VVFIN REMOVED_PERSON_ENTITY_NE >_XY 

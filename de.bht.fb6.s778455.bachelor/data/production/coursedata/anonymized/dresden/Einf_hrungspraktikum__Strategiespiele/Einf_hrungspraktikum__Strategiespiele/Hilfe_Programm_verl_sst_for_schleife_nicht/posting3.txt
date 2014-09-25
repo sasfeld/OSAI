@@ -1,0 +1,9 @@
+ID: 1332
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: hab ich gemacht, am ende schreibt er 33 aus
+PARENT_POSTING_ID: 1330
+POSTING_TYPE: comment
+CONTENT:
+hab ich gemacht, am ende schreibt er 33 aus
+TAGGED_CONTENT:

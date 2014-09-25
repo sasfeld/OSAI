@@ -1,0 +1,15 @@
+ID: 97759
+CREATION_DATETIME: 1285929138
+MODIFICATION_DATETIME: 1285929138
+TITLE: Re: Web conferencing
+LANGUAGE: GERMAN
+POS_TAG: value:senz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Chats;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kursplan;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:senztermin;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97758
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>, sind die Chats denn schon am laufen oder fangen diese erst nach der Präsenz am 9. 10. an? Im Kursplan steht das unter dem Präsenztermin und ich bin nun etwas verwirrt? Wäre schade wenn ich schon Chats verpasst hätte. Viele <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, sind_VAFIN die_ART Chats_NN denn_ADV schon_ADV am_APPRART laufen_VVINF oder_KON fangen_VVFIN diese_PDAT erst_ADV nach_APPR der_ART Präsenz_NN am_APPRART 9_CARD ._$. 10_CARD ._$. an_APPR ?_$. Im_APPRART Kursplan_NN steht_VVFIN das_ART unter_APPR dem_ART Präsenztermin_NN und_KON ich_PPER bin_VAFIN nun_ADV etwas_ADV verwirrt_ADJD ?_$. Wäre_VAFIN schade_ADJD wenn_KOUS ich_PPER schon_ADV Chats_NE verpasst_VVPP hätte_VAFIN ._$. Viele_PIDAT <_CARD REMOVED_PERSON_ENTITY_NN >_XY 

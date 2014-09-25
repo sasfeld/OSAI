@@ -1,0 +1,21 @@
+ID: 115390
+CREATION_DATETIME: 1327844845
+MODIFICATION_DATETIME: 1327844845
+TITLE: Re: Frage zu den Aufgaben
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Vektoren;weight:1.0;significance:6.35427475761695;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Skalare;weight:1.0;significance:6.35427475761695;degreegeneralization:7;uri:19937424
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 115389
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+nachdem Sie sich Ihre erste Frage selber beantwortet haben... :-)
+Nein, zwei <REMOVED_PERSON_ENTITY> (oder auch zwei Zeilen) können nicht multipliziert werden. Es geht nur:
+<REMOVED_PERSON_ENTITY> mal Spalte = Skalar (wobei die Anzahl der Elemente der Vektoren gleich sein müssen) oder 
+Spalte mal Zeile = Matrix z. B. (3x1) mal (1x5) ergibt eine (3x5) Matrix.
+Viele Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

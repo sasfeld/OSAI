@@ -1,0 +1,10 @@
+ID: 162947
+CREATION_DATETIME: 1348426076
+MODIFICATION_DATETIME: 1348426076
+TITLE: Re: Lerngruppe gesucht
+PARENT_POSTING_ID: 160999
+CONTENT:
+Kurze Frage,
+wie fit fühlt Ihr euch in den Grundlagen?
+Ich hatte schon ewig keine Mathematik mehr...
+TAGGED_CONTENT:

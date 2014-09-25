@@ -1,0 +1,45 @@
+ID: 97802
+CREATION_DATETIME: 1290253328
+MODIFICATION_DATETIME: 1290253416
+TITLE: Binomialkoeffizienten
+TOPIC_ZOOM_TAG: value:Definitionen;weight:2.0;significance:9.57305529930478;degreegeneralization:3;uri:20913411
+TOPIC_ZOOM_TAG: value:Chat;weight:1.0;significance:4.65367606678589;degreegeneralization:7;uri:20901477
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:1.0;significance:3.25199587633262;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Lifestyle und Internet;weight:1.0;significance:2.53445361368796;degreegeneralization:6;uri:21999575
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Lifestyle, Mode, Schönheit;weight:1.0;significance:2.18595971379839;degreegeneralization:3;uri:21999456
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:1.7207726480701;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 0
+CONTENT:
+Begleitend zum letzten Chat nochmals ein komplettes Beispiel zur Veranschaulichung:
+Der Binomialkoeffizient n ueber k (die Klammern muss ich wegen Moodle so seltsam setzen, eigentlich soll es eine grosse linke und eine grosse rechte Klammer sein):
+( n )
+( k )
+ist definiert als n! / ((n-k) ! k ! )
+(Erinnerung: Es gilt bereits 0! = 1, 1! = 1, ..., 3! = 3 * 2 * 1 usw.)
+Beispiele fuer Binomialkoeffizienten:
+( 3 )   ( 3 )   ( 3 )   ( 3 )
+( 0 )   ( 1 )   ( 2 )   ( 3 )
+Diese rechnet man mittels der Definition aus:
+1, 3, 3, 1
+Die <REMOVED_PERSON_ENTITY> ist 1+3+3+1=8=2^3
+Beobachtung: Wenn ich fuer beliebiges n die <REMOVED_PERSON_ENTITY> aller seiner Binomialkoeffizienten bilde erhalte ich immer 2^n als Ergebnis dieser <REMOVED_PERSON_ENTITY>.
+Die Binomialkoeffizienten sind nuetzlich, um z. B. (a+b)^n fuer beliebige n auszumultiplizieren (mit dem binomischen Lehrsatz, LO02 S. 63). Gluecklicherweise gibt es eine sehr schnelle Methode, die Binomialkoeffizienten fuer beliebige n auszurechnen ohne jedesmal die obige Definition mit den Fakultaeten auszurechnen. Denn es gilt das Pascal'sche Dreieck:
+n=0     1
+n=1   1  1
+n=2  1 2 1
+n=3 1 3 3 1
+usw.
+Das Bildungsgesetz ist sehr einfach und im Skript auf Seite 62 schoen erklaert. In jeder <REMOVED_PERSON_ENTITY> ergibt die Summer der Werte 2^n. Die Summer aller Werte in *allen* Zeilen ueber einer <REMOVED_PERSON_ENTITY> ergibt 2^n-1.
+Anwendung:
+Ich habe (a+b)^3, d. h. somit n=3.
+Dann ergibt sich:
+(a+b)^3 = 1*a^3 + 3*a^2b + 3*ab^2 + 1*b^3 
+Wenn ich (a+b)^2 rechne ergibt sich a^2 + 2ab + b^2.
+Vorteil: Ich muss weder Binomialkoeffizienten mittels Fakultaet errechnen noch den Ausdruck (a+b)^n von Hand ausmultiplizieren. Das obige Bildungsgesetzt gilt fuer alle n aus N.
+TAGGED_CONTENT:

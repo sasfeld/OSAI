@@ -1,0 +1,10 @@
+ID: 3030
+CREATION_DATETIME: 1385420400000
+MODIFICATION_DATETIME: 1385420400000
+TITLE: How do we learn how many points we have reached so far?
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 3029
+POSTING_TYPE: comment
+CONTENT:
+How do we learn how many points we have reached so far?
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 2797
+CREATION_DATETIME: 1384124400000
+MODIFICATION_DATETIME: 1384124400000
+TITLE: Mein Handy kann leider kein rar, was spricht dagegen die relevanten Dateien (in diesem Fall Director)...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2791
+POSTING_TYPE: comment
+CONTENT:
+Mein Handy kann leider kein rar, was spricht dagegen die relevanten Dateien (in diesem Fall Director) einfach mit in den Fragentext aufzunehmen?
+
+Ich tippe einfach mal darauf, dass worktime nicht public ist (und das ist gut so) oder dass der getter dafür fehlt.
+TAGGED_CONTENT:

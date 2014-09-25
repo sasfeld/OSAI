@@ -1,0 +1,12 @@
+ID: 1993
+CREATION_DATETIME: 1370728800000
+MODIFICATION_DATETIME: 1370728800000
+TITLE: Warum installierst du nicht einfach die Binaries aus dem Release, anstatt LLVM 3.2 selbst zu bauen?
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1973
+POSTING_TYPE: comment
+CONTENT:
+Warum installierst du nicht einfach die Binaries aus dem Release, anstatt LLVM 3. 2 selbst zu bauen?
+
+(Edit: mit dem Prefix zu arbeiten ist viiiel sauberer. Glaub mir.)
+TAGGED_CONTENT:

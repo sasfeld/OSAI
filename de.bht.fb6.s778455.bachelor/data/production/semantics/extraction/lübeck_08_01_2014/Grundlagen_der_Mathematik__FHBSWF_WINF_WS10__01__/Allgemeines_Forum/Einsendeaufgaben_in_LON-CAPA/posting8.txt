@@ -1,0 +1,8 @@
+ID: 97751
+CREATION_DATETIME: 1288722531
+MODIFICATION_DATETIME: 1288722531
+TITLE: Re: Einsendeaufgaben in LON-CAPA
+PARENT_POSTING_ID: 97744
+CONTENT:
+Kurze Frage in den Raum... Wie weit müssten wir, laut bisheriger Chats, im LON-CAPA Aufgaben lösen können bzw. an welcher Stelle sind wir in etwa? Möchte gern ein Zwischenstand haben/wissen... muss auch gleich dazu sagen, das mir der <REMOVED_PERSON_ENTITY> bisher extrem schwer fällt. 
+TAGGED_CONTENT:

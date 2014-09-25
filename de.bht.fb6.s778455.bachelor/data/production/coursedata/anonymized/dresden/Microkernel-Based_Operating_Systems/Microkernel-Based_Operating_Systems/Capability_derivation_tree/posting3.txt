@@ -1,0 +1,12 @@
+ID: 1910
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: To quote the seL4 manual (http://www.ertos.nicta.com.au/research/sel4/sel4-refman.pdf):
+
+> The kern...
+PARENT_POSTING_ID: 1907
+POSTING_TYPE: answer
+CONTENT:
+To quote the seL4 manual (http://www.ertos.nicta.com.au/research/sel4/sel4-refman. pdf):
+> The kernel keeps a record of the derivation tree for capabilities. This tree is stored in the mapping database, and is used when revoking a capability to locate the capabilities which must be deleted. This is similar to previous L4 kernels, except that the storage for the mapping database is not dynamically allocated in seL4 — every capability table slot includes some space reserved for a mapping database node.
+TAGGED_CONTENT:

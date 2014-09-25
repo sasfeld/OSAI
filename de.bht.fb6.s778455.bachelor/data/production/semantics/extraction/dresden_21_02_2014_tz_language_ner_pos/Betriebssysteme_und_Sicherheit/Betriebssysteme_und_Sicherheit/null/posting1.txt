@@ -1,0 +1,14 @@
+ID: 1126
+CREATION_DATETIME: 1361055600000
+MODIFICATION_DATETIME: 1361055600000
+TITLE: ist denn ein Taschenrechner wirklich notwendig ? ich besitze nämlich nur einen GTR und mir jetzt eine...
+LANGUAGE: GERMAN
+POS_TAG: value:Taschenrechner;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:GTR;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1121
+POSTING_TYPE: answer
+CONTENT:
+ist denn ein Taschenrechner wirklich notwendig ? ich besitze nämlich nur einen GTR und mir jetzt einen neuen Taschenrechner zu kaufen für eine <REMOVED_PERSON_ENTITY> oder so .... ka ?
+TAGGED_CONTENT:
+ist_VAFIN denn_ADV ein_ART Taschenrechner_NN wirklich_ADJD notwendig_ADJD ?_$. ich_PPER besitze_VVFIN nämlich_ADV nur_ADV einen_ART GTR_NN und_KON mir_PPER jetzt_ADV einen_ART neuen_ADJA Taschenrechner_NN zu_PTKZU kaufen_VVINF für_APPR eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD oder_KON so_ADV ..._$( ka_FM ?_$. 

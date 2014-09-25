@@ -1,0 +1,10 @@
+ID: 1198
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: Bei Notificationmails nicht den (verkürzten) Inhalt der Frage/Anwort/Kommentar in die Betreffzeile pa...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 369
+POSTING_TYPE: answer
+CONTENT:
+Bei Notificationmails nicht den (verkürzten) Inhalt der Frage/Anwort/Kommentar in die Betreffzeile packen. Das ist unlesbar. Wenn es denn doch sein muss, dann doch den Namen der LV vor- und nicht hinten anstellen.
+TAGGED_CONTENT:

@@ -1,0 +1,11 @@
+ID: 2994
+CREATION_DATETIME: 1385247600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Übung zum 5. Kapitel (Routing) findet sich ab sofort unter folgendem <REMOVED_PERSON_ENTITY>:
+http://www.rn.inf.tu-dresden. de/lectures/Rechnernetzpraxis/05_RNP_Routing_uebung. pdf
+Neben der Beschäftigung mit RFC 1930 geht es in der Übung um die Konfiguration des unter der GPL stehenden Routing-Daemons "Quagga". Viel Spass & Erfolg <PERSONAL_GREETING_REMOVEMENT>...
+TAGGED_CONTENT:

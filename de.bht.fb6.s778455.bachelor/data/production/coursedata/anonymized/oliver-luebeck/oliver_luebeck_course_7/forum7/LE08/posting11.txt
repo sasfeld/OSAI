@@ -1,0 +1,17 @@
+ID: 14
+CREATION_DATETIME: 1304102940000
+MODIFICATION_DATETIME: 1304102940000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 13
+CONTENT:
+ 
+Hallo ,
+
+ich habe in ErweitertesAuto einfach einen zweiten Konstruktor Erweitertes Auto eingefügt, der alle Parameter des ersten Konstruktor (Besitzer, Autotyp, Farbe, ...) enthält sowie die neuen (..., String standort, long fahrgestellnummer). Das hat dann auch ganz gut funktioniert.
+
+Viele Grüße
+
+PS: Ich finde das auch eine gute Idee und bin bei dem Treffen dabei.
+   
+TAGGED_CONTENT:

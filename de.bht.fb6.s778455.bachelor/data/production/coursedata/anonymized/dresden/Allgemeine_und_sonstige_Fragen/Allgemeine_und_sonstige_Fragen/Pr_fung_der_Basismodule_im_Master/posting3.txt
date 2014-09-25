@@ -1,0 +1,10 @@
+ID: 656
+CREATION_DATETIME: 1351983600000
+MODIFICATION_DATETIME: 1351983600000
+TITLE: Wobei die Fächer an sich nacheinander geprüft werden. D.h. die 30 Minuten werden je nach SWS-Zahl der...
+PARENT_POSTING_ID: 653
+POSTING_TYPE: answer
+CONTENT:
+[In addition to <REMOVED_PERSON_ENTITY>:]
+Wobei die Fächer an sich nacheinander geprüft werden. D. h. die 30 Minuten werden je nach SWS-Zahl der Fächer aufgeteilt. Wenn du zwei Fächer à 4 SWS prüfen lässt, wirst du in jedem Fach 15min geprüft. 
+TAGGED_CONTENT:

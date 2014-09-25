@@ -1,0 +1,23 @@
+ID: 1386
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: None of them. As I said it is of no use, if I modify L4 so that it works for me but no one else :)  
+...
+PARENT_POSTING_ID: 1325
+POSTING_TYPE: comment
+CONTENT:
+None of them. As I said it is of no use, if I modify L4 so that it works for me but no one else :)  
+The file I found this bug in was `kdebug. h` included by ``:
+ > $ find -name kdebug. h  
+> ./src/l4/pkg/l4sys/include/ARCH-arm/kdebug. h  
+> ./src/l4/pkg/l4sys/include/ARCH-ppc32/kdebug. h  
+> ./src/l4/pkg/l4sys/include/ARCH-sparc/kdebug. h  
+> ./src/l4/pkg/l4sys/include/ARCH-x86/kdebug. h  
+> ./src/l4/pkg/l4sys/include/ARCH-amd64/kdebug. h  
+> ./obj/l4/x86/include/arm/l4/sys/kdebug. h  
+> ./obj/l4/x86/include/x86/l4/sys/kdebug. h  
+> ./obj/l4/x86/include/sparc/l4/sys/kdebug. h  
+> ./obj/l4/x86/include/ppc32/l4/sys/kdebug. h  
+> ./obj/l4/x86/include/amd64/l4/sys/kdebug. h  
+The file I triggerd the bug in was part of my malloc-implementation.
+TAGGED_CONTENT:

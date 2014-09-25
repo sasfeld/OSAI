@@ -1,0 +1,9 @@
+ID: 326
+CREATION_DATETIME: 1350165600000
+MODIFICATION_DATETIME: 1350165600000
+TITLE: Über die Farbe lässt 
+PARENT_POSTING_ID: 325
+POSTING_TYPE: comment
+CONTENT:
+Über die Farbe lässt sich sicher noch diskutieren. Ich habe erst einmal ein dezentes Rot genommen. Diese Farbe erscheint nun quasi wenn <REMOVED_PERSON_ENTITY> oder Maintainer eines Kurses eine Frage stellen, einen Kommentar abgeben oder eine Frage beantworten.
+TAGGED_CONTENT:

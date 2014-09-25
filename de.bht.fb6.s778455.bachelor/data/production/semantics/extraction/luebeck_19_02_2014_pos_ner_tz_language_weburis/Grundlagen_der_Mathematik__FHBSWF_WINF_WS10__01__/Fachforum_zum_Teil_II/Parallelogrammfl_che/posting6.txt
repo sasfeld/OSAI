@@ -1,0 +1,29 @@
+ID: 97810
+CREATION_DATETIME: 1293043631
+MODIFICATION_DATETIME: 1293043631
+TITLE: Re: Parallelogrammfläche
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=36377#97810
+TOPIC_ZOOM_TAG: value:Vektoren;weight:1.0;significance:6.35427475761695;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Technische Normen;weight:1.0;significance:4.3883619412548;degreegeneralization:4;uri:20901307
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:3.89064791503836;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:2.23699226098339;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:1.75110858232764;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:1.16884339240287;degreegeneralization:2;uri:21999711
+POS_TAG: value:Form;weight:0.0;uri:;postag:NN
+POS_TAG: value:Quadratwurzel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektors;weight:0.0;uri:;postag:NN
+POS_TAG: value:Norm;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ergebnis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zahlen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ergebnisform;weight:0.0;uri:;postag:NN
+POS_TAG: value:System;weight:0.0;uri:;postag:NN
+POS_TAG: value:Term;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97807
+CONTENT:
+Geben Sie bitte das Ergebnis in der Form sqrt(...) ein und dann passt es. Das System nimmt die (evtl. gerundete) Ergebnisform nicht an, aber die Norm des Vektors als Term innerhalb einer Quadratwurzel. Daher: sqrt(a^2+b^2+c^2) mit a, b und c den passenden Zahlen. Das ist in der Aufgabe nicht gut erklaert, dass das so erwartet wird.
+TAGGED_CONTENT:
+Geben_VVFIN Sie_PPER bitte_VVFIN das_ART Ergebnis_NN in_APPR der_ART Form_NN sqrt_VVFIN -LRB-_TRUNC ..._$( -RRB-_TRUNC ein_PTKVZ und_KON dann_ADV passt_VVFIN es_PPER ._$. Das_ART System_NN nimmt_VVFIN die_ART -LRB-_TRUNC evtl_PTKVZ ._$. gerundete_ADJA -RRB-_TRUNC Ergebnisform_NN nicht_PTKNEG an_PTKVZ ,_$, aber_KON die_ART Norm_NN des_ART Vektors_NN als_APPR Term_NN innerhalb_APPR einer_ART Quadratwurzel_NN ._$. Daher_PROAV :_$. sqrt_ADJD -LRB-_TRUNC a_ART ^_NN 2_CARD +_XY b_XY ^_CARD 2_CARD +_XY c_XY ^_CARD 2_CARD -RRB-_TRUNC mit_APPR a_NE ,_$, b_XY und_KON c_VVFIN den_ART passenden_ADJA Zahlen_NN ._$. Das_PDS ist_VAFIN in_APPR der_ART Aufgabe_NN nicht_PTKNEG gut_ADJD erklaert_VVPP ,_$, dass_KOUS das_PDS so_ADV erwartet_VVPP wird_VAFIN ._$. 

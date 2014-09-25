@@ -1,0 +1,10 @@
+ID: 2060
+CREATION_DATETIME: 1371160800000
+MODIFICATION_DATETIME: 1371160800000
+TITLE: Ich denke – man möge mich korrigieren – der einizge Vorteil von TestSuite ist, dass Entwicklungsumgeb...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2047
+POSTING_TYPE: answer
+CONTENT:
+Ich denke – man möge mich korrigieren – der einzige Vorteil <NAME_CORPUS_REPLACEMENT> TestSuite ist, dass Entwicklungsumgebungen, wie Eclipse oder NetBeans, diese <REMOVED_PERSON_ENTITY> auch als Tests erkennen, somit kannst du mehrere Tests auf einmal laufen lassen und die bequeme Gui Ansicht der IDE deiner Wahl benutzen.
+TAGGED_CONTENT:

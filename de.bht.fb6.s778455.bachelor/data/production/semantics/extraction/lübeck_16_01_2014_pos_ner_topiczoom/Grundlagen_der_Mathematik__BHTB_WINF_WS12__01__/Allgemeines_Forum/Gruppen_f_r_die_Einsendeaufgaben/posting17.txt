@@ -1,0 +1,24 @@
+ID: 172291
+CREATION_DATETIME: 1350596588
+MODIFICATION_DATETIME: 1350596588
+TITLE: Re: Gruppen für die Einsendeaufgaben
+TOPIC_ZOOM_TAG: value:Hollenbach;weight:1.0;significance:12.7085495152339;degreegeneralization:14;uri:21863456
+TOPIC_ZOOM_TAG: value:Gemeinden im Landkreis Aichach-Friedberg;weight:1.0;significance:9.61750706187561;degreegeneralization:13;uri:21863626
+TOPIC_ZOOM_TAG: value:Landkreis Aichach-Friedberg;weight:1.0;significance:9.34125368524745;degreegeneralization:12;uri:21863711
+TOPIC_ZOOM_TAG: value:Bayern;weight:1.0;significance:4.56358009814605;degreegeneralization:10;uri:21996634
+TOPIC_ZOOM_TAG: value:Deutschland;weight:1.0;significance:2.0357642545643;degreegeneralization:8;uri:21996974
+TOPIC_ZOOM_TAG: value:Europa;weight:1.0;significance:1.55587681555031;degreegeneralization:6;uri:21972001
+POS_TAG: value:Gruppen;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 172023
+CONTENT:
+Derzeit haben sich folgende Gruppen gebildet:
+<REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, Ramon Hollenbach
+Maxim Schwarz, <REMOVED_PERSON_ENTITY>, Steven Pawellek
+Isabelle Moutoux, <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, Tim Brockmann
+Christian Giehler, <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, Thomas Severin
+Martin Duckert, <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>
+ 
+Haben sich sonst noch Gruppen gefunden?
+TAGGED_CONTENT:
+Derzeit_ADV haben_VAFIN sich_PRF folgende_ADJA Gruppen_NN gebildet_VVPP :_$. <_CARD REMOVED_PERSON_ENTITY_NN >_CARD ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, Ramon_NE Hollenbach_NE Maxim_NE Schwarz_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, Steven_NE Pawellek_NE Isabelle_NE Moutoux_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, Tim_NE Brockmann_NE Christian_NE Giehler_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, Thomas_NE Severin_NE Martin_NE Duckert_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_CARD Haben_VAFIN sich_PRF sonst_ADV noch_ADV Gruppen_NN gefunden_VVPP ?_$. 

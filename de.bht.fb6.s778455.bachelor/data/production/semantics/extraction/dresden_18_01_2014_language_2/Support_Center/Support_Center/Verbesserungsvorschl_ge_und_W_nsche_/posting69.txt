@@ -1,0 +1,10 @@
+ID: 1280
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Tritt nicht auf, keine Sorge. Ist es mögl. das optional verfügbar zu machen? Hintergrund: Die Mails s...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1196
+POSTING_TYPE: comment
+CONTENT:
+Tritt nicht auf, keine <REMOVED_PERSON_ENTITY>. Ist es mögl. das optional verfügbar zu machen? Hintergrund: Die Mails sind jetzt (juhu!!!) in Threads sortiert, jedoch wenn Mails eigener Beiträge fehlen, dann ist der "Diskussionsfaden" immer wieder mal unterbrochen. Nicht tragisch, nur unschön.
+TAGGED_CONTENT:

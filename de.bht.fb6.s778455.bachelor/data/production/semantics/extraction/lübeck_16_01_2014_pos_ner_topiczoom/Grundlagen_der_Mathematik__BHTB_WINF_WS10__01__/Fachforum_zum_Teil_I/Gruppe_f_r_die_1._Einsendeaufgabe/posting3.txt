@@ -1,0 +1,12 @@
+ID: 101864
+CREATION_DATETIME: 1288078885
+MODIFICATION_DATETIME: 1288078885
+TITLE: Re: Gruppe für die 1. Einsendeaufgabe
+POS_TAG: value:Platz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+POS_TAG: value:mfgRobert;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 101862
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>, ich täte mich gerne anschließen, falls noch ein Platz in der Gruppe frei ist. mfgRobert 
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE ,_$, ich_PPER täte_VVFIN mich_PRF gerne_ADV anschließen_VVINF ,_$, falls_KOUS noch_ADV ein_ART Platz_NN in_APPR der_ART Gruppe_NN frei_ADJD ist_VAFIN ._$. mfgRobert_NN 

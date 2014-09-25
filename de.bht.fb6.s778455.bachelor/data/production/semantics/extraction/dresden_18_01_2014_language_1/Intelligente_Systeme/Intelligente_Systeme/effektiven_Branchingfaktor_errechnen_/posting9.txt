@@ -1,0 +1,10 @@
+ID: 766
+CREATION_DATETIME: 1352847600000
+MODIFICATION_DATETIME: 1352847600000
+TITLE: Die Knoten die das Programm nachher im Speicher hat, falls das eindeutiger ist.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 718
+POSTING_TYPE: comment
+CONTENT:
+Die Knoten die das Programm nachher im <REMOVED_PERSON_ENTITY> hat, falls das eindeutiger ist.
+TAGGED_CONTENT:

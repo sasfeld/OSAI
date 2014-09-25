@@ -1,0 +1,12 @@
+ID: 598
+CREATION_DATETIME: 1351551600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Eine sehnlichst gewünschte Funktion ist nun verfügbar und agiert im Hintergrund: 
+
+Sobald eine Frage oder eine Information geöffnet wird, werden alle <REMOVED_PERSON_ENTITY> (die Zahl rechts oben) für diesen Post, seine Antworten und Kommentare auf gelesen gesetzt. Somit geht der Mitteilungszähler automatisch im Zuge des Lesens gegen null. :)
+TAGGED_CONTENT:

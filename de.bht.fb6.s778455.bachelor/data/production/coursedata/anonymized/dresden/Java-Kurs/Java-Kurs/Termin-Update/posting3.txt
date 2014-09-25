@@ -1,0 +1,9 @@
+ID: 1075
+CREATION_DATETIME: 1358895600000
+MODIFICATION_DATETIME: 1358895600000
+TITLE: Bisher haben sich noch nicht genügend Interessenten zusammen gefunden. Klausuren kannst du übrigens a...
+PARENT_POSTING_ID: 1013
+POSTING_TYPE: comment
+CONTENT:
+Bisher haben sich noch nicht genügend Interessenten zusammen gefunden. Klausuren kannst du übrigens auch im Auditorium besprechen, nutze dann bitte aber das SWT- Unterforum dafür. Ich lese die Fragen dort übrigens mit :)
+TAGGED_CONTENT:

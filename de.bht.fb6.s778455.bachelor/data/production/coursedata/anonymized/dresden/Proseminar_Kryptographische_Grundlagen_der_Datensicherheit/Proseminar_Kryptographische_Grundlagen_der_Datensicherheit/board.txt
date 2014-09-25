@@ -1,0 +1,6 @@
+ID: 2154434
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Proseminar Kryptographische Grundlagen der Datensicherheit
+INTRO: null
+TYPE: null

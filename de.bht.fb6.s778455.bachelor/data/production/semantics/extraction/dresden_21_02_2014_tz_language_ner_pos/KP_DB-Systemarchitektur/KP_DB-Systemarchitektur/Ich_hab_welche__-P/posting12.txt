@@ -1,0 +1,11 @@
+ID: 1990
+CREATION_DATETIME: 1370728800000
+MODIFICATION_DATETIME: 1370728800000
+TITLE: clang ist installiert. clang --version gibt mir ne korrekte antwort
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1973
+POSTING_TYPE: comment
+CONTENT:
+clang ist installiert. clang --version gibt mir ne korrekte antwort
+TAGGED_CONTENT:
+clang_ADJD ist_VAFIN installiert_VVPP ._$. clang_ADJD --_-- version_PDS gibt_VVFIN mir_PPER ne_ADV korrekte_VVFIN antwort_ADJD 

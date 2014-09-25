@@ -1,0 +1,10 @@
+ID: 2139
+CREATION_DATETIME: 1372543200000
+MODIFICATION_DATETIME: 1372543200000
+TITLE: Dass die Dimensionsgrenzen fest sind, ist mir klar. aber so läuft eben noch nichtmal der erste Durchl...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2137
+POSTING_TYPE: comment
+CONTENT:
+Dass die Dimensionsgrenzen fest sind, ist mir klar. aber so läuft eben noch nichtmal der erste Durchlauf mit jeweils 256 WorkItems durch.
+TAGGED_CONTENT:

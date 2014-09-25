@@ -1,0 +1,17 @@
+ID: 10
+CREATION_DATETIME: 1175698500000
+MODIFICATION_DATETIME: 1175698500000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 8
+CONTENT:
+
+Zum entpacken nimmst du die ZIP-Datei nicht die EXE. Der Inhalt der EXE-Datei ist das gleiche wie die ZIP-Datei, nur einfach ein Selbst-Entpackendes-Archiv.
+
+Du kannst das was in der Eingabeaufforderung von Windows gemacht wird, so ziemlich genau auch in einer Terminal-Session auf dem Mac machen. java/javac sind dort schon von Hause aus installiert in der Version 1.6. Wie Dominik schon schrieb.
+
+Die Version 1.7 gibt es nur als Developer Preview. Ich gehe mal davon aus, das wir keine der neuen Features aus 1.7 brauchen und 1.6 völlig ausreicht für den Kurs.
+
+Gruß
+    
+TAGGED_CONTENT:

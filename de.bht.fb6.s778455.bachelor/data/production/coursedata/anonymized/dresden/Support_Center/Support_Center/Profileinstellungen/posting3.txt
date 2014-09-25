@@ -1,0 +1,9 @@
+ID: 324
+CREATION_DATETIME: 1350165600000
+MODIFICATION_DATETIME: 1350165600000
+TITLE: Das ist ein berechtig
+PARENT_POSTING_ID: 310
+POSTING_TYPE: comment
+CONTENT:
+Das ist ein berechtigter Punkt. Aber so viele, wie sich beschwert haben. Außerdem kann ja nur das Passwort geändert werden aber keine Email. Sodass derjenige einfach das Passwort zurücksetzen müsste. Aber ich werde eine weiche einbauen die abfragt, ob das Passwort geändert wurde und wenn ja dann benötigt man das aktuelle Passwort. Aber für Name und so ist es nicht notwendig. 
+TAGGED_CONTENT:

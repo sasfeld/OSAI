@@ -1,0 +1,18 @@
+ID: 2590
+CREATION_DATETIME: 1382220000000
+MODIFICATION_DATETIME: 1382392800000
+TITLE: There is the uml Diagram Exchange Data Format. It is standardised by the OMG. The Free Software Tool ...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2584
+POSTING_TYPE: comment
+CONTENT:
+There is the uml Diagram Exchange Data Format. It is standardised by the OMG. The Free Software Tool Papyrus UML supports this Format. Would this be acceptable? 
+
+I don't like to accept the proprietary license of MagicDraw, so I won't be able to use it. And there are other students, who don't want accept this kind of license. And I don't understand why we are forced to use a proprietary software, when good Free Software tools are available.
+
+I <NAME_CORPUS_REPLACEMENT> fully understand the wish of getting a comparison of the solutions of all students, but I hope you will try to find a solution that doesn't force the students to use proprietary software, when good free software alternatives are available. Maybe you <NAME_CORPUS_REPLACEMENT> tell us, which (open) format you expect us to submit.
+
+Beste Regards,
+
+<REMOVED_PERSON_ENTITY>, (student)
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 2043
+CREATION_DATETIME: 1370988000000
+MODIFICATION_DATETIME: 1370988000000
+TITLE: Hallo Christoph,
+
+bitte exportiere Dein Projekt und schicke mir die *.zip zu. Ich werde mir das ans...
+PARENT_POSTING_ID: 1976
+POSTING_TYPE: answer
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+bitte exportiere Dein Projekt und schicke mir die *. zip zu. Ich werde mir das anschauen und dann eine Antwort posten, mit der es funktionieren sollte.
+(Grundsätzlich gebe ich den Tipp, schon während der Implementierung die Unit-Tests zu verwenden und Methode für Methode zu testen und dann erst weiter zu machen.)
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

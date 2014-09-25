@@ -1,0 +1,22 @@
+ID: 2476
+CREATION_DATETIME: 1374703200000
+MODIFICATION_DATETIME: 1380578400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Gegeben sei folgende Aufgabe:
+
+Die beiden Kanäle eines stereophonen Audio-Signals werden einzeln mittels PCM digitalisiert und anschließend synchron gemultiplext.
+
+a) Welche Mindestdatenrate besitzt das digitale Stereo-Signal, wenn jeder analoge <REMOVED_PERSON_ENTITY> mit 44 kHz abgetastet wird und die Amplitudenstufen mit 12 bit kodiert werden?
+
+b) Welche Bedingung muß für die obere Grenzfrequenz eines analogen Kanals gelten?
+
+c) Welche Mindestbandbreite muß ein Übertragungssystem besitzen, welche das digitale Stereo-Signal übertragen soll?
+
+Frage:
+
+Ich bin mir leider immer noch unsicher, ob ich zur Lösung <NAME_CORPUS_REPLACEMENT> a) in die Formel $b < 2B* ld(S)$ für S 2 (Weil in Bit kodiert, also Binär) oder 12 (weil mit 12 Bit) einsetzen muss.
+TAGGED_CONTENT:

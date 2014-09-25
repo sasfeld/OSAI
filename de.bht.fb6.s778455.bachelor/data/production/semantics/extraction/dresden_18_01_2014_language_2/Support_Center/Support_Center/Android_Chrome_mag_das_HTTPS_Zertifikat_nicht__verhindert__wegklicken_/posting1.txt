@@ -1,0 +1,18 @@
+ID: 1462
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: null
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich habe auf Android das Problem, dass der Browser dem Zertifikat nicht traut:
+
+> The identity of this website has not been verified. Server's certificate is not trusted.
+
+Das wäre nicht katastrophal, wenn nicht der neue Chrome auf Android (Chrome Beta 25. 0. 1364. 169), das wegklicken der Warnung verhindern würde, weil:
+
+> You cannot proceed, because the website operator has requested heightened security for this domain.
+
+D. h. ich kann mir die Seite gar nicht anschauen. Relevant dazu ist auch [der Post](http://security.stackexchange.com/questions/26049/chrome-ssl-warning-you-cannot-proceed-because-the-website-operator-has-request)
+TAGGED_CONTENT:

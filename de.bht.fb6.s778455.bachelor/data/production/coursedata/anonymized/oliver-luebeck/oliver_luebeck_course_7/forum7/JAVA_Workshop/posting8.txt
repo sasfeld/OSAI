@@ -1,0 +1,22 @@
+ID: 64
+CREATION_DATETIME: 1305187680000
+MODIFICATION_DATETIME: 1305187680000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 63
+CONTENT:
+  
+hallo! :)
+
+die idee ist wirklich super!! falls ich dienstag wieder in berlin bin wäre ich gern dabei. ansonsten würd ich das mit dem teamviewer mal probieren.
+
+was habt ihr denn geplant? für mich wäre besonders InDesign interessant. und vieleicht ein paar illustrator-tipps für umsteiger. damals (lang lang ist her) hab ich freehand gelernt.
+
+mit den aufgaben die wir bis jetzt in java hatten bin ganz gut klar gekommen. da brauch ich einfach immer nur meine zeit zum denken *g* aber von eclipse hab ich z.b gar keine ahnung...
+
+@christina: ein informatik-treffen klingt auch klasse!
+wenn du magst, können wir uns gern mal zusammensetzen. bis auf dieses wochenende hab ich fast immer zeit. ich schreib dir später mal ne nachricht, muss jetzt los.
+
+alles liebe,
+    
+TAGGED_CONTENT:

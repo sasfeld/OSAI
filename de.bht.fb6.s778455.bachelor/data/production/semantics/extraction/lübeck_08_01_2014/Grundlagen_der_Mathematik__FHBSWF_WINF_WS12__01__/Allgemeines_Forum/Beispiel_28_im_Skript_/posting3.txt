@@ -1,0 +1,12 @@
+ID: 194737
+CREATION_DATETIME: 1358597055
+MODIFICATION_DATETIME: 1358597055
+TITLE: Re: Beispiel 28 im Skript....
+TOPIC_ZOOM_TAG: value:Wohltätigkeit, Gemeinnützigkeit, Spenden, Hilfe, Engagement;weight:1.0;significance:5.98832936009863;degreegeneralization:3;uri:20919497
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+PARENT_POSTING_ID: 194659
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+vielen Dank für deine ausführliche Hilfe. Nun hab ich es verstanden !!!
+Gruß <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

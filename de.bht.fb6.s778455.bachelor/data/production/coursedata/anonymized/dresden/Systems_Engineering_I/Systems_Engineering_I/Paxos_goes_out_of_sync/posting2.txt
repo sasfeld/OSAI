@@ -1,0 +1,18 @@
+ID: 2485
+CREATION_DATETIME: 1375135200000
+MODIFICATION_DATETIME: 1375999200000
+TITLE: That's a nice figure. I don't know whether the state is correct or not. Can you say what the acceptor...
+PARENT_POSTING_ID: 2483
+POSTING_TYPE: answer
+CONTENT:
+That's a nice figure. I don't know whether the state is correct or not. <NAME_CORPUS_REPLACEMENT> you say what the acceptors have at the end of this timeline? Anyway, that seems to be a possible run.
+Let me try to understand your issue better. You said: "I see a scenario when minority of acceptors <NAME_CORPUS_REPLACEMENT> accept a value that differs from one chosen by majority."
+A value is *chosen* once a majority accepted it. Once a value is chosen, no other value <NAME_CORPUS_REPLACEMENT> be chosen. Otherwise Paxos would be wrong. "Choosing", ie, the agreement, is something that happens globally. The individual acceptors do not know anything about the chosen value (but they might learn that at some point).
+In your example, a majority is any set with at least 2 acceptors. I don't see any chosen value there since only Acceptor2 accepted x. 
+I hope the following scenario matches better your question: Let's move the accept(1, x) sent to 2 to the end of the timeline and let's say that accept(2, y) was not lost (nor A2 crashed). In this new scenario, 
+1. a value is chosen, ie, value y at ballot 2 is accepted by A1 and A3; and 
+2. a value is accepted by a minority after another value was chosen, ie, x at ballot 1 is accepted by A2.
+A2 is allowed to accept (1, x) because did not ack (2, -). But nothing new is chosen. The agreement property still holds: once a value is chosen is cannot change any more. Eventually A2 will receive the prepare(2) and accept(2, y) and will overwrite its accepted value.
+You <NAME_CORPUS_REPLACEMENT> ask yourself: What if A1 crashes before A2 sees (2, y)? Let proposer 1 do another round. It will have to talk with a majority. It will receive ack(3, (1, x)) from A2 and ack(3, (2, y)) from A3. It will then send accept(3, y) to both of them and A2 will accept y at last. Agreement still holds. 
+Please let me know whether that answers your question.
+TAGGED_CONTENT:

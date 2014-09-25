@@ -1,0 +1,51 @@
+ID: 2390
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1384297200000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Prüfungsämter;weight:1.0;significance:6.35427475761695;degreegeneralization:8;uri:19997655
+TOPIC_ZOOM_TAG: value:Prüfungen und Abschlüsse an Hochschulen;weight:1.0;significance:3.92050753238917;degreegeneralization:5;uri:20293489
+TOPIC_ZOOM_TAG: value:Prüfungen, Abschlüsse und Zertifikate;weight:1.0;significance:3.64179974887626;degreegeneralization:4;uri:21974670
+TOPIC_ZOOM_TAG: value:E-Mail;weight:1.0;significance:3.51418845310843;degreegeneralization:7;uri:20901800
+TOPIC_ZOOM_TAG: value:Kommunikationsdienste;weight:1.0;significance:3.42673879651575;degreegeneralization:4;uri:20034732
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:1.0;significance:3.25199587633262;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Wirtschaftswissenschaft;weight:1.0;significance:3.05775249054575;degreegeneralization:4;uri:21990106
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:2.78563553898677;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:2.77735785682754;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:2.59037776375624;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Angewandte Wissenschaften;weight:1.0;significance:2.51999420360902;degreegeneralization:3;uri:21976591
+TOPIC_ZOOM_TAG: value:Internetdienste;weight:1.0;significance:2.50503336367649;degreegeneralization:6;uri:20772413
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:2.18452430611399;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Services und Dienstleistungen;weight:1.0;significance:2.11473682296541;degreegeneralization:4;uri:21993506
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:2.0;significance:1.80459553725326;degreegeneralization:2;uri:21999847
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Politik;weight:1.0;significance:0.92435236080528;degreegeneralization:2;uri:21999932
+NER_TAG: value:NF-Note;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:Emails;weight:0.0;uri:;postag:NN
+POS_TAG: value:Antwort;weight:0.0;uri:;postag:NN
+POS_TAG: value:Diplomverteidigung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beantragung;weight:0.0;uri:;postag:NN
+POS_TAG: value:fungsamt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Formel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nebenfach;weight:0.0;uri:;postag:NN
+POS_TAG: value:Formular;weight:0.0;uri:;postag:NN
+POS_TAG: value:Note;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nebenfachnote;weight:0.0;uri:;postag:NN
+POS_TAG: value:Verteidigung;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wirtschaftswissenschaften;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wer ist dafür zuständig und berechtigt, die Nebenfachnote zu berechnen? Ich hatte zwar vor ein paar <REMOVED_PERSON_ENTITY> mal mit dem Prüfungsamt ein paar Emails ausgetauscht und habe die Formel zur <REMOVED_PERSON_ENTITY> meiner NF-Note bekommen, aber trage ich diese dort in das <NAME_CORPUS_REPLACEMENT> im [Formular zur Beantragung meiner Diplomverteidigung](http://www.inf.tu-dresden. de/content/study/for_students/formulars/Dipl_Inf_Antrag_Verteidigung. pdf) ein? Das Nebenfach ist Wirtschaftswissenschaften.
+
+Vielen Dank schonmal für eine Antwort.
+TAGGED_CONTENT:
+Wer_PWS ist_VAFIN dafür_PROAV zuständig_ADJD und_KON berechtigt_ADJD ,_$, die_ART Nebenfachnote_NN zu_PTKZU berechnen_VVINF ?_$. Ich_PPER hatte_VAFIN zwar_ADV vor_APPR ein_ART paar_PIDAT <_CARD REMOVED_PERSON_ENTITY_NN >_CARD mal_ADV mit_APPR dem_ART Prüfungsamt_NN ein_ART paar_PIDAT Emails_NN ausgetauscht_VVPP und_KON habe_VAFIN die_ART Formel_NN zur_APPRART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD meiner_PPOSAT NF-Note_NN bekommen_VVFIN ,_$, aber_KON trage_VVFIN ich_PPER diese_PDAT dort_ADV in_APPR das_ART <_ADJA NAME_CORPUS_REPLACEMENT_NN >_CARD im_APPRART -LSB-_TRUNC Formular_NN zur_APPRART Beantragung_NN meiner_PPOSAT Diplomverteidigung_NN -RSB-_TRUNC -LRB-_TRUNC http:\/\/www.inf.tu-dresden_VVINF ._$. de\/content\/study_NE \/_NE for_students_NE \/_NE formulars\/Dipl_NE __CARD Inf_Antrag_Verteidigung_NN ._$. pdf_XY -RRB-_TRUNC ein_PTKVZ ?_$. Das_ART Nebenfach_NN ist_VAFIN Wirtschaftswissenschaften_NN ._$. Vielen_PIDAT Dank_NN schonmal_ADV für_APPR eine_ART Antwort_NN ._$. 

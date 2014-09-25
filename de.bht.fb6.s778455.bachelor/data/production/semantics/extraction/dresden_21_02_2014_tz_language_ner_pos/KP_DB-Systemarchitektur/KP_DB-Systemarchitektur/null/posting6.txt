@@ -1,0 +1,14 @@
+ID: 2295
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Theoretisch dürfte in dem Fall sogar die Durchschnittszeit greifen. Anpassungen sind also nicht nötig...
+LANGUAGE: GERMAN
+POS_TAG: value:Anpassungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fall;weight:0.0;uri:;postag:NN
+POS_TAG: value:Durchschnittszeit;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2291
+POSTING_TYPE: comment
+CONTENT:
+Theoretisch dürfte in dem Fall sogar die Durchschnittszeit greifen. Anpassungen sind also nicht nötig.
+TAGGED_CONTENT:
+Theoretisch_ADJD dürfte_VMFIN in_APPR dem_ART Fall_NN sogar_ADV die_ART Durchschnittszeit_NN greifen_VVINF ._$. Anpassungen_NN sind_VAFIN also_ADV nicht_PTKNEG nötig_ADJD ._$. 

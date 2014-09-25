@@ -1,0 +1,15 @@
+ID: 1933
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: auch make läuft bei mir noch nicht ("/usr/bin/ld: cannot find -lCLeverTrustee"). Die run.sh sagt mir ...
+LANGUAGE: GERMAN
+POS_TAG: value:lCLeverTrustee;weight:0.0;uri:;postag:NN
+POS_TAG: value:ld;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:run;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+auch make läuft bei mir noch nicht ("/usr/bin/ld: cannot find -lCLeverTrustee"). Die run. <LEARNED_PERSON_NAME_REPLACEMENT> sagt mir nicht wirklich viel hilfreiches, was ich ändern kann/sollte.
+TAGGED_CONTENT:
+auch_ADV make_FM läuft_VVFIN bei_APPR mir_PPER noch_ADV nicht_PTKNEG -LRB-_TRUNC "_$( \/_CARD usr\/bin\/ld_NN :_$. can_VAFIN not_ADJD find_ADJD -_$( lCLeverTrustee_NN "_$( -RRB-_TRUNC ._$. Die_ART run_NN ._$. <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_CARD sagt_VVFIN mir_PPER nicht_PTKNEG wirklich_ADJD viel_ADV hilfreiches_ADJA ,_$, was_PWS ich_PPER ändern_VVINF kann\/sollte_VVFIN ._$. 

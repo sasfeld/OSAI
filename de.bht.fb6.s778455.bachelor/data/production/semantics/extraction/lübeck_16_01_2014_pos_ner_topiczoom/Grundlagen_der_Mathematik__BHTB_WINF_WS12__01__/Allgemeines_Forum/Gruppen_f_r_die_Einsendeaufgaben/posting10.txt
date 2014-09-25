@@ -1,0 +1,16 @@
+ID: 172235
+CREATION_DATETIME: 1350588377
+MODIFICATION_DATETIME: 1350588377
+TITLE: Re: Gruppen für die Einsendeaufgaben
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Suche;weight:0.0;uri:;postag:NN
+POS_TAG: value:Leute;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 171815
+CONTENT:
+Hey Leute,
+bin auch noch ohne Gruppe. Sonst noch jemand auf der Suche?
+Grüße
+Argirios
+TAGGED_CONTENT:
+Hey_NE Leute_NN ,_$, bin_VAFIN auch_ADV noch_ADV ohne_APPR Gruppe_NN ._$. Sonst_ADV noch_ADV jemand_PIS auf_APPR der_ART Suche_NN ?_$. Grüße_NN Argirios_NE 

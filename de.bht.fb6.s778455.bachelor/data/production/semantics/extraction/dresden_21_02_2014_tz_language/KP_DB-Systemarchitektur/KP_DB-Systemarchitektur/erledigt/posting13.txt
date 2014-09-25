@@ -1,0 +1,21 @@
+ID: 2025
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: ich habe jetzt erstmal eine gemergte Version der bisher vorhandenen Folien eingecheckt. 
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:5.00870710783694;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+ich habe jetzt erstmal eine gemergte Version der bisher vorhandenen Folien eingecheckt. 
+
+Ich habe ein paar <NAME_CORPUS_REPLACEMENT> <REMOVED_PERSON_ENTITY>' Folien für die Motivation genutzt.
+
+Wir sollten uns noch auf eine einhetliche Sprache einigen (bisher sind einige Folien auf Deutsch, manche auf Englisch). Den Ausblick/Todo habe ich noch offen gelassen, wollen wir das auch Arbeitspaketweise handhaben? ich denke das ist ganz sinnvoll. Es fehlen jetzt noch die Folien für den CLeverTrustee und für die Devices. Inhaltlich habe ich, außer offensichtliche Rechtschreibfehler, nichts geändert, nur alles ins Layout eingepasst. 
+
+Die Reihenfolge müssten wir dann noch richtig einbauen, wenn alle Folien vorbereitet sind. 
+
+Die Motivation können wir gern auch noch komplett ändern, war nur die Idee, das vielleicht so aufzusetzen.
+TAGGED_CONTENT:

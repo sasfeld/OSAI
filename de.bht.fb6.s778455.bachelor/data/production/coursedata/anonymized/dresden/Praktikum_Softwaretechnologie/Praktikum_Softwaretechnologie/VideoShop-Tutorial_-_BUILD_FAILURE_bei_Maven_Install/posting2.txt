@@ -1,0 +1,14 @@
+ID: 2745
+CREATION_DATETIME: 1383951600000
+MODIFICATION_DATETIME: 1384038000000
+TITLE: Try to open the jar with a Zip utility (7Zip ou something else).
+
+If it fails, delete the file from...
+PARENT_POSTING_ID: 2743
+POSTING_TYPE: answer
+CONTENT:
+Try to open the jar with a Zip utility (7Zip or something else).
+If it fails, delete the file from your local repository, and retry to run your app.
+If it fails again, then you <NAME_CORPUS_REPLACEMENT> have an issue with your Maven repos config.
+via http://stackoverflow.com/questions/10085045/maven-build-failure-cannot-read-zip-file-entry
+TAGGED_CONTENT:

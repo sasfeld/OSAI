@@ -1,0 +1,86 @@
+ID: 1429
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1362870000000
+TITLE: Das Makefile sieht nicht vor, dass man die Programme mit GDB debuggen kann. Du musst am besten in dei...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Fortpflanzungsmedizinische Dienstleistungen;weight:3.0;significance:9.53141213642543;degreegeneralization:7;uri:21997620
+TOPIC_ZOOM_TAG: value:In-Vitro-Fertilisation;weight:3.0;significance:9.53141213642543;degreegeneralization:8;uri:20738906
+TOPIC_ZOOM_TAG: value:Präimplantationsdiagnostik;weight:3.0;significance:9.53141213642543;degreegeneralization:9;uri:20073475
+TOPIC_ZOOM_TAG: value:Medizinethik;weight:3.0;significance:7.80447331667993;degreegeneralization:4;uri:20884120
+TOPIC_ZOOM_TAG: value:Wissenschaftsethik;weight:3.0;significance:7.7329906818267;degreegeneralization:4;uri:20079340
+TOPIC_ZOOM_TAG: value:Medizinrecht;weight:3.0;significance:7.66773214908442;degreegeneralization:4;uri:20806753
+TOPIC_ZOOM_TAG: value:Reproduktionsmedizin;weight:3.0;significance:7.0595344869222;degreegeneralization:6;uri:20991679
+TOPIC_ZOOM_TAG: value:Rechtsethik;weight:3.0;significance:6.74623308639721;degreegeneralization:4;uri:20111640
+TOPIC_ZOOM_TAG: value:Medizinische Dienstleistungen und Services;weight:3.0;significance:5.52108148838734;degreegeneralization:6;uri:20991577
+TOPIC_ZOOM_TAG: value:Gesundheitsfürsorge;weight:3.0;significance:5.12521408828642;degreegeneralization:6;uri:21997756
+TOPIC_ZOOM_TAG: value:Ethik und Moral;weight:3.0;significance:5.03781372609446;degreegeneralization:3;uri:21310820
+TOPIC_ZOOM_TAG: value:Services und Dienstleistungen im Bereich Gesundheit;weight:3.0;significance:4.99411204500148;degreegeneralization:5;uri:20991594
+TOPIC_ZOOM_TAG: value:Heilung und Therapie;weight:3.0;significance:4.27639071629767;degreegeneralization:3;uri:20911354
+TOPIC_ZOOM_TAG: value:Recht und Justiz im Bereich Wirtschaft;weight:3.0;significance:4.01133415668358;degreegeneralization:3;uri:21944053
+TOPIC_ZOOM_TAG: value:Medizinische Wissenschaften;weight:3.0;significance:3.38408452799918;degreegeneralization:4;uri:21997586
+TOPIC_ZOOM_TAG: value:Humanmedizin;weight:3.0;significance:3.23074908466355;degreegeneralization:4;uri:21994033
+TOPIC_ZOOM_TAG: value:Religion und Weltanschauung;weight:3.0;significance:3.20296200360249;degreegeneralization:2;uri:21310871
+TOPIC_ZOOM_TAG: value:Services und Dienstleistungen;weight:3.0;significance:3.17210523444812;degreegeneralization:4;uri:21993506
+TOPIC_ZOOM_TAG: value:Medizin;weight:3.0;significance:3.08844000430838;degreegeneralization:3;uri:21981606
+TOPIC_ZOOM_TAG: value:Gesundheit;weight:3.0;significance:2.66023448072038;degreegeneralization:2;uri:21997569
+TOPIC_ZOOM_TAG: value:Konsolen;weight:1.0;significance:2.36261324430311;degreegeneralization:6;uri:20900202
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:4.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:3.0;significance:1.98832276080247;degreegeneralization:2;uri:21999830
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:3.0;significance:1.35344665293995;degreegeneralization:2;uri:21999847
+TOPIC_ZOOM_TAG: value:Maschinen, Geräte und Apparate;weight:1.0;significance:1.18627236214874;degreegeneralization:4;uri:21993336
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:0.663149604892832;degreegeneralization:3;uri:21925999
+NER_TAG: value:PID;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:PID;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:PID;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Programm;weight:0.0;uri:;postag:NN
+POS_TAG: value:PID;weight:0.0;uri:;postag:NN
+POS_TAG: value:Eingabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ausgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Starten;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Konsole;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beispiel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Programms;weight:0.0;uri:;postag:NN
+POS_TAG: value:Punkt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeile;weight:0.0;uri:;postag:NN
+POS_TAG: value:Programme;weight:0.0;uri:;postag:NN
+POS_TAG: value:Makefile;weight:0.0;uri:;postag:NN
+POS_TAG: value:Prozess;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1427
+POSTING_TYPE: answer
+CONTENT:
+Das Makefile sieht nicht vor, dass man die Programme mit GDB debuggen kann. Du musst am besten in deinem Programm einen Punkt einsetzen an dem es auf Eingabe wartet. Danach kannst du dich auf einer konsole mit dem GDB an den Prozess anhaengen. <NAME_CORPUS_REPLACEMENT> ich nicht weiss, welches Programm du hast nehme ich einfach mal khala als Beispiel.
+
+Du fuerhst als erstes
+
+```bash
+
+make run
+
+```
+
+ganz normal aus. Sobald der <REMOVED_PERSON_ENTITY> (ich nehme einfach mal den example-player) auf die Eingabe wartet kannst du auf einer weiteren Konsole mittels `ps aux | grep example-player` die PID (Prozess ID) des Programms finden. Bei mir sieht die Ausgabe so aus:
+
+```ruby
+
+<NAME_CORPUS_REPLACEMENT>    3527  0. 0  0. 0  12356   824 pts/2    S+   13:44   0:00 ./mcp example-player example-player
+
+<NAME_CORPUS_REPLACEMENT>    3528  0. 0  0. 0  12352   824 pts/2    S+   13:44   0:00 example-player
+
+<NAME_CORPUS_REPLACEMENT>    3529  0. 0  0. 0  12352   152 pts/2    T+   13:44   0:00 ./mcp example-player example-player
+
+<NAME_CORPUS_REPLACEMENT>    3531  0. 0  0. 0   8940   664 pts/0    S+   13:44   0:00 grep --colour=auto exampl
+
+```
+
+Der Prozess in Zeile 2 mit der PID 3528 ist der Prozess den wir suchen.
+
+Die vorderste <REMOVED_PERSON_ENTITY>, 3528 ist die PID des Programms example-player.
+
+Jetzt kannst du dich mit GDB durch Eingabe <NAME_CORPUS_REPLACEMENT> `gdb --pid 3528` (ersetze 3528 durch deine PID) an den Prozess haengen und ganz normal debuggen. Der Prozess wird dazu beim Starten <NAME_CORPUS_REPLACEMENT> gdb mit SIGSTOP gestoppt. Zum Beispiel kannst du mit `break 19` den example-player in Zeile 19 anhalten. 
+
+Du musst nur beachten, dass das Programm <LEARNED_PERSON_NAME_REPLACEMENT> schon gestartet ist, du also nicht `run` sondern `continue` eintippen musst, wenn du fortfahren willst.
+
+Ich hoffe das hilft dir!
+TAGGED_CONTENT:
+Das_ART Makefile_NN sieht_VVFIN nicht_PTKNEG vor_PTKVZ ,_$, dass_KOUS man_PIS die_ART Programme_NN mit_APPR GDB_NE debuggen_VVINF kann_VMFIN ._$. Du_PPER musst_VMFIN am_PTKA besten_ADJD in_APPR deinem_ADJA Programm_NN einen_ART Punkt_NN einsetzen_VVINF an_APPR dem_ART es_PPER auf_APPR Eingabe_NN wartet_VVFIN ._$. Danach_PROAV kannst_VMFIN du_PPER dich_PRF auf_APPR einer_ART konsole_ADJA mit_APPR dem_ART GDB_NE an_APPR den_ART Prozess_NN anhaengen_VVINF ._$. <_XY NAME_CORPUS_REPLACEMENT_NN >_VVFIN ich_PPER nicht_PTKNEG weiss_VVFIN ,_$, welches_PRELS Programm_NN du_PPER hast_VAFIN nehme_VVFIN ich_PPER einfach_ADV mal_ADV khala_ADJD als_KOKOM Beispiel_NN ._$. Du_PPER fuerhst_VVFIN als_APPR erstes_ADJA ``_NN `_CARD bash_FM make_FM run_FM ``_FM `_FM ganz_ADV normal_ADJD aus_PTKVZ ._$. Sobald_KOUS der_ART <_NN REMOVED_PERSON_ENTITY_NE >_NE -LRB-_TRUNC ich_PPER nehme_VVFIN einfach_ADV mal_ADV den_ART example-player_ADJA -RRB-_TRUNC auf_APPR die_ART Eingabe_NN wartet_VVFIN kannst_VMFIN du_PPER auf_APPR einer_ART weiteren_ADJA Konsole_NN mittels_APPR `_CARD ps_FM aux_FM |_FM grep_FM example-player_FM `_FM die_ART PID_NE -LRB-_TRUNC Prozess_NN ID_NE -RRB-_TRUNC des_ART Programms_NN finden_VVINF ._$. Bei_APPR mir_PPER sieht_VVFIN die_ART Ausgabe_NN so_ADV aus_PTKVZ :_$. ``_CARD `_CARD ruby_CARD <_CARD NAME_CORPUS_REPLACEMENT_NN >_CARD 3527_CARD 0_CARD ._$. 0_CARD 0_CARD ._$. 0_CARD 12356_CARD 824_CARD pts\/2_XY S_XY +_XY 13_CARD ,_$, 44_CARD 0_CARD ,_$, 00_CARD ._$. \/_XY mcp_XY example-player_ADJA example-player_ADJA <_NN NAME_CORPUS_REPLACEMENT_NE >_CARD 3528_CARD 0_CARD ._$. 0_CARD 0_CARD ._$. 0_CARD 12352_CARD 824_CARD pts\/2_XY S_XY +_XY 13_CARD ,_$, 44_CARD 0_CARD ,_$, 00_CARD example-player_ADJA <_NN NAME_CORPUS_REPLACEMENT_NE >_CARD 3529_CARD 0_CARD ._$. 0_CARD 0_CARD ._$. 0_CARD 12352_CARD 152_CARD pts\/2_XY T_XY +_XY 13_CARD ,_$, 44_CARD 0_CARD ,_$, 00_CARD ._$. \/_XY mcp_XY example-player_ADJA example-player_ADJA <_NN NAME_CORPUS_REPLACEMENT_NE >_CARD 3531_CARD 0_CARD ._$. 0_CARD 0_CARD ._$. 0_CARD 8940_CARD 664_CARD pts\/0_CARD S_XY +_XY 13_CARD ,_$, 44_CARD 0_CARD ,_$, 00_CARD grep_ADJD --_-- color_XY =_XY auto_FM exampl_FM ``_FM `_FM Der_ART Prozess_NN in_APPR Zeile_NN 2_CARD mit_APPR der_ART PID_NE 3528_CARD ist_VAFIN der_ART Prozess_NN den_ART wir_PPER suchen_VVFIN ._$. Die_ART vorderste_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_NE ,_$, 3528_CARD ist_VAFIN die_ART PID_NN des_ART Programms_NN example-player_ADJA ._$. Jetzt_ADV kannst_VMFIN du_PPER dich_PRF mit_APPR GDB_NE durch_APPR Eingabe_NN <_CARD NAME_CORPUS_REPLACEMENT_NN >_CARD `_XY gdb_ITJ --_-- pid_XY 3528_CARD `_XY -LRB-_TRUNC ersetze_VVFIN 3528_CARD durch_APPR deine_PPOSAT PID_NN -RRB-_TRUNC an_APPR den_ART Prozess_NN haengen_VVFIN und_KON ganz_ADV normal_ADJD debuggen_VVINF ._$. Der_ART Prozess_NN wird_VAFIN dazu_PROAV beim_APPRART Starten_NN <_CARD NAME_CORPUS_REPLACEMENT_NN >_VVFIN gdb_NE mit_APPR SIGSTOP_NE gestoppt_VVPP ._$. Zum_APPRART Beispiel_NN kannst_VMFIN du_PPER mit_APPR `_CARD break_VVFIN 19_CARD `_XY den_ART example-player_ADJA in_APPR Zeile_NN 19_CARD anhalten_VVINF ._$. Du_PPER musst_VVFIN nur_ADV beachten_VVINF ,_$, dass_KOUS das_ART Programm_NN <_CARD LEARNED_PERSON_NAME_REPLACEMENT_NN >_VVFIN schon_ADV gestartet_VVPP ist_VAFIN ,_$, du_PPER also_ADV nicht_PTKNEG `_ADJD run_KON `_ADJD sondern_KON `_ADJD continue_ADJA `_NN eintippen_VVINF musst_VAFIN ,_$, wenn_KOUS du_PPER fortfahren_VVINF willst_VMFIN ._$. Ich_PPER hoffe_VVFIN das_PDS hilft_VVFIN dir_PPER !_$. 

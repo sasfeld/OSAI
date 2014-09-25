@@ -1,0 +1,15 @@
+ID: 23
+CREATION_DATETIME: 1176570720000
+MODIFICATION_DATETIME: 1176570720000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 22
+CONTENT:
+
+Vielen Dank!
+So hab ich es auch gemacht, war mir aber nicht mehr sicher ob das so richtig ist. Aber wie wir gelernt haben, können Applets ja nur von dem Host lesen, auf dem sie ausgeführt werden ;)
+
+Grüße
+
+    
+TAGGED_CONTENT:

@@ -1,0 +1,16 @@
+ID: 1952
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Die Frage bezieht sich eben darauf, wie man verdeckte Kanten und Punkte erkennt. Also deine Antwort h...
+LANGUAGE: GERMAN
+POS_TAG: value:Antwort;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kanten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Punkte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1950
+POSTING_TYPE: comment
+CONTENT:
+Die Frage bezieht sich eben darauf, wie man verdeckte Kanten und Punkte erkennt. Also deine Antwort hilft mir sehr! :) Vielen vielen Dank!
+TAGGED_CONTENT:
+Die_ART Frage_NN bezieht_VVFIN sich_PRF eben_ADV darauf_PROAV ,_$, wie_PWAV man_PIS verdeckte_ADJA Kanten_NN und_KON Punkte_NN erkennt_VVFIN ._$. Also_ADV deine_PPOSAT Antwort_NN hilft_VVFIN mir_PPER sehr_ADV !_$. :-RRB-_XY Vielen_PIS vielen_PIDAT Dank_NN !_$. 

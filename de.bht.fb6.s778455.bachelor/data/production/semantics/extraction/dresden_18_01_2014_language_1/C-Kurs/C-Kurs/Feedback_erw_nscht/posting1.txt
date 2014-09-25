@@ -1,0 +1,16 @@
+ID: 549
+CREATION_DATETIME: 1351288800000
+MODIFICATION_DATETIME: 1381874400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+## Wir wollen eure Meinung hören ##
+
+Wie gefiel euch der Kurs?  
+
+Was können wir besser machen?  
+
+Was ist unklar geblieben?  
+TAGGED_CONTENT:

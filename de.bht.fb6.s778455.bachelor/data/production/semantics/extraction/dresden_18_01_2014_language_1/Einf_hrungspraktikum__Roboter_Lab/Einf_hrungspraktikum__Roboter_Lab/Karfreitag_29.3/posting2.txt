@@ -1,0 +1,12 @@
+ID: 1066
+CREATION_DATETIME: 1358550000000
+MODIFICATION_DATETIME: 1358550000000
+TITLE: Nein Karfreitag ist frei, es geht also im 2. Durchgang nur bis zum 28.3.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1064
+POSTING_TYPE: answer
+CONTENT:
+Nein Karfreitag ist frei, es geht also im 2. Durchgang nur bis zum 28. 3.
+
+Der erste Durchgang geht dann auch nur bis <REMOVED_PERSON_ENTITY>, damit es fair ist.
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1109
+CREATION_DATETIME: 1360537200000
+MODIFICATION_DATETIME: 1360537200000
+TITLE: Danke, ich hab das jetzt irgendwie hinbekommen. :)
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1105
+POSTING_TYPE: comment
+CONTENT:
+Danke, ich hab das jetzt irgendwie hinbekommen. :)
+TAGGED_CONTENT:

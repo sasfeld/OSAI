@@ -1,0 +1,10 @@
+ID: 951
+CREATION_DATETIME: 1354748400000
+MODIFICATION_DATETIME: 1354748400000
+TITLE: Das ganze wird schon über echo $variable ausgegeben. Im Chrome siehts genauso aus. Ich kann den Fehle...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 945
+POSTING_TYPE: comment
+CONTENT:
+Das ganze wird schon über echo $variable ausgegeben. Im Chrome siehts genauso aus. Ich kann den Fehler schon nachvollziehen, aber nicht wirklich fixen.
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 1795
+CREATION_DATETIME: 1368396000000
+MODIFICATION_DATETIME: 1368396000000
+TITLE: Mehrere Kernel im Programmfluss brauchen wir am Anfang nicht. Es ist ein "nice to have" feature, fall...
+PARENT_POSTING_ID: 1794
+POSTING_TYPE: comment
+CONTENT:
+Mehrere Kernel im Programmfluss brauchen wir am Anfang nicht. Es ist ein "nice to have" feature, falls wir am Ende noch Zeit haben.
+TAGGED_CONTENT:

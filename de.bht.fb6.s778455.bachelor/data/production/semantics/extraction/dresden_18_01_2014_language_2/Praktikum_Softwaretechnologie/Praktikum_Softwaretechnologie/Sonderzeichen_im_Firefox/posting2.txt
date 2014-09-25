@@ -1,0 +1,26 @@
+ID: 3016
+CREATION_DATETIME: 1385334000000
+MODIFICATION_DATETIME: 1385334000000
+TITLE: Schau mal ob du das so in deiner `/src/main/resources/application.properties` stehen hast.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3015
+POSTING_TYPE: answer
+CONTENT:
+Schau mal ob du das so in deiner `/src/main/resources/application. properties` stehen hast.
+
+```
+
+spring. thymeleaf. prefix=/templates/
+
+spring. thymeleaf. suffix=. html
+
+spring. thymeleaf. mode=HTML5
+
+spring. thymeleaf. encoding=UTF-8
+
+spring. thymeleaf. cache=false
+
+```
+
+Keine Ahnung ob es daran liegen könnte, die Datei hatte zur Veröffentlichung einen Fehler, aber dennoch hat es bei mir und anderen richtig funktioniert.
+TAGGED_CONTENT:

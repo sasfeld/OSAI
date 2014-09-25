@@ -1,0 +1,10 @@
+ID: 1299
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Wir wollen, dass du selber das komplette Spiel implementierst. Leider muss der MCP aber auch irgendwi...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1297
+POSTING_TYPE: answer
+CONTENT:
+Wir wollen, dass du selber das komplette Spiel implementierst. Leider muss der MCP aber auch irgendwie die Spielzüge ausführen und auf die Regeln abklopfen, deswegen gibt es u. a. die Funktion ```apply_move```. Du musst für deinen <REMOVED_PERSON_ENTITY> entsprechende Funktionalität selbst implementieren!
+TAGGED_CONTENT:

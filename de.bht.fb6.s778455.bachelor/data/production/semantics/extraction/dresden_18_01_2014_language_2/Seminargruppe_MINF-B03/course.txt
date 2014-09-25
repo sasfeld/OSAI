@@ -1,0 +1,8 @@
+ID: 110804123
+CREATION_DATETIME: 1350424800000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Seminargruppe MINF-B03
+LANGUAGE: UNKNOWN
+SUMMARY: Die Seminargruppe MINF-B03 betreffende, allgemeine Fragen und Anliegen können hier eingetragen werden.

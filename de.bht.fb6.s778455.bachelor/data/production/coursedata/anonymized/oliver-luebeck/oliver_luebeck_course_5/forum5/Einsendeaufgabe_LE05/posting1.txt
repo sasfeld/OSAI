@@ -1,0 +1,14 @@
+ID: 59
+CREATION_DATETIME: 1193923620000
+MODIFICATION_DATETIME: 1193923620000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo, versuche mich gerade an der 2. Einsendeaufgabe.
+Komme mit dem vorgegebenen Konstruktor nicht klar. Wozu braucht man denn das increment? ArrayList hat das ja auch nicht. Wenn ein Element dazu kommt wird doch einfach size um 1 erhöht, oder?
+
+Viele Grüße
+	
+TAGGED_CONTENT:

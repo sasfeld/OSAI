@@ -1,0 +1,9 @@
+ID: 871
+CREATION_DATETIME: 1353970800000
+MODIFICATION_DATETIME: 1353970800000
+TITLE: Die [Veranstaltung kannst du gern hier anlegen](https://auditorium.inf.tu-dresden.de/lectures/new). u...
+PARENT_POSTING_ID: 868
+POSTING_TYPE: comment
+CONTENT:
+Die [Veranstaltung kannst du gern hier anlegen](https://auditorium. inf. tu-dresden. de/lectures/new). und dann kann deine Frage dorthin verschoben werden, indem du deine Ausgangsfrage einfach bearbeitest und den neuen Kurs auswählst. Aber es ist besser deine Frage nochmal zu stellen, denn vllt. hat jemand anderes genau das gleiche Problem bei IS. 
+TAGGED_CONTENT:

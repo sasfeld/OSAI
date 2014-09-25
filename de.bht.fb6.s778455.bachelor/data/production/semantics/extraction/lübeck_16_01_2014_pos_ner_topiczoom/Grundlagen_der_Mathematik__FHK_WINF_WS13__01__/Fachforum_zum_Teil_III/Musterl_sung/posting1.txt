@@ -1,0 +1,13 @@
+ID: 261025
+CREATION_DATETIME: 1385994678
+MODIFICATION_DATETIME: 1385994678
+TITLE: Musterlösung
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Leute;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einsendeaufgabe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Leute,
+<REMOVED_PERSON_ENTITY>REMOVED_PERSON_ENTITY> meinte, dass ich meine <REMOVED_PERSON_ENTITY> der Einsendeaufgabe als Musterlösung hier stellen kann. Also hier ist sie. <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ Leute_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE REMOVED_PERSON_ENTITY_NE >_CARD meinte_VVFIN ,_$, dass_KOUS ich_PPER meine_PPOSAT <_NN REMOVED_PERSON_ENTITY_NE >_VVFIN der_ART Einsendeaufgabe_NN als_APPR Musterlösung_NN hier_ADV stellen_VVINF kann_VMFIN ._$. Also_ADV hier_ADV ist_VAFIN sie_PPER ._$. <_XY REMOVED_PERSON_ENTITY_NE >_XY 

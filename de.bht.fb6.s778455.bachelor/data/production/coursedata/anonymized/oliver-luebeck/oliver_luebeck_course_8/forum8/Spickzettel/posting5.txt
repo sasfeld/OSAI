@@ -1,0 +1,14 @@
+ID: 77
+CREATION_DATETIME: 1201681980000
+MODIFICATION_DATETIME: 1201681980000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 76
+CONTENT:
+ 
+Liebe , liebe Studierende,
+
+falls das 4. Blatt für ein besseres Gefühl bringt, ist es OK.
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

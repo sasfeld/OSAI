@@ -1,0 +1,10 @@
+ID: 117564
+CREATION_DATETIME: 1327425346
+MODIFICATION_DATETIME: 1327425346
+TITLE: Re: Probeklausur
+POS_TAG: value:Posting;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117560
+CONTENT:
+sorry, das ist so korrekt! s. Posting oben.
+TAGGED_CONTENT:
+sorry_ADV ,_$, das_PDS ist_VAFIN so_ADV korrekt_ADJD !_$. s._VVIMP Posting_NN oben_ADV ._$. 

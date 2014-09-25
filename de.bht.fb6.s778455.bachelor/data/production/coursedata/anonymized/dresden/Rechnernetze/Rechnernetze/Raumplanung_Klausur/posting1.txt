@@ -1,0 +1,10 @@
+ID: 2347
+CREATION_DATETIME: 1374184800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Raumplanung für die Klausur ist jetzt online:
+http://www.inf.tu-dresden. de/index. php?node_id=2568&ln=de&lv_id=1
+TAGGED_CONTENT:

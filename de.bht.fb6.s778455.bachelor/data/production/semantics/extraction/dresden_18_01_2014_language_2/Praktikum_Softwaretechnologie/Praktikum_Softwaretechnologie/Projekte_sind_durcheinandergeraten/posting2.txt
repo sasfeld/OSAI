@@ -1,0 +1,14 @@
+ID: 2825
+CREATION_DATETIME: 1384210800000
+MODIFICATION_DATETIME: 1384210800000
+TITLE: Das sollte eigentlich gar nicht gehen, da beide Applikationen by default einen Server auf Port 8080 s...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2823
+POSTING_TYPE: answer
+CONTENT:
+Das sollte eigentlich gar nicht gehen, <NAME_CORPUS_REPLACEMENT> beide Applikationen by default einen Server auf Port 8080 starten und du beim Start des zweiten Projektes eine Fehlermeldung ála "Address already in use" bekommen solltest.
+
+Wenn du beide Applikationen parallel laufen lassen willst, musst du zumindest in einer <NAME_CORPUS_REPLACEMENT> beiden den Port abändern. Dazu gehst du z. B. in BlankWeb in die `application. properties` in `src/main/resources` und setzt dort eine Property `server. port` auf z. B. 8081. Dann startet BlankWeb auf eben diesem Port und du kannst es unter `http://localhost:8081` sehen. Der VideoShop sollte weiter auf `http://localhost:8080` erreichbar sein.
+
+Bzgl. des Mischmasch: kann es evtl. sein, dass du Dateien <NAME_CORPUS_REPLACEMENT> dem einen Projekt ins andere kopiert hast?
+TAGGED_CONTENT:

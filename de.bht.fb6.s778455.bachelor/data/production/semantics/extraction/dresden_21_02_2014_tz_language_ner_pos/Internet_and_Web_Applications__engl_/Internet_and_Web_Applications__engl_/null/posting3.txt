@@ -1,0 +1,18 @@
+ID: 1730
+CREATION_DATETIME: 1366063200000
+MODIFICATION_DATETIME: 1366063200000
+TITLE: Das Modul INF-PM-ANW beinhaltet aber zusätzlich noch 60 Stunden Selbststudium. D.h. man benötigt scho...
+LANGUAGE: GERMAN
+NER_TAG: value:IWA;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Modul;weight:0.0;uri:;postag:NN
+POS_TAG: value:Selbststudium;weight:0.0;uri:;postag:NN
+POS_TAG: value:Stunden;weight:0.0;uri:;postag:NN
+POS_TAG: value:Themenbereich;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Thema;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1690
+POSTING_TYPE: answer
+CONTENT:
+Das Modul INF-PM-ANW beinhaltet aber zusätzlich noch 60 Stunden Selbststudium. D. h. man benötigt schon ein konkreteres Thema, in das man sich vertiefen muss. Ich denke, das sollte sich aus dem Themenbereich <NAME_CORPUS_REPLACEMENT> IWA auch finden lassen. Die Frage wäre dann nur, wer dieses Selbststudium betreut oder das konkrete Thema vorgibt.
+TAGGED_CONTENT:
+Das_ART Modul_NN INF-PM-ANW_NE beinhaltet_VVFIN aber_ADV zusätzlich_ADJD noch_ADV 60_CARD Stunden_NN Selbststudium_NN ._$. D._NE h._VVFIN man_PIS benötigt_VVFIN schon_ADV ein_ART konkreteres_ADJA Thema_NN ,_$, in_APPR das_PRELS man_PIS sich_PRF vertiefen_VVINF muss_VMFIN ._$. Ich_PPER denke_VVFIN ,_$, das_ART sollte_VMFIN sich_PRF aus_APPR dem_ART Themenbereich_NN <_CARD NAME_CORPUS_REPLACEMENT_NE >_NE IWA_NE auch_ADV finden_VVINF lassen_VVINF ._$. Die_ART Frage_NN wäre_VAFIN dann_ADV nur_ADV ,_$, wer_PWS dieses_PDAT Selbststudium_NN betreut_VVFIN oder_KON das_ART konkrete_ADJA Thema_NN vorgibt_VVFIN ._$. 

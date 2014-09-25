@@ -1,0 +1,15 @@
+ID: 16505
+CREATION_DATETIME: 1224624907
+MODIFICATION_DATETIME: 1224624907
+TITLE: Kursplanupdate und 1. Einsendeaufgabe
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:Abwicklung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Informationen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einsendeaufgaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:MfG;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einsendeaufgabe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Sie alle, der Kursplan wurde leicht aktualisiert und Informationen zur Abwicklung der Einsendeaufgaben und die erste Einsendeaufgabe wurden veröffentlicht. MfG, al.
+TAGGED_CONTENT:
+Hallo_ITJ Sie_PPER alle_PIS ,_$, der_PRELS Kursplan_NE wurde_VAFIN leicht_ADJD aktualisiert_VVPP und_KON Informationen_NN zur_APPRART Abwicklung_NN der_ART Einsendeaufgaben_NN und_KON die_ART erste_ADJA Einsendeaufgabe_NN wurden_VAFIN veröffentlicht_VVPP ._$. MfG_NN ,_$, al._ADV ._$. 

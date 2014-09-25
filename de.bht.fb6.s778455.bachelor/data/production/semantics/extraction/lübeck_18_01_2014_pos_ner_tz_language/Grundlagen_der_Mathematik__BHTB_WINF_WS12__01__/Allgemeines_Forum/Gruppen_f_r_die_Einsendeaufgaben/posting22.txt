@@ -1,0 +1,12 @@
+ID: 173163
+CREATION_DATETIME: 1350890181
+MODIFICATION_DATETIME: 1350890181
+TITLE: Re: Gruppen für die Einsendeaufgaben
+LANGUAGE: GERMAN
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Morgen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 171815
+CONTENT:
+Guten Morgen, ich suche auch noch eine Gruppe. MfG
+TAGGED_CONTENT:
+Guten_ADJA Morgen_NN ,_$, ich_PPER suche_VVFIN auch_ADV noch_ADV eine_ART Gruppe_NN ._$. MfG_XY 

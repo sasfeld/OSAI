@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2249" moduleid="12189" modulename="forum" contextid="18099">
+  <forum id="2249">
+    <type>news</type>
+    <name>News forum</name>
+    <intro>General news and announcements</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>1</scale>
+    <maxbytes>0</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1185445767</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="6471">
+        <name>Klausurevaluationen</name>
+        <firstpost>16497</firstpost>
+        <userid>2537</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1235684792</timemodified>
+        <usermodified>2537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16497">
+            <parent>0</parent>
+            <userid>2537</userid>
+            <created>1235684792</created>
+            <modified>1235684792</modified>
+            <mailed>1</mailed>
+            <subject>Klausurevaluationen</subject>
+            <message>&lt;br /&gt; Hallo Sie alle,&lt;br /&gt; &lt;br /&gt; ich habe inzwischen 3 Klausuren evaluiert, benotet und eingetragen.&lt;br /&gt; &lt;br /&gt; Die nächsten 2 die jetzt anstehen sind:&lt;br /&gt; &lt;br /&gt; Wirtschaftsinformatik-Online: Grundlagen der Mathematik&lt;br /&gt; Medieninformatik-Online: Betriebssysteme 1&lt;br /&gt; &lt;br /&gt; Eine Klausureinsicht wird möglich sein.&lt;br /&gt; &lt;br /&gt; Mit freundlichen Grüßen,&lt;br /&gt; A. Ludwig.&lt;br /&gt;&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6473">
+        <name>Begrüßung und Organisatorisches</name>
+        <firstpost>16499</firstpost>
+        <userid>2537</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1221233148</timemodified>
+        <usermodified>2537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16499">
+            <parent>0</parent>
+            <userid>2537</userid>
+            <created>1221232248</created>
+            <modified>1221233148</modified>
+            <mailed>1</mailed>
+            <subject>Begrüßung und Organisatorisches</subject>
+            <message> &lt;br /&gt;Hallo Sie alle,&lt;br /&gt;&lt;br /&gt;hiermit begrüße ich Sie alle zur Ihrer Veranstaltung &amp;quot;Grundlagen der Mathematik&amp;quot;.&lt;br /&gt;&lt;br /&gt;Kurz zu meiner Person: Ich habe an der TU-Braunschweig Informatik studiert und beschäftige mich schon länger mit E-Learning. Seit 1.10.7 bin ich als Lehrkraft (nicht Professor) an der Fh BS/WF tätig. Allerdings habe ich davor schon im Projekt Virtuelle Fachhochschule mitentwickelt und in Lehraufträgen seit einigen Jahren mehrere Fächer unterrichtet.&lt;br /&gt;&lt;br /&gt;Die Organisation des Moduls ist folgende:&lt;br /&gt;Im News- Forum finden sie wichtige Ankündigungen.&lt;br /&gt;&lt;br /&gt;Im Allgemeinen Forum können Sie modulbezogene oder studienbezogene, z. B. organisatorische Themen diskutieren, ausgenommen die Inhalte des Moduls.&lt;br /&gt;&lt;br /&gt;Im Fachforum können Sie Themen diskutieren, die sich auf Inhalte des Moduls oder Aufgabeninhalte beziehen.&lt;br /&gt;&lt;br /&gt;Bitte benutzen Sie zum Diskutieren die Foren. Bei E-Mails behalte ich mir vor, die gestellte fachliche Frage anonymisiert ins Forum zu posten, weil die Antworten meistens alle interessieren. Also, fragen Sie bitte direkt im Forum.&lt;br /&gt; &lt;br /&gt;Unter Kursplan finden Sie beizeiten wichtige Informationen zu den Inhalten des Moduls und zu einer Empfehlung zur Zeiteinteilung. &lt;br /&gt;&lt;br /&gt;Sie sollten dieses umfangreiche und schwierige Modul weitgehend im Selbststudium erarbeiten. Ziel der Präsenz(en?) ist das Aufarbeiten von schwierigen Fragestellungen, das Bearbeiten von Aufgaben / Vorstellungen von Lösungen und somit das Vertiefen der Inhalte. Dies setzt voraus, dass Sie sich vor den Präsenzen intensiv mit den Inhalten des Moduls auseinandersetzen, da wir in den wenigen Präsenzstunden nicht das Modul durchgehen können.&lt;br /&gt;&lt;br /&gt;Weitere Informationen zu Präsenzen, Einsendeaufgaben, regelmäßigen Videochats und zur Klausur finden Sie zum gegebenen Zeitpunkt in weiteren News-Forums-Beiträgen.&lt;br /&gt;&lt;br /&gt;Willkommen im Kurs,&lt;br /&gt;A. Ludwig. </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6475">
+        <name>Kursplanbaustelle und Videochats</name>
+        <firstpost>16501</firstpost>
+        <userid>2537</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1222086081</timemodified>
+        <usermodified>2537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16501">
+            <parent>0</parent>
+            <userid>2537</userid>
+            <created>1222086081</created>
+            <modified>1222086081</modified>
+            <mailed>1</mailed>
+            <subject>Kursplanbaustelle und Videochats</subject>
+            <message>&lt;br /&gt;Hallo Sie alle,&lt;br /&gt;&lt;br /&gt;die &amp;quot;Kursplanbaustelle&amp;quot; ist jetzt online.&lt;br /&gt;&lt;br /&gt;Darin finden Sie unter anderem die Ankündigung für &lt;br /&gt;regelmäßige Videochats ab morgen.&lt;br /&gt;&lt;br /&gt;Mit freundlichen Gruessen,&lt;br /&gt;A. Ludwig.&lt;br /&gt;&lt;br /&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6477">
+        <name>Kursplanupdate: Ziele eingefügt</name>
+        <firstpost>16503</firstpost>
+        <userid>2537</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1222183561</timemodified>
+        <usermodified>2537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16503">
+            <parent>0</parent>
+            <userid>2537</userid>
+            <created>1222183561</created>
+            <modified>1222183561</modified>
+            <mailed>1</mailed>
+            <subject>Kursplanupdate: Ziele eingefügt</subject>
+            <message>&lt;br /&gt;Hallo Sie alle,&lt;br /&gt;&lt;br /&gt;im Kursplan wurde der Abschnitt Ziele eingefügt.&lt;br /&gt;&lt;br /&gt;MfG, al.&lt;br /&gt;&lt;br /&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6479">
+        <name>Kursplanupdate und 1. Einsendeaufgabe</name>
+        <firstpost>16505</firstpost>
+        <userid>2537</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1224624907</timemodified>
+        <usermodified>2537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16505">
+            <parent>0</parent>
+            <userid>2537</userid>
+            <created>1224624907</created>
+            <modified>1224624907</modified>
+            <mailed>1</mailed>
+            <subject>Kursplanupdate und 1. Einsendeaufgabe</subject>
+            <message>&lt;br /&gt;Hallo Sie alle,&lt;br /&gt;&lt;br /&gt;der Kursplan wurde leicht aktualisiert und Informationen zur Abwicklung der Einsendeaufgaben und die erste Einsendeaufgabe wurden veröffentlicht.&lt;br /&gt;&lt;br /&gt;MfG, al.&lt;br /&gt;&lt;br /&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6481">
+        <name>Offene Präsenz der Medieninformatik</name>
+        <firstpost>16507</firstpost>
+        <userid>2537</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1226005838</timemodified>
+        <usermodified>2537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16507">
+            <parent>0</parent>
+            <userid>2537</userid>
+            <created>1226005838</created>
+            <modified>1226005838</modified>
+            <mailed>1</mailed>
+            <subject>Offene Präsenz der Medieninformatik</subject>
+            <message>&lt;br /&gt;Hallo Sie alle,&lt;br /&gt;&lt;br /&gt;ich hoffe, Sie haben die Ankündigung der offenen Präsenz der&lt;br /&gt;Medieninformatik im Kursplan gesehen.&lt;br /&gt;Offen heisst, dass Sie dort teilnehmen können.&lt;br /&gt;&lt;br /&gt;Mit besten Grüßen,&lt;br /&gt;A. Ludwig.&lt;br /&gt;&lt;br /&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6483">
+        <name>Änderung des Acrobat-Connect-Session-Angebotes</name>
+        <firstpost>16509</firstpost>
+        <userid>2537</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1226936846</timemodified>
+        <usermodified>2537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16509">
+            <parent>0</parent>
+            <userid>2537</userid>
+            <created>1226935001</created>
+            <modified>1226936846</modified>
+            <mailed>1</mailed>
+            <subject>Änderung des Acrobat-Connect-Session-Angebotes</subject>
+            <message> &lt;br /&gt;Hallo Sie alle,&lt;br /&gt;&lt;br /&gt;aus organisatorischen Gründen halte ich eine Änderung meines&lt;br /&gt;Betreuungsangebotes für erforderlich.&lt;br /&gt;&lt;br /&gt;Ich biete die von mir moderierten Acrobat-Connect-Sessions ab &lt;br /&gt;jetzt in 2008 nur noch in den Wochen mit den geradzahligen &lt;br /&gt;Kalenderwochennummern an. &lt;br /&gt;&lt;br /&gt;Dies bedeutet auch, dass diese Woche, KW 47, keine von mir &lt;br /&gt;moderierte Acrobat-Connect-Session angeboten wird.&lt;br /&gt;&lt;br /&gt;Für 2009 erhalten Sie später noch weitere Informationen.&lt;br /&gt;&lt;br /&gt;Die freiwerdende Zeit soll Ihnen über Hausaufgabenkorrektur&lt;br /&gt;und -feedback, bzw. Forenbeiträge zugute kommen.&lt;br /&gt;&lt;br /&gt;Mit freundlichen Grüßen,&lt;br /&gt;A. Ludwig.&lt;br /&gt;&lt;br /&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6485">
+        <name>Präsenz: Freitag, 19.12.2008</name>
+        <firstpost>16511</firstpost>
+        <userid>2537</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1229621964</timemodified>
+        <usermodified>2537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16511">
+            <parent>0</parent>
+            <userid>2537</userid>
+            <created>1229621964</created>
+            <modified>1229621964</modified>
+            <mailed>1</mailed>
+            <subject>Präsenz: Freitag, 19.12.2008</subject>
+            <message>&lt;br /&gt;Hallo Sie alle,&lt;br /&gt;&lt;br /&gt;die morgige Präsenz findet wieder im &lt;br /&gt;Fachbereich Informatik, Am Exer 2 statt.&lt;br /&gt;&lt;br /&gt;Der Raum ist 252 oder Sie finden morgen &lt;br /&gt;anderslautende Hinweise ausgehängt.&lt;br /&gt;&lt;br /&gt;Mit freundlichen Grüßen,&lt;br /&gt;A. Ludwig.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6487">
+        <name>Videochats regelmäßig wöchentlich</name>
+        <firstpost>16513</firstpost>
+        <userid>2537</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1231862366</timemodified>
+        <usermodified>2537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16513">
+            <parent>0</parent>
+            <userid>2537</userid>
+            <created>1231862366</created>
+            <modified>1231862366</modified>
+            <mailed>1</mailed>
+            <subject>Videochats regelmäßig wöchentlich</subject>
+            <message>&lt;br /&gt; Hallo Sie alle,&lt;br /&gt; &lt;br /&gt; die Videochats finden mindestens bis zur Klausur wieder&lt;br /&gt; regelmäßig wöchentlich statt.&lt;br /&gt; &lt;br /&gt; MfG, al.&lt;br /&gt;&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6489">
+        <name>Klausurtermin: Uhrzeit angepasst</name>
+        <firstpost>16515</firstpost>
+        <userid>2537</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1232377567</timemodified>
+        <usermodified>2537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16515">
+            <parent>0</parent>
+            <userid>2537</userid>
+            <created>1232377567</created>
+            <modified>1232377567</modified>
+            <mailed>1</mailed>
+            <subject>Klausurtermin: Uhrzeit angepasst</subject>
+            <message>&lt;br /&gt;Hallo Sie alle,&lt;br /&gt;&lt;br /&gt;habe eben die Uhrzeit des Klausurtermins mit der Terminliste im Fachbereichskurs abgeglichen.&lt;br /&gt;&lt;br /&gt;Irrtümer bleiben vorbehalten. Es gilt nicht dieser Kursplan, sondern die offizielle Prüfungsliste.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Mit freundlichen Grüßen,&lt;br /&gt;A. Ludwig.&lt;br /&gt;&lt;br /&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6491">
+        <name>Erlaubte Klausurhilfsmittel / verbotene Klausurhilfsmittel</name>
+        <firstpost>16517</firstpost>
+        <userid>2537</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1232381348</timemodified>
+        <usermodified>2537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16517">
+            <parent>0</parent>
+            <userid>2537</userid>
+            <created>1232381348</created>
+            <modified>1232381348</modified>
+            <mailed>1</mailed>
+            <subject>Erlaubte Klausurhilfsmittel / verbotene Klausurhilfsmittel</subject>
+            <message>&lt;br /&gt; Hallo Sie alle,&lt;br /&gt; &lt;br /&gt; eigentlich sind ab dieses Semester nur&lt;br /&gt; &lt;br /&gt; 2 Blätter (4 Seiten) selbst erstellte (gemeint ist auch: handschriftliche) Formelsammlung erlaubt.&lt;br /&gt; &lt;br /&gt; Da ich aber aufgrund der anderen Regelung in vorigen Semestern&lt;br /&gt; etwas anderes gesagt habe, wird die Regelung wie folgt angepasst: &lt;br /&gt; &lt;br /&gt; Ich empfehle dringend: 2 Blätter selbst erstellte (handschriftliche) Formelsammlung mitzubringen.&lt;br /&gt; &lt;br /&gt; Scripte und Bücher Lösungen zu Übungsaufgaben etc. dürfen ausnahmsweise mitgebracht werden.&lt;br /&gt; Aber: Ich habe die Klausur gesehen und vermute, dass diejenigen die viel in Büchern, Scripten, Übungsaufgaben, etc. lesen wollen, in Zeitprobleme geraten werden. &lt;br /&gt; Von daher ist es sicher besser wenn man mit dem eigenen Kopf und den erlaubten 2 Blättern selbst erstellter Formelsammlung auskommt. Das &amp;quot;Selbst Erstellen&amp;quot; der Formelsammlung ist sowieso eine gute Übung für die Klausur.&lt;br /&gt; &lt;br /&gt; Sollten mir bei verschiedenen Leuten identische Formelsammlungen auffallen, liegt der Verdacht nahe dass Sie nicht selbst erstellt sind.&lt;br /&gt; &lt;br /&gt; Kommunikative und elektronische Hilfsmittel sind verboten!&lt;br /&gt; Also insbesondere sind Nachbarn und Handies verboten.&lt;br /&gt; Quarz- oder andere elektronische Armbanduhren sind nur dann erlaubt,&lt;br /&gt; wenn Sie nach Uhr aussehen. Bei Verdacht, dass sie auch als Taschenrechner, Datenbank oder anderes nicht &amp;quot;uhrmäßiges&amp;quot; verwendet werden können,&lt;br /&gt; sind Sie verboten. Taschenrechner sind ebenfalls verboten.&lt;br /&gt; &lt;br /&gt; Mit freundlichen Grüßen, &lt;br /&gt; A. Ludwig.&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6493">
+        <name>Korrekturen und Klausurzulassungen</name>
+        <firstpost>16519</firstpost>
+        <userid>2537</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1232383247</timemodified>
+        <usermodified>2537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16519">
+            <parent>0</parent>
+            <userid>2537</userid>
+            <created>1232383247</created>
+            <modified>1232383247</modified>
+            <mailed>1</mailed>
+            <subject>Korrekturen und Klausurzulassungen</subject>
+            <message>Hallo Sie alle,&lt;br /&gt;&lt;br /&gt;es stehen von meiner Seite noch Korrekturen von Einsendeaufgaben aus,&lt;br /&gt;bzw. Benachrichtigungen, ob Sie die Klausurzulassungen erreicht hatten,&lt;br /&gt;oder nicht.&lt;br /&gt;&lt;br /&gt;Die Korrekturen sind ab jetzt in Arbeit mit folgender zeitlicher&lt;br /&gt;Korrekturreihenfolge der Fächer (diese entspricht der zeitlichen &lt;br /&gt;Reihenfolge, in der die Klausuren geschrieben werden):&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;1. Künstliche Intelligenz (MIM)&lt;br /&gt;2. Mathematik 2 (MIB, alte PO)&lt;br /&gt;3. Einführung in die Informatik (MIB)&lt;br /&gt;4. Grundlagen der Programmierung (WINF)&lt;br /&gt;5. Grundlagen der Mathematik (WINF)&lt;br /&gt;6. Betriebssysteme 1 (MIB, alte PO)&lt;br /&gt;&lt;br /&gt;Sollten Sie Ihre Klausur schreiben wollen, Ihr Anmeldungszeitraum &lt;br /&gt;ablaufen, sie von mir noch kein Feedback zur Klaursurzulassung &lt;br /&gt;erhalten haben und die Anmeldefrist ablaufen,&lt;br /&gt;&lt;br /&gt;so melden sich die Wolfenbütteler Studierenden bitte trotzdem an.&lt;br /&gt;&lt;br /&gt;Sollten die Wolfenbütteler Studierenden sich angemeldet haben und &lt;br /&gt;die Klausurzulassung doch nicht erreichen, so klären dass Herr &lt;br /&gt;Prof. Dr. Justen und ich intern; sie werden dann wieder abgemeldet.&lt;br /&gt;&lt;br /&gt;Die Studierenden des Kurses KI (MIM) werden kurzfristig, heute oder&lt;br /&gt;morgen die Benachrichtigung erhalten.&lt;br /&gt;&lt;br /&gt;Mit freundlichen Grüßen,&lt;br /&gt;A. Ludwig.&lt;br /&gt;&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6495">
+        <name>E-Mail-Server Auszeit</name>
+        <firstpost>16521</firstpost>
+        <userid>2537</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1233175872</timemodified>
+        <usermodified>2537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16521">
+            <parent>0</parent>
+            <userid>2537</userid>
+            <created>1233175872</created>
+            <modified>1233175872</modified>
+            <mailed>1</mailed>
+            <subject>E-Mail-Server Auszeit</subject>
+            <message>Hallo Sie alle,&lt;br /&gt; &lt;br /&gt; beachten Sie bitte folgende Information unseres Rechenzentrums:&lt;br /&gt; &lt;br /&gt; &amp;quot;&lt;font color="#ff0000"&gt;&lt;strong&gt;Achtung&lt;/strong&gt;&lt;/font&gt;: Der Mailserver der Hochschule ist wegen Umstellungsarbeiten &lt;br /&gt; vom 30.1.2009 ab 14.00 Uhr bis 02.02.2009 um ca. 7.00 Uhr nicht erreichbar.&amp;quot;&lt;br /&gt; &lt;br /&gt; &lt;br /&gt; Das heißt, dass Sie mich im fraglichen Zeitraum höchstens über Forum, &lt;br /&gt; Acrobat-Connect oder Telefon erreichen können.&lt;br /&gt; &lt;br /&gt; Mit freundlichen Grüßen,&lt;br /&gt; A. Ludwig.&lt;br /&gt;&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6497">
+        <name>Klausurnoten und Klausureneinsicht</name>
+        <firstpost>16523</firstpost>
+        <userid>2537</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1234965613</timemodified>
+        <usermodified>2537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16523">
+            <parent>0</parent>
+            <userid>2537</userid>
+            <created>1234965613</created>
+            <modified>1234965613</modified>
+            <mailed>1</mailed>
+            <subject>Klausurnoten und Klausureneinsicht</subject>
+            <message>&lt;br /&gt; Hallo Sie alle,&lt;br /&gt; &lt;br /&gt; die Korrektur der Grundlagen d. Programmieren-Klausur ist in Arbeit.&lt;br /&gt;Dann kommt Grundlagen der Mathematik an die Reihe. Die Noten &lt;br /&gt;stehen noch nicht fest.&lt;br /&gt; &lt;br /&gt; Bitte machen Sie sich keine Sorgen wegen der Klausureneinsicht.&lt;br /&gt; Auch wenn die zwei Wochen Klausureneinsicht um sind, haben Sie noch &lt;br /&gt; Gelegenheit, in die Klausur reinzuschauen.&lt;br /&gt; &lt;br /&gt; Ich mache normalerweise beim Korrigieren Anmerkungen,&lt;br /&gt; die es Ihnen erlauben sollten die Bewertung nachzuvollziehen.&lt;br /&gt; &lt;br /&gt; Ausserdem stehe ich auch später für Rückfragen noch zur Verfügung.&lt;br /&gt; &lt;br /&gt; Mit besten Grüßen,&lt;br /&gt; A. Ludwig.&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6499">
+        <name>Benachrichtigungen zu Prüfungsvorleistungen</name>
+        <firstpost>16525</firstpost>
+        <userid>2537</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1236387914</timemodified>
+        <usermodified>2537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16525">
+            <parent>0</parent>
+            <userid>2537</userid>
+            <created>1236387914</created>
+            <modified>1236387914</modified>
+            <mailed>1</mailed>
+            <subject>Benachrichtigungen zu Prüfungsvorleistungen</subject>
+            <message>Hallo Sie alle,&lt;br /&gt;&lt;br /&gt;Sie sollten fast alle eine Benachrichtigung über erfolgreiche oder &lt;br /&gt;nicht erfolgreiche Erbringung von Prüfungsvorleistungen&lt;br /&gt;erhalten haben oder beim nächsten Einloggen in Moodle&lt;br /&gt;erhalten.&lt;br /&gt;&lt;br /&gt;Sollte dies nicht der Fall sein, oder bei Rückfragen &lt;br /&gt;wenden Sie sich bitte per E-Mail oder telefonisch an mich.&lt;br /&gt;&lt;br /&gt;Mit freundlichen Grüßen,&lt;br /&gt;A. Ludwig.&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6501">
+        <name>Noten an Prof. Justen gemeldet</name>
+        <firstpost>16527</firstpost>
+        <userid>2537</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1236258807</timemodified>
+        <usermodified>2537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16527">
+            <parent>0</parent>
+            <userid>2537</userid>
+            <created>1236258807</created>
+            <modified>1236258807</modified>
+            <mailed>1</mailed>
+            <subject>Noten an Prof. Justen gemeldet</subject>
+            <message>&lt;br /&gt;Hallo Sie alle,&lt;br /&gt;&lt;br /&gt;ich habe soeben fast alle festgelegten Noten zur Eintragung in die EPV &lt;br /&gt;an Prof. Dr. Justen gemeldet.&lt;br /&gt;&lt;br /&gt;Mit besten Grüßen,&lt;br /&gt;A. Ludwig.&lt;br /&gt;&lt;br /&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6503">
+        <name>Noten sind festgelegt.</name>
+        <firstpost>16529</firstpost>
+        <userid>2537</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1236218983</timemodified>
+        <usermodified>2537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16529">
+            <parent>0</parent>
+            <userid>2537</userid>
+            <created>1236218983</created>
+            <modified>1236218983</modified>
+            <mailed>1</mailed>
+            <subject>Noten sind festgelegt.</subject>
+            <message>&lt;br /&gt;Hallo Sie alle,&lt;br /&gt;&lt;br /&gt;Ihre Noten sind weitgehend fertig,&lt;br /&gt;aber die EPV hat mich heute rausgeschmissen.&lt;br /&gt;&lt;br /&gt;Morgen mehr.&lt;br /&gt;&lt;br /&gt;MfG, al.&lt;br /&gt;&lt;br /&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

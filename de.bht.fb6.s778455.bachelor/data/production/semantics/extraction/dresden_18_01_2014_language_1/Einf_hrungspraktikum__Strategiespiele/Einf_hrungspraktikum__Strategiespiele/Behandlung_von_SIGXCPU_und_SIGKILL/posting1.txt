@@ -1,0 +1,48 @@
+ID: 1436
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1364079600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wir müssen <LEARNED_PERSON_NAME_REPLACEMENT> SIGXCPU und SIGKILL behandeln, damit für den Fall, dass unsere Berechnungen zulange dauern, unsere KI die Suche abbricht und einen Zug zurückgibt.
+
+Im Internet habe ich folgendes gefunden:
+
+```ruby
+
+# add your code
+
+#include 
+
+#include 
+
+#include 
+
+void sigfunc(int sig)
+
+{
+
+ // signal behandeln
+
+}
+
+int main()
+
+{
+
+  signal(SIGINT, sigfunc);
+
+  /* Code */
+
+  return 0;
+
+}
+
+```
+
+(leicht zusammengeschnitten auf das wichtige
+
+Inwieweit funktioniert das so bzw. was muss ich beachten, wenn ich solch eine Behandlung implementiere (natürlich mit den richtigen Signalen SIGXCPU bzw.. SIGKILL)?
+TAGGED_CONTENT:

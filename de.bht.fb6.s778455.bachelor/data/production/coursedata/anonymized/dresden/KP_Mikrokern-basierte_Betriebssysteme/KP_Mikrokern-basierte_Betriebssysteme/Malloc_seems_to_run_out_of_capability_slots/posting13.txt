@@ -1,0 +1,13 @@
+ID: 1320
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Okay, I tried something else: Instead of re-using the same capability for every dataspace, I used a n...
+PARENT_POSTING_ID: 1143
+POSTING_TYPE: comment
+CONTENT:
+Okay, I tried something else: Instead of re-using the same capability for every dataspace, I used a new one for every DS I got and freed them, when I gave the DS back.  
+This works fine... for a while, but then *cap_alloc* gave me a capability that was invalid.  
+Is there a way to find out *why* a capability is invalid?  
+Could this be a sign of running out of Cap-slots?  
+How do I find out, how many slots I use?
+TAGGED_CONTENT:

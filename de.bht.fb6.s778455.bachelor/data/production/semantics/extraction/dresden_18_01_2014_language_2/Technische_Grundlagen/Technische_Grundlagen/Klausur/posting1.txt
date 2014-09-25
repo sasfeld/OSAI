@@ -1,0 +1,12 @@
+ID: 1037
+CREATION_DATETIME: 1358031600000
+MODIFICATION_DATETIME: 1385074800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+macht es Sinn im ersten Semester schon die TGI Klausur zu schreiben? Hat man dadurch evtl einen Vorteil oder sollte man sich die Zeit lassen und die Klausur im 2. Semester schreiben?
+TAGGED_CONTENT:

@@ -1,0 +1,122 @@
+ID: 169255
+CREATION_DATETIME: 1349938053
+MODIFICATION_DATETIME: 1349938053
+TITLE: Re: Online Präsenz vom 10.10.
+TOPIC_ZOOM_TAG: value:Äquivalenzrelationen;weight:1.0;significance:6.35427475761695;degreegeneralization:8;uri:20146745
+TOPIC_ZOOM_TAG: value:Relationen (Mathematik);weight:1.0;significance:6.007701167337;degreegeneralization:7;uri:20797471
+TOPIC_ZOOM_TAG: value:HTML;weight:1.0;significance:4.65367606678589;degreegeneralization:8;uri:20901715
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:3.89064791503836;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Beschreibungssprachen;weight:1.0;significance:3.80130202066668;degreegeneralization:7;uri:20900644
+TOPIC_ZOOM_TAG: value:Formale Sprachen;weight:1.0;significance:3.51589785648282;degreegeneralization:6;uri:21978155
+TOPIC_ZOOM_TAG: value:Computersprachen;weight:1.0;significance:3.51418845310843;degreegeneralization:6;uri:19949137
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:2.50435355391847;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:2.50390086036106;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:2.23699226098339;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:2.15506992990383;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:2.00351838218053;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.83083484620539;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:1.75110858232764;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:1.16884339240287;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+NER_TAG: value:HTML-Tags;weight:-1.0;uri:;classifierlabel:I-MISC
+NER_TAG: value:HTML-Tags;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:Antwort;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fall;weight:0.0;uri:;postag:NN
+POS_TAG: value:pfung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Versuch;weight:0.0;uri:;postag:NN
+POS_TAG: value:sst;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ketten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Modulo;weight:0.0;uri:;postag:NN
+POS_TAG: value:Antisymmetrisch;weight:0.0;uri:;postag:NN
+POS_TAG: value:Selbstbetrachtung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Folie;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teilen;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Seiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:ndung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ordnungsbeziehungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorhandensein;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ausdruckweise;weight:0.0;uri:;postag:NN
+POS_TAG: value:Elemente;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeichen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hand;weight:0.0;uri:;postag:NN
+POS_TAG: value:Paar;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tags;weight:0.0;uri:;postag:NN
+POS_TAG: value:che;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zahlen;weight:0.0;uri:;postag:NN
+POS_TAG: value:B.;weight:0.0;uri:;postag:NN
+POS_TAG: value:quivalenzrelation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Folgerung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Grund;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kette;weight:0.0;uri:;postag:NN
+POS_TAG: value:C;weight:0.0;uri:;postag:NN
+POS_TAG: value:Releation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Elementen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ja;weight:0.0;uri:;postag:NN
+POS_TAG: value:Augen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bedingung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rest;weight:0.0;uri:;postag:NN
+POS_TAG: value:Annahme;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ausdruck;weight:0.0;uri:;postag:NN
+POS_TAG: value:Paare;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Antisymmetrie;weight:0.0;uri:;postag:NN
+POS_TAG: value:Transitiv;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gleichheitszeichens;weight:0.0;uri:;postag:NN
+POS_TAG: value:Verbindung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Relation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Umkehrung;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Restklasse;weight:0.0;uri:;postag:NN
+POS_TAG: value:Diskussion;weight:0.0;uri:;postag:NN
+POS_TAG: value:Menge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Eigenschaft;weight:0.0;uri:;postag:NN
+POS_TAG: value:aRb;weight:0.0;uri:;postag:NN
+POS_TAG: value:Originaltext;weight:0.0;uri:;postag:NN
+POS_TAG: value:t;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gleichheit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Symmetrie;weight:0.0;uri:;postag:NN
+POS_TAG: value:Eingeschaften;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beziehung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Element;weight:0.0;uri:;postag:NN
+POS_TAG: value:Relationen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 169191
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+hier mein Versuch einer Antwort, Diskussion erwünscht.
+1. Frage {(a, b),(b, b),(c, b)} Was ist dieser Ausdruck? Reflexiv? Nein weil nicht alle Elemente mit sich selbst in Verbindung stehen. Um Reflexivität zu erfüllen, müsste die Paare (a, a) &amp; (c, c) auch noch in der Menge aufgelistet werden.
+korrekt.
+Symmetrisch? Nicht symentrisch weil nicht für jedes Paar eine "Umkehrung" aufgelistet ist. Um die Eigenschaft der der Symmetrie zu erfüllen musste noch folgende Paare in der Menge stehen: (b, a), (b, c)
+korrekt.
+Antisymmetrisch? Ja! Grund ist der Ausdruck ist das Element (c, b). !!!Kann man das noch einmal genauer erklären?
+Antisymmetrie liegt zwar vor, aber die Begründung (c, b) leuchtet mir nicht ein. Antisymmetrie liegt genau dann vor, wenn aus dem Vorhandensein von (a, b) UND (b, a) auch folgt, dass a gleich b ist. Da wir ja gesagt hatten, dass die drei Elemente unterschiedlich sind, darf also bei vorhandenem (a, b) kein (b, a) vorkommen und bei vorhandenem (c, b) kein (b, c). Das ist ja offensichtlich der Fall. (b, b) ist unproblematisch, weil es ja gleich sich selbst ist, und die o. g. Folgerung somit wahr.
+Transitiv? Eigentlich nicht weil a in Relation zu b, b in Releation zu b und c in Releation zu b steht. Da hier kein Fall abzuprüfen ist, sind hier die Eingeschaften der Transitivität erfüllt.
+Das habe ich auch nicht so genau verstanden.
+!!!Kann man das noch genauer erläutern? !!!Eigentlich müsste ja dann jeder Ausdruck transitiv sein weil entweder ist er es oder es ist kein Fall abzuprüfen, oder?
+Das ist so auf jeden Fall falsch, denn es gibt sehr wohl Relationen, die eindeutig nicht-transitiv sind. Sähe die <REMOVED_PERSON_ENTITY> z. B. so aus {(a, b), (b, c)} dann wäre sie eindeutig nicht transitiv, weil bei Tranistivität auch (a, c) enthalten sein müsste.
+Bleibt die Frage offen, wie man denn die Frage der Transitivität entscheidet, wenn keine solche Kette gegeben ist.
+Es gibt ja offensichtlich auch <REMOVED_PERSON_ENTITY>- und Ordnungsbeziehungen auf einer zweielementigen <REMOVED_PERSON_ENTITY>, wo solche Ketten von a &gt; b &gt; c oder ähnlich gar nicht vorkommen können. Und dennoch müsste dann ja Transitivität gegeben sein.
+2. Frage Wie kann man sagen, dass z. B. die Zeichen "&lt;" nicht reflexiv &amp; symmetrisch sind "&lt;=" reflexiv ist und das "=" symmetrisch ist ohne das diese Zeichen in Verbindung mit irgendwelchen Elementen gebracht werden?
+Eine größer-oder-gleich Relation ist reflexiv weil jedes Element größer ODER GLEICH(!) sich selbst ist Hier kommt es auf die Gleichheit an, das "größer" spielt dann bei Selbstbetrachtung eben keine <REMOVED_PERSON_ENTITY>. Es ist ja beides erlaubt, um die Relation zu erfüllen (Oder-Verknüpfung von größer und gleich)
+Bei einer &lt; oder &gt; Beziehung (ohne dass Gleichheit die Relation auch erfüllt) ist Reflexivität dann eben nicht gegeben, denn ein Element ist nicht kleiner (oder größer) als es selbst.
+Symmetrie ist genau dann gegeben, wenn aus aRb folgt, dass auch bRa
+Wenn a größer oder gleich b ist, dann folgt nicht in jedem Fall, dass b größer oder gleich a ist (sondern nur in dem einen <REMOVED_PERSON_ENTITY>, dass a gleich b ist). Aus aRb kann man also nicht bRa folgern, somit liegt keine Symmetrie vor.
+Bei Gleichheit liegt es ja auf der Hand, wenn man zwei gleiche Elemente auf je einer <REMOVED_PERSON_ENTITY> des Gleichheitszeichens hat, dann kann man die Seiten beliebig vertauschen, ohne dass sich etwas ändert. Aus a=b folgt also b=a.
+3 Frage
+Äquivalenzrelation grafisch. Bedingung: "Lässt beim Teilen durch 3 den gleichen Rest" Folgende Zahlen: 12, 3, 2, 5, 1, 4, 7 12:3 = Rest 0 5:3 = Rest 2 7:3 = Rest 1 4:3 = Rest 1 7 und 4 haben den gleichen Rest somit gehören Sie zusammen. Man kann sie also untereinander verbinden: 7-&gt;1 / 7-&gt;4 / 4-&gt;1 Die beiden anderen Zahlen kann man auch noch verbinden 5-&gt;2 &amp; 12-&gt;3 müsste hier dann nicht aber eine 0 stehen? Weil 12 : 3 den Rest 0 ergibt(?)
+Ja, bei 12 und 3 ist der Rest zu Modulo 3 jeweils gleich 0. ("12", "3") bilden also eine gemeinsame Restklasse hinischtlich Modulo 3. Deine genaue Frage habe ich jetzt leider nicht verstanden. Aber ich habe jetzt auch die Folie nicht mehr vor Augen.
+4 Frage: Was bedeutet folgender Ausdruck ausgesprochen: aRb:&lt;=&gt;a|b -&gt;&gt; a steht in Relation mit b wenn a teilt b, ist das richtig?
+Ja.
+5 Frage: Ist folgende Annahme von mir richtig: -{(a, b),(b, c),(a, c)} -&gt;&gt; Andere Ausdruckweise: aRb, bRc -&gt; aRc -&gt;&gt; Andere Ausdruckweise: Wenn a in Relation zu b und b in Relation zu C steht dann steht a auch in Relation zu c
+Ja, das ist Tranistivität.
+Sorry, dass meine Antwort so seltsam formatiert ist, ich wollte den Originaltext eigentlich einrücken mit "&gt; " aber er nimmt die Zeilenumbrüche nicht mit, man müsste wohl HTML-Tags einbauen, das ist mir jetzt zu aufwendig. Ich hoffe, man kann es trotzdem erkennen.
+Grüße
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE ,_$, hier_ADV mein_PPOSAT Versuch_NN einer_ART Antwort_NN ,_$, Diskussion_NN erwünscht_VVFIN ._$. 1_CARD ._$. Frage_NN -LCB-_TRUNC -LRB-_TRUNC a_XY ,_$, b_XY -RRB-_TRUNC ,_$, -LRB-_TRUNC b_XY ,_$, b_XY -RRB-_TRUNC ,_$, -LRB-_TRUNC c_XY ,_$, b_XY -RRB-_TRUNC -RCB-_TRUNC Was_PWS ist_VAFIN dieser_PDAT Ausdruck_NN ?_$. Reflexiv_ADJD ?_$. Nein_PTKANT weil_KOUS nicht_PTKNEG alle_PIDAT Elemente_NN mit_APPR sich_PRF selbst_ADV in_APPR Verbindung_NN stehen_VVINF ._$. Um_KOUI Reflexivität_NN zu_PTKZU erfüllen_VVINF ,_$, müsste_VVFIN die_ART Paare_NN -LRB-_TRUNC a_XY ,_$, a_XY -RRB-_TRUNC &_KON -LRB-_TRUNC c_FM ,_$, c_FM -RRB-_TRUNC auch_ADV noch_ADV in_APPR der_ART Menge_NN aufgelistet_VVPP werden_VAINF ._$. korrekt_ADJD ._$. Symmetrisch_ADJD ?_$. Nicht_PTKNEG symentrisch_ADJD weil_KOUS nicht_PTKNEG für_APPR jedes_PIDAT Paar_NN eine_ART "_$( Umkehrung_NN "_$( aufgelistet_VVPP ist_VAFIN ._$. Um_KOUI die_ART Eigenschaft_NN der_ART der_ART Symmetrie_NN zu_PTKZU erfüllen_VVINF musste_VMFIN noch_ADV folgende_ADJA Paare_NN in_APPR der_ART Menge_NN stehen_VVFIN :_$. -LRB-_TRUNC b_XY ,_$, a_XY -RRB-_TRUNC ,_$, -LRB-_TRUNC b_XY ,_$, c_FM -RRB-_TRUNC korrekt_ADJD ._$. Antisymmetrisch_NN ?_$. Ja_PTKANT !_$. Grund_NN ist_VAFIN der_ART Ausdruck_NN ist_VAFIN das_ART Element_NN -LRB-_TRUNC c_XY ,_$, b_XY -RRB-_TRUNC ._$. !!!_PPER Kann_VMFIN man_PIS das_ART noch_ADV einmal_ADV genauer_ADJD erklären_VVINF ?_$. Antisymmetrie_NN liegt_VVFIN zwar_ADV vor_PTKVZ ,_$, aber_KON die_ART Begründung_NN -LRB-_TRUNC c_XY ,_$, b_XY -RRB-_TRUNC leuchtet_VVFIN mir_PPER nicht_PTKNEG ein_PTKVZ ._$. Antisymmetrie_NN liegt_VVFIN genau_ADJD dann_ADV vor_PTKVZ ,_$, wenn_KOUS aus_APPR dem_ART Vorhandensein_NN von_APPR -LRB-_TRUNC a_XY ,_$, b_XY -RRB-_TRUNC UND_KON -LRB-_TRUNC b_XY ,_$, a_XY -RRB-_TRUNC auch_ADV folgt_VVFIN ,_$, dass_KOUS a_ART gleich_ADV b_XY ist_VAFIN ._$. Da_KOUS wir_PPER ja_ADV gesagt_VVPP hatten_VAFIN ,_$, dass_KOUS die_ART drei_CARD Elemente_NN unterschiedlich_ADJD sind_VAFIN ,_$, darf_VMFIN also_ADV bei_APPR vorhandenem_ADJA -LRB-_TRUNC a_XY ,_$, b_XY -RRB-_TRUNC kein_PIAT -LRB-_TRUNC b_XY ,_$, a_XY -RRB-_TRUNC vorkommen_VVFIN und_KON bei_APPR vorhandenem_ADJA -LRB-_TRUNC c_XY ,_$, b_XY -RRB-_TRUNC kein_PIAT -LRB-_TRUNC b_XY ,_$, c_FM -RRB-_TRUNC ._$. Das_PDS ist_VAFIN ja_ADV offensichtlich_ADJD der_ART Fall_NN ._$. -LRB-_TRUNC b_XY ,_$, b_XY -RRB-_TRUNC ist_VAFIN unproblematisch_ADJD ,_$, weil_KOUS es_PPER ja_ADV gleich_ADV sich_PRF selbst_ADV ist_VAFIN ,_$, und_KON die_ART o._ADJA g._ADJA Folgerung_NN somit_ADV wahr_ADJD ._$. Transitiv_NN ?_$. Eigentlich_ADV nicht_PTKNEG weil_KOUS a_XY in_APPR Relation_NN zu_PTKZU b_XY ,_$, b_XY in_APPR Releation_NN zu_PTKZU b_XY und_KON c_FM in_FM Releation_NN zu_PTKZU b_XY steht_VVFIN ._$. Da_ADV hier_ADV kein_PIAT Fall_NN abzuprüfen_VVIZU ist_VAFIN ,_$, sind_VAFIN hier_ADV die_ART Eingeschaften_NN der_ART Transitivität_NN erfüllt_VVPP ._$. Das_PDS habe_VAFIN ich_PPER auch_ADV nicht_PTKNEG so_ADV genau_ADJD verstanden_VVPP ._$. !!!_PPER Kann_VMFIN man_PIS das_ART noch_ADV genauer_ADJD erläutern_VVINF ?_$. !!!_APPR Eigentlich_ADV müsste_VVFIN ja_ADV dann_ADV jeder_PIDAT Ausdruck_NN transitiv_ADJD sein_VAINF weil_KOUS entweder_KON ist_VAFIN er_PPER es_PPER oder_KON es_PPER ist_VAFIN kein_PIAT Fall_NN abzuprüfen_VVIZU ,_$, oder_KON ?_$. Das_PDS ist_VAFIN so_ADV auf_APPR jeden_PIDAT Fall_NN falsch_ADJD ,_$, denn_KON es_PPER gibt_VVFIN sehr_ADV wohl_ADV Relationen_NN ,_$, die_PRELS eindeutig_ADJD nicht-transitiv_ADJD sind_VAFIN ._$. Sähe_VVFIN die_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD z._APPRART B._NN so_ADV aus_APPR -LCB-_TRUNC -LRB-_TRUNC a_XY ,_$, b_XY -RRB-_TRUNC ,_$, -LRB-_TRUNC b_XY ,_$, c_FM -RRB-_TRUNC -RCB-_TRUNC dann_ADV wäre_VAFIN sie_PPER eindeutig_ADJD nicht_PTKNEG transitiv_ADJD ,_$, weil_KOUS bei_APPR Tranistivität_NN auch_ADV -LRB-_TRUNC a_XY ,_$, c_FM -RRB-_TRUNC enthalten_VVPP sein_VAINF müsste_VVFIN ._$. Bleibt_VVFIN die_ART Frage_NN offen_ADJD ,_$, wie_PWAV man_PIS denn_KON die_ART Frage_NN der_ART Transitivität_NN entscheidet_VVFIN ,_$, wenn_KOUS keine_PIAT solche_PIS Kette_NN gegeben_VVPP ist_VAFIN ._$. Es_PPER gibt_VVFIN ja_ADV offensichtlich_ADJD auch_ADV <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN -_$( und_KON Ordnungsbeziehungen_NN auf_APPR einer_ART zweielementigen_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_NE ,_$, wo_PWAV solche_PIDAT Ketten_NN von_APPR a_ART >_CARD b_XY >_CARD c_XY oder_KON ähnlich_ADJD gar_ADV nicht_PTKNEG vorkommen_VVFIN können_VMFIN ._$. Und_KON dennoch_ADV müsste_VVFIN dann_ADV ja_ADV Transitivität_NN gegeben_VVPP sein_VAINF ._$. 2_CARD ._$. Frage_NN Wie_KOKOM kann_VMFIN man_PIS sagen_VVINF ,_$, dass_KOUS z._APPRART B._NN die_ART Zeichen_NN "_$( <_ADJD "_$( nicht_PTKNEG reflexiv_ADJD &_KON symmetrisch_ADJD sind_VAFIN "_$( <_XY =_XY "_$( reflexiv_ADJD ist_VAFIN und_KON das_ART "_$( =_XY "_$( symmetrisch_ADJD ist_VAFIN ohne_APPR das_ART diese_PDAT Zeichen_NN in_APPR Verbindung_NN mit_APPR irgendwelchen_PIAT Elementen_NN gebracht_VVPP werden_VAINF ?_$. Eine_ART größer-oder-gleich_ADJA Relation_NN ist_VAFIN reflexiv_ADJD weil_KOUS jedes_PIDAT Element_NN größer_ADJD ODER_NE GLEICH_NE -LRB-_TRUNC !_$. -RRB-_TRUNC sich_PRF selbst_ADV ist_VAFIN Hier_ADV kommt_VVFIN es_PPER auf_APPR die_ART Gleichheit_NN an_PTKVZ ,_$, das_ART "_$( größer_ADJD "_$( spielt_VVFIN dann_ADV bei_APPR Selbstbetrachtung_NN eben_ADV keine_PIAT <_NN REMOVED_PERSON_ENTITY_NE >_NE ._$. Es_PPER ist_VAFIN ja_ADV beides_PIS erlaubt_VVPP ,_$, um_KOUI die_ART Relation_NN zu_PTKZU erfüllen_VVINF -LRB-_TRUNC Oder-Verknüpfung_NN von_APPR größer_ADJD und_KON gleich_ADJD -RRB-_TRUNC Bei_APPR einer_ART <_ADJA oder_KON >_ADJA Beziehung_NN -LRB-_TRUNC ohne_APPR dass_KOUS Gleichheit_NN die_ART Relation_NN auch_ADV erfüllt_VVPP -RRB-_TRUNC ist_VAFIN Reflexivität_NN dann_ADV eben_ADV nicht_PTKNEG gegeben_VVPP ,_$, denn_KON ein_ART Element_NN ist_VAFIN nicht_PTKNEG kleiner_ADJA -LRB-_TRUNC oder_KON größer_ADJD -RRB-_TRUNC als_KOKOM es_PPER selbst_ADV ._$. Symmetrie_NN ist_VAFIN genau_ADJD dann_ADV gegeben_VVPP ,_$, wenn_KOUS aus_APPR aRb_NE folgt_VVFIN ,_$, dass_KOUS auch_ADV bRa_NE Wenn_KOUS a_XY größer_ADJD oder_KON gleich_ADJD b_XY ist_VAFIN ,_$, dann_ADV folgt_VVFIN nicht_PTKNEG in_APPR jedem_PIDAT Fall_NN ,_$, dass_KOUS b_XY größer_ADJD oder_KON gleich_ADV a_ART ist_VAFIN -LRB-_TRUNC sondern_KON nur_ADV in_APPR dem_ART einen_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN ,_$, dass_KOUS a_ART gleich_ADV b_XY ist_VAFIN -RRB-_TRUNC ._$. Aus_APPR aRb_NN kann_VMFIN man_PIS also_ADV nicht_PTKNEG bRa_NE folgern_VVINF ,_$, somit_ADV liegt_VVFIN keine_PIAT Symmetrie_NN vor_PTKVZ ._$. Bei_APPR Gleichheit_NN liegt_VVFIN es_PPER ja_ADV auf_APPR der_ART Hand_NN ,_$, wenn_KOUS man_PIS zwei_CARD gleiche_ADJA Elemente_NN auf_APPR je_APPR einer_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_APPR des_ART Gleichheitszeichens_NN hat_VAFIN ,_$, dann_ADV kann_VMFIN man_PIS die_ART Seiten_NN beliebig_ADJD vertauschen_VVINF ,_$, ohne_KOUI dass_KOUS sich_PRF etwas_ADV ändert_VVFIN ._$. Aus_APPR a_XY =_XY b_XY folgt_VVFIN also_ADV b_XY =_XY a._APPRART 3_CARD Frage_NN Äquivalenzrelation_NN grafisch_ADJD ._$. Bedingung_NN :_$. "_$( Lässt_NN beim_APPRART Teilen_NN durch_APPR 3_CARD den_ART gleichen_ADJA Rest_NN "_$( Folgende_ADJA Zahlen_NN :_$. 12_CARD ,_$, 3_CARD ,_$, 2_CARD ,_$, 5_CARD ,_$, 1_CARD ,_$, 4_CARD ,_$, 7_CARD 12:3_XY =_XY Rest_NN 0_CARD 5:3_CARD =_XY Rest_NN 2_CARD 7:3_CARD =_XY Rest_NN 1_CARD 4:3_CARD =_XY Rest_NN 1_CARD 7_CARD und_KON 4_CARD haben_VAFIN den_ART gleichen_ADJA Rest_NN somit_ADV gehören_VVFIN Sie_PPER zusammen_PTKVZ ._$. Man_PIS kann_VMFIN sie_PPER also_ADV untereinander_ADV verbinden_VVFIN :_$. 7_CARD -_$( >_XY 1_CARD \/_CARD 7_CARD -_$( >_CARD 4_CARD \/_CARD 4_CARD -_$( >_XY 1_CARD Die_ART beiden_PIDAT anderen_ADJA Zahlen_NN kann_VMFIN man_PIS auch_ADV noch_ADV verbinden_VVFIN 5_CARD -_$( >_CARD 2_CARD &_KON 12_CARD -_$( >_CARD 3_CARD müsste_VVFIN hier_ADV dann_ADV nicht_PTKNEG aber_ADV eine_ART 0_CARD stehen_VVFIN ?_$. Weil_KOUS 12_CARD :_$. 3_CARD den_ART Rest_NN 0_CARD ergibt_VVFIN -LRB-_TRUNC ?_$. -RRB-_TRUNC Ja_PTKANT ,_$, bei_APPR 12_CARD und_KON 3_CARD ist_VAFIN der_ART Rest_NN zu_PTKZU Modulo_FM 3_CARD jeweils_ADV gleich_ADV 0_CARD ._$. -LRB-_TRUNC "_$( 12_CARD "_$( ,_$, "_$( 3_CARD "_$( -RRB-_TRUNC bilden_VVINF also_ADV eine_ART gemeinsame_ADJA Restklasse_NN hinischtlich_ADJD Modulo_NN 3_CARD ._$. Deine_ART genaue_ADJA Frage_NN habe_VAFIN ich_PPER jetzt_ADV leider_ADV nicht_PTKNEG verstanden_VVPP ._$. Aber_KON ich_PPER habe_VAFIN jetzt_ADV auch_ADV die_ART Folie_NN nicht_PTKNEG mehr_ADV vor_APPR Augen_NN ._$. 4_CARD Frage_NN :_$. Was_PWS bedeutet_VVFIN folgender_ADJA Ausdruck_NN ausgesprochen_VVPP :_$. aRb_NE :_$. <_XY =_XY >_CARD a_XY |_CARD b_XY -_$( >_XY >_CARD a_XY steht_VVFIN in_APPR Relation_NN mit_APPR b_XY wenn_KOUS a_XY teilt_VVFIN b_XY ,_$, ist_VAFIN das_ART richtig_ADJD ?_$. Ja_NN ._$. 5_CARD Frage_NN :_$. Ist_VAFIN folgende_ADJA Annahme_NN von_APPR mir_PPER richtig_ADJD :_$. -_$( -LCB-_TRUNC -LRB-_TRUNC a_XY ,_$, b_XY -RRB-_TRUNC ,_$, -LRB-_TRUNC b_XY ,_$, c_FM -RRB-_TRUNC ,_$, -LRB-_TRUNC a_XY ,_$, c_FM -RRB-_TRUNC -RCB-_TRUNC -_$( >_XY >_CARD Andere_ADJA Ausdruckweise_NN :_$. aRb_NE ,_$, bRc_NE -_$( >_XY aRc_NE -_$( >_XY >_CARD Andere_ADJA Ausdruckweise_NN :_$. Wenn_KOUS a_XY in_APPR Relation_NN zu_PTKZU b_XY und_KON b_XY in_APPR Relation_NN zu_APPR C_NN steht_VVFIN dann_ADV steht_VVFIN a_XY auch_ADV in_APPR Relation_NN zu_PTKZU c_XY Ja_PTKANT ,_$, das_PDS ist_VAFIN Tranistivität_NN ._$. Sorry_NE ,_$, dass_KOUS meine_PPOSAT Antwort_NN so_ADV seltsam_ADJD formatiert_VVPP ist_VAFIN ,_$, ich_PPER wollte_VMFIN den_ART Originaltext_NN eigentlich_ADV einrücken_VVINF mit_APPR "_$( >_NE "_$( aber_ADV er_PPER nimmt_VVFIN die_ART Zeilenumbrüche_NN nicht_PTKNEG mit_PTKVZ ,_$, man_PIS müsste_VVFIN wohl_ADV HTML-Tags_NN einbauen_VVINF ,_$, das_PDS ist_VAFIN mir_PPER jetzt_ADV zu_APPR aufwendig_ADJD ._$. Ich_PPER hoffe_VVFIN ,_$, man_PIS kann_VMFIN es_PPER trotzdem_PROAV erkennen_VVINF ._$. Grüße_NN <_NE REMOVED_PERSON_ENTITY_NE >_XY 

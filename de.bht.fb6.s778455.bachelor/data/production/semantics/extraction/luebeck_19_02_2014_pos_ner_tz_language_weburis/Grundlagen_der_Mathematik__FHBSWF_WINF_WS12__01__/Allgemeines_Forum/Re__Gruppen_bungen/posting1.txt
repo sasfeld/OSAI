@@ -1,0 +1,24 @@
+ID: 193181
+CREATION_DATETIME: 1358098133
+MODIFICATION_DATETIME: 1358098133
+TITLE: Gruppenübungen
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=72341#193181
+POS_TAG: value:Jemand;weight:0.0;uri:;postag:NN
+POS_TAG: value:ume;weight:0.0;uri:;postag:NN
+POS_TAG: value:Durchschnitt;weight:0.0;uri:;postag:NN
+POS_TAG: value:B;weight:0.0;uri:;postag:NN
+POS_TAG: value:R;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mengen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Matrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:eLars;weight:0.0;uri:;postag:NN
+POS_TAG: value:J;weight:0.0;uri:;postag:NN
+POS_TAG: value:bungsaufgaben;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hi zusammen,
+ich hätte gern gewusst, wie ich die Gruppenübungsaufgaben H und J angehe.
+H: Bestimmen Sie eine Matrix X, so dass XA=B gilt.
+J: Bestimmen Sie den Durchschnitt der von den gegebenen Mengen M1, M2 jeweils aufgespannten Unterräume des R^4. Wie mache ich das? Jemand eine Idee?GrüßeLars
+TAGGED_CONTENT:
+Hi_NE zusammen_PTKVZ ,_$, ich_PPER hätte_VAFIN gern_ADV gewusst_VVPP ,_$, wie_PWAV ich_PPER die_ART Gruppenübungsaufgaben_NN H_NE und_KON J_NE angehe_VVFIN ._$. H_XY :_$. Bestimmen_VVIMP Sie_PPER eine_ART Matrix_NN X_XY ,_$, so_ADV dass_KOUS XA_XY =_XY B_NN gilt_VVFIN ._$. J_NN :_$. Bestimmen_VVIMP Sie_PPER den_ART Durchschnitt_NN der_ART von_APPR den_ART gegebenen_ADJA Mengen_NN M1_CARD ,_$, M2_CARD jeweils_ADV aufgespannten_ADJA Unterräume_NN des_ART R_NN ^_CARD 4_CARD ._$. Wie_PWAV mache_VVFIN ich_PPER das_PDS ?_$. Jemand_NN eine_ART Idee?GrüßeLars_NN 

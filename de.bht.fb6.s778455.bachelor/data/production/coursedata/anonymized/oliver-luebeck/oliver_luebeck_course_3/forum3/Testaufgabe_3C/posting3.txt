@@ -1,0 +1,17 @@
+ID: 27
+CREATION_DATETIME: 1201166700000
+MODIFICATION_DATETIME: 1201166700000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 26
+CONTENT:
+
+    
+        Hallo ,
+
+ich freue mich, dass Sie so konsequent ueben.
+Könnten Sie Ihr Programm schreiben, damit ich besser sehen kann, woher das Problem kommt?
+Viele Gruesse
+
+    
+TAGGED_CONTENT:

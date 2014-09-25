@@ -1,0 +1,9 @@
+ID: 2208
+CREATION_DATETIME: 1373493600000
+MODIFICATION_DATETIME: 1373493600000
+TITLE: ich habe 3 Diagramme, die "predict time" vs "execution time" zeigt, hinzugefugt.
+PARENT_POSTING_ID: 2184
+POSTING_TYPE: answer
+CONTENT:
+ich habe 3 Diagramme, die "predict time" vs "execution time" zeigt, im "pres_diagramme" hinzugefugt.
+TAGGED_CONTENT:

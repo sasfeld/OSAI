@@ -1,0 +1,26 @@
+ID: 875
+CREATION_DATETIME: 1353970800000
+MODIFICATION_DATETIME: 1361401200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+My question is if we use below  barrier for 2 threads why the thread A cannot detect  when count == 0 ,( done by thread B) and waiting for phase 1 to finish. (Because , count is an AtomicInteger. I hope there is no effect of private caches as every read and write are done atomically.)  why count. get() doesn't result as 0.  Please correct me. Where I got lost this.
+```c++
+public class Barrier {
+  AtomicInteger count;
+  int size;
+  publicBarrier(int n) {
+    count = AtomicInteger(n);
+    size = n;
+  }
+  public void wait() {
+    if (count. getAndDecrement() == 1) {
+      count. set(size);
+    } else {
+      while (count. get() != 0);
+    }
+  }
+}
+```
+TAGGED_CONTENT:

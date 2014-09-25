@@ -1,0 +1,59 @@
+ID: 16677
+CREATION_DATETIME: 1227811337
+MODIFICATION_DATETIME: 1227811364
+TITLE: Re: Zeitmanagement
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=6539#16677
+TOPIC_ZOOM_TAG: value:Persönlichkeiten des Bereichs Medieninformatik;weight:1.0;significance:4.23618317174463;degreegeneralization:6;uri:21632817
+TOPIC_ZOOM_TAG: value:Medieninformatik;weight:1.0;significance:4.005134111558;degreegeneralization:5;uri:21633837
+TOPIC_ZOOM_TAG: value:Mathematische Logik;weight:1.0;significance:3.69970386759993;degreegeneralization:6;uri:20881349
+TOPIC_ZOOM_TAG: value:Symbolische Logik;weight:1.0;significance:3.69970386759993;degreegeneralization:7;uri:20782698
+TOPIC_ZOOM_TAG: value:Aussagenlogik;weight:1.0;significance:3.69970386759993;degreegeneralization:8;uri:20847655
+TOPIC_ZOOM_TAG: value:Chat;weight:1.0;significance:3.10245071119059;degreegeneralization:7;uri:20901477
+TOPIC_ZOOM_TAG: value:Logik;weight:1.0;significance:2.77550762685335;degreegeneralization:4;uri:21472524
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:2.59376527669224;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Persönlichkeiten des Bereichs Informatik;weight:1.0;significance:2.58424081921089;degreegeneralization:5;uri:21632885
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:3.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:1.0;significance:2.16799725088841;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Lifestyle und Internet;weight:1.0;significance:1.68963574245864;degreegeneralization:6;uri:21999575
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:1.67474181585092;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:1.66926724024071;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Geisteswissenschaften;weight:1.0;significance:1.55144820605651;degreegeneralization:3;uri:21978240
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:1.49132817398893;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:1.47917088314699;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Lifestyle, Mode, Schönheit;weight:1.0;significance:1.45730647586559;degreegeneralization:3;uri:21999456
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:1.43255875749497;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.28277805211091;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.27826712902651;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:1.16740572155176;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:1.14718176538007;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:0.895641144893587;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:0.779228928268583;degreegeneralization:2;uri:21999711
+POS_TAG: value:Vektoralgebra;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ambitionen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Modul;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aussagenlogik;weight:0.0;uri:;postag:NN
+POS_TAG: value:Meinung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Chat;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zugfahrten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Januar;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dienstag;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeitrahmen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anhang;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anfang;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einteilung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wissenstand;weight:0.0;uri:;postag:NN
+POS_TAG: value:senz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klausur;weight:0.0;uri:;postag:NN
+POS_TAG: value:Themen;weight:0.0;uri:;postag:NN
+POS_TAG: value:B.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Medieninformatiker;weight:0.0;uri:;postag:NN
+POS_TAG: value:Determinanten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Thema;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 16675
+CONTENT:
+ -- &quot;Wie habt ihr euch das Modul terminiert?&quot;Die zeitliche Einteilung hängt wirklich sehr stark von deinen Ambitionen ab. Ich nutze immer die notwendigen, wöchentlichen Zugfahrten für <REMOVED_PERSON_ENTITY> und arbeite dann anschließend die Aufgaben durch. Anhang der Aufgaben kann man sowieso am besten feststellen was noch fehlt bzw. wo es klemmt. Wenn du bis Anfang Januar alles gelesen und alle Aufgaben einmal &quot;gerechnet&quot; hast, dann sollte es reichen. Im schlimmsten <REMOVED_PERSON_ENTITY>, denn es sind &quot;nur&quot; 2h Klausur und du brauchst &quot;nur&quot; &gt;= 51% ;-)-- &quot;Was wird denn in der Präsenz als Wissenstand erwartet?&quot;Wir hatten im letzten Chat am Dienstag genau das Thema &quot;Was kommt in der Präsenz dran&quot;. Derzeit ist das noch nicht ganz klar. Ich rechne aber eher mit einem Mix aus angewandter Aussagenlogik und Vektoralgebra. Das sollte so im Zeitrahmen sein... Ich persönlich bin der Meinung, dass es am besten wäre die schwereren Themen näher zu behandeln. Aber Themen wie z. B. Determinanten kommen vielleicht auch noch einmal bei der offenen Präsenz der Medieninformatiker dran.
+TAGGED_CONTENT:
+--_APPR "_$( Wie_PWAV habt_VAFIN ihr_PPER euch_PRF das_ART Modul_NN terminiert_VVPP ?_$. "_$( Die_ART zeitliche_ADJA Einteilung_NN hängt_VVFIN wirklich_ADJD sehr_ADV stark_ADJD von_APPR deinen_ADJA Ambitionen_NN ab_PTKVZ ._$. Ich_PPER nutze_VVFIN immer_ADV die_ART notwendigen_ADJA ,_$, wöchentlichen_ADJA Zugfahrten_NN für_APPR <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN und_KON arbeite_VVFIN dann_ADV anschließend_ADJD die_ART Aufgaben_NN durch_PTKVZ ._$. Anhang_NN der_ART Aufgaben_NN kann_VMFIN man_PIS sowieso_ADV am_PTKA besten_ADJD feststellen_VVFIN was_PWS noch_ADV fehlt_VVFIN bzw_NE ._$. wo_PWAV es_PPER klemmt_VVFIN ._$. Wenn_KOUS du_PPER bis_APPR Anfang_NN Januar_NN alles_PIS gelesen_VVPP und_KON alle_PIDAT Aufgaben_NN einmal_ADV "_$( gerechnet_VVPP "_$( hast_VAFIN ,_$, dann_ADV sollte_VMFIN es_PPER reichen_VVINF ._$. Im_APPRART schlimmsten_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_NE ,_$, denn_KON es_PPER sind_VAFIN "_$( nur_ADV "_$( 2h_CARD Klausur_NN und_KON du_PPER brauchst_VVFIN "_$( nur_ADV "_$( >_XY =_XY 51_CARD %_NN ;--RRB-_NE --_-- "_$( Was_PWS wird_VAFIN denn_ADV in_APPR der_ART Präsenz_NN als_APPR Wissenstand_NN erwartet_VVPP ?_$. "_$( Wir_PPER hatten_VAFIN im_APPRART letzten_ADJA Chat_NN am_APPRART Dienstag_NN genau_ADJD das_ART Thema_NN "_$( Was_PWS kommt_VVFIN in_APPR der_ART Präsenz_NN dran_PROAV "_$( ._$. Derzeit_ADV ist_VAFIN das_PDS noch_ADV nicht_PTKNEG ganz_ADV klar_ADJD ._$. Ich_PPER rechne_VVFIN aber_ADV eher_ADV mit_APPR einem_ART Mix_NE aus_APPR angewandter_ADJA Aussagenlogik_NN und_KON Vektoralgebra_NN ._$. Das_ART sollte_VMFIN so_ADV im_APPRART Zeitrahmen_NN sein_VAINF ..._$( Ich_PPER persönlich_ADJD bin_VAFIN der_ART Meinung_NN ,_$, dass_KOUS es_PPER am_PTKA besten_ADJD wäre_VAFIN die_ART schwereren_ADJA Themen_NN näher_ADJD zu_PTKZU behandeln_VVINF ._$. Aber_KON Themen_NN wie_KOKOM z._APPRART B._NN Determinanten_NN kommen_VVFIN vielleicht_ADV auch_ADV noch_ADV einmal_ADV bei_APPR der_ART offenen_ADJA Präsenz_NN der_ART Medieninformatiker_NN dran_PROAV ._$. 

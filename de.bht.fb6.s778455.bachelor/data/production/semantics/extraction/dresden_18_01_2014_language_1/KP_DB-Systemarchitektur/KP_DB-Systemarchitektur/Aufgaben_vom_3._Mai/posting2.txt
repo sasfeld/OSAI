@@ -1,0 +1,10 @@
+ID: 1781
+CREATION_DATETIME: 1367532000000
+MODIFICATION_DATETIME: 1367532000000
+TITLE: ich hab noch 2 weitere paper gefunden, die sich mit heterogener Verteilung befassen: StarPu und HEFT....
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1780
+POSTING_TYPE: comment
+CONTENT:
+ich hab noch 2 weitere paper gefunden, die sich mit heterogener Verteilung befassen: StarPu und HEFT. Vielleicht kann man <NAME_CORPUS_REPLACEMENT> eine geeignete Kostenfunktion herausziehen?
+TAGGED_CONTENT:

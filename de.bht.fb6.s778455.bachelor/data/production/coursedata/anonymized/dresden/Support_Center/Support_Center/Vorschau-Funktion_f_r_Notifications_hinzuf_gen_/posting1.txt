@@ -1,0 +1,11 @@
+ID: 329
+CREATION_DATETIME: 1350165600000
+MODIFICATION_DATETIME: 1373925600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich lese auditoriums-Threads hauptsächlich per Mail mit, also hatte ich heute 13 Notifications, die alle ungefähr so in meiner Übersicht angezeigt wurden: "Es wäre sinnvoll, wen", oder "Hi, Ich bin mir uns".
+Wäre es möglich eine Vorschau-Funktion zu implementieren, damit ich die Übersicht nicht verlassen muss, um den gesamten Kommentar/die gesamte Frage lesen zu müssen und nur wahlweise dann auf einen Link klicken kann? 
+Beispielsweise, dass sich der gesamte Kommentar auf- und wieder zuklappen lässt.
+TAGGED_CONTENT:

@@ -1,0 +1,16 @@
+ID: 2526
+CREATION_DATETIME: 1376344800000
+MODIFICATION_DATETIME: 1376344800000
+TITLE: Im Skript http://wwwdb.inf.tu-dresden.de/misc/SS13/DB/05_Entwurfstheorie.pdf
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2512
+POSTING_TYPE: comment
+CONTENT:
+Im Skript http://wwwdb.inf.tu-dresden. de/misc/SS13/DB/05_Entwurfstheorie. pdf
+
+Auf Folie 17 wird im Beispiel das A bei AuB->C weggekürzt,
+
+Jetzt kann ich mit der Hülle <NAME_CORPUS_REPLACEMENT> B allerdings nur auf C kommen.
+
+Ist das Script fehlerhaft, oder überseh ich was?
+TAGGED_CONTENT:

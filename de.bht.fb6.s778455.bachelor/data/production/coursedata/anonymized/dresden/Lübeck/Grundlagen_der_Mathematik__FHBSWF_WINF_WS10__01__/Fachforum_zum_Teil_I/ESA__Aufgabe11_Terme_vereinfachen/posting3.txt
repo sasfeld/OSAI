@@ -1,0 +1,8 @@
+ID: 97797
+CREATION_DATETIME: 1287838339
+MODIFICATION_DATETIME: 1287838450
+TITLE: Re: ESA  Aufgabe11 Terme vereinfachen
+PARENT_POSTING_ID: 97796
+CONTENT:
+ Klar, war einfach zu blöd :) Mein Ergebnis welches ich oben gepostet habe hat der Editor ja eigentlich schon richtig umgewandelt. Einfach 3/-3 streichen und schon hat man a-a^2+9*aAber LonCapa sagte mir eben das dieses Ergebnis falsch ist. Alle 5 Versuche weg. Egal :)
+TAGGED_CONTENT:

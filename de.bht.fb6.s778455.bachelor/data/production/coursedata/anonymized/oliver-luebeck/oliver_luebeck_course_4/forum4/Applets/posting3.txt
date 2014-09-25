@@ -1,0 +1,15 @@
+ID: 15
+CREATION_DATETIME: 1176199140000
+MODIFICATION_DATETIME: 1176199140000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 14
+CONTENT:
+
+Hallo Kai, danke für den Tipp! Browser neu starten funktioniert!
+Cache leeren bringt leider nichts.
+Mein Rechner lebt noch, aber meine F5-Taste hat ganz schön was abbekommen ;) IMO wenig zeitgemäß mit den Applets. Da lobe ich mir doch mein Adobe Flash!
+
+Thx
+    
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 2186
+CREATION_DATETIME: 1373320800000
+MODIFICATION_DATETIME: 1373320800000
+TITLE: Ich habe an den Kerneln nix geändert, was sich auf die Ausführungszeit auswirken könnte, aber kann es...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2179
+POSTING_TYPE: comment
+CONTENT:
+Ich habe an den Kerneln nix geändert, was sich auf die Ausführungszeit auswirken könnte, aber kann es bestätigen, dass die Ausführungszeit schon für 1 TestCase sehr lang ist, bzw gar nicht bis zum Ende läuft (nach mehreren Minuten warten habe ich das Programm abgebrochen)
+TAGGED_CONTENT:

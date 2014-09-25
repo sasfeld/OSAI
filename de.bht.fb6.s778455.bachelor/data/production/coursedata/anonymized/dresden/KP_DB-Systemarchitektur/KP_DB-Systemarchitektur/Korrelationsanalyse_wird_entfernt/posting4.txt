@@ -1,0 +1,9 @@
+ID: 2326
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Beim Thema Approximation geb ich dir Recht, aber von "rennen" in eine Richtung war nichts zu sehen......
+PARENT_POSTING_ID: 2321
+POSTING_TYPE: comment
+CONTENT:
+Beim Thema Approximation geb ich dir Recht, aber <NAME_CORPUS_REPLACEMENT> "rennen" in eine Richtung war nichts zu sehen... erst in der vergangen Woche waren <NAME_CORPUS_REPLACEMENT> Fortschritte zu erkennen
+TAGGED_CONTENT:

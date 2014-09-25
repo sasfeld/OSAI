@@ -1,0 +1,25 @@
+ID: 5
+CREATION_DATETIME: 1175716560000
+MODIFICATION_DATETIME: 1175716560000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 4
+CONTENT:
+
+Hallo,
+
+zunächst würde ich "System-out" zu "System.out" korrigieren.
+
+Aufrufen mit :
+
+public static void main(String[] args){
+
+MyMath.differenziere2Zahlen(2, 1);
+
+}
+
+Ausgabe auf den Bildschrim erfolgt durch die Methode differenziere2Zahlen der Klasse MyMath selbständig.
+
+Gruß 
+    
+TAGGED_CONTENT:

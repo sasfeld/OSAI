@@ -1,0 +1,16 @@
+ID: 660
+CREATION_DATETIME: 1352070000000
+MODIFICATION_DATETIME: 1352070000000
+TITLE: Es sieht so aus, als fehlen die dev-libs für OpenGL. Hast Du auch alle Abhängigkeiten installiert, wi...
+LANGUAGE: GERMAN
+POS_TAG: value:headers;weight:0.0;uri:;postag:NN
+POS_TAG: value:ngigkeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:ngigkeiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bauanleitung;weight:0.0;uri:;postag:NN
+POS_TAG: value:libs;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 655
+POSTING_TYPE: comment
+CONTENT:
+Es sieht so aus, als fehlen die dev-libs für OpenGL. Hast Du auch alle Abhängigkeiten installiert, wie sie in der Bauanleitung stehen? Eine davon ist libglew-dev, die wiederum als Abhängigkeit die OpenGL-headers installiert.
+TAGGED_CONTENT:
+Es_PPER sieht_VVFIN so_ADV aus_PTKVZ ,_$, als_KOKOM fehlen_VVFIN die_ART dev-libs_NN für_APPR OpenGL_NE ._$. Hast_VAFIN Du_PPER auch_ADV alle_PIDAT Abhängigkeiten_NN installiert_VVPP ,_$, wie_PWAV sie_PPER in_APPR der_ART Bauanleitung_NN stehen_VVFIN ?_$. Eine_ART davon_PROAV ist_VAFIN libglew-dev_ADJD ,_$, die_ART wiederum_ADV als_APPR Abhängigkeit_NN die_ART OpenGL-headers_NN installiert_VVPP ._$. 

@@ -1,0 +1,12 @@
+ID: 11
+CREATION_DATETIME: 1177689120000
+MODIFICATION_DATETIME: 1177689120000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 10
+CONTENT:
+
+Habe den Fehler gefunden. War gar kein Fehler. So klappt es. Habe immer über appletviewer getestet und damit verändert er die Position des Fensters nicht. Bei Aufruf über Explorer klappt die Anzeige oben rechts.
+Kann die Diskussion hier leider nicht löschen und antworte mir daher selbst. zwinkernd
+    
+TAGGED_CONTENT:

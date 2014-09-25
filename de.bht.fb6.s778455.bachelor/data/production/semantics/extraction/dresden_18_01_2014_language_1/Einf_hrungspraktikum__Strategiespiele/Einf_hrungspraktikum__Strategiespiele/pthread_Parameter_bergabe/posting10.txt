@@ -1,0 +1,12 @@
+ID: 1309
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Also ist parameter.score vom Typ `short *`? Und detS() gibt einen short zurück?
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1300
+POSTING_TYPE: answer
+CONTENT:
+Also ist parameter. score vom Typ `short *`? Und detS() gibt einen short zurück?
+
+Mach score mal `volatile`.
+TAGGED_CONTENT:

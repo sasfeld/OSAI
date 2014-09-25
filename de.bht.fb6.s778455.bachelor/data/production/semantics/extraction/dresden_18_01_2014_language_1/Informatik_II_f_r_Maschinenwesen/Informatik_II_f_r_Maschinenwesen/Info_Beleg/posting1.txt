@@ -1,0 +1,10 @@
+ID: 2161
+CREATION_DATETIME: 1372975200000
+MODIFICATION_DATETIME: 1375653600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+verstehe ich das richtig, dass wenn man alle ToDo Markierungen gemacht hat, man 1. 5 und 2. 5. 1 erledigt hat?
+TAGGED_CONTENT:

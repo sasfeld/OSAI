@@ -1,0 +1,9 @@
+ID: 97776
+CREATION_DATETIME: 1287678921
+MODIFICATION_DATETIME: 1287678921
+TITLE: Re: Immer noch Probleme mit Maple
+PARENT_POSTING_ID: 97775
+CONTENT:
+Richtig erkannt Hr. <REMOVED_PERSON_ENTITY>. Wer interaktiv im Web probieren moechte beachte bitte den Link nach http://www.wolframalpha.com/.
+Mit Maple koennen Sie nur etwas machen wenn Sie es bei sich lokal installieren.
+TAGGED_CONTENT:

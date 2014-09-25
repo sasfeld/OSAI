@@ -1,0 +1,13 @@
+ID: 1104
+CREATION_DATETIME: 1360105200000
+MODIFICATION_DATETIME: 1384988400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+ich bin auf diese Aufgabe aus den letzten Jahren gestoßen:
+http://www-st. inf. tu-dresden. de/Lehre/WS02-03/st1/Uebungen/U11. htm
+Hierbei soll das Interface um den Iterator erweitert werden. Sollen nun in den beiden Klassen jeweils die typischen Iterator Methoden (next(), hasNext(), remove()) ergänzt werden oder wie kann ich am besten an die Sache herangehen?
+<NAME_CORPUS_REPLACEMENT> Grüße
+TAGGED_CONTENT:

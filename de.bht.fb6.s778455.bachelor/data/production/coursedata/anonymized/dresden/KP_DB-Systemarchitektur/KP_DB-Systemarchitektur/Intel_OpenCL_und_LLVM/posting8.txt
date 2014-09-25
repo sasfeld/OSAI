@@ -1,0 +1,9 @@
+ID: 2296
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Du siehst es in der Ausgabe-CSV, ob die Vorhersage trotzdem noch funktioniert.
+PARENT_POSTING_ID: 2291
+POSTING_TYPE: comment
+CONTENT:
+Du siehst es in der Ausgabe-CSV, ob die Vorhersage trotzdem noch funktioniert.
+TAGGED_CONTENT:

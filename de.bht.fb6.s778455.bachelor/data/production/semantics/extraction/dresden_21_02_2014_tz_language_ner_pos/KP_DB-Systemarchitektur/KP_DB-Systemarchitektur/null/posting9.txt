@@ -1,0 +1,21 @@
+ID: 2484
+CREATION_DATETIME: 1375135200000
+MODIFICATION_DATETIME: 1381874400000
+TITLE: null
+LANGUAGE: GERMAN
+POS_TAG: value:Zugang;weight:0.0;uri:;postag:NN
+POS_TAG: value:SVN;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo zusammen,
+
+braucht ihr noch Zugang zum SVN oder der Wimpy Node ... oder anders: will noch jemand etwas anpassen/erweitern/ändern?
+
+Ansonsten würde ich euch ab morgen den SVN und Wimpy Zugang entziehen.
+
+Schönen Gruß,
+
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, braucht_VVFIN ihr_PPOSAT noch_ADV Zugang_NN zum_APPRART SVN_NN oder_KON der_ART Wimpy_NE Node_NE ..._$( oder_KON anders_ADV :_$. will_VMFIN noch_ADV jemand_PIS etwas_PIS anpassen\/erweitern_VVINF \/_VAFIN ändern_VVINF ?_$. Ansonsten_ADV würde_VAFIN ich_PPER euch_PRF ab_APPR morgen_ADV den_ART SVN_NN und_KON Wimpy_NE Zugang_NN entziehen_VVINF ._$. Schönen_ADJA Gruß_NN ,_$, <_CARD PERSONAL_GREETING_REMOVEMENT_NE >_XY 

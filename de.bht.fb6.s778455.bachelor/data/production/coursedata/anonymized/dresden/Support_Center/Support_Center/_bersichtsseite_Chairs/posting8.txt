@@ -1,0 +1,9 @@
+ID: 386
+CREATION_DATETIME: 1350424800000
+MODIFICATION_DATETIME: 1350856800000
+TITLE: Nun ist sie aktualisi
+PARENT_POSTING_ID: 158
+POSTING_TYPE: answer
+CONTENT:
+Nun ist sie aktualisiert worden. Die Lectures Liste ist ein und ausklappbar. 
+TAGGED_CONTENT:

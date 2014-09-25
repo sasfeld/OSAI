@@ -1,0 +1,10 @@
+ID: 640
+CREATION_DATETIME: 1351724400000
+MODIFICATION_DATETIME: 1351724400000
+TITLE: Nein Announcements werden nicht anders behandelt. Zu Fragen, Antworten und Kommentaren, die man selbs...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 558
+POSTING_TYPE: comment
+CONTENT:
+Nein Announcements werden nicht anders behandelt. Zu Fragen, Antworten und Kommentaren, die man selbst geschrieben hat, aber die Emails für Abonnements zum Kurs abbestellt hat, bekommt man nur Emails, wenn Option 2 aktiviert ist. Dass man Email Notifications erhalten soll, sobald es eine neue Antwort oder einen neuen Kommentar innerhalb eines Posts gibt, in dem man mal Autor war.
+TAGGED_CONTENT:

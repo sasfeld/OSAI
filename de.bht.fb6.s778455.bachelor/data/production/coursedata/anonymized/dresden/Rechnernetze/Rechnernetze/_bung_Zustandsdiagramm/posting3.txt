@@ -1,0 +1,10 @@
+ID: 2458
+CREATION_DATETIME: 1374703200000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: ich dachte, vielleicht braucht es gar keine ConRsp und ConCnf, denn "Datentransfer erfolgt in beiden ...
+PARENT_POSTING_ID: 2457
+POSTING_TYPE: comment
+CONTENT:
+ich dachte, vielleicht braucht es gar keine ConRsp und ConCnf, denn "Datentransfer erfolgt in beiden Fällen unbestätigt".
+Müssen zwischen "N-Aufbau abgehend" und "Normale Verbindung" "ConRsp" und "N-Aufbau ankommend" und  "Normale Verbindung" "ConConf"?
+TAGGED_CONTENT:

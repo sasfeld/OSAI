@@ -1,0 +1,13 @@
+ID: 855
+CREATION_DATETIME: 1353798000000
+MODIFICATION_DATETIME: 1353970800000
+TITLE: @Beier: Das ist eine Projekt zur Lehrveranstaltung.
+
+@Tobias: Vielen Dank dass du deine Lösung dein...
+PARENT_POSTING_ID: 845
+POSTING_TYPE: comment
+CONTENT:
+@Lars: Das ist ein Projekt zur Lehrveranstaltung.
+@Tobias: Vielen Dank dass du deine Lösung deinen Kommilitonen zur Verfügung stellst. Der schwierigste Teil der Übung scheint sich bei deiner Lösung ja in der Funktion `tweet. findAllByUserInList` zu verbergen. <NAME_CORPUS_REPLACEMENT> sie nirgendwo definiert ist, vermute ich mal, es handelt sich um Grails-Magic? Wie ist die Performance <NAME_CORPUS_REPLACEMENT> diesem Aufruf bei welcher Nutzerzahl?
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

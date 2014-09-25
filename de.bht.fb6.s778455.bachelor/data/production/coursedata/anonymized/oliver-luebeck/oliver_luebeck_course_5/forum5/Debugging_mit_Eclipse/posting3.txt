@@ -1,0 +1,15 @@
+ID: 20
+CREATION_DATETIME: 1191769680000
+MODIFICATION_DATETIME: 1191769680000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 19
+CONTENT:
+
+Hallo 
+
+Vielen Dank für die Tips. Ich werds mal direkt bei mir ausprobieren. Wissen Sie außerdem, ob an der BHTB auch Kurse zu Eclipse bzw. Programmierung stattfinden?
+
+Viele Grüße
+   
+TAGGED_CONTENT:

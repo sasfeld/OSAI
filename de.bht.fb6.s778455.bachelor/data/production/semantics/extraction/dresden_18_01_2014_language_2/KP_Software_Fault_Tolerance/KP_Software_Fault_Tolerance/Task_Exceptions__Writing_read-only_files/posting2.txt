@@ -1,0 +1,10 @@
+ID: 594
+CREATION_DATETIME: 1351551600000
+MODIFICATION_DATETIME: 1351551600000
+TITLE: Do you think permission check is necessary in write member-function? Provided that fopen() was execut...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 566
+POSTING_TYPE: comment
+CONTENT:
+Do you think permission check is necessary in write member-function? Provided that fopen() was executed in constructor, and errno was set if access to a file was forbidden, access rights checking in write member-function looks redundant.
+TAGGED_CONTENT:

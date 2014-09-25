@@ -1,0 +1,9 @@
+ID: 756
+CREATION_DATETIME: 1352761200000
+MODIFICATION_DATETIME: 1352761200000
+TITLE: Ok. Also war meine Interpretation doch korrekt. Also musst du ein Hauptseminar machen.. Warum das bei...
+PARENT_POSTING_ID: 728
+POSTING_TYPE: comment
+CONTENT:
+Ok. Also war meine Interpretation doch korrekt. Also musst du ein Hauptseminar machen.. Warum das bei diesem Modul ist, kann ich dir leider nicht sagen. 
+TAGGED_CONTENT:

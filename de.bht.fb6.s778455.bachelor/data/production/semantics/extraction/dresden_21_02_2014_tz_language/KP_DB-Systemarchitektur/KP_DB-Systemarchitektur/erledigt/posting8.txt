@@ -1,0 +1,10 @@
+ID: 2002
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Mergen. Ich geb' mir Mühe, heute Abend auch meine Folien fertig zu bekommen, dass ihr nicht alles auf...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+Mergen. Ich geb' mir Mühe, heute Abend auch meine Folien fertig zu bekommen, dass ihr nicht alles auf den letzten Drücker mergen müsst.
+TAGGED_CONTENT:

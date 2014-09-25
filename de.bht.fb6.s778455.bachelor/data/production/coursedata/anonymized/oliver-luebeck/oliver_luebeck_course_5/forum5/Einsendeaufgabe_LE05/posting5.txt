@@ -1,0 +1,15 @@
+ID: 63
+CREATION_DATETIME: 1194006180000
+MODIFICATION_DATETIME: 1194006180000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 62
+CONTENT:
+ 
+ 
+Die Einsendeaufgaben aus der Lerneinheit 05.
+Ich versuche gerade einen alternativen Weg und schätze, dass es so etwas werden könnte. Ich bin aber dennoch für hilfreiche Tipps dankbar ;)
+
+Grüße
+	
+TAGGED_CONTENT:

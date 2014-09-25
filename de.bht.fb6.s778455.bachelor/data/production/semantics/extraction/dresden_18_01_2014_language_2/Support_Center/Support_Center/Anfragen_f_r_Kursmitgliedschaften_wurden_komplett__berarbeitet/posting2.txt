@@ -1,0 +1,10 @@
+ID: 462
+CREATION_DATETIME: 1350943200000
+MODIFICATION_DATETIME: 1351465200000
+TITLE: Es kann nun zwischen 
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 425
+POSTING_TYPE: comment
+CONTENT:
+Es kann nun zwischen 'ablehnen' (reject) und 'ablehnen und als mitglied hinzufügen' (add as member) unterschieden werden. 
+TAGGED_CONTENT:

@@ -1,0 +1,41 @@
+ID: 1861
+CREATION_DATETIME: 1369692000000
+MODIFICATION_DATETIME: 1369692000000
+TITLE: Erneut einige Fragen zu eurer CLevertrustee-Klasse:
+LANGUAGE: GERMAN
+NER_TAG: value:CLevertrustee-Klasse;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:Konstruktor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Variable;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klasse;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sichtbarkeiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:getInstance;weight:0.0;uri:;postag:NN
+POS_TAG: value:Code;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fragen;weight:0.0;uri:;postag:NN
+POS_TAG: value:CLeverTrustee;weight:0.0;uri:;postag:NN
+POS_TAG: value:Methode;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeile;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabengebiet;weight:0.0;uri:;postag:NN
+POS_TAG: value:Annahme;weight:0.0;uri:;postag:NN
+POS_TAG: value:Funktion;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Erneut einige Fragen zu eurer CLevertrustee-Klasse:
+
+Der CLeverTrustee soll doch eigentlich ein <REMOVED_PERSON_ENTITY> sein, liege ich richtig mit der Annahme? Falls ja, wundert mich euer aufbau noch ein wenig. Einerseits fehlen mir <NAME_CORPUS_REPLACEMENT> sie Sichtbarkeiten (Konstruktor private). Außerdem frage ich mich, wofür das '&' in der Zeile 
+
+```ruby
+
+CLeverTrustee& CLeverTrustee::getInstance()
+
+```
+
+gut ist. 
+
+Muss nicht außerdem die Variable instance in der getInstance()-Methode außerhalb der Funktion deklariert werden?
+
+<NAME_CORPUS_REPLACEMENT> das ganze nicht mein "Aufgabengebiet" ist, habe ich mich gehütet, in eurem Code herumzupfuschen.
+TAGGED_CONTENT:
+Erneut_ADJD einige_PIAT Fragen_NN zu_PTKZU eurer_ADJA CLevertrustee-Klasse_NN :_$. Der_ART CLeverTrustee_NN soll_VMFIN doch_ADV eigentlich_ADV ein_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD sein_VAINF ,_$, liege_VVFIN ich_PPER richtig_ADJD mit_APPR der_ART Annahme_NN ?_$. Falls_KOUS ja_ADV ,_$, wundert_VVFIN mich_PPER euer_ADJD aufbau_VVFIN noch_ADV ein_ART wenig_PIS ._$. Einerseits_ADV fehlen_VVFIN mir_PPER <_CARD NAME_CORPUS_REPLACEMENT_NN >_VVFIN sie_PPER Sichtbarkeiten_NN -LRB-_TRUNC Konstruktor_NN private_ADJA -RRB-_TRUNC ._$. Außerdem_PROAV frage_VVFIN ich_PPER mich_PRF ,_$, wofür_PWAV das_ART '_$( &_KON '_$( in_APPR der_ART Zeile_NN ``_CARD `_CARD ruby_CARD CLeverTrustee_NN &_KON CLeverTrustee_NN :_$. ,_$, getInstance_NN -LRB-_TRUNC -RRB-_TRUNC ``_KON `_XY gut_ADJD ist_VAFIN ._$. Muss_NE nicht_PTKNEG außerdem_PROAV die_ART Variable_NN instance_VVFIN in_APPR der_ART getInstance_NN -LRB-_TRUNC -RRB-_TRUNC -_$( Methode_NN außerhalb_APPR der_ART Funktion_NN deklariert_VVPP werden_VAINF ?_$. <_XY NAME_CORPUS_REPLACEMENT_NN >_VVFIN das_ART ganze_ADJA nicht_PTKNEG mein_PPOSAT "_$( Aufgabengebiet_NN "_$( ist_VAFIN ,_$, habe_VAFIN ich_PPER mich_PRF gehütet_VVPP ,_$, in_APPR eurem_ADJA Code_NN herumzupfuschen_VVINF ._$. 

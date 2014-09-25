@@ -1,0 +1,14 @@
+ID: 2181
+CREATION_DATETIME: 1373320800000
+MODIFICATION_DATETIME: 1373320800000
+TITLE: Du übersetzt entweder händisch gemäß der Übersetzungsregeln aus Vorlesung und Übung oder mit dem Tool...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2180
+POSTING_TYPE: answer
+CONTENT:
+Du übersetzt entweder händisch gemäß der Übersetzungsregeln aus Vorlesung und Übung oder mit dem Tool dein Entwurfsklassendiagramm nach Java.
+
+Dann korrigierst du evtl. Fehler und implementierst die Methoden. Die vorgegeben Klassen sind im Projekt drinne und müssen nur importiert werden. Immer nebenbei mit deinen Testfolgen testen.
+
+Beispiele sind genügend in den LV-Materialien.
+TAGGED_CONTENT:

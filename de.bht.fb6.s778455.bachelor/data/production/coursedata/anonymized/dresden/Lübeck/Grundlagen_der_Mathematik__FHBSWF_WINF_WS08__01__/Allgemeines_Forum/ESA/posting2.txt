@@ -1,0 +1,8 @@
+ID: 16601
+CREATION_DATETIME: 1231264357
+MODIFICATION_DATETIME: 1231264357
+TITLE: Re: ESA
+PARENT_POSTING_ID: 16599
+CONTENT:
+Hallogut: ein Hinweis:schreiben Sie sich die Aufgabengleichung mal in der Matrizenform, nicht in der gegebenen Formelform, auf. Dann haben Sie ziemlich viele Variablen darin, aber zu beachten ist noch dass die Matrix X und die Matrix x diesselbe sind. Mit besten Grüßen, <PERSONAL_GREETING_REMOVEMENT>. <REMOVED_PERSON_ENTITY>. 
+TAGGED_CONTENT:

@@ -1,0 +1,13 @@
+ID: 1604
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: die Rückgabe von evaluateMove() ist der untere Code-Schnipsel
+LANGUAGE: GERMAN
+POS_TAG: value:ckgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Schnipsel;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1602
+POSTING_TYPE: comment
+CONTENT:
+die Rückgabe <NAME_CORPUS_REPLACEMENT> evaluateMove() ist der untere Code-Schnipsel
+TAGGED_CONTENT:
+die_ART Rückgabe_NN <_VVFIN NAME_CORPUS_REPLACEMENT_NE >_NE evaluateMove_NE -LRB-_TRUNC -RRB-_TRUNC ist_VAFIN der_ART untere_ADJA Code-Schnipsel_NN 

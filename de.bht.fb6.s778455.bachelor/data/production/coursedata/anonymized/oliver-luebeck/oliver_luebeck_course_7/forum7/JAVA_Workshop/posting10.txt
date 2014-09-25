@@ -1,0 +1,17 @@
+ID: 66
+CREATION_DATETIME: 1305194940000
+MODIFICATION_DATETIME: 1305194940000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 65
+CONTENT:
+ 
+Die Frage ist, was du da alles wissen möchtest. Gelegentlich arbeite ich in Eclipse. Momentan jedoch ausschliesslich durch die UNI.
+
+Am besten wäre es, wenn sich vielleicht jeder der sich beteiligtTeamviewer und Skype installiert. So kann man auch mal schnell jemanden bei Fragen weiterhelfen.
+
+Vorgehensweise: Skype denjenigen anschreiben, wo ihr denkt er kann euch weiterhelfen. Teamviewer ID und Kennwort zusenden und dann in einem Skypetelefonat das Problem gemeinsam lösen :)
+
+LG
+    
+TAGGED_CONTENT:

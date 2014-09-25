@@ -1,0 +1,10 @@
+ID: 2284
+CREATION_DATETIME: 1374012000000
+MODIFICATION_DATETIME: 1374012000000
+TITLE: Aber wieso kommen dann, wenn ich die Zahlen wieder einsetze, komplett andere Ergebnisse heraus, obwoh...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2246
+POSTING_TYPE: comment
+CONTENT:
+Aber wieso kommen dann, wenn ich die Zahlen wieder einsetze, komplett andere Ergebnisse heraus, obwohl ich 4 unbekannte und 4 Gleichungen habe (also es einfach mit <REMOVED_PERSON_ENTITY> zu lösen sein müsste)
+TAGGED_CONTENT:

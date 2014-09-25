@@ -1,0 +1,8 @@
+ID: 117571
+CREATION_DATETIME: 1326963866
+MODIFICATION_DATETIME: 1326963866
+TITLE: Re: Klausur - Erlaubte Hilfsmittel
+PARENT_POSTING_ID: 117570
+CONTENT:
+Müssen die eigenen Notizen handschriftlich sein oder können sie auch mit dem PC erstellt werden? 
+TAGGED_CONTENT:

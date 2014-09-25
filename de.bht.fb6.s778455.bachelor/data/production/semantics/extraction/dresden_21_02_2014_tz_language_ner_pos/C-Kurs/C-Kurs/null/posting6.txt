@@ -1,0 +1,24 @@
+ID: 3028
+CREATION_DATETIME: 1385420400000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: Ja mache ich heute abend nach meiner letzten Vorlesung so ab 17 uhr.
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Vorlesungen;weight:1.0;significance:10.9167900460059;degreegeneralization:6;uri:20916641
+TOPIC_ZOOM_TAG: value:Ereignisse im Bereich Bildung, Erziehung und Ausbildung;weight:1.0;significance:9.2428136124342;degreegeneralization:3;uri:21872857
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Ok;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorlesung;weight:0.0;uri:;postag:NN
+POS_TAG: value:rung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Reihenfolge;weight:0.0;uri:;postag:NN
+POS_TAG: value:uhr;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 3020
+POSTING_TYPE: comment
+CONTENT:
+Ja mache ich heute abend nach meiner letzten Vorlesung so ab 17 uhr.
+
+Ok sorry werde es mir merken bezüglich des headers. Und danke für die Aufklärung bezüglich der Reihenfolge. Ich probiere das dann nachher nochmal aus
+TAGGED_CONTENT:
+Ja_PTKANT mache_VVFIN ich_PPER heute_ADV abend_ADV nach_APPR meiner_PPOSAT letzten_ADJA Vorlesung_NN so_ADV ab_APPR 17_CARD uhr_NN ._$. Ok_NN sorry_ADV werde_VAFIN es_PPER mir_PPER merken_VVINF bezüglich_APPR des_ART headers_ADV ._$. Und_KON danke_VVFIN für_APPR die_ART Aufklärung_NN bezüglich_APPR der_ART Reihenfolge_NN ._$. Ich_PPER probiere_VVFIN das_ART dann_ADV nachher_ADV nochmal_ADV aus_PTKVZ 

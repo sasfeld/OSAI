@@ -1,0 +1,26 @@
+ID: 3075
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+ich wollte per Formular das Passwort eines bestehenden Users verändern. Dazu wollte ich `changePassword()` verwenden. Das hat leider nicht funktioniert. Also habe ich erstmal folgenden Probecode geschrieben:
+
+```ruby
+
+UserAccountIdentifier UI = new UserAccountIdentifier("<REMOVED_PERSON_ENTITY>");
+
+		UserAccount acc = userAccountManager. create(UI, "123", new Role("ROLE_CHEF"));
+
+		userAccountManager. save(acc);
+
+		userAccountManager. changePassword(acc, "asd");
+
+```
+
+Ohne die letzte Zeile kann ich mich Problemlos mit dem Passwort 123 einlogen. Benutze ich jedoch `changePassword()`, funktioniert weder asd noch 123. Kann mir jemand sagen, was ich falsch mache.
+TAGGED_CONTENT:

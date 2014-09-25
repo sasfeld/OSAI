@@ -1,0 +1,9 @@
+ID: 1379
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Ich habs auch gemacht. Jetzt ist die Antwort bei -2 und er hat 0 Punkte.
+PARENT_POSTING_ID: 1377
+POSTING_TYPE: comment
+CONTENT:
+Ich habs auch gemacht. Jetzt ist die Antwort bei -2 und er hat 0 Punkte.
+TAGGED_CONTENT:

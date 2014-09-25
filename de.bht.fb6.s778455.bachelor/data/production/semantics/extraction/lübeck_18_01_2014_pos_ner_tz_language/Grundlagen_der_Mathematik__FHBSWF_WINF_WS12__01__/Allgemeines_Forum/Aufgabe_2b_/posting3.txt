@@ -1,0 +1,29 @@
+ID: 184435
+CREATION_DATETIME: 1354458452
+MODIFICATION_DATETIME: 1354458452
+TITLE: Re: Aufgabe 2b)
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Skalare;weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:19937424
+TOPIC_ZOOM_TAG: value:Nachbarn;weight:1.0;significance:8.39106140169762;degreegeneralization:4;uri:20804645
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Wohnen, Haus und Garten;weight:1.0;significance:4.99075330422034;degreegeneralization:3;uri:21125894
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skalar;weight:0.0;uri:;postag:NN
+POS_TAG: value:Splatenvektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ansatz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gleichung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nachbarn;weight:0.0;uri:;postag:NN
+POS_TAG: value:Knoten;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 184407
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+ja, Du hast recht, das hatte ich übersehen. Knoten (b) hat tatsächlich vier Nachbarn, nicht nur drei, also muss die Gleichung lauten a+b+f+h=0. Deinen Ansatz mit Splatenvektoren und dazugehörigem Skalar habe ich nicht verstanden. Kannst Du das vielleicht etwas näher erläutern?
+Grüße
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE ,_$, ja_ADV ,_$, Du_PPER hast_VAFIN recht_ADJD ,_$, das_PDS hatte_VAFIN ich_PPER übersehen_VVPP ._$. Knoten_NN -LRB-_TRUNC b_XY -RRB-_TRUNC hat_VAFIN tatsächlich_ADJD vier_CARD Nachbarn_NN ,_$, nicht_PTKNEG nur_ADV drei_CARD ,_$, also_ADV muss_VMFIN die_ART Gleichung_NN lauten_VVINF a_XY +_XY b_XY +_KON f_VVFIN +_KON h_FM =_XY 0_CARD ._$. Deinen_ART Ansatz_NN mit_APPR Splatenvektoren_NN und_KON dazugehörigem_ADJA Skalar_NN habe_VAFIN ich_PPER nicht_PTKNEG verstanden_VVPP ._$. Kannst_VMFIN Du_PPER das_ART vielleicht_ADV etwas_PIS näher_ADJD erläutern_VVINF ?_$. Grüße_NN <_NE REMOVED_PERSON_ENTITY_NE >_XY 

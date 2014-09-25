@@ -1,0 +1,10 @@
+ID: 172277
+CREATION_DATETIME: 1350593163
+MODIFICATION_DATETIME: 1350593163
+TITLE: Re: Gruppen für die Einsendeaufgaben
+NER_TAG: value:LG;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+PARENT_POSTING_ID: 172219
+CONTENT:
+Jupp, bin dabei!
+LG <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

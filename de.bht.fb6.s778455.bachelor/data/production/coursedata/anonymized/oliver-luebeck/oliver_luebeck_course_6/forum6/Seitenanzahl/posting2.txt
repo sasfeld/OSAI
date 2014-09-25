@@ -1,0 +1,21 @@
+ID: 81
+CREATION_DATETIME: 1295261280000
+MODIFICATION_DATETIME: 1295261280000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 80
+CONTENT:
+ 
+Liebe Studierende,
+
+Wir machen wie in der Vergangenheit:
+Als Hilfsmittel zur Klausur sind 6 DIN-A4-Seiten (mit beschriebener Vorder- und Rückseite) mit eigenen Notizen zugelassen.
+
+Tipp: waehren der Wiederholung (Präsenz, LEs, Einsendeaufgaben usw.) erstellen Sie Ihre "Spickzettel". Dann loesen Sie auf Papier nur mit Hilfe der Spickzettel in 120 Minuten alte Klausuren. So werden sie am besten Ihre Kenntnisse und Ihre "Spickzettel" einschätzen. Achtung: die LE11 XML ist neu. Nur aus diesem Grund gibt es keine XML-Aufgabe in den alten Klausuren.
+
+Ich wuensche Ihnen schon mal viel Erfolg!
+Kommen denn auch Applets dran? Die Lektion haben wir in Prog1 nicht behandelt. Es gibt aber eine Aufgabe in einer der Probeklausuren!
+
+Schöne Grüße
+	
+TAGGED_CONTENT:

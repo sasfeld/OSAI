@@ -1,0 +1,12 @@
+ID: 333
+CREATION_DATETIME: 1350165600000
+MODIFICATION_DATETIME: 1350165600000
+TITLE: Genau so hab ich mir 
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 332
+POSTING_TYPE: comment
+CONTENT:
+Genau so hab ich mir das vorgestellt. Bloß wird die Vorschau nach ein paar <REMOVED_PERSON_ENTITY> <NAME_CORPUS_REPLACEMENT> allein wieder geschlossen. Ist das so gewollt?
+
+Jetzt fehlt eigentlich nur noch ein Knopf mit dem ich jede Notification einzeln als gelesen markieren kann, damit ich nicht alle extra öffnen muss, um den Notification-Counter runter zu bringen (oder nicht-gelesene durch den "Mark all as read"-Knopf verliere) :)
+TAGGED_CONTENT:

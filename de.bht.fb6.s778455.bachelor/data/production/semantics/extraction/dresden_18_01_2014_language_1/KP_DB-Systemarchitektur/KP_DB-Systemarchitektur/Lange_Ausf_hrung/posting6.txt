@@ -1,0 +1,22 @@
+ID: 2190
+CREATION_DATETIME: 1373407200000
+MODIFICATION_DATETIME: 1373407200000
+TITLE: dass das ganze durch das atomicInc sequentiell wird, hatte ich glaube auch schonmal erwähnt. Ich habe...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2189
+POSTING_TYPE: comment
+CONTENT:
+dass das ganze durch das atomicInc sequentiell wird, hatte ich glaube auch schonmal erwähnt. Ich habe jetzt noch eine Vektoraddition geschrieben.  Dazu, bzw zur Ausführung noch eine Frage.
+
+Wenn das Training läuft, ist jeder Trainingsdurchlauf ein einzelner Aufruf des Kernels?
+
+Bei der Vektoraddition kommt bei dem 3. Durchlauf ein  Fehler :
+
+```ruby
+
+[>                                                 ]   1%     *** glibc detected *** ./build/testCLTstatic: double free or corruption (!prev): 0x000000000320a000 ***
+
+```
+
+Der erinnert mich ein wenig an die vorherigen in den Kerneln. Scheinbar läuft er 2x erfolgreich durch. Hier wäre es gut zu wissen, ob ich irgendwie einen Fehler im Freigeben habe, oder ob <NAME_CORPUS_REPLACEMENT> in der Blackbox der Fehler liegt.
+TAGGED_CONTENT:

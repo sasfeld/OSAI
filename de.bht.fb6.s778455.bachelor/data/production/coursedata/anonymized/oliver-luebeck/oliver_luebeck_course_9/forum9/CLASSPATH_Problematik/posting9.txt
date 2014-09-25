@@ -1,0 +1,27 @@
+ID: 35
+CREATION_DATETIME: 1178029560000
+MODIFICATION_DATETIME: 1178029560000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 34
+CONTENT:
+ 
+Das kann muss aber kein CLASSPATH Problem sein.
+Die Fehlermeldung sagt lediglich aus das du so nicht auf diese Methode zugreifen darfst.
+
+Funktionierendes  Beispiel (nicht statische Methode):
+String s = "Hallo";
+char c = s.charAt(0); // Der erster Buchstabe des Objektes s. => H
+
+Fehlerhaftes Beispiel (nicht statische Methode):
+String s = "Hallo";
+String.charAt(0); //Geht nicht da der PC nicht weiß von welchen String.
+// => Cannot make a static reference to the non-static method charAt(int)
+
+Funktionierendes  Beispiel (statische Methode):
+doubel a = Math.sqrt(2); //Auch Hilfsmethode genannt. Alle nötigen Informationen werden im parameteraufruf übergeben.
+
+Meinen Informationen zufolge solltest du die Methode aber statisch aufrufen können. Hast du vielleicht einen Codeschnipsel an dem du arbeitest? 
+Kann es sein das du einer deiner Klassen denselben Namen (Konsole)  gegeben hast? 
+    
+TAGGED_CONTENT:

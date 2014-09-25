@@ -1,0 +1,13 @@
+ID: 72
+CREATION_DATETIME: 1201254060000
+MODIFICATION_DATETIME: 1201254060000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 71
+CONTENT:
+
+Schau dir mal bitte in der JavaAPI die Klasse JCheckBox an, insbesondere die Klassenhierarchie.
+
+Denke das sollte dir helfen.
+      
+TAGGED_CONTENT:

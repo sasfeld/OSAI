@@ -1,0 +1,14 @@
+ID: 2927
+CREATION_DATETIME: 1384815600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Werte Studenten, hier der <REMOVED_PERSON_ENTITY> zum 5. Kapitel der Vorlesung <REMOVED_PERSON_ENTITY>:
+
+http://www.rn.inf.tu-dresden. de/lectures/Rechnernetzpraxis/05_RNP_Routing. pdf
+
+Nach einer allgemeinen Übersicht zu Routing und Routing-Protokollen wird es vor allem um OSPF und BGP gehen - den beiden Routing-Prokollen also, mit denen man in der Praxis wohl am häufigsten zu tun hat...
+TAGGED_CONTENT:

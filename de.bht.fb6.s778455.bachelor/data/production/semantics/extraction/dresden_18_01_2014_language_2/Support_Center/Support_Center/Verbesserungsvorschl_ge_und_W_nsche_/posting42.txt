@@ -1,0 +1,12 @@
+ID: 904
+CREATION_DATETIME: 1354143600000
+MODIFICATION_DATETIME: 1354143600000
+TITLE: Ich bin auch dafür das Layout dort zu überarbeiten. Gegen Kacheln habe ich nichts, es muss aber gut u...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 889
+POSTING_TYPE: comment
+CONTENT:
+Ich bin auch dafür das Layout dort zu überarbeiten. <REMOVED_PERSON_ENTITY> habe ich nichts, es muss aber gut umgesetzt werden. Und im Moment ragt die Schrift gerne mal über die <REMOVED_PERSON_ENTITY> hinaus. Seitliches Scrollen, wie <NAME_CORPUS_REPLACEMENT> Fredo vorgeschlagen, ist in.
+
+Es würde vielleicht schon reichen, wenn die Kacheln einfach größer wären.
+TAGGED_CONTENT:

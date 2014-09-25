@@ -1,0 +1,8 @@
+ID: 97784
+CREATION_DATETIME: 1297012905
+MODIFICATION_DATETIME: 1297012905
+TITLE: Re: Klausur - Erlaubte Hilfsmittel
+PARENT_POSTING_ID: 97783
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>, gibt es eine Musterklausur? Damit wir ungefähr wissen was auf uns zu kommt?Gerade Vektoralgebra fällt mir noch relativ schwer und leider ist das Skript da nicht soo hilfreich. Viele Grüße, <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

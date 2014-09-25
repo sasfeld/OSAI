@@ -1,0 +1,16 @@
+ID: 117561
+CREATION_DATETIME: 1327348310
+MODIFICATION_DATETIME: 1327348733
+TITLE: Re: Probeklausur
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=43909#117561
+POS_TAG: value:Gauselimination;weight:0.0;uri:;postag:NN
+POS_TAG: value:Formeln;weight:0.0;uri:;postag:NN
+POS_TAG: value:Raum;weight:0.0;uri:;postag:NN
+POS_TAG: value:UniVibes;weight:0.0;uri:;postag:NN
+POS_TAG: value:ePatrick;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117558
+CONTENT:
+ Moin <REMOVED_PERSON_ENTITY>, wir sitzen hier gerade vor Raum 127, also mit UniVibes, und wollten fragenwarum Du die Formeln nach der Gauselimination auf =0 gesetzt hast?GrüßePatrick, <REMOVED_PERSON_ENTITY> und <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:
+Moin_NE <_VVFIN REMOVED_PERSON_ENTITY_NE >_NE ,_$, wir_PPER sitzen_VVFIN hier_ADV gerade_ADV vor_APPR Raum_NN 127_CARD ,_$, also_ADV mit_APPR UniVibes_NN ,_$, und_KON wollten_VMFIN fragenwarum_ADV Du_PPER die_ART Formeln_NN nach_APPR der_ART Gauselimination_NN auf_APPR =_XY 0_CARD gesetzt_VVPP hast?GrüßePatrick_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE und_KON <_NE REMOVED_PERSON_ENTITY_NE >_XY 

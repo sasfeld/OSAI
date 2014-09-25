@@ -1,0 +1,36 @@
+ID: 116453
+CREATION_DATETIME: 1324053504
+MODIFICATION_DATETIME: 1324053504
+TITLE: Welche Formelsammlung?
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Mathematische Logik;weight:1.0;significance:5.5495558013999;degreegeneralization:6;uri:20881349
+TOPIC_ZOOM_TAG: value:Symbolische Logik;weight:1.0;significance:5.5495558013999;degreegeneralization:7;uri:20782698
+TOPIC_ZOOM_TAG: value:Aussagenlogik;weight:1.0;significance:5.5495558013999;degreegeneralization:8;uri:20847655
+TOPIC_ZOOM_TAG: value:Mathematikunterricht;weight:1.0;significance:5.45839502300295;degreegeneralization:7;uri:20897533
+TOPIC_ZOOM_TAG: value:Schulunterricht;weight:1.0;significance:4.80875353093781;degreegeneralization:6;uri:20897550
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Logik;weight:1.0;significance:4.16326144028003;degreegeneralization:4;uri:21472524
+TOPIC_ZOOM_TAG: value:Unterricht;weight:1.0;significance:4.06179101828168;degreegeneralization:4;uri:20916930
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Schulen;weight:1.0;significance:2.93507215719329;degreegeneralization:5;uri:21882020
+TOPIC_ZOOM_TAG: value:Schulische Bildung und Erziehung;weight:1.0;significance:2.93346701937817;degreegeneralization:3;uri:21882122
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:2.78563553898677;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Gesetze und Rechtsnormen;weight:1.0;significance:2.65949278077814;degreegeneralization:4;uri:21982286
+TOPIC_ZOOM_TAG: value:Gesetzgebung;weight:1.0;significance:2.61603856703501;degreegeneralization:3;uri:21982320
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Geisteswissenschaften;weight:1.0;significance:2.32717230908476;degreegeneralization:3;uri:21978240
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:2.18452430611399;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:1.32554850720165;degreegeneralization:2;uri:21999830
+POS_TAG: value:sind?Vielen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gesetze;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mathe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aussagenlogik;weight:0.0;uri:;postag:NN
+POS_TAG: value:Formelsammlung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Buchtipp;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen, welche Formelsammlung für Mathe könnt ihr empfehlen? Gibt es auch welche, wo schon die Gesetze der Aussagenlogik gleich mit drin sind?Vielen Dank für jeden Buchtipp! :-) 
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, welche_PWAT Formelsammlung_NN für_APPR Mathe_NN könnt_VVFIN ihr_PPOSAT empfehlen_VVINF ?_$. Gibt_VVFIN es_PPER auch_ADV welche_PIS ,_$, wo_PWAV schon_ADV die_ART Gesetze_NN der_ART Aussagenlogik_NN gleich_ADV mit_APPR drin_ADV sind?Vielen_NN Dank_NN für_APPR jeden_PIDAT Buchtipp_NN !_$. :--RRB-_XY 

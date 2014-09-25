@@ -1,0 +1,12 @@
+ID: 2755
+CREATION_DATETIME: 1383951600000
+MODIFICATION_DATETIME: 1383951600000
+TITLE: Das UserAccountManager-Interface kommt ja sowieso aus Salespoint, die Implementierung von dem Interfa...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2749
+POSTING_TYPE: comment
+CONTENT:
+Das UserAccountManager-Interface kommt ja sowieso aus Salespoint, die Implementierung <NAME_CORPUS_REPLACEMENT> dem Interface ist auch im , useraccount Package, hat aber nur package visibility. Genau so ist es auch bei allen anderen Interfaces, Catalog, Inventory, OrderManager usw. Mit einem Decompiler sieht man die alle. ;)
+
+Das CrudRepository kommt <NAME_CORPUS_REPLACEMENT> Spring, wie das funktioniert weiß ich selber nicht genau bzw müsste erst nachschauen. Spring <REMOVED_PERSON_ENTITY> halt, wie Autowired und <NAME_CORPUS_REPLACEMENT>.
+TAGGED_CONTENT:

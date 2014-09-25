@@ -1,0 +1,4 @@
+ID: 4
+TITLE: Fehler im Skript LE03 getStatusDirekt()
+LANGUAGE: GERMAN
+FIRST_POSTING_ID: 12

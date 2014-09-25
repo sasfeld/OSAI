@@ -1,0 +1,9 @@
+ID: 1911
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: Do these answers sorta contradict one another? Is the capability table considered part of the mapping...
+PARENT_POSTING_ID: 1910
+POSTING_TYPE: comment
+CONTENT:
+Do these answers sorta contradict one another? Is the capability table considered part of the mapping database or do the approaches of seL4 and Fiasco simply vary in that detail?
+TAGGED_CONTENT:

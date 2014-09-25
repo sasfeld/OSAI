@@ -1,0 +1,52 @@
+ID: 170029
+CREATION_DATETIME: 1350146172
+MODIFICATION_DATETIME: 1350146172
+TITLE: Re: Online Präsenz vom 10.10.
+TOPIC_ZOOM_TAG: value:Relationen (Mathematik);weight:2.0;significance:12.015402334674;degreegeneralization:7;uri:20797471
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Äquivalenzrelationen;weight:1.0;significance:6.35427475761695;degreegeneralization:8;uri:20146745
+TOPIC_ZOOM_TAG: value:Ordnungsrelationen;weight:1.0;significance:6.007701167337;degreegeneralization:8;uri:20797488
+TOPIC_ZOOM_TAG: value:Ordnungstheorie;weight:1.0;significance:6.007701167337;degreegeneralization:6;uri:20797505
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:E;weight:0.0;uri:;postag:NN
+POS_TAG: value:F;weight:0.0;uri:;postag:NN
+POS_TAG: value:G;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ende;weight:0.0;uri:;postag:NN
+POS_TAG: value:A;weight:0.0;uri:;postag:NN
+POS_TAG: value:B;weight:0.0;uri:;postag:NN
+POS_TAG: value:C;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabenstellung;weight:0.0;uri:;postag:NN
+POS_TAG: value:re;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:bungsaufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:nge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ordnungsrelationenoder;weight:0.0;uri:;postag:NN
+POS_TAG: value:Besten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:quivalenzrelation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teilmenge;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 170025
+CONTENT:
+Außerdem noch eine Frage:
+Im wurde noch folgende Übungsaufgabe geannt.
+Ist Teilmenge von:{1, 4, 7}, {1, 4}, {1, 7}, {4, 7}, {1}, {4}, {7}Ich verstehe hier nicht ganz die Aufgabenstellung:Ich weiß zwar was eine <REMOVED_PERSON_ENTITY> ist aber trotzdem weiß ich gar nicht was ich hier machen soll. Eventuell so:?A={1, 4, 7}, B={1, 4}, C={1, 7}, D={4, 7}, E={1}, F={4}, G={7}
+B ist Teilmenge von A
+C ist Teilmenge von A
+D ist Teilmenge von A
+E ist Teilmenge von A
+F ist Teilmenge von A
+G ist Teilmenge von A
+E ist Teilmenge von B
+F ist Teilmenge von B
+G ist Teilmenge von B
+E ist Teilmenge von C
+F ist Teilmenge von C
+G ist Teilmenge von C
+und wie geht es nun weiter?bRc, bRd, bRe usw.?Am Ende soll man dann begründen, ob eine Ordnungsrelationenoder Äquivalenzrelation oder auch gar nichts von beiden vorliegt?Wäre super wenn ihr mir etwas auf die Sprünge helfen könntet. Besten Dank und Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Außerdem_PROAV noch_ADV eine_ART Frage_NN :_$. Im_APPRART wurde_VAFIN noch_ADV folgende_ADJA Übungsaufgabe_NN geannt_VVPP ._$. Ist_VAFIN Teilmenge_NN von_APPR :{_CARD 1_CARD ,_$, 4_CARD ,_$, 7_CARD -RCB-_TRUNC ,_$, -LCB-_TRUNC 1_CARD ,_$, 4_CARD -RCB-_TRUNC ,_$, -LCB-_TRUNC 1_CARD ,_$, 7_CARD -RCB-_TRUNC ,_$, -LCB-_TRUNC 4_CARD ,_$, 7_CARD -RCB-_TRUNC ,_$, -LCB-_TRUNC 1_CARD -RCB-_TRUNC ,_$, -LCB-_TRUNC 4_CARD -RCB-_TRUNC ,_$, -LCB-_TRUNC 7_CARD -RCB-_TRUNC Ich_PPER verstehe_VVFIN hier_ADV nicht_PTKNEG ganz_ADV die_ART Aufgabenstellung_NN :_$. Ich_PPER weiß_VVFIN zwar_ADV was_PWS eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_ADJD ist_VAFIN aber_ADV trotzdem_PROAV weiß_VVFIN ich_PPER gar_ADV nicht_PTKNEG was_PWS ich_PPER hier_ADV machen_VVINF soll_VMFIN ._$. Eventuell_ADJD so_ADV :_$. ?_$. A_NN ={_VVFIN 1_CARD ,_$, 4_CARD ,_$, 7_CARD -RCB-_TRUNC ,_$, B_NN ={_CARD 1_CARD ,_$, 4_CARD -RCB-_TRUNC ,_$, C_NN ={_CARD 1_CARD ,_$, 7_CARD -RCB-_TRUNC ,_$, D_XY ={_CARD 4_CARD ,_$, 7_CARD -RCB-_TRUNC ,_$, E_NN ={_CARD 1_CARD -RCB-_TRUNC ,_$, F_NN ={_CARD 4_CARD -RCB-_TRUNC ,_$, G_NN ={_CARD 7_CARD -RCB-_TRUNC B_NN ist_VAFIN Teilmenge_NN von_APPR A_NN C_NN ist_VAFIN Teilmenge_NN von_APPR A_NN D_NE ist_VAFIN Teilmenge_NN von_APPR A_NN E_NN ist_VAFIN Teilmenge_NN von_APPR A_NN F_NE ist_VAFIN Teilmenge_NN von_APPR A_NN G_NE ist_VAFIN Teilmenge_NN von_APPR A_NN E_NN ist_VAFIN Teilmenge_NN von_APPR B_NN F_NE ist_VAFIN Teilmenge_NN von_APPR B_NN G_NE ist_VAFIN Teilmenge_NN von_APPR B_NN E_NN ist_VAFIN Teilmenge_NN von_APPR C_NN F_NN ist_VAFIN Teilmenge_NN von_APPR C_NN G_NN ist_VAFIN Teilmenge_NN von_APPR C_NN und_KON wie_PWAV geht_VVFIN es_PPER nun_ADV weiter?bRc_NE ,_$, bRd_NE ,_$, bRe_NE usw_NE ._$. ?_$. Am_APPRART Ende_NN soll_VMFIN man_PIS dann_ADV begründen_VVFIN ,_$, ob_KOUS eine_ART Ordnungsrelationenoder_NN Äquivalenzrelation_NN oder_KON auch_ADV gar_ADV nichts_PIS von_APPR beiden_PIDAT vorliegt?Wäre_NN super_ADJD wenn_KOUS ihr_PPOSAT mir_PPER etwas_PIS auf_APPR die_ART Sprünge_NN helfen_VVFIN könntet_ADJD ._$. Besten_NN Dank_NN und_KON Gruß_NN <_VVFIN REMOVED_PERSON_ENTITY_NE >_XY 

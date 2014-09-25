@@ -1,0 +1,12 @@
+ID: 1887
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: analyze(programSrc, kernelName) würde also heißen, ich kompiliere die Src für jeden Kernel extra und ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1885
+POSTING_TYPE: comment
+CONTENT:
+analyze(programSrc, kernelName) würde also heißen, ich kompiliere die Src für jeden Kernel extra und picke mir nur den Kernel raus?
+
+Wir wollten uns doch so einigen, dass analyze(programsrc) eine map\<kernelName, result\> ausspuckt..
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 184
+CREATION_DATETIME: 1349301600000
+MODIFICATION_DATETIME: 1349388000000
+TITLE: hi, thanks for the cr
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 182
+POSTING_TYPE: answer
+CONTENT:
+hi, thanks for the critical opinion. of course this project is still under heavy development and you will see some usability improvements over the next weeks. you <NAME_CORPUS_REPLACEMENT> delete your account thru your profile page, but I would encourage you to stick around and many give us your opinion and feedback on how you think we could improve
+TAGGED_CONTENT:

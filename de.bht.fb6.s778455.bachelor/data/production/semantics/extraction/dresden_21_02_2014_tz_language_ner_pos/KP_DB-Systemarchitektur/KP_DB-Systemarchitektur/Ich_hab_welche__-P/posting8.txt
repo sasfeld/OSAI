@@ -1,0 +1,43 @@
+ID: 1886
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: Nein. Ich nutze z.B. g++. Das "LLVM-Zeugs" ist eine Sammlung von ganz normalen C++-Bibliotheken.
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Compiler;weight:1.0;significance:11.6099372265658;degreegeneralization:9;uri:20195178
+TOPIC_ZOOM_TAG: value:Technische Informatik;weight:1.0;significance:10.3106542424356;degreegeneralization:5;uri:20889033
+TOPIC_ZOOM_TAG: value:Programmiersprachen;weight:1.0;significance:7.85651925131431;degreegeneralization:8;uri:20901749
+TOPIC_ZOOM_TAG: value:Programmierung;weight:1.0;significance:7.16337207075436;degreegeneralization:7;uri:21461440
+TOPIC_ZOOM_TAG: value:Formale Sprachen;weight:1.0;significance:7.03179571296564;degreegeneralization:6;uri:21978155
+TOPIC_ZOOM_TAG: value:Computersprachen;weight:1.0;significance:7.02837690621686;degreegeneralization:6;uri:19949137
+TOPIC_ZOOM_TAG: value:Software;weight:1.0;significance:5.21023364446695;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:5.02422544755277;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:5.00870710783694;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:5.00780172072213;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:4.31013985980766;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+NER_TAG: value:LLVM-Zeugs;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:Compiler;weight:0.0;uri:;postag:NN
+POS_TAG: value:loader;weight:0.0;uri:;postag:NN
+POS_TAG: value:C;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeugs;weight:0.0;uri:;postag:NN
+POS_TAG: value:Trick;weight:0.0;uri:;postag:NN
+POS_TAG: value:Schau;weight:0.0;uri:;postag:NN
+POS_TAG: value:bin;weight:0.0;uri:;postag:NN
+POS_TAG: value:Flags;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:B.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Makefile;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: comment
+CONTENT:
+Nein. Ich nutze z. B. g++. Das "LLVM-Zeugs" ist eine <REMOVED_PERSON_ENTITY> <NAME_CORPUS_REPLACEMENT> ganz normalen C++-<REMOVED_PERSON_ENTITY>.
+
+Schau mal in die Makefile <NAME_CORPUS_REPLACEMENT> modul_loader, dort steht drin, wie man llvm-config korrekt benutzen muss. llvm-config besorgt dir automatisch die richtigen Flags für Compiler und <REMOVED_PERSON_ENTITY>, sodass es mit LLVM kompiliert. (dadurch funktioniert auch der Trick mit clanc-llvm/bin in PATH)
+TAGGED_CONTENT:
+Nein_PTKANT ._$. Ich_PPER nutze_VVFIN z._APPRART B._NN g_XY +_XY +_XY ._$. Das_ART "_$( LLVM-Zeugs_NN "_$( ist_VAFIN eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD <_XY NAME_CORPUS_REPLACEMENT_NN >_CARD ganz_ADV normalen_ADJA C_NN +_XY +_XY -_$( <_XY REMOVED_PERSON_ENTITY_NE >_NE ._$. Schau_NN mal_ADV in_APPR die_ART Makefile_NN <_CARD NAME_CORPUS_REPLACEMENT_NN >_CARD modul_loader_NN ,_$, dort_ADV steht_VVFIN drin_ADV ,_$, wie_PWAV man_PIS llvm-config_ADJD korrekt_ADJD benutzen_VVINF muss_VMFIN ._$. llvm-config_ADJD besorgt_ADJD dir_PPER automatisch_ADJD die_ART richtigen_ADJA Flags_NN für_APPR Compiler_NN und_KON <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN ,_$, sodass_KOUS es_PPER mit_APPR LLVM_NE kompiliert_VVPP ._$. -LRB-_TRUNC dadurch_PROAV funktioniert_VVFIN auch_ADV der_ART Trick_NN mit_APPR clanc-llvm\/bin_NN in_APPR PATH_NE -RRB-_TRUNC 

@@ -1,0 +1,9 @@
+ID: 2298
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Officially I can only tell you that everything is important.
+PARENT_POSTING_ID: 2293
+POSTING_TYPE: answer
+CONTENT:
+Officially I <NAME_CORPUS_REPLACEMENT> only tell you that everything is important.
+TAGGED_CONTENT:

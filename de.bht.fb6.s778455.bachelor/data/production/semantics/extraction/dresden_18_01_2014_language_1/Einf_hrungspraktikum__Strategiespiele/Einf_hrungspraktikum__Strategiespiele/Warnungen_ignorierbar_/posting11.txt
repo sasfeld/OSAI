@@ -1,0 +1,10 @@
+ID: 1229
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: An dieser Stelle möchte ich doch mal auf https://auditorium.inf.tu-dresden.de/posts/866 hinweisen. Di...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1225
+POSTING_TYPE: comment
+CONTENT:
+An dieser Stelle möchte ich doch mal auf https://auditorium. inf. tu-dresden. de/posts/866 hinweisen. Die Antwort, die du auf deine eigene Frage gegeben hast, hat nichts mit der <NAME_CORPUS_REPLACEMENT> dir gestellten Frage zu tun.
+TAGGED_CONTENT:

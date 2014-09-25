@@ -1,0 +1,30 @@
+ID: 167823
+CREATION_DATETIME: 1349619977
+MODIFICATION_DATETIME: 1349619977
+TITLE: Re: Hilfe für Aufgabe 2d
+TOPIC_ZOOM_TAG: value:Ungleichungen;weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:20806277
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Unendlichkeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Seiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bedingung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Variable;weight:0.0;uri:;postag:NN
+POS_TAG: value:nkung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tip;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gleichung;weight:0.0;uri:;postag:NN
+POS_TAG: value:ge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ungleichung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zahl;weight:0.0;uri:;postag:NN
+POS_TAG: value:Umformung;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 167417
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+evtl. läuft es darauf hinaus, dass auf  beiden Seiten der Ungleichung Beträge für die selbe Variable stehen.
+Wenn man x-1 >= -(x-2) rechnet und die Einschränkung x=1 gelten. Unter der Bedingung 1 =3/2 würde man zur Unendlichkeit kommen. Es ist aber nur eine <REMOVED_PERSON_ENTITY> von mir!
+zu 2b. Wenn ich mir die Gleichung anschaue ist mir schon klar, dass x eine beliebige reelle Zahl sein kann. Ich habe aber keine Umformung hinbekommen aus der das irgendwie nachvollziehbar hervorgeht. Hat jemand einen Tip?
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE ,_$, evtl_ADJD ._$. läuft_VVFIN es_PPER darauf_PROAV hinaus_PTKVZ ,_$, dass_KOUS auf_APPR beiden_PIDAT Seiten_NN der_ART Ungleichung_NN Beträge_NN für_APPR die_ART selbe_ADJA Variable_NN stehen_VVFIN ._$. Wenn_KOUS man_PIS x-1_XY >_XY =_XY -_$( -LRB-_TRUNC x-2_XY -RRB-_TRUNC rechnet_VVFIN und_KON die_ART Einschränkung_NN x_XY =_XY 1_CARD gelten_VVINF ._$. Unter_APPR der_ART Bedingung_NN 1_CARD =_XY 3\/2_CARD würde_VAFIN man_PIS zur_APPRART Unendlichkeit_NN kommen_VVINF ._$. Es_PPER ist_VAFIN aber_ADV nur_ADV eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD von_APPR mir_PPER !_$. zu_APPR 2b_CARD ._$. Wenn_KOUS ich_PPER mir_PPER die_ART Gleichung_NN anschaue_VVFIN ist_VAFIN mir_PPER schon_ADV klar_ADJD ,_$, dass_KOUS x_XY eine_ART beliebige_ADJA reelle_ADJA Zahl_NN sein_VAINF kann_VMFIN ._$. Ich_PPER habe_VAFIN aber_ADV keine_PIAT Umformung_NN hinbekommen_VVPP aus_APPR der_ART das_ART irgendwie_ADV nachvollziehbar_ADJD hervorgeht_VVFIN ._$. Hat_VAFIN jemand_PIS einen_ART Tip_NN ?_$. 

@@ -1,0 +1,10 @@
+ID: 1091
+CREATION_DATETIME: 1359500400000
+MODIFICATION_DATETIME: 1359500400000
+TITLE: Danke für das Feedback. Ich habe [hier eine entsprechende Ansage gemacht](https://auditorium.inf.tu-d...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1087
+POSTING_TYPE: comment
+CONTENT:
+Danke für das Feedback. Ich habe [hier eine entsprechende Ansage gemacht](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/posts/1090#post-1090) :) 
+TAGGED_CONTENT:

@@ -1,0 +1,18 @@
+ID: 117550
+CREATION_DATETIME: 1324415964
+MODIFICATION_DATETIME: 1324416035
+TITLE: Re: Üben Üben Üben
+TOPIC_ZOOM_TAG: value:Allgemeine (nicht fachgebundene) Universitäten;weight:1.0;significance:6.31830884816858;degreegeneralization:5;uri:21881952
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Uni;weight:0.0;uri:;postag:NN
+POS_TAG: value:Glaub;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tag;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117547
+CONTENT:
+Würde am 29. 12. mal vorbeikommen. Seit ihr an dem Tag auch in der Uni?
+Glaub die Uni hat an dem Tag gar nicht auf ... hmm seit ihr dann wo anders?
+TAGGED_CONTENT:
+Würde_VAFIN am_APPRART 29_CARD ._$. 12_CARD ._$. mal_ADV vorbeikommen_VVFIN ._$. Seit_APPR ihr_PPOSAT an_APPR dem_ART Tag_NN auch_ADV in_APPR der_ART Uni_NN ?_$. Glaub_NN die_ART Uni_NN hat_VAFIN an_APPR dem_ART Tag_NN gar_ADV nicht_PTKNEG auf_APPR ..._$( hmm_VVIMP seit_APPR ihr_PPOSAT dann_ADV wo_PWAV anders_ADV ?_$. 

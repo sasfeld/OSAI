@@ -1,0 +1,9 @@
+ID: 1110
+CREATION_DATETIME: 1360537200000
+MODIFICATION_DATETIME: 1360537200000
+TITLE: Also MyMatrix war ja auch mit dem Iterator-Pattern und die Klausur war 2008/09 also habe ich mal ange...
+PARENT_POSTING_ID: 1104
+POSTING_TYPE: comment
+CONTENT:
+Also MyMatrix war ja auch mit dem Iterator-Pattern und die Klausur war 2008/09 also habe ich mal angenommen, dass es prüfungsrelevant sein könnte.
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 2102
+CREATION_DATETIME: 1372197600000
+MODIFICATION_DATETIME: 1372197600000
+TITLE: Also im Manual von 1.2 (http://www.khronos.org/registry/cl/sdk/1.2/docs/man/xhtml/) sind die Atomics ...
+PARENT_POSTING_ID: 2078
+POSTING_TYPE: comment
+CONTENT:
+Also im Manual <NAME_CORPUS_REPLACEMENT> 1. 2 (http://www.khronos.org/registry/cl/sdk/1. 2/docs/man/xhtml/) sind die Atomics immer noch nicht bei den "Builtin Functions" aufgelistet. Ich hab die Atomics aber einfach mal als 1. 2 markiert.
+TAGGED_CONTENT:

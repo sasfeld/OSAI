@@ -1,0 +1,26 @@
+ID: 10
+CREATION_DATETIME: 1304060460000
+MODIFICATION_DATETIME: 1304060460000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 9
+CONTENT:
+ 
+Guten Morgen , guten Morgen ,
+
+vielen Dank für eure Hilfe!
+
+Die Idee  die System.out.println- Anweisungen direkt in die Methode faehrtNach zu schreiben war sehr gut und funktioniert bei mir tadellos.
+
+: Wenn ich die Aufgabenstellung richtig verstanden habe, sollen wir den neuen Standort speichern. Dazu müssen wir, wenn ich nicht irre, sowieso die Formel schreiben. Damit hätten wir den Wert auch übergeben. Mir scheint, das hängt eh alles an einer Leine.
+
+Der neue km-Stand soll ja eigentlich nur übergeben und nicht ausgeben werden.
+Aber ich denke deine Idee mit der zweiten Methode für die neuen Daten ist eine gute Lösung, da alleDatenAusgeben sonst unübersichtlich wird.
+-> Ich habe das so gemacht und gleich noch den neuen Standort ausgeben.
+
+: Du hast ja einen zweiten Konstruktor für Standort und Fahrgestellnummer geschrieben.
+Der heißt auch ErweitertesAuto und beeinhaltet die gleichen Anweisungen wie der erste Konstruktor mit diesem Namen? Nur, dass hier nur zwei Attribute zum Einsatz kommen?! Wie rufst du diese Werte in AutoTest2 ab? auto1.ErweitertesAuto("Standort", fahrgestellnummerL)?
+
+Beste Grüße, 
+   
+TAGGED_CONTENT:

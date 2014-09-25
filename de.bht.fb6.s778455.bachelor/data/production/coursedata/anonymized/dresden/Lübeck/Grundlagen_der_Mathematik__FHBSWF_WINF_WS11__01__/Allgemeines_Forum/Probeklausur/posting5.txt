@@ -1,0 +1,8 @@
+ID: 117558
+CREATION_DATETIME: 1327326016
+MODIFICATION_DATETIME: 1327326016
+TITLE: Re: Probeklausur
+PARENT_POSTING_ID: 117557
+CONTENT:
+Hallo Mirke, also der erste Teil ist die Determinante Berechnen. Wenn man es nach Saurus macht wäre das: 2*(-2)*2 + 2*2*a + (-4)*1*(-3) - 8a - (-6) - 2In dem 2. Teil musst du das LGS mit <REMOVED_PERSON_ENTITY> auflösen wobei du für a die 2 einsetzt. Dann kommst du irgendwann auf:1 1 -40 -3 60 0 0Ab hier rechest du dann mit z=t (erste Lösung) weiter. Das wäre dann: -3y + 6t = 0 --&gt; y = 2t (zweite Lösung)Dann: x + 2t -4t = 0 --&gt; x = 2t (dritte Lösung)Wenn man jetzt das t rauszieht dann hat man den Vektor t * (2 2 1). Allerdings erschließt sich mir der Vektor (1 1 1) noch nicht. Ich hoffe ich konnte dir etwas helfen. 
+TAGGED_CONTENT:

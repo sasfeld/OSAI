@@ -1,0 +1,23 @@
+ID: 115383
+CREATION_DATETIME: 1320000751
+MODIFICATION_DATETIME: 1320000751
+TITLE: Re: Kapitel 2.4 - Aufgabe 2
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Frauen;weight:1.0;significance:4.56619523838409;degreegeneralization:5;uri:20929187
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Konsequenzen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Antwort;weight:0.0;uri:;postag:NN
+POS_TAG: value:Schreiben;weight:0.0;uri:;postag:NN
+POS_TAG: value:lle;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frau;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wahrheitstabelle;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einzelbetrachtung;weight:0.0;uri:;postag:NN
+POS_TAG: value:B.;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 115382
+CONTENT:
+Hallo Frau <REMOVED_PERSON_ENTITY>, vielen Dank für die prompte Antwort. Das hat mir deutlich geholfen. Ich hab wirklich zu kompliziert gedacht. Ich bin davon ausgegangen, dass man die Lösung in einem <REMOVED_PERSON_ENTITY>, also z. B. durch das Schreiben eine Wahrheitstabelle, ablesen kann. Durch die Einzelbetrachtung der Fälle und deren Konsequenzen ließ sich schnell die Aufgabe lösen. Viele Grüße, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ Frau_NN <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, vielen_PIDAT Dank_NN für_APPR die_ART prompte_ADJA Antwort_NN ._$. Das_PDS hat_VAFIN mir_PPER deutlich_ADJD geholfen_VVPP ._$. Ich_PPER hab_VAFIN wirklich_ADJD zu_PTKZU kompliziert_VVFIN gedacht_VVPP ._$. Ich_PPER bin_VAFIN davon_PROAV ausgegangen_VVPP ,_$, dass_KOUS man_PIS die_ART Lösung_NN in_APPR einem_ART <_NN REMOVED_PERSON_ENTITY_NE >_NE ,_$, also_ADV z._APPRART B._NN durch_APPR das_ART Schreiben_NN eine_ART Wahrheitstabelle_NN ,_$, ablesen_VVINF kann_VMFIN ._$. Durch_APPR die_ART Einzelbetrachtung_NN der_ART Fälle_NN und_KON deren_PDAT Konsequenzen_NN ließ_VVFIN sich_PRF schnell_ADJD die_ART Aufgabe_NN lösen_VVINF ._$. Viele_PIDAT Grüße_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

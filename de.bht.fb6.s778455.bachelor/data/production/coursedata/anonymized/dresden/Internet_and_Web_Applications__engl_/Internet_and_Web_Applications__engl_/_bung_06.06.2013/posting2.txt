@@ -1,0 +1,14 @@
+ID: 1949
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Hallo,
+
+ja, ich kann die Lösung in dem Fall mal ausnahmsweise online stellen (wird aber vstl. ein p...
+PARENT_POSTING_ID: 1948
+POSTING_TYPE: answer
+CONTENT:
+Hallo,
+ja, ich kann die Lösung in dem Fall mal ausnahmsweise online stellen (wird aber vstl. ein paar Tage brauchen, <NAME_CORPUS_REPLACEMENT> ich die Antworten noch ausformulieren muss).
+Viele Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

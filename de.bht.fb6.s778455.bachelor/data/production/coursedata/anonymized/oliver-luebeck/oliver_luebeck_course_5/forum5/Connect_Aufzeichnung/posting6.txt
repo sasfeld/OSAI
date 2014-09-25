@@ -1,0 +1,14 @@
+ID: 27
+CREATION_DATETIME: 1191864360000
+MODIFICATION_DATETIME: 1191864360000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 26
+CONTENT:
+
+Jo, genau der. Letztes Semester hats auch noch funktioniert, jetzt kommt ne Passwortabfrage. Der Link "Passwort vergessen" auf dieser Login-Seite scheint auch nicht zu funzen, jedenfalls erhalte ich die angekündigte Mail nicht.
+Hab übrigens sämtliche Cookies gelöscht, Cache geleert und sowohl Internet-Explorer als auch Firefox probiert ... immer das gleiche blöde Fenster.
+
+Viele Grüße
+   
+TAGGED_CONTENT:

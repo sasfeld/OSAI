@@ -1,0 +1,35 @@
+ID: 184535
+CREATION_DATETIME: 1354520120
+MODIFICATION_DATETIME: 1354520120
+TITLE: Re: Aufgabe 2b)
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Algebraische Begriffe;weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:20767840
+TOPIC_ZOOM_TAG: value:Vektorräume;weight:1.0;significance:12.7085495152339;degreegeneralization:8;uri:20146881
+TOPIC_ZOOM_TAG: value:Lineare Algebra;weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:20881366
+TOPIC_ZOOM_TAG: value:Algebra;weight:1.0;significance:12.7085495152339;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Vektorraum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:LGS;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabenstellung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Knotenbewertungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zahl;weight:0.0;uri:;postag:NN
+POS_TAG: value:Graphen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Knotenbewertung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bewertung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Knotens;weight:0.0;uri:;postag:NN
+POS_TAG: value:Knoten;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nullsummenknotenbewertungen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 184507
+CONTENT:
+Ich habe es so verstanden, dass EINE Knotenbewertung nicht die Bewertung eines Knotens ist, sondern die Bewertung ALLER Knoten des Graphen. Laut Aufgabenstellung sind ja v1 bis v4 zusammen 4 Knotenbewertungen. <REMOVED_PERSON_ENTITY> kann also nicht einfach eine reelle Zahl sein.
+Ja, es gibt vermutlich auch (mindestens) einen anderen <REMOVED_PERSON_ENTITY>, die Aufgabenstellung zu lösen (zu zeigen, dass die Nullsummenknotenbewertungen einen Vektorraum bilden) ohne ein LGS zu verwenden. Ich sehe ihn nur zur Zeit eben nicht.
+TAGGED_CONTENT:
+Ich_PPER habe_VAFIN es_PPER so_ADV verstanden_VVPP ,_$, dass_KOUS EINE_NE Knotenbewertung_NN nicht_PTKNEG die_ART Bewertung_NN eines_ART Knotens_NN ist_VAFIN ,_$, sondern_KON die_ART Bewertung_NN ALLER_NE Knoten_NN des_ART Graphen_NN ._$. Laut_APPR Aufgabenstellung_NN sind_VAFIN ja_ADV v1_CARD bis_APPR v4_CARD zusammen_ADV 4_CARD Knotenbewertungen_NN ._$. <_XY REMOVED_PERSON_ENTITY_NN >_VVINF kann_VMFIN also_ADV nicht_PTKNEG einfach_ADV eine_ART reelle_ADJA Zahl_NN sein_VAINF ._$. Ja_PTKANT ,_$, es_PPER gibt_VVFIN vermutlich_ADV auch_ADV -LRB-_TRUNC mindestens_ADV -RRB-_TRUNC einen_ART anderen_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_NE ,_$, die_ART Aufgabenstellung_NN zu_PTKZU lösen_VVINF -LRB-_TRUNC zu_PTKZU zeigen_VVINF ,_$, dass_KOUS die_ART Nullsummenknotenbewertungen_NN einen_ART Vektorraum_NN bilden_VVFIN -RRB-_TRUNC ohne_APPR ein_ART LGS_NN zu_PTKZU verwenden_VVINF ._$. Ich_PPER sehe_VVFIN ihn_PPER nur_ADV zur_APPRART Zeit_NN eben_ADV nicht_PTKNEG ._$. 

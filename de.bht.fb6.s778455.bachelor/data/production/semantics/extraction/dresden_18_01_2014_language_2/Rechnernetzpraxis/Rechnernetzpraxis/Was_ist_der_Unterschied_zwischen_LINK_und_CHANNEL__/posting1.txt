@@ -1,0 +1,12 @@
+ID: 2543
+CREATION_DATETIME: 1381096800000
+MODIFICATION_DATETIME: 1383778800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich bin mir unsicher, was man unter LINK und CHANNEL vesteht; <REMOVED_PERSON_ENTITY> "Strukturierte Verkabelung"? 
+
+So wie ich das mitbekommen habe ist ein LINK die permanent verlegte Verkabelung zwischen dem Patchfeld und der Anschlussdose? Aber was ist der Channel?
+TAGGED_CONTENT:

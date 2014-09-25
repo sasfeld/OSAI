@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block id="12278" contextid="78604" version="2013071800">
+  <blockname>webkonf</blockname>
+  <parentcontextid>78603</parentcontextid>
+  <showinsubcontexts>0</showinsubcontexts>
+  <pagetypepattern>course-view-*</pagetypepattern>
+  <subpagepattern>$@NULL@$</subpagepattern>
+  <defaultregion>side-pre</defaultregion>
+  <defaultweight>3</defaultweight>
+  <configdata>Tjs=</configdata>
+  <block_positions>
+  </block_positions>
+</block>

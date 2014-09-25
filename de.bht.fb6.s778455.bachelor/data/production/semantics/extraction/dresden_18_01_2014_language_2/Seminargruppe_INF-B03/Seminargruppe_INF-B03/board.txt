@@ -1,0 +1,7 @@
+ID: 2154339
+CREATION_DATETIME: 1350424800000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Seminargruppe INF-B03
+LANGUAGE: UNKNOWN
+INTRO: Die Seminargruppe INF-B03 betreffende, allgemeine Fragen und Anliegen können hier eingetragen werden.
+TYPE: null

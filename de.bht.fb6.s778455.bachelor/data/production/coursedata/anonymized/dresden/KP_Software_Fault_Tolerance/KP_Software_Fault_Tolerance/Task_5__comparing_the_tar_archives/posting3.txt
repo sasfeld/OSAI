@@ -1,0 +1,9 @@
+ID: 969
+CREATION_DATETIME: 1355526000000
+MODIFICATION_DATETIME: 1355526000000
+TITLE: Came to the same solution. Should be noted that this should be done on each test, so that it has alwa...
+PARENT_POSTING_ID: 968
+POSTING_TYPE: comment
+CONTENT:
+Came to the same solution. Should be noted that this should be done on each test, so that it has always the user of the machine all this stuff is executed on.
+TAGGED_CONTENT:

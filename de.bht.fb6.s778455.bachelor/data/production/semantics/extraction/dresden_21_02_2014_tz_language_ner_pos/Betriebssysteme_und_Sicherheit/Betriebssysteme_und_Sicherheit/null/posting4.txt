@@ -1,0 +1,58 @@
+ID: 2153
+CREATION_DATETIME: 1372716000000
+MODIFICATION_DATETIME: 1373493600000
+TITLE: Doch, es ist genau nach der maximalen Anzahl der Einträge gefragt. Die Zweistufigkeit kommt dadurch i...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Byte;weight:2.0;significance:12.7085495152339;degreegeneralization:8;uri:20048519
+TOPIC_ZOOM_TAG: value:Speicherkapazität und Speichervolumen;weight:2.0;significance:9.48967369036573;degreegeneralization:7;uri:20048536
+TOPIC_ZOOM_TAG: value:Datenspeicherung;weight:2.0;significance:7.13639548305616;degreegeneralization:6;uri:20901528
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:2.0;significance:4.95064330688218;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:2.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:2.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:2.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Spiele;weight:1.0;significance:2.5016435201838;degreegeneralization:5;uri:20990217
+TOPIC_ZOOM_TAG: value:Spiele und Spielwaren;weight:1.0;significance:2.49094792519314;degreegeneralization:4;uri:21976965
+TOPIC_ZOOM_TAG: value:Hobby;weight:1.0;significance:2.47510802387151;degreegeneralization:3;uri:21999660
+TOPIC_ZOOM_TAG: value:Unterhaltung;weight:1.0;significance:2.24826185530525;degreegeneralization:3;uri:21999643
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:1.7207726480701;degreegeneralization:2;uri:21999745
+POS_TAG: value:Seiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Seitentabellen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabenstellung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spiel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Adressen;weight:0.0;uri:;postag:NN
+POS_TAG: value:ge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Pagetable;weight:0.0;uri:;postag:NN
+POS_TAG: value:Stufe;weight:0.0;uri:;postag:NN
+POS_TAG: value:PageDirectory;weight:0.0;uri:;postag:NN
+POS_TAG: value:Adressraum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Byte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beispiel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abdeckung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Seitentabelle;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anzahl;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tabellen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Level;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zweistufigkeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2152
+POSTING_TYPE: answer
+CONTENT:
+Doch, es ist genau nach der maximalen Anzahl der Einträge gefragt. Die Zweistufigkeit kommt dadurch ins Spiel, dass man bei einer zweistufigen Seitentabelle zusätzlich zu den Tabellen für den kompletten Adressraum noch eine weitere Top-Level-Pagetable braucht.
+
+Im Beispiel:
+
+32 bit Adressen -> 2^32 Byte Adressraum
+
+4 kB <REMOVED_PERSON_ENTITY> -> 2^12 Byte pro <REMOVED_PERSON_ENTITY>
+
+==> 2^32 / 2^12 = 2^20 Seiten pro Adressraum
+
+Entsprechend brauchst Du 2^20 Seitentabellen-Einträge. Diese werden verteilt auf 2^20 / 1024 = 2^20 / 2^10 = 2^10 = 1024 Seitentabellen.
+
+Bei einer zweistufigen Seitentabelle kommt jetzt noch das oberste Level hinzu. Das ist das PageDirectory - <REMOVED_PERSON_ENTITY>, die auf die ganzen anderen Seitentabellen verweist. Diese hat laut Aufgabenstellung 1024 Einträge, d. h. ein Page Directory reicht, um auf die 1024 Seitentabellen 2. Stufe zu verlinken.
+
+Entsprechend brauchst Du zur kompletten Abdeckung <REMOVED_PERSON_ENTITY> *2^20 + 1024* Einträge.
+TAGGED_CONTENT:
+Doch_KON ,_$, es_PPER ist_VAFIN genau_ADJD nach_APPR der_ART maximalen_ADJA Anzahl_NN der_ART Einträge_NN gefragt_VVPP ._$. Die_ART Zweistufigkeit_NN kommt_VVFIN dadurch_PROAV ins_APPRART Spiel_NN ,_$, dass_KOUS man_PIS bei_APPR einer_ART zweistufigen_ADJA Seitentabelle_NN zusätzlich_ADJD zu_APPR den_ART Tabellen_NN für_APPR den_ART kompletten_ADJA Adressraum_NN noch_ADV eine_ART weitere_ADJA Top-Level-Pagetable_NN braucht_VVFIN ._$. Im_APPRART Beispiel_NN :_$. 32_CARD bit_VVFIN Adressen_NN -_$( >_CARD 2_CARD ^_CARD 32_CARD Byte_NN Adressraum_NN 4_CARD kB_XY <_CARD REMOVED_PERSON_ENTITY_NN >_CARD -_$( >_CARD 2_CARD ^_CARD 12_CARD Byte_NN pro_APPR <_CARD REMOVED_PERSON_ENTITY_NN >_XY =_XY =_XY >_CARD 2_CARD ^_CARD 32_CARD \/_CARD 2_CARD ^_CARD 12_CARD =_XY 2_CARD ^_XY 20_CARD Seiten_NN pro_APPR Adressraum_NN Entsprechend_ADJD brauchst_VVFIN Du_PPER 2_CARD ^_XY 20_CARD Seitentabellen-Einträge_NN ._$. Diese_PDAT werden_VAFIN verteilt_VVPP auf_APPR 2_CARD ^_CARD 20_CARD \/_CARD 1024_CARD =_XY 2_CARD ^_CARD 20_CARD \/_CARD 2_CARD ^_CARD 10_CARD =_XY 2_CARD ^_XY 10_CARD =_XY 1024_CARD Seitentabellen_NN ._$. Bei_APPR einer_ART zweistufigen_ADJA Seitentabelle_NN kommt_VVFIN jetzt_ADV noch_ADV das_ART oberste_ADJA Level_NN hinzu_PTKVZ ._$. Das_PDS ist_VAFIN das_ART PageDirectory_NN -_$( <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN ,_$, die_PRELS auf_APPR die_ART ganzen_ADJA anderen_ADJA Seitentabellen_NN verweist_VVFIN ._$. Diese_PDS hat_VAFIN laut_APPR Aufgabenstellung_NN 1024_CARD Einträge_NN ,_$, d._PDS h._VVFIN ein_ART Page_FM Directory_FM reicht_VVFIN ,_$, um_KOUI auf_APPR die_ART 1024_CARD Seitentabellen_NN 2_CARD ._$. Stufe_NN zu_PTKZU verlinken_VVINF ._$. Entsprechend_ADJD brauchst_VVFIN Du_PPER zur_APPRART kompletten_ADJA Abdeckung_NN <_VVFIN REMOVED_PERSON_ENTITY_NE >_NE \*_CARD 2_CARD ^_CARD 20_CARD +_XY 1024_CARD \*_CARD Einträge_NN ._$. 

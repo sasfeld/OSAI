@@ -1,0 +1,11 @@
+ID: 3049
+CREATION_DATETIME: 1385593200000
+MODIFICATION_DATETIME: 1385593200000
+TITLE: Alles klar, das war wohl doch das Problem.
+Ich hatte eine Klasse übersehen.
+PARENT_POSTING_ID: 3045
+POSTING_TYPE: comment
+CONTENT:
+Alles klar, das war wohl doch das Problem.
+Ich hatte eine Klasse übersehen.
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 2688
+CREATION_DATETIME: 1383260400000
+MODIFICATION_DATETIME: 1383260400000
+TITLE: Ok, Jetzt geht es endlich. Fazit: ich bin einfach zu blöd :)
+
+Danke
+PARENT_POSTING_ID: 2658
+POSTING_TYPE: answer
+CONTENT:
+Ok, Jetzt geht es endlich. Fazit: ich bin einfach zu blöd :)
+Danke
+TAGGED_CONTENT:

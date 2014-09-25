@@ -1,0 +1,12 @@
+ID: 187531
+CREATION_DATETIME: 1355563424
+MODIFICATION_DATETIME: 1355563424
+TITLE: Re: 2. Gruppenaufgabe
+POS_TAG: value:eg;weight:0.0;uri:;postag:NN
+POS_TAG: value:L;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 186955
+CONTENT:
+Hi,
+also ich versteh es so$$(  eg (L \wedge M) \rightarrow (  eg V))$$ , was meint Ihr.
+TAGGED_CONTENT:
+Hi_NE ,_$, also_ADV ich_PPER versteh_VVFIN es_PPER so_ADV $_CARD $_XY -LRB-_TRUNC eg_KON -LRB-_TRUNC L_NN \_CARD wedge_VVFIN M_NE -RRB-_TRUNC \_XY rightarrow_ADJD -LRB-_TRUNC eg_NN V_CARD -RRB-_TRUNC -RRB-_TRUNC $_XY $_CARD ,_$, was_PWS meint_VVFIN Ihr_PPER ._$. 

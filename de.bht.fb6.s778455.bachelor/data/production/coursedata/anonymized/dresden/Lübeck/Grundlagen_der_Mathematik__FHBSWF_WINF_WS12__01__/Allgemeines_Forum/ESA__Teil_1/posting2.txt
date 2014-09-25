@@ -1,0 +1,14 @@
+ID: 183515
+CREATION_DATETIME: 1354012515
+MODIFICATION_DATETIME: 1354012515
+TITLE: Re: ESA, Teil 1
+PARENT_POSTING_ID: 180485
+CONTENT:
+Hallo zusammen,
+ich hänge gerade an der Aufgabe 2. Leider habe ich mit der Aufgabenstellung b) meine Probleme. In der Aufgabestellung steht "Für jeden Knoten ist die <REMOVED_PERSON_ENTITY> der Knotenwerte seiner Nachbarn gleich Null."
+Irgendwie sehe ich das nicht, eventuell verstehe ich diese Sache aber auch falsch. Nehme ich z. B. in der folgenden Grafik den Knoten oben links mit der Bewertung "1". Dieser Knoten hat nur ein Nachbarn und zwar die "0" die ziemlich zentral in der Mitte steht. 1+0 ist aber 1 und nicht 0
+Oder ist das so gemeint, dass man eben NUR die Nachbarn betrachtet. Somit hätte der Knoten oben links nur die zentrale "0" als Nachbarn. Da nur ein <REMOVED_PERSON_ENTITY> vorhanden ist muss hier auch nichts addiert werden. 0 ist Null.
+Vermutlich ist zweiteres richtig, korrekt?
+Danke und Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

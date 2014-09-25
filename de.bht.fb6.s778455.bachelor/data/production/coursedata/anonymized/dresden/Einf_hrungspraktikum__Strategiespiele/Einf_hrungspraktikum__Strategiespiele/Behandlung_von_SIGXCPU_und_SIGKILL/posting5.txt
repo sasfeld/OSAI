@@ -1,0 +1,9 @@
+ID: 1450
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1362870000000
+TITLE: Ah, danke. Wild durch den Code springen will ich sowieso nicht. sondern nur bei z.B. zwei ineinanderl...
+PARENT_POSTING_ID: 1446
+POSTING_TYPE: comment
+CONTENT:
+Ah, danke. Wild durch den Code springen will ich sowieso nicht. sondern nur bei z. B. zwei ineinanderliegenden For-Schleifen aus der Inneren direkt hinter das Ende der äußeren Schleife springen...
+TAGGED_CONTENT:

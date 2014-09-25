@@ -1,0 +1,11 @@
+ID: 918
+CREATION_DATETIME: 1354143600000
+MODIFICATION_DATETIME: 1383260400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich frage mich gerade beim Schreiben meiner Belegarbeit, ob es denn Pflicht ist, seine Arbeit im Hochformat zu schreiben? Querformat hätte ja auch einige Vorteile.
+Beispielsweise sind Querformat-PDFs ja für Montore und Tables besser geeignet, <NAME_CORPUS_REPLACEMENT> sie gleich den gesamten Inhalt ohne Zoom präsentieren und man einfach nur Blättern muss. <LEARNED_PERSON_NAME_REPLACEMENT>ßerdem würden dadurch zwei- oder mehrspaltige Layouts viel besser dargestellt werden, weil sie mehr Breite besitzen, als im Hochformat. Was vor allem bei Paper sehr wünschenswert wäre. 
+Und es ist mal etwas Anderes! :)
+TAGGED_CONTENT:

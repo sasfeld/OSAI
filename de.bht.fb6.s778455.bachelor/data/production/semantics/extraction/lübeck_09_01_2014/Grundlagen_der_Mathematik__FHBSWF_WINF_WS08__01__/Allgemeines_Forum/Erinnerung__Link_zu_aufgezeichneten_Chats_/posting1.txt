@@ -1,0 +1,8 @@
+ID: 16559
+CREATION_DATETIME: 1223402988
+MODIFICATION_DATETIME: 1223402988
+TITLE: Erinnerung: Link zu aufgezeichneten Chats?
+PARENT_POSTING_ID: 0
+CONTENT:
+<REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>, denken Sie bitte daran, uns noch den <REMOVED_PERSON_ENTITY> mitzuteilen, unter dem wir die bisherigen (und künftigen) Chataufzeichnungen ansehen können? Danke undfreundliche GrüßePhilipp <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

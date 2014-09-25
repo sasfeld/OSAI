@@ -1,0 +1,11 @@
+ID: 169849
+CREATION_DATETIME: 1350059753
+MODIFICATION_DATETIME: 1350059753
+TITLE: Frage LO4 - Kapitel:Aussagen und Ihre Verknüpfungen
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+ich bearbeite zur Zeit das Lernobjekt 4, Aussagen und Ihre Verknüpfungen. Am Ende das Kapitels gibt es einen Punkt 2. 4 mit Aufagben. Habe diese versucht zu lösen, allerdings kam ich bei Aufagbe 2 und 3 nie auf das gleiche Ergebnis wie in der Lösung. 
+Hat das schon jemand von euch richtig gelöst bzw. ist schon jemand an der Stelle???
+Gruß <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

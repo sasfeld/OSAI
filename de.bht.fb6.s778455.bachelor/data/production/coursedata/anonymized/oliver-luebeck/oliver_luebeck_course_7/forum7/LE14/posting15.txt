@@ -1,0 +1,16 @@
+ID: 88
+CREATION_DATETIME: 1306939020000
+MODIFICATION_DATETIME: 1306939020000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 85
+CONTENT:
+   
+Liebe Studierende,
+
+die Methode printf ist eine Alternative zu print oder println. Der erste Paramater ist eine Zeichenkette, die erlaubt die Ausgabe zu formatieren (daher printf), siehe class java.io.PrintStream, der Typ der Klassen-Variable out in der Klasse System
+
+Die Anzahl der Werte, die zu ausgeben sind, steht nicht fest (Methode mit einer variablen Anzahl von Parametern). Sie werden mit , getrennt.
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

@@ -1,0 +1,16 @@
+ID: 1788
+CREATION_DATETIME: 1368050400000
+MODIFICATION_DATETIME: 1368050400000
+TITLE: Das Modul habe ich zumindest in meinem Test-Quellcode KernelCost genannt.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1787
+POSTING_TYPE: answer
+CONTENT:
+Das Modul habe ich zumindest in meinem Test-Quellcode KernelCost genannt.
+
+Die Makefile (keine CMakeFile) für meinen Testcode sieht so aus: http://pastebin.com/ePP80n9W
+
+Das ganze ruft man dann mit `opt -load ./KernelCost. so -kernelcost kernel. <LEARNED_PERSON_NAME_REPLACEMENT>` auf. Allerdings hatten wir ja abgesprochen, dass es besser wäre, statt einer <REMOVED_PERSON_ENTITY>, die in opt geladen wird, ein Programm zu schreiben, das eine . <LEARNED_PERSON_NAME_REPLACEMENT>-Datei lädt und den Pass dann darüber laufen lässt.
+
+(das mit CMake habe ich nicht hinbekommen, aber wäre cool, wenn wir das ganze wirklich als CMakeFile hätten)
+TAGGED_CONTENT:

@@ -1,0 +1,11 @@
+ID: 201
+CREATION_DATETIME: 1349560800000
+MODIFICATION_DATETIME: 1349647200000
+TITLE: Also auf der ESE Seit
+PARENT_POSTING_ID: 190
+POSTING_TYPE: answer
+CONTENT:
+Also auf der ESE Seite vom IFSR wurde noch einmal reingeschrieben das "Technische Grundlagen" und "Rechnerarchitektur" Übungen schon in der ersten Woche stattfinden. Aber das haben ja nur die Diplomer im ersten Semester. 
+Ich als Bachelor Medieninformatiker verstehe das also so das unsere Übungen diese Woche nicht stattfinden.
+Korrekt?
+TAGGED_CONTENT:

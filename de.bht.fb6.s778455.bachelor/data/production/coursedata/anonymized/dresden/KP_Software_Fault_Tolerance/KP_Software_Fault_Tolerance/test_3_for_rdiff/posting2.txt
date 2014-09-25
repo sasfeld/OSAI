@@ -1,0 +1,9 @@
+ID: 2679
+CREATION_DATETIME: 1383174000000
+MODIFICATION_DATETIME: 1383174000000
+TITLE: Two general tips: use assertions and perform error checking. You don't have to handle each and every ...
+PARENT_POSTING_ID: 2678
+POSTING_TYPE: answer
+CONTENT:
+Two general tips: use assertions and perform error checking. You don't have to handle each and every fault, but <NAME_CORPUS_REPLACEMENT> knowing what is currently going wrong will help you pass our tests.
+TAGGED_CONTENT:

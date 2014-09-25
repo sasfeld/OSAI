@@ -1,0 +1,22 @@
+ID: 662
+CREATION_DATETIME: 1352070000000
+MODIFICATION_DATETIME: 1384124400000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hey everybody,
+
+I cannot get test3 working and get the following error message from the test system:
+
+> *** glibc detected *** ./t3: double free or corruption (top): 0x095af008 ***
+
+After that i get the representation of the Memory map. 
+
+I have checked it using valgrind (without further parameters) and it should be ok (8 allocs and 8 frees), so i'm not sure what is wrong. Running it with several test files (empty, non-existent, missing permissions) works fine. 
+
+Could someone give me a clue as to what is being tested in test3? 
+
+Thanks!
+TAGGED_CONTENT:

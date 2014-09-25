@@ -1,0 +1,17 @@
+ID: 2114
+CREATION_DATETIME: 1372370400000
+MODIFICATION_DATETIME: 1382220000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo folgende Frage zu den Inventarlisten in der Klausur SS 05:
+In Aufgabe 3 haben wir eine Klasse InventoryCollection, die über eine Aggregation (Name inventory) InventoryItems enthält. Über einen InventoryIterator sollen die Elemente der Aggregation zurückgegeben werden. Indem ich dem Iterator die Aggregation "inventory" (z. B. als Set) übergebe, kann ich den Iterator <NAME_CORPUS_REPLACEMENT> Set nutzen um die Funktionen des InventoryIterators zu implementieren (damit wäre das ein Objektadapter, neben dem Iterator, als zweites Muster).
+Aber wie ist das in Teilaufgabe d? InventoryItem soll jetzt auch strukturierte Items aufnehmen können, damit bietet sich das Muster Composite an. Abstract InventoryItem (oder ist das ein Interface InventoryItem ?), <NAME_CORPUS_REPLACEMENT> dem das Leaf (Einfach InventoryItem) und die Komposite (KomplexInventoryItem) erben (oder implementieren?).
+Laut vorgegeben Code muss die Klasse InventoryItem auch <NAME_CORPUS_REPLACEMENT> InventoryItem erben (oder implementieren? - laut dem Text scheint es eher eine Implementierung zu sein, <NAME_CORPUS_REPLACEMENT> dort <NAME_CORPUS_REPLACEMENT> Interface gesprochen wird):
+public class InventoryCollection implements InventoryItem (bzw. extends InventoryItem)
+<REMOVED_PERSON_ENTITY> wie ist das mit der Aggregation (Set inventory) zwischen InventoryCollection und abstract InventoryItem (interface InventoryItem) - bleibt die trotz Vererbung / Implementierung bestehen - ich müsste ja den Iterator dieses Sets im InventoryIterator nutzen, um über das Set mit den InventoryItems iterieren zu können, um dann über einen Vergleich (instanceof oder getClass(). getName()) herauszukriegen, ob es sich einfaches InventoryItem handelt, die zurückgeliefert werden sollen, oder um ein KomplexInventoryItem, die noch weiter bis zum EinfachInventoryItem aufgedröselt werden müssen. Das ist schon wieder das nächste Problem - wie stelle ich das an?
+Ich müsste ja die Aggregation zwischen KomplexInventoryItem und InventoryItem extra benennen (als Setstruktur bspw.) und über den Set-Iterator weiter die KomplexInventoryItems bis hin zu den EinfachInventoryItems aufdröseln? Würde man das in eine extra Methode auslagern (Ist bei Klausuren vorgesehen, dass man mehr Methoden als vorgegeben erstellen kann?) oder kann man das irgendwo beim InventoryIterator unterbringen (wäre allerdings ziemlich unübersichtlich)?
+Fragen über Fragen - kann mal jemand ein paar <REMOVED_PERSON_ENTITY> geben?
+Danke. 
+TAGGED_CONTENT:

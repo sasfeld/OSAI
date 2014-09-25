@@ -1,0 +1,27 @@
+ID: 1496
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Der Grund ist vermutlich, dass der Vector nicht richtig initialisiert wurde. Denn ein malloc initiali...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Abfall, Müll und Entsorgung, Recycling;weight:1.0;significance:7.99901931392159;degreegeneralization:4;uri:21978257
+TOPIC_ZOOM_TAG: value:Umwelt;weight:1.0;significance:4.63545831554077;degreegeneralization:3;uri:21981708
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:1.80459553725326;degreegeneralization:2;uri:21999847
+POS_TAG: value:new;weight:0.0;uri:;postag:NN
+POS_TAG: value:ll;weight:0.0;uri:;postag:NN
+POS_TAG: value:Speicher;weight:0.0;uri:;postag:NN
+POS_TAG: value:Konstruktor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Konstruktoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vectors;weight:0.0;uri:;postag:NN
+POS_TAG: value:BoardState;weight:0.0;uri:;postag:NN
+POS_TAG: value:Stelle;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vector;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1491
+POSTING_TYPE: comment
+CONTENT:
+Der <REMOVED_PERSON_ENTITY> ist vermutlich, dass der Vector nicht richtig initialisiert war. Denn ein malloc initialisiert den Speicher <LEARNED_PERSON_NAME_REPLACEMENT> nicht. Und es ruft schon gar keine Konstruktoren auf. Wenn zuvor an die Stelle also Müll geschrieben wurde, kann alles mögliche passieren.
+
+Dies passiert nicht bei new, weil dort der (generierte) Konstruktor <NAME_CORPUS_REPLACEMENT> BoardState den Konstruktor des Vectors aufruft.
+TAGGED_CONTENT:
+Der_ART <_NN REMOVED_PERSON_ENTITY_NE >_NE ist_VAFIN vermutlich_ADV ,_$, dass_KOUS der_ART Vector_NN nicht_PTKNEG richtig_ADJD initialisiert_VVPP war_VAFIN ._$. Denn_KON ein_ART malloc_ADJD initialisiert_VVFIN den_ART Speicher_NN <_CARD LEARNED_PERSON_NAME_REPLACEMENT_NN >_VVFIN nicht_PTKNEG ._$. Und_KON es_PPER ruft_VVFIN schon_ADV gar_ADV keine_PIAT Konstruktoren_NN auf_PTKVZ ._$. Wenn_KOUS zuvor_ADV an_APPR die_ART Stelle_NN also_ADV Müll_NN geschrieben_VVPP wurde_VAFIN ,_$, kann_VMFIN alles_PIS mögliche_ADJA passieren_VVINF ._$. Dies_PDS passiert_VVFIN nicht_PTKNEG bei_APPR new_NN ,_$, weil_KOUS dort_ADV der_ART -LRB-_TRUNC generierte_ADJA -RRB-_TRUNC Konstruktor_NN <_CARD NAME_CORPUS_REPLACEMENT_NN >_CARD BoardState_NN den_ART Konstruktor_NN des_ART Vectors_NN aufruft_VVFIN ._$. 

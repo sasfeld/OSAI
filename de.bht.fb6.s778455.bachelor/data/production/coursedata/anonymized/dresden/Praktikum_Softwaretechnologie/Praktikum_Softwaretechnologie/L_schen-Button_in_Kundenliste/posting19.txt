@@ -1,0 +1,18 @@
+ID: 2997
+CREATION_DATETIME: 1385247600000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: Ok, das hätte ich echt sehen müssen!
+Ich hab jetzt die Fehlermeldungen immer weiter befolgt und nun ...
+PARENT_POSTING_ID: 2935
+POSTING_TYPE: comment
+CONTENT:
+Ok, das hätte ich echt sehen müssen!
+Ich hab jetzt die Fehlermeldungen immer weiter befolgt und nun kann ich zwar die kundenliste wieder anklicken und es kommt die Liste, jetzt ist aber in meiner Löschen-Spalte kein Button mehr! Ich hab schon gesucht aber weiß nicht, wie ich <NAME_CORPUS_REPLACEMENT> jetzt sonst nen Button in die Tabellenspalten bekomme.
+```java
+<td class="salespoint"
+                                 method="post" action="/deleteUser"                                    
+                                        legend="Nutzer löschen"
+                                        type="submit" name="id" value="X" th:value="${customer. userAccount. identifier}"                               
+                            />
+```
+TAGGED_CONTENT:

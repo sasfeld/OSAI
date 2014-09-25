@@ -1,0 +1,12 @@
+ID: 63
+CREATION_DATETIME: 1181566500000
+MODIFICATION_DATETIME: 1181566500000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 61
+CONTENT:
+
+Ich verstehe nicht ganz wie deltaX die Hälfte einer Seitenlänge des Quadrates sein kann und gleichzeitig in der Klasse Rechteck 30 sein soll bei gleichbleibenden x und y Werten für die Testklasse. Also alle Daten für das Reckteck verwirren mich. x = 20 und y = 20 (was an sich schonmal nichts anderes als ein Quadrat ist) und weshalb ist deltaX geich 30 und deltaY gleich 5 wenn DeltaY die Hälfte der anderen Seitenlänge sein soll. Irgendwie passen alle Testwerte nicht zueinander oder denke ich in die falsche Richtung? Kann mir wer weiterhelfen.
+Soll man eventuell die x und y Werte gar nicht weiterbetrachten, da sie noch ursprünglich vom Punkt stammen und einfach nur mit den DeltaX- und DeltaY-Werten hantieren?
+   
+TAGGED_CONTENT:

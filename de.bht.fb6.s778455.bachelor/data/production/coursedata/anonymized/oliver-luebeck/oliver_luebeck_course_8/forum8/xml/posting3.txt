@@ -1,0 +1,15 @@
+ID: 46
+CREATION_DATETIME: 1198937160000
+MODIFICATION_DATETIME: 1198937160000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 45
+CONTENT:
+
+Nachtrag:
+
+Es geht auch ohne Plugin: File -> New -> File
+Und dann einfach eine XML-Datei erstellen. Ähnlich wie mit einem einfachen Texteditor.
+Allerdings werden dann Fehler nicht angezeigt – dazu ist dann das Plugin nötig.
+   
+TAGGED_CONTENT:

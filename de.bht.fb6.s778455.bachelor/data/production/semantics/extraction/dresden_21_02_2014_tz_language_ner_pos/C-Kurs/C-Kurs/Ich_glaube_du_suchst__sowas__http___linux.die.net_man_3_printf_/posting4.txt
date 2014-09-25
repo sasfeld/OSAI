@@ -1,0 +1,23 @@
+ID: 2926
+CREATION_DATETIME: 1384815600000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: Ja echt jetzt....... Wusste nicht das man das lokal auf jedem Computer finden kann. Danke.
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:4.31013985980766;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Wusste;weight:0.0;uri:;postag:NN
+POS_TAG: value:Links;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hinweis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Computer;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2914
+POSTING_TYPE: comment
+CONTENT:
+Ja echt jetzt. Wusste nicht das man das lokal auf jedem Computer finden kann. Danke für den Hinweis
+
+Danke auf jedenfall für die Links...
+TAGGED_CONTENT:
+Ja_PTKANT echt_ADJD jetzt_ADV ._$. Wusste_NN nicht_PTKNEG das_ART man_PIS das_ART lokal_ADJD auf_APPR jedem_PIDAT Computer_NN finden_VVINF kann_VMFIN ._$. Danke_PROAV für_APPR den_ART Hinweis_NN Danke_NE auf_APPR jedenfall_PIDAT für_APPR die_ART Links_NN ..._$( 

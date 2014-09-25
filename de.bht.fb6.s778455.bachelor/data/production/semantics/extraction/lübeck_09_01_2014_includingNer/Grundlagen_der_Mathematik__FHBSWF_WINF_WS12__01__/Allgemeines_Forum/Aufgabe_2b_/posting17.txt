@@ -1,0 +1,19 @@
+ID: 185807
+CREATION_DATETIME: 1354813010
+MODIFICATION_DATETIME: 1354813010
+TITLE: Re: Aufgabe 2b)
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Algebraische Begriffe;weight:1.0;significance:6.35427475761695;degreegeneralization:7;uri:20767840
+TOPIC_ZOOM_TAG: value:Vektorräume;weight:1.0;significance:6.35427475761695;degreegeneralization:8;uri:20146881
+TOPIC_ZOOM_TAG: value:Algebra;weight:1.0;significance:6.35427475761695;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Lineare Algebra;weight:1.0;significance:6.35427475761695;degreegeneralization:7;uri:20881366
+TOPIC_ZOOM_TAG: value:Vektoren;weight:1.0;significance:6.35427475761695;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 185773
+CONTENT:
+Moin :)
+Würde ich ähnlich sehen. Es geht halt nur um die Abstraktion auf den Graphen, der als Vektorraum gesehen werden kann. Wir sprechen einfach nur über Vektoren, die eine Eigenschaft X (hier die Nullsummenregel) erfüllen und somit in ihrer eigenen Welt, also einem Untervektorraum, existieren. V1 ... v4 kann man hier als Beispiele nehmen, um eine Formel aufzustellen, falls man dies für die Beantwortung der Aufgabe machen möchte. Er schreibt aber ja auch, dass wir dies unabhängig von den Graphen tun sollen. GrüßeLars 
+TAGGED_CONTENT:

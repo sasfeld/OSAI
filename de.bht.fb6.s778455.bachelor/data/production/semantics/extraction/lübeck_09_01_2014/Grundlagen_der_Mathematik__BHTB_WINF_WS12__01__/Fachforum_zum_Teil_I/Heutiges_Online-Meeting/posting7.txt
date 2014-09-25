@@ -1,0 +1,11 @@
+ID: 166573
+CREATION_DATETIME: 1349282733
+MODIFICATION_DATETIME: 1349282733
+TITLE: Re: Heutiges Online-Meeting
+TOPIC_ZOOM_TAG: value:Feiertage;weight:1.0;significance:6.76051452605328;degreegeneralization:5;uri:20718404
+TOPIC_ZOOM_TAG: value:Feiern, Feste und Festakte;weight:1.0;significance:5.9680301556277;degreegeneralization:4;uri:20919667
+TOPIC_ZOOM_TAG: value:Veranstaltungen;weight:1.0;significance:3.37051978211685;degreegeneralization:3;uri:20901494
+PARENT_POSTING_ID: 166545
+CONTENT:
+Hi, ich hatte die gestrige Ansage auch so verstanden, dass trotz Feiertag Heute das Meeting stattfinden sollte und hatte auch keine Antwort auf meine Mail an Hr. Moesner bekommen.
+TAGGED_CONTENT:

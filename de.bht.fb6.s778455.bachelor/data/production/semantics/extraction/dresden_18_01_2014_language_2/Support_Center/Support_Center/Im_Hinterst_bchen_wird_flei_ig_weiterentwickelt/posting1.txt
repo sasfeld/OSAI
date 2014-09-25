@@ -1,0 +1,18 @@
+ID: 2437
+CREATION_DATETIME: 1374530400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Um euch auf dem Laufenden zu halten, möchte ich mitteilen, dass bereits an einer neuen Version <NAME_CORPUS_REPLACEMENT> auditorium gearbeitet wird. Die Pläne habe ich bereits auf der diesjährigen Output vorgestellt. 
+
+Es ist eine größere Veränderung geplant, weshalb es noch eine Weile dauern wird, bis das Ergebnis präsentiert werden kann. Wenn alles nach Plan verläuft, dann wird die neue Version zum Semesterstartschuss das Licht der Welt erblicken. 
+
+Dabei wurden die zahlreichen Verbesserungsvorschläge und <NAME_CORPUS_REPLACEMENT> wahrgenommen und es werden fast alle einfließen. Auch die schon lange erwartete Vorschau <NAME_CORPUS_REPLACEMENT> <REMOVED_PERSON_ENTITY> wird Einzug halten.
+
+Ach und nicht zu vergessen: auditorium wird dann auch in Deutsch verfügbar sein ;)
+
+Also bleibt gespannt, es geht weiter, nur dauert es noch ein bisschen! :)
+TAGGED_CONTENT:

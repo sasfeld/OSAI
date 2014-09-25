@@ -1,0 +1,12 @@
+ID: 1113
+CREATION_DATETIME: 1360882800000
+MODIFICATION_DATETIME: 1381096800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+In der Modulbeschreibung steht etwas <NAME_CORPUS_REPLACEMENT> einer mündlichen Prüfung über alle Inhalte die man belegt.
+Jetzt habe ich einen benoteten <REMOVED_PERSON_ENTITY> "Datenbankadministration" der in die Vertiefung passen würde. Muss ich jetzt das Fach nochmal mündlich prüfen lassen oder kann ich es gar nicht einbringen?
+Wär super wenn jemand eine Idee hat.
+TAGGED_CONTENT:

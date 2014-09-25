@@ -1,0 +1,9 @@
+ID: 1905
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: kommentier in der testCLT.cpp einfach mal den execute() call aus, dann sollte es durchlaufen
+PARENT_POSTING_ID: 1904
+POSTING_TYPE: comment
+CONTENT:
+kommentier in der testCLT. cpp einfach mal den execute() call aus, dann sollte es durchlaufen
+TAGGED_CONTENT:

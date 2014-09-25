@@ -1,0 +1,16 @@
+ID: 2717
+CREATION_DATETIME: 1383519600000
+MODIFICATION_DATETIME: 1383606000000
+TITLE: Also ich persönlich sehe den Kurs in erster Linie als ersten Einstieg in C und vorallem aber als Vorb...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2716
+POSTING_TYPE: comment
+CONTENT:
+Also ich persönlich sehe den Kurs in erster Linie als ersten Einstieg in C und vorallem aber als Vorbereitung auf das Strategiespielpraktikum in der kommenden vorlesungsfreien Zeit. Ich würde gerne zumindest einigermaßen soweit kommen, das ich in C sicher genug werde um das Praktikum möglichst selbstständig zu beenden. 
+
+Als Anfänger in höheren Programmiersprachen möchte ich einfach den Umgang mit Klartexteditor, der Syntax <NAME_CORPUS_REPLACEMENT> C und dem Aufbau der Programme lernen und so einen ersten Fuß in die Programmierung an sich bekommen um dann später auch auf andere Sprachen umsteigen bzw. umdenken zu können.
+
+Ich weiß halt nicht wie weit und wie viel man in einem Kurs wie ihr den jetzt anbietet (danke dafür übrigens, finde ich super) schaffen kann aber ich <NAME_CORPUS_REPLACEMENT> mich überraschen und freue mich drauf.
+
+Erwarten tue ich viele praktische Aufgaben (auch für Zuhause evtl) denn anders, als beim Anwenden und Programmieren, lernt man eine Programmiersprache wohl nicht, oder? 
+TAGGED_CONTENT:

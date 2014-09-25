@@ -1,0 +1,10 @@
+ID: 1232
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: So. Nun hat jede Email eine Message-ID. Antworten und Kommentare zu Fragen und Ankündigungen haben zu...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1196
+POSTING_TYPE: comment
+CONTENT:
+So. Nun hat jede Email eine Message-ID. Antworten und Kommentare zu Fragen und Ankündigungen haben zusätzlich einen `in-reply-to` Eintrag. Das Testen kann beginnen ;) 
+TAGGED_CONTENT:

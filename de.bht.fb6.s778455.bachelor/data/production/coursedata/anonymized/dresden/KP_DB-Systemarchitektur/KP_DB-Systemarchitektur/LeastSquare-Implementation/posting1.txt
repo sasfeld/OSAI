@@ -1,0 +1,15 @@
+ID: 2246
+CREATION_DATETIME: 1373925600000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+ich hab' mal die Ergebnisse der LeastSquare-Klasse ausgegeben und nachgerechnet, ob die so stimmen, und <NAME_CORPUS_REPLACEMENT> kommt folgendes raus:
+http://paste.ubuntu.com/5880255/
+Zu lesen ist das ganze folgendermaßen:
+Ab Zeile 2191 beginnt eine Matrix, die in LeastSquare eingespeist wird.
+Ab Zeile 2392 wird nachgerechnet, ob die errechneten Koeffizienten multipliziert mit den Werten wieder die rechte Seite der Gleichung ergeben.
+Scrollt man jetzt weiter runter, sind viele solche Messungen vorhanden. Was mir spanisch vorkommt ist, dass die berechneten Werte auf einmal negative Werte annehmen, also die Koeffizienten komplett unsinnig werden, sobald mehr <REMOVED_PERSON_ENTITY> dazukommen. Kannst du mal schauen, ob du LeastSquare richtig implementiert hast? Vielleicht hast du einfach nur ein Vorzeichen oder ein Reziproke übersehen.
+TAGGED_CONTENT:

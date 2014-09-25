@@ -1,0 +1,12 @@
+ID: 2073
+CREATION_DATETIME: 1371420000000
+MODIFICATION_DATETIME: 1372197600000
+TITLE: Im neuen Skript ist da eine Komposition zwischen Mietwohnung und Miethaus.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2069
+POSTING_TYPE: answer
+CONTENT:
+Im neuen Skript ist <NAME_CORPUS_REPLACEMENT> eine Komposition zwischen Mietwohnung und Miethaus.
+
+"Was ich nicht verstehe ist, dass eine Mietwohnung einen Mietvertag haben muss..." - das ist wohl eine Ausgestaltung der Textausführungen?
+TAGGED_CONTENT:

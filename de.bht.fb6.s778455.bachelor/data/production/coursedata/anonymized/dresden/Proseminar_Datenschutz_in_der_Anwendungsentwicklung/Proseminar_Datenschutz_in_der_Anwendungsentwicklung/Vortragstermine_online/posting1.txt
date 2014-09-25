@@ -1,0 +1,10 @@
+ID: 2609
+CREATION_DATETIME: 1382479200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> Studenten,
+auf der [Proseminar-Webseite](http://www.inf.tu-dresden. de/index. php?node_id=3251) finden sich nun alle Termine mit Vortragsthemen der Seminarteilnehmer.
+TAGGED_CONTENT:

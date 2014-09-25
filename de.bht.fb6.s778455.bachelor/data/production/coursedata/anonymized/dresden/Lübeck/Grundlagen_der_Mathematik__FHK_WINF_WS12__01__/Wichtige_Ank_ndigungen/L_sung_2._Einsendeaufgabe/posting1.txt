@@ -1,0 +1,11 @@
+ID: 181141
+CREATION_DATETIME: 1353251952
+MODIFICATION_DATETIME: 1353251952
+TITLE: Lösung 2. Einsendeaufgabe
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Studierenden,
+die Lösung der 2. Einsendeaufgabe ist jetzt aktualisiert, d. h. mit einer ausführlichen Lösung für Teil b) versehen!
+Viele Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

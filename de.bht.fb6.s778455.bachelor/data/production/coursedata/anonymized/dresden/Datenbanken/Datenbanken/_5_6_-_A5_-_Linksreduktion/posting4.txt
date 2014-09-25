@@ -1,0 +1,12 @@
+ID: 2510
+CREATION_DATETIME: 1375999200000
+MODIFICATION_DATETIME: 1375999200000
+TITLE: Das verstehe ich immer noch nicht. Genau das ist ja mein Problem: Warum gilt denn 
+
+$$% D -> A \Cup...
+PARENT_POSTING_ID: 2509
+POSTING_TYPE: comment
+CONTENT:
+Das verstehe ich immer noch nicht. Genau das ist ja mein Problem: Warum gilt denn 
+D -> A u B u E? Diese Abhängigkeit muss in dem Schritt ja erst nachgewiesen werden. Und ich komme <NAME_CORPUS_REPLACEMENT> D weder zu A noch zu B? Bitte nochmal ein paar Details. ;)
+TAGGED_CONTENT:

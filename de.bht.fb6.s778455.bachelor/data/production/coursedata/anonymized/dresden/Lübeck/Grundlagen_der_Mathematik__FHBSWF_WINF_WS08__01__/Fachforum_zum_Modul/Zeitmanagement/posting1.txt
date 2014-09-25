@@ -1,0 +1,8 @@
+ID: 16675
+CREATION_DATETIME: 1227732757
+MODIFICATION_DATETIME: 1227732757
+TITLE: Zeitmanagement
+PARENT_POSTING_ID: 0
+CONTENT:
+Wie habt ihr euch das Modul terminiert?Ich kann den Zeitaufwand für die einzelnen Kapitel ganz schlecht einschätzen!Was wird denn in der Präsenz als Wissenstand erwartet?Hat jemand da eine Idee oder nen guten Tipp?Ist alles schon so verdammt lange her:-/
+TAGGED_CONTENT:

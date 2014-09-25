@@ -1,0 +1,26 @@
+ID: 1843
+CREATION_DATETIME: 1369087200000
+MODIFICATION_DATETIME: 1369087200000
+TITLE: Genügt es nicht, die Klasse TestCase (ist ein Interface notwendig), mit den jeweiligen Instanziierung...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Schnittstellen;weight:1.0;significance:8.39106140169762;degreegeneralization:6;uri:20896088
+TOPIC_ZOOM_TAG: value:Kommunikationstechnik;weight:1.0;significance:5.71829301474005;degreegeneralization:5;uri:20897125
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:CLeverTrustee;weight:0.0;uri:;postag:NN
+POS_TAG: value:Interface;weight:0.0;uri:;postag:NN
+POS_TAG: value:TestCase;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klasse;weight:0.0;uri:;postag:NN
+POS_TAG: value:Instanziierungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Parameter;weight:0.0;uri:;postag:NN
+POS_TAG: value:Testkernel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Denkfehler;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Genügt es nicht, die Klasse TestCase (ist ein Interface notwendig), mit den jeweiligen Instanziierungen für die einzelnen Testkernel anzulegen? Ausgeführt wird es dann doch sowieso über den CLeverTrustee, der "nur" die richtigen Parameter mitbekommen muss. Oder habe ich <NAME_CORPUS_REPLACEMENT> noch einen groben Denkfehler?
+TAGGED_CONTENT:
+Genügt_VVFIN es_PPER nicht_PTKNEG ,_$, die_ART Klasse_NN TestCase_NN -LRB-_TRUNC ist_VAFIN ein_ART Interface_NN notwendig_ADJD -RRB-_TRUNC ,_$, mit_APPR den_ART jeweiligen_ADJA Instanziierungen_NN für_APPR die_ART einzelnen_ADJA Testkernel_NN anzulegen_VVIZU ?_$. Ausgeführt_VVPP wird_VAFIN es_PPER dann_ADV doch_ADV sowieso_ADV über_APPR den_ART CLeverTrustee_NN ,_$, der_ART "_$( nur_ADV "_$( die_ART richtigen_ADJA Parameter_NN mitbekommen_VVPP muss_PPER ._$. Oder_KON habe_VAFIN ich_PPER <_PRF NAME_CORPUS_REPLACEMENT_NE >_CARD noch_ADV einen_ART groben_ADJA Denkfehler_NN ?_$. 

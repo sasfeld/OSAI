@@ -1,0 +1,17 @@
+ID: 193259
+CREATION_DATETIME: 1358113663
+MODIFICATION_DATETIME: 1358113663
+TITLE: Re: Gruppenübungen
+PARENT_POSTING_ID: 193181
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+zu H) könnte ich eventuell etwas sagen.
+Wir hatten im Script mal ein Kapitel da ging es um die Invertierbarkeit einer Matrix. Eine Matrix A war gegeben und man sollte eine Matrix X finden mit der ich Matrix A multiplizieren muss damit die Einheitsmatrix entsteht.
+Gelöst würde dies, indem man für die Koeffizientenmatrix die Matrix A gesetzt hat und für die rechte <REMOVED_PERSON_ENTITY> den passenden Einheitsvektor hingeschrieben hat.
+Also so: 1 2 3 | 1 0 0 4 5 6 | 0 1 0  7 8 9 | 0 0 1
+Anschließend muss die Matrix auf Stufenform gebracht. Das Ergebnis war denn die inverse Matrix B mit der man Matrix A multiplieren muss das A*X=B gilt.  Aus diesem Grund würde ich diese Aufgabe lösen indem ich die eine Matrix als Koeffizientenmatrix setzen würde und die andere Matrix als Rechte Seite setzen würde…  Ist aber ohne Gewähr.
+ Was sagt Du dazu?
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+Bei J habe ich gerade auch keine Idee. Kann hier eventuell jemand anderes weiterhelfen, würde ich auch gerne wissen wollen.
+TAGGED_CONTENT:

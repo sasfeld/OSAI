@@ -1,0 +1,10 @@
+ID: 762
+CREATION_DATETIME: 1352761200000
+MODIFICATION_DATETIME: 1352761200000
+TITLE: Ein kleiner Beweiß dazu findet sich auch im Studienablaufplan der neuen Diplomer, da steht nämlich da...
+PARENT_POSTING_ID: 728
+POSTING_TYPE: comment
+CONTENT:
+Ein kleiner Beweiß dazu findet sich auch im Studienablaufplan der neuen Diplomer (der fürs Hauptstudium ja eigentlich fast nur Copy-Paste <NAME_CORPUS_REPLACEMENT> den Mastern ist), <NAME_CORPUS_REPLACEMENT> steht nämlich das Ü:
+http://www.inf.tu-dresden. de/content/study/regulations/download/inf/2010/study. app. 1. de. pdf
+TAGGED_CONTENT:

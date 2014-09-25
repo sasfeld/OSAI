@@ -1,0 +1,30 @@
+ID: 7
+CREATION_DATETIME: 1304019960000
+MODIFICATION_DATETIME: 1304019960000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 6
+CONTENT:
+ 
+Guten Abend!
+(Oder sollte ich System.out.println("Guten Abend!"); sagen?)
+
+Habt ihr für String standort und long Fahrgestellnummer einen neuen Konstruktor aufgemacht?
+Ich habe das in den bestehenden eingenbunden. Ansonsten müsste man doch noch einen mit dem Klassennamen (ErweitertesAuto) erstellen, oder?
+Also überladen?!
+
+Ansonsten habe ich noch eine weitere Frage. Wie habt ihr faehrtNach umgesetzt? Ich schrieb:
+
+public int faehrtNach(String ziel, int entfernung) {
+this.ziel = ziel;
+this.entfernung = entfernung;
+
+return entfernung + this.kmStand;
+
+Das ist irgendwie totaler Nonsens. Dementsprechend kann ich für System.out.println auch nicht auf ziel und entfernung zugreifen.
+
+Hat jemand einen Tip? 
+
+Beste Grüße, 
+    
+TAGGED_CONTENT:

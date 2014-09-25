@@ -1,0 +1,9 @@
+ID: 163799
+CREATION_DATETIME: 1348559736
+MODIFICATION_DATETIME: 1348559736
+TITLE: Re: Lerngruppe gesucht
+PARENT_POSTING_ID: 163059
+CONTENT:
+Hallo Zusammen,
+hat sich schon jemand für die Übungsaufgaben im Lon <REMOVED_PERSON_ENTITY> angemeldet? Wenn ja wie finde ich unseren Kurs: "VFH - Lineare Algebra / Grundlagen der Mathematik WS2012/2013"
+TAGGED_CONTENT:

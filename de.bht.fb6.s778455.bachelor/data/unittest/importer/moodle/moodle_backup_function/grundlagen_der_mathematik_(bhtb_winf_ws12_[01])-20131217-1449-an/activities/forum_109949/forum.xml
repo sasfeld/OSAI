@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="22453" moduleid="109949" modulename="forum" contextid="154203">
+  <forum id="22453">
+    <type>news</type>
+    <name>News forum</name>
+    <intro>General news and announcements</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>1</scale>
+    <maxbytes>0</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1185445767</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="63687">
+        <name>Heute OM 20 Uhr: Einstieg Aussagenlogik</name>
+        <firstpost>171435</firstpost>
+        <userid>2647</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1350460625</timemodified>
+        <usermodified>2647</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="171435">
+            <parent>0</parent>
+            <userid>2647</userid>
+            <created>1350460625</created>
+            <modified>1350460625</modified>
+            <mailed>1</mailed>
+            <subject>Heute OM 20 Uhr: Einstieg Aussagenlogik</subject>
+            <message>&lt;p&gt;Einstieg Aussagenlogik&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="71561">
+        <name>Arbeitsblatt zu LGS inkl. Lösungen abgelegt</name>
+        <firstpost>191163</firstpost>
+        <userid>2647</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1357496877</timemodified>
+        <usermodified>2647</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="191163">
+            <parent>0</parent>
+            <userid>2647</userid>
+            <created>1357496877</created>
+            <modified>1357496877</modified>
+            <mailed>1</mailed>
+            <subject>Arbeitsblatt zu LGS inkl. Lösungen abgelegt</subject>
+            <message>&lt;p&gt;Arbeitsblatt zu LGS inkl. Lösungen abgelegt.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="71913">
+        <name>Probeklausur 2</name>
+        <firstpost>191955</firstpost>
+        <userid>2647</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1357717431</timemodified>
+        <usermodified>2647</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="191955">
+            <parent>0</parent>
+            <userid>2647</userid>
+            <created>1357717431</created>
+            <modified>1357717431</modified>
+            <mailed>1</mailed>
+            <subject>Probeklausur 2</subject>
+            <message>&lt;p&gt;Probeklausur 2 abgelegt.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

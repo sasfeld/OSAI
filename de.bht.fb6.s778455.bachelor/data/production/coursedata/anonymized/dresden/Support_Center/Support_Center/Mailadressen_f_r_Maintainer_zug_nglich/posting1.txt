@@ -1,0 +1,12 @@
+ID: 451
+CREATION_DATETIME: 1350856800000
+MODIFICATION_DATETIME: 1350856800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ahoj,
+als Maintainer eines Kurses kann ich über Edit Users eine Liste aller verfügbaren Nutzer im gesamten Auditorium inklusive Emailadressen einsehen. Das finde ich datenschutzmäßig mindestens bedenklich. Könntet ihr das so implementieren, dass man zB nach Nutzern suchen kann, aber keine komplette Liste bekommt bzw. wenn, dann ohne Emailadressen oder so? Das Feature ist zwar immens praktisch, aber irgendwie auch bedenklich.
+Grüße,
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

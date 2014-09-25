@@ -1,0 +1,18 @@
+ID: 70
+CREATION_DATETIME: 1342476000000
+MODIFICATION_DATETIME: 1384038000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wenn ihr Bugs findet, Features wollt oder etwas schmerzlich vermisst, schreibt es hier rein, bis es einen offiziellen Bug Tracker <NAME_CORPUS_REPLACEMENT> uns gibt. :) Wir haben nun auf [Github einen Issue Tracker](http://github.com/auditorium/auditorium/issues) eingerichtet.
+
+Neben diesem Thread können also auch gern dort Bugs und Auffälligkeiten oder <NAME_CORPUS_REPLACEMENT> eingetragen werden.
+
+Neu ist der feedback Button am linken Rand der <REMOVED_PERSON_ENTITY> - hierüber kann uns gern Feedback gegeben werden.
+
+Danke
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

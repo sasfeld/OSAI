@@ -1,0 +1,22 @@
+ID: 2854
+CREATION_DATETIME: 1384470000000
+MODIFICATION_DATETIME: 1384556400000
+TITLE: Pack das neben deine main Methode.
+
+```
+	@Bean
+	public CharacterEncodingFilter characterEncodingF...
+PARENT_POSTING_ID: 2853
+POSTING_TYPE: answer
+CONTENT:
+Pack das neben deine main Methode.
+```
+@Bean
+public CharacterEncodingFilter characterEncodingFilter() {
+	final CharacterEncodingFilter characterEncodingFilter = new CharacterEncodingFilter();
+	characterEncodingFilter. setEncoding("UTF-8");
+	characterEncodingFilter. setForceEncoding(true);
+	return characterEncodingFilter;
+}
+```
+TAGGED_CONTENT:

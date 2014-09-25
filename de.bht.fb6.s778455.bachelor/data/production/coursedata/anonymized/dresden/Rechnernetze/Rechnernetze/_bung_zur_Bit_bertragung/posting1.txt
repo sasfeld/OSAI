@@ -1,0 +1,12 @@
+ID: 2443
+CREATION_DATETIME: 1374616800000
+MODIFICATION_DATETIME: 1379541600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Gegeben sei folgende Aufgabe:
+"Ein LAN-Kabel (Cat5) mit 100 MHz Bandbreite soll die Übertragung mit 1 Gbit/s ermöglichen. Wie hoch muss im Kabel der Signal-Rausch-Abstand eines Adernpaares zu benachbarten Paaren mindestens sein?"
+Lösung:
+SNR>22025, entspricht 43db
+TAGGED_CONTENT:

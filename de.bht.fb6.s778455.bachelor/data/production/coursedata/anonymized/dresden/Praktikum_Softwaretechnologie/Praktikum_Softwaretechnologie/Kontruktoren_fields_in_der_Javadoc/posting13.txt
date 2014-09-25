@@ -1,0 +1,9 @@
+ID: 2762
+CREATION_DATETIME: 1383951600000
+MODIFICATION_DATETIME: 1383951600000
+TITLE: Das dürfte gehen. Danke. Das ist also Composition over inheritance?
+PARENT_POSTING_ID: 2749
+POSTING_TYPE: comment
+CONTENT:
+Das dürfte gehen. Danke. Das ist also Composition over inheritance?
+TAGGED_CONTENT:

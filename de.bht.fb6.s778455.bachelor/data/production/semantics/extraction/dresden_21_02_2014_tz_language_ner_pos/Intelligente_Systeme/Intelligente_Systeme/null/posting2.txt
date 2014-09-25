@@ -1,0 +1,12 @@
+ID: 868
+CREATION_DATETIME: 1353970800000
+MODIFICATION_DATETIME: 1353970800000
+TITLE: Es hat sich nicht geändert. Ich kann mich immer noch damit anmelden. Groß- und Kleinschreibung beacht...
+LANGUAGE: GERMAN
+POS_TAG: value:Kleinschreibung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 867
+POSTING_TYPE: answer
+CONTENT:
+Es hat sich nicht geändert. Ich kann mich immer noch damit anmelden. Groß- und Kleinschreibung beachten.
+TAGGED_CONTENT:
+Es_PPER hat_VAFIN sich_PRF nicht_PTKNEG geändert_VVPP ._$. Ich_PPER kann_VMFIN mich_PRF immer_ADV noch_ADV damit_PROAV anmelden_VVINF ._$. Groß_ADJD -_$( und_KON Kleinschreibung_NN beachten_VVINF ._$. 

@@ -1,0 +1,9 @@
+ID: 176689
+CREATION_DATETIME: 1351799970
+MODIFICATION_DATETIME: 1351799970
+TITLE: Re: Online Präsenz 31.10. Konjunktive Normalform
+PARENT_POSTING_ID: 176639
+CONTENT:
+<REMOVED_PERSON_ENTITY>,
+mal ein Versuch:Man muss hierzu beachten, dass x nur dann wahr ist, wenn die Literale A, B, C nicht im "roten Bereich" der Wertetabelle liegen. Du musst dir quasi ja alle Fälle/Ausdrücke aus der Wertetabelle vornehmen, die x "unwahr" werden lassen. Diese drei zusammen dürfen "nicht gelten" (klingt blöd), damit x wahr ist. Also müssen die drei "Unwahr-Fälle" negiert werden. Da du so alle drei Ausdrücke zusammen betrachten musst, wird hier ein "AND/UND" verwendet. Das Gegenbeispiel hierfür ist die DNF: Eine der Ausdrücke reicht aus, um x wahr werden zu lassen, deshalb sind diese auch mit einem "OR/ODER" verknüpft (siehe Wertetabelle). Hoffe, dir ist es eventuell klarer geworden. Habs versucht ugs. zu formulieren.. GrüßeLars
+TAGGED_CONTENT:

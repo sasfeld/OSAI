@@ -1,0 +1,50 @@
+ID: 2930
+CREATION_DATETIME: 1384902000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+wie bekomme ich es hin, dass in der "Boss-Ansicht" in der Kundenliste hinter jedem Kunden ein Button erscheint, mit dem ich mit einem <REMOVED_PERSON_ENTITY> darauf den User aus der <REMOVED_PERSON_ENTITY> aus dem System lösche?
+
+Ich weiß nicht, wie ich so einen Button in der Tabelle erzeuge und den dann auch noch mit einer delete-Funktion belegen kann.
+
+Danke für die immer sehr schnelle Hilfe!
+
+```html
+
+		<title th:text="#{customers. title}">Kundenliste
+
+			<h1 th:text="#{customers. title}">Kundenliste
+
+				<caption th:text="#{customers. title}">Kundenliste
+
+						<th th:text="#{customers. name}">Name
+
+						<th th:text="#{customers. eMail}">E-Mail
+
+						<th th:text="#{customers. address}">Anschrift
+
+						<th th:text="#{customers. age}">Alter
+
+						<th th:text="#{customers. delete}">Löschen?
+
+						<tr th:each=" customer : ${customerList}">
+
+							<td th:text="${customer. userAccount. identifier}">
+
+							<td th:text="${customer. eMail}">
+
+							<td th:text="${customer. address}">
+
+							<td th:text="${customer. age}">
+
+```
+
+Das ist meine User-Liste mit der Löschen-Spalte.
+
+*//mod Code-Formatierung angepasst.*
+TAGGED_CONTENT:

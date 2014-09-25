@@ -1,0 +1,17 @@
+ID: 1993
+CREATION_DATETIME: 1370728800000
+MODIFICATION_DATETIME: 1370728800000
+TITLE: Warum installierst du nicht einfach die Binaries aus dem Release, anstatt LLVM 3.2 selbst zu bauen?
+LANGUAGE: GERMAN
+POS_TAG: value:Release;weight:0.0;uri:;postag:NN
+POS_TAG: value:Edit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Binaries;weight:0.0;uri:;postag:NN
+POS_TAG: value:Prefix;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1973
+POSTING_TYPE: comment
+CONTENT:
+Warum installierst du nicht einfach die Binaries aus dem Release, anstatt LLVM 3. 2 selbst zu bauen?
+
+(Edit: mit dem Prefix zu arbeiten ist viiiel sauberer. Glaub mir.)
+TAGGED_CONTENT:
+Warum_PWAV installierst_VVFIN du_PPER nicht_PTKNEG einfach_ADJD die_ART Binaries_NN aus_APPR dem_ART Release_NN ,_$, anstatt_APPR LLVM_NE 3_CARD ._$. 2_CARD selbst_ADV zu_PTKZU bauen_VVINF ?_$. -LRB-_TRUNC Edit_NN :_$. mit_APPR dem_ART Prefix_NN zu_PTKZU arbeiten_VVINF ist_VAFIN viiiel_ADJD sauberer_ADJA ._$. Glaub_VVIMP mir_PPER ._$. -RRB-_TRUNC 

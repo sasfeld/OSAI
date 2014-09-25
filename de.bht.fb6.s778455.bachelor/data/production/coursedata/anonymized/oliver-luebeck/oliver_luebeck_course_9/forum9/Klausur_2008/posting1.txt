@@ -1,0 +1,25 @@
+ID: 74
+CREATION_DATETIME: 1183302480000
+MODIFICATION_DATETIME: 1183302480000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+ 
+Ich habe eine Verständnisfrage zur Klausur von 2008.
+Bei Aufgabe 4 heisst gibt es auf der zweiten Seite dieses Programmstück
+
+PunkteKonto pk1 = new PunkteKonto ();
+PunkteKontoA pk2 = new PunkteKontoA ("455567");
+System.out.println(PunkteKontoA.getAnzahlKontos());
+PunkteKontoA pk3 = new PunkteKontoA (8, "466787");
+PunkteKonto[] pkA = {pk1, pk2, pk3};
+for (PunkteKonto pk : pkA ){
+System.out.println(pk);
+}
+
+Was mir unklar ist: warum wird mit der letzten Zeile die Methode "toString()" aufgerufen?
+
+Vielen Dank!
+    
+TAGGED_CONTENT:

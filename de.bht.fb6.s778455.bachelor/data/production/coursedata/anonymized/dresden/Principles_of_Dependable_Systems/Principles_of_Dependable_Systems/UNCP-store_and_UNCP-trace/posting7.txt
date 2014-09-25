@@ -1,0 +1,9 @@
+ID: 516
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1351202400000
+TITLE: I have extracted your questions as follow up.
+PARENT_POSTING_ID: 514
+POSTING_TYPE: comment
+CONTENT:
+I have extracted your questions as follow up.
+TAGGED_CONTENT:

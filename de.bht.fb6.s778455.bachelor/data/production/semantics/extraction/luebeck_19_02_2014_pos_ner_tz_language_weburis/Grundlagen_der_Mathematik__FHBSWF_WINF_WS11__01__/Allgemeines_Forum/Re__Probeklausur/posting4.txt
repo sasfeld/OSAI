@@ -1,0 +1,13 @@
+ID: 117557
+CREATION_DATETIME: 1327322700
+MODIFICATION_DATETIME: 1327322700
+TITLE: Re: Probeklausur
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=43909#117557
+POS_TAG: value:Teil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wert;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117556
+CONTENT:
+1 1 -41 -2 2 = 0a -3 2Da bin ich nuns elbst drauf gekommen, wie man hier auf a=2 kommt. Jeder Wert muss von 0 addiert oder subtrahiert werden... und dann ist alles 0 und a bleibt a = 2. Aber wie kommt man dann auf den 2. Teil? Das erschließt sich mir noch nicht. 
+TAGGED_CONTENT:
+1_CARD 1_CARD -41_CARD -2_CARD 2_CARD =_XY 0a_CARD -3_CARD 2Da_XY bin_VAFIN ich_PPER nuns_FM elbst_FM drauf_PROAV gekommen_VVPP ,_$, wie_PWAV man_PIS hier_ADV auf_APPR a_XY =_XY 2_CARD kommt_VVFIN ._$. Jeder_PIDAT Wert_NN muss_ADJD von_APPR 0_CARD addiert_VVPP oder_KON subtrahiert_VVPP werden_VAINF ..._$( und_KON dann_ADV ist_VAFIN alles_PIS 0_CARD und_KON a_XY bleibt_VVFIN a_XY =_XY 2_CARD ._$. Aber_KON wie_PWAV kommt_VVFIN man_PIS dann_ADV auf_APPR den_ART 2_CARD ._$. Teil_NN ?_$. Das_ART erschließt_VVFIN sich_PRF mir_PPER noch_ADV nicht_PTKNEG ._$. 

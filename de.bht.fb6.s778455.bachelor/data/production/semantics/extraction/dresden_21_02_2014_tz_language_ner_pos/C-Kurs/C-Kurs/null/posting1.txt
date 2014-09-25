@@ -1,0 +1,31 @@
+ID: 3020
+CREATION_DATETIME: 1385420400000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Tipps;weight:1.0;significance:5.9727695009916;degreegeneralization:4;uri:20291636
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+POS_TAG: value:Programm;weight:0.0;uri:;postag:NN
+POS_TAG: value:Header;weight:0.0;uri:;postag:NN
+POS_TAG: value:Meldung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ubuntu;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tip;weight:0.0;uri:;postag:NN
+POS_TAG: value:Quelltext;weight:0.0;uri:;postag:NN
+POS_TAG: value:Funktion;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo.
+
+Ich habe jetzt schon bei der 2. Aufgabe (Quadratische Funktion) das Problem, das wenn ich mein Programm kompilieren will (mit gcc unter Ubuntu 12. 04, Quelltext mit <REMOVED_PERSON_ENTITY>) er nie die sqrt und pow findet. Im Header habe ich #include  stehen und beim compilieren gebe ich die -lm mit an um die Math library mit einzubinden. Aber trotzdem gibt er mir die Meldung undefined reference to 'sqrt' aus.
+
+Vielleicht kann mir ja mal jemand nen Tip geben was ich noch machen könnte.
+
+Danke im voraus
+TAGGED_CONTENT:
+Hallo_ITJ ._$. Ich_PPER habe_VAFIN jetzt_ADV schon_ADV bei_APPR der_ART 2_CARD ._$. Aufgabe_NN -LRB-_TRUNC Quadratische_ADJA Funktion_NN -RRB-_TRUNC das_ART Problem_NN ,_$, das_ART wenn_KOUS ich_PPER mein_PPOSAT Programm_NN kompilieren_VVINF will_VMFIN -LRB-_TRUNC mit_APPR gcc_NE unter_APPR Ubuntu_NN 12_CARD ._$. 04_CARD ,_$, Quelltext_NN mit_APPR <_CARD REMOVED_PERSON_ENTITY_NN >_CARD -RRB-_TRUNC er_PPER nie_ADV die_ART sqrt_ADJD und_KON pow_NE findet_VVFIN ._$. Im_APPRART Header_NN habe_VAFIN ich_PPER #include_VVFIN stehen_VVINF und_KON beim_APPRART compilieren_ADJA gebe_VVFIN ich_PPER die_ART -_$( lm_NE mit_APPR an_APZR um_APPR die_ART Math_NE library_FM mit_APPR einzubinden_VVIZU ._$. Aber_KON trotzdem_PROAV gibt_VVFIN er_PPER mir_PPER die_ART Meldung_NN undefined_ADJD reference_VVFIN to_FM '_$( sqrt_ADJD '_$( aus_PTKVZ ._$. Vielleicht_ADV kann_VMFIN mir_PPER ja_ADV mal_ADV jemand_PIS nen_ADJA Tip_NN geben_VVFIN was_PWS ich_PPER noch_ADV machen_VVINF könnte_VMFIN ._$. Danke_PROAV im_APPRART voraus_PTKVZ 

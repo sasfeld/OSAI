@@ -1,0 +1,9 @@
+ID: 2137
+CREATION_DATETIME: 1372543200000
+MODIFICATION_DATETIME: 1372543200000
+TITLE: An den Dimensionsgrenzen der Devices können wir nichts machen. Dafür muss sich der Programmierer des ...
+PARENT_POSTING_ID: 2136
+POSTING_TYPE: answer
+CONTENT:
+An den Dimensionsgrenzen der Devices können wir nichts machen. Dafür muss sich der Programmierer des Kernels Gedanken machen und ggf. seinen Kernel umschreiben.
+TAGGED_CONTENT:

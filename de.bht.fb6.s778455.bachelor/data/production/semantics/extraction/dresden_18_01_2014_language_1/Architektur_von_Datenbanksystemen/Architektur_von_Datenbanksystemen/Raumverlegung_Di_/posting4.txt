@@ -1,0 +1,10 @@
+ID: 1810
+CREATION_DATETIME: 1368568800000
+MODIFICATION_DATETIME: 1368568800000
+TITLE: Die Folien, die auf der Homepage verlinkt sind, sind soweit durchgesprochen. Was (wahrscheinlich) noc...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1807
+POSTING_TYPE: answer
+CONTENT:
+Die Folien, die auf der Homepage verlinkt sind, sind soweit durchgesprochen. Was (wahrscheinlich) noch kommt kannst du sehen, wenn du die alte <REMOVED_PERSON_ENTITY> z. B. vom WS 2011/2012 aufrufst (ist in der linken Navigationsbar verlinkt).
+TAGGED_CONTENT:

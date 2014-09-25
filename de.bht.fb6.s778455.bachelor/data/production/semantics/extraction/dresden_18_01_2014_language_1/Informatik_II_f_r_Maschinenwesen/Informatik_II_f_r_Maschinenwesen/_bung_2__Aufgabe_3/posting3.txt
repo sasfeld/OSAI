@@ -1,0 +1,20 @@
+ID: 1758
+CREATION_DATETIME: 1366754400000
+MODIFICATION_DATETIME: 1367186400000
+TITLE: meint:
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 1755
+POSTING_TYPE: comment
+CONTENT:
+meint:
+
+    public <REMOVED_PERSON_ENTITY>(Punkt mp, double radius) {
+
+         super(Color. YELLOW, 1);
+
+         // dein code ab hier
+
+dann geht auch
+
+     public class <REMOVED_PERSON_ENTITY> extends ZeichenObjekt {
+TAGGED_CONTENT:

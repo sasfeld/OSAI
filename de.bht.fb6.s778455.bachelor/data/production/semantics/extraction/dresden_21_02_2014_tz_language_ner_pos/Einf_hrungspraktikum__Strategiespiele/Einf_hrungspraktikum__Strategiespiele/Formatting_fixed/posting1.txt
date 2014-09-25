@@ -1,0 +1,48 @@
+ID: 1467
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: null
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+
+Ich habe leider keine Ahnung, wie ich dieses Problem kurz beschreiben soll. Ausgangszustand: Ich bekomme während meines Zuges an immer dem gleichen Punkt bei einem bestimmten Board (Dame) einen 'Bus Error (core dumped)' .
+
+Grob gesagt: Ich habe eine Baumstruktur für Züge, die im ersten Schritt erstellt wird. Sie sieht wie folgt aus:
+
+```
+
+typedef struct BoardState *statePtr;
+
+typedef struct BoardState {
+
+	char turn; 			// player the turn is being played by
+
+	char board[33]; 		// current board
+
+	int weight; 			// weight of the board - the bigger, the better for the performing player
+
+	vector children; 	// children states
+
+	char command[BUFFERSIZE];	// the command needed to get from the last board to this board
+
+} myBoardState;
+
+```
+
+Dabei ist board der Teil des Buffers, der nur das Board enthält, und command der auszugebende command, um den aktuellen Status zu erreichen, z. B. "12-16". Der Vector children enthält alle Kindelemente, also alle möglichen Zustände, die der Gegner <NAME_CORPUS_REPLACEMENT> diesem Zustand aus erreichen könnte, und so weiter.
+
+Der Bus Error erscheint nun, wenn ich im zweiten Teil rekursiv durch den fertigen <REMOVED_PERSON_ENTITY> gehe und, debuggingweise, den Command ausgebe. Er enthält an immer und ewig derselben Stelle bei bestimmten Konstellationen random Unsinn in der Art <NAME_CORPUS_REPLACEMENT> ���. Die anderen Commands bis dahin sind okay.
+
+Was mich jetzt sehr wundert, ist, dass ich den Command auch ausgebe nachdem ich ihn in diese struct reinschreibe. Er ist super zu lesen, alle Commands sind korrekt. Danach modifiziere ich ihn nicht mehr sondern lese ihn später in o. g. Funktion wieder aus - als kompletter Unsinn. Gibt es Erklärungen für sowas?
+
+Ich weiß auch garnicht welchen Code ich posten sollte. Ich habe über 700 Zeilen, und keine Ahnung, in welcher das Passiert. Komisch ist auch, dass eben diese Instanz des Struct unglaublich viele Kindknoten besitzt, obwohl ich nicht so viele geadded habe (laut debuggingausgabe bei jedem adden). Ich komme schon den ganzen Tag keinen Schritt weiter, mein ganzes Programm steht und funktioniert und wäre Abgabebereit, wenn nicht ab und zu dieser Error kommen würde.
+
+Wäre cool wenn sich jemand erbarmen würde mir irgendwie zu helfen :) Oder einfach nur Ideen hätte, was ich debuggen, gegenchecken, posten könnte?
+
+<NAME_CORPUS_REPLACEMENT> Grüße
+
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 834
+CREATION_DATETIME: 1353538800000
+MODIFICATION_DATETIME: 1385506800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Sollen wir bei Aufgabe 2A DOM verwenden oder ist es uns überlassen, wie wir die Feeds im PHP verarbeiten?
+TAGGED_CONTENT:

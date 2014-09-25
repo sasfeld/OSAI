@@ -1,0 +1,9 @@
+ID: 1416
+CREATION_DATETIME: 1362783600000
+MODIFICATION_DATETIME: 1362783600000
+TITLE: Threads don't have a virtual address space. Tasks have. The address space layout is restored, hence a...
+PARENT_POSTING_ID: 1412
+POSTING_TYPE: comment
+CONTENT:
+Threads don't have a virtual address space. Tasks have. The address space layout is restored, hence all virtual addresses in the resumed task are the same. Physical addresses <NAME_CORPUS_REPLACEMENT> differ. See full answer below.
+TAGGED_CONTENT:

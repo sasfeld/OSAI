@@ -1,0 +1,11 @@
+ID: 1756
+CREATION_DATETIME: 1366754400000
+MODIFICATION_DATETIME: 1366754400000
+TITLE: Ich glaube schon, dass dann im Konstruktor insgesamt vier Parameter stehen: Mittelpunkt, Radius, Lini...
+PARENT_POSTING_ID: 1754
+POSTING_TYPE: answer
+CONTENT:
+Ich glaube schon, dass dann im Konstruktor insgesamt vier Parameter stehen: Mittelpunkt, Radius, Linienstärke und Linienfarbe. Vielleicht kann man noch ne Füllfarbe integrieren, damit das Smiley noch nen Teint bekommt.
+Also dann 5 Parameter.
+Die Einschränkung soll, kurz gesagt, wohl heißen, dass man für die einzelnen Strecken und Kreise nicht jedesmal ein <REMOVED_PERSON_ENTITY> als Konstruktor-Parameter übergeben muss, sondern ebendiese Koordinaten aus Mittelpunkt und Radius errechnet werden.
+TAGGED_CONTENT:

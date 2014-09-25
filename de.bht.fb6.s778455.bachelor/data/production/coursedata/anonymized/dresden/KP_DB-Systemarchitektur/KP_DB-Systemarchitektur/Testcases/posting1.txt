@@ -1,0 +1,20 @@
+ID: 1822
+CREATION_DATETIME: 1368741600000
+MODIFICATION_DATETIME: 1372370400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+<REMOVED_PERSON_ENTITY>, vielleicht macht es Sinn für das Testprogramm pro Test eine Klasse zu machen. 
+ein Interface könnte so aussehen
+TestCase{
+TestCase() = 0;  // malloc arrays + init data
+~TestCase() = 0; // delete arrays
+vector<void*> getParameters() = 0;
+vector getParameterSizes() = 0;
+string getKernel() = 0;
+int getWorkitemCount() = 0;
+}
+irgendwie so. Dann halt eine Klasse pro Testcase (NestedLoopJoin, Selection, AVG, ...). Dann könnte man sich quasi in dem Test Programm eine Liste mit TestCases machen, und die dann mit gleichen Interface austesten. (Damit ist das Wissen über Eingabe/Ausgabe Daten auch in den Klassen gekapselt und nicht nur im Kernel als Kommentar)
+Was denkt ihr?
+TAGGED_CONTENT:

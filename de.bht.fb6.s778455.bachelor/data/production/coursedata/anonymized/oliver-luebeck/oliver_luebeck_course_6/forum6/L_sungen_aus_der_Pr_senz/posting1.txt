@@ -1,0 +1,126 @@
+ID: 65
+CREATION_DATETIME: 1290040380000
+MODIFICATION_DATETIME: 1290040380000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo,
+
+in der Präsenz wurde ich gebeten meine Versionen der Klassen aus der Konto-Aufgabe hochzulanden. Ich füge die Java-Dateien der Klassen Kunde und Konto als Anhang an diesen Post. Ich hoffe es ist nützlich...  
+
+Viele Grüße und frohes Schaffen!
+
+
+PS: falls der Anhang nicht funktioniert hier nochmal alles in Textform:
+
+
+
+public abstract class Konto implements Comparable<Konto>{
+   
+    private String nummer;
+    protected double stand;
+
+    public Konto(String s, double summe) {
+        nummer = s;
+        if (summe >= 0)
+            stand = summe;
+        else
+            stand = 0;
+    }
+
+    public String toString() {
+        return "Kontonummer: " + nummer + "\t Stand: " + stand;
+    }
+
+    public abstract void abheben(double summe);
+   
+    /**
+     * prüft erst ob das Übergebene Objekt vom Typ Konto ist, ansonsten
+     * herrscht keine Gleichheit und die Methode kann mit false beenden.
+     *
+     * Ansonsten wird der String der eigenen Kontonummer mit dem des
+     * übergebenen Kontos verglichen und das ergebnis zurückgegeben.
+     */
+    @Override
+    public boolean equals(Object ob){
+        if ( ! (ob instanceof Konto)) return false;
+        Konto konto = (Konto) ob;
+        return nummer.equals(konto.nummer);       
+    }
+   
+    /**
+     * die Implementierung der methode wird vom Interface Comparable verlangt
+     *
+     * prüft ob der eigene Kontostand größer bzw kleiner als der des
+     * übergebenen Kontos ist, entsprechend wird result angepasst.
+     *
+     * Falls nichts zutrifft, also die Kontostände gleich sind, wird
+     * der Anfangswert von result, nämlich 0 übergeben
+     */
+    public int compareTo(Konto secondKonto){
+        int result = 0;
+        if (stand > secondKonto.stand){
+            result = 1;
+        }
+        if (stand < secondKonto.stand){
+            result = -1;
+        }
+        return result;
+    }
+}
+
+
+
+public class Kunde {
+    private String name;
+    private ArrayList<Konto> konten;
+
+    /**
+     * Der Konstruktor nimmt den Kundennamen entgegen und legt eine neue
+     * Arraylist für seine Konten an.
+     *
+     * @param name Name des Kunden
+     */
+    public Kunde(String name) {
+        this.name = name;
+        konten = new ArrayList<Konto>();
+    }
+   
+    /**
+     * Das übergebene Konto wird mit der add()-Methode von ArrayList
+     * in der Objekt-Eigenschaft konten abgespeichert
+     *
+     * @param konto ein neues Konto
+     */
+    public void addKonto(Konto konto) {
+        konten.add(konto);
+    }
+
+    /**
+     * erzeugt einen String mit Namen und den konten des Kunden,
+     * und gibt diesen zurück.
+     * Die Konten werden durch die toString()-methode der Klasse
+     * Arraylist ausgegeben. 
+     */
+    @Override
+    public String toString() {
+        String s = "KontoInhaber: " + name + "\n";
+        s += konten.toString() + "\n";
+        return s;
+    }
+
+    /**
+     * Gibt alle Konten als Array zurück
+     *
+     * @return der Methode toArray wird der generische Typ der ArrayList als neues
+     * leeres Array-Objekt übergeben, dadurch hat das Array den richtigen Typ
+     * anstatt ein bloßes Object[] array zu sein
+     */
+    public Konto[] getAllKontos() {
+        return konten.toArray(new Konto[0]);
+    }
+}
+	
+TAGGED_CONTENT:

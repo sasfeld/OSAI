@@ -1,0 +1,10 @@
+ID: 1935
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: komisch, bei mir waren die \n alle mit drin.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1926
+POSTING_TYPE: answer
+CONTENT:
+komisch, bei mir waren die   alle mit drin.
+TAGGED_CONTENT:

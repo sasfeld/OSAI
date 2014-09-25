@@ -1,0 +1,18 @@
+ID: 117563
+CREATION_DATETIME: 1327425286
+MODIFICATION_DATETIME: 1327425286
+TITLE: Re: Probeklausur
+POS_TAG: value:Lerngruppe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Achtung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Loesung;weight:0.0;uri:;postag:NN
+POS_TAG: value:muss;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117555
+CONTENT:
+Achtung! Die Loesung zu Aufgabe 9 muss korrigiert heissen: 
+t * (2, 2, 1) + (-1, -1, 0)
+Danke an die Lerngruppe von Fr. <REMOVED_PERSON_ENTITY>, mich auf den Fehler aufmerksam gemacht zu haben.
+<REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Achtung_NN !_$. Die_ART Loesung_NN zu_APPR Aufgabe_NN 9_CARD muss_NN korrigiert_VVFIN heissen_ADJD :_$. t_XY \*_CARD -LRB-_TRUNC 2_CARD ,_$, 2_CARD ,_$, 1_CARD -RRB-_TRUNC +_KON -LRB-_TRUNC -1_TRUNC ,_$, -1_CARD ,_$, 0_CARD -RRB-_TRUNC Danke_VVIMP an_APPR die_ART Lerngruppe_NN von_APPR Fr_NE ._$. <_XY REMOVED_PERSON_ENTITY_NE >_NE ,_$, mich_PRF auf_APPR den_ART Fehler_NN aufmerksam_ADJD gemacht_VVPP zu_PTKZU haben_VAINF ._$. <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_XY 

@@ -1,0 +1,19 @@
+ID: 2326
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Beim Thema Approximation geb ich dir Recht, aber von "rennen" in eine Richtung war nichts zu sehen......
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:2.65109701440329;degreegeneralization:2;uri:21999830
+POS_TAG: value:Fortschritte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Woche;weight:0.0;uri:;postag:NN
+POS_TAG: value:Richtung;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Approximation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Recht;weight:0.0;uri:;postag:NN
+POS_TAG: value:Thema;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2321
+POSTING_TYPE: comment
+CONTENT:
+Beim Thema Approximation geb ich dir Recht, aber <NAME_CORPUS_REPLACEMENT> "rennen" in eine Richtung war nichts zu sehen... erst in der vergangen Woche waren <NAME_CORPUS_REPLACEMENT> Fortschritte zu erkennen
+TAGGED_CONTENT:
+Beim_APPRART Thema_NN Approximation_NN geb_VVFIN ich_PPER dir_PPER Recht_NN ,_$, aber_KON <_XY NAME_CORPUS_REPLACEMENT_NN >_CARD "_$( rennen_VVFIN "_$( in_APPR eine_ART Richtung_NN war_VAFIN nichts_PIS zu_PTKZU sehen_VVINF ..._$( erst_ADV in_APPR der_ART vergangen_VVPP Woche_NN waren_VAFIN <_CARD NAME_CORPUS_REPLACEMENT_NN >_CARD Fortschritte_NN zu_PTKZU erkennen_VVINF 

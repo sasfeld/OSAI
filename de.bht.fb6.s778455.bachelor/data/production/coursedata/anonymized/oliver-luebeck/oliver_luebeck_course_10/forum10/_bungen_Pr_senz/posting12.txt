@@ -1,0 +1,31 @@
+ID: 80
+CREATION_DATETIME: 1201529820000
+MODIFICATION_DATETIME: 1201529820000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 79
+CONTENT:
+
+Liebe , liebe Studierende,
+
+seit Java 7 ist die Syntax mit generischen Typen einfacher als vorher. Der Kurs in Moodle ist nicht überall angepasst. Die Syntax ist wie in der Übung 5 und wie Sie Frau Pilz hier haben:
+
+LinkedList<String> ll1 = new LinkedList<>();
+
+In ll1 kann man nur String-Objekte hinzufügen. Zweck der Übung 5 ist einfach mehrere Methoden kennen lernen und verstehen.
+
+Aufgepasst:
+
+HashSet hs = new HashSet();    
+
+ist zu vermeiden. Es gibt keinen Wert für den generischen Parameter E. Es funktioniert zwar, der Typ Hashset heisst "raw type" und ist kompatibel mit älteren Versionen des Paketes java.util.
+
+Besser hier wäre es den Typ HashSet <Object> zu benutzen:
+
+HashSet <Object> hs = new HashSet<>();  
+
+So ist es klar, dass Object-Objekte hinzugefügt sein können, also Zahlen wie Zeichenkette oder alles mögliche, weil sie alle von Object erben. 
+
+Viel Erfolg morgen!
+    
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 164459
+CREATION_DATETIME: 1348677968
+MODIFICATION_DATETIME: 1348677968
+TITLE: Re: Chat nach dem Chat
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=61113#164459
+POS_TAG: value:chat;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 164443
+CONTENT:
+Hallo alle zusammen,
+ich würde auch gerne daran teilnehmen, dieses mal aber noch nicht, da noch ein anderer chat um 20h dieses mal anfängt. 
+Bis dann, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ alle_PIDAT zusammen_PTKVZ ,_$, ich_PPER würde_VAFIN auch_ADV gerne_ADV daran_PROAV teilnehmen_VVINF ,_$, dieses_PDAT mal_ADV aber_ADV noch_ADV nicht_PTKNEG ,_$, da_ADV noch_ADV ein_ART anderer_ADJA chat_NN um_APPR 20h_CARD dieses_PDAT mal_ADV anfängt_VVFIN ._$. Bis_APPR dann_ADV ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

@@ -1,0 +1,10 @@
+ID: 252515
+CREATION_DATETIME: 1383520456
+MODIFICATION_DATETIME: 1383520456
+TITLE: Re: Online Übungsgruppe - 06.11. - 21:00 Uhr
+TOPIC_ZOOM_TAG: value:Arbeit und Beruf;weight:1.0;significance:3.54101226558305;degreegeneralization:3;uri:21924095
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:1.80459553725326;degreegeneralization:2;uri:21999847
+PARENT_POSTING_ID: 252483
+CONTENT:
+Da wiederum wäre ich noch auf Arbeit.
+TAGGED_CONTENT:

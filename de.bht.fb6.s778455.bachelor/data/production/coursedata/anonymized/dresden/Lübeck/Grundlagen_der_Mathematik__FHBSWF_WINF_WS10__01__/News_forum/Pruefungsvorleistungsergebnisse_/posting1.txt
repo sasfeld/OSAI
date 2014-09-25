@@ -1,0 +1,9 @@
+ID: 97742
+CREATION_DATETIME: 1294504559
+MODIFICATION_DATETIME: 1294504559
+TITLE: Pruefungsvorleistungsergebnisse...
+PARENT_POSTING_ID: 0
+CONTENT:
+... sind im EPV ab heute einsehbar. Bei Rueckfragen bitte kurze Email!
+<REMOVED_PERSON_ENTITY> Prof. <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

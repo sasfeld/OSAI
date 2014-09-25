@@ -1,0 +1,14 @@
+ID: 2917
+CREATION_DATETIME: 1384815600000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: Ok stimmt natürlich.  Man könnte die Lösungen auch am Ende des Kurses mal reinstellen. War halt so ne...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2914
+POSTING_TYPE: comment
+CONTENT:
+Ok stimmt natürlich.  Man könnte die Lösungen auch am Ende des Kurses mal reinstellen. War halt so ne Idee aber ihr habt natürlich recht das viele dann faul werden.
+
+Ist denke auch nicht leicht zu entscheiden wann eine rein gestellt werden soll <NAME_CORPUS_REPLACEMENT> man schwer kontrollieren kann wie weit jeder einzelne in jedem Kurs ist.
+
+Ja ich meinte Stil, aber <NAME_CORPUS_REPLACEMENT> eignet sich natürlich im Endeffekt jeder selber einen an. Ich dachte halt so an "schönen code" mit einheitlichen tabs usw usw.
+TAGGED_CONTENT:

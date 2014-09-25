@@ -1,0 +1,9 @@
+ID: 1203
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: *gefällt mir* : Live-debugging mit Ersties als Kaninchen
+PARENT_POSTING_ID: 1196
+POSTING_TYPE: comment
+CONTENT:
+*gefällt mir* : Live-debugging mit Ersties als Kaninchen
+TAGGED_CONTENT:

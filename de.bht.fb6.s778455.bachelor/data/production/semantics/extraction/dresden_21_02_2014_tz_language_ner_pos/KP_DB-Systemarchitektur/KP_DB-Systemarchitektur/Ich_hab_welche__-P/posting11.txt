@@ -1,0 +1,12 @@
+ID: 1978
+CREATION_DATETIME: 1370556000000
+MODIFICATION_DATETIME: 1370556000000
+TITLE: Du musst den Clang ebenfalls installieren.
+LANGUAGE: GERMAN
+POS_TAG: value:Clang;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1973
+POSTING_TYPE: comment
+CONTENT:
+Du musst den Clang ebenfalls installieren.
+TAGGED_CONTENT:
+Du_PPER musst_VVFIN den_ART Clang_NN ebenfalls_ADV installieren_VVINF ._$. 

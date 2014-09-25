@@ -1,0 +1,14 @@
+ID: 2603
+CREATION_DATETIME: 1382392800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Einschreibung für die Programmierkurse sind jetzt im jExam verfügbar.
+Ihr findet sie unter der Lehrveranstaltung **Allgemeine Qualifikationen**.
+(Hinweis: Die Einordnung ist ein Hack mit jExam. _Teilnehmer_ erhalten keinen AQua-Schein, _Tutoren_ schon.)
+Die genauen Termine werden beim Kick-off-Treffen gemeinsam mit Teilnehmern und Tutoren festgelegt.
+Das Kick-off ist für <REMOVED_PERSON_ENTITY>, den **1. 11.** in der **6. DS** in <REMOVED_PERSON_ENTITY> **E23** geplant.
+![Futuramas Professor <REMOVED_PERSON_ENTITY> verkündet: Good news everyone](http://theloungeisback.files.wordpress.com/2013/07/professor-farnsworth. jpg "Quelle: http://theloungeisback.files.wordpress.com/2013/07/professor-farnsworth. jpg")
+TAGGED_CONTENT:

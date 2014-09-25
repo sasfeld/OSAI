@@ -1,0 +1,26 @@
+ID: 185647
+CREATION_DATETIME: 1354781631
+MODIFICATION_DATETIME: 1354781631
+TITLE: Re: Aufgabe 2b)
+TOPIC_ZOOM_TAG: value:Mathematik;weight:11.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Algebraische Begriffe;weight:6.0;significance:6.93193609921849;degreegeneralization:7;uri:20767840
+TOPIC_ZOOM_TAG: value:Vektorräume;weight:6.0;significance:6.93193609921849;degreegeneralization:8;uri:20146881
+TOPIC_ZOOM_TAG: value:Lineare Algebra;weight:6.0;significance:6.93193609921849;degreegeneralization:7;uri:20881366
+TOPIC_ZOOM_TAG: value:Algebra;weight:6.0;significance:6.93193609921849;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Vektoren;weight:5.0;significance:5.77661341601541;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:11.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:11.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:11.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:11.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 184543
+CONTENT:
+Hallo zusammen, ich habe mittlerweile aich schon diverse dinge ausprobiert und habe noch folgende idee. ich glaube auch, dass ich diese lösung wohl so abgeben werden...
+ 
+Letztendlich sind hier eine <REMOVED_PERSON_ENTITY> von Vektoren gegeben (v1, v2, v3, v4) die laut Aufgabenstellung einen Untervektorraum (W) des reellen Vektorraums (V) bilden, den wir bereits in der Aufgabenstellung a) kennen gelernt haben. Jetzt soll bewiesen werden wieso dieser Vektorraum W ein Untervektorraum des Vektorraum V ist.  Dafür musst der UVR auf Abgeschlossenheit bezüglich Addition und Multiplikation geprüft werden. Das Überprüfen der Rechengesetzt eines Vektorraums ist  nicht erforderlich, da diese Eigenschaften vom eigentlichen Vektorraum V geerbt werden.  Zuerst muss man sich die Frage stellen, wie der UVR in dieser Aufgabenstellung definiert ist. Sollten alle Vektoren die in W stehen einen UVR bilden, kann man mittels Addition und Multiplikation alle anderen Vektoren erreichen. Oder anders ausgedrückt mittels einen beliebigen LK (Linearkombination) der Vektoren die im Vektorraum W stehen, kann ich alle anderen Vektoren „erschaffen.“
+Mathematisch wurde das ungefähr folgendes bedeuten:
+a = m*v1+n*v2+o*v3+p*v4 b = q*v1+r*v2+s*v3+t*v4
+Jetzt nur noch zeigen, dass Mutliplikaktion und Addition abgeschlossen sind.
+Was besseres fällt mir nicht mehr ein.
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

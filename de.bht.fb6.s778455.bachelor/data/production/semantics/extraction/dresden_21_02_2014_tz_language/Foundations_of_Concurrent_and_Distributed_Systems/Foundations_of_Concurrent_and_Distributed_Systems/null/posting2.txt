@@ -1,0 +1,10 @@
+ID: 876
+CREATION_DATETIME: 1353970800000
+MODIFICATION_DATETIME: 1353970800000
+TITLE: The function `wait` has two branches that are entered depending on the return value of 'getAndDecreme...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 875
+POSTING_TYPE: answer
+CONTENT:
+The function `wait` has two branches that are entered depending on the return value of `getAndDecrement`, which atomically decrements 'count' and returns its previous value. `get` returns the current value. So the last thread to enter `wait` will find a return value of 1 (the previous value, the current value after decrement is 0) and resets the barrier. All other threads wait for 'count' to become 0.
+TAGGED_CONTENT:

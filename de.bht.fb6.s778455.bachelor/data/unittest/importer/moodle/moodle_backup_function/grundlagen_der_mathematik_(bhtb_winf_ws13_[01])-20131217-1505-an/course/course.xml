@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course id="7373" contextid="242479">
+  <shortname>Grundlagen der Mathematik (BHTB WINF WS13 [01])</shortname>
+  <fullname>Grundlagen der Mathematik (BHTB WINF WS13 [01])</fullname>
+  <idnumber>BHTB-S-WINF-1100-13W-01</idnumber>
+  <summary>&lt;p&gt;FHL-S-test-Demo_ir043-00-01&lt;/p&gt;</summary>
+  <summaryformat>1</summaryformat>
+  <format>topics</format>
+  <showgrades>1</showgrades>
+  <newsitems>1</newsitems>
+  <startdate>1376473708</startdate>
+  <marker>0</marker>
+  <maxbytes>52428800</maxbytes>
+  <legacyfiles>1</legacyfiles>
+  <showreports>0</showreports>
+  <visible>1</visible>
+  <groupmode>0</groupmode>
+  <groupmodeforce>0</groupmodeforce>
+  <defaultgroupingid>0</defaultgroupingid>
+  <lang>de</lang>
+  <theme></theme>
+  <timecreated>1218794768</timecreated>
+  <timemodified>1344594171</timemodified>
+  <requested>0</requested>
+  <enablecompletion>0</enablecompletion>
+  <completionnotify>0</completionnotify>
+  <numsections>4</numsections>
+  <hiddensections>0</hiddensections>
+  <coursedisplay>0</coursedisplay>
+  <category id="19">
+    <name>WINF</name>
+    <description>$@NULL@$</description>
+  </category>
+  <tags>
+  </tags>
+</course>

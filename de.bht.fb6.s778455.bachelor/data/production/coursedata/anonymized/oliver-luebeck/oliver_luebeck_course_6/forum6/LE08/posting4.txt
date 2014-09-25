@@ -1,0 +1,12 @@
+ID: 57
+CREATION_DATETIME: 1289889300000
+MODIFICATION_DATETIME: 1289889300000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 56
+CONTENT:
+
+Vielen Dank euch beiden! Ich habe das überlesen in der LE08. Jetzt hat es geklappt.
+Schöne Grüße
+	
+TAGGED_CONTENT:

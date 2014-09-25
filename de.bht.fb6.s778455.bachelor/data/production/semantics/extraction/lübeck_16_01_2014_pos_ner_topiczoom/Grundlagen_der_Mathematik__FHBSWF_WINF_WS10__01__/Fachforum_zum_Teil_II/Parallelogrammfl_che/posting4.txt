@@ -1,0 +1,20 @@
+ID: 97808
+CREATION_DATETIME: 1293038718
+MODIFICATION_DATETIME: 1293038982
+TITLE: Re: Parallelogrammfläche
+POS_TAG: value:Volumen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Flaecheninhalt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tat;weight:0.0;uri:;postag:NN
+POS_TAG: value:Berechnung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabenstellung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Loncapa;weight:0.0;uri:;postag:NN
+POS_TAG: value:Referenz;weight:0.0;uri:;postag:NN
+POS_TAG: value:muss;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97807
+CONTENT:
+Senden Sie mir bitte mal auf Loncapa die Referenz auf die Aufgabe. Ich seh's mir an. Ihre Frage bezieht sich auf LO07: <REMOVED_PERSON_ENTITY> 16-17. Da ist in der Tat etwas mit dem Flaecheninhalt zu finden. Ich dachte zuerst, Sie meinen eigentlich das Volumen. Die Frage ist, ob die Berechnung der Aufgabenstellung entspricht, oder ob noch etwas anderes beachtet werden muss.
+TAGGED_CONTENT:
+Senden_VVFIN Sie_PPER mir_PPER bitte_PTKANT mal_ADV auf_APPR Loncapa_NN die_ART Referenz_NN auf_APPR die_ART Aufgabe_NN ._$. Ich_PPER seh_VVFIN 's_PPER mir_PPER an_PTKVZ ._$. Ihre_PPOSAT Frage_NN bezieht_VVFIN sich_PRF auf_APPR LO07_CARD :_$. <_CARD REMOVED_PERSON_ENTITY_NN >_CARD 16-17_CARD ._$. Da_ADV ist_VAFIN in_APPR der_ART Tat_NN etwas_PIS mit_APPR dem_ART Flaecheninhalt_NN zu_PTKZU finden_VVINF ._$. Ich_PPER dachte_VVFIN zuerst_ADV ,_$, Sie_PPER meinen_VVFIN eigentlich_ADV das_ART Volumen_NN ._$. Die_ART Frage_NN ist_VAFIN ,_$, ob_KOUS die_ART Berechnung_NN der_ART Aufgabenstellung_NN entspricht_VVFIN ,_$, oder_KON ob_KOUS noch_ADV etwas_PIAT anderes_PIS beachtet_VVPP werden_VAFIN muss_NN ._$. 

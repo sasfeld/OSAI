@@ -1,0 +1,12 @@
+ID: 1224
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: die fette schrift gibt es schon, das bringt aber nix, wenn ich die ungelesene notification irgendwo z...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1220
+POSTING_TYPE: comment
+CONTENT:
+die fette schrift gibt es schon, das bringt aber nix, wenn ich die ungelesene notification irgendwo zwischen seite 3 und 7 suchen muss..
+
+ich glaube auch nicht, dass der eindruck entsteht, dass die notification geloescht wird, wenn klar ersichtlich oben ein block mit deutlich markierten ungelesen und unten ein block mit gelesen notifications ist..
+TAGGED_CONTENT:

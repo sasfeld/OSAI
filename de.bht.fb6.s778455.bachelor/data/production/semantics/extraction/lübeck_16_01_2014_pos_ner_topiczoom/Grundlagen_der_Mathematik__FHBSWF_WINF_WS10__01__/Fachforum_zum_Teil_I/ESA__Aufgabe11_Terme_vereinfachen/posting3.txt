@@ -1,0 +1,13 @@
+ID: 97797
+CREATION_DATETIME: 1287838339
+MODIFICATION_DATETIME: 1287838450
+TITLE: Re: ESA  Aufgabe11 Terme vereinfachen
+POS_TAG: value:aAber;weight:0.0;uri:;postag:NN
+POS_TAG: value:Editor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Versuche;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ergebnis;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97796
+CONTENT:
+ Klar, war einfach zu blöd :) Mein Ergebnis welches ich oben gepostet habe hat der Editor ja eigentlich schon richtig umgewandelt. Einfach 3/-3 streichen und schon hat man a-a^2+9*aAber LonCapa sagte mir eben das dieses Ergebnis falsch ist. Alle 5 Versuche weg. Egal :)
+TAGGED_CONTENT:
+Klar_ADJD ,_$, war_VAFIN einfach_ADV zu_APPR blöd_ADJD :-RRB-_TRUNC Mein_PPOSAT Ergebnis_NN welches_PRELS ich_PPER oben_ADV gepostet_VVPP habe_VAFIN hat_VAFIN der_ART Editor_NN ja_ADV eigentlich_ADV schon_ADV richtig_ADJD umgewandelt_VVPP ._$. Einfach_ADV 3_CARD \/_CARD -3_CARD streichen_VVINF und_KON schon_ADV hat_VAFIN man_PIS a-a_ADJD ^_XY 2_CARD +9_CARD \*_CARD aAber_NN LonCapa_NE sagte_VVFIN mir_PPER eben_ADV das_ART dieses_PDAT Ergebnis_NN falsch_ADJD ist_VAFIN ._$. Alle_PIDAT 5_CARD Versuche_NN weg_PTKVZ ._$. Egal_ADJD :-RRB-_XY 

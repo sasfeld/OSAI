@@ -1,0 +1,10 @@
+ID: 2492
+CREATION_DATETIME: 1375653600000
+MODIFICATION_DATETIME: 1375653600000
+TITLE: Das war in den Vorlesungen Nr. 6 und 7 dran. Mal in die Mitschriften, vor allem in die Schreibfolien,...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2491
+POSTING_TYPE: answer
+CONTENT:
+Das war in den Vorlesungen Nr. 6 und 7 dran. Mal in die Mitschriften, vor allem in die Schreibfolien, kucken.
+TAGGED_CONTENT:

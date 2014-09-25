@@ -1,0 +1,18 @@
+ID: 140
+CREATION_DATETIME: 1348264800000
+MODIFICATION_DATETIME: 1349215200000
+TITLE: Der Rückgabewert von 
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 138
+POSTING_TYPE: answer
+CONTENT:
+Der Rückgabewert <NAME_CORPUS_REPLACEMENT> sprintf ist die Anzahl der geschriebenen character, sprich ein INT.
+
+Du willst das in "zug" speichern, was ein CHAR* ist. 
+
+Das klappt nicht.
+
+Dein formatierter Ausgabestring steht in "bufferZuege".
+
+sprintf Referenz (englisch): http://www.cplusplus.com/reference/clibrary/cstdio/sprintf/
+TAGGED_CONTENT:

@@ -1,0 +1,11 @@
+ID: 237069
+CREATION_DATETIME: 1380534618
+MODIFICATION_DATETIME: 1380534618
+TITLE: Re: Fehler bei der Grafikdarstellung in den Lektionen
+PARENT_POSTING_ID: 237029
+CONTENT:
+Hallo zusammen,
+reden wir von dem angehängten "Problem", dass die Inhalte leer sind?
+ 
+Gruß <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

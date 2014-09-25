@@ -1,0 +1,9 @@
+ID: 3103
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: Naja, wenns nicht geht, gibst du dem Booking halt eine "eigene" Id.
+PARENT_POSTING_ID: 3069
+POSTING_TYPE: comment
+CONTENT:
+Naja, wenns nicht geht, gibst du dem Booking halt eine "eigene" Id.
+TAGGED_CONTENT:

@@ -1,0 +1,38 @@
+ID: 221
+CREATION_DATETIME: 1349647200000
+MODIFICATION_DATETIME: 1349647200000
+TITLE: - [Einführung Mathema
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Informatik;weight:3.0;significance:3.01453526853166;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:3.0;significance:3.00468103243328;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Datenstrukturen;weight:1.0;significance:2.54170990304678;degreegeneralization:6;uri:20808079
+TOPIC_ZOOM_TAG: value:Medieninformatik;weight:1.0;significance:2.4030804669348;degreegeneralization:5;uri:21633837
+TOPIC_ZOOM_TAG: value:Jahr 2012;weight:2.0;significance:2.37008972585199;degreegeneralization:11;uri:20891175
+TOPIC_ZOOM_TAG: value:Vorlesungen;weight:1.0;significance:2.18335800920118;degreegeneralization:6;uri:20916641
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:5.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Algorithmen;weight:1.0;significance:1.89009059544249;degreegeneralization:5;uri:20898553
+TOPIC_ZOOM_TAG: value:Ereignisse im Bereich Bildung, Erziehung und Ausbildung;weight:1.0;significance:1.84856272248684;degreegeneralization:3;uri:21872857
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:1.55625916601534;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Praktische Informatik;weight:1.0;significance:1.47133827635157;degreegeneralization:5;uri:20899199
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:3.0;significance:1.30877499354941;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:1.11094314273102;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:1.0361511055025;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:1.0;significance:0.990128661376436;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:0.894796904393358;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:0.873809722445596;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:0.801407352872212;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:0.732333938482156;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:0.700443432931056;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:0.530519683914266;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:0.46753735696115;degreegeneralization:2;uri:21999711
+PARENT_POSTING_ID: 201
+POSTING_TYPE: comment
+CONTENT:
+- [Einführung Mathematik für Informatiker](http://www.math.tu-dresden. de/%7Enoack/DS/DSLA2012. html) - Übungen beginnen in der 2. Woche (steht rot auf der Seite ;)
+
+- [Algorithmen und Datenstrukturen](http://www.inf.tu-dresden. de/index. php?node_id=3228&ln=de) - 15. 10. 2012, <REMOVED_PERSON_ENTITY>
+
+- [Einführung in die Medieninformatik](http://www.inf.tu-dresden. de/index. php?node_id=2523&ln=de) - 12. 10. 2012, erste Vorlesung
+
+/edit: Aber stellt bitte die Fragen zu den jeweiligen Kursen in Zukunft bitte auf den jeweiligen Kursseiten hier auf auditorium :) Falls die Kurse noch nicht existieren, könnt ihr sie gern vorschlagen und anlegen.
+TAGGED_CONTENT:

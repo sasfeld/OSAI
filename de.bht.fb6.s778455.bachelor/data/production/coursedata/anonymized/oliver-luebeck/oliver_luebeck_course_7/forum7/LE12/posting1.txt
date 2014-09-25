@@ -1,0 +1,15 @@
+ID: 91
+CREATION_DATETIME: 1307648520000
+MODIFICATION_DATETIME: 1307648520000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Liebe Studierende,
+
+die . Notation gilt auch für innere Klassen. Um die Ausnahme in der Test-Klasse zu fangen: catch(Student.FalscheAktuellesJahrAusnahme e). Natürlich muss die innere Klasse FalscheAktuellesJahrAusnahme die richtige Erreichbarkeit, also nicht private, haben.
+Viel Erfolg!
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

@@ -1,0 +1,25 @@
+ID: 1427
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1382306400000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+POS_TAG: value:gdb;weight:0.0;uri:;postag:NN
+POS_TAG: value:mcp;weight:0.0;uri:;postag:NN
+POS_TAG: value:Programm;weight:0.0;uri:;postag:NN
+POS_TAG: value:datei;weight:0.0;uri:;postag:NN
+POS_TAG: value:Probleme;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:B.;weight:0.0;uri:;postag:NN
+POS_TAG: value:ahnung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+ich habe gerade Probleme, den gdb zum debuggen richtig zu verwenden. Wenn ich das Programm mit dem Make file starte ist mir klar. Aber wie sage ich dem gdb, dass ich z. B. in myplayer. <LEARNED_PERSON_NAME_REPLACEMENT> jetzt breakpoints setzen will? wenn ich jetzt make run break 55 oder soetwas eingebe, überspringt er das break, vermjute mal weil ich <LEARNED_PERSON_NAME_REPLACEMENT> nicht spezifiziere in welcher datei die zeile gemeint ist. bin noch linux neuling und habe <NAME_CORPUS_REPLACEMENT> noch keine ahnung, wenn ich dazu was bei google gesucht habe, hatten die <LEARNED_PERSON_NAME_REPLACEMENT> auch nur eine direkte datei zum testen, und kein mcp drumherum...
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, ich_PPER habe_VAFIN gerade_ADV Probleme_NN ,_$, den_ART gdb_NN zum_APPRART debuggen_PIS richtig_ADJD zu_PTKZU verwenden_VVINF ._$. Wenn_KOUS ich_PPER das_ART Programm_NN mit_APPR dem_ART Make_FM file_FM starte_FM ist_VAFIN mir_PPER klar_ADJD ._$. Aber_KON wie_PWAV sage_VVFIN ich_PPER dem_ART gdb_NN ,_$, dass_KOUS ich_PPER z._APPRART B._NN in_APPR myplayer_ADJD ._$. <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_CARD jetzt_ADV breakpoints_ADV setzen_VVINF will_VMFIN ?_$. wenn_KOUS ich_PPER jetzt_ADV make_FM run_FM break_FM 55_CARD oder_KON soetwas_ADV eingebe_VVFIN ,_$, überspringt_VVFIN er_PPER das_ART break_FM ,_$, vermjute_VVFIN mal_ADV weil_KOUS ich_PPER <_VVFIN LEARNED_PERSON_NAME_REPLACEMENT_NE >_NE nicht_PTKNEG spezifiziere_VVFIN in_APPR welcher_PRELS datei_PROAV die_ART zeile_ADJD gemeint_VVPP ist_VAFIN ._$. bin_VAFIN noch_ADV linux_ADJD neuling_VVFIN und_KON habe_VAFIN <_CARD NAME_CORPUS_REPLACEMENT_NN >_CARD noch_ADV keine_PIAT ahnung_NN ,_$, wenn_KOUS ich_PPER dazu_PROAV was_PWS bei_APPR google_ADJA gesucht_VVPP habe_VAFIN ,_$, hatten_VAFIN die_ART <_ADJA LEARNED_PERSON_NAME_REPLACEMENT_NN >_VVFIN auch_ADV nur_ADV eine_ART direkte_ADJA datei_NN zum_APPRART testen_VVINF ,_$, und_KON kein_PIAT mcp_NN drumherum_ADV ..._$( <_XY REMOVED_PERSON_ENTITY_NE >_XY 

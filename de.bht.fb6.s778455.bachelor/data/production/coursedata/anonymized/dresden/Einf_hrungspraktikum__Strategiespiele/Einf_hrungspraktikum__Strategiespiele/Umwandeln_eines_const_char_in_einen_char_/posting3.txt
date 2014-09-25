@@ -1,0 +1,11 @@
+ID: 1592
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Das solltest du auf keinen Fall tun. Siehe http://en.cppreference.com/w/cpp/string/basic_string/c_str...
+PARENT_POSTING_ID: 1590
+POSTING_TYPE: answer
+CONTENT:
+Das solltest du auf keinen Fall tun. Siehe http://en.cppreference.com/w/cpp/string/basic_string/c_str
+> Writing to the character array accessed through c_str() is undefined behavior.
+Mach dir daher am Besten eine Kopie und verändere diese.
+TAGGED_CONTENT:

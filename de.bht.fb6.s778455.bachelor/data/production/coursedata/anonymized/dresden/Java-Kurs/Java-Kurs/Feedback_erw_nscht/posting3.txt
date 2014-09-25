@@ -1,0 +1,9 @@
+ID: 618
+CREATION_DATETIME: 1351551600000
+MODIFICATION_DATETIME: 1351551600000
+TITLE: Gefällt mir sehr! Die Tutoren helfen und erklären immer alles, wenn man es braucht. Für mich der Java...
+PARENT_POSTING_ID: 548
+POSTING_TYPE: answer
+CONTENT:
+Gefällt mir sehr! Die Tutoren helfen und erklären immer alles, wenn man es braucht. Für mich der Java-Kurs ist  schwerer als der C-Kurs... aber wird schon gehen :) Ich bin sehr dankbar allen Leuten, die die Kurse organisiert haben und so viel Mühe mit uns geben. Vielen Dank für alles, was ihr macht! 
+TAGGED_CONTENT:

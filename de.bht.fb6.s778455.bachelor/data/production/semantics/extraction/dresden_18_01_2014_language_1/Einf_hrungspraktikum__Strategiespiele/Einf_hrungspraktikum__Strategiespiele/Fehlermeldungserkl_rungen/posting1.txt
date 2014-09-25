@@ -1,0 +1,16 @@
+ID: 1188
+CREATION_DATETIME: 1362438000000
+MODIFICATION_DATETIME: 1364079600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich wollte mal fragen, ob man irgendwo die Bedeutung der Fehlermeldungen nach dem Start eines Spieles herausfinden kann. So habe ich z. B. bisher den "Fehler 1" bis "Fehler 7" feststellen können (6 und 7 kamen nach einem Sieg in Kalaha).
+
+Ich würde mich über eine schnelle Antwort freuen ;)
+
+Mit freundlichen Grüßen
+
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 996
+CREATION_DATETIME: 1355958000000
+MODIFICATION_DATETIME: 1355958000000
+TITLE: Don`t commit compiled version of you code. Before running tests, makefile will be called. Update make...
+PARENT_POSTING_ID: 991
+POSTING_TYPE: comment
+CONTENT:
+Don`t commit compiled version of you code. Before running tests, makefile will be called. Update makefile to compile you code.
+TAGGED_CONTENT:

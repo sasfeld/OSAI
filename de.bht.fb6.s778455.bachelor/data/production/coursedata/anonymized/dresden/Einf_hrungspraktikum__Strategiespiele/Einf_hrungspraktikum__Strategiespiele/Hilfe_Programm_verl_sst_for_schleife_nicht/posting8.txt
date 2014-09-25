@@ -1,0 +1,9 @@
+ID: 1338
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: die insert funktion wird in dem moment noch ncih aufgerufen da ich noch keine sprünge im ersten zug m...
+PARENT_POSTING_ID: 1329
+POSTING_TYPE: comment
+CONTENT:
+die insert funktion wird in dem moment noch ncih aufgerufen <NAME_CORPUS_REPLACEMENT> ich noch keine sprünge im ersten zug machen kann
+TAGGED_CONTENT:

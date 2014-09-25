@@ -1,0 +1,9 @@
+ID: 2489
+CREATION_DATETIME: 1375480800000
+MODIFICATION_DATETIME: 1375567200000
+TITLE: Das Gleiche habe ich nach einer Vorlesung den Herrn Theurich gefragt, seine Antwort war, dass Beleg u...
+PARENT_POSTING_ID: 2488
+POSTING_TYPE: comment
+CONTENT:
+Das Gleiche habe ich nach einer Vorlesung den Herrn <REMOVED_PERSON_ENTITY> gefragt, seine Antwort war, dass <REMOVED_PERSON_ENTITY> und Prüfung unabhängig voneinander sind - d. h. wenn du den Beleg nicht bestehst, ist die Prüfung trotzdem gültig, man muss also nur den Beleg wiederholen. Das Beleg-Ergebis gibt's deshalb auch erst nach der Klausur.
+TAGGED_CONTENT:

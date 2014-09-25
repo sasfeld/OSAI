@@ -19,6 +19,7 @@ import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Course.LearnedWordTypes;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>This class contains tests of the {@link GreetingsAnonymizationStrategy}.</p>
@@ -27,7 +28,7 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
  * @since 27.11.2013
  *
  */
-public class GreetingsAnonymizationStrategyTest {
+public class GreetingsAnonymizationStrategyTest extends NoLoggingTest {
 	protected AAnomyzationStrategy strategy;
 
 	/*

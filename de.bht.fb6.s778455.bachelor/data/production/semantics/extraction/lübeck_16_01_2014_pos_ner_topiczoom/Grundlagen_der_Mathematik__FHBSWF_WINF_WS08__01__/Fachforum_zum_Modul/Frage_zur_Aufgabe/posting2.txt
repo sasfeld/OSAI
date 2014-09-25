@@ -1,0 +1,11 @@
+ID: 16665
+CREATION_DATETIME: 1224699995
+MODIFICATION_DATETIME: 1224699995
+TITLE: Re: Frage zur Aufgabe
+POS_TAG: value:Teil;weight:0.0;uri:;postag:NN
+POS_TAG: value:kann!Bitte;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 16663
+CONTENT:
+Nein, weil man den link nicht direkt aufrufen kann!Bitte nennen Sie Teil, <REMOVED_PERSON_ENTITY>, Unterkapitel usw. MfG. al. 
+TAGGED_CONTENT:
+Nein_PTKANT ,_$, weil_KOUS man_PIS den_ART link_NE nicht_PTKNEG direkt_ADJD aufrufen_VVINF kann!Bitte_NN nennen_VVFIN Sie_PPER Teil_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, Unterkapitel_NE usw_NE ._$. MfG._NE al._NE ._$. 

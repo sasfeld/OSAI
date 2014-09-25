@@ -1,0 +1,9 @@
+ID: 1757
+CREATION_DATETIME: 1366754400000
+MODIFICATION_DATETIME: 1366840800000
+TITLE: Der Konstruktor soll zwei Parameter bekommen (den Mittelpunkt und den Radius des Smileys). Andere Wer...
+PARENT_POSTING_ID: 1754
+POSTING_TYPE: answer
+CONTENT:
+Der Konstruktor soll zwei Parameter bekommen (den Mittelpunkt und den Radius des Smileys). Andere Werte, wie z. B. die Liniendicke und die Füllfarbe, können ja dann beispielsweise im Konstruktor(-rumpf) festgelegt werden.
+TAGGED_CONTENT:

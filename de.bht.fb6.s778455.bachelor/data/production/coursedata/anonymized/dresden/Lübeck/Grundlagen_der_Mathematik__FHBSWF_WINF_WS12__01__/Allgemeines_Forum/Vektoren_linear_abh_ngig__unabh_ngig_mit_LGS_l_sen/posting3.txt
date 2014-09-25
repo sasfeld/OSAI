@@ -1,0 +1,14 @@
+ID: 191297
+CREATION_DATETIME: 1357543253
+MODIFICATION_DATETIME: 1357543253
+TITLE: Re: Vektoren linear abhängig/ unabhängig mit LGS lösen
+PARENT_POSTING_ID: 191031
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+Ihr Ansatz war doch: x1 mal 1. Vektor plus x2 mal 2. Vektor usw. gleich Nullvektor. 
+Folglich ergibt sich für JEDE Belegung Ihrer freien Parameter r, s ein Koeffizientensatz x1,..., x5 für eine LK zum Nullvektor. 
+Einziges Problem ist die Probe: Wählen Sie einmal irgendwelche Werte für r und s, errechnen Sie die Koeffizienten x1,..., x5 und bilden Sie die LK aus den in der Aufgabe gegebenen Vektoren. Kommt da der Nullvektor heraus? 
+Kleiner Tipp: Die Vektoren haben Rang 4 (nein, das sieht man nicht einfach so). Aus dieser Info können Sie erschließen, wie viele freie Parameter es geben wird.
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

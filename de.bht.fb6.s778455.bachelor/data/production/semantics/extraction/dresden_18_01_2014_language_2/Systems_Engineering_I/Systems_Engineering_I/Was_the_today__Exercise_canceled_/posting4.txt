@@ -1,0 +1,10 @@
+ID: 3060
+CREATION_DATETIME: 1385679600000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: well I only attend SE1...and in SE1 there was no information...so the solution is so sign in to every...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 3057
+POSTING_TYPE: comment
+CONTENT:
+well I only attend SE1... and in SE1 there was no information... so the solution is so sign in to every lecture on auditorium... in order to get the information???
+TAGGED_CONTENT:

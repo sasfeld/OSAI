@@ -1,0 +1,12 @@
+ID: 454
+CREATION_DATETIME: 1350856800000
+MODIFICATION_DATETIME: 1351029600000
+TITLE: Wolfram|Alpha sagt mi
+LANGUAGE: GERMAN
+POS_TAG: value:Wertetabelle;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 447
+POSTING_TYPE: comment
+CONTENT:
+<REMOVED_PERSON_ENTITY> sagt mit seiner Wertetabelle was anderes.
+TAGGED_CONTENT:
+<_XY REMOVED_PERSON_ENTITY_NE >_CARD sagt_VVFIN mit_APPR seiner_PPOSAT Wertetabelle_NN was_PIAT anderes_PIS ._$. 

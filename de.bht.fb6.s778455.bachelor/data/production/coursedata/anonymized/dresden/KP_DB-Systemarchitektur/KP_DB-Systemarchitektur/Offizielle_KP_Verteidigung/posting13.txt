@@ -1,0 +1,9 @@
+ID: 2324
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Wenn die Diagramme aus dem pres_diagramme.odp auch noch mit in die Endpräsi sollen, dann müssen die a...
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Wenn die Diagramme aus dem pres_diagramme. odp auch noch mit in die Endpräsi sollen, dann müssen die aber noch Achsenbezeichner bekommen. Und eine x-Achsenbeschriftung wie (1 6 11 16 21...) geht auch gar nicht, damit können wir uns nich vor Prof. <REMOVED_PERSON_ENTITY> stellen, das würde peinlich werden.
+TAGGED_CONTENT:

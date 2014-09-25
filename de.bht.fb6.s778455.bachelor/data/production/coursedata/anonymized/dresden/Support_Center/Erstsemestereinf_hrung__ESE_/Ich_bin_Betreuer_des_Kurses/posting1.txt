@@ -1,0 +1,12 @@
+ID: 318
+CREATION_DATETIME: 1350079200000
+MODIFICATION_DATETIME: 1350338400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+ich bin Teil der ESE-Orga. Bitte daher um Authorisierung. Ist zwar mittlerweile schon etwas spät, aber vielleicht gibt es ja noch Fragen.
+Grüße,
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

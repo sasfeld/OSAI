@@ -1,0 +1,12 @@
+ID: 2716
+CREATION_DATETIME: 1383519600000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> die Kurse noch jung sind, möchte ich ein bisschen "Marktforschung" betreiben. Darum die Frage an die Teilnehmer:  
+Was erwartet ihr in diesem Kurs zu lernen?  
+Was ist euer Ziel zum Ende des Semesters?  
+Gibt es ein Thema, das euch besonders am Herzen liegt?
+TAGGED_CONTENT:

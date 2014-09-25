@@ -1,0 +1,13 @@
+ID: 1953
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Zur Transparenz gab es auch Fragen. Aber die konnte ich mir beantworten. Aber auch hierfür Danke :)
+LANGUAGE: GERMAN
+POS_TAG: value:Transparenz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fragen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1951
+POSTING_TYPE: comment
+CONTENT:
+Zur Transparenz gab es auch Fragen. Aber die konnte ich mir beantworten. Aber auch hierfür Danke :)
+TAGGED_CONTENT:
+Zur_APPRART Transparenz_NN gab_VVFIN es_PPER auch_ADV Fragen_NN ._$. Aber_KON die_PDS konnte_VMFIN ich_PPER mir_PRF beantworten_VVINF ._$. Aber_KON auch_ADV hierfür_PROAV Danke_VVIMP :-RRB-_XY 

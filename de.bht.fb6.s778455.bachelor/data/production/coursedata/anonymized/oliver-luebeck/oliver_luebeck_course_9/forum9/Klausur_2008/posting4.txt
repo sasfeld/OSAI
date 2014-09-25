@@ -1,0 +1,23 @@
+ID: 77
+CREATION_DATETIME: 1183398120000
+MODIFICATION_DATETIME: 1183398120000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 76
+CONTENT:
+  
+Liebe , liebe Studierende,
+
+sehr gute Antwort. Die Methode println benutzt die Zeichenkette-Darstellung eines Objektes, also die Methode toString. Hier möchte ich die Gelegenheit nutzen, um zu erklären, was mit Arrays passiert.
+Sei die Deklaration int [] ar1; und später im Programm System.out.println(a).
+Die Methode toString der Klasse Object wird aufgerufen, weil jede referenzieller Typ, auch Arrays, eine Untertyp vom Object ist. Die Methode toString der Klasse Object gibt einfach zurück, was in der Variable a ist, nämlich eine Referenz. Im allgemeinen möchte man, dass die Elemente des Arrays zur Konsole ausgegeben werden. Man muss entweder die Schleife durch alle Element selbst schreiben, etwa so:
+for(int a : ar1){
+System.out.print (a + " ");
+}
+oder die Methode toString der Klasse java.util.Arrays aufrufen, die eine sehr schöne Darstellung macht. Wenn die Elemente des Arrays selbst Arrays sind, dann reicht die toString Methode aus java.util.Arrays nicht, es werden die Referenzen der Array-Elemente ausgegeben. Da hilft die deepToString Methode weiter. Beispiel:
+int [] [] ar2;
+System.out.println(java.util.Arrays.deepToString(ar2));
+
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

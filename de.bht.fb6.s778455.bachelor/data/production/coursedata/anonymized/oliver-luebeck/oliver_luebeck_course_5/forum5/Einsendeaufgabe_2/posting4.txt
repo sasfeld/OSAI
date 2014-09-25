@@ -1,0 +1,14 @@
+ID: 34
+CREATION_DATETIME: 1191956940000
+MODIFICATION_DATETIME: 1191956940000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 31
+CONTENT:
+ 
+ verrätst du mir wie du das mit dem Ersetzten der Umlaute hinbekommen hast? Zeilenweises Einlesen/Ausgeben funktioniert bereits. Wie spreche ich aber einzelne Zeichen an? Im Script wurde kurz die read() Methode erwähnt!? Ich steh aufn Schlauch ;)
+Thx und einen schönen Fr Abend für alle!
+
+Gruß
+    
+TAGGED_CONTENT:

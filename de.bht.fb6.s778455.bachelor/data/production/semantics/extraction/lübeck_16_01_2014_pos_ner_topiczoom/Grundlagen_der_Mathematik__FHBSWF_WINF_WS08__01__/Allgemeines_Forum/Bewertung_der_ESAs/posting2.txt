@@ -1,0 +1,11 @@
+ID: 16609
+CREATION_DATETIME: 1232561414
+MODIFICATION_DATETIME: 1232561414
+TITLE: Re: Bewertung der ESAs
+POS_TAG: value:Beitrag;weight:0.0;uri:;postag:NN
+POS_TAG: value:en;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 16607
+CONTENT:
+Hallo, bitte beachten sie den Beitrag unter &quot;news&quot;. Mit freundlichen Grüßen, <PERSONAL_GREETING_REMOVEMENT>. <REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, bitte_VVFIN beachten_VVFIN sie_PPER den_ART Beitrag_NN unter_APPR "_$( news_FM "_$( ._$. Mit_APPR freundlichen_ADJA Grüßen_NN ,_$, <_CARD PERSONAL_GREETING_REMOVEMENT_NE >_NE ._$. <_XY REMOVED_PERSON_ENTITY_NE >_NE ._$. 

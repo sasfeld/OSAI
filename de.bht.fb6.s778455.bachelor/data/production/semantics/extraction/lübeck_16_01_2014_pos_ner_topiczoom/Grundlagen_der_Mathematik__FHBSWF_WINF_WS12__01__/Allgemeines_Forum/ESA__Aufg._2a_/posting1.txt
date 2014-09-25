@@ -1,0 +1,68 @@
+ID: 183799
+CREATION_DATETIME: 1354116490
+MODIFICATION_DATETIME: 1354116490
+TITLE: ESA, Aufg. 2a)
+TOPIC_ZOOM_TAG: value:Algebraische Begriffe;weight:3.0;significance:12.7085495152339;degreegeneralization:7;uri:20767840
+TOPIC_ZOOM_TAG: value:Vektorräume;weight:3.0;significance:12.7085495152339;degreegeneralization:8;uri:20146881
+TOPIC_ZOOM_TAG: value:Lineare Algebra;weight:3.0;significance:12.7085495152339;degreegeneralization:7;uri:20881366
+TOPIC_ZOOM_TAG: value:Algebra;weight:3.0;significance:12.7085495152339;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Mathematik;weight:3.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:3.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:3.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:3.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:3.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Eure;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gedanken;weight:0.0;uri:;postag:NN
+POS_TAG: value:Transformation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zyklen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Betrachtung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ausblenden;weight:0.0;uri:;postag:NN
+POS_TAG: value:Unwesentlichem;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bild;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektorraums;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spaltenvektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Graphen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Transformationsregeln;weight:0.0;uri:;postag:NN
+POS_TAG: value:Knotenbewertung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeile;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gedankengang;weight:0.0;uri:;postag:NN
+POS_TAG: value:Knotenwert;weight:0.0;uri:;postag:NN
+POS_TAG: value:Schreibweise;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wege;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektorraum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Konstrukt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorgang;weight:0.0;uri:;postag:NN
+POS_TAG: value:Grunde;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abstraktion;weight:0.0;uri:;postag:NN
+POS_TAG: value:Knotenbewertungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klammernpaar;weight:0.0;uri:;postag:NN
+POS_TAG: value:Eigenschaften;weight:0.0;uri:;postag:NN
+POS_TAG: value:Art;weight:0.0;uri:;postag:NN
+POS_TAG: value:Irre;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kanten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Knotens;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zahlen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Position;weight:0.0;uri:;postag:NN
+POS_TAG: value:Prinzip;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rahmen;weight:0.0;uri:;postag:NN
+POS_TAG: value:B.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kommentare;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wert;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anordnung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Zur Frage, ob die möglichen Knotenbewertungen eines Graphen einen Vektorraum darstellen, möchte ich Euch mal folgenden Gedankengang vorstellen. (Ich hoffe, Ihr könnt meinen wirren Gedanken folgen :-)
+Wenn wir die Knotenbewertungen betrachten, dann spielen die Eigenschaften des hier gegebenen (oder auch irgendeines anderen) Graphen an sich (also Wege, Zyklen usw ....) sowie die Art und die Anordnung der Kanten für diese Betrachtung doch offenbar gar keine <REMOVED_PERSON_ENTITY>.
+Wir könnten (ohne die Knotenbewertung zu beeinträchtigen) die Kanten auch völlig anders anordnen oder auch ganz weglassen - dadurch ändert sich nicht an der Knotenbewertung.
+Wenn wir im Rahmen der Abstraktion (d. h. auch Ausblenden von Unwesentlichem) die Kanten also einfach mal wegnehmen und aus dem Bild entfernen, dann bleibt letztlich nur eine bestimmte <REMOVED_PERSON_ENTITY> von reellen Zahlen in einer bestimmten Anordnung stehen.
+Oder anders gesagt: Reelle Zahlen, die an eine wohldefinierte Position geschrieben werden.
+Und wir können doch jetzt im Prinzip auch irgendeine andere Anordnung dieser reellen Zahlen definieren und die bisherige Anordnung dann umkehrbar eindeutig (bijektiv) in diese neue andere Anordnung überführen (durch einen Vorgang, den ich jetzt mal "Transformation" nenne).
+Konkret: Wir wählen als neue Anordnung der gegebenen reellen Zahlen eine andere Anordnung, die wir bereits kennen, nämlich die Schreibweise zeilenweise untereinander und geben dafür verbindliche Transformationsregeln vor, z. B.: - Der Knotenwert von links unten soll immer in der ersten Zeile stehen - Der Wert des Knotens links oben soll in der zweiten Zeile stehen - usw...(Welcher Knotenwert an welche neue Position gesetzt wird, ist ja im Grunde beliebig. Wichtig ist aber natürlich, dass wir bei der Betrachtung mehrerer Knotenbewertungen immer die gleichen "Transformationsregeln" anwenden.)
+Wenn wir um diese neue "transformierte" Anordnung (zeilenweise) nun noch ein Klammernpaar setzen, dann entsteht ein Konstrukt, das uns bereits bekannt ist, nämlich ein reeller Spaltenvektor .
+Letztlich haben wir die ursprüngliche Knotenbewertung also doch nur auf eine andere (aber ebenso eindeutige) <REMOVED_PERSON_ENTITY> aufgeschrieben und dadurch in einen reellen Spaltenvektor überführt.
+(Ich denke, hier erübrigt es sich wohl, noch einmal zu zeigen, dass dieser zu einem reellen Vektorraum gehört und dass die bekannten Eigenschaften eines Vektorraums hier gelten. Das ist wohl unmittelbar einsichtig.)
+Irre ich mich irgendwo? Habe ich etwas übersehen? Oder könnt ihr mir zustimmen? Ich bitte um Eure Kommentare.
+TAGGED_CONTENT:
+Zur_APPRART Frage_NN ,_$, ob_KOUS die_ART möglichen_ADJA Knotenbewertungen_NN eines_ART Graphen_NN einen_ART Vektorraum_NN darstellen_VVFIN ,_$, möchte_VMFIN ich_PPER Euch_PRF mal_ADV folgenden_ADJA Gedankengang_NN vorstellen_VVINF ._$. -LRB-_TRUNC Ich_PPER hoffe_VVFIN ,_$, Ihr_PPOSAT könnt_ADJD meinen_PPOSAT wirren_ADJA Gedanken_NN folgen_VVFIN :--RRB-_NE Wenn_KOUS wir_PPER die_ART Knotenbewertungen_NN betrachten_VVFIN ,_$, dann_ADV spielen_VVFIN die_ART Eigenschaften_NN des_ART hier_ADV gegebenen_ADJA -LRB-_TRUNC oder_KON auch_ADV irgendeines_PIAT anderen_ADJA -RRB-_TRUNC Graphen_NN an_APPR sich_PRF -LRB-_TRUNC also_ADV Wege_NN ,_$, Zyklen_NN usw_ADJD ..._$( -RRB-_TRUNC sowie_KON die_ART Art_NN und_KON die_ART Anordnung_NN der_ART Kanten_NN für_APPR diese_PDAT Betrachtung_NN doch_ADV offenbar_ADJD gar_ADV keine_PIAT <_NN REMOVED_PERSON_ENTITY_NE >_NE ._$. Wir_PPER könnten_VMFIN -LRB-_TRUNC ohne_APPR die_ART Knotenbewertung_NN zu_PTKZU beeinträchtigen_VVINF -RRB-_TRUNC die_ART Kanten_NN auch_ADV völlig_ADJD anders_ADV anordnen_VVINF oder_KON auch_ADV ganz_ADV weglassen_VVFIN -_$( dadurch_PROAV ändert_VVFIN sich_PRF nicht_PTKNEG an_APPR der_ART Knotenbewertung_NN ._$. Wenn_KOUS wir_PPER im_APPRART Rahmen_NN der_ART Abstraktion_NN -LRB-_TRUNC d._PDS h._VVFIN auch_ADV Ausblenden_NN von_APPR Unwesentlichem_NN -RRB-_TRUNC die_ART Kanten_NN also_ADV einfach_ADV mal_ADV wegnehmen_VVINF und_KON aus_APPR dem_ART Bild_NN entfernen_VVINF ,_$, dann_ADV bleibt_VVFIN letztlich_ADV nur_ADV eine_ART bestimmte_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_CARD von_APPR reellen_ADJA Zahlen_NN in_APPR einer_ART bestimmten_ADJA Anordnung_NN stehen_VVFIN ._$. Oder_KON anders_ADV gesagt_VVPP :_$. Reelle_ADJA Zahlen_NN ,_$, die_PRELS an_APPR eine_ART wohldefinierte_ADJA Position_NN geschrieben_VVPP werden_VAINF ._$. Und_KON wir_PPER können_VMFIN doch_ADV jetzt_ADV im_APPRART Prinzip_NN auch_ADV irgendeine_PIAT andere_ADJA Anordnung_NN dieser_PDAT reellen_ADJA Zahlen_NN definieren_VVINF und_KON die_ART bisherige_ADJA Anordnung_NN dann_ADV umkehrbar_ADJD eindeutig_ADJD -LRB-_TRUNC bijektiv_ADJD -RRB-_TRUNC in_APPR diese_PDAT neue_ADJA andere_ADJA Anordnung_NN überführen_VVINF -LRB-_TRUNC durch_APPR einen_ART Vorgang_NN ,_$, den_PRELS ich_PPER jetzt_ADV mal_ADV "_$( Transformation_NN "_$( nenne_VVFIN -RRB-_TRUNC ._$. Konkret_ADJD :_$. Wir_PPER wählen_VVINF als_KOKOM neue_ADJA Anordnung_NN der_ART gegebenen_ADJA reellen_ADJA Zahlen_NN eine_ART andere_ADJA Anordnung_NN ,_$, die_PRELS wir_PPER bereits_ADV kennen_VVFIN ,_$, nämlich_ADV die_ART Schreibweise_NN zeilenweise_ADV untereinander_ADV und_KON geben_VVFIN dafür_PROAV verbindliche_ADJA Transformationsregeln_NN vor_PTKVZ ,_$, z._APPRART B._NN :_$. -_$( Der_ART Knotenwert_NN von_APPR links_ADV unten_ADV soll_VMFIN immer_ADV in_APPR der_ART ersten_ADJA Zeile_NN stehen_VVFIN -_$( Der_ART Wert_NN des_ART Knotens_NN links_ADV oben_ADV soll_VMFIN in_APPR der_ART zweiten_ADJA Zeile_NN stehen_VVFIN -_$( usw_KON ..._$( -LRB-_TRUNC Welcher_PWAT Knotenwert_NN an_APPR welche_PWAT neue_ADJA Position_NN gesetzt_VVPP wird_VAFIN ,_$, ist_VAFIN ja_ADV im_APPRART Grunde_NN beliebig_ADJD ._$. Wichtig_ADJD ist_VAFIN aber_ADV natürlich_ADV ,_$, dass_KOUS wir_PPER bei_APPR der_ART Betrachtung_NN mehrerer_PIAT Knotenbewertungen_NN immer_ADV die_ART gleichen_ADJA "_$( Transformationsregeln_NN "_$( anwenden_VVINF ._$. -RRB-_TRUNC Wenn_KOUS wir_PPER um_APPR diese_PDAT neue_ADJA "_$( transformierte_VVFIN "_$( Anordnung_NN -LRB-_TRUNC zeilenweise_ADV -RRB-_TRUNC nun_ADV noch_ADV ein_ART Klammernpaar_NN setzen_VVINF ,_$, dann_ADV entsteht_VVFIN ein_ART Konstrukt_NN ,_$, das_PRELS uns_PPER bereits_ADV bekannt_ADJD ist_VAFIN ,_$, nämlich_ADV ein_ART reeller_ADJA Spaltenvektor_NN ._$. Letztlich_ADV haben_VAFIN wir_PPER die_ART ursprüngliche_ADJA Knotenbewertung_NN also_ADV doch_ADV nur_ADV auf_APPR eine_ART andere_ADJA -LRB-_TRUNC aber_KON ebenso_ADV eindeutige_ADJA -RRB-_TRUNC <_XY REMOVED_PERSON_ENTITY_NN >_CARD aufgeschrieben_VVPP und_KON dadurch_PROAV in_APPR einen_ART reellen_ADJA Spaltenvektor_NN überführt_VVPP ._$. -LRB-_TRUNC Ich_PPER denke_VVFIN ,_$, hier_ADV erübrigt_VVFIN es_PPER sich_PRF wohl_ADV ,_$, noch_ADV einmal_ADV zu_PTKZU zeigen_VVINF ,_$, dass_KOUS dieser_PDAT zu_APPR einem_ART reellen_ADJA Vektorraum_NN gehört_VVFIN und_KON dass_KOUS die_ART bekannten_ADJA Eigenschaften_NN eines_ART Vektorraums_NN hier_ADV gelten_VVINF ._$. Das_PDS ist_VAFIN wohl_ADV unmittelbar_ADJD einsichtig_ADJD ._$. -RRB-_TRUNC Irre_NN ich_PPER mich_PRF irgendwo_ADV ?_$. Habe_VAFIN ich_PPER etwas_ADV übersehen_VVPP ?_$. Oder_KON könnt_VVFIN ihr_PPOSAT mir_PPER zustimmen_VVINF ?_$. Ich_PPER bitte_VVFIN um_APPR Eure_NN Kommentare_NN ._$. 

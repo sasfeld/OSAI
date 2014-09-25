@@ -1,0 +1,16 @@
+ID: 2984
+CREATION_DATETIME: 1385161200000
+MODIFICATION_DATETIME: 1385161200000
+TITLE: Welche Templateexception, genauer! Fehlerlog usw. ggf neue Frage stellen.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2935
+POSTING_TYPE: comment
+CONTENT:
+Welche Templateexception, genauer! Fehlerlog usw. ggf neue Frage stellen.
+
+Abgesehen davon hast du in deiner Tabelle schon `<td th:text="${customer. userAccount. identifier}">`und das funktioniert ja offensichtlich?
+
+Nein, du übergibst die Id, du musst den Identifier übergeben. Die Form bzw Http kann keine UserAccounts übertragen, Strings aber schon, ein SalespointIdentifier ist quasi nur ein String.
+
+Der `JpaEntityConverter` aus Salespoint (siehe Videohop. WebConfiguration) baut aus dem übergebenen Identifier direkt angegebene Objekt. Das erspart euch einfach paar Zeilen Code, sonst müsstet ihr aus dem übergebenen Id-String erst einen passenden (in dem Fall) `UserAccountidentifier` machen und diesen an `UserAccountManager. get()` übergeben um an den `UserAccount` zu kommen. Sinnlos boilerplate, davon gibts in Java schon genug.
+TAGGED_CONTENT:

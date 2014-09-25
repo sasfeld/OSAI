@@ -1,0 +1,13 @@
+ID: 521
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1351202400000
+TITLE: Danke für den Hinweis. Wurde soeben beides behoben:
+
+1. nur noch 1 Login Formular auf der Sign in S...
+PARENT_POSTING_ID: 392
+POSTING_TYPE: comment
+CONTENT:
+Danke für den Hinweis. Wurde soeben beides behoben:
+1. nur noch 1 Login Formular auf der Sign in Seite
+2. nach sign in wird der Deeplink inkl. Hash geöffnet
+TAGGED_CONTENT:

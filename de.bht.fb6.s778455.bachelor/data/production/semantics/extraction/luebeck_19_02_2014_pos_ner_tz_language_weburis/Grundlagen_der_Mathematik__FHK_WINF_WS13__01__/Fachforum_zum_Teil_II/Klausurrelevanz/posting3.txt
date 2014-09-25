@@ -1,0 +1,17 @@
+ID: 246571
+CREATION_DATETIME: 1382276799
+MODIFICATION_DATETIME: 1382276799
+TITLE: Re: Klausurrelevanz
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=93237#246571
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hinweisen;weight:0.0;uri:;postag:NN
+POS_TAG: value:LO;weight:0.0;uri:;postag:NN
+POS_TAG: value:REMOVEMENT;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 245933
+CONTENT:
+Nein, das LO ist nicht klausurrelevant. Das steht auch in den Hinweisen... :-)
+Viele Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Nein_PTKANT ,_$, das_ART LO_NN ist_VAFIN nicht_PTKNEG klausurrelevant_ADJD ._$. Das_PDS steht_VVFIN auch_ADV in_APPR den_ART Hinweisen_NN ..._$( :--RRB-_TRUNC Viele_PIDAT Grüße_NN <_CARD PERSONAL_GREETING_REMOVEMENT_NN >_XY 

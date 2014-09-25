@@ -1,0 +1,10 @@
+ID: 574
+CREATION_DATETIME: 1351465200000
+MODIFICATION_DATETIME: 1383519600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich würde gerne in "My courses" die Anzahl der Notifications für jeden einzelnen Kurs sehen. 
+Des Weiteren hätte ich in der globalen Notificationüberischt einen Button "delete all" neben dem "mark all as read".
+TAGGED_CONTENT:

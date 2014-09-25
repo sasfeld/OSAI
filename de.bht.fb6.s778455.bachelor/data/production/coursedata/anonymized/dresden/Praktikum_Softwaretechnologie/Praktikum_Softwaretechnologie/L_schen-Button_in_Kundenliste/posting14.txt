@@ -1,0 +1,9 @@
+ID: 2982
+CREATION_DATETIME: 1385161200000
+MODIFICATION_DATETIME: 1385161200000
+TITLE: Du übergibst die id des UserAccounts, von daher ist `${customer.userAccount.identifer}` richtig.
+PARENT_POSTING_ID: 2935
+POSTING_TYPE: comment
+CONTENT:
+Du übergibst die id des UserAccounts, <NAME_CORPUS_REPLACEMENT> daher ist `${customer. userAccount. identifer}` richtig.
+TAGGED_CONTENT:

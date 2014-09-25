@@ -1,0 +1,17 @@
+ID: 21
+CREATION_DATETIME: 1194197760000
+MODIFICATION_DATETIME: 1194197760000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 20
+CONTENT:
+ 
+Hallo zusammen, wenn ich auch noch mitmachen darf :) hier meine Kommentare:
+
+Methode 1 vergleicht die Listeneinträge mit dem übergebenen Namen und gibt den ersten übereinstimmenden Eintrag aus.
+
+Methode 2 vergleicht die Listeneinträge mit dem übergebenen Namen und gibt ALLE übereinstimmenden Einträge aus.
+
+Viele Grüße
+   
+TAGGED_CONTENT:

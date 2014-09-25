@@ -1,0 +1,12 @@
+ID: 1507
+CREATION_DATETIME: 1363042800000
+MODIFICATION_DATETIME: 1363042800000
+TITLE: Steht mit auf der Agenda. 
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1489
+POSTING_TYPE: answer
+CONTENT:
+Steht mit auf der Agenda. 
+
+Die Abfrage soll eben das Löschen aus Versehen verhindern. Aber bei Notifications kann es vllt. überflüssig sein. 
+TAGGED_CONTENT:

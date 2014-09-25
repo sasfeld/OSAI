@@ -1,0 +1,16 @@
+ID: 72
+CREATION_DATETIME: 1194105000000
+MODIFICATION_DATETIME: 1194105000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 71
+CONTENT:
+ 
+Hallo 
+
+Das tut mir Leid. Ich habe mich noch gar nicht für Ihre ausführliche Antwort bedankt. Das möchte ich hiermit nachholen.
+
+Bis heute Abend,
+
+    
+TAGGED_CONTENT:

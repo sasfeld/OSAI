@@ -1,0 +1,7 @@
+ID: 2154498
+CREATION_DATETIME: 1366063200000
+MODIFICATION_DATETIME: 1366063200000
+TITLE: Forschungsseminar - Rechnernetze SS2013
+LANGUAGE: UNKNOWN
+INTRO: Das Forschungsseminar Rechnernetze richtet sich an Diplomanden, Master- und Bachelorstudenten des Lehrstuhls Rechnernetze. Außerdem sind alle weiteren Interessenten herzlich eingeladen, sich über die laufenden Arbeiten und aktuellen Themenangebote am Lehrstuhl zu informieren.
+TYPE: null

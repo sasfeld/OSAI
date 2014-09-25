@@ -1,0 +1,8 @@
+ID: 97769
+CREATION_DATETIME: 1286777472
+MODIFICATION_DATETIME: 1286778261
+TITLE: Re: Zugang LON-CAPA
+PARENT_POSTING_ID: 97768
+CONTENT:
+ Das Problem hatte ich auch.Über diesen Link, der sich im PWA fand, ging dann zumindest die Account erstellung: https://vita. ostfalia. de/Prof. <REMOVED_PERSON_ENTITY> hatte ja schon angekündigt, dass der die Kursinhalte noch freischalten wird. <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

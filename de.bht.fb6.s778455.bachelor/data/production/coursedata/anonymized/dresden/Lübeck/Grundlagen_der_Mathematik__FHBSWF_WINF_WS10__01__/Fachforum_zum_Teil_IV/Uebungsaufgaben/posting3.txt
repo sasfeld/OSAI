@@ -1,0 +1,8 @@
+ID: 97814
+CREATION_DATETIME: 1293520054
+MODIFICATION_DATETIME: 1293520054
+TITLE: Re: Uebungsaufgaben
+PARENT_POSTING_ID: 97813
+CONTENT:
+Hallo Prof. <REMOVED_PERSON_ENTITY>, könnten Sie uns bitte auch die dazugehörigen Ergebnisse sowie Lösungswege zukommen lassen?Danke und <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

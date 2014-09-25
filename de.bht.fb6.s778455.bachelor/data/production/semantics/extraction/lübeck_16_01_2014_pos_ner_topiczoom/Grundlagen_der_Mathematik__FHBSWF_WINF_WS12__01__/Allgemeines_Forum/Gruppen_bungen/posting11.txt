@@ -1,0 +1,56 @@
+ID: 194729
+CREATION_DATETIME: 1358595499
+MODIFICATION_DATETIME: 1358595645
+TITLE: Re: Gruppenübungen
+TOPIC_ZOOM_TAG: value:Vektoren;weight:5.0;significance:9.07753536802421;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:7.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:7.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Skalare;weight:2.0;significance:3.63101414720969;degreegeneralization:7;uri:19937424
+TOPIC_ZOOM_TAG: value:Natur;weight:7.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:7.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:7.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-LOC
+POS_TAG: value:mn;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einheitsmatrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skalaren;weight:0.0;uri:;postag:NN
+POS_TAG: value:LGS;weight:0.0;uri:;postag:NN
+POS_TAG: value:A;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Matrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gleichung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Suchen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:Q;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skalare;weight:0.0;uri:;postag:NN
+POS_TAG: value:bung;weight:0.0;uri:;postag:NN
+POS_TAG: value:R;weight:0.0;uri:;postag:NN
+POS_TAG: value:Matrixgleichung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gesuchte;weight:0.0;uri:;postag:NN
+POS_TAG: value:LK;weight:0.0;uri:;postag:NN
+POS_TAG: value:sen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 194457
+CONTENT:
+Hallo zusammen,
+evenutell kann mir jemand von euch bei Gruppenübung D weiterhelfen.
+Ich bin hier erstmal so vorgegangen, dass ich mir eine Matrix wegedacht habe. Also ich habe versucht die Matrixgleichung M*Q=R zu lösen.
+Ich weiß, dass das Lösen einens LGS auch als das Suchen einer LK (von Skalaren) dargestellt werden kann.
+Das heißt die oben geannte Gleichung könnte man auch so darstellen:
+M=Gebene Vektoren bzw. Matrix (m1-mn)R=Gegebene Vektoren bzw Matrix (r1-rn)Q= Gesuchte Skalare (q1-qn)
+q1*(m1)+q2*(m2)... qn*(mn)=r1, r2, rn
+Wenn ich die gesuchte Matrix P noch hinzufügen würde, würde es so aussehen:p1*q1*(m1)+p2*q2*(m2)... pn*qn*(mn)=b1, b2, bnDas spielt aber erstmal keine <REMOVED_PERSON_ENTITY>..
+So, um an die gesuchten Skalare Q ranzukommen, muss also folgendes LGS (simultan) gelöst werden:
+2 4 -2 | 1 0 00 1 1 | 0 1 0-3 -4 5 | 0 0 0
+Leider geht dieses LGS für die Vektoren (1, 0, 0)^T und (0, 1, 0)^T nicht auf, da A ungleich A|b ist. Somit kann ich aus den gegebenen Vektoren eigentlich keine LK zu den geuschten Vektoren bilden. Wenn dieses LGS aufgegangen wäre, hätte ich diesen Vektor\Matrix für Q genutzt und für P einfach die Einheitsmatrix 3x3 gewählt.
+Leider geht das aber. Vermutlich muss die Matrix M noch mit irgend einer anderen Matrix mutlipliziert werden damit anschließende R aus ihr erstellt werden kann. Aber wie komme ich an diese Matrix dran?
+Schon einmal besten Dank und Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, evenutell_ADJD kann_VMFIN mir_PPER jemand_PIS von_APPR euch_PRF bei_APPR Gruppenübung_NN D_NE weiterhelfen_VVINF ._$. Ich_PPER bin_VAFIN hier_ADV erstmal_ADV so_ADV vorgegangen_VVPP ,_$, dass_KOUS ich_PPER mir_PPER eine_ART Matrix_NN wegedacht_VVPP habe_VAFIN ._$. Also_ADV ich_PPER habe_VAFIN versucht_VVFIN die_ART Matrixgleichung_NN M_NE \*_CARD Q_XY =_XY R_XY zu_PTKZU lösen_VVINF ._$. Ich_PPER weiß_VVFIN ,_$, dass_KOUS das_ART Lösen_NN einens_APPR LGS_NE auch_ADV als_APPR das_ART Suchen_NN einer_ART LK_NN -LRB-_TRUNC von_APPR Skalaren_NN -RRB-_TRUNC dargestellt_VVPP werden_VAINF kann_VMFIN ._$. Das_PDS heißt_VVFIN die_ART oben_ADV geannte_ADJA Gleichung_NN könnte_VMFIN man_PIS auch_ADV so_ADV darstellen_VVFIN :_$. M_NE =_XY Gebene_FM Vektoren_NN bzw_NE ._$. Matrix_NE -LRB-_TRUNC m1-mn_NN -RRB-_TRUNC R_XY =_XY Gegebene_ADJA Vektoren_NN bzw_APPR Matrix_NE -LRB-_TRUNC r1-rn_CARD -RRB-_TRUNC Q_XY =_XY Gesuchte_NN Skalare_NE -LRB-_TRUNC q1-qn_CARD -RRB-_TRUNC q1_XY \*_CARD -LRB-_TRUNC m1_CARD -RRB-_TRUNC +_KON q2_XY \*_CARD -LRB-_TRUNC m2_XY -RRB-_TRUNC ..._$( qn_FM \*_FM -LRB-_TRUNC mn_NN -RRB-_TRUNC =_XY r1_CARD ,_$, r2_CARD ,_$, rn_VVFIN Wenn_KOUS ich_PPER die_ART gesuchte_ADJA Matrix_NE P_NE noch_ADV hinzufügen_VVINF würde_VAFIN ,_$, würde_VAFIN es_PPER so_ADV aussehen_VVFIN :p_PPER 1_CARD \*_CARD q1_CARD \*_CARD -LRB-_TRUNC m1_CARD -RRB-_TRUNC +_KON p2_XY \*_CARD q2_XY \*_CARD -LRB-_TRUNC m2_XY -RRB-_TRUNC ..._$( pn_FM \*_FM qn_FM \*_FM -LRB-_TRUNC mn_NN -RRB-_TRUNC =_XY b1_CARD ,_$, b2_CARD ,_$, bnDas_NE spielt_VVFIN aber_ADV erstmal_ADV keine_PIAT <_NN REMOVED_PERSON_ENTITY_NE >_NE ._$. ._$. So_ADV ,_$, um_KOUI an_APPR die_ART gesuchten_ADJA Skalare_NN Q_NE ranzukommen_VVIZU ,_$, muss_VMFIN also_ADV folgendes_ADJA LGS_NN -LRB-_TRUNC simultan_ADJD -RRB-_TRUNC gelöst_VVPP werden_VAINF :_$. 2_CARD 4_CARD -2_CARD |_XY 1_CARD 0_CARD 00_CARD 1_CARD 1_CARD |_CARD 0_CARD 1_CARD 0-3_CARD -4_CARD 5_CARD |_CARD 0_CARD 0_CARD 0_CARD Leider_ADV geht_VVFIN dieses_PDAT LGS_NN für_APPR die_ART Vektoren_NN -LRB-_TRUNC 1_CARD ,_$, 0_CARD ,_$, 0_CARD -RRB-_TRUNC ^_XY T_XY und_KON -LRB-_TRUNC 0_CARD ,_$, 1_CARD ,_$, 0_CARD -RRB-_TRUNC ^_XY T_XY nicht_PTKNEG auf_PTKVZ ,_$, da_ADV A_NN ungleich_ADJD A_NN |_CARD b_XY ist_VAFIN ._$. Somit_ADV kann_VMFIN ich_PPER aus_APPR den_ART gegebenen_ADJA Vektoren_NN eigentlich_ADV keine_PIAT LK_NN zu_APPR den_ART geuschten_ADJA Vektoren_NN bilden_VVINF ._$. Wenn_KOUS dieses_PDAT LGS_NN aufgegangen_VVPP wäre_VAFIN ,_$, hätte_VAFIN ich_PPER diesen_PDAT Vektor_NN \_ADJA Matrix_NN für_APPR Q_NN genutzt_VVPP und_KON für_APPR P_NE einfach_ADV die_ART Einheitsmatrix_NN 3x3_CARD gewählt_VVPP ._$. Leider_ADV geht_VVFIN das_PDS aber_ADV ._$. Vermutlich_ADV muss_VMFIN die_ART Matrix_NE M_NE noch_ADV mit_APPR irgend_ADV einer_ART anderen_ADJA Matrix_NN mutlipliziert_VVPP werden_VAFIN damit_PROAV anschließende_ADJA R_NN aus_APPR ihr_PPOSAT erstellt_VVPP werden_VAINF kann_VMFIN ._$. Aber_KON wie_PWAV komme_VVFIN ich_PPER an_APPR diese_PDAT Matrix_NN dran_PROAV ?_$. Schon_ADV einmal_ADV besten_ADJA Dank_NN und_KON Gruß_NN <_VVFIN REMOVED_PERSON_ENTITY_NE >_XY 

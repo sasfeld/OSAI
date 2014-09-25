@@ -1,0 +1,16 @@
+ID: 2435
+CREATION_DATETIME: 1374530400000
+MODIFICATION_DATETIME: 1377554400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+habe mir bereits die Vorlesungsvideos bis RN9. wmv auf http://www.inf.tu-dresden. de/index. php?node_id=1785&ln=de&video=teleuni_piloten_vorlesungsvideos_rechnernetze angesehen und nun mitbekommen, dass es zum Kapitel "Multimediakommunikation" keine Mitschnitt gibt. Dafür gibt es Verteilte Systeme 2x (Mitschnitt 2011 und 2013).
+
+Wäre es möglich, den Mitschnitt zu "Multimediakommunikation" ebenfalls online zu stellen?
+
+Vielen Dank.
+TAGGED_CONTENT:

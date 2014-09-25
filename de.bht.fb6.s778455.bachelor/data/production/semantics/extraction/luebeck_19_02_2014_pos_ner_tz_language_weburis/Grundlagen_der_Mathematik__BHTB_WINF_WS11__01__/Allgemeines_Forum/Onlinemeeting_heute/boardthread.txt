@@ -1,0 +1,7 @@
+ID: 43321
+CREATION_DATETIME: 1325664207
+MODIFICATION_DATETIME: 1326903932
+TITLE: Onlinemeeting heute
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=43321
+FIRST_POSTING_ID: 116455

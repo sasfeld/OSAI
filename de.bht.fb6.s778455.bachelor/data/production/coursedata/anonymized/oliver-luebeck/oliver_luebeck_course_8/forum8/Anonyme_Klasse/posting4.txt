@@ -1,0 +1,25 @@
+ID: 41
+CREATION_DATETIME: 1197107460000
+MODIFICATION_DATETIME: 1197107460000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 40
+CONTENT:
+
+
+Liebe ,
+
+eine Anonyme Klasse ist eine Klasse ohne Namen, wie es Seite 10 ausführlicher erklärt ist (die letzte Zeile der Seite 7 beachten). Ist das Beispiel Seite 10 zu verstehen? Nach new ActionListener() Zeile 33 kommt gleich der Rumpf der Klasse ohne Kopf, also ohne Namen für die Klasse. Hier füge ich genau den Rupf der Klasse ein:
+
+ {
+034 public void actionPerformed(ActionEvent knopfdruck) {
+035 // Hintergrund des Fensters auf aktuelleFarbe setzen
+036 getContentPane().setBackground(aktuelleFarbe);
+037 }
+038 }
+
+
+
+Mit freundlichen Grüßen
+   
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 541
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1384124400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+As the Task1 says:
+Where and how <NAME_CORPUS_REPLACEMENT> you use exceptions in your rcopy application? Extend the C Version of rcopy with exceptions (of course now in C++). Do not reuse your C++ version from task 1. Write C++ wrapper classes for your C solution!
+It seems like that we should complete the recopy using C.
+But in repository of svn, the preset rcopy file is C++.
+From my opinion, we should use C++ to complete the rcopy for the reason we must handle the exceptions in the program.
+Am I right? What's your guys opinion?
+TAGGED_CONTENT:

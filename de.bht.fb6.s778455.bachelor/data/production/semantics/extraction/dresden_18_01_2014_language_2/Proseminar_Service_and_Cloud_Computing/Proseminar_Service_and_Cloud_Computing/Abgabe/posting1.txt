@@ -1,0 +1,10 @@
+ID: 1984
+CREATION_DATETIME: 1370642400000
+MODIFICATION_DATETIME: 1372629600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+An wen ist die Ausarbeitung zu schicken? Ist mit "Betreuer der LV", der oder die persönliche Betreur/in gemeint oder die Betreuenden der Veranstaltung?
+TAGGED_CONTENT:

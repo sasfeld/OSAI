@@ -1,0 +1,15 @@
+ID: 1774
+CREATION_DATETIME: 1367445600000
+MODIFICATION_DATETIME: 1367791200000
+TITLE: null
+LANGUAGE: GERMAN
+POS_TAG: value:Zugang;weight:0.0;uri:;postag:NN
+POS_TAG: value:Folien;weight:0.0;uri:;postag:NN
+POS_TAG: value:Notizen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Könnten Sie mir den Zugang für die Folien schreiben? Ich habe leider meine Notizen verlegt. Vielen Dank.
+TAGGED_CONTENT:
+Könnten_VMFIN Sie_PPER mir_PRF den_ART Zugang_NN für_APPR die_ART Folien_NN schreiben_VVINF ?_$. Ich_PPER habe_VAFIN leider_ADV meine_PPOSAT Notizen_NN verlegt_VVPP ._$. Vielen_PIDAT Dank_NN ._$. 

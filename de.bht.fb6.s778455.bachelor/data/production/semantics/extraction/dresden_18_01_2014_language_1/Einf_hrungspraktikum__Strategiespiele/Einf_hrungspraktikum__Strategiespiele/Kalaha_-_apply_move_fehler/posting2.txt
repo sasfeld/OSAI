@@ -1,0 +1,10 @@
+ID: 1298
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Ja, das ist so beabsichtigt. Da es nur eine Hilfsfunktion ist, kannst du die ja auch fix selbst imple...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1297
+POSTING_TYPE: answer
+CONTENT:
+Ja, das ist so beabsichtigt. <NAME_CORPUS_REPLACEMENT> es nur eine <REMOVED_PERSON_ENTITY> ist, kannst du die <LEARNED_PERSON_NAME_REPLACEMENT> auch fix selbst implementieren.
+TAGGED_CONTENT:

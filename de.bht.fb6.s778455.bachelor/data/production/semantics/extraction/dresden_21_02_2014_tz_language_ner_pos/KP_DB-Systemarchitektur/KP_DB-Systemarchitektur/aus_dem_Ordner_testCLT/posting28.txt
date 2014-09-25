@@ -1,0 +1,24 @@
+ID: 1960
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Genau heute bin ich mal nicht im Studentenlabor. Sonst bin ich eigentlich immer dort zu finden.
+LANGUAGE: GERMAN
+NER_TAG: value:SVN;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:SVN-Ordner;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:CLeverTrustee;weight:0.0;uri:;postag:NN
+POS_TAG: value:Studentenlabor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufruf;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ordner;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Haufen;weight:0.0;uri:;postag:NN
+POS_TAG: value:SVN;weight:0.0;uri:;postag:NN
+POS_TAG: value:Make;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Genau heute bin ich mal nicht im Studentenlabor. Sonst bin ich eigentlich immer dort zu finden.
+
+Auch ein Make im CLeverTrustee (frisch aus dem SVN rüberkopiert) bringt einen Haufen Fehler. Habe gerade das Make vom CLeverTrustee mal im SVN-Ordner versucht, auch <NAME_CORPUS_REPLACEMENT> bringt es Fehler. Funktioniert bei euch der Aufruf vom Make?
+TAGGED_CONTENT:
+Genau_ADV heute_ADV bin_VAFIN ich_PPER mal_ADV nicht_PTKNEG im_APPRART Studentenlabor_NN ._$. Sonst_ADV bin_VAFIN ich_PPER eigentlich_ADV immer_ADV dort_ADV zu_PTKZU finden_VVINF ._$. Auch_ADV ein_ART Make_NN im_APPRART CLeverTrustee_NN -LRB-_TRUNC frisch_ADJD aus_APPR dem_ART SVN_NN rüberkopiert_VVFIN -RRB-_TRUNC bringt_VVFIN einen_ART Haufen_NN Fehler_NE ._$. Habe_VAFIN gerade_ADV das_ART Make_NN vom_APPRART CLeverTrustee_NN mal_ADV im_APPRART SVN-Ordner_NN versucht_VVFIN ,_$, auch_ADV <_CARD NAME_CORPUS_REPLACEMENT_NN >_CARD bringt_VVFIN es_PPER Fehler_NN ._$. Funktioniert_VVFIN bei_APPR euch_PRF der_ART Aufruf_NN vom_APPRART Make_NN ?_$. 

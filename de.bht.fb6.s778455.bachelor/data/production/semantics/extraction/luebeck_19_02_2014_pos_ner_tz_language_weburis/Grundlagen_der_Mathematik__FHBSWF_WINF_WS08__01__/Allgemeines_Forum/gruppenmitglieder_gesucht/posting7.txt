@@ -1,0 +1,17 @@
+ID: 16573
+CREATION_DATETIME: 1225092656
+MODIFICATION_DATETIME: 1225092656
+TITLE: Re: gruppenmitglieder gesucht
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=6511#16573
+POS_TAG: value:Lust;weight:0.0;uri:;postag:NN
+POS_TAG: value:Platz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 16569
+CONTENT:
+Moin <REMOVED_PERSON_ENTITY>,
+also wir (<REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY> und Ich) hätten noch einen Platz frei. Wenn du Lust hast, kannst du in unserer Gruppe mit machen.
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Moin_NE <_VVFIN REMOVED_PERSON_ENTITY_NE >_NE ,_$, also_ADV wir_PPER -LRB-_TRUNC <_XY REMOVED_PERSON_ENTITY_NE >_CARD ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE und_KON Ich_PPER -RRB-_TRUNC hätten_VAFIN noch_ADV einen_ART Platz_NN frei_ADJD ._$. Wenn_KOUS du_PPER Lust_NN hast_VAFIN ,_$, kannst_VMFIN du_PPER in_APPR unserer_PPOSAT Gruppe_NN mit_APPR machen_VVINF ._$. Gruß_NE <_NE PERSONAL_GREETING_REMOVEMENT_NE >_XY 

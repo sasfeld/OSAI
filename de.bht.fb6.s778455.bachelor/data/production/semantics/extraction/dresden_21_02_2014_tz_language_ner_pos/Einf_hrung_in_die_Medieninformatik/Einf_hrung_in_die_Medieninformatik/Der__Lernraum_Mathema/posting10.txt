@@ -1,0 +1,20 @@
+ID: 206
+CREATION_DATETIME: 1349560800000
+MODIFICATION_DATETIME: 1349560800000
+TITLE: Ich würde davon ausge
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Vorlesungen;weight:1.0;significance:10.9167900460059;degreegeneralization:6;uri:20916641
+TOPIC_ZOOM_TAG: value:Ereignisse im Bereich Bildung, Erziehung und Ausbildung;weight:1.0;significance:9.2428136124342;degreegeneralization:3;uri:21872857
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Vorlesung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorlesungswebseite;weight:0.0;uri:;postag:NN
+POS_TAG: value:Termin;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 193
+POSTING_TYPE: comment
+CONTENT:
+Ich würde davon ausgehen. Die [Vorlesungswebseite](http://www.inf.tu-dresden. de/index. php?node_id=2523&ln=de) listet bisher auch nur den Termin der ersten Vorlesung. Alles Weitere wird dann sicherlich dort erklärt.
+TAGGED_CONTENT:
+Ich_PPER würde_VAFIN davon_PROAV ausgehen_VVINF ._$. Die_ART -LSB-_TRUNC Vorlesungswebseite_NN -RSB-_TRUNC -LRB-_TRUNC http:\/\/www.inf.tu-dresden_VVINF ._$. de\/index_PDS ._$. php_XY ,_$, node_id_XY =_XY 2523_CARD &_KON ln_XY =_XY de_FM -RRB-_TRUNC listet_VVFIN bisher_ADV auch_ADV nur_ADV den_ART Termin_NN der_ART ersten_ADJA Vorlesung_NN ._$. Alles_PIS Weitere_ADJA wird_VAFIN dann_ADV sicherlich_ADV dort_ADV erklärt_VVPP ._$. 

@@ -1,0 +1,53 @@
+ID: 170497
+CREATION_DATETIME: 1350286224
+MODIFICATION_DATETIME: 1350286224
+TITLE: Re: Online Präsenz vom 10.10.
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+POS_TAG: value:Fall;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kette;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ausnahmeelement;weight:0.0;uri:;postag:NN
+POS_TAG: value:faufwand;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gleiche;weight:0.0;uri:;postag:NN
+POS_TAG: value:Strickmuster;weight:0.0;uri:;postag:NN
+POS_TAG: value:muss;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beispiel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bedingung;weight:0.0;uri:;postag:NN
+POS_TAG: value:lle;weight:0.0;uri:;postag:NN
+POS_TAG: value:Paare;weight:0.0;uri:;postag:NN
+POS_TAG: value:Argumentationen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Betrachten;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Relation;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hinweis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Leere;weight:0.0;uri:;postag:NN
+POS_TAG: value:Menge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Elemente;weight:0.0;uri:;postag:NN
+POS_TAG: value:Eigenschaft;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beste;weight:0.0;uri:;postag:NN
+POS_TAG: value:Eigenschaften;weight:0.0;uri:;postag:NN
+POS_TAG: value:Finger;weight:0.0;uri:;postag:NN
+POS_TAG: value:Paar;weight:0.0;uri:;postag:NN
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+POS_TAG: value:Art;weight:0.0;uri:;postag:NN
+POS_TAG: value:t;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aussagen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aussage;weight:0.0;uri:;postag:NN
+POS_TAG: value:ck;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zahlen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Negation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Element;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 170189
+CONTENT:
+Zum Problem der "Transitivität ohne abzuprüfenden Fall":
+Betrachten Sie als einfachstes Beispiel einmal die leere Relation M={}. Diese ist reflexiv, symmetrisch, antisymmetrisch und transitiv. Warum? Für Reflexivität muss beispielsweise gelten, dass für jedes Element x, das in einem Paar in M vorkommt, auch das Paar (x, x) in M sein muss. Da es keine Paare in M gibt, ist hier der Prüfaufwand gleich Null, d. h. Reflexivität erhält man geschenkt. Das Gleiche gilt für die anderen Eigenschaften. 
+Wichtig ist aber nicht, ob die Relation leer ist, sondern ob die Bedingung für die zu prüfende Eigenschaft "ins Leere läuft". Wenn man also für Transitivität zu jeder Kette (a, b), (b, c) aus M prüfen muss, ob dann auch (a, c) in M ist, aber in M überhaupt keine Kette dieser Art enthalten ist, dann hat man ohne einen Finger zu rühren alle zu prüfenden Fälle (null Stück!) abgearbeitet und die Transititivät nachgewiesen.
+Auch folgende Aussagen sind trivial wahr, weil sie über eine leere notwendige Bedingung laufen: "Jedes Element der leeren Menge heißt <REMOVED_PERSON_ENTITY>.". "Alle Elemente der leeren <REMOVED_PERSON_ENTITY> sind gerade Zahlen.". "Jede gerade <REMOVED_PERSON_ENTITY> in der <REMOVED_PERSON_ENTITY> {1, 3, 5, 7, 9} ist größer als 12."
+Fällt Ihnen ein Strickmuster auf? Die Aussagen sind immer in "für alle"-<REMOVED_PERSON_ENTITY> formuliert. Dies liefert uns auch einen Hinweis darauf, dass es in der Negation einer solchen Aussage dann nicht mehr so einfach klappt. Es ist M={} zwar reflexiv, aber nicht nichtreflexiv (oha!). Es ist eine Relation nichtreflexiv, wenn zu mindestens einem in der Relation vorkommendem Element x das Paar (x, x) in der Relation fehlt. Ein solches "Ausnahmeelement" finden Sie nun garantiert nicht in der leeren <REMOVED_PERSON_ENTITY>.
+Ich hoffe, es ist ein wenig klarer geworden. Dies ist wahrscheinlich die verwirrendste Eigenschaft der leeren <REMOVED_PERSON_ENTITY>, aber eine ganz zentrale für Argumentationen.
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:
+Zum_APPRART Problem_NN der_ART "_$( Transitivität_NN ohne_APPR abzuprüfenden_ADJA Fall_NN "_$( :_$. Betrachten_NN Sie_PPER als_APPR einfachstes_ADJA Beispiel_NN einmal_ADV die_ART leere_ADJA Relation_NN M_NE ={_CARD -RCB-_TRUNC ._$. Diese_PDS ist_VAFIN reflexiv_ADJD ,_$, symmetrisch_ADJD ,_$, antisymmetrisch_ADJD und_KON transitiv_ADJD ._$. Warum_PWAV ?_$. Für_APPR Reflexivität_NN muss_APPR beispielsweise_ADV gelten_VVINF ,_$, dass_KOUS für_APPR jedes_PIDAT Element_NN x_XY ,_$, das_PRELS in_APPR einem_ART Paar_NN in_APPR M_NE vorkommt_VVFIN ,_$, auch_ADV das_ART Paar_NN -LRB-_TRUNC x_XY ,_$, x_XY -RRB-_TRUNC in_APPR M_NE sein_PPOSAT muss_NN ._$. Da_KOUS es_PPER keine_PIAT Paare_NN in_APPR M_NE gibt_VVFIN ,_$, ist_VAFIN hier_ADV der_ART Prüfaufwand_NN gleich_ADV Null_CARD ,_$, d._PDS h._VVFIN Reflexivität_NN erhält_VVFIN man_PIS geschenkt_VVPP ._$. Das_ART Gleiche_NN gilt_VVFIN für_APPR die_ART anderen_ADJA Eigenschaften_NN ._$. Wichtig_ADJD ist_VAFIN aber_ADV nicht_PTKNEG ,_$, ob_KOUS die_ART Relation_NN leer_ADJD ist_VAFIN ,_$, sondern_KON ob_KOUS die_ART Bedingung_NN für_APPR die_ART zu_PTKZU prüfende_ADJA Eigenschaft_NN "_$( ins_APPRART Leere_NN läuft_VVFIN "_$( ._$. Wenn_KOUS man_PIS also_ADV für_APPR Transitivität_NN zu_PTKZU jeder_PIDAT Kette_NN -LRB-_TRUNC a_XY ,_$, b_XY -RRB-_TRUNC ,_$, -LRB-_TRUNC b_XY ,_$, c_FM -RRB-_TRUNC aus_APPR M_NE prüfen_VVINF muss_VMFIN ,_$, ob_KOUS dann_ADV auch_ADV -LRB-_TRUNC a_XY ,_$, c_FM -RRB-_TRUNC in_APPR M_NE ist_VAFIN ,_$, aber_KON in_APPR M_NE überhaupt_ADV keine_PIAT Kette_NN dieser_PDAT Art_NN enthalten_VVPP ist_VAFIN ,_$, dann_ADV hat_VAFIN man_PIS ohne_APPR einen_ART Finger_NN zu_PTKZU rühren_VVINF alle_PIS zu_PTKZU prüfenden_ADJA Fälle_NN -LRB-_TRUNC null_PIDAT Stück_NN !_$. -RRB-_TRUNC abgearbeitet_VVPP und_KON die_ART Transititivät_NN nachgewiesen_VVPP ._$. Auch_ADV folgende_ADJA Aussagen_NN sind_VAFIN trivial_ADJD wahr_ADJD ,_$, weil_KOUS sie_PPER über_APPR eine_ART leere_ADJA notwendige_ADJA Bedingung_NN laufen_VVFIN :_$. "_$( Jedes_PIDAT Element_NN der_ART leeren_ADJA Menge_NN heißt_VVFIN <_ADV REMOVED_PERSON_ENTITY_NE >_NE ._$. "_$( ._$. "_$( Alle_PIDAT Elemente_NN der_ART leeren_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_ADJD sind_VAFIN gerade_ADV Zahlen_NN ._$. "_$( ._$. "_$( Jede_PIDAT gerade_ADV <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN in_APPR der_ART <_NN REMOVED_PERSON_ENTITY_NE >_NE -LCB-_TRUNC 1_CARD ,_$, 3_CARD ,_$, 5_CARD ,_$, 7_CARD ,_$, 9_CARD -RCB-_TRUNC ist_VAFIN größer_ADJD als_APPR 12_CARD ._$. "_$( Fällt_VVFIN Ihnen_PPER ein_ART Strickmuster_NN auf_APPR ?_$. Die_ART Aussagen_NN sind_VAFIN immer_ADV in_APPR "_$( für_APPR alle_PIDAT "_$( -_$( <_XY REMOVED_PERSON_ENTITY_NN >_CARD formuliert_VVPP ._$. Dies_PDS liefert_VVFIN uns_PPER auch_ADV einen_ART Hinweis_NN darauf_PROAV ,_$, dass_KOUS es_PPER in_APPR der_ART Negation_NN einer_ART solchen_PIDAT Aussage_NN dann_ADV nicht_PTKNEG mehr_ADV so_ADV einfach_ADJD klappt_VVFIN ._$. Es_PPER ist_VAFIN M_NE ={_CARD -RCB-_TRUNC zwar_ADV reflexiv_ADJD ,_$, aber_KON nicht_PTKNEG nichtreflexiv_ADJD -LRB-_TRUNC oha_ITJ !_$. -RRB-_TRUNC ._$. Es_PPER ist_VAFIN eine_ART Relation_NN nichtreflexiv_ADJD ,_$, wenn_KOUS zu_PTKZU mindestens_ADV einem_ART in_APPR der_ART Relation_NN vorkommendem_ADJA Element_NN x_XY das_ART Paar_NN -LRB-_TRUNC x_XY ,_$, x_XY -RRB-_TRUNC in_APPR der_ART Relation_NN fehlt_VVFIN ._$. Ein_ART solches_PIDAT "_$( Ausnahmeelement_NN "_$( finden_VVFIN Sie_PPER nun_ADV garantiert_ADJD nicht_PTKNEG in_APPR der_ART leeren_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_NE ._$. Ich_PPER hoffe_VVFIN ,_$, es_PPER ist_VAFIN ein_ART wenig_PIDAT klarer_ADJD geworden_VAPP ._$. Dies_PDS ist_VAFIN wahrscheinlich_ADJD die_ART verwirrendste_ADJA Eigenschaft_NN der_ART leeren_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_NE ,_$, aber_KON eine_ART ganz_ADV zentrale_ADJA für_APPR Argumentationen_NN ._$. Beste_NN Grüße_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ._$. 

@@ -1,0 +1,20 @@
+ID: 2460
+CREATION_DATETIME: 1374703200000
+MODIFICATION_DATETIME: 1379541600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Die Aufgabe lautet wie folgt:
+
+Über eine <REMOVED_PERSON_ENTITY> mit 115MHz Bandbreite sollen Fernsehkanäle der Bandbreite 5MHz mit Frequenzmultiplex übertragen werden, der Sicherheitsabstand beträgt 500kHz.
+
+a) <REMOVED_PERSON_ENTITY> sind möglich?
+
+b) Nun sollen die Fernsehkanäle erst digitalisiert werden und dann über die Leitung übertragen werden (Frequenzmultiplex). Die Abtastfrequenz soll die minimale ganzzahle Frequenz sein und die Quantisierung erfolgt mit 1024 Stufen. Wieviele Kanäle passen nun über die Leitung?
+
+Bei a) kommt ja einfach 115 = 5*n+0. 5(n-1) => n = 21
+
+b) Kann ich hier nur 2 Kanäle übertragen wegen den Quantisierungen? (21/10 ~= 2)
+TAGGED_CONTENT:

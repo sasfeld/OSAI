@@ -1,0 +1,9 @@
+ID: 1933
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: auch make läuft bei mir noch nicht ("/usr/bin/ld: cannot find -lCLeverTrustee"). Die run.sh sagt mir ...
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+auch make läuft bei mir noch nicht ("/usr/bin/ld: cannot find -lCLeverTrustee"). Die run. <LEARNED_PERSON_NAME_REPLACEMENT> sagt mir nicht wirklich viel hilfreiches, was ich ändern kann/sollte.
+TAGGED_CONTENT:

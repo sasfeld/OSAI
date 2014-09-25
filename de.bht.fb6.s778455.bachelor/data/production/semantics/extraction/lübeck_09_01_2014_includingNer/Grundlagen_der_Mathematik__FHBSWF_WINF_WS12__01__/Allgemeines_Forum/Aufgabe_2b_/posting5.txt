@@ -1,0 +1,16 @@
+ID: 184455
+CREATION_DATETIME: 1354462332
+MODIFICATION_DATETIME: 1354462332
+TITLE: Re: Aufgabe 2b)
+TOPIC_ZOOM_TAG: value:Nachbarn;weight:2.0;significance:8.39106140169762;degreegeneralization:4;uri:20804645
+TOPIC_ZOOM_TAG: value:Wohnen, Haus und Garten;weight:2.0;significance:4.99075330422034;degreegeneralization:3;uri:21125894
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:2.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+PARENT_POSTING_ID: 184435
+CONTENT:
+Hallo miteinander,
+zerbreche mir auch grad den <REMOVED_PERSON_ENTITY> an der Einsendeaufgabe.... ;-)Den Gedankengang von <REMOVED_PERSON_ENTITY> finde ich recht gut. Allerdings verstehe ich die Gleichung imme rnoch nicht!
+Knoten (b) hat 4 Nachbarn. Also müsste Gleichung lauten: a+f+h+c=0 da die <REMOVED_PERSON_ENTITY> der Nachbarn hier gefragt ist.
+Oder habe ich jetzt irgendwo einen Denkfehler ?!?!?
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

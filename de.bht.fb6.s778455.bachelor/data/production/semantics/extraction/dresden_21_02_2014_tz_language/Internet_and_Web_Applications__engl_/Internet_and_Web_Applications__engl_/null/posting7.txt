@@ -1,0 +1,11 @@
+ID: 1737
+CREATION_DATETIME: 1366063200000
+MODIFICATION_DATETIME: 1366063200000
+TITLE: An wen kann ich mich für das Selbststudium wenden? Und gibt es irgendwo konkretere Informationen als ...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 1730
+POSTING_TYPE: comment
+CONTENT:
+An wen kann ich mich für das Selbststudium wenden? Und gibt es irgendwo konkretere Informationen als in der Modulbeschreibung, was das Selbststudium umfassen muss?
+TAGGED_CONTENT:

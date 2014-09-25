@@ -1,0 +1,16 @@
+ID: 425
+CREATION_DATETIME: 1350597600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Bisher war es immer so, dass man eine private Frage gestellt hat, wenn man als Betreuer (maintainer) oder Tutor (editor) eingetragen werden wollte. 
+
+Das wurde nun überarbeitet. Nun gibt es zwei offensichtliche Knöpfe unter "Membership requests". Dort kann man auf editor oder maintainer drücken und die jeweiligen Betreuer des Kurses oder die Admins, bekommen eine Mitteilung über die integrierte Mitteilungszentrale (rotes <REMOVED_PERSON_ENTITY> mit einer <REMOVED_PERSON_ENTITY>). 
+
+Dort kann nun einfach per confirm oder reject die Mitgliedschaft bestätigt oder abgelehnt werden. 
+
+Damit sparen wir uns die ganzen Emails und viel Arbeit beim Eintragen <NAME_CORPUS_REPLACEMENT> neuen Mitgliedern.
+TAGGED_CONTENT:

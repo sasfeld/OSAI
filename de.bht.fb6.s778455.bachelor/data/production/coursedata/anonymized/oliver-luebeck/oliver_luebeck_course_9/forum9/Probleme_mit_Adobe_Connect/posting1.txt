@@ -1,0 +1,24 @@
+ID: 1
+CREATION_DATETIME: 1175626620000
+MODIFICATION_DATETIME: 1175626620000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Probleme mit Adobe Connect
+von Stdent1 - Dienstag, 3. April 2007, 20:57
+ 
+ich versuche jetzt seit einer halben Stunde in unsere Webkonferenz zu kommen, aber ich kriege immer nur folgende Fehlermeldung:
+
+Es konnte keine Verbindung zwischen Meetingraum und Adobe Connect-Server hergestellt werden. Starten Sie den Meetingraum neu oder aktualisieren Sie den Browser, um die Verbindung wiederherzustellen.
+
+Der Test auf der Seite von Connect zeigt alle Punkte positiv.
+
+Habs mit Firefox und IE probiert, geht leider in beiden nicht.
+
+Jemand ne Idee???
+
+Danke!
+    
+TAGGED_CONTENT:

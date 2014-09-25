@@ -1,0 +1,8 @@
+ID: 16669
+CREATION_DATETIME: 1231868514
+MODIFICATION_DATETIME: 1231868514
+TITLE: Re: Frage zur Aufgabe
+PARENT_POSTING_ID: 16663
+CONTENT:
+an alle, die die aufg. 8 im lo10 (determinanten), kap. 6 (aufgaben) richtig gerechnet haben: kann wer mal bitte den rechenweg posten?http://moodle.oncampus.de/modules/ir043/onmod/matheI/lo10_determinanten/1/onCampusBook/11/unit. html 
+TAGGED_CONTENT:

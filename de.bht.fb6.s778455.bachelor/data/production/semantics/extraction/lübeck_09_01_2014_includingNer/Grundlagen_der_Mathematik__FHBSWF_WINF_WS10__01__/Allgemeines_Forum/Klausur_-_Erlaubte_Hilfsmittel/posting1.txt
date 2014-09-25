@@ -1,0 +1,8 @@
+ID: 97783
+CREATION_DATETIME: 1294130887
+MODIFICATION_DATETIME: 1294130887
+TITLE: Klausur - Erlaubte Hilfsmittel
+PARENT_POSTING_ID: 0
+CONTENT:
+2 Blaetter (4 Seiten) eigene Notizen, Schreibzeug, nichtprogrammierbarer Taschenrechner, Formelsammlung
+TAGGED_CONTENT:

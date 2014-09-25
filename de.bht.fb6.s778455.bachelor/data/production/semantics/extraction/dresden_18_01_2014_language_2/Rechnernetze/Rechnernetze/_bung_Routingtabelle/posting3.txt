@@ -1,0 +1,24 @@
+ID: 2459
+CREATION_DATETIME: 1374703200000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2455
+POSTING_TYPE: comment
+CONTENT:
+```ruby
+
+Art |<REMOVED_PERSON_ENTITY>   | Ziel
+
+-----------------------------
+
+ c  | 55. 3. 0. 0/17    | S2: IP <NAME_CORPUS_REPLACEMENT> Router C
+
+ c  | 0. 0. 0. 0 /0      | IP <NAME_CORPUS_REPLACEMENT> Router C
+
+```
+
+(Als Ziel IP <NAME_CORPUS_REPLACEMENT> Router C, weil zu S2 ja keine Verbindung besteht)
+
+Der Router lässt in dem Fall keine Nachrichten in das Subnetz <NAME_CORPUS_REPLACEMENT> <REMOVED_PERSON_ENTITY>. In der Aufgabe steht "dass R1 mit R4 über S2 kommunizieren kann". Muss ich hier dafür sorgen, dass auch R4 mit R1 kommunizieren kann? Die Zeile " Hinweis: es müssen nur 2 Routen eingetragen werden." spricht <REMOVED_PERSON_ENTITY> n. dagegen, die <REMOVED_PERSON_ENTITY> "Alicenet hat die Subnetzmaske /22." aber wohl dafür.
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 2596
+CREATION_DATETIME: 1382306400000
+MODIFICATION_DATETIME: 1382306400000
+TITLE: I have to admit that I did not follow auditorium for the last year. I am used to the conventions of t...
+PARENT_POSTING_ID: 2583
+POSTING_TYPE: comment
+CONTENT:
+I have to admit that I did not follow auditorium for the last year. I am used to the conventions of the (user-interface wise) similar stackoverflow, where your comment would not be acceptable as an answer, but as a comment to the original question. I apologize if different conventions apply here.
+TAGGED_CONTENT:

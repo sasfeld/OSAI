@@ -1,0 +1,12 @@
+ID: 940
+CREATION_DATETIME: 1354662000000
+MODIFICATION_DATETIME: 1354662000000
+TITLE: Wie vorhin schon gesagt schau mal nach ob "Saxon" und "Xerces" schon für die XML/XSLT-Verarbeitung ge...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 939
+POSTING_TYPE: answer
+CONTENT:
+Wie vorhin schon gesagt schau mal nach ob "Saxon" und "Xerces" schon für die XML/XSLT-Verarbeitung genutzt werden. Eventuell sind die in dem Beispielprojekt nicht eingebunden (die JARs sollten aber im lib-Ordner sein)
+
+Wenn das Problem dann immernoch auftritt hab ich vorerst keine Ahnung woran das noch liegen kann. - das Stylesheet sieht okay aus und auch mit dem Attribut omit-xml-declaration sollte der Processor ja auch wissen, dass das ganze nicht gewünscht ist.. 
+TAGGED_CONTENT:

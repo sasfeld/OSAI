@@ -1,0 +1,100 @@
+ID: 2822
+CREATION_DATETIME: 1384210800000
+MODIFICATION_DATETIME: 1384642800000
+TITLE: Nope, es geht immernoch nicht. Beim Import-Dialog krieg ich jetzt nur noch grüne Häkchen, aber Run As...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2818
+POSTING_TYPE: comment
+CONTENT:
+Nope, es geht immernoch nicht. Beim Import-Dialog krieg ich jetzt nur noch grüne Häkchen, aber Run As > Maven Install klappt nicht:
+
+```
+
+SLF4J: Failed to load class "org. slf4j. impl. StaticLoggerBinder".
+
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+SLF4J: See http://www.slf4j. org/codes. html#StaticLoggerBinder for further details.
+
+[INFO] Scanning for projects...
+
+[INFO]                                                                         
+
+[INFO] ------------------------------------------------------------------------
+
+[INFO] Building video-shop 1. 0. 0-SNAPSHOT
+
+[INFO] ------------------------------------------------------------------------
+
+[INFO] 
+
+[INFO] --- maven-resources-plugin:2. 6:resources (default-resources) @ video-shop ---
+
+[INFO] ------------------------------------------------------------------------
+
+[INFO] BUILD FAILURE
+
+[INFO] ------------------------------------------------------------------------
+
+[INFO] Total time: 1. 675s
+
+[INFO] Finished at: Tue Nov 12 19:12:08 CET 2013
+
+[INFO] Final Memory: 7M/108M
+
+[INFO] ------------------------------------------------------------------------
+
+[ERROR] Failed to execute goal org. apache. maven. plugins:maven-resources-plugin:2. 6:resources (default-resources) on project video-shop: Execution default-resources of goal org. apache. maven. plugins:maven-resources-plugin:2. 6:resources failed: A required class was missing while executing org. apache. maven. plugins:maven-resources-plugin:2. 6:resources: org/apache/maven/shared/filtering/MavenFilteringException
+
+[ERROR] -----------------------------------------------------
+
+[ERROR] realm =    plugin>org. apache. maven. plugins:maven-resources-plugin:2. 6
+
+[ERROR] strategy = org. codehaus. plexus. classworlds. strategy. SelfFirstStrategy
+
+[ERROR] urls[0] = file:/C:/Users/Henning/. m2/repository/org/apache/maven/plugins/maven-resources-plugin/2. 6/maven-resources-plugin-2. 6. jar
+
+[ERROR] urls[1] = file:/C:/Users/Henning/. m2/repository/org/apache/maven/reporting/maven-reporting-api/2. 0. 6/maven-reporting-api-2. 0. 6. jar
+
+[ERROR] urls[2] = file:/C:/Users/Henning/. m2/repository/org/apache/maven/doxia/doxia-sink-api/1. 0-alpha-7/doxia-sink-api-1. 0-alpha-7. jar
+
+[ERROR] urls[3] = file:/C:/Users/Henning/. m2/repository/commons-cli/commons-cli/1. 0/commons-cli-1. 0. jar
+
+[ERROR] urls[4] = file:/C:/Users/Henning/. m2/repository/org/codehaus/plexus/plexus-interactivity-api/1. 0-alpha-4/plexus-interactivity-api-1. 0-alpha-4. jar
+
+[ERROR] urls[5] = file:/C:/Users/Henning/. m2/repository/junit/junit/3. 8. 1/junit-3. 8. 1. jar
+
+[ERROR] urls[6] = file:/C:/Users/Henning/. m2/repository/org/codehaus/plexus/plexus-utils/2. 0. 5/plexus-utils-2. 0. 5. jar
+
+[ERROR] urls[7] = file:/C:/Users/Henning/. m2/repository/org/apache/maven/shared/maven-filtering/1. 1/maven-filtering-1. 1. jar
+
+[ERROR] urls[8] = file:/C:/Users/Henning/. m2/repository/org/sonatype/plexus/plexus-build-api/0. 0. 4/plexus-build-api-0. 0. 4. jar
+
+[ERROR] urls[9] = file:/C:/Users/Henning/. m2/repository/org/codehaus/plexus/plexus-interpolation/1. 13/plexus-interpolation-1. 13. jar
+
+[ERROR] Number of foreign imports: 1
+
+[ERROR] import: Entry[import  from realm ClassRealm[maven. api, parent: null]]
+
+[ERROR] 
+
+[ERROR] -----------------------------------------------------: org. apache. maven. shared. filtering. MavenFilteringException
+
+[ERROR] -> [Help 1]
+
+[ERROR] 
+
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+
+[ERROR] 
+
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginContainerException
+
+```
+
+(Wie kriegt man hier den Code ordentlich hin? Musste mich mit Quote behelfen, damit es nicht alles auf eine <REMOVED_PERSON_ENTITY> kommt.)
+TAGGED_CONTENT:

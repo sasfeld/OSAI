@@ -1,0 +1,9 @@
+ID: 1607
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: evaluateMove() gibt ein Move-Objekt zurück (von mir definiertes Objekt, dass eine einzelne Bewegung r...
+PARENT_POSTING_ID: 1602
+POSTING_TYPE: comment
+CONTENT:
+evaluateMove() gibt ein Move-Objekt zurück (von mir definiertes Objekt, dass eine einzelne Bewegung repräsentiert)
+TAGGED_CONTENT:

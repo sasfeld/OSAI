@@ -1,0 +1,10 @@
+ID: 3109
+CREATION_DATETIME: 1385852400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Achtung!!!. Die Seite für ML zieht (physikalisch) um. Die neue Adresse ist http://www.inf.tu-dresden. de/index. php?node_id=2092&ln=en . Die alte Adresse (direkter Link) http://www1. inf. tu-dresden. de/~ds24/lehre/ml_ws_2013/ml_ws_2013. html existiert bald nicht mehr. 
+TAGGED_CONTENT:

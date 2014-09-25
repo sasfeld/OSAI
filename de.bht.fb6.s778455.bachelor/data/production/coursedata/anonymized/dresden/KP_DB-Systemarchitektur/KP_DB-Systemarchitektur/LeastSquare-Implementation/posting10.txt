@@ -1,0 +1,13 @@
+ID: 2287
+CREATION_DATETIME: 1374012000000
+MODIFICATION_DATETIME: 1374012000000
+TITLE: Nee! b=[5;10;2;3] ist auf andere Seite der Gleichung. Wir haben nur 3 unknowns. Aber 4 Gleichung.
+
+...
+PARENT_POSTING_ID: 2246
+POSTING_TYPE: comment
+CONTENT:
+Nee! b=[5;10;2;3] ist auf andere Seite der Gleichung. Wir haben nur 3 unknowns. Aber 4 Gleichung.
+aX=b
+Ich habe noch ein paar Experiment ausgefuehrt. Die einzige Problem ist, dass die <REMOVED_PERSON_ENTITY> linear abhangig sind.
+TAGGED_CONTENT:

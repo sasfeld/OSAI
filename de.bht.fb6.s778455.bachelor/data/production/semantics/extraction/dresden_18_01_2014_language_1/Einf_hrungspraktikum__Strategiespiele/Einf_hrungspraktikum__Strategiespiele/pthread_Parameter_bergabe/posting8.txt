@@ -1,0 +1,14 @@
+ID: 1307
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Hannes, benimm Dich ;)
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1300
+POSTING_TYPE: answer
+CONTENT:
+<REMOVED_PERSON_ENTITY>, benimm Dich ;)
+
+Ich hoffe <NAME_CORPUS_REPLACEMENT> steht keine Schleife um den pthread_create call. <REMOVED_PERSON_ENTITY>'s erste Nachfrage ist um sicher zu stellen, dass Deine Variablen nicht aus dem Scope laufen oder <NAME_CORPUS_REPLACEMENT> einem anderen Thread benutzt werden. Am besten legst Du die Parameter auf den Heap, also parameter in einen pointer verwandeln und dann parameter = (struct param *)malloc(sizeof(struct param)); param->score = ...
+
+[oder parameter = new param(); falls Du C++ nutzt]
+TAGGED_CONTENT:

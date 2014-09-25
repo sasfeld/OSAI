@@ -1,0 +1,10 @@
+ID: 365
+CREATION_DATETIME: 1350424800000
+MODIFICATION_DATETIME: 1350424800000
+TITLE: In den USA gibt es au
+PARENT_POSTING_ID: 70
+POSTING_TYPE: answer
+CONTENT:
+In den USA gibt es auch solch eine <REMOVED_PERSON_ENTITY>, allerdings hochschulübergreifend. Evtl. kann man sich dort das ein oder andere Feature abschauen ;)
+https://piazza. com/
+TAGGED_CONTENT:

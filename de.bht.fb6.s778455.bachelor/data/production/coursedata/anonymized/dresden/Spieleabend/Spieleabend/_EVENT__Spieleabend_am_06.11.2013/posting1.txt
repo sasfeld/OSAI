@@ -1,0 +1,10 @@
+ID: 2578
+CREATION_DATETIME: 1381960800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Am Mittwoch, den 06. 11. 2013, findet der nächste Spieleabend in der Informatik-Fakultät statt. Für Knabberzeugs und Getränke wird gesorgt, angefangen wird wie immer um 18:30 im Foyer der Fakultät Informatik. Wir freuen uns über euer zahlreiches Erscheinen :)! 
+Das Motto für dieses Event ist: "Brot und Spiele" !
+TAGGED_CONTENT:

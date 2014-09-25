@@ -1,0 +1,19 @@
+ID: 218
+CREATION_DATETIME: 1349647200000
+MODIFICATION_DATETIME: 1349647200000
+TITLE: Steht das denn auch i
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Not, Elend und Leid;weight:1.0;significance:8.0545891650764;degreegeneralization:4;uri:20876657
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+POS_TAG: value:Erstis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ecken;weight:0.0;uri:;postag:NN
+POS_TAG: value:Leid;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gucken;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 201
+POSTING_TYPE: comment
+CONTENT:
+Steht das denn auch irgendwo geschrieben? Ich habe das auch nur über drei Ecken erfahren...
+
+Wäre gut das mal etwas eindeutiger zu schreiben für uns Erstis... Oder ich bin zu blöd zum Gucken, dann tut's mir Leid.
+TAGGED_CONTENT:
+Steht_VVFIN das_ART denn_ADV auch_ADV irgendwo_ADV geschrieben_VVPP ?_$. Ich_PPER habe_VAFIN das_PDS auch_ADV nur_ADV über_APPR drei_CARD Ecken_NN erfahren_VVFIN ..._$( Wäre_VAFIN gut_ADJD das_ART mal_ADV etwas_ADV eindeutiger_ADJD zu_PTKZU schreiben_VVINF für_APPR uns_PPER Erstis_NN ..._$( Oder_KON ich_PPER bin_VAFIN zu_APPR blöd_ADJD zum_APPRART Gucken_NN ,_$, dann_ADV tut_VVFIN 's_PPER mir_PPER Leid_NN ._$. 

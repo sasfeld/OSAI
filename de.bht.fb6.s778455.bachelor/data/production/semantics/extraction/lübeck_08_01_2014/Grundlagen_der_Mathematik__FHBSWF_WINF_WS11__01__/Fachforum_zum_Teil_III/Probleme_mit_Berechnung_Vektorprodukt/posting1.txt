@@ -1,0 +1,27 @@
+ID: 117582
+CREATION_DATETIME: 1323695907
+MODIFICATION_DATETIME: 1323695907
+TITLE: Probleme mit Berechnung Vektorprodukt
+TOPIC_ZOOM_TAG: value:Vektoren;weight:4.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:4.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:4.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:4.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:4.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:4.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:0.863117812895972;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:0.724020340271243;degreegeneralization:3;uri:20758133
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+ich habe leider irgendwie Probleme beim Lösen der Aufgaben zum Vektorprodukt und bitte hier um Rat, da ich meinen Fehler nicht sehen kann:
+Vektor a = 1,-4,-1
+Vektor b = 5, 5, 2
+Meine Rechnung:
+(-4*2) -(5*-4) = -3
+(1*2) - (5*-1) = 7
+(1*5)- (5*-4) = 25
+Mein Ergebnis demnach Vektor a x Vektor b = (-3, 7, 25). Ist aber falsch (laut LONCAPA). 
+Würde mich sehr freuen, wenn mir hier jemand auf die Sprünge helfen könnte. DANKE!
+Grüße,
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 1487
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Kann es sein, dass du keinen Speicher mehr hast, malloc NULL zurück gibt und du das nicht checkst?
+LANGUAGE: GERMAN
+POS_TAG: value:Speicher;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1467
+POSTING_TYPE: comment
+CONTENT:
+Kann es sein, dass du keinen Speicher mehr hast, malloc NULL zurück gibt und du das nicht checkst?
+TAGGED_CONTENT:
+Kann_VMFIN es_PPER sein_VAINF ,_$, dass_KOUS du_PPER keinen_PIAT Speicher_NN mehr_ADV hast_VAFIN ,_$, malloc_VVFIN NULL_NE zurück_ADV gibt_VVFIN und_KON du_PPER das_PDS nicht_PTKNEG checkst_VVFIN ?_$. 

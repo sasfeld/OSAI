@@ -1,0 +1,9 @@
+ID: 2487
+CREATION_DATETIME: 1375221600000
+MODIFICATION_DATETIME: 1375221600000
+TITLE: No. If acceptors can write only once, then the consensus problem would have to be solved *before* the...
+PARENT_POSTING_ID: 2485
+POSTING_TYPE: comment
+CONTENT:
+No. If acceptors <NAME_CORPUS_REPLACEMENT> write only once, then the consensus problem would have to be solved *before* they write anything since they cannot modify that any more. That contradicts the need of solving consensus.
+TAGGED_CONTENT:

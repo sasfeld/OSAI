@@ -1,0 +1,15 @@
+ID: 15
+CREATION_DATETIME: 1193324640000
+MODIFICATION_DATETIME: 1193324640000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 14
+CONTENT:
+
+Lieber , liebe Studierende,
+
+auch wenn die Frage sich erledigt hat: die Klassen IntRechner und FloatRechner implementieren lediglich eine einzige Methode. Man braucht dafür keine Attribute in diesen Klassen zu deklarieren. Es bedeutet: ein IntRechner-Objekt oder ein FloatRechner-Objekt hat keine Attribute, also kann weder 2 Strings noch ein Array besitzen. Die Methode rechnen hat 2 Parameter vom Typ String und eine Rückgabe vom Typ String[ ].
+
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

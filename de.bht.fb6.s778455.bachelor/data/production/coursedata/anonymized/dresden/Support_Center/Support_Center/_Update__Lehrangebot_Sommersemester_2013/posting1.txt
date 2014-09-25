@@ -1,0 +1,12 @@
+ID: 1092
+CREATION_DATETIME: 1359500400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Das Wintersemester neigt sich dem Ende und das [Angebot zum Sommersemester](http://web.inf.tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/Fak/ss/13/lehrangebot_ss13. html) kann eingesehen werden. Das Angebot kann sich aber natürlich noch ändern.
+Die Lehrveranstaltungen für das Sommersemester 2013 werden gegen **ende März 2013** verfügbar sein. 
+**Update:**
+Lehrveranstaltungen können aber auch über dieses [Formular](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/lectures/new) bereits eingepflegt werden. Das Sommersemester 2013 wurde soeben in die [Übersicht](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/terms/2068359) aufgenommen.
+TAGGED_CONTENT:

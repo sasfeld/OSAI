@@ -1,0 +1,18 @@
+ID: 362
+CREATION_DATETIME: 1350338400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Vorlesung zur LV "Entwurf und Analyse mit <REMOVED_PERSON_ENTITY>- Netzen" findet nun wieder donnerstags in der 3. DS (11:10-12:40 Uhr), <REMOVED_PERSON_ENTITY> INF/E007, statt.
+
+Das 1. Praktikum beginnt am Mittwoch, dem 24. 10., 2. DS (9:20-10:50 Uhr), <REMOVED_PERSON_ENTITY> INF/E046.
+
+Bitte informieren Sie weitere interessierte StudentInnen.
+
+Mit freundlichen Grüßen
+
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

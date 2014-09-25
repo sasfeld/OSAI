@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<groups>
+  <group id="1609">
+    <name>Gruppe 1 Quad</name>
+    <idnumber></idnumber>
+    <description></description>
+    <descriptionformat>1</descriptionformat>
+    <enrolmentkey></enrolmentkey>
+    <picture>0</picture>
+    <hidepicture>0</hidepicture>
+    <timecreated>1318698341</timecreated>
+    <timemodified>1323937906</timemodified>
+    <group_members>
+    </group_members>
+  </group>
+  <group id="1611">
+    <name>Gruppe 2 TQ</name>
+    <idnumber></idnumber>
+    <description></description>
+    <descriptionformat>1</descriptionformat>
+    <enrolmentkey></enrolmentkey>
+    <picture>0</picture>
+    <hidepicture>0</hidepicture>
+    <timecreated>1318698371</timecreated>
+    <timemodified>1318849936</timemodified>
+    <group_members>
+    </group_members>
+  </group>
+  <group id="1613">
+    <name>Gruppe 3 Invest</name>
+    <idnumber></idnumber>
+    <description></description>
+    <descriptionformat>1</descriptionformat>
+    <enrolmentkey></enrolmentkey>
+    <picture>0</picture>
+    <hidepicture>0</hidepicture>
+    <timecreated>1318698396</timecreated>
+    <timemodified>1318698396</timemodified>
+    <group_members>
+    </group_members>
+  </group>
+  <groupings>
+  </groupings>
+</groups>

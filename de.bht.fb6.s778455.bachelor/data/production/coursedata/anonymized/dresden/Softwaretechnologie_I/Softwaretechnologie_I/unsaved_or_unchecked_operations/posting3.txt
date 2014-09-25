@@ -1,0 +1,9 @@
+ID: 2123
+CREATION_DATETIME: 1372456800000
+MODIFICATION_DATETIME: 1372456800000
+TITLE: Hier wäre cod ganz hilfreich. Tipp: Der Praktomat behandelt Warnings als Fehler. Wenn Du als wissen w...
+PARENT_POSTING_ID: 2112
+POSTING_TYPE: comment
+CONTENT:
+Hier wäre Code ganz hilfreich. Tipp: Der Praktomat behandelt Warnings als Fehler. Wenn Du als wissen willst wo der Fehler ist kompiliere das Programm mal lokal (das habe ich Dir aber gestern schon gesagt...).
+TAGGED_CONTENT:

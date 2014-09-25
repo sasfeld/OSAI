@@ -1,0 +1,14 @@
+ID: 2270
+CREATION_DATETIME: 1374012000000
+MODIFICATION_DATETIME: 1374012000000
+TITLE: Ich habe das mal auf einen sehr einfachen Testcase heruntergebrochen
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2246
+POSTING_TYPE: comment
+CONTENT:
+Ich habe das mal auf einen sehr einfachen Testcase heruntergebrochen
+
+~/svnkpopencl/src/testCorrelation
+
+schaust du mal, was <NAME_CORPUS_REPLACEMENT> noch falsch läuft? Der LeastSquare nähert nicht an, sondern geht auch noch <NAME_CORPUS_REPLACEMENT> den Werten weg. Du hast bestimmt nur irgendwo vergessen, eine inverse Matrix dranzurechnen oder so etwas.
+TAGGED_CONTENT:

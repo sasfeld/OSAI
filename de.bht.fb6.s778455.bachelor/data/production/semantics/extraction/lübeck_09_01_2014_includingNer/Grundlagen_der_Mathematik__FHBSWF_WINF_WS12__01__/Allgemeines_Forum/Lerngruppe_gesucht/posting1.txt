@@ -1,0 +1,9 @@
+ID: 160931
+CREATION_DATETIME: 1347883567
+MODIFICATION_DATETIME: 1347883567
+TITLE: Lerngruppe gesucht
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo ich suche eine <REMOVED_PERSON_ENTITY>, bzw. könnte man eine <REMOVED_PERSON_ENTITY>.
+Wer interesse hat bitte hier melden.
+TAGGED_CONTENT:

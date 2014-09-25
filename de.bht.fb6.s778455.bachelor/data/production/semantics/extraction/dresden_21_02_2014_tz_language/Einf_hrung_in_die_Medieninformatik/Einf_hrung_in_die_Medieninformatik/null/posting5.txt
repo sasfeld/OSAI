@@ -1,0 +1,63 @@
+ID: 646
+CREATION_DATETIME: 1351724400000
+MODIFICATION_DATETIME: 1351810800000
+TITLE: Hallo,
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Server;weight:2.0;significance:3.63090607178381;degreegeneralization:7;uri:20185284
+TOPIC_ZOOM_TAG: value:Computernetzwerke;weight:2.0;significance:3.26634112256408;degreegeneralization:6;uri:21307726
+TOPIC_ZOOM_TAG: value:Finanzen;weight:4.0;significance:2.82332777150469;degreegeneralization:2;uri:21999881
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:2.0;significance:2.47532165344109;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:Computer;weight:2.0;significance:2.15506992990383;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:2.0;significance:2.00351838218053;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Sorgen;weight:1.0;significance:1.99090434671767;degreegeneralization:7;uri:19989104
+TOPIC_ZOOM_TAG: value:Sorgen und Ängste;weight:1.0;significance:1.96609060719384;degreegeneralization:6;uri:19989121
+TOPIC_ZOOM_TAG: value:Foren;weight:1.0;significance:1.9146733769961;degreegeneralization:3;uri:20770662
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:2.0;significance:1.83083484620539;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:2.0;significance:1.72623562579194;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Studenten;weight:1.0;significance:1.6718815414711;degreegeneralization:5;uri:20994552
+TOPIC_ZOOM_TAG: value:Forschungseinrichtungen;weight:1.0;significance:1.65430990828906;degreegeneralization:5;uri:21975129
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:3.0;significance:1.61162860218184;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Schüler, Studenten;weight:1.0;significance:1.60939027084391;degreegeneralization:4;uri:20920823
+TOPIC_ZOOM_TAG: value:Probleme im Bereich Leben und Alltag;weight:1.0;significance:1.56729978603346;degreegeneralization:5;uri:20147986
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:2.0;significance:1.44804068054249;degreegeneralization:3;uri:20758133
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:1.39281776949338;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:2.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:1.29518888187812;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Forschung;weight:1.0;significance:1.26222664016731;degreegeneralization:4;uri:21471079
+TOPIC_ZOOM_TAG: value:Forschung und Entwicklung;weight:1.0;significance:1.23447607027619;degreegeneralization:3;uri:21603526
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:1.09226215305699;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:0.721947902574197;degreegeneralization:2;uri:21306723
+PARENT_POSTING_ID: 629
+POSTING_TYPE: answer
+CONTENT:
+Hallo,
+
+hier noch kurz meine Info dazu, die ich auch eben über an die mail-Adressen, der in jExam eingeschriebenen
+
+Studenten geschickt habe.
+
+Das Problem mit dem Moodle ist wohl ein größeres und wird wohl noch bis mindestens <REMOVED_PERSON_ENTITY> benötigen. <NAME_CORPUS_REPLACEMENT> der 
+
+Instituts-eigene  Server vom Nachbarlehrstuhl betreut wird haben wir <NAME_CORPUS_REPLACEMENT> auch keinen Zugriff oder eine Möglichkeit, etwas zu beschleunigen.
+
+Diejenigen, die die erste Übung noch nicht abgeben konnten, brauchen sich keine Sorgen zu machen. Sobald der 
+
+Server wieder läuft, schreibe ich eine <REMOVED_PERSON_ENTITY>, so  dass diese Abgaben dann noch getätigt werden können. 
+
+Ebenso bei der zweiten Auf gabe, die nächste Woche vorgestellt wird. Ihr könnt die Übung natürlich nicht eher anfangen, als dass die Aufgabe im Moodle ist und wir passen dann die Bearbeitungszeit entsprechend an. 
+
+Sobald die Aufgabe ins Moodle gestellt werden kann, gebe ich nochmal über das Forum Bescheid.
+
+Wir werden es jedenfalls so lösen, dass ihr möglichst keine Nachteile habt.
+
+Vom <REMOVED_PERSON_ENTITY> der Abgaben an die Tutoren bitte ich eher abzusehen. Diese können erst bewerten, wenn das Moodle
+
+wieder läuft und die Abgaben werden eh über das Moodle "archiviert", so dass nicht im mail-Konto etwas durch die 
+
+Lappen geht. Die Abgaben können alle wie gesagt später dann noch getätigt werden
+
+ <REMOVED_PERSON_ENTITY> und einen schönen Abend noch allen
+
+  <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

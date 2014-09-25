@@ -1,0 +1,10 @@
+ID: 1240
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: Oder du lieferst den Zug nicht in der erwarteten Form. Hast du das exakt aus der example_player.c übe...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1237
+POSTING_TYPE: answer
+CONTENT:
+Oder du lieferst den Zug nicht in der erwarteten Form. Hast du das exakt aus der example_player. c übernommen?
+TAGGED_CONTENT:

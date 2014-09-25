@@ -1,0 +1,10 @@
+ID: 545
+CREATION_DATETIME: 1351288800000
+MODIFICATION_DATETIME: 1351288800000
+TITLE: Wenn du schon einen konkreten Paketmanager (hier apt-get) als Beispiel nimmst, solltest du auch das r...
+PARENT_POSTING_ID: 236
+POSTING_TYPE: comment
+CONTENT:
+Wenn du schon einen konkreten Paketmanager (hier apt-get) als Beispiel nimmst, solltest du auch das richtige Paket für diese Plattform nehmen:
+**apt-get install openjdk-6-jdk** .
+TAGGED_CONTENT:

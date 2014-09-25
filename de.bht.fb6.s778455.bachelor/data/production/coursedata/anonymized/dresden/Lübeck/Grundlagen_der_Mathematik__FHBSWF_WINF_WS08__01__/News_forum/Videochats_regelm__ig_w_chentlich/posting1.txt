@@ -1,0 +1,8 @@
+ID: 16513
+CREATION_DATETIME: 1231862366
+MODIFICATION_DATETIME: 1231862366
+TITLE: Videochats regelmäßig wöchentlich
+PARENT_POSTING_ID: 0
+CONTENT:
+ Hallo Sie alle,  die Videochats finden mindestens bis zur Klausur wieder regelmäßig wöchentlich statt.  MfG, al. 
+TAGGED_CONTENT:

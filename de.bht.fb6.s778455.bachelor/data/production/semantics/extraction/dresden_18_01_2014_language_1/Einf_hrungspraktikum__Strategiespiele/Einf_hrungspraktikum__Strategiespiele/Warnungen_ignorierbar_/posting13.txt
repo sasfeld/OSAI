@@ -1,0 +1,10 @@
+ID: 1230
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: In Common Lisp geht das, da nimmt = beliebig viele Parameter. Ein hoch auf die Praefixsyntax!
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 1225
+POSTING_TYPE: comment
+CONTENT:
+In Common Lisp geht das, <NAME_CORPUS_REPLACEMENT> nimmt = beliebig viele Parameter. Ein hoch auf die Praefixsyntax! Konkret: (a == b) && (b == c) vs. (= a b c). Welche Programmiersprache hat jetzt mehr Klammern?
+TAGGED_CONTENT:

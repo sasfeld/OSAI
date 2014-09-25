@@ -1,0 +1,19 @@
+ID: 1848
+CREATION_DATETIME: 1369173600000
+MODIFICATION_DATETIME: 1369173600000
+TITLE: Die Typen der Parameter sind doch einerseits ein String, andererseits ein String-Vector. Ich dachte, ...
+LANGUAGE: GERMAN
+POS_TAG: value:Kernelcode;weight:0.0;uri:;postag:NN
+POS_TAG: value:String;weight:0.0;uri:;postag:NN
+POS_TAG: value:programStr;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bezeichnung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Outputparameter;weight:0.0;uri:;postag:NN
+POS_TAG: value:Parameter;weight:0.0;uri:;postag:NN
+POS_TAG: value:Typen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vector;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Die Typen der Parameter sind doch einerseits ein String, andererseits ein String-Vector. Ich dachte, programStr sollte Kernelcode sein, aber dann erschließt sich mir nicht, warum ihr kernels als Bezeichnung für die In-/Outputparameter nutzt.
+TAGGED_CONTENT:
+Die_ART Typen_NN der_ART Parameter_NN sind_VAFIN doch_ADV einerseits_ADV ein_ART String_NN ,_$, andererseits_ADV ein_ART String-Vector_NN ._$. Ich_PPER dachte_VVFIN ,_$, programStr_NN sollte_VMFIN Kernelcode_NN sein_VAINF ,_$, aber_KON dann_ADV erschließt_VVFIN sich_PRF mir_PPER nicht_PTKNEG ,_$, warum_PWAV ihr_PPOSAT kernels_ADV als_APPR Bezeichnung_NN für_APPR die_ART In_APPR -_$( \/_ADJA Outputparameter_NN nutzt_VVFIN ._$. 

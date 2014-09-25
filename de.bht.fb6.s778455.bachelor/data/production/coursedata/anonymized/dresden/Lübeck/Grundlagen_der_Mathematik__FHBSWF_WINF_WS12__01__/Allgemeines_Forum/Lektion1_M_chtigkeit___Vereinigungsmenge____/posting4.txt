@@ -1,0 +1,14 @@
+ID: 168525
+CREATION_DATETIME: 1349773112
+MODIFICATION_DATETIME: 1349773112
+TITLE: Re: Lektion1 Mächtigkeit & Vereinigungsmenge (?)
+PARENT_POSTING_ID: 168473
+CONTENT:
+<REMOVED_PERSON_ENTITY>, nicht ganz. Dein Intervall I = [-2, 7] ist formell korrekt. Allerdings deine <REMOVED_PERSON_ENTITY>  {x|-2 &lt; = 7} hingegen nicht. Wo ist dein x im zweiten Teil hinter dem "|"? Es weiß im Moment gar nicht, zwischen welchen Werten es liegt. :)I1 u I2 = {x | -2 ≤ x ≤ 7} wäre hier korrekt. Zu deiner zweiten Frage mit den Klammern (keine Schreibfehler):(...) oder ]...[ steht für ein offenes Intervall. Die Zahlen, die drin stehen, sind keine Elemente der Menge. 
+(1, 10) --&gt; Alle Zahlen zwischen 1 und 10, nicht aber genau 1 und 10
+[...] steht für ein geschlossenes Intervall. Die Zahlen, die drin stehen, sind Elemente der Menge. 
+[1, 10] --&gt; Alle Zahlen von 1 bis 10, einschließlich der 1 und 10
+(...] steht für ein halboffenes Intervall. Mischung aus den erstgenannten.
+(1, 10] --&gt; Alle Zahlen größer 1 und kleiner/gleich 10. 1 &lt; x &lt;= 10
+Umgedreht dann genauso... <REMOVED_PERSON_ENTITY> passt in etwa so. Vielleicht anders: "I ist die <REMOVED_PERSON_ENTITY> aller Zahlen x mit der Bedingung, dass -2 &lt;= x &lt;= 7 ist."GrüßeLars
+TAGGED_CONTENT:

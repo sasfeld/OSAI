@@ -1,0 +1,44 @@
+ID: 925
+CREATION_DATETIME: 1354230000000
+MODIFICATION_DATETIME: 1354230000000
+TITLE: The slides are indeed a bit confusing.
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 923
+POSTING_TYPE: answer
+CONTENT:
+The slides are indeed a bit confusing.
+
+1. On slide 64, you should image that process p also broadcasts to q. If there would be another process r, then p and q would be sending pings to r as well.
+
+2. The code afterwards <NAME_CORPUS_REPLACEMENT> be seen as the following:
+
+```
+
+last_ping[N] = now();
+
+every P milliseconds do {
+
+  broadcast (ping, Ci());
+
+}
+
+on receive (ping, T) from j {
+
+  if (last_ping[j] < T) last_ping[j] = T;
+
+}
+
+bool suspected?(j) {
+
+  if (last_ping[j] < Ci() - D) return true;
+
+  else return false;
+
+}
+
+```
+
+Where `i` is the process id of the process that runs the code and `j` is the process id of another process, either the id of the process that sent the ping, or the process id of the process being queried with `suspected?`.
+
+All processes run the **same** code. What changes is their process id. Process p has i = p and process q has i = q.
+TAGGED_CONTENT:

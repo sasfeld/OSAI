@@ -1,0 +1,932 @@
+ID: 2742
+CREATION_DATETIME: 1383951600000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: null
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo! Kennt jemand, wie der Maven in Eclipse eingesetzt wird? Ich habe gerade durch Help->eclipse marketplace Maven Integration for Eclipse WTP(<REMOVED_PERSON_ENTITY>) installiert. Dann befolgte ich den Vorgang wie im Tutorial, begegne ich aber bei der Durchführung <NAME_CORPUS_REPLACEMENT> Blankweb Probleme. Als ich mit Rechtsklick auf dem Projekt verwendte, um Maven install durchzuführen, erscheinen im Console folgende:
+
+```
+
+SLF4J: Failed to load class "org. slf4j. impl. StaticLoggerBinder".
+
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+SLF4J: See http://www.slf4j. org/codes. html#StaticLoggerBinder for further details.
+
+[INFO] Scanning for projects...
+
+[INFO]                                                                         
+
+[INFO] ------------------------------------------------------------------------
+
+[INFO] Building blank-web 1. 0. 0-SNAPSHOT
+
+[INFO] ------------------------------------------------------------------------
+
+[INFO] 
+
+[INFO] --- maven-resources-plugin:2. 6:resources (default-resources) @ blank-web ---
+
+[WARNING] File encoding has not been set, using platform encoding GBK, i. e. build is platform dependent!
+
+[WARNING] Using platform encoding (GBK actually) to copy filtered resources, i. e. build is platform dependent!
+
+[INFO] Copying 0 resource
+
+[INFO] Copying 4 resources
+
+[INFO] 
+
+[INFO] --- maven-compiler-plugin:3. 1:compile (default-compile) @ blank-web ---
+
+[INFO] Nothing to compile - all classes are up to date
+
+[INFO] 
+
+[INFO] --- maven-resources-plugin:2. 6:testResources (default-testResources) @ blank-web ---
+
+[WARNING] Using platform encoding (GBK actually) to copy filtered resources, i. e. build is platform dependent!
+
+[INFO] skip non existing resourceDirectory E:\SalesPoint\blankweb\src est\resources
+
+[INFO] 
+
+[INFO] --- maven-compiler-plugin:3. 1:testCompile (default-testCompile) @ blank-web ---
+
+[INFO] Nothing to compile - all classes are up to date
+
+[INFO] 
+
+[INFO] --- maven-surefire-plugin:2. 15:test (default-test) @ blank-web ---
+
+[INFO] 
+
+[INFO] --- maven-war-plugin:2. 3:war (default-war) @ blank-web ---
+
+[INFO] Packaging webapp
+
+[INFO] Assembling webapp [blank-web] in [E:\SalesPoint\blankweb arget\blank-web-1. 0. 0-SNAPSHOT]
+
+[INFO] Processing war project
+
+[INFO] Copying webapp resources [E:\SalesPoint\blankweb\src\main\webapp]
+
+[INFO] Webapp assembled in [189 msecs]
+
+[INFO] Building war: E:\SalesPoint\blankweb arget\blank-web-1. 0. 0-SNAPSHOT. war
+
+[INFO] 
+
+[INFO] --- spring-boot-maven-plugin:0. 5. 0. M5:repackage (default) @ blank-web ---
+
+[INFO] 
+
+[INFO] --- maven-install-plugin:2. 4:install (default-install) @ blank-web ---
+
+[INFO] Installing E:\SalesPoint\blankweb arget\blank-web-1. 0. 0-SNAPSHOT. war to C:\Users\zhiang\. m2\repository\de udresden\inf\st\blank-web\1. 0. 0-SNAPSHOT\blank-web-1. 0. 0-SNAPSHOT. war
+
+[INFO] Installing E:\SalesPoint\blankweb\pom. xml to C:\Users\zhiang\. m2\repository\de udresden\inf\st\blank-web\1. 0. 0-SNAPSHOT\blank-web-1. 0. 0-SNAPSHOT. pom
+
+[INFO] ------------------------------------------------------------------------
+
+[INFO] BUILD SUCCESS
+
+[INFO] ------------------------------------------------------------------------
+
+[INFO] Total time: 3. 612s
+
+[INFO] Finished at: Sat Nov 09 11:29:10 CET 2013
+
+[INFO] Final Memory: 14M/217M
+
+[INFO] ------------------------------------------------------------------------
+
+```
+
+Als ich BlankWeb. java mit Run As Application durchführte, erschien folgende:
+
+```
+
+  .   ____          _            __ _ _
+
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::             (v0. 5. 0. M5)
+
+2013-11-09 11:31:06, 903 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [class path resource [application. properties]] PropertySource with lowest search precedence
+
+2013-11-09 11:31:09, 577 DEBUG pringframework. web. context. ContextLoader: 320 - Published root WebApplicationContext as ServletContext attribute with name [org. springframework. web. context. WebApplicationContext. ROOT]
+
+2013-11-09 11:31:09, 577  INFO pringframework. web. context. ContextLoader: 327 - Root WebApplicationContext: initialization completed in 2611 ms
+
+2013-11-09 11:31:09, 641 DEBUG gframework. web. servlet. DispatcherServlet:1086 - Using existing application context for DispatcherServlet
+
+Hibernate: alter table accountancy_entry drop constraint FK_ba45dd0e91124d15afd98564a67
+
+2013-11-09 11:31:11, 031 ERROR  org. hibernate. tool. hbm2ddl. SchemaExport: 425 - HHH000389: Unsuccessful: alter table accountancy_entry drop constraint FK_ba45dd0e91124d15afd98564a67
+
+2013-11-09 11:31:11, 031 ERROR  org. hibernate. tool. hbm2ddl. SchemaExport: 426 - user lacks privilege or object not found: PUBLIC. ACCOUNTANCY_ENTRY
+
+Hibernate: alter table inventory_item drop constraint FK_ef509f2a5c96402cba5feefe705
+
+2013-11-09 11:31:11, 031 ERROR  org. hibernate. tool. hbm2ddl. SchemaExport: 425 - HHH000389: Unsuccessful: alter table inventory_item drop constraint FK_ef509f2a5c96402cba5feefe705
+
+2013-11-09 11:31:11, 031 ERROR  org. hibernate. tool. hbm2ddl. SchemaExport: 426 - user lacks privilege or object not found: PUBLIC. INVENTORY_ITEM
+
+Hibernate: alter table orders drop constraint FK_a9ee51b58c1148c4a4be4b65f10
+
+2013-11-09 11:31:11, 031 ERROR  org. hibernate. tool. hbm2ddl. SchemaExport: 425 - HHH000389: Unsuccessful: alter table orders drop constraint FK_a9ee51b58c1148c4a4be4b65f10
+
+2013-11-09 11:31:11, 031 ERROR  org. hibernate. tool. hbm2ddl. SchemaExport: 426 - user lacks privilege or object not found: PUBLIC. ORDERS
+
+Hibernate: alter table orders_charge_lines drop constraint FK_a48b4b4c2fae43a680b312d890f
+
+2013-11-09 11:31:11, 031 ERROR  org. hibernate. tool. hbm2ddl. SchemaExport: 425 - HHH000389: Unsuccessful: alter table orders_charge_lines drop constraint FK_a48b4b4c2fae43a680b312d890f
+
+2013-11-09 11:31:11, 031 ERROR  org. hibernate. tool. hbm2ddl. SchemaExport: 426 - user lacks privilege or object not found: PUBLIC. ORDERS_CHARGE_LINES
+
+Hibernate: alter table orders_charge_lines drop constraint FK_a4c09b56796a459eada4010f3b0
+
+2013-11-09 11:31:11, 031 ERROR  org. hibernate. tool. hbm2ddl. SchemaExport: 425 - HHH000389: Unsuccessful: alter table orders_charge_lines drop constraint FK_a4c09b56796a459eada4010f3b0
+
+2013-11-09 11:31:11, 031 ERROR  org. hibernate. tool. hbm2ddl. SchemaExport: 426 - user lacks privilege or object not found: PUBLIC. ORDERS_CHARGE_LINES
+
+Hibernate: alter table orders_order_lines drop constraint FK_ac00299f550647ada47553f7ff9
+
+2013-11-09 11:31:11, 031 ERROR  org. hibernate. tool. hbm2ddl. SchemaExport: 425 - HHH000389: Unsuccessful: alter table orders_order_lines drop constraint FK_ac00299f550647ada47553f7ff9
+
+2013-11-09 11:31:11, 031 ERROR  org. hibernate. tool. hbm2ddl. SchemaExport: 426 - user lacks privilege or object not found: PUBLIC. ORDERS_ORDER_LINES
+
+Hibernate: alter table orders_order_lines drop constraint FK_5f513ce1b83d4cdaba95d4aa351
+
+2013-11-09 11:31:11, 031 ERROR  org. hibernate. tool. hbm2ddl. SchemaExport: 425 - HHH000389: Unsuccessful: alter table orders_order_lines drop constraint FK_5f513ce1b83d4cdaba95d4aa351
+
+2013-11-09 11:31:11, 031 ERROR  org. hibernate. tool. hbm2ddl. SchemaExport: 426 - user lacks privilege or object not found: PUBLIC. ORDERS_ORDER_LINES
+
+Hibernate: alter table product_categories drop constraint FK_9f8183e3ddd84f66bd20a6ef049
+
+2013-11-09 11:31:11, 031 ERROR  org. hibernate. tool. hbm2ddl. SchemaExport: 425 - HHH000389: Unsuccessful: alter table product_categories drop constraint FK_9f8183e3ddd84f66bd20a6ef049
+
+2013-11-09 11:31:11, 031 ERROR  org. hibernate. tool. hbm2ddl. SchemaExport: 426 - user lacks privilege or object not found: PUBLIC. PRODUCT_CATEGORIES
+
+Hibernate: alter table user_account_roles drop constraint FK_7ce2757e871942a598bdcd63e0c
+
+2013-11-09 11:31:11, 031 ERROR  org. hibernate. tool. hbm2ddl. SchemaExport: 425 - HHH000389: Unsuccessful: alter table user_account_roles drop constraint FK_7ce2757e871942a598bdcd63e0c
+
+2013-11-09 11:31:11, 031 ERROR  org. hibernate. tool. hbm2ddl. SchemaExport: 426 - user lacks privilege or object not found: PUBLIC. USER_ACCOUNT_ROLES
+
+Hibernate: drop table accountancy_entry if exists
+
+Hibernate: drop table charge_line if exists
+
+Hibernate: drop table inventory_item if exists
+
+Hibernate: drop table order_line if exists
+
+Hibernate: drop table orders if exists
+
+Hibernate: drop table orders_charge_lines if exists
+
+Hibernate: drop table orders_order_lines if exists
+
+Hibernate: drop table product if exists
+
+Hibernate: drop table product_categories if exists
+
+Hibernate: drop table user_account if exists
+
+Hibernate: drop table user_account_roles if exists
+
+Hibernate: create table accountancy_entry (dtype varchar(31) not null, entry_id varchar(255) not null, date timestamp, description varchar(255), value blob(255), order_id varchar(255), payment_method blob(255), user_account varchar(255), primary key (entry_id))
+
+Hibernate: create table charge_line (chargeline_id varchar(255) not null, amount blob(255), description varchar(255), primary key (chargeline_id))
+
+Hibernate: create table inventory_item (item_id varchar(255) not null, quantity blob(255), product varchar(255), primary key (item_id))
+
+Hibernate: create table order_line (orderline_id varchar(255) not null, price varbinary(255), product_id varchar(255), product_name varchar(255), quantity varbinary(255), primary key (orderline_id))
+
+Hibernate: create table orders (order_id varchar(255) not null, date_created timestamp, order_status varchar(255), payment_method varbinary(255), user_account varchar(255), primary key (order_id))
+
+Hibernate: create table orders_charge_lines (orders varchar(255) not null, charge_lines varchar(255) not null, primary key (orders, charge_lines))
+
+Hibernate: create table orders_order_lines (orders varchar(255) not null, order_lines varchar(255) not null, primary key (orders, order_lines))
+
+Hibernate: create table product (product_id varchar(255) not null, metric varbinary(255), name varchar(255), price blob(255), primary key (product_id))
+
+Hibernate: create table product_categories (product varchar(255) not null, categories varchar(255))
+
+Hibernate: create table user_account (useraccount_id varchar(255) not null, email varchar(255), firstname varchar(255), is_enabled boolean not null, lastname varchar(255), password varchar(255), primary key (useraccount_id))
+
+Hibernate: create table user_account_roles (user_account varchar(255) not null, name varchar(255))
+
+Hibernate: alter table accountancy_entry add constraint FK_ba45dd0e91124d15afd98564a67 foreign key (user_account) references user_account
+
+Hibernate: alter table inventory_item add constraint FK_ef509f2a5c96402cba5feefe705 foreign key (product) references product
+
+Hibernate: alter table orders add constraint FK_a9ee51b58c1148c4a4be4b65f10 foreign key (user_account) references user_account
+
+Hibernate: alter table orders_charge_lines add constraint UK_6d3525955deb402d9afab48d11b unique (charge_lines)
+
+Hibernate: alter table orders_charge_lines add constraint FK_a48b4b4c2fae43a680b312d890f foreign key (charge_lines) references charge_line
+
+Hibernate: alter table orders_charge_lines add constraint FK_a4c09b56796a459eada4010f3b0 foreign key (orders) references orders
+
+Hibernate: alter table orders_order_lines add constraint UK_3d4f32f7a27543d99cc62e8ab15 unique (order_lines)
+
+Hibernate: alter table orders_order_lines add constraint FK_ac00299f550647ada47553f7ff9 foreign key (order_lines) references order_line
+
+Hibernate: alter table orders_order_lines add constraint FK_5f513ce1b83d4cdaba95d4aa351 foreign key (orders) references orders
+
+Hibernate: alter table product_categories add constraint FK_9f8183e3ddd84f66bd20a6ef049 foreign key (product) references product
+
+Hibernate: alter table user_account_roles add constraint FK_7ce2757e871942a598bdcd63e0c foreign key (user_account) references user_account
+
+2013-11-09 11:31:11, 079 ERROR . hibernate. ejb. metamodel. MetadataContext: 443 - HHH015011: Unable to locate static metamodel field : org. salespointframework. core. accountancy. AccountancyEntry_#value
+
+2013-11-09 11:31:11, 079 ERROR . hibernate. ejb. metamodel. MetadataContext: 443 - HHH015011: Unable to locate static metamodel field : org. salespointframework. core. order. OrderLine_#price
+
+2013-11-09 11:31:11, 079 ERROR . hibernate. ejb. metamodel. MetadataContext: 443 - HHH015011: Unable to locate static metamodel field : org. salespointframework. core. order. ChargeLine_#amount
+
+2013-11-09 11:31:11, 095 ERROR . hibernate. ejb. metamodel. MetadataContext: 443 - HHH015011: Unable to locate static metamodel field : org. salespointframework. core. catalog. Product_#price
+
+2013-11-09 11:31:11, 095 ERROR . hibernate. ejb. metamodel. MetadataContext: 443 - HHH015011: Unable to locate static metamodel field : org. salespointframework. core. order. OrderIdentifier_#id
+
+2013-11-09 11:31:11, 095 ERROR . hibernate. ejb. metamodel. MetadataContext: 443 - HHH015011: Unable to locate static metamodel field : org. salespointframework. core. order. OrderLineIdentifier_#id
+
+2013-11-09 11:31:11, 095 ERROR . hibernate. ejb. metamodel. MetadataContext: 443 - HHH015011: Unable to locate static metamodel field : org. salespointframework. core. catalog. ProductIdentifier_#id
+
+2013-11-09 11:31:11, 095 ERROR . hibernate. ejb. metamodel. MetadataContext: 443 - HHH015011: Unable to locate static metamodel field : org. salespointframework. core. order. ChargeLineIdentifier_#id
+
+2013-11-09 11:31:11, 095 ERROR . hibernate. ejb. metamodel. MetadataContext: 443 - HHH015011: Unable to locate static metamodel field : org. salespointframework. core. accountancy. AccountancyEntryIdentifier_#id
+
+2013-11-09 11:31:11, 095 ERROR . hibernate. ejb. metamodel. MetadataContext: 443 - HHH015011: Unable to locate static metamodel field : org. salespointframework. core. useraccount. UserAccountIdentifier_#id
+
+2013-11-09 11:31:11, 095 ERROR . hibernate. ejb. metamodel. MetadataContext: 443 - HHH015011: Unable to locate static metamodel field : org. salespointframework. core. inventory. InventoryItemIdentifier_#id
+
+2013-11-09 11:31:11, 548 DEBUG ntext. support. StandardServletEnvironment: 112 - Initializing new StandardServletEnvironment
+
+2013-11-09 11:31:11, 548 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 548 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 548 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [jndiProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 548 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 548 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 548 DEBUG ntext. support. StandardServletEnvironment: 116 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams, servletContextInitParams, jndiProperties, systemProperties, systemEnvironment]
+
+2013-11-09 11:31:11, 564 DEBUG ntext. support. StandardServletEnvironment: 112 - Initializing new StandardServletEnvironment
+
+2013-11-09 11:31:11, 564 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 564 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 564 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [jndiProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 564 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 564 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 564 DEBUG ntext. support. StandardServletEnvironment: 116 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams, servletContextInitParams, jndiProperties, systemProperties, systemEnvironment]
+
+2013-11-09 11:31:11, 564 DEBUG ntext. support. StandardServletEnvironment: 112 - Initializing new StandardServletEnvironment
+
+2013-11-09 11:31:11, 564 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 564 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 564 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [jndiProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 564 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 564 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 564 DEBUG ntext. support. StandardServletEnvironment: 116 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams, servletContextInitParams, jndiProperties, systemProperties, systemEnvironment]
+
+2013-11-09 11:31:11, 579 DEBUG ntext. support. StandardServletEnvironment: 112 - Initializing new StandardServletEnvironment
+
+2013-11-09 11:31:11, 579 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 579 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 579 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [jndiProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 579 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 579 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 579 DEBUG ntext. support. StandardServletEnvironment: 116 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams, servletContextInitParams, jndiProperties, systemProperties, systemEnvironment]
+
+2013-11-09 11:31:11, 595 DEBUG ntext. support. StandardServletEnvironment: 112 - Initializing new StandardServletEnvironment
+
+2013-11-09 11:31:11, 595 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 595 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 595 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [jndiProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 595 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 595 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 595 DEBUG ntext. support. StandardServletEnvironment: 116 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams, servletContextInitParams, jndiProperties, systemProperties, systemEnvironment]
+
+2013-11-09 11:31:11, 610 DEBUG ntext. support. StandardServletEnvironment: 112 - Initializing new StandardServletEnvironment
+
+2013-11-09 11:31:11, 610 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 610 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 610 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [jndiProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 610 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 610 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 610 DEBUG ntext. support. StandardServletEnvironment: 116 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams, servletContextInitParams, jndiProperties, systemProperties, systemEnvironment]
+
+2013-11-09 11:31:11, 626 DEBUG ntext. support. StandardServletEnvironment: 112 - Initializing new StandardServletEnvironment
+
+2013-11-09 11:31:11, 626 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 626 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 626 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [jndiProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 626 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 626 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 626 DEBUG ntext. support. StandardServletEnvironment: 116 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams, servletContextInitParams, jndiProperties, systemProperties, systemEnvironment]
+
+2013-11-09 11:31:11, 642 DEBUG ntext. support. StandardServletEnvironment: 112 - Initializing new StandardServletEnvironment
+
+2013-11-09 11:31:11, 642 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 642 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 642 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [jndiProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 642 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 642 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 642 DEBUG ntext. support. StandardServletEnvironment: 116 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams, servletContextInitParams, jndiProperties, systemProperties, systemEnvironment]
+
+2013-11-09 11:31:11, 642 DEBUG ntext. support. StandardServletEnvironment: 112 - Initializing new StandardServletEnvironment
+
+2013-11-09 11:31:11, 642 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 642 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 642 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [jndiProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 642 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 642 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 642 DEBUG ntext. support. StandardServletEnvironment: 116 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams, servletContextInitParams, jndiProperties, systemProperties, systemEnvironment]
+
+2013-11-09 11:31:11, 657 DEBUG ntext. support. StandardServletEnvironment: 112 - Initializing new StandardServletEnvironment
+
+2013-11-09 11:31:11, 657 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 657 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 657 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [jndiProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 657 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 657 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 657 DEBUG ntext. support. StandardServletEnvironment: 116 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams, servletContextInitParams, jndiProperties, systemProperties, systemEnvironment]
+
+2013-11-09 11:31:11, 673 DEBUG ntext. support. StandardServletEnvironment: 112 - Initializing new StandardServletEnvironment
+
+2013-11-09 11:31:11, 673 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 673 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 673 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [jndiProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 673 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 673 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 673 DEBUG ntext. support. StandardServletEnvironment: 116 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams, servletContextInitParams, jndiProperties, systemProperties, systemEnvironment]
+
+2013-11-09 11:31:11, 704 DEBUG ntext. support. StandardServletEnvironment: 112 - Initializing new StandardServletEnvironment
+
+2013-11-09 11:31:11, 704 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 704 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 704 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [jndiProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 704 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 704 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 704 DEBUG ntext. support. StandardServletEnvironment: 116 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams, servletContextInitParams, jndiProperties, systemProperties, systemEnvironment]
+
+2013-11-09 11:31:11, 735 DEBUG ntext. support. StandardServletEnvironment: 112 - Initializing new StandardServletEnvironment
+
+2013-11-09 11:31:11, 751 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 751 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 751 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [jndiProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 751 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemProperties] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 751 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+
+2013-11-09 11:31:11, 751 DEBUG ntext. support. StandardServletEnvironment: 116 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams, servletContextInitParams, jndiProperties, systemProperties, systemEnvironment]
+
+2013-11-09 11:31:12, 096 DEBUG mework. web. filter. HiddenHttpMethodFilter: 177 - Initializing filter 'hiddenHttpMethodFilter'
+
+2013-11-09 11:31:12, 097 DEBUG mework. web. filter. HiddenHttpMethodFilter: 202 - Filter 'hiddenHttpMethodFilter' configured successfully
+
+2013-11-09 11:31:12, 104 DEBUG gframework. web. servlet. DispatcherServlet: 118 - Initializing servlet 'dispatcherServlet'
+
+2013-11-09 11:31:12, 105  INFO gframework. web. servlet. DispatcherServlet: 461 - FrameworkServlet 'dispatcherServlet': initialization started
+
+2013-11-09 11:31:12, 106 DEBUG gframework. web. servlet. DispatcherServlet: 489 - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+
+2013-11-09 11:31:12, 110 DEBUG gframework. web. servlet. DispatcherServlet: 511 - Unable to locate LocaleResolver with name 'localeResolver': using default [org. springframework. web. servlet. i18n. AcceptHeaderLocaleResolver@13702bf]
+
+2013-11-09 11:31:12, 117 DEBUG gframework. web. servlet. DispatcherServlet: 533 - Unable to locate ThemeResolver with name 'themeResolver': using default [org. springframework. web. servlet. theme. FixedThemeResolver@70029fd0]
+
+2013-11-09 11:31:12, 213  INFO . servlet. handler. SimpleUrlHandlerMapping: 315 - Mapped URL path [/**/favicon. ico] onto handler of type [class org. springframework. web. servlet. resource. ResourceHttpRequestHandler]
+
+2013-11-09 11:31:12, 362 DEBUG . annotation. RequestMappingHandlerMapping: 100 - Looking for request mappings in application context: org. springframework. boot. context. embedded. AnnotationConfigEmbeddedWebApplicationContext@303eed26: startup date [Sat Nov 09 11:31:06 CET 2013]; root of context hierarchy
+
+2013-11-09 11:31:12, 377  INFO . annotation. RequestMappingHandlerMapping: 181 - Mapped "{[/ || /index], methods=[], params=[], headers=[], consumes=[], produces=[], custom=[]}" onto public java. lang. String blankweb. controller. WelcomeController. index()
+
+2013-11-09 11:31:12, 439 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  71 - Looking for URL mappings in application context: org. springframework. boot. context. embedded. AnnotationConfigEmbeddedWebApplicationContext@303eed26: startup date [Sat Nov 09 11:31:06 CET 2013]; root of context hierarchy
+
+2013-11-09 11:31:12, 447 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. context. annotation. internalConfigurationAnnotationProcessor': no URL paths identified
+
+2013-11-09 11:31:12, 447 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. context. annotation. internalAutowiredAnnotationProcessor': no URL paths identified
+
+2013-11-09 11:31:12, 447 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. context. annotation. internalRequiredAnnotationProcessor': no URL paths identified
+
+2013-11-09 11:31:12, 448 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. context. annotation. internalCommonAnnotationProcessor': no URL paths identified
+
+2013-11-09 11:31:12, 449 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. context. annotation. internalPersistenceAnnotationProcessor': no URL paths identified
+
+2013-11-09 11:31:12, 449 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'blankWeb': no URL paths identified
+
+2013-11-09 11:31:12, 449 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. context. annotation. ConfigurationClassPostProcessor. importAwareProcessor': no URL paths identified
+
+2013-11-09 11:31:12, 450 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. context. annotation. ConfigurationClassPostProcessor. enhancedConfigurationProcessor': no URL paths identified
+
+2013-11-09 11:31:12, 450 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'blankWeb. WebConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 450 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'blankWeb. WebSecurityConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 450 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'welcomeController': no URL paths identified
+
+2013-11-09 11:31:12, 451 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'persistentAccountancy': no URL paths identified
+
+2013-11-09 11:31:12, 451 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'persistentCatalog': no URL paths identified
+
+2013-11-09 11:31:12, 451 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'persistentInventory': no URL paths identified
+
+2013-11-09 11:31:12, 451 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'persistentOrderManager': no URL paths identified
+
+2013-11-09 11:31:12, 452 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'timeServiceImpl': no URL paths identified
+
+2013-11-09 11:31:12, 452 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'persistentUserAccountManager': no URL paths identified
+
+2013-11-09 11:31:12, 452 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'jpaEntityConverter': no URL paths identified
+
+2013-11-09 11:31:12, 452 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. security. config. annotation. web. configuration. WebSecurityConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 453 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'springSecurityFilterChain': no URL paths identified
+
+2013-11-09 11:31:12, 453 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'webSecurityExpressionHandler': no URL paths identified
+
+2013-11-09 11:31:12, 454 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'privilegeEvaluator': no URL paths identified
+
+2013-11-09 11:31:12, 454 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. security. config. annotation. configuration. ObjectPostProcessorConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 454 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'objectPostProcessor': no URL paths identified
+
+2013-11-09 11:31:12, 454 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. security. config. annotation. authentication. configuration. AuthenticationConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 454 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'authenticationManagerBuilder': no URL paths identified
+
+2013-11-09 11:31:12, 455 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. security. config. annotation. web. configuration. CsrfWebMvcConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 455 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'requestDataValueProcessor': no URL paths identified
+
+2013-11-09 11:31:12, 455 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. security. config. annotation. method. configuration. GlobalMethodSecurityConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 455 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'methodSecurityInterceptor': no URL paths identified
+
+2013-11-09 11:31:12, 455 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'methodSecurityMetadataSource': no URL paths identified
+
+2013-11-09 11:31:12, 455 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'methodExpressionHandler': no URL paths identified
+
+2013-11-09 11:31:12, 456 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'preInvocationAuthorizationAdvice': no URL paths identified
+
+2013-11-09 11:31:12, 456 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'metaDataSourceAdvisor': no URL paths identified
+
+2013-11-09 11:31:12, 456 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'authenticationManagerBean': no URL paths identified
+
+2013-11-09 11:31:12, 456 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. aop. config. internalAutoProxyCreator': no URL paths identified
+
+2013-11-09 11:31:12, 456 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. salespointframework. Salespoint': no URL paths identified
+
+2013-11-09 11:31:12, 456 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. MessageSourceAutoConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 456 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'messageSource': no URL paths identified
+
+2013-11-09 11:31:12, 457 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. PropertyPlaceholderAutoConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 457 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'propertySourcesPlaceholderConfigurer': no URL paths identified
+
+2013-11-09 11:31:12, 457 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. web. EmbeddedServletContainerAutoConfiguration$EmbeddedTomcat': no URL paths identified
+
+2013-11-09 11:31:12, 457 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'tomcatEmbeddedServletContainerFactory': no URL paths identified
+
+2013-11-09 11:31:12, 457 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. web. EmbeddedServletContainerAutoConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 458 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'embeddedServletContainerCustomizerBeanPostProcessor': no URL paths identified
+
+2013-11-09 11:31:12, 458 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. web. DispatcherServletAutoConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 458 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'dispatcherServlet': no URL paths identified
+
+2013-11-09 11:31:12, 458 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. web. WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 458 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'faviconHandlerMapping': no URL paths identified
+
+2013-11-09 11:31:12, 459 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'faviconRequestHandler': no URL paths identified
+
+2013-11-09 11:31:12, 459 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. web. servlet. config. annotation. DelegatingWebMvcConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 459 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'requestMappingHandlerMapping': no URL paths identified
+
+2013-11-09 11:31:12, 459 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'mvcContentNegotiationManager': no URL paths identified
+
+2013-11-09 11:31:12, 459 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'viewControllerHandlerMapping': no URL paths identified
+
+2013-11-09 11:31:12, 460 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'beanNameHandlerMapping': no URL paths identified
+
+2013-11-09 11:31:12, 460 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'resourceHandlerMapping': no URL paths identified
+
+2013-11-09 11:31:12, 460 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'defaultServletHandlerMapping': no URL paths identified
+
+2013-11-09 11:31:12, 460 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'requestMappingHandlerAdapter': no URL paths identified
+
+2013-11-09 11:31:12, 460 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'mvcConversionService': no URL paths identified
+
+2013-11-09 11:31:12, 461 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'mvcValidator': no URL paths identified
+
+2013-11-09 11:31:12, 461 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'mvcUriComponentsContributor': no URL paths identified
+
+2013-11-09 11:31:12, 461 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'httpRequestHandlerAdapter': no URL paths identified
+
+2013-11-09 11:31:12, 461 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'simpleControllerHandlerAdapter': no URL paths identified
+
+2013-11-09 11:31:12, 462 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'handlerExceptionResolver': no URL paths identified
+
+2013-11-09 11:31:12, 462 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. web. WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter': no URL paths identified
+
+2013-11-09 11:31:12, 462 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'defaultViewResolver': no URL paths identified
+
+2013-11-09 11:31:12, 462 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. web. WebMvcAutoConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 463 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'hiddenHttpMethodFilter': no URL paths identified
+
+2013-11-09 11:31:12, 463 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. aop. AopAutoConfiguration$JdkDynamicAutoProxyConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 463 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. aop. AopAutoConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 463 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. jdbc. DataSourceAutoConfiguration$JdbcTemplateConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 464 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'jdbcTemplate': no URL paths identified
+
+2013-11-09 11:31:12, 467 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'namedParameterJdbcTemplate': no URL paths identified
+
+2013-11-09 11:31:12, 470 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. jdbc. TomcatDataSourceConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 470 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'dataSource': no URL paths identified
+
+2013-11-09 11:31:12, 470 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. context. properties. ConfigurationPropertiesBindingPostProcessor': no URL paths identified
+
+2013-11-09 11:31:12, 471 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. jdbc. DataSourceAutoConfiguration$TomcatConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 471 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. jdbc. DataSourceAutoConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 471 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. data. JpaRepositoriesAutoConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 471 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. data. repository. core. support. RepositoryInterfaceAwareBeanPostProcessor#0': no URL paths identified
+
+2013-11-09 11:31:12, 472 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. jdbc. DataSourceTransactionManagerAutoConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 472 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'transactionManager': no URL paths identified
+
+2013-11-09 11:31:12, 472 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. transaction. annotation. ProxyTransactionManagementConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 472 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. transaction. config. internalTransactionAdvisor': no URL paths identified
+
+2013-11-09 11:31:12, 472 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'transactionAttributeSource': no URL paths identified
+
+2013-11-09 11:31:12, 473 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'transactionInterceptor': no URL paths identified
+
+2013-11-09 11:31:12, 473 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. orm. jpa. JpaBaseConfiguration$JpaWebConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 473 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'openEntityManagerInViewInterceptor': no URL paths identified
+
+2013-11-09 11:31:12, 473 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. orm. jpa. HibernateJpaAutoConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 474 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'entityManagerFactory': no URL paths identified
+
+2013-11-09 11:31:12, 474 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'jpaVendorAdapter': no URL paths identified
+
+2013-11-09 11:31:12, 474 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. thymeleaf. ThymeleafAutoConfiguration$ThymeleafSecurityDialectConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 474 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'securityDialect': no URL paths identified
+
+2013-11-09 11:31:12, 474 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. thymeleaf. ThymeleafAutoConfiguration$ThymeleafViewResolverConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 475 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'thymeleafViewResolver': no URL paths identified
+
+2013-11-09 11:31:12, 475 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. thymeleaf. ThymeleafAutoConfiguration$ThymeleafDefaultConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 475 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'templateEngine': no URL paths identified
+
+2013-11-09 11:31:12, 475 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. thymeleaf. ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 475 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'defaultTemplateResolver': no URL paths identified
+
+2013-11-09 11:31:12, 476 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. thymeleaf. ThymeleafAutoConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 476 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. web. ServerPropertiesAutoConfiguration': no URL paths identified
+
+2013-11-09 11:31:12, 476 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. context. embedded. properties. ServerProperties': no URL paths identified
+
+2013-11-09 11:31:12, 476 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'environment': no URL paths identified
+
+2013-11-09 11:31:12, 476 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'systemProperties': no URL paths identified
+
+2013-11-09 11:31:12, 477 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'systemEnvironment': no URL paths identified
+
+2013-11-09 11:31:12, 477 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. boot. autoconfigure. AutoConfigurationUtils. basePackages': no URL paths identified
+
+2013-11-09 11:31:12, 477 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'org. springframework. context. annotation. ConfigurationClassPostProcessor. importRegistry': no URL paths identified
+
+2013-11-09 11:31:12, 477 DEBUG ervlet. handler. BeanNameUrlHandlerMapping:  86 - Rejected bean name 'applicationEventMulticaster': no URL paths identified
+
+2013-11-09 11:31:12, 496  INFO . servlet. handler. SimpleUrlHandlerMapping: 315 - Mapped URL path [/**] onto handler of type [class org. springframework. web. servlet. resource. ResourceHttpRequestHandler]
+
+2013-11-09 11:31:12, 496  INFO . servlet. handler. SimpleUrlHandlerMapping: 315 - Mapped URL path [/webjars/**] onto handler of type [class org. springframework. web. servlet. resource. ResourceHttpRequestHandler]
+
+2013-11-09 11:31:12, 718 DEBUG . annotation. RequestMappingHandlerAdapter: 621 - Looking for controller advice: org. springframework. boot. context. embedded. AnnotationConfigEmbeddedWebApplicationContext@303eed26: startup date [Sat Nov 09 11:31:06 CET 2013]; root of context hierarchy
+
+2013-11-09 11:31:12, 764 DEBUG tation. ExceptionHandlerExceptionResolver: 286 - Looking for exception mappings: org. springframework. boot. context. embedded. AnnotationConfigEmbeddedWebApplicationContext@303eed26: startup date [Sat Nov 09 11:31:06 CET 2013]; root of context hierarchy
+
+2013-11-09 11:31:12, 764 DEBUG gframework. web. servlet. DispatcherServlet: 671 - Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org. springframework. web. servlet. view. DefaultRequestToViewNameTranslator@643c83d]
+
+2013-11-09 11:31:13, 030 DEBUG gframework. web. servlet. DispatcherServlet: 733 - Unable to locate FlashMapManager with name 'flashMapManager': using default [org. springframework. web. servlet. support. SessionFlashMapManager@f00ed54]
+
+2013-11-09 11:31:13, 030 DEBUG gframework. web. servlet. DispatcherServlet: 540 - Published WebApplicationContext of servlet 'dispatcherServlet' as ServletContext attribute with name [org. springframework. web. servlet. FrameworkServlet. CONTEXT. dispatcherServlet]
+
+2013-11-09 11:31:13, 030  INFO gframework. web. servlet. DispatcherServlet: 480 - FrameworkServlet 'dispatcherServlet': initialization completed in 925 ms
+
+2013-11-09 11:31:13, 030 DEBUG gframework. web. servlet. DispatcherServlet: 139 - Servlet 'dispatcherServlet' configured successfully
+
+2013-11-09 11:31:13, 046 ERROR g. apache. coyote. http11. Http11NioProtocol: 185 - Failed to start end point associated with ProtocolHandler ["http-nio-8080"]
+
+java. net. BindException: Address already in use: bind
+
+	at sun. nio. ch. Net. bind0(Native Method) ~[na:1. 7. 0_21]
+
+	at sun. nio. ch. Net. bind(Unknown Source) ~[na:1. 7. 0_21]
+
+	at sun. nio. ch. Net. bind(Unknown Source) ~[na:1. 7. 0_21]
+
+	at sun. nio. ch. ServerSocketChannelImpl. bind(Unknown Source) ~[na:1. 7. 0_21]
+
+	at sun. nio. ch. ServerSocketAdaptor. bind(Unknown Source) ~[na:1. 7. 0_21]
+
+	at org. apache. tomcat. util. net. NioEndpoint. bind(NioEndpoint. java:473) ~[tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. tomcat. util. net. AbstractEndpoint. start(AbstractEndpoint. java:617) ~[tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. coyote. AbstractProtocol. start(AbstractProtocol. java:444) ~[tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. connector. Connector. startInternal(Connector. java:1010) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. util. LifecycleBase. start(LifecycleBase. java:150) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. core. StandardService. startInternal(StandardService. java:459) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. util. LifecycleBase. start(LifecycleBase. java:150) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. core. StandardServer. startInternal(StandardServer. java:732) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. util. LifecycleBase. start(LifecycleBase. java:150) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. startup. Tomcat. start(Tomcat. java:335) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. springframework. boot. context. embedded. tomcat. TomcatEmbeddedServletContainer. initialize(TomcatEmbeddedServletContainer. java:57) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. context. embedded. tomcat. TomcatEmbeddedServletContainer.(TomcatEmbeddedServletContainer. java:52) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. context. embedded. tomcat. TomcatEmbeddedServletContainerFactory. getTomcatEmbeddedServletContainer(TomcatEmbeddedServletContainerFactory. java:259) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. context. embedded. tomcat. TomcatEmbeddedServletContainerFactory. getEmbeddedServletContainer(TomcatEmbeddedServletContainerFactory. java:140) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. context. embedded. EmbeddedWebApplicationContext. createEmbeddedServletContainer(EmbeddedWebApplicationContext. java:152) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. context. embedded. EmbeddedWebApplicationContext. onRefresh(EmbeddedWebApplicationContext. java:134) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. context. support. AbstractApplicationContext. refresh(AbstractApplicationContext. java:476) [spring-context-4. 0. 0. RC1. jar:4. 0. 0. RC1]
+
+	at org. springframework. boot. context. embedded. EmbeddedWebApplicationContext. refresh(EmbeddedWebApplicationContext. java:122) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. SpringApplication. refresh(SpringApplication. java:509) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. SpringApplication. run(SpringApplication. java:278) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. SpringApplication. run(SpringApplication. java:687) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. SpringApplication. run(SpringApplication. java:676) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at blankweb. BlankWeb. main(BlankWeb. java:37) [classes/:na]
+
+2013-11-09 11:31:13, 046 ERROR org. apache. catalina. core. StandardService: 185 - Failed to start connector [Connector[org. apache. coyote. http11. Http11NioProtocol-8080]]
+
+org. apache. catalina. LifecycleException: Failed to start component [Connector[org. apache. coyote. http11. Http11NioProtocol-8080]]
+
+	at org. apache. catalina. util. LifecycleBase. start(LifecycleBase. java:154) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. core. StandardService. startInternal(StandardService. java:459) ~[tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. util. LifecycleBase. start(LifecycleBase. java:150) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. core. StandardServer. startInternal(StandardServer. java:732) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. util. LifecycleBase. start(LifecycleBase. java:150) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. startup. Tomcat. start(Tomcat. java:335) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. springframework. boot. context. embedded. tomcat. TomcatEmbeddedServletContainer. initialize(TomcatEmbeddedServletContainer. java:57) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. context. embedded. tomcat. TomcatEmbeddedServletContainer.(TomcatEmbeddedServletContainer. java:52) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. context. embedded. tomcat. TomcatEmbeddedServletContainerFactory. getTomcatEmbeddedServletContainer(TomcatEmbeddedServletContainerFactory. java:259) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. context. embedded. tomcat. TomcatEmbeddedServletContainerFactory. getEmbeddedServletContainer(TomcatEmbeddedServletContainerFactory. java:140) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. context. embedded. EmbeddedWebApplicationContext. createEmbeddedServletContainer(EmbeddedWebApplicationContext. java:152) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. context. embedded. EmbeddedWebApplicationContext. onRefresh(EmbeddedWebApplicationContext. java:134) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. context. support. AbstractApplicationContext. refresh(AbstractApplicationContext. java:476) [spring-context-4. 0. 0. RC1. jar:4. 0. 0. RC1]
+
+	at org. springframework. boot. context. embedded. EmbeddedWebApplicationContext. refresh(EmbeddedWebApplicationContext. java:122) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. SpringApplication. refresh(SpringApplication. java:509) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. SpringApplication. run(SpringApplication. java:278) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. SpringApplication. run(SpringApplication. java:687) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. SpringApplication. run(SpringApplication. java:676) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at blankweb. BlankWeb. main(BlankWeb. java:37) [classes/:na]
+
+Caused by: org. apache. catalina. LifecycleException: service. getName(): "Tomcat";  Protocol handler start failed
+
+	at org. apache. catalina. connector. Connector. startInternal(Connector. java:1017) ~[tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. util. LifecycleBase. start(LifecycleBase. java:150) [tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	... 18 common frames omitted
+
+Caused by: java. net. BindException: Address already in use: bind
+
+	at sun. nio. ch. Net. bind0(Native Method) ~[na:1. 7. 0_21]
+
+	at sun. nio. ch. Net. bind(Unknown Source) ~[na:1. 7. 0_21]
+
+	at sun. nio. ch. Net. bind(Unknown Source) ~[na:1. 7. 0_21]
+
+	at sun. nio. ch. ServerSocketChannelImpl. bind(Unknown Source) ~[na:1. 7. 0_21]
+
+	at sun. nio. ch. ServerSocketAdaptor. bind(Unknown Source) ~[na:1. 7. 0_21]
+
+	at org. apache. tomcat. util. net. NioEndpoint. bind(NioEndpoint. java:473) ~[tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. tomcat. util. net. AbstractEndpoint. start(AbstractEndpoint. java:617) ~[tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. coyote. AbstractProtocol. start(AbstractProtocol. java:444) ~[tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. catalina. connector. Connector. startInternal(Connector. java:1010) ~[tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	... 19 common frames omitted
+
+2013-11-09 11:31:13, 046 DEBUG ntext. support. StandardServletEnvironment: 175 - Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+
+2013-11-09 11:31:13, 452 ERROR g. apache. coyote. http11. Http11NioProtocol: 185 - Failed to start end point associated with ProtocolHandler ["http-nio-8080"]
+
+java. net. BindException: Address already in use: bind
+
+	at sun. nio. ch. Net. bind0(Native Method) ~[na:1. 7. 0_21]
+
+	at sun. nio. ch. Net. bind(Unknown Source) ~[na:1. 7. 0_21]
+
+	at sun. nio. ch. Net. bind(Unknown Source) ~[na:1. 7. 0_21]
+
+	at sun. nio. ch. ServerSocketChannelImpl. bind(Unknown Source) ~[na:1. 7. 0_21]
+
+	at sun. nio. ch. ServerSocketAdaptor. bind(Unknown Source) ~[na:1. 7. 0_21]
+
+	at org. apache. tomcat. util. net. NioEndpoint. bind(NioEndpoint. java:473) ~[tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. tomcat. util. net. AbstractEndpoint. start(AbstractEndpoint. java:617) ~[tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. coyote. AbstractProtocol. start(AbstractProtocol. java:444) ~[tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. springframework. boot. context. embedded. tomcat. TomcatEmbeddedServletContainer. start(TomcatEmbeddedServletContainer. java:90) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. context. embedded. EmbeddedWebApplicationContext. startEmbeddedServletContainer(EmbeddedWebApplicationContext. java:361) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. context. embedded. EmbeddedWebApplicationContext. finishRefresh(EmbeddedWebApplicationContext. java:140) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. context. support. AbstractApplicationContext. refresh(AbstractApplicationContext. java:485) [spring-context-4. 0. 0. RC1. jar:4. 0. 0. RC1]
+
+	at org. springframework. boot. context. embedded. EmbeddedWebApplicationContext. refresh(EmbeddedWebApplicationContext. java:122) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. SpringApplication. refresh(SpringApplication. java:509) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. SpringApplication. run(SpringApplication. java:278) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. SpringApplication. run(SpringApplication. java:687) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. SpringApplication. run(SpringApplication. java:676) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at blankweb. BlankWeb. main(BlankWeb. java:37) [classes/:na]
+
+2013-11-09 11:31:13, 452 ERROR ed. tomcat. TomcatEmbeddedServletContainer:  93 - Cannot start connector: 
+
+java. net. BindException: Address already in use: bind
+
+	at sun. nio. ch. Net. bind0(Native Method) ~[na:1. 7. 0_21]
+
+	at sun. nio. ch. Net. bind(Unknown Source) ~[na:1. 7. 0_21]
+
+	at sun. nio. ch. Net. bind(Unknown Source) ~[na:1. 7. 0_21]
+
+	at sun. nio. ch. ServerSocketChannelImpl. bind(Unknown Source) ~[na:1. 7. 0_21]
+
+	at sun. nio. ch. ServerSocketAdaptor. bind(Unknown Source) ~[na:1. 7. 0_21]
+
+	at org. apache. tomcat. util. net. NioEndpoint. bind(NioEndpoint. java:473) ~[tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. tomcat. util. net. AbstractEndpoint. start(AbstractEndpoint. java:617) ~[tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. apache. coyote. AbstractProtocol. start(AbstractProtocol. java:444) ~[tomcat-embed-core-7. 0. 42. jar:7. 0. 42]
+
+	at org. springframework. boot. context. embedded. tomcat. TomcatEmbeddedServletContainer. start(TomcatEmbeddedServletContainer. java:90) ~[spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. context. embedded. EmbeddedWebApplicationContext. startEmbeddedServletContainer(EmbeddedWebApplicationContext. java:361) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. context. embedded. EmbeddedWebApplicationContext. finishRefresh(EmbeddedWebApplicationContext. java:140) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. context. support. AbstractApplicationContext. refresh(AbstractApplicationContext. java:485) [spring-context-4. 0. 0. RC1. jar:4. 0. 0. RC1]
+
+	at org. springframework. boot. context. embedded. EmbeddedWebApplicationContext. refresh(EmbeddedWebApplicationContext. java:122) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. SpringApplication. refresh(SpringApplication. java:509) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. SpringApplication. run(SpringApplication. java:278) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. SpringApplication. run(SpringApplication. java:687) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at org. springframework. boot. SpringApplication. run(SpringApplication. java:676) [spring-boot-0. 5. 0. M5. jar:0. 5. 0. M5]
+
+	at blankweb. BlankWeb. main(BlankWeb. java:37) [classes/:na]
+
+```
+
+Ich habe neueste Version <NAME_CORPUS_REPLACEMENT> Eclipse heruntergeladen und es gibt original im Import KEINE Maven Optionen, deswegen versuche ich so es zu schaffen. Hat jemand eine Idee?
+TAGGED_CONTENT:

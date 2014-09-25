@@ -1,0 +1,10 @@
+ID: 194617
+CREATION_DATETIME: 1358526336
+MODIFICATION_DATETIME: 1358526336
+TITLE: Beispiel 28 im Skript....
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen, es geht um Beispiel 28 im Script (s. 72). Dort kommt als Lösung des LGS eine Partikularlösung sowie linear unabhängige Lösungen heraus . Wie ich auf die Partikularlösung komme verstehe ich noch, nur wie komme ich auf die beiden linear unabhängigen Lösungen (-3, 0, 1, 0)T und (5, 2, 0, 1)T ??? Ich sehe es einfach nicht.....
+Ich hoffe ihr könnt mir helfen.
+Gruß
+TAGGED_CONTENT:

@@ -1,0 +1,31 @@
+ID: 97771
+CREATION_DATETIME: 1287132064
+MODIFICATION_DATETIME: 1287132064
+TITLE: Einsendeaufgaben
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:6.95597687640829;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+NER_TAG: value:LON CAPA;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:LON CAPA;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:senz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Jahr;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einsendeaufgaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:Prof.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:bungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Samstag;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> Prof. <REMOVED_PERSON_ENTITY>,
+ich konnte an der Präsenz am letzen Samstag leider nicht teilnehmen. Daher meine Frage zu den Einsendeaufgaben:
+Verstehe ich es richtig, dass es sich bei den Aufgaben in LON CAPA um die Einsendeaufgaben handelt? Im letzten Jahr waren die Aufgaben in LON CAPA freiwillige Übungen und die Einsendeaufgaben wurden unabhängig davon veröffentlicht.
+Freundliche Grüße,
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NN >_CARD Prof._NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, ich_PPER konnte_VMFIN an_APPR der_ART Präsenz_NN am_APPRART letzen_ADJA Samstag_NN leider_ADV nicht_PTKNEG teilnehmen_VVINF ._$. Daher_PROAV meine_PPOSAT Frage_NN zu_APPR den_ART Einsendeaufgaben_NN :_$. Verstehe_VVFIN ich_PPER es_PPER richtig_ADJD ,_$, dass_KOUS es_PPER sich_PRF bei_APPR den_ART Aufgaben_NN in_APPR LON_NE CAPA_NE um_APPR die_ART Einsendeaufgaben_NN handelt_VVFIN ?_$. Im_APPRART letzten_ADJA Jahr_NN waren_VAFIN die_ART Aufgaben_NN in_APPR LON_NE CAPA_NE freiwillige_ADJA Übungen_NN und_KON die_ART Einsendeaufgaben_NN wurden_VAFIN unabhängig_ADJD davon_PROAV veröffentlicht_VVPP ._$. Freundliche_ADJA Grüße_NN ,_$, <_CARD PERSONAL_GREETING_REMOVEMENT_NE >_XY 

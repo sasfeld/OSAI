@@ -1,0 +1,20 @@
+ID: 71
+CREATION_DATETIME: 1181943120000
+MODIFICATION_DATETIME: 1181943120000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo ,
+
+kann man eine Komponente den Wert einer anderen annehmen lassen bzw auf sie verweisen?
+
+int[][] entfernung = new int[][]{1,2,3,entfernung[0][1]};
+
+Ich möchte also erreichen, dass in der Komponente [0][4] der gleiche Wert steht wie in der Komponente [0][1]. Geht das und wenn ja, wie?
+
+Vielen Dank
+
+    
+TAGGED_CONTENT:

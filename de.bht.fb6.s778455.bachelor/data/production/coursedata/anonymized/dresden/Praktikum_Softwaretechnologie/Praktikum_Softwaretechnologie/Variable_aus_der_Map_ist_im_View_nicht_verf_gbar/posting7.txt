@@ -1,0 +1,9 @@
+ID: 2802
+CREATION_DATETIME: 1384124400000
+MODIFICATION_DATETIME: 1384124400000
+TITLE: Weil jede vernünftige Sprache case sensitiv ist. Wir programmieren kein Basic :D.
+PARENT_POSTING_ID: 2799
+POSTING_TYPE: comment
+CONTENT:
+Weil jede vernünftige Sprache case sensitiv ist. Wir programmieren kein Basic :D.
+TAGGED_CONTENT:

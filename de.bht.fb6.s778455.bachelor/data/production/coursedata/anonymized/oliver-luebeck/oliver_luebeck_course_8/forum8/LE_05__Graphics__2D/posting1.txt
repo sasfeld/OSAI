@@ -1,0 +1,26 @@
+ID: 24
+CREATION_DATETIME: 1193937720000
+MODIFICATION_DATETIME: 1193937720000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo,
+
+ich habe einige Fragen zur 2D-API(LE05, Seite 13)
+Im Modul wird das nur kurz angerissen und überhaupt nicht vernünftig erklärt.
+
+1- Was bringt denn die 2D-API eigentlich im Vergleich zu Graphics (außer das man Float-Werte einsetzen kann)?
+2- Warum muß man hier eine Main-Methode einsetzen und bei Graphics nicht?
+3- Muß man denn Graphics und 2D gemeinsam verwenden? Ich finde es ein bißchen aufwändig, dass zuerst
+---> im Konstruktor die Werte gesetzt wurden ((String titel, int breite, int hoehe))- dieser Schritt ist natürlich nachvollziehbar, wird ja dann
+in der Main-Methode umgesetzt (new Rechteck2D("Rechteck2D", 200, 170);)
+---> dann die paint-Methode aufgerufen wird. Warum wird denn eigentlich mit super auf die Oberklasse zugegriffen. Was bringt denn das?
+---> Danach wird der graphische Kontext in den 2D Kontext gecastet.
+
+Warum denn so umständlich? Geht das nicht gleich über 2D, ohne vorher den grafischen Kontext einzusetzen?
+
+Grüsse
+     
+TAGGED_CONTENT:

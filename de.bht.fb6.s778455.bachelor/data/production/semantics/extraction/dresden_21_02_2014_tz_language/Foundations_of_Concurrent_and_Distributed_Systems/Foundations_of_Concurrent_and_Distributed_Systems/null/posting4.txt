@@ -1,0 +1,18 @@
+ID: 878
+CREATION_DATETIME: 1353970800000
+MODIFICATION_DATETIME: 1353970800000
+TITLE: Because `count` did not reach 0 before the last thread enters the barrier.
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 876
+POSTING_TYPE: comment
+CONTENT:
+Because `count` did not reach 0 before the last thread enters the barrier.
+
+The last thread executes:
+
+`count. getAndDecrement() == 1`
+
+and the other threads will see:
+
+`count. get() == 0`
+TAGGED_CONTENT:

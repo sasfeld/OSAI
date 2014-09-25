@@ -1,0 +1,42 @@
+ID: 1295
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich hab mir einen baum erstellt:
+```ruby
+struct node {
+	int key_value;
+	struct node *lefttop;
+	struct node *righttop;
+	struct node *leftbot;
+	struct node *rightbot;
+};
+struct node *morejumps[34];
+void insert(int key, struct node **leaf)
+{
+    if( *leaf == 0 )
+    {
+        *leaf = (struct node*) malloc( sizeof( struct node ) );
+        (*leaf)->key_value = key;
+        /* initialize the children to null */
+        (*leaf)->lefttop = 0;
+        (*leaf)->righttop = 0;
+        (*leaf)->leftbot = 0;
+        (*leaf)->rightbot = 0;
+    }
+}
+```
+nur wenn ich mit:
+```ruby
+insert(i,*morejumps[i]);
+```
+den baum aufrufen will kommt:
+```ruby
+my_player. <LEARNED_PERSON_NAME_REPLACEMENT>:452:27: Fehler: keine Übereinstimmung für »operator*« in »** morejumps[i]«
+```
+ich hab mich dabei an diese anleitung gehalten:
+http://www.cprogramming.com/tutorial/c/lesson18. html
+TAGGED_CONTENT:

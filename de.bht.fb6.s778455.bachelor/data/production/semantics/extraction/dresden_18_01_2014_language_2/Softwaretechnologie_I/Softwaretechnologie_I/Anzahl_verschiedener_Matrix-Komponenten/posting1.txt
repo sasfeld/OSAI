@@ -1,0 +1,12 @@
+ID: 1976
+CREATION_DATETIME: 1370556000000
+MODIFICATION_DATETIME: 1372456800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo. In der Matrix-Aufgabe gibt es einen JUnit-Fehler bei der Funktion getDistinctObjectCount(). Sie sieht so aus:
+
+`Set x = (HashSet) m. values(); return x. size();` Ich dachte, ich bau mir ein HashSet, damit dort alle Werte nur einmal drin sind, zähle dann dessen Größe und erhalte damit die Anzahl voneinander verschiedener Komponenten. Doch es wird immer gesagt "java. util. HashMap$Values cannot be cast to java. util. HashSet". Doch ohne <REMOVED_PERSON_ENTITY> dürfte es eher nicht gehen, weil values() allgemein eine Collection liefert, aber ich schließlich speziell ein Set brauche brauche. Was ist hier das Problem?
+TAGGED_CONTENT:

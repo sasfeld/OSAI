@@ -1,0 +1,27 @@
+ID: 2491
+CREATION_DATETIME: 1375653600000
+MODIFICATION_DATETIME: 1384297200000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Vererbung;weight:1.0;significance:5.0718000788862;degreegeneralization:6;uri:20915604
+TOPIC_ZOOM_TAG: value:Source-Code;weight:1.0;significance:4.74483684518287;degreegeneralization:9;uri:20804305
+TOPIC_ZOOM_TAG: value:Programmcode;weight:1.0;significance:4.6214068062171;degreegeneralization:8;uri:20804322
+TOPIC_ZOOM_TAG: value:Programmierung;weight:1.0;significance:3.58168603537718;degreegeneralization:7;uri:21461440
+TOPIC_ZOOM_TAG: value:Biologie;weight:1.0;significance:2.6497065356569;degreegeneralization:5;uri:21976625
+TOPIC_ZOOM_TAG: value:Software;weight:1.0;significance:2.60511682223347;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:2.51211272377639;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:2.50390086036106;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:2.23699226098339;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:2.15506992990383;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:2.00351838218053;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.83083484620539;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:1.75110858232764;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:1.16884339240287;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Kann mir Jemand sagen, wie man die Beziehungen zwischen <REMOVED_PERSON_ENTITY> (Vererbung, Assoziation, Aggregation, etc.) in Java-Quellcode umsetzt? Danke.
+TAGGED_CONTENT:

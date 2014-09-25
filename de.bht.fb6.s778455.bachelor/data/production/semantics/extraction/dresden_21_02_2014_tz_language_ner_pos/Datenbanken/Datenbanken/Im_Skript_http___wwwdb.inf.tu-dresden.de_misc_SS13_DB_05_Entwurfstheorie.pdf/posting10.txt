@@ -1,0 +1,15 @@
+ID: 2528
+CREATION_DATETIME: 1376344800000
+MODIFICATION_DATETIME: 1376344800000
+TITLE: Müssen nicht alle Elemente aufgestellt werden?
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:1.80459553725326;degreegeneralization:2;uri:21999847
+POS_TAG: value:Elemente;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2512
+POSTING_TYPE: comment
+CONTENT:
+Müssen nicht alle Elemente aufgestellt werden?
+
+Waren grad essen, aber die anderen gehen noch.
+TAGGED_CONTENT:
+Müssen_VMFIN nicht_PTKNEG alle_PIDAT Elemente_NN aufgestellt_VVPP werden_VAINF ?_$. Waren_VAFIN grad_ADV essen_VVINF ,_$, aber_KON die_ART anderen_ADJA gehen_VVFIN noch_ADV ._$. 

@@ -1,0 +1,32 @@
+ID: 2165
+CREATION_DATETIME: 1373061600000
+MODIFICATION_DATETIME: 1374012000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hier das Aufgabenprotokoll <NAME_CORPUS_REPLACEMENT> gestern. Es ist die letzte Woche für wirkliches Programmieren, danach wirds wohl nur noch ans Bugfixing gehen, also Gas geben.
+cheng:
+korrelationsanalyse
+carl:
+korrelationsanalyse
+clang funktion überprüfen
+vorhergesagte zeit mit in csv exportieren
+mario:
+evaluateprogramm schreiben
+stefanie:
+noch weitere kernel:
+sort
+dreiecksmatrix
+niedrigere Prio: checker weiterschreiben speziell für matmul
+matthias:
+createkernel aus textdatei
+ausführbarkeit auf Intelplattform überprüfen (speziell bzgl. clang)
+<REMOVED_PERSON_ENTITY>
+Ausführung auf speziellem Device
+TODO für alle:
+Donnerstag Treffen (außer Stefanie)
+bis 18. 07. Mittag: Folien für Präsentation
+Debugs rausschmeißen, damit das ganze Ding schön läuft
+in 3 Jahren Startup gegründet haben und dann verkaufen :-D
+TAGGED_CONTENT:

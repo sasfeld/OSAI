@@ -1,0 +1,22 @@
+ID: 68
+CREATION_DATETIME: 1201017600000
+MODIFICATION_DATETIME: 1201017600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 67
+CONTENT:
+
+Hallo,
+
+zu Punkt 4 noch:
+Wäre es nicht besser, das so zu formulieren:
+if (args.length == 2)
+anstatt
+if (args.length != 2) ?
+
+Mir ist dieser Punkt nicht so klar.
+
+MfG
+
+  
+TAGGED_CONTENT:

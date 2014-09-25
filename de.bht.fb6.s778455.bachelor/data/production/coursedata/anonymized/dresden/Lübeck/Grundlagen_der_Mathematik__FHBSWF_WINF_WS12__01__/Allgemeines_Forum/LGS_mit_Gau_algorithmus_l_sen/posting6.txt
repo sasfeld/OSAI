@@ -1,0 +1,11 @@
+ID: 191049
+CREATION_DATETIME: 1357488794
+MODIFICATION_DATETIME: 1357488794
+TITLE: Re: LGS mit Gaußalgorithmus lösen
+PARENT_POSTING_ID: 190909
+CONTENT:
+Hallo Herr Prof. Dr. <REMOVED_PERSON_ENTITY>,
+vielen Dank für die ausführliche Anwort. Verstanden! :-)
+Besten Dank und Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

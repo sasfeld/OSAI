@@ -1,0 +1,11 @@
+ID: 166785
+CREATION_DATETIME: 1349339886
+MODIFICATION_DATETIME: 1349339886
+TITLE: Re: Heutiges Online-Meeting
+LANGUAGE: GERMAN
+POS_TAG: value:Option;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 166643
+CONTENT:
+Ich bekomme alles was hier gepostet wird auch an den mailaccount weitergeleitet der für mich in moodle hinterlegt ist. Evtl. ist diese Option bei einigen von euch nicht aktiviert!?
+TAGGED_CONTENT:
+Ich_PPER bekomme_VVFIN alles_PIS was_PWS hier_ADV gepostet_VVPP wird_VAFIN auch_ADV an_APPR den_ART mailaccount_ADJD weitergeleitet_VVFIN der_ART für_APPR mich_PPER in_APPR moodle_ADJD hinterlegt_VVPP ist_VAFIN ._$. Evtl_NE ._$. ist_VAFIN diese_PDAT Option_NN bei_APPR einigen_PIAT von_APPR euch_PPER nicht_PTKNEG aktiviert_VVPP !?_XY 

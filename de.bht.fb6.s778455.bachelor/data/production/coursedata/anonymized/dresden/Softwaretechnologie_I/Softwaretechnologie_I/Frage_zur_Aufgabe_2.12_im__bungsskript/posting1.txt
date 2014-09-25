@@ -1,0 +1,11 @@
+ID: 2069
+CREATION_DATETIME: 1371333600000
+MODIFICATION_DATETIME: 1381960800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+In der aufgabe 2. 12 muss ein Analyseklassendiagramm für eine Hausverwaltung erstellt werden, hierbei wird zwischen der Hausverwaltung und einem <REMOVED_PERSON_ENTITY> ein Mietvertrag abgeschlossen, der auch noch mit der entsprechenden Mietwohnung verknüpft ist. Der Mietvertrag ist hierbei eine Assoziationsklasse. Eine Mietwohnung gehört zu einenm Mietshaus.
+Was ich nicht verstehe ist, dass eine Mietwohnung einen Mietvertag haben muss (mag zwar der erwünschte Fall sein, aber...).
+Weiterhin würde mich interessieren warum die Beziehung zwischen Mietwohnung und Mietshaus eine Aggregation und keine Komposition ist.
+TAGGED_CONTENT:

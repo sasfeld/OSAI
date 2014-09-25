@@ -1,0 +1,11 @@
+ID: 691
+CREATION_DATETIME: 1352329200000
+MODIFICATION_DATETIME: 1352415600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ist das gewwollt, das Usernames aus nichtdruckbaren Zeichen, Whitespaces oder leeren Strings bestehen kann?
+cf [dieser User](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/users/317)
+Private because contains reference to a certain user.
+TAGGED_CONTENT:

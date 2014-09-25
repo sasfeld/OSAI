@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="11451" moduleid="55393" modulename="forum" contextid="78622">
+  <forum id="11451">
+    <type>general</type>
+    <name>Fachforum zum Teil IV</name>
+    <intro>Hier können Sie Fachfragen zum Teil IV diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1218803060</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="36379">
+        <name>Uebungsaufgaben</name>
+        <firstpost>97812</firstpost>
+        <userid>3661</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1294454756</timemodified>
+        <usermodified>3661</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97812">
+            <parent>0</parent>
+            <userid>3661</userid>
+            <created>1293042226</created>
+            <modified>1293042226</modified>
+            <mailed>1</mailed>
+            <subject>Uebungsaufgaben</subject>
+            <message>Die Uebungsaufgaben stellen anders als im Text erwaehnt KEINE Einsendeaufgaben dar. Sie dienen Ihnen zum Training in der Chat-freien Zeit.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97813">
+            <parent>97812</parent>
+            <userid>3661</userid>
+            <created>1293042267</created>
+            <modified>1293042267</modified>
+            <mailed>1</mailed>
+            <subject>Re: Uebungsaufgaben</subject>
+            <message>2. Teil</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97814">
+            <parent>97813</parent>
+            <userid>3707</userid>
+            <created>1293520054</created>
+            <modified>1293520054</modified>
+            <mailed>1</mailed>
+            <subject>Re: Uebungsaufgaben</subject>
+            <message>Hallo Prof. Jensen,&lt;br /&gt;&lt;br /&gt;könnten Sie uns bitte auch die dazugehörigen Ergebnisse sowie Lösungswege zukommen lassen?&lt;br /&gt;&lt;br /&gt;Danke und Gruß&lt;br /&gt;Marco Fuhrmann&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97815">
+            <parent>97812</parent>
+            <userid>3661</userid>
+            <created>1293610898</created>
+            <modified>1293610898</modified>
+            <mailed>1</mailed>
+            <subject>Re: Uebungsaufgaben</subject>
+            <message>Loesung (erst selbst versuchen)</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97816">
+            <parent>97813</parent>
+            <userid>3661</userid>
+            <created>1293610950</created>
+            <modified>1293610950</modified>
+            <mailed>1</mailed>
+            <subject>Re: Uebungsaufgaben</subject>
+            <message>Loesung</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97817">
+            <parent>97816</parent>
+            <userid>3661</userid>
+            <created>1294454411</created>
+            <modified>1294454756</modified>
+            <mailed>1</mailed>
+            <subject>Re: Uebungsaufgaben</subject>
+            <message>Hier meine abschliessenden Anmerkungen. Wir haben es eingangs etwas zu kompliziert begonnen, denn es mussten nur die Determinante und der Gausssche Algorithmus fuer konkrete Lambda ausgefuehrt werden. Hier fand ich die Aufgabenstellung etwas zu kompliziert formuliert.
+
+Worauf Prof. Schiffer hinaus will (worauf man kommt, wenn man lange genug denkt):
+Fuer den Fall det A != 0 wissen wir fuer homogene(!) Systeme immer, dass die einzige Loesung nur der 0-Vektor in x sein kann. det A != 0 bedeutet im homogenen System naemlich, dass keine nichttriviale Loesung vorliegt.
+det A = 0 wiederum kann zweierlei bedeutet: Es gibt entweder keine oder unendlich viele Loesungen (steht am Ende von LO 12).
+Anhand des ausgefuehrten Gauss-Algorithmus erkennen wir in der b-Spalte der 0-Zeile, welcher Fall vorliegt (ungleich 0 wenn keine Loesung, = 0 wenn unendlich viele Loesungen). Nun kann es im homogenen LGS allerdings niemals vorkommen, dass die b-Spalte ungleich 0 wird, denn ansonsten haetten wir es mit einem inhomogenen LGS zu tun, was unserer Praemisse widerspraeche (Beweis durch Widerspruch, LO 06, S. 8).
+
+qed.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="36380">
+        <name>Beweis: homogenes LGS besitzt unendlich viele Lösungen</name>
+        <firstpost>97818</firstpost>
+        <userid>3681</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1295247497</timemodified>
+        <usermodified>3707</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="97818">
+            <parent>0</parent>
+            <userid>3681</userid>
+            <created>1295106096</created>
+            <modified>1295106096</modified>
+            <mailed>1</mailed>
+            <subject>Beweis: homogenes LGS besitzt unendlich viele Lösungen</subject>
+            <message>Hallo an alle,
+
+habe da ein folgendes Problem bzw. ich verstehe den Ansatz nicht:
+Gegeben sind folgende Gleichungen:
+
+2x(1) + 5x(2) - 3x(3)  = 0
+4x(1) - 4x(2) + x(3)    = 0
+4x(1) - 2x(2)                = 0
+
+Mir wird als Lösung angegeben, dass eine Größe frei wählbar ist. Wieso ist denn das so? Ist es wegen der dritten Gleichung, weil sie nur zwei Variabeln besitzt?
+
+Danke für die Hilfe im voraus!
+
+Schönes Wochenende!</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="97819">
+            <parent>97818</parent>
+            <userid>3707</userid>
+            <created>1295247448</created>
+            <modified>1295247497</modified>
+            <mailed>1</mailed>
+            <subject>Re: Beweis: homogenes LGS besitzt unendlich viele Lösungen</subject>
+            <message> Moin,&lt;br /&gt;&lt;br /&gt;sieh dir mal LO_12 (Papierform) ab Seite 24/43 an. Dort ist das Ganze ziemlich gut mit einem Beispiel beschrieben.&lt;br /&gt;&lt;br /&gt;Gruß&lt;br /&gt;Marco&lt;br /&gt;&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="101163">
+        <userid>3661</userid>
+      </subscription>
+      <subscription id="101164">
+        <userid>3707</userid>
+      </subscription>
+      <subscription id="101165">
+        <userid>3681</userid>
+      </subscription>
+      <subscription id="101166">
+        <userid>3701</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

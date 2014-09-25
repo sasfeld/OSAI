@@ -1,0 +1,48 @@
+ID: 73
+CREATION_DATETIME: 1293462180000
+MODIFICATION_DATETIME: 1293462180000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo,
+in der LE11 bin ich (erst mit der ESA) auf ein Problem gestoßen, wie die Child-Nodes eines Elementes sortiert werden. Es betrifft die Methoden: getAlleNamen(), getAdressenDaten(), wo ich überall mit getChildNodes() arbeite (bsw. Name und Adresse).
+
+Situation
+Wir erstellen ein Adressbuch mit der folgenden Struktur:
+Adressbuch
+|--Kontakt (mit typ & id)
+|--Name
+| |--Vorname
+| |--Nachname
+|--Adresse
+| |--Strasse
+| |--PLZ
+| |--Ort
+| |--Land
+
+Angenommen, ich lassen mit alle NAME-Elemente in eine NodeList ausgeben.
+Dann möchte ich beim jedem Element die Nachfolgeknoten Vor- und Nachname auslesen.
+nodeVorname = nodelistName.item(i).getChildNodes().item(0);
+nodeNachname = nodelistName.item(i).getChildNodes().item(1);
+Problem
+Ich dachte Name-->Child0 ist Vorname und Name-->Child1 ist Nachname.
+Aber Vorname ist dann "null", Nachname hat den Wert aus Vorname
+Gleiches Problem bei den Adress-Elementen.
+Bei meinen items 0,1,2,3 ist nur jedes 2. gefüllt
+Lösung
+und folgendes Funktioniert
+nodeVorname = nodelistName.item(i).getChildNodes().item(1);
+nodeNachname = nodelistName.item(i).getChildNodes().item(3);
+
+
+Bei den Übungen zum Ausgeben oder Löschen von Elementen in XML hatte ich keinerlei Probleme. Jetzt bei der ESA habe ich diese Schwierigkeiten.
+Deshalb kann wohl auch meine Kontakt-Löschen-Methode kein passendes Element entfernen und wirft Fehler.
+
+Frage
+Kennt jemand dieses Problem!?
+
+Danke im Voraus
+	
+TAGGED_CONTENT:

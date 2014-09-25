@@ -1,0 +1,21 @@
+ID: 27
+CREATION_DATETIME: 1176721200000
+MODIFICATION_DATETIME: 1176721200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+    Hallo,
+
+ich hab mal eine grundsätzliche Frage dazu welche Java-Version man denn verwenden sollte, in Hinsicht auf Systemunabhängigkeit bei Applets.
+
+Ich bin schon auf das Problem gestoßen, als ich unter MacOS Java 1.6 installiert habe und feststellen musste, dass es nur eine 64-bit Version von Apple gibt. Das heißt ich kann die damit compilierten Applets nicht in gängigen Browsern, wie Safari oder FF (32-bit) aufrufen.
+Ich kann die Applets nur über den appletviewer bzw. in einem speziellen 64-bit-Browser starten.
+
+Sollte ich nun besser Java 1.5 verwenden? Oder gibt es doch noch eine Lösung die ich im Netz nicht gefunden habe?
+Ich wäre für jeden Tipp dankbar. Ich denke unter uns sind einige die schon mehr mit Java befasst haben.
+
+Grüße
+    
+TAGGED_CONTENT:

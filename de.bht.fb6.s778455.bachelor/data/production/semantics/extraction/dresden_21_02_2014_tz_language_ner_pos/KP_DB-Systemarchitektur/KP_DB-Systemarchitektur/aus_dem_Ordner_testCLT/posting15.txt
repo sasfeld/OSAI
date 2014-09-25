@@ -1,0 +1,15 @@
+ID: 1931
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: Dann scheine ich noch eine veraltete Version des SVN zu haben (obwohl heute morgen ausgecheckt), Da g...
+LANGUAGE: GERMAN
+NER_TAG: value:SVN;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Version;weight:0.0;uri:;postag:NN
+POS_TAG: value:Code;weight:0.0;uri:;postag:NN
+POS_TAG: value:SVN;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Dann scheine ich noch eine veraltete Version des SVN zu haben (obwohl heute morgen ausgecheckt), <NAME_CORPUS_REPLACEMENT> gibt der aktuelle Code "I am a dumb tester " aus. 
+TAGGED_CONTENT:
+Dann_ADV scheine_VVFIN ich_PPER noch_ADV eine_ART veraltete_ADJA Version_NN des_ART SVN_NN zu_PTKZU haben_VAINF -LRB-_TRUNC obwohl_KOUS heute_ADV morgen_ADV ausgecheckt_VVPP -RRB-_TRUNC ,_$, <_CARD NAME_CORPUS_REPLACEMENT_NE >_NE gibt_VVFIN der_ART aktuelle_ADJA Code_NN "_$( I_FM am_APPRART a_XY dumb_FM tester_FM "_$( aus_PTKVZ ._$. 

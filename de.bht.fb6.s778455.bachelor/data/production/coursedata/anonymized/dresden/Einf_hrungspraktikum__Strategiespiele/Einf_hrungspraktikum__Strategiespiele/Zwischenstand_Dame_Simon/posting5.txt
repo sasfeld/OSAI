@@ -1,0 +1,10 @@
+ID: 128
+CREATION_DATETIME: 1348092000000
+MODIFICATION_DATETIME: 1348092000000
+TITLE: Wenn diese Antwort di
+PARENT_POSTING_ID: 120
+POSTING_TYPE: comment
+CONTENT:
+Wenn diese Antwort dir weiter geholfen hat kannst du das Häkchen setzen, das sagt dass dieser Thread erfolgreich war.
+Danke
+TAGGED_CONTENT:

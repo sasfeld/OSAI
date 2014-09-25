@@ -1,0 +1,20 @@
+ID: 2028
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: Ich erhalte beim ausführen von make in CLeverTrustee folgende Fehlermeldung mit llvm 3.1 (llvm-config...
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: comment
+CONTENT:
+Ich erhalte beim ausführen <NAME_CORPUS_REPLACEMENT> make in CLeverTrustee folgende Fehlermeldung mit llvm 3. 1 (llvm-config-3. 1):
+In file included from src/HelperPasses. cpp:1:0:
+inc/HelperPasses. h: In member function ‘virtual bool clt::InlineAll::runOnFunction(llvm::Function&)’:
+inc/HelperPasses. h:52:27: error: ‘llvm::Attributes::AttrVal’ has not been declared
+mit llvm-config-3. 0 erhalte ich noch mehr Fehler:
+In file included from src/HelperPasses. cpp:1:0:
+inc/HelperPasses. h: In member function ‘virtual bool clt::InlineAll::runOnFunction(llvm::Function&)’:
+inc/HelperPasses. h:52:15: error: ‘Attributes’ is not a class, namespace, or enumeration
+src/HelperPasses. cpp: In function ‘clt::KernelMetrics clt::getBBMetrics(llvm::BasicBlock&, llvm::AliasAnalysis*)’:
+src/HelperPasses. cpp:58:39: error: ‘class llvm::Type’ has no member named ‘getPointerElementType’
+src/HelperPasses. cpp:66:39: error: ‘class llvm::Type’ has no member named ‘getPointerElementType’
+Irgendwelche Lösungsvorschläge?
+TAGGED_CONTENT:

@@ -1,0 +1,34 @@
+ID: 97773
+CREATION_DATETIME: 1287567295
+MODIFICATION_DATETIME: 1287567295
+TITLE: OT: Job-Boerse
+PARENT_POSTING_ID: 0
+CONTENT:
+meet@ostfalia-campus-wolfsburg am 03. November 2010
+Liebes Kollegium,
+die hochschuleigene Firmenkontaktmesse meet@ostfalia-campus-wolfsburg hat sich am Studienort Wolfsburg fest etabliert und bietet engagierten Studierenden und Absolventen die Möglichkeit, regionale sowie überregionale Unternehmen kennen zu lernen.
+Von 10 bis 16 Uhr präsentieren sich am Campus Wolfsburg, direkt im Messezelt auf dem Robert-Koch-Platz, rund 20 Aussteller an ihren Messeständen und stehen für alle Fragen rund um die Karriere zur Verfügung. In persönlichen Gesprächen mit <REMOVED_PERSON_ENTITY>- und Personalverantwortlichen können sich Interessierte direkt um Praktika, Abschlussarbeiten oder Festanstellungen bewerben.
+Online-Bewerbungs-Service:
+Zusätzlich steht ein Online-Bewerbungsservice zur Veranstaltung bereit. Der
+Vorteil: Bewerberinnen und Bewerber erhalten auf ein abgegebenes Bewerberprofil von allen den Bewerberpool nutzenden Unternehmen Feedback bzgl. deren Gesprächsinteresse am Veranstaltungstag. 
+Kick-Off-Event:
+Zur optimalen Vorbereitung des Besuchs der meet@ostfalia-campus-wolfsburg wird Interessierten zudem am 27. Oktober 2010 in der Zeit von 10 - 14 Uhr in Raum A-126, Kleiststraße 14-16 ein kostenfreies Bewerbungstraining angeboten. Hier werden wertvolle <REMOVED_PERSON_ENTITY> zum Thema "Richtig Kontakten auf Berufsmessen" erörtert und zur Klärung offener Fragen beigetragen.
+Detaillierte Informationen zur Veranstaltung, dem Bewerbungstraining und zu den Online-Services unter:
+www. ostfalia. de/meet
+Wir freuen uns, wenn Sie diese Informationen interessierten Studierenden und Absolventen/innen zugänglich machen würden bzw. Sie im Rahmen Ihrer Möglichkeiten eine kurze Messe-Exkursion mit Ihren Studierenden durchführen.
+Wir freuen uns auf Ihr Kommen.
+Freundliche Grüße<PERSONAL_GREETING_REMOVEMENT>
+<PERSONAL_GREETING_REMOVEMENT>
+________________________________________
+Dipl.-Kffr. (FH) Sabine König
+Career Service
+Ostfalia Hochschule für angewandte <REMOVED_PERSON_ENTITY>
+- Hochschule Braunschweig/Wolfenbüttel - 
+Fakultät Fahrzeugtechnik 
+Kleiststr. 33 
+38440 Wolfsburg
+Tel.: (0 53 61) 8922-21020
+Fax.: (0 53 61) 8922-21022
+E-Mail: sa. koenig@ostfalia. <PERSONAL_GREETING_REMOVEMENT>
+URL: http://www.ostfalia.de/cms/de/f/Career_Service/
+TAGGED_CONTENT:

@@ -1,0 +1,60 @@
+ID: 97811
+CREATION_DATETIME: 1296067180
+MODIFICATION_DATETIME: 1296067300
+TITLE: Ergaenzendes zum Skalarprodukt
+TOPIC_ZOOM_TAG: value:Mathematik;weight:8.0;significance:6.91670740451264;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Vektorräume;weight:4.0;significance:5.64824422899284;degreegeneralization:8;uri:20146881
+TOPIC_ZOOM_TAG: value:Lineare Algebra;weight:4.0;significance:5.64824422899284;degreegeneralization:7;uri:20881366
+TOPIC_ZOOM_TAG: value:Algebraische Begriffe;weight:4.0;significance:5.64824422899284;degreegeneralization:7;uri:20767840
+TOPIC_ZOOM_TAG: value:Algebra;weight:4.0;significance:5.64824422899284;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Vektoren;weight:4.0;significance:5.64824422899284;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:8.0;significance:3.97687513063715;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:8.0;significance:3.11308192413803;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:9.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:8.0;significance:2.07794380871622;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:HTML;weight:1.0;significance:1.03415023706353;degreegeneralization:8;uri:20901715
+TOPIC_ZOOM_TAG: value:Beschreibungssprachen;weight:1.0;significance:0.844733782370372;degreegeneralization:7;uri:20900644
+TOPIC_ZOOM_TAG: value:Formale Sprachen;weight:1.0;significance:0.78131063477396;degreegeneralization:6;uri:21978155
+TOPIC_ZOOM_TAG: value:Computersprachen;weight:1.0;significance:0.780930767357429;degreegeneralization:6;uri:19949137
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:0.556523011981882;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:0.55642241341357;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:0.493056961048997;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:0.478904428867518;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:0.445226307151229;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:0.427592684036971;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:0.426089043008837;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:0.406852188045642;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:0.298547048297862;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:0.294733157730148;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:0.242365739546187;degreegeneralization:2;uri:21990259
+POS_TAG: value:Vektorraum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rechengesetz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fall;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:pfung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Notation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zahl;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:Eigenschaften;weight:0.0;uri:;postag:NN
+POS_TAG: value:Art;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektors;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zahlen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skalarprodukt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Multiplikation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nullvektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Addition;weight:0.0;uri:;postag:NN
+POS_TAG: value:Distributivgesetz;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wert;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Ergaenzend aus http://www.mathemator.org/Media/Themen/SkalProd0. html:
+Allgemein heißt eine [...] Verknüpfung in einem Vektorraum ein Skalarprodukt, wenn die folgenden Eigenschaften vorliegen:
+- Die Verknüpfung zweier Vektoren ergibt stets eine reelle <REMOVED_PERSON_ENTITY>.
+- Das Skalarprodukt eines Vektors mit sich selber ist nie negativ; es hat genau dann den Wert null, wenn es sich bei dem Vektor um den Nullvektor handelt.
+- Die Verknüpfung ist kommutativ.
+- Hinsichtlich der Addition im Vektorraum gilt ein distributivartiges Rechengesetz. Es handelt sich hierbei nicht exakt um das Distributivgesetz, weil - trotz gleicher Notation mit <REMOVED_PERSON_ENTITY> - die Addition in einem Fall im Vektorraum, im anderen Fall in den reellen Zahlen erfolgt. (s. LON-CAPA-Aufgaben)
+- Hinsichtlich der Multiplikation mit reellen Zahlen im Vektorraum gilt eine Art Assoziativgesetz. Auch dieses Rechengesetz ist nur "assoziativartig", weil die reelle <REMOVED_PERSON_ENTITY> r auf der einen <REMOVED_PERSON_ENTITY> mit einem Vektor, auf der anderen mit einer reellen Zahl multipliziert wird.
+TAGGED_CONTENT:
+Ergaenzend_ADJD aus_APPR http:\/\/www.mathemator.org\/Media\/Themen\/SkalProd0_NN ._$. html_ADJD :_$. Allgemein_ADJD heißt_VVFIN eine_ART -LSB-_TRUNC ..._$( -RSB-_TRUNC Verknüpfung_NN in_APPR einem_ART Vektorraum_NN ein_ART Skalarprodukt_NN ,_$, wenn_KOUS die_ART folgenden_ADJA Eigenschaften_NN vorliegen_VVINF :_$. -_$( Die_ART Verknüpfung_NN zweier_ADJA Vektoren_NN ergibt_VVFIN stets_ADV eine_ART reelle_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_NE ._$. -_$( Das_PDS Skalarprodukt_NN eines_ART Vektors_NN mit_APPR sich_PRF selber_ADV ist_VAFIN nie_ADV negativ_ADJD ;_$. es_PPER hat_VAFIN genau_ADJD dann_ADV den_ART Wert_NN null_ADJD ,_$, wenn_KOUS es_PPER sich_PRF bei_APPR dem_ART Vektor_NN um_APPR den_ART Nullvektor_NN handelt_VVFIN ._$. -_$( Die_ART Verknüpfung_NN ist_VAFIN kommutativ_ADJD ._$. -_$( Hinsichtlich_ADJD der_ART Addition_NN im_APPRART Vektorraum_NN gilt_VVFIN ein_ART distributivartiges_ADJA Rechengesetz_NN ._$. Es_PPER handelt_VVFIN sich_PRF hierbei_PROAV nicht_PTKNEG exakt_ADJD um_APPR das_ART Distributivgesetz_NN ,_$, weil_KOUS -_$( trotz_APPR gleicher_ADJA Notation_NN mit_APPR <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN -_$( die_ART Addition_NN in_APPR einem_ART Fall_NN im_APPRART Vektorraum_NN ,_$, im_APPRART anderen_ADJA Fall_NN in_APPR den_ART reellen_ADJA Zahlen_NN erfolgt_VVFIN ._$. -LRB-_TRUNC s._VVIMP LON-CAPA-Aufgaben_NN -RRB-_TRUNC -_$( Hinsichtlich_ADJD der_ART Multiplikation_NN mit_APPR reellen_ADJA Zahlen_NN im_APPRART Vektorraum_NN gilt_VVFIN eine_ART Art_NN Assoziativgesetz_NE ._$. Auch_ADV dieses_PDAT Rechengesetz_NN ist_VAFIN nur_ADV "_$( assoziativartig_ADJD "_$( ,_$, weil_KOUS die_ART reelle_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_CARD r_XY auf_APPR der_ART einen_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN mit_APPR einem_ART Vektor_NN ,_$, auf_APPR der_ART anderen_ADJA mit_APPR einer_ART reellen_ADJA Zahl_NN multipliziert_VVPP wird_VAFIN ._$. 

@@ -1,0 +1,16 @@
+ID: 35
+CREATION_DATETIME: 1177348080000
+MODIFICATION_DATETIME: 1177348080000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 33
+CONTENT:
+
+Hallo ,
+
+ich habe es mit SystemOut.println direkt ausgegeben.
+
+Viele Grüße
+
+    
+TAGGED_CONTENT:

@@ -1,0 +1,15 @@
+ID: 459
+CREATION_DATETIME: 1350943200000
+MODIFICATION_DATETIME: 1352674800000
+TITLE: Aus $(p \to q) \wedge
+LANGUAGE: GERMAN
+POS_TAG: value:Aussagen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Belegung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Modell;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gegenbeispiel;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 447
+POSTING_TYPE: answer
+CONTENT:
+Aus $(p  o q) \wedge (q→r)$ folgt $(p  o r)$. Allerding sind beide Aussagen nicht äquivalent. Als Gegenbeispiel kann man die Belegung $I: p^I =  op, q^I=\bot, r^I= op$ finden, das zwar Modell für $(p  o r)$ aber nicht für $(p  o q) \wedge (q→r)$ ist.
+TAGGED_CONTENT:
+Aus_APPR $_CARD -LRB-_TRUNC p_XY o_ADV q_XY -RRB-_TRUNC \_XY wedge_FM -LRB-_TRUNC q_XY →_CARD r_XY -RRB-_TRUNC $_XY folgt_VVFIN $_CARD -LRB-_TRUNC p_XY o_ADV r_XY -RRB-_TRUNC $_PTKVZ ._$. Allerding_ADV sind_VAFIN beide_PIDAT Aussagen_NN nicht_PTKNEG äquivalent_VVFIN ._$. Als_APPR Gegenbeispiel_NN kann_VMFIN man_PIS die_ART Belegung_NN $_CARD I_CARD :_$. p_XY ^_XY I_CARD =_XY op_FM ,_$, q_FM ^_FM I_FM =_XY \_CARD bot_VVFIN ,_$, r_KON ^_XY I_CARD =_XY op_FM $_FM finden_VVINF ,_$, das_PRELS zwar_ADV Modell_NN für_APPR $_CARD -LRB-_TRUNC p_XY o_ADV r_XY -RRB-_TRUNC $_KON aber_ADV nicht_PTKNEG für_APPR $_CARD -LRB-_TRUNC p_XY o_ADV q_XY -RRB-_TRUNC \_XY wedge_FM -LRB-_TRUNC q_XY →_CARD r_XY -RRB-_TRUNC $_XY ist_VAFIN ._$. 

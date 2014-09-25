@@ -1,0 +1,13 @@
+ID: 16595
+CREATION_DATETIME: 1226040372
+MODIFICATION_DATETIME: 1226040372
+TITLE: Offene Präsenz der Medieninformatik (8.11)
+TOPIC_ZOOM_TAG: value:Gebäude;weight:1.0;significance:5.74630605096772;degreegeneralization:8;uri:20913564
+TOPIC_ZOOM_TAG: value:Bauwesen und Bauwerke;weight:1.0;significance:5.42785231984919;degreegeneralization:6;uri:20898213
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:1.80459553725326;degreegeneralization:2;uri:21999847
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>, ist denn schon bekannt in welchem <REMOVED_PERSON_ENTITY> / Gebäude die Präsenz morgen stattfinden wird? Konnte bisher nirgends eine Info dazu finden. Viele Grüße, <REMOVED_PERSON_ENTITY>  
+TAGGED_CONTENT:

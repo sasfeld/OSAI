@@ -1,0 +1,4 @@
+ID: 6491
+MODIFICATION_DATETIME: 1232381348
+TITLE: Erlaubte Klausurhilfsmittel / verbotene Klausurhilfsmittel
+FIRST_POSTING_ID: 16517

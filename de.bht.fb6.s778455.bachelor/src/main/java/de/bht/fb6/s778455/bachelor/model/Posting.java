@@ -30,7 +30,10 @@ public class Posting extends AUserContribution {
      * Tagged content (by NER).
      */
     protected String taggedContent;
-    protected int parentPostingId;
+    /**
+     * ID of the parent posting. This value can be null.
+     */
+    protected Long parentPostingId;
     protected BoardThread belongingThread;
     protected String postType;
 
@@ -62,18 +65,18 @@ public class Posting extends AUserContribution {
     }
 
     /**
-     * @return the parentPostingId
+     * @return the parentPostingId, can be null
      */
-    public int getParentPostingId() {
+    public Long getParentPostingId() {
         return this.parentPostingId;
     }
 
     /**
      * @param parentPostingId
-     *            the parentPostingId to set
+     *            the parentPostingId to set, can be null
      * @return
      */
-    public Posting setParentPostingId( final int parentPostingId ) {
+    public Posting setParentPostingId( final Long parentPostingId ) {
         this.parentPostingId = parentPostingId;
         return this;
     }
@@ -165,7 +168,7 @@ public class Posting extends AUserContribution {
 
         if( key.equals( "PARENT_POSTING_ID" ) ) {
             try {
-                this.setParentPostingId( Integer.parseInt( value ) );
+                this.setParentPostingId( Long.parseLong( value ) );
             } catch( final NumberFormatException e ) {
                 Application
                         .log( this.getClass()
@@ -203,60 +206,64 @@ public class Posting extends AUserContribution {
         return uri;
     }
 
+    @Override
     /*
      * (non-Javadoc)
-     * 
-     * @see java.lang.Object#hashCode()
+     * @see de.bht.fb6.s778455.bachelor.model.AUserContribution#hashCode()
      */
-    @Override
-    public int hashCode() {
-        final int prime = 31;
-        int result = super.hashCode();
-        result = prime * result
-                + ( ( this.content == null ) ? 0 : this.content.hashCode() );
-        result = prime * result + this.parentPostingId;
-        result = prime * result
-                + ( ( this.postType == null ) ? 0 : this.postType.hashCode() );
-        result = prime
-                * result
-                + ( ( this.taggedContent == null ) ? 0 : this.taggedContent
-                        .hashCode() );
-        return result;
-    }
+	public int hashCode() {
+		final int prime = 31;
+		int result = super.hashCode();
+		result = prime * result + ((content == null) ? 0 : content.hashCode());
+		result = prime * result
+				+ ((parentPostingId == null) ? 0 : parentPostingId.hashCode());
+		result = prime * result
+				+ ((postType == null) ? 0 : postType.hashCode());
+		result = prime * result
+				+ ((taggedContent == null) ? 0 : taggedContent.hashCode());
+		return result;
+	}
 
-    /*
-     * (non-Javadoc)
-     * 
-     * @see java.lang.Object#equals(java.lang.Object)
-     */
-    @Override
-    public boolean equals( final Object obj ) {
-        if( this == obj )
-            return true;
-        if( !super.equals( obj ) )
-            return false;
-        if( this.getClass() != obj.getClass() )
-            return false;
-        final Posting other = ( Posting ) obj;
-        if( this.content == null ) {
-            if( other.content != null )
-                return false;
-        } else if( !this.content.equals( other.content ) )
-            return false;
-        if( this.parentPostingId != other.parentPostingId )
-            return false;
-        if( this.postType == null ) {
-            if( other.postType != null )
-                return false;
-        } else if( !this.postType.equals( other.postType ) )
-            return false;
-        if( this.taggedContent == null ) {
-            if( other.taggedContent != null )
-                return false;
-        } else if( !this.taggedContent.equals( other.taggedContent ) )
-            return false;
-        return true;
-    }
+	@Override
+	/*
+	 * (non-Javadoc)
+	 * @see de.bht.fb6.s778455.bachelor.model.AUserContribution#equals(java.lang.Object)
+	 */
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (!super.equals(obj))
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Posting other = (Posting) obj;
+		if (belongingThread == null) {
+			if (other.belongingThread != null)
+				return false;
+		} else if (!belongingThread.equals(other.belongingThread))
+			return false;
+		if (content == null) {
+			if (other.content != null)
+				return false;
+		} else if (!content.equals(other.content))
+			return false;
+		if (parentPostingId == null) {
+			if (other.parentPostingId != null)
+				return false;
+		} else if (!parentPostingId.equals(other.parentPostingId))
+			return false;
+		if (postType == null) {
+			if (other.postType != null)
+				return false;
+		} else if (!postType.equals(other.postType))
+			return false;
+		if (taggedContent == null) {
+			if (other.taggedContent != null)
+				return false;
+		} else if (!taggedContent.equals(other.taggedContent))
+			return false;
+		return true;
+	}
 
     /*
      * (non-Javadoc)

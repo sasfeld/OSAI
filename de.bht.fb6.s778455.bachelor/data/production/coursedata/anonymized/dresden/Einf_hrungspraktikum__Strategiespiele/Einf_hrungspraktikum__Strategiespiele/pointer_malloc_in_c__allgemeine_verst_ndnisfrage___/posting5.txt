@@ -1,0 +1,10 @@
+ID: 1404
+CREATION_DATETIME: 1362783600000
+MODIFICATION_DATETIME: 1362783600000
+TITLE: Wenn Du erst `p = malloc(X)` machst und später `p = NULL`, dann hat das zur Folge, dass `p` nicht meh...
+PARENT_POSTING_ID: 1402
+POSTING_TYPE: answer
+CONTENT:
+Wenn Du erst `p = malloc(X)` machst und später `p = NULL`, dann hat das zur Folge, dass `p` nicht mehr auf den entsprechenden Speicher zeigt. Du hast sogar noch ein größeres Problem, denn mglw. gibt es gar keinen <REMOVED_PERSON_ENTITY> mehr, der auf diesen Speicher zeigt. Das bedeutet, dass Du die Daten darin nicht mehr finden kannst und dass Du andersrum auch keine neuen Daten darin speichern kannst. Der Speicherbereich selbst ist aber sehr wohl noch reserviert und kann für nichts sinnvolles mehr genutzt werden.
+Das Problem nennt man ein Speicher-Leck und Dein Ziel sollte sein, sowas nie zu produzieren. Wie geht das? -- Zu jedem `malloc()` sollte es ein passendes `free()` geben, wenn Du die Daten nicht mehr brauchst.
+TAGGED_CONTENT:

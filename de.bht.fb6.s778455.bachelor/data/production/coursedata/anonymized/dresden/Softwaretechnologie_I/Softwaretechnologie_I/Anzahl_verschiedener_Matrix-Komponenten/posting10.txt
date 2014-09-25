@@ -1,0 +1,10 @@
+ID: 2004
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Naja das y=0 wird nur ausgeführt wenn was gefunden wurde und dann auch nur wenns am rand der matrix l...
+PARENT_POSTING_ID: 1987
+POSTING_TYPE: comment
+CONTENT:
+Naja das y=0 wird nur ausgeführt wenn was gefunden wurde und dann auch nur wenns am rand der matrix liegt. wenn jetzt aber bei 5, 5, 1, 1 und 2, 0 was liegt dürfte das element bei 2, 0 nicht gefunden werden <NAME_CORPUS_REPLACEMENT> er nach 1, 1 bis 1, 5 weitergeht und im nächsten schritt j wieder auf y gesetzt wird und i incrementiert. als nächstes durchsucht er also 2, 1 und schon hat er element 2, 0 übersprungen.
+warum das ohne i und j nun auch nicht klappt sehe ich auf anhieb nun nicht.
+TAGGED_CONTENT:

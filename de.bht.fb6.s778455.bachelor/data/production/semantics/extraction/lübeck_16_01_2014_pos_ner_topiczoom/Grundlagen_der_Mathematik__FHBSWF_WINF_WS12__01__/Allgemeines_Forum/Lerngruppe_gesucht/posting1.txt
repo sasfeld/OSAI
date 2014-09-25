@@ -1,0 +1,11 @@
+ID: 160931
+CREATION_DATETIME: 1347883567
+MODIFICATION_DATETIME: 1347883567
+TITLE: Lerngruppe gesucht
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo ich suche eine <REMOVED_PERSON_ENTITY>, bzw. könnte man eine <REMOVED_PERSON_ENTITY>.
+Wer interesse hat bitte hier melden.
+TAGGED_CONTENT:
+Hallo_ITJ ich_PPER suche_VVFIN eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN ,_$, bzw_VVFIN ._$. könnte_VMFIN man_PIS eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN ._$. Wer_PWS interesse_PDS hat_VAFIN bitte_ADV hier_ADV melden_VVINF ._$. 

@@ -1,0 +1,15 @@
+ID: 200429
+CREATION_DATETIME: 1363041595
+MODIFICATION_DATETIME: 1363041595
+TITLE: Lösungen der Klausuraufgaben
+PARENT_POSTING_ID: 0
+CONTENT:
+es geht um die Aufgabe 3 der 1. Probeklausur. -- soll als Negationszeichen dienen.
+A v ( B ^ --C) v (--A ^ --C) v (--A ^ --B)
+<REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY> formt die Formal sofort in folgende einfache Gestalt um:
+A  v --B v --C
+ 
+Meine Frage ist, wie kommt er so einfach drauf?? Er hat nicht hingeschrieben was er genau weiter umgeformt hat. Oder kann man das an irgendwas sofort erkennen?
+Bei mir wäre der Lösungsweg viel länger und komplizierter, weil ich nicht verstehe wie er das gleich auf 3 Variablen zusammengefasst hat.
+Was hat er also mit was zusammengezogen?
+TAGGED_CONTENT:

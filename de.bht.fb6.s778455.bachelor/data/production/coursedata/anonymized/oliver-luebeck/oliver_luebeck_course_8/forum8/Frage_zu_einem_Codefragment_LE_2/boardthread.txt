@@ -1,0 +1,4 @@
+ID: 20
+TITLE: Frage zu einem Codefragment LE 2
+LANGUAGE: GERMAN
+FIRST_POSTING_ID: 58

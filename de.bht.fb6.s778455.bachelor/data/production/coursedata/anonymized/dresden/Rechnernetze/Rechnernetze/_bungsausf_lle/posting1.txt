@@ -1,0 +1,12 @@
+ID: 1766
+CREATION_DATETIME: 1367100000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> wiederholt danach gefragt wurde, möchte ich darauf hinweisen, dass es nicht notwendig ist, in der Woche vom 29. April bis 3. <NAME_CORPUS_REPLACEMENT> in eine andere Übungsgruppe zu gehen, falls man vom Ausfall am 1. <NAME_CORPUS_REPLACEMENT> betroffen ist.
+Bis <REMOVED_PERSON_ENTITY> werden alle Übungsgruppen den gleichen Übungsforstschritt erreicht haben.
+Der einzige Ausfalltermin, der ein Ausweichen in eine andere Übungsgruppe notwendig macht, ist der Dies academicus am 5. Juni.
+Eine genauere Übersicht darüber, wann welche Übung besprochen wird, liefert der [Übungsplan](http://www.rn.inf.tu-dresden. de/lectures/Rechnernetze/zeitplan-rn-2013. pdf).
+TAGGED_CONTENT:

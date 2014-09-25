@@ -1,0 +1,46 @@
+ID: 2344
+CREATION_DATETIME: 1374184800000
+MODIFICATION_DATETIME: 1374530400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+feedback in blackbox modell darstellen
+code folie raus und als backupfolie hintenran
+squeeze zeile:
+	200 -> darin noch nich mal optimieren und scheduling drin
+virtualisierung <NAME_CORPUS_REPLACEMENT> opencl devices (ein generisches device)
+Two Phases
+zu training: get feedback data after kernel execution
+zusätzlich: folien zur prediction
+erklärung: erster ansatz ... correlation
+letztlich verwendeter ansatz ... mittelwert
+Kernel <REMOVED_PERSON_ENTITY>:
+punkte unter 17 criterias einrücken (evtl. criterias aufführen)
+Diagramm mit number of bits read : ausreiserdatenpunkt ??
+				anstatt <NAME_CORPUS_REPLACEMENT> nr. of bits anzahl der loads hinschreiben
+Diagramm Kernel Execution Time: nich zu viele Nullen bei <REMOVED_PERSON_ENTITY> -> richtige Einheiten
+BuiltIn Functions Folie weg
+System specifications in Folien erwähnen oder (iGPU, CPU, dGPU)
+Ideas behind the time prediction:
+- minibild raus
+- indizes tiefstellen
+precision of the prediction
+- 3 einzelne diagramme
+- erwähnen, dass ergebnis mit korrelationsanalyse zustande gekommen ist
+multiple kernels with kernel metrics:
+- minibild raus
+evaluation:
+queue darstellen zwischen kernel und blackbox im bild
+noch einen fall finden wo wir gut sind und einen gegenfall 
+zeitlinie (CodeXL oder Vampir, gDEBugger http://www.gremedy.com/downloadLinux. php)
+scalar product kernel integrieren
+Conclusion:
+- bissl hübscher - CLeverTrustee beim Namen nennen
+Probleme: 
+- wrong predict time
+- runtime messungenauigkeit
+		->latenz
+- transfer nicht berücksichtigt
+abgabe folien: sonntag 18 uhr
+TAGGED_CONTENT:

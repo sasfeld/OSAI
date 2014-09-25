@@ -1,0 +1,10 @@
+ID: 920
+CREATION_DATETIME: 1354143600000
+MODIFICATION_DATETIME: 1354143600000
+TITLE: Ja ich kann mich erinnern das gelesen zu haben. Aber ich dachte, dass es vielleicht irgendwo eine ver...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 919
+POSTING_TYPE: comment
+CONTENT:
+Ja ich kann mich erinnern das gelesen zu haben. Aber ich dachte, dass es vielleicht irgendwo eine versteckte Klausel gibt, die ich übersehen habe. Sicherlich liegt es am jeweiligen Betreuer, ob er es gut findet. Aber die TUD Layouts, die ich nicht empfehle, sind ja ausschließlich im Hochformat gehalten, weil es ja üblich ist. Aber ich finde es persönlich eben nicht so schön. Aber das ist natürlich eine subjektive Sache.
+TAGGED_CONTENT:

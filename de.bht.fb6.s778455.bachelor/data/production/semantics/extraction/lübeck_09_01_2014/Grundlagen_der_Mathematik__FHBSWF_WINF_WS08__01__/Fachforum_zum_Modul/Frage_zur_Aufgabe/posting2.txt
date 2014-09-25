@@ -1,0 +1,8 @@
+ID: 16665
+CREATION_DATETIME: 1224699995
+MODIFICATION_DATETIME: 1224699995
+TITLE: Re: Frage zur Aufgabe
+PARENT_POSTING_ID: 16663
+CONTENT:
+Nein, weil man den link nicht direkt aufrufen kann!Bitte nennen Sie Teil, <REMOVED_PERSON_ENTITY>, Unterkapitel usw. MfG. al. 
+TAGGED_CONTENT:

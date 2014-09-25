@@ -1,0 +1,9 @@
+ID: 350
+CREATION_DATETIME: 1350338400000
+MODIFICATION_DATETIME: 1383433200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Gibt es etwas, was man in Vorbereitung auf das Komplexpraktikum tun könnte? Oder sollte man einfach bis zur Einführungsveranstaltung abwarten?
+TAGGED_CONTENT:

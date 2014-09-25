@@ -1,0 +1,9 @@
+ID: 1615
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Und wie wäre es wenn man die Header Größe von der Display Auflösung abhängig macht?
+PARENT_POSTING_ID: 426
+POSTING_TYPE: comment
+CONTENT:
+Und wie wäre es wenn man die Header Größe <NAME_CORPUS_REPLACEMENT> der Display Auflösung abhängig macht?
+TAGGED_CONTENT:

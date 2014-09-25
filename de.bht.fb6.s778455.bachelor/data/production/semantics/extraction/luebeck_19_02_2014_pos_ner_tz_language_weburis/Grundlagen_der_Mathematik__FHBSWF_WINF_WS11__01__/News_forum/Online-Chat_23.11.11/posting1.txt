@@ -1,0 +1,45 @@
+ID: 117493
+CREATION_DATETIME: 1322066171
+MODIFICATION_DATETIME: 1322066237
+TITLE: Online-Chat 23.11.11
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=43880#117493
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:2.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Chat;weight:1.0;significance:4.65367606678589;degreegeneralization:7;uri:20901477
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:2.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Internet;weight:2.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:2.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Studenten;weight:1.0;significance:3.3437630829422;degreegeneralization:5;uri:20994552
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:1.0;significance:3.25199587633262;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Schüler, Studenten;weight:1.0;significance:3.21878054168781;degreegeneralization:4;uri:20920823
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:2.78563553898677;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:2.77735785682754;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:2.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Lifestyle und Internet;weight:1.0;significance:2.53445361368796;degreegeneralization:6;uri:21999575
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Lifestyle, Mode, Schönheit;weight:1.0;significance:2.18595971379839;degreegeneralization:3;uri:21999456
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:1.7207726480701;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:1.07441906812122;degreegeneralization:2;uri:21999813
+NER_TAG: value:Hochschule;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:Hochschule;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Gruss;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Chat;weight:0.0;uri:;postag:NN
+POS_TAG: value:Loesen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bitte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skript;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hochschule;weight:0.0;uri:;postag:NN
+POS_TAG: value:Uebungsaufgaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:Studierende;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teilnahme;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sitzung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wahlausschusses;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Geehrte Studierende,
+der Online-Chat am 23. 11. 11 entfaellt wegen meiner Teilnahme an einer <REMOVED_PERSON_ENTITY> des Wahlausschusses der Hochschule (die Sitzung verzoegert sich). Bitte nutzen Sie die Zeit zum Loesen der Uebungsaufgaben im Skript, insb. LO 07-08. 
+Freundlichen Gruss <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Geehrte_ADJA Studierende_NN ,_$, der_ART Online-Chat_NN am_APPRART 23_CARD ._$. 11_CARD ._$. 11_CARD entfaellt_VVFIN wegen_APPR meiner_PPOSAT Teilnahme_NN an_APPR einer_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_APPR des_ART Wahlausschusses_NN der_ART Hochschule_NN -LRB-_TRUNC die_ART Sitzung_NN verzoegert_VVFIN sich_PRF -RRB-_TRUNC ._$. Bitte_NN nutzen_VVFIN Sie_PPER die_ART Zeit_NN zum_APPRART Loesen_NN der_ART Uebungsaufgaben_NN im_APPRART Skript_NN ,_$, insb_ADJD ._$. LO_NE 07-08_CARD ._$. Freundlichen_ADJA Gruss_NN <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

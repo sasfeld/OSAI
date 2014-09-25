@@ -1,0 +1,14 @@
+ID: 3015
+CREATION_DATETIME: 1385334000000
+MODIFICATION_DATETIME: 1385593200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Sonderzeichen ( z. B. € ) werden bei mir im Firefox unter <REMOVED_PERSON_ENTITY> 7 nicht korrekt dargestellt.
+
+Das Projekt wurde im Eclipse auf UTF-8 umgestellt und dort werden diese auch richtig dargestellt.
+
+Was könnte die Ursache sein?
+TAGGED_CONTENT:

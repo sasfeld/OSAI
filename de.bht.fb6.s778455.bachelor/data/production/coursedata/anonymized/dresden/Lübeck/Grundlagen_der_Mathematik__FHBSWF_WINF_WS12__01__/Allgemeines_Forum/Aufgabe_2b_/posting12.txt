@@ -1,0 +1,16 @@
+ID: 185647
+CREATION_DATETIME: 1354781631
+MODIFICATION_DATETIME: 1354781631
+TITLE: Re: Aufgabe 2b)
+PARENT_POSTING_ID: 184543
+CONTENT:
+Hallo zusammen, ich habe mittlerweile aich schon diverse dinge ausprobiert und habe noch folgende idee. ich glaube auch, dass ich diese lösung wohl so abgeben werden...
+ 
+Letztendlich sind hier eine <REMOVED_PERSON_ENTITY> von Vektoren gegeben (v1, v2, v3, v4) die laut Aufgabenstellung einen Untervektorraum (W) des reellen Vektorraums (V) bilden, den wir bereits in der Aufgabenstellung a) kennen gelernt haben. Jetzt soll bewiesen werden wieso dieser Vektorraum W ein Untervektorraum des Vektorraum V ist.  Dafür musst der UVR auf Abgeschlossenheit bezüglich Addition und Multiplikation geprüft werden. Das Überprüfen der Rechengesetzt eines Vektorraums ist  nicht erforderlich, da diese Eigenschaften vom eigentlichen Vektorraum V geerbt werden.  Zuerst muss man sich die Frage stellen, wie der UVR in dieser Aufgabenstellung definiert ist. Sollten alle Vektoren die in W stehen einen UVR bilden, kann man mittels Addition und Multiplikation alle anderen Vektoren erreichen. Oder anders ausgedrückt mittels einen beliebigen LK (Linearkombination) der Vektoren die im Vektorraum W stehen, kann ich alle anderen Vektoren „erschaffen.“
+Mathematisch wurde das ungefähr folgendes bedeuten:
+a = m*v1+n*v2+o*v3+p*v4 b = q*v1+r*v2+s*v3+t*v4
+Jetzt nur noch zeigen, dass Mutliplikaktion und Addition abgeschlossen sind.
+Was besseres fällt mir nicht mehr ein.
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

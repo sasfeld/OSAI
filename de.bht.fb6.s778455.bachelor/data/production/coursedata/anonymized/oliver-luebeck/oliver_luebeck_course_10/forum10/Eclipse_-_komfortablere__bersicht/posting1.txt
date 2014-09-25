@@ -1,0 +1,22 @@
+ID: 24
+CREATION_DATETIME: 1194773700000
+MODIFICATION_DATETIME: 1194773700000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo zusammen,
+
+ist es möglich in Eclipse:
+
+- 2,3 Fenster nebeneinander anzeigen zu lassen wie in Textpad? 
+  (Hab bisher nur festgestellt, dass man Fenster untereinander schieben kann, was ich nicht so komfortabel finde)
+
+- Kann man Quellcode auch einklappen lassen, wenn man ihn in einen Kommentar setzt?
+
+Hoffe, das geht und jemand von Euch weiß das? 
+
+Danke und Ciao 
+   
+TAGGED_CONTENT:

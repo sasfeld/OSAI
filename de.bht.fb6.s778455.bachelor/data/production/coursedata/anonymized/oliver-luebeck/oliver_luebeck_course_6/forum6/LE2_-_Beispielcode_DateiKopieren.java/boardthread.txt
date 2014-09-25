@@ -1,0 +1,4 @@
+ID: 3
+TITLE: LE2 - Beispielcode DateiKopieren.java
+LANGUAGE: GERMAN
+FIRST_POSTING_ID: 5

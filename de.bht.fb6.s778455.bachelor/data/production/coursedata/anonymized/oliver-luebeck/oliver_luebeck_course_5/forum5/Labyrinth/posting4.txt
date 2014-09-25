@@ -1,0 +1,57 @@
+ID: 92
+CREATION_DATETIME: 1199968380000
+MODIFICATION_DATETIME: 1199968380000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 91
+CONTENT:
+ 
+Habe ein StackOverflowError in meinem Quellcode. Weiß nicht weiter.
+Der Quellcode ist noch nicht ausgearbeitet, aber kann noch nicht mal die ersten Versuche/Ideen testen. Kann mir wer helfen?
+
+package einsendeaufgabeLE12;
+
+public class Labyrinth {
+
+static char[][] lab = {
+{ 'X', ' ', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X' },
+{ 'X', ' ', 'X', 'X', ' ', 'X', 'X', 'X', 'X', 'X' },
+{ 'X', ' ', ' ', 'X', ' ', 'X', 'X', 'X', 'X', 'X' },
+{ 'X', 'X', ' ', ' ', ' ', 'X', ' ', ' ', ' ', 'X' },
+{ 'X', 'X', 'X', ' ', ' ', 'X', 'X', ' ', 'X', 'X' },
+{ 'X', 'X', 'X', ' ', 'X', 'X', 'X', ' ', 'X', 'X' },
+{ 'X', 'X', 'X', ' ', 'X', 'X', 'X', ' ', 'X', 'X' },
+{ 'X', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 'X', 'X' },
+{ 'X', 'X', 'X', ' ', 'X', 'X', 'X', 'X', 'X', 'X' },
+{ 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X' }, };
+
+public static boolean existWeg(int x, int y) {
+
+// 1.Bedingung: Position innerhalb Array
+if ((0 <= x && x < 10) && (0 <= y && y < 10)) {
+char position = lab[x][y];
+/*
+* 2.Bedinung: falls ' ' --> alle Richtungen prüfen (rekursiv)
+* gegebenenfalls ' ' mit '*' ersetzten. falls 'X' --> false
+*/
+if (position == ' ') {
+position = '*';
+existWeg((x + 1), y); // Rekursion in alle Richtungen
+existWeg((x - 1), y);
+existWeg(x, (y + 1));
+existWeg(x, (y - 1));
+return true;
+} else {
+return false;
+}
+}
+return false;
+}
+//Problem: Exception in thread "main" java.lang.StackOverflowError
+public static void main(String[] args) {
+existWeg(4, 4);
+}
+
+}
+	
+TAGGED_CONTENT:

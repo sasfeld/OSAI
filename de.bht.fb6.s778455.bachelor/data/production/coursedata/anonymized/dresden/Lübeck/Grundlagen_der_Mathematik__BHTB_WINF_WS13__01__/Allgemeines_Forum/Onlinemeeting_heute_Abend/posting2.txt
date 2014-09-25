@@ -1,0 +1,11 @@
+ID: 241967
+CREATION_DATETIME: 1381346047
+MODIFICATION_DATETIME: 1381346047
+TITLE: Re: Onlinemeeting heute Abend
+PARENT_POSTING_ID: 241941
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+soweit mir bekannt, werden immer abwechselnd in Grundlagen der Programmierung und in Mathematik jeweils mittwochs um 20 Uhr Konferenzen gehalten. Heute war noch einmal GdP dran und nächste Woche ist dann Mathematik dran. Ab nächster Woche also immer wöchentlich wechselnd.
+ 
+Grüße, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

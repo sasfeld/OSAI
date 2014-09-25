@@ -1,0 +1,10 @@
+ID: 97790
+CREATION_DATETIME: 1286997925
+MODIFICATION_DATETIME: 1286997925
+TITLE: Wurzelgesetze für gleiche Radikanden
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo, ich habe da mal ein Problem.. Laut Skript (siehe 2. 27) gilt:$$ \sqrt[m]{a} $$•$$ \sqrt[n]{a} $$ = $$ \sqrt[ \frac{m \cdot n}{n+m} ]{a} $$Es gilt ebenso (siehe 2. 23):$$a^{ \frac{m}{n} }$$ = $$ \sqrt[n]{a^{m}} $$Demnach erwarte ich eigentlich in 2. 27 folgendes:$$ \sqrt[m]{a} $$•$$ \sqrt[n]{a} $$ = $$ \sqrt[\left(m \cdot n\right)]{a^{n+m}} $$Wo ist hier mein Denkfehler? 
+TAGGED_CONTENT:

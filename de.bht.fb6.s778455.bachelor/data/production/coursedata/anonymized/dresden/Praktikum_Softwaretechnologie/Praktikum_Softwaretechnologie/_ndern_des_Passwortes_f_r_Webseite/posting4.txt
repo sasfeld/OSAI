@@ -1,0 +1,9 @@
+ID: 2571
+CREATION_DATETIME: 1381874400000
+MODIFICATION_DATETIME: 1381874400000
+TITLE: Es geht mir nicht um den Webspace vom ZIH den jeder TU Student hat um seine persönliche Webseite zu b...
+PARENT_POSTING_ID: 2569
+POSTING_TYPE: comment
+CONTENT:
+Es geht mir nicht um den Webspace vom ZIH den jeder TU Student hat um seine persönliche Webseite zu benutzen, sondern um den, den wir extra für das SWT Praktikum mit extra Benutzernamen und Passwort bekommen haben.
+TAGGED_CONTENT:

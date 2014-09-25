@@ -1,0 +1,14 @@
+ID: 1607
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: evaluateMove() gibt ein Move-Objekt zurück (von mir definiertes Objekt, dass eine einzelne Bewegung r...
+LANGUAGE: GERMAN
+POS_TAG: value:Bewegung;weight:0.0;uri:;postag:NN
+POS_TAG: value:evaluateMove;weight:0.0;uri:;postag:NN
+POS_TAG: value:Objekt;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1602
+POSTING_TYPE: comment
+CONTENT:
+evaluateMove() gibt ein Move-Objekt zurück (von mir definiertes Objekt, dass eine einzelne Bewegung repräsentiert)
+TAGGED_CONTENT:
+evaluateMove_NN -LRB-_TRUNC -RRB-_TRUNC gibt_VVFIN ein_ART Move-Objekt_NN zurück_PTKVZ -LRB-_TRUNC von_APPR mir_PPER definiertes_ADJA Objekt_NN ,_$, dass_KOUS eine_ART einzelne_ADJA Bewegung_NN repräsentiert_VVFIN -RRB-_TRUNC 

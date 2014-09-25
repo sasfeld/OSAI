@@ -1,0 +1,9 @@
+ID: 1690
+CREATION_DATETIME: 1365717600000
+MODIFICATION_DATETIME: 1382392800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Kann die Vorlesung im Informatik-Master sowohl in INF-PM-FOR Grundlagenforschung als auch in INF-PM-ANW Anwendungsforschung eingebracht werden, so wie es im Lehrveranstaltungsplan (http://web.inf.tu-dresden. de/Fak/ss/13/stundenplaene/studiengang/mast_inf. html) angegeben ist? In der Vergangenheit stimmte der ja nicht immer mit der Einteilung der Lehrstühle zusammen.
+TAGGED_CONTENT:

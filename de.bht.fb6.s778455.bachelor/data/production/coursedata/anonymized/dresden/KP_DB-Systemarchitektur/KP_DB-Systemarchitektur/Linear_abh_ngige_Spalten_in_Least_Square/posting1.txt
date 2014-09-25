@@ -1,0 +1,10 @@
+ID: 2241
+CREATION_DATETIME: 1373839200000
+MODIFICATION_DATETIME: 1373925600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo Cheng, kannst du mal die LeastSquare-Klasse noch so anpassen, dass man linear abhängige <REMOVED_PERSON_ENTITY> herausfiltern kann?
+Am coolsten wäre ja, wenn diese Fälle automatisch erkannt werden und gute Defaultwerte a la "bei 3 linear abhängigen <REMOVED_PERSON_ENTITY> <NAME_CORPUS_REPLACEMENT> jeder Spalte ein Drittel, damit sich alles wieder zum richtigen Wert aufaddiert"
+TAGGED_CONTENT:

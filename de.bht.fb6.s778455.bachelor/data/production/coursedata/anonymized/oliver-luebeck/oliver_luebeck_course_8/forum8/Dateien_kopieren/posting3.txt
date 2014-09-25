@@ -1,0 +1,20 @@
+ID: 15
+CREATION_DATETIME: 1192624620000
+MODIFICATION_DATETIME: 1192624620000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 14
+CONTENT:
+ 
+Hallo,
+
+verstehe, das wird es wohl sein. Aber warum werden denn keine 2 Parameter übergeben?
+Die Anweisung
+
+ kopiereDatei(args[0], args[1]);
+
+habe ich eben mit den vollständigen Pfadangaben ersetzt. Müsste doch auch klappen?
+
+LG 
+     
+TAGGED_CONTENT:

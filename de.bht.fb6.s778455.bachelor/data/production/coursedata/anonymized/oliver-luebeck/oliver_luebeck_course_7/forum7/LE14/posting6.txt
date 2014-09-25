@@ -1,0 +1,15 @@
+ID: 79
+CREATION_DATETIME: 1306683900000
+MODIFICATION_DATETIME: 1306683900000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 78
+CONTENT:
+   
+ich würde dort rein die ganzen System.out.print-befehle eintragen. als (s) wird das neue objekt aus ShapeTester übergeben und dann dementsprechend die methoden für fläche und umfang ausgeführt.
+
+ich glaub an Shape.java dürfen wir nichts ändern, oder? das ist nämlich auch gerade mein problem. ich kann aus report() nicht auf die variablen der einzlnen objekte zugreifen, weil report static ist und die variablen nicht.
+
+naja, ein paar stunden haben wir ja noch breit grinsend
+    
+TAGGED_CONTENT:

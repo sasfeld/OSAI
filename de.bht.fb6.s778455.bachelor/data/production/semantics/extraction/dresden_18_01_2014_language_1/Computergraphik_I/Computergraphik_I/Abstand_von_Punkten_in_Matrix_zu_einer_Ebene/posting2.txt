@@ -1,0 +1,10 @@
+ID: 603
+CREATION_DATETIME: 1351551600000
+MODIFICATION_DATETIME: 1351551600000
+TITLE: Noch ein Gedanke dazu: Der Vektor **d** ist normiert, damit ist $|d| = 1$. Der untere Teil des Bruche...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 602
+POSTING_TYPE: comment
+CONTENT:
+Noch ein Gedanke dazu: Der Vektor **d** ist normiert, damit ist $|d| = 1$. Der untere Teil des Bruches fällt also weg.
+TAGGED_CONTENT:

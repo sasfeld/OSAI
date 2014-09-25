@@ -1,0 +1,12 @@
+ID: 2895
+CREATION_DATETIME: 1384642800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Ich habe soeben die Übung zum 4. Kapitel online gestellt:
+http://www.rn.inf.tu-dresden. de/lectures/Rechnernetzpraxis/04_RNP_Transport-Schicht_uebung. pdf
+Die Übung dreht sich diesmal wie angekündigt um NAT/PAT bzw. Multipath TCP. <NAME_CORPUS_REPLACEMENT> ich es auch nicht übertreiben will, wird es nach Aufgabenteil 1 c) bei den weiteren Übungen keine C-Aufgaben mehr geben. Nutzen Sie also die Gelegenheit, anhand der Aufgabe ihre C-Kenntnisse aufzufrischen. ;-)
+Die Ergebnisse zu den bisherigen Programmieraufgaben stelle ich vstl. am Mittwoch online.
+TAGGED_CONTENT:

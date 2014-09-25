@@ -1,0 +1,12 @@
+ID: 1960
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Genau heute bin ich mal nicht im Studentenlabor. Sonst bin ich eigentlich immer dort zu finden.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Genau heute bin ich mal nicht im Studentenlabor. Sonst bin ich eigentlich immer dort zu finden.
+
+Auch ein Make im CLeverTrustee (frisch aus dem SVN rüberkopiert) bringt einen Haufen Fehler. Habe gerade das Make vom CLeverTrustee mal im SVN-Ordner versucht, auch <NAME_CORPUS_REPLACEMENT> bringt es Fehler. Funktioniert bei euch der Aufruf vom Make?
+TAGGED_CONTENT:

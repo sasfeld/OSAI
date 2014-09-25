@@ -1,0 +1,36 @@
+ID: 4
+CREATION_DATETIME: 1303933500000
+MODIFICATION_DATETIME: 1303933500000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Guten Abend liebe Kommilitonen,
+
+ich habe einige Probleme mit der Einsendeaufgabe für LE08!
+Vielleicht habt ihr ja die eine oder andere Anregung für mich.
+
+Prinzipiell habe ich die Aufgabe von hinten begonnen. Ich habe also beide Klassen (EinfachesAuto und ErweitertesAuto) geschrieben und compiliert.
+Soweit so gut. Nun möchte ich die Klassen auch testen. Allerdings tue ich mich damit sehr schwer.
+Wie kann man die Objektmethoden aus Einfaches bzw ErweitertesAuto in die AutoTest.java einbinden. Frau Prof. Dr. Merceron meinte, dass man Triangle.java als Vorbild nehmen soll. Das erschien mir sinnvoll. Nach einigen rumprobieren bekomme ich es einfach nicht hin.
+
+Man schreibt also eine Klasse AutoTest. - public class AutoTest
+Wie geht es weiter?
+Man ruft public Einfaches Auto auf, oder?
+In der main Methode erstellt man dann die drei Objekte. zB. auto 1 bis 3?!
+
+EinfachesAuto auto1 = new EinfachesAuto ()
+EinfachesAuto auto2 = new EinfachesAuto ()
+EinfachesAuto auto3 = new EinfachesAuto ()
+
+Was schreibe ich in die Klammern bzw wie(welche Form) ?
+
+Danach rufe ich die jeweilige Methode aus der Klasse EinfachesAuto auf?!
+Also: auto1.alter();
+
+Puh, ich hoffe ihr könnt mir helfen!
+
+Besten Dank im Voraus!
+    
+TAGGED_CONTENT:

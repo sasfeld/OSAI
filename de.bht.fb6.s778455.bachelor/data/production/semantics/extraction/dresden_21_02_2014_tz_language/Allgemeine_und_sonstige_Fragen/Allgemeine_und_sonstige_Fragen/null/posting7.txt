@@ -1,0 +1,26 @@
+ID: 652
+CREATION_DATETIME: 1351810800000
+MODIFICATION_DATETIME: 1351810800000
+TITLE: Jupp, fände ich für nen Artikel oder so auch viel zu übergewichtig. Aber ist ein guter Ansatz, vorall...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Syntax;weight:1.0;significance:11.6099372265658;degreegeneralization:7;uri:20900032
+TOPIC_ZOOM_TAG: value:Allgemeine Sprachwissenschaft;weight:1.0;significance:9.27456231074878;degreegeneralization:6;uri:21633888
+TOPIC_ZOOM_TAG: value:Übergewicht;weight:1.0;significance:8.41809007408554;degreegeneralization:6;uri:20906577
+TOPIC_ZOOM_TAG: value:Sprachwissenschaften;weight:1.0;significance:7.99005064393883;degreegeneralization:5;uri:21978138
+TOPIC_ZOOM_TAG: value:Körpergewicht;weight:1.0;significance:7.69791422113767;degreegeneralization:5;uri:20906713
+TOPIC_ZOOM_TAG: value:Leiden und Gesundheitsstörungen;weight:1.0;significance:7.59055570281717;degreegeneralization:4;uri:20991271
+TOPIC_ZOOM_TAG: value:Ernährung unter gesundheitlicher und wissenschaftlicher Perspektive;weight:1.0;significance:6.61497974518879;degreegeneralization:4;uri:21986655
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:5.00870710783694;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Küche, Essen und Trinken, Lebensmittel, Ernährung;weight:1.0;significance:4.91002646160872;degreegeneralization:3;uri:20297943
+TOPIC_ZOOM_TAG: value:Geisteswissenschaften;weight:1.0;significance:4.65434461816952;degreegeneralization:3;uri:21978240
+TOPIC_ZOOM_TAG: value:Krankheiten, Beschwerden und Leiden;weight:1.0;significance:4.55003327042709;degreegeneralization:3;uri:21985125
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Gesundheit;weight:1.0;significance:3.54697930762717;degreegeneralization:2;uri:21997569
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 632
+POSTING_TYPE: comment
+CONTENT:
+Jupp, fände ich für nen Artikel oder so auch viel zu übergewichtig. Aber ist ein guter Ansatz, vorallem die zweite Antwort, die Syntax Highlighting beschreibt, finde ich ganz erhellend.
+TAGGED_CONTENT:

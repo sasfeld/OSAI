@@ -1,0 +1,24 @@
+ID: 10
+CREATION_DATETIME: 1191415860000
+MODIFICATION_DATETIME: 1191415860000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hey hey,
+
+hab ein Problem mit Eclipse. Jedesmal wenn ich eine .java datei speichern bzw. ausführen möchte, erhalte ich die Fehlermeldung:
+
+Save could not complete.
+
+Reason:
+Some characters cannot be mapped using "Cp1252" character encoding.
+Either change the encoding or remove the characters which are not supported by the "Cp1252" character encoding.
+
+
+Kann mir jemand weiterhelfen?
+
+Danke
+    
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 2328
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Hmm, das meiste, was wir gemacht haben, war ja durch die Aufgabenstellung vorgegeben. Demzufolge habe...
+LANGUAGE: GERMAN
+POS_TAG: value:Zeitvorhersage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabenstellung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Methoden;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2321
+POSTING_TYPE: comment
+CONTENT:
+Hmm, das meiste, was wir gemacht haben, war ja durch die Aufgabenstellung vorgegeben. Demzufolge haben wir ja nur gezeigt, dass statt der in der Aufgabenstellung geforderten Methoden der Zeitvorhersage andere Methoden effektiver und einfacher zu implementieren sind.
+TAGGED_CONTENT:
+Hmm_NE ,_$, das_ART meiste_PIDAT ,_$, was_PRELS wir_PPER gemacht_VVPP haben_VAFIN ,_$, war_VAFIN ja_ADV durch_APPR die_ART Aufgabenstellung_NN vorgegeben_VVPP ._$. Demzufolge_PROAV haben_VAFIN wir_PPER ja_ADV nur_ADV gezeigt_VVPP ,_$, dass_KOUS statt_APPR der_ART in_APPR der_ART Aufgabenstellung_NN geforderten_ADJA Methoden_NN der_ART Zeitvorhersage_NN andere_ADJA Methoden_NN effektiver_ADJD und_KON einfacher_ADJD zu_PTKZU implementieren_VVINF sind_VAFIN ._$. 

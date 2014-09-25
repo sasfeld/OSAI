@@ -1,0 +1,10 @@
+ID: 3083
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: Simone93 (haha) und die anderen Studenten verwenden noch alle 5.3.0, da gibts noch kein "Autosave" be...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3077
+POSTING_TYPE: comment
+CONTENT:
+Simone93 (haha) und die anderen Studenten verwenden noch alle 5. 3. 0, <NAME_CORPUS_REPLACEMENT> gibts noch kein "Autosave" bei `changePassword`. Zeit endlich mal die 5. 3. 1 zu releasen.
+TAGGED_CONTENT:

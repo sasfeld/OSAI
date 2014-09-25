@@ -1,0 +1,16 @@
+ID: 2827
+CREATION_DATETIME: 1384210800000
+MODIFICATION_DATETIME: 1384210800000
+TITLE: hmm. Danke für die Antwort. Eigentlich würde mir das blankweb komplett reichen. Ressourcen in andere ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2823
+POSTING_TYPE: answer
+CONTENT:
+hmm. Danke für die Antwort. Eigentlich würde mir das blankweb komplett reichen. Ressourcen in andere Ordner hab ich auch nicht kopiert. Die Projekte für sich sind quasi jungfräulich. Das hatte ich gleich geschaut.
+
+Die winzigste Änderung, die ich gemacht hatte, war in die blankweb ein p-tag mit Inhalt "happy tag" gesetzt hab. Ich hab mal ein Bild <NAME_CORPUS_REPLACEMENT> gemacht.
+
+https://www. dropbox. com/s/sbe50drmc1r983d/Bildschirmfoto%202013-11-12%20um%2019. 47. 43. png
+
+Vermutlich werde ich jetzt wohl nochmal die Projekte komplett löschen und einen frischen build versuchen.
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1657
+CREATION_DATETIME: 1364853600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Lehrveranstaltung startet mit der Einführungsveranstaltung am 9. 04. 2013. Die Einschreibung erfolgt über jExam und ist ab sofort freigeschaltet. Die Vergabe der Übungsthemen erfolgt direkt am 9. 4. in der Einführungsveranstaltung. Falls Sie sich nicht über jExam einschreiben können, bitte direkt mit Name, Studiengang, <REMOVED_PERSON_ENTITY> und Mail-Adresse per E-Mail bei <REMOVED_PERSON_ENTITY> (daniel. <NAME_CORPUS_REPLACEMENT>@tu-dresden. de) einschreiben.
+Achtung: Ab diesem Semester erfordert die Lehrveranstaltung nur die Präsenz zur Vorlesungszeit (Di, 5. DS). Die Übungsvorträge werden in diese Termine integriert. Es ist keine zusätzliche Präsenzzeit für die Übung nötig. Nähere Informationen dazu in der Einführungsveranstaltung am 09. 04.
+TAGGED_CONTENT:

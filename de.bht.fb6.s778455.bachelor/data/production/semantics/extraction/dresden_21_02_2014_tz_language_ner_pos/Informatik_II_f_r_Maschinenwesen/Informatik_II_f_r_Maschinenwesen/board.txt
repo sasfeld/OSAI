@@ -1,0 +1,7 @@
+ID: 2154476
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1365372000000
+TITLE: Informatik II für Maschinenwesen
+LANGUAGE: UNKNOWN
+INTRO: Die zweite Lehrveranstaltung im Modul Informatik der Studiengänge
+TYPE: null

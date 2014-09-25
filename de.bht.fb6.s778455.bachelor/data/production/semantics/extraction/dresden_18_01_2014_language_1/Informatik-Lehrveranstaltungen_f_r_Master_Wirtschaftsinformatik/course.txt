@@ -1,0 +1,9 @@
+ID: 110804112
+CREATION_DATETIME: 1350338400000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Informatik-Lehrveranstaltungen für Master Wirtschaftsinformatik
+LANGUAGE: GERMAN
+SUMMARY: Diskussionsseite für Fragen zu den Angeboten der Fakultät Informatik für den Master-Studiengang Wirtschaftsinformatik
+URL: http://www.inf.tu-dresden.de/index.php?node_id=2585&ln=de

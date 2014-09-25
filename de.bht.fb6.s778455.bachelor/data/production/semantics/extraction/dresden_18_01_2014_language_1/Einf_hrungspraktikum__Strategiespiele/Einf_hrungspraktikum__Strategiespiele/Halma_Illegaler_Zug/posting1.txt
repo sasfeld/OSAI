@@ -1,0 +1,14 @@
+ID: 1387
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1384038000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Gibt es eine Möglichkeit, bei "make fight" die Programmausführung anzuhalten, wenn einer der <REMOVED_PERSON_ENTITY> einen ungültigen Zug macht?
+
+Bei mir läuft das Programm <NAME_CORPUS_REPLACEMENT> nämlich einfach mit einem <REMOVED_PERSON_ENTITY> weniger weiter, ohne dass man eine Möglichkeit hat, den Fehler zu identifizieren bzw. herauszufinden, was der illegale Zug war.
+
+(Und <NAME_CORPUS_REPLACEMENT> die Konsole nur eine bestimmte Anzahl schon geschriebene Zeilen im Speicher vorhält, kann man nicht durch zurückscrollen herausfinden, wo der Fehler lag...)
+TAGGED_CONTENT:

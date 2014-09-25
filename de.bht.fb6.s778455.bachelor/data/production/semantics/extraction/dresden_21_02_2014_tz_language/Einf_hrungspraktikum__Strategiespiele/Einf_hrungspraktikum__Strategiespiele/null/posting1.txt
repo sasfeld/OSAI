@@ -1,0 +1,14 @@
+ID: 2541
+CREATION_DATETIME: 1381096800000
+MODIFICATION_DATETIME: 1382652000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wird bei Kalaha der State wirklich nur so übergeben, wie es die `print_state()` Funktion zulässt?
+
+ich finde leider keine Möglichkeit zu testen, wie das Ergebnis der `serialize_state()` bzw `deserialize_state()` aussieht. Bekomme ich das überhaupt? schließlich gibt die Funktion einen Bool-Wert zurück.
+
+viele Grüße
+TAGGED_CONTENT:

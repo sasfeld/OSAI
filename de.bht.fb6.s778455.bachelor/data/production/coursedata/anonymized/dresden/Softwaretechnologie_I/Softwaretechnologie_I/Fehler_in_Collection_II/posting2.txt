@@ -1,0 +1,16 @@
+ID: 1825
+CREATION_DATETIME: 1368741600000
+MODIFICATION_DATETIME: 1368741600000
+TITLE: Du arbeitest nicht mit Generics. Ganz grundlegend wichtig bei der Aufgabe ist es, keine raw-datatypes...
+PARENT_POSTING_ID: 1818
+POSTING_TYPE: answer
+CONTENT:
+Du arbeitest nicht mit Generics. Ganz grundlegend wichtig bei der Aufgabe ist es, keine raw-datatypes zu verwenden - wie z. b. LinkedList, sondern LinkedList
+Generics erlauben typensicherheit zur Compile-Time. Du kannst beispielsweise nicht einfach deinen Bestand als LinkedList definieren und dann mit einer for-each-Schleife darüber iterieren mit for(Buch b : bestand)
+bestand ist eine raw-Linkedlist, enthält also Objects, keine Bücher! Ein impliziter Cast existiert nicht bei for-each-Schleifen.
+Deine Map ist genauso ungetypt. Datenstrukturen in Java werden immer typisiert. Eine Map erfordert zwei Typenparameter, , also Key und Value Datentyp.
+Daher stammt auch dein Fehler. Du arbeitest mit einer Map vom Typ Map. Auf Objects existiert natürlich keine add-Methode, woher soll der Compiler wissen, dass das, was du mit dem get(b. getAutor) <NAME_CORPUS_REPLACEMENT> herausbekommst, ein Set ist?
+Bau Generics ein, und alles müsste funktionieren.
+Das ist ohnehin Teil der Übung.
+Oh, und bitte gewöhn dir an, nur formatierten Code zu posten. Das <NAME_CORPUS_REPLACEMENT> kann ja <NAME_CORPUS_REPLACEMENT> lesen.
+TAGGED_CONTENT:

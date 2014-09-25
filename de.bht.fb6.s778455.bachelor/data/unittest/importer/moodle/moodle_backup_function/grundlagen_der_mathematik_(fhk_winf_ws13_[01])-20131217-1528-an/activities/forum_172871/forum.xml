@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="30839" moduleid="172871" modulename="forum" contextid="247259">
+  <forum id="30839">
+    <type>general</type>
+    <name>Fachforum zum Teil II</name>
+    <intro>Hier können Sie Fachfragen zum Teil II diskutieren. </intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1218802758</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="93237">
+        <name>Klausurrelevanz</name>
+        <firstpost>245933</firstpost>
+        <userid>12749</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1382276799</timemodified>
+        <usermodified>665</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="245933">
+            <parent>0</parent>
+            <userid>12749</userid>
+            <created>1382085250</created>
+            <modified>1382085271</modified>
+            <mailed>1</mailed>
+            <subject>Klausurrelevanz</subject>
+            <message>&lt;p&gt;Hallo,&lt;/p&gt;
+&lt;p&gt;ich wollte hier nur mal sichergehen. Im Hinweis steht, dass LO6 komplett nicht klausurrelevant ist. Wenn das LO6 geöffnet wird steht nur bei einem Kapitel (Digitale Schaltnetze), dass es nicht klausurrelevant ist. Ich gehe davon aus, dass der Hinweis richtig ist und damit LO6 komplett übersprungen werden kann. Ist das so in Ordnung?&lt;/p&gt;
+&lt;p&gt;Viele Grüße&lt;br /&gt;Eddie Knuth&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="246073">
+            <parent>245933</parent>
+            <userid>13731</userid>
+            <created>1382106001</created>
+            <modified>1382106001</modified>
+            <mailed>1</mailed>
+            <subject>Re: Klausurrelevanz</subject>
+            <message>&lt;p&gt;Es ist  nicht Klausurrelevant. Schaden dürfte es aber nicht, es zumindest inhaltlich zu überfliegen ;-)&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="246571">
+            <parent>245933</parent>
+            <userid>665</userid>
+            <created>1382276799</created>
+            <modified>1382276799</modified>
+            <mailed>1</mailed>
+            <subject>Re: Klausurrelevanz</subject>
+            <message>&lt;p&gt;Nein, das LO ist nicht klausurrelevant. Das steht auch in den Hinweisen... :-)&lt;/p&gt;
+&lt;p&gt;Viele Grüße&lt;/p&gt;
+&lt;p&gt;Ulrike Bähr&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="95785">
+        <name>Übungen logische Äquivalenzumformung</name>
+        <firstpost>253451</firstpost>
+        <userid>3589</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1383744172</timemodified>
+        <usermodified>3589</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="253451">
+            <parent>0</parent>
+            <userid>3589</userid>
+            <created>1383744172</created>
+            <modified>1383744172</modified>
+            <mailed>1</mailed>
+            <subject>Übungen logische Äquivalenzumformung</subject>
+            <message>&lt;p&gt;Hat jemand ein paar gute Übungen incl. Lösungen zur logischen Äquivalenzumformung im Internet gefunden?&lt;/p&gt;
+&lt;p&gt;In den Übungsaufgaben sind ja nur 2 vorhanden und im Script auch nicht sonderlich viele. Man braucht ja schon ein wenig mehr Anwendung um die richtigen Regeln anzuwenden finde ich. Sonst landet man schnell in einer Sackgasse.&lt;/p&gt;
+&lt;p&gt;Vielen Dank im voraus :-)&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="376627">
+        <userid>13731</userid>
+      </subscription>
+      <subscription id="376679">
+        <userid>665</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

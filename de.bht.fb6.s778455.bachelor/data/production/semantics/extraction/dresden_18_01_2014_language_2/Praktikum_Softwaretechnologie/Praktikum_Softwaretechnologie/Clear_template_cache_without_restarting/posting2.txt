@@ -1,0 +1,18 @@
+ID: 2859
+CREATION_DATETIME: 1384556400000
+MODIFICATION_DATETIME: 1384642800000
+TITLE: There is a solution, but it doesn't work for me.
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2858
+POSTING_TYPE: answer
+CONTENT:
+There is a solution, but it doesn't work for me.
+
+Add `spring. thymeleaf. mode. cache = false` in `src/main/resources/application. properties`.
+
+Via http://www.thymeleaf.org/doc/html/Using-Thymeleaf. html#template-cache and [ThymeleafAutoConfiguration. java](https://github. com/spring-projects/spring-boot/blob/master/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/thymeleaf/ThymeleafAutoConfiguration. java)
+
+Edit:
+
+Add `spring. thymeleaf. cache = false` in `src/main/resources/application. properties`.
+TAGGED_CONTENT:

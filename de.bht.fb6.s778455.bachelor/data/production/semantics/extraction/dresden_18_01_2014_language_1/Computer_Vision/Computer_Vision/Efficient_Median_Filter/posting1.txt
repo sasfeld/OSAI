@@ -1,0 +1,34 @@
+ID: 2977
+CREATION_DATETIME: 1385161200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Guten Tag,
+
+eine <REMOVED_PERSON_ENTITY> zur Implementierung des Medianfilterrs: welche Datenstruktur eignet sich am besten für die zwei geordneten Multisets, die verwaltet werden sollen, während das Abtastfenster über das Bild läuft?
+
+und soll ich das Abtastfenster nach folgenden Schema über das Bild laufen lassen?
+
+Zeilenweise, und abwechselnd nach links und dann nach rechts. Also etwa so:
+
+```ruby
+
+S-------->--------v  1. Zeile
+
+                  |
+
+v--------<--------<  2. Zeile
+
+|
+
+>-------->--------v  3. Zeile
+
+                  |
+
+... 
+
+```
+TAGGED_CONTENT:

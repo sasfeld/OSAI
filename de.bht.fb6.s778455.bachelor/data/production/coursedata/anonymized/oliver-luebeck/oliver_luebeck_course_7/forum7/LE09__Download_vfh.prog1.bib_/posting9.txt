@@ -1,0 +1,25 @@
+ID: 28
+CREATION_DATETIME: 1304595480000
+MODIFICATION_DATETIME: 1304595480000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 27
+CONTENT:
+ 
+Hallo,
+
+ich würde für die Bearbeitung der Aufgaben definitv Eclipse oder Netbeans benutzen. Tendenz ganz klar zu Eclipse.
+
+Es ist zwar nicht schlecht zu wissen wie man auf in der CMD kompiliert etc. aber es verlangsamt doch ganz schön die Arbeit.
+
+Alleine schon wegen der Intellisense und den Fehlerhinweisen Gold wert :).
+
+Daher, einmal ein bissle in Eclipse einarbeiten und schon könnt ihr dadurch eine Menge Zeit einsparen. Ich weiß nicht in welcher IDE wir am Samstag in der UNI arbeiten, aber ich werde persönlich in Eclipse auf meinem Laptop die Aufgaben lösen.
+
+Vielleicht findet sich ja die Zeit auch mal Eclipse ein wenig zu erläutern.
+
+Der Buchtipp ist nicht schlecht. Habe mir aber bisher verkniffen das zu posten, da es durchaus den unerfahrenen etwas überfordern kann.
+
+LG
+   
+TAGGED_CONTENT:

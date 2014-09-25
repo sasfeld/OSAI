@@ -1,0 +1,20 @@
+ID: 2015
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Die Indizes beginnen bei 0.
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Sorgen;weight:1.0;significance:7.96361738687068;degreegeneralization:7;uri:19989104
+TOPIC_ZOOM_TAG: value:Sorgen und Ängste;weight:1.0;significance:7.86436242877534;degreegeneralization:6;uri:19989121
+TOPIC_ZOOM_TAG: value:Probleme im Bereich Leben und Alltag;weight:1.0;significance:6.26919914413383;degreegeneralization:5;uri:20147986
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Die Indizes beginnen bei 0.
+
+Und bei der Workgroupsize musst du darauf achten, dass in der globalDimX genauso viele drinstehen, wie du in die localDimX schreibst.
+
+Ich mache mir derzeit allerdings um was ganz anderes Sorgen. Ich dachte ja, dass die Ausführung korrekt funktionieren würde. Allerdings tut sie das nicht, es kommen falsche Ergebnisse zurück. Ich such jetzt schon mehrere Tage und heute schon wieder 6 Stunden... bisherige Erkenntnis: er kopiert das Inputarray nicht rüber (ich nutze noch den Tester mit dem Sum-Kernel), nur die erste Stelle des Arrays, danach stehen verrückte Werte... Und ich hab immer noch keinen <REMOVED_PERSON_ENTITY> wieso
+TAGGED_CONTENT:

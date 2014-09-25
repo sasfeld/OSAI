@@ -1,0 +1,15 @@
+ID: 35
+CREATION_DATETIME: 1196240100000
+MODIFICATION_DATETIME: 1196240100000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 34
+CONTENT:
+
+Liebe Studierende,
+
+mit der ersten Version der Klasse JFrame, musste man immer die Methode getContentPane benutzen, um auf das Hintergrund-Panel eines JFrame-Objektes zuzugreifen. Nur so könnte man das Layout ändern oder andere graphische Objekte hinzufügen. In einer späteren Version der Klasse JFrame wurden die Methoden setLayout und add verändert, damit sie ohne die Methode getContentPane funktionieren, siehe die Dokumentation dieser Klasse in Java 6. Nicht alle Methoden wurden verändert. Zum Beispiel in Java 6 wurde die Methode getLayout immer noch nicht verändert. Da ist der Umweg mit getContentPane immer noch nötig. Daher manche programmieren immer noch systematisch mit der Benutzung von getContentPane, wie mehrere Beispiele der LE06 es machen.
+
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

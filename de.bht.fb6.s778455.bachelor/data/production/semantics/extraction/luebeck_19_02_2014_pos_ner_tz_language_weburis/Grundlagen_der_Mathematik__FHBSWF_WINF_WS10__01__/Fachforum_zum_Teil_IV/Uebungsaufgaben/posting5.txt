@@ -1,0 +1,12 @@
+ID: 97816
+CREATION_DATETIME: 1293610950
+MODIFICATION_DATETIME: 1293610950
+TITLE: Re: Uebungsaufgaben
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=36379#97816
+POS_TAG: value:Loesung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97813
+CONTENT:
+Loesung
+TAGGED_CONTENT:
+Loesung_NN 

@@ -1,0 +1,50 @@
+ID: 2432
+CREATION_DATETIME: 1374530400000
+MODIFICATION_DATETIME: 1379541600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich habe folgende Schema:
+```
+#         [Provider's GW (a. b. c. 1/27)]
+#                          ^
+#                          |
+#                          |
+#               [Mein Host (a. k. a. Router für die andere Hosts)(a. b. c. 3/27)]
+#                       ^                    ^                       ^
+#                       |                    |                       |
+#                       |                    |                       |
+#[anderer 3. Host (a. b. c. 12/32)] [anderer 2. Host (a. b. c. 15/32)] [andere Hosts (a. b. c. X/32)]
+```
+So sehen die Configs aus:
+```
+===============
+#my host (a. b. c. 3/27):
+#> ip r
+#a. b. c. 12 dev vmbr0  scope link  # third host
+#a. b. c. 15 dev vmbr0  scope link  # second host
+#default via a. b. c. 1 dev vmbr0  # provider's gw
+#
+#> ip n
+#a. b. c. 1 dev vmbr0 lladdr AA:BB:<REMOVED_PERSON_ENTITY>:DD:EE:FF REACHABLE
+#a. b. c. 15 dev vmbr0 lladdr AB:CD:EF:12:34:56 PERMANENT
+#a. b. c. 12 dev vmbr0 lladdr A1:B2:C3:D4:E5:F6 PERMANENT
+#===============
+#my second host (a. b. c. 15/32):
+#> ip r
+#default via a. b. c. 3 dev eth0
+#a. b. c. 3 dev eth0 scope link
+#
+#> ip n # before "ping a. b. c. 1" or "ping 8. 8. 8. 8"
+#a. b. c. 1 dev eth0 lladdr F1:E2:D3:C4:B5:A6 PERMANENT
+#
+#
+#> ip n # after "ping a. b. c. 1" or "ping 8. 8. 8. 8"
+#a. b. c. 1 dev eth0 lladdr AA:BB:<REMOVED_PERSON_ENTITY>:DD:EE:FF REACHABLE # after some minutes idle => STALE
+#a. b. c. 3 dev eth0 lladdr F1:E2:D3:C4:B5:A6 PERMANENT
+#===============
+#Andere Hosts sind dem "my second host" konfiguriert
+```
+Ich will dass der Router (a. b. c. 3) alles was bevor ihm steht geroutet (auf der IP-Ebene) und nicht direkt (auf der L2-Ebene) weitergeleitet wird. Somit auch meine Hosts und Provider's GW nichts über einander wissen (kein Austausch <NAME_CORPUS_REPLACEMENT> MAC-Adressen). Is es möglich?
+TAGGED_CONTENT:

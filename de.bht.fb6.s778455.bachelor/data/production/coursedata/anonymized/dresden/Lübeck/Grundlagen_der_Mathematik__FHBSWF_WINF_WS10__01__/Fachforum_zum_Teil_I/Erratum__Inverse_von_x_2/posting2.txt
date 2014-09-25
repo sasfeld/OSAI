@@ -1,0 +1,23 @@
+ID: 97794
+CREATION_DATETIME: 1288818037
+MODIFICATION_DATETIME: 1288818037
+TITLE: Ergaenzung: LO02 S. 27 Umwandlung sofortperiodischer Dezimalbruch...
+PARENT_POSTING_ID: 97793
+CONTENT:
+... in gemeiner Bruch:
+Wir nehmen z. B. die Zahl 1, 636363...
+Die Periode endet an der zweiten Nachkommastelle und wiederholt sich danach. Die zweite Nachkommastelle hat die Wertigkeit 10^-2. 
+(Gleichung 1) 10^2 * 1, 6363... = 163, 6363...
+Diese <REMOVED_PERSON_ENTITY> wird benutzt, um den Zaehler des gemeinen Bruchs zu bestimmen.
+Als naechstes wollen wir den periodischen Nachkommaanteil loswerden. Wir subtrahieren daher vom o. g. Term den Nachkommaanteil:
+-1 * 1, 6363... = -1, 6363...
+(aus Gleichung 1) 163, 6363... -1, 6363... = 162
+auf der linken <REMOVED_PERSON_ENTITY> entsteht dadurch:
+100 * 1, 6363... - 1 * 1, 6363... = 99 * 1, 6363...
+Wir setzen gleich:
+99 * 1, 6363... = 162
+und loesen zur linken <REMOVED_PERSON_ENTITY> auf:
+1, 6363... = 162 / 99
+Wir machen die Probe und 162 : 99 ergibt: 1, 6363...
+Fertig.
+TAGGED_CONTENT:

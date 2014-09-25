@@ -1,0 +1,10 @@
+ID: 1941
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: auch mit -B tritt der Fehler weiterhin auf. Ich habe derzeit das testCLT und das CLeverTrustee-Verzei...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+auch mit -B tritt der Fehler weiterhin auf. Ich habe derzeit das testCLT und das CLeverTrustee-Verzeichnis testweise in "meinem" Verzeichnis Documents/TestStefanie/test4. Könnte das Problem daran liegen?
+TAGGED_CONTENT:

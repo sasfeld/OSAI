@@ -1,0 +1,18 @@
+ID: 20
+CREATION_DATETIME: 1193788680000
+MODIFICATION_DATETIME: 1193788680000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 19
+CONTENT:
+  
+Wenn du schon Rechtecke zeichnetst dann einfach anstatt feste Werte für die Höhe den Messwert nehmen oder besser noch eine skalierte Höhe anhand des maximalen Messwertes berechnen. Mit Messwerte sind letzendlich nur vorgegebene Höhen gemeint.
+
+draw()
+....
+foreach werte
+double scale = 1;
+int h = (int)(werte[nWert] * scale);
+g.fillRect(x, 400-rand-h, 15, h);
+     
+TAGGED_CONTENT:

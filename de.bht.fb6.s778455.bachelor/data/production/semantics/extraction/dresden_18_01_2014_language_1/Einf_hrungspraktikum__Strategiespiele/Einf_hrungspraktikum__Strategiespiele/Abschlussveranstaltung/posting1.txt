@@ -1,0 +1,14 @@
+ID: 1655
+CREATION_DATETIME: 1364425200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Wir planen den Abschluss des Praktikums am 8. April um 9:20 Uhr durchzuführen. Der <REMOVED_PERSON_ENTITY> wird noch bekannt gegeben.
+
+Wir brauchen etwa eine Stunde, so dass ihr bequem die Vorlesung Softwaretechnik erreichen könnt. Wenn jemandem der Termin nicht passt, ihr aber gerne kommen würdet, dann gebt bitte Bescheid, indem ihr euch per Mail an die einfprakt-Adresse oder hier im auditorium meldet.
+
+Wir werden (natürlich anonym) einige typische Programmierprobleme vorstellen und anschließend den <REMOVED_PERSON_ENTITY> in den einzelnen Spielen ermitteln, indem wir live die besten Computerspieler gegeneinander antreten lassen. Danach werden die Preise an die <REMOVED_PERSON_ENTITY> vergeben.
+TAGGED_CONTENT:

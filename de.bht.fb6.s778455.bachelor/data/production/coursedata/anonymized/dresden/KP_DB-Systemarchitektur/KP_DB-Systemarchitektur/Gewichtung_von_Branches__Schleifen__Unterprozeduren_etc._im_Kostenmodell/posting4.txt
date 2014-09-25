@@ -1,0 +1,13 @@
+ID: 1817
+CREATION_DATETIME: 1368655200000
+MODIFICATION_DATETIME: 1368655200000
+TITLE: Das Problem mit dem Segfault liegt daran, dass du opt aufrufen musst und nicht opt-3.0.
+
+Mein Progr...
+PARENT_POSTING_ID: 1816
+POSTING_TYPE: comment
+CONTENT:
+Das Problem mit dem Segfault liegt daran, dass du opt aufrufen musst und nicht opt-3. 0.
+Mein Programm lädt momentan die . <LEARNED_PERSON_NAME_REPLACEMENT>-Datei und ruft dann den Pass für den ersten Block auf. Das kannst du mal dadurch ersetzen, dass stattdessen der kernelcost-BB-Pass erst mal für alle BasicBlocks des Moduls aufgerufen wird und dann nur vom entsprechenden BasicBlock des Kernels die Werte ausgegeben werden.
+Ein weiteres Todo wäre, dass man clang statt extern aufzurufen auch über das C++-Interface aufrufen kann, sodass nicht immer die . <LEARNED_PERSON_NAME_REPLACEMENT>-Datei erstellt werden muss. Das wäre aber weniger wichtig, aber trotzdem nice-to-have. (Nachteil: dadurch können wie den . <LEARNED_PERSON_NAME_REPLACEMENT>-Code nicht mehr direkt anschauen)
+TAGGED_CONTENT:

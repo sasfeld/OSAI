@@ -1,0 +1,10 @@
+ID: 1414
+CREATION_DATETIME: 1362783600000
+MODIFICATION_DATETIME: 1362783600000
+TITLE: Also: Is the virtual address space of the restored thread the same as before? What about the physical...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1412
+POSTING_TYPE: comment
+CONTENT:
+Also: Is the virtual address space of the restored thread the same as before? What about the physical addresses?
+TAGGED_CONTENT:

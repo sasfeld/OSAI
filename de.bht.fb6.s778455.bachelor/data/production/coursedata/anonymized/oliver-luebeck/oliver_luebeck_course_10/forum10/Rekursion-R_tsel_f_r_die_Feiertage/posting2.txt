@@ -1,0 +1,25 @@
+ID: 67
+CREATION_DATETIME: 1199280600000
+MODIFICATION_DATETIME: 1199280600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 66
+CONTENT:
+
+allo alle zusammen,
+
+hier ist mein Versuch für das Javadoc-Kommentar und für die Beschreibung der Methode.
+
+/**
+ * Rekursive Methode zum Vergleich und zur Ausgabe von zwei positiven Zahlen n und z des Typs integer.
+ * Zahl n wird darauf untersucht, ob kleiner 10 oder nicht.
+ * @param n, a positive integer number
+ * @param z, a positive digit from 1 to 9
+ **/
+
+Was die rekursive Methode met bewirkt:
+Ist n < 10, wird verglichen, ob n identisch z und im erfolgreichem Falle n ausgegeben. Wenn n < 10 wird die Methode in jedem Falle beendet.
+Ist n ≥ 10, wird verglichen, ob der Rest von n%10 identisch mit z ist. Im erfolgreichen Falle wird z ausgegeben. Wenn n ≥ 10 wird die Methode met in jedem Falle mit den neuen Parameter n=n/10 und z=z erneut aufgerufen. Der rekursive Aufruf erfolgt solange, bis n<10.
+Die Methode met wird insgesamt (10i−1)-mal erneut aufgerufen. Wobei i die Anzahl der Stellen (Einer, Zehner, Hunderter usw.) der Zahl n ist.
+       
+TAGGED_CONTENT:

@@ -1,0 +1,40 @@
+ID: 101859
+CREATION_DATETIME: 1292336005
+MODIFICATION_DATETIME: 1292336005
+TITLE: Probeklausur
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:3.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:DSL;weight:1.0;significance:3.40788095514863;degreegeneralization:8;uri:20919820
+TOPIC_ZOOM_TAG: value:Vodafone;weight:1.0;significance:3.11375122841582;degreegeneralization:9;uri:20299133
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:3.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Webtechnologie;weight:1.0;significance:2.59863154316596;degreegeneralization:7;uri:20990880
+TOPIC_ZOOM_TAG: value:Liebe;weight:1.0;significance:2.28163944654528;degreegeneralization:5;uri:21126234
+TOPIC_ZOOM_TAG: value:Studenten;weight:1.0;significance:2.22917538862813;degreegeneralization:5;uri:20994552
+TOPIC_ZOOM_TAG: value:Unternehmen im Bereich Telekommunikation;weight:1.0;significance:2.22197222718385;degreegeneralization:8;uri:21632783
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Telekommunikation;weight:1.0;significance:2.21260392907715;degreegeneralization:7;uri:21993013
+TOPIC_ZOOM_TAG: value:Telekommunikationsmarkt;weight:1.0;significance:2.21106782804841;degreegeneralization:6;uri:20204375
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:3.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:3.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Schüler, Studenten;weight:1.0;significance:2.14585369445854;degreegeneralization:4;uri:20920823
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:1.85709035932451;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Telekommunikation;weight:1.0;significance:1.80022557815674;degreegeneralization:5;uri:21990157
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:1.72691850917083;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:1.0;significance:1.65021443562739;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:World Wide Web;weight:1.0;significance:1.60103595539121;degreegeneralization:6;uri:20772430
+TOPIC_ZOOM_TAG: value:Partnerschaft, Ehe, Liebe, Sex;weight:1.0;significance:1.59326106453574;degreegeneralization:4;uri:21126268
+TOPIC_ZOOM_TAG: value:Technologieunternehmen;weight:1.0;significance:1.58460872691201;degreegeneralization:6;uri:20761754
+TOPIC_ZOOM_TAG: value:Zwischenmenschliche Beziehungen;weight:1.0;significance:1.50634246816194;degreegeneralization:3;uri:20122843
+TOPIC_ZOOM_TAG: value:Wirtschaftlicher Markt;weight:1.0;significance:1.47857450386118;degreegeneralization:3;uri:21308831
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:1.45634953740933;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.34943182699235;degreegeneralization:5;uri:21993370
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:1.33567892145369;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.28277805211091;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.27826712902651;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Unternehmen, Firmen und Firmengruppen;weight:1.0;significance:0.97027048096047;degreegeneralization:4;uri:21973565
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:0.962597203432263;degreegeneralization:2;uri:21306723
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:0.895641144893587;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:0.601531845751087;degreegeneralization:2;uri:21999847
+NER_TAG: value:DSL;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Studenten, Vodafone hat es immer noch nicht geschafft, mich mit DSL zu versorgen Unter Dateien habe ich eine &quot;alte&quot; Klausur zum Test eingestellt. <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

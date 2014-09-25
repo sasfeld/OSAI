@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="30841" moduleid="172875" modulename="forum" contextid="247263">
+  <forum id="30841">
+    <type>general</type>
+    <name>Fachforum zum Teil III</name>
+    <intro>Hier können Sie Fachfragen zum Teil III diskutieren. </intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1218802920</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="96671">
+        <name>Aufgabenblock III</name>
+        <firstpost>255747</firstpost>
+        <userid>12749</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1384697644</timemodified>
+        <usermodified>665</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="255747">
+            <parent>0</parent>
+            <userid>12749</userid>
+            <created>1384424790</created>
+            <modified>1384425265</modified>
+            <mailed>1</mailed>
+            <subject>Aufgabenblock III</subject>
+            <message>&lt;p&gt;Hallo,&lt;/p&gt;
+&lt;p&gt;hier eine Frage zum Aufgabenblock III, Aufgabe 5. Ich hatte den Normalenvektor aus ABxAC bestimmt und das ist natürlich ein anderer Vektor als aus ACxAB. Mein Normalenvektor hat den gleichen Betrag und ergibt mit dem Skalar -1 multipliziert ACxAB. Wäre das in der Klausur ok oder ist es besser immer im Zweifel beide Normalenvektoren anzugeben? &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="256493">
+            <parent>255747</parent>
+            <userid>665</userid>
+            <created>1384697644</created>
+            <modified>1384697644</modified>
+            <mailed>1</mailed>
+            <subject>Re: Aufgabenblock III</subject>
+            <message>&lt;p&gt;Hallo Herr Knuth,&lt;/p&gt;
+&lt;p&gt;so wie Sie es berechnet haben wäre es auch vollkommen o.k., das ergibt sich ja aus dem Asymmetriegesetz und die Reihenfolge bei der Bildung des Vektorproduktes war ja nicht vorgegeben.&lt;/p&gt;
+&lt;p&gt;Viele Grüße&lt;/p&gt;
+&lt;p&gt;Ulrike Bähr&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="98733">
+        <name>Musterlösung</name>
+        <firstpost>261025</firstpost>
+        <userid>13713</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1386099570</timemodified>
+        <usermodified>13713</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="261025">
+            <parent>0</parent>
+            <userid>13713</userid>
+            <created>1385994678</created>
+            <modified>1385994678</modified>
+            <mailed>1</mailed>
+            <subject>Musterlösung</subject>
+            <message>&lt;p&gt;Hallo Leute,&lt;/p&gt;
+&lt;p&gt;Frau Bähr meinte, dass ich meine Lösung der Einsendeaufgabe als Musterlösung hier stellen kann. Also hier ist sie. Grüße Miglena&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="261051">
+            <parent>261025</parent>
+            <userid>14571</userid>
+            <created>1386002815</created>
+            <modified>1386002815</modified>
+            <mailed>1</mailed>
+            <subject>Re: Musterlösung</subject>
+            <message>&lt;p&gt;Hallo Miglena,&lt;/p&gt;
+&lt;p&gt;Frau Bähr meinte, ich könnte meine Lösung auch als Musterlösung hochladen, was ich natürlich auch gerne mache.&lt;/p&gt;
+&lt;p&gt;VG an alle&lt;/p&gt;
+&lt;p&gt;Michael&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="261337">
+            <parent>261025</parent>
+            <userid>14525</userid>
+            <created>1386095371</created>
+            <modified>1386095371</modified>
+            <mailed>1</mailed>
+            <subject>Re: Musterlösung</subject>
+            <message>&lt;p style="text-align: left;"&gt;Hallo Miglena,&lt;/p&gt;
+&lt;p style="text-align: left;"&gt;hast du die Lösung mit Latex erstellt?&lt;/p&gt;
+&lt;p style="text-align: left;"&gt; &lt;/p&gt;
+&lt;p style="text-align: left;"&gt;Grüße,&lt;/p&gt;
+&lt;p style="text-align: left;"&gt;Steffi&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="261361">
+            <parent>261337</parent>
+            <userid>13713</userid>
+            <created>1386099570</created>
+            <modified>1386099570</modified>
+            <mailed>1</mailed>
+            <subject>Re: Musterlösung</subject>
+            <message>&lt;p&gt;Hi Steffi,&lt;/p&gt;
+&lt;p&gt;ich hab sie mit Latex geschrieben. Ich bin selber dabei es zu lernen und ich finde, dass es besser für Mathearbeiten passt.&lt;/p&gt;
+&lt;p&gt;Viele Grüße&lt;/p&gt;
+&lt;p&gt;Miglena&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="379331">
+        <userid>665</userid>
+      </subscription>
+      <subscription id="379745">
+        <userid>13713</userid>
+      </subscription>
+      <subscription id="379747">
+        <userid>14571</userid>
+      </subscription>
+      <subscription id="379777">
+        <userid>14525</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+      <read id="739467">
+        <userid>665</userid>
+        <discussionid>98733</discussionid>
+        <postid>261337</postid>
+        <firstread>1386172876</firstread>
+        <lastread>1386172876</lastread>
+      </read>
+      <read id="739469">
+        <userid>665</userid>
+        <discussionid>98733</discussionid>
+        <postid>261361</postid>
+        <firstread>1386172876</firstread>
+        <lastread>1386172876</lastread>
+      </read>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

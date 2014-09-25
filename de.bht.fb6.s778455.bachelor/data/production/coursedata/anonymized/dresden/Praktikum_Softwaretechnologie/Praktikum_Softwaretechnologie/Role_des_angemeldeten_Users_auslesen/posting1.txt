@@ -1,0 +1,10 @@
+ID: 2845
+CREATION_DATETIME: 1384383600000
+MODIFICATION_DATETIME: 1385506800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+ich hab eine Frage zu dem Login-Verfahren vom Videoshop. Ich hab es für unser Projekt übernommen und wollte fragen, ob man die <REMOVED_PERSON_ENTITY> des aktuell angemeldeten User irgendwie auslesen kann (am besten als Java-Befehl für den Controller). Ich möchte nämlich nach dem Login die User abhängig <NAME_CORPUS_REPLACEMENT> der <REMOVED_PERSON_ENTITY> auf verschiedene Seiten schicken.
+TAGGED_CONTENT:

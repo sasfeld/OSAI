@@ -1,0 +1,15 @@
+ID: 78
+CREATION_DATETIME: 1194620940000
+MODIFICATION_DATETIME: 1194620940000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 75
+CONTENT:
+ 
+ach ja, ich verstehe schon alleine nicht weshalb Eclipse meine Klasse Histogramm serialisieren möchte:
+
+"The serializable class Histogramm does not declare a static final serialVersionUID field of type long"
+
+?!
+	
+TAGGED_CONTENT:

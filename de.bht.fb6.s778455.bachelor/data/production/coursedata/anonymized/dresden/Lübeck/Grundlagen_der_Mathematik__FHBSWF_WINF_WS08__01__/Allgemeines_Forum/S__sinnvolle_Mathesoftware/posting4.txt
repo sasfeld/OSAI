@@ -1,0 +1,8 @@
+ID: 16537
+CREATION_DATETIME: 1223492929
+MODIFICATION_DATETIME: 1223492929
+TITLE: Re: S: sinnvolle Mathesoftware
+PARENT_POSTING_ID: 16535
+CONTENT:
+Hier noch ein kleiner Zusatz: die meisten Dinge lassen sich mit OpenOffice Math erledigen.
+TAGGED_CONTENT:

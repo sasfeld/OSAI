@@ -1,0 +1,23 @@
+ID: 115384
+CREATION_DATETIME: 1323519692
+MODIFICATION_DATETIME: 1323520743
+TITLE: Aufgabe 8b, LO8
+POS_TAG: value:Formel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Loesung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:Verhaeltnis;weight:0.0;uri:;postag:NN
+POS_TAG: value:REMOVEMENT;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Moin! Kann mir bitte jemand bei der Aufgabe 8b sagen, wie die Formel in der Loesung zustande kommt?
+Muss ich 
+d = b x c ins Verhaeltnis setzen zu
+|d| = |b x c|
+Also quasi 'd zu |d|' ist gleich 'b x c zu |b x c|' ?
+Kann man sich diese Formel immer so herleiten?
+Vielen Dank!
+<PERSONAL_GREETING_REMOVEMENT>
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Moin_NE !_$. Kann_VMFIN mir_PPER bitte_ADV jemand_PIS bei_APPR der_ART Aufgabe_NN 8b_CARD sagen_VVINF ,_$, wie_PWAV die_ART Formel_NN in_APPR der_ART Loesung_NN zustande_ADV kommt_VVFIN ?_$. Muss_KOUS ich_PPER d_FM =_XY b_XY x_XY c_XY ins_APPRART Verhaeltnis_NN setzen_VVINF zu_PTKZU |_XY d_FM |_XY =_XY |_CARD b_XY x_XY c_XY |_CARD Also_ADV quasi_ADV 'd_ADJD zu_PTKZU |_XY d_FM |_FM '_$( ist_VAFIN gleich_ADV '_$( b_XY x_XY c_XY zu_PTKZU |_XY b_XY x_XY c_XY |_CARD '_$( ?_$. Kann_VMFIN man_PIS sich_PRF diese_PDAT Formel_NN immer_ADV so_ADV herleiten_VVINF ?_$. Vielen_PIDAT Dank_NN !_$. <_XY PERSONAL_GREETING_REMOVEMENT_NN >_CARD <_XY REMOVED_PERSON_ENTITY_NE >_XY 

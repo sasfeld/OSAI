@@ -1,0 +1,9 @@
+ID: 2446
+CREATION_DATETIME: 1374616800000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: Richtig. Geprüft wird nur, was in V oder Ü präsentiert wurde. - ATM-Zellen gehören nicht dazu.
+PARENT_POSTING_ID: 2445
+POSTING_TYPE: answer
+CONTENT:
+Richtig. Geprüft wird nur, was in V oder Ü präsentiert wurde. - ATM-Zellen gehören nicht dazu.
+TAGGED_CONTENT:

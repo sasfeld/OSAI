@@ -1,0 +1,10 @@
+ID: 492
+CREATION_DATETIME: 1351029600000
+MODIFICATION_DATETIME: 1351029600000
+TITLE: I see that the one pr
+PARENT_POSTING_ID: 490
+POSTING_TYPE: comment
+CONTENT:
+I see that the one problem of my idea lies in the missing hardware support. But I am not sure if even there was some, one could solve this.
+Isn't that a security issue too?
+TAGGED_CONTENT:

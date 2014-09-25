@@ -1,0 +1,15 @@
+ID: 233
+CREATION_DATETIME: 1349820000000
+MODIFICATION_DATETIME: 1349820000000
+TITLE: Findet denn der LR am
+LANGUAGE: GERMAN
+NER_TAG: value:LR;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Woche;weight:0.0;uri:;postag:NN
+POS_TAG: value:LR;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 192
+POSTING_TYPE: comment
+CONTENT:
+Findet denn der LR am <REMOVED_PERSON_ENTITY> den 11. 10 statt oder auch erst in der nächsten Woche?
+TAGGED_CONTENT:
+Findet_VVFIN denn_ADV der_ART LR_NN am_APPRART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN den_ART 11_CARD ._$. 10_CARD statt_APPR oder_KON auch_ADV erst_ADV in_APPR der_ART nächsten_ADJA Woche_NN ?_$. 

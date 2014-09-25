@@ -1,0 +1,14 @@
+ID: 40
+CREATION_DATETIME: 1192640220000
+MODIFICATION_DATETIME: 1192640220000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 39
+CONTENT:
+  
+Lieber ,
+
+damit das Kopieren für jede Art von Datei klappt, der bessere Weg ist einfach Bytes lesen und schreiben. Dafür sind zum Beispiel die Klassen FileInputStream und FileOutputStream geeignet.
+Viel Erfolg!
+	
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 162169
+CREATION_DATETIME: 1348173344
+MODIFICATION_DATETIME: 1348173344
+TITLE: Praxisveranstaltung
+POS_TAG: value:Wochenende;weight:0.0;uri:;postag:NN
+POS_TAG: value:wei;weight:0.0;uri:;postag:NN
+POS_TAG: value:Praxisveranstaltung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+ 
+ist schon bekannt/weiß jemand wann die Praxisveranstaltung ist, am welchem Wochenende?
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, ist_VAFIN schon_ADV bekannt\/wei_NN ß_ADV jemand_PIS wann_PWAV die_ART Praxisveranstaltung_NN ist_VAFIN ,_$, am_APPRART welchem_PWAT Wochenende_NN ?_$. 

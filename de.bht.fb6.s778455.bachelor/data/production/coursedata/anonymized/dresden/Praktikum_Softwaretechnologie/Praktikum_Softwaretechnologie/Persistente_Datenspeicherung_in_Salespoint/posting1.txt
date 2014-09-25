@@ -1,0 +1,12 @@
+ID: 2968
+CREATION_DATETIME: 1385074800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+unsere Gruppe fragt sich gerade, wie wir unsere Kundendaten etc. in unserem Projekt persistent speichern können. 
+Gibt es <NAME_CORPUS_REPLACEMENT> eine einfache Lösung vom Salespoint-Framework oder andere empfohlene Möglichkeiten? Die <REMOVED_PERSON_ENTITY>, welche wir uns bisher überlegt haben, scheinen leider nicht sonderlich gut zu sein und ihre Grenzen zu haben.
+Vielen Dank!
+TAGGED_CONTENT:

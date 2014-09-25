@@ -1,0 +1,42 @@
+ID: 629
+CREATION_DATETIME: 1351724400000
+MODIFICATION_DATETIME: 1381874400000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Hausaufgaben;weight:1.0;significance:10.0694921856187;degreegeneralization:7;uri:20197932
+TOPIC_ZOOM_TAG: value:Schulunterricht;weight:1.0;significance:9.61750706187561;degreegeneralization:6;uri:20897550
+TOPIC_ZOOM_TAG: value:Unterricht;weight:1.0;significance:8.12358203656335;degreegeneralization:4;uri:20916930
+TOPIC_ZOOM_TAG: value:Server;weight:1.0;significance:7.26181214356762;degreegeneralization:7;uri:20185284
+TOPIC_ZOOM_TAG: value:Computernetzwerke;weight:1.0;significance:6.53268224512817;degreegeneralization:6;uri:21307726
+TOPIC_ZOOM_TAG: value:Schulen;weight:1.0;significance:5.87014431438658;degreegeneralization:5;uri:21882020
+TOPIC_ZOOM_TAG: value:Schulische Bildung und Erziehung;weight:1.0;significance:5.86693403875633;degreegeneralization:3;uri:21882122
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:5.57127107797354;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:1.0;significance:4.95064330688218;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:4.31013985980766;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Timeout;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Seite;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abgeben;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hausaufgaben;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+moodle funktioniert seit vorgestern oder gestern nicht mehr, kann das sein?
+
+Ich bekomme immer ein Server-Timeout, wenn ich versuche die moodle-Seite aufzurufen.
+
+Wie sieht das denn mit dem Abgeben der Hausaufgaben aus?
+
+Grüße
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, moodle_ADJD funktioniert_VVFIN seit_APPR vorgestern_ADV oder_KON gestern_ADV nicht_PTKNEG mehr_ADV ,_$, kann_VMFIN das_PDS sein_VAINF ?_$. Ich_PPER bekomme_VVFIN immer_ADV ein_ART Server-Timeout_NN ,_$, wenn_KOUS ich_PPER versuche_VVFIN die_ART moodle-Seite_NN aufzurufen_VVIZU ._$. Wie_PWAV sieht_VVFIN das_ART denn_ADV mit_APPR dem_ART Abgeben_NN der_ART Hausaufgaben_NN aus_PTKVZ ?_$. Grüße_NN <_NE REMOVED_PERSON_ENTITY_NE >_XY 

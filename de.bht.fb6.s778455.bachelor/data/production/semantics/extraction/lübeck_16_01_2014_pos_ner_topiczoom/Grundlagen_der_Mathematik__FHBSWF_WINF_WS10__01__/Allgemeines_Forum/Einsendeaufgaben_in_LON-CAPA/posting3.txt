@@ -1,0 +1,18 @@
+ID: 97746
+CREATION_DATETIME: 1285351459
+MODIFICATION_DATETIME: 1285351459
+TITLE: Re: Einsendeaufgaben in LON-CAPA
+POS_TAG: value:Wochenende;weight:0.0;uri:;postag:NN
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abend;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hiermit;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97745
+CONTENT:
+Guten Abend an alle,
+das stimmt, es funktioniert nicht, wie man das gerne hätte, jedoch gibt es eine Lösung zu diesem "Problem":  https://vita. ostfalia. de/adm/login?domain=fhwf 
+Hiermit sollte es funktionieren! 
+Einen schönen Abend noch und schönes Wochenende!
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Guten_ADJA Abend_NN an_APPR alle_PIS ,_$, das_PRELS stimmt_VVFIN ,_$, es_PPER funktioniert_VVFIN nicht_PTKNEG ,_$, wie_PWAV man_PIS das_ART gerne_ADV hätte_VAFIN ,_$, jedoch_ADV gibt_VVFIN es_PPER eine_ART Lösung_NN zu_APPR diesem_PDAT "_$( Problem_NN "_$( :_$. https:\/\/vita_VVINF ._$. ostfalia_NE ._$. de\/adm\/login_PDS ?_$. domain_XY =_XY fhwf_APPR Hiermit_NN sollte_VMFIN es_PPER funktionieren_VVINF !_$. Einen_ART schönen_ADJA Abend_NN noch_ADV und_KON schönes_ADJA Wochenende_NN !_$. <_XY REMOVED_PERSON_ENTITY_NE >_XY 

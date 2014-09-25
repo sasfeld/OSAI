@@ -1,0 +1,12 @@
+ID: 2363
+CREATION_DATETIME: 1374271200000
+MODIFICATION_DATETIME: 1374271200000
+TITLE: ich habe alle Plots als Pdf eingecheckt. Werde aber sicher noch einiges daran ändern. Zum beispiel wo...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2350
+POSTING_TYPE: comment
+CONTENT:
+ich habe alle Plots als Pdf eingecheckt. Werde aber sicher noch einiges daran ändern. Zum beispiel wollt ich schauen, ob es sich lohnt, je Kernel die gleiche Skala für alle Devices zu nehmen. 
+
+Einige Plots gefallen mir noch nicht - auch auf Grund der Daten. Ich werde später mit den aktualisierten Testdaten nochmal alles durchlaufen lassen
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 288
+CREATION_DATETIME: 1349992800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> es einige nicht mitbekommen haben:  
+
+Anmeldungen im Auditorium und das subscriben der Kurse ist **keine** Anmeldung zu den Kursen. Wer sich für die Kurse anmelden möchte, schreibt bitte eine Mail an [fredo@ifsr. de](mailto:fredo@ifsr. de).
+TAGGED_CONTENT:

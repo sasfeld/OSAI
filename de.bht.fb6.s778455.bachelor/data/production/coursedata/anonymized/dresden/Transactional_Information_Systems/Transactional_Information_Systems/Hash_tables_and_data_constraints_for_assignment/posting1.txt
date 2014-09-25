@@ -1,0 +1,10 @@
+ID: 891
+CREATION_DATETIME: 1354057200000
+MODIFICATION_DATETIME: 1383001200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hello,
+what constraints do we have on data? In other words what type of hash table should we implement? For example, if we create hash table with size of value domain we will guarantee $O(1)$ append/remove/find speed. <REMOVED_PERSON_ENTITY> this is the easiest type of hash table since collisions does not exist for them. But the price will be $O(\|D\|)$ memory consumption, where $\|D\|$ is the size of value domain. This is what we want if size of value domain is small and length of relations is big. But unacceptable for conversely data constraints.
+TAGGED_CONTENT:

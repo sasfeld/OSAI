@@ -1,0 +1,14 @@
+ID: 184109
+CREATION_DATETIME: 1354258313
+MODIFICATION_DATETIME: 1354258313
+TITLE: Re: ESA, Teil 1
+TOPIC_ZOOM_TAG: value:Nachbarn;weight:1.0;significance:8.39106140169762;degreegeneralization:4;uri:20804645
+TOPIC_ZOOM_TAG: value:Wohnen, Haus und Garten;weight:1.0;significance:4.99075330422034;degreegeneralization:3;uri:21125894
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+PARENT_POSTING_ID: 183515
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+wenn da steht "die <REMOVED_PERSON_ENTITY> der Knotenwerte seiner Nachbarn", dann ist das für mich eindeutig: Nur die Werte der Nachbarn werden addiert, nicht der jeweilige Knoten selbst.
+Grüße
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

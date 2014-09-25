@@ -1,0 +1,14 @@
+ID: 117568
+CREATION_DATETIME: 1328277960
+MODIFICATION_DATETIME: 1328277960
+TITLE: Re: Probeklausur
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=43909#117568
+POS_TAG: value:Probeklausur;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabentypen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klausur;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117564
+CONTENT:
+Wird sich die Probeklausur inhaltlich und von den Aufgabentypen her mit der eigentlichen Klausur ähneln?
+TAGGED_CONTENT:
+Wird_VAFIN sich_PRF die_ART Probeklausur_NN inhaltlich_ADJD und_KON von_APPR den_ART Aufgabentypen_NN her_APZR mit_APPR der_ART eigentlichen_ADJA Klausur_NN ähneln_VVINF ?_$. 

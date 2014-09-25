@@ -1,0 +1,8 @@
+ID: 117559
+CREATION_DATETIME: 1327328173
+MODIFICATION_DATETIME: 1327328504
+TITLE: Re: Probeklausur
+PARENT_POSTING_ID: 117557
+CONTENT:
+ LösungsansatzUnterstriche ignorieren (Formatierung)Nachdem du so eine Form hast (unendlich viele Lösungen)y_z_x1 -4 1 | -20 -6 3 | -30 _0 0 |_0Hast du 3 Gleichungssysteme:y - 4z + x = -2-6z + 3x = -30x = 0Für x kannste jede Zahl verwenden also eine freie Variable. x = tUm z herauszufinden muss du x in die 2. Gleichung einsetzen. z = R * RtUm x herauszufinden muss du x und z in die 1. Gleichung einsetzen. y = R * Rt 
+TAGGED_CONTENT:

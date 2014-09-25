@@ -1,0 +1,9 @@
+ID: 1952
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Die Frage bezieht sich eben darauf, wie man verdeckte Kanten und Punkte erkennt. Also deine Antwort h...
+PARENT_POSTING_ID: 1950
+POSTING_TYPE: comment
+CONTENT:
+Die Frage bezieht sich eben darauf, wie man verdeckte Kanten und Punkte erkennt. Also deine Antwort hilft mir sehr! :) Vielen vielen Dank!
+TAGGED_CONTENT:

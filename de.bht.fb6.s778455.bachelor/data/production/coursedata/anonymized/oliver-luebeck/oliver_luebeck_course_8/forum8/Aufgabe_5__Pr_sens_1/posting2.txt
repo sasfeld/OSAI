@@ -1,0 +1,54 @@
+ID: 30
+CREATION_DATETIME: 1195238340000
+MODIFICATION_DATETIME: 1195238340000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 29
+CONTENT:
+
+Hallo 
+
+"ich hatte nicht so genau verstanden, warum wir bei der equals-Methode "public boolean equals(Object ob) " verwenden und nicht public boolean equals(String s)."
+
+Wir möchten ja die Methode equals überschreiben, deswegen müssen wir die selbe Signatur verwenden. Die Methode equals wird von der Klasse Object geerbt (siehe z.B. http://dpunkt.de/java/Referenz/Das_Paket_java.lang/54.html), daher kommt der Parameter vom Typ Object.
+
+Deine Lösung ist richtig, allerdings etwas umständlich. Ausserdem fehlen mit dir Blöcke. Ich glaube mit Blöcken wäre es klarer:
+
+@Override
+public boolean equals(Object ob) {
+
+if (!(ob instanceof Konto)) {
+return false;
+}
+Konto k = (Konto) ob;
+boolean vergleich = k.nummer.equals(ob); //Die Klammern darum kannst Du dir sparen ;)
+if (vergleich == true) {
+System.out.println("Beide Konten sind identisch");
+} else {
+System.out.println("Konten sind nicht identisch");
+}
+return vergleich;
+}
+
+Du könntest das Ganze noch etwas vereinfachen, etwa so:
+
+@Override
+public boolean equals(Object ob) {
+
+if (!(ob instanceof Konto)) {
+return false;
+}
+Konto k = (Konto) ob;
+boolean vergleich = k.nummer.equals(ob); //Die Klammern darum kannst Du dir sparen ;)
+return vergleich;
+}
+
+Die Ausgabe auf der Konsole ist nicht falsch, da man sie sehr gut zur Kontrolle nutzen kann. Später ist das jedoch nicht notwendig oder kann ggf. durch ein Logging ersetzt werden.
+
+Grüße
+
+P.S.
+
+Noch ein kleiner Tip, statt if(vergleich == true) geht auch if(vergleich), da vergleich vom Typ boolean ist und so direkt ausgewertet werden kann ;)
+    
+TAGGED_CONTENT:

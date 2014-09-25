@@ -1,0 +1,27 @@
+ID: 23
+CREATION_DATETIME: 1194887460000
+MODIFICATION_DATETIME: 1194887460000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Liebe Studierende,
+
+ 
+
+die paint Methode ist in der Klasse java.awt.Component deklariert. Im Kommentar kann man lesen:
+
+This method is called when the contents of the component should be painted; such as when the component is first being shown or is damaged and in need of repair.
+
+In den Übungen der LE05 überschreiben Sie diese paint Methode.
+
+Als Experiment versuchen Sie das Folgende. Führen Sie eine Ausgabe in Ihrer paint Methode, etwa wie:
+
+System.out.println("die paint Methode wurde ausgerufen");
+
+und führen Sie Ihr Programm aus. Vergroessern Sie, verkleinern Sie, verdecken Sie Ihr Bild, und merken Sie dabei in der Konsole wie oft die paint Methode aufgerufen wird.
+
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

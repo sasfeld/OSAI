@@ -1,0 +1,14 @@
+ID: 115390
+CREATION_DATETIME: 1327844845
+MODIFICATION_DATETIME: 1327844845
+TITLE: Re: Frage zu den Aufgaben
+PARENT_POSTING_ID: 115389
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+nachdem Sie sich Ihre erste Frage selber beantwortet haben... :-)
+Nein, zwei <REMOVED_PERSON_ENTITY> (oder auch zwei Zeilen) können nicht multipliziert werden. Es geht nur:
+<REMOVED_PERSON_ENTITY> mal Spalte = Skalar (wobei die Anzahl der Elemente der Vektoren gleich sein müssen) oder 
+Spalte mal Zeile = Matrix z. B. (3x1) mal (1x5) ergibt eine (3x5) Matrix.
+Viele Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

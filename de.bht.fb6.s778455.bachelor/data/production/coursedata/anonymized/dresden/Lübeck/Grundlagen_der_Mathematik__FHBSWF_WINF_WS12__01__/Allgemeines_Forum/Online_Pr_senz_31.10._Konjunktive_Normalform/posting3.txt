@@ -1,0 +1,67 @@
+ID: 177407
+CREATION_DATETIME: 1352043980
+MODIFICATION_DATETIME: 1352043980
+TITLE: Re: Online Präsenz 31.10. Konjunktive Normalform
+PARENT_POSTING_ID: 176689
+CONTENT:
+Hi Lars,
+Danke für deine Antwort. Genau so wie Du es beschrieben hast, habe ich es ja auch verstanden. Was mich etwas stuzig macht ist folgendes:
+A
+B
+C
+A&lt;-&gt;B
+A UND C
+X
+1) 0
+0
+0
+1
+0
+1
+2) 0
+0
+1
+1
+0
+1
+1) 0
+1
+0
+0
+0
+0
+2) 0
+1
+1
+0
+0
+0
+3) 1
+0
+0
+0
+0
+0
+3) 1
+0
+1
+0
+1
+1
+4) 1
+1
+0
+1
+0
+1
+5) 1
+1
+1
+1
+1
+1
+Bei der konjunktiven Normalform heißt es, dass die hier rot eingefärbten Bereiche nicht gelten dürfen, damit x wahr ist. 
+Es müssen doch aber nicht die Ausdrücke 1) UND 2) UND 3) nicht nicht wahr sein, sondern es reicht doch auch aus, wenn z. B, 1) nicht nicht wahr ist, oder 2 oder auch 3. Odr sehe ich das falsch. Ich kann doch einen Ausdruck auch einzelnt betrachente.... oder nicht?
+Besten Dank und schönen Sonntag noch.
+<REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

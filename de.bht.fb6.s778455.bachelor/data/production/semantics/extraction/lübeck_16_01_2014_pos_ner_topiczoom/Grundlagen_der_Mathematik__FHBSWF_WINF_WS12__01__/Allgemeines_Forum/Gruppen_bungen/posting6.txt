@@ -1,0 +1,18 @@
+ID: 194033
+CREATION_DATETIME: 1358358839
+MODIFICATION_DATETIME: 1358358839
+TITLE: Re: Gruppenübungen
+POS_TAG: value:Rang;weight:0.0;uri:;postag:NN
+POS_TAG: value:E;weight:0.0;uri:;postag:NN
+POS_TAG: value:A;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ergebnis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:muss;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 193565
+CONTENT:
+Zur Aufgabe E eine Frage.
+Meine Ergebnis sieht so aus:1 0 0 -2   1  |0 50 1 0  1   0  |0 -10 0 1 -2  -1  |0 10 0 0  0   0  |0+t 0Komme zwar auch auf Null aber irgendwie sieht das anders aus...?
+Vermutlich hat sich einer von uns verrechent. Wo wir uns einig sind ist aber das Rang von A = Rang von A|b sein muss damit es lösbar ist. 
+TAGGED_CONTENT:
+Zur_APPRART Aufgabe_NN E_NN eine_ART Frage_NN ._$. Meine_PPOSAT Ergebnis_NN sieht_VVFIN so_ADV aus_APPR :1_CARD 0_CARD 0_CARD -2_CARD 1_CARD |_CARD 0_CARD 50_CARD 1_CARD 0_CARD 1_CARD 0_CARD |_CARD 0_CARD -10_CARD 0_CARD 1_CARD -2_CARD -1_CARD |_CARD 0_CARD 10_CARD 0_CARD 0_CARD 0_CARD 0_CARD |_CARD 0_CARD +_XY t_XY 0Komme_XY zwar_ADV auch_ADV auf_APPR Null_CARD aber_ADV irgendwie_ADV sieht_VVFIN das_PDS anders_ADV aus_APPR ..._$( ?_$. Vermutlich_ADV hat_VAFIN sich_PRF einer_PIS von_APPR uns_PPER verrechent_VVPP ._$. Wo_PWAV wir_PPER uns_PRF einig_ADJD sind_VAFIN ist_VAFIN aber_ADV das_ART Rang_NN von_APPR A_NN =_XY Rang_NN von_APPR A_NN |_CARD b_XY sein_PPOSAT muss_NN damit_PROAV es_PPER lösbar_ADJD ist_VAFIN ._$. 

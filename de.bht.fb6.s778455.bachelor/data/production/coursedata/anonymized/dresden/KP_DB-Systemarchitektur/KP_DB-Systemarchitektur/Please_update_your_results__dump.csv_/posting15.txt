@@ -1,0 +1,10 @@
+ID: 2395
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: Also ich pflege gerade noch die plots in die präsi ein und schicke sie dann erstmal tomas. allerdings...
+PARENT_POSTING_ID: 2382
+POSTING_TYPE: comment
+CONTENT:
+Also ich pflege gerade noch die plots in die präsi ein und schicke sie dann erstmal tomas. allerdings sind die daten der plots ja noch veraltet. Bitte unbedingt bis morgen mittag noch aktualisierte csv und plotts hochladen!
+und bitte jeder dann mal die präsentation angucken, ob das alles so in ordnung is
+TAGGED_CONTENT:

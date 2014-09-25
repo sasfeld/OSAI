@@ -1,0 +1,9 @@
+ID: 1015
+CREATION_DATETIME: 1357340400000
+MODIFICATION_DATETIME: 1357340400000
+TITLE: As I found out it should be mentioned that the Makefiles seem to look only for *.cc* files for C++ im...
+PARENT_POSTING_ID: 933
+POSTING_TYPE: comment
+CONTENT:
+As I found out it should be mentioned that the Makefiles seem to look only for *. cc* files for C++ implementations. Wrote all my stuff in *. cpp* files and wondered why they were ignored by *make*. After changing the file extension everything magically worked.
+TAGGED_CONTENT:

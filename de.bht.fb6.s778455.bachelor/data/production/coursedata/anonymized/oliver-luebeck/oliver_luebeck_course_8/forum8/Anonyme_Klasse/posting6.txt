@@ -1,0 +1,39 @@
+ID: 43
+CREATION_DATETIME: 1197212220000
+MODIFICATION_DATETIME: 1197212220000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 42
+CONTENT:
+
+ 
+Liebe , liebe Studierende,
+
+new MouseMotionListener() ist das Erzeugen eines Objekt vom Typ MouseMotionListener. Das Objekt ist hier auch anonym, ohne Namen. new ist wie immer die Anweisung, um ein Objekt zu erzeugen. Die anonyme Klasse kommt gleich danach (sie implementiert die 2 Methoden der Schnittstelle MouseMotionListener), hier
+{
+034
+035 /**
+036 * Maustaste gedrueckt - Methode wird aufgerufen wenn die Maustaste
+037 * gedruckt wird
+038 */
+039 @Override
+040 public void mouseDragged(MouseEvent mE) {
+041 // Maus-Koordinaten zwischenspeichern
+042 int x = mE.getX();
+043 int y = mE.getY();
+044 s = "Mouse-Position: ( " + x + " | " + y + " )";
+045
+046 // aktuelle Maus-Position im Label anzeigen
+047 l.setText(s);
+048 }
+049
+050 /** Mausbewegung - Methode wird aufgerufen wenn die Maus bewegt wird */
+051 @Override
+052 public void mouseMoved(MouseEvent mE) {
+053 // Keine Funktionalitaet
+054 }
+055 }
+
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

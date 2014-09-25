@@ -1,0 +1,8 @@
+ID: 110406005
+CREATION_DATETIME: 1349474400000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Softwaretechnologie II
+SUMMARY: 
+URL: http://st.inf.tu-dresden.de/teaching/swt2

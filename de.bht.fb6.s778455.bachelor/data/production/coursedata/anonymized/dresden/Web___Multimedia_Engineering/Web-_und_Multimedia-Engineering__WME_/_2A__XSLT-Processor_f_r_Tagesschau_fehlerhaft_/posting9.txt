@@ -1,0 +1,9 @@
+ID: 872
+CREATION_DATETIME: 1353970800000
+MODIFICATION_DATETIME: 1353970800000
+TITLE: korrekt, der NS muss natürlich vorher auch im Header eingebunden werden!
+PARENT_POSTING_ID: 869
+POSTING_TYPE: comment
+CONTENT:
+korrekt, der NS muss natürlich vorher auch im Header eingebunden werden!
+TAGGED_CONTENT:

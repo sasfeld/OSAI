@@ -1,0 +1,27 @@
+ID: 26
+CREATION_DATETIME: 1304546880000
+MODIFICATION_DATETIME: 1304546880000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 25
+CONTENT:
+ 
+Es ist so wie Hendrik gesagt hat. Es liegt am Package welches du nicht eingebunden hast.
+
+Versuch dir mal Eclipse zu installieren. http://www.eclipse.org/downloads/
+
+Am besten die 32 Bit Anwendung für JAVA.
+
+- Installieren, gegebenfalls JAVA SDK downloaden.
+- Eclipse Starten
+- Workspace auswählen. Beispielsweise (C:\Uni\Semester1\GdPro1\)
+- Danach JAVA Projekt anlegen Beispielsweise: LE09
+- Dann einfach das prog1.zip entpacken und dann einfach ab "vfh" kopieren und in den src Ordner einfügen
+
+Tja, schwierig das hier alles zu schreiben, was du machen musst. Ih hoffe du bekommst das so hin.
+
+Alternativ kannst du aus der Struktur auch die Konsole.java so einbinden wie du es auch bei LE09-2 mit der GUI.java gemacht hast.
+
+Gruß
+   
+TAGGED_CONTENT:

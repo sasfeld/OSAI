@@ -1,0 +1,12 @@
+ID: 1943
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: Die wird eben nicht gebaut, warum auch immer.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Die wird eben nicht gebaut, warum auch immer.
+
+"make[1]: Nothing to be done for `../CLeverTrustee'."  sagt mir Make unter anderem. Obwohl die lib eben noch nicht vorhanden ist
+TAGGED_CONTENT:

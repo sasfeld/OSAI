@@ -1,0 +1,9 @@
+ID: 2450
+CREATION_DATETIME: 1374616800000
+MODIFICATION_DATETIME: 1374616800000
+TITLE: c) und d) oh, natürlich, da habe ich aus versehen mit ner 250 rgerechnet
+PARENT_POSTING_ID: 2448
+POSTING_TYPE: comment
+CONTENT:
+c) und d) oh, natürlich, <NAME_CORPUS_REPLACEMENT> habe ich aus versehen mit ner 250 rgerechnet
+TAGGED_CONTENT:

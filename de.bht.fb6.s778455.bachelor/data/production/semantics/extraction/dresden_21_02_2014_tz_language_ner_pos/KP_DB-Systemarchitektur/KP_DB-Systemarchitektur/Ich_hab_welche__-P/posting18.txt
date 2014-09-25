@@ -1,0 +1,13 @@
+ID: 1997
+CREATION_DATETIME: 1370728800000
+MODIFICATION_DATETIME: 1370728800000
+TITLE: Lokal kann ich es eh nicht kompilieren aufgrund fehlender OpenCL-Treiber.
+LANGUAGE: GERMAN
+POS_TAG: value:Lokal;weight:0.0;uri:;postag:NN
+POS_TAG: value:Treiber;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1973
+POSTING_TYPE: comment
+CONTENT:
+Lokal kann ich es eh nicht kompilieren aufgrund fehlender OpenCL-Treiber.
+TAGGED_CONTENT:
+Lokal_NN kann_VMFIN ich_PPER es_PPER eh_ADV nicht_PTKNEG kompilieren_VVFIN aufgrund_APPR fehlender_ADJA OpenCL-Treiber_NN ._$. 

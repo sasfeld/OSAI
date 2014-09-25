@@ -1,0 +1,40 @@
+ID: 97793
+CREATION_DATETIME: 1287602278
+MODIFICATION_DATETIME: 1287602278
+TITLE: Erratum: Inverse von x^2
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:3.11251833203069;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:3.0;significance:2.68439071318007;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:5.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Natur;weight:3.0;significance:2.10133029879317;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:3.0;significance:1.40261207088345;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:2.0;significance:1.06103936782853;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Software;weight:1.0;significance:1.04204672889339;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:1.00484508951055;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:1.00156034414443;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Maschinen, Geräte und Apparate;weight:1.0;significance:0.949017889718992;degreegeneralization:4;uri:21993336
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:0.862027971961532;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:0.801407352872212;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:0.732333938482156;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:0.436258331183136;degreegeneralization:2;uri:21990259
+POS_TAG: value:Evaluieren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Software;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zugang;weight:0.0;uri:;postag:NN
+POS_TAG: value:Umkehrfunktion;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bildung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Quadratwurzel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Funktionen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Maschine;weight:0.0;uri:;postag:NN
+POS_TAG: value:Punkte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Inhalte;weight:0.0;uri:;postag:NN
+POS_TAG: value:B.;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Logarithmus;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Bei der Bildung von f^-1(x) mit f(x) = x^2 haette ich einige Punkte mehr berechnen sollen. Dann ergibt sich (selbstverstaendlich) die Umkehrfunktion von x^2 als sqrt(x) (Quadratwurzel).
+Der Logarithmus, z. B. lb(x) hat als Umkehrfunktion 2^x.
+Es gibt einen sehr guten Zugang zu Mathematik-Software zum Evaluieren von Funktionen auf http://www.wolframalpha.com/.
+Es ist eine <REMOVED_PERSON_ENTITY>- und Deduktions-Maschine fuer mathematisch-naturwissenschaftliche Inhalte.
+TAGGED_CONTENT:
+Bei_APPR der_ART Bildung_NN von_APPR f_VVFIN ^_XY -1_CARD -LRB-_TRUNC x_XY -RRB-_TRUNC mit_APPR f_VVFIN -LRB-_TRUNC x_XY -RRB-_TRUNC =_XY x_XY ^_CARD 2_CARD haette_VVFIN ich_PPER einige_PIAT Punkte_NN mehr_ADV berechnen_VVINF sollen_VMFIN ._$. Dann_ADV ergibt_VVFIN sich_PRF -LRB-_TRUNC selbstverstaendlich_ADJD -RRB-_TRUNC die_ART Umkehrfunktion_NN von_APPR x_XY ^_CARD 2_CARD als_APPR sqrt_ADJD -LRB-_TRUNC x_XY -RRB-_TRUNC -LRB-_TRUNC Quadratwurzel_NN -RRB-_TRUNC ._$. Der_ART Logarithmus_NN ,_$, z._APPRART B._NN lb_ADJD -LRB-_TRUNC x_XY -RRB-_TRUNC hat_VAFIN als_APPR Umkehrfunktion_NN 2_CARD ^_XY x._VVIMP Es_PPER gibt_VVFIN einen_ART sehr_ADV guten_ADJA Zugang_NN zu_PTKZU Mathematik-Software_NN zum_APPRART Evaluieren_NN von_APPR Funktionen_NN auf_APPR http:\/\/www.wolframalpha.com\/_NN ._$. Es_PPER ist_VAFIN eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN -_$( und_KON Deduktions-Maschine_NN fuer_ADJA mathematisch-naturwissenschaftliche_ADJA Inhalte_NN ._$. 

@@ -1,0 +1,36 @@
+ID: 16499
+CREATION_DATETIME: 1221232248
+MODIFICATION_DATETIME: 1221233148
+TITLE: Begrüßung und Organisatorisches
+TOPIC_ZOOM_TAG: value:Foren;weight:6.0;significance:7.65869350798439;degreegeneralization:3;uri:20770662
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:3.0;significance:2.18452430611399;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:E-Learning;weight:1.0;significance:2.11809158587232;degreegeneralization:5;uri:20127943
+TOPIC_ZOOM_TAG: value:Fachhochschulen;weight:1.0;significance:1.93498953776097;degreegeneralization:5;uri:21881935
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:2.0;significance:1.85709035932451;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:5.0;significance:1.8177430465964;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Braunschweig;weight:1.0;significance:1.39851023361627;degreegeneralization:13;uri:21799451
+TOPIC_ZOOM_TAG: value:Lernen;weight:1.0;significance:1.33019361608693;degreegeneralization:4;uri:20797964
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:2.0;significance:1.27826712902651;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Lehrer;weight:1.0;significance:1.22221185125829;degreegeneralization:4;uri:21627241
+TOPIC_ZOOM_TAG: value:E-Mail;weight:1.0;significance:1.17139615103614;degreegeneralization:7;uri:20901800
+TOPIC_ZOOM_TAG: value:Kommunikationsdienste;weight:1.0;significance:1.14224626550525;degreegeneralization:4;uri:20034732
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:1.0;significance:1.08399862544421;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:0.925785952275847;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Niedersachsen;weight:1.0;significance:0.902588639243523;degreegeneralization:10;uri:21996770
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:2.0;significance:0.895641144893587;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:0.863459254585413;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:0.837370907925462;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Internetdienste;weight:1.0;significance:0.835011121225497;degreegeneralization:6;uri:20772413
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:0.834633620120355;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:0.739585441573495;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:0.716279378747483;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Services und Dienstleistungen;weight:1.0;significance:0.704912274321803;degreegeneralization:4;uri:21993506
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:0.641389026055457;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Veranstaltungen;weight:1.0;significance:0.561753297019475;degreegeneralization:3;uri:20901494
+TOPIC_ZOOM_TAG: value:Deutschland;weight:1.0;significance:0.339294042427383;degreegeneralization:8;uri:21996974
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:0.300765922875543;degreegeneralization:2;uri:21999847
+TOPIC_ZOOM_TAG: value:Europa;weight:1.0;significance:0.259312802591718;degreegeneralization:6;uri:21972001
+PARENT_POSTING_ID: 0
+CONTENT:
+ Hallo Sie alle, hiermit begrüße ich Sie alle zur Ihrer Veranstaltung &quot;Grundlagen der Mathematik&quot;. Kurz zu meiner Person: Ich habe an der TU-Braunschweig Informatik studiert und beschäftige mich schon länger mit E-Learning. Seit 1. 10. 7 bin ich als Lehrkraft (nicht Professor) an der Fh BS/WF tätig. Allerdings habe ich davor schon im Projekt Virtuelle Fachhochschule mitentwickelt und in Lehraufträgen seit einigen Jahren mehrere Fächer unterrichtet. Die Organisation des Moduls ist folgende:Im News- Forum finden sie wichtige Ankündigungen. Im Allgemeinen Forum können Sie modulbezogene oder studienbezogene, z. B. organisatorische Themen diskutieren, ausgenommen die Inhalte des Moduls. Im Fachforum können Sie Themen diskutieren, die sich auf Inhalte des Moduls oder Aufgabeninhalte beziehen. Bitte benutzen Sie zum Diskutieren die Foren. Bei E-Mails behalte ich mir vor, die gestellte fachliche Frage anonymisiert ins Forum zu posten, weil die Antworten meistens alle interessieren. Also, fragen Sie bitte direkt im Forum. Unter Kursplan finden Sie beizeiten wichtige Informationen zu den Inhalten des Moduls und zu einer <REMOVED_PERSON_ENTITY> zur Zeiteinteilung. Sie sollten dieses umfangreiche und schwierige Modul weitgehend im Selbststudium erarbeiten. Ziel der Präsenz(en?) ist das Aufarbeiten von schwierigen Fragestellungen, das Bearbeiten von Aufgaben / <REMOVED_PERSON_ENTITY> von Lösungen und somit das Vertiefen der Inhalte. Dies setzt voraus, dass Sie sich vor den Präsenzen intensiv mit den Inhalten des Moduls auseinandersetzen, da wir in den wenigen Präsenzstunden nicht das Modul durchgehen können. Weitere Informationen zu Präsenzen, Einsendeaufgaben, regelmäßigen Videochats und zur Klausur finden Sie zum gegebenen Zeitpunkt in weiteren News-Forums-Beiträgen. Willkommen im Kurs, A. <REMOVED_PERSON_ENTITY>. 
+TAGGED_CONTENT:

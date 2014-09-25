@@ -1,0 +1,12 @@
+ID: 2925
+CREATION_DATETIME: 1384815600000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: Ja gibt es.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2924
+POSTING_TYPE: answer
+CONTENT:
+Ja gibt es.
+
+Ich habe sogar einen Link in der RegistrationForm-Klasse drauf gesetzt. http://docs.oracle.com/javaee/6/tutorial/doc/gircz. html Den Rest bekommst du sicher selber raus. :D
+TAGGED_CONTENT:

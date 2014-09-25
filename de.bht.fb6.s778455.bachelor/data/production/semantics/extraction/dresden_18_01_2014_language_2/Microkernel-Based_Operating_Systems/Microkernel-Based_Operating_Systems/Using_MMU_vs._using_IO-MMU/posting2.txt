@@ -1,0 +1,10 @@
+ID: 1648
+CREATION_DATETIME: 1364252400000
+MODIFICATION_DATETIME: 1364252400000
+TITLE: Just for completeness: Device memory is part of the physical memory. There is no difference (apart fr...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1636
+POSTING_TYPE: comment
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> for completeness: Device memory is part of the physical memory. There is no difference (apart from caching issues) between RAM and device memory as far as the CPU/MMU is concerned.
+TAGGED_CONTENT:

@@ -1,0 +1,11 @@
+ID: 2670
+CREATION_DATETIME: 1383174000000
+MODIFICATION_DATETIME: 1383174000000
+TITLE: @Guestbook - nein, dass sollte nichts ausmachen.
+@Änderungen - kein Ding, sowas passiert ab und zu s...
+PARENT_POSTING_ID: 2662
+POSTING_TYPE: comment
+CONTENT:
+@Guestbook - nein, dass sollte nichts ausmachen.
+@<REMOVED_PERSON_ENTITY> - kein Ding, sowas passiert ab und zu schnell mal. Das Eclipse sieht scheinbar immer noch den Zustand, dass du - zum Beheben des Warnings - die Version der Hibernate Validator Dependency entfernt hast. Die daraus resultierende (4. irgendwas) passt jetzt aber nicht mit der API Version 1. 1 zusammen. D. h. ich nehme an, du hast dich beim "Verbessern" des Projektes in einer Versionsinkompatibilität verirrt. Deswegen - ein Projektneuimport ist eigentlich keine gute Lösung, sollte aber hier in dem Fall dem Eclipse auf die Sprünge helfen.
+TAGGED_CONTENT:

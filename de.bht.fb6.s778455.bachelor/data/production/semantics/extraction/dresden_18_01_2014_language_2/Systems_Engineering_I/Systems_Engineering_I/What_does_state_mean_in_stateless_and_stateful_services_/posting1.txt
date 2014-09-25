@@ -1,0 +1,10 @@
+ID: 2282
+CREATION_DATETIME: 1374012000000
+MODIFICATION_DATETIME: 1382914800000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+In stateless and stateful services, what does state mean? What is included in the state information?
+TAGGED_CONTENT:

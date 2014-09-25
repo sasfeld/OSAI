@@ -1,0 +1,10 @@
+ID: 2112
+CREATION_DATETIME: 1372370400000
+MODIFICATION_DATETIME: 1373839200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo. In der Aufgabe Queue bekomme ich immer die Fehlermeldung "Some input files use unchecked or unsafe operations". In BlueJ ist das bloß eine Warnung, aber im Praktomaten der einzige Grund, warum das ganze nicht kompiliert! Eine bestimmte Stelle wird nicht angezeigt, und deshalb weiß ich nicht, wo ich nach dem Fehler suchen soll. Casts kommen nicht vor, das kann also nicht die Ursache sein. Was kommt noch in Frage?
+TAGGED_CONTENT:

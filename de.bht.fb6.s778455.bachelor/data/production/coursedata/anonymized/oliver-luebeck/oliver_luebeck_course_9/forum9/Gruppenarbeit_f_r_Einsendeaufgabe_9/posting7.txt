@@ -1,0 +1,15 @@
+ID: 52
+CREATION_DATETIME: 1179732780000
+MODIFICATION_DATETIME: 1179732780000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 51
+CONTENT:
+   
+Hallo ,
+
+ich bin leider genau so spät und habe auch noch niemanden...
+
+Gruß,
+   
+TAGGED_CONTENT:

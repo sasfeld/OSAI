@@ -1,0 +1,21 @@
+ID: 51
+CREATION_DATETIME: 1193340360000
+MODIFICATION_DATETIME: 1193340360000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 46
+CONTENT:
+ 
+Hallo,
+
+habe auch noch ein Problem mit der Aufgabe:
+
+Ich möchte aus RechnerTest die Methode rechnen aufrufen:
+
+ergebnisInt = IntRechner.rechnen(zahl1,zahl2);
+
+erhalte aber den Fehler "Cannot make a static reference to the non-static method rechnen(String, String) from the type IntRechner".
+
+public String[] rechnen(String number1, String number2) kann ich aber nicht auf static setzen. Jemand eine Idee?
+	
+TAGGED_CONTENT:

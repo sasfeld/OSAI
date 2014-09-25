@@ -1,0 +1,26 @@
+ID: 1175
+CREATION_DATETIME: 1362438000000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: example_player.c:43ff :: Hier liest der Spieler mithilfe von fscanf ('man fscanf' auf ner Linux Konso...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 1168
+POSTING_TYPE: answer
+CONTENT:
+example_player. c:43ff :: Hier liest der <REMOVED_PERSON_ENTITY> mithilfe <NAME_CORPUS_REPLACEMENT> fscanf ('man fscanf' auf ner Linux Konsole bringt die die manual page) <NAME_CORPUS_REPLACEMENT> state_input. Und zwar einen formatierten String bestehend aus drei unsigned Variablen und einer character Variable. 
+
+Reihenfolge: current_player, unplaced_pieces[0] unplaced_pieces[1], newline
+
+Ergo in current_player steht ne Zahl: 0 oder 1. Mit unplaced_pieces[current_player] erhälst du die noch verfügbaren <REMOVED_PERSON_ENTITY> des aktuellen Spielers, also <NAME_CORPUS_REPLACEMENT> dir. In Zeile 6 steht eine Funktion( num2sym(..) ) die aus der Zahl in current_player ein Character macht.
+
+Nun zu der matches Variable: 
+
+Mit 'man fscanf' kannst du dir die manual page <NAME_CORPUS_REPLACEMENT> fscanf anzeigen lassen. Dort steht dann zum Beispiel der Rückgabetyp: int; die verschiedenen Parameter: FILE*, const char*, ...; und ganz unten gibt es auch noch einen Abschnitt 'RETURN VALUE'.
+
+Konkret: Matches ist der Rückgabewert <NAME_CORPUS_REPLACEMENT> fscanf. Im ersten IF wird geprüft ob dein in piece_kill gelesener Wert(char) KEIN newline-Zeichen ist, dann wird ein zweiter char gelesen und matches überschrieben. 
+
+Wie du unter RETURN VALUE lesen kannst, ist der Wert <NAME_CORPUS_REPLACEMENT> matches jetzt die Anzahl der gelesenen Zeichen, falls alles gut lief. Also immer 1. Falls was schief lief ist der Wert 0 oder kleiner Null (Error values sind immer kleiner Null). Falls also matches nicht gleich 1 ist, dann lief was und der example_player fällt aus der while(1) Schleife (wegen break) und beendet sich.
+
+Den Kommunikationscode aus dem example_player. c dürft ihr auch kopieren. Daran sollt ihr euch nicht aufhalten.
+
+Gruß
+TAGGED_CONTENT:

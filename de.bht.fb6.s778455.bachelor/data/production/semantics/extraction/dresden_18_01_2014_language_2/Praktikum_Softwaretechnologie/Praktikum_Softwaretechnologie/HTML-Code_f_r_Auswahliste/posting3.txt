@@ -1,0 +1,12 @@
+ID: 2989
+CREATION_DATETIME: 1385247600000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: `<select>...</select>` nicht `<selection>`. Um solchen Code darstellen zu können im Fließtext musst d...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2987
+POSTING_TYPE: comment
+CONTENT:
+`...` nicht ``. Um solchen Code darstellen zu können hier auf auditorium im Fließtext, musst du die `inline code`-Symbole nutzen: 
+
+    `inline code`
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1847
+CREATION_DATETIME: 1369087200000
+MODIFICATION_DATETIME: 1369087200000
+TITLE: Das sind die Parameter, die der Nutzer seinem Kernel übergeben möchte. Dabei gibt es dann noch eine U...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Das sind die Parameter, die der Nutzer seinem Kernel übergeben möchte. Dabei gibt es dann noch eine Unterscheidung zwischen Inputparametern, welche also nur den Kernel weitergereicht werden und Outputparameter, welche wir dem Nutzer nach Ausführung des Kernels zurückliefern wollen.
+TAGGED_CONTENT:

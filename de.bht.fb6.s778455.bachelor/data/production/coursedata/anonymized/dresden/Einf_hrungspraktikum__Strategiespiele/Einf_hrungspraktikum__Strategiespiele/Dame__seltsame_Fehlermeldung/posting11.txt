@@ -1,0 +1,19 @@
+ID: 1398
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: ich hab meinen reset um
+```ruby
+destroy(morejumps[q]);
+			morejumps[q] = 0;
+```
+ergänzt
+PARENT_POSTING_ID: 1372
+POSTING_TYPE: comment
+CONTENT:
+ich hab meinen reset um
+```
+destroy(morejumps[q]);
+			morejumps[q] = 0;
+```
+ergänzt
+TAGGED_CONTENT:

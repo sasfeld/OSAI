@@ -1,0 +1,11 @@
+ID: 54
+CREATION_DATETIME: 1179765360000
+MODIFICATION_DATETIME: 1179765360000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 46
+CONTENT:
+  
+Bin wieder auf der Suche nach einem Partner für die Arbeit. Ist noch jemand ohne?
+   
+TAGGED_CONTENT:

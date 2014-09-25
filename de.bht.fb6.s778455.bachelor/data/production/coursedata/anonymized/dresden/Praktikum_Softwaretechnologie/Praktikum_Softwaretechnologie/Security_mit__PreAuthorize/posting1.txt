@@ -1,0 +1,39 @@
+ID: 2702
+CREATION_DATETIME: 1383519600000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+Ich will gerade den Videoshop etwas sicherer machen, indem gewisse URLs nicht ohne Anmeldung zugänglich sind. Dazu wollte ich @PreAuthorize verwenden aus Spring. Folgende applikation-security. xml habe ich dafür angelegt:
+```xml
+<?xml version="1. 0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3. org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3. 0. xsd
+http://www.springframework.org/schema/security
+http://www.springframework.org/schema/security/spring-security-3. 0. 3. xsd">
+		<intercept-url pattern="/customers" access="hasRole('ROLE_BOSS')" />
+```
+/customers soll also nur für den boss zugänglich sein. Dazu noch im Controller:
+```java
+        @PreAuthorize("hasRole('ROLE_BOSS')")
+	@RequestMapping("/customers")
+```
+Die web. xml sieht dazu so aus:
+```xml
+<?xml version="1. 0" encoding="ISO-8859-1" ?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3. org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4. xsd"
+    version="2. 4">
+  springSecurityFilterChain
+  org. springframework. web. filter. DelegatingFilterProxy
+  springSecurityFilterChain
+  /customers
+```
+Frage: Warum funktioniert es nicht? Eigentlich müsste doch die URL jetzt abgefangen werden?
+TAGGED_CONTENT:

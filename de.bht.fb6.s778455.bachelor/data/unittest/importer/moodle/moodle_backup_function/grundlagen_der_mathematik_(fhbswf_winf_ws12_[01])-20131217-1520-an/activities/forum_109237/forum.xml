@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="22247" moduleid="109237" modulename="forum" contextid="153095">
+  <forum id="22247">
+    <type>general</type>
+    <name>Fachforum zum Teil II</name>
+    <intro>Hier können Sie Fachfragen zum Teil II diskutieren. </intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1218802758</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="66375">
+        <name>Aussagenlogische Formel auflösen</name>
+        <firstpost>178349</firstpost>
+        <userid>3685</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1352230649</timemodified>
+        <usermodified>3685</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="178349">
+            <parent>0</parent>
+            <userid>3685</userid>
+            <created>1352230649</created>
+            <modified>1352230649</modified>
+            <mailed>1</mailed>
+            <subject>Aussagenlogische Formel auflösen</subject>
+            <message>&lt;p&gt;Hallo zusammen,&lt;/p&gt;
+&lt;p&gt;Kann mir jemand von euch eventuell mal kurz erklären wie ich folgende Aussagenlogische Formel vereinfachen kann, so dass man erkennt, dass die Formel eine nicht erfüllbare Lösung beinhaltet?&lt;/p&gt;
+&lt;p&gt;NICHT((A-&amp;gt;B) UND A-&amp;gt;B) UND C&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;Irgendwie stehe ich auf den Schlauch und weiß nicht genau wie ich hier heran gehen soll. Klar man kann die Negationen und die Implikationen auflösen aber wie geht es denn weiter.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;Eventuell kann mir jemand von euch die Aufgabe einmal vorrechen.&lt;/p&gt;
+&lt;p&gt;Schon einmal besten Dank!&lt;/p&gt;
+&lt;p&gt;Gruß&lt;/p&gt;
+&lt;p&gt;Pascal&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="239781">
+        <userid>3685</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

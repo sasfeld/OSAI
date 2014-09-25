@@ -1,0 +1,8 @@
+ID: 13464
+MODIFICATION_DATETIME: 1317638385
+TITLE: Wichtige Ankündigungen
+LANGUAGE: UNKNOWN
+POS_TAG: value:ndigungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Neuigkeiten;weight:0.0;uri:;postag:NN
+INTRO: <p>Neuigkeiten und Ankündigungen</p>
+TYPE: news

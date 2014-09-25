@@ -1,0 +1,11 @@
+ID: 2581
+CREATION_DATETIME: 1382047200000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Our tutor has instructed us to use the proprietary Software MagicDraw. What is the reason for this instruction? There are Free Software Tools, that have all features that are necessary to solve the task!?
+Best Regards,
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

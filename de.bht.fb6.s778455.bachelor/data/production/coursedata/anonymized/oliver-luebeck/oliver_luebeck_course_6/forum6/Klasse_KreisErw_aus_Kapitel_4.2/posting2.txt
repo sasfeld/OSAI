@@ -1,0 +1,20 @@
+ID: 28
+CREATION_DATETIME: 1287249720000
+MODIFICATION_DATETIME: 1287249720000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 27
+CONTENT:
+
+Hallo :
+private double _radius;
+KreisErw(double i_radius) {
+_radius=i_radius;
+}
+hier sind es 2 verschiedene Variablen-Namen.
+Wenn die Objektvariable statt _radius (ohne i) auch i_radius heißen würde, wäre es: private double i_radius;
+KreisErw(double i_radius) {
+this.i_radius=i_radius;
+}
+	
+TAGGED_CONTENT:

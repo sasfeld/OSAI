@@ -1,0 +1,14 @@
+ID: 2529
+CREATION_DATETIME: 1376517600000
+MODIFICATION_DATETIME: 1385334000000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+In last chapter eye tracking on page 27/28 the term "gaze mask" is used, but what exactly is it? An example* or a reference* would be very helpful.
+
+*Yes, I googled it. 
+
+*Yes, there was a reference but it has not been published yet.
+TAGGED_CONTENT:

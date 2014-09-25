@@ -1,0 +1,12 @@
+ID: 1765
+CREATION_DATETIME: 1367013600000
+MODIFICATION_DATETIME: 1367013600000
+TITLE: One should add, a client poll is induced on server side after a period of time due to the maximum con...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1763
+POSTING_TYPE: comment
+CONTENT:
+One should add, a client poll is induced on server side after a period of time due to the maximum connection keep alive time (due to both server connection handling as well as TCP connection handling). Before the maximum connection keep alive time is reached, a message part as described is sent to the client, inducing the triggering of a new GET- or POST-request (i. e. a new poll).
+
+Also, one should consider that some implementations prevent the client from repolling on its own as the push-connection is kept alive, leading to a too high connection count (refer to HTTP 1. 1 specification, section 8. 1. 4). To circumvent this effect, two separate TCP-connections should be established. One to the original server serving the main resource, and one to a differently name-qualified push-server. Then, the client <NAME_CORPUS_REPLACEMENT> receive the pushs from the push-server while maintaining the ability to sent new polls to the main resource.
+TAGGED_CONTENT:

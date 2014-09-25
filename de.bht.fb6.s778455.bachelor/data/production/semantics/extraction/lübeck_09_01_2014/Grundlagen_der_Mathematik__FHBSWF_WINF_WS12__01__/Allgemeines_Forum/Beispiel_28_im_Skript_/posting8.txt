@@ -1,0 +1,10 @@
+ID: 194833
+CREATION_DATETIME: 1358612558
+MODIFICATION_DATETIME: 1358612558
+TITLE: Re: Beispiel 28 im Skript....
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 194831
+CONTENT:
+Jups. Mir ging es eigentlich nur darum, dass du immer x2 statt x3 in der zweiten Zeile geschrieben hast, was meiner Meinung nach halt nicht korrekt erschien. :)
+GrüßeLars
+TAGGED_CONTENT:

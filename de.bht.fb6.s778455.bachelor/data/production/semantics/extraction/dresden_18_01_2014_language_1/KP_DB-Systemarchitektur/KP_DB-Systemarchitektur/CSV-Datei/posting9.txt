@@ -1,0 +1,10 @@
+ID: 2212
+CREATION_DATETIME: 1373493600000
+MODIFICATION_DATETIME: 1373493600000
+TITLE: Müssen die Folien selbsterklärend sein? Ich wollte eigentlich dazu sprechen.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2209
+POSTING_TYPE: comment
+CONTENT:
+Müssen die Folien selbsterklärend sein? Ich wollte eigentlich dazu sprechen.
+TAGGED_CONTENT:

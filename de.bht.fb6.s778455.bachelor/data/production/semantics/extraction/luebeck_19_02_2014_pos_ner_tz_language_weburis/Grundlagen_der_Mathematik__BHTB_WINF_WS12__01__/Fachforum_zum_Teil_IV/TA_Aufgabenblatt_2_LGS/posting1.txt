@@ -1,0 +1,13 @@
+ID: 193111
+CREATION_DATETIME: 1358085894
+MODIFICATION_DATETIME: 1358085894
+TITLE: TA_Aufgabenblatt_2_LGS
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=72319#193111
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+In der Lösung zu Aufgabe c punkt III müsste "x - 2/3z - z = 0" stehen
+TAGGED_CONTENT:
+In_APPR der_ART Lösung_NN zu_APPR Aufgabe_NN c_VVFIN punkt_ADJD III_CARD müsste_VVFIN "_$( x_XY -_$( 2\/3z_CARD -_$( z_XY =_XY 0_CARD "_$( stehen_VVFIN 

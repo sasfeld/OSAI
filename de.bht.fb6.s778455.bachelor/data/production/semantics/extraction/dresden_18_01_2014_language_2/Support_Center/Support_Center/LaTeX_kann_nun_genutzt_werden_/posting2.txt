@@ -1,0 +1,14 @@
+ID: 179
+CREATION_DATETIME: 1348696800000
+MODIFICATION_DATETIME: 1351116000000
+TITLE: Ah sehr gut aber in L
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 178
+POSTING_TYPE: comment
+CONTENT:
+Ah sehr gut aber in Latex werden die mit Dollarzeichen gekapselten Abschnitte speziell behandelt in einem Mathematische Modus. Kann ich davon ausgehen das hier ebenfalls "nur" der Mathematische Modus gemeint ist oder können auch andere Latex konstrukte zur formatierung genutzt werden? (z. B.  extbf{} oder Listenkonstrukte)
+
+$$\\begin{itemize}\\item{test1}\\item{test2}\\item{test3}\\end{itemize}$$
+
+.. OK ich habs mir grad selbst beantwortet :-D
+TAGGED_CONTENT:

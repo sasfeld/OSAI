@@ -1,0 +1,18 @@
+ID: 316
+CREATION_DATETIME: 1350079200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+#### Ich habe zwar eine Mail geschickt, aber noch keine Antwort ####
+Gib mir bitte zwei <REMOVED_PERSON_ENTITY>, dir zu antworten, auch ich brauche zwischendurch Schlaf und studiere noch. Wenn die zwei Tage rum sind, schau bitte, ob die Mail auch an die richtige Adresse ([fredo@ifsr. de](mailto:fredo@ifsr. de)) ging. Mails, die an die Liste ([programmierung@ifsr. de](mailto:programmierung@ifsr. de)) gehen, verlieren sich theorethisch manchmal im Moderationsdschungel. Im Zweifelsfall schick einfach nochmal eine Nachfrage.
+#### Ich stehe auf der Warteliste, habe ich noch eine Chance, teilzunehmen? ####
+Ja. Erfahrungsgemäß springen Leute ab, oder entscheiden sich für einen der beiden Kurse. Die frei werdenden Plätze werden schnellstmöglich aufgefüllt. Damit niemand einfach so mittendrin einsteigt, werde ich sicher noch etwas anbieten, um den vorherigen <REMOVED_PERSON_ENTITY> aufzuholen.
+#### Woran merke ich, dass ich nachrücke? ####
+Du bekommst eine Mail, die dir sagt, dass du nachgerückt bist.
+#### Wird es das Kursmaterial online geben? ####
+Das kann ich noch nicht versprechen, strebe es aber an.
+#### Warum ist die Teilnehmerzahl begrenzt? ####
+Wir haben nur eine geringe <REMOVED_PERSON_ENTITY> an Tutoren und jeder Tutor kann nicht unbegrenzt viele Studenten effektiv betreuen. Außerdem soll jeder seinen eigenen Arbeitsplatz haben - <NAME_CORPUS_REPLACEMENT> Danebensitzen und Zuschauen lernt man nicht viel.
+TAGGED_CONTENT:

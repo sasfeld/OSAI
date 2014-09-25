@@ -1,0 +1,9 @@
+ID: 2312
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Ahja, dasselbe Fehlerbild hatte ich auch bei mir. Deshalb denke ich, dass im Kernelcode selbst Zugrif...
+PARENT_POSTING_ID: 2189
+POSTING_TYPE: comment
+CONTENT:
+<REMOVED_PERSON_ENTITY>, dasselbe Fehlerbild hatte ich auch bei mir. Deshalb denke ich, dass im Kernelcode selbst Zugriffsfehler sind. Denn wie die Logausgabe zeitgt, tritt der Fehler erst auf, wenn das ganze auf der CPU ausgeführt wird, weil die sich beschwert, wenn man in ungültige Speicherbereiche schreibt. Bei einer GPU wird das oft unter den Teppich gekehrt
+TAGGED_CONTENT:

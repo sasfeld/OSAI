@@ -1,0 +1,9 @@
+ID: 1034
+CREATION_DATETIME: 1357858800000
+MODIFICATION_DATETIME: 1357858800000
+TITLE: Schön zu hören, dass schnelle Lösungen gefunden werden :)
+PARENT_POSTING_ID: 1033
+POSTING_TYPE: comment
+CONTENT:
+Schön zu hören, dass schnelle Lösungen gefunden werden :)
+TAGGED_CONTENT:

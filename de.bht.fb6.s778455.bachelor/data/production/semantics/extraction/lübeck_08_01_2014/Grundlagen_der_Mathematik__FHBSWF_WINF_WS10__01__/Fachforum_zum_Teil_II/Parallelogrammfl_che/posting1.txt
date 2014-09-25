@@ -1,0 +1,8 @@
+ID: 97805
+CREATION_DATETIME: 1292760174
+MODIFICATION_DATETIME: 1292760174
+TITLE: Parallelogrammfläche
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo, kann mir mal bitte Jemand auf die Sprünge helfen, wo hier der Fehler sein soll? Ist doch genau das, was wir bei der letzten Präsenz durchgenommen haben. 
+TAGGED_CONTENT:

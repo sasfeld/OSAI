@@ -1,0 +1,12 @@
+ID: 16513
+CREATION_DATETIME: 1231862366
+MODIFICATION_DATETIME: 1231862366
+TITLE: Videochats regelmäßig wöchentlich
+POS_TAG: value:Videochats;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klausur;weight:0.0;uri:;postag:NN
+POS_TAG: value:MfG;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+ Hallo Sie alle,  die Videochats finden mindestens bis zur Klausur wieder regelmäßig wöchentlich statt.  MfG, al. 
+TAGGED_CONTENT:
+Hallo_ITJ Sie_PPER alle_PIS ,_$, die_PRELS Videochats_NN finden_VVFIN mindestens_ADV bis_APPR zur_APPRART Klausur_NN wieder_ADV regelmäßig_ADJD wöchentlich_ADJD statt_PTKVZ ._$. MfG_NN ,_$, al._ADV ._$. 

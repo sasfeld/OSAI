@@ -1,0 +1,16 @@
+ID: 2770
+CREATION_DATETIME: 1384038000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Hier ein sehr guter Vortrag zu Multipath TCP, der beim vorletzten IETF-Meeting gehalten wurde:
+
+http://www.youtube.com/watch?v=Wp0Kr3B64tA
+
+Multipath TCP wird in Grundzügen auch in der nächsten Vorlesung behandelt...
+
+Achtung: Der Ton wird erst nach über 8 Minuten verständlich.
+TAGGED_CONTENT:

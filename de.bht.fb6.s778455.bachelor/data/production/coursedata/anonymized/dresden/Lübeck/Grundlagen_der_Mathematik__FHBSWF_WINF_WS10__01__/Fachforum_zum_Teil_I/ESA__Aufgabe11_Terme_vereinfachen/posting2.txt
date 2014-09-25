@@ -1,0 +1,13 @@
+ID: 97796
+CREATION_DATETIME: 1287837345
+MODIFICATION_DATETIME: 1287837345
+TITLE: Re: ESA  Aufgabe11 Terme vereinfachen
+PARENT_POSTING_ID: 97795
+CONTENT:
+Wenn ich mal deine <REMOVED_PERSON_ENTITY> von LONCAPA umwandeln würde in unsere Schreibweise, dann würde das herauskommen:
+siehe Anhang
+Wenn man deins übernehmen würde, dann würde es wie folgt umgeschrieben werden:
+a-a^2+9*a
+Also sind das im Endeffekt zwei verschiedene Paar Schuhe.
+Jedoch würde ich dir ein Tipp für die Aufgabe geben: Ziehe das Minus raus vor dem <REMOVED_PERSON_ENTITY> und da hast du vielleicht ein Teil einer binomischer Formel. ;-)
+TAGGED_CONTENT:

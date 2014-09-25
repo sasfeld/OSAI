@@ -1,0 +1,9 @@
+ID: 433
+CREATION_DATETIME: 1350597600000
+MODIFICATION_DATETIME: 1350597600000
+TITLE: Bisher ist es nicht o
+PARENT_POSTING_ID: 430
+POSTING_TYPE: comment
+CONTENT:
+Bisher ist es nicht ohne weiteres möglich. Aber es ist ein sehr guter Feature Request.
+TAGGED_CONTENT:

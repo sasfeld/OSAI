@@ -1,0 +1,8 @@
+ID: 97785
+CREATION_DATETIME: 1297110261
+MODIFICATION_DATETIME: 1297110261
+TITLE: Re: Klausur - Erlaubte Hilfsmittel
+PARENT_POSTING_ID: 97784
+CONTENT:
+Bei der Probeklausur orientiere ich mich an Kollege <REMOVED_PERSON_ENTITY>. Erlaubte Hilfsmittel sind wie gesagt mehr.
+TAGGED_CONTENT:

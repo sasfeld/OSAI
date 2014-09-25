@@ -1,0 +1,10 @@
+ID: 2721
+CREATION_DATETIME: 1383606000000
+MODIFICATION_DATETIME: 1384297200000
+TITLE: Der BasketController kann nur von UserAccounts mit der Role "ROLE_CUSTOMER" benutzt werden, siehe @Pr...
+PARENT_POSTING_ID: 2719
+POSTING_TYPE: answer
+CONTENT:
+Der BasketController kann nur <NAME_CORPUS_REPLACEMENT> UserAccounts mit der Role `ROLE_CUSTOMER` benutzt werden, siehe @PreAuthorize Annotation über dem Controller. Der Boss hat nur `ROLE_BOSS`.
+Macht eh keinen Sinn, dass sich der Chef den Warenkorb angucken kann, eigentlich sollte man auch den Link vor ihm verstecken.
+TAGGED_CONTENT:

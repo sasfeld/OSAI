@@ -1,0 +1,20 @@
+ID: 496
+CREATION_DATETIME: 1351029600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Es gibt wieder ein paar nützliche Funktionen.
+
+1. Bewerten <NAME_CORPUS_REPLACEMENT> Kommentaren ist nun möglich. Einfach auf die Pfeile drücken.
+
+2. Konvertieren <NAME_CORPUS_REPLACEMENT> Kommentaren und Antworten in Antworten, Kommentare oder "Follow up question".
+
+Außerdem wurde für zukünftige Kommentare und Antworten das Titel Attribut angepasst. Bei alten Posts muss der Titel angepasst werden, sobald ein Kommentar oder eine Antwort zu einer Frage konvertiert wird. Das ist in Zukunft nicht unbedingt mehr notwendig.
+
+Viel Spaß weiterhin auf auditorium
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

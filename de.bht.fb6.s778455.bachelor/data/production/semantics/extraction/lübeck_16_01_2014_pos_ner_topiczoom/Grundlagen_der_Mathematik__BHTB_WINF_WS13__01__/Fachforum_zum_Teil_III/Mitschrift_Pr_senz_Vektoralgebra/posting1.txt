@@ -1,0 +1,21 @@
+ID: 263845
+CREATION_DATETIME: 1386709737
+MODIFICATION_DATETIME: 1386709737
+TITLE: Mitschrift Präsenz Vektoralgebra
+TOPIC_ZOOM_TAG: value:Vektoren;weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:ngigkeiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektoralgebra;weight:0.0;uri:;postag:NN
+POS_TAG: value:hrung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mitschrift;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Da <REMOVED_PERSON_ENTITY> und ich leider die Einführung in die Vektoralgebra auslassen mussten, wäre es cool, wenn uns jemand seine Mitschrift geben könnte. Speziell würde mich interessieren, ob schon auf lineare Abhängigkeiten von Vektoren eingegangen wurde. Vielen Dank schon mal.
+TAGGED_CONTENT:
+Da_ADV <_VVFIN REMOVED_PERSON_ENTITY_NE >_NE und_KON ich_PPER leider_ADV die_ART Einführung_NN in_APPR die_ART Vektoralgebra_NN auslassen_VVFIN mussten_ADJA ,_$, wäre_VAFIN es_PPER cool_ADJD ,_$, wenn_KOUS uns_PPER jemand_PIS seine_PPOSAT Mitschrift_NN geben_VVINF könnte_VMFIN ._$. Speziell_ADJD würde_VAFIN mich_PPER interessieren_VVINF ,_$, ob_KOUS schon_ADV auf_APPR lineare_ADJA Abhängigkeiten_NN von_APPR Vektoren_NN eingegangen_VVPP wurde_VAFIN ._$. Vielen_PIDAT Dank_NN schon_ADV mal_ADV ._$. 

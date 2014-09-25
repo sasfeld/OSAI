@@ -1,0 +1,39 @@
+ID: 1822
+CREATION_DATETIME: 1368741600000
+MODIFICATION_DATETIME: 1372370400000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Schnittstellen;weight:2.0;significance:8.39106140169762;degreegeneralization:6;uri:20896088
+TOPIC_ZOOM_TAG: value:Kommunikationstechnik;weight:2.0;significance:5.71829301474005;degreegeneralization:5;uri:20897125
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:2.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:2.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:2.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+<REMOVED_PERSON_ENTITY>, vielleicht macht es Sinn für das Testprogramm pro Test eine Klasse zu machen. 
+
+ein Interface könnte so aussehen
+
+TestCase{
+
+TestCase() = 0;  // malloc arrays + init data
+
+~TestCase() = 0; // delete arrays
+
+vector<void*> getParameters() = 0;
+
+vector getParameterSizes() = 0;
+
+string getKernel() = 0;
+
+int getWorkitemCount() = 0;
+
+}
+
+irgendwie so. Dann halt eine Klasse pro Testcase (NestedLoopJoin, Selection, AVG, ...). Dann könnte man sich quasi in dem Test Programm eine Liste mit TestCases machen, und die dann mit gleichen Interface austesten. (Damit ist das Wissen über Eingabe/Ausgabe Daten auch in den Klassen gekapselt und nicht nur im Kernel als Kommentar)
+
+Was denkt ihr?
+TAGGED_CONTENT:

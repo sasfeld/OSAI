@@ -1,0 +1,47 @@
+ID: 181909
+CREATION_DATETIME: 1353444798
+MODIFICATION_DATETIME: 1353444798
+TITLE: Funktionen als Vektorraum
+TOPIC_ZOOM_TAG: value:Vektorräume;weight:5.0;significance:10.5904579293616;degreegeneralization:8;uri:20146881
+TOPIC_ZOOM_TAG: value:Lineare Algebra;weight:5.0;significance:10.5904579293616;degreegeneralization:7;uri:20881366
+TOPIC_ZOOM_TAG: value:Algebraische Begriffe;weight:5.0;significance:10.5904579293616;degreegeneralization:7;uri:20767840
+TOPIC_ZOOM_TAG: value:Algebra;weight:5.0;significance:10.5904579293616;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Mathematik;weight:5.0;significance:6.4844131917306;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:5.0;significance:3.72832043497232;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:5.0;significance:2.9185143038794;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:6.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:5.0;significance:1.94807232067146;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:1.15932947940138;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Videos;weight:1.0;significance:0.986784088820725;degreegeneralization:5;uri:20925532
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:0.925785952275847;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:0.863459254585413;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Filme;weight:1.0;significance:0.845299567133025;degreegeneralization:4;uri:21995223
+TOPIC_ZOOM_TAG: value:Film & Kino;weight:1.0;significance:0.808769552585885;degreegeneralization:3;uri:21998164
+TOPIC_ZOOM_TAG: value:Kunstwerke;weight:1.0;significance:0.773723657871277;degreegeneralization:3;uri:21981623
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:0.728174768704663;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Kunst, Kultur, Musik;weight:1.0;significance:0.507951156112477;degreegeneralization:2;uri:21999796
+NER_TAG: value:LON CAPA;weight:-1.0;uri:;classifierlabel:I-LOC
+NER_TAG: value:LON CAPA;weight:-1.0;uri:;classifierlabel:I-LOC
+POS_TAG: value:Vektorraum;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:ume;weight:0.0;uri:;postag:NN
+POS_TAG: value:Videos;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Funktionen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Prof.;weight:0.0;uri:;postag:NN
+POS_TAG: value:diQ;weight:0.0;uri:;postag:NN
+POS_TAG: value:Begriff;weight:0.0;uri:;postag:NN
+POS_TAG: value:B.;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Thema;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Bei Prof. <REMOVED_PERSON_ENTITY> habe ich einige Videos zum Thema Vektorräume gefunden, in denen recht anschaulich erklärt wird, warum z. B. die <REMOVED_PERSON_ENTITY> aller reellen Funktionen R -&gt; R als Vektorraum betrachtet werden kann. (In LON CAPA hatte ich eine solche Aufgabe, mit der ich zunächst gar nichts anfangen konnte.)Vielleicht hilft es ja auch dem einen oder anderen hier:
+<a href="http://www.youtube.com/watch?v=6xs0aH2Gjpc" target="_blank">02. 05. 1 Begriff Vektorraum 7:39
+<a href="http://www.youtube.com/watch?v=SVFiwkL5diQ" target="_blank">02. 05. 2 Begriff Vektorraum 5:46
+bzw.
+<a href="http://www.youtube.com/watch?v=9324wQg_eu8" target="_blank">01. 2. 4 Vektorraum 16:01
+Grüße
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Bei_APPR Prof._NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE habe_VAFIN ich_PPER einige_PIAT Videos_NN zum_APPRART Thema_NN Vektorräume_NN gefunden_VVPP ,_$, in_APPR denen_PRELS recht_ADJD anschaulich_ADJD erklärt_VVPP wird_VAFIN ,_$, warum_PWAV z._APPRART B._NN die_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD aller_PIDAT reellen_ADJA Funktionen_NN R_NE -_$( >_XY R_XY als_APPR Vektorraum_NN betrachtet_VVPP werden_VAINF kann_VMFIN ._$. -LRB-_TRUNC In_APPR LON_NE CAPA_NE hatte_VAFIN ich_PPER eine_ART solche_PIDAT Aufgabe_NN ,_$, mit_APPR der_PRELS ich_PPER zunächst_ADV gar_ADV nichts_PIS anfangen_VVINF konnte_VMFIN ._$. -RRB-_TRUNC Vielleicht_ADV hilft_VVFIN es_PPER ja_ADV auch_ADV dem_ART einen_ADJA oder_KON anderen_ADJA hier_ADV :_$. <_CARD a_XY href_XY =_XY "_$( http:\/\/www.youtube.com\/watch?v=6xs0aH2Gjpc_NE "_$( target_XY =_XY "_$( __CARD blank_ADJD "_$( >_CARD 02_CARD ._$. 05_CARD ._$. 1_CARD Begriff_NN Vektorraum_NN 7:39_CARD <_XY a_XY href_XY =_XY "_$( http:\/\/www.youtube.com\/watch?v=SVFiwkL5diQ_NN "_$( target_FM =_XY "_$( __CARD blank_ADJD "_$( >_CARD 02_CARD ._$. 05_CARD ._$. 2_CARD Begriff_NN Vektorraum_NN 5:46_CARD bzw_NE ._$. <_XY a_XY href_XY =_XY "_$( http:\/\/www.youtube.com\/watch?v=9324wQg_eu8_NN "_$( target_FM =_XY "_$( __CARD blank_ADJD "_$( >_CARD 01_CARD ._$. 2_CARD ._$. 4_CARD Vektorraum_NN 16:01_CARD Grüße_NN <_VVFIN REMOVED_PERSON_ENTITY_NE >_XY 

@@ -1,0 +1,10 @@
+ID: 1977
+CREATION_DATETIME: 1370556000000
+MODIFICATION_DATETIME: 1370556000000
+TITLE: Klar ist du kannst den Rückgabewert von values() nicht einfach in ein HashSet casten, weil eben kein ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1976
+POSTING_TYPE: answer
+CONTENT:
+Klar ist du kannst den Rückgabewert <NAME_CORPUS_REPLACEMENT> values() nicht einfach in ein HashSet casten, weil eben kein HashSet zurück kommt. Casten macht nicht plötzlich ein anderes Objekt aus etwas. Du musst dir ein HashSet selbst erstellen und dort alle Werte reinpacken. In Code: `Set distinctValues = new HashSet(); distinctValues. addAll(m. values()); return distinctValues. size();`
+TAGGED_CONTENT:

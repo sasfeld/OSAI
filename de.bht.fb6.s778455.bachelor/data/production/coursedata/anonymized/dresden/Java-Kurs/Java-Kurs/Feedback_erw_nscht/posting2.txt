@@ -1,0 +1,9 @@
+ID: 551
+CREATION_DATETIME: 1351288800000
+MODIFICATION_DATETIME: 1351375200000
+TITLE: Mir hat der Kurs sehr gefallen. Es ist für jemanden wie mich (der noch nie zuvor mit C etwas zu tun h...
+PARENT_POSTING_ID: 548
+POSTING_TYPE: answer
+CONTENT:
+Mir hat der Kurs sehr gefallen. Es ist für jemanden wie mich (der noch nie zuvor mit Java etwas zu tun hatte) ein doch recht kompliziertes Thema. Ich finde aber, dass alles gut erklärt wurde und auch genug Zeit zum selber ausprobieren war. Vielleicht könnte man in Zukunft für jede Aufgabe ein Lösungsbeispiel in einem Skript zur Verfügung stellen.
+TAGGED_CONTENT:

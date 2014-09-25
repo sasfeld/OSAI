@@ -1,0 +1,15 @@
+ID: 172283
+CREATION_DATETIME: 1350593707
+MODIFICATION_DATETIME: 1350593707
+TITLE: Re: Gruppen für die Einsendeaufgaben
+LANGUAGE: GERMAN
+POS_TAG: value:plan;weight:0.0;uri:;postag:NN
+POS_TAG: value:REMOVEMENT;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 172275
+CONTENT:
+hallo an alle hier,
+habe auch noch kein plan und würde mich in eine gruppe anschließen wollen. bitte mich irgendwie wo frei ist aufnehmen.
+gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+hallo_VAFIN an_APPR alle_PIDAT hier_ADV ,_$, habe_VAFIN auch_ADV noch_ADV kein_PIAT plan_NN und_KON würde_VAFIN mich_PPER in_APPR eine_ART gruppe_ADJA anschließen_VVINF wollen_VMFIN ._$. bitte_ADV mich_PRF irgendwie_ADV wo_PWAV frei_ADJD ist_VAFIN aufnehmen_VVINF ._$. gruß_ADJD <_XY PERSONAL_GREETING_REMOVEMENT_NN >_XY 

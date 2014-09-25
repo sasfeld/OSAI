@@ -1,0 +1,14 @@
+ID: 97784
+CREATION_DATETIME: 1297012905
+MODIFICATION_DATETIME: 1297012905
+TITLE: Re: Klausur - Erlaubte Hilfsmittel
+LANGUAGE: GERMAN
+POS_TAG: value:Vektoralgebra;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skript;weight:0.0;uri:;postag:NN
+POS_TAG: value:Musterklausur;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97783
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>, gibt es eine Musterklausur? Damit wir ungefähr wissen was auf uns zu kommt?Gerade Vektoralgebra fällt mir noch relativ schwer und leider ist das Skript da nicht soo hilfreich. Viele Grüße, <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, gibt_VVFIN es_PPER eine_ART Musterklausur_NN ?_$. Damit_PROAV wir_PPER ungefähr_ADJD wissen_VVFIN was_PWS auf_APPR uns_PPER zu_PTKZU kommt?Gerade_ADJA Vektoralgebra_NN fällt_VVFIN mir_PPER noch_ADV relativ_ADJD schwer_ADJD und_KON leider_ADV ist_VAFIN das_ART Skript_NN da_ADV nicht_PTKNEG soo_ADV hilfreich_ADJD ._$. Viele_PIDAT Grüße_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

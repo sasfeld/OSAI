@@ -1,0 +1,15 @@
+ID: 16605
+CREATION_DATETIME: 1231539102
+MODIFICATION_DATETIME: 1231539102
+TITLE: Re: offene Präsenz am 10.1.
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=6521#16605
+POS_TAG: value:Fachbereichskurs;weight:0.0;uri:;postag:NN
+POS_TAG: value:en;weight:0.0;uri:;postag:NN
+POS_TAG: value:Raum;weight:0.0;uri:;postag:NN
+POS_TAG: value:senzplan;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 16603
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>, im Präsenzplan im Fachbereichskurs steht Raum 252. Mit besten Grüßen, <PERSONAL_GREETING_REMOVEMENT>. <REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, im_APPRART Präsenzplan_NN im_APPRART Fachbereichskurs_NN steht_VVFIN Raum_NN 252_CARD ._$. Mit_APPR besten_ADJA Grüßen_NN ,_$, <_CARD PERSONAL_GREETING_REMOVEMENT_NE >_NE ._$. <_XY REMOVED_PERSON_ENTITY_NE >_NE ._$. 

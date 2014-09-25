@@ -1,0 +1,78 @@
+ID: 1992
+CREATION_DATETIME: 1370728800000
+MODIFICATION_DATETIME: 1370728800000
+TITLE: Also das bekomme ich ausgegeben, wenn ich mit strace die execve events trace:
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: answer
+CONTENT:
+Also das bekomme ich ausgegeben, wenn ich mit strace die execve events trace:
+
+```ruby
+
+2486  execve("./testCLTstatic", ["./testCLTstatic"], [/* 21 vars */]) = 0
+
+2492  execve("/bin/sh", ["sh", "-c", "clang -x <LEARNED_PERSON_NAME_REPLACEMENT> /dev/stdin -o kernel"...], [/* 21 vars */]) = 0
+
+2493  execve("/usr/local/bin/clang", ["clang", "-x", "cl", "/dev/stdin", "-o", "kernel. <LEARNED_PERSON_NAME_REPLACEMENT>", "-S", "-emit-llvm"], [/* 21 vars */]) = 0
+
+2494  execve("/usr/local/bin/clang", ["/usr/local/bin/clang", "-cc1", "-triple", "x86_64-unknown-linux-gnu", "-emit-llvm", "-disable-free", "-main-file-name", "stdin", "-mrelocation-model", "static", "-mdisable-fp-elim", "-fmath-errno", "-masm-verbose", "-mconstructor-aliases", "-munwind-tables", "-target-cpu", ...], [/* 21 vars */]) = 0
+
+2494  --- SIGABRT (Aborted) @ 0 (0) ---
+
+2494  --- SIGABRT (Aborted) @ 0 (0) ---
+
+2493  --- SIGCHLD (Child exited) @ 0 (0) ---
+
+2496  execve("/usr/local/bin/clang", ["/usr/local/bin/clang", "-cc1", "-triple", "x86_64-unknown-linux-gnu", "-E", "-disable-free", "-main-file-name", "stdin", "-mrelocation-model", "static", "-mdisable-fp-elim", "-fmath-errno", "-masm-verbose", "-mconstructor-aliases", "-munwind-tables", "-target-cpu", ...], [/* 21 vars */]) = 0
+
+2493  --- SIGCHLD (Child exited) @ 0 (0) ---
+
+2492  --- SIGCHLD (Child exited) @ 0 (0) ---
+
+2486  --- SIGCHLD (Child exited) @ 0 (0) ---
+
+2497  execve("/bin/sh", ["sh", "-c", "clang -x <LEARNED_PERSON_NAME_REPLACEMENT> /dev/stdin -o kernel"...], [/* 21 vars */]) = 0
+
+2498  execve("/usr/local/bin/clang", ["clang", "-x", "cl", "/dev/stdin", "-o", "kernel. <LEARNED_PERSON_NAME_REPLACEMENT>", "-S", "-emit-llvm"], [/* 21 vars */]) = 0
+
+2499  execve("/usr/local/bin/clang", ["/usr/local/bin/clang", "-cc1", "-triple", "x86_64-unknown-linux-gnu", "-emit-llvm", "-disable-free", "-main-file-name", "stdin", "-mrelocation-model", "static", "-mdisable-fp-elim", "-fmath-errno", "-masm-verbose", "-mconstructor-aliases", "-munwind-tables", "-target-cpu", ...], [/* 21 vars */]) = 0
+
+2499  --- SIGABRT (Aborted) @ 0 (0) ---
+
+2499  --- SIGABRT (Aborted) @ 0 (0) ---
+
+2498  --- SIGCHLD (Child exited) @ 0 (0) ---
+
+2501  execve("/usr/local/bin/clang", ["/usr/local/bin/clang", "-cc1", "-triple", "x86_64-unknown-linux-gnu", "-E", "-disable-free", "-main-file-name", "stdin", "-mrelocation-model", "static", "-mdisable-fp-elim", "-fmath-errno", "-masm-verbose", "-mconstructor-aliases", "-munwind-tables", "-target-cpu", ...], [/* 21 vars */]) = 0
+
+2498  --- SIGCHLD (Child exited) @ 0 (0) ---
+
+2497  --- SIGCHLD (Child exited) @ 0 (0) ---
+
+2486  --- SIGCHLD (Child exited) @ 0 (0) ---
+
+2502  execve("/usr/local/sbin/as", ["as", "--64", "/tmp/OCLzSBaC4. s", "-o", "/tmp/OCLzSBaC4. o"], [/* 21 vars */]) = -1 ENOENT (No such file or directory)
+
+2502  execve("/usr/local/bin/as", ["as", "--64", "/tmp/OCLzSBaC4. s", "-o", "/tmp/OCLzSBaC4. o"], [/* 21 vars */]) = -1 ENOENT (No such file or directory)
+
+2502  execve("/usr/sbin/as", ["as", "--64", "/tmp/OCLzSBaC4. s", "-o", "/tmp/OCLzSBaC4. o"], [/* 21 vars */]) = -1 ENOENT (No such file or directory)
+
+2502  execve("/usr/bin/as", ["as", "--64", "/tmp/OCLzSBaC4. s", "-o", "/tmp/OCLzSBaC4. o"], [/* 21 vars */]) = 0
+
+2486  --- SIGCHLD (Child exited) @ 0 (0) ---
+
+2503  execve("/usr/local/sbin/ld", ["ld", "-m", "elf_x86_64", "-shared", "/tmp/OCLzSBaC4. o", "-o", "/tmp/OCLzSBaC4. so"], [/* 21 vars */]) = -1 ENOENT (No such file or directory)
+
+2503  execve("/usr/local/bin/ld", ["ld", "-m", "elf_x86_64", "-shared", "/tmp/OCLzSBaC4. o", "-o", "/tmp/OCLzSBaC4. so"], [/* 21 vars */]) = -1 ENOENT (No such file or directory)
+
+2503  execve("/usr/sbin/ld", ["ld", "-m", "elf_x86_64", "-shared", "/tmp/OCLzSBaC4. o", "-o", "/tmp/OCLzSBaC4. so"], [/* 21 vars */]) = -1 ENOENT (No such file or directory)
+
+2503  execve("/usr/bin/ld", ["ld", "-m", "elf_x86_64", "-shared", "/tmp/OCLzSBaC4. o", "-o", "/tmp/OCLzSBaC4. so"], [/* 21 vars */]) = 0
+
+2486  --- SIGCHLD (Child exited) @ 0 (0) ---
+
+```
+
+Aber <NAME_CORPUS_REPLACEMENT> sehe ich jetz auch nur, dass er ein paar mal clang aufruft, mehr kann ich daraus leider nicht deuten.
+TAGGED_CONTENT:

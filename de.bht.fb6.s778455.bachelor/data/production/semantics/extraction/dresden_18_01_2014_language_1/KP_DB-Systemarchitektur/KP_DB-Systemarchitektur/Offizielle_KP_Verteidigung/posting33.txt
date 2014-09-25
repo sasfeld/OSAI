@@ -1,0 +1,12 @@
+ID: 2406
+CREATION_DATETIME: 1374357600000
+MODIFICATION_DATETIME: 1374357600000
+TITLE: Die jetzigen Plots reichen für die Folien aus, die ich zeigen will. Könnte maximal sein, dass Mario n...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Die jetzigen Plots reichen für die Folien aus, die ich zeigen will. Könnte maximal sein, dass <REMOVED_PERSON_ENTITY> noch etwas geplottet haben will.
+
+Die predictTime, die immer 0 ist, macht keinen Sinn zu nehmen, weil die ja immer 0 ist.
+TAGGED_CONTENT:

@@ -1,0 +1,17 @@
+ID: 67
+CREATION_DATETIME: 1305202620000
+MODIFICATION_DATETIME: 1305202620000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 66
+CONTENT:
+ 
+Ich dachte jetzt generell an das Konzept, weil man ja immer nur mit Projekten arbeitet und Klassen auch über die GUI anlegt und so ... Einführung halt. Ging jetzt nicht um ein spezielles Problem.... zwinkernd
+
+Ich könnte z.B. eine kleine Einführung in Gimp geben (die freie Photoshop-Alternative) weil ich mich dort ein bisschen reingearbeitet habe. Weiß nicht ob da Interesse besteht, ich benutze das viel. Kann man doch bestimmt auch über Teamviewer machen...
+
+Einführung in Eclipse und Illustrator/Photoshop würden mich interessieren.
+
+lg 
+    
+TAGGED_CONTENT:

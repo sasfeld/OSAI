@@ -1,0 +1,10 @@
+ID: 1509
+CREATION_DATETIME: 1363042800000
+MODIFICATION_DATETIME: 1363042800000
+TITLE: jop, vorallem skalieren die notifications nicht. wenn man erstmal 40 davon hat, wird's schnell unuebe...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1507
+POSTING_TYPE: comment
+CONTENT:
+jop, vorallem skalieren die notifications nicht. wenn man erstmal 40 davon hat, wird's schnell unuebersichtlich.
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 2243
+CREATION_DATETIME: 1373925600000
+MODIFICATION_DATETIME: 1373925600000
+TITLE: Momentan habe ich das Problem so gelöst, dass ich für den Fall, dass abhängige Spalten enthalten sind...
+PARENT_POSTING_ID: 2241
+POSTING_TYPE: comment
+CONTENT:
+Momentan habe ich das Problem so gelöst, dass ich für den Fall, dass abhängige <REMOVED_PERSON_ENTITY> enthalten sind, mit einer leeren Matrix anfange und Stück für <REMOVED_PERSON_ENTITY> hinzunehme, die linear unabhängig sind. Das funktioniert prima. Das einzige, was man noch machen könnte, wäre, das vielleicht etwas zu optimieren. (Momentan wird jedes mal die gesamte Matrix ausgerechnet)
+In der Präsentation sieht man auch, dass die Vorhersage inzwischen sehr genau ist. Interessant wäre aber auch, warum z. B. bei der Geforce diese hässliche quadratische Kurve herauskommt. Ich habe einen Verdacht und werde den heute noch überprüfen.
+TAGGED_CONTENT:

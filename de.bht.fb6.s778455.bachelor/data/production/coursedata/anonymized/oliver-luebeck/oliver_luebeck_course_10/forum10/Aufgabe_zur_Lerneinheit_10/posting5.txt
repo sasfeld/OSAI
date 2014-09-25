@@ -1,0 +1,11 @@
+ID: 52
+CREATION_DATETIME: 1197366660000
+MODIFICATION_DATETIME: 1197366660000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 51
+CONTENT:
+
+Wir können doch auch nur die Klassen ArrayStackGen und ListStackGen testen, da StackGen ein Interface ist, oder habe ich die falsche StackGen Klasse mir heruntergeladen?
+   
+TAGGED_CONTENT:

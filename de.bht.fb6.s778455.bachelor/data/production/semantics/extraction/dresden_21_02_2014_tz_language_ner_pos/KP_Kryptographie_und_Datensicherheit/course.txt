@@ -1,0 +1,31 @@
+ID: 110604015
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: KP Kryptographie und Datensicherheit
+LANGUAGE: GERMAN
+SUMMARY: null
+TOPIC_ZOOM_TAG: value:Verschlüsselungsverfahren;weight:1.0;significance:5.661127577057;degreegeneralization:8;uri:20870112
+TOPIC_ZOOM_TAG: value:Verschlüsselung;weight:1.0;significance:5.661127577057;degreegeneralization:7;uri:19920084
+TOPIC_ZOOM_TAG: value:Kodierung;weight:1.0;significance:5.5495558013999;degreegeneralization:5;uri:20798389
+TOPIC_ZOOM_TAG: value:Kryptologie;weight:1.0;significance:5.5495558013999;degreegeneralization:6;uri:21310531
+TOPIC_ZOOM_TAG: value:Datensicherheit;weight:1.0;significance:3.78637553909183;degreegeneralization:7;uri:21309987
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:2.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Computer-Sicherheit;weight:1.0;significance:3.39752325479783;degreegeneralization:6;uri:21307607
+TOPIC_ZOOM_TAG: value:IT-Sicherheit;weight:1.0;significance:3.37377208780533;degreegeneralization:5;uri:20850035
+TOPIC_ZOOM_TAG: value:Sicherheitstechnologie;weight:1.0;significance:3.30299546031018;degreegeneralization:5;uri:21307624
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:2.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:2.50435355391847;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:2.50390086036106;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Daten und Datentechnik;weight:1.0;significance:2.47532165344109;degreegeneralization:5;uri:21443777
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:2.15506992990383;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:2.00351838218053;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Verbrechen und Kriminalität;weight:1.0;significance:1.86924942670346;degreegeneralization:4;uri:21982303
+TOPIC_ZOOM_TAG: value:Rechtsverstöße, Straftaten, Kriminalität;weight:1.0;significance:1.8518177868834;degreegeneralization:3;uri:20801755
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:1.32554850720165;degreegeneralization:2;uri:21999830
+POS_TAG: value:Kryptographie;weight:0.0;uri:;postag:NN
+POS_TAG: value:Datensicherheit;weight:0.0;uri:;postag:NN

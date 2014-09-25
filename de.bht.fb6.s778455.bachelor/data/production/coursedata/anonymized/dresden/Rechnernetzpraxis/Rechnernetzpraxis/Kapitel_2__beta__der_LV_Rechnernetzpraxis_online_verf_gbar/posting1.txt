@@ -1,0 +1,11 @@
+ID: 2608
+CREATION_DATETIME: 1382392800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Ich habe soeben das 2. Kapitel der LV Rechnernetzpraxis online gestellt. Es findet sich unter:
+http://www.rn.inf.tu-dresden. de/lectures/Rechnernetzpraxis/02_RNP_Switching_beta. pdf
+Wie in der Einführungsveranstaltung angekündigt, geht es in dem Kapitel um grundlegendes Wissen und "Handwerkszeug" im Bereich <NAME_CORPUS_REPLACEMENT> Ethernet-Switches.
+TAGGED_CONTENT:

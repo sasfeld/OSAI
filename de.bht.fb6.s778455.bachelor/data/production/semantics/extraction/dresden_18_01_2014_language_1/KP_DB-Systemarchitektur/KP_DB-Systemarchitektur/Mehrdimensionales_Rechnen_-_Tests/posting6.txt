@@ -1,0 +1,16 @@
+ID: 2142
+CREATION_DATETIME: 1372543200000
+MODIFICATION_DATETIME: 1372543200000
+TITLE: Ja das hab ich vergessen zu bedenken, das ist natürlich auch noch eine Grenze.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2137
+POSTING_TYPE: comment
+CONTENT:
+Ja das hab ich vergessen zu bedenken, das ist natürlich auch noch eine <REMOVED_PERSON_ENTITY>.
+
+Aber bei 32*32 kommt man mit 1024*1024 globalem Indexraum immer noch auf 4 GB möglicher Gesamtgröße der Matrix. Das gibt dann einen Fehler, weil in der wimpynode gar nicht so viel Ram zur Verfügung steht.
+
+Will man noch größere Matrizen rechnen (gesetzt dem Fall, dass man ausreichen Arbeitsspeicher hat), muss man den Kernel so schreiben, dass ein Workitem die Berechnung mehrerer Elemente übernimmt, was aber denke ich erstmal nicht nötig ist.
+
+Sollte der Segfault woanders herkommen, dann schreib einfach nochmal die Logmeldungen des Programms hier rein.
+TAGGED_CONTENT:

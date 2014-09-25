@@ -226,7 +226,7 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 
 					// parent posting id
 					try {
-						final int parentPostingId = Integer.parseInt( entity
+						final Long parentPostingId = Long.parseLong( entity
 								.get( "parent" ) );
 						newPosting.setParentPostingId( parentPostingId );
 					} catch( final NumberFormatException e ) {

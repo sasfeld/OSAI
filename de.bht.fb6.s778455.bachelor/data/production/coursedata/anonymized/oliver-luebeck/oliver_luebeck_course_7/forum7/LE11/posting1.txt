@@ -1,0 +1,18 @@
+ID: 89
+CREATION_DATETIME: 1307196960000
+MODIFICATION_DATETIME: 1307196960000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+ 
+Hi !
+Ich sitze jetzt auch endlich an der LE11!!!
+Gibt es noch irgend jemand der diese Aufgabe mit mir lösen oder mir helfen würde ??
+
+Vielen Dank schon einmal !!
+
+Schönen Gruß
+
+    
+TAGGED_CONTENT:

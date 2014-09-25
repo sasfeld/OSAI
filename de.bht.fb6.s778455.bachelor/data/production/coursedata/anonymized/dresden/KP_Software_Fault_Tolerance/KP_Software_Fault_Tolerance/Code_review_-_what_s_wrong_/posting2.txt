@@ -1,0 +1,20 @@
+ID: 763
+CREATION_DATETIME: 1352847600000
+MODIFICATION_DATETIME: 1352847600000
+TITLE: Hi Martin,
+
+1. example:
+* First answer is not completely right. The try-catch block has no effect ...
+PARENT_POSTING_ID: 754
+POSTING_TYPE: answer
+CONTENT:
+Hi <REMOVED_PERSON_ENTITY>,
+Example 1:
+* First answer is not completely right. The try-catch block has no effect since fclose is a C function. So the programmer simply did not understand that C function throw no exceptions.
+* Second answer is correct.
+Example 2:
+* Answer seems also to be correct. I have to check again.
+My suggestion is to you to create a question for the first to answers and then post the answer. (please post the answer as an answer, and the question as a question).
+Regarding the third one, I'll get back to you once I think a little bit more. There might be another reason I can't remember.
+Thanks for your answers! 
+TAGGED_CONTENT:

@@ -1,0 +1,42 @@
+ID: 193259
+CREATION_DATETIME: 1358113663
+MODIFICATION_DATETIME: 1358113663
+TITLE: Re: Gruppenübungen
+TOPIC_ZOOM_TAG: value:Rechte;weight:1.0;significance:6.62405010215875;degreegeneralization:3;uri:20917100
+TOPIC_ZOOM_TAG: value:Bücher;weight:1.0;significance:5.80279623892246;degreegeneralization:5;uri:21981657
+TOPIC_ZOOM_TAG: value:Presse, Druck und Verlagswesen;weight:1.0;significance:3.89973203213328;degreegeneralization:4;uri:21990174
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:2.65109701440329;degreegeneralization:2;uri:21999830
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:hr;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kapitel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Script;weight:0.0;uri:;postag:NN
+POS_TAG: value:Grund;weight:0.0;uri:;postag:NN
+POS_TAG: value:Idee;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einheitsmatrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:Seite;weight:0.0;uri:;postag:NN
+POS_TAG: value:A;weight:0.0;uri:;postag:NN
+POS_TAG: value:B;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rechte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Matrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:J;weight:0.0;uri:;postag:NN
+POS_TAG: value:Stufenform;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ergebnis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Invertierbarkeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Koeffizientenmatrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einheitsvektor;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 193181
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+zu H) könnte ich eventuell etwas sagen.
+Wir hatten im Script mal ein Kapitel da ging es um die Invertierbarkeit einer Matrix. Eine Matrix A war gegeben und man sollte eine Matrix X finden mit der ich Matrix A multiplizieren muss damit die Einheitsmatrix entsteht.
+Gelöst würde dies, indem man für die Koeffizientenmatrix die Matrix A gesetzt hat und für die rechte <REMOVED_PERSON_ENTITY> den passenden Einheitsvektor hingeschrieben hat.
+Also so: 1 2 3 | 1 0 0 4 5 6 | 0 1 0  7 8 9 | 0 0 1
+Anschließend muss die Matrix auf Stufenform gebracht. Das Ergebnis war denn die inverse Matrix B mit der man Matrix A multiplieren muss das A*X=B gilt.  Aus diesem Grund würde ich diese Aufgabe lösen indem ich die eine Matrix als Koeffizientenmatrix setzen würde und die andere Matrix als Rechte Seite setzen würde…  Ist aber ohne Gewähr.
+ Was sagt Du dazu?
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+Bei J habe ich gerade auch keine Idee. Kann hier eventuell jemand anderes weiterhelfen, würde ich auch gerne wissen wollen.
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_CARD ,_$, zu_PTKZU H_XY -RRB-_TRUNC könnte_VMFIN ich_PPER eventuell_ADJD etwas_PIS sagen_VVINF ._$. Wir_PPER hatten_VAFIN im_APPRART Script_NN mal_ADV ein_ART Kapitel_NN da_ADV ging_VVFIN es_PPER um_APPR die_ART Invertierbarkeit_NN einer_ART Matrix_NN ._$. Eine_ART Matrix_NE A_NN war_VAFIN gegeben_VVPP und_KON man_PIS sollte_VMFIN eine_ART Matrix_NN X_XY finden_VVINF mit_APPR der_ART ich_PPER Matrix_NE A_NN multiplizieren_VVINF muss_VMFIN damit_PROAV die_ART Einheitsmatrix_NN entsteht_VVFIN ._$. Gelöst_VVPP würde_VAFIN dies_PDS ,_$, indem_KOUS man_PIS für_APPR die_ART Koeffizientenmatrix_NN die_ART Matrix_NE A_NN gesetzt_VVPP hat_VAFIN und_KON für_APPR die_ART rechte_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_VVFIN den_ART passenden_ADJA Einheitsvektor_NN hingeschrieben_VVPP hat_VAFIN ._$. Also_ADV so_ADV :_$. 1_CARD 2_CARD 3_CARD |_XY 1_CARD 0_CARD 0_CARD 4_CARD 5_CARD 6_CARD |_CARD 0_CARD 1_CARD 0_CARD 7_CARD 8_CARD 9_CARD |_CARD 0_CARD 0_CARD 1_CARD Anschließend_ADJD muss_APPR die_ART Matrix_NE auf_APPR Stufenform_NN gebracht_VVPP ._$. Das_ART Ergebnis_NN war_VAFIN denn_ADV die_ART inverse_ADJA Matrix_NN B_NN mit_APPR der_ART man_PIS Matrix_NE A_NN multiplieren_VVFIN muss_PPER das_ART A_NN \*_CARD X_XY =_XY B_NN gilt_VVFIN ._$. Aus_APPR diesem_PDAT Grund_NN würde_VAFIN ich_PPER diese_PDAT Aufgabe_NN lösen_VVFIN indem_KOUS ich_PPER die_ART eine_ART Matrix_NN als_APPR Koeffizientenmatrix_NN setzen_VVINF würde_VAFIN und_KON die_ART andere_ADJA Matrix_NN als_APPR Rechte_NN Seite_NN setzen_VVINF würde_VAFIN ..._$( Ist_VAFIN aber_ADV ohne_APPR Gewähr_NN ._$. Was_PWS sagt_VVFIN Du_PPER dazu_PROAV ?_$. Gruß_NE <_NE PERSONAL_GREETING_REMOVEMENT_NE >_NE Bei_APPR J_NN habe_VAFIN ich_PPER gerade_ADV auch_ADV keine_PIAT Idee_NN ._$. Kann_VMFIN hier_ADV eventuell_ADJD jemand_PIS anderes_PIS weiterhelfen_VVINF ,_$, würde_VAFIN ich_PPER auch_ADV gerne_ADV wissen_VVINF wollen_VMFIN ._$. 

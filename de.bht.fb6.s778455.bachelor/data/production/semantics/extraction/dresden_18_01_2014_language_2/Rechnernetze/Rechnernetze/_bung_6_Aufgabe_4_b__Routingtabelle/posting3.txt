@@ -1,0 +1,10 @@
+ID: 2421
+CREATION_DATETIME: 1374444000000
+MODIFICATION_DATETIME: 1374444000000
+TITLE: ok, also können wir bei der Aufgabe nicht zwischen C und S unterscheiden und nur sagen, dass zwischen...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2420
+POSTING_TYPE: comment
+CONTENT:
+ok, also können wir bei der Aufgabe nicht zwischen C und S unterscheiden und nur sagen, dass zwischen Firewalls und INF2 dynamisch verbunden ist?
+TAGGED_CONTENT:

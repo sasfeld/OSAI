@@ -1,0 +1,13 @@
+ID: 21
+CREATION_DATETIME: 1193791080000
+MODIFICATION_DATETIME: 1193791080000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 20
+CONTENT:
+  
+Vielen dank für die Antwort! werde mir Deinen Code allerdings erst morgen (oder nachher zwinkernd ) genauer anschauen. Ich bin jetzt zu müde - es geht nichts mehr.
+
+Schöne Grüße
+    
+TAGGED_CONTENT:

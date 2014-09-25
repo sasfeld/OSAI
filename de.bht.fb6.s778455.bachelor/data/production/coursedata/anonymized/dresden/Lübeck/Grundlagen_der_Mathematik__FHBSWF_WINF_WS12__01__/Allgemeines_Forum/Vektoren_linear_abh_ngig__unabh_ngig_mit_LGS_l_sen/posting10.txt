@@ -1,0 +1,11 @@
+ID: 191825
+CREATION_DATETIME: 1357659887
+MODIFICATION_DATETIME: 1357659887
+TITLE: Re: Vektoren linear abhängig/ unabhängig mit LGS lösen
+PARENT_POSTING_ID: 191807
+CONTENT:
+Hallo,
+hier habe ich auch mal eine Frage:Das die LK (x1,..., x5)=r*(2,-1, 0, 1, 1) eingesetzt in die Gleichungen (x1 bis x5) Null ergeben ist ersichtlich.
+Wenn ich jetzt aber r=2 nehme, bekomme ich doch (4,-2, 0, 2, 2) als Vektor. Woran erkenne ich jetzt, ob dies auch eine LK zum Nullvektor ist? Wie sieht die Probe hierfür aus? Bzw. wie sieht sie generell aus?Pascal, da du es ja offensichtlich jetzt hast, kannst du vielleicht etwas dazu sagen? :)Sehe gerade den Wald vor lauter Bäumen nicht, habe ich das Gefühl.
+Danke und GrüßeLars
+TAGGED_CONTENT:

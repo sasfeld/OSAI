@@ -1,0 +1,8 @@
+ID: 117566
+CREATION_DATETIME: 1327600574
+MODIFICATION_DATETIME: 1327600574
+TITLE: Re: Probeklausur
+PARENT_POSTING_ID: 117563
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>, Wolframalpha liefert hier aber auch scheinbar die erste Lösung ausder Klausur oder irre ich mich da jetzt?<a http://www.wolframalpha.com/input/?i=%28x%2By-4z%3D-2%29%2C%28x-2y%2B2z%3D1%29%2C%28ax-3y%2B2z%3D1%29">Lösung gem. WolframGrüßeDaniel Preuße 
+TAGGED_CONTENT:

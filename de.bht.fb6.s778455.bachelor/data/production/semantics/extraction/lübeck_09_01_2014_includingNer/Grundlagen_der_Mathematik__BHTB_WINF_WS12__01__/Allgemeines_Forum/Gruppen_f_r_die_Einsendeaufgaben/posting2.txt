@@ -1,0 +1,16 @@
+ID: 171909
+CREATION_DATETIME: 1350542521
+MODIFICATION_DATETIME: 1350542521
+TITLE: Re: Gruppen für die Einsendeaufgaben
+NER_TAG: value:VG;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+PARENT_POSTING_ID: 171815
+CONTENT:
+ 
+ 
+ 
+Hallo zusammen,
+ich suche noch eine Gruppe für die Einsendeaufgabe.
+Kann ich bei Euch mitmachen <REMOVED_PERSON_ENTITY>
+ 
+VG <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

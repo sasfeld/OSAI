@@ -1,0 +1,10 @@
+ID: 1193
+CREATION_DATETIME: 1362438000000
+MODIFICATION_DATETIME: 1362438000000
+TITLE: zeitnah, nachdem beide Runden fertig sind, sprich gegen Ende März
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 1191
+POSTING_TYPE: answer
+CONTENT:
+zeitnah, nachdem beide Runden fertig sind, sprich gegen Ende März
+TAGGED_CONTENT:

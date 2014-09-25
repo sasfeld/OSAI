@@ -1,0 +1,15 @@
+ID: 2
+CREATION_DATETIME: 1190745840000
+MODIFICATION_DATETIME: 1190745840000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1
+CONTENT:
+
+Hallo
+
+Wollte mal nachfragen, ob da jemand Erfahrung hat und mir was dazu sagen kann?
+
+lg,
+    
+TAGGED_CONTENT:

@@ -1,0 +1,38 @@
+ID: 17
+CREATION_DATETIME: 1194014880000
+MODIFICATION_DATETIME: 1194014880000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 16
+CONTENT:
+
+Ich fang einfach einmal an. Der Unterschied der Methode liegt in der Art und Weise wie die ArrayList<TelefonEintrag> durchsucht wird. Das Ergebnis ist bei beiden aber das gleiche.
+
+ 
+
+/** Methode 1 ueberprueft mittels vorgelagerter Bedingung (while-Schleife), ob namen nicht in der ArrayList liste enthalten ist. Dabei wird mit der Methode get(i) der entsprechende Eintrag und mit der Methode getName() aus diesem Eintrag der Name geholt. Solange namen nicht ist und der Index i kleiner der Anzahl Elemente in liste ist, wird der Index i hochgezählt. Ist die Bedingung nicht erfüllt, gibt die Methode den Telefoneintrag des Index i, der kleiner der Anzahl Elemente in liste sein muss, aus liste als String aus. **/
+
+public void methode1(String namen){
+        int i =0;
+        while (i< liste.size() && ( ! (liste.get(i).getName().equals(namen)))) {
+            i++;
+            }
+        if (i < liste.size()){
+            System.out.println ("Eintrag: " + liste.get(i).toString());
+        }
+    }
+
+ 
+
+ /** Methode durchläuft die ArrayList liste des Objekts Telefoneintrag (ArrayList<Telefoneintrag>) mittels erweiterter for-Schleife bzw. Iterator (auch Zeiger oder Cursor). Hierbei wird die Methode iterator() der Schnittestelle Iterable aufgerufen, die den Iterator zurückgibt. Wenn die Bedingung erfüllt ist, dass namen im Element an der "Position" des Iterator enthalten ist, wird der Eintrag an dieser Stelle als String ausgegeben. Der Name an der Position des Iterator wird mittels Methode getName() aus der ArrayList liste geholt. **/
+
+ public void methode2(String namen){
+      for (TelefonEintrag t: liste){
+            if(t.getName().equals(namen)){
+                 System.out.println ("Eintrag: " + t.toString());
+            }
+        }
+}
+ 
+   
+TAGGED_CONTENT:

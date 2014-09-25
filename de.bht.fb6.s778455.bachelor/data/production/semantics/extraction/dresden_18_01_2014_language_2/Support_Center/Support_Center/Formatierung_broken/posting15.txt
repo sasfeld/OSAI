@@ -1,0 +1,10 @@
+ID: 1383
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Der Code oder das Zitat wird nicht korrekt umgebrochen. Ich nehme mal an, dass der Code im Comment In...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1367
+POSTING_TYPE: comment
+CONTENT:
+Der Code oder das Zitat wird nicht korrekt umgebrochen. Ich nehme mal an, dass der Code im Comment Inline-Code ist und das macht das Layout kaputt.
+TAGGED_CONTENT:

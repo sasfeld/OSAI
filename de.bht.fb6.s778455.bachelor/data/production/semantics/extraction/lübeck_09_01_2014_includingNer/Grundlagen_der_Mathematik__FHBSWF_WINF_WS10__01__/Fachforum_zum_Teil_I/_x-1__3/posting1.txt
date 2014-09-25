@@ -1,0 +1,19 @@
+ID: 97798
+CREATION_DATETIME: 1289140052
+MODIFICATION_DATETIME: 1289140052
+TITLE: (x-1)^3
+TOPIC_ZOOM_TAG: value:Chat;weight:1.0;significance:9.30735213357177;degreegeneralization:7;uri:20901477
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:1.0;significance:6.50399175266524;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Lifestyle und Internet;weight:1.0;significance:5.06890722737591;degreegeneralization:6;uri:21999575
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Lifestyle, Mode, Schönheit;weight:1.0;significance:4.37191942759678;degreegeneralization:3;uri:21999456
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:3.4415452961402;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+NER_TAG: value:ESA;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+PARENT_POSTING_ID: 0
+CONTENT:
+Hi zusammen, ich stehe mal wieder auf dem <REMOVED_PERSON_ENTITY>... Es geht um die ESA Aufgabe: Ordner &quot;Relationen, Abbildungen und Funktionen&quot; Aufgabe: &quot;Umkehrfunktion einer Parabel ungeraden Grades bestimmen&quot;Meine Frage ist: Wie löse ich (x-1)^3 auf? Wolframalpha sagt, das Ergebnis lautet: x^3 - 3x^2 + 3x - 1Wie ist der Weg dort hin?@Herr <REMOVED_PERSON_ENTITY>:Ich würde Sie bitten das Thema Umkehrfunktionen anhand eines konkreten Beispiels (z. B. Lon-Capa: Umkehrfunktion einer Hyperbel bestimmen) nochmals in den Chat einzubauen. Das Skript ist hier irgendwie ziemlich dürftig, finde ich. Viele GrüßeDaniel 
+TAGGED_CONTENT:

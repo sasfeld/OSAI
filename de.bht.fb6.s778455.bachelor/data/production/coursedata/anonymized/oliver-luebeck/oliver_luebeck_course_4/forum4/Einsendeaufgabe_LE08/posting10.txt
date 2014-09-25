@@ -1,0 +1,15 @@
+ID: 49
+CREATION_DATETIME: 1177868460000
+MODIFICATION_DATETIME: 1177868460000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 48
+CONTENT:
+
+mit System.out.println(auto1.alter()); habe ich es auch gelöst.
+eine andere möglichkeit wäre, in der AutoTest klasse eine variable zu deklarieren
+und dieser als wert auto1.alter() zuzuweisen und anschließend die variable bzw. den wert der variablen auszugeben.
+wobei ersteres eine elegantere lösung darstellt. :)
+
+    
+TAGGED_CONTENT:

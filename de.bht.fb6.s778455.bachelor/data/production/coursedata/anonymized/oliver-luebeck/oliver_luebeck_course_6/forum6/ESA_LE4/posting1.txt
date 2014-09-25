@@ -1,0 +1,23 @@
+ID: 30
+CREATION_DATETIME: 1287311700000
+MODIFICATION_DATETIME: 1287311700000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo Leute,
+
+welche Execptions benutzt Ihr, um die Fehleingaben abzufangen?
+
+Ich benute die NumberFormatException und die ArithmeticException, konnte bisher aber nur die Texteingabe (NumberFormatException) damit abfangen aber nicht die Divsion durch Null oder die Divsion im Integerbereich.
+
+Vielleicht liegt es ja auch daran, dass ich zur Rückumwandlung in einen String-Wert folgende Codezeile direkt benute:
+String div = String.valueOf(n1 / n2);
+Ansonsten gebe ich die Exceptions bis zur Testklasse mit throws weiter und versuche sie erst dort "zu fangen".
+
+Konnte Ihr alle möglichen Fehleingaben abfangen?
+
+Gruß 
+	
+TAGGED_CONTENT:

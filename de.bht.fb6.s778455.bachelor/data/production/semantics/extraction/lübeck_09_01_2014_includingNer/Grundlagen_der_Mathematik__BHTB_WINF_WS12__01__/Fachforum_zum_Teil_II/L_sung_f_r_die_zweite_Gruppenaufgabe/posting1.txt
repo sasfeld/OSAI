@@ -1,0 +1,15 @@
+ID: 193503
+CREATION_DATETIME: 1358184598
+MODIFICATION_DATETIME: 1358184598
+TITLE: Lösung für die zweite Gruppenaufgabe
+TOPIC_ZOOM_TAG: value:Liebe;weight:1.0;significance:6.84491833963583;degreegeneralization:5;uri:21126234
+TOPIC_ZOOM_TAG: value:Partnerschaft, Ehe, Liebe, Sex;weight:1.0;significance:4.77978319360723;degreegeneralization:4;uri:21126268
+TOPIC_ZOOM_TAG: value:Zwischenmenschliche Beziehungen;weight:1.0;significance:4.51902740448583;degreegeneralization:3;uri:20122843
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+anbei die Lösungen für die zweite Gruppenaufgabe.
+Liebe Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

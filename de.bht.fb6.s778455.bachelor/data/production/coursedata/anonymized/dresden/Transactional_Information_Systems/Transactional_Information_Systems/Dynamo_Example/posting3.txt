@@ -1,0 +1,9 @@
+ID: 1082
+CREATION_DATETIME: 1359068400000
+MODIFICATION_DATETIME: 1359068400000
+TITLE: Thats right. We can keep the structure and just use str1 in chunk 2 for the address. 
+PARENT_POSTING_ID: 1076
+POSTING_TYPE: comment
+CONTENT:
+Thats right. We <NAME_CORPUS_REPLACEMENT> keep the structure and <NAME_CORPUS_REPLACEMENT> use str1 in chunk 2 for the address. 
+TAGGED_CONTENT:

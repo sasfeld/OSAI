@@ -1,0 +1,17 @@
+ID: 168123
+CREATION_DATETIME: 1349691841
+MODIFICATION_DATETIME: 1349691841
+TITLE: Re: Klick Interaktion
+POS_TAG: value:Regel;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:ins;weight:0.0;uri:;postag:NN
+POS_TAG: value:in;weight:0.0;uri:;postag:NN
+POS_TAG: value:Installation;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 168119
+CONTENT:
+Hi <REMOVED_PERSON_ENTITY>,
+anfangs gingen sie bei mir auch nicht, aber nach der Installation eines Plug-ins haben sie funktioniert. (ich glaube es war ein Java Plug-in). Weiß aber leider nicht mehr welches es war.
+In <REMOVED_PERSON_ENTITY> schlägt er in der Regel vor, das fehlende Plug-in zu installieren.
+Grüße <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hi_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, anfangs_ADV gingen_VVFIN sie_PPER bei_APPR mir_PPER auch_ADV nicht_PTKNEG ,_$, aber_KON nach_APPR der_ART Installation_NN eines_ART Plug-ins_NN haben_VAFIN sie_PPER funktioniert_VVFIN ._$. -LRB-_TRUNC ich_PPER glaube_VVFIN es_PPER war_VAFIN ein_ART Java_NE Plug-in_NE -RRB-_TRUNC ._$. Weiß_ADJD aber_ADV leider_ADV nicht_PTKNEG mehr_ADV welches_PRELS es_PPER war_VAFIN ._$. In_APPR <_NE REMOVED_PERSON_ENTITY_NE >_NE schlägt_VVFIN er_PPER in_APPR der_ART Regel_NN vor_PTKVZ ,_$, das_ART fehlende_ADJA Plug-in_NN zu_PTKZU installieren_VVINF ._$. Grüße_NN <_NE REMOVED_PERSON_ENTITY_NE >_XY 

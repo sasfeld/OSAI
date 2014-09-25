@@ -1,0 +1,107 @@
+ID: 172215
+CREATION_DATETIME: 1350585373
+MODIFICATION_DATETIME: 1350585373
+TITLE: Präsenz vom 17.10.
+TOPIC_ZOOM_TAG: value:Logik;weight:2.0;significance:8.32652288056005;degreegeneralization:4;uri:21472524
+TOPIC_ZOOM_TAG: value:Mathematische Logik;weight:1.0;significance:5.5495558013999;degreegeneralization:6;uri:20881349
+TOPIC_ZOOM_TAG: value:Symbolische Logik;weight:1.0;significance:5.5495558013999;degreegeneralization:7;uri:20782698
+TOPIC_ZOOM_TAG: value:Aussagenlogik;weight:1.0;significance:5.5495558013999;degreegeneralization:8;uri:20847655
+TOPIC_ZOOM_TAG: value:Geisteswissenschaften;weight:2.0;significance:4.65434461816952;degreegeneralization:3;uri:21978240
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:3.89064791503836;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:2.23699226098339;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:1.75110858232764;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:1.16884339240287;degreegeneralization:2;uri:21999711
+POS_TAG: value:Aussagenlogische;weight:0.0;uri:;postag:NN
+POS_TAG: value:llbar;weight:0.0;uri:;postag:NN
+POS_TAG: value:A;weight:0.0;uri:;postag:NN
+POS_TAG: value:B;weight:0.0;uri:;postag:NN
+POS_TAG: value:Werte;weight:0.0;uri:;postag:NN
+POS_TAG: value:pfung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gleichheitszeichen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beispiel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Idempotenz;weight:0.0;uri:;postag:NN
+POS_TAG: value:senz;weight:0.0;uri:;postag:NN
+POS_TAG: value:wie?Wie;weight:0.0;uri:;postag:NN
+POS_TAG: value:Formel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ergebnis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Absorption;weight:0.0;uri:;postag:NN
+POS_TAG: value:Besten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kombination;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tabelle;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:UNDs;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aussagenlogik;weight:0.0;uri:;postag:NN
+POS_TAG: value:Weiteren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Formeln;weight:0.0;uri:;postag:NN
+POS_TAG: value:cke;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wahrheitstabelle;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fragen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Behauptung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aussage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hoffe;weight:0.0;uri:;postag:NN
+POS_TAG: value:NICHT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dreifach;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorstellen;weight:0.0;uri:;postag:NN
+POS_TAG: value:tzung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Thema;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wert;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+ich bins mal wieder.
+Ich habe da mal ein paar Fragen zur gestrigen Präsenz zum Thema Aussagenlogik.
+1. Wir hatten gesagt, dass eine <REMOVED_PERSON_ENTITY> (also ein NICHT) am stärksten bindet. Wie muss ich mir das Vorstellen? Könnt ihr mir dafür eventuell ein kurzes Beispiel geben?
+2. Ich stelle mal folgende Behauptung auf:
+A
+B
+A UND B
+1
+0
+0
+0
+1
+0
+0
+0
+0
+1
+1
+1
+"Aussagenlogische Formel" (A UND B) ist "Erfüllbar" weil es eine Kombination gibt wo (A UND B) den Wert 1 ergibt!"Stimmt diese Aussage von mir?
+ 
+3. Des Weiteren noch folgende Aussage von mir:
+A
+B
+A -&gt; B
+A&lt;-&gt;B
+B -&gt; A (B impliziert A)
+0
+0
+1
+1
+1
+0
+1
+1
+0
+0
+1
+0
+0
+0
+1
+1
+1
+1
+1
+1
+(A&lt;-&gt;B) = (Dreifach Gleichheitszeichen) (A-&gt;B) UND (B-&gt;A) Beide Aussagenlogische Formeln sind logisch gleichwertig.  Weil bei der Verknüpfung der beiden Ausdrücke "A -&gt; B" und "A &lt;- B" via UND kommt genau das gleiche heraus wie bei A&lt;-&gt;B (siehe Tabelle)Also siehe folgende Tabelle:1&amp;1 = 11&amp;0 = 00&amp;1 = 01&amp;1 = 1Stimmt das? (Hoffe könnt mir folgen!)4. Wenn man zeigen möchte, dass zwei aussagenlogische Formeln die gleiche Werte ergeben muss man dies folgendermaßen darstellen: (A&lt;-&gt;B) &lt;-&gt; (A-&gt;B) UND (B-&gt;A)Ist das korrekt?5. Des Weiteren hatten wir während der Präsenz folgendes gesagt "Tauscht man alle UNDs gegen ODERs aus bzw. anderes rum bleibt das eigentliche Ergebnis unverändert. Stimmt das? Könnt ihr mir hierfür eventuell auch ein Beispiel geben? 
+6. Außerdem noch folgende Frage zur Absorption:A ODER (A ODER B) =(A ODER A) UND (A ODER B)  Bei (A ODER A) kann aufgrund der Idempotenz "ODER A" weggelassen werden. Daraus folgt dann A ODER (A UND B) = A (Es bleibt also nur A übrig!)-Hätte man auf diese Lösung auch ohne Wahrheitstabelle kommen können? Wenn ja wie?Wie kommt man von "A ODER (A ODER B)" zu "(A ODER A) UND (A ODER B)" ?
+Freue mich mal wieder über eure Unterstützung. Besten Dank und Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, ich_PPER bins_VVFIN mal_ADV wieder_ADV ._$. Ich_PPER habe_VAFIN da_ADV mal_ADV ein_ART paar_PIDAT Fragen_NN zur_APPRART gestrigen_ADJA Präsenz_NN zum_APPRART Thema_NN Aussagenlogik_NN ._$. 1_CARD ._$. Wir_PPER hatten_VAFIN gesagt_VVPP ,_$, dass_KOUS eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD -LRB-_TRUNC also_ADV ein_ART NICHT_NN -RRB-_TRUNC am_APPRART stärksten_ADJA bindet_VVFIN ._$. Wie_PWAV muss_KOUS ich_PPER mir_PPER das_ART Vorstellen_NN ?_$. Könnt_NE ihr_PPOSAT mir_PPER dafür_PROAV eventuell_ADJD ein_ART kurzes_ADJA Beispiel_NN geben_VVINF ?_$. 2_CARD ._$. Ich_PPER stelle_VVFIN mal_ADV folgende_ADJA Behauptung_NN auf_PTKVZ :_$. A_NN B_NN A_NN UND_KON B_NN 1_CARD 0_CARD 0_CARD 0_CARD 1_CARD 0_CARD 0_CARD 0_CARD 0_CARD 1_CARD 1_CARD 1_CARD "_$( Aussagenlogische_ADJA Formel_NN "_$( -LRB-_TRUNC A_NN UND_KON B_NN -RRB-_TRUNC ist_VAFIN "_$( Erfüllbar_NN "_$( weil_KOUS es_PPER eine_ART Kombination_NN gibt_VVFIN wo_PWAV -LRB-_TRUNC A_NN UND_KON B_NN -RRB-_TRUNC den_ART Wert_NN 1_CARD ergibt_VVFIN !_$. "_$( Stimmt_VVFIN diese_PDAT Aussage_NN von_APPR mir_PPER ?_$. 3_CARD ._$. Des_ART Weiteren_NN noch_ADV folgende_ADJA Aussage_NN von_APPR mir_PPER :_$. A_NN B_NN A_NN -_$( >_CARD B_NN A_NN <_CARD -_$( >_CARD B_NN B_NN -_$( >_CARD A_NN -LRB-_TRUNC B_NN impliziert_VVFIN A_NN -RRB-_TRUNC 0_CARD 0_CARD 1_CARD 1_CARD 1_CARD 0_CARD 1_CARD 1_CARD 0_CARD 0_CARD 1_CARD 0_CARD 0_CARD 0_CARD 1_CARD 1_CARD 1_CARD 1_CARD 1_CARD 1_CARD -LRB-_TRUNC A_NN <_CARD -_$( >_CARD B_NN -RRB-_TRUNC =_XY -LRB-_TRUNC Dreifach_NN Gleichheitszeichen_NN -RRB-_TRUNC -LRB-_TRUNC A_NN -_$( >_CARD B_NN -RRB-_TRUNC UND_KON -LRB-_TRUNC B_NN -_$( >_CARD A_NN -RRB-_TRUNC Beide_PIDAT Aussagenlogische_NN Formeln_NN sind_VAFIN logisch_ADJD gleichwertig_ADJD ._$. Weil_KOUS bei_APPR der_ART Verknüpfung_NN der_ART beiden_PIDAT Ausdrücke_NN "_$( A_NN -_$( >_CARD B_NN "_$( und_KON "_$( A_NN <_CARD -_$( B_NN "_$( via_APPR UND_KON kommt_VVFIN genau_ADJD das_ART gleiche_ADJA heraus_PTKVZ wie_KOKOM bei_APPR A_NN <_CARD -_$( >_CARD B_NN -LRB-_TRUNC siehe_VVIMP Tabelle_NN -RRB-_TRUNC Also_ADV siehe_VVIMP folgende_ADJA Tabelle_NN :1_CARD &_KON 1_CARD =_XY 11_CARD &_KON 0_CARD =_XY 00_CARD &_KON 1_CARD =_XY 01_CARD &_KON 1_CARD =_XY 1Stimmt_XY das_PDS ?_$. -LRB-_TRUNC Hoffe_NN könnt_VVFIN mir_PPER folgen_VVINF !_$. -RRB-_TRUNC 4_CARD ._$. Wenn_KOUS man_PIS zeigen_VVINF möchte_VMFIN ,_$, dass_KOUS zwei_CARD aussagenlogische_ADJA Formeln_NN die_ART gleiche_ADJA Werte_NN ergeben_VVPP muss_VMFIN man_PIS dies_PDS folgendermaßen_ADV darstellen_VVINF :_$. -LRB-_TRUNC A_NN <_CARD -_$( >_CARD B_NN -RRB-_TRUNC <_XY -_$( >_XY -LRB-_TRUNC A_NN -_$( >_CARD B_NN -RRB-_TRUNC UND_KON -LRB-_TRUNC B_NN -_$( >_CARD A_NN -RRB-_TRUNC Ist_VAFIN das_ART korrekt_ADJD ?_$. 5_CARD ._$. Des_ART Weiteren_NN hatten_VAFIN wir_PPER während_APPR der_ART Präsenz_NN folgendes_ADJA gesagt_VVPP "_$( Tauscht_VVFIN man_PIS alle_PIDAT UNDs_NN gegen_APPR ODERs_NE aus_APPR bzw_NE ._$. anderes_PIS rum_PTKVZ bleibt_VVFIN das_ART eigentliche_ADJA Ergebnis_NN unverändert_ADJD ._$. Stimmt_VVFIN das_PDS ?_$. Könnt_NE ihr_PPOSAT mir_PPER hierfür_PROAV eventuell_ADJD auch_ADV ein_ART Beispiel_NN geben_VVINF ?_$. 6_CARD ._$. Außerdem_PROAV noch_ADV folgende_ADJA Frage_NN zur_APPRART Absorption_NN :_$. A_NN ODER_NE -LRB-_TRUNC A_NN ODER_NE B_NN -RRB-_TRUNC =_XY -LRB-_TRUNC A_NN ODER_NE A_NE -RRB-_TRUNC UND_KON -LRB-_TRUNC A_NN ODER_NE B_NN -RRB-_TRUNC Bei_APPR -LRB-_TRUNC A_NN ODER_NE A_NE -RRB-_TRUNC kann_VMFIN aufgrund_APPR der_ART Idempotenz_NN "_$( ODER_NE A_NE "_$( weggelassen_VVPP werden_VAINF ._$. Daraus_PROAV folgt_VVFIN dann_ADV A_NN ODER_NE -LRB-_TRUNC A_NN UND_KON B_NN -RRB-_TRUNC =_XY A_NN -LRB-_TRUNC Es_PPER bleibt_VVFIN also_ADV nur_ADV A_NN übrig_ADJD !_$. -RRB-_TRUNC -_$( Hätte_VVFIN man_PIS auf_APPR diese_PDAT Lösung_NN auch_ADV ohne_APPR Wahrheitstabelle_NN kommen_VVINF können_VMINF ?_$. Wenn_KOUS ja_ADV wie?Wie_NN kommt_VVFIN man_PIS von_APPR "_$( A_NN ODER_NE -LRB-_TRUNC A_NN ODER_NE B_NN -RRB-_TRUNC "_$( zu_PTKZU "_$( -LRB-_TRUNC A_NN ODER_NE A_NE -RRB-_TRUNC UND_KON -LRB-_TRUNC A_NN ODER_NE B_NN -RRB-_TRUNC "_$( ?_$. Freue_VVFIN mich_PPER mal_ADV wieder_ADV über_APPR eure_ADJA Unterstützung_NN ._$. Besten_NN Dank_NN und_KON Gruß_NN <_VVFIN REMOVED_PERSON_ENTITY_NE >_XY 

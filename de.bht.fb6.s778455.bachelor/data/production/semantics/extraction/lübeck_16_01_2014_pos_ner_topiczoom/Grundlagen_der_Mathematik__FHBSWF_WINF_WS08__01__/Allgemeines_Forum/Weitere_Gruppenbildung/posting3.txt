@@ -1,0 +1,9 @@
+ID: 16579
+CREATION_DATETIME: 1225042924
+MODIFICATION_DATETIME: 1225042924
+TITLE: Re: Weitere Gruppenbildung
+PARENT_POSTING_ID: 16577
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>, dann würde ich mich euch gern anschließen. 
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE ,_$, dann_ADV würde_VAFIN ich_PPER mich_PRF euch_PRF gern_ADV anschließen_VVINF ._$. 

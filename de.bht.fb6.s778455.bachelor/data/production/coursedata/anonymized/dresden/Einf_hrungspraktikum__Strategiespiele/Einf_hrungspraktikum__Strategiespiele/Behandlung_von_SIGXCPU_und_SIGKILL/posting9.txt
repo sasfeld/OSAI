@@ -1,0 +1,9 @@
+ID: 1568
+CREATION_DATETIME: 1363993200000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Ist nicht mein Code und ich hätte es an der Stelle auch nicht verwendet, aber `goto` komplett zu abzu...
+PARENT_POSTING_ID: 1446
+POSTING_TYPE: comment
+CONTENT:
+Ist nicht mein Code und ich hätte es an der Stelle auch nicht verwendet, aber `goto` komplett zu abzulehnen ist totaler Quark. `goto`-Statements lassen sich mindestens für Ressourcenverwaltung, Error-Handling und den Austritt aus verschachtelten Schleifen sinnvoll benutzen. Das heißt nicht, dass es nicht auch ohne `goto`s gehen würde, aber ohne würde der Code länger un unübersichtlicher werden.
+TAGGED_CONTENT:

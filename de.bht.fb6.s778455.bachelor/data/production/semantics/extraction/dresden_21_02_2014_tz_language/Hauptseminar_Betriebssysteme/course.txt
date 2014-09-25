@@ -1,0 +1,9 @@
+ID: 110601007
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Hauptseminar Betriebssysteme
+LANGUAGE: UNKNOWN
+SUMMARY: null
+URL: http://www.inf.tu-dresden.de/index.php?node_id=1322&ln=de

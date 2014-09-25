@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="13468" moduleid="67256" modulename="forum" contextid="94174">
+  <forum id="13468">
+    <type>general</type>
+    <name>Fachforum zum Teil III</name>
+    <intro>Hier können Sie Fachfragen zum Teil III diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1218802920</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="42911">
+        <name>Aufgabe 8b, LO8</name>
+        <firstpost>115384</firstpost>
+        <userid>745</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1323610395</timemodified>
+        <usermodified>665</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="115384">
+            <parent>0</parent>
+            <userid>745</userid>
+            <created>1323519692</created>
+            <modified>1323520743</modified>
+            <mailed>1</mailed>
+            <subject>Aufgabe 8b, LO8</subject>
+            <message>Moin! Kann mir bitte jemand bei der Aufgabe 8b sagen, wie die Formel in der Loesung zustande kommt?
+
+Muss ich 
+d = b x c ins Verhaeltnis setzen zu
+|d| = |b x c|
+
+Also quasi 'd zu |d|' ist gleich 'b x c zu |b x c|' ?
+
+Kann man sich diese Formel immer so herleiten?
+
+Vielen Dank!
+VG
+Mike</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="115385">
+            <parent>115384</parent>
+            <userid>665</userid>
+            <created>1323527693</created>
+            <modified>1323527693</modified>
+            <mailed>1</mailed>
+            <subject>Re: Aufgabe 8b, LO8</subject>
+            <message>&lt;p&gt;Hallo Herr Ellger,&lt;/p&gt;
+&lt;p&gt;ich habe leider nicht ganz verstanden was Sie meinen.... Zur Erklärung derAufgabe: Zunächst müssen Sie das Vektorprodukt d = |b x c| und den Betrag des Vektorprodukts (= wurzel(13)) berechnen. Der Vektor d, also das Vektorprodukt aus b und c steht (per Definition) senkrecht auf den Vektoren b und c. Jetzt muss nur noch die Konstante vor dem Vektor d ermittelt werden, so dass der Betrag des Vektors nicht wurzel(13), sondern 2 beträgt. Deshalb wird der Vektor mit +- 2/wurzel(13) multipliziert.&lt;/p&gt;
+&lt;p&gt;Viele Grüße&lt;/p&gt;
+&lt;p&gt;Ulrike Bähr&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="115386">
+            <parent>115385</parent>
+            <userid>745</userid>
+            <created>1323535730</created>
+            <modified>1323535784</modified>
+            <mailed>1</mailed>
+            <subject>Re: Aufgabe 8b, LO8</subject>
+            <message>Hallo Frau Baehr, vielen Dank für die schnelle Antwort:)
+
+Ihre Vorgehensweise klingt logisch. So ganz verstanden habe ich es aber noch nicht, befürchte ich. Als erstes den Vektor zu berechnen leuchtet mir ein. Der hätte ohne Faktor den Betrag Wurzel(13). Soll aber Betrag 2 haben. Dafür den Vektor mit (2/Wurzel(13)) zu multiplizieren, dieser Schritt erschließt sich mir noch nicht ganz. Aber ich lasse das noch einmal sacken;)
+
+Vielen Dank!
+
+VG
+Mike</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="115387">
+            <parent>115386</parent>
+            <userid>665</userid>
+            <created>1323610395</created>
+            <modified>1323610395</modified>
+            <mailed>1</mailed>
+            <subject>Re: Aufgabe 8b, LO8</subject>
+            <message>&lt;p&gt;Hallo Herr Ellger,&lt;/p&gt;
+&lt;p&gt;wenn der Vektor den Betrag wurzel(13) hat, dann muss ich ihn (den Vektor bzw. den Betrag) durch wurzel(13) teilen, um den Betrag von 1 zu erhalten. Dann mit 2 multiplizieren, um den Betrag von 2 zu erhalten....&lt;/p&gt;
+&lt;p&gt;Viele Grüße&lt;/p&gt;
+&lt;p&gt;Ulrike Bähr&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="123172">
+        <userid>665</userid>
+      </subscription>
+      <subscription id="123173">
+        <userid>745</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

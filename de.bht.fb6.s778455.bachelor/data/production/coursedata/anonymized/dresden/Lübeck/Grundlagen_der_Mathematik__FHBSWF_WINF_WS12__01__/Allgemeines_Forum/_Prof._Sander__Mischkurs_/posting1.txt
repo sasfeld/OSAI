@@ -1,0 +1,12 @@
+ID: 184343
+CREATION_DATETIME: 1354370861
+MODIFICATION_DATETIME: 1354370861
+TITLE: @Prof. Sander: Mischkurs?
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+eben wollte ich mich mit einem Medieninformatikstudent austauschen und habe ihm einen Link aus dem Forum geschickt. Auf diesen kann er als Medieninformatiker leider nicht zugreifen.
+Können Sie bitte auch im Sinne der Chancengleichheit dafür sorgen, dass sowohl MI´s als auch WI´s den Zugriff auf die selben Ressourcen haben, denn sonst ist es ja kein wirklicher Mischkurs.
+M. f. G.
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

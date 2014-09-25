@@ -1,0 +1,42 @@
+ID: 117567
+CREATION_DATETIME: 1327682224
+MODIFICATION_DATETIME: 1327682969
+TITLE: Re: Probeklausur
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Vektoren;weight:10.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:10.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:10.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:10.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:10.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:10.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Vorschlag;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Punkt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fall;weight:0.0;uri:;postag:NN
+POS_TAG: value:Loesungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Loesungsmenge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Probe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kollege;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kleinigkeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sehen;weight:0.0;uri:;postag:NN
+POS_TAG: value:B.;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117566
+CONTENT:
+Gut, befassen wir uns genauer damit. Augenscheinlich sind die Loesungen aus dem Vorschlag von Kollege <REMOVED_PERSON_ENTITY> und das, was wir alle bisher selbst ausgerechnet haben, unterschiedlich. ok. Das einer von uns dabei falsch lag *ist jedoch nicht richtig*, denn beides stimmt, wie ich nochmals geprueft habe. Es gibt naemlich eine Kleinigkeit zu bemerken. Sehen Sie:
+t * (2 2 1) + (-1 -1 0) = (1 1 1)
+t * (2 2 1) = (1 1 1) - (-1 -1 0)
+t * (2 2 1) = (2 2 1) 
+logischerweise mit t = 1
+Es geht aber auch (natuerlich):
+t * (2 2 1) + (1 1 1) = (-1 -1 0)
+t * (2 2 1) = (-1 -1 0) + (-1 -1 -1)
+t * (2 2 1) = (-2 -2 -1) 
+mit t = -1
+Der Punkt ist der: Bei unendlich vielen Loesungen nehmen Sie genau einen Vektor aus der Loesungsmenge, und alle anderen Vektoren linearkombinieren Sie mit dem Vektor. Das kann entweder der Vektor (1 1 1) sein oder der Vektor (-1 -1 0) sein in unserem Fall.
+Es ist dabei egal, welchen Vektor Sie nehmen, solange er in der Loesungsmenge ist. 
+Probieren Sie es aus: Setzen Sie einmal den Vektor (1 1 1) und einmal den Vektor (-1 -1 0) zur Probe ein: Beide gehen und ergeben (-2 1 1). Was ich oben gezeigt habe ist, dass beide Vektoren aus derselben Loesungsmenge stammen.
+Genau so waere z. B. richtig:
+t * (2 2 1) + (3 3 2). Dann muesste die Probe mit t=0 und somit (3 3 2) eingesetzt in die Matrix den Vektor b = (-2 1 1) geben, was der Fall ist.
+TAGGED_CONTENT:
+Gut_ADJD ,_$, befassen_VVFIN wir_PPER uns_PRF genauer_ADJD damit_PROAV ._$. Augenscheinlich_ADJD sind_VAFIN die_ART Loesungen_NN aus_APPR dem_ART Vorschlag_NN von_APPR Kollege_NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE und_KON das_PDS ,_$, was_PRELS wir_PPER alle_PIDAT bisher_ADV selbst_ADV ausgerechnet_ADV haben_VAFIN ,_$, unterschiedlich_ADJD ._$. ok_NE ._$. Das_PDS einer_PIS von_APPR uns_PPER dabei_PROAV falsch_ADJD lag_VVFIN \*_ADJD ist_VAFIN jedoch_ADV nicht_PTKNEG richtig_ADJD \*_VVFIN ,_$, denn_KON beides_PIS stimmt_VVFIN ,_$, wie_PWAV ich_PPER nochmals_ADV geprueft_VVPP habe_VAFIN ._$. Es_PPER gibt_VVFIN naemlich_ADJD eine_ART Kleinigkeit_NN zu_PTKZU bemerken_VVINF ._$. Sehen_NN Sie_PPER :_$. t_XY \*_CARD -LRB-_TRUNC 2_CARD 2_CARD 1_CARD -RRB-_TRUNC +_KON -LRB-_TRUNC -1_CARD -1_CARD 0_CARD -RRB-_TRUNC =_XY -LRB-_TRUNC 1_CARD 1_CARD 1_CARD -RRB-_TRUNC t_XY \*_CARD -LRB-_TRUNC 2_CARD 2_CARD 1_CARD -RRB-_TRUNC =_XY -LRB-_TRUNC 1_CARD 1_CARD 1_CARD -RRB-_TRUNC -_$( -LRB-_TRUNC -1_CARD -1_CARD 0_CARD -RRB-_TRUNC t_XY \*_CARD -LRB-_TRUNC 2_CARD 2_CARD 1_CARD -RRB-_TRUNC =_XY -LRB-_TRUNC 2_CARD 2_CARD 1_CARD -RRB-_TRUNC logischerweise_ADV mit_APPR t_XY =_XY 1_CARD Es_PPER geht_VVFIN aber_ADV auch_ADV -LRB-_TRUNC natuerlich_ADJD -RRB-_TRUNC :_$. t_XY \*_CARD -LRB-_TRUNC 2_CARD 2_CARD 1_CARD -RRB-_TRUNC +_KON -LRB-_TRUNC 1_CARD 1_CARD 1_CARD -RRB-_TRUNC =_XY -LRB-_TRUNC -1_CARD -1_CARD 0_CARD -RRB-_TRUNC t_XY \*_CARD -LRB-_TRUNC 2_CARD 2_CARD 1_CARD -RRB-_TRUNC =_XY -LRB-_TRUNC -1_CARD -1_CARD 0_CARD -RRB-_TRUNC +_KON -LRB-_TRUNC -1_CARD -1_CARD -1_CARD -RRB-_TRUNC t_XY \*_CARD -LRB-_TRUNC 2_CARD 2_CARD 1_CARD -RRB-_TRUNC =_XY -LRB-_TRUNC -2_XY -2_CARD -1_CARD -RRB-_TRUNC mit_APPR t_XY =_XY -1_CARD Der_ART Punkt_NN ist_VAFIN der_ART :_$. Bei_APPR unendlich_ADJD vielen_PIDAT Loesungen_NN nehmen_VVFIN Sie_PPER genau_ADJD einen_ART Vektor_NN aus_APPR der_ART Loesungsmenge_NN ,_$, und_KON alle_PIDAT anderen_ADJA Vektoren_NN linearkombinieren_VVFIN Sie_PPER mit_APPR dem_ART Vektor_NN ._$. Das_PDS kann_VMFIN entweder_KON der_ART Vektor_NN -LRB-_TRUNC 1_CARD 1_CARD 1_CARD -RRB-_TRUNC sein_PPOSAT oder_KON der_ART Vektor_NN -LRB-_TRUNC -1_CARD -1_CARD 0_CARD -RRB-_TRUNC sein_PPOSAT in_APPR unserem_PPOSAT Fall_NN ._$. Es_PPER ist_VAFIN dabei_PROAV egal_ADV ,_$, welchen_PWAT Vektor_NN Sie_PPER nehmen_VVINF ,_$, solange_KOUS er_PPER in_APPR der_ART Loesungsmenge_NN ist_VAFIN ._$. Probieren_VVFIN Sie_PPER es_PPER aus_PTKVZ :_$. Setzen_VVIMP Sie_PPER einmal_ADV den_ART Vektor_NN -LRB-_TRUNC 1_CARD 1_CARD 1_CARD -RRB-_TRUNC und_KON einmal_ADV den_ART Vektor_NN -LRB-_TRUNC -1_CARD -1_CARD 0_CARD -RRB-_TRUNC zur_APPRART Probe_NN ein_PTKVZ :_$. Beide_PIDAT gehen_VVINF und_KON ergeben_VVFIN -LRB-_TRUNC -2_XY 1_CARD 1_CARD -RRB-_TRUNC ._$. Was_PWS ich_PPER oben_ADV gezeigt_VVPP habe_VAFIN ist_VAFIN ,_$, dass_KOUS beide_PIS Vektoren_NN aus_APPR derselben_PDAT Loesungsmenge_NN stammen_VVFIN ._$. Genau_ADV so_ADV waere_VVFIN z._APPRART B._NN richtig_ADJD :_$. t_XY \*_CARD -LRB-_TRUNC 2_CARD 2_CARD 1_CARD -RRB-_TRUNC +_KON -LRB-_TRUNC 3_CARD 3_CARD 2_CARD -RRB-_TRUNC ._$. Dann_ADV muesste_VVFIN die_ART Probe_NN mit_APPR t_XY =_XY 0_CARD und_KON somit_ADV -LRB-_TRUNC 3_CARD 3_CARD 2_CARD -RRB-_TRUNC eingesetzt_VVPP in_APPR die_ART Matrix_NE den_ART Vektor_NN b_XY =_XY -LRB-_TRUNC -2_XY 1_CARD 1_CARD -RRB-_TRUNC geben_VVINF ,_$, was_PWS der_ART Fall_NN ist_VAFIN ._$. 

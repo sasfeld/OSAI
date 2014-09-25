@@ -1,0 +1,10 @@
+ID: 2535
+CREATION_DATETIME: 1380060000000
+MODIFICATION_DATETIME: 1380060000000
+TITLE: ok, danke. Das geht auch, ich hatte den "clone"-Button gesucht, weil sich ausser dem Semester nichts ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2534
+POSTING_TYPE: comment
+CONTENT:
+ok, danke. Das geht auch, ich hatte den "clone"-Button gesucht, weil sich ausser dem Semester nichts geaendert hat und es angenehm waere, Beschreibung, Maintainer, URL, usw. einfach zu uebernehmen.
+TAGGED_CONTENT:

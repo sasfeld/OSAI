@@ -1,0 +1,22 @@
+ID: 97
+CREATION_DATETIME: 1296230640000
+MODIFICATION_DATETIME: 1296230640000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 96
+CONTENT:
+ 
+Liebe ,
+
+fast sehr gut gemacht. Das wesentliche haben Sie verstanden. "Fast" aus dem folgenden Grund: was passiert wenn e nicht echt in der Liste gespeichert ist? Wir nehmen wieder die gleiche Abbildung: wenn wir O8 entfernen wollen, dann soll die Methode remove false zurueck geben.
+
+Eine kuerzere Form der Programmierung ist:
+
+Knoten vor = sucheVor(e);
+vor.next = vor.next.next;
+
+Haben Sie das Programm in der main Methode getestet?
+
+Mit freundlichen Gruessen
+	
+TAGGED_CONTENT:

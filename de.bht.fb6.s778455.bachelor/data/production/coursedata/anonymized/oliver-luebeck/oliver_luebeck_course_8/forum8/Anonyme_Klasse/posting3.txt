@@ -1,0 +1,21 @@
+ID: 40
+CREATION_DATETIME: 1197030420000
+MODIFICATION_DATETIME: 1197030420000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 39
+CONTENT:
+
+Hallo ,
+
+heißt das, das die anonyme Klasse ist?
+
+new ActionListener())
+Wenn ja, habe ich es jetzt verstanden.
+ Ja über das Modul ärgere ich mich auch.
+ manches wird total ausführlich erklärt, wo das gar nicht notwendig ist.
+ Und dann bei solchen Dingen wird es gerade mal angerissen und dann soll man es verstehen...
+
+ Danke und LG
+   
+TAGGED_CONTENT:

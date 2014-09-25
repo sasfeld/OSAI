@@ -1,0 +1,10 @@
+ID: 773
+CREATION_DATETIME: 1352847600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Aufgabenstellungen, Folien und Materialien für den Themenkomplex 2 der Übung WME sind nun unter http://mt.inf.tu-dresden. de/lehre/wme/uebung. html verfügbar.
+TAGGED_CONTENT:

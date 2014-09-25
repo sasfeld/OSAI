@@ -1,0 +1,13 @@
+ID: 10
+CREATION_DATETIME: 1198054500000
+MODIFICATION_DATETIME: 1198054500000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 9
+CONTENT:
+
+       Gut verstanden und gute Antwort. Tipp: probieren Sie das Programm aus, in dem Sie ein von den println Befehle weg kommentieren.
+Viel Spaß mit Rekursion!
+
+    
+TAGGED_CONTENT:

@@ -1,0 +1,17 @@
+ID: 13
+CREATION_DATETIME: 1176316740000
+MODIFICATION_DATETIME: 1176316740000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Liebe Studierende,
+
+für die Einsendeaufgaben LE EJP und ATT wichtig ist die Dokumentation der Klasse MyMath oder Triangle. Falls Sie die Dokumentation auch für die Test-Klasse erstellen wollen, können Sie es mit diesem Kommando machen:
+javadoc -d dokuverzeichnis *.java
+
+Mit *.java werden alle Klassen im Verzeichnis berücksichtigt.
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

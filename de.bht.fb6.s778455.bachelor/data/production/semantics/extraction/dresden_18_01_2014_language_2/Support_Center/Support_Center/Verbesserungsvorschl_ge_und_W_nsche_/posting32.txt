@@ -1,0 +1,10 @@
+ID: 797
+CREATION_DATETIME: 1353279600000
+MODIFICATION_DATETIME: 1353279600000
+TITLE: Es wäre toll, wenn es bei den Kursen einen Link zur jeweiligen externen Kursseite gäbe.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 369
+POSTING_TYPE: answer
+CONTENT:
+Es wäre toll, wenn es bei den Kursen einen Link zur jeweiligen externen Kursseite gäbe.
+TAGGED_CONTENT:

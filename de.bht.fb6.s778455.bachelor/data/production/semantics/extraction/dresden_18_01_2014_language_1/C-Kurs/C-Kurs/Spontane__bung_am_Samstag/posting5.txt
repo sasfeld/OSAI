@@ -1,0 +1,10 @@
+ID: 695
+CREATION_DATETIME: 1352329200000
+MODIFICATION_DATETIME: 1352329200000
+TITLE: Ist es ja auch, bis auf den ersten Termin, der aus der Reihe tanzt und die drei Wochen Weihnachtsferi...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 689
+POSTING_TYPE: comment
+CONTENT:
+Ist es ja auch, bis auf den ersten Termin, der aus der Reihe tanzt und die drei Wochen Weihnachtsferien... 
+TAGGED_CONTENT:

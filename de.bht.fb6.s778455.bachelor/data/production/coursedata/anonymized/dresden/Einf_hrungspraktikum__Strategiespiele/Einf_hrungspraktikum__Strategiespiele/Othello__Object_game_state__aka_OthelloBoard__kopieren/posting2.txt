@@ -1,0 +1,9 @@
+ID: 1483
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Doch, das geht. Du musst dazu nur den fehlenden Copy-Konstruktor implementieren. Steht auch so in `bo...
+PARENT_POSTING_ID: 1481
+POSTING_TYPE: answer
+CONTENT:
+Doch, das geht. Du musst dazu nur den fehlenden Copy-Konstruktor implementieren. Steht auch so in `board. h`.
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 2012
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Die Vorlage finde ich nicht gerade umwerfend, weil die Masterfolien unbrauchbar sind. Die Masterfolie...
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+Die Vorlage finde ich nicht gerade umwerfend, weil die Masterfolien unbrauchbar sind. Die Masterfolien bieten keine Eingabefelder, ich muss also vorhandene Folien kopieren und den alten Inhalt löschen ... SCHEI? WORD
+TAGGED_CONTENT:

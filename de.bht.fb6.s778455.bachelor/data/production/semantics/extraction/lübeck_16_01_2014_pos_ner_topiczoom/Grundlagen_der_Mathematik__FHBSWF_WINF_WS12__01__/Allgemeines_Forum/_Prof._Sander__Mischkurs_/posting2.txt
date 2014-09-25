@@ -1,0 +1,24 @@
+ID: 184373
+CREATION_DATETIME: 1354386089
+MODIFICATION_DATETIME: 1354386089
+TITLE: Re: @Prof. Sander: Mischkurs?
+TOPIC_ZOOM_TAG: value:Foren;weight:1.0;significance:7.65869350798439;degreegeneralization:3;uri:20770662
+POS_TAG: value:Mischkurs;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Jahr;weight:0.0;uri:;postag:NN
+POS_TAG: value:Option;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kurses;weight:0.0;uri:;postag:NN
+POS_TAG: value:Freigabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beste;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kurs;weight:0.0;uri:;postag:NN
+POS_TAG: value:Moodle;weight:0.0;uri:;postag:NN
+POS_TAG: value:Forums;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 184343
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+leider ist eine Freigabe des Forums außerhalb des Kurses im Moodle als Option nicht vorgesehen - auch wenn ich es gerne gemacht hätte. Nächstes Jahr werden wir einen echten Mischkurs anlegen, wo alle in einen Kurs gebucht werden. Dies ist aber nun nachträglich nicht mehr möglich. 
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NN >_VVFIN ,_$, leider_ADV ist_VAFIN eine_ART Freigabe_NN des_ART Forums_NN außerhalb_APPR des_ART Kurses_NN im_APPRART Moodle_NN als_APPR Option_NN nicht_PTKNEG vorgesehen_VVPP -_$( auch_ADV wenn_KOUS ich_PPER es_PPER gerne_ADV gemacht_VVPP hätte_VAFIN ._$. Nächstes_ADJA Jahr_NN werden_VAFIN wir_PPER einen_ART echten_ADJA Mischkurs_NN anlegen_VVINF ,_$, wo_PWAV alle_PIS in_APPR einen_ART Kurs_NN gebucht_VVPP werden_VAINF ._$. Dies_PDS ist_VAFIN aber_ADV nun_ADV nachträglich_ADJD nicht_PTKNEG mehr_ADV möglich_ADJD ._$. Beste_NN Grüße_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ._$. 

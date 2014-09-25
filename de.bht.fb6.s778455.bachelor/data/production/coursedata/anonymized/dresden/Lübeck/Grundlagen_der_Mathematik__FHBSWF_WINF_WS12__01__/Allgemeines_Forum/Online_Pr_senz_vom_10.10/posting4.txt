@@ -1,0 +1,24 @@
+ID: 170029
+CREATION_DATETIME: 1350146172
+MODIFICATION_DATETIME: 1350146172
+TITLE: Re: Online Präsenz vom 10.10.
+PARENT_POSTING_ID: 170025
+CONTENT:
+Außerdem noch eine Frage:
+Im wurde noch folgende Übungsaufgabe geannt.
+Ist Teilmenge von:{1, 4, 7}, {1, 4}, {1, 7}, {4, 7}, {1}, {4}, {7}Ich verstehe hier nicht ganz die Aufgabenstellung:Ich weiß zwar was eine <REMOVED_PERSON_ENTITY> ist aber trotzdem weiß ich gar nicht was ich hier machen soll. Eventuell so:?A={1, 4, 7}, B={1, 4}, C={1, 7}, D={4, 7}, E={1}, F={4}, G={7}
+B ist Teilmenge von A
+C ist Teilmenge von A
+D ist Teilmenge von A
+E ist Teilmenge von A
+F ist Teilmenge von A
+G ist Teilmenge von A
+E ist Teilmenge von B
+F ist Teilmenge von B
+G ist Teilmenge von B
+E ist Teilmenge von C
+F ist Teilmenge von C
+G ist Teilmenge von C
+und wie geht es nun weiter?bRc, bRd, bRe usw.?Am Ende soll man dann begründen, ob eine Ordnungsrelationenoder Äquivalenzrelation oder auch gar nichts von beiden vorliegt?Wäre super wenn ihr mir etwas auf die Sprünge helfen könntet. Besten Dank und Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

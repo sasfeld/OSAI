@@ -1,0 +1,59 @@
+ID: 172215
+CREATION_DATETIME: 1350585373
+MODIFICATION_DATETIME: 1350585373
+TITLE: Präsenz vom 17.10.
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+ich bins mal wieder.
+Ich habe da mal ein paar Fragen zur gestrigen Präsenz zum Thema Aussagenlogik.
+1. Wir hatten gesagt, dass eine <REMOVED_PERSON_ENTITY> (also ein NICHT) am stärksten bindet. Wie muss ich mir das Vorstellen? Könnt ihr mir dafür eventuell ein kurzes Beispiel geben?
+2. Ich stelle mal folgende Behauptung auf:
+A
+B
+A UND B
+1
+0
+0
+0
+1
+0
+0
+0
+0
+1
+1
+1
+"Aussagenlogische Formel" (A UND B) ist "Erfüllbar" weil es eine Kombination gibt wo (A UND B) den Wert 1 ergibt!"Stimmt diese Aussage von mir?
+ 
+3. Des Weiteren noch folgende Aussage von mir:
+A
+B
+A -&gt; B
+A&lt;-&gt;B
+B -&gt; A (B impliziert A)
+0
+0
+1
+1
+1
+0
+1
+1
+0
+0
+1
+0
+0
+0
+1
+1
+1
+1
+1
+1
+(A&lt;-&gt;B) = (Dreifach Gleichheitszeichen) (A-&gt;B) UND (B-&gt;A) Beide Aussagenlogische Formeln sind logisch gleichwertig.  Weil bei der Verknüpfung der beiden Ausdrücke "A -&gt; B" und "A &lt;- B" via UND kommt genau das gleiche heraus wie bei A&lt;-&gt;B (siehe Tabelle)Also siehe folgende Tabelle:1&amp;1 = 11&amp;0 = 00&amp;1 = 01&amp;1 = 1Stimmt das? (Hoffe könnt mir folgen!)4. Wenn man zeigen möchte, dass zwei aussagenlogische Formeln die gleiche Werte ergeben muss man dies folgendermaßen darstellen: (A&lt;-&gt;B) &lt;-&gt; (A-&gt;B) UND (B-&gt;A)Ist das korrekt?5. Des Weiteren hatten wir während der Präsenz folgendes gesagt "Tauscht man alle UNDs gegen ODERs aus bzw. anderes rum bleibt das eigentliche Ergebnis unverändert. Stimmt das? Könnt ihr mir hierfür eventuell auch ein Beispiel geben? 
+6. Außerdem noch folgende Frage zur Absorption:A ODER (A ODER B) =(A ODER A) UND (A ODER B)  Bei (A ODER A) kann aufgrund der Idempotenz "ODER A" weggelassen werden. Daraus folgt dann A ODER (A UND B) = A (Es bleibt also nur A übrig!)-Hätte man auf diese Lösung auch ohne Wahrheitstabelle kommen können? Wenn ja wie?Wie kommt man von "A ODER (A ODER B)" zu "(A ODER A) UND (A ODER B)" ?
+Freue mich mal wieder über eure Unterstützung. Besten Dank und Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

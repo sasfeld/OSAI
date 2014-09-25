@@ -1,0 +1,12 @@
+ID: 2062
+CREATION_DATETIME: 1371160800000
+MODIFICATION_DATETIME: 1371160800000
+TITLE: TestSuites sind nicht dazu da um das jUnit Framework mit einer GUI oder Plugins zu verbinden. In Ecli...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2060
+POSTING_TYPE: comment
+CONTENT:
+TestSuites sind nicht dazu <NAME_CORPUS_REPLACEMENT> um das jUnit Framework mit einer GUI oder Plugins zu verbinden. In Eclipse rechtsklickt man einfach auf die Testklassen oder Pakete die die Testklassen und -suites enthalten und führt sie aus. In Eclipse ist es auch leider so, wenn man Pakete auswählt die sowohl TestSuites und auch deren Tests enthält dann werden diese Tests zweimal ausgeführt. Einmal die Tests direkt, und dann nocheinmal in der Suite.
+
+TestSuites sind dazu <NAME_CORPUS_REPLACEMENT> um Tests zu gliedern. Wenn ein Softwareprojekt größer wird dann hat man mehrere 100 Tests. Wenn man jedes mal alle ausführen müsste würde man ziemlich viel Zeit verschwenden. Anstelle kann man nur die TestSuite starten die die Tests enthält die den Code abdeckt, an dem man gerade arbeitet.
+TAGGED_CONTENT:

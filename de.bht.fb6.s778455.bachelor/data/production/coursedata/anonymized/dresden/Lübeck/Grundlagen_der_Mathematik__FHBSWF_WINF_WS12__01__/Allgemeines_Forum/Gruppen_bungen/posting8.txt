@@ -1,0 +1,9 @@
+ID: 194163
+CREATION_DATETIME: 1358416757
+MODIFICATION_DATETIME: 1358416757
+TITLE: Re: Gruppenübungen
+PARENT_POSTING_ID: 194143
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+danke erst einmal für die Ausführungen. Heißt, ich transponiere die Matrizen, erreiche dadurch, dass die "Kommutativität" nun doch funktioniert für XA zu A^T*X^T, löse das System dann mittels Gauß, erhalte eine normale oder parameterbehaftete Lösungsmenge, transponiere diesen Spaltenvektor wieder zurück und habe meine Matrix X?Ist das korrekt?Mich würde dennoch der Schritt interessieren, warum man aus (XA)^T --&gt; A^T * X^T folgern kann. Innerhalb der Klammer sind doch immer noch Matrizen und diese sind nicht kommutativ oder nicht?J schaue ich mir heute Abend einmal an, ob ich das durchrechnen kann. :)GrüßeLars
+TAGGED_CONTENT:

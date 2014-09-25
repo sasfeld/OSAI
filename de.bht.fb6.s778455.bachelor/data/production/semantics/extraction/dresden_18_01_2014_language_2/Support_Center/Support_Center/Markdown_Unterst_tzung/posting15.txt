@@ -1,0 +1,10 @@
+ID: 58
+CREATION_DATETIME: 1342476000000
+MODIFICATION_DATETIME: 1342476000000
+TITLE: **edit button** und s
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 47
+POSTING_TYPE: comment
+CONTENT:
+**edit button** und so noch implementieren aber die posts forms sind noch bisschen kaputt <NAME_CORPUS_REPLACEMENT> fehlt der post_type, der wird nicht übergeben. werde ich mir heute abend mal anschauen!
+TAGGED_CONTENT:

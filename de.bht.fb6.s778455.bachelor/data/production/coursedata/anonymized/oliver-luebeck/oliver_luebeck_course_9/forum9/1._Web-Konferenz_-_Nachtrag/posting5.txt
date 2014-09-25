@@ -1,0 +1,19 @@
+ID: 7
+CREATION_DATETIME: 1175761140000
+MODIFICATION_DATETIME: 1175761140000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 6
+CONTENT:
+
+Richtige Antwort. Danke. Methoden mit void vor dem Namen und ohne return in Java sind möglich. Ein Methoden-Aufruf ist eine Anweisung.
+
+Danke auch für alle Antworten und für das Mitdenken. Sie haben die wesentlichen Punkten getroffen.
+
+Wir werden es in der LE06 noch vertiefen: es gibt 2 Arten von Methoden, die Methoden, die mit void vor dem Methodennamen deklariert werden, auch Prozeduren genannt und die Methoden mit Rückgabe und return Anweisung im Rumpf, auch Funktionen genannt. Sie werden unterschiedlich aufgerufen.
+
+Mit diesem Beispiel sollte Ihnen die LE06 leichter erscheinen (ich hoffe zumindest).
+
+Viele Grüße und Frohe Ostern
+    
+TAGGED_CONTENT:

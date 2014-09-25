@@ -1,0 +1,10 @@
+ID: 677
+CREATION_DATETIME: 1352156400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Übung am Mi 7. 11. in der 6. DS. wird <NAME_CORPUS_REPLACEMENT> Raum POT/13 zum Raum ZEU/255 verlegt.
+Es wäre schön, wenn ihr diese Information noch auf anderen Kanälen an Besucher dieser Übung weitergeben könntet, weil wir <NAME_CORPUS_REPLACEMENT> der Verlegung leider erst heute erfahren haben.
+TAGGED_CONTENT:

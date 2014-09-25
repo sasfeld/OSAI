@@ -1,0 +1,20 @@
+ID: 168219
+CREATION_DATETIME: 1349701813
+MODIFICATION_DATETIME: 1349701813
+TITLE: Re: Kursmaterialien
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=62437#168219
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Funktionen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mengen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Lernobjekt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Relationen;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 168215
+CONTENT:
+Hi,
+damit ist sicher die Aufgabe 9 im Lernobjekt 1 (Mengen, Relationen und Funktionen) auf <REMOVED_PERSON_ENTITY> 20 gemeint :)
+Grüße <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hi_NE ,_$, damit_PROAV ist_VAFIN sicher_ADJD die_ART Aufgabe_NN 9_CARD im_APPRART Lernobjekt_NN 1_CARD -LRB-_TRUNC Mengen_NN ,_$, Relationen_NN und_KON Funktionen_NN -RRB-_TRUNC auf_APPR <_CARD REMOVED_PERSON_ENTITY_NN >_CARD 20_CARD gemeint_VVPP :-RRB-_TRUNC Grüße_NN <_NE REMOVED_PERSON_ENTITY_NE >_XY 

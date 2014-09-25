@@ -1,0 +1,16 @@
+ID: 85
+CREATION_DATETIME: 1183568940000
+MODIFICATION_DATETIME: 1183568940000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 84
+CONTENT:
+
+Aha ok.
+Das heist, Attribute die als private gekennzeichnet sind werden auch an Unterklassen vererbt, es kann aber aus diesen Unterklassen nur nicht direkt darauf zugegriffen werden ?
+Mit verdeckt meinte ich nur, das auf dieses Attribut von der Unterklasse nicht zugegriffen werden konnte, da es ja in der Superklasse mit private markiert ist.
+
+Im "Handbuch zur Javaprogrammierung" habe ich dazu gelesen:
+"Elemente des Typs private sind lediglich in der Klasse selbst sichtbar. Für abgeleitete Klassen und für Aufrufer von Instanzen bleiben private-Variablen verdeckt."
+	
+TAGGED_CONTENT:

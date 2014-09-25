@@ -1,0 +1,12 @@
+ID: 2461
+CREATION_DATETIME: 1374703200000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: Nochmal, um es ganz deutlich zu sagen: Diese Aufgabe wird morgen NICHT in der Klausur drankommen.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2417
+POSTING_TYPE: answer
+CONTENT:
+Nochmal, um es ganz deutlich zu sagen: Diese Aufgabe wird morgen NICHT in der Klausur drankommen.
+
+Wir haben diese Aufgabe dieses Semester neu entwickelt. Sie ist an eine wissenschaftliche Arbeit angelehnt, wo eine ganz ähnliche Beispielrechnung durchgeführt wird. Mittlerweile hat sich herausgestellt, dass die Berechnung in dem Paper fehlerhaft ist. Wir werden deshalb die Aufgabe grundlegend überarbeiten und anschließend online stellen.
+TAGGED_CONTENT:

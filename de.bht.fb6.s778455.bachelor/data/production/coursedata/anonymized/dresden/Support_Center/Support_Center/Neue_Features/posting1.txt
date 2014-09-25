@@ -1,0 +1,10 @@
+ID: 103
+CREATION_DATETIME: 1347660000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Ab jetzt können Antworten als 'beantwortet meine <REMOVED_PERSON_ENTITY>' markiert werden, indem auf den <REMOVED_PERSON_ENTITY> unter dem Rating geklickt wird.
+Außerdem gibt es nun <REMOVED_PERSON_ENTITY>, wenn man keine Rechte hat, eine bestimmte Aktion auszuführen.
+TAGGED_CONTENT:

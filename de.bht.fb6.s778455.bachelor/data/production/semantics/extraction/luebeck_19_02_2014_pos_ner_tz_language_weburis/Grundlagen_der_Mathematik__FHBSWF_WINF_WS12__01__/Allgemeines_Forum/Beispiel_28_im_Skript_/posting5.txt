@@ -1,0 +1,14 @@
+ID: 194809
+CREATION_DATETIME: 1358606973
+MODIFICATION_DATETIME: 1358606990
+TITLE: Re: Beispiel 28 im Skript....
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=72949#194809
+PARENT_POSTING_ID: 194761
+CONTENT:
+mhhh, ich habe in
+x1= -3 mal r drin in
+in x2 = 0 mal r drinin x3 1 mal r drin und in x4 = 0 mal r drin(-3, 0, 1, 0)^T
+...?
+TAGGED_CONTENT:
+mhhh_ADJD ,_$, ich_PPER habe_VAFIN in_APPR x1_XY =_XY -3_CARD mal_ADV r_VVFIN drin_ADV in_APPR in_APPR x2_XY =_XY 0_CARD mal_ADV r_PIS drinin_ADV x3_CARD 1_CARD mal_ADV r_VVFIN drin_ADV und_KON in_APPR x4_XY =_XY 0_CARD mal_ADV r_PIS drin_ADV -LRB-_TRUNC -3_CARD ,_$, 0_CARD ,_$, 1_CARD ,_$, 0_CARD -RRB-_TRUNC ^_XY T_XY ..._$( ?_$. 

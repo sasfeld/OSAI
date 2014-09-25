@@ -1,0 +1,9 @@
+ID: 1201
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: Danke für das Feedback. Steht auf der Prioritätsliste ganz oben. Wird die Tage implementiert.
+PARENT_POSTING_ID: 1196
+POSTING_TYPE: comment
+CONTENT:
+Danke für das Feedback. Steht auf der Prioritätsliste ganz oben. Wird die Tage implementiert.
+TAGGED_CONTENT:

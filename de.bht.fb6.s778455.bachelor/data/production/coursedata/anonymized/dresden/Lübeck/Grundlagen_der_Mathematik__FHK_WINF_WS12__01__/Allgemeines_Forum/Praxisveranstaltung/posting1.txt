@@ -1,0 +1,10 @@
+ID: 162169
+CREATION_DATETIME: 1348173344
+MODIFICATION_DATETIME: 1348173344
+TITLE: Praxisveranstaltung
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+ 
+ist schon bekannt/weiß jemand wann die Praxisveranstaltung ist, am welchem Wochenende?
+TAGGED_CONTENT:

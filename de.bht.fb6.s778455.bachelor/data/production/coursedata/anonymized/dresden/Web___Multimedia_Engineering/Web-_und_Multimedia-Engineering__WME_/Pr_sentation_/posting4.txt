@@ -1,0 +1,9 @@
+ID: 645
+CREATION_DATETIME: 1351724400000
+MODIFICATION_DATETIME: 1351724400000
+TITLE: Korrekt, wir erwarten von euch, dass die Präsentation in Ordnung ist. Was mit Leuten ist, die garnich...
+PARENT_POSTING_ID: 643
+POSTING_TYPE: comment
+CONTENT:
+Korrekt, wir erwarten <NAME_CORPUS_REPLACEMENT> euch, dass die Präsentation in Ordnung ist. Was mit Leuten ist, die garnicht halten oder deren Präsentation absolut unterirdisch werden wir dann im Einzelfall entscheiden. 
+TAGGED_CONTENT:

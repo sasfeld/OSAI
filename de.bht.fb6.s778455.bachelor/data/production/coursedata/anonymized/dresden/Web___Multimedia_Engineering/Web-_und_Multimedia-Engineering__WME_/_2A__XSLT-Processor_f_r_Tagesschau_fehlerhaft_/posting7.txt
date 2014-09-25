@@ -1,0 +1,9 @@
+ID: 832
+CREATION_DATETIME: 1353538800000
+MODIFICATION_DATETIME: 1353970800000
+TITLE: Naja das eine ist ein RSS-Feed und das andere ein Atom-Feed.. wenn FF hier mal was formatiert und da ...
+PARENT_POSTING_ID: 823
+POSTING_TYPE: answer
+CONTENT:
+Naja das eine ist ein RSS-Feed und das andere ein Atom-Feed.. wenn FF hier mal was formatiert und <NAME_CORPUS_REPLACEMENT> nicht kann das an den unterschiedlichen Formaten liegen.
+TAGGED_CONTENT:

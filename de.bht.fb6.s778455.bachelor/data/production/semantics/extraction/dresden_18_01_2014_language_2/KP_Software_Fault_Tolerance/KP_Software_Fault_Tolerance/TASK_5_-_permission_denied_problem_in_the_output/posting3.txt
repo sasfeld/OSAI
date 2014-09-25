@@ -1,0 +1,10 @@
+ID: 999
+CREATION_DATETIME: 1355958000000
+MODIFICATION_DATETIME: 1355958000000
+TITLE: .c file is not in faultinjectors directory. Even you move .c file to that directory, it doesn't chang...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 991
+POSTING_TYPE: comment
+CONTENT:
+. c file is not in faultinjectors directory. Even you move . c file to that directory, it doesn't change too much things ( with configuration inside run. sh ). The same problem remains.
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1076
+CREATION_DATETIME: 1358982000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+I <NAME_CORPUS_REPLACEMENT> put a better visualization of the Amazon Dynamo example from yesterday on our DB website. Now, I hope it's easier to understand.
+Also have a look in the original Paper!
+TAGGED_CONTENT:

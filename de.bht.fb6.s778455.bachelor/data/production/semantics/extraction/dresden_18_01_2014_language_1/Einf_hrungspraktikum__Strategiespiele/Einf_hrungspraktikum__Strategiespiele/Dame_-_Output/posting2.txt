@@ -1,0 +1,10 @@
+ID: 1172
+CREATION_DATETIME: 1362438000000
+MODIFICATION_DATETIME: 1362438000000
+TITLE: ist buffer nen char array? hab nen anderes game, daher weiß ichs nicht...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 1171
+POSTING_TYPE: comment
+CONTENT:
+ist buffer nen char array? hab nen anderes game, daher weiß ichs nicht...
+TAGGED_CONTENT:

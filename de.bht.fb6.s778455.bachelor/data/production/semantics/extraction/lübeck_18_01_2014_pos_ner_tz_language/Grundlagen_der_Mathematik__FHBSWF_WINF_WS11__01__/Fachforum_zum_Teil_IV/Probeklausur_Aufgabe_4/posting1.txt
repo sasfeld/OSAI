@@ -1,0 +1,32 @@
+ID: 117590
+CREATION_DATETIME: 1326725396
+MODIFICATION_DATETIME: 1326781844
+TITLE: Probeklausur Aufgabe 4
+LANGUAGE: GERMAN
+POS_TAG: value:Pruefung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beachten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ergebnis;weight:0.0;uri:;postag:NN
+POS_TAG: value:R;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ansatz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wahrheitstabelle;weight:0.0;uri:;postag:NN
+POS_TAG: value:Umformung;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Term;weight:0.0;uri:;postag:NN
+POS_TAG: value:K;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Anbei ist der Ansatz: (! = not)
+((K oder !R) -&gt; !W)
+UND ((W oder R) -&gt; K)
+UND !(R UND K)
+UND (K -&gt; W)
+Beachten Sie insb. den letzten Term. Dessen Umformung lautet bekanntermassen inkl. Wahrheitstabelle:
+K W | !K oder W
+0 0  | 1
+0 1  | 1
+1 0  | 0
+1 1  | 1
+Das Ergebnis nach <REMOVED_PERSON_ENTITY> zur Pruefung lautet:
+!K UND !R UND !W
+TAGGED_CONTENT:
+Anbei_ADV ist_VAFIN der_ART Ansatz_NN :_$. -LRB-_TRUNC !_$. =_XY not_ADJD -RRB-_TRUNC -LRB-_TRUNC -LRB-_TRUNC K_NN oder_KON !_$. R_XY -RRB-_TRUNC -_$( >_ITJ !_$. W_XY -RRB-_TRUNC UND_KON -LRB-_TRUNC -LRB-_TRUNC W_XY oder_KON R_XY -RRB-_TRUNC -_$( >_XY K_XY -RRB-_TRUNC UND_KON !_$. -LRB-_TRUNC R_NN UND_KON K_NN -RRB-_TRUNC UND_KON -LRB-_TRUNC K_NN -_$( >_CARD W_XY -RRB-_TRUNC Beachten_NN Sie_PPER insb_ADJD ._$. den_ART letzten_ADJA Term_NN ._$. Dessen_PDAT Umformung_NN lautet_VVFIN bekanntermassen_ADJD inkl_ADJD ._$. Wahrheitstabelle_NN :_$. K_XY W_XY |_CARD !_$. K_XY oder_KON W_XY 0_CARD 0_CARD |_XY 1_CARD 0_CARD 1_CARD |_XY 1_CARD 1_CARD 0_CARD |_CARD 0_CARD 1_CARD 1_CARD |_XY 1_CARD Das_ART Ergebnis_NN nach_APPR <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN zur_APPRART Pruefung_NN lautet_VVFIN :_$. !_$. K_XY UND_KON !_$. R_XY UND_KON !_$. W_XY 

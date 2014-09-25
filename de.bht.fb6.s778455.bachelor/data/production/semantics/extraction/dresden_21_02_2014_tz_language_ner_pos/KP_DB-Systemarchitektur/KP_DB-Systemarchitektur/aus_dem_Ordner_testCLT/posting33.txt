@@ -1,0 +1,33 @@
+ID: 1965
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Die -lOpenCL sollte eigentlich schon durch das -lCLeverTrustee reingezogen werden (bis auf bei der st...
+LANGUAGE: GERMAN
+NER_TAG: value:SVN;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:PATH;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:PATH-Variable;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:lOpenCL;weight:0.0;uri:;postag:NN
+POS_TAG: value:Lib;weight:0.0;uri:;postag:NN
+POS_TAG: value:Variable;weight:0.0;uri:;postag:NN
+POS_TAG: value:Umgebung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Leerzeichen;weight:0.0;uri:;postag:NN
+POS_TAG: value:lCLeverTrustee;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wurzelordner;weight:0.0;uri:;postag:NN
+POS_TAG: value:Node;weight:0.0;uri:;postag:NN
+POS_TAG: value:prefix;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anzahl;weight:0.0;uri:;postag:NN
+POS_TAG: value:Arbeiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Punkte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Pfad;weight:0.0;uri:;postag:NN
+POS_TAG: value:B.;weight:0.0;uri:;postag:NN
+POS_TAG: value:SVN;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Die -lOpenCL sollte eigentlich schon durch das -lCLeverTrustee reingezogen werden (bis auf bei der statischen Lib, <NAME_CORPUS_REPLACEMENT> muss man es extra angeben)
+
+-
+
+Du musst den bin/-Pfad des LLVM-3. 2 Binary Releases (lade runter: http://llvm.org/releases/download. html#3. 2) in die PATH-Variable aufnehmen. Wie das geht, steht z. B. im setup_prefix im Wurzelordner des SVN. Auf der Wimpy-Node machst du vor dem Arbeiten einfach ". ./setup_prefix", beachte die Anzahl der Punkte und das Leerzeichen dazwischen. Damit sorgst du dafür, dass die envvar PATH auch in deiner Umgebung gesetzt wird. Wir könnten das aber auch in die . bashrc aufnehmen, dann vergisst es niemand, der sich auf der Wimpy-Node einloggt.
+TAGGED_CONTENT:
+Die_ART -_$( lOpenCL_NN sollte_VMFIN eigentlich_ADV schon_ADV durch_APPR das_ART -_$( lCLeverTrustee_NN reingezogen_VVPP werden_VAFIN -LRB-_TRUNC bis_APPR auf_APPR bei_APPR der_ART statischen_ADJA Lib_NN ,_$, <_CARD NAME_CORPUS_REPLACEMENT_NE >_NE muss_VMFIN man_PIS es_PPER extra_ADV angeben_VVINF -RRB-_TRUNC -_$( Du_PPER musst_VVFIN den_ART bin_VAFIN \/_CARD -_$( Pfad_NN des_ART LLVM-3_NN ._$. 2_CARD Binary_NE Releases_NE -LRB-_TRUNC lade_VVIMP runter_PTKVZ :_$. http:\/\/llvm.org\/releases\/download_ADJD ._$. html_ADJD #_XY 3_CARD ._$. 2_CARD -RRB-_TRUNC in_APPR die_ART PATH-Variable_NN aufnehmen_VVINF ._$. Wie_PWAV das_PDS geht_VVFIN ,_$, steht_VVFIN z._APPRART B._NN im_APPRART setup_prefix_NN im_APPRART Wurzelordner_NN des_ART SVN_NN ._$. Auf_APPR der_ART Wimpy-Node_NN machst_VVFIN du_PPER vor_APPR dem_ART Arbeiten_NN einfach_ADJD "_$( ._$. ._$. \/_CARD setup_prefix_NN "_$( ,_$, beachte_VVFIN die_ART Anzahl_NN der_ART Punkte_NN und_KON das_ART Leerzeichen_NN dazwischen_PROAV ._$. Damit_PROAV sorgst_VVFIN du_PPER dafür_PROAV ,_$, dass_KOUS die_ART envvar_ADJA PATH_NE auch_ADV in_APPR deiner_PPOSAT Umgebung_NN gesetzt_VVPP wird_VAFIN ._$. Wir_PPER könnten_VMFIN das_PDS aber_ADV auch_ADV in_APPR die_ART ._$. bashrc_ADJD aufnehmen_VVINF ,_$, dann_ADV vergisst_VVFIN es_PPER niemand_PIS ,_$, der_PRELS sich_PRF auf_APPR der_ART Wimpy-Node_NN einloggt_VVFIN ._$. 

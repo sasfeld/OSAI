@@ -1,0 +1,76 @@
+ID: 1950
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Hallo,
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Algorithmen;weight:2.0;significance:9.45045297721244;degreegeneralization:5;uri:20898553
+TOPIC_ZOOM_TAG: value:Informatik;weight:2.0;significance:5.02422544755277;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:2.0;significance:5.00780172072213;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:1.72623562579194;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:1.44804068054249;degreegeneralization:3;uri:20758133
+POS_TAG: value:Tiefe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Unklarheiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fall;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorteile;weight:0.0;uri:;postag:NN
+POS_TAG: value:Polygonecke;weight:0.0;uri:;postag:NN
+POS_TAG: value:Renderverfahren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mittelpunkt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bild;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vergleichsoperation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Pixel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skript;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sortierung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Algorithmus;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sicht;weight:0.0;uri:;postag:NN
+POS_TAG: value:nden;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abbildung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nachteile;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spitzen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dreiecken;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vermutung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Schnittkanten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Liste;weight:0.0;uri:;postag:NN
+POS_TAG: value:Basis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tiefensortierung;weight:0.0;uri:;postag:NN
+POS_TAG: value:llen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Polygonebene;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zusammenhang;weight:0.0;uri:;postag:NN
+POS_TAG: value:Normalfall;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Polygone;weight:0.0;uri:;postag:NN
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+POS_TAG: value:che;weight:0.0;uri:;postag:NN
+POS_TAG: value:Argument;weight:0.0;uri:;postag:NN
+POS_TAG: value:Polygon;weight:0.0;uri:;postag:NN
+POS_TAG: value:Punkt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeichnen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tiefenpuffer;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kanten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Schau;weight:0.0;uri:;postag:NN
+POS_TAG: value:Quadrates;weight:0.0;uri:;postag:NN
+POS_TAG: value:Polygonen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Parallelisierbarkeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fragment;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1947
+POSTING_TYPE: answer
+CONTENT:
+Hallo,
+
+könntest Du <NAME_CORPUS_REPLACEMENT> bitte noch etwas genauer drauf eingehen, in welchem Zusammenhang die Frage steht? Meine Vermutung ist die:
+
+Klar kann man eine Tiefensortierung auf Basis <NAME_CORPUS_REPLACEMENT> Polygonen machen, nur hätte das entscheidende Nachteile und Unklarheiten:
+
+1. Wie entscheidet man, welche Tiefe ein Polygon hat? Klar ist das Polygon immer planar, aber es kann entlang seiner Oberfläche trotzdem in der Tiefe variieren. Den Mittelpunkt zu nehmen würde bei großen Polygonen nicht funktionieren und wenn man beginnt, jede Polygonecke einzusortieren ist unklar, wie das Polygon dann zu zeichnen ist. Schau auch mal in das CG1-Skript. <NAME_CORPUS_REPLACEMENT> ist irgendwo eine Abbildung mit 4 Dreiecken zu sehen, die entlang der Kanten eines Quadrates gehen und dessen Spitzen jeweils das nächste überdecken. Einen solchen Fall könnte man mit einer Tiefensortierung wohl nicht erschlagen. Vermutlich ist dieses Bild auch das, worauf die Frage abzielt.
+
+2. Letzter Punkt beschreibt auch das nächste Problem: Was macht man, wenn sich zwei Polygone durchdringen? Bei Sortierung auf Polygonebene müsste man dann die Polygone genau an den Schnittkanten in 2 aufteilen - das klappt aber nur in wenigen Fällen und ist unendlich aufwendig.
+
+3. Unter Umständen werden sehr viele Polygone gerendert. Jedes müsste man dann in eine geordnete Liste einsortieren. Das könnte sehr rechenintensiv sein. Ist aber eher ein schwächeres Argument.
+
+4. Die bildbasierten Renderverfahren, also so wie es OpenGL und DirectX sind, basieren auf dem Painters-Algorithmus, bei dem verdeckte Polygone einfach übergezeichnet werden. Der zeichnet zwar im Normalfall viele Polygone, die hinterher komplett verdeckt werden, ist aber sehr einfach aus algorithmischer Sicht und vor allem extrem gut pro Pixel parallelisierbar. Nutzt man einen Tiefenpuffer pro Pixel hat man alle Vorteile übernommen: man kann durch eine einfache Vergleichsoperation pro Zeichnen sehr leicht entscheiden, ob ein Fragment gemalt werden soll oder nicht... und das für jeden Pixel unabhängig, was eben eine enorme Parallelisierbarkeit ermöglicht.
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, könntest_VVFIN Du_PPER <_CARD NAME_CORPUS_REPLACEMENT_NN >_VVFIN bitte_ADV noch_ADV etwas_PIS genauer_ADJD drauf_PROAV eingehen_VVINF ,_$, in_APPR welchem_PWAT Zusammenhang_NN die_ART Frage_NN steht_VVFIN ?_$. Meine_PPOSAT Vermutung_NN ist_VAFIN die_ART :_$. Klar_ADJD kann_VMFIN man_PIS eine_ART Tiefensortierung_NN auf_APPR Basis_NN <_CARD NAME_CORPUS_REPLACEMENT_NN >_ADJA Polygonen_NN machen_VVINF ,_$, nur_ADV hätte_VAFIN das_ART entscheidende_ADJA Nachteile_NN und_KON Unklarheiten_NN :_$. 1_CARD ._$. Wie_PWAV entscheidet_VVFIN man_PIS ,_$, welche_PWAT Tiefe_NN ein_ART Polygon_NN hat_VAFIN ?_$. Klar_ADJD ist_VAFIN das_ART Polygon_NN immer_ADV planar_ADJD ,_$, aber_KON es_PPER kann_VMFIN entlang_APPR seiner_PPOSAT Oberfläche_NN trotzdem_PROAV in_APPR der_ART Tiefe_NN variieren_VVINF ._$. Den_ART Mittelpunkt_NN zu_PTKZU nehmen_VVINF würde_VAFIN bei_APPR großen_ADJA Polygonen_NN nicht_PTKNEG funktionieren_VVINF und_KON wenn_KOUS man_PIS beginnt_VVFIN ,_$, jede_PIDAT Polygonecke_NN einzusortieren_VVIZU ist_VAFIN unklar_ADJD ,_$, wie_PWAV das_ART Polygon_NN dann_ADV zu_PTKZU zeichnen_VVINF ist_VAFIN ._$. Schau_NN auch_ADV mal_ADV in_APPR das_ART CG1-Skript_NN ._$. <_XY NAME_CORPUS_REPLACEMENT_NN >_ADJD ist_VAFIN irgendwo_ADV eine_ART Abbildung_NN mit_APPR 4_CARD Dreiecken_NN zu_PTKZU sehen_VVINF ,_$, die_PRELS entlang_APPR der_ART Kanten_NN eines_ART Quadrates_NN gehen_VVFIN und_KON dessen_PRELAT Spitzen_NN jeweils_ADV das_ART nächste_ADJA überdecken_VVFIN ._$. Einen_ART solchen_PIDAT Fall_NN könnte_VMFIN man_PIS mit_APPR einer_ART Tiefensortierung_NN wohl_ADV nicht_PTKNEG erschlagen_VVPP ._$. Vermutlich_ADV ist_VAFIN dieses_PDAT Bild_NN auch_ADV das_PDS ,_$, worauf_PWAV die_ART Frage_NN abzielt_VVFIN ._$. 2_CARD ._$. Letzter_ADJA Punkt_NN beschreibt_VVFIN auch_ADV das_ART nächste_ADJA Problem_NN :_$. Was_PWS macht_VVFIN man_PIS ,_$, wenn_KOUS sich_PRF zwei_CARD Polygone_NN durchdringen_VVINF ?_$. Bei_APPR Sortierung_NN auf_APPR Polygonebene_NN müsste_VVFIN man_PIS dann_ADV die_ART Polygone_NN genau_ADJD an_APPR den_ART Schnittkanten_NN in_APPR 2_CARD aufteilen_VVINF -_$( das_PDS klappt_VVFIN aber_ADV nur_ADV in_APPR wenigen_PIDAT Fällen_NN und_KON ist_VAFIN unendlich_ADJD aufwendig_ADJD ._$. 3_CARD ._$. Unter_APPR Umständen_NN werden_VAFIN sehr_ADV viele_PIDAT Polygone_NN gerendert_VVPP ._$. Jedes_PIDAT müsste_VMFIN man_PIS dann_ADV in_APPR eine_ART geordnete_ADJA Liste_NN einsortieren_VVINF ._$. Das_ART könnte_VMFIN sehr_ADV rechenintensiv_ADJD sein_VAINF ._$. Ist_VAFIN aber_ADV eher_ADV ein_ART schwächeres_ADJA Argument_NN ._$. 4_CARD ._$. Die_ART bildbasierten_ADJA Renderverfahren_NN ,_$, also_ADV so_ADV wie_PWAV es_PPER OpenGL_NE und_KON DirectX_NE sind_VAFIN ,_$, basieren_VVFIN auf_APPR dem_ART Painters-Algorithmus_NN ,_$, bei_APPR dem_ART verdeckte_ADJA Polygone_NN einfach_ADV übergezeichnet_VVPP werden_VAINF ._$. Der_ART zeichnet_VVFIN zwar_ADV im_APPRART Normalfall_NN viele_PIDAT Polygone_NN ,_$, die_PRELS hinterher_ADV komplett_ADJD verdeckt_VVFIN werden_VAINF ,_$, ist_VAFIN aber_ADV sehr_ADV einfach_ADJD aus_APPR algorithmischer_ADJA Sicht_NN und_KON vor_APPR allem_PIS extrem_ADJD gut_ADJD pro_APPR Pixel_NN parallelisierbar_ADJD ._$. Nutzt_VVFIN man_PIS einen_ART Tiefenpuffer_NN pro_APPR Pixel_NN hat_VAFIN man_PIS alle_PIDAT Vorteile_NN übernommen_VVPP :_$. man_PIS kann_VMFIN durch_APPR eine_ART einfache_ADJA Vergleichsoperation_NN pro_APPR Zeichnen_NN sehr_ADV leicht_ADJD entscheiden_VVINF ,_$, ob_KOUS ein_ART Fragment_NN gemalt_VVPP werden_VAINF soll_VMFIN oder_KON nicht_PTKNEG ..._$( und_KON das_PDS für_APPR jeden_PIDAT Pixel_NN unabhängig_ADJD ,_$, was_PWS eben_ADV eine_ART enorme_ADJA Parallelisierbarkeit_NN ermöglicht_VVFIN ._$. <_XY REMOVED_PERSON_ENTITY_NE >_XY 

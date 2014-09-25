@@ -1,0 +1,11 @@
+ID: 167823
+CREATION_DATETIME: 1349619977
+MODIFICATION_DATETIME: 1349619977
+TITLE: Re: Hilfe für Aufgabe 2d
+PARENT_POSTING_ID: 167417
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+evtl. läuft es darauf hinaus, dass auf  beiden Seiten der Ungleichung Beträge für die selbe Variable stehen.
+Wenn man x-1 >= -(x-2) rechnet und die Einschränkung x=1 gelten. Unter der Bedingung 1 =3/2 würde man zur Unendlichkeit kommen. Es ist aber nur eine <REMOVED_PERSON_ENTITY> von mir!
+zu 2b. Wenn ich mir die Gleichung anschaue ist mir schon klar, dass x eine beliebige reelle Zahl sein kann. Ich habe aber keine Umformung hinbekommen aus der das irgendwie nachvollziehbar hervorgeht. Hat jemand einen Tip?
+TAGGED_CONTENT:

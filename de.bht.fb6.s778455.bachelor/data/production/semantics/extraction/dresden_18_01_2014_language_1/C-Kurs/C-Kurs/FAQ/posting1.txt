@@ -1,0 +1,30 @@
+ID: 2548
+CREATION_DATETIME: 1381528800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+###Wie schreibe ich mich ein?###
+
+Die Einschreibung für die Kurse soll über jExam laufen. (Ob man das tatsächlich auf die Reihe bekommt, wird sich zeigen).
+
+###Wann finden die Kurse statt?###
+
+Auch die Termine sind noch nicht fix, <NAME_CORPUS_REPLACEMENT> die Stundenpläne der Tutoren noch mit denen der Erst- bzw. Drittsemester und untereinander abgestimmt werden müssen, was nicht ganz einfach ist. Definitiv sollen die Kurse aber unter der Woche stattfinden, vermutlich ab der vorletzten Oktoberwoche. 
+
+###Ich habe noch einen <REMOVED_PERSON_ENTITY>, der XY studiert, kann der auch mitmachen?###
+
+<NAME_CORPUS_REPLACEMENT> die Kurse durch <REMOVED_PERSON_ENTITY> unseres Studiendekans finanziert werden, haben (Medien-)Informatiker Vorrang. Sollten wider Erwarten die Kurse nicht ganz voll werden, kann man nochmal drüber reden.
+
+###Wie war das jetzt mit den Scheinen?###
+
+Die AQuA-Scheine gibt es für die Tutoren. Für euch als Teilnehmer muss es als Mehrwert genügen, dass ihr eine Programmiersprache lernt, was ja ansonsten <NAME_CORPUS_REPLACEMENT> Lehrveranstaltungen eher kurz am Rande abgedeckt wird.
+
+Aber die Teilnehmer <NAME_CORPUS_REPLACEMENT> heute sind ja hoffentlich, die Tutoren <NAME_CORPUS_REPLACEMENT> morgen
+
+###Allgemein: Mailadressen###
+
+Ihr habt alle eine s-Nummer und entsprechend eine TU-Mailadresse. Bitte benutzt diese mindestens für alles, was mit der Uni zu tun hat. Wer keine Lust auf Web-interfaces hat, kann ja einfach dem Mail-Client seines Vertrauens beibringen, dass es <NAME_CORPUS_REPLACEMENT> ja noch die TU-Mailadressen gibt. 
+TAGGED_CONTENT:

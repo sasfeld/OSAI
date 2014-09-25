@@ -1,0 +1,14 @@
+ID: 116466
+CREATION_DATETIME: 1327239711
+MODIFICATION_DATETIME: 1327239819
+TITLE: Re: Aufgabe 9 BeispielklausurSS2011
+TOPIC_ZOOM_TAG: value:Algorithmen;weight:1.0;significance:9.45045297721244;degreegeneralization:5;uri:20898553
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:5.02422544755277;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:5.00780172072213;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+NER_TAG: value:Gaußchen Algorithmus;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+PARENT_POSTING_ID: 116465
+CONTENT:
+Hier noch eine weiterführende Frage, kann jemand bitte erklären wie man das Nullsetzen von Determinanten durchführt? Leider ist mir das für mich nicht schlüssig. Danke!@Andrea: sofern du durch <REMOVED_PERSON_ENTITY> der Determinate den Wert für a erhalten hast rechnest du wie folgt mit dem Gaußchen Algorithmus:I. 	x+y-z  = 0II. 	x-y-5z = 0III.	2x+y-4z=01	1	-1	|01	-1	-5	|0 |+(-1)*I. 2	1	-4	|01	1	-1	|00	-2	-4	|02	1	-4	|0 |+(-2)*I. 1	1	-1	|00	-2	-4	|00	-1	-2	|0 |+(-0, 5)*II. 1	1	-1	|00	-2	-4	|00	0	0	|0 --&gt; r(A) = 2--&gt; Formelnx+y-z = 0-2y-4z =0n = 3 Variablen --&gt; n-r = 1 --&gt; Rangabfallz=t Element der reelen Zahlenz=t einsetzen-2y-4t=0	|+4t-2y =4t 	|: (-2)y=-2t--&gt;y und z in erste Formel einsetzenx+(-2t)-t=0 |+3tx=3tx  	         3y	=	-2	*tz  	         1hier müssten eigentlich die Klammern wie in der Lösung rum, aber ich weiß leider nicht wie ich die rumbekomme. Hoffe das hat dir geholfen. Jetzt fehlt nur jemand der das Nullsetzen von Determinanten erklärt. 	
+TAGGED_CONTENT:

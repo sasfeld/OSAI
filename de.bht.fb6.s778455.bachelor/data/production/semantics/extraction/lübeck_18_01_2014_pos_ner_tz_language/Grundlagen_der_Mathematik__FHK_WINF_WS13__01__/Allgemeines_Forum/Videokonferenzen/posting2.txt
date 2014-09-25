@@ -1,0 +1,13 @@
+ID: 246021
+CREATION_DATETIME: 1382099499
+MODIFICATION_DATETIME: 1382099582
+TITLE: Re: Videokonferenzen
+LANGUAGE: GERMAN
+POS_TAG: value:hrung;weight:0.0;uri:;postag:NN
+POS_TAG: value:nden;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 246011
+CONTENT:
+Ich wäre dafür! 
+Bei der Einführung sagte man zwar, es wird aus Datenschutzgründen nicht mehr gemacht, aber wenn alle dafür stimmen!
+TAGGED_CONTENT:
+Ich_PPER wäre_VAFIN dafür_PROAV !_$. Bei_APPR der_ART Einführung_NN sagte_VVFIN man_PIS zwar_ADV ,_$, es_PPER wird_VAFIN aus_APPR Datenschutzgründen_NN nicht_PTKNEG mehr_ADV gemacht_VVPP ,_$, aber_KON wenn_KOUS alle_PIDAT dafür_PROAV stimmen_VVFIN !_$. 

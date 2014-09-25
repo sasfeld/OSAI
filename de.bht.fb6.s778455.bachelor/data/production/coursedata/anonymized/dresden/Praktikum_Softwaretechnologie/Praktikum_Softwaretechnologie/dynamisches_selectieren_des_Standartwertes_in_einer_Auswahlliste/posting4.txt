@@ -1,0 +1,16 @@
+ID: 3010
+CREATION_DATETIME: 1385247600000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: Ich würde ein weiteres Objekt in die ModelMap packen, namens "role" z.B. wo die Rolle des ausgewählte...
+PARENT_POSTING_ID: 3005
+POSTING_TYPE: answer
+CONTENT:
+Ich würde ein weiteres Objekt in die ModelMap packen, namens "role" z. B. wo die <REMOVED_PERSON_ENTITY> des ausgewählten Users als String drin steht.
+Und dann den hier:
+```html
+   <option value="Chef" th:selected="${role} == 'chef'">Chef 
+   <option value="Verkaufer" th:selected="${role} == 'verkaufer'">Verkaufer 
+   Pensionsarbeiter 
+   Gartenbauer 
+```
+TAGGED_CONTENT:

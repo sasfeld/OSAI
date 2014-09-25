@@ -1,0 +1,10 @@
+ID: 499
+CREATION_DATETIME: 1351029600000
+MODIFICATION_DATETIME: 1351116000000
+TITLE: Es ist nun möglich Antworten und Kommentare ineinander umzuwandeln. Außerdem können diese auch zu ein...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 429
+POSTING_TYPE: answer
+CONTENT:
+Es ist nun möglich Antworten und Kommentare ineinander umzuwandeln. Außerdem können diese auch zu einer "Follow up Question" umgewandelt werden. Bei einer <REMOVED_PERSON_ENTITY> werden bei jeder der Umwandlungen untergeordnete Kommentare automatisch mit konvertiert. 
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 2099
+CREATION_DATETIME: 1372111200000
+MODIFICATION_DATETIME: 1372111200000
+TITLE: Nachdem ich -denke ich - hinter das ganze ein wenig gestiegen bin, kam mir folgende Frage: Wie komme ...
+PARENT_POSTING_ID: 2082
+POSTING_TYPE: comment
+CONTENT:
+Nachdem ich -denke ich - hinter das ganze ein wenig gestiegen bin, kam mir folgende Frage: Wie komme ich an die Daten/Parameter der Funktion heran? Im Execute der TestSum steht ja bisher alles noch mit festen Werten. 
+Eine Idee war, die Execute-funktion der klasse Kernel zu verändern und als Parameter die Funktionspointer mitzugeben. Ich wollte aber eigentlich ungern euren Code soweit verändern und ich denke, ihr habt <NAME_CORPUS_REPLACEMENT> schon anderweitig dran gedacht.
+TAGGED_CONTENT:

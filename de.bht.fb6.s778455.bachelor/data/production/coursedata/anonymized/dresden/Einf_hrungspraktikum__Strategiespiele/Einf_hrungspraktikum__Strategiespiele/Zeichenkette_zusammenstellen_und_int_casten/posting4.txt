@@ -1,0 +1,9 @@
+ID: 132
+CREATION_DATETIME: 1348178400000
+MODIFICATION_DATETIME: 1348178400000
+TITLE: Gut, ich wuerde die Z
+PARENT_POSTING_ID: 129
+POSTING_TYPE: answer
+CONTENT:
+Gut, ich wuerde die Zuege nicht sofort als char speichern, sondern solange wie moeglich in einer geeignet gewaehlten eigenen Darstellung und erst ganz am Ende den besten Zug in einen String umwandeln und ausgeben. Noch als Hinweis: Es gibt in der Regel pro <REMOVED_PERSON_ENTITY> mehr als eine Zugmoeglichkeit.
+TAGGED_CONTENT:

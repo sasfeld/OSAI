@@ -1,0 +1,9 @@
+ID: 743
+CREATION_DATETIME: 1352674800000
+MODIFICATION_DATETIME: 1352674800000
+TITLE: Da gab es bisher nie Probleme. Du kannst im Zweifelsfall unseren Prüfungsausschuss konsultieren oder ...
+PARENT_POSTING_ID: 728
+POSTING_TYPE: comment
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> gab es bisher nie Probleme. Du kannst im Zweifelsfall unseren Prüfungsausschuss konsultieren oder die <NAME_CORPUS_REPLACEMENT> beim Prüfungsamt besuchen und mal nett nachfragen, die helfen auch gern. Hier macht es auch jeweils eine Email: Kontaktformular vom [Prüfungsamt](http://inf.tu-dresden. de/mailform. php?node_id=876&ln=de&staffId=195872&contactId=1451355).
+TAGGED_CONTENT:

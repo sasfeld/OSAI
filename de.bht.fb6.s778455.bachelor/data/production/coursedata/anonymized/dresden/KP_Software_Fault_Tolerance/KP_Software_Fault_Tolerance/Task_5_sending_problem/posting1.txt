@@ -1,0 +1,10 @@
+ID: 984
+CREATION_DATETIME: 1355958000000
+MODIFICATION_DATETIME: 1366927200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi, 
+while sending the folder "fig" content for task 5, only run. sh is sent by svn. All other folder contents ( e. g. c files and so on) couldn't be sent. :( Could you tell please what <NAME_CORPUS_REPLACEMENT> be problem?
+TAGGED_CONTENT:

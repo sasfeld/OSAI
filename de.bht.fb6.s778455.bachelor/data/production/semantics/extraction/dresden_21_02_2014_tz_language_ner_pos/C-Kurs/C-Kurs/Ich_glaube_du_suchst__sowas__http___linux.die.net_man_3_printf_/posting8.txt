@@ -1,0 +1,25 @@
+ID: 2917
+CREATION_DATETIME: 1384815600000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: Ok stimmt natürlich.  Man könnte die Lösungen auch am Ende des Kurses mal reinstellen. War halt so ne...
+LANGUAGE: GERMAN
+POS_TAG: value:Ok;weight:0.0;uri:;postag:NN
+POS_TAG: value:Stil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Idee;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ende;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kurses;weight:0.0;uri:;postag:NN
+POS_TAG: value:code;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Endeffekt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kurs;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2914
+POSTING_TYPE: comment
+CONTENT:
+Ok stimmt natürlich.  Man könnte die Lösungen auch am Ende des Kurses mal reinstellen. War halt so ne Idee aber ihr habt natürlich recht das viele dann faul werden.
+
+Ist denke auch nicht leicht zu entscheiden wann eine rein gestellt werden soll <NAME_CORPUS_REPLACEMENT> man schwer kontrollieren kann wie weit jeder einzelne in jedem Kurs ist.
+
+Ja ich meinte Stil, aber <NAME_CORPUS_REPLACEMENT> eignet sich natürlich im Endeffekt jeder selber einen an. Ich dachte halt so an "schönen code" mit einheitlichen tabs usw usw.
+TAGGED_CONTENT:
+Ok_NN stimmt_VVFIN natürlich_ADV ._$. Man_PIS könnte_VMFIN die_ART Lösungen_NN auch_ADV am_APPRART Ende_NN des_ART Kurses_NN mal_ADV reinstellen_VVINF ._$. War_VAFIN halt_ADV so_ADV ne_ADJA Idee_NN aber_ADV ihr_PPOSAT habt_VAFIN natürlich_ADV recht_ADV das_ART viele_PIDAT dann_ADV faul_ADJD werden_VAINF ._$. Ist_VAFIN denke_VVFIN auch_ADV nicht_PTKNEG leicht_ADJD zu_PTKZU entscheiden_VVINF wann_PWAV eine_ART rein_ADJD gestellt_VVPP werden_VAINF soll_VMFIN <_XY NAME_CORPUS_REPLACEMENT_NN >_VVFIN man_PIS schwer_ADJD kontrollieren_VVINF kann_VMFIN wie_KOKOM weit_ADJD jeder_PIDAT einzelne_ADJA in_APPR jedem_PIDAT Kurs_NN ist_VAFIN ._$. Ja_PTKANT ich_PPER meinte_VVFIN Stil_NN ,_$, aber_KON <_XY NAME_CORPUS_REPLACEMENT_NN >_CARD eignet_VVFIN sich_PRF natürlich_ADV im_APPRART Endeffekt_NN jeder_PIS selber_ADV einen_ART an_PTKVZ ._$. Ich_PPER dachte_VVFIN halt_ADV so_ADV an_PTKVZ "_$( schönen_ADJA code_NN "_$( mit_APPR einheitlichen_ADJA tabs_FM usw_FM usw_FM ._$. 

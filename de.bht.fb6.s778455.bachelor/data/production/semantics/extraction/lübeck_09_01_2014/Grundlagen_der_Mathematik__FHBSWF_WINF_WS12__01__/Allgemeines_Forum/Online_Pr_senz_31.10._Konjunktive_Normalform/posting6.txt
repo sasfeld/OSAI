@@ -1,0 +1,8 @@
+ID: 177503
+CREATION_DATETIME: 1352055068
+MODIFICATION_DATETIME: 1352055068
+TITLE: Re: Online Präsenz 31.10. Konjunktive Normalform
+PARENT_POSTING_ID: 177483
+CONTENT:
+Ach so, ja. Da habe ich Dich falsch verstanden. Natürlich ist X bei Deinem negierten Ausdruck wahr. Aber es ist eben nur einer von mehreren Fällen. Es ging doch darum, einen Ausdruck zu finden, der ALLE Fälle abdeckt, bei denen X wahr ist. (X ist GENAU dann wahr, wenn ...)
+TAGGED_CONTENT:

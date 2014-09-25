@@ -1,0 +1,11 @@
+ID: 162401
+CREATION_DATETIME: 1348235526
+MODIFICATION_DATETIME: 1348235526
+TITLE: Re: Praxisveranstaltung
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 162391
+CONTENT:
+Wo finde ich den den Kurzpplan? Und habt ihr euch schon mit <REMOVED_PERSON_ENTITY> beschäftigt?
+Ich bin gerade bei Kommunikation, Führung und Selbstmanagment, da ich dachte das kommt am ersten Präzenstag.
+TAGGED_CONTENT:

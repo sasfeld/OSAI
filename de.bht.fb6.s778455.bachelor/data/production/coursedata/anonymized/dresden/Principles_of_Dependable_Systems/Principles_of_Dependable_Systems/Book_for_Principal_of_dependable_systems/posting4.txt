@@ -1,0 +1,9 @@
+ID: 1652
+CREATION_DATETIME: 1364425200000
+MODIFICATION_DATETIME: 1364425200000
+TITLE: Take a look in the (literature announcement)[https://auditorium.inf.tu-dresden.de/posts/360]. The pap...
+PARENT_POSTING_ID: 1533
+POSTING_TYPE: answer
+CONTENT:
+Take a look in the (literature announcement)[https://auditorium. inf. tu-dresden. de/posts/360]. The paper which was used in the PFD lecture is listed there.
+TAGGED_CONTENT:

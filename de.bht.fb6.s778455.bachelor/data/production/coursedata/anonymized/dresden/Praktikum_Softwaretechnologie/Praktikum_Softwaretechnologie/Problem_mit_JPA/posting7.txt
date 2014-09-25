@@ -1,0 +1,21 @@
+ID: 2953
+CREATION_DATETIME: 1384988400000
+MODIFICATION_DATETIME: 1384988400000
+TITLE: Ich hab folgender maßen die Packages erstellt:
+src/main/java
+   blankweb
+    Blankweb.java (mit @C...
+PARENT_POSTING_ID: 2947
+POSTING_TYPE: answer
+CONTENT:
+Ich hab folgender maßen die Packages erstellt:
+src/main/java
+   blankweb
+    Blankweb. java (mit @ComponentScan)
+    DataInitializer. java
+          blankweb. myReposition
+           CustomerRepositiory. java
+           Customer. java
+           PersonalController (versucht Objekt CustomerRepositiory zu erzeugen)
+Sprich CustomerRepositiory. java und Customer. java liegen in Subpackages. Allerdings funktioniert es immer noch nicht.
+TAGGED_CONTENT:

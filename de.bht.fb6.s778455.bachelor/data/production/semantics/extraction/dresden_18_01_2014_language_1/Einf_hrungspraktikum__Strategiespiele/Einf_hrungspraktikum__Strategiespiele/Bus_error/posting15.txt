@@ -1,0 +1,10 @@
+ID: 1487
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Kann es sein, dass du keinen Speicher mehr hast, malloc NULL zurück gibt und du das nicht checkst?
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1467
+POSTING_TYPE: comment
+CONTENT:
+Kann es sein, dass du keinen Speicher mehr hast, malloc NULL zurück gibt und du das nicht checkst?
+TAGGED_CONTENT:

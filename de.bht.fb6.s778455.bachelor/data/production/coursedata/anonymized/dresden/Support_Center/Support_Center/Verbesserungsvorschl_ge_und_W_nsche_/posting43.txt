@@ -1,0 +1,9 @@
+ID: 907
+CREATION_DATETIME: 1354143600000
+MODIFICATION_DATETIME: 1354143600000
+TITLE: Bei welchem Kurs ragt die Schrift denn bspw. über die Kachel hinaus? Wir werden uns mal etwas überleg...
+PARENT_POSTING_ID: 889
+POSTING_TYPE: comment
+CONTENT:
+Bei welchem Kurs ragt die Schrift denn bspw. über die <REMOVED_PERSON_ENTITY> hinaus? Wir werden uns mal etwas überlegen. Danke für das Feedback schonmal! 
+TAGGED_CONTENT:

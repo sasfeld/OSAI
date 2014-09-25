@@ -1,0 +1,24 @@
+ID: 1884
+CREATION_DATETIME: 1370210400000
+MODIFICATION_DATETIME: 1370210400000
+TITLE: Also wenn ich das ganze bei mir versuche zu erstellen, bekomm ich nur zwei Fehler:
+LANGUAGE: GERMAN
+POS_TAG: value:Projekt;weight:0.0;uri:;postag:NN
+POS_TAG: value:llvm;weight:0.0;uri:;postag:NN
+POS_TAG: value:KernelMetrics;weight:0.0;uri:;postag:NN
+POS_TAG: value:DataTypes;weight:0.0;uri:;postag:NN
+POS_TAG: value:Analyse;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: comment
+CONTENT:
+Also wenn ich das ganze bei mir versuche zu erstellen, bekomm ich nur zwei Fehler:
+
+/usr/include/llvm/Support/DataTypes. h:49:3: error: #error "Must #define __STDC_LIMIT_MACROS before #including Support/DataTypes. h"
+
+/usr/include/llvm/Support/DataTypes. h:53:3: error: #error "Must #define __STDC_CONSTANT_MACROS before " "#including Support/DataTypes. h"
+
+Ich binde die KernelMetrics jetzt so ins Projekt ein, dass alles was LLVM zeug ist, auskommentiert ist. <NAME_CORPUS_REPLACEMENT> würde ich dich dann mal bitten, <NAME_CORPUS_REPLACEMENT> drüber zuschauen, damit die Analyse dann auch ins eigentliche Projekt eingebunden werden kann.
+TAGGED_CONTENT:
+Also_ADV wenn_KOUS ich_PPER das_ART ganze_ADJA bei_APPR mir_PPER versuche_VVFIN zu_PTKZU erstellen_VVINF ,_$, bekomm_VVFIN ich_PPER nur_ADV zwei_CARD Fehler_NN :_$. \/_CARD usr\/include\/llvm_NN \/_VVFIN Support\/DataTypes_NE ._$. h_FM ,_$, 49_CARD ,_$, 3_CARD :_$. error_ADJD :_$. #error_ADJD "_$( Must_FM #define_FM ___FM STDC_LIMIT_MACROS_FM before_FM #including_FM Support\/DataTypes_FM ._$. h_FM "_$( \/_CARD usr\/include\/llvm_CARD \/_CARD Support\/DataTypes_NN ._$. h_FM ,_$, 53_CARD ,_$, 3_CARD :_$. error_ADJD :_$. #error_ADJD "_$( Must_FM #define_FM ___FM STDC_CONSTANT_MACROS_FM before_FM "_$( "_$( #including_VVFIN Support\/DataTypes_NE ._$. h_FM "_$( Ich_PPER binde_VVFIN die_ART KernelMetrics_NN jetzt_ADV so_ADV ins_APPRART Projekt_NN ein_PTKVZ ,_$, dass_KOUS alles_PIS was_PWS LLVM_NE zeug_ADJD ist_VAFIN ,_$, auskommentiert_VVPP ist_VAFIN ._$. <_XY NAME_CORPUS_REPLACEMENT_NN >_VVINF würde_VAFIN ich_PPER dich_PRF dann_ADV mal_ADV bitten_VVFIN ,_$, <_VVFIN NAME_CORPUS_REPLACEMENT_NE >_NE drüber_ADV zuschauen_VVINF ,_$, damit_KOUS die_ART Analyse_NN dann_ADV auch_ADV ins_APPRART eigentliche_ADJA Projekt_NN eingebunden_VVPP werden_VAINF kann_VMFIN ._$. 

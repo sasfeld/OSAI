@@ -1,0 +1,16 @@
+ID: 2639
+CREATION_DATETIME: 1383001200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Dear students,
+
+I have to cancel the exercise on the 30th of October again because I'm still sick.
+
+Sorry about that.
+
+See you (hopefully) next week, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,21 @@
+ID: 190909
+CREATION_DATETIME: 1357473570
+MODIFICATION_DATETIME: 1357473570
+TITLE: Re: LGS mit Gaußalgorithmus lösen
+PARENT_POSTING_ID: 190701
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+das sieht schon gar nicht schlecht aus, aber beim x3 haben Sie sich wohl verrechnet, da müsste x3=x-y+z/3 herauskommen. Die Lösung steht übrigens auf <REMOVED_PERSON_ENTITY> 23 im Beispiel 14 (Fehler im Skript: es spricht von "Übung 14"), dort allerdings ohne Rechenweg.
+Sie scheinen zumindest den richtigen Ansatz gefunden zu haben, er lautet: x1 mal erstem Vektor plus x2 mal zweitem Vektor plus x3 mal drittem Vektor soll Vektor (x, y, z)^T ergeben. Nun haben Sie zwar eine symbolische rechte <REMOVED_PERSON_ENTITY>, weil x, y, z Variablen sind, aber das stört nicht groß - Sie können das LGS ganz normal nach x1, x2, x3 auflösen.
+Auch bei solchen Aufgaben kann man übrigens die Probe machen:
+Nehmen Sie einen x-beliebigen Vektor, etwa (3, 4, 6)^T. Nun prüft man, ab die Vorhersage für x1, x2, x3 tatsächlich zur gewünschten LK führt. Das ist natürlich nur <REMOVED_PERSON_ENTITY>, da wir nur ein Beispiel prüfen, keine vollständige Probe. Wenn die Stichprobe gelingen würde, hätten wir keine Garantie, dass das obige Ergebnis stimmt. Aber: Es ist anzunehmen, dass für nur ganz wenige Vektoren (wenn überhaupt) die richtige und die falsche LK zum gleichen korrekten Ergebnis führen. Somit ist die Stichprobe eine gute Sache.
+Mit unserer <REMOVED_PERSON_ENTITY> (3, 4, 6)^T wäre x=3, y=4, z=6. Es ergibt sich
+x1 = y-x = 4-3 = 1x2 = -y+2x = -4+2*3=-4+6 = 2x3 = y+x+z/2 = 4+3+6/2= 7+3 = 10
+Nun ist aber 1*(1, 2, 3)^T + 2*(1, 1, 0)^T + 10*(0, 0, 3)^T = (1+2+0, 2+2+0, 3+0+30)^T = (3, 4, 33)^T.
+An dieser Stelle sehen Sie, dass nur die ersten beiden Koordinaten stimmen. Dies gibt Ihnen auch den Hinweis, dass womöglich Ihre Formeln für x1, x2 stimmen und nur die für x3 fehlerhaft ist.
+Für die korrekte Formel x3=x-y+z/3 hätte man x3=3-4+6/3=-1+2=1 und somit wie erhofft
+1*(1, 2, 3)^T + 2*(1, 1, 0)^T + 1*(0, 0, 3)^T = (1+2+0, 2+2+0, 3+0+3)^T = (3, 4, 6)^T.
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+ 
+TAGGED_CONTENT:

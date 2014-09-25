@@ -1,0 +1,11 @@
+ID: 962
+CREATION_DATETIME: 1355094000000
+MODIFICATION_DATETIME: 1363474800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hei, 
+I am might lacking some IT fundamentals, but why is the hamming distance in slide 37 (see Mainfraimes presentation) 4 and not 3? The principle of ECC is introduced but it is not explained in detail how it <NAME_CORPUS_REPLACEMENT> correct bit flips?  
+Thx
+TAGGED_CONTENT:

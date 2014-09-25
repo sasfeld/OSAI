@@ -1,0 +1,9 @@
+ID: 2198
+CREATION_DATETIME: 1373407200000
+MODIFICATION_DATETIME: 1373407200000
+TITLE: Du kannst dir ja mal die Diagramme in Documents/ anschauen, ich hab' mal ein bisschen Korrelationsana...
+PARENT_POSTING_ID: 2193
+POSTING_TYPE: comment
+CONTENT:
+Du kannst dir ja mal die Diagramme in Documents/ anschauen, ich hab' mal ein bisschen Korrelationsanalyse <NAME_CORPUS_REPLACEMENT> Hand gemacht. Das gibt schon mal Anhaltspunkte, welche Datenarten du zu erwarten hast.
+TAGGED_CONTENT:

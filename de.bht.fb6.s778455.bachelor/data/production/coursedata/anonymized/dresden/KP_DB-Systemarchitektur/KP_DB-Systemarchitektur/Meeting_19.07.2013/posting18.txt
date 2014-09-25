@@ -1,0 +1,9 @@
+ID: 2367
+CREATION_DATETIME: 1374271200000
+MODIFICATION_DATETIME: 1374271200000
+TITLE: Ich habe soeben Box-Whisker-Plots für die Korrelation der InstructionCounts erstellt. Bitte schaut ma...
+PARENT_POSTING_ID: 2344
+POSTING_TYPE: comment
+CONTENT:
+Ich habe soeben Box-Whisker-Plots für die Korrelation der InstructionCounts erstellt. Bitte schaut mal. Ich finde sie schon schöner als die "klassischen" Plots. Viel muss ja dazu nicht gesagt werden.
+TAGGED_CONTENT:

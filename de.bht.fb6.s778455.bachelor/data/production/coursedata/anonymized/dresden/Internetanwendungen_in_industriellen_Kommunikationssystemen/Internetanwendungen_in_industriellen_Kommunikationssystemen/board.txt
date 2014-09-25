@@ -1,0 +1,6 @@
+ID: 2154543
+CREATION_DATETIME: 1380492000000
+MODIFICATION_DATETIME: 1380492000000
+TITLE: Internetanwendungen in industriellen Kommunikationssystemen
+INTRO: null
+TYPE: null

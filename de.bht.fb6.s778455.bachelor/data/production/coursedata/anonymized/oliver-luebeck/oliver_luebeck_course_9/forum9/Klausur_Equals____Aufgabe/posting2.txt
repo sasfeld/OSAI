@@ -1,0 +1,17 @@
+ID: 66
+CREATION_DATETIME: 1182456720000
+MODIFICATION_DATETIME: 1182456720000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 65
+CONTENT:
+  
+Hallo ,
+
+aus meiner Sicht ist true richtig, 'A' gleich 'A'.
+
+Warum erwartest Du false?
+
+Grüße 
+    
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 1744
+CREATION_DATETIME: 1366322400000
+MODIFICATION_DATETIME: 1366408800000
+TITLE: The operating system and the BIOS/firmware can decide where to map individual device memory in the ph...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1740
+POSTING_TYPE: answer
+CONTENT:
+The operating system and the BIOS/firmware <NAME_CORPUS_REPLACEMENT> decide where to map individual device memory in the physical address range. Few devices support 64-bit addresses, most only 32-bit. That is why even on 64-bit systems most device memory is located between 3 and 4GB in the physical address range.
+
+You seem to confuse this with virtual memory somehow. For the OS device memory looks like normal RAM in that it <NAME_CORPUS_REPLACEMENT> be mapped page-wise into virtual address spaces. The only difference is access latency, bandwidth and cachability.
+TAGGED_CONTENT:

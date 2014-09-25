@@ -1,0 +1,25 @@
+ID: 2
+CREATION_DATETIME: 1190656800000
+MODIFICATION_DATETIME: 1190656800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1
+CONTENT:
+
+Lieber , liebe Studierende,
+
+ich freue mich, dass Sie schon bei der Einsendeaufgabe der 2. LE sind. Sie ist erst am 13.10. fällig, Vorsprung ist aber besser als Verspätung. Die main Methode wird in der Klasse VerzDatTest.java sein. Die Klasse Math ist nicht wichtig, um die Aufgabe zu lösen. Sie ist nur als Beispiel gegeben, für eine Klasse, die nur Klassen-Methoden (mit static deklariert) enthält.
+
+Alle Klassen der Einsendeaufgabe bitte in eine .zip Datei packen, die Sie mir per Email schicken. Der Namen der .zip Datei muss Ihren Namen enthalten, z.B. DavidKliemLE02.zip.
+
+Ist die Aufgabe klarer?
+
+Frohes Schaffen!
+
+Mit freundlichen Grüßen
+
+
+PS: Ich werde am Ende der Woche eine Willkommen-Nachricht schicken. Die Erfahrung zeigt, dass es immer Studierende gibt, die später in den Kurs frei geschaltet werden. Aus diesem Grund warte ich noch ein wenig ab.
+
+   
+TAGGED_CONTENT:

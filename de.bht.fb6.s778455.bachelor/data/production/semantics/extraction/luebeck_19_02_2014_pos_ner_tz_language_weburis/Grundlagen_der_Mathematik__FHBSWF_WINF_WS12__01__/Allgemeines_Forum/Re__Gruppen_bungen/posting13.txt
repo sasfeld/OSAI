@@ -1,0 +1,39 @@
+ID: 194795
+CREATION_DATETIME: 1358605856
+MODIFICATION_DATETIME: 1358605856
+TITLE: Re: Gruppenübungen
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=72341#194795
+POS_TAG: value:Rande;weight:0.0;uri:;postag:NN
+POS_TAG: value:Seiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Format;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungsraumes;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anmerkung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ende;weight:0.0;uri:;postag:NN
+POS_TAG: value:Seite;weight:0.0;uri:;postag:NN
+POS_TAG: value:A;weight:0.0;uri:;postag:NN
+POS_TAG: value:B;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:IRGENDEINE;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beste;weight:0.0;uri:;postag:NN
+POS_TAG: value:muss;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungsweg;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungsraum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mehrdeutigkeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:ck;weight:0.0;uri:;postag:NN
+POS_TAG: value:glichkeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Systems;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dimensionen;weight:0.0;uri:;postag:NN
+POS_TAG: value:System;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeilenoperation;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 194457
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+die Dimensionen sind so korrekt. XA=B bedeutet hier, dass Format (4x4) mal (4x7) dann (4x7) ergibt; transponiert heißt zu A^T * X^T = B^T heißt es, Format (7x4) mal (4x4) ergibt (7x4).
+Zur Lösung: Ja, es gibt soviele rechte Seiten, wie es <REMOVED_PERSON_ENTITY> in B^T gibt. Da die rechten Seiten den Lösungsweg nicht beeinflussen, können Sie das System am Stück parallel lösen, indem Sie jede Zeilenoperation auf alle rechten Seiten gleichzeitig anwenden.  Gesucht ist am Ende übrigens IRGENDEINE Lösung des Systems A^T | B^T. Wenn es also eine Wahlmöglichkeit geben sollte, dann dürfen sie frei wählen.
+Kleine Anmerkung am Rande: Da die Größe des Lösungsraumes (sofern überhaupt lösbar) aber nicht von der rechten Seite abhängt (sondern vom Lösungsraum des homogenen Systems), wissen Sie, dass es - wenn überhaupt - bei allen rechten Seiten gleichzeitig zur Mehrdeutigkeit der Lösung kommen muss. Es geht also nicht an, dass für eine der rechten Seiten es eindeutig klappt, für eine andere aber mehrdeutig.
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, die_ART Dimensionen_NN sind_VAFIN so_ADV korrekt_ADJD ._$. XA_XY =_XY B_NN bedeutet_VVFIN hier_ADV ,_$, dass_KOUS Format_NN -LRB-_TRUNC 4x4_XY -RRB-_TRUNC mal_ADV -LRB-_TRUNC 4x7_XY -RRB-_TRUNC dann_ADV -LRB-_TRUNC 4x7_XY -RRB-_TRUNC ergibt_VVFIN ;_$. transponiert_VVPP heißt_VVFIN zu_APPR A_NN ^_CARD T_XY \*_CARD X_XY ^_CARD T_XY =_XY B_NN ^_CARD T_XY heißt_VVFIN es_PPER ,_$, Format_NN -LRB-_TRUNC 7x4_XY -RRB-_TRUNC mal_ADV -LRB-_TRUNC 4x4_CARD -RRB-_TRUNC ergibt_VVFIN -LRB-_TRUNC 7x4_XY -RRB-_TRUNC ._$. Zur_APPRART Lösung_NN :_$. Ja_PTKANT ,_$, es_PPER gibt_VVFIN soviele_PIAT rechte_ADJA Seiten_NN ,_$, wie_PWAV es_PPER <_VVFIN REMOVED_PERSON_ENTITY_NE >_NE in_APPR B_NN ^_CARD T_XY gibt_VVFIN ._$. Da_KOUS die_ART rechten_ADJA Seiten_NN den_ART Lösungsweg_NN nicht_PTKNEG beeinflussen_VVINF ,_$, können_VMFIN Sie_PPER das_ART System_NN am_APPRART Stück_NN parallel_ADJD lösen_VVINF ,_$, indem_KOUS Sie_PPER jede_PIDAT Zeilenoperation_NN auf_APPR alle_PIDAT rechten_ADJA Seiten_NN gleichzeitig_ADJD anwenden_VVINF ._$. Gesucht_VVPP ist_VAFIN am_APPRART Ende_NN übrigens_ADV IRGENDEINE_NN Lösung_NN des_ART Systems_NN A_NN ^_CARD T_XY |_CARD B_NN ^_VVFIN T._NE Wenn_KOUS es_PPER also_ADV eine_ART Wahlmöglichkeit_NN geben_VVINF sollte_VMFIN ,_$, dann_ADV dürfen_VMFIN sie_PPER frei_ADJD wählen_VVINF ._$. Kleine_ADJA Anmerkung_NN am_APPRART Rande_NN :_$. Da_KOUS die_ART Größe_NN des_ART Lösungsraumes_NN -LRB-_TRUNC sofern_KOUS überhaupt_ADV lösbar_ADJD -RRB-_TRUNC aber_KON nicht_PTKNEG von_APPR der_ART rechten_ADJA Seite_NN abhängt_VVFIN -LRB-_TRUNC sondern_KON vom_APPRART Lösungsraum_NN des_ART homogenen_ADJA Systems_NN -RRB-_TRUNC ,_$, wissen_VVFIN Sie_PPER ,_$, dass_KOUS es_PPER -_$( wenn_KOUS überhaupt_ADV -_$( bei_APPR allen_PIDAT rechten_ADJA Seiten_NN gleichzeitig_ADJD zur_APPRART Mehrdeutigkeit_NN der_ART Lösung_NN kommen_VVFIN muss_NN ._$. Es_PPER geht_VVFIN also_ADV nicht_PTKNEG an_PTKVZ ,_$, dass_KOUS für_APPR eine_PIS der_ART rechten_ADJA Seiten_NN es_PPER eindeutig_ADJD klappt_VVFIN ,_$, für_APPR eine_ART andere_ADJA aber_KON mehrdeutig_ADJD ._$. Beste_NN Grüße_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ._$. 

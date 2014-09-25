@@ -1,0 +1,9 @@
+ID: 3019
+CREATION_DATETIME: 1385334000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+I know we have to collect at least 10 points in total, but how many points are we able to get per exercise block? Is there a limit? Also, is there a minimum amount of points we have to reach for each exercise block?
+TAGGED_CONTENT:

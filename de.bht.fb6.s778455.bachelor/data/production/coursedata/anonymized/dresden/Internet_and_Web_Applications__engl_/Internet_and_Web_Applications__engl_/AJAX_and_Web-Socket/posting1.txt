@@ -1,0 +1,9 @@
+ID: 2479
+CREATION_DATETIME: 1374789600000
+MODIFICATION_DATETIME: 1383001200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+What's the main difference between AJAX and Web-Socket? And why is AJAX not an asynchronous communication model? 
+TAGGED_CONTENT:

@@ -1,0 +1,16 @@
+ID: 955
+CREATION_DATETIME: 1355007600000
+MODIFICATION_DATETIME: 1355007600000
+TITLE: on receive (ping, T) from j {
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 925
+POSTING_TYPE: comment
+CONTENT:
+on receive (ping, T) from j {
+
+  if (last_ping[j] < T) last_ping[j] = T;
+
+}
+
+I did not get this part. Cud u help me with this?
+TAGGED_CONTENT:

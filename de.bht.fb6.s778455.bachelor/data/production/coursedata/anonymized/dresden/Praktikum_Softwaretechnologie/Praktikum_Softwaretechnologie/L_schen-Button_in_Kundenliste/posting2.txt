@@ -1,0 +1,13 @@
+ID: 2935
+CREATION_DATETIME: 1384902000000
+MODIFICATION_DATETIME: 1384902000000
+TITLE: Fast genau dieses Problem haben Hannes und ich bei der Salespoint Präsentation umgesetzt.
+
+Ein Butt...
+PARENT_POSTING_ID: 2930
+POSTING_TYPE: answer
+CONTENT:
+Fast genau dieses Problem haben <REMOVED_PERSON_ENTITY> und ich bei der Salespoint Präsentation umgesetzt.
+Ein Button in einer Tabelle ist nichts anderes als ein Button in ein `` oder sonstwo, gibt es schon im Videoshop.
+Die kommentieren Funktion im Videoshop solltest du dir noch einmal genauer angucken. Daraus kannst du lernen wie du versteckt Informationen übermittelst um welchen Film es sich eigentlich handelt, der gerade kommentiert wird. Bissl auf deinen Anwendungsfall anpassen und du kannst ermitteln welcher User gelöscht werden soll.
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 1611
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Interessant wäre auch noch ob die Funktion ein Move zurückgibt oder eine Referenz &Move, letzteres wü...
+PARENT_POSTING_ID: 1602
+POSTING_TYPE: comment
+CONTENT:
+Interessant wäre auch noch ob die Funktion ein Move zurückgibt oder eine Referenz &Move, letzteres würde das Problem erklären, <NAME_CORPUS_REPLACEMENT> der lokale Move nach verlassen der Funktion <LEARNED_PERSON_NAME_REPLACEMENT> nicht mehr existiert.
+TAGGED_CONTENT:

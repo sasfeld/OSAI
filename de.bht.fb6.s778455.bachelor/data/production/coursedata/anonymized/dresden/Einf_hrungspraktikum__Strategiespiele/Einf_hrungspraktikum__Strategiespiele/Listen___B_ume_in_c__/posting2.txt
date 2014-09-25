@@ -1,0 +1,11 @@
+ID: 1260
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Selbst bauen brauchst du die nicht. Die Standard Template Library von C++ stellt viele Container scho...
+PARENT_POSTING_ID: 1259
+POSTING_TYPE: answer
+CONTENT:
+Selbst bauen brauchst du die nicht. Die Standard Template Library <NAME_CORPUS_REPLACEMENT> C++ stellt viele Container schon bereit. Siehe z. B.:
+* http://en.cppreference.com/w/cpp/container/list
+* http://en.cppreference.com/w/cpp/container/set
+TAGGED_CONTENT:

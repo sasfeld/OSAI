@@ -1,0 +1,16 @@
+ID: 160991
+CREATION_DATETIME: 1347896360
+MODIFICATION_DATETIME: 1347896360
+TITLE: Re: Lerngruppe gesucht
+TOPIC_ZOOM_TAG: value:Tauchen;weight:1.0;significance:9.53049568488598;degreegeneralization:5;uri:21983867
+TOPIC_ZOOM_TAG: value:Outdoor-Sport;weight:1.0;significance:7.73181577281335;degreegeneralization:4;uri:21475652
+TOPIC_ZOOM_TAG: value:Wassersport;weight:1.0;significance:6.99812249785906;degreegeneralization:4;uri:21992520
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Sport;weight:1.0;significance:2.44407134469146;degreegeneralization:2;uri:21999762
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+PARENT_POSTING_ID: 160931
+CONTENT:
+Hallo,
+ich würde mich auch der Lerngruppe anschließen wollen!
+Tauchen dann ja doch immer wieder Fragen auf die man in der Gruppe besser beantworten kann ;-)
+TAGGED_CONTENT:

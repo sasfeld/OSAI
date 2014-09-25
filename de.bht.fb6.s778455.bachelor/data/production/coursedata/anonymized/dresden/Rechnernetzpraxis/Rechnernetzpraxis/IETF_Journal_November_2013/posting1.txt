@@ -1,0 +1,11 @@
+ID: 2582
+CREATION_DATETIME: 1382220000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Am <REMOVED_PERSON_ENTITY> ist das neue IETF-Journal veröffentlicht worden. Zum Hintergrund: Die Internet Engineering Task Force veröffentlicht drei Mal im Jahr dieses Journal, um einen Überblick zu den aktuellen Geschehnissen im <NAME_CORPUS_REPLACEMENT> der Internet-Standards und der Arbeit der Working Groups zu geben. Um auf dem Laufenden zu bleiben, lohnt sich also ein regelmäßiger Blick in diese Publikation. 
+[Die nun veröffentlichte Ausgabe ist verfügbar unter diesem <REMOVED_PERSON_ENTITY>](http://www.internetsociety.org/sites/default/files/pub-IETFJv9. 2-20131007-en. pdf)
+Um über zukünftige Ausgaben informiert zu werden, kann man die [Online- oder Print-Ausgabe hier abonnieren](http://www.internetsociety.org/publications/ietf-journal/ietf-journal-subscription)
+TAGGED_CONTENT:

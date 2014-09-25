@@ -1,0 +1,11 @@
+ID: 97747
+CREATION_DATETIME: 1285351955
+MODIFICATION_DATETIME: 1285351955
+TITLE: Re: Einsendeaufgaben in LON-CAPA
+PARENT_POSTING_ID: 97745
+CONTENT:
+Der Account für LON-CAPA ist offensichtlich der vom Rechenzentrum der Hochschule zur Verfügug gestellte, nicht der von Oncampus für Moodle.
+Im letzten Jahr gab es die Zugänge für Studienanfänger tatsächlich bei der Einführungsveranstaltung. Allgemeine Informationen zum Account gibt es unter http://www.ostfalia.de/cms/de/rz/zugang/account
+Grüße,
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 946
+CREATION_DATETIME: 1354748400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Folien des dritten Vorlesungsteils zu "Server-Programmierung" sind nun online unter http://mt.inf.tu-dresden. de/lehre/wme/ verfügbar.
+
+Viele Grüße, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

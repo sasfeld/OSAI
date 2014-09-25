@@ -1,0 +1,10 @@
+ID: 1448
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1362870000000
+TITLE: Einmal in main() reicht. Sobald das registriert ist gilt es fuer die Laufzeit des Programms.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1436
+POSTING_TYPE: answer
+CONTENT:
+Einmal in main() reicht. Sobald das registriert ist gilt es fuer die Laufzeit des Programms.
+TAGGED_CONTENT:

@@ -1,0 +1,7 @@
+ID: 6495
+CREATION_DATETIME: 1233175872
+MODIFICATION_DATETIME: 1233175872
+TITLE: E-Mail-Server Auszeit
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=6495
+FIRST_POSTING_ID: 16521

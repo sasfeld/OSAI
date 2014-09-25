@@ -1,0 +1,31 @@
+ID: 164541
+CREATION_DATETIME: 1348686535
+MODIFICATION_DATETIME: 1348686535
+TITLE: Chat vor dem Chat (war: Chat nach dem Chat)
+TOPIC_ZOOM_TAG: value:Chat;weight:5.0;significance:9.30735213357177;degreegeneralization:7;uri:20901477
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:5.0;significance:6.50399175266524;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Lifestyle und Internet;weight:5.0;significance:5.06890722737591;degreegeneralization:6;uri:21999575
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:5.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Lifestyle, Mode, Schönheit;weight:5.0;significance:4.37191942759678;degreegeneralization:3;uri:21999456
+TOPIC_ZOOM_TAG: value:Internet;weight:5.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:5.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:5.0;significance:3.4415452961402;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:5.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:5.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Uhr;weight:0.0;uri:;postag:NN
+POS_TAG: value:Modulen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:ndigung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Herrn;weight:0.0;uri:;postag:NN
+POS_TAG: value:Chat;weight:0.0;uri:;postag:NN
+POS_TAG: value:BWL;weight:0.0;uri:;postag:NN
+POS_TAG: value:Termin;weight:0.0;uri:;postag:NN
+POS_TAG: value:Chattermine;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 164443
+CONTENT:
+Hallo zusammen,
+okay, zugegeben: die Ankündigung kam sehr spät. Natürlich kenne ich auch nicht die Chattermine aus anderen Modulen (ausser den selbstbelegten). Deshalb wusste ich nicht, dass zu der Zeit BWL läuft. Daher schlage ich vor aus dem Chat nach dem Chat einfach den Chat vor dem Chat zu machen. (preworkparty instead of afterworkparty ;-) sorry, couldn´t resist)Also: ab 3. 10. um 18:00 statt um 20:00 <REMOVED_PERSON_ENTITY>. Im Anschluß haben wir dann um 19:00 Uhr den planmäßigen Chat von Herrn <REMOVED_PERSON_ENTITY>. Ich hoffe, der Termin passt besser....
+Grüße, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, okay_VVFIN ,_$, zugegeben_VVPP :_$. die_ART Ankündigung_NN kam_VVFIN sehr_ADV spät_ADJD ._$. Natürlich_ADV kenne_VVFIN ich_PPER auch_ADV nicht_PTKNEG die_ART Chattermine_NN aus_APPR anderen_ADJA Modulen_NN -LRB-_TRUNC ausser_APPR den_ART selbstbelegten_ADJA -RRB-_TRUNC ._$. Deshalb_PROAV wusste_VVFIN ich_PPER nicht_PTKNEG ,_$, dass_KOUS zu_APPR der_ART Zeit_NN BWL_NN läuft_VVFIN ._$. Daher_PROAV schlage_VVFIN ich_PPER vor_PTKVZ aus_APPR dem_ART Chat_NN nach_APPR dem_ART Chat_NN einfach_ADV den_ART Chat_NN vor_APPR dem_ART Chat_NN zu_PTKZU machen_VVINF ._$. -LRB-_TRUNC preworkparty_FM instead_FM of_FM afterworkparty_NE ;--RRB-_NE sorry_VVFIN ,_$, couldn_VVFIN ´_XY t_XY resist_VAFIN -RRB-_TRUNC Also_ADV :_$. ab_APPR 3_CARD ._$. 10_CARD ._$. um_APPR 18:00_CARD statt_APPR um_APPR 20:00_CARD <_XY REMOVED_PERSON_ENTITY_NE >_NE ._$. Im_APPRART Anschluß_NN haben_VAFIN wir_PPER dann_ADV um_APPR 19:00_CARD Uhr_NN den_ART planmäßigen_ADJA Chat_NN von_APPR Herrn_NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE ._$. Ich_PPER hoffe_VVFIN ,_$, der_ART Termin_NN passt_ADV besser_ADJD ..._$( Grüße_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

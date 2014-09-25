@@ -1,0 +1,10 @@
+ID: 2568
+CREATION_DATETIME: 1381874400000
+MODIFICATION_DATETIME: 1383692400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+ich würde gerne das Erstpasswort für den vom ZIH zur Verfügung gestellten Webspace auf http://www1. inf. tu-dresden. de/ in ein nur mir bekanntes ändern - wo kann ich das machen? Auf der Webseite vom zih bin ich nicht fündig geworden (bzw. wüsste auch gar nicht wonach ich suchen sollte), und wenn ich mich mit ssh mit dem Server verbinden erhalte ich die Meldung, dass der Server neu gestartet werden muss und kann somit nicht das Passwort über "passwd" ändern.
+TAGGED_CONTENT:

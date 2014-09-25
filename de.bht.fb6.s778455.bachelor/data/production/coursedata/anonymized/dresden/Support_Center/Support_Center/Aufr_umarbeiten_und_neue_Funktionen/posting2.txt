@@ -1,0 +1,9 @@
+ID: 76
+CREATION_DATETIME: 1343426400000
+MODIFICATION_DATETIME: 1343426400000
+TITLE: Ah sehr gut endlich e
+PARENT_POSTING_ID: 75
+POSTING_TYPE: comment
+CONTENT:
+Ah sehr gut endlich ein edit button hab beim letzten mal meine Frage löschen und neu aufmachen müssen. *thumbs-up*
+TAGGED_CONTENT:

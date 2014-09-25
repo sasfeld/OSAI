@@ -1,0 +1,22 @@
+ID: 252409
+CREATION_DATETIME: 1383503635
+MODIFICATION_DATETIME: 1383503635
+TITLE: Re: Gruppen für potenzielle Einsendeaufgaben
+TOPIC_ZOOM_TAG: value:Kommilitonen;weight:1.0;significance:5.3813196830893;degreegeneralization:6;uri:20148190
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:2.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:2.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:3.47798843820414;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Studenten;weight:1.0;significance:3.3437630829422;degreegeneralization:5;uri:20994552
+TOPIC_ZOOM_TAG: value:Schüler, Studenten;weight:1.0;significance:3.21878054168781;degreegeneralization:4;uri:20920823
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:2.78563553898677;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:2.77735785682754;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:1.07441906812122;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 237309
+CONTENT:
+Hallo Kommilitonen,
+ 
+die letzten Gruppenbildungen waren doch ein wenig durcheinander.
+Wenn sich die betroffenen geänderten bzw. neuen Gruppen bitte einmal bei mir melden würden, kann ich die Liste aktualisieren und an unseren Prof. übermitteln.
+Also bitte kurz melden, aus welcher Gruppe ihr evtl. in welche Gruppe gewechselt seid und bei neuen Gruppen, wer jetzt mit wem spielen geht.
+Gruß <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

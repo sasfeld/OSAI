@@ -1,0 +1,12 @@
+ID: 686
+CREATION_DATETIME: 1352329200000
+MODIFICATION_DATETIME: 1352329200000
+TITLE: If request bytes < written bytes, something wrong happened. Isn't it?
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 682
+POSTING_TYPE: comment
+CONTENT:
+If request bytes < written bytes, something wrong happened. Isn't it?
+
+The same does not apply to reads.
+TAGGED_CONTENT:

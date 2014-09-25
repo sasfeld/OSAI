@@ -1,0 +1,10 @@
+ID: 573
+CREATION_DATETIME: 1351465200000
+MODIFICATION_DATETIME: 1351465200000
+TITLE: VRO points are a software solution and if it fails it is switched to UNCP. Please read in the paper "...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 531
+POSTING_TYPE: comment
+CONTENT:
+VRO points are a software solution and if it fails it is switched to UNCP. Please read in the paper "NonStop Advanced Architecture" sections 3. 4 and 3. 5 before asking more questions.
+TAGGED_CONTENT:

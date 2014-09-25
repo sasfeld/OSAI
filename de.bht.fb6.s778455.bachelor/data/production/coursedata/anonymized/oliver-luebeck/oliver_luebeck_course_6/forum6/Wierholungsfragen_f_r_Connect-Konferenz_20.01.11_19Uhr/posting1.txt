@@ -1,0 +1,14 @@
+ID: 77
+CREATION_DATETIME: 1294920720000
+MODIFICATION_DATETIME: 1294920720000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Liebe Studierende,
+
+die letzte Präsenz hat mir gezeigt, dass eine Wiederholung von wichtigen Konzepten vor der Klausur nützlich wäre. Im Anhang steht eine Liste mit Wiederholungsfragen. Bitte ergänzen Sie diese Liste mit weiteren Fragen und mit Antworten. Keine Angst von "falschen" Antworten, ich werde sie schon korrigieren. Die noch ungeklärte Fragen werden wir in der nächsten Adobe-Connect-Konferenz am Do. den 20.01.11 besprochen.
+Viel Spaß und Erfolg beim Lernen!
+    
+TAGGED_CONTENT:

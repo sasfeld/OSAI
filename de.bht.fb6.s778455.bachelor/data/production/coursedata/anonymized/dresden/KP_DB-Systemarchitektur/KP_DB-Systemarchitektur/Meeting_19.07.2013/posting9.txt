@@ -1,0 +1,9 @@
+ID: 2356
+CREATION_DATETIME: 1374184800000
+MODIFICATION_DATETIME: 1374184800000
+TITLE: Da ist ein Ausfallwert (7e+09) drin. Ich lösch den raus, damit die Werte besser passen. (SVN update)
+PARENT_POSTING_ID: 2350
+POSTING_TYPE: comment
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> ist ein Ausfallwert (7e+09) drin. Ich lösch den raus, damit die Werte besser passen. (SVN update)
+TAGGED_CONTENT:

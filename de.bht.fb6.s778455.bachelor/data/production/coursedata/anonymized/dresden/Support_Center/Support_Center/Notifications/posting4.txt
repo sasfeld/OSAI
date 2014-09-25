@@ -1,0 +1,9 @@
+ID: 590
+CREATION_DATETIME: 1351465200000
+MODIFICATION_DATETIME: 1351465200000
+TITLE: wenn ich auf delete all notifications klicke bekomme ich: "Sorry, you don't have permissions to acces...
+PARENT_POSTING_ID: 587
+POSTING_TYPE: comment
+CONTENT:
+wenn ich auf delete all notifications klicke bekomme ich: "Sorry, you don't have permissions to access this page."
+TAGGED_CONTENT:

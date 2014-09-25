@@ -1,0 +1,9 @@
+ID: 2250
+CREATION_DATETIME: 1373925600000
+MODIFICATION_DATETIME: 1373925600000
+TITLE: Äh, Nachtrag: Oder müssten Mutter- bzw. Großmutter-Objekte erst mal erzeugt werden? (Bei 1b I fehlt d...
+PARENT_POSTING_ID: 2249
+POSTING_TYPE: answer
+CONTENT:
+Äh, Nachtrag: Oder müssten Mutter- bzw. Großmutter-Objekte erst mal erzeugt werden? (Bei 1b I fehlt der Rückpfeil zu ich.).
+TAGGED_CONTENT:

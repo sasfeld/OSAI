@@ -1,0 +1,10 @@
+ID: 2666
+CREATION_DATETIME: 1383174000000
+MODIFICATION_DATETIME: 1383174000000
+TITLE: Okay, dass sieht sauber aus. Vielleicht noch ein letzter Abgleich: Unter Projekt > Libraries > Maven ...
+PARENT_POSTING_ID: 2662
+POSTING_TYPE: comment
+CONTENT:
+Okay, dass sieht sauber aus. Vielleicht noch ein letzter Abgleich: Unter Projekt > Libraries > Maven Dependencies solltest du sowohl `validation-api-1. 1. 0. Final. jar` als auch `hibernate-validator-5. 0. 1. Final. jar` finden.
+Wen dem so ist, sollte ein ausführen der Klasse `Videoshop` den Server eigentlich sauber starten.
+TAGGED_CONTENT:

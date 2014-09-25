@@ -1,0 +1,15 @@
+ID: 97809
+CREATION_DATETIME: 1293039823
+MODIFICATION_DATETIME: 1293039823
+TITLE: Re: Parallelogrammfläche
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=36377#97809
+POS_TAG: value:Rechenweg;weight:0.0;uri:;postag:NN
+POS_TAG: value:Chats;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabenvariante;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97808
+CONTENT:
+Ich glaube die Aufgabe gefunden zu haben. Der Rechenweg wie Sie ihn meinen geht auch in meiner Aufgabenvariante nicht. Ich muss das nach den heutigen Chats probieren, woran es liegt.
+TAGGED_CONTENT:
+Ich_PPER glaube_VVFIN die_ART Aufgabe_NN gefunden_VVPP zu_PTKZU haben_VAINF ._$. Der_ART Rechenweg_NN wie_KOKOM Sie_PPER ihn_PPER meinen_PPOSAT geht_VVFIN auch_ADV in_APPR meiner_PPOSAT Aufgabenvariante_NN nicht_PTKNEG ._$. Ich_PPER muss_VVFIN das_PDS nach_APPR den_ART heutigen_ADJA Chats_NN probieren_VVINF ,_$, woran_PWAV es_PPER liegt_VVFIN ._$. 

@@ -1,0 +1,10 @@
+ID: 1412
+CREATION_DATETIME: 1362783600000
+MODIFICATION_DATETIME: 1372802400000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+When a long running task is being swapped and later on resumed, will it be given the same hardware addresses as before? Or could the pager hand out memory from other regions. How is this being handled?
+TAGGED_CONTENT:

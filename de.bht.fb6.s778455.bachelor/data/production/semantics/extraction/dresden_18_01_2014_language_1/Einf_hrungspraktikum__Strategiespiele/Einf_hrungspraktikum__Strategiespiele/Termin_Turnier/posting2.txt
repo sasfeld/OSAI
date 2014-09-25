@@ -1,0 +1,10 @@
+ID: 1633
+CREATION_DATETIME: 1364252400000
+MODIFICATION_DATETIME: 1364252400000
+TITLE: Diese Woche auf jeden Fall nicht, vermutlich kurz vor Beginn des kommenden Semesters. Hast Du einen V...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 1631
+POSTING_TYPE: answer
+CONTENT:
+Diese Woche auf jeden Fall nicht, vermutlich kurz vor Beginn des kommenden Semesters. Hast Du einen Vorschlag, welcher Termin Dir gut passen würde?
+TAGGED_CONTENT:

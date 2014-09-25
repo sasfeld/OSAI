@@ -1,0 +1,9 @@
+ID: 2725
+CREATION_DATETIME: 1383692400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+If you haven't done so, please check the website. We are going to discuss a paper during next exercise. Please read the paper before going to the exercise.
+TAGGED_CONTENT:

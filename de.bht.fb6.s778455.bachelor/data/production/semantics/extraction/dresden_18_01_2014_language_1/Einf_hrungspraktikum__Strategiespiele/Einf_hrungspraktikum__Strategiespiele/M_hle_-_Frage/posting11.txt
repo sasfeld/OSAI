@@ -1,0 +1,12 @@
+ID: 1186
+CREATION_DATETIME: 1362438000000
+MODIFICATION_DATETIME: 1362438000000
+TITLE: hab die variable newline immernoch nicht verstanden. warum z.b. wird die beim exampleplayer 2mal per ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1175
+POSTING_TYPE: comment
+CONTENT:
+hab die variable newline immernoch nicht verstanden. warum z. b. wird die beim exampleplayer 2mal per pointer überschrieben? ist die einfach nur ein enter, was in der datei steckt die einkommt um das ende zu signalisieren?
+
+edit: ist das also nur ne controll variable, dass auch wirklich ein enter gesetzt wurde?
+TAGGED_CONTENT:

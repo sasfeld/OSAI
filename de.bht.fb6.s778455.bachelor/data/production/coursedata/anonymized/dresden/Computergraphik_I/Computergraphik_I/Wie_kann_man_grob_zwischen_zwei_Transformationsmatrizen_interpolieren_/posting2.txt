@@ -1,0 +1,16 @@
+ID: 1873
+CREATION_DATETIME: 1369951200000
+MODIFICATION_DATETIME: 1369951200000
+TITLE: Mathematisch liegt der Trick liegt darin, die Matrizen im Tensorraum als Polynom zu interpretieren. W...
+PARENT_POSTING_ID: 1872
+POSTING_TYPE: answer
+CONTENT:
+Mathematisch liegt der Trick liegt darin, die Matrizen im Tensorraum als Polynom zu interpretieren. Wenn Du dann den Lagrange-Ansatz verwendest solltest Du über eine Roatation auf die Eigenwertdekomposition kommen:
+Wie Du das aber im Computer machst ist eine andere Frage... ;-)
+Zur Mathematik:
+Wenn Du alle Einträge Deiner Zielmatrix interpolierst wird das Ergebnis gestaucht/gestreckt und/oder räumlich deformiert. Folglich musst Du die Translation und die Rotation an sich trennen, wodurch Du einen Translationsvektor T und eine Rotationsmatrix R erhältst (Deine Quellmatrizen müssen aber strikte Transformationen sein).
+Wenn Du jetzt die Eigenwertdekomposition bildest, erhältst Du R=A'BA, wobei A' die Transponierte <NAME_CORPUS_REPLACEMENT> A ist. A ist die orthogonale Komposition, B die diagonale Skalierung.
+Jetzt kannst Du den Translationsvektor T und diagonale Skalierung B linear interpolieren während Du die <REMOVED_PERSON_ENTITY> <NAME_CORPUS_REPLACEMENT> A durchgehst.
+Am Ende musst Du Deine Matrix nur noch rekombinieren.
+Mehr Details gibt es hier: https://docs. google. com/viewer?url=http://www.cs.wisc.edu/graphics/Courses/838-s2002/Papers/polar-decomp. pdf
+TAGGED_CONTENT:

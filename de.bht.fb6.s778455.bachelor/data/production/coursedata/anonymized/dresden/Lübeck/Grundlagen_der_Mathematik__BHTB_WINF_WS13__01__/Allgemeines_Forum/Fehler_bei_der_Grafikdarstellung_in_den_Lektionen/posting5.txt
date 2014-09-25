@@ -1,0 +1,9 @@
+ID: 237095
+CREATION_DATETIME: 1380538626
+MODIFICATION_DATETIME: 1380538626
+TITLE: Re: Fehler bei der Grafikdarstellung in den Lektionen
+PARENT_POSTING_ID: 237069
+CONTENT:
+Bei mir nicht.
+Hier sind die mathematischen Symbole ab und zu nur weiße Kästchen. Heute kann ich mit Chrome und Firefox fehlerfrei zugreifen. Mit IOS sind die Symbole heute nicht zu sehen.
+TAGGED_CONTENT:

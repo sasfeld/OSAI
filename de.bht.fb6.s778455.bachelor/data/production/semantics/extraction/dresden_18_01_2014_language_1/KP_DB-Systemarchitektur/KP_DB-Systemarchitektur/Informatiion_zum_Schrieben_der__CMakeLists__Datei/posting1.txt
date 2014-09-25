@@ -1,0 +1,10 @@
+ID: 1787
+CREATION_DATETIME: 1368050400000
+MODIFICATION_DATETIME: 1368741600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Zum Schreiben der "CMakeLists" muss ich noch der Struktur des Projekt wissen. Was heißt unseren Pass Modul? Und wo liegt diesen Ordner?
+TAGGED_CONTENT:

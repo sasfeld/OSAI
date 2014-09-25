@@ -1,0 +1,11 @@
+ID: 130
+CREATION_DATETIME: 1348178400000
+MODIFICATION_DATETIME: 1348178400000
+TITLE: Es geht dir vermutlic
+PARENT_POSTING_ID: 129
+POSTING_TYPE: answer
+CONTENT:
+Es geht dir vermutlich darum, einen Zug auszugeben. Sehr elegant geht das mit snprintf, schau
+dir die manpage (man snprinf) dazu an: int snprintf(char *str, size_t size, const char *format, ...);
+Das erste Argument ist der Zielpuffer, danach folgt der Formatstring wie bei printf und anschliessend die einzelnen Argumente.
+TAGGED_CONTENT:

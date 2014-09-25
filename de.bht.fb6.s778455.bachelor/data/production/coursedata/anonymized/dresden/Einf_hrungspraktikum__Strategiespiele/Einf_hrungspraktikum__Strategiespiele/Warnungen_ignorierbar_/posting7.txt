@@ -1,0 +1,9 @@
+ID: 1222
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: meinte damit dass ich zur übersicht sowas mache wie a||b mit a als nen langer therm und b ebenso... a...
+PARENT_POSTING_ID: 1206
+POSTING_TYPE: comment
+CONTENT:
+meinte damit dass ich zur übersicht sowas mache wie a||b mit a als nen langer therm und b ebenso... aber hab den fehler <LEARNED_PERSON_NAME_REPLACEMENT> inzwischen gefunden...
+TAGGED_CONTENT:

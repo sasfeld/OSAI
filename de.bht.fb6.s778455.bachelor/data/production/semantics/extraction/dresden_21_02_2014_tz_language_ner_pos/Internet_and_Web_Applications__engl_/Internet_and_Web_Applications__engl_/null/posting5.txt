@@ -1,0 +1,17 @@
+ID: 1739
+CREATION_DATETIME: 1366063200000
+MODIFICATION_DATETIME: 1366063200000
+TITLE: Im Kontext von IWA können Sie sich bzgl. Selbststudium gerne an mich wenden - wir können dies z.B. na...
+LANGUAGE: GERMAN
+NER_TAG: value:IWA;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Selbststudium;weight:0.0;uri:;postag:NN
+POS_TAG: value:bung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kontext;weight:0.0;uri:;postag:NN
+POS_TAG: value:B.;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1730
+POSTING_TYPE: comment
+CONTENT:
+Im Kontext <NAME_CORPUS_REPLACEMENT> IWA können Sie sich bzgl. Selbststudium gerne an mich wenden - wir können dies z. B. nach der Übung am <REMOVED_PERSON_ENTITY> kurz besprechen...
+TAGGED_CONTENT:
+Im_APPRART Kontext_NN <_CARD NAME_CORPUS_REPLACEMENT_NE >_NE IWA_NE können_VMFIN Sie_PPER sich_PRF bzgl_ADJD ._$. Selbststudium_NN gerne_ADV an_APPR mich_PPER wenden_VVINF -_$( wir_PPER können_VMFIN dies_PDS z._APPRART B._NN nach_APPR der_ART Übung_NN am_APPRART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD kurz_ADJD besprechen_VVFIN ..._$( 

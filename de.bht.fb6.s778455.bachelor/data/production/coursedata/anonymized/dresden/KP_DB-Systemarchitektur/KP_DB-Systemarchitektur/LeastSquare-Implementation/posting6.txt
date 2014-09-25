@@ -1,0 +1,9 @@
+ID: 2276
+CREATION_DATETIME: 1374012000000
+MODIFICATION_DATETIME: 1374012000000
+TITLE: wir muessen row echelon form benutzen, linear Abhaengigkeit zu entdecken.
+PARENT_POSTING_ID: 2246
+POSTING_TYPE: comment
+CONTENT:
+wir muessen row echelon form benutzen, linear Abhaengigkeit zu entdecken.
+TAGGED_CONTENT:

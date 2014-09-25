@@ -1,0 +1,11 @@
+ID: 2692
+CREATION_DATETIME: 1383260400000
+MODIFICATION_DATETIME: 1384038000000
+TITLE: Usually you open Xcode's Organizer (open Xcode, press Cmd+Shift+2). Connect your Device and choose it...
+PARENT_POSTING_ID: 2691
+POSTING_TYPE: answer
+CONTENT:
+Usually you open Xcode's Organizer (open Xcode, press Cmd+Shift+2). Connect your Device and choose it from list on the left, then click use for development. This should be everything.
+Furthermore you don't need your own Provisioning Profile. You should only need your own certificate.
+Maybe you need to add your dev account (apple id) to Xcode. You <NAME_CORPUS_REPLACEMENT> do this in Xcode's preferences.
+TAGGED_CONTENT:

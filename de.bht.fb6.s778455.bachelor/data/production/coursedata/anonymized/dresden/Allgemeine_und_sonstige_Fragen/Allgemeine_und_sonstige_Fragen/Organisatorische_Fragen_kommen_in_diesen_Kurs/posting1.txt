@@ -1,0 +1,10 @@
+ID: 249
+CREATION_DATETIME: 1349820000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Dieser Kurs ist dazu gedacht, um alle organisatorischen Fragen zu bündeln, die nicht unbedingt mit einer Lehrveranstaltung zusammen hängen.
+Falls eine Lehrveranstaltung noch nicht existiert, so gebt uns per Feedback-Button (der rote am linken Rand der Webseite) bescheid, dann tragen wir sie ein.
+TAGGED_CONTENT:

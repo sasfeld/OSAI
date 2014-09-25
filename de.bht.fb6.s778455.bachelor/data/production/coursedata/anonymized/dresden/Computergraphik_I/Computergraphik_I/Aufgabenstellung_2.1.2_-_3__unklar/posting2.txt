@@ -1,0 +1,13 @@
+ID: 751
+CREATION_DATETIME: 1352761200000
+MODIFICATION_DATETIME: 1352761200000
+TITLE: Hallo Fredo,
+
+die Frage hätte wirklich ein bisschen präziser formuliert sein können. Es soll angege...
+PARENT_POSTING_ID: 750
+POSTING_TYPE: answer
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+die Frage hätte wirklich ein bisschen präziser formuliert sein können. Es soll angegeben werden, wieviele Rechenoperationen für das Rendern eines Frames auf CPU und wievlele auf der GPU benötigt werden. Das ist identisch mit der Anzahl Rechenoperationen pro Dreieck, <NAME_CORPUS_REPLACEMENT> davon ausgegangen wird, dass alles andere keine Rechenoperationen braucht (daher handelt es sich auch um eine fiktive CPU/GPU). 
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

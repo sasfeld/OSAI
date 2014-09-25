@@ -1,0 +1,9 @@
+ID: 1143
+CREATION_DATETIME: 1361401200000
+MODIFICATION_DATETIME: 1374616800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+I found a bug in my *malloc* implementation. When running my [Testcode](http://pastebin.com/mPTcZbu9) after about 4000 iterations my malloc fails because the aquired capability for the memory allocator was invalid. Am I running out of capability slots here?
+TAGGED_CONTENT:

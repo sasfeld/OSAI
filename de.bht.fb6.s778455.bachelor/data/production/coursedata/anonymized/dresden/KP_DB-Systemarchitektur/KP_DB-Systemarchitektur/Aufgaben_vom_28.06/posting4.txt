@@ -1,0 +1,13 @@
+ID: 2130
+CREATION_DATETIME: 1372543200000
+MODIFICATION_DATETIME: 1372543200000
+TITLE: Derzeit segfaulted die testCLTstatic. Wenn ich es richtig gesehen habe (gdb und backtrace) in der Fee...
+PARENT_POSTING_ID: 2107
+POSTING_TYPE: answer
+CONTENT:
+Derzeit segfaulted die testCLTstatic. Wenn ich es richtig gesehen habe (gdb und backtrace) in der Feedback-Klasse wenn mehr als ein Test im TestCLT vorhanden ist. 
+```ruby
+#12 0x000000000041884a in clt::Feedback::flushResults (this=0x90a880, device=0xca7640) at src/Feedback. cpp:156
+```
+Oder liegt der Fehler doch irgendwo in der TestSum?
+TAGGED_CONTENT:

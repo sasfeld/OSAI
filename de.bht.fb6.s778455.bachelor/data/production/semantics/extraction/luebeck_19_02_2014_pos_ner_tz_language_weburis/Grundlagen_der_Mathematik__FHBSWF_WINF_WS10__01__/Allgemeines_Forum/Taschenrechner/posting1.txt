@@ -1,0 +1,22 @@
+ID: 97781
+CREATION_DATETIME: 1292502946
+MODIFICATION_DATETIME: 1292502946
+TITLE: Taschenrechner
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=36365#97781
+TOPIC_ZOOM_TAG: value:Jahr 2010;weight:1.0;significance:5.96213738666055;degreegeneralization:11;uri:20891209
+NER_TAG: value:CASIO;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:CASIO;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Plus;weight:0.0;uri:;postag:NN
+POS_TAG: value:ES;weight:0.0;uri:;postag:NN
+POS_TAG: value:Modell;weight:0.0;uri:;postag:NN
+POS_TAG: value:Auge;weight:0.0;uri:;postag:NN
+POS_TAG: value:sind?Ich;weight:0.0;uri:;postag:NN
+POS_TAG: value:Taschenrechnern;weight:0.0;uri:;postag:NN
+POS_TAG: value:Taschenrechner;weight:0.0;uri:;postag:NN
+POS_TAG: value:VG;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Muss mal ganz genau nachfragen. An Taschenrechnern ist alles erlaubt, solange sie nicht programmierbar sind?Ich habe diesen hier ins Auge gefasst:<a http://www.amazon.de/FX-991-ES-PLUS-Taschenrechner/dp/B003IDAW8Q/ref=sr_1_4?ie=UTF8&qid=1292501978&sr=8-4" title="FX991 ES Plus">CASIO FX 991 ES PLUS Taschenrechner - Neues Modell / 2010 VG <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:
+Muss_NE mal_ADV ganz_ADV genau_ADJD nachfragen_VVINF ._$. An_APPR Taschenrechnern_NN ist_VAFIN alles_PIS erlaubt_VVPP ,_$, solange_KOUS sie_PPER nicht_PTKNEG programmierbar_ADJD sind?Ich_NN habe_VAFIN diesen_PDAT hier_ADV ins_APPRART Auge_NN gefasst_VVPP :_$. <_CARD a_XY http:\/\/www.amazon.de\/FX-991-ES-PLUS-Taschenrechner\/dp\/B003IDAW8Q\/ref=sr_1_4?ie=UTF8&qid=1292501978&sr=8-4_NN "_$( title_XY =_XY "_$( FX991_CARD ES_NN Plus_NN "_$( >_FM CASIO_FM FX_FM 991_CARD ES_NN PLUS_NE Taschenrechner_NN -_$( Neues_ADJA Modell_NN \/_VVFIN 2010_CARD VG_NN <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

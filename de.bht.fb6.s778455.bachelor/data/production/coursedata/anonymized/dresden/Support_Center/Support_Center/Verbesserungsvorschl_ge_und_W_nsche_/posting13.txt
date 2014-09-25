@@ -1,0 +1,9 @@
+ID: 464
+CREATION_DATETIME: 1350943200000
+MODIFICATION_DATETIME: 1350943200000
+TITLE: wuerde mir reichen, e
+PARENT_POSTING_ID: 396
+POSTING_TYPE: comment
+CONTENT:
+wuerde mir reichen, eine andere variante waere registrierung hier (nur) mit tu-dresden adresse zuzulassen und dann die moeglichkeit zu schaffen andere login provider zuzuschalten
+TAGGED_CONTENT:

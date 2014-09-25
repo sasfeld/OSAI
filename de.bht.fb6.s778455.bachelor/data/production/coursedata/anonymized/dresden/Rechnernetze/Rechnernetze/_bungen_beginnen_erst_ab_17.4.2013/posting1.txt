@@ -1,0 +1,9 @@
+ID: 1694
+CREATION_DATETIME: 1365717600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Übungen beginnen erst ab Mittwoch, den 17. 4. 2013. Am 15. 04. und 16. 04. finden noch keine Übungen statt. 
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 185
+CREATION_DATETIME: 1349301600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Einführungsveranstaltung zum KP <NAME_CORPUS_REPLACEMENT> findet am 12. 10. 2012 in der 2. DS im Raum INF E08 statt.
+In diesem Semester stehen folgende 3 Themen zur Auswahl:
+1. Projekt "Cloud Quality Board"
+2. Projekt "One <REMOVED_PERSON_ENTITY> Reloaded"
+3. Projekt "LANDSPARENCY"
+Die Einschreibung kann ab sofort über jExam erfolgen.
+TAGGED_CONTENT:

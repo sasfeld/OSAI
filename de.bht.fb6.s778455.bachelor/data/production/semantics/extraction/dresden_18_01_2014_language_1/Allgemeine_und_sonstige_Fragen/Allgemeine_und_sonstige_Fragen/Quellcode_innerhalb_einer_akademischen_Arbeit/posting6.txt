@@ -1,0 +1,10 @@
+ID: 651
+CREATION_DATETIME: 1351810800000
+MODIFICATION_DATETIME: 1351810800000
+TITLE: Ja genau das Beispiel hatte ich auch gefunden. Habe aber mein Listing abgewandelt, weil es immer noch...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 632
+POSTING_TYPE: comment
+CONTENT:
+Ja genau das Beispiel hatte ich auch gefunden. Habe aber mein Listing abgewandelt, weil es immer noch viel zu übergewichtig aussieht - meiner Meinung nach zumindest.
+TAGGED_CONTENT:

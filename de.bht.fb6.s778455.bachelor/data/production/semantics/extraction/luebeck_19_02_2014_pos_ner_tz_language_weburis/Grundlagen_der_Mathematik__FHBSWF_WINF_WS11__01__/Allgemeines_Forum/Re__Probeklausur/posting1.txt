@@ -1,0 +1,14 @@
+ID: 117554
+CREATION_DATETIME: 1326735065
+MODIFICATION_DATETIME: 1326735065
+TITLE: Probeklausur
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=43909#117554
+POS_TAG: value:Probeklausur;weight:0.0;uri:;postag:NN
+POS_TAG: value:glichkeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungsvorschlag;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo, gibt es eine Möglichkeit einen Lösungsvorschlag für die Probeklausur zu bekommen?mG <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, gibt_VVFIN es_PPER eine_ART Möglichkeit_NN einen_ART Lösungsvorschlag_NN für_APPR die_ART Probeklausur_NN zu_PTKZU bekommen?mG_NE <_NE REMOVED_PERSON_ENTITY_NE >_XY 

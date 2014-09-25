@@ -1,0 +1,9 @@
+ID: 1785
+CREATION_DATETIME: 1367791200000
+MODIFICATION_DATETIME: 1367791200000
+TITLE: Das war nicht das Passende, aber ich habe es mir jetzt erfragt. Danke!
+PARENT_POSTING_ID: 1774
+POSTING_TYPE: answer
+CONTENT:
+Das war nicht das Passende, aber ich habe es mir jetzt erfragt. Danke!
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1187
+CREATION_DATETIME: 1362438000000
+MODIFICATION_DATETIME: 1362438000000
+TITLE: wenn du den example_player mal ausführst, dann bekommst du jedes mal wenn der Spieler dran ist, das F...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1175
+POSTING_TYPE: comment
+CONTENT:
+wenn du den example_player mal ausführst, dann bekommst du jedes mal wenn der <REMOVED_PERSON_ENTITY> dran ist, das <NAME_CORPUS_REPLACEMENT> ausgegeben und bei der Eingabe wird dann alles <NAME_CORPUS_REPLACEMENT> stdin gelesen. Und mit alles meine ich hier alle Eingaben inklusive dem Newline(==Enter). Die Funktionsweise für die Unterscheidung hab ich schon erklärt und des weiteren ist stdin danach leer. Das verhindert Fehler bei Mehrfachaufrufen <NAME_CORPUS_REPLACEMENT> fscanf um <NAME_CORPUS_REPLACEMENT> stdin zu lesen. Wenn das ' ' nicht gelesen wird, dann liegt das dort, bis es gelesen wird. Und im worst case liest du das an einer Stelle in dem Programm, an der du das nicht erwartest.
+TAGGED_CONTENT:

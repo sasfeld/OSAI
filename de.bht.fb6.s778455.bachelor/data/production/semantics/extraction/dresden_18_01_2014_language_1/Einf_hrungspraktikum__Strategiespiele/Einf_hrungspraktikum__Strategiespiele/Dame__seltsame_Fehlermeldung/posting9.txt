@@ -1,0 +1,10 @@
+ID: 1366
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Dein free() kann auch eine schon ge-free()-te node noch free()-en - oder du machst dir den Speicher a...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1357
+POSTING_TYPE: comment
+CONTENT:
+Dein free() kann auch eine schon ge-free()-te node noch free()-en - oder du machst dir den Speicher anderweitig kaputt. Nach dem du einen `struct node *` mit destroy() dealloziert hast, weise dem Pointer NULL zu. Falls du doch ungültige Zugriffe hast, wirst du es auf diese Weise **sofort** anstatt "irgendwann" bemerken.
+TAGGED_CONTENT:

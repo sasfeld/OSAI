@@ -1,0 +1,18 @@
+ID: 66
+CREATION_DATETIME: 1194090240000
+MODIFICATION_DATETIME: 1194090240000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 65
+CONTENT:
+ 
+Vielen Dank für die Antworten. Es waren tatsächlich nur Objektreferenzen, habe das aber nun mehr oder weniger auf die Reihe bekommen.
+Ich habe noch ein Problem mit der contains() Methode der ArrayList. Undzwar funktioniert sie zwar einwandfrei, sie durchsucht allerdings die Liste nicht nach dem genauen String. Ich habe als Test den Namen Mark eingegeben und wollte anschließend die Liste danach durchsuchen. Er findet den Eintrag wenn ich nach Mark suche, allerdings auch, wenn ich nur nach M suche. Kann ich das noch spezieller gestalten? Sodass wirklich nur der Name gefunden wird, der eingegeben wurde?
+
+
+EDIT: Ich habe es selber hinbekommen. Habe die contains-Methode durch .equals() ersetzt, das funktioniert prima!
+
+Grüße
+
+       
+TAGGED_CONTENT:

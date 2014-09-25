@@ -13,6 +13,7 @@ import de.bht.fb6.s778455.bachelor.importer.auditorium.AuditoriumImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.moodle.MoodlePostgreSqlImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.moodle.MoodleXmlImporterStrategy;
+import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
@@ -38,7 +39,7 @@ public class AnonymizationCliController {
 	 * 
 	 */
 	public enum ImportMethods {
-		POSTGREDUMP, FILESYSTEM, LUEBECK_XML, AUDITORIUM_DB,
+		POSTGREDUMP, FILESYSTEM, LUEBECK_XML, AUDITORIUM_DB, OLIVER_LUEBECK_XML
 	}
 
 	/**
@@ -104,6 +105,8 @@ public class AnonymizationCliController {
 			this.importStrategy = new MoodleXmlImporterStrategy();
 		} else if( importMethod.equals( ImportMethods.AUDITORIUM_DB ) ) {
 			this.importStrategy = new AuditoriumImportStrategy();
+		} else if( importMethod.equals(ImportMethods.OLIVER_LUEBECK_XML) ) {
+			this.importStrategy = ServiceFactory.newOliverLuebeckStrategy();
 		} else {
 			throw new UnsupportedOperationException(
 					"The given import strategy " + this.importStrategy
@@ -371,7 +374,7 @@ public class AnonymizationCliController {
 		helpBuilder.append( "\n" );
 		helpBuilder.append( "Required arguments:\n\n" );
 		helpBuilder.append( "-inputfile [FILE]\n" );
-		helpBuilder.append( "-importmethod [postgredump|filesystem|luebeck_xml|auditorium_db]\n" );
+		helpBuilder.append( "-importmethod [postgredump|filesystem|luebeck_xml|auditorium_db|oliver_luebeck_xml]\n" );
 		helpBuilder.append( "-exportmethod [filesystem]\n" );
 		helpBuilder.append( "-outputfile [FILE]\n" );
 

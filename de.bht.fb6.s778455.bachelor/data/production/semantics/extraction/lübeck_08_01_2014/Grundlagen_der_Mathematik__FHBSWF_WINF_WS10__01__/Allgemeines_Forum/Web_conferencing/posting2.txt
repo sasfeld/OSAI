@@ -1,0 +1,13 @@
+ID: 97755
+CREATION_DATETIME: 1285753183
+MODIFICATION_DATETIME: 1285753183
+TITLE: Re: Web conferencing
+TOPIC_ZOOM_TAG: value:World Wide Web;weight:1.0;significance:4.80310786617364;degreegeneralization:6;uri:20772430
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 97754
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>, die für das Web conferencing festgesetzten Termine immer Mittwochs von 20:00 bis 21:00 Uhr überschneiden sich bei mir. Gibt es bei Ihnen einen Spielraum?Mein Vorschlag wäre Donnerstags von 20:00 bis 21:00. vg, tl 
+TAGGED_CONTENT:

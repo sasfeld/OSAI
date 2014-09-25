@@ -1,0 +1,9 @@
+ID: 1512
+CREATION_DATETIME: 1363042800000
+MODIFICATION_DATETIME: 1363042800000
+TITLE: @Michael: Kannst du das noch mal näher erklären?
+PARENT_POSTING_ID: 1462
+POSTING_TYPE: comment
+CONTENT:
+@Michael: Kannst du das noch mal näher erklären?
+TAGGED_CONTENT:

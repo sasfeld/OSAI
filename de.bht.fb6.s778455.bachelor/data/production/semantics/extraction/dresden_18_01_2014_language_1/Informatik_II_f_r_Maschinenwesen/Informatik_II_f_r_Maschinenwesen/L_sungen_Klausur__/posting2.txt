@@ -1,0 +1,14 @@
+ID: 2095
+CREATION_DATETIME: 1372024800000
+MODIFICATION_DATETIME: 1373320800000
+TITLE: Ja natürlich. Indem du sie selbst löst und in Übung 7, in der du deine Lösung diskutieren sollst, ver...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2094
+POSTING_TYPE: answer
+CONTENT:
+Ja natürlich. Indem du sie selbst löst und in Übung 7, in der du deine Lösung diskutieren sollst, vervollständigst.
+
+Und deswegen wird die Musterlösung nicht veröffentlicht.
+
+Die Tutoren bekommen diese übrigens auch nicht.
+TAGGED_CONTENT:

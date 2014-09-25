@@ -1,0 +1,63 @@
+ID: 101861
+CREATION_DATETIME: 1287224336
+MODIFICATION_DATETIME: 1287224336
+TITLE: Re: Aufgraben und Praesenzphasen
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Gleichungen;weight:1.0;significance:5.1553271212178;degreegeneralization:7;uri:20115499
+TOPIC_ZOOM_TAG: value:Hausaufgaben;weight:1.0;significance:5.03474609280935;degreegeneralization:7;uri:20197932
+TOPIC_ZOOM_TAG: value:Handschriften;weight:1.0;significance:4.83201353875525;degreegeneralization:7;uri:20769098
+TOPIC_ZOOM_TAG: value:Schulunterricht;weight:1.0;significance:4.80875353093781;degreegeneralization:6;uri:20897550
+TOPIC_ZOOM_TAG: value:Schrift;weight:1.0;significance:4.10436992245183;degreegeneralization:6;uri:20916998
+TOPIC_ZOOM_TAG: value:Unterricht;weight:1.0;significance:4.06179101828168;degreegeneralization:4;uri:20916930
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:3.89064791503836;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Sprache, Zivilisation und Bevölkerung;weight:1.0;significance:3.33295834077578;degreegeneralization:5;uri:20895986
+TOPIC_ZOOM_TAG: value:Schulen;weight:1.0;significance:2.93507215719329;degreegeneralization:5;uri:21882020
+TOPIC_ZOOM_TAG: value:Schulische Bildung und Erziehung;weight:1.0;significance:2.93346701937817;degreegeneralization:3;uri:21882122
+TOPIC_ZOOM_TAG: value:Sprache als Bereich der Kultur;weight:1.0;significance:2.88271354620725;degreegeneralization:5;uri:20896003
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:2.78563553898677;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:2.50435355391847;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:2.23699226098339;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:2.18452430611399;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:1.75110858232764;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Kunst, Kultur, Musik;weight:1.0;significance:1.52385346833743;degreegeneralization:2;uri:21999796
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:1.07441906812122;degreegeneralization:2;uri:21999813
+NER_TAG: value:TFHB WINF;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:TFHB WINF;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:senzwochenenden;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Online;weight:0.0;uri:;postag:NN
+POS_TAG: value:Funktionen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Materialien;weight:0.0;uri:;postag:NN
+POS_TAG: value:Logaritmen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fachbereichskurs;weight:0.0;uri:;postag:NN
+POS_TAG: value:Handschrift;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gleichungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Termine;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hausaufgaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abschrift;weight:0.0;uri:;postag:NN
+POS_TAG: value:Themen;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 101860
+CONTENT:
+Hausaufgaben gibt es nicht, wir arbeiten in <REMOVED_PERSON_ENTITY> nur die Aufgabe aus den Online Materialien durch.
+Als Themen kamen dran :
+- Logaritmen
+- <REMOVED_PERSON_ENTITY>
+- <REMOVED_PERSON_ENTITY>
+- <REMOVED_PERSON_ENTITY> von Gleichungen und <REMOVED_PERSON_ENTITY>
+- Trigonometrische Funktionen
+Eventuell kann ich dir eine Abschrift schicken, leider in schlechter Handschrift, vlt hat da jemand ja etwas besseres.
+Die Termine findet du unter 
+Fachbereichskurs (TFHB WINF) > Präsenzwochenenden.
+oder als direkt link
+$@COURSEVIEWBYID*1350@$
+Mfg
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hausaufgaben_NN gibt_VVFIN es_PPER nicht_PTKNEG ,_$, wir_PPER arbeiten_VVFIN in_APPR <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN nur_ADV die_ART Aufgabe_NN aus_APPR den_ART Online_NN Materialien_NN durch_PTKVZ ._$. Als_APPR Themen_NN kamen_VVFIN dran_PROAV :_$. -_$( Logaritmen_NN -_$( <_CARD REMOVED_PERSON_ENTITY_NN >_CARD -_$( <_CARD REMOVED_PERSON_ENTITY_NN >_CARD -_$( <_CARD REMOVED_PERSON_ENTITY_NN >_CARD von_APPR Gleichungen_NN und_KON <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN -_$( Trigonometrische_ADJA Funktionen_NN Eventuell_ADJD kann_VMFIN ich_PPER dir_PRF eine_ART Abschrift_NN schicken_VVFIN ,_$, leider_ADV in_APPR schlechter_ADJD Handschrift_NN ,_$, vlt_VVPP hat_VAFIN da_ADV jemand_PIS ja_ADV etwas_ADV besseres_ADJA ._$. Die_ART Termine_NN findet_VVFIN du_PPER unter_APPR Fachbereichskurs_NN -LRB-_TRUNC TFHB_NE WINF_NE -RRB-_TRUNC >_XY Präsenzwochenenden_NN ._$. oder_KON als_APPR direkt_ADJD link_NE $_CARD @COURSEVIEWBYID_NE \*_NE 1350@$_CARD Mfg_XY <_CARD REMOVED_PERSON_ENTITY_NN >_XY 

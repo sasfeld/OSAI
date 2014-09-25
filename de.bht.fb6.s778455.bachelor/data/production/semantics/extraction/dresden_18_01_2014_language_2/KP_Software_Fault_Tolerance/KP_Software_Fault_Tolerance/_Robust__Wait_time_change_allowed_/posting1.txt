@@ -1,0 +1,14 @@
+ID: 814
+CREATION_DATETIME: 1353279600000
+MODIFICATION_DATETIME: 1384729200000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Is it allowed to change the wait time?
+
+I pass all test of 'Test 2' if I increase the wait time to 0. 4.
+
+Is this allowed or is it fixed at 0. 01?
+TAGGED_CONTENT:

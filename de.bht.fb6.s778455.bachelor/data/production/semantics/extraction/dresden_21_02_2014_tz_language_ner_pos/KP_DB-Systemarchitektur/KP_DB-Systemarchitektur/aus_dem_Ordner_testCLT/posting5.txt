@@ -1,0 +1,19 @@
+ID: 1847
+CREATION_DATETIME: 1369087200000
+MODIFICATION_DATETIME: 1369087200000
+TITLE: Das sind die Parameter, die der Nutzer seinem Kernel übergeben möchte. Dabei gibt es dann noch eine U...
+LANGUAGE: GERMAN
+POS_TAG: value:Unterscheidung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nutzer;weight:0.0;uri:;postag:NN
+POS_TAG: value:hrung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kernels;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kernel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Outputparameter;weight:0.0;uri:;postag:NN
+POS_TAG: value:Parameter;weight:0.0;uri:;postag:NN
+POS_TAG: value:Inputparametern;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Das sind die Parameter, die der Nutzer seinem Kernel übergeben möchte. Dabei gibt es dann noch eine Unterscheidung zwischen Inputparametern, welche also nur den Kernel weitergereicht werden und Outputparameter, welche wir dem Nutzer nach Ausführung des Kernels zurückliefern wollen.
+TAGGED_CONTENT:
+Das_PDS sind_VAFIN die_ART Parameter_NN ,_$, die_PRELS der_ART Nutzer_NN seinem_PPOSAT Kernel_NN übergeben_VVINF möchte_VMFIN ._$. Dabei_PROAV gibt_VVFIN es_PPER dann_ADV noch_ADV eine_ART Unterscheidung_NN zwischen_APPR Inputparametern_NN ,_$, welche_PWAT also_ADV nur_ADV den_ART Kernel_NN weitergereicht_VVPP werden_VAINF und_KON Outputparameter_NN ,_$, welche_PRELS wir_PPER dem_ART Nutzer_NN nach_APPR Ausführung_NN des_ART Kernels_NN zurückliefern_VVINF wollen_VMFIN ._$. 

@@ -1,0 +1,8 @@
+ID: 97809
+CREATION_DATETIME: 1293039823
+MODIFICATION_DATETIME: 1293039823
+TITLE: Re: Parallelogrammfläche
+PARENT_POSTING_ID: 97808
+CONTENT:
+Ich glaube die Aufgabe gefunden zu haben. Der Rechenweg wie Sie ihn meinen geht auch in meiner Aufgabenvariante nicht. Ich muss das nach den heutigen Chats probieren, woran es liegt.
+TAGGED_CONTENT:

@@ -1,0 +1,4 @@
+ID: 11
+TITLE: Testklausur von 2009 Aufgabe 4a, Punkt 3
+LANGUAGE: GERMAN
+FIRST_POSTING_ID: 93

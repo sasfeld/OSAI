@@ -1,0 +1,20 @@
+ID: 1853
+CREATION_DATETIME: 1369260000000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich hab nochmal über den Name nachgedacht. CLeverTrustee ist etwas zu lang, würde ich sagen.
+
+Man bräuchte ein Akronym, was man sich leicht merken kann und auch noch etwas Sinn macht.
+
+Am liebsten hätte ich ja etwas mit "H" oder "He" für "HEterogeneous". Meine erste Idee war jetzt
+
+HEXengine = HEterogeneous eXecution engine
+
+aber das kann man auch als HEXE abkürzten, und das ist wahrscheinlich nicht so cool.
+
+Habt ihr noch eine andere Idee?
+TAGGED_CONTENT:

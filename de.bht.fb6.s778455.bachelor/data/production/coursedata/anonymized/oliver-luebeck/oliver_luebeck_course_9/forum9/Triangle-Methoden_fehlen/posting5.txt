@@ -1,0 +1,12 @@
+ID: 18
+CREATION_DATETIME: 1176654540000
+MODIFICATION_DATETIME: 1176654540000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 14
+CONTENT:
+
+Die beiden Methoden isIsosceles und calculateCircumference waren bei euch vorhanden? Bei mir waren sie in der TriangleTest.java nur aufgerufen, aber programmiert in der Triangle.java eben nicht.
+War ja kein Problem die zu schreiben, ich hatte mich nur gewundert, warum der Aufruf da ist, aber die Methode selbst nicht.
+    
+TAGGED_CONTENT:

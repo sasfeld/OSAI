@@ -1,0 +1,12 @@
+ID: 2350
+CREATION_DATETIME: 1374184800000
+MODIFICATION_DATETIME: 1374184800000
+TITLE: Die ersten beiden Plots (für Folie 35) sind eingecheckt, habe einen extra Ordner Plots erstellt. Bitt...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2344
+POSTING_TYPE: answer
+CONTENT:
+Die ersten beiden Plots (für Folie 35) sind eingecheckt, habe einen extra Ordner Plots erstellt. Bitte schaut mal, ob das so passt. 
+
+Die nächsten werden folgen, ich gebe Bescheid wenn neues eingecheckt ist.
+TAGGED_CONTENT:

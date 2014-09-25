@@ -1,0 +1,21 @@
+ID: 26
+CREATION_DATETIME: 1191814680000
+MODIFICATION_DATETIME: 1191814680000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 22
+CONTENT:
+
+habe es leider auch verpasst!
+
+also bei mir geht das ohne Passwort
+
+ihr meint doch diesen link auf der grundseite von Prog02 oder?:
+
+http://connect.oncampus.de/p48996895/
+
+geht bei mir direkt.
+
+gruss
+   
+TAGGED_CONTENT:

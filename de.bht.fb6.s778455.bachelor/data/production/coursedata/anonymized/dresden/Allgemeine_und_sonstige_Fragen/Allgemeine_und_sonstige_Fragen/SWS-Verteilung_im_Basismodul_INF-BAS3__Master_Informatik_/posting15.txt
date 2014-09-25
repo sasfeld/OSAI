@@ -1,0 +1,11 @@
+ID: 755
+CREATION_DATETIME: 1352761200000
+MODIFICATION_DATETIME: 1352761200000
+TITLE: Meine Anfrage an das Prüfungsamt wurde an Katrin Borcea-Pfitzmann weitergeleitet, die folgendes geant...
+PARENT_POSTING_ID: 728
+POSTING_TYPE: comment
+CONTENT:
+Meine Anfrage an das Prüfungsamt wurde an <REMOVED_PERSON_ENTITY> weitergeleitet, die folgendes geantwortet hat:
+> es ist leider wirklich so, dass im Wahlbereich lediglich Seminare und Vorlesungen gewählt bzw. geprüft werden können (siehe auch Studienablaufplan [1] --> 2V+2Ü+4V/S), während der "Pflichtbereich" 2 SWS Vorlesungen und 2 SWS Übungen enthält. 
+GIbt es einen Grund, weshalb gerade dieses Basismodul Seminare verlangt?
+TAGGED_CONTENT:

@@ -1,0 +1,24 @@
+ID: 2153
+CREATION_DATETIME: 1372716000000
+MODIFICATION_DATETIME: 1373493600000
+TITLE: Doch, es ist genau nach der maximalen Anzahl der Einträge gefragt. Die Zweistufigkeit kommt dadurch i...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2152
+POSTING_TYPE: answer
+CONTENT:
+Doch, es ist genau nach der maximalen Anzahl der Einträge gefragt. Die Zweistufigkeit kommt dadurch ins Spiel, dass man bei einer zweistufigen Seitentabelle zusätzlich zu den Tabellen für den kompletten Adressraum noch eine weitere Top-Level-Pagetable braucht.
+
+Im Beispiel:
+
+32 bit Adressen -> 2^32 Byte Adressraum
+
+4 kB <REMOVED_PERSON_ENTITY> -> 2^12 Byte pro <REMOVED_PERSON_ENTITY>
+
+==> 2^32 / 2^12 = 2^20 Seiten pro Adressraum
+
+Entsprechend brauchst Du 2^20 Seitentabellen-Einträge. Diese werden verteilt auf 2^20 / 1024 = 2^20 / 2^10 = 2^10 = 1024 Seitentabellen.
+
+Bei einer zweistufigen Seitentabelle kommt jetzt noch das oberste Level hinzu. Das ist das PageDirectory - <REMOVED_PERSON_ENTITY>, die auf die ganzen anderen Seitentabellen verweist. Diese hat laut Aufgabenstellung 1024 Einträge, d. h. ein Page Directory reicht, um auf die 1024 Seitentabellen 2. Stufe zu verlinken.
+
+Entsprechend brauchst Du zur kompletten Abdeckung <REMOVED_PERSON_ENTITY> *2^20 + 1024* Einträge.
+TAGGED_CONTENT:

@@ -1,0 +1,11 @@
+ID: 958
+CREATION_DATETIME: 1355094000000
+MODIFICATION_DATETIME: 1355094000000
+TITLE: `last_ping[j] = T` should be clear. That simply updates the array of timestamps with T send by j. 
+...
+PARENT_POSTING_ID: 925
+POSTING_TYPE: comment
+CONTENT:
+`last_ping[j] = T` should be clear. That simply updates the array of timestamps with T send by j. 
+The `if (last_ping[j] < T)` is used to filter old messages out. The specification <NAME_CORPUS_REPLACEMENT> requires bounded transmission time, but not that two timely messages are not reordered. 
+TAGGED_CONTENT:

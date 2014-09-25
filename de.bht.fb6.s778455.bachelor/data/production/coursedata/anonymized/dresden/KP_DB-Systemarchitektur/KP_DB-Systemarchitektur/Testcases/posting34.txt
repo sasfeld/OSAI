@@ -1,0 +1,11 @@
+ID: 1966
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Ja bei mir aufm Rechner läufts.
+Mit dem setup hab ichs jetz auch aufm wimpy hinbekommen. Da geht nur...
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Ja bei mir aufm Rechner läufts.
+Mit dem setup hab ichs jetz auch aufm wimpy hinbekommen. <NAME_CORPUS_REPLACEMENT> geht nur noch irgendwas mit den Memoryobjects nich, aber das is ne andere Baustelle.
+TAGGED_CONTENT:

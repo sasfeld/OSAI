@@ -1,0 +1,14 @@
+ID: 172271
+CREATION_DATETIME: 1350592011
+MODIFICATION_DATETIME: 1350592011
+TITLE: Re: Gruppen für die Einsendeaufgaben
+LANGUAGE: GERMAN
+POS_TAG: value:Argirios;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 172235
+CONTENT:
+Hallo Argirios,
+ich bin gerne dabei - wer noch?
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Hallo_ITJ Argirios_NN ,_$, ich_PPER bin_VAFIN gerne_ADV dabei_PROAV -_$( wer_PWS noch_ADV ?_$. Gruß_NE <_NE PERSONAL_GREETING_REMOVEMENT_NE >_XY 

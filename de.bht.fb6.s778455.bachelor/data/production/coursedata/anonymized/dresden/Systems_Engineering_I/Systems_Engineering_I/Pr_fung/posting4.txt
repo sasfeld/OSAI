@@ -1,0 +1,9 @@
+ID: 1735
+CREATION_DATETIME: 1366063200000
+MODIFICATION_DATETIME: 1366149600000
+TITLE: Ob eine Prüfung schriftlich oder mündlich ist wird von der Prüfungsordnung für den jeweiligen Studien...
+PARENT_POSTING_ID: 1678
+POSTING_TYPE: comment
+CONTENT:
+Ob eine Prüfung schriftlich oder mündlich ist wird <NAME_CORPUS_REPLACEMENT> der Prüfungsordnung für den jeweiligen Studiengang bestimmt und nicht durch eine Folie ;)
+TAGGED_CONTENT:

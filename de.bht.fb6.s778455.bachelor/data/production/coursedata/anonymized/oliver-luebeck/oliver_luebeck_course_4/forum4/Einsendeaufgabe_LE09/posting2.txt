@@ -1,0 +1,13 @@
+ID: 53
+CREATION_DATETIME: 1178367360000
+MODIFICATION_DATETIME: 1178367360000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 52
+CONTENT:
+
+wo hast du denn die Gui Klasse gespeichert? Ich hatte sie erst woanders abgelegt und versucht, über Importanweisung zu holen, was aber nicht richtig funktioniert hat > im gleichen Ordner abgespeichert, dann läuft es bei mir...
+
+Gruß 
+    
+TAGGED_CONTENT:

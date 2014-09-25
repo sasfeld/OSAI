@@ -1,0 +1,16 @@
+ID: 32
+CREATION_DATETIME: 1191787260000
+MODIFICATION_DATETIME: 1191787260000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 31
+CONTENT:
+
+Hi ,
+
+versuch mal am Ende noch ein bWriter.flush(). Damit wird der Buffer geleert und alles in die Datei geschrieben.
+Ich mache es genauso und funktioniert prima.
+
+Gruss
+    
+TAGGED_CONTENT:

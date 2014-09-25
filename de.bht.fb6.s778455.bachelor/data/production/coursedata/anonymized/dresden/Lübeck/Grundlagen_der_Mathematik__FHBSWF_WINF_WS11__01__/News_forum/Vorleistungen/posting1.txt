@@ -1,0 +1,10 @@
+ID: 117505
+CREATION_DATETIME: 1326374092
+MODIFICATION_DATETIME: 1326374092
+TITLE: Vorleistungen
+PARENT_POSTING_ID: 0
+CONTENT:
+... sind soweit als moeglich eingetragen. Betrachten Sie die Email als bedeutungslos, wenn Sie als Teilnehmer gelistet sind aber dieses Semester in diesem Kurs nicht aktiv waren.
+Kommenden Samstag ist Praesenz! Thema: Gausssche Elimination, Uebungen.
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

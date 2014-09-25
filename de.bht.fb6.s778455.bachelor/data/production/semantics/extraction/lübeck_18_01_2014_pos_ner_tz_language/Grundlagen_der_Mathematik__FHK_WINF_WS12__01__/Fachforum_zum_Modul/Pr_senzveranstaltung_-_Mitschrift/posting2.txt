@@ -1,0 +1,24 @@
+ID: 182703
+CREATION_DATETIME: 1353681343
+MODIFICATION_DATETIME: 1353681535
+TITLE: Re: Präsenzveranstaltung - Mitschrift
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Mathematische Logik;weight:1.0;significance:11.0991116027998;degreegeneralization:6;uri:20881349
+TOPIC_ZOOM_TAG: value:Symbolische Logik;weight:1.0;significance:11.0991116027998;degreegeneralization:7;uri:20782698
+TOPIC_ZOOM_TAG: value:Aussagenlogik;weight:1.0;significance:11.0991116027998;degreegeneralization:8;uri:20847655
+TOPIC_ZOOM_TAG: value:Logik;weight:1.0;significance:8.32652288056005;degreegeneralization:4;uri:21472524
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Geisteswissenschaften;weight:1.0;significance:4.65434461816952;degreegeneralization:3;uri:21978240
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Aussagenlogik;weight:0.0;uri:;postag:NN
+POS_TAG: value:die;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 182665
+CONTENT:
+mich hat`s leider auch erwischt:(
+Mir würden die behandelten Themengebiete/die besprochenen der Aussagenlogik, zum <REMOVED_PERSON_ENTITY> nachholen.
+muss man sich irgendwo abmelden?
+TAGGED_CONTENT:
+mich_PPER hat_VAFIN `_XY s_PPER leider_ADV auch_ADV erwischt_VVPP :-LRB-_TRUNC Mir_PPER würden_VAFIN die_ART behandelten_ADJA Themengebiete\/die_NN besprochenen_VVFIN der_ART Aussagenlogik_NN ,_$, zum_APPRART <_NN REMOVED_PERSON_ENTITY_NE >_CARD nachholen_VVINF ._$. muss_KOUS man_PIS sich_PRF irgendwo_ADV abmelden_VVINF ?_$. 

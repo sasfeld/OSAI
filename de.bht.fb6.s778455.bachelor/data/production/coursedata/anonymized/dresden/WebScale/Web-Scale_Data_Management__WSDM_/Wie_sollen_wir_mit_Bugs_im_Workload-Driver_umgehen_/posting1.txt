@@ -1,0 +1,12 @@
+ID: 710
+CREATION_DATETIME: 1352415600000
+MODIFICATION_DATETIME: 1375999200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wenn man mit setup_db. py z. B. 10 user anlegt, werden ja user_0 bis user_9 angelegt.
+Im Workload-Driver kann jedoch auch auf user_10 zugegriffen werden.
+Dies betrifft glaub auch import_friends <NAME_CORPUS_REPLACEMENT> setup_db. py.
+Müsste an den unterschiedlichen random-Funktionen liegen.
+TAGGED_CONTENT:

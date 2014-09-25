@@ -1,0 +1,5 @@
+ID: 0
+TITLE: Grundlagen_der_Mathematik__FHK_WINF_WS11__01__
+LANGUAGE: UNKNOWN
+INTRO: null
+TYPE: null

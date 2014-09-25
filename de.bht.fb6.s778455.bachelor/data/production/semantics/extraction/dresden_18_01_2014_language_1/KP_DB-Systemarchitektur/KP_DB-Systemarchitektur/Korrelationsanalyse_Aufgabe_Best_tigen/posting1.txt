@@ -1,0 +1,20 @@
+ID: 2058
+CREATION_DATETIME: 1371160800000
+MODIFICATION_DATETIME: 1375826400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Zum Bestätigen, schreiben meine Aufgaben darunter.
+
+0. ich soll ein F mit Regressionsanalyse herausfinden, damit t ~ F(kernelMetrics, dim, Input length).
+
+1. innerLoop <NAME_CORPUS_REPLACEMENT> kernelMetrics sind momentan immer Leer. Deshalb ist der <REMOVED_PERSON_ENTITY> des jede Operationen in einen bestimmt kernel immer gleich.
+
+2. dimension, Input length und Zeitdauer werde ich <NAME_CORPUS_REPLACEMENT> <REMOVED_PERSON_ENTITY> bekommen.
+
+3. ich machen keine Korrelationsanalyse zwichen Input length(n) und jede kernelMetric, oder Input length(n^2) und jede kernelMetric
+
+4. aber ich soll eine Gewichung G(kernelMetric, Kernel) jede kernelMetric pro OpenCL-kernel herausfinden?
+TAGGED_CONTENT:

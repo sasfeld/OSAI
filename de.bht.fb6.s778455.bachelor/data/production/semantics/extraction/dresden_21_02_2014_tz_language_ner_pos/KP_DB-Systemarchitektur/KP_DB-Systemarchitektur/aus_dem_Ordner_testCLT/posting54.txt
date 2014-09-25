@@ -1,0 +1,34 @@
+ID: 2046
+CREATION_DATETIME: 1371160800000
+MODIFICATION_DATETIME: 1371160800000
+TITLE: Hallo! Ich kann heute leider nicht zum Treffen kommen. Seit Mittwoch habe ich einen neuen Kernel, ein...
+LANGUAGE: GERMAN
+NER_TAG: value:Nested Loop Join;weight:-1.0;uri:;classifierlabel:I-LOC
+POS_TAG: value:Dinge;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Treffen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wahl;weight:0.0;uri:;postag:NN
+POS_TAG: value:Variationen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Woche;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ergebnisse;weight:0.0;uri:;postag:NN
+POS_TAG: value:berlegungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Variation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mittwoch;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kernel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Auslesen;weight:0.0;uri:;postag:NN
+POS_TAG: value:TestUmgebung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Testumgebung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Hallo! Ich kann heute leider nicht zum Treffen kommen. Seit Mittwoch habe ich einen neuen Kernel, eine Variation des Nested Loop Join, geschrieben, getestet und in die TestUmgebung integriert.
+
+Die nächsten Überlegungen sind, für die Vorhandenen Kernel andere Variationen zu schreiben, die hoffentlich die Wahl des Devices beeinflussen.
+
+Des weiteren werde ich bis nächste Woche das Auslesen der Ergebnisse der Kernel mit in die Testumgebung integrieren.
+
+Wenn noch andere Dinge anstehen, die zu machen sind, dann gebt mir bitte bescheid.
+
+<LEARNED_PERSON_NAME_REPLACEMENT> <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ !_$. Ich_PPER kann_VMFIN heute_ADV leider_ADV nicht_PTKNEG zum_APPRART Treffen_NN kommen_VVINF ._$. Seit_APPR Mittwoch_NN habe_VAFIN ich_PPER einen_ART neuen_ADJA Kernel_NN ,_$, eine_ART Variation_NN des_ART Nested_NE Loop_NE Join_NE ,_$, geschrieben_VVPP ,_$, getestet_VVPP und_KON in_APPR die_ART TestUmgebung_NN integriert_VVPP ._$. Die_ART nächsten_ADJA Überlegungen_NN sind_VAFIN ,_$, für_APPR die_ART Vorhandenen_ADJA Kernel_NN andere_ADJA Variationen_NN zu_PTKZU schreiben_VVINF ,_$, die_PRELS hoffentlich_ADV die_ART Wahl_NN des_ART Devices_NE beeinflussen_VVINF ._$. Des_ART weiteren_ADJA werde_VAFIN ich_PPER bis_APPR nächste_ADJA Woche_NN das_ART Auslesen_NN der_ART Ergebnisse_NN der_ART Kernel_NN mit_APPR in_APPR die_ART Testumgebung_NN integrieren_VVINF ._$. Wenn_KOUS noch_ADV andere_ADJA Dinge_NN anstehen_VVINF ,_$, die_PRELS zu_PTKZU machen_VVINF sind_VAFIN ,_$, dann_ADV gebt_VVIMP mir_PPER bitte_PTKANT bescheid_PTKVZ ._$. <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_CARD <_XY REMOVED_PERSON_ENTITY_NE >_XY 

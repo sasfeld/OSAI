@@ -1,0 +1,9 @@
+ID: 2125
+CREATION_DATETIME: 1372456800000
+MODIFICATION_DATETIME: 1372456800000
+TITLE: Oder komme mal vorbei mit der Prüfung, damit ich die mal selber sehe. Zu der zeit habe ich noch nicht...
+PARENT_POSTING_ID: 2090
+POSTING_TYPE: comment
+CONTENT:
+Oder komme mal vorbei mit der Prüfung, damit ich die mal selber sehe. Zu der Zeit habe ich noch nicht als Tutor für SWTI gearbeitet und habe die daher nicht mitkorregiert. <PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

@@ -1,0 +1,11 @@
+ID: 1751
+CREATION_DATETIME: 1366668000000
+MODIFICATION_DATETIME: 1382047200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+ich wollte fragen in welches Paket wir die Datei denn einfügen sollen und was damit gemeint ist das Programm interaktiv zu machen.
+Vielen Dank!
+TAGGED_CONTENT:

@@ -1,0 +1,20 @@
+ID: 166707
+CREATION_DATETIME: 1349331016
+MODIFICATION_DATETIME: 1349331016
+TITLE: Re: Heutiges Online-Meeting
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+POS_TAG: value:Information;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Meeting;weight:0.0;uri:;postag:NN
+POS_TAG: value:Moodle;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 166593
+CONTENT:
+Hallo,
+die Mail mit der Information, dass am 03. 10. doch ein Online-Meeting stattfindet, hat mich leider nicht erreicht. Worüber habt ihr die Mail bekommen? Moodle oder privat?
+Viele Grüße
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, die_ART Mail_NE mit_APPR der_ART Information_NN ,_$, dass_KOUS am_APPRART 03_CARD ._$. 10_CARD ._$. doch_ADV ein_ART Online-Meeting_NN stattfindet_VVFIN ,_$, hat_VAFIN mich_PPER leider_ADV nicht_PTKNEG erreicht_VVPP ._$. Worüber_PWAV habt_VAFIN ihr_PPER die_ART Mail_NE bekommen_VVFIN ?_$. Moodle_NN oder_KON privat_ADJD ?_$. Viele_PIDAT Grüße_NN 

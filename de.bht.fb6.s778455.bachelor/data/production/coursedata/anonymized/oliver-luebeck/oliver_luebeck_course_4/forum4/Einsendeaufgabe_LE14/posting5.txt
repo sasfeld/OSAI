@@ -1,0 +1,15 @@
+ID: 65
+CREATION_DATETIME: 1181577720000
+MODIFICATION_DATETIME: 1181577720000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 63
+CONTENT:
+
+Hallo ,
+
+x und y stehen nur für Koordinaten. Ich war am Anfang auch ein wenig verwirrt. x und y sind nicht relevant, Sie sollen nur ausgegeben werden. Die Berechnungen für Umfang, Fläche usw basieren auf den Werten deltaX und deltaY.
+
+Gruß 
+ 	
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 747
+CREATION_DATETIME: 1352674800000
+MODIFICATION_DATETIME: 1352674800000
+TITLE: Eigentlich dieses hier:
+http://research.microsoft.com/pubs/69431/osr2007_rethinkingsoftwarestack.pdf...
+PARENT_POSTING_ID: 746
+POSTING_TYPE: answer
+CONTENT:
+Eigentlich dieses hier:
+http://research.microsoft.com/pubs/69431/osr2007_rethinkingsoftwarestack. pdf
+Aber <NAME_CORPUS_REPLACEMENT> es nicht auf der Webseite bekanntgemacht wurde, könnte ich mir vorstellen, dass wir die Übungen nochmal verschieben. Es wird ja vermutlich kaum jemand gelesen haben.
+TAGGED_CONTENT:

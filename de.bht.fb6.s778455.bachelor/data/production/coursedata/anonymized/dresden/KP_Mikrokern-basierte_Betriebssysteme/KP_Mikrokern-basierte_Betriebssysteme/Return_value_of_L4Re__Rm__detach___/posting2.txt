@@ -1,0 +1,16 @@
+ID: 906
+CREATION_DATETIME: 1354143600000
+MODIFICATION_DATETIME: 1356130800000
+TITLE: Memory management is tricky. Remember: You have dataspaces and you have memory regions. A region is b...
+PARENT_POSTING_ID: 905
+POSTING_TYPE: answer
+CONTENT:
+Memory management is tricky. Remember: You have dataspaces and you have memory regions. A region is backed by exactly one dataspace. However, this region <NAME_CORPUS_REPLACEMENT> represent only a part of this dataspace. (E. g., you have a 1 GB file, but only attached 2 MB from somewhere in the middle of this file to your address space).
+`L4Re::Rm::detach` takes an address (or a range) and removes the respective region from the region list. Several things <NAME_CORPUS_REPLACEMENT> happen:
+* The specified region is identical to a region obtained through a previous attach() operation. Hence, the whole dataspace is detached, the result is `Detached_ds` and the `mem` output parameter contains the capability of the detached DS. The DS is now no longer used and therefore you <NAME_CORPUS_REPLACEMENT> release it using `mem_alloc::free`.
+* The specified region is only part of a previously attached region:
+- If this part is at the beginning or the end of the, the RM simply needs to adjust the part of the original DS that is mapped to your address space. Return value is `Kept_ds`, you don't need to free any DS.
+- If the region is in the middle of a previous region, you end up with two disjoint memory ranges that are still attached to your address space. Therefore, you end up with two distinct regions, the return value is `Split_ds` and you don't need to release the DS.
+* You <NAME_CORPUS_REPLACEMENT> furthermore specify a memory region that covers more than a single DS. In this case, the return value is `Detach_again`, the mem output parameter contains a cap to the first detached DS. You <NAME_CORPUS_REPLACEMENT> release this DS and have to call `detach()` with the same parameters again to release any subsequent dataspaces.
+Are you confused now?
+TAGGED_CONTENT:

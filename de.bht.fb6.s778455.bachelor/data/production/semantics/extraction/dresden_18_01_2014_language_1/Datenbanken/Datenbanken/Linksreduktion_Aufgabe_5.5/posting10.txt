@@ -1,0 +1,12 @@
+ID: 2527
+CREATION_DATETIME: 1376344800000
+MODIFICATION_DATETIME: 1376344800000
+TITLE: C ist sowohl in der Transitiven Hülle von A als auch in der Transitiven Hülle von B (siehe eine Folie...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2512
+POSTING_TYPE: comment
+CONTENT:
+C ist sowohl in der Transitiven Hülle <NAME_CORPUS_REPLACEMENT> A als auch in der Transitiven Hülle <NAME_CORPUS_REPLACEMENT> B (siehe eine Folie davor).
+
+Wann geht ihr essen?
+TAGGED_CONTENT:

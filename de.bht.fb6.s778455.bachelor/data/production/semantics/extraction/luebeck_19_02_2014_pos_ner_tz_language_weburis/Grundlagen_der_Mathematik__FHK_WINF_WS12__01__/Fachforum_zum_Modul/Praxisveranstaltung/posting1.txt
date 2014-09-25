@@ -1,0 +1,16 @@
+ID: 182623
+CREATION_DATETIME: 1353664510
+MODIFICATION_DATETIME: 1353664510
+TITLE: Praxisveranstaltung
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=68031#182623
+POS_TAG: value:Uhrzeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skript;weight:0.0;uri:;postag:NN
+POS_TAG: value:Praxisveranstaltung;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+<REMOVED_PERSON_ENTITY> jemand wann genau jetzt die Praxisveranstaltung beginnt? Im Skript steht heute allerdings keine Uhrzeit.
+<REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+<_XY REMOVED_PERSON_ENTITY_NN >_ADV jemand_PIS wann_PWAV genau_ADJD jetzt_ADV die_ART Praxisveranstaltung_NN beginnt_VVFIN ?_$. Im_APPRART Skript_NN steht_VVFIN heute_ADV allerdings_ADV keine_PIAT Uhrzeit_NN ._$. <_XY REMOVED_PERSON_ENTITY_NE >_CARD ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

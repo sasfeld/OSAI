@@ -1,0 +1,10 @@
+ID: 782
+CREATION_DATETIME: 1352847600000
+MODIFICATION_DATETIME: 1383001200000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+In slide 54 for device driver lecture link to <REMOVED_PERSON_ENTITY>'s thesis is broken for me. The right one seems to be  http://os.inf.tu-dresden. de/papers_ps/beleg-vogt. pdf
+TAGGED_CONTENT:

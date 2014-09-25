@@ -1,0 +1,10 @@
+ID: 2523
+CREATION_DATETIME: 1376172000000
+MODIFICATION_DATETIME: 1376258400000
+TITLE: Ja, mit D, aber es geht um die Abhängigkeiten von C, und C alleine bestimmt gar kein anderes Attribut...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2512
+POSTING_TYPE: comment
+CONTENT:
+Ja, mit D, aber es geht um die Abhängigkeiten <NAME_CORPUS_REPLACEMENT> C, und C alleine bestimmt gar kein anderes Attribut.
+TAGGED_CONTENT:

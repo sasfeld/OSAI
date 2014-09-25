@@ -1,0 +1,9 @@
+ID: 286
+CREATION_DATETIME: 1349992800000
+MODIFICATION_DATETIME: 1349992800000
+TITLE: Thus spake Wikipedia:
+PARENT_POSTING_ID: 282
+POSTING_TYPE: comment
+CONTENT:
+Thus spake Wikipedia: "Kudos (from Greek κῦδος, meaning 'glory') is a singular English word meaning acclaim or praise for exceptional achievement."
+TAGGED_CONTENT:

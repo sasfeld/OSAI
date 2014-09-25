@@ -1,0 +1,20 @@
+ID: 3022
+CREATION_DATETIME: 1385420400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Hi all,
+
+Due to some schedule conflict, we switch SE exercises this week:
+
+SE 1 exercise: <REMOVED_PERSON_ENTITY>, 27th of November
+
+SE 2 exercise: Friday, 29th of November
+
+Cheers,
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

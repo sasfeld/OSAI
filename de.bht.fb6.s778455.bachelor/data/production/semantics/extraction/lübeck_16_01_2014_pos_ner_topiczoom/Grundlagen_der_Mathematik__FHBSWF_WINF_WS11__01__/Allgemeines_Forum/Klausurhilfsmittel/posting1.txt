@@ -1,0 +1,31 @@
+ID: 117552
+CREATION_DATETIME: 1319737154
+MODIFICATION_DATETIME: 1319737154
+TITLE: Klausurhilfsmittel
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:6.95597687640829;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Seiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mal;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hilfsmittel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Formelsammlung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Prof.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Notizen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Taschenrechner;weight:0.0;uri:;postag:NN
+POS_TAG: value:Schreibzeug;weight:0.0;uri:;postag:NN
+POS_TAG: value:Blaetter;weight:0.0;uri:;postag:NN
+POS_TAG: value:REMOVEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+ Hallo <REMOVED_PERSON_ENTITY> Prof. <REMOVED_PERSON_ENTITY>,
+beim letzten Mal waren die zugelassenen Hilfsmittel folgende:
+&quot;2 Blaetter (4 Seiten) eigene Notizen, Schreibzeug, nichtprogrammierbarer Taschenrechner, Formelsammlung&quot;
+Gilt das noch unverändert?
+Freundliche Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NN >_CARD Prof._NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, beim_APPRART letzten_ADJA Mal_NN waren_VAFIN die_ART zugelassenen_ADJA Hilfsmittel_NN folgende_ADJA :_$. "_$( 2_CARD Blaetter_NN -LRB-_TRUNC 4_CARD Seiten_NN -RRB-_TRUNC eigene_ADJA Notizen_NN ,_$, Schreibzeug_NN ,_$, nichtprogrammierbarer_ADJA Taschenrechner_NN ,_$, Formelsammlung_NN "_$( Gilt_VVFIN das_ART noch_ADV unverändert_ADJD ?_$. Freundliche_ADJA Grüße_NN <_CARD PERSONAL_GREETING_REMOVEMENT_NN >_XY 

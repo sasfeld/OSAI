@@ -1,0 +1,25 @@
+ID: 250901
+CREATION_DATETIME: 1383119837
+MODIFICATION_DATETIME: 1383119837
+TITLE: Re: Gruppen für potenzielle Einsendeaufgaben
+TOPIC_ZOOM_TAG: value:Schleswig;weight:1.0;significance:10.9167900460059;degreegeneralization:14;uri:21684089
+TOPIC_ZOOM_TAG: value:Landkreis Schleswig-Flensburg;weight:1.0;significance:9.76411053606749;degreegeneralization:12;uri:21961087
+TOPIC_ZOOM_TAG: value:Städte und Gemeinden im Landkreis Schleswig-Flensburg;weight:1.0;significance:9.76411053606749;degreegeneralization:13;uri:21795558
+TOPIC_ZOOM_TAG: value:Schleswig-Holstein;weight:1.0;significance:6.48003851164274;degreegeneralization:10;uri:21996668
+TOPIC_ZOOM_TAG: value:Beruf und Karriere;weight:1.0;significance:4.71425452881795;degreegeneralization:4;uri:20990557
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Arbeit und Beruf;weight:1.0;significance:3.54101226558305;degreegeneralization:3;uri:21924095
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Deutschland;weight:1.0;significance:2.0357642545643;degreegeneralization:8;uri:21996974
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:1.80459553725326;degreegeneralization:2;uri:21999847
+TOPIC_ZOOM_TAG: value:Europa;weight:1.0;significance:1.55587681555031;degreegeneralization:6;uri:21972001
+NER_TAG: value:Schleswig Holstein;weight:-1.0;significance:uri:;classifierlabel:I-LOC
+PARENT_POSTING_ID: 250861
+CONTENT:
+Wie ist denn nun eigentlich der Stand der Dinge?
+Da ich zur Zeit beruflich in Schleswig Holstein(ganz schön windig hier) unterwegs bin, kann ich relativ schlecht das Internet nutzen und bekomme nur die Hälfte mit.
+Meine <REMOVED_PERSON_ENTITY> kann ich leider auch erst frühestens Freitagabend verschicken. 
+Grüße <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

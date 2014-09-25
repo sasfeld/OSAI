@@ -1,0 +1,12 @@
+ID: 2375
+CREATION_DATETIME: 1374271200000
+MODIFICATION_DATETIME: 1374271200000
+TITLE: I still think that we should measure the "CPU time", instead of "wall clock time". Because the predic...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2369
+POSTING_TYPE: answer
+CONTENT:
+I still think that we should measure the "CPU time", instead of "wall clock time". Because the real execution time is not predictable, since the system interrupt and OS scheduling are not predictable. And the prediction time is a kind of "CPU Time". 
+
+So we cannot compare a CPU time to a wall clock time.
+TAGGED_CONTENT:

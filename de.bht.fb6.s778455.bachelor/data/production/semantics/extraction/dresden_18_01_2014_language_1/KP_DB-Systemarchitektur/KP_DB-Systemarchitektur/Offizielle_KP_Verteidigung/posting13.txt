@@ -1,0 +1,10 @@
+ID: 2334
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Powerpoint kann leider keine Punktdiagramme. Damit sehen die diskreten Sachen Scheiße aus. Ich wäre d...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Powerpoint kann leider keine Punktdiagramme. Damit sehen die diskreten Sachen Scheiße aus. Ich wäre dafür, die Diagramme als <REMOVED_PERSON_ENTITY> zu exportieren. Kann Powerpoint SVG? Sonst nehme ich BMP, das weiß ich, dass das Windows kann.
+TAGGED_CONTENT:

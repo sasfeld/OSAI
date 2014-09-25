@@ -1,0 +1,18 @@
+ID: 188807
+CREATION_DATETIME: 1356086839
+MODIFICATION_DATETIME: 1356086839
+TITLE: Re: Klausurvorbereitung
+PARENT_POSTING_ID: 188763
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+ich habe im LON-CAPA einige Aufgaben zum freien Üben bereitgestellt. Beachten Sie aber bitte, dass der Aufgabenschatz im LON-CAPA derzeit einfach noch nicht die inhaltliche Tiefe der Übungsaufgaben des Skriptes erreicht.
+Außerdem habe ich im Web eine <REMOVED_PERSON_ENTITY> von interaktiven Aufgaben der Uni Stuttgart gefunden:
+http://mo.mathematik.uni-stuttgart. de/aufgaben/G/gleichungssystem__lineares. html
+http://mo.mathematik.uni-stuttgart. de/aufgaben/M/matrix. html
+http://mo.mathematik.uni-stuttgart. de/aufgaben/L/linear_abhaengig__unabhaengig. html
+http://mo.mathematik.uni-stuttgart. de/aufgaben/A/abbildung_lineare. html
+http://mo.mathematik.uni-stuttgart. de/aufgaben/R/rang. html
+Beachten Sie aber hierbei, dass sich etliche dieser Aufgaben um Themen der linearen Algebra drehen, die wir nicht in unserem Kurs behandelt haben.
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

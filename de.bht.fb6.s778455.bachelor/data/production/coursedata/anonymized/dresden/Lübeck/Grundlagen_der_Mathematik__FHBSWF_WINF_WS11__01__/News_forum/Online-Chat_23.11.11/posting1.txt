@@ -1,0 +1,10 @@
+ID: 117493
+CREATION_DATETIME: 1322066171
+MODIFICATION_DATETIME: 1322066237
+TITLE: Online-Chat 23.11.11
+PARENT_POSTING_ID: 0
+CONTENT:
+Geehrte Studierende,
+der Online-Chat am 23. 11. 11 entfaellt wegen meiner Teilnahme an einer <REMOVED_PERSON_ENTITY> des Wahlausschusses der Hochschule (die Sitzung verzoegert sich). Bitte nutzen Sie die Zeit zum Loesen der Uebungsaufgaben im Skript, insb. LO 07-08. 
+Freundlichen Gruss <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

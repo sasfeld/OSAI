@@ -1,0 +1,13 @@
+ID: 1
+CREATION_DATETIME: 1192955220000
+MODIFICATION_DATETIME: 1192955220000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+    Hallo,
+kann mir jemand sagen wo ich noch mehr Infos zu "Vector E" finde? Bisher habe ich noch nichts schlaues gefunden. So richtig verstanden habe ich das alles nicht so. Hat jemand den Link zum online-meeting schon gefunden?
+Liebe Grüße und herzlichen Dank, 
+    
+TAGGED_CONTENT:

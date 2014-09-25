@@ -1,0 +1,15 @@
+ID: 51
+CREATION_DATETIME: 1179729360000
+MODIFICATION_DATETIME: 1179729360000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 46
+CONTENT:
+   
+Hallo,
+
+ich bin zu spät, ich weiß, aber gibts vielleicht noch jemand der noch nicht angefangen hat und noch jemanden sucht?
+
+LG
+   
+TAGGED_CONTENT:

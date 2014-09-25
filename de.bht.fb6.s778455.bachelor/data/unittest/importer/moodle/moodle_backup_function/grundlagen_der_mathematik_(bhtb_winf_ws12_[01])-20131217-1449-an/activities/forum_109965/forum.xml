@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="22457" moduleid="109965" modulename="forum" contextid="154219">
+  <forum id="22457">
+    <type>general</type>
+    <name>Fachforum zum Teil I</name>
+    <intro> Hier können Sie Fachfragen zum Teil I diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>2</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1218800557</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="61827">
+        <name>Heutiges Online-Meeting</name>
+        <firstpost>166463</firstpost>
+        <userid>3757</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1349339886</timemodified>
+        <usermodified>10771</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="166463">
+            <parent>0</parent>
+            <userid>3757</userid>
+            <created>1349264113</created>
+            <modified>1349264113</modified>
+            <mailed>1</mailed>
+            <subject>Heutiges Online-Meeting</subject>
+            <message>&lt;p&gt;Hallo zusammen,&lt;/p&gt;
+&lt;p&gt;da wir am 03.10.2012 zur selben Zeit auch ein Online-Meeting für Programmierung haben, würde ich doch einen anderen Termin vorschlagen.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Grüße&lt;/p&gt;
+&lt;p&gt;Mark&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="166535">
+            <parent>166463</parent>
+            <userid>10349</userid>
+            <created>1349276542</created>
+            <modified>1349276542</modified>
+            <mailed>1</mailed>
+            <subject>Re: Heutiges Online-Meeting</subject>
+            <message>&lt;p&gt;Hallo,&lt;/p&gt;
+&lt;p&gt;ich habe Herrn Moesner darauf hin gewiesen aber keine Antwort bekommen. Ich wäre auch für eine Verschiebung des heutigen Termin Mathe. Hat jemand schon eine Antwort bekommen?&lt;/p&gt;
+&lt;p&gt;Viele Grüße Thomas schmieglitz&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="166545">
+            <parent>166535</parent>
+            <userid>3785</userid>
+            <created>1349279262</created>
+            <modified>1349279583</modified>
+            <mailed>1</mailed>
+            <subject>Re: Heutiges Online-Meeting</subject>
+            <message>&lt;p&gt;Hallo, Heute ist kein Mathe... Die Konferenz wurde aufgrund des Feiertags durch Herrn Moesner auf nächsten Mittwoch verschoben 
+grüße&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="166549">
+            <parent>166545</parent>
+            <userid>10349</userid>
+            <created>1349279940</created>
+            <modified>1349279940</modified>
+            <mailed>1</mailed>
+            <subject>Re: Heutiges Online-Meeting</subject>
+            <message>&lt;p&gt;Hallo zusammen,&lt;/p&gt;
+&lt;p&gt;vielen dank für die Info.&lt;/p&gt;
+&lt;p&gt;thomas schmieglitz&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="166561">
+            <parent>166545</parent>
+            <userid>3769</userid>
+            <created>1349281876</created>
+            <modified>1349281876</modified>
+            <mailed>1</mailed>
+            <subject>Re: Heutiges Online-Meeting</subject>
+            <message>&lt;p&gt;Hallo,&lt;/p&gt;
+&lt;p&gt;erstmal vielen Dank für die Info. Sagst du uns noch kurz, woher du das weißt?&lt;/p&gt;
+&lt;p&gt;Gruß, Tim&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="166567">
+            <parent>166561</parent>
+            <userid>3757</userid>
+            <created>1349282216</created>
+            <modified>1349282216</modified>
+            <mailed>1</mailed>
+            <subject>Re: Heutiges Online-Meeting</subject>
+            <message>&lt;p&gt;Wäre auch nett, wenn Herr Moesner uns dann einen neuen Termin für das 1. Online-Meeting schickt....&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="166573">
+            <parent>166545</parent>
+            <userid>10771</userid>
+            <created>1349282733</created>
+            <modified>1349282733</modified>
+            <mailed>1</mailed>
+            <subject>Re: Heutiges Online-Meeting</subject>
+            <message>&lt;p&gt;Hi, ich hatte die gestrige Ansage auch so verstanden, dass trotz Feiertag Heute das Meeting stattfinden sollte und hatte auch keine Antwort auf meine Mail an Hr. Moesner bekommen.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="166589">
+            <parent>166463</parent>
+            <userid>3785</userid>
+            <created>1349284603</created>
+            <modified>1349284747</modified>
+            <mailed>1</mailed>
+            <subject>Re: Heutiges Online-Meeting</subject>
+            <message>&lt;p&gt;Das hat er bei der Einführungsveranstaltung gesagt... Er meinte da Feiertag ist begnnen wir erst nächste Woche mit dem online Meeting. Das trotz Feiertag ein Meeting stattfindet ist richtig allerdings nicht hier sondern bei programmieren I. Das ist jedenfalls mein Informationsstand&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="166593">
+            <parent>166589</parent>
+            <userid>10771</userid>
+            <created>1349285123</created>
+            <modified>1349285123</modified>
+            <mailed>1</mailed>
+            <subject>Re: Heutiges Online-Meeting</subject>
+            <message>&lt;p&gt;hier die Mail von Gestern:&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;2012/10/2 Lothar Moesner &lt;/span&gt;&lt;span dir="ltr"&gt;&amp;lt;&lt;a href="mailto:lothar.moesner@gmx.de" target="_blank"&gt;lothar.moesner@gmx.de&lt;/a&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote class="gmail_quote"&gt;
+&lt;p&gt;Liebe Studenten,&lt;/p&gt;
+&lt;p&gt;wir hatten in der Einführungsveranstaltung auch über das erste Online-Meeting gesprochen.&lt;br /&gt;&lt;br /&gt;Ich möchte vorschlagen, daß wir trotz des Feiertages morgen unser erstes Online-Meeting, 20 Uhr, durchführen.&lt;br /&gt;Ich würde das Thema "Unleichungen" behandeln, das m.E. im Kursmaterial nicht ausreichend abgearbeitet wird, aber in den letzten Prüfungsklausuren immer enthalten war.&lt;/p&gt;
+&lt;p&gt;In der nächsten Woche würde ich kein OM anbieten, da wir am Wochenende die 1. Präsenz haben.&lt;/p&gt;
+&lt;p&gt;MfG&lt;br /&gt;Lothar Moesner&lt;/p&gt;
+&lt;p&gt;Wie auch immer...falls es Heute Mathe gibt und jemand von euch mitmacht wäre es nett wenn jemand Mr. Moesner daran errinnert die session aufzuzeichnen&lt;/p&gt;
+&lt;/blockquote&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="166597">
+            <parent>166593</parent>
+            <userid>10341</userid>
+            <created>1349285241</created>
+            <modified>1349285241</modified>
+            <mailed>1</mailed>
+            <subject>Re: Heutiges Online-Meeting</subject>
+            <message>&lt;p&gt;Hi @ll,#&lt;/p&gt;
+&lt;p&gt;so habe ich das auch verstanden heute ist Online - Meeting aber blöd nur das zeitgleich die Einführung für Grundlagen der Programmierung ist.&lt;/p&gt;
+&lt;p&gt;Sehr seltsam&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="166611">
+            <parent>166463</parent>
+            <userid>3785</userid>
+            <created>1349286026</created>
+            <modified>1349286026</modified>
+            <mailed>1</mailed>
+            <subject>Re: Heutiges Online-Meeting</subject>
+            <message>&lt;p&gt;Ich versteh garnichts mehr.. Warum sagt er dann bei der Einführungsveranstaltung, dass heute kein Meeting ist? Und warum schickt er diese Mail nicht an alle, damit auch alle Bescheid wissen? Und wo soll man nun hin? Hier oder Programmieren?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="166619">
+            <parent>166611</parent>
+            <userid>3757</userid>
+            <created>1349286968</created>
+            <modified>1349286968</modified>
+            <mailed>1</mailed>
+            <subject>Re: Heutiges Online-Meeting</subject>
+            <message>&lt;p&gt;Ist doch klar, Programmierung, denn dieses Online-Meeting steht schon viel länger fest also das für Mathe.&lt;/p&gt;
+&lt;p&gt;Da bisher auch keine Reaktion von Herrn Moesner kam, heißt für mich nun ab zu Programmierung^^&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="166643">
+            <parent>166619</parent>
+            <userid>10349</userid>
+            <created>1349289947</created>
+            <modified>1349289947</modified>
+            <mailed>1</mailed>
+            <subject>Re: Heutiges Online-Meeting</subject>
+            <message>&lt;p&gt;Hallo,&lt;/p&gt;
+&lt;p&gt;ich habe trotz zweier Mails keine Antwort bekommen.&lt;/p&gt;
+&lt;p&gt;Vielleicht kann man das nachholen.&lt;/p&gt;
+&lt;p&gt;Schade aber der Terminplan Programmierung steht schon länger.&lt;/p&gt;
+&lt;p&gt;Thomas&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="166707">
+            <parent>166593</parent>
+            <userid>10321</userid>
+            <created>1349331016</created>
+            <modified>1349331016</modified>
+            <mailed>1</mailed>
+            <subject>Re: Heutiges Online-Meeting</subject>
+            <message>&lt;p&gt;Hallo,&lt;/p&gt;
+&lt;p&gt;die Mail mit der Information, dass am 03.10. doch ein Online-Meeting stattfindet, hat mich leider nicht erreicht. Worüber habt ihr die Mail bekommen? Moodle oder privat?&lt;/p&gt;
+&lt;p&gt;Viele Grüße&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="166721">
+            <parent>166707</parent>
+            <userid>10323</userid>
+            <created>1349333145</created>
+            <modified>1349333145</modified>
+            <mailed>1</mailed>
+            <subject>Re: Heutiges Online-Meeting</subject>
+            <message>&lt;p&gt;Als Nachricht hier im Moodlesystem. Ich habe es auch nur zufällig gesehen.&lt;/p&gt;
+&lt;p&gt;Meine Startseite ==&amp;gt; Mein Profil ==&amp;gt; Mitteilungen ==&amp;gt; Aktuelle Gespräche&lt;/p&gt;
+&lt;p&gt;Wünschenswert meinerseits wäre es wenn sämtliche Ankündigungen im entsprechenden Forum geposted werden. (z.B im News Forum)&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;VG&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="166735">
+            <parent>166721</parent>
+            <userid>10321</userid>
+            <created>1349335080</created>
+            <modified>1349335080</modified>
+            <mailed>1</mailed>
+            <subject>Re: Heutiges Online-Meeting</subject>
+            <message>&lt;p&gt;Vielen Dank Konrad für die Antwort. Dort ist bei mir auch keine Nachricht zu finden. Dann werde ich mich wohl mal an Herrn Baudach wenden müssen.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="166785">
+            <parent>166643</parent>
+            <userid>10771</userid>
+            <created>1349339886</created>
+            <modified>1349339886</modified>
+            <mailed>1</mailed>
+            <subject>Re: Heutiges Online-Meeting</subject>
+            <message>&lt;p&gt;Ich bekomme alles was hier gepostet wird auch an den mailaccount weitergeleitet der für mich in moodle hinterlegt ist. Evtl. ist diese Option bei einigen von euch nicht aktiviert!?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="62177">
+        <name>Hilfe für Aufgabe 2d</name>
+        <firstpost>167417</firstpost>
+        <userid>10347</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1349638053</timemodified>
+        <usermodified>10347</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="167417">
+            <parent>0</parent>
+            <userid>10347</userid>
+            <created>1349469205</created>
+            <modified>1349469205</modified>
+            <mailed>1</mailed>
+            <subject>Hilfe für Aufgabe 2d</subject>
+            <message>&lt;p&gt;Hallo,&lt;/p&gt;
+&lt;p&gt;ich habe ein Problem mit Aufgabe 2d ( |x-1| &amp;gt;= |x-2| ), ich komme hier auf die Lösungsmenge&lt;/p&gt;
+&lt;p&gt;L = {x | 3/2 &amp;lt;= x &amp;lt; 2}&lt;/p&gt;
+&lt;p&gt;Anstelle der 2 müsste laut Lösung UNENDLICH stehen...&lt;/p&gt;
+&lt;p&gt;Hier mein Lösungsweg:&lt;/p&gt;
+&lt;p&gt;Untersuchung für x-1 &amp;gt;= 0 , also x&amp;gt;=1:&lt;/p&gt;
+&lt;p&gt;x-1 &amp;gt;= |x-2|&lt;/p&gt;
+&lt;p&gt;Fall 1 (x-2 &amp;gt;= 0, also x&amp;gt;=2):&lt;/p&gt;
+&lt;p&gt;x-1 &amp;gt;= x-2&lt;/p&gt;
+&lt;p&gt;0 &amp;gt;= -1 (falsch)&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Fall 2 (x&amp;lt;2):&lt;/p&gt;
+&lt;p&gt;x-1 &amp;gt;= -(x-2)&lt;/p&gt;
+&lt;p&gt;x-1 &amp;gt;= -x+2&lt;/p&gt;
+&lt;p&gt;2x &amp;gt;= 3&lt;/p&gt;
+&lt;p&gt;x &amp;gt;= 3/2&lt;/p&gt;
+&lt;p&gt;L1 = {x | 3/2 &amp;lt;= x &amp;lt; 2}&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Untersuchung für x &amp;lt; 1:&lt;/p&gt;
+&lt;p&gt;-(x-1) &amp;gt;= |x-2|&lt;/p&gt;
+&lt;p&gt;Fall 1 (x &amp;gt;= 2):&lt;/p&gt;
+&lt;p&gt;-x+1 &amp;gt;= x-2&lt;/p&gt;
+&lt;p&gt;3 &amp;gt;= 2x&lt;/p&gt;
+&lt;p&gt;x &amp;lt;= 3/2&lt;/p&gt;
+&lt;p&gt;L2 = {}&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Fall 2 (x&amp;lt;2):&lt;/p&gt;
+&lt;p&gt;-x+1 &amp;gt;= -x+2&lt;/p&gt;
+&lt;p&gt;0 &amp;gt;= 1 (falsch)&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;L = L1 VEREINIGT L2 = {x | 3/2 &amp;lt;= x &amp;lt; 2}&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Sieht jemand den Fehler? Ich komme einfach nicht drauf. Danke für jeden Hinweis.&lt;/p&gt;
+&lt;p&gt;Hier ein guter Link zum Thema:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://members.dokom.net/w.kippels/aufgaben/betrag.pdf"&gt;http://members.dokom.net/w.kippels/aufgaben/betrag.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Schönen Gruß&lt;/p&gt;
+&lt;p&gt;Alex&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="167823">
+            <parent>167417</parent>
+            <userid>10771</userid>
+            <created>1349619977</created>
+            <modified>1349619977</modified>
+            <mailed>1</mailed>
+            <subject>Re: Hilfe für Aufgabe 2d</subject>
+            <message>Hallo Alexander,
+
+evtl. läuft es darauf hinaus, dass auf  beiden Seiten der Ungleichung Beträge für die selbe Variable stehen.
+Wenn man x-1 &gt;= -(x-2) rechnet und die Einschränkung x&lt;2 gilt, müsste doch gleichzeitig noch x&gt;=1 gelten. Unter der Bedingung 1 &lt;= x  &gt;=3/2 würde man zur Unendlichkeit kommen. Es ist aber nur eine Vermutung von mir!
+
+zu 2b. Wenn ich mir die Gleichung anschaue ist mir schon klar, dass x eine beliebige reelle Zahl sein kann. Ich habe aber keine Umformung hinbekommen aus der das irgendwie nachvollziehbar hervorgeht.Hat jemand einen Tip?</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="167959">
+            <parent>167823</parent>
+            <userid>10347</userid>
+            <created>1349638053</created>
+            <modified>1349638053</modified>
+            <mailed>1</mailed>
+            <subject>Re: Hilfe für Aufgabe 2d</subject>
+            <message>&lt;p&gt;Hallo Robert,&lt;/p&gt;
+&lt;p&gt;danke für deine Antwort. Prof. Moesner hat mir geschrieben, mein Lösungsweg ist soweit richtig - nur das 0&amp;gt;=-1 ist natürlich &lt;span style="text-decoration: underline;"&gt;richtig&lt;/span&gt; und nicht, wie von mir aus Blindheit angenommen, falsch... Daher gilt das x&amp;gt;=2 aus der Voraussetzung und vereinigt mit 3/2 &amp;lt;= x &amp;lt; 2 ergibt sich L = {3/2 &amp;lt;= x &amp;lt; oo}.&lt;/p&gt;
+&lt;p&gt;Schönen Gruß&lt;/p&gt;
+&lt;p&gt;Alex&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="62401">
+        <name>Klick Interaktion</name>
+        <firstpost>168119</firstpost>
+        <userid>10325</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1349702071</timemodified>
+        <usermodified>10317</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="168119">
+            <parent>0</parent>
+            <userid>10325</userid>
+            <created>1349690741</created>
+            <modified>1349690741</modified>
+            <mailed>1</mailed>
+            <subject>Klick Interaktion</subject>
+            <message>&lt;p&gt;Hallo Leute,&lt;/p&gt;
+&lt;p&gt;gehen bei euch die Klick-Interaktionen in den Lerneinheiten auch nicht oder ist das nur bei mir so?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="168123">
+            <parent>168119</parent>
+            <userid>10317</userid>
+            <created>1349691841</created>
+            <modified>1349691841</modified>
+            <mailed>1</mailed>
+            <subject>Re: Klick Interaktion</subject>
+            <message>&lt;p&gt;Hi Alina,&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;anfangs gingen sie bei mir auch nicht, aber nach der Installation eines Plug-ins haben sie funktioniert. (ich glaube es war ein Java Plug-in). Weiß aber leider nicht mehr welches es war.&lt;/p&gt;
+&lt;p&gt;In Mozilla Firefox schlägt er in der Regel vor, das fehlende Plug-in zu installieren.&lt;/p&gt;
+&lt;p&gt;Grüße Daniel&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="168135">
+            <parent>168123</parent>
+            <userid>10325</userid>
+            <created>1349692897</created>
+            <modified>1349692897</modified>
+            <mailed>1</mailed>
+            <subject>Re: Klick Interaktion</subject>
+            <message>&lt;p&gt;naja ich habe google chrome und der schlägt mir irgendwie gar nichts vor.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="168145">
+            <parent>168119</parent>
+            <userid>10329</userid>
+            <created>1349693595</created>
+            <modified>1349693595</modified>
+            <mailed>1</mailed>
+            <subject>Re: Klick Interaktion</subject>
+            <message>War bei mir mit Firefox auch so. Mit chrome funktioniert alles jedoch...
+
+</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="168189">
+            <parent>168119</parent>
+            <userid>10317</userid>
+            <created>1349698319</created>
+            <modified>1349698319</modified>
+            <mailed>1</mailed>
+            <subject>Re: Klick Interaktion</subject>
+            <message>&lt;p&gt;Hi Alina,&lt;/p&gt;
+&lt;p&gt;je nach Betriebssystem die entsprechende Datei runterladen und installieren&lt;/p&gt;
+&lt;p&gt;http://www.oracle.com/technetwork/java/javase/downloads/jre7u7-downloads-1836441.html&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;Grüße Daniel&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="168221">
+            <parent>168189</parent>
+            <userid>10317</userid>
+            <created>1349702071</created>
+            <modified>1349702071</modified>
+            <mailed>1</mailed>
+            <subject>Re: Klick Interaktion</subject>
+            <message>&lt;p&gt;Oder den Adobe Flash Player installieren bzw. aktualisieren. Dann sollte es auf jeden Fall funktionieren :)&lt;/p&gt;
+&lt;p&gt;Grüße Daniel&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="62409">
+        <name>Obermenge/ Untermenge</name>
+        <firstpost>168133</firstpost>
+        <userid>10325</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1349692833</timemodified>
+        <usermodified>10325</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="168133">
+            <parent>0</parent>
+            <userid>10325</userid>
+            <created>1349692833</created>
+            <modified>1349692833</modified>
+            <mailed>1</mailed>
+            <subject>Obermenge/ Untermenge</subject>
+            <message>&lt;p&gt;Eine Teilmenge oder Untermenge einer Menge Y ist eine Menge X,in Zeichen X ≤ Y oder Y ≥ X , wenn jedes x Element von X und auch von Y ist.  (bis hierhin  noch alles verständlich)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Umgekehrt ist Y Obermenge von X(Y≥X)&lt;/strong&gt;. Ich verstehe nicht, was das mit der Klammer soll. wieso steht das überhaupt in Klammern? &lt;/p&gt;
+&lt;p&gt;und heißt es dann &lt;strong&gt;Y≥X(Y≥X)?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;PS. die zeichen ≤≥ habe ich jetzt als Obermenge und Untermenge benutzt, weil hier keine runden sind.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="62429">
+        <name>Übungsaufgaben</name>
+        <firstpost>168191</firstpost>
+        <userid>3757</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1349699134</timemodified>
+        <usermodified>3757</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="168191">
+            <parent>0</parent>
+            <userid>3757</userid>
+            <created>1349699134</created>
+            <modified>1349699134</modified>
+            <mailed>1</mailed>
+            <subject>Übungsaufgaben</subject>
+            <message>&lt;p&gt;Ich denke mal, dass nach dem letzten Online-Meeting und den uns nun vorliegenden Übungsaufgaben, noch ausreichend Klärungsbedarf besteht. Irgendwie liegt zwischen der Probeaufgabe und den Übungsaufgaben eine Distanz die mir in den Online-Unterlagen und im Online-Meeting fehlt, soll heißen, da bestehen noch viele Detailfragen.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="62437">
+        <name>Kursmaterialien</name>
+        <firstpost>168215</firstpost>
+        <userid>10321</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1349702385</timemodified>
+        <usermodified>10321</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="168215">
+            <parent>0</parent>
+            <userid>10321</userid>
+            <created>1349700959</created>
+            <modified>1349700959</modified>
+            <mailed>1</mailed>
+            <subject>Kursmaterialien</subject>
+            <message>&lt;p&gt;hallo,&lt;/p&gt;
+&lt;p&gt;ich bin gerade noch mal in ruhe das online-meeting durchgegangen, weil ich nicht daran teilgenommen habe. dort ist von kursmaterialien die rede bzw. von aufgabe 9 a-f. wo stehen bei euch die kursmaterialien? ich bin bereits bei mir alle links durchgegangen, aber habe sie nicht gefunden bzw. sehe keinen mit dieser beschriftung.&lt;/p&gt;
+&lt;p&gt;viele grüße&lt;/p&gt;
+&lt;p&gt;antje&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="168219">
+            <parent>168215</parent>
+            <userid>10317</userid>
+            <created>1349701813</created>
+            <modified>1349701813</modified>
+            <mailed>1</mailed>
+            <subject>Re: Kursmaterialien</subject>
+            <message>&lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;damit ist sicher die Aufgabe 9 im Lernobjekt 1 (Mengen, Relationen und Funktionen) auf Seite 20 gemeint :)&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;Grüße Daniel&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="168223">
+            <parent>168219</parent>
+            <userid>10321</userid>
+            <created>1349702237</created>
+            <modified>1349702385</modified>
+            <mailed>1</mailed>
+            <subject>Re: Kursmaterialien</subject>
+            <message>&lt;p&gt;hallo daniel,&lt;/p&gt;
+&lt;p&gt;danke für die schnelle antwort. ach da hinten sind die aufgaben. ich habe die ganze zeit einen link gesucht, weil es bei einem anderen kurs einen extra link mit dem titel "kursmaterial" gibt. mein fehler ;) wenn man nicht sorgfältig genug guckt, geht das natürlich unter...&lt;/p&gt;
+&lt;p&gt;danke und viele grüße&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="62977">
+        <name>Aufgabe 2d im Aufgabeblatt 1 </name>
+        <firstpost>169567</firstpost>
+        <userid>10341</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1349988555</timemodified>
+        <usermodified>10347</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="169567">
+            <parent>0</parent>
+            <userid>10341</userid>
+            <created>1349983523</created>
+            <modified>1349983523</modified>
+            <mailed>1</mailed>
+            <subject>Aufgabe 2d im Aufgabeblatt 1 </subject>
+            <message>&lt;p&gt;Hi Leute,&lt;/p&gt;
+&lt;p&gt;ich bin noch am durcharbeiten der Aufgaben in den beiden Aufgabenblättern.&lt;/p&gt;
+&lt;p&gt;Kann mir einer auf die sprünge helfen wie ich die Aufgabe 2d im Aufgabeblatt 1 lösen kann ich komm einfach nicht auf 3/2.&lt;/p&gt;
+&lt;p&gt;Aufgabe  $$\left|x-1\right| \ge \left|x-2\right|$$&lt;/p&gt;
+&lt;p&gt;MfG&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="169591">
+            <parent>169567</parent>
+            <userid>3759</userid>
+            <created>1349986595</created>
+            <modified>1349986595</modified>
+            <mailed>1</mailed>
+            <subject>Re: Aufgabe 2d im Aufgabeblatt 1 </subject>
+            <message>&lt;p&gt;Ich hab da mal was vorbereitet. Vielleicht hilft dir das...&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="169593">
+            <parent>169567</parent>
+            <userid>10347</userid>
+            <created>1349988555</created>
+            <modified>1349988555</modified>
+            <mailed>1</mailed>
+            <subject>Re: Aufgabe 2d im Aufgabeblatt 1 </subject>
+            <message>&lt;p&gt;&lt;a href="$@FORUMDISCUSSIONVIEW*62177@$"&gt;$@FORUMDISCUSSIONVIEW*62177@$&lt;/a&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="184991">
+        <userid>2647</userid>
+      </subscription>
+      <subscription id="198017">
+        <userid>10347</userid>
+      </subscription>
+      <subscription id="198021">
+        <userid>10321</userid>
+      </subscription>
+      <subscription id="198025">
+        <userid>3925</userid>
+      </subscription>
+      <subscription id="198029">
+        <userid>10327</userid>
+      </subscription>
+      <subscription id="198033">
+        <userid>10311</userid>
+      </subscription>
+      <subscription id="198037">
+        <userid>10341</userid>
+      </subscription>
+      <subscription id="198045">
+        <userid>10329</userid>
+      </subscription>
+      <subscription id="198049">
+        <userid>3759</userid>
+      </subscription>
+      <subscription id="198053">
+        <userid>3755</userid>
+      </subscription>
+      <subscription id="198057">
+        <userid>3941</userid>
+      </subscription>
+      <subscription id="198061">
+        <userid>3757</userid>
+      </subscription>
+      <subscription id="198065">
+        <userid>10323</userid>
+      </subscription>
+      <subscription id="198069">
+        <userid>1905</userid>
+      </subscription>
+      <subscription id="198073">
+        <userid>10319</userid>
+      </subscription>
+      <subscription id="198077">
+        <userid>3897</userid>
+      </subscription>
+      <subscription id="198081">
+        <userid>3885</userid>
+      </subscription>
+      <subscription id="211725">
+        <userid>10771</userid>
+      </subscription>
+      <subscription id="214733">
+        <userid>3881</userid>
+      </subscription>
+      <subscription id="214737">
+        <userid>3785</userid>
+      </subscription>
+      <subscription id="216171">
+        <userid>3769</userid>
+      </subscription>
+      <subscription id="216457">
+        <userid>10349</userid>
+      </subscription>
+      <subscription id="219741">
+        <userid>3817</userid>
+      </subscription>
+      <subscription id="221521">
+        <userid>10331</userid>
+      </subscription>
+      <subscription id="221525">
+        <userid>3805</userid>
+      </subscription>
+      <subscription id="222663">
+        <userid>3933</userid>
+      </subscription>
+      <subscription id="223839">
+        <userid>10317</userid>
+      </subscription>
+      <subscription id="225175">
+        <userid>3781</userid>
+      </subscription>
+      <subscription id="225179">
+        <userid>3907</userid>
+      </subscription>
+      <subscription id="225183">
+        <userid>3917</userid>
+      </subscription>
+      <subscription id="225617">
+        <userid>3767</userid>
+      </subscription>
+      <subscription id="226995">
+        <userid>10361</userid>
+      </subscription>
+      <subscription id="226999">
+        <userid>10355</userid>
+      </subscription>
+      <subscription id="227871">
+        <userid>10325</userid>
+      </subscription>
+      <subscription id="230337">
+        <userid>10921</userid>
+      </subscription>
+      <subscription id="231509">
+        <userid>10915</userid>
+      </subscription>
+      <subscription id="232963">
+        <userid>10353</userid>
+      </subscription>
+      <subscription id="232967">
+        <userid>10339</userid>
+      </subscription>
+      <subscription id="233511">
+        <userid>11591</userid>
+      </subscription>
+      <subscription id="233515">
+        <userid>10919</userid>
+      </subscription>
+      <subscription id="234609">
+        <userid>6071</userid>
+      </subscription>
+      <subscription id="237441">
+        <userid>10307</userid>
+      </subscription>
+      <subscription id="238415">
+        <userid>10343</userid>
+      </subscription>
+      <subscription id="239277">
+        <userid>10351</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

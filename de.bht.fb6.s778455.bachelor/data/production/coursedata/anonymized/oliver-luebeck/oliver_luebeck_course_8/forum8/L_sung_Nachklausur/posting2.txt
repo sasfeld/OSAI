@@ -1,0 +1,15 @@
+ID: 9
+CREATION_DATETIME: 1191668340000
+MODIFICATION_DATETIME: 1191668340000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 8
+CONTENT:
+ 
+Hallo,
+
+nach Rücksprache mit Frau Merceron habe ich nun die nötigen Informationen, um Fragen zur Nachklausur beantworten zu können. Bitte teilen Sie mir mit, wo Klärungsbedarf besteht.
+
+Freundliche Grüße
+     
+TAGGED_CONTENT:

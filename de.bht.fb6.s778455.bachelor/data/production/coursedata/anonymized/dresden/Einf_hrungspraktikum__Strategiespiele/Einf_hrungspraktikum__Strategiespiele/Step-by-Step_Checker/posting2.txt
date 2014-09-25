@@ -1,0 +1,10 @@
+ID: 1289
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Schau mal nach GDB: Ubuntuusers hat auch eine Liste mit graphischen Oberflaechen dafuer: http://wiki....
+PARENT_POSTING_ID: 1288
+POSTING_TYPE: answer
+CONTENT:
+Schau mal nach [GDB](http://www.gnu.org/software/gdb/).
+Ubuntuusers hat auch eine Liste mit graphischen Oberflaechen dafuer: http://wiki.ubuntuusers.de/GDB
+TAGGED_CONTENT:

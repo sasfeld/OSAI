@@ -1,0 +1,10 @@
+ID: 1148
+CREATION_DATETIME: 1361401200000
+MODIFICATION_DATETIME: 1361401200000
+TITLE: There are 100 memory slots used. If one is already occupied it will be freed before reuse. The maximu...
+PARENT_POSTING_ID: 1143
+POSTING_TYPE: comment
+CONTENT:
+There are 100 memory slots used. If one is already occupied it will be freed before reuse. The maximum allocated memory should be <= 100 MB. And the debugging output of my allocator put me to the capability issue. Would posting my memory allocato code help?
+( <REMOVED_PERSON_ENTITY> the debug output of malloc shows in the qemu window, but not in the terminal I started qemu from…)
+TAGGED_CONTENT:

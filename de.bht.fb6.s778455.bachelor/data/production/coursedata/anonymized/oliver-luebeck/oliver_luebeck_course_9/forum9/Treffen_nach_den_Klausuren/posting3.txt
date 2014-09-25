@@ -1,0 +1,14 @@
+ID: 80
+CREATION_DATETIME: 1183652940000
+MODIFICATION_DATETIME: 1183652940000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 81
+CONTENT:
+   
+Hallo Leute,
+da die Mehrheit für Samstag war, sehn wir uns also Samstag um 18.00 Uhr, im Schadée (Café Schadé,Tegeler Str. 23, 13353 Berlin).
+Freu mich, bis denn.
+Gruß
+    
+TAGGED_CONTENT:

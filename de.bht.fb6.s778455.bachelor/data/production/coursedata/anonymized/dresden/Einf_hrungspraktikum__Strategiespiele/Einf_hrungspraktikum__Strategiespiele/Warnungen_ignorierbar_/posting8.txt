@@ -1,0 +1,10 @@
+ID: 1210
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: Allgemein gesagt, gibt es weniger kritische und kritische Warnungen. Wenn da in der Warnung was von "...
+PARENT_POSTING_ID: 1204
+POSTING_TYPE: answer
+CONTENT:
+Allgemein gesagt, gibt es weniger kritische und kritische Warnungen. Wenn <NAME_CORPUS_REPLACEMENT> in der Warnung was <NAME_CORPUS_REPLACEMENT> "uses uninitialized variable foo" steht, dann ist dein Code mit grosser Wahrscheinlichkeit kaputt. Das mit den Klammern soll den Programmierer nur vor einigen sehr schwer zu findenden Fehlern, was Operatorpraezedenz angeht, bewahren. 
+Ideal ist es, wenn dein Code ohne Warnungen baut.
+TAGGED_CONTENT:

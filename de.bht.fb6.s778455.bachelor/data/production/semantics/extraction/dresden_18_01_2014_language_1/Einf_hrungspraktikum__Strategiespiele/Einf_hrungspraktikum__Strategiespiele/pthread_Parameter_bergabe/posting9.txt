@@ -1,0 +1,18 @@
+ID: 1308
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: 1. score ist vom Typ short.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1300
+POSTING_TYPE: answer
+CONTENT:
+1. score ist vom Typ short.
+
+2. parameter ist lokal in main definiert
+
+3. ich warte in der main Funktion bis der thread fertig ist dann greife ich erst wieder auf score zu 
+
+```
+
+pthread_join(aktthread->t_id, NULL);```
+TAGGED_CONTENT:

@@ -1,0 +1,21 @@
+ID: 11
+CREATION_DATETIME: 1198093440000
+MODIFICATION_DATETIME: 1198093440000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 10
+CONTENT:
+
+    
+    Vielen Dank für die Erklärungen.
+Ich habe die beiden Zeilen abwechseln auskommentiert. Jetzt weiss ich welche println-Ausgabe für welche Ausgabe benutzt wird. Ebenfalls habe ich in Eclipse den Debugger mit schrittweiser Abarbeitung eingeschaltet.
+Im Debugger war zu erkennen, dass die Ausgabe von 4-0 durch die Zeilen bis zur If-Anweisung mit dem Aufruf von rekursion erfolgt(Zeile 6-8). Bis dahin alles noch logisch (funktioniert wie eine Schleife).
+Die Ausgabe von 0-4 erfolgt dann durch eine schleifenartige Abarbeitung der Zeilen nach if bis zur folgenden geschweiften Klammer der Prozedur rekursion (Zeile 9-10).
+Mein logisches Verständnis würde mir sagen, dass nach Erfüllung der if-Abfrage die nächste Zeile (println) einmal ausgeführt wird und dann die Prozedur rekursion beendet ist. Warum dreht sich hier was zurück?
+Hat das mit der Ablage der Variable a im Speicher zu tun, wenn ja, wie funktioniert das?
+Kann mir jemand das ganz genau erklären um es besser zu verstehen?
+
+Gruss
+
+    
+TAGGED_CONTENT:

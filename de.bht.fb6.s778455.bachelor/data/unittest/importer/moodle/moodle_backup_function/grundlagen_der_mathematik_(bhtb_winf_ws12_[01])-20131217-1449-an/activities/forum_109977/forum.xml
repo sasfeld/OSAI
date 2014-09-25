@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="22463" moduleid="109977" modulename="forum" contextid="154231">
+  <forum id="22463">
+    <type>general</type>
+    <name>Fachforum zum Teil IV</name>
+    <intro>Hier können Sie Fachfragen zum Teil IV diskutieren. </intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1218803060</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="72319">
+        <name>TA_Aufgabenblatt_2_LGS</name>
+        <firstpost>193111</firstpost>
+        <userid>10771</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1358085894</timemodified>
+        <usermodified>10771</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="193111">
+            <parent>0</parent>
+            <userid>10771</userid>
+            <created>1358085894</created>
+            <modified>1358085894</modified>
+            <mailed>1</mailed>
+            <subject>TA_Aufgabenblatt_2_LGS</subject>
+            <message>In der Lösung zu Aufgabe c punkt III müsste "x - 2/3z - z = 0" stehen</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="74163">
+        <name>Probeklausur 1 WS10 - Aufgabe 8</name>
+        <firstpost>197881</firstpost>
+        <userid>10771</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1359993310</timemodified>
+        <usermodified>10771</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="197881">
+            <parent>0</parent>
+            <userid>10771</userid>
+            <created>1359892524</created>
+            <modified>1359892524</modified>
+            <mailed>1</mailed>
+            <subject>Probeklausur 1 WS10 - Aufgabe 8</subject>
+            <message>&lt;p&gt;ich komme beim durchrechnen auf ein andrers Ergebniss:&lt;/p&gt;
+&lt;p&gt;4a + 4d =-c&lt;br /&gt;a + d = -4b&lt;br /&gt;--&amp;gt; c = 4b&lt;/p&gt;
+&lt;p&gt;Wenn das richtig ist müsste die Matrix so sein:&lt;/p&gt;
+&lt;p&gt;a      -2a&lt;/p&gt;
+&lt;p&gt;-1/2a  a&lt;/p&gt;
+&lt;p&gt;Laut Musterlösung müsste aber 4b = c sein. Hat jemand einen Tip wo der Fehler liegt?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="198175">
+            <parent>197881</parent>
+            <userid>10771</userid>
+            <created>1359993310</created>
+            <modified>1359993310</modified>
+            <mailed>1</mailed>
+            <subject>Re: Probeklausur 1 WS10 - Aufgabe 8</subject>
+            <message>&lt;p&gt;ok. das war blödsinn. wenn 4b = c ist dann kommt genau die Matrix aus der Musterlösung bei raus.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="241921">
+        <userid>10771</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

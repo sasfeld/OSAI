@@ -1,0 +1,9 @@
+ID: 2009
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Nein. Es kann aber sein, dass es wieder an den Zeilenende-Zeichen liegt (kann es sein, dass SVN ein \...
+PARENT_POSTING_ID: 2006
+POSTING_TYPE: comment
+CONTENT:
+Nein. Es kann aber sein, dass es wieder an den Zeilenende-Zeichen liegt (kann es sein, dass SVN ein \  im Code einfach schluckt?
+TAGGED_CONTENT:

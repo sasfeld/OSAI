@@ -1,0 +1,10 @@
+ID: 1613
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Same problem here. - Rechtsklick→„In neuen Tab öffnen“ geht, daher verwundert es sehr, dass es nicht ...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 1610
+POSTING_TYPE: comment
+CONTENT:
+Same problem here. - Rechtsklick→„In neuen Tab öffnen“ geht, daher verwundert es sehr, dass es nicht per Mausbefehl geht.
+TAGGED_CONTENT:

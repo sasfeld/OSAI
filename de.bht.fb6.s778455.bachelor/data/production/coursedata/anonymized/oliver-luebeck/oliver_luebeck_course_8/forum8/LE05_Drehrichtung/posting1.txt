@@ -1,0 +1,26 @@
+ID: 22
+CREATION_DATETIME: 1193751420000
+MODIFICATION_DATETIME: 1193751420000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo zusammen,
+
+ich arbeite mich gerade durch die LE05 und bin leicht werwirrt. Es wird die Aussage gemacht, dass Winkel in positiver Drehrichtung gemessen werden. In Übung 2DG-06 soll plötzlich in negativer Drehrichtung gemessen werden. Wenn es nur um das "Spiegelbild" geht, kann doch die Messung trotzdem in positiver Richtung erfolgen:
+
+import java.awt.Graphics;
+import java.applet.Applet;
+
+public class BogenAufgabe extends Applet {
+public void paint(Graphics g) {
+g.drawArc(40, 60, 200, 40, 180, 270);
+}
+}
+
+Die Graphik ist die gleiche. Was ist denn nun richtig (positive oder negative Drehrichtung oder beides)?
+
+Schöne Grüße
+     
+TAGGED_CONTENT:

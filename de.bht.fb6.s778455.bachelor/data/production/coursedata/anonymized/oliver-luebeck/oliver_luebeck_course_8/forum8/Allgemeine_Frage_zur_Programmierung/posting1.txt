@@ -1,0 +1,20 @@
+ID: 62
+CREATION_DATETIME: 1200926880000
+MODIFICATION_DATETIME: 1200926880000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo,
+
+Eine Datei haben wir bis jetzt über das Programm erstellt, d.h. es wurde in der Applikation selber angelegt.
+Wann lernen wir denn das normale Zugreifen oder speichern auf Dateien, wie es heutzutage üblich ist, also das es der User
+selber auswählen kann, der Datei einen Namen vergeben kann usw.? Das war ja nicht Teil von Prog2, in welchem Modul bekommen wir solche Sachen denn beigebracht?
+Außerdem haben wir auch noch gar keine Applikationen erstellt, also Desktop Programme. Ich meine den Code haben wir ja immer über Eclipse ausgeführt. In welchem Modul lernen
+wir es denn Applikationen zu erstellen?
+
+
+MfG
+  
+TAGGED_CONTENT:

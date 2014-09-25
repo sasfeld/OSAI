@@ -1,0 +1,24 @@
+ID: 1947
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1376604000000
+TITLE: null
+LANGUAGE: GERMAN
+NER_TAG: value:CGI;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Basis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tiefensortierung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Antwort;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Polygonen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+ich habe mal wieder eine Frage zu CGI: Warum kann die Tiefensortierung nicht auf Basis <NAME_CORPUS_REPLACEMENT> Polygonen durchgeführt werden?
+
+Ich bin bisher auf keine qualifizierte Antwort gekommen, außer: weil es zu rechenintensiv wäre.
+
+Vielleicht kann mir jemand dabei Helfen, eine Antwort auf diese Frage zu finden? :)
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, ich_PPER habe_VAFIN mal_ADV wieder_ADV eine_ART Frage_NN zu_PTKZU CGI_NE :_$. Warum_PWAV kann_VMFIN die_ART Tiefensortierung_NN nicht_PTKNEG auf_APPR Basis_NN <_CARD NAME_CORPUS_REPLACEMENT_NN >_ADJA Polygonen_NN durchgeführt_VVPP werden_VAINF ?_$. Ich_PPER bin_VAFIN bisher_ADV auf_APPR keine_PIAT qualifizierte_ADJA Antwort_NN gekommen_VVPP ,_$, außer_APPR :_$. weil_KOUS es_PPER zu_APPR rechenintensiv_ADJD wäre_VAFIN ._$. Vielleicht_ADV kann_VMFIN mir_PPER jemand_PIS dabei_PROAV Helfen_VVINF ,_$, eine_ART Antwort_NN auf_APPR diese_PDAT Frage_NN zu_PTKZU finden_VVINF ?_$. :-RRB-_XY 

@@ -1,0 +1,10 @@
+ID: 251
+CREATION_DATETIME: 1349820000000
+MODIFICATION_DATETIME: 1349820000000
+TITLE: Es wäre außerdem gut,
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 215
+POSTING_TYPE: comment
+CONTENT:
+Es wäre außerdem gut, wenn nur eine Notification bei Neuerungen käme und nicht mit jedem Update eine neue Mail gesandt wird.
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 2155
+CREATION_DATETIME: 1372802400000
+MODIFICATION_DATETIME: 1372975200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Jetzt wird die Korrelationsanalyse nicht mehr aufgeruft. Deshalb kann ich die Funktion nicht testen.
+TAGGED_CONTENT:

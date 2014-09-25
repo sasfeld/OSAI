@@ -1,0 +1,9 @@
+ID: 1395
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: kann ich bestaetigen, wir haben das im lab vorhin mit hannes ausgiebig getestet :-D
+PARENT_POSTING_ID: 1377
+POSTING_TYPE: comment
+CONTENT:
+kann ich bestaetigen, wir haben das im lab vorhin mit <NAME_CORPUS_REPLACEMENT> ausgiebig getestet :-D
+TAGGED_CONTENT:

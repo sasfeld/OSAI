@@ -1,0 +1,15 @@
+ID: 2451
+CREATION_DATETIME: 1374703200000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: Ich verstehe leider erst das letzte Drittel der Antwort wirklich ;)
+t_s = 0,54 * T ist klar
+2 * tau...
+PARENT_POSTING_ID: 2449
+POSTING_TYPE: comment
+CONTENT:
+Ich verstehe leider erst das letzte Drittel der Antwort wirklich ;)
+t_s = 0, 54 * T ist klar
+2 * tau = 0, 46 * T ist so semiklar, aber immerhin nachvollziehbar,
+nur bei "(?) t_s = 1, 08/0, 46 * tau" steige ich wirklich noch nicht dahinter. sorry...
+Ist denn meine Berechnung für tau richtig?
+TAGGED_CONTENT:

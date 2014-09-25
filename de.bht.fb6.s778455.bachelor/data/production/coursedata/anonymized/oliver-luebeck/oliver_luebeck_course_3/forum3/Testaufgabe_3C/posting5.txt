@@ -1,0 +1,22 @@
+ID: 29
+CREATION_DATETIME: 1201189380000
+MODIFICATION_DATETIME: 1201189380000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 28
+CONTENT:
+
+    Hi ,
+
+meine "Möchte-gern" Lösung ist:
+
+else System.out.println("\n"+"Test");
+
+dann steht, wenn die Rekursion durchlaufen ist der C. in der nächsten Zeile.
+Bin mir aber nicht sicher, ob das stimmt ....
+
+Grüße
+    
+
+    
+TAGGED_CONTENT:

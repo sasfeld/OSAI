@@ -1,0 +1,35 @@
+ID: 46
+CREATION_DATETIME: 1288711500000
+MODIFICATION_DATETIME: 1288711500000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo,
+
+ich habe bei der Übung 06-03 eine Applikation zum Zeichnen eines Rechtecks programmiert. Allerdings wird keines gezeichnet, es erscheint nur das weiße Fenster.
+
+Quelltext:
+
+import java.awt.Frame;
+import java.awt.Graphics;
+
+public class Rechteck {
+
+ public static void main(String[] args) {
+  Frame recht = new Frame();
+  recht.setVisible(true);
+  recht.setTitle("Mein Rechteck");
+  recht.setSize(700, 300);
+  recht.paint(null);
+ }
+ 
+ public void paint(Graphics g) {
+  g.drawRect(40, 60, 200, 40);
+ }
+}
+
+Möglicherweise liegt das am Parameter beim Methodenaufruf von paint(). Wie kann dies denn stattdessen lauten? Ich hoffe, Ihr könnt mir helfen.
+	
+TAGGED_CONTENT:

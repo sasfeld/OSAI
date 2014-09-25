@@ -1,0 +1,11 @@
+ID: 168367
+CREATION_DATETIME: 1349721360
+MODIFICATION_DATETIME: 1349721360
+TITLE: Re: Frage zu Präsenz 1 
+PARENT_POSTING_ID: 168057
+CONTENT:
+Hallo Herr Prof. Dr. <REMOVED_PERSON_ENTITY>,
+ich verstehe, vielen Dank für ihre Antwort!
+Bezüglich der Nachfrage von <REMOVED_PERSON_ENTITY> würde ich auch gerne wissen wollen, ob uns jemand der Mitstudenten die Seite 3 im Dokument noch einmal etwas genauer erklären könnte. Bezüglich der Seite 7 im im Dokument "2012-10-06_LA-Präsenz1. pdf" würde ich mich auch über eine nochmalige Erläuterung sehr freuen. Schon einmal Besten Dank und Gruß
+<REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

@@ -1,0 +1,13 @@
+ID: 184455
+CREATION_DATETIME: 1354462332
+MODIFICATION_DATETIME: 1354462332
+TITLE: Re: Aufgabe 2b)
+PARENT_POSTING_ID: 184435
+CONTENT:
+Hallo miteinander,
+zerbreche mir auch grad den <REMOVED_PERSON_ENTITY> an der Einsendeaufgabe.... ;-)Den Gedankengang von <REMOVED_PERSON_ENTITY> finde ich recht gut. Allerdings verstehe ich die Gleichung imme rnoch nicht!
+Knoten (b) hat 4 Nachbarn. Also müsste Gleichung lauten: a+f+h+c=0 da die <REMOVED_PERSON_ENTITY> der Nachbarn hier gefragt ist.
+Oder habe ich jetzt irgendwo einen Denkfehler ?!?!?
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

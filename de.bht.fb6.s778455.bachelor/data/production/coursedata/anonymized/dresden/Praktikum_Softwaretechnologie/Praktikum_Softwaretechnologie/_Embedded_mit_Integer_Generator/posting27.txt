@@ -1,0 +1,11 @@
+ID: 3106
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: Dann haben wir eine Id(long), die keine Id(composite id) ist. Funktioniert vlt., ist aber mehr als un...
+PARENT_POSTING_ID: 3069
+POSTING_TYPE: comment
+CONTENT:
+Dann haben wir eine Id(long), die keine Id(composite id) ist. Funktioniert vlt., ist aber imo mehr als unschön.
+Der SINN und ZWECK eines Unique Identifiers ist doch der, dass er mit der Gleichheit <NAME_CORPUS_REPLACEMENT> Objekten konsistent ist. Wenn das nicht der Fall ist, wieso muss ich dann überhaupt Keys definieren? Dann kann die Datenbank das doch komplett alleine machen....
+Außerdem kann ich dann keine Collections wie Sets nutzen (weil die equlas benutzen, welches dann inkosistent zur Gleichheit meiner Objekte wäre)....
+TAGGED_CONTENT:

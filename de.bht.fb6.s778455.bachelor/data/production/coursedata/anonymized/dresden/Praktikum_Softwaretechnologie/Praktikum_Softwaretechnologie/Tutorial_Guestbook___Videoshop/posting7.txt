@@ -1,0 +1,11 @@
+ID: 2654
+CREATION_DATETIME: 1383087600000
+MODIFICATION_DATETIME: 1383087600000
+TITLE: Btw: Wenn ihr euch einigt, könnt ich sicher auch IntelliJ nutzen. 
+Im Gegensatz zu den letzten Jahre...
+PARENT_POSTING_ID: 2647
+POSTING_TYPE: comment
+CONTENT:
+Btw: Wenn ihr euch einigt, könnt ich sicher auch IntelliJ nutzen. 
+Im Gegensatz zu den letzten <REMOVED_PERSON_ENTITY>, sollte die Community Edition ausreichen.
+TAGGED_CONTENT:

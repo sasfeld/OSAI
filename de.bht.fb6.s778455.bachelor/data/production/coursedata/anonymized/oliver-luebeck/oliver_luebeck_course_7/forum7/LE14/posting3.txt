@@ -1,0 +1,19 @@
+ID: 76
+CREATION_DATETIME: 1306663620000
+MODIFICATION_DATETIME: 1306663620000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 75
+CONTENT:
+ 
+hey !
+
+vielen dank für deine antwort! :)
+ich bin gerade aufm sprung und hab den "programmierrechner" noch nicht an, ich meine aber, dass ich das gaaaanz genau so auch hatte. trotzdem gabs probleme. sehr merkwürdig. vielleicht gibt es irgendein problem mit den dateien, werde gleich nochmal alles löschen und von vorn anfangen... grmpf!
+
+mit der toString-Methode hatte ich mich vorher schon beschäftig, das hat glaub ich geklappt. wenn ich gleich wieder daheim bin, kann ich dir was dazu schreiben. auch zur reporter-klasse :)
+muss jetzt aber erst schnell weg, bin spät dran ;)
+
+alles liebe,
+    
+TAGGED_CONTENT:

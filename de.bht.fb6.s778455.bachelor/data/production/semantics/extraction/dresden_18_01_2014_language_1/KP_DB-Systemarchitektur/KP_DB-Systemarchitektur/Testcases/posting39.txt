@@ -1,0 +1,12 @@
+ID: 1982
+CREATION_DATETIME: 1370642400000
+MODIFICATION_DATETIME: 1370642400000
+TITLE: die Ausführung klappt nur, wenn vorher der LD_LIBRARY_PATH gesetzt wird. geschieht automatisch, wenn ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+die Ausführung klappt nur, wenn vorher der LD_LIBRARY_PATH gesetzt wird. geschieht automatisch, wenn du die run. <LEARNED_PERSON_NAME_REPLACEMENT> benutzt.
+
+du kannst aber auch einfach die testCLTstatic binary ausführen, <NAME_CORPUS_REPLACEMENT> brauchst du das nicht machen.
+TAGGED_CONTENT:

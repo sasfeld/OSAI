@@ -1,0 +1,10 @@
+ID: 880
+CREATION_DATETIME: 1353970800000
+MODIFICATION_DATETIME: 1353970800000
+TITLE: Nein, wie in der Aufgabenstellung genannt soll es nur eine generische Klasse zur Abbildung der einzel...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 879
+POSTING_TYPE: answer
+CONTENT:
+Nein, wie in der Aufgabenstellung genannt soll es nur eine generische Klasse zur Abbildung der einzelnen Elemente der verschiedenen Feeds geben.
+TAGGED_CONTENT:

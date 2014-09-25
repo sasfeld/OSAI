@@ -1,0 +1,11 @@
+ID: 2304
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Die Präsentation ist ja auch mit Libreoffice gemacht.
+Die PPTX-Datei ist übrigens kaputt.
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Die Präsentation ist ja auch mit Libreoffice gemacht.
+Die PPTX-Datei ist übrigens kaputt.
+TAGGED_CONTENT:

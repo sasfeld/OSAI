@@ -1,0 +1,24 @@
+ID: 2005
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Beim ausführen des execute kommen OpenCL-Fehler. Einerseits:  CL_INVALID_ARG_INDEX, sowie CL_INVALID_...
+LANGUAGE: GERMAN
+POS_TAG: value:INDEX;weight:0.0;uri:;postag:NN
+POS_TAG: value:KernelParameter;weight:0.0;uri:;postag:NN
+POS_TAG: value:Durchlauf;weight:0.0;uri:;postag:NN
+POS_TAG: value:Edit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kernel;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:SIZE;weight:0.0;uri:;postag:NN
+POS_TAG: value:ParameterIndizes;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Beim ausführen des execute kommen OpenCL-Fehler. Einerseits:  <LEARNED_PERSON_NAME_REPLACEMENT>_INVALID_ARG_INDEX, sowie <LEARNED_PERSON_NAME_REPLACEMENT>_INVALID_WORK_GROUP_SIZE. Ist euch bekannt dass diese Fehler auftreten? Habe ich einen Fehler beim aufruf der Kernel?
+
+Edit: Beim aktuellen Durchlauf kamen keine Fehler.
+
+Die ParameterIndizes der KernelParameter beginnen bei 0 oder 1?
+TAGGED_CONTENT:
+Beim_APPRART ausführen_VVINF des_ART execute_ADJA kommen_VVFIN OpenCL-Fehler_NN ._$. Einerseits_ADV :_$. <_CARD LEARNED_PERSON_NAME_REPLACEMENT_NN >_CARD __CARD INVALID_ARG_INDEX_NN ,_$, sowie_KON <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_CARD __XY INVALID_WORK_GROUP_SIZE_NN ._$. Ist_VAFIN euch_PRF bekannt_ADJD dass_KOUS diese_PDAT Fehler_NN auftreten_VVFIN ?_$. Habe_VAFIN ich_PPER einen_ART Fehler_NN beim_APPRART aufruf_APPR der_ART Kernel_NN ?_$. Edit_NN :_$. Beim_APPRART aktuellen_ADJA Durchlauf_NN kamen_VVFIN keine_PIAT Fehler_NN ._$. Die_ART ParameterIndizes_NN der_ART KernelParameter_NN beginnen_VVFIN bei_APPR 0_CARD oder_KON 1_CARD ?_$. 

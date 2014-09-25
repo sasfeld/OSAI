@@ -1,0 +1,9 @@
+ID: 1275
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Datenstrukturen neu zu implementieren, sollte man vermeiden und lieber auf die Standardbibliothek set...
+PARENT_POSTING_ID: 1267
+POSTING_TYPE: comment
+CONTENT:
+Datenstrukturen neu zu implementieren, sollte man vermeiden und lieber auf die Standardbibliothek setzen, solange es geht. Die Chance subtil etwas falsch zu machen ist groß.
+TAGGED_CONTENT:

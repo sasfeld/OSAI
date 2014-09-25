@@ -1,0 +1,34 @@
+ID: 12
+CREATION_DATETIME: 1192607100000
+MODIFICATION_DATETIME: 1192607100000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Liebe Studierende,
+
+Danke für den fogenden Fehlerhinweis. Die Methode in der Interface
+FigurInterface ist:
+void printStatusDirekt().
+Alle Klassen, die diese Interface implementieren, sollen eine Methode
+mit genau diesem Kopf haben.
+Im Skript ist zum Teil noch die alte Methode vorhanden:
+void getStatusDirekt()
+siehe Seite 15.
+
+Die alte Methode ist nicht glücklich. Es hat sich eingebürgert, dass
+eine Methode, dessen Namen mit get anfängt, eine Rückgabe hat,
+also kein void.
+
+Die Schnittstelle FigurInterfaceErw ist alt und noch nicht korrigiert.
+Die Methode
+ void getFlaecheDirekt();
+sollte lieber heißen:
+ void printFlaeche();
+Außerdem sollte diese Schnittstelle javadoc Kommentare statt
+Implementierungskommentare haben. Ich melde diesen Fehler.
+
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

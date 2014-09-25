@@ -1,0 +1,4 @@
+ID: 21
+TITLE: Frage zu LE 3, StringComparatorTest.java
+LANGUAGE: GERMAN
+FIRST_POSTING_ID: 60

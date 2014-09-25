@@ -1,0 +1,24 @@
+ID: 171943
+CREATION_DATETIME: 1350547689
+MODIFICATION_DATETIME: 1350547689
+TITLE: Arbeitsblätter 1. Präsenz
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Verfügungen;weight:1.0;significance:7.24896400108977;degreegeneralization:3;uri:19992589
+TOPIC_ZOOM_TAG: value:Digitaltechnik;weight:1.0;significance:6.43190602589228;degreegeneralization:5;uri:20870775
+TOPIC_ZOOM_TAG: value:Elektronik und Elektrotechnik;weight:1.0;significance:5.62600094587863;degreegeneralization:4;uri:21870953
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:2.65109701440329;degreegeneralization:2;uri:21999830
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Form;weight:0.0;uri:;postag:NN
+POS_TAG: value:gung;weight:0.0;uri:;postag:NN
+POS_TAG: value:senzveranstaltung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:tter;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+leider konnte ich nicht zur ersten Präsenzveranstaltung erscheinen - hat jemand zufällig die beiden Arbeitsblätter in digitaler Form vorliegen und könnte sie hier zur Verfügung stellen? Das wäre super, vielen Dank.
+Schönen Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, leider_ADV konnte_VMFIN ich_PPER nicht_PTKNEG zur_APPRART ersten_ADJA Präsenzveranstaltung_NN erscheinen_VVFIN -_$( hat_VAFIN jemand_PIS zufällig_ADJD die_ART beiden_PIDAT Arbeitsblätter_NN in_APPR digitaler_ADJA Form_NN vorliegen_VVINF und_KON könnte_VMFIN sie_PPER hier_ADV zur_APPRART Verfügung_NN stellen_VVINF ?_$. Das_PDS wäre_VAFIN super_ADJD ,_$, vielen_PIDAT Dank_NN ._$. Schönen_ADJA Gruß_NN <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

@@ -1,0 +1,8 @@
+ID: 2024340
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Web-Scale Data Management (WSDM)
+INTRO: In den letzten Jahren ist die Menge an digitalen Informationen die weltweit gesammelt, verwaltet und analysiert werden dramatisch gestiegen. Diese Wachstum wird zum einem großen Teil von moderne Web-Anwendungen verursacht. Zum Beispiel verarbeitete Google im Jahr 2008 jeden Tag 20 Petabyte an Daten, jede Minute werden 48 Stunden Video auf YouTube hochgeladen, während Facebook allein ca. 100 Milliarden Fotos hostet. Allerdings ist Web-Scale Data Management nicht nur durch hohe Datenvolumen gekennzeichnet. Auch im Bezug auf Latenz, Durchsatz, Erreichbarkeit, Fehlertoleranz und nebenläufigen Zugriff gibt es zahlreiche neue Herausforderungen.
+
+Im Rahmen dieser Vorlesung werden verschiedene Aspekte und Herausforderungen zum Thema Web-Scale Data Management beleuchtet. Es werden die zugrundeliegenden Prinzipien und Techniken wie Fragmentierung, Replikation, Virtualisierung, Multi-Tenancy oder CAP-Theorem sowohl im Bezug auf operationale wie auch auf analytische Probleme diskutiert. Dabei wird auch beispielhaft auf konkrete System wie Hadoop, Amazon Dynamo oder Yahoo's PigLatin eingegangen.
+TYPE: null

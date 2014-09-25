@@ -1,0 +1,9 @@
+ID: 877
+CREATION_DATETIME: 1353970800000
+MODIFICATION_DATETIME: 1353970800000
+TITLE: yes..last thread to enter "wait"  will find a return value of  getAndDecrement as 1 and the current v...
+PARENT_POSTING_ID: 876
+POSTING_TYPE: comment
+CONTENT:
+yes.. last thread to enter "wait"  will find a return value of  getAndDecrement as 1 and the current value of count (after the decrement) is 0. At that time (before reset the barrier) why other threads <NAME_CORPUS_REPLACEMENT> not detect the count  value as 0 ?
+TAGGED_CONTENT:

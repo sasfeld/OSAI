@@ -1,0 +1,11 @@
+ID: 186953
+CREATION_DATETIME: 1355267823
+MODIFICATION_DATETIME: 1355267823
+TITLE: Re: Aussagenlogik und Boole´sche Algebra
+PARENT_POSTING_ID: 175827
+CONTENT:
+Was muss denn genau rauskommen, wenn die Formel nur erfüllbar oder nicht erfüllbar sein soll?
+reicht es aus, wenn bei erfüllbar eine Variable steht, oder wie geht man dann vor? Wahrheitstafeln aufmalen?
+ 
+Ich habe dort bei b) A ^ C raus. aber woher soll ich denn dann wissen  dass die Formel nicht erfüllbar ist?
+TAGGED_CONTENT:

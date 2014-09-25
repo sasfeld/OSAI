@@ -1,0 +1,15 @@
+ID: 2775
+CREATION_DATETIME: 1384038000000
+MODIFICATION_DATETIME: 1384038000000
+TITLE: Hallo,
+
+was wir unter diesem Link finden können, ist das dritte Übungsblatt. Ich wollte die Folien ...
+PARENT_POSTING_ID: 2645
+POSTING_TYPE: comment
+CONTENT:
+Hallo,
+was wir unter diesem <REMOVED_PERSON_ENTITY> finden können, ist das zweite Übungsblatt. Ich wollte eigentlich die Folien zu Kapitel 3 herunterladen, leider war dies nicht möglich. Können Sie bitte die Folien noch einmal hochladen?
+Vielen Dank!
+Grüße
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

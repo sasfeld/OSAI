@@ -1,0 +1,8 @@
+ID: 97804
+CREATION_DATETIME: 1284023082
+MODIFICATION_DATETIME: 1284023082
+TITLE: Tarski's world
+PARENT_POSTING_ID: 0
+CONTENT:
+Beispiel zum Ueben (Anleitung im Online-Chat). Start mit java -jar tarski. jar
+TAGGED_CONTENT:

@@ -1,0 +1,8 @@
+ID: 97745
+CREATION_DATETIME: 1285347932
+MODIFICATION_DATETIME: 1285347932
+TITLE: Re: Einsendeaufgaben in LON-CAPA
+PARENT_POSTING_ID: 97744
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>, ich habe versucht mich so eben mit der mir bekannten Kennung einzuloggen. Allerdings ging das nicht! :( Also ich habe es mit der Kennung, die mir für Moodle zu geschickt wurden, versucht. Eine andere Kennung liegt mir derzeit noch nicht vor. Kann es sein, dass wir die Kennungen erst bei der Einführungsveranstaltung, am 09. Oktober erhalten? Viele Grüße <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

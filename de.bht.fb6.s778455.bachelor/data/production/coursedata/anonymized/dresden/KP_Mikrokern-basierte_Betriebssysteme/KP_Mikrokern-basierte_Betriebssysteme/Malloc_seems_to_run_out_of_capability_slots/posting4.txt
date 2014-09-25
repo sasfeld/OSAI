@@ -1,0 +1,9 @@
+ID: 1147
+CREATION_DATETIME: 1361401200000
+MODIFICATION_DATETIME: 1361401200000
+TITLE: `cap_alloc.alloc()` returns a new capability all the time. Until it runs out of caps. But I don't thi...
+PARENT_POSTING_ID: 1143
+POSTING_TYPE: comment
+CONTENT:
+`cap_alloc. alloc()` returns a new capability all the time. Until it runs out of caps. But I don't think this is what you're seeing here.
+TAGGED_CONTENT:

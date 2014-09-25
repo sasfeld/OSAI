@@ -1,0 +1,12 @@
+ID: 811
+CREATION_DATETIME: 1353279600000
+MODIFICATION_DATETIME: 1353279600000
+TITLE: Ich zitiere der Einfachheit halber mal die Aufgabenstellung: 
+>Die	PHP-Anwendung soll mittels der Da...
+PARENT_POSTING_ID: 802
+POSTING_TYPE: answer
+CONTENT:
+Ich zitiere der Einfachheit halber mal die Aufgabenstellung: 
+Die PHP-Anwendung soll mittels der Datei index. php starten bzw. erreichbar sein. <NAME_CORPUS_REPLACEMENT> dort	können Sie dann auf die Teillösungen verweisen oder weiteren Quellcode einbinden.
+Solange in der Aufgabenstellung keine Vorgaben dazu sind könnt ihr alles so benennen wie ihr wollt. 
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1503
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Nils hat vollkommen recht. C++ Objekte nie mit `malloc` allozieren!
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1491
+POSTING_TYPE: comment
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> hat vollkommen recht. C++ Objekte nie mit `malloc` allozieren! Dein struct hat nämlich einen Konstruktur, der automatisch generiert ist und die Konstruktoren der Member aufruft (v. a. den vom vector). Der Unterschied zwischen struct und class ist nur, dass bei structs per default jeder Member public ist.
+TAGGED_CONTENT:

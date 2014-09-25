@@ -1,0 +1,11 @@
+ID: 16611
+CREATION_DATETIME: 1232284194
+MODIFICATION_DATETIME: 1232284194
+TITLE: Klausur-Unterlagen
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+welche Unterlagen dürfen wir in der Klausur benutzen? In der Pflichtpräsenz hieß es, dass wir eigentlich alles benutzen dürfen (Skript, Formelsammlung, eigene Aufzeichnungen, nicht programmierbarer Taschenrechner) - nun habe ich gehört, dass wir lediglich eine Formelsammlung auf 2 Seiten nutzen dürfen?
+Das fände ich nicht gut. 
+In allen anderen Klausuren dürfen wir sowohl das Skript als auch unsere eigenen Aufzeichnungen heranziehen und zusätzlich einen Taschenrechner nutzen.
+TAGGED_CONTENT:

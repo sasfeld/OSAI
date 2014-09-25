@@ -1,0 +1,14 @@
+ID: 174733
+CREATION_DATETIME: 1351268563
+MODIFICATION_DATETIME: 1351268563
+TITLE: Verlegung Video-Konferenz
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Studierenden,
+wie Sie vielleicht festgestellt haben, steht Ihnen die 2. Einsendeaufgabe bereits seit heute morgen zur Bearbeitung zur Verfügung. Aus organisatorischen Gründen wird der Abgabetermin auf den 1. November (14 Uhr)  vorgezogen. <REMOVED_PERSON_ENTITY> der Aufgabe erfolgt in einer Video-Konferenz am Donnerstag, 1. November um 19 <REMOVED_PERSON_ENTITY>, gemäß meinem Plan nach Ihrer Video-Konferenz in BWL.
+Die Video-Konferenz am Dienstag, 6. November entfällt.
+Eine zusätzliche Video-Konferenz findet deshalb in der folgenden Woche am Dienstag, 13. November statt. Auf diese <REMOVED_PERSON_ENTITY> können hoffentlich alle Fragen beantwortet werden.
+ 
+Viele Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

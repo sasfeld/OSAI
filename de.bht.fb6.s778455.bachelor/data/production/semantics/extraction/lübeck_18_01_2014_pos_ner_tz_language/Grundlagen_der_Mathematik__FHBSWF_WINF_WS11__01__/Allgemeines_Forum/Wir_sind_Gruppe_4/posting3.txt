@@ -1,0 +1,15 @@
+ID: 117527
+CREATION_DATETIME: 1320790247
+MODIFICATION_DATETIME: 1320790247
+TITLE: Re: Wir sind Gruppe 4
+LANGUAGE: GERMAN
+POS_TAG: value:U;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ergebnis;weight:0.0;uri:;postag:NN
+POS_TAG: value:richtig?Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117526
+CONTENT:
+Ist die Lösung richtig?Aufgabe b)reicht das Ergebnis ?[ -3/4; -3/10 ) U ( -3/2; -3/4 )oder noch zusammenfassen wenn möglich ?( -3/2; -3/10 )<REMOVED_PERSON_ENTITY>:<a http://www.youtube.com/watch?v=K5owIKr5V_4">http://www.youtube.com/watch?v=K5owIKr5V_4
+TAGGED_CONTENT:
+Ist_VAFIN die_ART Lösung_NN richtig?Aufgabe_NN b_XY -RRB-_TRUNC reicht_VVFIN das_ART Ergebnis_NN ?_$. -LSB-_TRUNC -3_CARD \/_CARD 4_CARD ;_$. -3_CARD \/_CARD 10_CARD -RRB-_TRUNC U_NN -LRB-_TRUNC -3_CARD \/_CARD 2_CARD ;_$. -3_CARD \/_CARD 4_CARD -RRB-_TRUNC oder_KON noch_ADV zusammenfassen_VVINF wenn_KOUS möglich_ADJD ?_$. -LRB-_TRUNC -3_CARD \/_CARD 2_CARD ;_$. -3_CARD \/_CARD 10_CARD -RRB-_TRUNC <_XY REMOVED_PERSON_ENTITY_NN >_CARD :_$. <_CARD a_XY http:\/\/www.youtube.com\/watch?v=K5owIKr5V_4_NN "_$( >_CARD http:\/\/www.youtube.com\/watch?v=K5owIKr5V_4_NN 

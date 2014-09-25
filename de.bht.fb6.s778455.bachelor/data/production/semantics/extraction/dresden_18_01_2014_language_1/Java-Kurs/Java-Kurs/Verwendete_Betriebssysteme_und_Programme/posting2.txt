@@ -1,0 +1,12 @@
+ID: 239
+CREATION_DATETIME: 1349820000000
+MODIFICATION_DATETIME: 1349820000000
+TITLE: Ich kann den Editor [
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 236
+POSTING_TYPE: comment
+CONTENT:
+Für den eigenen Rechner kann ich folgende Editoren empfehlen:
+
+Ich kann den Editor [Sublime Text 2 (OS X, <REMOVED_PERSON_ENTITY> und <REMOVED_PERSON_ENTITY>)](http://www.sublimetext.com) empfehlen. Er kann als Testversion heruntergeladen werden. Nach der Testphase kann der Editor weiter kostenfrei genutzt werden oder man zahlt einen Betrag X für eine Lizenz. Aber bisher einer der angenehmsten Editoren. Ansonsten [Notepad++](http://notepad-plus-plus. org) für <REMOVED_PERSON_ENTITY>. [Vim](http://www.vim.org) - einfach den Befehl *vim* in das Terminal eingeben - für <REMOVED_PERSON_ENTITY> aus meiner Sicht. :)
+TAGGED_CONTENT:

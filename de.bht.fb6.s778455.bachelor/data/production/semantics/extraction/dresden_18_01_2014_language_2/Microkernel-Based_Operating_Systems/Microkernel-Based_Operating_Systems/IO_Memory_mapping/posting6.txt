@@ -1,0 +1,10 @@
+ID: 1747
+CREATION_DATETIME: 1366408800000
+MODIFICATION_DATETIME: 1366408800000
+TITLE: On a PC the BIOS arranges that. The OS can query it from the individual devices on the PCI bus. The O...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1745
+POSTING_TYPE: comment
+CONTENT:
+On a PC the BIOS arranges that. The OS <NAME_CORPUS_REPLACEMENT> query it from the individual devices on the PCI bus. The OS <NAME_CORPUS_REPLACEMENT> also change it. On other platforms the OS is completely in charge of where to put device memory.
+TAGGED_CONTENT:

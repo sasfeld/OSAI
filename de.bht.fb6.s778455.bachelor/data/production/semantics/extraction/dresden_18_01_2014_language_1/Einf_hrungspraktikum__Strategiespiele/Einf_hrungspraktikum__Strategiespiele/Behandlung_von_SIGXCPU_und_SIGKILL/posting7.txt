@@ -1,0 +1,30 @@
+ID: 1461
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Das ist gar nicht so einfach zu beantworten, weil ```signal``` je nach OS und C-Library eine andere S...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1446
+POSTING_TYPE: answer
+CONTENT:
+Das ist gar nicht so einfach zu beantworten, weil ```signal``` je nach OS und C-Library eine andere Semantik hat. Wer genau wissen will wie konfus das alles ist, sollte sich mal den Abschnitt "Portability" in ```man signal``` durchlesen ;)
+
+Am Besten sollte man daher ```sigaction``` verwenden, weil das portabel ist und so konfiguriert werden kann wie man es gerade haben möchte. Das sieht dann so aus:
+
+```C
+
+struct sigaction sa;
+
+sa. sa_handler = sigfunc;
+
+sigemptyset(&sa. sa_mask);
+
+sa. sa_flags = 0;
+
+sigaction(SIGXCPU, &sa, NULL);
+
+```
+
+Damit musst du den Signal-Handler nur einmal anmelden.
+
+Edit: Vllt. noch etwas zur Klarstellung: Bei einigen Implementierungen <NAME_CORPUS_REPLACEMENT> ```signal``` muss man den Handler neu anmelden sobald das Signal einmal eingetroffen ist.
+TAGGED_CONTENT:

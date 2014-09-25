@@ -1,0 +1,9 @@
+ID: 2886
+CREATION_DATETIME: 1384642800000
+MODIFICATION_DATETIME: 1384642800000
+TITLE: Oh okay stimmt. Jetzt ruft es die html Seite wenigstens auf. Aber meine ganzen Inputfelder werden nic...
+PARENT_POSTING_ID: 2863
+POSTING_TYPE: answer
+CONTENT:
+Oh okay stimmt. Jetzt ruft es die html Seite wenigstens auf. Aber meine ganzen Inputfelder werden nicht angezeigt. Das verstehe ich nicht.
+TAGGED_CONTENT:

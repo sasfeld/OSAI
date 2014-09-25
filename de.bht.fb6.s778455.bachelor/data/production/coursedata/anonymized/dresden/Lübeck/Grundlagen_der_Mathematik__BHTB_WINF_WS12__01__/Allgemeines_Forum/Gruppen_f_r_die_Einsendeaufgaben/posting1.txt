@@ -1,0 +1,17 @@
+ID: 171815
+CREATION_DATETIME: 1350502163
+MODIFICATION_DATETIME: 1350502186
+TITLE: Gruppen für die Einsendeaufgaben
+PARENT_POSTING_ID: 0
+CONTENT:
+Folgende Gruppen haben sich bisher gebildet:
+<REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, Ramon Hollenbach
+ 
+Maxim Schwarz, <REMOVED_PERSON_ENTITY>, Steven Pawellek
+ 
+Christian Giehler, <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>
+ 
+Ihr könnt gerne an mich eure Gruppen senden, dann ändere ich den Beitrag.
+<PERSONAL_GREETING_REMOVEMENT>
+antje
+TAGGED_CONTENT:

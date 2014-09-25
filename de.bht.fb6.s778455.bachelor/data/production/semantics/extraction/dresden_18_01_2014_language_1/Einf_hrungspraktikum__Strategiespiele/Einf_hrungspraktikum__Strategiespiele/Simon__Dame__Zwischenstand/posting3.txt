@@ -1,0 +1,10 @@
+ID: 163
+CREATION_DATETIME: 1348437600000
+MODIFICATION_DATETIME: 1348437600000
+TITLE: Wie heute nachmittag 
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 156
+POSTING_TYPE: answer
+CONTENT:
+Wie heute nachmittag schon erwaehnt machst du in seltenen Faelllen einen Fehler gleich zu Beginn des ersten Zuges. Das zeigt sich daran, dass der <NAME_CORPUS_REPLACEMENT> dir zurueckgegebene String ungueltig ist. Fuege doch bitte bevor du output(zug) machst etwas debugging Code ein der prueft, ob der zu sendende String regelkonform ist.
+TAGGED_CONTENT:

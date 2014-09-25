@@ -1,0 +1,18 @@
+ID: 20
+CREATION_DATETIME: 1176543120000
+MODIFICATION_DATETIME: 1176543120000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 18
+CONTENT:
+
+Liebe Studierende,
+
+.."
+ macht, dass die Klasse eine Etage hoeher in der Verzeichnishierarchie gesucht wird.
+Ohne codebase oder codebase="." macht, dass die Klasse im aktuellen Verzeichnis gesucht wird.
+
+Mit freundlichen Gruessen
+
+    
+TAGGED_CONTENT:

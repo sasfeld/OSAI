@@ -1,0 +1,11 @@
+ID: 16561
+CREATION_DATETIME: 1224759905
+MODIFICATION_DATETIME: 1224759905
+TITLE: gruppenmitglieder gesucht
+POS_TAG: value:aufgabe;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+moinsen,
+lars u. ich suchen noch 2 leute, die mit uns die einsendeaufgaben lösen wollen. interessierte bitte diese woche noch melden. ich denke danach sollte man spätestens anfangen mit der aufgabe.
+TAGGED_CONTENT:
+moinsen_VVFIN ,_$, lars_NE u._APPR ich_PPER suchen_VVFIN noch_ADV 2_CARD leute_VVFIN ,_$, die_PRELS mit_APPR uns_PPER die_ART einsendeaufgaben_ADJD lösen_VVINF wollen_VMFIN ._$. interessierte_ADJA bitte_VVFIN diese_PDAT woche_PWAV noch_ADV melden_VVINF ._$. ich_PPER denke_VVFIN danach_PROAV sollte_VMFIN man_PIS spätestens_ADV anfangen_VVFIN mit_APPR der_ART aufgabe_NN ._$. 

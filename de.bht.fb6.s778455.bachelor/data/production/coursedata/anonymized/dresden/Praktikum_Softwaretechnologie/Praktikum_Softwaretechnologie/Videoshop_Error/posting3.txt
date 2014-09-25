@@ -1,0 +1,9 @@
+ID: 2809
+CREATION_DATETIME: 1384210800000
+MODIFICATION_DATETIME: 1384210800000
+TITLE: danke für die schnelle Antwort. Alle Probleme wurde gelöst
+PARENT_POSTING_ID: 2778
+POSTING_TYPE: comment
+CONTENT:
+danke für die schnelle Antwort. Alle Probleme wurde gelöst :D
+TAGGED_CONTENT:

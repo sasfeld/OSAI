@@ -1,0 +1,9 @@
+ID: 1525
+CREATION_DATETIME: 1363042800000
+MODIFICATION_DATETIME: 1363042800000
+TITLE: Linear and logical addresses have the described meaning only in the x86 universe. The term virtual ad...
+PARENT_POSTING_ID: 1515
+POSTING_TYPE: comment
+CONTENT:
+Linear and logical addresses have the described meaning only in the x86 universe. The term virtual address is, I would say, more general. So, whenever you don't care about the x86-details or even the architecture, virtual address is better suited.
+TAGGED_CONTENT:

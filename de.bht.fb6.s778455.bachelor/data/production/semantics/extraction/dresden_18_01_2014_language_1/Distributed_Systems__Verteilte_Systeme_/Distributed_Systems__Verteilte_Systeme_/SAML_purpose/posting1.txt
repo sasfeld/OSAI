@@ -1,0 +1,14 @@
+ID: 1138
+CREATION_DATETIME: 1361228400000
+MODIFICATION_DATETIME: 1364940000000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hello,
+
+do I understand correct that main purpose of SAML is to separate authorization from authentication? 
+
+As i understand it for authorization is responsible service provider. If user that requests something from service provider doesn't have appropriate security context, service provider redirects user to identity provider (one of possible, chosen by user). Than identity provider authenticates user and provides user's identity back to service provider. Am I right?
+TAGGED_CONTENT:

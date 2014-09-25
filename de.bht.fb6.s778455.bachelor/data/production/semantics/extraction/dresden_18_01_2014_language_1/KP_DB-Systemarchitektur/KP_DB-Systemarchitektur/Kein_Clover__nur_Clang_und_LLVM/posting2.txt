@@ -1,0 +1,12 @@
+ID: 1760
+CREATION_DATETIME: 1366840800000
+MODIFICATION_DATETIME: 1366840800000
+TITLE: Ich bin ja für die aktuellste LLVM/Clang -Version 3.2:
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: comment
+CONTENT:
+Ich bin ja für die aktuellste LLVM/Clang -Version 3. 2:
+
+http://llvm.org/releases/download. html#3. 2
+TAGGED_CONTENT:

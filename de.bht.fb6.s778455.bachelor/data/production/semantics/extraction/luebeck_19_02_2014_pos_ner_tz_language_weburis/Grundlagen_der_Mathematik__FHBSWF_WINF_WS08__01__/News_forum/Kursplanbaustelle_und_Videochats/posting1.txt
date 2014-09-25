@@ -1,0 +1,19 @@
+ID: 16501
+CREATION_DATETIME: 1222086081
+MODIFICATION_DATETIME: 1222086081
+TITLE: Kursplanbaustelle und Videochats
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=6475#16501
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:ndigung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Videochats;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruessen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kursplanbaustelle;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Sie alle, die &quot;Kursplanbaustelle&quot; ist jetzt online. Darin finden Sie unter anderem die Ankündigung für regelmäßige Videochats ab morgen. Mit freundlichen Gruessen, A. <REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:
+Hallo_ITJ Sie_PPER alle_PIS ,_$, die_PRELS "_$( Kursplanbaustelle_NN "_$( ist_VAFIN jetzt_ADV online_ADJD ._$. Darin_PROAV finden_VVFIN Sie_PPER unter_APPR anderem_PIS die_ART Ankündigung_NN für_APPR regelmäßige_ADJA Videochats_NN ab_APPR morgen_ADV ._$. Mit_APPR freundlichen_ADJA Gruessen_NN ,_$, A._NE <_NE REMOVED_PERSON_ENTITY_NE >_NE ._$. 

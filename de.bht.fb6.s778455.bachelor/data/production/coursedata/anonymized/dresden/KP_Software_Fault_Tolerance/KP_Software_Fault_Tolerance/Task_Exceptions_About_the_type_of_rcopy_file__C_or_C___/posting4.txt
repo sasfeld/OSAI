@@ -1,0 +1,9 @@
+ID: 544
+CREATION_DATETIME: 1351288800000
+MODIFICATION_DATETIME: 1351288800000
+TITLE: Yes, you are right, rcopy file is a C++ file. The important point is to wrap the libc functions as po...
+PARENT_POSTING_ID: 541
+POSTING_TYPE: answer
+CONTENT:
+Yes, you are right, rcopy file is a C++ file. The important point is to wrap the libc functions as pointed out by KomoriKiri.
+TAGGED_CONTENT:

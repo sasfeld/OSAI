@@ -1,0 +1,12 @@
+ID: 154
+CREATION_DATETIME: 1348351200000
+MODIFICATION_DATETIME: 1348351200000
+TITLE: Wie kann ich eigentli
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 153
+POSTING_TYPE: comment
+CONTENT:
+Wie kann ich eigentlich auf einer Kommandozeile in Linux einen Spielstand direkt übergeben? Ich habe es mit ./mpc -i ... versucht - muss <NAME_CORPUS_REPLACEMENT> eine Datei/Pipe/etc hin?
+
+Ich wollte im Grunde wissen, was ich noch verbessern muss um zu bestehen.
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 196
+CREATION_DATETIME: 1349560800000
+MODIFICATION_DATETIME: 1349560800000
+TITLE: Also finden nächste W
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 192
+POSTING_TYPE: comment
+CONTENT:
+Also finden nächste Woche nur V (Vorlesungen) statt?
+
+Und was ist eigentlich am Donnerstag LR um 16. 40?
+TAGGED_CONTENT:

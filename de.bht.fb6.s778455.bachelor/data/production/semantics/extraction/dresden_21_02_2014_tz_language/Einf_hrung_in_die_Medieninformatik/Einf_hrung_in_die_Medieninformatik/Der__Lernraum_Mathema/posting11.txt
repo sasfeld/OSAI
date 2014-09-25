@@ -1,0 +1,14 @@
+ID: 218
+CREATION_DATETIME: 1349647200000
+MODIFICATION_DATETIME: 1349647200000
+TITLE: Steht das denn auch i
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Not, Elend und Leid;weight:1.0;significance:8.0545891650764;degreegeneralization:4;uri:20876657
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+PARENT_POSTING_ID: 201
+POSTING_TYPE: comment
+CONTENT:
+Steht das denn auch irgendwo geschrieben? Ich habe das auch nur über drei Ecken erfahren...
+
+Wäre gut das mal etwas eindeutiger zu schreiben für uns Erstis... Oder ich bin zu blöd zum Gucken, dann tut's mir Leid.
+TAGGED_CONTENT:

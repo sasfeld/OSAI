@@ -1,0 +1,17 @@
+ID: 174225
+CREATION_DATETIME: 1351143094
+MODIFICATION_DATETIME: 1351143094
+TITLE: Re: Gruppen für die Einsendeaufgaben
+LANGUAGE: GERMAN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 174159
+CONTENT:
+Hallo,
+unsere Gruppe fehlt noch!
+<REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>
+Dachte jedenfalls, dass <REMOVED_PERSON_ENTITY> sich bei uns gemeldet hatte.. Korrigiert mich bitte falls nicht.
+Grüße
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, unsere_PPOSAT Gruppe_NN fehlt_VVFIN noch_ADV !_$. <_XY REMOVED_PERSON_ENTITY_NE >_CARD ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE Dachte_VVFIN jedenfalls_ADV ,_$, dass_KOUS <_XY REMOVED_PERSON_ENTITY_NN >_VVFIN sich_PRF bei_APPR uns_PPER gemeldet_VVPP hatte_VAFIN ._$. ._$. Korrigiert_VVPP mich_PRF bitte_PTKANT falls_KOUS nicht_PTKNEG ._$. Grüße_NN 

@@ -1,0 +1,39 @@
+ID: 2152
+CREATION_DATETIME: 1372716000000
+MODIFICATION_DATETIME: 1383778800000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Jahr 2012;weight:1.0;significance:5.92522431462997;degreegeneralization:11;uri:20891175
+POS_TAG: value:gen;weight:0.0;uri:;postag:NN
+POS_TAG: value:AR;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Adressen;weight:0.0;uri:;postag:NN
+POS_TAG: value:ge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:Stufen;weight:0.0;uri:;postag:NN
+POS_TAG: value:KiB;weight:0.0;uri:;postag:NN
+POS_TAG: value:Seitentabelle;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anzahl;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tabellen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zweistufigkeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klausur;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+Aufgabe aus der Klausur vom 27. Feb. 2012
+
+Gegeben sind:
+
+32Bit breite Adressen, Seitengröße: 4KiB, Seitentabelle ist zweistufig, die einzelnen Tabellen sind jeweils 4 KiB groß und beinhalten 1024Einträge.
+
+Wie viele Einträge werden in beiden Stufen benötigt um den gesamten virtuellen AR abzubilden?
+
+Mich iritiert schon die Frage an sich, es ist scheinbar nicht nach der Anzahl der Einträge gefragt, die maximal enthalten sein können, abbilden lässt sich das bestimmt auch mit weniger Einträgen "abbilden". Welche <REMOVED_PERSON_ENTITY> spielt hier die Zweistufigkeit der Seitentabelle?
+
+Vielen Dank!
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, Aufgabe_NN aus_APPR der_ART Klausur_NN vom_APPRART 27_CARD ._$. Feb._ADV 2012_CARD Gegeben_VVPP sind_VAFIN :_$. 32Bit_ADJD breite_ADJA Adressen_NN ,_$, Seitengröße_NN :_$. 4KiB_NE ,_$, Seitentabelle_NN ist_VAFIN zweistufig_ADJD ,_$, die_ART einzelnen_ADJA Tabellen_NN sind_VAFIN jeweils_ADV 4_CARD KiB_NN groß_ADJD und_KON beinhalten_VVFIN 1024Einträge_NN ._$. Wie_PWAV viele_PIDAT Einträge_NN werden_VAFIN in_APPR beiden_PIDAT Stufen_NN benötigt_VVFIN um_APPR den_ART gesamten_ADJA virtuellen_ADJA AR_NN abzubilden_VVIZU ?_$. Mich_PPER iritiert_VVFIN schon_ADV die_ART Frage_NN an_APPR sich_PRF ,_$, es_PPER ist_VAFIN scheinbar_ADJD nicht_PTKNEG nach_APPR der_ART Anzahl_NN der_ART Einträge_NN gefragt_VVPP ,_$, die_ART maximal_ADJD enthalten_VVPP sein_VAINF können_VMFIN ,_$, abbilden_VVFIN lässt_VVFIN sich_PRF das_PDS bestimmt_VVFIN auch_ADV mit_APPR weniger_PIAT Einträgen_NN "_$( abbilden_VVINF "_$( ._$. Welche_PWAT <_NN REMOVED_PERSON_ENTITY_NE >_CARD spielt_VVFIN hier_ADV die_ART Zweistufigkeit_NN der_ART Seitentabelle_NN ?_$. Vielen_PIDAT Dank_NN !_$. 

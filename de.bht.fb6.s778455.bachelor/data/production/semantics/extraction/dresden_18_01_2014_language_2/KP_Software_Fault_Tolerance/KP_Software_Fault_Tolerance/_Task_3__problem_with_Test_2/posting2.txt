@@ -1,0 +1,12 @@
+ID: 2939
+CREATION_DATETIME: 1384988400000
+MODIFICATION_DATETIME: 1385593200000
+TITLE: If you have the order of the for loops correct (outer loop should be CSTR_count and inner FILE_count,...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2928
+POSTING_TYPE: answer
+CONTENT:
+If you have the order of the for loops correct (outer loop should be CSTR_count and inner FILE_count, as in the slides), then the next probable errors is the waitpid.
+
+You might be handling incorrectly the return values of waitpid. The tests we run in the testing system are a bit more complete than those you run locally. So please, double check that you are doing the right with when the waitpid returns.
+TAGGED_CONTENT:

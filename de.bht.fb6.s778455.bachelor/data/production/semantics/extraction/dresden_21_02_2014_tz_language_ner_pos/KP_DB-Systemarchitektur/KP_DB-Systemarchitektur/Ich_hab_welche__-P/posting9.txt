@@ -1,0 +1,15 @@
+ID: 1888
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: Achja, aus den KernelMetrics sollte das LLVM-Zeugs eh rausfliegen. Ich habe die Include und die cpp a...
+LANGUAGE: GERMAN
+NER_TAG: value:LLVM-Zeugs;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:KernelMetrics;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeugs;weight:0.0;uri:;postag:NN
+POS_TAG: value:Include;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: answer
+CONTENT:
+Achja, aus den KernelMetrics sollte das LLVM-Zeugs eh rausfliegen. Ich habe die Include und die cpp angepasst.
+TAGGED_CONTENT:
+Achja_ITJ ,_$, aus_APPR den_ART KernelMetrics_NN sollte_VMFIN das_ART LLVM-Zeugs_NN eh_ADV rausfliegen_VVINF ._$. Ich_PPER habe_VAFIN die_ART Include_NN und_KON die_ART cpp_NE angepasst_VVPP ._$. 

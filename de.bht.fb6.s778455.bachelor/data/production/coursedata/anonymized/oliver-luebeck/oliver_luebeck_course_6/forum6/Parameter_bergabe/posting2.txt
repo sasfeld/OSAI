@@ -1,0 +1,12 @@
+ID: 21
+CREATION_DATETIME: 1286804460000
+MODIFICATION_DATETIME: 1286804460000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 20
+CONTENT:
+
+Wenn ich Mike gestern richtig verstanden habe, hätte es doch in diesem Quellcode und diesem Kontext
+"if (args.length == 2)" ?      richtig
+    
+TAGGED_CONTENT:

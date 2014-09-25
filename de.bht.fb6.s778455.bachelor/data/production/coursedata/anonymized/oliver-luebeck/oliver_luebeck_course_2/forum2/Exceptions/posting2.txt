@@ -1,0 +1,60 @@
+ID: 13
+CREATION_DATETIME: 1177768440000
+MODIFICATION_DATETIME: 1177768440000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo Mentor1
+
+Ich habe ein Java Programm ausprobiert und scheitere bei der Ausführung. Das kompilieren lief problemlos ohne Fehler. Könnten Sie mich bitte beraten?
+
+#########################################################
+java Quadrat.java
+Process started >>>
+java.lang.NoClassDefFoundError: Quadrat/java
+Caused by: java.lang.ClassNotFoundException: Quadrat.java
+at java.net.URLClassLoader$1.run(Unknown Source)
+at java.security.AccessController.doPrivileged(Native Method)
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+Exception in thread "main" <<< Process finished.
+#########################################################
+Hier ist der Quelltext:
+
+public class Quadrat
+{
+static int quadrat( int n )
+{
+return n * n;
+}
+static void ausgabe( int n )
+{
+String s;
+int i;
+for ( i = 1; i <= n; i=i+1 )
+{
+s = "Quadrat("
++ i
++ ") = "
++ quadrat(i);
+System.out.println( s );
+}
+}
+
+public static void main( String[] args )
+{
+ausgabe( 4 );
+}
+}
+##############################################
+
+Ich komme nicht weiter und erbitte Hilfe. Vielen Dank.
+
+mfg
+    
+TAGGED_CONTENT:

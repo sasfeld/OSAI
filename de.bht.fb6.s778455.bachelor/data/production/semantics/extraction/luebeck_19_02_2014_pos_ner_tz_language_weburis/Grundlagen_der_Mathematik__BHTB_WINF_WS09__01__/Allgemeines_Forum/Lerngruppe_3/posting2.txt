@@ -1,0 +1,11 @@
+ID: 68273
+CREATION_DATETIME: 1256668716
+MODIFICATION_DATETIME: 1256668716
+TITLE: Re: Lerngruppe 3
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=25623#68273
+PARENT_POSTING_ID: 68272
+CONTENT:
+lach, nö, gefällt mir nicht :-P 
+TAGGED_CONTENT:
+lach_NE ,_$, nö_VVFIN ,_$, gefällt_VVFIN mir_PPER nicht_PTKNEG :-P_XY 

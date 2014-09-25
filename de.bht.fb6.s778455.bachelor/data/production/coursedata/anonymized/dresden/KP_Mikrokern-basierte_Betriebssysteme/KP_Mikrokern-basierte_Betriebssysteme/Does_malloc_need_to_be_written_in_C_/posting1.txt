@@ -1,0 +1,10 @@
+ID: 933
+CREATION_DATETIME: 1354489200000
+MODIFICATION_DATETIME: 1384124400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Since our malloc-implementation is part of the libc-backend, does it consequently need to be written in C or will C++ work (as long as one does not use things that require malloc, of course)?
+Will it work to use this malloc in C-applications even if it was written in C++?
+TAGGED_CONTENT:

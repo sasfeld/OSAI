@@ -1,0 +1,10 @@
+ID: 2738
+CREATION_DATETIME: 1383865200000
+MODIFICATION_DATETIME: 1383865200000
+TITLE: Hast du die Blankweb.zip als Basisprojekt benutzt?
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2737
+POSTING_TYPE: comment
+CONTENT:
+Hast du die Blankweb. zip als Basisprojekt benutzt?
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 1006
+CREATION_DATETIME: 1356044400000
+MODIFICATION_DATETIME: 1356044400000
+TITLE: Das verstehe ich (bzw wir alle). Aber leider können wir den Fakrat nicht einfach so einberufen sonder...
+PARENT_POSTING_ID: 728
+POSTING_TYPE: comment
+CONTENT:
+Das verstehe ich (bzw wir alle). Aber leider können wir den Fakrat nicht einfach so einberufen sondern müssen mit der langsamen Bürokratie leben :-( Ich bin ebenso betroffen und genauso genervt <NAME_CORPUS_REPLACEMENT> der Situation
+TAGGED_CONTENT:

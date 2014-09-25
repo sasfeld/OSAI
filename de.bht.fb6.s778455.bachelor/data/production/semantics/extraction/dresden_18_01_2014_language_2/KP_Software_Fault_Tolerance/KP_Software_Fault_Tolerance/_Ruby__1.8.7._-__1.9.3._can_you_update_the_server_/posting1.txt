@@ -1,0 +1,26 @@
+ID: 957
+CREATION_DATETIME: 1355094000000
+MODIFICATION_DATETIME: 1369173600000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Error
+
+> undefined method `spawn' for Process:Module (NoMethodError)
+
+I was wondering, why I couldn't reproduce it on my machine.
+
+My version: 
+
+> ruby 1. 9. 3p327 (2012-11-10 revision 37606) [x86_64-linux]
+
+Serverversion
+
+> ruby 1. 8. 7 (2011-06-30 patchlevel 352) [i686-linux]
+
+<NAME_CORPUS_REPLACEMENT> you please performe an update? 
+
+Or install ruby-doc, so I <NAME_CORPUS_REPLACEMENT> querry the server with "ri Process" requests? ;)
+TAGGED_CONTENT:

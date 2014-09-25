@@ -1,0 +1,9 @@
+ID: 654
+CREATION_DATETIME: 1351897200000
+MODIFICATION_DATETIME: 1351897200000
+TITLE: Ja, du wirst über alle gewählten Fächer gleichzeitig geprüft. Meistens stellt das Fach in der du die ...
+PARENT_POSTING_ID: 653
+POSTING_TYPE: answer
+CONTENT:
+Ja, du wirst über alle gewählten Fächer gleichzeitig geprüft. Meistens stellt das Fach in der du die 2VL 2Ü-Veranstaltung hast, den Prof und alle weitern Veranstaltungen einen Doktoranten. Oftmals wird auch versucht Fragen zu stellen, die sowohl das eine Themengebiet, als auch das andere/die anderen berühren. Inwiefern du Inhalte wählen und ausschließen kannst, musst du mit den Verantwortlichen abklären bzw. sie bieten es dir ggf. an.
+TAGGED_CONTENT:

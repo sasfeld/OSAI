@@ -1,0 +1,9 @@
+ID: 1505
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Ein paar mehr Infos gibt es da: http://stackoverflow.com/questions/54585/when-should-you-use-a-class-...
+PARENT_POSTING_ID: 1491
+POSTING_TYPE: comment
+CONTENT:
+Ein paar mehr Infos gibt es da: http://stackoverflow.com/questions/54585/when-should-you-use-a-class-vs-a-struct-in-c
+TAGGED_CONTENT:

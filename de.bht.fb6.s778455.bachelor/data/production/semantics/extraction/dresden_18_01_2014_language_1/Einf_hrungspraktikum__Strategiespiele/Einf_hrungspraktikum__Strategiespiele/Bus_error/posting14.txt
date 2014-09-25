@@ -1,0 +1,40 @@
+ID: 1482
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Allozieren:
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1467
+POSTING_TYPE: comment
+CONTENT:
+Allozieren:
+
+```C++
+
+statePtr currState = (statePtr) malloc(sizeof(myBoardState));
+
+memset(currState->command, 0, BUFFERSIZE);
+
+char newColor = getEnemyColor(piece); // gibt gegnerische farbe aus
+
+currState->turn = newColor;
+
+strcpy(currState->board, board);
+
+currState->weight = calculateWeight(board, piece, depth);
+
+state->children. push_back( currState ); // state ist das übergeordnete Element
+
+// .. viel Code, um den Command zu erzeugen
+
+// ich kann den auch posten, allerdings ist es wirklich recht viel,
+
+// und wenn ich danach
+
+cout comand << endl;
+
+// ausgebe, sind alle commands korrekt
+
+```
+
+Frei geben tu ich noch nicht. Das hat mir nur mehr Probleme gemacht...
+TAGGED_CONTENT:

@@ -1,0 +1,29 @@
+ID: 7
+CREATION_DATETIME: 1191669060000
+MODIFICATION_DATETIME: 1191669060000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 5
+CONTENT:
+  
+Die Formulierungen basieren wohl auf den unterschiedlich Ansichten. Ein OutputStreamWriter erhält die Referenz auf einen FileOutputStream und verwaltet diesen. In diesem Sinne ist die Referenz des einen Objekts "in" einem anderen Objekt.
+Beim Programmablauf sind die Aufrufe jedoch aneinandergereit oder halt "verkettet". Der OutputStreamWriter nutzt den FileOutputStream zum Schreiben.
+
+Bezüglich close und flush ist in diesem kleinen Beispiel ein flush nicht unbedingt notwendig. Es ist jedoch nicht immer der Fall, dass man nach einem flush den Stream schließen möchte. Von daher ist es gut zu wissen, dass man den Zwischenspeicher auch ohne Schließen des Streams leeren kann.
+
+Zu Eurer Information, unter Eclipse funktioniert die Anweisung "java.io.Console" nicht.
+Hier ein Link: https://bugs.eclipse.org/bugs/show_bug.cgi?id=122429
+
+Wenn man
+java.io.Console konsole = System.console();
+
+durch diese Zeile ersetzt:
+
+java.io.BufferedReader konsole = new BufferedReader(new InputStreamReader(System.in));
+
+funktioniert das Programm auch unter Eclipse wie erwartet.
+
+Grüsse
+
+    
+TAGGED_CONTENT:

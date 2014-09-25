@@ -1,0 +1,9 @@
+ID: 194833
+CREATION_DATETIME: 1358612558
+MODIFICATION_DATETIME: 1358612558
+TITLE: Re: Beispiel 28 im Skript....
+PARENT_POSTING_ID: 194831
+CONTENT:
+Jups. Mir ging es eigentlich nur darum, dass du immer x2 statt x3 in der zweiten Zeile geschrieben hast, was meiner Meinung nach halt nicht korrekt erschien. :)
+GrüßeLars
+TAGGED_CONTENT:

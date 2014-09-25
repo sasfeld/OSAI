@@ -1,0 +1,18 @@
+ID: 116457
+CREATION_DATETIME: 1326887955
+MODIFICATION_DATETIME: 1326887955
+TITLE: Re: Onlinemeeting heute
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=43321#116457
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:Woche;weight:0.0;uri:;postag:NN
+POS_TAG: value:Informationen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Herr;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 116456
+CONTENT:
+Hi <REMOVED_PERSON_ENTITY>,
+ich denke das erst nächste Woche wieder ist. Herr <REMOVED_PERSON_ENTITY> war diese und die letzte Woche nicht verfügbar.
+Sollte jemand andere oder bessere Informationen haben dann her damit ;-)
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hi_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, ich_PPER denke_VVFIN das_ART erst_ADV nächste_ADJA Woche_NN wieder_ADV ist_VAFIN ._$. Herr_NN <_VVFIN REMOVED_PERSON_ENTITY_NE >_NE war_VAFIN diese_PDAT und_KON die_ART letzte_ADJA Woche_NN nicht_PTKNEG verfügbar_ADJD ._$. Sollte_VMFIN jemand_PIS andere_PIS oder_KON bessere_ADJA Informationen_NN haben_VAFIN dann_ADV her_APZR damit_PROAV ;--RRB-_TRUNC <_XY REMOVED_PERSON_ENTITY_NE >_XY 

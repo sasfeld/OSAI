@@ -1,0 +1,11 @@
+ID: 1662
+CREATION_DATETIME: 1365026400000
+MODIFICATION_DATETIME: 1365112800000
+TITLE: Bitte Kontakt mit Marius Feldmann aufnehmen. Ab WS13 hält er die Veranstaltung.
+Aber - und das ist m...
+PARENT_POSTING_ID: 1659
+POSTING_TYPE: answer
+CONTENT:
+Bitte Kontakt mit <REMOVED_PERSON_ENTITY> aufnehmen. Ab WS13 hält er die Veranstaltung.
+Aber - und das ist meine persönliche Meinung - das sollte kein Problem sein. Die Existenz <NAME_CORPUS_REPLACEMENT> Ba/Ma ist nur noch nicht überall auf unserer Lehrstuhlwebseite angekommen. Das ist zwar traurig, aber leider wahr.
+TAGGED_CONTENT:

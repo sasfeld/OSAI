@@ -1,0 +1,826 @@
+ <forum>
+ 
+  <thread title="Probleme mit Adobe Connect">
+    <post id="1" author="Stdent1" time="Dienstag, 3. April 2007, 20:57"><![CDATA[
+Probleme mit Adobe Connect
+von Stdent1 - Dienstag, 3. April 2007, 20:57
+ 
+ich versuche jetzt seit einer halben Stunde in unsere Webkonferenz zu kommen, aber ich kriege immer nur folgende Fehlermeldung:
+
+Es konnte keine Verbindung zwischen Meetingraum und Adobe Connect-Server hergestellt werden. Starten Sie den Meetingraum neu oder aktualisieren Sie den Browser, um die Verbindung wiederherzustellen.
+
+Der Test auf der Seite von Connect zeigt alle Punkte positiv.
+
+Habs mit Firefox und IE probiert, geht leider in beiden nicht.
+
+Jemand ne Idee???
+
+Danke!
+    ]]></post>
+    <post id="2" reply="1" author="Mentor1" time="Mittwoch, 4. April 2007, 09:07"><![CDATA[
+    Re: Probleme mit Adobe Connect
+von Agathe Merceron - Mittwoch, 4. April 2007, 09:07
+ 
+Liebe Frau Lüdecke,
+
+es gibt den Link "help" unter Web Conference in Moodle, der hilfreich sein könnte. Sonst Kontaktieren Sie support@oncampus.de. Die Mitarbeiter sind effizient. Die Konferenz wurde aufgezeichnet und ist in Archive zu finden.
+
+Mit freundlichen Grüßen
+    ]]></post>
+  </thread>
+  
+    <thread title="1. Web-Konferenz - Nachtrag">
+    <post id="3" author="Mentor1" time="Mittwoch, 4. April 2007, 09:13"><![CDATA[
+Liebe Studierende,
+
+die letzte Folie gestern zeigte eine Methode, die in der Klasse MyMath deklariert sein könnte, siehe unten. Können Sie einen Vorschlag machen, um diese Methode in der Klasse MyMathTest aufzurufen? Ich freue mich auf Ihre Vorschläge.
+
+Mit freundlichen Grüßen
+
+PS: für die Einsendeaufgabe denken Sie sich bitte etwas anderes ;-).
+/**
+* Hiermit wird die Differenz z1 - z2 berechnet und
+* zum Bildschirm ausgegeben.
+*
+* @param z1 erste Zahl
+* @param z2 zweite Zahl
+*/
+
+public static void differenziere2Zahlen(int z1, int z2) {
+System-out.println( z1 - z2);
+}
+
+    ]]></post>
+    <post id="4" reply="3" author="Stdent1" time="Mittwoch, 4. April 2007, 21:07"><![CDATA[
+
+Hallo,
+
+ich würde es ganz einfach mit
+
+public static void main(String[] args) {
+
+System.out.println(MyMath.differenziere2Zahlen(z1, z2));
+
+}
+
+probieren, wobei z1 und z2 die Zahlen sind die genutzt werden sollen (also zB. 2 und 1), und sehen was bei raus kommt...
+
+eventuell muss aber auch erst die MyMath Klasse geändert werden in public static int mit einem return-wert...
+
+Habs noch nicht getestet ;)
+
+LG 
+    ]]></post>
+    <post id="5" reply="4" author="Stdent2" time="Mittwoch, 4. April 2007, 21:56"><![CDATA[
+Hallo,
+
+zunächst würde ich "System-out" zu "System.out" korrigieren.
+
+Aufrufen mit :
+
+public static void main(String[] args){
+
+MyMath.differenziere2Zahlen(2, 1);
+
+}
+
+Ausgabe auf den Bildschrim erfolgt durch die Methode differenziere2Zahlen der Klasse MyMath selbständig.
+
+Gruß 
+    ]]></post>
+    <post id="6" reply="5" author="Stdent3" time="Donnerstag, 5. April 2007, 02:34"><![CDATA[
+Hallo,
+
+ es sollten wirkliche Zahlenwerte angegeben werden, nicht die Variablen (z1 und z2) aus der Unterklasse, ansonsten sollte es laufen.
+
+Des Weiteren ist "System.out.println" erforderlich... (zu mindest schlug mein Test ohne "s-o-p" Fehl)
+Deswegen vermute ich, dass man es mit "return" schreiben muss in MyMath.class und erst in der MyMathTest.class kommt dann "System.out.println".
+Kommt mir auch "spanisch" vor, dass die aufgerufene MyMath.class bereits den "printbefehl" besitzt, wobei die höhergestellte MyMathTest.class diese erst mit Werten füttert.
+
+Die zusätzlich ausgebenen "Kommentare" (vgl. Aufgabe aus der Übung) in der Textkonsole waren sehr nützlich, daher könnte man diese für die Subratkion ebenfalls ergänzen. (optional)
+
+
+mein Vorschlag:
+
+public class MyMathTest{
+
+public static void main(String[] args) {
+System.out.println("Differenz aus 2-1: "
++ MyMath.differenziere2Zahlen(2,1));
+}
+}
+
+
+oder ohne Komme
+
+
+public class MyMathTest{
+
+public static void main(String[] args) {
+System.out.println(MyMath.differenziere2Zahlen(2,1));
+}
+}
+
+
+Gruß 
+    ]]></post>
+    <post id="7" reply="6" author="Mentor1" time="Donnerstag, 5. April 2007, 10:19"><![CDATA[
+Richtige Antwort. Danke. Methoden mit void vor dem Namen und ohne return in Java sind möglich. Ein Methoden-Aufruf ist eine Anweisung.
+
+Danke auch für alle Antworten und für das Mitdenken. Sie haben die wesentlichen Punkten getroffen.
+
+Wir werden es in der LE06 noch vertiefen: es gibt 2 Arten von Methoden, die Methoden, die mit void vor dem Methodennamen deklariert werden, auch Prozeduren genannt und die Methoden mit Rückgabe und return Anweisung im Rumpf, auch Funktionen genannt. Sie werden unterschiedlich aufgerufen.
+
+Mit diesem Beispiel sollte Ihnen die LE06 leichter erscheinen (ich hoffe zumindest).
+
+Viele Grüße und Frohe Ostern
+    ]]></post>
+  </thread>
+  
+  <thread title="Einsendeaufgaben am Mac">
+    <post id="8" author="Stdent4" time="Mittwoch, 4. April 2007, 14:40"><![CDATA[
+Hallo,
+hab Eclips unter osx 10.5 zum laufen bekommen und -aber wie macht man die Einsendeaufgaben am Mac da sich die Aufgaben ja auf die Verzeichnisstrukturen unter Windows beziehen...und es exe-Datein sind ...
+
+ciao 
+    ]]></post>
+    <post id="9" reply="8" author="Stdent2" time="Mittwoch, 4. April 2007, 15:39"><![CDATA[
+Hi!
+
+Verzeichnis unterschiede zu Windows sind uninteressant musst nur wissen wo du das "de" verzeichnis hin entpackt hast.
+
+Ich arbeite auf meinem Mac mit XCode: In den Developer tools ist javac und java mit bei und auch als Umgebungsvariable gesetzt (über Terminal aufrufen). Allerdings in version 1.6 was aber hierfür durchaus ausreichend ist.
+
+Gruß 
+    ]]></post>
+    <post id="10" reply="8" author="Stdent5" time="Mittwoch, 4. April 2007, 16:55"><![CDATA[
+Zum entpacken nimmst du die ZIP-Datei nicht die EXE. Der Inhalt der EXE-Datei ist das gleiche wie die ZIP-Datei, nur einfach ein Selbst-Entpackendes-Archiv.
+
+Du kannst das was in der Eingabeaufforderung von Windows gemacht wird, so ziemlich genau auch in einer Terminal-Session auf dem Mac machen. java/javac sind dort schon von Hause aus installiert in der Version 1.6. Wie Dominik schon schrieb.
+
+Die Version 1.7 gibt es nur als Developer Preview. Ich gehe mal davon aus, das wir keine der neuen Features aus 1.7 brauchen und 1.6 völlig ausreicht für den Kurs.
+
+Gruß
+    ]]></post>
+    <post id="11" reply="10" author="Stdent4" time="Mittwoch, 4. April 2007, 18:11"><![CDATA[
+Dank! für die prompte Hilfe...hört sich gut an....
+
+ciao 
+    ]]></post>
+    <post id="12" reply="11" author="Mentor1" time="Donnerstag, 5. April 2007, 10:33"><![CDATA[
+Lieber , liebe Studierende,
+
+verbringen Sie nicht zu viel Energie mit UebClockman. Wenn das Programm in dieser Woche nicht läuft, ist es gar nicht tragisch. Wir werden es bei der LE über "packages" wieder behandeln.
+SEHR wichtig dagegen ist es Hello und MyMathTest zu kompilieren und auszuführen.
+
+Mit freundlichen Grüßen
+    ]]></post>
+  </thread>
+  
+  <thread title="javadoc mit mehreren Klassen">
+    <post id="13" author="Mentor1" time="Mittwoch, 11. April 2007, 20:39"><![CDATA[
+Liebe Studierende,
+
+für die Einsendeaufgaben LE EJP und ATT wichtig ist die Dokumentation der Klasse MyMath oder Triangle. Falls Sie die Dokumentation auch für die Test-Klasse erstellen wollen, können Sie es mit diesem Kommando machen:
+javadoc -d dokuverzeichnis *.java
+
+Mit *.java werden alle Klassen im Verzeichnis berücksichtigt.
+Mit freundlichen Grüßen
+    ]]></post>
+  </thread>
+  
+  <thread title="Triangle-Methoden fehlen">
+    <post id="14" author="Stdent6" time="Sonntag, 15. April 2007, 08:47"><![CDATA[ 
+Es fehlen in der Triangle.java zwei Methoden, damit ich überhaupt TriangleTest.java kompilieren kann.
+isIsosceles
+und
+calculateCircumference
+Die erste Methode soll die Gleichschenkligkeit angeben und die zweite Methode den Umfang. Klar, den Umfang sollten wir sowieso machen, aber sollen wir jetzt zusätzlich zu der Gleichschenkligkeit immer noch die Rechtwinkligkeit ausgeben lassen? Ist ja immerhin nicht das Gleiche.
+Waren die beiden Methoden als Platzhalter gedacht und wir sollten in der Triangle.java die Methoden programmieren?
+
+Und falls die isIsosceles-Methode eigentlich hätte da sein müssen, darf ich die einfach ersetzen oder soll ich da einen Code-Schnipsel von Ihnen einfügen?
+    ]]></post>
+    <post id="15" reply="14" author="Stdent7" time="Sonntag, 15. April 2007, 09:22"><![CDATA[
+Ich habe sie in der Triangel.jyva programmiert.
+
+    ]]></post>
+    <post id="16" reply="15" author="Markus Richter" time="Sonntag, 15. April 2007, 10:24"><![CDATA[
+So hab ich es auch gemacht.
+
+    ]]></post>
+    <post id="17" reply="16" author="Stdent3" time="Sonntag, 15. April 2007, 15:18"><![CDATA[
+Ich hab die "circum...." gelöscht und neu geschrieben. die methode zur prüfung der gleichseitigkeitigkeit einfach unverändert benutzt.
+
+hätte nur fast vergessen ein dreieck ohne rechten winkel zu prüfen.
+
+viel erfolg :)
+
+    ]]></post>
+    <post id="18" reply="14" author="Stdent6" time="Sonntag, 15. April 2007, 18:29"><![CDATA[
+Die beiden Methoden isIsosceles und calculateCircumference waren bei euch vorhanden? Bei mir waren sie in der TriangleTest.java nur aufgerufen, aber programmiert in der Triangle.java eben nicht.
+War ja kein Problem die zu schreiben, ich hatte mich nur gewundert, warum der Aufruf da ist, aber die Methode selbst nicht.
+    ]]></post>
+    <post id="19" reply="18" author="Stdent7" time="Sonntag, 15. April 2007, 19:22"><![CDATA[ 
+Soll bestimmt eine Übung für Boolsche-Operationen in Java sein.
+     ]]></post>
+    <post id="20" reply="19" author="Mentor1" time="Sonntag, 15. April 2007, 20:29"><![CDATA[  
+Liebe , liebe Studierende,
+
+der Aufruf der 2 Methoden isIsosceles und calculateCircumference in der Klasse TriangleTest.java ist ein Fehler. Ich habe ihn gemeldet. Diese 2 Methoden sollen Sie selbst programmieren und aufrufen. Danke für den Hinweis Frau Gorzelitz.
+
+Viele Grüße und frohes Schaffen
+    ]]></post>
+  </thread>
+  
+  <thread title="Üblicher Fehler mit Konstruktoren im ErgaenztesAuto.java">
+    <post id="21" author="Mentor1" time="Montag, 23. April 2007, 18:39"><![CDATA[ 
+Liebe Studierende,
+
+mehrere von Ihnen haben Schwierigkeiten mit den Konstruktoren der Klasse ErgaenztesAuto.java. Ich möchte versuchen, diese Schwierigkeiten hier weg zu räumen.
+Text der Aufgabe: "Erweitern Sie den Quellcode Ihrer Klasse EinfachesAuto.java um folgende Attribute:
+private String standort;
+private long fahrgestellnummer;"
+
+Also hat die Klasse jetzt folgende Attribute, und nur diese:
+private String besitzer;
+private String autotyp;
+private String farbe;
+private String standort;
+private int erstzulassung;
+private int leistung;
+private int kmStand;
+private String standort;
+private long fahrgestellnummer;
+
+Seite 11 "In einem Konstruktor werden den Attributen eines Objektes Anfangswerte zugewiesen."
+Also wird jetzt ein Konstruktor gebraucht, der ALLEN Attributen Werten zuweist:
+public ErgaenztesAuto(String besitzer, String autotyp, String farbe,
+int erstzulassung, int leistung, int kmStand, String standort,
+long fahrgestellnummer) {
+---}
+Was passiert wenn ein Konstruktor weniger Parameter als Attribute hat?
+Die Attribute, die im Konstruktor nicht initialisiert werden, bekommen default-Werte wie 0 für Attribute vom Typ int, null für referenzielle Typen usw.
+
+Alles klar?
+Mit freundlichen Grüßen
+
+PS: Bitte benutzen Sie das Forum mehr, um effizienter zu lernen. Man kann nicht lernen und schon wissen.
+     ]]></post>
+    <post id="22" reply="21" author="Stdent8" time="Montag, 23. April 2007, 22:10"><![CDATA[ 
+Ich denke das verständnis Problem mit dem Konstruktor lag an der Aufgabenstellung weil dort geschrieben ist:
+
+weiteren Konstruktor, der die neuen Attribute ebenfalls initialisiert.
+
+daraus könnte man lesen das man noch einen zweiten Konstruktor erstellen muss
+     ]]></post>
+    <post id="23" reply="22" author="Stdent6" time="Dienstag, 24. April 2007, 20:59"><![CDATA[ 
+So ging es mir auch. Wenn ich alle Attribute in einen Konstruktor hauen darf, ist es ja einfach.
+     ]]></post>
+    <post id="24" reply="23" author="Mentor1" time="Mittwoch, 25. April 2007, 11:09"><![CDATA[  
+Es ist in Ordnung 2 Konstruktoren zu haben, den alten sozusagen -- die neue Attribute erhalten standard default-Werte --, und den neuen mit allen 8 Parametern. 
+    ]]></post>
+  </thread>
+  
+<thread title="Taschenrechner">
+    <post id="25" author="Stdent9" time="Dienstag, 1. Mai 2007, 16:52"><![CDATA[
+Haben wir alle Informationen, um den Taschenrechner programmieren zu können?
+
+Vielen Dank,
+     ]]></post>
+    <post id="26" reply="25" author="Mentor1" time="Mittwoch, 2. Mai 2007, 03:07"><![CDATA[  
+Liebe, liebe Studierende,
+
+Ja! Ihre Aufgabe ist lediglich die Implementierung der Methode rechnen.
+Ich wünsche Ihnen ein gutes Gelingen.
+Mit freundlichen Grüßen
+    ]]></post>
+  </thread>
+  
+  <thread title="CLASSPATH Problematik">
+    <post id="27" author="Stdent10" time="Dienstag, 24. April 2007, 19:58"><![CDATA[
+Hallo an alle,
+
+ich bin gerade dabei LE07 zu machen. Soweit hat alles funktioniert, bis ich für das Import Package de. ... einen neuen Classpath gesetzt habe.
+
+Meine Dateien liegen im Ordner Studium/M2_Programmierung/
+
+dort habe ich auch das package de.vfh.... und so weiter reingelegt.
+
+Dann habe ich per Terminal set CLASSPATH=e:\Studium\M2_Programmierung\ gesetzt.
+
+Seit dem ich dass gemacht habe, funktioniert kein einziges Javaprogramm mehr. Habe schon gegoogelt und rumprobiert.
+
+Würde mich sehr über Hilfe freuen
+     ]]></post>
+    <post id="28" reply="27" author="Stdent11" time="Dienstag, 24. April 2007, 21:00"><![CDATA[  
+Hola,
+kontrollier doch mal ob deine PATH-Variable noch ordentlich zum jdk-Verzeichnis zeigt (man kann ja nie wissen...).  CLASSPATH würde ich probeweise auf ".;E:\" (sans Anführungszeichen) setzen, dann durchsucht er das gesamte Laufwerk.
+     ]]></post>
+    <post id="29" reply="28" author="Stdent10" time="Dienstag, 24. April 2007, 22:26"><![CDATA[  
+die PATH Variable passt noch zum jdk. das Problem ist, wenn ich die CLASSPATH auf e: setze, dann findet e mein Package nicht, welches ich importieren möchte. Auch wenn ich zwei CLASSPATH variablen setze, funktioniert es nicht.
+
+Wenn ich die CLASSPATH nicht setze oder auf e: setze dnn funktioniert wieder alles bis auf den import.
+     ]]></post>
+    <post id="30" reply="29" author="Mentor1" time="Mittwoch, 25. April 2007, 11:22"><![CDATA[  
+Lieber ,
+in welchem Verzeichnis sind Sie, wenn Sie javac oder java ausführen? Ist ., der momentane Verzeichnis mit Hilfe von ;.; auch im CLASSPATH?
+Ich weiss, dass solche Probleme viel Zeit rauben können.
+Viele Grüße
+     ]]></post>
+    <post id="31" reply="27" author="Stdent2" time="Mittwoch, 25. April 2007, 15:34"><![CDATA[  
+Hallo,
+
+versuch es mal mit "set CLASSPATH=.;E:\Studium\M2_Programmierung\"
+
+Der Importbefehl setzt glaube ich eine gewisse Verzeichnissstrucktur vorraus die erst ab "de" im Importbefehl beginnt.
+
+Alle Verzeichnisse/Ordner vorher MUSST du im Classpath benennen, sowie das aktuelle Arbeitsverzeichnis durch einen Punkt.
+
+Wenn du rumprobieren willst empfehle ich mit "javac -classpath [Pfade] Klasse.java" zu arbeiten anstatt mit "set" ständig Umgebungsvariablen zu verändern.
+
+Ich wünsch dir viel Glück und hoffe ich konnte helfen.
+     ]]></post>
+    <post id="32" reply="31" author="Mentor2" time="Mittwoch, 25. April 2007, 19:04"><![CDATA[  
+Guter hinweis. Aber da der Classpath von links nach rechts ausgewertet wird muss man auf die Reigenfolge achten.
+>>set CLASSPATH=.;E:\Studium\M2_Programmierung\<<
+. Ist ja das aktuelle Verzeichnes (das was ich Compilern bzw. Ausführen möchte) und das ist ja Abhängig von den Library’s (Klassensammlungen) die ihr benutzen wollt (:\Studium\M2_Programmierung\).
+Deshalb müsste man  >>set CLASSPATH=E:\Studium\M2_Programmierung\;.<<  schreiben. Das gilt auch für –cp –classpath bei java und javac.
+     ]]></post>
+    <post id="33" reply="32" author="Stdent10" time="Donnerstag, 26. April 2007, 09:19"><![CDATA[  
+Vielen Dank für den ganzen Input, dadurch funktioniert es jetzt endlich wie es soll.
+     ]]></post>
+    <post id="34" reply="33" author="Stdent12" time="Dienstag, 1. Mai 2007, 13:59"><![CDATA[  
+Hallöle zusammen,
+
+den CLASSPATH habe ich so im System und mit der entsprechenden Reihenfolge eingetragen. Ich arbeite mit Eclipse und nun wirft Eclpise folgenden Fehler aus : Exception in thread "main" java.lang.Error: Unresolved compilation problems: Cannot make a static reference to the non-static method getInputDouble(String) from the type Konsole
+
+Ich habe schon in Eclipse unter "JAVA BUILD PATH" - "LIBARIES" den Pfad zur Konsole angeben, aber irgendwie wirft er immer noch diesen Fehler aus.
+
+Weiß langsam nicht mehr weiter. Kann mir jemand weiterhelfen?
+
+Viele Grüße,
+    ]]></post>
+    <post id="35" reply="34" author="Mentor2" time="Dienstag, 1. Mai 2007, 16:26"><![CDATA[ 
+Das kann muss aber kein CLASSPATH Problem sein.
+Die Fehlermeldung sagt lediglich aus das du so nicht auf diese Methode zugreifen darfst.
+
+Funktionierendes  Beispiel (nicht statische Methode):
+String s = "Hallo";
+char c = s.charAt(0); // Der erster Buchstabe des Objektes s. => H
+
+Fehlerhaftes Beispiel (nicht statische Methode):
+String s = "Hallo";
+String.charAt(0); //Geht nicht da der PC nicht weiß von welchen String.
+// => Cannot make a static reference to the non-static method charAt(int)
+
+Funktionierendes  Beispiel (statische Methode):
+doubel a = Math.sqrt(2); //Auch Hilfsmethode genannt. Alle nötigen Informationen werden im parameteraufruf übergeben.
+
+Meinen Informationen zufolge solltest du die Methode aber statisch aufrufen können. Hast du vielleicht einen Codeschnipsel an dem du arbeitest? 
+Kann es sein das du einer deiner Klassen denselben Namen (Konsole)  gegeben hast? 
+    ]]></post>
+    <post id="36" reply="35" author="Stdent12" time="Mittwoch, 2. Mai 2007, 22:54"><![CDATA[ 
+Ich weiß nicht genau, was ich geändetr habe, aber es funktioniert :-)
+
+Aber trotzdem vielen Dank für die angebotene Hilfe.
+
+Viele Grüße 
+    ]]></post>
+    <post id="37" reply="36" author="Stdent13" time="Freitag, 4. Mai 2007, 11:48"><![CDATA[  
+Ich komme an dem Classpath-Problemen auch nicht weiter.
+Ich bekomme immer die Fehlermeldung "package de.vfh.gp1.bib.Konsole does not exist. Oder passend dazu "Class should be declared in a file Konsole.java", wenn ich die Klasse Konsole versuch anzusprechen. Dabei ist die da und der Pfad stimmt auch (hab verschieden Orte und Pfade versucht, verschieden Classpath Angaben gesetzt, ect)
+
+
+Ich denk, ich hab alle Tipps hier im Thread ausprobiert, google seit 3 Tagen wie ein Weltmeister und komme da einfach nicht weiter. :(
+
+Ich glaube, ich steige auch auf Eclipse um, da scheint man mehr/verständlichere Hilfe vom Programm zu bekommen?!
+
+Frustige Grüß,
+    ]]></post>
+    <post id="38" reply="37" author="Mentor1" time="Freitag, 4. Mai 2007, 17:43"><![CDATA[  
+Liebe Studierende,
+
+wenn Sie Probleme mit Konsole.java und CLASSPATH haben, kopieren Sie die Klasse Konsole.java ins aktuelle Verzeichnis und ENTFERNEN Sie die package Anweisung ganz oben im Quellcode. Das Kompilieren sollte dann problemlos gehen.
+Mit freundlichen Grüßen
+    ]]></post>
+  </thread>
+  
+  <thread title="Webkonferenz">
+    <post id="39" author="Stdent6" time="Montag, 2. April 2007, 14:53"><![CDATA[
+Wie funktioniert die Webkonferenz? Klar, Headset und Kamera ist logisch.
+Aber kann es sein, dass ich hier tatsächlich Windows nutzen muss? Unter Linux läuft nämlich gar nichts.
+    ]]></post>
+    <post id="40" reply="39" author="Stdent2" time="Montag, 2. April 2007, 15:51"><![CDATA[  
+Hallo,
+
+benutzt wird "Adobe Connect".
+
+Hier findest du die Systemvorraussetzungen:
+
+http://www.adobe.com/de/products/connect/productinfo/systemreqs/
+
+Für Linux also Firefox und Flash 9 oder höher
+
+Wenn dies bei dir erfüllt ist beschreib bitte genauer was bei dir auftritt
+    ]]></post>
+    <post id="41" reply="40" author="Stdent6" time="Montag, 2. April 2007, 16:10"><![CDATA[ 
+Auf dieser Seite:
+connect.oncampus.de/common/help/de/support/meeting_test.htm
+Bricht er schon bei Schritt 2 ab.
+
+Ehrlich gesagt, bin etwas überfordert, ob ich jetzt etwas (und wenn ja, was) installieren muss.
+Da ich etwas verplant war und gerade erst mitbekommen habe, dass morgen eine Konferenz ist, muss das ja eben auch schnell in Gang kommen.gemischt
+    ]]></post>
+    <post id="42" reply="40" author="Stdent6" time="Montag, 2. April 2007, 20:31"><![CDATA[ 
+Okay, jetzt geht es.
+Immer diese Zickereien bei den verschiedenen Paketen.
+
+Falls noch wer das Problem unter einer aktuellen Linux-Distribution hat, der öffne die Konsole und gebe
+sudo apt-get install flashplugin-installer
+ein.
+
+Mit dem Adobe Flash Plugin geht es nämlich. Mit dem anderen Flash Plugin nicht.
+   ]]></post>
+    <post id="43" reply="39" author="Stdent6" time="Dienstag, 8. Mai 2007, 19:50"><![CDATA[ 
+Ich hab mal wieder Probleme. Von den Einstellungen her ist bei mir alles gleich geblieben, sollte also funktionieren.
+Ich komm trotzdem nicht rein und falls ich es bis zum Start nicht hinbekomme, wäre die Aufzeichnung der Konferenz sehr nett. :)
+    ]]></post>
+  </thread>
+  
+  <thread title="Drücken Sie eine beliebige Taste...">
+    <post id="44" author="Mentor1" time="Freitag, 11. Mai 2007, 13:39"><![CDATA[
+Liebe Studierende,
+
+der Satz "Drücken Sie eine beliebige Taste...", der in mehreren Screenshots auch bei Einsendeaufgaben zu sehen ist, kommt automatisch bei der Ausführung von Programmen durch TextPad (Version 4 zumindest). Sie brauchen diesen nicht in Ihren Aufgaben zu berücksichtigen. Ich werde diesen "Fehler" melden.
+
+Mit freundlichen Grüßen
+    ]]></post>
+  </thread>
+  
+  <thread title="ESA LE10 - Wichtiger Hinweis">
+    <post id="45" author="Mentor1" time="Montag, 21. Mai 2007, 12:57"><![CDATA[
+Liebe Studierende,
+
+in der ESA sollen Sie eine eigene Ausnahme programmieren. Die Klasse FalscheErstzulassungAusnahme ist eine innere Klasse. Man greift auf ein FalscheErstzulassungAusnahme-Objekt von einer anderen Klasse, zum Beispiel aus der Test-Klasse, mit der üblicher . Notation:
+
+ErgaenztesAuto.FalscheErstzulassungAusnahme
+
+Mit freundlichen Grüßen
+    ]]></post>
+  </thread>
+  
+  <thread title="Gruppenarbeit für Einsendeaufgabe 9">
+    <post id="46" author="Stdent13" time="Donnerstag, 17. Mai 2007, 11:11"><![CDATA[
+Hi,
+
+hab grad eben realisiert, dass die Einsendeaufgabe für Montag in 2er Gruppen gemacht werden soll.
+Ich wollte gerade anfangen, da ich eh grad zeitlich voll im Streß bin (bin grad mitten im Umzug), ist das jetzt etwas doof, da ich noch keinen Partner habe.
+
+Wer mag denn? Bin auch nicht böse, wenn der/diejenige mehr Durchblick hat, als ich. ;)
+
+Ich fang auf jeden Fall dann schon mal an, oder versuch es wenigstens ...
+
+LG
+   ]]></post>
+    <post id="47" reply="46" author="Stdent3" time="Freitag, 18. Mai 2007, 10:54"><![CDATA[ 
+Hi,
+
+überrascht mich jetzt ebenfalls, dass wir die 08 zu zweit machen sollen.
+Ich wäre dabei, bin aber gerade selbst nen bissl im Stress. Aber Sonntag wird die Aufgabe dann angepackt. Passt dir das?
+
+LG
+   ]]></post>
+    <post id="48" reply="47" author="Stdent14" time="Freitag, 18. Mai 2007, 18:16"><![CDATA[ 
+Hallo,
+ich suche auch noch einen Partner ;)
+
+Falls jemand noch frei ist, bitte melden!
+
+lg
+   ]]></post>
+    <post id="49" reply="48" author="Stdent11" time="Freitag, 18. Mai 2007, 19:35"><![CDATA[  
+Hier! :)
+Habe mir den Spaß allerdings noch gar nicht angeguckt und setze mich erst am Samstag ran...
+   ]]></post>
+    <post id="50" reply="46" author="Stdent13" time="Freitag, 18. Mai 2007, 20:31"><![CDATA[  
+Hab jetzt mit André ausgemacht, dass wir es am Sonntag versuchen.
+Aber wenn ich die Aufgabe richtig verstehe, ist es garnicht so schwer. ;)
+   ]]></post>
+    <post id="51" reply="46" author="Stdent15" time="Montag, 21. Mai 2007, 08:36"><![CDATA[   
+Hallo,
+
+ich bin zu spät, ich weiß, aber gibts vielleicht noch jemand der noch nicht angefangen hat und noch jemanden sucht?
+
+LG
+   ]]></post>
+    <post id="52" reply="51" author="Stdent16" time="Montag, 21. Mai 2007, 09:33"><![CDATA[   
+Hallo ,
+
+ich bin leider genau so spät und habe auch noch niemanden...
+
+Gruß,
+   ]]></post>
+    <post id="53" reply="52" author="Stdent15" time="Montag, 21. Mai 2007, 10:33"><![CDATA[  
+Hört sich doch super an. Wie sieht dein Zeitplan aus?
+Ich muss gestehen, das ich mir die ganze Sache noch nicht wirklich durchgelesen habe und ich leider auch zu den gehöre, die sich mit der Programmierung sehr schwer tut. Sprich ich bin nicht die "hellste" in der Sache!
+
+Wie schauts bei dir? Wäre ehrlich gesagt dankbar, wenn du das Gegenteil von mir wärst!
+
+LG
+   ]]></post>
+    <post id="54" reply="46" author="Stdent6" time="Montag, 21. Mai 2007, 18:36"><![CDATA[  
+Bin wieder auf der Suche nach einem Partner für die Arbeit. Ist noch jemand ohne?
+   ]]></post>
+    <post id="55" reply="46" author="Stdent8" time="Montag, 21. Mai 2007, 19:06"><![CDATA[  
+Benötigt noch jemand einen Partner? Habe die Aufgabe soweit schon fertig :)
+   ]]></post>
+    <post id="56" reply="55" author="Stdent9" time="Montag, 21. Mai 2007, 19:19"><![CDATA[  
+Ja, ich bin auch noch "ohne".
+Falls Du inzwischen noch keinen gefunden hast...
+   ]]></post>
+    <post id="57" reply="56" author="Stdent8" time="Montag, 21. Mai 2007, 19:26"><![CDATA[  
+nein habe noch niemanden. soll dir mal mein zeug zuschicken?
+    ]]></post>
+    <post id="58" reply="57" author="Stdent9" time="Montag, 21. Mai 2007, 20:06"><![CDATA[  
+
+Ja, das wäre gut. Ich schicke meinen Vorschlag auch mal rüber.
+    ]]></post>
+  </thread>
+  
+  <thread title="LE_VRB Reporter-Klasse">
+    <post id="59" author="Stdent6" time="Sonntag, 3. Juni 2007, 20:34"><![CDATA[ 
+Welche Funktion hat die Reporter-Klasse, die ich da erstellen soll? Es ist doch alles per Konsole durch die ShapeTester-Klasse schon ausgegeben.
+
+Ich versteh jetzt die Aufgabe "Programmieren sie dazu eine Hilfsklasse Reporter, in der sich die Methode report mit der folgenden Signatur befindet: static public void report(Shape s)." nicht.
+    ]]></post>
+    <post id="60" reply="59" author="Mentor1" time="Montag, 4. Juni 2007, 11:18"><![CDATA[  
+Liebe , liebe Studierende,
+
+exzellente Frage. Es gibt keinen zwingenden Grund, diese Aufgabe mit Hilfe der Reporter-Klasse zu lösen. Es zu machen gibt ein Beispiel, wie man mit Hilfe der Vererbung und Polymorphie Code faktorisieren kann.
+
+In der ShapeTester-Klasse müssen Sie mehrere Objekte erzeugen, und für jedes Objekt im Prinzip immer die gleichen Methoden (circumference, area, toString usw.) aufrufen. Die Reporter-Klasse mit der Klassen-Methode report vermeidet, dass Sie immer in der Klasse ShapeTester 4 mal das Gleiche schreiben. Alle Methoden (circumference, area, toString usw.) rufen Sie nur ein Mal in der report Methode auf. In der Klasse ShapeTester brauchen Sie nur die verschiedene Shape-Objekte zu erzeugen und nur die Methode report aufzurufen, jedesmal mit einem anderen Shape-Objekt (egal welche Unterklasse) als Parameter.
+
+Ist diese Antwort einleuchtend?
+Viele Grüße
+    ]]></post>
+    <post id="61" reply="60" author="Stdent6" time="Montag, 4. Juni 2007, 14:59"><![CDATA[ 
+Ah, dankeschön. Ja, das macht Sinn. Ich habe das allerdings etwas anders gelöst und hoffe, dass es so aber auch okay ist. 
+    ]]></post>
+  </thread>
+  
+  <thread title="Präsenz 01 - Telefonlisteneintrag.java">
+    <post id="62" author="Stdent16" time="Freitag, 15. Juni 2007, 13:49" attachment="VererbungS10.Druckfehler.pdf"><![CDATA[
+Hallo zusammen,
+
+habe gerade versucht, die Klassen Buch und Fachbuch von S. 10/19 aus Kapitel Vererbung nachzuschreiben. Wenn ich das richtig verstanden habe, sollte es wie beschrieben funktionieren. Ich bekomme aber eine Fehlermeldung, habe schon einiges ausprobiert, den Fehler aber noch nicht gefunden, sodass ich das gerade nicht richtig nachvollziehen kann? Sieht jemand den Fehler und kann mir helfen? 
+
+Ciao
+    ]]></post>
+    <post id="63" reply="62" author="Stdent16" time="Samstag, 16. Juni 2007, 16:52"><![CDATA[ 
+Hallo zusammen,
+
+es fehlen die Anführungszeichen als Parameter für den Aufruf des Superkonstruktors in beiden Fällen, klaro:
+
+super("");
+
+Ciao
+    ]]></post>
+  </thread>
+  
+  <thread title="Klausur char als operator">
+    <post id="64" author="Stdent10" time="Donnerstag, 21. Juni 2007, 15:14"><![CDATA[
+Ich bin in den Testklausuren über die Aufgabe gestoßen, eine Funktion zu entwickeln, wo ein Operator als char übergeben wird.
+
+was natürlich nicht funktioniert ist
+
+function ergebnis( char op ) {
+
+int ergebnis = 3 op 3;
+
+}
+
+gibt es eine Möglichkeit den char als operator umzuwandeln? Die einzige Möglichkeit die mir einfallen würde wäre eine Swicth Case anweisung:
+
+switch(op) {
+case '+':
+int ergebnis = 3 + 3;
+break;
+case '-':
+int ergebnis = 3 - 3;
+break;
+case '*':
+int ergebnis = 3 * 3;
+break;
+case '/':
+int ergebnis = 3 / 3;
+break;
+}
+
+würde es aber gerne einfacher gestalten und einfach den char zum operator umwandeln.
+    ]]></post>
+  </thread>
+  
+  <thread title="Klausur Equals == Aufgabe">
+    <post id="65" author="Stdent10" time="Donnerstag, 21. Juni 2007, 17:26"><![CDATA[ 
+So bei den Probeklausuren bin ich wieder auf eine Unverständlichkeit gestoßen.
+
+Aufgabe Interpretieren sie die Aufgabe
+
+char c1 = 'A';
+char c2 = 'A';
+char c3 = c1;
+String s1 = new String("zeichenkette");
+String s2 = new String("zeichenkette");
+String s3 = s1;
+System.out.println(c1==c2);
+System.out.println(c1==c3);
+System.out.println(s1==s2);
+System.out.println(s1==s3);
+System.out.println(s1.equals(s2));
+System.out.println(s1.equals(s3));
+
+Nach dem was wir gelernt haben müsste raus kommen
+
+false
+true
+false
+true
+true
+true
+
+allerdings wenn ich die Funktion durch den Compiler laufen lasse dann wird das erste Ergebnis als true ausgegeben. Hier das Compiler Ergebnis
+
+true
+true
+false
+true
+true
+true
+
+Kann mir das einer erklären??
+    ]]></post>
+    <post id="66" reply="65" author="Stdent16" time="Donnerstag, 21. Juni 2007, 22:12"><![CDATA[  
+Hallo ,
+
+aus meiner Sicht ist true richtig, 'A' gleich 'A'.
+
+Warum erwartest Du false?
+
+Grüße 
+    ]]></post>
+    <post id="67" reply="65" author="Stdent16" time="Donnerstag, 21. Juni 2007, 22:34"><![CDATA[   
+das hängt wahrscheinlich damit zusammen, dass char ein primitiver Datentyp ist, String aber ein referentieller. hier werden wahrscheinlich nicht die Werte verglichen, sondern die Bezeichner, also wäre s1 ungleich s2, false. Weil die Werte bei referentiellen Typen nicht direkt dort gespeichert werden, aber ohne Gewähr. 
+
+    ]]></post>
+    <post id="68" reply="67" author="Stdent10" time="Freitag, 22. Juni 2007, 12:18"><![CDATA[   
+Ich habe es mittlerweile verstanden und einfach komplett falsch gedacht. Der Vergleichsoperator zeigt nur false wenn Objekte mit gleichen Werten initialisiert werden und nicht wenn Variablen. Also primitive und referentielle Datentypen.
+
+Vielen Dank für deine Antwort
+    ]]></post>
+    <post id="69" reply="68" author="Mentor2" time="Freitag, 22. Juni 2007, 17:12"><![CDATA[   
+Hallo Leute,
+mittlerweile habt ihr das ja alles schon richtig verstanden. Ich fasse das dennoch mal zusammen.
+Normalerweise gilt
+int a = 5;
+int b = 5;
+if(a == b)
+  System.out.println("A and B has the same value");
+else
+  System.out.println("A and B has different values");
+
+StringBuider sa = new StringBulder("a");
+StringBuider sb = new StringBulder("a");
+StringBuider sc =sa;
+
+if(sa == sb)
+  System.out.println("sA and sB has the same reverence???");
+if(sa == sc)
+  System.out.println("sA and sC has the same reverence! You can also say the value of the REVERENCE is the same");
+
+ok. String verhält sich leider anders alles andere Klassen. Wenn ich Strings über den Literal erzeuge
+String st1 = "Hallo";
+verhält sich Java etwas extravagant.
+Java hat für sowas einen Stringconstantpool. Bedeutet Java hat für sowas einen extra Speicherbereich wo er reinschaut. Hab ich hier schon Hallo? Nein! Ok dann pack ich hier das rein und gebe die Sicherstelle zurück.
+String st1Again = "Hallo";
+Hier gehen wir wieder zum Stringconstantpool und schauen: Haben wir schon Hallo? Ja! Dann brauch ich den ja nicht anlegen und ich gebe die einfach die Reverenz.
+Daraus ergibt sich dann
+System.out.println(st1 == st1Again); // => true
+Das funktioniert so "gut" da Strings immutable sind. Ich glaube die Idee ist her Speicher zu sparen.
+Das gilt nicht für Strings die über new String("Hallo"); oder eingaben entstanden sind.
+
+P.S.
+Hierfür könnt ihr euch auch nochmal die Methode intern() von String anschauen
+P.P.S.
+Das gilt übrigens auch für Wapper Klassen z.B. Integer die über Autoboxing im Bereich von -128 bis 127. Aber ich Denke nicht das es Klausurrelevant ist.
+    ]]></post>
+  </thread>
+  
+  <thread title="LE12 Reihung Aufgabe 1">
+    <post id="70" author="Stdent17" time="Sonntag, 24. Juni 2007, 12:53" attachment="Reihung.zip"><![CDATA[
+Hallo allerseits,
+zur Info ich hab mal die 1. Aufgabe von LE12 (Reihung) hochgeladen, da Frau Merceron mich drum gebeten hat. Vielleicht hilfts ja dem ein oder anderen.
+Viele Grüße
+    ]]></post>
+    <post id="71" reply="70" author="Stdent2" time="Montag, 25. Juni 2007, 11:34" attachment="Rundreise.zip"><![CDATA[   
+Auch von mir ein Hallo.
+
+Ich wurde gebeten Euch den 2ten Teil der Array Aufgaben zur Verfügung zu stellen.
+
+Also hänge ich mich mal hier an.
+
+Beste Grüße
+    ]]></post>
+  </thread>
+  
+  <thread title="LE13 Zeichenketten">
+    <post id="72" author="Stdent6" time="Donnerstag, 28. Juni 2007, 10:47" attachment="Zeichenkettenanalyse.java"><![CDATA[ 
+Auf Wunsch von  lade ich die Zeichenkettenanalyse.java hoch.
+    ]]></post>
+    <post id="73" reply="72" author="Mentor1" time="Freitag, 29. Juni 2007, 07:48"><![CDATA[  
+Diese Lösung ist ein gutes Beispiel einer Stärke der OO-Programmierung: wiederverwenden. Die Methode zeichenZaehlen erledigt eine bestimmte Aufgabe, ist leicht zu testen, und wird wieder verwendet in anderen Methoden, die dadurch kürzer und leichter zu programmieren sind.
+
+Wiederverwendbarkeit ist auch ein Prinzip hinter MVC, Model View Controller, die wir mit graphischen Oberflächen in Programmieren II sehen werden. 
+    ]]></post>
+  </thread>
+  
+  <thread title="Klausur 2008">
+    <post id="74" author="Stdent9" time="Sonntag, 1. Juli 2007, 17:08"><![CDATA[ 
+Ich habe eine Verständnisfrage zur Klausur von 2008.
+Bei Aufgabe 4 heisst gibt es auf der zweiten Seite dieses Programmstück
+
+PunkteKonto pk1 = new PunkteKonto ();
+PunkteKontoA pk2 = new PunkteKontoA ("455567");
+System.out.println(PunkteKontoA.getAnzahlKontos());
+PunkteKontoA pk3 = new PunkteKontoA (8, "466787");
+PunkteKonto[] pkA = {pk1, pk2, pk3};
+for (PunkteKonto pk : pkA ){
+System.out.println(pk);
+}
+
+Was mir unklar ist: warum wird mit der letzten Zeile die Methode "toString()" aufgerufen?
+
+Vielen Dank!
+    ]]></post>
+    <post id="75" reply="74" author="Stdent17" time="Sonntag, 1. Juli 2007, 19:57"><![CDATA[  
+Die Klasse Object (jede Klasse erbt von Object) besitzt eine Methode toString(), die wir hier in dem Fall in der Klasse PunkteKontoA überschrieben haben. Die JVM ruft glaube automatisch diese Methode im Fall von System.out.println() auf, um das Objekt als String repräsentieren zu können.
+Kurz (vereinfacht) gesagt: System.out.println(pk) ist im Grunde das Gleiche wie System.out.println(pk.toString()).
+
+Gruß 
+
+P.S. Ich war darüber auch gestolpert (schau mal auch unter chapter 5.11.1 bei Galileo unter:http://openbook.galileocomputing.de/javainsel/javainsel_05_011.html)
+    ]]></post>
+    <post id="76" reply="75" author="Stdent9" time="Sonntag, 1. Juli 2007, 21:08"><![CDATA[  
+Vielen Dank, Franzi! Das hilft mir sehr weiter, auch der Galileo-Link!
+
+    ]]></post>
+    <post id="77" reply="76" author="Mentor1" time="Montag, 2. Juli 2007, 19:42"><![CDATA[  
+Liebe , liebe Studierende,
+
+sehr gute Antwort. Die Methode println benutzt die Zeichenkette-Darstellung eines Objektes, also die Methode toString. Hier möchte ich die Gelegenheit nutzen, um zu erklären, was mit Arrays passiert.
+Sei die Deklaration int [] ar1; und später im Programm System.out.println(a).
+Die Methode toString der Klasse Object wird aufgerufen, weil jede referenzieller Typ, auch Arrays, eine Untertyp vom Object ist. Die Methode toString der Klasse Object gibt einfach zurück, was in der Variable a ist, nämlich eine Referenz. Im allgemeinen möchte man, dass die Elemente des Arrays zur Konsole ausgegeben werden. Man muss entweder die Schleife durch alle Element selbst schreiben, etwa so:
+for(int a : ar1){
+System.out.print (a + " ");
+}
+oder die Methode toString der Klasse java.util.Arrays aufrufen, die eine sehr schöne Darstellung macht. Wenn die Elemente des Arrays selbst Arrays sind, dann reicht die toString Methode aus java.util.Arrays nicht, es werden die Referenzen der Array-Elemente ausgegeben. Da hilft die deepToString Methode weiter. Beispiel:
+int [] [] ar2;
+System.out.println(java.util.Arrays.deepToString(ar2));
+
+Mit freundlichen Grüßen
+    ]]></post>
+  </thread>
+  
+    <thread title="Treffen nach den Klausuren">
+    <post id="78" author="Stdent17" time="Montag, 2. Juli 2007, 19:44"><![CDATA[
+Hi Leute,
+ich hab mal nen Doodle Link mitangelegt, wenn ihr Lust habt auf ein Treffen nach den Klausuren am Freitag oder Samstag, dann tragt euch doch ein. Ich hätte auf jeden Fall Lust, zwar ist Montag noch ne Mediendesign Klausur aber das Schwerste ist denke erstmal geschafft. Na was meint ihr, Freitag direkt nach Einführung in die Informatik noch ins Schadee ne Kleinigkeit was Essen/Trinken gehen, oder am Samstag 18.00, wenn der Letzte seine mündliche Klausur hinter sich hat? Ich könnte an beiden Tagen und würde mich nach der Mehrheit richten.
+
+HIER DER DOODLE LINK:
+http://www.doodle.com/3i7p4k2xstzr7nm9
+
+
+PS.:Ich setz den gleichen Link auch noch ins Mathe Forum rein, dann denke habe ich die größte Schnittmenge erwischt.
+
+Viele Grüße
+    ]]></post>
+    <post id="79" reply="78" author="Stdent17" time="Mittwoch, 4. Juli 2007, 09:09"><![CDATA[  
+Hi Leute,
+nicht wundern, wenn ihr euch fürs Treffen eintragen wolltet und der Link nicht direkt geklappt habt, dann kopiert den Link und setzt ihn in einem neuen Bowserfenster rein, dann funktionierts. (ein paar Leute hatten ja schon Erfolg lächelnd)
+
+Gruß
+    ]]></post>
+    <post id="80" reply="81" author="Stdent17" time="Donnerstag, 5. Juli 2007, 18:29"><![CDATA[   
+Hallo Leute,
+da die Mehrheit für Samstag war, sehn wir uns also Samstag um 18.00 Uhr, im Schadée (Café Schadé,Tegeler Str. 23, 13353 Berlin).
+Freu mich, bis denn.
+Gruß
+    ]]></post>
+    <post id="81" reply="80" author="Mentor1" time="Freitag, 6. Juli 2007, 20:32"><![CDATA[   
+Liebe , liebe Studierende,
+
+ich werde nicht kommen können, wünsche Ihnen aber viel Spaß und einen entspannten Abend nach dem Stress der Klausuren!
+Viele Grüße
+    ]]></post>
+  </thread>
+  
+</forum>

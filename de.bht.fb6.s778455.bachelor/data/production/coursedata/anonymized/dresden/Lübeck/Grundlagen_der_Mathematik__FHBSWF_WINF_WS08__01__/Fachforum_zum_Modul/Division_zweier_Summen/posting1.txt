@@ -1,0 +1,14 @@
+ID: 16659
+CREATION_DATETIME: 1224008379
+MODIFICATION_DATETIME: 1224008438
+TITLE: Division zweier Summen
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>, 
+wie eben im Chat besprochen, bitte die Zwischenschritte zu den Beispielen aus dem Modul.
+1. Bsp.: (300+70+2) : (30+1) = 10+2 = 12
+2. Bsp.: (20a2+2ab-6b2) : (4a-2b) = 5a+3b
+3. Bsp.: (14a2+2ab-3b2) : (2a+2b) = 7a - 6b + 9b2 : ( 2a + 2b ) 
+(hoffe, dass war jetzt richtig)
+http://moodle.oncampus.de/modules/ir043/onmod/matheI/lo2_reelle/1/onCampusBook/11/unit. html
+TAGGED_CONTENT:

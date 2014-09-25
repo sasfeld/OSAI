@@ -1,0 +1,36 @@
+ID: 2015
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Die Indizes beginnen bei 0.
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Sorgen;weight:1.0;significance:7.96361738687068;degreegeneralization:7;uri:19989104
+TOPIC_ZOOM_TAG: value:Sorgen und Ängste;weight:1.0;significance:7.86436242877534;degreegeneralization:6;uri:19989121
+TOPIC_ZOOM_TAG: value:Probleme im Bereich Leben und Alltag;weight:1.0;significance:6.26919914413383;degreegeneralization:5;uri:20147986
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+POS_TAG: value:hrung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Inputarray;weight:0.0;uri:;postag:NN
+POS_TAG: value:Stunden;weight:0.0;uri:;postag:NN
+POS_TAG: value:Werte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sorgen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Indizes;weight:0.0;uri:;postag:NN
+POS_TAG: value:Stelle;weight:0.0;uri:;postag:NN
+POS_TAG: value:Workgroupsize;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ergebnisse;weight:0.0;uri:;postag:NN
+POS_TAG: value:globalDimX;weight:0.0;uri:;postag:NN
+POS_TAG: value:localDimX;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kernel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Erkenntnis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tester;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Die Indizes beginnen bei 0.
+
+Und bei der Workgroupsize musst du darauf achten, dass in der globalDimX genauso viele drinstehen, wie du in die localDimX schreibst.
+
+Ich mache mir derzeit allerdings um was ganz anderes Sorgen. Ich dachte ja, dass die Ausführung korrekt funktionieren würde. Allerdings tut sie das nicht, es kommen falsche Ergebnisse zurück. Ich such jetzt schon mehrere Tage und heute schon wieder 6 Stunden... bisherige Erkenntnis: er kopiert das Inputarray nicht rüber (ich nutze noch den Tester mit dem Sum-Kernel), nur die erste Stelle des Arrays, danach stehen verrückte Werte... Und ich hab immer noch keinen <REMOVED_PERSON_ENTITY> wieso
+TAGGED_CONTENT:
+Die_ART Indizes_NN beginnen_VVFIN bei_APPR 0_CARD ._$. Und_KON bei_APPR der_ART Workgroupsize_NN musst_VVFIN du_PPER darauf_PROAV achten_VVINF ,_$, dass_KOUS in_APPR der_ART globalDimX_NN genauso_ADV viele_PIDAT drinstehen_VVFIN ,_$, wie_PWAV du_PPER in_APPR die_ART localDimX_NN schreibst_VVFIN ._$. Ich_PPER mache_VVFIN mir_PPER derzeit_ADV allerdings_ADV um_APPR was_PWS ganz_ADV anderes_ADJA Sorgen_NN ._$. Ich_PPER dachte_VVFIN ja_ADV ,_$, dass_KOUS die_ART Ausführung_NN korrekt_ADJD funktionieren_VVINF würde_VAFIN ._$. Allerdings_ADV tut_VVFIN sie_PPER das_PDS nicht_PTKNEG ,_$, es_PPER kommen_VVFIN falsche_ADJA Ergebnisse_NN zurück_PTKVZ ._$. Ich_PPER such_VVFIN jetzt_ADV schon_ADV mehrere_PIAT Tage_NN und_KON heute_ADV schon_ADV wieder_ADV 6_CARD Stunden_NN ..._$( bisherige_ADJA Erkenntnis_NN :_$. er_PPER kopiert_VVFIN das_ART Inputarray_NN nicht_PTKNEG rüber_PTKVZ -LRB-_TRUNC ich_PPER nutze_VVFIN noch_ADV den_ART Tester_NN mit_APPR dem_ART Sum-Kernel_NN -RRB-_TRUNC ,_$, nur_ADV die_ART erste_ADJA Stelle_NN des_ART Arrays_NE ,_$, danach_PROAV stehen_VVFIN verrückte_ADJA Werte_NN ..._$( Und_KON ich_PPER hab_VAFIN immer_ADV noch_ADV keinen_PIAT <_NN REMOVED_PERSON_ENTITY_NE >_CARD wieso_PWAV 

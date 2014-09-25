@@ -1,0 +1,10 @@
+ID: 117494
+CREATION_DATETIME: 1321885574
+MODIFICATION_DATETIME: 1321885574
+TITLE: Kursplan Update
+PARENT_POSTING_ID: 0
+CONTENT:
+Bitte beachten Sie die Verschiebung der Pflichttermine im Kursplan. Es gilt der Praesenzstundenplan der VFH, an den ich den Kursplan (auf einer alten Fassung beruhend) nun angepasst habe.
+Weiterhin duerfen Sie sich den Januar-Termin als Pflichttermin nach (vorheriger) Absprache mit mir anrechnen lassen.
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

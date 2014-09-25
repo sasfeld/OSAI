@@ -1,0 +1,9 @@
+ID: 476
+CREATION_DATETIME: 1351029600000
+MODIFICATION_DATETIME: 1351029600000
+TITLE: **Antwort:** Natürlic
+PARENT_POSTING_ID: 471
+POSTING_TYPE: answer
+CONTENT:
+**Antwort:** Natürlich. Die <REMOVED_PERSON_ENTITY> können z. B. in Photoshop auf die entsprechende Größe gebracht werden. Abgeben nicht vergessen!
+TAGGED_CONTENT:

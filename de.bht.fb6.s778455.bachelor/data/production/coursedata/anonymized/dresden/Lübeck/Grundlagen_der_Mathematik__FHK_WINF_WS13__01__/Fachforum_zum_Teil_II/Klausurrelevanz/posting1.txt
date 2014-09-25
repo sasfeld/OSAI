@@ -1,0 +1,10 @@
+ID: 245933
+CREATION_DATETIME: 1382085250
+MODIFICATION_DATETIME: 1382085271
+TITLE: Klausurrelevanz
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+ich wollte hier nur mal sichergehen. Im Hinweis steht, dass LO6 komplett nicht klausurrelevant ist. Wenn das LO6 geöffnet wird steht nur bei einem <REMOVED_PERSON_ENTITY> (Digitale Schaltnetze), dass es nicht klausurrelevant ist. Ich gehe davon aus, dass der Hinweis richtig ist und damit LO6 komplett übersprungen werden kann. Ist das so in Ordnung?
+Viele GrüßeEddie <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

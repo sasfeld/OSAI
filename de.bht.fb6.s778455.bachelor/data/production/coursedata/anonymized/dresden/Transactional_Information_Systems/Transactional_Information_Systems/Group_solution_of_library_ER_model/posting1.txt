@@ -1,0 +1,11 @@
+ID: 687
+CREATION_DATETIME: 1352329200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Hi everyone,
+here is the group solution from yesterday. It is not complete and other models are also possible.
+http://wwwpub.zih.tu-dresden. de/~karnagel/Library_ER_model_GroupSolution. pdf
+TAGGED_CONTENT:

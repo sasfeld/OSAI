@@ -1,0 +1,12 @@
+ID: 769
+CREATION_DATETIME: 1352847600000
+MODIFICATION_DATETIME: 1352847600000
+TITLE: Ok, regarding question 3, your answer is already a good example of bad things that can happen. If a c...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 754
+POSTING_TYPE: answer
+CONTENT:
+Ok, regarding question 3, your answer is already a good example of bad things that <NAME_CORPUS_REPLACEMENT> happen. If a call before the first malloc failed, errno was already set. Malloc is free to reset errno if it wants.
+
+Check the comment regarding errno manual here: https://auditorium. inf. tu-dresden. de/posts/566#post-768
+TAGGED_CONTENT:

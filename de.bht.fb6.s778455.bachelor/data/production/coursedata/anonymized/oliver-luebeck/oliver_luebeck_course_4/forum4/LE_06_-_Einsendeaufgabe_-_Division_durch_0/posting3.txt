@@ -1,0 +1,13 @@
+ID: 33
+CREATION_DATETIME: 1177342020000
+MODIFICATION_DATETIME: 1177342020000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 32
+CONTENT:
+
+    Mal eine ganz grundsätzliche Frage. Die Werte sollen ausgegeben werden, wenn wir das Programm in unserer Eingabeaufforderung ausführen oder? Also direkt ausgegeben werden? Irgendwie verwirrt mich die Formulierung gerade.
+
+Grüße
+    
+TAGGED_CONTENT:

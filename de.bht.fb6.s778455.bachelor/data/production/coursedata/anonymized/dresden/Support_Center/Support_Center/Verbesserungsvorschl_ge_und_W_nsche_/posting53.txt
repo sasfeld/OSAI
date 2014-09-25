@@ -1,0 +1,10 @@
+ID: 1200
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: See also:
+https://github.com/auditorium/auditorium/issues/100
+PARENT_POSTING_ID: 1196
+POSTING_TYPE: comment
+CONTENT:
+Jetzt auch als [GitHub Issue](https://github. com/auditorium/auditorium/issues/100).
+TAGGED_CONTENT:

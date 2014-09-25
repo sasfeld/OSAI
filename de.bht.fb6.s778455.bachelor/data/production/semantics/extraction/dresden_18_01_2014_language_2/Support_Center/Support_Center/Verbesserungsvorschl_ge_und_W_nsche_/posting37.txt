@@ -1,0 +1,10 @@
+ID: 807
+CREATION_DATETIME: 1353279600000
+MODIFICATION_DATETIME: 1359327600000
+TITLE: Statt den Header an sich zu verkleinern, könnte man ihn einklappbar machen, vgl. Wikipedia-Spendenauf...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 369
+POSTING_TYPE: answer
+CONTENT:
+Statt den Header an sich zu verkleinern, könnte man ihn einklappbar machen, vgl. Wikipedia-Spendenaufruf. Gerade auf Netbooks/Tablets wäre das ein riesiger Usability-Boost. Bräuchte nur ein Cookie und zwei Scriptzeilen mehr.
+TAGGED_CONTENT:

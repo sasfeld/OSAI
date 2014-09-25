@@ -1,0 +1,11 @@
+ID: 414
+CREATION_DATETIME: 1350511200000
+MODIFICATION_DATETIME: 1350511200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+die Veranstaltung Medien und Medienströme wird seit dem SS 12 <NAME_CORPUS_REPLACEMENT> Prof. <REMOVED_PERSON_ENTITY>, Professur für Multimedia-Technologie gehalten - URL: http://www.mt.inf.tu-dresden. de/lehre/MMS/.
+Danke
+TAGGED_CONTENT:

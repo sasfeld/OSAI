@@ -1,0 +1,14 @@
+ID: 558
+CREATION_DATETIME: 1351375200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Wie <NAME_CORPUS_REPLACEMENT> vielen erwünscht und nun endlich implementiert: [erweiterte Einstellungen für Emails]( https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/users/edit).
+Folgende Funktionen sind nun verfügbar:
+1. Email Notifications auf neue Kommentare oder Antworten, wenn man etwas geschrieben hatte (unabhängig davon, ob man dem Kurs folgt)
+2. Email Notifications bei Updates innerhalb der abonnierten Kurse
+3. Email Notifications können nun aktiviert oder deaktiviert werden für jeden Kurs separat, setzt aktiverte Option [2] voraus
+Unabhängig <NAME_CORPUS_REPLACEMENT> diesen Einstellungen bekommt jeder auf basis seiner abonnierten Kurse weiterhin Mitteilungen innerhalb der Weboberfläche. Hier wurden Mitteilungen für neue Kommentare und Antworten hinzugefügt.
+TAGGED_CONTENT:

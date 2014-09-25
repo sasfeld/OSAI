@@ -1,0 +1,16 @@
+ID: 117569
+CREATION_DATETIME: 1328516341
+MODIFICATION_DATETIME: 1328516341
+TITLE: Re: Probeklausur
+LANGUAGE: GERMAN
+POS_TAG: value:Aufbau;weight:0.0;uri:;postag:NN
+POS_TAG: value:Erfahrung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aussage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabentypen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aehnlichkeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skript;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117568
+CONTENT:
+Zur inhaltlichen Aehnlichkeit werde ich keine Aussage machen, da ist klar, das alles aus dem Skript kommen kann :-) Von der Erfahrung her sind Aufbau und Aufgabentypen allerdings aehnlich.
+TAGGED_CONTENT:
+Zur_APPRART inhaltlichen_ADJA Aehnlichkeit_NN werde_VAFIN ich_PPER keine_PIAT Aussage_NN machen_VVINF ,_$, da_ADV ist_VAFIN klar_ADJD ,_$, das_ART alles_PIS aus_APPR dem_ART Skript_NN kommen_VVINF kann_VMFIN :--RRB-_TRUNC Von_APPR der_ART Erfahrung_NN her_APZR sind_VAFIN Aufbau_NN und_KON Aufgabentypen_NN allerdings_ADV aehnlich_ADJD ._$. 

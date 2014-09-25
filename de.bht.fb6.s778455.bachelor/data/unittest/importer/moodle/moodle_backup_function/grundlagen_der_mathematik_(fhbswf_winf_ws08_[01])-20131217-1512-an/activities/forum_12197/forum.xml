@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2251" moduleid="12197" modulename="forum" contextid="18107">
+  <forum id="2251">
+    <type>general</type>
+    <name>Allgemeines Forum</name>
+    <intro>Hier können Sie übergeordnete und organisatorische Fragen diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>2</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1185448275</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="6505">
+        <name>S: sinnvolle Mathesoftware</name>
+        <firstpost>16531</firstpost>
+        <userid>2549</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1223647760</timemodified>
+        <usermodified>2537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16531">
+            <parent>0</parent>
+            <userid>2549</userid>
+            <created>1223401377</created>
+            <modified>1223401377</modified>
+            <mailed>1</mailed>
+            <subject>S: sinnvolle Mathesoftware</subject>
+            <message>Hallo,&lt;br /&gt;&lt;br /&gt;kann mir jemand von Euch eine &amp;quot;sinnvolle&amp;quot; Software nennen um Matheformeln zu erstellen? Wir dürften ja eigentlich alle auf der Suche danach sein bzw. etwas passendes gefunden haben.&lt;br /&gt;&lt;br /&gt;MS Office Formeleditor und OO Formeleditor sind nicht so das wahre.&lt;br /&gt;&lt;br /&gt;Latex ist mir ein wenig over sized.&lt;br /&gt;&lt;br /&gt;Danke für Eure Tipps.&lt;br /&gt;&lt;br /&gt;LG Stefan&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16533">
+            <parent>16531</parent>
+            <userid>2543</userid>
+            <created>1223402105</created>
+            <modified>1223402105</modified>
+            <mailed>1</mailed>
+            <subject>Re: S: sinnvolle Mathesoftware</subject>
+            <message>&lt;a href="http://www.scientific.de/maple-students.html"&gt;Maple&lt;/a&gt; ist &lt;span style="font-style: italic;"&gt;die&lt;/span&gt; Standardsoftware. Ansonsten habe ich mir &lt;a href="http://www.ti-nspire.com/tools/nspire/index.html"&gt;das hier&lt;/a&gt; gekauft, aber bislang noch nicht erhalten - ich finde ganz reizvoll, daß die Computeralgebra-Software genauso funktioniert und bedient wird die der (an sich auch tolle) Taschenrechner. Nach Erfahrungen kannst Du mich dann ab übernächster Woche fragen... ;) </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16535">
+            <parent>16531</parent>
+            <userid>2549</userid>
+            <created>1223473475</created>
+            <modified>1223473475</modified>
+            <mailed>1</mailed>
+            <subject>Re: S: sinnvolle Mathesoftware</subject>
+            <message>Hallo,&lt;br /&gt;&lt;br /&gt;habe nun ein paar Tipps bekommen und auch einiges an OpenSource im Netz gefunden, was ganz sinnvoll sein könnte:&lt;br /&gt;&lt;br /&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a target="_blank" href="http://www.scilab.org/"&gt;SciLab&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a target="_blank" href="http://www.gnu.org/software/octave/docs.html"&gt;Octave&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a target="_blank" href="http://yacas.sourceforge.net/homepage.html"&gt;Yacas&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a target="_blank" href="http://maxima.sourceforge.net/"&gt;Maxima&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;Ich habe mich nun erstmal für SciLab entschieden.&lt;br /&gt;&lt;br /&gt;LG Stefan F.&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16537">
+            <parent>16535</parent>
+            <userid>2549</userid>
+            <created>1223492929</created>
+            <modified>1223492929</modified>
+            <mailed>1</mailed>
+            <subject>Re: S: sinnvolle Mathesoftware</subject>
+            <message>Hier noch ein kleiner Zusatz: die meisten Dinge lassen sich mit OpenOffice Math erledigen.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16539">
+            <parent>16537</parent>
+            <userid>2537</userid>
+            <created>1223647760</created>
+            <modified>1223647760</modified>
+            <mailed>1</mailed>
+            <subject>Re: S: sinnvolle Mathesoftware</subject>
+            <message>&lt;br /&gt;Hallo,&lt;br /&gt;&lt;br /&gt;Prof. Riegler hatte mir &lt;br /&gt;&lt;br /&gt;Mathematica &lt;br /&gt;&lt;br /&gt;als gut empfohlen und eine Lizenz für Maple in die Hand gedrückt &lt;br /&gt;(wegen der Maple-Übungen im Modul.)&lt;br /&gt;&lt;br /&gt;Nun muss ich es installieren. dann mal sehen.&lt;br /&gt;&lt;br /&gt;MfG, al.&lt;br /&gt;&lt;br /&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6507">
+        <name>I: Gruppenangebot: Mathe für speziell Herausgeforderte</name>
+        <firstpost>16541</firstpost>
+        <userid>2543</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1223648406</timemodified>
+        <usermodified>2537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16541">
+            <parent>0</parent>
+            <userid>2543</userid>
+            <created>1223401419</created>
+            <modified>1223401419</modified>
+            <mailed>1</mailed>
+            <subject>I: Gruppenangebot: Mathe für speziell Herausgeforderte</subject>
+            <message>Hallo zusammen,&lt;br /&gt;&lt;br /&gt;gerade eben im Chat erzählt Herr Ludwig, daß auch in Mathematik Gruppen zu vier bis fünf (entscheidet sich noch) Personen für Einsendeaufgaben zu bilden seien.&lt;br /&gt;&lt;br /&gt;Ich würde gerne eine Gruppe für Leute ins Leben rufen, die für's Verstehen immer ein bischen länger und einen Schritt mehr brauchen. Nicht falsch verstehen - keine Gruppe für hoffnungslose Fälle (verstehen tun wir's ja irgendwann auch), aber, sagen wir mal, Menschen mit potentiellem Nachhilfebedarf.&lt;br /&gt;&lt;br /&gt;Im Gegensatz zur Gruppenbildung beim Programmieren ist in Mathe eine 'gemischte' Gruppe von Vorteil (Herrn Ludwigs Meinung und meine Erfahrung aus den Übungsgruppen im Vorkurs) - wer also Spaß an Mathe hat, gut erklären kann, ein Herz für Mathefußgänger hat und deshalb mitmachen möchte, ist umso herzlicher willkommen und darf mit gelegentlichen Bestechungsgaben rechnen! :)&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16543">
+            <parent>16541</parent>
+            <userid>2589</userid>
+            <created>1223454781</created>
+            <modified>1223454781</modified>
+            <mailed>1</mailed>
+            <subject>Re: I: Gruppenangebot: Mathe für speziell Herausgeforderte</subject>
+            <message>Hallo&lt;br /&gt;&lt;br /&gt;ich halte mich in Sachen Mathematik für durchschnittlich begabt, ich hab den Stoff aber bereits mehrmals gelernrt: in der Schule, früheres Studium(Elektrotechnik) und kam damit immer gut zurecht!&lt;br /&gt;Da ich den Stoff soweit kenne sollte es mir rechnerisch keine großen Probleme bereiten, euch gelegentlich bei schweren Aufgaben unter die Arme zu greifen!&lt;br /&gt;&lt;br /&gt;Ich würde gerne in eurer Gruppe mitmachen, wenn ihr es auch wollt!&lt;br /&gt;&lt;br /&gt;MfG Stefan E.&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16545">
+            <parent>16541</parent>
+            <userid>2549</userid>
+            <created>1223459229</created>
+            <modified>1223459229</modified>
+            <mailed>1</mailed>
+            <subject>Re: I: Gruppenangebot: Mathe für speziell Herausgeforderte</subject>
+            <message>Hallo Philipp,&lt;br /&gt;&lt;br /&gt;ich würde mich gerne der Gruppe anschließen, da ich zwar ein gewisses Verständnis für Mathe habe, aber es sich hierbei definitiv um mein &amp;quot;Angstfach&amp;quot; handelt und sich mir definitiv nicht alles auf den ersten oder zweiten Blick erschließt.&lt;br /&gt;&lt;br /&gt;LG Stefan&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16547">
+            <parent>16541</parent>
+            <userid>2543</userid>
+            <created>1223497606</created>
+            <modified>1223497606</modified>
+            <mailed>1</mailed>
+            <subject>Re: I: Gruppenangebot: Mathe für speziell Herausgeforderte</subject>
+            <message>Hallo Stefan, hallo Stefan,&lt;br /&gt;&lt;br /&gt;super, dann haben wir den 'harten Kern' der Gruppe ja schon zusammen! Jetzt fehlen uns, je nachdem welche Gruppenstärke Herr Ludwig nun vorgeben wird, nur noch ein oder zwei Mitstreiter.&lt;br /&gt;&lt;br /&gt;Vielleicht finden sich ja am Samstag noch Freiwillige?&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16549">
+            <parent>16547</parent>
+            <userid>2583</userid>
+            <created>1223541888</created>
+            <modified>1223541888</modified>
+            <mailed>1</mailed>
+            <subject>Re: I: Gruppenangebot: Mathe für speziell Herausgeforderte</subject>
+            <message>&lt;p&gt;Moin Ihr drei,&lt;/p&gt;
+&lt;p&gt;falls ihr noch einen Platz frei habt? Ich würde gerne.&lt;/p&gt;
+&lt;p&gt;Gruß&lt;/p&gt;
+&lt;p&gt;Marc&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16551">
+            <parent>16549</parent>
+            <userid>2547</userid>
+            <created>1223544439</created>
+            <modified>1223544439</modified>
+            <mailed>1</mailed>
+            <subject>Re: I: Gruppenangebot: Mathe für speziell Herausgeforderte</subject>
+            <message>&lt;p&gt;Hallo,&lt;/p&gt;
+&lt;p&gt;da meine Mathe-Kenntnisse aus dem Abitur Grundkurs nun auch schon über 8 Jahre her sind, würde ich mich auch gerne anschließen..&lt;/p&gt;
+&lt;p&gt;Denke näheres kann man dann Samstag besprechen.&lt;/p&gt;
+&lt;p&gt;VG Wolf&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16553">
+            <parent>16551</parent>
+            <userid>2543</userid>
+            <created>1223573050</created>
+            <modified>1223573050</modified>
+            <mailed>1</mailed>
+            <subject>Re: I: Gruppenangebot: Mathe für speziell Herausgeforderte</subject>
+            <message>Hallo Marc, hallo Wolf,&lt;br /&gt;&lt;br /&gt;klar, willkommen! Allerdings unter der Voraussetzung, daß Herr Ludwig Fünfergruppen ausruft. Wenn wir uns zu viert zusammentun sollen, sprechen wir nochmal darüber, wer von Euch mit an Bord ist. Einverstanden?&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16555">
+            <parent>16553</parent>
+            <userid>2537</userid>
+            <created>1223647871</created>
+            <modified>1223647871</modified>
+            <mailed>1</mailed>
+            <subject>Re: I: Gruppenangebot: Mathe für speziell Herausgeforderte</subject>
+            <message>Jezt habe ich doch gerade in einer Besprechung was vergessen.&lt;br /&gt;&lt;br /&gt;Moment .....&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16557">
+            <parent>16553</parent>
+            <userid>2537</userid>
+            <created>1223648406</created>
+            <modified>1223648406</modified>
+            <mailed>1</mailed>
+            <subject>Re: I: Gruppenangebot: Mathe für speziell Herausgeforderte</subject>
+            <message>Also maximal 4 pro Gruppe,&lt;br /&gt;&lt;br /&gt;wobei ich empfehle die 4 auch zu erreichen.&lt;br /&gt;&lt;br /&gt;Sorry, aber das wird bald klarer.&lt;br /&gt;&lt;br /&gt;Demnächst gibt es eine News zur Kooperation mit&lt;br /&gt;einem Kurs der Medieninformatiker.&lt;br /&gt;Und da macht Gleichbehandlung Sinn.&lt;br /&gt;&lt;br /&gt;MfG, al.&lt;br /&gt;&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6509">
+        <name>Erinnerung: Link zu aufgezeichneten Chats?</name>
+        <firstpost>16559</firstpost>
+        <userid>2543</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1223402988</timemodified>
+        <usermodified>2543</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16559">
+            <parent>0</parent>
+            <userid>2543</userid>
+            <created>1223402988</created>
+            <modified>1223402988</modified>
+            <mailed>1</mailed>
+            <subject>Erinnerung: Link zu aufgezeichneten Chats?</subject>
+            <message>Hallo Herr Ludwig,&lt;br /&gt;&lt;br /&gt;denken Sie bitte daran, uns noch den Link mitzuteilen, unter dem wir die bisherigen (und künftigen) Chataufzeichnungen ansehen können? Danke und&lt;br /&gt;&lt;br /&gt;freundliche Grüße&lt;br /&gt;Philipp M. Kappler&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6511">
+        <name>gruppenmitglieder gesucht</name>
+        <firstpost>16561</firstpost>
+        <userid>2561</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1225092656</timemodified>
+        <usermodified>2573</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16561">
+            <parent>0</parent>
+            <userid>2561</userid>
+            <created>1224759905</created>
+            <modified>1224759905</modified>
+            <mailed>1</mailed>
+            <subject>gruppenmitglieder gesucht</subject>
+            <message>&lt;p&gt;moinsen,&lt;/p&gt;
+&lt;p&gt;lars u. ich suchen noch 2 leute, die mit uns die einsendeaufgaben lösen wollen. interessierte bitte diese woche noch melden. ich denke danach sollte man spätestens anfangen mit der aufgabe.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16563">
+            <parent>16561</parent>
+            <userid>2577</userid>
+            <created>1224762843</created>
+            <modified>1224762843</modified>
+            <mailed>1</mailed>
+            <subject>Re: gruppenmitglieder gesucht</subject>
+            <message>Hi,&lt;br /&gt;&lt;br /&gt;ich hätte Interesse und wäre dabei. &lt;br /&gt;&lt;br /&gt;habe sogar schon einige Aufgaben von der Einsendeaufgabe bearbeitet :) &lt;br /&gt;&lt;br /&gt;Viele Grüße&lt;br /&gt;Bernhard &lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16565">
+            <parent>16561</parent>
+            <userid>2579</userid>
+            <created>1224770756</created>
+            <modified>1224770756</modified>
+            <mailed>1</mailed>
+            <subject>Re: gruppenmitglieder gesucht</subject>
+            <message>Hallo,&lt;br /&gt;&lt;br /&gt;ich bin seit heute erst im System freigeschaltet und würde mich sehr gern eurer Gruppe anschließen, wenn das noch möglich ist.&lt;br /&gt;&lt;br /&gt;Viele Grüße&lt;br /&gt;Miriam&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16567">
+            <parent>16565</parent>
+            <userid>2561</userid>
+            <created>1224825141</created>
+            <modified>1224825141</modified>
+            <mailed>1</mailed>
+            <subject>Re: gruppenmitglieder gesucht</subject>
+            <message>herzlich willkommen im team, ihr beiden.</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16569">
+            <parent>16561</parent>
+            <userid>2555</userid>
+            <created>1225044993</created>
+            <modified>1225044993</modified>
+            <mailed>1</mailed>
+            <subject>Re: gruppenmitglieder gesucht</subject>
+            <message>Moin,&lt;br /&gt;&lt;br /&gt;falls ihr noch einen 5. braucht wäre ich sehr interessiert.&lt;br /&gt;&lt;br /&gt;Gruß Hendrik&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16571">
+            <parent>16569</parent>
+            <userid>2561</userid>
+            <created>1225056985</created>
+            <modified>1225056985</modified>
+            <mailed>1</mailed>
+            <subject>Re: gruppenmitglieder gesucht</subject>
+            <message>sorry, aber wir dürfen nur max. 4er-gruppen machen. </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16573">
+            <parent>16569</parent>
+            <userid>2573</userid>
+            <created>1225092656</created>
+            <modified>1225092656</modified>
+            <mailed>1</mailed>
+            <subject>Re: gruppenmitglieder gesucht</subject>
+            <message>&lt;p&gt;Moin Hendrik,&lt;/p&gt;
+&lt;p&gt;also wir (Melanie, Fabian und Ich) hätten noch einen Platz frei. Wenn du Lust hast, kannst du in unserer Gruppe mit machen.&lt;/p&gt;
+&lt;p&gt;Gruß&lt;/p&gt;
+&lt;p&gt;Severin&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6513">
+        <name>Weitere Gruppenbildung</name>
+        <firstpost>16575</firstpost>
+        <userid>2597</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1225130339</timemodified>
+        <usermodified>2573</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16575">
+            <parent>0</parent>
+            <userid>2597</userid>
+            <created>1224870274</created>
+            <modified>1224870274</modified>
+            <mailed>1</mailed>
+            <subject>Weitere Gruppenbildung</subject>
+            <message>N'Abend allerseits,&lt;br /&gt;ich suche noch Leute die in den nächsten Tagen mit der Einsendeaufgabe beginnen wollen.&lt;br /&gt;Also: Wer hat noch keine Gruppe?&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16577">
+            <parent>16575</parent>
+            <userid>2587</userid>
+            <created>1225026876</created>
+            <modified>1225026909</modified>
+            <mailed>1</mailed>
+            <subject>Re: Weitere Gruppenbildung</subject>
+            <message>Hi Melanie
+&lt;p class="MsoNormal"&gt; &lt;/p&gt;
+&lt;p class="MsoNormal"&gt;Ich und Severin haben bereits eine&lt;span&gt; &lt;/span&gt;Gruppe gebildet ich weiß jetzt nicht wie viele vorgesehen sind aber 3-4 denke ich mal. Also würden wir noch 1-2 suchen. Wer mag kann sich gerne melden.&lt;/p&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16579">
+            <parent>16577</parent>
+            <userid>2597</userid>
+            <created>1225042924</created>
+            <modified>1225042924</modified>
+            <mailed>1</mailed>
+            <subject>Re: Weitere Gruppenbildung</subject>
+            <message>Hallo Fabian,&lt;br /&gt;&lt;br /&gt;dann würde ich mich euch gern anschließen.&lt;br /&gt;&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16581">
+            <parent>16577</parent>
+            <userid>2555</userid>
+            <created>1225095472</created>
+            <modified>1225095472</modified>
+            <mailed>1</mailed>
+            <subject>Re: Weitere Gruppenbildung</subject>
+            <message>Moin,&lt;br /&gt;&lt;br /&gt;falls noch ein Platz über ist, wäre ich gern dabei.&lt;br /&gt;&lt;br /&gt;Gruß Hendrik&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16583">
+            <parent>16581</parent>
+            <userid>2573</userid>
+            <created>1225130339</created>
+            <modified>1225130339</modified>
+            <mailed>1</mailed>
+            <subject>Re: Weitere Gruppenbildung</subject>
+            <message>&lt;p&gt;Ok, herzlich willkommen. :-)&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6515">
+        <name>Gruppenbildung</name>
+        <firstpost>16585</firstpost>
+        <userid>2601</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1225357405</timemodified>
+        <usermodified>2601</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16585">
+            <parent>0</parent>
+            <userid>2601</userid>
+            <created>1225113734</created>
+            <modified>1225113734</modified>
+            <mailed>1</mailed>
+            <subject>Gruppenbildung</subject>
+            <message>&lt;p&gt;Hallo, wer will sich noch unserer Gruppe (Patrik Pauli und ich) anschließen.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16587">
+            <parent>16585</parent>
+            <userid>2571</userid>
+            <created>1225285185</created>
+            <modified>1225285185</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppenbildung</subject>
+            <message>&lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;ich habe noch keine Gruppe. Ist bei euch noch ein Platz frei?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16589">
+            <parent>16587</parent>
+            <userid>2601</userid>
+            <created>1225298860</created>
+            <modified>1225298860</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppenbildung</subject>
+            <message>&lt;p&gt;Moin,&lt;/p&gt;
+&lt;p&gt;wir haben noch Platz. Wie ist Dein Lernstand? Hast Du Dir schon die ESA angeschaut?&lt;/p&gt;
+&lt;p&gt;Gruß Ingo&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16591">
+            <parent>16585</parent>
+            <userid>2559</userid>
+            <created>1225344848</created>
+            <modified>1225344848</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppenbildung</subject>
+            <message>Moin,&lt;br /&gt;&lt;br /&gt;habt ihr eventuell noch einen Platz frei?&lt;br /&gt;&lt;br /&gt;LG&lt;br /&gt;Fabian&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16593">
+            <parent>16591</parent>
+            <userid>2601</userid>
+            <created>1225357405</created>
+            <modified>1225357405</modified>
+            <mailed>1</mailed>
+            <subject>Re: Gruppenbildung</subject>
+            <message>&lt;p&gt;Moin,&lt;/p&gt;
+&lt;p&gt;jetz sind wir zu viert, willkommen im Team.&lt;/p&gt;
+&lt;p&gt;Gruss Ingo&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6517">
+        <name>Offene Präsenz der Medieninformatik (8.11)</name>
+        <firstpost>16595</firstpost>
+        <userid>2577</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1226057924</timemodified>
+        <usermodified>2537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16595">
+            <parent>0</parent>
+            <userid>2577</userid>
+            <created>1226040372</created>
+            <modified>1226040372</modified>
+            <mailed>1</mailed>
+            <subject>Offene Präsenz der Medieninformatik (8.11)</subject>
+            <message>Hallo Herr Ludwig, &lt;br /&gt;&lt;br /&gt;ist denn schon bekannt in welchem Raum / Gebäude die Präsenz morgen stattfinden wird? &lt;br /&gt;Konnte bisher nirgends eine Info dazu finden. &lt;br /&gt;&lt;br /&gt;Viele Grüße,&lt;br /&gt;Bernhard Grimm &lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16597">
+            <parent>16595</parent>
+            <userid>2537</userid>
+            <created>1226057924</created>
+            <modified>1226057924</modified>
+            <mailed>1</mailed>
+            <subject>Re: Offene Präsenz der Medieninformatik (8.11)</subject>
+            <message>&lt;br /&gt;Hallo Herr Grimm,&lt;br /&gt;&lt;br /&gt;die Antwort steht jetzt im Kursplan.&lt;br /&gt;&lt;br /&gt;MfG, al.&lt;br /&gt;&lt;br /&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6519">
+        <name>ESA</name>
+        <firstpost>16599</firstpost>
+        <userid>2561</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1231264357</timemodified>
+        <usermodified>2537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16599">
+            <parent>0</parent>
+            <userid>2561</userid>
+            <created>1230828552</created>
+            <modified>1230828552</modified>
+            <mailed>1</mailed>
+            <subject>ESA</subject>
+            <message>frohes neues alle zusammen. hat irgendwer eine idee, wie die aufgabe b funktioniert? wir kommen in unserer gruppe überhaupt nicht weiter. hat die aufgabe vll was mit dieser addition u. multiplikation der zwei- u. dreizeiligen matrizen, die wir in der vorlesung gemacht haben, zu tun? </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16601">
+            <parent>16599</parent>
+            <userid>2537</userid>
+            <created>1231264357</created>
+            <modified>1231264357</modified>
+            <mailed>1</mailed>
+            <subject>Re: ESA</subject>
+            <message>Hallo&lt;br /&gt;&lt;br /&gt;gut: ein Hinweis:&lt;br /&gt;&lt;br /&gt;schreiben Sie sich die Aufgabengleichung mal in der Matrizenform, nicht in der gegebenen Formelform, auf.&lt;br /&gt;&lt;br /&gt;Dann haben Sie ziemlich viele Variablen darin, aber zu beachten ist noch dass die Matrix X und die Matrix x diesselbe sind.&lt;br /&gt;&lt;br /&gt;Mit besten Grüßen,&lt;br /&gt;A. Ludwig.&lt;br /&gt;&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6521">
+        <name>offene Präsenz am 10.1.</name>
+        <firstpost>16603</firstpost>
+        <userid>2549</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1231539102</timemodified>
+        <usermodified>2537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16603">
+            <parent>0</parent>
+            <userid>2549</userid>
+            <created>1231534662</created>
+            <modified>1231534662</modified>
+            <mailed>1</mailed>
+            <subject>offene Präsenz am 10.1.</subject>
+            <message>Hallo,&lt;br /&gt;&lt;br /&gt;weiß jemand wo morgen die offene Präsenz der Medieninformatiker stattfindet?&lt;br /&gt;&lt;br /&gt;Danke.&lt;br /&gt;&lt;br /&gt;LG Stefan&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16605">
+            <parent>16603</parent>
+            <userid>2537</userid>
+            <created>1231539102</created>
+            <modified>1231539102</modified>
+            <mailed>1</mailed>
+            <subject>Re: offene Präsenz am 10.1.</subject>
+            <message>&lt;br /&gt;Hallo Herr Franke,&lt;br /&gt;&lt;br /&gt;im Präsenzplan im Fachbereichskurs steht Raum 252.&lt;br /&gt;&lt;br /&gt;Mit besten Grüßen,&lt;br /&gt;A. Ludwig.&lt;br /&gt;&lt;br /&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6523">
+        <name>Bewertung der ESAs</name>
+        <firstpost>16607</firstpost>
+        <userid>2579</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1232561414</timemodified>
+        <usermodified>2537</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16607">
+            <parent>0</parent>
+            <userid>2579</userid>
+            <created>1232053608</created>
+            <modified>1232053608</modified>
+            <mailed>1</mailed>
+            <subject>Bewertung der ESAs</subject>
+            <message>&lt;p&gt;Hallo,&lt;/p&gt;
+&lt;p&gt;hat schon jemand eine Bewertung mindestens zur ersten ESA erhalten? Mir war so, als ob Herr Ludwig sie zum Ende der Ferien fertig haben wollte...&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="16609">
+            <parent>16607</parent>
+            <userid>2537</userid>
+            <created>1232561414</created>
+            <modified>1232561414</modified>
+            <mailed>1</mailed>
+            <subject>Re: Bewertung der ESAs</subject>
+            <message>&lt;br /&gt;Hallo, &lt;br /&gt;&lt;br /&gt;bitte beachten sie den Beitrag unter &amp;quot;news&amp;quot;.&lt;br /&gt;&lt;br /&gt;Mit freundlichen Grüßen, &lt;br /&gt;A. Ludwig.&lt;br /&gt;&lt;br /&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="6525">
+        <name>Klausur-Unterlagen</name>
+        <firstpost>16611</firstpost>
+        <userid>2579</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1232284194</timemodified>
+        <usermodified>2579</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="16611">
+            <parent>0</parent>
+            <userid>2579</userid>
+            <created>1232284194</created>
+            <modified>1232284194</modified>
+            <mailed>1</mailed>
+            <subject>Klausur-Unterlagen</subject>
+            <message>&lt;p&gt;Hallo Herr Ludwigs,&lt;/p&gt;
+&lt;p&gt;welche Unterlagen dürfen wir in der Klausur benutzen? In der Pflichtpräsenz hieß es, dass wir eigentlich alles benutzen dürfen (Skript, Formelsammlung, eigene Aufzeichnungen, nicht programmierbarer Taschenrechner) - nun habe ich gehört, dass wir lediglich eine Formelsammlung auf 2 Seiten nutzen dürfen?&lt;/p&gt;
+&lt;p&gt;Das fände ich nicht gut. &lt;/p&gt;
+&lt;p&gt;In allen anderen Klausuren dürfen wir sowohl das Skript als auch unsere eigenen Aufzeichnungen heranziehen und zusätzlich einen Taschenrechner nutzen.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="27401">
+        <userid>2569</userid>
+      </subscription>
+      <subscription id="27403">
+        <userid>2537</userid>
+      </subscription>
+      <subscription id="27405">
+        <userid>2551</userid>
+      </subscription>
+      <subscription id="27407">
+        <userid>2545</userid>
+      </subscription>
+      <subscription id="27409">
+        <userid>2543</userid>
+      </subscription>
+      <subscription id="27411">
+        <userid>2541</userid>
+      </subscription>
+      <subscription id="27413">
+        <userid>2547</userid>
+      </subscription>
+      <subscription id="27415">
+        <userid>2591</userid>
+      </subscription>
+      <subscription id="27417">
+        <userid>2549</userid>
+      </subscription>
+      <subscription id="27419">
+        <userid>2555</userid>
+      </subscription>
+      <subscription id="27421">
+        <userid>2557</userid>
+      </subscription>
+      <subscription id="27423">
+        <userid>2605</userid>
+      </subscription>
+      <subscription id="27425">
+        <userid>2563</userid>
+      </subscription>
+      <subscription id="27427">
+        <userid>2567</userid>
+      </subscription>
+      <subscription id="27429">
+        <userid>2539</userid>
+      </subscription>
+      <subscription id="27431">
+        <userid>2559</userid>
+      </subscription>
+      <subscription id="27433">
+        <userid>2571</userid>
+      </subscription>
+      <subscription id="27435">
+        <userid>2573</userid>
+      </subscription>
+      <subscription id="27437">
+        <userid>2575</userid>
+      </subscription>
+      <subscription id="27439">
+        <userid>2577</userid>
+      </subscription>
+      <subscription id="27441">
+        <userid>2565</userid>
+      </subscription>
+      <subscription id="27443">
+        <userid>2579</userid>
+      </subscription>
+      <subscription id="27445">
+        <userid>2581</userid>
+      </subscription>
+      <subscription id="27447">
+        <userid>2553</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

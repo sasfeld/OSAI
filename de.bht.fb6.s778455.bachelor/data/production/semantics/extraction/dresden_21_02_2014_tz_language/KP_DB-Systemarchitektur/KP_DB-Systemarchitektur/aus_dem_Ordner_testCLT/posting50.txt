@@ -1,0 +1,10 @@
+ID: 2035
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: Ich habe alles soweit umgeschrieben und soweit jetzt auch testweise durchlaufen lassen. Alle Testcase...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Ich habe alles soweit umgeschrieben und soweit jetzt auch testweise durchlaufen lassen. Alle Testcases, bzw deren Executes laufen fehlerfrei durch, soweit ich das gesehen habe. Zumindest sah alles nach der "klassischen" Analyse aus. 
+TAGGED_CONTENT:

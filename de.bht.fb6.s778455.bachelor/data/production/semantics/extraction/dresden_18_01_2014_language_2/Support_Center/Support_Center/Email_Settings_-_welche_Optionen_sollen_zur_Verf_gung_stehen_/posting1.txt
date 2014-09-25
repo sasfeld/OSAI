@@ -1,0 +1,18 @@
+ID: 99
+CREATION_DATETIME: 1347400800000
+MODIFICATION_DATETIME: 1383519600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wir haben in auditorium ein Notification Center implementiert. Dieses beinhaltet auch Emails. Welche Optionen für den Emailempfang sind sinnvoll?
+
+Was haltet ihr davon:
+
+- bei jedem Update eine Email für alle abonnierten Kurse
+
+- tägliche Emails mit Updates des Tages für abonnierte Kurse
+
+- wöchentliche Emails mit allen Updates kursübergreifend
+TAGGED_CONTENT:

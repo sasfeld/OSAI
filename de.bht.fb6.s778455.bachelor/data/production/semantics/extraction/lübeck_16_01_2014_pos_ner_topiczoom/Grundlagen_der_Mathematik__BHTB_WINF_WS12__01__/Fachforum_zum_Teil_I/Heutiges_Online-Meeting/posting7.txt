@@ -1,0 +1,18 @@
+ID: 166573
+CREATION_DATETIME: 1349282733
+MODIFICATION_DATETIME: 1349282733
+TITLE: Re: Heutiges Online-Meeting
+TOPIC_ZOOM_TAG: value:Feiertage;weight:1.0;significance:6.76051452605328;degreegeneralization:5;uri:20718404
+TOPIC_ZOOM_TAG: value:Feiern, Feste und Festakte;weight:1.0;significance:5.9680301556277;degreegeneralization:4;uri:20919667
+TOPIC_ZOOM_TAG: value:Veranstaltungen;weight:1.0;significance:3.37051978211685;degreegeneralization:3;uri:20901494
+POS_TAG: value:Antwort;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ansage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Feiertag;weight:0.0;uri:;postag:NN
+POS_TAG: value:Meeting;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hr;weight:0.0;uri:;postag:NN
+POS_TAG: value:gestrige;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 166545
+CONTENT:
+Hi, ich hatte die gestrige Ansage auch so verstanden, dass trotz Feiertag Heute das Meeting stattfinden sollte und hatte auch keine Antwort auf meine Mail an Hr. Moesner bekommen.
+TAGGED_CONTENT:
+Hi_NE ,_$, ich_PPER hatte_VAFIN die_ART gestrige_NN Ansage_NN auch_ADV so_ADV verstanden_VVPP ,_$, dass_KOUS trotz_APPR Feiertag_NN Heute_ADV das_ART Meeting_NN stattfinden_VVINF sollte_VMFIN und_KON hatte_VAFIN auch_ADV keine_PIAT Antwort_NN auf_APPR meine_PPOSAT Mail_NE an_APPR Hr_NN ._$. Moesner_NE bekommen_VVFIN ._$. 

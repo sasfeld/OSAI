@@ -1,0 +1,10 @@
+ID: 1848
+CREATION_DATETIME: 1369173600000
+MODIFICATION_DATETIME: 1369173600000
+TITLE: Die Typen der Parameter sind doch einerseits ein String, andererseits ein String-Vector. Ich dachte, ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Die Typen der Parameter sind doch einerseits ein String, andererseits ein String-Vector. Ich dachte, programStr sollte Kernelcode sein, aber dann erschließt sich mir nicht, warum ihr kernels als Bezeichnung für die In-/Outputparameter nutzt.
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 447
+CREATION_DATETIME: 1350856800000
+MODIFICATION_DATETIME: 1383346800000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Kann man $(p \rightarrow q) \land (q \rightarrow r)$ zu $p \rightarrow r$ verkürzen?
+TAGGED_CONTENT:

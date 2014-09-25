@@ -1,0 +1,21 @@
+ID: 73
+CREATION_DATETIME: 1305648240000
+MODIFICATION_DATETIME: 1305648240000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 72
+CONTENT:
+ 
+Hmm, wird nun etwas schwierig. Andre würde sich gerne heute Abend Photoshop anschauen. Daher wollte ich mit Knut zuerst JAVA in Eclipse machen, sodass am Abend hin Andre sich per Teamviewer den Photoshop Session zu Gemüte führen kann.
+
+Du wolltest aber sicherlich in JAVA zuschauen.
+
+Geplant ist, JAVA zuerst und danach Photoshop.
+
+Können aber sicherlich bei Fragen auch nochmal kurz switchen.
+
+Ihr könnte euch auch schon die Fragen zurecht legen. Bin nun in Skype online.
+
+Gruß
+    
+TAGGED_CONTENT:

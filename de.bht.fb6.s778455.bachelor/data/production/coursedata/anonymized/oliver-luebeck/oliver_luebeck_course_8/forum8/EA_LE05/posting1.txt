@@ -1,0 +1,15 @@
+ID: 19
+CREATION_DATETIME: 1193783460000
+MODIFICATION_DATETIME: 1193783460000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo ,
+
+ich habe einen Totalausfall, was diese Aufgabe angeht. Ich habe eine Klasse geschrieben, die mir bis jetzt ein wunderschönes, farbiges Histogramm anzeigt (mit vorgegeben Werten einfach sieben Rechtecke zeichnen lassen). Allerdings weiß ich nicht, wie ich Messwerte damit verknüpfen soll bzw wie ich die Messwerte in Rechtecke umwandele. Bin schon am Hin- und Herprobieren und komme nicht weiter. Vielleicht hat ja jemand eine Idee für mich... Bin für jede Anregung dankbar.
+
+Schöne Grüße
+     
+TAGGED_CONTENT:

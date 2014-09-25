@@ -1,0 +1,9 @@
+ID: 1588
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Kurzes Statement von dem, der das goto in den Beispielspieler geschrieben hat: With great power comes...
+PARENT_POSTING_ID: 1446
+POSTING_TYPE: comment
+CONTENT:
+Kurzes Statement <NAME_CORPUS_REPLACEMENT> dem, der das goto in den Beispielspieler geschrieben hat: With great power comes great responsibility. Wenn man sinnvoll mit goto umgeht, ist das ein Werkzeug wie jedes andere. So lange das, was <NAME_CORPUS_REPLACEMENT> steht, verständlich ist, sehe ich kein Problem.
+TAGGED_CONTENT:

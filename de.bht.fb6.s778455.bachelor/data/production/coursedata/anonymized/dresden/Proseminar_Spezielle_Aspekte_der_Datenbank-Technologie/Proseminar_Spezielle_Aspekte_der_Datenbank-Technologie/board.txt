@@ -1,0 +1,6 @@
+ID: 2154590
+CREATION_DATETIME: 1380492000000
+MODIFICATION_DATETIME: 1380492000000
+TITLE: Proseminar Spezielle Aspekte der Datenbank-Technologie
+INTRO: null
+TYPE: null

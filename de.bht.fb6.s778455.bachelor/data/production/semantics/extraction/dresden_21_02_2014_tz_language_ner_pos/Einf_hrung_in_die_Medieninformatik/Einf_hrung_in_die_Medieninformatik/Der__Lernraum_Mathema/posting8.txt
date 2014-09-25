@@ -1,0 +1,47 @@
+ID: 193
+CREATION_DATETIME: 1349560800000
+MODIFICATION_DATETIME: 1349820000000
+TITLE: Die Übungen sind alle
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Vorlesungszeiten;weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:20747168
+TOPIC_ZOOM_TAG: value:Vorlesungswochen;weight:1.0;significance:12.7085495152339;degreegeneralization:8;uri:20747134
+TOPIC_ZOOM_TAG: value:EMI;weight:1.0;significance:11.6099372265658;degreegeneralization:12;uri:20739331
+TOPIC_ZOOM_TAG: value:Vorlesungen;weight:1.0;significance:10.9167900460059;degreegeneralization:6;uri:20916641
+TOPIC_ZOOM_TAG: value:Tonträgerindustrie;weight:1.0;significance:9.93596079299414;degreegeneralization:7;uri:20051902
+TOPIC_ZOOM_TAG: value:Musiklabels;weight:1.0;significance:9.93596079299414;degreegeneralization:8;uri:20739314
+TOPIC_ZOOM_TAG: value:Ereignisse im Bereich Bildung, Erziehung und Ausbildung;weight:1.0;significance:9.2428136124342;degreegeneralization:3;uri:21872857
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Musik;weight:1.0;significance:8.83734850432604;degreegeneralization:6;uri:21999269
+TOPIC_ZOOM_TAG: value:Firmen und Firmengruppen in Großbritannien;weight:1.0;significance:8.63101207132821;degreegeneralization:11;uri:21955103
+TOPIC_ZOOM_TAG: value:Organisationen und Einrichtungen im Bereich Musik;weight:1.0;significance:8.58141513018884;degreegeneralization:4;uri:20782545
+TOPIC_ZOOM_TAG: value:Organisationen und Einrichtungen in Europa im Bereich Kunst und Kultur;weight:1.0;significance:8.12358203656335;degreegeneralization:8;uri:20920109
+TOPIC_ZOOM_TAG: value:Musik - Großbritannien;weight:1.0;significance:7.96361738687068;degreegeneralization:10;uri:19726454
+TOPIC_ZOOM_TAG: value:Britische Kunst und Kultur;weight:1.0;significance:6.9915218138277;degreegeneralization:9;uri:21942574
+TOPIC_ZOOM_TAG: value:Britische Industrie;weight:1.0;significance:6.96234632469377;degreegeneralization:10;uri:19725638
+TOPIC_ZOOM_TAG: value:Britische Wirtschaft;weight:1.0;significance:6.93710839210391;degreegeneralization:9;uri:21959506
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Kunst, Kultur, Musik;weight:1.0;significance:6.85922473528707;degreegeneralization:5;uri:20832644
+TOPIC_ZOOM_TAG: value:Organisationen und Einrichtungen im Bereich Kunst und Kultur;weight:1.0;significance:6.03020740057959;degreegeneralization:3;uri:21998470
+TOPIC_ZOOM_TAG: value:Europäische Kunst und Kultur;weight:1.0;significance:5.65409985710099;degreegeneralization:7;uri:21998385
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Musik;weight:1.0;significance:4.90961620519271;degreegeneralization:3;uri:21998215
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Großbritannien;weight:1.0;significance:4.32260461042764;degreegeneralization:8;uri:21996583
+TOPIC_ZOOM_TAG: value:Europäische Wirtschaft;weight:1.0;significance:4.2207851345085;degreegeneralization:7;uri:21994832
+TOPIC_ZOOM_TAG: value:Kunst, Kultur, Musik;weight:1.0;significance:3.04770693667486;degreegeneralization:2;uri:21999796
+TOPIC_ZOOM_TAG: value:Unternehmen, Firmen und Firmengruppen;weight:1.0;significance:2.91081144288141;degreegeneralization:4;uri:21973565
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:1.80459553725326;degreegeneralization:2;uri:21999847
+TOPIC_ZOOM_TAG: value:Europa;weight:1.0;significance:1.55587681555031;degreegeneralization:6;uri:21972001
+NER_TAG: value:DS;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:EMI;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Vorlesungswoche;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gesamtstundenplan;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mittwoch;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:bungen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 190
+POSTING_TYPE: answer
+CONTENT:
+Die Übungen sind alle entweder in der INF/E065 oder der INF/E067. Die <NAME_CORPUS_REPLACEMENT> dir genannte am Mittwoch in der 2. DS ist laut [Gesamtstundenplan](http://www.inf.tu-dresden. de/content/units/deansoffice/downloads/schedules/stundenplan_ws1213. pdf) in der E065. Die Übungen in EMI gehen aber so weit ich weiß erst in der 2. Vorlesungswoche los.
+TAGGED_CONTENT:
+Die_ART Übungen_NN sind_VAFIN alle_PIDAT entweder_KON in_APPR der_ART INF\/E065_CARD oder_KON der_ART INF\/E067_CARD ._$. Die_ART <_ADJA NAME_CORPUS_REPLACEMENT_NN >_VVFIN dir_PPER genannte_ADJA am_APPRART Mittwoch_NN in_APPR der_ART 2_CARD ._$. DS_NE ist_VAFIN laut_APPR -LSB-_TRUNC Gesamtstundenplan_NN -RSB-_TRUNC -LRB-_TRUNC http:\/\/www.inf.tu-dresden_VVINF ._$. de\/content\/units_ADV \/_CARD deansoffice\/downloads\/schedules_ADJA \/_NN stundenplan_ws1213_CARD ._$. pdf_XY -RRB-_TRUNC in_APPR der_ART E065_NN ._$. Die_ART Übungen_NN in_APPR EMI_NE gehen_VVFIN aber_ADV so_ADV weit_ADJD ich_PPER weiß_VVFIN erst_ADV in_APPR der_ART 2_CARD ._$. Vorlesungswoche_NN los_PTKVZ ._$. 

@@ -1,0 +1,15 @@
+ID: 117498
+CREATION_DATETIME: 1318320671
+MODIFICATION_DATETIME: 1318320671
+TITLE: Registrierung in LON-CAPA
+PARENT_POSTING_ID: 0
+CONTENT:
+Geehrte Studierende,
+die Registrierung der Nachzuegler in LON-CAPA soll nun abgeschlossen werden. Falls Sie den LON-CAPA-Kurs zum Loesen der Einsendeaufgaben noch nicht sehen, sind Sie nicht registriert. In diesem Fall:
+- Sehen Sie sich den ersten Chat im Archiv an, in dem ich LON-CAPA erklaere (ohne das geht es nicht)
+- Loggen sich einmal in LON-CAPA ein
+- <REMOVED_PERSON_ENTITY> mir per Email Ihre Nutzerkennung aus dem PWA mit der Bitte, dass ich Sie nachmelde
+Haben Sie bitte Verstaendnis, dass ich bei der grossen <REMOVED_PERSON_ENTITY> an Teilnehmern diejenigen Nachrichten, die nicht bis kommenden Donnerstag eintreffen, nur gebuendelt und daher mit Verzug bearbeiten werde.
+Freundlichen Gruss und viel Erfolg <PERSONAL_GREETING_REMOVEMENT>
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

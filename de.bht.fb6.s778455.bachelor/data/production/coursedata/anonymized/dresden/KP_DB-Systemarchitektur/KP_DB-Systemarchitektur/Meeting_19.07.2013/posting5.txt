@@ -1,0 +1,9 @@
+ID: 2349
+CREATION_DATETIME: 1374184800000
+MODIFICATION_DATETIME: 1374184800000
+TITLE: Es ist auf jeden Fall auch ein Messwert. Wie gesagt, die Werte sollten als XY geplottet werden bzw. n...
+PARENT_POSTING_ID: 2344
+POSTING_TYPE: comment
+CONTENT:
+Es ist auf jeden Fall auch ein Messwert. Wie gesagt, die Werte sollten als XY geplottet werden bzw. nach der SKET sortiert werden.
+TAGGED_CONTENT:

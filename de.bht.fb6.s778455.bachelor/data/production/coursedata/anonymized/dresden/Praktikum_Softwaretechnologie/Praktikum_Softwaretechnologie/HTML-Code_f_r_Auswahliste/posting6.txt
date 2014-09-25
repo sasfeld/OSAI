@@ -1,0 +1,9 @@
+ID: 3008
+CREATION_DATETIME: 1385247600000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: Ich habe die Frage extrahiert. Geht über "convert".
+PARENT_POSTING_ID: 2991
+POSTING_TYPE: comment
+CONTENT:
+Ich habe die Frage extrahiert. Geht über "convert". Hmm <NAME_CORPUS_REPLACEMENT> war ich wohl zu spät... 
+TAGGED_CONTENT:

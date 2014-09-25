@@ -1,0 +1,9 @@
+ID: 1876
+CREATION_DATETIME: 1369951200000
+MODIFICATION_DATETIME: 1369951200000
+TITLE: Danke für die Antwort. Die Folie hatte ich auch vor mir liegen, als ich mich mit dem Problem beschäft...
+PARENT_POSTING_ID: 1874
+POSTING_TYPE: comment
+CONTENT:
+Danke für die Antwort. Die Folie hatte ich auch vor mir liegen, als ich mich mit dem Problem beschäftigt hatte. Nur fand ich die Fragestellung etwas irritierend. 
+TAGGED_CONTENT:

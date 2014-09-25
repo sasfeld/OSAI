@@ -1,0 +1,10 @@
+ID: 1281
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Stimmt. Was ich meinte ist, dass man vielleicht erstmal ohne Baum auskommt.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1267
+POSTING_TYPE: comment
+CONTENT:
+Stimmt. Was ich meinte ist, dass man vielleicht erstmal ohne Baum auskommt.
+TAGGED_CONTENT:

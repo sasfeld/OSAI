@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<roles>
+  <role_overrides>
+  </role_overrides>
+  <role_assignments>
+    <assignment id="90806">
+      <roleid>9</roleid>
+      <userid>3549</userid>
+      <timemodified>1343066338</timemodified>
+      <modifierid>0</modifierid>
+      <component>enrol_portal</component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90807">
+      <roleid>9</roleid>
+      <userid>3559</userid>
+      <timemodified>1343066338</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90808">
+      <roleid>9</roleid>
+      <userid>3717</userid>
+      <timemodified>1343066338</timemodified>
+      <modifierid>0</modifierid>
+      <component>enrol_portal</component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90809">
+      <roleid>5</roleid>
+      <userid>3661</userid>
+      <timemodified>1343066338</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90810">
+      <roleid>9</roleid>
+      <userid>3603</userid>
+      <timemodified>1343066338</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90811">
+      <roleid>9</roleid>
+      <userid>3507</userid>
+      <timemodified>1343066338</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90812">
+      <roleid>9</roleid>
+      <userid>3713</userid>
+      <timemodified>1343066338</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90813">
+      <roleid>9</roleid>
+      <userid>3489</userid>
+      <timemodified>1343066338</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90814">
+      <roleid>9</roleid>
+      <userid>3519</userid>
+      <timemodified>1343066338</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90815">
+      <roleid>9</roleid>
+      <userid>3675</userid>
+      <timemodified>1343066338</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90816">
+      <roleid>9</roleid>
+      <userid>3643</userid>
+      <timemodified>1343066338</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90817">
+      <roleid>9</roleid>
+      <userid>3631</userid>
+      <timemodified>1343066338</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90818">
+      <roleid>9</roleid>
+      <userid>3645</userid>
+      <timemodified>1343066338</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90819">
+      <roleid>9</roleid>
+      <userid>2617</userid>
+      <timemodified>1343066338</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90820">
+      <roleid>9</roleid>
+      <userid>3523</userid>
+      <timemodified>1343066338</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90821">
+      <roleid>9</roleid>
+      <userid>779</userid>
+      <timemodified>1343066338</timemodified>
+      <modifierid>0</modifierid>
+      <component>enrol_portal</component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90822">
+      <roleid>9</roleid>
+      <userid>3653</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component>enrol_portal</component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90823">
+      <roleid>9</roleid>
+      <userid>3703</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90824">
+      <roleid>9</roleid>
+      <userid>3685</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90825">
+      <roleid>9</roleid>
+      <userid>3699</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90826">
+      <roleid>9</roleid>
+      <userid>3613</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90827">
+      <roleid>9</roleid>
+      <userid>3687</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90828">
+      <roleid>9</roleid>
+      <userid>3495</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90829">
+      <roleid>9</roleid>
+      <userid>3633</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90830">
+      <roleid>9</roleid>
+      <userid>3493</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90831">
+      <roleid>9</roleid>
+      <userid>3689</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component>enrol_portal</component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90832">
+      <roleid>9</roleid>
+      <userid>3513</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90833">
+      <roleid>9</roleid>
+      <userid>3517</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90834">
+      <roleid>9</roleid>
+      <userid>3711</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component>enrol_portal</component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90835">
+      <roleid>9</roleid>
+      <userid>3521</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component>enrol_portal</component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90836">
+      <roleid>9</roleid>
+      <userid>3695</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90837">
+      <roleid>9</roleid>
+      <userid>3537</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90838">
+      <roleid>9</roleid>
+      <userid>3649</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component>enrol_portal</component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90839">
+      <roleid>9</roleid>
+      <userid>3503</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90840">
+      <roleid>9</roleid>
+      <userid>3505</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component>enrol_portal</component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90841">
+      <roleid>9</roleid>
+      <userid>3515</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90842">
+      <roleid>9</roleid>
+      <userid>3693</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90843">
+      <roleid>9</roleid>
+      <userid>3499</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90844">
+      <roleid>9</roleid>
+      <userid>3591</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90845">
+      <roleid>9</roleid>
+      <userid>3509</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90846">
+      <roleid>9</roleid>
+      <userid>3647</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component>enrol_portal</component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90847">
+      <roleid>9</roleid>
+      <userid>3501</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90848">
+      <roleid>9</roleid>
+      <userid>3487</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90849">
+      <roleid>9</roleid>
+      <userid>3627</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90850">
+      <roleid>11</roleid>
+      <userid>3497</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90851">
+      <roleid>9</roleid>
+      <userid>3639</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90852">
+      <roleid>9</roleid>
+      <userid>3545</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90853">
+      <roleid>11</roleid>
+      <userid>3561</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90854">
+      <roleid>9</roleid>
+      <userid>3541</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90855">
+      <roleid>9</roleid>
+      <userid>3531</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90856">
+      <roleid>9</roleid>
+      <userid>3669</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component>enrol_portal</component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90857">
+      <roleid>9</roleid>
+      <userid>3533</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90858">
+      <roleid>9</roleid>
+      <userid>3551</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90859">
+      <roleid>11</roleid>
+      <userid>3529</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90860">
+      <roleid>9</roleid>
+      <userid>3511</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component>enrol_portal</component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90861">
+      <roleid>11</roleid>
+      <userid>3525</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90862">
+      <roleid>9</roleid>
+      <userid>3637</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90863">
+      <roleid>9</roleid>
+      <userid>3725</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90864">
+      <roleid>9</roleid>
+      <userid>3557</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component>enrol_portal</component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="90865">
+      <roleid>9</roleid>
+      <userid>3657</userid>
+      <timemodified>1343066339</timemodified>
+      <modifierid>0</modifierid>
+      <component>enrol_portal</component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+  </role_assignments>
+</roles>

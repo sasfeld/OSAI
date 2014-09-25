@@ -1,0 +1,12 @@
+ID: 667
+CREATION_DATETIME: 1352156400000
+MODIFICATION_DATETIME: 1352156400000
+TITLE: Yes, ~File should call fclose on the file descriptor.
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 664
+POSTING_TYPE: answer
+CONTENT:
+Yes, ~File should call fclose on the file descriptor.
+
+Test 3 runs multiple related tests. The exception you receive does not necessarily refer to the close-twice case. Have you considered writing on a closed file?
+TAGGED_CONTENT:

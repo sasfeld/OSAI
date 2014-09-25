@@ -1,0 +1,19 @@
+ID: 54
+CREATION_DATETIME: 1197551580000
+MODIFICATION_DATETIME: 1197551580000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+hallo! :)
+
+ich stehe bei dieser einsendeaufgabe total auf dem schlauch... trotz tagelangem überlegen/probieren/suchen komme ich einfach nicht voran. ich sitz davor und weiß gar nicht recht wo ich anfangen soll.
+
+mein plan sah bis jetzt so aus: erstmal nach dem start eine leere cocktailbar anlegen und dann entsprechend füllen. in der aufgabenstellung steht ja auch, dass ein private attribut CocktailBar angelegt und in der Panel-Instanz gesetzt werden muss. doch: wie mach ich das?!
+
+hab mehrere riesige bretter vor dem kopf! kann jemand helfen?! :) dann käme ich vielleicht mal ein bißchen voran ;)
+
+alles liebe,
+   
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 1354
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Nope. Same error. Maybe it happens after the macro has been replaced, but before the 'text'-parameter...
+PARENT_POSTING_ID: 1325
+POSTING_TYPE: comment
+CONTENT:
+Nope. Same error. Maybe it happens after the macro has been replaced, but before the 'text'-parameter is inserted…
+TAGGED_CONTENT:

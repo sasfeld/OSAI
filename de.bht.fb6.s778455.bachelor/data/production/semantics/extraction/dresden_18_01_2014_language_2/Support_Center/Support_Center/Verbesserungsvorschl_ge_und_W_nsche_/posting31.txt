@@ -1,0 +1,12 @@
+ID: 673
+CREATION_DATETIME: 1352156400000
+MODIFICATION_DATETIME: 1354057200000
+TITLE: Ich haette gerne in der Uebersicht die Zeit der letzten Aktivitaet zu jeder Frage angezeigt. Wenn ich...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 369
+POSTING_TYPE: answer
+CONTENT:
+Ich haette gerne in der Uebersicht die Zeit der letzten Aktivitaet zu jeder Frage angezeigt. Wenn ich das richtig sehe, ist die Information dort im Moment die Zeit der Frage.
+
+Allerdings moechte ich auf der Uebersichtsseite doch sehen, was passiert ist, seit ich das letzte Mal <NAME_CORPUS_REPLACEMENT> war..
+TAGGED_CONTENT:

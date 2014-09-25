@@ -1,0 +1,18 @@
+ID: 2325
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Ich würde die Entwicklungsphase einfach mal unabhängig vom Endergebnis betrachten. Wir haben damit be...
+LANGUAGE: GERMAN
+POS_TAG: value:Entwicklungsphase;weight:0.0;uri:;postag:NN
+POS_TAG: value:Erfahrung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Richtung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Endergebnis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ansatz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Approximation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zwischenergebnisse;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2321
+POSTING_TYPE: comment
+CONTENT:
+Ich würde die Entwicklungsphase einfach mal unabhängig vom Endergebnis betrachten. Wir haben damit bewiesen, dass bei einer Approximation jeder komplexere als der einfachste Ansatz nicht lohnenswert ist. Außerdem haben wir die Erfahrung gewonnen, Zwischenergebnisse so früh wie möglich (grafisch) auszuwerten, bevor man in eine falsche Richtung rennt.
+TAGGED_CONTENT:
+Ich_PPER würde_VAFIN die_ART Entwicklungsphase_NN einfach_ADV mal_ADV unabhängig_ADJD vom_APPRART Endergebnis_NN betrachten_VVINF ._$. Wir_PPER haben_VAFIN damit_PROAV bewiesen_VVPP ,_$, dass_KOUS bei_APPR einer_ART Approximation_NN jeder_PIDAT komplexere_ADJA als_APPR der_ART einfachste_ADJA Ansatz_NN nicht_PTKNEG lohnenswert_ADJD ist_VAFIN ._$. Außerdem_PROAV haben_VAFIN wir_PPER die_ART Erfahrung_NN gewonnen_VVPP ,_$, Zwischenergebnisse_NN so_ADV früh_ADJD wie_KOKOM möglich_ADJD -LRB-_TRUNC grafisch_ADJD -RRB-_TRUNC auszuwerten_VVIZU ,_$, bevor_KOUS man_PIS in_APPR eine_ART falsche_ADJA Richtung_NN rennt_VVFIN ._$. 

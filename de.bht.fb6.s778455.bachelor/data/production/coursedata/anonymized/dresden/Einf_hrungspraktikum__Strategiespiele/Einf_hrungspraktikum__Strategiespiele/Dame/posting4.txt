@@ -1,0 +1,22 @@
+ID: 151
+CREATION_DATETIME: 1348351200000
+MODIFICATION_DATETIME: 1348351200000
+TITLE: Doch, du kannst sowas
+PARENT_POSTING_ID: 149
+POSTING_TYPE: comment
+CONTENT:
+Doch, du kannst sowas hier bauen:
+```c
+void func( char* ret, int size ) {
+for( int i = 0; i < size, i++ ) return[i] = 'a';
+}
+int main( void ) {
+int size = 5;
+char call[ size ];
+fun( call, size );
+printf( "%s ", call );
+return 0;
+}
+```
+das ist die <NAME_CORPUS_REPLACEMENT> <REMOVED_PERSON_ENTITY> angesprochene Puffer variante.
+TAGGED_CONTENT:

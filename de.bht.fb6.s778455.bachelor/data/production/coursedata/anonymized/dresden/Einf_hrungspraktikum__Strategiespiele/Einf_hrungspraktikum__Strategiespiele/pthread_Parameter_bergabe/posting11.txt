@@ -1,0 +1,22 @@
+ID: 1310
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: So, ich hab das Problem gelöst. Ich habe parameter einfach global gemacht und dafür in main noch kurz...
+PARENT_POSTING_ID: 1300
+POSTING_TYPE: answer
+CONTENT:
+So, ich hab das Problem gelöst. Ich habe parameter einfach global gemacht und dafür in main noch kurz gewartet, <NAME_CORPUS_REPLACEMENT> ich parameter gleich wieder verändere.
+```ruby
+void *thread_start(void *pt)
+{
+    param p=parameter;
+    (*(p. score))=detS(...);
+}
+int main()
+{...
+parameter. score=&(score);
+pthread_create(&aktthread->t_id, NULL, thread_start, NULL);
+sleep(1);
+...}
+```
+TAGGED_CONTENT:

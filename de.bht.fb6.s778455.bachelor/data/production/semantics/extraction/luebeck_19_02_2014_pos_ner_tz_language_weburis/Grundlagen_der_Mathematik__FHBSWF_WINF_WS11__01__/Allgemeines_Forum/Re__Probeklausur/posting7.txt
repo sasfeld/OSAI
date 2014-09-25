@@ -1,0 +1,13 @@
+ID: 117560
+CREATION_DATETIME: 1327331938
+MODIFICATION_DATETIME: 1327331938
+TITLE: Re: Probeklausur
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=43909#117560
+POS_TAG: value:Probeklausur;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117559
+CONTENT:
+Lösung:(x y z) = (0 0 1/2) + t * (1 1 1/2)Lösung:(x y z) = (-1 -1 0) + t * (2 2 1)Ich komme nie auf die Lösung in der Probeklausur. Kann mir jemand helfen? 
+TAGGED_CONTENT:
+Lösung_NN :_$. -LRB-_TRUNC x_XY y_NE z_XY -RRB-_TRUNC =_XY -LRB-_TRUNC 0_CARD 0 1\/2_CARD -RRB-_TRUNC +_KON t_XY \*_CARD -LRB-_TRUNC 1_CARD 1 1\/2_CARD -RRB-_TRUNC Lösung_NN :_$. -LRB-_TRUNC x_XY y_NE z_XY -RRB-_TRUNC =_XY -LRB-_TRUNC -1_CARD -1_CARD 0_CARD -RRB-_TRUNC +_KON t_XY \*_CARD -LRB-_TRUNC 2_CARD 2_CARD 1_CARD -RRB-_TRUNC Ich_PPER komme_VVFIN nie_ADV auf_APPR die_ART Lösung_NN in_APPR der_ART Probeklausur_NN ._$. Kann_VMFIN mir_PPER jemand_PIS helfen_VVINF ?_$. 

@@ -1,0 +1,28 @@
+ID: 196077
+CREATION_DATETIME: 1359122488
+MODIFICATION_DATETIME: 1359122488
+TITLE: Fragestunde vor Klausur
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=73501#196077
+TOPIC_ZOOM_TAG: value:Liebe;weight:1.0;significance:6.84491833963583;degreegeneralization:5;uri:21126234
+TOPIC_ZOOM_TAG: value:Partnerschaft, Ehe, Liebe, Sex;weight:1.0;significance:4.77978319360723;degreegeneralization:4;uri:21126268
+TOPIC_ZOOM_TAG: value:Zwischenmenschliche Beziehungen;weight:1.0;significance:4.51902740448583;degreegeneralization:3;uri:20122843
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+POS_TAG: value:Mal;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Uhr;weight:0.0;uri:;postag:NN
+POS_TAG: value:Liebe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Chatraum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klausurteilnehmer;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mittwoch;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klausur;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beste;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fragen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Klausurteilnehmer,
+am Mittwoch, den 30. 1. 2013, stehe ich Ihnen von 19-20 Uhr im Moodle-Chatraum noch ein letztes Mal vor der Klausur für Fragen bereit. 
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:
+Liebe_NN Klausurteilnehmer_NN ,_$, am_APPRART Mittwoch_NN ,_$, den_ART 30_CARD ._$. 1_CARD ._$. 2013_CARD ,_$, stehe_VVFIN ich_PPER Ihnen_PPER von_APPR 19-20_CARD Uhr_NN im_APPRART Moodle-Chatraum_NN noch_ADV ein_ART letztes_ADJA Mal_NN vor_APPR der_ART Klausur_NN für_APPR Fragen_NN bereit_ADJD ._$. Beste_NN Grüße_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ._$. 

@@ -1,0 +1,11 @@
+ID: 2675
+CREATION_DATETIME: 1383174000000
+MODIFICATION_DATETIME: 1383174000000
+TITLE: Ich habe gerade die POM nochmal etwas genauer unter die Lupe genommen. Normal geöffnet in Eclipse gib...
+PARENT_POSTING_ID: 2662
+POSTING_TYPE: comment
+CONTENT:
+Ich habe gerade die POM nochmal etwas genauer unter die Lupe genommen. Normal geöffnet in Eclipse gibt es den <REMOVED_PERSON_ENTITY> "Effective POM". Dort steht `4. 3. 1. Final`, im tatsächlichen xml-text <NAME_CORPUS_REPLACEMENT> pom. xml allerdings `org. hibernatehibernate-validator5. 0. 1. Final`
+Könnte es daran liegen? was könnte Abhilfe bringen?
+Und welche Annonationen und welches @valid sollte ich ggf. entfernen (also in welcher Datei?
+TAGGED_CONTENT:

@@ -1,0 +1,20 @@
+ID: 197881
+CREATION_DATETIME: 1359892524
+MODIFICATION_DATETIME: 1359892524
+TITLE: Probeklausur 1 WS10 - Aufgabe 8
+TOPIC_ZOOM_TAG: value:Tipps;weight:1.0;significance:5.9727695009916;degreegeneralization:4;uri:20291636
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:Ergebniss;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tip;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+ich komme beim durchrechnen auf ein andrers Ergebniss:
+4a + 4d =-ca + d = -4b--&gt; c = 4b
+Wenn das richtig ist müsste die Matrix so sein:
+a      -2a
+-1/2a  a
+Laut Musterlösung müsste aber 4b = c sein. Hat jemand einen Tip wo der Fehler liegt?
+TAGGED_CONTENT:
+ich_PPER komme_VVFIN beim_APPRART durchrechnen_VVINF auf_APPR ein_ART andrers_ADJA Ergebniss_NN :_$. 4a_CARD +_XY 4d_XY =_XY -_$( ca_ITJ +_KON d_FM =_XY -4_CARD b_XY --_-- >_XY c_XY =_XY 4b_CARD Wenn_KOUS das_ART richtig_ADJD ist_VAFIN müsste_VVFIN die_ART Matrix_NE so_ADV sein_PPOSAT :_$. a_ART -2_CARD a_XY -1_CARD \/_CARD 2a_CARD a_XY Laut_APPR Musterlösung_NN müsste_VVFIN aber_ADV 4b_XY =_XY c_XY sein_VAINF ._$. Hat_VAFIN jemand_PIS einen_ART Tip_NN wo_PWAV der_ART Fehler_NN liegt_VVFIN ?_$. 

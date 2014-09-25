@@ -1,0 +1,16 @@
+ID: 4
+CREATION_DATETIME: 1195040580000
+MODIFICATION_DATETIME: 1195040580000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+    Hallo,
+ich komme mal wieder nicht weiter mit der aktuellen ESA. Wer von Euch ist schon so weit?
+Ich weiss derzeit eigentlich nur nicht welche Schleife (ob überhaupt eine Schleife) ich benutzen muss um die vom Benutzer ausgewählte Anzahl an Checkboxelementen zu übergeben. Benutze ich eine Schleife, kann man eine vom Benutzer eingegebene Zahl an ein Array übergeben oder an einen Vektor? Irgendwie stehe ich völlig auf dem Schlauch und die Zeit rennt davon.
+Bin Euch für jede Anregung dankbar!!!
+Gruss, 
+
+    
+TAGGED_CONTENT:

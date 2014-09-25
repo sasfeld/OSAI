@@ -1,0 +1,8 @@
+ID: 68278
+CREATION_DATETIME: 1256382851
+MODIFICATION_DATETIME: 1256382851
+TITLE: Link Mathekurs
+PARENT_POSTING_ID: 0
+CONTENT:
+Bei mir wird bei der Aktivierung vom <REMOVED_PERSON_ENTITY> angezeigt, dass es diese <REMOVED_PERSON_ENTITY> nicht mehr gibt. Hat in der Zwischenzeit einer von Euch, die aktuell passende <REMOVED_PERSON_ENTITY> gefunden?GrüßeMark 
+TAGGED_CONTENT:

@@ -1,0 +1,27 @@
+ID: 24
+CREATION_DATETIME: 1201078560000
+MODIFICATION_DATETIME: 1201078560000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 23
+CONTENT:
+
+     
+     Hallo ,
+
+Hervorragende Vertiefung des Stoffes! Es fehlen nur noch die letzte Details.
+Wie waere es mit so einem Befehl:
+f.setVisible(true); ?
+JFrame hat ein BorderLayout. Was passiert mit den 3 Befehlen unten? Wohin kommen c1, c2 und c3, wenn keine Position angegeben ist?
+f.add( c1);
+f.add( c2 );
+f.add( c3 );
+Aber vielleicht der wichtigste Punkt ist der folgende:
+Wird ueberhaupt eine Methode mit Ihrer Methode paint ueberschrieben?
+
+Ich kann mir das Kollidieren zwischen JFrame und Applet nicht so recht erklaeren. Gaebe es ein Problem mit einer TagesMenu.class Datei? Sie glauben eine zu benutzen, aber in Wirklichkeit wird eine andere benutzt?
+
+Viele Gruesse
+
+    
+TAGGED_CONTENT:

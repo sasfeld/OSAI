@@ -1,0 +1,11 @@
+ID: 194809
+CREATION_DATETIME: 1358606973
+MODIFICATION_DATETIME: 1358606990
+TITLE: Re: Beispiel 28 im Skript....
+PARENT_POSTING_ID: 194761
+CONTENT:
+mhhh, ich habe in
+x1= -3 mal r drin in
+in x2 = 0 mal r drinin x3 1 mal r drin und in x4 = 0 mal r drin(-3, 0, 1, 0)^T
+...?
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 2905
+CREATION_DATETIME: 1384729200000
+MODIFICATION_DATETIME: 1384729200000
+TITLE: Vielleicht zur Erklärung: Maven lädt sowohl seine Abhängigkeiten als auch die des Projektes aus versc...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2897
+POSTING_TYPE: comment
+CONTENT:
+Vielleicht zur Erklärung: Maven lädt sowohl seine Abhängigkeiten als auch die des Projektes aus verschiedenen Remoterepositories herunter und legt die lokal in einem Cache ab (in `~/. m2/repository`). Wenn jetzt beim Download dieser Dependencies etwas schief geht, (timeout, korruptes JAR o.ä.) dann ist die einzige Möglichkeit, dies zu beheben, die entsprechenden Artefakte aus dem Cache zu löschen. Ein einfacher Re-Import des Projektes änder dann natürlich aber auch nichts an dem Zustand das Plugin JARs kaputt sind. Der einfachere Weg (vor allem mit erschwerten Diagnosebedingungen wie hier jetzt gerade) ist es jedoch, den lokalen Cache zu leeren und Maven bei stabiler Internetverbindung die Sachen noch mal holen zu lassen.
+
+Kurz: die Symptome die du schilderst sind durchaus plausibel. Wenn auf der Windows 7 Kiste die relevanten Maven Plugins nicht richtig runtergeladen werden konnten, bekommst du natürlich sofort in der IDE die im Screenshot enthaltenen Fehler.
+
+Zur Videoshop. zip: ja, wurde sie. Allerdings ändert das nichts daran, dass auch die alten Versionen davon sauber gebaut haben.
+TAGGED_CONTENT:

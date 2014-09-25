@@ -1,0 +1,108 @@
+ID: 1571
+CREATION_DATETIME: 1363993200000
+MODIFICATION_DATETIME: 1363993200000
+TITLE: `str` ist vom Typ char *, also ein Pointer auf einen char. Ein Pointer ist ja erstmal nur eine Speich...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Rechtsverstöße, Straftaten, Kriminalität;weight:1.0;significance:3.7036355737668;degreegeneralization:3;uri:20801755
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:2.65109701440329;degreegeneralization:2;uri:21999830
+POS_TAG: value:Stack;weight:0.0;uri:;postag:NN
+POS_TAG: value:Speicherstelle;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fall;weight:0.0;uri:;postag:NN
+POS_TAG: value:C;weight:0.0;uri:;postag:NN
+POS_TAG: value:Array;weight:0.0;uri:;postag:NN
+POS_TAG: value:Buffer;weight:0.0;uri:;postag:NN
+POS_TAG: value:Typ;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zugriff;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorteil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufruf;weight:0.0;uri:;postag:NN
+POS_TAG: value:Speicher;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nachteile;weight:0.0;uri:;postag:NN
+POS_TAG: value:Freigabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Objekt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Parameter;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehlschlagen;weight:0.0;uri:;postag:NN
+POS_TAG: value:checking;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Pointer;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hand;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Pointers;weight:0.0;uri:;postag:NN
+POS_TAG: value:Allozieren;weight:0.0;uri:;postag:NN
+POS_TAG: value:size;weight:0.0;uri:;postag:NN
+POS_TAG: value:Adresse;weight:0.0;uri:;postag:NN
+POS_TAG: value:Speicherbereich;weight:0.0;uri:;postag:NN
+POS_TAG: value:sog;weight:0.0;uri:;postag:NN
+POS_TAG: value:str;weight:0.0;uri:;postag:NN
+POS_TAG: value:Speichers;weight:0.0;uri:;postag:NN
+POS_TAG: value:String;weight:0.0;uri:;postag:NN
+POS_TAG: value:glichkeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Benutzung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Funktion;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wert;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1563
+POSTING_TYPE: answer
+CONTENT:
+`str` ist vom Typ char *, also ein Pointer auf einen char. Ein Pointer ist <LEARNED_PERSON_NAME_REPLACEMENT> erstmal nur <REMOVED_PERSON_ENTITY>, die angibt, wo das jeweilige Objekt (hier also ein char) liegt. Offensichtlich, weißt du `str` keinen Wert zu und es ist unklar, wo der Pointer hin zeigt. Ein Zugriff auf den <REMOVED_PERSON_ENTITY>, auf den `str` zeigt ist auf jeden Fall illegal.
+
+Jetzt musst du `str` auf einen gültigen Speicherbereich zeigen lassen. Dazu kannst du ein char-Array auf dem Stack allozieren:
+
+```
+
+char str[128];
+
+int a = 10;
+
+snprintf(str, sizeof(str), "%d ", a);
+
+printf("%s", str);
+
+```
+
+Wenn man in C einen Array als Parameter einer Funktion übergibt, wird daraus ein Pointer (sog. array to pointer decay). Dieser Pointer zeigt auf die Speicherstelle, wo das Array liegt. `sizeof()` gibt die Größe des Arrays an. Auf diese <REMOVED_PERSON_ENTITY> kann man den Array größer oder kleiner machen, und man kann nicht vergessen, die Größe beim Aufruf <NAME_CORPUS_REPLACEMENT> `snprintf()` anzupassen.
+
+Die zweite Möglichkeit wäre Speicher extra zu allozieren:
+
+```
+
+const size_t size = 128;
+
+char * str;
+
+str = (char *) malloc(size);
+
+if(!str) /* Speicher konnte nicht alloziert werden */
+
+  return;
+
+snprintf(str, size, "%d ", 12);
+
+printf("%s", str);
+
+free(str);
+
+```
+
+Die Nachteile liegen auf der Hand: jetzt musst du dich um den Speicher kümmern, d. h. nach Benutzung wieder freigeben und den auf Fehlschlagen <NAME_CORPUS_REPLACEMENT> `malloc()` prüfen. Der Vorteil: jetzt kannst du auch Buffer beliebiger Größe anlegen.
+
+Es gibt noch eine 3. Möglichkeit, wo dir `printf()` das Allozieren <NAME_CORPUS_REPLACEMENT> Speicher abnimmt:
+
+```
+
+char *str;
+
+asprintf(&str, "%d ", 42);
+
+if(!str)
+
+  return;
+
+printf("%s", str);
+
+free(str);
+
+```
+
+`asprintf()` alloziert ausreichend großen Speicher für den Format-String. Error-checking und Freigabe musst du trotzdem noch selbst machen. Damit `asprintf` den Pointer `str` ändern kann, muss man beim Aufruf die Adresse des Pointers (also einen Pointer auf einen Pointer) übergeben. An diese Adresse schreibt `asprintf()` nun die Adresse des allozierten Speichers.
+TAGGED_CONTENT:
+`_XY str_VVIMP `_XY ist_VAFIN vom_APPRART Typ_NN char_NE \*_CARD ,_$, also_ADV ein_ART Pointer_NN auf_APPR einen_ART char_NE ._$. Ein_ART Pointer_NN ist_VAFIN <_CARD LEARNED_PERSON_NAME_REPLACEMENT_NN >_CARD erstmal_ADV nur_ADV <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN ,_$, die_ART angibt_ADJD ,_$, wo_PWAV das_ART jeweilige_ADJA Objekt_NN -LRB-_TRUNC hier_ADV also_ADV ein_ART char_ADJA -RRB-_TRUNC liegt_VVFIN ._$. Offensichtlich_ADJD ,_$, weißt_VVFIN du_PPER `_XY str_VVIMP `_XY keinen_PIAT Wert_NN zu_PTKZU und_KON es_PPER ist_VAFIN unklar_ADJD ,_$, wo_PWAV der_ART Pointer_NN hin_ADV zeigt_VVFIN ._$. Ein_ART Zugriff_NN auf_APPR den_ART <_NN REMOVED_PERSON_ENTITY_NE >_NE ,_$, auf_APPR den_ART `_CARD str_ADJA `_NN zeigt_VVFIN ist_VAFIN auf_APPR jeden_PIDAT Fall_NN illegal_ADJD ._$. Jetzt_ADV musst_VVFIN du_PPER `_XY str_VVIMP `_XY auf_APPR einen_ART gültigen_ADJA Speicherbereich_NN zeigen_VVINF lassen_VVINF ._$. Dazu_PROAV kannst_VMFIN du_PPER ein_ART char-Array_NN auf_APPR dem_ART Stack_NN allozieren_VVINF :_$. ``_CARD `_XY char_FM str_FM -LSB-_TRUNC 128_CARD -RSB-_TRUNC ;_$. int_APPR a_XY =_XY 10_CARD ;_$. snprintf_ADJD -LRB-_TRUNC str_NN ,_$, sizeof_VVFIN -LRB-_TRUNC str_KON -RRB-_TRUNC ,_$, "_$( %_NN d_FM "_$( ,_$, a_NE -RRB-_TRUNC ;_$. printf_ADJD -LRB-_TRUNC "_$( %_NN s_PPER "_$( ,_$, str_KON -RRB-_TRUNC ;_$. ``_CARD `_XY Wenn_KOUS man_PIS in_APPR C_NN einen_ART Array_NE als_APPR Parameter_NN einer_ART Funktion_NN übergibt_VVFIN ,_$, wird_VAFIN daraus_PROAV ein_ART Pointer_NN -LRB-_TRUNC sog_NN ._$. array_FM to_FM pointer_FM decay_FM -RRB-_TRUNC ._$. Dieser_PDAT Pointer_NN zeigt_VVFIN auf_APPR die_ART Speicherstelle_NN ,_$, wo_PWAV das_ART Array_NE liegt_VVFIN ._$. `_XY sizeof_VVIMP -LRB-_TRUNC -RRB-_TRUNC `_XY gibt_VVFIN die_ART Größe_NN des_ART Arrays_NE an_PTKVZ ._$. Auf_APPR diese_PDAT <_NN REMOVED_PERSON_ENTITY_NE >_VVINF kann_VMFIN man_PIS den_ART Array_NE größer_ADJD oder_KON kleiner_ADJA machen_VVINF ,_$, und_KON man_PIS kann_VMFIN nicht_PTKNEG vergessen_VVINF ,_$, die_ART Größe_NN beim_APPRART Aufruf_NN <_CARD NAME_CORPUS_REPLACEMENT_NE >_NE `_NE snprintf_VVFIN -LRB-_TRUNC -RRB-_TRUNC `_XY anzupassen_VVIZU ._$. Die_ART zweite_ADJA Möglichkeit_NN wäre_VAFIN Speicher_NN extra_ADV zu_PTKZU allozieren_VVINF :_$. ``_CARD `_XY const_VAFIN size_t_ADJD size_XY =_XY 128_CARD ;_$. char_FM \*_FM str_FM ;_$. str_XY =_XY -LRB-_TRUNC char_NE \*_CARD -RRB-_TRUNC malloc_APPR -LRB-_TRUNC size_NN -RRB-_TRUNC ;_$. if_FM -LRB-_TRUNC ,_$, str_KON -RRB-_TRUNC \/_KON \*_CARD Speicher_NN konnte_VMFIN nicht_PTKNEG alloziert_VVPP werden_VAINF \*_CARD \/_CARD return_VVFIN ;_$. snprintf_VVFIN -LRB-_TRUNC str_NN ,_$, size_NN ,_$, "_$( %_NN d_FM "_$( ,_$, 12_CARD -RRB-_TRUNC ;_$. printf_ADJD -LRB-_TRUNC "_$( %_NN s_PPER "_$( ,_$, str_KON -RRB-_TRUNC ;_$. free_FM -LRB-_TRUNC str_KON -RRB-_TRUNC ;_$. ``_CARD `_XY Die_ART Nachteile_NN liegen_VVFIN auf_APPR der_ART Hand_NN :_$. jetzt_ADV musst_VMFIN du_PPER dich_PRF um_APPR den_ART Speicher_NN kümmern_VVINF ,_$, d._PDS h._VVFIN nach_APPR Benutzung_NN wieder_ADV freigeben_VVFIN und_KON den_ART auf_APPR Fehlschlagen_NN <_CARD NAME_CORPUS_REPLACEMENT_NE >_NE `_NE malloc_ADJD -LRB-_TRUNC -RRB-_TRUNC `_XY prüfen_VVINF ._$. Der_ART Vorteil_NN :_$. jetzt_ADV kannst_VMFIN du_PPER auch_ADV Buffer_NN beliebiger_ADJA Größe_NN anlegen_VVINF ._$. Es_PPER gibt_VVFIN noch_ADV eine_ART 3_CARD ._$. Möglichkeit_NN ,_$, wo_PWAV dir_PPER `_ADV printf_ADJD -LRB-_TRUNC -RRB-_TRUNC `_XY das_ART Allozieren_NN <_NE NAME_CORPUS_REPLACEMENT_NE >_CARD Speicher_NN abnimmt_VVFIN :_$. ``_CARD `_XY char_FM \*_FM str_FM ;_$. asprintf_VVFIN -LRB-_TRUNC &_KON str_NN ,_$, "_$( %_NN d_FM "_$( ,_$, 42_CARD -RRB-_TRUNC ;_$. if_FM -LRB-_TRUNC ,_$, str_KON -RRB-_TRUNC return_FM ;_$. printf_ADJD -LRB-_TRUNC "_$( %_NN s_PPER "_$( ,_$, str_KON -RRB-_TRUNC ;_$. free_FM -LRB-_TRUNC str_KON -RRB-_TRUNC ;_$. ``_CARD `_XY `_CARD asprintf_VVFIN -LRB-_TRUNC -RRB-_TRUNC `_XY alloziert_VVPP ausreichend_ADJD großen_ADJA Speicher_NN für_APPR den_ART Format-String_NN ._$. Error-checking_NN und_KON Freigabe_NN musst_VVFIN du_PPER trotzdem_PROAV noch_ADV selbst_ADV machen_VVINF ._$. Damit_PROAV `_VVFIN asprintf_ADJD `_VVFIN den_ART Pointer_NN `_VVFIN str_NE `_NE ändern_VVINF kann_VMFIN ,_$, muss_VMFIN man_PIS beim_APPRART Aufruf_NN die_ART Adresse_NN des_ART Pointers_NN -LRB-_TRUNC also_ADV einen_ART Pointer_NN auf_APPR einen_ART Pointer_NN -RRB-_TRUNC übergeben_VVINF ._$. An_APPR diese_PDAT Adresse_NN schreibt_VVFIN `_ADJD asprintf_VVFIN -LRB-_TRUNC -RRB-_TRUNC `_XY nun_ADV die_ART Adresse_NN des_ART allozierten_ADJA Speichers_NN ._$. 

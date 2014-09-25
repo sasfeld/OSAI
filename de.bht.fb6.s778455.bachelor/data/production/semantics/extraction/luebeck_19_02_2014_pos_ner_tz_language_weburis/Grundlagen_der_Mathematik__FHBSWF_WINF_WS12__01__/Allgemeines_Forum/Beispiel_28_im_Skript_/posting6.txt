@@ -1,0 +1,27 @@
+ID: 194817
+CREATION_DATETIME: 1358609672
+MODIFICATION_DATETIME: 1358609736
+TITLE: Re: Beispiel 28 im Skript....
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=72949#194817
+TOPIC_ZOOM_TAG: value:Vektoren;weight:2.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:sungsmenge;weight:0.0;uri:;postag:NN
+POS_TAG: value:r;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bestandteil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Jein;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeitpunkt;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 194809
+CONTENT:
+Jein, denke ich. x2 und x3 sind zu diesem Zeitpunkt noch vertauscht oder nicht? Dieser Vektor ist nicht Bestandteil der allgemeinen (affinen) Lösungsmenge, da dort der Vektor ...+r*(-3, 1, 0, 0)^T enthalten ist. 
+Hierfür müssen x2 und x3 wieder zurückgetauscht werden.
+Du hast quasi ja aufgrund des nicht zurücktauschens:
+x1= -3 mal r drin in
+in x3 = 0 mal r drinin x2 1 mal r drin und in x4 = 0 mal r drin
+TAGGED_CONTENT:
+Jein_NN ,_$, denke_VVFIN ich_PPER ._$. x2_XY und_KON x3_CARD sind_VAFIN zu_APPR diesem_PDAT Zeitpunkt_NN noch_ADV vertauscht_VVFIN oder_KON nicht_PTKNEG ?_$. Dieser_PDAT Vektor_NN ist_VAFIN nicht_PTKNEG Bestandteil_NN der_ART allgemeinen_ADJA -LRB-_TRUNC affinen_VVINF -RRB-_TRUNC Lösungsmenge_NN ,_$, da_ADV dort_ADV der_ART Vektor_NN ..._$( +_KON r_XY \*_CARD -LRB-_TRUNC -3_TRUNC ,_$, 1_CARD ,_$, 0_CARD ,_$, 0_CARD -RRB-_TRUNC ^_XY T_XY enthalten_VVPP ist_VAFIN ._$. Hierfür_NN müssen_VMFIN x2_XY und_KON x3_CARD wieder_ADV zurückgetauscht_VVPP werden_VAINF ._$. Du_PPER hast_VAFIN quasi_ADV ja_ADV aufgrund_APPR des_ART nicht_PTKNEG zurücktauschens_VVINF :_$. x1_XY =_XY -3_CARD mal_ADV r_VVFIN drin_ADV in_APPR in_APPR x3_XY =_XY 0_CARD mal_ADV r_PIS drinin_ADV x2_XY 1_CARD mal_ADV r_VVFIN drin_ADV und_KON in_APPR x4_XY =_XY 0_CARD mal_ADV r_VVFIN drin_ADV 

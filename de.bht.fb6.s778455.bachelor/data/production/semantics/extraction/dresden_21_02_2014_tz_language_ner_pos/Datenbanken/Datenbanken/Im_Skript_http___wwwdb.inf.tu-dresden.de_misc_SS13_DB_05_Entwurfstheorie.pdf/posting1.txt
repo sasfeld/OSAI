@@ -1,0 +1,18 @@
+ID: 2511
+CREATION_DATETIME: 1375999200000
+MODIFICATION_DATETIME: 1383519600000
+TITLE: null
+LANGUAGE: GERMAN
+POS_TAG: value:lle;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:C;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Wir hatten als Lösung als erstes C abgezogen und die Hülle <NAME_CORPUS_REPLACEMENT> FD und D gebildet und rausbekommen, dass C wegfällt.
+
+Könnte man auch zuerst D abziehen? So C auch eine valide Lösung sein.
+
+Kann man also jeweils beides nehmen?
+TAGGED_CONTENT:
+Wir_PPER hatten_VAFIN als_APPR Lösung_NN als_APPR erstes_ADJA C_NN abgezogen_VVPP und_KON die_ART Hülle_NN <_VVFIN NAME_CORPUS_REPLACEMENT_NE >_NE FD_NE und_KON D_NE gebildet_VVPP und_KON rausbekommen_VVPP ,_$, dass_KOUS C_NN wegfällt_VVFIN ._$. Könnte_VMFIN man_PIS auch_ADV zuerst_ADV D_XY abziehen_VVINF ?_$. So_ADV C_NN auch_ADV eine_ART valide_ADJA Lösung_NN sein_VAINF ._$. Kann_VMFIN man_PIS also_ADV jeweils_ADV beides_PIS nehmen_VVINF ?_$. 

@@ -1,0 +1,16 @@
+ID: 1118
+CREATION_DATETIME: 1360969200000
+MODIFICATION_DATETIME: 1384297200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+Ich würde gern erfahren, ob es schon einen genaueren Zeitplan für die zwei Wochen gibt? D. h. an welchen Tagen Arbeitszeit geplant ist und wie lange jeweils.
+
+<NAME_CORPUS_REPLACEMENT> ich noch nicht sicher bin, ob ich während der Zeit in Dresden bleibe oder pendel, wäre das ganz praktisch zu wissen. ;)
+
+Grüße
+TAGGED_CONTENT:

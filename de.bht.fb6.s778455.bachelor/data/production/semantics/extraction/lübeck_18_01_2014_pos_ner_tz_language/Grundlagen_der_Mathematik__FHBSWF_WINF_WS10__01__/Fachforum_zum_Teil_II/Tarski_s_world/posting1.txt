@@ -1,0 +1,19 @@
+ID: 97804
+CREATION_DATETIME: 1284023082
+MODIFICATION_DATETIME: 1284023082
+TITLE: Tarski's world
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:Beispiel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Start;weight:0.0;uri:;postag:NN
+POS_TAG: value:Chat;weight:0.0;uri:;postag:NN
+POS_TAG: value:Anleitung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ueben;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Beispiel zum Ueben (Anleitung im Online-Chat). Start mit java -jar tarski. jar
+TAGGED_CONTENT:
+Beispiel_NN zum_APPRART Ueben_NN -LRB-_TRUNC Anleitung_NN im_APPRART Online-Chat_NN -RRB-_TRUNC ._$. Start_NN mit_APPR java_NE -_$( jar_ADV tarski_VVFIN ._$. jar_XY 

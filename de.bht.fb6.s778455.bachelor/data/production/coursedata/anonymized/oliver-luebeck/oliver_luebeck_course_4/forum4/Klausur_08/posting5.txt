@@ -1,0 +1,11 @@
+ID: 86
+CREATION_DATETIME: 1183652880000
+MODIFICATION_DATETIME: 1183652880000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 85
+CONTENT:
+
+Ich habe das Wort "verdeckt" mit dem gleichen Sinn wie in der LE14 benutzt, nicht im Sinne von Erreichbarkeit, wie im Handbuch zur Java Programmierung.
+    
+TAGGED_CONTENT:

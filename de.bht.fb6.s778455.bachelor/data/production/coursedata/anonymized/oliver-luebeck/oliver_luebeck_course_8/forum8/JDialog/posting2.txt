@@ -1,0 +1,15 @@
+ID: 37
+CREATION_DATETIME: 1196687280000
+MODIFICATION_DATETIME: 1196687280000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 36
+CONTENT:
+
+Hallo,
+
+z.b. this wenn du dich in einer abgeleiten klasse befindest.
+
+in diesem fall geht für diese funktion auch einfach null.
+    
+TAGGED_CONTENT:

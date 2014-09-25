@@ -1,0 +1,36 @@
+ID: 2292
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374789600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ein letztes mal eine Frage zu Übung 6.
+
+Aufgabe 4 a)
+
+einmal ins Internet und zurück:
+
+A -> SyA -> C -> Firewalls -> INF1 ->ZIH1 -> IM Server -> ZIH1 -> INF1 -> IAI -> B
+
+Frage1: Müssen jeweils die IP-Adressen angeben werden oder sonst welche Formalien beachtet werden?
+
+b)
+
+hier weiß ich nicht so recht, in welcher Form die Antwort gegeben werden soll. Ähnlich der Aufgabe 4 Übung 4?
+
+Folgende Vermutung, welche Verbundungen, Statisch, direket verbunden und dynamisch sind habe ich:
+
+Statisch: SyA - C - Firewalls
+
+direkt verbunden: Firwalls - Inf1/Inf2 ; IAI - Inf1/inf2
+
+Dynamisch: EIGRP INF-ZIH
+
+Gibt es vielleicht eine Forlesungsfolie o.ä., was mir helfen könnte?
+
+Aufgabe 5 - Überlaststeuerung
+
+Chokepakete werden nach den Lastwerten 8, 9, und 9 geschickt.
+TAGGED_CONTENT:

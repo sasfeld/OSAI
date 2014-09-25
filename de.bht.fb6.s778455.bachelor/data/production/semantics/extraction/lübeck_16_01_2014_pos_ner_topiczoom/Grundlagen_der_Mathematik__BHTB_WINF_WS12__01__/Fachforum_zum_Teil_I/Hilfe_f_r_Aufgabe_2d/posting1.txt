@@ -1,0 +1,61 @@
+ID: 167417
+CREATION_DATETIME: 1349469205
+MODIFICATION_DATETIME: 1349469205
+TITLE: Hilfe für Aufgabe 2d
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+POS_TAG: value:VEREINIGT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Untersuchung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hinweis;weight:0.0;uri:;postag:NN
+POS_TAG: value:nen;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fall;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:L;weight:0.0;uri:;postag:NN
+POS_TAG: value:betrag;weight:0.0;uri:;postag:NN
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungsweg;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungsmenge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Thema;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+ich habe ein Problem mit Aufgabe 2d ( |x-1| &gt;= |x-2| ), ich komme hier auf die Lösungsmenge
+L = {x | 3/2 &lt;= x &lt; 2}
+Anstelle der 2 müsste laut Lösung UNENDLICH stehen...
+Hier mein Lösungsweg:
+Untersuchung für x-1 &gt;= 0 , also x&gt;=1:
+x-1 &gt;= |x-2|
+Fall 1 (x-2 &gt;= 0, also x&gt;=2):
+x-1 &gt;= x-2
+0 &gt;= -1 (falsch)
+ 
+Fall 2 (x&lt;2):
+x-1 &gt;= -(x-2)
+x-1 &gt;= -x+2
+2x &gt;= 3
+x &gt;= 3/2
+L1 = {x | 3/2 &lt;= x &lt; 2}
+ 
+Untersuchung für x &lt; 1:
+-(x-1) &gt;= |x-2|
+Fall 1 (x &gt;= 2):
+-x+1 &gt;= x-2
+3 &gt;= 2x
+x &lt;= 3/2
+L2 = {}
+ 
+Fall 2 (x&lt;2):
+-x+1 &gt;= -x+2
+0 &gt;= 1 (falsch)
+ 
+L = L1 VEREINIGT L2 = {x | 3/2 &lt;= x &lt; 2}
+ 
+Sieht jemand den Fehler? Ich komme einfach nicht drauf. Danke für jeden Hinweis.
+Hier ein guter Link zum Thema:
+http://members.dokom.net/w. kippels/aufgaben/betrag. pdf
+Schönen Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, ich_PPER habe_VAFIN ein_ART Problem_NN mit_APPR Aufgabe_NN 2d_CARD -LRB-_TRUNC |_XY x-1_CARD |_XY >_XY =_XY |_CARD x-2_XY |_CARD -RRB-_TRUNC ,_$, ich_PPER komme_VVFIN hier_ADV auf_APPR die_ART Lösungsmenge_NN L_NN =_XY -LCB-_TRUNC x_XY |_CARD 3\/2_CARD <_XY =_XY x_XY <_CARD 2_CARD -RCB-_TRUNC Anstelle_APPR der_ART 2_CARD müsste_VVFIN laut_APPR Lösung_NN UNENDLICH_NE stehen_VVFIN ..._$( Hier_ADV mein_PPOSAT Lösungsweg_NN :_$. Untersuchung_NN für_APPR x-1_CARD >_XY =_XY 0_CARD ,_$, also_ADV x_XY >_XY =_XY 1_CARD :_$. x-1_CARD >_XY =_XY |_CARD x-2_XY |_CARD Fall_NN 1_CARD -LRB-_TRUNC x-2_XY >_XY =_XY 0_CARD ,_$, also_ADV x_XY >_XY =_XY 2_CARD -RRB-_TRUNC :_$. x-1_CARD >_XY =_XY x-2_XY 0_CARD >_XY =_XY -1_CARD -LRB-_TRUNC falsch_ADJD -RRB-_TRUNC Fall_NN 2_CARD -LRB-_TRUNC x_XY <_CARD 2_CARD -RRB-_TRUNC :_$. x-1_CARD >_XY =_XY -_$( -LRB-_TRUNC x-2_XY -RRB-_TRUNC x-1_XY >_XY =_XY -_$( x_XY +2_CARD 2x_CARD >_XY =_XY 3_CARD x_XY >_XY =_XY 3\/2_CARD L1_XY =_XY -LCB-_TRUNC x_XY |_CARD 3\/2_CARD <_XY =_XY x_XY <_CARD 2_CARD -RCB-_TRUNC Untersuchung_NN für_APPR x_XY <_XY 1_CARD :_$. -_$( -LRB-_TRUNC x-1_XY -RRB-_TRUNC >_XY =_XY |_CARD x-2_XY |_CARD Fall_NN 1_CARD -LRB-_TRUNC x_XY >_XY =_XY 2_CARD -RRB-_TRUNC :_$. -_$( x_XY +1_CARD >_XY =_XY x-2_XY 3_CARD >_XY =_XY 2x_CARD x_XY <_XY =_XY 3\/2_CARD L2_XY =_XY -LCB-_TRUNC -RCB-_TRUNC Fall_NN 2_CARD -LRB-_TRUNC x_XY <_CARD 2_CARD -RRB-_TRUNC :_$. -_$( x_XY +1_CARD >_XY =_XY -_$( x_XY +2_CARD 0_CARD >_XY =_XY 1_CARD -LRB-_TRUNC falsch_ADJD -RRB-_TRUNC L_NN =_XY L1_CARD VEREINIGT_NN L2_XY =_XY -LCB-_TRUNC x_XY |_CARD 3\/2_CARD <_XY =_XY x_XY <_CARD 2_CARD -RCB-_TRUNC Sieht_VVFIN jemand_PIS den_ART Fehler_NN ?_$. Ich_PPER komme_VVFIN einfach_ADV nicht_PTKNEG drauf_PTKVZ ._$. Danke_PROAV für_APPR jeden_PIDAT Hinweis_NN ._$. Hier_ADV ein_ART guter_ADJA Link_NE zum_APPRART Thema_NN :_$. http:\/\/members.dokom.net\/w_NE ._$. kippels\/aufgaben\/betrag_NN ._$. pdf_APPR Schönen_NN Gruß_NE <_NE REMOVED_PERSON_ENTITY_NE >_XY 

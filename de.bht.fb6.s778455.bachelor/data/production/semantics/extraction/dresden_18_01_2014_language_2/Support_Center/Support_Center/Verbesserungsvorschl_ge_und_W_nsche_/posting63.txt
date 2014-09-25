@@ -1,0 +1,10 @@
+ID: 1223
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: Das ist nicht der beste Weg, denke ich. Bei vielen Notifications entstünde der Eindruck es würde durc...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1220
+POSTING_TYPE: comment
+CONTENT:
+Das ist nicht der beste Weg, denke ich. Bei vielen Notifications entstünde der Eindruck es würde durch Lesen gelöscht, <NAME_CORPUS_REPLACEMENT> die Nachricht dann nach unten springt. Eine deutliche Markierung tut es auch. z. B. fette Schrift.
+TAGGED_CONTENT:

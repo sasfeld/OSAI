@@ -1,0 +1,15 @@
+ID: 5
+CREATION_DATETIME: 1191671040000
+MODIFICATION_DATETIME: 1191671040000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo,
+
+ich verstehe nicht wozu der Teil "serializable" in der Klassenbezeichnung notwendig ist. Bzw warum er bei den einen benötigt wird und bei anderen nicht wie im Beispiel des Cocktailmixers.
+
+Kann mir das bitte jemand erklären?
+  
+TAGGED_CONTENT:

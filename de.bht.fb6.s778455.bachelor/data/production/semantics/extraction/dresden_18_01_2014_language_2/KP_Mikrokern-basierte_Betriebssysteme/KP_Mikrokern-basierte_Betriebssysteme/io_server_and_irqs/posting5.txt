@@ -1,0 +1,10 @@
+ID: 1548
+CREATION_DATETIME: 1363734000000
+MODIFICATION_DATETIME: 1363734000000
+TITLE: You are free to use any service you like (if it is in the repo). For our use case, the IO server is a...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1543
+POSTING_TYPE: comment
+CONTENT:
+You are free to use any service you like (if it is in the repo). For our use case, the IO server is a bit of overkill, because we only have one application setup and don't need the fancy isolation features.
+TAGGED_CONTENT:

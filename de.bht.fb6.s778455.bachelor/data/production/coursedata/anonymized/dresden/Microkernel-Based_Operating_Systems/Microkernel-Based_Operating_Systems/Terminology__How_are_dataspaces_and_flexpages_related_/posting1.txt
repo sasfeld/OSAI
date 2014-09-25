@@ -1,0 +1,9 @@
+ID: 1413
+CREATION_DATETIME: 1362783600000
+MODIFICATION_DATETIME: 1372802400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+<REMOVED_PERSON_ENTITY>, dataspaces and flexpages seem to be very alike. I already figured out, that a dataspace manager *is* a pager. So are dataspaces <NAME_CORPUS_REPLACEMENT> L4Res high-level abstraction  for flexpages or ist there more to it?
+TAGGED_CONTENT:

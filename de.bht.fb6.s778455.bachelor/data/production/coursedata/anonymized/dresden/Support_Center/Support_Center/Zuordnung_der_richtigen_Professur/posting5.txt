@@ -1,0 +1,12 @@
+ID: 442
+CREATION_DATETIME: 1350684000000
+MODIFICATION_DATETIME: 1350856800000
+TITLE: Hi,
+jetzt sieht das 
+PARENT_POSTING_ID: 439
+POSTING_TYPE: answer
+CONTENT:
+Hi,
+jetzt sieht das ganz gut aus. Was die Seniorprofessur wirklich aktuell anbietet, findet sich unter http://mmt.inf.tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/Lehre/index. xhtml.
+Danke, viele Grüße, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

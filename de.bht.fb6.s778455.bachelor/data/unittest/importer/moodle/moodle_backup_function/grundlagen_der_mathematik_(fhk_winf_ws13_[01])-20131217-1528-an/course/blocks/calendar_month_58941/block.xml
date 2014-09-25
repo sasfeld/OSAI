@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block id="58941" contextid="263403" version="2013050100">
+  <blockname>calendar_month</blockname>
+  <parentcontextid>247227</parentcontextid>
+  <showinsubcontexts>0</showinsubcontexts>
+  <pagetypepattern>course-view-*</pagetypepattern>
+  <subpagepattern>$@NULL@$</subpagepattern>
+  <defaultregion>side-post</defaultregion>
+  <defaultweight>11</defaultweight>
+  <configdata></configdata>
+  <block_positions>
+    <block_position id="13215">
+      <contextid>247227</contextid>
+      <pagetype>course-view-topics</pagetype>
+      <subpage></subpage>
+      <visible>1</visible>
+      <region>side-post</region>
+      <weight>2</weight>
+    </block_position>
+  </block_positions>
+</block>

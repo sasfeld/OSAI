@@ -1,0 +1,12 @@
+ID: 923
+CREATION_DATETIME: 1354143600000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+for slides of PFD, it seems page 65 conflicts with page 64.
+page 64 says process q broadcasts alive messages to other processes periodically. then ping should be sent from q and received by p.
+then on page 65, a broadcast message include Cp(). how <NAME_CORPUS_REPLACEMENT> q's alive message have p's current time? then, the following function is for q to receive message from p. how so? i mean, p does not send any messages.
+i think page 65 must reverses the roles of detection, am i right?
+TAGGED_CONTENT:

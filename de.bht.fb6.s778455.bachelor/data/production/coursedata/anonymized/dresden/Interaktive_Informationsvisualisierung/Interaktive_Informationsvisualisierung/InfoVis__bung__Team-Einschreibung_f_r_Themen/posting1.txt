@@ -1,0 +1,10 @@
+ID: 1705
+CREATION_DATETIME: 1365804000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Einschreibung für die Themen für die Übungsaufgaben 2 und 3 starten am <REMOVED_PERSON_ENTITY>, den 15. 04. 2013 um ca. 10. 00 <REMOVED_PERSON_ENTITY>. Der Link zur <REMOVED_PERSON_ENTITY> wird per E-Mail an alle Teilnehmer gesendet. Jedes Team schreibt sich dann für genau ein Thema ein! 
+Die Einschreibung wird bis Mittwoch, den 17. 04. 2013 um 17. 00 Uhr möglich sein. Sollten sich ein Team bis dahin nicht eingeschrieben haben, wird ein beliebiges freies Thema zugewiesen.
+TAGGED_CONTENT:

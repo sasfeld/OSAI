@@ -1,0 +1,10 @@
+ID: 824
+CREATION_DATETIME: 1353538800000
+MODIFICATION_DATETIME: 1365372000000
+TITLE: Die Möglichkeit vor dem Posten/Frage stellen auf einen "Vorschau"-Button zu nutzen, damit man seinen ...
+PARENT_POSTING_ID: 369
+POSTING_TYPE: answer
+CONTENT:
+Die Möglichkeit vor dem Posten/Frage stellen auf einen "Vorschau"-Button zu nutzen, damit man seinen Beitrag nochmal sehen kann, bevor man ihn endgültig postet.
+Wäre bei langen Fragen/Antworten sinnvoll.
+TAGGED_CONTENT:

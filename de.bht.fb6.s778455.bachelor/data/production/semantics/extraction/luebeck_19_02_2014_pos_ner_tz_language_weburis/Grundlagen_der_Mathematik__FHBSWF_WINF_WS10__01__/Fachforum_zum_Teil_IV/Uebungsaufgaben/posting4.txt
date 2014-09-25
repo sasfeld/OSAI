@@ -1,0 +1,12 @@
+ID: 97815
+CREATION_DATETIME: 1293610898
+MODIFICATION_DATETIME: 1293610898
+TITLE: Re: Uebungsaufgaben
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=36379#97815
+POS_TAG: value:Loesung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97812
+CONTENT:
+Loesung (erst selbst versuchen)
+TAGGED_CONTENT:
+Loesung_NN -LRB-_TRUNC erst_ADV selbst_ADV versuchen_VVFIN -RRB-_TRUNC 

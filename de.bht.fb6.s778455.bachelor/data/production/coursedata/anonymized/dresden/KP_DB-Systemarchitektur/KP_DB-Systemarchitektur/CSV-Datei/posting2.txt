@@ -1,0 +1,9 @@
+ID: 2193
+CREATION_DATETIME: 1373407200000
+MODIFICATION_DATETIME: 1373407200000
+TITLE: Wo wird die Funktion flushResults() aufgeruft? Momentan wird sie in der predictTime() auskommentiert....
+PARENT_POSTING_ID: 2184
+POSTING_TYPE: answer
+CONTENT:
+Wo wird die Funktion flushResults() aufgeruft? Momentan wird sie in der predictTime() auskommentiert.
+TAGGED_CONTENT:

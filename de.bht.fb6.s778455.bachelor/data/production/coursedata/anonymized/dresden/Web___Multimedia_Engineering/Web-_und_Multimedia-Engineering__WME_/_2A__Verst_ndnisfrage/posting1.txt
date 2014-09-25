@@ -1,0 +1,14 @@
+ID: 882
+CREATION_DATETIME: 1353970800000
+MODIFICATION_DATETIME: 1380060000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Verstehe ich das richtige, dass es 2 Teilaufgaben sind mit dem gleichen Ergebnis?
+Also einmal mit XSLT das ganze in HTML5 transformieren
+und andererseits aus dem UrXML via xpath&co die infos im NewsObjekt speichern und diese Objekte dann darstellen (?)
+Also nicht das Ergebnis des xsltProcessors  parsen und dann in Objekte speichern, das wäre ja unsinnig, oder?
+Oder kürzer, nicht weg 1 (Xml -> Html5 -> Objekte -> Html5) - sondern weg 2 (Xml -> html5 && XML->Objekte->Html5) ?
+Vielen Dank
+TAGGED_CONTENT:

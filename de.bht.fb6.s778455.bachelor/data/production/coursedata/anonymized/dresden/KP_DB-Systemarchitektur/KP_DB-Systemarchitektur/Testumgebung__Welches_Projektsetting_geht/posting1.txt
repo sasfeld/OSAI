@@ -1,0 +1,10 @@
+ID: 1900
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+Was muss ich in welcher Reihenfolge starten und kompilieren, damit ein Kernel vom CLeverTrustee analysiert, ausgeführt und gefeedbackt wird?
+TAGGED_CONTENT:

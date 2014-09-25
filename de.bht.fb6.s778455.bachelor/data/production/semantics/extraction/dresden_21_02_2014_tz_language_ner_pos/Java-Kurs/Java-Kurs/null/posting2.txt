@@ -1,0 +1,17 @@
+ID: 545
+CREATION_DATETIME: 1351288800000
+MODIFICATION_DATETIME: 1351288800000
+TITLE: Wenn du schon einen konkreten Paketmanager (hier apt-get) als Beispiel nimmst, solltest du auch das r...
+LANGUAGE: GERMAN
+POS_TAG: value:Beispiel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Paket;weight:0.0;uri:;postag:NN
+POS_TAG: value:Plattform;weight:0.0;uri:;postag:NN
+POS_TAG: value:Paketmanager;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 236
+POSTING_TYPE: comment
+CONTENT:
+Wenn du schon einen konkreten Paketmanager (hier apt-get) als Beispiel nimmst, solltest du auch das richtige Paket für diese Plattform nehmen:
+
+**apt-get install openjdk-6-jdk** .
+TAGGED_CONTENT:
+Wenn_KOUS du_PPER schon_ADV einen_ART konkreten_ADJA Paketmanager_NN -LRB-_TRUNC hier_ADV apt-get_VVFIN -RRB-_TRUNC als_APPR Beispiel_NN nimmst_VVFIN ,_$, solltest_VVFIN du_PPER auch_ADV das_ART richtige_ADJA Paket_NN für_APPR diese_PDAT Plattform_NN nehmen_VVINF :_$. \*\*_CARD apt-get_VVFIN install_ADJD openjdk-6-jdk_ADJD \*\*_ADJD ._$. 

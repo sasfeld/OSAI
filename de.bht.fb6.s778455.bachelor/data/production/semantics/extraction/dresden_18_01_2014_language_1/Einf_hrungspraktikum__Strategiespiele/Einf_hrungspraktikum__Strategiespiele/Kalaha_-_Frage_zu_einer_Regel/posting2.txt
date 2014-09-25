@@ -1,0 +1,14 @@
+ID: 1254
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Die Wikipedia sagt:
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1253
+POSTING_TYPE: answer
+CONTENT:
+Die Wikipedia sagt:
+
+> Wenn der letzte Samen in einer leeren Spielmulde des aktiven Spielers landet und direkt gegenüber in der gegnerischen Mulde ein oder mehrere Samen liegen, sind sowohl der letzte Samen als auch die gegenüberliegenden Samen gefangen und werden zu den eigenen Samen in die Gewinnmulde gelegt.
+
+Du hast also vollkommen recht.
+TAGGED_CONTENT:

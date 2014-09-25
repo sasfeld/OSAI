@@ -1,0 +1,34 @@
+ID: 30
+CREATION_DATETIME: 1201197600000
+MODIFICATION_DATETIME: 1201197600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 29
+CONTENT:
+
+     Hallo , 
+
+wieder gute Frage. Die Details sind nicht immer leicht. Nicht immer weit im Internet nachschauen , sehr oft sind die einfachsten Loesungen, wie  vorgeschlagen hat, die besten.
+else System.out.println(); // reicht auch.
+Eine andere Loesung :
+
+static void reku08(int n){
+
+if (n < 10){
+
+System.out.println("" + n + n);
+
+} else {
+
+System.out.print("" + (n % 10) + (n % 10));
+
+reku08(n/10);
+
+}
+
+}
+Viele Gruesse
+    
+
+    
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1917
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: Manchmal lohnt sich ein Blick in die Datei selbst. Die CMakeList.txt ist noch nie vom Projekt benutzt...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1916
+POSTING_TYPE: comment
+CONTENT:
+Manchmal lohnt sich ein Blick in die Datei selbst. Die CMakeList. txt ist noch nie vom Projekt benutzt worden und würde auch nich im Ansatz funktionieren...
+TAGGED_CONTENT:

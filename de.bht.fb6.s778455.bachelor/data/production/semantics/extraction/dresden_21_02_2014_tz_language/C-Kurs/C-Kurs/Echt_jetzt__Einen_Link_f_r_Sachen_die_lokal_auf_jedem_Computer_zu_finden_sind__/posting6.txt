@@ -1,0 +1,27 @@
+ID: 2916
+CREATION_DATETIME: 1384815600000
+MODIFICATION_DATETIME: 1384815600000
+TITLE: Ich glaube er meinte eine Musterlösung bereitzustellen /nachdem/ die Studenten eine Aufgabe gelöst ha...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Syntax;weight:2.0;significance:11.6099372265658;degreegeneralization:7;uri:20900032
+TOPIC_ZOOM_TAG: value:Allgemeine Sprachwissenschaft;weight:2.0;significance:9.27456231074878;degreegeneralization:6;uri:21633888
+TOPIC_ZOOM_TAG: value:Sprachwissenschaften;weight:2.0;significance:7.99005064393883;degreegeneralization:5;uri:21978138
+TOPIC_ZOOM_TAG: value:Studenten;weight:2.0;significance:6.6875261658844;degreegeneralization:5;uri:20994552
+TOPIC_ZOOM_TAG: value:Schüler, Studenten;weight:2.0;significance:6.43756108337563;degreegeneralization:4;uri:20920823
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:2.0;significance:5.57127107797354;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:2.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Sprache;weight:2.0;significance:5.00870710783694;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Geisteswissenschaften;weight:2.0;significance:4.65434461816952;degreegeneralization:3;uri:21978240
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:2.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:2.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 2914
+POSTING_TYPE: comment
+CONTENT:
+Ich glaube er meinte eine Musterlösung bereitzustellen /nachdem/ die Studenten eine Aufgabe gelöst haben.
+
+BTW: Es gibt keine "gute" oder "schlechte" Syntax -- die Syntax ist entweder korrekt oder nicht. KevG meint sicherlich Stil, obwohl hier wieder die "Gefahr" besteht in indentation wars zu geraten.
+
+Im Großen und Ganzen finde ich die Idee aber gut und mache das bei meinen Studenten auch.
+TAGGED_CONTENT:

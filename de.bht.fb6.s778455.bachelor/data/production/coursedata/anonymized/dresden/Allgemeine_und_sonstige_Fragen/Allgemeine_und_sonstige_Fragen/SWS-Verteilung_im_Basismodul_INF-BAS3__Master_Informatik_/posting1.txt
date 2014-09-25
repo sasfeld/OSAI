@@ -1,0 +1,11 @@
+ID: 727
+CREATION_DATETIME: 1352674800000
+MODIFICATION_DATETIME: 1370642400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Während die 8 SWS in jedem anderen Basismodul aus Vorlesungen und Übungen zusammengesetzt werden können, schreibt die Modulbeschreibung für das Basismodul Software- und Web-Engineering (INF-BAS3) Seminare statt Übungen vor:
+> Es sind mindestens 2 SWS Vorlesungen und mindestens 2 SWS Übungen aus dem Katalog „Basismodul Software- und Web-Engineering“ der Fakultät zu wählen. 4 SWS sind frei aus im Katalog angegebenen Vorlesungen und/oder Seminaren zu wählen.
+Ist das tatsächlich verpflichtend, d. h. kann ich mich nicht über zwei Lehrveranstaltungen mit je 2 SWS Vorlesung und 2 SWS Übung prüfen lassen? Fehlen mir dafür also noch 2 SWS Vorlesung bzw. Seminar?
+TAGGED_CONTENT:

@@ -1,0 +1,15 @@
+ID: 167657
+CREATION_DATETIME: 1349552428
+MODIFICATION_DATETIME: 1349552428
+TITLE: Re: Wurzel x vs. x hoch 1/2 und quadratische Gleichungen
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:6.95597687640829;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 167629
+CONTENT:
+Prof. <REMOVED_PERSON_ENTITY> erklärt es hier ganz gut:
+<a http://www.youtube.com/watch?v=8nmZMTKSD_k">http://www.youtube.com/watch?v=8nmZMTKSD_k
+Eine gerade Wurzel aus einer psoitiven reellen <REMOVED_PERSON_ENTITY> ist (erst einmal) definiert als eine positive <REMOVED_PERSON_ENTITY>. Wenn man damit aber weiter rechnet, muss man trotzdem den negativen Fall berücksichtigen. Bei einer Äquivalenzumformung muss man z. B. beide möglichen Fälle getrennt untersuchen, wenn man auf beiden Seiten eine gerade Wurzel zieht. Ob man <REMOVED_PERSON_ENTITY> aus x oder x hoch einhalb schreibt, dürfte daran wohl nichts ändern.
+TAGGED_CONTENT:

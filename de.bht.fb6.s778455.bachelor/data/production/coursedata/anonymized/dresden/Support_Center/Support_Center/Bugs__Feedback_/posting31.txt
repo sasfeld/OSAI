@@ -1,0 +1,9 @@
+ID: 260
+CREATION_DATETIME: 1349906400000
+MODIFICATION_DATETIME: 1349906400000
+TITLE: Ich finde als Admin e
+PARENT_POSTING_ID: 70
+POSTING_TYPE: answer
+CONTENT:
+Ich finde als Admin einer LV nicht, wo ich andere Leute zu Admins/Mods machen kann.
+TAGGED_CONTENT:

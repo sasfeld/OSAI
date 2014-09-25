@@ -1,0 +1,9 @@
+ID: 1330
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: Ohne jetzt den sourcecode durchgelesen zu haben: Verwendest du das 'i' nur als index? Lass dir doch m...
+PARENT_POSTING_ID: 1329
+POSTING_TYPE: comment
+CONTENT:
+Ohne jetzt den sourcecode durchgelesen zu haben: Verwendest du das 'i' nur als index? Lass dir doch mal vor dem schleifen ende das 'i' ausgeben.
+TAGGED_CONTENT:

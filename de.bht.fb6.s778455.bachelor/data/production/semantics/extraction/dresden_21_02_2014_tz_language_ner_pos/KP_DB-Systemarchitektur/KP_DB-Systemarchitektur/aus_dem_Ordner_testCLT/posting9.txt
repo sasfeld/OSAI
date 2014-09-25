@@ -1,0 +1,33 @@
+ID: 1851
+CREATION_DATETIME: 1369260000000
+MODIFICATION_DATETIME: 1369260000000
+TITLE: Daran hab ich bisher noch gar nicht gedacht, aber klar, das macht man ja häufig.
+LANGUAGE: GERMAN
+NER_TAG: value:API;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:KernelParameter;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:Listen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kernelsignatur;weight:0.0;uri:;postag:NN
+POS_TAG: value:Member;weight:0.0;uri:;postag:NN
+POS_TAG: value:Index;weight:0.0;uri:;postag:NN
+POS_TAG: value:Argument;weight:0.0;uri:;postag:NN
+POS_TAG: value:Idee;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klasse;weight:0.0;uri:;postag:NN
+POS_TAG: value:Minuten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Position;weight:0.0;uri:;postag:NN
+POS_TAG: value:parameterIndex;weight:0.0;uri:;postag:NN
+POS_TAG: value:ArgIndex;weight:0.0;uri:;postag:NN
+POS_TAG: value:Parameter;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Daran hab ich bisher noch gar nicht gedacht, aber klar, das macht man ja häufig.
+
+Also meine Idee wäre, den Parameter in beide Listen zu schreiben. Allerdings würde ich dafür die KernelParameter Klasse noch um ein Member erweitern und zwar den parameterIndex.
+
+In der OpenCL API heißt das ArgIndex und gibt die Position an, an der das Argument in der Kernelsignatur steht.
+
+Über diesen Index fällt es uns dann sehr leicht zu erkennen, welche Parameter quasi InOut Parameter sind.
+
+Ich lade in ein paar Minuten die angepasste Klasse hoch.
+TAGGED_CONTENT:
+Daran_PROAV hab_VAFIN ich_PPER bisher_ADV noch_ADV gar_ADV nicht_PTKNEG gedacht_VVPP ,_$, aber_KON klar_ADJD ,_$, das_PDS macht_VVFIN man_PIS ja_ADV häufig_ADJD ._$. Also_ADV meine_PPOSAT Idee_NN wäre_VAFIN ,_$, den_ART Parameter_NN in_APPR beide_PIDAT Listen_NN zu_PTKZU schreiben_VVINF ._$. Allerdings_ADV würde_VAFIN ich_PPER dafür_PROAV die_ART KernelParameter_ADJA Klasse_NN noch_ADV um_APPR ein_ART Member_NN erweitern_VVINF und_KON zwar_ADV den_ART parameterIndex_NN ._$. In_APPR der_ART OpenCL_NE API_NE heißt_VVFIN das_ART ArgIndex_NN und_KON gibt_VVFIN die_ART Position_NN an_PTKVZ ,_$, an_APPR der_PRELS das_ART Argument_NN in_APPR der_ART Kernelsignatur_NN steht_VVFIN ._$. Über_APPR diesen_PDAT Index_NN fällt_VVFIN es_PPER uns_PPER dann_ADV sehr_ADV leicht_ADJD zu_PTKZU erkennen_VVINF ,_$, welche_PWAT Parameter_NN quasi_ADV InOut_VVFIN Parameter_NN sind_VAFIN ._$. Ich_PPER lade_VVFIN in_APPR ein_ART paar_PIDAT Minuten_NN die_ART angepasste_ADJA Klasse_NN hoch_ADJD ._$. 

@@ -1,0 +1,31 @@
+ID: 57
+CREATION_DATETIME: 1305019740000
+MODIFICATION_DATETIME: 1305019740000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo *,
+
+am Samstag 7.5.2011 in der Präsenz 1 haben Knut, Andre und ich über einen kleinen Workshop geredet.
+
+Knut wohnt recht Nahe bei mir. Eine persönlichen Workshop spricht daher nichts entgegen.
+
+Geplant sind ca. 4 Stunden. 2 Stunden JAVA und 2 Stunden Photoshop bzw. Teile aus der Adobe Collection.
+
+Einige von uns kommen aus dem Informatik- und andere aus dem Mediengestalter- Bereich. Vielleicht kann man sich so ergänzen und von einander lernen.
+
+Angestrebter Termin wäre der 17.05. ab 18 Uhr (18:30). Hab die E-Mail von Knut gerade nicht genau im Kopf wegen der Uhrzeit.
+
+Da Einige ja nun nicht aus Berlin kommen oder die Anreise in den Bezirk Lankwitz zu lang ist, könnte per Skype und Teamviewer an der Präsentation teilnehmen bzw. Fragen stellen.
+
+http://www.teamviewer.com/de/solutions/meetings.aspx
+
+Schreibt einfach hier was dazu. Zum Beispiel, ob ihr vor Ort dabei seid oder per Skype / Teamviewer, eventuell anderer Terminvorschlag, etc.
+
+Zusätzlich kann ich bei Bedarf einmal schauen ob ich noch eBooks für Java auf dem Rechner habe.
+
+Gruß
+   
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1819
+CREATION_DATETIME: 1368741600000
+MODIFICATION_DATETIME: 1368741600000
+TITLE: Ich hab deinen BB-Pass mal genommen und ein bisschen refactored und ins Auswertungsprogramm mit reing...
+PARENT_POSTING_ID: 1816
+POSTING_TYPE: comment
+CONTENT:
+Ich hab deinen BB-Pass mal genommen und ein bisschen refactored und ins Auswertungsprogramm mit reingezogen.
+Alles weitere besprechen wir dann vor Ort.
+TAGGED_CONTENT:

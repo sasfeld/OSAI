@@ -1,0 +1,16 @@
+ID: 2486
+CREATION_DATETIME: 1375135200000
+MODIFICATION_DATETIME: 1375135200000
+TITLE: Probably my picture is a bit imprecise. In the end I expect acceptors to have following values: ((2, ...
+PARENT_POSTING_ID: 2485
+POSTING_TYPE: comment
+CONTENT:
+Probably my picture is a bit imprecise. In the end I expect acceptors to have following values: ((2, y), (1, x), (2, y)). With cross I designated possible point of failure, so that everyone remembered some value, but there is no majority among values. 
+ >and let's say that accept(2, y) was not lost (nor A2 crashed).
+In my picture accept(2, y) is never lost. Cross means that A1 crashes and this happens after it remembers value (2, y). And A2 is also never crashed.  
+> Eventually A2 will receive the prepare(2) and accept(2, y) and will overwrite its accepted value.
+So, we should be able to overwrite the value that was written once. This, basically, answers my question. But is it possible to implement Paxos for acceptor that has only write-once storage?
+> What if A1 crashes before A2 sees (2, y)?
+This part is clear for me.
+Thank you.
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 678
+CREATION_DATETIME: 1352156400000
+MODIFICATION_DATETIME: 1352156400000
+TITLE: Exactly that was the point. The earlier I start doing my assignments, the less stress I will have at ...
+PARENT_POSTING_ID: 675
+POSTING_TYPE: comment
+CONTENT:
+Exactly that was the point. The earlier I start doing my assignments, the less stress I will have at the end of the semester...
+TAGGED_CONTENT:

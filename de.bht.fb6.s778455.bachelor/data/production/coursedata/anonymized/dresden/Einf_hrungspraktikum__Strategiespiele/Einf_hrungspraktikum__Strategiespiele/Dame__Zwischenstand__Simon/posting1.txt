@@ -1,0 +1,13 @@
+ID: 165
+CREATION_DATETIME: 1348524000000
+MODIFICATION_DATETIME: 1348524000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich habe noch einen kruden Bug gefixt - <NAME_CORPUS_REPLACEMENT> hat eine Funktion statt einem int ein char aus einem Array bekommen.
+Ich gehe davon aus, dass immer ein Zug möglich ist. Der bug hat dazu geführt, dass kein Zug ausgespuckt wurde, obwohl es einen gab. Daher habe ich einfach nur output(zug) geschrieben.
+Dass es so aussieht, als ob es schon zu Beginn passiert wäre (zweimal   ?) liegt möglicherweise an folgendem: Wenn kein Zug gefunden wird, kommt "" - dann wird ein   angehängt und die Schleife erneut durchlaufen und so weiter... 
+Bitte nochmal testen.
+http://pastebin.com/XaQ9jShz
+TAGGED_CONTENT:

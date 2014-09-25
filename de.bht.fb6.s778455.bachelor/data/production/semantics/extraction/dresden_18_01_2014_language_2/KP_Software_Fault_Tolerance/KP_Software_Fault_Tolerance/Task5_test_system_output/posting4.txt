@@ -1,0 +1,20 @@
+ID: 980
+CREATION_DATETIME: 1355785200000
+MODIFICATION_DATETIME: 1355785200000
+TITLE: Your python script is adding an extra white space in the printed messages.
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 977
+POSTING_TYPE: answer
+CONTENT:
+Your python script is adding an extra white space in the printed messages.
+
+You should say:
+
+```python
+
+print "Injected:", injected
+
+```
+
+The same for the other outputs.
+TAGGED_CONTENT:

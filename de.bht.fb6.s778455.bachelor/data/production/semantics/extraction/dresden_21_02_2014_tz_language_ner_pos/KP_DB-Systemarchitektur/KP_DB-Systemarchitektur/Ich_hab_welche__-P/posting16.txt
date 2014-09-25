@@ -1,0 +1,14 @@
+ID: 1995
+CREATION_DATETIME: 1370728800000
+MODIFICATION_DATETIME: 1370728800000
+TITLE: Deinstalliere am besten alle LLVM-Versionen, die du mit Root-Rechten draufgemacht hast.
+LANGUAGE: GERMAN
+POS_TAG: value:Deinstalliere;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rechten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Versionen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1973
+POSTING_TYPE: comment
+CONTENT:
+Deinstalliere am besten alle LLVM-Versionen, die du mit Root-Rechten draufgemacht hast.
+TAGGED_CONTENT:
+Deinstalliere_NN am_PTKA besten_ADJD alle_PIDAT LLVM-Versionen_NN ,_$, die_PRELS du_PPER mit_APPR Root-Rechten_NN draufgemacht_VVPP hast_VAFIN ._$. 

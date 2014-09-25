@@ -1,0 +1,9 @@
+ID: 2144
+CREATION_DATETIME: 1372629600000
+MODIFICATION_DATETIME: 1372629600000
+TITLE: Das ist die Ungenauigkeit der Zeitmessung, wenn ich mich richtig erinnere. Mario wollte doch eigentli...
+PARENT_POSTING_ID: 2135
+POSTING_TYPE: comment
+CONTENT:
+Das ist die Ungenauigkeit der Zeitmessung, wenn ich mich richtig erinnere. <REMOVED_PERSON_ENTITY> wollte doch eigentlich eine andere Methode (Nanosekunden??) einsetzen, oder?
+TAGGED_CONTENT:

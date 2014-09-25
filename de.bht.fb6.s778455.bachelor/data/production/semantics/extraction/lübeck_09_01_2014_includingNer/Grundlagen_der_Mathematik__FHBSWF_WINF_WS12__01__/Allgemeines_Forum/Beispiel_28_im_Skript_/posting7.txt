@@ -1,0 +1,15 @@
+ID: 194831
+CREATION_DATETIME: 1358612001
+MODIFICATION_DATETIME: 1358612001
+TITLE: Re: Beispiel 28 im Skript....
+TOPIC_ZOOM_TAG: value:Vektoren;weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 194817
+CONTENT:
+Ja genau, aufgrund des nicht Zurücktauschens habe ich (-3, 0, 1, 0)^T drin. Natürlich denke ich auch, dass dieser Vektor nicht unbedingt Bestandteil der affinen Lösungsmenge ist. Die affine Lösungsmenge kann ich erst angeben wenn ich den Tausch rückgängig gemacht habe. Diese lautet dann, sow ie Du schon gesagt hast, (-3, 1, 0, 0)^T. Eventuell habe ich mich in meinen vorherigen Beträgen nicht 100% ausgedrückt aber die Frage war ja wie man "plötzlich" (-3, 0, 1, 0)^T und nicht auf (-3, 1, 0, 0)^T.
+GrußPascal
+TAGGED_CONTENT:

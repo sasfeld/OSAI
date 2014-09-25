@@ -1,0 +1,17 @@
+ID: 41
+CREATION_DATETIME: 1192713420000
+MODIFICATION_DATETIME: 1192713420000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 38
+CONTENT:
+  
+Hallo zusammen,
+
+noch eine Frage zur ESA3:
+
+Kann mir jemand sagen, wo der Unterschied zwischen den beiden Methoden "eingabeStream" und "eingeben" sein soll? Für mich klingt das irgendwie gleich!?
+
+Danke und Gruß,
+       
+TAGGED_CONTENT:

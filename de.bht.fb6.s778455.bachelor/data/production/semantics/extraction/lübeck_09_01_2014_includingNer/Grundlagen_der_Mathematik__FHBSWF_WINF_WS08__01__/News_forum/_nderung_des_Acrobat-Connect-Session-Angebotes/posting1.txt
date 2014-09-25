@@ -1,0 +1,12 @@
+ID: 16509
+CREATION_DATETIME: 1226935001
+MODIFICATION_DATETIME: 1226936846
+TITLE: Änderung des Acrobat-Connect-Session-Angebotes
+TOPIC_ZOOM_TAG: value:Jahr 2008;weight:1.0;significance:8.66549824739938;degreegeneralization:11;uri:21411392
+TOPIC_ZOOM_TAG: value:Jahr 2009;weight:1.0;significance:6.22544216377673;degreegeneralization:11;uri:21411375
+TOPIC_ZOOM_TAG: value:Geschichte;weight:1.0;significance:4.39936498754763;degreegeneralization:3;uri:20258639
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 0
+CONTENT:
+ Hallo Sie alle, aus organisatorischen Gründen halte ich eine Änderung meinesBetreuungsangebotes für erforderlich. Ich biete die von mir moderierten Acrobat-Connect-Sessions ab jetzt in 2008 nur noch in den Wochen mit den geradzahligen Kalenderwochennummern an. Dies bedeutet auch, dass diese Woche, KW 47, keine von mir moderierte Acrobat-Connect-Session angeboten wird. Für 2009 erhalten Sie später noch weitere Informationen. Die freiwerdende Zeit soll Ihnen über Hausaufgabenkorrekturund -feedback, bzw. Forenbeiträge zugute kommen. Mit freundlichen Grüßen, <PERSONAL_GREETING_REMOVEMENT>. <REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

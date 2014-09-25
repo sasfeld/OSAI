@@ -1,0 +1,12 @@
+ID: 191
+CREATION_DATETIME: 1349560800000
+MODIFICATION_DATETIME: 1349560800000
+TITLE: Hi Lars,
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 187
+POSTING_TYPE: answer
+CONTENT:
+Hi <NAME_CORPUS_REPLACEMENT>,
+
+sehr schoen, die Mail wird als reine Textmail angezeigt. Zu Weihnachten wuensche ich mir noch eine etwas kompaktere Darstellung, die ersten 10 Zeilen im Mailbody enthalten wenig Infos, vllt kannst du das noch etwas kuerzen. Insgesamt aber viel angnehmer als html. Thx a lot.
+TAGGED_CONTENT:

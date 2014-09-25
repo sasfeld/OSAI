@@ -1,0 +1,10 @@
+ID: 1961
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Aktuell könnte es daran liegen, dass ich meinen Stand committed hab, bin dabei zu prüfen, ob alles no...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Aktuell könnte es daran liegen, dass ich meinen Stand committed hab, bin dabei zu prüfen, ob alles noch problemlos läuft. melde mich, sobald ich damit weiter bin, muss mir hier erstmal das llvm-zeug installieren
+TAGGED_CONTENT:

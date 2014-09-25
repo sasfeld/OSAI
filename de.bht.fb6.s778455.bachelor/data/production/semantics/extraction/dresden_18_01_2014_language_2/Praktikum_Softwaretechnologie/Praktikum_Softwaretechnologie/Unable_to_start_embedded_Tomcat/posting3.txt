@@ -1,0 +1,10 @@
+ID: 2739
+CREATION_DATETIME: 1383865200000
+MODIFICATION_DATETIME: 1383865200000
+TITLE: Ja, habe ich. Ich hab es auch schon mit dem videoshop probiert, da ich dachte, dass das vielleicht wa...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2737
+POSTING_TYPE: comment
+CONTENT:
+Ja, habe ich. Ich hab es auch schon mit dem videoshop probiert, <NAME_CORPUS_REPLACEMENT> ich dachte, dass das vielleicht was ausmacht. Hatte aber das selbe Ergebnis.
+TAGGED_CONTENT:

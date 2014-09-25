@@ -1,0 +1,14 @@
+ID: 1680
+CREATION_DATETIME: 1365372000000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+In the memory lecture we learn why hierarchical paging is needed and how it <NAME_CORPUS_REPLACEMENT> occur that several pagers are responsible for the same address space. On slide 31 problems are described which lead into the solution of having a region manager thread within each AS. These problems are not really clear to me:
+1. The slides say, the pager needed to specify the send base. I didn't find out from the slides, what the send base actually is. I have an idea, but a clear definition would be nice.
+2. Why does the pager need to know the client's AS layout? Does it not suffice to have the page fault address and hence the missing page in the application? 
+3. In which way <NAME_CORPUS_REPLACEMENT> conflicts occur if 2 pagers are responsible for 1 AS? I understand that, if 2 pagers have the same page frame mapped into their address space, this frame might be accessed concurrently by 2 different threads. However this problem is not solved by the region manager? So which conflicts <NAME_CORPUS_REPLACEMENT> occur, that <NAME_CORPUS_REPLACEMENT> be solved by a region manager?
+Thx
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

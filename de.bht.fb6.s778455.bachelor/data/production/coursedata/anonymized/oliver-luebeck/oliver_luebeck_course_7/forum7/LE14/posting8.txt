@@ -1,0 +1,17 @@
+ID: 81
+CREATION_DATETIME: 1306687080000
+MODIFICATION_DATETIME: 1306687080000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 80
+CONTENT:
+    
+Hallo ihr zwei!
+
+Ich sitze auch gerade noch an der Aufgabe und lasse noch was von mir hören !
+Schön zu wissen das ich nicht der einzige bin der gerade daran kämpft :D !
+
+Schönen Gruß
+
+    
+TAGGED_CONTENT:

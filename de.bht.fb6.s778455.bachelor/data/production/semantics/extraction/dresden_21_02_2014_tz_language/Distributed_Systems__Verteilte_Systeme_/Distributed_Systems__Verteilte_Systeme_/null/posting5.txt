@@ -1,0 +1,10 @@
+ID: 402
+CREATION_DATETIME: 1350511200000
+MODIFICATION_DATETIME: 1350511200000
+TITLE: I guess the right cou
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 400
+POSTING_TYPE: comment
+CONTENT:
+I guess the right course might be: [Distributed Systems](https://auditorium. inf. tu-dresden. de/courses/2071464)?
+TAGGED_CONTENT:

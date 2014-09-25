@@ -1,0 +1,6 @@
+ID: 2154577
+CREATION_DATETIME: 1380492000000
+MODIFICATION_DATETIME: 1380492000000
+TITLE: Netzwerkmanagement in industriellen Anwendungen
+INTRO: null
+TYPE: null

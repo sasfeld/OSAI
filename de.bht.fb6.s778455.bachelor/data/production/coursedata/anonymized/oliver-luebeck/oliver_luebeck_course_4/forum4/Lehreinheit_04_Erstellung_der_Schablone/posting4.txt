@@ -1,0 +1,33 @@
+ID: 4
+CREATION_DATETIME: 1175502240000
+MODIFICATION_DATETIME: 1175502240000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3
+CONTENT:
+
+    
+
+Liebe Studierende,
+
+gute Frage Herr Kai. Es gibt viel Jargon beim Programmieren. Sich durch zu arbeiten ist nicht immer einfach. Ihr Verständnis ist richtig Herr Blum. Eine Anweisung auskommentieren wie
+
+der Satz LE 07 S. 24 „Kommentieren Sie die Importanweisungen aus „
+
+heisst, die Anweisung in ein Kommentar zu tun, so dass sie unwirksam wird. Kommentare werden vom Compiler (aufgerufen mit dem Kommando javac) wie von der Java Virtuell Maschine (aufgerufen mit dem Kommando java) ignoriert.
+
+So kann man es machen:
+
+//import vfh.prog1.bib.clockman.*;
+//import java.awt.Color;
+oder
+/* 
+import vfh.prog1.bib.clockman.*; 
+import java.awt.Color; */ 
+
+import Anweisungen haben mit Paketen zu tun. Paketen sind dafür da, um Java-Programme in Verzeichnisse zu organisieren. Das werden wir in der LE 11 sehen.
+
+Mit freundlichen Gruessen
+
+    
+TAGGED_CONTENT:

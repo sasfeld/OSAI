@@ -1,0 +1,38 @@
+ID: 64
+CREATION_DATETIME: 1182431640000
+MODIFICATION_DATETIME: 1182431640000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Ich bin in den Testklausuren über die Aufgabe gestoßen, eine Funktion zu entwickeln, wo ein Operator als char übergeben wird.
+
+was natürlich nicht funktioniert ist
+
+function ergebnis( char op ) {
+
+int ergebnis = 3 op 3;
+
+}
+
+gibt es eine Möglichkeit den char als operator umzuwandeln? Die einzige Möglichkeit die mir einfallen würde wäre eine Swicth Case anweisung:
+
+switch(op) {
+case '+':
+int ergebnis = 3 + 3;
+break;
+case '-':
+int ergebnis = 3 - 3;
+break;
+case '*':
+int ergebnis = 3 * 3;
+break;
+case '/':
+int ergebnis = 3 / 3;
+break;
+}
+
+würde es aber gerne einfacher gestalten und einfach den char zum operator umwandeln.
+    
+TAGGED_CONTENT:

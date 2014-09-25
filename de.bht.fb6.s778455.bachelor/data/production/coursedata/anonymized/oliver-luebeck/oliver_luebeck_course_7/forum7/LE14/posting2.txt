@@ -1,0 +1,27 @@
+ID: 75
+CREATION_DATETIME: 1306660560000
+MODIFICATION_DATETIME: 1306660560000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 74
+CONTENT:
+ 
+Hallo ,
+
+ich kämpfe mich auch durch. Den ersten Teil (die Aufgabe aus LE08) habe ich soweit fertig. Die Shape-Aufgabe macht mir auch Probleme. Allerdings gar nicht mal mit der Vererbung. Meine Datei heißt Shape.java.
+public class Circle extends Shape {
+so fängt Circle.java bei mir an. Habe dort noch die Attribute double radius, double circumference und double area angefügt. Dann geht es weiter mit:
+public Circle(double x, double y, double radius) {
+super(x, y);
+this.radius = radius;
+}
+
+Damit funktioniert bei mir die Vererbung von xOrigin und yOrigin gut. Ob das so insgesamt richtig ist, weiß ich allerdings auch nicht.
+
+Was ich nicht verstehe, ist die toString-Methode (welche Parameter müssen da rein, damit mir beim Aufrufen etwas angezeigt wird?).
+Und was es mit der Reporter-Klasse auf sich hat, weiß ich auch nicht - was macht diese Klasse?
+Vielleicht konnte ich Dir weiterhelfen...lächelnd
+
+Schöne Grüße, 
+    
+TAGGED_CONTENT:

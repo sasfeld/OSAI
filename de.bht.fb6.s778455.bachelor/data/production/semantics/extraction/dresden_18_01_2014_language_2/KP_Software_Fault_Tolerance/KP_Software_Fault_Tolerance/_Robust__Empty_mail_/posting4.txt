@@ -1,0 +1,10 @@
+ID: 821
+CREATION_DATETIME: 1353366000000
+MODIFICATION_DATETIME: 1353366000000
+TITLE: You are passing two uninitialized variables to `record_start_test_fputs(str_testCase, file_testCase);...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 818
+POSTING_TYPE: answer
+CONTENT:
+You are passing two uninitialized variables to `record_start_test_fputs(str_testCase, file_testCase);`. You should use the values given in `tests. h`, for example, `testCases_FILE [0]`.
+TAGGED_CONTENT:

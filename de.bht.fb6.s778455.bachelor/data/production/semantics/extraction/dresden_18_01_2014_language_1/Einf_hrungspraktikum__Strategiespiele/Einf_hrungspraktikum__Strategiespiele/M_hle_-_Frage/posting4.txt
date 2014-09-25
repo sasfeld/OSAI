@@ -1,0 +1,24 @@
+ID: 1170
+CREATION_DATETIME: 1362438000000
+MODIFICATION_DATETIME: 1362438000000
+TITLE: Noch ne weitere Frage:
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1168
+POSTING_TYPE: comment
+CONTENT:
+Noch ne weitere Frage:
+
+```ruby
+
+matches = fscanf(stdin, "%c", &piece_kill);
+
+		if (piece_kill != ' ')
+
+		matches = fscanf(stdin, "%c", &newline);
+
+		if (matches != 1) break;      (stammt aus dem example_player)
+
+```
+
+könnt ihr mir erklären was das bedeutet? so grob was im endeffekt passiert ist mir klar, aber ich hätts gern step-by-step verstanden... edit: also genauere frage wäre: was macht die variable matches? ist das die anzahl der eingaben?
+TAGGED_CONTENT:

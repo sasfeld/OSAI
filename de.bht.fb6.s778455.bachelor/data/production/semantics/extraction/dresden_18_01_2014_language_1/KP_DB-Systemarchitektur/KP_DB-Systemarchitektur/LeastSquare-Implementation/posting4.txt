@@ -1,0 +1,10 @@
+ID: 2288
+CREATION_DATETIME: 1374012000000
+MODIFICATION_DATETIME: 1374012000000
+TITLE: Kann es sein, dass dem Sachverhalt gar keine lineare Gleichtung zu grunde liegt, sondern eine Gleichu...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2246
+POSTING_TYPE: comment
+CONTENT:
+Kann es sein, dass dem Sachverhalt gar keine lineare Gleichtung zu grunde liegt, sondern eine <REMOVED_PERSON_ENTITY> der Form (a*x1+b*x2)*(c*x3+d*x4) = e
+TAGGED_CONTENT:

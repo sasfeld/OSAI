@@ -1,0 +1,24 @@
+ID: 3074
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: Ich bring mich hier mal mit etwas Praxishintergrund ein. Grundsätzlich finde ich es sehr, sehr löblic...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 3054
+POSTING_TYPE: comment
+CONTENT:
+Ich bring mich hier mal mit etwas Praxishintergrund ein. Grundsätzlich finde ich es sehr, sehr löblich, dass ihr weiterdenkt und euch über solche Codemanagementgeschichten Gedanken macht. Allerdings glaube ich auch ähnlich wie <REMOVED_PERSON_ENTITY>, dass ihr es euch zum Teil selbst etwas zu schwer macht, weil ihr scheinbar etwas zu viel auf einen <REMOVED_PERSON_ENTITY> wollt. Lass mich kurz ausholen:
+
+Wenn man Applikationen in Java schreibt, kann man alle <REMOVED_PERSON_ENTITY> grob in zwei Kategorien einteilen: Newables und Injectables. Newables sind alle <REMOVED_PERSON_ENTITY>, die du normalerweise per `new` erzeugst, also Entities, Value Objects usw. Injectables werden selbst nicht erzeugt, sondern vom Container verwaltet. Dazu gehören Services, Controller, Repositories etc. Wichtig hierbei ist jetzt, dass Injectables immer mit Newables arbeiten, aber *nie* umgekehrt. Warum ist das so? Nehmen wir das Beispiel hier. Im `UserAccountManager` (ein Injectable) gibt es Funktionalität, die mit anderen Injectables interagiert (z. B. einem Repository um den `UserAccount` zu persistieren), aber eben auch mit Newables. Führst du jetzt eine <REMOVED_PERSON_ENTITY> <NAME_CORPUS_REPLACEMENT> `UserAccount` zum `UserAccountManager` ein (was dein Code oben tut) dann wird plötzlich aus der gerichteten Abhängigkeit (UAM -> UA) eine zyklische (UA  UAM). Zyklische Abhängigkeiten sind etwas, was man möglichst vermeiden möchte, weil sie faktisch dafür sorgen, dass die verknüpften <REMOVED_PERSON_ENTITY> logisch zu einer Einheit werden. Dies liegt daran, dass du die eine nicht mehr ändern kannst, ohne potentiell in der anderen etwas kaputt zu machen. Um zu verstehen, was die eine tut, musst du verstehen was die andere tut. Mal davon abgesehen, bringt das Injizieren <NAME_CORPUS_REPLACEMENT> <NAME_CORPUS_REPLACEMENT> Injectables in Newables eine ganze Reihe <NAME_CORPUS_REPLACEMENT> neuen Problemstellungen (v. a. in Bezug auf das Transaktionshandling) mit sich. Du läufst also in dieses typische: "A guy had a problem and decided to solve it with regular expressions. Now he had two problems."-Phänomen.
+
+Ich würde euch also auch empfehlen, zu versuchen den Code etwas einfacher zu halten. Sobald man extrem viel am JPA Mapping customizen muss oder anfängt Infrastrukturcode zu schreiben, ist eigentlich irgendetwas eher suboptimal gelöst.
+
+Falls dich das weitergehen interessiert: in Domain Driven Design <NAME_CORPUS_REPLACEMENT> <REMOVED_PERSON_ENTITY> werden die Begriffe wie Entities, Value Objects, Services, Repositories usw. definiert und erklärt. Eine kostenlose Kurzversion des Buches gibt es unter [0]. Bzgl. der <REMOVED_PERSON_ENTITY>, Abhängigkeiten und das erzwingen <NAME_CORPUS_REPLACEMENT> Architekturconstraints gibt es hier [1] ein Slidedeck zu einem Vortrag <NAME_CORPUS_REPLACEMENT> mir. Unter [2] eine verbloggte Form des Vortrags.
+
+Ich werde am Dienstag vmtl. auch wieder im Lernraum sein. Evtl. macht es Sinn weiterführende Diskussionen direkt dort zu besprechen, weil es hier ja oft auch um Nuancen geht und man interaktiver eher den ein oder anderen Punkt vermitteln kann.
+
+[0] http://www.infoq.com/minibooks/domain-driven-design-quickly
+
+[1] https://speakerdeck. com/olivergierke/whoops-where-did-my-architecture-go-5
+
+[2] http://olivergierke.de/2013/01/whoops-where-did-my-architecture-go/
+TAGGED_CONTENT:

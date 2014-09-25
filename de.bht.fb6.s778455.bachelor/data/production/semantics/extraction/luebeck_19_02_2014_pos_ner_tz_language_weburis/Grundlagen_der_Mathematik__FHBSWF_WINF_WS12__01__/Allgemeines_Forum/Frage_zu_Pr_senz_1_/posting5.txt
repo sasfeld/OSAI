@@ -1,0 +1,31 @@
+ID: 168367
+CREATION_DATETIME: 1349721360
+MODIFICATION_DATETIME: 1349721360
+TITLE: Re: Frage zu Präsenz 1 
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=62247#168367
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:6.95597687640829;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Antwort;weight:0.0;uri:;postag:NN
+POS_TAG: value:Seite;weight:0.0;uri:;postag:NN
+POS_TAG: value:Herr;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nachfrage;weight:0.0;uri:;postag:NN
+POS_TAG: value:uterung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Prof.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Besten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dokument;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mitstudenten;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dr.;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 168057
+CONTENT:
+Hallo Herr Prof. Dr. <REMOVED_PERSON_ENTITY>,
+ich verstehe, vielen Dank für ihre Antwort!
+Bezüglich der Nachfrage von <REMOVED_PERSON_ENTITY> würde ich auch gerne wissen wollen, ob uns jemand der Mitstudenten die Seite 3 im Dokument noch einmal etwas genauer erklären könnte. Bezüglich der Seite 7 im im Dokument "2012-10-06_LA-Präsenz1. pdf" würde ich mich auch über eine nochmalige Erläuterung sehr freuen. Schon einmal Besten Dank und Gruß
+<REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:
+Hallo_ITJ Herr_NN Prof._NN Dr._NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, ich_PPER verstehe_VVFIN ,_$, vielen_PIDAT Dank_NN für_APPR ihre_PPOSAT Antwort_NN !_$. Bezüglich_APPR der_ART Nachfrage_NN von_APPR <_CARD REMOVED_PERSON_ENTITY_NN >_VVINF würde_VAFIN ich_PPER auch_ADV gerne_ADV wissen_VVINF wollen_VMFIN ,_$, ob_KOUS uns_PPER jemand_PIS der_ART Mitstudenten_NN die_ART Seite_NN 3_CARD im_APPRART Dokument_NN noch_ADV einmal_ADV etwas_ADV genauer_ADJD erklären_VVINF könnte_VMFIN ._$. Bezüglich_APPR der_ART Seite_NN 7_CARD im_APPRART im_APPRART Dokument_NN "_$( 2012-10-06_LA-Präsenz1_NN ._$. pdf_XY "_$( würde_VAFIN ich_PPER mich_PRF auch_ADV über_APPR eine_ART nochmalige_ADJA Erläuterung_NN sehr_ADV freuen_VVINF ._$. Schon_ADV einmal_ADV Besten_NN Dank_NN und_KON Gruß_NN <_VVFIN REMOVED_PERSON_ENTITY_NE >_XY 

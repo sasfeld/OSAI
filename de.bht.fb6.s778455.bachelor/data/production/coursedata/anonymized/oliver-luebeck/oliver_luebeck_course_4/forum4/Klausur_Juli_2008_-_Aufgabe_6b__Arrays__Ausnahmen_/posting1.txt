@@ -1,0 +1,40 @@
+ID: 87
+CREATION_DATETIME: 1183630440000
+MODIFICATION_DATETIME: 1183630440000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo,
+
+ich wollte gern die Aufgabe nachstellen, welche ein Array zurück liefert wie oft jede Zahl in ir vorkommt. Das Ergbenis ist nicht ganz das was rauskommen soll. Was ist falsch?
+
+anzahlZiffer.java
+public class anzahlZiffer{
+
+public static int[] anzahl(int[] ir){
+int[] erg=new int[10];
+
+for(int n : ir){
+erg[n]++;
+}
+return erg;
+}
+
+public static void main(String[] args){
+
+int[] ir1={1,2,3,4,5,6,7,8,9,0};
+int[] ir2={1,5,3,2,5,6,8,9};
+System.out.println(anzahl(ir1));
+System.out.println(anzahl(ir2));
+
+}//main
+
+}//anzahlZiffer
+
+Konsole:
+[I@3e25a5
+[I@19821f
+ 	
+TAGGED_CONTENT:

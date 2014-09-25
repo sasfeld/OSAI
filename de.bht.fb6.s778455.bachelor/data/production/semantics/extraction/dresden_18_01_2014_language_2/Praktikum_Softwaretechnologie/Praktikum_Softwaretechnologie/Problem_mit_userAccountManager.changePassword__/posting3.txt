@@ -1,0 +1,48 @@
+ID: 3077
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: Ich habe hier im Salespoint gerade folgenden Test geschrieben:
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 3075
+POSTING_TYPE: answer
+CONTENT:
+Ich habe hier im Salespoint gerade folgenden Test geschrieben:
+
+```java
+
+@RunWith(SpringJUnit4ClassRunner. class)
+
+@ContextConfiguration(classes = Salespoint. class, initializers = ConfigFileApplicationContextInitializer. class)
+
+@Transactional
+
+public class UserAccountManagerIntegrationTests {
+
+	@Autowired UserAccountManager userAccountManager;
+
+	@Autowired PasswordEncoder passwordEncoder;
+
+	@Test
+
+	public void changesPasswordCorrectly() {
+
+		UserAccountIdentifier UI = new UserAccountIdentifier("<REMOVED_PERSON_ENTITY>");
+
+		UserAccount acc = userAccountManager. create(UI, "123", new Role("ROLE_CHEF"));
+
+		userAccountManager. save(acc);
+
+		userAccountManager. changePassword(acc, "asd");
+
+		assertThat(acc. getPassword(). isEncrypted(), is(true));
+
+		assertThat(passwordEncoder. matches("asd", acc. getPassword(). toString()), is(true));
+
+	}
+
+}
+
+```
+
+Der ist bei mit <NAME_CORPUS_REPLACEMENT>.
+TAGGED_CONTENT:

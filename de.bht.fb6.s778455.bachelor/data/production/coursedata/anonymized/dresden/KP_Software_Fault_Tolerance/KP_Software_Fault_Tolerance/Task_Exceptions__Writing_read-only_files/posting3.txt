@@ -1,0 +1,9 @@
+ID: 595
+CREATION_DATETIME: 1351551600000
+MODIFICATION_DATETIME: 1351551600000
+TITLE: But you have to. fwrite() doesn't fail on a read-only file so you need to check it manually.
+PARENT_POSTING_ID: 566
+POSTING_TYPE: comment
+CONTENT:
+But you have to. fwrite() doesn't fail on a read-only file so you need to check it manually.
+TAGGED_CONTENT:

@@ -1,0 +1,13 @@
+ID: 1441
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1362870000000
+TITLE: habs auf nils art gemacht, aber dank dir wieder was neues gelernt, dafür ein Daumen hoch ;)
+LANGUAGE: GERMAN
+POS_TAG: value:Daumen;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1429
+POSTING_TYPE: comment
+CONTENT:
+habs auf <NAME_CORPUS_REPLACEMENT> art gemacht, aber dank dir wieder was neues gelernt, dafür ein Daumen hoch ;)
+TAGGED_CONTENT:
+habs_VAFIN auf_APPR <_CARD NAME_CORPUS_REPLACEMENT_NN >_CARD art_XY gemacht_VVPP ,_$, aber_KON dank_APPR dir_PPER wieder_ADV was_PWS neues_ADJA gelernt_VVPP ,_$, dafür_PROAV ein_ART Daumen_NN hoch_ADJD ;-RRB-_XY 

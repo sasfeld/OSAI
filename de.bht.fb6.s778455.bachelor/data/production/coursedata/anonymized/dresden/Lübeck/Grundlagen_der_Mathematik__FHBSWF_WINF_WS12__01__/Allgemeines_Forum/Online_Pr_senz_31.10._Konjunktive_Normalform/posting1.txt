@@ -1,0 +1,13 @@
+ID: 176639
+CREATION_DATETIME: 1351794810
+MODIFICATION_DATETIME: 1351794810
+TITLE: Online Präsenz 31.10. Konjunktive Normalform
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+ich bin es mal wieder und habe eine Frage zur gestrigen Online-Präsenz in Mathe: Es geht um die konjunktive Normalform:
+Dazu hatten wir folgendes notiert:
+X = (A ODER NICHT B oder C) UND (A oder NICHT B oder nicht C) UND (NICHT A ODER B ODER C)  Meine Frage lautet nun wie folgt Aus welchen Grund stehen hier zwischen den unterschiedlichen Klammerpaaren UNDs? Mir ist schon klar, dass der Ausdruck X immer wahr ist wenn eine Bedingung in den drei Klammerpaaren auftritt. bzw. wahr ist. Aber es müssen ja nicht alle drei Bedinungen auf einmal auftreten bzw. wahr sein damit der gesammte Ausdruck war ist, sondern es reicht auch aus wenn eine <REMOVED_PERSON_ENTITY> wahr ist. Aus diesem <REMOVED_PERSON_ENTITY> bin ich der Meinung, dass man die Klammerpaare auch mit ODER verknüpfen könnte. Ist die 1) oder 2) oder 3) <REMOVED_PERSON_ENTITY> wahr ist X wahr! Wahrscheinlich wird das so nicht stimmen, aber wieso?
+Besten Dank und Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

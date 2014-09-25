@@ -41,7 +41,7 @@ import de.bht.fb6.s778455.bachelor.semantic.store.vocabulary.IOwlDatatypePropert
 import de.bht.fb6.s778455.bachelor.semantic.store.vocabulary.IOwlIndividuals;
 import de.bht.fb6.s778455.bachelor.semantic.store.vocabulary.IOwlObjectProperties;
 import de.bht.fb6.s778455.bachelor.test.framework.JenaFrameworkTest;
-import de.bht.fb6.s778455.bachelor.test.framework.LoggingAwareTest;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>
@@ -52,7 +52,7 @@ import de.bht.fb6.s778455.bachelor.test.framework.LoggingAwareTest;
  * @since 02.02.2014
  * 
  */
-public class CourseCreationStrategyTest extends LoggingAwareTest implements
+public class CourseCreationStrategyTest extends NoLoggingTest implements
         IOwlClasses, IOwlDatatypeProperties {
     protected ACreationStrategy strategy;
     protected RdfTripleStoreAdapter adapter;

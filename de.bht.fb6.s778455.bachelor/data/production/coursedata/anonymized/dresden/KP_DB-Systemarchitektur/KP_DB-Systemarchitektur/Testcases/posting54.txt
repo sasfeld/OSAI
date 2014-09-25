@@ -1,0 +1,13 @@
+ID: 2046
+CREATION_DATETIME: 1371160800000
+MODIFICATION_DATETIME: 1371160800000
+TITLE: Hallo! Ich kann heute leider nicht zum Treffen kommen. Seit Mittwoch habe ich einen neuen Kernel, ein...
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Hallo! Ich kann heute leider nicht zum Treffen kommen. Seit Mittwoch habe ich einen neuen Kernel, eine Variation des Nested Loop Join, geschrieben, getestet und in die TestUmgebung integriert.
+Die nächsten Überlegungen sind, für die Vorhandenen Kernel andere Variationen zu schreiben, die hoffentlich die Wahl des Devices beeinflussen.
+Des weiteren werde ich bis nächste Woche das Auslesen der Ergebnisse der Kernel mit in die Testumgebung integrieren.
+Wenn noch andere Dinge anstehen, die zu machen sind, dann gebt mir bitte bescheid.
+<LEARNED_PERSON_NAME_REPLACEMENT> <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

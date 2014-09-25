@@ -1,0 +1,20 @@
+ID: 17
+CREATION_DATETIME: 1199701140000
+MODIFICATION_DATETIME: 1199701140000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 16
+CONTENT:
+
+    Hallo  und alle Studierende,
+
+der Teufel steckt im Detail: haben Sie "repaint()" beachtet in allen Besipielen der LE09?
+Die Aufgabe fragt nach einer Anwendung, nicht nach einem Applet. Anbei die grobe Umstellung.
+Ich hoffe, dass Sie alle
+- die Hauptidee einer Umwandlung Applet-Anwendung verstehen.
+- verstehen, welche variablen Attribute in einer GUI sein sollen und welche lokal deklariert werden.
+
+Bis Samstag und frohes Schaffen!
+
+    
+TAGGED_CONTENT:

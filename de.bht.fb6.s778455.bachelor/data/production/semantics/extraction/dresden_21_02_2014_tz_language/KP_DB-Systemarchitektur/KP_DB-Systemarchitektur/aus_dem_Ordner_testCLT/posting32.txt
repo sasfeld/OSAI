@@ -1,0 +1,12 @@
+ID: 1964
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Jetz muss ich doch nochmal dumm fragen: Was soll ich im PATH denn eintragen, damit er llvm-3.2 nimmt?...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Jetz muss ich doch nochmal dumm fragen: Was soll ich im PATH denn eintragen, damit er llvm-3. 2 nimmt? und wäre es nicht besser, wenn wir auf der wimpy node die 2. 9 einfach deinstallieren und nur noch die 3. 2er nehmen, wenn es mit der 2. 9 eh nicht geht?
+
+Wenn ichs aufm wimpy versuche zu bauen, bekomme ich auch ellenlange Fehlermeldung seitens llvm.
+TAGGED_CONTENT:

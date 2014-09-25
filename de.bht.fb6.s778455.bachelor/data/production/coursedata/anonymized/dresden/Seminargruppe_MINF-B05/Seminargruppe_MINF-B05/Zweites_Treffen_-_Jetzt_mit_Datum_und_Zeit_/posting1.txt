@@ -1,0 +1,20 @@
+ID: 638
+CREATION_DATETIME: 1351724400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Huhu <NAME_CORPUS_REPLACEMENT> Seminargruppe,
+das Dudle hat bestimmt, dass unser zweites Treffen am Mittwoch, dem 14. November
+um 18:30 Uhr stattfinden wird. Ich schlage vor, jeder der Lust hat, bringt neben
+Fragen zum Studium Spiele mit. Je nach Lust und Laune können wir ja ne Pizza
+bestellen o.ä. Wenn jemand ne Konsole oder was Digitales mitbringen mag, sagt
+nochmal Bescheid, dann gehe ich sicher, dass wir einen <REMOVED_PERSON_ENTITY> haben.
+Treffpunkt ist das Fakultätsfoyer, nen Raum organisiere ich noch.
+Und noch eine Bitte an euch: <NAME_CORPUS_REPLACEMENT> ja nicht alle ihre Mails hier lesen oder im Auditorium sind,
+sagt den anderen Bescheid. Ich versuche, mal in eine Übung zu kommen und der Facebook-
+Gruppe beizutreten, aber Mehrkanalkommunikation schadet ja nicht ;]
+Bis dahin viel Spaß beim Studieren,
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

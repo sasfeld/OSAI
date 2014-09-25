@@ -1,0 +1,12 @@
+ID: 166721
+CREATION_DATETIME: 1349333145
+MODIFICATION_DATETIME: 1349333145
+TITLE: Re: Heutiges Online-Meeting
+PARENT_POSTING_ID: 166707
+CONTENT:
+Als Nachricht hier im Moodlesystem. Ich habe es auch nur zufällig gesehen.
+Meine Startseite ==&gt; Mein Profil ==&gt; Mitteilungen ==&gt; Aktuelle Gespräche
+Wünschenswert meinerseits wäre es wenn sämtliche Ankündigungen im entsprechenden Forum geposted werden. (z. B im News Forum)
+ 
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

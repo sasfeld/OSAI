@@ -1,0 +1,20 @@
+ID: 25
+CREATION_DATETIME: 1194781500000
+MODIFICATION_DATETIME: 1194781500000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 24
+CONTENT:
+ 
+Hallo ,
+
+alle Fenster in Eclipse sind Reiter, die Du anfassen und an beliebige Positionen verschieben kannst. Somit könntest Du Dir auch den Quellcode von zwei Klassen nebeneinanderstellen. Generell kannst Du Dir das Eclipse komplett so einrichten, wie Du es magst, und als Deine Perspektive abspeichern (Menüpunkt Window).
+
+Beim auskommentierten Quellcode einklappen weiß ich nicht so recht, was Du damit meinst. Eclipse erkennt jede Methode (auch auskommentierte) und jedes Kommentar, was Du mit dem -/+ ganz links vom Quelltext jeweils ein- oder ausklappen kannst. Meinst Du das eventuell?
+
+Hoffe, ich konnte ein wenig helfen.
+
+
+Schöne Grüße
+   
+TAGGED_CONTENT:

@@ -1,0 +1,27 @@
+ID: 170213
+CREATION_DATETIME: 1350214476
+MODIFICATION_DATETIME: 1350214476
+TITLE: Re: Online Präsenz vom 10.10.
+LANGUAGE: UNKNOWN
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:5.00870710783694;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+NER_TAG: value:LON CAPA;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:LON CAPA;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Wort;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:bungsaufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Original;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skript;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kurs;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 170029
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY>,
+Du schreibst "Im wurde noch folgende Übungsaufgabe geannt."
+Da fehlt leider das entscheidende Wort. Im was? Skript? Kurs? Chat? LON CAPA? Ich würde gern mal die Aufgabe im Original lesen. 
+Grüße
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NN >_VVFIN ,_$, Du_PPER schreibst_VVFIN "_$( Im_APPRART wurde_VAFIN noch_ADV folgende_ADJA Übungsaufgabe_NN geannt_VVPP ._$. "_$( Da_ADV fehlt_VVFIN leider_ADV das_ART entscheidende_ADJA Wort_NN ._$. Im_APPRART was_PWS ?_$. Skript_NN ?_$. Kurs_NN ?_$. Chat_PDS ?_$. LON_NE CAPA_NE ?_$. Ich_PPER würde_VAFIN gern_ADV mal_ADV die_ART Aufgabe_NN im_APPRART Original_NN lesen_VVINF ._$. Grüße_NN <_NE REMOVED_PERSON_ENTITY_NE >_XY 

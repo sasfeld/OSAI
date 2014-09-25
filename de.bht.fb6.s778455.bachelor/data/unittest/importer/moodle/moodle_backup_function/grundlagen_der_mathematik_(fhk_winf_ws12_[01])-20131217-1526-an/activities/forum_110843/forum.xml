@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="22729" moduleid="110843" modulename="forum" contextid="155545">
+  <forum id="22729">
+    <type>general</type>
+    <name>Fachforum zum Modul</name>
+    <intro>&lt;p&gt;Hier können Sie Fachfragen zum Teil I diskutieren.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1348132357</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="61591">
+        <name>Befehle</name>
+        <firstpost>165939</firstpost>
+        <userid>10905</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1349804811</timemodified>
+        <usermodified>665</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="165939">
+            <parent>0</parent>
+            <userid>10905</userid>
+            <created>1349105249</created>
+            <modified>1349105249</modified>
+            <mailed>1</mailed>
+            <subject>Befehle</subject>
+            <message>&lt;p&gt;Hat jemand schon entdeckt, wo man die ganzen Befehle von den Maple-Links eingeben kann? Ich habe es bereits in Excel und auf meinem Taschenrechner versucht, jedoch ohne Erfolg.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="168047">
+            <parent>165939</parent>
+            <userid>10911</userid>
+            <created>1349680535</created>
+            <modified>1349680576</modified>
+            <mailed>1</mailed>
+            <subject>Re: Befehle</subject>
+            <message>&lt;p&gt;ich glaub, da gibt es so ein Mathe CAs Programm fürn PC, zur graphischen Darstellung etc.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;ich hab die erste VD Konfi Mathe verschwitzt, fängt ja gut an :(&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="168719">
+            <parent>168047</parent>
+            <userid>665</userid>
+            <created>1349804811</created>
+            <modified>1349804811</modified>
+            <mailed>1</mailed>
+            <subject>Re: Befehle</subject>
+            <message>&lt;p&gt;Liebe Studierenden,&lt;/p&gt;
+&lt;p&gt;die Maple-Links können Sie ignorieren!&lt;/p&gt;
+&lt;p&gt;Viele Grüße&lt;/p&gt;
+&lt;p&gt;Ulrike Bähr&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="64443">
+        <name>Aussagenlogik</name>
+        <firstpost>173385</firstpost>
+        <userid>10905</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1351011908</timemodified>
+        <usermodified>11039</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="173385">
+            <parent>0</parent>
+            <userid>10905</userid>
+            <created>1350926268</created>
+            <modified>1350926268</modified>
+            <mailed>1</mailed>
+            <subject>Aussagenlogik</subject>
+            <message>&lt;p&gt;Hey Leute,&lt;/p&gt;
+&lt;p&gt;wer Interesse hat kann sich gerne morgen gegen 19.30 in den offenen Konferenzraum begeben. Wir wollen einmal das Thema Aussagelogik besprechen. &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;Lg&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="173769">
+            <parent>173385</parent>
+            <userid>11039</userid>
+            <created>1351011908</created>
+            <modified>1351011908</modified>
+            <mailed>1</mailed>
+            <subject>Re: Aussagenlogik</subject>
+            <message>N'abend,
+
+das ganze wurde spontan auf 19:45 verschoben. Falls jemand noch teilnehmen will und um 19:30 allein da ist.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="68031">
+        <name>Praxisveranstaltung</name>
+        <firstpost>182623</firstpost>
+        <userid>10925</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1353667473</timemodified>
+        <usermodified>10913</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="182623">
+            <parent>0</parent>
+            <userid>10925</userid>
+            <created>1353664510</created>
+            <modified>1353664510</modified>
+            <mailed>1</mailed>
+            <subject>Praxisveranstaltung</subject>
+            <message>&lt;p&gt;Weiss jemand wann genau jetzt die Praxisveranstaltung beginnt? Im Skript steht heute allerdings keine Uhrzeit.&lt;/p&gt;
+&lt;p&gt;Gruss, Sebastian&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="182653">
+            <parent>182623</parent>
+            <userid>10913</userid>
+            <created>1353667473</created>
+            <modified>1353667473</modified>
+            <mailed>1</mailed>
+            <subject>Re: Praxisveranstaltung</subject>
+            <message>&lt;p&gt;Moin, 16:00 laut Präsenzplan.&lt;/p&gt;
+&lt;p&gt;$@RESOURCEVIEWBYID*134713@$&lt;/p&gt;
+&lt;p&gt;Bis nachher.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="68051">
+        <name>Präsenzveranstaltung - Mitschrift</name>
+        <firstpost>182665</firstpost>
+        <userid>10889</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1353681535</timemodified>
+        <usermodified>10911</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="182665">
+            <parent>0</parent>
+            <userid>10889</userid>
+            <created>1353669439</created>
+            <modified>1353669439</modified>
+            <mailed>1</mailed>
+            <subject>Präsenzveranstaltung - Mitschrift</subject>
+            <message>&lt;p&gt;Hallo,&lt;/p&gt;
+&lt;p&gt;da ich krank zu Hause bleiben muss, habe ich auch für diese Präsenzveranstaltung eine große Bitte an Euch. Kann mir einer nach der Präsenzveranstaltung seine Mitschrift zur Verfügung stellen? Wäre klasse!&lt;/p&gt;
+&lt;p&gt;Vielen Dank und schöne Grüße&lt;br /&gt;Stefan&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="182703">
+            <parent>182665</parent>
+            <userid>10911</userid>
+            <created>1353681343</created>
+            <modified>1353681535</modified>
+            <mailed>1</mailed>
+            <subject>Re: Präsenzveranstaltung - Mitschrift</subject>
+            <message>&lt;p&gt;mich hat`s leider auch erwischt:(&lt;/p&gt;
+&lt;p&gt;Mir würden die behandelten Themengebiete/die besprochenen der Aussagenlogik, zum Stoff nachholen.&lt;/p&gt;
+&lt;p&gt;muss man sich irgendwo abmelden?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="68333">
+        <name>3. Einsendeaufgabe (Vektoren) - Musterlösung</name>
+        <firstpost>183271</firstpost>
+        <userid>10889</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1353929439</timemodified>
+        <usermodified>10889</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="183271">
+            <parent>0</parent>
+            <userid>10889</userid>
+            <created>1353929113</created>
+            <modified>1353929439</modified>
+            <mailed>1</mailed>
+            <subject>3. Einsendeaufgabe (Vektoren) - Musterlösung</subject>
+            <message>&lt;p&gt;Da Frau Bähr mir geschrieben hat, dass ich meine Lösung zu der 3. Einsendeaufgabe (Vektoren) gerne als Musterlösung hier einstellen kann, mache ich das. &lt;br /&gt;Ich hoffe, dass Sie Euch weiterhilft.&lt;/p&gt;
+&lt;p&gt;VG&lt;br /&gt;Stefan&lt;/p&gt;
+&lt;p&gt;Kurze Anmerkung: Ich denke, dass es bei d) "λ element R \{0}" heißen muss&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="182849">
+        <userid>643</userid>
+      </subscription>
+      <subscription id="182883">
+        <userid>665</userid>
+      </subscription>
+      <subscription id="183505">
+        <userid>321</userid>
+      </subscription>
+      <subscription id="198161">
+        <userid>729</userid>
+      </subscription>
+      <subscription id="198165">
+        <userid>769</userid>
+      </subscription>
+      <subscription id="198169">
+        <userid>7934</userid>
+      </subscription>
+      <subscription id="198173">
+        <userid>735</userid>
+      </subscription>
+      <subscription id="198177">
+        <userid>747</userid>
+      </subscription>
+      <subscription id="211045">
+        <userid>757</userid>
+      </subscription>
+      <subscription id="211289">
+        <userid>741</userid>
+      </subscription>
+      <subscription id="216461">
+        <userid>10905</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

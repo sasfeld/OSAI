@@ -1,0 +1,12 @@
+ID: 409
+CREATION_DATETIME: 1350511200000
+MODIFICATION_DATETIME: 1350511200000
+TITLE: Danke! Könntet Ihr di
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 408
+POSTING_TYPE: comment
+CONTENT:
+Danke! Könntet Ihr die Veranstaltung bitte noch dem richtigen Lehrstuhl zuordnen: Professur für Multimedia-Technologie. Und dabei bitte gleich beim Lehrstuhl das "für" ergänzen.
+
+Vielen Dank, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

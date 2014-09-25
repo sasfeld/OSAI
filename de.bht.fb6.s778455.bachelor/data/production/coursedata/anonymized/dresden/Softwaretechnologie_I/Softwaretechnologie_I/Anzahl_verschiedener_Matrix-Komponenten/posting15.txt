@@ -1,0 +1,12 @@
+ID: 2026
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: Moin. Also, ich hab jetzt deine Methode getestet, bei mir funktioniert sie, allerdings erst nach eini...
+PARENT_POSTING_ID: 2019
+POSTING_TYPE: comment
+CONTENT:
+Moin. Also, ich hab jetzt deine Methode getestet, bei mir funktioniert sie, allerdings erst nach einigem herumprobieren. Der Fehler liegt also wahrscheinlich außerhalb. Ich hab zuerst den Fehler gemacht, dass ich die put-Methode nicht äquivalent verwendet habe. Diese nimmt als Parameter ja put(int keyRow, int keyColumn) und ich habe diese direkt als Point(x, y) abgespeichert.
+Beim iterieren gehst du zwar außen über die columns und innen über die rows (auch richtig), allerdings benutzt du die x-Koordinate als Laufvariable für die Columns! Wenn du im put() die Parameter direkt übernimmst, entspricht das X dann aber den Rows.
+Des weiteren: Wenn deine hasNext() Methode in den if(contains)-<REMOVED_PERSON_ENTITY> geht, muss es an dem Punkt ja einen Wert geben. Daher kann es nicht sein, dass der next() aufruf null zurück gibt. Eventuell stimmt also auch an deiner contains()-Methode etwas nicht.
+Ist schwer den Fehler zu finden, <NAME_CORPUS_REPLACEMENT> wie gesagt deine hasNext()-Methode korrekt funktioniert. Vllt. solltest du auch nochmal den aktuellen Code posten, du hast ja erwähnt, dass du was geändert hast. Viel erfolg. 
+TAGGED_CONTENT:

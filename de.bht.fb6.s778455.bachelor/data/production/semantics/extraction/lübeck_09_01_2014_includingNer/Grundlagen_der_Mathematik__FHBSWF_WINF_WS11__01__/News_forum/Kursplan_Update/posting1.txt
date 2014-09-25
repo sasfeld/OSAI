@@ -1,0 +1,24 @@
+ID: 117494
+CREATION_DATETIME: 1321885574
+MODIFICATION_DATETIME: 1321885574
+TITLE: Kursplan Update
+TOPIC_ZOOM_TAG: value:Fachhochschulen in Deutschland;weight:1.0;significance:12.015402334674;degreegeneralization:12;uri:21957551
+TOPIC_ZOOM_TAG: value:Fachhochschulen;weight:1.0;significance:11.6099372265658;degreegeneralization:5;uri:21881935
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten in Deutschland;weight:1.0;significance:8.20873984490366;degreegeneralization:11;uri:21957585
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten in Europa;weight:1.0;significance:8.16525473296392;degreegeneralization:8;uri:20920126
+TOPIC_ZOOM_TAG: value:Studium und berufliche Ausbildung in Deutschland;weight:1.0;significance:8.16525473296392;degreegeneralization:10;uri:21881136
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung in Deutschland;weight:1.0;significance:7.6333757000001;degreegeneralization:9;uri:21998589
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung - Europa;weight:1.0;significance:7.58458553583067;degreegeneralization:7;uri:20742850
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Wissenschaft und Technik in Deutschland;weight:1.0;significance:5.44943338713683;degreegeneralization:9;uri:21946076
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Deutschland;weight:1.0;significance:2.0357642545643;degreegeneralization:8;uri:21996974
+TOPIC_ZOOM_TAG: value:Europa;weight:1.0;significance:1.55587681555031;degreegeneralization:6;uri:21972001
+PARENT_POSTING_ID: 0
+CONTENT:
+Bitte beachten Sie die Verschiebung der Pflichttermine im Kursplan. Es gilt der Praesenzstundenplan der VFH, an den ich den Kursplan (auf einer alten Fassung beruhend) nun angepasst habe.
+Weiterhin duerfen Sie sich den Januar-Termin als Pflichttermin nach (vorheriger) Absprache mit mir anrechnen lassen.
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

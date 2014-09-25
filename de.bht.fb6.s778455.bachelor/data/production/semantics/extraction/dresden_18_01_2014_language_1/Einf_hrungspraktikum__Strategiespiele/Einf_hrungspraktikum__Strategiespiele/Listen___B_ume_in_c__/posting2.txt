@@ -1,0 +1,12 @@
+ID: 1262
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1363993200000
+TITLE: Wie wird eine Liste aufgerufen und ein Baum erstellt?
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1259
+POSTING_TYPE: question
+CONTENT:
+danke, könnt ihr mir auch noch sagen wie ich so eine liste aufrufe weil das kann ich <NAME_CORPUS_REPLACEMENT> iwie nich rauslesen
+
+und wie ich einen baum baue bei dem ich mir dann den längsten ast geben lassen kann?
+TAGGED_CONTENT:

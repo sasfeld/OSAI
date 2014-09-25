@@ -1,0 +1,36 @@
+ID: 66
+CREATION_DATETIME: 1198312140000
+MODIFICATION_DATETIME: 1198312140000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Liebe Studierende,
+
+was bewirkt die rekursive Methode met unten? Ergänzen Sie das Javadoc-Kommentar. Ich freue mich auf zahlreiche Antworten.
+
+Ich wünsche Ihnen schön Feiertage
+
+
+    /**
+     *
+     * @param n, a positive integer number
+     * @param z, a positive digit from 1 to 9
+     */
+    public static void met(int n, int z){
+        if (n<10){
+            if (n==z){
+            System.out.print(n);
+            }
+            System.out.println();
+        } else {
+            if (n%10 == z) {
+                System.out.print(z);
+            }
+            met(n/10, z);
+        }
+    }
+    
+       
+TAGGED_CONTENT:

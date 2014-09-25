@@ -1,0 +1,17 @@
+ID: 57
+CREATION_DATETIME: 1197583620000
+MODIFICATION_DATETIME: 1197583620000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 56
+CONTENT:
+
+Liebe , liebe Studierende,
+
+das Klassendiagram der LE06 nochmal anschauen: die Klassen der GUI sollen die Logik, also das Cocktailbar-Objekt kennen. Es ist möglich durch die Konstruktoren ein Cocktailbar-Objekt weiter zureichen. Bis auf alkoholfrei bleiben die Logik-Klassen, also alle Klassen der LE04 unverändert.
+
+Ich hoffe es hilft!
+
+Viele Grüße
+   
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 1907
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1380405600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+The slides on Resource management mention a *capability derivation tree* . That sounds awfully lot like a mapping database?
+1. Do the two terms describe the same thing?
+2. If not what is the distinction?
+Thank you
+TAGGED_CONTENT:

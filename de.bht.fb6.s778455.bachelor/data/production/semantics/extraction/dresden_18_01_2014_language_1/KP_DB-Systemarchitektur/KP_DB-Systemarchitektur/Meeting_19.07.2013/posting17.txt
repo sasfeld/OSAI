@@ -1,0 +1,10 @@
+ID: 2366
+CREATION_DATETIME: 1374271200000
+MODIFICATION_DATETIME: 1374271200000
+TITLE: Wohl ein Seiteneffekt von nicht monotonen Uhren oder ein Zahlenüberlauf. Notfalls müssen wir filtern....
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2344
+POSTING_TYPE: comment
+CONTENT:
+Wohl ein Seiteneffekt <NAME_CORPUS_REPLACEMENT> nicht monotonen Uhren oder ein Zahlenüberlauf. Notfalls müssen wir filtern.
+TAGGED_CONTENT:

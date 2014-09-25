@@ -1,0 +1,19 @@
+ID: 28
+CREATION_DATETIME: 1194015840000
+MODIFICATION_DATETIME: 1194015840000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 27
+CONTENT:
+
+Sehr gute Antwort!
+Attribute private für Sicherheit. Meistens möchte man die Änderung von Attribute durch Methoden (setters) kontrollieren.
+Konstruktor public, damit man weltweit mit dieser Klasse Objekte erzeugen kann. Spezial Fall: in der Klasse Math ist der Konstruktor private deklariert, um zu verhindern Objekte mit dieser Klasse zu erzeugen. Die Klasse Math hat nur Klassen-Methoden. Math-Objekte zu erzeugen macht keinen Sinn.
+Methoden public, damit man die erzeugte Objekte behandeln kann. Es kann private Methoden geben, als Hilfsmethoden von public Methoden oder Konstruktoren, um diese zu strukturieren, wenn sie zu gross werden.
+
+Sich gut merken: die public Konstruktoren und Methoden bilden die "Schnittstelle" einer Klasse mit der Aussenwelt. Nur mit diesen kann man die Klasse "weltweit" benutzen. Ihre Javadoc Kommentare sind wichtig.
+
+Wenn man eine andere Erreichbarkeit wählt wie paketweit oder in Unterklassen (protected), muss man gute Gründe haben.
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

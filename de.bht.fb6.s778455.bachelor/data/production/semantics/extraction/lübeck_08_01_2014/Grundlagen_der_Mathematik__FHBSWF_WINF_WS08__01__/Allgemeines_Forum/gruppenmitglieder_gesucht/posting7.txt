@@ -1,0 +1,11 @@
+ID: 16573
+CREATION_DATETIME: 1225092656
+MODIFICATION_DATETIME: 1225092656
+TITLE: Re: gruppenmitglieder gesucht
+PARENT_POSTING_ID: 16569
+CONTENT:
+Moin <REMOVED_PERSON_ENTITY>,
+also wir (<REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY> und Ich) hätten noch einen Platz frei. Wenn du Lust hast, kannst du in unserer Gruppe mit machen.
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

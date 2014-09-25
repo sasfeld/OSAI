@@ -1,0 +1,28 @@
+ID: 31
+CREATION_DATETIME: 1304605740000
+MODIFICATION_DATETIME: 1304605740000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 27
+CONTENT:
+
+Hallo lieber Lesezirkel!
+
+Ich bin wirklich beruhigt, dass ihr auch so eure Probleme mit den Aufgaben habt, denn ich habe schon meinem Verstand gezweifelt.
+Ich möchte wirklich nicht zimperlich klingen aber vielleicht ist LE09 nicht gerade optimal für Java-Neulinge.
+In LE01 wusste ich gemäß der Unterlagen nicht einmal wie man Bit in Byte umrechnet und nur 8 Lektionen später werde ich mit einer Aufgabe konfroniert, welche man lieber mit dem Tool löst, was wir erstmal nicht nutzen sollen um Java zu lernen.
+Zudem stimmen die Angaben zur Einrichtung der Entwicklungsumgebung auf einmal nicht mehr und man fängt an rumzuknobeln.
+Als Einsteiger verwirrt mich sowas doch recht schnell.
+Leider habe ich als berufstätiger Familienvater für sowas keine Zeit.
+Sicherlich weiß ich, dass ich als Online-Student einen Nachteil zum Präsenzstudium habe, da die ständige persönliche Kommunikation fehlt und ich alles lesen statt hören muss.
+Das wusste ich und unter dem Aspekt habe ich mich eingeschrieben. Aber irgendwie ging mir jetzt was zu schnell.
+Ich hoffe, dass ich den Einstieg wieder finde.
+
+Ich danke euch für die Tipps und werde mich nun auch mit Eclipse vertraut machen.(kostet wieder erstmal Zeit :-( )
+Außerdem hoffe ich auf die Präsenzveranstaltung, dass das lose Wissen gefestigt und die Unsicherheiten beseitigt werden.
+
+@ : Du hast völlig Recht...switch Anweisung bei double kann man vergessen.
+
+Beste Grüße,
+   
+TAGGED_CONTENT:

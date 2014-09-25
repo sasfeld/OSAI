@@ -1,0 +1,10 @@
+ID: 1088
+CREATION_DATETIME: 1359500400000
+MODIFICATION_DATETIME: 1365112800000
+TITLE: 1) Möglichkeit des sendens von privaten Nachrichten an andere Nutzer, die man 2) als Buddys hinzufüge...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 369
+POSTING_TYPE: answer
+CONTENT:
+1) Möglichkeit des sendens <NAME_CORPUS_REPLACEMENT> privaten Nachrichten an andere Nutzer, die man 2) als Buddys hinzufügen kann.
+TAGGED_CONTENT:

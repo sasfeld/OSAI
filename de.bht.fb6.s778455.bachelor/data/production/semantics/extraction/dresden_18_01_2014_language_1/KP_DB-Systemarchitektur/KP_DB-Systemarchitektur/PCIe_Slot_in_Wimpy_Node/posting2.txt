@@ -1,0 +1,12 @@
+ID: 2070
+CREATION_DATETIME: 1371333600000
+MODIFICATION_DATETIME: 1371333600000
+TITLE: Also ich hab bei mir hier noch eine ATI HD 4550 mit 128MB. Das gute Teil unterstützt nur OpenCL 1.0, ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2057
+POSTING_TYPE: answer
+CONTENT:
+Also ich hab bei mir hier noch eine ATI HD 4550 mit 128MB. Das gute Teil unterstützt nur OpenCL 1. 0, aber immerhin. Die Quadro, die ich noch hier habe, ist zu alt und bietet noch kein OpenCL an.
+
+Ich könnte morgen so gegen 11:15 mal ins Labor kommen und das gute Stück mitbringen.
+TAGGED_CONTENT:

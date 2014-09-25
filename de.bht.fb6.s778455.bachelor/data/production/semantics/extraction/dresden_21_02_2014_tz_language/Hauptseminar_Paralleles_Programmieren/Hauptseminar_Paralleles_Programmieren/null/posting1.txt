@@ -1,0 +1,16 @@
+ID: 2938
+CREATION_DATETIME: 1384988400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Arbeit und Beruf;weight:1.0;significance:3.54101226558305;degreegeneralization:3;uri:21924095
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:1.80459553725326;degreegeneralization:2;uri:21999847
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Heute haben alle Teilnehmer des Hauptseminars Einladungen für *EasyChair* (https://www. easychair. org) erhalten.
+
+Bitte meldet euch bei EasyChair an, um euer Zusammenfassung (Abstrakt und Gliederung) bei EasyChair und später die schriftliche Arbeit einzureichen. Später erlaubt es diese Plattform auch, die Arbeiten gegenseitig zu verbessern (Reviewprozess).
+
+**Bitte denkt an das einreichen des Zusammenfassung bis zum 4. 12. 2013!**
+TAGGED_CONTENT:

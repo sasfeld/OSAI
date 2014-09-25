@@ -1,0 +1,12 @@
+ID: 972
+CREATION_DATETIME: 1355698800000
+MODIFICATION_DATETIME: 1355698800000
+TITLE: (1) right. If last_ping[q] is different from zero, there was a ping sent and not yet replied. If the ...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 956
+POSTING_TYPE: answer
+CONTENT:
+(1) right. If last_ping[q] is different from zero, there was a ping sent and not yet replied. If the time between last_ping[q] and now (which is Cp()) is greater than 2δ+2σ, then there was a failure. The only possible failure is that q is crashed since messages cannot be lost, network cannot delay messages more than δ, and processors cannot get delayed more than σ in the synchronous model.
+
+(2) The figure is used to justify the claim that perfect failure detection <NAME_CORPUS_REPLACEMENT> be performed with a **software** watchdog instead of a hardware watchdog (with a lower assumption coverage). The figure shows a set of experiments in a heavily loaded system where no instruction was executed after the deadline.  Please read section IX of "Perfect Failure Detection in Timed Asynchronous Systems" for more details.
+TAGGED_CONTENT:

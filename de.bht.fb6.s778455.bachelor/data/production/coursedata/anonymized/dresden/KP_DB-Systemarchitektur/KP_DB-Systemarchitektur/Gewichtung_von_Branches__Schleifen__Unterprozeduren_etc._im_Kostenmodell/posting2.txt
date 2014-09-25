@@ -1,0 +1,9 @@
+ID: 1805
+CREATION_DATETIME: 1368482400000
+MODIFICATION_DATETIME: 1368482400000
+TITLE: Gut, ich schreibe ein BasicBlock Analysis-Pass zuerst. Wenn ich Problem habe frage ich dann.
+PARENT_POSTING_ID: 1802
+POSTING_TYPE: comment
+CONTENT:
+Gut, ich schreibe ein BasicBlock Analysis-Pass zuerst. Wenn ich Problem habe frage ich dann.
+TAGGED_CONTENT:

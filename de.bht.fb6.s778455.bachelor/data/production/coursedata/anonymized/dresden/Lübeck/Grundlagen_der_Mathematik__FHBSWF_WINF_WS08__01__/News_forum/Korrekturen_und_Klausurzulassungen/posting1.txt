@@ -1,0 +1,8 @@
+ID: 16519
+CREATION_DATETIME: 1232383247
+MODIFICATION_DATETIME: 1232383247
+TITLE: Korrekturen und Klausurzulassungen
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Sie alle, es stehen von meiner <REMOVED_PERSON_ENTITY> noch Korrekturen von Einsendeaufgaben aus, bzw. Benachrichtigungen, ob Sie die Klausurzulassungen erreicht hatten, oder nicht. Die Korrekturen sind ab jetzt in Arbeit mit folgender zeitlicherKorrekturreihenfolge der Fächer (diese entspricht der zeitlichen Reihenfolge, in der die Klausuren geschrieben werden):1. Künstliche Intelligenz (MIM)2. Mathematik 2 (MIB, alte PO)3. Einführung in die Informatik (MIB)4. Grundlagen der Programmierung (WINF)5. Grundlagen der Mathematik (WINF)6. Betriebssysteme 1 (MIB, alte PO)Sollten Sie Ihre Klausur schreiben wollen, Ihr Anmeldungszeitraum ablaufen, sie von mir noch kein Feedback zur Klaursurzulassung erhalten haben und die Anmeldefrist ablaufen, so melden sich die Wolfenbütteler Studierenden bitte trotzdem an. Sollten die Wolfenbütteler Studierenden sich angemeldet haben und die Klausurzulassung doch nicht erreichen, so klären dass Herr Prof. Dr. <REMOVED_PERSON_ENTITY> und ich intern; sie werden dann wieder abgemeldet. Die Studierenden des Kurses KI (MIM) werden kurzfristig, heute odermorgen die Benachrichtigung erhalten. Mit freundlichen Grüßen, <PERSONAL_GREETING_REMOVEMENT>. <REMOVED_PERSON_ENTITY>. 
+TAGGED_CONTENT:

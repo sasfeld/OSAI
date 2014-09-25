@@ -1,0 +1,14 @@
+ID: 172243
+CREATION_DATETIME: 1350589459
+MODIFICATION_DATETIME: 1350589459
+TITLE: Re: Gruppen für die Einsendeaufgaben
+POS_TAG: value:Leute;weight:0.0;uri:;postag:NN
+POS_TAG: value:Einsendeaufgaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Termin;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sache;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 172235
+CONTENT:
+Ich bin hier irgendwie nicht so ganz bei der Sache. Wann ist der Termin für Einsendeaufgaben und wie viele Leute sollen in eine Gruppe?
+TAGGED_CONTENT:
+Ich_PPER bin_VAFIN hier_ADV irgendwie_ADV nicht_PTKNEG so_ADV ganz_ADV bei_APPR der_ART Sache_NN ._$. Wann_PWAV ist_VAFIN der_ART Termin_NN für_APPR Einsendeaufgaben_NN und_KON wie_PWAV viele_PIDAT Leute_NN sollen_VMFIN in_APPR eine_ART Gruppe_NN ?_$. 

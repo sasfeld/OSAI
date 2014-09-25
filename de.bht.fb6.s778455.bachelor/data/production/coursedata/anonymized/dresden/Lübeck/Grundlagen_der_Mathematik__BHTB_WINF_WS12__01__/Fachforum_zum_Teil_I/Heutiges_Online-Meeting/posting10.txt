@@ -1,0 +1,10 @@
+ID: 166597
+CREATION_DATETIME: 1349285241
+MODIFICATION_DATETIME: 1349285241
+TITLE: Re: Heutiges Online-Meeting
+PARENT_POSTING_ID: 166593
+CONTENT:
+Hi @ll,#
+so habe ich das auch verstanden heute ist Online - Meeting aber blöd nur das zeitgleich die Einführung für Grundlagen der Programmierung ist.
+Sehr seltsam
+TAGGED_CONTENT:

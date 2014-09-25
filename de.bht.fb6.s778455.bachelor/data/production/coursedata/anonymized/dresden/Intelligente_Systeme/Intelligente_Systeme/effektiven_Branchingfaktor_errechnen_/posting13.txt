@@ -1,0 +1,9 @@
+ID: 767
+CREATION_DATETIME: 1352847600000
+MODIFICATION_DATETIME: 1352847600000
+TITLE: Nein ist es nicht. Hängt ja von der Umsetzung ab. Ist nur in diesem Beispiel zutreffend. Aber du kann...
+PARENT_POSTING_ID: 718
+POSTING_TYPE: comment
+CONTENT:
+Nein ist es nicht. Hängt ja <NAME_CORPUS_REPLACEMENT> der Umsetzung ab. Ist nur in diesem Beispiel zutreffend. Aber du kannst die Knoten ja auch programmatisch auslagern, sodass dein <REMOVED_PERSON_ENTITY> widerlegt werden kann ;) Anzahl markierter Knoten ist besser. Aber ja mein <REMOVED_PERSON_ENTITY> war auch nicht korrekt wie ich gerade merke.. es sind die markierten und nicht die besuchten. Du markierst ja die Knoten sobald der Elternknoten expandiert wurde. Also ein expandierter Knoten ist einschließlich der Kindknoten der markiert wurde. 
+TAGGED_CONTENT:

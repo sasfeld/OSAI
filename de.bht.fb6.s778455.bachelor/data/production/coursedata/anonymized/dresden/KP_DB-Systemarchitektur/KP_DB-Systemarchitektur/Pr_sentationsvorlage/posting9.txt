@@ -1,0 +1,9 @@
+ID: 2014
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Okay, mein Zeugs ist auch im SVN und kann in die große Präsi gemergt werden. Die Kästchen waren irgen...
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+Okay, mein Zeugs ist auch im SVN und kann in die große Präsi gemergt werden. Die Kästchen waren irgendwie Bitmaps, deshalb habe ich den Text einfach drübergeschrieben, den ich drin haben wollte.
+TAGGED_CONTENT:

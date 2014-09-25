@@ -1,0 +1,9 @@
+ID: 2247
+CREATION_DATETIME: 1373925600000
+MODIFICATION_DATETIME: 1373925600000
+TITLE: Hinweis: Ab Loglevel 4 werden die Matrizen mit ausgegeben
+PARENT_POSTING_ID: 2246
+POSTING_TYPE: comment
+CONTENT:
+Hinweis: Ab Loglevel 4 werden die Matrizen mit ausgegeben
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1052
+CREATION_DATETIME: 1358377200000
+MODIFICATION_DATETIME: 1358377200000
+TITLE: If you mean the "studenten wohnheim" then that should be in the TU network and you should be able to ...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1047
+POSTING_TYPE: comment
+CONTENT:
+If you mean the "studenten wohnheim" then that should be in the TU network and you should be able to access the files without password. However, in the last days they updated the infrastructure so strange things could happen. :-)
+TAGGED_CONTENT:

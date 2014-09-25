@@ -1,0 +1,10 @@
+ID: 445
+CREATION_DATETIME: 1350684000000
+MODIFICATION_DATETIME: 1350684000000
+TITLE: Ich hab jetzt mal tes
+PARENT_POSTING_ID: 434
+POSTING_TYPE: answer
+CONTENT:
+Ich hab jetzt mal testweise fltk2 installiert (standardmäßig in `/usr/local/` zu finden). Danach hab ich den Pfad an der <NAME_CORPUS_REPLACEMENT> dir genannten Fehlerstelle eingetragen (keine Ahnung, wo die Variable sonst gesetzt werden soll), und dann läuft cmake auch durch.
+Make bricht dann allerdings mit einigen linker-Fehlern ab. Jedenfalls, falls du es noch nicht probiert hast, gib den Pfad für fltk mal direkt an...
+TAGGED_CONTENT:

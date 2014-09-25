@@ -1,0 +1,20 @@
+ID: 1996
+CREATION_DATETIME: 1370728800000
+MODIFICATION_DATETIME: 1370728800000
+TITLE: Hab ich gemacht. Das löst die Problematik für die wimpy-Node, aber noch nicht für andere Rechner. Kla...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:4.31013985980766;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Problematik;weight:0.0;uri:;postag:NN
+POS_TAG: value:Node;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rechner;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1973
+POSTING_TYPE: comment
+CONTENT:
+Hab ich gemacht. Das löst die Problematik für die wimpy-Node, aber noch nicht für andere Rechner. Klappt es denn bei den anderen lokal?
+TAGGED_CONTENT:
+Hab_VAFIN ich_PPER gemacht_VVPP ._$. Das_ART löst_VVFIN die_ART Problematik_NN für_APPR die_ART wimpy-Node_NN ,_$, aber_KON noch_ADV nicht_PTKNEG für_APPR andere_ADJA Rechner_NN ._$. Klappt_VVFIN es_PPER denn_ADV bei_APPR den_ART anderen_ADJA lokal_ADJD ?_$. 

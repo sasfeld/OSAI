@@ -1,0 +1,12 @@
+ID: 2785
+CREATION_DATETIME: 1384124400000
+MODIFICATION_DATETIME: 1385334000000
+TITLE: No, the testing system will only call those methods that were given in the stubs.
+
+I don't think yo...
+PARENT_POSTING_ID: 2784
+POSTING_TYPE: answer
+CONTENT:
+No, the testing system will only call those methods that were given in the stubs.
+I don't think you need to make assumptions on the ctor/dtor. What behaviour made you think that?
+TAGGED_CONTENT:

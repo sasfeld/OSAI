@@ -1,0 +1,9 @@
+ID: 237
+CREATION_DATETIME: 1349820000000
+MODIFICATION_DATETIME: 1350943200000
+TITLE: So wie ich das verste
+PARENT_POSTING_ID: 235
+POSTING_TYPE: answer
+CONTENT:
+So wie ich das verstehe, geht es darum, dass alle Studenten ein bestimmtes Paper lesen, um anschließend in der Übung darüber zu diskutieren.
+TAGGED_CONTENT:

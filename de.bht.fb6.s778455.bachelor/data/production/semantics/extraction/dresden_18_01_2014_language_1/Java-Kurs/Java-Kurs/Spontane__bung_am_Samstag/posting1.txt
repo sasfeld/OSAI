@@ -1,0 +1,10 @@
+ID: 688
+CREATION_DATETIME: 1352329200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Wir bieten kurzfristig am **10. 11. 2012** ab **10:00 <REMOVED_PERSON_ENTITY>** eine Gelegenheit, betreut zu üben. Ihr könnt euch also an eigenen oder <NAME_CORPUS_REPLACEMENT> uns gestellten Aufgaben versuchen und habt dabei einen Tutor an der Hand.
+TAGGED_CONTENT:

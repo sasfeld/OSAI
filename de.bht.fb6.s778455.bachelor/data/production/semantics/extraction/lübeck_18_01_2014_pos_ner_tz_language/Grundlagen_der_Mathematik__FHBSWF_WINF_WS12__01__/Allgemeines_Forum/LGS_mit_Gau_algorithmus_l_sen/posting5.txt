@@ -1,0 +1,60 @@
+ID: 190909
+CREATION_DATETIME: 1357473570
+MODIFICATION_DATETIME: 1357473570
+TITLE: Re: LGS mit Gaußalgorithmus lösen
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Vektoren;weight:6.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:6.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:6.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:6.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:6.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:6.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:LK;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:LGS;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:LK;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:LGS;weight:0.0;uri:;postag:NN
+POS_TAG: value:Variablen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorhersage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Probe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skript;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beispiel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Formel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ergebnis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Koordinaten;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rechenweg;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Stichprobe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hinweis;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehler;weight:0.0;uri:;postag:NN
+POS_TAG: value:Garantie;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ansatz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Stelle;weight:0.0;uri:;postag:NN
+POS_TAG: value:Formeln;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beste;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:bung;weight:0.0;uri:;postag:NN
+POS_TAG: value:LK;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sache;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 190701
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+das sieht schon gar nicht schlecht aus, aber beim x3 haben Sie sich wohl verrechnet, da müsste x3=x-y+z/3 herauskommen. Die Lösung steht übrigens auf <REMOVED_PERSON_ENTITY> 23 im Beispiel 14 (Fehler im Skript: es spricht von "Übung 14"), dort allerdings ohne Rechenweg.
+Sie scheinen zumindest den richtigen Ansatz gefunden zu haben, er lautet: x1 mal erstem Vektor plus x2 mal zweitem Vektor plus x3 mal drittem Vektor soll Vektor (x, y, z)^T ergeben. Nun haben Sie zwar eine symbolische rechte <REMOVED_PERSON_ENTITY>, weil x, y, z Variablen sind, aber das stört nicht groß - Sie können das LGS ganz normal nach x1, x2, x3 auflösen.
+Auch bei solchen Aufgaben kann man übrigens die Probe machen:
+Nehmen Sie einen x-beliebigen Vektor, etwa (3, 4, 6)^T. Nun prüft man, ab die Vorhersage für x1, x2, x3 tatsächlich zur gewünschten LK führt. Das ist natürlich nur <REMOVED_PERSON_ENTITY>, da wir nur ein Beispiel prüfen, keine vollständige Probe. Wenn die Stichprobe gelingen würde, hätten wir keine Garantie, dass das obige Ergebnis stimmt. Aber: Es ist anzunehmen, dass für nur ganz wenige Vektoren (wenn überhaupt) die richtige und die falsche LK zum gleichen korrekten Ergebnis führen. Somit ist die Stichprobe eine gute Sache.
+Mit unserer <REMOVED_PERSON_ENTITY> (3, 4, 6)^T wäre x=3, y=4, z=6. Es ergibt sich
+x1 = y-x = 4-3 = 1x2 = -y+2x = -4+2*3=-4+6 = 2x3 = y+x+z/2 = 4+3+6/2= 7+3 = 10
+Nun ist aber 1*(1, 2, 3)^T + 2*(1, 1, 0)^T + 10*(0, 0, 3)^T = (1+2+0, 2+2+0, 3+0+30)^T = (3, 4, 33)^T.
+An dieser Stelle sehen Sie, dass nur die ersten beiden Koordinaten stimmen. Dies gibt Ihnen auch den Hinweis, dass womöglich Ihre Formeln für x1, x2 stimmen und nur die für x3 fehlerhaft ist.
+Für die korrekte Formel x3=x-y+z/3 hätte man x3=3-4+6/3=-1+2=1 und somit wie erhofft
+1*(1, 2, 3)^T + 2*(1, 1, 0)^T + 1*(0, 0, 3)^T = (1+2+0, 2+2+0, 3+0+3)^T = (3, 4, 6)^T.
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+ 
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_NE ,_$, das_PRELS sieht_VVFIN schon_ADV gar_ADV nicht_PTKNEG schlecht_ADJD aus_PTKVZ ,_$, aber_KON beim_APPRART x3_CARD haben_VAFIN Sie_PPER sich_PRF wohl_ADV verrechnet_VVPP ,_$, da_ADV müsste_VVFIN x3_XY =_XY x-y_TRUNC +_KON z\/3_CARD herauskommen_VVINF ._$. Die_ART Lösung_NN steht_VVFIN übrigens_ADV auf_APPR <_CARD REMOVED_PERSON_ENTITY_NN >_CARD 23_CARD im_APPRART Beispiel_NN 14_CARD -LRB-_TRUNC Fehler_NN im_APPRART Skript_NN :_$. es_PPER spricht_VVFIN von_APPR "_$( Übung_NN 14_CARD "_$( -RRB-_TRUNC ,_$, dort_ADV allerdings_ADV ohne_APPR Rechenweg_NN ._$. Sie_PPER scheinen_VVFIN zumindest_ADV den_ART richtigen_ADJA Ansatz_NN gefunden_VVPP zu_PTKZU haben_VAINF ,_$, er_PPER lautet_VVFIN :_$. x1_CARD mal_ADV erstem_ADJA Vektor_NN plus_APPR x2_CARD mal_ADV zweitem_ADJA Vektor_NN plus_APPR x3_CARD mal_ADV drittem_ADJA Vektor_NN soll_VMFIN Vektor_NN -LRB-_TRUNC x_XY ,_$, y_NE ,_$, z_KON -RRB-_TRUNC ^_XY T_XY ergeben_VVPP ._$. Nun_ADV haben_VAFIN Sie_PPER zwar_ADV eine_ART symbolische_ADJA rechte_ADJA <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN ,_$, weil_KOUS x_XY ,_$, y_NE ,_$, z_VVFIN Variablen_NN sind_VAFIN ,_$, aber_KON das_PDS stört_VVFIN nicht_PTKNEG groß_ADJD -_$( Sie_PPER können_VMFIN das_ART LGS_NN ganz_ADV normal_ADJD nach_APPR x1_CARD ,_$, x2_CARD ,_$, x3_CARD auflösen_VVINF ._$. Auch_ADV bei_APPR solchen_PIAT Aufgaben_NN kann_VMFIN man_PIS übrigens_ADV die_ART Probe_NN machen_VVINF :_$. Nehmen_VVFIN Sie_PPER einen_ART x-beliebigen_ADJA Vektor_NN ,_$, etwa_ADV -LRB-_TRUNC 3_CARD ,_$, 4_CARD ,_$, 6_CARD -RRB-_TRUNC ^_XY T._NE Nun_ADV prüft_VVFIN man_PIS ,_$, ab_APPR die_ART Vorhersage_NN für_APPR x1_CARD ,_$, x2_CARD ,_$, x3_CARD tatsächlich_ADJD zur_APPRART gewünschten_ADJA LK_NN führt_VVFIN ._$. Das_PDS ist_VAFIN natürlich_ADV nur_ADV <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN ,_$, da_KOUS wir_PPER nur_ADV ein_ART Beispiel_NN prüfen_VVINF ,_$, keine_PIAT vollständige_ADJA Probe_NN ._$. Wenn_KOUS die_ART Stichprobe_NN gelingen_VVINF würde_VAFIN ,_$, hätten_VAFIN wir_PPER keine_PIAT Garantie_NN ,_$, dass_KOUS das_ART obige_ADJA Ergebnis_NN stimmt_VVFIN ._$. Aber_KON :_$. Es_PPER ist_VAFIN anzunehmen_VVIZU ,_$, dass_KOUS für_APPR nur_ADV ganz_ADV wenige_PIAT Vektoren_NN -LRB-_TRUNC wenn_KOUS überhaupt_ADV -RRB-_TRUNC die_ART richtige_ADJA und_KON die_ART falsche_ADJA LK_NN zum_APPRART gleichen_ADJA korrekten_ADJA Ergebnis_NN führen_VVINF ._$. Somit_ADV ist_VAFIN die_ART Stichprobe_NN eine_ART gute_ADJA Sache_NN ._$. Mit_APPR unserer_PPOSAT <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD -LRB-_TRUNC 3_CARD ,_$, 4_CARD ,_$, 6_CARD -RRB-_TRUNC ^_XY T_XY wäre_VAFIN x_XY =_XY 3_CARD ,_$, y_NE =_XY 4_CARD ,_$, z_XY =_XY 6_CARD ._$. Es_PPER ergibt_VVFIN sich_PRF x1_XY =_XY y-x_XY =_XY 4-3_XY =_XY 1x2_XY =_XY -_$( y_NE +2_CARD x_XY =_XY -4_CARD +2_CARD \*_CARD 3_CARD =_XY -4_CARD +6_XY =_XY 2x3_XY =_XY y_NE +_XY x_XY +_XY z\/2_XY =_XY 4_CARD +3_CARD +6_CARD \/_CARD 2_CARD =_XY 7_CARD +3_XY =_XY 10_CARD Nun_ADV ist_VAFIN aber_ADV 1_CARD \*_CARD -LRB-_TRUNC 1_CARD ,_$, 2_CARD ,_$, 3_CARD -RRB-_TRUNC ^_XY T_XY +_XY 2_CARD \*_CARD -LRB-_TRUNC 1_CARD ,_$, 1_CARD ,_$, 0_CARD -RRB-_TRUNC ^_XY T_XY +_XY 10_CARD \*_CARD -LRB-_TRUNC 0_CARD ,_$, 0_CARD ,_$, 3_CARD -RRB-_TRUNC ^_XY T_XY =_XY -LRB-_TRUNC 1_CARD +2_CARD +0_CARD ,_$, 2_CARD +2_CARD +0_CARD ,_$, 3_CARD +0_CARD +30_CARD -RRB-_TRUNC ^_XY T_XY =_XY -LRB-_TRUNC 3_CARD ,_$, 4_CARD ,_$, 33_CARD -RRB-_TRUNC ^_XY T._NE An_APPR dieser_PDAT Stelle_NN sehen_VVFIN Sie_PPER ,_$, dass_KOUS nur_ADV die_ART ersten_ADJA beiden_PIDAT Koordinaten_NN stimmen_VVFIN ._$. Dies_PDS gibt_VVFIN Ihnen_PPER auch_ADV den_ART Hinweis_NN ,_$, dass_KOUS womöglich_ADV Ihre_PPOSAT Formeln_NN für_APPR x1_CARD ,_$, x2_CARD stimmen_VVFIN und_KON nur_ADV die_ART für_APPR x3_CARD fehlerhaft_ADJD ist_VAFIN ._$. Für_APPR die_ART korrekte_ADJA Formel_NN x3_XY =_XY x-y_TRUNC +_KON z\/3_CARD hätte_VAFIN man_PIS x3_XY =_XY 3-4_CARD +6_CARD \/_CARD 3_CARD =_XY -1_CARD +2_XY =_XY 1_CARD und_KON somit_ADV wie_KOKOM erhofft_VVPP 1_CARD \*_CARD -LRB-_TRUNC 1_CARD ,_$, 2_CARD ,_$, 3_CARD -RRB-_TRUNC ^_XY T_XY +_XY 2_CARD \*_CARD -LRB-_TRUNC 1_CARD ,_$, 1_CARD ,_$, 0_CARD -RRB-_TRUNC ^_XY T_XY +_XY 1_CARD \*_CARD -LRB-_TRUNC 0_CARD ,_$, 0_CARD ,_$, 3_CARD -RRB-_TRUNC ^_XY T_XY =_XY -LRB-_TRUNC 1_CARD +2_CARD +0_CARD ,_$, 2_CARD +2_CARD +0_CARD ,_$, 3_CARD +0_CARD +3_CARD -RRB-_TRUNC ^_XY T_XY =_XY -LRB-_TRUNC 3_CARD ,_$, 4_CARD ,_$, 6_CARD -RRB-_TRUNC ^_XY T._XY Beste_NN Grüße_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ._$. 

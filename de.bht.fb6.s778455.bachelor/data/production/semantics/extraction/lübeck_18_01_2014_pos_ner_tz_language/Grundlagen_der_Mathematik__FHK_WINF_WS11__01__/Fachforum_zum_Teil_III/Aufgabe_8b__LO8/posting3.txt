@@ -1,0 +1,33 @@
+ID: 115386
+CREATION_DATETIME: 1323535730
+MODIFICATION_DATETIME: 1323535784
+TITLE: Re: Aufgabe 8b, LO8
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Vektoren;weight:2.0;significance:8.47236634348927;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:5.18753055338448;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:2.98265634797786;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Logik;weight:1.0;significance:2.77550762685335;degreegeneralization:4;uri:21472524
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:2.33481144310352;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:3.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:1.55845785653717;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Geisteswissenschaften;weight:1.0;significance:1.55144820605651;degreegeneralization:3;uri:21978240
+TOPIC_ZOOM_TAG: value:Frauen;weight:1.0;significance:1.52206507946136;degreegeneralization:5;uri:20929187
+POS_TAG: value:Antwort;weight:0.0;uri:;postag:NN
+POS_TAG: value:Faktor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frau;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wurzel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Betrag;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:REMOVEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:Schritt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorgehensweise;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 115385
+CONTENT:
+Hallo Frau <REMOVED_PERSON_ENTITY>, vielen Dank für die schnelle Antwort:)
+Ihre Vorgehensweise klingt logisch. So ganz verstanden habe ich es aber noch nicht, befürchte ich. Als erstes den Vektor zu berechnen leuchtet mir ein. Der hätte ohne Faktor den Betrag Wurzel(13). Soll aber Betrag 2 haben. Dafür den Vektor mit (2/Wurzel(13)) zu multiplizieren, dieser Schritt erschließt sich mir noch nicht ganz. Aber ich lasse das noch einmal sacken;)
+Vielen Dank!
+<PERSONAL_GREETING_REMOVEMENT>
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ Frau_NN <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, vielen_PIDAT Dank_NN für_APPR die_ART schnelle_ADJA Antwort_NN :-RRB-_NE Ihre_PPOSAT Vorgehensweise_NN klingt_VVFIN logisch_ADJD ._$. So_ADV ganz_ADV verstanden_VVPP habe_VAFIN ich_PPER es_PPER aber_ADV noch_ADV nicht_PTKNEG ,_$, befürchte_VVFIN ich_PPER ._$. Als_APPR erstes_ADJA den_ART Vektor_NN zu_PTKZU berechnen_VVINF leuchtet_VVFIN mir_PPER ein_PTKVZ ._$. Der_ART hätte_VAFIN ohne_APPR Faktor_NN den_ART Betrag_NN Wurzel_NN -LRB-_TRUNC 13_CARD -RRB-_TRUNC ._$. Soll_VMFIN aber_ADV Betrag_NN 2_CARD haben_VAFIN ._$. Dafür_PROAV den_ART Vektor_NN mit_APPR -LRB-_TRUNC 2\/Wurzel_NN -LRB-_TRUNC 13_CARD -RRB-_TRUNC -RRB-_TRUNC zu_PTKZU multiplizieren_VVINF ,_$, dieser_PDAT Schritt_NN erschließt_VVFIN sich_PRF mir_PPER noch_ADV nicht_PTKNEG ganz_ADV ._$. Aber_KON ich_PPER lasse_VVFIN das_ART noch_ADV einmal_ADV sacken_VVINF ;-RRB-_TRUNC Vielen_PIS Dank_NN !_$. <_XY PERSONAL_GREETING_REMOVEMENT_NN >_CARD <_XY REMOVED_PERSON_ENTITY_NE >_XY 

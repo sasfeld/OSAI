@@ -1,0 +1,17 @@
+ID: 894
+CREATION_DATETIME: 1354057200000
+MODIFICATION_DATETIME: 1360969200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Uns ist immer noch nicht ganz klar, wie genau die beiden <REMOVED_PERSON_ENTITY> zusammenhängen.
+Der DAO enthält bei uns eine 
+```
+ArrayList
+``` 
+, welche mit NewsItems gefüllt wird.
+Die Bean wird direkt, wenn das Servlet die JSP lädt, instanziiert und der Inhalt verarbeitet. 
+Wie ist es <NAME_CORPUS_REPLACEMENT> möglich, an die Liste im DAO zu kommen?
+<REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

@@ -1,0 +1,11 @@
+ID: 322
+CREATION_DATETIME: 1350165600000
+MODIFICATION_DATETIME: 1361574000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Was meint ihr zu folgenden zwei Möglichkeiten?
+- Hervorheben <NAME_CORPUS_REPLACEMENT> Fragen, Antworten und Kommentare durch eine dezente Hintergrundfarbe? 
+- Oder nur den Namen?
+TAGGED_CONTENT:

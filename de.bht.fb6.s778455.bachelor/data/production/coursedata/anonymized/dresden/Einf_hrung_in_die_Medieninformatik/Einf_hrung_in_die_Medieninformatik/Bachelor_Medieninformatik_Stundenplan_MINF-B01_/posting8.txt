@@ -1,0 +1,13 @@
+ID: 197
+CREATION_DATETIME: 1349560800000
+MODIFICATION_DATETIME: 1349560800000
+TITLE: LR ist der Lernraum i
+PARENT_POSTING_ID: 190
+POSTING_TYPE: answer
+CONTENT:
+LR ist der Lernraum.
+Siehe hier: http://www.math.tu-dresden. de/~noack/DS/DSLA2012. html
+> Sie können den Lernraum nutzen, um die Vorlesungen nachzuarbeiten, <REMOVED_PERSON_ENTITY>- und 
+Hausaufgaben eigenständig zu lösen oder sich auf die Klausuren vorzubereiten. 
+Dabei stehen Ihnen erfahrene Tutoren für Fragen zur Verfügung.
+TAGGED_CONTENT:

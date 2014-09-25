@@ -1,0 +1,10 @@
+ID: 714
+CREATION_DATETIME: 1352415600000
+MODIFICATION_DATETIME: 1352415600000
+TITLE: Is it only me or slides and task description don't match source code template provided via svn? In ta...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 712
+POSTING_TYPE: comment
+CONTENT:
+Is it only me or slides and task description don't match source code template provided via svn? In task description tools. h, stats. h and other files are mentioned yet none of them were provided via svn. Moreover overall directory structure loaded from svn differs from the one described in task3. pdf
+TAGGED_CONTENT:

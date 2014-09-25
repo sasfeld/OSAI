@@ -1,0 +1,46 @@
+ID: 170189
+CREATION_DATETIME: 1350212186
+MODIFICATION_DATETIME: 1350212186
+TITLE: Re: Online Präsenz vom 10.10.
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Chat;weight:2.0;significance:4.65367606678589;degreegeneralization:7;uri:20901477
+TOPIC_ZOOM_TAG: value:Internet;weight:4.0;significance:3.84833415633274;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:4.0;significance:3.83480138707953;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Digitale Kommunikation;weight:2.0;significance:3.25199587633262;degreegeneralization:5;uri:20196147
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:4.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Lifestyle und Internet;weight:2.0;significance:2.53445361368796;degreegeneralization:6;uri:21999575
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:2.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Lifestyle, Mode, Schönheit;weight:2.0;significance:2.18595971379839;degreegeneralization:3;uri:21999456
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:4.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:2.0;significance:1.7207726480701;degreegeneralization:2;uri:21999745
+POS_TAG: value:Fall;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kette;weight:0.0;uri:;postag:NN
+POS_TAG: value:Elemente;weight:0.0;uri:;postag:NN
+POS_TAG: value:Chat;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beispiel;weight:0.0;uri:;postag:NN
+POS_TAG: value:t;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aussage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ergebnis;weight:0.0;uri:;postag:NN
+POS_TAG: value:R;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fakt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ausdruck;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Relationen;weight:0.0;uri:;postag:NN
+POS_TAG: value:B.;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Folgerung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 170025
+CONTENT:
+ 
+!!!Kann man das noch genauer erläutern? !!!Eigentlich müsste ja dann jeder Ausdruck transitiv sein weil entweder ist er es oder es ist kein Fall abzuprüfen, oder?
+ 
+Das ist so auf jeden Fall falsch, denn es gibt sehr wohl Relationen, die eindeutig nicht-transitiv sind. Sähe die <REMOVED_PERSON_ENTITY> z. B. so aus {(a, b), (b, c)} dann wäre sie eindeutig nicht transitiv, weil bei Tranistivität auch (a, c) enthalten sein müsste.
+ 
+Bleibt die Frage offen, wie man denn die Frage der Transitivität entscheidet, wenn keine solche Kette gegeben ist.
+Erstmal eine allgemeine Aussage zur Transitivität von mir:-&gt;Transitivität liegt dann vor, wenn man z. B. sagen kann, dass aus a c folgt wenn aus a b folgt und aus b c folgt.&lt;- "{(a, b), (b, c), (a, c)}"Stimmt das?
+Die Folgerung wird nur einmal benötigt. Wenn a R b und b R c, dann auch a R c.
+Das verstehe ich nicht so ganz. Bei deinem Beispiel {(a, b), (b, c)}, kann ich auch behaupten, dass Transitivität vorliegt, weil kein Fall abzuprüfen ist. So haben wir es, zumindest im Online-Chat, auch gesagt... oder?
+Was wir im Online-Chat dazu gesagt haben, habe ich wohl nicht so ganz verstanden, sorry. Fakt ist aber: Wenn wir drei unterschiedliche Elemente a, b und c haben und wir das Ergebnis haben {(a, b), (b, c)}, dann liegt offensichtlich keine Tranistivität vor. Läge sie vor, dann müsste das Ergebnis eben auch (a, c) enthalten.
+ 
+TAGGED_CONTENT:
+!!!_PPER Kann_VMFIN man_PIS das_ART noch_ADV genauer_ADJD erläutern_VVINF ?_$. !!!_APPR Eigentlich_ADV müsste_VVFIN ja_ADV dann_ADV jeder_PIDAT Ausdruck_NN transitiv_ADJD sein_VAINF weil_KOUS entweder_KON ist_VAFIN er_PPER es_PPER oder_KON es_PPER ist_VAFIN kein_PIAT Fall_NN abzuprüfen_VVIZU ,_$, oder_KON ?_$. Das_PDS ist_VAFIN so_ADV auf_APPR jeden_PIDAT Fall_NN falsch_ADJD ,_$, denn_KON es_PPER gibt_VVFIN sehr_ADV wohl_ADV Relationen_NN ,_$, die_PRELS eindeutig_ADJD nicht-transitiv_ADJD sind_VAFIN ._$. Sähe_VVFIN die_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD z._APPRART B._NN so_ADV aus_APPR -LCB-_TRUNC -LRB-_TRUNC a_XY ,_$, b_XY -RRB-_TRUNC ,_$, -LRB-_TRUNC b_XY ,_$, c_FM -RRB-_TRUNC -RCB-_TRUNC dann_ADV wäre_VAFIN sie_PPER eindeutig_ADJD nicht_PTKNEG transitiv_ADJD ,_$, weil_KOUS bei_APPR Tranistivität_NN auch_ADV -LRB-_TRUNC a_XY ,_$, c_FM -RRB-_TRUNC enthalten_VVPP sein_VAINF müsste_VVFIN ._$. Bleibt_VVFIN die_ART Frage_NN offen_ADJD ,_$, wie_PWAV man_PIS denn_KON die_ART Frage_NN der_ART Transitivität_NN entscheidet_VVFIN ,_$, wenn_KOUS keine_PIAT solche_PIS Kette_NN gegeben_VVPP ist_VAFIN ._$. Erstmal_ADV eine_ART allgemeine_ADJA Aussage_NN zur_APPRART Transitivität_NN von_APPR mir_PPER :_$. -_$( >_XY Transitivität_NN liegt_VVFIN dann_ADV vor_PTKVZ ,_$, wenn_KOUS man_PIS z._APPRART B._NN sagen_VVINF kann_VMFIN ,_$, dass_KOUS aus_APPR a_ART c_FM folgt_VVFIN wenn_KOUS aus_APPR a_ART b_XY folgt_VVFIN und_KON aus_APPR b_XY c_XY folgt_VVFIN ._$. <_XY -_$( "_$( -LCB-_TRUNC -LRB-_TRUNC a_XY ,_$, b_XY -RRB-_TRUNC ,_$, -LRB-_TRUNC b_XY ,_$, c_FM -RRB-_TRUNC ,_$, -LRB-_TRUNC a_XY ,_$, c_FM -RRB-_TRUNC -RCB-_TRUNC "_$( Stimmt_VVFIN das_PDS ?_$. Die_ART Folgerung_NN wird_VAFIN nur_ADV einmal_ADV benötigt_VVPP ._$. Wenn_KOUS a_XY R_XY b_XY und_KON b_XY R_XY c_XY ,_$, dann_ADV auch_ADV a_ART R_NN c._ADV Das_ART verstehe_VVFIN ich_PPER nicht_PTKNEG so_ADV ganz_ADV ._$. Bei_APPR deinem_ADJA Beispiel_NN -LCB-_TRUNC -LRB-_TRUNC a_XY ,_$, b_XY -RRB-_TRUNC ,_$, -LRB-_TRUNC b_XY ,_$, c_FM -RRB-_TRUNC -RCB-_TRUNC ,_$, kann_VMFIN ich_PPER auch_ADV behaupten_VVINF ,_$, dass_KOUS Transitivität_NN vorliegt_VVFIN ,_$, weil_KOUS kein_PIAT Fall_NN abzuprüfen_VVIZU ist_VAFIN ._$. So_ADV haben_VAFIN wir_PPER es_PPER ,_$, zumindest_ADV im_APPRART Online-Chat_NN ,_$, auch_ADV gesagt_VVPP ..._$( oder_KON ?_$. Was_PWS wir_PPER im_APPRART Online-Chat_NN dazu_PROAV gesagt_VVPP haben_VAFIN ,_$, habe_VAFIN ich_PPER wohl_ADV nicht_PTKNEG so_ADV ganz_ADV verstanden_VVPP ,_$, sorry_VVFIN ._$. Fakt_NN ist_VAFIN aber_ADV :_$. Wenn_KOUS wir_PPER drei_CARD unterschiedliche_ADJA Elemente_NN a_NE ,_$, b_XY und_KON c_FM haben_VAFIN und_KON wir_PPER das_ART Ergebnis_NN haben_VAFIN -LCB-_TRUNC -LRB-_TRUNC a_XY ,_$, b_XY -RRB-_TRUNC ,_$, -LRB-_TRUNC b_XY ,_$, c_FM -RRB-_TRUNC -RCB-_TRUNC ,_$, dann_ADV liegt_VVFIN offensichtlich_ADJD keine_PIAT Tranistivität_NN vor_PTKVZ ._$. Läge_VVFIN sie_PPER vor_PTKVZ ,_$, dann_ADV müsste_VVFIN das_ART Ergebnis_NN eben_ADV auch_ADV -LRB-_TRUNC a_XY ,_$, c_FM -RRB-_TRUNC enthalten_VVPP ._$. 

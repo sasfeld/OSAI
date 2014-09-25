@@ -1,0 +1,11 @@
+ID: 1807
+CREATION_DATETIME: 1368482400000
+MODIFICATION_DATETIME: 1379109600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo, wo findet denn die Di-Vorlesung (normalerweise Di, 6. DS, E023 - steht so auch so auf der HP) neuerdings statt? Wollte sie aus Interesse, wegen Stunden-Doppelbelegung aber nicht immer möglich, dienstags besuchen - letzten beiden Male war der <REMOVED_PERSON_ENTITY> leer.
+Und wie weit ist der Vorlesungsstoff?
+Danke.  
+TAGGED_CONTENT:

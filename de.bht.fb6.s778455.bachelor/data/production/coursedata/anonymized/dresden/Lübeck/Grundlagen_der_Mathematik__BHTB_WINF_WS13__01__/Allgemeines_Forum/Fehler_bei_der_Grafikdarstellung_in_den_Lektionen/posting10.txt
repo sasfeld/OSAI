@@ -1,0 +1,11 @@
+ID: 240837
+CREATION_DATETIME: 1381194015
+MODIFICATION_DATETIME: 1381194118
+TITLE: Re: Fehler bei der Grafikdarstellung in den Lektionen
+PARENT_POSTING_ID: 238043
+CONTENT:
+Hi,
+ich habe mittlerweile herausgefunden, dass die Symbole bei mir ausgeblendet werden, sobald ich über das Mobilfunknetz der Telekom in die Module gehe.
+Sobald ich mit einem WLAN verbunden bin, werden alle Symbole korrekt angezeigt.
+ 
+TAGGED_CONTENT:

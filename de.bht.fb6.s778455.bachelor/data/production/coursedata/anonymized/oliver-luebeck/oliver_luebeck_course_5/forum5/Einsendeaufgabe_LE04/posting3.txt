@@ -1,0 +1,19 @@
+ID: 48
+CREATION_DATETIME: 1193160300000
+MODIFICATION_DATETIME: 1193160300000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 46
+CONTENT:
+
+Hallo,
+bin gerade fertig geworden aber gar nicht sicher obs so gemeint war.
+
+In der Rechner.java steht bei mir nicht mehr als in der Aufgabenstellung.
+IntRechner.java und FloatRechner.java haben die Methode "rechnen" dann ausprogrammiert. Das führt aber bei mir dazu dass beide Dateien fast identisch sind bis auf die Typenangaben. Hat das noch jemand so gelöst oder sollte der Code für den Rechengang etc. nicht doch irgendwo global nur einmal stehen?
+
+Den String geb ich einfach per Zuweisung aus, z.B. ausgabe[0]="..."+zahl1;
+
+Viele Grüße
+	
+TAGGED_CONTENT:

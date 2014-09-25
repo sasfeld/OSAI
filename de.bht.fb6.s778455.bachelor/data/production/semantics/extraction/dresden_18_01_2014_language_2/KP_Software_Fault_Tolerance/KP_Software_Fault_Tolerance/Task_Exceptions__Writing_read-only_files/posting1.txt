@@ -1,0 +1,10 @@
+ID: 566
+CREATION_DATETIME: 1351375200000
+MODIFICATION_DATETIME: 1384124400000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+In "Test 2" we have to throw an exception if someone wants to write a read-only file. So I implemented a read-only check into the write method. "Test 7" opens a file read only and wants to write to it. This results obviously in an exception. But I get the hint: "An Exception was thrown albeit none should!". Did you discover the same thing? I must admit that I don't have a clue how to solve this.
+TAGGED_CONTENT:

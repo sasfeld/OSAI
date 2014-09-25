@@ -1,0 +1,10 @@
+ID: 1920
+CREATION_DATETIME: 1370296800000
+MODIFICATION_DATETIME: 1370296800000
+TITLE: Dass du die Makefiles angepasst hast ist soweit gut, aber ich hätte schon gern auch das static Target...
+PARENT_POSTING_ID: 1916
+POSTING_TYPE: answer
+CONTENT:
+Dass du die Makefiles angepasst hast ist soweit gut, aber ich hätte schon gern auch das static Target behalten. Das lässt sich einfacher nutzen zum debuggen in ner IDE
+Und das neue run-script würde mir nur mehr copy und paste, sowie tipparbeit arbeit verschaffen, <NAME_CORPUS_REPLACEMENT> jetzt auch nicht mehr die headerfiles aus dem bibliotheksverzeichnis rüberkopiert werden...
+TAGGED_CONTENT:

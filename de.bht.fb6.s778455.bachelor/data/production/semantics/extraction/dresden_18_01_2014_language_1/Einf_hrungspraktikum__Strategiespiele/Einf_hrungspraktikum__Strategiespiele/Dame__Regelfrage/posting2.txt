@@ -1,0 +1,12 @@
+ID: 1411
+CREATION_DATETIME: 1362783600000
+MODIFICATION_DATETIME: 1362783600000
+TITLE: nein, mit dem Umwandeln in eine Dame ist dein Zug beendet.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1410
+POSTING_TYPE: answer
+CONTENT:
+nein, mit dem Umwandeln in eine Dame ist dein Zug beendet.
+
+Aber das kannst du <LEARNED_PERSON_NAME_REPLACEMENT> sehr einfach testen, wenn du dir solch eine Spielsituation erstellst
+TAGGED_CONTENT:

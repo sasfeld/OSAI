@@ -1,0 +1,23 @@
+ID: 20
+CREATION_DATETIME: 1286797860000
+MODIFICATION_DATETIME: 1286797860000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo,
+
+Seite 18:
+Klasse "DateiKopieren"
+"if (args.length != 2)"
+
+Wenn ich Mike gestern richtig verstanden habe, hätte es doch in diesem Quellcode und diesem Kontext
+"if (args.length == 2)" ?
+
+heißen müssen?
+Ich glaube so 100% habe ich die Parameterübergabe nicht verstanden?
+
+Grüsse
+   
+TAGGED_CONTENT:

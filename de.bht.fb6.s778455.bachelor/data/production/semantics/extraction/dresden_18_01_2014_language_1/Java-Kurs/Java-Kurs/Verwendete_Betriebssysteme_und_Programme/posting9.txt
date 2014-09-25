@@ -1,0 +1,10 @@
+ID: 547
+CREATION_DATETIME: 1351288800000
+MODIFICATION_DATETIME: 1351288800000
+TITLE: Ich sollte Leuten nicht erlauben mit Adminpower meine Posts zu editieren und es dann nicht querlesen....
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 236
+POSTING_TYPE: comment
+CONTENT:
+Ich sollte Leuten nicht erlauben mit Adminpower meine Posts zu editieren und es dann nicht querlesen...
+TAGGED_CONTENT:

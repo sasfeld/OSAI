@@ -1,0 +1,9 @@
+ID: 186731
+CREATION_DATETIME: 1355231203
+MODIFICATION_DATETIME: 1355231203
+TITLE: Gruppenwechsel
+PARENT_POSTING_ID: 0
+CONTENT:
+Ich würde gerne diesmal in eine andere Gruppe wechseln.
+Ich bin Momentan in einer 4-er Gruppe. Gibt es noch eine andere 3-er Gruppe zu denen ich wechseln könnte?
+TAGGED_CONTENT:

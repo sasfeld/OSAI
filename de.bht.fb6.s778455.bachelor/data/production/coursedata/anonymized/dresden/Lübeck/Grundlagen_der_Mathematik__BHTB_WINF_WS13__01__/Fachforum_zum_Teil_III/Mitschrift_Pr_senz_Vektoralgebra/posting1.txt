@@ -1,0 +1,8 @@
+ID: 263845
+CREATION_DATETIME: 1386709737
+MODIFICATION_DATETIME: 1386709737
+TITLE: Mitschrift Präsenz Vektoralgebra
+PARENT_POSTING_ID: 0
+CONTENT:
+Da <REMOVED_PERSON_ENTITY> und ich leider die Einführung in die Vektoralgebra auslassen mussten, wäre es cool, wenn uns jemand seine Mitschrift geben könnte. Speziell würde mich interessieren, ob schon auf lineare Abhängigkeiten von Vektoren eingegangen wurde. Vielen Dank schon mal.
+TAGGED_CONTENT:

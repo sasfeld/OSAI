@@ -1,0 +1,16 @@
+ID: 26
+CREATION_DATETIME: 1176580140000
+MODIFICATION_DATETIME: 1176580140000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 25
+CONTENT:
+
+Hallo ,
+
+Danke für den Tipp. Ich habe die Methode in der Java-Klasse. Mir fehlte aber der Ansatz für die Ausgabe. Das "<code>" hatte ich nur herum gesetzt weil ich dachte das Forum würde "Quellcode" speziel hervorheben.
+
+Viele Grüße    
+
+    
+TAGGED_CONTENT:

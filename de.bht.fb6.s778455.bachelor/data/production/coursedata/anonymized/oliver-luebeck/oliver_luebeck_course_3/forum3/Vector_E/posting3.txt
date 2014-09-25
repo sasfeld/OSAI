@@ -1,0 +1,18 @@
+ID: 13
+CREATION_DATETIME: 1199469480000
+MODIFICATION_DATETIME: 1199469480000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+    Hi zusammen
+
+Da es niemandem anderen wohl aufgefallen ist, oder vielleicht egal, dachte ich mal nachzufragen, ob jemand weiß, daß es da innerhalb der Java Language ein Problem gibt, wenn man das GridLayout in Verbindung mit den Applets darstellen will. In der Einsendeaufgabe steht, daß man das Applet anpassen soll, aber nichts von neubauen, deswegen habe ich da ein paar Probleme, dieses GridLayout zu verwenden...
+
+Ich brech' mir einen ab diese Scrollbars mit Text nebeneinander zu bekommen. Weiß jemand woran das liegt? Seid ihr alle andere Wege gegangen?
+
+Viele Grüße
+    
+    
+TAGGED_CONTENT:

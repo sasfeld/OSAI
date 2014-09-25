@@ -1,0 +1,7 @@
+ID: 36351
+CREATION_DATETIME: 1293098632
+MODIFICATION_DATETIME: 1293098632
+TITLE: Naechster Chat im neuen Jahr
+LANGUAGE: UNKNOWN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=36351
+FIRST_POSTING_ID: 97740

@@ -1,0 +1,17 @@
+ID: 3
+CREATION_DATETIME: 1191356940000
+MODIFICATION_DATETIME: 1191356940000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2
+CONTENT:
+
+Hallo Herr Rose,
+
+In der offiziellen Dokumentation ist dazu folgendes zu finden: "FileOutputStream is meant for writing streams of raw bytes such as image data. For writing streams of characters, consider using FileWriter."
+
+Da nun aber ein OutputStreamWriter um den FileOutputStream gepackt wird, ist das Resultat sehr ähnlich. In beiden Fällen wird die Standardkodierung für Zeichen des Systems genommen, um die zu schreibenden Zeichen zu speichern. Bei der Variante mit dem OutputStreamWriter könnte jedoch von dieser Standardzeichenkodierung abgewichen werden. Der Weg mit dem FileWriter ist hier also lediglich der "bequemere" (Die Klasse FileWriter wird offiziell als Komfortklasse zum Schreiben von zeichenbasierten Dateien beschrieben).
+
+Freundliche Grüße
+    
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 1958
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Beim letzten Mal (siehe Antwort #1) war es so, dass vor dem Codeblock und nach dem Codeblock **keine*...
+PARENT_POSTING_ID: 1367
+POSTING_TYPE: comment
+CONTENT:
+Beim letzten Mal (siehe Antwort #1) war es so, dass vor dem Codeblock und nach dem Codeblock **keine** Leerzeile eingefügt wurde. Das ist aber notwendig, damit es korrekt funktioniert. Alternativ kann auch **vor jeder <REMOVED_PERSON_ENTITY> vier Leerzeichen** einfügen. Dann wird daraus auch ein Codeblock generiert. 
+TAGGED_CONTENT:

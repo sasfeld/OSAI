@@ -1,0 +1,10 @@
+ID: 2083
+CREATION_DATETIME: 1371592800000
+MODIFICATION_DATETIME: 1371592800000
+TITLE: Hey Cheng, wenn du irgendwelche Ergebnisse hast, oder in der Entwicklung der Feedbackklasse vorangeko...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2058
+POSTING_TYPE: answer
+CONTENT:
+Hey Cheng, wenn du irgendwelche Ergebnisse hast, oder in der Entwicklung der Feedbackklasse vorangekommen bist, kannst du das dann bitte in das SVN commiten? Danke.
+TAGGED_CONTENT:

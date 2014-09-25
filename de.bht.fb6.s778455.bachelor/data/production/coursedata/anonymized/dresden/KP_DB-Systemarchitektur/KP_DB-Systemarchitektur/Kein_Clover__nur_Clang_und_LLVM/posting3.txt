@@ -1,0 +1,11 @@
+ID: 1761
+CREATION_DATETIME: 1366840800000
+MODIFICATION_DATETIME: 1366840800000
+TITLE: Auf dem uns zur Verfügung gestellten Server ist nur llvm-3.0 installiert.
+Soll ich dort die 3.2 drau...
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: comment
+CONTENT:
+Auf dem uns zur Verfügung gestellten Server ist nur llvm-3. 0 installiert.
+Soll ich dort die 3. 2 draufmachen? Die 3. 0-er-Version hat den Kernel auch kompiliert.
+TAGGED_CONTENT:

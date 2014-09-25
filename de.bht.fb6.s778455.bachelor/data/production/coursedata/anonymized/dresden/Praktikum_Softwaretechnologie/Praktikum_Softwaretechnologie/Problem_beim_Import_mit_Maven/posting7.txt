@@ -1,0 +1,9 @@
+ID: 2828
+CREATION_DATETIME: 1384210800000
+MODIFICATION_DATETIME: 1384210800000
+TITLE: Falls das mit Maven bei deinen Teambuddies klappt, kannst du dir auch deren .m2 Repo schicken lassen....
+PARENT_POSTING_ID: 2818
+POSTING_TYPE: comment
+CONTENT:
+Falls das mit Maven bei deinen Teambuddies klappt, kannst du dir auch deren . m2 Repo schicken lassen.
+TAGGED_CONTENT:

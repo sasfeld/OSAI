@@ -1,0 +1,10 @@
+ID: 217
+CREATION_DATETIME: 1349647200000
+MODIFICATION_DATETIME: 1349647200000
+TITLE: Ich fände es toll, we
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 70
+POSTING_TYPE: answer
+CONTENT:
+Ich fände es toll, wenn Links in einem neuen Tab geöffnet würden. Andernfalls verlässt man immer auditorium, sobald man einen Link öffnet.
+TAGGED_CONTENT:

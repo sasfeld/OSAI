@@ -1,0 +1,22 @@
+ID: 189047
+CREATION_DATETIME: 1356260406
+MODIFICATION_DATETIME: 1356260406
+TITLE: Frohe Weihnachten...
+TOPIC_ZOOM_TAG: value:Weihnachtsfeiern;weight:1.0;significance:10.1436001577724;degreegeneralization:10;uri:20295308
+TOPIC_ZOOM_TAG: value:Weihnachten;weight:1.0;significance:6.95280730164701;degreegeneralization:9;uri:20915502
+TOPIC_ZOOM_TAG: value:Feiertage;weight:1.0;significance:6.76051452605328;degreegeneralization:5;uri:20718404
+TOPIC_ZOOM_TAG: value:Brauchtum;weight:1.0;significance:6.55369142121751;degreegeneralization:8;uri:20912663
+TOPIC_ZOOM_TAG: value:Tradition, Brauchtum und Sitten;weight:1.0;significance:6.13766655289434;degreegeneralization:7;uri:21389003
+TOPIC_ZOOM_TAG: value:Kulturkreise und kulturelle Gruppen;weight:1.0;significance:6.13626697253992;degreegeneralization:6;uri:20989588
+TOPIC_ZOOM_TAG: value:Feiern, Feste und Festakte;weight:1.0;significance:5.9680301556277;degreegeneralization:4;uri:20919667
+TOPIC_ZOOM_TAG: value:Völker der Erde;weight:1.0;significance:5.25209496005772;degreegeneralization:4;uri:21464177
+TOPIC_ZOOM_TAG: value:Gesellschaft und Bevölkerungsgruppen;weight:1.0;significance:4.03640596381987;degreegeneralization:5;uri:21976727
+TOPIC_ZOOM_TAG: value:Bevölkerung;weight:1.0;significance:3.88829314932761;degreegeneralization:4;uri:21634313
+TOPIC_ZOOM_TAG: value:Veranstaltungen;weight:1.0;significance:3.37051978211685;degreegeneralization:3;uri:20901494
+TOPIC_ZOOM_TAG: value:Kunst, Kultur, Musik;weight:1.0;significance:3.04770693667486;degreegeneralization:2;uri:21999796
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+PARENT_POSTING_ID: 0
+CONTENT:
+Ich wünsche allen ein schönes Weihnachtsfest und einen guten Rutsch in 2013.
+TAGGED_CONTENT:

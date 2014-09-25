@@ -1,0 +1,47 @@
+ID: 197
+CREATION_DATETIME: 1349560800000
+MODIFICATION_DATETIME: 1349560800000
+TITLE: LR ist der Lernraum i
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Vorlesungen;weight:1.0;significance:5.45839502300295;degreegeneralization:6;uri:20916641
+TOPIC_ZOOM_TAG: value:Hausaufgaben;weight:1.0;significance:5.03474609280935;degreegeneralization:7;uri:20197932
+TOPIC_ZOOM_TAG: value:Schulunterricht;weight:1.0;significance:4.80875353093781;degreegeneralization:6;uri:20897550
+TOPIC_ZOOM_TAG: value:HTML;weight:1.0;significance:4.65367606678589;degreegeneralization:8;uri:20901715
+TOPIC_ZOOM_TAG: value:Ereignisse im Bereich Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.6214068062171;degreegeneralization:3;uri:21872857
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:2.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Unterricht;weight:1.0;significance:4.06179101828168;degreegeneralization:4;uri:20916930
+TOPIC_ZOOM_TAG: value:Beschreibungssprachen;weight:1.0;significance:3.80130202066668;degreegeneralization:7;uri:20900644
+TOPIC_ZOOM_TAG: value:Verfügungen;weight:1.0;significance:3.62448200054489;degreegeneralization:3;uri:19992589
+TOPIC_ZOOM_TAG: value:Formale Sprachen;weight:1.0;significance:3.51589785648282;degreegeneralization:6;uri:21978155
+TOPIC_ZOOM_TAG: value:Computersprachen;weight:1.0;significance:3.51418845310843;degreegeneralization:6;uri:19949137
+TOPIC_ZOOM_TAG: value:Schulen;weight:1.0;significance:2.93507215719329;degreegeneralization:5;uri:21882020
+TOPIC_ZOOM_TAG: value:Schulische Bildung und Erziehung;weight:1.0;significance:2.93346701937817;degreegeneralization:3;uri:21882122
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:2.78563553898677;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:2.77735785682754;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:2.59037776375624;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:2.50435355391847;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:2.50390086036106;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:2.21875632472049;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:2.15506992990383;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:2.00351838218053;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.83083484620539;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:1.32554850720165;degreegeneralization:2;uri:21999830
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 190
+POSTING_TYPE: answer
+CONTENT:
+LR ist der Lernraum.
+
+Siehe hier: http://www.math.tu-dresden. de/~noack/DS/DSLA2012. html
+
+> Sie können den Lernraum nutzen, um die Vorlesungen nachzuarbeiten, <REMOVED_PERSON_ENTITY>- und 
+
+Hausaufgaben eigenständig zu lösen oder sich auf die Klausuren vorzubereiten. 
+
+Dabei stehen Ihnen erfahrene Tutoren für Fragen zur Verfügung.
+TAGGED_CONTENT:

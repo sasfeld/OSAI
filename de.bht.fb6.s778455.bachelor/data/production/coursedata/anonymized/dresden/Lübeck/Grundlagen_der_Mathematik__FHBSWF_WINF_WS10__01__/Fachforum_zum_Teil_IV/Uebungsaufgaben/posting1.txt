@@ -1,0 +1,8 @@
+ID: 97812
+CREATION_DATETIME: 1293042226
+MODIFICATION_DATETIME: 1293042226
+TITLE: Uebungsaufgaben
+PARENT_POSTING_ID: 0
+CONTENT:
+Die Uebungsaufgaben stellen anders als im Text erwaehnt KEINE Einsendeaufgaben dar. Sie dienen Ihnen zum Training in der Chat-freien Zeit.
+TAGGED_CONTENT:

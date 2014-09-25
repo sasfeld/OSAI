@@ -1,0 +1,6 @@
+ID: 2072897
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Technische Informatik II für Wirtschaftswissenschaften
+INTRO: null
+TYPE: null

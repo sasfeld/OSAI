@@ -1,0 +1,25 @@
+ID: 56
+CREATION_DATETIME: 1197578400000
+MODIFICATION_DATETIME: 1197578400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 55
+CONTENT:
+
+hi 
+
+ja, das hilft schon. hatte (unter anderem) versucht das objekt direkt zu erzeugen, jetzt werde ich es mal so versuchen wie du gesagt hast. danke!!! :)
+
+die ganzen klassen habe ich schon im projekt, hab allerdings tausendfach was drin geändert und jetzt nur noch wirres zeug, ich glaub ich fang nochmal neu an :D
+
+wie machst du das denn mit dem setzen in der panel-instanz? vielleicht verstehe ich auch den ganzen satz nicht richtig:
+
+Die einzelnen Panelklassen müssen die aktuelle CocktailBar-Instanz ebenfalls kennen, von daher sollte diese beim Erzeugen des Panels im Konstruktor entsprechend in der Panel-Instanz gesetzt werden.
+
+muss man beim "umschalten" auf ein anderes panel irgendwas übergeben?
+
+puh, die aufgabe ist echt bis jetzt die schwierigste... find ich.
+
+auf jeden fall danke für deine hilfe! :)
+  
+TAGGED_CONTENT:

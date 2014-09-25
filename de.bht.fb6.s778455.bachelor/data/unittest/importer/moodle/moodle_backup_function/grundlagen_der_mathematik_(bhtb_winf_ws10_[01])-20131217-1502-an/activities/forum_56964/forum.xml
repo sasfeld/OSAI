@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="11745" moduleid="56964" modulename="forum" contextid="80622">
+  <forum id="11745">
+    <type>general</type>
+    <name>Fachforum zum Teil II</name>
+    <intro>Hier können Sie Fachfragen zum Teil II diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1218802758</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="37724">
+        <name>Wahrheitstabellen zum Ausdrucken</name>
+        <firstpost>101865</firstpost>
+        <userid>3923</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1287999654</timemodified>
+        <usermodified>3897</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="101865">
+            <parent>0</parent>
+            <userid>3923</userid>
+            <created>1287916612</created>
+            <modified>1287916612</modified>
+            <mailed>1</mailed>
+            <subject>Wahrheitstabellen zum Ausdrucken</subject>
+            <message>Habe mir die Wahrheitstabellen zum Ausdrucken erstellt!&lt;br /&gt;&lt;br /&gt;Wem es nützt, kann es hier gerne runterladen!&lt;br /&gt;&lt;br /&gt;LG aus Charlottenburg&lt;br /&gt;&lt;br /&gt;AJ&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment>1</attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="101866">
+            <parent>101865</parent>
+            <userid>3897</userid>
+            <created>1287999654</created>
+            <modified>1287999654</modified>
+            <mailed>1</mailed>
+            <subject>Re: Wahrheitstabellen zum Ausdrucken</subject>
+            <message>Coole Liste, danke für deine Mühe, im Mathematerial findest du auch nochmal eine Warheitstafel als übersicht welche auch sehr praktisch ist. </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="104406">
+        <userid>3923</userid>
+      </subscription>
+      <subscription id="104407">
+        <userid>3913</userid>
+      </subscription>
+      <subscription id="104408">
+        <userid>3897</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

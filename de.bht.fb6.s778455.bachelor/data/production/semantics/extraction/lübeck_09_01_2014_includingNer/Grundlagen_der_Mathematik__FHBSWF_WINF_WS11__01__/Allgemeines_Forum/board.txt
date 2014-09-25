@@ -1,0 +1,6 @@
+ID: 13945
+MODIFICATION_DATETIME: 1185448275
+TITLE: Allgemeines Forum
+TOPIC_ZOOM_TAG: value:Foren;weight:1.0;significance:7.65869350798439;degreegeneralization:3;uri:20770662
+INTRO: Hier können Sie übergeordnete und organisatorische Fragen diskutieren.
+TYPE: general

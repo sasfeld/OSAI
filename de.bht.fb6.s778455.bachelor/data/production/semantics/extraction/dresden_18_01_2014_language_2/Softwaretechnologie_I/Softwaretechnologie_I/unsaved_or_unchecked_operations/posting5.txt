@@ -1,0 +1,156 @@
+ID: 2129
+CREATION_DATETIME: 1372456800000
+MODIFICATION_DATETIME: 1372456800000
+TITLE: So sieht mein Code aus:
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2112
+POSTING_TYPE: answer
+CONTENT:
+So sieht mein Code aus:
+
+```
+
+public class QueueImpl implements Queue{
+
+  private List myObjects;
+
+  public QueueImpl(boolean withDuplicates){
+
+    if(withDuplicates){
+
+      myObjects = new LinkedList();
+
+    }
+
+    else{
+
+      myObjects = new OrderedSetImpl();
+
+    }
+
+  }
+
+  public boolean add(Object o){
+
+    return myObjects. add(o);
+
+  }
+
+  public Object remove(){
+
+    if(myObjects. isEmpty()) return null;
+
+    return myObjects. remove(0);
+
+  }
+
+  public Object front(){
+
+    if(myObjects. isEmpty()) return null;
+
+    return myObjects. get(0);
+
+  }
+
+  public boolean isEmpty(){
+
+    return myObjects. isEmpty();
+
+  }
+
+  public int size(){
+
+    return myObjects. size();
+
+  }
+
+  public String toString(){
+
+    return myObjects. toString();
+
+  }
+
+}
+
+public class OrderedSetImpl extends java. util. ArrayList implements OrderedSet{
+
+  public OrderedSetImpl() {
+
+    super();
+
+  }
+
+  public OrderedSetImpl(int initialCapacity) {
+
+    super(initialCapacity);
+
+  }
+
+  public boolean add(Object obj) {
+
+    if(obj==null){
+
+      throw new NullPointerException();
+
+    }
+
+    int previousIndex = indexOf(obj);
+
+    if (previousIndex!=-1)
+
+      return false;
+
+      else{
+
+        super. add(obj);
+
+        return true;
+
+      }
+
+    }
+
+  public boolean addAll(Collection collection) {
+
+    throw new UnsupportedOperationException();
+
+  }
+
+  public boolean addAll(int i, Collection collection) {
+
+    throw new UnsupportedOperationException();
+
+  }
+
+  public Object set(int i, Object obj) {
+
+    if(obj == null) throw new NullPointerException();
+
+    if(!contains(obj)){
+
+      return super. set(i, obj);
+
+    }
+
+    return null;
+
+  }
+
+  public void add(int i, Object obj) {
+
+    if(obj == null) throw new NullPointerException();
+
+    if(!contains(obj)){
+
+      super. add(i, obj);
+
+    }
+
+  }
+
+}
+
+```
+
+natürlich in 2 Dateien, und zusätzlich die Interfaces
+TAGGED_CONTENT:

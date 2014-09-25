@@ -1,0 +1,11 @@
+ID: 610
+CREATION_DATETIME: 1351551600000
+MODIFICATION_DATETIME: 1351551600000
+TITLE: javascript (http://blog.nihilogic.dk/2008/05/jquery-exif-data-plugin.html)
+oder alternativ zb window...
+PARENT_POSTING_ID: 608
+POSTING_TYPE: comment
+CONTENT:
+javascript (http://blog.nihilogic.dk/2008/05/jquery-exif-data-plugin. html)
+oder alternativ zb windows file eigenschaften>details, steht das gleiche drin
+TAGGED_CONTENT:

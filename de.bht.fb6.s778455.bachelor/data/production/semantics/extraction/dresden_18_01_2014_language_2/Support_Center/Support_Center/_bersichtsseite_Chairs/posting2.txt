@@ -1,0 +1,10 @@
+ID: 159
+CREATION_DATETIME: 1348437600000
+MODIFICATION_DATETIME: 1348437600000
+TITLE: Danke für das Feedbac
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 158
+POSTING_TYPE: comment
+CONTENT:
+Danke für das Feedback. Die Übersichtsseiten bekommen eh noch ein neues Design. Wir werden das Feedback mit einfließen lassen. Filter sind eine ideale Möglichkeit. Derzeit kann man ja auf der Institutsseite z. B. das [Institut für Systemarchitektur](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/institutes/30012) auswählen und bekommt nur die relevanten Lehrstühle und Kurse dargestellt. Wir werden es entsprechend anpassen.
+TAGGED_CONTENT:

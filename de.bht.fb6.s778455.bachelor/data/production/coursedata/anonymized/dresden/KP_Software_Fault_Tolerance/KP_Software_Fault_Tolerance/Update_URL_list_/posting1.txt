@@ -1,0 +1,32 @@
+ID: 1085
+CREATION_DATETIME: 1359327600000
+MODIFICATION_DATETIME: 1383951600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+the url. list is pretty outdatet. None of the provided are reachable. 
+And I think your server is a little buggy too. It returns "Reason: Success" for www. does. not. exist
+```
+./watch_dog url. lst 2000 5000
+URL file = url. lst
+timeout = 2000 ms
+pause = 5000 ms
+host = www. heise. de; uri = /security/dienste/browsercheck/tests/activex. shtml
+host = wwwse. inf. tu-dresden. de; uri = /
+host = wwwse. inf. tu-dresden. de; uri = /does_not_exist. html
+host = www. does. not. exist; uri = /
+===> Host www. heise. de(193. 99. 144. 85) does not respond with "success"
+===>    response line: HTTP/1. 1 404 Not Found
+===> Host wwwse. inf. tu-dresden. de(141. 76. 44. 232) does not respond with "success"
+===>    response line: HTTP/1. 1 301 Moved Permanently
+===> Host wwwse. inf. tu-dresden. de(141. 76. 44. 232) does not respond with "success"
+===>    response line: HTTP/1. 1 301 Moved Permanently
+===> Could not find host www. does. not. exist
+===>    Reason: Success
+===> Host www. heise. de(193. 99. 144. 85) does not respond with "success"
+===>    response line: HTTP/1. 1 404 Not Found
+```
+**Edit: Quote ignores newlines, so I used a code block.
+TAGGED_CONTENT:

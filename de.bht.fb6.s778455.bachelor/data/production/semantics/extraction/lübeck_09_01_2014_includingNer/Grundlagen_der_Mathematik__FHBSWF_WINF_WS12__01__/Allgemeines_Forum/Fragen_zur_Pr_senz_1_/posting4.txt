@@ -1,0 +1,32 @@
+ID: 170027
+CREATION_DATETIME: 1350145144
+MODIFICATION_DATETIME: 1350145144
+TITLE: Re: Fragen zur Präsenz 1 
+TOPIC_ZOOM_TAG: value:Primzahlen;weight:11.0;significance:12.7085495152339;degreegeneralization:7;uri:20841025
+TOPIC_ZOOM_TAG: value:Zahlentheorie;weight:11.0;significance:11.6099372265658;degreegeneralization:6;uri:20881383
+TOPIC_ZOOM_TAG: value:Mathematik;weight:11.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:11.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:11.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:11.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Primfaktoren;weight:2.0;significance:2.31064536640616;degreegeneralization:8;uri:19749455
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:11.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Poker;weight:1.0;significance:1.02929592310127;degreegeneralization:7;uri:20124220
+TOPIC_ZOOM_TAG: value:Kartenspiele;weight:1.0;significance:0.937332203857782;degreegeneralization:6;uri:21880694
+TOPIC_ZOOM_TAG: value:Glückspiel und Lotterie;weight:1.0;significance:0.654469198055086;degreegeneralization:3;uri:21868335
+TOPIC_ZOOM_TAG: value:Tipps;weight:1.0;significance:0.542979045544691;degreegeneralization:4;uri:20291636
+TOPIC_ZOOM_TAG: value:Spiele;weight:1.0;significance:0.454844276397055;degreegeneralization:5;uri:20990217
+TOPIC_ZOOM_TAG: value:Spiele und Spielwaren;weight:1.0;significance:0.452899622762389;degreegeneralization:4;uri:21976965
+TOPIC_ZOOM_TAG: value:Hobby;weight:1.0;significance:0.450019640703911;degreegeneralization:3;uri:21999660
+TOPIC_ZOOM_TAG: value:Unterhaltung;weight:1.0;significance:0.408774882782772;degreegeneralization:3;uri:21999643
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:0.312867754194564;degreegeneralization:2;uri:21999745
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:0.19829924144688;degreegeneralization:2;uri:21990259
+PARENT_POSTING_ID: 167889
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+da spiele ich jetzt einmal den kritischen Skeptiker, den es zu überzeugen gilt (ich sagte ja, Beweise sind Akte der Überzeugung):
+Sie schreiben M={3, 5, 7, 11, 13, 17, 19,...}. Hier nehmen Sie zuerst an, es gebe nur endlich viele Primzahlen. Danach schreiben Sie sieben Ihnen bekannte Primzahlen in eine <REMOVED_PERSON_ENTITY> M und notieren drei Punkte "..." dahinter. Wofür stehen die drei Punkte? Für die restlichen der - nur als endlich viele angenommenen - Primzahlen? Dann ergäbe sich kein Widerspruch. Wenn sie für die unendlich vielen weiteren Primzahlen stehen (wo Sie ja gerade das Gegenteil angenommen haben), zeige ich mich demonstrativ skeptisch und mache ich es wie beim Poker: Ich will sehen! Schreiben Sie bitte ausführlich aus, was die drei Punkte abkürzen, d. h. ich will ALLE weiteren Primzahlen wissen, so dass ich einsehe, dass es tatsächlich unendlich viele sind....
+Im zweiten Fall sieht es ähnlich aus: "die darauf folgende Primzahl" - heißt was? Sie haben gerade angenommen, dass es nur endlich viele gibt und z die größte ist. Was genau soll dann "die darauf folgende Primzahl" sein, wenn es sie doch nach Annahme nicht gibt? Zudem hakt es in Ihrem Produkt: Es kann z*(irgendwas) keine Primzahl sein, denn sie ist ersichtlich Produkt zweier Zahlen ungleich eins.
+Tipp zum weiteren Vorgehen: Nehmen Sie an, 3 und 5 und 7 wären die einzigen Primzahlen. Könnten Sie abhängig von diesen Zahlen eine weitere Zahl konstruieren, die wohl selber entweder eine Primzahl ist oder einen Primfaktor ungleich 3, 5, 7 hat? Gemeint ist hier, nicht einfach 11 anzugeben, sondern sich zu überlegen, wie eine <REMOVED_PERSON_ENTITY> gewonnen werden kann, die weder durch 3 noch durch 5 noch durch 7 teilbar ist. Diese ist dann entweder Primzahl (dann aber größer als 7) oder enthält einen noch unbekannten Primfaktor (wo doch 3, 5, 7 alle möglichen sein sollten). Da würde den Widerspruch bringen. Diesen Gedankengang müssen Sie sodann etwas abstrakter fassen: Angenommen p_1,..., p_n wären die einzigen Primzahlen. Sie würden aus diesen eine <REMOVED_PERSON_ENTITY> konstruieren, die durch keine dieser Zahlen teilbar ist usw.
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:

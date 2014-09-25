@@ -1,0 +1,12 @@
+ID: 2027
+CREATION_DATETIME: 1370901600000
+MODIFICATION_DATETIME: 1370901600000
+TITLE: Worauf bezog sich die Aussage?
+LANGUAGE: GERMAN
+POS_TAG: value:Aussage;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Worauf bezog sich die Aussage?
+TAGGED_CONTENT:
+Worauf_PWAV bezog_VVFIN sich_PRF die_ART Aussage_NN ?_$. 

@@ -1,0 +1,15 @@
+ID: 61
+CREATION_DATETIME: 1305137460000
+MODIFICATION_DATETIME: 1305137460000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 57
+CONTENT:
+  
+Hallo ,
+
+ich finde die Idee super, kann am Dienstag aber leider auch nicht traurig (mal schauen, vielleicht kann ich noch etwas an meinem Dienstplan drehen...). Wenn ihr so einen Workshop noch einmal plant - ich habe auf jeden Fall Interesse...
+
+Grüße
+    
+TAGGED_CONTENT:

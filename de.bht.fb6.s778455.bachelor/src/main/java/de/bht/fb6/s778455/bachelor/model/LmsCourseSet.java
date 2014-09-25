@@ -6,17 +6,21 @@ package de.bht.fb6.s778455.bachelor.model;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.Collection;
-import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
+
+import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
+import de.bht.fb6.s778455.bachelor.model.tools.IdComparator;
 
 /**
  * <p>This class handles the courses. It behaves like a {@link Set} but follows the implementation of a {@link Collection}.</p>
+ * <p>All added elements are sorted using an {@link IdComparator}. The course instances will be sorted ascending.</p>
  *
  * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
  * @since 25.01.2014
  *
  */
-public class LmsCourseSet extends HashSet< Course > implements IRdfUsable {       
+public class LmsCourseSet extends TreeSet< Course > implements IRdfUsable {       
     private static final long serialVersionUID = 1L;
     protected String name;
     
@@ -25,7 +29,8 @@ public class LmsCourseSet extends HashSet< Course > implements IRdfUsable {
      * @param values
      */
     public LmsCourseSet( final Collection< Course > values, final String courseSetName ) {
-        super();
+    	// assign ID comparator
+        super(ServiceFactory.newIdComparator());
         
         if ( null == values ) {
             throw new IllegalArgumentException( this.getClass() + ":LmsCourseSet: null value of parameter is not allowed!" );
@@ -41,7 +46,8 @@ public class LmsCourseSet extends HashSet< Course > implements IRdfUsable {
      * @param courseSetName
      */
     public LmsCourseSet(final String courseSetName) {
-        super();
+    	// assign ID comparator
+        super(ServiceFactory.newIdComparator());
         
         this.initialize( courseSetName );
     }
@@ -62,6 +68,7 @@ public class LmsCourseSet extends HashSet< Course > implements IRdfUsable {
         }
         this.name = name;
     }
+    
     
     /**
      * Get the name of this CourseSet

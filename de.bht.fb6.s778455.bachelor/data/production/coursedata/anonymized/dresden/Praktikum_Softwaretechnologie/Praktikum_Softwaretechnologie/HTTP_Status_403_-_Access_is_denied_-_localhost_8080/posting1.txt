@@ -1,0 +1,29 @@
+ID: 2719
+CREATION_DATETIME: 1383606000000
+MODIFICATION_DATETIME: 1385506800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Beim Zugriff auf den Warenkorb als user 'boss' kommt folgender Fehler:
+```ruby
+HTTP Status 403 - Access is denied
+```
+Die Konsole in Eclipse spuckt dazu folgendes aus:
+```ruby
+2013-11-05 13:59:55, 751 DEBUG gframework. web. servlet. DispatcherServlet: 845 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/shoppingBasket]
+2013-11-05 13:59:55, 752 DEBUG . annotation. RequestMappingHandlerMapping: 222 - Looking up handler method for path /shoppingBasket
+2013-11-05 13:59:55, 753 DEBUG . annotation. RequestMappingHandlerMapping: 229 - Returning handler method [public java. lang. String videoshop. controller. BasketController. basket()]
+2013-11-05 13:59:55, 753 DEBUG gframework. web. servlet. DispatcherServlet: 934 - Last-Modified value for [/shoppingBasket] is: -1
+2013-11-05 13:59:55, 754 DEBUG tation. ExceptionHandlerExceptionResolver: 134 - Resolving exception from handler [public java. lang. String videoshop. controller. BasketController. basket()]: org. springframework. security. access. AccessDeniedException: Access is denied
+2013-11-05 13:59:55, 755 DEBUG notation. ResponseStatusExceptionResolver: 134 - Resolving exception from handler [public java. lang. String videoshop. controller. BasketController. basket()]: org. springframework. security. access. AccessDeniedException: Access is denied
+2013-11-05 13:59:55, 755 DEBUG . support. DefaultHandlerExceptionResolver: 134 - Resolving exception from handler [public java. lang. String videoshop. controller. BasketController. basket()]: org. springframework. security. access. AccessDeniedException: Access is denied
+2013-11-05 13:59:55, 756 DEBUG gframework. web. servlet. DispatcherServlet: 969 - Could not complete request
+org. springframework. security. access. AccessDeniedException: Access is denied
+	at org. springframework. security. access. vote. AffirmativeBased. decide(AffirmativeBased. java:83) ~[spring-security-core-3. 2. 0. RC1. jar:3. 2. 0. RC1]
+```
+Hab mal sämtliche DEBUG-Meldungen zu dem request hinzugefügt.
+Ist das ein Bug in Videoshop oder liegt das an mir?
+Viele Grüße,
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

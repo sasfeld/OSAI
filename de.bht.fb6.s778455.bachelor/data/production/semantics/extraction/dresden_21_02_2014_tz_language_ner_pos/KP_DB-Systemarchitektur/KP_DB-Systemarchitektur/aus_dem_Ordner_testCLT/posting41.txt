@@ -1,0 +1,18 @@
+ID: 2001
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Ich habe gestern die Funktionierende Version meiner Testumgebung eingecheckt. Die makefile ist ein kl...
+LANGUAGE: GERMAN
+POS_TAG: value:ToDo;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufrufe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kernel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Version;weight:0.0;uri:;postag:NN
+POS_TAG: value:Datengeneratoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:si;weight:0.0;uri:;postag:NN
+POS_TAG: value:Testumgebung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Ich habe gestern die Funktionierende Version meiner Testumgebung eingecheckt. Die makefile ist ein klein wenig abgewandelt, damit alles richtig compiliert. Bis heute abend werde ich noch für die anderen Kernel die Aufrufe vorbereiten. Die Datengeneratoren habe ich mir als ToDo nach der Zwischenpräsi gesetzt.
+TAGGED_CONTENT:
+Ich_PPER habe_VAFIN gestern_ADV die_ART Funktionierende_ADJA Version_NN meiner_PPOSAT Testumgebung_NN eingecheckt_VVPP ._$. Die_ART makefile_ADJD ist_VAFIN ein_ART klein_ADJD wenig_ADV abgewandelt_VVPP ,_$, damit_PROAV alles_PIS richtig_ADJD compiliert_VVPP ._$. Bis_APPR heute_ADV abend_ADV werde_VAFIN ich_PPER noch_ADV für_APPR die_ART anderen_ADJA Kernel_NN die_ART Aufrufe_NN vorbereiten_VVINF ._$. Die_ART Datengeneratoren_NN habe_VAFIN ich_PPER mir_PPER als_APPR ToDo_NN nach_APPR der_ART Zwischenpräsi_NN gesetzt_VVPP ._$. 

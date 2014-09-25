@@ -1,0 +1,13 @@
+ID: 857
+CREATION_DATETIME: 1353798000000
+MODIFICATION_DATETIME: 1353970800000
+TITLE: Genau. Die Methode gehört zum ORM von Grails.
+Die Performance ist nicht allzu gut. Bei 10.000 Nutzer...
+PARENT_POSTING_ID: 845
+POSTING_TYPE: comment
+CONTENT:
+Genau. Die Methode gehört zum ORM <NAME_CORPUS_REPLACEMENT> Grails.
+Die Performance ist nicht allzu gut. Bei 10. 000 Nutzern hatte ich ein Average-Response-Time <NAME_CORPUS_REPLACEMENT> 1, 5 Sekunden beim wldriver-r.
+Vermute aber, dass das bei mir eher an Mongo liegt, weil dort die Bearbeitungszeiten der Queries sehr hoch sind und die umgesetzten Queries <NAME_CORPUS_REPLACEMENT> Grails- auf Mongo-Syntax auf den ersten Blick vernünftig aussehen.
+Hab allerdings <NAME_CORPUS_REPLACEMENT> keine tiefgreifenden Untersuchungen angestellt.
+TAGGED_CONTENT:

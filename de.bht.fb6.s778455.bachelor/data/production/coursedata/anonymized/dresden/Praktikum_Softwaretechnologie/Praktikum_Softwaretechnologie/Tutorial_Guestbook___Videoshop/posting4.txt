@@ -1,0 +1,10 @@
+ID: 2650
+CREATION_DATETIME: 1383087600000
+MODIFICATION_DATETIME: 1383087600000
+TITLE: Danke für den Hinweis, ich werde das mal ergänzen.
+
+PARENT_POSTING_ID: 2648
+POSTING_TYPE: comment
+CONTENT:
+Danke für den Hinweis, ich werde das mal ergänzen.
+TAGGED_CONTENT:

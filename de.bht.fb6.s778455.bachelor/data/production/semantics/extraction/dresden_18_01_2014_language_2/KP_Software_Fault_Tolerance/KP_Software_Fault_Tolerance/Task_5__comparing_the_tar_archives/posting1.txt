@@ -1,0 +1,12 @@
+ID: 967
+CREATION_DATETIME: 1355526000000
+MODIFICATION_DATETIME: 1366927200000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+So the TarState <NAME_CORPUS_REPLACEMENT> be " okay – the file is the same as the original". How are we supposed to check it? I tried the diff command and it works if the original tar archive is created by me. If using the content. tar from svn, the files will differ in diff because the owner of the archived files is "<REMOVED_PERSON_ENTITY>, while in the tmp. tar the owner is my user. 
+
+The question is, <NAME_CORPUS_REPLACEMENT> I <NAME_CORPUS_REPLACEMENT> change the content. tar from the svn and use diff or should I extract both archives and recursively check the filenames, directory names and the binary content of the files?
+TAGGED_CONTENT:

@@ -1,0 +1,30 @@
+ID: 68
+CREATION_DATETIME: 1291632720000
+MODIFICATION_DATETIME: 1291632720000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 67
+CONTENT:
+ 
+Lieber , liebe Studierende,
+
+sehr gute Vertiefung. Damit es klappt sollen die Komponente, die in dieser Klasse definiert sind, nämlich das DrawPanel-Objekt oder das TastaturEreignisse-Objekt den Fokus haben koennen. Dies wird mit der Methode setFocusable gemacht, siehe auch:
+http://download.oracle.com/javase/tutorial/uiswing/misc/focus.html#focusable
+Dir Reihenfolge, wie die Objekte hinfugefuegt werden, bestimmt welche graphische Komponente am Anfang den Fokus hat (ausser man benutzt ein FocusTravesalPolicy-Objekt).
+Probieren Sie:
+p = new DrawPanel();
+p.setFocusable(true);
+p.addKeyListener(this);
+p.addFocusListener(this);
+und lassen Sie die JButton-Objekte weg. Sie werden den Kreis bewegen koennen.
+Die folgende Änderung gibt Einsicht
+public void keyPressed(KeyEvent e) {
+System.out.println(e.getSource());
+....
+}
+Etwas ähnliches gilt fuer focusGained.
+Falls Sie die JButton Objekte lassen, werden Sie merken, dass das sie per Default den Fokus behalten (wenn JButton Objekt a oder b den Fokus gewonnen hat, kann p den Fokus nicht mehr gewinnen).
+
+Viel Erfolg der dieser LE!
+	
+TAGGED_CONTENT:

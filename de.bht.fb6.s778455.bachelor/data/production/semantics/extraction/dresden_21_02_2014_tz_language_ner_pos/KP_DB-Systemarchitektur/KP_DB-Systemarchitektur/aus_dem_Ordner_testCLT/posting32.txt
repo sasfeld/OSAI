@@ -1,0 +1,15 @@
+ID: 1964
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Jetz muss ich doch nochmal dumm fragen: Was soll ich im PATH denn eintragen, damit er llvm-3.2 nimmt?...
+LANGUAGE: GERMAN
+POS_TAG: value:llvm;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehlermeldung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Jetz muss ich doch nochmal dumm fragen: Was soll ich im PATH denn eintragen, damit er llvm-3. 2 nimmt? und wäre es nicht besser, wenn wir auf der wimpy node die 2. 9 einfach deinstallieren und nur noch die 3. 2er nehmen, wenn es mit der 2. 9 eh nicht geht?
+
+Wenn ichs aufm wimpy versuche zu bauen, bekomme ich auch ellenlange Fehlermeldung seitens llvm.
+TAGGED_CONTENT:
+Jetz_NE muss_VVFIN ich_PPER doch_ADV nochmal_ADV dumm_ADJD fragen_VVFIN :_$. Was_PWS soll_VMFIN ich_PPER im_APPRART PATH_NE denn_ADV eintragen_VVINF ,_$, damit_KOUS er_PPER llvm-3_VVFIN ._$. 2_CARD nimmt_VVFIN ?_$. und_KON wäre_VAFIN es_PPER nicht_PTKNEG besser_ADJD ,_$, wenn_KOUS wir_PPER auf_APPR der_ART wimpy_FM node_FM die_ART 2_CARD ._$. 9_CARD einfach_ADV deinstallieren_VVINF und_KON nur_ADV noch_ADV die_ART 3_CARD ._$. 2er_XY nehmen_VVINF ,_$, wenn_KOUS es_PPER mit_APPR der_ART 2_CARD ._$. 9_CARD eh_ADV nicht_PTKNEG geht_VVFIN ?_$. Wenn_KOUS ichs_ADV aufm_ADJD wimpy_ADJD versuche_VVFIN zu_PTKZU bauen_VVINF ,_$, bekomme_VVFIN ich_PPER auch_ADV ellenlange_ADJA Fehlermeldung_NN seitens_APPR llvm_NN ._$. 

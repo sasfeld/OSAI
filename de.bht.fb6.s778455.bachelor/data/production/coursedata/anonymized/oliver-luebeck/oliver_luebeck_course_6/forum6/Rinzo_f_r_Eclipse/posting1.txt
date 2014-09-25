@@ -1,0 +1,18 @@
+ID: 72
+CREATION_DATETIME: 1293112740000
+MODIFICATION_DATETIME: 1293112740000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo an alle!
+Ich habe versucht Rinzo für Eclipse zu installieren, doch leider gibt es eine Fehlermeldung bei der Installation. (Siehe Screenshot!)
+Die Systemvoraussetzungen habe ich erfüllt. Ich arbeite mit Java 6 und Eclipse 3.6.
+Weiß jemand von euch Abhilfe?
+
+Auf diesem Wege wünschen ich euch allen eine schöne Weihnachtszeit und einen guten Rutsch!
+
+Schöne Grüße
+    
+TAGGED_CONTENT:

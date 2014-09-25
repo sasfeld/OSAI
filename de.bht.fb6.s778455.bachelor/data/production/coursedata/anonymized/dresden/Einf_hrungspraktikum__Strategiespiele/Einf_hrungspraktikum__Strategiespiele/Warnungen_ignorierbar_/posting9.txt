@@ -1,0 +1,9 @@
+ID: 1211
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: k, habe den fehler inzwischen gefunden... hatte nur keinen durchblick mehr bei 6 klammern hintereinan...
+PARENT_POSTING_ID: 1210
+POSTING_TYPE: comment
+CONTENT:
+k, habe den fehler inzwischen gefunden... hatte nur keinen durchblick mehr bei 6 klammern hintereinander ;)
+TAGGED_CONTENT:

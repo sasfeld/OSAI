@@ -1,0 +1,15 @@
+ID: 6
+CREATION_DATETIME: 1191547080000
+MODIFICATION_DATETIME: 1191547080000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 5
+CONTENT:
+ 
+There is no need to explicitly call flush before calling close.
+
+Hier: http://www.javapractices.com/topic/TopicAction.do?
+
+MfG 
+     
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 2855
+CREATION_DATETIME: 1384470000000
+MODIFICATION_DATETIME: 1384556400000
+TITLE: Jawoll das funktioniert, Danke für die schnelle Hilfe! (Sollte vll gleich im blankweb ergänzt werden)...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2854
+POSTING_TYPE: comment
+CONTENT:
+Jawoll das funktioniert, Danke für die schnelle Hilfe! (Sollte vll gleich im blankweb ergänzt werden)
+TAGGED_CONTENT:

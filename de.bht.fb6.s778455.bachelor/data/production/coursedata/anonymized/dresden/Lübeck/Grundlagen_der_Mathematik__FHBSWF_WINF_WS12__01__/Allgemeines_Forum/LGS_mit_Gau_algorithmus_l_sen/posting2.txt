@@ -1,0 +1,8 @@
+ID: 190381
+CREATION_DATETIME: 1357252895
+MODIFICATION_DATETIME: 1357252895
+TITLE: Re: LGS mit Gaußalgorithmus lösen
+PARENT_POSTING_ID: 190353
+CONTENT:
+Guck dir mal Chat #12 an, da hat Prof. <REMOVED_PERSON_ENTITY> die selbe Aufgabe genommen und vorgerechnet...
+TAGGED_CONTENT:

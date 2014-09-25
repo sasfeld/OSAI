@@ -1,0 +1,31 @@
+ID: 110804112
+CREATION_DATETIME: 1350338400000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Informatik-Lehrveranstaltungen für Master Wirtschaftsinformatik
+LANGUAGE: GERMAN
+SUMMARY: Diskussionsseite für Fragen zu den Angeboten der Fakultät Informatik für den Master-Studiengang Wirtschaftsinformatik
+URL: http://www.inf.tu-dresden.de/index.php?node_id=2585&ln=de
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:4.0;significance:4.14460442200998;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:4.0;significance:3.49523888978238;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Master;weight:2.0;significance:3.459242601875;degreegeneralization:7;uri:20781831
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:3.0;significance:3.33282942819305;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Prüfungen und Abschlüsse an Hochschulen;weight:2.0;significance:3.13640602591134;degreegeneralization:5;uri:20293489
+TOPIC_ZOOM_TAG: value:Hochschulabschlüsse;weight:2.0;significance:3.13640602591134;degreegeneralization:6;uri:20293472
+TOPIC_ZOOM_TAG: value:Prüfungen, Abschlüsse und Zertifikate;weight:2.0;significance:2.91343979910101;degreegeneralization:4;uri:21974670
+TOPIC_ZOOM_TAG: value:Studiengänge;weight:1.0;significance:2.32198744531316;degreegeneralization:4;uri:20207129
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:2.0;significance:2.22850843118942;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:5.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Informatik;weight:2.0;significance:2.00969017902111;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:2.0;significance:2.00312068828885;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Fakultäten;weight:1.0;significance:1.92350141237512;degreegeneralization:5;uri:20916947
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:0.872516662366272;degreegeneralization:2;uri:21990259
+POS_TAG: value:Informatik;weight:0.0;uri:;postag:NN
+POS_TAG: value:Angeboten;weight:0.0;uri:;postag:NN
+POS_TAG: value:t;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wirtschaftsinformatik;weight:0.0;uri:;postag:NN
+POS_TAG: value:Lehrveranstaltungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Studiengang;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fragen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Diskussionsseite;weight:0.0;uri:;postag:NN

@@ -1,0 +1,8 @@
+ID: 16541
+CREATION_DATETIME: 1223401419
+MODIFICATION_DATETIME: 1223401419
+TITLE: I: Gruppenangebot: Mathe für speziell Herausgeforderte
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen, gerade eben im Chat erzählt Herr <REMOVED_PERSON_ENTITY>, daß auch in Mathematik Gruppen zu vier bis fünf (entscheidet sich noch) Personen für Einsendeaufgaben zu bilden seien. Ich würde gerne eine Gruppe für Leute ins Leben rufen, die für's Verstehen immer ein bischen länger und einen Schritt mehr brauchen. Nicht falsch verstehen - keine Gruppe für hoffnungslose Fälle (verstehen tun wir's ja irgendwann auch), aber, sagen wir mal, Menschen mit potentiellem Nachhilfebedarf. Im Gegensatz zur <REMOVED_PERSON_ENTITY> beim Programmieren ist in <REMOVED_PERSON_ENTITY> eine 'gemischte' Gruppe von Vorteil (Herrn <REMOVED_PERSON_ENTITY> und meine Erfahrung aus den Übungsgruppen im Vorkurs) - wer also Spaß an <REMOVED_PERSON_ENTITY> hat, gut erklären kann, ein <REMOVED_PERSON_ENTITY> für Mathefußgänger hat und deshalb mitmachen möchte, ist umso herzlicher willkommen und darf mit gelegentlichen Bestechungsgaben rechnen! :) 
+TAGGED_CONTENT:

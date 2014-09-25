@@ -1,0 +1,11 @@
+ID: 2235
+CREATION_DATETIME: 1373839200000
+MODIFICATION_DATETIME: 1373839200000
+TITLE: A cluster is a limited set of computers that can run many different applications.
+A warehouse scale ...
+PARENT_POSTING_ID: 2233
+POSTING_TYPE: answer
+CONTENT:
+A cluster is a limited set of computers that <NAME_CORPUS_REPLACEMENT> run many different applications.
+A warehouse scale computer (data center) runs tens of programs on thousands of computers.
+TAGGED_CONTENT:

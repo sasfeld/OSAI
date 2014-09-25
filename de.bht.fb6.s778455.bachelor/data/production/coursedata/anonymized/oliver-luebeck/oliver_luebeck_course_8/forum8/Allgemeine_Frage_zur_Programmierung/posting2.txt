@@ -1,0 +1,17 @@
+ID: 63
+CREATION_DATETIME: 1201204920000
+MODIFICATION_DATETIME: 1201204920000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 62
+CONTENT:
+
+iebe , liebe Studierende,
+
+meinen Sie, das der User über eine graphische Oberfläche den Namen einer Datei wählt? Dafür haben wir die Hilfe der java Bibliothek mit JFileChooser in der Le08 gesehen. Dies haben Sie auch benutzt in der ESA der LE07 um die Cocktails in eine Datei zu speichern.
+Eine einfache Art Desktop Programme zu erstellen ist mit Hilfe von jar Dateien. Sie wurden in Programmieren I nur kurz vorgestellt, nicht genug um sie gut für eine Desktop Anwendung zu benutzen. In der LE04 in Programmieren I gibt es einen Link zu einem Java-Tutorial, wo dies gut erklärt ist:
+http://docs.oracle.com/javase/tutorial/deployment/jar/index.html
+Mehr wird im Modul Software Entwicklung kommen.
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

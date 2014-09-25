@@ -1,0 +1,8 @@
+ID: 166589
+CREATION_DATETIME: 1349284603
+MODIFICATION_DATETIME: 1349284747
+TITLE: Re: Heutiges Online-Meeting
+PARENT_POSTING_ID: 166463
+CONTENT:
+Das hat er bei der Einführungsveranstaltung gesagt... Er meinte da Feiertag ist begnnen wir erst nächste Woche mit dem online Meeting. Das trotz Feiertag ein Meeting stattfindet ist richtig allerdings nicht hier sondern bei programmieren I. Das ist jedenfalls mein Informationsstand
+TAGGED_CONTENT:

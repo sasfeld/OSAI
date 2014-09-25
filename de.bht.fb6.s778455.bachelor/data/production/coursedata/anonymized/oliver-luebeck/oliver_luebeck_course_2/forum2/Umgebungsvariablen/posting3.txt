@@ -1,0 +1,26 @@
+ID: 7
+CREATION_DATETIME: 1175879220000
+MODIFICATION_DATETIME: 1175879220000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 6
+CONTENT:
+
+Die Variable CLASSPATH enthält die Wege zum Verzeichnissen, in denen java nach Klassen sucht. Wenn Sie mehrere Wege benötigen, verbinden Sie sie mit ';'. Dabei bedeutet '.' das aktuelle Verzeichnis. Meine CLASSPATH Variable sieht so aus:
+
+c:\ProgramFiles\junit3.8.2\junit3.8.2\junit.jar;.;D:\Klassen;D:\Agathe;C:\Program Files\jdom-1.1\build\jdom.jar
+
+Wie Sie sehen, vfh/prog1/bib/clockman ist nicht in der CLASSATH Variable dabei (weil nur für UebClokman wichtig).
+
+
+Ich habe vfh direkt in D gespeichert. Ich compiliere UebClockman.java mit:
+
+javac -cp .;D:\ UebClockman.java
+
+und führe aus mit:
+
+java -cp .;D:\ UebClockman
+
+Hilft es Ihnen weiter?
+    
+TAGGED_CONTENT:

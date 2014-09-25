@@ -1,0 +1,11 @@
+ID: 976
+CREATION_DATETIME: 1355698800000
+MODIFICATION_DATETIME: 1355698800000
+TITLE: Die Folien liegen auf dem Server des FSR. Ich habe sie informiert.
+Grüße
+PARENT_POSTING_ID: 975
+POSTING_TYPE: answer
+CONTENT:
+Die Folien liegen auf dem Server des FSR. Ich habe sie informiert.
+Grüße
+TAGGED_CONTENT:

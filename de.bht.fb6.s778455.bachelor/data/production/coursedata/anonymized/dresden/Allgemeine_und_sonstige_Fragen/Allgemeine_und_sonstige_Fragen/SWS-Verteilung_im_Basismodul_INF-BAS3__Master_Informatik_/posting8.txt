@@ -1,0 +1,9 @@
+ID: 736
+CREATION_DATETIME: 1352674800000
+MODIFICATION_DATETIME: 1352674800000
+TITLE: Laut FSR Rücksprache mit Sascha, sollte dort Übung stehen und nicht Seminar, da das Hauptseminar ande...
+PARENT_POSTING_ID: 728
+POSTING_TYPE: comment
+CONTENT:
+Laut Rücksprache mit <REMOVED_PERSON_ENTITY> aus dem FSR, sollte dort Übung stehen und nicht Seminar, <NAME_CORPUS_REPLACEMENT> das Hauptseminar anders angerechnet wird. Also ist es wie in den anderen Modulen korrekt wenn z. B. 2x 2/2/0 genommen wird, also V+Ü. (Antwort entsprechend korrigiert...)
+TAGGED_CONTENT:

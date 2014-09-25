@@ -1,0 +1,10 @@
+ID: 182665
+CREATION_DATETIME: 1353669439
+MODIFICATION_DATETIME: 1353669439
+TITLE: Präsenzveranstaltung - Mitschrift
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+da ich krank zu <REMOVED_PERSON_ENTITY> bleiben muss, habe ich auch für diese Präsenzveranstaltung eine große Bitte an Euch. Kann mir einer nach der Präsenzveranstaltung seine Mitschrift zur Verfügung stellen? Wäre klasse!
+Vielen Dank und schöne GrüßeStefan
+TAGGED_CONTENT:

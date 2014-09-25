@@ -1,0 +1,12 @@
+ID: 723
+CREATION_DATETIME: 1352502000000
+MODIFICATION_DATETIME: 1352847600000
+TITLE: Jetzt kann natürlich auch noch ein Fehler bei mir liegen, aber  je nachdem wie ich es mache, kommen a...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 721
+POSTING_TYPE: comment
+CONTENT:
+Jetzt kann natürlich auch noch ein Fehler bei mir liegen, aber  je nachdem wie ich es mache, kommen andere Zahlen raus.
+
+Also noch mal zum Verständnis: Die <REMOVED_PERSON_ENTITY> der Knoten ist einfach die <REMOVED_PERSON_ENTITY> der Knoten die ich erzeuge (z. B. in meinem Startzustand oben halt als ersten Durchlauf 3) und die <REMOVED_PERSON_ENTITY> des Expansionen ist die Anzahl der "Zugriffe" auf eine Note um diese aufzuspalten bzw. neue Nodes ausgehend <NAME_CORPUS_REPLACEMENT> dieser zu erzeugen?
+TAGGED_CONTENT:

@@ -1,0 +1,39 @@
+ID: 3021
+CREATION_DATETIME: 1385420400000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: `man sqrt` sagt: `#include <math.h>`.
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Compiler;weight:2.0;significance:11.6099372265658;degreegeneralization:9;uri:20195178
+TOPIC_ZOOM_TAG: value:Technische Informatik;weight:2.0;significance:10.3106542424356;degreegeneralization:5;uri:20889033
+TOPIC_ZOOM_TAG: value:Programmiersprachen;weight:2.0;significance:7.85651925131431;degreegeneralization:8;uri:20901749
+TOPIC_ZOOM_TAG: value:Programmierung;weight:2.0;significance:7.16337207075436;degreegeneralization:7;uri:21461440
+TOPIC_ZOOM_TAG: value:Formale Sprachen;weight:2.0;significance:7.03179571296564;degreegeneralization:6;uri:21978155
+TOPIC_ZOOM_TAG: value:Computersprachen;weight:2.0;significance:7.02837690621686;degreegeneralization:6;uri:19949137
+TOPIC_ZOOM_TAG: value:Software;weight:2.0;significance:5.21023364446695;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:2.0;significance:5.02422544755277;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Sprache;weight:2.0;significance:5.00870710783694;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:2.0;significance:5.00780172072213;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:2.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Computer;weight:2.0;significance:4.31013985980766;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:2.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:2.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:2.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Compiler;weight:0.0;uri:;postag:NN
+POS_TAG: value:Header;weight:0.0;uri:;postag:NN
+POS_TAG: value:File;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehlermeldungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Reihenfolge;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 3020
+POSTING_TYPE: answer
+CONTENT:
+`man sqrt` sagt: `#include `.
+
+Wenn du das `#include ` in einen Header schreibst, `#include`-est du dann auch deinen Header?
+
+Oder sagt der Compiler spezifisch "math. h not found?". Komplette Fehlermeldungen wären natürlich nicht schlecht - meine <REMOVED_PERSON_ENTITY> ist heute morgen etwas frostbedeckt.
+
+Sagt der Compiler (eigentlich der <REMOVED_PERSON_ENTITY>) aber: `undefined reference to 'sqrt'` dann musst du dein `-lm` nach deiner C-File schreiben. Die Reihenfolge ist *nicht* egal.
+TAGGED_CONTENT:
+`_XY man_PIS sqrt_VVFIN `_ADV sagt_VVFIN :_$. `_CARD #include_ADJA `_NN ._$. Wenn_KOUS du_PPER das_ART `_ADJA #include_ADJA `_NN in_APPR einen_ART Header_NN schreibst_VVFIN ,_$, `_VVFIN #include_ADJA `_NN -_$( est_VAFIN du_PPER dann_ADV auch_ADV deinen_ADJA Header_NN ?_$. Oder_KON sagt_VVFIN der_ART Compiler_NN spezifisch_ADJD "_$( math_ADJD ._$. h_FM not_ADJD found_ADJD ?_$. "_$( ._$. Komplette_ADJA Fehlermeldungen_NN wären_VAFIN natürlich_ADV nicht_PTKNEG schlecht_ADJD -_$( meine_PPOSAT <_NN REMOVED_PERSON_ENTITY_NE >_NE ist_VAFIN heute_ADV morgen_ADV etwas_PIS frostbedeckt_VVFIN ._$. Sagt_VVFIN der_ART Compiler_NN -LRB-_TRUNC eigentlich_ADV der_ART <_NN REMOVED_PERSON_ENTITY_NE >_NE -RRB-_TRUNC aber_KON :_$. `_ADJD undefined_ADJD reference_FM to_FM '_$( sqrt_ADJD '_$( `_XY dann_ADV musst_VVFIN du_PPER dein_PPOSAT `_NN -_$( lm_NE `_NE nach_APPR deiner_PPOSAT C-File_NN schreiben_VVINF ._$. Die_ART Reihenfolge_NN ist_VAFIN \*_ADV nicht_PTKNEG \*_ADJD egal_ADV ._$. 

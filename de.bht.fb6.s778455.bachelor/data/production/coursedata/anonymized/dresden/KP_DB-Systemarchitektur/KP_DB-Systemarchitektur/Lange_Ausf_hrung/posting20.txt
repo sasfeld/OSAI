@@ -1,0 +1,11 @@
+ID: 2256
+CREATION_DATETIME: 1373925600000
+MODIFICATION_DATETIME: 1373925600000
+TITLE: predictTime frisst ja auch nicht die Zeit, sondern das flushResults().
+Aber dann scheint's wohl gene...
+PARENT_POSTING_ID: 2251
+POSTING_TYPE: comment
+CONTENT:
+predictTime frisst ja auch nicht die Zeit, sondern das flushResults().
+Aber dann scheint's wohl generell nicht am predictTime zu liegen, sondern daran, dass die zu rechnende Menge einfach sehr groß ist.
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 1925
+CREATION_DATETIME: 1370383200000
+MODIFICATION_DATETIME: 1370383200000
+TITLE: Okay, die Makefiles sind angepasst. Jetzt wird bei make eine dynamische und eine statische Lib gebaut...
+PARENT_POSTING_ID: 1920
+POSTING_TYPE: comment
+CONTENT:
+Okay, die Makefiles sind angepasst. Jetzt wird bei make eine dynamische und eine statische Lib gebaut (und beim testCLT eine, die mit der statischen und eine, die mit der dynamischen linkt). Man kann jetzt "make" in testCLT machen, während man an der Core-Bibliothek arbeitet und alles wird brav mitkompiliert.
+Wie soll ich jetzt mit compileandrun. <LEARNED_PERSON_NAME_REPLACEMENT> verfahren?
+TAGGED_CONTENT:

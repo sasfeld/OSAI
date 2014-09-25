@@ -1,0 +1,11 @@
+ID: 97793
+CREATION_DATETIME: 1287602278
+MODIFICATION_DATETIME: 1287602278
+TITLE: Erratum: Inverse von x^2
+PARENT_POSTING_ID: 0
+CONTENT:
+Bei der Bildung von f^-1(x) mit f(x) = x^2 haette ich einige Punkte mehr berechnen sollen. Dann ergibt sich (selbstverstaendlich) die Umkehrfunktion von x^2 als sqrt(x) (Quadratwurzel).
+Der Logarithmus, z. B. lb(x) hat als Umkehrfunktion 2^x.
+Es gibt einen sehr guten Zugang zu Mathematik-Software zum Evaluieren von Funktionen auf http://www.wolframalpha.com/.
+Es ist eine <REMOVED_PERSON_ENTITY>- und Deduktions-Maschine fuer mathematisch-naturwissenschaftliche Inhalte.
+TAGGED_CONTENT:

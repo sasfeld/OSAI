@@ -1,0 +1,11 @@
+ID: 27
+CREATION_DATETIME: 1287237480000
+MODIFICATION_DATETIME: 1287237480000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Ich habe mal eine Frage zur Klasse KreisErw und zwar wird immer im Konstruktor die Instanzvariable mit this aufgerufen. Warum hier nicht?
+ 	
+TAGGED_CONTENT:

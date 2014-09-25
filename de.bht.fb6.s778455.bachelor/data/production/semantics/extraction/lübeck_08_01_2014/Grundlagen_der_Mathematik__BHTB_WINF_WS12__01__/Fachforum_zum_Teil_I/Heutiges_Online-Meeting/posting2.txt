@@ -1,0 +1,10 @@
+ID: 166535
+CREATION_DATETIME: 1349276542
+MODIFICATION_DATETIME: 1349276542
+TITLE: Re: Heutiges Online-Meeting
+PARENT_POSTING_ID: 166463
+CONTENT:
+Hallo,
+ich habe Herrn <REMOVED_PERSON_ENTITY> darauf hin gewiesen aber keine Antwort bekommen. Ich wäre auch für eine <REMOVED_PERSON_ENTITY> des heutigen <REMOVED_PERSON_ENTITY>. Hat jemand schon eine Antwort bekommen?
+Viele Grüße <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

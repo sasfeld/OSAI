@@ -1,0 +1,10 @@
+ID: 1754
+CREATION_DATETIME: 1366754400000
+MODIFICATION_DATETIME: 1373148000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+In der Aufgabe wird betont, dass der Konstruktor lediglich aus zwei Parametern bestehen soll. Kann dementsprechend nicht, wenn ich eine neue Klasse "<REMOVED_PERSON_ENTITY>" im Package "zeichenobjekte" erstelle, <NAME_CORPUS_REPLACEMENT> ZeichenObjekt erben, <NAME_CORPUS_REPLACEMENT> dann andere Parameter(Farbe, etc) mit übernommen werden müssen. Allerdings sehe ich so meinen Konstruktor nicht in der Auswahlliste, wenn ich die Applikation starte...
+TAGGED_CONTENT:

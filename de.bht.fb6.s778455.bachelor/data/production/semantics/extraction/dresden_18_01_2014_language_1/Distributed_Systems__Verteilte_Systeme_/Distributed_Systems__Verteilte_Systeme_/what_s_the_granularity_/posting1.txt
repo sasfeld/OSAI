@@ -1,0 +1,10 @@
+ID: 725
+CREATION_DATETIME: 1352502000000
+MODIFICATION_DATETIME: 1382133600000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+in the comparison of client/server model and distributed object-oriented model, there is an granularity. What's the meaning of granularity?
+TAGGED_CONTENT:

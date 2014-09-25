@@ -1,0 +1,10 @@
+ID: 1578
+CREATION_DATETIME: 1363993200000
+MODIFICATION_DATETIME: 1363993200000
+TITLE: Wie du gesagt hast: "nur eine kleine SSL-Konfigurationsschwäche" ;)
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1575
+POSTING_TYPE: comment
+CONTENT:
+Wie du gesagt hast: "nur eine kleine SSL-Konfigurationsschwäche" ;)
+TAGGED_CONTENT:

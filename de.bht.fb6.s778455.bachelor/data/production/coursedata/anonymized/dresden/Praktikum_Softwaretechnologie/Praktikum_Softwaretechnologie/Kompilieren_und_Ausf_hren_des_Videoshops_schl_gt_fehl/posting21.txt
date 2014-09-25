@@ -1,0 +1,10 @@
+ID: 2684
+CREATION_DATETIME: 1383260400000
+MODIFICATION_DATETIME: 1383260400000
+TITLE: Es tut mir sehr leid, das sagen zu müssen, aber ich habe keine Ahnung, was ich noch machen soll, um d...
+PARENT_POSTING_ID: 2662
+POSTING_TYPE: comment
+CONTENT:
+Es tut mir sehr leid, das sagen zu müssen, aber ich habe keine Ahnung, was ich noch machen soll, um den Videoshop zum Laufen zu kriegen.
+Ich habe alles versucht, was hier vorgeschlagen wurde, allerdings hat nichts geholfen, weder der Neuimport des Projekts noch das Ignorieren der Warnung noch das Ausknipsen der @valid-Annotation.
+TAGGED_CONTENT:

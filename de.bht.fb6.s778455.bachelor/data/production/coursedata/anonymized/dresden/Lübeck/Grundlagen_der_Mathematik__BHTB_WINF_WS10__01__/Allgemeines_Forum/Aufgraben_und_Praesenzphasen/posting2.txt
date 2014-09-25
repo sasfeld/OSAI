@@ -1,0 +1,21 @@
+ID: 101861
+CREATION_DATETIME: 1287224336
+MODIFICATION_DATETIME: 1287224336
+TITLE: Re: Aufgraben und Praesenzphasen
+PARENT_POSTING_ID: 101860
+CONTENT:
+Hausaufgaben gibt es nicht, wir arbeiten in <REMOVED_PERSON_ENTITY> nur die Aufgabe aus den Online Materialien durch.
+Als Themen kamen dran :
+- Logaritmen
+- <REMOVED_PERSON_ENTITY>
+- <REMOVED_PERSON_ENTITY>
+- <REMOVED_PERSON_ENTITY> von Gleichungen und <REMOVED_PERSON_ENTITY>
+- Trigonometrische Funktionen
+Eventuell kann ich dir eine Abschrift schicken, leider in schlechter Handschrift, vlt hat da jemand ja etwas besseres.
+Die Termine findet du unter 
+Fachbereichskurs (TFHB WINF) > Präsenzwochenenden.
+oder als direkt link
+$@COURSEVIEWBYID*1350@$
+Mfg
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

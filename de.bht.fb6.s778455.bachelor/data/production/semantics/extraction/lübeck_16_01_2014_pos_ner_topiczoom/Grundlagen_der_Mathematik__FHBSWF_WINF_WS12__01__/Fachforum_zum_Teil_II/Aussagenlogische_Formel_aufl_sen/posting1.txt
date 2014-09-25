@@ -1,0 +1,25 @@
+ID: 178349
+CREATION_DATETIME: 1352230649
+MODIFICATION_DATETIME: 1352230649
+TITLE: Aussagenlogische Formel auflösen
+POS_TAG: value:Negationen;weight:0.0;uri:;postag:NN
+POS_TAG: value:A;weight:0.0;uri:;postag:NN
+POS_TAG: value:B;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Formel;weight:0.0;uri:;postag:NN
+POS_TAG: value:C;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Implikationen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+<REMOVED_PERSON_ENTITY> mir jemand von euch eventuell mal kurz erklären wie ich folgende Aussagenlogische Formel vereinfachen kann, so dass man erkennt, dass die Formel eine nicht erfüllbare Lösung beinhaltet?
+NICHT((A-&gt;B) UND A-&gt;B) UND C
+Irgendwie stehe ich auf den <REMOVED_PERSON_ENTITY> und weiß nicht genau wie ich hier heran gehen soll. Klar man kann die Negationen und die Implikationen auflösen aber wie geht es denn weiter.
+Eventuell kann mir jemand von euch die Aufgabe einmal vorrechen.
+Schon einmal besten Dank!
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, <_KON REMOVED_PERSON_ENTITY_NE >_VVFIN mir_PPER jemand_PIS von_APPR euch_PRF eventuell_ADJD mal_ADV kurz_ADJD erklären_VVINF wie_KOKOM ich_PPER folgende_ADJA Aussagenlogische_ADJA Formel_NN vereinfachen_VVINF kann_VMFIN ,_$, so_ADV dass_KOUS man_PIS erkennt_VVFIN ,_$, dass_KOUS die_ART Formel_NN eine_ART nicht_PTKNEG erfüllbare_ADJA Lösung_NN beinhaltet_VVFIN ?_$. NICHT_NE -LRB-_TRUNC -LRB-_TRUNC A_NN -_$( >_CARD B_NN -RRB-_TRUNC UND_KON A_NN -_$( >_CARD B_NN -RRB-_TRUNC UND_KON C_NN Irgendwie_ADV stehe_VVFIN ich_PPER auf_APPR den_ART <_NN REMOVED_PERSON_ENTITY_NE >_NE und_KON weiß_VVFIN nicht_PTKNEG genau_ADJD wie_KOKOM ich_PPER hier_ADV heran_PTKVZ gehen_VVINF soll_VMFIN ._$. Klar_ADJD man_PIS kann_VMFIN die_ART Negationen_NN und_KON die_ART Implikationen_NN auflösen_VVINF aber_ADV wie_KOKOM geht_VVFIN es_PPER denn_ADV weiter_PTKVZ ._$. Eventuell_ADJD kann_VMFIN mir_PPER jemand_PIS von_APPR euch_PRF die_ART Aufgabe_NN einmal_ADV vorrechen_VVINF ._$. Schon_ADV einmal_ADV besten_ADJA Dank_NN !_$. Gruß_NE <_NE PERSONAL_GREETING_REMOVEMENT_NE >_XY 

@@ -1,0 +1,19 @@
+ID: 24
+CREATION_DATETIME: 1286979420000
+MODIFICATION_DATETIME: 1286979420000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+in der Aufgabenbeschreibung steht was von
+
+/** This method parses the two parameters as numbers, calculates
+* and returns the sum, substraction, product, division and modulo
+* exactly in this order.
+
+was ist mit modulo gemeint?
+
+Kann mir jemand helfen?
+  
+TAGGED_CONTENT:

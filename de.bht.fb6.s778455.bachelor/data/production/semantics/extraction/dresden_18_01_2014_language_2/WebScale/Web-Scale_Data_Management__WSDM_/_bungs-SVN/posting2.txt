@@ -1,0 +1,10 @@
+ID: 622
+CREATION_DATETIME: 1351638000000
+MODIFICATION_DATETIME: 1351724400000
+TITLE: In der Präsentation dazu steht drin, man solle python -m setup_db.py aufrufen. Bei mir musste ich das...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 606
+POSTING_TYPE: comment
+CONTENT:
+In der Präsentation dazu steht drin, man solle `python -m setup_db. py` aufrufen. Bei mir musste ich das `. py` weglassen, damit es funktioniert. Nur falls jemand das gleiche Problem hat... kenne mich mit python noch nicht so besonders aus.
+TAGGED_CONTENT:

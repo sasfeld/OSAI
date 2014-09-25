@@ -1,0 +1,9 @@
+ID: 153
+CREATION_DATETIME: 1348351200000
+MODIFICATION_DATETIME: 1348351200000
+TITLE: Nach kurzem Testen sp
+PARENT_POSTING_ID: 152
+POSTING_TYPE: answer
+CONTENT:
+Nach kurzem Testen spielst du schon ganz gut, mir sind fast keine ungueltigen Zuege aufgefallen (1 in 2000 Versuchen, der hier: W:---------W---W--bb---B--Bb------). Ansonsten ist der Code gut lesbar, <NAME_CORPUS_REPLACEMENT> meiner Abneigung zu dt. Variablennamen mal abgesehen :-) Wenn ich auf hohem Niveau meckern muesste, dann wuerde ich vllt. die globalen Variablen noch versuchen loszuwerden, im Allgemeinen sind sie nicht so guenstig, insbesondere falls du in den naechsten Tagen mit einer staerkeren Spielstrategie anfangen moechtest.
+TAGGED_CONTENT:

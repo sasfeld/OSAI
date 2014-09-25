@@ -1,0 +1,14 @@
+ID: 742
+CREATION_DATETIME: 1352674800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Hallo,
+
+der Treffpunkt morgen ist der Raum E042 - <NAME_CORPUS_REPLACEMENT> die Information etwas kurzfristig kommt, werde ich mich morgen im Foyer nach euch umschauen.
+
+Gruß <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

@@ -1,0 +1,63 @@
+ID: 66
+CREATION_DATETIME: 1200926820000
+MODIFICATION_DATETIME: 1200926820000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo,
+
+1-)Wenn ich für die Serialisierung eine eindeutige Kennung festlegen möchte (für das Deserialisieren von Objekten), lege ich das selber fest oder macht das Eclipse?
+
+2-) Seite 11: "Aus Gründen der Sicherheit werden zur Serialisierung nur Objekte von Klassen zugelassen, die das Interface Serializable implementieren. "
+Was ist denn mit Sicherheit gemeint?
+
+3-) Eingangs in der LE2 wurde ein komplettes Bsp vom Einlesen eines Textes aus der Tastatur bishin zum Speichern in einer Datei und wiederum Auslesen dieser
+Datei vorgestellt.
+Dabei wurde das Speichern in eine Datei folgendermaßen dargestellt:
+
+a- Anlegen einer Datei:
+String pfad = "NeueDatei.txt";
+datei = new File (pfad);
+datei.createNewFile();
+
+b- Schreiben der Daten in die Datei:
+bw= new BufferedWriter(new FileWriter(datei);
+bw.write(text);
+bw.flush();
+bw.close();
+
+
+Auf Seite 13 wird das Schreiben in eine Datei folgendermaßen erläutert:
+
+040 public static void testeCharacterAusgabeStrom(String dateiName,
+041 String[] textA) throws IOException {
+042 // Eine Datei und drei Ausgabestroeme erzeugen und miteinander
+043 // verbinden
+044 FileOutputStream foStream = new FileOutputStream(dateiName);
+045 OutputStreamWriter osWriter = new OutputStreamWriter(foStream);
+046 BufferedWriter bWriter = new BufferedWriter(osWriter);
+
+
+Ist das also eine alternative Möglichkeit um Daten in eine Datei zu speichern?
+
+
+
+4-) Seite 18, DateiKopieren.java:
+020 public static void main(String[] args) throws IOException {
+021 // Uebergabeparameter pruefen
+022 if (args.length != 2) {
+023 System.out.println("\nAufruf des Programms:\n"
+024 + "java DateiKopieren datei_1 datei_2");
+025 System.out.println("\ndatei_1: Datei aus der gelesen wird.");
+026 System.out.println("datei_2: Datei in die geschrieben wird.");
+027 System.exit(1);
+028 }
+
+Warum ist die Zeile 22, also "if (args.length != 2)" überhaupt nötig?
+
+
+MfG
+  
+TAGGED_CONTENT:

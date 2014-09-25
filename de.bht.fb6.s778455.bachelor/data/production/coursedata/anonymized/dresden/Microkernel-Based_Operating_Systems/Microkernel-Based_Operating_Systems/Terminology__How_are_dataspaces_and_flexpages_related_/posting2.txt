@@ -1,0 +1,11 @@
+ID: 1418
+CREATION_DATETIME: 1362783600000
+MODIFICATION_DATETIME: 1362783600000
+TITLE: *Dataspaces* are the user-level abstraction that represent a region of memory. A dataspace determines...
+PARENT_POSTING_ID: 1413
+POSTING_TYPE: answer
+CONTENT:
+*Dataspaces* are the user-level abstraction that represent a region of memory. A dataspace determines how large this region is (arbitrary multiples of the HW page size are possible) and where the actual data in this region comes from. This knowledge is implemented in a *dataspace manager*.
+*Flexpages* are the kernel-level data type that is used for memory mappings. Flexpages describe a region in memory (sizes are a power of 2 pages). Flexpages do not contain information on where data comes from. They are <NAME_CORPUS_REPLACEMENT> used to express memory-related operations to the kernel.
+So yes, the two are related. However, the Fiasco kernel only knows about flexpages and you could build your own userland on top that does not use dataspaces at all. On the other hand, the L4Re userland's dataspace managers use flexpages to actually implement dataspaces.
+TAGGED_CONTENT:

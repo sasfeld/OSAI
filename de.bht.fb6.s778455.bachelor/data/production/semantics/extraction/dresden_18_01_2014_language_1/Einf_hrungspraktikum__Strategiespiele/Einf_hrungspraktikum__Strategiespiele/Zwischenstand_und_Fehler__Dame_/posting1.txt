@@ -1,0 +1,18 @@
+ID: 138
+CREATION_DATETIME: 1348264800000
+MODIFICATION_DATETIME: 1372716000000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Bei diesem Code kommt: "276:82: Fehler: ungültige Umwandlung <NAME_CORPUS_REPLACEMENT> »int« in »char*« [-fpermissive]"
+```c
+  char bufferZuege[BUFFERSIZE];
+  int sprung = sprungDame(feld);
+  char* zug;
+zug = sprintf(bufferZuege, "x%d%s", sprung, dameSprungfolge(sprung, tiefe +1));
+```
+Der Fehler tritt auch noch an anderen Stellen auf. Prinzipiell möchte ich es aber schon gerne so machen.
+-- Quelltext entfernt (<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

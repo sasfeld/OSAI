@@ -1,0 +1,10 @@
+ID: 1678
+CREATION_DATETIME: 1365285600000
+MODIFICATION_DATETIME: 1366149600000
+TITLE: Die Prüfung für die Studiengänge Bachelor/Master Informatik/Medieninformatik sowie Diplom Informatik ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1677
+POSTING_TYPE: answer
+CONTENT:
+Die Prüfung für die Studiengänge Bachelor/Master Informatik/Medieninformatik sowie Diplom Informatik sind mündlich und können auf deutsch oder englisch abgelegt werden.
+TAGGED_CONTENT:

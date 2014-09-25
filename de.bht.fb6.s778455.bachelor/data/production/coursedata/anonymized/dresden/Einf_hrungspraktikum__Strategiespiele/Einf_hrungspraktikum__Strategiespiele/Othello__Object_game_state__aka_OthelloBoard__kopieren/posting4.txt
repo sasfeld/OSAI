@@ -1,0 +1,9 @@
+ID: 1485
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Falls es Dir an C++-Kenntnissen mangelt, schau mal hier: http://www.cplusplus.com/articles/y8hv0pDG/
+PARENT_POSTING_ID: 1483
+POSTING_TYPE: comment
+CONTENT:
+Falls es Dir an C++-Kenntnissen mangelt, schau mal hier: http://www.cplusplus.com/articles/y8hv0pDG/
+TAGGED_CONTENT:

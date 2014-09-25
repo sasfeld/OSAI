@@ -1,0 +1,54 @@
+ID: 185647
+CREATION_DATETIME: 1354781631
+MODIFICATION_DATETIME: 1354781631
+TITLE: Re: Aufgabe 2b)
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Mathematik;weight:11.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Algebraische Begriffe;weight:6.0;significance:6.93193609921849;degreegeneralization:7;uri:20767840
+TOPIC_ZOOM_TAG: value:Vektorräume;weight:6.0;significance:6.93193609921849;degreegeneralization:8;uri:20146881
+TOPIC_ZOOM_TAG: value:Lineare Algebra;weight:6.0;significance:6.93193609921849;degreegeneralization:7;uri:20881366
+TOPIC_ZOOM_TAG: value:Algebra;weight:6.0;significance:6.93193609921849;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Vektoren;weight:5.0;significance:5.77661341601541;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:11.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:11.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:11.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:11.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+NER_TAG: value:UVR;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:UVR;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:UVR;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:UVR;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:UVR;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:UVR;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:dinge;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektorraum;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabenstellung;weight:0.0;uri:;postag:NN
+POS_TAG: value:m;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektorraums;weight:0.0;uri:;postag:NN
+POS_TAG: value:Untervektorraum;weight:0.0;uri:;postag:NN
+POS_TAG: value:idee;weight:0.0;uri:;postag:NN
+POS_TAG: value:Letztendlich;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abgeschlossenheit;weight:0.0;uri:;postag:NN
+POS_TAG: value:Eigenschaften;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mutliplikaktion;weight:0.0;uri:;postag:NN
+POS_TAG: value:fen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Linearkombination;weight:0.0;uri:;postag:NN
+POS_TAG: value:LK;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Multiplikation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Rechengesetzt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Addition;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 184543
+CONTENT:
+Hallo zusammen, ich habe mittlerweile aich schon diverse dinge ausprobiert und habe noch folgende idee. ich glaube auch, dass ich diese lösung wohl so abgeben werden...
+ 
+Letztendlich sind hier eine <REMOVED_PERSON_ENTITY> von Vektoren gegeben (v1, v2, v3, v4) die laut Aufgabenstellung einen Untervektorraum (W) des reellen Vektorraums (V) bilden, den wir bereits in der Aufgabenstellung a) kennen gelernt haben. Jetzt soll bewiesen werden wieso dieser Vektorraum W ein Untervektorraum des Vektorraum V ist.  Dafür musst der UVR auf Abgeschlossenheit bezüglich Addition und Multiplikation geprüft werden. Das Überprüfen der Rechengesetzt eines Vektorraums ist  nicht erforderlich, da diese Eigenschaften vom eigentlichen Vektorraum V geerbt werden.  Zuerst muss man sich die Frage stellen, wie der UVR in dieser Aufgabenstellung definiert ist. Sollten alle Vektoren die in W stehen einen UVR bilden, kann man mittels Addition und Multiplikation alle anderen Vektoren erreichen. Oder anders ausgedrückt mittels einen beliebigen LK (Linearkombination) der Vektoren die im Vektorraum W stehen, kann ich alle anderen Vektoren „erschaffen.“
+Mathematisch wurde das ungefähr folgendes bedeuten:
+a = m*v1+n*v2+o*v3+p*v4 b = q*v1+r*v2+s*v3+t*v4
+Jetzt nur noch zeigen, dass Mutliplikaktion und Addition abgeschlossen sind.
+Was besseres fällt mir nicht mehr ein.
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, ich_PPER habe_VAFIN mittlerweile_ADV aich_ADJD schon_ADV diverse_ADJA dinge_NN ausprobiert_VVPP und_KON habe_VAFIN noch_ADV folgende_ADJA idee_NN ._$. ich_PPER glaube_VVFIN auch_ADV ,_$, dass_KOUS ich_PPER diese_PDAT lösung_ADJD wohl_ADV so_ADV abgeben_VVINF werden_VAFIN ..._$( Letztendlich_NN sind_VAFIN hier_ADV eine_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD von_APPR Vektoren_NN gegeben_VVPP -LRB-_TRUNC v1_CARD ,_$, v2_CARD ,_$, v3_CARD ,_$, v4_CARD -RRB-_TRUNC die_ART laut_APPR Aufgabenstellung_NN einen_ART Untervektorraum_NN -LRB-_TRUNC W_XY -RRB-_TRUNC des_ART reellen_ADJA Vektorraums_NN -LRB-_TRUNC V_CARD -RRB-_TRUNC bilden_VVINF ,_$, den_PRELS wir_PPER bereits_ADV in_APPR der_ART Aufgabenstellung_NN a_ART -RRB-_TRUNC kennen_PTKVZ gelernt_VVPP haben_VAFIN ._$. Jetzt_ADV soll_VMFIN bewiesen_VVPP werden_VAINF wieso_PWAV dieser_PDAT Vektorraum_NN W_XY ein_ART Untervektorraum_NN des_ART Vektorraum_NN V_CARD ist_VAFIN ._$. Dafür_PROAV musst_VVFIN der_ART UVR_NE auf_APPR Abgeschlossenheit_NN bezüglich_APPR Addition_NN und_KON Multiplikation_NN geprüft_VVPP werden_VAINF ._$. Das_ART Überprüfen_NN der_ART Rechengesetzt_NN eines_ART Vektorraums_NN ist_VAFIN nicht_PTKNEG erforderlich_ADJD ,_$, da_ADV diese_PDAT Eigenschaften_NN vom_APPRART eigentlichen_ADJA Vektorraum_NN V_CARD geerbt_VVPP werden_VAINF ._$. Zuerst_ADV muss_VMFIN man_PIS sich_PRF die_ART Frage_NN stellen_VVINF ,_$, wie_PWAV der_ART UVR_NE in_APPR dieser_PDAT Aufgabenstellung_NN definiert_VVPP ist_VAFIN ._$. Sollten_VMFIN alle_PIDAT Vektoren_NN die_ART in_APPR W_XY stehen_VVFIN einen_ART UVR_NE bilden_VVFIN ,_$, kann_VMFIN man_PIS mittels_APPR Addition_NN und_KON Multiplikation_NN alle_PIDAT anderen_ADJA Vektoren_NN erreichen_VVINF ._$. Oder_KON anders_ADV ausgedrückt_VVPP mittels_APPR einen_ART beliebigen_ADJA LK_NN -LRB-_TRUNC Linearkombination_NN -RRB-_TRUNC der_ART Vektoren_NN die_ART im_APPRART Vektorraum_NN W_XY stehen_VVINF ,_$, kann_VMFIN ich_PPER alle_PIDAT anderen_ADJA Vektoren_NN "_$( erschaffen_VVINF ._$. "_$( Mathematisch_ADJD wurde_VAFIN das_ART ungefähr_ADJD folgendes_ADJA bedeuten_VVINF :_$. a_XY =_XY m_NN \*_CARD v1_CARD +_XY n_XY \*_CARD v2_XY +_KON o_ADV \*_CARD v3_CARD +_XY p_XY \*_CARD v4_CARD b_XY =_XY q_XY \*_CARD v1_CARD +_XY r_XY \*_CARD v2_XY +_XY s_PPER \*_ADJD v3_CARD +_XY t_XY \*_CARD v4_CARD Jetzt_ADV nur_ADV noch_ADV zeigen_VVINF ,_$, dass_KOUS Mutliplikaktion_NN und_KON Addition_NN abgeschlossen_VVPP sind_VAFIN ._$. Was_PWS besseres_ADJA fällt_VVFIN mir_PPER nicht_PTKNEG mehr_ADV ein_PTKVZ ._$. Gruß_NE <_NE PERSONAL_GREETING_REMOVEMENT_NE >_XY 

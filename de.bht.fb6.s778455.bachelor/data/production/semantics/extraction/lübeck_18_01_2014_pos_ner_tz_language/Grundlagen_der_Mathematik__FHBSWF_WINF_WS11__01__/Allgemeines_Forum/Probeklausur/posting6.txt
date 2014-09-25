@@ -1,0 +1,19 @@
+ID: 117559
+CREATION_DATETIME: 1327328173
+MODIFICATION_DATETIME: 1327328504
+TITLE: Re: Probeklausur
+LANGUAGE: UNKNOWN
+POS_TAG: value:Formatierung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Variable;weight:0.0;uri:;postag:NN
+POS_TAG: value:Form;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungsansatzUnterstriche;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gleichung;weight:0.0;uri:;postag:NN
+POS_TAG: value:RtUm;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zahl;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gleichungssysteme;weight:0.0;uri:;postag:NN
+POS_TAG: value:sungen;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117557
+CONTENT:
+ LösungsansatzUnterstriche ignorieren (Formatierung)Nachdem du so eine Form hast (unendlich viele Lösungen)y_z_x1 -4 1 | -20 -6 3 | -30 _0 0 |_0Hast du 3 Gleichungssysteme:y - 4z + x = -2-6z + 3x = -30x = 0Für x kannste jede Zahl verwenden also eine freie Variable. x = tUm z herauszufinden muss du x in die 2. Gleichung einsetzen. z = R * RtUm x herauszufinden muss du x und z in die 1. Gleichung einsetzen. y = R * Rt 
+TAGGED_CONTENT:
+LösungsansatzUnterstriche_NN ignorieren_VVFIN -LRB-_TRUNC Formatierung_NN -RRB-_TRUNC Nachdem_KOUS du_PPER so_ADV eine_ART Form_NN hast_VAFIN -LRB-_TRUNC unendlich_ADJD viele_PIDAT Lösungen_NN -RRB-_TRUNC y_z_x1_XY -4_CARD 1_CARD |_CARD -20_CARD -6_CARD 3_CARD |_CARD -30_CARD __CARD 0_CARD 0_CARD |_CARD __CARD 0Hast_CARD du_PPER 3_CARD Gleichungssysteme_NN :_$. y_NE -_$( 4z_CARD +_XY x_XY =_XY -2_CARD -6_CARD z_XY +_XY 3x_XY =_XY -30_CARD x_XY =_XY 0Für_XY x_XY kannste_VMFIN jede_PIDAT Zahl_NN verwenden_VVINF also_ADV eine_ART freie_ADJA Variable_NN ._$. x_XY =_XY tUm_FM z_FM herauszufinden_VVIZU muss_VMFIN du_PPER x_XY in_APPR die_ART 2_CARD ._$. Gleichung_NN einsetzen_VVINF ._$. z_XY =_XY R_XY \*_CARD RtUm_NN x_XY herauszufinden_VVIZU muss_VMFIN du_PPER x_XY und_KON z_VVFIN in_APPR die_ART 1_CARD ._$. Gleichung_NN einsetzen_VVINF ._$. y_NE =_XY R_XY \*_CARD Rt_XY 

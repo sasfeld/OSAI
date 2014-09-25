@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="13669" moduleid="68503" modulename="forum" contextid="95822">
+  <forum id="13669">
+    <type>general</type>
+    <name>Allgemeines Forum</name>
+    <intro>Hier können Sie übergeordnete und organisatorische Fragen diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>2</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1185448275</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="43320">
+        <name>Welche Formelsammlung?</name>
+        <firstpost>116453</firstpost>
+        <userid>3783</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1324058605</timemodified>
+        <usermodified>3773</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="116453">
+            <parent>0</parent>
+            <userid>3783</userid>
+            <created>1324053504</created>
+            <modified>1324053504</modified>
+            <mailed>1</mailed>
+            <subject>Welche Formelsammlung?</subject>
+            <message>Hallo zusammen,&lt;br /&gt;&lt;br /&gt;welche Formelsammlung für Mathe könnt ihr empfehlen? Gibt es auch welche, wo schon die Gesetze der Aussagenlogik gleich mit drin sind?&lt;br /&gt;&lt;br /&gt;Vielen Dank für jeden Buchtipp! :-)&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="116454">
+            <parent>116453</parent>
+            <userid>3773</userid>
+            <created>1324058542</created>
+            <modified>1324058605</modified>
+            <mailed>1</mailed>
+            <subject>Re: Welche Formelsammlung?</subject>
+            <message> Hallo Thomas, &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;eine ältere Ausgabe dieses &lt;a href="http://www.amazon.de/Formeln-Tabellen-f%C3%BCr-die-Sekundarstufen/dp/3895172537/"&gt;Tafelwerkes&lt;/a&gt; habe ich in meinem Besitz und bin damit relativ zufrieden. Mario dürfte die verlinkte oder ähnlich aktuelle Ausgabe haben. &lt;br /&gt;Zumindest die Themen Boole'sche Algebra und Vektorrechnung - soweit bisher behandelt - sind weitestgehend enthalten (der Teil deutsch-&amp;gt;boolescher Ausdruck fehlt leider). Zum Rechnen mit Matrizen habe ich jetzt nichts gefunden. &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;In der Hoffnung, Dir zumindest ein wenig geholfen zu haben, verbleibe ich &lt;br /&gt;mit freundlichen Grüßen,&lt;br /&gt;Holger Deutschmann&lt;br /&gt; </message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+      <discussion id="43321">
+        <name>Onlinemeeting heute</name>
+        <firstpost>116455</firstpost>
+        <userid>3789</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1326903932</timemodified>
+        <usermodified>3807</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="116455">
+            <parent>0</parent>
+            <userid>3789</userid>
+            <created>1325664207</created>
+            <modified>1325664207</modified>
+            <mailed>1</mailed>
+            <subject>Onlinemeeting heute</subject>
+            <message>&lt;p&gt;Hallo Herr Mösner,&lt;/p&gt;
+&lt;p&gt;können wir das Onlinmeeting heute eine halbe Stunde später starten (20:30), da wir von 19:30-20:30 Onlinemeeting Programmierung haben?&lt;/p&gt;
+&lt;p&gt;Danke im voraus&lt;/p&gt;
+&lt;p&gt;Holger Lesch&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="116456">
+            <parent>116455</parent>
+            <userid>3795</userid>
+            <created>1326874893</created>
+            <modified>1326874893</modified>
+            <mailed>1</mailed>
+            <subject>Re: Onlinemeeting heute</subject>
+            <message>Hallo allerseits :-) 
+
+Ist heute eigentlich auch Mathematik online Konferenz? Ich hab in meinem Kalender seltsamerweise nur etwas für nächste Woche Mittwoch ...
+
+Danke!
+Diana Natanegara </message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="116457">
+            <parent>116456</parent>
+            <userid>3789</userid>
+            <created>1326887955</created>
+            <modified>1326887955</modified>
+            <mailed>1</mailed>
+            <subject>Re: Onlinemeeting heute</subject>
+            <message>&lt;p&gt;Hi Diana,&lt;/p&gt;
+&lt;p&gt;ich denke das erst nächste Woche wieder ist. Herr Moesner war diese und die letzte Woche nicht verfügbar.&lt;/p&gt;
+&lt;p&gt;Sollte jemand andere oder bessere Informationen haben dann her damit ;-)&lt;/p&gt;
+&lt;p&gt;Holger&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="116458">
+            <parent>116457</parent>
+            <userid>3795</userid>
+            <created>1326894250</created>
+            <modified>1326894250</modified>
+            <mailed>1</mailed>
+            <subject>Re: Onlinemeeting heute</subject>
+            <message>Okay, danke, dann bin ich ja beruhigt :-) </message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="116459">
+            <parent>116456</parent>
+            <userid>3807</userid>
+            <created>1326903932</created>
+            <modified>1326903932</modified>
+            <mailed>1</mailed>
+            <subject>Re: Onlinemeeting heute</subject>
+            <message>Hallo Diana,&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;also ich habe mir aufgeschrieben das erst am 25.01. wieder Mathe ist.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;LG Steffi&lt;/div&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="125008">
+        <userid>3817</userid>
+      </subscription>
+      <subscription id="125009">
+        <userid>3815</userid>
+      </subscription>
+      <subscription id="125010">
+        <userid>2647</userid>
+      </subscription>
+      <subscription id="125011">
+        <userid>3917</userid>
+      </subscription>
+      <subscription id="125012">
+        <userid>3933</userid>
+      </subscription>
+      <subscription id="125013">
+        <userid>3783</userid>
+      </subscription>
+      <subscription id="125014">
+        <userid>3885</userid>
+      </subscription>
+      <subscription id="125015">
+        <userid>3801</userid>
+      </subscription>
+      <subscription id="125016">
+        <userid>3773</userid>
+      </subscription>
+      <subscription id="125017">
+        <userid>3925</userid>
+      </subscription>
+      <subscription id="125018">
+        <userid>3931</userid>
+      </subscription>
+      <subscription id="125019">
+        <userid>3807</userid>
+      </subscription>
+      <subscription id="125020">
+        <userid>3809</userid>
+      </subscription>
+      <subscription id="125021">
+        <userid>3803</userid>
+      </subscription>
+      <subscription id="125022">
+        <userid>3781</userid>
+      </subscription>
+      <subscription id="125023">
+        <userid>3775</userid>
+      </subscription>
+      <subscription id="125024">
+        <userid>3789</userid>
+      </subscription>
+      <subscription id="125025">
+        <userid>3799</userid>
+      </subscription>
+      <subscription id="125026">
+        <userid>3869</userid>
+      </subscription>
+      <subscription id="125027">
+        <userid>3771</userid>
+      </subscription>
+      <subscription id="125028">
+        <userid>3881</userid>
+      </subscription>
+      <subscription id="125029">
+        <userid>3779</userid>
+      </subscription>
+      <subscription id="125030">
+        <userid>3941</userid>
+      </subscription>
+      <subscription id="125031">
+        <userid>3755</userid>
+      </subscription>
+      <subscription id="125032">
+        <userid>3935</userid>
+      </subscription>
+      <subscription id="125033">
+        <userid>3777</userid>
+      </subscription>
+      <subscription id="125034">
+        <userid>3795</userid>
+      </subscription>
+      <subscription id="125035">
+        <userid>3811</userid>
+      </subscription>
+      <subscription id="125036">
+        <userid>1905</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

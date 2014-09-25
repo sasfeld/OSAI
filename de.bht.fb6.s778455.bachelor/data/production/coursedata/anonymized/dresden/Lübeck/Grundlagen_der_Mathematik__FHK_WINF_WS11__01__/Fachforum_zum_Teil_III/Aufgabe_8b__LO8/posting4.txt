@@ -1,0 +1,11 @@
+ID: 115387
+CREATION_DATETIME: 1323610395
+MODIFICATION_DATETIME: 1323610395
+TITLE: Re: Aufgabe 8b, LO8
+PARENT_POSTING_ID: 115386
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+wenn der Vektor den Betrag wurzel(13) hat, dann muss ich ihn (den Vektor bzw. den Betrag) durch wurzel(13) teilen, um den Betrag von 1 zu erhalten. Dann mit 2 multiplizieren, um den Betrag von 2 zu erhalten....
+Viele Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

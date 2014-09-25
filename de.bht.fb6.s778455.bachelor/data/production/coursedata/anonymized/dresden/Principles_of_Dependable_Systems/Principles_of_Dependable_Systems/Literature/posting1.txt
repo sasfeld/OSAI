@@ -1,0 +1,17 @@
+ID: 360
+CREATION_DATETIME: 1350338400000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Papers related to the first two lectures:
+* Basic concepts and taxonomy of dependable and secure computing - Avizienis, A. et al.
+* Commercial Fault Tolerance: A Tale of Two Systems - <REMOVED_PERSON_ENTITY> and Spainhower
+Assumption Coverage:
+* [Failure Mode Assumptions and Assumption Coverage](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10. 1. 1. 56. 5363) - <REMOVED_PERSON_ENTITY>
+Distributed Systems Part:
+* [The Timed Asynchronous Distributed System Model](http://se.inf.tu-dresden. de/pubs/papers/FTCS1998. pdf)
+* [Perfect Failure Detection in Timed Asynchronous Systems](http://se.inf.tu-dresden. de/pubs/papers/TOC2003. pdf)
+* [Fail-Awareness: An Approach to Construct Fail-Safe Applications](http://se.inf.tu-dresden. de/pubs/papers/FTCS1997. pdf)
+TAGGED_CONTENT:

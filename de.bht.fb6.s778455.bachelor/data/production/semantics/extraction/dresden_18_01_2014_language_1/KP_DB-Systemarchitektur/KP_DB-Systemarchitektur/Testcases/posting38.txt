@@ -1,0 +1,14 @@
+ID: 1981
+CREATION_DATETIME: 1370642400000
+MODIFICATION_DATETIME: 1370642400000
+TITLE: Das compilieren funktioniert inzwischen. Jedoch kommt beim Starten der testCLT der fehler, dass die l...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Das compilieren funktioniert inzwischen. Jedoch kommt beim Starten der testCLT der fehler, dass die lib nicht gefunden wird. "
+
+./testCLT: error while loading shared libraries: libCLeverTrustee. so: cannot open shared object file: No such file or directory" 
+
+<REMOVED_PERSON_ENTITY> das sein dass <NAME_CORPUS_REPLACEMENT> noch ein Fehler im make ist?
+TAGGED_CONTENT:

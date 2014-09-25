@@ -1,0 +1,9 @@
+ID: 1397
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Ist definitiv kein normales Verhalten. Schaue ich mir mal mit an.
+PARENT_POSTING_ID: 1377
+POSTING_TYPE: comment
+CONTENT:
+Ist definitiv kein normales Verhalten. Schaue ich mir mal mit an.
+TAGGED_CONTENT:

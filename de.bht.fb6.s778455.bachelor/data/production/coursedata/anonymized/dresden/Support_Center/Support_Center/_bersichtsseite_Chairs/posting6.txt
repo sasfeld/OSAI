@@ -1,0 +1,10 @@
+ID: 371
+CREATION_DATETIME: 1350424800000
+MODIFICATION_DATETIME: 1350424800000
+TITLE: Ich finde immer noch 
+PARENT_POSTING_ID: 158
+POSTING_TYPE: answer
+CONTENT:
+Ich finde immer noch die Übersichtsseite zu den "Chairs" zu unübersichtlich! Kann man die Informationen zu den angebotenen Kursen nicht erst verstecken und nur bei Anklicken des Chairs ausklappen?
+Auch bei der <REMOVED_PERSON_ENTITY> zu einem Lehrstuhl sollten es erst mal nur eine Liste der "Lectures" geben und nur bei Anklicken die jeweiligen "Courses" ausgeklappt werden.
+TAGGED_CONTENT:

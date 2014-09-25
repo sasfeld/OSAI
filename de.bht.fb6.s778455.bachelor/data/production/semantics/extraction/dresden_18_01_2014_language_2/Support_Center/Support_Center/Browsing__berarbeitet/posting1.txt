@@ -1,0 +1,14 @@
+ID: 189
+CREATION_DATETIME: 1349560800000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Das Durchsuchen <NAME_CORPUS_REPLACEMENT> Lehrveranstaltungen und hat sich jetzt sehr geändert. 
+
+ * Es gibt keine überfüllten Institutes, Chairs und Lectures Seiten mehr,  statt dessen fängt man ganz oben bei den [Fakultäten](/my_faculties?) an, in denen man immatrikuliert ist. <NAME_CORPUS_REPLACEMENT> <NAME_CORPUS_REPLACEMENT> an kann man sich wesentlich übersichtlicher durch Institute klicken und man erhält immer nur eine Übersicht mit aktuellen Lehrveranstaltungen.
+
+ * Zusätzlich kann man sich nun eine Auflistung nach [Semestern](/terms/) geben lassen, versehen mit einem Suchfilter.
+TAGGED_CONTENT:

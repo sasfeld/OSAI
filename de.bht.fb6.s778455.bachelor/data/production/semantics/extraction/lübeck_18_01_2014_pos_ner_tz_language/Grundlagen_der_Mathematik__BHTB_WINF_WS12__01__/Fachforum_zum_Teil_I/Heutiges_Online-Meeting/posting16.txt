@@ -1,0 +1,17 @@
+ID: 166735
+CREATION_DATETIME: 1349335080
+MODIFICATION_DATETIME: 1349335080
+TITLE: Re: Heutiges Online-Meeting
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Nachrichten;weight:1.0;significance:4.45402063329418;degreegeneralization:5;uri:21872483
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:2.68692343468076;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+POS_TAG: value:Antwort;weight:0.0;uri:;postag:NN
+POS_TAG: value:Herrn;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nachricht;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 166721
+CONTENT:
+Vielen Dank <REMOVED_PERSON_ENTITY> für die Antwort. Dort ist bei mir auch keine Nachricht zu finden. Dann werde ich mich wohl mal an Herrn <REMOVED_PERSON_ENTITY> wenden müssen.
+TAGGED_CONTENT:
+Vielen_PIDAT Dank_NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE für_APPR die_ART Antwort_NN ._$. Dort_ADV ist_VAFIN bei_APPR mir_PPER auch_ADV keine_PIAT Nachricht_NN zu_PTKZU finden_VVINF ._$. Dann_ADV werde_VAFIN ich_PPER mich_PRF wohl_ADV mal_ADV an_APPR Herrn_NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE wenden_VVINF müssen_VMINF ._$. 

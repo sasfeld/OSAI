@@ -1,0 +1,27 @@
+ID: 25
+CREATION_DATETIME: 1176542700000
+MODIFICATION_DATETIME: 1176542700000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 24
+CONTENT:
+
+    Lieber ,
+
+die Methode getAppletInfo() gehoert in der .java Datei, nicht in der .html Datei weil sie in der Klasse Applet defniiert ist, siehe http://java.sun.com/javase/6/docs/api/java/applet/Applet.html
+
+Eine Moeglichkeit, sie zu benutzen, ist zum Beispiel:
+// Anfang der Klasse nicht gezeigt
+public void paint(Graphics g){
+g.drawString(getAppletInfo(), 10, 50);
+}
+
+public String getAppletInfo() {
+String info = "Test";
+return info;
+}
+// Ende der Klasse nicht gezeigt
+
+
+    
+TAGGED_CONTENT:

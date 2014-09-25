@@ -1,0 +1,12 @@
+ID: 2448
+CREATION_DATETIME: 1374616800000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: Zu a): Im schlimmsten Fall (Eigenkollision) muss das Signal wieder bei Absender ankommen, deshalb x2....
+PARENT_POSTING_ID: 2444
+POSTING_TYPE: answer
+CONTENT:
+Zu a): Im schlimmsten Fall (Eigenkollision) muss das Signal wieder bei Absender ankommen, deshalb x2.
+Zu b): Was heißt hier "je nach Standard". In der Aufgabe steht Ethernet, folglich ist die Länge für 802. 3 gefragt.
+Zu c): Nochmal rechnen! Beim Multiplizieren <NAME_CORPUS_REPLACEMENT> 512 und 10 kann nichts mit 25 rauskommen...
+Zu d): Siehe c).
+TAGGED_CONTENT:

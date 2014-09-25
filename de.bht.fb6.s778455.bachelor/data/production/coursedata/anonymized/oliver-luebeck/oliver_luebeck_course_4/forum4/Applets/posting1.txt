@@ -1,0 +1,70 @@
+ID: 13
+CREATION_DATETIME: 1176142620000
+MODIFICATION_DATETIME: 1176142620000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+    Hallo!
+
+Eine allgemeine Frage zum Thema Applets, welche auch in Richtung Einsendeaufgabe abzielt.
+
+Grundlage bilden die beiden Quelltexte unten (test.html + test.java). Ich ändere Inhalte am Java Quellcode (z.B. Hintergrundfarbe, Text), kompiliere mit javac und möchte mir das Ergebnis im Browser ansehen. Im Browser werden die Änderungen jedoch nicht angezeigt. Egal was ich am Quellcode ändere, das Applet zeigt immer den ALTEN Inhalt. Getestet mit IE und Firefox. Einstellung steht auf „Bei jedem Zugriff auf die Seite“. Browsercache habe ich auch schon geleert.
+
+Die update-Methode bringt irgendwie auch nichts.
+
+Erst wenn ich die HTML- und class-Datei in einen anderen Ordner kopiere und dort ausführe, bekomme ich die Änderungen zu Gesicht.
+
+Gibt es einen Trick? Der Java-Interpreter führt schließlich auch immer die korrekten (aktuellen) Befehle aus.
+
+Gruß
+
+Steve
+
+P.S. Eine Codefunktion im Editor des Forums wäre sinnvoll :)
+
+test.html
+
+<html>
+  <head>
+   <title>Test</title>
+  </head>
+  <body>
+    <h1>Test</h1>
+    <applet test.class" width=300 height=120 >
+    </applet>
+  </body>
+</html>
+
+test.java
+
+import java.awt.*;
+
+public class test extends java.applet.Applet {
+ //Instanzvariable:
+ Color color;
+
+    public void init()
+    {
+  color = new Color (12, 71, 137);
+  this.setBackground(color);
+    }
+
+    public void paint(Graphics g)
+    {
+  g.setColor(Color.white);
+  g.drawRect(10, 10, 250, 100);
+  g.drawString("Test", 30, 50);
+   }
+
+    //Zeichenfläche updaten
+ public void update(Graphics g)
+ {
+  this.paint(g);
+   }
+
+} 
+
+    
+TAGGED_CONTENT:

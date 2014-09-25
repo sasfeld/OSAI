@@ -1,0 +1,10 @@
+ID: 1409
+CREATION_DATETIME: 1362783600000
+MODIFICATION_DATETIME: 1362783600000
+TITLE: Yes. ;)
+PARENT_POSTING_ID: 1408
+POSTING_TYPE: answer
+CONTENT:
+Short answer: Yes. ;)
+Long answer: historically, the 'mapper' emphasizes that the RM takes care the 'region map'. 'manager' puts emphasis on managing the address space layout. But that's mere semantics. We use those terms synonymously.
+TAGGED_CONTENT:

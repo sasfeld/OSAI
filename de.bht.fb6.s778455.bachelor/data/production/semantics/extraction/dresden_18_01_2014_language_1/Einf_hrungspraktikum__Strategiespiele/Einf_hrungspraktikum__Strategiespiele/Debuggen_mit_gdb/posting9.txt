@@ -1,0 +1,28 @@
+ID: 1535
+CREATION_DATETIME: 1363734000000
+MODIFICATION_DATETIME: 1363734000000
+TITLE: Hey,
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1427
+POSTING_TYPE: answer
+CONTENT:
+Hey,
+
+ich hatte eben auch Probleme mit gdb; hier mal mein Lösungsvorschlag:
+
+1. In das Makefile noch -d rein hauen. (bei "CXXFLAGS_common =")
+
+2. Das Spiel mit "./mcp -d -p1 my-player -p-1 example-player" starten.
+
+hier bekommt man gleich PID <NAME_CORPUS_REPLACEMENT> beiden Spielern geliefert. 
+
+3. mit gdb my-player "NUMMER" auf den Prozess zugreifen und debuggen. 
+
+Eine Hilfestellung steht auch im README.
+
+Wenn das absoluter Mist ist bitte sagen, ich hab auch noch nicht so viel erfahrung mit gdb.
+
+Bei mir geht das so :)
+
+Tschüss.
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 172277
+CREATION_DATETIME: 1350593163
+MODIFICATION_DATETIME: 1350593163
+TITLE: Re: Gruppen für die Einsendeaufgaben
+LANGUAGE: GERMAN
+NER_TAG: value:LG;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:LG;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:LG;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 172219
+CONTENT:
+Jupp, bin dabei!
+LG <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Jupp_NE ,_$, bin_VAFIN dabei_PROAV !_$. LG_NN <_VVFIN REMOVED_PERSON_ENTITY_NE >_XY 

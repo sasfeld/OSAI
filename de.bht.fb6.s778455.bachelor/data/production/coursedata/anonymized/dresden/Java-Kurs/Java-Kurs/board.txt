@@ -1,0 +1,39 @@
+ID: 2154639
+CREATION_DATETIME: 1380837600000
+MODIFICATION_DATETIME: 1383519600000
+TITLE: Java-Kurs
+INTRO: ### Was? ###
+Anfängerkurs für die Programmiersprache Java.
+
+#### Umfang ####
+Zeitaufwand 2 SWS.
+
+#### Inhaltliche Ausrichtung ####
+Im Kurs werden die Elemente der Sprache Jave und die Grundlagen der objektorientierten Programmierung vorgestellt. Es werden **keine** Design Patterns  oder UML-Diagramme gelehrt, dies ist Inhalt der Vorlesung _Softwaretechnologie_. (Es werden einfachste UML-Diagramme genutzt, um grundlegende Zusammenhänge zu erklären - diese sind aber so simpel gehalten, dass ein Vorwissen um UML hilfreich, aber nicht zwingend erforderlich ist.)
+
+Hauptziel ist es, dem Studenten einen Überblich über die Aspekte der objektorientierten Programmierung mit Java zu geben und eine Grundlage für ein weiterführendes Selbststudium zu legen.
+
+### Software ###
+Wir werden _Eclipse_ als Entwicklungsumgebung nutzen. Bitte stellt vorher sicher, dass ihr das **Java 7 SE Development Kit** (kurz JDK) installiert habt. _Eclipse_ selbst basiert auf Java, es ist also hilfreich, Java zuerst zu installieren ;)
+
+#### Windows und Mac ####
+Windows- und Mac-Nutzer finden ihr JDK [hier](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html).  
+_Eclipse_ gibt es [hier](http://www.eclipse.org/downloads/). Die Standartinstallation ist ausreichend.
+
+#### Linux ####
+Linux-Nutzer bemühen ihren Paketmanager um _jdk7-openjdk_. (Tatsächlicher Paketname variiert je nach Distribution) Alternativ gibt es tarballs und rpms auch beim obigen Link.  
+_Eclipse_ gibt es ebenfalls beim Paketmanager oder auch beim entsprechenden Link oben.
+
+#### Außerdem: SimpleGui ####
+Um den Einstieg zu erleichtern, wird das Java-Archiv [simple_gui.jar](http://users.ifsr.de/~fredo/2013/Java/SimpleGui/simple_gui.jar) bereit gestellt, dass es ermöglicht, schnell auch eine einfache  grafische Ein- und Ausgabe zu haben. Eine [Anleitung](http://users.ifsr.de/~fredo/2013/Java/SimpleGui/Howto.txt), wie man das Archiv in sein Java-Projekt einbindet und eine [Dokumentation](http://users.ifsr.de/~fredo/2013/Java/SimpleGui/doc/) gibt es natürlich auch. 
+
+### Termine ###
+Kick-off am Freitag, **1.11.2013, 6.DS** in der **E23**
+
+#### Reguläre Kurstermine ####
+* Montag, 4.DS E042 (Windows / Linux)
+* Dienstag, 4.DS E042 (Windows / Linux) **Achtung Ausnahme: am 05.11. in der E065 (nur Windows!)**
+* Mittwoch, 1.DS E042 (Windows / Linux)
+* Mittwoch, 3.DS E042 (Windows / Linux)
+* Donnerstag, 4.DS DS E065 (nur Windows!) 
+TYPE: null

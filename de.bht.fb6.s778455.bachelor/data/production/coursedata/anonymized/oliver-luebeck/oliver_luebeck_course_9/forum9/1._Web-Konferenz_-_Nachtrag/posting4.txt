@@ -1,0 +1,44 @@
+ID: 6
+CREATION_DATETIME: 1175733240000
+MODIFICATION_DATETIME: 1175733240000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 5
+CONTENT:
+
+Hallo,
+
+ es sollten wirkliche Zahlenwerte angegeben werden, nicht die Variablen (z1 und z2) aus der Unterklasse, ansonsten sollte es laufen.
+
+Des Weiteren ist "System.out.println" erforderlich... (zu mindest schlug mein Test ohne "s-o-p" Fehl)
+Deswegen vermute ich, dass man es mit "return" schreiben muss in MyMath.class und erst in der MyMathTest.class kommt dann "System.out.println".
+Kommt mir auch "spanisch" vor, dass die aufgerufene MyMath.class bereits den "printbefehl" besitzt, wobei die höhergestellte MyMathTest.class diese erst mit Werten füttert.
+
+Die zusätzlich ausgebenen "Kommentare" (vgl. Aufgabe aus der Übung) in der Textkonsole waren sehr nützlich, daher könnte man diese für die Subratkion ebenfalls ergänzen. (optional)
+
+
+mein Vorschlag:
+
+public class MyMathTest{
+
+public static void main(String[] args) {
+System.out.println("Differenz aus 2-1: "
++ MyMath.differenziere2Zahlen(2,1));
+}
+}
+
+
+oder ohne Komme
+
+
+public class MyMathTest{
+
+public static void main(String[] args) {
+System.out.println(MyMath.differenziere2Zahlen(2,1));
+}
+}
+
+
+Gruß 
+    
+TAGGED_CONTENT:

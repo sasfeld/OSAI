@@ -1,0 +1,17 @@
+ID: 7
+CREATION_DATETIME: 1175923680000
+MODIFICATION_DATETIME: 1175923680000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 5
+CONTENT:
+
+    
+    Ja, anscheinend.
+
+Und auch in der ZIP gibts noch einen "Über"-Ordner. Der repräsentiert ja sozusagen den ZIP-Mantel. Das könnte man vermutlich didaktisch besser fassen.
+
+Eine andere Sache fand ich auch etwas unglücklich. Da wird aufgefordert, eine neue PATH-Variable in der Umgebung zu setzen. Mancheiner hat da aber bereits eine stehen, die ergänzt werden sollte. An sich natürlich kein großes Thema, nur wenn man so detaillierte Anweisungen angibt, wiegen sich die Adepten in Sicherheit und löschen möglicherweise ihre Variable.
+    
+    
+TAGGED_CONTENT:

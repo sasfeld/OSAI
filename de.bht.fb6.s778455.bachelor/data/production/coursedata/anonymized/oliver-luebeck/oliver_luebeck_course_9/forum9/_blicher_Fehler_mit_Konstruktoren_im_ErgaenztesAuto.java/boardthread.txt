@@ -1,0 +1,4 @@
+ID: 6
+TITLE: Üblicher Fehler mit Konstruktoren im ErgaenztesAuto.java
+LANGUAGE: GERMAN
+FIRST_POSTING_ID: 21

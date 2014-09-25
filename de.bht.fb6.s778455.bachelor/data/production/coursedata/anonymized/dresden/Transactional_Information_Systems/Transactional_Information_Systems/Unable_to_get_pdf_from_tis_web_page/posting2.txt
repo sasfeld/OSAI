@@ -1,0 +1,11 @@
+ID: 1047
+CREATION_DATETIME: 1358290800000
+MODIFICATION_DATETIME: 1358290800000
+TITLE: Try: "dbs" as name and "tud" as password. 
+If you are not inside the tu-dresden network, you need th...
+PARENT_POSTING_ID: 1046
+POSTING_TYPE: answer
+CONTENT:
+Try: "dbs" as name and "tud" as password. 
+If you are not inside the tu-dresden network, you need the password to access the files.
+TAGGED_CONTENT:

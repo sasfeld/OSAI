@@ -1,0 +1,13 @@
+ID: 1700
+CREATION_DATETIME: 1365804000000
+MODIFICATION_DATETIME: 1385334000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Was muss ich tun um die 2SWS angerechnet zu bekommen?
+Gibt es Gruppenarbeit oder praktische Aufgaben?
+Auf der aktuellen Seite und in der Introduction Folie finde ich dazu keinen Hinweis.
+www. inf. tu-dresden. de/index. php?node_id=2568&ln=de&lv_id=50
+Gibt es vielleicht einen extra Link zu den Übungen?
+TAGGED_CONTENT:

@@ -1,0 +1,15 @@
+ID: 75
+CREATION_DATETIME: 1201427640000
+MODIFICATION_DATETIME: 1201427640000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 74
+CONTENT:
+
+Hi, ich häng auch grad noch an der Aufgabe. Hab aber im Prinzip das gleiche wie du (nur das HashSet hab ich nicht).
+
+Wo wir grad bei Übungen Präsenz sind, hat einer nen Lösungsweg für die Erste Aufgabe? Irgendwie tu ich mich schwer oder der Groschen ist noch nicht gefallen.
+
+Danke voab und viele Grüße
+   
+TAGGED_CONTENT:

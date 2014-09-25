@@ -1,0 +1,9 @@
+ID: 2849
+CREATION_DATETIME: 1384470000000
+MODIFICATION_DATETIME: 1384470000000
+TITLE: Also Problem gelöst schon... Ich habe einfach ein neue Template hinzugefügt..  Duplikationsverwendung...
+PARENT_POSTING_ID: 2848
+POSTING_TYPE: comment
+CONTENT:
+Also Problem gelöst schon... Ich habe einfach ein neue Template hinzugefügt..  Duplikationsverwendung einer Annotation in Salespoint scheint nicht möglich zu sein
+TAGGED_CONTENT:

@@ -1,0 +1,16 @@
+ID: 40
+CREATION_DATETIME: 1288271880000
+MODIFICATION_DATETIME: 1288271880000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo,
+
+weiß jemand um wieviel Uhr das OM heute beginnt?
+Geht es von 19.00-20.00 Uhr oder von 20.15-21.15 Uhr
+
+Grüsse 
+    
+TAGGED_CONTENT:

@@ -1,0 +1,22 @@
+ID: 39
+CREATION_DATETIME: 1192454280000
+MODIFICATION_DATETIME: 1192454280000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo alle zusammen,
+
+ich hab mal wieder eine Frage ;)
+Ich sitze gerade an der Einsendeaufgabe 3 und habe den ersten Teil auch schon fertig. Ich kann ein neues Verzeichnis generieren.
+Nun möchte ich Dateien kopieren, habe damit aber irgendwie Probleme. Ich glaube ich hab das Prinzip auch noch nicht ganz verstanden und habs jetzt schon zum dritten Mal gelesen.
+Kann mir da vielleicht einer einen kleinen Anstoß geben?
+
+Theoretisch erzeugen wir zuerst eine leere Datei und schreiben dann den Inhalt der Quelldatei in die neuerzeugte. Soweit ist mir das klar. Aber der Dateityp muss ja auch übereinstimmen und alles.
+
+Stehe etwas auf dem Schlauch.
+
+Grüße
+	
+TAGGED_CONTENT:

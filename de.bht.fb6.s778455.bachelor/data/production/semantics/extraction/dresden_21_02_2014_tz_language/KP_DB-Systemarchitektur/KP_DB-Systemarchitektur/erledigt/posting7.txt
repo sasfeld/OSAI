@@ -1,0 +1,10 @@
+ID: 2000
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Ich habe meine Folien ins SVN geladen. Sind nicht viel, aber ich denke, alles nötige ist drauf. Wolle...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+Ich habe meine Folien ins SVN geladen. Sind nicht viel, aber ich denke, alles nötige ist drauf. Wollen wir alles zu einer Präsentation mergen oder nimmt jeder seinen Teil für sich?
+TAGGED_CONTENT:

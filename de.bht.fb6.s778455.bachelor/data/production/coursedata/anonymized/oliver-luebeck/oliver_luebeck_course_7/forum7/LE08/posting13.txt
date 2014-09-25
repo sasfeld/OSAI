@@ -1,0 +1,18 @@
+ID: 16
+CREATION_DATETIME: 1304109960000
+MODIFICATION_DATETIME: 1304109960000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 15
+CONTENT:
+ 
+Hallo ,
+
+dadurch, daß der erste Konstruktor weiterhin vorhanden ist, ist die Möglichkeit gegeben, auch Objekte zu erstellen, die keine Fahrgestellnummer und keinen Standort haben. Das ist der Vorteil zu nur einem Konstruktor mit allen Parametern.
+
+Viele Grüße
+Christina
+
+PS: Ich habe gerade gesehen, daß die Pre-Präsenz kurz vor die Präsenzveranstaltung Informatik gelegt wurde. Aber bevor Informatik losgeht, komme ich auf jeden Fall noch vorbei.
+   
+TAGGED_CONTENT:

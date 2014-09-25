@@ -1,0 +1,12 @@
+ID: 781
+CREATION_DATETIME: 1352847600000
+MODIFICATION_DATETIME: 1353279600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+mir wurde heute <NAME_CORPUS_REPLACEMENT> diesem Kurs erzählt und klang richtig interessant, was Prof. <REMOVED_PERSON_ENTITY> hier vorstellt und lehrt. Ich hab bisher keine Zeit gehabt dem Kurs beizuwohnen, aber dennoch würde es mich interessieren, ob diese Prozesse sinnvoll sind zu lernen?
+Wird das ab jetzt jedes Wintersemester angeboten? 
+Aber was ich bisher gehört habe, find ich's schon klasse, dass es einen Kurs gibt, in dem uns mal beigebracht wird, wie wir eigentlich Paper lesen und bearbeiten können, sodass wir diese verstehen. 
+TAGGED_CONTENT:

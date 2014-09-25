@@ -1,0 +1,89 @@
+ID: 1992
+CREATION_DATETIME: 1370728800000
+MODIFICATION_DATETIME: 1370728800000
+TITLE: Also das bekomme ich ausgegeben, wenn ich mit strace die execve events trace:
+LANGUAGE: GERMAN
+POS_TAG: value:ENOENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:E;weight:0.0;uri:;postag:NN
+POS_TAG: value:model;weight:0.0;uri:;postag:NN
+POS_TAG: value:stdin;weight:0.0;uri:;postag:NN
+POS_TAG: value:ld;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aborted;weight:0.0;uri:;postag:NN
+POS_TAG: value:as;weight:0.0;uri:;postag:NN
+POS_TAG: value:Child;weight:0.0;uri:;postag:NN
+POS_TAG: value:m;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1750
+POSTING_TYPE: answer
+CONTENT:
+Also das bekomme ich ausgegeben, wenn ich mit strace die execve events trace:
+
+```ruby
+
+2486  execve("./testCLTstatic", ["./testCLTstatic"], [/* 21 vars */]) = 0
+
+2492  execve("/bin/sh", ["sh", "-c", "clang -x <LEARNED_PERSON_NAME_REPLACEMENT> /dev/stdin -o kernel"...], [/* 21 vars */]) = 0
+
+2493  execve("/usr/local/bin/clang", ["clang", "-x", "cl", "/dev/stdin", "-o", "kernel. <LEARNED_PERSON_NAME_REPLACEMENT>", "-S", "-emit-llvm"], [/* 21 vars */]) = 0
+
+2494  execve("/usr/local/bin/clang", ["/usr/local/bin/clang", "-cc1", "-triple", "x86_64-unknown-linux-gnu", "-emit-llvm", "-disable-free", "-main-file-name", "stdin", "-mrelocation-model", "static", "-mdisable-fp-elim", "-fmath-errno", "-masm-verbose", "-mconstructor-aliases", "-munwind-tables", "-target-cpu", ...], [/* 21 vars */]) = 0
+
+2494  --- SIGABRT (Aborted) @ 0 (0) ---
+
+2494  --- SIGABRT (Aborted) @ 0 (0) ---
+
+2493  --- SIGCHLD (Child exited) @ 0 (0) ---
+
+2496  execve("/usr/local/bin/clang", ["/usr/local/bin/clang", "-cc1", "-triple", "x86_64-unknown-linux-gnu", "-E", "-disable-free", "-main-file-name", "stdin", "-mrelocation-model", "static", "-mdisable-fp-elim", "-fmath-errno", "-masm-verbose", "-mconstructor-aliases", "-munwind-tables", "-target-cpu", ...], [/* 21 vars */]) = 0
+
+2493  --- SIGCHLD (Child exited) @ 0 (0) ---
+
+2492  --- SIGCHLD (Child exited) @ 0 (0) ---
+
+2486  --- SIGCHLD (Child exited) @ 0 (0) ---
+
+2497  execve("/bin/sh", ["sh", "-c", "clang -x <LEARNED_PERSON_NAME_REPLACEMENT> /dev/stdin -o kernel"...], [/* 21 vars */]) = 0
+
+2498  execve("/usr/local/bin/clang", ["clang", "-x", "cl", "/dev/stdin", "-o", "kernel. <LEARNED_PERSON_NAME_REPLACEMENT>", "-S", "-emit-llvm"], [/* 21 vars */]) = 0
+
+2499  execve("/usr/local/bin/clang", ["/usr/local/bin/clang", "-cc1", "-triple", "x86_64-unknown-linux-gnu", "-emit-llvm", "-disable-free", "-main-file-name", "stdin", "-mrelocation-model", "static", "-mdisable-fp-elim", "-fmath-errno", "-masm-verbose", "-mconstructor-aliases", "-munwind-tables", "-target-cpu", ...], [/* 21 vars */]) = 0
+
+2499  --- SIGABRT (Aborted) @ 0 (0) ---
+
+2499  --- SIGABRT (Aborted) @ 0 (0) ---
+
+2498  --- SIGCHLD (Child exited) @ 0 (0) ---
+
+2501  execve("/usr/local/bin/clang", ["/usr/local/bin/clang", "-cc1", "-triple", "x86_64-unknown-linux-gnu", "-E", "-disable-free", "-main-file-name", "stdin", "-mrelocation-model", "static", "-mdisable-fp-elim", "-fmath-errno", "-masm-verbose", "-mconstructor-aliases", "-munwind-tables", "-target-cpu", ...], [/* 21 vars */]) = 0
+
+2498  --- SIGCHLD (Child exited) @ 0 (0) ---
+
+2497  --- SIGCHLD (Child exited) @ 0 (0) ---
+
+2486  --- SIGCHLD (Child exited) @ 0 (0) ---
+
+2502  execve("/usr/local/sbin/as", ["as", "--64", "/tmp/OCLzSBaC4. s", "-o", "/tmp/OCLzSBaC4. o"], [/* 21 vars */]) = -1 ENOENT (No such file or directory)
+
+2502  execve("/usr/local/bin/as", ["as", "--64", "/tmp/OCLzSBaC4. s", "-o", "/tmp/OCLzSBaC4. o"], [/* 21 vars */]) = -1 ENOENT (No such file or directory)
+
+2502  execve("/usr/sbin/as", ["as", "--64", "/tmp/OCLzSBaC4. s", "-o", "/tmp/OCLzSBaC4. o"], [/* 21 vars */]) = -1 ENOENT (No such file or directory)
+
+2502  execve("/usr/bin/as", ["as", "--64", "/tmp/OCLzSBaC4. s", "-o", "/tmp/OCLzSBaC4. o"], [/* 21 vars */]) = 0
+
+2486  --- SIGCHLD (Child exited) @ 0 (0) ---
+
+2503  execve("/usr/local/sbin/ld", ["ld", "-m", "elf_x86_64", "-shared", "/tmp/OCLzSBaC4. o", "-o", "/tmp/OCLzSBaC4. so"], [/* 21 vars */]) = -1 ENOENT (No such file or directory)
+
+2503  execve("/usr/local/bin/ld", ["ld", "-m", "elf_x86_64", "-shared", "/tmp/OCLzSBaC4. o", "-o", "/tmp/OCLzSBaC4. so"], [/* 21 vars */]) = -1 ENOENT (No such file or directory)
+
+2503  execve("/usr/sbin/ld", ["ld", "-m", "elf_x86_64", "-shared", "/tmp/OCLzSBaC4. o", "-o", "/tmp/OCLzSBaC4. so"], [/* 21 vars */]) = -1 ENOENT (No such file or directory)
+
+2503  execve("/usr/bin/ld", ["ld", "-m", "elf_x86_64", "-shared", "/tmp/OCLzSBaC4. o", "-o", "/tmp/OCLzSBaC4. so"], [/* 21 vars */]) = 0
+
+2486  --- SIGCHLD (Child exited) @ 0 (0) ---
+
+```
+
+Aber <NAME_CORPUS_REPLACEMENT> sehe ich jetz auch nur, dass er ein paar mal clang aufruft, mehr kann ich daraus leider nicht deuten.
+TAGGED_CONTENT:
+Also_ADV das_ART bekomme_VVFIN ich_PPER ausgegeben_VVPP ,_$, wenn_KOUS ich_PPER mit_APPR strace_ADJD die_ART execve_ADJA events_ADV trace_VVFIN :_$. ``_CARD `_XY ruby_NE 2486_CARD execve_ADJA -LRB-_TRUNC "_$( ._$. \/_XY testCLTstatic_NE "_$( ,_$, -LSB-_TRUNC "_$( ._$. \/_XY testCLTstatic_NE "_$( -RSB-_TRUNC ,_$, -LSB-_TRUNC \/_KON \*_CARD 21_CARD vars_CARD \*_CARD \/_CARD -RSB-_TRUNC -RRB-_TRUNC =_XY 0_CARD 2492_CARD execve_ADJA -LRB-_TRUNC "_$( \/_CARD bin\/sh_NE "_$( ,_$, -LSB-_TRUNC "_$( sh_TRUNC "_$( ,_$, "_$( -_$( c_FM "_$( ,_$, "_$( clang_ADJD -_$( x_XY <_CARD LEARNED_PERSON_NAME_REPLACEMENT_NN >_XY \/_CARD dev\/stdin_NN -_$( o_ADV kernel_ADJD "_$( ..._$( -RSB-_TRUNC ,_$, -LSB-_TRUNC \/_KON \*_CARD 21_CARD vars_CARD \*_CARD \/_CARD -RSB-_TRUNC -RRB-_TRUNC =_XY 0_CARD 2493_CARD execve_ADJA -LRB-_TRUNC "_$( \/_CARD usr\/local\/bin_ADJA \/_NN clang_ADJD "_$( ,_$, -LSB-_TRUNC "_$( clang_ADJD "_$( ,_$, "_$( -_$( x_XY "_$( ,_$, "_$( cl_FM "_$( ,_$, "_$( \/_CARD dev\/stdin_NN "_$( ,_$, "_$( -_$( o_ADV "_$( ,_$, "_$( kernel_ADJD ._$. <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_CARD "_$( ,_$, "_$( -_$( S_XY "_$( ,_$, "_$( -_$( emit-llvm_NE "_$( -RSB-_TRUNC ,_$, -LSB-_TRUNC \/_KON \*_CARD 21_CARD vars_CARD \*_CARD \/_CARD -RSB-_TRUNC -RRB-_TRUNC =_XY 0_CARD 2494_CARD execve_ADJA -LRB-_TRUNC "_$( \/_CARD usr\/local\/bin_ADJA \/_NN clang_ADJD "_$( ,_$, -LSB-_TRUNC "_$( \/_CARD usr\/local\/bin_ADJA \/_NN clang_ADJD "_$( ,_$, "_$( -_$( cc1_CARD "_$( ,_$, "_$( -_$( triple_FM "_$( ,_$, "_$( x86_64-unknown-linux-gnu_ADJD "_$( ,_$, "_$( -_$( emit-llvm_NE "_$( ,_$, "_$( -_$( disable-free_ADJA "_$( ,_$, "_$( -_$( main-file-name_ADJA "_$( ,_$, "_$( stdin_ADJD "_$( ,_$, "_$( -_$( mrelocation-model_NN "_$( ,_$, "_$( static_FM "_$( ,_$, "_$( -_$( mdisable-fp-elim_NE "_$( ,_$, "_$( -_$( fmath-errno_NE "_$( ,_$, "_$( -_$( masm-verbose_ADJA "_$( ,_$, "_$( -_$( mconstructor-aliases_ADJA "_$( ,_$, "_$( -_$( munwind-tables_ADJA "_$( ,_$, "_$( -_$( target-cpu_ADJD "_$( ,_$, ..._$( -RSB-_TRUNC ,_$, -LSB-_TRUNC \/_KON \*_CARD 21_CARD vars_CARD \*_CARD \/_CARD -RSB-_TRUNC -RRB-_TRUNC =_XY 0_CARD 2494_CARD --_-- SIGABRT_NE -LRB-_TRUNC Aborted_NN -RRB-_TRUNC @_XY 0_CARD -LRB-_TRUNC 0_CARD -RRB-_TRUNC --_-- 2494_CARD --_-- SIGABRT_NE -LRB-_TRUNC Aborted_NN -RRB-_TRUNC @_XY 0_CARD -LRB-_TRUNC 0_CARD -RRB-_TRUNC --_-- 2493_CARD --_-- SIGCHLD_NE -LRB-_TRUNC Child_NN exited_ADJD -RRB-_TRUNC @_XY 0_CARD -LRB-_TRUNC 0_CARD -RRB-_TRUNC --_-- 2496_CARD execve_ADJA -LRB-_TRUNC "_$( \/_CARD usr\/local\/bin_ADJA \/_NN clang_ADJD "_$( ,_$, -LSB-_TRUNC "_$( \/_CARD usr\/local\/bin_ADJA \/_NN clang_ADJD "_$( ,_$, "_$( -_$( cc1_CARD "_$( ,_$, "_$( -_$( triple_FM "_$( ,_$, "_$( x86_64-unknown-linux-gnu_ADJD "_$( ,_$, "_$( -_$( E_NN "_$( ,_$, "_$( -_$( disable-free_ADJA "_$( ,_$, "_$( -_$( main-file-name_ADJA "_$( ,_$, "_$( stdin_ADJD "_$( ,_$, "_$( -_$( mrelocation-model_NN "_$( ,_$, "_$( static_FM "_$( ,_$, "_$( -_$( mdisable-fp-elim_NE "_$( ,_$, "_$( -_$( fmath-errno_NE "_$( ,_$, "_$( -_$( masm-verbose_ADJA "_$( ,_$, "_$( -_$( mconstructor-aliases_ADJA "_$( ,_$, "_$( -_$( munwind-tables_ADJA "_$( ,_$, "_$( -_$( target-cpu_ADJD "_$( ,_$, ..._$( -RSB-_TRUNC ,_$, -LSB-_TRUNC \/_KON \*_CARD 21_CARD vars_CARD \*_CARD \/_CARD -RSB-_TRUNC -RRB-_TRUNC =_XY 0_CARD 2493_CARD --_-- SIGCHLD_NE -LRB-_TRUNC Child_NN exited_ADJD -RRB-_TRUNC @_XY 0_CARD -LRB-_TRUNC 0_CARD -RRB-_TRUNC --_-- 2492_CARD --_-- SIGCHLD_NE -LRB-_TRUNC Child_NN exited_ADJD -RRB-_TRUNC @_XY 0_CARD -LRB-_TRUNC 0_CARD -RRB-_TRUNC --_-- 2486_CARD --_-- SIGCHLD_NE -LRB-_TRUNC Child_NN exited_ADJD -RRB-_TRUNC @_XY 0_CARD -LRB-_TRUNC 0_CARD -RRB-_TRUNC --_-- 2497_CARD execve_ADJA -LRB-_TRUNC "_$( \/_CARD bin\/sh_NE "_$( ,_$, -LSB-_TRUNC "_$( sh_TRUNC "_$( ,_$, "_$( -_$( c_FM "_$( ,_$, "_$( clang_ADJD -_$( x_XY <_CARD LEARNED_PERSON_NAME_REPLACEMENT_NN >_XY \/_CARD dev\/stdin_NN -_$( o_ADV kernel_ADJD "_$( ..._$( -RSB-_TRUNC ,_$, -LSB-_TRUNC \/_KON \*_CARD 21_CARD vars_CARD \*_CARD \/_CARD -RSB-_TRUNC -RRB-_TRUNC =_XY 0_CARD 2498_CARD execve_ADJA -LRB-_TRUNC "_$( \/_CARD usr\/local\/bin_ADJA \/_NN clang_ADJD "_$( ,_$, -LSB-_TRUNC "_$( clang_ADJD "_$( ,_$, "_$( -_$( x_XY "_$( ,_$, "_$( cl_FM "_$( ,_$, "_$( \/_CARD dev\/stdin_NN "_$( ,_$, "_$( -_$( o_ADV "_$( ,_$, "_$( kernel_ADJD ._$. <_XY LEARNED_PERSON_NAME_REPLACEMENT_NN >_CARD "_$( ,_$, "_$( -_$( S_XY "_$( ,_$, "_$( -_$( emit-llvm_NE "_$( -RSB-_TRUNC ,_$, -LSB-_TRUNC \/_KON \*_CARD 21_CARD vars_CARD \*_CARD \/_CARD -RSB-_TRUNC -RRB-_TRUNC =_XY 0_CARD 2499_CARD execve_ADJA -LRB-_TRUNC "_$( \/_CARD usr\/local\/bin_ADJA \/_NN clang_ADJD "_$( ,_$, -LSB-_TRUNC "_$( \/_CARD usr\/local\/bin_ADJA \/_NN clang_ADJD "_$( ,_$, "_$( -_$( cc1_CARD "_$( ,_$, "_$( -_$( triple_FM "_$( ,_$, "_$( x86_64-unknown-linux-gnu_ADJD "_$( ,_$, "_$( -_$( emit-llvm_NE "_$( ,_$, "_$( -_$( disable-free_ADJA "_$( ,_$, "_$( -_$( main-file-name_ADJA "_$( ,_$, "_$( stdin_ADJD "_$( ,_$, "_$( -_$( mrelocation-model_NN "_$( ,_$, "_$( static_FM "_$( ,_$, "_$( -_$( mdisable-fp-elim_NE "_$( ,_$, "_$( -_$( fmath-errno_NE "_$( ,_$, "_$( -_$( masm-verbose_ADJA "_$( ,_$, "_$( -_$( mconstructor-aliases_ADJA "_$( ,_$, "_$( -_$( munwind-tables_ADJA "_$( ,_$, "_$( -_$( target-cpu_ADJD "_$( ,_$, ..._$( -RSB-_TRUNC ,_$, -LSB-_TRUNC \/_KON \*_CARD 21_CARD vars_CARD \*_CARD \/_CARD -RSB-_TRUNC -RRB-_TRUNC =_XY 0_CARD 2499_CARD --_-- SIGABRT_NE -LRB-_TRUNC Aborted_NN -RRB-_TRUNC @_XY 0_CARD -LRB-_TRUNC 0_CARD -RRB-_TRUNC --_-- 2499_CARD --_-- SIGABRT_NE -LRB-_TRUNC Aborted_NN -RRB-_TRUNC @_XY 0_CARD -LRB-_TRUNC 0_CARD -RRB-_TRUNC --_-- 2498_CARD --_-- SIGCHLD_NE -LRB-_TRUNC Child_NN exited_ADJD -RRB-_TRUNC @_XY 0_CARD -LRB-_TRUNC 0_CARD -RRB-_TRUNC --_-- 2501_CARD execve_ADJA -LRB-_TRUNC "_$( \/_CARD usr\/local\/bin_ADJA \/_NN clang_ADJD "_$( ,_$, -LSB-_TRUNC "_$( \/_CARD usr\/local\/bin_ADJA \/_NN clang_ADJD "_$( ,_$, "_$( -_$( cc1_CARD "_$( ,_$, "_$( -_$( triple_FM "_$( ,_$, "_$( x86_64-unknown-linux-gnu_ADJD "_$( ,_$, "_$( -_$( E_NN "_$( ,_$, "_$( -_$( disable-free_ADJA "_$( ,_$, "_$( -_$( main-file-name_ADJA "_$( ,_$, "_$( stdin_ADJD "_$( ,_$, "_$( -_$( mrelocation-model_NN "_$( ,_$, "_$( static_FM "_$( ,_$, "_$( -_$( mdisable-fp-elim_NE "_$( ,_$, "_$( -_$( fmath-errno_NE "_$( ,_$, "_$( -_$( masm-verbose_ADJA "_$( ,_$, "_$( -_$( mconstructor-aliases_ADJA "_$( ,_$, "_$( -_$( munwind-tables_ADJA "_$( ,_$, "_$( -_$( target-cpu_ADJD "_$( ,_$, ..._$( -RSB-_TRUNC ,_$, -LSB-_TRUNC \/_KON \*_CARD 21_CARD vars_CARD \*_CARD \/_CARD -RSB-_TRUNC -RRB-_TRUNC =_XY 0_CARD 2498_CARD --_-- SIGCHLD_NE -LRB-_TRUNC Child_NN exited_ADJD -RRB-_TRUNC @_XY 0_CARD -LRB-_TRUNC 0_CARD -RRB-_TRUNC --_-- 2497_CARD --_-- SIGCHLD_NE -LRB-_TRUNC Child_NN exited_ADJD -RRB-_TRUNC @_XY 0_CARD -LRB-_TRUNC 0_CARD -RRB-_TRUNC --_-- 2486_CARD --_-- SIGCHLD_NE -LRB-_TRUNC Child_NN exited_ADJD -RRB-_TRUNC @_XY 0_CARD -LRB-_TRUNC 0_CARD -RRB-_TRUNC --_-- 2502_CARD execve_ADJA -LRB-_TRUNC "_$( \/_CARD usr\/local\/sbin_ADJA \/_NN as_NE "_$( ,_$, -LSB-_TRUNC "_$( as_NE "_$( ,_$, "_$( --_-- 64_CARD "_$( ,_$, "_$( \/_CARD tmp\/OCLzSBaC4_NN ._$. s_PPER "_$( ,_$, "_$( -_$( o_ADV "_$( ,_$, "_$( \/_CARD tmp\/OCLzSBaC4_NN ._$. o_ADV "_$( -RSB-_TRUNC ,_$, -LSB-_TRUNC \/_KON \*_CARD 21_CARD vars_CARD \*_CARD \/_CARD -RSB-_TRUNC -RRB-_TRUNC =_XY -1_CARD ENOENT_NN -LRB-_TRUNC No_FM such_FM file_FM or_FM directory_FM -RRB-_TRUNC 2502_CARD execve_ADJA -LRB-_TRUNC "_$( \/_CARD usr\/local\/bin_ADJA \/_NN as_NE "_$( ,_$, -LSB-_TRUNC "_$( as_NE "_$( ,_$, "_$( --_-- 64_CARD "_$( ,_$, "_$( \/_CARD tmp\/OCLzSBaC4_NN ._$. s_PPER "_$( ,_$, "_$( -_$( o_ADV "_$( ,_$, "_$( \/_CARD tmp\/OCLzSBaC4_NN ._$. o_ADV "_$( -RSB-_TRUNC ,_$, -LSB-_TRUNC \/_KON \*_CARD 21_CARD vars_CARD \*_CARD \/_CARD -RSB-_TRUNC -RRB-_TRUNC =_XY -1_CARD ENOENT_NN -LRB-_TRUNC No_FM such_FM file_FM or_FM directory_FM -RRB-_TRUNC 2502_CARD execve_ADJA -LRB-_TRUNC "_$( \/_CARD usr\/sbin\/as_NN "_$( ,_$, -LSB-_TRUNC "_$( as_NE "_$( ,_$, "_$( --_-- 64_CARD "_$( ,_$, "_$( \/_CARD tmp\/OCLzSBaC4_NN ._$. s_PPER "_$( ,_$, "_$( -_$( o_ADV "_$( ,_$, "_$( \/_CARD tmp\/OCLzSBaC4_NN ._$. o_ADV "_$( -RSB-_TRUNC ,_$, -LSB-_TRUNC \/_KON \*_CARD 21_CARD vars_CARD \*_CARD \/_CARD -RSB-_TRUNC -RRB-_TRUNC =_XY -1_CARD ENOENT_NN -LRB-_TRUNC No_FM such_FM file_FM or_FM directory_FM -RRB-_TRUNC 2502_CARD execve_ADJA -LRB-_TRUNC "_$( \/_CARD usr\/bin\/as_NN "_$( ,_$, -LSB-_TRUNC "_$( as_NE "_$( ,_$, "_$( --_-- 64_CARD "_$( ,_$, "_$( \/_CARD tmp\/OCLzSBaC4_NN ._$. s_PPER "_$( ,_$, "_$( -_$( o_ADV "_$( ,_$, "_$( \/_CARD tmp\/OCLzSBaC4_NN ._$. o_ADV "_$( -RSB-_TRUNC ,_$, -LSB-_TRUNC \/_KON \*_CARD 21_CARD vars_CARD \*_CARD \/_CARD -RSB-_TRUNC -RRB-_TRUNC =_XY 0_CARD 2486_CARD --_-- SIGCHLD_NE -LRB-_TRUNC Child_NN exited_ADJD -RRB-_TRUNC @_XY 0_CARD -LRB-_TRUNC 0_CARD -RRB-_TRUNC --_-- 2503_CARD execve_ADJA -LRB-_TRUNC "_$( \/_ITJ usr\/local\/sbin_ADV \/_CARD ld_NN "_$( ,_$, -LSB-_TRUNC "_$( ld_FM "_$( ,_$, "_$( -_$( m_NN "_$( ,_$, "_$( elf_x86_64_NN "_$( ,_$, "_$( -_$( shared_FM "_$( ,_$, "_$( \/_CARD tmp\/OCLzSBaC4_NN ._$. o_ADV "_$( ,_$, "_$( -_$( o_ADV "_$( ,_$, "_$( \/_CARD tmp\/OCLzSBaC4_NN ._$. so_ADV "_$( -RSB-_TRUNC ,_$, -LSB-_TRUNC \/_KON \*_CARD 21_CARD vars_CARD \*_CARD \/_CARD -RSB-_TRUNC -RRB-_TRUNC =_XY -1_CARD ENOENT_NN -LRB-_TRUNC No_FM such_FM file_FM or_FM directory_FM -RRB-_TRUNC 2503_CARD execve_ADJA -LRB-_TRUNC "_$( \/_ITJ usr\/local\/bin_ADV \/_CARD ld_NN "_$( ,_$, -LSB-_TRUNC "_$( ld_FM "_$( ,_$, "_$( -_$( m_NN "_$( ,_$, "_$( elf_x86_64_NN "_$( ,_$, "_$( -_$( shared_FM "_$( ,_$, "_$( \/_CARD tmp\/OCLzSBaC4_NN ._$. o_ADV "_$( ,_$, "_$( -_$( o_ADV "_$( ,_$, "_$( \/_CARD tmp\/OCLzSBaC4_NN ._$. so_ADV "_$( -RSB-_TRUNC ,_$, -LSB-_TRUNC \/_KON \*_CARD 21_CARD vars_CARD \*_CARD \/_CARD -RSB-_TRUNC -RRB-_TRUNC =_XY -1_CARD ENOENT_NN -LRB-_TRUNC No_FM such_FM file_FM or_FM directory_FM -RRB-_TRUNC 2503_CARD execve_ADJA -LRB-_TRUNC "_$( \/_CARD usr\/sbin\/ld_NN "_$( ,_$, -LSB-_TRUNC "_$( ld_FM "_$( ,_$, "_$( -_$( m_NN "_$( ,_$, "_$( elf_x86_64_NN "_$( ,_$, "_$( -_$( shared_FM "_$( ,_$, "_$( \/_CARD tmp\/OCLzSBaC4_NN ._$. o_ADV "_$( ,_$, "_$( -_$( o_ADV "_$( ,_$, "_$( \/_CARD tmp\/OCLzSBaC4_NN ._$. so_ADV "_$( -RSB-_TRUNC ,_$, -LSB-_TRUNC \/_KON \*_CARD 21_CARD vars_CARD \*_CARD \/_CARD -RSB-_TRUNC -RRB-_TRUNC =_XY -1_CARD ENOENT_NN -LRB-_TRUNC No_FM such_FM file_FM or_FM directory_FM -RRB-_TRUNC 2503_CARD execve_ADJA -LRB-_TRUNC "_$( \/_CARD usr\/bin\/ld_NN "_$( ,_$, -LSB-_TRUNC "_$( ld_FM "_$( ,_$, "_$( -_$( m_NN "_$( ,_$, "_$( elf_x86_64_NN "_$( ,_$, "_$( -_$( shared_FM "_$( ,_$, "_$( \/_CARD tmp\/OCLzSBaC4_NN ._$. o_ADV "_$( ,_$, "_$( -_$( o_ADV "_$( ,_$, "_$( \/_CARD tmp\/OCLzSBaC4_NN ._$. so_ADV "_$( -RSB-_TRUNC ,_$, -LSB-_TRUNC \/_KON \*_CARD 21_CARD vars_CARD \*_CARD \/_CARD -RSB-_TRUNC -RRB-_TRUNC =_XY 0_CARD 2486_CARD --_-- SIGCHLD_NE -LRB-_TRUNC Child_NN exited_ADJD -RRB-_TRUNC @_XY 0_CARD -LRB-_TRUNC 0_CARD -RRB-_TRUNC --_-- ``_ITJ `_XY Aber_KON <_XY NAME_CORPUS_REPLACEMENT_NN >_CARD sehe_VVFIN ich_PPER jetz_ADV auch_ADV nur_ADV ,_$, dass_KOUS er_PPER ein_ART paar_PIDAT mal_ADV clang_ADJD aufruft_VVFIN ,_$, mehr_ADV kann_VMFIN ich_PPER daraus_PROAV leider_ADV nicht_PTKNEG deuten_VVINF ._$. 

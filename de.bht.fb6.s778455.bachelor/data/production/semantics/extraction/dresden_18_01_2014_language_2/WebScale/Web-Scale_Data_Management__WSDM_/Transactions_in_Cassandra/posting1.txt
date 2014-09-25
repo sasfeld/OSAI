@@ -1,0 +1,12 @@
+ID: 621
+CREATION_DATETIME: 1351638000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Viele komplizierte Varianten um Transaktionen zu implementieren: 
+
+http://cassandra-user-incubator-apache-org. 3065146. n2. nabble. com/best-practices-for-simulating-transactions-in-Cassandra-td7064256. html
+TAGGED_CONTENT:

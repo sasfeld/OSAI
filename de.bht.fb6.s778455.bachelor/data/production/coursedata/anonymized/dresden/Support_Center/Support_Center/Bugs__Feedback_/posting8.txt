@@ -1,0 +1,9 @@
+ID: 111
+CREATION_DATETIME: 1347919200000
+MODIFICATION_DATETIME: 1347919200000
+TITLE: Das liegt wohl an der
+PARENT_POSTING_ID: 110
+POSTING_TYPE: comment
+CONTENT:
+Das liegt wohl an der Aufräumaktion, bei der Dummy Daten entfernt wurden. Mal bitte mit beobachten, falls es wieder auftreten sollte... Ich kann mir derzeit zumindest nicht erklären, wie das zustande kommt.
+TAGGED_CONTENT:

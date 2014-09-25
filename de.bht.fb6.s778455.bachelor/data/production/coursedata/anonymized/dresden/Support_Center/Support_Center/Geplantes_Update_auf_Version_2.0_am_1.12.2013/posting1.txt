@@ -1,0 +1,22 @@
+ID: 3065
+CREATION_DATETIME: 1385679600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Hallo <NAME_CORPUS_REPLACEMENT> Mitglieder,
+ich habe angekündigt, dass das Update auf die neue Version diese Woche noch folgen wird. Geplant ist Sonntag. Der genaue Zeitpunkt steht noch nicht fest. Es wird sich eh um einen relativ kurzen Zeitraum (etwa 10-20min) handeln.
+**Folgendes wird sich u. a. ändern:**
++ Es gibt keine Kurse mehr. Diese sind zu Gruppen mit dem Gruppentyp *Lehrveranstaltung* zusammengefasst. Wobei es auch keine Gruppen für die einzelnen Semester geben wird. Die Beiträge der einzelnen Semester werden dann in einer Gruppe zusammengefasst.
++ Die statische Struktur <NAME_CORPUS_REPLACEMENT> *Kurs* - *Lehrveranstaltung* - *Lehrstuhl* - *Institut* - *Fakultät* wird es auch nicht mehr geben. Diese Beziehungen werden in der kommenden Version über *Tags* abgebildet. Ein Beispiel:
+In Version 1 gibt es den Kurs *Support Center (WS13/14)* dieser wird in der neuen Version eine *Themegruppe* mit dem Namen *Support Center* werden. 
+Der Kurs hat folgende Beziehungen: *Support Center (Lecture)* - *Allgemeine Angelegenheiten (Chair)* - *Fakultätsübergreifend (Institute)* - *Fakultät Informatik*. Diese werden entfernt und als Tags an die Gruppe angehangen, sodass dann folgendes herauskommt:
+Themengruppe *Support Center* mit den Tags: *Allgemeine Angelegenheiten*, *WS 13/14*, *Fakultätsübergreifend*, *Fakultät Informatik*
++ Desweiteren gibt es nun die Möglichkeit Diskussionen zu beliebigen Themen zu führen. Dazu wird Beitragstyp *Thema* eingeführt. Angelehnt an die *Themengruppe*. Dieser Beitragstyp ist in allen Gruppen neben Fragen und Ankündigungen verfügbar.
++ Auditorium wird es nun in Deutsch und Englisch geben. 
+Das sind aber nur ein paar Änderungen. Am Sonntag wird der Vorhang geöffnet. 
+Ich freue mich schon auf das Feedback. :)
+Viele Grüße<PERSONAL_GREETING_REMOVEMENT>
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

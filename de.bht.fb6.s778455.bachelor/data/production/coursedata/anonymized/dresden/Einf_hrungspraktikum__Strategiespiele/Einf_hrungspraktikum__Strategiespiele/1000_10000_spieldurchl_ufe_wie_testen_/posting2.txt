@@ -1,0 +1,16 @@
+ID: 1455
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1363820400000
+TITLE: da gibt es mehrere Möglichkeiten, z.B.: 
+
+```ruby
+$ for ((i=0;i<100;i++)); do ./mcp players/random...
+PARENT_POSTING_ID: 1454
+POSTING_TYPE: answer
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> gibt es mehrere Möglichkeiten, z. B.: 
+```ruby
+$ for ((i=0;i<100;i++)); do ./mcp players/random players/random 2>&1; done | grep -c "BLACK wins"
+```
+alternativ dann nach "WHITE", "DRAW", oder "INVALID" suchen
+TAGGED_CONTENT:

@@ -1,0 +1,17 @@
+ID: 2868
+CREATION_DATETIME: 1384642800000
+MODIFICATION_DATETIME: 1384642800000
+TITLE: Fields of type `Money` need to be annotated with `@Lob` to make sure they're persisted correctly. So ...
+PARENT_POSTING_ID: 2864
+POSTING_TYPE: answer
+CONTENT:
+Fields of type `Money` need to be annotated with `@Lob` to make sure they're persisted correctly. So make sure your class looks something like this
+```java
+@Entity
+class YourType {
+  @Lob
+  private Money price;
+}
+```
+P. S.: Formatting looks okay for me though :)
+TAGGED_CONTENT:

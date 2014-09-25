@@ -1,0 +1,13 @@
+ID: 1844
+CREATION_DATETIME: 1369087200000
+MODIFICATION_DATETIME: 1369087200000
+TITLE: Wenn ich dich richtig verstehe, dann ist das genau das was ich meine.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Wenn ich dich richtig verstehe, dann ist das genau das was ich meine.
+
+Ich wollte auch bloß sagen, dass es schön wäe wenn das alles geordnet über ein interface/abstract class funtkioniert.
+TAGGED_CONTENT:
+Wenn_KOUS ich_PPER dich_PRF richtig_ADJD verstehe_VVFIN ,_$, dann_ADV ist_VAFIN das_ART genau_ADJD das_ART was_PWS ich_PPER meine_VVFIN ._$. Ich_PPER wollte_VMFIN auch_ADV bloß_ADV sagen_VVINF ,_$, dass_KOUS es_PPER schön_ADJD wäe_VAFIN wenn_KOUS das_PDS alles_PIS geordnet_ADJD über_APPR ein_ART interface\/abstract_ADJD class_FM funtkioniert_VVPP ._$. 

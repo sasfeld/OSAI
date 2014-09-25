@@ -1,0 +1,17 @@
+ID: 43
+CREATION_DATETIME: 1177862940000
+MODIFICATION_DATETIME: 1177862940000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 42
+CONTENT:
+
+    ach stimmt ja, ohne dieses package-zeugs gehts ja auch^^
+
+das mit den 2 konstruktoren is bisschen verwirrend.
+das habe ich auch noch nicht fertig. einfacher wäre es alle attribute in einem konstruktor zu inistialisieren.
+sonst muss für jedes auto nochmal extra ein objekt erzeugt werden, welches dann die 2 neuen werte enthält.
+
+muss ich mir nochmal genauer anschauen^^
+    
+TAGGED_CONTENT:

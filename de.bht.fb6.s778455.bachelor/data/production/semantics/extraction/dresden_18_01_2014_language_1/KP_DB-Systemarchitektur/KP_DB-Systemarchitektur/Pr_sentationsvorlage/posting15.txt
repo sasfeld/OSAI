@@ -1,0 +1,12 @@
+ID: 2038
+CREATION_DATETIME: 1370988000000
+MODIFICATION_DATETIME: 1370988000000
+TITLE: Irgendwie scheint Powerpoint ziemliche Probleme mit den Versionen zu haben. Oder was auch immer. In d...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+Irgendwie scheint Powerpoint ziemliche Probleme mit den Versionen zu haben. Oder was auch immer. In der zwischenpraesi2. pptx war auch einiges nicht so wie es sein sollte. Deshalb habe ich eine neue Version eingecheckt, mit allen bisherigen Folien (und 2 weiteren, de ich hinzugefügt habe)
+
+Ich bin heute ab ca 12 Uhr durchgehend im Labor, zwecks vorher nochmal klären.
+TAGGED_CONTENT:

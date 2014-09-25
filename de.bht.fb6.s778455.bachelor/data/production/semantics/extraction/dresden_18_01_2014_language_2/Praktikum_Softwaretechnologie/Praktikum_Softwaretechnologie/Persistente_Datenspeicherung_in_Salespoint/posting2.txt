@@ -1,0 +1,12 @@
+ID: 2969
+CREATION_DATETIME: 1385074800000
+MODIFICATION_DATETIME: 1385074800000
+TITLE: Eigentlich wird es schon durch JPA persistent gespeichert, aber nur In-Memory. 
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2968
+POSTING_TYPE: answer
+CONTENT:
+Eigentlich wird es schon durch JPA persistent gespeichert, aber nur In-Memory. 
+
+Wartet bitte noch ein wenig.
+TAGGED_CONTENT:

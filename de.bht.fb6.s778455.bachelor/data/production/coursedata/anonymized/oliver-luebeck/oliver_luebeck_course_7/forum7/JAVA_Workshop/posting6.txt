@@ -1,0 +1,17 @@
+ID: 62
+CREATION_DATETIME: 1305144780000
+MODIFICATION_DATETIME: 1305144780000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 61
+CONTENT:
+  
+Hallo zusammen,
+
+mir geht es genauso wie Nadine. Ich finde die Idee auch super, habe aber Dienstag leider keine Zeit. Bitte haltet mich auf dem Laufenden, falls Ihr soetwas nochmal plant, dann bin ich sehr gerne dabei.
+
+Ich fände auch ein Informatik Arbeitstreffen gut. Hätte da sonst noch jemand Interesse dran?
+
+Grüße
+    
+TAGGED_CONTENT:

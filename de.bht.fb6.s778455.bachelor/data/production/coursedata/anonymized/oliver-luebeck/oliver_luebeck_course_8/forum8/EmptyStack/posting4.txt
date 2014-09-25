@@ -1,0 +1,13 @@
+ID: 56
+CREATION_DATETIME: 1199523360000
+MODIFICATION_DATETIME: 1199523360000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 55
+CONTENT:
+
+Lieber ,
+ja sowas geht. In der Stack-Implementierung möchte man aber die Ausnahme nicht fangen. Der Benutzer / die Benutzerin der Klasse kann dies machen. Die Implementierung soll nur mit dem Werfen einer Ausnahme den Benutzer der Stack-Klasse warnen, dass das Stack leer ist.
+Viele Grüße
+    
+TAGGED_CONTENT:

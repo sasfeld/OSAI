@@ -1,0 +1,16 @@
+ID: 440
+CREATION_DATETIME: 1350684000000
+MODIFICATION_DATETIME: 1350684000000
+TITLE: Hallo, 
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 439
+POSTING_TYPE: answer
+CONTENT:
+Hallo, 
+
+ich habe die Professur angepasst.
+
+Welche Veranstaltungen gehören denn noch in diese Professur, die derzeit noch in der alten Professur hausen?
+
+VG <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

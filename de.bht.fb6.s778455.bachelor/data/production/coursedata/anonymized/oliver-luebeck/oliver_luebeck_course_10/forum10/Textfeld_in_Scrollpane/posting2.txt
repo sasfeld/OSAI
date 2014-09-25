@@ -1,0 +1,25 @@
+ID: 35
+CREATION_DATETIME: 1195499700000
+MODIFICATION_DATETIME: 1195499700000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 34
+CONTENT:
+
+So fuktiniert es glaube ich bei mir
+
+private TextArea newLabelFor ; muss am anfang der klasse stehen
+
+ 
+
+das steht dann weiter unten:
+
+newLabelFor    = new JTextArea();
+newLabelFor.setName( name );
+newLabel    = new JScrollPane( newLabelFor );
+
+und auf newLabelFor kannst du dann getText anwenden
+
+bitte korrigiert mich wenn ich flasch liege
+   
+TAGGED_CONTENT:

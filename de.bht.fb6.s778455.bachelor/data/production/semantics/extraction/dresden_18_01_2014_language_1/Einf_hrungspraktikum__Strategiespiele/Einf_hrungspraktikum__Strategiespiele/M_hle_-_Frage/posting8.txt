@@ -1,0 +1,10 @@
+ID: 1182
+CREATION_DATETIME: 1362438000000
+MODIFICATION_DATETIME: 1362438000000
+TITLE: Es werden zwei chars gelesen: Fall 1: ein Feld und ein Newline; Fall 2: ein Newline. Im ersten Fall w...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1175
+POSTING_TYPE: comment
+CONTENT:
+Es werden zwei chars gelesen: Fall 1: ein <NAME_CORPUS_REPLACEMENT> und ein Newline; Fall 2: ein Newline. Im ersten Fall wirfst du einen <REMOVED_PERSON_ENTITY> und beendest die Eingabe -> Newline. Im zweiten Fall beendest du nur die Eingabe -> Newline und wirfst nichts.
+TAGGED_CONTENT:

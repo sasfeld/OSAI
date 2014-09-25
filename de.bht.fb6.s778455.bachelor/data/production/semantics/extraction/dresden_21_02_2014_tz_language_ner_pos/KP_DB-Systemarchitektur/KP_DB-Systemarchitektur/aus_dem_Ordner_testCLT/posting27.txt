@@ -1,0 +1,19 @@
+ID: 1959
+CREATION_DATETIME: 1370469600000
+MODIFICATION_DATETIME: 1370469600000
+TITLE: Probier mal ein `make clean` im CLeverTrustee und baue erst mal den CLeverTrustee mit `make`. Sag mal...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+POS_TAG: value:CLeverTrustee;weight:0.0;uri:;postag:NN
+POS_TAG: value:Libs;weight:0.0;uri:;postag:NN
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+POS_TAG: value:Probier;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Probier mal ein `make clean` im CLeverTrustee und baue erst mal den CLeverTrustee mit `make`. Sag mal, ob dann die Libs in build/ erstellt werden.
+
+In welchen <REMOVED_PERSON_ENTITY> befindest du dich sonst immer? Zu zweit ist das Problem bestimmt schneller gelöst.
+TAGGED_CONTENT:
+Probier_NN mal_ADV ein_ART `_FM make_FM clean_ADJD `_XY im_APPRART CLeverTrustee_NN und_KON baue_VVFIN erst_ADV mal_ADV den_ART CLeverTrustee_NN mit_APPR `_FM make_FM `_FM ._$. Sag_NE mal_ADV ,_$, ob_KOUS dann_ADV die_ART Libs_NN in_APPR build_FM \/_FM erstellt_VVPP werden_VAINF ._$. In_APPR welchen_PWAT <_NN REMOVED_PERSON_ENTITY_NE >_CARD befindest_VVFIN du_PPER dich_PRF sonst_ADV immer_ADV ?_$. Zu_APPR zweit_ADJD ist_VAFIN das_ART Problem_NN bestimmt_VVPP schneller_ADJD gelöst_VVPP ._$. 

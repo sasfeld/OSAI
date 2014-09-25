@@ -1,0 +1,11 @@
+ID: 2297
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Gute Nachricht: Die Ergebnisse sind ebenfalls gut
+Ich hab' ein Diagramm über die Genauigkeit der Dur...
+PARENT_POSTING_ID: 2291
+POSTING_TYPE: comment
+CONTENT:
+Gute Nachricht: Die Ergebnisse sind ebenfalls gut
+Ich hab' ein Diagramm über die Genauigkeit der Durchschnitts-Vorhersage in die Documents/pres_diagramme. odp mit aufgenommen.
+TAGGED_CONTENT:

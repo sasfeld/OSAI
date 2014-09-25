@@ -1,0 +1,18 @@
+ID: 170189
+CREATION_DATETIME: 1350212186
+MODIFICATION_DATETIME: 1350212186
+TITLE: Re: Online Präsenz vom 10.10.
+PARENT_POSTING_ID: 170025
+CONTENT:
+ 
+!!!Kann man das noch genauer erläutern? !!!Eigentlich müsste ja dann jeder Ausdruck transitiv sein weil entweder ist er es oder es ist kein Fall abzuprüfen, oder?
+ 
+Das ist so auf jeden Fall falsch, denn es gibt sehr wohl Relationen, die eindeutig nicht-transitiv sind. Sähe die <REMOVED_PERSON_ENTITY> z. B. so aus {(a, b), (b, c)} dann wäre sie eindeutig nicht transitiv, weil bei Tranistivität auch (a, c) enthalten sein müsste.
+ 
+Bleibt die Frage offen, wie man denn die Frage der Transitivität entscheidet, wenn keine solche Kette gegeben ist.
+Erstmal eine allgemeine Aussage zur Transitivität von mir:-&gt;Transitivität liegt dann vor, wenn man z. B. sagen kann, dass aus a c folgt wenn aus a b folgt und aus b c folgt.&lt;- "{(a, b), (b, c), (a, c)}"Stimmt das?
+Die Folgerung wird nur einmal benötigt. Wenn a R b und b R c, dann auch a R c.
+Das verstehe ich nicht so ganz. Bei deinem Beispiel {(a, b), (b, c)}, kann ich auch behaupten, dass Transitivität vorliegt, weil kein Fall abzuprüfen ist. So haben wir es, zumindest im Online-Chat, auch gesagt... oder?
+Was wir im Online-Chat dazu gesagt haben, habe ich wohl nicht so ganz verstanden, sorry. Fakt ist aber: Wenn wir drei unterschiedliche Elemente a, b und c haben und wir das Ergebnis haben {(a, b), (b, c)}, dann liegt offensichtlich keine Tranistivität vor. Läge sie vor, dann müsste das Ergebnis eben auch (a, c) enthalten.
+ 
+TAGGED_CONTENT:

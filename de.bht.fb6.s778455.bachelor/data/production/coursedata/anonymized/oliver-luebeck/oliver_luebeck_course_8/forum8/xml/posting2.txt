@@ -1,0 +1,18 @@
+ID: 45
+CREATION_DATETIME: 1198934640000
+MODIFICATION_DATETIME: 1198934640000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 44
+CONTENT:
+
+Für XML benötigt Eclipse ein Plugin – soweit ich weiß.
+
+Zum Beispiel dieses: http://editorxml.sourceforge.net/index.html
+Es lässt sich leicht über die „Install New Software“-Option installieren. Auf der Seite findest du die Anleitung dazu.
+
+„Rinzo“ wird auch in den Unterlagen der LE als Eclipse-Plugin empfohlen.
+
+Grüße
+   
+TAGGED_CONTENT:

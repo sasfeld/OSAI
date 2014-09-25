@@ -1,0 +1,10 @@
+ID: 2305
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Die Dateien sind kaputt, da sie nicht mit Powerpoint, sondern mit Libre/OpenOffice erstellt wurden.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Die Dateien sind kaputt, <NAME_CORPUS_REPLACEMENT> sie nicht mit Powerpoint, sondern mit Libre/OpenOffice erstellt wurden.
+TAGGED_CONTENT:

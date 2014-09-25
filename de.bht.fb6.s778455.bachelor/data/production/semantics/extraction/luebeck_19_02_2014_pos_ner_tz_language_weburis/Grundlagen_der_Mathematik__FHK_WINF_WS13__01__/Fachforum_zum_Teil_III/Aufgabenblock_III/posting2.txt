@@ -1,0 +1,21 @@
+ID: 256493
+CREATION_DATETIME: 1384697644
+MODIFICATION_DATETIME: 1384697644
+TITLE: Re: Aufgabenblock III
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=96671#256493
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bildung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Asymmetriegesetz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Herr;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektorproduktes;weight:0.0;uri:;postag:NN
+POS_TAG: value:Reihenfolge;weight:0.0;uri:;postag:NN
+POS_TAG: value:REMOVEMENT;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 255747
+CONTENT:
+Hallo Herr <REMOVED_PERSON_ENTITY>,
+so wie Sie es berechnet haben wäre es auch vollkommen o. k., das ergibt sich ja aus dem Asymmetriegesetz und die Reihenfolge bei der Bildung des Vektorproduktes war ja nicht vorgegeben.
+Viele Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:
+Hallo_ITJ Herr_NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, so_ADV wie_KOKOM Sie_PPER es_PPER berechnet_VVPP haben_VAFIN wäre_VAFIN es_PPER auch_ADV vollkommen_ADJD o._ADV k._NE ,_$, das_ART ergibt_VVFIN sich_PRF ja_ADV aus_APPR dem_ART Asymmetriegesetz_NN und_KON die_ART Reihenfolge_NN bei_APPR der_ART Bildung_NN des_ART Vektorproduktes_NN war_VAFIN ja_ADV nicht_PTKNEG vorgegeben_VVPP ._$. Viele_PIDAT Grüße_NN <_CARD PERSONAL_GREETING_REMOVEMENT_NN >_XY 

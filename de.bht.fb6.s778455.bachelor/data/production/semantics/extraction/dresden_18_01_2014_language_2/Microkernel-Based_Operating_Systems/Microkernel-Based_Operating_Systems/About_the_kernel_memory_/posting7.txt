@@ -1,0 +1,10 @@
+ID: 1425
+CREATION_DATETIME: 1362783600000
+MODIFICATION_DATETIME: 1362783600000
+TITLE: The kernel then uses *virtual* addresses between `0xc000 0000` and `0xffff ffff` internally, which wi...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1420
+POSTING_TYPE: comment
+CONTENT:
+The kernel then uses *virtual* addresses between `0xc000 0000` and `0xffff ffff` internally, which will never be handed out by any pager / dataspace manager because it is reserved for the kernel use only. Is this achieved by the root pager never handing out these virtual adresses or does the kernel itself prevent a address translation by user-level applications to its reserved virtual addresses?
+TAGGED_CONTENT:

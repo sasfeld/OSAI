@@ -1,0 +1,29 @@
+ID: 171815
+CREATION_DATETIME: 1350502163
+MODIFICATION_DATETIME: 1350502186
+TITLE: Gruppen für die Einsendeaufgaben
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Hollenbach;weight:1.0;significance:12.7085495152339;degreegeneralization:14;uri:21863456
+TOPIC_ZOOM_TAG: value:Gemeinden im Landkreis Aichach-Friedberg;weight:1.0;significance:9.61750706187561;degreegeneralization:13;uri:21863626
+TOPIC_ZOOM_TAG: value:Landkreis Aichach-Friedberg;weight:1.0;significance:9.34125368524745;degreegeneralization:12;uri:21863711
+TOPIC_ZOOM_TAG: value:Bayern;weight:1.0;significance:4.56358009814605;degreegeneralization:10;uri:21996634
+TOPIC_ZOOM_TAG: value:Deutschland;weight:1.0;significance:2.0357642545643;degreegeneralization:8;uri:21996974
+TOPIC_ZOOM_TAG: value:Europa;weight:1.0;significance:1.55587681555031;degreegeneralization:6;uri:21972001
+POS_TAG: value:Beitrag;weight:0.0;uri:;postag:NN
+POS_TAG: value:Gruppen;weight:0.0;uri:;postag:NN
+POS_TAG: value:REMOVEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Folgende Gruppen haben sich bisher gebildet:
+<REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>, Ramon Hollenbach
+ 
+Maxim Schwarz, <REMOVED_PERSON_ENTITY>, Steven Pawellek
+ 
+Christian Giehler, <REMOVED_PERSON_ENTITY>, <REMOVED_PERSON_ENTITY>
+ 
+Ihr könnt gerne an mich eure Gruppen senden, dann ändere ich den Beitrag.
+<PERSONAL_GREETING_REMOVEMENT>
+antje
+TAGGED_CONTENT:
+Folgende_ADJA Gruppen_NN haben_VAFIN sich_PRF bisher_ADV gebildet_VVPP :_$. <_CARD REMOVED_PERSON_ENTITY_NN >_CARD ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, Ramon_NE Hollenbach_NE Maxim_NE Schwarz_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, Steven_NE Pawellek_NE Christian_NE Giehler_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE Ihr_PPOSAT könnt_ADJD gerne_ADV an_APPR mich_PPER eure_ADJA Gruppen_NN senden_VVFIN ,_$, dann_ADV ändere_VVFIN ich_PPER den_ART Beitrag_NN ._$. <_XY PERSONAL_GREETING_REMOVEMENT_NN >_VVFIN antje_NE 

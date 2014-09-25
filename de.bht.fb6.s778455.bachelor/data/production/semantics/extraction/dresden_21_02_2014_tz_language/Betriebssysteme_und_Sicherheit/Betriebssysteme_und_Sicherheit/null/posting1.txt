@@ -1,0 +1,23 @@
+ID: 2152
+CREATION_DATETIME: 1372716000000
+MODIFICATION_DATETIME: 1383778800000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Jahr 2012;weight:1.0;significance:5.92522431462997;degreegeneralization:11;uri:20891175
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo,
+
+Aufgabe aus der Klausur vom 27. Feb. 2012
+
+Gegeben sind:
+
+32Bit breite Adressen, Seitengröße: 4KiB, Seitentabelle ist zweistufig, die einzelnen Tabellen sind jeweils 4 KiB groß und beinhalten 1024Einträge.
+
+Wie viele Einträge werden in beiden Stufen benötigt um den gesamten virtuellen AR abzubilden?
+
+Mich iritiert schon die Frage an sich, es ist scheinbar nicht nach der Anzahl der Einträge gefragt, die maximal enthalten sein können, abbilden lässt sich das bestimmt auch mit weniger Einträgen "abbilden". Welche <REMOVED_PERSON_ENTITY> spielt hier die Zweistufigkeit der Seitentabelle?
+
+Vielen Dank!
+TAGGED_CONTENT:

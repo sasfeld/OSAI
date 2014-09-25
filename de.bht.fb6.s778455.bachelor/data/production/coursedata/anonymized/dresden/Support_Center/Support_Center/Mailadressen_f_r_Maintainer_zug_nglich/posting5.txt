@@ -1,0 +1,9 @@
+ID: 458
+CREATION_DATETIME: 1350856800000
+MODIFICATION_DATETIME: 1350856800000
+TITLE: Mehr informationen we
+PARENT_POSTING_ID: 456
+POSTING_TYPE: comment
+CONTENT:
+Mehr informationen werden nicht eingeblendet. ~~Hatte ich eigentlich auch nicht behauptet.~~ Ich blende dem Benutzer nur zur Unterstützung beim <REMOVED_PERSON_ENTITY> folgende Hinweise ein: loading..., saved... 
+TAGGED_CONTENT:

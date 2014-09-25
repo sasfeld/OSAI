@@ -1,0 +1,15 @@
+ID: 16507
+CREATION_DATETIME: 1226005838
+MODIFICATION_DATETIME: 1226005838
+TITLE: Offene Präsenz der Medieninformatik
+LANGUAGE: GERMAN
+POS_TAG: value:senz;weight:0.0;uri:;postag:NN
+POS_TAG: value:ndigung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kursplan;weight:0.0;uri:;postag:NN
+POS_TAG: value:derMedieninformatik;weight:0.0;uri:;postag:NN
+POS_TAG: value:en;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo Sie alle, ich hoffe, Sie haben die Ankündigung der offenen Präsenz derMedieninformatik im Kursplan gesehen. Offen heisst, dass Sie dort teilnehmen können. Mit besten Grüßen, <PERSONAL_GREETING_REMOVEMENT>. <REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:
+Hallo_ITJ Sie_PPER alle_PIS ,_$, ich_PPER hoffe_VVFIN ,_$, Sie_PPER haben_VAFIN die_ART Ankündigung_NN der_ART offenen_ADJA Präsenz_NN derMedieninformatik_NN im_APPRART Kursplan_NN gesehen_VVPP ._$. Offen_ADJD heisst_VVFIN ,_$, dass_KOUS Sie_PPER dort_ADV teilnehmen_VVINF können_VMFIN ._$. Mit_APPR besten_ADJA Grüßen_NN ,_$, <_CARD PERSONAL_GREETING_REMOVEMENT_NE >_NE ._$. <_XY REMOVED_PERSON_ENTITY_NE >_NE ._$. 

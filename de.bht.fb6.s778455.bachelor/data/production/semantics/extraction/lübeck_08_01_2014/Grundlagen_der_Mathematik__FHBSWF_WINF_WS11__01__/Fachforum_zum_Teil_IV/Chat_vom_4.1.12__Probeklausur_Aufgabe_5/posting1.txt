@@ -1,0 +1,40 @@
+ID: 117589
+CREATION_DATETIME: 1325710968
+MODIFICATION_DATETIME: 1325711293
+TITLE: Chat vom 4.1.12, Probeklausur Aufgabe 5
+TOPIC_ZOOM_TAG: value:Vektoren;weight:2.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Studenten;weight:1.0;significance:3.3437630829422;degreegeneralization:5;uri:20994552
+TOPIC_ZOOM_TAG: value:Schüler, Studenten;weight:1.0;significance:3.21878054168781;degreegeneralization:4;uri:20920823
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:2.78563553898677;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:2.59037776375624;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:2.18452430611399;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 0
+CONTENT:
+Eine alternativer Loesungsweg ist in der Tat (a x b) x c (Klammern vernachlaessigbar)!
+Wenn Sie somit im R3 sind und das Kreuzprodukt zur Verfuegung steht, ist o. g. Loesungsweg etwas einfacher.
+Mein Vorschlag lautete:
+a = u * (1, 1, 0), b = v * (0, 1, 1), c = w * (-1, 2, -3)
+(a + b) * c = 0 wenn
+u * -1 + 2u + 2v + -3v = 0
+u = +v = lambda, d. h.
+x = lambda * (1, 2, 1)
+Der 2. Vorschlag aus einer Klausur im WS 03/04 lautete:
+(a x b) x c ist (1, 2, 1)
+Der Student hat nun bemerkt, dass man die volle Loesungsmenge erhaelt, wenn man (1, 2, 1) mit w skaliert. Ich war zuerst skeptisch, dass beides auf dieselbe Loesungsmenge hinauslaeuft, da ich damit rechnete, dass Teile der 2. Loesung ausserhalb der Ebene von a x b liegen wuerden. Beim <REMOVED_PERSON_ENTITY> kann das aber ausgeschlossen werden. Es bleibt uebrig, dass es andere Vektoren geben koennte, die ich laut erstem Vorschlag finde, aber nicht laut 2. Vorschlag.
+Beide Vorschlaege fuehren aber zur gleichen Loesungsmenge. Ich zeige, dass beide Loesungswege aequivalent sind!
+Zu zeigen:
+lambda * (1, 2, 1) = (a x b) xc
+fuer lambda = 1 ok (einfach Kreuzprodukte mit o. g. Vektoren und Skalierung 1 ausrechnen).
+fuer lambda  1 sei die rechte Seite:
+(g * (1, 1, 0) x h * (0, 1, 1)) x m * (-1, 2, -3)
+= (g, g, 0) x (0, h, h) x (-m, 2m, -3m)
+= (gh, -gh, gh) x (-m, 2m, -3m)
+= (ghm, 2 * ghm, ghm)
+= (ghm) * (1, 2, 1)
+sei lambda = ghm, q. e. d.
+TAGGED_CONTENT:

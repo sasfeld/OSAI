@@ -1,0 +1,9 @@
+ID: 1501
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Ah, dann werd ich das mal so probieren... Mein schöner Quellcode ;( jetzt wird er ganz wüst aussehen....
+PARENT_POSTING_ID: 1500
+POSTING_TYPE: comment
+CONTENT:
+Ah, dann werd ich das mal so probieren... Mein schöner Quellcode ;( jetzt wird er ganz wüst aussehen...
+TAGGED_CONTENT:

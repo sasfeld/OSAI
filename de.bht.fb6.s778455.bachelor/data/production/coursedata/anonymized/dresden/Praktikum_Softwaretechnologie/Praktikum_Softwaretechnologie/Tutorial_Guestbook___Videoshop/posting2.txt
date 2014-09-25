@@ -1,0 +1,14 @@
+ID: 2648
+CREATION_DATETIME: 1383087600000
+MODIFICATION_DATETIME: 1383519600000
+TITLE: Also mit meiner frischen Eclipse JEE Version klappt alles wunderbar.
+- Einfach Import > Existing Mav...
+PARENT_POSTING_ID: 2647
+POSTING_TYPE: answer
+CONTENT:
+Also mit meiner frischen Eclipse JEE Version klappt alles wunderbar.
+* Einfach File > Import > Existing Maven Project ... dort bspw. das Guestbook auswählen. Dann sollte die pom. xml gefunden werden. Danach auf Finish klicken, und das Projekt ist importiert.
+* Danach führe ich einen "Maven install" aus. Rechtsklick aus Projekt > Run As > Maven install
+* Wenn das passiert ist sucht man die klasse in der sich die main-Methode befindet. Im Guestbook Beispiel ist das die GBStart. java, unter Java Recources > src/main/java > guestbook
+* mit einem Rechtklick auf GBStart. java > Run As > Java Application startet das Gästebuch und ist unter localhost:8080 erreichbar 
+TAGGED_CONTENT:

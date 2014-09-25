@@ -1,0 +1,10 @@
+ID: 1146
+CREATION_DATETIME: 1361401200000
+MODIFICATION_DATETIME: 1361401200000
+TITLE: Ok. Using the default allocator, I don't see problems starting up. That was the reason to think you m...
+PARENT_POSTING_ID: 1116
+POSTING_TYPE: comment
+CONTENT:
+Ok. Using the default allocator, I don't see problems starting up. That was the reason to think you might have a malloc issue there.
+Next step is real debugging. First, find out what function the PC value is in. And see what memory is accessed there. Then try to track back where this memory should come from. GDB might be helpful stepping through the code.
+TAGGED_CONTENT:

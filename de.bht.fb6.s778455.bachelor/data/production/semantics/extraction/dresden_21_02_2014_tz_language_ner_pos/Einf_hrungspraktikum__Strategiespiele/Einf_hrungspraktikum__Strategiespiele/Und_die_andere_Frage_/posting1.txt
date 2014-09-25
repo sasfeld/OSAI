@@ -1,0 +1,54 @@
+ID: 1602
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1368741600000
+TITLE: null
+LANGUAGE: GERMAN
+POS_TAG: value:Methode;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehlersuche;weight:0.0;uri:;postag:NN
+POS_TAG: value:Auszug;weight:0.0;uri:;postag:NN
+POS_TAG: value:Test;weight:0.0;uri:;postag:NN
+POS_TAG: value:terminierung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufruf;weight:0.0;uri:;postag:NN
+POS_TAG: value:evaluateMove;weight:0.0;uri:;postag:NN
+POS_TAG: value:Klasse;weight:0.0;uri:;postag:NN
+POS_TAG: value:Move;weight:0.0;uri:;postag:NN
+POS_TAG: value:Memberfunktion;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+POS_TAG: value:code;weight:0.0;uri:;postag:NN
+POS_TAG: value:returnMove;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Ich habe jetzt bei der Fehlersuche bemerkt, dass ein erster aufruf der Memberfunktion push_back() der Vector-Klasse dazu führt, dass der MCP versucht meinen ouput zu lesen. Ich nehme das mal als terminierung an.
+
+hier der code dazu (in auszügen):
+
+```ruby
+
+						possiblemoves. push_back(evaluateMove(i, i-7));
+
+						printf("Test possible moves ");
+
+```
+
+der print-befehl hier wird nicht mehr ausgeführt, allerdings werden im folgenden abschnitt alle ausgeführt:
+
+```ruby
+
+printf("Test 2 ");
+
+	Move returnMove(ch_start, ch_dest, rating, jump);
+
+	printf("Test 3 ");
+
+	return returnMove;
+
+```
+
+das letzt ist ein Auszug aus der evaluate-Move()-Methode <NAME_CORPUS_REPLACEMENT> mir.
+
+kann mir jemand sagen, warum ein erster aufruf der push-back-methode fehlschlägt?
+
+EDIT: es ist der erste Aufruf!
+TAGGED_CONTENT:
+Ich_PPER habe_VAFIN jetzt_ADV bei_APPR der_ART Fehlersuche_NN bemerkt_VVPP ,_$, dass_KOUS ein_ART erster_ADJA aufruf_VVFIN der_ART Memberfunktion_NN push_back_VVFIN -LRB-_TRUNC -RRB-_TRUNC der_ART Vector-Klasse_NN dazu_PROAV führt_VVFIN ,_$, dass_KOUS der_ART MCP_NE versucht_VVFIN meinen_PPOSAT ouput_ADJD zu_PTKZU lesen_VVINF ._$. Ich_PPER nehme_VVFIN das_ART mal_ADV als_APPR terminierung_NN an_PTKVZ ._$. hier_ADV der_ART code_NN dazu_PROAV -LRB-_TRUNC in_APPR auszügen_ADJA -RRB-_TRUNC :_$. ``_CARD `_XY ruby_NE possiblemoves_ADJA ._$. push_back_ADJD -LRB-_TRUNC evaluateMove_NN -LRB-_TRUNC i_XY ,_$, i-7_CARD -RRB-_TRUNC -RRB-_TRUNC ;_$. printf_ADJD -LRB-_TRUNC "_$( Test_NN possible_FM moves_FM "_$( -RRB-_TRUNC ;_$. ``_CARD `_XY der_ART print-befehl_ADJD hier_ADV wird_VAFIN nicht_PTKNEG mehr_ADV ausgeführt_VVPP ,_$, allerdings_ADV werden_VAFIN im_APPRART folgenden_ADJA abschnitt_VVFIN alle_PIDAT ausgeführt_VVPP :_$. ``_CARD `_XY ruby_NE printf_VVFIN -LRB-_TRUNC "_$( Test_NN 2_CARD "_$( -RRB-_TRUNC ;_$. Move_NN returnMove_NN -LRB-_TRUNC ch_start_VVPP ,_$, ch_dest_VVFIN ,_$, rating_VVFIN ,_$, jump_KON -RRB-_TRUNC ;_$. printf_ADJD -LRB-_TRUNC "_$( Test_NN 3_CARD "_$( -RRB-_TRUNC ;_$. return_FM returnMove_NN ;_$. ``_CARD `_XY das_ART letzt_PIS ist_VAFIN ein_ART Auszug_NN aus_APPR der_ART evaluate-Move_NN -LRB-_TRUNC -RRB-_TRUNC -_$( Methode_NN <_CARD NAME_CORPUS_REPLACEMENT_NN >_VVFIN mir_PPER ._$. kann_VMFIN mir_PPER jemand_PIS sagen_VVINF ,_$, warum_PWAV ein_ART erster_ADJA aufruf_VVFIN der_ART push-back-methode_ADJA fehlschlägt_VVFIN ?_$. EDIT_NE :_$. es_PPER ist_VAFIN der_ART erste_ADJA Aufruf_NN !_$. 

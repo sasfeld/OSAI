@@ -1,0 +1,10 @@
+ID: 1625
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Ich würde mich gerne nur mit der s-Nummer einloggen und mir das @mail.zih.tu-dresden.de sparen. Man k...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 369
+POSTING_TYPE: answer
+CONTENT:
+Ich würde mich gerne nur mit der s-Nummer einloggen und mir das @mail. zih. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT> sparen. Man könnte ja  s-Nummern den hinteren Teil automatisch anfügen. Oder kann man sich auch ohne diese Domain anmelden?
+TAGGED_CONTENT:

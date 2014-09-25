@@ -17,6 +17,7 @@ import org.junit.Test;
 import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>This class contains tests of the {@link de.bht.fb6.s778455.bachelor.exporter.organization.ConfigReader} in the importer module.</p>
@@ -26,7 +27,7 @@ import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
  * @since 24.11.2013
  *
  */
-public class ConfigReaderTest {
+public class ConfigReaderTest extends NoLoggingTest {
 	protected IConfigReader configReader;
 
 	/*

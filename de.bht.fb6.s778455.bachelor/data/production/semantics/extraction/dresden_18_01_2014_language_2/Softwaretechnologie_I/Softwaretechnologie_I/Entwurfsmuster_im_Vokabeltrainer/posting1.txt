@@ -1,0 +1,14 @@
+ID: 2374
+CREATION_DATETIME: 1374271200000
+MODIFICATION_DATETIME: 1383087600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Im Vokabeltrainer habe ich 2 Entwurfsmuster gefunden, die nicht in der Musterlösung  eingetragen sind und wollte mal fragen, ob die richtig sind.
+
+1. Strategy. QuizProcess als Context, State als Strategy und die 3 Zustände jeweils als ConcreteStrategys. Bin mir <NAME_CORPUS_REPLACEMENT> allerdings selbst unsicher, weil die Klassen ja v. A. das State-Muster darstellen.
+
+2. TemplateMethod mit CardDrawing, CycleRandom und CompletelyRandom. Meiner Erachtens bildet das genau das Muster ab, <NAME_CORPUS_REPLACEMENT> getNextVocabId() in CardDrawing abstrakt definiert und in den Unterklassen überschrieben wird.
+TAGGED_CONTENT:

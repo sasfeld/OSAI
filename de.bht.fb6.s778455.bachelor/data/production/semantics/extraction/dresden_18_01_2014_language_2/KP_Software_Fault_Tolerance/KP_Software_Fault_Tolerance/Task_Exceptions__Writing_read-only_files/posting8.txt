@@ -1,0 +1,12 @@
+ID: 683
+CREATION_DATETIME: 1352242800000
+MODIFICATION_DATETIME: 1352242800000
+TITLE: Doesn't it make the following, absolutely legal in my opinion code, illegal?
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 682
+POSTING_TYPE: comment
+CONTENT:
+Doesn't it make the following, absolutely legal in my opinion code, illegal?
+
+`fwrite(buff, 1, 0, fd)` I think there is no point in trying to infer whether the error occurred or not based on the value fwrite() returns.
+TAGGED_CONTENT:

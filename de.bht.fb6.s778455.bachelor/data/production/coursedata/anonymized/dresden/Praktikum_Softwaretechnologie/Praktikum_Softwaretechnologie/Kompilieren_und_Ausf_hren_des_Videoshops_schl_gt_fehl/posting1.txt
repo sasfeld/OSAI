@@ -1,0 +1,47 @@
+ID: 2658
+CREATION_DATETIME: 1383174000000
+MODIFICATION_DATETIME: 1385593200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo.
+wenn ich das Videoshop-Tutorial kompilieren und ausführen will, wird folgender Fehler erzeugt:
+```ruby
+2013-10-31 16:52:04, 885 DEBUG ntext. support. StandardServletEnvironment: 110 - Adding [class path resource [application. properties]] PropertySource with lowest search precedence
+Exception in thread "main" org. springframework. beans. factory. BeanCreationException: Error creating bean with name 'org. springframework. boot. context. properties. ConfigurationPropertiesBindingPostProcessor': Invocation of init method failed; nested exception is java. lang. AbstractMethodError: org. hibernate. validator. internal. engine. ConfigurationImpl. getDefaultParameterNameProvider()Ljavax/validation/ParameterNameProvider;
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. initializeBean(AbstractAutowireCapableBeanFactory. java:1507)
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. doCreateBean(AbstractAutowireCapableBeanFactory. java:539)
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. createBean(AbstractAutowireCapableBeanFactory. java:475)
+	at org. springframework. beans. factory. support. AbstractBeanFactory$1. getObject(AbstractBeanFactory. java:299)
+	at org. springframework. beans. factory. support. DefaultSingletonBeanRegistry. getSingleton(DefaultSingletonBeanRegistry. java:228)
+	at org. springframework. beans. factory. support. AbstractBeanFactory. doGetBean(AbstractBeanFactory. java:295)
+	at org. springframework. beans. factory. support. AbstractBeanFactory. getBean(AbstractBeanFactory. java:200)
+	at org. springframework. context. support. PostProcessorRegistrationDelegate. registerBeanPostProcessors(PostProcessorRegistrationDelegate. java:219)
+	at org. springframework. context. support. AbstractApplicationContext. registerBeanPostProcessors(AbstractApplicationContext. java:618)
+	at org. springframework. context. support. AbstractApplicationContext. refresh(AbstractApplicationContext. java:467)
+	at org. springframework. boot. context. embedded. EmbeddedWebApplicationContext. refresh(EmbeddedWebApplicationContext. java:122)
+	at org. springframework. boot. SpringApplication. refresh(SpringApplication. java:509)
+	at org. springframework. boot. SpringApplication. run(SpringApplication. java:278)
+	at org. springframework. boot. SpringApplication. run(SpringApplication. java:687)
+	at org. springframework. boot. SpringApplication. run(SpringApplication. java:676)
+	at videoshop. VideoShop. main(VideoShop. java:38)
+Caused by: java. lang. AbstractMethodError: org. hibernate. validator. internal. engine. ConfigurationImpl. getDefaultParameterNameProvider()Ljavax/validation/ParameterNameProvider;
+	at sun. reflect. NativeMethodAccessorImpl. invoke0(Native Method)
+	at sun. reflect. NativeMethodAccessorImpl. invoke(NativeMethodAccessorImpl. java:57)
+	at sun. reflect. DelegatingMethodAccessorImpl. invoke(DelegatingMethodAccessorImpl. java:43)
+	at java. lang. reflect. Method. invoke(Method. java:606)
+	at org. springframework. util. ReflectionUtils. invokeMethod(ReflectionUtils. java:191)
+	at org. springframework. util. ReflectionUtils. invokeMethod(ReflectionUtils. java:176)
+	at org. springframework. validation. beanvalidation. LocalValidatorFactoryBean. configureParameterNameProviderIfPossible(LocalValidatorFactoryBean. java:270)
+	at org. springframework. validation. beanvalidation. LocalValidatorFactoryBean. afterPropertiesSet(LocalValidatorFactoryBean. java:240)
+	at org. springframework. boot. context. properties. ConfigurationPropertiesBindingPostProcessor$Jsr303ValidatorFactory. run(ConfigurationPropertiesBindingPostProcessor. java:359)
+	at org. springframework. boot. context. properties. ConfigurationPropertiesBindingPostProcessor. afterPropertiesSet(ConfigurationPropertiesBindingPostProcessor. java:161)
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. invokeInitMethods(AbstractAutowireCapableBeanFactory. java:1566)
+	at org. springframework. beans. factory. support. AbstractAutowireCapableBeanFactory. initializeBean(AbstractAutowireCapableBeanFactory. java:1503)
+	... 15 more
+```
+Es wurden sowohl das jdk als Compiler eingestellt als auch ein "Maven install" ausgeführt. Auch das Salespoint-Framework ist in den Buildpath eingebunden.
+Ich bitte um Hilfe, <NAME_CORPUS_REPLACEMENT> ich mich ansonsten aktuell außerstande sehe, das Videoshop-Tutorial erfolgreich durchzuarbeiten.
+MfG Uhrkunde
+TAGGED_CONTENT:

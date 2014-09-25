@@ -1,0 +1,9 @@
+ID: 2441
+CREATION_DATETIME: 1374616800000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: Ich habe eben erfahren, dass es bei Kapitel 10 ein technisches Problem mit dem Ton gab. Der dafür zus...
+PARENT_POSTING_ID: 2435
+POSTING_TYPE: answer
+CONTENT:
+Ich habe eben erfahren, dass es bei Kapitel 10 ein technisches Problem mit dem Ton gab. Der dafür zuständige Hiwi arbeitet dran, und versucht das Video so schnell wie möglich fertig zu kriegen.
+TAGGED_CONTENT:

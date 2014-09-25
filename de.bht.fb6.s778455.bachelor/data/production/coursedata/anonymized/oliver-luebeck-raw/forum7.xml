@@ -1,0 +1,1286 @@
+<forum>
+ <thread title="LE04">
+    <post id="1" author="Student1" time="Dienstag, 5. April 2011, 09:36"><![CDATA[
+Hallo zusammen...
+
+kann mir jemand sagen wo die Aufgabe zu LE04 beschrieben steht!? Also was soll ich mit der MyMath.java machen?
+
+Habe ich es in den Kursmaterialien übersehen?
+    ]]></post>
+    <post id="2" reply="1" author="Student2" time="Dienstag, 5. April 2011, 11:11"><![CDATA[
+Hallo ,
+
+unter LE 4 unter der Datei MyMath.java findest du auch die Aufgabe.
+
+http://moodle.oncampus.de/mod/assignment/view.php?id=89502
+
+
+"Fuegen Sie eine weitere mathematische Funktion Ihrer Wahl mit
+Dokumentationskommentar in die Klasse MyMath und testen Sie sie in der main
+Methode. Erstellen Sie die Dokumentation dieser Klasse. Senden Sie mir die
+Datei MyMath.java verpackt in eine .zip Datei mit folgendem Namen:
+IhrNamenLE04.zip"
+    ]]></post>
+    <post id="3" reply="2" author="Student1" time="Dienstag, 5. April 2011, 14:25"><![CDATA[ 
+Ah! Dankeschön!
+
+Da hab ich den Wald vor lauter Bäumen nicht mehr gesehen ;)
+    ]]></post>
+  </thread>
+  
+   <thread title="LE08">
+    <post id="4" author="Student3" time="Mittwoch, 27. April 2011, 21:45" ><![CDATA[
+Guten Abend liebe Kommilitonen,
+
+ich habe einige Probleme mit der Einsendeaufgabe für LE08!
+Vielleicht habt ihr ja die eine oder andere Anregung für mich.
+
+Prinzipiell habe ich die Aufgabe von hinten begonnen. Ich habe also beide Klassen (EinfachesAuto und ErweitertesAuto) geschrieben und compiliert.
+Soweit so gut. Nun möchte ich die Klassen auch testen. Allerdings tue ich mich damit sehr schwer.
+Wie kann man die Objektmethoden aus Einfaches bzw ErweitertesAuto in die AutoTest.java einbinden. Frau Prof. Dr. Merceron meinte, dass man Triangle.java als Vorbild nehmen soll. Das erschien mir sinnvoll. Nach einigen rumprobieren bekomme ich es einfach nicht hin.
+
+Man schreibt also eine Klasse AutoTest. - public class AutoTest
+Wie geht es weiter?
+Man ruft public Einfaches Auto auf, oder?
+In der main Methode erstellt man dann die drei Objekte. zB. auto 1 bis 3?!
+
+EinfachesAuto auto1 = new EinfachesAuto ()
+EinfachesAuto auto2 = new EinfachesAuto ()
+EinfachesAuto auto3 = new EinfachesAuto ()
+
+Was schreibe ich in die Klammern bzw wie(welche Form) ?
+
+Danach rufe ich die jeweilige Methode aus der Klasse EinfachesAuto auf?!
+Also: auto1.alter();
+
+Puh, ich hoffe ihr könnt mir helfen!
+
+Besten Dank im Voraus!
+    ]]></post>
+    <post id="5" reply="4" author="Student4" time="Mittwoch, 27. April 2011, 22:45"><![CDATA[ 
+hallo!
+
+ich versuche mal dir zu helfen. ob das alles so richtig ist, weiß ich nicht, aber bei mir funktioniert es *g*
+
+>> Man schreibt also eine Klasse AutoTest. - public class AutoTest
+genau
+
+>> Wie geht es weiter?
+weil die klasse etwas ausgeben soll setzt du dort die main-methode rein.
+dort greifst du dann auf EinfachesAuto genau so zu wie du es geschrieben hast:
+
+EinfachesAuto auto1 = new EinfachesAuto ()
+EinfachesAuto auto2 = new EinfachesAuto ()
+EinfachesAuto auto3 = new EinfachesAuto ()
+
+in die klammern kommen dann die jeweiligen einträge die du brauchst, also name, marke, baujahr usw.. dabei musst du nur darauf achten, dass du sie in der richtigen form schreibst. wenn EinfachesAuto einen string an einer bestimmten stelle erwartet, musst du das auch so übergeben. also in "".
+
+deine methoden kannst du dann direkt danach (auch in der main-methode) aufrufen wie du es oben schon geschrieben hast (auto1.alter();)
+
+ich hoffe, das war einigermaßen verständlich. ist n bißchen schwierig zu erklären... ;) ansonsten frag einfach nochmal, dann versuche ich mich irgendwie anders auszudrücken.
+
+viel erfolg,
+    ]]></post>
+    <post id="6" reply="5" author="Student3" time="Donnerstag, 28. April 2011, 08:31"><![CDATA[ 
+Hallo ,
+
+vielen Dank für deine rasche Hilfe!
+Das war das fehlende Puzzle-Teil.
+Vielen, vielen Dank!
+Die Klasse AutoTest funktioniert und heute Abend mache ich mich an AutoTest2.
+
+Super, super, super....
+
+Viele Grüße, 
+    ]]></post>
+    <post id="7" reply="6" author="Student3" time="Donnerstag, 28. April 2011, 21:46"><![CDATA[ 
+Guten Abend!
+(Oder sollte ich System.out.println("Guten Abend!"); sagen?)
+
+Habt ihr für String standort und long Fahrgestellnummer einen neuen Konstruktor aufgemacht?
+Ich habe das in den bestehenden eingenbunden. Ansonsten müsste man doch noch einen mit dem Klassennamen (ErweitertesAuto) erstellen, oder?
+Also überladen?!
+
+Ansonsten habe ich noch eine weitere Frage. Wie habt ihr faehrtNach umgesetzt? Ich schrieb:
+
+public int faehrtNach(String ziel, int entfernung) {
+this.ziel = ziel;
+this.entfernung = entfernung;
+
+return entfernung + this.kmStand;
+
+Das ist irgendwie totaler Nonsens. Dementsprechend kann ich für System.out.println auch nicht auf ziel und entfernung zugreifen.
+
+Hat jemand einen Tip? 
+
+Beste Grüße, 
+    ]]></post>
+    <post id="8" reply="7" author="Student5" time="Donnerstag, 28. April 2011, 22:42"><![CDATA[ 
+Hallo ,
+
+ich habe für Standort und Fahrgestellnummer einen neuen Konstruktor ErweitertesAuto aufgemacht.
+
+Bei faehrtNach müsstest Du dem vorherigen Standort das jetzige Ziel zu weisen, das ja das neue Ziel ist. Außerdem habe ich kmStand die Summe aus kmStand und Entfernung zugewiesen. Ich glaube, hier wird das "this." nicht benötigt.
+
+Ich hoffe, das hilft Dir weiter. Ansonsten frag einfach noch mal nach.
+
+Viele Grüße
+    ]]></post>
+    <post id="9" reply="8" author="Student4" time="Donnerstag, 28. April 2011, 23:03"><![CDATA[ 
+hallo ihr zwei :)
+
+ich habe das System.out.println direkt in die methode fährtNach geschrieben. da werden dann mein text und die übergebenen werte für this.standort, ziel und entfernung ausgegeben.
+als zweites hab ich kmStand neu berechnet (this.kmStand + entfernung) und ihn mit return zurück gegeben.
+
+sollten wir auch den neuen standort (ziel) übergeben?
+
+und noch eine frage: was macht ihr mit dem neuen kmStand? schreibt ihr noch eine methode zur ausgabe? ansonsten würde man es ja nur sehen, wenn man erst danach alleDatenAusgeben aufruft, oder? man könnte natürlich eine zweite methode zum ausgeben der (geänderten) daten schreiben.... hmm...
+in der aufgabenstellung steht ja nur, dass der neue kmStand zurückgegeben werden soll, nicht was damit passieren soll...
+
+alles liebe,
+    ]]></post>
+    <post id="10" reply="9" author="Student3" time="Freitag, 29. April 2011, 09:01"><![CDATA[ 
+Guten Morgen , guten Morgen ,
+
+vielen Dank für eure Hilfe!
+
+Die Idee  die System.out.println- Anweisungen direkt in die Methode faehrtNach zu schreiben war sehr gut und funktioniert bei mir tadellos.
+
+: Wenn ich die Aufgabenstellung richtig verstanden habe, sollen wir den neuen Standort speichern. Dazu müssen wir, wenn ich nicht irre, sowieso die Formel schreiben. Damit hätten wir den Wert auch übergeben. Mir scheint, das hängt eh alles an einer Leine.
+
+Der neue km-Stand soll ja eigentlich nur übergeben und nicht ausgeben werden.
+Aber ich denke deine Idee mit der zweiten Methode für die neuen Daten ist eine gute Lösung, da alleDatenAusgeben sonst unübersichtlich wird.
+-> Ich habe das so gemacht und gleich noch den neuen Standort ausgeben.
+
+: Du hast ja einen zweiten Konstruktor für Standort und Fahrgestellnummer geschrieben.
+Der heißt auch ErweitertesAuto und beeinhaltet die gleichen Anweisungen wie der erste Konstruktor mit diesem Namen? Nur, dass hier nur zwei Attribute zum Einsatz kommen?! Wie rufst du diese Werte in AutoTest2 ab? auto1.ErweitertesAuto("Standort", fahrgestellnummerL)?
+
+Beste Grüße, 
+   ]]></post>
+    <post id="11" reply="10" author="Student3" time="Freitag, 29. April 2011, 15:30"><![CDATA[ 
+@(oder wer es weiß):
+
+Wenn ich einen zweiten Konstruktor(standort und fahrgestellnummer) erstelle, kann ich ja die bisherigen Objekte(auto 1 bis 3) nicht nochmal definieren. Diese habe ich ja bereits mit den ersten Konstruktor definiert. Ich erhalte die Ausgabe Objekte sind schon definiert.
+Erstellst du drei weitere Objekte, obwohl es sich noch um die gleichen Autos handelt?
+
+Viele Grüße, 
+   ]]></post>
+    <post id="12" reply="11" author="Student4" time="Freitag, 29. April 2011, 18:43"><![CDATA[ 
+ich hab die neuen attribute einfach mit in ErweitertesAuto geschrieben und dann genau so zugewiesen wie es vorher z.b. mit autotyp und farbe gemacht wurde. meinst du wir sollten eine zweite methode dafür schreiben?
+wie das dann funktionieren würde müsste ich ausprobieren.
+
+jetzt hab ich endlich meine laptop zurück, dann werde ich gleich mal ein bißchen dran basteln, auch am "problem" mit dem Speichern von kmStand und neuem Standort....
+   ]]></post>
+    <post id="13" reply="12" author="Student3" time="Freitag, 29. April 2011, 20:26"><![CDATA[ 
+Hallo ,
+
+ich habe die neuen Attribute ebenso in ErweitertesAuto geschrieben.
+Ich meine, dass wir einen neuen Konstruktor schreiben sollten.
+Das habe ich aber bisher nicht ganz hinbekommen und in diesem Zusammenhang ist es außerdem recht unnötig, da der von uns gewählte Weg einfacher ist.
+
+Was deine Probleme mit dem kmStand und dem neuen Standort angeht kann ich dir helfen. Nach deinen Tipps bestehe ich sogar darauf. :-)
+
+Ergänze doch mal diese Befehle in faehrtNach
+
+this.kmStand=(this.kmStand+entfernung);
+this.standort=ziel;
+return this.kmStand;
+
+Wenn du in AutoTest2 erst alleDatenAnzeigen startest, dann faehrtNach und dann die neue Methode mit den veränderten Werten anzeigst,
+funktioniert alles einwandfrei.
+
+Viele Grüße, 
+
+PS: Wer geht nächste Woche zu dem Treffen mit Frau Prof. Dr. Merceron?
+Ich finde das eine tolle Idee und werde auf jeden Fall kommen.
+   ]]></post>
+    <post id="14" reply="13" author="Student5" time="Freitag, 29. April 2011, 20:49"><![CDATA[ 
+Hallo ,
+
+ich habe in ErweitertesAuto einfach einen zweiten Konstruktor Erweitertes Auto eingefügt, der alle Parameter des ersten Konstruktor (Besitzer, Autotyp, Farbe, ...) enthält sowie die neuen (..., String standort, long fahrgestellnummer). Das hat dann auch ganz gut funktioniert.
+
+Viele Grüße
+
+PS: Ich finde das auch eine gute Idee und bin bei dem Treffen dabei.
+   ]]></post>
+    <post id="15" reply="14" author="Student3" time="Freitag, 29. April 2011, 21:45"><![CDATA[  
+Hallo ,
+
+danke für die Antwort!
+So kann ich mir vorstellen, dass es funktioniert.... Der zweite Konstruktor überbügelt ja sozusagen die Werte des ersten und stellt das ganze Paket zur Verfügung. Genauso, als wenn man nur einen hat.
+
+Wir lesen uns diese Woche bestimmt nochmal zu LE09.
+
+Beste Grüße, 
+
+PS: Bis nächste Woche zur Pre-Präsenz.
+   ]]></post>
+    <post id="16" reply="15" author="Student5" time="Freitag, 29. April 2011, 22:46"><![CDATA[ 
+Hallo ,
+
+dadurch, daß der erste Konstruktor weiterhin vorhanden ist, ist die Möglichkeit gegeben, auch Objekte zu erstellen, die keine Fahrgestellnummer und keinen Standort haben. Das ist der Vorteil zu nur einem Konstruktor mit allen Parametern.
+
+Viele Grüße
+Christina
+
+PS: Ich habe gerade gesehen, daß die Pre-Präsenz kurz vor die Präsenzveranstaltung Informatik gelegt wurde. Aber bevor Informatik losgeht, komme ich auf jeden Fall noch vorbei.
+   ]]></post>
+    <post id="17" reply="16" author="Student4" time="Sonntag, 1. Mai 2011, 14:05"><![CDATA[ 
+hallo! :)
+
+vielen dank für den tipp! speichern vom neuen standort usw hat wunderbar geklappt! :)
+
+zur pre-präsenz wollte ich eigentlich auch kommen, aber dass sich das mit informatik überschneidet ist wirklich ungünstig.
+ich werd dann auch versuchen vorher noch kurz vorbei zu schauen, obs klappt weiß ich leider noch nicht.
+
+wünsch euch n schönes rest-wochenende!
+   ]]></post>
+    <post id="18" reply="5" author="Student6" time="Donnerstag, 5. Mai 2011, 17:42"><![CDATA[ 
+Hallo , hallo auch an alle Anderen
+
+ich habe ebenso wie Knut Probleme mit dem Zugriff auf EinfachesAuto aus AutoTest. Allerdings liegt mein Problem woanders. Wenn ich in der Klasse AutoTest auf EinfachesAuto auto1.farbe ... zugreifen will, erhalte ich die Fehlermeldung farbe has private accsess in EinfachesAuto.
+Ich habe noch nie in meinem Leben programmiert, bin absolute Anfängerin und weiß an dieser Stelle nicht weiter. Mein Programm EinfachesAuto läuft.
+
+Für Tipps wäre ich wirklich dankbar!
+
+Schöne Grüße, 
+   ]]></post>
+    <post id="19" reply="18" author="Student7" time="Donnerstag, 5. Mai 2011, 18:32"><![CDATA[ 
+Hallo 
+
+Dein Problem ist, dass du versuchst von "Außen" auf eine private Variable zuzugreifen.
+Auf die Variable farbe kann nur die Klasse EinfachesAuto selbst zugreifen.
+Um dein Problem zu lösen musst du entweder die Variable farbe auf public setzen, das würde allerdings dem Prinzip der Kapselung der Objektorientierten Programmierung widersprechen.
+Oder aber, du schreibst dir eine Methode die public ist und die Variable farbe zurückliefert.
+
+z.B.
+
+public String getFarbe() {
+return this.farbe;
+}
+
+Nun kannst du auch aus AutoTest durch auto1.getFarbe() die Farbe herausbekommen.
+
+Die sogenannten Zugriffsmodifizierer findest du in LE06, Kapitel 3
+
+Gruß, 
+    ]]></post>
+  </thread>
+  
+    
+   <thread title="LE09 (Download vfh.prog1.bib)">
+    <post id="20" author="Student8" time="Dienstag, 3. Mai 2011, 19:07" ><![CDATA[
+Hallo!
+
+In der LE09 steht das man den Pfad der "vfh.prog1.bib" richtig angeben muss
+damit man bei der LE09 diesen richtig importieren kann!
+
+Ich habe aber diese Bibiliothek gar nicht !
+
+Hat jemand eine Idee wo ich diese downloaden kann ??
+
+Vielen Dank !
+
+   ]]></post>
+    <post id="21" reply="20" author="Student4" time="Dienstag, 3. Mai 2011, 20:30"><![CDATA[ 
+hallo !
+
+die dateien waren alle in der übungsumgebung die wir ganz zu anfang runterladen und auf c: installieren sollten. da müsste dann eigentlich auch "bib" drin sein.
+falls du das noch runterladen musst:
+> Kurs-Materialien > Downloads > Übungsumgebung des Lernmoduls Programmieren 1 (ganz unten auf der seite)
+
+viele grüße,
+   ]]></post>
+    <post id="22" reply="20" author="Student9" time="Dienstag, 3. Mai 2011, 20:50"><![CDATA[ 
+Hallo,
+
+schau mal unter Lernprogramm LE04 auf Seite 6. Dort kannst du das Package runterladen.
+
+Oder versuch diesen Link hier. http://moodle.oncampus.de/mod/resource/view.php?id=87108
+
+Gruß
+   ]]></post>
+    <post id="23" reply="22" author="Student3" time="Mittwoch, 4. Mai 2011, 20:44"><![CDATA[ 
+HILFEEE!
+
+Guten Tag liebe Leserunde,
+
+Aufgabe LE09-1(2 hab ich schon gelöst- nur das ihr nicht denkt ich bin völlig gaga :-) ) raubt mir den letzten Nerv. Ich komme nicht weiter und hoffe ihr könnt mir helfen.
+
+Ich habe bisher eine normale Klasse angelegt und eine Methode getWert angelegt.
+Dorthinein habe ich den Beispieltext kopiert und eine main-Methode angehängt und erstmal das Ganze getestet. Doch da geht es schon los.
+
+public double getWert(){
+double wert = Konsole.getInputDouble("Wert:");
+
+cannot find symbol
+symbol: variable Konsole
+location: class Messwertanalyse
+
+double wert = Konsole.getInputDouble("Wert");
+
+1 error
+
+Ich hatte damals die Entwicklungsumgebung gemäß LE04 eingerichtet.
+Mein Verzeichnis: c:\ java_bsp\vfh\prog1\bib
+
+
+Was kann ich tun?
+Irgendwie fehlt mir absolut der Ansatzpunkt diese Aufgabe anzugehen.
+
+Ich deklariere doch sicherlich eine Methode, wie oben genannt, in der ich eine Eingabe Einlese. Sicherlich fordere ich vorher per Bildschirmausgabe eine Eingabe an.
+Diese Eingabe "Wert" wird dann über die switch-Anweisung verglichen. Also
+Wert= Sollwert alles prima
+Wert<= Toleranz alles okay
+Wert>= Toleranz nicht okay
+
+Wo würde ich die Soll- und Toleranzwerte bestimmen.
+
+Seid ihr beruftätig? Also nach Feierabend solche Dinger zu wuppen fällt mir ehrlich gesagt recht schwer.
+
+Beste Grüße, 
+   ]]></post>
+    <post id="24" reply="23" author="Student10" time="Mittwoch, 4. Mai 2011, 21:25"><![CDATA[ 
+Hi,
+
+versuch doch mal die Datei in das gleiche Package zu bringen
+
+package vfh.prog1.bi;
+
+ganz oben in der Datei, also ich musste auch schon bei Le08 bissel rumtesten bis er die Symbole gefunden hatte.
+
+Installiere doch mal Eclipse dann siehst du wenigstens direkt ob er das Symbol jetzt gefunden hat oder nicht.
+
+Le09 hab ich leider noch nicht angefangen...
+
+Gruß 
+   ]]></post>
+    <post id="25" reply="23" author="Student4" time="Mittwoch, 4. Mai 2011, 21:41"><![CDATA[ 
+hallo !
+
+ich bin zum glück nicht wirklich berufstätig sondern arbeite nur nebenbei von daheim. das macht das ganze einfacher ;)
+
+wo genau dein problem liegt kann ich leider so auf anhieb auch nicht sagen, bei mir sieht das alles irgendwie anders aus.
+ich habe eine klasse MesswertAnalyse, dort rufe ich double wert = Konsole.getInputDouble("Wert:"); direkt in der main-methode auf. (an dieser stelle noch drauf achten, dass du zwei werte brauchst. soll- und messwert).
+daraus dann die abweichung bestimmen.
+
+danach musst du wie oben geschrieben nur noch "vergleichen", also in welcher größenordnung die abweichung liegt. ich meine es geht nur mit ner if-anweisung (weil es ja keine int-werte sind (oder byte oder short oder char....)). wenns auch mit switch geht lasse ich mich aber gern eines besseren belehren, das wäre übersichtlicher :)
+
+liebe grüße,
+   ]]></post>
+    <post id="26" reply="25" author="Student9" time="Donnerstag, 5. Mai 2011, 00:08"><![CDATA[ 
+Es ist so wie Hendrik gesagt hat. Es liegt am Package welches du nicht eingebunden hast.
+
+Versuch dir mal Eclipse zu installieren. http://www.eclipse.org/downloads/
+
+Am besten die 32 Bit Anwendung für JAVA.
+
+- Installieren, gegebenfalls JAVA SDK downloaden.
+- Eclipse Starten
+- Workspace auswählen. Beispielsweise (C:\Uni\Semester1\GdPro1\)
+- Danach JAVA Projekt anlegen Beispielsweise: LE09
+- Dann einfach das prog1.zip entpacken und dann einfach ab "vfh" kopieren und in den src Ordner einfügen
+
+Tja, schwierig das hier alles zu schreiben, was du machen musst. Ih hoffe du bekommst das so hin.
+
+Alternativ kannst du aus der Struktur auch die Konsole.java so einbinden wie du es auch bei LE09-2 mit der GUI.java gemacht hast.
+
+Gruß
+   ]]></post>
+    <post id="27" reply="26" author="Student11" time="Donnerstag, 5. Mai 2011, 12:16"><![CDATA[ 
+Hi Leute,
+wollte auch endlich mal was schreiben.
+
+Also erstmal, Java ist schon eine komische Sprache - mit diesen import..., -classpath... , usw... Anweisungen. Ist in anderen Sprachen meiner Meinung nach wesentlich einfacher Klassen einzubinden.
+
+Ich haben auch lange verzweifelt, weil ich auch die komischen Fehlermeldungen hatte (cannot find symbol) oder besser noch package does not exist (will der mich verarschen, da ist es doch!!).
+Mittlerweile scheint es aber zu funktionieren, habe dann erstmal alles nach C:/ kopiert weil ich eigentlich meine eigene Ordnerstuktur habe, aber gut.
+Dateien runterladen und in das Verzeichnis kopieren, die Klasse muss man wohl direkt benennen:
+
+import vfh.prog1.bib.Konsole;
+
+Dann nicht vergessen beim Kompilieren und beim Aufrufen den classpath-Parameter richtig zu setzen ( . für das akt. Verzeichnis und dann soll er mal komplett C:\ durchsuchen)
+
+javac -classpath .;C:\ Messwertanalyse.java
+java -classpath .;C:\ Messwertanalyse
+
+Warum man das zweimal angeben muss, weiß ich ooch nich.
+
+PS: Buchtipp: Galileo Openbook: Java ist auch eine Insel
+
+http://openbook.galileocomputing.de/javainsel/
+
+Steht auch was zu Eclipse drinne, ist aber Einarbeitung erforderlich.
+
+
+Bis dann
+   ]]></post>
+    <post id="28" reply="27" author="Student9" time="Donnerstag, 5. Mai 2011, 13:38"><![CDATA[ 
+Hallo,
+
+ich würde für die Bearbeitung der Aufgaben definitv Eclipse oder Netbeans benutzen. Tendenz ganz klar zu Eclipse.
+
+Es ist zwar nicht schlecht zu wissen wie man auf in der CMD kompiliert etc. aber es verlangsamt doch ganz schön die Arbeit.
+
+Alleine schon wegen der Intellisense und den Fehlerhinweisen Gold wert :).
+
+Daher, einmal ein bissle in Eclipse einarbeiten und schon könnt ihr dadurch eine Menge Zeit einsparen. Ich weiß nicht in welcher IDE wir am Samstag in der UNI arbeiten, aber ich werde persönlich in Eclipse auf meinem Laptop die Aufgaben lösen.
+
+Vielleicht findet sich ja die Zeit auch mal Eclipse ein wenig zu erläutern.
+
+Der Buchtipp ist nicht schlecht. Habe mir aber bisher verkniffen das zu posten, da es durchaus den unerfahrenen etwas überfordern kann.
+
+LG
+   ]]></post>
+    <post id="29" reply="28" author="Student11" time="Donnerstag, 5. Mai 2011, 14:27"><![CDATA[ 
+@
+
+Hast Du ein Buchtipp für Einsteiger?
+ 
+Ursprungsbeitrag | Bearbeiten | Thema teilen | Löschen | Antwort
+Nutzerbild Student9
+Re: LE09 (Download vfh.prog1.bib)
+von Student9 - Donnerstag, 5. Mai 2011, 15:06
+ 
+@
+
+Eher nicht. Lese, wenn mir eine Lösung fehlt im Internet nach. Muss mal Daheim schauen ob ich noch JAVA Bücher rum zu liegen habe.
+
+Ansonsten einfach mal auf dieser Seite hier schauen. Dort gibt es günstig Bücher. Gegebenfalls kann man dort auch eine Sammelbestellung aufmachen und die Versandkosten sparen.
+
+http://www.terrashop.de/buecher/prog/java/
+
+eBooks habe ich sicherlich auch noch.
+
+Gruß
+   ]]></post>
+    <post id="30" reply="28" author="Student12" time="Donnerstag, 5. Mai 2011, 17:41"><![CDATA[ 
+Hi,
+
+mein absoluter Favorit in Sachen Selbstlernlektüre für Programmierspachen u. ä. ist die Reihe "Von Kopf bis Fuß" vom O'Reilly Verlag.
+Für Java wäre es das Buch "Java - Von Kopf bis Fuß".
+Ist kein langweilig geschriebenes Nachschlagewerk, sondern visuell und inhaltlich total aussergewöhnlich konzipiert, man behält das Gelernte wirklich im Kopf!
+http://www.amazon.de/Java-von-Kopf-bis-Fu%C3%9F/dp/3897214482
+
+Bis Samstag!
+Gruß,
+   ]]></post>
+    <post id="31" reply="27" author="Student3" time="Donnerstag, 5. Mai 2011, 16:29"><![CDATA[
+Hallo lieber Lesezirkel!
+
+Ich bin wirklich beruhigt, dass ihr auch so eure Probleme mit den Aufgaben habt, denn ich habe schon meinem Verstand gezweifelt.
+Ich möchte wirklich nicht zimperlich klingen aber vielleicht ist LE09 nicht gerade optimal für Java-Neulinge.
+In LE01 wusste ich gemäß der Unterlagen nicht einmal wie man Bit in Byte umrechnet und nur 8 Lektionen später werde ich mit einer Aufgabe konfroniert, welche man lieber mit dem Tool löst, was wir erstmal nicht nutzen sollen um Java zu lernen.
+Zudem stimmen die Angaben zur Einrichtung der Entwicklungsumgebung auf einmal nicht mehr und man fängt an rumzuknobeln.
+Als Einsteiger verwirrt mich sowas doch recht schnell.
+Leider habe ich als berufstätiger Familienvater für sowas keine Zeit.
+Sicherlich weiß ich, dass ich als Online-Student einen Nachteil zum Präsenzstudium habe, da die ständige persönliche Kommunikation fehlt und ich alles lesen statt hören muss.
+Das wusste ich und unter dem Aspekt habe ich mich eingeschrieben. Aber irgendwie ging mir jetzt was zu schnell.
+Ich hoffe, dass ich den Einstieg wieder finde.
+
+Ich danke euch für die Tipps und werde mich nun auch mit Eclipse vertraut machen.(kostet wieder erstmal Zeit :-( )
+Außerdem hoffe ich auf die Präsenzveranstaltung, dass das lose Wissen gefestigt und die Unsicherheiten beseitigt werden.
+
+@ : Du hast völlig Recht...switch Anweisung bei double kann man vergessen.
+
+Beste Grüße,
+   ]]></post>
+    <post id="32" reply="31" author="Student8" time="Donnerstag, 5. Mai 2011, 17:35"><![CDATA[
+Ich danke euch allen für das zahlreiche Feedback !
+
+Ich verwende auch Eclipse aber ich habe es da auch nicht zu laufen gebracht !
+Ich bin jetzt dazu übergegangen die Methode die ich brauche in meine Klasse zu übernehmen und sie direkt anzusprechen!
+
+Weiß jemand wie man es bei Eclipse einstellen muss das er den Import:
+"vfh.prog1.bib.Konsole" erkennt ??
+Ich habe das ganze über EXTERNAL CLASS FOLDER in den Project Settings versucht einzubinden....
+Dann wollte er aber immer den Import
+auf "prog1.bib.Konsole" ändern (über Fix Import) hat dann aber beim Compilieren eine ClassNotFound Exception geworfen ...
+
+Naja ich habe es jetzt anders gelöst ... und werde noch weiter rumprobieren !!
+
+Schönen Abend noch !!
+   ]]></post>
+    <post id="33" reply="32" author="Student7" time="Donnerstag, 5. Mai 2011, 19:26"><![CDATA[
+Ich weiß zwar nicht wie es bei Eclipse ist, aber bei IDEA reicht es aus den vfh Ordner in den Source Ordner zu kopieren.
+
+Sollte dann so aussehen:
+
+LE09
+|-vfh
+| |-prog1...
+|-Messwertanalyse.java
+
+Ich kann IntelliJ IDEA übrigens nur empfehlen, mag Eclipse irgendwie nicht :-)
+Kostet nix, gibts aber leider nur auf Englisch.
+Wenn es jemand probieren möchte und Hilfe beim Einrichten brauch kann er sich ja melden.
+
+Gruß, 
+   ]]></post>
+    <post id="34" reply="33" author="Student9" time="Donnerstag, 5. Mai 2011, 20:24"><![CDATA[
+Genauso funktioniert es auch in Java. Einfach die Ordnerstruktur im Explorer kopieren und im Eclipse auf dem src Ordner einfügen.
+
+Da ich die Aufgaben für die Präsenz am Samstag schon so gut wie fertig habe kann ich durchaus mit Rat und Tat zur Seite stehen.
+
+Liebe Grüße
+   ]]></post>
+    <post id="35" reply="34" author="Student4" time="Donnerstag, 5. Mai 2011, 21:52"><![CDATA[ 
+hallo !
+
+"kleine" frage am rande: sollten wir die Aufgaben schon vorher bearbeiten? :O ich meine, ich bereite da auch was vor, aber fertig bekomme ich das auf keinen fall!! hab doch bei einigen aufgaben noch meine probleme....
+
+ich habe eben auch mal eclipse installiert, aber irgendwie war mir das noch zu unübersichtlich, also gehts erstmal weiter mit textpad :D
+wäre super, wenn du oder jemand anders am samstag vielleicht kurz das programm erklären könnte.
+
+alles liebe,
+   ]]></post>
+    <post id="36" reply="27" author="Student6" time="Donnerstag, 5. Mai 2011, 21:21"><![CDATA[ 
+Hallo alle zusammen,
+
+also ich hatte auch die Probleme mit dem import vhf.prog1.bib.Konsole und den CLASSPATH-Umgebungsvariablen. Das Symbol wurde nicht gefunden.
+Ich hab dann einfach "Konsole" weggelassen und das Programm lief.
+
+Schöne Grüße
+   ]]></post>
+    <post id="37" reply="36" author="Student3" time="Donnerstag, 5. Mai 2011, 21:43"><![CDATA[ 
+Vielen Dank an alle! Ihr habt mir echt weiter geholfen.
+Dennoch:
+-> meine Helden des Tages: Clemens und Oliver
+
+Eure Tipps haben mir ein lauffähiges Programm beschert.
+
+Den betrag bekomme ich leider noch nicht hin.
+public static double abs(double messwert)) klappt irgendwie nicht so recht.
+Vermutlich habe ich es an die falsche Stelle geschrieben.
+Wo sollte man es den postieren?
+java.lang.Math; habe ich importiert.
+
+Woher könnt ihr so gut JAVA?
+
+Beste Grüße, 
+   ]]></post>
+    <post id="38" reply="37" author="Student7" time="Donnerstag, 5. Mai 2011, 21:58"><![CDATA[  
+Math.abs( messwert ) sollte dir eigentlich den absoluten Wert von messwert liefern. Also einfach so aufrufen reicht schon.
+
+Ich mach das jeden Tag auf Arbeit ;-)
+   ]]></post>
+    <post id="39" reply="38" author="Student9" time="Donnerstag, 5. Mai 2011, 22:53"><![CDATA[ 
+Nein wir sollten die Aufgaben nicht vorher lösen :).
+
+Ich wollte das eigentlich nur machen um damit vielleicht nicht zur Präsenz zu kommen. Ein Kommilitone besucht diesen Kurs dieses Semester nicht und mit dem wollte ich dann die Zeit verbringen ^^.
+
+Ich programmiere täglich auf Arbeit. Das reicht von Visual Basic über C++, C#, WPF bis hin zu JAVA. Obwohl letzteres eher selten. ABER: Kennt man eine Programmiersprache sind die anderen nicht sehr schwer. Oft gibt es nur Syntax Unterschiede, bzw. jede Programmiersprache hat ein paar Sachen mehr oder weniger.
+
+Dafür bin ich in kreativer Arbeit ne absolute Niete :)
+
+LG
+    ]]></post>
+  </thread>
+  
+     <thread title="LE09 Rechner Exceptions verhindern ??">
+    <post id="40" author="Student8" time="Samstag, 7. Mai 2011, 19:29" ><![CDATA[
+Hallo!
+
+Ich habe soeben die Rechner Aufgabe von LE09 "gelöst"!
+
+Jetzt wirft er aber beim teilen durch 0 oder wenn ich z.B:
+4* = drücke ("also zahl1->op->=" ohne zahl2) Exceptions.
+
+Ist es teil der Aufgabe diese zu verhindern ?? Oder geht es nur darum das er richtig rechnet wenn er die Werte erhält ???
+
+Sonst müsste ich halt noch ausschließen das eine Zahl nicht enthalten ist
+oder durch 0 geteilt wird. Dann würde ich aber eigentlich gerne einen String ERR zurückgeben. Vorgabe ist aber eben "int".
+
+Was meint ihr dazu bzw wie habt ihr das ganze gelöst ??
+
+Schönen Samstag noch !!
+
+   ]]></post>
+    <post id="41" reply="40" author="Student9" time="Samstag, 7. Mai 2011, 20:57"><![CDATA[ 
+Hallo,
+
+eine Fehlerbehandlung ist hier nicht die Aufgabe. Soweit ich das verstanden habe. Du sollst nur verstehen was da passiert. Division durch 0 ergibt nun einmal eine Exception.
+
+Das auch eine Exception fliegt wenn du nur 4*= eingibst ist klar, da der zweite Wert bzw. dessen Variable die du ja definierst initial schon eine 0 bekommt.
+
+Bsp.:
+
+int i;
+
+System.out.println(i);
+
+Konsole: 0
+
+Hoffe das war verständlich.
+
+Gruß
+    ]]></post>
+  </thread>
+  
+       <thread title="LE09">
+    <post id="42" author="Student4" time="Montag, 2. Mai 2011, 22:32" ><![CDATA[
+Hallo! :)
+
+Hat sich zufällig schon jemand von euch schon die Einsendeaufgabe 09-E1 angeschaut?
+Dort soll eine Tabelle erstellt werden. Nun frage ich mich wie umfangreich diese Tabelle sein sollte (Eine Seite? Zwei Seiten? Zehn Seiten? überrascht...) und ob es reicht nur kurz zu schreiben was die Ausgabe ist (exakt, in Toleranz, brauchbar....) oder ob auch der Wert der Abweichung angegeben werden soll. Den Wert habe ich eh schon ausgerechnet, wobei ich mittlerweile denke, dass ich mir das vielleicht auch hätte sparen können wenn wir den gar nicht in die Tabelle schreiben sollen.
+
+Danke schonmal und noch einen schönen Abend,
+   ]]></post>
+    <post id="43" reply="42" author="Student9" time="Montag, 2. Mai 2011, 23:55"><![CDATA[ 
+Hallo!
+
+Habe die Aufgabe LE09 schon abgegeben. Hatte doch glatt vergessen diese Tabelle anzufertigen. Hmm, habe dennoch in der Berwertung im Modul schon 100% zu stehen.
+
+Eventuell muss ich die Tabelle nochmal nachreichen. Würde da aber nur die Werte nehmen die schon vergegeben sind. Sind ja kleine und große Werte dabei.
+
+Gruß
+   ]]></post>
+    <post id="44" reply="43" author="Student4" time="Dienstag, 3. Mai 2011, 20:25"><![CDATA[  
+hallo !
+
+vielen dank für die schnelle antwort! ich werde mich später mal an die tabelle setzen. hab aber jetzt schon rausgefunden, dass es zu fehlern bei extrem großen zahlen kommt. ist das bei dir auch so?
+
+alles liebe,
+   ]]></post>
+    <post id="45" reply="42" author="Student2" time="Donnerstag, 5. Mai 2011, 16:43"><![CDATA[  
+Hallo,
+
+klink mich mit meiner Frage auch mal mit ein und hoffe auf Hilfe!
+Hab meine Messwertdatei inzwischen halbwegs zum laufen bekommen,
+aber leider funktionierts nur richtig wenn der Messwert größer als der Sollwert ist. Ist er kleiner dann gibt er mir immer nur aus das der "Wert im Toleranzbereich ist". Ausserdem ist mir etwas unklar was mit dem Zahlen-Buchstaben-Salat geschehen soll, muss er da ausgeben das der eingegebene Wert nicht kompatibel ist?
+
+Danke und liebe Grüße
+   ]]></post>
+    <post id="46" reply="45" author="Student7" time="Donnerstag, 5. Mai 2011, 19:52"><![CDATA[  
+Hallo ,
+
+wahrscheinlich hast du die kleinen Striche links und rechts in der Überischt übersehen:
+
+| Messwert - Sollwert |
+
+Das heißt, der absolute Wert soll hier verglichen werden.
+Wenn der Messwert kleiner ist als der Sollwert kommt immer eine negative Zahl raus:
+10-10.9 = -0,9
+10-100 = -90
+und damit ist Messwert - Sollwert natürlich auch immer <= 0,1
+
+Es gibt in Java schon eine Klasse, die das Berechnen des absoluten Wertes übernimmt:
+Math.abs()
+Hier ist die Dokumentation dazu: link
+
+Hoffe das hilft dir weiter.
+
+Und zu deiner Anderen Frage: diese Buchstaben sind nur eine andere Schreibweise für sehr große bzw. sehr kleine Zahlen. du kannst das einfach so beim Einlesen der Werte eingeben.
+
+Gruß, 
+   ]]></post>
+    <post id="47" reply="46" author="Student4" time="Donnerstag, 5. Mai 2011, 22:02"><![CDATA[ 
+hallo , hallo !
+
+ich bin das problem mit dem absoluten wert umgangen.
+als erstes habe ich die abweichung berechnet. dann gibt es zwei möglichkeiten. entweder verwandelt man die zahl, sollte sie negativ sein, in eine postive zahl (einfach * (-1)). oder man erweitert die bedingungen ein bißchen, z.B. (-0.1 <= abweichung && abweichung <= 0.1).
+ich habe noch keine rückmeldung bekommen ob das so ok ist, aber die ergebnisse stimmten.
+
+alles liebe,
+   ]]></post>
+    <post id="48" reply="47" author="Student2" time="Montag, 9. Mai 2011, 14:26"><![CDATA[ 
+ danke für die Hilfe!
+
+Hab beide Wege mal versucht und sie funktionieren für die Tabelle auch prima.
+Vielleicht hab ich was vergessen denn bei Zahlen ab 16 funktionierts nicht mehr tadellos wenn die Abweichung genau 0.1 ist. Da landet er immer bei brauchbar.
+
+Bsp: ist=14.05 soll=14 > im Toleranzbereich
+ist=14.1 soll=14 > im Toleranzbereich
+ist=16.1 soll=16 > brauchbar
+ist=16.05 soll=16 > im Toleranzbereich
+
+Lieben Gruß
+   ]]></post>
+    <post id="49" reply="48" author="Student2" time="Montag, 9. Mai 2011, 14:53"><![CDATA[ 
+Hab die Abweichung noch auf zwei stellen runden lassen, dann klappt es auch über 15 mit der richtigen Ausgabe.
+
+lg
+   ]]></post>
+    <post id="50" reply="48" author="Student7" time="Dienstag, 10. Mai 2011, 10:20"><![CDATA[ 
+Wie sieht denn deine Überprüfung aus?
+Kann mir absolut nicht vorstellen warum das gerade ab 16 nicht mehr funktionieren soll
+   ]]></post>
+    <post id="51" reply="50" author="Student2" time="Donnerstag, 12. Mai 2011, 16:44"><![CDATA[  
+hab mir die differenzen mal ausgeben lassen und die waren nie genau.
+im anhang stehen die werte und so sah mein programm aus:
+import vfh.prog1.bib.Konsole;
+import java.lang.Math;
+
+public class Messwertanalyse {
+
+public static void main(String[] args) {
+
+double wert = Konsole.getInputDouble("Messwert:");
+double sollwert = Konsole.getInputDouble("Sollwert:");
+double abweichung = Math.abs(wert-sollwert);
+abweichung = Math.round(abweichung*100.)/100.;
+
+//Gibt Differenz aus und zeigt an ob Abweichung ok, brauchbar oder ausschuss ist
+if (wert == sollwert) {
+System.out.println("Differenz: " + abweichung + " (Messwert = Sollwert)");
+} else if (abweichung <= 0.1){
+System.out.print ("Differenz: " + abweichung + " (ok)");
+} else if (abweichung <= 0.5){
+System.out.print ("Differenz: " + abweichung + " (brauchbar)");
+} else {
+System.out.print ("Differenz: " + abweichung + " (Ausschuss)");
+}
+}
+}
+   ]]></post>
+    <post id="52" reply="51" author="Student7" time="Sonntag, 15. Mai 2011, 10:19"><![CDATA[  Hey 
+
+Das Problem haben alle anderen auch, ist nur keinem aufgefallen :-)
+Das liegt daran, wie die Zahlen intern verwaltet werden.
+Da der Computer Zahlen ja nur binär versteht, müssen die eingegebenen Werte ja umgewandelt werden. Dabei entstehen dann diese ungenauigkeiten.
+
+Falls es dich interessiert kannst du z.B. hier schauen wie das funktioniert.
+
+Gruß, 
+   ]]></post>
+    <post id="53" reply="42" title = "LE09 - Sauberer Code" author="Student11" time="Dienstag, 10. Mai 2011, 14:22"><![CDATA[  
+Hello,
+ich hatte eine sehr positive Rückmeldung bezüglich meiner Einsendeaufgabe LE09. Daher wollte ich mal ein paar Anregungen geben, wie man den Code schön übersichtlich gestalten kann.
+Kommentare (gerade von den Experten) gewünscht.
+
+Für die Bearbeitung des Messwertes habe ich eine kleine Klassenfunktion pruefeMesswert() geschrieben.
+
+public static char pruefeMesswert(double a) {
+
+if(a == 0.0) return 'e';
+ if(a <= 0.1) return 't';
+ if(a <= 0.5) return 'b';
+ return 'u';
+}
+
+Die Variable "double a" steht für den Vergleichswert "Messwert - Sollwert". Diese Funktion macht eigentlich nichts weiter, als je nach Auswertung des Vergleichswertes ein anderes Literal zurückzugeben, falls keine if-Anweisung greift eben 'u' für unbrauchbar.
+
+In der "main()" steht eine switch-Anweisung, die als Kriterium den Rückgabewert der obrigen Funktion bekommt.
+
+switch(pruefeMesswert(Math.abs(messwert-sollwert))) {
+ case 'e':
+System.out.println("Der Messwert entspricht exakt dem Sollwert.");
+ break;
+ case 't':
+System.out.println("Der Messwert ist in Toleranz.");
+ break;
+ case 'b':
+System.out.println("Der Messwert ist brauchbar.");
+ break;
+ case 'u':
+System.out.println("Der Messwert ist unbrauchbar!");
+ break;
+}
+
+Die Funktion Math.abs() kommt aus der Klasse java.lang.Math, aber das wurde ja schon besprochen. Die Verschachtelung in der switch-Anweisung ist zwar tief, aber lesbar. Man sieht auch deutlich: "else" und "default" sind nicht immer nötig.
+Was sagt ihr, sauberer Code?
+
+
+Gruss
+   ]]></post>
+    <post id="54" reply="53" title = "LE09 - Sauberer Code" author="Student9" time="Dienstag, 10. Mai 2011, 15:38"><![CDATA[  
+Na das sieht doch sehr sauber aus :).
+
+Du könntest allerdings die switch case nun auch noch in deine pruefeMesswer einbauen :). Dann sparst du dir das in der Main Methode und deine pruefeMesswert braucht dann keinen Rückgabewert, kann jedoch zur Weiterverarbeitung dennoch den Wert zurück geben.
+
+Beispiel:
+
+public static char pruefeMesswert(double a) {
+
+char ret = 'u';
+
+if(a == 0.0) ret = 'e';
+if(a <= 0.1) ret = 't';
+if(a <= 0.5) ret = 'b';
+
+switch(ret) {
+case 'e':
+System.out.println("Der Messwert entspricht exakt dem Sollwert.");
+break;
+case 't':
+System.out.println("Der Messwert ist in Toleranz.");
+break;
+case 'b':
+System.out.println("Der Messwert ist brauchbar.");
+break;
+case 'u':
+System.out.println("Der Messwert ist unbrauchbar!");
+break;
+
+return ret;
+}
+
+}
+
+Somit hat derjenige der deine Methode aufruft nicht das Interpretationsproblem was nun u,e,t,b ist :). Ausser du hast eine schönen JAVA DOC Anweisung über dem Methodenkopf :).
+
+LG
+   ]]></post>
+    <post id="55" reply="54" title = "LE09 - Sauberer Code" author="Student10" time="Dienstag, 10. Mai 2011, 16:26"><![CDATA[  
+Dann müsste die if Bedingung aber so sein sonst ist das Ergebnis immer b oder u.
+if(a == 0.0) ret = 'e';
+else if(a <= 0.1) ret = 't';
+else if(a <= 0.5) ret = 'b';
+
+Ich hatte es so gelöst:
+
+public static String validateValuePair(double istwert, double sollwert)
+{
+double vergleich = Math.abs(istwert -sollwert);
+ 
+if(vergleich == 0)
+return "Exakt";
+else if(vergleich <= 0.1)
+return "In Toleranz";
+else if(vergleich <= 0.5)
+return "Brauchbar";
+ 
+return "Ausschuß";
+}
+
+...
+
+System.out.println("Messwert ist " + validateValuePair(istwert, sollwert));
+
+   ]]></post>
+    <post id="56" reply="55" title = "LE09 - Sauberer Code" author="Student9" time="Dienstag, 10. Mai 2011, 17:34"><![CDATA[  
+Völlig richtig.
+
+Bei dir sind aber die else if nicht nötig da du dich von oben nach unten durch arbeitest und sobald das Ergebnis true ist aus der Methode raus gehst.
+
+Auch ohne else if ist deine Methode lauffähig.
+
+Gruß
+    ]]></post>
+  </thread>
+  
+         <thread title="JAVA Workshop">
+    <post id="57" author="Student9" time="Dienstag, 10. Mai 2011, 11:29" ><![CDATA[
+Hallo *,
+
+am Samstag 7.5.2011 in der Präsenz 1 haben Knut, Andre und ich über einen kleinen Workshop geredet.
+
+Knut wohnt recht Nahe bei mir. Eine persönlichen Workshop spricht daher nichts entgegen.
+
+Geplant sind ca. 4 Stunden. 2 Stunden JAVA und 2 Stunden Photoshop bzw. Teile aus der Adobe Collection.
+
+Einige von uns kommen aus dem Informatik- und andere aus dem Mediengestalter- Bereich. Vielleicht kann man sich so ergänzen und von einander lernen.
+
+Angestrebter Termin wäre der 17.05. ab 18 Uhr (18:30). Hab die E-Mail von Knut gerade nicht genau im Kopf wegen der Uhrzeit.
+
+Da Einige ja nun nicht aus Berlin kommen oder die Anreise in den Bezirk Lankwitz zu lang ist, könnte per Skype und Teamviewer an der Präsentation teilnehmen bzw. Fragen stellen.
+
+http://www.teamviewer.com/de/solutions/meetings.aspx
+
+Schreibt einfach hier was dazu. Zum Beispiel, ob ihr vor Ort dabei seid oder per Skype / Teamviewer, eventuell anderer Terminvorschlag, etc.
+
+Zusätzlich kann ich bei Bedarf einmal schauen ob ich noch eBooks für Java auf dem Rechner habe.
+
+Gruß
+   ]]></post>
+    <post id="58" reply="57" author="Student7" time="Mittwoch, 11. Mai 2011, 07:48"><![CDATA[  
+Hey,
+
+is zwar ganz schön spät aber ich denk ma ich bin dabei.
+
+Gruß, 
+   ]]></post>
+    <post id="59" reply="57" author="Student11" time="Mittwoch, 11. Mai 2011, 12:37"><![CDATA[  
+Tja, da muss ich leider arbeiten. Könnte evt. erst um 21:00 Uhr per Skype oder so dazukommen. Aber gute Idee!!
+Montags oder Donnerstags hab ich abends meistens frei.
+
+eBooks für Java ..? ich schau auch mal.... ;-)
+
+Gruß 
+   ]]></post>
+    <post id="60" reply="59" author="Student9" time="Mittwoch, 11. Mai 2011, 13:05"><![CDATA[ 
+Die Frage ist dann, was interessiert dich? JAVA oder Photoshop / InDesign / Illustrator. Je nachdem würde man das dann einfach tauschen.
+
+Zum Beispiel: Photoshop / InDesign / Illustrator zuerst und dann JAVA, so dass du doch etwas länger zuschauen kannst.
+    ]]></post>
+    <post id="61" reply="57" author="Student6" time="Mittwoch, 11. Mai 2011, 20:11"><![CDATA[  
+Hallo ,
+
+ich finde die Idee super, kann am Dienstag aber leider auch nicht traurig (mal schauen, vielleicht kann ich noch etwas an meinem Dienstplan drehen...). Wenn ihr so einen Workshop noch einmal plant - ich habe auf jeden Fall Interesse...
+
+Grüße
+    ]]></post>
+    <post id="62" reply="61" author="Student5" time="Mittwoch, 11. Mai 2011, 22:13"><![CDATA[  
+Hallo zusammen,
+
+mir geht es genauso wie Nadine. Ich finde die Idee auch super, habe aber Dienstag leider keine Zeit. Bitte haltet mich auf dem Laufenden, falls Ihr soetwas nochmal plant, dann bin ich sehr gerne dabei.
+
+Ich fände auch ein Informatik Arbeitstreffen gut. Hätte da sonst noch jemand Interesse dran?
+
+Grüße
+    ]]></post>
+    <post id="63" reply="62" author="Student9" time="Mittwoch, 11. Mai 2011, 22:59"><![CDATA[   
+Notfalls muss ich mal ein paar Termine in doodle angeben, wann ich Zeit dafür habe und dann können ja alle anderen angeben an welchen Terminen sie Zeit haben.
+
+Da wo die meisten Leute können, findet dann ein Treffen statt :).
+
+Notfalls kann man sowas auch als Webcast bereit stellen. Teamviewer wäre ja dafür geeignet.
+
+Gruß
+    ]]></post>
+    <post id="64" reply="63" author="Student4" time="Donnerstag, 12. Mai 2011, 10:08"><![CDATA[  
+hallo! :)
+
+die idee ist wirklich super!! falls ich dienstag wieder in berlin bin wäre ich gern dabei. ansonsten würd ich das mit dem teamviewer mal probieren.
+
+was habt ihr denn geplant? für mich wäre besonders InDesign interessant. und vieleicht ein paar illustrator-tipps für umsteiger. damals (lang lang ist her) hab ich freehand gelernt.
+
+mit den aufgaben die wir bis jetzt in java hatten bin ganz gut klar gekommen. da brauch ich einfach immer nur meine zeit zum denken *g* aber von eclipse hab ich z.b gar keine ahnung...
+
+@christina: ein informatik-treffen klingt auch klasse!
+wenn du magst, können wir uns gern mal zusammensetzen. bis auf dieses wochenende hab ich fast immer zeit. ich schreib dir später mal ne nachricht, muss jetzt los.
+
+alles liebe,
+    ]]></post>
+    <post id="65" reply="64" author="Student11" time="Donnerstag, 12. Mai 2011, 11:13"><![CDATA[  
+Ja, falls sich sich jemand mit Eclipse gut auskennt würde mich das sehr interessieren.
+
+Gruß 
+    ]]></post>
+    <post id="66" reply="65" author="Student9" time="Donnerstag, 12. Mai 2011, 12:09"><![CDATA[ 
+Die Frage ist, was du da alles wissen möchtest. Gelegentlich arbeite ich in Eclipse. Momentan jedoch ausschliesslich durch die UNI.
+
+Am besten wäre es, wenn sich vielleicht jeder der sich beteiligtTeamviewer und Skype installiert. So kann man auch mal schnell jemanden bei Fragen weiterhelfen.
+
+Vorgehensweise: Skype denjenigen anschreiben, wo ihr denkt er kann euch weiterhelfen. Teamviewer ID und Kennwort zusenden und dann in einem Skypetelefonat das Problem gemeinsam lösen :)
+
+LG
+    ]]></post>
+    <post id="67" reply="66" author="Student11" time="Donnerstag, 12. Mai 2011, 14:17"><![CDATA[ 
+Ich dachte jetzt generell an das Konzept, weil man ja immer nur mit Projekten arbeitet und Klassen auch über die GUI anlegt und so ... Einführung halt. Ging jetzt nicht um ein spezielles Problem.... zwinkernd
+
+Ich könnte z.B. eine kleine Einführung in Gimp geben (die freie Photoshop-Alternative) weil ich mich dort ein bisschen reingearbeitet habe. Weiß nicht ob da Interesse besteht, ich benutze das viel. Kann man doch bestimmt auch über Teamviewer machen...
+
+Einführung in Eclipse und Illustrator/Photoshop würden mich interessieren.
+
+lg 
+    ]]></post>
+    <post id="68" reply="67" author="Student9" time="Donnerstag, 12. Mai 2011, 14:48"><![CDATA[ 
+Ich glaube gegenüber so einem mächtigen Werkzeug wie Bildbearbeitungssoftware (Bsp.: Photoshop) ist Eclipse sehr einfach gehalten. Die Schwierigkeit liegt ja im Schreiben des Codes.
+
+Ich habe Daheim bestimmt irgendwo noch JAVA & Eclipse eBooks. Bei Bedarf kann ich da mal was per E-Mail verteilen.
+
+LG 
+    ]]></post>
+    <post id="69" reply="65" author="Mentor1" time="Montag, 16. Mai 2011, 11:18"><![CDATA[ 
+Liebe Studierende,
+
+Eclipse wird in der LE01 Programmieren II (Semester II) eingeführt.
+Viele Grüße
+    ]]></post>
+    <post id="70" reply="57" author="Student7" time="Dienstag, 17. Mai 2011, 15:18"><![CDATA[  
+Ich schaffs heut nicht. Muss nen griechischen Kollegen einarbeiten :-(
+Würde denn noch per Skype / Teamviewer reinschauen wenns nicht zu spät ist.
+
+Gruß, 
+    ]]></post>
+    <post id="71" reply="70" author="Student9" time="Dienstag, 17. Mai 2011, 16:29"><![CDATA[  
+Ok, in meinem Profil steht mein Skype Name. Werde online sein. Wenn nicht einfach ne EMail schreiben. Rufe diese oft ab :).
+
+Gruß
+    ]]></post>
+    <post id="72" reply="70" author="Student4" time="Dienstag, 17. Mai 2011, 16:37"><![CDATA[  
+hallo! :)
+
+bin zwar wieder in berlin, aber hab gleich noch nen besichtigungstermin, den konnte ich nicht verschieben....
+
+wie habt ihr das denn mit skype/teamviewer geplant? ich hab jetzt mal beides installiert. skype: naamah.erdbeerwelt
+wäre schön, wenn es klappen würde.
+
+alles liebe,
+    ]]></post>
+    <post id="73" reply="72" author="Student9" time="Dienstag, 17. Mai 2011, 18:04"><![CDATA[ 
+Hmm, wird nun etwas schwierig. Andre würde sich gerne heute Abend Photoshop anschauen. Daher wollte ich mit Knut zuerst JAVA in Eclipse machen, sodass am Abend hin Andre sich per Teamviewer den Photoshop Session zu Gemüte führen kann.
+
+Du wolltest aber sicherlich in JAVA zuschauen.
+
+Geplant ist, JAVA zuerst und danach Photoshop.
+
+Können aber sicherlich bei Fragen auch nochmal kurz switchen.
+
+Ihr könnte euch auch schon die Fragen zurecht legen. Bin nun in Skype online.
+
+Gruß
+    ]]></post>
+  </thread>
+  
+  <thread title="LE14">
+    <post id="74" author="Student4" time="Samstag, 28. Mai 2011, 23:03" ><![CDATA[
+hallo ihrs lächelnd
+
+ich habe anscheinend mehrere (extrem große) bretter vor dem kopf. komme mit der einsendeaufgabe gar nicht klar! irgendwie hab ich das gefühl, nichts verstanden zu haben und bekomme eine fehlermeldung nach der anderen.... unschön!
+
+ja, wo fang ich an?!
+ich hab erstmal die datei Shape.java gespeichert. ist das richtig, oder sollen wir das importieren? eigentlich ja nicht, oder?
+wenn ich jedenfalls meine klasse Shape.java und Circle.java (im gleichen Ordner) habe bekomme ich folgende fehlermeldung:
+Circle.java:19: cannot find symbol
+symbol: constructor Shape()
+location: class Shape
+super();
+
+egal was ich hin und her ändere, ich bekomme immer einen ähnlichen fehler, nämlich dass Shape nicht gefunden wird.
+Shape wird in meinem code auch dunkelblau geschrieben, als würde er das vielleicht doch "heimlich" importien und nicht meine datei nutzen.... die dateil umzubenennen funktioniert aber auch nicht.
+
+hat irgendjemand ne ahnung was ich falsch mache??? ich bin langsam am verzweifeln....traurig
+
+alles liebe,
+    ]]></post>
+    <post id="75" reply="74" author="Student6" time="Sonntag, 29. Mai 2011, 11:16"><![CDATA[ 
+Hallo ,
+
+ich kämpfe mich auch durch. Den ersten Teil (die Aufgabe aus LE08) habe ich soweit fertig. Die Shape-Aufgabe macht mir auch Probleme. Allerdings gar nicht mal mit der Vererbung. Meine Datei heißt Shape.java.
+public class Circle extends Shape {
+so fängt Circle.java bei mir an. Habe dort noch die Attribute double radius, double circumference und double area angefügt. Dann geht es weiter mit:
+public Circle(double x, double y, double radius) {
+super(x, y);
+this.radius = radius;
+}
+
+Damit funktioniert bei mir die Vererbung von xOrigin und yOrigin gut. Ob das so insgesamt richtig ist, weiß ich allerdings auch nicht.
+
+Was ich nicht verstehe, ist die toString-Methode (welche Parameter müssen da rein, damit mir beim Aufrufen etwas angezeigt wird?).
+Und was es mit der Reporter-Klasse auf sich hat, weiß ich auch nicht - was macht diese Klasse?
+Vielleicht konnte ich Dir weiterhelfen...lächelnd
+
+Schöne Grüße, 
+    ]]></post>
+    <post id="76" reply="75" author="Student4" time="Sonntag, 29. Mai 2011, 12:07"><![CDATA[ 
+hey !
+
+vielen dank für deine antwort! :)
+ich bin gerade aufm sprung und hab den "programmierrechner" noch nicht an, ich meine aber, dass ich das gaaaanz genau so auch hatte. trotzdem gabs probleme. sehr merkwürdig. vielleicht gibt es irgendein problem mit den dateien, werde gleich nochmal alles löschen und von vorn anfangen... grmpf!
+
+mit der toString-Methode hatte ich mich vorher schon beschäftig, das hat glaub ich geklappt. wenn ich gleich wieder daheim bin, kann ich dir was dazu schreiben. auch zur reporter-klasse :)
+muss jetzt aber erst schnell weg, bin spät dran ;)
+
+alles liebe,
+    ]]></post>
+    <post id="77" reply="75" author="Student4" time="Sonntag, 29. Mai 2011, 16:26"><![CDATA[  
+hey !
+
+ich bin wieder daheim und hab jetzt (fast) alles ans laufen gebracht. lag wohl wirklich irgendwie an einem fehler beim abspeichern. habs nämlich 1:1 von meiner ersten version abgetippt, nun läufts. warum auch immer. in Gedanken
+
+das mit der reporter-klasse hab ich so gemacht (bzw bin noch dran):
+dort gibt es eine report-methode in der sich die ganzen System.out.print-befehle (s.toString(), s.area() usw) befinden. soweit ich weiß musst du dort keine parameter übergeben.
+die report-methode rufe ich dann aus ShapeTester auf (z.b: Reporter.report(circle1);) und bekomme dann am monitor die entsprechenden daten ausgegeben.
+im moment ärgere ich mich noch damit rum, dass im weiten textblock je nach typ unterschiedliche texte und variablennamen angezeigt werden müssen...
+
+alles liebe,
+    ]]></post>
+    <post id="78" reply="77" author="Student6" time="Sonntag, 29. Mai 2011, 17:08"><![CDATA[   
+Dank für Deine Antwort.
+
+Verstehe ich das richtig: die Klasse Reporter lege ich genauso an, wie in der Aufgabe beschrieben und füge nichts hinzu?
+
+Ich hatte übrigens auch ein Problem damit, überhaupt ein Shape-Objekt zu erzeugen, Hast du da in Shape etwas verändert?
+
+Liebe Grüße, 
+    ]]></post>
+    <post id="79" reply="78" author="Student4" time="Sonntag, 29. Mai 2011, 17:45"><![CDATA[   
+ich würde dort rein die ganzen System.out.print-befehle eintragen. als (s) wird das neue objekt aus ShapeTester übergeben und dann dementsprechend die methoden für fläche und umfang ausgeführt.
+
+ich glaub an Shape.java dürfen wir nichts ändern, oder? das ist nämlich auch gerade mein problem. ich kann aus report() nicht auf die variablen der einzlnen objekte zugreifen, weil report static ist und die variablen nicht.
+
+naja, ein paar stunden haben wir ja noch breit grinsend
+    ]]></post>
+    <post id="80" reply="79" author="Student6" time="Sonntag, 29. Mai 2011, 18:02"><![CDATA[    
+Hallo ,
+
+also so sieht mein Reporter (Reporter1 ist meine Testdatei zwinkernd) bisher aus:
+
+public class Reporter1 extends ShapeTester {
+
+static public void report(Shape s) {
+s.toString();
+s.area();
+s.circumference();
+}
+
+Ich kann ihn dann zwar aufrufen in ShapeTester mit z.B. Reporter1.report(rectangle1); wenn ich allerdings die methoden area und circumference in ShapeTester entferne, rechnet er nichts.
+
+zu shape1: ich hatte jetzt in die toString -Methode noch ein System.out.println... gepackt - nehme ich das raus, bekomme ich kein Objekt!!! Total doof!
+
+Liebe Grüße, 
+    ]]></post>
+    <post id="81" reply="80" author="Student8" time="Sonntag, 29. Mai 2011, 18:38"><![CDATA[    
+Hallo ihr zwei!
+
+Ich sitze auch gerade noch an der Aufgabe und lasse noch was von mir hören !
+Schön zu wissen das ich nicht der einzige bin der gerade daran kämpft :D !
+
+Schönen Gruß
+
+    ]]></post>
+    <post id="82" reply="80" author="Student6" time="Sonntag, 29. Mai 2011, 18:39"><![CDATA[    
+Hallo ,
+
+nochmal ich, vergiss meine vorherige Reporter-Klasse. Habe gerade alles überarbeitet - und siehe da: es funktioniert (auch ohne Veränderung in der Shape-Klasse)...lächelnd
+
+Und mein ShapeTester gibt das aus, was er soll. Mit den Variablen hatte ich keine Schwierigkeiten, wüßte jetzt aber auch nicht, woran das bei Dir liegt.
+
+Liebe Grüße, 
+    ]]></post>
+    <post id="83" reply="82" author="Student4" time="Sonntag, 29. Mai 2011, 18:54"><![CDATA[   
+bei mir gibt der ShapeTester jetzt auch das aus was er soll :) allerdings über umwege.
+hast du in deiner Reporter-Klasse etwas in der art stehen:
+System.out.print(" xDelta: " + reg1.xDelta +......) ?
+
+bei mir geht das nicht, ach nicht mit s.xDelta, der Reporter darf da irgendwie nicht drauf zugreifen, weil er static ist (sagt die fehlermeldung)
+
+ich erzeuge jetzt in meiner ShapeTester erst ein objekt, gebe dann die toString-methode aus, danach die xDelta/yDelta/radius-werte (je nachdem welches objekt ich hab) und rufe erst dann den reporter auf. über den werden dann fläche und umfang berechnet.
+sicher nicht so ganz richtig, weil deutlich zu viel "doppelter" text, aber ich hab ect keine ahnung wie ich das sonst machen kann in Gedanken
+    ]]></post>
+    <post id="84" reply="83" author="Student6" time="Sonntag, 29. Mai 2011, 19:46"><![CDATA[   
+Hallo ,
+
+also ich weiß nicht, wie das bei Dir im Gesamtbild aussieht, aber ich habe in meinem Reporter so etwas stehen:
+
+System.out.println (rectangle1.toString() + " / Area: " + rectangle1.area(35d,15d) + " / Circumference: " +
+rectangle1.circumference(35d,15d));
+
+... das dann jeweils in square1, circle1...
+
+Die Delta-Werte gebe ich zur to-String-Methode dazu (Bemerkungen der Aufgabe:
+
+- die Klasse enthält eine toString-Methode, welche als Zeichenkette die Art des Objektes
+(hier ...), den Ursprung und die Werte für xDelta und yDelta (oder entsprechend geforderte) liefert
+
+Demzufolge sieht meine toString-Methode bspw. für das Rectangle so aus:
+
+public String toString() {
+return ("Rectangle with origin: " + origin() + ", xDelta: " + xDelta + ", yDelta: " + yDelta);
+}
+
+Ich hoffe, ich konnte Dir weiterhelfen...lächelnd!
+
+Ich bin jetzt noch verabredet und verabschiede mich für heute (hat auch lange genug gedauert zwinkernd).
+
+Liebe Grüße, 
+    ]]></post>
+    <post id="85" reply="84" author="Student10" time="Sonntag, 29. Mai 2011, 20:07"><![CDATA[   
+Hi,
+
+mein Reporter schaut so aus:
+static public void report(Shape s)
+{
+System.out.printf("%1$s / area=%2$.1f / circumference=%3$.1f\n", s.toString(),s.area(), s.circumference());
+}
+
+Bei den Area und Circumference Methoden sollten warscheinlich keine Parameter angegeben werden, die beiden Funktionen sollten beide auf die Attribute des jeweiligen Objektes zugreifen (z.B. über this.xDelta oder einfach nur xDelta). Sonst schaut meins aber dann auch ähnlich aus, ich denke wichtig ist nur das man über super den Ursprungskonstruktor aufruft als erstes und alle Attribute protected definiert damit die abgeleiteten Klassen auf Sie zugreifen können.
+    ]]></post>
+    <post id="86" reply="85" author="Student9" time="Sonntag, 29. Mai 2011, 20:40"><![CDATA[   
+Kann man noch irgendwie behilflich sein?
+
+Gerne auch per Skype oder TeamViewer Session :)
+    ]]></post>
+    <post id="87" reply="86" author="Student4" time="Sonntag, 29. Mai 2011, 22:56"><![CDATA[    
+@n: aaahhh! natürlich, einfach mit ins toString().... soweit konnte ich eben wohl nicht denken *g* als ich deine antwort gelesen hab hatte ichs schon abgeschickt. mist! aber danke trotzdem fürs entfernen des brettes vor meinem kopf! breit grinsend
+
+@h: ohje, bei deinem reporter versteh ich nur bahnhof! zeigt sicher mal wieder, dass ich deutlich zu wenig anhung hab zwinkernd
+
+@clemens: danke fürs angebot! :) habs jetzt wie gesagt schon abgeschickt, aber vielleicht bei der nächsten aufgabe.
+
+wünsch euch noch nen schönen abend! :)
+    ]]></post>
+    <post id="88" reply="85" author="Mentor1" time="Mittwoch, 1. Juni 2011, 16:37"><![CDATA[   
+Liebe Studierende,
+
+die Methode printf ist eine Alternative zu print oder println. Der erste Paramater ist eine Zeichenkette, die erlaubt die Ausgabe zu formatieren (daher printf), siehe class java.io.PrintStream, der Typ der Klassen-Variable out in der Klasse System
+
+Die Anzahl der Werte, die zu ausgeben sind, steht nicht fest (Methode mit einer variablen Anzahl von Parametern). Sie werden mit , getrennt.
+Mit freundlichen Grüßen
+    ]]></post>
+  </thread>
+  
+  <thread title="LE11">
+    <post id="89" author="Student8" time="Samstag, 4. Juni 2011, 16:16" ><![CDATA[ 
+Hi !
+Ich sitze jetzt auch endlich an der LE11!!!
+Gibt es noch irgend jemand der diese Aufgabe mit mir lösen oder mir helfen würde ??
+
+Vielen Dank schon einmal !!
+
+Schönen Gruß
+
+    ]]></post>
+    <post id="90" reply="89" author="Student9" time="Samstag, 4. Juni 2011, 17:57"><![CDATA[ 
+Hallo,
+
+ich habe die Aufgabe zwar schon mit jemand anderen gelöst, stehe aber bei offenen Fragen gerne zur Verfügung. Am schnellsten geht es, wenn ich dir per Skype und Teamviewer helfe.
+
+Schreib mich einfach in Skype an. Kontaktdaten findest du auf meinem Profil.
+
+Gruß
+    ]]></post>
+  </thread>
+  
+  <thread title="LE12">
+    <post id="91" author="Mentor1" time="Donnerstag, 9. Juni 2011, 21:42" ><![CDATA[
+Liebe Studierende,
+
+die . Notation gilt auch für innere Klassen. Um die Ausnahme in der Test-Klasse zu fangen: catch(Student.FalscheAktuellesJahrAusnahme e). Natürlich muss die innere Klasse FalscheAktuellesJahrAusnahme die richtige Erreichbarkeit, also nicht private, haben.
+Viel Erfolg!
+Mit freundlichen Grüßen
+    ]]></post>
+  </thread>
+  
+  <thread title="Wierdohlung für die 2. Präsenz">
+    <post id="92" author="Student2" time="Montag, 27. Juni 2011, 12:46" ><![CDATA[
+Liebe Studierende,
+
+als Vorbereitung für die Präsenz, bitte beantworten Sie Fragen unten. Am besten auf ein Stück Papier, das Sie mir geben. So weiß ich besser, was Sie wissen und nicht wissen, und was vor der Klausur eine Wiederholung braucht.
+Bis Samstag!
+Mit freundlichen Grüßen
+
+
+- Was sind die Hauptteile einer Java-Klasse? Attribute, Konstruktoren, Methoden. Eine Java Klasse kann auch innere Klassen beinhalten (siehe LE über Ausnahmen)
+
+- Was heißt eine Methode überladen? Was heißt eine Methode überschreiben?
+Eine Methode ist überladen, wenn sie mit dem gleichen Namen aber verschiedenen Parameterlisten (gleiche Signatur) mehrmals in einer Klasse vorkommt. Beispiel: Klasse StringBuilde Methode append.
+Eine Methode ist überschrieben, wenn sie exact mit dem gleichen Kopf in eine Unterklasse neu implementiert ist. Beispiel: die Methoden toString oder equals der Klasse Object werden in vielen Unterklassen überschrieben.
+
+- In den folgenden Code-Zeilen:
+Triangle t1 = new Triangle(3,4,5);
+System.out.println(t1.toString());
+woher kommt die Methode toString()?
+Da die Methode toString in der Klasse Triangle nicht existiert, muss sie in einer Oberklasse der Klasse Triangle deklariert worden sein. In diesem Fall ist sie in der Klasse Object deklariert.
+
+- Listen Sie alle Schlüssel-Wörter der Java Sprache, die Sie kennen, zusammen mit ihrer Bedeutung.
+Am besten hier listen sie diese Wörter nach Kategorien. Achtung: Manche Kategorien überlappen sich.
+Kategorie 1: Schlüssel-Wörter für die Deklaration von Klassen, Attributen, Konstruktoren und Methoden.
+Kategorie 2: Schlüssel-Wörter um primitive Typen zu deklarieren.
+Kategorie 3: Schlüssel-Wörter für Erreichbarkeit.
+Kategorie 4: Schlüssel-Wörter für Vererbung.
+Kategorie 5: Schlüssel-Wörter um Anweisungen zu schreiben.
+Kategorie 6: Schlüssel-Wörter für Ausnahmen.
+Kategorie 7: Schlüssel-Wörter für Pakete.
+    ]]></post>
+  </thread>
+  
+<thread title="Testklausur von 2009 Aufgabe 4a, Punkt 3">
+    <post id="93" author="Mentor1" time="Dienstag, 5. Juli 2011, 16:40" ><![CDATA[ 
+Fehler in der Lösung:
+public void verschieben(float satz){
+super.verschieben(satz);
+z += satz;
+}
+statt
+public void verschieben(float satz){
+super.umsetzen(satz);
+z += satz;
+}
+
+Danke für den Hinweis! 
+    ]]></post>
+  </thread>
+</forum>

@@ -1,0 +1,42 @@
+ID: 1429
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1362870000000
+TITLE: Das Makefile sieht nicht vor, dass man die Programme mit GDB debuggen kann. Du musst am besten in dei...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1427
+POSTING_TYPE: answer
+CONTENT:
+Das Makefile sieht nicht vor, dass man die Programme mit GDB debuggen kann. Du musst am besten in deinem Programm einen Punkt einsetzen an dem es auf Eingabe wartet. Danach kannst du dich auf einer konsole mit dem GDB an den Prozess anhaengen. <NAME_CORPUS_REPLACEMENT> ich nicht weiss, welches Programm du hast nehme ich einfach mal khala als Beispiel.
+
+Du fuerhst als erstes
+
+```bash
+
+make run
+
+```
+
+ganz normal aus. Sobald der <REMOVED_PERSON_ENTITY> (ich nehme einfach mal den example-player) auf die Eingabe wartet kannst du auf einer weiteren Konsole mittels `ps aux | grep example-player` die PID (Prozess ID) des Programms finden. Bei mir sieht die Ausgabe so aus:
+
+```ruby
+
+<NAME_CORPUS_REPLACEMENT>    3527  0. 0  0. 0  12356   824 pts/2    S+   13:44   0:00 ./mcp example-player example-player
+
+<NAME_CORPUS_REPLACEMENT>    3528  0. 0  0. 0  12352   824 pts/2    S+   13:44   0:00 example-player
+
+<NAME_CORPUS_REPLACEMENT>    3529  0. 0  0. 0  12352   152 pts/2    T+   13:44   0:00 ./mcp example-player example-player
+
+<NAME_CORPUS_REPLACEMENT>    3531  0. 0  0. 0   8940   664 pts/0    S+   13:44   0:00 grep --colour=auto exampl
+
+```
+
+Der Prozess in Zeile 2 mit der PID 3528 ist der Prozess den wir suchen.
+
+Die vorderste <REMOVED_PERSON_ENTITY>, 3528 ist die PID des Programms example-player.
+
+Jetzt kannst du dich mit GDB durch Eingabe <NAME_CORPUS_REPLACEMENT> `gdb --pid 3528` (ersetze 3528 durch deine PID) an den Prozess haengen und ganz normal debuggen. Der Prozess wird dazu beim Starten <NAME_CORPUS_REPLACEMENT> gdb mit SIGSTOP gestoppt. Zum Beispiel kannst du mit `break 19` den example-player in Zeile 19 anhalten. 
+
+Du musst nur beachten, dass das Programm <LEARNED_PERSON_NAME_REPLACEMENT> schon gestartet ist, du also nicht `run` sondern `continue` eintippen musst, wenn du fortfahren willst.
+
+Ich hoffe das hilft dir!
+TAGGED_CONTENT:

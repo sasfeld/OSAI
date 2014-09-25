@@ -1,0 +1,19 @@
+ID: 86
+CREATION_DATETIME: 1196176920000
+MODIFICATION_DATETIME: 1196176920000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 84
+CONTENT:
+ 
+Hallo,
+
+ich hab einfach geschrieben
+
+setLayout(null)
+
+und die die scroller mit setBounds(); positioniert.
+
+Grüße
+	
+TAGGED_CONTENT:

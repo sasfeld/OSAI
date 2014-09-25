@@ -1,0 +1,9 @@
+ID: 2858
+CREATION_DATETIME: 1384556400000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Salespoint or Spring or Thymeleaf seem to cache templates while the application is running. <NAME_CORPUS_REPLACEMENT> this behaviour be changed so that changes to the templates take effect immediately without having to re-run the application?
+TAGGED_CONTENT:

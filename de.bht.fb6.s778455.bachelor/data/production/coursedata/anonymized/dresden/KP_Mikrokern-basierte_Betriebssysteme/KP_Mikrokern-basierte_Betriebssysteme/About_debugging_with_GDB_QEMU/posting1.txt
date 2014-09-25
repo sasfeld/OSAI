@@ -1,0 +1,13 @@
+ID: 1293
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1364425200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+So, I tried to debug my issues by attaching GDB to QEMU. So far I did the following:  
+ * adding the Options `-s -S` to `~/trunk/obj/l4/x86/conf/Makeconf. bbot` so *qemu* <NAME_CORPUS_REPLACEMENT> be addressed by *gdb* and stops execution at the start of the program.  
+* running *gdb* and connecting to *qemu* via `target remote localhost:1234`  
+I know I have to load a file with a symbol table first, but <NAME_CORPUS_REPLACEMENT> using the the . o-file of my program i. e. `file ~/trunk/obj/l4/x86/pkg/my_prog/OBJ-…-x86/main. o`, which works but is only part of what I want. `break malloc` for example sets the breakpoint but it never triggers, even when calling *malloc()*.   
+What am I doing wrong?
+TAGGED_CONTENT:

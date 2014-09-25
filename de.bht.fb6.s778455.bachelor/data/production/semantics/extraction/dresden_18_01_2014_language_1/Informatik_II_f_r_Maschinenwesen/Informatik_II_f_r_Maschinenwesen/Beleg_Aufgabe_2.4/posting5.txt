@@ -1,0 +1,10 @@
+ID: 2185
+CREATION_DATETIME: 1373320800000
+MODIFICATION_DATETIME: 1373320800000
+TITLE: ich wuerde die haendische variante empfehlen. bouml so einzustellen, dass die klassen korrekt automat...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2181
+POSTING_TYPE: comment
+CONTENT:
+ich wuerde die haendische variante empfehlen. bouml so einzustellen, dass die klassen korrekt automatisch generiert werden ist nicht ganz trivial und kostet am ende mehr zeit als die klassen schnell selbst zu bauen. ausserdem lernt ihr dabei auch gleich noch ein bisschen was fuer die pruefung. :)
+TAGGED_CONTENT:

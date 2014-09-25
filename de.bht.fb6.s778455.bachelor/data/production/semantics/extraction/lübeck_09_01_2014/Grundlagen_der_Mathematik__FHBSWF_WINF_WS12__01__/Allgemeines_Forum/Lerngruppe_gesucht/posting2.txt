@@ -1,0 +1,39 @@
+ID: 160945
+CREATION_DATETIME: 1347885274
+MODIFICATION_DATETIME: 1347885274
+TITLE: Re: Lerngruppe gesucht
+TOPIC_ZOOM_TAG: value:Adobe;weight:1.0;significance:9.37634500505872;degreegeneralization:13;uri:20199343
+TOPIC_ZOOM_TAG: value:Amerikanische Softwareunternehmen;weight:1.0;significance:6.75530618094614;degreegeneralization:12;uri:20921061
+TOPIC_ZOOM_TAG: value:Softwareunternehmen;weight:1.0;significance:6.4451512526423;degreegeneralization:9;uri:20921078
+TOPIC_ZOOM_TAG: value:IT-Unternehmen;weight:1.0;significance:6.41144019529999;degreegeneralization:7;uri:20030941
+TOPIC_ZOOM_TAG: value:Softwarebranche;weight:1.0;significance:6.36642809651278;degreegeneralization:8;uri:21868879
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Informationstechnologie;weight:1.0;significance:6.25177985966176;degreegeneralization:6;uri:21305822
+TOPIC_ZOOM_TAG: value:Computerunternehmen;weight:1.0;significance:6.07523108195355;degreegeneralization:8;uri:20002789
+TOPIC_ZOOM_TAG: value:Computerbranche;weight:1.0;significance:6.00658914923139;degreegeneralization:7;uri:20766616
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Bürotechnik, Computer und Datenverarbeitung;weight:1.0;significance:6.00658914923139;degreegeneralization:6;uri:21958469
+TOPIC_ZOOM_TAG: value:Unternehmen in den USA;weight:1.0;significance:5.28200044283662;degreegeneralization:11;uri:20906594
+TOPIC_ZOOM_TAG: value:Software;weight:1.0;significance:5.21023364446695;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:5.02422544755277;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:5.00780172072213;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Wirtschaft in den USA;weight:1.0;significance:4.93159511191149;degreegeneralization:9;uri:21944019
+TOPIC_ZOOM_TAG: value:Nordamerikanische Wirtschaft;weight:1.0;significance:4.90920611701801;degreegeneralization:7;uri:21949000
+TOPIC_ZOOM_TAG: value:Technologieunternehmen;weight:1.0;significance:4.75382618073602;degreegeneralization:6;uri:20761754
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:4.31013985980766;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Medien, Internet, Information und Kommunikation;weight:1.0;significance:4.04829548097704;degreegeneralization:5;uri:21993370
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:USA;weight:1.0;significance:3.14018510974972;degreegeneralization:8;uri:21980416
+TOPIC_ZOOM_TAG: value:Nordamerika;weight:1.0;significance:3.01881226899541;degreegeneralization:6;uri:21999201
+TOPIC_ZOOM_TAG: value:Unternehmen, Firmen und Firmengruppen;weight:1.0;significance:2.91081144288141;degreegeneralization:4;uri:21973565
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:1.80459553725326;degreegeneralization:2;uri:21999847
+PARENT_POSTING_ID: 160931
+CONTENT:
+Gute Idee.
+Ich könnte sogar anbieten, dass wir uns direkt im Anschluss an die <REMOVED_PERSON_ENTITY> von Herrn <REMOVED_PERSON_ENTITY> in einer eigenen Webkonferenz (ebenfalls Adobe Connect) trifft.
+ 
+M. f. G.
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

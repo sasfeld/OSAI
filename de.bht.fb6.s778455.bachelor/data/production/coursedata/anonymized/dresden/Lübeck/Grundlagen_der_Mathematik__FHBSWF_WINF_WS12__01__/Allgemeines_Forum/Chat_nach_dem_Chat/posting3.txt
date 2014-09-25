@@ -1,0 +1,10 @@
+ID: 164541
+CREATION_DATETIME: 1348686535
+MODIFICATION_DATETIME: 1348686535
+TITLE: Chat vor dem Chat (war: Chat nach dem Chat)
+PARENT_POSTING_ID: 164443
+CONTENT:
+Hallo zusammen,
+okay, zugegeben: die Ankündigung kam sehr spät. Natürlich kenne ich auch nicht die Chattermine aus anderen Modulen (ausser den selbstbelegten). Deshalb wusste ich nicht, dass zu der Zeit BWL läuft. Daher schlage ich vor aus dem Chat nach dem Chat einfach den Chat vor dem Chat zu machen. (preworkparty instead of afterworkparty ;-) sorry, couldn´t resist)Also: ab 3. 10. um 18:00 statt um 20:00 <REMOVED_PERSON_ENTITY>. Im Anschluß haben wir dann um 19:00 Uhr den planmäßigen Chat von Herrn <REMOVED_PERSON_ENTITY>. Ich hoffe, der Termin passt besser....
+Grüße, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

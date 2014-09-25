@@ -1,0 +1,12 @@
+ID: 2618
+CREATION_DATETIME: 1382652000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Dear students,
+due to illness I have to cancel the exercise on the 25th of October (today). Sorry about that.
+See you next week,
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

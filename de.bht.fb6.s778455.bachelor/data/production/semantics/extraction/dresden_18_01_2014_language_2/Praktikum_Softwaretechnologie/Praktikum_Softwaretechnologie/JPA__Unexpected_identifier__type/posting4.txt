@@ -1,0 +1,28 @@
+ID: 3064
+CREATION_DATETIME: 1385679600000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: Darfst du du bzw ihr!. Ja gut, im Salespoint gibts komplexeren Code, aber da gehts es nicht anders, b...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3054
+POSTING_TYPE: comment
+CONTENT:
+Darfst du du bzw ihr!. Ja gut, im Salespoint gibts komplexeren Code, aber <NAME_CORPUS_REPLACEMENT> gehts es nicht anders, bei euch ist _mir_ das **unnötig** komplex.
+
+Wieso wrappst du denn den UserAccount, nur um die Roles zu verstecken?. Das macht für mich wenig Sinn.
+
+Geht doch auch anders, du schreibst dir z. B. eine extra Klasse mit ein paar createXYZ Methoden, die einen UserAccout + paar andere sinnvolle Parameter nehmen, die passende <REMOVED_PERSON_ENTITY> im UA für XYZ setzen (save ggf nicht vergessen) und XYZ zurück geben.
+
+Im Videoshop wird doch auch mit den verschiedenen Managern hantiert, ich seh <NAME_CORPUS_REPLACEMENT> kein Problem drin.
+
+IMO nicht, der UserAccount sowie alle Entity <REMOVED_PERSON_ENTITY> sollten "dumme" POJOs sein, die <NAME_CORPUS_REPLACEMENT> der Außenwelt nix mitbekommen. 
+
+@Autowired funktioniert nur, wenn Spring die Kontrolle über die Objektinstanziierung hat. <NAME_CORPUS_REPLACEMENT> du sicher Customer usw mit new erstellst wird der userAccountManager sowieso null sein. Wenn Objekte aus der Datenbank kommen, kümmert sich der OR Mapper (hier Hibernate) um die Instanziierung, userAccountManager bleibt also auch null.
+
+Dafür gibt es Guidelines. Mit 5 Leuten sind <REMOVED_PERSON_ENTITY> auch nicht so schwer. Und <NAME_CORPUS_REPLACEMENT> ihr alle gemeinsam am Entwurfsklassendiagramm gearbeitet habt, seht ihr ja ob es Methoden doppelt gibt. Natürlich gibt es Funktionalität an die man anfangs nicht gedacht hat, aber das muss man dann halt vorher klären wohin die muss und wer die implementiert.
+
+Außerdem könnt ihr euren Entwurf sicher modularisieren und auf 5 Leute verteilen, sodass ihr euch, wenn erstmal die Schnittstellen stehen, nicht in die Quere kommt.
+
+Ich kann nicht folgen, woher du jetzt die static Methoden nimmst. Aber dann sag deinem Team die sollen die halt nicht verwenden bzw nur mit Rücksprache.
+
+Kein Ding, probiert aus, wenn ihr sinnvolle Usecases findet, welche <NAME_CORPUS_REPLACEMENT> Salespoint nicht abgedeckt bzw unterstützt werden, aber sollten, immer her damit.
+TAGGED_CONTENT:

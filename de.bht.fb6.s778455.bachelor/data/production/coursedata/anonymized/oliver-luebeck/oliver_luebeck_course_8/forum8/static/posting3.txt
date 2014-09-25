@@ -1,0 +1,18 @@
+ID: 52
+CREATION_DATETIME: 1199264460000
+MODIFICATION_DATETIME: 1199264460000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 51
+CONTENT:
+
+Liebe , liebe Studierende,
+
+gute Antwort. Danke. Hier eine Ergänzung.
+
+"Bei Objekten können sich ja während eines Programmablaufes Änderungen vornehmen." Richtig, die Attribute eines Objektes können sich verändern.
+Ein Klassen-Attribut, mit static deklariert, kann sich auch ändern. Es existiert aber nur 1 Mal im Speicher unabhängig von wie viele Objekt erzeugt werden.
+Insbesondere wenn eine Methode auf kein Attribut zugreift und nur mit ihren Parametern arbeitet, sollte man sie mit static deklarieren, siehe Beispiele in den Klassen java.lang.Math oder java.util.Arrays.
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

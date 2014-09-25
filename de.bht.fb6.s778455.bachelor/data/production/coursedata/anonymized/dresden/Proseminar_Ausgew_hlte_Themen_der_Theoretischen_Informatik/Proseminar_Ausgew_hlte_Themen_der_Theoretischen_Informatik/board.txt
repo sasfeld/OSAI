@@ -1,0 +1,6 @@
+ID: 2154365
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: Proseminar Ausgewählte Themen der Theoretischen Informatik
+INTRO: null
+TYPE: null

@@ -1,0 +1,23 @@
+ID: 4
+CREATION_DATETIME: 1190842320000
+MODIFICATION_DATETIME: 1190842320000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3
+CONTENT:
+
+Hallo 
+
+Gut, daß Du das mit der Lizenz ansprichst. Ich habe mir das License Agreement durchgelesen. Darin heißt es in kurzer Form, daß man JavaSE z.B. frei vertreiben darf, solange man nichts von der API hinzufügt oder wegnimmt und Copyright Hinweise nicht entfernt. Das steht im Teil B der "zusätzlichen Lizenzbedingungen"
+
+Das wäre also denke ich kein Problem. Unsere Professorin weiß das vielleicht genauer?
+
+Der User soll natürlich nicht einfach übergangen werden. Ich will ja noch nicht böse Bundestrojaner ;-) basteln, die da irgendwas im Hintergrund ohne Bestätigung werkeln. Es soll alles ganz seriös mit Nachfragen und akzeptieren der License Conditions via Checkbox und OK Button laufen. :-)
+
+Bei der Erstellung der Startmenü-Einträge sieht man ja, daß Registry-Einträge vorgenommen werden. Mich würde interessieren, ob das nicht eleganter geht? Wie es aussieht ist die Registry ja "nur" eine ziemlich fette Datenbank, und da müßte es doch bestimmt ein paar coole Tricks geben, wie man die editiert, oder? Kann Java die Registry ändern, oder muß man den Umweg über die CMD Shell gehen?
+
+Damit würde ich mich gern wieder auf die Frage vom Anfang mit einem Installer Tool beziehen. Ich hoffe auf einen anregende Diskurs. :-b
+
+Viele Grüße
+    
+TAGGED_CONTENT:

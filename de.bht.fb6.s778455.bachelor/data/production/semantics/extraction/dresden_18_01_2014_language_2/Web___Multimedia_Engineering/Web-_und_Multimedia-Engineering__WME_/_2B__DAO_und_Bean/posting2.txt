@@ -1,0 +1,20 @@
+ID: 900
+CREATION_DATETIME: 1354143600000
+MODIFICATION_DATETIME: 1354143600000
+TITLE: Das Vorgehen soll folgendermaßen sein: beim Aufruf der doGet macht ihr im Servlet die XSL-Transformat...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 894
+POSTING_TYPE: answer
+CONTENT:
+Das Vorgehen soll folgendermaßen sein: beim Aufruf der doGet macht ihr im Servlet die XSL-Transformation einerseits (Ausgabe der Feeds in einer "Debug"-HTML-Seite - einfach über den ResponseWriter), als 2. sollt ihr in der doGet aber auch die NewsItems anlegen. Dazu nehmt ihr einfach die DOM-Repräsentation der Feeds, traversiert die und legt dann einfach für jeden Eintrag in News-Item an. Ende Teil 1
+
+Die JSP soll nicht vom Servlet geladen werden. Der Aufruf erfolgt direkt über den Namen der JSP. Dort greift ihr dann einfach auf die Bean zu (useBean) - die wird dabei erst instanziiert. 
+
+Der NewsDAO ist ja ein <REMOVED_PERSON_ENTITY> und die ganze Zeit im <REMOVED_PERSON_ENTITY>. Es reicht dann also in der Bean NewsDAO. getInstance(). getAllItems() (oder wie die Methode heißt) aufzurufen und die Liste wird in der JSP dann genutzt (denkt dran auf die Kleinschreibung in der JSP beim Aufruf der Bean-Methoden zu achten).
+
+Das heißt: im Endeffekt muss in diesem konkreten Fall immer doGet aufgerufen werden damit was im <REMOVED_PERSON_ENTITY> ist, bevor man dieJSP betrachten kann. Eine Ausgabe erfolgt in zwei Fällen: Response der doGet, Aufruf der JSP.
+
+Ist der Sachverhalt jetzt klarer geworden?
+
+Edit: vielleicht noch eine Anmerkung: die <NAME_CORPUS_REPLACEMENT> uns mitgegebene Klasse mit den Funktionen scrape und serialize müsst ihr nicht nutzen, ihr könnt die auch einfach als Hilfestellung für eure eigene Lösung nehmen oder ganz weglassen ;)
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 1384
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Das erklärt auch, warums bei mir ok ist. Mein Fenster ist gerade Vollbild auf 1920x1080 ... ;) Wenn i...
+PARENT_POSTING_ID: 1367
+POSTING_TYPE: comment
+CONTENT:
+Das erklärt auch, warums bei mir ok ist. Mein <REMOVED_PERSON_ENTITY> ist gerade Vollbild auf 1920x1080 ... ;) Wenn ichs verkleinere ists bei mir ebenfalls kaputt.
+TAGGED_CONTENT:

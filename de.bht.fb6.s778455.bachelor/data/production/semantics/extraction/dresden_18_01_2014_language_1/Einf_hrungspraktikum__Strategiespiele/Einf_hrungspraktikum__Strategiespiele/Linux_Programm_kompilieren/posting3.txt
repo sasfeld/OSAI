@@ -1,0 +1,10 @@
+ID: 1180
+CREATION_DATETIME: 1362438000000
+MODIFICATION_DATETIME: 1362438000000
+TITLE: Dankeschön für die schnelle Hilfe :) Jetzt funktioniert es...
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 1178
+POSTING_TYPE: answer
+CONTENT:
+Dankeschön für die schnelle Hilfe :) Jetzt funktioniert es...
+TAGGED_CONTENT:

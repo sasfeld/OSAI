@@ -1,0 +1,8 @@
+ID: 246011
+CREATION_DATETIME: 1382096207
+MODIFICATION_DATETIME: 1382096207
+TITLE: Videokonferenzen
+PARENT_POSTING_ID: 0
+CONTENT:
+Können die Videokonferenzen aufgezeichnet werden? Es gibt bestimmt einige Teilnehmer die es nicht immer zu den Terminen schaffen. Wäre toll damit man keine Informationen verpasst.
+TAGGED_CONTENT:

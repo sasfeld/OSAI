@@ -1,0 +1,12 @@
+ID: 2357
+CREATION_DATETIME: 1374184800000
+MODIFICATION_DATETIME: 1374184800000
+TITLE: Hallo, ich würde ja sagen 1. Strategy - Context: Klasse Index (templateMethod - add), Hook Class: Int...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2254
+POSTING_TYPE: answer
+CONTENT:
+Hallo, ich würde ja sagen 1. Strategy - Context: Klasse Index (templateMethod - add), <REMOVED_PERSON_ENTITY> Class: Interface KeywordCollector mit HookMethod getKeywords, <REMOVED_PERSON_ENTITY>: PlainTextCollector und DefaultCollector. 2. Iterator: abstrakter Iterator: java. util. Iterator, konkreter Iterator: TextFileIterator, Aggregat: evtl. Resource oder PlainTextIterator (weiß es nicht genau - in PlainTextIterator Iterator erstellt, aber TextFileIterator iteriert über Resource). Element: String. 
+
+Ist nur ein Vorschlag, musst selber noch mal überlegen, was richtig.
+TAGGED_CONTENT:

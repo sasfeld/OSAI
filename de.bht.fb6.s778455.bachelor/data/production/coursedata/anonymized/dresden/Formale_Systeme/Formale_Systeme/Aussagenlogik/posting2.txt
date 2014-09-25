@@ -1,0 +1,9 @@
+ID: 453
+CREATION_DATETIME: 1350856800000
+MODIFICATION_DATETIME: 1351116000000
+TITLE: Eigentlich schon. Das
+PARENT_POSTING_ID: 447
+POSTING_TYPE: comment
+CONTENT:
+Eigentlich schon. Das nennt sich die Transitivität. Versuchs mal mit einem Induktionsbeweis.
+TAGGED_CONTENT:

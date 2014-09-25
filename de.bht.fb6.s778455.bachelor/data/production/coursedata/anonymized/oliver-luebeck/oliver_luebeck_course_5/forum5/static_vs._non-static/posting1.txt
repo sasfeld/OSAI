@@ -1,0 +1,24 @@
+ID: 55
+CREATION_DATETIME: 1193421360000
+MODIFICATION_DATETIME: 1193421360000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hi Folks
+
+Ich bin immer wieder überrascht, wenn meine Eklipse anmerkt, daß es total cool für die Lauffähigkeit eines Kompilats wäre, wenn ich eine Methode non-static mache.
+
+Ich hab's leider noch immer nicht kapiert, was nun eine static bzw. non-static Methode so ausmacht.
+
+Anscheinend dürfen Variablen auch static sein. Wann muß ich diese static machen?
+
+Ich erbitte Eure Hilfe. Danke für Eure Zeit!
+
+lg,
+Sebastian
+
+P.S. Wäre toll, wenn für die Prüfung Eclipse als Debug Tool zugelassen wäre :-)
+	
+TAGGED_CONTENT:

@@ -1,0 +1,74 @@
+ID: 659
+CREATION_DATETIME: 1352070000000
+MODIFICATION_DATETIME: 1352070000000
+TITLE: g++ hat Version 4.7.2  
+cmake hat Version 2.8.10  
+
+Wenn ich fltk2 runterwerfe, schlägt der build ...
+PARENT_POSTING_ID: 655
+POSTING_TYPE: comment
+CONTENT:
+g++ hat Version 4. 7. 2  
+cmake hat Version 2. 8. 10  
+Wenn ich fltk2 runterwerfe, schlägt der build fehl (git gekürzt):
+~~~
+-- The C compiler identification is GNU 4. 7. 2
+-- The CXX compiler identification is GNU 4. 7. 2
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+ * Found native installation for ZLIB
+ * Found native installation for PNG
+ * Found native installation for JPEG
+-- Looking for XOpenDisplay in /usr/lib/libX11. so;/usr/lib/libXext. <PERSONAL_GREETING_REMOVEMENT>
+-- Looking for XOpenDisplay in /usr/lib/libX11. so;/usr/lib/libXext. so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found X11: /usr/lib/libX11. <PERSONAL_GREETING_REMOVEMENT>
+-- FLTK2_FLUID_EXECUTABLE not found
+-- FLTK2_INCLUDE_DIR not found
+-- FLTK2_BASE_LIBRARY not found
+-- FLTK2_GL_LIBRARY not found
+-- FLTK2_IMAGES_LIBRARY not found
+-- Found OpenGL: /usr/lib/libGL. so  
+-- Found JPEG: /usr/lib/libjpeg. so  
+-- Found PNG: /usr/lib/libpng. so (found version "1. 5. 13") 
+ * Could not find package FLTK2. Using local sources from fltk
+-- Found Glew: /usr/lib/libGLEW. <PERSONAL_GREETING_REMOVEMENT>
+ * No find script for GLEW globally found but a local script returned success
+-- Found Glew: /usr/lib/libGLEW. <PERSONAL_GREETING_REMOVEMENT>
+-- Found ZLIB: /usr/lib/libz. so (found version "1. 2. 7") 
+-- Found Glew: /usr/lib/libGLEW. <PERSONAL_GREETING_REMOVEMENT>
+-- Found Glew: /usr/lib/libGLEW. <PERSONAL_GREETING_REMOVEMENT>
+-- Found Glew: /usr/lib/libGLEW. <PERSONAL_GREETING_REMOVEMENT>
+-- Found Glew: /usr/lib/libGLEW. <PERSONAL_GREETING_REMOVEMENT>
+CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+OPENGL_INCLUDE_DIR (ADVANCED)
+   used as include directory in directory /home/fredo/cgv/3rd/fltk
+   used as include directory in directory /home/fredo/cgv/tool/shader_test
+   used as include directory in directory /home/fredo/cgv/libs/cgv_gl
+   used as include directory in directory /home/fredo/cgv/plugins/cg_fltk
+   used as include directory in directory /home/fredo/cgv/plugins/cg_fltk
+   used as include directory in directory /home/fredo/cgv/plugins/crg_stereo_view
+   used as include directory in directory /home/fredo/cgv/plugins/crg_stereo_view
+   used as include directory in directory /home/fredo/cgv/plugins/crg_grid
+   used as include directory in directory /home/fredo/cgv/plugins/crg_grid
+-- Configuring incomplete, errors occurred!
+make: *** Keine Targets angegeben und keine »make«-Steuerdatei gefunden.  Schluss.
+make: *** Keine Regel, um »install« zu erstellen.  Schluss.
+~~~
+TAGGED_CONTENT:

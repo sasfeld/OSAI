@@ -1,0 +1,18 @@
+ID: 34
+CREATION_DATETIME: 1177346760000
+MODIFICATION_DATETIME: 1177346760000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 33
+CONTENT:
+
+Hallo ,
+
+also ich habe es auch so verstanden, dass die Werte ganz simpel ausgegeben werden, sobald man das Programm in der Eingabeaufforderung ausführt.
+
+Ich denke so sollte es auch gemeint sein.
+
+Schönen Abend noch.
+
+    
+TAGGED_CONTENT:

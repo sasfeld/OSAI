@@ -1,0 +1,11 @@
+ID: 162391
+CREATION_DATETIME: 1348235138
+MODIFICATION_DATETIME: 1348235138
+TITLE: Re: Praxisveranstaltung
+POS_TAG: value:Woche;weight:0.0;uri:;postag:NN
+POS_TAG: value:ckantwort;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 162333
+CONTENT:
+danke für die Rückantwort der würde ja super bei mir passen, ne woche später und die Woche danach siehts schlechter aus.
+TAGGED_CONTENT:
+danke_VVFIN für_APPR die_ART Rückantwort_NN der_ART würde_VAFIN ja_ADV super_ADJD bei_APPR mir_PPER passen_VVFIN ,_$, ne_VVFIN woche_ADV später_ADJD und_KON die_ART Woche_NN danach_PROAV siehts_ADV schlechter_ADJD aus_PTKVZ ._$. 

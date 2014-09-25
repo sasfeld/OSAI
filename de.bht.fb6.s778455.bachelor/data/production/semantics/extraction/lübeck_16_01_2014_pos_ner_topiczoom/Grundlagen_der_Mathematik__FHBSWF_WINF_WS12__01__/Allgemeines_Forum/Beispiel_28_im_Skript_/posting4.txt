@@ -1,0 +1,27 @@
+ID: 194761
+CREATION_DATETIME: 1358600369
+MODIFICATION_DATETIME: 1358601308
+TITLE: Re: Beispiel 28 im Skript....
+TOPIC_ZOOM_TAG: value:Vektoren;weight:1.0;significance:12.7085495152339;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Zeile;weight:0.0;uri:;postag:NN
+POS_TAG: value:Menge;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektor;weight:0.0;uri:;postag:NN
+POS_TAG: value:Spaltentausch;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sozusagen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skript;weight:0.0;uri:;postag:NN
+POS_TAG: value:muss;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 194737
+CONTENT:
+Hi,
+x1=-3-3r+5sx2=-3+2sx3=rx4=s
+Stimmt nicht ganz, denn Zeile 2 muss mit x3 beginnen (eben durch den angesprochen nicht rückgängig gemachten Spaltentausch zuvor). Dann kann man den Vektor (-3, 0, 1, 0)^T ablesen, aber dann halt mit x2 und x3 vertauscht:
+x1 -3x3 0x2 1x4 0Sozusagen... das ist dann die  linear unabhängige Lösung, wie sie im Skript beschrieben wird. Danach tauscht man Zeile 2 und 3 wieder zurück und kann dann die affine Menge angeben.
+GrüßeLars
+TAGGED_CONTENT:
+Hi_NE ,_$, x1_XY =_XY -3_CARD -3_CARD r_XY +5_CARD sx2_XY =_XY -3_CARD +2_CARD sx3_XY =_XY rx4_XY =_XY s_PPER Stimmt_VVFIN nicht_PTKNEG ganz_ADV ,_$, denn_KON Zeile_NN 2_CARD muss_NN mit_APPR x3_CARD beginnen_VVFIN -LRB-_TRUNC eben_ADV durch_APPR den_ART angesprochen_VVPP nicht_PTKNEG rückgängig_ADJD gemachten_ADJA Spaltentausch_NN zuvor_ADV -RRB-_TRUNC ._$. Dann_ADV kann_VMFIN man_PIS den_ART Vektor_NN -LRB-_TRUNC -3_CARD ,_$, 0_CARD ,_$, 1_CARD ,_$, 0_CARD -RRB-_TRUNC ^_XY T_XY ablesen_VVINF ,_$, aber_KON dann_ADV halt_ADV mit_APPR x2_CARD und_KON x3_CARD vertauscht_VVFIN :_$. x1_CARD -3_CARD x3_CARD 0x2_CARD 1x4_CARD 0Sozusagen_NN ..._$( das_PDS ist_VAFIN dann_ADV die_ART linear_ADJD unabhängige_ADJA Lösung_NN ,_$, wie_PWAV sie_PPER im_APPRART Skript_NN beschrieben_VVPP wird_VAFIN ._$. Danach_PROAV tauscht_VVFIN man_PIS Zeile_NN 2_CARD und_KON 3_CARD wieder_ADV zurück_PTKVZ und_KON kann_VMFIN dann_ADV die_ART affine_ADJA Menge_NN angeben_VVINF ._$. GrüßeLars_NE 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block id="53233" contextid="242481" version="2013062611">
+  <blockname>quickmail</blockname>
+  <parentcontextid>242479</parentcontextid>
+  <showinsubcontexts>0</showinsubcontexts>
+  <pagetypepattern>course-view-*</pagetypepattern>
+  <subpagepattern>$@NULL@$</subpagepattern>
+  <defaultregion>side-post</defaultregion>
+  <defaultweight>5</defaultweight>
+  <configdata></configdata>
+  <block_positions>
+    <block_position id="9593">
+      <contextid>242479</contextid>
+      <pagetype>course-view-topics</pagetype>
+      <subpage></subpage>
+      <visible>1</visible>
+      <region>side-post</region>
+      <weight>4</weight>
+    </block_position>
+  </block_positions>
+</block>

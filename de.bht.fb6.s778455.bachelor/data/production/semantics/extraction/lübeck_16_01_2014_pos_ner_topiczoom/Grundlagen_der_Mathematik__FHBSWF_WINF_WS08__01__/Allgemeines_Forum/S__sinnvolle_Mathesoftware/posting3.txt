@@ -1,0 +1,36 @@
+ID: 16535
+CREATION_DATETIME: 1223473475
+MODIFICATION_DATETIME: 1223473475
+TITLE: Re: S: sinnvolle Mathesoftware
+TOPIC_ZOOM_TAG: value:Maxima Programmiersprache;weight:1.0;significance:12.7085495152339;degreegeneralization:9;uri:20170545
+TOPIC_ZOOM_TAG: value:Programmiersprachen;weight:1.0;significance:7.85651925131431;degreegeneralization:8;uri:20901749
+TOPIC_ZOOM_TAG: value:Programmierung;weight:1.0;significance:7.16337207075436;degreegeneralization:7;uri:21461440
+TOPIC_ZOOM_TAG: value:Formale Sprachen;weight:1.0;significance:7.03179571296564;degreegeneralization:6;uri:21978155
+TOPIC_ZOOM_TAG: value:Computersprachen;weight:1.0;significance:7.02837690621686;degreegeneralization:6;uri:19949137
+TOPIC_ZOOM_TAG: value:Software;weight:1.0;significance:5.21023364446695;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:5.02422544755277;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:5.00870710783694;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:5.00780172072213;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:4.31013985980766;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:4.00703676436106;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+NER_TAG: value:LG;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:LG;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:OpenSource;weight:0.0;uri:;postag:NN
+POS_TAG: value:Netz;weight:0.0;uri:;postag:NN
+POS_TAG: value:SciLab;weight:0.0;uri:;postag:NN
+POS_TAG: value:LG;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 16531
+CONTENT:
+Hallo, habe nun ein paar <REMOVED_PERSON_ENTITY> bekommen und auch einiges an OpenSource im Netz gefunden, was ganz sinnvoll sein könnte:
+  SciLab
+  Octave
+  Yacas
+  Maxima
+Ich habe mich nun erstmal für SciLab entschieden. LG <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, habe_VAFIN nun_ADV ein_ART paar_PIDAT <_NN REMOVED_PERSON_ENTITY_NE >_NE bekommen_VVFIN und_KON auch_ADV einiges_PIS an_APPR OpenSource_NN im_APPRART Netz_NN gefunden_VVPP ,_$, was_PWS ganz_ADV sinnvoll_ADJD sein_VAINF könnte_VMFIN :_$. SciLab_NE Octave_NE Yacas_NE Maxima_NE Ich_PPER habe_VAFIN mich_PRF nun_ADV erstmal_ADV für_APPR SciLab_NN entschieden_VVPP ._$. LG_NN <_VVFIN REMOVED_PERSON_ENTITY_NE >_XY 

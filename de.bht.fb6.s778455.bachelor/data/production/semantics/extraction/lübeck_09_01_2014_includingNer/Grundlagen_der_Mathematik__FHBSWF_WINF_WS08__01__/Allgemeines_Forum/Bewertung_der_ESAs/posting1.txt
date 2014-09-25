@@ -1,0 +1,12 @@
+ID: 16607
+CREATION_DATETIME: 1232053608
+MODIFICATION_DATETIME: 1232053608
+TITLE: Bewertung der ESAs
+TOPIC_ZOOM_TAG: value:Urlaub und Ferien;weight:1.0;significance:7.4881936901556;degreegeneralization:3;uri:20990115
+TOPIC_ZOOM_TAG: value:Freizeit, Abenteuer, Lifestyle, Unterhaltung, Hobby;weight:1.0;significance:3.4415452961402;degreegeneralization:2;uri:21999745
+NER_TAG: value:ESA;weight:-1.0;significance:uri:;classifierlabel:I-ORG
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo,
+hat schon jemand eine Bewertung mindestens zur ersten ESA erhalten? Mir war so, als ob <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY> sie zum Ende der Ferien fertig haben wollte...
+TAGGED_CONTENT:

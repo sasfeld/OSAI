@@ -1,0 +1,10 @@
+ID: 1753
+CREATION_DATETIME: 1366668000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Folien für die Kapitel 3 (XMPP-Erweiterungen) und Kapitel 4 (Codierung und Transport) sind auf der Webseite verfügbar.
+TAGGED_CONTENT:

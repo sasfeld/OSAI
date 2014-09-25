@@ -1,0 +1,9 @@
+ID: 1345
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Dieses printf() ist oben im Code nicht zu sehen.
+PARENT_POSTING_ID: 1329
+POSTING_TYPE: comment
+CONTENT:
+Dieses printf() ist oben im Code nicht zu sehen. Gib mal mehr Kontext.
+TAGGED_CONTENT:

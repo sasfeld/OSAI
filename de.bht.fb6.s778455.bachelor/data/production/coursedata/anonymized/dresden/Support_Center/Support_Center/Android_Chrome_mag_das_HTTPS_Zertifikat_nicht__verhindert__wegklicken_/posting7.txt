@@ -1,0 +1,9 @@
+ID: 1513
+CREATION_DATETIME: 1363042800000
+MODIFICATION_DATETIME: 1363042800000
+TITLE: OCSP ist das Online Certificate Status Protocol, darüber kann eine Implementierung von X.509-Zertifik...
+PARENT_POSTING_ID: 1462
+POSTING_TYPE: comment
+CONTENT:
+OCSP ist das Online Certificate Status Protocol, darüber kann eine <REMOVED_PERSON_ENTITY> <NAME_CORPUS_REPLACEMENT> X. 509-Zertifikaten testen, ob ein gegebenes Zertifikat widerrufen wurde. Die meisten Systeme machen den Test aber nicht. Ich habe in meinem OS X das aber alles angeknipst und bekomme deshalb manchmal diese Warnung, wenn der OCSP-Server gerade down ist. Im Fall <NAME_CORPUS_REPLACEMENT> Auditorium steht der OCSP-Server beim DFN (ocsp. pca. dfn. <LEARNED_PERSON_NAME_REPLACEMENT> steht in eurem Zertifikat) und scheint manchmal zu zicken. Das betrifft übrigens nicht nur euch, sondern auch andere Zertifikate, bei www. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT> bekomme ich momentan dieselbe Warnung. Normale Nutzer sehen das nicht, nur wenn man OCSP-Checking an hat. Soweit die Fakten. Wie das jetzt mit Chrome und Strict Transport Security zusammenhängt, kann ich nur spekulieren. Ich kann mir aber gut vorstellen, dass Chrome wenn er einen STS-Header sieht den Revocation-Check zur Pflicht macht und deshalb einen funktionierenden OCSP-Dienst erwartet. Ich sehe nur zwei mögliche Lösungen: Das OCSP-Problem beim DFN debuggen (besser) oder STS ausmachen (pragmatischer).
+TAGGED_CONTENT:

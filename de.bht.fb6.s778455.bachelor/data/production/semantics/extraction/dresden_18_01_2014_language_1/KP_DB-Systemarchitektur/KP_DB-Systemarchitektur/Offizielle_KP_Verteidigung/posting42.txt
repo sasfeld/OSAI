@@ -1,0 +1,10 @@
+ID: 2425
+CREATION_DATETIME: 1374444000000
+MODIFICATION_DATETIME: 1374444000000
+TITLE: Wir haben die Folien überarbeitet und aktualisiert, sind im SVN
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2089
+POSTING_TYPE: comment
+CONTENT:
+Wir haben die Folien überarbeitet und aktualisiert, sind im SVN
+TAGGED_CONTENT:

@@ -20,6 +20,7 @@ import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.IRdfUsable;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
+import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>
@@ -30,7 +31,7 @@ import de.bht.fb6.s778455.bachelor.model.Posting;
  * @since 02.02.2014
  * 
  */
-public class IRdfUsableTest {
+public class IRdfUsableTest extends NoLoggingTest {
     protected static String COURSE_SET_NAME = "unittestcourseset";
     protected LmsCourseSet courseSet;
 

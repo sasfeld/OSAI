@@ -1,0 +1,14 @@
+ID: 2285
+CREATION_DATETIME: 1374012000000
+MODIFICATION_DATETIME: 1374703200000
+TITLE: Super, vielen dank!
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2280
+POSTING_TYPE: comment
+CONTENT:
+Super, vielen dank!
+
+dass Sender und Empfänger nicht vertauscht werden finde ich zwar seltsam, kann es aber nachvollziehen. 
+
+Danke für die detaillierte und verständliche Antwort :)
+TAGGED_CONTENT:

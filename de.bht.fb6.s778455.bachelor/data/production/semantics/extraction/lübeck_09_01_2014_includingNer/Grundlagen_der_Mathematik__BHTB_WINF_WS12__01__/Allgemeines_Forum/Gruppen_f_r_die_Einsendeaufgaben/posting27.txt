@@ -1,0 +1,9 @@
+ID: 174273
+CREATION_DATETIME: 1351153390
+MODIFICATION_DATETIME: 1351153390
+TITLE: Re: Gruppen für die Einsendeaufgaben
+TOPIC_ZOOM_TAG: value:Foren;weight:1.0;significance:7.65869350798439;degreegeneralization:3;uri:20770662
+PARENT_POSTING_ID: 174225
+CONTENT:
+Hallo Agiros, ich bin bei <REMOVED_PERSON_ENTITY> und Ergün Aras in der Gruppe. Aber das Forum scheint mir hier etwas durcheinander..
+TAGGED_CONTENT:

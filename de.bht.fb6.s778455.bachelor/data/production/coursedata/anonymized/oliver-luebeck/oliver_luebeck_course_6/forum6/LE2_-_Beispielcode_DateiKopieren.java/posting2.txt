@@ -1,0 +1,14 @@
+ID: 6
+CREATION_DATETIME: 1286308560000
+MODIFICATION_DATETIME: 1286308560000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 5
+CONTENT:
+
+Hallo Herr Süß,
+
+Für die Verständnis-Frage: wie lang darf ein Array sein?
+Viele Gruesse
+    
+TAGGED_CONTENT:

@@ -1,0 +1,13 @@
+ID: 3018
+CREATION_DATETIME: 1385334000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Hallo <NAME_CORPUS_REPLACEMENT> Mitglieder,
+vielen Dank für das Nutzen <NAME_CORPUS_REPLACEMENT> auditorium. Seit der Idee hat sich viel getan. Auditorium wird <NAME_CORPUS_REPLACEMENT> vielen genutzt. Nun ist Version 2. 0 fertig und wird in dieser Woche für jeden Verfügbar sein. 
+Also nicht wundern, wenn auditorium in dieser Woche plötzlich anders aussieht ;) 
+<REMOVED_PERSON_ENTITY> kurz vor dem Update gibt es noch eine Information <NAME_CORPUS_REPLACEMENT> mir. 
+auditorium | <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

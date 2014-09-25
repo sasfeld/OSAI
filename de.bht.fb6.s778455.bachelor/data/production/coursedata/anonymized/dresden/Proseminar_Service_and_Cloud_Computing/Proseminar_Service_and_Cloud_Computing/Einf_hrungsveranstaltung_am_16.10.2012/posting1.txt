@@ -1,0 +1,10 @@
+ID: 214
+CREATION_DATETIME: 1349647200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Einführungsveranstaltung findet am Dienstag, 16. 10. 2012, 13:00 Uhr im Raum INF E10 statt.
+Themenangebote unter http://www.inf.tu-dresden. de/index. php?node_id=2568&ln=de&lv_id=55
+TAGGED_CONTENT:

@@ -1,0 +1,11 @@
+ID: 167631
+CREATION_DATETIME: 1349544136
+MODIFICATION_DATETIME: 1349544136
+TITLE: Frage zu Präsenz 1 
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+in der von Herrn <REMOVED_PERSON_ENTITY> zur Verfügung gestellten Datei: 2012-10-06_LA-Präsenz1. pdf auf S. 3 verstehe ich nix mehr.
+Gibt es hier jemanden, der die komplette <REMOVED_PERSON_ENTITY> verstanden hat und erklären kann? Wenn ja, würde ich dafür gerne eine Webkonferenz anbieten, für alle, die es auch nicht verstanden haben. Auf <REMOVED_PERSON_ENTITY> zeichne ich gerne auf.
+M. f. G. <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

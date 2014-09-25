@@ -1,0 +1,11 @@
+ID: 2213
+CREATION_DATETIME: 1373493600000
+MODIFICATION_DATETIME: 1373493600000
+TITLE: Was sind Performanceresults?
+die KernelExecutionTime?
+PARENT_POSTING_ID: 2165
+POSTING_TYPE: comment
+CONTENT:
+Was sind Performanceresults?
+die KernelExecutionTime?
+TAGGED_CONTENT:

@@ -1,0 +1,17 @@
+ID: 2579
+CREATION_DATETIME: 1381960800000
+MODIFICATION_DATETIME: 1381960800000
+TITLE: Ja. Bitte immer auch die Seiten der Fakultät im Blick haben.
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Fakultäten;weight:1.0;significance:9.61750706187561;degreegeneralization:5;uri:20916947
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 2565
+POSTING_TYPE: comment
+CONTENT:
+Ja. Bitte immer auch die Seiten der Fakultät im Blick haben.
+
+http://tu-dresden. de/die_tu_dresden/fakultaeten/fakultaet_informatik/smt/st/studium?subject=244&lang=de&leaf=1&head=4
+TAGGED_CONTENT:

@@ -1,0 +1,16 @@
+ID: 2000
+CREATION_DATETIME: 1370815200000
+MODIFICATION_DATETIME: 1370815200000
+TITLE: Ich habe meine Folien ins SVN geladen. Sind nicht viel, aber ich denke, alles nötige ist drauf. Wolle...
+LANGUAGE: GERMAN
+NER_TAG: value:SVN;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:sentation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Teil;weight:0.0;uri:;postag:NN
+POS_TAG: value:Folien;weight:0.0;uri:;postag:NN
+POS_TAG: value:SVN;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1970
+POSTING_TYPE: comment
+CONTENT:
+Ich habe meine Folien ins SVN geladen. Sind nicht viel, aber ich denke, alles nötige ist drauf. Wollen wir alles zu einer Präsentation mergen oder nimmt jeder seinen Teil für sich?
+TAGGED_CONTENT:
+Ich_PPER habe_VAFIN meine_PPOSAT Folien_NN ins_APPRART SVN_NN geladen_VVPP ._$. Sind_VAFIN nicht_PTKNEG viel_PIS ,_$, aber_KON ich_PPER denke_VVFIN ,_$, alles_PIS nötige_ADJA ist_VAFIN drauf_PROAV ._$. Wollen_VMFIN wir_PPER alles_PIS zu_APPR einer_ART Präsentation_NN mergen_VVFIN oder_KON nimmt_VVFIN jeder_PIDAT seinen_PPOSAT Teil_NN für_APPR sich_PRF ?_$. 

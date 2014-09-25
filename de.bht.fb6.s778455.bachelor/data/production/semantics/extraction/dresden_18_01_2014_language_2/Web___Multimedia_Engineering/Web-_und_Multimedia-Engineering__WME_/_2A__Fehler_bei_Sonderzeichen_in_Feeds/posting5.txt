@@ -1,0 +1,10 @@
+ID: 949
+CREATION_DATETIME: 1354748400000
+MODIFICATION_DATETIME: 1354748400000
+TITLE: Bei der Ausgabe mit php. Ist mir auch heute erst zufällig aufgefallen, da "&" nicht so häufig auftrit...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 945
+POSTING_TYPE: comment
+CONTENT:
+Bei der Ausgabe mit php. Ist mir auch heute erst zufällig aufgefallen, <NAME_CORPUS_REPLACEMENT> "&" nicht so häufig auftritt.
+TAGGED_CONTENT:

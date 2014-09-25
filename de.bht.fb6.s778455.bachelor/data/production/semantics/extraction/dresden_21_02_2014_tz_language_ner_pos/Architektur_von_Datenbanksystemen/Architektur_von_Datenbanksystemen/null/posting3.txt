@@ -1,0 +1,12 @@
+ID: 1809
+CREATION_DATETIME: 1368482400000
+MODIFICATION_DATETIME: 1368482400000
+TITLE: Danke. Noch schnell: Wie weit ist denn die Stoffbehandlung?
+LANGUAGE: GERMAN
+POS_TAG: value:Stoffbehandlung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1807
+POSTING_TYPE: answer
+CONTENT:
+Danke. Noch schnell: Wie weit ist denn die Stoffbehandlung?
+TAGGED_CONTENT:
+Danke_NE ._$. Noch_ADV schnell_ADJD :_$. Wie_PWAV weit_ADJD ist_VAFIN denn_ADV die_ART Stoffbehandlung_NN ?_$. 

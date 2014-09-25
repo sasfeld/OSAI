@@ -1,0 +1,10 @@
+ID: 513
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1358031600000
+TITLE: da bin ich aber zu faul für :) könnte auch einfach klein sein ;)
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 426
+POSTING_TYPE: comment
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> bin ich aber zu faul für :) könnte auch einfach klein sein ;)
+TAGGED_CONTENT:

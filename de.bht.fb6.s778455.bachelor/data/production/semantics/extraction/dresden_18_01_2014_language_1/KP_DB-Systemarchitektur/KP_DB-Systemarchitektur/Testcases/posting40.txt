@@ -1,0 +1,10 @@
+ID: 1983
+CREATION_DATETIME: 1370642400000
+MODIFICATION_DATETIME: 1370642400000
+TITLE: Oder die Lib nach /usr/lib installieren, aber das wollen wir ja nicht, das macht man nur zum Release....
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1822
+POSTING_TYPE: comment
+CONTENT:
+Oder die Lib nach /usr/lib installieren, aber das wollen wir ja nicht, das macht man nur zum Release.
+TAGGED_CONTENT:

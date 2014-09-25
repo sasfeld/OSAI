@@ -1,0 +1,14 @@
+ID: 1435
+CREATION_DATETIME: 1362870000000
+MODIFICATION_DATETIME: 1372802400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+What happens when a application requests memory hence causing a pager fault and the corresponding pager itself has no memory to spare?
+* Will the pager itself generate a page fault *during* page fault handling?
+Is this considered a double fault?
+* Will the pager grant memory it does not have to *resolve* the page fault *before* causing another page fault itself?
+* Will the pager answer with an error and hand out no new memory? Or will it point the application to another pager?
+Does this even matter?
+TAGGED_CONTENT:

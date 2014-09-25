@@ -1,0 +1,9 @@
+ID: 97748
+CREATION_DATETIME: 1285358198
+MODIFICATION_DATETIME: 1285358198
+TITLE: Re: Einsendeaufgaben in LON-CAPA
+TOPIC_ZOOM_TAG: value:Frauen;weight:1.0;significance:4.56619523838409;degreegeneralization:5;uri:20929187
+PARENT_POSTING_ID: 97747
+CONTENT:
+Hallo und danke für die schnellen Antworten :)!Ich habe die Woche schon mit Frau <REMOVED_PERSON_ENTITY> telefoniert und da erwähnte sie diesen Account und meinte das wir die Login-Daten bei der Einführungsveranstaltung erhalten würden. Viele Grüße 
+TAGGED_CONTENT:

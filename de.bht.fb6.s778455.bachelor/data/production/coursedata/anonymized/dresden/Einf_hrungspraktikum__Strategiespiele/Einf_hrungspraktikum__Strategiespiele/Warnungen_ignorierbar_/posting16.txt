@@ -1,0 +1,9 @@
+ID: 1226
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1362524400000
+TITLE: Das ist nicht nur in C so, sondern in ziemlich jeder Programmiersprache. Deine Terme werden nacheinan...
+PARENT_POSTING_ID: 1225
+POSTING_TYPE: comment
+CONTENT:
+Deine Terme werden nacheinander (von innen nach außen evaluiert). Zuerst also (a == b) -> das Resultat ist ein Wahrheitswert, entsprechend kommt <NAME_CORPUS_REPLACEMENT> 0 (falsch) oder 1 (wahr) raus. Dieses Ergebnis wird dann mit c verglichen und solange c nicht 1 ist, ist das Endresultat dann 0 (falsch).
+TAGGED_CONTENT:

@@ -1,0 +1,46 @@
+ID: 42
+CREATION_DATETIME: 1197137220000
+MODIFICATION_DATETIME: 1197137220000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 41
+CONTENT:
+
+Sg,
+
+
+die Anonymität der anonymen Klasse macht mir noch etwas zu schaffen :-)
+habe ich es richtig verstanden,
+Z.B: Das Quellcode "MausBewegung.java", Seite 20:
+
+Ist "new MouseMotionListener()" die anonyme Klasse?
+
+MfG
+
+
+033 getContentPane().addMouseMotionListener(new MouseMotionListener() {
+034
+035 /**
+036 * Maustaste gedrueckt - Methode wird aufgerufen wenn die Maustaste
+037 * gedruckt wird
+038 */
+039 @Override
+040 public void mouseDragged(MouseEvent mE) {
+041 // Maus-Koordinaten zwischenspeichern
+042 int x = mE.getX();
+043 int y = mE.getY();
+044 s = "Mouse-Position: ( " + x + " | " + y + " )";
+045
+046 // aktuelle Maus-Position im Label anzeigen
+047 l.setText(s);
+048 }
+049
+050 /** Mausbewegung - Methode wird aufgerufen wenn die Maus bewegt wird */
+051 @Override
+052 public void mouseMoved(MouseEvent mE) {
+053 // Keine Funktionalitaet
+054 }
+055 });
+
+   
+TAGGED_CONTENT:

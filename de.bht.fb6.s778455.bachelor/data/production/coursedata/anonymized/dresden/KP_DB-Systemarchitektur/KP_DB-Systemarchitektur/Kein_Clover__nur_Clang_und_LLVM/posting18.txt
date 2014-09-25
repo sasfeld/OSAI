@@ -1,0 +1,9 @@
+ID: 1997
+CREATION_DATETIME: 1370728800000
+MODIFICATION_DATETIME: 1370728800000
+TITLE: Lokal kann ich es eh nicht kompilieren aufgrund fehlender OpenCL-Treiber.
+PARENT_POSTING_ID: 1973
+POSTING_TYPE: comment
+CONTENT:
+Lokal kann ich es eh nicht kompilieren aufgrund fehlender OpenCL-Treiber.
+TAGGED_CONTENT:

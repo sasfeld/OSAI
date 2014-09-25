@@ -1,0 +1,14 @@
+ID: 70
+CREATION_DATETIME: 1305638280000
+MODIFICATION_DATETIME: 1305638280000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 57
+CONTENT:
+  
+Ich schaffs heut nicht. Muss nen griechischen Kollegen einarbeiten :-(
+Würde denn noch per Skype / Teamviewer reinschauen wenns nicht zu spät ist.
+
+Gruß, 
+    
+TAGGED_CONTENT:

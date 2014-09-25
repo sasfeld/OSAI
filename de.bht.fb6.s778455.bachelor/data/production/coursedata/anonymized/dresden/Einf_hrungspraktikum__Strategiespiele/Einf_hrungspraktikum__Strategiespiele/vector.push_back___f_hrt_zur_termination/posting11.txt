@@ -1,0 +1,9 @@
+ID: 1616
+CREATION_DATETIME: 1364166000000
+MODIFICATION_DATETIME: 1364166000000
+TITLE: okay hab mich kurz mit christian besprochen und bin vorangekommen, gab wohl probleme mit meinem copy-...
+PARENT_POSTING_ID: 1602
+POSTING_TYPE: answer
+CONTENT:
+okay hab mich kurz mit <NAME_CORPUS_REPLACEMENT> besprochen und bin vorangekommen, gab wohl probleme mit meinem copy-constructor und destructor.
+TAGGED_CONTENT:

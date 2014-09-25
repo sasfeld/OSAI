@@ -1,0 +1,11 @@
+ID: 68274
+CREATION_DATETIME: 1256678039
+MODIFICATION_DATETIME: 1256678039
+TITLE: Lerngruppe 4
+POS_TAG: value:nnen;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+<REMOVED_PERSON_ENTITY> Villarinokönnen ja max. vier sein, kann sich also gerne noch jemand anschließen 
+TAGGED_CONTENT:
+<_XY REMOVED_PERSON_ENTITY_NN >_CARD Villarinokönnen_NN ja_ADV max_NE ._$. vier_CARD sein_VAINF ,_$, kann_VMFIN sich_PRF also_ADV gerne_ADV noch_ADV jemand_PIS anschließen_VVINF 

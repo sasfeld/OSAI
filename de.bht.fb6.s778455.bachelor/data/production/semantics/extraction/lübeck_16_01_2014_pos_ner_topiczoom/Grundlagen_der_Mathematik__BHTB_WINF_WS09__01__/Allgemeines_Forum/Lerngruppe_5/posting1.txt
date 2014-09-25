@@ -1,0 +1,53 @@
+ID: 68277
+CREATION_DATETIME: 1256841305
+MODIFICATION_DATETIME: 1256841305
+TITLE: Lerngruppe 5
+NER_TAG: value:AppData\Local;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:AppData\Local;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:quot;;;weight:0.0;uri:;postag:NN
+POS_TAG: value:C;weight:0.0;uri:;postag:NN
+POS_TAG: value:parent;weight:0.0;uri:;postag:NN
+POS_TAG: value:Normale;weight:0.0;uri:;postag:NN
+POS_TAG: value:SimSun;weight:0.0;uri:;postag:NN
+POS_TAG: value:size;weight:0.0;uri:;postag:NN
+POS_TAG: value:noshow;weight:0.0;uri:;postag:NN
+POS_TAG: value:MsoNormalTable;weight:0.0;uri:;postag:NN
+POS_TAG: value:cm;weight:0.0;uri:;postag:NN
+POS_TAG: value:family;weight:0.0;uri:;postag:NN
+POS_TAG: value:name;weight:0.0;uri:;postag:NN
+POS_TAG: value:Roman;weight:0.0;uri:;postag:NN
+POS_TAG: value:bottom;weight:0.0;uri:;postag:NN
+POS_TAG: value:margin;weight:0.0;uri:;postag:NN
+POS_TAG: value:List;weight:0.0;uri:;postag:NN
+POS_TAG: value:pagination;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tabelle;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+<link href="file:///C:\Users\shion\AppData\Local\Temp\msohtml1\01\clip_filelist. xml" rel="File-List" /><!--[if gte mso 9]>
+  Normal
+  0
+  21
+  MicrosoftInternetExplorer4
+<![endif]--> &lt;!-- /* Font Definitions */ @font-face {font-family:SimSun; panose-1:2 1 6 0 3 1 1 1 1 1; mso-font-alt:宋体; mso-font-charset:134; mso-generic-font-family:auto; mso-font-pitch:variable; mso-font-signature:3 680460288 22 0 262145 0;} @font-face {font-family:&quot;\@SimSun&quot;; panose-1:2 1 6 0 3 1 1 1 1 1; mso-font-charset:134; mso-generic-font-family:auto; mso-font-pitch:variable; mso-font-signature:3 680460288 22 0 262145 0;} /* Style Definitions */ p. MsoNormal, li. MsoNormal, div. MsoNormal {mso-style-parent:&quot;&quot;; margin:0cm; margin-bottom:. 0001pt; mso-pagination:widow-orphan; font-size:12. 0pt; font-family:&quot;Times New Roman&quot;; mso-fareast-font-family:SimSun;} @page Section1 {size:595. 3pt 841. 9pt; margin:70. 85pt 70. 85pt 2. 0cm 70. 85pt; mso-header-margin:35. 4pt; mso-footer-margin:35. 4pt; mso-paper-source:0;} div. Section1 {page:Section1;} --&gt; <!--[if gte mso 10]>
+ /* <REMOVED_PERSON_ENTITY> */
+ table. MsoNormalTable
+	{mso-style-name:"Normale Tabelle";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5. 4pt 0cm 5. 4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:. 0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10. 0pt;
+	font-family:"Times New Roman";}
+<![endif]--><!--[if gte mso 9]>
+<![endif]--><!--[if gte mso 9]>
+ <![endif]-->
+Björn Kießling
+Martin Brieger
+Sven Broeske 
+TAGGED_CONTENT:
+<_XY link_NE href_XY =_XY "_$( file_FM :_$. \/_CARD \/_CARD \/_CARD C_NN :_$. \_CARD Users_FM \_FM shion_FM \_FM AppData_FM \_FM Local_FM \_FM Temp_FM \_FM msohtml1_FM \_FM 01_CARD \_XY clip_filelist_VVPP ._$. xml_ADJD "_$( rel_XY =_XY "_$( File-List_NN "_$( \/_CARD >_CARD <!--[if gte mso 9]>_CARD Normal_ADJD 0_CARD 21_CARD MicrosoftInternetExplorer4_NN <_ITJ !_$. -LSB-_TRUNC endif_KON -RSB-_TRUNC --_-- >_XY <_ITJ !_$. --_APPR \/_CARD \*_CARD Font_NE Definitions_NE \*_CARD \/_CARD @font_VVFIN -_$( face_KON -LCB-_TRUNC font-family_NN :_$. SimSun_NN ;_$. panose-1_CARD :2_XY 1_CARD 6_CARD 0_CARD 3_CARD 1_CARD 1_CARD 1_CARD 1_CARD 1_CARD ;_$. mso-font-alt_VVPP :_$. 宋体_PTKVZ ;_$. mso-font-charset_ADJD :134_CARD ;_$. mso-generic-font-family_NN :_$. auto_FM ;_$. mso-font-pitch_ADJD :_$. variable_ADJA ;_$. mso-font-signature_ADJA :3_CARD 680460288_CARD 22_CARD 0_CARD 262145_CARD 0_CARD ;_$. -RCB-_TRUNC @font_VVPP -_$( face_FM -LCB-_TRUNC font-family:&quot;\@SimSun&quot;;_NN panose-1_CARD :2_XY 1_CARD 6_CARD 0_CARD 3_CARD 1_CARD 1_CARD 1_CARD 1_CARD 1_CARD ;_$. mso-font-charset_ADJD :134_CARD ;_$. mso-generic-font-family_NN :_$. auto_FM ;_$. mso-font-pitch_ADJD :_$. variable_ADJA ;_$. mso-font-signature_ADJA :3_CARD 680460288_CARD 22_CARD 0_CARD 262145_CARD 0_CARD ;_$. -RCB-_TRUNC \/_KON \*_CARD Style_FM Definitions_FM \*_FM \/_FM p._FM MsoNormal_FM ,_$, li_FM ._$. MsoNormal_ADJD ,_$, div_ADJD ._$. MsoNormal_ADJD -LCB-_TRUNC mso-style-parent_NN :_$. "_$( "_$( ;_$. margin_APPR :0_CARD cm_NN ;_$. margin-bottom_NN :_$. ._$. 0001pt_XY ;_$. mso-pagination_NN :_$. widow-orphan_VVINF ;_$. font-size_ADJA :12_CARD ._$. 0pt_XY ;_$. font-family_ADJD :_$. "_$( Times_NE New_NE Roman_NN "_$( ;_$. mso-fareast-font-family_NN :_$. SimSun_NN ;_$. -RCB-_TRUNC @page_KON Section1_NN -LCB-_TRUNC size_NN :595_CARD ._$. 3pt_XY 841_CARD ._$. 9pt_XY ;_$. margin_APPR :70_CARD ._$. 85pt_XY 70_CARD ._$. 85pt_XY 2_CARD ._$. 0cm_XY 70_CARD ._$. 85pt_XY ;_$. mso-header-margin_NN :35_CARD ._$. 4pt_XY ;_$. mso-footer-margin_NN :35_CARD ._$. 4pt_XY ;_$. mso-paper-source_ADJA :0_CARD ;_$. -RCB-_TRUNC div_ADJD ._$. Section1_CARD -LCB-_TRUNC page_FM :_$. Section1_NN ;_$. -RCB-_TRUNC --_-- >_XY <!--[if gte mso 10]>_CARD \/_CARD \*_CARD <_CARD REMOVED_PERSON_ENTITY_NN >_CARD \*_CARD \/_CARD table_VVFIN ._$. MsoNormalTable_NN -LCB-_TRUNC mso-style-name_NN :_$. "_$( Normale_NN Tabelle_NN "_$( ;_$. mso-tstyle-rowband-size_ADJA :0_CARD ;_$. mso-tstyle-colband-size_ADJA :0_CARD ;_$. mso-style-noshow_NN :_$. yes_FM ;_$. mso-style-parent_VVPP :_$. "_$( "_$( ;_$. mso-padding-alt_VVPP :0_CARD cm_NN 5_CARD ._$. 4pt_XY 0cm_CARD 5_CARD ._$. 4pt_XY ;_$. mso-para-margin_NN :0_CARD cm_NN ;_$. mso-para-margin-bottom_NN :_$. ._$. 0001pt_XY ;_$. mso-pagination_NN :_$. widow-orphan_VVINF ;_$. font-size_ADJA :10_CARD ._$. 0pt_XY ;_$. font-family_ADJD :_$. "_$( Times_NE New_NE Roman_NN "_$( ;_$. -RCB-_TRUNC <_ITJ !_$. -LSB-_TRUNC endif_KON -RSB-_TRUNC --_-- >_XY <!--[if gte mso 9]>_CARD <_XY !_$. -LSB-_TRUNC endif_KON -RSB-_TRUNC --_-- >_XY <!--[if gte mso 9]>_CARD <_XY !_$. -LSB-_TRUNC endif_KON -RSB-_TRUNC --_-- >_XY Björn_NE Kießling_NE Martin_NE Brieger_NE Sven_NE Broeske_NE 

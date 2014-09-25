@@ -1,0 +1,14 @@
+ID: 1829
+CREATION_DATETIME: 1368828000000
+MODIFICATION_DATETIME: 1368828000000
+TITLE: Du musst auch deine Interfaces parametrisieren.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1818
+POSTING_TYPE: answer
+CONTENT:
+Du musst auch deine Interfaces parametrisieren.
+
+Deine Map wird zwar als Objekt jetzt richtig initialisiert, aber du legst sie polymorph in einem raw-Data-Container (Map) ab. Hier solltest du mit `Map> autorliste = new HashMap>(); `arbeiten.
+
+genauso bei sucheNachAutor, <NAME_CORPUS_REPLACEMENT> verwendest du auch ein raw-Interface, wenn du es typisieren solltest.
+TAGGED_CONTENT:

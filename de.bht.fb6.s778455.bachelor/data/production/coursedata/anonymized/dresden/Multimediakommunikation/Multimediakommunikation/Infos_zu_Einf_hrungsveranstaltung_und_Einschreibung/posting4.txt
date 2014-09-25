@@ -1,0 +1,9 @@
+ID: 1684
+CREATION_DATETIME: 1365458400000
+MODIFICATION_DATETIME: 1365458400000
+TITLE: Hey Daniel, findet die Veranstaltung heute statt oder bist du auch auf Tagung?
+PARENT_POSTING_ID: 1657
+POSTING_TYPE: comment
+CONTENT:
+Hey <REMOVED_PERSON_ENTITY>, findet die Veranstaltung heute statt oder bist du auch auf Tagung?
+TAGGED_CONTENT:

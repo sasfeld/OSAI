@@ -1,0 +1,10 @@
+ID: 2068
+CREATION_DATETIME: 1371247200000
+MODIFICATION_DATETIME: 1371247200000
+TITLE: Weil Markdown eingesetzt wird und Nummerierungen automatisch umgewandelt werden. 
+LANGUAGE: UNKNOWN
+PARENT_POSTING_ID: 2058
+POSTING_TYPE: comment
+CONTENT:
+Weil Markdown eingesetzt wird und Nummerierungen automatisch umgewandelt werden. 
+TAGGED_CONTENT:

@@ -1,0 +1,17 @@
+ID: 47
+CREATION_DATETIME: 1304625720000
+MODIFICATION_DATETIME: 1304625720000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 46
+CONTENT:
+ 
+hallo , hallo !
+
+ich bin das problem mit dem absoluten wert umgangen.
+als erstes habe ich die abweichung berechnet. dann gibt es zwei möglichkeiten. entweder verwandelt man die zahl, sollte sie negativ sein, in eine postive zahl (einfach * (-1)). oder man erweitert die bedingungen ein bißchen, z.B. (-0.1 <= abweichung && abweichung <= 0.1).
+ich habe noch keine rückmeldung bekommen ob das so ok ist, aber die ergebnisse stimmten.
+
+alles liebe,
+   
+TAGGED_CONTENT:

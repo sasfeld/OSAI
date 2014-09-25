@@ -1,0 +1,19 @@
+ID: 3025
+CREATION_DATETIME: 1385420400000
+MODIFICATION_DATETIME: 1385679600000
+TITLE: Mit header meinte ich die Kopfzeile des codes wo auch include stdio mit bei steht.
+LANGUAGE: GERMAN
+POS_TAG: value:ende;weight:0.0;uri:;postag:NN
+POS_TAG: value:uni;weight:0.0;uri:;postag:NN
+POS_TAG: value:Fehlermeldung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kopfzeile;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 3020
+POSTING_TYPE: comment
+CONTENT:
+Mit header meinte ich die Kopfzeile des codes wo auch include stdio mit bei steht.
+
+Das war im endeffekt die gesamte Fehlermeldung. Also nur undefined reference to....
+
+Hm uns wurde gesagt es wäre egal wo im compile befehl das -lm steht, es dürfe logischerweise nur nicht zwischen dem -o und dem dateinamen stehen. Aber ok, dann versuche ich es nachher nochmal indem ich das -lm ans ende setze, wenn ich aus der uni zurück bin.  Ich kann dann auch nochmal die exakte Fehlermeldung mit anfügen
+TAGGED_CONTENT:
+Mit_APPR header_ADJA meinte_VVFIN ich_PPER die_ART Kopfzeile_NN des_ART codes_ADJA wo_PWAV auch_ADV include_FM stdio_FM mit_APPR bei_APPR steht_VVFIN ._$. Das_PDS war_VAFIN im_APPRART endeffekt_ADJD die_ART gesamte_ADJA Fehlermeldung_NN ._$. Also_ADV nur_ADV undefined_ADJD reference_VVFIN to_FM ..._$( Hm_NE uns_PRF wurde_VAFIN gesagt_VVPP es_PPER wäre_VAFIN egal_ADV wo_PWAV im_APPRART compile_ADJA befehl_VVFIN das_ART -_$( lm_NE steht_VVFIN ,_$, es_PPER dürfe_VMFIN logischerweise_ADV nur_ADV nicht_PTKNEG zwischen_APPR dem_ART -_$( o_ADV und_KON dem_ART dateinamen_ADJA stehen_VVFIN ._$. Aber_KON ok_NE ,_$, dann_ADV versuche_VVFIN ich_PPER es_PPER nachher_ADV nochmal_ADV indem_KOUS ich_PPER das_ART -_$( lm_NE ans_APPRART ende_NN setze_VVFIN ,_$, wenn_KOUS ich_PPER aus_APPR der_ART uni_NN zurück_PTKVZ bin_VAFIN ._$. Ich_PPER kann_VMFIN dann_ADV auch_ADV nochmal_ADV die_ART exakte_ADJA Fehlermeldung_NN mit_APPR anfügen_VVINF 

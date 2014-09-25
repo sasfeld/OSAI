@@ -1,0 +1,136 @@
+ID: 1044
+CREATION_DATETIME: 1358118000000
+MODIFICATION_DATETIME: 1358377200000
+TITLE: Ich hab die Lösung (für dies interessiert). Es lag am Rotieren.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1036
+POSTING_TYPE: answer
+CONTENT:
+Ich hab die Lösung (für dies interessiert). Es lag am Rotieren.
+
+hier die neuen Rotationsfunktionen
+
+```ruby
+
+struct baum* rechtsrotation(struct baum* bm)
+
+{
+
+	if(bm)
+
+	{
+
+		if(bm->links->links && !bm->links->rechts)
+
+		{
+
+			bm->links->rechts = bm;
+
+			bm = bm->links;
+
+			bm->rechts->links = NULL;
+
+		}
+
+		if(bm->links->rechts && !bm->links->links)
+
+		{
+
+			bm->links->links = bm->links->rechts;
+
+			bm->links ->rechts = bm;
+
+			bm = bm->links;
+
+			bm->rechts->links = NULL;
+
+		}
+
+		if(bm->links->links && bm->links->rechts)
+
+		{
+
+			struct baum* help;
+
+			help = bm->links;
+
+			bm->links = help->rechts;
+
+			help->rechts = bm;
+
+			bm = help;
+
+			balancerek(bm);
+
+		}
+
+		balancerek(bm);
+
+	}
+
+	return bm;
+
+}
+
+struct baum* linksrotation(struct baum* bm)
+
+{
+
+	if(bm)
+
+	{
+
+		if(bm->rechts->links && !bm->rechts->rechts)
+
+		{
+
+			bm->rechts->rechts = bm->rechts->links;
+
+			bm->rechts->links = bm;
+
+			bm = bm->rechts;
+
+			bm->links->rechts = NULL;
+
+		}
+
+		if(bm->rechts->rechts && !bm->rechts->links)
+
+		{
+
+			bm->rechts ->links = bm;
+
+			bm = bm->rechts;
+
+			bm->links->rechts = NULL;
+
+		}
+
+		if(bm->rechts->links && bm->rechts->rechts)
+
+		{
+
+			struct baum* help;
+
+			help = bm->rechts;
+
+			bm->rechts = help->links;
+
+			help->links = bm;
+
+			bm = help;
+
+			balancerek(bm);
+
+			}	
+
+		balancerek(bm);
+
+	}
+
+	return bm;
+
+}
+
+```
+TAGGED_CONTENT:

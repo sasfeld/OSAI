@@ -1,0 +1,12 @@
+ID: 239105
+CREATION_DATETIME: 1380900532
+MODIFICATION_DATETIME: 1380900532
+TITLE: Re: Gruppen für potenzielle Einsendeaufgaben
+PARENT_POSTING_ID: 238817
+CONTENT:
+Hey <REMOVED_PERSON_ENTITY>,
+ 
+ich würde mich dir anschließen um eine weitere Gruppe zu stellen.
+Gruß
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 1421
+CREATION_DATETIME: 1362783600000
+MODIFICATION_DATETIME: 1362783600000
+TITLE: So I conclude that the mapping database itself knows indeed where the kernel pages are mapped and by ...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1420
+POSTING_TYPE: comment
+CONTENT:
+So I conclude that the mapping database itself knows indeed where the kernel pages are mapped and by which physical pages they are backed.  
+
+So is it possible that - in physical memory - the kernels memory is scattered all across the RAM?
+TAGGED_CONTENT:

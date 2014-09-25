@@ -1,0 +1,11 @@
+ID: 887
+CREATION_DATETIME: 1354057200000
+MODIFICATION_DATETIME: 1354057200000
+TITLE: And who should do the rounding?
+PARENT_POSTING_ID: 884
+POSTING_TYPE: comment
+CONTENT:
+And who should do the rounding?
+If you have a struct of size 9 bytes then the only thing you <NAME_CORPUS_REPLACEMENT> be sure about is that this struct will be 9 bytes large. If the compiler makes it larger, you <NAME_CORPUS_REPLACEMENT> get 16 bytes. The `sizeof` operator is your friend then.
+What is the actual problem you are trying to solve?
+TAGGED_CONTENT:

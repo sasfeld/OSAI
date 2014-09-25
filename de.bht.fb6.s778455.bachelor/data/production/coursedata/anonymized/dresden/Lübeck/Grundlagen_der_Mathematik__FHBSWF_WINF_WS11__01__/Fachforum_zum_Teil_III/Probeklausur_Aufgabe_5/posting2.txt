@@ -1,0 +1,8 @@
+ID: 117587
+CREATION_DATETIME: 1324717362
+MODIFICATION_DATETIME: 1324717362
+TITLE: Re: Probeklausur Aufgabe 5
+PARENT_POSTING_ID: 117586
+CONTENT:
+Da keiner sich gemeldet hat, werde ich mal meine eigene Frage beantworten. Die Ebenengleichung (ohne Stützvektor) von 2 Vektoren ist:eV = rS * aV + sS * bVDie gesuchten Vektoren xV sollen senkrecht auf cV sein. (Skalarprodukt)cV * xV = 0Damit kann man die Aufgabe lösen!Legende:xV = Vektor xrS = Skalar r
+TAGGED_CONTENT:

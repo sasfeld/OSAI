@@ -1,0 +1,10 @@
+ID: 1742
+CREATION_DATETIME: 1366236000000
+MODIFICATION_DATETIME: 1366236000000
+TITLE: The better answer is: You will never be able to map the 4 GB of I/O memory provided by your PCI devic...
+PARENT_POSTING_ID: 1740
+POSTING_TYPE: answer
+CONTENT:
+The better answer is: You will never be able to map the 4 GB of I/O memory provided by your PCI device into a single application's virtual address space at the same time. This limitation results from the simple fact that your hardware is not able to address more than 4 billion bytes and your virtual address space is actually only 3 GB as the upper 1 GB is reserved for the kernel.
+PAE (http://en.wikipedia.org/wiki/Physical_Address_Extension) is supposed to allow 32bit systems deal with more than 4 GB of memory. But still one application will only be able to access 3 GB at a time. 64bit systems solve the problem completely (until you start using PCI devices with 2^48 bytes of I/O memory).
+TAGGED_CONTENT:

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block id="15347" contextid="95813" version="2013050100">
+  <blockname>html</blockname>
+  <parentcontextid>95811</parentcontextid>
+  <showinsubcontexts>0</showinsubcontexts>
+  <pagetypepattern>course-view-*</pagetypepattern>
+  <subpagepattern>$@NULL@$</subpagepattern>
+  <defaultregion>side-post</defaultregion>
+  <defaultweight>4</defaultweight>
+  <configdata>Tzo4OiJzdGRDbGFzcyI6Mzp7czo1OiJ0aXRsZSI7czoxMjoiS3Vycy1IYXNodGFnIjtzOjQ6InRleHQiO3M6MjYwOiI8cD5Gw7xyIFR3aXR0ZXIsIEZsaWNrciwgV29yZHByZXNzOjxiciAvPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDI1NSwgMCwgMCk7Ij48L3NwYW4+PC9wPiANCjxoMT48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigyNTUsIDAsIDApOyI+I1ZGSEdETTxiciAvPjwvc3Bhbj48L2gxPk1laHIgSW5mb3JtYXRpb25lbiBpbiBkZXIgPGEgaHJlZj0iaHR0cDovL3dpa2kub25jYW1wdXMuZGUvc3lzdGVtZS9tb29kbGUvaGFzaHRhZ3MiPm9uY2FtcHVzcGVkaWE8L2E+ICI7czo2OiJmb3JtYXQiO3M6MToiMSI7fQ==</configdata>
+  <block_positions>
+  </block_positions>
+</block>

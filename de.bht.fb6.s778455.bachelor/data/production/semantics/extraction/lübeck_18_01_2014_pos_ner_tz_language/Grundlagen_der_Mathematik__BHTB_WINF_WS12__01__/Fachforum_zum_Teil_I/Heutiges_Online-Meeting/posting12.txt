@@ -1,0 +1,28 @@
+ID: 166619
+CREATION_DATETIME: 1349286968
+MODIFICATION_DATETIME: 1349286968
+TITLE: Re: Heutiges Online-Meeting
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Programmierung;weight:2.0;significance:4.77558138050291;degreegeneralization:7;uri:21461440
+TOPIC_ZOOM_TAG: value:Software;weight:2.0;significance:3.4734890963113;degreegeneralization:6;uri:21461474
+TOPIC_ZOOM_TAG: value:Informatik;weight:2.0;significance:3.34948363170185;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:2.0;significance:3.33853448048142;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Computer;weight:2.0;significance:2.87342657320511;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:2.0;significance:2.67135784290737;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:2.0;significance:2.44111312827385;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:3.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:2.0;significance:1.76839894638089;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:1.43255875749497;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.28277805211091;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.27826712902651;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:0.895641144893587;degreegeneralization:3;uri:20922149
+POS_TAG: value:Meeting;weight:0.0;uri:;postag:NN
+POS_TAG: value:Reaktion;weight:0.0;uri:;postag:NN
+POS_TAG: value:Programmierung;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 166611
+CONTENT:
+Ist doch klar, Programmierung, denn dieses Online-Meeting steht schon viel länger fest also das für <REMOVED_PERSON_ENTITY>.
+Da bisher auch keine Reaktion von <REMOVED_PERSON_ENTITY> kam, heißt für mich nun ab zu Programmierung^^
+TAGGED_CONTENT:
+Ist_VAFIN doch_ADV klar_ADJD ,_$, Programmierung_NN ,_$, denn_KON dieses_PDAT Online-Meeting_NN steht_VVFIN schon_ADV viel_PIDAT länger_ADJD fest_ADJD also_ADV das_ART für_APPR <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN ._$. Da_ADV bisher_ADV auch_ADV keine_PIAT Reaktion_NN von_APPR <_CARD REMOVED_PERSON_ENTITY_NN >_CARD kam_VVFIN ,_$, heißt_VVFIN für_APPR mich_PPER nun_ADV ab_PTKVZ zu_PTKZU Programmierung_NN ^_CARD ^_XY 

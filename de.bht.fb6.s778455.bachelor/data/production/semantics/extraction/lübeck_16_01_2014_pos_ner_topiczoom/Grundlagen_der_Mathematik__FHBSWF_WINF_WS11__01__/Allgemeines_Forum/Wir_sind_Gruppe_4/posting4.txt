@@ -1,0 +1,10 @@
+ID: 117528
+CREATION_DATETIME: 1320863347
+MODIFICATION_DATETIME: 1320863347
+TITLE: Re: Wir sind Gruppe 4
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 117527
+CONTENT:
+Hi <REMOVED_PERSON_ENTITY>, habe als Lösung auch (-3/2; -3/10) rausbekommen. GrußFrank 
+TAGGED_CONTENT:
+Hi_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, habe_VAFIN als_APPR Lösung_NN auch_ADV -LRB-_TRUNC -3_CARD \/_CARD 2_CARD ;_$. -3_CARD \/_CARD 10_CARD -RRB-_TRUNC rausbekommen_VVPP ._$. GrußFrank_NE 

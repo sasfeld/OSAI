@@ -1,0 +1,11 @@
+ID: 188763
+CREATION_DATETIME: 1356076027
+MODIFICATION_DATETIME: 1356076027
+TITLE: Re: Klausurvorbereitung
+PARENT_POSTING_ID: 188477
+CONTENT:
+@Prof. <REMOVED_PERSON_ENTITY>:
+ist es vielleicht möglich, die zeitlich abgelaufenen Kapitel in LON CAPA (ggf. nach der Auszählung der Punkte) wieder zugänglich zu machen oder anderweitig noch ein paar <REMOVED_PERSON_ENTITY> zur Verfügung zu stellen?
+Freundliche Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

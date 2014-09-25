@@ -1,0 +1,12 @@
+ID: 661
+CREATION_DATETIME: 1352070000000
+MODIFICATION_DATETIME: 1352070000000
+TITLE: Ein bisschen Google und ein Paket später baut es immerhin...
+
+Ich probier das nachher mal auf einem...
+PARENT_POSTING_ID: 655
+POSTING_TYPE: comment
+CONTENT:
+Ein bisschen Google und ein Paket später baut es immerhin...
+Ich probier das nachher mal auf einem Rechner, der auch die Grafikpower hat, 3D darzustellen ^^
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 220
+CREATION_DATETIME: 1349647200000
+MODIFICATION_DATETIME: 1349647200000
+TITLE: Hab auch nichts Offiz
+PARENT_POSTING_ID: 201
+POSTING_TYPE: comment
+CONTENT:
+Hab auch nichts Offizielles dazu gefunden. Aber allem Anschein nach gehen die Übungen wirklich erst nächste Woche los.
+TAGGED_CONTENT:

@@ -1,0 +1,10 @@
+ID: 3102
+CREATION_DATETIME: 1385766000000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: Genau. Es gibt auch kein ManyToMany, die Assoziationsklasse ersetzt das eben. Und in der Klasse gibt ...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 3069
+POSTING_TYPE: comment
+CONTENT:
+Genau. Es gibt auch kein ManyToMany, die Assoziationsklasse ersetzt das eben. Und in der Klasse gibt es einmal OneToOne zur Tour und einmal OneToOne zum User. Und die Id der Tour und die Id des USers sind der Composite Key, umgesetzt mit einer static inner @Embeddable class BookingId.
+TAGGED_CONTENT:

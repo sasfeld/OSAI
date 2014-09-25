@@ -1,0 +1,17 @@
+ID: 45
+CREATION_DATETIME: 1179745020000
+MODIFICATION_DATETIME: 1179745020000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Liebe Studierende,
+
+in der ESA sollen Sie eine eigene Ausnahme programmieren. Die Klasse FalscheErstzulassungAusnahme ist eine innere Klasse. Man greift auf ein FalscheErstzulassungAusnahme-Objekt von einer anderen Klasse, zum Beispiel aus der Test-Klasse, mit der üblicher . Notation:
+
+ErgaenztesAuto.FalscheErstzulassungAusnahme
+
+Mit freundlichen Grüßen
+    
+TAGGED_CONTENT:

@@ -1,0 +1,6 @@
+ID: 2154628
+CREATION_DATETIME: 1380492000000
+MODIFICATION_DATETIME: 1380492000000
+TITLE: KP Übersetzen natürlicher Sprache - Ergänzungspraktikum
+INTRO: null
+TYPE: null

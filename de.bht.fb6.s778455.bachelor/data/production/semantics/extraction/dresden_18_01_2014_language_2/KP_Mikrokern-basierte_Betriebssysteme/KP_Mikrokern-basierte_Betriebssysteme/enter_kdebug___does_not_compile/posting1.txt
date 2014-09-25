@@ -1,0 +1,28 @@
+ID: 1325
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1364425200000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+I included a call to *enter_kdebug()* in my source code ( and included the header of course ) and my compiler gives me 'Fehler: literaler Operator für Zeichenketten »operator"" text« konnte nicht gefunden werden'. I suppose it has to do something with [this](http://awhan.wordpress.com/2012/04/17/error-unable-to-find-string-literal-operator-operator-__file__-gcc-4-7). Looking up the definition of *enter_kdebug()*:
+
+```
+
+#define enter_kdebug ( text ) asm(\
+
+"int $3   "\
+
+"jmp 1f   "\
+
+". ascii \""text "\"  "\
+
+"1:   "\
+
+)
+
+``` 
+
+So hopefully adding a small whitespace should fix this. This hits other debug-macros as well.
+TAGGED_CONTENT:

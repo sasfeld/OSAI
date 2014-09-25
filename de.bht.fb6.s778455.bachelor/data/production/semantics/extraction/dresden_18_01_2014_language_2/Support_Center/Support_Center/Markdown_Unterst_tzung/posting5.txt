@@ -1,0 +1,12 @@
+ID: 64
+CREATION_DATETIME: 1342476000000
+MODIFICATION_DATETIME: 1342476000000
+TITLE: # argh
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 47
+POSTING_TYPE: comment
+CONTENT:
+# argh
+
+## ich meinte *nur* in Fragen und Antworten und **nicht** in Kommentaren
+TAGGED_CONTENT:

@@ -1,0 +1,18 @@
+ID: 2
+CREATION_DATETIME: 1286296980000
+MODIFICATION_DATETIME: 1286296980000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1
+CONTENT:
+
+Hallo ,
+
+die Methode Eingabe() fordert die Eingabe vom Anwender und gibt die Methode eingabeStream() zurück. Beide Methoden sind vom Typ String.
+Die Methode eingabeStream() wiederum stellt den Stream zum Einlesen zur Verfügung, stellt also die Verbindung zur Tastatur des Benutzers her und liest die Eingabe des Benutzers mit der Methode readLine() ein.
+
+Ist das so korrekt Frau Professor Merceron? - oder habe ich da einen Denkfehler?
+
+Viele Grüße
+    
+TAGGED_CONTENT:

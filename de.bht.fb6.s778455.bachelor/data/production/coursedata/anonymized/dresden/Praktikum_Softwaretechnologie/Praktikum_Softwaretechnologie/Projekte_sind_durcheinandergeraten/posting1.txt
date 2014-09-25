@@ -1,0 +1,13 @@
+ID: 2823
+CREATION_DATETIME: 1384210800000
+MODIFICATION_DATETIME: 1385593200000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi :)
+kann mir jemand sagen, warum, wenn ich zuerst einen videoshop run mache und dann das blankweb, auf dem blankweb plötzlich die videoshop css läuft und nicht wieder weg geht? 
+<NAME_CORPUS_REPLACEMENT> ich wieder videoshop als Java App laufen ändert sich auch nichts mehr. 
+Unter localhost ist jetzt permanent ein eigenartiger Mischmasch zu sehen. html <NAME_CORPUS_REPLACEMENT> der blankweb, css vom videoshop.
+Wie bekomme ich das weg?
+TAGGED_CONTENT:

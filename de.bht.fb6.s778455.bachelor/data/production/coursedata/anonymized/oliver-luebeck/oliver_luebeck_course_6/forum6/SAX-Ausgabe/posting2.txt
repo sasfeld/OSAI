@@ -1,0 +1,11 @@
+ID: 71
+CREATION_DATETIME: 1292928420000
+MODIFICATION_DATETIME: 1292928420000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 70
+CONTENT:
+  
+Hat sich erledigt. Es lag an dem Buchstaben "ß" und dem Umlaut in der xml-Datei. ;)
+    
+TAGGED_CONTENT:

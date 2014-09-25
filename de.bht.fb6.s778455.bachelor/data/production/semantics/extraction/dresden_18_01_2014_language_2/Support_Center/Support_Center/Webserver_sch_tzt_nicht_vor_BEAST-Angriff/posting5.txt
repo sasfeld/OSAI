@@ -1,0 +1,10 @@
+ID: 1579
+CREATION_DATETIME: 1363993200000
+MODIFICATION_DATETIME: 1363993200000
+TITLE: Ich meinte "klein" wie in "nicht soooo wichtig"…
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1575
+POSTING_TYPE: comment
+CONTENT:
+Ich meinte "klein" wie in "nicht soooo wichtig"…
+TAGGED_CONTENT:

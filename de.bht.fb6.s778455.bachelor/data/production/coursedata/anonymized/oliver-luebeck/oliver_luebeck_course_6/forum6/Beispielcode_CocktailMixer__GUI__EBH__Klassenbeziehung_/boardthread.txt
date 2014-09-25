@@ -1,0 +1,4 @@
+ID: 30
+TITLE: Beispielcode CocktailMixer (GUI, EBH, Klassenbeziehung)
+LANGUAGE: GERMAN
+FIRST_POSTING_ID: 82

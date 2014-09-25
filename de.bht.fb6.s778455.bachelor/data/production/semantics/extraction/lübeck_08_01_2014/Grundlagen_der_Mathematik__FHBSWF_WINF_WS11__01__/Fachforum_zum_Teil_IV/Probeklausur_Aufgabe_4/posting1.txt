@@ -1,0 +1,20 @@
+ID: 117590
+CREATION_DATETIME: 1326725396
+MODIFICATION_DATETIME: 1326781844
+TITLE: Probeklausur Aufgabe 4
+PARENT_POSTING_ID: 0
+CONTENT:
+Anbei ist der Ansatz: (! = not)
+((K oder !R) -&gt; !W)
+UND ((W oder R) -&gt; K)
+UND !(R UND K)
+UND (K -&gt; W)
+Beachten Sie insb. den letzten Term. Dessen Umformung lautet bekanntermassen inkl. Wahrheitstabelle:
+K W | !K oder W
+0 0  | 1
+0 1  | 1
+1 0  | 0
+1 1  | 1
+Das Ergebnis nach <REMOVED_PERSON_ENTITY> zur Pruefung lautet:
+!K UND !R UND !W
+TAGGED_CONTENT:

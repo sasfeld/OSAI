@@ -1,0 +1,11 @@
+ID: 315
+CREATION_DATETIME: 1350079200000
+MODIFICATION_DATETIME: 1352415600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hello, 
+I did this lab last winter semester, but I did not finish at the end. So <NAME_CORPUS_REPLACEMENT> I do this lab
+this semester again?
+TAGGED_CONTENT:

@@ -1,0 +1,12 @@
+ID: 16567
+CREATION_DATETIME: 1224825141
+MODIFICATION_DATETIME: 1224825141
+TITLE: Re: gruppenmitglieder gesucht
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=6511#16567
+POS_TAG: value:team;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 16565
+CONTENT:
+herzlich willkommen im team, ihr beiden.
+TAGGED_CONTENT:
+herzlich_ADJD willkommen_ADJD im_APPRART team_NN ,_$, ihr_PPOSAT beiden_PIS ._$. 

@@ -1,0 +1,10 @@
+ID: 1119
+CREATION_DATETIME: 1360969200000
+MODIFICATION_DATETIME: 1360969200000
+TITLE: Das Modul hat einen Arbeitsaufwand von 120 Stunden (für die Bachelor-Studiengänge). Wie genau ihr die...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1118
+POSTING_TYPE: answer
+CONTENT:
+Das Modul hat einen Arbeitsaufwand <NAME_CORPUS_REPLACEMENT> 120 Stunden (für die Bachelor-Studiengänge). Wie genau ihr die auf die Zeit <NAME_CORPUS_REPLACEMENT> <NAME_CORPUS_REPLACEMENT> 1. Woche bis Donnerstag 2. Woche verteilt, ist unter anderem <NAME_CORPUS_REPLACEMENT> eurer Gruppe und eurem Tutor abhängig. Am ersten <REMOVED_PERSON_ENTITY> (Einführung und Ausgabe der Kästen,…) und am zweiten <REMOVED_PERSON_ENTITY> (Präsentation der Ergebnisse) seid ihr wahrscheinlich lange an der Uni, an den übrigen Tagen habt ihr mindestens ein Treffen mit eurem Tutor. Ob ihr den Rest des Tages dann zu Hause weiterarbeitet oder im Seminarraum seid, müsst ihr untereinander und mit eurem Tutor klären.
+TAGGED_CONTENT:

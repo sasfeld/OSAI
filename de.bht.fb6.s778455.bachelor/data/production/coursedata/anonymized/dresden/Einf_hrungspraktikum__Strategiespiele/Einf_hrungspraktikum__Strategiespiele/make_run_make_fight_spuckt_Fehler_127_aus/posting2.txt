@@ -1,0 +1,9 @@
+ID: 116
+CREATION_DATETIME: 1348005600000
+MODIFICATION_DATETIME: 1349820000000
+TITLE: Du hast g++ nicht ins
+PARENT_POSTING_ID: 114
+POSTING_TYPE: answer
+CONTENT:
+Du hast g++ nicht installiert. Mach das mal, danach sollte es gehen.
+TAGGED_CONTENT:

@@ -1,0 +1,36 @@
+ID: 3029
+CREATION_DATETIME: 1385420400000
+MODIFICATION_DATETIME: 1385420400000
+TITLE: Hier sind die Spielregel/Zeitplan (Achtung: es hat sich etwas geändert!!!):
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Geometrie;weight:1.0;significance:10.9167900460059;degreegeneralization:6;uri:21635622
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 3019
+POSTING_TYPE: answer
+CONTENT:
+Hier sind die Spielregel/Zeitplan (Achtung: es hat sich etwas geändert!!!):
+
+Es gibt folgende Blocks:
+
+1. Einführung (max. 1P) -- abgelaufen
+
+2. Filterung (max. 4P) -- läuft gerade, Deadline am 2. 12. 2013
+
+3. Geometrien (max. 4P) -- Einführung am 3/4. 12. 2013
+
+4. Labelling Probleme (max. 4P) -- Einführung am 7/8. 01. 2014
+
+Die Übungen sind erfolgreich abgeschlossen, wenn:
+
+1. Insgesamt **9** Punkte aufgesammelt sind (nicht 10, wie vorher angekündigt) **und**
+
+2. Zu den 2., 3. und 4. jeweils mindestens ein Punkt anwesend ist.
+
+"Deadline" bedeutet, dass zum entsprechenden Datum die Lösungen abgegeben werden müssen (Verspätung = Punktabzug). Sollte bei der Lösung etwas nicht in Ordnung sein, kann auch nach dem Deadline eine Auflage erteilt werden.
+TAGGED_CONTENT:

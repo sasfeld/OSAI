@@ -1,0 +1,14 @@
+ID: 642
+CREATION_DATETIME: 1351724400000
+MODIFICATION_DATETIME: 1385506800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> sich viele fragen werden was bei der Präsentation <NAME_CORPUS_REPLACEMENT> euch erwartet wird.. 
+Wie viel Zeit bekommen wir?
+Was wird Inhaltlich erwartet?
+Sollen beide Teammitglieder zu Wort kommen?
+Ist die Präsentation Punktrelevant oder wollt ihr nur sicherstellen, dass wirklich wir das gemacht haben?
+Ein paar Folien machen werden wir sicher auch, was könnte man <NAME_CORPUS_REPLACEMENT> denn drauf schreiben? Also wenn es wie ein simulierter Produktverkauf werden soll dann würde mir was einfallen aber beim <REMOVED_PERSON_ENTITY> <NAME_CORPUS_REPLACEMENT> Mockups?
+TAGGED_CONTENT:

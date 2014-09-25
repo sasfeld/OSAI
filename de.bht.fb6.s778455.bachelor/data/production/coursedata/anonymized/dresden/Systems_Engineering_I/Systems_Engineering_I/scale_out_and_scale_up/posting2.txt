@@ -1,0 +1,9 @@
+ID: 2237
+CREATION_DATETIME: 1373839200000
+MODIFICATION_DATETIME: 1373839200000
+TITLE: Scale up can be implemented by using more threads on a multi-core machine and still the communication...
+PARENT_POSTING_ID: 2236
+POSTING_TYPE: answer
+CONTENT:
+Scale up <NAME_CORPUS_REPLACEMENT> be implemented by using more threads on a multi-core machine and still the communication <NAME_CORPUS_REPLACEMENT> be handled by shared memory. Using an scale out approach requires a network for communications, which has a higher latency and less bandwidth.
+TAGGED_CONTENT:

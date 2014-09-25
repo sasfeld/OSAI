@@ -1,0 +1,10 @@
+ID: 1796
+CREATION_DATETIME: 1368396000000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Die Folien für Kapitel 6 Videokonferenzen sind online. Die Vorlesung findet am 14. 05. statt.
+TAGGED_CONTENT:

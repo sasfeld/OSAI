@@ -1,0 +1,12 @@
+ID: 2730
+CREATION_DATETIME: 1383692400000
+MODIFICATION_DATETIME: 1383692400000
+TITLE: Bei den 60 Byte, die auf dem Bild zu Wireshark für die Framegröße angezeigt werden, fehlen die 4 Byte...
+PARENT_POSTING_ID: 2729
+POSTING_TYPE: answer
+CONTENT:
+Bei den 60 Byte, die auf dem Bild zu Wireshark für die Framegröße angezeigt werden, fehlen die 4 Byte der CRC-Checksum/Frame Check Sequence.
+Diese werden <NAME_CORPUS_REPLACEMENT> einigen Netzwerkkartentreibern nicht an Wireshark weitergeleitet. Dadurch werden <NAME_CORPUS_REPLACEMENT> Wireshark nur 60 Bytes empfangen, obwohl das an der Netzwerkschnittstelle empfangene Paket ordnungsgemäß 60+4=64 Byte groß war (sprich: die Minimalgröße <NAME_CORPUS_REPLACEMENT> 64 Bytes besitzt).
+Siehe auch Erklärung unter der Abbildung des Pakets:
+http://wiki.wireshark.org/Ethernet#Packet_format
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 1154
+CREATION_DATETIME: 1362006000000
+MODIFICATION_DATETIME: 1362006000000
+TITLE: Das Sommersemester 2013 wurde nun in die [Semesterübersicht](https://auditorium.inf.tu-dresden.de/ter...
+PARENT_POSTING_ID: 1092
+POSTING_TYPE: comment
+CONTENT:
+Das [Sommersemester 2013](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/terms/2068359) wurde nun in die [Semesterübersicht](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/terms) aufgenommen. [Somit können Lehrveranstaltungen eingetragen werden.](https://auditorium. inf. tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/lectures/new) Der Abgleich mit jExam wird ende März stattfinden, <NAME_CORPUS_REPLACEMENT> dann alle Lehrveranstaltungen verfügbar sein werden.
+TAGGED_CONTENT:

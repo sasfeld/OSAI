@@ -1,0 +1,25 @@
+ID: 97762
+CREATION_DATETIME: 1285406750
+MODIFICATION_DATETIME: 1285406750
+TITLE: Re: Vorleistungen aus alten Semestern
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Wintersemester;weight:1.0;significance:6.007701167337;degreegeneralization:5;uri:20914346
+TOPIC_ZOOM_TAG: value:Vorlesungen;weight:1.0;significance:5.45839502300295;degreegeneralization:6;uri:20916641
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:2.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Semester;weight:1.0;significance:4.83201353875525;degreegeneralization:4;uri:20914363
+TOPIC_ZOOM_TAG: value:Ereignisse im Bereich Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.6214068062171;degreegeneralization:3;uri:21872857
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:2.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:2.77735785682754;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:1.07441906812122;degreegeneralization:2;uri:21999813
+POS_TAG: value:Vorlesung;weight:0.0;uri:;postag:NN
+POS_TAG: value:fungssystem;weight:0.0;uri:;postag:NN
+POS_TAG: value:Grundlagen;weight:0.0;uri:;postag:NN
+POS_TAG: value:eChristian;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mathematik;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wintersemester;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97761
+CONTENT:
+Hallo, das heißt, wen ich im letzten Wintersemester &quot;Grundlagen Mathematik&quot; belegt habe, die Vorlesung als bestanden im Prüfungssystem steht, muss ich trotzdem alle Aufgaben nochmals erledigen?GrüßeChristian Häusler 
+TAGGED_CONTENT:
+Hallo_ITJ ,_$, das_PDS heißt_VVFIN ,_$, wen_PWS ich_PPER im_APPRART letzten_ADJA Wintersemester_NN "_$( Grundlagen_NN Mathematik_NN "_$( belegt_VVPP habe_VAFIN ,_$, die_ART Vorlesung_NN als_APPR bestanden_VVFIN im_APPRART Prüfungssystem_NN steht_VVFIN ,_$, muss_VVFIN ich_PPER trotzdem_PROAV alle_PIDAT Aufgaben_NN nochmals_ADV erledigen?GrüßeChristian_NN Häusler_NE 

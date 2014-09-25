@@ -1,0 +1,127 @@
+ID: 2743
+CREATION_DATETIME: 1383951600000
+MODIFICATION_DATETIME: 1385766000000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo.
+Ich scheitere daran, den VideoShop zum Laufen zu bringen. Nach dem Importieren sagt Eclipse schon:
+"Archive for required library: 'C:/Users/Kurt/. m2/repository/org/hibernate/hibernate-core/4. 2. 1. Final/hibernate-core-4. 2. 1. Final. jar' in project 'VideoShop' cannot be read or is not a valid ZIP file."
+Wenn ich dann "Maven install" ausführe kommt folgende Fehlermeldung:
+```ruby
+SLF4J: Failed to load class "org. slf4j. impl. StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j. org/codes. html#StaticLoggerBinder for further details.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building video-shop 1. 0. 0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2. 6:resources (default-resources) @ video-shop ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i. e. build is platform dependent!
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i. e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3. 1:compile (default-compile) @ video-shop ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i. e. build is platform dependent!
+[INFO] Compiling 14 source files to C:\Coding\SalesPointWorkSpace\VideoShop arget\classes
+An exception has occurred in the compiler (1. 7. 0_45). Please file a bug at the Java Developer Connection (http://java.sun.com/webapps/bugreport)  after checking the Bug Parade for duplicates. Include your program and the following diagnostic in your report.  Thank you.
+java. lang. ArrayIndexOutOfBoundsException: 9059
+	at com. sun. tools. javac. file. ZipFileIndex$ZipDirectory. readEntry(ZipFileIndex. java:617)
+	at com. sun. tools. javac. file. ZipFileIndex$ZipDirectory. buildIndex(ZipFileIndex. java:580)
+	at com. sun. tools. javac. file. ZipFileIndex$ZipDirectory. access$000(ZipFileIndex. java:484)
+	at com. sun. tools. javac. file. ZipFileIndex. checkIndex(ZipFileIndex. java:192)
+	at com. sun. tools. javac. file. ZipFileIndex.(ZipFileIndex. java:137)
+	at com. sun. tools. javac. file. ZipFileIndexCache. getZipFileIndex(ZipFileIndexCache. java:100)
+	at com. sun. tools. javac. file. JavacFileManager. openArchive(JavacFileManager. java:548)
+	at com. sun. tools. javac. file. JavacFileManager. openArchive(JavacFileManager. java:482)
+	at com. sun. tools. javac. file. JavacFileManager. listContainer(JavacFileManager. java:368)
+	at com. sun. tools. javac. file. JavacFileManager. list(JavacFileManager. java:644)
+	at com. sun. tools. javac. jvm. ClassReader. fillIn(ClassReader. java:2499)
+	at com. sun. tools. javac. jvm. ClassReader. complete(ClassReader. java:2143)
+	at com. sun. tools. javac. code. Symbol. complete(Symbol. java:421)
+	at com. sun. tools. javac. comp. Enter. visitTopLevel(Enter. java:298)
+	at com. sun. tools. javac. tree. JCTree$JCCompilationUnit. accept(JCTree. java:459)
+	at com. sun. tools. javac. comp. Enter. classEnter(Enter. java:258)
+	at com. sun. tools. javac. comp. Enter. classEnter(Enter. java:272)
+	at com. sun. tools. javac. comp. Enter. complete(Enter. java:484)
+	at com. sun. tools. javac. comp. Enter. main(Enter. java:469)
+	at com. sun. tools. javac. main. JavaCompiler. enterTrees(JavaCompiler. java:929)
+	at com. sun. tools. javac. main. JavaCompiler. compile(JavaCompiler. java:824)
+	at com. sun. tools. javac. main. Main. compile(Main. java:439)
+	at com. sun. tools. javac. api. JavacTaskImpl. call(JavacTaskImpl. java:132)
+	at org. codehaus. plexus. compiler. javac. JavaxToolsCompiler. compileInProcess(JavaxToolsCompiler. java:126)
+	at org. codehaus. plexus. compiler. javac. JavacCompiler. performCompile(JavacCompiler. java:169)
+	at org. apache. maven. plugin. compiler. AbstractCompilerMojo. execute(AbstractCompilerMojo. java:785)
+	at org. apache. maven. plugin. compiler. CompilerMojo. execute(CompilerMojo. java:129)
+	at org. apache. maven. plugin. DefaultBuildPluginManager. executeMojo(DefaultBuildPluginManager. java:101)
+	at org. apache. maven. lifecycle. internal. MojoExecutor. execute(MojoExecutor. java:209)
+	at org. apache. maven. lifecycle. internal. MojoExecutor. execute(MojoExecutor. java:153)
+	at org. apache. maven. lifecycle. internal. MojoExecutor. execute(MojoExecutor. java:145)
+	at org. apache. maven. lifecycle. internal. LifecycleModuleBuilder. buildProject(LifecycleModuleBuilder. java:84)
+	at org. apache. maven. lifecycle. internal. LifecycleModuleBuilder. buildProject(LifecycleModuleBuilder. java:59)
+	at org. apache. maven. lifecycle. internal. LifecycleStarter. singleThreadedBuild(LifecycleStarter. java:183)
+	at org. apache. maven. lifecycle. internal. LifecycleStarter. execute(LifecycleStarter. java:161)
+	at org. apache. maven. DefaultMaven. doExecute(DefaultMaven. java:320)
+	at org. apache. maven. DefaultMaven. execute(DefaultMaven. java:156)
+	at org. apache. maven. cli. MavenCli. execute(MavenCli. java:537)
+	at org. apache. maven. cli. MavenCli. doMain(MavenCli. java:196)
+	at org. apache. maven. cli. MavenCli. main(MavenCli. java:141)
+	at sun. reflect. NativeMethodAccessorImpl. invoke0(Native Method)
+	at sun. reflect. NativeMethodAccessorImpl. invoke(NativeMethodAccessorImpl. java:57)
+	at sun. reflect. DelegatingMethodAccessorImpl. invoke(DelegatingMethodAccessorImpl. java:43)
+	at java. lang. reflect. Method. invoke(Method. java:606)
+	at org. codehaus. plexus. classworlds. launcher. Launcher. launchEnhanced(Launcher. java:290)
+	at org. codehaus. plexus. classworlds. launcher. Launcher. launch(Launcher. java:230)
+	at org. codehaus. plexus. classworlds. launcher. Launcher. mainWithExitCode(Launcher. java:409)
+	at org. codehaus. plexus. classworlds. launcher. Launcher. main(Launcher. java:352)
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\org\aspectj\aspectjrt\1. 7. 3\aspectjrt-1. 7. 3. jar; invalid LOC header (bad signature)
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\org\aspectj\aspectjweaver\1. 7. 3\aspectjweaver-1. 7. 3. jar; invalid LOC header (bad signature)
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\org\apache omcat omcat-jdbc\7. 0. 42 omcat-jdbc-7. 0. 42. jar; invalid LOC header (bad signature)
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\org\apache omcat omcat-juli\7. 0. 42 omcat-juli-7. 0. 42. jar; invalid LOC header (bad signature)
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\org\hibernate\hibernate-entitymanager\4. 2. 1. Final\hibernate-entitymanager-4. 2. 1. Final. jar; invalid LOC header (bad signature)
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\org\hibernate\hibernate-core\4. 2. 1. Final\hibernate-core-4. 2. 1. Final. jar; invalid CEN header (bad signature)
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\antlr\antlr\2. 7. 7\antlr-2. 7. 7. jar; invalid LOC header (bad signature)
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\dom4j\dom4j\1. 6. 1\dom4j-1. 6. 1. jar; invalid LOC header (bad signature)
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\org\hibernate\common\hibernate-commons-annotations\4. 0. 1. Final\hibernate-commons-annotations-4. 0. 1. Final. jar; invalid LOC header (bad signature)
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\org\springframework\data\spring-data-jpa\1. 4. 1. RELEASE\spring-data-jpa-1. 4. 1. RELEASE. jar; invalid LOC header (bad signature)
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\org\aspectj\aspectjweaver\1. 7. 3\aspectjweaver-1. 7. 3. jar; cannot read zip file entry
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\dom4j\dom4j\1. 6. 1\dom4j-1. 6. 1. jar; cannot read zip file entry
+[INFO] 12 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1. 976s
+[INFO] Finished at: Sat Nov 09 11:30:11 CET 2013
+[INFO] Final Memory: 15M/228M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org. apache. maven. plugins:maven-compiler-plugin:3. 1:compile (default-compile) on project video-shop: Compilation failure: Compilation failure:
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\org\aspectj\aspectjrt\1. 7. 3\aspectjrt-1. 7. 3. jar; invalid LOC header (bad signature)
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\org\aspectj\aspectjweaver\1. 7. 3\aspectjweaver-1. 7. 3. jar; invalid LOC header (bad signature)
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\org\apache omcat omcat-jdbc\7. 0. 42 omcat-jdbc-7. 0. 42. jar; invalid LOC header (bad signature)
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\org\apache omcat omcat-juli\7. 0. 42 omcat-juli-7. 0. 42. jar; invalid LOC header (bad signature)
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\org\hibernate\hibernate-entitymanager\4. 2. 1. Final\hibernate-entitymanager-4. 2. 1. Final. jar; invalid LOC header (bad signature)
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\org\hibernate\hibernate-core\4. 2. 1. Final\hibernate-core-4. 2. 1. Final. jar; invalid CEN header (bad signature)
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\antlr\antlr\2. 7. 7\antlr-2. 7. 7. jar; invalid LOC header (bad signature)
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\dom4j\dom4j\1. 6. 1\dom4j-1. 6. 1. jar; invalid LOC header (bad signature)
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\org\hibernate\common\hibernate-commons-annotations\4. 0. 1. Final\hibernate-commons-annotations-4. 0. 1. Final. jar; invalid LOC header (bad signature)
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\org\springframework\data\spring-data-jpa\1. 4. 1. RELEASE\spring-data-jpa-1. 4. 1. RELEASE. jar; invalid LOC header (bad signature)
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\org\aspectj\aspectjweaver\1. 7. 3\aspectjweaver-1. 7. 3. jar; cannot read zip file entry
+[ERROR] error reading C:\Users\<REMOVED_PERSON_ENTITY>. m2\repository\dom4j\dom4j\1. 6. 1\dom4j-1. 6. 1. jar; cannot read zip file entry
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+```
+TAGGED_CONTENT:

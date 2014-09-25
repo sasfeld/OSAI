@@ -1,0 +1,10 @@
+ID: 2536
+CREATION_DATETIME: 1380060000000
+MODIFICATION_DATETIME: 1380060000000
+TITLE: Da ich gerade an der neuen Version von auditorium baue, ist die aktuelle Version ein wenig Stiefmütte...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 2534
+POSTING_TYPE: comment
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> ich gerade an der neuen Version <NAME_CORPUS_REPLACEMENT> auditorium baue, ist die aktuelle Version ein wenig Stiefmütterlich behandelt. Aber in den nächsten Wochen wird die neue Version ausgerollt. Unter anderem stand der "Clone"-Button mit auf der todo-Liste, aber das ist für die neue Version überflüssig. Mehr dazu in den nächsten Wochen.
+TAGGED_CONTENT:

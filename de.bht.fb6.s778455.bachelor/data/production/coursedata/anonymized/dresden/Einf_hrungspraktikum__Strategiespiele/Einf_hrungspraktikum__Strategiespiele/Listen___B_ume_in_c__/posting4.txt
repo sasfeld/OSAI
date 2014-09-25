@@ -1,0 +1,10 @@
+ID: 1263
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1362610800000
+TITLE: Negativ. Im Gegensatz zu Listen enthalten Sets keine Duplikate. [siehe hier](http://www.cplusplus.com...
+PARENT_POSTING_ID: 1261
+POSTING_TYPE: comment
+CONTENT:
+Negativ. Im Gegensatz zu Listen enthalten Sets keine Duplikate. [siehe hier](http://www.cplusplus.com/reference/set/set/)  
+Zudem kann wird die Ordnung der Elemente durch einen Komparator bestimmt und nicht durch die Reihenfolge des Einfügens.
+TAGGED_CONTENT:

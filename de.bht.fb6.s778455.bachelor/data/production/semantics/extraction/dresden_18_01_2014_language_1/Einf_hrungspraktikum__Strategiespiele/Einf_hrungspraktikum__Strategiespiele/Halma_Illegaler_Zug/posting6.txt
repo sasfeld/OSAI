@@ -1,0 +1,10 @@
+ID: 1394
+CREATION_DATETIME: 1362697200000
+MODIFICATION_DATETIME: 1362697200000
+TITLE: Sehr nützlich sind übrigens auch `grep` und `less`, wenn man bei letzterem ergooglet hat, wie man Din...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1392
+POSTING_TYPE: comment
+CONTENT:
+Sehr nützlich ist übrigens auch `less`, wenn man ergooglet hat, wie man Dinge sucht :)
+TAGGED_CONTENT:

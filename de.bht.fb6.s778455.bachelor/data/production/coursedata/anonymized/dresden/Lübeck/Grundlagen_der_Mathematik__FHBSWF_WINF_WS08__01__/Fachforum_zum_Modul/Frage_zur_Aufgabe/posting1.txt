@@ -1,0 +1,8 @@
+ID: 16663
+CREATION_DATETIME: 1224693513
+MODIFICATION_DATETIME: 1224693513
+TITLE: Frage zur Aufgabe
+PARENT_POSTING_ID: 0
+CONTENT:
+kann mir wer aufgabe 17 in dem link erklären?http://moodle.oncampus.de/modules/ir043/onmod/matheI/lo2_reelle/1/onCampusBook/11/unit. html 
+TAGGED_CONTENT:

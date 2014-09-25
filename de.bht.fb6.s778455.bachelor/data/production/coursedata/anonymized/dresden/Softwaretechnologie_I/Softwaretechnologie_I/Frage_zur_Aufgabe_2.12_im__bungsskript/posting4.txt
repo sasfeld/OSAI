@@ -1,0 +1,10 @@
+ID: 2091
+CREATION_DATETIME: 1371765600000
+MODIFICATION_DATETIME: 1371765600000
+TITLE: Mit "Ausgestaltung der Textausführungen" meinte ich auch, dass man sich das aus dem Text herleiten mü...
+PARENT_POSTING_ID: 2073
+POSTING_TYPE: comment
+CONTENT:
+Mit "Ausgestaltung der Textausführungen" meinte ich auch, dass man sich das aus dem Text herleiten müsste, auch wenn es nicht <NAME_CORPUS_REPLACEMENT> steht. Allerdings bin ich nicht auf die "inhaltliche Tiefe" wie Du gekommen :-)).
+Es ist nur die Frage, ob und wieviel man sich aus einem Text ableiten (weiterspinnen) muss.
+TAGGED_CONTENT:

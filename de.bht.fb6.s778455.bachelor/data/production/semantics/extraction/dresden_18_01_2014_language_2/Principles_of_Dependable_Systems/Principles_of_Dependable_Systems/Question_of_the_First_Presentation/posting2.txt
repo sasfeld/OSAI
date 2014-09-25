@@ -1,0 +1,10 @@
+ID: 2900
+CREATION_DATETIME: 1384729200000
+MODIFICATION_DATETIME: 1384729200000
+TITLE: Please make your questions public. And if you ask something about the lecture slides, please mention ...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 2862
+POSTING_TYPE: comment
+CONTENT:
+Please make your questions public. And if you ask something about the lecture slides, please mention the slide number.
+TAGGED_CONTENT:

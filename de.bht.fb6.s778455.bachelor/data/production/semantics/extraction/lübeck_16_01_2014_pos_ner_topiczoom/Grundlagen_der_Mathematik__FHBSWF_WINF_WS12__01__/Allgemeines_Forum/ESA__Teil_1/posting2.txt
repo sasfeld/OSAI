@@ -1,0 +1,33 @@
+ID: 183515
+CREATION_DATETIME: 1354012515
+MODIFICATION_DATETIME: 1354012515
+TITLE: Re: ESA, Teil 1
+TOPIC_ZOOM_TAG: value:Nachbarn;weight:4.0;significance:8.39106140169762;degreegeneralization:4;uri:20804645
+TOPIC_ZOOM_TAG: value:Wohnen, Haus und Garten;weight:4.0;significance:4.99075330422034;degreegeneralization:3;uri:21125894
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:4.0;significance:2.88779161029679;degreegeneralization:2;uri:21306723
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:0.863117812895972;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:0.724020340271243;degreegeneralization:3;uri:20758133
+POS_TAG: value:Grafik;weight:0.0;uri:;postag:NN
+POS_TAG: value:Probleme;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mitte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bewertung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabenstellung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nachbarn;weight:0.0;uri:;postag:NN
+POS_TAG: value:Knoten;weight:0.0;uri:;postag:NN
+POS_TAG: value:B.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sache;weight:0.0;uri:;postag:NN
+POS_TAG: value:Knotenwerte;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabestellung;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 180485
+CONTENT:
+Hallo zusammen,
+ich hänge gerade an der Aufgabe 2. Leider habe ich mit der Aufgabenstellung b) meine Probleme. In der Aufgabestellung steht "Für jeden Knoten ist die <REMOVED_PERSON_ENTITY> der Knotenwerte seiner Nachbarn gleich Null."
+Irgendwie sehe ich das nicht, eventuell verstehe ich diese Sache aber auch falsch. Nehme ich z. B. in der folgenden Grafik den Knoten oben links mit der Bewertung "1". Dieser Knoten hat nur ein Nachbarn und zwar die "0" die ziemlich zentral in der Mitte steht. 1+0 ist aber 1 und nicht 0
+Oder ist das so gemeint, dass man eben NUR die Nachbarn betrachtet. Somit hätte der Knoten oben links nur die zentrale "0" als Nachbarn. Da nur ein <REMOVED_PERSON_ENTITY> vorhanden ist muss hier auch nichts addiert werden. 0 ist Null.
+Vermutlich ist zweiteres richtig, korrekt?
+Danke und Gruß
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hallo_ITJ zusammen_PTKVZ ,_$, ich_PPER hänge_VVFIN gerade_ADV an_APPR der_ART Aufgabe_NN 2_CARD ._$. Leider_ADV habe_VAFIN ich_PPER mit_APPR der_ART Aufgabenstellung_NN b_XY -RRB-_TRUNC meine_PPOSAT Probleme_NN ._$. In_APPR der_ART Aufgabestellung_NN steht_VVFIN "_$( Für_APPR jeden_PIDAT Knoten_NN ist_VAFIN die_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN der_ART Knotenwerte_NN seiner_PPOSAT Nachbarn_NN gleich_ADV Null_CARD ._$. "_$( Irgendwie_ADV sehe_VVFIN ich_PPER das_PDS nicht_PTKNEG ,_$, eventuell_ADJD verstehe_VVFIN ich_PPER diese_PDAT Sache_NN aber_ADV auch_ADV falsch_ADJD ._$. Nehme_VVFIN ich_PPER z._APPRART B._NN in_APPR der_ART folgenden_ADJA Grafik_NN den_ART Knoten_NN oben_ADV links_ADV mit_APPR der_ART Bewertung_NN "_$( 1_CARD "_$( ._$. Dieser_PDAT Knoten_NN hat_VAFIN nur_ADV ein_ART Nachbarn_NN und_KON zwar_ADV die_ART "_$( 0_CARD "_$( die_ART ziemlich_ADV zentral_ADJD in_APPR der_ART Mitte_NN steht_VVFIN ._$. 1_CARD +0_CARD ist_VAFIN aber_ADV 1_CARD und_KON nicht_PTKNEG 0_CARD Oder_KON ist_VAFIN das_PDS so_ADV gemeint_VVPP ,_$, dass_KOUS man_PIS eben_ADV NUR_ADV die_ART Nachbarn_NN betrachtet_VVPP ._$. Somit_ADV hätte_VAFIN der_ART Knoten_NN oben_ADV links_ADV nur_ADV die_ART zentrale_ADJA "_$( 0_CARD "_$( als_APPR Nachbarn_NN ._$. Da_ADV nur_ADV ein_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD vorhanden_ADJD ist_VAFIN muss_PPER hier_ADV auch_ADV nichts_PIS addiert_VVPP werden_VAINF ._$. 0_CARD ist_VAFIN Null_CARD ._$. Vermutlich_ADV ist_VAFIN zweiteres_PIS richtig_ADJD ,_$, korrekt_ADJD ?_$. Danke_NE und_KON Gruß_NE <_NE REMOVED_PERSON_ENTITY_NE >_XY 

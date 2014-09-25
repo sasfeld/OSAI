@@ -1,0 +1,13 @@
+ID: 2141
+CREATION_DATETIME: 1372543200000
+MODIFICATION_DATETIME: 1372543200000
+TITLE: Ich glaube, die Anzahl der Maximalen WorkItems darf insgesamt 1024 nicht übersteigen, sprich 32 * 32 ...
+PARENT_POSTING_ID: 2137
+POSTING_TYPE: comment
+CONTENT:
+Ich glaube, die Anzahl der Maximalen WorkItems darf insgesamt 1024 nicht übersteigen, sprich 32 * 32 bei einer 2dimensionalen Berechnung. Das ist dann wiederum nicht ganz so viel ;) 
+Wenn das nicht der Fall ist, also die WorkItems pro Dimension diesen Maximalwert haben dürfen, dann habe ich so langsam keine Ahnung, warum die MatrixMultiplikation mit den generierten Testdaten segfaulted. 
+>CL_INVALID_WORK_GROUP_SIZE if local_work_size is specified and the total number of work-items in the work-group computed as local_work_size[0] *... local_work_size[work_dim - 1] is greater than the value specified by <LEARNED_PERSON_NAME_REPLACEMENT>_DEVICE_MAX_WORK_GROUP_SIZE in the table of OpenCL Device Queries for clGetDeviceInfo.
+>(http://www.khronos.org/registry/cl/sdk/1. 1/docs/man/xhtml/clEnqueueNDRangeKernel. html)
+Hier klingt es zumindest so, dass die Gesamtzahl der Workitems veranschlagt werden müsste.
+TAGGED_CONTENT:

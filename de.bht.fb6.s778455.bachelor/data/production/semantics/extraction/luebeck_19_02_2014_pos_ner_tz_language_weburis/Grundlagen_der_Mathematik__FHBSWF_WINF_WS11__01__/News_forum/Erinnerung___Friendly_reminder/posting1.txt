@@ -1,0 +1,23 @@
+ID: 117503
+CREATION_DATETIME: 1325715153
+MODIFICATION_DATETIME: 1325715153
+TITLE: Erinnerung / Friendly reminder
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=43889#117503
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:6.95597687640829;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Woche;weight:0.0;uri:;postag:NN
+POS_TAG: value:Pruefung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Prof.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Bitte;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kurs;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Bitte vergessen Sie nicht, den Kurs zu evaluieren und sich ab naechster Woche zur Pruefung anzumelden!
+<REMOVED_PERSON_ENTITY> Prof. <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Bitte_NN vergessen_VVPP Sie_PPER nicht_PTKNEG ,_$, den_ART Kurs_NN zu_PTKZU evaluieren_VVINF und_KON sich_PRF ab_APPR naechster_ADJA Woche_NN zur_APPRART Pruefung_NN anzumelden_VVIZU !_$. <_XY REMOVED_PERSON_ENTITY_NN >_CARD Prof._NN <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

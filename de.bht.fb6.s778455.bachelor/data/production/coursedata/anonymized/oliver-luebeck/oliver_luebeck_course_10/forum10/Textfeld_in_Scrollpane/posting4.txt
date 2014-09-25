@@ -1,0 +1,25 @@
+ID: 39
+CREATION_DATETIME: 1195551060000
+MODIFICATION_DATETIME: 1195551060000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 34
+CONTENT:
+
+Hallo,
+
+ 
+
+newLabel ist ein JScrollPane (Container) und hat daher nicht die Methode getText().
+
+Was du machen willst ist erst einmal die Componenten auslesen und dann getText(). Etwa so:
+
+ 
+
+newLabel.getComponents()[0].getText();
+
+ 
+
+Ich habs selber noch nicht ausprobiert aber sofern die JTextArea die einzige Componente in dem Container ist sollte es gehen.
+    
+TAGGED_CONTENT:

@@ -1,0 +1,8 @@
+ID: 110804132
+CREATION_DATETIME: 1362351600000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Distributed Operating Systems
+SUMMARY: The Distributed Operating Systems lecture continues and consolidates the topics of the basic course Operating Systems and Security. It is particularly focused on presenting a balanced combination of distributed systems in-use as well as research projects 
+URL: http://www.inf.tu-dresden.de/index.php?node_id=1313

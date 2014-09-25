@@ -1,0 +1,18 @@
+ID: 15
+CREATION_DATETIME: 1191656700000
+MODIFICATION_DATETIME: 1191656700000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 14
+CONTENT:
+
+
+Hi 
+
+Wenn es mal möglich ist, dann beides. =)
+
+Auf jeden Fall, ist man wenn man sich an der Mailingliste beteiligt schneller dabei. Denn hier wird ja jede Anfrage erst nach einer halben Stunde verschickt. Das ist mal ne echte Bremse... Soll ja vorkommen, daß man auch mal was besprechen will, daß nicht in jedem Fall gleich hochoffiziell im Moodle steht. Die Group ist closed, so daß niemand ohne Erlaubnis direkt einsteigen kann.
+
+Grüße,
+   
+TAGGED_CONTENT:

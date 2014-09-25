@@ -1,0 +1,17 @@
+ID: 16601
+CREATION_DATETIME: 1231264357
+MODIFICATION_DATETIME: 1231264357
+TITLE: Re: ESA
+LANGUAGE: GERMAN
+POS_TAG: value:Aufgabengleichung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hinweis;weight:0.0;uri:;postag:NN
+POS_TAG: value:Variablen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Matrizenform;weight:0.0;uri:;postag:NN
+POS_TAG: value:en;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hallogut;weight:0.0;uri:;postag:NN
+POS_TAG: value:Formelform;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 16599
+CONTENT:
+Hallogut: ein Hinweis:schreiben Sie sich die Aufgabengleichung mal in der Matrizenform, nicht in der gegebenen Formelform, auf. Dann haben Sie ziemlich viele Variablen darin, aber zu beachten ist noch dass die Matrix X und die Matrix x diesselbe sind. Mit besten Grüßen, <PERSONAL_GREETING_REMOVEMENT>. <REMOVED_PERSON_ENTITY>. 
+TAGGED_CONTENT:
+Hallogut_NN :_$. ein_ART Hinweis_NN :_$. schreiben_VVFIN Sie_PPER sich_PRF die_ART Aufgabengleichung_NN mal_ADV in_APPR der_ART Matrizenform_NN ,_$, nicht_PTKNEG in_APPR der_ART gegebenen_ADJA Formelform_NN ,_$, auf_PTKVZ ._$. Dann_ADV haben_VAFIN Sie_PPER ziemlich_ADV viele_PIDAT Variablen_NN darin_PROAV ,_$, aber_ADV zu_PTKZU beachten_VVINF ist_VAFIN noch_ADV dass_KOUS die_ART Matrix_NE X_XY und_KON die_ART Matrix_NE x_XY diesselbe_PDS sind_VAFIN ._$. Mit_APPR besten_ADJA Grüßen_NN ,_$, <_CARD PERSONAL_GREETING_REMOVEMENT_NE >_NE ._$. <_XY REMOVED_PERSON_ENTITY_NE >_NE ._$. 

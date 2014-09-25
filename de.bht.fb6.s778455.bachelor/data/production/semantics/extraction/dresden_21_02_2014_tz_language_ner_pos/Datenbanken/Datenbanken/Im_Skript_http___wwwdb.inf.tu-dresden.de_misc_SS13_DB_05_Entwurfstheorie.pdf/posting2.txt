@@ -1,0 +1,15 @@
+ID: 2512
+CREATION_DATETIME: 1375999200000
+MODIFICATION_DATETIME: 1376344800000
+TITLE: ABE wäre dann allerdings nicht in der Hülle von C; deshalb es bringt nichts.
+LANGUAGE: GERMAN
+NER_TAG: value:ABE;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:lle;weight:0.0;uri:;postag:NN
+POS_TAG: value:C;weight:0.0;uri:;postag:NN
+POS_TAG: value:ABE;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2511
+POSTING_TYPE: answer
+CONTENT:
+ABE wäre dann allerdings nicht in der Hülle <NAME_CORPUS_REPLACEMENT> C; deshalb es bringt nichts.
+TAGGED_CONTENT:
+ABE_NN wäre_VAFIN dann_ADV allerdings_ADV nicht_PTKNEG in_APPR der_ART Hülle_NN <_NE NAME_CORPUS_REPLACEMENT_NE >_CARD C_NN ;_$. deshalb_PROAV es_PPER bringt_VVFIN nichts_PIS ._$. 

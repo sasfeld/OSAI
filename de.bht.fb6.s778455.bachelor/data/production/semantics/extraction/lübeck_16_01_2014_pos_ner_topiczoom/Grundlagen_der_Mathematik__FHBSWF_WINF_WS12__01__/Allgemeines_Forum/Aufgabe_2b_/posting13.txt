@@ -1,0 +1,57 @@
+ID: 185665
+CREATION_DATETIME: 1354785250
+MODIFICATION_DATETIME: 1354785250
+TITLE: Re: Aufgabe 2b)
+TOPIC_ZOOM_TAG: value:Vektoren;weight:5.0;significance:9.07753536802421;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Mathematik;weight:7.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:7.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:7.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:7.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:7.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Algebraische Begriffe;weight:1.0;significance:1.81550707360484;degreegeneralization:7;uri:20767840
+TOPIC_ZOOM_TAG: value:Skalare;weight:1.0;significance:1.81550707360484;degreegeneralization:7;uri:19937424
+TOPIC_ZOOM_TAG: value:Vektorräume;weight:1.0;significance:1.81550707360484;degreegeneralization:8;uri:20146881
+TOPIC_ZOOM_TAG: value:Algebra;weight:1.0;significance:1.81550707360484;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Lineare Algebra;weight:1.0;significance:1.81550707360484;degreegeneralization:7;uri:20881366
+TOPIC_ZOOM_TAG: value:Verfügungen;weight:1.0;significance:1.03556628586997;degreegeneralization:3;uri:19992589
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:0.378728144914756;degreegeneralization:2;uri:21999830
+NER_TAG: value:UVR;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:UVR;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:UVR;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:LK's;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:UVR;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:UVR;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:UVR;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:LK's;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Vektoren;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vektorraum;weight:0.0;uri:;postag:NN
+POS_TAG: value:llen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Hinweis;weight:0.0;uri:;postag:NN
+POS_TAG: value:sung;weight:0.0;uri:;postag:NN
+POS_TAG: value:gung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabe;weight:0.0;uri:;postag:NN
+POS_TAG: value:IR;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabenstellung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Knotenbewertungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dimension;weight:0.0;uri:;postag:NN
+POS_TAG: value:UVR;weight:0.0;uri:;postag:NN
+POS_TAG: value:eLars;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sinn;weight:0.0;uri:;postag:NN
+POS_TAG: value:Irgendwie;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beweisen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Skalare;weight:0.0;uri:;postag:NN
+POS_TAG: value:Nullregel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zahlen;weight:0.0;uri:;postag:NN
+POS_TAG: value:LK;weight:0.0;uri:;postag:NN
+POS_TAG: value:Multiplikation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Addition;weight:0.0;uri:;postag:NN
+POS_TAG: value:Knoten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Kriterien;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 185647
+CONTENT:
+Moin,
+genau das, was <REMOVED_PERSON_ENTITY> geschrieben hat, ist mir dann auch gestern in den Sinn gekommen. Es geht laut Aufgabenstellung nämlich nur darum, ob W ein UVR von V ist, nicht um das Beweisen, dass die Nullregel in allen Fällen erfüllt ist. Hinweis aus der Aufgabe: "nur für sich selber, nicht für die Aufgabenlösung"... somit denke ich, dass wir wirklich nur die Kriterien für den UVR prüfen müssen. Heißt, dass wir uns die Knotenbewertungen (gesamt v1, v2, v3, v4, nicht die einzelnen reellen Zahlen an den Knoten) als <REMOVED_PERSON_ENTITY> (wie in Aufgabe 2a schon beschrieben) denken/notieren und diese dann als <REMOVED_PERSON_ENTITY> definieren, da wir ja aus Aufgabe 2c schon wissen, dass diese linear unabhängig sind. Hieraus ergibt sich also ein <REMOVED_PERSON_ENTITY> mit der Dimension 4 (ein <REMOVED_PERSON_ENTITY> kann als Vektorraum gesehen werden). Da wir ganz IR zu Verfügung haben, können wir hier beliebige Skalare nutzen, um die skalare Multiplikation mit den Vektoren durchzuführen. Und die "neuen" Vektoren führen (da gesamt IR) nicht aus dem UVR W heraus. Genauso die Addition der Vektoren. Es sind dann halt immernoch Vektoren aus W. Da kann man machen, was man will. Die üblichen LK's, die die restlichen Vektoren aus W beschreiben, sind natürlich, wie <REMOVED_PERSON_ENTITY> auch schon geschrieben hat, enthalten.
+<REMOVED_PERSON_ENTITY>{a*v1, b*v2, c*v3, d*v4 | a, b, c, d € IR}Irgendwie so hätte ich das dann aufgeschrieben. Was meint ihr dazu?GrüßeLars
+TAGGED_CONTENT:
+Moin_NE ,_$, genau_ADJD das_PDS ,_$, was_PRELS <_XY REMOVED_PERSON_ENTITY_NN >_CARD geschrieben_VVPP hat_VAFIN ,_$, ist_VAFIN mir_PPER dann_ADV auch_ADV gestern_ADV in_APPR den_ART Sinn_NN gekommen_VVPP ._$. Es_PPER geht_VVFIN laut_APPR Aufgabenstellung_NN nämlich_ADV nur_ADV darum_PROAV ,_$, ob_KOUS W_XY ein_ART UVR_NN von_APPR V_CARD ist_VAFIN ,_$, nicht_PTKNEG um_APPR das_ART Beweisen_NN ,_$, dass_KOUS die_ART Nullregel_NN in_APPR allen_PIDAT Fällen_NN erfüllt_VVPP ist_VAFIN ._$. Hinweis_NN aus_APPR der_ART Aufgabe_NN :_$. "_$( nur_ADV für_APPR sich_PRF selber_ADV ,_$, nicht_PTKNEG für_APPR die_ART Aufgabenlösung_NN "_$( ..._$( somit_ADV denke_VVFIN ich_PPER ,_$, dass_KOUS wir_PPER wirklich_ADJD nur_ADV die_ART Kriterien_NN für_APPR den_ART UVR_NE prüfen_VVINF müssen_VMINF ._$. Heißt_VVFIN ,_$, dass_KOUS wir_PPER uns_PRF die_ART Knotenbewertungen_NN -LRB-_TRUNC gesamt_VVPP v1_CARD ,_$, v2_CARD ,_$, v3_CARD ,_$, v4_CARD ,_$, nicht_PTKNEG die_ART einzelnen_ADJA reellen_ADJA Zahlen_NN an_APPR den_ART Knoten_NN -RRB-_TRUNC als_APPR <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD -LRB-_TRUNC wie_KOKOM in_APPR Aufgabe_NN 2a_CARD schon_ADV beschrieben_VVPP -RRB-_TRUNC denken\/notieren_VVINF und_KON diese_PDAT dann_ADV als_APPR <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD definieren_VVINF ,_$, da_KOUS wir_PPER ja_ADV aus_APPR Aufgabe_NN 2c_CARD schon_ADV wissen_VVINF ,_$, dass_KOUS diese_PDAT linear_ADJD unabhängig_ADJD sind_VAFIN ._$. Hieraus_ADV ergibt_VVFIN sich_PRF also_ADV ein_ART <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN mit_APPR der_ART Dimension_NN 4_CARD -LRB-_TRUNC ein_ART <_CARD REMOVED_PERSON_ENTITY_NN >_VVINF kann_VMFIN als_APPR Vektorraum_NN gesehen_VVPP werden_VAFIN -RRB-_TRUNC ._$. Da_KOUS wir_PPER ganz_ADV IR_NE zu_APPR Verfügung_NN haben_VAFIN ,_$, können_VMFIN wir_PPER hier_ADV beliebige_ADJA Skalare_NN nutzen_VVINF ,_$, um_KOUI die_ART skalare_ADJA Multiplikation_NN mit_APPR den_ART Vektoren_NN durchzuführen_VVIZU ._$. Und_KON die_ART "_$( neuen_ADJA "_$( Vektoren_NN führen_VVFIN -LRB-_TRUNC da_ADV gesamt_VVFIN IR_NN -RRB-_TRUNC nicht_PTKNEG aus_APPR dem_ART UVR_NE W_XY heraus_PTKVZ ._$. Genauso_ADV die_ART Addition_NN der_ART Vektoren_NN ._$. Es_PPER sind_VAFIN dann_ADV halt_ADV immernoch_VVFIN Vektoren_NN aus_APPR W._NE Da_ADV kann_VMFIN man_PIS machen_VVINF ,_$, was_PWS man_PIS will_VMFIN ._$. Die_ART üblichen_ADJA LK_NN 's_PPER ,_$, die_PRELS die_ART restlichen_ADJA Vektoren_NN aus_APZR W_XY beschreiben_VVFIN ,_$, sind_VAFIN natürlich_ADV ,_$, wie_PWAV <_XY REMOVED_PERSON_ENTITY_NN >_VVFIN auch_ADV schon_ADV geschrieben_VVPP hat_VAFIN ,_$, enthalten_VVPP ._$. <_XY REMOVED_PERSON_ENTITY_NE >_NE -LCB-_TRUNC a_XY \*_CARD v1_CARD ,_$, b_XY \*_CARD v2_CARD ,_$, c_FM \*_FM v3_FM ,_$, d_FM \*_FM v4_CARD |_XY a_XY ,_$, b_XY ,_$, c_FM ,_$, d_FM $_FM IR_FM -RCB-_TRUNC Irgendwie_NN so_ADV hätte_VAFIN ich_PPER das_ART dann_ADV aufgeschrieben_VVPP ._$. Was_PWS meint_VVFIN ihr_PPOSAT dazu?GrüßeLars_NN 

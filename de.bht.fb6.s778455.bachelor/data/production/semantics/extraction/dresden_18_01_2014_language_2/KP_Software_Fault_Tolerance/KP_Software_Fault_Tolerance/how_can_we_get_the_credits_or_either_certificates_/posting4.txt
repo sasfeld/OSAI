@@ -1,0 +1,10 @@
+ID: 1141
+CREATION_DATETIME: 1361314800000
+MODIFICATION_DATETIME: 1361314800000
+TITLE: Just to confirm: Students that did not receive an email from me by now can get their certificate with...
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 1124
+POSTING_TYPE: comment
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> to confirm: Students that did not receive an email from me by now <NAME_CORPUS_REPLACEMENT> get their certificate with our secretary from <REMOVED_PERSON_ENTITY> 18th on. If you need your certificate before that, please send me an email.
+TAGGED_CONTENT:

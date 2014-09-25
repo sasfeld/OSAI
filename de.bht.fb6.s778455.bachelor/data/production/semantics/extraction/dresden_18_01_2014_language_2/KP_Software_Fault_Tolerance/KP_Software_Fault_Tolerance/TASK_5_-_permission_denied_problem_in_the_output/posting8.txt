@@ -1,0 +1,10 @@
+ID: 993
+CREATION_DATETIME: 1355958000000
+MODIFICATION_DATETIME: 1355958000000
+TITLE: A C program has to be first compiled. You cannot execute the source code.
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 991
+POSTING_TYPE: comment
+CONTENT:
+A C program has to be first compiled. You cannot execute the source code.
+TAGGED_CONTENT:

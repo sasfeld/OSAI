@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="22727" moduleid="110835" modulename="forum" contextid="155537">
+  <forum id="22727">
+    <type>general</type>
+    <name>Allgemeines Forum</name>
+    <intro>Hier können Sie übergeordnete und organisatorische Fragen diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>2</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1185448275</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="60221">
+        <name>Praxisveranstaltung</name>
+        <firstpost>162169</firstpost>
+        <userid>10911</userid>
+        <groupid>-1</groupid>
+        <assessed>1</assessed>
+        <timemodified>1348236427</timemodified>
+        <usermodified>11039</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="162169">
+            <parent>0</parent>
+            <userid>10911</userid>
+            <created>1348173344</created>
+            <modified>1348173344</modified>
+            <mailed>1</mailed>
+            <subject>Praxisveranstaltung</subject>
+            <message>&lt;p&gt;Hallo,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;ist schon bekannt/weiß jemand wann die Praxisveranstaltung ist, am welchem Wochenende?&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="162333">
+            <parent>162169</parent>
+            <userid>11039</userid>
+            <created>1348224302</created>
+            <modified>1348224302</modified>
+            <mailed>1</mailed>
+            <subject>Re: Praxisveranstaltung</subject>
+            <message>Also im Kursplan steht der 24.11 als Präsenztermin drin. 
+So wie ich das verstanden habe soll es aber noch eine Übersicht vom Online-Team geben wo alle Themen und Wochenenden mit den entsprechenden Räumen drin sind.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="162391">
+            <parent>162333</parent>
+            <userid>10911</userid>
+            <created>1348235138</created>
+            <modified>1348235138</modified>
+            <mailed>1</mailed>
+            <subject>Re: Praxisveranstaltung</subject>
+            <message>&lt;p&gt;danke für die Rückantwort der würde ja super bei mir passen, ne woche später und die Woche danach siehts schlechter aus.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="162401">
+            <parent>162391</parent>
+            <userid>10905</userid>
+            <created>1348235526</created>
+            <modified>1348235526</modified>
+            <mailed>1</mailed>
+            <subject>Re: Praxisveranstaltung</subject>
+            <message>&lt;p&gt;Wo finde ich den den Kurzpplan? Und habt ihr euch schon mit Mathe beschäftigt?&lt;/p&gt;
+&lt;p&gt;Ich bin gerade bei Kommunikation, Führung und Selbstmanagment, da ich dachte das kommt am ersten Präzenstag.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="162405">
+            <parent>162401</parent>
+            <userid>11039</userid>
+            <created>1348236427</created>
+            <modified>1348236427</modified>
+            <mailed>1</mailed>
+            <subject>Re: Praxisveranstaltung</subject>
+            <message>Der Kursplan ist hier unter Allgemeines verlinkt, einfach mal (bei mir jedenfalls) links die Navigation durchgucken.
+
+Ich bin grad mal am gucken was so in Mathe ansteht, ansonsten dürfte sequentiell ein Modul nach'm anderen bearbeiten nicht wirklich helfen. Ich werd wohl eher alle parallel bearbeiten so wie es die Videokonferenzen erfordern.</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="182847">
+        <userid>643</userid>
+      </subscription>
+      <subscription id="182881">
+        <userid>665</userid>
+      </subscription>
+      <subscription id="183503">
+        <userid>321</userid>
+      </subscription>
+      <subscription id="198159">
+        <userid>729</userid>
+      </subscription>
+      <subscription id="198163">
+        <userid>769</userid>
+      </subscription>
+      <subscription id="198167">
+        <userid>7934</userid>
+      </subscription>
+      <subscription id="198171">
+        <userid>735</userid>
+      </subscription>
+      <subscription id="198175">
+        <userid>747</userid>
+      </subscription>
+      <subscription id="211043">
+        <userid>757</userid>
+      </subscription>
+      <subscription id="211287">
+        <userid>741</userid>
+      </subscription>
+      <subscription id="216459">
+        <userid>10905</userid>
+      </subscription>
+      <subscription id="220329">
+        <userid>10913</userid>
+      </subscription>
+      <subscription id="220331">
+        <userid>10911</userid>
+      </subscription>
+      <subscription id="220333">
+        <userid>10897</userid>
+      </subscription>
+      <subscription id="220335">
+        <userid>10891</userid>
+      </subscription>
+      <subscription id="221527">
+        <userid>11039</userid>
+      </subscription>
+      <subscription id="225627">
+        <userid>10925</userid>
+      </subscription>
+      <subscription id="227005">
+        <userid>10927</userid>
+      </subscription>
+      <subscription id="229385">
+        <userid>10889</userid>
+      </subscription>
+      <subscription id="229765">
+        <userid>10909</userid>
+      </subscription>
+      <subscription id="229793">
+        <userid>767</userid>
+      </subscription>
+      <subscription id="230343">
+        <userid>10895</userid>
+      </subscription>
+      <subscription id="230345">
+        <userid>10887</userid>
+      </subscription>
+      <subscription id="231511">
+        <userid>10901</userid>
+      </subscription>
+      <subscription id="232969">
+        <userid>10917</userid>
+      </subscription>
+      <subscription id="233111">
+        <userid>10907</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

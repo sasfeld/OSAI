@@ -1,0 +1,11 @@
+ID: 193503
+CREATION_DATETIME: 1358184598
+MODIFICATION_DATETIME: 1358184598
+TITLE: Lösung für die zweite Gruppenaufgabe
+PARENT_POSTING_ID: 0
+CONTENT:
+Hallo zusammen,
+anbei die Lösungen für die zweite Gruppenaufgabe.
+Liebe Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

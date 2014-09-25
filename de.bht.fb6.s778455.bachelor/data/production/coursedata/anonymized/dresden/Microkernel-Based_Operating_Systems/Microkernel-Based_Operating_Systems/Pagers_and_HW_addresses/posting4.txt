@@ -1,0 +1,9 @@
+ID: 1417
+CREATION_DATETIME: 1362783600000
+MODIFICATION_DATETIME: 1362783600000
+TITLE: thanks for the further reading hints
+PARENT_POSTING_ID: 1415
+POSTING_TYPE: comment
+CONTENT:
+thanks for the further reading hints
+TAGGED_CONTENT:

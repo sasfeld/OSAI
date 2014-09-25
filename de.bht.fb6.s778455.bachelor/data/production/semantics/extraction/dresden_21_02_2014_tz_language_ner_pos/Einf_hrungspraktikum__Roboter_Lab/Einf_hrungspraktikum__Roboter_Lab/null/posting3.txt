@@ -1,0 +1,30 @@
+ID: 1860
+CREATION_DATETIME: 1369692000000
+MODIFICATION_DATETIME: 1369692000000
+TITLE: Nach kurzer Rücksprache mit der zuständigen Sekretärin wird die Übermittlung ans Informatik-Prüfungsa...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Prüfungsämter;weight:2.0;significance:8.47236634348927;degreegeneralization:8;uri:19997655
+TOPIC_ZOOM_TAG: value:Prüfungen und Abschlüsse an Hochschulen;weight:2.0;significance:5.22734337651889;degreegeneralization:5;uri:20293489
+TOPIC_ZOOM_TAG: value:Prüfungen, Abschlüsse und Zertifikate;weight:2.0;significance:4.85573299850168;degreegeneralization:4;uri:21974670
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:2.0;significance:3.71418071864903;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:2.0;significance:3.70314380910339;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:2.0;significance:3.45383701834165;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:2.0;significance:2.91269907481865;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:3.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Informatik;weight:1.0;significance:1.67474181585092;degreegeneralization:4;uri:21970590
+TOPIC_ZOOM_TAG: value:Informationsverarbeitung;weight:1.0;significance:1.66926724024071;degreegeneralization:3;uri:21389241
+TOPIC_ZOOM_TAG: value:Politik;weight:2.0;significance:1.23246981440704;degreegeneralization:2;uri:21999932
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:0.72709721863856;degreegeneralization:2;uri:21990259
+POS_TAG: value:cksprache;weight:0.0;uri:;postag:NN
+POS_TAG: value:fungsamt;weight:0.0;uri:;postag:NN
+POS_TAG: value:mter;weight:0.0;uri:;postag:NN
+POS_TAG: value:HISQIS;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tagen;weight:0.0;uri:;postag:NN
+POS_TAG: value:bermittlung;weight:0.0;uri:;postag:NN
+POS_TAG: value:rin;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1859
+POSTING_TYPE: answer
+CONTENT:
+Nach kurzer Rücksprache mit der zuständigen Sekretärin wird die Übermittlung ans Informatik-Prüfungsamt wohl morgen stattfinden, wann dann eventuelle andere Prüfungsämter und damit HISQIS davon erfährt, weiß ich allerdings nicht. Vermutlich in den nächsten Tagen.
+TAGGED_CONTENT:
+Nach_APPR kurzer_ADJA Rücksprache_NN mit_APPR der_ART zuständigen_ADJA Sekretärin_NN wird_VAFIN die_ART Übermittlung_NN ans_APPRART Informatik-Prüfungsamt_NN wohl_ADV morgen_ADV stattfinden_VVFIN ,_$, wann_PWAV dann_ADV eventuelle_ADJA andere_ADJA Prüfungsämter_NN und_KON damit_PROAV HISQIS_NN davon_PROAV erfährt_VVFIN ,_$, weiß_VVFIN ich_PPER allerdings_ADV nicht_PTKNEG ._$. Vermutlich_ADV in_APPR den_ART nächsten_ADJA Tagen_NN ._$. 

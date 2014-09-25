@@ -1,0 +1,14 @@
+ID: 494
+CREATION_DATETIME: 1351029600000
+MODIFICATION_DATETIME: 1384124400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hello,
+I'm having a little trouble with the test cases of the rdiff task. I check for the usual suspects (files null, length, fread does not read  of data) but obviously that is not enough.
+Could you please give me a hint as to what else to test/look for? 
+Sadly, printfs do work for rcopy but do not work for rdiff. Has it been disabled intentionally?
+Thanks!
+PS: a simple hello world passes 2 of the test cases. I wonder why that is...
+TAGGED_CONTENT:

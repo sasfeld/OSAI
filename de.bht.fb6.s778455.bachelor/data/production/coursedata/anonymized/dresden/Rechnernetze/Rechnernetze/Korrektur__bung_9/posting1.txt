@@ -1,0 +1,9 @@
+ID: 2100
+CREATION_DATETIME: 1372111200000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+In der Lösung zu Übung 9 Aufgabe 2 war ein Fehler. Die aktualisierte Version ist jetzt als Lösungsfolie auf der Webseite zur Lehrveranstaltung veröffentlicht.
+TAGGED_CONTENT:

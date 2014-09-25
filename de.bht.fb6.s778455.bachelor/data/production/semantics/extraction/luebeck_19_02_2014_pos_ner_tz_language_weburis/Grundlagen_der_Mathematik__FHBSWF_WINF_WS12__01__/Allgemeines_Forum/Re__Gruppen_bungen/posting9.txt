@@ -1,0 +1,42 @@
+ID: 194209
+CREATION_DATETIME: 1358425533
+MODIFICATION_DATETIME: 1358425533
+TITLE: Re: Gruppenübungen
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=72341#194209
+POS_TAG: value:Spalte;weight:0.0;uri:;postag:NN
+POS_TAG: value:A;weight:0.0;uri:;postag:NN
+POS_TAG: value:Berechne;weight:0.0;uri:;postag:NN
+POS_TAG: value:Matrix;weight:0.0;uri:;postag:NN
+POS_TAG: value:T;weight:0.0;uri:;postag:NN
+POS_TAG: value:Positionswechsel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Formel;weight:0.0;uri:;postag:NN
+POS_TAG: value:Berechnung;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Eintrag;weight:0.0;uri:;postag:NN
+POS_TAG: value:e;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zeilen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Matrixmultiplikation;weight:0.0;uri:;postag:NN
+POS_TAG: value:Transposition;weight:0.0;uri:;postag:NN
+POS_TAG: value:Produktes;weight:0.0;uri:;postag:NN
+POS_TAG: value:Stelle;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zahlenwerten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Matrixprodukt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Beste;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sinn;weight:0.0;uri:;postag:NN
+POS_TAG: value:Konsequenz;weight:0.0;uri:;postag:NN
+POS_TAG: value:Art;weight:0.0;uri:;postag:NN
+POS_TAG: value:t;weight:0.0;uri:;postag:NN
+POS_TAG: value:Position;weight:0.0;uri:;postag:NN
+POS_TAG: value:Allgemeinen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Produkt;weight:0.0;uri:;postag:NN
+POS_TAG: value:Wert;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 194163
+CONTENT:
+Hallo <REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY>,
+mit Kommutativität hat das nichts zu tun, denn es gilt im Allgemeinen weder A*X=X*A noch A^T * X^T=X^T  *A^T. Die Formel (X*A)^T=A^T * X^T steht vielmehr für sich alleine. Sie ist eine direkte Konsequenz der Art und <REMOVED_PERSON_ENTITY>, wie die Matrixmultiplikation funktioniert: Berechne ich den Eintrag an Position (i, j) der Matrix X*A, so muss ich die <REMOVED_PERSON_ENTITY> i aus X mit der Spalte j aus A multiplizieren. In (X*A)^T findet man diesen Eintrag an Position (j, i). Die Formel behauptet nun, dass man den gleichen Wert an dieser Position erhält, wenn man sich das Produkt A^T * X^T anschaut. Den Eintrag an Position (j, i) dieses Produktes erhält man, indem man die j-te <REMOVED_PERSON_ENTITY> von A^T (das ist aber gleich der j-ten <REMOVED_PERSON_ENTITY> von A) mit der i-ten Spalte von (X*A)^T (das ist aber gleich der i-ten Spalte von X) multipliziert. Wie Sie sehen, läuft die Berechnung der Stelle (j, i) in (X*A)^T mit den gleichen Zahlenwerten ab.
+Letztlich macht Transposition Zeilen zu Spalten und umgekehrt. Beim Matrixprodukt werden aus der linken Matrix die Zeilen verwendet und aus der rechten die <REMOVED_PERSON_ENTITY>. Insofern macht der Positionswechsel von A*X zu X^T * A^T auch intuitiv Sinn (das beweist natürlich noch gar nichts, aber so kann man es sich vielleicht besser merken).
+Beste Grüße,
+<REMOVED_PERSON_ENTITY>.
+TAGGED_CONTENT:
+Hallo_ITJ <_XY REMOVED_PERSON_ENTITY_NE >_NE <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN ,_$, mit_APPR Kommutativität_NN hat_VAFIN das_ART nichts_PIS zu_PTKZU tun_VVINF ,_$, denn_KON es_PPER gilt_VVFIN im_APPRART Allgemeinen_NN weder_KON A_NN \*_CARD X_XY =_XY X_XY \*_CARD A_NN noch_ADV A_NN ^_CARD T_XY \*_CARD X_XY ^_CARD T_XY =_XY X_XY ^_CARD T_NN \*_VVFIN A_NN ^_NE T._NE Die_ART Formel_NN -LRB-_TRUNC X_XY \*_CARD A_NN -RRB-_TRUNC ^_XY T_XY =_XY A_NN ^_CARD T_XY \*_CARD X_XY ^_CARD T_NN steht_VVFIN vielmehr_ADV für_APPR sich_PRF alleine_ADV ._$. Sie_PPER ist_VAFIN eine_ART direkte_ADJA Konsequenz_NN der_ART Art_NN und_KON <_CARD REMOVED_PERSON_ENTITY_NN >_VVFIN ,_$, wie_PWAV die_ART Matrixmultiplikation_NN funktioniert_VVFIN :_$. Berechne_NN ich_PPER den_ART Eintrag_NN an_APPR Position_NN -LRB-_TRUNC i_XY ,_$, j_KON -RRB-_TRUNC der_ART Matrix_NE X_XY \*_CARD A_NN ,_$, so_ADV muss_VVFIN ich_PPER die_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_CARD i_XY aus_APPR X_XY mit_APPR der_ART Spalte_NN j_VVFIN aus_APPR A_NN multiplizieren_VVINF ._$. In_APPR -LRB-_TRUNC X_XY \*_CARD A_NN -RRB-_TRUNC ^_XY T_NN findet_VVFIN man_PIS diesen_PDAT Eintrag_NN an_APPR Position_NN -LRB-_TRUNC j_XY ,_$, i_XY -RRB-_TRUNC ._$. Die_ART Formel_NN behauptet_VVFIN nun_ADV ,_$, dass_KOUS man_PIS den_ART gleichen_ADJA Wert_NN an_APPR dieser_PDAT Position_NN erhält_VVFIN ,_$, wenn_KOUS man_PIS sich_PRF das_ART Produkt_NN A_NN ^_CARD T_XY \*_CARD X_XY ^_CARD T_NN anschaut_VVFIN ._$. Den_ART Eintrag_NN an_APPR Position_NN -LRB-_TRUNC j_XY ,_$, i_XY -RRB-_TRUNC dieses_PDAT Produktes_NN erhält_VVFIN man_PIS ,_$, indem_KOUS man_PIS die_ART j-te_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_CARD von_APPR A_NN ^_CARD T_XY -LRB-_TRUNC das_PDS ist_VAFIN aber_ADV gleich_ADV der_ART j-ten_ADJA <_NN REMOVED_PERSON_ENTITY_NE >_CARD von_APPR A_NN -RRB-_TRUNC mit_APPR der_ART i-ten_ADJA Spalte_NN von_APPR -LRB-_TRUNC X_XY \*_CARD A_NN -RRB-_TRUNC ^_XY T_XY -LRB-_TRUNC das_PDS ist_VAFIN aber_ADV gleich_ADV der_ART i-ten_ADJA Spalte_NN von_APPR X_XY -RRB-_TRUNC multipliziert_VVPP ._$. Wie_PWAV Sie_PPER sehen_VVFIN ,_$, läuft_VVFIN die_ART Berechnung_NN der_ART Stelle_NN -LRB-_TRUNC j_XY ,_$, i_XY -RRB-_TRUNC in_APPR -LRB-_TRUNC X_XY \*_CARD A_NN -RRB-_TRUNC ^_XY T_XY mit_APPR den_ART gleichen_ADJA Zahlenwerten_NN ab_PTKVZ ._$. Letztlich_ADV macht_VVFIN Transposition_NN Zeilen_NN zu_PTKZU Spalten_VVINF und_KON umgekehrt_ADJD ._$. Beim_APPRART Matrixprodukt_NN werden_VAFIN aus_APPR der_ART linken_ADJA Matrix_NN die_ART Zeilen_NN verwendet_VVPP und_KON aus_APPR der_ART rechten_ADJA die_ART <_ADJA REMOVED_PERSON_ENTITY_NN >_VVFIN ._$. Insofern_ADV macht_VVFIN der_ART Positionswechsel_NN von_APPR A_NN \*_CARD X_XY zu_PTKZU X_XY ^_CARD T_XY \*_CARD A_NN ^_CARD T_XY auch_ADV intuitiv_ADJD Sinn_NN -LRB-_TRUNC das_ART beweist_ADV natürlich_ADV noch_ADV gar_ADV nichts_PIS ,_$, aber_KON so_ADV kann_VMFIN man_PIS es_PPER sich_PRF vielleicht_ADV besser_ADJD merken_VVINF -RRB-_TRUNC ._$. Beste_NN Grüße_NN ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_NE ._$. 

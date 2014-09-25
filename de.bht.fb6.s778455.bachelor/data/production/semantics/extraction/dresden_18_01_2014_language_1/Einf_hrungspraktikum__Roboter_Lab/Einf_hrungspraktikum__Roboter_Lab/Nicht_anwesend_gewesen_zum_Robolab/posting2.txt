@@ -1,0 +1,10 @@
+ID: 1460
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Das Praktikum wird nur im Wintersemester angeboten, du müsstest dich also dann wieder einschreiben un...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1456
+POSTING_TYPE: answer
+CONTENT:
+Das Praktikum wird nur im Wintersemester angeboten, du müsstest dich also dann wieder einschreiben und kannst dann teilnehmen. In den Bachelor-Studiengängen hat das keine Konsequenzen, im neuen Diplom ist das Einführungs- und Programmierpraktikum allerdings Voraussetzung für die Prüfungen im dritten Semester, die du dann erst nach dem RoboLab ablegen dürftest.
+TAGGED_CONTENT:

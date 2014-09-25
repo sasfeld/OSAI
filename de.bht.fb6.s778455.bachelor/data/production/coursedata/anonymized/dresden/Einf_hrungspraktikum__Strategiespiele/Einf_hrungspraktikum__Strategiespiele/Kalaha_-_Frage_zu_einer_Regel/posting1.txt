@@ -1,0 +1,12 @@
+ID: 1253
+CREATION_DATETIME: 1362524400000
+MODIFICATION_DATETIME: 1363906800000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+In <REMOVED_PERSON_ENTITY> kann man <LEARNED_PERSON_NAME_REPLACEMENT> <REMOVED_PERSON_ENTITY> auf der Gegnerseite fangen indem man den letzten <REMOVED_PERSON_ENTITY> eines Zuges auf seiner eigenen Seite in ein leeres <NAME_CORPUS_REPLACEMENT> platziert. Nun ist mir aufgefallen, dass dieser eine <REMOVED_PERSON_ENTITY> auch mit in das eigene Gewinnfeld übertragen wird, wenn man gegnerische <REMOVED_PERSON_ENTITY> fängt.
+Ich wollte nun Fragen ob das so stimmt, <NAME_CORPUS_REPLACEMENT> ich ausschließlich Versionen kenne, wo der eine <REMOVED_PERSON_ENTITY> in dem <NAME_CORPUS_REPLACEMENT> liegen bleibt während man die auf der anderen Seite fängt.
+Mit freundlichen Grüßen
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

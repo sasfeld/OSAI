@@ -1,0 +1,21 @@
+ID: 36
+CREATION_DATETIME: 1196681640000
+MODIFICATION_DATETIME: 1196681640000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Eine Frage zu den Dialogen:
+
+Im Modul steht
+
+int antwort = JOptionPane.showConfirmDialog(myFrame, "Wollen Sie die Änderungen speichern?", "Speichern", JOptionPane.YES_NO_CANCEL_OPTION);
+
+Ich leite aber von JFrame, habe also kein JFrame j = new JFrame();
+
+Was gibt man bei o.g. Methode als ersten parameter an?
+
+Danke und Grüsse, 
+    
+TAGGED_CONTENT:

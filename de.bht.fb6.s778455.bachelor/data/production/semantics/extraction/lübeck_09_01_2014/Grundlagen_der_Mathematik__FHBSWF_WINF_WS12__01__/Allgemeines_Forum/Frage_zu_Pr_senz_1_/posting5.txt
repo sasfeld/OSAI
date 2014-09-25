@@ -1,0 +1,16 @@
+ID: 168367
+CREATION_DATETIME: 1349721360
+MODIFICATION_DATETIME: 1349721360
+TITLE: Re: Frage zu Präsenz 1 
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:6.95597687640829;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 168057
+CONTENT:
+Hallo Herr Prof. Dr. <REMOVED_PERSON_ENTITY>,
+ich verstehe, vielen Dank für ihre Antwort!
+Bezüglich der Nachfrage von <REMOVED_PERSON_ENTITY> würde ich auch gerne wissen wollen, ob uns jemand der Mitstudenten die Seite 3 im Dokument noch einmal etwas genauer erklären könnte. Bezüglich der Seite 7 im im Dokument "2012-10-06_LA-Präsenz1. pdf" würde ich mich auch über eine nochmalige Erläuterung sehr freuen. Schon einmal Besten Dank und Gruß
+<REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

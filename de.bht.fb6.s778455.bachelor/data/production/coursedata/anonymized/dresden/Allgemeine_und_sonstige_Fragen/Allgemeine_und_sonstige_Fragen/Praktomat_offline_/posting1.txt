@@ -1,0 +1,10 @@
+ID: 838
+CREATION_DATETIME: 1353538800000
+MODIFICATION_DATETIME: 1365717600000
+TITLE: null
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Heyho,
+ich wollte mal überprüfen ob der Praktomat noch funktioniert, aber beim Verbinden mit der Seite gibt ein Verbindungsproblem. Hat ihn wer offline genommen und wann kommt der wieder online?
+TAGGED_CONTENT:

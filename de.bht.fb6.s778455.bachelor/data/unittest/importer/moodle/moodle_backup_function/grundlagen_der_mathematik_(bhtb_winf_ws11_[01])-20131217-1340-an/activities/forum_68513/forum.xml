@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="13673" moduleid="68513" modulename="forum" contextid="95832">
+  <forum id="13673">
+    <type>general</type>
+    <name>Fachforum zum Teil IV</name>
+    <intro>Hier können Sie Fachfragen zum Teil IV diskutieren.</intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>0</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1218803060</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="43323">
+        <name>Aufgabe 9 BeispielklausurSS2011</name>
+        <firstpost>116465</firstpost>
+        <userid>3801</userid>
+        <groupid>0</groupid>
+        <assessed>1</assessed>
+        <timemodified>1327239819</timemodified>
+        <usermodified>3807</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <posts>
+          <post id="116465">
+            <parent>0</parent>
+            <userid>3801</userid>
+            <created>1326644430</created>
+            <modified>1326644430</modified>
+            <mailed>1</mailed>
+            <subject>Aufgabe 9 BeispielklausurSS2011</subject>
+            <message>Hallo Ihr Lieben,
+kann mir jemand diese Aufgabe erklären? Ich komme der Umsetzung leider auch mit dem Lösungsansatz nicht näher.
+Was muss ich warum hier tun?
+
+Herzlichen Dank im voraus!</message>
+            <messageformat>0</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="116466">
+            <parent>116465</parent>
+            <userid>3807</userid>
+            <created>1327239711</created>
+            <modified>1327239819</modified>
+            <mailed>1</mailed>
+            <subject>Re: Aufgabe 9 BeispielklausurSS2011</subject>
+            <message>Hier noch eine weiterführende Frage, &lt;div&gt;kann jemand bitte erklären wie man das Nullsetzen von Determinanten durchführt? Leider ist mir das für mich nicht schlüssig.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Danke!&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;@Andrea: sofern du durch Nullsetzen der Determinate den Wert für a erhalten hast rechnest du wie folgt mit dem Gaußchen Algorithmus:&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;I. &lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;x+y-z  = 0&lt;/div&gt;&lt;div&gt;II. &lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;x-y-5z = 0&lt;/div&gt;&lt;div&gt;III.&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;2x+y-4z=0&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;1&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;1&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;-1&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;|0&lt;/div&gt;&lt;div&gt;1&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;-1&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;-5&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;|0&lt;span class="Apple-tab-span" style="white-space: pre; "&gt; &lt;/span&gt;|+(-1)*I.&lt;/div&gt;&lt;div&gt;2&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;1&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;-4&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;|0&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;1&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;1&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;-1&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;|0&lt;/div&gt;&lt;div&gt;0&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;-2&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;-4&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;|0&lt;/div&gt;&lt;div&gt;2&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;1&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;-4&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;|0&lt;span class="Apple-tab-span" style="white-space: pre; "&gt; &lt;/span&gt;|+(-2)*I.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;1&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;1&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;-1&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;|0&lt;/div&gt;&lt;div&gt;0&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;-2&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;-4&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;|0&lt;/div&gt;&lt;/div&gt;&lt;div&gt;0&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;-1&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;-2&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;|0&lt;span class="Apple-tab-span" style="white-space: pre; "&gt; &lt;/span&gt;|+(-0,5)*II.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;1&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;1&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;-1&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;|0&lt;/div&gt;&lt;div&gt;0&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;-2&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;-4&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;|0&lt;/div&gt;&lt;/div&gt;&lt;div&gt;0&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;0&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;0&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;|0&lt;span class="Apple-tab-span" style="white-space: pre; "&gt; &lt;/span&gt;--&amp;gt; r(A) = 2&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;--&amp;gt; Formeln&lt;/div&gt;&lt;div&gt;x+y-z = 0&lt;/div&gt;&lt;div&gt;-2y-4z =0&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;n = 3 Variablen&lt;span class="Apple-tab-span" style="white-space: pre; "&gt; &lt;/span&gt;--&amp;gt; n-r = 1 --&amp;gt; Rangabfall&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;z=t Element der reelen Zahlen&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;z=t einsetzen&lt;/div&gt;&lt;div&gt;-2y-4t=0&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;|+4t&lt;/div&gt;&lt;div&gt;-2y =4t &lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;|: (-2)&lt;/div&gt;&lt;div&gt;y=-2t&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;--&amp;gt;y und z in erste Formel einsetzen&lt;/div&gt;&lt;div&gt;x+(-2t)-t=0&lt;span class="Apple-tab-span" style="white-space: pre; "&gt; &lt;/span&gt;|+3t&lt;/div&gt;&lt;div&gt;x=3t&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;x&lt;span class="Apple-tab-span" style="white-space: pre; "&gt; &lt;/span&gt; &lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;         3&lt;/div&gt;&lt;div&gt;y&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;=&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;-2&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;*t&lt;/div&gt;&lt;div&gt;z&lt;span class="Apple-tab-span" style="white-space: pre; "&gt; &lt;/span&gt; &lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;         1&lt;/div&gt;&lt;div&gt;hier müssten eigentlich die Klammern wie in der Lösung rum, aber ich weiß leider nicht wie ich die rumbekomme. Hoffe das hat dir geholfen. Jetzt fehlt nur jemand der das Nullsetzen von Determinanten erklärt. &lt;/div&gt;&lt;div&gt;&lt;span class="Apple-tab-span" style="white-space: pre; "&gt;	&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+      </discussion>
+    </discussions>
+    <subscriptions>
+      <subscription id="125066">
+        <userid>3801</userid>
+      </subscription>
+      <subscription id="125067">
+        <userid>3807</userid>
+      </subscription>
+    </subscriptions>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

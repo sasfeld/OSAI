@@ -1,0 +1,9 @@
+ID: 2866
+CREATION_DATETIME: 1384642800000
+MODIFICATION_DATETIME: 1384642800000
+TITLE: by the way, any help on formatting that question is appreciated. my attempts to get that long ”create...
+PARENT_POSTING_ID: 2864
+POSTING_TYPE: comment
+CONTENT:
+by the way, any help on formatting that question is appreciated. my attempts to get that long ”create table” <NAME_CORPUS_REPLACEMENT> wrapped properly all ended in weird artifacts.
+TAGGED_CONTENT:

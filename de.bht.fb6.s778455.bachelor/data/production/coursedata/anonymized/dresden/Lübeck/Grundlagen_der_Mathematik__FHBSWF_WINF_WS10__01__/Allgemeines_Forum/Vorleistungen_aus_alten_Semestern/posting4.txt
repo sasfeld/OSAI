@@ -1,0 +1,14 @@
+ID: 97764
+CREATION_DATETIME: 1285576401
+MODIFICATION_DATETIME: 1285576401
+TITLE: Re: Vorleistungen aus alten Semestern
+PARENT_POSTING_ID: 97763
+CONTENT:
+Danke fuer den Hinweis! 
+Die Definition der Pruefungsvorleistung (PV) ist nicht frei von Interpretations-Spielraum. Der von Ihnen zitierte Beitrag besagt mindestens, dass *genau dieselbe* PV nicht wiederholt werden muss. Es heisst in der PO (S. 9):
+"Die Prüfungsvorleistungen sind zu Beginn des Studienhalbjahrs von den Prüfungsberechtig- ten bekanntzugeben. Die <REMOVED_PERSON_ENTITY>- gen sind erbracht, wenn die zugehörigen Lerneinheiten und Aufgaben mindestens mit ausreichendem Ergebnis bearbeitet worden sind."
+Ist die PV an ein Modul und einen Inhalt geknuepft oder nur an ein Modul? Das ist ein Unterschied, wie wir jetzt sehen.
+Allerdings habe ich nochmal beim VFH-Service rueckgefragt und der bestaetigt Ihre Sichtweise. 
+Ich aendere den Hinweis, danke!
+<REMOVED_PERSON_ENTITY> <REMOVED_PERSON_ENTITY> 
+TAGGED_CONTENT:

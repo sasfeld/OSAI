@@ -1,0 +1,35 @@
+ID: 1476
+CREATION_DATETIME: 1362956400000
+MODIFICATION_DATETIME: 1362956400000
+TITLE: Ja, wie unten geschrieben (ich weiß dass Ruby die Sprache ist, aber das Highlighting war auf den zwei...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Post und Kurierdienste;weight:1.0;significance:7.49906336239251;degreegeneralization:9;uri:21290862
+TOPIC_ZOOM_TAG: value:Transportbranche;weight:1.0;significance:7.08814864951678;degreegeneralization:8;uri:20765715
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Transport und Logistik;weight:1.0;significance:7.06310261759069;degreegeneralization:7;uri:21872075
+TOPIC_ZOOM_TAG: value:Transport;weight:1.0;significance:6.8534775930315;degreegeneralization:6;uri:20765749
+TOPIC_ZOOM_TAG: value:Transport und Logistik;weight:1.0;significance:6.67067859531179;degreegeneralization:5;uri:21880507
+TOPIC_ZOOM_TAG: value:Technische Dienstleistungen;weight:1.0;significance:6.47022489019442;degreegeneralization:5;uri:20197320
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Transport, Verkehr, Logistik;weight:1.0;significance:5.32891736262437;degreegeneralization:6;uri:21881357
+TOPIC_ZOOM_TAG: value:Sprache;weight:1.0;significance:5.00870710783694;degreegeneralization:4;uri:21990242
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Services und Dienstleistungen;weight:1.0;significance:4.74369862778661;degreegeneralization:5;uri:20197813
+TOPIC_ZOOM_TAG: value:Kommunikation;weight:1.0;significance:4.43751264944097;degreegeneralization:3;uri:21074401
+TOPIC_ZOOM_TAG: value:Services und Dienstleistungen;weight:1.0;significance:4.22947364593082;degreegeneralization:4;uri:21993506
+TOPIC_ZOOM_TAG: value:Transport, Verkehr und Logistik;weight:1.0;significance:4.01908510287724;degreegeneralization:4;uri:21925982
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:1.80459553725326;degreegeneralization:2;uri:21999847
+POS_TAG: value:Zeilen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Post;weight:0.0;uri:;postag:NN
+POS_TAG: value:Newlines;weight:0.0;uri:;postag:NN
+POS_TAG: value:Sprache;weight:0.0;uri:;postag:NN
+POS_TAG: value:Highlighting;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 1467
+POSTING_TYPE: comment
+CONTENT:
+Ja, wie unten geschrieben (ich weiß dass Ruby die Sprache ist, aber das Highlighting war auf den zwei Zeilen nicht so wichtig), hatte ich eigentlich auch Newlines, nur wurden die rausgestripped. Ich kann meinen Post auch nicht bearbeiten. Hast du die permissions?
+
+@hannes: danke!
+TAGGED_CONTENT:
+Ja_PTKANT ,_$, wie_PWAV unten_ADV geschrieben_VVPP -LRB-_TRUNC ich_PPER weiß_ADJD dass_KOUS Ruby_NE die_ART Sprache_NN ist_VAFIN ,_$, aber_KON das_ART Highlighting_NN war_VAFIN auf_APPR den_ART zwei_CARD Zeilen_NN nicht_PTKNEG so_ADV wichtig_ADJD -RRB-_TRUNC ,_$, hatte_VAFIN ich_PPER eigentlich_ADV auch_ADV Newlines_NN ,_$, nur_ADV wurden_VAFIN die_ART rausgestripped_ADJD ._$. Ich_PPER kann_VMFIN meinen_PPOSAT Post_NN auch_ADV nicht_PTKNEG bearbeiten_VVINF ._$. Hast_VAFIN du_PPER die_ART permissions_ADJA ?_$. @hannes_PIS :_$. danke_VVFIN !_$. 

@@ -1,0 +1,22 @@
+ID: 41
+CREATION_DATETIME: 1177857540000
+MODIFICATION_DATETIME: 1177857540000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 40
+CONTENT:
+
+hallo,
+wir sollen ja eine neue klasse schreiben (AutoTest.java).
+um in dieser klasse ein objekt der klasse EinfachesAuto zu erzeugen, musst du die entsprechende klasse importieren (import).
+das bedeutet, dass du in der klasse EinfachesAuto als erstes eine package-anweisung schreibst (z.B. package paketname).
+hiermit wird die klasse 'EinfachesAuto' dem paket 'paketname' zugewiesen bzw. in diese paket "gepackt".
+
+in der AutoTest klasse muss nun die import-anweisung stehen - in diesem fall: import paketname.Einfachesauto
+
+am besten ist es, wenn sich alle klassen in einem verzeichis befinden.
+
+ich hoffe ich konnte ein bisschen helfen :)
+
+    
+TAGGED_CONTENT:

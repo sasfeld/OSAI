@@ -1,0 +1,32 @@
+ID: 2521
+CREATION_DATETIME: 1376172000000
+MODIFICATION_DATETIME: 1381960800000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Vorlesungen;weight:1.0;significance:10.9167900460059;degreegeneralization:6;uri:20916641
+TOPIC_ZOOM_TAG: value:Ereignisse im Bereich Bildung, Erziehung und Ausbildung;weight:1.0;significance:9.2428136124342;degreegeneralization:3;uri:21872857
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+
+das Ziel der 2. Normalform ist ja die volle funktionale Abhängigkeit jedes Nichtschlüsselattributs vom Primärschlüssel.
+
+Für mich ist aus 2a) ersichtlich, dass D und G nur <NAME_CORPUS_REPLACEMENT> A und B abhängig sind, sowie E und F nur <NAME_CORPUS_REPLACEMENT> A.
+
+Für mich ergibt sich intuitiv folgende Zerlegung:
+
+R1=(A, B, C)
+
+R2=(A, B, D, G)
+
+R3=(A, E, F)
+
+Jedoch ist in der Lösung R2 = (B, D, G). Ist meine Lösung ebenfalls korrekt, wenn nein, warum nicht?
+
+Und müsste man beim Zerlegen nicht auch Verlustfreiheit und Abhängigkeitserhaltung achten? Das wurde in der Vorlesung angesprochen, aber in der Übung wurde es nicht behandelt.
+TAGGED_CONTENT:

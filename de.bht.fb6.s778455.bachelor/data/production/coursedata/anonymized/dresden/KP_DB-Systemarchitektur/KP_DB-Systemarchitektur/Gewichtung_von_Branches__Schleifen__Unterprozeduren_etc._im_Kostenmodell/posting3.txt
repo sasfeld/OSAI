@@ -1,0 +1,10 @@
+ID: 1816
+CREATION_DATETIME: 1368655200000
+MODIFICATION_DATETIME: 1368655200000
+TITLE: Ich habe schon den Program erfolgreich programmiert. Mit "opt-3.0 -load ./KernelCost.so -kernelcost k...
+PARENT_POSTING_ID: 1802
+POSTING_TYPE: answer
+CONTENT:
+Ich habe schon den Program erfolgreich programmiert. Mit "opt-3. 0 -load ./KernelCost. so -kernelcost kernel. <LEARNED_PERSON_NAME_REPLACEMENT>" auf meinen eigenen Computer habe ich gleiche Ausgabe wie dein Programm. Das Code liegt im Ordner BBPass.
+Aber wenn ich mit opt im SSH ausgeführt habe, gab es immer Segment Fault. Mit "valgrind" habe ich die log bekommen
+TAGGED_CONTENT:

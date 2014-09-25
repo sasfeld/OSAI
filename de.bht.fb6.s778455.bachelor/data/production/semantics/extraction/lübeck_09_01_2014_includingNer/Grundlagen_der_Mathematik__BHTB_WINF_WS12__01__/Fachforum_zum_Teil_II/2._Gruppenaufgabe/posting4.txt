@@ -1,0 +1,15 @@
+ID: 189203
+CREATION_DATETIME: 1356555111
+MODIFICATION_DATETIME: 1356555111
+TITLE: Re: 2. Gruppenaufgabe
+PARENT_POSTING_ID: 187865
+CONTENT:
+ok mal eine andere Frage: 
+Zeichen für Negation: -
+ 
+wenn ich jetzt diese Formel umwandle: (L --&gt; (N v V)) 
+dann nehme ich zuerst die Formel 5. 9 also kommt raus
+( - (L) v (N v V)
+ 
+worauf bezieht sich dann die Negation. Nur auf das L oder auch auf den Rest?
+TAGGED_CONTENT:

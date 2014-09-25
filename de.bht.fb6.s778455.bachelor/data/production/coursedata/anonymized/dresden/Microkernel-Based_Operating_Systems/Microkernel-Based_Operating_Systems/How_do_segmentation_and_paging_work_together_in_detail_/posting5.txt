@@ -1,0 +1,9 @@
+ID: 1519
+CREATION_DATETIME: 1363042800000
+MODIFICATION_DATETIME: 1363042800000
+TITLE: But you stll go through the MMU (the database guys seem to really hate MMUs, so they would prefer to ...
+PARENT_POSTING_ID: 1515
+POSTING_TYPE: comment
+CONTENT:
+But you stll go through the MMU (the database guys seem to really hate MMUs, so they would prefer to not have paging at all in 64bit mode)
+TAGGED_CONTENT:

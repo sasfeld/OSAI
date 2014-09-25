@@ -1,0 +1,52 @@
+ID: 54
+CREATION_DATETIME: 1289815740000
+MODIFICATION_DATETIME: 1289815740000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Liebe Studierende,
+
+Hier Tipps fuer die Einsendeaufgaben 12, da Sie alle aehnliche Schwierigkeiten haben.
+Der Algorithmus nach der Loesung im Buch « Sprechen Sie Java? » Von H. Mössenböck (in unserer Bibliothek).
+
+public boolean existWeg(int x, int y){
+
+// zuerst die Faelle pruefen die keinen rekursiven Aufruf erfoerdern
+
+// 1. ausserhalb des Labyrinths return false
+
+// 2. Platz nicht frei return false
+
+// wenn dies nicht zutrifft, koennte der Weg erfolgreich sein
+
+// die Stelle als «besucht » bezeichnen (mit '*', 'b' oder aehnliches)
+
+// falls die Grenze schon erreicht ist, oder existsWeg(x+1, y)
+
+// oder existsWeg(x-1,y ) usw...
+
+// man kann hier die Position des Punktes ausgeben.
+
+// return true;
+
+// sonst return false
+
+}
+
+
+Um das Labyrinth zu speichern am besten: char [ ] [ ]
+
+Sie koennen das Labyrinth direkt initialisieren, etwa so:
+
+char[][] lab1= { {'X',' ',' '},
+
+{'X',' ',' '},
+
+{' ','X',' '} };
+
+Viel Erfolg!
+Mit freundlichen Gruessen, 
+    
+TAGGED_CONTENT:

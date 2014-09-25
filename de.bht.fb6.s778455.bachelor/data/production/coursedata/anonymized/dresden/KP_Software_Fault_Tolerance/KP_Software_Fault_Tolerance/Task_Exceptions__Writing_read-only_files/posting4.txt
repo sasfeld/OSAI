@@ -1,0 +1,19 @@
+ID: 612
+CREATION_DATETIME: 1351551600000
+MODIFICATION_DATETIME: 1351551600000
+TITLE: Cosider the following example:
+```
+fopen(argv[1], "w");
+perror("Error");
+```
+Try to execute it o...
+PARENT_POSTING_ID: 566
+POSTING_TYPE: comment
+CONTENT:
+Cosider the following example:
+```
+fopen(argv[1], "w");
+perror("Error");
+```
+Try to execute it on the file with the `-r--r--r--` permissions.
+TAGGED_CONTENT:

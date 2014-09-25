@@ -1,0 +1,12 @@
+ID: 194817
+CREATION_DATETIME: 1358609672
+MODIFICATION_DATETIME: 1358609736
+TITLE: Re: Beispiel 28 im Skript....
+PARENT_POSTING_ID: 194809
+CONTENT:
+Jein, denke ich. x2 und x3 sind zu diesem Zeitpunkt noch vertauscht oder nicht? Dieser Vektor ist nicht Bestandteil der allgemeinen (affinen) Lösungsmenge, da dort der Vektor ...+r*(-3, 1, 0, 0)^T enthalten ist. 
+Hierfür müssen x2 und x3 wieder zurückgetauscht werden.
+Du hast quasi ja aufgrund des nicht zurücktauschens:
+x1= -3 mal r drin in
+in x3 = 0 mal r drinin x2 1 mal r drin und in x4 = 0 mal r drin
+TAGGED_CONTENT:

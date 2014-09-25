@@ -1,0 +1,12 @@
+ID: 1009
+CREATION_DATETIME: 1356649200000
+MODIFICATION_DATETIME: 1356649200000
+TITLE: Der FSR kämpft immer mit seiner Rechentechnik. Vollzeit-Admins willkommen :)
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 975
+POSTING_TYPE: answer
+CONTENT:
+Der FSR kämpft immer mit seiner Rechentechnik. Vollzeit-Admins willkommen :)
+
+Das Problem sollte inzwischen wieder behoben sein.
+TAGGED_CONTENT:

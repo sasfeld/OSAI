@@ -1,0 +1,27 @@
+ID: 1039
+CREATION_DATETIME: 1358031600000
+MODIFICATION_DATETIME: 1358031600000
+TITLE: Es handelt sich m.E. um einen Stack-Überlauf. Wenn du dir den gdb backtrace anguckst ("gdb ./programm...
+PARENT_POSTING_ID: 1036
+POSTING_TYPE: answer
+CONTENT:
+[edit Zeilennummern  wie im Etherpad] Es handelt sich m. E. um einen Stack-Überlauf. Wenn du dir den gdb backtrace anguckst ("gdb ./programm" ausführen und dann "run" und danach "backtrace"), ergibt das folgendes:
+```ruby
+Program received signal SIGSEGV, Segmentation fault.
+0x00000000004006d7 in tiefe (bm=, t=)
+    at avl. c:50
+50      {
+(gdb) backtrace 
+#0  0x00000000004006d7 in tiefe (bm=, t=)
+    at avl. c:50
+#1  0x000000000040071d in tiefe (bm=0x602070, t=174694) at avl. c:53
+#2  0x000000000040071d in tiefe (bm=0x602070, t=174693) at avl. c:53
+#3  0x000000000040071d in tiefe (bm=0x602070, t=174692) at avl. c:53
+#4  0x000000000040071d in tiefe (bm=0x602070, t=174691) at avl. c:53
+#5  0x000000000040071d in tiefe (bm=0x602070, t=174690) at avl. c:53
+#6  0x000000000040071d in tiefe (bm=0x602070, t=174689) at avl. c:53
+```
+Die tiefe-Funktion ruft sich ja in Zeile 53 wieder selbst auf, und das geschieht hier offensichtlich 174694 mal. Im Backtrace kann man erkennen, dass t korrekt hochgezählt wird, allerdings ändert sich der Pointer bm nicht. Das deutet darauf hin, das `bm->rechts == bm` ist und erklärt somit den Stackoverflow. 
+Überprüfe mal alle Funktionen an denen du die <REMOVED_PERSON_ENTITY> umhängst, ob <NAME_CORPUS_REPLACEMENT> das richtige passiert. Um den Fehler etwas schnell zu finden könntest du 
+`assert. h` includieren und `assert(bm != bm->rechts);  ` nach den entsprechenden Pointer-Umhäng-Stellen in den Code einbauen. So kannst du dein Programm kontrolliert abstürzen lassen, sobald diese Bedingung verletzt wurde und du weißt wo der Fehler herkommt.
+TAGGED_CONTENT:

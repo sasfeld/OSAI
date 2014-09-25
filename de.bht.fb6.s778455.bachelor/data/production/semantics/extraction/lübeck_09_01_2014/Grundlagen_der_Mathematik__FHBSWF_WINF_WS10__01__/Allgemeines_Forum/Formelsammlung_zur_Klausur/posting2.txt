@@ -1,0 +1,32 @@
+ID: 97779
+CREATION_DATETIME: 1292434511
+MODIFICATION_DATETIME: 1292434511
+TITLE: Re: Formelsammlung zur Klausur
+TOPIC_ZOOM_TAG: value:Mathematik;weight:2.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:2.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Internet-Versandhäuser;weight:1.0;significance:4.3883619412548;degreegeneralization:9;uri:20740589
+TOPIC_ZOOM_TAG: value:Amazon;weight:1.0;significance:4.3883619412548;degreegeneralization:10;uri:20767993
+TOPIC_ZOOM_TAG: value:Versandhäuser;weight:1.0;significance:4.30710247650591;degreegeneralization:7;uri:20128300
+TOPIC_ZOOM_TAG: value:Versandhandel;weight:1.0;significance:4.23722150531833;degreegeneralization:6;uri:21306247
+TOPIC_ZOOM_TAG: value:Warenhäuser;weight:1.0;significance:4.23722150531833;degreegeneralization:6;uri:21306264
+TOPIC_ZOOM_TAG: value:Internethandel und E-commerce;weight:1.0;significance:4.01786034038601;degreegeneralization:7;uri:20148071
+TOPIC_ZOOM_TAG: value:Handelsunternehmen;weight:1.0;significance:3.74140142076036;degreegeneralization:6;uri:20768027
+TOPIC_ZOOM_TAG: value:Internetfirmen;weight:1.0;significance:3.58956021386125;degreegeneralization:8;uri:20201281
+TOPIC_ZOOM_TAG: value:Natur;weight:2.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Internetbranche;weight:1.0;significance:3.45321556992843;degreegeneralization:6;uri:20765664
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Handel;weight:1.0;significance:3.27790841026491;degreegeneralization:5;uri:21993302
+TOPIC_ZOOM_TAG: value:Medienunternehmen;weight:1.0;significance:2.94865256831631;degreegeneralization:7;uri:20888812
+TOPIC_ZOOM_TAG: value:Handel und Vertrieb;weight:1.0;significance:2.69699834145493;degreegeneralization:4;uri:21872704
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:2.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.02414774048852;degreegeneralization:5;uri:21993370
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Unternehmen, Firmen und Firmengruppen;weight:1.0;significance:1.45540572144071;degreegeneralization:4;uri:21973565
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:0.90229776862663;degreegeneralization:2;uri:21999847
+PARENT_POSTING_ID: 97778
+CONTENT:
+Ich würde gleich eine weiter gehende Sammlung vorziehen. Statistik kommt ja nun auch noch auf uns zu...<a http://www.amazon.de/Formelsammlung-f%C3%BCr-Wirtschaftswissenschaftler-Mathematik-Statistik/dp/3827371600/ref=sr_1_1?s=books&ie=UTF8&qid=1292434327&sr=1-1" target="_blank" title="Formelsammlung <REMOVED_PERSON_ENTITY>"><a href="http://www.amazon.de/Formelsammlung-f%C3%BCr-Wirtschaftswissenschaftler-Mathematik-Statistik/dp/3827371600/ref=sr_1_1?s=books&ie=UTF8&qid=1292434327&sr=1-1" target="_blank" title="Formelsammlung">Formelsammlung bei Amazon 
+TAGGED_CONTENT:

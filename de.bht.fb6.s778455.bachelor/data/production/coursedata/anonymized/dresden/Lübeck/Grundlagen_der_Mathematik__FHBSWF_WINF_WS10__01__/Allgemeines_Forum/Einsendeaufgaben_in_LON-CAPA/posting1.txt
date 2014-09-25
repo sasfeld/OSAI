@@ -1,0 +1,12 @@
+ID: 97744
+CREATION_DATETIME: 1283862285
+MODIFICATION_DATETIME: 1286872722
+TITLE: Einsendeaufgaben in LON-CAPA
+PARENT_POSTING_ID: 0
+CONTENT:
+https://vita. sonia. de/adm/login?domain=fhwf
+Bitte nutzen Sie beim fehlerhaften Login ansonsten diesen Server:
+https://vita. ostfalia. de/adm/roles
+Domaene: fhwf
+Erstsemester erhalten Ihren Ostfalia-Account am 9. 10. Die Zugangsdaten werden leider nicht vorher per Post verschickt.
+TAGGED_CONTENT:

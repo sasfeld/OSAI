@@ -1,0 +1,13 @@
+ID: 69
+CREATION_DATETIME: 1181596020000
+MODIFICATION_DATETIME: 1181596020000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 68
+CONTENT:
+
+Ich habe in jeder meiner Klassen jeweils die text Methode und die toString Methode, denn in der Dokumentation stand etwas davon, dass die toString in Quadrat, die toString-Methode aus Punkt überschreibt. Bei mir funktioniert es auch ohne Probleme.
+
+Grüße
+	
+TAGGED_CONTENT:

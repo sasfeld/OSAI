@@ -1,0 +1,9 @@
+ID: 528
+CREATION_DATETIME: 1351202400000
+MODIFICATION_DATETIME: 1351202400000
+TITLE: Please note that processes must not be uncooperative by intention. They might not be able to reach th...
+PARENT_POSTING_ID: 510
+POSTING_TYPE: comment
+CONTENT:
+Please note that processes must not be uncooperative by intention. They might not be able to reach the next rendezvous because of an fault, e. g., a bit flip might make a loop infinite.
+TAGGED_CONTENT:

@@ -1,0 +1,9 @@
+ID: 2216
+CREATION_DATETIME: 1373493600000
+MODIFICATION_DATETIME: 1373493600000
+TITLE: Bis zur Abgabe ist das korrigiert. Ich werde sowieso noch ein paar hübsche Diagramme bauen.
+PARENT_POSTING_ID: 2209
+POSTING_TYPE: comment
+CONTENT:
+Bis zur Abgabe ist das korrigiert. Ich werde sowieso noch ein paar hübsche Diagramme bauen.
+TAGGED_CONTENT:

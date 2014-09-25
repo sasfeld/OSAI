@@ -1,0 +1,46 @@
+ID: 881
+CREATION_DATETIME: 1353970800000
+MODIFICATION_DATETIME: 1366840800000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Vorlesungsunterlagen;weight:1.0;significance:6.35427475761695;degreegeneralization:8;uri:20715004
+TOPIC_ZOOM_TAG: value:Vorlesungsmaterialien;weight:1.0;significance:6.35427475761695;degreegeneralization:7;uri:20715089
+TOPIC_ZOOM_TAG: value:Vorlesungen;weight:1.0;significance:5.45839502300295;degreegeneralization:6;uri:20916641
+TOPIC_ZOOM_TAG: value:Ereignisse im Bereich Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.6214068062171;degreegeneralization:3;uri:21872857
+TOPIC_ZOOM_TAG: value:Passwörter;weight:1.0;significance:4.20904503704277;degreegeneralization:7;uri:20841178
+TOPIC_ZOOM_TAG: value:Computer-Sicherheit;weight:1.0;significance:3.39752325479783;degreegeneralization:6;uri:21307607
+TOPIC_ZOOM_TAG: value:IT-Sicherheit;weight:1.0;significance:3.37377208780533;degreegeneralization:5;uri:20850035
+TOPIC_ZOOM_TAG: value:Sicherheitstechnologie;weight:1.0;significance:3.30299546031018;degreegeneralization:5;uri:21307624
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:2.77735785682754;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:2.59037776375624;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:2.18452430611399;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Computer;weight:1.0;significance:2.15506992990383;degreegeneralization:5;uri:21443794
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Computer und Datenverarbeitung, Bürotechnik;weight:1.0;significance:2.00351838218053;degreegeneralization:4;uri:21993285
+TOPIC_ZOOM_TAG: value:Verbrechen und Kriminalität;weight:1.0;significance:1.86924942670346;degreegeneralization:4;uri:21982303
+TOPIC_ZOOM_TAG: value:Rechtsverstöße, Straftaten, Kriminalität;weight:1.0;significance:1.8518177868834;degreegeneralization:3;uri:20801755
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:1.0;significance:1.83083484620539;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:1.0;significance:1.32629920978566;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Recht und Justiz;weight:1.0;significance:1.32554850720165;degreegeneralization:2;uri:21999830
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:1.0;significance:1.09064582795784;degreegeneralization:2;uri:21990259
+NER_TAG: value:PM-Funktion;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:Adresse;weight:0.0;uri:;postag:NN
+POS_TAG: value:Passwort;weight:0.0;uri:;postag:NN
+POS_TAG: value:Lehrveranstaltung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorlesungsunterlagen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Jahre;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+POS_TAG: value:Funktion;weight:0.0;uri:;postag:NN
+POS_TAG: value:Profil;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hi,
+
+jetzt nochmal zu richtigen Lehrveranstaltung:
+
+Das Passwort für die Vorlesungsunterlagen scheint sich gegenüber dem doch sehr einfachen der letzten Jahre, geändert zu haben. Könnte es mit mal bitte jemand zuschicken? Ich habe keine PM-Funktion hier gefunden, aber meine Mail-Adresse lässt sich ja leicht aus meinem Profil ableiten ;)
+
+Vielen Dank schon mal, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Hi_NE ,_$, jetzt_ADV nochmal_ADV zu_PTKZU richtigen_ADJA Lehrveranstaltung_NN :_$. Das_ART Passwort_NN für_APPR die_ART Vorlesungsunterlagen_NN scheint_VVFIN sich_PRF gegenüber_APPR dem_ART doch_ADV sehr_ADV einfachen_ADJA der_ART letzten_ADJA Jahre_NN ,_$, geändert_VVPP zu_PTKZU haben_VAINF ._$. Könnte_VMFIN es_PPER mit_APPR mal_ADV bitte_ADV jemand_PIS zuschicken_VVINF ?_$. Ich_PPER habe_VAFIN keine_PIAT PM-Funktion_NN hier_ADV gefunden_VVPP ,_$, aber_KON meine_PPOSAT Mail-Adresse_NN lässt_VVFIN sich_PRF ja_ADV leicht_ADJD aus_APPR meinem_PPOSAT Profil_NN ableiten_VVINF ;-RRB-_TRUNC Vielen_PIS Dank_NN schon_ADV mal_ADV ,_$, <_CARD REMOVED_PERSON_ENTITY_NE >_XY 

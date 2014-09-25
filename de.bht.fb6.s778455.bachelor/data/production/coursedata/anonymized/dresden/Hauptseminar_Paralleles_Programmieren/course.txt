@@ -1,0 +1,40 @@
+ID: 110804186
+CREATION_DATETIME: 1381874400000
+MODIFICATION_DATETIME: 1381874400000
+LANG: null
+SHORT_NAME: null
+TITLE: Hauptseminar Paralleles Programmieren
+SUMMARY: # Überblick
+
+Seit mehreren Jahrzehnten stieg der Bedarf nach immer schnelleren Prozessoren stetig an, wobei sowohl die Anzahl der Transistoren und die Taktfrequenz der Prozessoren exponentiell wuchs[Referenzen](#referenzen). Dabei erreichten die Prozessoren bezüglich der Taktfrequenz ihr physikalisches Limit (Siehe Abbildung 1 <http://www.gotw.ca/publications/concurrency-ddj.htm>).
+Um den heutigen Bedarf an Rechenleistung zu decken, setzen alle Hersteller auf die Entwicklung von Mehrkernarchitekturen.
+
+Aufgrund dieser Entwicklung sind die heutigen Programmiersprachen mehr den je gefordert die Parallelität der Mehrkernarchitekturen auszunutzen.
+Dabei stehen in diesem Hauptseminar insbesondere die Konstrukte für die Beschreibung von nebenläufigen Abläufen, asynchroner Kommunikation und die Synchronisation von gemeinsamen Speicherbereichen im Vordergrund.
+
+Die übergreifende Fragestellung des Seminars lautet dementsprechend:
+
+> Welche Konzepte moderner Programmiersprachen erleichtern die Entwicklung von parallelen Anwendungen?
+
+# Organisiation
+
+**Verantwortlicher:** Dipl.-Inf. Thomas Kühn
+**Schriftliche Ausarbeitung:** 7 bis maximal 9 Seiten (Latex LNCS Style)
+**Vortag:** 45 Minuten
+
+# Themen
+
+* *Erlang* von Ericsson (<http://www.erlang.org/>)
+* *C#* zusammen mit *Rx* von Microsoft (<http://msdn.microsoft.com/de-de/data/gg577609.aspx>)
+* Eiffel SCOOP von Bertrand Meyer (<http://docs.eiffel.com/book/solutions/concurrent-eiffel-scoop>)
+* *Concurrent Haskell* von Simon Peyton Jones, Andrew D. Gordon, and Sigbjorn Finne (<http://www.haskell.org/haskellwiki/GHC/Concurrency>)
+* *Go* von Google Corperation (<http://golang.org/>)
+* *Rust* von Mozilla Research (<http://www.rust-lang.org/>)
+* *ParaSail* von Tucker Taft (<http://parasail-programming-language.blogspot.de/>)
+* *E* von Mark S. Miller, Dan Bornstein (<http://www.erights.org/>)
+* andere interessante parallele Programmiersprachen
+
+# Referenzen
+
+1. Herberd Sutter, *The Free Lunch Is Over: A Fundamental Turn Toward Concurrency in Software*, Dr. Dobbs' Journal March 2005 (<http://www.gotw.ca/publications/concurrency-ddj.htm>)
+URL: http://tu-dresden.de/die_tu_dresden/fakultaeten/fakultaet_informatik/smt/st/studium?leaf=1&lang=de&subject=244

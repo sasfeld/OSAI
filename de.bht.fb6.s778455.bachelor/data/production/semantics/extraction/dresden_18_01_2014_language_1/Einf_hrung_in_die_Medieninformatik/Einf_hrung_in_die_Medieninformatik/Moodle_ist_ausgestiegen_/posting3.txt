@@ -1,0 +1,12 @@
+ID: 633
+CREATION_DATETIME: 1351724400000
+MODIFICATION_DATETIME: 1351724400000
+TITLE: Ja, ich kann leider ebenfalls nicht auf Moodle zugreifen. Ich schlage daher vor, die Abgaben euren je...
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 629
+POSTING_TYPE: answer
+CONTENT:
+Ja, ich kann leider ebenfalls nicht auf Moodle zugreifen. Ich schlage daher vor, die Abgaben euren jeweiligen Tutoren per E-Mail zu senden. Ich hätte also gerne die Abgaben der Gruppen 5 (DI 1. DS INF/E065), 8 (MI 2. DS INF/E065) und 10 (DO 1. DS INF/E065) zugeschickt, solange das Moodle nicht mitspielt.
+
+Grüße, <REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

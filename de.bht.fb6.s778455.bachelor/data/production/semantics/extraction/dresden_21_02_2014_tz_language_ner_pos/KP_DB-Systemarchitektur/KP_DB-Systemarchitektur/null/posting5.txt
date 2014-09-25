@@ -1,0 +1,32 @@
+ID: 2291
+CREATION_DATETIME: 1374098400000
+MODIFICATION_DATETIME: 1374098400000
+TITLE: Da wir ja leider keine andere Möglichkeit finden konnten das ganze zu Umgehen, habe ich jetzt einen W...
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Probleme und Krisen;weight:1.0;significance:3.45247125158389;degreegeneralization:4;uri:20293642
+TOPIC_ZOOM_TAG: value:Negative oder schlimme Themen, Urteile und Bewertungen;weight:1.0;significance:2.89608136108497;degreegeneralization:3;uri:20758133
+NER_TAG: value:KernelMetrics;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:KernelMetrics;weight:0.0;uri:;postag:NN
+POS_TAG: value:Problem;weight:0.0;uri:;postag:NN
+POS_TAG: value:Auswirkungen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Metric;weight:0.0;uri:;postag:NN
+POS_TAG: value:Analyse;weight:0.0;uri:;postag:NN
+POS_TAG: value:Umgehen;weight:0.0;uri:;postag:NN
+POS_TAG: value:Falle;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vorhersage;weight:0.0;uri:;postag:NN
+POS_TAG: value:Laufzeiten;weight:0.0;uri:;postag:NN
+POS_TAG: value:glichkeit;weight:0.0;uri:;postag:NN
+POS_TAG: value:stab;weight:0.0;uri:;postag:NN
+POS_TAG: value:Inteplattform;weight:0.0;uri:;postag:NN
+POS_TAG: value:Workaround;weight:0.0;uri:;postag:NN
+POS_TAG: value:REPLACEMENT;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 2203
+POSTING_TYPE: answer
+CONTENT:
+<NAME_CORPUS_REPLACEMENT> wir ja leider keine andere Möglichkeit finden konnten das ganze zu Umgehen, habe ich jetzt einen Workaround eingebaut, der dafür sorgt, dass die Analyse (und damit der clangaufruf) nicht stattfindet, wenn eine Inteplattform verwendet wird.
+
+Dadurch sind die KernelMetrics dann immer 0.
+
+Die Auswirkungen auf die Vorhersage habe ich noch nicht getestet. Aber wenn ihr im Falle, dass keine Metric korreliert einfach die bisherigen Laufzeiten als Maßstab nehmt und mit diesen extrapoliert, dann dürfte das ja kein Problem sein.
+TAGGED_CONTENT:
+<_XY NAME_CORPUS_REPLACEMENT_NN >_VVFIN wir_PPER ja_ADV leider_ADV keine_PIAT andere_ADJA Möglichkeit_NN finden_VVINF konnten_VMFIN das_ART ganze_ADJA zu_APPR Umgehen_NN ,_$, habe_VAFIN ich_PPER jetzt_ADV einen_ART Workaround_NN eingebaut_VVPP ,_$, der_ART dafür_PROAV sorgt_VVFIN ,_$, dass_KOUS die_ART Analyse_NN -LRB-_TRUNC und_KON damit_PROAV der_ART clangaufruf_ADJA -RRB-_TRUNC nicht_PTKNEG stattfindet_VVFIN ,_$, wenn_KOUS eine_ART Inteplattform_NN verwendet_VVPP wird_VAFIN ._$. Dadurch_PROAV sind_VAFIN die_ART KernelMetrics_NN dann_ADV immer_ADV 0_CARD ._$. Die_ART Auswirkungen_NN auf_APPR die_ART Vorhersage_NN habe_VAFIN ich_PPER noch_ADV nicht_PTKNEG getestet_VVPP ._$. Aber_KON wenn_KOUS ihr_PPOSAT im_APPRART Falle_NN ,_$, dass_KOUS keine_PIAT Metric_NN korreliert_VVFIN einfach_ADV die_ART bisherigen_ADJA Laufzeiten_NN als_APPR Maßstab_NN nehmt_VVFIN und_KON mit_APPR diesen_PDAT extrapoliert_VVPP ,_$, dann_ADV dürfte_VMFIN das_PDS ja_ADV kein_PIAT Problem_NN sein_VAINF ._$. 

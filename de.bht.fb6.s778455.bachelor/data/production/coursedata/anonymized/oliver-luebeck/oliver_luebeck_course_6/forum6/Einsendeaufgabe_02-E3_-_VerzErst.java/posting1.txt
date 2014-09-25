@@ -1,0 +1,19 @@
+ID: 1
+CREATION_DATETIME: 1286287740000
+MODIFICATION_DATETIME: 1286287740000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: null
+CONTENT:
+
+Hallo ,
+
+wenn ich mir die JavaDoc zu VerzErst.java anschaue, dann finde ich dort die Methoden eingabeStream() und eingeben(), die vom Prinzip das selbe tun: einen String vom Anwender entgegennehmen.
+
+Zumal wir alle Methoden in einer einzigen Klasse zusammenfassen, erscheint mir dann eine der beiden Methoden obsolet. Ich kann doch eingabeStream() sowohl für die Eingabe des Dateinamens, als auch für die Eingabe eines Pfades verwenden (oder ggf. eine zu erstellende oder zu kopierende Datei voll-qualifiziert angeben)?
+
+Mache ich hier einen Denkfehler?
+
+Grüße aus Lichterfelde,
+    
+TAGGED_CONTENT:

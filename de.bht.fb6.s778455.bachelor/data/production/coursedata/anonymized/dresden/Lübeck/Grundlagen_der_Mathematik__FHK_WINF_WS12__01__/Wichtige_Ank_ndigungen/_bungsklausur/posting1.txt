@@ -1,0 +1,11 @@
+ID: 191795
+CREATION_DATETIME: 1357653603
+MODIFICATION_DATETIME: 1357653656
+TITLE: Übungsklausur
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Studierenden,
+unter "Weitere Kursunterlagen" finden Sie nun auch eine Übungsklausur mit Lösung.
+Viele Grüße
+<PERSONAL_GREETING_REMOVEMENT>
+TAGGED_CONTENT:

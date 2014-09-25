@@ -1,0 +1,13 @@
+ID: 29
+CREATION_DATETIME: 1177446360000
+MODIFICATION_DATETIME: 1177446360000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 28
+CONTENT:
+  
+die PATH Variable passt noch zum jdk. das Problem ist, wenn ich die CLASSPATH auf e: setze, dann findet e mein Package nicht, welches ich importieren möchte. Auch wenn ich zwei CLASSPATH variablen setze, funktioniert es nicht.
+
+Wenn ich die CLASSPATH nicht setze oder auf e: setze dnn funktioniert wieder alles bis auf den import.
+     
+TAGGED_CONTENT:

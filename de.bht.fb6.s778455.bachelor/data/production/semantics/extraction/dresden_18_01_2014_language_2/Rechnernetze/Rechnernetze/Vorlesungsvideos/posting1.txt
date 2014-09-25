@@ -1,0 +1,16 @@
+ID: 1811
+CREATION_DATETIME: 1368568800000
+MODIFICATION_DATETIME: 1374789600000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hallo, 
+
+wo finde ich den die Aktuellen Videos der Vorlesung vom SS13 ? Über die LS Seite gelange ich nur zu den alten <NAME_CORPUS_REPLACEMENT> SS11. 
+
+Vielen Dank
+
+Moe 
+TAGGED_CONTENT:

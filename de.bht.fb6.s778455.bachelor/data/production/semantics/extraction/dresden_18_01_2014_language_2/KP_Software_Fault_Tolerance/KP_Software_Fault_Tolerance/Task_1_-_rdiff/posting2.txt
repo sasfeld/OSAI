@@ -1,0 +1,10 @@
+ID: 495
+CREATION_DATETIME: 1351029600000
+MODIFICATION_DATETIME: 1351029600000
+TITLE: Ok, it seems that my 
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 494
+POSTING_TYPE: answer
+CONTENT:
+Ok, it seems that my error was the following: if the input files are the same, returned "1". Comparing 2 equal files is not an error, of course. 
+TAGGED_CONTENT:

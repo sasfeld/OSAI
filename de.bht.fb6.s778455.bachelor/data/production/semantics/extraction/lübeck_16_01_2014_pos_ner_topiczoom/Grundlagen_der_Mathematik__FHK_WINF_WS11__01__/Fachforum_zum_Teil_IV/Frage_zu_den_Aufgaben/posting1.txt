@@ -1,0 +1,23 @@
+ID: 115388
+CREATION_DATETIME: 1327783349
+MODIFICATION_DATETIME: 1327783349
+TITLE: Frage zu den Aufgaben
+TOPIC_ZOOM_TAG: value:Algebra;weight:1.0;significance:12.7085495152339;degreegeneralization:6;uri:21971916
+TOPIC_ZOOM_TAG: value:Mathematik;weight:1.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:1.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:1.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:1.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:T;weight:0.0;uri:;postag:NN
+POS_TAG: value:Algebra;weight:0.0;uri:;postag:NN
+POS_TAG: value:Zusatzaufgaben;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ellger;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abend;weight:0.0;uri:;postag:NN
+POS_TAG: value:Unterschied;weight:0.0;uri:;postag:NN
+POS_TAG: value:Aufgabenblock;weight:0.0;uri:;postag:NN
+POS_TAG: value:Dank;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+'n Abend zusammen, <REMOVED_PERSON_ENTITY> mir vielleicht jemand mit den Zusatzaufgaben des Aufgabenblock 4 zur Linearen Algebra weiterhelfen?Was ist der Unterschied bei 3a und b und bei 3c und d? Was sagt das T aus? Viele Dank und viele GrüßeMike Ellger
+TAGGED_CONTENT:
+'n_XY Abend_NN zusammen_ADV ,_$, <_KON REMOVED_PERSON_ENTITY_NE >_VVFIN mir_PPER vielleicht_ADV jemand_PIS mit_APPR den_ART Zusatzaufgaben_NN des_ART Aufgabenblock_NN 4_CARD zur_APPRART Linearen_ADJA Algebra_NN weiterhelfen?Was_NE ist_VAFIN der_ART Unterschied_NN bei_APPR 3a_CARD und_KON b_XY und_KON bei_APPR 3c_CARD und_KON d_FM ?_$. Was_PWS sagt_VVFIN das_ART T_NN aus_PTKVZ ?_$. Viele_PIDAT Dank_NN und_KON viele_PIDAT GrüßeMike_ADJA Ellger_NN 

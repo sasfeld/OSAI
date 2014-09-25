@@ -1,0 +1,10 @@
+ID: 1288
+CREATION_DATETIME: 1362610800000
+MODIFICATION_DATETIME: 1382306400000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Gibts bei <REMOVED_PERSON_ENTITY> ne Möglichkeit, dass man das Programm zwischendurch anhalten kann und Zeile für Zeile abläuft, mit breakpoints, zur besseren Überprüfung?
+TAGGED_CONTENT:

@@ -1,0 +1,55 @@
+ID: 101858
+CREATION_DATETIME: 1291199436
+MODIFICATION_DATETIME: 1291199436
+TITLE: OM - 02.12.10
+LANGUAGE: GERMAN
+WEB_URL: https://elearning.fh-luebeck.de/mod/forum/discuss.php?id=37720#101858
+TOPIC_ZOOM_TAG: value:DSL;weight:1.0;significance:5.11182143272295;degreegeneralization:8;uri:20919820
+TOPIC_ZOOM_TAG: value:Vodafone;weight:1.0;significance:4.67062684262372;degreegeneralization:9;uri:20299133
+TOPIC_ZOOM_TAG: value:Webtechnologie;weight:1.0;significance:3.89794731474894;degreegeneralization:7;uri:20990880
+TOPIC_ZOOM_TAG: value:Informationstechnik;weight:2.0;significance:3.66166969241078;degreegeneralization:4;uri:20900474
+TOPIC_ZOOM_TAG: value:Liebe;weight:1.0;significance:3.42245916981792;degreegeneralization:5;uri:21126234
+TOPIC_ZOOM_TAG: value:Studenten;weight:1.0;significance:3.3437630829422;degreegeneralization:5;uri:20994552
+TOPIC_ZOOM_TAG: value:Unternehmen im Bereich Telekommunikation;weight:1.0;significance:3.33295834077578;degreegeneralization:8;uri:21632783
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Telekommunikation;weight:1.0;significance:3.31890589361572;degreegeneralization:7;uri:21993013
+TOPIC_ZOOM_TAG: value:Telekommunikationsmarkt;weight:1.0;significance:3.31660174207262;degreegeneralization:6;uri:20204375
+TOPIC_ZOOM_TAG: value:Schüler, Studenten;weight:1.0;significance:3.21878054168781;degreegeneralization:4;uri:20920823
+TOPIC_ZOOM_TAG: value:Lehren und Lernen;weight:1.0;significance:2.78563553898677;degreegeneralization:3;uri:20994586
+TOPIC_ZOOM_TAG: value:Telekommunikation;weight:1.0;significance:2.70033836723511;degreegeneralization:5;uri:21990157
+TOPIC_ZOOM_TAG: value:Technik, Verkehr;weight:2.0;significance:2.65259841957133;degreegeneralization:3;uri:21925999
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:2.59037776375624;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:World Wide Web;weight:1.0;significance:2.40155393308682;degreegeneralization:6;uri:20772430
+TOPIC_ZOOM_TAG: value:Partnerschaft, Ehe, Liebe, Sex;weight:1.0;significance:2.38989159680361;degreegeneralization:4;uri:21126268
+TOPIC_ZOOM_TAG: value:Technologieunternehmen;weight:1.0;significance:2.37691309036801;degreegeneralization:6;uri:20761754
+TOPIC_ZOOM_TAG: value:Zwischenmenschliche Beziehungen;weight:1.0;significance:2.25951370224292;degreegeneralization:3;uri:20122843
+TOPIC_ZOOM_TAG: value:Wirtschaftlicher Markt;weight:1.0;significance:2.21786175579176;degreegeneralization:3;uri:21308831
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:2.18452430611399;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Medien, Internet, Information und Kommunikation;weight:2.0;significance:2.18129165591568;degreegeneralization:2;uri:21990259
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:2.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Wirtschaftsbranche Medien, Internet, Information und Kommunikation;weight:1.0;significance:2.02414774048852;degreegeneralization:5;uri:21993370
+TOPIC_ZOOM_TAG: value:Internet;weight:1.0;significance:1.92416707816637;degreegeneralization:5;uri:21981062
+TOPIC_ZOOM_TAG: value:Elektronische Medien und Internet;weight:1.0;significance:1.91740069353976;degreegeneralization:4;uri:21990191
+TOPIC_ZOOM_TAG: value:Unternehmen, Firmen und Firmengruppen;weight:1.0;significance:1.45540572144071;degreegeneralization:4;uri:21973565
+TOPIC_ZOOM_TAG: value:Leben und Alltag;weight:1.0;significance:1.44389580514839;degreegeneralization:2;uri:21306723
+TOPIC_ZOOM_TAG: value:Medien und Internet;weight:1.0;significance:1.34346171734038;degreegeneralization:3;uri:20922149
+TOPIC_ZOOM_TAG: value:Wirtschaft;weight:1.0;significance:0.90229776862663;degreegeneralization:2;uri:21999847
+NER_TAG: value:DSL-Anschluß;weight:-1.0;uri:;classifierlabel:I-MISC
+NER_TAG: value:DSL-Anschluß;weight:-1.0;uri:;classifierlabel:I-MISC
+POS_TAG: value:OM;weight:0.0;uri:;postag:NN
+POS_TAG: value:Studenten;weight:0.0;uri:;postag:NN
+POS_TAG: value:Vodafone;weight:0.0;uri:;postag:NN
+POS_TAG: value:Liebe;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mobil;weight:0.0;uri:;postag:NN
+POS_TAG: value:nderung;weight:0.0;uri:;postag:NN
+POS_TAG: value:ENTITY;weight:0.0;uri:;postag:NN
+POS_TAG: value:Tel.;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+CONTENT:
+Liebe Studenten,
+leider kann ich momentan kein OM anbieten. Ich bin gestern umgezogen und Vodafone hat es nicht fertiggebracht den Tel./DSL-Anschluß zu schalten.
+Sie können mich über Mobil: 0170-7945153 erreichen.
+Sollte sich kurzfristig eine Änderung ergeben, melde ich mich.
+<REMOVED_PERSON_ENTITY>
+ 
+TAGGED_CONTENT:
+Liebe_NN Studenten_NN ,_$, leider_ADV kann_VMFIN ich_PPER momentan_ADJD kein_PIAT OM_NN anbieten_VVINF ._$. Ich_PPER bin_VAFIN gestern_ADV umgezogen_VVPP und_KON Vodafone_NN hat_VAFIN es_PPER nicht_PTKNEG fertiggebracht_VVFIN den_ART Tel._NN \/_CARD DSL-Anschluß_NN zu_PTKZU schalten_VVINF ._$. Sie_PPER können_VMFIN mich_PRF über_APPR Mobil_NN :_$. 0170-7945153_CARD erreichen_VVINF ._$. Sollte_VMFIN sich_PRF kurzfristig_ADJD eine_ART Änderung_NN ergeben_VVPP ,_$, melde_VVFIN ich_PPER mich._APPR <_CARD REMOVED_PERSON_ENTITY_NN >_XY 

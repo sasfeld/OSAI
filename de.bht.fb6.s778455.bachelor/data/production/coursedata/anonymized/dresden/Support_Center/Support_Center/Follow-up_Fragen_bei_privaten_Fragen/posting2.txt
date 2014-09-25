@@ -1,0 +1,9 @@
+ID: 707
+CREATION_DATETIME: 1352329200000
+MODIFICATION_DATETIME: 1352329200000
+TITLE: Moderatoren des Kurses können follow-up questions exportieren. Diese werden jedoch wieder privat sein...
+PARENT_POSTING_ID: 700
+POSTING_TYPE: answer
+CONTENT:
+Moderatoren des Kurses können follow-up questions exportieren. Diese werden jedoch wieder privat sein.
+TAGGED_CONTENT:

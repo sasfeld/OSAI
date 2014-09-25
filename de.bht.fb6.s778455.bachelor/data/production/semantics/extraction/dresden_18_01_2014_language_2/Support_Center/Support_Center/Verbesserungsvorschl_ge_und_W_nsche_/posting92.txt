@@ -1,0 +1,10 @@
+ID: 1878
+CREATION_DATETIME: 1369951200000
+MODIFICATION_DATETIME: 1369951200000
+TITLE: Auch in der allgemeinen Courses-Liste wäre das sinnvoll.
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 1877
+POSTING_TYPE: comment
+CONTENT:
+Auch in der allgemeinen Courses-Liste wäre das sinnvoll.
+TAGGED_CONTENT:

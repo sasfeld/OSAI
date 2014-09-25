@@ -1,0 +1,10 @@
+ID: 487
+CREATION_DATETIME: 1351029600000
+MODIFICATION_DATETIME: 1351029600000
+TITLE: I wanted to avoid to 
+PARENT_POSTING_ID: 482
+POSTING_TYPE: comment
+CONTENT:
+I wanted to avoid to bother the kernel itself with synchronization issues. That is why I proposed to introduce a new level of privilege. I am thinking of the synchronization components as a seperated, centralized and independent building block in the OS design.
+Since critical sections are used to protect hardware ressources one <NAME_CORPUS_REPLACEMENT> imagine something like a critical section scheduler and a synchronzation server for each of theese ressources. All this stuff is thougt to run in another privilege level then the applications. I wanted to use mechanisms comparable to the ones used for the kernel mode switch, but simply not the kernel itself… 
+TAGGED_CONTENT:

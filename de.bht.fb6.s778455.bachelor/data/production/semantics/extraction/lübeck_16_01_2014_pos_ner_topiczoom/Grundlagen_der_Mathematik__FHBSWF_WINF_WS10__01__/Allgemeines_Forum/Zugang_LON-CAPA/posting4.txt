@@ -1,0 +1,15 @@
+ID: 97770
+CREATION_DATETIME: 1286789710
+MODIFICATION_DATETIME: 1286789710
+TITLE: Re: Zugang LON-CAPA
+NER_TAG: value:PWA;weight:-1.0;uri:;classifierlabel:I-ORG
+NER_TAG: value:PWA;weight:-1.0;uri:;classifierlabel:I-ORG
+POS_TAG: value:Ostfalia;weight:0.0;uri:;postag:NN
+POS_TAG: value:PWA;weight:0.0;uri:;postag:NN
+POS_TAG: value:Inhalte;weight:0.0;uri:;postag:NN
+POS_TAG: value:CAPA;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 97769
+CONTENT:
+Gut wenn ich über den PWA der Ostfalia <REMOVED_PERSON_ENTITY> auf das LON-CAPA gehe, dann funktioniert es. Jetzt müssen nur noch die Inhalte freigeschaltet werden ... Danke ;-) 
+TAGGED_CONTENT:
+Gut_ADJD wenn_KOUS ich_PPER über_APPR den_ART PWA_NN der_ART Ostfalia_NN <_NE REMOVED_PERSON_ENTITY_NE >_VVFIN auf_APPR das_ART LON-CAPA_NN gehe_VVFIN ,_$, dann_ADV funktioniert_VVFIN es_PPER ._$. Jetzt_ADV müssen_VMFIN nur_ADV noch_ADV die_ART Inhalte_NN freigeschaltet_VVPP werden_VAFIN ..._$( Danke_VVIMP ;--RRB-_XY 

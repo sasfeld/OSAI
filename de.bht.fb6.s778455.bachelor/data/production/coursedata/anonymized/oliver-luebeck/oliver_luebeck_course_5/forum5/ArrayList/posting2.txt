@@ -1,0 +1,15 @@
+ID: 68
+CREATION_DATETIME: 1194102900000
+MODIFICATION_DATETIME: 1194102900000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 67
+CONTENT:
+ 
+Hallo ,
+
+Ich würde das Suchergebnis an die remove Methode übergeben.
+
+Gruß
+       
+TAGGED_CONTENT:

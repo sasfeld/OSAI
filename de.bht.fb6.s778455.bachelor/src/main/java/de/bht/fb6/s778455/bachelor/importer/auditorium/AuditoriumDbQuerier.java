@@ -16,7 +16,6 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
@@ -25,7 +24,6 @@ import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
-import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 
 /**
  * <p>
@@ -50,14 +48,8 @@ public class AuditoriumDbQuerier {
 	 * 
 	 * @throws GeneralLoggingException
 	 */
-	public AuditoriumDbQuerier() throws GeneralLoggingException {
-		final String host = ServiceFactory.getConfigReader().fetchValue(
-				IConfigKeys.IMPORT_STRATEGY_AUDITORIUM_DB_HOST );
-		final String user = ServiceFactory.getConfigReader().fetchValue(
-				IConfigKeys.IMPORT_STRATEGY_AUDITORIUM_DB_USER );
-		final String password = ServiceFactory.getConfigReader().fetchValue(
-				IConfigKeys.IMPORT_STRATEGY_AUDITORIUM_DB_PW );
-		this.initializeConnection( host, user, password );
+	public AuditoriumDbQuerier(final String host, final String user, final String password, final String dbname ) throws GeneralLoggingException {
+		this.initializeConnection( host, user, password, dbname );
 	}
 
 	/**
@@ -66,13 +58,12 @@ public class AuditoriumDbQuerier {
 	 * @throws GeneralLoggingException
 	 */
 	private void initializeConnection( final String url, final String user,
-			final String password ) throws GeneralLoggingException {
+			final String password, String dbname ) throws GeneralLoggingException {
 		try {
 			Class.forName( NAME_MYSQL_DRIVER );
 			this.setConnection( DriverManager.getConnection( url, user,
 					password ) );
-			this.setDatabase( ServiceFactory.getConfigReader().fetchValue(
-					IConfigKeys.IMPORT_STRATEGY_AUDITORIUM_DB_DBNAME ) );
+			this.setDatabase( dbname );
 		} catch( final SQLException e ) { // no connection
 			throw new GeneralLoggingException(
 					this.getClass()
@@ -334,7 +325,7 @@ public class AuditoriumDbQuerier {
 				final String title = results.getString( "subject" );
 				final String content = results.getString( "body" );
 				final String postType = results.getString( "post_type" );
-				final int parentPostingId = results.getInt( "parent_id" );
+				final Long parentPostingId = results.getLong( "parent_id" );
 				final Date createdAt = results.getDate( "created_at" );
 				final Date updatedAt = results.getDate( "updated_at" );
 				// final int boardId = results.getInt( "board_id" );

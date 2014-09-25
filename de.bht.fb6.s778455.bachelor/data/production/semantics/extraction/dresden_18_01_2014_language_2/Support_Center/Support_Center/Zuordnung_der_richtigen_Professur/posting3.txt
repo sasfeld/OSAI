@@ -1,0 +1,10 @@
+ID: 441
+CREATION_DATETIME: 1350684000000
+MODIFICATION_DATETIME: 1350684000000
+TITLE: Alle hier aufgeführte
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 440
+POSTING_TYPE: comment
+CONTENT:
+Alle hier aufgeführten Veranstaltungen sind im Auditorium angepasst: http://mt.inf.tu-dresden. <LEARNED_PERSON_NAME_REPLACEMENT>/lehre/index. html - <REMOVED_PERSON_ENTITY> die im SS12 stattfanden sind auch in der neuen Professur. Das anzupassen erfordert eine neue Lecture. aber <NAME_CORPUS_REPLACEMENT> das Semester vorbei ist, würde ich davon absehen und es einfach so lassen?!
+TAGGED_CONTENT:

@@ -1,0 +1,14 @@
+ID: 2792
+CREATION_DATETIME: 1384124400000
+MODIFICATION_DATETIME: 1385593200000
+TITLE: null
+LANGUAGE: GERMAN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Hey, bei mir wird der Videoshop ein bisschen merkwürdig angezeigt. Hier mal ein Bild : http://i.imgur.com/4qDvkFJ. png .
+
+Die salespoint-framework. jar Datei ist im Projekt eingebunden und es gibt auch keinen Fehler in der Konsole.
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:

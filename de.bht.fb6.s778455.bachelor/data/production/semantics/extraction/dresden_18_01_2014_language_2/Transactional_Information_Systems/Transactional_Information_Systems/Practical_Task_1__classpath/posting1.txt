@@ -1,0 +1,18 @@
+ID: 2842
+CREATION_DATETIME: 1384383600000
+MODIFICATION_DATETIME: 1385852400000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: announcement
+CONTENT:
+Hi everyone,
+
+for the part 3 of the practical task (Page 11) I wrote this command:
+
+java -cp ../libs/h2. jar:bin/ org. h2. tools. Server
+
+You need to adjust the paths behind -cp. This should work fine on <REMOVED_PERSON_ENTITY> and Mac but for <REMOVED_PERSON_ENTITY> the paths need to be separated with a ";" instead of a ":" . So please adjust that for <REMOVED_PERSON_ENTITY> to make it work.
+
+If you got any questions, please use this forum.
+TAGGED_CONTENT:

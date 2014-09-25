@@ -1,0 +1,8 @@
+ID: 2023295
+CREATION_DATETIME: 1341871200000
+MODIFICATION_DATETIME: 1364166000000
+LANG: null
+SHORT_NAME: null
+TITLE: Echtzeit-AG
+SUMMARY: null
+URL: http://www.inf.tu-dresden.de/index.php?node_id=1323&ln=de

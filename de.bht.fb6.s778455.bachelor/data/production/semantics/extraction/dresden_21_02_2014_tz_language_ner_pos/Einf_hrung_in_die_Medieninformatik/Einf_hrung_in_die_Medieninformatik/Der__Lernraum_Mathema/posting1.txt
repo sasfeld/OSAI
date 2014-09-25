@@ -1,0 +1,35 @@
+ID: 190
+CREATION_DATETIME: 1349560800000
+MODIFICATION_DATETIME: 1382306400000
+TITLE: null
+LANGUAGE: GERMAN
+TOPIC_ZOOM_TAG: value:Professoren;weight:1.0;significance:6.95597687640829;degreegeneralization:6;uri:21628533
+TOPIC_ZOOM_TAG: value:Hochschulen und Universitäten;weight:1.0;significance:5.55471571365508;degreegeneralization:4;uri:21958248
+TOPIC_ZOOM_TAG: value:Studium und Hochschulbildung;weight:1.0;significance:5.18075552751248;degreegeneralization:3;uri:21307097
+TOPIC_ZOOM_TAG: value:Bildung, Erziehung und Ausbildung;weight:1.0;significance:4.36904861222798;degreegeneralization:2;uri:21999779
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:1.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+POS_TAG: value:Ort;weight:0.0;uri:;postag:NN
+POS_TAG: value:Ende;weight:0.0;uri:;postag:NN
+POS_TAG: value:Stundenplans;weight:0.0;uri:;postag:NN
+POS_TAG: value:bung;weight:0.0;uri:;postag:NN
+POS_TAG: value:Prof.;weight:0.0;uri:;postag:NN
+POS_TAG: value:Abend;weight:0.0;uri:;postag:NN
+POS_TAG: value:Stundenplan;weight:0.0;uri:;postag:NN
+POS_TAG: value:Mittwoch;weight:0.0;uri:;postag:NN
+POS_TAG: value:Frage;weight:0.0;uri:;postag:NN
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+Guten Abend Ladies und Gentlemen.
+
+Ich habe eine Frage bezüglich des Stundenplans MINF-B01.
+
+Der Mittwoch in diesem Stundenplan wurde ja schon überarbeitet. Die Übung am Ende bei Prof. <REMOVED_PERSON_ENTITY> wurde gestrichen wenn ich das richtig mitbekommen habe (wurde übrigens bei jExam noch nicht korrigiert). 
+
+Meine eigentliche Frage ist, wo die erste Übung am Mittwoch um 9. 20 stattfinden soll. Es steht kein Ort dabei. 
+
+Danke
+
+<REMOVED_PERSON_ENTITY>
+TAGGED_CONTENT:
+Guten_ADJA Abend_NN Ladies_NE und_KON Gentlemen_NE ._$. Ich_PPER habe_VAFIN eine_ART Frage_NN bezüglich_APPR des_ART Stundenplans_NN MINF-B01_NE ._$. Der_ART Mittwoch_NN in_APPR diesem_PDAT Stundenplan_NN wurde_VAFIN ja_ADV schon_ADV überarbeitet_VVPP ._$. Die_ART Übung_NN am_APPRART Ende_NN bei_APPR Prof._NN <_CARD REMOVED_PERSON_ENTITY_NE >_NE wurde_VAFIN gestrichen_VVPP wenn_KOUS ich_PPER das_ART richtig_ADJD mitbekommen_VVPP habe_VAFIN -LRB-_TRUNC wurde_VAFIN übrigens_ADV bei_APPR jExam_NE noch_ADV nicht_PTKNEG korrigiert_VVFIN -RRB-_TRUNC ._$. Meine_PPOSAT eigentliche_ADJA Frage_NN ist_VAFIN ,_$, wo_PWAV die_ART erste_ADJA Übung_NN am_APPRART Mittwoch_NN um_APPR 9_CARD ._$. 20_CARD stattfinden_VVINF soll_VMFIN ._$. Es_PPER steht_VVFIN kein_PIAT Ort_NN dabei_PROAV ._$. Danke_PROAV <_VVFIN REMOVED_PERSON_ENTITY_NE >_XY 

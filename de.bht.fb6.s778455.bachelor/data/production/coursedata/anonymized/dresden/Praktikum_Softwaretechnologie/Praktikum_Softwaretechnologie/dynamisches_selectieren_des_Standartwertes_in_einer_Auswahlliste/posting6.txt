@@ -1,0 +1,9 @@
+ID: 3013
+CREATION_DATETIME: 1385247600000
+MODIFICATION_DATETIME: 1385247600000
+TITLE: Kein Ding. Schön dass es funktioniert hat, hatte es nicht getestet und war mir auch gar nicht so sich...
+PARENT_POSTING_ID: 3010
+POSTING_TYPE: comment
+CONTENT:
+Kein Ding. Schön dass es funktioniert hat, hatte es nicht getestet und war mir auch gar nicht so sicher. :-)
+TAGGED_CONTENT:

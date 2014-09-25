@@ -1,0 +1,16 @@
+ID: 1419
+CREATION_DATETIME: 1362783600000
+MODIFICATION_DATETIME: 1372802400000
+TITLE: null
+LANGUAGE: ENGLISH
+PARENT_POSTING_ID: 0
+POSTING_TYPE: question
+CONTENT:
+As far as I know, the kernel memory resides in the higher 1GB of  *??? memory*. 
+
+Does it operate directly on the physical memory or does it have a virtual memory mapping?  
+
+From an applications view <NAME_CORPUS_REPLACEMENT> there be a memory mapping to the highest GB in virtual memory?  
+
+Do *Sigma0* or the *mapping database* know about the kernels memory area?
+TAGGED_CONTENT:

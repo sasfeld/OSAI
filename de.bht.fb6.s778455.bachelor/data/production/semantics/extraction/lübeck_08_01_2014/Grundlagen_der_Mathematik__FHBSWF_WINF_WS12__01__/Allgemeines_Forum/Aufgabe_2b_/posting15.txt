@@ -1,0 +1,21 @@
+ID: 185719
+CREATION_DATETIME: 1354797022
+MODIFICATION_DATETIME: 1354797175
+TITLE: Re: Aufgabe 2b)
+TOPIC_ZOOM_TAG: value:Mathematik;weight:5.0;significance:7.78129583007672;degreegeneralization:5;uri:21976676
+TOPIC_ZOOM_TAG: value:Skalare;weight:3.0;significance:7.62512970914034;degreegeneralization:7;uri:19937424
+TOPIC_ZOOM_TAG: value:Vektoren;weight:2.0;significance:5.08341980609356;degreegeneralization:7;uri:19937441
+TOPIC_ZOOM_TAG: value:Naturwissenschaften;weight:5.0;significance:4.47398452196679;degreegeneralization:4;uri:21976710
+TOPIC_ZOOM_TAG: value:Natur;weight:5.0;significance:3.50221716465528;degreegeneralization:3;uri:21981878
+TOPIC_ZOOM_TAG: value:Natur, Mensch, Zivilisation und Umwelt;weight:5.0;significance:2.33768678480575;degreegeneralization:2;uri:21999711
+TOPIC_ZOOM_TAG: value:Wissenschaft, Technik und Verkehr;weight:5.0;significance:2.14883813624245;degreegeneralization:2;uri:21999813
+TOPIC_ZOOM_TAG: value:Hölle;weight:1.0;significance:2.06213084848712;degreegeneralization:6;uri:20910334
+TOPIC_ZOOM_TAG: value:Satan;weight:1.0;significance:1.86825073704949;degreegeneralization:5;uri:20910351
+TOPIC_ZOOM_TAG: value:Fiktionale Persönlichkeiten;weight:1.0;significance:1.54092064185769;degreegeneralization:3;uri:21970709
+TOPIC_ZOOM_TAG: value:Religion;weight:1.0;significance:0.916820531903616;degreegeneralization:3;uri:21993642
+TOPIC_ZOOM_TAG: value:Religion und Weltanschauung;weight:1.0;significance:0.854123200960664;degreegeneralization:2;uri:21310871
+PARENT_POSTING_ID: 185681
+CONTENT:
+Muss man denn jetzt noch addieren und mit einem Skalar multiplizieren? Laut Aufgabenstellung sollen wir das nicht unbedingt auf den Graph G beziehen, sondern allgemein fassen.
+Kann man da jetzt nicht einfach "Skalar * Vektor A ist immernoch ein Skalar * Vektor" und nichts anderes schreiben?Bin nicht sicher, ob wir die Vektoren überhaupt dafür nutzen sollen... Aber wie zur Hölle zeige ich, dass die abgeschlossen sind? :)
+TAGGED_CONTENT:
