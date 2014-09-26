@@ -25,7 +25,6 @@ import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
-import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 
 /**
  * 
@@ -88,23 +87,29 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 	/**
 	 * Configuration of person corpus import true | false | fallback
 	 */
-	private final String personOption;
-	/**
+	private String boardSpecificPersonCorpus;
+
+    /**
 	 * Saved courses of the last import. A map of id => course instance.
 	 */
 	private Map< Integer, Course > savedCourses;
 
 	/**
-	 * Create and prepare a new instance.
+	 * 
+	 * @param boardSpecificPersonCorpus
+	 * @return
 	 */
-	public MoodlePostgreSqlImportStrategy() {
-		this.personOption = ServiceFactory
-				.getConfigReader()
-				.fetchValue(
-						IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC )
-				.trim().toLowerCase();
-	}
-
+	public final MoodlePostgreSqlImportStrategy setBoardSpecificPersonCorpus(final String boardSpecificPersonCorpus) {
+	    if (null == boardSpecificPersonCorpus) {
+	        throw new NullPointerException("Null is not allowed as parameter value");
+	    }
+	    
+        this.boardSpecificPersonCorpus = boardSpecificPersonCorpus;
+        
+        return this;
+    }
+	
+	
 	@Override
 	/*
 	 * (non-Javadoc)
@@ -674,8 +679,8 @@ public class MoodlePostgreSqlImportStrategy extends AImportStrategy {
 			final PersonNameCorpus corpusInstance, final PersonNameType nameType )
 			throws GeneralLoggingException {
 		// fallback or true -> only read the course names course-based
-		if( this.personOption.equals( "fallback" )
-				|| this.personOption.equals( "true" ) ) {
+		if( this.boardSpecificPersonCorpus.equals( "fallback" )
+				|| this.boardSpecificPersonCorpus.equals( "true" ) ) {
 			// parse mdl_enrol.sql
 			final File userEnrolFile = new File( personCorpus, NAME_ENROLE_FILE );
 			if( !userEnrolFile.exists() || !userEnrolFile.isFile() ) {

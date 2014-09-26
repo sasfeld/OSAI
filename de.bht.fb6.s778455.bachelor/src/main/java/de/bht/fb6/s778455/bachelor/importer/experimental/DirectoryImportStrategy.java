@@ -25,7 +25,6 @@ import de.bht.fb6.s778455.bachelor.organization.Application;
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 import de.bht.fb6.s778455.bachelor.organization.FileUtil;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
-import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 
 /**
  * <p>
@@ -79,38 +78,98 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	private static final String PERSON_CORPUS_DIR = "namecorpora";
 	private static final String PERSON_CORPUS_PRENAME_FILE = "prenames.txt";
 	private static final String PERSON_CORPUS_LASTNAME_FILE = "lastnames.txt";
+	
 	protected String boardSpecificImport;
 	protected String encoding;
-	protected PersonNameCorpus personCorpus = null;
+	protected PersonNameCorpus personNameCorpus = null;
+	protected String prenamesFile;
+    protected String lastnamesFile;
+    protected boolean personCorpusInitialized = false;
 
+    
 	/**
-	 * Create and prepare a new DirectoryImportStrategy instance.
+	 * 
+	 * @param encoding
+	 * @return
+	 * @throws NullPointerException if null argument is given
 	 */
-	public DirectoryImportStrategy() {
-		this.boardSpecificImport = ServiceFactory.getConfigReader().fetchValue(
-				IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC );
-		this.encoding = ServiceFactory.getConfigReader().fetchValue(
-				IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_ENCODING );
-
-		if( ServiceFactory
-				.getConfigReader()
-				.fetchValue(
-						IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC )
-				.equals( "false" ) ) {
-			this.personCorpus = ServiceFactory.getPersonNameCorpusSingleton();
-			final String prenamesFile = ServiceFactory
-					.getConfigReader()
-					.fetchValue(
-							IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_NAMECORPUS_PRENAMES );
-			final String lastnamesFile = ServiceFactory
-					.getConfigReader()
-					.fetchValue(
-							IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_NAMECORPUS_LASTNAMES );
-			this.fillSingletonPersonCorpus( this.personCorpus, prenamesFile,
-					lastnamesFile );
-		}
-		// else: personCorpus = null
+	public DirectoryImportStrategy setEncoding(final String encoding)
+	{
+	    if (null == encoding) {
+	        throw new NullPointerException("Encoding must not be null.");
+	    }
+	    
+	    this.encoding = encoding;
+	    
+	    return this;
 	}
+	
+	/**
+	 * 
+	 * @param boardSpecificImport
+	 * @return
+	 * @throws NullPointerException if null argument is given
+	 */
+	public DirectoryImportStrategy setBoardSpecificImport(final String boardSpecificImport)
+	{
+	    if (null == boardSpecificImport) {
+            throw new NullPointerException("boardSpecificImport must not be null.");
+        }
+	    
+	    this.boardSpecificImport = boardSpecificImport;
+	    
+	    return this;
+	}
+	
+	/**
+	 * 
+	 * @param prenamesFile
+	 * @return
+	 * @throws NullPointerException if null argument is given
+	 */
+	public DirectoryImportStrategy setPrenamesFile(final String prenamesFile)
+	{
+	    if (null == prenamesFile) {
+            throw new NullPointerException("prenamesFile must not be null.");
+        }
+        
+        this.prenamesFile = prenamesFile;
+        
+        return this;
+	}
+	
+	/**
+     * 
+     * @param lastnamesFile
+     * @return
+     * @throws NullPointerException if null argument is given
+     */
+    public DirectoryImportStrategy setLastnamesFile(final String lastnamesFile)
+    {
+        if (null == lastnamesFile) {
+            throw new NullPointerException("lastnamesFile must not be null.");
+        }
+        
+        this.lastnamesFile = lastnamesFile;
+        
+        return this;
+    }
+    
+    /**
+     * 
+     * @param personNameCorpus
+     * @return
+     */
+    public DirectoryImportStrategy setPersonCorpus(final PersonNameCorpus personNameCorpus)
+    {
+        if (null == personNameCorpus) {
+            throw new NullPointerException("personNameCorpus must not be null.");
+        }
+        
+        this.personNameCorpus = personNameCorpus;
+        
+        return this;
+    }
 
 	/**
 	 * Fill the given personCorpus singleton by two *.txt files.
@@ -179,6 +238,8 @@ public class DirectoryImportStrategy extends AImportStrategy {
 	 */
 	public LmsCourseSet importBoardFromFile( final File inputFile )
 			throws GeneralLoggingException {
+	    this.importGlobalPersonCorpusIfConfigured();
+	    
 		// fully qualified name of this class + method to be printed in a log
 		final String fullyQualified = this.getClass() + ":importFromFile";
 
@@ -223,7 +284,14 @@ public class DirectoryImportStrategy extends AImportStrategy {
 		return courseSet;
 	}
 
-	/**
+	private void importGlobalPersonCorpusIfConfigured() {
+	    if (this.boardSpecificImport.equals("false")) {
+	        this.fillSingletonPersonCorpus( this.personNameCorpus, this.prenamesFile,
+                this.lastnamesFile );        
+	    }
+    }
+
+    /**
 	 * Fill all boards for the given {@link Course}.
 	 * 
 	 * @param course

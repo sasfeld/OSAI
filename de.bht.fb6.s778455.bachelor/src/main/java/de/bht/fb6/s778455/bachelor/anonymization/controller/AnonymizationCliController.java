@@ -7,12 +7,14 @@ import java.io.File;
 import java.util.Date;
 
 import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
+import de.bht.fb6.s778455.bachelor.exporter.ExportMethod;
 import de.bht.fb6.s778455.bachelor.exporter.experimental.DirectoryExportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
+import de.bht.fb6.s778455.bachelor.importer.ImportMethod;
 import de.bht.fb6.s778455.bachelor.importer.auditorium.AuditoriumImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.moodle.MoodlePostgreSqlImportStrategy;
-import de.bht.fb6.s778455.bachelor.importer.moodle.MoodleXmlImporterStrategy;
+import de.bht.fb6.s778455.bachelor.importer.moodle.MoodleXmlImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
@@ -28,34 +30,6 @@ import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
  * 
  */
 public class AnonymizationCliController {
-	/**
-	 * 
-	 * <p>
-	 * This enum contains the allowed import methods to be used.
-	 * </p>
-	 * 
-	 * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
-	 * @since 12.12.2013
-	 * 
-	 */
-	public enum ImportMethods {
-		POSTGREDUMP, FILESYSTEM, LUEBECK_XML, AUDITORIUM_DB, OLIVER_LUEBECK_XML
-	}
-
-	/**
-	 * 
-	 * <p>
-	 * This enum contains the allowed export methods that can be used.
-	 * </p>
-	 * 
-	 * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
-	 * @since 12.12.2013
-	 * 
-	 */
-	public enum ExportMethods {
-		FILESYSTEM,
-	}
-
 	private final File inputFile;
 	private final File outputFile;
 	private AImportStrategy importStrategy;
@@ -81,7 +55,7 @@ public class AnonymizationCliController {
 	 *         methods.
 	 */
 	public AnonymizationCliController( final File inputFile, final File outputFile,
-			final ImportMethods importMethod, final ExportMethods exportMethod )
+			final ImportMethod importMethod, final ExportMethod exportMethod )
 			throws InvalidConfigException {
 		if( null == inputFile || !inputFile.exists() ) {
 			throw new IllegalArgumentException(
@@ -97,15 +71,15 @@ public class AnonymizationCliController {
 		this.outputFile = outputFile;
 
 		// initialize import strategy
-		if( importMethod.equals( ImportMethods.POSTGREDUMP ) ) {
+		if( importMethod.equals( ImportMethod.POSTGREDUMP ) ) {
 			this.importStrategy = new MoodlePostgreSqlImportStrategy();
-		} else if( importMethod.equals( ImportMethods.FILESYSTEM ) ) {
+		} else if( importMethod.equals( ImportMethod.FILESYSTEM ) ) {
 			this.importStrategy = new DirectoryImportStrategy();
-		} else if( importMethod.equals( ImportMethods.LUEBECK_XML ) ) {
-			this.importStrategy = new MoodleXmlImporterStrategy();
-		} else if( importMethod.equals( ImportMethods.AUDITORIUM_DB ) ) {
+		} else if( importMethod.equals( ImportMethod.LUEBECK_XML ) ) {
+			this.importStrategy = new MoodleXmlImportStrategy();
+		} else if( importMethod.equals( ImportMethod.AUDITORIUM_DB ) ) {
 			this.importStrategy = new AuditoriumImportStrategy();
-		} else if( importMethod.equals(ImportMethods.OLIVER_LUEBECK_XML) ) {
+		} else if( importMethod.equals(ImportMethod.OLIVER_LUEBECK_XML) ) {
 			this.importStrategy = ServiceFactory.newOliverLuebeckStrategy();
 		} else {
 			throw new UnsupportedOperationException(
@@ -114,7 +88,7 @@ public class AnonymizationCliController {
 		}
 
 		// initialize export strategy
-		if( exportMethod.equals( ExportMethods.FILESYSTEM ) ) {
+		if( exportMethod.equals( ExportMethod.FILESYSTEM ) ) {
 			this.exportStrategy = new DirectoryExportStrategy();
 		} else {
 			throw new UnsupportedOperationException(
@@ -254,27 +228,27 @@ public class AnonymizationCliController {
 		} else if( null == importMethodString ) {
 			System.out
 					.println( "No import method given. The standard import method 'postgredump' will be used. You can append another method after the '-importMethod' key." );
-			importMethodString = ImportMethods.POSTGREDUMP.toString()
+			importMethodString = ImportMethod.POSTGREDUMP.toString()
 					.toLowerCase();
 		} else if( null == exportMethodString ) {
 			System.out
 					.println( "No export method given. The standard export method 'filesystem' will be used. You can append another export method after the '-exportMethod' key." );
-			exportMethodString = ExportMethods.FILESYSTEM.toString()
+			exportMethodString = ExportMethod.FILESYSTEM.toString()
 					.toLowerCase();
 		} else {
 			// check given methods
-			ImportMethods importMethod = null;
+			ImportMethod importMethod = null;
 			try {
-				importMethod = ImportMethods.valueOf( importMethodString );
+				importMethod = ImportMethod.valueOf( importMethodString );
 			} catch( final IllegalArgumentException e ) {
 				System.err
 						.println( "Wrong import method given. Allowed values are: 'postgredump' or 'fileystem'" );
 				return;
 			}
 
-			ExportMethods exportMethod = null;
+			ExportMethod exportMethod = null;
 			try {
-				exportMethod = ExportMethods.valueOf( exportMethodString );
+				exportMethod = ExportMethod.valueOf( exportMethodString );
 			} catch( final IllegalArgumentException e ) {
 				System.err
 						.println( "Wrong export method given. Allowed values are: 'fileystem'" );
@@ -291,7 +265,7 @@ public class AnonymizationCliController {
 				System.out.println( "Controller is initialized..." );
 				System.out.println( "Input file: " + inputFile );
 				System.out.println( "Output file: " + outputFile );
-				System.out.println( "Import method: " + importMethod + (importMethod.equals( ImportMethods.AUDITORIUM_DB ) ? "Make sure that you have configured the database connection in the anonymization.properties!" : ""));
+				System.out.println( "Import method: " + importMethod + (importMethod.equals( ImportMethod.AUDITORIUM_DB ) ? "Make sure that you have configured the database connection in the anonymization.properties!" : ""));
 				System.out.println( "Export method: " + exportMethod );
 				System.out.println();
 			} catch( UnsupportedOperationException | IllegalArgumentException

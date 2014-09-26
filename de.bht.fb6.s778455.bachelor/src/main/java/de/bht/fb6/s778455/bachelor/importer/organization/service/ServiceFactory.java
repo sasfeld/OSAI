@@ -8,7 +8,10 @@ import java.util.Collections;
 import java.util.Comparator;
 
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
+import de.bht.fb6.s778455.bachelor.importer.auditorium.AuditoriumImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy;
+import de.bht.fb6.s778455.bachelor.importer.moodle.MoodlePostgreSqlImportStrategy;
+import de.bht.fb6.s778455.bachelor.importer.moodle.MoodleXmlImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.moodle.OliverLuebeckStrategy;
 import de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader;
 import de.bht.fb6.s778455.bachelor.model.Board;
@@ -20,6 +23,7 @@ import de.bht.fb6.s778455.bachelor.model.PersonNameCorpus;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.model.tools.IdComparator;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
 import de.bht.fb6.s778455.bachelor.organization.xml.XmlExtractor;
 
@@ -35,7 +39,7 @@ public class ServiceFactory {
     
 	protected static IConfigReader configReader;
 	private static PersonNameCorpus personNameCorpus;
-	protected static DirectoryImportStrategy dirImportStrat;
+	protected static AImportStrategy dirImportStrat;
 	
 	/**
 	 * Get the singleton config reader.
@@ -65,7 +69,7 @@ public class ServiceFactory {
 	 */
 	public static AImportStrategy getDirectoryImportStrategy() {
 	    if(null == dirImportStrat) {
-	        dirImportStrat = new DirectoryImportStrategy();
+	        dirImportStrat = newDirectoryImportStrategy();
 	    }
 	    
 	    return dirImportStrat;
@@ -82,16 +86,6 @@ public class ServiceFactory {
        
        return instance;
     }
-
-    /**
-     * This fabric method creates a new instance of {@link OliverLuebeckStrategy}.
-     * Define additional creation logic here.
-     * @return
-     */
-	public static AImportStrategy newOliverLuebeckStrategy() {
-		OliverLuebeckStrategy strategy = new OliverLuebeckStrategy();
-		return strategy;
-	}
 
 	/**
 	 * Let the fabric method create a new instance of {@link Course}.
@@ -224,4 +218,97 @@ public class ServiceFactory {
 		IdComparator newComparator = new IdComparator();
 		return newComparator;
 	}
+	
+	/**
+	 * Return an instance of the auditorium db strategy. 
+	 * 
+	 * Inject dependencies and configuration values.
+	 * 
+	 * @return
+	 */
+	public static AImportStrategy newAuditoriumDbStrategy()
+	{
+	    // read DB connectivity from config
+        String host = ((ConfigReader) getConfigReader())
+                .getAuditoriumHost();
+        String user = ((ConfigReader) getConfigReader())
+                .getAuditoriumUser();
+        String pw = ((ConfigReader) getConfigReader())
+                .getAuditoriumPw();
+        String dbName = ((ConfigReader) getConfigReader())
+                .getAuditoriumDbName();        
+        
+	   AuditoriumImportStrategy auditoriumImportStrategy = new AuditoriumImportStrategy(
+	           host, user, pw, dbName);
+	   
+	   return auditoriumImportStrategy;
+	}
+	
+	/**
+	 * Return a new instance of DirectoryImportStrategy.
+	 * 
+	 * Inject all dependencies from config and the service factory.
+	 * 
+	 * @return
+	 */
+	public static AImportStrategy newDirectoryImportStrategy()
+	{
+	    DirectoryImportStrategy directoryImportStrategy = new DirectoryImportStrategy();
+	    
+	    // inject dependencies
+	    directoryImportStrategy.setBoardSpecificImport( getConfigReader().fetchValue(
+                IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC ));
+	    directoryImportStrategy.setEncoding( getConfigReader().fetchValue(
+                IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_ENCODING ));
+	    directoryImportStrategy.setPrenamesFile(getConfigReader()
+                    .fetchValue(
+                            IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_NAMECORPUS_PRENAMES ));
+	    directoryImportStrategy.setLastnamesFile(getConfigReader().fetchValue(
+                            IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_NAMECORPUS_LASTNAMES ));
+	    directoryImportStrategy.setPersonCorpus(getPersonNameCorpusSingleton());
+	    
+	    
+        return directoryImportStrategy;
+	}
+	
+	 /**
+     * This fabric method creates a new instance of {@link OliverLuebeckStrategy}.
+     * Define additional creation logic here.
+     * @return
+     */
+    public static AImportStrategy newOliverLuebeckStrategy() {
+        OliverLuebeckStrategy strategy = new OliverLuebeckStrategy();
+        return strategy;
+    }
+    
+    /**
+     * Return a new instance of MoodleXmlImporterStrategy.
+     * 
+     * Inject all dependencies from config and the service factory.
+     */
+    public static AImportStrategy newMoodleXmlStrategy()
+    {
+        MoodleXmlImportStrategy strategy = new MoodleXmlImportStrategy();
+        return strategy;        
+    }
+    
+    /**
+     * Return a new instance of MoodlePostgreSqlImportStrategy.
+     * 
+     * Inject all dependencies from config and the service factory.
+     * 
+     * @return
+     */
+    public static AImportStrategy newPostgreDumpStrategy()
+    {
+        MoodlePostgreSqlImportStrategy strategy = new MoodlePostgreSqlImportStrategy();
+        
+        // set config values
+        strategy.setBoardSpecificPersonCorpus(getConfigReader()
+                .fetchValue(
+                        IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC )
+                .trim().toLowerCase());
+        
+        return strategy;
+    }
 }
