@@ -11,7 +11,6 @@ import java.io.PrintWriter;
 import java.util.List;
 
 import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
-import de.bht.fb6.s778455.bachelor.exporter.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
@@ -19,7 +18,6 @@ import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
 import de.bht.fb6.s778455.bachelor.organization.FileUtil;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
-import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 
 /**
  * <p>
@@ -39,12 +37,26 @@ import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
  */
 public class DirectoryExportStrategy extends AExportStrategy {
 
-	private final String encoding;
+	protected String encoding;
 
-	public DirectoryExportStrategy() {
-		this.encoding = ServiceFactory.getConfigReader().fetchValue(
-				IConfigKeys.EXPORT_STRATEGY_DIRECTORYEXPORT_ENCODING );
-	}
+	
+	/**
+     * 
+     * @param encoding
+     * @return
+     * @throws NullPointerException if null argument is given
+     */
+    public DirectoryExportStrategy setEncoding(final String encoding)
+    {
+        if (null == encoding) {
+            throw new NullPointerException("Encoding must not be null.");
+        }
+        
+        this.encoding = encoding;
+        
+        return this;
+    }
+    
 
 	@Override
 	/*

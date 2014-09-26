@@ -9,7 +9,6 @@ import java.util.Map;
 import java.util.Set;
 
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
-import de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader;
 import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
@@ -35,6 +34,29 @@ public class AuditoriumImportStrategy extends AImportStrategy {
      * chosse a name which is valid in a URI.
      */
     public static final String COURSE_SET_NAME = "auditorium_dresden";
+    
+    protected final String host;
+    protected final String user;
+    protected final String pw;
+    protected final String dbName;
+    
+    /**
+     * Create a new strategy instance.
+     * 
+     * Hand in the SQL DB connectivity data.
+     * 
+     * @param host
+     * @param user
+     * @param pw
+     * @param dbName
+     */
+    public AuditoriumImportStrategy(final String host, final String user, final String pw, final String dbName)
+    {
+        this.host = host;
+        this.user = user;
+        this.pw = pw;
+        this.dbName = dbName;
+    }
 
     /*
      * (non-Javadoc)
@@ -61,19 +83,11 @@ public class AuditoriumImportStrategy extends AImportStrategy {
             throws GeneralLoggingException {
         final LmsCourseSet auditoriumCourseSet = new LmsCourseSet(
                 super.removeIllegalChars(COURSE_SET_NAME));
-        String host = ((ConfigReader) ServiceFactory.getConfigReader())
-                .getAuditoriumHost();
-        String user = ((ConfigReader) ServiceFactory.getConfigReader())
-                .getAuditoriumUser();
-        String pw = ((ConfigReader) ServiceFactory.getConfigReader())
-                .getAuditoriumPw();
-        String dbname = ((ConfigReader) ServiceFactory.getConfigReader())
-                .getAuditoriumDbName();
         
         // ignore input file. DB connection configured in the
         // importer.properties will be used
-        final AuditoriumDbQuerier querier = new AuditoriumDbQuerier(host, user,
-                pw, dbname);
+        final AuditoriumDbQuerier querier = new AuditoriumDbQuerier(this.host, this.user,
+                this.pw, this.dbName);
 
         final Map<Integer, Course> courseMap = querier
                 .fetchCourses(auditoriumCourseSet);
@@ -106,20 +120,11 @@ public class AuditoriumImportStrategy extends AImportStrategy {
     @Override
     public PersonNameCorpus fillFromFile(final File personCorpus,
             final PersonNameCorpus corpusInstance, final PersonNameType nameType)
-            throws GeneralLoggingException {
-        String host = ((ConfigReader) ServiceFactory.getConfigReader())
-                .getAuditoriumHost();
-        String user = ((ConfigReader) ServiceFactory.getConfigReader())
-                .getAuditoriumUser();
-        String pw = ((ConfigReader) ServiceFactory.getConfigReader())
-                .getAuditoriumPw();
-        String dbname = ((ConfigReader) ServiceFactory.getConfigReader())
-                .getAuditoriumDbName();
-        
+            throws GeneralLoggingException {        
         // ignore input file. DB connection configured in the
         // importer.properties will be used
-        final AuditoriumDbQuerier querier = new AuditoriumDbQuerier(host, user,
-                pw, dbname);
+        final AuditoriumDbQuerier querier = new AuditoriumDbQuerier(this.host, this.user,
+                this.pw, this.dbName);
 
         // fill prenames
         final Set<String> fetchedPrenames = querier.fetchPrenames();
