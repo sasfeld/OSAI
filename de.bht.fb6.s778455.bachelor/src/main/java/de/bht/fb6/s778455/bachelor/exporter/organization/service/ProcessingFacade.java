@@ -22,6 +22,8 @@ public class ProcessingFacade {
     /**
      * Process the export.
      * 
+     * This method should be only used when a special export (beside filesystem) method should be used.
+     * 
      * @param exportMethod
      * @param courseSet
      * @param outputFile
@@ -34,12 +36,22 @@ public class ProcessingFacade {
     }
     
     /**
-     * 
      * @param exportMethod
      * @return
      */
     public static String getStrategyClassName(final ExportMethod exportMethod) {
         AExportStrategy exportStrategy = StrategyRegistry.getExportStrategy(exportMethod);
         return exportStrategy.getClass().getName();
+    }
+
+    /**
+     * 
+     * @param courseSet
+     * @param outputFile
+     * @throws GeneralLoggingException
+     */
+    public static void processFileSystemExport(LmsCourseSet courseSet,
+            File outputFile) throws GeneralLoggingException {
+        processExport(ExportMethod.FILESYSTEM, courseSet, outputFile);        
     }
 }
