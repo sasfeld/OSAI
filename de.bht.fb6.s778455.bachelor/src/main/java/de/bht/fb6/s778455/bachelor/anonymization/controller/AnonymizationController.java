@@ -11,12 +11,9 @@ import java.util.List;
 
 import de.bht.fb6.s778455.bachelor.anonymization.Anonymizer;
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
-import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
-import de.bht.fb6.s778455.bachelor.exporter.experimental.DirectoryExportStrategy;
-import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
-import de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy;
-import de.bht.fb6.s778455.bachelor.importer.moodle.MoodleXmlImportStrategy;
-import de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader;
+import de.bht.fb6.s778455.bachelor.exporter.ExportMethod;
+import de.bht.fb6.s778455.bachelor.importer.ImportMethod;
+import de.bht.fb6.s778455.bachelor.importer.organization.service.ProcessingFacade;
 import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.Course;
@@ -43,67 +40,86 @@ public class AnonymizationController {
 	/**
 	 * Refers to the import module.
 	 */
-	protected AImportStrategy importStrategy;
-	protected File configuredDataFile;
-	protected File configuredExportFile;
-	private final AExportStrategy exportStrategy;
 	private final List< String > chainingKeys;
 	private final IConfigReader anonymConfigReader;
+	private ImportMethod importMethod;
+    private ExportMethod exportMethod;
+    private File importFile;
+    private File exportFile;
 
 	public AnonymizationController() throws InvalidConfigException {
-		this.importStrategy = ( ( ConfigReader ) ServiceFactory
-				.getConfigReader() ).getConfiguredImportStrategy();
-
-		this.anonymConfigReader = de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory
-				.getConfigReader();
-		if( this.importStrategy instanceof DirectoryImportStrategy ) {
-			this.configuredDataFile = new File(
-					ServiceFactory
-							.getConfigReader()
-							.fetchValue(
-									IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_DATAFOLDER ) );
-		} else if( this.importStrategy instanceof MoodleXmlImportStrategy ) {
-			this.configuredDataFile = new File( ServiceFactory
-					.getConfigReader().fetchValue(
-							IConfigKeys.IMPORT_STRATEGY_LUEBECK_DATA ) );
-		} else {
-			this.configuredDataFile = new File( ServiceFactory
-					.getConfigReader().fetchValue(
-							IConfigKeys.IMPORT_STRATEGY_POSTGRESQL_DUMPFOLDER ) );
-		}
-		this.chainingKeys = this.anonymConfigReader
-				.fetchMultipleValues( IConfigKeys.ANONYM_STRATEGY_CHAIN );
-		this.exportStrategy = ( ( de.bht.fb6.s778455.bachelor.exporter.organization.ConfigReader ) de.bht.fb6.s778455.bachelor.exporter.organization.service.ServiceFactory
-				.getConfigReader() ).getConfiguredExportStrategy();
-
-		if( this.exportStrategy instanceof DirectoryExportStrategy ) {
-			this.configuredExportFile = new File(
-					de.bht.fb6.s778455.bachelor.exporter.organization.service.ServiceFactory
-							.getConfigReader()
-							.fetchValue(
-									IConfigKeys.EXPORT_STRATEGY_DIRECTORYEXPORT_DATAFOLDER ) );
-		} else {
-			this.configuredExportFile = new File(
-					new File(
-							de.bht.fb6.s778455.bachelor.exporter.organization.service.ServiceFactory
-									.getConfigReader()
-									.fetchValue(
-											IConfigKeys.EXPORT_STRATEGY_SERIALIZED_DATAFOLDER ) ),
-					"serialized.ser" );
-		}
-
+	    this.anonymConfigReader = de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory
+                .getConfigReader();
+        this.chainingKeys = this.anonymConfigReader
+                .fetchMultipleValues( IConfigKeys.ANONYM_STRATEGY_CHAIN );
 	}
-
-	public AnonymizationController( final AImportStrategy importStrategy,
-			final AExportStrategy exportStrategy ) throws InvalidConfigException {
-		this.importStrategy = importStrategy;
-		this.exportStrategy = exportStrategy;
-
-		this.anonymConfigReader = de.bht.fb6.s778455.bachelor.anonymization.organization.service.ServiceFactory
-				.getConfigReader();
-		this.chainingKeys = this.anonymConfigReader
-				.fetchMultipleValues( IConfigKeys.ANONYM_STRATEGY_CHAIN );
+	
+	/**
+	 * 
+	 * @param importMethod
+	 * @return
+	 * @throws NullPointerException
+	 */
+	public AnonymizationController setImportMethod(ImportMethod importMethod)
+	{
+	    if (null == importMethod) {
+	        throw new NullPointerException("importMethod must not be null.");
+	    }
+	    
+	    this.importMethod = importMethod;
+	    
+	    return this;
 	}
+	
+	/**
+	 * 
+	 * @param exportMethod
+	 * @return
+	 * @throws NullPointerException
+	 */
+	public AnonymizationController setExportMethod(ExportMethod exportMethod)
+    {
+	    if (null == exportMethod) {
+            throw new NullPointerException("exportMethod must not be null.");
+        }
+	    
+        this.exportMethod = exportMethod;
+        
+        return this;
+    }
+	
+	/**
+     * 
+     * @param exportMethod
+     * @return
+     * @throws NullPointerException
+     */
+    public AnonymizationController setImportFile(File importFile)
+    {
+        if (null == importFile) {
+            throw new NullPointerException("importFile must not be null.");
+        }
+        
+        this.importFile = importFile;
+        
+        return this;
+    }
+    /**
+     * 
+     * @param exportMethod
+     * @return
+     * @throws NullPointerException
+     */
+    public AnonymizationController setExportFile(File exportFile)
+    {
+        if (null == exportFile) {
+            throw new NullPointerException("exportFile must not be null.");
+        }
+        
+        this.exportFile = exportFile;
+        
+        return this;
+    }
 
 	/**
 	 * Perform the anonymization pipeline. The job will be started here.
@@ -207,8 +223,7 @@ public class AnonymizationController {
 	public void performAnonymizationAnalysis() throws GeneralLoggingException {
 		final long startTime = new Date().getTime();
 		System.out.println( "starting import..." );
-		final LmsCourseSet rawCourses = this.importStrategy
-				.importBoardFromFile( this.configuredDataFile );
+		final LmsCourseSet rawCourses = ProcessingFacade.processImport(this.importMethod, this.importFile);
 		System.out.println( "import successful" );
 		System.out.println();
 		System.out.println( "starting anonymization..." );
@@ -218,8 +233,7 @@ public class AnonymizationController {
 		System.out.println( "anonymization successful" );
 		System.out.println( "Starting export..." );
 		final long elapsedTime = new Date().getTime() - startTime;
-		this.exportStrategy.exportToFile( anonymizedCourses,
-				this.configuredExportFile );
+		de.bht.fb6.s778455.bachelor.exporter.organization.service.ProcessingFacade.processExport(this.exportMethod, anonymizedCourses, this.exportFile);
 		System.out.println();
 		System.out.println( "Export successfull" );
 		System.out.println( this.getStatistics( anonymizedCourses, elapsedTime ) );
@@ -235,9 +249,83 @@ public class AnonymizationController {
 			final long elapsedTime ) {
 		final StringBuilder statisticsBuilder = new StringBuilder();
 
-		statisticsBuilder.append( "Import strategy: "
-				+ this.importStrategy.getClass() + "\n" );
-		if( this.importStrategy instanceof DirectoryImportStrategy ) {
+		addImportStatistics(statisticsBuilder);
+		addAnonymizationStatistics(anonymizedCourses, statisticsBuilder);
+		addExportStatistics(statisticsBuilder);		
+		addGeneralStatistics(anonymizedCourses, elapsedTime, statisticsBuilder);
+
+		return statisticsBuilder.toString();
+	}
+
+	/**
+	 * 	
+	 * @param anonymizedCourses
+	 * @param elapsedTime
+	 * @param statisticsBuilder
+	 */
+    protected void addGeneralStatistics(final LmsCourseSet anonymizedCourses,
+            final long elapsedTime, final StringBuilder statisticsBuilder) {
+        final AStatisticsBuilder generalBuilder = new GeneralStatisticsBuilder();
+		statisticsBuilder.append( generalBuilder.buildStatistics( anonymizedCourses ).toString() + "\n" );
+		
+		statisticsBuilder.append( "Elapsed time (s): " + elapsedTime / 1000
+				+ "\n" );
+    }
+
+    /**
+     * 
+     * @param statisticsBuilder
+     */
+    protected void addExportStatistics(final StringBuilder statisticsBuilder) {
+        statisticsBuilder.append( "Export strategy: "
+				+ de.bht.fb6.s778455.bachelor.exporter.organization.service.ProcessingFacade.getStrategyClassName(this.exportMethod) + "\n" );
+		if( this.exportMethod.equals(ExportMethod.FILESYSTEM) ) {
+			statisticsBuilder
+					.append( "Used encoding of export files: "
+							+ de.bht.fb6.s778455.bachelor.exporter.organization.service.ServiceFactory
+									.getConfigReader()
+									.fetchValue(
+											IConfigKeys.EXPORT_STRATEGY_DIRECTORYEXPORT_ENCODING )
+							+ "\n" );
+		}
+    }
+
+    /**
+     * 
+     * @param anonymizedCourses
+     * @param statisticsBuilder
+     */
+    protected void addAnonymizationStatistics(
+            final LmsCourseSet anonymizedCourses,
+            final StringBuilder statisticsBuilder) {
+        for( final Course course : anonymizedCourses ) {
+			if( ServiceFactory
+					.getConfigReader()
+					.fetchValue(
+							IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC )
+					.equals( "true" )
+					|| ServiceFactory
+							.getConfigReader()
+							.fetchValue(
+									IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC )
+							.equals( "fallback" ) ) {
+				statisticsBuilder
+						.append( "Course specific name corpus for course: "
+								+ course.getTitle() + "\n" );
+				statisticsBuilder.append( course.getPersonNameCorpus() + "\n" );
+			}			
+			
+		}
+    }
+
+    /**
+     * 
+     * @param statisticsBuilder
+     */
+    protected void addImportStatistics(final StringBuilder statisticsBuilder) {
+        statisticsBuilder.append( "Import strategy: "
+				+ ProcessingFacade.getStrategyClassName(this.importMethod) + "\n" );
+		if( this.importMethod.equals(ImportMethod.FILESYSTEM) ) {
 			statisticsBuilder
 					.append( "Used encoding of input files: "
 							+ ServiceFactory
@@ -266,45 +354,7 @@ public class AnonymizationController {
 							+ ServiceFactory.getPersonNameCorpusSingleton()
 									.getLastnames().size() + "\n" );
 		}
-		for( final Course course : anonymizedCourses ) {
-			if( ServiceFactory
-					.getConfigReader()
-					.fetchValue(
-							IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC )
-					.equals( "true" )
-					|| ServiceFactory
-							.getConfigReader()
-							.fetchValue(
-									IConfigKeys.IMPORT_STRATEGY_NAMECORPUS_BOARDSPECIFIC )
-							.equals( "fallback" ) ) {
-				statisticsBuilder
-						.append( "Course specific name corpus for course: "
-								+ course.getTitle() + "\n" );
-				statisticsBuilder.append( course.getPersonNameCorpus() + "\n" );
-			}			
-			
-		}
-
-		statisticsBuilder.append( "Export strategy: "
-				+ this.exportStrategy.getClass() + "\n" );
-		if( this.exportStrategy instanceof DirectoryExportStrategy ) {
-			statisticsBuilder
-					.append( "Used encoding of export files: "
-							+ de.bht.fb6.s778455.bachelor.exporter.organization.service.ServiceFactory
-									.getConfigReader()
-									.fetchValue(
-											IConfigKeys.EXPORT_STRATEGY_DIRECTORYEXPORT_ENCODING )
-							+ "\n" );
-		}
-		
-		final AStatisticsBuilder generalBuilder = new GeneralStatisticsBuilder();
-		statisticsBuilder.append( generalBuilder.buildStatistics( anonymizedCourses ).toString() + "\n" );
-		
-		statisticsBuilder.append( "Elapsed time (s): " + elapsedTime / 1000
-				+ "\n" );
-
-		return statisticsBuilder.toString();
-	}
+    }
 
 	public static void main( final String[] args ) throws GeneralLoggingException {
 		final AnonymizationController controller = new AnonymizationController();
