@@ -72,7 +72,7 @@ public class ConfigReaderTest extends NoLoggingTest {
 		final Map< String, String > configValues = this.configReader.fetchValues();
 		
 		// assert size -> force the devloper to check this test before he manipulates the configuration
-		assertEquals( 579, configValues.size() );
+		assertEquals( 578, configValues.size() );
 		
 		// assert properties' keys
 		assertTrue( configValues.containsKey( IConfigKeys.ANONYM_NER_GERMAN_DEWAC_FILE ) );

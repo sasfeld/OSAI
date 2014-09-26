@@ -72,10 +72,10 @@ public class LuebeckXmlImporterStrategyTest extends NoLoggingTest {
         assertEquals(12, courseMap.size());
 
         for (final Course c : courseMap.values()) {
-            assertEquals(3, c.getBoards().size());
+            assertEquals(6, c.getBoards().size());
 
             for (final Board board : c.getBoards()) {
-                assertEquals(4, board.getBoardThreads().size());              
+                assertEquals(0, board.getBoardThreads().size());              
 
                 for (final BoardThread thread : board.getBoardThreads()) {
                     assertEquals(1, thread.getPostings().size());              
