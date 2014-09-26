@@ -20,6 +20,9 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 public class ProcessingFacade {       
     
     /** 
+     * This method should be used when new raw data should be imported (e.g. from a database or moodle export).
+     * 
+     * This is the first step in the processing pipeline.
      * @param importMethod
      * @param inputFile
      * @return
@@ -31,6 +34,20 @@ public class ProcessingFacade {
     {
         AImportStrategy strategy = StrategyRegistry.getImportStrategy(importMethod);
         return strategy.importBoardFromFile(inputFile);       
+    }
+    
+    /**
+     * This method should be used when the data was already preprocessed before (e.g.: after anonymization).
+     * 
+     * Then the preprocessed data is loaded from the filesystem.
+     * 
+     * @param inputFile
+     * @return
+     * @throws GeneralLoggingException 
+     */
+    public static LmsCourseSet importFromFileSystem(final File inputFile) throws GeneralLoggingException
+    {
+        return processImport(ImportMethod.FILESYSTEM, inputFile);
     }
     
     /**

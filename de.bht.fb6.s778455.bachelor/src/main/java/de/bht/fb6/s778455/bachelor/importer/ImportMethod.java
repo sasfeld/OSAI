@@ -38,7 +38,7 @@ public enum ImportMethod
 	public static String getAllowedInputParameters()
 	{
 	  // be lazy and generate the parameters string only once
-	  if (null != allowedInputParameters) {
+	  if (null == allowedInputParameters) {
 	    // fetch all enum values
 	    ImportMethod[] importMethods = values();
 	    String[] allowedParameters = new String[importMethods.length];

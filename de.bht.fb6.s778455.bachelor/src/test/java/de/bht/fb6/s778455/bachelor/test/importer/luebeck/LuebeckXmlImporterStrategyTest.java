@@ -14,7 +14,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import de.bht.fb6.s778455.bachelor.importer.moodle.MoodleXmlImporterStrategy;
+import de.bht.fb6.s778455.bachelor.importer.moodle.MoodleXmlImportStrategy;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
@@ -23,7 +23,7 @@ import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 
 /**
  * <p>
- * This class contains tests of the {@link MoodleXmlImporterStrategy}.
+ * This class contains tests of the {@link MoodleXmlImportStrategy}.
  * </p>
  * 
  * @author <a href="mailto:sascha.feldmann@gmx.de">Sascha Feldmann</a>
@@ -34,14 +34,14 @@ public class LuebeckXmlImporterStrategyTest extends NoLoggingTest {
     protected static final File IMPORT_FOLDER = new File(
             PATH_UNITTEST_DATA_FOLDER + "/importer/moodle/moodle_backup_function");
     
-    private MoodleXmlImporterStrategy strategy;
+    private MoodleXmlImportStrategy strategy;
 
     /**
      * @throws java.lang.Exception
      */
     @Before
     public void setUp() throws Exception {
-        this.strategy = new MoodleXmlImporterStrategy();
+        this.strategy = new MoodleXmlImportStrategy();
     }
 
     /**
@@ -59,7 +59,7 @@ public class LuebeckXmlImporterStrategyTest extends NoLoggingTest {
     public void testImportCourses() throws NoSuchMethodException,
             SecurityException, IllegalAccessException,
             IllegalArgumentException, InvocationTargetException {
-        final Method method = MoodleXmlImporterStrategy.class
+        final Method method = MoodleXmlImportStrategy.class
                 .getDeclaredMethod("importCourses", File.class,
                         LmsCourseSet.class);
         method.setAccessible(true);

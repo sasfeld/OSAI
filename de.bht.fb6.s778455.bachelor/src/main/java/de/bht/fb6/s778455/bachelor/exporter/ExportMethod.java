@@ -29,7 +29,7 @@ public enum ExportMethod {
     public static String getAllowedInputParameters()
     {
       // be lazy and generate the parameters string only once
-      if (null != allowedInputParameters) {
+      if (null == allowedInputParameters) {
         // fetch all enum values
         ExportMethod[] exportMethods = values();
         String[] allowedParameters = new String[exportMethods.length];
