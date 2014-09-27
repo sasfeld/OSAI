@@ -9,7 +9,7 @@ import java.util.Date;
 import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
 import de.bht.fb6.s778455.bachelor.exporter.ExportMethod;
 import de.bht.fb6.s778455.bachelor.importer.ImportMethod;
-import de.bht.fb6.s778455.bachelor.importer.organization.service.ProcessingFacade;
+import de.bht.fb6.s778455.bachelor.importer.organization.service.ImportProcessingFacade;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
@@ -101,7 +101,7 @@ public class AnonymizationCliController {
      * @throws GeneralLoggingException
      */
     public boolean performImport() throws GeneralLoggingException {
-        this.rawCourses = ProcessingFacade.processImport(this.importMethod,
+        this.rawCourses = ImportProcessingFacade.processImport(this.importMethod,
                 this.inputFile);
         this.numberImportedCourses = this.rawCourses.size();
 
@@ -146,7 +146,7 @@ public class AnonymizationCliController {
                     "performExport() must be called after performAnonymization()! Maybe the anonymization wasn't succesful.");
         }
 
-        de.bht.fb6.s778455.bachelor.exporter.organization.service.ProcessingFacade
+        de.bht.fb6.s778455.bachelor.exporter.organization.service.ExportProcessingFacade
                 .processExport(this.exportMethod, this.anonymizedCourses,
                         this.outputFile);
 

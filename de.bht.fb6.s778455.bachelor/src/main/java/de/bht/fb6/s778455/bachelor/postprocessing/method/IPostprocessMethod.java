@@ -4,7 +4,7 @@
 package de.bht.fb6.s778455.bachelor.postprocessing.method;
 
 import de.bht.fb6.s778455.bachelor.anonymization.controller.AnonymizationController;
-import de.bht.fb6.s778455.bachelor.importer.organization.service.ProcessingFacade;
+import de.bht.fb6.s778455.bachelor.importer.organization.service.ImportProcessingFacade;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.semantic.extraction.controller.SemanticExtractionController;
 
@@ -18,7 +18,7 @@ import de.bht.fb6.s778455.bachelor.semantic.extraction.controller.SemanticExtrac
 public interface IPostprocessMethod 
 {
     /**
-     * Triggered within the {@link ProcessingFacade} of the Import module, after the import was done and a new 
+     * Triggered within the {@link ImportProcessingFacade} of the Import module, after the import was done and a new 
      * {@link LmsCourseSet} was generated.
      */
     void afterImport();

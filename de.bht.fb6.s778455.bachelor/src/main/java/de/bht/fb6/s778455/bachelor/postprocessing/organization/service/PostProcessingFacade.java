@@ -16,7 +16,7 @@ import de.bht.fb6.s778455.bachelor.postprocessing.method.IPostprocessMethod;
  * @since 27.09.2014
  *
  */
-public class ProcessingFacade
+public class PostProcessingFacade
 {
 
     /**
@@ -30,7 +30,7 @@ public class ProcessingFacade
      * @param postProcessEvents
      * @param lmsCourseSet
      */
-    public void triggerEvent(PostProcessEvents postProcessEvents, LmsCourseSet lmsCourseSet)
+    public static void triggerEvent(PostProcessEvents postProcessEvents, LmsCourseSet lmsCourseSet)
     {
         PostprocessEvent newEvent = ServiceFactory.newPostProcessEvent(postProcessEvents, lmsCourseSet);
         ServiceFactory.getEventManager().triggerEvent(newEvent);

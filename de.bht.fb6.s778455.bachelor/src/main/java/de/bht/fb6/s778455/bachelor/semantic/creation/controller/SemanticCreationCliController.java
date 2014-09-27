@@ -6,7 +6,7 @@ package de.bht.fb6.s778455.bachelor.semantic.creation.controller;
 import java.io.File;
 import java.util.Date;
 
-import de.bht.fb6.s778455.bachelor.importer.organization.service.ProcessingFacade;
+import de.bht.fb6.s778455.bachelor.importer.organization.service.ImportProcessingFacade;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
@@ -64,7 +64,7 @@ public class SemanticCreationCliController {
             throw new IllegalStateException( "Import was already performed!" );
         }      
 
-        this.importedCourses = ProcessingFacade.importFromFileSystem(this.inputFile);
+        this.importedCourses = ImportProcessingFacade.importFromFileSystem(this.inputFile);
 
         return true;
     }

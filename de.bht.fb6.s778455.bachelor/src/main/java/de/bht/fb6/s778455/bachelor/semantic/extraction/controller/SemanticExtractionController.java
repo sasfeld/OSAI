@@ -19,6 +19,8 @@ import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
+import de.bht.fb6.s778455.bachelor.postprocessing.manager.PostprocessEvent.PostProcessEvents;
+import de.bht.fb6.s778455.bachelor.postprocessing.organization.service.PostProcessingFacade;
 import de.bht.fb6.s778455.bachelor.semantic.extraction.AExtractionStrategy;
 import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.ner.EnglishNerExtractionStrategy;
 import de.bht.fb6.s778455.bachelor.semantic.extraction.nlp.ner.GermanNerExtractionStrategy;
@@ -471,8 +473,20 @@ public class SemanticExtractionController {
             }
         }
 
+        // trigger postprocessing event - afterSemanticExtraction() method of configured IPostprocessingMethod instances will be called
+        triggerAfterSemanticExtractionEvent(inputCourses);
+        
         // strategies only fill models attributes
         return inputCourses;
+    }
+    
+    /**
+     * Trigger the after_extraction event.
+     * @see module Postprocessing
+     */
+    protected static void triggerAfterSemanticExtractionEvent(LmsCourseSet lmsCourseSet)
+    {
+        PostProcessingFacade.triggerEvent(PostProcessEvents.AFTER_SEMANTIC_EXTRACTION, lmsCourseSet);
     }
 
     private void performExtraction( final Course course,

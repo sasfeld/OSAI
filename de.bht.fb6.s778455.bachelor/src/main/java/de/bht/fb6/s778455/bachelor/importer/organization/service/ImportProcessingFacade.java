@@ -9,6 +9,8 @@ import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.ImportMethod;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
+import de.bht.fb6.s778455.bachelor.postprocessing.manager.PostprocessEvent.PostProcessEvents;
+import de.bht.fb6.s778455.bachelor.postprocessing.organization.service.PostProcessingFacade;
 
 /**
  * <p>This facade class is the central facade for accessing the process that this module is designed for.</p>
@@ -17,7 +19,7 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
  * @since 26.09.2014
  *
  */
-public class ProcessingFacade {       
+public class ImportProcessingFacade {       
     
     /** 
      * This method should be used when new raw data should be imported (e.g. from a database or moodle export).
@@ -33,7 +35,11 @@ public class ProcessingFacade {
     public static LmsCourseSet processImport(final ImportMethod importMethod, final File inputFile) throws GeneralLoggingException 
     {
         AImportStrategy strategy = StrategyRegistry.getImportStrategy(importMethod);
-        return strategy.importBoardFromFile(inputFile);       
+        LmsCourseSet importedCourseSet = strategy.importBoardFromFile(inputFile);
+        // trigger postprocessing event - afterImport() method of configured IPostprocessingMethod instances will be called
+        triggerAfterImportEvent(importedCourseSet);
+        
+        return importedCourseSet;       
     }
     
     /**
@@ -59,5 +65,14 @@ public class ProcessingFacade {
     {
         AImportStrategy strategy = StrategyRegistry.getImportStrategy(importMethod);
         return strategy.getClass().getName();
+    }
+    
+    /**
+     * Trigger the after_import event.
+     * @see module Postprocessing
+     */
+    protected static void triggerAfterImportEvent(LmsCourseSet lmsCourseSet)
+    {
+        PostProcessingFacade.triggerEvent(PostProcessEvents.AFTER_IMPORT, lmsCourseSet);
     }
 }
