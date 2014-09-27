@@ -72,14 +72,14 @@ public class MethodDelegator implements Observer
             }
             
             // call afterImport() method on event after_import
-            if (PostProcessEvents.AFTER_ANONYMIZATION.equals(eventName)) {
-                iPostprocessMethod.afterAnonymization();
+            if (PostProcessEvents.AFTER_IMPORT.equals(eventName)) {
+                iPostprocessMethod.afterImport();
                 continue;
             }
             
             // call afterSemanticExtraction() method on event after_semantic_extraction
-            if (PostProcessEvents.AFTER_ANONYMIZATION.equals(eventName)) {
-                iPostprocessMethod.afterAnonymization();
+            if (PostProcessEvents.AFTER_SEMANTIC_EXTRACTION.equals(eventName)) {
+                iPostprocessMethod.afterSemanticExtraction();
                 continue;
             }            
         }

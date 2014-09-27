@@ -37,7 +37,7 @@ public class ConfigReader extends APropertiesConfigReader
      * Path to the anonymization.properties file.
      */
     public static final String PATH_POSTPROCESSING_PROPERTIES = PATH_CONFIG
-            + "importer.properties";
+            + "postprocessing.properties";
 
     /**
      * Create a new special config reader for the importer module.
@@ -48,6 +48,18 @@ public class ConfigReader extends APropertiesConfigReader
     public ConfigReader()
     {
         super(new File(PATH_POSTPROCESSING_PROPERTIES));
+    }
+    
+    /**
+     * Create a new config reader with a special config file.
+     * 
+     * Should be used by unittests.
+     * 
+     * @param configFile
+     */
+    public ConfigReader(File configFile)
+    {
+        super(configFile);
     }
 
     /**

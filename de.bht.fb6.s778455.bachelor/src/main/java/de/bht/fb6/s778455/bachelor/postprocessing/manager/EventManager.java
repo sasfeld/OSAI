@@ -3,10 +3,7 @@
  */
 package de.bht.fb6.s778455.bachelor.postprocessing.manager;
 
-import java.util.HashSet;
-import java.util.Observer;
 import java.util.Observable;
-import java.util.Set;
 
 import de.bht.fb6.s778455.bachelor.organization.IService;
 
@@ -22,35 +19,7 @@ import de.bht.fb6.s778455.bachelor.organization.IService;
 public class EventManager extends Observable implements IService
 {
     public static String SERVICE_NAME = "postprocess_event_manager";    
-    protected Set<Observer> observers;
     
-    public EventManager()
-    {
-        this.initializeObservers();
-    }
-    
-    protected void initializeObservers()
-    {
-        this.observers = new HashSet<>();
-    }
-    
-    /**
-     * Add an observer.
-     * @param observer
-     */
-    public void addObserver( Observer observer ) 
-    {
-       this.observers.add(observer);
-    }
-    
-    /**
-     * Remove an observer.
-     * @param observer
-     */
-    public void removeObserver( Observer observer ) 
-    {
-      this.observers.remove(observer);
-    }
 
     @Override
     /*
@@ -61,17 +30,6 @@ public class EventManager extends Observable implements IService
     {
         return SERVICE_NAME;
     }
-    
-    /**
-     * Notify observers.
-     * @param event
-     */
-    public void notifyObservers(PostprocessEvent event )
-    {
-        for (Observer observer : this.observers) {
-            observer.update(this, event);
-        }
-    }
  
     /**
      * Trigger an event.
@@ -79,6 +37,7 @@ public class EventManager extends Observable implements IService
      */
     public void triggerEvent( PostprocessEvent event ) 
     {
+        this.setChanged();
         this.notifyObservers(event);
     }
 

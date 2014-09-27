@@ -3,6 +3,7 @@
  */
 package de.bht.fb6.s778455.bachelor.test.framework;
 
+import de.bht.fb6.s778455.bachelor.organization.APropertiesConfigReader;
 import de.bht.fb6.s778455.bachelor.organization.IService;
 import de.bht.fb6.s778455.bachelor.organization.ServiceLocalisable;
 import de.bht.fb6.s778455.bachelor.organization.ServicesCache;
@@ -18,6 +19,9 @@ import de.bht.fb6.s778455.bachelor.test.framework.service.UnitTestServiceFactory
  * 
  */
 public class UnitTest {
+    protected static final String PATH_UNITTEST_DATA_FOLDER = "./data/unittest";
+    protected static final String PATH_UNITTEST_CONFIG_FOLDER = APropertiesConfigReader.PATH_CONFIG_UNITTEST;
+    
     protected static boolean bootstrapped = false;
     
     

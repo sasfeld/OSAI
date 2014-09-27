@@ -16,7 +16,6 @@ import de.bht.fb6.s778455.bachelor.organization.Application;
  * 
  */
 public abstract class NoLoggingTest extends UnitTest {
-    protected static final String PATH_UNITTEST_DATA_FOLDER = "./data/unittest";
 
     public NoLoggingTest() 
     {
