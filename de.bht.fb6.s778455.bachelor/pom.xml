@@ -72,6 +72,11 @@ This software includes the anonymization of person entities in  postings of a bo
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
 		</dependency>
+		<dependency>
+			<groupId>de.blum.nlp.preprocess</groupId>
+			<artifactId>pet</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 
