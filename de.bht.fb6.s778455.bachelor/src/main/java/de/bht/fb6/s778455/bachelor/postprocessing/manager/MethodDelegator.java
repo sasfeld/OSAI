@@ -8,6 +8,7 @@ import java.util.Observer;
 import java.util.Set;
 
 import de.bht.fb6.s778455.bachelor.postprocessing.manager.PostprocessEvent.PostProcessEvents;
+import de.bht.fb6.s778455.bachelor.postprocessing.method.AbstractPostprocessMethod;
 import de.bht.fb6.s778455.bachelor.postprocessing.method.IPostprocessMethod;
 import de.bht.fb6.s778455.bachelor.postprocessing.organization.ConfigReader;
 import de.bht.fb6.s778455.bachelor.postprocessing.organization.service.ServiceFactory;
@@ -61,6 +62,9 @@ public class MethodDelegator implements Observer
         Set<IPostprocessMethod> methods = this.getMethodsForEvent(eventName);
         
         for (IPostprocessMethod iPostprocessMethod : methods) {
+            // set the LmsCourseSetInstance on the postprocess event attached to this event
+            ((AbstractPostprocessMethod) iPostprocessMethod).setLmsCourseSet(event.getLmsCourseSet());
+            
             // call afterAnonymization() method on event after_anonymization
             if (PostProcessEvents.AFTER_ANONYMIZATION.equals(eventName)) {
                 iPostprocessMethod.afterAnonymization();

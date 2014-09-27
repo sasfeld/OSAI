@@ -21,7 +21,7 @@ import de.bht.fb6.s778455.bachelor.organization.IService;
  */
 public class EventManager extends Observable implements IService
 {
-    protected static String SERVICE_NAME = "event_manager";    
+    public static String SERVICE_NAME = "postprocess_event_manager";    
     protected Set<Observer> observers;
     
     public EventManager()
