@@ -11,9 +11,11 @@ import de.bht.fb6.s778455.bachelor.postprocessing.manager.EventManager;
 import de.bht.fb6.s778455.bachelor.postprocessing.manager.MethodDelegator;
 import de.bht.fb6.s778455.bachelor.postprocessing.manager.PostprocessEvent;
 import de.bht.fb6.s778455.bachelor.postprocessing.manager.PostprocessEvent.PostProcessEvents;
+import de.bht.fb6.s778455.bachelor.postprocessing.method.HyperlinkFilter;
 import de.bht.fb6.s778455.bachelor.postprocessing.method.IPostprocessMethod;
 import de.bht.fb6.s778455.bachelor.postprocessing.method.JavaCodeFilter;
 import de.bht.fb6.s778455.bachelor.postprocessing.organization.ConfigReader;
+import de.blum.nlp.filter.Filter;
 
 /**
  * <p>ServiceFactory for the postprocessing module.</p>
@@ -97,5 +99,15 @@ public class ServiceFactory
         newEvent.setEvent(postProcessEvents);
         
         return newEvent;
+    }
+
+    /**
+     * Factory method for creating an {@link HyperlinkFilter} which adapts to a {@link Filter} instance.
+     * @return
+     */
+    public static IPostprocessMethod newHyperlinkFilter()
+    {
+        HyperlinkFilter codeFilter = new HyperlinkFilter();
+        return codeFilter;
     } 
 }

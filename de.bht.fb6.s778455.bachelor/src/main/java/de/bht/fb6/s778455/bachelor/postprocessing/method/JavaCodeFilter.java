@@ -3,12 +3,8 @@
  */
 package de.bht.fb6.s778455.bachelor.postprocessing.method;
 
-import de.bht.fb6.s778455.bachelor.model.Board;
-import de.bht.fb6.s778455.bachelor.model.BoardThread;
-import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
-import de.blum.nlp.filter.Filter;
 
 /**
  * <p>This class works as adapter for the JavaCodeFilter class of Oliver Blum.</p>
@@ -20,18 +16,9 @@ import de.blum.nlp.filter.Filter;
  * @since 27.09.2014
  *
  */
-public class JavaCodeFilter extends AbstractPostprocessMethod
-{
-    /**
-     * Olivers Filter instance.
-     */
-    protected Filter javaCodeFilter;
-    
-    public JavaCodeFilter()
-    {
-        this.initializeFilter();
-    }
-    
+public class JavaCodeFilter extends AbstractOliverFilterAdapter
+{    
+   
     protected void initializeFilter()
     {
         this.javaCodeFilter = new de.blum.nlp.filter.JavaCodeFilter();        
@@ -46,30 +33,16 @@ public class JavaCodeFilter extends AbstractPostprocessMethod
        this.removeJavaCodesInPostings();
     }
 
-    /**
-     * Iterate through model hierarchy.
+    @Override
+    /*
+     * (non-Javadoc)
+     * @see de.bht.fb6.s778455.bachelor.postprocessing.method.AbstractOliverFilterAdapter#applyFurtherFilters(java.lang.String)
      */
-    private void removeJavaCodesInPostings()
+    protected String applyFurtherFilters(String filteredContent)
     {
-        for (Course course : this.getLmsCourseSet()) {
-            for (Board board : course.getBoards()) {
-                for (BoardThread boardThread : board.getBoardThreads()) {
-                    for (Posting posting : boardThread.getPostings()) {
-                        this.removeJavaCodeInContent(posting);
-                    }
-                }
-            }
-        }        
+        return filteredContent;
     }
 
-    /**
-     * Apply Olivers filter and set the filtered content.
-     * @param userContribution
-     */
-    private void removeJavaCodeInContent(Posting userContribution)
-    {
-        String filteredContent = this.javaCodeFilter.remove(userContribution.getContent());        
-        userContribution.setContent(filteredContent);        
-    }
+  
 
 }
