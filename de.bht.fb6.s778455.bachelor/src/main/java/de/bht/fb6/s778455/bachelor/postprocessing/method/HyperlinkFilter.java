@@ -3,6 +3,8 @@
  */
 package de.bht.fb6.s778455.bachelor.postprocessing.method;
 
+import java.util.regex.Pattern;
+
 import de.bht.fb6.s778455.bachelor.model.Posting;
 
 /**
@@ -36,9 +38,10 @@ public class HyperlinkFilter extends AbstractOliverFilterAdapter
     @Override
     protected String applyFurtherFilters(String filteredContent)
     {
-       String replacedReplacementTags = filteredContent.replaceAll(OLIVER_LINK_REPLACEMENT_TAG, IReplacementTags.HYPERLINK_REPLACEMENT_TAG);
+       String replacedReplacementTags = filteredContent.replaceAll(Pattern.quote(OLIVER_LINK_REPLACEMENT_TAG), IReplacementTags.HYPERLINK_REPLACEMENT_TAG);
        
        return replacedReplacementTags;
     }
 
 }
+    
