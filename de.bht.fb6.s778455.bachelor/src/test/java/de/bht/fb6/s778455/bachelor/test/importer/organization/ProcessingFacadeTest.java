@@ -15,7 +15,7 @@ import de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy
 import de.bht.fb6.s778455.bachelor.importer.moodle.MoodlePostgreSqlImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.moodle.MoodleXmlImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.moodle.OliverLuebeckStrategy;
-import de.bht.fb6.s778455.bachelor.importer.organization.service.ProcessingFacade;
+import de.bht.fb6.s778455.bachelor.importer.organization.service.ImportProcessingFacade;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
@@ -38,7 +38,7 @@ public class ProcessingFacadeTest extends NoLoggingTest {
      */
     public void testProcessImport() throws GeneralLoggingException 
     {
-        LmsCourseSet courseSet = ProcessingFacade.importFromFileSystem(IMPORT_FOLDER);
+        LmsCourseSet courseSet = ImportProcessingFacade.importFromFileSystem(IMPORT_FOLDER);
         
         // only make sure that the course set is filled
         assertTrue(courseSet.size() > 0);
@@ -50,23 +50,23 @@ public class ProcessingFacadeTest extends NoLoggingTest {
     public void testGestStrategyName() 
     {
         // DirectoryImportStrategy
-        String resultName = ProcessingFacade.getStrategyClassName(ImportMethod.FILESYSTEM);        
+        String resultName = ImportProcessingFacade.getStrategyClassName(ImportMethod.FILESYSTEM);        
         assertEquals(DirectoryImportStrategy.class.getName(), resultName);
         
         // AuditoriumImportStrategy
-        resultName = ProcessingFacade.getStrategyClassName(ImportMethod.AUDITORIUM_DB);        
+        resultName = ImportProcessingFacade.getStrategyClassName(ImportMethod.AUDITORIUM_DB);        
         assertEquals(AuditoriumImportStrategy.class.getName(), resultName);        
         
         // MoodleXmlImportStrategy
-        resultName = ProcessingFacade.getStrategyClassName(ImportMethod.LUEBECK_XML);        
+        resultName = ImportProcessingFacade.getStrategyClassName(ImportMethod.LUEBECK_XML);        
         assertEquals(MoodleXmlImportStrategy.class.getName(), resultName);
         
         // OliverLuebeckStrategy
-        resultName = ProcessingFacade.getStrategyClassName(ImportMethod.OLIVER_LUEBECK_XML);        
+        resultName = ImportProcessingFacade.getStrategyClassName(ImportMethod.OLIVER_LUEBECK_XML);        
         assertEquals(OliverLuebeckStrategy.class.getName(), resultName);
         
         // MoodlePostgreSqlImportStrategy
-        resultName = ProcessingFacade.getStrategyClassName(ImportMethod.POSTGREDUMP);        
+        resultName = ImportProcessingFacade.getStrategyClassName(ImportMethod.POSTGREDUMP);        
         assertEquals(MoodlePostgreSqlImportStrategy.class.getName(), resultName);      
         
     }

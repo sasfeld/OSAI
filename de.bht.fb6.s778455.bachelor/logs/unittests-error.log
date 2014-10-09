@@ -812,3 +812,57 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 48   [main] ERROR de.bht.fb6.s778455.bachelor.importer.auditorium.AuditoriumDbQuerier  - Invalid URL in auditorium: 
 48   [main] ERROR de.bht.fb6.s778455.bachelor.importer.auditorium.AuditoriumDbQuerier  - Invalid URL in auditorium: 
 48   [main] ERROR de.bht.fb6.s778455.bachelor.importer.auditorium.AuditoriumDbQuerier  - Invalid URL in auditorium: 
+0    [main] FATAL root  - de.bht.fb6.s778455.bachelor.organization.APropertiesConfigReader.getConfiguredClass(): the instanciation of the given configured class (given value: anonym.ner.german.strategy.class) was not successfull. Either it doesn't exist or doesn't extend the given class. Or the constructor raises an exception. Full exception: 
+java.lang.reflect.InvocationTargetException
+28   [main] FATAL root  - class de.bht.fb6.s778455.bachelor.anonymization.organization.ConfigReader:fetchMultipleValues: the given config key (doesntexist) doesn't point to a list of values.
+15165 [main] FATAL root  - class de.bht.fb6.s778455.bachelor.exporter.experimental.DirectoryExportStrategy:exportToFile: the given outputFile (a directory) (value: C:\g2\bachelor_sources\de.bht.fb6.s778455.bachelor\.\data\unittest\exporter\file_system_test) doesn't exist.
+17611 [main] FATAL root  - class de.bht.fb6.s778455.bachelor.importer.auditorium.AuditoriumDbQuerier:initializeConnection(): couldn't open connection. Original exception:
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+19631 [main] FATAL root  - class de.bht.fb6.s778455.bachelor.importer.auditorium.AuditoriumDbQuerier:initializeConnection(): couldn't open connection. Original exception:
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+24381 [main] FATAL root  - de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader.getImportStrategy(): the instanciation of the given configured class (given value: de.bht.fb6.s778455.bachelor.importer.moodle.MoodleXmlImporterStrategy) was not successfull. Either it doesn't exist or doesn't extend AImportStrategy. Full exception: 
+java.lang.ClassNotFoundException: de.bht.fb6.s778455.bachelor.importer.moodle.MoodleXmlImporterStrategy
+0    [main] FATAL root  - class de.bht.fb6.s778455.bachelor.anonymization.organization.ConfigReader:fetchMultipleValues: the given config key (doesntexist) doesn't point to a list of values.
+0    [main] FATAL root  - de.bht.fb6.s778455.bachelor.organization.APropertiesConfigReader.getConfiguredClass(): the instanciation of the given configured class (given value: anonym.ner.german.strategy.class) was not successfull. Either it doesn't exist or doesn't extend the given class. Or the constructor raises an exception. Full exception: 
+java.lang.reflect.InvocationTargetException
+29   [main] FATAL root  - class de.bht.fb6.s778455.bachelor.anonymization.organization.ConfigReader:fetchMultipleValues: the given config key (doesntexist) doesn't point to a list of values.
+15148 [main] FATAL root  - class de.bht.fb6.s778455.bachelor.exporter.experimental.DirectoryExportStrategy:exportToFile: the given outputFile (a directory) (value: C:\g2\bachelor_sources\de.bht.fb6.s778455.bachelor\.\data\unittest\exporter\file_system_test) doesn't exist.
+17621 [main] FATAL root  - class de.bht.fb6.s778455.bachelor.importer.auditorium.AuditoriumDbQuerier:initializeConnection(): couldn't open connection. Original exception:
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+19653 [main] FATAL root  - class de.bht.fb6.s778455.bachelor.importer.auditorium.AuditoriumDbQuerier:initializeConnection(): couldn't open connection. Original exception:
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+24027 [main] FATAL root  - de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader.getImportStrategy(): the instanciation of the given configured class (given value: de.bht.fb6.s778455.bachelor.importer.moodle.MoodleXmlImporterStrategy) was not successfull. Either it doesn't exist or doesn't extend AImportStrategy. Full exception: 
+java.lang.ClassNotFoundException: de.bht.fb6.s778455.bachelor.importer.moodle.MoodleXmlImporterStrategy
+0    [main] FATAL root  - de.bht.fb6.s778455.bachelor.importer.organization.ConfigReader.getImportStrategy(): the instanciation of the given configured class (given value: de.bht.fb6.s778455.bachelor.importer.moodle.MoodleXmlImporterStrategy) was not successfull. Either it doesn't exist or doesn't extend AImportStrategy. Full exception: 
+java.lang.ClassNotFoundException: de.bht.fb6.s778455.bachelor.importer.moodle.MoodleXmlImporterStrategy
+0    [main] FATAL root  - class de.bht.fb6.s778455.bachelor.anonymization.organization.ConfigReader:fetchMultipleValues: the given config key (doesntexist) doesn't point to a list of values.
+0    [main] FATAL root  - class de.bht.fb6.s778455.bachelor.exporter.experimental.DirectoryExportStrategy:exportToFile: the given outputFile (a directory) (value: C:\g2\bachelor_sources\de.bht.fb6.s778455.bachelor\.\data\unittest\exporter\file_system_test) doesn't exist.
+0    [main] FATAL root  - de.bht.fb6.s778455.bachelor.organization.APropertiesConfigReader.getConfiguredClass(): the instanciation of the given configured class (given value: anonym.ner.german.strategy.class) was not successfull. Either it doesn't exist or doesn't extend the given class. Or the constructor raises an exception. Full exception: 
+java.lang.reflect.InvocationTargetException
+24   [main] FATAL root  - class de.bht.fb6.s778455.bachelor.anonymization.organization.ConfigReader:fetchMultipleValues: the given config key (doesntexist) doesn't point to a list of values.
+18512 [main] FATAL root  - class de.bht.fb6.s778455.bachelor.importer.auditorium.AuditoriumDbQuerier:initializeConnection(): couldn't open connection. Original exception:
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+20544 [main] FATAL root  - class de.bht.fb6.s778455.bachelor.importer.auditorium.AuditoriumDbQuerier:initializeConnection(): couldn't open connection. Original exception:
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+1    [main] FATAL root  - class de.bht.fb6.s778455.bachelor.anonymization.organization.ConfigReader:fetchMultipleValues: the given config key (doesntexist) doesn't point to a list of values.
+0    [main] FATAL root  - .\data\unittestconfigtest\postprocessing.properties (Das System kann den angegebenen Pfad nicht finden)
+6    [main] FATAL root  - class de.bht.fb6.s778455.bachelor.postprocessing.organization.ConfigReader:fetchMultipleValues: the given config key (postprocessing.event.after_import) doesn't point to a list of values.
+9    [main] ERROR de.bht.fb6.s778455.bachelor.postprocessing.organization.ConfigReader  - Could not add PostProcessMethods for the given event (configured in postprocessing.properties): postprocessing.event.after_import. Please make sure to apply the correct class names (comma-separated) or an empty value.
+9    [main] FATAL root  - class de.bht.fb6.s778455.bachelor.postprocessing.organization.ConfigReader:fetchMultipleValues: the given config key (postprocessing.event.after_anonymization) doesn't point to a list of values.
+9    [main] ERROR de.bht.fb6.s778455.bachelor.postprocessing.organization.ConfigReader  - Could not add PostProcessMethods for the given event (configured in postprocessing.properties): postprocessing.event.after_anonymization. Please make sure to apply the correct class names (comma-separated) or an empty value.
+9    [main] FATAL root  - class de.bht.fb6.s778455.bachelor.postprocessing.organization.ConfigReader:fetchMultipleValues: the given config key (postprocessing.event.after_extraction) doesn't point to a list of values.
+9    [main] ERROR de.bht.fb6.s778455.bachelor.postprocessing.organization.ConfigReader  - Could not add PostProcessMethods for the given event (configured in postprocessing.properties): postprocessing.event.after_extraction. Please make sure to apply the correct class names (comma-separated) or an empty value.
+22   [main] FATAL root  - .\data\unittestconfigtest\postprocessing.properties (Das System kann den angegebenen Pfad nicht finden)
+25   [main] FATAL root  - .\data\unittestconfigtest\postprocessing.properties (Das System kann den angegebenen Pfad nicht finden)

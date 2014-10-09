@@ -138,4 +138,11 @@ public interface IConfigKeys {
     String UNITTEST_IMPORT_STRATEGY_AUDITORIUM_DB_USER = "unittest.import.strategy.auditorium.db.user";
     String UNITTEST_IMPORT_STRATEGY_AUDITORIUM_DB_PW = "unittest.import.strategy.auditorium.db.password";
     String UNITTEST_IMPORT_STRATEGY_AUDITORIUM_DB_DBNAME = "unittest.import.strategy.auditorium.db.dbname";
+    
+    /*
+     * postprocessing module
+     */
+    String POSTPROCESSING_EVENT_AFTER_IMPORT = "postprocessing.event.after_import";
+    String POSTPROCESSING_EVENT_AFTER_ANONYMIZATION = "postprocessing.event.after_anonymization";
+    String POSTPROCESSING_EVENT_AFTER_SEMANTIC_EXTRACTION = "postprocessing.event.after_extraction";
 }

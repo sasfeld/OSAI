@@ -7,7 +7,7 @@ import java.io.File;
 import java.util.Date;
 
 import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
-import de.bht.fb6.s778455.bachelor.importer.organization.service.ProcessingFacade;
+import de.bht.fb6.s778455.bachelor.importer.organization.service.ImportProcessingFacade;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Language;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
@@ -61,7 +61,7 @@ public class SemanticExtractionCliController {
      * @throws GeneralLoggingException
      */
     public boolean performImport() throws GeneralLoggingException {
-        this.rawCourses = ProcessingFacade.importFromFileSystem(this.inputFile);
+        this.rawCourses = ImportProcessingFacade.importFromFileSystem(this.inputFile);
         this.numberImportedCourses = this.rawCourses.size();
 
         return true;
@@ -102,7 +102,7 @@ public class SemanticExtractionCliController {
                     "performExport() must be called after performAnonymization()! Maybe the anonymization wasn't succesful." );
         }
 
-        de.bht.fb6.s778455.bachelor.exporter.organization.service.ProcessingFacade.processFileSystemExport(this.enrichedCourses, this.outputFile);
+        de.bht.fb6.s778455.bachelor.exporter.organization.service.ExportProcessingFacade.processFileSystemExport(this.enrichedCourses, this.outputFile);
 
         return true;
     }

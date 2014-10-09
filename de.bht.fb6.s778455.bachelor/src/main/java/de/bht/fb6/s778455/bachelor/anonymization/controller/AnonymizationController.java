@@ -13,7 +13,7 @@ import de.bht.fb6.s778455.bachelor.anonymization.Anonymizer;
 import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
 import de.bht.fb6.s778455.bachelor.exporter.ExportMethod;
 import de.bht.fb6.s778455.bachelor.importer.ImportMethod;
-import de.bht.fb6.s778455.bachelor.importer.organization.service.ProcessingFacade;
+import de.bht.fb6.s778455.bachelor.importer.organization.service.ImportProcessingFacade;
 import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.Course;
@@ -22,6 +22,8 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
+import de.bht.fb6.s778455.bachelor.postprocessing.manager.PostprocessEvent.PostProcessEvents;
+import de.bht.fb6.s778455.bachelor.postprocessing.organization.service.PostProcessingFacade;
 import de.bht.fb6.s778455.bachelor.statistics.AStatisticsBuilder;
 import de.bht.fb6.s778455.bachelor.statistics.GeneralStatisticsBuilder;
 
@@ -197,8 +199,20 @@ public class AnonymizationController {
 			}
 		}
 
+		// trigger postprocessing event - afterAnonymization() method of configured IPostprocessingMethod instances will be called
+        triggerAfterAnonymizationEvent(courses);
+        
 		return courses;
 	}
+	
+	 /**
+     * Trigger the after_anonymization event.
+     * @see module Postprocessing
+     */
+    protected static void triggerAfterAnonymizationEvent(LmsCourseSet lmsCourseSet)
+    {
+        PostProcessingFacade.triggerEvent(PostProcessEvents.AFTER_ANONYMIZATION, lmsCourseSet);
+    }
 
 	/**
 	 * Anonymize boards using the given anonymizer.
@@ -223,7 +237,7 @@ public class AnonymizationController {
 	public void performAnonymizationAnalysis() throws GeneralLoggingException {
 		final long startTime = new Date().getTime();
 		System.out.println( "starting import..." );
-		final LmsCourseSet rawCourses = ProcessingFacade.processImport(this.importMethod, this.importFile);
+		final LmsCourseSet rawCourses = ImportProcessingFacade.processImport(this.importMethod, this.importFile);
 		System.out.println( "import successful" );
 		System.out.println();
 		System.out.println( "starting anonymization..." );
@@ -233,7 +247,7 @@ public class AnonymizationController {
 		System.out.println( "anonymization successful" );
 		System.out.println( "Starting export..." );
 		final long elapsedTime = new Date().getTime() - startTime;
-		de.bht.fb6.s778455.bachelor.exporter.organization.service.ProcessingFacade.processExport(this.exportMethod, anonymizedCourses, this.exportFile);
+		de.bht.fb6.s778455.bachelor.exporter.organization.service.ExportProcessingFacade.processExport(this.exportMethod, anonymizedCourses, this.exportFile);
 		System.out.println();
 		System.out.println( "Export successfull" );
 		System.out.println( this.getStatistics( anonymizedCourses, elapsedTime ) );
@@ -278,7 +292,7 @@ public class AnonymizationController {
      */
     protected void addExportStatistics(final StringBuilder statisticsBuilder) {
         statisticsBuilder.append( "Export strategy: "
-				+ de.bht.fb6.s778455.bachelor.exporter.organization.service.ProcessingFacade.getStrategyClassName(this.exportMethod) + "\n" );
+				+ de.bht.fb6.s778455.bachelor.exporter.organization.service.ExportProcessingFacade.getStrategyClassName(this.exportMethod) + "\n" );
 		if( this.exportMethod.equals(ExportMethod.FILESYSTEM) ) {
 			statisticsBuilder
 					.append( "Used encoding of export files: "
@@ -324,7 +338,7 @@ public class AnonymizationController {
      */
     protected void addImportStatistics(final StringBuilder statisticsBuilder) {
         statisticsBuilder.append( "Import strategy: "
-				+ ProcessingFacade.getStrategyClassName(this.importMethod) + "\n" );
+				+ ImportProcessingFacade.getStrategyClassName(this.importMethod) + "\n" );
 		if( this.importMethod.equals(ImportMethod.FILESYSTEM) ) {
 			statisticsBuilder
 					.append( "Used encoding of input files: "

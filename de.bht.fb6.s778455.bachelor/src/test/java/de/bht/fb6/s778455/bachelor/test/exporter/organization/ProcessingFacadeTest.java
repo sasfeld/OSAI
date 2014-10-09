@@ -12,7 +12,7 @@ import org.junit.Test;
 
 import de.bht.fb6.s778455.bachelor.exporter.ExportMethod;
 import de.bht.fb6.s778455.bachelor.exporter.experimental.DirectoryExportStrategy;
-import de.bht.fb6.s778455.bachelor.exporter.organization.service.ProcessingFacade;
+import de.bht.fb6.s778455.bachelor.exporter.organization.service.ExportProcessingFacade;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 import de.bht.fb6.s778455.bachelor.test.framework.service.ImportFactory;
@@ -33,7 +33,7 @@ public class ProcessingFacadeTest extends NoLoggingTest {
      * Also tests processExport().
      */
     public void testProcessFileSystemExport() throws GeneralLoggingException {
-       ProcessingFacade.processFileSystemExport(ImportFactory.newDummyCourseSet(), EXPORT_FOLDER);
+       ExportProcessingFacade.processFileSystemExport(ImportFactory.newDummyCourseSet(), EXPORT_FOLDER);
        
        assertTrue(EXPORT_FOLDER.listFiles().length > 0);
     }
@@ -42,7 +42,7 @@ public class ProcessingFacadeTest extends NoLoggingTest {
     public void testGestStrategyName() 
     {
         // DirectoryExportStrategy
-        String resultName = ProcessingFacade.getStrategyClassName(ExportMethod.FILESYSTEM);        
+        String resultName = ExportProcessingFacade.getStrategyClassName(ExportMethod.FILESYSTEM);        
         assertEquals(DirectoryExportStrategy.class.getName(), resultName);   
         
     }

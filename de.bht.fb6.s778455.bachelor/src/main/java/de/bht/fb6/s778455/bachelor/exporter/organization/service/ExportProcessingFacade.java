@@ -17,7 +17,7 @@ import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
  * @since 26.09.2014
  *
  */
-public class ProcessingFacade {
+public class ExportProcessingFacade {
 
     /**
      * Process the export.
