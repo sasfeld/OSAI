@@ -7,8 +7,7 @@ import java.io.File;
 import java.util.Date;
 
 import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
-import de.bht.fb6.s778455.bachelor.exporter.experimental.DirectoryExportStrategy;
-import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
+import de.bht.fb6.s778455.bachelor.importer.organization.service.ImportProcessingFacade;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.Language;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
@@ -33,8 +32,6 @@ public class SemanticExtractionCliController {
     protected File inputFile;
     protected File outputFile;
 
-    protected AImportStrategy importStrategy;
-    protected AExportStrategy exportStrategy;
     protected LmsCourseSet rawCourses;
     protected LmsCourseSet enrichedCourses;
 
@@ -55,9 +52,6 @@ public class SemanticExtractionCliController {
 
         this.inputFile = finputFile;
         this.outputFile = foutputFile;
-
-        this.importStrategy = new de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy();
-        this.exportStrategy = new DirectoryExportStrategy();
     }
 
     /**
@@ -67,8 +61,7 @@ public class SemanticExtractionCliController {
      * @throws GeneralLoggingException
      */
     public boolean performImport() throws GeneralLoggingException {
-        this.rawCourses = this.importStrategy
-                .importBoardFromFile( this.inputFile );
+        this.rawCourses = ImportProcessingFacade.importFromFileSystem(this.inputFile);
         this.numberImportedCourses = this.rawCourses.size();
 
         return true;
@@ -109,8 +102,7 @@ public class SemanticExtractionCliController {
                     "performExport() must be called after performAnonymization()! Maybe the anonymization wasn't succesful." );
         }
 
-        this.exportStrategy
-                .exportToFile( this.enrichedCourses, this.outputFile );
+        de.bht.fb6.s778455.bachelor.exporter.organization.service.ExportProcessingFacade.processFileSystemExport(this.enrichedCourses, this.outputFile);
 
         return true;
     }
@@ -150,11 +142,7 @@ public class SemanticExtractionCliController {
     }
 
     public static void main( final String[] args ) {
-        System.out.println( "..:: Semantic extraction tool ::.." );
-        System.out.println( "Welcome!" );
-        System.out.println( "" );
-        System.out.println( "Append --help for a help text." );
-        System.out.println( "" );
+        showWelcomeText();
 
         // read args
         int ind = 0;
@@ -187,37 +175,115 @@ public class SemanticExtractionCliController {
         }
 
         // validate
-        if( null == inputFile ) {
-            System.err
-                    .println( "No inputFile given. Please give a fully qualified path after the '-inputFile' key." );
-        } else if( null == outputFile ) {
-            System.err
-                    .println( "No outputtFile given. Please give a fully qualified path after the '-outputFile' key." );
+        if (!validateInputParameters(inputFile, outputFile)) {
+            return;
         }
 
         // instantiate files and controller
         final File finputFile = new File( inputFile );
         final File foutputFile = new File( outputFile );
 
-        if( !finputFile.exists() ) {
-            System.err
-                    .println( "The given inputFile doesn't exist: "
-                            + inputFile
-                            + ". Make sure that you appended the correct file and retry." );
-        } else if( !foutputFile.exists() ) {
-            System.err
-                    .println( "The given outputFile doesn't exist: "
-                            + outputFile
-                            + ". Make sure that you appended the correct file and retry." );
+        if (!validateFiles(inputFile, outputFile, finputFile, foutputFile)) {
+            return;
         }
 
-        final String lang = forceLang.trim().toLowerCase();
-        if( !lang.equals( "" ) && null == Language.getFromString( lang ) ) {
-            System.err.println( "The given language doesn't exist: " + lang
-                    + ". Make sure to use one of these options: "
-                    + Language.values() );
+        final String lang = validateLanguage(forceLang);
+        
+        if (null == lang) {
+            return;
         }
 
+        SemanticExtractionCliController controller = initializeController(
+                inputFile, outputFile, statisticsMode, finputFile, foutputFile,
+                lang);
+        
+        if (null == controller) {
+            return;
+        }
+
+        // perform import
+        if (!performImport(controller)) {
+            return;
+        }
+
+        // perform extraction
+        if( !statisticsMode ) {
+            if (!performExtraction(controller)) {
+                return;
+            }
+
+            if (!performExport(controller)) {
+                return;
+            }
+        } else {
+            showIncreasedStatistics(controller);
+        }
+
+        showFinalStatisticsAndGoodbye(controller);
+    }
+
+    protected static void showFinalStatisticsAndGoodbye(
+            SemanticExtractionCliController controller) {
+        System.out.println( controller.getStatistics( true ) );
+        System.out
+                .println( "See the posting files saved in your outputFolder. The postings are now enriched with tags and stuff.\n\n" );
+        System.out.println( "Goodbye :)" );
+    }
+
+    protected static void showIncreasedStatistics(
+            SemanticExtractionCliController controller) {
+        System.out.println( controller
+                .getTagAndLangStatistics( controller.rawCourses ) );
+    }
+
+    protected static boolean performExport(
+            SemanticExtractionCliController controller) {
+        // perform export
+        try {
+            System.out.println( "Starting export..." );
+            controller.performExport();
+        } catch( final GeneralLoggingException e ) {
+            System.err.println( "An error occured: "
+                    + e.getLocalizedMessage() );
+            return false;
+        }
+        System.out.println( "Export was successfull!\n\n" );
+        return true;
+    }
+
+    protected static boolean performExtraction(
+            SemanticExtractionCliController controller) {
+        try {
+            // statistics
+            System.out.println( controller.getStatistics( false ) );
+
+            System.out.println( "Starting extraction...\n\n" );
+            controller.performExtraction();
+        } catch( final GeneralLoggingException e ) {
+            System.err.println( "An error occured: "
+                    + e.getLocalizedMessage() );
+            return false;
+        }
+        System.out.println( "Extraction was successfull!\n\n" );
+        return true;
+    }
+
+    protected static boolean performImport(
+            SemanticExtractionCliController controller) {
+        try {
+            System.out.println( "Starting import...\n\n" );
+            controller.performImport();
+        } catch( final GeneralLoggingException e ) {
+            System.err.println( "An error occured: " + e.getLocalizedMessage() );
+            return false;
+        }
+        System.out.println( "Import was successfull!\n\n" );
+        return true;
+    }
+
+    protected static SemanticExtractionCliController initializeController(
+            String inputFile, String outputFile, boolean statisticsMode,
+            final File finputFile, final File foutputFile, final String lang) {
         SemanticExtractionCliController controller = null;
         try {
             controller = new SemanticExtractionCliController( finputFile,
@@ -235,53 +301,61 @@ public class SemanticExtractionCliController {
         } catch( final InvalidConfigException e ) {
             System.err.println( "Controller couldn't get initialized. Error: "
                     + e.getLocalizedMessage() );
-            return;
+            return null;
         }
+        return controller;
+    }
 
-        // perform import
-        try {
-            System.out.println( "Starting import...\n\n" );
-            controller.performImport();
-        } catch( final GeneralLoggingException e ) {
-            System.err.println( "An error occured: " + e.getLocalizedMessage() );
-            return;
+    protected static String validateLanguage(String forceLang) {
+        final String lang = forceLang.trim().toLowerCase();
+        if( !lang.equals( "" ) && null == Language.getFromString( lang ) ) {
+            System.err.println( "The given language doesn't exist: " + lang
+                    + ". Make sure to use one of these options: "
+                    + Language.values() );
+            return null;
         }
-        System.out.println( "Import was successfull!\n\n" );
+        return lang;
+    }
 
-        // perform extraction
-        if( !statisticsMode ) {
-            try {
-                // statistics
-                System.out.println( controller.getStatistics( false ) );
-
-                System.out.println( "Starting extraction...\n\n" );
-                controller.performExtraction();
-            } catch( final GeneralLoggingException e ) {
-                System.err.println( "An error occured: "
-                        + e.getLocalizedMessage() );
-                return;
-            }
-            System.out.println( "Extraction was successfull!\n\n" );
-
-            // perform export
-            try {
-                System.out.println( "Starting export..." );
-                controller.performExport();
-            } catch( final GeneralLoggingException e ) {
-                System.err.println( "An error occured: "
-                        + e.getLocalizedMessage() );
-                return;
-            }
-            System.out.println( "Export was successfull!\n\n" );
-        } else {
-            System.out.println( controller
-                    .getTagAndLangStatistics( controller.rawCourses ) );
+    protected static boolean validateFiles(String inputFile, String outputFile,
+            final File finputFile, final File foutputFile) {
+        if( !finputFile.exists() ) {
+            System.err
+                    .println( "The given inputFile doesn't exist: "
+                            + inputFile
+                            + ". Make sure that you appended the correct file and retry." );
+            return false;
+        } else if( !foutputFile.exists() ) {
+            System.err
+                    .println( "The given outputFile doesn't exist: "
+                            + outputFile
+                            + ". Make sure that you appended the correct file and retry." );
+            return false;
         }
+        return true;
+    }
 
-        System.out.println( controller.getStatistics( true ) );
-        System.out
-                .println( "See the posting files saved in your outputFolder. The postings are now enriched with tags and stuff.\n\n" );
-        System.out.println( "Goodbye :)" );
+    protected static boolean validateInputParameters(String inputFile,
+            String outputFile) {
+        if( null == inputFile ) {
+            System.err
+                    .println( "No inputFile given. Please give a fully qualified path after the '-inputFile' key." );
+            return false;
+        } else if( null == outputFile ) {
+            System.err
+                    .println( "No outputtFile given. Please give a fully qualified path after the '-outputFile' key." );
+            return false;
+        }
+        
+        return true;
+    }
+
+    protected static void showWelcomeText() {
+        System.out.println( "..:: Semantic extraction tool ::.." );
+        System.out.println( "Welcome!" );
+        System.out.println( "" );
+        System.out.println( "Append --help for a help text." );
+        System.out.println( "" );
     }
 
     private void setForcedLanguage( final Language valueOf ) {

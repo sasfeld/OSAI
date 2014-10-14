@@ -20,6 +20,7 @@ import org.junit.Test;
 
 import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
 import de.bht.fb6.s778455.bachelor.exporter.experimental.DirectoryExportStrategy;
+import de.bht.fb6.s778455.bachelor.exporter.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
@@ -72,12 +73,12 @@ public class DirectoyExportStrategyTest extends NoLoggingTest {
      */
     @Before
     public void setUp() throws Exception {
-        this.exportStrategy = new DirectoryExportStrategy();
+        this.exportStrategy = ServiceFactory.newDirectoryExportStrategy();
 
         this.testFolder = EXPORT_FOLDER;
         
         if (!this.testFolder.exists()) {
-            this.testFolder.mkdir();
+            this.testFolder.mkdirs();
         }
         this.testFolder.setWritable(true);
         this.testFolder.setReadable(true);

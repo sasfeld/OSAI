@@ -72,12 +72,10 @@ public class ConfigReaderTest extends NoLoggingTest {
 		final Map< String, String > configValues = this.configReader.fetchValues();
 		
 		// assert size -> force the devloper to check this test before he manipulates the configuration
-		assertEquals( 14, configValues.size() );
+		assertEquals( 9, configValues.size() );
 		
 		// assert properties' keys
 		assertTrue( configValues.containsKey( IConfigKeys.IMPORT_STRATEGY_CLASS) );
-		assertTrue( configValues.containsKey( IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_DATAFOLDER) );
-		assertTrue( configValues.containsKey( IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_TESTFOLDER) );
 		assertTrue( configValues.containsKey( IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_NAMECORPUS_PRENAMES) );
 		assertTrue( configValues.containsKey( IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_NAMECORPUS_LASTNAMES) );
 		assertTrue( configValues.containsKey( IConfigKeys.IMPORT_STRATEGY_DIRECTORYIMPORT_ENCODING) );

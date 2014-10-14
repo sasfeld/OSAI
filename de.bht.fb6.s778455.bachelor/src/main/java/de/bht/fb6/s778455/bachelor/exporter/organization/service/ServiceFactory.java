@@ -6,6 +6,7 @@ package de.bht.fb6.s778455.bachelor.exporter.organization.service;
 import de.bht.fb6.s778455.bachelor.exporter.AExportStrategy;
 import de.bht.fb6.s778455.bachelor.exporter.experimental.DirectoryExportStrategy;
 import de.bht.fb6.s778455.bachelor.exporter.organization.ConfigReader;
+import de.bht.fb6.s778455.bachelor.organization.IConfigKeys;
 import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
 
 /**
@@ -17,13 +18,14 @@ import de.bht.fb6.s778455.bachelor.organization.IConfigReader;
  */
 public class ServiceFactory {
 	protected static IConfigReader configReader;
-	protected static DirectoryExportStrategy dirExportStrat;
+	protected static AExportStrategy dirExportStrat;
 	
 	/**
 	 * Get the {@link IConfigReader} for the exporter module.
 	 * @return
 	 */
-	public static IConfigReader getConfigReader() {
+	public static IConfigReader getConfigReader() 
+	{
 		if ( null == configReader ) {
 			configReader = new ConfigReader();
 		}
@@ -34,12 +36,29 @@ public class ServiceFactory {
      * Get the {@link DirectoyExportStrategy}.
      * @return
      */
-    public static AExportStrategy getDirectoryExportStrategy() {
+    public static AExportStrategy getDirectoryExportStrategy() 
+    {
         if(null == dirExportStrat) {
-            dirExportStrat = new DirectoryExportStrategy();
+            dirExportStrat = newDirectoryExportStrategy();
         }
         
         return dirExportStrat;
+    }
+    
+    /**
+     * Create a new {@link DirectoryExportStrategy} and inject dependencies.
+     * 
+     * @return
+     */
+    public static AExportStrategy newDirectoryExportStrategy()
+    {
+        DirectoryExportStrategy directoryExportStrategy = new DirectoryExportStrategy();
+        
+        // inject dependencies
+        directoryExportStrategy.setEncoding(getConfigReader().fetchValue(
+                IConfigKeys.EXPORT_STRATEGY_DIRECTORYEXPORT_ENCODING ));
+        
+        return directoryExportStrategy;
     }
 
 }

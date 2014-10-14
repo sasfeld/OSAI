@@ -15,7 +15,7 @@ import java.util.Map;
  * @since 13.11.2013
  *
  */
-public interface IConfigReader {
+public interface IConfigReader extends IConfigKeys {
 
 	/**
 	 * Fetch the single value for a given property key.

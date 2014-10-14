@@ -31,8 +31,8 @@ import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
  * 
  */
 public abstract class APropertiesConfigReader implements IConfigReader {
-    protected static final String PATH_CONFIG = "./conf/production/";
-    protected static final String PATH_CONFIG_UNITTEST = "./conf/unittest/";
+    public static final String PATH_CONFIG = "./conf/production/";
+    public static final String PATH_CONFIG_UNITTEST = "./conf/unittest/";
     
     protected Properties properties;
     protected Map<String, String> propertiesMap;

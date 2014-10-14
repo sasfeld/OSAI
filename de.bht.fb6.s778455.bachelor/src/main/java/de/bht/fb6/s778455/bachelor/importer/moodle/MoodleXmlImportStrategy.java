@@ -31,7 +31,7 @@ import de.bht.fb6.s778455.bachelor.organization.xml.XmlExtractor;
  * @since 03.01.2014
  * 
  */
-public class MoodleXmlImporterStrategy extends AImportStrategy {
+public class MoodleXmlImportStrategy extends AImportStrategy {
 	/*
 	 * (non-Javadoc)
 	 * 

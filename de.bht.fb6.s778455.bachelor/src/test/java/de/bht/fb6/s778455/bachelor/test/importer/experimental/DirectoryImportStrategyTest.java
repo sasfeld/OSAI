@@ -16,6 +16,7 @@ import org.junit.Test;
 
 import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
 import de.bht.fb6.s778455.bachelor.importer.experimental.DirectoryImportStrategy;
+import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
@@ -54,7 +55,7 @@ public class DirectoryImportStrategyTest extends NoLoggingTest {
      */
     @Before
     public void setUp() throws Exception {
-        this.importStrategy = new DirectoryImportStrategy();
+        this.importStrategy = ServiceFactory.newDirectoryImportStrategy();
     }
 
     /**

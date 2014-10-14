@@ -6,8 +6,7 @@ package de.bht.fb6.s778455.bachelor.semantic.creation.controller;
 import java.io.File;
 import java.util.Date;
 
-import de.bht.fb6.s778455.bachelor.importer.AImportStrategy;
-import de.bht.fb6.s778455.bachelor.importer.organization.service.ServiceFactory;
+import de.bht.fb6.s778455.bachelor.importer.organization.service.ImportProcessingFacade;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
 import de.bht.fb6.s778455.bachelor.organization.InvalidConfigException;
@@ -28,8 +27,6 @@ public class SemanticCreationCliController {
     protected File inputFile;
     protected File outputFile;
 
-    protected AImportStrategy importStrategy;
-
     protected LmsCourseSet importedCourses;
     private long creationStartTime;
     private long creationStopTime;
@@ -42,7 +39,6 @@ public class SemanticCreationCliController {
      * @throws InvalidConfigException 
      */
     public SemanticCreationCliController( final File finputFile ) throws InvalidConfigException {
-        this.prepareStrategies();
         this.prepareFiles( finputFile );
         
         this.semanticCreationController = new SemanticCreationController( true );
@@ -58,13 +54,6 @@ public class SemanticCreationCliController {
     }
 
     /**
-     * Prepare the import and export strategy.
-     */
-    private void prepareStrategies() {
-        this.importStrategy = ServiceFactory.getDirectoryImportStrategy();
-    }
-
-    /**
      * Perform the import.
      * 
      * @return
@@ -75,7 +64,7 @@ public class SemanticCreationCliController {
             throw new IllegalStateException( "Import was already performed!" );
         }      
 
-        this.importedCourses = this.importStrategy.importBoardFromFile( this.inputFile );
+        this.importedCourses = ImportProcessingFacade.importFromFileSystem(this.inputFile);
 
         return true;
     }
@@ -130,20 +119,17 @@ public class SemanticCreationCliController {
         return statBuilder.getStringRepresentation();
     }
 
+    // ############################################
+    // static methods
+    // ############################################
     public static void main( final String[] args ) {
-        System.out.println( "..:: Semantic creation tool ::.." );
-        System.out.println( "Welcome!" );
-        System.out.println( "" );
-        System.out.println( "Append --help for a help text." );
-        System.out.println( "" );
+        showWelcomeText();
 
         // read args
         int ind = 0;
-        String inputFile = null;
-        ;
+        String inputFile = null;        
 
-        if( 0 == args.length || args[0].equals( "--help" ) ) {
-            System.out.println( printHelp() );
+        if (printHelpIfConfigured(args)) {
             return;
         }
 
@@ -159,21 +145,98 @@ public class SemanticCreationCliController {
         }
 
         // validate
-        if( null == inputFile ) {
-            System.err
-                    .println( "No inputFile given. Please give a fully qualified path after the '-inputFile' key." );
+        if (!validateParameters(inputFile)) {
+            return;
         }
 
         // instantiate files and controller
-        final File finputFile = new File( inputFile );
-
-        if( !finputFile.exists() ) {
-            System.err
-                    .println( "The given inputFile doesn't exist: "
-                            + inputFile
-                            + ". Make sure that you appended the correct file and retry." );
+        final File finputFile = validateInputFile(inputFile);
+        
+        if (null == finputFile) {
+            return;
         }
 
+        SemanticCreationCliController controller = initializeController(
+                inputFile, finputFile);
+        
+        if (null == controller) {
+            return;
+        }
+
+        // perform import
+        if (!performImport(controller)) {
+            return;
+        }
+        
+        // statistics
+        showImportStatistics(controller);
+
+        // perform creation
+        if (!performCreation(controller)) {
+            return;
+        }
+        
+        showFinalStatistics(controller);
+
+        // perform export
+        showGoodbyeMessage(controller);
+
+    }
+
+    protected static void showGoodbyeMessage(
+            SemanticCreationCliController controller) {
+        System.out.println( "The model was released with the following URI: "
+                + controller.getGraphUri() );
+        System.out
+                .println( "You can access the semantic network using the NAMED GRAPH pattern (see SPARQL commands)." );
+        System.out.println( "Goodbye!" );
+    }
+
+    protected static void showFinalStatistics(
+            SemanticCreationCliController controller) {
+        // elapsed time
+        System.out.println( "Elapsed time (s) " + ((controller.creationStopTime - controller.creationStartTime) / 1000));
+    }
+
+    protected static void showImportStatistics(
+            SemanticCreationCliController controller) {
+        System.out.println( controller.getStatistics() );
+    }
+
+    protected static boolean performCreation(
+            SemanticCreationCliController controller) {
+        try {
+            System.out.println( "Starting semantic creation...\n\n" );
+            controller.performCreation();
+        } catch( final Exception e ) {
+            System.err.println( "An error occured: " + e.getLocalizedMessage() );
+            return false;
+        }
+        System.out.println( "Creation was successfull!\n\n" );
+        
+        return true;
+
+    }
+
+    /**
+     * 
+     * @param controller
+     */
+    protected static boolean performImport(SemanticCreationCliController controller) {
+        try {
+            System.out.println( "Starting import...\n\n" );
+            controller.performImport();
+        } catch( final GeneralLoggingException e ) {
+            System.err.println( "An error occured: " + e.getLocalizedMessage() );
+            return false;
+        }
+        System.out.println( "Import was successfull!\n\n" );
+        
+        return true;
+    }
+
+    protected static SemanticCreationCliController initializeController(
+            String inputFile, final File finputFile) {
         SemanticCreationCliController controller = null;
         try {
             controller = new SemanticCreationCliController( finputFile );
@@ -184,39 +247,49 @@ public class SemanticCreationCliController {
         } catch( final InvalidConfigException e ) {
             System.err.println( "Controller couldn't get initialized. Error: "
                     + e.getLocalizedMessage() );
-            return;
+            return null;
         }
+        return controller;
+    }
 
-        // perform import
-        try {
-            System.out.println( "Starting import...\n\n" );
-            controller.performImport();
-        } catch( final GeneralLoggingException e ) {
-            System.err.println( "An error occured: " + e.getLocalizedMessage() );
-            return;
+    protected static File validateInputFile(String inputFile) {
+        final File finputFile = new File( inputFile );
+
+        if( !finputFile.exists() ) {
+            System.err
+                    .println( "The given inputFile doesn't exist: "
+                            + inputFile
+                            + ". Make sure that you appended the correct file and retry." );
+            return null;
         }
-        System.out.println( "Import was successfull!\n\n" );
+        return finputFile;
+    }
 
-        // perform extraction
-
-        // statistics
-        System.out.println( controller.getStatistics() );
-
-        System.out.println( "Starting creation...\n\n" );
-        controller.performCreation();
-
-        System.out.println( "Creation was successfull!\n\n" );
+    protected static boolean validateParameters(String inputFile) {
+        if( null == inputFile ) {
+            System.err
+                    .println( "No inputFile given. Please give a fully qualified path after the '-inputFile' key." );
+            return false;
+        }
         
-        // elapsed time
-        System.out.println( "Elapsed time (s) " + ((controller.creationStopTime - controller.creationStartTime) / 1000));
+        return true;
+    }
 
-        // perform export
-        System.out.println( "The model was released with the following URI: "
-                + controller.getGraphUri() );
-        System.out
-                .println( "You can access the semantic network using the NAMED GRAPH pattern (see SPARQL commands)." );
-        System.out.println( "Goodbye!" );
+    protected static boolean printHelpIfConfigured(final String[] args) {
+        if( 0 == args.length || args[0].equals( "--help" ) ) {
+            System.out.println( printHelp() );
+            return true;
+        }
+        
+        return false;
+    }
 
+    protected static void showWelcomeText() {
+        System.out.println( "..:: Semantic creation tool ::.." );
+        System.out.println( "Welcome!" );
+        System.out.println( "" );
+        System.out.println( "Append --help for a help text." );
+        System.out.println( "" );
     }
 
     private static String printHelp() {
