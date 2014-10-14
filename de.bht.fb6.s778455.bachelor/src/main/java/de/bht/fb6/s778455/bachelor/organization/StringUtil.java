@@ -74,7 +74,7 @@ public class StringUtil {
         // insert whitespaces after ":": negative lookahead regex: all ","
         // followed by no whitespace will be replaced by ",[whitespace]"
         cleanedText = cleanedText.replaceAll( "\\:(?!\\s)(?=[a-zA-Z0-9])",
-                ", " );
+                ": " );
         
         return cleanedText;
 	}
