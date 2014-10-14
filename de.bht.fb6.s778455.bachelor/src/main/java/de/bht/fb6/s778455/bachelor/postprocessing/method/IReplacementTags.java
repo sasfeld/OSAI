@@ -3,6 +3,8 @@
  */
 package de.bht.fb6.s778455.bachelor.postprocessing.method;
 
+import de.bht.fb6.s778455.bachelor.anonymization.strategy.AAnomyzationStrategy;
+
 /**
  * <p>Replacement tags indicate that an {@link IPostprocessMethod} filtered some entity.</p>
  * 
@@ -19,5 +21,11 @@ public interface IReplacementTags
      * @see HyperlinkFilter
      */
     static String HYPERLINK_REPLACEMENT_TAG = "<REMOVED_HYPERLINK>";
+    
+    /**
+     * Removed personal data, such as e-mail addresses.
+     * @see PersonalDataFilter
+     */
+    static String PERSONAL_DATA_REPLACEMENT_TAG = AAnomyzationStrategy.PERSONAL_DATA_REPLACEMENT;
     
 }

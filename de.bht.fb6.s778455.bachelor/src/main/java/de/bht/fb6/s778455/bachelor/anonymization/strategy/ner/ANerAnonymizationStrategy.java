@@ -146,11 +146,10 @@ public abstract class ANerAnonymizationStrategy extends AAnomyzationStrategy {
 	 */
 	public String anonymizeText( String inputText ) throws GeneralLoggingException {
 		String preparedText = inputText;
+		
+		// delegate to decorating strategy
 		if( null != this.decoratingStrategy ) {
 			preparedText = this.decoratingStrategy.anonymizeText( inputText );
-		} else { // last strategy in chain
-			preparedText = super.prepareText( preparedText );
-			preparedText = super.filterPersonalData( preparedText );
 		}
 
 		return preparedText;

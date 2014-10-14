@@ -48,7 +48,7 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 	 */
 	public String anonymizeText( String inputText )
 			throws GeneralLoggingException {
-		String removedGreetings = super.prepareText( inputText );
+		String removedGreetings = inputText;
 
 		// replace words following greeting (configured in the
 		// anonymization.properties)

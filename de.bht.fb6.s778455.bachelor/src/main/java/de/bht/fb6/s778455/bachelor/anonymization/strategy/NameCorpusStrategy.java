@@ -56,7 +56,7 @@ public class NameCorpusStrategy extends AAnomyzationStrategy {
 
 	private String anonymizeNames( final String inputText, final PersonNameCorpus nameCorpus )
 			throws GeneralLoggingException {
-		String anonymizedText = super.prepareText( inputText );
+		String anonymizedText = inputText;
 		final List< String > names = new ArrayList< String >();
 		names.addAll( nameCorpus.getPrenames() );
 		names.addAll( nameCorpus.getLastnames() );

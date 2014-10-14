@@ -3,7 +3,7 @@
  */
 package de.bht.fb6.s778455.bachelor.test.postprocessing.method;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.After;
 import org.junit.Before;
@@ -14,12 +14,9 @@ import de.bht.fb6.s778455.bachelor.model.BoardThread;
 import de.bht.fb6.s778455.bachelor.model.Course;
 import de.bht.fb6.s778455.bachelor.model.LmsCourseSet;
 import de.bht.fb6.s778455.bachelor.model.Posting;
-import de.bht.fb6.s778455.bachelor.postprocessing.manager.PostprocessEvent.PostProcessEvents;
 import de.bht.fb6.s778455.bachelor.postprocessing.method.AbstractPostprocessMethod;
 import de.bht.fb6.s778455.bachelor.postprocessing.method.HyperlinkFilter;
-import de.bht.fb6.s778455.bachelor.postprocessing.method.IPostprocessMethod;
 import de.bht.fb6.s778455.bachelor.postprocessing.method.IReplacementTags;
-import de.bht.fb6.s778455.bachelor.postprocessing.organization.service.ServiceFactory;
 import de.bht.fb6.s778455.bachelor.test.framework.NoLoggingTest;
 import de.bht.fb6.s778455.bachelor.test.framework.service.ImportFactory;
 

@@ -49,7 +49,7 @@ public class LearnedNamesStrategy extends AAnomyzationStrategy {
 	@Override
 	public String anonymizeText( final String inputText, final Board belongingBoard )
 			throws GeneralLoggingException {
-		String anonymizedText = super.prepareText( inputText );
+		String anonymizedText = inputText;
 
 		final Set< String > personNames = belongingBoard.getBelongingCourse()
 				.getLearnedWords( LearnedWordTypes.PERSON_NAME );
