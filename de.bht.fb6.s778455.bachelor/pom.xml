@@ -76,6 +76,7 @@ This software includes the anonymization of person entities in  postings of a bo
 			<groupId>de.blum.nlp.preprocess</groupId>
 			<artifactId>pet</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 
