@@ -302,6 +302,7 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 					.log( getClass()
 							+ ":addLearnedWords(): there's no board known within the greeting strategy instance. So no learned words can be added!",
 							LogType.WARNING );
+			return;
 		}
 		Board belongingBoard = this.getBoard();
 
