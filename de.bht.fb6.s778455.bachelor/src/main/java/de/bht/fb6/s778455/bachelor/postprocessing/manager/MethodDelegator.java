@@ -7,6 +7,8 @@ import java.util.Observable;
 import java.util.Observer;
 import java.util.Set;
 
+import de.bht.fb6.s778455.bachelor.organization.Application;
+import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 import de.bht.fb6.s778455.bachelor.postprocessing.manager.PostprocessEvent.PostProcessEvents;
 import de.bht.fb6.s778455.bachelor.postprocessing.method.AbstractPostprocessMethod;
 import de.bht.fb6.s778455.bachelor.postprocessing.method.IPostprocessMethod;
@@ -60,6 +62,14 @@ public class MethodDelegator implements Observer
     private void triggerTemplateMethods(PostprocessEvent event, PostProcessEvents eventName)
     {
         Set<IPostprocessMethod> methods = this.getMethodsForEvent(eventName);
+        
+        if (null == methods) {
+        	// no methods configured
+        	
+        	Application.log("triggerTemplateMethods(): No methods for event " + eventName, LogType.INFO, getClass());
+        	
+        	return;
+        }
         
         for (IPostprocessMethod iPostprocessMethod : methods) {
             // set the LmsCourseSetInstance on the postprocess event attached to this event

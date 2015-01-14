@@ -14,6 +14,9 @@ import de.bht.fb6.s778455.bachelor.postprocessing.manager.PostprocessEvent.PostP
 import de.bht.fb6.s778455.bachelor.postprocessing.method.HyperlinkFilter;
 import de.bht.fb6.s778455.bachelor.postprocessing.method.IPostprocessMethod;
 import de.bht.fb6.s778455.bachelor.postprocessing.method.JavaCodeFilter;
+import de.bht.fb6.s778455.bachelor.postprocessing.method.MoodleCharacterFilter;
+import de.bht.fb6.s778455.bachelor.postprocessing.method.PersonalDataFilter;
+import de.bht.fb6.s778455.bachelor.postprocessing.method.WhitespaceInserter;
 import de.bht.fb6.s778455.bachelor.postprocessing.organization.ConfigReader;
 import de.blum.nlp.filter.Filter;
 
@@ -107,7 +110,25 @@ public class ServiceFactory
      */
     public static IPostprocessMethod newHyperlinkFilter()
     {
-        HyperlinkFilter codeFilter = new HyperlinkFilter();
+    	IPostprocessMethod codeFilter = new HyperlinkFilter();
         return codeFilter;
-    } 
+    }
+    
+    public static IPostprocessMethod newWhitespaceInserterFilter()
+    {
+    	IPostprocessMethod codeFilter = new WhitespaceInserter();
+        return codeFilter;
+    }
+    
+    public static IPostprocessMethod newMoodleCharacterFilter()
+    {
+    	IPostprocessMethod codeFilter = new MoodleCharacterFilter();
+        return codeFilter;
+    }
+    
+    public static IPostprocessMethod newPersonalDataFilter()
+    {
+    	IPostprocessMethod codeFilter = new PersonalDataFilter();
+        return codeFilter;
+    }
 }
