@@ -7,8 +7,7 @@ import java.util.List;
 
 import de.bht.fb6.s778455.bachelor.model.Board;
 import de.bht.fb6.s778455.bachelor.organization.GeneralLoggingException;
-import de.bht.fb6.s778455.bachelor.organization.MoodleHelper;
-import de.bht.fb6.s778455.bachelor.organization.StringUtil;
+import de.bht.fb6.s778455.bachelor.postprocessing.method.IPostprocessMethod;
 
 /**
  * 
@@ -86,20 +85,14 @@ public abstract class AAnomyzationStrategy {
 	 * @param preparedText
 	 * @return a new {@link String}
 	 * @throws GeneralLoggingException
+	 * 
+	 * @deprecated since the filter functionality was moved to the global postprocessing module.
+	 * @see IPostprocessMethod and the new module's documentation
 	 */
 	protected String prepareText( final String preparedText )
 			throws GeneralLoggingException {
 		if( null != preparedText ) {
 			String cleanedText = preparedText;
-
-			// remove moodle tags
-			cleanedText = this.removeMoodleChars( cleanedText );
-
-			// remove empty lines
-			cleanedText = cleanedText.replaceAll( "(?m)^[ \t]*\r?\n", "" );
-
-			cleanedText = StringUtil.fillMissingWhitespaces( cleanedText );
-
 			return cleanedText;
 		}
 		throw new GeneralLoggingException( this.getClass()
@@ -107,26 +100,16 @@ public abstract class AAnomyzationStrategy {
 				"Internal error in the anonymization system!" );
 	}
 
-	private String removeMoodleChars( final String cleanedText ) {
-		return MoodleHelper.removeMoodleChars( cleanedText );
-	}
-
 	/**
 	 * Filter personal data, such as eMail adresses and so on.
 	 * 
 	 * @param preparedText
 	 * @return a new {@link String}
+	 * @deprecated since the filter functionality was moved to the global postprocessing module.
+     * @see IPostprocessMethod and the new module's documentation
 	 */
 	protected String filterPersonalData( final String preparedText ) {
 		String cleanedText = preparedText;
-
-		// replace eMail-addresses, follows example at
-		// http://www.brain4.de/programmierecke/js/tools/regex.php
-		cleanedText = cleanedText
-				.replaceAll(
-						"[a-zA-Z0-9][\\w\\.-]*@(?:[a-zA-Z0-9][a-zA-Z0-9_-]+\\.)+[A-Z,a-z]{2,5}",
-						PERSONAL_DATA_REPLACEMENT );
-
 		return cleanedText;
 	}
 

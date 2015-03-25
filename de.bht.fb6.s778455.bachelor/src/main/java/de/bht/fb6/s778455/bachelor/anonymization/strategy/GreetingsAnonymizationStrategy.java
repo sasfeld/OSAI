@@ -48,7 +48,7 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 	 */
 	public String anonymizeText( String inputText )
 			throws GeneralLoggingException {
-		String removedGreetings = super.prepareText( inputText );
+		String removedGreetings = inputText;
 
 		// replace words following greeting (configured in the
 		// anonymization.properties)
@@ -302,6 +302,7 @@ public class GreetingsAnonymizationStrategy extends AAnomyzationStrategy {
 					.log( getClass()
 							+ ":addLearnedWords(): there's no board known within the greeting strategy instance. So no learned words can be added!",
 							LogType.WARNING );
+			return;
 		}
 		Board belongingBoard = this.getBoard();
 

@@ -62,19 +62,19 @@ public class StringUtil {
         // insert whitespaces after "!": negative lookahead regex: all ","
         // followed by no whitespace will be replaced by ",[whitespace]"
         cleanedText = cleanedText.replaceAll( "\\!(?!\\s)(?=[a-zA-Z0-9])",
-                ", " );
+                "! " );
         // insert whitespaces after "?": negative lookahead regex: all ","
         // followed by no whitespace will be replaced by ",[whitespace]"
         cleanedText = cleanedText.replaceAll( "\\?(?!\\s)(?=[a-zA-Z0-9])",
-                ", " );
+                "? " );
         // insert whitespaces after ";": negative lookahead regex: all ","
         // followed by no whitespace will be replaced by ",[whitespace]"
         cleanedText = cleanedText.replaceAll( "\\;(?!\\s)(?=[a-zA-Z0-9])",
-                ", " );
+                "; " );
         // insert whitespaces after ":": negative lookahead regex: all ","
         // followed by no whitespace will be replaced by ",[whitespace]"
         cleanedText = cleanedText.replaceAll( "\\:(?!\\s)(?=[a-zA-Z0-9])",
-                ", " );
+                ": " );
         
         return cleanedText;
 	}
@@ -99,4 +99,36 @@ public class StringUtil {
         return resultSet;
 	}
 
+	/**
+	 * Remove the empy lines in the given string.
+	 * 
+	 * @param content
+	 * @return a new string without empty lines.
+	 */
+    public static String removeEmptyLines(final String content) 
+    {
+        String cleanedText = content.replaceAll( "(?m)^[ \t]*\r?\n", "" );
+        return cleanedText;
+    }
+    
+    /**
+     * Remove all e-mail addresses by the given replacementString.
+     * 
+     * @param content
+     * @param replacementString
+     * @return
+     */
+    public static String removeMailAddresses(final String content, final String replacementString)
+    {
+        String cleanedText = content;
+
+        // replace eMail-addresses, follows example at
+        // http://www.brain4.de/programmierecke/js/tools/regex.php
+        cleanedText = cleanedText
+                .replaceAll(
+                        "[a-zA-Z0-9][\\w\\.-]*@(?:[a-zA-Z0-9][a-zA-Z0-9_-]+\\.)+[A-Z,a-z]{2,5}",
+                        replacementString );
+
+        return cleanedText;
+    }
 }

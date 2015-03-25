@@ -361,6 +361,8 @@ public class DirectoryImportStrategy extends AImportStrategy {
 				final BoardThread boardThread = new BoardThread( newBoard );
 				final String threadName = threadDir.getName();
 				boardThread.setTitle( threadName );
+				
+				Application.log("Thread name: " + threadDir.getName(), LogType.INFO);
 
 				// import boardthread.txt
 				final File boardThreadFile = new File( threadDir, "boardthread.txt" );
@@ -401,7 +403,8 @@ public class DirectoryImportStrategy extends AImportStrategy {
 				// use the first posting to enrich the thread's metadata
 				if( postingFile.getName().contains( "posting1" ) ) {
 					boardThread.setCreationDate( p.getCreationDate() );
-					boardThread.setTitle( p.getTitle() );
+					
+//					boardThread.setTitle( p.getTitle() );
 				}
 			}
 		}

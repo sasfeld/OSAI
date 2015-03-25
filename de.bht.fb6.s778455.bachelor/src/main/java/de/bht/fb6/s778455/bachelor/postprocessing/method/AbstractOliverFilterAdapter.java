@@ -39,16 +39,6 @@ public abstract class AbstractOliverFilterAdapter extends AbstractPostprocessMet
      * @return
      */
     protected abstract String applyFurtherFilters(String filteredContent);
-
-    /* (non-Javadoc)
-     * @see de.bht.fb6.s778455.bachelor.postprocessing.method.AbstractPostprocessMethod#applyMethod()
-     */
-    @Override
-    protected void applyMethod()
-    {
-        // TODO Auto-generated method stub
-
-    }
     
     /**
      * Iterate through model hierarchy.

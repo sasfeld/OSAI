@@ -6,8 +6,12 @@ package de.bht.fb6.s778455.bachelor.postprocessing.organization.service;
 import java.util.HashMap;
 import java.util.Map;
 
+import de.bht.fb6.s778455.bachelor.postprocessing.method.HyperlinkFilter;
 import de.bht.fb6.s778455.bachelor.postprocessing.method.IPostprocessMethod;
 import de.bht.fb6.s778455.bachelor.postprocessing.method.JavaCodeFilter;
+import de.bht.fb6.s778455.bachelor.postprocessing.method.MoodleCharacterFilter;
+import de.bht.fb6.s778455.bachelor.postprocessing.method.PersonalDataFilter;
+import de.bht.fb6.s778455.bachelor.postprocessing.method.WhitespaceInserter;
 
 /**
  * <p></p>
@@ -19,6 +23,10 @@ import de.bht.fb6.s778455.bachelor.postprocessing.method.JavaCodeFilter;
 public class PostprocessMethodRegistry
 {
     public static String FULL_CLASS_NAME_JAVA_CODE_FILTER = JavaCodeFilter.class.getName();
+    public static String FULL_CLASS_NAME_WHITESPACE_INSERTER_FILTER = WhitespaceInserter.class.getName();
+    public static String FULL_CLASS_NAME_HYPERLINK_FILTER = HyperlinkFilter.class.getName();
+    public static String FULL_CLASS_NAME_MOODLE_CHARACTER_FILTER = MoodleCharacterFilter.class.getName();
+    public static String FULL_CLASS_NAME_JAVA_PERSONAL_DATA_FILTER = PersonalDataFilter.class.getName();
     
     /**
      * Mapping of class name -> {@link IPostprocessMethod} instance.
@@ -38,6 +46,10 @@ public class PostprocessMethodRegistry
     protected static void fillPostprocessMethods()
     {
        postprocessMethodMap.put(FULL_CLASS_NAME_JAVA_CODE_FILTER, ServiceFactory.newJavaCodeFilter());
+       postprocessMethodMap.put(FULL_CLASS_NAME_WHITESPACE_INSERTER_FILTER, ServiceFactory.newWhitespaceInserterFilter());
+       postprocessMethodMap.put(FULL_CLASS_NAME_HYPERLINK_FILTER, ServiceFactory.newHyperlinkFilter());
+       postprocessMethodMap.put(FULL_CLASS_NAME_MOODLE_CHARACTER_FILTER, ServiceFactory.newMoodleCharacterFilter());
+       postprocessMethodMap.put(FULL_CLASS_NAME_JAVA_PERSONAL_DATA_FILTER, ServiceFactory.newPersonalDataFilter());       
     }
 
     /**
@@ -51,7 +63,7 @@ public class PostprocessMethodRegistry
         IPostprocessMethod method = postprocessMethodMap.get(configuredClassName);
         
         if (null == method) {
-            throw new IllegalArgumentException("The given configuredClassName could not be mapped to an IPostprocessMethod instance.");
+            throw new IllegalArgumentException("The given configuredClassName '" + configuredClassName + "'could not be mapped to an IPostprocessMethod instance.");
         }
         
         return method;
