@@ -15,6 +15,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
+import org.apache.commons.lang3.exception.ExceptionUtils;
+
 import de.bht.fb6.s778455.bachelor.organization.Application.LogType;
 
 /**
@@ -194,6 +196,11 @@ public abstract class APropertiesConfigReader implements IConfigReader {
                     + ") was not successfull. Either it doesn't exist or doesn't extend the given class. Or the constructor raises an exception. Full exception: \n"
                     + e;
             String presentationMessage = "An internal error occured while trying to read the configuration in the module. Please read the error log.";
+            
+            if (e instanceof InvocationTargetException) {
+            	Throwable orignal = ((InvocationTargetException) e).getCause();
+            	errorMessage += "\nOriginal exception:\n" + ExceptionUtils.getStackTrace(orignal);
+            }
             throw new InvalidConfigException(errorMessage, presentationMessage,
                     e);
         }

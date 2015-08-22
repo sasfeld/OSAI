@@ -406,6 +406,17 @@ public class DirectoryImportStrategy extends AImportStrategy {
 					
 //					boardThread.setTitle( p.getTitle() );
 				}
+				
+				if ( 0 == p.getId() ) {
+					// set ID from filename fallback
+					try {
+						int idFromFileName = Integer.parseInt(postingFile.getName().replaceAll("\\D+",""));
+						p.setId(idFromFileName);
+					} catch (NumberFormatException e) {
+						// ignore
+					}
+					
+				}
 			}
 		}
 	}

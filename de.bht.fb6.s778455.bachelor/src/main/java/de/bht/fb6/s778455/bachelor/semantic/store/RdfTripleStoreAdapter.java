@@ -107,11 +107,20 @@ public class RdfTripleStoreAdapter implements IUniqueProperties,
     protected void initialize( final Dataset jenaStore,
             final File ontologyFile, final String ontologyBaseUri,
             final boolean forceUpdateOntology ) {
-        if( null == jenaStore || null == ontologyFile || !ontologyFile.exists()
+    	if ( null == jenaStore ) {
+    		  throw new IllegalArgumentException(
+                      "Type of param jenaStore must not be null." );
+    	}
+    	if ( null == ontologyFile ) {
+    		throw new IllegalArgumentException(
+    				"Type of param ontologyFile must not be null." );
+    	}
+        if( !ontologyFile.exists()
                 || null == ontologyBaseUri ) {
             throw new IllegalArgumentException(
-                    "Null values are not allowed for arguments or the ontology file doesn't exist!" );
+                    "The ontologyFile " + ontologyFile.getAbsolutePath() + " doesn't exist." );
         }
+        
         // check ontology base uri
         try {
             this.ontologyBaseUri = new URL( ontologyBaseUri );
